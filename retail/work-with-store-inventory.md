@@ -33,9 +33,8 @@ Met de volgende typen documenten kunt u de voorraad van uw organisatie beheren.
 
 ## <a name="purchase-orders"></a>Inkooporders
 Inkooporders worden gemaakt op het hoofdkantoor. Als een detailhandelmagazijn is opgenomen in de inkooporderkoptekst, kan de order in de winkel worden ontvangen met behulp van moderne POS (MPOS) of Cloud-POS in Microsoft Dynamics 365 voor bewerkingen: Retail. Nadat de hoeveelheden die in de winkel zijn ontvangen, worden ingevoerd, kunnen zij lokaal worden opgeslagen voor verdere wijzigingen. Ook kan de hoeveelheden kunnen worden vastgelegd en verzonden naar het hoofdkantoor. Op het hoofdkantoor de hoeveelheden die zijn ontvangen in de winkel worden weergegeven in Dynamics 365 voor bewerkingen in de **nu ontvangen** op de inkooporder.
-Transferorders
----------------
 
+## <a name="transfer-orders"></a>Transferorders
 Een transferorder kan opgeven dat een bepaalde winkel een locatie is waaruit artikelen kunnen worden verzonden. In dit geval wordt weergegeven de transferorder in de winkel als een aanvraag voor picken in MPOS of Cloud-POS. Nadat het picken van de aangevraagde hoeveelheden, worden ze toegezegd en verzonden naar het hoofdkantoor. Op het hoofdkantoor de hoeveelheden die zijn opgenomen in de winkel worden weergegeven in Dynamics 365 voor bewerkingen in de **nu verzenden** op de transferorder. Een transferorder kan opgeven dat een bepaalde winkel een locatie is waarnaar artikelen kunnen worden verzonden. In dit geval wordt weergegeven de transferorder in de winkel als een aanvraag voor ontvangen in MPOS of Cloud-POS. Nadat de hoeveelheden die in de winkel zijn ontvangen, worden ingevoerd, kunnen zij lokaal worden opgeslagen voor verdere wijzigingen. Ook kan de hoeveelheden kunnen worden vastgelegd en verzonden naar het hoofdkantoor. Op het hoofdkantoor de hoeveelheden die zijn ontvangen in de winkel worden weergegeven in Dynamics 365 voor bewerkingen in de **nu ontvangen** op de transferorder.
 
 ## <a name="stock-counts"></a>Voorraadtellingen
