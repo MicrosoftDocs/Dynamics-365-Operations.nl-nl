@@ -1,0 +1,86 @@
+---
+title: Producten en productvarianten zoeken tijdens orderinvoer
+description: Met het veld <strong>Artikelnummer </strong> kunt u zoeken naar producten en productvarianten, wanneer u handmatig een verkoop- of inkooporderregel maakt.  Zo kunt u snel productvarianten zoeken wanneer u alleen de configuratietekenreeks of een van de beschikbare productdimensies hebt.
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: MCRFullTextIndexField, MCRFullTextParameters, PurchTable, SalesTable
+audience: Application User
+ms.search.scope: Operations, Core
+ms.custom: 248534
+ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
+ms.search.region: global
+ms.search.industry: Manufacturing
+ms.author: roxanad
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 5b0f3c1a853f8f5e61dedaf588b6f9d2da3a53b5
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="search-for-products-and-product-variants-during-order-entry"></a>Producten en productvarianten zoeken tijdens orderinvoer
+
+Met het veld <strong>Artikelnummer </strong> kunt u zoeken naar producten en productvarianten, wanneer u handmatig een verkoop- of inkooporderregel maakt.  Zo kunt u snel productvarianten zoeken wanneer u alleen de configuratietekenreeks of een van de beschikbare productdimensies hebt.
+
+Soms hoeft te groot deel van een onderdeel is niet de beste situatie in, en dit is vooral belangrijk als u een aantal producten die vergelijkbaar zijn verkocht en u probeert te onthouden artikelnummers of zoeknamen product om te zoeken op het juiste product op een verkooporder wilt plaatsen. U kunt de **artikelnummer** op een verkooporderregel of een inkooporderregel als zoekveld. U kunt een willekeurig deel van een naam, nummer of dimensie van een product invoeren. In een opzoekweergave worden vervolgens alle artikelen getoond die voldoen aan uw zoekterm.
+
+## <a name="how-search-works"></a>Hoe het zoeken functioneert
+Wanneer u zoekt naar producten of productvarianten, moet u weten hoe de zoekfunctie de producten vindt die overeenkomen met de door u ingevoerde tekst. Hieronder worden de belangrijkste regels voor zoeken met goede resultaten aangestipt:
+
+-   Zoekresultaten retourneren alle records die aan de criteria voldoen, ongeacht in welk veld de zoektermen zijn ingevoerd.
+-   De zoektekst moet volledig voorkomen in een record om een match op te leveren.
+-   Een match komt zelfs voor als de zoektekst in het midden van een tekenreeks in de overeenkomstige record wordt gevonden. De tekst hoeft niet aan het begin van een tekenreeks te staan.
+-   De zoektekst wordt beschouwd als een enkele tekenreeks, zelfs als er spaties in voorkomen.
+
+### <a name="examples"></a>Voorbeelden
+
+In de volgende voorbeelden wordt door middel van producten en productvarianten getoond hoe het zoeken in diverse scenario's worden afgehandeld. **Let op:** onder **verkoop en marketing &gt;instellingen &gt;Search &gt;parameters zoeken**&gt;**type zoeken**, selecteer de **volledige overeenkomst** optie.
+
+| Producttype     | Productnaam    | Productweergavenummer | artikelnummer | Configuratie |
+|------------------|-----------------|------------------------|-------------|---------------|
+| Verschillend product | LuidsprekerMidRange | D0001                  | D0001       | N.v.t.            |
+| Productvariant  | Actieve luidspreker  | D0010:::Zwart:         | D0010       | 000005        |
+| Productvariant  | Actieve luidspreker  | D0010:::Wit:         | D0010       | Wit         |
+
+Als u in het veld **Artikelnummer** de tekst 'sprek' typt, krijgt u alle bovenstaande producten als resultaat in de opzoekweergave. Als u **Artikelnummer** de tekst 'zwart' typt, krijgt u alleen het tweede product als resultaat, omdat de tekst 'zwart' voorkomt in het productweergavenummer. Deze twee voorbeelden laten zien dat het zoeken niet alleen aan het begin van het veld voorkomt. Een overeenkomst wordt ook gevonden als de zoektekst in het midden van een tekenreeks in de overeenkomstige record wordt aangetroffen.  
+
+Als u '05' typt, vindt u alleen de tweede productvariant, omdat hier in de configuratie de tekst '05' voorkomt. Dit laat zien dat het zoeken gebeurt in alle ingeschakelde velden op de pagina **Zoekcriteria**.  
+
+De zoektekst 'sprek 05' levert geen enkel resultaat op. Dit komt doordat de zoekopdracht zoekt naar de volledige ingevoerde tekst. De zoekactie probeert niet eerst 'sprek' te vinden en vervolgens de resultaten te verfijnen tot degene die '05' bevatten.  
+
+U kunt het aantal zoekresultaten beperken met behulp van de **aantal resultaten** op de **verkoop en marketing &gt;instellingen &gt;Search &gt;parameters zoeken** pagina. Als u dit veld instelt op 0, worden alle zoekresultaten geretourneerd. Als u het bijvoorbeeld instelt op 10, worden maximaal 10 zoekresultaten geretourneerd.
+
+## <a name="configure-the-product-search"></a>De productzoekfunctie configureren
+Voordat u de functie voor het zoeken van producten en productvarianten kunt gebruiken, moet u deze functie configureren volgens de onderstaande stappen. [![3 stappen om te zoeken naar product configureren\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+
+### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Stap 1: Alle relevante identificerende kenmerken en dimensies voor producten en productvarianten toevoegen aan de zoekcriteria.
+
+Voorbeelden van identificerende kenmerken en dimensies voor producten en productvarianten waarop u kunt zoeken, zijn **Productnaam, Artikelnummer,** **Productweergavenummer, Configuratie, Kleur, Grootte, Stijl, Zoeknaam, enz.**.  
+
+Ga naar **verkoop en marketing &gt;Setup &gt;Search &gt;zoekcriteria** pagina. Op de pagina **Zoekcriteria** kunt u criteria definiëren voor het zoeken naar klanten, prospects en producten. Zorg ervoor dat u de pagina filtert door middel van zoekcriteria voor producten. Schakel hiervoor in het menu van de pagina over naar **Product**.  
+
+Als u wilt het productnummer weergave toevoegen aan de zoekcriteria, klikt u op **New** in het menu van de pagina. Kunt u hieraan een nieuwe record in de **zoekcriteria** raster. Open de opzoekweergave van de kolom **Veldnaam** en kies **DisplayProductNumber**. Configuratie van het product aan de zoekcriteria om toe te voegen maakt u een nieuwe record in de ** zoekcriteria ** raster in en kies **configId** in de **veldnaam** kolom. Maak op dezelfde manier een registratie met de **Veldnamen** **InventColorId** voor de dimensie Kleur, **InventSizeId** voor de dimensie Grootte en **InventStyleId** voor de dimensie Stijl.
+
+### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Stap 2: De databasetabel vullen die voor het zoeken naar producten wordt gebruikt
+
+Klik op de pagina **Zoekcriteria** op de knop **Zoekgegevens bijwerken**. Let erop dat in het dialoogvenster **Zoekgegevens bijwerken** de waarde in **Bron** is ingesteld op **Product** en klik vervolgens op **OK**. Het systeem samenvoegen in één tabel alle geselecteerde zoekcriteria opgegeven bij stap 1. Als u een groot aantal producten en productvarianten hebt, kan deze bewerking heel lang en ontvangt u een waarschuwing. Het wordt aangeraden om het vullen van de zoektable op de batchserver in te plannen op een tijdstip waarop de server niet erg druk is.  
+
+De productzoekfunctie geeft pas correcte resultaten als de tabel is gevuld. Als u geen zoekresultaten krijgt, controleer dan of deze tabel is gevuld.  
+
+De tabel moet alleen worden gevuld als de zoekcriteria worden gewijzigd. Nieuw vrijgegeven producten en varianten worden automatisch aan de tabel toegevoegd. Verwijderde producten en varianten worden automatisch uit de tabel verwijderd.
+
+### <a name="step-3-enable-the-lookup-for-product-search-on-sales-and-purchase-order-lines"></a>Stap 3: De opzoekweergave voor producten inschakelen voor verkoop- en inkooporderregels
+
+Kunt u deze functionaliteit inschakelen door te gaan naar **verkoop en marketing &gt;instellingen &gt;zoeken &gt;parameters zoeken** en instelling van de **zoeken inschakelen om te zoeken** naar **Ja** op de **algemeen** tabblad.  
+
+Voor invoer van verkooporderregels is het standaardgedrag als volgt: open de pagina **Product zoeken** wanneer u begint te typen in het veld **Artikelnummer**. Druk vervolgens op de **Tab**-toets. De context van de pagina **Product zoeken** wordt tijdens het aanmaken van een orderregel gewijzigd, waardoor de pagina als opdringerig worden ervaren. Als de zoekresultaten liever in een zoekveld krijgt en de context niet wilt verliezen tijdens de orderregelinvoer, kunt u in plaats daarvan de opzoekweergave van de zoekopdracht gebruiken. Als u een product of productvariant zoekt, maar niets selecteert in de opzoekweergave en op de **Tab**-toets drukt, wordt de pagina **Product zoeken** weergeven.
+
+

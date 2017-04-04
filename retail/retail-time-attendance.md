@@ -1,0 +1,136 @@
+---
+title: Tijd en aanwezigheid detailhandel
+description: Dit onderwerp beschrijft de scenario&quot;s die worden ondersteund voor tijd en aanwezigheid management in Microsoft Dynamics 365 for Operations - Retail.
+author: MargoC
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 62813
+ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: aamiral
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
+ms.openlocfilehash: eac0b85a17df33c860333c5c19d4fb58f160930f
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="retail-time-and-attendance"></a>Tijd en aanwezigheid detailhandel
+
+Dit onderwerp beschrijft de scenario's die worden ondersteund voor tijd en aanwezigheid management in Microsoft Dynamics 365 for Operations - Retail. 
+
+<a name="manage-worker-setup-and-scheduling"></a>Instellingen werknemer en planning beheren
+----------------------------------
+
+### <a name="initial-configuration"></a> initiële configuratie
+
+-   Voer de stappen in de configuratiewizard uit.
+-   Werknemers registreren als tijdregistratiewerknemers.
+
+### <a name="plan-worker-schedules"></a>De planning van de werknemersplannen
+
+-   Profielen toepassen met behulp van de werkplanner. Voor meer informatie zie <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+
+Voor informatie over de configuratiestappen zie <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+
+### <a name="retail-specific-configuration"></a>Detailhandelspecifieke configuratie
+
+-   Schakel een functionaliteitprofiel voor tijdklok in voor medewerkers voor wie u tijdregistratie wilt inschakelen. Klik op **POS´**&gt;**functies**&gt;**POS wanneer registraties**&gt;**tijdregistraties inschakelen**.
+-   Configureer verkooppuntmachtigingsgroepen om de machtiging Registraties tijdklok weergeven in te schakelen. Met deze machtiging kan een gebruiker de prikklokregistraties van andere werknemers in de winkel bekijken (en van alle andere winkels waaraan de gebruiker is gekoppeld via het adresboek). U wilt mogelijk deze machtiging inschakelen voor een managerrol maar niet voor de rol van een kassamedewerker. Klik op **POS-machtigingsgroepen**&gt;**tijdklokingaven weergeven**.
+
+## <a name="register-time"></a>Tijd registreren
+### <a name="cashier-and-non-cashier-time-registrations"></a>Tijdregistraties van kassiers en niet-kassiers
+
+-   Op POS:
+    -   Inklokbewerkingen:
+        -   Meld u aan met een niet-ladebewerking of een nieuwe ploegendienst.
+        -   Selecteer een tijdklokbewerking.
+        -   Selecteer de gewenste bewerking:
+            -   Inklokken
+            -   Pauze voor werk
+            -   Lunchpauze
+            -   Uitklokken
+
+    <table>
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Huidige status</th>
+    <th>Beschikbare bewerkingen</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>Inklokken</td>
+    <td><ul>
+    <li>Pauze voor werk</li>
+    <li>Lunchpauze</li>
+    <li>Uitklokken</li>
+    </ul></td>
+    </tr>
+    <tr class="even">
+    <td>Pauze voor werk</td>
+    <td>Inklokken</td>
+    </tr>
+    <tr class="odd">
+    <td>Lunchpauze</td>
+    <td>Inklokken</td>
+    </tr>
+    <tr class="even">
+    <td>Uitklokken</td>
+    <td>Inklokken</td>
+    </tr>
+    </tbody>
+    </table>
+
+    [![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)
+-   Bekijk het bevestigingsbericht weergeven, en controleer of de huidige activiteitstijd correct is.
+-   Logboek:
+    -   Klik op **Logboek** om prikklokactiviteit weer te geven.
+    -   Gebruik de tijdsfilters om verschillende tijdvensters te selecteren.
+    -   Als u met meerdere opslaglocaties werkt, ziet u hier uw tijdregistraties uit alle winkels waar u tijd hebt geregistreerd. U kunt het opslagfilter gebruiken om tijdregistraties van een geselecteerde opslag te bekijken.
+
+<!-- -->
+
+-   Verschillende tijdzones:
+    -   Als u tijd weergeeft vanaf een andere locatie (voor het kassierslogboek of door **Registraties tijdklok weergeven** te gebruiken voor een managerscenario), en die locatie zich in een andere tijdzone bevindt, worden de tijdrecords die u ziet, omgezet naar uw plaatselijke tijdzone. U bent bijvoorbeeld een manager voor twee winkels, één in Arizona en andere in Nevada. Een kassamedewerker zich registreert een inklokregistratie om 9:00 uur In Arizona. Op dat moment is de tijd in Nevada 8:00 's morgens. Daarom wordt de tijdregistratie gemarkeerd als 8 A.M. als u zich in de winkel in Nevada bevindt en de records voor tijdregistratie bekijkt.
+
+## <a name="view-worker-time-registrations"></a>Tijdregistraties van werknemer weergeven
+### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Bekijk de tijdregistraties van de werknemers en filter op opslag- of activiteitstype
+
+Op POS:
+
+-   Selecteer **Registraties tijdklok weergeven**.
+-   U ziet de activiteiten van de tijdklokregistratie van alle werknemers die zijn toegewezen aan dezelfde opslag als waaraan u bent toegewezen.
+-   U kunt het activiteitstype gebruiken en filters opslaan om tijdregistraties te filteren.
+
+## <a name="process-and-manage-time-registrations"></a>Verwerken en beheren van tijdregistraties
+Een Dynamics 365 for Operations - Retail gebruiker via de workflow om te berekenen, goedkeuren en overbrengen van tijdregistraties naar de salarisadministratie.
+
+### <a name="primary-operations"></a>Primaire bewerkingen
+
+-   Berekenen
+-   Goedkeuren
+-   Indienen voor salarisadministratie
+
+### <a name="other-common-operations"></a>Overige veelgebruikte bewerkingen
+
+-   Massaal uitklokken
+-   Verzuim registreren
+
+Voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties zie <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+
+

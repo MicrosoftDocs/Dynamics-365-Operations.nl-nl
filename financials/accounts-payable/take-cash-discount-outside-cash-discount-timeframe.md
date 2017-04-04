@@ -1,0 +1,91 @@
+---
+title: Een korting voor contante betaling buiten de periode van de korting voor contante betaling nemen
+description: Dit artikel biedt twee scenario&quot;s die laten zien hoe een contantkorting kan worden verkregen, zelfs als de betaling buiten de contantkortingsperiode wordt gedaan.
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 14301
+ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
+ms.openlocfilehash: bea9565f488c01e5e6aede8cabe73ac13b75dacb
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Een korting voor contante betaling buiten de periode van de korting voor contante betaling nemen
+
+Dit artikel biedt twee scenario's die laten zien hoe een contantkorting kan worden verkregen, zelfs als de betaling buiten de contantkortingsperiode wordt gedaan.
+
+Op 28 juni maakt April een factuur voor 2000,00 voor leverancier 3052. De factuur heeft een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald.
+
+## <a name="use-cash-discount-option--always"></a>De optie Contantkorting gebruiken = altijd
+April voert een betaling uit op 1 juli, wat na de kortingsdatum is. April opent de pagina **Transacties vereffenen** om de transacties weer te geven die kunnen worden vereffend. 
+
+April markeert de factuur voor betaling. Er wordt geen contantkorting genomen omdat de betaling na de kortingsdatum komt. De leverancier heeft echter April goedkeuring naar de korting voor contante betaling toch worden gegeven. April wijzigt daarom de waarde in de **contantkorting gebruiken** veld **altijd**.
+
+| Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum van contantkorting | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
+|----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Geselecteerd | Altijd            | Factuur-10030 | 3052    | 6/28/2015          | 7/12/2015 | 10030   | -2000,00                      | USD      | -1980,00        |
+
+Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven.
+
+|                              |           |
+|------------------------------|-----------|
+| Datum van contantkorting           | 7/12/2015 |
+| Contantkortingsbedrag         | -20,00    |
+| Contantkorting gebruiken            | Altijd    |
+| Toegepaste contantkorting          | 0,00      |
+| Contantkortingsbedrag dat moet worden toegepast | -20,00    |
+
+## <a name="date-to-use-for-calculating-discounts--selected-date"></a>Datum die moet worden gebruikt voor berekenen van kortingen = Geselecteerde datum
+Als zowel de factuur als de betaling is geboekt, kan de contantkorting nog worden genomen als de transacties op de pagina **Transacties vereffenen** worden vereffend. April wijzigt de waarde in het veld **Datum die moet worden gebruikt voor berekenen van kortingen** in **Geselecteerde datum**. Ze voert vervolgens als datum 28 juni in, wat binnen de kortingsperiode voor de factuur ligt. Die datum wordt gebruikt om een contantkorting te berekenen voor de transactie. Op de pagina **Openstaande transacties vereffenen** ziet April dat de gehele korting van 20,00 standaard wordt weergegeven. De factuurregel geeft aan dat het te vereffenen bedrag 1980,00 is.
+
+| Markeren                     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum van contantkorting | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
+|--------------------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Geselecteerd en gemarkeerd | Normaal            | Factuur-10030 | 3052    | 6/28/2015          | 7/12/2015 | 10030   | -2000,00                      | USD      | -1980,00        |
+| Geselecteerd                 | Normaal            | APP-10030 | 3052    | 7/15/2015          | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
+
+Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven. Het kortingsbedrag dat is genomen is 20,00 omdat het te vereffenen bedrag voor de factuur het standaardbedrag is, 1980,00.
+
+|                              |           |
+|------------------------------|-----------|
+| Datum van contantkorting           | 7/12/2015 |
+| Contantkortingsbedrag         | -20,00    |
+| Contantkorting gebruiken            | Normaal    |
+| Toegepaste contantkorting          | 0,00      |
+| Contantkortingsbedrag dat moet worden toegepast | -20,00    |
+
+April wijzigt de waarde in het veld **Bedrag om te vereffenen** naar **500,00**. De waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** wordt berekend als **5,05**.
+
+| Markeren                     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
+|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
+| Geselecteerd en gemarkeerd | Normaal            | Factuur-10030 | 3052    | 6/28/2015 | 7/12/2015 | 10030   | 2.000,00                       | USD      | -500,00          |
+| Geselecteerd                 | Normaal            | APP-10030 | 3052    | 7/15/2015 | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
+
+Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven. De waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** is **5,05** omdat het te vereffenen bedrag voor de factuur werd gewijzigd naar het bedrag van de betaling, 500,00.
+
+|                              |           |
+|------------------------------|-----------|
+| Datum van contantkorting           | 7/12/2015 |
+| Contantkortingsbedrag         | -20,00    |
+| Contantkorting gebruiken            | Normaal    |
+| Toegepaste contantkorting          | 0,00      |
+| Contantkortingsbedrag dat moet worden toegepast | -5,05     |
+
+
+
+

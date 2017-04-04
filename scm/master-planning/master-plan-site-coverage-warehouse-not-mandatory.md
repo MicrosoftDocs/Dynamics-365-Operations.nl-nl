@@ -1,0 +1,63 @@
+---
+title: Hoofdplanning voor locatieplanning zonder verplicht magazijn
+description: In dit onderwerp wordt beschreven hoe een artikel wordt gepland waarbij de locatiedimensie is ingesteld voor de behoefteplanning.
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 2474
+ms.assetid: 316da918-67ae-43c5-baea-00ae559e29b0
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: roxanad
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 28607f0fc8db99c9fc8e96b4514763b8cf589dd8
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Hoofdplanning voor locatieplanning zonder verplicht magazijn
+
+In dit onderwerp wordt beschreven hoe een artikel wordt gepland waarbij de locatiedimensie is ingesteld voor de behoefteplanning.
+
+Voor dit hoofdplanningsscenario gelden de volgende voorwaarden:
+
+-   De site-dimensie is ingesteld op verplicht en u moet deze invoeren voor de vraagtransactie.
+-   De magazijndimensie is niet ingesteld als verplicht. Het magazijn kan bekend zijn, maar wordt niet bij de berekening van de hoofdplanning gebruikt.
+-   De locatiedimensie is ingesteld voor de behoefteplanning.
+-   De magazijndimensie is niet ingesteld voor de behoefteplanning. Vraag en aanbod worden daarom samengevoegd per site en mogelijk ook andere dimensies voor de behoefteplanning.
+
+In de volgende afbeelding ziet u hoe de hoofdplanning verdergaat. In deze afbeelding wordt als volgt naar de volgende parameters en de locaties van die parameters verwezen:
+-   De artikelbehoefteplanning wordt gedefinieerd voor het artikel. Klik op **productgegevensbeheer &gt;producten&gt; vrijgegeven producten**. Selecteer het artikel en klik vervolgens op **plannen &gt;artikelbehoefteplanning**.
+-   Aanvullingsrelaties zijn gedefinieerd voor het magazijn. Klik op **voorraadbeheer &gt;Setup &gt;opsplitsing van voorraad &gt;magazijnen**. Zie op het tabblad **Hoofdplanning** de veldgroep **Hoofdmagazijn**.
+-   Het standaardordertype is ingesteld op Productie, Inkooporder of Kanban. Klik op **productgegevensbeheer &gt;producten&gt; vrijgegeven producten**. Selecteer het artikel en klik vervolgens op **plannen &gt;standaard orderinstellingen**. Raadpleeg in het formulier **Standaard orderinstellingen** het veld **Standaardordertype**.
+
+![Vraag naar locatie en magazijndekking niet verplicht](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+
+
+
+<a name="see-also"></a>Zie ook
+--------
+
+[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+
+[Hoofdplanning - locatiebehoefte, magazijn verplicht](master-plan-site-coverage-warehouse-mandatory.md)
+
+[Hoofdplanning - locatie- en magazijnbehoefte, magazijn niet verplicht](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+
+[Hoofdplanning - locatie en magazijnbehoefte, magazijn verplicht](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+
+[Hoofdplanning - hoe de stuklijstversie wordt bepaald](master-plan-bom-version-determined.md)
+
+

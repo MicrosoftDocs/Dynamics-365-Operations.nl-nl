@@ -1,0 +1,156 @@
+---
+title: Definieert en beheert kanaal clients, kassa&quot;s en hardware-stations
+description: In deze wiki wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
+author: josaw1
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 92383
+ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: rubendel
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
+ms.openlocfilehash: dee5745670ad86000795f2913f99f49c0f123a00
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Definieert en beheert kanaal clients, kassa's en hardware-stations
+
+In deze wiki wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
+
+**Opmerking:** raadpleeg voor specifieke installatie-instructies [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md) en [Download/installatie van Self-service implementatie van Retail Modern POS en activering van moderne POS- en Cloud POS-apparaten](retail-modern-pos-device-activation.md).
+
+## <a name="key-components"></a>Belangrijke onderdelen
+Er worden verschillende onderdelen gebruikt voor het definiëren van de relatie tussen een winkel, de POS-kassa's (Point of Sale) of kanalen binnen de winkel en de randapparatuur voor de detailhandel die deze kassa's of kanalen gebruiken om transacties te verwerken. In deze sectie wordt elk onderdeel beschreven en wordt uitgelegd hoe dit moet worden gebruikt in een implementatie van een detailhandelwinkel.
+
+### <a name="pos-registers"></a>POS-kassa's
+
+Navigatie: Klik op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**registreert**. De POS-kassa is een entiteit die wordt gebruikt voor het definiëren van de kenmerken van een specifiek exemplaar van het POS. Deze kenmerken omvatten het hardwareprofiel of instellingen voor retail randapparatuur die wordt gebruikt bij de kassa en de winkel die het journaal is toegewezen aan de visuele ervaring voor de gebruiker die zich aanmeldt bij die registreren.
+
+### <a name="devices"></a>Apparaten
+
+Navigatie: Klik op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**apparaten**. Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Bij het maken van een apparaat, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Devices can be of two types: **Retail Modern POS** (MPOS) of **Retail Cloud POS** (Cloud POS).
+
+#### <a name="mpos"></a>MPOS
+
+MPOS is een POS-clienttoepassing die is geïnstalleerd op Windows 8.1 of een later pc-besturingssysteem. Als het toepassingstype **Retail Modern POS** wordt toegewezen aan een apparaat, kan het downloadpakket voor een bepaald apparaat worden opgegeven. Het downloadpakket kan worden aangepast zodat het verschillende versies van het installatiepakket bevat. De mogelijkheid om verschillende pakketten te implementeren biedt flexibiliteit in gevallen waarin andere POS-kassa's mogelijk andere integraties vereisen. MPOS wordt geïmplementeerd samen met een ingebouwd hardwarestation.
+
+#### <a name="cloud-pos"></a>Cloud POS
+
+Cloud POS is een browser gebaseerde POS. Omdat deze wordt uitgevoerd in de browser, hoeft Cloud-POS niet Windows 8.1 of een latere pc-besturingssysteem. Als het toepassingstype **Retail CloudPOS** is toegewezen aan een specifiek apparaat in de back-office, kan dat apparaat worden gebruikt via de browser zonder dat u een pakket hoeft te downloaden of installeren. Cloud POS vereist een hardwarestation voor gebruik van andere hardware dan een toetsenbord voor het scannen van streepjescode.
+
+### <a name="hardware-profile"></a>Hardwareprofiel
+
+Navigatie: Klik op **Commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**hardwareprofielen**. Een hardwareprofiel identificeert de hardware die is verbonden met een POS-kassa of een hardwarestation. Het hardwareprofiel wordt ook gebruikt voor het opgeven van de parameters voor de betalingsverwerker die moeten worden gebruikt tijdens de communicatie met de betaling-SDK (Software Development Kit). (De betaling-SDK wordt geïmplementeerd als onderdeel van de hardwarestation.)
+
+### <a name="hardware-station"></a>Hardwarestation
+
+Navigatie: Klik op **detailhandel en commerce**&gt;**kanalen**&gt;**detailhandel**&gt;**alle detailhandel**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**. Een hardwarestation is een exemplaar van de bedrijfslogica die POS-randapparatuur aanstuurt. Een hardwarestations wordt automatisch geïnstalleerd samen met MPOS. Ook kan het hardwarestation worden geïnstalleerd als zelfstandig onderdeel en vervolgens door MPOS of Cloud POS worden geopend via een webservice. Het hardwarestation moet worden gedefinieerd op het kanaalniveau.
+
+### <a name="hardware-station-profile"></a>Profiel van hardwarestation
+
+Navigatie: Klik op **Commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**station hardwareprofielen**. Terwijl het hardwarestation zelf is opgegeven op kanaalniveau en exemplaarspecifieke gegevens bevat, zoals de URL van het hardwarestation, bevat het profiel van het hardwarestation informatie die statisch kan zijn of kan worden gedeeld door meerdere hardwarestations. De statische informatie bevat de poort die moet worden gebruikt, het hardwarestationpakket en het hardwareprofiel. De statische informatie bevat ook een beschrijving van het type hardwarestation dat wordt geïmplementeerd, zoals **Uitchecken **of **Retouren**, afhankelijk van de hardware die is vereist voor elk specifiek hardwarestation.
+
+## <a name="scenarios"></a>Scenario's
+### <a name="mpos-with-connected-peripheral-devices"></a>MPOS met aangesloten randapparaten
+
+[![Traditioneel, verkooppunt vaste](./media/traditional-300x279.png)](./media/traditional.png) MPOS POS-randapparatuur in een POS-scenario traditioneel, vaste verbinding wordt eerst navigeren naar het journaal zelf en een hardwareprofiel toewijzen aan. U vindt de POS-kassa's op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**registreert**. Nadat u het hardwareprofiel hebt toegewezen, synchroniseert u wijzigingen met de kanaaldatabase via de distributieplanning "Kassa's". U vindt de schema's van de distributie op **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributieplanning**. Stel vervolgens een "lokaal" hardwarestation in op het kanaal. Klik op **detailhandel en commerce**&gt;**kanalen**&gt;**detailhandel**&gt;**alle detailhandel**, en selecteer een winkel. Klik vervolgens op het sneltabblad **Hardwarestations** op **Toevoegen** om een hardwarestation toe te voegen. Voer een beschrijving in, voer **localhost** in als hostnaam en synchroniseer vervolgens de wijzigingen met het kanaal via de distributieplanning "Kanaalconfiguratie". U vindt de schema's van de distributie op **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributieplanning**. Gebruik tot slot, in MPOS, de bewerking **Hardwarestation selecteren** om het hardwarestation **localhost** te selecteren. Stel het hardwarestation in op **Actief**. Het hardwareprofiel dat wordt gebruikt in dit scenario moet afkomstig zijn van de POS-kassa zelf. Een profiel voor een hardwarestation is niet vereist voor dit scenario. **Opmerking:** sommige hardwareprofielwijzigingen, zoals wijzigingen in kassalades, vereisen dat een nieuwe ploeg wordt geopend nadat de wijzigingen zijn gesynchroniseerd met het kanaal. **Opmerking:** Cloud POS moet gebruikmaken van het zelfstandige hardwarestation om te communiceren met randapparaten voor de detailhandel.
+
+### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS of Cloud POS met een zelfstandig hardwarestation
+
+\[Bijschrift-id = "bijlage\_340041 ' uitlijnen 'alignleft' breedte = ="300"\][![randapparatuur gedeeld](./media/shared-300x254.png)](./media/shared.png) randapparatuur gedeeld\[/bijschrift\] In dit scenario is een zelfstandige hardware station tussen MPOS en Cloud-POS-clients wordt gedeeld. In dit scenario moet u een profiel voor een hardwarestation maken om het downloadpakket, de poort en het hardwareprofiel op te geven dat het hardwarestation gebruikt. U vindt het hardwareprofiel station op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**station hardwareprofielen**. Nadat u het hardwareprofiel station hebt gemaakt, gaat u naar het specifieke detailhandelkanaal (**detailhandel en commerce**&gt;**kanalen**&gt;**detailhandel**&gt;**alle detailhandel**), en een nieuwe hardware station toevoegen. Wijs dit nieuwe hardwarestation toe aan het profiel van een hardwarestation dat eerder is gemaakt. Geef vervolgens een beschrijving op die de kassamedewerker helpt bij het identificeren van het hardwarestation. In de **hostnaam** en voer de URL van de machine host in de volgende indeling: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Vervangen **&lt;MachineName:Port&gt;** met de werkelijke computernaam van de hardware-station en de poort die is opgegeven in het station hardwareprofiel.) Voor een zelfstandige hardware gebruikt, moet u ook opgeven dat de elektronische betaling (EFT) terminal-ID. Deze waarde identificeert de EFT-terminal die is verbonden met het hardwarestation als de betalingsconnector met de betalingsprovider communiceert. Ga vervolgens van de daadwerkelijke machine van het hardwarestation naar het kanaal en selecteer het hardwarestation. Klik vervolgens op **Downloaden** en installeer het hardwarestation. Gebruik vervolgens, vanuit MPOS of Cloud POS wolk, de bewerking **Hardwarestation selecteren** om het hardwarestation te selecteren dat eerder was geïnstalleerd. Selecteer **Koppelen** om een veilige verbinding tot stand te brengen tussen het POS en het hardwarestation. Deze stap moet één keer worden uitgevoerd voor elke combinatie van een POS en een hardwarestation. Nadat het hardwarestation is gekoppeld, wordt dezelfde bewerking gebruikt om het hardwarestation actief te maken terwijl het wordt gebruikt. In dit scenario voor wilt het hardwareprofiel toekennen aan het hardwareprofiel station in plaats van het journaal zelf. Als een of andere reden een hardware-station niet een hardwareprofiel direct wordt toegewezen is, wordt het hardwareprofiel dat is toegewezen aan de kassa gebruikt
+
+## <a name="client-maintenance"></a>Clientonderhoud
+### <a name="registers"></a>Kassa's
+
+POS-kassa's worden voornamelijk beheerd via de kassa's zelf en tevens via de profielen die zijn toegewezen aan kassa's. Kenmerken die specifiek zijn voor een afzonderlijk register worden beheerd op het kassaniveau. Deze kenmerken omvatten de winkel waar de kassa wordt gebruikt, het kassanummer, de beschrijving en de EFT-terminal-id die specifiek is voor de kassa zelf.
+
+### <a name="pos-profiles"></a>POS-profielen
+
+U vindt de POS-profielen op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**. Het is handig om vele aspecten van een kassa te beheren via profielen, omdat de profielen kunnen worden gedeeld door vele kassa's. Profielen kunnen worden toegewezen aan een afzonderlijke kassa of, als een profiel geldt voor de hele winkel, aan de detailhandelwinkel. In de volgende secties worden de POS-profielen beschreven en wordt aangegeven hoe ze worden gebruikt.
+
+#### <a name="offline-profile"></a>Offlineprofiel
+
+Het offline profiel wordt ingesteld op het winkelniveau. Het wordt gebruikt om de upload-instellingen op te geven voor transacties die worden uitgevoerd op een POS-kassa, terwijl die kassa niet is verbonden met de kanaaldatabase.
+
+#### <a name="functionality-profile"></a>Functionaliteitsprofiel
+
+Het functionaliteitsprofiel wordt ingesteld op het winkelniveau. Deze wordt gebruikt voor de hele winkel opgeven over de functies die kunnen worden uitgevoerd op het POS. De volgende mogelijkheden worden beheerd via het functionaliteitsprofiel. Deze mogelijkheden worden geordend per sneltabblad.
+
+-   Sneltabblad **Algemeen**:
+    -   International Organization for Standardization (ISO).
+    -   Een klant aanmaken in offlinemodus.
+    -   Profiel voor e-mail met ontvangstbewijs.
+    -   Centrale aanmeldingsverificatie voor werknemers.
+-   Sneltabblad **Functies**:
+    -   Beheer van aanmelding en uitgebreide aanmelding.
+    -   Financiële en aan valuta's gerelateerde aspecten van het POS, zoals de mogelijkheid om prijzen in te voeren en of decimalen zijn vereist voor kleingeld.
+    -   Tijdsregistratie inschakelen via het POS.
+    -   Hoe producten en betalingen worden weergegeven in het POS en op betalingsbewijzen.
+    -   Beheer aan einde van dag.
+    -   Parameters voor bewaren van kanaaldatabasetransacties.
+    -   Hoe klanten worden opgezocht en gemaakt vanaf het POS.
+    -   Hoe kortingen worden berekend.
+-   Sneltabblad **Bedrag**:
+    -   Maximale en minimale prijzen die zijn toegestaan.
+    -   Toepassing en berekenen van korting.
+-   Sneltabblad **Informatiecodes**:
+    -   Alle aspecten van de manier waarop Informatiecodes worden beheerd op het POS. Zie voor meer [Informatiecodes](info-codes-retail.md).
+-   Sneltabblad **Ontvangstbewijsnummering**:
+    -   Geef maskers voor ontvangstnummer op. Deze kan segmenten bevatten voor het winkelnummer, het terminalnummer, constanten en of verkopen, retouren, verkooporders en offertes worden afgedrukt in aparte reeksen of allemaal dezelfde reeks volgen.
+
+#### <a name="receipt-profiles"></a>Ontvangstbewijsprofielen
+
+Ontvangstprofielen worden direct aan printers toegewezen binnen het hardwareprofiel. Zij worden gebruikt om de ontvangsttypen die worden afgedrukt op een specifieke printer op te geven. De profielen bevatten instellingen voor de ontvangstbewijsindelingen en instellingen die bepalen of het ontvangstbewijs altijd wordt afgedrukt dan wel of de kassamedewerker wordt gevraagd of het ontvangstbewijs moet worden afgedrukt. Verschillende printers gebruiken tevens mogelijk verschillende ontvangstbewijsprofielen. Zo is bijvoorbeeld printer 1 een standaard thermische printer voor ontvangstbewijzen, die daardoor kleinere ontvangstbewijsindelingen levert. Printer 2 is echter een volwaardige ontvangstbewijsprinter die alleen wordt gebruikt voor het afdrukken van ontvangstbewijzen voor klantorders, die meer ruimte vereisen.
+
+#### <a name="hardware-profiles"></a>Hardwareprofielen
+
+Eerder in dit artikel werd uitgelegd dat hardwareprofielen onderdeel van de clientinstellingen vormen. Hardwareprofielen worden rechtstreeks aan de POS-kassa of naar een profiel van een hardwarestation toegewezen. Zij worden gebruikt om aan te geven welke typen apparaten door een specifieke POS-kassa of hardwarestation worden gebruikt. Hardwareprofielen worden ook gebruikt om de EFT-instellingen op te geven die worden gebruikt om te communiceren met de betaling-SDK.
+
+#### <a name="visual-profiles"></a>Weergaveprofielen
+
+Visuele profielen worden toegewezen op het kassaniveau. Zij worden gebruikt om het thema voor een specifieke kassa op te geven. De profielen omvatten instellingen voor het type toepassing dat wordt gebruikt (MPOS of Cloud POS), de accentkleur en het thema, het lettertypeschema, de aanmeldingsachtergrond en de POS-achtergrond.
+
+### <a name="custom-fields"></a>Aangepaste velden
+
+U kunt aangepaste velden als velden die uit de verpakking worden niet aan het POS aangeboden wilt toevoegen. Zie voor meer informatie over het gebruik van aangepaste velden, de [werken met aangepaste velden weblogbericht](https://blogs.msdn.microsoft.com/axsupport/2012/08/06/ax-for-retail-2012-working-with-custom-fields/).
+
+### <a name="language-text"></a>Tekst taal
+
+U kunt standaardtekenreeksen in het POS overschrijven met behulp van invoer van taalteksten. U kunt een tekenreeks in het POS overschrijven door een nieuwe taaltekstregel toe te voegen. Geef vervolgens een id, de standaardtekenreeks die moet worden overschreven en de tekst die moet worden weergegeven op het POS in plaats van de standaardtekst op.
+
+### <a name="hardware-station-profiles"></a>Profielen van hardwarestation
+
+Profielen van hardwarestation worden eerder in dit artikel beschreven. Zij worden gebruikt voor het toewijzen van niet-exemplaarspecifieke gegevens aan hardwarestations.
+
+### <a name="channel-reports-configuration"></a>Configuratie van afzetkanaalrapporten
+
+U stelt de rapporten die beschikbaar zijn in het detailhandelkanaal in op de pagina **Configuratie van afzetkanaalrapporten van detailhandel**. U kunt nieuwe rapporten maken door de XML-definitie van het rapport op te geven en het rapport toe te wijzen aan een specifieke machtigingsgroep op het POS.
+
+### <a name="devices"></a>Apparaten
+
+Apparaten worden eerder in dit artikel beschreven. Zij worden gebruikt voor het beheren van de activering van een specifieke POS-kassa. Apparaten worden ook gebruikt om de toepassing op te geven die wordt gebruikt voor een specifieke kassa en het installatiepakket dat moet worden gebruikt voor het installeren van de MPOS-client. Hier volgen de statussen voor apparaatactivering:
+
+-   **In behandeling**: het apparaat is klaar om te worden geactiveerd.
+-   **Geactiveerd**: het apparaat is geactiveerd.
+-   **Gedeactiveerd**: het apparaat is uitgeschakeld in de back-office of via het POS.
+-   **Uitgeschakeld**: het apparaat is uitgeschakeld.
+
+Meer informatie met betrekking tot activering omvat de werknemer die de activeringsstatus voor het apparaat heeft gewijzigd, een tijdstempel voor de activering en of de apparaatconfiguratie is geverifieerd.
+
+### <a name="client-data-synchronization"></a>Synchronisatie van clientgegevens
+
+Alle wijzigingen in een POS-client, met uitzondering van de wijzigingen in de status van de apparaatactivering, worden pas van kracht na synchronisatie met de kanaaldatabase. Om wijzigingen te synchroniseren met de kanaaldatabase, gaat u naar **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributieplanning**, en de vereiste distributieplanning uitvoert. Voor clientwijzigingen moet u de distributieplanningen "Kassa's" en "Kanaalconfiguratie" uitvoeren.
+
+

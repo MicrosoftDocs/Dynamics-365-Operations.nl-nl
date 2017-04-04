@@ -1,0 +1,71 @@
+---
+title: Leverancierssamenwerking met klanten
+description: In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken in Microsoft Dynamics 365 for Operations.
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+audience: Application User
+ms.search.scope: Operations, Core
+ms.custom: 221234
+ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+translationtype: Human Translation
+ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
+ms.openlocfilehash: 11cd2242b5a575ae87b0dbcf6f8ce268fcea5377
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="vendor-collaboration-with-customers"></a>Leverancierssamenwerking met klanten
+
+In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken in Microsoft Dynamics 365 for Operations.
+
+In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 for Operations. Deze bevat informatie over het controleren en te reageren op inkooporders en het controleren van de voorraad van de zending. Het is ook mogelijk samenwerking leverancier gebruiken om te werken met facturen. Zie voor meer informatie [leverancier samenwerking facturering werkruimte](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+
+## <a name="working-with-purchase-orders"></a>Werken met inkooporders
+In de werkruimte **Inkooporderbevestiging** kunt u reageren op de inkooporders die ter beoordeling naar u zijn verzonden. Daarnaast kunt u informatie weergeven over inkooporders die wachten op actie van de klant en inkooporders die zijn bevestigd, maar nog openstaan. Er zijn drie lijsten in de werkruimte **Inkooporderbevestiging**:
+
+-   **Opdrachten tot inkoop ter controle** -in deze lijst staan POs die aan u zijn verzonden en wachten op een reactie van u. Nadat u reageert, wordt de IO verdwijnt uit de lijst. Als de klant u een nieuwe versie van de inkooporder stuurt voordat u de vorige hebt beantwoord, wordt alleen de laatste versie weergegeven.
+-   **In afwachting van actie van klant** - In deze lijst kunt u inkooporders bekijken waarop u hebt gereageerd, maar die nog niet door de klant zijn bevestigd. Als u de inkooporder hebt geaccepteerd, kunt u deze in deze lijst blijven controleren totdat de status in **Bevestigd** wordt gewijzigd. Als u de inkooporder hebt afgewezen of met wijzigingen hebt geaccepteerd, kunt u de inkooporder hier controleren tot de klant een nieuwe versie stuurt.
+-   **Bevestigde inkooporders openen** - Deze lijst bevat alle inkooporders voor uw rekening die de status **Bevestigd** hebben. Wanneer IO-producten of -services volledig zijn ontvangen, verdwijnt de inkooporder uit de lijst.
+
+In de volgende lijst worden de vier pagina's weergegeven die u kunt gebruiken om met inkooporders te werken. Twee van deze pagina's bevatten dezelfde informatie als de lijsten in de werkruimte:
+
+-   **Inkooporders ter beoordeling** (zie hierboven)
+-   **Historie van leveranciersbevestigingen van inkooporders** - Deze pagina bevat alle inkooporders en alle versies van inkooporders die naar de leverancier zijn verzonden en alle geretourneerde antwoorden van de leverancier.
+-   **Bevestigde inkooporders openen** (zie hierboven)
+-   **Alle bevestigde inkooporders** - Deze pagina bevat alle inkooporders die zijn bevestigd, inclusief de inkooporders waarvoor producten of services zijn ontvangen. U kunt deze lijst gebruiken om te controleren voor welke inkooporders u facturen kunt verzenden.
+
+### <a name="responding-to-purchase-orders"></a>Reageren op inkooporders
+
+De inkooporders die u wilt controleren door de klant heeft gestuurd zijn zichtbaar in de **inkooporderbevestiging** werkruimte en klik in de **opdrachten tot inkoop ter beoordeling** pagina. Nadat u een inkooporder opent, kunt u deze accepteren, weigeren of accepteren met wijzigingen. De koptekst en/of afzonderlijke regels van de inkooporder kunnen bijlagen bevatten. Het is ook mogelijk voor u om informatie aan uw reactie toe te voegen, aan de koptekst of aan afzonderlijke regels. U kunt bijvoorbeeld een vervangingsitem voor een van de regels voorstellen. U kunt de inkooporder als PDF-bestand bekijken en afdrukken met de optie **Voorbeeld/afdrukken**. U kunt de volgende dimensiekolommen verbergen of weergeven met de actie **Dimensies weergeven**: Locatie, Magazijn, Kleur, Grootte, Stijl, Configuratie. Als u de **accepteren terugzenden** kunt u deze kunt accepteren of afwijzen van afzonderlijke regels. U kunt ook de volgende wijzigingen aanbrengen in regels:
+
+-   Wijzig datums of hoeveelheden. Als u de bevestigde leveringsdatum op alle regels wilt bijwerken, gebruikt u de optie **Leveringsdatums bijwerken** voor de IO-koptekst.
+-   Splits regels op voor verschillende leveringsdatums of -hoeveelheden.
+-   Vervang een item. Voer hiervoor een itembeschrijving en uw itemnummer in het veld **Extern** in het gedeelte **Regeldetails** in.
+
+U kunt prijsgegevens of toeslagen niet wijzigen, maar u kunt met notities wel suggesties voor wijzigingen geven. Als u van uw klant een nieuwe versie van een inkooporder ontvangt, bevat deze een versieachtervoegsel om aan te geven dat het om een gewijzigde versie van een inkooporder gaat die eerder is doorgegeven. Op de pagina **Historie van leveranciersbevestigingen van inkooporders** kunt u de historie van elke order volgen.
+
+## <a name="monitoring-consignment-inventory"></a>Consignatievoorraad bewaken
+Als u consignatievoorraad gebruikt, kunt u de interface voor leverancierssamenwerking gebruiken om informatie op de volgende pagina's te bekijken:
+
+-   **Inkooporders die zijn verbruikt Consignatievoorraad** -inkooporders voor Consignatievoorraad worden gegenereerd wanneer de klant nodig is eigendom van de voorraad. Deze consignatie-inkooporders worden alleen weergegeven op de pagina **Inkooporders die consignatievoorraad verbruiken**. Ze worden niet opgenomen op de pagina **Alle bevestigde inkooporders**.
+-   **Producten ontvangen uit consignatievoorraad** - Deze pagina bevat een overzicht van alle transacties waarvan het eigendom van producten is overgedragen aan het bedrijf dat de voorraad verbruikt. U kunt deze informatie gebruiken om de klant te factureren.
+-   **Voorhanden consignatievoorraad** - Op deze pagina wordt de voorhanden consignatievoorraad weergegeven die het eigendom is van uw bedrijf en voorhanden is in het magazijn van de klant.
+
+
+<a name="see-also"></a>Zie ook
+--------
+
+[Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md)
+
+

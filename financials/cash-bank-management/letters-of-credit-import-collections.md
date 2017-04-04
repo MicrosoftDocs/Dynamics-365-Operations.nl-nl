@@ -1,0 +1,54 @@
+---
+title: "Kredietbrieven en importincasso´s"
+description: Dit artikel geeft algemene informatie over kredietbrieven en importincasso&quot;s. Beide typen bankdocumenten worden vaak gebruikt voor de inkoop en verkoop van goederen in binnen- en buitenland.
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: BankLCImport
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 18321
+ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80
+ms.search.region: Global
+ms.author: leguo
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
+ms.openlocfilehash: a749f2bee137eedda49d7c5b5df3ea8829a50860
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="letters-of-credit-and-import-collections"></a>Kredietbrieven en importincasso´s
+
+Dit artikel geeft algemene informatie over kredietbrieven en importincasso's. Beide typen bankdocumenten worden vaak gebruikt voor de inkoop en verkoop van goederen in binnen- en buitenland.
+
+<a name="letters-of-credit"></a>Kredietbrieven
+-----------------
+
+Kredietbrieven worden gebruikt voor internationale transacties en zorgt u dat betalingen worden uitgevoerd. Een kredietbrief is een overeenkomst die dor een bank, waarin de bank akkoord gaat om ervoor te zorgen namens een koper de betaling, mits de voorwaarden van de overeenkomst tussen de koper en verkoper is voldaan wordt uitgegeven. Een kredietbrief is ook een documentair krediet (DC) genoemd.
+
+Voor een importkredietbrief is de rechtspersoon de koper of de aanvrager van de kredietbrief. Voor een exportkredietbrief is de rechtspersoon de verkoper of de begunstigde van de kredietbrief. De volgende partijen zijn betrokken bij een kredietbrief:
+
+-   De aanvrager (koper) die van plan is om voor de goederen te betalen
+-   De begunstigde (verkoper) die de betaling zal ontvangen
+-   De uitgevende bank die de kredietbrief uitgeeft
+-   De adviserende bank die de transactie namens de aanvrager uitvoert
+
+De kredietbrief bevat een beschrijving van de goederen, eventuele vereiste documenten, de datum van de zending en de vervaldatum waarna de betaling niet wordt uitgevoerd. De uitgevende bank incasseert een marge voor de kredietbrief. 
+
+Een kredietbrief kan **herroepelijk** of **onherroepelijk** zijn. De aard van een kredietbrief kan **overdraagbaar**, **niet-overdraagbaar** of **roulerend** zijn. Normaal gezien is een kredietbrief een onherroepelijke en bevestigde overeenkomst dat de betaling aan een specifieke begunstigde wordt uitgevoerd na indiening van volledige en nauwkeurige verzendingsdocumentatie.
+
+## <a name="import-collections"></a>Importincasso´s
+Een importincasso is een overeenkomst tussen de bank en de exporteur (verkoper) waarin de bank akkoord gaat om de verzendingsdocumentatie aan de internationale importeur (koper) te leveren. Van de bank wordt verwacht dat ze de verzendingsdocumentatie levert na ontvangst van betaling voor de verzonden goederen in contant geld of bij ontvangst van een ondertekend concept van betaling. 
+
+Een importincasso helpt te waarborgen dat de verkoper wordt betaald wanneer de koper de verzendingsdocumenten ophaalt om de levering van de geïmporteerde goederen in ontvangst te nemen.
+
+

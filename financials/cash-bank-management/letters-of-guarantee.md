@@ -1,0 +1,61 @@
+---
+title: Garantiebrieven
+description: Dit artikel bevat informatie over borgstellingen. In een borgstelling gaat een bank akkoord om een specifiek bedrag aan een persoon te betalen als een van de klanten van de bank in gebreke blijft voor een betaling aan of verplichting ten opzichte van die persoon.
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: BankLGGuarantee
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 18291
+ms.assetid: 5c0b5e37-d51d-4a01-bb37-1882173abb9f
+ms.search.region: Global
+ms.author: leguo
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
+ms.openlocfilehash: fa27a5a2b2edb73875b74572bc467cd20a3e7ec8
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="letters-of-guarantee"></a>Garantiebrieven
+
+Dit artikel bevat informatie over borgstellingen. In een borgstelling gaat een bank akkoord om een specifiek bedrag aan een persoon te betalen als een van de klanten van de bank in gebreke blijft voor een betaling aan of verplichting ten opzichte van die persoon. 
+
+Een borgstelling is een overeenkomst met een bank (de garant) om een bepaald bedrag aan een bepaalde persoon (de begunstigde) te betalen als de klant van de bank (de aangever) in gebreke blijft voor een betaling aan of verplichting ten opzichte van de begunstigde. Borgstellingen zijn niet overdraagbaar. Ze zijn alleen van toepassing op de begunstigde die in de overeenkomst wordt genoemd. De aangever kan in overeenstemming met de bepalingen in de overeenkomst een verhoging of verlaging van het bedrag in de borgstelling aanvragen. 
+
+Om een borgstelling te liquideren, moet de begunstigde de originele borgstelling overhandigen en de bank van de aangever vóór de vervaldatum informeren. De bank maakt het verschuldigde bedrag over naar de rekening van de begunstigde in overeenstemming met de voorwaarden in de borgstelling. De bank reserveert een percentage van de betaling als marge. Het percentage is overeengekomen en opgegeven in de bepalingen van de overeenkomst. 
+
+U kunt een code maken om het doel van een borgstelling te traceren. U kunt de redenen ook opgeven die aan een borgstelling kunnen worden gekoppeld wanneer de kredietbrief wordt geannuleerd. Vervolgens kunt u de doelcodes en bankredenen op de pagina's **Betalingsdoelcodes** en **Bankredenen** weergeven. 
+
+U kunt de pagina **Borgstelling** gebruiken om deze taken uit te voeren:
+
+-   De juiste grootboekposten maken en handmatige invoer uitschakelen.
+-   Alle monetaire en niet-monetaire transacties registreren en borgstellingssaldi traceren.
+-   De status en vervaldatum van de borgstelling registreren en traceren.
+-   een rapport genereren dat de banken vermeldt die borgstellingen hebben.
+
+In de volgende tabel worden de acties beschreven die u kunt uitvoeren op een borgstelling.
+
+| Actie              | Doel                                                                                                                   |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Indienen bij bank      | Dien de borgstellingsaanvraag in bij de bank.                                                                       |
+| Ontvangen van bank   | Nadat de bank akkoord is gegaan met het ingediende verzoek, haalt u de borgstelling op bij de bank.                            |
+| Geven aan begunstigde | Nadat u de borgstelling van de bank hebt ontvangen, verstrekt u deze aan de begunstigde.              |
+| Waarde verhogen      | Verhoog de monetaire waarde als de begunstigde en aangever hiermee akkoord gaan.                                                  |
+| Waarde verlagen      | Verlaag de monetaire waarde als de begunstigde en aangever hiermee akkoord gaan.                                                  |
+| Uitbreiden              | Nadat u de borgstelling aan de begunstigde hebt verstrekt, verlengt u de geldigheidsperiode als dat nodig is. |
+| Annuleren              | Wanneer het doel waarvoor de borgstelling is aangevraagd, niet langer van toepassing is, annuleert u de overeenkomst.                  |
+| Liquideren           | Wanneer de begunstigde de borgstelling aan de bank overhandigt, wordt de borgstelling uitbetaald.                      |
+
+
+
+
