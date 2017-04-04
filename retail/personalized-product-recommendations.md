@@ -41,14 +41,14 @@ Aanbevelingen zijn voor de volgende POS-scenario's ingeschakeld. Ze zijn beschik
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  Op de **transactie** pagina:
+2.  Op de **transactie** pagina:
 
 -   De engine aanbeveling stelt voor artikelen op basis van de volledige lijst met artikelen in het winkelmandje.
 -   Als de winkel is gekoppeld aan de transactie een klant toegevoegd, de aanbeveling-engine biedt persoonlijke aanbevelingen met behulp van de transactiehistorie van de klant en de lijst met artikelen in het winkelmandje.
 
 **opmerking** aanbevelingen weergeven op de **transactie** pagina, de detailhandelaar moet worden bijgewerkt van de schermindeling in Dynamics 365 voor bewerkingen. De **aanbevelingen** -besturingselement moet worden verwijderd bij de **transactie** pagina. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  Op de **details klant** pagina:
+3.  Op de **details klant** pagina:
     -   De engine aanbeveling stelt voor artikelen op basis van de gebruikers-ID en de items in de onderwerpen van de klant.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
