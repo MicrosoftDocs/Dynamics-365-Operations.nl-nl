@@ -48,10 +48,10 @@ Met taaktypen kunt u vergelijkbare taken groeperen in categorieën. Taaktypen zi
 ## <a name="job-functions"></a>Taakfuncties
 Koppelingen van de taak op hoog niveau functionele categorieën beschrijven en betrekking hebben op hoog niveau heffingen. Taakfuncties zijn niet vereist. U kunt taakfuncties samen met taaktypen voor het filteren van compensatieplannen voor specifieke taken. U koppelt taakfuncties en taaktypen aan compensatieplannen door geschiktheidsregels instellen op de **geschiktheidsregels** pagina. Vervolgens koppelt u een set niveaus aan een honoreringsregeling die gelden voor de specifieke combinatie van een taaktype en taakfunctie die u met een geschiktheidsregel hebt gedefinieerd. (Deze functies zijn van toepassing op vaste compensatieplannen en variabele honoreringsregelingen.) Echter, als u van plan bent om taakfuncties te gebruiken wanneer u beschikbaarheidregels instelt voor compensatiebeheer instelt, u moet taakfuncties instellen voordat u taken instelt. De volgende tabel ziet enkele voorbeelden van taakfuncties.
 
-| Functie           | Taakfunctie      |
-|---------------|-------------------|
-| Verkoopleider | Tussenliggende niveaus Manager |
-| Accountant    | Professionals     |
+| Functie           | Taakfunctie         |
+|---------------|----------------------|
+| Verkoopleider | Tussenliggende niveaus Manager    |
+| Accountant    | Professionals        |
 
 U taakfuncties onderhouden met behulp van de **taakfuncties** pagina. Op de **taakfuncties** pagina, een identificatiecode en een korte omschrijving voor de taakfunctie invoeren.
 

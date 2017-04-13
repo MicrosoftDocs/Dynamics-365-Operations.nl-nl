@@ -56,10 +56,6 @@ Een taak is een verzameling taken en verantwoordelijkheden die vereist zijn voor
 U kunt taken maken die de basistaken beschrijven die een werknemer in een positie voor die taak moet uitvoeren. Dezelfde taak kan worden toegevoegd aan meerdere taken, en posities voor die taken nemen die taken over. In de volgende tabel staan voorbeelden van taken.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Functie</th>
