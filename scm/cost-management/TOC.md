@@ -1,0 +1,43 @@
+# Power BI content pack
+## [kosten van content management-pack](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Vooraf vastgestelde kosten
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [Simuleer de kostenwijziging via een kostprijsberekeningsversie voor geplande kosten](simulate-cost-changes-costing-version-planned-costs.md)
+# Kostprijsberekening voorraad
+## [Kostprijs van de voorhanden voorraad corrigeren](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [FIFO met fysieke waarde en markering](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [Voorraadwaarde van het object](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [LIFO-datum met fysieke waarde en markering](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [Fysieke en financiële-bijwerken](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [Gewogen gemiddelde met fysieke waarde en markering](weighted-average-physical-value-marking.md)
+# Kostprijsberekening productie
+## [stuklijstberekeningsgroep](bom-calculation-groups.md)
+## [Veelvoorkomende oorzaken van productieafwijking](common-sources-of-production-variances.md)
+## [kostencategorie die is gebruikt in het productiebewerkingsplan](cost-categories-used-production-routings.md)
+## [kostencategorie die is gebruikt in productiebeheer en projectadministratie management](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [Een product dat kan worden geproduceerd of verkregen instellen](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# Standaardkosten
+## [stuklijstberekeningen met standaardkosten](information-used-bom-calculations-standard-costs.md)
+## [Beheren van standaardkosten bijwerken](manage-standard-cost-updates.md)
+## [Vereiste voor een standaardkostprijsconversie](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [Standaardkosten in een productieomgeving bijwerken](update-standard-costs-manufacturing-environment.md)
+## [Bijwerken van standaardkosten voor een nieuw gefabriceerd artikel](update-standard-costs-new-manufactured-item.md)
+## [Standaardkosten in een niet-productieomgeving bijwerken](update-standard-costs-non-manufacturing-environment.md)
+
+

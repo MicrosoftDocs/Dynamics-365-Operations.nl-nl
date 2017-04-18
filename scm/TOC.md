@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# Hoofdplanning
+## Vraagprognose maken
+### [Overzicht van de vraagprognose](master-planning/introduction-demand-forecasting.md)
+### [Een vraagprognose instellen](master-planning/demand-forecasting-setup.md)
+### [Een prognose statistische basislijn genereren](master-planning/generate-statistical-baseline-forecast.md)
+### [Handmatige correctie aanbrengen in de prognose basislijn](master-planning/manual-adjustments-baseline-forecast.md)
+### [Een gecorrigeerde prognose autoriseren](master-planning/authorize-adjusted-forecast.md)
+### [Nauwkeurige prognose van de monitor](master-planning/monitor-forecast-accuracy.md)
+### [Uitschieters verwijderen uit de transactiegegevens in historische](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## Hoofdplan
+### [Actieberichten weergeven](master-planning/action-messages.md)
+### [Behoefteplanningsinstellingen](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [Hoofdplannen en functionaliteit voor meerdere locaties](master-planning/master-plan-multisite-functionality.md)
+#### [Plan voor locatieplanning zonder verplicht magazijn](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [Plan voor locatieplanning zonder verplicht magazijn](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [Plan voor locatie en magazijn zonder verplicht magazijn](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [Plannen voor locatie en magazijn niet verplicht magazijn](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [Bepalen van de stuklijstversie](master-planning/master-plan-bom-version-determined.md)
+### [Explosie van een stuklijstversie](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [Een explosie traceren](master-planning/trace-explosion.md)
+# Inkoopbeheer
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [workflow voor inkoop en sourcing](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [Purchase requisition workflow](procurement/purchase-requisitions-workflow.md) 
+## [Offerteaanvragen (offerteaanvragen)](procurement/request-quotations.md)
+## Inkooporders
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [Goedkeuren en inkooporders bevestigen](procurement/purchase-order-approval-confirmation.md)
+## Leveranciersbeheer en samenwerking
+### [Samenwerking met leveranciers instellen en onderhouden](procurement/set-up-maintain-vendor-collaboration.md)
+### [Gebruikers van leverancierssamenwerking beheren](procurement/manage-vendor-collaboration-users.md)
+### [Leverancierrekeningen instellen](procurement/set-up-vendor-accounts.md)
+### [Leverancierssamenwerking met externe leveranciers](procurement/vendor-collaboration-work-external-vendors.md)
+### [Leverancierssamenwerking met klanten](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Samenwerken met leveranciers via het portal voor leveranciers](procurement/collaborate-vendors-vendor-portal.md)
+### [Mobiele werkruimte voor samenwerking van leverancier](procurement/vendor-collaboration-mobile-workspace.md)
+### [Leverancier-portal gebruikersbeveiliging](procurement/configure-security-vendor-portal-users.md)
+## Prijzen en kortingen
+### [Purchase agreements](procurement/purchase-agreements.md)
+## Productontvangstbonnen en facturen
+### [Productontvangst tegen inkooporders](procurement/product-receipt-against-purchase-orders.md)
+### [Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# Productgegevensbeheer
+## Productgegevens
+### [stuklijst- en formule](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [Nummer nomenclature van product](pim/product-variant-identification-nomenclature.md)
+### [productgebonden vertaling Veelgestelde vragen](pim/translations-product-related-information.md)
+### [Serienummer registreren in het verkoopproces](sales-marketing/register-serial-numbers-sales-process.md)
+### [Zoeken naar product tijdens het invoeren van orders](pim/search-products-product-variants.md)
+## Productconfiguratie maken
+### [Bouwen van een model voor productconfiguratie](pim/build-product-configuration-model.md)
+### [Berekening voor veelgestelde vragen over het product configuratie model](pim/calculate-product-configuration-models.md)
+### [Configuratieregel](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [Expressiebeperking en tabelbeperking](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [Configuratie van product](pim/reuse-product-configurations.md)
+### [Een model voor productconfiguratie instellen](pim/set-up-maintain-product-configuration-model.md)
+### [Het systeem gedefinieerde en de gebruiker gedefinieerde tabelbeperking](pim/system-defined-user-defined-table-constraints.md)
+# Productiebeheer
+## Productieproces    
+### [Op basis van een activiteit uitbesteding](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [Uitbesteding onderhanden productie beheren](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [productieproces](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [Routes en bewerkingen](production-control/routes-operations.md)
+## Productieorders
+### [Create production orders](production-control/create-production-orders.md)
+### [Standaardorderinstellingen voor dimensies en productvarianten](production-control/default-order-settings.md)
+### [productieorders vrijgeven](production-control/release-production-orders.md)
+### [De productieorderstatus omkeren](production-control/reverse-production-order-status.md)
+### [Rapport gereedmelden van stuklijsten](production-control/report-boms-as-finished.md)
+### [Report production orders as finished](production-control/report-production-orders-as-finished.md)
+## Lean-productie 
+### [Kanbanbord voor overboeking voor de streepjescode scanners ondersteunen](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [Kanbantaak planning voor lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [Lean manufacturing-overzicht](production-control/lean-manufacturing-overview.md)
+### [Een organisatie lean model](production-control/lean-manufacturing-modeling-lean-organization.md)
+## Planning van bewerkingen en taken
+### [tijd worden toegewezen aan taken in een taakbundel](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## Bronnen
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## Productieregistratie
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [Berekenen van materiaalverbruik](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [Details productie in productie-uitvoering](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# Verkoopbeheer en marketing
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## Verkooporders
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [Serienummers in het verkoopproces](sales-marketing/register-serial-numbers-sales-process.md)
+### [Reservering van dezelfde batch](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## Verkoopoffertes
+### [Price simulation](sales-marketing/price-simulation.md)
+## Retouren
+### [Sales returns](warehousing/sales-returns.md)
+# Transportbeheer
+## [Een nieuwe transport-engine](transportation/create-new-transportation-management-engine.md)
+## [Een vrachtbrief maken](transportation/create-bill-of-lading.md)
+## [Vracht transport routes planning](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [Ladingen plannen via hubconsolidatie](transportation/plan-loads-hub-consolidation.md)
+## [Vracht afstemmen](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [Transport-engine](transportation/transportation-management-engines.md)
+# Magazijnbeheer
+## Instellen 
+### [Controle-werk met behulp van sjablonen voor werk en locatie-richtlijnen](warehousing/control-warehouse-location-directives.md)
+### [Magazijnmedewerkers beheren](warehousing/manage-warehouse-workers.md)
+### [indeling instellen](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [Maateenheid en opslagbeleid](warehousing/unit-measure-stocking-policies.md)
+## Verzamelen en verpakken
+### [Verpakkingsmaterialen en bijzondere kosten](warehousing/pack-materials-packing-material-fees.md)
+## Voorraadtelling
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [Voorraadlabeltelling](inventory/inventory-tag-counting.md)
+## Containervorming 
+## Aanvulling
+### [Aanvulling](warehousing/replenishment.md)
+## Mobiele apparaten
+### [Veldnamen bij magazijnbeheer app configureren](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [Mobiele apparaten voor magazijnwerk instellen](warehousing/configure-mobile-devices-warehouse.md)
+### [Magazijn mobiele apparaten Portal (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
+### [Weergave-instellingen voor mobiel apparaat magazijn](warehousing/change-warehouse-mobile-device-displays.md)
