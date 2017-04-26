@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Startpagina Contanten en bankbeheer
 
+[!include[banner](../includes/banner.md)]
+
+
 U kunt Kas- en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld. 
 
 Voorbeelden van dergelijke instrumenten zijn depositostroken, cheques, wissels en promessen. U kunt ook bankafschriften afstemmen en bankgegevens op standaardrapporten afdrukken.
@@ -69,4 +72,6 @@ Voorbeelden van dergelijke instrumenten zijn depositostroken, cheques, wissels e
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Scenario: Een klantbetaling gebruiken meerdere factuur die zich uitstrekken over meerdere kortingsperioden vereffenen](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 

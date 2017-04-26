@@ -75,3 +75,4 @@
 # Overige bronnen
 ## [Dynamics 365 voor bewerkingen woordenlijst](get-started/glossary.md)
 ## [Wat is nieuw of gewijzigd](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+

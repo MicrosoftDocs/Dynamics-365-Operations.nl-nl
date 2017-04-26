@@ -55,3 +55,5 @@ U kunt bijvoorbeeld de recente berichten lezen over:
 ## <a name="elearning-courses"></a>eLearning-cursussen
 Voor meer informatie over Microsoft Dynamics 365 for Operations training, Zie <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Learning Portal</a>. (CustomerSource-account vereist) 
 
+
+
