@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Account- en dimensiecombinaties invoeren (gesegmenteerd invoerbesturingselement)
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u combinaties van rekeningen en dimensies of grootboekrekeningen invoert. Deze invoerervaring wordt ook wel gesegmenteerd invoerbestuur genoemd.
 
-Gebruikers invoeren combinaties van rekeningen en dimensies op verschillende pagina's, zoals's voor algemene journalen, budgettering en boeken van definities. De geldige account- en dimensiecombinaties zijn afhankelijk van de rekeningstructuren die aan het grootboek worden toegewezen en de geavanceerde regels die aan de rekeningstructuren worden toegewezen. Wanneer gebruikers een combinatie invoert, kunnen ze handmatig typt u de waarden of profiteren van een rijke, lookup-ervaring. Wanneer u het veld invoert, kunt u begint te typen en zoekt de waarde en de omschrijving. Bijvoorbeeld: als u Typ 180 zoekt alle waarden die met deze combinatie beginnen. Of u contante kunt invoeren en elke waarde met een beschrijving die met contant geld begint worden doorzocht. Daarnaast kunt u een jokerteken, zoals \*contant geld of \*180 om te zoeken als de waarde of de omschrijving de zoekcriteria voldoen bevat. 
+Gebruikers voeren account- en dimensiecombinaties in op verschillende pagina's, zoals pagina's voor algemene journalen, budgettering en boekdefinities. De geldige account- en dimensiecombinaties zijn afhankelijk van de rekeningstructuren die aan het grootboek worden toegewezen en de geavanceerde regels die aan de rekeningstructuren worden toegewezen. Wanneer gebruikers een combinatie invoeren, kunnen ze de waarden handmatig typen of gebruikmaken van een uitgebreide zoekfunctie. Wanneer u het veld invoert, kunt u beginnen met typen en er wordt dan gezocht naar de waarde en de omschrijving. Bijvoorbeeld: als u 180 typt, wordt gezocht naar alle waarden die met deze nummercombinatie beginnen. U kunt ook Contant typen. Er wordt dan gezocht naar elke waarde met een beschrijving die met Contant begint. U kunt ook een jokerteken gebruiken, zoals \*Contant of \*180 om te zoeken naar een waarde of omschrijving die de zoekcriteria bevat. 
 
 In de volgende tabel worden de sneltoetsen op het toetsenbord beschreven die kunnen worden gebruikt wanneer de zoekopdracht gesloten is.
 
@@ -108,5 +111,7 @@ In de volgende tabel worden de sneltoetsen op het toetsenbord beschreven die kun
 </table>
 
  
+
+
 
 

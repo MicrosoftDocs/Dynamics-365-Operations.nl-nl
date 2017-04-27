@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
 
 <a name="overview"></a>Overzicht
 --------
 
-Het btw-framework ondersteunt veel typen indirecte belastingen zoals btw, belasting toegevoegde waarde (btw), goederen en diensten tax (GST), kosten per eenheid en bronbelasting. Deze belastingen worden berekend en gedocumenteerd tijdens transacties voor inkoop en verkoop. Ze moeten periodiek worden aangegeven en betaald aan de belastingdienst. 
+Het btw-raamwerk ondersteunt veel typen indirecte belastingen zoals btw, belasting toegevoegde waarde (btw), belasting voor goederen en services (GST), kosten op basis van eenheden en bronbelasting. Deze belastingen worden berekend en gedocumenteerd tijdens transacties voor inkoop en verkoop. Periodiek moeten deze belastingen worden aangegeven bij en betaald aan de belastingdienst. 
 
 In het volgende diagram worden de verschillende rechtspersonen in de btw-structuur en hun onderlinge relaties beschreven.
 
 [![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Voor elke btw die een bedrijf moet u rekening houden, moet u een btw-code definiëren. In een btw-code worden de btw-tarieven en berekeningsregels voor de btw opgeslagen. 
+Voor elk type btw waarvoor een bedrijf zich moet verantwoorden, moet een btw-code worden gedefinieerd. In een btw-code worden de btw-tarieven en berekeningsregels voor de btw opgeslagen. 
 
 Elke btw-code moet aan een btw-vereffeningsperiode zijn gekoppeld. Btw-vereffeningsperioden definiëren de intervallen waarmee btw moet worden aangegeven en betaald aan de btw-dienst. Elke btw-vereffeningsperiode moet worden toegewezen aan een btw-dienst. Een btw-dienst vertegenwoordigt de rechtspersoon waaraan btw wordt aangegeven en betaald. Tevens definieert deze de indeling voor de btw-aangifte. De btw-dienst kan aan leveranciersrekeningen worden gekoppeld. 
 
@@ -69,17 +72,17 @@ Voor elke transactie (verkoop-/inkoopdocumentregels, journalen, enzovoort) moet 
 Voor elke transactie kunt u de berekende btw opzoeken door de pagina **Btw-transactie** te openen. U kunt de btw voor een documentregel of voor het hele document opzoeken. Voor bepaalde documenten (bijvoorbeeld leveranciersfacturen en algemene journalen) kunt u de berekende btw aanpassen als het oorspronkelijke document afwijkende bedragen bevat.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Btw-vereffening en -aangifte
-Btw moet regelmatig (maandelijks, per kwartaal, enzovoort) worden aangegeven bij en betaald aan btw-diensten. Microsoft Dynamics 365 for Operations bevat functionaliteit waarmee u vereffent btw-rekeningen voor het interval en de tegenboeking van de saldi naar de btw-vereffeningsrekening, zoals is opgegeven in de groepen boekingen in grootboek. U hebt toegang tot deze functionaliteit op de **vereffenen en boeken van btw** pagina. Moet u de btw-vereffeningsperiode waarvoor btw moet worden vereffend. 
+Btw moet regelmatig (maandelijks, per kwartaal, enzovoort) worden aangegeven bij en betaald aan btw-diensten. Microsoft Dynamics 365 for Operations biedt een functionaliteit waarmee u belastingrekeningen voor het interval kunt vereffenen en de saldi kunt boeken naar de btw-vereffeningsrekening, zoals opgegeven in de grootboekboekingsgroepen. U hebt toegang tot deze functionaliteit op de pagina **Btw vereffenen en boeken**. U moet de btw-vereffeningsperiode opgeven waarvoor btw moet worden vereffend. 
 
 Nadat de btw is betaald, moet het saldo op de btw-vereffeningsrekening worden verrekend met de bankrekening. Als de btw-dienst die is opgegeven voor de btw-vereffeningsperiode aan een leveranciersrekening is gekoppeld, wordt het btw-saldo geboekt als openstaande leveranciersfactuur en kan deze in het normale betalingsvoorstel worden opgenomen.
 
 ## <a name="conditional-sales-tax"></a>Voorwaardelijke btw
 Voorwaardelijke BTW is BTW die proportioneel aan het werkelijke bedrag dat wordt betaald op een factuur wordt betaald. Daarentegen wordt standaard BTW berekend bij de facturering van tijd. Voorwaardelijke BTW moet worden betaald aan de belastingdienst wanneer de betaling is geboekt, niet wanneer de factuur is geboekt. Wanneer de factuur wordt geboekt, moet de transactie worden gerapporteerd op het rapport BTW-boek. De transactie moet echter niet worden opgenomen in het rapport BTW-betaling. 
 
-Als u het selectievakje voor voorwaardelijke btw in het formulier grootboekparameters selecteert, kan er geen btw worden afgetrokken totdat u de factuur hebt betaald. Dit is in sommige landen/regio's een juridische vereiste.
+Als u het selectievakje Voorwaardelijke btw inschakelt in het formulier Grootboekparameters, kan er pas btw worden afgetrokken als u de factuur hebt betaald. Dit is in sommige landen/regio's een juridische vereiste.
 
 > [!NOTE]
-> Wanneer u het selectievakje voor voorwaardelijke btw selecteert, moet u btw-codes en btw-groepen instellen en ook Maak grootboekboekingsgroepen, ter ondersteuning van de functionaliteit. |
+> Als u het selectievakje Voorwaardelijke btw inschakelt, moet u btw-codes en btw-groepen instellen en moet u ter ondersteuning van de functionaliteit boekingsgroepen in het grootboek maken. |
 
 ###  <a name="example"></a>Voorbeeld
 
@@ -90,5 +93,7 @@ U betaalt elke maand BTW. Op 15 juni maakt u een klantinvoice van 10.000 met een
 Gewoonlijk zou u 2.500 aan de belastingdienst moeten betalen wanneer de factuur wordt geboekt in juni, zelfs als u geen betaling hebt ontvangen van de klant. 
 
 Echter, als u een voorwaardelijke BTW gebruikt, hoeft u pas met de belastingdienst te vereffenen wanneer u de betaling van de klant op 30 juli ontvangt.
+
+
 
 

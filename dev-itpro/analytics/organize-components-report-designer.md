@@ -49,18 +49,18 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 ### <a name="create-a-report-group"></a>Een rapportgroep maken
 
 1.  Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
-2.  Op de **bestand** menu, klikt u op **nieuw**&gt;**Rapportgroepsdefinitie** voor het openen van een nieuwe rapportgroep in het weergavevenster. U kunt ook op de **rapportgroep** knop ![rapportgroep](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "rapportgroep") op de werkbalk.
+2.  Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Rapportgroep") op de werkbalk.
 3.  Klik op het tabblad **Rapportgroep** op. Als u de informatie over de afzonderlijke rapportdefinities wilt negeren voor het genereren van dit rapport, selecteert u het selectievakje **Instellingen voor bedrijf, gegevens en datum uit afzonderlijke rapportdefinities negeren**. De bedrijfsnaam, het detailniveau, voorlopige instellingen en datumgegevens worden automatisch ingevuld, maar u kunt wel updates uitvoeren.
 4.  Als u meerdere rapporten wilt genereren die de aangiftevaluta tonen, schakelt u het selectievakje **Alle aangiftevaluta opnemen** in. U kunt vervolgens meerdere weergaven openen door op de knop **Valuta** te klikken in de Web Viewer wanneer u het rapport weergeeft.
 5.  Klik in het veld **Rapporten in groep** op **Toevoegen** om de rapporten te selecteren die u in de rapportgroep wilt opnemen. Als u meerdere rapporten wilt selecteren in het dialoogvenster **Toevoegen**, houdt u de toets Ctrl ingedrukt terwijl u rapporten selecteert. Wanneer u klaar bent met het selecteren van rapporten, klikt u op **OK**.
-6.  Klik op **bestand**&gt;**opslaan** om op te slaan, nieuwe rapportgroep.
+6.  Klik op **Bestand** &gt; **Opslaan** om de nieuwe rapportgroep op te slaan.
 
 ### <a name="modify-a-report-group"></a>Een rapportgroep wijzigen
 
 1.  Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2.  Dubbelklik op de rapportgroep die u wilt wijzigen.
 3.  Breng de gewenste wijzigingen aan op het tabblad **Rapportgroep**.
-4.  Op de **bestand** menu, klikt u op **opslaan** het gewijzigde rapport als groep wilt opslaan, of klik op de **opslaan** knop ![opslaan](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "opslaan") op de werkbalk.
+4.  Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Opslaan") in de werkbalk.
 
 **Opmerking:** als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
 
@@ -68,7 +68,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 
 1.  Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2.  Open de rapportgroep die u wilt genereren.
-3.  Klik op de **rapport genereren** knop ![rapport genereren](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "rapport genereren") om rapporten te genereren.
+3.  Klik op de knop **Rapport genereren** ![Rapport genereren](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Rapport genereren") om rapporten te genereren.
 
 ### <a name="delete-a-report-group"></a>Een rapportgroep verwijderen
 
@@ -104,8 +104,8 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 <td>Geef het gewenste detailniveau op voor de rapporten.
 <ul>
 <li><strong>Financieel</strong>- Een samenvatting op hoog niveau. U kunt rekeningen en dimensies niet in detail bekijken, behalve voor de rekeningen en dimensies die via een rapportagestructuur zijn toegevoegd.</li>
-<li><strong>Financiële &amp;rekening</strong> : een rapport met een globaal overzicht en rekeningdetails.</li>
-<li><strong>Financieel, rekening, &amp;transactie</strong> : een rapport met een samenvatting op hoog niveau en de transactiegegevens.</li>
+<li><strong>Financieel &amp; rekening</strong> − Een rapport dat een samenvatting op hoog niveau en rekeninggegevens bevat.</li>
+<li><strong>Financieel, rekening &amp; transactie</strong> − Een rapport dat een samenvatting op hoog niveau en transactiegegevens bevat.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Alleen standaardinstellingen voor de basisperiode worden opgeslagen met de rappo
 <a name="see-also"></a>Zie ook
 --------
 
-[Financiële rapportage voor Microsoft Dynamics 365 voor bewerkingen](financial-reporting-intro.md)
+[Financiële rapportage voor Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

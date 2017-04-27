@@ -1,5 +1,5 @@
 ---
-title: Bouwen van een model voor productconfiguratie
+title: Een productconfiguratiemodel maken
 description: De noodzaak om producten te configureren om aan speciale vereisten te voldoen, wordt de regel eerder dan de uitzondering, zowel in business-to-business- als business-to-consumer-relaties.
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="build-a-product-configuration-model"></a>Bouwen van een model voor productconfiguratie
+# <a name="build-a-product-configuration-model"></a>Een productconfiguratiemodel maken
+
+[!include[banner](../includes/banner.md)]
+
 
 De noodzaak om producten te configureren om aan speciale vereisten te voldoen, wordt de regel eerder dan de uitzondering, zowel in business-to-business- als business-to-consumer-relaties.
 
@@ -34,7 +37,7 @@ Een fabrikant die configureren-op-bestelling-scenario's ondersteunt, kan beter i
 
 Een geslaagde verplaatsing van een vervaardiging-naar-voorraadinstelling naar een configureren-op-bestelling instelling vereist zorgvuldige analyse van de productstructuren, identificatie van productfamilies en componentisering. Om het aantal onderdelen te verlagen en het aantal goederen te minimaliseren die in uitvoering zijn, is het zeer belangrijk dat u de productinterfacen begrijpt, en dat u ontwerpt voor herbruikbaarheid.  
 
-Er zijn verschillende modelleringsprincipes voor productconfiguratie, zoals op regels gebaseerd, op dimensies gebaseerd en op beperkingen gebaseerd modelleren. Uit onderzoek blijkt dat de op beperkingen gebaseerde methodologie het aantal coderegels in modellen met ongeveer 50 procent kan verminderen door het gebruik van andere modelleringsprincipes. Daarom kan deze methodologie de totale kosten van eigendom (TCO) drukken. Door het verplaatsen van een model op basis van een regel die is gebaseerd op de X ++-code aan een model op basis van beperkingen, u niet langer vereist een ontwikkelaarslicentie om productmodellen onderhouden.
+Er zijn verschillende modelleringsprincipes voor productconfiguratie, zoals op regels gebaseerd, op dimensies gebaseerd en op beperkingen gebaseerd modelleren. Uit onderzoek blijkt dat de op beperkingen gebaseerde methodologie het aantal coderegels in modellen met ongeveer 50 procent kan verminderen door het gebruik van andere modelleringsprincipes. Daarom kan deze methodologie de totale kosten van eigendom (TCO) drukken. Door over te stappen vanuit een op regels gebaseerd model dat is gebaseerd op X++-code, op een model dat op beperkingen is gebaseerd, hebt u geen ontwikkelaarslicentie meer nodig om productmodellen te onderhouden.
 
 ## <a name="product-configuration"></a>Productconfiguratie
 De industrialisatieperiode heeft geleid tot grote verwezenlijkingen in de productie van hoogwaardige en functierijke producten tegen betaalbare prijzen. De schaaleconomieën hebben het voor de meeste mensen in de geïndustrialiseerde wereld mogelijk gemaakt auto's, tv's, huishoudapparaten en andere goederen te kopen die de meesten van ons nodig vinden in het dagelijks leven.  
@@ -64,11 +67,11 @@ Het gebruik van een op beperkingen gebaseerd productconfiguratiemodel betekent d
 
 ### <a name="table-constraints"></a>Tabelbeperkingen
 
-Tabelbeperkingen kunnen worden aangepast of systeem gedefinieerd.  
+Tabelbeperkingen kunnen door de gebruiker of door het systeem zijn gedefinieerd.  
 
 Een door de gebruiker gedefinieerde tabelbeperking wordt gemaakt door de gebruiker. De gebruiker selecteert een combinatie van kenmerktypen om de kolommen van de tabel weer te geven, en voert vervolgens waarden uit de domeinen van het geselecteerde kenmerktype in om de rijen in de tabelbeperking te vormen.  
 
-Een systeemgedefinieerde tabelbeperking wordt gedefinieerd door welke Microsoft Dynamics 365 voor bewerkingen tabel moet worden gebruikt als verwijzing selecteren en vervolgens de velden uit deze tabel uit de kolommen in de beperking te selecteren. De rijen van de tabelbeperking worden de rijen van de Dynamics 365 voor tabel bewerkingen die tijdens de configuratie aanwezig zijn.  
+Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke Microsoft Dynamics 365 for Operations-tabel als referentie wordt gebruikt, en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Dynamics 365 for Operations-tabel die aanwezig zijn tijdens de configuratie.  
 
 Een tabelbeperking wordt opgenomen in een model voor productconfiguratie door naar de definitie van de tabelbeperking te verwijzen en de betreffende kenmerken in het model toe te wijzen aan de kolommen in de tabelbeperking.
 
@@ -103,7 +106,7 @@ Tot slot kan validatie worden uitgevoerd voor een compleet productconfiguratiemo
 
 ### <a name="testing"></a>Testen
 
-Testen van een model is vergelijkbaar met die voor een werkelijke configuratiesessie. De gebruiker kan de configuratie-pagina's doorlopen en controleer of de modelstructuur ondersteunt het configuratieproces te voltooien. De gebruiker kan controleren of de kenmerkwaarden correct zijn en of de kenmerkomschrijvingen de gebruiker ondersteunen bij het selecteren van de juiste waarden. Ten slotte probeert het systeem, nadat een testsessie is voltooid, de stuklijst te maken en de route die correspondeert met de geselecteerde kenmerkwaarden, en toont het systeem een foutbericht als er iets misgaat.
+Testen van een model is vergelijkbaar met de uitvoering van een werkelijke configuratiesessie. De gebruiker kan de configuratiepagina's doorlopen en controleren of de modelstructuur het configuratieproces ondersteunt. De gebruiker kan controleren of de kenmerkwaarden correct zijn en of de kenmerkomschrijvingen de gebruiker ondersteunen bij het selecteren van de juiste waarden. Ten slotte probeert het systeem, nadat een testsessie is voltooid, de stuklijst te maken en de route die correspondeert met de geselecteerde kenmerkwaarden, en toont het systeem een foutbericht als er iets misgaat.
 
 ### <a name="the-configuration-page"></a>De configuratiepagina
 
@@ -129,17 +132,17 @@ Als het product in verschillende landen/regio's wordt verkocht, kunnen vertaling
 De laatste stap en belangrijkste in het voltooiingsproces is een versie voor het model te maken. De versie geeft de relatie aan tussen het productmodel, dat kan worden geselecteerd voor configuratie op een order of een offerteregel, en het productconfiguratiemodel. Een versie moet zijn goedgekeurd en geactiveerd voordat deze kan worden gebruikt in een configuratiesessie.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Een productconfiguratiemodel uitbreiden met de API
-Een specifieke toepassingsprogrammeringsinterface (API) is geïmplementeerd, zodat partners en anderen die een ontwikkelaarslicentie hebben, de mogelijkheden van een productconfiguratiemodel kunnen uitbreiden. Het belangrijkste doel is vast te stellen van een mechanisme waarmee partners en klanten die gebruikmaken van het bestaande product Builder migreren we de code die is ingesloten in product Builder-modellen aan de API. Op deze manier kunnen ze de modellen van Product Builder naar een productconfiguratie migreren. Nieuwe partners en klanten kunnen echter ook profiteren van het gebruik van de API om nieuwe productconfiguratiemodellen uit te breiden.
+Een specifieke toepassingsprogrammeringsinterface (API) is geïmplementeerd, zodat partners en anderen die een ontwikkelaarslicentie hebben, de mogelijkheden van een productconfiguratiemodel kunnen uitbreiden. Het belangrijkste doel is een mechanisme te bepalen waarmee partners en de klanten die de bestaande Product Builder gebruiken, de code die in Product Builder-modellen is ingesloten kunnen migreren naar de API. Op deze manier kunnen ze de modellen van Product Builder naar een productconfiguratie migreren. Nieuwe partners en klanten kunnen echter ook profiteren van het gebruik van de API om nieuwe productconfiguratiemodellen uit te breiden.
 
 ### <a name="pcadaptor-class"></a>PCAdaptor-klasse
 
-De API wordt uitgevoerd via een set van **PCAdaptor**-klassen die de gegevensstructuur van de productconfiguratiemodellen beschikbaar maken. Een exemplaar van de **PCAdaptor** klasse moet worden gemaakt voor elk model dat wordt uitgebreid. Nadat een configuratiesessie is voltooid, wordt het systeem controleert of er een exemplaar van deze klasse en wordt deze uitgevoerd wanneer wordt geconstateerd.  
+De API wordt uitgevoerd via een set van **PCAdaptor**-klassen die de gegevensstructuur van de productconfiguratiemodellen beschikbaar maken. Een exemplaar van de klasse **PCAdaptor** moet worden gemaakt voor elk model dat wordt uitgebreid. Nadat een configuratiesessie is voltooid, wordt gecontroleerd op een exemplaar van deze klasse en wordt deze uitgevoerd wanneer deze wordt gevonden.  
 
 Het volgende stroomdiagram toont de processtroom van een catalogus.  
 
 [![Stroomdiagram](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Stroomdiagram product-configuratie-API
+Stroomdiagram productconfiguratie-API
 
 ## <a name="product-configuration"></a>Productconfiguratie
 De productconfiguratie kan worden uitgevoerd van de volgende locaties:
@@ -155,5 +158,7 @@ Het doel van de configuratie is een aparte variant van het product te maken die 
 ### <a name="multiple-sites-and-intercompany"></a>Meerdere sites en intercompany
 
 Als de configuratie op een locatie of zelfs een bedrijf wordt uitgevoerd dat verschilt van de locatie of het bedrijf waar productie optreedt, worden de stuklijst en de route gemaakt voor en geplaatst op de locatie van de leverancier in het leverende bedrijf. De productvariant wordt in alle bedrijven zijn vrijgegeven die aan de leveringsketen deelnemen.
+
+
 
 

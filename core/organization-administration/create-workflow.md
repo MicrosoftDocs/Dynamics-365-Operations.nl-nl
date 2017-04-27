@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>Een workflow maken
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit onderwerp wordt uitgelegd hoe u een workflow maakt.
 
 <a name="open-the-workflow-editor"></a>Open de workfloweditor
 ------------------------
 
-De Microsoft Dynamics 365 voor bewerkingen module waarin u werkt bepaalt het type workflow dat u kunt maken. Volg deze stappen om het workflowtype te selecteren dat u wilt maken en open de workfloweditor.
+De Microsoft Dynamics 365 for Operations-module waarin u werkt, bepaalt de workflowtypen die u kunt maken. Volg deze stappen om het workflowtype te selecteren dat u wilt maken en open de workfloweditor.
 
 1.  Open de module waarvoor u een nieuwe workflow wilt maken. Als u bijvoorbeeld een workflow voor opdrachten tot inkoop wilt maken, klikt u op **Inkoopbeheer**.
-2.  Klik op **Setup**&gt;**\[modulenaam\] workflows**.
+2.  Klik op **Instellen** &gt; **\[Naam van module\] workflows**.
 3.  Klik op **Nieuw** in de lijstpagina die verschijnt in het actievenster.
 4.  Selecteer op de pagina **Workflow maken** het type workflow en klik vervolgens op **Workflow maken**. De workfloweditor verschijnt. U kunt nu de volgende procedures gebruiken om de workflow te ontwerpen.
 
@@ -75,6 +78,8 @@ Wanneer u klaar bent om de workflow op te slaan en te activeren, volgt u deze st
 3.  Als alle fouten en waarschuwingen zijn opgelost, verschijnt de pagina **Workflow activeren**. Een van de volgende opties selecteren:
     -   Om deze versie van de workflow te activeren, klikt u op **De nieuwe versie activeren**. Wanneer een workflow actief is, kunnen gebruiker documenten ter verwerking bij de workflow aanbieden.
     -   Als u deze versie niet wilt activeren, klikt op **De nieuwe versie niet activeren**. U kunt de workflow later activeren.
+
+
 
 
 

@@ -26,13 +26,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Een parallelle vertakking in een workflow configureren
 
+[!include[banner](../includes/banner.md)]
+
+
 Voer de volgende procedures uit in de workfloweditor om een parallelle vertakking te configureren.
 
 Een parallelle vertakking is in wezen een workflow die in de context van een bovenliggende workflow wordt uitgevoerd.
 
 ## <a name="name-a-branch"></a>Een naam opgeven voor een vertakking
 Voer deze stappen uit om een naam op te geven voor een parallelle vertakking.
-1.  Met de rechtermuisknop op de parallelle vertakking en klik vervolgens op **eigenschappen**. Het formulier **Eigenschappen** wordt weergegeven.
+1.  Klik met de rechtermuisknop op de parallelle vertakking en klik vervolgens op **Eigenschappen**. Het formulier **Eigenschappen** wordt weergegeven.
 2.  Klik in het linkerdeelvenster op **Basisinstellingen**.
 3.  Voer in het veld **Naam** een unieke naam voor de parallelle vertakking in.
 4.  Klik op **Sluiten**.
@@ -40,13 +43,15 @@ Voer deze stappen uit om een naam op te geven voor een parallelle vertakking.
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>De elementen van een vertakking ontwerpen en configureren
 Voer deze stappen uit om de elementen van een parallelle vertakking te ontwerpen en te configureren.
 1.  Dubbelklik op de parallelle vertakking.
-2.  Sleep workflowelementen op het tekenpapier en configureer de elementen, net als bij het maken van een andere workflow. Zie een workflow maken voor meer informatie.
+2.  Sleep workflowelementen op het tekenpapier en configureer de elementen, net als bij het maken van een andere workflow. Zie Een workflow maken voor meer informatie.
 
 
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Create a workflow](create-workflow.md)
+[Een workflow maken](create-workflow.md)
+
+
 
 

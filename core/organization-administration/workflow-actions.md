@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Workflowacties
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden de acties beschreven die elke deelnemer in een goedkeuringsproces kan uitvoeren.
 
-Bij een workflow kunnen meerdere groepen gebruikers zijn betrokken: de starter, degenen aan wie taken zijn toegewezen, degenen die beslissingen nemen en fiatteurs. Hieronder ziet u een workflow voor een onkostennota. In dit voorbeeld is Sam de starter, zijn de leden van de wachtrij toegewezenen, is Jan een besluitvormer en zijn Frank, Suzan en Anne de fiatteurs.   [![workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) in de volgende secties worden de workflowacties die kan worden uitgevoerd in elke groep beschreven.
+Bij een workflow kunnen meerdere groepen gebruikers zijn betrokken: de starter, degenen aan wie taken zijn toegewezen, degenen die beslissingen nemen en fiatteurs. Hieronder ziet u een workflow voor een onkostennota. In dit voorbeeld is Sam de starter, zijn de leden van de wachtrij toegewezenen, is Jan een besluitvormer en zijn Frank, Suzan en Anne de fiatteurs.   [![Workflow\_met handmatige beslissing](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) In de volgende secties worden de workflowacties beschreven die door elk van deze groepen mensen kunnen worden uitgevoerd.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Acties die kunnen worden uitgevoerd door een starter
 De opdrachtgever start een workflowexemplaar door een document ter verwerking aan te bieden. Als Sam bijvoorbeeld zijn onkostennota wilt verzenden, moet hij klikken op de knop **Aanbieden** op de pagina **Onkostennota**.
 
 ## <a name="actions-that-a-task-assignee-can-perform"></a>Acties die kunnen worden uitgevoerd door een toegewezene
-Een taak kan worden toegewezen aan meerdere personen of aan een wachtrij voor werkitems die door meerdere mensen wordt gecontroleerd. Slechts één persoon kan echter een taak uitvoeren. Stel dat Sam in de bovenstaande workflow een onkostennota heeft ingediend en de ontvangstbewijzen ter controle naar de afdeling voor onkostennota's van zijn organisatie heeft gestuurd. De leden van de afdeling Onkostennota´s van Adventure Works controleren de wachtrij. Julie, een lid van die afdeling, heeft de taak geaccepteerd om de onkostennota en ontvangstbewijzen van Sam te controleren. Ze kan nu een van de volgende acties uitvoeren: voltooien, afwijzen, delegeren, een wijziging aanvragen, opnieuw toewijzen of vrijgeven. **Opmerking:** Welke acties beschikbaar zijn, is afhankelijk van de manier waarop de taak door de softwareontwikkelaar is ontworpen.
+Een taak kan worden toegewezen aan meerdere personen of aan een wachtrij voor werkitems die door meerdere mensen wordt gecontroleerd. Slechts één persoon kan echter een taak uitvoeren. Stel dat Sam in de bovenstaande workflow een onkostennota heeft ingediend en de ontvangstbewijzen ter controle naar de afdeling voor onkostennota's van zijn organisatie heeft gestuurd. De leden van de afdeling Onkostennota's van Adventure Works controleren de wachtrij. Julie, een lid van die afdeling, heeft de taak geaccepteerd om de onkostennota en ontvangstbewijzen van Sam te controleren. Ze kan nu een van de volgende acties uitvoeren: voltooien, afwijzen, delegeren, een wijziging aanvragen, opnieuw toewijzen of vrijgeven. **Opmerking:** Welke acties beschikbaar zijn, is afhankelijk van de manier waarop de taak door de softwareontwikkelaar is ontworpen.
 
 ### <a name="complete"></a>Voltooien
 
@@ -63,7 +66,7 @@ Soms komt het voor dat een lid van de wachtrij voor werkitems een taak accepteer
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Acties die een besluitvormer kan uitvoeren
 Wanneer een document aan een besluitvormer is toewezen, is dit doorgaans omdat de besluitvormer een vraag moet beantwoorden. Het antwoord op de vraag is doorgaans **Ja** of **Nee** of **Waar** of **Onwaar**. Als de besluitvormer geen van deze opties selecteert, kan hij of zij de beslissing delegeren.
 
-### <a name="choice-1-or-choice-2"></a>\[Keuze 1\] of \[keuze 2\]
+### <a name="choice-1-or-choice-2"></a>\[Keuze 1\] of \[Keuze 2\]
 
 Een besluitvormer moet een vraag beantwoorden voor het document. Het antwoord op de vraag is doorgaans **Ja** of **Nee** of **Waar** of **Onwaar**. Het antwoord van de besluitvormer bepaalt welke tak van de workflow wordt gebruikt om het document te verwerken. Stel dat de onkostennota van Sam aan Jan is toegewezen. Jan moet beslissen of voor de informatie op de onkostennota een telefoontje naar de manager van Sam is vereist. Als Jan beslist dat een telefoontje is vereist, wordt de onkostennota aan Aretha toegewezen, die vervolgens de manager van Sam moet bellen. Als Jan beslist dat geen telefoontje is vereist, wordt de onkostennota aan Frank toegewezen ter goedkeuring.
 
@@ -89,5 +92,7 @@ Wanneer een fiatteur een document delegeert, wordt het document ter goedkeuring 
 ### <a name="request-change"></a>Wijziging aanvraag
 
 Wanneer een fiatteur een wijziging in een document aanvraagt, wordt het document teruggestuurd naar de opdrachtgever. Stel dat Sam een onkostennota van EUR 12.000 heeft ingediend, die is toegewezen aan Suzan. Als Suzan een wijziging aanvraagt, wordt de onkostennota teruggestuurd naar Sam. Sam kan de onkostennota opnieuw indienen. Hij kan eerst de gevraagde wijzigingen aanbrengen of de oorspronkelijke versie van de onkostennota opnieuw indienen. Als Sam de onkostennota opnieuw indient, wordt het ter goedkeuring naar Frank verzonden omdat hij de eerste fiatteur in het goedkeuringsproces is.
+
+
 
 

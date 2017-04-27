@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Terugkerende facturen instellen en verwerken
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u terugkerende facturen instelt en verwerkt. U kunt terugkerende facturen gebruiken als u klanten regelmatig voor hetzelfde bedrag moet factureren.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Een sjabloon maken voor een terugkerende vrije-tekstfactuur
@@ -61,5 +64,7 @@ Terugkerende vrije-tekstfacturen afdrukken
 ----------------------------------
 
 Nadat terugkerende facturen zijn geboekt, kunt u de facturen op de pagina met de lijst vrije-tekstfacturen afdrukken. U kunt de geselecteerde facturen afdrukken of u kunt een bereik facturen selecteren die u wilt afdrukken.
+
+
 
 

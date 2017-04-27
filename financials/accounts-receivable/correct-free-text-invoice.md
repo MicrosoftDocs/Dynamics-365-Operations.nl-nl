@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Een vrije-tekstfactuur corrigeren
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u een geboekte vrije-tekstfactuur corrigeert en opnieuw uitgeeft als gecorrigeerde factuur.
 
-U kunt een vrije-tekstfactuur die al is geboekt, open de geboekte vrije-tekstfactuur. Op de **factuur** pagina **annuleren**, en selecteer vervolgens **factuur corrigeren**. Selecteer een redencode, voeg opmerkingen toe en selecteer de datum voor de nieuwe, gecorrigeerde factuur. U kunt de gecorrigeerde factuur wijzigen en boeken. 
+Als u een vrije-tekstfactuur wilt corrigeren die al is geboekt, opent u de geboekte vrije-tekstfactuur. Selecteer op de pagina **Factuur** **Annuleren** en selecteer vervolgens **Factuur corrigeren**. Selecteer een redencode, voeg opmerkingen toe en selecteer de datum voor de nieuwe, gecorrigeerde factuur. U kunt de gecorrigeerde factuur wijzigen en boeken. 
 
 Wanneer u de gecorrigeerde factuur boekt, wordt er een annuleringsfactuur gemaakt voor een creditbedrag dat gelijk is aan het oorspronkelijke factuurbedrag. Hierdoor is het gecombineerde saldo van de oorspronkelijke en de annuleringsfactuur gelijk aan 0 (nul). De annuleringsfactuur wordt vereffend met de oorspronkelijke factuur. 
 
@@ -43,9 +46,11 @@ Als u de gecorrigeerde factuur boekt, hebt u drie facturen:
 U kunt annulerings- en correctiefacturen op twee manieren identificeren:
 
 -   De pagina **Alle vrije-tekstfacturen** bevat een kolom **Correctie** waarin u kunt zien welke facturen annuleringsfacturen en gecorrigeerde facturen zijn.
--   De koptekst van de vrije-tekstfactuur wordt de status van **Cancelling factuur '\[factuurnummer\]'** of **gecorrigeerd factuur '\[factuurnummer\]'**.
+-   In de koptekst van de vrije-tekstfactuur wordt de status **Annuleringsfactuur** \[factuurnummer]\] of **Gecorrigeerde factuur '\[factuurnummer\]'** weergegeven.
 
 > [!NOTE]
-> Deze functie is beschikbaar als de **correctie tekstfactuur vrije** configuratiesleutel is geselecteerd.
+> Deze functie is alleen beschikbaar als de configuratiesleutel **Correctie van vrije-tekstfactuur** is geselecteerd.
+
+
 
 

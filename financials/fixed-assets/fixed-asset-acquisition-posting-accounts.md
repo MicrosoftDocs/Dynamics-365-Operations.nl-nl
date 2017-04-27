@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Boekingsrekeningen verwerving vaste activa
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het aanchaffen van activa.
 
 Rekeningen voor het boeken van verwervingen van vaste activa kunnen verschillen afhankelijk van de methode die wordt gebruikt om het activum te verwerven. Selecteer Verwerving en Verwervingscorrectie op de pagina Boekingsprofielen voor vaste activa op het tabblad Grootboekrekeningen vaste-activarekeningen in te stellen om naar het grootboek te boeken. 
@@ -40,6 +43,8 @@ Als Factuurjournaal of Inkooporders in Leveranciers worden gebruikt voor de verw
 
 Voor verwervingen die zijn geboekt met het Voorraad naar vaste-activajournaal in het grootboek, is het vaste activum niet gekocht van externe bronnen, maar overgebracht uit de eigen voorraad van het bedrijf. Daarom is de tegenrekening een voorraaduitgifterekening voor het voorraadartikel in Voorraadbeheer.
 
-Zie voor meer informatie [verwerving van activa via inkoop](acquire-assets-procurement.md).
+Zie voor meer informatie [Verwerving van activa via inkoop](acquire-assets-procurement.md).
+
+
 
 

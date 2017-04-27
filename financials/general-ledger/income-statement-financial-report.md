@@ -1,6 +1,6 @@
 ---
 title: Financieel rapport inkomensoverzicht
-description: In dit artikel beschrijft het standaardrapport voor winst- en verliesrekeningen. Hierin worden ook de bouwstenen die gekoppeld aan dit rapport zijn.
+description: In dit artikel wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Financieel rapport inkomensoverzicht
 
-In dit artikel beschrijft het standaardrapport voor winst- en verliesrekeningen. Hierin worden ook de bouwstenen die gekoppeld aan dit rapport zijn. 
+[!include[banner](../includes/banner.md)]
+
+
+In dit artikel wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld. 
 
 <a name="default-income-statement-report"></a>Standaardrapport inkomensoverzicht
 -------------------------------
@@ -61,10 +64,12 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
 <a name="see-also"></a>Zie ook
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Financiële rapportage](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Financiële rapporten weergeven](view-financial-reports.md)
 
-[Dynamics-Blog voor financiële rapportage](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

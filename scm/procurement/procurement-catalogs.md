@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Inkoopcatalogi
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel beschrijft op een hoog niveau hoe de inkoopprofessional aanschaffingscatalogi kan instellen en onderhouden. Aanschaffingscatalogi definiëren de artikelen en services die werknemers van het bedrijf kunnen gebruiken wanneer ze artikelen en services voor intern gebruik bestellen.
 
 Inkoopprofessionals kunnen catalogi van artikelen en services maken en onderhouden die kunnen worden gekocht voor intern gebruik in een organisatie. Nadat catalogi zijn ingesteld, kunnen werknemers opdrachten tot inkoop maken om uit de catalogi te bestellen. De catalogi kunnen worden gebruikt om inkoopbeleid af te dwingen, zodat werknemers alleen de artikelen en services kunnen bestellen die voor hun inkopende rechtspersoon zijn toegestaan. Wanneer u een aanschaffingscatalogus maakt, moet u de volgende taken overwegen:
 
 -   Configureer uw hiërarchie van aanschaffingscategorieën voordat u de catalogus maakt.
--   Bepaal welke producten u wilt dat uw werknemers kunnen bestellen. U kunt weergeven of verbergen van specifieke producten in een catalogus-knooppunt of u kunt weergeven of verbergen van de producten in een knooppunt.
+-   Bepaal welke producten u wilt dat uw werknemers kunnen bestellen. U kunt specifieke producten in een catalogusknooppunt weergeven of verbergen, of alle producten in een knooppunt weergeven of verbergen.
 -   Bepaal hoeveel aanschaffingscatalogi u nodig hebt. Toegang tot een aanschaffingscatalogus wordt bepaald door de beleidsregel voor de catalogus die u voor de rechtspersoon en operationele eenheid definieert waaraan een werknemer is toegewezen.
 
 Verschillende factoren definiëren de producten die werknemers kunnen bestellen en de aanschaffingscategorieën die ze kunnen gebruiken wanneer ze opdrachten tot inkoop maken:
@@ -52,7 +55,7 @@ De volgende tabel beschrijft de taken die moeten worden uitgevoerd voordat een i
 ## <a name="setting-up-a-catalog"></a>Een catalogus instellen
 Nadat aan de vereisten is voldaan, kunt u catalogi instellen. U kunt één catalogus maken die door uw hele organisatie wordt gebruikt of meerdere catalogi voor de verschillende afdelingen in uw organisatie. Als u één catalogus voor de hele organisatie maakt, wordt de toegang tot de catalogus bepaald door uw inkoopbeleidsregels.  
 
-De catalogus bepaalt welke producten beschikbaar zijn wanneer de opdrachten tot inkoop worden gemaakt, maar u kunt beleidsregels voor categorietoegang gebruiken om extra beperkingen toe te passen. Omdat de knooppunten in een catalogus aanschaffingscategorieën zijn, kunnen ze door een beleidsregel voor categorietoegang worden onderdrukt. In dit geval zijn de producten in deze categorie niet beschikbaar voor werknemers moet worden gebruikt op opdrachten. U beleidsregels voor categorietoegang definieert op het **inkoopbeleid** pagina. De volgende tabel beschrijft de taken die u moet uitvoeren om een catalogus in te stellen.
+De catalogus bepaalt welke producten beschikbaar zijn wanneer de opdrachten tot inkoop worden gemaakt, maar u kunt beleidsregels voor categorietoegang gebruiken om extra beperkingen toe te passen. Omdat de knooppunten in een catalogus aanschaffingscategorieën zijn, kunnen ze door een beleidsregel voor categorietoegang worden onderdrukt. In dat geval zijn de producten in die categorie niet beschikbaar voor werknemers om in opdrachten te gebruiken. U definieert de beleidsregels voor categorietoegang op de pagina **Inkoopbeleid**. De volgende tabel beschrijft de taken die u moet uitvoeren om een catalogus in te stellen.
 
 | Opdracht                                                   | Rol             | Beschrijving                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,6 +73,8 @@ Updates worden automatisch of handmatig gepubliceerd, afhankelijk van de optie d
 <a name="see-also"></a>Zie ook
 --------
 
-[Een hiërarchie van aanschaffingscategorieën (taak guide) instellen](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+[Een hiërarchie van aanschaffingscategorieën instellen](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/) (taakbegeleiding)
+
+
 
 

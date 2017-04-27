@@ -46,12 +46,12 @@ Naast de financiële rapporten kunt u de volgende grootboekrapporten gebruiken o
 
 -   **Dimensieoverzicht**: dit rapport bevat transacties per dag en rekening, en er zijn ook opties om transacties per dimensie en periode weer te geven.
 -   **Lijst van grootboektransacties**: dit rapport bevat transacties in transactie-, boekhoudings- en aangiftevaluta voor een rekening.
--   **Afdrukken journaal** : dit rapport geeft het resultaat van een geboekt journaal. U kunt het rapport uitgevoerd door journaalbatchnummer of journaaltype of extra velden toevoegen.
+-   **Journaal afdrukken:** Dit rapport bevat het resultaat van een geboekt journaal. U kunt het rapport uitvoeren op journaalbatchnummer of journaaltype of u kunt extra velden toevoegen.
 -   **Geboekte transacties per journaal**: dit rapport bevat de transacties die naar een journaal zijn geboekt, gegroepeerd op boekstuk.
 -   **Transactielijst per datum**: dit rapport bevat alle transacties op datum, samen met het journaalnummer, het boekstuk en de grootboekrekening. Ook bevat dit rapport de transacties in de transactie-, boekhoudings- en aangiftevaluta.
 -   **Oorsprong van transactie**: in dit transactierapport wordt de rekening op journaal weergegeven en op basis van transactie-, boekhoudings- en aangiftevaluta. Ook bevat het rapport elke regel van het journaal dat als tegenrekening is gebruikt.
 
 
-Zie voor meer informatie [algemeen grootboekrekeningsaldi](general-ledger-account-balances.md), [boekhouding bron explorer](\financials\accounts-payable\accounting-source-explorer) en [financiële rapportage](financial-reporting-getting-started.md)
+Zie voor meer informatie [Grootboekrekeningsaldi](general-ledger-account-balances.md), [Boekhoudingsbronverkenner](\financials\accounts-payable\accounting-source-explorer) en [Financiële rapportage](financial-reporting-getting-started.md)
 
 

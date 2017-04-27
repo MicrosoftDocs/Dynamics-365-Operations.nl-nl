@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Kostenwijzigingen simuleren via een kostprijsberekeningsversie voor geplande kosten
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt uitgelegd hoe u de effecten van kostenwijzigingen op de berekende kosten van een gefabriceerd artikel simuleert met een aparte kostprijsberekeningsversie voor geplande kosten.
 
 U kunt de effecten van kostenwijzigingen op de berekende kosten van een gefabriceerd artikel simuleren met een aparte kostprijsberekeningsversie voor geplande kosten. Gebruik deze aparte kostprijsberekeningsversie voor het invoeren van kostenrecords die in behandeling zijn en incrementele kostenwijzigingen reflecteren, en voor het berekenen van het kosteneffect op gefabriceerde artikelen. Aangezien het terugvalprincipe van actieve kosten wordt gebruikt in de stuklijstberekeningen, hoeven alleen de incrementele kostenwijzigingen te worden ingevoerd.
@@ -54,5 +57,7 @@ De volgende scenario's illustreren hoe de simulatiekostprijsberekeningsversie wo
 -   Simuleer de kostenwijziging in een berekeningsformule voor indirecte kosten. De kostenwijziging kan bijvoorbeeld een verwachte verhoging of verlaging in productieoverhead weerspiegelen. Als u de wijziging in een berekeningsformule van indirecte kosten wilt definiëren, gebruikt u de pagina **Instellingen kostenblad** om een kostenrecord die in behandeling is, in de simulatiekostprijsberekeningsversie in te voeren, en om de wijziging te valideren en op te slaan.
 
 Nadat u de gesimuleerde kostenwijzigingen hebt ingevoerd, berekent u de kosten voor gefabriceerde artikelen waarvoor de kostenwijzigingen gevolgen hebben. Gebruik de pagina **Berekening** voor de simulatiekostprijsberekeningsversie, en geef de geselecteerde gefabriceerde artikelen aan waarvoor de kostenwijzigingen gevolgen zullen hebben. De stuklijstberekeningen zijn van toepassing op alle gefabriceerde artikelen, tenzij u specifieke artikelen selecteert. U kunt de stuklijstberekeningsoptie ook gebruiken voor updates van gebruikslocaties. Geef de artikelkostenrecords in de simulatiekostprijsberekeningsversie weer om te analyseren hoe de gesimuleerde kostenwijzigingen van invloed zijn op de kosten van de geselecteerde gefabriceerde artikelen. Gebruik de pagina **Artikelprijs** en de pagina **Artikelkosten berekenen** om de kosten weer te geven en te analyseren.
+
+
 
 

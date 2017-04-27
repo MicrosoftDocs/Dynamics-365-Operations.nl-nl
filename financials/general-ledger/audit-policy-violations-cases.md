@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Overtredingen van controlebeleid en aanvragen
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe controleaanvragen worden gegenereerd voor overtredingen van controlebeleidsregels. Het bevat ook informatie over de verschillende manieren waarop door controlebeleid wordt gebruikgemaakt van het datumbereik voor documentselectie.
 
 <a name="how-audit-cases-are-generated"></a>De controleaanvragen worden gegenereerd.
@@ -39,10 +42,10 @@ Controlebeleid moet in batchmodus worden uitgevoerd. Wanneer u een controlebelei
 
 Met elke beleidsregel wordt een set documenten geëvalueerd. Met de beleidsregel worden documenten geselecteerd die zich binnen het datumbereik van de documentselectie bevinden en die voldoen aan opgegeven criteria. Eén beleidsregel kan bijvoorbeeld onkostennota's selecteren met maaltijden van meer dan 50. Met een andere beleidsregel kunnen leveranciersfacturen worden geselecteerd die aan een specifieke leverancier moeten worden betaald. Voor elk document dat in de set is geselecteerd, wordt een overtreding gegenereerd. De overtreding is een record waarmee wordt aangegeven dat een bepaald document, zoals factuur 12345, niet voldoet aan de beleidsregel. 
 
-Meerdere controleschendingsregistraties worden gegroepeerd en aan controleaanvragen gekoppeld. Aanvragen voor elk controlebeleid worden standaard op basis van controlebeleidsregel gegroepeerd. Desgewenst kunt u andere groeperingscriteria selecteren met behulp van de pagina **Casegroeperingscritertia**. U kunt bijvoorbeeld kopteksten van onkosten op project-ID en leverancierfacturen groeperen op leverancier. In dit geval worden alle overtredingen van de onkosten koptekst met dezelfde project-ID in dezelfde aanvraag gegroepeerd en worden alle leverancierfacturen met dezelfde leverancierrekening in dezelfde aanvraag gegroepeerd. 
+Meerdere controleschendingsregistraties worden gegroepeerd en aan controleaanvragen gekoppeld. Aanvragen voor elk controlebeleid worden standaard op basis van controlebeleidsregel gegroepeerd. Desgewenst kunt u andere groeperingscriteria selecteren met behulp van de pagina **Casegroeperingscritertia**. U kunt bijvoorbeeld kopteksten van onkosten groeperen op project-ID en leveranciersfacturen op leverancierrekening. In dit geval worden alle overtredingen van kopteksten van onkosten met dezelfde project-ID in dezelfde aanvraag gegroepeerd, en worden alle leverancierfacturen met dezelfde leverancierrekening in dezelfde aanvraag gegroepeerd. 
 
 > [!NOTE]
-> Bij controlebeleidsregels die zijn gebaseerd op een **dubbele** querytype, overtredingen niet worden gegroepeerd op controlebeleidsregel of op de criteria die zijn opgegeven op de **Groeperingscriteria in zaak** pagina. In plaats daarvan worden ze gegroepeerd op de criteria in de controlebeleidsregel. Als met een beleidsregel bijvoorbeeld onkostennota's worden geëvalueerd voor dubbele onkosten met hetzelfde bedrag, dezelfde verkopers-ID en datum, zijn alle onkosten met dezelfde waarden in deze velden onderdeel één aanvraag. Alle onkosten met andere waarden vormen een andere aanvraag.
+> Bij controlebeleidsregels die zijn gebaseerd op het querytype **Duplicaat**, worden overtredingen niet gegroepeerd op beleidsregel of op de criteria die zijn opgegeven op de pagina **Casegroeperingscriteria**. In plaats daarvan worden ze gegroepeerd op de criteria in de controlebeleidsregel. Als met een beleidsregel bijvoorbeeld onkostennota's worden geëvalueerd voor dubbele onkosten met hetzelfde bedrag, dezelfde verkopers-ID en datum, zijn alle onkosten met dezelfde waarden in deze velden onderdeel één aanvraag. Alle onkosten met andere waarden vormen een andere aanvraag.
 
 Nadat de controleaanvragen zijn gegenereerd, worden ze verwerkt met de normale processen voor aanvraagbeheer.
 
@@ -56,6 +59,8 @@ Hier vindt u enkele andere manieren waarop het datumbereik voor documentselectie
 -   Voor beleidsregels die zijn gebaseerd op het querytype **Zoeken in lijst**, worden met het beleid documenten geëvalueerd voor gecontroleerde entiteiten die geldig zijn op de laatste dag van het datumbereik voor documentselectie.
 
 
-Zie voor meer informatie [controlebeleidsregels](audit-policy-rules.md)
+Zie [Controlebeleidsregels](audit-policy-rules.md) voor meer informatie.
+
+
 
 

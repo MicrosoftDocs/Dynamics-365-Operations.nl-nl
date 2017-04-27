@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-posting-profiles"></a>Boekingsprofielen van klant
 
+[!include[banner](../includes/banner.md)]
+
+
 Met klantprofielen wordt de boeking van klanttransacties naar het grootboek beheerd.
 
 <a name="customer-posting-profiles"></a>Boekingsprofielen van klant
 -------------------------
 
-Met boekingsprofielen van klanten kunt u grootboekrekeningen en documentinstellingen aan alle klanten, een groep klanten of één klant toewijzen. Deze instellingen wordt gebruikt bij het maken van verkooporders, vrije-tekstfacturen, contante betalingen, aanmaningen en rentenota's. Voor sommige transacties kunt u een boekingsprofiel selecteren dat afwijkt van en voorrang heeft op de boekingsprofielen die zijn ingesteld voor transacties op deze pagina. 
+Met boekingsprofielen van klanten kunt u grootboekrekeningen en documentinstellingen aan alle klanten, een groep klanten of één klant toewijzen. Deze instellingen worden gebruikt als u verkooporders, vrije-tekstfacturen, contante betalingen, aanmaningen en rentenota's maakt. Voor sommige transacties kunt u een boekingsprofiel selecteren dat afwijkt van en voorrang heeft op de boekingsprofielen die zijn ingesteld voor transacties op deze pagina. 
 
 Het standaardboekingsprofiel wordt gedefinieerd op het sneltabblad Grootboek en btw op de pagina Parameters van module Klanten. Het standaardboekingsprofiel wordt vervolgens automatisch opgenomen in de koptekst van nieuwe documenten waarin u het vervolgens in een ander boekingsprofiel kunt wijzigen, indien nodig.
 
@@ -126,7 +129,7 @@ Als u wilt dat alle klanttransacties hetzelfde boekingsprofiel hebben, stelt u s
 
 ### 
 
-### <a name="table-restrictions"></a>**Table restrictions**
+### <a name="table-restrictions"></a>**Tabelbeperkingen**
 
 Voor transacties met het geselecteerde boekingsprofiel geeft u op of transacties automatisch worden vereffend, rente wordt berekend en aanmaningen worden uitgegeven. U kunt ook de rekening selecteren die wordt gebruikt wanneer transacties met het geselecteerde boekingsprofiel worden afgesloten.
 
@@ -138,6 +141,8 @@ Geef de volgende waarden op om uw boekingsprofiel in te stellen:
 | **Interesse**          | Selecteer deze schakeloptie als rente moet worden berekend over openstaande saldi voor klantrekeningen die dit profiel gebruiken. Als deze schakeloptie niet is geselecteerd, wordt voor deze klanten geen rente berekend.                                           |
 | **Aanmaning** | Selecteer deze schakeloptie als aanmaningen moeten worden gegenereerd voor klantrekeningen die dit profiel gebruiken. Als deze schakeloptie niet is geselecteerd, worden voor deze klanten geen aanmaningen gegenereerd.                                                 |
 | **Sluiten**             | Selecteer een boekingsprofiel om naar over te gaan als transacties met dit boekingsprofiel gesloten zijn. Een transactie wordt als afgesloten beschouwd als deze volledig is vereffend.                                                                           |
+
+
 
 
 

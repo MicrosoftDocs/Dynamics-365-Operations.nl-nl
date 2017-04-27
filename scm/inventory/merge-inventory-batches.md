@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Voorraadbatches samenvoegen
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch. 
 
 Wanneer u batches samenvoegt, kunnen berekeningen helpen bij het optimaliseren van de eigenschappen en batchkenmerken van de samengevoegde batch. Nadat de bronbatches zijn geselecteerd, kan de samengevoegde batch worden beoordeeld en aangepast voordat u deze boekt. U kunt ook de batchsamenvoeging overboeken naar een voorraadjournaal voor goedkeuring. De voorraad kan vervolgens direct vanaf dat voorraadjournaal worden gereserveerd of worden geboekt. Wanneer u een samengevoegde batch boekt, wordt de voorraad aangepast voor de bronbatches en de samengevoegde batch.
@@ -48,7 +51,7 @@ Ja, er zijn bepaalde zaken die u moet instellen voordat u de gereedschappen kunt
 <tbody>
 <tr class="odd">
 <td>Journaalnamen, voorraad</td>
-<td>U moet de journaalnaam maken die standaard wordt gebruikt wanneer u batchsamenvoegingen in voorraadjournalen boekt. Optioneel, maar wel aanbevolen: u kunt opgeven dat reservaties automatisch worden uitgevoerd wanneer de batchsamenvoeging wordt overgedragen naar het voorraadjournaal. Anders bestaat het risico dat er een wijziging wordt uitgevoerd aan de voorhanden voorraad nadat de details van de batchsamenvoeging zijn ingesteld en het journaal is geboekt. Als u automatische reserveringen voor de journaalnaam, schakelt <strong>automatische</strong> in de <strong><strong>reservering</strong></strong> veld.</td>
+<td>U moet de journaalnaam maken die standaard wordt gebruikt wanneer u batchsamenvoegingen in voorraadjournalen boekt. Optioneel, maar wel aanbevolen: u kunt opgeven dat reservaties automatisch worden uitgevoerd wanneer de batchsamenvoeging wordt overgedragen naar het voorraadjournaal. Anders bestaat het risico dat er een wijziging wordt uitgevoerd aan de voorhanden voorraad nadat de details van de batchsamenvoeging zijn ingesteld en het journaal is geboekt. Om automatische reserveringen in te schakelen voor de journaalnaam, selecteert u <strong>Automatisch</strong> in het veld <strong><strong>Reservering</strong></strong>.</td>
 </tr>
 <tr class="even">
 <td>Parameters voor voorraad- en magazijnbeheer</td>
@@ -134,9 +137,11 @@ De boekingen werken op twee manieren, afhankelijk van hoe u een goedkeuringsproc
 -   **Overboeken naar journaal** - Brengt de batchsamenvoegingsdetails over naar een nieuw voorraadjournaal. Als u automatische reserveringen hebt ingesteld, zijn de hoeveelheden in de bronbatches gereserveerd. De details van de batchsamenvoeging kunnen niet worden gewijzigd. Als u de batchsamenvoeging wilt wijzigen, moet u het journaal verwijderen. Het journaal kan als een taak worden gebruikt die een andere werknemer later moet uitvoeren. De reservering van de batchhoeveelheid voor de journaalregel is beveiligd. Met deze toewijzing kan een kwaliteitsplanner of een magazijnmanager taken voor zijn of haar werknemers maken.
 -   **De batchsamenvoeging boeken** - Boekt de batchsamenvoeging direct. Deze actie kan worden uitgevoerd nadat de fysieke samenvoeging heeft plaatsgevonden.
 
-U kunt het voorraadjournaal goedkeuren voor de batchsamenvoeging vanaf de lijstpagina **Alle batchsamenvoegingen**. Klik op **journaal**&gt;**boeken**. Nadat een journaal is geboekt, kunt u de details niet wijzigen in de samengevoegde batch. Nadat u een batchsamenvoeging naar een voorraadjournaal overdraagt, kunt u de details alleen wijzigen als het journaal wordt verwijderd.
+U kunt het voorraadjournaal goedkeuren voor de batchsamenvoeging vanaf de lijstpagina **Alle batchsamenvoegingen**. Klik op **Journaal** &gt; **Boeken**. Nadat een journaal is geboekt, kunt u de details niet wijzigen in de samengevoegde batch. Nadat u een batchsamenvoeging naar een voorraadjournaal overdraagt, kunt u de details alleen wijzigen als het journaal wordt verwijderd.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Nadat ik een catchweight-artikel samengevoegd, waarom zie ik niet de catchweight-informatie in het voorraadjournaal?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Waarom kan ik de informatie over variabel gewicht niet zien in het voorraadjournaal nadat ik een artikel met variabel gewicht heb samengevoegd?
 U kunt batches van catch weight-artikels samenvoegen, net zoals alle andere artikels. De catch weight-informatie wordt echter niet weergegeven op het voorraadjournaal. Wij raden u aan de catch weight-informatie na te gaan voordat u de batchsamenvoeging overdraagt naar het voorraadjournaal.
+
+
 
 

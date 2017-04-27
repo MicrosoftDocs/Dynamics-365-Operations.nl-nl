@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 Dit artikel bevat informatie over rapportdefinities. Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken. Een rapportdefinitie bevat ook opties en instellingen voor het aanpassen van een rapport. 
 
-Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken. Een rapportdefinitie bevat ook opties en instellingen die u kunt een rapport aanpassen. Nadat u rijdefinities en kolomdefinities hebt gedefinieerd, moet u deze in een rapportdefinitie combineren. Op dit punt definieert u ook andere aspecten van de definities, zoals het detailniveau en de rapportdatum. U kunt vervolgens een rapport opslaan en genereren. Financiële rapportage biedt de volgende detailniveaus:
+Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken. Een rapportdefinitie biedt ook opties en instellingen waarmee u een rapport kunt aanpassen. Nadat u rijdefinities en kolomdefinities hebt gedefinieerd, moet u deze in een rapportdefinitie combineren. Op dit punt definieert u ook andere aspecten van de definities, zoals het detailniveau en de rapportdatum. U kunt vervolgens een rapport opslaan en genereren. Financiële rapportage biedt de volgende detailniveaus:
 
 -   Financieel
 -   Financieel en Rekening
@@ -89,6 +89,6 @@ In de volgende tabel worden de tabbladen in een rapportdefinitie beschreven en h
 <a name="see-also"></a>Zie ook
 --------
 
-[Financiële rapportage voor Microsoft Dynamics 365 voor bewerkingen](financial-reporting-intro.md)
+[Financiële rapportage voor Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

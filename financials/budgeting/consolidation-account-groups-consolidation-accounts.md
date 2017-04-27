@@ -1,6 +1,6 @@
 ---
-title: Groepen met consolidatierekeningen en extra consolidatierekeningen
-description: In dit onderwerp bevat informatie over groepen met consolidatierekeningen en extra consolidatierekeningen en wordt uitgelegd hoe ze worden gebruikt in Microsoft Dynamics 365 voor bewerkingen.
+title: Groepen met consolidatierekeningen en aanvullende consolidatierekeningen
+description: In dit onderwerp wordt informatie gegeven over groepen met consolidatierekeningen en aanvullende consolidatierekeningen en wordt uitgelegd hoe deze worden gebruikt in Microsoft Dynamics 365 for Operations.
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,27 +24,32 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Groepen met consolidatierekeningen en extra consolidatierekeningen
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Groepen met consolidatierekeningen en aanvullende consolidatierekeningen
 
-In dit onderwerp bevat informatie over groepen met consolidatierekeningen en extra consolidatierekeningen en wordt uitgelegd hoe ze worden gebruikt in Microsoft Dynamics 365 voor bewerkingen.
+[!include[banner](../includes/banner.md)]
+
+
+In dit onderwerp wordt informatie gegeven over groepen met consolidatierekeningen en aanvullende consolidatierekeningen en wordt uitgelegd hoe deze worden gebruikt in Microsoft Dynamics 365 for Operations.
 
 <a name="consolidation-account-groups"></a>Groepen met consolidatierekeningen
 ----------------------------
 
-Groepen met consolidatierekeningen kunnen u groepen van de rekeningen die u gebruiken wilt voor het consolideren van gegevens maken. De meeste gevallen een groep consolidatierekeningen vertegenwoordigt een rekeningschema overheid voorgeschreven of rekeningen wordt toegewezen aan een groep die wordt gedefinieerd door het hoofdkantoor van het bedrijf. U vindt consolidatie boekingsgroepen in de **Setup** gebied van de **consolidaties** module. Wanneer u een nieuwe groep toevoegt, kunt u een unieke identificatie invoeren voor de groep en een naam.
+Met groepen consolidatierekeningen kunt u groepen maken van de rekeningen die u wilt gebruiken om gegevens te consolideren. Meestal wordt met een groep consolidatierekeningen een door de overheid voorgeschreven rekeningschema vertegenwoordigd of worden rekeningen aan een groep toegewezen die door het hoofdkantoor van het bedrijf is gedefinieerd. U vindt groepen consolidatierekeningen in het gebied **Instellen** van de module **Consolidaties**. Wanneer u een nieuwe groep toevoegt, voert u een unieke ID en een naam in voor de rekeninggroep.
 
 ## <a name="additional-consolidation-accounts"></a>Aanvullende consolidatiebedragen
-Aanvullende consolidatierekeningen kunnen u een rekening uit een bestaande rekeningschema toewijzen aan een groep consolidatierekeningen. U kunt vervolgens een waarde voor consolidatie van de rekening en een naam opgeven. 
+Met aanvullende consolidatierekeningen kunt u een rekening vanuit een bestaand rekeningschema toewijzen aan een groep consolidatierekeningen. U kunt vervolgens een waarde en naam voor de consolidatierekening opgeven. 
 
-U vindt extra consolidatierekeningen in de **Setup** gebied van de **consolidaties** module. Wanneer u een nieuwe consolidatierekening maakt, moet u de volgende gegevens opgeven:
+U vindt aanvullende consolidatierekeningen in het gebied **Instellen** van de module **Consolidaties**. Wanneer u een nieuwe consolidatierekening maakt, moet u de volgende gegevens opgeven:
 
--   **Hoofdrekening** : dit veld is een lookup waarop de belangrijkste accounts die zijn gebaseerd op de rekeningschema's die u hebt geselecteerd op de pagina. Wanneer u een rekening, de naam wordt automatisch ingevoerd in de **hoofdtabel rekeningnaam** veld.
--   **Groep met consolidatierekeningen** : met dit veld kunt u de groep voor het toewijzen van de rekening die u wilt opgeven. Als u op twee verschillende manieren samenvoegt, moet u dezelfde rekening toevoegen aan alle groepen met consolidatierekeningen vier.
--   **Consolidatierekening** : de waarde van de consolidatierekening invoeren. Deze waarde hoeft te zijn van een rekening in een rekeningschema. Dit is een waarde die u nodig hebt.
--   **Naam van consolidatierekening** : de naam van de rekening invoeren als u wilt weergeven in query's en rapporten.
--   **SAT niveau** : dit veld wordt gebruikt voor aangifte van rekeningoverzichten aan de Mexicaanse overheid. 
+-   **Hoofdrekening** : dit veld is een zoekveld waarin de belangrijkste rekeningen worden weergegeven die zijn gebaseerd op het rekeningschema dat u hebt geselecteerd op de pagina. Wanneer u een rekening selecteert, wordt de naam automatisch ingevoerd in het veld **Naam hoofdrekening**.
+-   **Groep met consolidatierekeningen** : met dit veld kunt u de groep opgeven waaraan u de rekening wilt toewijzen. Als u op twee verschillende manieren consolideert, moet u dezelfde rekening toevoegen aan alle vier de groepen consolidatierekeningen.
+-   **Consolidatierekening**: voer de waarde van de consolidatierekening in. Deze waarde hoeft geen rekening van een rekeningschema te zijn. Het kan een waarde zijn die u nodig hebt.
+-   **Naam van consolidatierekening**: voer de naam van de rekening in als u wilt dat deze in query´s en rapporten verschijnt.
+-   **SAT-niveau**: dit veld wordt gebruikt voor aangifte van rekeningoverzichten bij de Mexicaanse belastingdienst. 
 
-Wanneer u klaar bent met het maken van de groepen met consolidatierekeningen en extra consolidatierekeningen, selecteert u de groep in het on line proces consolideren.
+Wanneer u de groepen consolidatierekeningen en aanvullende consolidatierekeningen hebt gemaakt, kunt u de groep selecteren in het online proces Consolideren.
+
+
 
 
 

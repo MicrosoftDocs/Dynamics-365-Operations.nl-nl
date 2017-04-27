@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions"></a>Boekhoudingsverdelingen
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over boekhoudingsverdelingen en beschrijft de beschikbare opties voor de verwerking hiervan. Boekhoudingsverdelingen worden gebruikt om monetaire bedragen voor een brondocument toe te wijzen aan bepaalde grootboekrekeningen. 
 
 Boekhoudingsverdelingen vormen een functie die in het hele programma kan worden gebruikt en die kan worden uitgebreid door elk brondocument, zoals een inkooporder, een leveranciersfactuur, een onkostennota en een vrije-tekstfactuur. Standaard wordt een standaardboekhoudingsverdeling gegenereerd voor elke brondocumentregel en monetair bedrag en wordt voorwaardelijk ingeschakeld voor wijziging. 
 
 > [!Note] 
-> Sommige documenten worden ook ondersteund koptekst document geldbedragen, zoals toeslagen voor orders en facturen. 
+> Bepaalde documenten ondersteunen ook de monetaire bedragen van het koptekstdocument, zoals toeslagen voor orders en facturen. 
 
 De algemene boekhoudingsverdelingsmogelijkheden bevatten de volgende opties om boekhoudingsverdelingen te verwerken:
 
@@ -44,15 +47,17 @@ De algemene boekhoudingsverdelingsmogelijkheden bevatten de volgende opties om b
     -   De knop **Splitsen** kan voor bovenliggende verdelingen worden ingeschakeld. Met **Splitsen** worden nieuwe boekhoudingsverdelingen gegenereerd en de splitsing kan worden gebaseerd op percentage, bedrag of hoeveelheid.
     -   De knop **Evenredig verdelen** kan in combinatie met **Splitsen** worden gebruikt om het bedrag automatisch evenredig aan alle verdelingen toe te wijzen.
     -   De knop **Opnieuw instellen** kan voor bovenliggende verdelingen worden ingeschakeld wanneer er meerdere verdelingen bestaan. Met **Opnieuw instellen** wordt eventuele handmatige wijziging in de verdeling ongedaan gemaakt door alle bestaande verdelingen te verwijderen en de standaardverdelingen opnieuw te genereren.
-    -   Eventuele onderliggende verdelingen, zoals korting, toeslag en btw, volgen altijd de bovenliggende verdeling. Ziet u de bovenliggende en onderliggende relatie op **verwijzing**&gt;**informatie bovenliggende**.
+    -   Eventuele onderliggende verdelingen, zoals korting, toeslag en btw, volgen altijd de bovenliggende verdeling. U kunt de bovenliggende/onderliggende relatie bekijken via **Verwijzing** &gt; **Hoofdgegevens**.
     -   De hoofdrekening en financiële dimensie kunnen ook voor onderliggende elementen worden bewerkt.
     -   De financiële dimensies in de boekhoudingsverdelingen volgen een standaardpatroon dat een document kan worden uitgebreid. Zie de gerelateerde artikelen voor meer details.
-    -   Afwijkingsverdelingen kunnen in overeenkomstige scenario's worden gegenereerd, zoals een vergelijking tussen een leveranciersfactuur en een inkooporder. Ziet u de overeenkomende relaties tussen boekhoudingsverdeling op **verwijzing**&gt;**documentinformatie**.
-    -   De knop **Corrigeren** wordt weergegeven en wordt ingeschakeld voor documenten die correcties ondersteunen. **Juiste** wordt gemaakt van nieuwe distributies. Eerst zijn verdelingen gemaakt waarin de oorspronkelijke verdelingen omkeren. Deze verdelingen kunnen niet worden gewijzigd. Volgende, nieuwe juiste boekhoudingsverdelingen worden gemaakt. Deze verdelingen kunnen worden gewijzigd als de oorspronkelijke verdelingen kunnen worden gewijzigd.
+    -   Afwijkingsverdelingen kunnen in overeenkomstige scenario's worden gegenereerd, zoals een vergelijking tussen een leveranciersfactuur en een inkooporder. U kunt de overeenkomstige relaties bekijken tussen boekhoudingsverdeling via **Verwijzing** &gt; **Documentgegevens**.
+    -   De knop **Corrigeren** wordt weergegeven en wordt ingeschakeld voor documenten die correcties ondersteunen. Met **Corrigeren** worden nieuwe verdelingen gemaakt. Eerst worden verdelingen gemaakt waarmee de oorspronkelijke verdelingen worden omgekeerd. Deze verdelingen kunnen niet worden gewijzigd. Vervolgens worden nieuwe juiste boekhoudingsverdelingen gemaakt. Deze verdelingen kunnen worden gewijzigd als de oorspronkelijke verdelingen kunnen worden gewijzigd.
     -   De knop **Projectgegevens** wordt ingeschakeld als een uitbreiding wanneer een regel aan een project wordt gekoppeld. Met boekhoudingsverdelingen voor projecten kunt u details weergeven, zoals de financieringsbron en regeleigenschap.
-    -   Ziet u de status van het huidige boekhouding in **verwijzing**. De status is voor het hele document en geeft aan of het document in uitvoering of voltooid.
--   ** Weergeven verdelingen ** – de boekhoudingsverdelingen voor alle regels en monetaire bedragen weergeven op het document. In deze weergave kunt u de boekhoudingsverdelingen niet wijzigen.
+    -   U kunt de huidige boekhoudingsstatus van het document bekijken in **Verwijzing**. De status is voor het gehele document en geeft aan of het document in uitvoering of voltooid is.
+-   **Verdelingen weergeven**: de boekhoudingsverdelingen voor alle regels en monetaire bedragen in het document weergeven. In deze weergave kunt u de boekhoudingsverdelingen niet wijzigen.
 
 
-Zie voor meer informatie [boekhoudingsverdelingen en journaalposten in subadministratie voor vrije-tekstfacturen](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+Zie [Boekhoudingsverdelingen en journaalposten in de subadministratie voor facturen met vrije tekst](accounting-distributions-subledger-journal-entries-vendor-invoices.md) voor meer informatie.
+
+
 

@@ -1,5 +1,5 @@
 ---
-title: Object voorraadwaarden
+title: Waarden van voorraadobjecten
 description: Dit artikel biedt informatie over hoe de waarden van een voorraadobject worden berekend.
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Object voorraadwaarden
+# <a name="inventory-object-values"></a>Waarden van voorraadobjecten
 
 Dit artikel biedt informatie over hoe de waarden van een voorraadobject worden berekend. 
 
-Een nieuwe functionaliteit met de naam ** fysieke hoeveelheid ** kunt u de waarden van een object specifieke voorraad bekijken. Een kostobject geeft het entiteitsniveau weer waarin de voorraadboekhouding wordt uitgevoerd. Voor meer informatie over kostenobjecten, zie [Kostenobjecten](cost-object.md). De waarden van een specifieke voorraad-object, klikt u op **fysieke hoeveelheid** op de **kostenplaats** pagina. Hier ziet u hoe de waarde van een object van de voorraad wordt berekend: voorraad-object. Waarde = kosten-object. Gemiddelde kosten per eenheid x voorraad object. Hoeveelheid in het volgende voorbeeld toont hoe de waarden van een object van de voorraad en een kostenobject worden berekend. Twee productontvangstbongebeurtenissen worden geregistreerd op artikel A:
+Met een nieuwe functionaliteit die **fysieke hoeveelheid **wordt genoemd, kunt u de waarden van een specifiek voorraadobject zien. Een kostobject geeft het entiteitsniveau weer waarin de voorraadboekhouding wordt uitgevoerd. Voor meer informatie over kostenobjecten, zie [Kostenobjecten](cost-object.md). Om de waarden van een specifiek voorraadobject te bekijken, klikt u op **Fysieke hoeveelheid** op de pagina **Kostenobject**. De waarde van een voorraadobject wordt als volgt berekend: Voorraadobject.Waarde = Kostenobject.Gemiddelde eenheidskosten × Voorraadobject.Hoeveelheid. In het volgende voorbeeld zie u hoe de waarden van een voorraadobject en kostenobject worden berekend. Twee productontvangstbongebeurtenissen worden geregistreerd op artikel A:
 
--   Productontvangstbon 1: hoeveelheid = 100 stuks., bedrag = $1,000.00, locatie = 1, magazijn = 11, Batch-nr. = B1
--   Productontvangstbon 2: hoeveelheid = 50 stuks., bedrag = $800.00, locatie = 1, magazijn = 11, Batch-nr. = B2
+-   Productontvangstbon 1: Hoeveelheid = 100 stuks, Bedrag = $ 1.000,00, Locatie = 1, Magazijn =11, Batchnr. = B1
+-   Productontvangstbon 2: Hoeveelheid = 50 stuks, Bedrag = $ 800,00, Locatie = 1, Magazijn =11, Batchnr. = B2
 
 De volgende tabel geeft het resultaat van de berekening voor een kostenobject. U kunt het resultaat op de pagina **Kostenobject** weergeven.
 
@@ -130,10 +130,10 @@ De volgende tabel geeft het resultaat van de berekening voor een voorraadobject.
 <a name="see-also"></a>Zie ook
 --------
 
-[Cost objects](cost-object.md)
+[Kostenobjecten](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Kosteninvoer](cost-entries.md)
 
-[Wat is het nieuwe en gewijzigde in Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Wat is nieuw of gewijzigd in Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

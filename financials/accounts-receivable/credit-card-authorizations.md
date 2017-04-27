@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Instelling, autorisatie en registratie van creditcards
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft een overzicht van creditcardautorisatie in Microsoft Dynamics AX. Het bevat informatie over het instellen van een betaalservice, het toevoegen van een creditcard aan een verkooporder en het ongeldig maken van een autorisatie.
 
 <a name="setting-up-the-credit-card-payment-service"></a>De service voor betaling per creditcard instellen
@@ -55,7 +58,7 @@ U kunt de kaartverificatiewaarde opvragen. Dit wordt ook wel de beveiligingscode
 
 ### <a name="address-verification"></a>Adresverificatie
 
-Adresverificatiegegevens worden altijd verzonden naar de betalingsprovider. U kunt bepalen hoeveel informatie is vereist voor een transactie moeten worden geaccepteerd. Zorg ervoor dat Neem contact op met uw provider om te bepalen of deze gegevens worden geaccepteerd. Hier volgen de opties voor adresverificatie:
+Adresverificatiegegevens worden altijd verzonden naar de betalingsprovider. U kunt beslissen hoeveel informatie vereist is voordat een transactie wordt geaccepteerd. Raadpleeg uw provider om te bepalen of deze informatie wordt geaccepteerd. Hier volgen de opties voor adresverificatie:
 -   **Transactie altijd accepteren**– Accepteer de transactie, ongeacht de resultaten van de adresverificatie.
 -   **Rekeninghouder** – Vergelijk de naam van de kaarthouder die is betrokken bij de transactie met de gegevens van het creditcardmaatschappij.
 -   **Factureringsadres** – Vergelijk de naam en het factuuradres van de kaarthouder die is betrokken bij de transactie met de gegevens van de creditcardmaatschappij.
@@ -68,10 +71,12 @@ Voor elk creditcardtype dat wordt ondersteund, kunt u het niveau van ondersteuni
 -   **Niveau 3** – Draag alle informatie van niveau 2, plus orderregelgegevens over.
 
 ## <a name="partial-payments"></a>Gedeeltelijke betalingen
-Als een deel van een order te verzendt, wordt het bedrag van de gedeeltelijke order vastgelegd en wordt de autorisatie, die voor het bedrag van de totale order was, gesloten. Vervolgens een nieuwe autorisatie ingediend voor het resterende bedrag van de order die nog niet zijn verzonden.
+Als een deel van een order te verzendt, wordt het bedrag van de gedeeltelijke order vastgelegd en wordt de autorisatie, die voor het bedrag van de totale order was, gesloten. Vervolgens wordt een nieuwe autorisatie ingediend voor het resterende bedrag van de order die niet is verzonden.
 
 ## <a name="voiding-an-authorization"></a>Een autorisatie ongeldig maken 
 U kunt een creditcardautorisatie ongeldig maken door de betalingsmethode te wijzigen in een andere methode die een bepaald type creditcard niet heeft.
+
+
 
 
 

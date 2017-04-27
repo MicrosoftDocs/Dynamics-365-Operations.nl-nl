@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>Bedrijfsspecifieke HR-parameters instellen
 
+[!include[banner](includes/banner.md)]
+
+
 De instellingen van bepaalde parameters van Human Resources (HR) worden in alle bedrijven gedeeld, terwijl de instellingen van andere parameters bedrijfsspecifiek zijn. In dit artikel wordt uitgelegd hoe u bedrijfsspecifieke HR-parameters instelt.
 
 Twee pagina's worden gebruikt om de parameters voor Human resources (HR) in te stellen. Voor parameters die door bedrijven worden gedeeld, gebruikt u de pagina **Gedeelde Human resources-parameters**. Voor parameters die bedrijfsspecifiek zijn (met andere woorden, de instellingen gelden voor één bedrijf), gebruikt u de pagina **Parameters personeel**. Op de **Human resources-parameters** pagina, zijn de instellingen verdeeld over zes tabbladen:
@@ -42,9 +45,9 @@ Elk tabblad bevat informatie over één bedrijf. De instellingen op het tabblad 
 
 De instellingen op het tabblad **Werving** definiëren de documenttypen die worden gebruikt voor correspondentie die automatisch naar sollicitanten worden verzonden en het wervingsproject dat worden gebruikt voor open sollicitaties (sollicitaties die niet specifiek voor een wervingsproject zijn). De periode die is gedefinieerd als ouderdomsperiode voor het wervingsproject bepaalt de wervingsprojecten die zijn opgenomen op de tegel **Verouderende projecten** in de werkruimte **Wervingsbeheer**. De periode die wordt ingesteld voor de sollicitatiedeadlinewaarschuwing wordt gebruikt om wervingsprojecten weer te geven die hun sollicitatiedeadline naderen op de tegel **Einde van sollicitatietermijn nadert** in de werkruimte **Werving**. 
 
-De instellingen op de **vergoeding** tabblad definiëren of gebruikers moeten bevestigen dat ze willen opslaan van informatie voor een vaste of variabele honoreringsregeling. Als u de **inschakelen opslaan validatie** selectievakje elk gewenst moment dat gebruikers een pagina compensatie-gerelateerde sluit ze ontvangt een bericht waarin u wordt gevraagd of ze de record op te slaan. Sommige pagina's in compensatiebeheer niet worden verwijderd door gebruikers informatie. Door gebruikers te vragen of ze gegevens daadwerkelijk willen opslaan, worden er mogelijk minder gegevens opgeslagen die naderhand niet meer kunnen worden verwijderd. Als het selectievakje **Opslaan van validatie activeren** is uitgeschakeld, worden records altijd direct opgeslagen, misschien voordat de gebruiker klaar is. Als u prestatiebeheer gebruikt, kunt u met het tabblad **Compensatie** ook een beoordelingsmodel selecteren om te gebruiken in plaats van het model dat wordt toegewezen aan compensatieplannen wanneer prestaties worden beoordeeld. 
+De instellingen op het tabblad **Compensatie** definiëren of gebruikers moeten bevestigen dat ze informatie willen opslaan voor een vaste- of variabele-compensatieplan. Als u het selectievakje **Opslaan van validatie activeren** inschakelt, wordt een gebruiker wanneer hij of zij een compensatie-gerelateerde pagina afsluit, gevraagd of hij of zij de record wil opslaan. Op sommige pagina's in compensatiebeheer kunnen gebruikers geen gegevens verwijderen.. Door gebruikers te vragen of ze gegevens daadwerkelijk willen opslaan, worden er mogelijk minder gegevens opgeslagen die naderhand niet meer kunnen worden verwijderd. Als het selectievakje **Opslaan van validatie activeren** is uitgeschakeld, worden records altijd direct opgeslagen, misschien voordat de gebruiker klaar is. Als u prestatiebeheer gebruikt, kunt u met het tabblad **Compensatie** ook een beoordelingsmodel selecteren om te gebruiken in plaats van het model dat wordt toegewezen aan compensatieplannen wanneer prestaties worden beoordeeld. 
 
-De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt voor het automatisch toewijzen van id's aan items in Human resources, zoals sollicitaties, verzuimregistraties, resultaten van compensatieprocessen, casenummers, cursussen en cursusagenda's. Voor het verzorgen van verwijzingen en codes van nummerreeksen, gebruikt de **nummerreeksen** (lijstpagina) (Klik op **Organisatiebeheer**&gt;**nummerreeksen**&gt;**nummerreeksen**). 
+De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt voor het automatisch toewijzen van id's aan items in Human resources, zoals sollicitaties, verzuimregistraties, resultaten van compensatieprocessen, casenummers, cursussen en cursusagenda's. Om nummerreeksverwijzingen en codes te onderhouden, gebruikt u de lijstpagina **Nummerreeksen**. Klik op **Organisatiebeheer** &gt; **Nummerreeksen** &gt; **Nummerreeksen**. 
 
 De instellingen op het tabblad **FMLA** bepalen hoeveel uren een werknemer moet werken om in aanmerking te komen voor FMLA-vergoedingen, de duur van het dienstverband dat is vereist om in aanmerking te komen en de begindatum van het dienstverband die wordt gebruikt om de duur van het dienstverband te definiëren. De instellingen bepalen ook het aantal FMLA-uren waarop werknemers recht hebben en de FMLA-verlofkalender die wordt gebruikt om te berekenen hoeveel FMLA-uren werknemers hebben gebruikt. Het tabblad **FMLA** is alleen beschikbaar voor bedrijven in de Verenigde Staten. 
 
@@ -54,5 +57,7 @@ De instellingen op het tabblad **FMLA** bepalen hoeveel uren een werknemer moet 
 --------
 
 [HR-parameters instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md)
+
+
 
 

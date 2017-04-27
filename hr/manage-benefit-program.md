@@ -1,5 +1,5 @@
 ---
-title: "Definiëren en beheren van een programma vergoedingen"
+title: "Een vergoedingenprogramma definiëren en beheren"
 description: Human resources biedt een reeks hulpmiddelen die kunnen worden gebruikt om vergoedingen, kortingen en compensatieplannen van werknemers die een organisatie zijn werknemers biedt in te stellen en onderhouden. Dit artikel biedt informatie over het instellen en beheren van vergoedingen.
 author: rschloma
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="define-and-manage-a-benefits-program"></a>Definiëren en beheren van een programma vergoedingen
+# <a name="define-and-manage-a-benefits-program"></a>Een vergoedingenprogramma definiëren en beheren
 
-Human resources biedt een reeks hulpmiddelen die kunnen worden gebruikt om vergoedingen, kortingen en compensatieplannen van werknemers die een organisatie zijn werknemers biedt in te stellen en onderhouden. Dit onderwerp biedt informatie over het instellen van een vergoedingen beheren.
+[!include[banner](includes/banner.md)]
 
-<a name="benefit-setup"></a>Vergoedingsinstellingen
+
+Human resources biedt een reeks hulpmiddelen die kunnen worden gebruikt om vergoedingen, kortingen en compensatieplannen van werknemers die een organisatie zijn werknemers biedt in te stellen en onderhouden. Dit onderwerp biedt informatie over het instellen en beheren van vergoedingen.
+
+<a name="benefit-setup"></a>Vergoedingen instellen
 -------------
 
 Voordat werknemers voor vergoedingen kunnen worden geregistreerd, moet u de elementen van elke vergoeding maken. Deze elementen combineren vergelijkbare vergoedingsplannen en definiëren standaardinstellingen, zoals inhoudingstarieven en boekhoudingsdetails. Veel van deze instellingen kunnen worden aangepast wanneer werknemers later in de vergoeding worden geregistreerd. Voor elk vergoedingsplan kan een organisatie meerdere inschrijvingopties aanbieden. Een werknemer kan inschrijving in de planning kwijtschelden. 
 
-[![Processtroom voor vergoeding](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Processtroom van vergoeding](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Vergoedingselementen
 Voordat u vergoedingen begint te maken en daar werknemers voor wilt inschrijven, moet u de elementen definiëren waaruit een vergoeding bestaat: het type, het plan en de opties.
@@ -46,27 +49,29 @@ Voordat u vergoedingen begint te maken en daar werknemers voor wilt inschrijven,
 
 Voor elk type vergoeding, zoals zicht- of tandartsverzekering, kan een organisatie zijn werknemers een of meerdere plannen aanbieden. Voor elk plan kan de organisatie verschillende opties bieden. Werknemers kunnen bijvoorbeeld extra levensverzekeringdekking kopen van één, twee of drie keer hun jaarlijks salaris. Elke combinatie van een plan en opties wordt een vergoeding waarvoor werknemers zich kunnen inschrijven. 
 
-[![vergoeding pic](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![afbeelding vegoeding](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Geschiktheid
-Veel factoren bepalen de geschiktheid van werknemers voor de diverse soorten vergoedingen die een werkgever aanbiedt. Wanneer u een vergoeding in Microsoft Dynamics 365 voor bewerkingen maakt, kunt u het type recht dat voor die vergoeding geldt kunt instellen. 
+Veel factoren bepalen de geschiktheid van werknemers voor de diverse soorten vergoedingen die een werkgever aanbiedt. Wanneer u een vergoeding maakt in Microsoft Dynamics 365 for Operations, kunt u het type van geschiktheid instellen dat op die vergoeding van toepassing is. 
 
-U kunt een vergoeding beschikbaar maken voor alle werknemers. Sommige bedrijven bieden bijvoorbeeld parkeren stappen voor alle werknemers als een vergoedingen. Wanneer u deze vergoeding maakt, stelt u de geschiktheid in op **Alle medewerkers komen in aanmerking**. 
+U kunt een vergoeding beschikbaar maken voor alle werknemers. Sommige bedrijven bieden bijvoorbeeld alle werknemers parkeervergunningen aan als vergoeding. Wanneer u deze vergoeding maakt, stelt u de geschiktheid in op **Alle medewerkers komen in aanmerking**. 
 
-In aanmerking komen voor andere voordelen, zoals aanmoedigingen en fiscale heffingen niet van toepassing. Wei u dergelijke vergoedingen maken, u het recht ingesteld op **overslaan geschiktheidsproces**. 
+Voor andere vergoedingen, zoals aanmoedigingen en belastingheffingen, geldt de geschiktheid niet. Wanneer u deze soorten vergoedingen maakt, stelt u de geschiktheid in op **Geschiktheidsproces overslaan**. 
 
-Ten slotte, geschiktheid voor vergoeding kan worden op basis van een regel. Een bedrijf biedt bijvoorbeeld twee soorten levensverzekering vergoeding aan werknemers. Directie werknemers in aanmerking komen voor een levensverzekering plan, terwijl andere fulltime werknemers in aanmerking voor de andere regeling van de levensverzekering komen. In Dynamics 365 voor bewerkingen, kunt u een geschiktheidsregel vergoeding kunt u zoeken naar alle werknemers van de Directie en een andere regel kunt u zoeken naar andere fulltime werknemers maken en vervolgens deze regels toepassen op de juiste vergoeding.
+Tot slot kan de geschiktheid voor vergoeding regelgebaseerd zijn. Een bedrijf biedt werknemers bijvoorbeeld twee typen levensverzekeringsvergoeding. Stafleden komen in aamerking voor één levensverzekeringsplan, terwijl alle andere voltijds werkende werknemers in aanmerking komen voor het andere levensverzekeringsplan. In Dynamics 365 for Operations kunt u een geschiktheidsregel van een vergoeding maken om alle stafleden te vinden en een andere regel om alle andere voltijds werkende werknemers te vinden, en vervolgens die regels toepassen op de juiste vergoeding.
 
 ## <a name="enrollment"></a>Inschrijving
 Nadat u de vergoedingen hebt gemaakt die uw organisatie aanbiedt en de geschiktheid hebt bepaald, kunt u werknemers inschrijven voor de vergoedingen. U kunt één werknemer inschrijven voor vergoedingen of u kunt in één proces meerdere werknemers inschrijven voor een of meerdere vergoedingen. 
 
-Soms stopt een organisatie met het aanbieden van bepaalde vergoedingen. In dit geval moet u de vergoeding en de werknemers die zijn ingeschreven voor bijwerken. Massaal vergoeding vervaldatum kunt u de vervaldatum van een vergoeding en van de inschrijvingen van de werknemer voor die vergoeding op hetzelfde moment wijzigen. U kunt ook meerdere werknemers selecteren die in een vergoeding zijn ingeschreven en de einddatum van hun dekking wijzigen. 
+Soms stopt een organisatie met het aanbieden van bepaalde vergoedingen. In dit geval moet u de vergoeding en werknemers die ervoor zijn ingeschreven bijwerken. Met massaal vergoedingsverval kunt u de vervaldatum van zowel een vergoeding als de inschrijvingen van werknemers voor die vergoeding tegelijk wijzigen. U kunt ook meerdere werknemers selecteren die in een vergoeding zijn ingeschreven en de einddatum van hun dekking wijzigen. 
 
 Op dezelfde manier kunt u met massale verlenging van vergoedingen de vervaldatum van zowel een vergoeding als de inschrijvingen van werknemers voor die vergoeding verlengen als u beslist om een vergoeding langer aan te bieden dan u oorspronkelijk had gepland.
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Benefit eligibility policies](benefit-eligibility-policies.md)
+[Beleid voor geschiktheid vergoedingen](benefit-eligibility-policies.md)
+
+
 
 

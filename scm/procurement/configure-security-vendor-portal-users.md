@@ -1,6 +1,6 @@
 ---
-title: Leverancier-portal gebruikersbeveiliging
-description: In dit artikel wordt beschreven hoe u beveiliging instelt voor externe leveranciers die de leveranciersportal gebruiken. Deze informatie geldt alleen voor de februari 2016 &amp;mei 2016 versies van Dynamics AX.
+title: Gebruikersbeveiliging leveranciersportal
+description: In dit artikel wordt beschreven hoe u beveiliging instelt voor externe leveranciers die de leveranciersportal gebruiken. Deze informatie geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-portal-user-security"></a>Leverancier-portal gebruikersbeveiliging
+# <a name="vendor-portal-user-security"></a>Gebruikersbeveiliging leveranciersportal
 
-In dit artikel wordt beschreven hoe u beveiliging instelt voor externe leveranciers die de leveranciersportal gebruiken. Deze informatie geldt alleen voor de februari 2016 &amp;mei 2016 versies van Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-De leverancier portal-functionaliteit is vervangen door uitgebreide samenwerking met goedgekeurde leveranciers in Dynamics 365 voor bewerkingen versie 1611. Zie voor meer informatie over het instellen van beveiliging voor samenwerking van de leverancier [instellen en onderhouden van leverancier samenwerking](set-up-maintain-vendor-collaboration.md). De leveranciersportal maakt een beperkte set informatie over inkooporders (IOs) beschikbaar voor externe leveranciers. Het is belangrijk dat u correct de machtigingen van gebruikers instelt voor de leveranciersportal in Microsoft Dynamics AX, zodat leveranciers geen onbedoelde toegang tot extra informatie in uw Dynamics AX-installatie hebben. **Belangrijk:** In tegenstelling tot andere gebruikers moeten externe leveranciers niet de rol **SystemUser** hebben. De rol **SystemUser** geeft toegang tot een set bevoegdheden die niet geschikt zijn voor externe gebruikers.
+
+In dit artikel wordt beschreven hoe u beveiliging instelt voor externe leveranciers die de leveranciersportal gebruiken. Deze informatie geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX.
+
+De functionaliteit Leveranciersportal is vervangen door de verbeterde functionaliteit voor leverancierssamenwerking in Dynamics 365 for Operations versie 1611. Meer informatie over het instellen van beveiliging voor leverancierssamenwerking vindt u in [Samenwerking met leveranciers instellen en onderhouden](set-up-maintain-vendor-collaboration.md). De leveranciersportal maakt een beperkte set informatie over inkooporders (IOs) beschikbaar voor externe leveranciers. Het is belangrijk dat u correct de machtigingen van gebruikers instelt voor de leveranciersportal in Microsoft Dynamics AX, zodat leveranciers geen onbedoelde toegang tot extra informatie in uw Dynamics AX-installatie hebben. **Belangrijk:** In tegenstelling tot andere gebruikers moeten externe leveranciers niet de rol **SystemUser** hebben. De rol **SystemUser** geeft toegang tot een set bevoegdheden die niet geschikt zijn voor externe gebruikers.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Het instellen van een Leveranciersportal-gebruiker
 Voordat u een gebruikersaccount maakt voor iemand die de leveranciersportal zal gebruiken, moet u de leverancier instellen op leveranciersportalsamenwerking. Gebruik het veld **Inkoopordersamenwerking** op het tabblad **Algemeen** op de pagina **Leveranciers**. Externe leveranciers die de leveranciersportal gebruiken, moeten de volgende instelling hebben:
@@ -44,6 +47,8 @@ Als dezelfde persoon toegang nodig heeft tot de Leveranciersportal voor meerdere
 <a name="see-also"></a>Zie ook
 --------
 
-[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+[Leverancierssamenwerking](collaborate-vendors-vendor-portal.md)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan aan een leverancier die meerdere contantkortingen aanbiedt. 
 
 Leverancier 3054 biedt Fabrikam een contantkorting van 2 procent als een factuur binnen vijf dagen wordt betaald en een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald.
@@ -48,7 +51,7 @@ De volgende data en bedragen voor contantkorting zijn beschikbaar voor deze fact
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="payment-on-july-2"></a>Betaling op 2 juli
-Op 2 juli wil April 300,00 voor deze factuur betalen. Ze maakt een eenmalige betaling via de **betalingsjournaal** pagina in de module Leveranciers. Zij voegt een regel toe voor leverancier 3054 en voert een betalingsbedrag van **300,00** in. April opent vervolgens de pagina **Transacties vereffenen**, zodat zij de factuur kan markeren die zal worden vereffend. Zij werkt de waarde in het veld **Bedrag om te vereffenen** bij met **300,00** en ziet dat de waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** veld is gewijzigd in **6,12**. Omdat deze betaling in de eerste kortingsperiode wordt gemaakt, wordt een korting van 2 procent genomen.
+Op 2 juli wil April 300,00 voor deze factuur betalen. Zij maakt een eenmalige betaling door de pagina **Betalingsjournaal** in Leveranciers te gebruiken. Zij voegt een regel toe voor leverancier 3054 en voert een betalingsbedrag van **300,00** in. April opent vervolgens de pagina **Transacties vereffenen**, zodat zij de factuur kan markeren die zal worden vereffend. Zij werkt de waarde in het veld **Bedrag om te vereffenen** bij met **300,00** en ziet dat de waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** veld is gewijzigd in **6,12**. Omdat deze betaling in de eerste kortingsperiode wordt gemaakt, wordt een korting van 2 procent genomen.
 
 | Markeren | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -134,6 +137,8 @@ Op 20 juli voert April een laatste betaling van 200,00 uit. Er wordt geen kortin
 | APP-10061  | 7/12/2015 |         | 495,00                               |                                       | 0,00    | USD      |
 | DISC-10061 | 7/12/2015 |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10062  | 20-07-2015 |         | 200,00                               |                                       | 0,00    | USD      |
+
+
 
 
 

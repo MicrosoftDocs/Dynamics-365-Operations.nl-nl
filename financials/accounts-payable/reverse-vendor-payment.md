@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Een leveranciersbetaling omkeren
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat de verschillen tussen het omkeren, verwijderen, ongeldig maken en afwijzen van een betaling. Bovendien worden de twee manieren om een leverancierscheque om te keren uitgelegd. 
 
-Soms moet een leveranciersbetaling, nadat deze is geboekt, worden omgekeerd. Omkering verschilt van verwijderen, ongeldig maken of afwijzen van een betaling. U kunt een betaling alleen verwijderen als de status **Gemaakt** is. Deze status geeft aan dat de betaling is gemaakt maar nog niet is gegenereerd. Deze beperking altijd van toepassing is, ongeacht de betalingsmethode. U kunt niet-geboekte cheques vernietigen nadat ze zijn gegenereerd, maar voordat ze zijn geboekt. Als de gegenereerde betaling wordt uitgevoerd als een elektronische Fonds transfer (EFT), kunt u de betaling weigeren voordat deze wordt geboekt. Wijzigen voor het afwijzen van een betaling, de **betalingsstatus** waarde. Een betaling die is geannuleerd of geweigerd, kan worden hersteld na de **betalingsstatus** waarde wordt gewijzigd naar **geen**. 
+Soms moet een leveranciersbetaling, nadat deze is geboekt, worden omgekeerd. Omkering verschilt van verwijderen, ongeldig maken of afwijzen van een betaling. U kunt een betaling alleen verwijderen als de status **Gemaakt** is. Deze status geeft aan dat de betaling is gemaakt, maar nog niet is gegenereerd. Deze beperking geldt altijd, ongeacht de betalingsmethode. U kunt niet-geboekte cheques ongeldig maken nadat ze zijn gegenereerd, maar voordat ze zijn geboekt. Als de gegenereerde betaling wordt uitgevoerd als een elektronische betaling (EFT), kunt u de betaling weigeren voordat deze wordt geboekt. Om een betaling te weigeren, wijzigt u de waarde van **Betalingsstatus**. Een betaling die ongeldig is gemaakt of geweigerd, kan opnieuw worden gegenereerd nadat de waarde van **Betalingsstatus** is gewijzigd in **Geen**. 
 
-Nadat een betaling is geboekt, worden omkeringen van cheques gebruikt. Betalingen die elektronisch zijn gemaakt, kunnen niet worden omgekeerd nadat ze zijn geboekt. In plaats daarvan wordt moet een nieuwe transactie worden gemaakt voor het bedrag van de betaling voor de aansprakelijkheid terug op de leveranciersrekening. Er zijn twee methoden voor het omkeren van geboekte cheques. Bij één methode worden omkeringen direct geboekt wanneer u op **Omkering van betaling** op de pagina **Cheque** klikt. Bij de andere methode wordt bij het klikken op **Betaling omkeren** op de pagina **Cheque** de omkering verzonden naar het journaal voor omkering van cheques in kas- en bankbeheer, waarbij een revisor de omkering vervolgens kan boeken of afwijzen. 
+Nadat een betaling is geboekt, worden omkeringen gebruikt. Betalingen die elektronisch zijn gedaan, kunnen niet worden omgekeerd nadat ze zijn geboekt. In plaats daarvan moet u een nieuwe transactie voor het bedrag van de betaling maken om de schuld terug op de rekening van de leverancier te krijgen. Er zijn twee methoden voor het omkeren van geboekte cheques. Bij één methode worden omkeringen direct geboekt wanneer u op **Omkering van betaling** op de pagina **Cheque** klikt. Bij de andere methode wordt bij het klikken op **Betaling omkeren** op de pagina **Cheque** de omkering verzonden naar het journaal voor omkering van cheques in kas- en bankbeheer, waarbij een revisor de omkering vervolgens kan boeken of afwijzen. 
 
 Controleer welke methode uw organisatie gebruikt op de pagina **Parameters voor cash- en bankbeheer**. Als de optie **Controleproces voor betalingsomkeringen gebruiken** is ingesteld op **Ja**, worden omkeringen verzonden naar het journaal voor omkering van cheques voor controle. De volgende tabel beschrijft hoe de methoden voor omkeren van cheques van elkaar verschillen.
 
@@ -57,7 +60,7 @@ Als u een gebruiker bent die omkeringen moet controleren, kunt u het journaal go
 -   Als u de omkering wilt weigeren, verwijdert u het journaal voor chequeomkering.
 
 > [!NOTE]
-> Als u het journaal verwijderen, de omkering uit het systeem is verwijderd, maar blijft de originele cheque aanwezig op de **controleren op** pagina. De status van de cheque is niet langer **In afwachting van annulering**.
+> Als u het journaal verwijdert, wordt de omkering uit het systeem verwijderd maar blijft de originele cheque aanwezig op de pagina **Cheque**. De status van de cheque is niet langer **In afwachting van annulering**.
 
 ## <a name="results-of-posting-a-reversal"></a>Resultaten van het boeken van een omkering
 Wanneer u een chequeomkering boekt, gebeurt het volgende:
@@ -78,6 +81,8 @@ Als de cheque die is omgekeerd is uitgegeven voor een klantrestitutie, gebeurt o
 
 -   Een transactie wordt op de klantrekening tegengeboekt voor de betalingsomkering, en de vereffening tussen de oorspronkelijke betaling en het document waarmee de betaling oorspronkelijk was vereffend, wordt omgekeerd (er wordt een negatieve betaling gemaakt).
 -   Er wordt een betalingsomkering toegepast op de oorspronkelijke betaling. Het veld **Laatste vereffeningsboekstuk** op de pagina **Klanttransacties** voor de oorspronkelijke klantbetaling wordt bijgewerkt met het boekstuknummer van de omgekeerde transactie.
+
+
 
 
 

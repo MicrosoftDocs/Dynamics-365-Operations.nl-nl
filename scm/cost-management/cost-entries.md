@@ -40,7 +40,7 @@ Een overboekingsjournaalgebeurtenis wordt geregistreerd. De gebeurtenis boekt ee
 
 ### <a name="example-2-cost-entries-are-created"></a>Voorbeeld 2: Er wordt kosteninvoer gemaakt
 
-Een overboekingsjournaalgebeurtenis wordt geregistreerd. De gebeurtenis overbrengt met één stuk van artikel A site 1 voor locatie 2. De locatievoorraaddimensie wordt beschouwd als deel van het kostenobject. Daarom maakt de gebeurtenis twee voorraadtransacties en twee kostengegevens.
+Een overboekingsjournaalgebeurtenis wordt geregistreerd. Met de gebeurtenis wordt een onderdeel van artikel A van locatie 1 naar locatie 2 overgeboekt. De locatievoorraaddimensie wordt als een onderdeel van het kostenobject beschouwd. Daarom maakt de gebeurtenis twee voorraadtransacties en twee kostengegevens.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>Voorbeeld 3: Er wordt één kosteninvoer gemaakt
 
@@ -59,11 +59,11 @@ Op de nieuwe pagina **Kosteninvoer** kunt u registraties van hoeveelheden en kos
 | 00002   | 20-01-2015 | Inkooporder | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 31-01-2015 | Correctie     | 100001 | 0000101 |               |               |          | 15,00   |
 
-Op de pagina **Kosteninvoer** kunt u filteren op document-ID en documentdatum. **opmerking:** kostenposten zijn alleen beschikbaar voor [kostenobjecten](cost-object.md) of vrijgegeven producten.
+Op de pagina **Kosteninvoer** kunt u filteren op document-ID en documentdatum. **Opmerking:** kosteninvoer is alleen beschikbaar voor [kostenobjecten](cost-object.md) of vrijgegeven producten.
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Cost objects](cost-object.md)
+[Kostenobjecten](cost-object.md)
 
 

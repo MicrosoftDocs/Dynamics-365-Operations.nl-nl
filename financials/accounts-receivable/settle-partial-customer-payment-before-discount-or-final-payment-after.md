@@ -1,5 +1,5 @@
 ---
-title: "Een gedeeltelijke klantenbetaling uit vóór de kortingsdatum met een definitieve betaling na de kortingsdatum vereffenen"
+title: "Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum"
 description: Dit artikel bespreekt het effect van het vereffenen van betalingen aan facturen voor klanten. Het scenario richt zich op de gevolgen in de subadministratie, niet in het grootboek.
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Een gedeeltelijke klantenbetaling uit vóór de kortingsdatum met een definitieve betaling na de kortingsdatum vereffenen
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bespreekt het effect van het vereffenen van betalingen aan facturen voor klanten. Het scenario richt zich op de gevolgen in de subadministratie, niet in het grootboek.
 
-Fabrikam verkoopt goederen aan klant 4027. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Facturen moeten worden betaald binnen 30 dagen. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De parameters voor de vereffening bevinden zich op de **parameters van module klanten** pagina.
+Fabrikam verkoopt goederen aan klant 4027. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Facturen moeten worden betaald binnen 30 dagen. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
 
 ## <a name="invoice"></a>Factuur
-Op 25 juni Arnie invoert en boekt een factuur voor 1.000,00 voor klant 4027. Arnie kan deze factuur bekijken met behulp van de **transacties** knop op de **klanten** pagina.
+Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 4027. Arnie kan deze factuur weergeven met de knop **Transacties** op de pagina **Klanten**.
 
 | Boekstuk   | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ Op 2 juli verricht klant 4027 een gedeeltelijke betaling van 297,00 voor de fact
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Geselecteerd | Normaal            | FTI-10020 | 4027    | 6/25/2015 | 25/7/2015 | 10020   | 1.000,00                             | USD      | 297,00           |
 
-Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven. Als u de waarde **Te vereffenen bedrag** niet wijzigt in 297,00, verschillen de waarden **Contantkortingsbedrag**. Echter 3,00 wordt uitgevoerd als de korting voor contante betaling wanneer de betaling wordt geboekt, omdat de vereffening automatisch worden aangepast het ** te vereffenen bedrag ** u waarde.
+Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven. Als u de waarde **Te vereffenen bedrag** niet wijzigt in 297,00, verschillen de waarden **Contantkortingsbedrag**. Wanneer de betaling wordt geboekt, wordt echter 3,00 als contantkorting toegepast, omdat de vereffening automatisch de waarde **Bedrag om te vereffenen **corrigeert.
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,6 +108,8 @@ Arnie wijzigt de waarde in het veld **Contantkorting gebruiken** terug naar **No
 | ARP-10020  |                  | 7/1/2015  |         |                                      | 297,00                                | 0,00    | USD      |
 | DISC-10020 |                  | 7/1/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
 | ARP-10021  |                  | 7/11/2015 |         |                                      | 700,00                                | 0,00    | USD      |
+
+
 
 
 

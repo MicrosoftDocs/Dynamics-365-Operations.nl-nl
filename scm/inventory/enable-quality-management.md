@@ -1,5 +1,5 @@
 ---
-title: Kwaliteitsbeheer-overzicht
+title: Overzicht kwaliteitsbeheer
 description: In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Kwaliteitsbeheer-overzicht
+# <a name="quality-management-overview"></a>Overzicht kwaliteitsbeheer
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 
@@ -344,7 +347,7 @@ U moet een kwaliteitskoppeling opgeven voor elke afwijking in een bedrijfsproces
 </tr>
 <tr class="even">
 <td>Uitkomsten van testvariabele</td>
-<td>Gebruik deze pagina om de mogelijke testresultaten in te stellen, te bewerken en weer te geven voor een testvariabele die aan een kwaliteitstest is gekoppeld. Voor elke uitkomst wijst u de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toe. U moet een variabele en de bijbehorende uitkomsten instellen voor elke kwaliteitstest die is ingesteld op de pagina <strong>Tests</strong>. (Voor kwalitatieve tests, het testtype is ingesteld op <strong>optie</strong> op de <strong>testen</strong> pagina.) gebruik de <strong>testgroepen</strong> pagina een testvariabele en de standaarduitkomst toewijzen aan een afzonderlijke kwaliteitstest.</td>
+<td>Gebruik deze pagina om de mogelijke testresultaten in te stellen, te bewerken en weer te geven voor een testvariabele die aan een kwaliteitstest is gekoppeld. Voor elke uitkomst wijst u de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toe. U moet een variabele en de bijbehorende uitkomsten instellen voor elke kwaliteitstest die is ingesteld op de pagina <strong>Tests</strong>. (Voor kwalitatieve tests wordt het testtype ingesteld op <strong>Optie</strong> op de pagina <strong>Tests</strong>.) Gebruik de pagina <strong>Testgroepen</strong> om een testvariabele en de standaarduitkomst toe te wijzen aan een afzonderlijke kwaliteitstest.</td>
 <td>Een productiebedrijf dat koekjes produceert, maakt gebruik van een inspectietest voor het eindproduct. Deze inspectietest omvat verschillende variabelen. Een van deze variabelen is Smaak met de mogelijke uitkomsten Goed en Slecht. Een tweede variabele is Kleur met als mogelijke uitkomsten Te donker, Te licht en Correct. Aan elke uitkomst wordt de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toegewezen. De inspecteur rapporteert gedurende de inspectietest voor elke variabele de testresultaten door een van de uitkomsten te selecteren.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ U moet een kwaliteitskoppeling opgeven voor elke afwijking in een bedrijfsproces
 <a name="see-also"></a>Zie ook
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Processen voor kwaliteitsbeheer](quality-management-processes.md)
 
 [Niet-conformeringsbeheer inschakelen](enable-nonconformance-management.md)
+
+
 
 

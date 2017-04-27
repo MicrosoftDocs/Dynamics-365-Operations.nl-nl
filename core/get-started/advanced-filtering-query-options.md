@@ -1,5 +1,5 @@
 ---
-title: Geavanceerde filter- en query-syntaxis
+title: Geavanceerde filter- en querysyntaxis
 description: In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u de operator &quot;komt overeen&quot; in het dialoogvenster Geavanceerd filteren/sorteren gebruikt.
 author: jasongre
 manager: AnnBe
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en query-syntaxis
+# <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en querysyntaxis
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u de operator "komt overeen" in het dialoogvenster Geavanceerd filteren/sorteren gebruikt.
 
-<a name="advanced-query-syntax"></a>Geavanceerde query-syntaxis
+<a name="advanced-query-syntax"></a>Geavanceerde querysyntaxis
 ---------------------
 
 <table>
@@ -52,79 +55,79 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td><em>waarde</em></td>
 <td>Gelijk aan de waarde die is ingevoerd</td>
 <td>Typ de te zoeken waarde in.</td>
-<td><strong>Smit</strong> gevonden &quot;Smit&quot;.</td>
+<td>Een zoekopdracht op <strong>Smit</strong> heeft &quot;Smit&quot; als resultaat.</td>
 </tr>
 <tr class="even">
-<td>! <em>waarde</em> (uitroepteken)</td>
+<td>!<em>waarde</em> (uitroepteken)</td>
 <td>Niet gelijk aan de waarde die is ingevoerd</td>
 <td>Typ een uitroepteken gevolgd door de uit te sluiten waarde.</td>
-<td><strong>! Smit</strong> gezocht naar alle waarden behalve &quot;Smit&quot;.</td>
+<td>Een zoekopdracht op<strong>!Smit</strong> heeft alle waarden met uitzondering van &quot;Smit&quot; als resultaat.</td>
 </tr>
 <tr class="odd">
 <td><em>beginwaarde</em>..<em>eindwaarde</em> (twee puntjes)</td>
 <td>Tussen de twee waarden die zijn gescheiden door twee puntjes</td>
 <td>Typ de beginwaarde, vervolgens twee puntjes en daarna de eindwaarde.</td>
-<td><strong>1..10</strong> gezocht naar alle waarden van 1 tot en met 10. Echter, in een tekenreeksveld <strong>A.. C</strong> gezocht naar alle waarden die met beginnen &quot;A&quot; en &quot;B&quot;, en de waarden die precies gelijk zijn aan &quot;C&quot;. Bijvoorbeeld deze query vindt niet &quot;Ca&quot;. Zoeken naar alle waarden uit &quot;A*&quot; tot en met &quot;C*&quot;, type <strong>A.. D</strong>.</td>
+<td>Een zoekopdracht op <strong>1..10</strong> heeft alle waarden van 1 tot en met 10 als resultaat. In een tekenreeksveld wordt met een zoekopdracht <strong>A..C</strong> gezocht naar alle waarden die beginnen met &quot;A&quot; en &quot;B&quot; en waarden die identiek zijn aan &quot;C&quot;. (&quot;Ca&quot; wordt bijvoorbeeld niet gevonden). Als u alle waarden van &quot;A*&quot; tot en met &quot;C*&quot; wilt vinden, typt u <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>waarde</em> (twee puntjes)</td>
 <td>Kleiner dan of gelijk aan de waarde die is ingevoerd</td>
 <td>Typ twee puntjes en vervolgens de waarde.</td>
-<td><strong>.. 1000</strong> heeft alle getallen die kleiner zijn dan of gelijk zijn aan 1000 tot resultaat, zoals &quot;100&quot;, &quot;999.95&quot;, en &quot;1000&quot;.</td>
+<td>Een zoekopdracht van <strong>..1000</strong> heeft alle getallen die kleiner zijn dan of gelijk zijn aan 1000 als resultaat, bijvoorbeeld &quot;100&quot;, &quot;999,95&quot; en &quot;1.000&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>waarde</em>.. (twee puntjes)</td>
 <td>Groter dan of gelijk aan de waarde die is ingevoerd</td>
 <td>Typ de waarde en vervolgens twee puntjes.</td>
-<td><strong>1000..</strong> Heeft alle getallen die groter is dan of gelijk zijn aan 1000 tot resultaat, zoals &quot;1000&quot;, &quot;1.000,01&quot;, en &quot;1000000&quot;.</td>
+<td>Een zoekopdracht <strong>1000..</strong> heeft alle getallen die groter zijn dan of gelijk zijn aan 1000 als resultaat, bijvoorbeeld &quot;1000&quot;, &quot;1000,01&quot; en &quot;1.000.000&quot;.</td>
 </tr>
 <tr class="even">
 <td>&gt;<em>waarde</em> (groter dan-teken)</td>
 <td>Groter dan de waarde die is ingevoerd</td>
 <td>Typ een groter dan-teken (<strong>&gt;</strong>) en vervolgens de waarde.</td>
-<td><strong>&gt;1000</strong> heeft alle getallen die groter is dan 1000 tot resultaat, zoals &quot;1000,01&quot;, &quot;20.000&quot;, en &quot;1000000&quot;.</td>
+<td>Een zoekopdracht <strong>&gt;1000</strong> heeft alle getallen die groter zijn dan 1000 als resultaat, bijvoorbeeld &quot;1000,01&quot;, &quot;20.000&quot; en  &quot;1.000.000&quot;.</td>
 </tr>
 <tr class="odd">
 <td>&lt;<em>waarde</em> (kleiner dan-teken)</td>
 <td>Kleiner dan de waarde die is ingevoerd</td>
 <td>Typ een kleiner dan-teken (<strong>&lt;</strong>) en vervolgens de waarde.</td>
-<td><strong>&lt;1000</strong> heeft alle getallen die kleiner zijn dan 1000, zoals &quot;999,99&quot;, &quot;1&quot;, en &quot;-200&quot;.</td>
+<td>Een zoekopdracht <strong>&lt;1000</strong> heeft alle getallen die kleiner zijn dan 1000 als resultaat, bijvoorbeeld &quot;999,99&quot;, &quot;1&quot; en &quot;-200&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>waarde</em>* (sterretje)</td>
 <td>Beginnend vanaf de waarde die is ingevoerd</td>
-<td>Typ de beginwaarde en vervolgens een asterisk (<strong>*</strong>).</td>
-<td><strong>S *</strong> vindt u elke tekenreeks die begint met &quot;S&quot;, zoals &quot;Stockholm&quot;, &quot;Sydney&quot;, en &quot;San Francisco&quot;.</td>
+<td>Typ de beginwaarde en vervolgens een sterretje (<strong>*</strong>).</td>
+<td>De zoekopdracht <strong>S*</strong> heeft alle tekenreeksen die beginnen met een &quot;S&quot;, zoals &quot;Stockholm&quot;, &quot;Sydney&quot; en &quot;San Francisco&quot; als resultaat.</td>
 </tr>
 <tr class="odd">
-<td>*<em>value</em> (asterisk)</td>
+<td>*<em>waarde</em> (sterretje)</td>
 <td>Eindigend met de waarde die is ingevoerd</td>
 <td>Typ een asterisk en vervolgens de eindwaarde.</td>
-<td><strong>* Oost</strong> vindt u elke tekenreeks die eindigt met &quot;east&quot;, zoals &quot;Noordoost&quot; en &quot;Zuidoost&quot;.</td>
+<td>De zoekopdracht <strong>*oost</strong> heeft alle tekenreeksen die eindigen op &quot;oost&quot; als resultaat, zoals &quot;Noordoost&quot; en &quot;Zuidoost&quot;.</td>
 </tr>
 <tr class="even">
 <td>*<em>waarde</em>* (sterretje)</td>
 <td>Bevat de waarde die is ingevoerd</td>
 <td>Typ een asterisk, vervolgens een waarde en nog een asterisk.</td>
-<td><strong>*do*</strong> vindt u elke tekenreeks die bevat &quot;do&quot;, zoals &quot;Noordoost&quot; en &quot;Zuidoost&quot;.</td>
+<td>De zoekopdracht <strong>*do*</strong> heeft alle tekenreeksen die &quot;do&quot; bevatten als resultaat, zoals &quot;Noordoost&quot; en &quot;Zuidoost&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (vraagteken)</td>
 <td>Bevat een of meer onbekende tekens.</td>
 <td>Type een vraagteken op de positie van het onbekende teken in de waarde.</td>
-<td><strong>SM? t</strong> gevonden &quot;Smit&quot; en &quot;smet&quot;.</td>
+<td>De zoekopdracht <strong>Sm?t</strong> heeft &quot;Smit&quot; en &quot;Smet&quot; als resultaat.</td>
 </tr>
 <tr class="even">
 <td><em>waarde</em>,<em>waarde</em> (komma)</td>
 <td>Overeenkomend met de waarden die zijn gescheiden door een komma</td>
 <td>Typ alle zoekcriteria en scheid deze met behulp van komma's.</td>
-<td><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;. <strong>10, 20, 30, 100</strong> heeft &quot;10, 20, 30, 100&quot;.</td>
+<td>De zoekopdracht <strong>A, D, F, G</strong> heeft exact &quot;A&quot;, &quot;D&quot;, &quot;F&quot; en &quot;G&quot; als resultaat. <strong>10, 20, 30, 100</strong> heeft &quot;10, 20, 30, 100&quot; als resultaat.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">SQL-instructie</span>) (SQL-instructie tussen haakjes)</td>
 <td>Overeenkomend met een opgegeven query.</td>
 <td>Typ een query als een SQL-instructie tussen haakjes.</td>
-<td><strong><span class="code">(gegevensbron. Veldnaam! = &quot;A&quot;)</span></strong></td>
+<td><strong><span class="code">(gegevensbron.Veldnaam != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
 <td>D</td>
@@ -137,7 +140,7 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td>Overeenstemming van de waarde of het bereik van waarden die zijn opgegeven door de parameters van de methode <strong>SysQueryRangeUtil</strong></td>
 <td>Typ een methode <strong>SysQueryRangeUtil</strong> die parameters heeft waarmee de waarde of het bereik van waarden wordt opgegeven.</td>
 <td><ol>
-<li>Klik op <strong>klanten</strong>&gt;<strong>facturen</strong>&gt;<strong>openstaande klantfacturen</strong>.</li>
+<li>Klik op <strong>Klanten</strong> &gt; <strong>Facturen</strong> &gt; <strong>Openstaande klantfacturen</strong>.</li>
 <li>Druk op Ctrl+Shift+F3 om de pagina <strong>Query</strong> te openen.</li>
 <li>Klik op <strong>Toevoegen</strong> op het tabblad <strong>Bereik</strong>.</li>
 <li>Selecteer <strong>Openstaande transacties</strong> in het veld <strong>Tabel</strong>.</li>
@@ -228,6 +231,8 @@ Raadpleeg de tabel in het volgende onderdeel voor meer informatie over datummeth
 </tr>
 </tbody>
 </table>
+
+
 
 
 

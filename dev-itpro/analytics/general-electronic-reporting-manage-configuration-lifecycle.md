@@ -1,6 +1,6 @@
 ---
 title: De levenscyclus van de configuratie van elektronische rapportage beheren
-description: In dit onderwerp wordt beschreven hoe de levenscyclus van elektronische rapportage (ER)-configuraties voor de Microsoft Dynamics 365 voor bewerkingen oplossing te beheren.
+description: In dit onderwerp wordt beschreven hoe u de levenscyclus van ER-configuratie (elektronische rapportage) voor de Microsoft Dynamics 365 for Operations-oplossing kunt beheren.
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,18 +27,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>De levenscyclus van de configuratie van elektronische rapportage beheren
 
-In dit onderwerp wordt beschreven hoe de levenscyclus van elektronische rapportage (ER)-configuraties voor de Microsoft Dynamics 365 voor bewerkingen oplossing te beheren.
+[!include[banner](../includes/banner.md)]
+
+
+In dit onderwerp wordt beschreven hoe u de levenscyclus van ER-configuratie (elektronische rapportage) voor de Microsoft Dynamics 365 for Operations-oplossing kunt beheren.
 
 <a name="overview"></a>Overzicht
 --------
 
-Elektronische rapportage (ER) is een engine die officieel vereiste en land/regio-specifieke elektronische documenten in Microsoft Dynamics 365 for Operations ondersteunt. Over het algemeen wordt er bij ER uitgegaan van een mogelijkheid om de volgende taken voor één elektronisch document uit te voeren. Zie voor meer informatie [rapporteren-overzicht elektronisch](general-electronic-reporting.md).
+Elektronische rapportage (ER) is een engine die officieel vereiste en land/regio-specifieke elektronische documenten in Microsoft Dynamics 365 for Operations ondersteunt. Over het algemeen wordt er bij ER uitgegaan van een mogelijkheid om de volgende taken voor één elektronisch document uit te voeren. Zie voor meer informatie [Overzicht elektronische rapportage](general-electronic-reporting.md).
 
 -   Een sjabloon voor een elektronisch document ontwerpen:
     -   De vereiste gegevensbronnen identificeren die in het document kunnen worden gepresenteerd:
-        -   Onderliggende Dynamics 365 voor gegevens, bewerkingen, zoals gegevenstabellen, gegevensentiteiten en klassen.
-        -   Proces-specifieke eigenschappen, zoals het uitvoeren van datum en tijd en tijdzone.
-        -   Gebruikersinvoerparameters, opgegeven door de eindgebruiker tijdens runtime.
+        -   Onderliggende Dynamics 365 for Operations-gegevens, zoals gegevenstabellen, gegevensentiteiten en klassen.
+        -   Processpecifieke eigenschappen, zoals uitvoeringsdatum en -tijd en tijdzone.
+        -   Gebruikersinvoerparameters, opgegeven tijdens uitvoeringstijd door eindgebruiker.
     -   De vereiste documentelementen van de bijbehorende topologie definiëren om een definitieve documentindeling op te geven
     -   De gewenste stroom van gegevens configureren vanuit geselecteerde gegevensbronnen voor gedefinieerde documentelementen (via gegevensbronbindingen voor documentindelingsonderdelen) en procesbeheerlogica opgeven.
 -   Een sjabloon beschikbaar maken zodat deze in andere Dynamics 365 for Operations-exemplaren kan worden gebruikt:
@@ -49,19 +52,19 @@ Elektronische rapportage (ER) is een engine die officieel vereiste en land/regio
     -   Een sjabloon van LCS naar het huidige Dynamics 365 for Operations-exemplaar als een ER-configuratie overbrengen.
     -   Een aangepaste versie van een ER-configuratie ontwerpen en een verwijzing naar de basisversie bewaren.
 -   Een sjabloon met een bepaald bedrijfsproces integreren, zodat deze in Dynamics 365 for Operations beschikbaar is:
-    -   Dynamics 365 for Operations-instellingen zo configureren dat Dynamics een ER-configuratie gaat gebruiken door in een procesgerelateerde parameter naar die configuratie te verwijzen. Raadpleeg bijvoorbeeld de Emergency Recovery-configuratie in een specifieke rekeningen te betalen betalingsmethode voor het genereren van een elektronische betaling-bericht voor de verwerking van facturen.
+    -   Dynamics 365 for Operations-instellingen zo configureren dat Dynamics een ER-configuratie gaat gebruiken door in een procesgerelateerde parameter naar die configuratie te verwijzen. Raadpleeg bijvoorbeeld de ER-configuratie in een specifieke betalingsmethode van leveranciers om een elektronisch betalingsbericht voor verwerking van facturen te genereren.
 -   Een sjabloon in een specifiek bedrijfsproces gebruiken:
-    -   De configuratie van een Emergency Recovery in een specifiek bedrijfsproces uitgevoerd. Bijvoorbeeld is voor het genereren van een elektronische betaling-bericht voor de verwerking van facturen wanneer een betalingsmethode die verwijst naar de Emergency Recovery-configuratie ingeschakeld.
+    -   Een ER-configuratie in een specifiek bedrijfsproces uitvoeren. Bijvoorbeeld om een elektronisch betalingsbericht voor verwerking van facturen te genereren wanneer een betalingsmethode is geselecteerd die verwijst naar de ER-configuratie.)
 
 ## <a name="concepts"></a>Concepten
-De volgende rollen en gerelateerde activiteiten zijn gekoppeld aan de levenscyclus van Emergency Recovery-configuratie.
+De volgende rollen en gerelateerde activiteiten zijn gekoppeld aan de levenscyclus van de ER-configuratie.
 
 | Rol                                       | Activiteiten                                                      | Omschrijving                                                                                                                                                                                                                  |
 |--------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Functioneel consultant elektronische rapportage | De ER-onderdelen (modellen en indelingen) maken en beheren.           | Een business-persoon die ER specifieke domein gegevensmodellen, de vereiste sjablonen voor elektronische documenten ontwerpen ontwerpt en worden deze dienovereenkomstig gebonden.                                                                           |
-| Ontwikkelaar elektronische rapportage             | Gegevensmodeltoewijzingen maken en beheren.                          | Een Dynamics 365 voor bewerkingen specialist die u selecteert de vereiste Dynamics 365 voor gegevensbronnen van bewerkingen en koppelt deze aan Emergency Recovery domein-specifieke gegevensmodellen.                                                                 |
-| Supervisor boekhouding                      | Procesgerelateerde instellingen configureren die verwijzen naar ER-artefacten. | Bijvoorbeeld een **Accounting supervisor** rol waarmee de instellingen van een Emergency Recovery-configuratie moet worden gebruikt in een bepaalde betalingsmethode voor leveranciers voor rekeningen voor het genereren van een elektronische betaling-bericht voor de verwerking van facturen. |
-| Leveranciersadministrateur            | ER-artefacten in een specifiek bedrijfsproces gebruiken.                | Bijvoorbeeld een **Crediteurenadministrateur** rol waarmee berichten van de elektronische betaling moet worden gegenereerd voor verwerking facturen, op basis van de Emergency Recovery-indeling die is geconfigureerd voor een bepaalde betalingswijze.           |
+| Functioneel consultant elektronische rapportage | De ER-onderdelen (modellen en indelingen) maken en beheren.           | Een bedrijfspersoon die ER-domeinspecifieke gegevensmodellen ontwerpt, ontwerpt de vereiste sjablonen voor elektronische documenten en verbindt deze dienovereenkomstig.                                                                           |
+| Ontwikkelaar elektronische rapportage             | Gegevensmodeltoewijzingen maken en beheren.                          | Een Dynamics 365 for Operations-specialist die de vereiste Dynamics 365 for Operations-gegevensbronnen selecteert en deze met ER-domeinspecifieke gegevensmodellen verbindt.                                                                 |
+| Supervisor boekhouding                      | Procesgerelateerde instellingen configureren die verwijzen naar ER-artefacten. | Bijvoorbeeld de rol van een **Supervisor boekhouding** waarmee de instellingen van een ER-configuratie in een bepaalde betalingsmethode van leveranciers kunnen worden gebruikt om een elektronisch betalingsbericht voor de verwerking van facturen te genereren. |
+| Leveranciersadministrateur            | ER-artefacten in een specifiek bedrijfsproces gebruiken.                | Bijvoorbeeld de rol van een **Leveranciersadministrateur** waarmee elektronische betalingsberichten voor de verwerking van facturen kunnen worden gegenereerd op basis van de ER-indeling die voor een specifieke betalingsmethode wordt geconfigureerd.           |
 
 ## <a name="er-configuration-development-lifecycle"></a>De levenscyclus van de ER-configuratieontwikkeling
 Het is raadzaam om ER-configuraties in de ontwikkelingsomgeving te ontwerpen als een afzonderlijk exemplaar van Dynamics 365 for Operations om de volgende ER-gerelateerde redenen:
@@ -69,11 +72,13 @@ Het is raadzaam om ER-configuraties in de ontwikkelingsomgeving te ontwerpen als
 -   Gebruikers met de rol **Ontwikkelaar elektronische rapportage** of **Functioneel consultant elektronische rapportage** kunnen configuraties bewerken en deze voor testdoeleinden uitvoeren. Dit scenario kan aanroepen veroorzaken van methoden van klassen en tabellen die schadelijk kunnen zijn voor bedrijfsgegevens en de prestaties van het Dynamics 365 for Operations-exemplaar.
 -   Aanroepen van methoden van klassen en tabellen als ER-gegevensbronnen van ER-configuraties worden niet beperkt door Dynamics 365 for Operations-invoerpunten en geregistreerde bedrijfsinhoud. Daardoor kunnen gebruikers met de rol **Ontwikkelaar elektronische rapportage** of **Functioneel consultant elektronische rapportage** toegang krijgen tot gevoelige bedrijfsgegevens.
 
-Emergency Recovery-configuraties die zijn ontworpen in de ontwikkelomgeving kunnen worden geüpload naar de testomgeving voor de beoordeling van de configuratie (juiste integratie, juistheid van de resultaten en prestaties) en de kwaliteitscontrole, zoals de juistheid van de rol op basis van hoeveelheid werk toegangsrechten en scheiding van taken. De functies waarmee de uitwisseling van Emergency Recovery-configuratie kunnen worden gebruikt voor dit doel. Ten slotte kunnen geverifieerde Emergency Recovery-configuraties worden geüpload naar LCS, waar ze worden gedeeld met de service-abonnees, of naar de productieomgeving voor intern gebruik, zoals weergegeven in de volgende afbeelding. ![Emergency Recovery configuratie lifecycle](./media/ger-configuration-lifecycle.png)
+ER-configuraties die zijn ontworpen in de ontwikkelomgeving, kunnen worden geüpload naar de testomgeving voor de configuratie-evaluatie (juiste procesintegratie, nauwkeurigheid van resultaten en prestaties) en kwaliteitscontrole, zoals nauwkeurigheid van op rollen gebaseerde toegangsrechten, scheiding van taken enzovoort. De functies die de uitwisseling van ER-configuratie mogelijk maken, kunnen voor dit doel worden gebruikt. Tot slot kunnen bewezen ER-configuraties worden geüpload naar LCS waar ze kunnen worden gedeeld met serviceabonnees, of naar de productieomgeving voor intern gebruik, zoals in de volgende afbeelding wordt getoond. ![Levenscyclus van ER-configuratie](./media/ger-configuration-lifecycle.png)
 
 <a name="see-also"></a>Zie ook
 --------
 
 [Overzicht van elektronische rapportage](general-electronic-reporting.md)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: Cursussen instellen
+title: Trainingen instellen
 description: Personeelsmedewerkers en managers kunnen de cursussenfuncties gebruiken om informatie te onderhouden over de cursus die aan werknemers wordt aangeboden.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-training-courses"></a>Cursussen instellen
+# <a name="set-up-training-courses"></a>Trainingen instellen
+
+[!include[banner](includes/banner.md)]
+
 
 Personeelsmedewerkers en managers kunnen de cursussenfuncties gebruiken om informatie te onderhouden over de cursus die aan werknemers wordt aangeboden.
 
@@ -85,7 +88,7 @@ Voor elke cursus kunt de volgende taken uitvoeren:
 -   Hotels aanraden aan deelnemers.
 -   Een cursusomschrijving maken, die u kunt weergeven in de werknemersselfservice.
 
-  >**opmerking** u kunt een cursus alleen verwijderen als niemand heeft geregistreerd voor deze. 
+  >**Opmerking:** u kunt een cursus alleen verwijderen als niemand zich ervoor heeft aangemeld. 
     
 ## <a name="course-statuses"></a>Cursusstatussen
 In de volgende tabel worden de mogelijke cursusstatussen weergegeven en de acties die u kunt uitvoeren wanneer de cursus een specifieke status heeft.
@@ -132,7 +135,9 @@ Cursusdeelnemers zijn werknemers, sollicitanten of contactpersonen die deelnemen
 <a name="workflow"></a>Workflow
 --------
 
-Werknemers die voor een cursus via registreren de **werknemer selfservice** pagina hun inschrijving gerouteerd via de workflow voor goedkeuring kan hebben.  Een workflow kan worden toegewezen aan een cursus op de **algemeen** sneltabblad op de **cursussen** pagina.
+Werknemers die zich voor een cursus via registreren de pagina **Selfservice werknemer** kunnen hun inschrijving laten routeren via de workflow voor goedkeuring.  Een workflow kan worden toegewezen aan een cursus op het sneltabblad **Algemeen** van de pagina **Cursussen**.
+
+
 
 
 

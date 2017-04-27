@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 125 procent
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 125 procent.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **125% reducing balance** in het veld **Methode** op de pagina **Depreciation profiles**, worden vaste activa die zijn toegewezen aan het afschrijvingsprofiel met hetzelfde percentage afgeschreven in elke afschrijvingsperiode. Dit percentage wordt berekend aan de hand van de levensduur van het activum. Als een activum een levensduur van bijvoorbeeld vijf jaar heeft, wordt het percentage berekend als 25 procent (125% ÷ 5).
@@ -56,7 +59,7 @@ Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties
 
 Als u **Boekjaar** selecteert in het veld **Afschrijvingsjaar**, wordt de 125% degressieve afschrijving van de levensduur berekend op basis van het boekjaar voor de fiscale kalender die is opgegeven voor het boek of op basis van de pagina **Grootboek**. Fiscale kalenders kunt u instellen op de pagina **Fiscale kalenders**. 
 
-Bijvoorbeeld het boekjaar van 1 juli tot en met 30 juni, wordt de afschrijving vanaf 1 juli. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt automatisch voor elke periode aangepast, en de lengte van het volgend boekjaar wordt gehaald uit de instellingen van perioden op de pagina **Fiscale kalenders**. 
+Voor bijvoorbeeld het boekjaar van 1 juli t/m 30 juni wordt de afschrijving vanaf 1 juli berekend. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt automatisch voor elke periode aangepast, en de lengte van het volgend boekjaar wordt gehaald uit de instellingen van perioden op de pagina **Fiscale kalenders**. 
 
 Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 
@@ -81,6 +84,8 @@ Bij de methode 125% degressieve afschrijvingsmethode, wordt 125 procent door het
 | Jaar 3 | 5625 × 25% = 1406,25                        | (6625 – 1406,25) = 5218,75 | (5625 – 1406,25) = 4218,75         |
 
 > [!NOTE] 
-> Normaal gesproken waarop het bedrag dat wordt berekend met behulp van de 125% degressieve afschrijvingsmethode wordt kleiner is dan het bedrag dat zou worden berekend met behulp van de lineaire methode, wordt er een conversie naar de lineaire methode voor de resterende levensduur.
+> Wanneer het bedrag dat wordt berekend met de methode voor 125% degressieve afschrijving lager is dan het bedrag dat wordt berekend door de lineaire methode te gebruiken, vindt er doorgaans een conversie naar de lineaire methode plaats voor de resterende levensduur.
+
+
 
 

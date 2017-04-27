@@ -1,5 +1,5 @@
 ---
-title: Offerteaanvragen (offerteaanvragen)
+title: Offerteaanvragen (RFQ&quot;s)
 description: In dit artikel wordt een overzicht gegeven van offerteaanvragen, die organisaties uitgeven wanneer ze artikelen of services moeten aanschaffen en daarvoor concurrerende aanbiedingen van verschillende leveranciers willen ontvangen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft. U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Offerteaanvragen (offerteaanvragen)
+# <a name="request-for-quotations-rfqs"></a>Offerteaanvragen (RFQ's)
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt een overzicht gegeven van offerteaanvragen, die organisaties uitgeven wanneer ze artikelen of services moeten aanschaffen en daarvoor concurrerende aanbiedingen van verschillende leveranciers willen ontvangen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft. U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.
 
@@ -37,9 +40,9 @@ Het proces van offerteaanvraag omvat de volgende taken:
 
 De volgende afbeelding geeft een overzicht van het proces voor offerteaanvragen.  
 
-[![Aanvraag voor offerteproces](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
+[![Offerteaanvraagproces](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-U kunt een offerteaanvraag maken op basis van geplande orders, een opdracht tot inkoop of een handmatige invoer. De offerteaanvraag die u maakt wordt een offerteaanvraagcase genoemd, en dit is het basisdocument dat u gebruikt om een offerteaanvraag aan elke leverancier uit te geven. Nadat u de offerteaanvraagcase voorbereiden en leveranciers toevoegen, klikt u op **verzenden** op de offerteaanvraagcase en een offerteaanvraag journaal is gegenereerd voor elke leverancier waarnaar u de RFQ hebt verzonden. U kunt de afdrukbeheerinstellingen voor de actie verzenden als u een rapport verzenden naar e-mailadres van elke leverancier of een rapport afdrukken voor elke leverancier naar een archief wilt configureren. Bovendien kan het offerteaanvraagjournaal voor elke leverancier worden gebruikt om een rapport te genereren dat u later naar een leverancier kunt verzenden of opnieuw verzenden. U kunt ook de actie Verzenden zodanig configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.  
+U kunt een offerteaanvraag maken op basis van geplande orders, een opdracht tot inkoop of een handmatige invoer. De offerteaanvraag die u maakt wordt een offerteaanvraagcase genoemd, en dit is het basisdocument dat u gebruikt om een offerteaanvraag aan elke leverancier uit te geven. Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, klik u op **Verzenden** in de offerteaanvraagcase. Er wordt nu een offerteaanvraagjournaal gegenereerd voor elke leverancier die u de offerteaanvraag hebt toegestuurd. U kunt instellingen voor afdrukbeheer instellen voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kan het offerteaanvraagjournaal voor elke leverancier worden gebruikt om een rapport te genereren dat u later naar een leverancier kunt verzenden of opnieuw verzenden. U kunt ook de actie Verzenden zodanig configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.  
 
 Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag opnieuw verzenden naar leveranciers wanneer u klaar bent.  
 
@@ -49,18 +52,18 @@ Als een tweede herhaling van een antwoord is vereist voor een specifieke leveran
 
 Als u scoringscriteria aan uw offerteaanvraagcase hebt toegevoegd, heeft het antwoord op de offerteaanvraag een scorepaneel waarin u de scores kunt invoeren. De totale scores worden weergegeven wanneer u de antwoorden op de pagina **Antwoorden vergelijken **vergelijkt. Hier kunt u tevens andere antwoordgegevens vergelijken, zoals de regelprijs, leverdatum en totale prijs.  
 
-Nadat u een beslissing hebt genomen over een bieding of een gedeeltelijk bieding, kunt u deze accepteren en de rest afwijzen. Er worden acceptatiejournalen, afwijzingsjournalen en overeenkomstige rapporten gegenereerd. Deze worden afgedrukt, gearchiveerd, en verzonden volgens uw instellingen voor afdrukbeheer. Wanneer u een bod of specifieke regels in een bod accepteert, een inkooporder of inkoopovereenkomst is gegenereerd of een opdracht tot inkoop wordt bijgewerkt, afhankelijk van het inkooptype voor de offerteaanvraag. U kunt een handelsovereenkomst maken die u later voor alle antwoorden kunt gebruiken, ongeacht of u deze hebt geaccepteerd of afgewezen.  
+Nadat u een beslissing hebt genomen over een bieding of een gedeeltelijk bieding, kunt u deze accepteren en de rest afwijzen. Er worden acceptatiejournalen, afwijzingsjournalen en overeenkomstige rapporten gegenereerd. Deze worden afgedrukt, gearchiveerd en verzonden, afhankelijk van uw instellingen voor afdrukbeheer. Als u een bieding of specifieke regels in een bieding accepteert, wordt een inkoopovereenkomst of inkooporder gegenereerd, of wordt een opdracht tot inkoop bijgewerkt, afhankelijk van het inkooptype van de offerteaanvraag. U kunt een handelsovereenkomst maken die u later voor alle antwoorden kunt gebruiken, ongeacht of u deze hebt geaccepteerd of afgewezen.  
 
 De status van een offerteaanvraag wordt weergegeven in de koptekst van de offerteaanvraag en hangt af van de status van de offerteaanvraagregels. De status geeft aan in hoeverre u de offerteaanvraag hebt verwerkt. Elke offerteaanvraag heeft twee waarden voor de status: laagste en hoogste. De laagste status is het minst vergevorderde stadium van een regel in de offerteaanvraag en de hoogste status is het meest vergevorderde stadium van een regel in de offerteaanvraag. Als bijvoorbeeld het minst vergevorderde stadium in een offerteaanvraag voor een regel is die is gemaakt, is **Gemaakt** de laagste status voor de offerteaanvraag. Als het meest vergevorderde stadium in de offerteaanvraag voor een regel is die is verzonden aan leveranciers, is **Verzonden** de hoogste status voor de offerteaanvraag. De statussen worden automatisch bijgewerkt terwijl u een offerteaanvraag verwerkt.  
 
 U kunt de laagste en hoogste status voor de koptekst van een offerteaanvraag bekijken op de pagina **Alle aanvragen voor offertes**. U kunt de laagste en hoogste status voor een regel van een offerteaanvraag bekijken op het tabblad **Regels** op de pagina **Offerteaanvragen**.  
 
-Dit is de volgorde van de statuswaarden voor offerteaanvragen verwerken:
+Hier volgen de statussen voor het verwerken van offerteaanvragen:
 
 1.  **Gemaakt**
-2.  **Sent**
-3.  **Received**
-4.  **Geaccepteerd**/**geannuleerd**/**afgewezen**
+2.  **Verzonden**
+3.  **Ontvangen**
+4.  **Geaccepteerd**/**Geannuleerd**/**Afgewezen**
 
 De statussen worden nader beschreven in volgende onderdelen van dit artikel.
 
@@ -72,7 +75,7 @@ Voordat u een offerteaanvraagcase kunt maken, moet u offerteaanvraaggegevens ins
 -   Leveringsgegevens en betalingsvoorwaarden.
 -   Velden die in het antwoord op de offerteaanvraag moeten worden opgenomen
 
-U kunt deze waarden negeren voor een specifieke offerteaanvraagcase. Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen eerst op **Maken** in de sectie **Aanpassing** van het tabblad **Offerte** klikken. Nadat de offerteaanvraag is bijgewerkt met de wijziging, de inkoper moet de voltooien door te klikken op **voltooien**. ** ** voltooien van de actie genereert een e-mailbericht dat de leveranciers over de offerteaanvraag gewijzigd. U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt, kan deze de volgende vervangingstokens bevatten:
+U kunt deze waarden negeren voor een specifieke offerteaanvraagcase. Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen eerst op **Maken** in de sectie **Aanpassing** van het tabblad **Offerte** klikken. Nadat de offerteaanvraag is bijgewerkt met de aanpassing, moet de inkoopmedewerker het proces uitvoeren door op **Voltooien** te klikken.** **Bij de actie Voltooien wordt een e-mailbericht gegenereerd waarmee de leveranciers over de gewijzigde offerteaanvraag worden geïnformeerd. U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt, kan deze de volgende vervangingstokens bevatten:
 
 -   %Reden voor retour van bieding%
 -   %Reden voor aanpassing%
@@ -124,7 +127,7 @@ De volgende tabel laat zien hoe de status van een offerteaanvraag verandert wann
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Lowest RFQ header status** | **Highest RFQ header status**                   | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Actie**                         | **Laagste offerteaanvraagstatus** | **Hoogste offerteaanvraagstatus**                   | **Laagste offerteaanvraagregelstatus** | **Hoogste offerteaanvraagregelstatus** |
 | De koptekst en regel van de offerteaanvraag maken.    | Gemaakt                      | Gemaakt                                         | Gemaakt                    | Gemaakt                     |
 | Verzend de offerteaanvraag naar een specifieke leverancier. | Verzonden                         | Verzonden                                            | Verzonden                       | Verzonden                        |
 | Nog een leverancier toevoegen.                | Gemaakt                      | Verzonden (De offerteaanvraag is verzonden aan slechts één leverancier.) | Gemaakt                    | Verzonden                        |
@@ -146,7 +149,7 @@ Als een vragenlijst is toegevoegd aan de offerteaanvraagcase, moet u de antwoord
 
 Als u alternatieve regels moet invoeren, en de offerteaanvraagcase dit toestaat, klikt u op het sneltabblad **Inkoopofferteregels** op **Regel toevoegen**. Voer vervolgens de productinformatie in, zoals het artikelnummer of de inkoopcategorie, hoeveelheid, prijs en korting.  
 
-Als u een antwoord hebt ingevoerd, maar een nieuwe aanbieding van de leverancier vereist, kunt u de offerteaanvraag opnieuw verzenden. Hierdoor wordt een nieuw journaal en het rapport dat u kunt wijzigingen aanvragen van de leverancier gegenereerd.  
+Als u een antwoord hebt opgegeven maar een nieuwe offerte van de leverancier nodig hebt, kunt u de offerteaanvraag opnieuw verzenden. Hierbij wordt een nieuwe versie gegenereerd van het journaal en van het rapport dat u kunt gebruiken om de leverancier om wijzigingen te vragen.  
 
 U kunt een overzicht bekijken van alle offerteaanvragen en hun antwoordstatussen op de pagina **Opvolging van offerteaanvraag**.  
 
@@ -154,7 +157,7 @@ In de volgende tabel wordt weergegeven hoe de offerteaanvraagstatus verandert wa
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Actie**                                     | **Laagste biedingsstatus** | **Hoogste biedingsstatus** | **Laagste offerteaanvraagstatus** | **Hoogste offerteaanvraagstatus** | **Laagste offerteaanvraagregelstatus** | **Hoogste offerteaanvraagregelstatus** |
 | Registreer een bod van de leverancier en sla dit op.        | Verzonden                  | Ontvangen               | Verzonden                         | Ontvangen                      | Verzonden                       | Ontvangen                    |
 | Registreer het bod van de tweede leverancier en sla dit op. | Ontvangen              | Ontvangen               | Ontvangen                     | Ontvangen                      | Ontvangen                   | Ontvangen                    |
 
@@ -183,9 +186,11 @@ De volgende tabel laat zien hoe de offerteaanvraagstatus verandert als u bieding
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Actie**              | **Laagste biedingsstatus** | **Hoogste biedingsstatus** | **Laagste offerteaanvraagstatus** | **Hoogste offerteaanvraagstatus** | **Laagste offerteaanvraagregelstatus** | **Hoogste offerteaanvraagregelstatus** |
 | Accepteer een van de biedingen. | Ontvangen              | Geaccepteerd               | Ontvangen                     | Geaccepteerd                      | Ontvangen                   | Geaccepteerd                    |
 | Wijs de andere biedingen af.  | Geweigerd              | Geaccepteerd               | Geweigerd                     | Geaccepteerd                      | Geweigerd                   | Geaccepteerd                    |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Btw-tarieven gebaseerd op de marginale basis- en berekeningsmethoden
+title: Btw-tarieven op basis van Marginale basis en Berekeningsmethoden
 description: In dit artikel wordt beschreven hoe de waarden in de velden Marginale basis en Berekeningsmethode het btw-tarief in verkoop- en inkooptransacties bepalen.
 author: twheeloc
 manager: AnnBe
@@ -26,13 +26,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Btw-tarieven gebaseerd op de marginale basis- en berekeningsmethoden
+# <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Btw-tarieven op basis van Marginale basis en Berekeningsmethoden
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt beschreven hoe de waarden in de velden Marginale basis en Berekeningsmethode het btw-tarief in verkoop- en inkooptransacties bepalen.
 
 De marginale basis op het sneltabblad Berekening van de pagina Btw-codes bepaalt welk bedrag wordt gebruikt om het gewenste btw-tarief te kiezen uit de percentages op de pagina Waarden btw-code. Het bedragtype in het veld Marginale basis, in combinatie met de methode in het veld Berekeningsmethode, definieert de logica om het juiste btw-tarief voor een transactie te bepalen. 
 
-Verschillende combinaties van waarden in deze velden resulteren in heel verschillende btw-berekeningen, zoals u in de volgende voorbeelden kunt zien. In de voorbeelden worden dezelfde btw-intervalwaarden gebruikt die zijn ingesteld voor elke btw-code op de pagina Waarden btw-code. U opent deze pagina, klikt u op btw-code &gt;waarden in de btw-codes-pagina.
+Verschillende combinaties van waarden in deze velden resulteren in heel verschillende btw-berekeningen, zoals u in de volgende voorbeelden kunt zien. In de voorbeelden worden dezelfde btw-intervalwaarden gebruikt die zijn ingesteld voor elke btw-code op de pagina Waarden btw-code. Als u deze pagina wilt openen, klikt u op de pagina Btw-codes op Btw-code &gt; Waarden.
 
 > [!Important]                                                                                                                  
 > Als de marginale basis voor een of meer van uw btw-codes is gebaseerd op een regelbedragen of eenheden, moet de waarde van het veld Berekeningsmethode op de pagina Grootboekparameters zijn ingesteld op Regel. |
@@ -53,7 +56,7 @@ De btw-tarieven worden ingesteld met de volgende intervallen:
 > [!NOTE]                                                                                                             
 > De bovengrens van nul (0) in het laatste interval betekent dat alle bedragen die hoger zijn dan 100, worden opgenomen in het interval.
 
-Marginale basis: **nettobedrag per regel** 
+Marginale basis: **Nettobedrag per regel** 
 
 Berekeningsmethode: **Interval** 
 
@@ -67,9 +70,9 @@ Totale btw = 50 x 30% + 50 x 20% + 100 x 10% = 15 + 10 + 10 = EUR 35,00.
 
 Totaal factuurbedrag = 200,00 + 35,00 = EUR 235,00. 
 
-**Variation** 
+**Ander voorbeeld** 
 
-Als de factuur twee regels met 4 artikelen op elke regel heeft het nettobedrag op elke regel is 100,00 en de btw wordt als volgt berekend: 
+Als de factuur twee regels met vier artikelen op elke regel heeft, is het nettobedrag op elke regel 100,00 en wordt de btw als volgt berekend: 
 
 Btw-regel 1 = 50 x 30% + 50 x 20% = 15 + 10 = EUR 25,00. 
 
@@ -92,9 +95,9 @@ De btw-tarieven worden ingesteld met de volgende intervallen:
 | 50 - 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Marginale basis: **netto bedrag per eenheid** 
+Marginale basis: **Nettobedrag per eenheid** 
 
-Berekeningsmethode: **volledige bedrag** 
+Berekeningsmethode: **Volledige bedrag** 
 
 U koopt 8 lampen die 25,00 per stuk kosten. 
 
@@ -116,9 +119,9 @@ De btw-tarieven worden ingesteld met de volgende intervallen:
 | 50 - 100          | 20%      |
 | 100 -0 (&gt; 100) | 10%      |
 
-Marginale basis: **nettobedrag van factuursaldo** 
+Marginale basis: **Nettobedrag van factuursaldo** 
 
-Berekeningsmethode: **Interval** een verkoopfactuur bevat 2 regels met de 4 lampen op elke regels voor 25,00 per stuk. Het nettobedrag van factuursaldo is 4 x 25,00 + 4 x 25,00 = 200,00. De btw wordt als volgt berekend: Totale btw = 50 x 0,30 + 50 x 0,20 + 100 x 0,10 = 15 + 10 + 10 = 35,00 Totaal factuurbedrag = 200,00 + 35,00 = 235,00
+Berekeningsmethode: **Interval** een verkoopfactuur bevat 2 regels met 4 lampen op elke regel voor 25,00 per stuk. Het nettobedrag van factuursaldo is 4 x 25,00 + 4 x 25,00 = 200,00. De btw wordt als volgt berekend: Totale btw = 50 x 0,30 + 50 x 0,20 + 100 x 0,10 = 15 + 10 + 10 = 35,00 Totaal factuurbedrag = 200,00 + 35,00 = 235,00
 
 ## <a name="gross-amount-per-line"></a>Brutobedrag per regel
 
@@ -137,11 +140,11 @@ De btw-tarieven worden ingesteld met de volgende intervallen:
 | 50 - 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Marginale basis: **Brutobedrag per regel** Berekeningsmethode: **Interval** Daarnaast is er een andere btw-code voor berekening van een speciale heffing van 5,00 op elke lamp. De heffing wordt toegevoegd aan het nettobedrag voordat de btw wordt berekend. U koopt 8 lampen die 25,00 per stuk kosten. Het nettobedrag voor de factuurregel is EUR 200,00. Het brutobedrag voor de factuurregel is 8 x 25,00 + 8 x 5,00 = 240,00. De btw wordt als volgt berekend: totale btw = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 20 + 14 = 39,00 totaal aan heffingen = 5,00 x 8 = EUR 40,00 Totaal factuurbedrag = 200,00 + 39,00 + 40,00 = EUR 279,00.
+Marginale basis: **Brutobedrag per regel** Berekeningsmethode: **Interval** Daarnaast is er een andere btw-code voor berekening van een speciale heffing van 5,00 op elke lamp. De heffing wordt toegevoegd aan het nettobedrag voordat de btw wordt berekend. U koopt 8 lampen die 25,00 per stuk kosten. Het nettobedrag voor de factuurregel is EUR 200,00. Het brutobedrag voor de factuurregel is 8 x 25,00 + 8 x 5,00 = 240,00. De btw wordt als volgt berekend: Totale btw = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 20 + 14 = 39,00 Totale heffing = 5,00 x 8 = 40,00 Totaal factuurbedrag = 200,00 + 39,00 + 40,00 = 279,00
 
-**Variation** 
+**Ander voorbeeld** 
 
-Als de factuur wordt gemaakt met 2 factuurregels met 4 artikelen op elke regel, is het nettobedrag per factuurregel EUR 100,00. Het brutobedrag (inclusief de heffing van 4 x 5,00) per factuurregel zou 120,00 bedragen, en de btw wordt als volgt opgesteld: Btw factuurregel 1 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Btw factuurregel 2 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Totale btw = 27,00 + 27,00 = 54,00 Totale heffing = 5,00 x 8 = 40,00 Totaal factuurbedrag = 200,00 + 54,00 + 40,00 = 294,00
+Als de factuur wordt gemaakt met 2 factuurregels met 4 artikelen op elke regel, is het nettobedrag per factuurregel 100,00. Het brutobedrag (inclusief de heffing van 4 x 5,00) per factuurregel zou 120,00 bedragen, en de btw wordt als volgt opgesteld: Btw factuurregel 1 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Btw factuurregel 2 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Totale btw = 27,00 + 27,00 = 54,00 Totale heffing = 5,00 x 8 = 40,00 Totaal factuurbedrag = 200,00 + 54,00 + 40,00 = 294,00
 
 ## <a name="gross-amount-per-unit"></a>Brutobedrag per eenheid
 
@@ -166,7 +169,7 @@ Marginale basis: **Brutobedrag per eenheid** Er is een speciale heffing van 5,00
 
 Selecteer deze optie om het btw-tarief te berekenen op basis van de totale waarde van de factuur, inclusief eventuele overige belastingen.
 > [!NOTE]
-> In een btw-groep, kunt u slechts één btw-code met deze selectie hebben in het veld Marginale basis
+> In een btw-groep kunt u maar één btw-code met deze selectie hebben in het veld Marginale basis.
 
 ### <a name="example"></a>Voorbeeld
 
@@ -178,9 +181,11 @@ De btw-tarieven worden ingesteld met de volgende intervallen:
 | 50 - 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Marginale basis: **factuur Totaal incl. andere btw-bedragen** berekeningsmethode: **Interval**   
+Marginale basis: **Factuurtotaal incl. andere btw-bedragen** berekeningsmethode: **Interval**   
 Op elke lamp is een speciale heffing van toepassing van EUR 5,00. De heffing wordt toegevoegd aan het nettobedrag voordat de btw wordt berekend. U koopt 8 lampen die 25,00 per stuk kosten. Het nettobedrag voor de factuur is EUR 200,00. Het brutobedrag voor de factuur is 200,00 + (8 x 5,00) = EUR 240,00. De btw wordt als volgt berekend: Totale btw = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 10 + 14 = 39,00 Totale heffing = 5,00 x 8 = 40,00 Totaal factuurbedrag = 200,00 + 39,00 + 40,00 = 279,00
 
-Zie voor meer informatie [gehele bedrag en de berekeningsopties Interval voor btw-codes](whole-amount-interval-options-sales-tax-codes.md) en [btw-berekeningsmethoden in het veld oorsprong](sales-tax-calculation-methods-origin-field.md).
+Zie [De opties Volledig bedrag en Intervalberekening voor btw-codes](whole-amount-interval-options-sales-tax-codes.md) en [Btw-berekeningsmethoden in het veld Oorsprong](sales-tax-calculation-methods-origin-field.md) voor meer informatie.
+
+
 
 

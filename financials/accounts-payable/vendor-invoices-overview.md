@@ -1,5 +1,5 @@
 ---
-title: Overzicht van leveranciers-facturen
+title: Overzicht van leveranciersfacturen
 description: Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
 author: twheeloc
 manager: AnnBe
@@ -25,20 +25,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-invoices-overview"></a>Overzicht van leveranciers-facturen
+# <a name="vendor-invoices-overview"></a>Overzicht van leveranciersfacturen
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services. 
 
 <a name="vendor-invoices"></a>Leveranciersfacturen
 ---------------
 
-Een leveranciersfactuur op basis van een inkooporder is een factuur die wordt gegenereerd wanneer producten of services worden ontvangen op basis van een inkooporder die bij een leverancier is geplaatst. De leveranciersfactuur bevat een koptekst en een of meer regels voor artikelen of services. Een leveranciersfactuur voltooit de cyclus inkooporder-productontvangstbon op leveranciersfactuur. 
+Een leveranciersfactuur op basis van een inkooporder is een factuur die wordt gegenereerd wanneer producten of services worden ontvangen op basis van een inkooporder die bij een leverancier is geplaatst. De leveranciersfactuur bevat een koptekst en één of meer regels voor artikelen of services. Een leveranciersfactuur voltooit de cyclus die loopt van inkooporder via productontvangstbon tot leveranciersfactuur. 
 
 Hoewel sommige leveranciersfacturen aan een inkooporder zijn gekoppeld, kunnen leveranciersfacturen ook regels bevatten die niet overeenkomen met inkooporderregels. U kunt ook leveranciersfacturen maken die niet aan inkooporders zijn gekoppeld. Deze leveranciersfacturen kunnen voor lopende services staan, zoals een rekening van een energiebedrijf, en u hoeft niet naar een inkooporder te verwijzen wanneer u deze toevoegt. 
 
 Er zijn verschillende manieren om een leveranciersfactuur op te geven:
 
--   Het leveranciersfacturenregister kunt u snel invoeren van facturen die niet verwijzen naar een inkooporder, zodat u kunt de kosten toerekenen. U kunt met behulp van het goedkeuringsjournaal voor leveranciersfacturen die facturen selecteren en deze boeken naar het saldo van de leverancier aan de transitorische posten terugboeken.
+-   Via het leveranciersfactuurregister kunt u snel facturen invoeren die niet naar een inkooporder verwijzen, zodat u de onkosten kunt samenvoegen. Door het goedkeuringsjournaal voor leveranciersfacturen te gebruiken, kunt u deze facturen selecteren en naar het leveranciersaldo boeken om de transitorische bedragen terug te boeken.
 -   Met het leveranciersfactuurjournaal kunt u in één stap snel facturen invoeren die niet naar een inkooporder verwijzen.
 -   In combinatie met de pool van leveranciersfacturen kunt u met het leveranciersfactuurregister snel facturen invoeren om onkosten samen te voegen. U kunt de bijbehorende inkooporders later openen om de factuur voor de onkostenrekening te boeken.
 -   Op de pagina's **Openstaande leveranciersfacturen** en **Leveranciersfacturen in behandeling** kunt u leveranciersfacturen maken van bevestigde inkooporders.
@@ -57,7 +60,7 @@ Wanneer u een leveranciersfactuur opent vanuit een gerelateerde inkooporder, wor
 Als uw rechtspersoon factuurvereffening gebruikt, kunt u de resultaten van de hoeveelheidsvereffening in de kolom **Overeenkomst van hoeveelheid van productontvangstbon** bekijken. U kunt ook de menuopdracht **Overeenkomende gegevens** op het tabblad **Aanpassen** gebruiken om de resultaten van de hoeveelheidsvereffening te bekijken.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Een regel toevoegen die niet bestaat in de inkooporder
-U kunt een nieuwe regel die niet op de inkooporder aan de leveranciersfactuur was kunt toevoegen. U moet een artikelcategorie of een aanschaffingscategorie selecteren. Vervolgens kunt u hoeveelheden, prijzen en bedragen aan de regel toevoegen. De regel wordt alleen in overeenstemmingsbeleid voor factuurtotalen opgenomen.
+U kunt aan de leveranciersfactuur een nieuwe regel toevoegen die niet in de inkooporder is opgenomen. U moet een artikelnummer of een aanschaffingscategorie selecteren. Vervolgens kunt u hoeveelheden, prijzen en bedragen aan de regel toevoegen. De regel wordt alleen in overeenstemmingsbeleid voor factuurtotalen opgenomen.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Een leveranciersfactuur ter beoordeling indienen
 Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranciersfacturen te beheren. Workflowcontrole kan vereist zijn voor de factuurkoptekst, de factuurregel of voor beide. De besturingselementen voor de workflow zijn van toepassing op de koptekst of op de regel, afhankelijk van waar de focus zich bevindt als u op het besturingselement klikt. In plaats van de knop **Boeken** wordt een knop **Verzenden** weergegeven, die u kunt gebruiken om de leveranciersfactuur door het controleproces te verzenden.
@@ -74,6 +77,8 @@ Bij deze optie wordt ervan uitgegaan dat er minimaal één productontvangstbon i
 ## <a name="working-with-multiple-invoices"></a>Werken met meerdere facturen
 
 U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken. Als u meerdere facturen moet maken, gebruikt u de pagina **Leveranciersfacturen in behandeling**. Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u de pagina Factuurgoedkeuringsjournaal Als u het factuurgoedkeuringsjournaal gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister. De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.
+
+
 
 
 

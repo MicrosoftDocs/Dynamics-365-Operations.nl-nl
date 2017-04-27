@@ -1,6 +1,6 @@
 ---
-title: De onderdelen van een taak instellen
-description: Dit onderwerp beschrijft de conceptuele elementen dat een taak bevatten kan en voorbeelden geeft van hoe u deze elementen in uw organisatie kunt.
+title: De onderdelen van een functie instellen
+description: In dit onderwerp worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken.
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,38 +25,41 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>De onderdelen van een taak instellen
+# <a name="setting-up-the-components-of-a-job"></a>De onderdelen van een functie instellen
 
-Dit onderwerp beschrijft de conceptuele elementen dat een taak bevatten kan en voorbeelden geeft van hoe u deze elementen in uw organisatie kunt. 
+[!include[banner](includes/banner.md)]
 
-Voordat u taken maken kunt, moet u verwijzingsinformatie instellen. U kunt een taak met alleen een naam maken. Echter, door extra informatie, zoals de titel van een taak, waaronder u standaardwaarden opgeven voor de posities die aan de taak zijn toegewezen. Bovendien kan een deel van de gegevens die u invoert worden gebruikt voor het filteren van compensatieplannen voor specifieke taken. Als u instellen in aanmerking komen die u gebruiken wilt kunt voor het filteren van compensatieplannen voor een bepaalde taak, moet u instellen taakfuncties en taaktypen voordat u taken instelt. Doordat deze standaardwaarden beschikbaar, bespaart u tijd wanneer u functies aan de taak toevoegen. 
 
-Sommige taakdetails, zoals de functie, het type en de functie zijn datum effectief. Als u een taak vandaag maakt, maar deze gegevens tot een later tijdstip geen toevoegen en vervolgens de taak vanaf de aanmaakdatum bekijkt, worden deze gegevens niet weergegeven. Daarom moet u enkele van deze naslaginformatie weergeven voordat u deze functie nodig. Op die manier u kunt de informatie toevoegen aan nieuwe taken wanneer u deze maakt.
+In dit onderwerp worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken. 
+
+Voordat u functies kunt maken, moet u enige referentiegegevens instellen. U kunt een functie maken die alleen een naam heeft. Echter door aanvullende informatie op te nemen, zoals de titel van een functie, geeft u standaardwaarden op voor de posities die aan de functie zijn toegewezen. Bovendien kan een deel van de gegevens die u invoert, worden gebruikt voor het filteren van compensatieplannen voor specifieke functies. Als u geschiktheid wilt instellen op basis waarvan u compensatieplannen voor een specifieke functie kunt filteren, moet u functiebeschrijvingen en functietypen instellen voordat u functies instelt. Als u deze standaardwaarden beschikbaar hebt, bespaart u tijd wanneer u posities aan de functie toevoegt. 
+
+Sommige functiedetails, zoals de functietitel en het functietype, zijn datumafhankelijk. Als u een functie vandaag maakt, maar deze gegevens pas later toevoegt en vervolgens de functie vanaf de aanmaakdatum bekijkt, worden deze gegevens niet weergegeven. Daarom moet u een deel van deze referentiegegevens maken voordat u deze nodig hebt. Op die manier kunt u de informatie toevoegen aan nieuwe functies wanneer u deze maakt.
 
 ## <a name="job-titles"></a>Functietitels
 Voordat u taken maakt, moet u titels voor deze taken instellen. Posities nemen de taaktitels over van de taken waaraan de posities zijn gekoppeld. 
 
-Met behulp van functies onderhouden de **titels** pagina die u openen kunt via de zoekfunctie. Op de ** titels ** pagina, de titels die u wilt gebruiken voor uw taken invoeren.
+Op de pagina **Titels** kunt u functietitels onderhouden. Deze pagina opent u met de functie Zoeken. Op de pagina Titels voert u de titels in die u wilt gebruiken voor uw functies.
 
 ## <a name="job-types"></a>Taaktypen
-Met taaktypen kunt u vergelijkbare taken groeperen in categorieën. Taaktypen zijn niet vereist. Als u van plan bent om taaktypen te gebruiken wanneer u beschikbaarheidregels instelt voor compensatiebeheer, moet u taaktypen instellen voordat u taken instelt. Enkele voorbeelden van taaktypen zijn fulltime en parttime of salaris en het uurtarief dat te betalen. U taaktypen beheren met behulp van de **taaktypen** pagina. Op de **taaktypen** pagina, voer een naam en een korte omschrijving voor het taaktype. In de **vrijgesteld** veld, selecteert u een van de volgende opties om aan te geven van de Fair Labor Standards Act (FLSA) zijn vrijgesteld van taken met dit taaktype:
+U gebruikt functietypen om vergelijkbare functies in categorieën te groeperen. Functietypen zijn niet verplicht. Als u van plan bent om taaktypen te gebruiken wanneer u beschikbaarheidregels instelt voor compensatiebeheer, moet u taaktypen instellen voordat u taken instelt. Enkele voorbeelden van functietypen zijn fulltime en parttime of salaris en uurtarief. U onderhoudt functietypen met behulp van de pagina **Functietypen**. Voer op de pagina **Functietypen** een naam en een korte omschrijving voor het functietype in. Selecteer in het veld **Vrijstellingsstatus** een van de volgende opties om de FLSA-vrijstellingsstatus (Fair Labor Standards Act) aan te geven voor functies die dit functietype hebben:
 
--   **Uitgezonderd** : taken zijn vrijgesteld van overtijd volgens de FLSA.
--   **Niet-vrijgestelde** : taken zijn niet vrijgesteld van overtijd volgens de FLSA.
--   **Niet van toepassing op** – FLSA valt niet van toepassing.
+-   **Vrijgesteld**: functies zijn vrijgesteld van overuren volgens de FLSA.
+-   **Niet-vrijgesteld**: functies zijn niet vrijgesteld van overuren volgens de FLSA.
+-   **Niet van toepassing**: FLSA is niet van toepassing.
 
 ## <a name="job-functions"></a>Taakfuncties
-Koppelingen van de taak op hoog niveau functionele categorieën beschrijven en betrekking hebben op hoog niveau heffingen. Taakfuncties zijn niet vereist. U kunt taakfuncties samen met taaktypen voor het filteren van compensatieplannen voor specifieke taken. U koppelt taakfuncties en taaktypen aan compensatieplannen door geschiktheidsregels instellen op de **geschiktheidsregels** pagina. Vervolgens koppelt u een set niveaus aan een honoreringsregeling die gelden voor de specifieke combinatie van een taaktype en taakfunctie die u met een geschiktheidsregel hebt gedefinieerd. (Deze functies zijn van toepassing op vaste compensatieplannen en variabele honoreringsregelingen.) Echter, als u van plan bent om taakfuncties te gebruiken wanneer u beschikbaarheidregels instelt voor compensatiebeheer instelt, u moet taakfuncties instellen voordat u taken instelt. De volgende tabel ziet enkele voorbeelden van taakfuncties.
+Functiebeschrijvingen beschrijven functionele categorieën op hoog niveau beschreven en hebben betrekking op taken op hoog niveau. Functiebeschrijvingen zijn niet verplicht. U kunt functiebeschrijvingen in combinatie met functietypen gebruiken om compensatieplannen voor specifieke functies te filteren. U koppelt functiebeschrijvingen en functietypen aan compensatieplannen door geschiktheidsregels in te stellen op de pagina **Geschiktheidsregels**. U kunt vervolgens een aantal niveaus aan een compensatieplan koppelen dat van toepassing is op de specifieke combinatie van een functietype en functiebeschrijving die u via een geschiktheidsregel hebt gedefinieerd. (Deze functies gelden zowel voor vaste compensatieplannen als voor variabele compensatieplannen.) Als u echter van plan bent om functiebeschrijvingen te gebruiken wanneer u geschiktheidsregels instelt voor compensatiebeheer, moet u functiebeschrijvingen instellen voordat u functies instelt. In de volgende tabel vindt u enkele voorbeelden van functiebeschrijvingen.
 
 | Functie           | Taakfunctie         |
 |---------------|----------------------|
-| Verkoopleider | Tussenliggende niveaus Manager    |
+| Verkoopleider | Manager middelste niveau    |
 | Accountant    | Professionals        |
 
-U taakfuncties onderhouden met behulp van de **taakfuncties** pagina. Op de **taakfuncties** pagina, een identificatiecode en een korte omschrijving voor de taakfunctie invoeren.
+U onderhoudt functiebeschrijvingen met behulp van de pagina **Functiebeschrijvingen**. Voer op de pagina **Functiebeschrijvingen** een identificatiecode en een korte omschrijving voor de functie in.
 
 ## <a name="job-tasks"></a>Functies
-Functietaken omschrijven de basistaken die een werknemer die in een positie voor een taak moet uitvoeren. Dezelfde taak kan worden toegevoegd aan meerdere taken en functies voor de functies die gebruikmaken van die taken. De volgende tabel ziet enkele voorbeelden van taken.
+Functietaken beschrijven de basistaken die een werknemer op een positie voor een functie moet uitvoeren. Dezelfde functietaak kan worden toegevoegd aan meerdere functies, en aan posities voor de functies die deze functietaken gebruiken. In de volgende tabel vindt u enkele voorbeelden van functietaken.
 
 <table>
 <thead>
@@ -69,20 +72,22 @@ Functietaken omschrijven de basistaken die een werknemer die in een positie voor
 <tr class="odd">
 <td>Verkoopleider</td>
 <td><ul>
-<li><strong>Perf-revisie</strong> : prestaties van de taak van elke verkoper controleren.</li>
-<li><strong>ABS-revisie</strong> : goedkeuren of afwijzen van elke verkoper verlofaanvragen of registraties.</li>
+<li><strong>Prestaties bekijken</strong>: de prestaties van elke verkoper bekijken.</li>
+<li><strong>Afwezigheid bekijken</strong> : verlofaanvragen of -registraties van elke verkoper goedkeuren of weigeren.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Accountant</td>
-<td><strong>FIN-rapport</strong> – Wekelijks financiële rapporten presenteren aan de chief financial officer.</td>
+<td><strong>FIN-rapport</strong> – wekelijks financiële rapporten presenteren aan het hoofd van de financiële afdeling.</td>
 </tr>
 </tbody>
 </table>
 
-Beheren van projecttaken met behulp van de **projecttaken** pagina. Op de **projecttaken** pagina, een naam en omschrijving voor de functietaak invoeren. In de **opmerking** ingeschakeld, kunt u eventueel extra informatie opgeven. De notities kunnen worden bijgewerkt voor een bepaalde taak zonder de notities die u hier invoert.
+U onderhoudt functietaken met behulp van de pagina **Functietaken**. Voer op de pagina **Functietaken** een naam en een omschrijving voor de functietaak in. In het veld **Notitie** kunt u desgewenst aanvullende informatie invoeren. De notities kunnen worden bijgewerkt voor een specifieke functie zonder de notities te wijzigen die u hier hebt ingevoerd.
 
 ## <a name="areas-of-responsibility"></a>Verantwoordelijkheidsgebieden
-U gebruikt verantwoordelijkheidsgebieden om aan te geven de werkrollen, processen en producten die verantwoordelijk is voor een werknemer die in een positie voor een taak. Bijvoorbeeld, voor een taak met de naam 'Boekhouder', een verantwoordelijkheidsgebied mogelijk 'Financiële rapportering voor product a' U Verantwoordelijkheidsgebieden onderhouden met behulp van de **verantwoordelijkheidsgebieden** pagina die u vinden kunt via de zoekfunctie. Op de **verantwoordelijkheidsgebieden** pagina, voer een naam en omschrijving voor de verantwoordelijkheid. In de **opmerking** ingeschakeld, kunt u eventueel extra informatie opgeven. De notities kunnen worden bijgewerkt voor een bepaalde taak zonder de notities die u hier invoert.
+U gebruikt verantwoordelijkheidsgebieden om aan te geven voor welke werkrollen, processen en producten een werknemer op een positie voor een functie verantwoordelijk is. Voor bijvoorbeeld een functie met de titel 'Boekhouder' kan een verantwoordelijkheidsgebied 'Financiële rapportage voor Product A' zijn. U onderhoudt verantwoordelijkheidsgebieden met behulp van de pagina **Verantwoordelijkheidsgebied**. Deze pagina vindt u met de functie Zoeken. Voer op de pagina **Verantwoordelijkheidsgebied** een naam en een omschrijving voor de verantwoordelijkheid in. In het veld **Notitie** kunt u desgewenst aanvullende informatie invoeren. De notities kunnen worden bijgewerkt voor een specifieke functie zonder de notities te wijzigen die u hier hebt ingevoerd.
+
+
 
 

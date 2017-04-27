@@ -1,6 +1,6 @@
 ---
-title: SWIFT-overzicht bestand importeren oplossen
-description: "Het is belangrijk dat het bankafschriftbestand van de bank overeenkomen met de indeling die ondersteuning biedt voor Microsoft Dynamics 365 voor bewerkingen. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen."
+title: Problemen oplossen met importeren van bankafschriftbestanden
+description: "Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die Microsoft Dynamics 365 for Operations ondersteunt. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bank-statement-file-import-troubleshooting"></a>SWIFT-overzicht bestand importeren oplossen
+# <a name="bank-statement-file-import-troubleshooting"></a>Problemen oplossen met importeren van bankafschriftbestanden
 
-Het is belangrijk dat het bankafschriftbestand van de bank overeenkomen met de indeling die ondersteuning biedt voor Microsoft Dynamics 365 voor bewerkingen. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen.
+[!include[banner](../includes/banner.md)]
+
+
+Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die Microsoft Dynamics 365 for Operations ondersteunt. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen.
 
 <a name="what-is-the-error"></a>Wat is de fout?
 ------------------
@@ -34,16 +37,16 @@ Het is belangrijk dat het bankafschriftbestand van de bank overeenkomen met de i
 Nadat u hebt geprobeerd een bankafschriftbestand te importeren, gaat u naar de geschiedenis van de taak in Gegevensbeheer en zoekt u de fout op in de uitvoeringsdetails. De foutmelding kan helpen door te verwijzen naar het afschrift, het saldo, of de afschriftregel. Hij bevat waarschijnlijk onvoldoende informatie om u te helpen het veld of het element te identificeren dat het probleem veroorzaakt.
 
 ## <a name="what-are-the-differences"></a>Wat zijn de verschillen?
-De indelingsdefinitie voor bank-bestand naar de Microsoft Dynamics 365 voor bewerkingen importdefinitie vergelijken en controleer of er verschillen in de velden en elementen. Het bankafschriftbestand aan het gerelateerde monster Dynamics 365 voor bewerkingen bestand vergelijken. Eventuele verschillen moeten worden gemakkelijk zien in het ISO20022-bestanden.
+Vergelijk de indelingsdefinitie van het bankbestand met de importdefinitie van Microsoft Dynamics 365 for Operations en noteer eventuele verschillen tussen de velden en de elementen. Vergelijk het bankafschriftbestand met het gerelateerde Dynamics 365 for Operations-voorbeeldbestand. Eventuele verschillen moeten gemakkelijk te zien zijn in de ISO20022-bestanden.
 
 ## <a name="transformations"></a>Transformaties
 Doorgaans moeten wijzigingen worden doorgevoerd in één van drie transformaties. Elke transformatie is geschreven voor een specifieke standaard.
 
 | Naam van bron                                         | Bestandsnaam                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV\_naar\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML\_naar\_afstemming\_xslt | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT\_naar\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>Foutopsporing in transformaties
 ### <a name="adjust-the-bai2-and-mt940-files"></a>De BAI2- en MT940-bestanden aanpassen
@@ -68,7 +71,7 @@ Zie voor meer informatie <https://msdn.microsoft.com/en-us/library/ms255605.aspx
 5.  Stel de invoer in op de locatie van het bankafschriftbestand.
 6.  Definieer een locatie en een bestandsnaam voor de uitvoer.
 7.  Stel de vereiste onderbrekingspunten in.
-8.  Klik in het menu op **XML**&gt;**XSLT-foutopsporing starten**.
+8.  Klik in het menu op **XML** &gt; **XSLT-foutopsporing starten**.
 
 ### <a name="format-the-xslt-output"></a>De XSLT-uitvoer opmaken
 
@@ -76,7 +79,7 @@ Tijdens het uitvoeren van de transformatie wordt een uitvoerbestand aangemaakt d
 
 ### <a name="adjust-the-transformation"></a>De transformatie aanpassen
 
-Pas de transformatie aan om het gewenste veld of element in het bankafschriftbestand te krijgen. Dat veld of element vervolgens toewijzen aan de juiste Dynamics 365 voor bewerkingen element.
+Pas de transformatie aan om het gewenste veld of element in het bankafschriftbestand te krijgen. Wijs vervolgens dat veld of element toe aan het juiste Dynamics 365 for Operations-element.
 
 ### <a name="debitcredit-indicator"></a>Debet- of creditindicator
 
@@ -95,6 +98,8 @@ In de onderstaande tabel ziet u voorbeelden van de technische indelingsdefinitie
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

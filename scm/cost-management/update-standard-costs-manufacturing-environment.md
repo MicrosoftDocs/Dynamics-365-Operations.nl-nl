@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Standaardkosten in een productieomgeving bijwerken
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat richtlijnen voor het bijwerken van standaardkosten in een productieomgeving. 
 
 Updates kunnen nieuwe artikelen, kostencategorieën of berekeningsformules voor indirecte kosten reflecteren. Ze kunnen ook correcties en wijzigingen in kosten aangeven. Het type update bepaalt welke stappen u moet uitvoeren om standaardkosten bij te werken, zoals in de volgende gevallen wordt geïllustreerd:
@@ -43,5 +46,7 @@ Updates kunnen nieuwe artikelen, kostencategorieën of berekeningsformules voor 
 -   Bereken kosten voor een nieuw gefabriceerd artikel op basis van de gedefinieerde, goedgekeurde en actieve stuklijst- en route-informatie.
 
 In alle gevallen dient u nauwkeurig te overwegen hoe de standaardkosten moeten worden bijgewerkt.
+
+
 
 

@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="online-store-overview"></a>Online winkeloverzicht
+
+[!include[banner](includes/banner.md)]
+
 
 Dit artikel bevat informatie over onlinewinkels en hoe ze in Microsoft Dynamics 365 for Operations worden ingesteld.
 
@@ -50,5 +53,7 @@ Voordat u een online winkel maakt, moet u de detailhandelskanaalnavigatiehiërar
 
 ## <a name="organization-hierarchies"></a>Organisatiehiërarchieën
 Organisatiehiërarchieën worden gebruikt om detailhandelskanalen structuur te geven. Met organisatiehiërarchieën worden de relaties aangegeven tussen de organisaties waaruit het bedrijf bestaat. Bij het instellen van online winkels, kunt u ze toevoegen aan een organisatiehiërarchie. De winkels delen vervolgens de gegevens die worden gebruikt voor assortimenten, aanvulling en rapportering. Wanneer u een organisatiehiërarchie maakt, kent u er een doelstelling aan toe. Het doel geeft aan hoe de hiërarchie in de bedrijfsstructuur wordt gebruikt. U kunt een organisatiehiërarchie maken voor uw winkels en die hiërarchie gebruiken voor assortimenten, aanvulling en rapportering. U kunt ook een afzonderlijke organisatiehiërarchie maken voor elk doel. U kunt ook meerdere hiërarchieën maken met hetzelfde doel en een apart kanaal toewijzen aan elk van deze. Als u detailhandelsproductcatalogi wilt publiceren naar de online winkel, moet u de online winkel ten minste toevoegen aan een organisatiehiërarchie voor assortimenten. De producten in een catalogus zijn geselecteerd uit de assortimenten die zijn toegewezen aan de online winkel. Wanneer de catalogus wordt gepubliceerd, vergelijkt het publicatieproces de ingangsdatums voor het assortiment dat is toegewezen aan de online winkel met producten die zijn opgenomen in de catalogus om te bepalen welke producten in de online winkel beschikbaar moeten zijn.
+
+
 
 

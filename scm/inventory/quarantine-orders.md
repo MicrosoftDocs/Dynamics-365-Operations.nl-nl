@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quarantine-orders"></a>Quarantaineorders
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe quarantaineorders worden gebruikt om voorraad te blokkeren. 
 
-Quarantaineorders kunnen worden gebruikt om voorraad te blokkeren. U wilt bijvoorbeeld artikelen om redenen van kwaliteitscontrole in quarantaine plaatsen. Voorraad die nog in quarantaine wordt overgeboekt naar een quarantainemagazijn. **Opmerking:** als u gebruikmaakt van geavanceerde magazijnbeheerprocessen (in Magazijnbeheer), wordt quarantaineorderverwerking alleen gebruikt voor retourverkooporders.
+Quarantaineorders kunnen worden gebruikt om voorraad te blokkeren. U wilt bijvoorbeeld artikelen om redenen van kwaliteitscontrole in quarantaine plaatsen. Voorraad die in quarantaine is geplaatst, wordt verplaatst naar een quarantainemagazijn. **Opmerking:** als u gebruikmaakt van geavanceerde magazijnbeheerprocessen (in Magazijnbeheer), wordt quarantaineorderverwerking alleen gebruikt voor retourverkooporders.
 
 ## <a name="quarantine-onhand-inventory-items"></a>Voorhanden voorraadartikelen in quarantaine plaatsen
 Wanneer u artikelen in quarantaine plaatst, kunt u de quarantaineorders handmatig maken of het systeem zo instellen dat de quarantaineorders automatisch worden gemaakt tijdens inkomende verwerking. Als u quarantaineorders automatisch wilt maken, selecteert u de optie **Quarantainebeheer** op het tabblad **Voorraadbeleid** op de pagina **Artikelmodelgroepen**. U moet ook een standaardquarantainemagazijn opgeven in het veld **Quarantainemagazijn** voor de magazijnen van ontvangst. Wanneer de fysiek voorhanden voorraad wordt geregistreerd in een inkooporder of productieorder, worden in quarantaine geplaatste artikelen automatisch verplaatst naar een quarantainemagazijn in Microsoft Dynamics 365 for Operations. Deze verplaatsing vindt plaats omdat de status van de quarantaineorder is gewijzigd in **Gestart**. Wanneer u quarantaineorders handmatig maakt, hoeft het artikel niet te worden ingesteld voor quarantainebeheer in de gekoppelde artikelmodelgroep. Voor dit proces moet u de voorhanden voorraad opgeven die in quarantaine moet worden geplaatst, en het quarantainemagazijn dat moet worden gebruikt. U kunt de quarantaineorderstatussen gebruiken om het proces plannen.
@@ -64,6 +67,8 @@ Als onderdeel van het quarantaineorderproces kunt u voorraad laten uitvallen. Wa
 <a name="see-also"></a>Zie ook
 --------
 
-[Inventory blocking](inventory-blocking.md)
+[Voorraadblokkering](inventory-blocking.md)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Overzicht opdracht tot inkoop
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt de workflow voor opdrachten tot inkoop beschreven en de verschillende statussen die een opdracht tot inkoop kan hebben.
 
 Afhankelijk van hoe uw organisatie is opgezet, kunt u opdrachten tot inkoop maken voor producten die uw organisatie gebruikt. Een opdracht tot inkoop is een intern document dat de inkoopafdeling autoriseert om artikelen of diensten te kopen.  
@@ -48,7 +51,7 @@ U kunt het workflowproces voor de opdracht tot inkoop configureren om een opdrac
 
 Het volgende schema geeft de statussen weer die aan een opdracht tot inkoop en aan een regel in een opdracht tot inkoop worden toegewezen terwijl deze het controleproces doorlopen.  
 
-[![Purchase requisition header and line statuses](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Koptekst en regelstatussen van opdracht tot inkoop](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Koptekst en regelstatusrelaties van opdracht tot inkoop
 
@@ -77,7 +80,7 @@ De algemene status van een opdracht tot inkoop wordt bepaald door de status van 
 <td>Als de workflow is geconfigureerd om de regels in een opdracht tot inkoop naar individuele controleurs te routeren, dan kan elke regel de status <strong>Wordt gecontroleerd</strong> of <strong>Geweigerd</strong> hebben. De status van de opdracht tot inkoop wordt bijgewerkt wanneer het controleproces voor alle regels in de opdracht tot inkoop is voltooid en er geen controlestappen meer zijn voor de opdracht tot inkoop.
 <ul>
 <li><strong>Wordt gecontroleerd</strong> - De regels van de opdracht tot inkoop zijn ingediend ter beoordeling. Wanneer een regel in een opdracht tot inkoop het workflowproces heeft voltooid, blijft de status <strong>Wordt gecontroleerd</strong> totdat overige regels van de opdracht tot inkoop zijn beoordeeld.</li>
-<li><strong>Afgewezen</strong> : een regel van opdracht tot inkoop is geweigerd. Opdracht tot inkoop regels die zijn geweigerd, kunnen worden gewijzigd en opnieuw worden ingediend.</li>
+<li><strong>Geweigerd:</strong> Een regel van een inkoopopdracht is geweigerd. Regels van een opdracht tot inkoop die zijn geweigerd, kunnen worden aangepast en opnieuw ingediend.</li>
 </ul>
 Als u een regel in een opdracht tot inkoop die is afgewezen opnieuw indient, dan begint het controleproces voor alle regels in de opdracht tot inkoop die nog moeten worden gecontroleerd opnieuw. <strong>Opmerking:</strong> U kunt een opdracht tot inkoop intrekken die al is ingediend. Wanneer u een opdracht tot inkoop intrekt, worden alle andere regels in de opdracht tot inkoop ook ingetrokken. Regels van een opdracht tot inkoop die zijn ingetrokken, kunnen worden verwijderd.</td>
 </tr>
@@ -133,7 +136,7 @@ Als u een regel in een opdracht tot inkoop die is afgewezen opnieuw indient, dan
 U kunt in een opdracht tot inkoop de kosten van een product over meerdere financiële rekeningen verspreiden. Als uw organisatie dimensies gebruikt, zoals kostencentra en afdelingen, kunt u de kosten van een product verspreiden over dimensies voor financiële rekeningen.
 
 ## <a name="requisition-purposes"></a>Bestelopdrachtdoelen
-De bestelopdrachtdoelen maken het proces van de uitvoering van opdrachten tot vraag meer flexibel. Bij het maken van een opdracht kunt u er één van twee doelen aan toewijzen: verbruik of aanvulling. Afhankelijk van het doel van de opdracht en de instellingen van uw organisatie kunt aan een bestelaanvraag worden voldaan door een inkooporder, transferorder, productieorder of kanban.  
+De bestelopdrachtdoelen maken het proces van de uitvoering van opdrachten tot vraag meer flexibel. Bij het maken van een opdracht kunt u er één van twee doelen aan toewijzen: verbruik of aanvulling. Afhankelijk van het bestelopdrachtdoel en hoe uw organisatie is geconfigureerd, kan aan een bestelvraag worden voldaan met een inkooporder, een transferorder, een productieorder of een kanban.  
 
 In het inkoopbeleid kunt u de bestelopdrachtdoelen bepalen die beschikbaar zijn bij het maken van een opdracht voor uw organisatie.
 
@@ -152,7 +155,7 @@ Als u opdrachten tot inkoop met een aanvullingsdoel wilt gebruiken, moet u een h
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Opdrachten tot inkoop en offerteaanvragen
 In sommige gevallen moet u een proces voor offerteaanvraag (RFQ) opstarten om de leverancier en de prijs te identificeren voor producten die in een opdracht tot inkoop worden aangevraagd. Een offerteaanvraag kan worden gegenereerd wanneer de opdracht tot inkoop wordt gecontroleerd. Als u een bod accepteert, wordt de informatie over de leverancier, prijs enzovoort overgeboekt naar de opdracht tot inkoop.  
 
-U kunt een opdracht tot inkoop in de wachtstand plaatsen door het selecteren van de **in de wachtstand** selectievakje op de **details van de opdracht tot inkoop** pagina. Verwerking van de opdracht tot inkoop kan worden voortgezet alleen nadat u de blokkering verwijderen door het selectievakje uitschakelt.  
+U kunt een opdracht tot inkoop in de wachtstand plaatsen door het selecteren van het selectievakje **In wachtstand** op de pagina **Details opdracht tot inkoop**. Verwerking van de opdracht tot inkoop kan alleen worden voortgezet nadat u de blokkering hebt verwijderd door het selectievakje uit te schakelen.  
 
 **Opmerking:** In eProcurement kan de offerteaanvraag voor uw opdracht tot inkoop leveranciers mogelijk toestaan om alternatieve regels toe te voegen. In dit geval geeft uw opdracht tot inkoop goedgekeurd alternatieven weer.
 
@@ -178,7 +181,7 @@ Als u een inkooporder wilt maken voor regels in de opdracht tot inkoop die niet 
 
 Het proces voor consolidatie van de vraag wordt gestart wanneer een opdracht tot inkoop is goedgekeurd in een werkstroom en, als budgetbeheer is geconfigureerd voor uw organisatie, wanneer de budgetreserveringen en voorvorderingen zijn opgenomen. Het volgende schema geeft de processtroom voor consolidatie van de vraag weer.  
 
-[![Processtroom voor consolidatie van de vraag](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Processtroom voor vraagconsolidatie](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Om goedgekeurde inkoopbestelopdrachtregels samen te voegen, volgt u deze stappen:
 
@@ -192,8 +195,10 @@ Om goedgekeurde inkoopbestelopdrachtregels samen te voegen, volgt u deze stappen
 <a name="see-also"></a>Zie ook
 --------
 
-[Een tot inkoop maken voor verbruik (taak guide)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Een bestelaanvraag voor verbruik maken](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/) (taakbegeleiding)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Werkstroom voor opdrachten tot inkoop](purchase-requisitions-workflow.md)
+
+
 
 

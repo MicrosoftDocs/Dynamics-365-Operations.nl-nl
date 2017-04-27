@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-fixed-compensation-plans"></a>Vastecompensatieplannen maken
 
-Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. Dit onderwerp beschrijft de onderdelen die moeten worden ingesteld voordat u kunt een vast compensatieplan maken en werknemers inschrijven.
+[!include[banner](includes/banner.md)]
 
-Bedragen van vaste compensaties kunnen voor uw werknemers worden berekend op basis van factoren, zoals prestaties, regio en budgetverhogingen. Microsoft Dynamics 365 voor bewerkingen ondersteunt stap, schaal en compensatietypen band.
+
+Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. In dit onderwerp worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
+
+Bedragen van vaste compensaties kunnen voor uw werknemers worden berekend op basis van factoren, zoals prestaties, regio en budgetverhogingen. Microsoft Dynamics 365 for Operations ondersteunt de compensatietypen van stap, schaal en schijf.
 
 ## <a name="fixed-compensation-components"></a>Onderdelen van vaste compensatie
 ### <a name="compensation-levels"></a>Compensatieniveaus
 
-U kunt **compensatieniveaus** in te stellen van de vergoeding voor verschillende taken, om te garanderen dat de werknemers die deze taken bevatten vrij worden betaald. Op de **compensatieniveaus** pagina kunt u instellen de compensatieniveaus die vereist voor elke stap, schaal en band plan zijn. Gebruik de knoppen **Omhoog** en **Omlaag** om de niveaus in de juiste volgorde te plaatsen in overeenstemming met het bijbehorende type. Door compensatieniveaus voor een functie in te stellen zorgt u ervoor dat alle werknemers die een positie voor die functie bekleden, op hetzelfde niveau worden betaald.
+U kunt **compensatieniveaus** gebruiken om de compensatie voor verschillende functies in te stellen. Hiermee wordt ervoor gezorgd dat de werknemers die deze functies bekleden, eerlijk worden betaald. Op de pagina **Compensatieniveaus** kunt u de compensatieniveaus instellen die vereist zijn voor elk stap-, schaal- en schijfplan. Gebruik de knoppen **Omhoog** en **Omlaag** om de niveaus in de juiste volgorde te plaatsen in overeenstemming met het bijbehorende type. Door compensatieniveaus voor een functie in te stellen zorgt u ervoor dat alle werknemers die een positie voor die functie bekleden, op hetzelfde niveau worden betaald.
 
 ### <a name="reference-points"></a>Referentiepunten
 
-**Referentiepunten** zijn de kolommen in het raster waarmee de compensatiebereiken voor elk niveau worden gedefinieerd. Het compensatieniveau is de rij in het raster. Normale referentiepunten voor een plan van het type schaal zijn ten minste een middelpunt en een maximum. U kunt referentiepunten maken in de **referentiepuntinstellingen** pagina.
+**Referentiepunten** zijn de kolommen in het raster waarmee de compensatiebereiken voor elk niveau worden gedefinieerd. Het compensatieniveau is de rij in het raster. Normale referentiepunten voor een plan van het type schaal zijn een minimum, een middelpunt en een maximum. U maakt referentiepunten op de pagina **Referentiepunten**.
 
 ### <a name="compensation-grids"></a>Compensatierasters
 
@@ -56,11 +59,11 @@ U kunt het vastecompensatieplan ontwerpen om alle onderdelen te combineren die u
 
 Met de instelling **Tolerantie voor buiten bereik** kunt u opgeven hoe strikt u wilt controleren dat compensatiebedragen tussen de minimum- en maximumbedragen zijn. Voor een **harde** tolerantie moet de compensatie binnen het bereik zijn dat is gedefinieerd voor een bepaald niveau. Met een **zachte** tolerantie wordt u gewaarschuwd wanneer het compensatiebedrag buiten het bereik valt, maar u mag doorgaan. Als u de tolerantie instelt op **Geen**, kunt u elk compensatiebedrag invoeren voor een werknemer zonder een waarschuwing of foutberichten te ontvangen. 
 
-De **aanstellingsregel** kunt u opgeven of alle werknemers in aanmerking komt voor de dezelfde toename, ongeacht de datum waarop ze zijn ingehuurd instellen (**aanstellingsregel** = **geen**), of of een percentage van de beloning, op basis van hoe lang ze tijdens de cyclus zijn gebruikt door werknemers moeten worden ontvangen (**aanstellingsregel** = **procent**). 
+Met de instelling **Aanstellingsregel** kunt u opgeven of alle werknemers dezelfde verhoging moeten krijgen, ongeacht de datum waarop ze in dienst zijn gekomen (**Aanstellingsregel** = **Geen**) of dat werknemers een percentage moeten krijgen van de toekenning die wordt gebaseerd op de duur van het dienstverband gedurende de cyclus (**Aanstellingsregel** = **Percentage**). 
 
 Een **matrix voor bereikgebruik** is handig als u de tijd wilt inkorten gedurende welke werknemers het middelpunt van hun bereik moeten bereiken of als u de tijd gedurende welke werknemers het maximale referentiepunt in het bereik moeten bereiken, wilt verlengen. U wilt bijvoorbeeld werknemers die zich in de onderste 25 procent van hun bereik bevinden, 110 procent van hun doeltoekenning geven, maar u wilt werknemers die zich in de bovenste 25 procent van hun bereik bevinden, slechts 80 procent van hun doeltoekenning geven. Dit om te voorkomen dat ze het maximum heel snel bereiken. 
 
-Nadat u de basisprincipes van het vastecompensatieplan hebt gedefinieerd, kunt u de compensatiestructuur voor het plan instellen. Klik op **compensatie instellen**. De schuifregelaar van een dialoogvenster weergegeven waarin u drie opties:
+Nadat u de basisprincipes van het vastecompensatieplan hebt gedefinieerd, kunt u de compensatiestructuur voor het plan instellen. Klik op **Compensatie instellen**. Er wordt een schuifregelaar van een dialoogvenster geopend waarin u drie opties hebt:
 
 -   Een nieuw compensatieraster maken door een referentiepuntinstelling te selecteren en het raster een naam te geven.
 -   Een nieuw compensatieraster maken door een kopie van een bestaand raster te maken dat u kunt gebruiken als uitgangspunt.
@@ -71,7 +74,7 @@ Nadat u een optie hebt geselecteerd, wordt de pagina **Compensatiestructuur** ge
 ## <a name="fixed-compensation-enrollment"></a>Inschrijving op vaste compensatie
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Bepalen wie voor het plan aanmerking komt
 
-De eerste stap bij het inschrijven van werknemers voor een vastecompensatieplan bestaat eruit te bepalen wie in aanmerking komt voor de compensatie die in het plan is gedefinieerd. U kunt het plan pas aan werknemers toewijzen als u hebt bepaald wie in aanmerking komen. Als u beschikbaarheidregels instelt, opent u het **geschiktheidsregels** pagina. Maakt u de beschikbaarheid van een nieuwe regel voor de regeling en de criteria waaraan een werknemer voldoen moet om in aanmerking voor een plan te definiëren. U kunt geschiktheid beperken tot afdeling, vakbond, compensatieregio (locatie), taak, functie, functietype of compensatieniveau. Werknemers kunnen alleen voor een compensatieplan worden ingeschreven als ze voldoen aan alle voorwaarden die voor de geschiktheidsregel zijn ingesteld. 
+De eerste stap bij het inschrijven van werknemers voor een vastecompensatieplan bestaat eruit te bepalen wie in aanmerking komt voor de compensatie die in het plan is gedefinieerd. U kunt het plan pas aan werknemers toewijzen als u hebt bepaald wie in aanmerking komen. Open de pagina **Geschiktheidsregels** om geschiktheid in te stellen. Hier maakt u een nieuwe geschiktheidsregel voor uw compensatieplan en definieert u de criteria waaraan een werknemer moet voldoen om in aanmerking voor een plan. U kunt geschiktheid beperken tot afdeling, vakbond, compensatieregio (locatie), taak, functie, functietype of compensatieniveau. Werknemers kunnen alleen voor een compensatieplan worden ingeschreven als ze voldoen aan alle voorwaarden die voor de geschiktheidsregel zijn ingesteld. 
 
 **Opmerking:** met geschiktheidsregels wordt de geschiktheid bepaald voor zowel vastecompensatieplannen als variabelecompensatieplannen. 
 
@@ -83,7 +86,7 @@ Voor de geschiktheidsregel wordt rekening gehouden met de waarde van specifieke 
     -   Op het tabblad **Compensatie** het veld **Niveau**
 -   Op de pagina **Posities** wordt voor de geschiktheidsregel rekening gehouden met de velden **Afdeling** en **Compensatieregio**.
 
-Vakbonden die gekoppeld aan de werknemer zijn ook rekening gehouden met de geschiktheidsregel (op de **werknemers** pagina op de **werknemer** en klik op **persoonlijke gegevens**&gt;**vakbonden**).
+Voor de geschiktheidsregel wordt ook rekening gehouden met vakbonden die zijn gekoppeld aan de werknemer (klik op de pagina **Werknemers** op het tabblad **Werknemer** op **Persoonlijke gegevens** &gt; **Vakbonden**).
 
 ### <a name="define-fixed-compensation-actions"></a>Acties voor vaste compensatie definiëren
 
@@ -93,7 +96,7 @@ Als de vaste compensatie bijvoorbeeld is ingesteld voor een werknemer, kunnen al
 
 ### <a name="enroll-the-employee"></a>De werknemer inschrijven
 
-U kunt een werknemer nu toewijzen aan een vastecompensatieplan. Open de pagina **Werknemers** en selecteer de werknemer voor inschrijving in het compensatieplan. Klik in het actievenster op **vergoeding**&gt;**vaste regeling**. U kunt nu een nieuwe vaste compensatieactie maken voor deze werknemer. 
+U kunt een werknemer nu toewijzen aan een vastecompensatieplan. Open de pagina **Werknemers** en selecteer de werknemer voor inschrijving in het compensatieplan. Klik in het actievenster op **Compensatie** &gt; **Vast plan**. U kunt nu een nieuwe vastecompensatieactie maken voor deze werknemer. 
 
 **Opmerking:** in het veld voor het compensatieplan worden alleen de plannen weergegeven waarvoor een werknemer in aanmerking komt op basis van de geschiktheidsregels die voor elk plan zijn in gesteld. Als geen geschiktheidsregel voor een plan is ingesteld, komen er geen werknemers in aanmerking voor dat plan. 
 
@@ -103,5 +106,7 @@ Het systeem controleert of het compensatiebedrag dat voor een compensatieplan is
 --------
 
 [Compensatieplannen](compensation-plans.md)
+
+
 
 

@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="dimension-based-product-configuration"></a>Op dimensie gebaseerde productconfiguratie
 
+[!include[banner](../includes/banner.md)]
+
+
 Een op dimensies gebaseerde productconfiguratie vertegenwoordigt een eenvoudige oplossing voor het maken van veel productvarianten op basis van één productmodel en de bijbehorende stuklijst.
 
-Op dimensies gebaseerde productconfiguratie is een van de drie ingebouwde product configuratietechnologieën. De twee andere technologieën zijn vooraf gedefinieerde varianten en vormen een op beperkingen gebaseerde configuratie. In alle drie de technologieën wordt een productmodel gebruikt als beginpunt en de technologieën bieden gebruikers de mogelijkheid om vele productvarianten voor één productmodel te maken.
+De op dimensies gebaseerde productconfiguratie is een van de drie ingebouwde productconfiguratietechnologieën. De twee andere technologieën zijn vooraf gedefinieerde varianten en vormen een op beperkingen gebaseerde configuratie. In alle drie de technologieën wordt een productmodel gebruikt als beginpunt en de technologieën bieden gebruikers de mogelijkheid om vele productvarianten voor één productmodel te maken.
 
 ## <a name="key-concepts"></a>Belangrijke concepten
 De op dimensies gebaseerde productconfiguratie is gebaseerd op de volgende belangrijke concepten:
@@ -68,10 +71,12 @@ De configuratieroute bepaalt de volgorde van de configuratiegroepen, zoals deze 
 De configuratieregels vormen een mechanisme om ervoor te zorgen dat een product dat in één configuratiegroep in een stuklijst is opgenomen, opname of uitsluiting van een product in een andere configuratiegroep in dezelfde stuklijst afdwingt.
 
 ## <a name="product-modeling-process"></a>Productmodelleringsproces
-De natuurlijke volgorde voor het bouwen van een productmodel voor een op dimensies gebaseerd product begint met het definiëren van de relevante configuratiegroepen. Het is belangrijk ervoor te zorgen dat alle producten die in de stuklijst worden gebruikt, zijn vrijgegeven aan het bedrijf waarvoor het productmodel is gebouwd. Met deze bouwstenen in plaats de gebruiker de stuklijst maken en toewijzen van configuratiegroepen aan alle relevante stuklijstregels. Wanneer de stuklijst voltooid is, kan een configuratieroute voor het bestellen van de configuratiegroepen in de juiste volgorde worden gedefinieerd. \[Bijschrift-id = ' bijlage\_282671 ' uitlijnen = "alignnone" width = '1187'\][![op dimensies gebaseerde productmodellen proces](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) op dimensies gebaseerde productmodellen proces\[/bijschrift\] als er bepaalde producten uit verschillende configuratiegroepen moeten of mag niet samen worden gebruikt, kunt u configuratieregels die deze productrelaties zullen toepassen. Nadat de stuklijst is gekoppeld aan een op dimensies gebaseerd productmodel via een stuklijstversie en beide zijn goedgekeurd en geactiveerd, kunt u productconfiguraties maken en een naam voor elke configuratie invoeren. De configuraties kunnen worden gedefinieerd voordat eventuele transacties worden gegenereerd of in geval de behoefte aan een bepaalde configuratie ontstaat.
+De natuurlijke volgorde voor het bouwen van een productmodel voor een op dimensies gebaseerd product begint met het definiëren van de relevante configuratiegroepen. Het is belangrijk ervoor te zorgen dat alle producten die in de stuklijst worden gebruikt, zijn vrijgegeven aan het bedrijf waarvoor het productmodel is gebouwd. Met deze bouwstenen kan de gebruiker de stuklijst maken en configuratiegroepen toewijzen aan alle relevante stuklijstregels. Wanneer de stuklijst is voltooid, kan een configuratieroute voor het bestellen van de configuratiegroepen in de juiste volgorde worden gedefinieerd. \[caption id="attachment\_282671" align="alignnone" width="1187"\][![Op dimensies gebaseerd productmodelleringsproces](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Op dimensies gebaseerd productmodelleringsproces\[/caption\] Als er bepaalde producten van verschillende configuratiegroepen zijn die niet of wel samen moeten worden gebruikt, kunt u configurateregels maken waarmee deze productrelaties worden afgedwongen. Nadat de stuklijst is gekoppeld aan een op dimensies gebaseerd productmodel via een stuklijstversie en beide zijn goedgekeurd en geactiveerd, kunt u productconfiguraties maken en een naam voor elke configuratie invoeren. De configuraties kunnen worden gedefinieerd voordat eventuele transacties worden gegenereerd of in geval de behoefte aan een bepaalde configuratie ontstaat.
 
 ### <a name="suggested-use"></a>Voorgesteld gebruik
 
 De op dimensies gebaseerde configuratietechnologie is het meest geschikt voor producten met beperkte veranderlijkheid en de combinatie van de grootte, kleur, stijl en configuratie van de standaardproductdimensies niet geschikt is voor het identificeren van een specifieke productvariant. Een voorbeeld is een fiets met framehoogte, wielformaat, remtypen en verschillende versnellingen.
+
+
 
 

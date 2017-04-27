@@ -1,5 +1,5 @@
 ---
-title: Een korting voor contante betaling buiten de periode van de korting voor contante betaling nemen
+title: Een contantkorting buiten de periode van contantkorting nemen
 description: Dit artikel biedt twee scenario&quot;s die laten zien hoe een contantkorting kan worden verkregen, zelfs als de betaling buiten de contantkortingsperiode wordt gedaan.
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Een korting voor contante betaling buiten de periode van de korting voor contante betaling nemen
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Een contantkorting buiten de periode van contantkorting nemen
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel biedt twee scenario's die laten zien hoe een contantkorting kan worden verkregen, zelfs als de betaling buiten de contantkortingsperiode wordt gedaan.
 
-Op 28 juni maakt April een factuur voor 2000,00 voor leverancier 3052. De factuur heeft een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald.
+Op 28 juni maakt April een factuur voor 2.000,00 voor leverancier 3052. De factuur biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald.
 
 ## <a name="use-cash-discount-option--always"></a>De optie Contantkorting gebruiken = altijd
 April voert een betaling uit op 1 juli, wat na de kortingsdatum is. April opent de pagina **Transacties vereffenen** om de transacties weer te geven die kunnen worden vereffend. 
 
-April markeert de factuur voor betaling. Er wordt geen contantkorting genomen omdat de betaling na de kortingsdatum komt. De leverancier heeft echter April goedkeuring naar de korting voor contante betaling toch worden gegeven. April wijzigt daarom de waarde in de **contantkorting gebruiken** veld **altijd**.
+April markeert de factuur voor betaling. Er wordt geen contantkorting genomen omdat de betaling na de kortingsdatum komt. De leverancier heeft April echter goedkeuring gegeven om de contantkorting toch te nemen. Daarom wijzigt April de waarde in het veld **Contantkorting gebruiken** in **Altijd**.
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum van contantkorting | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ Informatie over korting wordt onder aan de pagina **Openstaande transacties vere
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | -5,05     |
+
+
 
 
 

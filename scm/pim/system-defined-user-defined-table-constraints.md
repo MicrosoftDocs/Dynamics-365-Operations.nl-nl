@@ -1,6 +1,6 @@
 ---
 title: Tabelbeperkingen door de gebruiker of door het systeem gedefinieerd
-description: "In dit artikel wordt uitgelegd dat de twee typen tabelbeperkingen voor onderdelen in een model voor productconfiguratie - gebruiker en door het systeem gedefinieerde. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert."
+description: "Dit artikel beschrijft de twee typen tabelbeperkingen voor onderdelen in een productconfiguratiemodel: gedefinieerd door de gebruiker en gedefinieerd door het systeem. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Tabelbeperkingen door de gebruiker of door het systeem gedefinieerd
 
-In dit artikel wordt uitgelegd dat de twee typen tabelbeperkingen voor onderdelen in een model voor productconfiguratie - gebruiker en door het systeem gedefinieerde. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert.
+[!include[banner](../includes/banner.md)]
+
+
+Dit artikel beschrijft de twee typen tabelbeperkingen voor onderdelen in een productconfiguratiemodel: gedefinieerd door de gebruiker en gedefinieerd door het systeem. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert.
 
 Tabelbeperkingen vertegenwoordigen matrixen van de combinaties van kenmerken die zijn toegestaan voor componenten in een productconfiguratiemodel. Elke rij in de tabel definieert één set met mogelijke kenmerkwaarden. Er zijn twee soorten beperkingen die u in een productconfiguratiemodel kunt declareren:
 
@@ -57,11 +60,13 @@ Een systeemgedefinieerde tabelbeperking maakt een dynamische toewijzing tussen e
 
 Wanneer u een systeemgedefinieerde tabelbeperking maakt, selecteert u een tabel, definieert u desgewenst de query die u wilt gebruiken en koppelt u kenmerktypen aan de velden in de geselecteerde tabel. De typen velden moeten overeenkomen met de kenmerktypen.  
 
-Voordat een tabelbeperking toegepast op een model voor productconfiguratie worden kan, moet de tabelbeperking worden opgenomen in een beperking van een van de onderdelen van het model. De procedure is een nieuwe beperking te maken, selecteert u het beperkingstype en selecteer vervolgens de Tabelbeperkingsdefinitie wilt gebruiken. Tot slot moeten alle velden in de tabelbeperking aan de kenmerken in het productconfiguratiemodel worden toegewezen.
+Voordat een tabelbeperking op een productconfiguratiemodel van kracht kan worden, moet de tabelbeperking in een beperking op een van de modelcomponenten worden opgenomen. De procedure is om een nieuwe beperking te maken, het type tabelbeperking te selecteren, en vervolgens de definitie van de tabelbeperking te selecteren die u wilt gebruiken. Tot slot moeten alle velden in de tabelbeperking aan de kenmerken in het productconfiguratiemodel worden toegewezen.
 
 <a name="see-also"></a>Zie ook
 --------
 
 [Belangrijkste concepten in productconfiguratiemodellen](product-configuration-models.md)
+
+
 
 

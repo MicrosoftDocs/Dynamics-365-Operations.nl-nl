@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-entry-certificates"></a>EU-invoercertificaten
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over EU-invoercertificaten (Europese Unie).
 
 U kunt de volgende taken uitvoeren voor een EU (Europese Unie)-invoercertificaat:
@@ -76,7 +79,7 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 </table>
 
 ## <a name="creating-registering-and-uploading-an-eu-entry-certificate"></a>Een EU-invoercertificaat maken, registreren en uploaden
-U kunt automatisch of handmatig een EU-invoercertificaat maken. Een EU-invoer-certificaat is gemaakt en automatisch afgedrukt wanneer u een pakbon of factuur voor een klant met behulp van boekt de **pakbon geboekt** pagina of het **te boeken factuur** pagina. Handmatig maken of opnieuw afdrukken van een certificaat van de EU-vermelding voor een klantfactuur, gebruiken de **factuurjournaal** pagina. U kunt bovendien op de pagina **Invoercertificaatlogboek** gegevens invoeren over een EU-invoercertificaat dat door een derde is uitgegeven.
+U kunt automatisch of handmatig een EU-invoercertificaat maken. Een EU-invoercertificaat wordt automatisch gemaakt en afgedrukt wanneer u een pakbon of factuur voor een klant boekt met de pagina **Pakbon boeken** of **Factuur boeken**. Als u handmatig een EU-invoercertificaat wilt maken of opnieuw afdrukken voor een klantfactuur, kunt u de pagina **Factuurjournaal** gebruiken. U kunt bovendien op de pagina **Invoercertificaatlogboek** gegevens invoeren over een EU-invoercertificaat dat door een derde is uitgegeven.
 
 ### <a name="creating-an-eu-entry-certificate-automatically-or-manually"></a>Automatisch of handmatig een EU-invoercertificaat maken
 
@@ -121,6 +124,8 @@ Als u geen toegang hebt tot de pagina's waarmee u deze taak kunt voltooien, moet
 </tr>
 </tbody>
 </table>
+
+
 
 
 

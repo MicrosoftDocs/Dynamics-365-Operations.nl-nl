@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Afschrijving vaste activa
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit onderwerp bevat een overzicht van de afschrijving van vaste activa.
 
 Afschrijving is een periodieke transactie die doorgaans de waarde van het vaste activum in de balans verlaagt en als uitgave in een winst-en-verliesrekening wordt geboekt. Daarom wordt een hoofdrekening gewoonlijk gebruikt voor de creditering van de periodieke afschrijving op de balans. Een tegenrekening is een rekening in het winst-en verliesgedeelte van het rekeningschema.
@@ -51,6 +54,8 @@ Elk boek heeft een kalender die wordt gebruikt wanneer u vaste activa afschrijft
 
 U kunt gedeelde kalenders maken op de pagina **Fiscale kalenders** in Grootboek.
 
-Zie voor meer informatie [afschrijvingsmethoden en conventies](depreciation-methods-conventions.md).
+Zie voor meer informatie [Afschrijvingsmethoden en conventies](depreciation-methods-conventions.md).
+
+
 
 

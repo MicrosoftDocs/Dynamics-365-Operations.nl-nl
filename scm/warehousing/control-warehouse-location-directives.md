@@ -1,5 +1,5 @@
 ---
-title: Besturingselement magazijnwerk met behulp van sjablonen voor werk en locatie-richtlijnen
+title: Magazijnwerk beheren met werksjablonen en locatierichtlijnen
 description: In dit artikel wordt beschreven hoe werksjablonen en locatierichtlijnen kunnen worden gebruikt om te bepalen hoe en waar werk wordt uitgevoerd in het magazijn.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Besturingselement magazijnwerk met behulp van sjablonen voor werk en locatie-richtlijnen
+# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Magazijnwerk beheren met werksjablonen en locatierichtlijnen
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt beschreven hoe werksjablonen en locatierichtlijnen kunnen worden gebruikt om te bepalen hoe en waar werk wordt uitgevoerd in het magazijn.
 
@@ -40,7 +43,7 @@ De instellingen in de definitie van het werkkoptekst kunnen worden gebruikt om t
 
 De werkregels vertegenwoordigen de fysieke taken die zijn vereist om het werk te kunnen verwerken. Voor een uitgaand magazijnproces kan er bijvoorbeeld een werkregel zijn het voor het verzamelen van de artikelen in het magazijn en een andere regel voor het plaatsen van die artikelen in het faseringsgebied. Er kunnen vervolgens een extra regel voor het verzamelen van de artikelen voor het klaarzetten en een andere regel voor het plaatsen van de artikelen in een truck deel uitmaken van het ladingsproces. U kunt een *instructiecode* voor werksjabloonregels instellen. Een richtlijncode is gekoppeld aan een locatierichtlijn en helpt daarom te garanderen dat het magazijnwerk op de juiste locatie in het magazijn wordt verwerkt. 
 
-U kunt een query instellen om te bepalen wanneer een bepaalde werksjabloon wordt gebruikt. U kunt bijvoorbeeld een beperking instellen, zodat een bepaalde sjabloon alleen voor werk kan worden gebruikt in een specifiek magazijn. Als alternatief hebt u mogelijk verschillende sjablonen die worden gebruikt om werk voor uitgaande verkooporderverwerking te maken, afhankelijk van de verkoopoorsprong. Het systeem gebruikt de **volgnummer** om te bepalen de volgorde waarin de sjablonen beschikbaar werk worden beoordeeld in. Daarom hebt u een zeer specifieke query voor een bepaalde werkplaats-sjabloon, moet u daarvoor een lage volgnummer. Die Query wordt vervolgens beoordeeld vóór andere, meer algemene query's. 
+U kunt een query instellen om te bepalen wanneer een bepaalde werksjabloon wordt gebruikt. U kunt bijvoorbeeld een beperking instellen, zodat een bepaalde sjabloon alleen voor werk kan worden gebruikt in een specifiek magazijn. Als alternatief hebt u mogelijk verschillende sjablonen die worden gebruikt om werk voor uitgaande verkooporderverwerking te maken, afhankelijk van de verkoopoorsprong. Het veld **Volgnummer** wordt gebruikt om de volgorde te definiëren waarin de beschikbare werksjablonen worden beoordeeld. Daarom moet u, als u een zeer specifieke zoekopdracht voor een bepaalde werksjabloon hebt, er een laag volgnummer aan toewijzen. Die Query wordt vervolgens beoordeeld vóór andere, meer algemene query's. 
 
 Om een werkproces te onderbreken of stopen, kunt u de instelling **Werk stoppen** gebruiken op de werkregel. In dat geval wordt de werknemer die het werk uitvoert, niet gevraagd de volgende werkregelstap uit te voeren. Om naar de volgende stap te gaan, moet die werknemer of een andere werknemer het werk opnieuw selecteren. U kunt de taken in een stuk werk ook scheiden door een andere *werkklasse-ID* te gebruiken in de werksjabloonregels.
 
@@ -53,12 +56,14 @@ Net als werksjablonen kunt u een query instellen om te bepalen wanneer een bepaa
 
 De locatierichtlijnen stellen aanvullende beperkingen in voor de toepassing van regels voor het zoeken van de locatie. U kunt een minimale en maximale hoeveelheid opgeven waarop de richtlijn wordt toegepast en u kunt opgeven dat de richtlijn voor een specifieke voorraadeenheid moet zijn. Als de maateenheid bijvoorbeeld pallets is, kunnen de artikelen in pallets op een bepaalde locatie worden geplaatst. U kunt ook opgeven of de hoeveelheid over meerdere locaties kan worden opgesplitst. Net als de koptekst van de locatierichtlijn heeft elke regel van de locatierichtlijn een volgnummer dat de volgorde bepaalt waarin regels worden beoordeeld. 
 
-De locatierichtlijnen hebben één extra detailniveau: *de acties van de locatierichtlijn*. U kunt meerdere locatierichtlijnacties voor elke regel definiëren. Een volgnummer wordt nogmaals gebruikt om te bepalen de volgorde waarin de acties worden beoordeeld in. Op dit niveau kunt u een query definiëren hoe en zoek de beste locatie in het magazijn instellen. U kunt ook vooraf gedefinieerde instellingen voor **Strategie** gebruiken om een optimale locatie te zoeken.
+De locatierichtlijnen hebben één extra detailniveau: *de acties van de locatierichtlijn*. U kunt meerdere locatierichtlijnacties voor elke regel definiëren. Een volgnummer wordt dus gebruikt om de volgorde te bepalen waarin de acties worden beoordeeld. Op dit niveau kunt u een zoekopdracht instellen om te definiëren hoe de beste locatie in het magazijn kan worden gevonden. U kunt ook vooraf gedefinieerde instellingen voor **Strategie** gebruiken om een optimale locatie te zoeken.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Voorbeeld van het gebruik van locatierichtlijnen
 
 Voor dit voorbeeld kijken we naar een inkooporderproces waar de locatierichtlijn vrije capaciteit in een magazijn moet zoeken voor voorraadartikelen die zojuist zijn geregistreerd in het ontvangende dok. Eerst proberen we beschikbare capaciteit in het magazijn te vinden door te consolideren met bestaande voorhanden voorraad. Als consolidatie niet mogelijk is, willen we een lege locatie zoeken. 
 
 Voor dit scenario moeten er twee locatierichtlijnacties worden gedefinieerd. De eerste actie in de reeks moet de **consolidatie**-strategie gebruiken, de tweede de **Lege locatie met geen inkomend werk**-strategie. Tenzij we een derde actie definiëren om een overloopscenario te dekken, zijn er twee resultaten mogelijk wanneer er geen capaciteit meer is in het magazijn: werk kan worden gemaakt zonder dat er locaties worden gedefinieerd, of het werkaanmaakproces mislukt. Het resultaat wordt gedefinieerd door de instellingen op de pagina **Fouten bij locatie-instructie**, waar u kunt kiezen om de optie **Werk stoppen bij fout van locatie-instructie** voor elk type werkorder te selecteren.
+
+
 
 

@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Orderbelofte
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
 
 Met orderbelofte worden de vroegste verzend- en ontvangstdatum berekend. De functie is gebaseerd op de controlemethode voor de leveringsdatum en op de transportdagen. U kunt onder kiezen uit vier controlemethoden voor de leveringsdatum:
 
--   **Verkooplevertijd** : verkoop doorlooptijd is de tijd tussen het maken van de verkooporder en de levering van artikelen. De berekening van de leveringsdatum is gebaseerd op een aantal dagen en wordt geen rekening gehouden aandelen beschikbaarheid, bekende vraag of geplande aanbod.
--   **ATP (available-to-promise)** : ATP is de hoeveelheid van een artikel dat beschikbaar is en op een bepaalde datum aan een klant kan worden beloofd. Bij de ATP-berekening worden niet-toegezegde voorraad, levertijden, geplande ontvangsten en uitgiften gebruikt.
+-   **Verkooplevertijd**: de verkooplevertijd is de tijd tussen het maken van de verkooporder en de zending van de artikelen. De berekening van de leveringsdatum is gebaseerd op een standaardaantal dagen waarbij geen rekening wordt gehouden met voorraadbeschikbaarheid, bekende vraag of gepland aanbod.
+-   **ATP (available-to-promise)**: vrije voorraad (ATP) is de hoeveelheid van een artikel, die beschikbaar is en aan een klant kan worden beloofd op een specifieke datum. Bij de ATP-berekening worden niet-toegezegde voorraad, levertijden, geplande ontvangsten en uitgiften gebruikt.
 -   **ATP + uitgiftemarge**: De verzenddatum is gelijk aan de ATP-datum plus de uitgiftemarge voor het artikel. De uitgiftemarge is de tijd die nodig is voor het voorbereiden van artikelen voor verzending.
 -   **CTP (capable-to-promise)**: Beschikbaarheid wordt berekend door middel van explosie.
 
 ## <a name="atp-calculations"></a>Berekening van de vrije voorraad (ATP)
-De hoeveelheid vrije voorraad wordt berekend met de methode 'cumulatieve vrije voorraad met vooruitblik'. Het belangrijkste voordeel van deze ATP-berekeningsmethode is dat deze kan omgaan met gevallen waarin de som van uitgiften tussen ontvangsten groter dan de laatste ontvangst (bijvoorbeeld is wanneer een hoeveelheid van een eerdere ontvangst moet worden gebruikt om te voldoen aan de vereisten). De berekeningsmethode van de 'cumulatieve vrije voorraad met vooruitblik' bevat alle uitgiften totdat het cumulatieve te ontvangen aantal groter is dan de cumulatieve hoeveelheid om uit te geven. Daarom kijkt deze berekening van de vrije voorraad of een gedeelte van de vrijevoorraadhoeveelheid uit een eerdere periode kan worden gebruikt voor een latere periode.  
+De hoeveelheid vrije voorraad wordt berekend met de methode "cumulatieve vrije voorraad met vooruitblik". Het belangrijkste voordeel van deze berekeningsmethode van vrije voorraad is dat hiermee aanvragen kunnen worden verwerkt waarbij de som van de uitgiften tussen ontvangsten meer is dan de laatste ontvangst (bijvoorbeeld wanneer een hoeveelheid van een eerdere ontvangst moet worden gebruikt om te voldoen aan een behoefte). De berekeningsmethode van de 'cumulatieve vrije voorraad met vooruitblik' bevat alle uitgiften totdat de cumulatieve te ontvangen hoeveelheid groter is dan de cumulatieve uit te geven hoeveelheid. Daarom kijkt deze berekening van de vrije voorraad of een gedeelte van de vrijevoorraadhoeveelheid uit een eerdere periode kan worden gebruikt voor een latere periode.  
 
 De vrije voorraad is de niet-toegezegde voorraadbalans in de eerste periode. Deze wordt normaal berekend voor elke periode waarin een ontvangst is gepland. De vrijevoorraadperiode wordt berekend in dagen en de huidige datum wordt berekend als de eerste datum voor de hoeveelheid vrije voorraad. In de eerste periode is de vrije voorraad gelijk aan de voorhanden voorraad minus de klantorders die moeten worden geleverd of die achterstallig zijn.  
 
 De vrije voorraad wordt berekend met de volgende formule:  
 
-Vrije voorraad = vrije voorraad voor de vorige periode + de ontvangsten voor de huidige periode: uitgiften voor de huidige periode: netto-uitgiftehoeveelheid voor elke toekomstige periode totdat de periode waarop de som van de ontvangsten voor alle toekomstige perioden, tot en met de toekomstige periode, groter is dan de som van uitgiften tot en met de toekomstige periode.  
+Vrije voorraad = vrije voorraad voor de vorige periode + ontvangsten voor de huidige periode - uitgiften voor de huidige periode - de netto-uitgiftehoeveelheid voor elke toekomstige periode totdat de periode waarvoor de som van de ontvangsten voor alle toekomstige perioden, tot en met de toekomstige periode, groter is dan de som van de uitgiften, tot en met de toekomstige periode.  
 
 Wanneer er geen uitgiften of ontvangsten meer zijn om te verwerken, is de hoeveelheid vrije voorraad gelijk aan de hoeveelheid die als laatste is berekend.  
 
@@ -66,8 +69,10 @@ Een klant belt en wil 150 stuks van hetzelfde product bestellen. U controleert d
 
 U maakt een verkooporderregel aan voor het product en voert als hoeveelheid **150** in.  
 
-Omdat de controlemethode voor de leveringsdatum ATP is, worden de vrijevoorraadgegevens berekend om de vroegst mogelijke verzenddatum te bepalen. Op basis van de instellingen, worden de vertraagde inkooporder en de verkooporder opgenomen en de resulterende ATP-hoeveelheid voor de huidige datum is 0. Morgen, wanneer de vertraagde inkooporder worden ontvangen moet, de hoeveelheid vrije voorraad berekend als meer dan 0 (in dit geval deze wordt berekend als 125). Echter, 10 dagen vanaf nu, waarop de aanvullende inkooporder voor 100 stuks naar verwachting worden ontvangen, wordt de hoeveelheid vrije voorraad meer dan 150.  
+Omdat de controlemethode voor de leveringsdatum ATP is, worden de vrijevoorraadgegevens berekend om de vroegst mogelijke verzenddatum te bepalen. Op basis van de instellingen worden de uitgestelde inkooporder en verkooporder meegenomen en is de resulterende hoeveelheid vrije voorraad voor de huidige datum 0. Morgen, wanneer de uitgestelde inkooporder naar verwachting wordt ontvangen, wordt de hoeveelheid vrije voorraad berekend als meer dan 0 (in dit geval wordt deze berekend als 125). Echter, 10 dagen vanaf nu, wanneer de aanvullende inkooporder voor 100 stuks naar verwachting wordt ontvangen, wordt de hoeveelheid vrije voorraad meer dan 150.  
 
-Daarom is de verzenddatum ingesteld op 10 dagen vanaf nu, op basis van de ATP-berekening. U kunt de klant daarom vertellen dat het gevraagde aantal kan worden geleverd binnen 10 dagen na nu.
+Daarom wordt de verzenddatum ingesteld op 10 dagen vanaf nu, gebaseerd op de berekening van de vrije voorraad. U kunt de klant daarom vertellen dat het gevraagde aantal kan worden geleverd binnen 10 dagen na nu.
+
+
 
 

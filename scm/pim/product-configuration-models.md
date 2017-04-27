@@ -1,6 +1,6 @@
 ---
-title: Overzicht modellen
-description: "In dit artikel worden de termen en concepten die relevant voor productconfiguratiemodellen zijn. Modellen voor productconfiguratie kunnen u bij het maken van een generieke productstructuur die kan worden gebruikt om veel productvarianten voor één product te configureren."
+title: Overzicht productconfiguratiemodellen
+description: "In dit artikel worden de termen en concepten gedefinieerd die relevant voor productconfiguratiemodellen zijn. Met productconfiguratiemodellen kunt u een generieke productstructuur maken, waarmee u veel productvarianten voor één product kunt configureren."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-configuration-models-overview"></a>Overzicht modellen
+# <a name="product-configuration-models-overview"></a>Overzicht productconfiguratiemodellen
 
-In dit artikel worden de termen en concepten die relevant voor productconfiguratiemodellen zijn. Modellen voor productconfiguratie kunnen u bij het maken van een generieke productstructuur die kan worden gebruikt om veel productvarianten voor één product te configureren.
+In dit artikel worden de termen en concepten gedefinieerd die relevant voor productconfiguratiemodellen zijn. Met productconfiguratiemodellen kunt u een generieke productstructuur maken, waarmee u veel productvarianten voor één product kunt configureren.
 
 Productconfiguratiemodellen zijn gemaakt om een generieke productstructuur te vertegenwoordigen. Wanneer u een productconfiguratiemodel hebt ingesteld, kunt u een andere productvariant configureren, met een unieke stuklijst (BOM) en een unieke route. Productconfiguratiemodellen gebruiken zowel declaratieve als imperatieve berekeningen voor de relaties en beperkingen tussen verschillende productvarianten. U kunt artikelen configureren op verkooporders, verkoopoffertes, inkooporders en productieorders. De volgende tabel beschrijft de tabel op beperkingen gebaseerde termen en concepten.
 <table>
@@ -69,16 +69,16 @@ U kunt ook een voorwaarde voor kenmerken opgeven. Als er aan de voorwaarde is vo
 <li><strong>Tekst</strong> met of zonder een vaste lijst</li>
 <li><strong>Booleaanse waarde</strong></li>
 </ul>
-Als het type kenmerk <strong>Booleaans</strong>, <strong>Geheel getal</strong> met een bereik, of <strong>Tekst</strong> met een vaste lijst is, is de set waarden beschikbaar wanneer een productconfiguratiemodel is ingesteld. <strong>opmerking:</strong> de configuratie van product solver herkent de volgende kenmerktypen: <strong>Boolean</strong>, <strong>tekst</strong> met een vaste lijst en <strong>geheel getal</strong> met een bereik. Daarom kunnen alleen deze kenmerkytypen worden gebruikt in de expressie beperkingen en voorwaarden.</td>
+Als het type kenmerk <strong>Booleaans</strong>, <strong>Geheel getal</strong> met een bereik, of <strong>Tekst</strong> met een vaste lijst is, is de set waarden beschikbaar wanneer een productconfiguratiemodel is ingesteld. <strong>Opmerking:</strong> De productconfiguratieoplosser herkent alleen de volgende typen kenmerken: <strong>Booleaans</strong>, <strong>Tekst</strong> met een vaste lijst en <strong>Geheel getal</strong> met een bereik. Daarom kunnen alleen deze kenmerkytypen worden gebruikt in de expressie beperkingen en voorwaarden.</td>
 </tr>
 <tr class="even">
 <td>Beperkingen</td>
 <td>Beperkingen beschrijven de beperkingen van het productconfiguratiemodel. Beperkingen worden gebruikt om te garanderen dat alleen geldige waarden zijn geselecteerd wanneer een product wordt geconfigureerd. Er zijn twee typen beperkingen: expressiebeperkingen en tabelbeperkingen:
 <ul>
 <li>Expressiebeperkingen kunnen alleen worden gebruikt voor het onderdeel waaraan ze gekoppeld zijn. De expressiebeperkingen voor een onderdeel kunnen echter verwijzen naar kenmerken van subonderdelen van het onderdeel. De productconfiguratieoplosser wordt gebruikt voor het oplossen van de beperkingen, en u moet de oplossersyntaxis gebruiken wanneer u de beperkingen schrijft. Zie de wiki-koppeling over expressiebeperkingen en tabelbeperkingen voor meer info.</li>
-<li>Tabelbeperkingen moeten worden gedefinieerd voordat ze kunnen worden toegepast op een onderdeel in een productconfiguratiemodel. Tabelbeperkingen kunnen door de gebruiker gedefinieerd of het systeem gedefinieerde zijn. Een gebruikergedefinieerde tabelbeperking is een matrix die kan worden gebruikt voor het beschrijven van combinaties voor de waarden die zijn gedefinieerd door het kenmerktypen. Als er bijvoorbeeld speakers worden geproduceerd, heeft de matrix voor een gebruikergedefinieerde tabelbeperking mogelijk kolommen voor de speakerafwerking en speaker grill.</li>
+<li>Tabelbeperkingen moeten worden gedefinieerd voordat ze op een component in een productconfiguratie kunnen worden toegepast. Tabelbeperkingen kunnen door de gebruiker of door het systeem zijn gedefinieerd. Een gebruikergedefinieerde tabelbeperking is een matrix die kan worden gebruikt voor het beschrijven van combinaties voor de waarden die zijn gedefinieerd door het kenmerktypen. Als er bijvoorbeeld speakers worden geproduceerd, heeft de matrix voor een gebruikergedefinieerde tabelbeperking mogelijk kolommen voor de speakerafwerking en speaker grill.</li>
 </ul>
-<strong>Voorbeeld</strong> De speakers zijn beschikbaar in vier afwerkingen: Zwart, Eiken, Rozenhout en Wit. De luidsprekers kunnen een van drie front roosters hebben: zwart, metaal of wit. De einddatum van de zwarte is beschikbaar voor alle roosters, maar de andere is voltooid, zijn beperkt tot bepaalde roosters. De volgende tabel toont een voorbeeld van de informatie die op het tabblad <strong>Toegestane combinaties</strong> op de pagina <strong>Tabelbeperking bewerken</strong> wordt weergegeven.
+<strong>Voorbeeld</strong> De speakers zijn beschikbaar in vier afwerkingen: Zwart, Eiken, Rozenhout en Wit. De speakers kunnen drie voorgrills hebben: Zwart, Metaal of Wit. De zwarte afwerking is beschikbaar voor alle grills, maar de andere afwerkingen zijn beperkt tot specifieke grills. De volgende tabel toont een voorbeeld van de informatie die op het tabblad <strong>Toegestane combinaties</strong> op de pagina <strong>Tabelbeperking bewerken</strong> wordt weergegeven.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Als het type kenmerk <strong>Booleaans</strong>, <strong>Geheel getal</strong> m
 </tr>
 </tbody>
 </table>
-Een systeemgedefinieerde tabelbeperking vertegenwoordigt een toewijzing tussen een kenmerktype en een veld in een Dynamics 365 voor bewerkingen tabel. Een systeemgedefinieerde tabelbeperking koppelt dynamisch het kenmerktype naar het veld. De koppeling kunt het kenmerk in een model voor productconfiguratie om weer te geven van de gegevens van het veld in de Dynamics 365 voor bewerkingen tabel.</td>
+Een systeemgedefinieerde tabelbeperking vertegenwoordigt een koppeling tussen een kenmerktype en een veld in een Dynamics 365 for Operations-tabel. Een systeemgedefinieerde tabelbeperking koppelt dynamisch het kenmerktype aan het veld. Dankzij deze koppeling kan het kenmerk in een productconfiguratiemodel de gegevens van het veld in de Dynamics 365 for Operations-tabel weergeven.</td>
 </tr>
 <tr class="odd">
 <td>Berekeningen</td>
-<td>Berekeningen vertegenwoordigen aanvulling van de beperkingen. U kunt een berekening uitvoeren van rekenkundige bewerkingen op de kenmerken van de <strong>decimale</strong> en <strong>geheel getal</strong> typen of logische bewerkingen die betrekking hebben op kenmerken van de <strong>tekst</strong> met een vaste lijst en <strong>Boolean</strong> typen. Een berekening heeft een doelkenmerk dat het resultaat van de berekeningsexpressie bevat. De berekeningsexpressie wordt gebouwd met de expressie-editor.</td>
+<td>Berekeningen vertegenwoordigen een aanvulling op beperkingen. U kunt een berekening gebruiken om rekenkundige bewerkingen uit te voeren op kenmerken van de typen <strong>Decimaal</strong> en <strong>Geheel getal</strong>, of logische bewerkingen met kenmerken van de typen <strong>Tekst</strong> met een vaste lijst en <strong>Booleaans</strong>. Een berekening heeft een doelkenmerk dat het resultaat van de berekeningsexpressie bevat. De berekeningsexpressie wordt gebouwd met de expressie-editor.</td>
 </tr>
 <tr class="even">
 <td>Subonderdelen</td>

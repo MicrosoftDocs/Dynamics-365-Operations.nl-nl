@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Kostencategorieën die in productieroutering worden gebruikt
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft informatie over kostencategorieën die van toepassing zijn op productieomgevingen die routering gebruiken.
 
 Kostencategorieën hebben betrekking op productieomgevingen die gebruikmaken van routeringen. Ze worden toegewezen aan bronnen voor bedrijfsactiviteiten en aan routeringsbewerkingen om uurkosten te definiëren en kostenbijdragen te segmenteren in de berekende kosten van een gefabriceerd artikel. De kostengroepen die aan kostencategorieën zijn toegewezen classificeren de bijdragen aan fabricagekosten op basis van de bronnen voor bedrijfsactiviteiten en het activiteitstype, zoals voorbereidingstijd en uitvoeringstijd. De gedetailleerdheid van kostengroeptoewijzingen maakt het mogelijk om de productieoverhead te berekenen op basis van routeringsgegevens. 
@@ -51,5 +54,7 @@ De kostenrecord voor een kostencategorie kan alleen voor de locatie of voor het 
 Een routeringsbewerking neemt in het algemeen de kostencategorieën over die aan de bron voor bedrijfsactiviteiten of hoofdbewerking zijn toegewezen. Als er een productieorder is gemaakt, wordt de geselecteerde routeversie weerspiegeld in de routeringsbewerkingen binnen de productieroute. U kunt de kostencategorieën negeren die aan de bewerkingen binnen de productieroute zijn toegewezen. 
 
 Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. In een dergelijk geval is een kostencategorie vereist voor productie- en projectdoeleinden. Als een kostencategorie is gemarkeerd voor gebruik in projecten, moeten aanvullende projectgerelateerde gegevens worden gedefinieerd.
+
+
 
 

@@ -45,7 +45,7 @@ Een rijdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van el
 Een rijdefinitie kan maximaal 20.000 financiële dimensierijen bevatten en kan de volgende informatie bevatten:
 
 -   Beschrijvende tekst die betekenis geeft aan het rapport door sectiekopteksten, regels en spaties te maken, zoals **Contant geld** of **Totale opbrengst**
--   Koppelingen naar financiële gegevens, waaronder de dimensiewaarden in de Microsoft Dynamics 365 voor bewerkingen **opmerking:** kunt u instellen een rijdefinitie gegevens op te halen uit het systeem van financiële dimensies telkens wanneer het rapport wordt gegenereerd.
+-   Koppelingen naar financiële gegevens, die dimensiewaarden in Microsoft Dynamics 365 for Operations kunnen omvatten. **Opmerking:** U kunt een rijdefinitie instellen om gegevens van het financiële dimensiessysteem op te halen telkens wanneer het rapport wordt gegenereerd.
 -   Rijtotalen en formules die op de bijbehorende financiële gegevens zijn gebaseerd
 
 Gewoonlijk bevat elke rij in een rijdefinitie een van de volgende soorten gegevens:
@@ -64,7 +64,7 @@ Een dimensie is een snijpunt van gegevens en waarden. U kunt gegevens en waarden
 
 | Optie                | Beschrijving                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dimensie             | Het patroon dat de dimensie identificeert die aan de rijdefinitie moet worden toegevoegd. Dit patroon bevat één en -teken (&) of hekje (\#) voor elke positie in de dimensies. Gebruik in het algemeen allemaal en-tekens voor de dimensie Hoofdrekening en allemaal hekjes voor andere dimensies. |
+| Dimensie             | Het patroon dat de dimensie identificeert die aan de rijdefinitie moet worden toegevoegd. Dit patroon bevat één en-teken (&) of hekje (\#) voor elke positie in de dimensies. Gebruik in het algemeen allemaal en-tekens voor de dimensie Hoofdrekening en allemaal hekjes voor andere dimensies. |
 | Begin van dimensiebereik | De eerste waarde voor deze dimensie die aan de rijdefinitie moet worden toegevoegd.                                                                                                                                                                                                                 |
 | Einde van dimensiebereik   | De laatste waarde voor deze dimensie die aan de rijdefinitie moet worden toegevoegd.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Als u dimensies wilt toevoegen aan een rijdefinitie, volgt u deze stappen.
 1.  Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2.  Klik in het menu **Bewerken** op **Rijen invoegen van dimensies**.
 3.  Selecteer in het dialoogvenster **Rijen invoegen van dimensies **in de rij **Dimensies** de cel voor de dimensie die u naar de rijdefinitie wilt overbrengen en klik vervolgens op **Alle &&&**.
-4.  Als u de rijdefinitie tot een bepaald bereik van dimensiewaarden wilt beperken, voert u de begindimensiewaarde in de cel ** Begin van dimensiebereik **in en voert u vervolgens de einddimensiewaarde in de cel **Einde dimensiebereik** in. Als u alle waarden voor de geselecteerde dimensie wilt opnemen, laat u deze cellen leeg. Als u alle waarden voor de geselecteerde dimensie wilt opnemen, laat u deze cellen leeg. **opmerking:** jokertekens (\* of?) in dimensie bereiken mogelijk de resultaten niet alle gewenste, afhankelijk van hoe gegevens worden gesorteerd in de ERP-database.
+4.  Als u de rijdefinitie tot een bepaald bereik van dimensiewaarden wilt beperken, voert u de begindimensiewaarde in de cel ** Begin van dimensiebereik **in en voert u vervolgens de einddimensiewaarde in de cel **Einde dimensiebereik** in. Als u alle waarden voor de geselecteerde dimensie wilt opnemen, laat u deze cellen leeg. Als u alle waarden voor de geselecteerde dimensie wilt opnemen, laat u deze cellen leeg. **Opmerking:** Jokertekens (\* of ?) in dimensiebereiken tonen mogelijk niet alle resultaten die u zoekt, afhankelijk van hoe de ERP-database gegevens verzamelt.
 5.  Geef in het veld **Beginrijcode** de rijcode op voor de eerste dimensiewaarde die aan de rijdefinitie moet worden toegevoegd.
-6.  Geef in het veld **Elke rij verhogen met** een waarde op om de ruimte tussen opeenvolgende rijcodes te specificeren. Als de eerste rijcode 100 en de Stapgrootte 30, hebben de eerste nieuwe rijen de codes 100, 130, 160, 190 en 220. Gebruik een Stapgrootte die voldoende ruimte voor het invoegen van nieuwe indeling en formule rijen bevat.
+6.  Geef in het veld **Elke rij verhogen met** een waarde op om de ruimte tussen opeenvolgende rijcodes te specificeren. Als de eerste rijcode bijvoorbeeld 100 is en de verhogingswaarde 30, hebben de eerste nieuwe rijen de codes 100, 130, 160, 190 en 220. Gebruik een verhogingswaarde die ruimte biedt voor het invoegen van nieuwe opmaak en formulerijen.
 7.  Klik tot slot op **OK**. Voor elk van de geselecteerde dimensiewaarden wordt één regel toegevoegd aan de rijdefinitie.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a>Afronding in een rijdefinitie aanpassen
@@ -146,7 +146,7 @@ De opmaak die in de rijdefinitie is opgegeven negeert de opmaak die in de kolomd
 
 1.  Open in Report Designer de rijdefinitie die u wilt wijzigen.
 2.  Selecteer de cellen die u wilt opmaken. Als u meerdere cellen wilt selecteren, houdt u Ctrl ingedrukt terwijl u de cellen selecteert.
-3.  Klik in de werkbalk op de knop van de opmaak die u wilt toepassen. Bijvoorbeeld: als u wilt laten inspringen een rij, selecteert u de rij en klik vervolgens op **inspringing vergroten**![inspringing vergroten](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "inspringing vergroten") op de werkbalk.
+3.  Klik in de werkbalk op de knop van de opmaak die u wilt toepassen. Als u bijvoorbeeld een rij wilt laten inspringen, selecteert u de rij en klikt u vervolgens op **Inspringing vergroten** ![Inspringing vergroten](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Inspringing vergroten") op de werkbalk.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Kolommen aanpassen terwijl u rapporten ontwerpt
 
@@ -173,6 +173,6 @@ Om het gemakkelijker te maken om de kolommen waarin u werkt in de rijdefinitie w
 <a name="see-also"></a>Zie ook
 --------
 
-[Financiële rapportage voor Microsoft Dynamics 365 voor bewerkingen](financial-reporting-intro.md)
+[Financiële rapportage voor Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

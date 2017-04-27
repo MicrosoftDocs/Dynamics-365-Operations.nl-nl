@@ -1,5 +1,5 @@
 ---
-title: Een geautomatiseerde taak in een workflow configureren
+title: Een geautomatiseerde taak configureren in een workflow
 description: In dit onderwerp wordt uitgelegd hoe u de eigenschappen van een geautomatiseerde taak configureert.
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Een geautomatiseerde taak in een workflow configureren
+# <a name="configure-an-automated-task-in-a-workflow"></a>Een geautomatiseerde taak configureren in een workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u de eigenschappen van een geautomatiseerde taak configureert.
 
@@ -92,16 +95,18 @@ U kunt meldingen naar gebruikers verzenden wanneer een geautomatiseerde taak is 
     </tr>
     <tr class="odd">
     <td>Gebruiker</td>
-    <td>Specifieke Microsoft Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Microsoft Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Herhaal stappen 3 tot en met 7 voor elke gebeurtenis die u in stap 2 hebt geselecteerd.
+
+
 
 
 

@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Een gedeeltelijke klantenbetaling met meerdere kortingsperioden vereffenen
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt getoond hoe gedeeltelijke klantbetalingen worden vereffend wanneer er meerdere kortingsperioden zijn.
 
-Fabrikam biedt klant 4031 twee contantkortingsperiodes. De klant ontvangt een korting van 2 procent als de factuur binnen vijf dagen wordt betaald en 1 procent contantkorting als de factuur binnen 14 dagen wordt betaald. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De parameters voor de vereffening bevinden zich op de **parameters van module klanten** pagina.
+Fabrikam biedt klant 4031 twee contantkortingsperiodes. De klant ontvangt een korting van 2 procent als de factuur binnen vijf dagen wordt betaald en 1 procent contantkorting als de factuur binnen 14 dagen wordt betaald. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
 
 ## <a name="invoice"></a>Factuur
-Op 25 juni Arnie invoert en boekt een factuur voor 1.000,00 voor klant 4031. Wanneer hij de contantkortingen voor deze factuur bekijkt, ziet Arnie dat klant 4031 een korting van 20,00 ontvangt als de factuur is betaald met 30 juni. Als de factuur wordt betaald 9 juli, ontvangt de klant een korting van 10,00.
+Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 4031. Wanneer hij de contantkortingen voor deze factuur bekijkt, ziet Arnie dat klant 4031 een korting van 20,00 ontvangt als de factuur voor 30 juni betaald wordt. Als de factuur voor 9 juli betaald wordt, ontvangt de klant een korting van 10,00.
 
 | Datum van contantkorting | Contantkortingsbedrag | Bedrag in transactievaluta |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ Het factuursaldo is nu 0,00. Arnie bekijkt de informatie op de pagina **Klanttra
 | DISC-10030 |  Contantkorting   | 6/28/2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Betaling         | 8-7-2015  |         |                                      | 693,00                                | 0,00    | USD      |
 | DISC-1031  |  Contantkorting   | 8-7-2015  |         |                                      | 7,00                                  | 0,00    | USD      |
+
+
 
 
 

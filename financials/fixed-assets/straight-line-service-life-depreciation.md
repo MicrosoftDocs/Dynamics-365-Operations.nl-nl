@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Lineaire afschrijving van levensduur
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft een overzicht van de afschrijvingsmethode Lineaire levensduur.
 
 Wanneer u een afschrijvingsprofiel voor vaste activa instelt en Lineaire levensduur selecteert in het veld Methode van de pagina Afschrijvingsprofielen, worden de activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven op basis van de totale levensduur van het activum. Dit is over het algemeen in elke afschrijvingsperiode hetzelfde afschrijvingsbedrag. 
@@ -100,7 +103,9 @@ De levensduur van de bijboekingscorrectie is gelijk aan die van het vaste activu
 | Jaar 5 | 14.000 / 5 = 2.800                        | 4.600 - 2.800 = 1.800                 |
 | Jaar 6 | Resterende 800\*                           | 1.800 – 800 = 1.000                   |
 
-\*Omdat het resterende bedrag lager dan het afschrijvingsbedrag is, wordt alleen het resterende bedrag min de restwaarde gebruikt.
+\* Omdat het resterende bedrag lager is dan het afschrijvingsbedrag, wordt alleen het resterende bedrag min de restwaarde gebruikt.
+
+
 
 
 

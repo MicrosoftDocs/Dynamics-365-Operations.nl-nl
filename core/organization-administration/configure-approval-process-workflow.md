@@ -1,5 +1,5 @@
 ---
-title: Een goedkeuringsproces in een workflow configureren
+title: Een goedkeuringsproces configureren in een workflow
 description: Met behulp van de volgende procedure kunt u de eigenschappen van het goedkeuringsproces configureren.
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Een goedkeuringsproces in een workflow configureren
+# <a name="configure-an-approval-process-in-a-workflow"></a>Een goedkeuringsproces configureren in een workflow
 
 Met behulp van de volgende procedure kunt u de eigenschappen van het goedkeuringsproces configureren.
 
-Voor informatie over het configureren van een goedkeuringsproces in de workfloweditor met de rechtermuisknop op het goedkeuringselement en klik vervolgens op **eigenschappen** opent de **eigenschappen** formulier.
+Als u een goedkeuringsproces wilt configureren, klikt u in de workfloweditor met de rechtermuisknop op het goedkeuringselement en klikt u vervolgens op **Eigenschappen** om het formulier **Eigenschappen** te openen.
 Het goedkeuringsproces een naam geven
 -------------------------
 
@@ -40,7 +40,7 @@ Voer deze stappen uit om een naam op te geven voor de goedkeuringsproces.
 U kunt het systeem zo configureren dat er automatisch wordt gereageerd het document als aan specifieke voorwaarden is voldaan. Het systeem kan bijvoorbeeld onkostennota´s goedkeuren met een totaalbedrag dat lager is dan 100 EUR. Voer de volgende stappen uit om op te geven wanneer het systeem op het document reageert.
 1.  Klik in het linkerdeelvenster op **Automatische acties**.
 2.  Vink het selectievakje **Automatische acties inschakelen** aan.
-3.  Click **Add condition**.
+3.  Klik op **Voorwaarde toevoegen**.
 4.  Een voorwaarde invoeren.
 5.  Geef desgewenst aanvullende voorwaarden op.
 6.  Voer de volgende stappen uit om te controleren of de door u ingevoerde voorwaarden correct zijn geconfigureerd.
@@ -71,7 +71,7 @@ U kunt meldingen naar gebruikers verzenden wanneer een document is goedgekeurd, 
     4.  Klik op **Invoegen**.
 
 7.  Klik op **Vertalingen** om vertalingen van de melding toe te voegen. Selecteer de volgende stappen in het formulier dat wordt weergegeven:
-    1.  Click **Add**.
+    1.  Klik op **Toevoegen**.
     2.  Selecteer in de lijst die wordt weergegeven de taal waarin u de tekst wilt invoeren.
     3.  Geef in het vak **Vertaalde tekst** de tekst op.
     4.  Voeg tijdelijke aanduidingen in om de tekst te personaliseren.
@@ -112,11 +112,11 @@ U kunt meldingen naar gebruikers verzenden wanneer een document is goedgekeurd, 
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Specifieke Microsoft Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td><strong>Gebruiker</strong></td>
+    <td>Specifieke Microsoft Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong>: lijst bevat alle Microsoft Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>:.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Microsoft Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>:.</li>
     </ol></td>
     </tr>
     </tbody>

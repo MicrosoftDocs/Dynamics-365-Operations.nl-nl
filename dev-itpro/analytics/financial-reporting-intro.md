@@ -85,6 +85,6 @@ Voor meer informatie raadpleegt u de sectie "Interactieve onderdelen en navigati
 
 #<a name="see-also"></a>Zie ook
 
-[Genereren een financieel rapport] ((dynamics365\operations\financials\general-ledger\generate: financieel-rapport)
+[Een financieel rapport genereren]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

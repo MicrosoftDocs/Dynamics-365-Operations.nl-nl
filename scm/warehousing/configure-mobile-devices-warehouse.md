@@ -35,7 +35,7 @@ In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmed
 -   Maken het werk dat door een ander proces wordt uitgevoerd. Bijvoorbeeld, door het ontvangen van een artikel voor een inkooporder kan weggezet werk worden gemaakt voor een andere werknemer.
 -   Werk uitvoeren dat door een ander proces (bestaand werk) is gemaakt, zoals weggezet werk dat is gemaakt bij het ontvangen van een artikel voor een inkooporder.
 
-Als u een menu-item voor een activiteit of query, stelt de **modus** veld **indirecte**. Een lijst met **activiteitscode** opties en vervolgens beschikbaar, zodat u het type query of de activiteit die de menuoptie voor kunt selecteren. Als u een menu-item voor het genereren van magazijnwerk, stelt de **modus** veld **werken**. Een lijst met **werken maakproces** opties en vervolgens weer beschikbaar. Als u een menuoptie wilt maken om het bestaande magazijnwerk te verwerken, stelt u het veld **Modus** in op **Werk** en stelt u vervolgens de optie **Bestaand werk gebruiken** in op **Ja**. **opmerking:** extra velden mogelijk voor menu-items beschikbaar, afhankelijk van de modus die u voor het menu item en of selecteert de menuopdracht wordt gebruikt voor het uitvoeren van waaraan u momenteel werkt. Zie de sectie 'extra artikel menuopties' verderop in dit artikel voor meer informatie over extra velden selecteren.
+Als u een menuopdracht voor een activiteit of query wilt maken, stelt u het veld **Modus** in op **Indirect**. Een lijst met opties voor **Activiteitscode** worden vervolgens beschikbaar, zodat u het type query of de activiteit kunt selecteren waarvoor de menuopdracht is bedoeld. Als u een menuopdracht voor het genereren van magazijnwerk wilt maken, stelt u het veld **Modus** in op **Werk**. Een lijst met opties voor **Proces van werkaanmaak** wordt vervolgens beschikbaar. Als u een menuoptie wilt maken om het bestaande magazijnwerk te verwerken, stelt u het veld **Modus** in op **Werk** en stelt u vervolgens de optie **Bestaand werk gebruiken** in op **Ja**. **Opmerking:** er kunnen aanvullende velden voor menuopdrachten beschikbaar zijn. Dit hangt af van de modus die u selecteert voor de menuopdracht en of de menuopdracht wordt gebruikt om bestaand werk uit te voeren. Zie voor informatie over de aanvullende veldselecties de sectie "Extra opties voor menuopdrachten" verderop in dit artikel.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Menuopties configureren voor activiteiten en query's
 Als het veld **Modus** voor een menuoptie is ingesteld op **Indirect**, kunt u een menuoptie maken om een algemene activiteit of query uit te voeren die geen werk maakt. Voorbeelden zijn onder andere het opnieuw afdrukken van nummerplaatlabels en een query over de artikelen op een locatie. De volgende tabel bevat een lijst met beschikbare opties.
@@ -190,7 +190,7 @@ U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken 
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Menuopties configureren om bestaand werk te verwerken
-Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties instellen voor het verwerken van werk dat al is gemaakt. Stel het veld **Modus** in op **Werk** en selecteer de optie **Bestaand werk gebruiken**. Aantal aanvullende opties worden vervolgens beschikbaar op de **algemeen** tabblad. U kunt toegang tot het menu-item door een of meer werk klassen toewijzen aan de **werken van de klasse** sneltabblad. De werkklassen bepalen het werk dat de menuoptie kan verwerken. De werkklasse kan ook worden gebruikt om toegang te verlenen tot specifieke gebruikersrollen of tot afzonderlijke verwerking voor verschillende soorten bewerkingen. In de volgende tabel wordt beschreven welke opties beschikbaar zijn.
+Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties instellen voor het verwerken van werk dat al is gemaakt. Stel het veld **Modus** in op **Werk** en selecteer de optie **Bestaand werk gebruiken**. Sommige aanvullende opties worden vervolgens beschikbaar op het tabblad **Algemeen**. U kunt toegang tot de menuopdracht beheren door een of meer werkklassen toe te wijzen op het sneltabblad **Werkklasse**. De werkklassen bepalen het werk dat de menuoptie kan verwerken. De werkklasse kan ook worden gebruikt om toegang te verlenen tot specifieke gebruikersrollen of tot afzonderlijke verwerking voor verschillende soorten bewerkingen. In de volgende tabel wordt beschreven welke opties beschikbaar zijn.
 
 <table>
 
@@ -210,7 +210,7 @@ Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties i
 </tr>
 <tr class="even">
 <td>Door systeem bestuurd</td>
-<td>Microsoft Dynamics 365 voor bewerkingen bepalen welk type werk dat is toegewezen aan een werknemer en de volgorde waarin de werknemer het werk in aanneemt. Wanneer u deze optie selecteert, kunt u klikken op <strong>werk systeemgerichte</strong> in het actievenster opent de <strong>-systeem geleide sorteervolgorde</strong> pagina waar u sorteercriteria voor het werk kunt instellen. De sorteercriteria bepalen de volgorde waarin de werknemer het werk in aanneemt. Criteria die u nodig hebt, kunt u toevoegen.</td>
+<td>Met Microsoft Dynamics 365 for Operations wordt bepaald welk type werk wordt toegewezen aan een werknemer en wordt de volgorde bepaald waarin de werknemer het werk uitvoert. Wanneer u deze optie selecteert, kunt u klikken op <strong>Door systeem bestuurd werk</strong> in het actievenster om de pagina <strong>Door systeem bestuurde sorteervolgorde</strong> te openen waarop u sorteercriteria voor het werk kunt instellen. Met de sorteercriteria wordt de volgorde bepaald waarin de werknemer het werk uitvoert. U kunt zoveel criteria toevoegen als u nodig hebt.</td>
 </tr>
 <tr class="odd">
 <td>Door gebruiker bestuurd</td>
@@ -230,7 +230,7 @@ Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties i
 </tr>
 <tr class="even">
 <td>Gevalideerd door gebruiker bestuurd</td>
-<td>De werknemer selecteert het werk om uit te voeren wanneer het werk aan een grotere entiteit, zoals een belasting of een verzending is gekoppeld. De werknemer bepaalt de volgorde waarin de artikelen worden verzameld in. Als u deze optie selecteert, zijn de volgende velden vereist:
+<td>De werknemer selecteert het werk om uit te voeren wanneer het werk aan een grotere entiteit, zoals een belasting of een verzending is gekoppeld. De werknemer bepaalt de volgorde waarin de artikelen worden verzameld. Als u deze optie selecteert, zijn de volgende velden vereist:
 <ul>
 <li><strong>Gevalideerd door gebruiker bestuurd veld</strong> – Selecteer het veld dat de werknemer scant om het werk te groeperen.</li>
 <li><strong>Gevalideerd door gebruikersbestuurd etiket</strong> – Voer de tekst in die de werknemer instrueert over wat te scannen wanneer de orderverzameling van het werk door het systeem is gegroepeerd.</li>
@@ -271,7 +271,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 </tr>
 <tr class="even">
 <td>Verankering</td>
-<td>Selecteer deze optie om werknemers toe te staan om een locatie op te geven die de voorgestelde klaarzet- of laadlocatie overschrijft. Alle resterende weggezet werk wordt naar de nieuwe locatie gevoerd. Deze optie is bijvoorbeeld handig wanneer een werknemer die artikelen voor order 1 in een klaarzetlocatie bij Dok 1 moet zetten, maar dat niet kan omdat een vorige lading de locatie niet heeft vrijgemaakt. In plaats van de Dock 1 staging-locatie beschikbaar wachten, kunt de werknemer wilt gebruiken van de tijdelijke locatie voor Dock 2. In dit geval wordt de werknemer heeft voorrang boven de voorgestelde staging locatie. De neerzetlocatie voor alle resterende artikelen voor de werkorder wordt dan bijgewerkt naar de klaarzetlocatie Dok 2. Als u deze optie selecteert, moet u het veld <strong>Verankeren volgens</strong> instellen.</td>
+<td>Selecteer deze optie om werknemers toe te staan om een locatie op te geven die de voorgestelde klaarzet- of laadlocatie overschrijft. Alle resterende weggezet werk wordt naar de nieuwe locatie gevoerd. Deze optie is bijvoorbeeld handig wanneer een werknemer die artikelen voor order 1 in een klaarzetlocatie bij Dok 1 moet zetten, maar dat niet kan omdat een vorige lading de locatie niet heeft vrijgemaakt. In plaats van te wachten totdat de klaarzetlocatie Dok 1 beschikbaar komt, kan de werknemer besluiten de klaarzetlocatie voor Dok 2 te gebruiken. In dat geval negeert de werknemer de voorgestelde klaarzetlocatie. De neerzetlocatie voor alle resterende artikelen voor de werkorder wordt dan bijgewerkt naar de klaarzetlocatie Dok 2. Als u deze optie selecteert, moet u het veld <strong>Verankeren volgens</strong> instellen.</td>
 </tr>
 <tr class="odd">
 <td>Verankeren volgens</td>
@@ -380,7 +380,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 </tr>
 <tr class="odd">
 <td>Code werksjabloon</td>
-<td>Selecteer het werksjabloon die het werk voor een proces maken zal. Bijvoorbeeld als u een artikel voor een inkooporder ontvangt, de opslag werkzaamheden gegenereerd op basis van de werk-sjabloon. Als u een sjabloon werk niet selecteert, wordt een sjabloon, op basis van querycriteria in Microsoft Dynamics 365 for Operations toegewezen. Zie voor meer informatie over werksjablonen het onderwerp <a href="control-warehouse-location-directives.md">Magazijnwerk beheren met werksjablonen en locatierichtlijnen</a>.</td>
+<td>Selecteer het werksjabloon die het werk voor een proces maken zal. Als u bijvoorbeeld een artikel voor een inkooporder ontvangt, wordt het weggezette werk gegenereerd op basis van de werksjabloon Als u geen werksjabloon selecteert, wordt in Microsoft Dynamics 365 for Operations een sjabloon toegewezen op basis van zoekcriteria. Zie voor meer informatie over werksjablonen het onderwerp <a href="control-warehouse-location-directives.md">Magazijnwerk beheren met werksjablonen en locatierichtlijnen</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ In de volgende tabel worden de verschillende werktypen beschreven waarbij u werk
 
 [Weergave-instellingen voor mobiel apparaat magazijn](change-warehouse-mobile-device-displays.md)
 
-[Instellen van een mobiel apparaat menu-item voor het voltooien van de werkzaamheden van het type inkooporder (taak guide)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder (taakbegeleiding)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Een mobiel apparaat menu-item instellen voor het registreren van de ontvangen artikelen (taak guide)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Een menuopdracht van mobiel apparaat instellen om de ontvangen artikelen te registreren (taakbegeleiding)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Voorraadlocaties
 
+[!include[banner](../includes/banner.md)]
+
+
 Voorraadlocaties worden met basale magazijnen (WMS I) gebruikt om te bepalen waar artikelen worden opgeslagen en waar artikelen uit worden verzameld in een WMS I-magazijn.
 
 Dit onderwerp geldt voor functies in de module voor Voorraadbeheer. Het geldt niet voor functies in de module Magazijnbeheer.
@@ -64,6 +67,8 @@ Het is mogelijk om locaties van het ene magazijn naar het andere te kopiëren en
 <a name="see-also"></a>Zie ook
 --------
 
-[Maak een nieuwe magazijnindeling (taak guide)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Een nieuwe magazijnindeling maken (taakbegeleider)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

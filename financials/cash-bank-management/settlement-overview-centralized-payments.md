@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Vereffeningsoverzicht voor gecentraliseerde betalingen
 
+[!include[banner](../includes/banner.md)]
+
+
 Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt. Hierdoor hoeft u dezelfde transactie niet voor meerdere rechtspersonen in te voeren en bespaart u tijd doordat het betalingsvoorstelproces, het vereffeningsproces, en het bewerken van openstaande en gesloten transacties voor gecentraliseerde betalingen worden gestroomlijnd. 
 
 Als betaling door een klant of leverancier wordt ingevoerd in een rechtspersoon en is vereffend met een factuur die in een andere rechtspersoon is ingevoerd, worden voor elke rechtspersoon automatisch de toepasbare vereffening, aan- en van-transacties gegenereerd voor elke rechtspersoon. Er wordt een vereffeningsrecord gemaakt voor elke combinatie van factuur en betaling in de transactie. Aan elk vereffeningsrecord wordt een nieuw boekstuknummer toegewezen, gebaseerd op de nummervolgordereeks voor betalingsboekstukken die is opgegeven op de pagina **Klantparameters** voor klanten en op de pagina **Leverancierparameters** voor leveranciers. 
@@ -49,7 +52,7 @@ U kunt ook standaardbeschrijvingen definiëren voor intercompany-vereffeningsboe
 <a name="currency-exchange-gains-or-losses"></a>Winst of verlies bij valutawissel
 ---------------------------------
 
-De wisselkoers die wordt gebruikt voor klant- of leveranciertransacties, wordt opgeslagen bij de transactie. Gerealiseerde winsten of verliezen voor valutaomrekening worden geboekt voor de rechtspersoon van de factuur of voor de rechtspersoon van de betaling, afhankelijk van de optie die is geselecteerd voor het veld **Winst of verlies bij valutawissel boeken** op de pagina **Intercompany-boekhouding** voor de rechtspersoon van de betaling. In de volgende voorbeelden worden deze valuta´s gebruikt:
+De wisselkoers die wordt gebruikt voor klant- of leveranciertransacties, wordt opgeslagen bij de transactie. Gerealiseerde winsten of verliezen voor valutaomrekening worden geboekt voor de rechtspersoon van de factuur of voor de rechtspersoon van de betaling, afhankelijk van de optie die is geselecteerd voor het veld **Winst of verlies bij valutawissel boeken** op de pagina **Intercompany-boekhouding** voor de rechtspersoon van de betaling. In de volgende voorbeelden worden deze valuta's gebruikt:
 -   Boekhoudvaluta betaling: EUR
 -   Boekhoudvaluta factuur: USD
 -   Valuta betalingstransactie: DKK
@@ -108,6 +111,8 @@ Voor betalingen aan leveranciers gebruiken de transacties bestemd voor en afkoms
 
 ## <a name="withholding-tax"></a>Bronbelasting
 De leveranciersrekening die aan de factuur is gekoppeld, wordt gebruikt om te bepalen of de bronbelasting berekend moet worden. Als bronbelasting van toepassing is, wordt deze berekend in de rechtspersoon die aan de factuur is gekoppeld. Als de rechtspersonen verschillende valuta gebruiken, wordt de wisselkoers gebruikt van de rechtspersoon die aan de factuur is gekoppeld.
+
+
 
 
 

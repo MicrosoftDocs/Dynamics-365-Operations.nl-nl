@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Bankafschriften afstemmen via geavanceerde bankafstemming
 
+[!include[banner](../includes/banner.md)]
+
+
 Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Operations. In dit onderwerp wordt het afstemmingsproces uitgelegd.  
 
 <a name="import-an-electronic-bank-statement"></a>Een elektronisch bankafschrift importeren
@@ -74,7 +77,7 @@ Er zijn drie manieren om bankafschrifttransacties af te stemmen:
 -   De transacties afstemmen met een omgekeerde bankafschrifttransactie.
 -   De transacties markeren als **Nieuw**, zodat zij later kunnen worden geboekt als een banktransactie in Dynamics 365 for Operations.
 
-Om handmatig transacties te verevenen, selecteert u de transacties in de **overzicht banktransacties** raster, selecteert u de bijbehorende transacties in de **bewerkingen banktransacties** raster en klik vervolgens op **overeenkomen met**. De geselecteerde transacties worden verplaatst van de bovenste rasters voor niet-afgestemde transacties naar de lagere rasters voor afgestemde transacties. Bovendien worden de afgestemde en niet-afgestemde totaalbedragen bijgewerkt. U kunt één-op-één, veel-op-één en veel-op-veel transactieafstemmingen hebben. Afstemmingen moeten voldoen aan de regels voor toegestane datumverschillen en toewijzing van het transactietype. Deze regels worden ingesteld op de pagina **Parameters voor Contanten en bankbeheer**.
+Als u transacties handmatig wilt afstemmen, selecteert u de transacties in het raster **Bankafschrifttransacties**, selecteert u de bijbehorende transacties in het raster **Operations-banktransacties** en klikt u vervolgens op **Afstemmen**. De geselecteerde transacties worden verplaatst van de bovenste rasters voor niet-afgestemde transacties naar de lagere rasters voor afgestemde transacties. Bovendien worden de afgestemde en niet-afgestemde totaalbedragen bijgewerkt. U kunt één-op-één, veel-op-één en veel-op-veel transactieafstemmingen hebben. Afstemmingen moeten voldoen aan de regels voor toegestane datumverschillen en toewijzing van het transactietype. Deze regels worden ingesteld op de pagina **Parameters voor Contanten en bankbeheer**.
 
 In uw afstemming kunnen afrondingsverschillen optreden. U kunt een enkele bankafschrifttransactie en een enkele Operations-banktransactie met afrondingsverschillen afstemmen als de afrondingen binnen het tolerantiebedrag liggen dat is gedefinieerd door het veld **Toegestane afrondingsverschil** van de bankrekening. Het bedrag wordt weergegeven in het veld **Correctiebedrag** in de gecorrigeerde Operations-banktransactie. Wanneer de bankafstemming is gemarkeerd als afgestemd, worden de correcties automatisch geboekt door middel van de hoofdrekening die voor het gekoppelde banktransactietype is gedefinieerd. Correcties wordt niet ondersteund voor de documenttypen **Cheque** en **Deposito**. 
 
@@ -90,5 +93,7 @@ Nadat alle afschriftregels verwerkt zijn, moet u het werkblad voor bankafstemmin
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Nieuwe transacties boeken die aan de afstemming zijn gekoppeld
 Bankafschrifttransacties die u hebt gemarkeerd als **Nieuw** op het werkblad voor afstemming, worden geboekt op de pagina **Bankafschrift**. Selecteer op de pagina **Bankafschrift** de afschrift-id om de details van het afschrift te bekijken. In het menu **Boekhouding** kunt u de opties **Verdelingen weergeven** en **Boekhouding weergeven** gebruiken om details achter de nieuwe transacties en de bijbehorende grootboekvermeldingen te bekijken. Selecteer de optie **Boeken** om de bankafschriftregels die zijn gemarkeerd als **Nieuw** naar het grootboek te boeken. Houd er rekening mee dat boeken slechts één keer per bankafschrift kan worden voltooid.
+
+
 
 

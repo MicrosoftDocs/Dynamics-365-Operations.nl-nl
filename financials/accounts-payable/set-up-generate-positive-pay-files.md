@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Positieve betalingsbestanden instellen en genereren
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel beschrijft hoe u positieve betalingsbestanden instelt en genereert. 
 
 U kunt positief betalen gebruiken om een electronische lijst met cheques te genereren die aan de bank wordt gegeven. Wanneer vervolgens een cheque aan de bank wordt gepresenteerd, vergelijkt de bank deze met de lijst met cheques. Als de cheque overeenkomt met wat de bank op de lijst heeft, keert de bank de cheque uit. Als de cheque niet overeenkomt met een cheque in de lijst, gaat de bank de cheque controleren.
 
 ## <a name="security-for-positive-pay-files"></a>Beveiliging voor positieve betalingsbestanden
-Positieve betalingsbestanden kunnen vertrouwelijke informatie over begunstigden bevatten en chequebedragen. Verzeker daarom dat u de juiste beveiligingsmaatregelen treft vanaf de tijd dat bestanden worden gegenereerd, totdat deze door de bank worden ontvangen. Positieve betalingsbestanden worden gedownload naar de locatie die door uw webbrowser is opgegeven. Aangezien positief salaris-bestanden gevoelige gegevens bevatten kunnen, is het belangrijk dat alleen geautoriseerde gebruikers toegang hebben tot genereren en deze informatie bekijken in Microsoft Dynamics 365 voor bewerkingen. Gebruik de volgende tabel om u te helpen de bevoegdheden te bepalen die zijn vereist.
+Positieve betalingsbestanden kunnen vertrouwelijke informatie over begunstigden bevatten en chequebedragen. Verzeker daarom dat u de juiste beveiligingsmaatregelen treft vanaf de tijd dat bestanden worden gegenereerd, totdat deze door de bank worden ontvangen. Positieve betalingsbestanden worden gedownload naar de locatie die door uw webbrowser is opgegeven. Omdat positieve betalingsbestanden vertrouwelijke informatie kunnen bevatten, is het belangrijk dat alleen de geautoriseerde gebruikers toegang hebben om deze informatie in Microsoft Dynamics 365 for Operations te genereren en te bekijken. Gebruik de volgende tabel om u te helpen de bevoegdheden te bepalen die zijn vereist.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Nadat de cheques betaald zijn die in een positive pay-bestand staan geregistreer
 
 ## <a name="recall-a-positive-pay-file"></a>Een positive pay-bestand herroepen
 Als u een positief betalingsbestand moet wijzigen, kunt u het intrekken. Selecteer op de pagina **Samenvatting van positief betalingsbestand** een positief betalingsbestand dat een status **Gemaakt** heeft en selecteer vervolgens de actie **Intrekken**. Voor elke cheque in het positieve betalingsbestand geeft het veld aan of die cheque is opgenomen in een positief betalingsbestand opnieuw ingesteld. Vervolgens kunt u een nieuw positieve betalingsbestand maken dat de ingetrokken cheque bevat.
+
+
 
 

@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Overzicht van inkooporders
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat algemene informatie over inkooporders (IO's) en koppelingen naar aanvullende artikelen die zijn gerelateerd aan de verschillende fasen die een IO doorloopt.
 
 Een inkooporder (IO) is een document dat een overeenkomst met een leverancier voor het kopen van goederen of diensten vertegenwoordigt. Het document helpt ook bij het bijhouden van productontvangsten die plaatsvinden op basis van de order en, later, bij de administratieve afhandeling van facturen van leveranciers die de leverancier in rekening brengt op basis van de order.  
 
-De pagina **Inkooporders** bevat een overzicht van de beschikbare orders en biedt u de mogelijkheid deze orders te wijzigen. Wanneer u een inkooporder opent, kunt u de **koptekstweergave** selecteren. Deze bevat gegevens die slechts één keer voor elke inkooporder worden opgegeven, zoals de details van de leverancier. U kunt ook de **regelweergave** selecteren, waarin u orderregels kunt wijzigen. Normaal gesproken wordt u schakelen tussen deze twee weergaven terwijl u POs wijzigt. Toeslagen worden niet vermeld rechtstreeks op de **inkooporders** pagina, maar kunnen worden geopend via de menu's op de koptekst en regels.  
+De pagina **Inkooporders** bevat een overzicht van de beschikbare orders en biedt u de mogelijkheid deze orders te wijzigen. Wanneer u een inkooporder opent, kunt u de **koptekstweergave** selecteren. Deze bevat gegevens die slechts één keer voor elke inkooporder worden opgegeven, zoals de details van de leverancier. U kunt ook de **regelweergave** selecteren, waarin u orderregels kunt wijzigen. Normaal gesproken schakelt u tussen deze twee weergaven terwijl u inkooporders wijzigt. Toeslagen worden niet rechtstreeks vermeld op de pagina **Inkooporders**, maar kunnen worden geopend via de menu's op de orderkoptekst en -regels.  
 
 Er zijn vele rapporten waarin u informatie over inkooporders, productontvangstbonnen en leveranciersfacturen kunt bekijken. Deze rapporten zijn te vinden in de modules **Inkoop en sourcing** en **Leveranciers**.  
 
-In de werkruimten **Voorbereiding van inkooporder** en **Inkooporderontvangst en opvolging** kunt u lijsten weergeven van inkooporders in de verschillende statussen die zij hebben bereikt. Zij bieden ook een overzicht van de acties die moeten worden uitgevoerd. De werkruimte **Voorbereiding van inkooporder** is gericht op het maken en bekijken van inkooporders, het verwerken van de order door middel van goedkeuring en het bevestigen hiervan bij de leverancier. De **inkooporder wordt ontvangen en opvolging** werkruimte is gericht op de verwerking van de ontvangst van goederen of diensten tegen POs. Lijsten die geven inzicht in de ontvangsten die achterstallig zijn of die binnenkort moeten worden voldaan voor de levering door de leverancier bevat. Deze werkruimten worden niet gebruikt om de gerelateerde ontvangstactiviteiten uit te voeren die plaatsvinden in het magazijn. Deze activiteiten worden uitgevoerd met behulp van pagina's in de modules **Voorraadbeheer** en **Magazijnbeheer**. Verwerking van facturen van leveranciers moet worden uitgevoerd met behulp van de werkruimte **Leveranciersfactuurregistratie** en betalingen moeten worden gedaan met behulp van de werkruimte **Leveranciersbetalingen**.  
+In de werkruimten **Voorbereiding van inkooporder** en **Inkooporderontvangst en opvolging** kunt u lijsten weergeven van inkooporders in de verschillende statussen die zij hebben bereikt. Zij bieden ook een overzicht van de acties die moeten worden uitgevoerd. De werkruimte **Voorbereiding van inkooporder** is gericht op het maken en bekijken van inkooporders, het verwerken van de order door middel van goedkeuring en het bevestigen hiervan bij de leverancier. Het werkgebied **Inkooporderontvangst en opvolging** is gericht op het verwerken van de ontvangst van goederen of diensten tegen inkooporders. Hier vindt u lijsten met overzichten van ontvangsten die achterstallig zijn, of die binnenkort moeten worden geleverd door de leverancier. Deze werkruimten worden niet gebruikt om de gerelateerde ontvangstactiviteiten uit te voeren die plaatsvinden in het magazijn. Deze activiteiten worden uitgevoerd met behulp van pagina's in de modules **Voorraadbeheer** en **Magazijnbeheer**. Verwerking van facturen van leveranciers moet worden uitgevoerd met behulp van de werkruimte **Leveranciersfactuurregistratie** en betalingen moeten worden gedaan met behulp van de werkruimte **Leveranciersbetalingen**.  
 
 De volgende artikelen bieden een overzicht van de verschillende fasen die een inkooporder doorloopt:
 
@@ -45,7 +48,7 @@ De volgende artikelen bieden een overzicht van de verschillende fasen die een in
 -   [Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Typen inkooporders
-Er zijn drie typen POs. Wanneer u een inkooporder maakt, moet u het type opgeven. U kunt een standaardordertype voor nieuwe orders instellen op de pagina **Parameters voor inkoop en sourcing**.
+Er zijn drie typen inkooporders. Wanneer u een inkooporder maakt, moet u het type opgeven. U kunt een standaardordertype voor nieuwe orders instellen op de pagina **Parameters voor inkoop en sourcing**.
 
 | Inkoopordertype        | Beschrijving                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ Het veld **Goedkeuringsstatus** wordt gebruikt wanneer een inkooporder een contr
 <a name="see-also"></a>Zie ook
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Inkooporder maken](purchase-order-creation.md)
 
 [Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
 
 [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
 
 [Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

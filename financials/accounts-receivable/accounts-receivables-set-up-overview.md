@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Klanten en Crediteringen en aanmaningen configureren
 
+[!include[banner](../includes/banner.md)]
+
+
 Configureer Klanten en Crediteringen en aanmaningen om facturen en binnenkomende betalingen van klanten bij te houden.
 
 U kunt klantgroepen, klanten, boekingsprofielen, diverse betalingsopties, rentenota's, aanmaningen, provisies, parameters voor klanten, toeslagen, leveringen en bestemmingen, wissels en andere typen gegevens voor Klanten en Crediteringen en aanmaningen instellen.
 In de volgende tabel worden de pagina's weergegeven die de configuratie en het onderhoud van Klanten en Crediteringen en aanmaningen ondersteunen. De items in de tabel zijn gerangschikt op taak en vervolgens alfabetisch gesorteerd op paginanaam.
 
-| ![opmerking](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "opmerking")**opmerking**          |
+| ![Opmerking](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Opmerking")**Opmerking**          |
 |--------------------------------------------------------------------------------------------------|
 | Voor sommige pagina's in deze tabel zijn gegevens of parameterinstellingen nodig om naar de formulieren te kunnen navigeren. |
 
@@ -98,14 +101,16 @@ In de volgende tabel worden de pagina's weergegeven die de configuratie en het o
 |                                                      | Contactpersonen en e-mailinstellingen voor klanten | Contactpersonen met hun e-mailadressen instellen voor klanten. Deze adressen verschijnen op de pagina Aanmaningen en worden gebruikt voor e-mails naar klanten. Stel ook voor elke klant een standaardcontactpersoon voor aanmaningen in die als eerste moet worden weergegeven op de pagina Aanmaningen. |
 |                                                      | Klantverzamelingen                       | Klantverzamelingen instellen die query's zijn waarmee een groep klantrekeningen wordt gedefinieerd die kan worden weergegeven en beheerd voor aanmaningen of ouderdomsrangschikkingsprocessen                                                                                                                           |
 |                                                      | Boekingsprofiel van klant             | De profielen instellen waarmee het boeken van klanttransacties naar het grootboek wordt beheerd                                                                                                                                                                                      |
-|                                                      | Redencodes van klant                | Redencodes van klant instellen.                                                                                                                                                                                                                                                    |
-|                                                      | Redencodes voor afschrijvingen van klant      | Redencodes van klant afschrijving die wordt gebruikt voor afschrijvingstransacties instellen.                                                                                                                                                                                             |
+|                                                      | Redencodes van klant                | U kunt redencodes voor klanten instellen.                                                                                                                                                                                                                                                    |
+|                                                      | Redencodes voor afschrijvingen van klant      | U kunt redencodes voor afschrijvingen van klanten instellen die worden gebruikt voor afschrijvingstransacties.                                                                                                                                                                                             |
 |                                                      | Formulierinstelling                           | Parameters voor formuliernotities definiëren voor offertes, bevestigingen, orderverzamellijsten, pakbonnen, klantfacturen, vrije-tekstfacturen en rentenota's                                                                                                                               |
 |                                                      | Interesse                             | Rentecodes instellen en beheren                                                                                                                                                                                                                                                 |
-|                                                      | NSF-informatie.                     | Informatie over ontoereikend saldo instellen voor de bankrekening die wordt gebruikt wanneer een betaling als transactie met ontoereikend saldo is gemarkeerd op de pagina Aanmaningen.                                                                                                                                              |
+|                                                      | Informatie over ontoereikend saldo.                     | Informatie over ontoereikend saldo instellen voor de bankrekening die wordt gebruikt wanneer een betaling als transactie met ontoereikend saldo is gemarkeerd op de pagina Aanmaningen.                                                                                                                                              |
 |                                                      | Gegevens verkoper              | Het e-mailadres voor verkopers instellen. Deze adressen worden op de pagina Aanmaningen weergegeven en u kunt deze gebruiken om vanaf die pagina een e-mailbericht naar een verkoper te verzenden.                                                                                                                |
 
  
-Zie voor meer informatie [krediet en incassering in de module klanten](collections-credit-accounts-receivable.md).
+Zie [Crediteringen en aanmaningen in Klanten](collections-credit-accounts-receivable.md) voor meer informatie.
+
+
 
 

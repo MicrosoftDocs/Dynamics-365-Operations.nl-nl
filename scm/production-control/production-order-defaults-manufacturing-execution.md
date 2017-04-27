@@ -1,5 +1,5 @@
 ---
-title: Details productie in productie-uitvoering
+title: Standaardwaarden van productieorder in Productieregistratie
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Details productie in productie-uitvoering
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Standaardwaarden van productieorder in Productieregistratie
+
+[!include[banner](../includes/banner.md)]
 
 
 
-Overweeg de instellingen op de **productie details** pagina voordat werknemers beginnen om te registreren voor productietaken. Als uw bedrijf gebruikmaakt van de functionaliteit voor meerdere locaties, wilt u mogelijk verschillende standaardinstellingen opgeven voor productieorders voor elke locatie. De orderstandaarden voor integratie met Productiebeheer worden ingesteld op de volgende tabbladen op de pagina **Standaardwaarden van productieorder**:
+
+U moet alle instellingen op de pagina **Standaardwaarden van productieorder** zorgvuldig overwegen voordat werknemers registraties voor productietaken beginnen te maken. Als uw bedrijf gebruik maakt van de functionaliteit voor meerdere locaties, wilt u misschien verschillende standaardwaarden instellen voor productieorders voor elke site. De orderstandaarden voor integratie met Productiebeheer worden ingesteld op de volgende tabbladen op de pagina **Standaardwaarden van productieorder**:
 
 -   **Algemeen** - Algemene orderstandaarden voor productietaken in Productieregistratie.
 -   **Begin** - Orderstandaarden die worden gebruikt wanneer de productietaken of bewerkingen worden gestart.
@@ -68,6 +71,8 @@ Materiaalverbruik tijdens het gereedmeldproces van een productieorder wordt bepa
 -   **Wisprincipe** - Wanneer een productieorder is gereedgemeld, worden de hoeveelheden materialen verbruikt volgens het wisprincipe dat op de productiestuklijstregels is ingesteld. Alleen materiaalregels waarop het wisprincipe is ingesteld op **Voltooien** worden verbruikt.
 -   **Altijd** - Hoeveelheden materiaal die in verhouding zijn met de hoeveelheid die is gereedgemeld worden altijd verbruikt.
 -   **Nooit** - Hoeveelheden materiaal worden nooit verbruikt.
+
+
 
 
 

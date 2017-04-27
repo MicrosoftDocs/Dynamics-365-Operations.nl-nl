@@ -1,6 +1,6 @@
 ---
-title: Randapparatuur simulator detailhandel
-description: Dit onderwerp beschrijft de randapparatuur simulator tool die wordt geleverd met Microsoft Dynamics 365 for Operations - Retail.
+title: Simulator voor detailhandelrandapparaten
+description: In dit onderwerp wordt de tool voor randapparaatsimulatie beschreven, die wordt geleverd met Microsoft Dynamics 365 for Operations - Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 266544
 ms.assetid: 16f31e70-15fc-441e-9727-e6a31c3a48f5
 ms.search.region: global
@@ -25,50 +25,53 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="retail-peripheral-simulator"></a>Randapparatuur simulator detailhandel
+# <a name="retail-peripheral-simulator"></a>Simulator voor detailhandelrandapparaten
 
-Dit onderwerp beschrijft de randapparatuur simulator tool die wordt geleverd met Microsoft Dynamics 365 for Operations - Retail.
+[!include[banner](includes/banner.md)]
+
+
+In dit onderwerp wordt de tool voor randapparaatsimulatie beschreven, die wordt geleverd met Microsoft Dynamics 365 for Operations - Retail.
 
 <a name="overview"></a>Overzicht
 --------
 
-De Microsoft Dynamics 365 for Operations - randapparatuur simulator Retail is een hulpprogramma waarmee u instellen kunt, testen en oplossen van randapparatuur die worden gebruikt in omgevingen met retail. U kunt de randapparatuur simulator stroomlijnen het testen van retail randapparatuur en opsporen van problemen die worden veroorzaakt door onjuiste instellingen of stuurprogramma's niet goed functioneert. De simulator randapparatuur bevat elk programma dat functies virtuele versies van apparaten die Dynamics 365 for Operations - Retail ondersteunt. Een sectie voor elk virtueel apparaat ziet u de interactie tussen het apparaat en het punt detailhandel van verkooppunten (POS). Ook kunt u deze gegevens invoeren die geldig is voor verschillende POS-scenario's. De randapparatuur simulator ondersteunt interactie tussen het POS en de volgende virtuele apparaten:
+De simulator voor detailhandelrandapparaten in Microsoft Dynamics 365 for Operations - Retail is een hulpprogramma waarmee u randapparaten kunt instellen, testen en troubleshooten, die worden gebruikt in detailhandelomgevingen. Met de randapparaatsimulator kunt u het testen van retailrandapparaten stroomlijnen en problemen isoleren die worden veroorzaakt door onjuiste instellingen of slecht functionerende stuurprogramma's. De randapparaatsimulator bevat een pc-programma met virtuele versies van apparaten die Dynamics 365 for Operations - Retail ondersteunt. Voor elk virtueel apparaat is er een sectie, waarin u de interactie ziet tussen het apparaat en het detailhandel-POS. Ook kunt u hiermee gegevens invoeren die geldig is voor verschillende POS-scenario's. De randapparaatsimulator ondersteunt interactie tussen het POS en de volgende virtuele apparaten:
 
--   **Printer** : de randapparatuur simulator ontvangsten die zijn geconfigureerd voor een POS-printer kunt weergeven.
--   **Weergave-regel** : U kunt een virtuele regelweergave activiteit om op te geven een fysieke regelweergave configureren.
--   **Magneetstriplezer (MSR)** : U kunt gesimuleerde magneetstrip gebeurtenissen naar het POS verzenden vanuit de randapparatuur simulator.
--   **Lade** : U kunt een fysieke kassalade simuleren.
--   **Lade 2** : door een tweede kassalade in de randapparatuur simulator instelt, kunt u scenario's voor een enkele POS-kassa met twee actieve ploegen simuleren.
--   **Scanner** : de virtuele streepjescodescanner die ondersteuning biedt voor de randapparatuur simulator Streepjescode scannen gebeurtenissen kan worden verleend.
--   **Schaal** : een virtuele schaal kunt u de interactie tussen gewogen artikelen en het POS simuleren.
--   **Persoonlijke identificatienummer (PIN) toetsenblok** : U kunt simuleren PIN toetsenblok bewerkingen. **opmerking:** ondersteuning voor een fysieke pinapparaat via de betalingsconnector moet worden geïmplementeerd.
--   **Handtekeningregistratie** : de simulator randapparatuur bevat een virtueel apparaat voor handtekeningregistratie die u wilt worden gevraagd voor handtekeningen die vereist voor offertes, zoals klantbetalingen rekening zijn kunt instellen.
+-   **Printer**: De randapparaatsimulator kan ontvangstbewijzen weergeven die zijn geconfigureerd voor een POS-printer.
+-   **Regelweergave**: U kunt een virtuele regelweergave configureren, waarop de activiteit op een fysieke regelweergave wordt weergegeven.
+-   **Magneetstriplezer (MSR)**: U kunt gesimuleerde magneetstripgebeurtenissen verzenden naar het POS vanuit de randapparaatsimulator.
+-   **Lade**: U kunt een fysieke kassalade simuleren.
+-   **Lade 2**: Als u een tweede kassalade instelt in de randapparaatsimulator, kunt u scenario's simuleren voor een enkele POS-kassa met twee actieve diensten.
+-   **Scanner**: De virtuele streepjescodescanner die de randapparaatsimulator ondersteunt, kan gebeurtenissen voor scannen van codes genereren.
+-   **Schaal**: Met een virtuele schaal kunt u de interactie tussen gewogen artikelen en het POS simuleren.
+-   **Toetsenblok voor persoonlijke identificatienummers (PIN)**: U kunt bewerkingen met een PIN-toetsenblok simuleren. **Opmerking:** Ondersteuning voor een fysiek pinapparaat moet u implementeren via de betalingsconnector.
+-   **Handtekeningregistratie**: De randapparaatsimulator bevat een virtueel apparaat voor handtekeningregistratie dat u kunt instellen om te vragen om handtekeningen die vereist zijn voor bepaalde betalingsmogelijkheden, zoals betalingen van klantenrekeningen.
 
-U kunt ook de randapparatuur simulator toetsenbord wig gebeurtenissen die afkomstig van een streepjescodescanner en MSR zijn simuleren. De virtuele randapparatuur simulator ondersteunt specifiek Object Linking and Embedding voor Retail POS (OPOS) apparaten.
+Met de randapparaatsimulator kunt u ook keyboard-wedge-gebeurtenissen simuleren, die worden veroorzaakt door een streepjescodescanner en MSR. De virtuele randapparaatsimulator ondersteunt specifiek OPOS-apparaten (Object Linking and Embedding voor Retail POS).
 
-## <a name="key-scenarios"></a>Belangrijke scenario 's
+## <a name="key-scenarios"></a>Belangrijke scenario's
 ### <a name="troubleshooting"></a>Problemen oplossen
 
-U kunt de randapparatuur simulator oplossen apparaat instellen. Als er geen de simulator randapparatuur of een tweede apparaat van dezelfde klasse, kan het lastig zijn om te bepalen waar problemen afkomstig zijn. Echter wanneer u de randapparatuur simulator hebt, kunt u virtuele apparaten instellen en uitvoeren van de codepaden met dezelfde en zakelijke logica die worden gebruikt voor fysieke apparaten. Vanuit het perspectief van de randapparatuur simulator is het belangrijkste verschil tussen de virtuele apparaten en fysieke apparaten het serviceobject of stuurprogramma's. Voor de fysieke apparaten wordt het serviceobject geleverd door de fabrikant van het apparaat. De serviceobjecten worden daarentegen voor de randapparatuur simulator geleverd als onderdeel van de randapparatuur simulator. Wanneer de randapparatuur simulator correct werkt als een apparaat niet goed werkt nadat de apparaatnaam in het hardwareprofiel op de naam van een echt apparaat is gewijzigd, kunt u ervan uitgaat dat er een probleem is met het serviceobject die de fabrikant geleverd.
+U kunt met de randapparaatsimulator problemen bij het instellen van apparaten oplossen. Als u geen randapparaatsimulator of een tweede apparaat van dezelfde klasse hebt, kan het lastig zijn om te bepalen hoe problemen ontstaan. Met de randapparaatsimulator kunt u echter virtuele apparaten instellen en dezelfde codepaden en zakelijke logica uitvoeren die worden gebruikt voor fysieke apparaten. Vanuit het perspectief van de randapparaatsimulator is het belangrijkste verschil tussen de virtuele apparaten en fysieke apparaten het serviceobject ofwel apparaatstuurprogramma. Voor fysieke apparaten wordt het serviceobject geleverd door de fabrikant van het apparaat. Bij de randapparaatsimulator worden de serviceobjecten daarentegen geleverd als onderdeel van de simulator. Als er in de randapparaatsimulator geen problemen zijn en een apparaat niet goed werkt nadat de apparaatnaam in het hardwareprofiel is gewijzigd in de naam van een echt apparaat, kunt u ervan uitgaan dat er een probleem is met het serviceobject dat de fabrikant heeft geleverd.
 
 ### <a name="training"></a>Opleiding
 
-U kunt de randapparatuur simulator toevoegen een realistische laag om de kassamedewerker training als een fysieke hardware-instellingen niet beschikbaar. Wanneer de randapparatuur simulator is opgenomen in de training scenario's, kan efficiënter de kassamedewerker interactie met het POS door invoer zoals product code scans en gift kaart swipes en door te bekijken welke ontvangsten worden afgedrukt voor een specifieke transactie.
+U kunt met de randapparaatsimulator een realistische laag toevoegen aan de training van kassamedewerkers als u niet over een fysieke hardwareconfiguratie beschikt. Wanneer de randapparaatsimulator deel uitmaakt van trainingsscenario's kan de kassamedewerker efficiënter werken met het POS door invoer te verschaffen zoals barcodescans van producten en uitlezing van geschenkbonnen en door te zien welke ontvangstbewijzen worden afgedrukt voor specifieke transacties.
 
 ### <a name="testing"></a>Testen
 
-U kunt de randapparatuur simulator product streepjescodes, ontvangstbewijsindelingen, enzovoort, testen zonder fysieke hardware in een virtuele omgeving implementeren. Omdat de fysieke hardware niet vereist en u geen implementatie van een POS-client op een hardware-station of een fysieke computer, kunt u sneller wijzigingen die zijn aangebracht in de back office testen.
+U kunt met de randapparaatsimulator streepjescodes van producten, ontvangstbewijsindelingen en dergelijke testen zonder dat u fysieke hardware in een virtuele omgeving hoeft te implementeren. Omdat de fysieke hardware niet is vereist en u niet een POS-client op een hardwarestation of een fysieke computer hoeft te implementeren, kunt u sneller wijzigingen testen die zijn aangebracht in de back office.
 
-## <a name="set-up-the-peripheral-simulator"></a>De randapparatuur simulator instellen
+## <a name="set-up-the-peripheral-simulator"></a>De randapparaatsimulator instellen
 ### <a name="set-up-a-hardware-profile"></a>Een hardwareprofiel instellen
 
-1.  Als u de randapparatuur simulator instellen, gaat u naar **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**hardwareprofielen**.
-2.  Een nieuw profiel toevoegen, klikt u op **New**.
-3.  Voer waarden in de **Profielnummer** en **omschrijving** velden.
-4.  Gebruik de volgende tabel om in te stellen van de virtuele apparaten die moeten worden getest. Hier volgt een uitleg van de kolommen in de tabel:
-    -   **Apparaat** – deze kolom geeft de naam van het sneltabblad dat u uitbreiden om het apparaat in te stellen.
-    -   **Apparaattype** – deze kolom geeft de waarde die u selecteert in het veld dat wordt aangeduid met de naam van het apparaat.
-    -   **Apparaatnaam** – deze kolom geeft de exacte waarde die u voor de apparaatnaam invoert. **Belangrijk:** de namen die hier zijn gegeven zijn vereist, omdat het station hardware deze specifieke namen gebruikt om de apparaten. Als u deze specifieke namen niet gebruikt, is het apparaat niet kan worden gebruikt.
+1.  Om de randapparaatsimulator in te stellen, gaat u naar **Detailhandel en commerce** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
+2.  Klik op **Nieuw** om een nieuw profiel te maken.
+3.  Voer in de velden **Profielnummer** en **Beschrijving** waarden in.
+4.  Aan de hand van de volgende tabel kunt u de virtuele apparaten instellen die u wilt testen. Hier volgt een uitleg van de kolommen in de tabel:
+    -   **Apparaat**: In deze kolom vindt u de naam van het sneltabblad dat u uitvouwt om het apparaat in te stellen.
+    -   **Apparaattype**: In deze kolom vindt u de waarde die u selecteert in het veld dat wordt aangeduid met de naam van het apparaat.
+    -   **Apparaatnaam**: In deze kolom vindt u de exacte waarde die u voor de apparaatnaam invoert. **Belangrijk:** De namen die hier worden genoemd, zijn vereist omdat het hardwarestation deze specifieke namen gebruikt om de apparaten aan te spreken. Als u deze specifieke namen niet gebruikt, kan het apparaat niet worden gebruikt.
 
     | Apparaat            | Apparaattype | Apparaatnaam              |
     |-------------------|-------------|--------------------------|
@@ -82,121 +85,123 @@ U kunt de randapparatuur simulator product streepjescodes, ontvangstbewijsindeli
     | Pinapparaat           | OPOS        | MockOPOSPinPad           |
     | Handtekeningregistratie | OPOS        | MockOPOSSignatureCapture |
 
-**opmerking:** geen specifieke instellingen in het hardwareprofiel is vereist voor het simuleren van toetsenbord wig gebeurtenissen van de scanner voor streepjescodes en MSR.
+**Opmerking:** Er zijn geen specifieke instellingen in het hardwareprofiel vereist om keyboard-wedge-gebeurtenissen van de streepjescodesscanner en MSR te simuleren.
 
-### <a name="assign-the-hardware-profile-to-a-register"></a>Het hardwareprofiel aan een kassa toewijzen
+### <a name="assign-the-hardware-profile-to-a-register"></a>Het hardwareprofiel toewijzen aan een kassa
 
-1.  Nadat het hardwareprofiel is gemaakt, gaat u naar **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**registreert**.
-2.  In de **POS-kassa's** lijst, klikt u op de koppeling in de **kassanummer** -veld voor het journaal dat de randapparatuur simulator moet worden gebruikt.
+1.  Nadat u het hardwareprofiel hebt gemaakt, gaat u naar **Detailhandel en commerce** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen**&gt;**Kassa's**.
+2.  Klik in de lijst **POS-kassa's** op de koppeling in het veld **Kassanummer** voor de kassa waarvoor u de randapparaatsimulator wilt gebruiken.
 3.  Klik op **Bewerken**.
-4.  In de **profielen** gedeelte in de **hardwareprofiel** veld, selecteert u het hardwareprofiel dat u hebt gemaakt voor virtuele randapparatuur.
-5.  Click **Save**.
+4.  Selecteer in de sectie **Profielen** in het veld **Hardwareprofiel** het hardwareprofiel dat u hebt gemaakt voor virtuele randapparaten.
+5.  Klik op **Opslaan**.
 
-### <a name="synchronize-changes-to-the-channel-database"></a>Wijzigingen in de kanaaldatabase synchroniseren
+### <a name="synchronize-changes-to-the-channel-database"></a>Wijzigingen synchroniseren met de afzetkanaaldatabase
 
-1.  Ga naar **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributieplanning**.
-2.  Selecteer de **1090** distributieplanning.
-3.  Klik op **nu uitvoeren** te synchroniseren van wijzigingen in het POS.
+1.  Ga naar **Detailhandel en commerce** &gt; **Detailhandel-IT** &gt; **Distributieplanning**.
+2.  Selecteer de distributieplanning **1090**.
+3.  Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 
-Nadat de gegevens zijn gesynchroniseerd, zijn de nieuwe hardwareprofiel en wijzigingen in het register beschikbaar in de kanaaldatabase.
+Nadat de gegevens zijn gesynchroniseerd, zijn de nieuwe hardwareprofiel en wijzigingen in de kassa beschikbaar in de afzetkanaaldatabase.
 
-## <a name="install-the-peripheral-simulator"></a>De randapparatuur simulator installeren
-1.  Ga naar **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**hardwareprofielen**.
-2.  Klik op **downloaden**, en klik vervolgens op **PeripheralSimulator**. **opmerking:** moet u pop-upblokkeringsprogramma's uitschakelen voordat u de randapparatuur simulator kunt downloaden.
-3.  Nadat het downloaden is voltooid, opent u het **Downloads** map en dubbelklik op **VirtualPeripherals.msi** het installatieprogramma te starten.
-4.  De randapparatuur simulator installeren via de standaardinstellingen.
+## <a name="install-the-peripheral-simulator"></a>De randapparaatsimulator installeren
+1.  Ga naar **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
+2.  Klik op **Downloaden** en vervolgens op **PeripheralSimulator**. **Opmerking:** U moet pop-upblockers uitschakelen voordat u de randapparaatsimulator kunt downloaden.
+3.  Nadat het downloaden is voltooid, opent u de map **Downloads** en dubbelklikt u op **VirtualPeripherals.msi** om het installatieprogramma te starten.
+4.  De randapparaatsimulator installeren met de standaardinstellingen.
 
-Naast de randapparatuur simulator, moet u de gebruikte control-objecten van Monroe Consulting Services installeren. Anders wordt werkt de randapparatuur simulator niet correct. Als u wilt downloaden van de gebruikte control-objecten, gaat u naar <http://monroecs.com/oposccos_current.htm>.
+Naast de randapparaatsimulator moet u de Common Control Objects van Monroe Consulting Services installeren. Anders functioneert de randapparaatsimulator niet correct. Om de Common Control Objecten te downloaden, gaat u naar <http://monroecs.com/oposccos_current.htm>.
 
-## <a name="using-the-peripheral-simulator"></a>Met behulp van de randapparatuur simulator
-U start de randapparatuur simulator, klikt u op **starten** op uw computer, typt u **detailhandel randapparatuur simulator**, en selecteer vervolgens de app wanneer deze wordt weergegeven in de zoekresultaten. Nadat u de randapparatuur simulator start, klikt u op een apparaatnaam om te zien van de ondersteunde apparaten. Deze apparaten wordt weergegeven als tabbladen aan de linkerkant van het venster. Klik op het tabblad voor het apparaat een bepaald apparaat.
+## <a name="using-the-peripheral-simulator"></a>De randapparaatsimulator gebruiken
+Om de randapparaatsimulator te starten, klikt u op **Starten** op uw computer. U typt **Detailhandel randapparaatsimulator** en selecteert vervolgens de app als deze wordt weergegeven in de zoekresultaten. Nadat u de randapparaatsimulator hebt gestart, klikt u op een apparaatnaam om de ondersteunde apparaten te zien. Deze apparaten wordt weergegeven als tabbladen aan de linkerkant van het venster. Klik op het tabblad voor een bepaald apparaat om dat apparaat weer te geven.
 
-### <a name="line-display-capabilities"></a>Regel weergavemogelijkheden
+### <a name="line-display-capabilities"></a>Mogelijkheden voor regelweergave
 
-De regelweergave is het eerste apparaat dat wordt vermeld in de randapparatuur simulator. Wanneer de virtuele regelweergave wordt geconfigureerd, zien hierin regelartikelen worden gecontroleerd in de POS-transactie. De weergave bevat naast regelartikelen, het totaal dat is verschuldigd als een betaling is geselecteerd op het POS. Het saldo die verwacht wordt ook weergegeven als een betaling wordt ingevoerd, maar nog steeds een saldo is verschuldigd voor de transactie. Wanneer het POS niet wordt gebruikt, kan een bericht weergegeven om aan te geven dat de kassa gesloten is. Moet u het bericht op de **weergave regel** sneltabblad in het hardwareprofiel.
+De regelweergave is het eerste apparaat dat wordt vermeld in de randapparaatsimulator. Als de virtuele regelweergave is geconfigureerd, worden hierin regelartikelen getoond terwijl zij in de POS-transactie worden gescand. De weergave bevat naast regelartikelen het totaalbedrag dat is verschuldigd, wanneer een betalingsmethode wordt geselecteerd op het POS. Ook wordt het saldo getoond dat nog openstaat als een betalingsmethode wordt uitgevoerd, maar er nog een saldo openstaat voor de transactie. Wanneer het POS niet wordt gebruikt, kan een bericht worden weergegeven om aan te geven dat de kassa gesloten is. Moet u het bericht configureren op het sneltabblad **Weergaveregel** in het hardwareprofiel.
 
-### <a name="cash-drawer-capabilities"></a>Mogelijkheden voor cash-lade
+### <a name="cash-drawer-capabilities"></a>Mogelijkheden voor kassaladen
 
-De kassalade wordt het tweede apparaat dat wordt vermeld in de randapparatuur simulator. Wanneer het hardwareprofiel is geconfigureerd voor gebruik van virtuele kassalades, het POS de kassalade voor de actieve ploeg geopend naar aanleiding van ladebewerkingen zoals kascontroles, en zodat de kassamedewerker kunt wijzigen of storting van contant geld tijdens standaard cash-and-carry transacties. De virtuele kassalades hebben de labels **hoofdtabel lade** en **secundaire lade**. Deze labels geven lade en lade 2 in het hardwareprofiel respectievelijk. Wanneer een lade is gesloten, een afbeelding van een gesloten kassalade wordt weergegeven en de knop op de gesloten kassalade heet **lade openen**. Als u op deze knop klikt, wordt de afbeelding vervangen door een afbeelding van een kassalade openen om aan te geven dat de lade nu geopend is. De knop op de kassalade openen heet **sluit lade**. Meerdere bewerkingen op het POS kunnen leiden tot de kassalade te openen. De meeste bewerkingen kunnen niet worden voortgezet terwijl de kassalade geopend wordt. De uitzonderingen zijn sommige procedures voor einde dag. Als de POS-gebruiker een foutbericht waarin wordt gemeld ontvangt dat een bewerking kan niet worden uitgevoerd terwijl de kassalade geopend wordt, moet de gebruiker sluit de virtuele of fysieke kassalade om door te gaan. Als een kassalade is gemarkeerd als **gedeeld** in het hardwareprofiel het systeem niet controleren of de lade vóór een bewerking is gesloten. De bewerking gaat door zoals gebruikelijk, zelfs als de kassalade geopend wordt. Dit gedrag ondersteunt scenario's waarbij kassalades worden gedeeld door verkoopmedewerkers en één koppelen wordt een kassalade gebruikt terwijl een andere partner niet-gerelateerde taken op zijn of haar eigen POS-apparaat uitvoert. Wijzigingen die zijn aangebracht in de kassalade niet duidelijk totdat de huidige ploeg wordt gesloten en een nieuwe ploeg wordt geopend.
+De kassalade is het tweede apparaat dat wordt vermeld in de randapparaatsimulator. Wanneer het hardwareprofiel is geconfigureerd voor gebruik van virtuele kassalades, opent het POS de kassalade voor de actieve ploeg in reactie op ladebewerkingen zoals kassacontroles, en zodat de kassamedewerker wisselgeld kan nemen of contant geld kan invoegen bij standaard contante transacties. De virtuele kassalades hebben de labels **Hoofdlade** en **Secundaire lade**. Deze labels vertegenwoordigen in het hardwareprofiel respectievelijk Lade en Lade 2. Wanneer een lade is gesloten, wordt een afbeelding van een gesloten kassalade weergegeven en de knop op de gesloten kassalade draagt de tekst **Lade openen**. Als u op deze knop klikt, wordt de afbeelding vervangen door een afbeelding van een geopende kassalade om aan te geven dat de lade nu geopend is. De knop op de geopende kassalade draagt nu de tekst **Lade sluiten**. Meerdere bewerkingen op het POS kunnen ertoe leiden dat de kassalade wordt geopend. De meeste bewerkingen kunnen niet worden voortgezet zolang de kassalade geopend is. De uitzonderingen zijn sommige einde-dagprocedures. Als de POS-gebruiker een foutbericht ontvangt waarin wordt gemeld dat een bewerking niet kan worden uitgevoerd zolang de kassalade geopend is, moet de gebruiker de virtuele of fysieke kassalade sluiten om door te gaan. Als een kassalade is gemarkeerd als **Gedeeld** in het hardwareprofiel, controleert het systeem niet of de lade vóór een bewerking dicht is. De bewerking gaat door zoals gebruikelijk, zelfs als de kassalade open staat. Dit gedrag ondersteunt scenario's waarbij kassalades worden gedeeld door verkoopmedewerkers en één medewerker een kassalade gebruikt, terwijl een andere medewerker niet-gerelateerde taken uitvoert op zijn of haar eigen POS-apparaat. Wijzigingen die zijn aangebracht in de kassalade zijn niet zichtbaar totdat de huidige ploeg afsluit en een nieuwe ploeg opent.
 
-### <a name="msr-capabilities"></a>MSR-mogelijkheden
+### <a name="msr-capabilities"></a>Mogelijkheden voor magneetstriplezer (MSR)
 
-De randapparatuur simulator biedt krachtige ondersteuning voor virtuele MSR bewerkingen door in de OPOS-modus of toetsenbord wig-modus te werken. OPOS-modus is vereist dat de MSR worden geconfigureerd in het hardwareprofiel werken als een OPOS-apparaat. Toetsenbord wig modus stuurt NET toetsenbordgebeurtenissen wig gegevens naar Microsoft Windows. Naast de verschillen in instellingen verschillen OPOS en toetsenbord wig-modus op de volgende manieren:
+De randapparaatsimulator biedt krachtige ondersteuning voor virtuele MSR-bewerkingen, in de OPOS-modus of in de keyboard-wedge-modus. Voor de OPOS-modus is vereist dat de MSR is geconfigureerd in het hardwareprofiel om te functioneren als een OPOS-apparaat. In de keyboard-wedge-modus worden alleen maar gebeurtenissen met keyboard-wedge-gegevens naar Microsoft Windows verzonden. Naast de verschillen in configuratie kennen de OPOS- en de keyboard-wedge-modus de volgende verschillen:
 
--   De POS-client kunt OPOS MSR-apparaten voor specifieke scenario's, zoals de scenario's waarmee gegevens van de magneetstrip voor loyale of post van de geschenkbon.
--   In de modus voor toetsenbord wig verzendt de randapparatuur simulator toetsenbord wig gegevens naar het veld dat wordt geactiveerd wanneer de gegevens worden verzonden. Dit probleem lijkt op wat er gebeurt als de gegevens worden ingevoerd met behulp van een toetsenbord. Als u wilt gebruiken de MSR als een toetsenbord wig, moet de gebruiker naar Retail moderne POS (MPOS) om ervoor te zorgen dat gegevens worden ontvangen in het juiste veld overschakelen. U kunt daarom een vertraging configureren zodat de gebruiker tijd om ervoor te zorgen heeft dat de gegevens worden verzonden naar het juiste veld.
+-   De POS-client schakelt OPOS MSR-apparaten in voor specifieke scenario's, zoals scenario's waarin gegevens van magneetstrips kunnen worden gebruikt voor invoer van loyaliteitskaarten of geschenkbonnen.
+-   In de keyboard-wedge-modus verzendt de randapparaatsimulator keyboard-wedge-gegevens naar het veld dat wordt geactiveerd wanneer de gegevens worden verzonden. Dit gedrag lijkt op wat er gebeurt als de gegevens worden ingevoerd met behulp van een toetsenbord. Als u de MSR wilt gebruiken als een keyboard-wedge, moet de gebruiker overschakelen naar Retail Modern POS (MPOS) om ervoor te zorgen dat gegevens worden ontvangen in het juiste veld. U kunt daarom een vertraging configureren, zodat de gebruiker tijd heeft om ervoor te zorgen heeft dat de gegevens worden verzonden naar het juiste veld.
 
-#### <a name="testing-gift-and-payment-card-swipes"></a>Cadeau- en betalingsgegevens kaart swipes testen
+#### <a name="testing-gift-and-payment-card-swipes"></a>Uitlezen van geschenk- en betalingskaarten testen
 
-De virtuele MSR waarmee de randapparatuur simulator ook kunt u specifieke MSR gegevens om te testen van scenario's voor het gift- en betalingsgegevens kaart swipes configureren. Klik op het plusteken (+) om een kaart (**+**) en selecteer het type kaart. Vervolgens geeft u het kaartnummer of bij te houden van gegevens die moeten worden verzonden naar de POS, samen met de vervaldatum maand en jaar voor de kaart die u definieert. De waarde die u selecteert in de **Type kaart** veld is alleen een label die kan worden toegewezen aan een kaart. Dit label gemakkelijker kaarten kunt herkennen wanneer ze via de randapparatuur simulator worden gehaald. U kunt de kaarten die zijn geconfigureerd in de randapparatuur simulator met behulp van de pijl naar links selecteren (**&lt;**) en rechterpijl (**&gt;**) knoppen boven de afbeelding van de kaart. U kunt bewerken en kaarten verwijderen met behulp van de **bewerken** en **verwijderen** knoppen naast het plusteken (**+**) knop.
+Met de virtuele MSR die de randapparaatsimulator biedt, kunt u ook specifieke MSR-gegevens configureren om scenario's te testen voor het uitlezen van geschenk- en betalingskaarten. Om een kaart te maken, klikt u op het plusteken (**+**) en selecteert u het type kaart. Vervolgens geeft u het kaartnummer of de traceringsgegevens op die u naar het POS wilt laten zenden, samen met de vervaldatum (maand en jaar) voor de kaart die u definieert. De waarde die u selecteert in het veld **Kaarttype** is alleen een label dat kan worden toegewezen aan een kaart. Met dit label kunt u gemakkelijker kaarten herkennen, wanneer ze in de randapparaatsimulator worden gelezen. U kunt de kaarten selecteren die zijn geconfigureerd in de randapparaatsimulator met behulp van de knoppen pijl-links (**&lt;**) en pijl-rechts (**&gt;**) boven de afbeelding van de kaart. U kunt kaarten bewerken en verwijderen met behulp van de knoppen **Bewerken** en **Verwijderen** naast de plus-knop (**+**).
 
 ### <a name="pin-pad"></a>Pinapparaat
 
-U kunt de simulator PIN toetsenblok om te simuleren van een OPOS-pinapparaat configureren. Wanneer een overboekingstransactie van elektronische betaling (EFT) wordt uitgevoerd op het POS en PIN-vermelding vereist, roept de hardware-station het PIN-apparaat voor de invoer van PIN wordt gevraagd. Als u wilt werken, vereist het pinapparaat in de randapparatuur simulator EFT betaling connector ondersteuning.
+U kunt de pinapparaatsimulator configureren om een OPOS-pinapparaat te simuleren. Wanneer een transactie met een elektronische betaling (EFT) wordt uitgevoerd op het POS en invoer van een PIN is vereist, roept de hardwarestation het PIN-apparaat aan om te vragen om invoer van PIN. Om dit te laten werken, vereist het pinapparaat in de randapparaatsimulator ondersteuning voor de EFT-betalingsconnector.
 
 ### <a name="printer"></a>Printer
 
-De virtuele randapparatuur printer wordt nu ontvangsten terwijl deze worden afgedrukt op het POS. Als er een af te drukken bewerking door meerdere ontvangsten, kunt u de ontvangsten doorloopt.
+De virtuele randapparaatprinter geeft ontvangstbewijzne net zo weer als deze worden afgedrukt op het POS. Als een afdrukbewerking meerdere ontvangstbewijzen genereert, kunt u door de ontvangstbewijzen bladeren.
 
-#### <a name="configure-receipt-printing"></a>Configureren van ontvangstbewijzen af te drukken
+#### <a name="configure-receipt-printing"></a>Afdrukken van ontvangstbewijzen configureren
 
-1.  Ga naar **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**hardwareprofielen**.
-2.  Selecteer het hardwareprofiel dat u hebt gemaakt voor virtuele randapparatuur.
-3.  Op de **Printer** sneltabblad, klikt u op **bewerken**.
-4.  In de **id ontvangstbewijsprofiel** veld, selecteert u een ontvangstbewijsprofiel.
-5.  Click **Save**.
+1.  Ga naar **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
+2.  Selecteer het hardwareprofiel dat u hebt gemaakt voor virtuele randapparaten.
+3.  Klik op het sneltabblad **Printer** op **Bewerken**.
+4.  Selecteer in het veld **Id ontvangstbewijsprofiel** een ontvangstbewijsprofiel.
+5.  Klik op **Opslaan**.
 
 ### <a name="scale"></a>Schaal
 
-Wanneer een product op schaal wordt toegevoegd aan de POS-transactie en een schaal is geconfigureerd, worden het gewicht in het POS opgehaald uit de schaal. Voor zowel de virtuele en fysieke schaal, moet het product of het gewicht worden opgegeven voordat het product wordt toegevoegd aan de transactie. Voordat u het product op schaal aan de transactie toevoegen, gaat u naar de schaal van de randapparatuur simulator en gebruik de plus-teken (**+**) en het minteken (**:**) knoppen aanpassen van het gewicht dat de schaal moet rapporteren. U kunt ook opgeven met de gewenste dikte rechtstreeks in de **huidige waarde** veld. U kunt de eenheden van het gewicht van de schaal aanpassen met behulp van de plus-teken (**+**), **bewerken**, en **verwijderen** knoppen. Op deze manier kunnen eenheden worden opgegeven op basis van de producten die worden gewogen of de landinstelling waar de schaal wordt gebruikt.
+Wanneer een weegschaalproduct wordt toegevoegd aan de POS-transactie en een weegschaal is geconfigureerd, haalt het POS het gewicht op bij de schaal. Voor de virtuele en de fysieke schaal moet het product of het gewicht worden opgegeven, voordat het product wordt toegevoegd aan de transactie. Voordat u het weegschaalproduct aan de transactie toevoegt, gaat u naar de weegschaal in de randapparaatsimulator. Met de plus-knop (**+**) en de min-knop (**:**) past u het gewicht aan dat de schaal moet doorgeven. U kunt het gewenste gewicht ook rechtstreeks in het veld **Huidige waarde** invoeren. U kunt de gewichtseenheden van de weegschaal aanpassen door middel van de knoppen Plus (**+**), **Bewerken** en **Verwijderen**. Op deze manier kunnen eenheden worden opgegeven op basis van de producten die worden gewogen of de landinstelling waar de weegschaal wordt gebruikt.
 
-#### <a name="configure-a-scale-product"></a>Een product op schaal configureren
+#### <a name="configure-a-scale-product"></a>Een weegschaalproduct configureren
 
-1.  Ga naar **detailhandel en****commerce**&gt;**producten en categorieën**&gt;**vrijgegeven producten per categorie**.
+1.  Ga naar **Detailhandel en** **commerce** &gt; **Producten en categorieën** &gt; **Vrijgegeven producten per categorie**.
 2.  Open de productrecord.
-3.  Selecteer het product te wegen.
-4.  Op de **detailhandel** sneltabblad instellen de **product op schaal** optie uit **Nee** naar **Ja**.
+3.  Selecteer het product dat moet worden gewogen.
+4.  Wijzig op het sneltabblad **Detailhandel** de waarde van de optie **Weegschaalproduct** van **Nee** naar **Ja**.
 
-#### <a name="synchronize-changes-to-the-channel-database"></a>Wijzigingen in de kanaaldatabase synchroniseren
+#### <a name="synchronize-changes-to-the-channel-database"></a>Wijzigingen synchroniseren met de afzetkanaaldatabase
 
-1.  Ga naar **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributieplanning**.
-2.  Selecteer de **1040** distributieplanning.
-3.  Klik op **nu uitvoeren** te synchroniseren van wijzigingen in het POS.
+1.  Ga naar **Detailhandel en commerce** &gt; **Detailhandel-IT** &gt; **Distributieplanning**.
+2.  Selecteer de distributieplanning **1040**.
+3.  Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 
-Nadat de gegevens zijn gesynchroniseerd, wanneer een product op schaal wordt toegevoegd aan de POS-transactie, controleert het POS de schaal voor het gewicht.
+Na gegevenssynchronisatie haalt het POS, wanneer een weegschaalproduct wordt toegevoegd aan de POS-transactie en een weegschaal is geconfigureerd, het gewicht op bij de schaal.
 
 ### <a name="signature-capture"></a>Handtekeningregistratie
 
-Het virtuele apparaat voor handtekeningregistratie vraagt de gebruiker op te geven van een handtekening in het pad virtuele handtekening vastleggen wanneer een handtekening is vereist voor de betalingsmethode die wordt gebruikt. De gebruiker kan de handtekening weergeven op het POS accepteren. De kassamedewerker kan de handtekening vervolgens accepteren. De handtekening wordt vervolgens opgeslagen samen met de betaling en wordt gesynchroniseerd met de BackOffice samen met andere transactiegegevens.
+Het virtuele apparaat voor handtekeningregistratie vraagt de gebruiker om een handtekening te zetten op het virtuele handtekeningapparaat, wanneer een handtekening is vereist voor de gebruikte betalingsmethode. De gebruiker kan de handtekening laten weergeven op het POS. De kassamedewerker kan de handtekening vervolgens accepteren. De handtekening wordt vervolgens opgeslagen, samen met de betaling en wordt gesynchroniseerd met de back office samen met andere transactiegegevens.
 
-#### <a name="set-up-a-tender-to-require-a-signature"></a>Instellen van een offerte een handtekening vereisen
+#### <a name="set-up-a-tender-to-require-a-signature"></a>Een handtekening bij een betalingsmethode vereisen
 
-1.  Ga naar **detailhandel en commerce**&gt;**kanalen**&gt;**detailhandel**&gt;**alle detailhandel**.
-2.  Selecteer de winkel.
+1.  Ga naar **Detailhandel en commerce** &gt; **Afzetkanalen** &gt; **Detailhandelwinkels** &gt; **Alle detailhandelwinkels**.
+2.  Selecteer de gewenste winkel.
 3.  Klik op **Bewerken**.
-4.  Klik op **instellen**, en klik in de **instellen** sectie, klikt u op **betalingsmethoden**.
+4.  Klik op **Instellingen** en klik in de sectie **Instellingen** op **Betalingsmethoden**.
 5.  Klik op **Bewerken**.
-6.  Selecteer de betalingsmethode waarvoor een handtekening.
-7.  In de **algemeen** gedeelte onder **handtekening vastleggen**, geeft de **apparaat voor handtekeningregistratie gebruik** optie naar **Ja**.
-8.  In de **Minimumbedrag handtekeningregistratie** en voer het minimumbedrag waarmee handtekeningregistratie moet worden geactiveerd.
+6.  Selecteer de betalingsmethode waarvoor een handtekening is vereist.
+7.  Stel in de sectie **Algemeen** onder **Handtekeningregistratie** de optie **Apparaat voor handtekeningregistratie gebruik** in op **Ja**.
+8.  Voer in het veld **Minimumbedrag handtekeningregistratie** het minimumbedrag in dat de vraag om handtekeningregistratie moet activeren.
 
-#### <a name="synchronize-changes-to-the-channel-database"></a>Wijzigingen in de kanaaldatabase synchroniseren
+#### <a name="synchronize-changes-to-the-channel-database"></a>Wijzigingen synchroniseren met de afzetkanaaldatabase
 
-1.  Ga naar **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributieplanning**.
-2.  Selecteer de **1070** distributieplanning.
-3.  Klik op **nu uitvoeren** te synchroniseren van wijzigingen in het POS.
+1.  Ga naar **Detailhandel en commerce** &gt; **Detailhandel-IT** &gt; **Distributieplanning**.
+2.  Selecteer de distributieplanning **1070**.
+3.  Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 
-Nadat de gegevens zijn gesynchroniseerd, wanneer een betaling waarvoor een handtekening wordt gebruikt en het bedrag voldoet aan de drempel handtekening, wordt de gevraagd voor een handtekening op de virtuele handtekeningapparaat.
+Als na gegevenssynchronisatie een betalingsmethode wordt gebruikt waarvoor een handtekening wordt vereist en waarbij het bedrag voldoet aan de handtekeningdrempel, wordt gevraagd om een handtekening te zetten op het virtuele handtekeningapparaat.
 
 ## <a name="additional-configuration"></a>Aanvullende configuratie
-U kunt de randapparatuur simulator configuratiebestand om de scenario's die u beter op te lossen bewerken. U vindt het configuratiebestand op C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. Het configuratiebestand definieert de eenheden die beschikbaar zijn voor het testen op de schaal, de kaarttypen die beschikbaar zijn voor het testen en streepjescodetypen. Bijvoorbeeld de tekstwaarden in het configuratiebestand wordt aangepast, kunt u toevoegen een nieuw kaarttype of maateenheid die kan worden geselecteerd tijdens de uitvoering. De nieuwe waarden worden weergegeven nadat de toepassing opnieuw is opgestart.
+U kunt het configuratiebestand van de randapparaatsimulator bewerken, om beter de scenario's af te handelen die wilt testen. U vindt het configuratiebestand op C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. In het configuratiebestand worden de eenheden gedefinieerd die beschikbaar zijn voor het testen op de weegschaal, de kaarttypen die beschikbaar zijn voor het testen en streepjescodetypen. Door de tekstwaarden in het configuratiebestand aan te passen, kunt u bijvoorbeeld een nieuw kaarttype of maateenheid toevoegen, die kan worden geselecteerd tijdens de uitvoering. De nieuwe waarden worden weergegeven nadat de toepassing opnieuw is opgestart.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
-Activiteiten voor de randapparatuur simulator worden vastgelegd in de randapparatuur simulator. Het logboek is te vinden op C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. De randapparatuur simulator rapporten ook problemen met de Windows-gebeurtenislogboek, waarin u via openen kunt **toepassing Logboeken en Services**&gt;**Microsoft**&gt;**DynamicsAX**. Als wijzigingen die u hebt aangebracht aan het hardwareprofiel of andere gebieden niet duidelijk wanneer u MPOS of de randapparatuur simulator, controleert u plannertaken distributie die u gebruikt om de gegevens naar de kanaaldatabase te synchroniseren. Als de wijzigingen zijn gesynchroniseerd, maar nog steeds niet duidelijk op het POS, moet u de POS-client opnieuw opstarten. Wijzigingen in de geconfigureerde kassalades niet effectief totdat een nieuwe ploeg wordt gemaakt. Als u wijzigingen in de kassalades aanbrengt, let er daarom altijd de bestaande shift om de nieuwe instellingen van de kas-lade testen te sluiten. Soms als het stuurprogramma van de fabrikant is geïnstalleerd na de gebruikte control-objecten van de ondersteuningsdiensten van Monroe, het stuurprogramma kan leiden tot de gebruikte control-objecten niet langer goed werkt. In dit geval moet u de algemene controle objecten opnieuw installeren.
+Activiteiten voor de randapparaatsimulator worden vastgelegd in de randapparaatsimulator. U vindt het logboekbestand op C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. De randapparaatsimulator zendt ook meldingen van problemen ook naar het Windows-gebeurtenissenlogboek. Dit kunt u openen via **Logboeken voor toepassingen en services** &gt; **Microsoft** &gt; **DynamicsAX**. Als wijzigingen die u hebt aangebracht in het hardwareprofiel of andere gebieden niet zichtbaar zijn wanneer u MPOS of de randapparaatsimulator gebruikt, controleert u de plannertaken voor distributie waarmee u de gegevens synchroniseert met de afzetkanaaldatabase. Als de wijzigingen zijn gesynchroniseerd, maar nog steeds niet zichtbaar zijn in het POS, moet u de POS-client opnieuw opstarten. Wijzigingen in geconfigureerde kassaladen worden pas van kracht wanneer u een nieuwe dienst aanmaakt. Als u wijzigingen in de kassaladen aanbrengt, moet u er daarom altijd op letten dat u de bestaande dienst afsluit om de nieuwe instellingen van de kassalade te testen. Het gebeurt soms wanneer het stuurprogramma van een fabrikant wordt geïnstalleerd nadat de Common Control Objects van Monroe Consulting Services zijn geïnstalleerd, het stuurprogramma de Common Control Objects verhindert om correct te functioneren. In dit geval moet u de Common Control Objects opnieuw installeren.
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Retail randapparatuur-overzicht](retail-peripherals-overview.md)
+[Overzicht van randapparatuur voor de detailhandel](retail-peripherals-overview.md)
+
+
 
 

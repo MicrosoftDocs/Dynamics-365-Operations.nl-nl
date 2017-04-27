@@ -1,5 +1,5 @@
 ---
-title: Kanbanbord voor overboeking ondersteunen voor streepjescode scanners
+title: Ondersteuning van kanbanoverboekingsbord voor streepjescodescanners
 description: Het kanbanoverboekingsbord ondersteunt scannerinvoer vanuit een widgetstreepjescodescanner om een kanbantaak te selecteren, starten, voltooien en legen.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Kanbanbord voor overboeking ondersteunen voor streepjescode scanners
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Ondersteuning van kanbanoverboekingsbord voor streepjescodescanners
+
+[!include[banner](../includes/banner.md)]
+
 
 Het kanbanoverboekingsbord ondersteunt scannerinvoer vanuit een widgetstreepjescodescanner om een kanbantaak te selecteren, starten, voltooien en legen.
 
@@ -46,13 +49,13 @@ Op het sneltabblad **Scannerregistratie** kunt u de registratiemodus selecteren 
 <a name="registration-mode-select"></a>Registratiemodus Selecteren
 ------------------------
 
-Wanneer u een streepjescodelezer gebruikt om te selecteren van een taak, de weergavemodus van de wijzigingen van de Raad kanban. In deze modus gelden de volgende voorwaarden:
+Wanneer u een streepjescodelezer gebruikt om een taak te selecteren, wordt de weergavemodus van het kanbanbord gewijzigd. In deze modus gelden de volgende voorwaarden:
 
 -   Alleen de gescande kanbantaak wordt weergegeven.
 -   De details van de geselecteerde taak worden weergegeven op het sneltabblad **Details**.
 -   Het sneltabblad **Berichten** geeft alleen berichten weer voor de geselecteerde taak.
 -   U kunt de status van de taak wijzigen met de functies die beschikbaar zijn in het Actievenster. Het kanbanoverboekingsbord blijft één taak weergeven tijdens deze periode.
--   U kunt de informatie in de lijst met taken handmatig bijwerken door te klikken op **vernieuwen** (Shift+F5) in het actievenster te klikken. Nadat u de gegevens hebt vernieuwd, worden de volledige resultaten voor het taakfilter opnieuw weergegeven.
+-   U kunt de gegevens in de lijst met taken handmatig bijwerken door te klikken op **Vernieuwen** (Shift+F5) in het actievenster. Nadat u de gegevens hebt vernieuwd, worden de volledige resultaten voor het taakfilter opnieuw weergegeven.
 
 ## <a name="job-status-and-possible-actions"></a>Taakstatus en mogelijke acties
 De status van de geselecteerde taak en de status van alle getraceerde taken voor gebeurteniskanbans bepalen of u de taak verder kunt verwerken. De volgende tabel bevat informatie over deze statussen en taken:
@@ -185,6 +188,8 @@ De status van de geselecteerde taak en de status van alle getraceerde taken voor
 </tr>
 </tbody>
 </table>
+
+
 
 
 

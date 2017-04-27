@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
 
+[!include[banner](../includes/banner.md)]
+
+
 Met boekingsprofielen van leveranciers worden boekingen van leverancierstransacties naar het grootboek beheerd.
 
 <a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
@@ -146,6 +149,8 @@ Geef de volgende waarden op om uw boekingsprofiel in te stellen:
 | **Vereffening** | Selecteer deze optie om automatische vereffening in te schakelen van transacties die dit boekingsprofiel hebben. Als deze optie niet is geselecteerd, moet u transacties handmatig vereffenen via de pagina Openstaande transacties vereffenen. |
 | **Annuleren**     | Selecteer deze optie als u transacties met dit boekingsprofiel wilt kunnen annuleren.                                                                                                               |
 | **Sluiten**      | Selecteer een boekingsprofiel om naar over te gaan als transacties met dit boekingsprofiel gesloten zijn. Een transactie wordt als afgesloten beschouwd als deze volledig is vereffend.                                       |
+
+
 
 
 

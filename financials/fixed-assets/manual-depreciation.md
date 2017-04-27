@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>Handmatige afschrijving
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt een overzicht van de methode voor handmatige afschrijving.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **Handmatig** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, wordt de afschrijving van vaste activa die aan het afschrijvingsprofiel zijn toegewezen, bepaald door het percentage dat u opgeeft voor elk interval in het kalenderjaar. De intervallen waarvoor u percentages instelt, worden geboekt volgens de waarde die u selecteert in het veld **Periodefrequentie** op het sneltabblad **Algemeen** van de pagina **Afschrijvingsprofielen**. U kunt kiezen uit de volgende waarden:
@@ -63,13 +66,15 @@ Als u **Maandelijks** selecteert in het veld **Periodefrequentie**, moet u 12 ha
 | januari  | (11.000 – 1.000) × 10% = 1.000 |
 | februari | (11.000 – 1.000) × 50% = 5.000 |
 
-Als u **halfjaarlijks** in de *** periode frequentie ** veld ** u twee handmatige planningsintervallen instellen. In de volgende tabel ziet u de afschrijvingsbedragen voor deze twee intervallen.
+Als u **Zesmaandelijks** selecteert in het veld Periodefrequentie, stelt u twee handmatige planningsintervallen in. In de volgende tabel ziet u de afschrijvingsbedragen voor deze twee intervallen.
 
 | Interval    | Afschrijvingsbedrag            |
 |-------------|--------------------------------|
 | 30 juni     | (11.000 – 1.000) × 10% = 1.000 |
 | 31 december | (11.000 – 1.000) × 50% = 5.000 |
 
-Het totaal van de percentages voor alle intervallen hoeft te zijn van 100. Echter, ontvangt u een bericht als de waarde in de **cumulatieve percentage** op de **vaste activa-afschrijving schema's** pagina niet **100**.
+Het totaal van de percentages voor alle intervallen hoeft niet gelijk te zijn aan 100. U ontvangt echter een bericht als de waarde in het veld **Cumulatief percentage** op de pagina **Schema's afschrijvingsprofiel vaste activa** niet **100** is.
+
+
 
 

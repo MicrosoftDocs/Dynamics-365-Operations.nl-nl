@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Garantiebrieven
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over borgstellingen. In een borgstelling gaat een bank akkoord om een specifiek bedrag aan een persoon te betalen als een van de klanten van de bank in gebreke blijft voor een betaling aan of verplichting ten opzichte van die persoon. 
 
 Een borgstelling is een overeenkomst met een bank (de garant) om een bepaald bedrag aan een bepaalde persoon (de begunstigde) te betalen als de klant van de bank (de aangever) in gebreke blijft voor een betaling aan of verplichting ten opzichte van de begunstigde. Borgstellingen zijn niet overdraagbaar. Ze zijn alleen van toepassing op de begunstigde die in de overeenkomst wordt genoemd. De aangever kan in overeenstemming met de bepalingen in de overeenkomst een verhoging of verlaging van het bedrag in de borgstelling aanvragen. 
@@ -55,6 +58,8 @@ In de volgende tabel worden de acties beschreven die u kunt uitvoeren op een bor
 | Uitbreiden              | Nadat u de borgstelling aan de begunstigde hebt verstrekt, verlengt u de geldigheidsperiode als dat nodig is. |
 | Annuleren              | Wanneer het doel waarvoor de borgstelling is aangevraagd, niet langer van toepassing is, annuleert u de overeenkomst.                  |
 | Liquideren           | Wanneer de begunstigde de borgstelling aan de bank overhandigt, wordt de borgstelling uitbetaald.                      |
+
+
 
 
 

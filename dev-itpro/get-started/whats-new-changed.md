@@ -41,10 +41,10 @@ Als u Dynamics AX wilt bijwerken naar de meest recente versie, zie dan [Proces v
 <thead>
 <tr class="header">
 <th><strong>Vrijgave</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
-<th><strong><strong>Voor meer informatie</strong></strong></th>
+<th><strong><strong>Versie</strong></strong></th>
+<th><strong><strong>Build nr.</strong></strong></th>
+<th><strong><strong>Beschikbaarheid</strong></strong></th>
+<th><strong><strong>Meer informatie</strong></strong></th>
 </tr>
 </thead>
 <tbody>
@@ -52,12 +52,12 @@ Als u Dynamics AX wilt bijwerken naar de meest recente versie, zie dan [Proces v
 <td>Microsoft Dynamics 365 for Operations platform</td>
 <td>Platformupdate 4</td>
 <td>7.0.4425.16160</td>
-<td>Februari 2017</td>
+<td>2017 februari</td>
 <td><ol>
-<li>Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365 routekaart</a>.</li>
-<li>Selecteer de <strong>nieuw</strong> tabblad.</li>
-<li>In de <strong>toepassingen</strong> gebied <strong>Dynamics 365 for Operations</strong>.</li>
-<li>In de <strong>gebieden</strong> gebied <strong>Cloud-Platform</strong>.</li>
+<li>Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365-routekaart</a>.</li>
+<li>Selecteer het tabblad <strong>Nieuw</strong>.</li>
+<li>Selecteer in de sectie <strong>Toepassingen</strong> de waarde <strong>Dynamics 365 for Operations</strong>.</li>
+<li>Selecteer in de sectie <strong>Gebieden</strong> de waarde <strong>Cloudplatform</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

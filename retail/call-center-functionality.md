@@ -1,6 +1,6 @@
 ---
 title: Callcenterfunctionaliteit
-description: In dit artikel biedt een overzicht van de oproep center voor verkoop-functionaliteit in Microsoft Dynamics 365 voor bewerkingen.
+description: Dit artikel bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Operations.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="call-center-functionality"></a>Callcenterfunctionaliteit
 
-In dit artikel biedt een overzicht van de oproep center voor verkoop-functionaliteit in Microsoft Dynamics 365 voor bewerkingen.
+[!include[banner](includes/banner.md)]
 
-Detailhandel in Microsoft Dynamics AX ondersteunt ook call centers als een type detailhandelskanaal. In een callcenter nemen werknemers telefonische orders aan van klanten en maken ze verkooporders. De callcenterfunctie omvat functies die zijn ontworpen om het gemakkelijker te maken om telefoonorders aan te nemen en klantenservice te bieden door het orderverwerkingsproces heen. Bijvoorbeeld: oproep center werknemers kunnen betalingsgegevens rechtstreeks invoeren in de verkooporder en een gedetailleerd overzicht van de toeslagen en betalingen kunnen bekijken voordat ze de order indienen. Werknemers hebben ook opties om prijzen te regelen en kunnen uiteenlopende gegevens bekijken over klanten, producten en prijzen van de **verkooporderpagina**. Daarnaast hebben callcenters ook verbeterde functionaliteit voor het bijhouden van klanthistorie en orderstatus. Elk call center kan eigen gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden hebben. U kunt deze opties configureren wanneer u het call center maakt. Bovendien, kunt u de pagina **Callcenter** gebruiken om de volgende groepen functies in te schakelen of uit te schakelen die uniek voor callcenters:
+
+Dit artikel bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Operations.
+
+Detailhandel in Microsoft Dynamics AX ondersteunt ook call centers als een type detailhandelskanaal. In een callcenter nemen werknemers telefonische orders aan van klanten en maken ze verkooporders. De callcenterfunctie omvat functies die zijn ontworpen om het gemakkelijker te maken om telefoonorders aan te nemen en klantenservice te bieden door het orderverwerkingsproces heen. Bijvoorbeeld: medewerkers van callcenters kunnen betalingsgegevens rechtstreeks invoeren in de verkooporder en een gedetailleerd overzicht van de toeslagen en betalingen bekijken voordat ze de order indienen. Werknemers hebben ook opties om prijzen te regelen en kunnen uiteenlopende gegevens bekijken over klanten, producten en prijzen van de **verkooporderpagina**. Daarnaast hebben callcenters ook verbeterde functionaliteit voor het bijhouden van klanthistorie en orderstatus. Elk call center kan eigen gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden hebben. U kunt deze opties configureren wanneer u het call center maakt. Bovendien, kunt u de pagina **Callcenter** gebruiken om de volgende groepen functies in te schakelen of uit te schakelen die uniek voor callcenters:
 
 -   **Ordervoltooiing**: deze groep bevat functies die aan betalingen en ordervoltooiing in de **Verkooporder** zijn gekoppeld.
 -   **Geleide verkoop:** deze groep bevat functies die aan broncodes, scripts en catalogusaanvragen worden gekoppeld.
@@ -44,6 +47,8 @@ Wanneer u deze functies in de instellingen van het call center inschakelt, worde
 -   Verkoopbedienden kunnen de coupons van een detailhandelaar aan de order toevoegen.
 -   Verkoopbedienden kunnen continuïteitsprogramma's verkopen.
 -   De orders kunnen worden handmatig geblokkeerd worden, om aan te geven dat het verder onderzoek is vereist voordat de order kan worden verwerkt.
+
+
 
 
 

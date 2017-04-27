@@ -27,6 +27,11 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter - ontwerper en webclient
 
+[!include[banner](../includes/banner.md)]
+
+
+
+
 
 
 

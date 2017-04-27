@@ -1,6 +1,6 @@
 ---
 title: Algemene journaalverwerking
-description: In dit artikel beschrijft de mogelijkheden in Microsoft Dynamics 365 voor bewerkingen die kunnen bijdragen tot merk algemeen journaal verwerking eenvoudiger en die ook kunnen helpen garanderen dat de juiste gegevens worden vastgelegd en interne controle niet is geknoeid.
+description: In dit artikel worden de mogelijkheden in Microsoft Dynamics 365 for Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,32 +28,35 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-journal-processing"></a>Algemene journaalverwerking
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikelen beschrijft capaciteiten in Microsoft Dynamics AX die kunnen helpen algemene journaalverwerking eenvoudiger te maken en dat ook kan helpen waarborgen dat de juiste gegevens worden vastgelegd en dat geen inbreuk wordt gemaakt op de interne controle.  
 
 Journaalnamen
 
-Een van de belangrijkste gebieden instellen van is Journaalnamen. Het is verstandig om te definiëren van specifieke journaalnamen voor elk doel, zoals intercompany-, correctie van de toerekening en correctie van fouten. U kunt elke journaalnaam om invoer van gegevens voor elk doel gemakkelijk en veilig op maat maken. 
+Een van de belangrijkste in te stellen gebieden is Journaalnamen. Het is verstandig om specifieke journaalnamen te definiëren voor elk doel, zoals intercompany, correctie toerekening en correctie van fouten. U kunt elke journaalnaam aanpassen om invoer van gegevens voor elk doel gemakkelijker en veiliger te maken. 
 
 Op de pagina **Journaalnamen** kunt u de volgende elementen instellen:
 
--   **Goedkeuring workflow** - Om interne controle te verhogen, definieert u journaalworkflows die materiaallimieten vastleggen voor controle- en goedkeuringsstappen, op basis van criteria zoals totale debetbedrag wordt gebaseerd. Workflows voor de algemene journalen instellen op de ** grootboek workflows ** pagina.
+-   **Goedkeuring workflow** - Om interne controle te verhogen, definieert u journaalworkflows die materiaallimieten vastleggen voor controle- en goedkeuringsstappen, op basis van criteria zoals totale debetbedrag wordt gebaseerd. U stelt workflows voor de algemene journalen in op de pagina Grootboekworkflows.
 -   **Standaardwaarden** - Selecteer standaardwaarden voor tegenrekeningen, valuta en financiële dimensies.
 -   **Journaalcontrole** - U kunt beperkingen instellen op het bedrijf en het rekeningtype, en ook de segmentwaarden. 
 
 **Voorbeelden**
 
-U kunt een journaalnaam alleen gebruiken voor correcties. In dit geval kunt u opgeven dat alleen het rekeningtype **Grootboek** geldig is voor alle bedrijven. [![Journaal rekening controletypen](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+U kunt een journaalnaam alleen gebruiken voor correcties. In dit geval kunt u opgeven dat alleen het rekeningtype **Grootboek** geldig is voor alle bedrijven. [![Rekeningtypen voor journaalcontrole](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
-Een journaalnaam kan alleen worden gebruikt voor een specifiek segment of voor een bereik voor hoofdrekeningen. [![Journaal control segment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+Een journaalnaam kan alleen worden gebruikt voor een specifiek segment of voor een bereik voor hoofdrekeningen. [![Journaalcontrolesegment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 De optie **Automatische omkering** is beschikbare in algemene journalen. U hebt bijvoorbeeld een toerekeningscorrectie waar het werkelijke document nog niet van is verwerkt, zoals in de volgende afbeelding.
-[![Algemeen journaal omkeren](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Omkering van algemeen journaal](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-De Microsoft Excel-invoegtoepassing voor journaalpost biedt een extra beveiligingsniveau automatisering en gegevensinvoer eenvoudiger maakt. De actie **Regels openen in Excel **is beschikbaar op de pagina's **Algemeen journaal** en **Journaalboekstuk**. 
+De Microsoft Excel-invoegtoepassing voor journaalboeking biedt een extra niveau van automatisering en maakt gegevensinvoer eenvoudiger. De actie **Regels openen in Excel **is beschikbaar op de pagina's **Algemeen journaal** en **Journaalboekstuk**. 
 
 Op de pagina **Periodieke journalen** kunt u terugkerende journalen instellen om journaalverwerking te automatiseren. 
 
-U kunt boekstuksjablonen gebruiken op elk gewenst moment. Op de **algemene journalen** pagina, de **opslaan** en **boekstuksjabloon selecteren** acties staan in de **journaalboekstuk** pagina onder **functies** voor de boekstukregels.
+U kunt boekstuksjablonen gebruiken op elk gewenst moment. Op de pagina **Algemene journalen** vindt u de acties **Opslaan** en **Boekstuksjabloon selecteren** op de pagina **Journaalboekstuk** onder **Functies** voor de boekstukregels.
 
 ## <a name="related-setup"></a>Verwante instellingen
 De volgende instellingen zijn niet specifiek voor algemene journalen, maar helpen te garanderen dat de gegevensinvoer juist en eenvoudig is.
@@ -79,5 +82,6 @@ De instelling van de hoofdrekening biedt veel opties voor algemene journaalverwe
 Boekhoudingsstructuren en geavanceerde regelsstructuren zijn uiterst belangrijk voor het garanderen dat de gegevens die vereist zijn voor financiële rapportage en prestatie-opvolging worden vastgelegd tijdens de verwerking van het algemeen journaal en eventuele documentatie. Met boekhoudingsstructuren en geavanceerde regelsstructuren kunt u de gegevensinvoerervaring aanpassen. U kunt ervoor dat gegevens alleen kunnen worden ingevoerd voor financiële dimensies die in elke situatie relevant zijn, en u kunt ook de behoefte afdwingen dat altijd verplichte en juiste gegevens worden vastgelegd.
 
 Zie voor meer informatie [Planning: rekeningschema](plan-chart-of-accounts.md). 
+
 
 

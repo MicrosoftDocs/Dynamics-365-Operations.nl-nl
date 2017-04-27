@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Onkostenbeheer configureren
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics AX. In het gebied Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's, opslaan en beleid opslaan. 
 
 Omdat veel van de beslissingen die u neemt wanneer u uw configuratie voor Onkostenbeheer plant, zijn gebaseerd op de hiërarchie en financiële structuur van uw organisatie, moet u naar de planningsdocumenten voor die gebieden verwijzen.
@@ -133,6 +136,8 @@ U kunt beleid voor onkostennota's maken zodat uw organisatie tijd en geld kan be
 -   Wanneer verloopt het beleid?
 -   Wat is de beleidsregel?
 -   Wat is de uitkomt van de beleidsregel?
+
+
 
 
 

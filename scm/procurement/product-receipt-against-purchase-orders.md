@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Productontvangst tegen inkooporders
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
 
 Productontvangst is het proces van het vastleggen van de ontvangst van bestelde producten, zodat de inkooporderregels (IO) vervolgens kunnen worden verwerkt voor facturering. In sommige gevallen doorlopen producten een proces van voorafgaande registratie, waarbij aanvullende informatie van de leverancier wordt vastgelegd voordat de producten worden ontvangen. Wanneer producten binnenkomen, worden zij eerst gemarkeerd als **Geregistreerd**. De producten doorlopen vervolgens mogelijk aanvullende processen, zoals kwaliteitsbeheer, voordat zij definitief worden gemarkeerd als **Ontvangen**.
@@ -52,19 +55,21 @@ U kunt meerdere orders selecteren en de ontvangst verwerken voor alle orders teg
 
 Mogelijk kunnen inkooporders worden gemaakt op basis van een verkooporder waarvoor de **Rechtstreekse levering** is geselecteerd. Als rechtstreekse levering wordt gebruikt, komen de producten nooit in uw magazijn binnen, maar worden zij rechtstreeks van de leverancier naar de klant verzonden. In dit geval wordt de ontvangst meestal direct in de inkooporder vastgelegd. De ontvangst kan automatisch worden gedaan, bijvoorbeeld via EDI-integratie (Electronic Data Interchange) met de leverancier. Ook automatiseert Microsoft Dynamics 365 for Operations de ontvangst op de intercompany-verkooporder als verzending plaatsvindt indien de inkooporder een intercompany-inkooporder is. Als rechtstreekse levering wordt gebruikt, worden producten nog steeds als voorraad beschouwd, hoewel zij niet fysiek in het magazijn aankomen. Daarom wordt, als de ontvangst van producten in de inkooporder wordt vastgelegd, de verkooporder automatisch bijgewerkt met een pakbon, zodat de totale wijziging in de voorraad 0 (nul) is. In scenario's voor rechtstreekse levering, moet u geen voorafgaande registratie vereisen. Als u magazijnen gebruikt die zijn ingeschakeld voor magazijnbeheer, kunt u het vereiste voor nummerplaatregistratie omzeilen door een virtueel magazijn op te geven. U geeft dit magazijn op in het veld **Rechtstreekse levering magazijn** op het product. 
 
-Nadat de productontvangstbon op de inkooporder is verwerkt, de IO-status is ingesteld op **ontvangen** om aan te geven dat de factuur voor de order kan worden verwerkt. U kunt informatie over producten die al zijn ontvangen bekijken met behulp van de pagina **Productontvangstjournalen**.  
+Nadat de ontvangst van producten is verwerkt op de inkooporder, wordt de status van de inkooporder ingesteld op **Ontvangen** om aan te geven dat de factuur voor de order kan worden verwerkt. U kunt informatie over producten die al zijn ontvangen bekijken met behulp van de pagina **Productontvangstjournalen**.  
 
 U kunt toegang tot deze pagina krijgen vanuit de actiegroep **Ontvangst** op de pagina **Inkooporder**. De informatie in de journalen bevat details over de hoeveelheden, datums en dimensies.
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Overzicht van inkooporders](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Inkooporder maken](purchase-order-creation.md)
 
 [Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
 
 [Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

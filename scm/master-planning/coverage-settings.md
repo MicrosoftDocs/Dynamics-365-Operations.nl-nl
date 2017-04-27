@@ -29,13 +29,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coverage-settings"></a>Behoefteplanningsinstellingen
 
+[!include[banner](../includes/banner.md)]
+
+
 Voor de hoofdplanning wordt gebruikgemaakt van behoefteplanningsinstellingen om artikelbehoeften te berekenen. 
 
 U kunt behoefteplanningsinstellingen op verschillende manieren instellen:
 
--   Geef de behoefteplanningsinstellingen voor een behoefteplanningsgroep op. U kunt een behoefteplanningsgroep maken die instellingen bevat voor alle producten die zijn gekoppeld aan de behoefteplanningsgroep. Klik op **hoofdplanning &gt;Setup &gt;dekking &gt;Behoefteplanningsgroepen** om een behoefteplanningsgroep te maken. U kunt een behoefteplanningsgroep koppelen aan een product. Als de koppeling specifiek is voor een locatie, magazijn of productdimensie, gebruikt u het veld **Behoefteplanningsgroep** op de pagina **Artikelbehoefteplanning**. Als de koppeling generisch is, ongeacht de productdimensies, gebruikt u **Behoefteplanningsgroep** op het sneltabblad **Plannen** op de pagina **Productgegevens**. Als u geen behoefteplanningsgroep aan een product koppelt, maakt de hoofdplanning gebruik van de **Algemene behoefteplanningsgroep** die is als standaard is opgegeven op de pagina **Parameters hoofdplanning**.
+-   Geef de behoefteplanningsinstellingen voor een behoefteplanningsgroep op. U kunt een behoefteplanningsgroep maken die instellingen bevat voor alle producten die zijn gekoppeld aan de behoefteplanningsgroep. Klik op **Hoofdplanning &gt; Instellen &gt; Behoefteplanning &gt; Dekking Behoefteplanning** om een behoefteplanningsgroep te maken. U kunt een behoefteplanningsgroep koppelen aan een product. Als de koppeling specifiek is voor een locatie, magazijn of productdimensie, gebruikt u het veld **Behoefteplanningsgroep** op de pagina **Artikelbehoefteplanning**. Als de koppeling generisch is, ongeacht de productdimensies, gebruikt u **Behoefteplanningsgroep** op het sneltabblad **Plannen** op de pagina **Productgegevens**. Als u geen behoefteplanningsgroep aan een product koppelt, maakt de hoofdplanning gebruik van de **Algemene behoefteplanningsgroep** die is als standaard is opgegeven op de pagina **Parameters hoofdplanning**.
 
--   Geef behoefteplanningsinstellingen op voor een product. U kunt behoefteplanningsinstellingen maken voor een bepaald product. Klik op **productgegevensbeheer &gt;producten &gt;vrijgegeven producten**. Selecteer het product op de **actievenster**op de **plannen** tabblad de **behoefteplanningsgroep**, klikt u op **artikelbehoefteplanning** te openen de **artikelbehoefteplanning** pagina. Als het product al aan een behoefteplanningsgroep is gekoppeld, kunt u de behoefteplanningsgroepsinstellingen negeren door het veld **Overschrijven** te gebruiken. De behoefteplanningsinstellingen op de pagina** Artikelbehoefteplanning** hebben voorrang op de instellingen op de pagina **Behoefteplanningsgroep**.
+-   Geef behoefteplanningsinstellingen op voor een product. U kunt behoefteplanningsinstellingen maken voor een bepaald product. Klik op **Productgegevensbeheer &gt; Producten &gt; Vrijgegeven producten**. Selecteer het product in het **Actievenster** en klik op het tabblad **Plannen** in de **Behoefteplanningsgroep** op **Artikelbehoefteplanning** om de pagina **Artikelbehoefteplanning** te openen. Als het product al aan een behoefteplanningsgroep is gekoppeld, kunt u de behoefteplanningsgroepsinstellingen negeren door het veld **Overschrijven** te gebruiken. De behoefteplanningsinstellingen op de pagina** Artikelbehoefteplanning** hebben voorrang op de instellingen op de pagina **Behoefteplanningsgroep**.
 
 <!-- -->
 
@@ -43,13 +46,15 @@ U kunt behoefteplanningsinstellingen op verschillende manieren instellen:
 
 <!-- -->
 
--   Geef behoefteplanningsinstellingen op voor een dimensiegroep. Klik op **productgegevensbeheer &gt;veelgebruikte &gt;vrijgegeven producten**. Op de ** vrijgegeven productdetails ** pagina op de **algemeen** tabblad in het **beheer** groep, klikt u op de **opslagdimensiegroep** koppeling. Selecteer op de pagina **Opslagdimensiegroep** het veld **In behoefteplan opnemen volgens dimensie** om de behoefteplanningsinstellingen voor een dimensie in de opslagdimensiegroep te maken. Alle dimensies, zoals configuratie, kleur, grootte, stijl, beschikt over de **behoefteplan opnemen volgens dimensie** is ingeschakeld.
+-   Geef behoefteplanningsinstellingen op voor een dimensiegroep. Klik op **Productgegevensbeheer &gt; Algemeen &gt; Vrijgegeven producten**. Klik op de pagina Vrijgegeven productdetail op het tabblad **Algemeen** in de groep **Administratie** op de koppeling **Opslagdimensiegroep**. Selecteer op de pagina **Opslagdimensiegroep** het veld **In behoefteplan opnemen volgens dimensie** om de behoefteplanningsinstellingen voor een dimensie in de opslagdimensiegroep te maken. Alle productdimensies, zoals configuratie, kleur, grootte, stijl, moeten het veld **In behoefteplan opnemen volgens dimensie** hebben geselecteerd.
 
 
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Master plans](master-plans.md)
+[Hoofdplannen](master-plans.md)
+
+
 
 

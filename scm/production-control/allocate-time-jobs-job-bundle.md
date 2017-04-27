@@ -1,5 +1,5 @@
 ---
-title: Tijd worden toegewezen aan taken in een taakbundel
+title: Tijd toewijzen aan taken in een takenbundel
 description: In Productie-uitvoering kunt u taken bundelen. U kunt meerdere taken tegelijk starten op de pagina Taaklijst.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Tijd worden toegewezen aan taken in een taakbundel
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Tijd toewijzen aan taken in een takenbundel
+
+[!include[banner](../includes/banner.md)]
+
 
 In Productie-uitvoering kunt u taken bundelen. U kunt meerdere taken tegelijk starten op de pagina Taaklijst.
 
@@ -107,5 +110,7 @@ Stel dat de drie taken door een werknemer worden uitgevoerd voor een uurprijs va
 | Taak 3 | (3,33 ÷ 5) × EUR 12,00                 | 8,00 USD                | 5 uur        | 40,00 USD         |
 
 De gecorrigeerde kosten per uur en de taaktijd worden geboekt in een productiejournaal. **Opmerking:** Als u de optie **Kostencategorie** op het tabblad **Algemeen** op de pagina **Productieorderstandaarden** selecteert, wordt de werkelijke tijd voor elke taak overgeboekt naar een productiejournaal, waarbij de kosten worden toegepast op de kostencategorie van de specifieke taak.
+
+
 
 

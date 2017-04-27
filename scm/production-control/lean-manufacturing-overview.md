@@ -1,5 +1,5 @@
 ---
-title: Lean manufacturing-overzicht
+title: Overzicht van lean manufacturing
 description: Dit artikel bevat een overzicht en beschrijving van de functies van lean manufacturing in Microsoft Dynamics AX.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Lean manufacturing-overzicht
+# <a name="lean-manufacturing-overview"></a>Overzicht van lean manufacturing
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bevat een overzicht en beschrijving van de functies van lean manufacturing in Microsoft Dynamics AX.
 
@@ -49,7 +52,7 @@ Lean manufacturing opzetten door het modelleren van de productie- en logistieke 
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Kanbans gebruiken voor het melden van de vereisten van de aanvraag
 Een pull-systeem produceert alleen goederen wanneer goederen nodig zijn. Deze praktijk verkort verkooplevertijden en overtollige voorraad. U kunt kanbans gebruiken voor het plannen, bijhouden en verwerken van vereisten die zijn gebaseerd op productiestromen. Een kanbanraamwerk maken, kanbanregels maken die bepalen wanneer kanbans worden gemaakt en hoe aan de vereisten wordt voldaan. U kunt twee typen kabanregels maken: Productieregels voor het opstellen van proceskanbantaken en intrekkingskanbanregels voor het opstellen van overdrachtkanbantaken. U kunt de volgende aanvullingsstrategieën opzetten:
--   Kanbanregels met **vaste hoeveelheid** worden gekoppeld aan een vast aantal verwerkingseenheden, wat betekent dat het aantal actieve kanbans constant is. Wanneer de producten van een Kanban worden verbruikt en de verwerkingseenheden handmatig worden leeggemaakt, wordt een nieuwe kanban van hetzelfde type gemaakt. Wanneer u kanbanregels met vaste hoeveelheid opstelt, kunt u de optimale kanbanhoeveelheden en de producthoeveelheden die worden gebruikt berekenen. De berekening houdt rekening met prognoses, werkelijke vraag vanuit openstaande orders, doorlooptijd om artikelen aan te vullen en de historische vraag.
+-   Kanbanregels met **vaste hoeveelheid** worden gekoppeld aan een vast aantal verwerkingseenheden, wat betekent dat het aantal actieve kanbans constant is. Wanneer alle producten van een Kanban worden verbruikt en de verwerkingseenheden handmatig worden leeggemaakt, wordt een nieuwe kanban van hetzelfde type gemaakt. Wanneer u kanbanregels met vaste hoeveelheid opstelt, kunt u de optimale kanbanhoeveelheden en de producthoeveelheden die worden gebruikt berekenen. De berekening houdt rekening met prognoses, werkelijke vraag vanuit openstaande orders, doorlooptijd om artikelen aan te vullen en de historische vraag.
 -   **Geplande** kabanregels vullen vereisten aan die door de hoofdplanning worden berekend. De hoofdplanning genereert geplande kanbans die aan kanbans kunnen worden gefiatteerd.
 -   Kanbanregels van het type **Gebeurtenis** vullen vereisten aan die ontstaan uit verkooporderregels, productiestuklijstregels, kanbanregels en minimum voorraadinstellingen. Wanneer gebeurteniskanbans worden gegenereerd, worden ze gekoppeld aan de bronvereisten.
 
@@ -76,6 +79,8 @@ Kanbantaken zijn volledig geïntegreerd met de huidige processen voor voorraadtr
 Bovendien ondersteunt lean manufacturing de inkoop- en factureringsprocessen voor services waarnaar uitbestede activiteiten verwijzen.
 -   U kunt inkoopovereenkomstregels en services toewijzen aan uitbestede activiteiten.
 -   U kunt periodieke inkooporders en ontvangstadviezen opstellen ter ondersteuning van de inkoop en facturering van de services.
+
+
 
 
 

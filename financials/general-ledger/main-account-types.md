@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Hoofdrekeningtypen
 
+[!include[banner](../includes/banner.md)]
+
+
 De typen hoofdrekeningen bepalen hoe een hoofdrekening wordt gebruikt in het rekeningschema.
 
 U moet een type hoofdrekening selecteren wanneer u een hoofdrekening maakt op de pagina Hoofdrekeningen - rekeningschema.
@@ -35,6 +38,8 @@ U moet een type hoofdrekening selecteren wanneer u een hoofdrekening maakt op de
 -   Balans, Activa, Passiva en Eigen vermogen – Deze hoofdrekeningen worden gebruikt als transactierekeningen voor het registreren van de bedragen die een rechtspersoon bezit of verschuldigd is.
 -   Totaal – Deze hoofdrekeningen worden gebruikt om rekeningintervallen toe te voegen. U kunt de hoofdrekening van het type Totaal configureren door de pagina Rekeninginterval te gebruiken, die het totaal van de groepssaldi voor alle rekeningintervallen weergeeft. Open de pagina Rekeninginterval door op Totalen te klikken op het tabblad Algemeen wanneer u een rekeningtype Totaal hebt geselecteerd.
 -   Rapportage – Deze hoofdrekeningen worden gebruikt voor het rapporteren van het financiële overzicht, alleen voor Brazilië.
+
+
 
 
 

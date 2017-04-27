@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Werkbeleid magazijn
 
+[!include[banner](../includes/banner.md)]
+
+
 Een nieuw beleid voor magazijnwerk is geïntroduceerd in Microsoft Dynamics AX 7.0.1 (de update van mei 2016 ). Dit werkbeleid bepaalt of er magazijnwerk wordt gemaakt voor magazijnprocessen in productie.
 
-Dit werkbeleid bepaalt of er magazijnwerk wordt gemaakt voor magazijnprocessen in productie. U kunt het werkbeleid instellen door een combinatie van **werkordertypen**, een **voorraadlocatie** en een **product** te gebruiken. Bijvoorbeeld: L0101 is gereedgemeld product voltooid tot uitvoerlocatie 001. Het gerede product wordt later in een andere productieorder op uitvoerlocatie 001 verbruikt. U kunt in dit geval een werk-beleid instellen om te voorkomen dat het werk voor opslag eindproducten wordt gemaakt wanneer u L0101 tot uitvoerlocatie 001 gereed product. Het werkbeleid is een afzonderlijke entiteit die kan worden beschreven aan de hand van de volgende informatie:
+Dit werkbeleid bepaalt of er magazijnwerk wordt gemaakt voor magazijnprocessen in productie. U kunt het werkbeleid instellen door een combinatie van **werkordertypen**, een **voorraadlocatie** en een **product** te gebruiken. Stel dat het product L0101 gereed wordt gemeld bij uitvoerlocatie 001. Het eindproduct wordt later gebruikt in een andere productieorder op uitvoerlocatie 001. In dit geval kunt u een werkbeleid instellen om te voorkomen dat het werk voor het wegzetten van het eindproduct wordt uitgevoerd wanneer u product L0101 gereedmeldt bij uitvoerlocatie 001. Het werkbeleid is een afzonderlijke entiteit die kan worden beschreven aan de hand van de volgende informatie:
 
 -   **Werkbeleidsnaam **(de unieke id van het werkbeleid)
 -   **Werkordertypen **en** Werkaanmaakmethode**
@@ -55,7 +58,7 @@ U kunt een product selecteren waarop het werkbeleid van toepassing is. U kunt he
 ## <a name="example"></a>Voorbeeld
 In het volgende voorbeeld zijn er twee productieorders: PRD-001 en PRD-00*2*. Productieorder PRD-001 heeft een bewerking met de naam **Assembly**, waarbij product SC1 aan locatie O1 wordt gereedgemeld. Productieorder PRD-002 heeft een bewerking met de naam **Verven** en verbruikt product SC1 van locatie O1. Productieorder PRD-002 verbruikt ook grondstof RM1 van locatie O1. RM1 is opgeslagen in magazijnlocatie BULK-001 en wordt verzameld op locatie O1 door magazijnwerk voor het verzamelen van grondstoffen. De orderverzameling wordt gegenereerd wanneer productie PRD-002 wordt vrijgegeven. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Werkbeleid magazijn](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Wanneer u een werkbeleid voor magazijnen voor dit scenario configureert, moet u rekening houden met het volgende:
 
@@ -66,12 +69,12 @@ Hier is een voorbeeld van het werkbeleid dat u kunt instellen, op basis van deze
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Geen opslaglocaties 01'                    |-Gereed product opslaan<br>                           |
-|                                         |**Locations**<br>                                      |
-|                                         |-O1   |                                               |
-|                                         |**Products** <br>                                      |
-|                                         |-SC1                                                  |
+|**Werkbeleidsnaam**<br>                 |**Werkordertypen**<br>                               |
+| Niet wegzetten 01     `                    |- Eindproduct weggezet<br>                           |
+|                                         |**Locaties**<br>                                      |
+|                                         |- O1   |                                               |
+|                                         |**Producten** <br>                                      |
+|                                         |- SC1                                                  |
 
 In de volgende procedures vindt u stapsgewijze instructies voor het instellen van het beleid voor magazijnwerk voor dit scenario. Daarnaast wordt een voorbeeld gegeven van een configuratie om te laten zien hoe u een productieorder gereedmeldt voor een locatie die niet wordt gecontroleerd op nummerplaat.
 
@@ -244,5 +247,7 @@ STAPPEN (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

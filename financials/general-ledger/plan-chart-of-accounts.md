@@ -1,5 +1,5 @@
 ---
-title: Plan uw rekeningschema
+title: Uw rekeningschema plannen
 description: Dit artikel bevat informatie waarmee u het rekeningschema voor uw organisatie kunt plannen.
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Plan uw rekeningschema
+# <a name="plan-your-chart-of-accounts"></a>Uw rekeningschema plannen
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bevat informatie waarmee u het rekeningschema voor uw organisatie kunt plannen.
 
@@ -34,7 +37,7 @@ Als u financiële gegevens in een organisatie wilt bijhouden en onderhouden, kun
 
 Het rekeningschema is een gestructureerde lijst van de grootboekrekeningen van een rechtspersoon. De lijst wordt gebruikt om financiële rapporten voor te bereiden voor autoriteiten en eigenaren. De rekeningen worden gegroepeerd in typen rekeningen en worden verder in grotere categorieën samengevoegd. Op het meest algemene niveau zijn de rekeningen gegroepeerd als opbrengsten en kosten (exploitatierekeningen) en activa en passiva (balansrekeningen). 
 
-Een rekeningschema kan door elke rechtspersoon in een organisatie worden gedeeld en gebruikt. Het rekeningschema die wordt gebruikt door een rechtspersoon is gedefinieerd op de **grootboek** pagina. 
+Een rekeningschema kan door elke rechtspersoon in een organisatie worden gedeeld en gebruikt. Het rekeningschema dat door een rechtspersoon wordt gebruikt, wordt gedefinieerd op de pagina **Grootboek**. 
 
 Hierna vindt u een aantal factoren waarmee u rekening dient te houden wanneer u de structuur van het rekeningschema voor uw organisatie plant:
 
@@ -48,10 +51,12 @@ Het is daarom raadzaam de hoofdrekeningen te koppelen aan hoofdrekeningcategorie
 
 Gebruik de pagina **Rekeningstructuren configureren** om rekeningstructuren te configureren. Met rekeningstructuren worden geldige combinaties gedefinieerd. De combinaties vormen, samen met de hoofdrekeningen, een rekeningschema. 
 
-**Legal entity overrides** 
+**Overschrijvingen rechtspersoon** 
 
-Niet alle hoofdrekeningen zijn geldig voor alle rechtspersonen en sommige alleen relevant kan zijn voor een bepaalde periode. In dit scenario kan de sectie Overschrijvingen rechtspersoon worden gebruikt om te bepalen voor welke bedrijven de hoofdrekening moet worden opgeschort, wie de eigenaar is en de periode gedurende welke de dimensie actief is. De overschrijvingen op het gedeelde niveau kunnen niet beperkender zijn dan de overschrijvingen op rechtspersoonniveau.
+Niet alle hoofdrekeningen zijn geldig voor alle rechtspersonen en sommige hoofdrekeningen zijn mogelijk alleen relevant voor een specifiek tijdsbestek. In dit scenario kan de sectie Overschrijvingen rechtspersoon worden gebruikt om te bepalen voor welke bedrijven de hoofdrekening moet worden opgeschort, wie de eigenaar is en de periode gedurende welke de dimensie actief is. De overschrijvingen op het gedeelde niveau kunnen niet beperkender zijn dan de overschrijvingen op rechtspersoonniveau.
 
-Zie voor meer informatie [financiële dimensies](financial-dimensions.md).
+Zie voor meer informatie het onderwerp [Financiële dimensies](financial-dimensions.md).
+
+
 
 

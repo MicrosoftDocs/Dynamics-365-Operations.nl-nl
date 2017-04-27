@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Activa aanschaffen via inkoop
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u de integratie instelt tussen Vaste activa en Leveranciers om automatisch vaste activa van inkooporders of leveranciersfacturen te maken of om automatisch verwervings- en verwervingscorrectietransacties voor vaste activa te boeken.
 
  De volgende methoden zijn beschikbaar voor het integreren van Vaste activa en Leveranciers, en u moet dezelfde methode gebruiken voor alle vaste activa:
@@ -103,6 +106,8 @@ Hieronder vindt u enkele varianten voor dit scenario:
 -   Als er slechts een deel van de hoeveelheid is ontvangen, wordt er vanwege de beperkingen van de gebruikersgroep geen activabijboeking voor de eerste leveranciersfactuur gemaakt. De enige manier waarop een bijboeking voor de tweede leveranciersfactuur van de bestelde hoeveelheid kan worden geboekt, is wanneer er al een bijboekingstransactie voor de eerste leveranciersfactuur is ingevoerd en u lid bent van de gebruikersgroep die bijboekingen kan boeken.
 
 
-Zie voor meer informatie [vaste activa-integratie](fixed-asset-integration.md).
+Zie [Integratie vaste activa](fixed-asset-integration.md) voor meer informatie.
+
+
 
 

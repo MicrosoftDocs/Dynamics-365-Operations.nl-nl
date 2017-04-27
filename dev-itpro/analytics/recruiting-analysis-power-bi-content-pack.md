@@ -1,6 +1,6 @@
 ---
-title: Werving Power BI-inhoud
-description: Dit onderwerp beschrijft de Dynamics 365 for Operations - Recruiting Power BI-inhoud. Deze wordt uitgelegd hoe u toegang tot de rapporten die zijn opgenomen in de content pack en informatie over het gegevensmodel en entiteiten die zijn gebruikt voor het bouwen van de content pack.
+title: Power BI-inhoud voor werving
+description: In dit onderwerp wordt Power BI-inhoud voor werving in Dynamics 365 for Operations beschreven. In dit onderwerp wordt uitgelegd hoe u toegang kunt krijgen tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,49 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recruiting-power-bi-content"></a>Werving Power BI-inhoud
+# <a name="recruiting-power-bi-content"></a>Power BI-inhoud voor werving
 
-Dit onderwerp beschrijft de Dynamics 365 for Operations - Recruiting Power BI-inhoud. Deze wordt uitgelegd hoe u toegang tot de rapporten die zijn opgenomen in de content pack en informatie over het gegevensmodel en entiteiten die zijn gebruikt voor het bouwen van de content pack.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Toegang tot de content pack
+
+In dit onderwerp wordt Power BI-inhoud voor werving in Dynamics 365 for Operations beschreven. In dit onderwerp wordt uitgelegd hoe u toegang kunt krijgen tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
+
+<a name="accessing-the-content-pack"></a>Toegang tot het inhoudpakket
 --------------------------
 
-U kunt de werving content pack vinden in de bibliotheek met gedeelde elementen in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over het downloaden van de content pack en deze verbinden met uw Microsoft Dynamics 365 voor bewerkingen gegevens [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
+U vindt het inhoudpakket voor werving in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u het inhoudpakket downloadt en koppelt aan uw Microsoft Dynamics 365 for Operations-gegevens [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Rapporten die zijn opgenomen in de content pack
-Nadat u de content pack op uw Dynamics 365 voor bewerkingen gegevens hebt aangesloten, rapporten de met gegevens van uw organisatie. Als u Microsoft Power BI vóór nooit hebt gebruikt, kunt u meer informatie over de [cursuspagina voor Power BI begeleide](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). De rapporten die zijn opgenomen in de content pack hebt diagrammen en tabellen met meer informatie. De onderstaande tabel geeft een overzicht van de rapporten.
+## <a name="reports-that-are-included-in-the-content-pack"></a>Rapporten die zijn opgenomen in het inhoudpakket
+Nadat u het inhoudpakket aan uw Dynamics 365 for Operations-gegevens hebt gekoppeld, geven de rapporten de gegevens van uw organisatie weer. Als u Microsoft Power BI nog niet eerder hebt gebruikt, raadpleegt u de pagina [Guided Learning for Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). De rapporten die zijn opgenomen in het inhoudpakket, bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.
 
 | Rapport                       | Inhoud                                                                                               |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
-| Analyse van de sollicitant           | Sollicitanten via de taak, de aanvrager bronnen sollicitanten per locatie en het totale aantal sollicitanten           |
-| Status van sollicitant             | Sollicitanten op type, status en status van sollicitant                                                    |
-| Demografische gegevens sollicitant       | Sollicitanten door leeftijd en geslacht en sollicitanten door het opleidingsniveau en status                             |
-| Analyse Recruiting          | Netto aanstellen verhouding, Gemiddeld aantal dagen om aan te stellen, percentage ongeldige werknemers en werven kosten                    |
-| Project-analyse van wervingsproject | Aantal wervingsprojecten, openingen per wervingsproject en sollicitanten per wervingsproject |
+| Sollicitanten-analyse           | Sollicitanten op functie, bronnen van sollicitanten, sollicitanten op locatie en totaal aantal sollicitanten           |
+| Status sollicitant             | Sollicitanten op type en status en status van sollicitant                                                    |
+| Demografische gegevens van sollicitanten       | Sollicitanten op leeftijd en geslacht en sollicitanten op opleidingsniveau en status                             |
+| Wervingsanalyse          | Nettopercentage in dienst genomen, gemiddeld aantal dagen tot indienstneming, percentage slechte werknemers en wervingskosten                    |
+| Analyse van wervingsprojecten | Aantal wervingsprojecten, vacatures op wervingsproject en sollicitanten op wervingsproject |
 
-U kunt de diagrammen en elementen in deze rapporten filteren en de diagrammen vloer- en aan het dashboard vastzetten. Zie voor meer informatie over het filter en de pin in Power BI [maken en configureren van een Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over het filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-Dynamics 365 voor bewerkingen gegevens wordt gebruikt voor het vullen van de rapporten in de werving content pack. De volgende tabel toont de entiteiten die het inhoudspakket is gebaseerd op.
+Gegevens in Dynamics 365 for Operations worden gebruikt voor het vullen van de rapporten in het inhoudpakket Werving. De volgende tabel bevat de entiteiten waarop het inhoudpakket is gebaseerd.
 
 | Entiteit                          | Inhoud                                                         | Relaties met andere entiteiten                                                                                                                                                                                                                 |
 |---------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Werving\_sollicitant           | Sollicitanten, arbeidsbevoegdheidsstatus sollicitanten aanstellen netto verhouding en kosten          | Werving\_ApplicantName Recruiting\_bedrijf Recruiting\_CalendarOffset Recuriting\_datum Recruiting\_GeographicLocation Recruiting\_demografische Recruiting\_taak Recruiting\_Media Recruiting\_Recruitmentproject                                |
-| Werving\_ApplicantName       | Sollicitant voornaam, achternaam en volledige naam                   | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_CalendarOffset      | Kalender-verschuiving segment rapporten                                | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_bedrijf             | Bedrijven om rapporten door te filteren                                   | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_datum                | Dagen, weken, maanden en jaren                                   | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_demografische gegevens        | Geboortedatum, geslacht, etnische afkomst en burgerlijke staat         | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_EmployedApplicant   | Sollicitant, prestaties, begindatum en type sollicitant           | Werving\_bedrijf Recruiting\_CalendarOffset Recruiting\_datum Recruiting\_GeographicLocation Recruiting\_ApplicantName Recruiting\_dienstverband Recruiting\_prestaties Recruiting\_taak Recruiting\_Media Recruiting\_Recruitmentproject          |
-| Werving\_dienstverband          | Begindatum, einddatum en overgang instellen                        | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_GeographicLocation  | Plaats, provincie, postcode-code, en staat of provincie                 | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_taak                 | Functie, type en titel                                        | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_Media               | Bron van sollicitanten                                             | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_prestaties         | Beoordeling, omschrijving en beoordelingsmodel                            | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_Recruitmentproject  | Projectomschrijving, de projectstatus en openingen                | Werving\_sollicitant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
-| Werving\_TerminatedApplicant | Sollicitanten, reden, prestaties en datum waarop het dienstverband is beëindigd | Werving\_bedrijf Recruiting\_CalendarOffset Recruiting\_datum Recruiting\_GeographicLocation Recruiting\_prestaties Recruiting\_demografische Recruiting\_dienstverband Recruiting\_Media Recruiting\_Recruitmentproject Recruiting\_ApplicantName |
+| Recruiting\_Applicant           | Sollicitanten, in dienst genomen sollicitanten, netto indienstnemingsverhouding en kosten          | Recruiting\_ApplicantName Recruiting\_Company Recruiting\_CalendarOffset Recuriting\_Date Recruiting\_GeographicLocation Recruiting\_Demographics Recruiting\_Job Recruiting\_Media Recruiting\_RecruitmentProject                                |
+| Recruiting\_ApplicantName       | Voornaam, achternaam en volledige naam van sollicitant                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_CalendarOffset      | Kalenderverschuivingen om rapporten in te delen                                | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Company             | Bedrijven waarop rapporten moeten worden gefilterd                                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Date                | Dagen, weken, maanden en jaren                                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Demographics        | Geboortedatum, geslacht, etnische afkomst en burgerlijke staat         | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_EmployedApplicant   | Sollicitant, prestaties, begindatum en type sollicitant           | Recruiting\_Company Recruiting\_CalendarOffset Recruiting\_Date Recruiting\_GeographicLocation Recruiting\_ApplicantName Recruiting\_Employment Recruiting\_Performance Recruiting\_Job Recruiting\_Media Recruiting\_RecruitmentProject          |
+| Recruiting\_Employment          | Begindatum, einddatum en overgangsdatum                        | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_GeographicLocation  | Plaats, provincie, postcode en staat of provincie                 | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Job                 | Functie, type en titel                                        | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Media               | Bron van sollicitanten                                             | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Performance         | Classificatie, beschrijving en classificatiemodel                            | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_RecruitmentProject  | Projectomschrijving, projectstatus en vacatures                | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_TerminatedApplicant | Afgewezen sollicitanten, reden, prestaties en datum waarop het dienstverband is beëindigd | Recruiting\_Company Recruiting\_CalendarOffset Recruiting\_Date Recruiting\_GeographicLocation Recruiting\_Performance Recruiting\_Demographics Recruiting\_Employment Recruiting\_Media Recruiting\_RecruitmentProject Recruiting\_ApplicantName |
 
-Deze entiteiten zijn gebruikt voor het maken van berekende eenheden. Deze maatregelen worden gebruikt voor het berekenen van de key performance indicators (KPI's) berekend en rapporten die worden gebruikt in de content pack. Als u opnemen van extra berekeningen in uw rapporten en het dashboard wilt, kunt u deze kunt downloaden en het bestand Recruiting.pbix vanuit LCS wijzigen. Dit bestand is het standaardmodel van de gegevens die het inhoudspakket is gemaakt. Nadat u wijzigingen hebt aangebracht, kunt u een organisatie-content pack en de dashboard die de informatie bevatten die u hebt toegevoegd.
+Deze entiteiten zijn gebruikt om berekende metingen te maken. Deze berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in het inhoudpakket worden gebruikt. Als u extra berekeningen in uw rapporten en het dashboard wilt opnemen, kunt u het bestand Recruiting.pbix downloaden vanuit LCS en dit aanpassen. Dit bestand is het standaardgegevensmodel, dat is gebruikt om het inhoudpakket te maken. Wanneer u klaar bent met aanbrengen van wijzigingen, kunt u een organisatorisch inhoudpakket en dashboard maken met de informatie die u hebt toegevoegd.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten en het samenstellen van Power BI-content:
@@ -75,6 +78,8 @@ Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten e
 -   [Organisatorische inhoudpakketten maken](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI-tegels toevoegen aan werkruimten](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

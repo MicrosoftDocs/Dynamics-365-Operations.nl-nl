@@ -1,6 +1,6 @@
 ---
 title: "Financiële rapporten proefbalans"
-description: In dit artikel beschrijft de standaardrapporten voor proefbalansen. Hierin worden ook de bouwstenen die zijn gekoppeld aan deze rapporten en hoe u de rapporten aanpassen aan uw zakelijke behoeften kunt wijzigen.
+description: In dit artikel worden de standaardrapporten voor proefbalansen beschreven. Hierin worden ook de bouwstenen beschreven die zijn gekoppeld aan deze rapporten, en hoe u de rapporten kunt aanpassen aan uw zakelijke behoeften.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>Financiële rapporten proefbalans
 
-In dit artikel beschrijft de standaardrapporten voor proefbalansen. Hierin worden ook de bouwstenen die zijn gekoppeld aan deze rapporten en hoe u de rapporten aanpassen aan uw zakelijke behoeften kunt wijzigen. 
+[!include[banner](../includes/banner.md)]
+
+
+In dit artikel worden de standaardrapporten voor proefbalansen beschreven. Hierin worden ook de bouwstenen beschreven die zijn gekoppeld aan deze rapporten, en hoe u de rapporten kunt aanpassen aan uw zakelijke behoeften. 
 
 <a name="default-trial-balance-reports"></a>Standaardrapporten proefbalans
 -----------------------------
@@ -51,7 +54,7 @@ In de financiële rapporten van de proefbalans worden de volgende bouwstenen geb
 
 ### <a name="row-definition"></a>Rijdefinitie
 
-De rijdefinitie proefbalans: standaard bevat één rij die het mogelijk alle hoofdrekeningen. Zo kan iedereen het rapport genereren zonder wijzigingen te hoeven aanbrengen. Wanneer u het rapport weergeeft, zoomt u op één rij in om gegevens over elke rekening te bekijken. U kunt de rijdefinitie wijzigen zodat deze meer details bevat. Als u de rijdefinitie Proefbalans: standaard wilt wijzigen zodat rijen voor alle accounts worden opgenomen, gaat u als volgt te werk.
+De rijdefinitie, Proefbalans: standaard, bevat één rij die alle hoofdrekeningen bevat. Zo kan iedereen het rapport genereren zonder wijzigingen te hoeven aanbrengen. Wanneer u het rapport weergeeft, zoomt u op één rij in om gegevens over elke rekening te bekijken. U kunt de rijdefinitie wijzigen zodat deze meer details bevat. Als u de rijdefinitie Proefbalans: standaard wilt wijzigen zodat rijen voor alle accounts worden opgenomen, gaat u als volgt te werk.
 
 1.  Klik in het menu **Bewerken** en klik vervolgens op **Rijen invoegen van dimensies**. Met de opdracht **Rijen invoegen van dimensies** kunt u kiezen welke dimensies u in uw rijdefinitie wilt hebben. Voor deze rijdefinitie gaat u **Hoofdrekening** gebruiken.
 2.  Zorg ervoor dat **Hoofdrekening** alle en-tekens (&) bevat en klik vervolgens op **OK**.
@@ -100,10 +103,12 @@ In elk proefbalansrapport wordt een andere kolomdefinitie gebruikt. Deze kolomde
 <a name="see-also"></a>Zie ook
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Financiële rapportage](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Financiële rapporten weergeven](view-financial-reports.md)
 
-[Dynamics-Blog voor financiële rapportage](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

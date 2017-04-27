@@ -1,5 +1,5 @@
 ---
-title: Serienummers registreren in het verkoopproces
+title: Serienummers in het verkoopproces registreren
 description: In deze artikelen wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Serienummers registreren in het verkoopproces
+# <a name="register-serial-numbers-in-the-sales-process"></a>Serienummers in het verkoopproces registreren
+
+[!include[banner](../includes/banner.md)]
+
 
 In deze artikelen wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
 
@@ -65,7 +68,7 @@ Ja, u kunt een zoekopdracht uitvoeren op de pakbonjournaalregel of de factuurjou
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Kan ik de artikelen met serienummer zien die ik beschikbaar heb?
 Nee, u kunt de artikelen met serienummer die u in voorraad hebt niet bekijken omdat de serienummers niet worden geregistreerd voor artikelen tot de artikelen worden verkocht.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Kan ik serienummers voor catchweight-artikelen registreren?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Ik kan serienummers voor artikelen met variabel gewicht registreren?
 Nee, u kunt geen serienummers voor catch weight-artikelen registreren in het verkoopproces. Bovendien geldt dat, als een product is ingesteld als een catch weight-artikel, u het product niet kunt toewijzen aan een traceringsdimensiegroep die is ingesteld om serienummers alleen tijdens het verkoopproces te gebruiken.
 Kan ik serienummers registreren op het detailhandel-POS?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Ja, het verkooppunt voor de detailhandel (POS) vraagt de gebruiker om een serien
 Deze functionaliteit is beschikbaar voor alle rollen die verkooppakbonnen en verkoopfacturen kunnen beheren. Met de volgende taken kunnen werknemers serienummers corrigeren en lege invoeren registreren voor serienummers die niet kunnen worden gelezen of worden gescand:
 -   Correcties van serienummers beheren
 -   Registraties van onleesbare serienummers onderhouden
+
+
 
 
 

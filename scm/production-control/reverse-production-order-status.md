@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-the-production-order-status"></a>De productieorderstatus omkeren
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit onderwerp wordt beschreven hoe de productieorderstatus kan worden omgekeerd. 
 
 Als u de status van een productieorder omkeert, gaan de productieorder zelf en alle bewerkingen die aan de routes zijn gekoppeld een stap terug in de levensloop van de productieorder. Stel dat een productieorder een status heeft van **Gepland** en u de status terug wijzigt naar **Gemaakt**. In dit geval, moet het systeem eerst de status wijzigen in **Geraamd**. Dit is de status die direct voorafgaat aan **Gepland**. Vervolgens kan de status worden gewijzigd in de status die u wilt, namelijk **Gemaakt**. **Opmerking:** Als uw order de status **Gereedmelden** heeft bereikt, kunt u deze nog steeds terugzetten naar een eerdere status. U moet echter wel een nieuwe raming en planning van bewerkingen of taakplanning of beide uitvoeren om de informatie over de order bij te werken. Deze stap is vereist omdat eventuele reserveringen van resterend artikelverbruik en resourceverbruik eveneens opnieuw moeten worden ingesteld. In de rest van dit artikel wordt uitgelegd wat er gebeurt wanneer u de status van een productieorder op de volgende manieren terugzet:
@@ -49,5 +52,7 @@ Wanneer u de status van een productieorder terugzet van **Vrijgegeven** naar **G
 
 ## <a name="from-started-to-released"></a>Van Begonnen naar Vrijgegeven
 Wanneer u de status van een productieorder omkeert van **Begonnen** naar **Vrijgegeven**, worden alle artikelen die zijn gereedgemeld teruggeplaatst. Als er materiaal is opgenomen of als er inkomende of uitgaande leveringen zijn gedaan, worden deze instellingen eveneens teruggezet. Het veld **Status van rest** op de stuklijstregels van de productieorder wordt gewijzigd van **Beëindigd** in **Materiaalverbruik**. Als tijd is geregistreerd of als hoeveelheden zijn gereedgemeld voor de bewerkingen in de productieroute, worden deze instellingen ongedaan gemaakt. Het veld **Status van rest** wordt gewijzigd van **Beëindigd** in **Routeverbruik** in de productieroute. De instellingen voor alle artikelen die zijn geboekt in het proces of onderhanden werk, worden omgekeerd. Op de pagina **Details van productieorder** worden velden die een hoeveelheid weergeven die is gestart of gereedgemeld opnieuw ingesteld. De datums voor deze transacties worden eveneens opnieuw ingesteld.
+
+
 
 

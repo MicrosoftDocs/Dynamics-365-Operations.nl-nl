@@ -1,9 +1,9 @@
 ---
-title: Afschrijving verminderen
+title: Degressieve afschrijving
 description: Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reduce-balance-depreciation"></a>Afschrijving verminderen
+# <a name="reduce-balance-depreciation"></a>Degressieve afschrijving
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving.
 
@@ -73,12 +76,14 @@ Door de methode Degressief te gebruiken, wordt 30 procent van de afschrijvingsba
 
 | Periode | Berekening van het jaarlijkse afschrijvingsbedrag | Nettoboekwaarde aan het einde van het jaar |
 |--------|-------------------------------------------|---------------------------------------|
-| Jaar 1 | (11,000 - 1,000) \* 30% = 3,000           | (11 000 - 1000) - 3000 = 7000      |
-| Jaar 2 | (7,000 - 1,000) \* 30% = 1,800            | (7000 -1800) = 5200                |
-| Jaar 3 | (5,200 - 1,000) \* 30% = 1,260            | (5200 - 1260) = 3940               |
+| Jaar 1 | (11.000 - 1000) \* 30% = 3000           | (11 000 - 1000) - 3000 = 7000      |
+| Jaar 2 | (7000 - 1000) \* 30% = 1800            | (7000 -1800) = 5200                |
+| Jaar 3 | (5200 - 1000) \* 30% = 1260            | (5200 - 1260) = 3940               |
 
  
 -
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="include-physical-value"></a>Fysieke waarde opnemen
 
+[!include[banner](../includes/banner.md)]
+
+
 U kunt het selectievakje Fysieke waarde opnemen op het sneltabblad Voorraadmodel van het formulier Artikelmodelgroepen gebruiken om op te geven of fysiek bijgewerkte transacties moeten worden meegenomen wanneer de actieve gemiddelde kostprijs van een artikel wordt berekend.
 
 Het selectievakje **Fysieke waarde opnemen** heeft de volgende waarden.
@@ -49,5 +52,7 @@ Het in- of uitschakelen van het selectievakje heeft enigszins verschillende resu
 -   Een inkooporder voor 3 stuks tegen een kostprijs van EUR 12,00 die volgens de factuur is bijgewerkt
 
 In dit geval zal de actieve gemiddelde kostprijs EUR 11,20 zijn omdat zowel fysiek als financieel bijgewerkte transacties worden gebruikt om de kostprijs te berekenen. **Voorbeeld 2** U hebt het selectievakje **Fysieke waarde opnemen** niet ingeschakeld en de kostprijs in de artikelinstellingen is EUR 10,00. U ontvangt een inkooporder voor 20 stuks tegen een kostprijs van EUR 12,00 die met de pakbon is bijgewerkt. Wanneer een verkooporder wordt geboekt, is de geboekte kostprijs EUR 10,00 omdat de actieve gemiddelde kostprijs geen fysiek geboekte transacties omvat. **Opmerking:** Ter vergelijking: als u het selectievakje **Fysieke waarde opnemen** voor dit artikel selecteert wanneer een verkooporder wordt geboekt, is de geboekte kostprijs EUR 12.00.
+
+
 
 

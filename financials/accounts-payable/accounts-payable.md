@@ -1,6 +1,6 @@
 ---
 title: Startpagina Leveranciers
-description: Dit onderwerp biedt een overzicht van leveranciers.
+description: Dit onderwerp bevat een overzicht van Leveranciers.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Startpagina Leveranciers
 
-Dit onderwerp biedt een overzicht van leveranciers.
+[!include[banner](../includes/banner.md)]
 
-U kunt leveranciersfacturen handmatig invoeren of elektronisch ontvangen via een gegevensentiteit. Nadat de facturen worden ingevoerd of ontvangen, kunt u controleren en goedkeuren van facturen via een factuurgoedkeuringsjournaal of het **leveranciersfactuur** pagina. U kunt gebruikmaken van factuurvereffening, beleid voor leveranciersfacturen en workflows om het controleproces te automatiseren. Hierdoor worden facturen die aan bepaalde criteria voldoen, automatisch goedgekeurd. De resterende facturen worden gemarkeerd voor controle door een geautoriseerde gebruiker.
+
+Dit onderwerp bevat een overzicht van Leveranciers. 
+
+U kunt leveranciersfacturen handmatig invoeren of elektronisch ontvangen via een gegevensentiteit. Nadat de facturen zijn ingevoerd of ontvangen, kunt u de facturen controleren en goedkeuren met behulp van een factuurgoedkeuringsjournaal of via de pagina **Leveranciersfactuur**. U kunt gebruikmaken van factuurvereffening, beleid voor leveranciersfacturen en workflows om het controleproces te automatiseren. Hierdoor worden facturen die aan bepaalde criteria voldoen, automatisch goedgekeurd. De resterende facturen worden gemarkeerd voor controle door een geautoriseerde gebruiker.
+
+
 
 

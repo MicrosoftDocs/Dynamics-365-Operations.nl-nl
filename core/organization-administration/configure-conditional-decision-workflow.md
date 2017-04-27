@@ -1,5 +1,5 @@
 ---
-title: Een voorwaardelijke beslissing in een workflow configureren
+title: Een voorwaardelijke beslissing configureren in een workflow
 description: Met behulp van de volgende procedure kunt u de eigenschappen van een voorwaardelijke beslissing configureren.
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Een voorwaardelijke beslissing in een workflow configureren
+# <a name="configure-a-conditional-decision-in-a-workflow"></a>Een voorwaardelijke beslissing configureren in een workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 Met behulp van de volgende procedure kunt u de eigenschappen van een voorwaardelijke beslissing configureren.
 
@@ -38,7 +41,7 @@ Voer deze stappen uit om een naam op te geven voor een voorwaardelijke beslissin
 ## <a name="set-conditions"></a> Voorwaarden instellen
 Het systeem bepaalt welke tak wordt gebruikt om het aangeboden document te verwerken door te beoordelen of het document aan de specifieke voorwaarden voldoet.
 1.  Klik in het linkerdeelvenster op **Basisinstellingen**.
-2.  Click **Add condition**.
+2.  Klik op **Voorwaarde toevoegen**.
 3.  Een voorwaarde invoeren.
 4.  Geef desgewenst extra voorwaarden op.
 5.  Voer de volgende stappen uit om te controleren of de door u ingevoerde voorwaarden correct zijn geconfigureerd.
@@ -46,6 +49,8 @@ Het systeem bepaalt welke tak wordt gebruikt om het aangeboden document te verwe
     2.  Selecteer een record in het gebied **Voorwaarde valideren** van het formulier.
     3.  Klik op **Testen**. Het systeem evalueert de registratie en bepaalt of het voldoet aan de voorwaarden die u hebt gedefinieerd.
     4.  Klik op **OK** of **Annuleren** om terug te gaan naar het formulier **Eigenschappen**.
+
+
 
 
 

@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Behoeften voor productie-instellingen
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel informatie over installatievereisten voordat u met Productiebeheer kunt werken. 
 
-Productiebeheer is geïntegreerd met kenmerken in andere modules. Dankzij deze interconnectiviteit kunt u productieorders wijzigen en ervoor zorgen dat deze automatisch worden bijgewerkt in alle andere betrokken processen en berekeningen in het systeem. De volgende instellingsprocessen zijn vermeld in de volgorde waarin deze horen plaats te vinden.
+Productiebeheer is geïntegreerd met functies in andere modules. Dankzij deze interconnectiviteit kunt u productieorders wijzigen en ervoor zorgen dat deze automatisch worden bijgewerkt in alle andere betrokken processen en berekeningen in het systeem. De volgende instellingsprocessen zijn vermeld in de volgorde waarin deze horen plaats te vinden.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Vereiste basisinstelling in andere modules
 Voordat u met de module Productiebeheer gaat werken, moet eerst de informatie in de andere modules worden ingesteld. Deze instelling bevat de volgende taken:
@@ -41,7 +44,7 @@ Voordat u met de module Productiebeheer gaat werken, moet eerst de informatie in
 -   Artikelgroepen definiëren
 -   Grootboekrekeningen voor artikelgroepen instellen
 -   Stel de voorraadartikeltabel in Voorraadbeheer in.
--   Maak stuklijsten (BOM´s) en BOM-versies in Voorraadbeheer.
+-   Maak stuklijsten (BOM's) en BOM-versies in Voorraadbeheer.
 
 ## <a name="required-calendar-and-resource-setup"></a>Vereist agenda en broninstelling
 Voordat u Productiebeheer gaat gebruiken, opent u eerst Organisatiebeheer en maakt en definieert u in de volgende volgorde de kalender en bronnen voor bedrijfsactiviteiten:
@@ -52,7 +55,7 @@ Voordat u Productiebeheer gaat gebruiken, opent u eerst Organisatiebeheer en maa
 4.  **Bronnen** – Instellen van bronnen voor bedrijfsactiviteiten om de bronnen te definiëren die gebruikt worden om het productieproces en capaciteitsplanning te voltooien.
 
 ## <a name="required-production-parameters-setup"></a>Vereiste instelling van productieparameters
-**Parameters van productiebeheer** : algemene productieparameters instellen om te definiëren hoe het systeem worden verwerkt en productieorders worden verwerkt. Definiëren hoe productieorders worden gemaakt, geraamd, gepland en verbruikt. U kunt ook selecteren welke feedback u wilt en hoe de kostprijsboekhouding wordt uitgevoerd.
+**Parameters van productiecontrole**– Instellen van de parameters voor de basisproductie om te definiëren hoe het systeem productieorders afhandelt en verwerkt. Definiëren hoe productieorders worden gemaakt, geraamd, gepland en verbruikt. U kunt ook selecteren welke feedback u wilt en hoe de kostprijsboekhouding wordt uitgevoerd.
 
 ## <a name="required-journal-name-identification"></a>Vereiste identificatie van journaalnaam
 **Productiejournaalnamen** – Geef de productiejournaalnamen op die worden gebruikt om transacties te registreren en te boeken.
@@ -76,6 +79,8 @@ Als u met routes werkt, moet u bewerkingen definiëren voor elke productieroute 
 1.  **Productiegroepen** – Instellen van productiegroepen voor de totstandbrenging van relaties tussen de productieorder en grootboekrekeningen. De grootboekrekeningen worden gebruikt om orders voor rapportage te boeken of te groeperen.
 2.  **Productiepools** - Maak productiepools voor het groeperen van productieorders zodat u dringende productieorders kunt verwerken of groepen orders kunt verwijderen en boeken.
 3.  **Eigenschappen**– Definieer eigenschappen om speciale kenmerken te maken die u aan bronnen kunt toewijzen voor het beheer van de productievolgorde. Deze kenmerken zijn verbonden met het werktijdsjabloon.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "De financiële rapportage datamart na het terugzetten van een database terugzetten"
-description: "In dit onderwerp wordt beschreven hoe de financiële rapportage datamart na het terugzetten van een Microsoft Dynamics 365 voor bewerkingen database opnieuw."
+title: "De datamart voor financiële rapportage opnieuw instellen na het herstellen van een database"
+description: "In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt na het terugzetten van een Microsoft Dynamics 365 for Operations-database."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-08 16 - 20 - 13
@@ -24,86 +24,86 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>De financiële rapportage datamart na het terugzetten van een database terugzetten
+# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>De datamart voor financiële rapportage opnieuw instellen na het herstellen van een database
 
-In dit onderwerp wordt beschreven hoe de financiële rapportage datamart na het terugzetten van een Microsoft Dynamics 365 voor bewerkingen database opnieuw. 
+In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt na het terugzetten van een Microsoft Dynamics 365 for Operations-database. 
 
-Er zijn verschillende scenario's waarin u mogelijk uw Dynamics 365 voor bewerkingen database terugzetten vanaf een back-up of een kopie van de database vanuit een andere omgeving. Als dit gebeurt, moet u ook de juiste stappen om ervoor te zorgen dat de financiële rapportage datamart correct gebruikmaakt van de teruggezette Dynamics 365 voor bewerkingen-database. Als u vragen hebt over de financiële rapportage datamart om andere redenen buiten een Dynamics 365 voor bewerkingen database terugzetten opnieuw in te stellen, raadpleegt u de [opnieuw instellen van de datamart Management Reporter](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) voor meer informatie. Houd er rekening mee dat de stappen in dit proces worden ondersteund voor Dynamics 365 voor bewerking mei 2016 release (App build 7.0.1265.23014 en financiële rapportage build 7.0.10000.4) en nieuwere versies. Als er een eerdere versie van Dynamics 365 for Operations, neem contact met ons ondersteuningsteam voor meer informatie.
+Er zijn verschillende scenario's denkbaar waarin u uw Dynamics 365 for Operations-database wilt herstellen vanaf een back-up of de database vanuit een andere omgeving wilt kopiëren. In een dergelijke situatie moet u ook de juiste stappen uitvoeren zodat de datamart voor financiële rapportage correct gebruikmaakt van de herstelde Dynamics 365 for Operations-database. Als u de datamart voor financiële rapportage opnieuw wilt instellen om andere redenen dan het herstel van een Dynamics 365 for Operations-database en hierover vragen hebt, raadpleegt u het onderwerp [De Management Reporter-datamart opnieuw instellen](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) voor meer informatie. Houd er rekening mee dat de stappen in dit proces worden ondersteund voor de release van mei 2016 van Dynamics 365 for Operations (App-build 7.0.1265.23014 en financiële rapportage-build 7.0.10000.4) en nieuwere versies. Als u een eerdere versie van Dynamics 365 for Operations hebt, neem dan contact op met ons ondersteuningsteam voor hulp.
 
 ## <a name="export-report-definitions"></a>Rapportdefinities exporteren
-Exporteer eerst de rapportontwerpen bevindt zich in de Report Designer als volgt te werk:
+Exporteer eerst de rapportontwerpen die zich in de Report Designer bevinden volgens de onderstaande procedure:
 
-1.  In de Report Designer, gaat u naar **bedrijf**&gt;**Bouwsteengroepen**.
-2.  Selecteer de groep bouwsteen wilt exporteren en klik op **exporteren**. **opmerking:** voor Dynamics 365 voor bewerkingen, wordt slechts één bouwsteengroep ondersteund, **standaard**.
+1.  Ga in Report Designer naar **Bedrijf** &gt; **Bouwsteengroepen**.
+2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. **Opmerking:** Voor Dynamics 365 for Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
 3.  Selecteer de rapportdefinities die u wilt exporteren:
     -   Om al uw rapportdefinities en de gekoppelde bouwstenen te exporteren klikt u op **Alles selecteren**.
-    -   U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiesets exporteren door op het gewenste tabblad te klikken en vervolgens de te exporteren items selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere artikelen in een tabblad te selecteren. Wanneer u rapporten wilt exporteren, worden de bijbehorende rijen, kolommen, structuren en dimensiesets worden geselecteerd.
+    -   U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiesets exporteren door op het gewenste tabblad te klikken en vervolgens de te exporteren items selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere artikelen in een tabblad te selecteren. Als u te exporteren rapporten selecteert, worden de gekoppelde rijen, kolommen, structuren en dimensiesets geselecteerd.
 
-4.  Klik op **exporteren**.
-5.  Voer een bestandsnaam en selecteer een beveiligde locatie waar u de geëxporteerde rapportdefinities.
-6.  Click **Save**.
+4.  Klik op **Exporteren**.
+5.  Voer een bestandsnaam in en selecteer de beveiligde locatie waar u de geëxporteerde rapportdefinities wilt opslaan.
+6.  Klik op **Opslaan**.
 
-Het bestand kan worden gekopieerd en worden geüpload naar een beveiligde locatie, zodat het later opnieuw worden geïmporteerd in een andere omgeving. Informatie over het gebruik van een Microsoft Azure opslag rekening kunt vinden in [gegevensoverdracht met het hulpprogramma AzCopy-opdrachtregelprogramma](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **opmerking:** Microsoft niet voorzien in een rekening voor de opslag als onderdeel van uw Dynamics 365 bewerkingen overeenkomst. Kopen van een rekening voor de opslag of gebruik een account van de opslag van een afzonderlijk abonnement dat Azure. **Belangrijk:** rekening houden met de werking van het station D op Azure virtuele Machines. De geëxporteerde bouwsteen-groepen niet permanent wilt behouden. Zie voor meer informatie over tijdelijke schijven [inzicht in de tijdelijke schijf in Windows Azure virtuele Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+U kunt het bestand kopiëren of uploaden naar een beveiligde locatie, zodat u het later kunt importeren in een andere omgeving. Informatie over het gebruik van een Microsoft Azure-opslagaccount vindt u in het onderwerp [Gegevensoverdracht met het opdrachtregelprogramma AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Opmerking:** Microsoft biedt bij uw abonnement voor Dynamics 365 for Operations geen opslagaccount aan. U moet een opslagaccount aanschaffen of een opslagaccount uit een separaat Azure-abonnement gebruiken. **Belangrijk:** Houd rekening met het gedrag van het station D in virtuele Azure-machines. Bewaar uw geëxporteerde bouwsteengroepen hier niet permanent. Zie voor meer informatie over tijdelijke schijven het onderwerp [Understanding the temporary drive on Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
-## <a name="stop-services"></a>Services stoppen
-Extern bureaublad verbinding maken met alle computers in het milieu en de volgende Windows-services stoppen met behulp van services.msc gebruiken:
+## <a name="stop-services"></a>Services afstoppen
+Maak via Extern bureaublad verbinding met alle computers in de omgeving en stop de volgende Windows-services af door middel van services.msc:
 
--   World wide web publishing-service (op alle AOS-computers)
--   Microsoft Dynamics 365 voor bewerkingen Batch Management-Service (privé-AOS alleen op computers)
--   Management Reporter 2012 Processervice (op BI computers)
+-   World Wide Web Publishing-service (op alle AOS-computers)
+-   Microsoft Dynamics 365 for Operations Batch Management-service (alleen op niet-privé AOS-computers)
+-   Management Reporter 2012 Process Service (alleen op BI-computers)
 
-Deze services heeft open verbinding naar de Dynamics 365 voor bewerkingen-database.
+Deze services hebben openstaande verbindingen met de Dynamics 365 for Operations-database.
 
 ## <a name="reset"></a>Opnieuw instellen
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Zoek de meest recente DataUpgrade.zip-pakket
+#### <a name="locate-the-latest-dataupgradezip-package"></a>Het meest recente pakket DataUpgrade.zip zoeken
 
-Zoek de meest recente DataUpgrade.zip-pakket met behulp van de aanwijzingen gevonden in [downloaden van het script DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md). De aanwijzingen uitgelegd hoe u de juiste versie van het gegevens-upgrade-pakket voor uw omgeving.
+Zoek het meest recente pakket DataUpgrade.zip met de aanwijzingen in het onderwerp [Download the DataUpgrade.zip script](..\migration-upgrade\upgrade-data-to-latest-update.md). De instructies geven aan hoe u de juiste versie van het gegevensupgradepakket voor uw omgeving vindt.
 
-#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Scripts met Dynamics 365 voor bewerkingen database uitvoeren
+#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Scripts uitvoeren op de Dynamics 365 for Operations-database
 
-Voer de volgende scripts ten opzichte van de Dynamics 365 for Operations-database (niet ten opzichte van de financiële rapportage-database).
+Voer de volgende scripts uit op de Dynamics 365 for Operations-database (niet op de database voor financiële rapportage).
 
 -   DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
 -   DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
 
 Deze scripts zorgen ervoor dat de gebruikers, rollen en instellingen voor het bijhouden van wijzigingen juist zijn.
 
-#### <a name="execute-powershell-command-to-reset-database"></a>PowerShell-opdracht naar de database opnieuw uitvoeren
+#### <a name="execute-powershell-command-to-reset-database"></a>PowerShell-opdracht uitvoeren om de database opnieuw in te stellen
 
-De volgende opdracht uitvoeren direct op de AOS-computer, opnieuw instellen van de integratie tussen Dynamics 365 for Operations en financiële rapportage:
+Voer de volgende opdracht direct op de AOS-computer uit, om de integratie tussen Dynamics 365 for Operations en de financiële rapportage opnieuw in te stellen:
 
 1.  Open Windows PowerShell als beheerder.
-2.  Uitvoeren: F:
-3.  Uitvoeren: cd F:\\MRApplicationService\\MRInstallDirectory
-4.  Uitvoeren: Import-Module. \\Server\\MRDeploy\\MRDeploy.psd1
-5.  Worden uitgevoerd: Reset-DatamartIntegration-andere reden - ReasonDetail '&lt;Mijn reden opnieuw in te stellen&gt;'
-    -   U wordt gevraagd om in te voeren 'Y' om te bevestigen.
+2.  Voer uit: F:
+3.  Voer uit: cd F:\\MRApplicationService\\MRInstallDirectory
+4.  Voer uit: Import-Module .\\Server\\MRDeploy\\MRDeploy.psd1
+5.  Voer uit: Reset-DatamartIntegration -Reason OTHER -ReasonDetail “&lt;mijn_reden_voor_opnieuw_instellen&gt;”
+    -   U wordt gevraagd om 'Y' in te voeren om te bevestigen.
 
 Uitleg van parameters:
 
--   De geldige waarden voor - reden zijn: onderhoud, BADDATA, overige.
--   De parameter - ReasonDetail is vrije-tekstfacturen.
--   De reden en reasonDetail worden vastgelegd in telemetrie/omgeving controleren.
+-   De geldige waarden voor -Reason zijn: SERVICING, BADDATA, OTHER.
+-   Bij de parameter -ReasonDetail kunt u vrije tekst invoeren.
+-   De waarden voor Reason en ReasonDetail worden vastgelegd in telemetrie/omgevingsbewaking.
 
-## <a name="start-services"></a>Services starten
-Gebruik services.msc services die u eerder hebt gestopt opnieuw starten:
+## <a name="start-services"></a>Services opstarten
+Start de services die u eerder hebt afgestopt opnieuw op door middel van services.msc:
 
--   World wide web publishing-service (op alle AOS-computers)
--   Microsoft Dynamics 365 voor bewerkingen Batch Management-Service (privé-AOS alleen op computers)
--   Management Reporter 2012 Processervice (op BI computers)
+-   World Wide Web Publishing-service (op alle AOS-computers)
+-   Microsoft Dynamics 365 for Operations Batch Management-service (alleen op niet-privé AOS-computers)
+-   Management Reporter 2012 Process Service (alleen op BI-computers)
 
 ## <a name="import-report-definitions"></a>Rapportdefinities importeren
-Uw rapportontwerpen importeren vanuit de Report Designer, met behulp van het bestand gemaakt tijdens het exporteren:
+Importeert uw rapportontwerpen vanuit de Report Designer, met behulp van het bestand dat bij het exporteren werd aangemaakt:
 
-1.  In de Report Designer, gaat u naar **bedrijf**&gt;**Bouwsteengroepen**.
-2.  Selecteer de groep bouwsteen wilt exporteren en klik op **exporteren**. **opmerking:** voor Dynamics 365 voor bewerkingen, wordt slechts één bouwsteengroep ondersteund, **standaard**.
-3.  Selecteer de **standaard** bouwen blokkeren en klik op **importeren**.
-4.  Selecteer het bestand met de geëxporteerde rapportdefinities en klik op **openen**.
+1.  Ga in Report Designer naar **Bedrijf** &gt; **Bouwsteengroepen**.
+2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. **Opmerking:** Voor Dynamics 365 for Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
+3.  Selecteer de bouwsteen **Standaard** en klik op **Importeren**.
+4.  Selecteer het bestand met de geëxporteerde rapportdefinities en klik op **Openen**.
 5.  Selecteer in het dialoogvenster Importeren de te importeren rapportdefinities:
     -   Als u alle rapportdefinities en de ondersteunende bouwstenen wilt importeren, klikt u op **Alles selecteren**.
     -   Om specifieke rapporten, rijen, kolommen, structuren of dimensiesets te importeren, selecteert u de te importeren rapporten, rijen, kolommen, structuren of dimensiesets.
 
-6.  Click **Import**.
+6.  Klik op **Importeren**.
 
 
 

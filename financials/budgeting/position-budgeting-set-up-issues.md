@@ -1,5 +1,5 @@
 ---
-title: Budgettering voor probleemoplossing positie
+title: Probleemoplossing voor positiebudgettering
 description: Dit artikel bevat beantwoorden op vragen die u kunt hebben wanneer u positiebudgettering configureert. Het behandelt vaak gestelde vragen over hoe u budgetkostenelementen, compensatiegroepen en compensatierasters maakt.
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Budgettering voor probleemoplossing positie
+# <a name="position-budgeting-troubleshooting"></a>Probleemoplossing voor positiebudgettering
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bevat beantwoorden op vragen die u kunt hebben wanneer u positiebudgettering configureert. Het behandelt vaak gestelde vragen over hoe u budgetkostenelementen, compensatiegroepen en compensatierasters maakt. 
 
@@ -58,6 +61,8 @@ De datums op de prognosepositiekostenelementregel moeten binnen de volgende bere
 -   De activerings- en deactiveringsdata van de positie.
 -   De activerings- en de vervaldata van het budgetkostenelement.
 -   De begin- en einddatums van de budgetcyclus die aan het budgetplanningsproces van de prognosepositie is gekoppeld.
+
+
 
 
 

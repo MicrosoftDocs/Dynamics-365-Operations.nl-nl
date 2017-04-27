@@ -1,6 +1,6 @@
 ---
 title: Sneltoetsen
-description: De volgende sneltoetsen gebruiken in heel Microsoft Dynamics 365 voor bewerkingen.
+description: De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
-De volgende sneltoetsen gebruiken in heel Microsoft Dynamics 365 voor bewerkingen. 
+[!include[banner](../includes/banner.md)]
+
+
+De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Operations. 
 
 **Opmerking:** De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
 
@@ -40,7 +43,7 @@ De volgende sneltoetsen gebruiken in heel Microsoft Dynamics 365 voor bewerkinge
 | Naar volgende/vorige optie in een menu gaan            | Pijl omlaag/Pijl omhoog            |
 | Een tabblad sluiten in het actievenster of een menu          | Esc                              |
 | Klikken met de rechtermuisknop simuleren                            | Shift+F10                        |
-| De Dynamics 365 voor bewerkingen contextmenu openen | Ctrl+F10                         |
+| Het contextmenu in Dynamics 365 for Operations openen | Ctrl+F10                         |
 | Op de standaardknop in een formulier/dialoogvenster klikken       | Alt+Enter                        |
 | Op een knop of tegel klikken                            | Enter of spatiebalk                   |
 | Vernieuwde informatie voor een tellingstegel weergeven         | Alt+Pijl omhoog                     |
@@ -64,7 +67,7 @@ De volgende sneltoetsen gebruiken in heel Microsoft Dynamics 365 voor bewerkinge
 | Het feitenblok openen (of de focus naar het feitenblok verplaatsen als dat al is geopend) | Ctrl+F2                                   |
 | Het feitenblok sluiten (met de focus in het feitenblok)                         | Esc                                       |
 | Naar het volgende/vorige feitenvak gaan (met focus in het feitenblok)              | Alt+Shift+Pijl omlaag/Alt+Shift+Pijl omhoog |
-| Verplaatsen naar de &lt;n&gt;do feitenblok (waarbij de focus in het deelvenster Feitenblok)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Naar het &lt;n&gt;de feitenvak gaan (met focus in het feitenblok)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Een feitenvak uitvouwen (met de focus op de koptekst van het feitenvak)                             | Spatiebalk of Enter                            |
 | Het huidige feitenvak samenvouwen                                                    | Alt+0                                     |
 
@@ -111,8 +114,8 @@ De volgende sneltoetsen gebruiken in heel Microsoft Dynamics 365 voor bewerkinge
 | Naar het volgende/vorige veld gaan                     | Tabtoets/Shift+Tabtoets                              |
 | Naar het volgende/vorige tabblad gaan                       | Alt+Shift+Pijl rechts/Alt+Shift+Pijl links |
 | Naar het volgende/vorige sneltabblad gaan                   | Alt+Shift+Pijl omlaag/Alt+Shift+Pijl omhoog    |
-| Verplaatsen naar de &lt;n&gt;do sneltabblad                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Verplaatsen naar de &lt;n&gt;do tabblad                         | Alt + Shift +&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Naar het &lt;n&gt;de sneltabblad gaan                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Naar het &lt;n&gt;de tabblad gaan                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Een sneltabblad uitvouwen (met de focus op de koptekst van het sneltabblad) | Spatiebalk of Enter                               |
 | Het huidige sneltabblad samenvouwen                        | Alt+0                                        |
 | Overschakelen naar rasterweergave                                 | Ctrl+Shift+G                                 |
@@ -152,7 +155,7 @@ De volgende sneltoetsen gebruiken in heel Microsoft Dynamics 365 voor bewerkinge
 | Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen openen           | Alt+Pijl omlaag                |
 | Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen sluiten          | Esc                           |
 | Focus in een zoekopdracht plaatsen (wanneer de zoekopdracht al open is) | Alt+pijl omlaag                |
-| Openen van het besturingselement uitgebreid voorbeeld                        | Alt+pijl omhoog                  |
+| Het uitgebreide voorbeeld van het besturingselement openen                        | Alt+pijl omhoog                  |
 | Tekst in het huidige veld selecteren                           | Ctrl+A                        |
 | Het tekstgebied betreden/verlaten in een besturingselement in een HTML-editor        | Alt+Pijl omlaag/Alt+Pijl omhoog |
 
@@ -174,18 +177,18 @@ De volgende sneltoetsen gebruiken in heel Microsoft Dynamics 365 voor bewerkinge
 | Naar het dashboard gaan                                                       | Alt+Shift+Home  |
 | Naar de navigatiebalk gaan                                                  | Alt+Shift+F1    |
 | Naar het navigatievenster gaan                                                 | Alt+F1          |
-| Favoriet/un-favorite een formulier (waarbij de focus op een formulier in het navigatiedeelvenster) | SHIFT+F         |
+| Een formulier favoriet maken of als favoriet verwijderen (met de focus op een formulier in het navigatiedeelvenster) | Shift+F         |
 | Naar de bedrijfskiezer gaan                                                  | Ctrl+Shift+O    |
 | Naar navigatiezoekfunctie gaan                                                   | Ctrl+/ of Alt+G |
-| Het help-venster openen                                                        | CTRL +?          |
-| De traceringsparser openen                                                     | Alt + Shift+T     |
+| Het Help-deelvenster openen.                                                        | Ctrl+?          |
+| De traceparser openen                                                     | Alt+Shift+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Sneltoetsen voor gesegmenteerde invoer
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Actie**                                                                                                          | **Druk op**                        |
 | De vervolgkeuzelijst openen (wanneer de vervolgkeuzelijst is gesloten)                                                             | Alt+Pijl omlaag                   |
 | De focus in het invoerveld voor het huidige segment in de vervolgkeuzelijst plaatsen (wanneer de vervolgkeuzelijst al open is) | Alt+Pijl omlaag                   |
 | De vervolgkeuzelijst sluiten                                                                                                | Alt+Pijl omhoog                     |
@@ -199,5 +202,7 @@ De volgende sneltoetsen gebruiken in heel Microsoft Dynamics 365 voor bewerkinge
 | Naar de bovenkant/onderkant van de zoekopdracht gaan                                                                                    | Home/End                       |
 
  
+
+
 
 

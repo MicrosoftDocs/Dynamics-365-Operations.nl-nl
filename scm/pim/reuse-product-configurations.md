@@ -1,5 +1,5 @@
 ---
-title: Productconfiguraties hergebruiken
+title: Productconfiguraties opnieuw gebruiken
 description: U kunt opgeven dat u automatisch een bestaande configuratie voor een product wilt hergebruiken. Wanneer een gebruiker vervolgens een configuratiesessie voltooit, controleert het systeem of een configuratie overeenkomt met de bestaande selecties van de gebruiker. Als een overeenkomende configuratie wordt gevonden, worden de configuratie-ID, bijbehorende stuklijst (BOM) en de route hergebruikt.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reuse-product-configurations"></a>Productconfiguraties hergebruiken
+# <a name="reuse-product-configurations"></a>Productconfiguraties opnieuw gebruiken
+
+[!include[banner](../includes/banner.md)]
+
 
 U kunt opgeven dat u automatisch een bestaande configuratie voor een product wilt hergebruiken. Wanneer een gebruiker vervolgens een configuratiesessie voltooit, controleert het systeem of een configuratie overeenkomt met de bestaande selecties van de gebruiker. Als een overeenkomende configuratie wordt gevonden, worden de configuratie-ID, bijbehorende stuklijst (BOM) en de route hergebruikt.
 
@@ -41,5 +44,7 @@ Als u wilt inschakelen dat configuraties opnieuw worden gebruikt, moet u de volg
 
 ## <a name="resetting-configuration-reuse"></a>Hergebruik van configuratie opnieuw instellen
 Wanneer u configuratiehergebruik opnieuw instelt, worden eerder gemaakte configuraties niet meer toegepast. U kunt configuratiehergebruik bijvoorbeeld opnieuw instellen als de stuklijst of de route is gewijzigd, maar geen gerelateerde kenmerken zijn gewijzigd. U stelt configuratiehergebruik in op het sneltabblad **Algemeen** voor de component.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Rapportagestructuurdefinities in financiële rapporten
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over rapportagestructuurdefinities. Een rapportagestructuurdefinitie is een rapportonderdeel, of bouwsteen, die helpt bij het definiëren van de structuur en de hiërarchie van uw organisatie.
 
 Financiële rapportage ondersteunt flexibele rapportage, zodat u gemakkelijk wijzigingen kunt aanbrengen wanneer uw bedrijfsstructuur verandert. Rapporten zijn opgebouwd uit verschillende onderdelen of bouwstenen. Een van deze bouwstenen is een rapportagestructuurdefinitie. Een rapportagestructuurdefinitie helpt bij het definiëren van de structuur en hiërarchie van uw organisatie. Het is een hiërarchische structuur over meerdere dimensies heen die is gebaseerd op de dimensionale relaties in uw financiële gegevens zijn gebaseerd. Het biedt informatie op het niveau van de rapportage-eenheid en op overzichtsniveau voor alle eenheden in de structuur. Rapportagestructuurdefinities kunnen met kolomdefinities en rapportdefinities worden gecombineerd om een bouwsteengroep te maken die door meerdere bedrijven kan worden gebruikt. Een rapportage-eenheid wordt gebruikt voor elk vak in een organogram. Een rapportage-eenheid kan een afzonderlijke afdeling van de financiële gegevens zijn, of een samenvattingseenheid op een hoger niveau die informatie van andere rapportage-eenheden combineert. Voor een rapportdefinitie die een rapportagestructuur bevat, wordt een rapport gegenereerd voor elke rapportage-eenheid en voor het overzichtsniveau. Elk van deze rapporten gebruikt de rij- en kolomdefinities die in de rapportdefinitie zijn opgegeven, tenzij de rapportdefinitie opgeeft dat de rapportagestructuur van de rijdefinitie moet worden gebruikt. Rij- en kolomdefinities zijn belangrijke onderdelen in het ontwerp en de functionaliteit van financiële rapporten. Rapportagestructuren verhogen de kracht van de onderdelen en ondersteunen flexibele rapportage wanneer de bedrijfsstructuur verandert. Financiële rapporten die niet gebaseerd zijn op een rapportagestructuur gebruiken slechts enkele capaciteiten van financiële rapportage. U kunt meerdere rapportagestructuurdefinities gebruiken samen met dezelfde rij- en kolomdefinities om de gegevens van uw organisatie op verschillende manieren weer te geven.
@@ -49,7 +52,7 @@ Een rapportagestructuurdefinitie bevat de kolommen die in de volgende tabel word
 
 | Rapportagestructuurkolom | Omschrijving|
 |---|---|
-| Bedrijf               | De naam van het bedrijf voor de rapportage-eenheid. De **@ANY** -waarde die normaal gesproken alleen op overzichtsniveau wordt toegewezen, kan de rapporteringsstructuur moet worden gebruikt voor alle bedrijven. Aan alle onderliggende vertakkingen is een bedrijf toegewezen.|
+| Bedrijf               | De naam van het bedrijf voor de rapportage-eenheid. De waarde **@ANY**, die meestal alleen aan het overzichtsniveau is toegewezen, zorgt ervoor dat de rapportagestructuur voor alle bedrijven kan worden gebruikt. Aan alle onderliggende vertakkingen is een bedrijf toegewezen.|
 | Naam van eenheid             | De code die deze rapportage-eenheid identificeert in de grafische rapportagestructuur. Zorg ervoor dat u een unieke code vaststelt die consistent is en die gemakkelijk te begrijpen is voor gebruikers. |
 | Omschrijving van eenheid      | De titel van de rapportage-eenheid wordt weergegeven in de kop- of voettekst van het rapport als u **UnitDesc** opgeeft als een code in het tabblad **Kop- en voetteksten** van de rapportdefinitie. De titel verschijnt in de omschrijving van de rapportrij als u **UnitDesc** opgeeft in de cel **Omschrijving** van de rijdefinitie.|
 | Dimensies            | Een rapportage-eenheid die informatie rechtstreeks uit de financiële gegevens haalt. Deze definieert de logische plaatsing en de lengte voor de rekening en de gerelateerde segmenten. Elke rapportage-eenheidrij moet een dimensie in deze kolom hebben. U kunt ook een dimensie opnemen in een samenvattingseenheidrij (bijvoorbeeld voor uitgaven die rechtstreeks zijn gerelateerd aan die eenheid). Als u een dimensie invoert in een samenvattingseenheidrij, mogen rekeningen die in bovenliggende eenheden worden gebruikt niet in onderliggende eenheden worden gebruikt. Anders kunnen er dubbele bedragen ontstaan.|
@@ -58,15 +61,15 @@ Een rapportagestructuurdefinitie bevat de kolommen die in de volgende tabel word
 | Externe koppeling         | De rijkoppeling die voor deze rapportage-eenheid moet worden gebruikt. Rijkoppelingen worden gedefinieerd voor de rijdefinitie om het rapport te identificeren waarmee moet worden gekoppeld.|
 | Extern bestand         | Het bestandspad van het werkblad voor financiële rapportage waaraan gegevens moeten worden ontleend.|
 | Paginaopties          | Deze kolom bepaalt of de details voor de rapportage-eenheid worden onderdrukt wanneer het rapport wordt weergegeven of afgedrukt.|
-| Samentelling %              | Het percentage van de rapportage-eenheid die aan de bovenliggende eenheid moet worden toegewezen. Het percentage dat u in deze kolom invoert geldt voor elke rij van de rijdefinitie voordat de waarde in de rij aan het bovenliggende rapport wordt toegevoegd. Als een onderliggende eenheid bijvoorbeeld over twee afdelingen moet worden verdeeld, worden de bedragen in elke rij vermenigvuldigd met 50 procent voordat deze aan het afdelingsrapport worden toegevoegd. Eén rapportage-eenheid kan geen twee bovenliggende eenheden hebben. Om de bedragen van een rapportage-eenheid toe te toewijzen aan twee bovenliggende eenheden, maakt u een andere rapportage-eenheid die dezelfde dimensie heeft om de aanvullende 50 procent te totaliseren. Typ gehele percentages zonder een komma. Zo staat bijvoorbeeld **25** voor 25 procent toewijzing aan het bovenliggende object. Als u een komma (**,25**) opneemt, wordt 0,25 procent toegerekend aan het bovenliggende object. Als u een percentage in dat lager is dan 1 procent, gebruikt de **samenvouwen toestaan &lt;1%** optie in de rapportdefinitie. Deze optie bevindt zich op het tabblad **Overige opties** in het dialoogvenster **Rapportinstellingen**. U opent dit dialoogvenster met de knop **Overige** op het tabblad **Instellingen** van de rapportdefinitie. |
+| Samentelling %              | Het percentage van de rapportage-eenheid die aan de bovenliggende eenheid moet worden toegewezen. Het percentage dat u in deze kolom invoert geldt voor elke rij van de rijdefinitie voordat de waarde in de rij aan het bovenliggende rapport wordt toegevoegd. Als een onderliggende eenheid bijvoorbeeld over twee afdelingen moet worden verdeeld, worden de bedragen in elke rij vermenigvuldigd met 50 procent voordat deze aan het afdelingsrapport worden toegevoegd. Eén rapportage-eenheid kan geen twee bovenliggende eenheden hebben. Om de bedragen van een rapportage-eenheid toe te toewijzen aan twee bovenliggende eenheden, maakt u een andere rapportage-eenheid die dezelfde dimensie heeft om de aanvullende 50 procent te totaliseren. Typ gehele percentages zonder een komma. Zo staat bijvoorbeeld **25** voor 25 procent toewijzing aan het bovenliggende object. Als u een komma (**,25**) opneemt, wordt 0,25 procent toegerekend aan het bovenliggende object. Als u een percentage van minder dan 1 procent wilt gebruiken, gebruikt u de optie **Samenstelling &lt;1%** in de rapportdefinitie. Deze optie bevindt zich op het tabblad **Overige opties** in het dialoogvenster **Rapportinstellingen**. U opent dit dialoogvenster met de knop **Overige** op het tabblad **Instellingen** van de rapportdefinitie. |
 | Eenheidbeveiliging         | Beperkingen voor de gebruikers en groepen die toegang kunnen krijgen tot de informatie voor de rapportage-eenheid.|
 | Extra tekst       | Tekst die in het rapport is opgenomen.|
 
 Als u een rapportagestructuurdefinitie wilt maken, volgt u deze stappen:
 
 1.  Open Report Designer.
-2.  Klik op **bestand**&gt;**nieuwe**&gt;**Rapporteringsstructuurdefinitie**.
-3.  Klik op **bewerken**&gt;**rapportage-eenheden invoegen uit dimensies**.
+2.  Klik op **Bestand** &gt; **Nieuw** &gt; **Rapportagestructuurdefinitie**.
+3.  Klik op **Bewerken** &gt; **Rapportage-eenheden uit dimensies invoegen**.
 4.  Selecteer in het dialoogvenster **Rapportage-eenheden uit dimensies invoegen** het selectievakje voor elke dimensie die u in de rapportagestructuur wilt opnemen. Het dialoogvenster **Rapportage-eenheden uit dimensies invoegen** bevat de volgende secties.
 
     | Sectie                          | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -85,7 +88,7 @@ Als u een rapportagestructuurdefinitie wilt maken, volgt u deze stappen:
 
 9.  Herhaal stappen 7 en 8 voor elke dimensie in het gebied **Segmenthiërarchie en -bereiken**.
 10. Wanneer u klaar bent met het definiëren van hoe uw rapportage-eenheden in de nieuwe rapportagestructuur moeten worden opgenomen, klikt u op **OK**.
-11. Klik op **bestand**&gt;**opslaan** om op te slaan de rapporteringsstructuur. Voer een unieke naam en omschrijving in voor de rapportagestructuur en klik vervolgens op **OK**.
+11. Klik op **Bestand** &gt; **Opslaan** om de rapportagestructuur op te slaan. Voer een unieke naam en omschrijving in voor de rapportagestructuur en klik vervolgens op **OK**.
 
 ### <a name="open-an-existing-reporting-tree-definition"></a>Een bestaande rapportagestructuurdefinitie openen
 
@@ -121,7 +124,7 @@ U kunt de organisatiestructuur van een rapportagestructuurdefinitie herschikken 
 1.  Open in Report Designer de rapportagestructuurdefinitie die u wilt wijzigen.
 2.  Selecteer een rapportage-eenheid in de grafische weergave van de rapportagestructuurdefinitie.
 3.  Sleep de eenheid naar een nieuwe positie. U kunt ook met de rechtermuisknop op de eenheid klikken en vervolgens **Rapportage-eenheid promoveren** of **Rapportage-eenheid niveau verlagen** selecteren.
-4.  Klik op **bestand**&gt;**opslaan** de wijzigingen wilt opslaan.
+4.  Klik op **Bestand** &gt; **Opslaan** om uw wijzigingen op te slaan.
 
 ### <a name="add-text-about-a-reporting-unit"></a>Tekst over een rapportage-eenheid toevoegen
 
@@ -189,7 +192,7 @@ In het volgende diagram heeft de rapportagestructuur een organisatiestructuur di
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Voorbeeld van het dialoogvenster Rapportage-eenheden uit dimensies invoegen
 
-De volgende afbeelding toont een voorbeeld van het dialoogvenster **Rapportage-eenheden uit dimensies invoegen**. In dit voorbeeld retourneren de resultaten de combinatie van business units, kostenplaatsen en afdelingen. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) de resulterende rapporteringsstructuurdefinitie is gesorteerd op business unit, en vervolgens op kostenplaats, en vervolgens op afdeling. De dimensie voor de vijfde rapportage-eenheid is **Business Unit = \[001\], kostenplaats =\[\], afdeling = \[022\]**, en identificeert een rapportage-eenheid voor rekeningen die specifiek voor de business unit-001 en afdeling 022 zijn. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+De volgende afbeelding toont een voorbeeld van het dialoogvenster **Rapportage-eenheden uit dimensies invoegen**. In dit voorbeeld retourneren de resultaten de combinatie van business units, kostenplaatsen en afdelingen. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) De resulterende rapportagestructuurdefinitie wordt gesorteerd op bedrijfseenheid, vervolgens op kostenplaats en tot slot op afdeling. De dimensie voor de vijfde rapportage-eenheid is **Bedrijfseenheid = \[001\], Kostenplaats =\[\], Afdeling = \[022\]** en identificeert een rapportage-eenheid voor rekeningen die specifiek zijn voor bedrijfseenheid 001 en afdeling 022. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Voorbeelden van samenvoeging van gegevens
 
@@ -205,6 +208,8 @@ De volgende voorbeelden geven mogelijke informatie weer die worden gebruikt in e
 
 # <a name="see-also"></a>Zie ook
 
-[Financial reporting](financial-reporting-intro.md)
+[Financiële rapportage](financial-reporting-intro.md)
+
+
 
 

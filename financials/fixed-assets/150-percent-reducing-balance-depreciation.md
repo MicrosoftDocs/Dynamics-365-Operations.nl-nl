@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="150-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 150 procent
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 150 procent.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **150% degressief** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, worden de vaste activa waaraan dit afschrijvingsprofiel is toegewezen, afgeschreven met hetzelfde percentage in elke afschrijvingsperiode. Dit percentage wordt berekend aan de hand van de levensduur van het activum. Als een activum een levensduur van bijvoorbeeld vijf jaar heeft, wordt het percentage berekend als 30 procent (150% ÷ 5). 
@@ -56,7 +59,7 @@ Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties
 
 Als u **Boekjaar** selecteert in het veld **Afschrijvingsjaar**, wordt de 150% degressieve afschrijving van de levensduur berekend op basis van het boekjaar voor de fiscale kalender die is opgegeven voor het boek of op basis van de pagina **Grootboek**. Fiscale kalenders kunt u instellen op de pagina **Fiscale kalenders**. 
 
-Bijvoorbeeld het boekjaar van 1 juli tot en met 30 juni, wordt de afschrijving vanaf 1 juli. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt voor elke periode aangepast. De lengte van het volgende boekjaar wordt bepaald door de perioden die zijn ingesteld op de pagina **Fiscale kalenders**. 
+Voor bijvoorbeeld het boekjaar van 1 juli t/m 30 juni wordt de afschrijving vanaf 1 juli berekend. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt voor elke periode aangepast. De lengte van het volgende boekjaar wordt bepaald door de perioden die zijn ingesteld op de pagina **Fiscale kalenders**. 
 
 Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 
@@ -81,6 +84,8 @@ Bij de methode 150% degressieve afschrijvingsmethode, wordt 150 procent door het
 | Jaar 3 | 4.900 × 30% = 1.470                           | 5.900 – 1.470 = 4.430  | 4.900 – 1.470 = 3.430                 |
 
 > [!NOTE]
-> Normaal gesproken waarop het bedrag dat wordt berekend met behulp van de 150% degressieve afschrijvingsmethode wordt kleiner is dan het bedrag dat zou worden berekend met behulp van de lineaire methode, wordt er een conversie naar de lineaire methode voor de resterende levensduur.
+> Wanneer het bedrag dat wordt berekend met de methode voor 150% degressieve afschrijving lager is dan het bedrag dat wordt berekend door de lineaire methode te gebruiken, vindt er doorgaans een conversie naar de lineaire methode plaats voor de resterende levensduur.
+
+
 
 

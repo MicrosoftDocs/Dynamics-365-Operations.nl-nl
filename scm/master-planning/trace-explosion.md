@@ -1,5 +1,5 @@
 ---
-title: Gebruik tracering voor explosie
+title: Tracering gebruiken voor explosie
 description: In dit artikel wordt uitgelegd hoe u tracering kunt gebruiken om de oorzaken achter het resultaat van een orderexplosie te onderzoeken.
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>Gebruik tracering voor explosie
+# <a name="use-tracing-for-explosion"></a>Tracering gebruiken voor explosie
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt uitgelegd hoe u tracering kunt gebruiken om de oorzaken achter het resultaat van een orderexplosie te onderzoeken.
 
@@ -43,6 +46,8 @@ U kunt details over vertragingen en acties voor een geselecteerde order bekijken
 <a name="see-also"></a>Zie ook
 --------
 
-[Master plans](master-plans.md)
+[Hoofdplannen](master-plans.md)
+
+
 
 

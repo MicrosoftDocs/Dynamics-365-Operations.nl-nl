@@ -1,6 +1,6 @@
 ---
-title: Startpagina voor kostprijsboekhouding
-description: Dit onderwerp biedt een overzicht van de help-onderwerpen en andere resources die beschikbaar voor kostprijsboekhouding zijn.
+title: Startpagina kostprijsboekhouding
+description: Dit onderwerp bevat een overzicht van de Help-onderwerpen en andere resources die beschikbaar zijn voor Kostprijsboekhouding.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Startpagina voor kostprijsboekhouding
+# <a name="cost-accounting-home-page"></a>Startpagina kostprijsboekhouding
 
-Dit onderwerp biedt een overzicht van de help-onderwerpen en andere resources die beschikbaar voor kostprijsboekhouding zijn.
+[!include[banner](../includes/banner.md)]
 
-De kostprijsboekhoudingmodule kunt u het volgende doen:
 
--   Kosten element dimensies definiëren, kosten element dimensieleden importeren en toewijzen van kosten element dimensies.
--   Kosten object dimensies definiëren en kosten object dimensieleden importeren.
+Dit onderwerp bevat een overzicht van de Help-onderwerpen en andere resources die beschikbaar zijn voor Kostprijsboekhouding.
+
+Met de module Kostprijsboekhouding kunt u het volgende doen:
+
+-   Dimensies van kostenelementen definiëren, dimensieleden van kostenelementen importeren en dimensies van kostenelementen toewijzen.
+-   Kostenobjectdimensies definiëren en leden van kostenobjectdimensies importeren.
 -   Statistische dimensies definiëren of importeren
 -   Sjablonen van providers van statistische maateenheden maken.
 -   Grootboeken van kostprijsboekhouding maken.
@@ -46,29 +49,31 @@ De kostprijsboekhoudingmodule kunt u het volgende doen:
 
 ## <a name="get-started"></a>Aan de slag
 
-De workshops voor kostprijsboekhouding bevatten de basisstappen voor het configureren van Microsoft Dynamics 365 voor kostprijsboekhouding om te maken van de analyse van de werkelijke kosten voor bewerkingen. Het biedt ook een reeks procedures die u kunt uitvoeren in de volgorde waarin ze worden weergegeven.
+De praktische labs voor Kostprijsboekhouding bevatten de basisstappen voor het configureren van Microsoft Dynamics 365 - Kostprijsboekhouding om de analyse van de werkelijke kosten te maken. Het biedt ook een reeks procedures die u kunt uitvoeren in de volgorde waarin ze worden weergegeven.
 
--   [Aan de slag met kostprijsboekhouding](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (wit zijn en een account CustomerSource vereist)
+-   [Aan de slag met Kostprijsboekhouding](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (whitepaper en er is een CustomerSource-account vereist)
 
-Hieronder wordt toegelicht hoe u de kostprijsboekhouding voor uw dagelijkse werkzaamheden kunt gebruiken, moet u deze concepten begrijpen.
+Om te begrijpen hoe u in uw dagelijks werk Kostprijsboekhouding kunt gebruiken, moet u de volgende concepten kennen.
 
--   [Key terms in Cost accounting](terms-cost-accounting.md)
--   [Elementen kosten en de dimensies van element](cost-elements.md)
--   [Map different cost element dimension members to a common set of cost element dimension members](map-cost-elements-dimension-members.md)
--   [Maak kostenelementen](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (taak guide)
--   [Cost object dimensions](cost-objects.md)
--   [kostenobjecten maken](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (gids voor taak)
+-   [Belangrijke termen in Kostprijsboekhouding](terms-cost-accounting.md)
+-   [Kostenelementen en de dimensies van kostenelementen](cost-elements.md)
+-   [Verschillende leden van kostenelementdimensies toewijzen aan een gemeenschappelijke reeks kostenelementdimensieleden](map-cost-elements-dimension-members.md)
+-   [Kostenelementen maken](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (taakbegeleiding)
+-   [Dimensies van kostenobject](cost-objects.md)
+-   [Kostenobjecten maken](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (taakbegeleiding)
 
-## <a name="cost-control-mobile-workspace"></a>Kostenbeheer mobiele werkruimte
-De kosten control mobiele werkruimte informatie kosten center managers over de prestaties van de kostenplaats kosten altijd en overal.
+## <a name="cost-control-mobile-workspace"></a>Mobiel werkgebied voor kostenbeheer
+Met het mobiele werkgebied voor kostenbeheer kunnen kostenplaatsmanagers de prestaties van kostenplaatsen altijd en overal bekijken.
 
--   [Cost control mobile workspace](cost-controlling-mobile-workspace.md)
+-   [Mobiel werkgebied voor kostenbeheer](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>Analyse kostprijsboekhouding Power BI-inhoud
-De analyse kostprijsboekhouding Microsoft Power BI-inhoud is bedoeld voor kosten-domeincontrollers of iemand anders die verantwoordelijk is voor het uitvoeren van de kosten van een organisatie te beheren. Bevat de essentiële gegevens, zoals kosten, grootte en kostentarief door werkelijke kosten, budgetkosten en flexibele budgetkosten. Deze transactiegegevens uit kostprijsboekhouding worden gebruikt in Microsoft Dynamics 365 voor bewerkingen en geeft een samengevoegde weergave van kosten voor de hele organisatie in een rapportagevaluta. Managers kunnen de gegevens filteren op kostenobjecten uit te voeren kostenbeheer van hun organisatie-eenheden, zelfs als de organisatie meerdere rechtspersonen kan zijn.
+## <a name="cost-accounting-analysis-power-bi-content"></a>Power BI-inhoud voor analyse van kostprijsboekhouding
+De Microsoft Power BI-inhoud voor Analyse kostprijsboekhouding is bedoeld voor kostencontrollers of iemand anders die verantwoordelijk is voor het uitvoeren van het kostenbeheer van een organisatie. Het bevat de belangrijkste metrische gegevens, zoals kosten, magnitude en kostentarief op basis van werkelijke kosten, budgetkosten en flexibele budgetkosten. Hierin worden transactiegegevens uit de kostprijsboekhouding in Microsoft Dynamics 365 for Operations gebruikt en wordt een samengevoegde weergave van kosten verschaft voor de gehele organisatie in één rapportagevaluta. Managers kunnen de gegevens filteren op basis van kostenobjecten om kostenbeheer van hun organisatie-eenheden uit te voeren, zelfs als de organisatie meerdere rechtspersonen heeft.
 
--   [Analyse kostprijsboekhouding Power BI-inhoud](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Set up security for the Cost accounting analysis Power BI content](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Power BI-inhoud voor analyse van kostprijsboekhouding](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Beveiliging instellen voor de Power BI-inhoud voor kostprijsboekhoudingsanalyse](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+
+
 
 
 

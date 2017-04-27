@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>Bonusafschrijving
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel vindt u een overzicht van de functionaliteit voor bonusafschrijving.
 
 Voor bonusafschrijving kunt u gedurende het eerste jaar waarin het activum in gebruik wordt genomen en wordt afgeschreven, extra bedragen of bonussen afschrijven. De bonusafschrijving moet vóór andere afschrijvingsberekeningen worden toegepast. Daarom is het beste om bonusafschrijving met boeken te gebruiken als de functionaliteit Boeken naar grootboek is uitgeschakeld. U kunt de optie **Transacties verwijderen die niet zijn geboekt naar grootboek** gebruiken om historische transacties te verwijderen voor boeken die niet naar het grootboek boeken. U kunt bonusafschrijving later in de levenscyclus van het activum aanpassen door afschrijvingstransacties te verwijderen die eerder zijn geboekt. 
@@ -61,5 +64,7 @@ Wanneer bonusafschrijving met behulp van het voorstelproces wordt berekend, word
 U kunt net zoveel bonusafschrijvingsrecords maken als u wilt. Als u deze records toewijst aan een activagroepsboek, worden deze records op het activumboek toegepast. 
 
 Bonusafschrijving wordt als een percentage of een vast bedrag ingevoerd. Wanneer u afschrijvingsvoorstellen boekt, worden transacties voor bonusafschrijving los van de afschrijvingstransacties naar het boek geboekt.
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Magazijnmedewerkers beheren
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u Microsoft Dynamics AX kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 
 Als u de functionaliteit in Magazijnbeheer gebruikt, wordt naar alle bewerkingen van magazijnwerknemers verwezen als *werk*. Werk zoals het orderverzamelen, verplaatsen en tellen van voorhanden voorraad wort geregistreerd door mobiele apparaten te gebruiken. Voordat een magazijnwerknemer werk kan uitvoeren, moet hij of zij aan een werknemer in Human resources worden gekoppeld. Aan elk **Werknemer**-account kunnen meerdere magazijnwerkgebruikers zijn gekoppeld. Deze werkgebruikers kunnen in verschillende magazijnen werken en kunnen verschillende niveaus van toegang tot de verschillende menu's voor mobiele apparaten hebben. U kunt de gebruikers van het magazijnwerk zien als meerdere aanmeldingen voor de geselecteerde werknemer. Elke werkgebruiker heeft een standaardmagazijn en de specifieke workflows worden beschikbaar gemaakt door de menuopties die voor die werkgebruiker beschikbaar zijn. 
@@ -51,6 +54,8 @@ De analyse van de tijd die wordt gebruikt om werkitems te verwerken, kan helpen 
 
 -   **Arbeid door gebruiker** - Dit rapport bevat werknemersproductiviteit op basis van werkelijke tijden, vergeleken met verwachte tijden.
 -   **Transactietype voor arbeid door werk** U kunt dit rapport gebruiken om ondoelmatigheden in specifieke magazijnprocessen te onderzoeken. U ziet bijvoorbeeld dat verzamelingen voor transferorders deze week langer duren dan in vorige weken. U kunt deze informatie vervolgens gebruiken voor verder onderzoek.
+
+
 
 
 

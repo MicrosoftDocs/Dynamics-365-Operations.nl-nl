@@ -1,6 +1,6 @@
 ---
-title: Persoonlijke aanbevelingen-productoverzicht
-description: "In Dynamics 365 voor bewerkingen, kunnen de aanbevelingen op het verkooppunt (POS)-apparaat worden weergegeven. De aanbevelingen zijn artikelen die de klant geïnteresseerd kan zijn op basis van hun inkoophistorie, artikelen in de onderwerpen en artikelen die andere klanten online gekocht en in de markering en fysieke winkels. Voor detailhandelaren met grote catalogi helpen aanbevelingen voor de klant met detectie van product. Laat u kennismaken met producten die zijn gericht aan de interesses van een klant en de kopende achterhalen, aanbevelingen detailhandelaren kunnen helpen met verkoop stimuleren en cross-sell en klantinhouding kunnen verbeteren. In Dynamics 365 voor bewerkingen, worden aanbevelingen aangestuurd door cognitieve services en Microsoft Azure machine leren."
+title: Overzicht persoonlijke productaanbevelingen
+description: "In Dynamics 365 for Operations kunnen productaanbevelingen op het POS-apparaat (Point of Sale) worden weergegeven. Aanbevelingen zijn items waarin uw klanten mogelijk geïnteresseerd zijn op basis van hun inkoophistorie, items in hun verlanglijst en items die andere klanten online en in fysieke winkels hebben gekocht. Voor detailhandelaren met grote catalogi helpen aanbevelingen de klant producten te ontdekken. Door producten te belichten die zijn gericht op de interesses van een klant en diens koopgewoontes, kunnen productaanbevelingen detailhandelaren helpen met bij- en meerverkoop en klantenbinding. Productaanbevelingen worden in Dynamics 365 for Operations aangestuurd door cognitieve services en Microsoft Azure Machine Learning."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,59 +25,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Persoonlijke aanbevelingen-productoverzicht
+# <a name="personalized-product-recommendations-overview"></a>Overzicht persoonlijke productaanbevelingen
 
-In Dynamics 365 voor bewerkingen, kunnen de aanbevelingen op het verkooppunt (POS)-apparaat worden weergegeven. De aanbevelingen zijn artikelen die de klant geïnteresseerd kan zijn op basis van hun inkoophistorie, artikelen in de onderwerpen en artikelen die andere klanten online gekocht en in de markering en fysieke winkels. Voor detailhandelaren met grote catalogi helpen aanbevelingen voor de klant met detectie van product. Laat u kennismaken met producten die zijn gericht aan de interesses van een klant en de kopende achterhalen, aanbevelingen detailhandelaren kunnen helpen met verkoop stimuleren en cross-sell en klantinhouding kunnen verbeteren. In Dynamics 365 voor bewerkingen, worden aanbevelingen aangestuurd door cognitieve services en Microsoft Azure machine leren.
+[!include[banner](includes/banner.md)]
+
+
+In Dynamics 365 for Operations kunnen productaanbevelingen op het POS-apparaat (Point of Sale) worden weergegeven. Aanbevelingen zijn items waarin uw klanten mogelijk geïnteresseerd zijn op basis van hun inkoophistorie, items in hun verlanglijst en items die andere klanten online en in fysieke winkels hebben gekocht. Voor detailhandelaren met grote catalogi helpen aanbevelingen de klant producten te ontdekken. Door producten te belichten die zijn gericht op de interesses van een klant en diens koopgewoontes, kunnen productaanbevelingen detailhandelaren helpen met bij- en meerverkoop en klantenbinding. Productaanbevelingen worden in Dynamics 365 for Operations aangestuurd door cognitieve services en Microsoft Azure Machine Learning.
 
 <a name="scenarios"></a>Scenario's
 ---------
 
-Aanbevelingen zijn voor de volgende POS-scenario's ingeschakeld. Ze zijn beschikbaar in de Cloud-POS of moderne POS (MPOS).
+Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn beschikbaar in de cloud-POS of Modern POS (MPOS).
 
-1.  Op de **productdetails** pagina:
+1.  Op de pagina **Productdetails**:
 
--   Als een winkel bezoeken koppelt een **productdetails** pagina bij het kijken naar de eerdere transacties via verschillende kanalen de aanbeveling engine stelt voor om extra artikelen die zijn waarschijnlijk samen worden gekocht.
--   Als het koppelen van de winkel een klant aan de transactie toegevoegd en vervolgens bezoeken een **productdetails** pagina, de aanbeveling engine bevat persoonlijke aanbevelingen met behulp van de transactiehistorie van de klant.
+-   Als een winkelmedewerker een **productdetails**-pagina bezoekt wanneer hij eerdere transacties uit verschillende kanalen bekijkt, stelt de aanbevelingsengine extra artikelen voor die waarschijnlijk samen worden gekocht.
+-   Als de winkelmedewerker een klant aan de transactie toevoegt en vervolgens een **productdetails**-pagina bezoekt, geeft de aanbevelingsengine persoonlijke aanbevelingen op basis van de transactiehistorie van de klant.
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-2.  Op de **transactie** pagina:
+2.  Op de pagina **Transactie**:
 
--   De engine aanbeveling stelt voor artikelen op basis van de volledige lijst met artikelen in het winkelmandje.
--   Als de winkel is gekoppeld aan de transactie een klant toegevoegd, de aanbeveling-engine biedt persoonlijke aanbevelingen met behulp van de transactiehistorie van de klant en de lijst met artikelen in het winkelmandje.
+-   De aanbevelingsengine stelt artikelen voor op basis van de volledige lijst met artikelen in het winkelmandje.
+-   Als de winkelmedewerker een klant aan de transactie toevoegt, geeft de aanbevelingsengine persoonlijke aanbevelingen op basis van de transactiehistorie van de klant en de lijst met artikelen in het winkelmandje.
 
-**opmerking** aanbevelingen weergeven op de **transactie** pagina, de detailhandelaar moet worden bijgewerkt van de schermindeling in Dynamics 365 voor bewerkingen. De **aanbevelingen** -besturingselement moet worden verwijderd bij de **transactie** pagina. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+**Opmerking**: Om aanbevelingen te laten weergeven op de pagina **Transactie**, moet de detailhandelaar de schermindeling in Dynamics 365 for Operations bijwerken. Het besturingselement **Aanbevelingen** moet aan de pagina **Transactie** worden toegevoegd. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3.  Op de **details klant** pagina:
-    -   De engine aanbeveling stelt voor artikelen op basis van de gebruikers-ID en de items in de onderwerpen van de klant.
+3.  Op de pagina **Details klant**:
+    -   De aanbevelingsengine stelt artikelen voor op basis van de gebruikers-id en de artikelen op het wensenlijstje van de klant.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Dynamics 365 voor bewerkingen als aanbevelingen POS configureren
-Als u aanbevelingen instellen, moet u het volgende doen.
+## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Dynamics 365 for Operations configureren voor POS-aanbevelingen
+Ga als volgt te werk om productaanbevelingen te configureren:
 
-1.  Zorg ervoor dat u hebt geselecteerd de juiste **rechtspersoon**.
-2.  Ga naar **entiteit winkel**, selecteer **verkoop detailhandel**, en klik vervolgens op **vernieuwen**. ** ** zo de demonstratiegegevens (of uw gegevens) van uw operationele database gebruiken en verplaats deze naar de winkel entiteit.
-3.  Optioneel: Om aanbevelingen op het scherm van de transactie weergeven, gaat u naar ** schermindeling, **de schermindeling kiest, start de **ontwerper van schermindeling**,** ** en zet de ** aanbevelingen control ** waar nodig.
-4.  Ga naar **parameters detailhandel**, selecteer **Machine-training**, selecteer ** Ja ** onder **schakelen POS aanbevelingen**.
-5.  Aanbevelingen voor POS vindt globale configuratie taak uitvoeren **1110**. Om eventuele wijzigingen in de ontwerper van schermindeling POS, kanaal configuratie taak uitvoeren **1070**.
+1.  Controleer of u de juiste **rechtspersoon** hebt geselecteerd.
+2.  Ga naar **Entiteitopslag**, selecteer **Detailhandelverkoop** en klik op **Vernieuwen**.** **Hierdoor worden de demonstratiegegevens (of uw gegevens) uit uw operationele database gebruikt en verplaatst naar de entiteitopslag.
+3.  Optioneel: Om aanbevelingen op het transactiescherm te laten weergeven, gaat u naar **Schermindeling, **kiest u de schermindeling, start u de **Ontwerper van schermindeling**,** **en zet u het besturingselement Aanbevelingen **daar neer waar u het hebben wilt.
+4.  Ga naar **Detailhandelparameters**, selecteer **Machine Learning**, selecteer **Ja **onder **POS-aanbevelingen inschakelen**.
+5.  Als u aanbevelingen op POS wilt zien, voert u algemene-configuratietaak **1110** uit. Om wijzigingen in de ontwerper van de POS-schermindeling door te voeren, voert u afzetkanaalconfiguratietaak **1070** uit.
 
-## <a name="how-does-it-work"></a>[]()Hoe werkt het?
-Als u vernieuwt de **entiteit winkel** entiteit, de volgende acties uitgevoerd.
+## <a name="how-does-it-work"></a>[]()Hoe functioneert dit?
+Wanneer u de **entiteitsopslag** vernieuwt, worden de volgende acties uitgevoerd.
 
--   Gegevens in de indeling van de cognitieve services is afkomstig uit de Dynamics 365 voor operationeel gegevensbestand als bewerkingen en verzonden naar de winkel entiteit.
--   De gegevens worden door Azure gegevens fabriek (ADF) gebruikt om de gegevens met behulp van component scripts als onderdeel van de activiteiten van de ADF opruimen. Gereinigde gegevens zijn opgeslagen in de blob-opslag.
--   Gegevens uit blob-opslag wordt gebruikt door de cognitieve API-services te trainen een aanbeveling-model.
+-   Gegevens in de door Cognitieve services vereiste indeling worden opgehaald uit de operationele database Dynamics 365 for Operations en naar de entiteitsopslag gezonden.
+-   De gegevens worden gebruikt door Azure Data Factory (ADF) om de gegevens om de gegevens op te schonen, door middel van Hive-scripts in het kader van de ADF-activiteiten. Opgeschoonde gegevens worden opgeslagen in de blob-opslag.
+-   Gegevens uit de blob-opslag worden gebruikt door de API voor cognitieve services om een aanbevelingsmodel te trainen.
 
-Wanneer u inschakelt **aanbevelingen** en de configuratie-taken, de volgende acties uitgevoerd.
+Wanneer u **Aanbevelingen inschakelen** activeert en de configuratietaken uitvoert, worde de volgende acties uitgevoerd.
 
--   Referenties voor model zijn-ID opgehaald van de API en opgeslagen in de Dynamics 365 voor operationeel gegevensbestand als bewerkingen in het bestand web.config voor AOS en ook in de retail-server.
--   Model referenties en -ID zijn beschikbaar gesteld voor CRT zodat gesprekken voor aanbevelingen uit Cloud-POS en MPOS in de online modus kunnen worden gehonoreerd.
+-   Modelreferenties en een model-id worden opgehaald in de API en opgeslagen in de operationele database van Dynamics 365 for Operations, in het bestand web.config voor AOS en ook in de detailhandelserver.
+-   Modelreferenties en de model-id worden beschikbaar gesteld aan CRT, zodat aanroepen voor productaanbevelingen vanuit de cloud-POS en MPOS in de online modus kunnen worden gehonoreerd.
 
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Een besturingselement aanbevelingen toevoegen aan de transactie-pagina op een POS-apparaat](add-recommendations-control-pos-screen.md)
+[Een besturingselement voor aanbevelingen toevoegen aan de transactiepagina op een POS-apparaat](add-recommendations-control-pos-screen.md)
+
+
 
 

@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Vertragingen
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft informatie over vertragingsdatums in de hoofdplanning. Een vertragingsdatum is een realistische vervaldatum waarop een transactie wordt ontvangen als de eerste afhandelingsdatum die de hoofdplanning plant, later is dan de aangevraagde datum.
 
 Hoofdplanning kan de vroegste afrondingsdatum voor een transactie berekenen, op basis van levertijden, materiaalbeschikbaarheid, capaciteitsbeschikbaarheid en verschillende planningsparameters. 
@@ -41,11 +44,13 @@ U kunt instellen hoe de vertragingen worden berekend voor een behoefteplanningsg
 
 Op de pagina **Parameters hoofdplanning** kunt u de begintijd instellen voor de berekening van vertragingen. Als een order na deze tijd wordt uitgevoerd, wordt aan de vertraagde datum van de order een vertraging van één dag toegevoegd. 
 
-**opmerking:** berekende vertragingen In eerdere versies heette *vertragingsberichten*, de vertraagde datum is bekend als de *vertragingsdatum*, en een uitgestelde transactie is genoemd *een transactie die ingesteld op toekomstige is*.
+**Opmerking:** in eerdere versies stonden berekende vertragingen bekend als *vertragingsberichten*, werd de vertraagde datum *vertragingsdatum* genoemd en werd naar een vertraagde transactie verwezen als *een transactie die in de toekomst is ingesteld*.
 
 <a name="see-also"></a>Zie ook
 --------
 
 [Behoefteplanningsinstellingen](coverage-settings.md)
+
+
 
 

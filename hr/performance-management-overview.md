@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Overzicht Prestatiebeheer
 
+[!include[banner](includes/banner.md)]
+
+
 Met het prestatiebeheerproces kunnen werknemers hun prestaties met hun manager documenteren en bespreken. Managers kunnen vervolgens feedback en ondersteuning geven voor de werknemers.  
 
 Zoals u in het volgende diagram ziet, zijn er drie pagina's waarmee u het proces kunt beheren:
@@ -34,7 +37,7 @@ Zoals u in het volgende diagram ziet, zijn er drie pagina's waarmee u het proces
 -   Doelstellingen
 -   Prestatieoverzicht
 
-Het volgende diagram laat zien hoe de primaire onderdelen van prestatiebeheer met elkaar samenhangen. [![Prestaties verwerken-overzicht](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Het volgende diagram laat zien hoe de primaire onderdelen van prestatiebeheer met elkaar samenhangen. [![Overzicht Prestatiebeheer](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Prestatiejournaal
 Voordat u als werknemer uw beoordeling afrondt, verzamelt u vaak informatie over activiteiten of gebeurtenissen die hebben bijgedragen aan uw succes tijdens een beoordelingsperiode. U kunt activiteiten en gebeurtenissen documenteren in het prestatiejournaal. Bovendien kunt u toekomstige activiteiten maken die u moet uitvoeren om een doel te bereiken en om te voldoen aan de vereisten van een ontwikkelingsplan of een prestatietoezegging. Prestatiejournalen zijn niet vereist om doelen of prestatiebeoordelingen te kunnen maken. 
@@ -132,7 +135,7 @@ Gebruik de werkstroom voor werknemerbeoordeling om de goedkeuring van een beoord
 De beoordeling van de werknemer bestaat uit twee elementen:
 
 1.  Beoordeling goedkeuren. Voeg dit element toe om de statuswijziging van **In uitvoering** naar **Gereed voor beoordeling** te verwerken. Wijzig de toewijzing voor het gebruiken van de organisatiehiërarchie waar het managerniveau van Employee.line = 1.
-2.  Eindbeoordeling. Dit element om te bepalen van de statuswijziging van toevoegen **gereed voor revisie** naar **eindresultaat altijd beoordelen**. De toewijzing voor het gebruik van de hiërarchie voor leidinggevenden wijzigen waar het niveau van de manager Employee.line = 1 als u wilt dat de manager de controle van de definitieve goedkeuren. Wijzig de toewijzing naar Werkstroomgebruiker als u wilt dat de werknemer dit goedkeurt. Als u wilt dat zowel de manager als werknemer hun goedkeuring geven, voegt u twee stappen toe aan de werkstroom en kiest u de juiste toewijzing voor elke stap in de volgorde waarin u de goedkeuringen wilt laten plaatsvinden.
+2.  Eindbeoordeling. Voeg dit element toe om de statuswijziging van **In uitvoering** naar **Laatste beoordeling** te controleren. Wijzig de toewijzing voor het gebruiken van de organisatiehiërarchie waar het managerniveau van Employee.line = 1 als u wilt dat de manager de eindbeoordeling goedkeurt. Wijzig de toewijzing naar Werkstroomgebruiker als u wilt dat de werknemer dit goedkeurt. Als u wilt dat zowel de manager als werknemer hun goedkeuring geven, voegt u twee stappen toe aan de werkstroom en kiest u de juiste toewijzing voor elke stap in de volgorde waarin u de goedkeuringen wilt laten plaatsvinden.
 
 ## <a name="setup"></a>Instellen
 Er zijn drie pagina's waarmee u de informatie kunt instellen die vereist is om het prestatieproces te voltooien: de pagina **Metingen**, de pagina **Brontypen prestatiejournaal** en de pagina **Controletypen**.
@@ -148,5 +151,7 @@ Brontypen prestatiejournaal beschrijven de herkomst van de prestatiejournalen. U
 ### <a name="review-types"></a>Controletypen
 
 Met de typen voor prestatiebeoordelingen kunt u de werking van een beoordeling bepalen. U kunt de werkstroom voor een beoordeling in- of uitschakelen. Als de beoordeling niet gebruikmaakt van de werkstroom, kunt u de standaardstatus definiëren die wordt gebruikt bij het maken van de beoordeling. U kunt ook bepalen of de werknemer, de manager of beide de beoordeling moeten afmelden.
+
+
 
 

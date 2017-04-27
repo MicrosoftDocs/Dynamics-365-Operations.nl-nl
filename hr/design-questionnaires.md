@@ -1,6 +1,6 @@
 ---
 title: Een vragenlijst ontwerpen
-description: Dit onderwerp beschrijft het proces voor het maken van een vragenlijst. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd.
+description: In dit onderwerp wordt het proces om een vragenlijst te maken beschreven. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="design-a-questionnaire"></a>Een vragenlijst ontwerpen
 
-Dit onderwerp beschrijft het proces voor het maken van een vragenlijst. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
+In dit onderwerp wordt het proces om een vragenlijst te maken beschreven. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
 
 Door een vragenlijst zorgvuldig te ontwerpen, verhoogt u de kwaliteit van de gegevens die u verzamelt. Door een zorgvuldig ontwerp kunt u op het juiste moment beter de gewenste opties selecteren voor een vragenlijst. De volgende punten kunnen u helpen bij het plannen van een effectieve vragenlijst:
 
@@ -87,12 +87,12 @@ Vragenlijstparameters zijn optioneel. U kunt ze ook niet gebruiken, afhankelijk 
 
 Vragenlijstparameters bepalen de anonimiteit, nummerreekscodes en verwijzingstypen van een vragenlijst. Wanneer een organisatie een vragenlijst distribueert, kan de optie om respondenten toe te staan anoniem te blijven problematisch zijn. 
 
-De nummerreekscodes worden gebruikt voor het ordenen van vragen en antwoorden. Op basis van deze nummerreekscodes, waarden automatisch toegewezen aan artikelen. 
+De nummerreekscodes worden gebruikt voor het ordenen van vragen en antwoorden. Op basis van deze nummerreekscodes worden waarden automatisch toegewezen aan artikelen. 
 
 Definieer eerst alle parameters voordat u uw gegevens gaat maken. U kunt de instellingen van de vragenlijst op elk gewenst moment wijzigen.
 
 ## <a name="questionnaire-components"></a>Vragenlijstonderdelen
-Vragenlijsten bestaat uit drie belangrijkste elementen: groepen voor de antwoorden voor Meerkeuze beantwoordt vragen, vragen en de vragenlijst zelf. U kunt desgewenst de vragen op een vragenlijst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst. 
+Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf. U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -235,6 +235,6 @@ U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecte
 
 [Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
 
-[Bekijken en evalueren van de resultaten van vragenlijsten](evaluate-questionnaire-results.md)
+[De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
 
 

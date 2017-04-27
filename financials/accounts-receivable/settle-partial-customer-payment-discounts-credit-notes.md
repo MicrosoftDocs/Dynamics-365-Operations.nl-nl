@@ -1,5 +1,5 @@
 ---
-title: Een gedeeltelijke klantenbetaling met kortingen op creditnota&quot;s vereffenen
+title: Een gedeeltelijke klantenbetaling vereffenen met kortingen op creditnota&quot;s
 description: Dit artikel begeleidt u door een scenario waarbij een contantkorting op een creditnota wordt genomen wanneer de oorspronkelijke factuur ook een contantkorting had.
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Een gedeeltelijke klantenbetaling met kortingen op creditnota's vereffenen
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Een gedeeltelijke klantenbetaling vereffenen met kortingen op creditnota's
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel begeleidt u door een scenario waarbij een contantkorting op een creditnota wordt genomen wanneer de oorspronkelijke factuur ook een contantkorting had. 
 
-Fabrikam stelt klanten in staat om contantkortingen te nemen op gedeeltelijke betalingen en ook op creditnota's. Een contantkorting kan op een creditnota worden toegepast wanneer de creditnota is uitgegeven voor een factuur waarvoor de klant een contantkorting heeft genomen. In plaats van een creditering te verlenen voor het gehele bedrag, kunt u het saldo van de klant crediteren voor een bedrag dat het contantkortingspercentage uitsluit dat de klant heeft genomen. De parameters voor de vereffening bevinden zich op de **parameters van module klanten** pagina.
+Fabrikam stelt klanten in staat om contantkortingen te nemen op gedeeltelijke betalingen en ook op creditnota's. Een contantkorting kan op een creditnota worden toegepast wanneer de creditnota is uitgegeven voor een factuur waarvoor de klant een contantkorting heeft genomen. In plaats van een creditering te verlenen voor het gehele bedrag, kunt u het saldo van de klant crediteren voor een bedrag dat het contantkortingspercentage uitsluit dat de klant heeft genomen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
 
 ## <a name="invoice-and-credit-note"></a>Factuur en creditnota
 Klant 4035 heeft een factuur voor 1.000,00 en een creditnota voor 100,00. Elk document heeft een korting van 1 procent als het binnen 14 dagen wordt betaald. Arnie kan deze informatie bekijken op de pagina **Klanttransacties**.
@@ -59,5 +62,7 @@ Informatie over korting wordt onder aan de pagina **Transacties vereffenen** wee
 | Contantkortingsbedrag dat moet worden toegepast | -1,00     |
 
 De vereffening is 100,00 en omvat een betaling van 99,00 en een korting van 1,00.
+
+
 
 

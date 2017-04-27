@@ -1,5 +1,5 @@
 ---
-title: Stuklijst berekeningen groepen
+title: Stuklijstberekeningsgroepen
 description: Dit artikel bevat informatie over berekeningsgroepen voor stuklijsten en het instellen hiervan. Als u een stuklijstberekening wilt uitvoeren, moet u berekeningsgroepen instellen en deze toewijzen aan afzonderlijke artikelen, of een standaardberekeningsgroep instellen. De berekeningsinstellingen van de berekeningsgroep worden vervolgens gebruikt als standaardwaarden op de pagina Sstuklijstberekening op het moment van de berekening van de stuklijst.
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-groups"></a>Stuklijst berekeningen groepen
+# <a name="bom-calculations-groups"></a>Stuklijstberekeningsgroepen
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bevat informatie over berekeningsgroepen voor stuklijsten en het instellen hiervan. Als u een stuklijstberekening wilt uitvoeren, moet u berekeningsgroepen instellen en deze toewijzen aan afzonderlijke artikelen, of een standaardberekeningsgroep instellen. De berekeningsinstellingen van de berekeningsgroep worden vervolgens gebruikt als standaardwaarden op de pagina Sstuklijstberekening op het moment van de berekening van de stuklijst. 
 
-Een standaard berekeningsgroep is vereist op de pagina **Parameters voor voorraad- en magazijnbeheer** of een productspecifieke berekeningsgroep is vereist op de pagina **Vrijgegeven productdetails**. Het systeem zoekt eerst naar de instellingen van de groep berekening op de **vrijgegeven productdetails** pagina. Als er een berekeningsgroep geen wordt gevonden, wordt er gezocht op de **parameters voor voorraad- en magazijnbeheer** pagina. Als het systeem een berekeningsgroep vinden kunt, krijgt de gebruiker een foutbericht weergegeven tijdens de berekening. Een berekeningsgroep bevat beleidsregels voor het kostprijsmodel, het verkoopprijsmodel en de controlelijst voor waarschuwingen. De berekeningsinstellingen van de berekeningsgroep worden gebruikt als standaardwaarden op de pagina **Sstuklijstberekening** op het moment van de berekening van de stuklijst.
+Een standaard berekeningsgroep is vereist op de pagina **Parameters voor voorraad- en magazijnbeheer** of een productspecifieke berekeningsgroep is vereist op de pagina **Vrijgegeven productdetails**. Er wordt eerst gezocht naar de configuratie van de berekeningsgroep op de pagina **Vrijgegeven productdetails**. Als er daar geen berekeningsgroep wordt gevonden, wordt op de pagina **Parameters voor voorraad- en magazijnbeheer** gezocht. Als geen berekeningsgroep kan worden gevonden, ontvangt de gebruiker een foutbericht tijdens de berekening. Een berekeningsgroep bevat beleidsregels voor het kostprijsmodel, het verkoopprijsmodel en de controlelijst voor waarschuwingen. De berekeningsinstellingen van de berekeningsgroep worden gebruikt als standaardwaarden op de pagina **Sstuklijstberekening** op het moment van de berekening van de stuklijst.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>Toepassing van stuklijstberekeningsgroepen
 U wijst een stuklijstberekeningsgroep om verschillende redenen toe aan artikelen:
@@ -72,7 +75,7 @@ Op het sneltabblad **Waarschuwingen** selecteert u de opties voor alle waarschuw
 Standaardinstellingen in Parameters voor voorraad- en magazijnbeheer
 --------------------------------------------------------------
 
-Omdat berekeningsgroepen zijn vereist voor de uitvoering van berekeningen, moet u een standaardberekeningsgroep instellen in de parameters voor voorraadbeheer. Deze instellingen stellen bedrijven in staat een standaardkostengroep en winstinstelling te hebben voor alle artikelen. Als vervolgens voor een bepaald artikel speciale berekeningsvereisten gelden, kan de gebruiker een andere berekeningsgroep toewijzen aan dat artikel. Normaal gesproken kunt u berekeningsgroepen instellen op artikelen in onderdelen van de stuklijst in plaats van op stuklijstartikelen. Als echter waarschuwingsberichten worden weergegeven, kunnen berekeningsgroepen worden toegepast. Een berekeningsgroep die wordt toegewezen aan artikelen heeft voorrang op de standaardwaarde die is ingesteld in de parameters voor voorraadbeheer. U kunt instellen met de standaardparameter op **kostenbeheer**&gt;**Voorraadinstellingen boekhouding beleid**&gt;**Parameters**&gt;**voorraadboekhouding**&gt;**berekeningsgroep**. Door een standaardconfiguratiegroep in te stellen, kunt u tevens de waarschuwingsvoorwaarden configureren waarin gebruikers wordt gevraagd tijdens de berekening van de stuklijst of de geselecteerde onderdelen mogelijk berekeningsfouten kunnen veroorzaken.
+Omdat berekeningsgroepen zijn vereist voor de uitvoering van berekeningen, moet u een standaardberekeningsgroep instellen in de parameters voor voorraadbeheer. Deze instellingen stellen bedrijven in staat een standaardkostengroep en winstinstelling te hebben voor alle artikelen. Als vervolgens voor een bepaald artikel speciale berekeningsvereisten gelden, kan de gebruiker een andere berekeningsgroep toewijzen aan dat artikel. Normaal gesproken kunt u berekeningsgroepen instellen op artikelen in onderdelen van de stuklijst in plaats van op stuklijstartikelen. Als echter waarschuwingsberichten worden weergegeven, kunnen berekeningsgroepen worden toegepast. Een berekeningsgroep die wordt toegewezen aan artikelen heeft voorrang op de standaardwaarde die is ingesteld in de parameters voor voorraadbeheer. U kunt de standaardparameter instellen onder **Kostenbeheer** &gt; **Instelling voor boekhoudingbeleid voorraad** &gt; **Parameters** &gt; **Voorraadboekhouding** &gt; **Berekeningsgroep**. Door een standaardconfiguratiegroep in te stellen, kunt u tevens de waarschuwingsvoorwaarden configureren waarin gebruikers wordt gevraagd tijdens de berekening van de stuklijst of de geselecteerde onderdelen mogelijk berekeningsfouten kunnen veroorzaken.
 Waarschuwingsberichten weergeven op de pagina Voltooid
 ------------------------------------------
 
@@ -85,5 +88,7 @@ Een stuklijstberekening genereert waarschuwingsberichten. U kunt de waarschuwing
 -   Er wordt een waarschuwing aangegeven wanneer het artikel op een stuklijstregel een lager winstpercentage dan gewenst heeft.
 
 Afhankelijk van uw vereisten voor variaties in waarschuwingsberichten kunt u meerdere stuklijstberekeningsgroepen definiëren. Eén stuklijstberekeningsgroep met waarschuwingsvoorwaarden over een actieve stuklijst, een hoeveelheid van 0 (nul) onderdelen en een kostprijs van de onderdelen van 0 (nul) kan bijvoorbeeld voldoende zijn. Wanneer u een stuklijstberekening start, kunt u de toepasselijke waarschuwingsvoorwaarden die aan de stuklijstberekeningsgroep zijn gekoppeld, overschrijven. U kunt ook waarschuwingsvoorwaarden toevoegen of verwijderen. Wanneer bijvoorbeeld geen routegegevens nodig zijn voor de huidige situatie, kunt u de waarschuwingsvoorwaarde over een actieve route verwijderen. **Opmerking:** Tijd en aanwezigheid bevat een pagina **Berekeningsgroepen**, maar die pagina heeft geen betrekking op stuklijstberekeningsgroepen. In Tijd en aanwezigheid kunnen werknemers worden toegewezen aan berekeningsgroepen die de groepering weergeven van werknemers die zijn gekoppeld aan dezelfde supervisor of manager. Het berekenen van de registratie van werknemers kan automatisch plaatsvinden of handmatig door een supervisor of manager worden uitgevoerd.
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Valuta voor boekhouding of aangiftevaluta converteren
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Een bedrijf dat zijn valuta voor boekhouding of aangiftevaluta moet wijzigen heeft twee opties. De eerste optie is een nieuw bedrijf te maken en van voren af aan te beginnen. De tweede optie is het conversieproces voor de valuta voor boekhouding en aangiftevaluta uit te voeren. Dit is een zeer langdurig proces dat elke transactie in het systeem verandert. Er kunnen ook instellingen vereist zijn voordat het proces kan worden uitgevoerd.
@@ -72,6 +75,8 @@ Na de valutaomrekening, moet u alle afstemmingsrapporten opnieuw genereren om er
 -   Wanneer er bij de omrekening van de boekhoudingsvaluta verschillen in de afronding zijn ontstaan, worden deze verschillen niet geboekt met het boekstuk waar die verschillen zich hebben voorgedaan. Zij worden in plaats daarvan geboekt met het boekstuk dat is ingevoerd voor de omrekeningsboekingen. Na de omrekening bevatten alle rapporten die op boekstuk en datum controleren, deze afrondingsverschillen. Dit gedrag is correct en kan worden genegeerd.
 -   Als de klant- en leveranciersafstemmingsrapporten een ander bedrag op de totaalregel weergeven en er geen verschilbedrag bestond voor de conversie, moet dit verschilbedrag worden geboekt. De rekening is de totaalrekening voor klanten en leverancier. De tegenrekening is de grootboekrekening voor omrekeningswinst of -verlies.
 
-Wanneer alle grootboektransactiejournalen zijn verwijderd, kunt u de grootboektransacties journaliseren. Klik op **grootboek**&gt;**periodiek**&gt;**journalen**&gt;**Journalisering**. U kunt bedragen in vreemde valuta herwaarderen na de valutaomrekening, als de herwaardering is vereist. U herwaardeert bedragen in vreemde valuta door **Standaard** in het veld **Methode** voor de herwaardering te selecteren.
+Wanneer alle grootboektransactiejournalen zijn verwijderd, kunt u de grootboektransacties journaliseren. Klik op **Grootboek** &gt; **Periodiek** &gt; **Journalen** &gt; **Journalisering**. U kunt bedragen in vreemde valuta herwaarderen na de valutaomrekening, als de herwaardering is vereist. U herwaardeert bedragen in vreemde valuta door **Standaard** in het veld **Methode** voor de herwaardering te selecteren.
+
+
 
 

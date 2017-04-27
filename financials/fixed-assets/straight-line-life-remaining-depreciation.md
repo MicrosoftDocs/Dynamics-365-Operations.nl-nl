@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Lineaire afschrijving restlevensduur
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft een overzicht van de afschrijvingsmethode ´Lineaire restlevensduur´.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **Lineaire restlevensduur** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, dan is de afschrijving van vaste activa die zijn toegewezen aan dit afschrijvingsprofiel gebaseerd op de resterende levensduur van het activum. Over het algemeen is het afschrijvingsbedrag elke afschrijvingsperiode hetzelfde. Als u lineaire resterende afschrijving van de levensduur wilt instellen, moet u ook opties selecteren in het veld **Afschrijvingsjaar** en het veld **Periodefrequentie** op de pagina **Afschrijvingsprofielen**. De opties die beschikbaar zijn in het veld **Periodefrequentie** variëren, afhankelijk van de waarde die in het veld **Afschrijvingsjaar** is geselecteerd.
@@ -36,7 +39,7 @@ U kunt **Kalender** of **Fiscaal** selecteren in het veld **Afschrijvingsjaar** 
 
 ### <a name="calendar"></a>Kalender
 
-Als u **kalender** in de ***afschrijvingsjaar*** veld, een jaar van 1 januari tot en met 31 december wordt uitgegaan, zelfs als u de fiscale kalender anders hebt ingesteld. Met de optie **Kalender** wordt de afschrijvingsbasis op 1 januari van elk jaar bijgewerkt. Doorgaans is de afschrijvingsbasis de nettoboekwaarde min de restwaarde. In het voorbeeld verderop in dit onderwerp is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
+Wanneer u **Kalender** selecteert in het veld ***Afschrijvingsjaar***, wordt uitgegaan van een jaar van 1 januari t/m 31 december, zelfs als u de fiscale kalender anders hebt ingesteld. Met de optie **Kalender** wordt de afschrijvingsbasis op 1 januari van elk jaar bijgewerkt. Doorgaans is de afschrijvingsbasis de nettoboekwaarde min de restwaarde. In het voorbeeld verderop in dit onderwerp is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 
 -   **Jaarlijks**: op 31 december wordt een bedrag geboekt.
 -   **Maandelijks**: aan het einde van elke kalendermaand wordt een maandbedrag geboekt.
@@ -48,7 +51,7 @@ Als u bijvoorbeeld **Jaarlijks** selecteert, wordt de jaarlijkse afschrijving wo
 
 ### <a name="fiscal"></a>Fiscaal
 
-Als u **Fiscaal** selecteert in het veld **Afschrijvingsjaar** wordt de lineaire resterende afschrijving van de levensduur gebruikt. Afschrijving wordt berekend op basis van de resterende boekjaren. Bijvoorbeeld het boekjaar van 1 juli 2015 tot en met 30 juni 2016, wordt de afschrijving vanaf 1 juli. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt voor elke boekperiode aangepast. De lengte van het volgende boekjaar wordt bepaald door de boekperioden die zijn ingesteld op de pagina **Fiscale kalenders**. Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
+Als u **Fiscaal** selecteert in het veld **Afschrijvingsjaar** wordt de lineaire resterende afschrijving van de levensduur gebruikt. Afschrijving wordt berekend op basis van de resterende boekjaren. Voor bijvoorbeeld het boekjaar van 1 juli 2015 t/m 30 juni 2016 wordt de afschrijving vanaf 1 juli berekend. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt voor elke boekperiode aangepast. De lengte van het volgende boekjaar wordt bepaald door de boekperioden die zijn ingesteld op de pagina **Fiscale kalenders**. Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 
 -   **Jaarlijks** boekt het totale bedrag van de afschrijving die is berekend voor het boekjaar als één bedrag op de laatste dag van het boekjaar.
 -   **Boekperiode **berekent het totale bedrag van de afschrijving voor het boekjaar. Dit bedrag wordt vervolgens toegerekend in de boekperioden die zijn gedefinieerd op de pagina **Fiscale kalenders** voor de fiscale kalender die is opgegeven voor het boek.
@@ -73,6 +76,8 @@ Het afschrijvingsbedrag is elk jaar hetzelfde: (Verwervingskosten - restwaarde) 
 | Jaar 3 | (7000 – 1000) ÷ 3 = 2000                   | 5.000                                 |
 | Jaar 4 | (5000 – 1000) ÷ 2 = 2000                   | 3000                                 |
 | Jaar 5 | (3000 – 1000) ÷ 1 = 2000                   | 1.000                                 |
+
+
 
 
 

@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="position-forecasting"></a>Positie voorspellen
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 De onkosten die aan werknemers zijn gerelateerd vormen vaak een grote deel van de kosten van een organisatie. Positie voorspellen laat u die onkosten plannen en deze opnemen in de planning van budgetten.
 
 ## <a name="position-forecasting-in-budget-planning"></a>Positie voorspelling in budget planning
 
-[![Grafische boven](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Grafische top](./media/graphic-top.png)](./media/graphic-top.png) 
 
-Prognoses van de positie wordt gebruikt drie hoofdonderdelen nauwkeurige budgetbedragen voor onkosten positie. Deze bedragen kunnen vervolgens in een budgetplan voor budgetberekeningen worden gebracht. 
+Positieprognose maakt gebruik van drie hoofdcomponenten om nauwkeurige budgetbedragen voor positiekosten te geven. Deze bedragen kunnen vervolgens in een budgetplan voor budgetberekeningen worden gebracht. 
 
 Het primaire component is **voorspellingpositie**, hetgeen alle kostengegevens vertegenwoordigt die in één positie zijn gekoppeld. U kunt meerdere versies van een voorspellingpositie maken door een ander scenario van het budgetplan aan elke versie toe te wijzen. Meerdere versies maken een iteratieve aanpak van budgettering mogelijk en staan u toe wat-als-scenario's te vergelijken. Elke voorspellingspositie heeft een bijbehorende positie in HRM.
 
@@ -47,7 +50,7 @@ Een **compensatiegroep** is een optioneel installatiecomponent dat wordt gebruik
 
 [![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
-In een normale proces voor het voorspellen van de positie, moet u eerst de setup-onderdelen (kostenelementen budget en compensatie groepen) maken. Prognoseposities worden vervolgens gegenereerd op basis van bestaande posities. U kunt vervolgens correcties aanbrengen. U kunt bijvoorbeeld posities toevoegen of beëindigen, loontarieven en kosten voor vergoedingen wijzigen en loonstijgingen toevoegen. U kunt meerdere versies van een prognosepositie maken om verschillende budgetscenario's met elkaar te vergelijken. Vervolgens kunt u de prognoseposities opnemen in budgetplannen en de kosten van de prognoseposities invoeren als budgetplanregels.
+In een typisch proces voor positieprognose maakt u eerst de instellingsonderdelen (budgetkostenelementen en compensatiegroepen). Prognoseposities worden vervolgens gegenereerd op basis van bestaande posities. U kunt vervolgens correcties aanbrengen. U kunt bijvoorbeeld posities toevoegen of beëindigen, loontarieven en kosten voor vergoedingen wijzigen en loonstijgingen toevoegen. U kunt meerdere versies van een prognosepositie maken om verschillende budgetscenario's met elkaar te vergelijken. Vervolgens kunt u de prognoseposities opnemen in budgetplannen en de kosten van de prognoseposities invoeren als budgetplanregels.
 
 U kunt extra versies van de prognosepositie maken wanneer de budgetplannen worden gewijzigd. Deze nieuwe versies bieden een basis voor de revisies.
 
@@ -64,9 +67,9 @@ De berekening van de kostprijs van het budgetkostenelement gebruikt ingangsdatum
 
 Als het kostenelement op een percentage is gebaseerd, moet u de budgetkostenelementen opgeven die als basis voor de berekening worden gebruikt.
 
-**Example** 
+**Voorbeeld ** 
 
-De organisatie van de Jodi biedt een correctie training van 5 procent van het basissalaris van een werknemer. Jodi wil een budgetkostenelement voor deze kosten maken. Ze maakt een nieuw budgetkostenelement en wijst het budgetkostentype **Vergoeding** toe.
+Jodi's organisatie biedt een trainingstoelage van 5 procent van het basisloon van een werknemer. Jodi wil een budgetkostenelement voor deze kosten maken. Ze maakt een nieuw budgetkostenelement en wijst het budgetkostentype **Vergoeding** toe.
 
 Jodi wil niet dat managers het bedrag van de vergoeding wijzigen. Daarom selecteert ze **Kostenwijzigingen niet toestaan** in het veld **Prognosepositie overschrijven**. De organisatie wil dat deze kosten gelijkmatige worden toegewezen aan elke maand. Daarom selecteert Jodi **Driemaandelijks** in het veld **Toewijzingsmethode**. 
 
@@ -82,7 +85,7 @@ Een basisfunctie van compensatiegroepen is een set budgetkostenelementen aan een
 
 Compensatiegroepen kunnen ook de inkomstentarieven voor een prognosepositie bepalen. U stelt een groep in om inkomsten van de prognosepositie te berekenen per uur of op basis van een jaarsalaris. Op het tabblad **Compensatietarieftabellen** bepaalt een compensatieraster van salaristarieven de inkomsten die aan een prognosepositie worden toegevoegd, gebaseerd op een toegewezen niveau en stap. Deze rasters kunnen zijn gebaseerd op bestaande compensatierasters in Human resources. Als alternatief kunt u nieuwe compensatierasters maken voor de budgetplanning. 
 
-Met de ingangsdatums en vervaldatums op de tabellen met het compensatietarief kunt u de loontarieven op een willekeurige datum wijzigen. Deze functie is nuttig als een onderhandelingseenheid heeft onderhandeld voor een algemene verhoging in het midden van een budgetcyclus. In dit geval wordt de vervaldatum van de bestaande tabel wijzigen op de dag vóór de datum van de tariefswijziging en een nieuw tarieventabel toevoegen die op de nieuwe datum begint. Wanneer u een nieuwe tarieventabel maakt als u **een nieuw compensatieraster maken van een bestaand raster**, kunt u een bestaande tabel in de wisselkoers van Human resources. Op de tarieftabel die wordt gemaakt, kunt u met de optie **Massawijziging** een percentage of een vlakke bedragverhoging of een -verlaging toepassen op alle tarieven in het raster. 
+Met de ingangsdatums en vervaldatums op de tabellen met het compensatietarief kunt u de loontarieven op een willekeurige datum wijzigen. Deze functie is nuttig als een onderhandelingseenheid heeft onderhandeld voor een algemene verhoging in het midden van een budgetcyclus. In dit geval, wijzigt u de vervaldatum van de bestaande tabel naar de dag vóór de datum van de tariefwijziging en voegt u een nieuwe tarieftabel toe die begint op de nieuwe datum. Wanneer u een nieuwe tarieftabel maakt en u **Een nieuw compensatieraster maken op basis van een bestaand raster** selecteert, kunt u een bestaande tarieftabel selecteren uit Human Resources. Op de tarieftabel die wordt gemaakt, kunt u met de optie **Massawijziging** een percentage of een vlakke bedragverhoging of een -verlaging toepassen op alle tarieven in het raster. 
 
 De velden **Planning verhogen** en **Datum van verhoging** in de compensatiegroep worden gebruikt wanneer u salarisverhogingen moet maken omdat de posities naar een volgende stap gaan. Een jaarlijks loonsverhoging is een veel voorkomend scenario. De verhogingsplanning bepaalt of de jubileumdatum van de positie of één gemeenschappelijke datum voor de stapverhoging wordt gebruikt. De verhogingsplanning is van toepassing op alle prognoseposities in de compensatiegroep. 
 
@@ -93,7 +96,7 @@ Het inkomstenkostenelement dat op de compensatiegroep wordt geselecteerd, wordt 
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognoseposities maken voor bestaande posities
 
-U kunt voor het meest nauwkeurige budget plannen, prognoseposities maken met gegevens uit bestaande posities in Microsoft Dynamics 365 voor bewerkingen, ongeacht of de positie die momenteel wordt opgevuld of leeg. 
+Voor de nauwkeurigste budgetplanning kunt u prognoseposities maken door gegevens van bestaande posities in Microsoft Dynamics 365 for Operations te gebruiken, ongeacht of de positie momenteel is vervuld of niet. 
 
 De functie **Bestaande posities toevoegen** geeft alle posities weer voor een organisatie. Door de datum in te stellen op** Vanaf** kunt u de lijst met posities wijzigen zodat deze de posities bevat die bestonden op een datum in het verleden of, vaker, in de toekomst (bijvoorbeeld, het begin van de volgende budgetcyclus). Selecteer een planningsproces en budgetplanscenario, selecteer posities in de lijst, en klik vervolgens in **OK** om prognoseposities voor de geselecteerde functies te maken. Merk op dat u slechts één prognosepositie voor elke bestaande positie in een budgetplanningsproces en -scenario kunt maken. U kunt echter extra versies maken door andere budgetplanscenario's toe te wijzen. 
 
@@ -107,7 +110,7 @@ De instelling van de optie **Een compensatiegroep toewijzen** heeft voorrang bov
 
 [![graphic4](./media/graphic4.png)](./media/graphic4.png) 
 
-Een andere mogelijkheid is een speciale datum toewijzen. De geselecteerde datum (gecorrigeerde begindatum, begindatum van medewerker, begindatum van dienstverband of anciënniteitsdatum) van de toegewezen medewerker wordt vervolgens ingesteld als jubileumdatum van de prognosepositie en gebruikt voor informatie en bij het genereren van loonsverhogingen.
+Een andere optie is het toewijzen van een jubileumdatum. De geselecteerde datum (gecorrigeerde begindatum, begindatum van medewerker, begindatum van dienstverband of anciënniteitsdatum) van de toegewezen medewerker wordt vervolgens ingesteld als jubileumdatum van de prognosepositie en gebruikt voor informatie en bij het genereren van loonsverhogingen.
 
 ### <a name="creating-new-forecast-positions"></a>Nieuwe prognoseposities maken
 
@@ -138,9 +141,9 @@ Een budgetkostenelementregel van 1 januari 2017 tot 30 juni 2017 die een jaarlij
 
 De budgetkostenelementenregels moeten worden opnieuw berekend wanneer de FTE-waarde op de prognosepositie wordt gewijzigd. De regels moeten ook worden opnieuw berekend wanneer de activering datums of buitengebruikstellingsdata worden gewijzigd. Wijzigingen in deze datums kunnen een update van de begin- en einddatum van het budgetkostenelement veroorzaken, die moet liggen tussen de datums van de prognosepositie. Wanneer de herberekening wordt vereist, wordt de knop **Opnieuw berekenen** beschikbaar, en wordt het bericht 'Vereist berekening' weergegeven. De herberekening is ook verplicht als een budgetkostenelement toevoegt of een verwijdert.
 
-**Example** 
+**Voorbeeld** 
 
-De organisatie overweegt twee methodes voor vermindering van de kosten van een functie van accountant. Een optie is om de positie halverwege het jaar te beëindigen. De andere optie is om de positie naar parttime te wijzigen voor het hele jaar. Brad heeft een prognosepositie gemaakt voor de bestaande accountantspositie in een basislijnscenario. Hij kopieert deze basislijnprognosepositie naar scenario A, stelt de persioneringsdatum in op 31 mei en berekent opnieuw. Brad kopieert vervolgens de basislijnprognosepositie naar B, wijzigt de FTE-waarde in **0,50** en berekent opnieuw. Brad heeft nu drie versies, elk waarvan totalen heeft die op zijn opties zijn afgestemd.
+De organisatie overweegt twee opties om de kosten van een accountantspositie te drukken. Een optie is om de positie halverwege het jaar te beëindigen. De andere optie is om de positie naar parttime te wijzigen voor het hele jaar. Brad heeft een prognosepositie gemaakt voor de bestaande accountantspositie in een basislijnscenario. Hij kopieert deze basislijnprognosepositie naar scenario A, stelt de persioneringsdatum in op 31 mei en berekent opnieuw. Brad kopieert vervolgens de basislijnprognosepositie naar B, wijzigt de FTE-waarde in **0,50** en berekent opnieuw. Brad heeft nu drie versies, elk waarvan totalen heeft die op zijn opties zijn afgestemd.
 
 #### <a name="assigning-a-compensation-group"></a>Een compensatiegroep toewijzen
 
@@ -160,9 +163,9 @@ Als u een tweede keer op **Verhogingen genereren** klikt, wordt het proces opnie
 
 De updates voor prognoseposities kunnen ook uit andere gebieden komen, zoals het budgetkostenelement element en pagina's voor compensatiegroepinstellingen. U kunt prognoseposities ook wijzigen door het massabijwerkproces te gebruiken. 
 
-Er zijn twee opties beschikbaar op de **budget kosten-element** pagina setup: **toevoegen aan posities** en **posities bijwerken op de**. De optie **Aan posities toevoegen** voegt het budgetkostenelement toe aan de geselecteerde prognoseposities. Als het element al aan een prognosepositie is toegewezen, wordt deze prognosepositie overgeslagen. De optie **Posities bijwerken** past de huidige waarden (de hoofdrekening, procent, jaarlijks bedrag, enzovoort) toe op de geselecteerde prognoseposities. 
+Twee opties zijn beschikbaar op de instelpagina **Budgetkostenelement**: **Aan posities toevoegen** en **Posities bijwerken**. De optie **Aan posities toevoegen** voegt het budgetkostenelement toe aan de geselecteerde prognoseposities. Als het element al aan een prognosepositie is toegewezen, wordt deze prognosepositie overgeslagen. De optie **Posities bijwerken** past de huidige waarden (de hoofdrekening, procent, jaarlijks bedrag, enzovoort) toe op de geselecteerde prognoseposities. 
 
-Elk proces heeft een vergelijkbare pagina waarin u prognoseposities kunt selecteren. De pagina **Aan posities toevoegen** bevat alle prognoseposities die beschikbaar zijn voor selectie, terwijl de pagina **Posities bijwerken** alleen die prognoseposities weergeeft die al een budgetkostenelement toegewezen hebben gekregen. (Dus de **posities bijwerken op** pagina beschikt u over een manier om erachter te komen welke prognosebehoeften posities al het kostenelement dat is gekoppeld.) U kunt prognoseposities uit een bovenste raster verplaatst naar een onderste raster voor opname in de update. 
+Elk proces heeft een vergelijkbare pagina waarin u prognoseposities kunt selecteren. De pagina **Aan posities toevoegen** bevat alle prognoseposities die beschikbaar zijn voor selectie, terwijl de pagina **Posities bijwerken** alleen die prognoseposities weergeeft die al een budgetkostenelement toegewezen hebben gekregen. (Daarom biedt de pagina **Posities bijwerken** een manier om erachter te komen aan welke prognoseposities al het kostenelement is gekoppeld.) U verplaatst prognoseposities van het bovenste raster naar een lager raster om ze in de update op te nemen. 
 
 Merk op dat de **Wijzigingsdata** functie op het **Kostenberekening** tabblad de begin- en einddata van het budgetkostenelement onmiddellijk wijzigt op de prognoseposities. Er zijn geen selectieopties beschikbaar. 
 
@@ -176,7 +179,7 @@ Het herberekeningsproces wordt automatisch gebruikt op elke prognosepositie die 
 
 [![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
-Het doel van maken en wijzigen van prognoseposities is aan het budgetplannen, wilt toevoegen, zodat de budgetplannen de meest nauwkeurige budgetbedragen bevatten. Er zijn twee methoden voor het toevoegen van prognoseposities aan budgetplannen. U kunt een proces voor het genereren of selecteren gebruiken voor het budgetplan.
+Het maken en wijzigen van prognoseposities heeft als doel om ze toe te voegen aan budgetplannen, zodat de budgetplannen de nauwkeurigste budgetbedragen bevatten. Er zijn twee methoden voor het toevoegen van prognoseposities aan budgetplannen. U kunt een proces voor het genereren of selecteren gebruiken voor het budgetplan.
 
 ### <a name="generating-a-budget-plan-from-forecast-positions"></a>Budgetplan genereren op basis van prognoseposities
 
@@ -215,5 +218,7 @@ Voor zowel het genereer- als het selectieproces bepaalt de begindatum op de budg
 Budgetplanregels tonen de bron van de budgetbedragen (het nummer van de prognosepositie), maar zijn niet gekoppeld. Daarom worden wijzigingen in de prognosepositie niet weergegeven op de regel van het budgetplan en worden wijzigingen in de regel van het budgetplan weergegeven in de prognosepositie. Als u een prognosepositie wijzigt en wilt dat de updates worden opgenomen in een budgetplan, moet u de prognosepositie weer in het plan opnemen. Dit proces verwijdert echter alle regels waar die prognosepositie wordt toegewezen. Daarom worden alle wijzigingen die u hebt aangebracht in die regels verwijderd. 
 
 Om te zien in welke budgetplannen een prognosepositie is opgenomen, kunt u in het rapport **Prognoseposities per budgetplan** genereren. Als alternatief kunt u op de prognosepositie het feitenvak **Gekoppelde budgetplannen** openen om de plannen weer te geven.
+
+
 
 

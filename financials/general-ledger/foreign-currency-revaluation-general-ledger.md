@@ -1,6 +1,6 @@
 ---
 title: Herwaardering van vreemde valuta voor Grootboek
-description: Dit onderwerp biedt een overzicht van de volgende opties voor het herwaarderingsproces grootboek vreemde valuta - instelling, het gestart, berekening voor het verwerken en hoe u de herwaarderingstransacties omkeren indien nodig.
+description: 'Dit onderwerp bevat een overzicht van de volgende onderdelen van het herwaarderingsproces van vreemde valuta voor het grootboek: instellingen, het proces uitvoeren, berekening voor het proces en het omkeren van de herwaarderingstransacties, indien nodig.'
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,14 +27,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Herwaardering van vreemde valuta voor Grootboek
 
-Dit onderwerp biedt een overzicht van de volgende opties voor het herwaarderingsproces grootboek vreemde valuta - instelling, het gestart, berekening voor het verwerken en hoe u de herwaarderingstransacties omkeren indien nodig. 
+[!include[banner](../includes/banner.md)]
+
+
+Dit onderwerp bevat een overzicht van de volgende onderdelen van het herwaarderingsproces van vreemde valuta voor het grootboek: instellingen, het proces uitvoeren, berekening voor het proces en het omkeren van de herwaarderingstransacties, indien nodig. 
 
 Als onderdeel van een periode-einde vereisen de boekhoudconventies dat grootboekrekeningsaldo's in vreemde valuta worden geherwaardeerd met verschillende typen wisselkoersen (huidig, historisch, gemiddeld, enzovoort). Eén boekhoudconventie vereist bijvoorbeeld dat betreffende activa en passiva worden geherwaardeerd tegen de huidige wisselkoers, vaste activa tegen de historische wisselkoers nb winst- en verliesrekeningen tegen het maandelijkse gemiddelde. Grootboekherwaardering van de vreemde valuta kan worden gebruikt om de balans en de winst- en verliesrekeningen te herwaarderen. 
 
 > [!NOTE]
-> Herwaardering van vreemde valuta is ook beschikbaar in (AR) voor klanten en leveranciers (AP). Als u deze modules worden gebruikt, moeten de openstaande transacties worden geherwaardeerd met behulp van de herwaardering van vreemde valuta in die modules. De herwaardering van vreemde valuta voor AR en AP maakt een journaalregel in het grootboek om de gerealiseerde winst of het gerealiseerde verlies aan te geven, zodat subjournalen en het grootboek kunnen worden afgestemd. Omdat de herwaardering van vreemde valuta voor AR en AP journaalregels in het grootboek kan maken, moeten de klant- en de leveranciershoofdrekeningen worden uitgesloten van de herwaardering van vreemde valuta voor het grootboek. 
+> Herwaardering van vreemde valuta is ook beschikbaar in Leveranciers en Klanten. Als u deze modules gebruikt, moeten de openstaande transacties worden geherwaardeerd met behulp van de herwaardering van vreemde valuta in die modules. De herwaardering van vreemde valuta voor AR en AP maakt een journaalregel in het grootboek om de gerealiseerde winst of het gerealiseerde verlies aan te geven, zodat subjournalen en het grootboek kunnen worden afgestemd. Omdat de herwaardering van vreemde valuta voor AR en AP journaalregels in het grootboek kan maken, moeten de klant- en de leveranciershoofdrekeningen worden uitgesloten van de herwaardering van vreemde valuta voor het grootboek. 
 
-Wanneer u het herwaarderingsproces uitvoert, wordt het saldo in elke hoofdrekening in een vreemde valuta geherwaardeerd. De niet-gerealiseerde winst- en verliestransacties die worden gemaakt tijdens het herwaarderingsproces worden door het systeem gegenereerd. Twee transacties kunnen worden gemaakt, één voor de valuta voor boekhouding en een tweede voor de aangiftevaluta, indien van toepassing. Elke vermelding boekhouding wordt geboekt naar de niet-gerealiseerde winst of verlies en de hoofdrekening die worden geherwaardeerd.
+Wanneer u het herwaarderingsproces uitvoert, wordt het saldo in elke hoofdrekening in een vreemde valuta geherwaardeerd. De niet-gerealiseerde winst- en verliestransacties die worden gemaakt tijdens het herwaarderingsproces worden door het systeem gegenereerd. Er kunnen twee transacties worden gemaakt, één voor de valuta voor boekhouding en een tweede voor de aangiftevaluta, indien van toepassing. Elke journaalregel wordt geboekt naar de niet-gerealiseerde winst/verlies en de hoofdrekening die wordt geherwaardeerd.
 
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Voorbereiding van herwaardering van vreemde valuta
 Voordat u het herwaarderingsproces kunt uitvoeren, zijn de volgende instellingen vereist.
@@ -57,22 +60,22 @@ De pagina **Herwaardering van vreemde valuta** geeft de historie van elk herwaar
 
 De waarden voor **Begindatum** en **Einddatum** definiëren het datuminterval voor het berekenen van het saldo in vreemde valuta dat wordt geherwaardeerd. Wanneer u winst- en verliesrekeningen herwaardeert, wordt het totaal van alle transacties binnen het datuminterval geherwaardeerd. Wanneer u balansrekeningen herwaardeert, wordt de Begindatum genegeerd. In plaats daarvan wordt het te herwaarderen saldo gedefinieerd door van het begin van het boekjaar tot de Einddatum te gaan. 
 
-De **datum van koers** kunnen worden gebruikt voor het definiëren van de datum waarop de wisselkoers standaard moet worden ingesteld. U kunt bijvoorbeeld de saldi tussen de datum bereik van januari 1 tot en met 31 januari herwaardeert, maar de wisselkoers die is gedefinieerd voor 1 februari. 
+De **Datum van koers** kan worden gebruikt om de datum te definiëren waarvoor de wisselkoers standaard moet worden ingesteld. U kunt bijvoorbeeld de saldi herwaarderen tussen het datumbereik van 1 januari tot 31 januari, maar de wisselkoers gebruiken die is gedefinieerd voor 1 februari. 
 
-Selecteer welke hoofdrekeningen worden geherwaardeerd: Alle, Balans of Winst en verlies. Alleen hoofdrekeningen gemarkeerd voor herwaardering (op de pagina van de hoofd-account) opnieuw gewaardeerd. Als u verder beperken het bereik van hoofdrekeningen wilt, gebruikt u de Records **om op te nemen** tabblad om een bereik van hoofdrekeningen of afzonderlijke hoofdrekeningen. 
+Selecteer welke hoofdrekeningen worden geherwaardeerd: Alle, Balans of Winst en verlies. Alleen hoofdrekeningen die zijn gemarkeerd voor herwaardering (op de pagina Hoofdrekening), worden geherwaardeerd. Als u het bereik van hoofdrekeningen verder wilt beperken, gebruikt u het tabblad **Op te nemen records** om een bereik van hoofdrekeningen of afzonderlijke hoofdrekeningen te definiëren. 
 
-Herwaardering kan worden uitgevoerd voor een of meer rechtspersonen. De zoekopdracht wordt alleen de rechtspersonen waartoe u toegang hebt weergegeven. Selecteer de rechtspersonen waarvoor u wilt uitvoeren van de herwaardering. 
+Het herwaarderingsproces kan voor een of meer rechtspersonen worden uitgevoerd. Met de zoekopdracht worden alleen de rechtspersonen weergegeven waartoe u toegang hebt. Selecteer de rechtspersonen waarvoor u het herwaarderingsproces wilt uitvoeren. 
 
-De herwaardering kan voor een of meer vreemde valuta worden uitgevoerd. De zoekopdracht bevat alle valuta's die zijn geboekt in het datumbereik relevant zijn voor het type hoofdrekening (balans of winst en verlies) voor de rechtspersonen die zijn geselecteerd om te herwaarderen. De valuta voor boekhouding worden opgenomen in de lijst, maar niets worden geherwaardeerd als de valuta voor boekhouding is geselecteerd. 
+De herwaardering kan voor een of meer vreemde valuta worden uitgevoerd. De zoekopdracht omvat alle valuta's die zijn geboekt binnen het datumbereik dat relevant is voor het type hoofdrekening (balans of winst en verlies) voor de rechtspersonen die zijn geselecteerd voor herwaardering. De valuta voor boekhouding wordt opgenomen in de lijst, maar er wordt niets geherwaardeerd als de valuta voor boekhouding wordt geselecteerd. 
 
-Instellen **voorbeeld vóór het boeken** naar **Ja** als u wilt controleren van het resultaat van de herwaardering van het grootboek. Het voorbeeld in het grootboek wijkt af van de simulatie van de AR en AP herwaardering van vreemde valuta. De simulatie in AR en AP is een rapport, maar het grootboek is een voorbeeld dat kan worden geboekt, zonder dat het herwaarderingsproces opnieuw uitvoeren. De resultaten van het voorbeeld kunnen naar Microsoft Excel worden geëxporteerd om de historie te bewaren voor hoe de bedragen zijn berekend. U kunt geen batchverwerking gebruiken als u een voorbeeld van de herwaarderingsresultaten wilt bekijken. Vanuit het voorbeeld heeft de gebruiker de optie om de resultaten van alle rechtspersonen te boeken met de knop **Boeken**. Als er een probleem is met de resultaten voor een rechtspersoon, heeft de gebruiker ook de optie om een subset van de rechtspersonen te boeken met de knop **Te boeken rechtspersonen selecteren**. 
+Stel **Bekijken alvorens te boeken** in op **Ja** als u het resultaat van de herwaardering van het grootboek wilt controleren. Het voorbeeld in het grootboek wijkt af van de simulatie van de herwaardering van vreemde valuta voor AR en AP. De simulatie in AR en AP is een rapport, maar het grootboek heeft een voorbeeld dat kan worden geboekt, zonder dat het herwaarderingsproces opnieuw moet worden uitgevoerd. De resultaten van het voorbeeld kunnen naar Microsoft Excel worden geëxporteerd om de historie te bewaren voor hoe de bedragen zijn berekend. U kunt geen batchverwerking gebruiken als u een voorbeeld van de herwaarderingsresultaten wilt bekijken. Vanuit het voorbeeld heeft de gebruiker de optie om de resultaten van alle rechtspersonen te boeken met de knop **Boeken**. Als er een probleem is met de resultaten voor een rechtspersoon, heeft de gebruiker ook de optie om een subset van de rechtspersonen te boeken met de knop **Te boeken rechtspersonen selecteren**. 
 
-Nadat de herwaardering van vreemde valuta voltooid is, wordt een record worden gemaakt voor het bijhouden van de geschiedenis van elke serie.  Een afzonderlijke record gemaakt voor elke rechtspersoon en boekingslaag.
+Nadat het herwaarderingsproces van vreemde valuta is voltooid, wordt een record gemaakt om de historie voor elke uitvoering bij te houden.  Er wordt een afzonderlijke record gemaakt voor elke rechtspersoon en boekingslaag.
 
 ## <a name="calculate-unrealized-gainloss"></a>Niet-gerealiseerde winst/verlies berekenen
-De niet-gerealiseerde winst- of verliestransacties worden voor de grootboekherwaardering op een andere manier gemaakt dan in het AR- en AP-herwaarderingsproces. In AR en AP wordt de vorige herwaardering volledig omgekeerd (ervan uitgaande van de transactie nog niet is vereffend) en een nieuwe herwaarderingtransactie gemaakt voor de niet-gerealiseerde winst/verlies op basis van de nieuwe wisselkoers. Daarom wordt elke afzonderlijke transactie in AR en AP geherwaardeerd. In het grootboek wordt de vorige herwaardering niet omgekeerd. In plaats daarvan wordt een transactie gemaakt voor de delta tussen het saldo van de hoofdrekening, met inbegrip van eventuele eerdere herwaarderingen van bedragen en de nieuwe waarde op basis van de wisselkoers voor de datum van koers. 
+De niet-gerealiseerde winst- of verliestransacties worden voor de grootboekherwaardering op een andere manier gemaakt dan in het AR- en AP-herwaarderingsproces. In AR en AP wordt de vorige herwaardering volledig omgekeerd (ervan uitgaande van de transactie nog niet is vereffend) en een nieuwe herwaarderingtransactie gemaakt voor de niet-gerealiseerde winst/verlies op basis van de nieuwe wisselkoers. Daarom wordt elke afzonderlijke transactie in AR en AP geherwaardeerd. In het grootboek wordt de vorige herwaardering niet omgekeerd. In plaats daarvan wordt een transactie gemaakt voor de delta tussen het saldo van de hoofdrekening, inclusief alle vorige herwaarderingsbedragen, en de nieuwe waarde op basis van de wisselkoers voor de Datum van koers. 
 
-**Voorbeeld** de volgende saldi bestaan voor de hoofdrekening 110110.
+**Voorbeeld** De volgende saldi zijn aanwezig voor hoofdrekening 110110.
 
 |            |                    |                        |                       |
 |------------|--------------------|------------------------|-----------------------|
@@ -112,6 +115,8 @@ De volgende vermelding in de boekhouding wordt gemaakt.
 ## <a name="reverse-foreign-currency-revaluation"></a>Herwaardering van vreemde valuta omkeren
 Als u de herwaarderingtransactie moet omkeren, selecteert u de knop **Transactie omkeren** op de pagina **Herwaardering van vreemde valuta**. Er wordt een nieuw historisch record voor herwaardering van vreemde valuta gemaakt om de historische audittrail te onderhouden voor wanneeer de herwaardering heeft plaatsgevonden of is omgekeerd. 
 
-U kunt de resultaten van de herwaardering van uit de datumvolgorde omkeren, maar mogelijk moet u ook een meer actuele herwaardering zodat het correcte saldo voor elke hoofdrekening geherwaardeerde terugboeken. De omkeringen kunnen verouderd order optreden omdat er geen manier om te bepalen welke hoofdrekeningen worden geherwaardeerd en de frequentie van wanneer deze worden geherwaardeerd. Een organisatie kan bijvoorbeeld voor kiezen hun contante hoofdrekeningen op kwartaalbasis, maar alle andere hoofdrekeningen maandelijks herwaardeerd.
+U kunt de resultaten van de verouderde herwaarderingsvolgorde omkeren, maar mogelijk moet u ook een meer recente herwaardering omkeren om de juiste saldi voor elke geherwaardeerde hoofdrekening te garanderen. Omkeringen kunnen verouderd raken omdat er geen manier is om te regelen welke hoofdrekeningen zijn geherwaardeerd en de frequentie waarmee ze zijn geherwaardeerd. Een organisatie kan er bijvoorbeeld voor kiezen om de contante hoofdrekeningen elk kwartaal te herwaarderen, maar alle andere hoofdrekeningen maandelijks.
+
+
 
 

@@ -118,7 +118,7 @@ eGiro is gebaseerd op de internationale UN-standaard EDIFACT CREMUL (Multiple Cr
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                                                     |
-| Vervangen door een andere functie? | Nr. De indeling vervangen door de ISO 20022 overzicht importeren indelingen in toekomstige versies. |
+| Vervangen door een andere functie? | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
 | Modules die worden beïnvloed             | Klanten                                                                         |
 
 ### <a name="external-inventory-for-poland"></a>Externe voorraad voor Polen
@@ -138,7 +138,7 @@ Een hulpmiddel om een gegevensverzameling in te stellen voor boekhouding en bela
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | Beperkt gebruik                                                                            |
-| Vervangen door een andere functie? | Nr. Het hulpprogramma vervangen door elektronische aangifte configuraties in toekomstige releases. |
+| Vervangen door een andere functie? | Nr. Het hulpmiddel wordt vervangen door Elektronische rapportageconfiguraties in toekomstige versies. |
 | Modules die worden beïnvloed             | Grootboek                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Importeren van de transacties van klantbetalingen voor Finland
@@ -148,7 +148,7 @@ U kunt een importindeling voor Finse betalingen selecteren om de transacties van
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                                                     |
-| Vervangen door een andere functie? | Nr. De indeling vervangen door de ISO 20022 overzicht importeren indelingen in toekomstige versies. |
+| Vervangen door een andere functie? | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
 | Modules die worden beïnvloed             | Klanten                                                                         |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importeren van betalingstransacties in een grootboekjournaal voor Finland
@@ -158,7 +158,7 @@ Een indeling die specifiek is voor Finland, wordt gebruikt voor het importeren v
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                                                     |
-| Vervangen door een andere functie? | Nr. De indeling vervangen door de ISO 20022 overzicht importeren indelingen in toekomstige versies. |
+| Vervangen door een andere functie? | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
 | Modules die worden beïnvloed             | Klanten                                                                         |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integratie met Isabel gesynchroniseerd (CIS) voor België
@@ -168,7 +168,7 @@ Isabel is het framework voor elektronisch bankieren in Europa en een de facto-st
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | Integratie met Isabel-client is beëindigd.                                                                |
-| Vervangen door een andere functie? | Nr. De indelingen voor betalingen die niet langer worden gebruikt, worden vervangen door ISO20022 Credit overboeken betalingsindeling voor België. |
+| Vervangen door een andere functie? | Nr. De betalingsindelingen die niet meer worden gebruikt, worden vervangen door ISO20022-betalingsindeling voor kredietoverdracht voor België. |
 | Modules die worden beïnvloed             | Leveranciers                                                                                                         |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Wijzigingen in het rekeningschema en boekhoudregels voor Spanje
@@ -218,7 +218,7 @@ De indelingen Telehansa en TeleTeenus worden gebruikt voor het importeren van ba
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindelingen worden niet meer gebruikt.                                                    |
-| Vervangen door een andere functie? | Nr. De indelingen vervangen door de ISO 20022 overzicht importeren indelingen in toekomstige versies. |
+| Vervangen door een andere functie? | Nr. De indelingen worden vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
 | Modules die worden beïnvloed             | Klanten                                                                          |
 
 ### <a name="performance-management-goal-workflow"></a>Werkstroom doel prestatiebeheer
@@ -228,7 +228,7 @@ Prestatiebeheer omvat het beheren van het doel en integratie met beoordelingsges
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | Prestatiebeheer is opnieuw opgezet en het aantal doelpagina's is verminderd om het proces te vereenvoudigen.                 |
-| Vervangen door een andere functie? | Nr. Doelstellingen kunnen zichtbaar zijn voor managers via de Manager Self-serviceportal en worden gewijzigd en bekeken door de manager. |
+| Vervangen door een andere functie? | Nr. De doelen zijn zichtbaar voor managers via de portal Selfservice manager, en kunnen door de manager worden gewijzigd en weergegeven. |
 | Modules die worden beïnvloed             | Human Capital-beheer                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>De betalingsindelingen Postgirot en Utland Postgirot van Zweden
@@ -247,13 +247,13 @@ Radio Frequency Identification (RFID) is een gegevensverzamelingstechnologie waa
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Reden voor afschrijving       | Gebruik lage klant en een beperkte functie ingesteld. |
+| Reden voor afschrijving       | Laag klantgebruik en een beperkte functieset. |
 | Vervangen door een andere functie? | Nee                                            |
 | Modules die worden beïnvloed             | Voorraadbeheer                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Rapport over nummering van verkoopfacturen voor Letland
 
-De Letse wetgeving kent specifieke regels voor het nummeren van verkoopfacturen. De functionaliteit kunt u bepaalde nummers aan verkoopfacturen, op basis van de gebruiker of gebruikersgroep toewijzen. Vervolgens kunt u een rapport of een XML-bestand genereren. U kunt ook een rapport afdrukken over factuurnummers die worden gebruikt.
+De Letse wetgeving kent specifieke regels voor het nummeren van verkoopfacturen. Met deze functionaliteit kunt u specifieke nummers toewijzen aan verkoopfacturen, op basis van de gebruiker of gebruikersgroep. U kunt vervolgens een rapport of een XML-bestand genereren. U kunt ook een rapport afdrukken over factuurnummers die worden gebruikt.
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Een workflow voor het beheren van het maken van werknemerdoelstellingen is een v
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integraties met AIF, AxD en AxBC
 
-In Application Integration Framework (AIF) kunnen gegevens worden uitgewisseld met externe systemen door bedrijfslogica die als services beschikbaar is. Dynamics AX bevat services die op documenten en .NET Business Connector (AxBC) zijn gebaseerd. Een document wordt gemaakt door XML te gebruiken. De XML bevat koptekstinformatie die wordt toegevoegd om een *bericht* te maken dat naar of uit Dynamics AX kan worden overgebracht. Voorbeelden van documenten zijn verkooporders en inkooporders. Bijna elke entiteit, zoals een klant, kan echter door een document worden weergegeven. Services die zijn gebaseerd op documenten gebruik de **Axd &lt;*document*&gt;** klassen.
+In Application Integration Framework (AIF) kunnen gegevens worden uitgewisseld met externe systemen door bedrijfslogica die als services beschikbaar is. Dynamics AX bevat services die op documenten en .NET Business Connector (AxBC) zijn gebaseerd. Een document wordt gemaakt door XML te gebruiken. De XML bevat koptekstinformatie die wordt toegevoegd om een *bericht* te maken dat naar of uit Dynamics AX kan worden overgebracht. Voorbeelden van documenten zijn verkooporders en inkooporders. Bijna elke entiteit, zoals een klant, kan echter door een document worden weergegeven. Services die op documenten zijn gebaseerd, gebruiken de **Axd &lt;*Document*&gt;-klassen
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Federaal belastingoverzicht voor ICMS-belasting
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | Deze instructie is niet langer geldig in sommige Braziliaanse statussen.                                                     |
-| Vervangen door een andere functie? | Nr. Gebruikers kunnen algemene elektronische programma voor rapportering als u wilt configureren met de instructie desgewenst onder verschillende omstandigheden gebruiken. |
+| Vervangen door een andere functie? | Nr. Gebruikers kunnen het Algemene elektronische rapportagehulpmiddel (GER) gebruiken om indien nodig het overzicht in specifieke situaties te configureren. |
 | Modules die worden beïnvloed             | Belastingboeken                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Braziliaanse SCAN contingentiemous voor NF-e
@@ -631,7 +631,7 @@ Salarisgegevens in Human Resources
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | Deze functionaliteit is vervangen door basispagina´s van Salarisadministratie en Human Resources.                                                                                                                                                                                                                                              |
-| Vervangen door een andere functie? | **Vergoedingen**, **Inkomsten** en andere gerelateerde pagina's die eerder deel uitmaakten van Salaris VS, zijn opnieuw geconfigureerd en maken nu deel uit van de basisconfiguratie van Human Resources en helpen externe loonlijstverwerking te ondersteunen. Deze functie is toegankelijk via de **Human Resources-1**&gt;**salaris** configuratiesleutel. |
+| Vervangen door een andere functie? | **Vergoedingen**, **Inkomsten** en andere gerelateerde pagina's die eerder deel uitmaakten van Salaris VS, zijn opnieuw geconfigureerd en maken nu deel uit van de basisconfiguratie van Human Resources en helpen externe loonlijstverwerking te ondersteunen. Deze functionaliteit is toegankelijk door de configuratiesleutel **Human Resources 1** &gt; **Salaris** te gebruiken. |
 | Modules die worden beïnvloed             | Human Resources, Salaris                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Als privé blokkeren van journalen voor voorraad- en magazijnbeheer
@@ -698,12 +698,12 @@ Met Sites Services kunt u websites maken die uw bedrijfsprocessen naar internet 
 | Vervangen door een andere functie? | Nee                                                                                                                                       |
 | Modules die worden beïnvloed             | HR-werving, Aanvraagbeheer, Offerteaanvragen, Leveranciersregistratie                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>Prognoses van de strategie SSAS-vraag
+### <a name="ssas-demand-forecasting-strategy"></a>SSAS-vraagprognosestrategie
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Reden voor afschrijving       | Het ontwerp van de functie kan niet worden ondersteund in de nieuwe architectuur van de cloud. |
-| Vervangen door een andere functie? | Azure Machine Learning vraag strategie prognoses                           |
+| Reden voor afschrijving       | Het ontwerp van de functie kan niet worden ondersteund in de nieuwe cloudarchitectuur. |
+| Vervangen door een andere functie? | Azure Machine Learning-vraagprognosestrategie                           |
 | Modules die worden beïnvloed             | Planning                                                                     |
 
 ### <a name="travel-requisitions"></a>Reisaanvragen

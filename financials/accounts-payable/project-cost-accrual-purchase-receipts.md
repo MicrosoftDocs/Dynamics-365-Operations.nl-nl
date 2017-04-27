@@ -1,6 +1,6 @@
 ---
-title: Toename van de project-kosten op ontvangstbewijzen voor aankopen
-description: Dit onderwerp wordt beschreven hoe Transitorische projectkosten van inkoop ontvangsten in Microsoft Dynamics 365 voor bewerkingen kunnen worden getraceerd.
+title: Toevoegen van projectkosten op inkoopontvangsten
+description: In dit onderwerp wordt beschreven hoe toegerekende projectkosten van inkoopontvangsten in Microsoft Dynamics 365 for Operations kunnen worden getraceerd.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Toename van de project-kosten op ontvangstbewijzen voor aankopen
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Toevoegen van projectkosten op inkoopontvangsten
 
-Dit onderwerp wordt beschreven hoe Transitorische projectkosten van inkoop ontvangsten in Microsoft Dynamics 365 voor bewerkingen kunnen worden getraceerd. 
+[!include[banner](../includes/banner.md)]
 
-Facturen voor een project vaak binnenkomen later dan de goederen en diensten worden geleverd, die mogelijk een aanzienlijke gevolgen hebben voor project prestatie-indicatoren (KPI's). Het belangrijk dat u deze transacties zowel financiële bijhouden en project rapporten.
 
-Het volgende voorbeeldscenario illustreert dit. 
+In dit onderwerp wordt beschreven hoe toegerekende projectkosten van inkoopontvangsten in Microsoft Dynamics 365 for Operations kunnen worden getraceerd. 
 
-Raadpleging van Contoso is een nieuw cloud deployment project gestart. Een inkooporder is gemaakt om te kopen van een computer voor het project. De computer wordt $1500 kosten en de installatie wordt $150. De leverancier heeft geleverd en de computer geïnstalleerd, maar de factuur is nog niet is bereikt Contoso raadpleging. De projectmanager wilt toename van de project-kosten van $1650 zien voordat de factuur wordt geleverd. Deze kosten moet ook doorgevoerd in het bedrijf maand einde financiële overzichten. 
+Facturen voor een project komen vaak later aan dan de geleverde goederen en diensten, wat een aanzienlijke impact kan hebben op prestatie-indicatoren (KPI's) voor projecten. Het is belangrijk dat deze transacties zowel in financiële als ook in projectrapporten kunnen worden gevolgd.
 
-De transitorische kosten moet worden vastgelegd op de financiële niveau en de projectniveau voor rapportagedoeleinden. In Dynamics 365 voor bewerkingen, kan de financiële bijwerking van de productontvangstbon voor het artikel en aanschaffingscategorieën categorieën worden bijgehouden. 
+Dit wordt geïllustreerd in het volgende voorbeeldscenario. 
 
-Voor artikelen op de **leverancierparameters** pagina, selecteer de **productontvangstbonnen in grootboek boeken** optie.
+Contoso Consulting is gestart met een nieuw project voor cloudimplementatie. Een inkooporder wordt gemaakt een computer aan te schaffen voor het project. De computer kost EUR 1500 en de installatie kost EUR 150. De leverancier heeft de computer geleverd en geïnstalleerd, maar de factuur is nog niet aangekomen bij Contoso Consulting. De projectmanager wilt de project-kosten van EUR 1650 laten toerekenen voordat de factuur aankomt. Deze kosten moet ook worden doorgevoerd in de financiële overzichten voor het maandeinde van het bedrijf. 
+
+Voor rapportagedoeleinden moeten de toegerekende kosten worden vastgelegd op zowel het financiële niveau als ook het projectniveau. In Dynamics 365 for Operations kan de financiële update van de productontvangstbon voor het artikel en inkoopcategorieën worden bijgehouden. 
+
+Voor artikelen op de pagina **Parameters van leveranciers** selecteert u de optie **Productontvangstbonnen in grootboek boeken**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
-Voor aanschaffingscategorieën, op de **categoriebeleidsregel** pagina **inkoop** beleid en selecteer vervolgens **transitorische opdracht kosten bij ontvangst** voor elke aanschaffingscategorie.
+Voor aanschaffingscategorieën selecteert u op de pagina **Categoriebeleidsregel** de optie **Inkoopbeleid** en vervolgens **Inkoopkosten samenvoegen voor ontvangst** voor elke aanschaffingscategorie.
 [![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
-De **niet-gefactureerde inkoopuitgave** en **inkooptoerekening** in de rekeningen **boekingsinstellingen** wordt gebruikt bij het boeken van boekstukken die betrekking hebben op de productontvangstbon.
+De rekeningen **Inkoopuitgave, niet-gefactureerd** en **Inkoop, toerekening** in **Boekingsinstellingen** worden gebruikt bij het boeken van boekstukken die betrekking hebben op de productontvangstbon.
 [![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
 
-Met dit hetzelfde scenario, kijken welke boeken van een productontvangstbon gevolgen hebben voor het grootboek en projectgegevens. 
+Laten we met hetzelfde scenario eens kijken welke invloed het boeken van een productontvangstbon heeft voor het grootboek en projectgegevens. 
 
-**Stap 1:** maken en een nieuwe inkooporder voor het project voor het vastleggen van de aankoop van een computer voor diensten voor $150 $1500 en installatie bevestigen.
+**Stap 1:** Maak en bevestig een nieuwe inkooporder voor het project, waarmee de aankoop van een computer voor EUR 1500 en installatiediensten voor $150 worden geregistreerd.
 [![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
 Wanneer de inkooporder wordt bevestigd, worden transacties voor de toegezegde kosten gemaakt voor het project. 
 [![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
-> De transacties voor de toegezegde kosten heeft de **de oorsprong van transactie** veld ingesteld op **inkooporder**. Maakt en bevestigt een inkooporder maakt geen transacties voor een project. 
+> In de transacties voor de toegezegde kosten is het veld **Transactieoorsprong** ingesteld op **Inkooporder**. Als u een inkooporder maakt en bevestigt, worden hiermee geen transacties voor een project aangemaakt. 
 
-**Stap 2:** verzonden goederen en diensten en een productontvangstbon is geregistreerd. 
+**Stap 2:** Goederen en diensten worden geleverd en een productontvangstbon wordt geregistreerd. 
 
-Boeken van een productontvangstbon genereren en een boekstuk naar het grootboek boekt. Het boekstuk de inkoopuitgave, niet-gefactureerde rekening te debiteren en toerekening van inkoop bijgeschreven. 
+Als u een productontvangstbon boekt, wordt hiermee een boekstuk gegenereerd en in het grootboek geboekt. Het boekstuk debiteert de inkoopuitgave, de niet-gefactureerde rekening, en crediteert de rekening voor inkooptoerekening. 
 [![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
-> Een productontvangstbon boeken gebruikt de boekingsinstellingen voor aanschaffingscategorieën en producten en niet de boekingsinstellingen voor de projectcategorieën. Deze instelling moet worden afgestemd om correct weerspiegelen financiële invloed van transitorische posten voor inkoop. 
+> Als u een productontvangstbon boekt, worden de boekingsinstellingen voor aanschaffingscategorieën en -producten gebruikt, niet de boekingsinstellingen voor de projectcategorieën. Deze instelling moet worden afgestemd om correct de financiële invloed van inkooptoerekeningen weer te geven. 
 
-Het is mogelijk aanschaffingscategorieën naar projectcategorieën toewijzen op de **aanschaffingscategorie** pagina.
+U kunt aanschaffingscategorieën toewijzen aan projectcategorieën op de pagina **Aanschaffingscategorie**.
 [![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
-**Stap 3:** een leveranciersfactuur concept maken. 
+**Stap 3:** Maak een conceptleveranciersfactuur 
 
-In Dynamics 365 voor bewerkingen, heeft een productontvangstbon boeken geen invloed op projectgegevens. Als een oplossing kan u een leveranciersfactuur concept direct na het boeken van de inkoopontvangst genereren. Ga naar de **inkooporder** pagina &gt;**tabblad factuur**&gt;**genereren**&gt;**factuur**. Hiermee maakt u een factuur in behandeling-document waarmee projectgegevens worden bijgewerkt. 
+In Dynamics 365 for Operations heeft het boeken van een productontvangstbon geen invloed op projectgegevens. Als workaround kunt u een conceptleveranciersfactuur genereren meteen nadat u de inkoopontvangst hebt geboekt. Ga naar de pagina **Inkooporder** &gt; **tabblad Factuur** &gt; **Genereren** &gt; **Factuur**. Hiermee maakt u een in behandeling zijnd factuurdocument waarmee projectgegevens worden bijgewerkt. 
 
-Maken van een leveranciersfactuur concept genereert projecttransacties in behandeling. 
+Als u een conceptleveranciersfactuur aanmaakt, genereert u hiermee in behandeling zijnde projecttransacties. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
-In de **toegezegde kosten** pagina gemaakt in stap 1 records zal worden gesloten en nieuwe records worden gemaakt zodat kosten toezegging die afkomstig zijn van de leveranciersfactuur in behandeling. De **de oorsprong van transactie** veld voor de toegezegde kosten worden ingesteld op **leveranciersfactuur**.
+Op de pagina **Toegezegde kosten** worden records die u in stap 1 hebt gemaakt, gesloten en nieuwe records worden gemaakt om kostentoezeggingen uit de in behandeling zijnde leveranciersfactuur weer te geven. Het veld **Oorsprong van transactie** voor de toegezegde kosten wordt ingesteld op **Leveranciersfactuur**.
 [![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
-De leveranciersfactuur blijft in behandeling totdat de werkelijke leveranciersfactuur binnenkomt.
+De leveranciersfactuur blijft in behandeling, totdat de werkelijke leveranciersfactuur wordt ontvangen.
+
+
 
 

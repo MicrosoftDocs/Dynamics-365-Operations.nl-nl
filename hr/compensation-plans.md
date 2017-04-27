@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Compensatieplannen
 
+[!include[banner](includes/banner.md)]
+
+
 Managers Compensatie en emolumenten kunnen Compensatiebeheer gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
 
 ### <a name="introduction"></a>Introductie
 
-Compensatiebeheer wordt gebruikt om te bepalen van de levering van basisloon en beloningen beheren. Een werknemer vaste basisloon en toenames worden beheerd via vaste honoreringsregelingen. De betaling van prestatiebeloningen, zoals bonusbetalingen, beloningen voor prestaties, aandelenopties, en subsidies en ook eenmalige beloningen, worden gecontroleerd door middel van plannen voor variabele compensatie. 
+Compensatiebeheer wordt gebruikt om de betaling van basisloon en beloningen te beheren. Het vaste basissalaris en verdiensteverhogingen van een werknemer worden via vaste compensatieplannen beheerd. De betaling van prestatiebeloningen, zoals bonusbetalingen, beloningen voor prestaties, aandelenopties, en subsidies en ook eenmalige beloningen, worden gecontroleerd door middel van plannen voor variabele compensatie. 
 
 Werknemers kunnen aangemeld zijn voor een of meer plannen van beide typen. Een werknemer moet voldoen aan de volgende eisen om in aanmerking te komen voor inschrijving bij een compensatieplan:
 -   De werknemer moet zijn toegewezen aan een actieve functie.
@@ -54,7 +57,7 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 <td>Acties voor vaste compensatie hebben twee doelen:
 <ul>
 <li>Acties kunnen het type informatie opgeven dat moet worden geregistreerd wanneer de compensatie van een werknemer wordt gewijzigd. U kunt bijvoorbeeld vereisen dat de reden van een wijziging, zoals een promotie of demotie, wordt geregistreerd.</li>
-<li>Acties kunnen ervoor zorgen dat een berekening wordt toegepast wanneer vaste compensatieplannen worden verwerkt.  Acties van het type eigen vermogen wordt bijvoorbeeld het salaris van werknemers aan de minimale referentiepunt voor het niveau van de werknemer te vergelijken en zorgen dat de werknemer wordt ophalen betaald ten minste het minimum.</li>
+<li>Acties kunnen ervoor zorgen dat een berekening wordt toegepast wanneer vaste compensatieplannen worden verwerkt.  Acties van het type Eigen vermogen vergelijken bijvoorbeeld de betaling voor de werknemer met het minimumreferentiepunt voor het niveau van de werknemer en zorgen ervoor dat de werknemer minstens het minimumbedrag krijgt betaald.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 </tr>
 <tr class="even">
 <td>Betalingsfrequenties</td>
-<td>Betalingsfrequenties worden gebruikt voor het definiëren van de periode waarvoor de vergoeding is vastgelegd.  Bijvoorbeeld: de betaalde frequentie kunt die u begrijpen als het compensatiebedrag is opgegeven als een jaarsalaris versus een uurtarief salaristarief. Betalingsfrequenties worden ook gebruikt voor het instellen van conversiefactoren compensatiebedragen wilt omrekenen van maandelijks, wekelijks, tweewekelijks en per uur naar jaarlijkse frequentie.</td>
+<td>Betalingsfrequenties worden gebruikt om de periode te definiëren waarvoor de compensatie is vastgelegd.  De betalingsfrequentie helpt u bijvoorbeeld inzicht te krijgen als het compensatiebedrag is opgegeven als een jaarsalaris versus een uurtarief. Betalingsfrequenties worden ook gebruikt voor het instellen van conversiefactoren om compensatiebedragen van maandelijks, wekelijks, tweewekelijks en per uur te converteren naar jaarlijkse frequentie.</td>
 </tr>
 <tr class="odd">
 <td>Compensatieregio's</td>
@@ -107,7 +110,7 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 </tr>
 <tr class="even">
 <td>Compensatierasters</td>
-<td>Compensatierasters bevatten de compensatiestructuur.  Compensatierasters kunnen worden gebruikt op een of meer compensatieplannen.</td>
+<td>Compensatierasters bevatten de compensatiestructuur.  Compensatierasters kunnen worden gebruikt door een of meer compensatieplannen.</td>
 </tr>
 <tr class="odd">
 <td>Prestatieplannen</td>
@@ -126,9 +129,11 @@ Een procesgebeurtenis berekent compensatiegegevens voor een bepaalde periode voo
 <a name="compensation-events"></a>Compensatiegebeurtenissen
 -------------------
 
-Telkens wanneer die een procesgebeurtenis wordt uitgevoerd, is een compensatiegebeurtenis gemaakt.  Gebeurtenissen werknemerscompensatie bevatten de resultaten van het compensatieproces voor elke werknemer die is opgenomen in deze procesgebeurtenis.  Wanneer de berekeningen juist zijn, kunt u de compensatiegebeurtenis om bij te werken de compensatierecords voor de werknemers die worden beïnvloed door de procesgebeurtenis laden.
+Telkens wanneer een procesgebeurtenis wordt uitgevoerd, wordt een compensatiegebeurtenis gemaakt.  Compensatiegebeurtenissen bevatten de resultaten van het compensatieproces voor elke werknemer die is opgenomen in deze procesgebeurtenis.  Wanneer de berekeningen juist zijn, kunt u de compensatiegebeurtenis laden om de compensatierecords bij te werken voor de werknemers op wie de procesgebeurtenis van invloed is.
 
 ## <a name="recommendations"></a>Aanbevelingen
 Nadat u een procesgebeurtenis uitvoert, kunt u aanbevelingen doen voor aanpassingen aan de toename van de verdiensten van een werknemer of een toekenningsbedrag op basis van de berekende richtlijnen van de procesgebeurtenis. Als u aanbevelingen voor werknemers wilt doen, moet u aanbevelingen inschakelen wanneer u compensatieplannen instelt of wanneer u de procesgebeurtenis instelt.
+
+
 
 

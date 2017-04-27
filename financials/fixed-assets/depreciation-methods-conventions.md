@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Afschrijvingsmethoden en conventies
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft een overzicht van de afschrijvingsconventies en afschrijvingsmethoden die door Microsoft Dynamics AX worden ondersteund.
 
 U kunt verscheidene afschrijvingsmethoden en -conventies selecteren. Het doel van de methoden is het toewijzen van de afschrijfbare waarde van het vaste activum in boekperioden. De afschrijfbare waarde van het vaste activum is de verwervingsprijs, verminderd met een eventuele restwaarde. 
@@ -66,26 +69,27 @@ U kunt uit de volgende afschrijvingsmethoden kiezen.
 <a name="see-also"></a>Zie ook
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Afschrijving vaste activa](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Lineaire afschrijving van levensduur](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Degressieve afschrijving](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Handmatige afschrijving](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Factorafschrijving](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Afschrijving naar rato van verbruik](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Lineaire afschrijving restlevensduur](straight-line-life-remaining-depreciation.md)
 
-[125% degressieve afschrijving](125-percent-reducing-balance-depreciation.md)
+[Degressieve afschrijving van 125 procent](125-percent-reducing-balance-depreciation.md)
 
-[150% degressieve afschrijving](150-percent-reducing-balance-depreciation.md)
+[Degressieve afschrijving van 150 procent](150-percent-reducing-balance-depreciation.md)
 
-[175% degressieve afschrijving](175-percent-reducing-balance-depreciation.md)
+[Degressieve afschrijving van 175 procent](175-percent-reducing-balance-depreciation.md)
 
-[200% degressieve afschrijving](200-percent-reducing-balance-depreciation.md)
+[Degressieve afschrijving van 200 procent](200-percent-reducing-balance-depreciation.md)
+
 
 

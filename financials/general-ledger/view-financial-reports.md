@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Financiële rapporten weergeven
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u financiële rapporten in Microsoft Dynamics AX kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 
 <a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
@@ -48,7 +51,7 @@ U kunt de rapportdatum wijzigen, kenmerk- en dimensiefilters toepassen of het bu
 
 -   Als u de basisperiode en het basisjaar van een rapport wilt wijzigen, selecteert u een basisperiode en een basisjaar en klikt u vervolgens op **OK**.
 -   Als u kenmerkfilters op een rapport wilt toepassen, selecteert u **Een kenmerkfilter toevoegen** Selecteer het kenmerk, typ de kenmerkwaarde en klik vervolgens op **OK**. Als u bijvoorbeeld het kenmerk **Rekeningcategorie** selecteert, voert u **VERKOOP** als de kenmerkwaarde in. Als u een kenmerkfilter wilt verwijderen, klikt u op **Wissen**.
--   Selecteren om toe te passen dimensiefilters aan een rapport, **een Dimensiefilter toevoegen**. De dimensie selecteren en vervolgens typt u de dimensie-ID of Selecteer de dimensie in de lijst. Als u een dimensiefilter wilt verwijderen, klikt u op **Wissen**.
+-   Als u dimensiefilters op een rapport wilt toepassen, selecteert u **Een dimensiefilter toevoegen**. Selecteer de dimensie en typ vervolgens de dimensie-ID of selecteer de dimensie in de lijst. Als u een dimensiefilter wilt verwijderen, klikt u op **Wissen**.
 -   Als u het scenario in een rapport **Werkelijk versus budget**-rapport wilt wijzigen, selecteert u een nieuw scenario en klikt u vervolgens op **OK**. Als het geselecteerde scenario voor een ander jaar is, moet u het basisjaar bijwerken. Als het huidige scenario bijvoorbeeld FY2015 is en u een nieuw scenario selecteert dat voor FY2016 is, moet u het basisjaar wijzigen in **2016**.
 
 Wanneer u klikt op **OK**, worden alle door u geselecteerde opties toegepast op het rapport. Als u besluit dat u de geselecteerde opties niet wilt toepassen, klikt op **Annuleren**.
@@ -60,13 +63,13 @@ U kunt een financieel rapport vernieuwen (bijwerken) zodat het de meest recente 
 Nadat u een financieel rapport hebt bijgewerkt, kunt u het publiceren. Andere personen in de organisatie kunnen het dan weergeven. Als u een rapport wilt publiceren, klikt u in het actievenster op **Publiceren**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Een financieel rapport in een andere valuta weergeven
-Een financieel rapport kan op elk gewenst moment in een willekeurige valuta worden weergegeven. Als u een rapport in een andere valuta wilt weergeven, klikt u in het actievenster op **Valuta** en selecteert u vervolgens een valuta. Het rapport wordt in die valuta omgezet en de resultaten worden weergegeven. Alle valutacodes of symbolen die als onderdeel van het rapportontwerp zijn opgenomen, worden bijgewerkt om de nieuwe valuta weer te geven. De valuta´s die in de lijst worden weergegeven, zijn de aangiftevaluta die in Microsoft Dynamics AX zijn geconfigureerd.
+Een financieel rapport kan op elk gewenst moment in een willekeurige valuta worden weergegeven. Als u een rapport in een andere valuta wilt weergeven, klikt u in het actievenster op **Valuta** en selecteert u vervolgens een valuta. Het rapport wordt in die valuta omgezet en de resultaten worden weergegeven. Alle valutacodes of symbolen die als onderdeel van het rapportontwerp zijn opgenomen, worden bijgewerkt om de nieuwe valuta weer te geven. De valuta's die in de lijst worden weergegeven, zijn de aangiftevaluta die in Microsoft Dynamics AX zijn geconfigureerd.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Een overzichtsweergave van het financiële rapport weergeven
 Een financieel rapport kan detailregels en overzichtsregels bevatten. De detailregels zijn regels die hoofdrekeningen of dimensies bevatten. De overzichtsregels zijn omschrijvings-, totaal- en berekeningsregels. Als u alleen de overzichtsregels van een rapport wilt weergeven, klikt u op **Weergeven** en vervolgens op **Alleen overzichtsregels**. Het rapport wordt samengevouwen en alleen de overzichtsregels worden weergegeven. Als u de detailregels samen met de overzichtsregels wilt weergeven, klik u op **Weergeven** en vervolgens op **Alleen overzichtsregels**.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Een financieel rapport van een vorige maand openen
-U kunt rapporten voor de huidige maand of vorige maanden weergeven zonder het rapport opnieuw te genereren. Het rapport te openen voor een vorige maand, klikt u op **weergeven**, en klik vervolgens op **vorige rapporten**. Er verschijnt een lijst met de vorige maanden die voor het rapport is gegenereerd. Vouw de maand uit waarvoor u het rapport wilt weergeven, selecteer de datum en klik vervolgens op **OK**. Het rapport voor de vorige dag wordt weergegeven. Als u wilt terugkeren naar het rapport van de huidige maand, klikt u op **Annuleren**.
+U kunt rapporten voor de huidige maand of vorige maanden weergeven zonder het rapport opnieuw te genereren. Als u het rapport voor een vorige maand wilt openen, klikt u op **Weergeven** en vervolgens op **Vorige rapporten**. Er wordt een lijst van de vorige maanden weergegeven waarvoor het rapport is gegenereerd. Vouw de maand uit waarvoor u het rapport wilt weergeven, selecteer de datum en klik vervolgens op **OK**. Het rapport voor de vorige dag wordt weergegeven. Als u wilt terugkeren naar het rapport van de huidige maand, klikt u op **Annuleren**.
 
 ## <a name="print-a-financial-report"></a>Een financieel rapport afdrukken
 Als u een financieel rapport wilt afdrukken, klikt u in het actievenster op **Afdrukken** en voert u vervolgens een of meer van de volgende stappen uit om de afdrukopties in te stellen:
@@ -85,5 +88,7 @@ Als u een financieel rapport wilt exporteren, klikt u in het actievenster op **E
 --------
 
 [Financiële rapportage voor Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

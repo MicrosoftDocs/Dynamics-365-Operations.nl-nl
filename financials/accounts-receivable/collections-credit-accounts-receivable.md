@@ -1,6 +1,6 @@
 ---
 title: Crediteringen en aanmaningen in Klanten
-description: "Gegevens van klantaanmaningen accounts wordt beheerd in één centrale weergave beheerd met behulp van de Microsoft Dynamics 365 voor bewerkingen collecties pagina. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten."
+description: "Gegevens van klantincasso&quot;s worden beheerd in één centrale weergave, met behulp van de Microsoft Dynamics 365 for Operations-pagina Incasso&quot;s. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crediteringen en aanmaningen in Klanten
 
-Gegevens van klantaanmaningen accounts wordt beheerd in één centrale weergave beheerd met behulp van de Microsoft Dynamics 365 voor bewerkingen collecties pagina. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
+[!include[banner](../includes/banner.md)]
+
+
+Gegevens van klantincasso's worden beheerd in één centrale weergave, met behulp van de Microsoft Dynamics 365 for Operations-pagina Incasso's. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
 
 Voordat u aanmaningen gaat instellen of hiermee gaat werken, moet u vertrouwd zijn met de volgende concepten:
 -   Ouderdomsmomentopnamen voor klanten bevatten saldogegevens die zijn gerangschikt naar ouderdom
@@ -55,9 +58,9 @@ Voor elke ouderdomsperiode in de ouderdomsperiodedefinitie wordt een ouderdomsmo
 Klantverzamelingen zijn query's waarmee een groep klantrecords wordt gedefinieerd die kan worden weergegeven en beheerd voor aanmaningen of ouderdomsrangschikkingprocessen. Met klantverzamelingen kunt u gegevens filteren op de pagina's Vervallen saldi, Incassoactiviteiten en Aanmaningen. U kunt klantverzamelingen ook gebruiken om de klantrekeningen te filteren, die worden opgenomen bij de aanmaak van ouderdomsmomentopnamen.
 
 ## <a name="collections-agents"></a>Incassomedewerkers
-Standaard kunt Microsoft Dynamics 365 voor bewerkingen gebruikers alle klantgegevens op lijstpagina's met aanmaningen weergeven. U kunt incassomedewerkerrecords gebruiken om te bepalen welke klantverzamelingen beschikbaar zijn voor het filteren van gegevens op de lijstpagina's met aanmaningen en op de pagina Aanmaningen. 
+Gebruikers van Microsoft Dynamics 365 for Operations kunnen standaard alle klantgegevens op lijstpagina's met aanmaningen weergeven. U kunt incassomedewerkerrecords gebruiken om te bepalen welke klantverzamelingen beschikbaar zijn voor het filteren van gegevens op de lijstpagina's met aanmaningen en op de pagina Aanmaningen. 
 
-Een incassomedewerker is een persoon die met klanten samenwerkt om ervoor te zorgen dat de betalingen op tijd worden geïnd. In Microsoft Dynamics 365 voor bewerkingen worden incassomedewerkers werknemers die zijn toegewezen aan gebruikers in de pagina gebruiker instellen.
+Een incassomedewerker is een persoon die met klanten samenwerkt om ervoor te zorgen dat de betalingen op tijd worden geïnd. In Microsoft Dynamics 365 for Operations zijn incassomedewerkers werknemers die worden toegewezen aan gebruikers op de pagina Gebruikersinstellingen.
 
 ## <a name="collections-list-pages"></a> Lijstpagina's met aanmaningen 
 Met de volgende lijstpagina's kunt u gegevens over aanmaningen organiseren.
@@ -67,7 +70,7 @@ Met de volgende lijstpagina's kunt u gegevens over aanmaningen organiseren.
 
 > [!NOTE]
 > Een ouderdomsmomentopname moet worden gemaakt, voordat u gegevens op deze lijstpagina's kunt bekijken. De informatie wordt alleen weergegeven voor klanten voor wie een ouderdomsmomentopname is gemaakt. De records die op de lijstpagina worden weergegeven kunnen bovendien als volgt worden gefilterd:
-<li>Een Microsoft Dynamics 365 voor bewerkingen gebruiker heeft standaard toegang tot alle klanten die een ouderdomsmomentopname hebben momentopname.</li>
+<li>Standaard heeft een gebruiker van Microsoft Dynamics 365 for Operations toegang tot alle klanten die een ouderdomsmomentopname hebben.</li>
 <li>Als er klantverzamelingen bestaan, moet een gebruiker als incassomedewerker zijn ingesteld om de verzamelingen te gebruiken om gegevens op de lijstpagina's met aanmaningen te filteren. De gegevens zijn beperkt tot de klanten die zijn opgenomen in de geselecteerde klantverzameling.</li>
 <li>Als een gebruiker is ingesteld als incassomedewerker, bevat de lijstpagina alleen de verzamelingen die zijn geselecteerd voor die incassomedewerker. Als de schakeloptie Medewerker toestaan alle klantverzamelingen te bekijken is geselecteerd op de pagina Incassomedewerker voor de incassomedewerker, zijn alle verzamelingen beschikbaar voor die medewerker.</li>
 
@@ -75,7 +78,7 @@ Met de volgende lijstpagina's kunt u gegevens over aanmaningen organiseren.
 ## <a name="collections-page"></a> Pagina Aanmaningen
 Gebruik de pagina Aanmaningen om aanmaningsgegevens, activiteiten en gevallen voor een klant te bekijken en te beheren en hiervoor actie te ondernemen. 
 
-Het bovenste deelvenster worden aanvragen voor de geselecteerde klant weergegeven. Het middelste deelvenster worden transacties voor de klant weergegeven. In het onderste deelvenster worden activiteiten voor de klant weergegeven. U kunt aanmaningsgevallen maken om aanmaningsgegevens bij te houden voor een of meer transacties en activiteiten. De gegevens in het bovenste en onderste deelvenster kunnen op geval worden gefilterd. 
+In het bovenste deelvenster worden aanvragen voor de geselecteerde klant weergegeven. In het middelste deelvenster worden transacties voor de klant weergegeven. In het onderste deelvenster worden activiteiten voor de klant weergegeven. U kunt aanmaningsgevallen maken om aanmaningsgegevens bij te houden voor een of meer transacties en activiteiten. De gegevens in het bovenste en onderste deelvenster kunnen op geval worden gefilterd. 
 
 In feitenblokken worden vervallen saldi en kredietlimietgegevens voor de geselecteerde klant weergegeven. Deze gegevens worden opgeslagen in de ouderdomsmomentopname. U kunt de ouderdomsmomentopname zo nodig bijwerken met actuele gegevens. 
 
@@ -86,7 +89,7 @@ U kunt rentenota's, of kosten en de transactierente die deel uitmaken van renten
 
 Deze correcties zijn alleen van invloed op rentenota's en de bijbehorende rente en kosten. Gebruik de stappen in de sectie 'Afschrijvingstransacties kunnen in één stap worden gemaakt' om alle kosten van een klant af te schrijven.
 
-## <a name="create-writeoff-transactions"></a>Transacties voor afschrijvingen maken
+## <a name="create-writeoff-transactions"></a>Afschrijvingstransacties maken
 U kunt oninbare schulden afschrijven door te klikken op Afschrijven in het formulier Aanmaningen en op de lijstpagina's Vervallen saldi, Klanten en Openstaande klantfacturen. 
 
 Wanneer u transacties voor een klant afschrijft, worden alle transacties voor de klant automatisch voor vereffening gemarkeerd. Welk bedrag wordt afgeschreven, is afhankelijk van het nettobedrag van de gemarkeerde transacties. De afschrijvingstransactie wordt gemaakt in een algemeen journaal en kan maximaal drie typen journaalregels bevatten.
@@ -100,6 +103,8 @@ Betalingen met ontoereikend saldo verwerken
 --------------------------------------------
 
 U kunt betalingen met ontoereikend saldo verwerken door op Betaling met ontoereikend saldo op de pagina Aanmaningen te klikken. Wanneer u op deze knop klikt, wordt de betaling geannuleerd. Als er kosten voor een betaling met ontoereikend saldo voor de klant van toepassing zijn, wordt een toeslagentransactie gemaakt in een betalingsjournaal. Het bedrag van de kosten is gebaseerd op de instellingen voor de automatische toeslagen. De automatische toeslagen die van toepassing zijn voor betalingen met ontoereikend saldo, zijn opgegeven bij de groep toeslagen die is geselecteerd op de pagina Bankrekeningen voor de betreffende bankrekening.
+
+
 
 
 

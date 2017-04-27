@@ -1,5 +1,5 @@
 ---
-title: Stuklijstberekeningen met standaardkosten
+title: Stuklijstberekeningen met standaardkosten.
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>Stuklijstberekeningen met standaardkosten
+# <a name="bom-calculations-with-standard-costs"></a>Stuklijstberekeningen met standaardkosten.
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -78,6 +81,8 @@ De volgende kostprijsberekeningsversiegegevens worden gebruikt bij een stuklijst
 -   De inhoud van de kostprijsberekeningsversie moet kosten bevatten. De inhoud moet inclusief kosten zijn en kan eventueel verkoopprijzen bevatten om de adviesverkoopprijzen voor gefabriceerde artikelen te berekenen.
 
 Verschillende informatiebronnen kunnen worden opgegeven bij het initiëren van een stuklijstberekening. Dit omvat de site, de berekeningsdatum van en de kostprijsberekeningsversie.
+
+
 
 
 

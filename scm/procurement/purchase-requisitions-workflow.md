@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>Werkstroom voor opdrachten tot inkoop
 
+[!include[banner](../includes/banner.md)]
+
+
 Het workflowproces verplaatst opdrachten tot inkoop door het beoordelingsproces, vanaf de beginstatus Concept tot de laatste status Goedgekeurd. Wanneer een opdracht tot inkoop ter controle wordt ingediend, wordt het workflowproces gestart. Nadat een opdracht tot inkoop is goedgekeurd, kan een inkooporder worden gegenereerd voor de regels van de opdracht tot inkoop en kunnen ze bij de leverancier worden ingediend om te worden voltooid.
 
 Voordat een opdracht tot inkoop ter controle kan worden ingediend, moet u een workflow configureren. Het workflowproces kan een of meer controlestappen in een willekeurige volgorde bevatten. Het workflowproces kan ook zo worden geconfigureerd dat het de controletaken overslaat en de opdracht tot inkoop automatisch goedkeurt. U kunt de workflow configureren om de opdracht tot inkoop als één document te routeren of u kunt afzonderlijke inkoopopdrachtsregels naar de juiste controleurs routeren. U kunt ook een scenario maken waarbij de opdracht tot inkoop als een enkel document wordt gerouteerd naar bepaalde controleurs en waarbij een selectie van regels in de opdracht tot inkoop naar andere controleurs wordt gerouteerd.  
@@ -106,12 +109,14 @@ Als u een van de uitgavencontroleurs wilt gebruiken die u in een workflow instel
 <a name="see-also"></a>Zie ook
 --------
 
-[Een tot inkoop maken voor verbruik (taak guide)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Een bestelaanvraag voor verbruik maken](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/) (taakbegeleiding)
 
 [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Workflows voor inkoop en sourcing](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Overzicht van opdrachten tot inkoop](purchase-requisitions-overview.md)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: niet-gedocumenteerde
+title: niet-gedocumenteerd
 description: Een actiebericht is een door het systeem gegenereerde suggestie om een bestaande geplande of gefiatteerde order te wijzigen.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="undocumented"></a>niet-gedocumenteerde
+# <a name="undocumented"></a>niet-gedocumenteerd
 
 Een actiebericht is een door het systeem gegenereerde suggestie om een bestaande geplande of gefiatteerde order te wijzigen.
 

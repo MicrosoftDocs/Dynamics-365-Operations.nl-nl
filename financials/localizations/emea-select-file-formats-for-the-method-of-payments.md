@@ -1,6 +1,6 @@
 ---
 title: Bestandsindelingen voor betalingsmethoden
-description: Dit onderwerp beschrijft de twee methoden voor het verkrijgen van de bestandsindelingen die u voor betalingsmethoden gebruiken kunt.
+description: In dit onderwerp worden de twee methoden beschreven voor het verkrijgen van bestandsindelingen die u voor betalingsmethoden kunt gebruiken.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,29 +27,34 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="file-formats-for-methods-of-payment"></a>Bestandsindelingen voor betalingsmethoden
 
-Dit onderwerp beschrijft de twee methoden voor het verkrijgen van de bestandsindelingen die u voor betalingsmethoden gebruiken kunt.
+[!include[banner](../includes/banner.md)]
 
-Er zijn twee methoden waarmee u kunt u bestandsindelingen voor gebruik met betalingsmethoden, elektronische rapportage (ER)-bestandsindelingen of X ++-bestandsindelingen. Wanneer u een betalingsmethode voor een klant of leverancier instelt, moet u aangeven welke bestandsindelingen en normen moeten worden gebruikt voor betalingen en de manier waarop de betalingen worden verwerkt. U kunt de volgende typen indelingen selecteren:
+
+In dit onderwerp worden de twee methoden beschreven voor het verkrijgen van bestandsindelingen die u voor betalingsmethoden kunt gebruiken.
+
+Er zijn twee methoden waarmee u bestandsindelingen kunt verkrijgen voor gebruik bij betalingsmethoden, ER-bestandsindelingen (elektronische rapportage) of X ++-bestandsindelingen. Wanneer u een betalingsmethode voor een klant of leverancier instelt, geeft u aan welke bestandsindelingen en standaarden moeten worden gebruikt voor betalingen en hoe betalingen worden verwerkt. U kunt de volgende typen indelingen selecteren:
 
 -   Exporteren
 -   Importeren
 -   Retour
 -   Remise
 
-### <a name="method-1-electronic-reporting-file-formats"></a>Methode 1: Indelingen voor elektronische aangifte
+### <a name="method-1-electronic-reporting-file-formats"></a>Methode 1: bestandsindelingen elektronische rapportage
 
-Voor de bestandsindelingen die zijn gebaseerd op Emergency Recovery-configuraties, moet u de configuraties van Lifecycle Services (LCS) importeren. Zie voor meer informatie [elektronische downloaden rapportage configuraties vanuit Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Nadat u configuraties voor rapportage geïmporteerd voor de bestandsindelingen, de geïmporteerde indelingen zijn beschikbaar om te selecteren in de **betalingsmethoden** pagina. Het proces voor het importeren en het selecteren van bestandsindelingen voor europa is vergelijkbaar met de procedure voor Japan. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
+Voor bestandsindelingen die zijn gebaseerd op ER-configuraties, moet u de configuraties van Lifecycle Services (LCS) importeren. Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs). Nadat u configuraties voor rapportage hebt geïmporteerd voor deze bestandsindelingen, zijn de geïmporteerde indelingen beschikbaar om te selecteren op de pagina **Betalingsmethoden**. Het proces voor het importeren en selecteren van bestandsindelingen voor Europa is vergelijkbaar met de procedure voor Japan. <!---For more details, see [Enable the JBA payment file format](https://ax.help.dynamics.com/en/wiki/enable-the-jba-payment-file-format/).-->
 
-### <a name="method-2-x-file-formats"></a>Methode 2: X ++ bestandsindelingen
+### <a name="method-2-x-file-formats"></a>Methode 2: X++-bestandsindelingen
 
-Als u de bestandsindelingen die zijn gebaseerd op de X ++-code, moet u de volgende stappen uitvoeren.
+Als u de bestandsindelingen die zijn gebaseerd op X++-code wilt selecteren, moet u de volgende stappen uitvoeren.
 
-1.  Ga naar de **betalingsmethoden** pagina.
-2.  Op de **bestandsindelingen** sneltabblad, klikt u op **Setup**.
-3.  Selecteer het tabblad dat overeenkomt met de bestandsindeling.
-4.  Selecteer een bestandsindeling van de **beschikbaar** lijst en verplaats deze naar de **geselecteerd** lijst met het besturingselement pijl.
-5.  Sluit de **bestandsindelingen voor betalingsmethoden** pagina.
-6.  Op de **bestandsindelingen** sneltabblad, selecteer de bestandsindeling voor de betalingsmethode van het juiste bestand indelingsveld moet worden gebruikt. De algemene opties voor elektronische aangifte moeten worden ingesteld op **Nee** voor X ++-bestandsindelingen.
+1.  Ga naar de pagina **Betalingsmethoden**.
+2.  Klik op het sneltabblad **Bestandsindelingen** op **Instellen**.
+3.  Selecteer het tabblad dat overeenkomt met het type bestandsindeling.
+4.  Selecteer een bestandsindeling in de lijst **Beschikbaar** en verplaats deze naar de lijst **Geselecteerd** met het pijlbesturingselement.
+5.  Sluit de pagina **Bestandsindelingen voor betalingsmethoden**.
+6.  Selecteer op het sneltabblad **Bestandsindelingen** de bestandsindeling voor de betalingsmethode in het juiste veld met bestandsindelingen. De algemene opties voor elektronische aangifte moeten worden ingesteld op **Nee** voor X ++-bestandsindelingen.
+
+
 
 
 

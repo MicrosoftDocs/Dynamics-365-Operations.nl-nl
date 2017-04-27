@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="eu-sales-list-reporting"></a>Rapport ICL-lijst
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over rapportage van de EU-verkooplijst (Europese Unie).
 
 <a name="eu-sales-list-reporting"></a>EU-verkooplijst rapportering
@@ -64,11 +67,11 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 <tbody>
 <tr class="odd">
 <td><strong>Instelling:</strong> Rechtspersoon</td>
-<td>Het primaire adres van de rechtspersoon moet in een EG-lidstaat zijn. Op de <strong>rechtspersonen</strong> pagina (Klik op <strong>Organisatiebeheer</strong>&gt;<strong>organisaties</strong>&gt;<strong>rechtspersonen</strong>), selecteer uw rechtspersoon. OP het Sneltabblad <strong>Adressen</strong>, maken een adres, selecteert een land/regio en andere adrescomponenten, en markeer het adres als <strong>Primair</strong>. In het Sneltabblad <strong>Belastingregistratie</strong>, in het veld <strong>BTW-registratienummer</strong>, specificeer het BTW-registratienummer van uw bedrijf.</td>
+<td>Het primaire adres van de rechtspersoon moet in een EG-lidstaat zijn. Selecteer op de pagina <strong>Rechtspersonen</strong> (klik op <strong>Organisatiebeheer</strong> &gt; <strong>Organisaties</strong> &gt; <strong>Rechtspersonen</strong>) uw rechtspersoon. OP het Sneltabblad <strong>Adressen</strong>, maken een adres, selecteert een land/regio en andere adrescomponenten, en markeer het adres als <strong>Primair</strong>. In het Sneltabblad <strong>Belastingregistratie</strong>, in het veld <strong>BTW-registratienummer</strong>, specificeer het BTW-registratienummer van uw bedrijf.</td>
 </tr>
 <tr class="even">
 <td><strong>Instellen:</strong> BTW vrijgestelde identificatieparameters</td>
-<td>Parameters voor btw-vrijstelling identificatie ingesteld op de <strong>parameters land/regio</strong> pagina (Klik op <strong>btw</strong>&gt;<strong>Setup</strong>&gt;<strong>btw</strong>&gt;<strong>parameters land/regio</strong>). Voor elk land/regio waar u tegenpartijen hebt, maak een record op de pagina en geef de volgende gegevens:
+<td>Stel de identificatieparameters voor btw-vrijstelling in op de pagina <strong>Parameters land/regio</strong> (klik op <strong>Belasting</strong> &gt; <strong>Instellen</strong> &gt; <strong>Btw</strong> &gt; <strong>Parameters land/regio</strong>). Voor elk land/regio waar u tegenpartijen hebt, maak een record op de pagina en geef de volgende gegevens:
 <ul>
 <li><strong>Land/regio</strong> - Selecteer een land of regio om te koppelen aan een BTW-vrijstellingsidentificatie.</li>
 <li><strong>BTW</strong> - Voer het BTW-vrijstelling identificatienummer (oftewel het BTW-vrijstellingnummervoorvoegsel) voor het geselecteerde land of de regio.</li>
@@ -77,7 +80,7 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 </tr>
 <tr class="odd">
 <td><strong>Instelling: </strong>BTW-vrijstellingsnummers</td>
-<td>Btw-nummers voor uw tegenpartijen maken op de <strong>btw-nummers</strong> pagina (Klik op <strong>btw</strong>&gt;<strong>Setup</strong>&gt;<strong>btw</strong>&gt;<strong>btw-nummers</strong>). Voor elk BTW-vrijstellingsnummer, maak een registratie op de pagina, en geef de volgende informatie:
+<td>Maak btw-vrijstellingsnummers voor uw tegenpartijen op de pagina <strong>Btw-vrijstellingnummers</strong> (klik op <strong>Belasting</strong> &gt; <strong>Instellen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-vrijstellingsnummers</strong>). Voor elk BTW-vrijstellingsnummer, maak een registratie op de pagina, en geef de volgende informatie:
 <ul>
 <li><strong>Land/regio </strong>- Selecteer het land of de regio van de BTW registratie van de tegenpartij.</li>
 <li><strong>BTW-vrijstellingsnummer</strong> - Voer het BTW-vrijstellingsnummer van de tegenpartij in.</li>
@@ -86,11 +89,11 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 </tr>
 <tr class="even">
 <td><strong>Instellen: </strong>Belastingregistratie voor tegenpartijen</td>
-<td>Registratie Belastinginformatie instellen voor uw tegenpartijen op het de <strong>alle klanten</strong> pagina (klikt u op <strong>verkoop en marketing</strong>&gt;<strong>klanten</strong>&gt;<strong>alle klanten</strong>een klantrecord selecteren en klik vervolgens op <strong>opties</strong>&gt;<strong>weergave wijzigen</strong>&gt;<strong>detailweergave</strong>) of het <strong>leveranciers</strong> pagina (Klik op <strong>voor inkoop en sourcing</strong>&gt;<strong>leveranciers</strong>&gt;<strong>leveranciers</strong>, selecteer een leveranciersrecord en klik op <strong>opties</strong>&gt;<strong>weergave wijzigen</strong>&gt;<strong>detailweergave</strong>). Op het Sneltabblad <strong>Factuur en levering</strong>, in het veld <strong>Btw-vrijstellingsnummer</strong>, selecteer het belastingregistratienummer.</td>
+<td>Stel btw-registratiegegevens in voor uw tegenpartijen op de pagina <strong>Alle klanten</strong> (klik op <strong>Verkoop en marketing</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle klanten</strong>, selecteer een klantrecord en klik vervolgens op <strong>Opties</strong> &gt; <strong>Weergave wijzigen</strong> &gt; <strong>Detailweergave</strong>) of de pagina <strong>Leveranciers</strong> (klik op <strong>Inkoop en sourcing</strong> &gt; <strong>Leveranciers</strong> &gt; <strong>Leveranciers</strong>, selecteer een leveranciersrecord en klik vervolgens op <strong>Opties</strong> &gt; <strong>Weergave wijzigen</strong> &gt; <strong>Detailweergave</strong>). Op het Sneltabblad <strong>Factuur en levering</strong>, in het veld <strong>Btw-vrijstellingsnummer</strong>, selecteer het belastingregistratienummer.</td>
 </tr>
 <tr class="odd">
 <td><strong>Instelling:</strong> BTW</td>
-<td>De btw-codes instellen om op te nemen op de <strong>ICL-lijst</strong> verslag uit over de <strong>btw-codes</strong> pagina (Klik op <strong>btw</strong>&gt;<strong>indirecte belastingen</strong>&gt;<strong>btw</strong>&gt;<strong>btw-codes</strong>). Op het sneltabblad <strong>Rapport instellen</strong> heft u voor elke btw-code die in het rapport moet worden opgenomen de selectie van het selectievakje <strong>Uitgesloten</strong> ongedaan. Btw-parameters voor artikelen instellen op de <strong>btw-artikelengroepen</strong> pagina (Klik op <strong>btw</strong>&gt;<strong>indirecte belastingen</strong>&gt;<strong>btw</strong>&gt;<strong>btw-artikelengroepen</strong>). Selecteer voor elke btw-groep voor artikelen een waarde in het veld <strong>Rapporteringstype</strong>. De waarde die u selecteert bepaalt de ESL-bedragkolom waarin het lijnbedrag opgenomen wordt.
+<td>Stel de btw-codes in die in het rapport <strong>EU-verkooplijst</strong> moeten worden opgenomen op de pagina <strong>Btw-codes</strong> (klik op <strong>Belasting</strong> &gt; <strong>Indirecte belastingen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-codes</strong>). Op het sneltabblad <strong>Rapport instellen</strong> heft u voor elke btw-code die in het rapport moet worden opgenomen de selectie van het selectievakje <strong>Uitgesloten</strong> ongedaan. Stel de btw-parameters voor artikelen in op de pagina <strong>Btw-groepen voor artikel</strong> (klik op <strong>Belasting</strong> &gt; <strong>Indirecte belastingen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-groepen voor artikel</strong>). Selecteer voor elke btw-groep voor artikelen een waarde in het veld <strong>Rapporteringstype</strong>. De waarde die u selecteert bepaalt de ESL-bedragkolom waarin het lijnbedrag opgenomen wordt.
 <ul>
 <li><strong>Blanco</strong> – Het lijn bedrag is inbegrepen in de kolom <strong>Niet toegekende waarde</strong>.</li>
 <li><strong>Item</strong> – Het lijnbedrag is inbegrepen in de kolom <strong>Itemwaarde</strong>.</li>
@@ -104,7 +107,7 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 </tr>
 <tr class="odd">
 <td><strong>Installatie: </strong>Algemene parameters</td>
-<td>Instellen ESL rapportparameters op de <strong>parameters buitenlandse handel</strong> pagina (Klik op <strong>btw</strong>&gt;<strong>Setup</strong>&gt;<strong>buitenlandse handel</strong>&gt;<strong>parameters buitenlandse handel</strong>). Specificeer de volgende parameters:
+<td>Stel de ESL-rapporteringparameters in op de pagina <strong>Parameters buitenlandse handel</strong> (klik op <strong>Belasting</strong> &gt; <strong>Instellen</strong> &gt; <strong>Buitenlandse handel</strong> &gt; <strong>Parameters buitenlandse handel</strong>). Specificeer de volgende parameters:
 <ul>
 <li><strong>EU-verkooplijst</strong> tabblad:
 <ul>
@@ -147,7 +150,7 @@ De transacties van de volgende typen kunnen als intracommunautair handelsverkeer
 -   Projectfacturen
 -   Leveranciersfacturen
 
-Een transactie wordt beschouwd als intracommunautair handelsverkeer transactie als het afleveradres van de transactie in een lidstatus gevestigd is. Voor dergelijke landen/regios moet een registratie bestaan op het tabblad **Parameters land/regio** van de pagina **Buitenlandse handel parameters**, en de waarde **Land/regio type** moet worden ingesteld op **EU**. Intracommunautair handelsverkeer transacties worden gemarkeerd in het **Lijstcode** veld. Met dit veld, kunt u algemene intracommunautair handelsverkeertransacties scheiden van driehoekige handelstransacties. U kunt informatie verzamelen over intracommunautaire handelstransacties op de **ICL-lijst** pagina (Klik op **btw**&gt;**aangiften**&gt;**buitenlandse handel**&gt;**ICL-lijst**) met behulp van de **overbrengen** functie. Met deze functie kunt u transacties opnemen die bedragen van verschillende rapportage typen (dat wil zeggen, artikelen of diensten), volgens de item BTW-groepen die zijn gespecificeerd op transactieregels. U kunt ook andere filters toepassen om de transacties te definiëren die moeten worden opgenomen. De **Overboeken** functie maakt een registratie op de **EU-verkooplijst** pagina voor elke intracommunautaire handelsverkeertransactie die is opgenomen is en specificeerd een tegenpartijaccountnummer, een land/regio, een BTW-vrijstellingsnummer, een factuurnummer en datum, en de totaal aantal regels per rapportage type. Het kopieert ook de **Lijstcode** waarde van de transactie. U kunt de lijstcode voor een transactie handmatig wijzigen op de **EU-verkooplijst** pagina. De **Overboeken** functie maakt registraties waarin de **Rapportage status** waarde is ingesteld op **Opgenomen**. U kunt de gegevens valideren die op de pagina **EU-verkooplijst ** met de functie te **Valideren** gebruiken wordt verzameld.
+Een transactie wordt beschouwd als intracommunautair handelsverkeer transactie als het afleveradres van de transactie in een lidstatus gevestigd is. Voor dergelijke landen/regios moet een registratie bestaan op het tabblad **Parameters land/regio** van de pagina **Buitenlandse handel parameters**, en de waarde **Land/regio type** moet worden ingesteld op **EU**. Intracommunautair handelsverkeer transacties worden gemarkeerd in het **Lijstcode** veld. Met dit veld, kunt u algemene intracommunautair handelsverkeertransacties scheiden van driehoekige handelstransacties. U kunt informatie over intracommunautaire handelsverkeertransacties verzamelen op de pagina **EU-verkooplijst** (klik op **Belasting** &gt; **Aangiften** &gt; **Buitenlandse handel** &gt; **EU-verkooplijst**) door de functie **Overboeken** te gebruiken. Met deze functie kunt u transacties opnemen die bedragen van verschillende rapportage typen (dat wil zeggen, artikelen of diensten), volgens de item BTW-groepen die zijn gespecificeerd op transactieregels. U kunt ook andere filters toepassen om de transacties te definiëren die moeten worden opgenomen. De **Overboeken** functie maakt een registratie op de **EU-verkooplijst** pagina voor elke intracommunautaire handelsverkeertransactie die is opgenomen is en specificeerd een tegenpartijaccountnummer, een land/regio, een BTW-vrijstellingsnummer, een factuurnummer en datum, en de totaal aantal regels per rapportage type. Het kopieert ook de **Lijstcode** waarde van de transactie. U kunt de lijstcode voor een transactie handmatig wijzigen op de **EU-verkooplijst** pagina. De **Overboeken** functie maakt registraties waarin de **Rapportage status** waarde is ingesteld op **Opgenomen**. U kunt de gegevens valideren die op de pagina **EU-verkooplijst ** met de functie te **Valideren** gebruiken wordt verzameld.
 
 ### <a name="generating-the-eu-sales-list-report"></a>Genereren van de EU-Verkooplijst rapport.
 
@@ -156,5 +159,7 @@ U kunt een rapport **EU-verkooplijst** genereren door de functie **Rapportering 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>Sluiten van de EU-Verkooplijst rapporteringperiode.
 
 Als u het rapportageproces voor een specifieke periode (bijvoorbeeld, wanneer de belastingdienst de **EU-verkooplijst** rapport accepteerd), kunt u de ESL registraties markeren die bijgesloten zijn in het rapport voor de periode door het instellen van de **Rapportage status** waarde op **Gesloten**. Om deze status in te stellen, gebruik de **Markeren als gesloten ** functie op de **EU-verkooplijst ** pagina. Als u de afsluiting van de periode omkeert, kunt u ESL-registraties markeren door de **Rapportage status** waarde in te stellen op **Opgenomen**. Deze records kunnen vervolgens opnieuw op een rapport **EU-verkooplijst** worden opgenomen. Om deze status in te stellen, gebruik de **Markeren als****Inclusief** functie op de **EU-verkooplijst ** pagina.
+
+
 
 

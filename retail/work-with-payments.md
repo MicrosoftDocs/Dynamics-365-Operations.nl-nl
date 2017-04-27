@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="payment-methods-in-a-call-center"></a>Betalingsmethoden in een callcenter
 
+[!include[banner](includes/banner.md)]
+
+
 In dit onderwerp komen de verschillende betalingswijzen aan bod die u in een callcenter in Detailhandel en commerce kunt gebruiken.
 
 De betalingsmethoden die worden gebruikt in andere kanalen in Detailhandel en commerce in Microsoft Dynamics AX, zoals contant geld, cheques, creditcards en geschenkbonnen, kunnen ook in callcenters worden gebruikt. Nadat u een betalingsmethode voor een callcenter hebt ingesteld, verschijnt deze als een van de opties in het gedeelte **Betalingen** van de pagina **Verkooporder** voor callcentersgebruikers. Bovendien kunt u coupons instellen om kortingen aan te bieden aan klanten die een order plaatsen bij het callcenter van uw organisatie. Coupons kunnen voor een vast kortingsbedrag zijn of voor een percentage van een artikelprijs of voor het ordertotaal. Bijvoorbeeld, een op een bedrag gebaseerde coupon biedt klanten mogelijk een korting van 75,00 aan wanneer de klant 750,00 of meer besteedt. U kunt verschillende typen kortingsbonnen maken, bovenliggende/onderliggende coupons instellen en een coupon kopiëren of ongeldig maken. Gebruik de opties in de volgende tabel voor het maken van coupons.
@@ -43,6 +46,8 @@ Als u een van creditcardbetaling indient vanaf de pagina **Verkooporder** en een
 
 -   Met Chequeblokkeringen kan financieel personeel orders verwerken die in de wachtstrand zijn geplaatst omdat een cheque is gebruikt als betalingsmethode en het drempelbedrag voor chequeblokkering is overschreden. De blokkering kan handmatig worden vrijgegeven of verloopt automatisch aan het einde van de geconfigureerde periode.
 -   U kunt drempels instellen waarboven restituties die worden verstrekt via cheques en creditcards handmatig moeten worden goedgekeurd. Elke restitutie die het drempelbedrag overschrijdt, wordt toegevoegd aan de goedkeuringswachtrij. Nadat u de restitutie goedkeurt, kan de retourverkooporder worden gefactureerd.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Journaalregels en documenten uit Excel publiceren
-description: In dit onderwerp wordt uitgelegd hoe invoeren en publiceren van regels voor algemene journalen vanuit Microsoft Excel. Deze bevat informatie over de verschillende sjablonen die u gebruiken kunt, afhankelijk van het type transacties die u invoert.
+title: Journaalregels en documenten publiceren vanuit Excel
+description: In dit onderwerp wordt uitgelegd hoe u regels voor algemene journalen invoert en publiceert vanuit Microsoft Excel. U vindt er informatie over de verschillende sjablonen die u gebruiken kunt, afhankelijk van het type transactie dat u invoert.
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -25,28 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="publish-journal-lines-and-documents-from-excel"></a>Journaalregels en documenten uit Excel publiceren
+# <a name="publish-journal-lines-and-documents-from-excel"></a>Journaalregels en documenten publiceren vanuit Excel
 
-In dit onderwerp wordt uitgelegd hoe invoeren en publiceren van regels voor algemene journalen vanuit Microsoft Excel. Deze bevat informatie over de verschillende sjablonen die u gebruiken kunt, afhankelijk van het type transacties die u invoert.
+In dit onderwerp wordt uitgelegd hoe u regels voor algemene journalen invoert en publiceert vanuit Microsoft Excel. U vindt er informatie over de verschillende sjablonen die u gebruiken kunt, afhankelijk van het type transactie dat u invoert.
 
-Gebruikers kunnen invoeren en publiceren van regels voor financiële journalen vanuit Microsoft Excel. Nadat een gebruiker een journaal, maakt de **regels in Excel geopend** knop met de sjablonen die beschikbaar zijn weergegeven. Sjablonen zijn ontworpen ter ondersteuning van specifieke scenario's, maar niet alle mogelijke combinaties van rekeningtype in het journaal wordt ondersteund. De volgende tabel ziet u de sjablonen die beschikbaar zijn en de typen ter ondersteuning.
+Gebruikers kunnen regels voor financiële journalen invoeren en publiceren vanuit Microsoft Excel. Nadat een gebruiker een journaal heeft gemaakt, kan hij met de knop **Regels openen in Excel** een lijst met beschikbare sjablonen laten weergeven. Sjablonen zijn ontworpen ter ondersteuning van specifieke scenario's, maar niet elke combinaties van rekeningtypes wordt ondersteund in het journaal. In de volgende tabel ziet u de sjablonen die beschikbaar zijn en de rekeningtypen die ze ondersteunen.
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Template**             | **Ondersteunde typen**                                                                                             | **Het openen van de sjabloon**                                                          |
-| Grootboekjournaalregels     | : Grootboek, klant, leverancier, Bank-tegenrekening: grootboek, klant, leverancier, Bank Intercompany wordt ondersteund.       | Algemeen journaal                                                                         |
-| Facturenregister         | Rekening: Tegenrekening leverancier: Intercompany grootboek wordt niet ondersteund.                                                    | AP facturenregister                                                                     |
-| Facturenjournaal          | Accounts: Leverancier tegenrekening: grootboek Intercompany wordt ondersteund.                                                      | Factuurjournaal leveranciers                                                                      |
+| **Sjabloon**             | **Ondersteunde rekeningtypen**                                                                                             | **Hoe de sjabloon te openen**                                                          |
+| Grootboekjournaalregels     | Rekening: Grootboek, Klant, Leverancier, Bank Tegenrekening: Grootboek, Klant, Leverancier, Bank Intercompany wordt ondersteund.       | Algemeen journaal                                                                         |
+| Facturenregister         | Rekening: Leverancier Tegenrekening: Grootboek Intercompany wordt niet ondersteund.                                                    | Register leveranciersfacturen                                                                     |
+| Facturenjournaal          | Rekeningen: Leverancier Tegenrekening: Grootboek Intercompany wordt ondersteund.                                                      | Factuurjournaal leveranciers                                                                      |
 | Leveranciersfactuur           |                                                                                                                         | Leveranciersfactuur                                                                          |
-| Klantfacturenjournaal | Rekening: Tegenrekening klant: grootboek Intercompany wordt ondersteund.                                                     | Algemeen journaal                                                                         |
-| Vrije-tekstfactuur        |                                                                                                                         | Op de **vrije-tekstfactuur** pagina, klikt u op **openen in Excel** (het pictogram van Microsoft Office). |
-| Vaste-activajournaal     | Activa met grootboek, bank, klant of leverancier. Intercompany wordt niet ondersteund.                                               | Vaste-activajournaal                                                                     |
-| Journaal met betalingen van leverancier   | Rekening: Tegenrekening leverancier: grootboek, Bank Intercompany wordt ondersteund.                                                 | Journaal met betalingen van leverancier                                                                  |
-| Journaal met betalingen van klant | Rekening: Tegenrekening klant: grootboek, Bank Intercompany wordt ondersteund.                                               | Journaal met betalingen van klant                                                                |
-| Projectonkostenjournaal  | Account: Project, grootboek, klant, leverancier-tegenrekening: Project, grootboek, klant, leverancier Intercompany wordt ondersteund. | Algemeen journaal onkosten (onder projectbeheer en boekhouding)                       |
+| Klantfacturenjournaal | Rekening: Klant Tegenrekening: Grootboek Intercompany wordt ondersteund.                                                     | Algemeen journaal                                                                         |
+| Vrije-tekstfactuur        |                                                                                                                         | Klik op de pagina **Vrije-tekstfactuur** op **Openen in Excel** (het Microsoft Office-pictogram). |
+| Vaste-activajournaal     | Activum naar grootboek, bank, klant of leverancier. Intercompany wordt niet ondersteund.                                               | Vaste-activajournaal                                                                     |
+| Journaal met betalingen van leverancier   | Rekening: Leverancier Tegenrekening: Grootboek, Bank Intercompany wordt ondersteund.                                                 | Journaal met betalingen van leverancier                                                                  |
+| Journaal met betalingen van klant | Rekening: Klant Tegenrekening: Grootboek, Bank Intercompany wordt ondersteund.                                               | Journaal met betalingen van klant                                                                |
+| Projectonkostenjournaal  | Rekening: Project, Grootboek, Klant, Leverancier Tegenrekening: Project, Grootboek, Klant, Leverancier Intercompany wordt ondersteund. | Algemeen journaal Onkosten (onder Projectbeheer en boekhouding)                       |
 
-Wanneer de regels worden gepubliceerd, worden ze gevalideerd om ervoor te zorgen dat ze voldoen aan de regels die zijn ingesteld in de financiële journalen. Nadat de regels worden gepubliceerd, kunnen gebruikers bewerken of de boekstukken boeken vanuit Microsoft Dynamics 365 voor bewerkingen. 
+Wanneer de regels worden gepubliceerd, worden ze gevalideerd om ervoor te zorgen dat ze voldoen aan de regels die zijn ingesteld in de financiële journalen. Nadat de regels zijn gepubliceerd, kunnen gebruikers de boekstukken bewerken of boeken vanuit Microsoft Dynamics 365 for Operations. 
 
-Financiële dimensies aan een sjabloon om toe te voegen zijn meer wijzigingen nodig. Zie voor meer informatie, [dimensies toevoegen aan de Microsoft Excel-sjabloon](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Nadat de dimensies worden toegevoegd aan de entiteit, worden ze beschikbaar zijn in de Excel-ontwerper en kunnen worden toegevoegd aan de sjabloon.
+Het toevoegen van financiële dimensies aan een sjabloon vereist meer wijzigingen. Zie voor meer informatie [Dimensies toevoegen aan de Microsoft Excel-sjabloon](\dev-itpro\financial-dimensions\add-dimensions-excel-templates). Nadat dimensies zijn toegevoegd aan de entiteit, zijn ze beschikbaar in de Excel-ontwerper en kunnen worden toegevoegd aan de sjabloon.
 
 
 

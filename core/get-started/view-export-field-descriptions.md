@@ -36,9 +36,9 @@ Niet alle pagina's hebben veldomschrijvingen. We willen alleen beschrijvingen ge
 Als u toegang hebt tot de Dynamics 365 for Operations-ontwikkelomgeving, kunt u nieuwe veldbeschrijvingen toevoegen en bestaande beschrijvingen aanpassen. U kunt bijvoorbeeld bedrijfsspecifieke informatie toevoegen aan een veldbeschrijving. Zie [Help voor velden aanpassen](/dynamics365/operations/dev-itpro/user-interface/customize-field-help) voor meer informatie.
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Zie veldbeschrijvingen in de gebruikersinterface.
-U kunt veldomschrijvingen weergeven door de cursor boven een veld te houden. Als er geen beschrijving beschikbaar is, ziet u de veldnaam wanneer u de muisaanwijzer op het veld plaatst. (opmerking: In versie 7.0.0, veldomschrijvingen ziet u alleen op de **veld omschrijvingen** pagina.) De volgende afbeelding geeft de omschrijving die wordt weergegeven wanneer u de muisaanwijzer op de **artikelen vergrendelen tijdens telling** veld. 
+U kunt veldomschrijvingen weergeven door de cursor boven een veld te houden. Als er geen beschrijving beschikbaar is, ziet u de veldnaam wanneer u de muisaanwijzer op het veld plaatst. (Opmerking: In versie 7.0.0 kunnen veldbeschrijvingen alleen worden weergegeven op de pagina **Veldomschrijvingen**.) In de volgende afbeelding ziet u de beschrijving die wordt weergegeven wanneer u de muisaanwijzer op het veld **Artikelen vergrendelen tijdens telling** plaatst. 
 
-[![Voorbeeld van een veldomschrijving](./media/field-description.png)](./media/field-description.png)
+[![Voorbeeld van een veldbeschrijving](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>De pagina Veldbeschrijvingen gebruiken om Help voor velden weer te geven en te exporteren
 Op de pagina **Veldbeschrijvingen** kunt u veldbeschrijvingen weergeven en exporteren. U kunt de omschrijvingen zien die tegelijk voor een pagina beschikbaar zijn.
@@ -73,7 +73,7 @@ Er zijn verschillende manieren om een pagina te zoeken in het veld **Selecteer e
     -   Als er meer dan één exacte overeenkomst is, worden geen beschrijvingen weergegeven. U moet de vervolgkeuzelijst openen en de gewenste pagina selecteren.
     -   Als de naam die u hebt getypt deel uitmaakt van de naam van een andere pagina, ziet u de beschrijvingen voor uw pagina. Als u echter de vervolgkeuzelijst opent, ziet u extra pagina's die deze naam bevatten.
 
-Bijvoorbeeld geen beschrijvingen worden weergegeven wanneer u typt **tellen** in de *** pagina *** veld selecteren. U opent de vervolgkeuzelijst en ziet dat er twee pagina's zijn met de naam **Counting**, plus verschillende pagina's die het woord "Telling" bevatten in de naam. Als u de pagina met de AOT-naam **InventJournalCountt** selecteert, worden de veldbeschrijvingen voor die pagina weergegeven. Als u echter de vervolgkeuzelijst opnieuw opent, ziet u dat de lijst nu alle pagina's bevat met "InventJournalCount" als deel van de AOT-naam.
+Zo worden er bijvoorbeeld geen beschrijvingen weergegeven wanneer u **telling** typt in het veld ****Selecteer een pagina****. U opent de vervolgkeuzelijst en ziet dat er twee pagina's zijn met de naam **Counting**, plus verschillende pagina's die het woord "Telling" bevatten in de naam. Als u de pagina met de AOT-naam **InventJournalCountt** selecteert, worden de veldbeschrijvingen voor die pagina weergegeven. Als u echter de vervolgkeuzelijst opnieuw opent, ziet u dat de lijst nu alle pagina's bevat met "InventJournalCount" als deel van de AOT-naam.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 Deze sectie bevat informatie om u te helpen problemen op te lossen die u kunt tegenkomen als u veldbeschrijvingen gebruikt.

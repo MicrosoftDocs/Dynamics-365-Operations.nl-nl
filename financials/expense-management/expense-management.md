@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Onkostenbeheer
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Onkostenbeheer plannen](plan-expense-management.md) Meer informatie wordt later toegevoegd. Kom binnenkort terug.
+
+
 
 

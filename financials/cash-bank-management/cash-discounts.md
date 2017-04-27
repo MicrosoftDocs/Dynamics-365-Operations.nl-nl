@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cash-discounts"></a>Contantkortingen
 
+[!include[banner](../includes/banner.md)]
+
+
 Contantkortingen worden ingesteld en gedeeld voor Leveranciers en Klanten.  De beschikbare contantkorting kan op de klant- of leveranciersfactuur worden gedefinieerd en deze wordt toegepast als de factuur wordt betaald binnen de datum voor de contantkorting. 
 
 <a name="cash-discounts"></a>Contantkortingen
@@ -61,8 +64,8 @@ De valuta voor boekhouding van de rechtspersoon is EUR en de volgende wisselkoer
 -   1 februari = 110
 -   1 maart = 80
 
-Op 15 februari wordt een factuur geboekt voor 1000 USD met contantkortingsvoorwaarden van 20D2%. Het factuurbedrag in de valuta voor boekhouding is 1100 EUR. Een betaling van 980 USD wordt vereffend met de factuur op 1 maart. Het bedrag van de contantkorting is 20 USD. Het bedrag van de betaling in de valuta voor boekhouding is 784 EUR. Het valutabedrag van de boekhouding van de contantkorting wordt berekend met behulp van de wisselkoers op maart 1:20 \*80 / 100 = 16 EUR.
-| **Note**                                                                                                                                                                                                                             |
+Op 15 februari wordt een factuur geboekt voor 1000 USD met contantkortingsvoorwaarden van 20D2%. Het factuurbedrag in de valuta voor boekhouding is 1100 EUR. Een betaling van 980 USD wordt vereffend met de factuur op 1 maart. Het bedrag van de contantkorting is 20 USD. Het bedrag van de betaling in de valuta voor boekhouding is 784 EUR. Het bedrag van de contantkorting in de valuta voor boekhouding wordt berekend op basis van de wisselkoers op 1 maart: 20 \* 80 / 100 = 16 EUR.
+| **Opmerking**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als de optie Contantkortingen berekenen voor gedeeltelijke betalingen is geselecteerd op de pagina's Parameters van module Klanten of Parameters van module Leveranciers, wordt de wisselkoers gebruikt die geldt op de datum van elke deelbetaling. |
 
@@ -70,5 +73,7 @@ Op 15 februari wordt een factuur geboekt voor 1000 USD met contantkortingsvoorwa
 =
 
  
+
+
 
 

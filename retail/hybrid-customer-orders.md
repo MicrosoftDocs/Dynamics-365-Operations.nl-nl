@@ -1,6 +1,6 @@
 ---
 title: Hybride klantorders
-description: Een klantorder hybride is een enkele order, waarin producten die door de klant uit de winkel kunnen worden getransporteerd, alsmede de producten die worden opgehaald of later worden verzonden.
+description: Een hybride klantorder is een enkele order, die producten bevat die door de klant vanuit de winkel kunnen worden getransporteerd, alsmede de producten die later worden opgehaald of verzonden.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,18 +27,23 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="hybrid-customer-orders"></a>Hybride klantorders
 
-Een klantorder hybride is een enkele order, waarin producten die door de klant uit de winkel kunnen worden getransporteerd, alsmede de producten die worden opgehaald of later worden verzonden.
+[!include[banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 voor bewerkingen: een leverancier, u kunt beide voert u alle producten of geselecteerde producten voor een klantorder verrichten. De product-regels die zijn gemarkeerd als verrichten automatisch gemaakt worden nadat de order wordt gemaakt, op dezelfde manier dit is hetzelfde voor een order die moet worden gepickt tot nadat de order wordt gemaakt. Het verschuldigde bedrag op hybride orders wordt bepaald door het percentage van storting op verzamelen toevoegen en product van verzendregels met het volledige bedrag van de regels uitvoeren. Voor orders van hybride schakelt u tussen klant order en Cash-and-carry-modus als volgt:
 
--   Als alle producten in de winkelwagen zijn ingesteld op **verrichten levering**, de volgorde worden verwerkt als een Cash and Carry-transactie.
--   Als sommige of alle regels in de winkelwagen worden ingesteld op **verzamelen** of **levering verzenden**, de volgorde worden verwerkt als een order klanttransactie.
+Een hybride klantorder is een enkele order, die producten bevat die door de klant vanuit de winkel kunnen worden getransporteerd, alsmede de producten die later worden opgehaald of verzonden.
 
-Als een winkelwagen-regel is ingeschakeld en **selectie kiezen**, **schip geselecteerd**, of **verrichten geselecteerde** is ingeschakeld, alleen de specifieke winkelwagen-regel is ingesteld met deze leveringsmethode. In dat geval blijft de downstream stroom van de bewerking zoals gebruikelijk. Echter, als **selectie kiezen**, **schip geselecteerd**, of **verrichten geselecteerde** zonder een regel van het winkelwagentje wordt geselecteerd, een nieuwe pagina geopend waarin alle regels in de winkelwagen is geselecteerd. Op dit scherm kunt u meerdere regels tegelijk voor het instellen van de leveringsmethode. Wanneer u die methode voor het selecteren van regels, worden eventuele vorige leveringsmethode die is toegewezen aan de regel overschreven.
+In Microsoft Dynamics 365 for Operations - Retail kunt u aangeven dat u alle producten of geselecteerde producten voor een klantorder wilt uitvoeren. De productregels die zijn gemarkeerd om te worden uitgevoerd, worden automatisch gefactureerd nadat de order is gemaakt. Dit geldt ook voor een order die moet worden opgehaald nadat de order is gemaakt. Het verschuldigde bedrag op hybride orders wordt bepaald door het aanbetalingspercentage op productregels voor verzamelen en verzenden met het volledige bedrag van de uitvoerregels. Voor hybride orders wordt als volgt geschakeld tussen de klantordermodus en de cash-and-carry-modus:
+
+-   Als alle producten in de winkelwagen zijn ingesteld op **Leveringsmethode uitvoeren**, wordt de order verwerkt als een contante transactie.
+-   Als sommige of alle regels in de winkelwagen worden ingesteld op **Verzamelen** of **Levering verzenden**, wordt de order verwerkt als een klantordertransactie.
+
+Als een winkelwagenregel is geselecteerd en **Selectie kiezen**, **Selectie verzenden** of **Selectie uitvoeren** is ingeschakeld, wordt alleen de specifieke winkelwagenregel ingesteld met die leveringsmethode. In dat geval blijft de downstreamflow van de bewerking doorgaan zoals gebruikelijk. Echter als **Selectie kiezen**, **Selectie verzenden** of **Selectie uitvoeren** is geselecteerd zonder dat een winkelwagenregel wordt geselecteerd, wordt een nieuwe pagina geopend waarin alle regels van de winkelwagenregels worden weergegeven. Op dat scherm kunt u meerdere regels tegelijk selecteren voor het instellen van de leveringsmethode. Wanneer u die methode gebruikt voor het selecteren van regels, worden eventuele vorige leveringsmethoden, die zijn toegewezen aan de regel, overschreven.
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Orders van klanten-overzicht](customer-orders-overview.md)
+[Overzicht van klantbestellingen](customer-orders-overview.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: Hoofdplannen
-description: "Gebruik verschillende hoofdplannen ondersteuning van uw bedrijf dagelijkse werkzaamheden, simuleren van verschillende planningsstrategieën die u wilt controleren en implementeren van een bedrijfsbeleid zoals een beleid over interne tevredenheid van de prestaties of de klant."
+description: "U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Hoofdplannen
 
-Gebruik verschillende hoofdplannen ondersteuning van uw bedrijf dagelijkse werkzaamheden, simuleren van verschillende planningsstrategieën die u wilt controleren en implementeren van een bedrijfsbeleid zoals een beleid over interne tevredenheid van de prestaties of de klant. 
+[!include[banner](../includes/banner.md)]
+
+
+U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid. 
 
 U kunt hoofdplannen configureren op de pagina **Hoofdplannen**.
 
@@ -50,8 +53,10 @@ U kunt het eerste dynamische plan zo opstellen, dat het wordt bijgewerkt met het
 
 [Behoefteplanningsinstellingen](coverage-settings.md)
 
-[Scheiden tactische en kracht plannen voor het maken van de hoofdplanning](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+[Tactische en operationele planning scheiden voor hoofdplanning](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Master Planning: Een statische en dynamische hoofdplan gebruikt of één plan gebruiken?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Hoofdplanning: Een statisch en dynamisch hoofdplan gebruiken of één plan gebruiken?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

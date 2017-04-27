@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="batch-attributes"></a>Batchkenmerken
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft informatie over batchkenmerken. Batchkenmerken zijn eigenschappen van grondstoffen en eindproducten die samen voorraadbatches vormen. In het artikel wordt ook uitgelegd hoe u batchkenmerken toewijst en hoe u erop kunt zoeken wanneer u batches reserveert.
 
 Batchkenmerken zijn eigenschappen van grondstoffen en eindproducten die samen voorraadbatches vormen. Batchkenmerken kunnen verschillen, afhankelijk van zaken als omgevingsfactoren, de kwaliteit van de grondstoffen waarmee de batch wordt geproduceerd of het resultaat van het eindproduct. Het aantal en de typen batchkenmerken die worden gebruikt, kunnen aanzienlijk verschillen per bedrijfstak. Hierna volgen twee voorbeelden van het gebruik van batchkenmerken:
@@ -42,12 +45,14 @@ U kunt het aantal en de typen kenmerken beter beheren door batchkenmerkgroepen t
 U kunt batchkenmerken toewijzen aan afzonderlijke producten die zijn opgeslagen in voorraadbatches of aan producten die zijn gekoppeld aan specifieke klanten. Voordat u een batchkenmerk kunt toewijzen op klantniveau, moet u dit eerst toewijzen op productniveau. Het product moet een batchdimensie hebben die is ingesteld op **Actief** in de trackingdimensiegroep. Gebruik de productgebonden pagina om een batchkenmerk toe te wijzen aan een afzonderlijk product. Gebruik de klantgebonden pagina als het kenmerk specifiek is voor een product voor een bepaalde klant. Wanneer u een kenmerk toevoegt aan een product, definieert u ook andere parameters. Hieronder vindt u enkele voorbeelden:
 
 -   Het minimum- en maximumbereik voor een kenmerk van het type **Geheel getal** of **Breuk**.
--   De tolerantieacties voor een kenmerk van het **geheel getal** of **breuk** type. Als de waarde van het kenmerk buiten het bereik minimum en maximum valt, wordt de actie kan worden een waarschuwingsbericht of een foutbericht weergegeven.
+-   De tolerantieacties voor een kenmerk van het type **Geheel getal** of **Breuk**. Als de waarde van het kenmerk buiten het minimum- of maximumbereik valt, kan de actie een waarschuwingsbericht zijn of een foutbericht.
 -   De doelwaarde voor het kenmerk. Dit is de optimale waard van het kenmerk, die van toepassing is op alle kenmerktypen.
 
 U kunt de pagina's openen voor producten die u selecteert op de pagina **Vrijgegeven producten** in Productgegevensbeheer. Wanneer u batchkenmerken aan een product hebt toegewezen, kunt u vervolgens specifieke waarden toevoegen aan de kenmerken op de pagina **Voorraadbatchkenmerken**.
 
 ## <a name="reserve-batches"></a>Reservebatches
 U kunt zoeken op batchkenmerken wanneer u batchreserveringen voor een verkooporder uitvoert om de order van een klant te vervullen of bij het verzamelen en reserveren van batches voor een productieorder. De zoekactie helpt bij het opsporen van een voorraadbatch die het product bevat met de batchkenmerken die u wilt. Nadat u de batch of batches hebt gevonden, kunt u het product reserveren voor de oorspronkelijke voorraadtransactieregel.
+
+
 
 

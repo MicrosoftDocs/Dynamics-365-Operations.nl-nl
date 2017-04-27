@@ -1,6 +1,6 @@
 ---
 title: Startpagina Organisatiebeheer
-description: Dit onderwerp verwijst naar resources die u helpen om voor het gebruik van Microsoft Dynamics 365 voor bewerkingen in uw organisatie.
+description: Dit onderwerp verwijst naar resources die u helpen om Microsoft Dynamics 365 for Operations te gebruiken in uw organisatie.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>Startpagina Organisatiebeheer
 
-Dit onderwerp verwijst naar resources die u helpen om voor het gebruik van Microsoft Dynamics 365 voor bewerkingen in uw organisatie.
+[!include[banner](../includes/banner.md)]
+
+
+Dit onderwerp verwijst naar resources die u helpen om Microsoft Dynamics 365 for Operations te gebruiken in uw organisatie.
 
 <a name="number-sequences"></a>Nummerreeksen
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [Nummerreeksen instellen met behulp van een wizard](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (taak guide)
--   [Instellen van nummerreeksen op individuele basis](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (taak guide)
+-   [Nummerreeks - overzicht](number-sequence-overview.md)
+-   [Nummerreeksen instellen met een wizard](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (taakbegeleiding)
+-   [Nummerreeksen op een individuele basis instellen](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (taakbegeleiding)
 
 ## <a name="address-books"></a>Adresboeken
--   [Address books](qa-address-books.md)
--   [Overzicht: Globaal adresboek](overview-global-address-book.md)
--   [Planning van de configuratie van het globale adresboek en aanvullend-adresboek](plan-configuration-global-address-book-additional-address-books.md)
+-   [Adresboeken](qa-address-books.md)
+-   [Overzicht globaal adresboek](overview-global-address-book.md)
+-   [Configureren van het algemene adresboek en extra adresboeken plannen](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>Werkstroom
--   [Overview of the workflow system](overview-workflow-system.md)
--   [Workflow system architecture](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
--   [Create a workflow](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
--   [Configure a manual task](configure-manual-task-workflow.md)
--   [Configure an automated task](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [Overzicht van het workflowsysteem](overview-workflow-system.md)
+-   [Architectuur van het workflowsysteem](workflow-system-architecture.md)
+-   [Workflowelementen](workflow-elements.md)
+-   [Workflowacties](workflow-actions.md)
+-   [Een workflow maken](create-workflow.md)
+-   [De eigenschappen van een workflow configureren](configure-workflow-properties.md)
+-   [Een handmatige taak configureren](configure-manual-task-workflow.md)
+-   [Een geautomatiseerde taak configureren](configure-automated-task-workflow.md)
+-   [Een goedkeuringsproces configureren](configure-approval-process-workflow.md)
 -   [Een goedkeuringsstap configureren](configure-approval-step-workflow.md)
 -   [Een handmatige beslissing configureren](configure-manual-decision-workflow.md)
 -   [Een voorwaardelijke beslissing configureren](configure-conditional-decision-workflow.md)
 -   [Een parallelle activiteit configureren](configure-parallel-activity-workflow.md)
--   [Configure a parallel branch](configure-parallel-branch-workflow.md)
--   [Een workflowelement voor regelartikelen configureren](configure-line-item-workflow.md)
+-   [Een parallelle vertakking configureren](configure-parallel-branch-workflow.md)
+-   [Een element voor regelartikelen configureren](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>Casebeheer
--   [Plannen: Case-instellingen](plan-case-management.md)
--   [Aanvraagbeheer-voorbeelden](cases.md)
+-   [Planning: case-instellingen](plan-case-management.md)
+-   [Voorbeelden van casebeheer](cases.md)
 
 ## <a name="electronic-signatures"></a>Elektronische handtekeningen
--   [Electronic signature overview](electronic-signature-overview.md)
--   [Elektronische handtekeningen instellen](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (taak guide)
+-   [Overzicht van elektronische handtekeningen](electronic-signature-overview.md)
+-   [Elektronische handtekeningen instellen](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (taakbegeleiding)
 
 ## <a name="organizations"></a>Organisaties
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   [Een operationele eenheid maken](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (taak guide)
--   [Een organisatiehiërarchie maakt](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (taak guide)
--   [Een rechtspersoon maken](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (taak guide)
+-   [Organisaties en organisatiehiërarchieën](organizations-organizational-hierarchies.md)
+-   [De organisatiehiërarchie plannen](plan-organizational-hierarchy.md)
+-   [Een operationele eenheid maken](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (taakbegeleiding)
+-   [Een organisatiehiërarchie maken](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (taakbegeleiding)
+-   [Een rechtspersoon selecteren](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (taakbegeleiding)
 
 ## <a name="general-administration"></a>Algemeen beheer
--   [De informatieregel of het logo wijzigen](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (taak guide)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+-   [Banner of logo wijzigen](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (taakbegeleiding)
+-   [Informatie over datum/tijdgegevens en tijdzones](date-time-zones.md)
+-   [Recordsjablonen](record-templates.md)
+
+
 
 
 

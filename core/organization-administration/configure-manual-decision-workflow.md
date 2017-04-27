@@ -1,5 +1,5 @@
 ---
-title: Een handmatige beslissing in een workflow configureren
+title: Een handmatige beslissing configureren in een workflow
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Een handmatige beslissing in een workflow configureren
+# <a name="configure-a-manual-decision-in-a-workflow"></a>Een handmatige beslissing configureren in een workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
 
@@ -95,8 +98,8 @@ U kunt meldingen naar gebruikers verzenden wanneer een beslissing is genomen, ge
 
 1.  Klik in het linkerdeelvenster op **Meldingen**.
 2.  Schakel het selectievakje naast de gebeurtenissen waarvoor meldingen moeten worden verzonden:
-    -   **\[Keuze 1\]** : de toegewezen gebruiker heeft geselecteerd **\[keuze 1\]**.
-    -   **\[Keuze 2\]** : de toegewezen gebruiker heeft geselecteerd **\[keuze 2\]**.
+    -   **\[Keuze 1\]** – de toegewezen gebruiker heeft **\[Keuze 1\]** geselecteerd.
+    -   **\[Keuze 2\]** – de toegewezen gebruiker heeft **\[Keuze 2\]** geselecteerd.
     -   **Delegeren**: de toegewezen gebruiker heeft de beslissing aan een andere gebruiker toegewezen.
     -   **Escaleren**: de toegewezen gebruiker heeft de beslssing niet niet binnen de toegekende tijd genomen.
 
@@ -148,10 +151,10 @@ U kunt meldingen naar gebruikers verzenden wanneer een beslissing is genomen, ge
     </tr>
     <tr class="odd">
     <td>Gebruiker</td>
-    <td>Specifieke Microsoft Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Microsoft Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Voer de volgende stappen uit om op te geven aan wie de handmatige beslissing moe
     </tr>
     <tr class="even">
     <td>Gebruiker</td>
-    <td>Specifieke Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers aan wie u de beslissing wilt toewijzen en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers aan wie u de beslissing wilt toewijzen en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -234,8 +237,8 @@ Voer de volgende stappen uit om op te geven aan wie de handmatige beslissing moe
     <li>Selecteer in de lijst <strong>Wachtrijtype</strong> de waarde <strong>Voorwaardelijke wachtrijen voor werkitems</strong>.</li>
     <li>Selecteer in de lijst <strong>Wachtrijnaam</strong> de waarde <strong>Voorwaardelijke wachtrij</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>opmerking:</strong> deze optie wordt gebruikt voor enkele workflows, zoals aanvraagbeheer.</td>
+    </ol>
+    <strong>Opmerking:</strong> deze optie wordt alleen bij enkele workflows toegepast, zoals Aanvraagbeheer.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Als een gebruiker niet binnen de toegekende tijd de beslissing neemt, wordt de b
     |----------|----------------------------|
     | 1        | Toewijzen aan: Diana           |
     | 2        | Toewijzen aan: Erica            |
-    | 3        | Laatste actie: \[keuze 1\] |
+    | 3        | Laatste actie: \[Keuze 1\] |
 
-    In dit voorbeeld wordt de achterstallige beslissing door het systeem automatisch toegewezen aan Diana. Als Diana niet tijdig de beslissing neemt, wordt de beslissing door het systeem toegewezen aan Erica. Als Erica niet de beslissing binnen de toegekende tijd, wordt de werknemerspecifieke **\[keuze 1\]** als de beslissing.
+    In dit voorbeeld wordt de achterstallige beslissing door het systeem automatisch toegewezen aan Diana. Als Diana niet tijdig de beslissing neemt, wordt de beslissing door het systeem toegewezen aan Erica. Als Erica niet tijdig de beslissing neemt, selecteert het systeem **\[Keuze 1\]** als beslissing
 3.  Klik op **Escalatie toevoegen** om gebruikers toe te voegen aan het escalatiepad. Selecteer een van de opties in de volgende tabel en volg de bijkomende stappen voor de betreffende optie voordat u naar stap 4 gaat.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Als een gebruiker niet binnen de toegekende tijd de beslissing neemt, wordt de b
     </tr>
     <tr class="odd">
     <td>Gebruiker</td>
-    <td>Specifieke Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers naar wie u de beslissing wilt escaleren en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u de beslissing wilt escaleren en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Volg deze stappen als de beslissing binnen een opgegeven tijd moet worden genome
     -   **Jaren**: selecteer de dag, week en maand waarop de beslissing uiterlijk moet zijn genomen. U kunt bijvoorbeeld aangeven dat de beslissing uiterlijk op de vrijdag in de derde week van december moet zijn genomen.
 
 4.  Als de tijdslimiet is overschreden, dan neemt het systeem automatisch de beslissing. Selecteer in de lijst **Actie** de optie die het systeem moet selecteren.
+
+
 
 
 

@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-forecasts-and-budgets"></a>Projectprognoses en -budgetten
 
+[!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 voor bewerkingen zijn er twee manieren beheren en controleren van uw projecten: project prognoses en budgetten project. 
+
+
+Microsoft Dynamics 365 for Operations biedt twee manieren om uw projecten te beheren en te regelen: met projectprognoses en met projectbudgetten. 
 
 U kunt projectprognoses gebruiken als uw organisatie een operationeel perspectief heeft en zich richt op opbrengsten en kosten die van specifieke transacties zijn afgeleid. U kunt projectbudgettering gebruiken als uw organisatie zich meer richt op de financiële bedragen. 
 
@@ -45,9 +48,9 @@ Elke methode heeft zijn voordelen. Neem de volgende punten in overweging voordat
 | **Transactievariabelen ** | Wanneer u prognosetransacties invoert, kunt u elk bestaand kenmerk voor een werkelijke transactie gebruiken. Hierdoor is er ruimte voor meer gegevens in de prognose. U kunt bijvoorbeeld gegevens invoeren voor hoeveelheden, werknemers, artikelen, of regeleigenschappen.         | Wanneer u budgetdetails invoert, kunt u alleen bedragen, categorieën en activiteiten gebruiken.                                                                                    |
 | **Beveiliging **              | Prognoses worden gebaseerd op transacties die u invoert in de prognoseformulieren en hiervoor zijn geen mechanismen voor procesbeheer nodig. Elke werknemer met machtigingen voor een prognoseformulier kan gegevens zonder toestemming wijzigen.                                        | Bij budgettering wordt gebruikgemaakt van het werkstroomsysteem, wat wijzigingsbeheer en het bijhouden van de geschiedenis van revisies mogelijk maakt.                                                       |
 | **Invoertypen **           | Prognosetransactieboekingen zijn gebaseerd op het aantal eenheden en op kosten en verkoopeenheidsprijzen.                                                                                                                                                       | Budgetdetails zijn gebaseerd op bedragen en worden opgesplitst in kosten en opbrengsten.                                                                                        |
-| **Forecast models**       | Aangezien iedere prognose aan een model moet worden gekoppeld, kunt u meerdere prognosemodellen maken en submodellen instellen.                                                                                                                               | Projectbudgettering beperkt de prognosemodellen die voor budgettering worden gebruikt. Minder prognosemodellen kan de consistentie in projecten vergroten.                           |
+| **Prognosemodellen**       | Aangezien iedere prognose aan een model moet worden gekoppeld, kunt u meerdere prognosemodellen maken en submodellen instellen.                                                                                                                               | Projectbudgettering beperkt de prognosemodellen die voor budgettering worden gebruikt. Minder prognosemodellen kan de consistentie in projecten vergroten.                           |
 | **Kostenoverschrijdingen **         | U kunt alleen de invoer van transacties die een overschrijding veroorzaken, toestaan of niet toestaan.                                                                                                                                                                | Met projectbudgettering hebben gebruikers meer controlemogelijkheden. U kunt waarschuwingen en overschrijdingen toestaan.                                                                   |
-| **Control**               | Prognosecontrole wordt uitgevoerd met behulp van prognosereductie. Werkelijke bedragen worden afgetrokken van prognosetransactiesaldi zonder audittrail. Dit kan het lastiger maken om te traceren waar de werkelijke transacties zijn uitgevoerd.                   | In projectbudgetcontrole worden werkelijke bedragen afgetrokken van bedragen in het resterende budget. Dit zorgt voor een duidelijkere audittrail.                                   |
+| **Controle**               | Prognosecontrole wordt uitgevoerd met behulp van prognosereductie. Werkelijke bedragen worden afgetrokken van prognosetransactiesaldi zonder audittrail. Dit kan het lastiger maken om te traceren waar de werkelijke transacties zijn uitgevoerd.                   | In projectbudgetcontrole worden werkelijke bedragen afgetrokken van bedragen in het resterende budget. Dit zorgt voor een duidelijkere audittrail.                                   |
 
 ## <a name="project-forecasts"></a>Projectprognoses
 Wanneer u projectprognoe gebruikt, kunt u voor elk transactietype prognosetransacties in prognoseformulieren invoeren. Elk beschikbaar attribuut voor een effectieve transactie kan voor een prognosetransactie worden gebruikt, bijvoorbeeld regelrentabiliteit, regelattributen, werknemers of omschrijvingen. U kunt ook voorspellen hoe lang het duurt voordat u een factuur naar een klant stuurt nadat u kosten hebt gemaakt. 
@@ -62,7 +65,7 @@ Prognosemodellen kunnen gebruikmaken van prognosereductie als controlemechanisme
 
 U kunt projectprognoses herzien, kopiëren, verwijderen of overdragen naar een grootboekbudget. Er is echter geen procescontrole. Elke werknemer met een machtiging voor een prognoseformulier kan zonder controle wijzigingen aanbrengen.
 
--   ** Herzien **: U kunt een prognosetransactie in hetzelfde formulier waarin de oorspronkelijke boekingen werden ingevoerd herzien.
+-   **Herzien: ** u kunt een prognosetransactie aanpassen op hetzelfde formulier waarin de oorspronkelijke boekingen werden ingevoerd.
 -   **Kopiëren of verwijderen**: wanneer u prognosetransacties kopieert, kopieert u de transactieregels van het ene prognosemodel naar een ander prognosemodel. Wanneer u een prognose verwijdert, verwijdert u de prognosetransacties uit een prognosemodel. Als u wilt beperken hoeveel prognosetransacties worden gekopieerd of verwijderd, selecteert u de specifieke transactietypes en -datums. Zo kunt u alleen bepaalde delen van een prognose kopiëren of verwijderen.
 -   **Overboeken**: wanneer u een projectprognose overboekt naar een grootboekbudget, boekt u de prognosetransacties over van een prognosemodel naar een grootboekbudget. U kunt eventuele eerder overgeboekte transacties overschrijven in het grootboekbudget waarnaar u de projectprognose overboekt.
 
@@ -78,6 +81,8 @@ Projectbudgetten worden automatisch geassocieerd met twee prognosemodellen, éé
 ## <a name="forecast-models"></a>Prognosemodellen
 Prognosemodellen hebben een hiërarchie van één laag. Dit betekent dat één projectprognose aan één prognosemodel moet worden gekoppeld.
 
-Als u projectprognose gebruikt, kunt u modellen als submodellen identificeren. Vervolgens maakt u prognoses per afdeling, periode of de regio. Een prognosemodel kan bijvoorbeeld voor een jaar worden gemaakt, en vervolgens kunnen er submodellen worden gemaakt voor de noordoostelijke, zuidoostelijke, noordwestelijke en zuidwestelijke regioprognoses die door regiohoofden worden ingediend. Verschillende opties in de beschikbare rapporten selecteert, kunt u informatie bekijken per totale prognose of per submodel.
+Als u projectprognose gebruikt, kunt u modellen als submodellen aanwijzen. Zo kunt u prognoses per afdeling, tijd of regio maken. Een prognosemodel kan bijvoorbeeld voor een jaar worden gemaakt, en vervolgens kunnen er submodellen worden gemaakt voor de noordoostelijke, zuidoostelijke, noordwestelijke en zuidwestelijke regioprognoses die door regiohoofden worden ingediend. Door verschillende opties te selecteren in de beschikbare rapporten, kunt u informatie bekijken per totale prognose of per submodel.
+
+
 
 

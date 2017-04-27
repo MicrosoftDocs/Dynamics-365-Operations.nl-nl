@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-payable"></a>Leveranciers configureren
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden de pagina's beschreven die u gebruikt voor het instellen van algemene en optionele functionaliteit voor Leveranciers in Microsoft Dynamics AX. Daarnaast worden de stappen beschreven die u moet uitvoeren voordat u Leveranciers kunt instellen.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Vereisten voor het configureren van Leveranciers
@@ -40,7 +43,7 @@ Voordat u Leveranciers kunt configureren, moet u de volgende instellingen uitvoe
     -   Als u van plan bent wisselkoerscorrecties uit te voeren, moet valutacodes configureren op de pagina Valuta, wisselkoerstypen configureren op de pagina Wisselkoerstypen en de wisselkoersen voor de valuta configureren op de pagina Valutawisselkoersen.
 -   Stel in Contant- en bankbeheer de bankrekeningen in die u wilt gebruiken in combinatie met bepaalde betalingswijzen.
 
-## <a name="setup-pages-for-accounts-payable"></a>Pagina's voor leveranciers instellen
+## <a name="setup-pages-for-accounts-payable"></a>Configuratiepagina's voor Leveranciers
 
 Gebruik de volgende pagina's om de basisfunctionaliteit van Leveranciers in te stellen voor elke rechtspersoon. De pagina's worden weergegeven in de aanbevolen volgorde van configuratie. Voor een eenvoudiger configuratieproces kunt u sjablonen maken op basis van de eerste records die u maakt. In een sjabloon worden meestal waarden ingevuld in veel velden, die de functies vertegenwoordigen die de organisatie wil implementeren voor een bepaald type leverancier.
 1.  Definieer op de pagina Betalingsvoorwaarden de betalingsvoorwaarden die u toewijst aan verkooporders, inkooporders, klanten en leveranciers, en die de vervaldatums van facturen bepalen.
@@ -51,15 +54,15 @@ Gebruik de volgende pagina's om de basisfunctionaliteit van Leveranciers in te s
 6.  Definieer op de pagina Formulierinstelling de indeling van verschillende documenten die gerelateerd zijn aan leveranciers en die de organisatie gebruikt om ontvangsten van leveranciers bij te houden en redenen in te voeren voor de betalingsstroom naar leveranciers.
 7.  Maak en beheer op de pagina Leveranciers leverancierrekeningen, waaronder de btw-dienst waarbij uw organisatie btw-aangifte doet
 
-## <a name="optional-setup-pages-for-accounts-payable"></a>Optionele instellingen pagina's voor leveranciers
+## <a name="optional-setup-pages-for-accounts-payable"></a>Optionele instellingspagina´s voor Leveranciers
 Naast de basisfunctionaliteit heeft Leveranciers nog andere functionaliteit die u kunt configureren.
 
 De aanvullende configuratiepagina's zijn geordend op functionaliteit.
 
-**Policies**
+**Beleid**
 -   Configureer op de pagina Leveranciersfactuurbeleid de beleidsregels voor leveranciersfacturen.
 
-**Invoice matching**
+**Factuurvereffening**
 
 -   Configureer op de pagina Toleranties voor factuurtotalen de toleranties voor factuurtotalen.
 -   Configureer op de pagina Overeenstemmingbeleid het beleid voor tweewegs- of driewegsovereenstemming.
@@ -72,35 +75,35 @@ De aanvullende configuratiepagina's zijn geordend op functionaliteit.
 
 -   Configureer op de pagina Leveranciersworkflows de workflows voor journaalgoedkeuringen en inkoopopdrachten.
 
-**Reasons**
+**Redenen**
 
 -   Configureer op de pagina Leveranciersredenen de redencodes.
 
-**Charges**
+**Toeslagen**
 
 -   Configureer op de pagina Toeslagcode de codes voor de toeslagen die in inkooporders worden gebruikt.
--   Op de pagina groep van leverancier toeslagen maken en beheren van toeslagengroepen voor leveranciers.
+-   Maak en beheer op de pagina Toeslaggroep van leverancier de toeslagengroepen voor leveranciers.
 -   Maak en beheer op de pagina Toeslaggroepen van artikel de toeslagengroepen voor artikelen.
 -   Definieer op de pagina  Automatische toeslagen de toeslagen die automatisch aan orders worden toegewezen.
 
-**Supplementary items**
+**Bijkomende artikelen**
 
 -   Maak en beheer op de pagina Bijkomende artikelengroepen - Leverancier de bijkomende artikelengroepen voor leveranciers.
 -   Maak en beheer op de pagina Bijkomende artikelengroepen - Voorraad de bijkomende artikelengroepen voor artikelen.
 
-**Distribution**
+**Verdeling**
 
 -   Maak en beheer op de pagina Leveringsvoorwaarden de voorwaarden voor overdracht van artikelen van de verkoper aan de koper.
 -   Maak en beheer op de pagina Leveringsmethoden de transportwijzen die worden gebruikt om artikelen te verzenden van de verkoper naar de koper.
 -   Maak en beheer op de pagina Bestemmingscodes de ID's en beschrijvingen van bestemmingen voor levering.
 
-**Forms**
+**Formulieren**
 
 -   Maak op de pagina Formuliernotities de standaardtekst die op verschillende pagina's wordt weergegeven.
 -   Configureer op de pagina Sorteerparameters voor formulier de sorteervolgorde voor bestelopdrachten, ontvangstlijsten, pakbonnen en facturen.
 -   Configureer op de pagina Instelling afdrukbeheer de afdrukbeheerinformatie voor originelen en kopieën van pagina's.
 
-**Payments**
+**Betalingen**
 
 -   Configureer en beheer op de pagina Contantkortingen de voorwaarden voor het verkrijgen van contantkortingen. De contantkortingscodes worden gekoppeld aan leveranciers en toegepast op inkooporders.
 -   Configureer op de pagina Betalingsschema's de betalingsschema's die worden gebruikt om betalingen in termijnen door leveranciers te beheren.
@@ -108,17 +111,17 @@ De aanvullende configuratiepagina's zijn geordend op functionaliteit.
 -   Maak en beheer op de pagina Betalingskosten de betalingskosten die zijn gekoppeld aan leveranciers.
 -   Maak en beheer op de pagina Betalingsopdracht de betalingsinstructies.
 
-**Statistics**
+**Statistieken**
 
 -   Configureer op de pagina Ouderdomsperiodedefinities door de gebruiker gedefinieerde intervallen om de verdeling van vervallen posten van leverancierrekeningen te analyseren .
 -   Maak op de pagina Bedrijfstak de bedrijfstakcodes (LOB-codes) die aan leveranciers zijn toegewezen.
 
 **1099-belasting**
 
--   Op de **1099-velden** pagina, controleren en bijwerken van de minimumbedragen die moeten worden gerapporteerd aan de interne Revenue Service (IRS), op basis van de meest recente IRS-vereisten.
+-   Verifieer op de pagina **1099-velden** de minimumbedragen die moeten worden opgegeven aan de Internal Revenue Service (IRS), op basis van de meest recente IRS-vereisten. Werk ze bij wanneer nodig.
 
-## <a name="optional-setup-for-other-modules"></a>**Optionele instellingen voor andere modules**
-**Organization administration**
+## <a name="optional-setup-for-other-modules"></a>**Optionele configuratie voor andere modules**
+**Organisatiebeheer**
 
 -   Configureer op de pagina Nummerreeksen de nummerreeksgroepen voor factuurnummers.
 -   Configureer op de volgende pagina's de adresgegevens:
@@ -126,7 +129,7 @@ De aanvullende configuratiepagina's zijn geordend op functionaliteit.
     -   NAF-codes
     -   Postcodes importeren
 
-**General ledger**
+**Grootboek**
 
 -   Configureer op de pagina Financiële dimensies de financiële dimensies.
 -   Configureer op de volgende pagina's de belastinginformatie:
@@ -139,9 +142,10 @@ De aanvullende configuratiepagina's zijn geordend op functionaliteit.
     -   Btw-dienst
     -   Btw-vereffeningsperioden
 
-**Cash and bank management**
+**Contanten en bankbeheer**
 
 -   Configureer op de pagina Betalingsdoelcodes de betalingsdoelcodes van de centrale bank.
+
 
 
 

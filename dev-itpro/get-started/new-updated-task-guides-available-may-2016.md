@@ -1,6 +1,6 @@
 ---
-title: Nieuwe of bijgewerkte taak handleidingen (mei 2016)
-description: In dit artikel worden de nieuwe of bijgewerkte taak gidsen die zijn uitgebracht voor Microsoft (mei 2016 - alle talen) APQC centrale bibliotheek voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
+title: Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)
+description: In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>Nieuwe of bijgewerkte taak handleidingen (mei 2016)
+# <a name="new-or-updated-task-guides-may-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)
 
-In dit artikel worden de nieuwe of bijgewerkte taak gidsen die zijn uitgebracht voor Microsoft (mei 2016 - alle talen) APQC centrale bibliotheek voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht. 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Taak doorloopt in de (mei 2016 - alle talen) APQC centrale bibliotheek voor Microsoft Dynamics AX
+
+In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht. 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Taakbegeleidingen in de APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
-(Mei 2016) APQC centrale bibliotheek met de taak die instructies die moeten worden gebruikt voor hulp bij Microsoft Dynamics AX kunnen 2016 bijwerken en de Microsoft Dynamics AX februari 2016 vrijgeven. Vertaalde versies van de taak-instructies die zijn uitgebracht in (februari 2016) APQC centrale bibliotheek beschikbaar zijn in deze bibliotheek. Zie voor meer informatie over het aansluiten van het Help-systeem naar een bibliotheek taak handleiding [aan de slag met Help](help-overview.md). **opmerking:** een sterretje (**\***) naast de titel van een proces bedrijfsmodelleur (BPM) regel geeft aan dat de taak-handleiding voor die bedrijfsproces is gemaakt voor Dynamics AX van 2016 update mei en wordt niet ondersteund in eerdere versies van Microsoft Dynamics AX.
+De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij de update voor mei 2016 van Microsoft Dynamics AX en de release van Microsoft Dynamics AX voor februari 2016. Gelokaliseerde versies van de taakbegeleidingen die zijn uitgebracht in de APQC Unified Library (februari 2016) zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md). **Opmerking:** een sterretje (**\***) naast de titel van een BPM-regel (Business Process Modeler) geeft aan dat de taakbegeleiding voor dat bedrijfsproces is gemaakt voor de update van Microsoft Dynamics AX van mei 2016 en niet wordt ondersteund in eerdere versies van Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Land-/regio-functionaliteit
 
@@ -49,7 +52,7 @@ In dit artikel worden de nieuwe of bijgewerkte taak gidsen die zijn uitgebracht 
 | Een versneld afschrijvingsdocument maken en gebruiksgegevens invoeren         | Japan                             |
 | KGE-groepen en kasstroomgenererende eenheden maken                               | Japan                             |
 | Een vast activum afstoten met reductie-invoer                            | Japan                             |
-| MY-00004 Debet- en creditnota´s van leveranciers beheren voor GST                | Singapore, Maleisië en Thailand |
+| MY-00004 Debet- en creditnota's van leveranciers beheren voor GST                | Singapore, Maleisië en Thailand |
 
 ### <a name="data-access"></a>Gegevenstoegang
 
@@ -65,7 +68,7 @@ In dit artikel worden de nieuwe of bijgewerkte taak gidsen die zijn uitgebracht 
 | Een ER-configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling         | Algemeen         |
 | Elektronische ER-documenten genereren voor betalingen met een indelingsconfiguratie | Globaal         |
 | Een ER-configuratie vanuit Lifecycle Services importeren                          | Globaal         |
-| **\***ER Select service provider                                           | Globaal         |
+| **\***ER Serviceprovider selecteren                                           | Globaal         |
 | Uw ER-indeling upgraden door een nieuwe basisversie van die indeling aan te nemen      | Algemeen         |
 | Een ER-configuratie naar Lifecycle Services uploaden                          | Algemeen         |
 
@@ -126,7 +129,7 @@ In dit artikel worden de nieuwe of bijgewerkte taak gidsen die zijn uitgebracht 
 | BPM-regel                                                 | Land/regio |
 |----------------------------------------------------------|----------------|
 | Een nieuw product maken                                     | Globaal         |
-| Maken... \financial-dimensions\dimension-based-configuraties                    | Globaal         |
+| Op ..\financial-dimensions\dimensies gebaseerd configuratie maken                    | Globaal         |
 | Vooraf gedefinieerde productvarianten maken                       | Algemeen         |
 | Selectiecriteria voor verkoopprijs maken                    | Algemeen         |
 | Orders voor configureerbare producten invoeren                   | Algemeen         |
@@ -176,22 +179,24 @@ In dit artikel worden de nieuwe of bijgewerkte taak gidsen die zijn uitgebracht 
 | BPM-regel                                                            | Land/regio |
 |---------------------------------------------------------------------|----------------|
 | Waveverwerking configureren                                           | Globaal         |
-| **\***Gereedmelding op een gecontroleerde locatie niet nummerplaat | Algemeen         |
+| **\***Gereedmelden bij een locatie die niet door nummerplaten wordt gecontroleerd | Algemeen         |
 | Een min./max. aanvullingsproces instellen                              | Algemeen         |
 | Containervorming instellen                                             | Algemeen         |
 | Handmatige verpakking instellen                                               | Globaal         |
 | Transportbeperkingen voor een artikel instellen                       | Globaal         |
-| **\***Set up warehouse work policies                                | Globaal         |
+| **\***Werkbeleid voor magazijn instellen                                | Globaal         |
 
 
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Nieuwe taak doorloopt (februari 2016)](new-task-guides-available-february-2016.md)
+[Nieuwe taakbegeleiders (februari 2016)](new-task-guides-available-february-2016.md)
 
-[Nieuwe of bijgewerkte taak doorloopt (augustus 2016)](new-updated-task-guides-available-august-2016.md)
+[Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nieuwe of bijgewerkte taak doorloopt (November 2016)](new-task-guides-november-2016.md)
+[Nieuwe of bijgewerkte taakbegeleiders (november 2016)](new-task-guides-november-2016.md)
+
+
 
 

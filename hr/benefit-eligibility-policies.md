@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Beleid voor geschiktheid vergoedingen
 
-In dit onderwerp geeft informatie over de vergoeding in aanmerking komen beleid, welke hulp u definiëren die in aanmerking voor specifieke voordelen komt.
+[!include[banner](includes/banner.md)]
+
+
+Dit onderwerp bevat informatie over het beleid voor geschiktheid voor vergoedingen, waarmee u kunt bepalen wie voor specifieke vergoedingen in aanmerking komt.
 
 Als u vergoedingen maakt, bepaalt u welke vergoedingen beschikbaar zijn voor welke werknemers. In de volgende tabel worden voorbeelden weergegeven van vergoedingen die u voor specifieke werknemers beschikbaar kunt maken.
 
@@ -38,7 +41,7 @@ Als u vergoedingen maakt, bepaalt u welke vergoedingen beschikbaar zijn voor wel
 | Mobiele telefoon     | Verkooppersoneel, leidinggevenden         |
 | Parkeervergunningen   | Stafleden                      |
 
-De volgende onderdelen in worden gebruikt om in aanmerking komen beleidsregels te maken:
+De volgende onderdelen worden gebruikt om geschiktheidsbeleid te maken:
 
 -   Beleidsregeltypen
 -   Beleid voor geschiktheid vergoedingen
@@ -51,5 +54,7 @@ U definieert het bereik van de regel binnen het beleid. Als u bijvoorbeeld een t
 --------
 
 [Een vergoedingsprogramma definiëren en beheren](manage-benefit-program.md)
+
+
 
 

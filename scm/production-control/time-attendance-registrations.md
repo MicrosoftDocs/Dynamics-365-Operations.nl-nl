@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Tijd- en aanwezigheidsregistratie
 
+[!include[banner](../includes/banner.md)]
+
+
 Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit artikel beschrijft registraties, hun berekening, goedkeuring, en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen. 
 
 <a name="registrations"></a>Registraties
@@ -62,7 +65,7 @@ Na instelling kunnen werknemers verschillende typen registraties invoeren.
 -   Indirecte activiteiten, wat niet-productieve activiteiten van een werknemer tijdens een werkdag zijn. Voorbeelden van deze activiteiten zijn bijeenkomsten of de reiniging van de werkruimte.
 -   Overtijd, wat kan worden geregistreerd als extra uren, flextijd of overwerk.
 
-## <a name="adding-clockout-registrations"></a>Clockout registraties toevoegen
+## <a name="adding-clockout-registrations"></a>Uitklokregistraties toevoegen
 Als werknemers aan het einde van hun werkdag vergeten uit te klokken, kan de ontbrekende registratie worden toegevoegd met een batchtaak. Het systeem vergelijkt de inkloktijd en de uitkloktijd volgens het gekoppelde profiel van de werknemer, en voegt automatisch de ontbrekende uitklokregistratie in die past bij de eindtijd van het profiel. Zowel in- als uitklokregistraties zijn essentieel voor de berekening en goedkeuring van tijdregistraties voordat ze naar salaris kunnen worden overgeboekt.
 
 ## <a name="calculating-registrations"></a>Geregistreerde gegevens berekenen
@@ -113,6 +116,8 @@ Werknemers met taken waarvoor directe feedback niet vereist is, zoals het geval 
 -   Tijdverbruik
 -   Bijzondere projectkosten
 -   Projectartikelen
+
+
 
 
 

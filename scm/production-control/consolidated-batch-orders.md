@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Geconsolideerde batchorders
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt het concept van geconsolideerde batchorders beschreven.
 
 Een bulkartikel dat is geproduceerd wordt beschouwd als een bovenliggend artikel, terwijl een verpakt artikel wordt beschouwd als een onderliggend artikel. De relatie tussen het bulkartikel en het verpakte artikel wordt uitgedrukt in een bulkartikelconversie. Deze bulkartikelconversie is gedefinieerd op het bulkartikel zelf.  
@@ -41,6 +44,8 @@ Een geconsolideerde batchorder kan elke combinatie van de volgende orders bevatt
 -   Meerdere bulkorders en meerdere verpakte orders
 -   Meerdere bulkorder en één verpakte order
 -   Alleen verpakte orders
+
+
 
 
 

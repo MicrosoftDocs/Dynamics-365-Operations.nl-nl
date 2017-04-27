@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-allocation-rules"></a>Grootboektoewijzingsregels
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over grootboektoewijzingsregels. Het beschrijft de verschillende onderdelen van deze toewijzingsregels en toewijzingsmethoden die hiervoor kunnen worden gebruikt.
 
 Grootboektoewijzingsregels worden gebruikt om toewijzingsjournalen en journaalregels automatisch te berekenen en te genereren voor de toewijzing van grootboeksaldi of vaste bedragen. Toewijzingsmethoden kunnen variabel of vast zijn. De volgende toewijzingsmethoden kunnen voor grootboektoewijzingsregels worden gebruikt:
@@ -42,10 +45,12 @@ Als Basis als toewijzingsmethode voor een toewijzingsregel wordt gebruikt, moet 
 Elke toewijzingsregel bestaat uit vier onderdelen: algemeen, bron, doel en tegenrekening. Een extra onderdeel, de basisregels voor grootboektoewijzing, is vereist als Basis als toewijzingsmethode wordt gebruikt. Al deze onderdelen bevatten essentiële informatie die nodig is om toewijzingen te verwerken.
 
 -   **Algemeen** – In dit onderdeel geeft de gebruiker onder andere opties op voor de toewijzingsmethode, intercompany-regelinstellingen en of de regel actief is.
--   **Bron** - In dit onderdeel geeft de gebruiker de brongegevens voor de toewijzing op. Toewijzing kan worden gebaseerd op grootboeksaldi (**gegevensbron** = **grootboek**) of vaste bedragen (**gegevensbron** = **vaste waarde**). Wanneer **Gegevensbron** is ingesteld op **Grootboek**, moeten bronfiltercriteria zijn gedefinieerd voor de grootboektoewijzingsregel (bijvoorbeeld voor de reclameonkosten).
+-   **Bron** - In dit onderdeel geeft de gebruiker de brongegevens voor de toewijzing op. Toewijzing kan zijn gebaseerd op grootboeksaldi (**Gegevensbron** = **Grootboek**) of vaste bedragen (**Gegevensbron** = **Vaste waarde**). Wanneer **Gegevensbron** is ingesteld op **Grootboek**, moeten bronfiltercriteria zijn gedefinieerd voor de grootboektoewijzingsregel (bijvoorbeeld voor de reclameonkosten).
 -   **Doel** – Via dit onderdeel bepaalt u hoe het resultaat van de toewijzingsberekening moet worden verdeeld en verantwoord. Er kan bijvoorbeeld één doelregel voor elke afdeling zijn.
 -   **Tegenrekenen** - Deze component bepaalt hoe hoofdrekeningen en dimensies moeten worden bepaald voor de tegenrekeningsitems die de doelitems in overeenstemming brengen. Door de gebruiker gedefinieerde opties worden meestal gebruikt in plaats van rekeningen en dimensies die zijn gebaseerd op de bron. Wanneer **Gegevensbron** is ingesteld op **Vaste waarde**, kan **Bron** niet als optie worden gebruikt.
 -   **Basisregels voor grootboektoewijzing** - Deze regels gebruiken hun eigen bronfiltercriteria om te bepalen welke grootboeksaldi voor toewijzing (bijvoorbeeld de opbrengsten per afdeling) moeten worden gebruikt. Elke toewijzingsbasisregel kan met meerdere toewijzingsregels worden gebruikt.
+
+
 
 
 

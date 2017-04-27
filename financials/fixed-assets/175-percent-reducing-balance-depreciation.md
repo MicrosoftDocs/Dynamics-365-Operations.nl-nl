@@ -54,9 +54,9 @@ Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties
 
 ### <a name="fiscal"></a>Fiscaal
 
-Als u **Boekjaar** selecteert in het veld **Afschrijvingsjaar**, wordt de 175% degressieve afschrijving van de levensduur berekend op basis van het boekjaar voor de fiscale kalender die is opgegeven voor het boek of op basis van de pagina **Grootboek**. Fiscale kalenders kunt u instellen op de pagina **Fiscale kalenders**. Zie voor meer informatie [fiscale kalenders, boekjaren en perioden.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+Als u **Boekjaar** selecteert in het veld **Afschrijvingsjaar**, wordt de 175% degressieve afschrijving van de levensduur berekend op basis van het boekjaar voor de fiscale kalender die is opgegeven voor het boek of op basis van de pagina **Grootboek**. Fiscale kalenders kunt u instellen op de pagina **Fiscale kalenders**. Zie [Fiscale kalenders, boekjaren en boekperioden](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md) voor meer informatie.
 
-Bijvoorbeeld het boekjaar van 1 juli tot en met 30 juni, wordt de afschrijving vanaf 1 juli. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt automatisch voor elke periode aangepast, en de lengte van het volgend boekjaar wordt gehaald uit de instellingen van perioden op de pagina **Fiscale kalenders**. 
+Voor bijvoorbeeld het boekjaar van 1 juli t/m 30 juni wordt de afschrijving vanaf 1 juli berekend. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt automatisch voor elke periode aangepast, en de lengte van het volgend boekjaar wordt gehaald uit de instellingen van perioden op de pagina **Fiscale kalenders**. 
 
 Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 
@@ -81,6 +81,6 @@ Bij de methode 175% degressieve afschrijvingsmethode wordt 175 procent door het 
 | Jaar 3 | 4225 × 35% = 1478,75                        | 5225 – 1478,75 = 3746,25 | 4225 – 1478,75 = 2746,25           |
 
 > [!NOTE] 
-> Normaal gesproken waarop het bedrag dat wordt berekend met behulp van de 175% degressieve afschrijvingsmethode wordt kleiner is dan het bedrag dat zou worden berekend met behulp van de lineaire methode, wordt er een conversie naar de lineaire methode voor de resterende levensduur.
+> Wanneer het bedrag dat wordt berekend met de methode voor 175% degressieve afschrijving lager is dan het bedrag dat wordt berekend door de lineaire methode te gebruiken, vindt er doorgaans een conversie naar de lineaire methode plaats voor de resterende levensduur.
 
 

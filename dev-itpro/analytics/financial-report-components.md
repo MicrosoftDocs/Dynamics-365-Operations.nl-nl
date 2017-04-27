@@ -101,7 +101,7 @@ U kunt een bestaande bouwsteengroep opslaan onder een nieuwe naam. U kunt vervol
 
 ### <a name="export-a-building-block-group"></a>Een bouwsteengroep exporteren
 
-U kunt een groep bouwsteen of bepaalde bouwstenen in een groep bouwsteen exporteren. Als een back-up kunt u de geëxporteerde bouwsteengroep. U kunt ook de geëxporteerde gegevens tussen bouwsteengroepen of Dynamics 365 voor bewerkingen installaties kopiëren. Rapportontwerper bevat de gebruikte tekenstijlen en dimensiegroepen samen met de bouwsteengroep.
+U kunt een groep bouwstenen of bepaalde rapportbouwstenen in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt ook de geëxporteerde gegevens tussen bouwsteengroepen of Dynamics 365 for Operations-installaties kopiëren. Rapportontwerper bevat de lettertypen en de dimensiesets waarnaar wordt verwezen, samen met de bouwsteengroep.
 1.  Klik in Report Designer in het menu **Bedrijf** op **Bouwsteengroepen**.
 2.  Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteengroep die u wilt exporteren en klik dan op **Exporteren**.
 3.  Selecteer in het dialoogvenster **Exporteren** de te exporteren rapportdefinities:

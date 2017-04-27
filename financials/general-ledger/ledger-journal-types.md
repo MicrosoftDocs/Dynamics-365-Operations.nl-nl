@@ -1,6 +1,6 @@
 ---
 title: Grootboekjournaaltypen
-description: "Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Met de namen van de pagina kunt u journalen kunt u overal in Microsoft Dynamics 365 voor bewerkingen instellen."
+description: "Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina Journaalnamen voor het instellen van journalen die u in heel Microsoft Dynamics 365 for Operations kunt gebruiken."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>Grootboekjournaaltypen
 
-Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Met de namen van de pagina kunt u journalen kunt u overal in Microsoft Dynamics 365 voor bewerkingen instellen.
+[!include[banner](../includes/banner.md)]
+
+
+Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina Journaalnamen voor het instellen van journalen die u in heel Microsoft Dynamics 365 for Operations kunt gebruiken.
 
 | Type journaal                      | Doel                                                                                                                                                                                                                                                                                                                                                     | Transacties invoeren op deze pagina                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -55,11 +58,13 @@ Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële jo
 | Bankremise van leverancier            | Een remisebestand voor een promesse maken dat kan worden verzonden naar de bank van uw organisatie.                                                                                                                                                                                                                                                                      | Remisejournaal                                             |
 | Voorschot van leverancier               | Leveranciervoorschottransacties maken.                                                                                                                                                                                                                                                                                                                    | Betalingsjournaal                                                |
 | Door leverancier getrokken promesse       | Promessen van leveranciers trekken als een betalingsmethode. Om dit journaaltype te gebruiken, schakelt u de optie **Getrokken journaal automatisch maken en boeken tijdens boeken van facturen** op de pagina **Betalingsmethoden - leveranciers**.                                                                                                                                          | Journaal met getrokken promessen                                   |
-| Leverancier Facturenpool excl. boeken | Leveranciersfactuurtransacties maken die nog niet zijn geboekt naar een tijdelijke ontvangstrekening.                                                                                                                                                                                                                                                             | Leveranciersfactuurpool met uitzondering van boekingsdetails                  |
+| Pool van leveranciersfacturen exclusief boeken | Leveranciersfactuurtransacties maken die nog niet zijn geboekt naar een tijdelijke ontvangstrekening.                                                                                                                                                                                                                                                             | Leveranciersfactuurpool met uitzondering van boekingsdetails                  |
 | Pool van leveranciersfacturen               | Transacties voor pool van leveranciersfacturen maken.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Registratie van leveranciersfactuur          | Leveranciersfacturen in een journaal boeken.                                                                                                                                                                                                                                                                                                                 | Factuurjournaal                                                |
 | Door leverancier hertrokken promesse     | Een promesse te hertrekken die eerder is gehonoreerd door de bank van uw organisatie.                                                                                                                                                                                                                                                                      | Journaal met hertrokken promessen                                 |
 | Door leverancier afgerekende promesse     | Transacties voor door leverancier afgerekende promessen maken.                                                                                                                                                                                                                                                                                                          | Journaal met afgerekende promessen                                 |
+
+
 
 
 

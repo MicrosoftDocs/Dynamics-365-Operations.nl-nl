@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>Btw-betalingen en afrondingsregels
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.
 
-Periodiek moet btw worden aangegeven en betaald aan de belastingdienst. Dit kunt doen met het vereffenen en boeken van btw-proces in de btw-pagina. Btw voor een periode worden vereffend met de btw-rekeningen en het saldo van de btw wordt geboekt naar de btw-vereffeningsrekening. Het btw-saldo, dat op de rekening Btw-vereffening wordt geboekt, kan worden afgerond zoals vereist wordt door de belastingdienst door een afrondingregel in te stellen op de pagina Btw. 
+Periodiek moet btw worden aangegeven en betaald aan de belastingdienst. Dit kan worden uitgevoerd door het proces Btw vereffenen en boeken op de pagina Btw. Btw voor een periode wordt vereffend voor de btw-rekeningen en het btw-saldo wordt naar de rekening Btw-vereffening geboekt. Het btw-saldo, dat op de rekening Btw-vereffening wordt geboekt, kan worden afgerond zoals vereist wordt door de belastingdienst door een afrondingregel in te stellen op de pagina Btw. 
 
 Het afrondingsverschil wordt geboekt naar de rekening Btw-afronding die is geselecteerd in het veld Rekeningen voor automatische transacties in het Grootboek.
 
@@ -42,10 +45,10 @@ De totale btw voor een periode toont een creditsaldo van -98.765,43. De rechtspe
 
 De rechtspersoon wil een afrondingsmethode gebruiken waarmee het saldo wordt afgerond naar de dichtstbijzijnde 1,00. De gebruiker die verantwoordelijk is voor de btw-boekhouding voert de volgende stappen uit.
 
-1.  Klik op btw &gt;indirecte belastingen &gt;btw &gt;btw-dienst
+1.  Klik op Btw &gt; Indirecte belastingen &gt; Btw &gt; Btw-diensten
 2.  Selecteer op het sneltabblad Algemeen in het veld Afrondingstype de optie Normaal.
 3.  Typ 1,00 in het veld Afronden.
-4.  Wanneer het tijd is om de btw te betalen aan de belastingdienst, opent u de pagina Btw vereffenen en boeken. (Klik op btw &gt;aangiften &gt;btw &gt;vereffenen en boeken van btw.)
+4.  Wanneer het tijd is om de btw te betalen aan de belastingdienst, opent u de pagina Btw vereffenen en boeken. (Klik op Btw &gt; Aangiften &gt; Btw &gt; Btw vereffenen en boeken.)
 5.  Op de btw-vereffeningsrekening is het bedrag van uw btw-belastingschuld van 98.765,43 afgerond naar 98.765.
 
 In de volgende tabel ziet u hoe een bedrag van 98.765,43 wordt afgerond met behulp van elke afrondingsmethode die beschikbaar is in het veld Afrondingstype op de pagina Btw-dienst.
@@ -61,6 +64,8 @@ In de volgende tabel ziet u hoe een bedrag van 98.765,43 wordt afgerond met behu
 > [!NOTE]                                                                                  
 > Als u Eigen voordeel selecteert, is de afronding altijd in het voordeel van de rechtspersoon. 
 
-Zie voor meer informatie [btw-overzicht](indirect-taxes-overview.md). 
+Zie [Btw-overzicht](indirect-taxes-overview.md) voor meer informatie. 
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Samenwerken met leveranciers via het portal voor leveranciers
-description: In dit onderwerp wordt uitgelegd hoe inkoopmedewerkers de leveranciersportal kunnen gebruiken om tijdens het inkooporderbevestigingsproces samen te werken met externe leveranciers. Deze informatie geldt alleen voor de februari 2016 &amp;mei 2016 versies van Dynamics AX.
+title: Samenwerken met leveranciers met behulp van de leveranciersportal
+description: In dit onderwerp wordt uitgelegd hoe inkoopmedewerkers de leveranciersportal kunnen gebruiken om tijdens het inkooporderbevestigingsproces samen te werken met externe leveranciers. Deze informatie geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samenwerken met leveranciers via het portal voor leveranciers
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samenwerken met leveranciers met behulp van de leveranciersportal
 
-In dit onderwerp wordt uitgelegd hoe inkoopmedewerkers de leveranciersportal kunnen gebruiken om tijdens het inkooporderbevestigingsproces samen te werken met externe leveranciers. Deze informatie geldt alleen voor de februari 2016 &amp;mei 2016 versies van Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-De informatie in dit onderwerp geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX. De leverancier portal-functionaliteit is vervangen door uitgebreide samenwerking met goedgekeurde leveranciers in Dynamics 365 voor bewerkingen versie 1611. Zie voor meer informatie over de functionaliteit voor samenwerking van nieuwe leverancier [gebruik van leverancier samenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).  
+
+In dit onderwerp wordt uitgelegd hoe inkoopmedewerkers de leveranciersportal kunnen gebruiken om tijdens het inkooporderbevestigingsproces samen te werken met externe leveranciers. Deze informatie geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX.
+
+De informatie in dit onderwerp geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX. De functionaliteit Leveranciersportal is vervangen door de verbeterde functionaliteit voor leverancierssamenwerking in Dynamics 365 for Operations versie 1611. Meer informatie over de nieuwe functionaliteit voor leverancierssamenwerking vindt u in [Leverancierssamenwerking gebruiken voor het werken met externe leveranciers](vendor-collaboration-work-external-vendors.md).  
 
 De leveranciersportal is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics AX hebben voor het uitwisselen van inkoopordergegevens. Met de portal kunnen inkoopmedewerkers een IO (inkooporder) sturen naar de leverancier en vervolgens direct een antwoord met de status Bevestigd of Afgewezen in Dynamics AX ontvangen.  
 
@@ -66,9 +69,9 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 | U verzendt de nieuwe versie van de inkooporder naar de leveranciersportal. | Er wordt een nieuwe versie geregistreerd in de leveranciersportal en de status wordt gewijzigd in **Externe controle**. |
 | De leverancier keurt de nieuwe versie van de inkooporder goed           | De status wordt gewijzigd in **Bevestigd**.                                                                |
 
-De versies van de inkooporder die zijn verzonden naar de leverancier en antwoorden van de leverancier klikt u op **journalen**&gt;**bevestiging aanvragen** van de inkooporder.  
+Als u de naar de leverancier verzonden versies van de inkooporder en de antwoorden van de leverancier wilt bekijken, klikt u op **Journalen** &gt; **Bevestigingsaanvragen** van de inkooporder.  
 
-Orders die voor een antwoord naar de leverancier zijn verzonden en de status **Externe controle** hebben, worden weergegeven in de lijst **Inkooporders die naar de leveranciersportal zijn verzonden, in afwachting van antwoord ** of in de lijst **Inkooporders die naar de leveranciersportal zijn verzonden, antwoord vereist actie**. Wanneer u een order wijzigt die naar de leverancier is verzonden, zodat de status weer wordt gewijzigd in **Goedgekeurd**, wordt deze niet meer in deze lijsten weergegeven. Om te zien of er eerder een antwoord op de volgorde van de leverancier is, klikt u op **journalen**&gt;**bevestiging aanvragen**.  
+Orders die voor een antwoord naar de leverancier zijn verzonden en de status **Externe controle** hebben, worden weergegeven in de lijst **Inkooporders die naar de leveranciersportal zijn verzonden, in afwachting van antwoord ** of in de lijst **Inkooporders die naar de leveranciersportal zijn verzonden, antwoord vereist actie**. Wanneer u een order wijzigt die naar de leverancier is verzonden, zodat de status weer wordt gewijzigd in **Goedgekeurd**, wordt deze niet meer in deze lijsten weergegeven. Als u wilt zien of de leverancier eerder op de order heeft gereageerd, klikt u op **Journalen** &gt; **Bevestigingsaanvragen**.  
 
 Leveranciers hoeven de inkooporder niet in de leveranciersportal te bevestigen. Ze kunnen ook een e-mailbericht verzenden of hun acceptatie van een inkooporder via andere kanalen laten weten. U kunt de order vervolgens handmatig in Dynamics AX bevestigen. In dit geval ontvangt u een waarschuwing dat de order wordt bevestigd zelfs als er geen antwoord van de leverancier is. De inkooporder wordt vervolgens in de bevestigingshistorie in de leveranciersportal weergegeven als een openstaande bevestigde order die geen antwoorden heeft. Daarnaast heeft de leverancier niet meer de mogelijkheid om de inkooporder te bevestigen of af te wijzen.  
 
@@ -97,5 +100,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 [Configuratie van de beveiliging voor gebruikers van de leveranciersportal](configure-security-vendor-portal-users.md)
 
 [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+
+
 
 

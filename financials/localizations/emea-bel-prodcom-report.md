@@ -1,6 +1,6 @@
 ---
-title: Instellen en beheren van PRODCOM
-description: In dit onderwerp wordt uitgelegd hoe u moet instellen en beheren van PRODCOM in Microsoft Dynamics 365 voor bewerkingen.
+title: PRODCOM instellen en onderhouden
+description: In dit onderwerp wordt uitgelegd hoe u PRODCOM moet instellen en beheren in Microsoft Dynamics 365 for Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,39 +25,44 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-and-maintain-prodcom"></a>Instellen en beheren van PRODCOM
+# <a name="set-up-and-maintain-prodcom"></a>PRODCOM instellen en onderhouden
 
-In dit onderwerp wordt uitgelegd hoe u moet instellen en beheren van PRODCOM in Microsoft Dynamics 365 voor bewerkingen. 
+[!include[banner](../includes/banner.md)]
 
-Fabrikanten van industriële producten zijn volgens de wet verplicht de hoeveelheden en waarden van de verkochte producten evenals bepaalde werknemersgegevens door te geven aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het jaarlijkse PRODCOM-onderzoek. De meeste producenten dienen maandelijks een gespecificeerd PRODCOM-rapport bij het NIS in middels een van de zes standaardrapportindelingen. Het NIS bepaalt de indeling, afhankelijk van de aard van de geproduceerde materialen. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België. Dit rapport wordt meestal gebruikt door accounting en boekhouders.
+
+In dit onderwerp wordt uitgelegd hoe u PRODCOM moet instellen en beheren in Microsoft Dynamics 365 for Operations. 
+
+Fabrikanten van industriële producten zijn volgens de wet verplicht de hoeveelheden en waarden van de verkochte producten evenals bepaalde werknemersgegevens door te geven aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het jaarlijkse PRODCOM-onderzoek. De meeste producenten dienen maandelijks een gespecificeerd PRODCOM-rapport bij het NIS in middels een van de zes standaardrapportindelingen. Het NIS bepaalt de rapportindeling, afhankelijk van de aard van de geproduceerde materialen. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België gevestigd zijn. Dit rapport wordt meestal gebruikt door accountants en boekhoudmanagers.
 
 ## <a name="set-up-prodcom-reporting"></a>PRODCOM-rapportage instellen
-Voordat u het PRODCOM-rapport genereren kunt, moet u instellen van het volgende op de **PRODCOM-parameters** pagina.
+Voordat u het PRODCOM-rapport kunt genereren, moet u het volgende instellen op de pagina **PRODCOM-parameters**.
 
-1.  Voer een primaire contact-ID. Dit is de id die wordt afgedrukt onder het gedeelte van de primaire contactgegevens van de PRODCOM-aangifte.
-2.  Voer een extern contactpersoon-ID: dit is de id die wordt afgedrukt onder het gedeelte van de externe contactgegevens van de PRODCOM-aangifte.
+1.  Voer een primaire contactpersoon-id in. Dit is de identificatie die wordt afgedrukt onder het gedeelte met informatie over de primaire contactpersoon van de PRODCOM-aangifte.
+2.  Voer een contactpersoon-id in. Dit is de identificatie die wordt afgedrukt onder het gedeelte met informatie over de externe contactpersoon van de PRODCOM-aangifte.
 3.  Selecteer een bedrijf of magazijn.
-    -   Als de lokale vestiging **bedrijf**, het vestigingsnummer van het bedrijf wordt overgebracht naar de PRODCOM-regels.
-    -   Als de lokale vestiging **magazijn**, het vestigingsnummer van het magazijn waar de verkoop plaatsgevonden heeft wordt overgebracht naar de PRODCOM-regels.
+    -   Als de lokale vestiging **Bedrijf** is, wordt het vestigingsnummer van het bedrijf naar de PRODCOM-regels overgeboekt.
+    -   Als de lokale vestiging **Magazijn** is, wordt het vestigingsnummer van het magazijn waar de verkoop heeft plaatsgevonden, naar de PRODCOM-regels overgeboekt.
     -   Als het magazijn geen vestigingsnummer heeft, wordt het vestigingsnummer van het bedrijf gebruikt.
 
-4.  Geef de voorkeur voor een automatische herberekening.
+4.  Geef de voorkeur op voor een automatische herberekening.
 5.  Nummerreeksen instellen.
-6.  Geef de vertakking-ID voor de rechtspersoon of magazijnen. Zie voor meer informatie over de vertakking-ID van de juridische entiteit verwerking, met inbegrip van de vereiste onderdelen [registratie-id's](emea-registration-ids.md).
+6.  Geef de vestigings-id voor de rechtspersoon of magazijnen op. Zie voor meer informatie over de vestigings-id voor verwerking van rechtspersonen, waaronder de vereisten [Registratie-id's](emea-registration-ids.md).
 
 ## <a name="assign-prodcom-properties-to-an-item"></a>PRODCOM-eigenschappen toewijzen aan een artikel
-PRODCOM-eigenschappen toewijzen aan een artikel (**productgegevensbeheer**&gt;**producten**&gt;**vrijgegeven producten**). Open de **vrijgegeven productdetails** pagina in de **buitenlandse handel** sectie, opent u het dialoogvenster PRODCOM en de volgende gegevens bevatten.
+PRODCOM-eigenschappen toewijzen aan een artikel (**Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten**). Open de pagina **Vrijgegeven productdetails** in de sectie **Buitenlandse handel**, open het dialoogvenster PRODCOM en geef de volgende gegevens op.
 
--   **Eigen product** -Schakel dit selectievakje in als u verplicht hoeveelheden en waarden van producten die zijn geleverd door companies.* **
--   **Levering aan een derde partij** -Schakel dit selectievakje in als u verplicht hoeveelheden en waarden van producten die zijn geleverd door derden.
--   **Werkzaamheden voor****ondernemingen** -Schakel dit selectievakje in als u verplicht hoeveelheden en waarden van producten die zijn geleverd door enterprises.* **
+-   **Eigen product**: schakel dit selectievakje in als u hoeveelheden en waarden van producten moet rapporteren die zijn geleverd door bedrijven.
+-   **Levering aan derden**: schakel dit selectievakje in als u hoeveelheden en waarden van producten wilt rapporteren die zijn geleverd door derden.
+-   **Werk voor** **ondernemingen**: schakel dit selectievakje in als u hoeveelheden en waarden van producten wilt rapporteren die zijn geleverd door ondernemingen.
 
-Nadat u PRODCOM hebt ingesteld, kunt u de **PRODCOM** pagina PRODCOM-perioden en verkoopregels naar het PRODCOM-rapport overboeken.
+Nadat u PRODCOM hebt ingesteld, kunt u de pagina **PRODCOM** gebruiken om PRODCOM-perioden te maken en verkoopregels naar het PRODCOM-rapport over te boeken.
 
 ## <a name="convert-intrastat-to-prodcom"></a>Conversie van Intrastat naar PRODCOM
-Gebruik de **van Intrastat naar PRODCOM-conversie** pagina toewijzen PRODCOM-codes aan Intrastat-basisproductcodes. Deze codes kunnen elk jaar wijzigen. Op de **van Intrastat naar PRODCOM-conversie** pagina, klikt u op **importeren PRODCOM-gegevens** u de gegevens wilt importeren.
+Gebruik de pagina **Conversie van Intrastat naar PRODCOM** om PRODCOM-codes toe te wijzen aan Intrastat-basisproductcodes. Deze codes kunnen elk jaar wijzigen. Klik op de pagina **Conversie van Intrastat naar PRODCOM** op **PRODCOM-gegevens importeren** om de gegevens te importeren.
 
 ## <a name="use-prodcom"></a>PRODCOM gebruiken
-Gebruik de **PRODCOM** pagina PRODCOM-perioden en verkoopregels naar het PRODCOM-rapport overboeken. Nadat u de datums voor de aangifteperiode invoeren en voer vervolgens de sectiecodes, kunt u de verkoopregels overbrengen naar het PRODCOM-rapport. Nadat u de verkoopregels naar het rapport overbrengen, kunt u bekijken en bewerken van de producten op de PRODCOM-lijst en vervolgens kunt u het rapport afdrukken.
+Gebruik de pagina **PRODCOM** om PRODCOM-perioden te maken en verkoopregels naar het PRODCOM-rapport over te boeken. Nadat u de datums voor de aangifteperiode hebt ingevoerd en vervolgens de sectiecodes invoert, kunt u de verkoopregels overboeken naar het PRODCOM-rapport. Nadat u de verkoopregels naar het rapport hebt overgeboekt, kunt u de producten op de PRODCOM-lijst bekijken en bewerken en vervolgens het rapport afdrukken.
+
+
 
 

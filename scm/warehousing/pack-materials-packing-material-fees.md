@@ -1,5 +1,5 @@
 ---
-title: Verpakkingsmaterialen en bijzondere kosten
+title: Verpakkingsmateriaal en kosten
 description: De kosten van het verpakkingsmateriaal worden op regelmatige basis aan een recyclingbedrijf betaald. Een bedrag per gewichtseenheid moet worden betaald voor het materiaal waarvan de verpakking is gemaakt. Deze kosten voor verpakkingsmateriaal worden berekend en gerapporteerd, maar er worden geen grootboektransacties geboekt, omdat de kosten niet als een belastingheffing worden beschouwd die aan de overheid moet worden afgedragen.
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="packing-materials-and-fees"></a>Verpakkingsmaterialen en bijzondere kosten
+# <a name="packing-materials-and-fees"></a>Verpakkingsmateriaal en kosten
+
+[!include[banner](../includes/banner.md)]
+
 
 De kosten van het verpakkingsmateriaal worden op regelmatige basis aan een recyclingbedrijf betaald. Een bedrag per gewichtseenheid moet worden betaald voor het materiaal waarvan de verpakking is gemaakt. Deze kosten voor verpakkingsmateriaal worden berekend en gerapporteerd, maar er worden geen grootboektransacties geboekt, omdat de kosten niet als een belastingheffing worden beschouwd die aan de overheid moet worden afgedragen.
 
@@ -52,7 +55,7 @@ Wanneer u een verkooporderregel maakt, controleert het systeem of er verpakkings
 ## <a name="packing-units-on-purchase-order-lines"></a>Verpakkingseenheden op inkooporderregels
 Verpakkingsmateriaaltransacties voor een inkooporderregel zijn niet door het systeem gemaakt. U kunt handmatig transacties aanmaken voor gefactureerde inkooporderregels op de pagina **Verpakkingsmateriaaltransacties**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Instellen van licentienummers voor klant packagingmaterialfee
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Licentienummers van de klant voor kosten van verpakkingsmateriaal instellen
 Als de klanten de kosten van het verpakkingsmateriaal betalen, geeft u op de pagina **Klanten** de licentienummers van de klanten voor de kosten van het verpakkingsmateriaal op. Wanneer er aan een klant een licentienummer is toegewezen, worden de kosten van het verpakkingsmateriaal automatisch berekend wanneer de verkooporders worden gefactureerd. Daarna wordt het selectievakje **Kosten berekenen** op de pagina **Verpakkingsmateriaaltransacties** uitgeschakeld, omdat u niet meer een rapport hoeft te berekenen en af te drukken. U kunt het gewicht van het verpakkingsmateriaal op de factuur afdrukken en de klanten laten weten dat zij de kosten dragen. 
 
 Als uw bedrijf de kosten voor het verpakkingsmateriaal betaalt, geeft u de licentienummers van de klant niet op. Na facturering wordt het selectievakje **Kosten berekenen** ingeschakeld op de pagina **Verpakkingsmateriaaltransacties**. Hierdoor wordt aangegeven dat de kosten worden berekend wanneer een rapport wordt gemaakt. U kunt het gewicht van het verpakkingsmateriaal op de factuur afdrukken en aangeven dat de kosten door uw bedrijf worden betaald.
@@ -60,6 +63,8 @@ Als uw bedrijf de kosten voor het verpakkingsmateriaal betaalt, geeft u de licen
 ## <a name="print-packaging-material-weights-on-invoices"></a>Gewicht van verpakkingsmateriaal op facturen afdrukken
 U kunt het gewicht van het verpakkingsmateriaal op de factuur afdrukken en aangeven wie de kosten voor het verpakkingsmateriaal moet betalen. De gewichten worden per verpakkingscode samengevat.
  
+
+
 
 
 

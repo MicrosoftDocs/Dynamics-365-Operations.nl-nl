@@ -1,5 +1,5 @@
 ---
-title: Uw personeel met behulp van afdelingen, taken en posities organiseren
+title: Uw werknemers organiseren met afdelingen, taken en posities
 description: Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit onderwerp bevat conceptuele informatie over deze elementen.
 author: rschloma
 manager: AnnBe
@@ -26,19 +26,22 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Uw personeel met behulp van afdelingen, taken en posities organiseren
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
+
+[!include[banner](includes/banner.md)]
+
 
 Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit onderwerp bevat conceptuele informatie over deze elementen. 
 
 Het volgende voorbeeld wordt gebruikt om de concepten te illustreren die in dit onderwerp worden beschreven.
 
-|**Afdeling**|**Position**|**Job**|
+|**Afdeling**|**Positie**|**Functie**|
 |---|---|---|
 |**Verkoop**|Verkoopmanager (Oost)|Verkoopleider|
 |**Verkoop**|Verkoopmanager (West)|Verkoopleider|
 |**Verkoop**|Verkoopmanager (centraal)|Verkoopleider|
-|**Accounting**|Supervisor boekhouding|Accountingmanager|
-|**Accounting**|Accounting-A|Accountant|
+|**Boekhouding**|Supervisor boekhouding|Accountingmanager|
+|**Boekhouding**|Accounting-A|Accountant|
 |**Human resources**|HR manager (Oost)|HR manager|
 |**Human resources**|HR manager (West)|HR manager|
 |**Human resources**|HR manager (centraal)|HR manager|
@@ -101,7 +104,7 @@ Verantwoordelijkheidsgebieden gebruiken om aan te geven voor welke werkrollen, p
 <a name="positions"></a>Posities
 ----------
 
-Posities zijn een belangrijk element van het lagere niveau van een organisatiehiërarchie. Een positie is een afzonderlijk exemplaar van een taak. De positie 'Verkoopmanager (Oost)' is bijvoorbeeld slechts een van de posities die is gekoppeld aan de taak 'Verkoopmanager'. Posities bestaan in een afdeling en aan werknemers zijn toegewezen.
+Posities zijn een belangrijk element van het lagere niveau van een organisatiehiërarchie. Een positie is een afzonderlijk exemplaar van een taak. De positie 'Verkoopmanager (Oost)' is bijvoorbeeld maar een van de posities die is gekoppeld aan de taak 'Verkoopmanager'. Posities komen voor in een afdeling en worden aan werknemers toegewezen.
 ### <a name="position-creation-and-maintenance"></a>Maken en onderhouden van posities
 
 -   U kunt een historie bekijken van wijzigingen in het systeem met betrekking tot de positie in een gemakkelijk toegankelijke lijstpagina.
@@ -161,6 +164,8 @@ Voor sommige records, kunt u toekomstige wijzigingen aan de record opgeven. De v
 </table>
 
 U kunt de gegevens vermeld in de vorige tabel wijzigen voor een functie of een taak en een datum opgeven waarop de wijzigingen in de positie of de taak moeten ingaan. Een positie kan bijvoorbeeld alleen worden toegewezen aan één werknemer, maar Sanjay Patel, die is toegewezen aan de positie Boekhouder A, vertrekt binnen twee weken. Joe Healy vervangt Sanjay Patel wanneer hij vertrekt. Hoewel Sanjay nog steeds aan zijn positie is toegewezen, kunt u Joe Healy zo toewijzen aan dezelfde positie dat de toewijzing slechts ingaat na de laatste dag van Sanjay.
+
+
 
 
 

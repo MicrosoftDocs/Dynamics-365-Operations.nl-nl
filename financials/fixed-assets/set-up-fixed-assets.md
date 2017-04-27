@@ -3,7 +3,7 @@ title: Vaste activa instellen
 description: Dit onderwerp bevat een overzicht van de instellingen van de module Vaste activa.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-fixed-assets"></a>Vaste activa instellen
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit onderwerp bevat een overzicht van de instellingen van de module Vaste activa.
 
 <a name="overview"></a>Overzicht
@@ -43,9 +46,9 @@ Vaste activa worden aan een groep toegewezen wanneer ze worden gemaakt. Standaar
 Stel eerst afschrijvingsprofielen in. In het afschrijvingsprofiel configureert u hoe de waarde van eem activum in de loop der tijd wordt afgeschreven. U moet de methode van afschrijving, het afschrijvingsjaar (kalenderjaar of fiscaal jaar) en de afschrijvingsfrequentie definiëren.
 
 ## <a name="books"></a>Boeken
-Nadat u afschrijvingsprofielen hebt ingesteld, moet u de vereiste boeken voor uw activa maken. Elk boek volgt de onafhankelijke financiële levensduur van een activum. De boeken kunnen worden geconfigureerd om gekoppelde transacties naar het grootboek te boeken. Deze configuratie is de standaardinstelling, omdat dit meestal voor het financiële rapportage gebruikt wordt. Boeken die niet naar het grootboek boeken boeken alleen naar de vaste activa in subadministratie en worden meestal gebruikt voor btw-aangifte.
+Nadat u afschrijvingsprofielen hebt ingesteld, moet u de vereiste boeken voor uw activa maken. Elk boek volgt de onafhankelijke financiële levensduur van een activum. De boeken kunnen worden geconfigureerd om gekoppelde transacties naar het grootboek te boeken. Deze configuratie is de standaardinstelling, omdat deze gewoonlijk wordt gebruikt voor financiële rapportage in ondernemingen. Boeken die niet naar het grootboek boeken, boeken alleen naar de Vaste activa-subadministratie en worden doorgaans gebruikt voor belastingaangifte.
 
-Een primair afschrijvingsprofiel wordt toegewezen aan elk boek. De boeken hebben ook of een alternatief afschrijvingsprofiel, als dit type profiel van toepassing is. Als u het vaste-activaboek automatisch wilt opnemen in afschrijvingsruns, moet u de optie Afschrijving berekenen inschakelen. Als deze optie niet is geselecteerd voor een activum, slaat het afschrijvingsvoorstel de activa.
+Een primair afschrijvingsprofiel wordt toegewezen aan elk boek. De boeken hebben ook of een alternatief afschrijvingsprofiel, als dit type profiel van toepassing is. Als u het vaste-activaboek automatisch wilt opnemen in afschrijvingsruns, moet u de optie Afschrijving berekenen inschakelen. Als deze optie niet voor een activum wordt ingeschakeld, slaat het afschrijvingsvoorstel het activum over.
 
 U kunt ook afgeleide boeken instellen. De opgegeven afgeleide transacties worden geboekt als een exacte kopie van de primaire transactie ten opzichte van de afgeleide boeken. Daarom worden afgeleide transacties gewoonlijk ingesteld voor verwervingen en afstotingen, niet voor afschrijvingstransacties.
 
@@ -62,14 +65,16 @@ U kunt ook speciale afschrijvingsaftrek of bonusafschrijvingen definiëren voor 
 ## <a name="fixed-asset-parameters"></a>Vaste-activaparameters
 De laatste stap is het bijwerken van de vaste-activaparameters.
 
-Het veld Drempel voor kapitalisatie bepaalt de activa die zijn afgeschreven. Als u een inkoopregel is geselecteerd als een vast activum, maar deze niet voldoet aan de kapitalisatiedrempel, vaste activa nog steeds wordt gemaakt of bijgewerkt, maar de optie van de afschrijving berekenen is ingesteld op Nee. Daarom de activa won't worden automatisch afgeschreven als onderdeel van de afschrijvingsvoorstellen.
+Het veld Drempel voor kapitalisatie bepaalt de activa die zijn afgeschreven. Als een inkoopregel wordt geselecteerd als een vast activum, maar niet voldoet aan de opgegeven kapitalisatiedrempel, wordt het vaste activum wel gemaakt of bijgewerkt, maar wordt de optie Afschrijving berekenen ingesteld op Nee. Daarom wordt het activum niet automatisch afgeschreven als onderdeel van de afschrijvingsvoorstellen.
 
 Een belangrijke optie is Automatisch bedragen voor afschrijvingscorrecties met afstoting maken. Als u deze optie op Ja instelt, wordt de afschrijving van het actium automatisch aangepast, gebaseerd op de afschrijvingsinstellingen op het moment van afstoting. Met een andere optie kunt u contantkortingen van uw verwervingsbedrag aftrekken wanneer u vaste activa aankoopt met een leveranciersfactuur.
 
-Op het sneltabblad Inkooporders kunt u configureren hoe activa worden gemaakt als onderdeel van het inkoopproces. De eerste optie is Bijboekingen van activa vanuit Inkoop toestaan. Als u deze optie instelt op Ja, vindt activaverwerving plaats wanneer de factuur wordt geboekt. Als u deze optie op Nee instelt, kunt u een vast activum nog steeds plaatsen op een inkooporder (IO) en de factuur, maar de verwerving wordt niet geboekt. Het boeken moet als een afzonderlijke stap worden uitgevoerd vanuit het vaste-activajournaal. Het activum maken tijdens een productontvangstbon of factuur boeken optie kunt u een nieuw activum 'onderweg' tijdens het boeken te maken zodat deze niet hoeven te worden ingesteld als een vast activum voordat de transactie. De laatste optie Controleren of er vaste activa zijn gemaakt tijdens regelinvoer is alleen van toepassing op opdrachten tot inkoop.
+Op het sneltabblad Inkooporders kunt u configureren hoe activa worden gemaakt als onderdeel van het inkoopproces. De eerste optie is Bijboekingen van activa vanuit Inkoop toestaan. Als u deze optie instelt op Ja, vindt activaverwerving plaats wanneer de factuur wordt geboekt. Als u deze optie instelt op Nee, kunt u een vast activum nog wel op een inkooporder en factuur opnemen, maar wordt de verwerving niet geboekt. Het boeken moet als een afzonderlijke stap worden uitgevoerd vanuit het vaste-activajournaal. Met de optie Activum maken tijdens boeken van productontvangstbon of factuur kunt u tijdens het boeken een nieuw activum maken, zodat het niet hoeft te zijn ingesteld als vast activum voor de transactie. De laatste optie Controleren of er vaste activa zijn gemaakt tijdens regelinvoer is alleen van toepassing op opdrachten tot inkoop.
 
 U kunt redencodes zo configureren dat ze vereist zijn voor wijzigingen in een vast activum of voor specifieke vaste-activatransacties.
 
 Tot slot definieert u op het tabblad Nummerreeksen nummerreeksen voor Vaste activa. Nummerreeks van vaste activa kan door Nummerreeks van vaste-activagroep worden genegeerd als deze is opgegeven.
+
+
 
 

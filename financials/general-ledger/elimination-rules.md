@@ -1,6 +1,6 @@
 ---
 title: Schrappingsregels
-description: Dit onderwerp biedt informatie over schrappingregels en de verschillende opties voor rapportage over schrappingen.
+description: Dit onderwerp bevat informatie over schrappingsregels en de verschillende opties voor het rapporteren van schrappingen.
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="elimination-rules"></a>Schrappingsregels
 
-Dit onderwerp biedt informatie over schrappingregels en de verschillende opties voor rapportage over schrappingen.
+[!include[banner](../includes/banner.md)]
 
-Schrappingtransacties zijn vereist wanneer de bovenliggende rechtspersoon zaken doet met een of meerdere dochtermaatschappijen en gebruik maakt van geconsolideerde financiële rapportage. Geconsolideerde financiële overzichten moeten alleen transacties bevatten die tussen de geconsolideerde organisatie en andere entiteiten buiten die organisaties plaatsvinden. Daarom moeten transacties tussen rechtspersonen die deel uitmaken van dezelfde organisatie worden verwijderd of geëlimineerd, uit het grootboek, zodat deze niet worden weergegeven in financiële rapporten. Er zijn meerdere manieren om over schrappingen te rapporteren:
+
+Dit onderwerp bevat informatie over schrappingsregels en de verschillende opties voor het rapporteren van schrappingen.
+
+Schrappingtransacties zijn vereist wanneer de bovenliggende rechtspersoon zaken doet met een of meerdere dochtermaatschappijen en gebruik maakt van geconsolideerde financiële rapportage. Geconsolideerde financiële overzichten moeten alleen transacties bevatten die tussen de geconsolideerde organisatie en andere entiteiten buiten die organisaties plaatsvinden. Daarom moeten transacties tussen rechtspersonen die deel uitmaken van dezelfde organisatie worden verwijderd of geëlimineerd uit het grootboek, zodat ze niet in financiële rapporten worden weergegeven. Er zijn meerdere manieren om over schrappingen te rapporteren:
 
 -   Een schrappingsregel kan in een consolidatie- of eliminatiebedrijf worden gemaakt en verwerkt.
 -   Financiële rapportage kan worden gebruikt om de schrappingsrekeningen en -dimensies in een specifieke rij of kolom weer te geven.
@@ -129,27 +132,29 @@ Uw rechstpersoon, rechtspersoon A, verkoopt widgets aan een andere rechtspersoon
 Al deze transacties resulteren in intercompany-transacties die worden geboekt naar rekeningen voor betalen aan en betalen van. Bovendien bevatten deze transacties mogelijk prijsverhogings- en prijsverlagingsbedragen wanneer het bedrag van de intercompanyverkoop niet overeenkomt met de kosten van de verkochte goederen.
 
 ## <a name="set-up-elimination-rules"></a>Schrappingregels instellen
-Wanneer u schrappingregels in Dynamics 365 voor bewerkingen instelt, wordt u aangeraden dat u een financiële dimensie die speciaal voor schrapping doeleinden maken. De meeste klanten naam Partner handel of iets dergelijks. Als u besluit het gebruik van een financiële dimensie, moet u ervoor dat u hebt de hoofdrekeningen die specifiek zijn voor intercompany-transacties alleen. 
+Wanneer u schrappingsregels in Dynamics 365 for Operations instelt, wordt u aangeraden een financiële dimensie te maken die speciaal geldt voor schrappingsdoeleinden. De meeste klanten noemen dit Handelspartner of iets dergelijks. Als u besluit geen financiële dimensie te gebruiken, moet u ervoor zorgen dat u hoofdrekeningen hebt die specifiek en uitsluitend voor intercompany-transacties gelden. 
 
-De instellingen voor schrappingen wordt gevonden in het gedeelte instellen van de module consolidaties. Nadat u een omschrijving voor de regel invoert, moet u het bedrijf dat het schrappingjournaal wordt geboekt naar kiezen. Dit moet een bedrijf dat **gebruiken voor financiële schrappingproces** geselecteerd in de instellingen van de rechtspersoon. 
+De instellingen voor schrappingen vindt u in het gedeelte Instellen van de module Consolidaties. Nadat u een omschrijving voor de regel hebt ingevoerd, moet u het bedrijf selecteren waarnaar het schrappingsjournaal wordt geboekt. Dit moet een bedrijf zijn waarvoor **Gebruiken voor proces voor financiële schrapping** is ingeschakeld in de instellingen van de rechtspersoon. 
 
-U kunt een datum instellen waarop de schrappingregel wordt van kracht en is verlopen, indien nodig. Stelt u **actieve** naar **Ja** als u wilt dat in het voorstel schrapping beschikbaar wilt stellen. Selecteer een journaalnaam met het type van **schrapping**.
+U kunt een datum instellen waarop de schrappingsregel van kracht wordt en, indien nodig, wanneer deze is verlopen. U moet **Actief** instellen op **Ja** als u wilt dat de regel beschikbaar is in het schrappingsvoorstelproces. Selecteer een journaalnaam met het type **Schrapping**.
 
-Nadat u de basisprincipes hebt gedefinieerd, kunt u de werkelijke verwerkingsregels definiëren door te klikken op **regels**. Er zijn twee opties voor schrappingen, het bedrag van de netto wijziging verwijderen of het definiëren van een vast bedrag. 
+Nadat u de basisprincipes hebt gedefinieerd, kunt u de werkelijke verwerkingsregels definiëren door te klikken op **Regels**. Er zijn twee opties voor schrappingen: het bedrag van de nettowijziging verwijderen of een vast bedrag definiëren. 
 
-Selecteer de bronrekening. U kunt een sterretje (\*) als jokerteken. Bijvoorbeeld 1\* selecteert alle rekeningen die met een 1 als een gegevensbron voor de toewijzing beginnen. 
+Selecteer uw bronrekening. U kunt als jokerteken een sterretje (\*) gebruiken. In het voorbeeld worden met 1\* alle rekeningen geselecteerd die beginnen met 1 als een gegevensbron voor de toewijzing. 
 
-Nadat u uw bronrekeningen hebt geselecteerd de **specificatie rekening** bepaalt de rekening van het doelbedrijf die wordt gebruikt. Selecteer **bron** als u gebruiken de dezelfde hoofdrekening die is gedefinieerd wilt in de **bron** rekening. Als u **door gebruiker gedefinieerde**, dan moet u een doelrekening opgeven. 
+Nadat u uw bronrekeningen hebt geselecteerd, wordt met de **Rekeningspecificatie** de rekening bepaald van het doelbedrijf dat wordt gebruikt. Selecteer **Bron** als u dezelfde hoofdrekening wilt gebruiken die is gedefinieerd in de rekening **Bron**. Als u **Door gebruiker gedefinieerd** selecteert, moet u een doelrekening opgeven. 
 
-De Dimensiespecificatie fungeert op dezelfde manier. Als u **bron**, dezelfde dimensies wordt gebruikt in het doelbedrijf als het bronbedrijf. Als u **door gebruiker gedefinieerde**, moet u de dimensies opgeven in het doelbedrijf door te klikken op de **doeldimensies** menu-item. 
+De dimensiespecificatie werkt op dezelfde manier. Als u **Bron** selecteert, worden dezelfde dimensies in het doelbedrijf gebruikt als het bronbedrijf. Als u **Door gebruiker gedefinieerd** selecteert, moet u de dimensies opgeven in het doelbedrijf door te klikken op de menuoptie **Doeldimensies**. 
 
-Afmetingen bron en de financiële dimensies en waarden die worden gebruikt als een bron van de schrapping selecteren.
+Selecteer brondimensies en de financiële dimensies en waarden die worden gebruikt als een bron van de schrapping.
 
 ## <a name="process-elimination-transactions"></a>Schrappingstransacties verwerken
-Er zijn twee manieren om schrappingtransacties te verwerken, tijdens het samenvoegen online of door een schrappingjournaal maken en uitvoeren van het voorstelproces schrapping. Deze sectie is gericht op het journaal maken en uitvoeren van het schrappingproces. 
+Er zijn twee manieren om schrappingstransacties te verwerken, tijdens het online consolidatieproces of door een schrappingsjournaal te maken en het schrappingsvoorstelproces uit te voeren. Dit gedeelte is gericht op het maken van het journaal en het uitvoeren van het schrappingsproces. 
 
-Selecteer in een bedrijf dat is opgegeven als eliminatiebedrijf, **schrappingjournaal** in de module consolidaties. Nadat u de journaalnaam hebt geselecteerd, klikt u op **regels**. U kunt het voorstel uitvoeren door het selecteren van de **voorstellen** menu's en vervolgens te klikken op **Schrappingvoorstel**.
+Selecteer in een bedrijf dat is gedefinieerd als een eliminatiebedrijf **Schrappingsjournaal** in de module consolidaties. Klik op **Regels** als u de journaalnaam hebt geselecteerd. U kunt het voorstel uitvoeren door het menu **Voorstellen** en vervolgens **Schrappingsvoorstel** te selecteren.
 
-Selecteer het bedrijf dat de bron van de samengevoegde gegevens en kies vervolgens de regel die u wilt verwerken. Voer een begindatum naar het begin van de zoekopdracht voor schrappingsbedragen en een einddatum instellen voor het beëindigen van de zoekdatum voor schrappingsbedragen. De **GB-boekingsdatum** veld is de datum die wordt gebruikt om het journaal naar het grootboek te boeken. Nadat u op **OK**, u kunt de bedragen bekijken en het journaal boekt.
+Selecteer het bedrijf dat de bron is van de geconsolideerde gegevens en kies vervolgens de regel die u wilt verwerken. Voer een begindatum in waarop de zoekopdracht naar schrappingsbedragen moet beginnen, en een einddatum voor het beëindigen van de zoekdatum voor schrappingsbedragen. Voer in het veld **Boekingsdatum GB** de datum in waarop het journaal naar het grootboek moet worden geboekt. Nadat u op **OK** hebt geklikt, kunt u de bedragen bekijken en het journaal boeken.
+
+
 
 

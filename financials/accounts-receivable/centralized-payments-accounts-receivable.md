@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Gecentraliseerde betalingen voor Klanten
 
+[!include[banner](../includes/banner.md)]
+
+
 Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door één rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeft een en dezelfde betaling niet te worden ingevoerd in meerdere rechtspersonen. Dit artikel bevat voorbeelden die laten zien hoe de boeking voor gecentraliseerde betalingen in diverse scenario's wordt verwerkt.
 
 Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeft een en dezelfde betaling niet te worden ingevoerd in meerdere rechtspersonen. Bovendien bespaart de organisatie tijd, doordat de processen voor betalingsvoorstellen, vereffening en het bewerken van openstaande en gesloten transacties voor gecentraliseerde betalingen worden gestroomlijnd. 
 
-In een gecentraliseerde betalingsorganisatie zijn vele rechtspersonen voor verwerkingen, en iedere werkende rechtspersoon beheert zijn eigen informatie over te ontvangen facturen. Betalingen voor alle werkende rechtspersonen worden ontvangen door één rechtspersoon, die de rechtspersoon van de betaling wordt genoemd. Tijdens het vereffeningsproces worden de toepasselijke transacties voor betaling aan en betaling van gegenereerd. U kunt opgeven welke rechtspersoon binnen de organisatie de gerealiseerde winst- of verliestransacties ontvangt, en hoe contantkortingstransacties met betrekking tot een gecentraliseerde betaling worden verwerkt. 
+In een gecentraliseerde betalingsorganisatie zijn vele rechtspersonen voor verwerkingen, en iedere werkende rechtspersoon beheert zijn eigen informatie over te ontvangen facturen. Betalingen voor alle werkende rechtspersonen worden door één rechtspersoon ontvangen, die de rechtspersoon van de betaling wordt genoemd. Tijdens het vereffeningsproces worden de toepasselijke transacties voor betaling aan en betaling van gegenereerd. U kunt opgeven welke rechtspersoon binnen de organisatie de gerealiseerde winst- of verliestransacties ontvangt, en hoe contantkortingstransacties met betrekking tot een gecentraliseerde betaling worden verwerkt. 
 
 In de volgende voorbeelden ziet u hoe boekingen in diverse scenario's worden verwerkt. Bij al deze voorbeelden is van het volgende uitgegaan:
 
@@ -66,14 +69,14 @@ Fabrikam ontvangt een betaling van 600,00 EUR voor Fabrikam-klantrekening 4000, 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam East-factuur
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                         | Debetbedrag | Creditbedrag |
 |---------------------------------|--------------|---------------|
 | Klanten (Fabrikam)  | 600,00       |               |
 | Te betalen aan Fabrikam East (Fabrikam) |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                             | Debetbedrag | Creditbedrag |
 |-------------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam ontvangt een betaling van 580,00 EUR voor Fabrikam-klant 4000, Northwin
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam East-factuur
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                         | Debetbedrag | Creditbedrag |
 |---------------------------------|--------------|---------------|
 | Klanten (Fabrikam)  | 580,00       |               |
 | Te betalen aan Fabrikam East (Fabrikam) |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                             | Debetbedrag | Creditbedrag |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam ontvangt een betaling van EUR 600,00 voor Fabrikam-klant 4000, Northwin
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam East-factuur
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                         | Debetbedrag            | Creditbedrag           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam ontvangt een betaling van EUR 600,00 voor Fabrikam-klant 4000, Northwin
 | Te betalen aan Fabrikam East (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
 | Gerealiseerde winst (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                             | Debetbedrag            | Creditbedrag           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam boekt een betaling voor Fabrikam-klant 4000, Northwind Traders, voor ee
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam East-factuur
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                         | Debetbedrag            | Creditbedrag           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam boekt een betaling voor Fabrikam-klant 4000, Northwind Traders, voor ee
 | Te betalen aan Fabrikam East (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
 | Gerealiseerde winst (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                             | Debetbedrag            | Creditbedrag           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam boekt een betaling voor Fabrikam-klant 4000, Northwind Traders, voor ee
 | Klanten (Fabrikam East) |                         | 12,00 EUR / 14,47 USD   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>Voorbeeld 5: creditnota van klant met eerste betaling
-Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-klant 10000 en een openstaande creditnota voor Fabrikam East-klant 4000. De betaling als primaire betaling is geselecteerd op het **transacties vereffenen** pagina.
+Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-klant 10000 en een openstaande creditnota voor Fabrikam East-klant 4000. De betaling wordt als de primaire betaling op de pagina **Transacties vereffenen** geselecteerd.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>De factuur wordt geboekt naar Fabrikam West voor klant 10000
 
@@ -224,7 +227,7 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam West-factuur en de Fabrikam East-creditnota
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                           | Debetbedrag | Creditbedrag |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 | Klanten (Fabrikam)    | 100,00       |               |
 | Te betalen aan Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                             | Debetbedrag | Creditbedrag |
 |-------------------------------------|--------------|---------------|
 | Klanten (Fabrikam East) | 25,00        |               |
 | Te betalen aan Fabrikam East (Fabrikam)     |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West-boeking**
 
 | Rekening                             | Debetbedrag | Creditbedrag |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 | Klanten (Fabrikam West) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>Voorbeeld 6: creditnota van klant zonder eerste betaling
-Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-klant 10000 en een openstaande creditnota voor Fabrikam East-klant 4000. De betaling niet is geselecteerd als primaire betaling in de **transacties vereffenen** pagina.
+Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-klant 10000 en een openstaande creditnota voor Fabrikam East-klant 4000. De betaling wordt niet als de primaire betaling op de pagina **Transacties vereffenen** geselecteerd.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>De factuur wordt geboekt naar Fabrikam West voor klant 10000
 
@@ -273,21 +276,21 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam West-factuur en de Fabrikam East-creditnota
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                         | Debetbedrag | Creditbedrag |
 |---------------------------------|--------------|---------------|
 | Klanten (Fabrikam)  | 75,00        |               |
 | Te betalen aan Fabrikam West (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                              | Debetbedrag | Creditbedrag |
 |--------------------------------------|--------------|---------------|
 | Klanten (Fabrikam East)  | 25,00        |               |
 | Te betalen aan Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West-boeking**
 
 | Rekening                                | Debetbedrag | Creditbedrag |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 | Klanten (Fabrikam West)    |              | 75,00         |
 | Te ontvangen van Fabrikam East (Fabrikam West) | 25,00        |               |
 | Crediteuren (Fabrikam West)    |              | 25,00         |
+
+
 
 
 

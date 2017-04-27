@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-source-explorer"></a>Boekhoudingsbronverkenner
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over Boekhoudingsbronverkenner, dat u kunt gebruiken voor een gedetailleerde analyse van de brongegevens achter de grootboekboekingen.
 
-Boekhoudingsbronverkenner is een nieuwe pagina waarop brongegevens worden weergegeven. Hier kunt u boekhouding bron explorer als zelfstandig hulpprogramma of voor het analyseren van de gegevens achter de grootboekposten voor boekhouding. U kunt bijvoorbeeld boekhouding bron explorer ophalen van de meest gedetailleerde broninformatie voor een saldo in proefbalans of voor een boekstuktransactie. Vervolgens kunt u de functie Exporteren naar MS Excel gebruiken om de gegevens verder in te delen en te verdelen in Microsoft Excel (bijvoorbeeld in draaitabel of een draaitabelrapport).
+Boekhoudingsbronverkenner is een nieuwe pagina waarop brongegevens worden weergegeven. U kunt Boekhoudingsbronverkenner gebruiken als zelfstandig hulpprogramma of voor het analyseren van de gegevens achter de grootboekposten voor boekhouding. U kunt Boekhoudingsbronverkenner bijvoorbeeld gebruiken om de meest gedetailleerde brongegevens voor een saldo in Proefbalans voor een boekstuktransactie op te halen. Vervolgens kunt u de functie Exporteren naar MS Excel gebruiken om de gegevens verder in te delen en te verdelen in Microsoft Excel (bijvoorbeeld in draaitabel of een draaitabelrapport).
 
 Met Boekhoudingsbronverkenner wordt altijd hetzelfde totaalbedrag per grootboekrekening weergegeven wanneer het grootboek wordt getoond (bijvoorbeeld in Proefbalans). Net als in Proefbalans kunt u segmenten in afzonderlijke kolommen weergeven. Selecteer alleen de juiste set met financiële dimensies. 
 
 U kunt parameters gebruiken om een datuminterval voor de analyse te definiëren. Deze functionaliteit lijkt ook op de functionaliteit in Proefbalans.
 
-Voor alle documenten die gebruikmaken van het raamwerk voor brondocumenten, boekhouding bron explorer bevat aanvullende informatie, op basis van de boekhoudingsverdelingen en, indien van toepassing, de projectadministratie verdelingen. Deze informatie omvat het geldbedragtype, project, activiteit, categorie en regeleigenschap. Hieronder staan enkele voorbeelden van de analyse die u kunt uitvoeren:
+Voor alle documenten die gebruikmaken van het raamwerk voor brondocumenten geeft Boekhoudingsbronverkenner aanvullende informatie weer op basis van de boekhoudingsverdelingen en, indien van toepassing, de projectboekhoudingsverdelingen. Deze informatie omvat geldbedragtype, project, activiteit, categorie en regeleigenschap. Hieronder staan enkele voorbeelden van de analyse die u kunt uitvoeren:
 
 -   Afwijkingen tussen inkooporders en leveranciersfacturen, omdat elke afwijking wordt vertegenwoordigd met een type monetair bedrag, zoals toeslagafwijking
 -   Factureerbare en niet-factureerbare uren en onkosten per project, bedrijfseenheid en hoofdrekening
@@ -46,5 +49,7 @@ Voor brondocumenten waarin het concept van identiteiten voor brondocumentverwijz
 -   Kortingen per leverancier, product, afdeling
 
 Voor deze documenten kunt u ook naar het werkelijke brondocument van Boekhoudingsbronverkenner navigeren.
+
+
 
 

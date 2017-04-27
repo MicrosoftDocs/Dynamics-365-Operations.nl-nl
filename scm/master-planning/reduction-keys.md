@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Reductiesleutels
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat voorbeelden die het instellen van een reductiesleutel weergeven. Het bevat informatie over de verschillende reductiesleutelinstellingen en de resultaten van elk. U kunt een reductiesleutel gebruiken om te definiëren hoe prognosebehoeften worden gereduceerd.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Voorbeeld 1: prognosereductiemethode Percentage - reductiesleutel
@@ -58,7 +61,7 @@ Als u de prognoseplanning op 1 januari uitvoert, worden de vraagprognosebehoefte
 | april                | 750                       |
 | Mei tot en met december | 1.000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Voorbeeld 2: Transacties-reductiesleutel prognose Reductiemethode
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Voorbeeld 2: prognosereductiemethode Transacties - reductiesleutel
 In dit voorbeeld wordt weergegeven hoe werkelijke orders, die plaatsvinden tijdens de perioden die zijn gedefinieerd door de reductiesleutel, vraagprognosebehoeften reduceren.
 
 -   Selecteer op de pagina **Hoofdplannen** in het veld **Reductiemethode** de optie **Transacties - reductiesleutel**.
@@ -82,7 +85,7 @@ Als u dezelfde vraagprognose van 1000 stuks per maand gebruikt, worden de volgen
 | april                | 881                       |
 | Mei tot en met december | 1.000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Voorbeeld 3: De dynamische periode transacties prognose Reductiemethode
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Voorbeeld 3: prognosereductiemethode Transacties - dynamische periode
 In de meeste gevallen worden systemen zo ingesteld dat transacties vraagprognose reduceren in specifieke prognoseperioden: weken, maanden, enzovoort. Deze perioden worden gedefinieerd in de reductiesleutel. De tijd tussen twee vraagprognoseregels kan echter ook een periode *impliceren*.
 
 1.  Maak een vraagprognose voor de volgende datums en hoeveelheden.
@@ -129,6 +132,8 @@ Hier is een overzicht van de reductie **Transacties - dynamische periode**:
 <a name="see-also"></a>Zie ook
 --------
 
-[Master plans](master-plans.md)
+[Hoofdplannen](master-plans.md)
+
+
 
 

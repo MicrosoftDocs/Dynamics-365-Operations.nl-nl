@@ -1,6 +1,6 @@
 ---
-title: Een besturingselement aanbevelingen toevoegen aan de transactie-pagina op een POS-apparaat
-description: In dit onderwerp wordt beschreven hoe een besturingselement aanbevelingen toevoegen aan het scherm van de transactie op een punt van verkooppunten (POS)-apparaat met behulp van de ontwerper van schermindeling in Microsoft Dynamics 365 voor bewerkingen.
+title: Een besturingselement voor aanbevelingen toevoegen aan de transactiepagina op een POS-apparaat
+description: In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 for Operations.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,55 +25,60 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Een besturingselement aanbevelingen toevoegen aan de transactie-pagina op een POS-apparaat
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Een besturingselement voor aanbevelingen toevoegen aan de transactiepagina op een POS-apparaat
 
-In dit onderwerp wordt beschreven hoe een besturingselement aanbevelingen toevoegen aan het scherm van de transactie op een punt van verkooppunten (POS)-apparaat met behulp van de ontwerper van schermindeling in Microsoft Dynamics 365 voor bewerkingen.
+[!include[banner](includes/banner.md)]
 
-Wanneer u Microsoft Dynamics 365 voor bewerkingen, kunt u de aanbevelingen weergeven op het POS-apparaat. *Aanbevelingen* zijn artikelen die uw klant geïnteresseerd kan zijn op basis van hun inkoophistorie, artikelen in de onderwerpen en artikelen die andere klanten online gekocht en in de markering en fysieke winkels. Als u wilt weergeven van aanbevelingen, moet u een besturingselement toevoegen aan het scherm van de transactie met de ontwerper van schermindeling.
 
-## <a name="open-layout-designer"></a>Open de ontwerper van formulierindeling
-1.  Ga naar **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS**&gt;**schermindelingen**.
-2.  Met het snelfilter zoeken naar het scherm dat u wilt toevoegen van het besturingselement. Bijvoorbeeld filteren op de **scherm indelings-ID** veld met de waarde 'F2CP16:9M'.
-3.  Zoek en selecteer de gewenste record in de lijst. Selecteer bijvoorbeeld ' naam: F2CP16:9M scherm indelings-ID: F2CP16:9M'.
-4.  Klik op **ontwerper van formulierindeling**.
-5.  Volg de aanwijzingen voor het starten van de ontwerper van formulierindeling. Wanneer naar referenties gevraagd, voert u dezelfde referenties die zijn gebruikt toen de ontwerper van formulierindeling is gestart **schermindelingen** pagina.
-6.  Wanneer u zich aanmeldt, wordt er een vergelijkbaar zijn met de instellingen onder pagina weergegeven. De lay-out zullen afwijken, afhankelijk van de aanpassingen die zijn gemaakt voor uw winkel.
+In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 for Operations.
 
-[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Kies een weergaveoptie
+Wanneer u Microsoft Dynamics 365 for Operations gebruikt, kunt u productaanbevelingen weergeven op uw POS-apparaat. *Aanbevelingen* zijn items waarin uw klanten mogelijk geïnteresseerd zijn op basis van hun inkoophistorie, items in hun verlanglijst en items die andere klanten online en in fysieke winkels hebben gekocht. Als u productaanbevelingen wilt weergeven, moet u een besturingselement toevoegen aan het transactiescherm met de schermindelingsontwerper.
+
+## <a name="open-layout-designer"></a>Indelingsontwerper openen
+1.  Ga naar **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS** &gt; **Schermindelingen**.
+2.  Met het snelfilter kunt u zoeken naar het scherm waaraan u het besturingselement wilt toevoegen. Filter bijvoorbeeld op het veld **Schermindelings-ID** met de waarde 'F2CP16:9M'.
+3.  Zoek en selecteer de gewenste record in de lijst. Selecteer bijvoorbeeld 'Naam: F2CP16:9M Schermindelings-ID: F2CP16:9M'.
+4.  Klik op **Ontwerper van indeling**.
+5.  Volg de aanwijzingen voor het starten van de indelingsontwerper. Wanneer naar referenties wordt gevraagd, voert u de referenties in die zijn gebruikt bij het starten van de indelingsontwerper op de pagina **Schermindelingen**.
+6.  Wanneer u zich aanmeldt, wordt er een pagina weergegeven die vergelijkbaar is met de onderstaande pagina. De indeling zal afwijken, afhankelijk van de aanpassingen die voor uw winkel zijn gemaakt.
+
+[![schermindelingsafbeelding-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Een weergaveoptie kiezen
 -----------------------
 
-Er zijn twee configuraties opties beschikbaar. Kies de optie die het meest geschikt voor uw winkel en volg de instructies voor het instellen van het besturingselement te voltooien. De twee opties zijn:
+Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschikt is voor uw winkel en volg de rest van de instructies om de instelling van het besturingselement te voltooien. De twee opties zijn:
 -   Aanbevelingen zijn altijd zichtbaar.
--   A **aanbevelingen** tabblad wordt weergegeven in het raster aan de rechterkant van het scherm.
+-   Het tabblad **Aanbevelingen** wordt weergegeven in het raster aan de rechterkant van het scherm.
 
-#### <a name="to-make-recommendations-always-visible"></a>Om aanbevelingen te doen altijd zichtbaar
+#### <a name="to-make-recommendations-always-visible"></a>Aanbevelingen altijd zichtbaar maken
 
-1.  Verklein de hoogte van het detailgebied van de transactie-regels zodat deze even hoog als het deelvenster klant aan de linkerkant. [](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
-2.  Klik in het menu aan de linkerkant slepen en neerzetten van het besturingselement aanbevelingen tussen het detailgebied van de transactie-regel en het knoppenraster onderaan in het midden van het scherm van de transactie. Het formaat van het besturingselement zodat deze in die ruimte past. [](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
-3.  Klik op de **X** op te slaan en sluit de ontwerper van formulierindeling.
-4.  In Dynamics 365 voor bewerkingen, gaat u naar **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributie-schema's**.
-5.  Selecteer in de lijst **1090 registreert**.
-6.  Klik op **nu uitvoeren**.
+1.  Verklein de hoogte van het detailgebied van de transactieregels zodat het even hoog is als het deelvenster van de klant aan de linkerkant.[](./media/pic-2.png)[![schermindelingsafbeelding-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+2.  Sleep in het menu aan de linkerkant het besturingselement voor aanbevelingen en zet het neer tussen het detailgebied van de transactieregels en het knoppenraster onderaan in het midden van het transactiescherm. Pas de grootte van het besturingselement aan zodat het in die ruimte past.[](./media/pic-3.png)[![schermindelingsafbeelding-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+3.  Klik op **OK** om de indelingsontwerper op te slaan en af te sluiten.
+4.  Ga in Dynamics 365 for Operations naar **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanningen**.
+5.  Selecteer **1090, kassa´s** in de lijst.
+6.  Klik op **Nu uitvoeren**.
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Een tabblad aanbevelingen op de knoppenraster aan de rechterkant van het scherm toevoegen
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Het tabblad Aanbevelingen toevoegen aan het knoppenraster aan de rechterkant van het scherm
 
-1.  Met de rechtermuisknop op de lege ruimte onder het laatste tabblad van het knoppenraster dat aan de rechterkant van de pagina bevindt.
-2.  Klik op **aanpassen**. [![pic-5](./media/pic-5.png)](./media/pic-5.png)
-3.  Klik op **nieuw tabblad**.
-4.  Zoeken naar het nieuwe tabblad dat u zojuist hebt toegevoegd. Wellicht moet u omlaag bladeren.
-5.  In de **inhoud** vervolgkeuzelijst, selecteer **aanbevolen producten**. [![PIC-6](./media/pic-6.png)](./media/pic-6.png)
-6.  In de **Label** veld, typ een naam voor het tabblad aanbevelingen. Typ bijvoorbeeld "Aanbevolen producten".
-7.  In de **afbeelding** veld, selecteert u de afbeelding wilt weergeven op het tabblad.
-8.  Click **OK**. Het nieuwe tabblad wordt weergegeven in het knoppenraster.
-9.  Klik op de **X** op te slaan en sluit de ontwerper van formulierindeling.
-10. In Dynamics 365 voor bewerkingen, gaat u naar **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributie-schema's**.
-11. Selecteer in de lijst **1090 registreert**.
-12. Klik op **nu uitvoeren**.
+1.  Klik met de rechtermuisknop op de lege ruimte onder het laatste tabblad van het knoppenraster dat zich aan de rechterkant van de pagina bevindt.
+2.  Klik op **Aanpassen**.[![afbeelding-5](./media/pic-5.png)](./media/pic-5.png)
+3.  Klik op **Nieuw tabblad**.
+4.  Zoek naar het nieuwe tabblad dat u zojuist hebt toegevoegd. Wellicht moet u omlaag bladeren.
+5.  Selecteer in de vervolgkeuzelijst **Inhoud** **Aanbevolen producten**. [![afbeelding-6](./media/pic-6.png)](./media/pic-6.png)
+6.  Typ in het veld **Label** een naam voor het tabblad Aanbevelingen. Typ bijvoorbeeld ´Aanbevolen producten´.
+7.  Selecteer in het veld **Afbeelding** de afbeelding die op het tabblad moet worden weergegeven.
+8.  Klik op **OK**. Het nieuwe tabblad wordt weergegeven in het knoppenraster.
+9.  Klik op **OK** om de indelingsontwerper op te slaan en af te sluiten.
+10. Ga in Dynamics 365 for Operations naar **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanningen**.
+11. Selecteer **1090, kassa´s** in de lijst.
+12. Klik op **Nu uitvoeren**.
 
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Persoonlijke aanbevelingen-productoverzicht](personalized-product-recommendations.md)
+[Overzicht persoonlijke productaanbevelingen](personalized-product-recommendations.md)
+
+
 
 

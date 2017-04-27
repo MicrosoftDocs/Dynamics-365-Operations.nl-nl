@@ -1,6 +1,6 @@
 ---
 title: Vragenlijsten
-description: Dit onderwerp biedt algemene informatie over vragenlijsten en koppelingen naar meer gedetailleerde informatie. Een vragenlijst is een reeks vragen die wordt gebruikt voor het verzamelen van informatie voor verschillende doeleinden. U kunt vragenlijsten ontwerpen, maken, distribueren en invullen en vervolgens de resultaten analyseren.
+description: In dit artikel vindt u algemene informatie over vragenlijsten en koppelingen naar meer gedetailleerde informatie. Een vragenlijst is een reeks vragen die wordt gebruikt voor het verzamelen van informatie voor verschillende doeleinden. U kunt vragenlijsten ontwerpen, maken, distribueren en invullen en vervolgens de resultaten analyseren.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Vragenlijsten
 
-Dit onderwerp biedt algemene informatie over vragenlijsten en koppelingen naar meer gedetailleerde informatie. Een vragenlijst is een reeks vragen die wordt gebruikt voor het verzamelen van informatie voor verschillende doeleinden. U kunt vragenlijsten ontwerpen, maken, distribueren en invullen en vervolgens de resultaten analyseren. 
+[!include[banner](includes/banner.md)]
 
-U kunt een vragenlijst aan uw specifieke behoeften met verschillende functies die beschikbaar in Microsoft Dynamics 365 voor bewerkingen zijn. Hieronder staan enkele voorbeelden van hoe vragenlijsten kunnen worden gebruikt:
+
+In dit artikel vindt u algemene informatie over vragenlijsten en koppelingen naar meer gedetailleerde informatie. Een vragenlijst is een reeks vragen die wordt gebruikt voor het verzamelen van informatie voor verschillende doeleinden. U kunt vragenlijsten ontwerpen, maken, distribueren en invullen en vervolgens de resultaten analyseren. 
+
+U kunt een vragenlijst aan uw specifieke behoeften aanpassen door een combinatie van de diverse functies die beschikbaar zijn in Microsoft Dynamics 365 for Operations. Hieronder staan enkele voorbeelden van hoe vragenlijsten kunnen worden gebruikt:
 
 -   De professionele kwalificaties van werknemers en sollicitanten te testen;
 -   Evalueren of de cursusdeelnemers het cursusmateriaal hebben geleerd.
@@ -42,9 +45,9 @@ De volgende tabel bevat koppelingen naar informatie over de kerntaken van vragen
 
 | Onderwerp| Omschrijving|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | Dit artikel bevat informatie over het ontwerpen van een vragenlijst. Het ontwerpproces omvat het instellen van vereisten, antwoorden en vragen, en vervolgens het combineren hiervan in een vragenlijst. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Dit artikel geeft informatie over het verspreiden van een vragenlijst onder respondenten en het uitvoeren van vragenlijsten.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Dit artikel biedt informatie over het weergeven en evalueren van de resultaten van ingevulde vragenlijsten.                                                                                        |
+| [Een vragenlijst ontwerpen](design-questionnaires.md)  | Dit artikel bevat informatie over het ontwerpen van een vragenlijst. Het ontwerpproces omvat het instellen van vereisten, antwoorden en vragen, en vervolgens het combineren hiervan in een vragenlijst. |
+| [Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)  | Dit artikel geeft informatie over het verspreiden van een vragenlijst onder respondenten en het uitvoeren van vragenlijsten.                                                                       |
+| [De resultaten van een vragenlijst bekijken en evalueren](evaluate-questionnaire-results.md) | Dit artikel biedt informatie over het weergeven en evalueren van de resultaten van ingevulde vragenlijsten.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ De volgende tabel bevat koppelingen naar informatie over de kerntaken van vragen
 
 [Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
 
-[Bekijken en evalueren van de resultaten van vragenlijsten](evaluate-questionnaire-results.md)
+[De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fiscale kalenders, boekjaren en boekperioden
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
 
 Fiscale kalenders vormen een raamwerk voor de financiële activiteiten van een organisatie. Elke fiscale kalender bevat een of meer boekjaren, en elk boekjaar bevat meerdere perioden. Fiscale kalenders kunnen zijn gebaseerd op een kalenderjaar van 1 januari tot 31 december op elke andere datum die u selecteert. Sommige organisaties kiezen bijvoorbeeld een fiscale kalender die op 1 juli van het ene jaar begint en op 30 juni van het volgende jaar eindigt. 
@@ -58,6 +61,8 @@ Budgetcycli geven aan hoelang een budget wordt gebruikt. Budgetcycli kunnen een 
 
 ## <a name="maintain-periods-for-your-organization"></a>Perioden voor uw organisatie onderhouden
 Met de pagina Grootboekkalender kunt u de details bekijken van de fiscale kalender, boekjaren en boekperioden die door uw organisatie worden gebruikt. U kunt ook de status van de perioden wijzigen en selecteren welke gebruikers boekhoudtransacties naar perioden kunnen boeken. Aan het begin van een nieuwe periode wilt u misschien dat een groep gebruikers het boeken van financiële transacties in de voorgaande periode kan afmaken, terwijl andere groepen alleen in de nieuwe periode kunnen werken.
+
+
 
 
 

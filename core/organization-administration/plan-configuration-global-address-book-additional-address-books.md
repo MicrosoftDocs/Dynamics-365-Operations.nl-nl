@@ -1,6 +1,6 @@
 ---
-title: Globale adresboeken configureren
-description: "Dit artikel worden de overwegingen en beslissingen die u tijdens het planningsproces maken moet voordat u instellen en configureren van het algemene adresboek en eventuele extra adresboeken in Microsoft Dynamics 365 voor bewerkingen. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie."
+title: Algemene adresboeken configureren
+description: "In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u het globale adresboek en enige aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Globale adresboeken configureren
+# <a name="configure-global-address-books"></a>Algemene adresboeken configureren
 
-Dit artikel worden de overwegingen en beslissingen die u tijdens het planningsproces maken moet voordat u instellen en configureren van het algemene adresboek en eventuele extra adresboeken in Microsoft Dynamics 365 voor bewerkingen. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
+[!include[banner](../includes/banner.md)]
+
+
+In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u het globale adresboek en enige aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
 
 <a name="global-address-book"></a>Algemeen adresboek
 -------------------
@@ -61,6 +64,8 @@ Nadat u het algemene adresboek hebt gemaakt, kunt u desgewenst extra adresboeken
 U kunt adresboeken op elk moment maken en u kunt ook op elk moment beveiligingsparameters instellen voor de adresboeken. U hoeft geen beveiligingsbevoegdheden in te stellen voor een adresboek, maar in dat geval kunnen alle werknemers in uw organisatie wel alle partijregistraties in dat adresboek bekijken. U kunt beveiligingsbevoegdheden voor partijregistraties instellen via adresboeken. Beveiligingbevoegdheden worden gebaseerd op teams. Op deze manier kunnen alleen werknemers die aan een team zijn toegewezen dat toegang heeft tot een adresboek, de partijregistraties in dat adresboek weergeven. U moet de teams selecteren die toegang hebben tot elk adresboek. Voor elk adresboek kunt u beveiligingsbevoegdheden instellen die toegang geven of weigeren aan specifieke teams. Wanneer u een team toegang geeft tot een adresboek, kunnen alle teamleden de registraties in het adresboek weergeven. Als u een team geen toegang tot een adresboek verleent, kunnen de teamleden het adresboek of de inhoud ervan niet zien. **Beslissing:**
 
 -   Welke teams moeten toegang hebben tot elk nieuw adresboek dat u maakt?
+
+
 
 
 

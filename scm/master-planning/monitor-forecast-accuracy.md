@@ -1,6 +1,6 @@
 ---
-title: Nauwkeurige prognose van de monitor
-description: In dit artikel beschrijft de soorten prognose nauwkeurigheid Microsoft Dynamics 365 voor bewerkingen wordt berekend en wordt uitgelegd hoe u de waarden correct kunt bekijken.
+title: Nauwkeurigheid van de vraagprognose bewaken
+description: In dit artikel worden de typen prognosenauwkeurigheid beschreven die Microsoft Dynamics 365 for Operations berekent en wordt uitgelegd hoe u de nauwkeurigheidswaarden kunt weergeven.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="monitor-forecast-accuracy"></a>Nauwkeurige prognose van de monitor
+# <a name="monitor-forecast-accuracy"></a>Nauwkeurigheid van de vraagprognose bewaken
 
-In dit artikel beschrijft de soorten prognose nauwkeurigheid Microsoft Dynamics 365 voor bewerkingen wordt berekend en wordt uitgelegd hoe u de waarden correct kunt bekijken.
+[!include[banner](../includes/banner.md)]
 
-Dynamics 365 voor bewerkingen wordt de volgende typen prognose nauwkeurig berekend:
+
+In dit artikel worden de typen prognosenauwkeurigheid beschreven die Microsoft Dynamics 365 for Operations berekent en wordt uitgelegd hoe u de nauwkeurigheidswaarden kunt weergeven.
+
+Dynamics 365 for Operations berekent de volgende typen prognosenauwkeurigheid:
 
 -   Historische prognoseaccuratesse door de historische prognose te vergelijken die de hoofdplanning gebruikt met de historische vraag. Om de waarden (zowel absolute waarden als percentages) voor historische prognosenauwkeurigheid weer te geven, klikt u op **Nauwkeurigheid weergeven** op de pagina **Details van vraagprognose**.
 -   De geraamde nauwkeurigheid van het prognosesmodel dat wordt gebruikt om de voorspellingen te genereren. U kunt het nauwkeurigheidspercentage onder **Modeldetails - MAPE** op de pagina **Vraagprognosedetails** weergeven. 
 
-**opmerking:** als u de Dynamics 365 voor bewerkingen vraag prognoses van de service Microsoft Azure Machine Learning, de berekening van de juistheid intern model is gebaseerd op de test-gegevensset. Als de grootte van de gegevensset test opgeven, stelt u de **TEST\_ingesteld\_grootte\_PROCENT** parameter in de **vraag prognoses van de parameters** pagina. Als u de waarde bijvoorbeeld instelt op **20**, worden de laatste 20% van de historische gegevens gebruikt om de interne modelaccuratesse te berekenen.
+**Opmerking:** Als u de Microsoft Azure Machine Learning-service van Dynamics 365 for Operations Vraagprognose gebruikt, wordt de berekening van interne modelnauwkeurigheid gebaseerd op de testgegevensset. Om de grootte van de set gegevens op te geven, stelt de u de parameter **TEST\_SET\_SIZE\_PERCENT** in op de pagina **Parameters voor vraagprognose**. Als u de waarde bijvoorbeeld instelt op **20**, worden de laatste 20% van de historische gegevens gebruikt om de interne modelaccuratesse te berekenen.
 
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[De gecorrigeerde prognose autoriseren](authorize-adjusted-forecast.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Verwijder uitschieters uit historische transactiegegevens bij het berekenen van een vraagprognose](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

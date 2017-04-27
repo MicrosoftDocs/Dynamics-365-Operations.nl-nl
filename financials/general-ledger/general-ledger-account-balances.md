@@ -1,6 +1,6 @@
 ---
 title: Grootboekrekeningsaldi
-description: "Dit artikel worden twee manieren om algemene grootboekrekeningsaldi - Proefbalans (lijstpagina) en financiële rapporten weer te geven. Daarnaast wordt aangegeven hoe u dimensiesetsaldi bijwerkt."
+description: "In dit artikel worden twee manieren beschreven waarop u grootboekrekeningsaldi kunt weergeven: de lijstpagina met proefbalansen en financiële rapporten. Daarnaast wordt aangegeven hoe u dimensiesetsaldi bijwerkt."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Grootboekrekeningsaldi
 
-Dit artikel worden twee manieren om algemene grootboekrekeningsaldi - Proefbalans (lijstpagina) en financiële rapporten weer te geven. Daarnaast wordt aangegeven hoe u dimensiesetsaldi bijwerkt.
+[!include[banner](../includes/banner.md)]
+
+
+In dit artikel worden twee manieren beschreven waarop u grootboekrekeningsaldi kunt weergeven: de lijstpagina met proefbalansen en financiële rapporten. Daarnaast wordt aangegeven hoe u dimensiesetsaldi bijwerkt.
 
 Er zijn verschillende manieren waarop gebruikers saldi in het grootboek kunnen weergeven. Een aantal van de meest voorkomende opties:
 
@@ -46,6 +49,8 @@ Wanneer een gebruiker de parameters verandert, worden de saldi vernieuwd. De geb
 
 Gebruikers kunnen inzoomen op de saldi om de transacties weer te geven waaruit het saldo bestaat.    
 
-Zie voor meer informatie [financiële rapporten weergeven](view-financial-reports.md).
+Zie [Financiële rapporten weergeven](view-financial-reports.md) voor meer informatie.
+
+
 
 

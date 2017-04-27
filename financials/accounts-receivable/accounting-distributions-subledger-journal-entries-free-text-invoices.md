@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Boekhoudingsverdelingen en journaalposten in de subadministratie voor facturen met vrije tekst
 
+[!include[banner](../includes/banner.md)]
+
+
 Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden verwerkt, zoals hoe de omzet, btw of heffingen zal worden verwerkt op een factuur met vrije tekst. Elk bedrag dat moet worden verwerkt wanneer de factuur met vrije tekst in het boekhoudingsjournaal wordt vastgelegd, heeft een of meerdere boekhoudingsverdelingen.
 
 <a name="accounting-distributions"></a>Boekhoudingsverdelingen
@@ -35,7 +38,7 @@ Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden 
 
 U kunt de volgende knoppen in de pagina Vrije-tekstfactuur gebruiken voor het weergeven en mogelijk wijzigen van de boekhoudingsverdelingen voor elk bedrag op de factuur met vrije tekst.
 
--   **Verdelingsbedragen**— bekijken en wijzigen, de boekhoudingsverdelingen voor een afzonderlijke regel en alle onderliggende regels, zoals belastingen of heffingen. U kunt de boekhoudingsverdeling voor de onderliggende regel rechtstreeks weergeven en wijzigen op de pagina Btw-transacties of de pagina Transacties met toeslagen transacties.
+-   **Bedragen verdelen**: De boekhoudingsverdelingen weergeven en wijzigen voor een afzonderlijke regel en alle onderliggende regels, zoals belastingen of heffingen. U kunt de boekhoudingsverdeling voor de onderliggende regel rechtstreeks weergeven en wijzigen op de pagina Btw-transacties of de pagina Transacties met toeslagen transacties.
     -   Bedragen in de koptekst van facturen met vrije tekst wijzigen, zoals heffingen of valuta-afrondingsbedragen.
     -   Bedragen op regels van facturen met vrije tekst wijzigen.
 -   **Verdelingen weergeven**: Voor alle regels op het document de boekhoudingsverdelingen weergeven. Vanuit deze weergave kunt u de boekhoudingsverdelingen niet wijzigen.
@@ -132,5 +135,7 @@ Boekhoudingsverdelingen voor belastingen kunnen pas worden gemaakt nadat belasti
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Subadministratie voor vrije tekst-facturen
 Voordat u een vrije tekst-factuur boekt, kunt u het volledige boekhoudingsjournaal van de factuur bekijken, inclusief debet- en creditbedragen, om te controleren of de factuur naar de juiste rekeningen wordt geboekt. Deze weergave van het volledige boekhoudingsjournaal heet een subadministratie. Indien het journaal in de subadministratie onjuist is wanneer u een afdrukvoorbeeld bekijkt voordat u de vrije tekst-factuur boekt, kunt u het journaal in de subadministratie niet wijzigen. In plaats daarvan moet u de boekhoudingsverdelingen of het boekingsprofiel wijzigen. De boekhoudingsverdelingen worden gebruikt om één kant van de boekhoudingspost, de debit- of de creditzijde, te definiëren. De compenserende journaalregel in de subadministratie wordt gemaakt van de boekingsprofielen, zoals van de klantrekening of de belasting.
+
+
 
 

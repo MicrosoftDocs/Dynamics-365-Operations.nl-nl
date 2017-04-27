@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Afgeleide boeken
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel vindt u een overzicht van de functionaliteit van het afgeleide boek.
 
-Het doel van afgeleide boeken is vereenvoudiging van het boeken van vaste activa-afschrijvingsboektransacties die op gezette tijden worden gepland.  U kiest één boek als het primaire boek. Dit is gewoonlijk het boek dat wordt gebruikt voor boekhoudkundige afschrijving. Vervolgens koppelt u dit aan andere boeken die zijn ingesteld om transacties te boeken in dezelfde intervallen als het primaire boek. Belastingafschrijvingsboeken zijn vaak ingesteld als afgeleide boeken. 
+Het doel van afgeleide boeken is de vereenvoudiging van het boeken van transacties in het vaste-activaboek die op gezette tijden zijn gepland.  U kiest één boek als het primaire boek. Dit is gewoonlijk het boek dat wordt gebruikt voor boekhoudkundige afschrijving. Vervolgens koppelt u dit aan andere boeken die zijn ingesteld om transacties te boeken in dezelfde intervallen als het primaire boek. Belastingafschrijvingsboeken zijn vaak ingesteld als afgeleide boeken. 
 
 De meest algemene transacties die u kunt instellen op het boeken naar afgeleide boeken zijn verwervingen, bijboekingscorrrecties en afboekingen. 
 
@@ -42,6 +45,8 @@ Als de transactie geboekt is, wordt een verwervingstransactie gegenereerd en geb
 > [!NOTE]                                                                                                                               
 > Boeken die zijn ingesteld op het boeken van transacties op andere tijden dan de tijden van het primaire boek moeten als afzonderlijke boeken aan de vaste activa worden gekoppeld en niet als afgeleide boeken.  
 
-Zie voor meer informatie [boeken met afgeleide boeken](post-derived-value-models.md).
+Zie voor meer informatie [Boeken met afgeleide boeken](post-derived-value-models.md).
+
+
 
 

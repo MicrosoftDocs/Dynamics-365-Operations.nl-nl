@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Een goedkeuringsstap configureren in een workflow
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een goedkeuringsstap configureert.
 
 Om een goedkeuringsstap te configureren, klikt u in de workfloweditor met de rechtermuisknop op de goedkeuringsstap en klikt u vervolgens op **Eigenschappen** om het formulier **Eigenschappen** te openen. Met de volgende procedures kunt u de eigenschappen van de goedkeuringsstap configureren.
@@ -124,10 +127,10 @@ Voer de volgende stappen uit om op te geven aan wie de goedkeuringsstap moet wor
     </tr>
     <tr class="even">
     <td>Gebruiker</td>
-    <td>Specifieke Microsoft Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Microsoft Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers aan wie u de stap wilt toewijzen en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers aan wie u de stap wilt toewijzen en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ Als een gebruiker niet binnen de toegekende tijd actie onderneemt op een documen
     </tr>
     <tr class="odd">
     <td>Gebruiker</td>
-    <td>Specifieke Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers naar wie u het document wilt escaleren en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u het document wilt escaleren en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Als een gebruiker niet binnen de toegekende tijd actie onderneemt op een documen
 
 5.  Herhaal stappen 3 tot en met 4 voor elke gebruiker die u aan het escalatiepad wilt toevoegen. U kunt de volgorde van de gebruikers wijzigen.
 6.  Als de gebruikers in het escalatiepad niet binnen de gestelde tijd op het document reageren, onderneemt het systeem automatisch actie op het document. Om de actie in te stellen die het systeem moet uitvoeren, selecteert u de rij **Actie** en klikt u op het tabblad **Actie beëindigen**. Selecteer hier een actie.
+
+
 
 
 

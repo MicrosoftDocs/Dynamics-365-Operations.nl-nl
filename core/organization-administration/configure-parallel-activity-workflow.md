@@ -32,7 +32,7 @@ Een parallelle activiteit bestaat uit workflowvertakkingen die op hetzelfde mome
 
 ## <a name="name-a-parallel-activity"></a>Een parallelle activiteit een naam geven
 Voer deze stappen uit om een naam op te geven voor een parallelle activiteit.
-1.  Met de rechtermuisknop op de parallelle activiteit en klik vervolgens op **eigenschappen** opent de **eigenschappen** formulier.
+1.  Klik met de rechtermuisknop op de parallelle activiteit en klik op **Eigenschappen** om het formulier **Eigenschappen** te openen.
 2.  Klik in het linkerdeelvenster op **Basisinstellingen**.
 3.  Voer in het veld **Naam** een unieke naam voor de parallelle activiteit in.
 4.  Klik op **Sluiten**.

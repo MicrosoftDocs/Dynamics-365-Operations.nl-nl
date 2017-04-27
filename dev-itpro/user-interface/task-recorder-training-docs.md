@@ -1,6 +1,6 @@
 ---
 title: Documentatie of trainingen maken met Taakregistraties
-description: In dit onderwerp wordt uitgelegd welke Taakregistratie en de instructies van de taak zijn, het maken van de taakregistratie, en het aanpassen van Microsoft-taak doorloopt en deze opnemen in uw hulp.
+description: In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, hoe u taakregistraties maakt en hoe u Microsoft-taakbegeleidingen aanpast en opneemt in uw Help.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,19 +27,22 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Documentatie of trainingen maken met Taakregistraties
-In dit onderwerp wordt uitgelegd welke Taakregistratie en de instructies van de taak zijn, het maken van de taakregistratie, en het aanpassen van Microsoft-taak doorloopt en deze opnemen in uw hulp.
+
+[!include[banner](../includes/banner.md)]
+
+In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, hoe u taakregistraties maakt en hoe u Microsoft-taakbegeleidingen aanpast en opneemt in uw Help.
 
 <a name="learn-about-task-recorder"></a>Meer informatie over Taakregistratie
 -------------------------
 
-Taakregistratie is een Microsoft Dynamics 365 for Operations tool die u gebruiken kunt voor het vastleggen van acties die u in de product-gebruikersinterface (UI) uitvoeren. Wanneer u Taakregistratie gebruikt, worden alle gebeurtenissen die u in de UI uitvoert die voor de server worden uitgevoerd, inclusief het toevoegen van waarden, wijzigen van instellingen, verwijderen van gegevens, vastgelegd. De stappen die u registreert worden samen een *taakregistratie* genoemd. Taakregistraties kunnen op verschillende manieren worden gebruikt:
+Taakrecorde is een hulpmiddel in Microsoft Dynamics 365 for Operations, waarmee u acties vast kunt leggen die u uitvoert in de gebruikersinterface (UI). Wanneer u Taakregistratie gebruikt, worden alle gebeurtenissen die u in de UI uitvoert die voor de server worden uitgevoerd, inclusief het toevoegen van waarden, wijzigen van instellingen, verwijderen van gegevens, vastgelegd. De stappen die u registreert worden samen een *taakregistratie* genoemd. Taakregistraties kunnen op verschillende manieren worden gebruikt:
 
--   **Taakregistratie kunnen worden afgespeeld als taakbegeleidingen.** Taak handleidingen zijn een integraal onderdeel van de Dynamics 365 voor bewerkingen Help-ervaring. Een taak gids is een gecontroleerde geleide, interactieve ervaring door de stappen van een bedrijfsproces. De gebruiker wordt door middel van een pop-upprompt (of ballon) om elke stap te voltooien, door de hele UI en het wijst naar het UI-element waarmee de gebruiker interactie aan moet gaan. De 'bel' geeft ook informatie over het werken met het element, zoals 'Klik hier' of "In dit veld een waarde invoeren." Handleiding voor een taak wordt uitgevoerd op de huidige gegevensset van de gebruiker en de gegevens die is ingevoerd in de omgeving van de gebruiker worden opgeslagen.
--   **Taakregistratie kunnen worden weergegeven als procedurele stappen in het Help-venster.** Het Help-venster kunt u zoeken naar en Taakregistratie weer te geven. U kunt het Help-venster openen door te klikken op de **?** Pictogram in de bovenste navigatiebalk of u kunt de sneltoets drukt, **Ctrl + Shift +?**. Vindt u de stappen van een taak registreren in het Help-venster of u kunt ervoor kiezen om te worden vastgelegd als leidraad taak spelen zodat die u bij de gebruikersinterface begeleidt.
--   **Taakregistraties kunnen worden opgeslagen in BPM.** U kunt uw taakregistratie opslaan op een regel van een hiërarchie in een Business Process Modeler (BPM)-bibliotheek in Lifecycle Services (LCS). Een lijst van stappen en een bedrijfsprocesstroomdiagram worden van de registratie gegenereerd. Taakregistratie die zijn opgeslagen in een BPM-bibliotheek kunnen worden weergegeven in Dynamics 365 voor bewerkingen zoals Help.
+-   **Taakregistratie kunnen worden afgespeeld als taakbegeleidingen.** Taakbegeleidingen zijn een integraal onderdeel van ervaring in de Help van Dynamics 365 for Operations. Een taakbegeleiding is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. De gebruiker wordt door middel van een pop-upprompt (of ballon) om elke stap te voltooien, door de hele UI en het wijst naar het UI-element waarmee de gebruiker interactie aan moet gaan. De 'ballon' geeft ook informatie over het werken met het element, zoals 'Klik hier' of 'In dit veld een waarde invoeren'. Een taakbegeleiding wordt uitgevoerd op de huidige gegevensset van de gebruiker en de ingevoerde gegevens worden opgeslagen in de omgeving van de gebruiker.
+-   **Taakregistraties kunnen als procedurestappen in het Help-deelvenster worden weergegeven.** U kunt het Help-deelvenster gebruiken om te zoeken naar Taakregistraties en deze weer te geven. U kunt het Help-deelvenster openen door te klikken op het pictogram **?** bovenin de navigatiebalk of u kunt de sneltoetscombinatie **Ctrl+Shift+?** gebruiken. U kunt de stappen van een taakregistratie in het Help-deelvenster lezen, of u kunt ervoor kiezen de registratie als een taakbegeleiding af te spelen zodat deze u door UI begeleidt.
+-   **Taakregistraties kunnen worden opgeslagen in BPM.** U kunt uw taakregistratie opslaan op een regel van een hiërarchie in een Business Process Modeler (BPM)-bibliotheek in Lifecycle Services (LCS). Een lijst van stappen en een bedrijfsprocesstroomdiagram worden van de registratie gegenereerd. Taakregistraties die in een taak BPM-bibliotheek zijn opgeslagen, kunnen in Dynamics 365 for Operations als Help worden weergegeven.
 -   **Taakregistraties kunnen als Word-documenten worden opgeslagen.** Zo kunt u eenvoudig afdrukbare trainingshandleidingen produceren.
 
-U kunt uw eigen Taakregistratie maken, spelen Taakregistratie geleverd door Microsoft of Microsoft geleverde Taakregistratie zodat uw configuratie wijzigen. Zie voor meer informatie over de taakregistratie, [Taakregistratie in Dynamics 365 voor bewerkingen](task-recorder.md).
+U kunt uw eigen taakregistraties maken, door Microsoft geleverde taakregistraties afspelen of wijzigen, zodat uw configuratie wordt weerspiegelt. Voor meer informatie over Taakregistratie, zie [Taakregistratie in Dynamics 365 for Operations](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Uw taakregistratie plannen
 Of u nou een nieuwe taakregistratie maakt of uw registratie baseert op een Microsoft-taakregistratie, houd rekening met de volgende informatie.
@@ -55,19 +58,19 @@ Of u nou een nieuwe taakregistratie maakt of uw registratie baseert op een Micro
 **Schrijf op tijd de omschrijving voor aantekeningen**
 
 -   Aan het begin van elke taakregistratie is er een omschrijvingsveld waarmee u een inleiding tot de registratie kunt invoeren. Het is daarom een goed idee om de omschrijving op tijd in een apart document te schrijven en op te slaan, zodat u de taakregistratie kunt kopiëren en plakken wanneer u registreert. Op die manier kan u de tijd besteden om de tekst te verfijnen wanneer met de registratie bezig bent. Door het knippen en plakken van de tekst gaat het registratieproces sneller en eenvoudiger.
--   Voor elke stap in een taakregistratie kunt u aantekeningen maken. Tijdens het afspelen van een taakbegeleiding verschijnen de aantekeningen in de "ballon" als notities boven of onder de tekst voor de stap. Als het weergegeven als tekst in het Help-venster, worden aantekeningen weergegeven als in line tekst in de stap. Zoals met de omschrijving, is het een goed idee om uw aantekeningen in een apart document te schrijven en op te slaan. Wanneer u de taakregistratie opneemt, knipt en plakt u de aantekeningen vanuit dat document.
+-   Voor elke stap in een taakregistratie kunt u aantekeningen maken. Tijdens het afspelen van een taakbegeleiding verschijnen de aantekeningen in de "ballon" als notities boven of onder de tekst voor de stap. Wanneer aantekeningen worden weergegeven als tekst in het Help-deelvenster verschijnen aantekeningen inline in de stap. Zoals met de omschrijving, is het een goed idee om uw aantekeningen in een apart document te schrijven en op te slaan. Wanneer u de taakregistratie opneemt, knipt en plakt u de aantekeningen vanuit dat document.
 
 **Inzicht in verschillende typen aantekeningen** Alle aantekeningen zijn optioneel. Voeg ze alleen toe wanneer ze nuttige informatie voor de gebruiker bevatten.
 
--   **Titel**: een aantekening titel weergegeven voordat de tekst van de stap die taak recorder automatisch worden gegenereerd. In de handleiding van de taak, wordt het commentaar titel verschijnt boven de automatisch gegenereerde tekst. Gebruik dit type aantekening om uit te leggen waarom de gebruiker de stap doet of om extra context te geven.
+-   **Titel:** Een titelaantekening wordt weergegeven vóór de staptekst die taakregistratie automatisch genereert. In de taakbegeleiding wordt de titelaantekening weergegeven boven de automatisch gegenereerde tekst. Gebruik dit type aantekening om uit te leggen waarom de gebruiker de stap doet of om extra context te geven.
 
 Dit is het bewerkingsdeelvenster dat u ziet wanneer u een aantekening toevoegt als u de registratie maakt. Typ een titelaantekening in het vak **Titel**. 
 
-[![scherm1](./media/screen1.png)](./media/screen1.png) 
+[![screen1](./media/screen1.png)](./media/screen1.png) 
 
 Zo ziet de titelaantekening eruit in de "ballon" in de taakbegeleider. 
 
-[![--scherm2](./media/screen2.png)](./media/screen2.png)
+[![screen2](./media/screen2.png)](./media/screen2.png)
 
 -   **Opmerkingen:** een notitiesaantekening wordt weergegeven na de staptekst die taakregistratie automatisch genereert. In de taakbegeleiding wordt deze alleen zichtbaar als de gebruiker op de koppeling **Meer weergeven** in de ballon van de taakbegeleiding klikt. Gebruik dit type aantekening om alles te beschrijven wat een gebruiker moet weten om de stap te voltooien.
 
@@ -75,11 +78,11 @@ Dit is het bewerkingsdeelvenster dat u ziet wanneer u een aantekening toevoegt a
 
 [![screen3](./media/screen3.png)](./media/screen3.png) 
 
-Dit is het commentaar notities ziet er als in de 'bel' in de handleiding van de taak.
+Zo ziet de notitieaantekening eruit in de 'ballon' in de taakbegeleiding.
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Info stap**: deze aantekeningen worden gemaakt met de rechtermuisknop te klikken op een besturingselement of een willekeurige plaats in een formulier &lt;**Taakregistratie**&lt; ** info-stap toevoegen. ** Info stappen worden weergegeven als een genummerde stap op de plaats van u het invoegen, zelfs als er geen actie is vastgelegd in de gebruikersinterface. U kunt een infostap op formulierniveau toevoegen of een infostap toevoegen die aan een besturingselement is gekoppeld. Wanneer een infostap met een formulier is gekoppeld, wordt de taakbegeleidingballon ergens op het formulier weergegeven, zonder aanwijzer, wanneer de taakbegeleiding wordt afgespeeld. Wanneer een stap info gekoppeld aan een besturingselement is, verwijst een handleiding voor de taak 'bel' naar het besturingselement bij het afspelen van de handleiding van de taak. In het Help-venster wordt info stap commentaar weergegeven als een genummerde stap met de tekst die u hebt ingevoerd. Info stappen gebruik te maken van de gebruiker voor de volgende stappen beschrijven de stappen die moet worden gedaan buiten Dynamics 365 for Operations of om te verwijzen naar andere opnamen (Hoewel u geen hyperinks maken in aantekeningen.).
+-   **Info stap**: Deze aantekeningen worden gemaakt door met de rechtermuisknop te klikken op een besturingselement of overal op een formulier &lt; **Taakrecorder** &lt; **Infostap toevoegen. **Infostappen verschijnen als genummerde stap bij het punt waar u ze invoegt, zelfs als geen actie in de UI is geregistreerd. U kunt een infostap op formulierniveau toevoegen of een infostap toevoegen die aan een besturingselement is gekoppeld. Wanneer een infostap met een formulier is gekoppeld, wordt de taakbegeleidingballon ergens op het formulier weergegeven, zonder aanwijzer, wanneer de taakbegeleiding wordt afgespeeld. Wanneer een infostap aan een besturingselement is gekoppeld, wijst de taakbegeleidingballon naar het besturingselement wanneer de taakbegeleiding wordt afgespeeld. In het Help-deelvenster wordt een infostapaantekening als een genummerde stap weergegeven met de tekst u hebt ingevoerd. De stappen van de gebruiksinfo om de gebruiker voor de volgende stappen voor te bereiden, beschrijven stappen die buiten Dynamics 365 for Operations moeten worden uitgevoerd of om naar andere registraties te verwijzen (hoewel u geen hyperlinks in aantekeningen kunt maken).
 
 **Bepaal hoe lang het duurt om de registratie te maken**
 
@@ -89,42 +92,44 @@ Dit is het commentaar notities ziet er als in de 'bel' in de handleiding van de 
 -   Als het proces meerdere taken heeft die de persoon waarschijnlijk tegelijk doet, kunt u de taken in één registratie houden, bijvoorbeeld "Functionaliteitprofielen instellen en toewijzen".
 -   Als het iets is dat iemand één keer doet (zoals configuratie) en een andere taak die ze onmiddellijk erna maar herhaaldelijk en apart kunnen doen, splitst u ze op in twee taakregistraties.
 
-**Bepaalt waar in de gebruikersinterface, opname moet starten** de pagina waarop u zich bevindt wanneer u start het vastleggen van de registratie van een taak is van invloed op welke pagina voor de handleiding van de taak weergegeven. Als u wilt dat het registreren van uw taak om te worden vermeld in het Help-venster wanneer een gebruiker op Help op de pagina van de parameters voor het grootboek, moet u de opname starten op de pagina van de parameters voor het grootboek. **Registraties opslaan als .axtr-bestanden** Wanneer u klaar bent met het maken of bewerken van een taakregistratie, krijgt u verschillende opties voor hoe u de registratie wilt downloaden of opslaan. U kunt het bestand downloaden als een taakregistratiepakket (.axtr), als onbewerkt registratiebestand (xml-bestand ) downloaden, als Word-document downloaden, of het bestand in een LCS-bibliotheek opslaan. Het is daarom een goed idee om de taakregistratie op te slaan als een taakregistratiepakketbestand (.axtr). Dit zal helpen om het onderhoud van het bestand eenvoudiger te maken als de procedures of de aantekeningen later moeten wijzigen. Als u het bestand als een Word-document wilt downloaden, slaat u het ook op als een taakregistratiepakketbestand.
+**Bepaal waar in de UI een registratie moet worden gestart** De pagina waarop u bent wanneer het opnemen van een taakregistratie start, bepaalt voor welke pagina de taakbegeleiding wordt weergegeven. Als u bijvoorbeeld wilt dat uw taakregistratie wordt vermeld in het Help-deelvenster wanneer een gebruiker klikt op de parameterspagina van Grootboek, dan moet u de registratie op die pagina starten. **Registraties opslaan als .axtr-bestanden** Wanneer u klaar bent met het maken of bewerken van een taakregistratie, krijgt u verschillende opties voor hoe u de registratie wilt downloaden of opslaan. U kunt het bestand downloaden als een taakregistratiepakket (.axtr), als onbewerkt registratiebestand (xml-bestand ) downloaden, als Word-document downloaden, of het bestand in een LCS-bibliotheek opslaan. Het is daarom een goed idee om de taakregistratie op te slaan als een taakregistratiepakketbestand (.axtr). Dit zal helpen om het onderhoud van het bestand eenvoudiger te maken als de procedures of de aantekeningen later moeten wijzigen. Als u het bestand als een Word-document wilt downloaden, slaat u het ook op als een taakregistratiepakketbestand.
 
 ## <a name="create-your-task-recording"></a>Uw taakregistratie maken
-Zie voor gedetailleerde overzicht stappen, [het maken van een taak vastleggen](task-recorder.md).
+Voor gedetailleerde stapsgewijze instructies, zie [Een taakregistratie maken](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Taakregistraties van Microsoft kopiëren en aanpassen
-U kunt downloaden en bewerken van de taakregistratie van Microsoft om ze te gebruiken voor uw eigen Help-documentatie of de trainingsmaterialen. Om een Microsoft-taakregistratie te downloaden, volgt u deze stappen:
+U kunt de taakregistraties van Microsoft downloaden en bewerken om ze voor uw eigen Help-documentatie of trainingsmaterialen te gebruiken. Om een Microsoft-taakregistratie te downloaden, volgt u deze stappen:
 
-1.  Open in Dynamics 365 for Operations, Taakregistratie. Taakregistratie bevindt zich in het menu **Instellingen**.
+1.  Open de Taakrecorder in Dynamics 365 for Operations Taakregistratie bevindt zich in het menu **Instellingen**.
 2.  Klik in het Taakregistratie-deelvenster op **Een registratie beheren**.
 3.  Klik onder **Waar is de opname?** op **Het bevindt zich in een LCS-bibliotheek**.
 4.  Klik op **De LCS-bibliotheek selecteren**.
-5.  Selecteer de algemene bibliotheek van Microsoft.
+5.  Selecteer de globale bibliotheek van Microsoft.
 6.  In de structuur selecteert u het knooppunt van de bedrijfsprocesbibliotheek waaraan de taakregistratie is gekoppeld.
 7.  Klik tot slot op **OK**.
 8.  Klik op **Start**.
-9.  Op dit moment stap tot en met de registratie, stappen wijzigen terwijl u deze nog een keer opnemen. **opmerking**: als u alleen de tekst van een opname wijzigen wilt, opent u de opname in **aantekeningen van een registratie bewerken** modus, en vervolgens op te slaan.
+9.  Op dit punt loopt u door de registratie en wijzigt u stappen om opnieuw op te nemen. **Opmerking**: Als u alleen de tekst van een registratie moet wijzigen, kunt u de registratie in de modus **Aantekeningen van een registratie bewerken** openen en vervolgens opslaan.
 10. Nadat de registratie helemaal is afgespeeld, klikt u op **Stoppen** in de taakregistratiebalk boven aan het scherm.
 11. Geef op hoe u de taakregistratie wilt opslaan.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Uw Taakregistratie opnemen in het Help-venster
-Als uw eigen aangepaste Taakregistratie in het Help-venster weergeven, zodat ze kunnen worden afgespeeld als leidraad taak of als tekst weergegeven, moet u uw Taakregistratie opslaan in uw eigen BPM-bibliotheek en werk vervolgens uw Help-systeemparameters om te verwijzen naar de BPM-bibliotheek. Zie voor meer informatie [verbinding maken met het Help-systeem.](../get-started/help-connect.md)
+## <a name="include-your-task-recordings-in-the-help-pane"></a>Uw taakregistraties opnemen in het Help-deelvenster
+Om uw eigen taakregistraties in het Help-deelvenster weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Voor meer informatie, zie [Het Help-systeem verbinden](../get-started/help-connect.md).
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Help bij Dynamics 365 voor bewerkingen](..\get-started\help-overview.md)
+[Dynamics 365 for Operations Help](..\get-started\help-overview.md)
 
 [Verbinding maken met Help](..\get-started\help-connect.md)
 
-[Taakregistratie in Dynamics 365 voor bewerkingen](task-recorder.md)
+[Taakrecorder in Dynamics 365 for Operations](task-recorder.md)
 
-[Taakfuncties recorder als laatste is toegevoegd](\core\get-started\recently-added-editing-features-in-task-recorder)
+[Recentelijk toegevoegde functies in Taakrecorder](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Nieuwe opleiding bibliotheken maken voor Dynamics AX binnen Lifecycle Services met behulp van Taakregistratie (externe koppeling)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Creating new training libraries for Dynamics AX within Lifecycle Services using the Task recorder (externe koppeling)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
-[Uitgebreide Help-onderwerpen met Taakregistratie (externe koppeling) maken](https://mbspartner.microsoft.com/AX/Videos/970)
+[Create Rich Help Topics with Task Recorder (externe koppeling)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
 
 

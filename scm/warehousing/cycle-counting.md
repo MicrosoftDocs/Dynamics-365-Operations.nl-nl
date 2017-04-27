@@ -102,7 +102,7 @@ Er zijn twee manieren om het herhalend maken van cyclustellingswerk in te planne
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Maak cyclustellingswerk gebaseerd op een drempelparameters voor artikelen
 
-Cyclustellingswerk kan worden aangemaakt als het aantal artikelen in een locatie onder een opgegeven drempelwaarde valt. Er zijn bijvoorbeeld 60 items in een locatie met een Cyclustelling van 40. Tijdens een verkoopordertransactie 25 artikelen verzameld vanaf de locatie en in een tijdelijke locatie plaatsen. Omdat de nieuwe artikeltelling minder is dan de drempelhoeveelheid van 35, wordt het cyclustelling werk automatisch aangemaakt voor de locatie.
+Cyclustellingswerk kan worden aangemaakt als het aantal artikelen in een locatie onder een opgegeven drempelwaarde valt. Er zijn bijvoorbeeld 60 artikelen op een locatie met een cyclustellingdrempel van 40. Tijdens een verkoopordertransactie worden 25 artikelen verzameld vanaf de locatie en op een tijdelijke locatie geplaatst. Omdat de nieuwe artikeltelling minder is dan de drempelhoeveelheid van 35, wordt het cyclustelling werk automatisch aangemaakt voor de locatie.
 
 ### <a name="schedule-cycle-counting-work"></a>Cyclustellings werk schema
 
@@ -129,7 +129,7 @@ In de volgende procedure wordt getoond hoe u plaatscyclustelling kunt uitvoeren 
 ## <a name="resolve-cycle-counting-differences"></a>Verschil in cyclustellingen oplossen
 Een cyclustellingsverschil treedt op in de volgende scenario´s, als de optie **Is een cyclustellingssupervisor** is ingesteld op **Nee** voor een werkgebruikers-id:
 
--   De getelde waarde ligt niet binnen de afwijkingslimieten die zijn opgegeven in de velden **Maximale percentagelimiet** of **Maximale hoeveelheidslimiet** op de pagina **Werkgebruikers**. Bijvoorbeeld: de hoeveelheid voorhanden voorraad op een locatie is 50 en de maximale afwijking voor de gebruiker werk is 10. Als de gebruiker werk een waarde die niet tussen 40 en 60 invoert, treedt er een verschil op.
+-   De getelde waarde ligt niet binnen de afwijkingslimieten die zijn opgegeven in de velden **Maximale percentagelimiet** of **Maximale hoeveelheidslimiet** op de pagina **Werkgebruikers**. Bijvoorbeeld: de hoeveelheid voorhanden voorraad op een locatie is 50 en de maximale afwijking voor de werkgebruiker is 10. Als de werkgebruiker een waarde invoert die niet tussen 40 en 60 ligt, treedt er een verschil op.
 -   De getelde waarde verschilt van de voorhand voorraadhoeveelheid en er zijn geen afwijkingslimieten ingesteld.
 
 U kunt verschillen in de getelde waarde aanpassen en vervolgens de getelde waarde op de pagina **Cyclustellingswerk in afwachting van controle** accepteren. U kun de aangepaste telling van de artikelhoeveelheid verifiëren op de pagina **Voorhanden voorraad per locatie**. De getelde waarde wordt afgewezen als het verschil niet kan worden goedgekeurd.

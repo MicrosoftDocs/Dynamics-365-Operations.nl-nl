@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Integratie vaste activa
 
+[!include[banner](../includes/banner.md)]
+
+
 Vaste activa kunnen worden gebruikt in Grootboek, Voorraadbeheer, Klanten en Leveranciers. U kunt vaste activa ook integreren met inkooporders.
 
 <a name="general-ledger"></a>Grootboek
@@ -82,7 +85,7 @@ De integratie wordt voor elke orderregel geactiveerd op het tabblad **Vaste acti
 ## <a name="project-management-and-accounting"></a>Projectbeheer en boekhouding
 U kunt een project koppelen aan een activum dat door het project wordt beïnvloed. Ook kunt u elke fase, elke taak of elk subproject aan een ander activum koppelen. Een activum kan worden gekoppeld aan een record van elk project. U brengt de koppeling tot stand wanneer u het nummer van het vaste activum invoert in het veld **Vaste-activanummer** op de pagina **Projecten**. Het projecttype moet **Intern** zijn of **Kostenproject**. 
 
-Ook kunt u met de pagina **Projecten** details bekijken over activa die aan projecten zijn gekoppeld. U geeft de record voor vaste activa weer door te klikken op de koppeling van het activum op het sneltabblad **Instellingen** en zo de pagina **Vaste activa** te openen. Klik vervolgens op **projecten**&gt;**alle projecten** om de projecten die gekoppeld aan het vaste activum zijn weer te geven. 
+Ook kunt u met de pagina **Projecten** details bekijken over activa die aan projecten zijn gekoppeld. U geeft de record voor vaste activa weer door te klikken op de koppeling van het activum op het sneltabblad **Instellingen** en zo de pagina **Vaste activa** te openen. Klik vervolgens op **Projecten** &gt; **Alle projecten** om de projecten weer te geven die aan het vaste activum zijn gekoppeld. 
 
 U koppelt vaste activa gewoonlijk met projecten wanneer de projecten zijn gerelateerd aan het werk, onderhoud of verbeteringen voor het activum. Wanneer het project is voltooid, wordt een opwaarderingscorrectie voor het activum niet automatisch gemaakt. Daarom moet u de opwaarderingscorrectie handmatig maken als dit nodig is. 
 
@@ -90,6 +93,8 @@ U verwijdert de koppeling tussen een project en een activum door het veld **Vast
 
 U kunt ook een vast activum aangeven dat u als onderdeel van een ramingsproject maakt. Aan het eind van het ramingsproject kunt u automatisch een bijboekingstransactie voor een activum boeken.
 
-Zie voor meer informatie [verwerving van activa via inkoop](acquire-assets-procurement.md)
+Zie voor meer informatie [Verwerving van activa via inkoop](acquire-assets-procurement.md)
+
+
 
 

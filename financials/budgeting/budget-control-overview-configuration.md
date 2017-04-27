@@ -1,6 +1,6 @@
 ---
-title: Budget-overzicht
-description: "Dit artikel introduceert budgetbeheer gebruikt en wordt uitgelegd hoe u budgetbeheer configureert in Microsoft Dynamics 365 voor bewerkingen, zodat u kunt financiële middelen beheren."
+title: Overzicht van budgetbeheer
+description: "Dit artikel bevat een inleiding tot budgetbeheer en biedt informatie om u te helpen bij het configureren van budgetbeheer in Microsoft Dynamics 365 for Operations zodat u financiële middelen kunt beheren."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,24 +24,27 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-control-overview"></a>Budget-overzicht
+# <a name="budget-control-overview"></a>Overzicht van budgetbeheer
 
-Dit artikel introduceert budgetbeheer gebruikt en wordt uitgelegd hoe u budgetbeheer configureert in Microsoft Dynamics 365 voor bewerkingen, zodat u kunt financiële middelen beheren.
+[!include[banner](../includes/banner.md)]
+
+
+Dit artikel bevat een inleiding tot budgetbeheer en biedt informatie om u te helpen bij het configureren van budgetbeheer in Microsoft Dynamics 365 for Operations zodat u financiële middelen kunt beheren.
 
 <a name="overview"></a>Overzicht
 --------
 
-Budgetbeheer in Microsoft Dynamics 365 voor bewerkingen ondersteunt beheer van financiële middelen tot en met het rekeningschema, workflows, gebruikersgroepen, brondocumenten en journalen, configureerbare berekening van beschikbare budgetfondsen, budgetcycli en drempelwaarden van een organisatie. Wanneer de juiste controles plaatsvinden, kan een organisatie de financiële middelen het hele fiscale jaar door plannen, meten, beheren en voorspellen. 
+Budgetbeheer in Microsoft Dynamics 365 for Operations ondersteunt het beheer van de financiële middelen van een organisatie door middel van rekeningschema´s, workflows, gebruikersgroepen, brondocumenten en journalen, configureerbare berekening van beschikbare fondsen, budgetcycli en drempels. Wanneer de juiste controles plaatsvinden, kan een organisatie de financiële middelen het hele fiscale jaar door plannen, meten, beheren en voorspellen. 
 
-Nadat de budgetten in Dynamics 365 voor bewerkingen zijn goedgekeurd, kunt u budgetplannen voor het genereren van budgetregisterregels om vast te leggen van de begroting der uitgaven voor een organisatie. U kunt ook maken, of budgetregisterregels importeren vanuit een programma van derden in plaats van de functie voor het plannen van budgetten. 
+Nadat de budgetten zijn goedgekeurd in Dynamics 365 for Operations, kunt u budgetplannen gebruiken om budgetjournaalposten te genereren voor het registreren van het uitgavebudget voor een organisatie. Als alternatief kunt u budgetjournaalposten maken of importeren met software van derden in plaats van de budgetplanningsfunctionaliteit te gebruiken. 
 
 Uitgaven kunnen worden geregistreerd met behulp van hoofdrekeningen en financiële dimensies. U kunt de controle van de algehele uitgaven configureren te voldoen aan debeleidsregels en behoeften van de organisatie door combinaties van financiële dimensies en hoofdrekeningen te groeperen. 
 
 De volgende diagram laat de plaats van het budgetbeheer zien in de fasen van een gebruikelijke budgetcyclus.
 
-[![budgetingCycle](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
+[![BudgetingCycle](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
 
-Kunt u budgetbeheer op basis van verschillende factoren:
+U kunt budgetbeheer op basis van verschillende factoren configureren:
 
 -   **Financiële dimensies** – Welke financiële dimensies moeten worden gebruikt voor het rapporteren van budget en werkelijke cijfers en welke financiële dimensies zijn vereist voor budgetbeheer? Zijn er specifieke combinaties van dimensies of hoofdrekeningen die speciale aandacht eisen? Is er bijvoorbeeld een vereiste om budget naar werkelijke cijfers bij te houden per kostenplaats en programma? Vereisen reiskosten speciale aandacht?
 -   **Tijd** – Welk tijdsbestek (boekperiode, boekperiode tot heden enzovoort) wordt gebruikt om beschikbare budgetfondsen te beoordelen?
@@ -49,14 +52,14 @@ Kunt u budgetbeheer op basis van verschillende factoren:
 -   **Berekening van beschikbare fondsen** – Moet bij de berekening van beschikbare fondsen rekening worden gehouden met documenten zoals opdrachten tot inkoop (voorvorderingen) en inkooporders (vorderingen)? Moet bij de berekening rekening worden gehouden met documenten in een conceptstatus?
 -   **Machtigingen overschrijven** – Wie heeft machtiging om het beschikbare budget te overschrijden?
 
-Budgetbeheer is volledig geïntegreerd met Dynamics 365 voor bewerkingen. Daarom kunt u het beschikbare budget voor zowel geplande als werkelijke inkopen evalueren. Er zijn vragen en rapporten over budgetten beschikbaar. Gebruikers kunnen hierdoor gedurende de hele budgetcyclus het budget beoordelen en vervolgens eventueel benodigde correcties in de vorm van budgetrevisies of overboekingen. Een budgetbeheerder kan ook het budget en werkelijke cijfers exporteren naar Microsoft Excel om deze, indien nodig, beter te analyseren en voorspellen.
+Budgetbeheer is volledig geïntegreerd met Dynamics 365 for Operations. Daarom kunt u het beschikbare budget voor zowel geplande als werkelijke inkopen evalueren. Er zijn vragen en rapporten over budgetten beschikbaar. Gebruikers kunnen hierdoor gedurende de hele budgetcyclus het budget beoordelen en vervolgens eventueel benodigde correcties in de vorm van budgetrevisies of overboekingen. Een budgetbeheerder kan ook het budget en werkelijke cijfers exporteren naar Microsoft Excel om deze, indien nodig, beter te analyseren en voorspellen.
 
 ## <a name="configuring-budget-control"></a>Budgetbeheer configureren
 ### <a name="budget-cycle-time-span"></a>Budgetcyclusduur
 
 Nadat u basisbudgettering hebt geconfigureerd, kunt u de tijd of de begin- en eindperioden voor budgettering en budgetbeheer definiëren op de pagina **Budgetcyclusduur**. Budgetcycli komen vaak overeen met fiscale kalenders, maar kunnen fiscale jaren beslaan.
 
-De volgende stappen in de configuratie worden uitgevoerd op de verschillende tabbladen voor de **budgetbeheerconfiguratie** pagina.
+De volgende stappen in de configuratie worden voltooid op de verschillende tabbladen op de pagina **Budgetbeheerconfiguratie**.
 
 ### <a name="define-parameters"></a>Parameters definiëren
 
@@ -77,7 +80,7 @@ Vervolgens kunt u op het tabblad **Machtigingen om boven het budget te gaan** ge
 Vervolgens kunt u op het tabblad **Beschikbare budgetfondsen** de formule definiëren die wordt gebruikt om beschikbare budgetfondsen te berekenen. Afhankelijk van hoe conservatief een organisatie zijn financiële middelen beheert, of afhankelijk van de regelgeving of industrievereisten, kan de berekening conceptdocumenten of niet-geboekte documenten bevatten. 
 
 > [!NOTE] 
-> Als de berekening wordt gewijzigd tijdens een budgetcyclus, hebben de wijzigingen geen invloed op documenten die het besturingselement budgetcontroles eerder is uitgevoerd en die zijn geboekt of voltooid.
+> Als deze berekening tijdens een budgetcyclus wordt gewijzigd, zijn de wijzigingen niet van invloed op documenten die eerder door budgetbeheercontroles heen zijn gekomen en zijn geboekt of voltooid.
 
 ### <a name="documents-and-journals"></a>Documenten en journalen
 
@@ -96,7 +99,7 @@ Vervolgens wijst u, op het tabblad **Budgetmodellen toewijzen** budgetmodellen t
 Vervolgens moet u op het tabblad **Regels voor budgetbeheer definiëren** specifieke regels maken op basis van financiële dimensies die zijn ingeschakeld voor budgetbeheer. Als er bijvoorbeeld nadruk ligt op de uitgaven of het bereik van uitgaven voor een afdeling, kunt u de instellingen op dit tabblad gebruiken voor het definiëren en beoordelen van die uitgaven. U kunt vrschillende drempels definiëren voor elke regel voor budgetbeheer. 
 
 > [!Important]
-> Budgetbeheer wordt ingeschakeld voor elke hoofdrekening van de **verlies-en**, **onkosten**, **opbrengst, balans, passiva en eigen vermogen** of **activa** type. Als dit tabblad een regel bevat met lege criteria, wordt budgetbeheer ingeschakeld voor **alle **combinaties van financiële dimensies die hoofdrekeningen van deze typen bevatten. Zorg er daarom voor dat u regels voor budgetbeheer maakt die alleen de bereiken definiëren van financiële dimensiecombinaties waarbij het belangrijk is dat budgetbeheer wordt ingeschakeld.  
+> Budgetbeheer wordt ingeschakeld voor elke hoofdrekening van het type **Winst en verlies**, **Onkosten**, **Opbrengst, Balans, Passiva, Eigen vermogen** of **Activa**. Als dit tabblad een regel bevat met lege criteria, wordt budgetbeheer ingeschakeld voor **alle **combinaties van financiële dimensies die hoofdrekeningen van deze typen bevatten. Zorg er daarom voor dat u regels voor budgetbeheer maakt die alleen de bereiken definiëren van financiële dimensiecombinaties waarbij het belangrijk is dat budgetbeheer wordt ingeschakeld.  
 
 ### <a name="select-main-accounts"></a>Hoofdrekeningen selecteren
 
@@ -114,15 +117,17 @@ Als waarschuwingsberichten voor budgetbeheer moeten worden onderdrukt voor gebru
 
 Nadat budgetbeheer is geconfigureerd, kunt u dit inschakelen en het activeren op het tabblad **Budgetbeheer activeren**. De conceptversie wordt dan van kracht.
 > [!Important]
-> Nadat budgetbeheer is ingeschakeld en actief en nadat transacties zijn geboekt, moet deze niet worden uitgeschakeld om het midden van het jaar. Wanneer budgetbeheer is uitgeschakeld, worden geen activiteiten geregistreerd ten behoeve van budgetbeheer en worden er geen budgetcontroles meer uitgevoerd. Daarom geven documenten die reeds zijn geboekt mogelijk niet op de juiste wijze ontlastende bedragen of saldi weer in query's en rapporten die verband houden met budgetbeheer. Deze omvatten statistieken voor budgetbeheer voor eventuele downstream of correctiedocumenten en -journalen. 
+> Nadat budgetbeheer is ingeschakeld en actief is en nadat transacties zijn geboekt, mag budgetbeheer niet halverwege het jaar worden uitgeschakeld. Wanneer budgetbeheer is uitgeschakeld, worden geen activiteiten geregistreerd ten behoeve van budgetbeheer en worden er geen budgetcontroles meer uitgevoerd. Daarom geven documenten die reeds zijn geboekt mogelijk niet op de juiste wijze ontlastende bedragen of saldi weer in query's en rapporten die verband houden met budgetbeheer. Deze omvatten statistieken voor budgetbeheer voor eventuele downstream of correctiedocumenten en -journalen. 
 
 Bovendien wordt geen rekening gehouden met transacties die zijn geboekt voordat budgetbeheer werd ingeschakeld. Daarom is het raadzaam om budgetbeheer alleen aan het begin van een nieuwe budgetcyclus in te schakelen. Zorg ervoor dat budgetregisterposten die beginbudgetsaldi voor budgetbeheer bevatten alleen worden bijgewerkt nadat budgetbeheer is ingeschakeld. Elk openstaand document (bijvoorbeeld een inkooporder) wordt gecontroleerd op beschikbare budgetfondsen en krijgt een budgetreservering voor budgetbeheer wanneer een gebruiker handmatig een budgetbeheercontrole activeert in het document.
 
 ## <a name="using-budget-control"></a>Budgetbeheer gebruiken
 Nadat budgetbeheer is ingeschakeld, ontvangen gebruikers waarschuwings- en foutberichten in verband met budgetbeheer in documenten en journalen die voor budgetbeheer zijn geconfigureerd. Onthoud dat u budgetbeheer kunt configureren zodat gebruikers worden gewaarschuwd wanneer ze de budgetfondsen overschrijden, maar nog steeds de transactie kunnen bevestigen of boeken. Gebruikers kunnen de details van mislukte budgetcontroles bekijken op de pagina **Budgetbeheerfouten en waarschuwingen**.   
 
-Gebruikers kunnen op deze pagina inzoomen op de **budgetbeheerstatistieken per periode** pagina beschikbaarheid budgetgegevens weergeven en reserveringen voor geselecteerde budget control dimensiecombinatie. Gebruikers kunnen ook inzoomen op de pagina **Budgetbeheerstatistiek **om de budgetbeschikbaarheid te bekijken voor alle dimensies van financiële dimensies die worden gebruikt in budgetbeheer. 
+Vanaf deze pagina kunnen gebruikers op de pagina **Statistieken voor budgetbeheer per periode** de details en reserveringen voor budgetbeschikbaarheid bekijken voor een geselecteerde combinatie van budgetbeheerdimensies. Gebruikers kunnen ook inzoomen op de pagina **Budgetbeheerstatistiek **om de budgetbeschikbaarheid te bekijken voor alle dimensies van financiële dimensies die worden gebruikt in budgetbeheer. 
 
 Als budgetbeheer is ingeschakeld voor inkooporders, kan de budgetbeheerder de werkruimte **Grootboekbudgetten en prognoses** gebruiken om de wachtrij te bekijken van alle niet-bevestigde inkooporders met budgetcontrolewaarschuwingen en -fouten. Als de budgetbeheerder machtigingen om over budget te gaan heeft geconfigureerd, kan hij of zij inkooporders rechtstreeks in de werkruimte bevestigen.    
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configuration-rules"></a>Configuratieregels
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft algemene informatie over configuratieregels. Configuratieregels definiëren relaties tussen artikelen in een stuklijst (BOM) voor producten die op dimensies gebaseerde configuratietechnologie gebruiken.
 
 Configuratieregels zijn beschikbaar wanneer u op dimensies gebaseerde configuratiemodellen definieert. Configuratieregels worden gebruikt om specifieke artikelcombinaties in een stuklijst af te dwingen of te verbieden. Nadat een stuklijst is gemaakt en de relevante artikelen aan hun respectievelijke configuratiegroepen zijn toegewezen, kunnen een of meer configuratieregels worden gedefinieerd. Als twee artikelen bij elkaar horen, wordt de operator **Selecteren** gebruikt om opname te garanderen. Als twee artikelen elkaar wederzijds uitsluiten, wordt de operator **Selectie opheffen** gebruikt om uitsluiting te garanderen.  
@@ -42,5 +45,7 @@ Het wijzigen van configuratieregels heeft geen invloed op bestaande configuratie
 --------
 
 [Op dimensie gebaseerde productconfiguratie](dimension-based-product-configuration.md)
+
+
 
 

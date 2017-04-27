@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>De eigenschappen van een workflow configureren
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een workflow configureert.
 
 Open de workflow in de workfloweditor om de eigenschappen van een specifiek workflowelement te configureren. Klik op het tekenpapier van de workfloweditor en klik op **Eigenschappen** om de pagina **Eigenschappen** te openen. Met behulp van de volgende procedures kunt u de verschillende eigenschappen van de workflow configureren.
@@ -147,10 +150,10 @@ Als een document wordt ingediend voor verwerking, wordt een workflowexemplaar ge
     </tr>
     <tr class="odd">
     <td>Gebruiker</td>
-    <td>Specifieke Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Klik op het tabblad <strong>Ontvanger</strong> op <strong>Gebruiker</strong>.</li>
-    <li>Op de <strong>gebruiker</strong> tabblad, de <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>Op het tabblad <strong>Gebruiker</strong> bevat de lijst <strong>Beschikbare gebruikers</strong> alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Voer de volgende stappen uit om opmerkingen in te voeren over de wijzigingen die
 2.  Voer in het veld **Opmerkingen over de workflow invoeren** uw opmerkingen in.
 3.  Uw opmerkingen controleren. Nadat u opmerkingen hebt toegevoegd, kunt u deze niet meer wijzigen.
 4.  Klik op **Toevoegen** om uw opmerkingen aan het gebied **Opmerkingshistorie** toe te voegen.
+
+
 
 
 

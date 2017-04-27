@@ -1,6 +1,6 @@
 ---
 title: Samenvoeging van waardemodellen en afschrijvingsboeken voor vaste activa
-description: "In eerdere versies zijn er twee waardering concepten voor vaste activa - waardemodellen en afschrijvingsboeken. In de Microsoft Dynamics 365 voor bewerkingen 1611 versie van zijn de functionaliteit van waardemodel en afschrijvingsboek boek functionaliteit samengevoegd tot één begrip die een boek wordt genoemd."
+description: "In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In versie 1611 van Microsoft Dynamics 365 for Operations zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samenvoeging van waardemodellen en afschrijvingsboeken voor vaste activa
 
-In eerdere versies zijn er twee waardering concepten voor vaste activa - waardemodellen en afschrijvingsboeken. In de Microsoft Dynamics 365 voor bewerkingen 1611 versie van zijn de functionaliteit van waardemodel en afschrijvingsboek boek functionaliteit samengevoegd tot één begrip die een boek wordt genoemd.
+[!include[banner](../includes/banner.md)]
 
-De nieuwe functionaliteit 'boek' is gebaseerd op bestaande functionaliteit van waardemodellen, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was. [![Boek als een samenvoeging van de functionaliteit van waardemodel en het afschrijvingsboek boek](./media/fixed-assets.png)](./media/fixed-assets.png) vanwege deze samen te voegen, kunt u nu één enkele reeks pagina's, query's en rapporten gebruiken voor alle vaste activa-processen. De tabellen in dit onderwerp geven de bestaande functionaliteit van waardemodellen en afschrijvingsboeken weer, samen met de nieuwe functionaliteit van boeken.
+
+In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In versie 1611 van Microsoft Dynamics 365 for Operations zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt.
+
+De nieuwe functionaliteit 'boek' is gebaseerd op bestaande functionaliteit van waardemodellen, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was. [![Boek als een samenvoeging van de functionaliteit van waardemodel en het afschrijvingsboek](./media/fixed-assets.png)](./media/fixed-assets.png) Vanwege deze samenvoeging kunt u nu één enkele set pagina's, query's en rapporten gebruiken voor alle vaste activa-processen. De tabellen in dit onderwerp geven de bestaande functionaliteit van waardemodellen en afschrijvingsboeken weer, samen met de nieuwe functionaliteit van boeken.
 
 ## <a name="setup"></a>Instellen
 Standaard boeken de boeken naar zowel het grootboek (GB) als ook het subgrootboek voor vaste activa. Boeken hebben een nieuwe optie **Boeken naar grootboek**, waarmee u het boeken naar het GB kunt uitschakelen en alleen laat boeken naar het vaste-activasubgrootboek. Deze functionaliteit lijkt op het vroegere boekingsgedrag voor afschrijvingsboeken. De instelling voor journaalnamen heeft een nieuwe boekingslaag met de naam Geen. Deze boekingslaag is specifiek toegevoegd voor vaste-activatransacties. Om transacties te boeken voor boeken die niet naar het GB boeken, moet u een journaalnaam gebruiken waarvoor de boekingslaag is ingesteld op **Geen**.
@@ -66,5 +69,7 @@ Query's en rapporten ondersteunen alle boeken. Rapporten die niet in de volgende
 
 ## <a name="upgrade"></a>Bijwerken
 Met het upgradeproces verplaatst u uw bestaande instellingen en alle uw bestaande transacties naar de nieuwe boekstructuur. De waardemodellen worden in de huidige vorm behouden, in de vorm van een boek dat boekt naar het grootboek. Afschrijvingsboeken worden echter naar een boek verplaatst waarvoor de optie **Boeken naar grootboek** is ingesteld op **Nee**. De journaalnamen van afschrijvingsboeken worden verplaatst naar een grootboekjournaalnaam, waarvoor de boekingslaag is ingesteld op **Geen**.
+
+
 
 

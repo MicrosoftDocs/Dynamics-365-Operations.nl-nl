@@ -33,7 +33,7 @@ Als u een inkooporder (IO) maakt, wordt algemene informatie over de gehele order
 
 U kunt ook IO's maken door regels te kopiëren vanuit een ander IO-document of een verkooporder. In dat geval kunt u het teken voor de voorraad omkeren, zoals u het teken op een factuur zou omkeren om aan te geven dat het om een creditering gaat.  
 
-Hoewel u handmatig IO's kunt maken, worden deze meestal gegenereerd vanuit andere processen. Orders kunnen automatisch worden gemaakt op basis van andere documenten, zoals aanvragen. Ze kunnen ook worden gemaakt als onderdeel van een proces met behulp van de geplande POs voor de hoofdplanning. Als u inkoopovereenkomsten, POs kunnen worden gemaakt door de **vrijgaveorder** actie. Er zijn ook meer geavanceerde methoden voor het automatisch maken van een inkooporder. Zo kunnen bijvoorbeeld ook orders worden gemaakt wanneer u ketens voor directe levering of intercompany-orderketens gebruikt.
+Hoewel u handmatig IO's kunt maken, worden deze meestal gegenereerd vanuit andere processen. Orders kunnen automatisch worden gemaakt op basis van andere documenten, zoals aanvragen. U kunt ze ook maken als onderdeel van het hoofdplanningsproces met behulp van de geplande inkooporders. Als u inkoopovereenkomsten gebruikt, kunt u inkooporders maken met de actie **Vrijgaveorder**. Er zijn ook meer geavanceerde methoden voor het automatisch maken van een inkooporder. Zo kunnen bijvoorbeeld ook orders worden gemaakt wanneer u ketens voor directe levering of intercompany-orderketens gebruikt.
 
 ## <a name="creating-a-purchase-order-header"></a>Een koptekst van een inkooporder maken
 Wanneer u een nieuwe inkooporder maakt, verschijnt een dialoogvenster waarin u de meest voorkomende gegevens voor de IO-koptekst kunt invoeren. Wanneer u op **OK** klikt om het dialoogvenster te sluiten, wordt de order gemaakt en kunt u vervolgens extra informatie in de koptekst opgeven.  
@@ -84,7 +84,7 @@ Mogelijk moet u de voltooiing van een inkooporder uitstellen. Zo hebt u bijvoorb
 <a name="see-also"></a>Zie ook
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Overzicht van inkooporders](purchase-order-overview.md)
 
 [Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
 

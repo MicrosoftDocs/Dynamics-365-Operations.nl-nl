@@ -1,6 +1,6 @@
 ---
-title: BI &amp;rapportage van startpagina
-description: In dit onderwerp worden BI &amp;bronnen die beschikbaar in Microsoft Dynamics 365 voor bewerkingen zijn.
+title: Startpagina BI &amp; rapportage
+description: In dit onderwerp wordt een overzicht geboden van resources voor BI &amp; en rapportage die beschikbaar zijn in Microsoft Dynamics 365 for Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI &amp;rapportage van startpagina
+# <a name="bi-amp-reporting-home-page"></a>Startpagina BI &amp; rapportage
 
-In dit onderwerp worden BI &amp;bronnen die beschikbaar in Microsoft Dynamics 365 voor bewerkingen zijn.
+[!include[banner](../includes/banner.md)]
+
+
+In dit onderwerp wordt een overzicht geboden van resources voor BI &amp; en rapportage die beschikbaar zijn in Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>Werken met samengevoegde gegevens
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Analyses](analytics.md)
 -   [In-geheugen, realtime samengevoegde modellen vervangen SSAS-kubussen](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Modelvariabelen en het gebruik van statistische gegevens](model-aggregate-data.md)
--   [Een bijgewerkte verkoop-cube voor Dynamics AX 2012 R3 migreren naar de winkel entiteit](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [Samegevoegde gegevens modelleren en gebruiken](model-aggregate-data.md)
+-   [Een bijgewerkte verkoop-cube uit Dynamics AX 2012 R3 migreren naar de entiteitsopslag](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Selfservice rapportage
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Self-service rapportage
+-   [Power BI-integratie](power-bi-integration.md)
 -   [Power BI-integratie voor werkruimten configureren](configure-power-bi-integration.md)
 -   [Een Power BI-rapport maken met Microsoft Dynamics 365 for Operations-gegevens](create-powerbi-report-data.md)
--   [Een Power BI-rapport en een dashboard maken](create-powerbi-report-dashboard.md)
--   [Retail kanaal prestaties Power BI-inhoud](retail-channel-performance-dashboard-power-bi-data.md)
--   [Financiële prestaties Power BI-inhoud](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [Een Power BI-rapport en -dashboard maken](create-powerbi-report-dashboard.md)
+-   [Power BI-inhoud prestaties detailhandelafzetkanaal](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)
+-   [Power BI-inhoud prestaties verkoop en winstgevendheid](sales-profitability-performance-content-pack.md)
 -   [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Dynamics 365 te voorzien voor Bewerkingen](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Ingesloten analytische ervaringen maken in de Dynamics 365 for Operations-client
@@ -95,6 +98,8 @@ In dit onderwerp worden BI &amp;bronnen die beschikbaar in Microsoft Dynamics 36
 -   [ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (Deel 5: Indeling aanpassen en uitvoeren)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (taakbegeleider)
 -   [ER Elektronische documenten genereren voor betalingen met een indelingsconfiguratie](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (taakbegeleider)
 -   [ER Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (taakbegeleider)
+
+
 
 
 

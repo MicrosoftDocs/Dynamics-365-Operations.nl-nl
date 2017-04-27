@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Startpagina Klanten
 
-Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden.
+[!include[banner](../includes/banner.md)]
+
+
+Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden. 
 
 U kunt klantfacturen maken die zijn gebaseerd op verkooporders of pakbonnen. U kunt ook vrije-tekstfacturen invoeren, die niet aan verkooporders zijn gekoppeld. U kunt betalingen ontvangen met behulp van verschillende betalingstypen. Voorbeelden van betalingstypen zijn wissels, contanten, cheques, creditcards en elektronische betalingen. Als uw organisatie meerdere rechtspersonen omvat, kunt u gecentraliseerde betalingen gebruiken om betalingen in één rechtspersoon te registreren namens de andere rechtspersonen.
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="intrastat"></a>Intrastat
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
 
 Intrastat is het systeem voor het verzamelen van informatie en genereren van statistieken met betrekking tot de handel in artikelen tussen landen en regio's van de Europese Unie (EU). Intrastat-aangifte is vereist wanneer een product de grens van een ander EU-land/regio overschrijdt. In sommige landen/regio's is Intrastat-aangifte ook van toepassing op services. De verplichte en optionele elementen kunnen in Intrastat-aangiftes worden verzameld. De volgende elementen zijn verplicht: het btw-nummer van de partij die de informatie moet verstrekken, de referentieperiode, de stroom (ontvangst of verzending), de achtcijferige basisproductcode, de lidstaat van de partner (lidstaat van verzending voor ontvangsten en lidstaat van bestemming voor verzendingen), de waarde van de goederen, de hoeveelheid goederen (netto massa en bijkomende eenheid) en de aard van de transactie. Landen/regio's kunnen ook optionele elementen verzamelen in diverse situaties. Sommige optionele elementen zijn het land of de regio van herkomst, de leveringsvoorwaarden, de wijze van transport, een meer gedetailleerde basisproductcode dan CN8, de regio van herkomst voor verzendingen en de regio van bestemming voor ontvangsten, de statistische procedure, de statistische waarde, een omschrijving van de goederen, en de haven/de luchthaven waar het product wordt geladen/gelost.
@@ -34,24 +37,24 @@ Intrastat is het systeem voor het verzamelen van informatie en genereren van sta
 ## <a name="overview-of-the-intrastat-reporting-process"></a>Een overzicht van het Intrastat-aangifteproces
 De volgende secties beschrijven de gehele stroom van informatie die wordt gebruikt voor Intrastat-aangifte.
 
-### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Geef een transactie die de grens van een ander EU-land/regio overschrijdt
+### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Voer een transactie in die de grens met een ander EU-land/regio overschrijdt.
 
-Een klantfactuur, een vrije-tektsfactuur, een inkoopfactuur, een projectfactuur, een pakbon van de klant, een productontvangstbon van de leverancier of een transferorder worden alleen overgeboekt naar het Intrastat-journaal als het type land/regio van de bestemming (voor verzendingen) of verzending (op ontvangsten)**EU** is. Deze functie is verlengd voor Microsoft Dynamics 365 voor bewerkingen versie 1611 en kunt u lading adressen voor een intracommunautaire transactie opgeven. Als een adres lading met een leverancier zaken adres (of klant Werkadres voor retourorder verschilt) werken de Intrastat-aangifte met deze informatie. Wanneer u een verkooporder, een vrije-tektsfactuur, een inkooporder, een leveranciersfactuur, een projectfactuur of een transferorder maakt, hebben sommige velden die aan buitenlandse handel zijn gerelateerd, standaardwaarden in de documentkoptekst of op de regel. De standaardtransactiecode wordt overgenomen uit het overeenkomstige veld op de pagina **Parameters buitenlandse handel**. De standaarbasisproductcode, het land/de regio van herkomst, en staat/provincie van herkomst worden opgehaald van het artikel. U kunt de standaardwaarden wijzigen en ook andere aan buitenlandse handel gerelateerde informatie invullen: de statistische procedure, de transportwijze en de haven.
+Een klantfactuur, een vrije-tektsfactuur, een inkoopfactuur, een projectfactuur, een pakbon van de klant, een productontvangstbon van de leverancier of een transferorder worden alleen overgeboekt naar het Intrastat-journaal als het type land/regio van de bestemming (voor verzendingen) of verzending (op ontvangsten)**EU** is. Deze functie is uitgebreid voor Microsoft Dynamics 365 for Operations versie 1611. Met deze functie kunt u vrachtadressen voor een intracommunautaire transactie opgeven. Als een vrachtadres afwijkt van een zakelijk adres van de leverancier (of zakelijk adres van de klant voor retourorder), wordt deze informatie voor de Intrastat-aangifte gebruikt. Wanneer u een verkooporder, een vrije-tektsfactuur, een inkooporder, een leveranciersfactuur, een projectfactuur of een transferorder maakt, hebben sommige velden die aan buitenlandse handel zijn gerelateerd, standaardwaarden in de documentkoptekst of op de regel. De standaardtransactiecode wordt overgenomen uit het overeenkomstige veld op de pagina **Parameters buitenlandse handel**. De standaarbasisproductcode, het land/de regio van herkomst, en staat/provincie van herkomst worden opgehaald van het artikel. U kunt de standaardwaarden wijzigen en ook andere aan buitenlandse handel gerelateerde informatie invullen: de statistische procedure, de transportwijze en de haven.
 
-### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. het Intrastat-dagboek gebruiken voor het genereren van informatie over handel tussen EU-landen/regio 's
+### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Met het Intrastat-journaal kunt u gegevens genereren over handel tussen landen en regio's van de EU.
 
 Voor statistische doeleinden genereert u elke maand informatie over handel tussen de landen/regio's van de EU. U kunt transacties overboeken van een vrije-tekstfactuur, klantfactuur, klantpakbon, leveranciersfactuur, leverancierspakbon, projectfactuur of transferorder volgens de criteria voor overdracht die zijn geconfigureerd op de pagina **Parameters buitenlandse handel**. U kunt er ook voor kiezen transacties handmatig in te voeren. Overgeboekte transacties kunt u in het Intrastat-journaal handmatig bijwerken, als updates worden vereist. In specifieke omstandigheden die op de pagina **Compressie van Intrastat** worden geconfigureerd, kunt u de transacties in het Intrastat-journaal comprimeren. Sommige landen/regio's laten u een lage transactiedrempel toepassen. U kunt vervolgens transacties rapporteren die onder de opgegeven basisproductcode beneden deze drempel liggen. U kunt de basisproductcode op de bijbehorende Intrastat-journaalregels bijwerken, op basis van de instelling voor **Ondergrens** op de pagina **Parameters buitenlandse handel**. U kunt die transacties ook comprimeren, op basis van de instelling **Compressie van Intrastat**. U kunt valideren of de transacties in het Intrastat-journaal compleet zijn, op basis van de instelling **Instelling controleren** op de pagina **Parameters buitenlandse handel**. De gegevens in bijbehorende velden kunnen op volledigheid worden gecontroleerd: land/regio, staat of provincie, gewicht, basisproductcode, transactiecode, aanvullende eenheid, haven, oorsprong, leveringsvoorwaarden, transportwijze en btw-nummer. De transacties die niet zijn voltooid, worden gemarkeerd als zijnde niet geldig.
 
-### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Gebruik de Intrastat-dagboek voor het rapporteren van gegevens over handel tussen EU-landen/regio 's
+### <a name="3-use-the-intrastat-journal-to-report-information-about-trade-among-eu-countriesregions"></a>3. Met het Intrastat-journaal kunt u gegevens rapporteren over handel tussen landen en regio's van de EU.
 
-Voor statistische doeleinden rapporteert u elke maand informatie over handel tussen de landen/regio's van de EU. U kunt de Intrastat-aangifte afdrukken, op basis van de instellingen **Toewijzing van rapportindeling** op de pagina **Parameters buitenlandse handel**. U kunt ook een elektronisch bestand genereren, op basis van de instellingen **Toewijzing van bestandsindeling** op de pagina **Parameters buitenlandse handel**. Zie voor meer informatie over Intrastat-rapportage, met inbegrip van de vereiste onderdelen de Intrastat-rapportage Taakregistratie:
+Voor statistische doeleinden rapporteert u elke maand informatie over handel tussen de landen/regio's van de EU. U kunt de Intrastat-aangifte afdrukken, op basis van de instellingen **Toewijzing van rapportindeling** op de pagina **Parameters buitenlandse handel**. U kunt ook een elektronisch bestand genereren, op basis van de instellingen **Toewijzing van bestandsindeling** op de pagina **Parameters buitenlandse handel**. Zie de taakregistraties voor Intrastat-aangifte voor meer informatie over Intrastat-aangifte, waaronder de vereisten:
 
--   Een EU-Intrastat-aangifte genereren
--   Transacties overboeken naar het Intrastat
--   Lading adres voor een intracommunautaire transactie opgeven.
+-   Een EU Intrastat-aangifte genereren
+-   Transacties overboeken naar Intrastat
+-   Vrachtadres opgeven voor een intracommunautaire transactie
 
 ## <a name="prerequisites"></a>Vereisten
-De volgende tabel worden de vereisten voor Intrastat-rapportage.
+In de volgende tabel ziet u de vereisten voor Intrastat-aangifte.
 
 <table>
 <colgroup>
@@ -235,5 +238,7 @@ Gebruik de pagina **Parameters buitenlandse handel** om de parameters in de volg
 </table>
 
  
+
+
 
 

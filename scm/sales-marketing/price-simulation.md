@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Prijssimulatie
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over prijssimulatie voor offertes. Met prijssimulaties kunt u het effect van inhoudingen op de toekomstige verkoopprijs tijdens het offerteproces evalueren voordat u zich vastlegt op een bepaalde prijs.
 
 Met een prijssimulatie voor een offerte wordt een nieuw totaalbedrag gemaakt op basis van een voorgestelde nieuwe prijs. Met een prijssimulatie kan ook een nieuw bedrag worden gemaakt voor een specifieke regel die in een bestaande offerte is gemaakt. U kunt een prijssimulatie invoeren en deze later toepassen. U kunt ook de oorspronkelijke offerte zonder prijssimulatie gebruiken en meer wijzigingen aanbrengen terwijl u het verkoopproces met de klant doorloopt.  
@@ -50,7 +53,7 @@ Kortingen en prijzen moeten correct worden berekend. Let daarom goed op als u pr
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Kortingstypen in handelsovereenkomsten
 
-Handelsovereenkomsten in Microsoft Dynamics 365 for Operations kunnen vier typen prijskortingen hebben. Deze kortingen kunnen worden ingesteld voor verschillende artikelen, klanten of prijsgroepen. De geldigheid ervan kan worden beperkt op datum. U moet bij het uitvoeren van prijssimulaties rekening houden met handelsovereenkomsten om fouten in berekeningen te voorkomen. In handelsovereenkomsten komen de volgende vier typen kortingen voor:
+In handelsovereenkomsten in Microsoft Dynamics 365 for Operations kunnen vier typen prijskortingen worden gebruikt. Deze kortingen kunnen worden ingesteld voor verschillende artikelen, klanten of prijsgroepen. De geldigheid ervan kan worden beperkt op datum. U moet bij het uitvoeren van prijssimulaties rekening houden met handelsovereenkomsten om fouten in berekeningen te voorkomen. In handelsovereenkomsten komen de volgende vier typen kortingen voor:
 
 -   **Verkoopprijs**: Het is mogelijk om afzonderlijke verkoopprijzen op te geven voor artikelen. Bij het maken van offerteregels wordt gezocht naar de juiste verkoopprijs voor een artikel, die vervolgens in de offerteregels wordt opgenomen. Daarom is een handelsovereenkomst met dit kortingstype niet van invloed op de prijssimulatie. De verkoopprijs die in de offerteregel wordt gebruikt, is in overeenstemming met de handelsovereenkomst.
 -   **Regelkorting**: Afhankelijk van de bestelde hoeveelheden worden speciale kortingen opgegeven voor artikelen. De regelkorting wordt meestal van de regelbedragen afgetrokken vóór het uitvoeren van de prijssimulatie. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.
@@ -79,7 +82,7 @@ De volgende tabel bevat de offerteregels:
 | Verkoopwaarde in EUR         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Kostprijs in EUR          | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Brutowinstbijdrage in EUR | 318,20 – 184,96                      | 133,24   |
-| Winstbedrag         | (\[318.20 – 184.96\] ÷ 318.20) × 100 | 41,87%   |
+| Winstbedrag         | (\[318,20 – 184,96\] ÷ 318,20) × 100 | 41,87%   |
 
 U voert een prijssimulatie uit en past een eindkorting van 15 procent toe op de volledige offerte of de offertekoptekst. De volgende tabel bevat de nieuwe totalen van de offerte nadat de prijssimulatie is uitgevoerd.
 
@@ -89,11 +92,11 @@ U voert een prijssimulatie uit en past een eindkorting van 15 procent toe op de 
 | Oude verkoopwaarde in EUR                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
 | Oude kostprijs in EUR                                | (10 × 9,52) + (12 × 7,48)                 | 184,96   |
 | Oude brutowinstbijdrage in EUR                       | 318,20 – 184,96                           | 133,24   |
-| Oude bijdrageverhouding                               | (\[318.20 – (10 × 9.52)\] ÷ 318.20) × 100 | 41,87%   |
+| Oude bijdrageverhouding                               | (\[318,20 – (10 × 9,52)\] ÷ 318,20) × 100 | 41,87%   |
 | Prijssimulatie voor eindkorting van 15% in EUR | (15 × 318,2) ÷ 100                        | 47,73    |
 | Nieuwe verkoopwaarde in EUR                               | 318,20 – 47,73                            | 270,47   |
 | Nieuwe brutowinstbijdrage in EUR                       | 270,47 – 184,96                           | 85,51    |
-| Nieuw winstbedrag                               | \[(270.47 – 184.96) ÷ 270.47\] × 100      | 31,61%   |
+| Nieuw winstbedrag                               | \[(270,47 – 184,96) ÷ 270,47\] × 100      | 31,61%   |
 
 ### <a name="price-simulation-for-single-line-items"></a>Prijssimulatie voor afzonderlijk regels met artikelen
 
@@ -113,12 +116,12 @@ De volgende tabel bevat de offerteregels:
 | Kostprijs in EUR voor BR-14          | 12 × 7,48                            | 89,76    |
 | Brutowinstbijdrage in EUR voor BR-12 | 153,20 – 95,20                       | 58,00    |
 | Brutowinstbijdrage in EUR voor BR-14 | 165,00 – 89,76                       | 75,24    |
-| Bijdrageverhouding in EUR voor BR-12  | \[(153.20 – 95.20) ÷ 153.20\] × 100  | 37,86    |
-| Bijdrageverhouding in EUR voor BR-14  | \[(165.00 – 89.76) ÷ 165.00\] × 100  | 45,60    |
+| Bijdrageverhouding in EUR voor BR-12  | \[(153,20 – 95,20) ÷ 153,20\] × 100  | 37,86    |
+| Bijdrageverhouding in EUR voor BR-14  | \[(165,00 – 89,76) ÷ 165,00\] × 100  | 45,60    |
 | Totale verkoopwaarde in EUR             | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Totale kostprijs in EUR              | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Totale brutowinstbijdrage in EUR     | 318,20 – 184,96                      | 133,24   |
-| Totale bijdrageverhouding             | \[(318.20 – 184.96) ÷ 318.20\] × 100 | 41,87%   |
+| Totale bijdrageverhouding             | \[(318,20 – 184,96) ÷ 318,20\] × 100 | 41,87%   |
 
 U voert een prijssimulatie uit en past een eindkorting van 10 procent toe op de eenheden van artikel BR-12. De volgende tabel bevat de nieuwe totalen van de offerte nadat de prijssimulatie is uitgevoerd voor de afzonderlijke regel met artikelen.
 
@@ -133,13 +136,15 @@ U voert een prijssimulatie uit en past een eindkorting van 10 procent toe op de 
 | Kostprijs in EUR voor BR-14                       | 12 × 7,48                               | 89,76    |
 | Nieuwe brutowinstbijdrage in EUR voor BR-12          | 137,88 – 95,20                          | 42,68    |
 | Brutowinstbijdrage in EUR voor BR-14              | 165,00 – 89,76                          | 75,24    |
-| Nieuwe bijdrageverhouding in EUR voor BR-12           | \[(137.88 – 95.20) ÷ 137.88\] × 100     | 30,95    |
-| Bijdrageverhouding in EUR voor BR-14               | \[(165.00 – 89.76) ÷ 165.00\] × 100     | 45,60    |
-| Nieuwe totale verkoopwaarde in EUR                      | \[(10 × 15.32) – 15.32\] + (12 × 13.75) | 302,88   |
+| Nieuwe bijdrageverhouding in EUR voor BR-12           | \[(137,88 – 95,20) ÷ 137,88\] × 100     | 30,95    |
+| Bijdrageverhouding in EUR voor BR-14               | \[(165,00 – 89,76) ÷ 165,00\] × 100     | 45,60    |
+| Nieuwe totale verkoopwaarde in EUR                      | \[(10 × 15,32) – 15,32\] + (12 × 13,75) | 302,88   |
 | Totale kostprijs in EUR                           | (10 × 9,52) + (12 × 7,48)               | 184,96   |
 | Nieuwe totale brutowinstbijdrage in EUR              | 302,88 – 184,96                         | 117,92   |
-| Nieuw totaal winstbedrag                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93%   |
+| Nieuw totaal winstbedrag                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93%   |
 
 De prijssimulatie is alleen van invloed op de regel waarop deze is toegepast en verlaagt het totaal voor die regel.
+
+
 
 

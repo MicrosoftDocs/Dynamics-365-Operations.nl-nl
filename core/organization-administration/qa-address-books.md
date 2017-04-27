@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Adresboeken
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Hoe controleer ik op dubbele registraties?
@@ -53,7 +56,7 @@ U kunt de naam van een partijregistratie en de bijbehorende adressen op elk mome
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>Kan ik twee of meer partijregistraties samenvoegen in één registratie?
 Soms wilt u mogelijk twee of meer partijregistraties in één registratie samenvoegen. Dit kan gebeuren als u, bewust of per ongeluk, een of meer dubbele partijregistraties maakt. Wanneer u partijregistraties samenvoegt, selecteert u één registratie die u wilt houden. De informatie uit de overige registraties wordt dan in deze registratie samengevoegd. Stel dat u ontdekt dat gegevens over Fabrikam in drie partijregistraties zijn opgeslagen die A, B en C heten. U wilt partijregistratie A houden. De gegevens in partijregistraties B en C worden dan samengevoegd in partijregistratie A. In sommige situaties kunt u partijregistraties niet samenvoegen:
 
--   U kunt partijregistraties niet samenvoegen als ze aan dezelfde partijrol zijn gekoppeld, zoals een klant of leverancier in dezelfde rechtspersoon. Bijvoorbeeld partij A is gekoppeld aan een klant in rechtspersoon 123 en partij B is gekoppeld aan een andere klant in rechtspersoon 123. Deze partijregistraties kunnen niet worden samengevoegd omdat ze zijn samengevoegd, de samengevoegde partijregistratie gekoppeld aan meerdere klanten in dezelfde rechtspersoon zijn zou als dit niet is toegestaan. De registraties kunnen echter wel worden gekoppeld als partij B is gekoppeld aan een leverancier in rechtspersoon 123 of een klant in een andere rechtspersoon.
+-   U kunt partijregistraties niet samenvoegen als ze aan dezelfde partijrol zijn gekoppeld, zoals een klant of leverancier in dezelfde rechtspersoon. Partij A is bijvoorbeeld gekoppeld aan een klant in rechtspersoon 123 en partij B is gekoppeld aan een andere klant in rechtspersoon 123. Deze partijregistraties kunnen niet worden samengevoegd, omdat de samengevoegde partijrecord aan meerdere klanten in dezelfde rechtspersoon zou zijn gekoppeld, wat niet is toegestaan. De registraties kunnen echter wel worden gekoppeld als partij B is gekoppeld aan een leverancier in rechtspersoon 123 of een klant in een andere rechtspersoon.
 -   U kunt interne partijorganisatieregistraties niet samenvoegen in dezelfde rechtspersoon, operationele eenheid of hetzelfde team.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>Moet ik een partijregistratie in het algemene adresboek maken of ergens anders, zoals de pagina klant of Leverancier?
@@ -64,5 +67,7 @@ U kunt partijregistraties invoeren in het algemene adresboek of op de pagina van
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Kan ik adresgegevens voor partijregistraties vertalen?
 U kunt vertalingen van adresgegevens zo instellen dat u de gegevens in uw gebruikerstaal (systeemtaal) kunt bekijken in Microsoft Dynamics 365 for Operations, terwijl de gegevens in documenten, zoals verkooporders, in een andere taal worden weergegeven. U kunt vertalingen invoeren voor landen/regionamen, adresdoeleinden en naamvolgordes. Stel dat uw systeemtaal Deens is en u een verkooporder voor een klant in Frankrijk maakt. In dit geval kunt u de klantregistratie in het programma in het Deens weergeven, maar worden de adresgegevens in het Frans weergegeven op de afgedrukte verkooporder. Als u vertalingen instelt, moet u een vertaling voor elk artikel in de lijst invoeren. Elk artikel waarvoor u geen vertaling invoert, verschijnt in de systeemtaal. Als uw systeemtaal bijvoorbeeld Deens is, en u verstuurd een document naar een klant in Spanje. Als u geen Spaanse (ESP) vertalingen voor de adresgegevens hebt ingevoerd, worden die gegevens zowel in het programma als op het afgedrukte document in het Deens weergegeven.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: Leverancierrekeningen instellen
+title: Leveranciersaccounts instellen
 description: In dit onderwerp worden de soorten gegevens beschreven, die u moet opgeven wanneer u een nieuwe leverancieraccount maakt.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-vendor-accounts"></a>Leverancierrekeningen instellen
+# <a name="set-up-vendor-accounts"></a>Leveranciersaccounts instellen
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp worden de soorten gegevens beschreven, die u moet opgeven wanneer u een nieuwe leverancieraccount maakt.
 
@@ -40,7 +43,7 @@ Wanneer u een leverancieraccount maakt, voert u informatie over de leverancier i
 -   BTW, levering, factuur- en betalingsgegevens voor de leverancier instellen. Standaard worden deze instellingen gekopieerd naar de nieuwe documenten die u voor de leverancier maakt.
 -   Standaard financiële dimensies instellen die worden gebruikt voor het automatisch boeken van transacties met de leverancier naar financiële rekeningen.
 
-Om het proces voor het aanmaken van leveranciersaccounts te versnellen, kunt u sjablonen maken. Een sjabloon maken op de **leverancier** pagina in het actievenster te klikken, klikt u op **opties**&gt;**Recordinfo**. Klik vervolgens op **Bedrijfsrekeningsjabloon**. De bedrijfsaccountjablonen worden gedeeld met andere gebruikers.  
+Om het proces voor het aanmaken van leveranciersaccounts te versnellen, kunt u sjablonen maken. Om een sjabloon te maken, klikt u op de pagina **Leverancier** in het deelvenster Actie op **Opties** &gt; **Recordinfo**. Klik vervolgens op **Bedrijfsrekeningsjabloon**. De bedrijfsaccountjablonen worden gedeeld met andere gebruikers.  
 
 U kunt ook een gebruikerssjabloon voor uw eigen gebruik maken. U kunt een leverancier niet verwijderen als deze aan andere records is gekoppeld, zoals contactpersonen en producten.
 
@@ -56,7 +59,7 @@ Voor elke leverancier kunt u meerdere adressen definiëren, elk waarvan voor een
 ## <a name="vendor-contacts"></a>Leveranciercontacten
 U kunt contactpersonen opslaan voor een leverancier. Deze contactpersonen kunnen vervolgens voor documenten zoals inkooporders of offerteaanvragen (offerteaanvragen) worden gebruikt.  
 
-Contactpersonen toevoegen voor een leverancier op de **alle leveranciers** pagina op de **leverancier** tabblad in het **instellen** groep, klikt u op **contactpersonen**&gt;**contacten toevoegen**.  
+Om contactpersonen voor een leverancier toe te voegen, gaat u naar de pagina **Alle leveranciers**. Op het tabblad **Leverancier** klikt u in de groep **Instellen** op **Contacten** &gt; **Contacten toevoegen**.  
 
 U kunt leverancierscontactpersonen helemaal nieuw aanmaken. Maar kunt u ook details kopiëren van een andere persoon die al in Microsoft Dynamics 365 for Operations is geregistreerd, en de informatie waar nodig bewerken.  
 
@@ -64,7 +67,7 @@ U kunt leverancierscontactpersonen helemaal nieuw aanmaken. Maar kunt u ook deta
 
 U kunt een contactpersoon niet verwijderen als in een document naar deze contactpersoon wordt verwezen. In plaats daarvan kunt u de contactpersoon inactief maken.  
 
-U kunt de contactpersonen bij leveranciers toevoegen aan uw persoonlijke contacten in Microsoft Office 365. U moet echter eerst u synchronisatie tussen Dynamics 365 for Operations en Office 365 in synchronisatie met Microsoft Exchange Server en de installatiewizard van Microsoft Outlook instellen.
+U kunt contactpersonen aan uw persoonlijke contacten in Microsoft Office 365 toevoegen. U moet echter eerst de synchronisatie instellen tussen Dynamics 365 for Operations en Office 365, zowel in de Microsoft Exchange Server-synchronisatie als ook in de Microsoft Outlook-installatiewizard.
 
 ## <a name="vendors-in-different-legal-entities"></a>Leveranciers in verschillende rechtspersonen
 Als een leverancier voor slechts één rechtspersoon in uw organisatie is geregistreerd en andere rechtspersonen dezelfde leverancier moeten registreren, kunt u op de pagina **Leverancier toevoegen aan andere rechtspersoon** de leverancier configureren om zaken te doen met een andere rechtspersoon. U moet een leveranciersgroep, valuta en wachtstand voor de leverancier selecteren in de geselecteerde rechtspersoon.  
@@ -101,5 +104,7 @@ Als u betalingen op een bankrekening van een leverancier moet overmaken, kunt u 
 U kunt de standaardrekeningen opgeven die automatisch in leveranciersfacturenjournalen voor de gespecificeerde leverancier worden weergegeven. Deze functionaliteit is handig als u normaal gesproken betalingen uitvoert voor dezelfde typen artikelen van dezelfde leveranciers. Wanneer u een standaardrekening opgeeft, kunt u journaalposten in het factuurjournaal snel en efficiënt invoeren. De opgegeven standaardrekeningen worden niet gebruikt voor inkooporders, of voor leveranciersfacturen die worden ingevoerd op de pagina **Leveranciersfactuur**.  
 
 U selecteert standaardrekeningen op de pagina **Instellen van standaardaccount**. Deze opent u vanaf het tabblad **Factuur** in de leveranciersrecord. De in dit deelvenster geselecteerde rekeningen worden weergegeven in de gefilterde lijst met rekeningen voor de leverancieraccount, wanneer u een journaalpost invoert. U kunt een van de rekeningen instellen als de standaardrekening.
+
+
 
 

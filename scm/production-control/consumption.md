@@ -1,5 +1,5 @@
 ---
-title: Berekenen van materiaalverbruik
+title: Materiaalverbruik berekenen
 description: Dit artikel bevat informatie over verschillende opties met betrekking tot de berekening van materiaalverbruik.
 author: YuyuScheller
 manager: AnnBe
@@ -27,22 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculate-material-consumption"></a>Berekenen van materiaalverbruik
+# <a name="calculate-material-consumption"></a>Materiaalverbruik berekenen
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bevat informatie over verschillende opties met betrekking tot de berekening van materiaalverbruik. 
 
 De volgende opties die aan de berekening van het materiaalverbruik zijn gerelateerd zijn beschikbaar op de tabbladen **Instellen** en **Stapverbruik** op het sneltabbblad **Regeldetails** van de pagina **Stuklijst**.
 
 ## <a name="variable-and-constant-consumption"></a>Variabel en constant verbruik
-In de **verbruik is** veld, kunt u aangeven of verbruik moet worden berekend als een constante of een variabele hoeveelheid. Selecteer **Constant** als een vaste hoeveelheid of volume vereist voor de productie is, ongeacht de hoeveelheid die is geproduceerd. Selecteer, **Variabel**, oftewel de standaardinstelling, als de vereiste hoeveelheid materiaal in de eindproducten proportioneel is aan het aantal geproduceerde eindproducten.
+In het veld **Verbruik** kunt u aangeven of verbruik moet worden berekend als een constante of een variabele hoeveelheid. Selecteer **Constante** als een vaste hoeveelheid of een vast volume nodig is voor de productie, ongeacht de hoeveelheid die wordt geproduceerd. Selecteer, **Variabel**, oftewel de standaardinstelling, als de vereiste hoeveelheid materiaal in de eindproducten proportioneel is aan het aantal geproduceerde eindproducten.
 
 ## <a name="calculating-consumption-from-a-formula"></a>Verbruik berekenen op basis van een formule
 In het veld **Formule** kunt u verschillende formules instellen voor het berekenen van materiaalverbruik. Als u de standaardwaarde gebruikt, **Standaard**, wordt het verbruik niet berekend op basis van een formule. De volgende formules werken samen met de velden **Hoogte**, **Breedte**, **Diepte**, **Dichtheid** en **Constant**:
 
--   Hoogte \*Constant
--   Hoogte \*breedte \*Constant
--   Hoogte \*breedte \*diepte \*Constant
--   (Hoogte \*breedte \*diepte / dichtheid) \*Constant
+-   Hoogte \* constante
+-   Hoogte \* breedte \* constante
+-   Hoogte \* breedte \* diepte \* constante
+-   (Hoogte \* breedte \* diepte/dichtheid) \* constante
 
 ## <a name="rounding-up-and-multiples"></a>Veelvouden afronden
 Samen kunt u met de velden **Naar boven afronden** en **Veelvouden** de waarde voor het materiaalverbruik naar boven afronden. Zo kunt u bijvoorbeeld de waarde naar boven afronden op basis van de materiaalverwerkingseenheid waarin de grondstof voor productie wordt verzameld. De volgende opties zijn beschikbaar in het veld **Naar boven afronden**: **Hoeveelheid**, **Afmeting** en **Verbruik**.
@@ -53,7 +56,7 @@ Als u **Hoeveelheid** selecteert als mechanisme voor naar boven afronden, moet d
 
 ### <a name="measurement"></a>Meting
 
-Doorgaans selecteert u **Afmeting** als mechanisme voor naar boven afronden wanneer de grondstof specifieke dimensies heeft. Stel dat een metalen buis van 2 meter lengte is vereist voor een eindproduct en de metalen buis wordt opgeslagen in lengten van 4,5 meter. In dit geval kan het mechanisme voor naar boven afronden **Afmeting** worden gebruikt om te berekenen hoeveel metalen buizen nodig zijn om een bepaald aantal stuks van het eindproduct te vervaardigen. In dit voorbeeld de **formule** veld is ingesteld op **hoogte \*Constant**. De **hoogte** veld is ingesteld op **2** om aan te geven van de lengte van de buis die vereist is voor het gerede product. Het veld **Veelvoud** wordt ingesteld op **4,5** om aan te geven dat de buis in lengten van 4,5 meter wordt verzameld. Hier volgt de berekening:
+Doorgaans selecteert u **Afmeting** als mechanisme voor naar boven afronden wanneer de grondstof specifieke dimensies heeft. Stel dat een metalen buis van 2 meter lengte is vereist voor een eindproduct en de metalen buis wordt opgeslagen in lengten van 4,5 meter. In dit geval kan het mechanisme voor naar boven afronden **Afmeting** worden gebruikt om te berekenen hoeveel metalen buizen nodig zijn om een bepaald aantal stuks van het eindproduct te vervaardigen. In dit voorbeeld is het veld **Formule** ingesteld op **Hoogte \* constante**. Het veld **Hoogte** is ingesteld op **2** om de lengte aan te geven van de buis die vereist is voor het eindproduct. Het veld **Veelvoud** wordt ingesteld op **4,5** om aan te geven dat de buis in lengten van 4,5 meter wordt verzameld. Hier volgt de berekening:
 
 1.  Aantal veelvouden dat is vereist voor 10 stuks van het eindproduct: 10 ÷ 2 = 5 stuks
 2.  Totaal verbruik: 4,5 x 5 = 22,5 meter metalen buis
@@ -78,5 +81,7 @@ Stapverbruik wordt gebruikt voor het berekenen van het constante verbruik in hoe
 | 200,00      | 40,0000  |
 
 De hoeveelheid van de stuklijst (BOM) is 1 en productiehoeveelheid is 110. De formule voor het verbruik is Van reeks (hoeveelheid) = Verbruik. Omdat de productiehoeveelheid 110 is, valt deze binnen de "Van 100 reeks". Daarom is de hoeveelheid 20.
+
+
 
 

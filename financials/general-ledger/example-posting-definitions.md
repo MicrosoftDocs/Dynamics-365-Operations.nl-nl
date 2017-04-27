@@ -1,6 +1,6 @@
 ---
 title: Boekdefinities
-description: In dit artikel geeft voorbeelden die laten zien hoe de boekdefinities voor vorderingen van inkooporders en budgettoewijzingen worden gebruikt.
+description: Dit artikel bevat voorbeelden die laten zien hoe boekdefinities worden gebruikt voor vorderingen van inkooporders en budgettoewijzingen.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Voorbeelden van boekingsdefinities
+# <a name="posting-definition-examples"></a>voorbeelden van boekdefinities
 
-In dit artikel geeft voorbeelden die laten zien hoe de boekdefinities voor vorderingen van inkooporders en budgettoewijzingen worden gebruikt.
+[!include[banner](../includes/banner.md)]
+
+
+Dit artikel bevat voorbeelden die laten zien hoe boekdefinities worden gebruikt voor vorderingen van inkooporders en budgettoewijzingen.
 
 Voordat u dit onderwerp leest, moet u vertrouwd zijn met de boekingsdefinities en transactieboekingsdefinities. Meer informatie vindt u onder [Boekdefinities](posting-definitions.md). De volgende voorbeelden kunnen worden ingesteld op de pagina **Boekdefinities**. Elk voorbeeld bevat deze secties:
 
@@ -39,7 +42,7 @@ Voordat u dit onderwerp leest, moet u vertrouwd zijn met de boekingsdefinities e
 
 Wanneer er een match is tussen de rekeningen en dimensiewaarden in het deelvenster **Criteria voor overeenkomst** voor de boekdefinitie en de rekeningen en dimensiewaarden in de transactie, worden er grootboekboekingen gegenereerd op basis van het deelvenster **Gegenereerde vermeldingen** voor de boekdefinitie. 
 > [!NOTE]
-> Als u wilt een boekdefinitie aan een specifiek transactietype hebt gekoppeld, gebruikt u de **transactieboekdefinities** pagina. Nadat u een boekdefinitie hebt gekoppeld aan een transactietype en selecteer **boekdefinities gebruiken** op de **grootboekparameters** pagina alle transacties van het geselecteerde transactietype gebruikmaken van boekdefinities.
+> Gebruik de pagina **Boekdefinities voor transacties** om een boekdefinitie aan een specifiek transactietype te koppelen. Nadat u een boekdefinitie aan een transactietype hebt gekoppeld en **Boekdefinities gebruiken** hebt geselecteerd op de pagina **Grootboekparameters**, moeten alle transacties van het geselecteerde transactietype gebruikmaken van boekdefinities.
 
 ## <a name="example-purchase-order-encumbrances"></a>Voorbeeld: Vorderingen van inkooporders
 Wanneer u de verwerking van vorderingen inschakelt door **Vorderingsproces inschakelen** te selecteren op de pagina **Grootboekparameters**, moeten boekdefinities worden gebruikt om vorderingen in het grootboek te registreren voor rekeningen die moeten worden gereserveerd. In de meeste gevallen worden alle onkostenrekeningen op de balans gereserveerd. 
@@ -69,7 +72,7 @@ De rekeningen en dimensiewaarden zijn afkomstig van de boekhoudingsverdelingen d
 
 | Rekening + dimensies           | Debet  | Krediet | Opmerking |
 |--------------------------------|--------|--------|---------|
-| 606400-de organisatie-eenheid\_1-organisatie-eenheid\_3566-Training | 250,00 |        |         |
+| 606400-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Grootboekvermeldingen die op basis van de boekdefinitie zijn gegenereerd
 
@@ -77,10 +80,10 @@ Grootboekboekingen worden gemaakt om de vorderingen te registreren.
 
 | Rekening + dimensies           | Debet  | Krediet | Opmerking |
 |--------------------------------|--------|--------|---------|
-| 300143-de organisatie-eenheid\_1-organisatie-eenheid\_3566-Training | 250,00 |        |         |
-| 300144-de organisatie-eenheid\_1-organisatie-eenheid\_3566-Training |        | 250,00 |         |
+| 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
+| 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-In dit voorbeeld komt elke rekening die onderdeel is van de Rekeningstructuur - W&V overeen met de criteria van de boekdefinitie. Dus, wanneer 606500-de organisatie-eenheid\_1-organisatie-eenheid\_3566-Training wordt beoordeeld, worden gegenereerde boekingen gemaakt voor de rekeningen die zijn gedefinieerd in de **posten gegenereerd** deelvenster voor de boekdefinitie.
+In dit voorbeeld komt elke rekening die onderdeel is van de Rekeningstructuur - W&V overeen met de criteria van de boekdefinitie. Wanneer dus 606500-OU\_1-OU\_3566-Training wordt beoordeeld, worden gegenereerde boekingen gemaakt voor de rekeningen die in het deelvenster **Gegenereerde vermeldingen** voor de boekdefinitie zijn gedefinieerd.
 
 ## <a name="example-budget-appropriations"></a>Voorbeeld: Budgettoewijzingen
 Wanneer u budgettoewijzingen inschakelt door **Aanwending van budget inschakelen** te selecteren op de pagina **Grootboekparameters**, moeten boekdefinities worden gebruikt om budgetregistervermeldingen te registeren in het grootboek. Wanneer een budgetbeheerconfiguratie actief is en is ingeschakeld, kunnen boekdefinities en transactieboekdefinities worden gebruikt om de registratie van toewijzingen, revisies, overboekingen, projecten, vaste activa en prognoseboekingen voor vraag en aanbod in het grootboek te ondersteunen. 
@@ -110,7 +113,7 @@ U voert de rekeningen, dimensiewaarden en bedragen voor de budgetjournaalregel i
 
 | Rekening + dimensies           | Debet | Krediet | Opmerking |
 |--------------------------------|-------|--------|---------|
-| 606400-de organisatie-eenheid\_1-organisatie-eenheid\_3566-Training |       | 250,00 |         |
+| 606400-OU\_1-OU\_3566-Training |       | 250,00 |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Grootboekvermeldingen die op basis van de boekdefinitie zijn gegenereerd
 
@@ -118,10 +121,12 @@ Gegenereerde grootboekboekingen worden gemaakt om het oorspronkelijke budget in 
 
 | Rekening + dimensies           | Debet  | Krediet | Opmerking |
 |--------------------------------|--------|--------|---------|
-| 300145-de organisatie-eenheid\_1-organisatie-eenheid\_3566-Training |        | 250,00 |         |
-| 300146-de organisatie-eenheid\_1-organisatie-eenheid\_3566-Training | 250,00 |        |         |
+| 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
+| 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
-In dit voorbeeld komt elke rekening die onderdeel is van de Rekeningstructuur - W&V overeen met de criteria van de boekdefinitie. Dus, wanneer 606400-de organisatie-eenheid\_1-organisatie-eenheid\_3566-Training wordt beoordeeld, worden de gegenereerde grootboekboekingen gemaakt.
+In dit voorbeeld komt elke rekening die onderdeel is van de Rekeningstructuur - W&V overeen met de criteria van de boekdefinitie. Daarom worden de gegenereerde grootboekboekingen gemaakt wanneer 606400-OU\_1-OU\_3566-Training wordt beoordeeld.
+
+
 
 
 

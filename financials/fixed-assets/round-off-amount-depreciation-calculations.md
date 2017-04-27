@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Afgerond bedrag voor afschrijvingsberekeningen
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt het veld Afschrijving afronden besproken uit de pagina's Instellingen voor boeken.
 
-Afgeronde bedragen worden ingesteld voor elk boek. Afgeronde bedragen worden gebruikt in het afschrijvingsprofiel voor vaste activa met de toekomstige afschrijving en waarde van het vaste activum en in de afschrijvingsvoorstellen. Voer het laagste afschrijvingsbedrag in dat is toegestaan voor het boek. 
+Afgeronde afschrijvingsbedragen worden ingesteld voor elk boek. Afgeronde afschrijvingsbedragen worden gebruikt in het afschrijvingsprofiel voor vaste activa dat de toekomstige afschrijving en waarde van het vaste activum weergeeft, en ook in afschrijvingsvoorstellen. Voer het laagste afschrijvingsbedrag in dat is toegestaan voor het boek. 
 
 Ongeacht de afronding die is ingesteld, wordt het afschrijvingsbedrag in de laatste afschrijvingsperiode niet afgerond. Aan het einde van de laatste afschrijvingsperiode moet de waarde van het vaste activum 0 (nul) of de restwaarde zijn als de restwaarde wordt gebruikt.
 
@@ -43,6 +46,8 @@ Afschrijving zonder afronding wordt berekend als 2444,44. Zoals te zien in de vo
 | Afronding van 1,00   | 2444,00            |
 | Afronding van 10,00  | 2440,00            |
 | Afronding van 100,00 | 2400,00            |
+
+
 
 
 

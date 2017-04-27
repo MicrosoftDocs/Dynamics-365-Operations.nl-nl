@@ -1,6 +1,6 @@
 ---
-title: Beveiliging voor de analyse van kostprijsboekhouding Power BI-inhoud instellen
-description: Dit onderwerp wordt uitgelegd hoe u de beveiliging van het toegangsniveau tot beveiligbare objecten in de kostprijsboekhouding voor beveiliging in Microsoft Power BI kunt doorgeven. Deze functionaliteit zorgt ervoor dat gebruikers alleen Power BI-gegevens die ze toegang tot krijgen zien.
+title: Beveiliging instellen voor de Power BI-inhoud voor kostprijsboekhoudingsanalyse
+description: In dit onderwerp wordt uitgelegd hoe u de beveiliging op toegangsniveau in Kostprijsboekhouding kunt doorvoeren naar beveiliging op rijniveau in Microsoft Power BI. Deze functionaliteit borgt dat gebruikers alleen de Power BI-gegevens zien waar hen toegang tot is verleend.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,38 +24,43 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Beveiliging voor de analyse van kostprijsboekhouding Power BI-inhoud instellen
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Beveiliging instellen voor de Power BI-inhoud voor kostprijsboekhoudingsanalyse
 
-Dit onderwerp wordt uitgelegd hoe u de beveiliging van het toegangsniveau tot beveiligbare objecten in de kostprijsboekhouding voor beveiliging in Microsoft Power BI kunt doorgeven. Deze functionaliteit zorgt ervoor dat gebruikers alleen Power BI-gegevens die ze toegang tot krijgen zien.
+[!include[banner](../includes/banner.md)]
+
+
+In dit onderwerp wordt uitgelegd hoe u de beveiliging op toegangsniveau in Kostprijsboekhouding kunt doorvoeren naar beveiliging op rijniveau in Microsoft Power BI. Deze functionaliteit borgt dat gebruikers alleen de Power BI-gegevens zien waar hen toegang tot is verleend.
 
 <a name="overview"></a>Overzicht
 --------
 
-De **Analyse kostprijsboekhouding** Microsoft Power BI inhoud Power BI rijniveau beveiliging gebruikt van een gebruiker toegang te beperken. Beveiliging is gebaseerd op het toegangsniveau tot beveiligbare objecten organisatiehiërarchie die is ingesteld in de parameters voor kostprijsboekhouding. Voor meer informatie over de **Analyse kostprijsboekhouding** Power BI-inhoud, Zie [Analyse kostprijsboekhouding Power BI inhoud](cost-accounting-analysis-content-pack.md).
+De Microsoft Power BI-inhoud **Analyse van kostprijsboekhouding** maakt gebruik van beveiliging op rijniveau in Power BI om toegang door gebruikers te beperken. Beveiliging is gebaseerd op de organisatiehiërarchie op toegangsniveau die is ingesteld in de parameters voor kostprijsboekhouding. Meer informatie over de Power BI-inhoud **Analyse van kostprijsboekhouding** vindt u in het onderwerp [Power BI-inhoud voor analyse van kostprijsboekhouding](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Instellen
-Als u wilt toegang beveiligingsniveau Power BI worden doorgegeven, moet de eigenaar van de inhoud van de Power BI Volg deze stappen. **opmerking:** de gebruiker die u publiceert de **Analyse kostprijsboekhouding** Power BI-inhoud wordt automatisch de eigenaar. Alleen een eigenaar kunt van de beveiliging in Power BI instellen. Bovendien totdat een eigenaar wordt toegevoegd van andere gebruikers in PowerBI.com, niemand behalve de eigenaar zien alle gegevens in de **Analyse kostprijsboekhouding** Power BI-inhoud.
+Om beveiliging op toegangsniveau door te voeren in Power BI, moet de eigenaar van de Power BI-inhoud deze stappen uitvoeren. **Opmerking:** De gebruiker die de Power BI-inhoud **Analyse van kostprijsboekhouding** publiceert, wordt automatisch de eigenaar. Alleen een eigenaar kan de beveiliging in Power BI instellen. Bovendien kan, totdat een eigenaar andere gebruikers toevoegt op PowerBI.com, niemand behalve de eigenaar de gegevens in de Power BI-inhoud **Analyse van kostprijsboekhouding** zien.
 
-1.  Het definitiebestand publiceren naar Power BI.
-2.  Log in op PowerBI.com.
-3.  Zoeken naar de dataset voor de **Analyse kostprijsboekhouding** Power BI-inhoud.
-4.  Open het tabblad Beveiliging. 
+1.  Publiceer het definitiebestand in Power BI.
+2.  Meld u aan bij PowerBI.com.
+3.  Zoek de gegevensset voor de Power BI-inhoud **Analyse van kostprijsboekhouding**.
+4.  Open de pagina Beveiliging. 
 
-    [![De van de beveiligingspagina wordt geopend](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
+    [![De pagina Beveiliging openen](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
 
-5.  De **kosten object controller** rol al is gemaakt. Andere leden die deel van de organisatiehiërarchie van kostprijsboekhouding toegangsniveau tot beveiligbare objecten uitmaken toevoegen. 
+5.  De rol **Controller voor kostenobjecten** is al gemaakt. Voeg andere leden toe die lid zijn van de organisatiehiërarchie op toegangsniveau van Kostprijsboekhouding. 
 
     [![Leden toevoegen](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
 
-Gebruikers die zijn toegevoegd aan de **kosten object controller** rol ziet alleen de gegevens die ze zien kunnen, volgens de definitie in de organisatiehiërarchie van kostprijsboekhouding toegangsniveau openen. **opmerking:** beveiliging van toepassing is op naast elkaar en rapporten in Microsoft Dynamics 365 voor bewerkingen die zijn ingesloten in Power BI.
+Gebruikers die zijn toegevoegd aan de rol **Controller voor kostenobjecten** zien alleen de gegevens die ze mogen zien, volgens de definitie in de organisatiehiërarchie op toegangsniveau van Kostprijsboekhouding. **Opmerking:** Beveiliging op rijniveau geldt voor tegels en rapporten in Microsoft Dynamics 365 for Operations die zijn ingesloten vanuit Power BI.
 
 ## <a name="updating-security"></a>Beveiliging bijwerken
-Als beveiliging in kostprijsboekhouding toegangsniveau tot beveiligbare objecten wordt bijgewerkt en u Power BI om weer te geven die updates wilt, moet u de winkel entiteit voor bijwerken de **Analyse kostprijsboekhouding** Power BI-inhoud. Nadat u het bijwerken van de winkel entiteit van Dynamics 365 voor bewerkingen hebt voltooid, moet u de onderdelen op PowerBI.com bijwerken. Zie voor meer informatie hierover een update van de winkel entiteit [Update entiteit winkel](power-bi-integration-entity-store.md#update-entity-store). De eigenaar van de **Analyse kostprijsboekhouding** Power BI-inhoud ook een update van de winkel entiteit moet doen als u nieuwe gebruikers toegang krijgen tot de organisatiehiërarchie. Bovendien de eigenaar moet de nieuwe gebruikers toevoegen aan de **kosten object controller** rol in PowerBI.com, zodat deze zekerheid rijniveau voor hen wordt toegepast.
+Als de beveiliging op toegangsniveau in Kostprijsboekhouding wordt bijgewerkt en u deze wijzigingen wilt overnemen in Power BI, moet u de entiteitopslag voor de Power BI-inhoud **Analyse van kostprijsboekhouding** bijwerken. Nadat het bijwerken van de entiteitopslag vanuit Dynamics 365 for Operations is voltooid, moet u de artefacten op PowerBI.com bijwerken. Meer informatie over het bijwerken van de entiteitopslag vindt u in het onderwerp [De entiteitopslag bijwerken](power-bi-integration-entity-store.md#update-entity-store). De eigenaar van de Power BI-inhoud **Analyse van kostprijsboekhouding** moet ook een update van de entiteitopslag uitvoeren als nieuwe gebruikers toegang krijgen tot de organisatiehiërarchie. Bovendien moet de eigenaar de nieuwe gebruikers toevoegen aan de rol **Controller voor kostenobjecten** in PowerBI.com, zodat voor hen ook beveiliging op rijniveau wordt toegepast.
 
 ## <a name="disabling-security"></a>Beveiliging uitschakelen
-Nemen we aan dat uw organisatie wil beperken van toegang tot gegevens. Als de beveiligingsparameters zijn voor een of andere reden uitgeschakeld wanneer u kostprijsboekhouding uitvoert, de eigenaar moet gebruikers toevoegen aan de **accountant kosten** rol in Power BI in plaats daarvan. Als u beveiliging van een ingeschakelde status wijzigen in een uitgeschakeld, is het een goed idee om gebruikers verwijderen uit de **kosten object controller** rol. En vice versa als u beveiliging opnieuw in te schakelen. Gebruikers kunnen behoren tot beide rollen. Gemeenschappelijke toegang is de vereniging van beide rollen. In geval van de **Analyse kostprijsboekhouding** Power BI inhoud, de gebruikers die beschikken over gezamenlijke hebben onbeperkte toegang tot gegevens. Als u wilt toepassen met beperkte toegang, gebruikers beschikken uitsluitend naar de **kosten object controller** rol. Deze beveiligingsupdates rijniveau zijn onmiddellijk van kracht. Betreffende gebruikers moeten hun browser vernieuwen.
+Er wordt vanuit gegaan dat uw organisatie de toegang tot gegevens wil beperken. Als om de een of andere reden de beveiligingsparameters zijn uitgeschakeld wanneer u Kostprijsboekhouding uitvoert, moet de eigenaar in plaats daarvan gebruikers toevoegen aan de rol **Kostenaccountant** in Power BI. Als u de beveiliging van een ingeschakelde status wijzigt in een uitgeschakelde status, is het een goed idee om gebruikers te verwijderen uit de rol **Controller voor kostenobjecten**. Als u de beveiliging weer inschakelt, moet u dit natuurlijk andersom doen. Gebruikers kunnen lid zijn van beide rollen. Van gekoppelde toegang spreken we wanneer de beide rollen zijn verenigd. In het geval van de Power BI-inhoud **Analyse van kostprijsboekhouding** hebben gebruikers met gekoppelde toegang onbeperkte toegang tot gegevens. Als u beperkte toegang wilt toepassen, moet u aan gebruikers alleen de rol **Controller voor kostenobjecten** toewijzen. Deze updates van de beveiliging op rijniveau zijn onmiddellijk van kracht. De betreffende gebruikers moeten hun browser vernieuwen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-Zie voor meer informatie over beveiliging Power BI, [beheer van de beveiliging van uw Power BI-model](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Meer informatie over beveiliging op rijniveau in Power BI vindt u in [Beveiliging van uw model in Power BI beheren](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
 
 

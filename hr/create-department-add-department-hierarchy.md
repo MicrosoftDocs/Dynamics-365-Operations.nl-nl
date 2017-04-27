@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Een afdeling maken en koppelen aan de afdelingshiërarchie
 
+[!include[banner](includes/banner.md)]
+
+
 Een afdeling is een operationele eenheid die een categorie of functioneel onderdeel van een organisatie voorstelt. Een afdeling is verantwoordelijk voor een specifiek gebied van de organisatie, zoals verkoop, boekhouding of HR. U kunt afdelingen gebruiken om te rapporteren over functiegebieden. Afdelingen zijn mogelijk verantwoordelijk voor winst en verlies.
 
-Een afdeling kan ook een groep kostenplaatsen bevatten. Posities kunnen worden toegewezen aan afdelingen. Een afdeling toevoegen, klikt u op **Human Resources**&gt;**afdelingen**&gt;**afdeling**. De volgende tabel beschrijft de velden die beschikbaar zijn.
+Een afdeling kan ook een groep kostenplaatsen bevatten. Posities kunnen worden toegewezen aan afdelingen. Als u een afdeling wilt toevoegen, klikt u op **Human Resources** &gt; **Afdelingen** &gt; **Afdeling**. In de volgende tabel worden de velden beschreven die beschikbaar zijn.
 
 | Veld               | Beschrijving                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,12 +49,14 @@ Een afdeling kan ook een groep kostenplaatsen bevatten. Posities kunnen worden t
 
 Als u een afdeling wilt toevoegen aan de afdelingshiërarchie, volgt u deze stappen.
 
-1.  Klik op **Human Resources**&gt;**afdelingen**&gt;**afdelingshiërarchie**.
+1.  Klik op **Human resources** &gt; **Afdelingen** &gt; **Afdelingshiërarchie**.
 2.  Klik op **Bewerken** en selecteer de organisatie waar de afdeling onder moet vallen.
 3.  Klik op **Invoegen** en selecteer **Afdeling** in de lijst.
 4.  Selecteer in de lijst van afdelingen die wordt weergegeven, de afdeling om aan de hiërarchie toe te voegen.
-5.  Sla de wijzigingen op. U ontvangt een bericht dat een conceptversie van de hiërarchie is gemaakt.
-6.  Wanneer u klaar bent, klikt u op **publiceren** in de hiërarchieontwerper. U kunt een ingangsdatum opgeven die wordt aangegeven wanneer de hiërarchie moet worden gepubliceerd. Als u bijvoorbeeld een nieuwe afdeling wilt toevoegen aan het begin van het volgende kalenderjaar, stelt u de ingangsdatum in op 1 januari van het nieuwe kalenderjaar. De wijzigingen in de hiërarchie worden op die datum van kracht.
+5.  Sla de wijzigingen op. U ontvangt een bericht dat er een conceptversie van de hiërarchie is gemaakt.
+6.  Wanneer u klaar bent, klikt u op **Publiceren** in de hiërarchieontwerper. U kunt een ingangsdatum invoeren waarmee wordt aangegeven wanneer de hiërarchie moet worden gepubliceerd. Als u bijvoorbeeld een nieuwe afdeling wilt toevoegen aan het begin van het volgende kalenderjaar, stelt u de ingangsdatum in op 1 januari van het nieuwe kalenderjaar. De wijzigingen in de hiërarchie worden op die datum van kracht.
+
+
 
 
 

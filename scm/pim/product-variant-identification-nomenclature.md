@@ -1,6 +1,6 @@
 ---
-title: Nummer nomenclature van product
-description: In dit onderwerp wordt beschreven hoe kunt u een product number nomenclature ingesteld ter vervanging van de vaste getalnotatie is [product master - configuratie - grootte - kleur - stijl], met een doelgerichte indeling waarin de hoofdplanning productnummer, actieve productdimensies en scheidingstekens tekst van uw keuze. U kunt ook een nomenclature maken om configuraties aan te geven die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
+title: Productnummer-nomenclatuur
+description: Dit onderwerp beschrijft hoe u een productnummernomenclatuur kunt opzetten om de vaste indeling [Productmodelnummer - Configuratie - Maat - Kleur - Stijl] te vervangen door een doelgerichte indeling die bestaat uit het productmodelnummer, actieve productdimensies en de tekstscheidingstekens van uw keuze. U kunt ook een nomenclature maken om configuraties aan te geven die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-number-nomenclature"></a>Nummer nomenclature van product
+# <a name="product-number-nomenclature"></a>Productnummer-nomenclatuur
 
-In dit onderwerp wordt beschreven hoe kunt u een product number nomenclature ingesteld ter vervanging van de vaste getalnotatie is [product master - configuratie - grootte - kleur - stijl], met een doelgerichte indeling waarin de hoofdplanning productnummer, actieve productdimensies en scheidingstekens tekst van uw keuze. U kunt ook een nomenclature maken om configuraties aan te geven die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
+[!include[banner](../includes/banner.md)]
+
+
+Dit onderwerp beschrijft hoe u een productnummernomenclatuur kunt opzetten om de vaste indeling [Productmodelnummer - Configuratie - Maat - Kleur - Stijl] te vervangen door een doelgerichte indeling die bestaat uit het productmodelnummer, actieve productdimensies en de tekstscheidingstekens van uw keuze. U kunt ook een nomenclature maken om configuraties aan te geven die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
 
 Met de nieuwe nomenclatuur van productvariantnummers kunt u segmenten in uw productvariant-id's opnemen. Deze segmenten kunnen het productmodelnummer, de productdimensies, de nummerreeksen, de tekstconstantes en de kenmerken omvatten. Met deze functionaliteit kunt u snel een specifieke productvariant vinden wanneer u een verkooporder of een inkooporder maakt.
 
@@ -66,8 +69,8 @@ Een t-shirt (TS1234) wordt geproduceerd in 3 verschillende maten (S, M, L), 4 kl
 
 Het productvariantnummer voor de rode Polo in S is: TS1234-rood-small-polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclature van constraintbased-configuraties
-Voor op beperkingen gebaseerde configuraties, kan een specifieke nomenclatuur voor de configuratie van product-dimensie worden opgebouwd. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**.
+## <a name="nomenclature-of-constraintbased-configurations"></a>Op beperkingen gebaseerde configuraties
+Voor op beperkingen gebaseerde configuraties kan een specifieke nomenclatuur voor de configuratieproductdimensie worden gebouwd. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**.
 
 -   Nummerreekswaarde
 -   Tekstconstante
@@ -90,8 +93,8 @@ Een configuratienomenclatuur wordt gedefinieerd met de volgende segmenten:
 
 De configuratie-id voor het materiaal hout met een lengte van 78 is als volgt: WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclature van dimensionbased-configuraties
-Voor op dimensies gebaseerde configuraties, kan een specifieke nomenclatuur voor de configuratie van product-dimensie worden opgebouwd. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**.
+## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatuur van op dimensies gebaseerde configuraties
+Voor op dimensies gebaseerde configuraties kan een specifieke nomenclatuur voor de configuratieproductdimensie worden gebouwd. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**.
 
 -   Nummerreekswaarde
 -   Tekstconstante
@@ -147,7 +150,7 @@ U kunt de volgende waarden voor segmenten invoeren:
 -   Materiaal = plastic
 -   Lengte = 12
 
-De variantcode van het product zal worden: M0099\_PlasticAAA12.
+Het productvariantnummer wordt: M0099\_PlasticAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Voorbeeld van op dimensies gebaseerde configuraties
 
@@ -180,7 +183,7 @@ Een fout gebeurt als u handmatig of automatisch productvarianten probeert te gen
 
 ### <a name="constraint-based-configurations"></a>Op beperkingen gebaseerde configuraties
 
-Afhankelijk van de nomenclatuur kan het systeem proberen een niet-uniek productvariantnummer aan een configuratie toe te wijzen. In dit geval wordt het systeem gebruikt de nummerreeks voor de configuratiedimensie de variant van het productnummer in plaats daarvan. Als dit gebeurt, ontvangt u een waarschuwing. Om dit te voorkomen kunt u voldoende unieke kenmerken in de nomenclatuur opnemen en ervoor zorgen dat de optie **Opnieuw gebruiken** voor de component is ingeschakeld.
+Afhankelijk van de nomenclatuur kan het systeem proberen een niet-uniek productvariantnummer aan een configuratie toe te wijzen. In dit geval zal het systeem de nummerreeks voor de configuratiedimensie als productvariantproductdimensie gebruiken. Als dit gebeurt, ontvangt u een waarschuwing. Om dit te voorkomen kunt u voldoende unieke kenmerken in de nomenclatuur opnemen en ervoor zorgen dat de optie **Opnieuw gebruiken** voor de component is ingeschakeld.
 
 ### <a name="dimension-based-configurations"></a>Op dimensie gebaseerde configuraties
 
@@ -191,8 +194,10 @@ Het configuratieproces bevat een stap waarin het systeem een configuratiewaarde 
 <a name="see-also"></a>Zie ook
 --------
 
-[Maken van een product number nomenclature voor vooraf gedefinieerde productvarianten (taak guide)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Een productnummernomenclatuur maken voor vooraf gedefinieerde productvarianten](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/) (taakbegeleiding)
 
-[Maken van een product number nomenclature voor geconfigureerde productvarianten (taak guide)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[Een productnummernomenclatuur maken voor geconfigureerde productvarianten](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/) (taakbegeleiding)
+
+
 
 

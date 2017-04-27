@@ -1,5 +1,5 @@
 ---
-title: Vracht transport routes met meerdere stopt plannen
+title: Vrachttransportroutes met meerdere tussenstops plannen
 description: Dit artikel beschrijft de verschillende elementen die u kunt gebruiken voor het plannen van transportroutes in Microsoft Dynamics AX.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Vracht transport routes met meerdere stopt plannen
+# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Vrachttransportroutes met meerdere tussenstops plannen
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel beschrijft de verschillende elementen die u kunt gebruiken voor het plannen van transportroutes in Microsoft Dynamics AX.
 
@@ -48,5 +51,7 @@ Een geplande route is een vooraf gedefinieerd routeplan met een planning voor de
 
 ## <a name="load-building-workbench"></a>Workbench voor ladingopbouw
 De workbench voor ladingopbouw maakt gebruik van de adressen van klanten en de leveringsdatums van verkooporders en de geplande routes die beschikbaar zijn om een lading voor te stellen. Standaard worden de waarden van de route ingevoerd in de workbench. U kunt echter een 'van'-datum selecteren die eerder valt dan de 'van'-datum op de route. Wanneer een lading wordt voorgesteld, worden het afleveradres en de leveringsdatum van alle openstaande verkooporders gecontroleerd. Als de postcode van het afleveradres overeenkomt met de postcode van een hub in het routeplan, en de leveringsdatum binnen het bereik ligt dat is geselecteerd in de criteria, wordt de verkooporder voorgesteld voor de lading. Ook wordt rekening gehouden met de capaciteit van de ladingsjabloon. Er wordt telkens slechts één lading tegelijk voorgesteld. Als u een verkooporder hebt die niet is opgenomen, is het mogelijk dat u een andere ladingsjabloon gebruikt (bijvoorbeeld een ladingsjabloon voor een grotere vrachtwagen of container) of een extra levering plant.
+
+
 
 

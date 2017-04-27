@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Artikelen beheren die aan werknemers worden geleend
 
+[!include[banner](includes/banner.md)]
+
+
 Leenartikelen zijn records waarmee managers de artikelen die uw bedrijf aan werknemers uitleent, bijhouden. 
 
 De volgende punten zijn voorbeelden van artikelen die een bedrijf aan werknemers kan uitlenen:
@@ -39,7 +42,7 @@ Elke fysiek artikel moet een bijbehorend leenartikel hebben. Bij elke leenartike
 
 Wanneer een artikel wordt uitgeleend, noteert u de datum waarop het artikel is opgehaald, en de datum waarop het artikel naar verwachting zal worden teruggebracht. Als het geleende artikel weer wordt teruggebracht, noteert u de inleverdatum.
 
-Werknemers kunnen de registraties van de artikelen die u hebt uitgeleend aan hen met behulp van de werkruimte self-serviceportal voor werknemers weergeven. Ze kunnen ook de bestaande records bewerken of nieuwe leenartikelen, opgeven als ze extra fysieke artikelen hebt ontvangen.  Workflow kan worden ingesteld op Routewijzigingen in nieuwe of bestaande leenartikelen aan een goedkeuringsproces. 
+Werknemers kunnen de records van de artikelen weergeven die aan hen zijn uitgeleend met het werkgebied Selfservice werknemer. Ze kunnen ook de bestaande records bewerken of nieuwe leenartikelen opgeven als ze extra fysieke artikelen hebben ontvangen.  Workflow kan worden ingesteld om wijzigingen te routeren naar nieuwe of bestaande leenartikelen via een goedkeuringsproces. 
 
 Managers kunnen geleende artikelen voor hun directe ondergeschikten weergeven. Ze kunnen ook gemachtigd worden om nieuwe leenartikelen namens hun werknemers toe te voegen.
 
@@ -53,5 +56,7 @@ Als een artikel beschadigd is of verloren raakt, noteert u een fictieve teruggav
 --------
 
 [Human resources](index.md)
+
+
 
 

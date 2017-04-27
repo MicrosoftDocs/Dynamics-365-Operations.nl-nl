@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Rentekosten kwijtschelden, opnieuw invoeren of omkeren
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe toeslagen voor rente en bijzondere kosten kunnen worden kwijtgescholden, opnieuw ingevoerd en omgekeerd.
 
 Met de knoppen op het tabblad **Verzamelen** van de lijstpagina **Alle klanten** kunt u kosten kwijtschelden, omkeren of opnieuw invoeren.
@@ -43,7 +46,7 @@ Al deze acties wijzigen een rentenota. Een rentenota is een bedrijfsdocument dat
 | Hele rentenota's omkeren. – of – Geselecteerde rentetransacties omkeren die deel uitmaken van rentenota's. **Opmerking:** U kunt bijzondere kosten niet omkeren. U kunt echter een volledige rentenota omkeren die kosten bevat. | De klant is de kosten niet meer verschuldigd. De kosten moeten echter opnieuw worden betaald als u de rente herberekent. | Het proces is hetzelfde als het proces voor het kwijtschelden van rentenota's of geselecteerde rentetransacties. Er wordt een creditnota of correctiefactuur voor de klant gemaakt. Deze creditnota wordt gebruikt om de rentenota automatisch te vereffenen. Met een afzonderlijk proces kunt u rente opnieuw berekenen en een nieuwe rentenota maken.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> Ook kunt u in een afzonderlijk proces onterechte schulden afschrijven. Dit proces markeert alle klanttransacties voor vereffening in plaats van alleen de toeslagen kwijt te schelden die deel uitmaken van rentenota's.
+> U kunt ook een afzonderlijk proces gebruiken om oninbare vorderingen af te schrijven. Dit proces markeert alle klanttransacties voor vereffening in plaats van alleen de toeslagen kwijt te schelden die deel uitmaken van rentenota's.
 
 ## <a name="adjust-interest-for-invoices"></a>Rente voor facturen corrigeren
 U kunt niet alleen rentenota's corrigeren, maar met een van de volgende processen kunt u de rentelasten uit facturen verwijderen. Met beide processen brengt u correcties aan in de desbetreffende rentenota's.
@@ -89,5 +92,7 @@ U kunt rentetransacties omkeren via de knop **Transactierente** op het tabblad *
 U kunt de gedetailleerde historie weergeven van correcties die zijn doorgevoerd voor rentenota's, zoals de gebruiker die de correctie heeft ingevoerd, het type correctie, het bedrag en wanneer de correctie is ingevoerd. Voordat u een nieuwe rentenota maakt zou u bijvoorbeeld de vorige correcties kunnen bekijken die voor de rentenota zijn ingevoerd. 
 
 U kunt rentetransacties omkeren via de knop **Geschiedenis** op het tabblad **Verzamelen** van de pagina **Klant**.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Veelvoorkomende oorzaken van productieafwijkingen
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden verschillende bronnen van elk type productieafwijking beschreven. 
 
 Hier volgen enkele veelvoorkomende bronnen van een afwijking in **partijgrootte**:
@@ -57,6 +60,8 @@ Hier volgen enkele veelvoorkomende bronnen van een afwijking in **productieverva
 -   U voegt handmatig een bewerking toe aan de productieroute en meldt die bewerking als verbruikt.
 -   Bij het maken van de productieorder selecteert u een andere stuklijstversie dan de versie die wordt gebruikt in de standaardkostenberekening.
 -   Bij het maken van de productieorder selecteert u een routeversie die afwijkt van de routeversie die wordt gebruikt in de standaardkostenberekening.
+
+
 
 
 

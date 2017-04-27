@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit onderwerp wordt beschreven hoe aankoopbemiddelaars met externe leveranciers kunnen samenwerken om informatie over inkooporders en consignatievoorraad uit te wisselen.
 
 De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics 365 for Operations hebben. Hiermee kunnen leveranciers werken met inkooporder-, factuur- en consignatievoorraadgegevens. In dit onderwerp wordt beschreven hoe u kunt samenwerken met externe leveranciers die de interface voor leverancierssamenwerking gebruiken om met inkooporders en consignatievoorraad te werken. Daarnaast wordt beschreven hoe u een specifieke leverancier in staat stelt om leverancierssamenwerking te gebruiken en hoe u de gegevens definieert die alle leveranciers te zien krijgen wanneer ze reageren op een inkooporder. Meer informatie over wat externe leveranciers kunnen doen in de interface voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Als u prijsgegevens, zoals de eenheidsprijs, kortingen en toeslagen, wilt delen 
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Werken met inkooporders bij het gebruik van leverancierssamenwerking
 ### <a name="sending-a-po-to-the-vendor"></a>Een inkooporder verzenden naar de leverancier
 
-Inkooporders worden voorbereid in Dynamics 365 for Operations. Wanneer de inkooporder heeft de status **goedgekeurd**, u het verzenden naar de leverancier met behulp van de ** verzenden voor bevestiging ** actie op het **inkooporder** pagina. De status van de inkooporder wordt gewijzigd in **Externe controle.** Nadat de inkooporder is ingediend, kan de leverancier deze bekijken op de pagina **Inkooporders ter beoordeling** in de interface voor leverancierssamenwerking en de order accepteren of afwijzen, of wijzigingen voorstellen. De leverancier kan ook opmerkingen toevoegen om informatie zoals wijzigingen in de inkooporder door te geven. Als u de aandacht van de leverancier naar de nieuwe inkooporder wilt trekken, kunt u de inkooporder ook via e-mail verzenden met behulp van het afdrukbeheersysteem.
+Inkooporders worden voorbereid in Dynamics 365 for Operations. Wanneer de inkooporder de status **Goedgekeurd** heeft, kunt u deze naar de leverancier verzenden met de actie **Verzenden voor bevestiging **op de pagina **Inkooporder**. De status van de inkooporder wordt gewijzigd in **Externe controle.** Nadat de inkooporder is ingediend, kan de leverancier deze bekijken op de pagina **Inkooporders ter beoordeling** in de interface voor leverancierssamenwerking en de order accepteren of afwijzen, of wijzigingen voorstellen. De leverancier kan ook opmerkingen toevoegen om informatie zoals wijzigingen in de inkooporder door te geven. Als u de aandacht van de leverancier naar de nieuwe inkooporder wilt trekken, kunt u de inkooporder ook via e-mail verzenden met behulp van het afdrukbeheersysteem.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Bevestiging en acceptatie van de inkooporder door de leverancier
 
-Wanneer een leverancier een inkooporder heeft geaccepteerd, kan de inkooporder automatisch worden bevestigd of moet deze mogelijk handmatig worden bevestigd. Dit is afhankelijk van of u de ** leverancier activering ** veld is ingesteld op **actief (IO is automatisch bevestigd)** voor de leverancier is, of tot **actief (IO is niet automatisch bevestigd)**.  
+Wanneer een leverancier een inkooporder heeft geaccepteerd, kan de inkooporder automatisch worden bevestigd of moet deze mogelijk handmatig worden bevestigd. Dit is afhankelijk van de instelling van het veld **Leveranciersactivering **: **Actief (IO wordt automatisch bevestigd)** of **Actief (IO wordt niet automatisch bevestigd)**.  
 
 De onderstaande tabel geeft de typische uitwisseling van informatie weer, afhankelijk van hoe de leverancier antwoordt als u deze een inkooporder voor bevestiging toestuurt.
 
@@ -83,11 +86,11 @@ De onderstaande tabel geeft de typische uitwisseling van informatie weer, afhank
 <td><strong>Resultaat</strong></td>
 </tr>
 <tr class="even">
-<td>De leverancier <strong>accepteert</strong> de order. Dynamics 365 for Operations is geconfigureerd om IO´s automatisch te bevestigen wanneer de leverancier accepteert.</td>
+<td>De leverancier <strong>accepteert</strong> de order. Dynamics 365 for Operations is geconfigureerd om IO's automatisch te bevestigen wanneer de leverancier accepteert.</td>
 <td>De status van de order verandert in <strong>Bevestigd</strong>. Als bijwerking van de order door iets wordt voorkomen, wordt het antwoord van de leverancier wel geregistreerd als <strong>Geaccepteerd</strong>, maar blijft de inkooporder de status <strong>Externe controle</strong> behouden.</td>
 </tr>
 <tr class="odd">
-<td>De leverancier <strong>accepteert</strong> de order. Dynamics 365 for Operations is niet geconfigureerd om IO´s automatisch te bevestigen wanneer de leverancier accepteert.</td>
+<td>De leverancier <strong>accepteert</strong> de order. Dynamics 365 for Operations is niet geconfigureerd om IO's automatisch te bevestigen wanneer de leverancier accepteert.</td>
 <td>Het leveranciersantwoord wordt geregistreerd als <strong>Geaccepteerd</strong>, maar de inkooporder behoudt de status <strong>Externe controle</strong>.</td>
 </tr>
 <tr class="even">
@@ -95,37 +98,37 @@ De onderstaande tabel geeft de typische uitwisseling van informatie weer, afhank
 <td>Het leveranciersantwoord wordt geregistreerd als <strong>Afgewezen</strong>, maar de inkooporder behoudt de status <strong>Externe controle</strong>. De afwijzing wordt ontvangen met de leveranciersnotitie.</td>
 </tr>
 <tr class="odd">
-<td>De leverancier <strong>de order met de wijzigingen accepteert</strong>. Wijzigingen worden voorgesteld op regelniveau. Het is mogelijk om afzonderlijke regels te accepteren of af te wijzen. Andere mogelijke wijzigingen zijn:
+<td>De leverancier <strong>accepteert de order met wijzigingen</strong>. Wijzigingen worden voorgesteld op regelniveau. Het is mogelijk om afzonderlijke regels te accepteren of af te wijzen. Andere mogelijke wijzigingen zijn:
 <ul>
 <li>Gewijzigde datums of hoeveelheden.</li>
 <li>Opsplitsingen van regels voor verschillende leveringsdatums of -hoeveelheden.</li>
 <li>De vervanging van een item.</li>
 </ul>
 Prijsgegevens en toeslagen kunnen niet door de leverancier worden gewijzigd. Suggesties voor wijzigingen hierin kunnen met notities worden gedaan.</td>
-<td>De reactie van de leverancier wordt vastgelegd als <strong>geaccepteerd terugzenden</strong>, <strong></strong>en de status van de Aankooporder blijft <strong>In externe controle</strong>.</td>
+<td>Het leveranciersantwoord wordt geregistreerd als <strong>Geaccepteerd met wijzigingen</strong>, <strong></strong> en de inkooporder behoudt de status <strong>Externe controle</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-U kunt de **inkooporder****voorbereidende** werkruimte om te controleren welke POs de leverancier heeft gereageerd op. Deze werkruimte bevat twee lijsten met inkooporders met de status **In externe controle**:
+U kunt het werkgebied **Voorbereiding van** **inkooporder** gebruiken om te controleren op welke inkooporders de leverancier heeft gereageerd. Deze werkruimte bevat twee lijsten die inkooporders met de status **Externe controle** bevatten:
 
 -   Bij externe herziening is actie vereist.
 -   Bij externe herziening in afwachting van antwoord van leverancier.
 
 ### <a name="changing-a-po"></a>Een inkooporder wijzigen
 
-Wanneer u een inkooporder wilt wijzigen waarop al is gereageerd, verzendt u een nieuwe versie van de inkooporder naar de leverancier. De nieuwe inkooporder heeft een versieachtervoegsel om aan te geven dat het om een gewijzigde versie van een inkooporder gaat die eerder is doorgegeven. Op de pagina **Historie van leveranciersbevestigingen van inkooporders** kunnen u en uw leveranciers de historie van elke order volgen. De eerder bevestigde versie van de inkooporder blijft in de lijst met bevestigde PO´s tot de nieuwe inkooporder is bevestigd.
+Wanneer u een inkooporder wilt wijzigen waarop al is gereageerd, verzendt u een nieuwe versie van de inkooporder naar de leverancier. De nieuwe inkooporder heeft een versieachtervoegsel om aan te geven dat het om een gewijzigde versie van een inkooporder gaat die eerder is doorgegeven. Op de pagina **Historie van leveranciersbevestigingen van inkooporders** kunnen u en uw leveranciers de historie van elke order volgen. De eerder bevestigde versie van de inkooporder blijft in de lijst met bevestigde PO's tot de nieuwe inkooporder is bevestigd.
 
 ### <a name="cancelling-a-po"></a>Een inkooporder annuleren
 
-Wanneer u een inkooporder annuleert, wordt de status gewijzigd in **Goedgekeurd**. U moet de inkooporder via de leveranciersportal terug naar de leverancier sturen zodat de leverancier de annulering kan bevestigen of afwijzen. Nadat de annulering is bevestigd, wordt de inkooporder in de lijst met bevestigde PO´s van de leverancier weergegeven als **Geannuleerd**.
+Wanneer u een inkooporder annuleert, wordt de status gewijzigd in **Goedgekeurd**. U moet de inkooporder via de leveranciersportal terug naar de leverancier sturen zodat de leverancier de annulering kan bevestigen of afwijzen. Nadat de annulering is bevestigd, wordt de inkooporder in de lijst met bevestigde PO's van de leverancier weergegeven als **Geannuleerd**.
 
 ### <a name="adding-attachments-to-a-po"></a>Bijlagen toevoegen aan een inkooporder
 
 U kunt bijlagen, zoals bestanden, afbeeldingen en notities, aan de inkooporder toevoegen via het documentbeheersysteem. De bijlagen die met de beperking van het type **Extern** worden toegevoegd, worden voor de leverancier weergegeven wanneer u deze de inkooporder toestuurt.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Inkooporderstatussen en -versies
-In dit onderdeel worden de statussen beschreven die een inkooporder kan hebben tot het moment dat deze wordt bevestigd. Daarnaast wordt aangegeven op welk moment nieuwe versies van de inkooporder aan de leverancier beschikbaar worden gemaakt. Er zijn verschillen in deze, afhankelijk van of u wijzigingsbeheer voor inkooporders. 
+In dit onderdeel worden de statussen beschreven die een inkooporder kan hebben tot het moment dat deze wordt bevestigd. Daarnaast wordt aangegeven op welk moment nieuwe versies van de inkooporder aan de leverancier beschikbaar worden gemaakt. Dit kan verschillen, afhankelijk van of u wijzigingsbeheer voor inkooporders gebruikt. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versies en status als u geen wijzigingsbeheer gebruikt
 
@@ -168,6 +171,8 @@ Als u consignatievoorraad gebruikt, kunnen leveranciers de interface voor levera
 -   **Inkooporders die consignatievoorraad verbruiken** - Inkooporders voor consignatievoorraad worden gegenereerd wanneer het eigendom van de voorraad van de leverancier naar uw bedrijf overgaat. Tegelijkertijd wordt een productontvangstbon geboekt. Deze consignatie-inkooporders worden alleen weergegeven op de pagina **Inkooporders die consignatievoorraad verbruiken**. Ze worden niet opgenomen op de pagina **Alle bevestigde inkooporders** in de module **Leverancierssamenwerking**.
 -   **Producten ontvangen uit consignatievoorraad** - Deze pagina bevat een overzicht van alle transacties waarvan het eigendom van producten van de leverancier is overgedragen aan uw bedrijf. Leveranciers kunnen deze informatie gebruiken om de klant te factureren.
 -   **Voorhanden consignatievoorraad** - Op deze pagina wordt de voorhanden consignatievoorraad weergegeven die het eigendom is van de leverancier en is ontvangen in uw magazijn.
+
+
 
 
 

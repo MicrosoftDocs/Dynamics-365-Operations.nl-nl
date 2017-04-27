@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Directe leveringen
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over directe leveringen. Directe leveringen zijn leveringen die rechtstreeks van de leverancier naar uw klant worden verzonden.
 
 Directe leveringen zorgen voor een kortere leveringstijd en lagere opslagkosten van de voorraad, omdat u de producten niet in uw magazijn bewaart voordat deze naar de klant worden verzonden.  
@@ -49,5 +52,7 @@ Als u een verkooporderregel met een leveringstype **Directe levering** probeert 
 
 ## <a name="warehouse"></a>Magazijn
 Wanneer u een directe levering maakt, komen de artikelen die verkoopt nooit fysiek in uw magazijn. U moet echter nog steeds een magazijn opgeven op de verkooporderregel. Evenzo kunnen orderverzamelvereisten worden opgegeven voor de artikelmodelgroep voor het artikel. Echter, aangezien artikelen nooit fysiek bij uw magazijn aankomen, worden deze vereisten genegeerd wanneer de+ verkooporder een directe levering is.
+
+
 
 

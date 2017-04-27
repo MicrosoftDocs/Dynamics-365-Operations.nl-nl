@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Projectcontracten
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat beschrijvingen en voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Operations.
 
 Het type project dat u maakt voor een projectcontract bepaalt de wijze waarop projectklanten gefactureerd worden. U kunt een projectcontract en het gerelateerde project wijzigen, maar u kunt het projecttype niet wijzigen. 
@@ -220,17 +223,17 @@ In de volgende tabel wordt dit scenario nader onderzocht.
 </tr>
 <tr class="odd">
 <td>Transactie 2</td>
-<td><strong>transactiebedrag:</strong> 5000,00<strong>Funding:</strong> de transactie is betaald volgens alle drie de regels. <strong>Regel 1</strong><ph id="t1">
-</ph><ul>
+<td><strong>Transactiebedrag:</strong> 5000,00<strong>Financiering:</strong> De transactie is betaald volgens alle drie de regels.<strong>Regel 1</strong>
+<ul>
 <li>Financieringsbron 2: 450,00</li>
 <li>Financieringsbron 3: 450,00</li>
-</ul><bpt id="t2">
-< strong ></bpt> Regel 2</strong><ph id="t3">
-</ph><ul>
+</ul>
+<strong>Regel 2</strong>
+<ul>
 <li>Financieringsbron: 250,00 (= 750,00 – 50,00 – 450,00)</li>
-</ul><bpt id="t4">
-< strong ></bpt> Regel 3</strong><ph id="t5">
-</ph><ul>
+</ul>
+<strong>Regel 3</strong>
+<ul>
 <li>Financieringsbron 1: 3850,00 (= 5000,00 – 450,00 – 450,00 – 250,00)</li>
 </ul></td>
 </tr>
@@ -339,5 +342,7 @@ Wanneer u het projectcontract instelt, gaat u ermee akkoord dat u de klant maand
 -   U maakt gedurende het project aan het einde van elke kalendermaand een klantfactuur.
 
 Tijdens de eerste maand worden er door de adviseurs in totaal 800 uren voor het project geregistreerd. De kosten van kantoorbenodigdheden die voor het project in rekening worden gebracht, zijn 2000. Daarom maakt u aan het eind van de maand een factuur voor 122.000, berekend als 800 uur tegen 150 per uur, plus 2000 voor kantoorbenodigdheden.
+
+
 
 

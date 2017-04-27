@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Afschrijving naar rato van verbruik
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt een overzicht van de afschrijvingsmethode Verbruik.
 
 Wanneer u een profiel voor de afschrijving van vaste activa instelt en **Verbruik** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, worden vaste activa toegewezen aan het afschrijvingsprofiel op basis van hun gebruik. U hoeft geen percentages en intervallen in te stellen op de pagina **Afschrijvingsprofielen**. Wanneer u een afschrijvingsprofiel maakt dat de methode Verbruik gebruikt, kunt u de methode op verschillende manieren instellen.
@@ -64,5 +67,7 @@ De volgende factor voor verbruiksafschrijving is ingesteld voor 31 januari:
 -   De geschatte hoeveelheid van de vaste activa is 2.000.
 
 Het afschrijvingsvoorstel op 31 januari luidt als volgt: Geschatte hoeveelheid x percentage x eenheidsafschrijving 2000 x 0,10 x 1,5 = 300
+
+
 
 

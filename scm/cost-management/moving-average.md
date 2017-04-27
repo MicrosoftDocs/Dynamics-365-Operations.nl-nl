@@ -68,14 +68,14 @@ Bij zwevend gemiddelde worden de kosten van het product bepaald door de inkoopon
 3.  Maak een verkooporder voor een hoeveelheid van 1 en een eenheidsprijs van 10,00.
 4.  Maak een inkoopfactuur voor een hoeveelheid van 2 en een eenheidsprijs van 12,00.
 
-Het verschil in eenheidsprijs, 2,00, wordt geboekt naar de rekening Prijsverschil voor zwevend gemiddelde wanneer de inkoopfactuur is geboekt. De reden hiervoor is dat twee producten zijn gekocht aan een kostprijs van 20,00. Een van de producten is verkocht voor een eenheidsprijs van 10,00. De inkoopfactuur is geboekt met een eenheidsprijs van 12,00 met een hoeveelheid van 2. De prijs per eenheid van het product worden niet op 14,00 geboekt.
+Het verschil in eenheidsprijs, 2,00, wordt geboekt naar de rekening Prijsverschil voor zwevend gemiddelde wanneer de inkoopfactuur is geboekt. De reden hiervoor is dat twee producten zijn gekocht aan een kostprijs van 20,00. Een van de producten is verkocht voor een eenheidsprijs van 10,00. De inkoopfactuur is geboekt tegen een eenheidsprijs van 12,00 met een hoeveelheid van 2. De eenheidsprijs van het product kan niet tegen 14,00 worden geboekt.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Aanpassen van zwevend gemiddelde product en voorraad
 Als u de zwevend gemiddelde kostprijs van een product wilt aanpassen, zijn voorraadherwaarderingen toegestaan op de huidige datum. U kunt een voorraadaanpassing niet met terugwerkende kracht aanpassen om de zwevend gemiddelde kostprijs van een product te corrigeren. U de kost niet door opeenvolgend transacties laten passeren. In dit voorbeeld wordt de zwevend gemiddelde kostprijs aangepast voor een product.
 1.  Selecteer het product waarvoor u de zwevend gemiddelde kost wilt aanpassen.
-    | **Note**                                                                                    |
+    | **Opmerking**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | De ** herwaardering voor zwevend gemiddelde ** pagina onderzoekt de beschikbare voorraad voor een product. |
+    | De pagina **Herwaardering voor zwevend gemiddelde **controleert de beschikbare voorraad voor een product. |
 
     Het geselecteerde product heeft een geboekte hoeveelheid 1, een geboekte een waarde van 12,00, een geboekte kostprijs van 12,00 en een eenheidskost van 12,00.
 2.  Werk het veld **Eenheidskosten** bij naar 16,00. Het systeem berekent de overige velden.
@@ -88,7 +88,7 @@ Als u de zwevend gemiddelde kostprijs van een product wilt aanpassen, zijn voorr
 Op de pagina **Vereffeningen voor boekstuk** kunt u zien dat een correctie van 4,00 is geboekt naar de rekening Kostenherwaardering voor zwevend gemiddelde.
 
 ## <a name="moving-average-with-production"></a>Zwevend gemiddelde met productie
-Zwevend gemiddelde ondersteunt geproduceerde artikelen. Als u wilt een zwevend gemiddelde in een productieomgeving gebruikt de **geschatte kostprijs gebruiken** schuifregelaar in de ** parameters van productiebeheer ** pagina geselecteerde moet worden. Dit betekent dat de kostprijs die wordt berekend tijdens de raming wordt gebruikt in plaats van de werkelijke kostprijs van de stuklijstberekening.
+Zwevend gemiddelde ondersteunt geproduceerde artikelen. Als u van plan bent om zwevend gemiddelde in een productieomgeving te gebruiken, moet de schuifregelaar **De geschatte kostprijs gebruiken** op de pagina **Parameters van productiecontrole **worden geselecteerd. Dit betekent dat de kostprijs die wordt berekend tijdens de raming wordt gebruikt in plaats van de werkelijke kostprijs van de stuklijstberekening.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Zwevend gemiddelde met een achterstallige transactie
 Indien backdated transacties worden toegewezen, worden de zwevend gemiddelde kosten en de fysieke hoeveelheid van het product bijgewerkt maar wordt de zwevend gemiddelde kost niet beïnvloed. In dit voorbeeld van zwevend gemiddelde wordt een backdated transactie voor een zwevend gemiddeldeproduct geboekt.

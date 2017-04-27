@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-elements"></a>Workflowelementen
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden de diverse elementen beschreven waaruit een workflow bestaat.
 
 Een workflow bestaat uit elementen. In de hier volgende secties wordt elk type element beschreven.
@@ -55,14 +58,14 @@ Een *goedkeuringsproces* bestaat uit afzonderlijke stappen. In elke goedkeurings
 -   Een wijziging in het document aanvragen
 -   Het document aan een andere gebruiker toewijzen voor goedkeuring.
 
-## <a name="lineitem-workflow-elements"></a>Workflowelementen Lineitem
-Er kan een workflow worden gemaakt om documenten of de regelitems in een document te verwerken. Bijvoorbeeld als u een goedkeuringsworkflow voor urenstaten hebt gemaakt. (Noemen we deze workflow als de *documentworkflow*.) U kunt toevoegen een *workflow voor regelartikel* element aan deze documentworkflow. Wanneer het regelitemelement wordt uitgevoerd, wordt elk regelitem in het document ter verwerking aangeboden. U wilt mogelijk alle regelitems laten verwerken door de workflow voor regelitems of u wilt dat elk regelitem door een andere workflow voor regelitems wordt verwerkt. Stel dat een werknemer een urenstaat heeft ingediend die op de volgende afbeelding lijkt. ![Workflow met regelitems](./media/workflow_lineitemworkflow.gif) In dit scenario wilt u mogelijk de volgende workflows voor regelitems maken:
+## <a name="lineitem-workflow-elements"></a>Elementen van een workflow voor regelartikelen
+Er kan een workflow worden gemaakt om documenten of de regelitems in een document te verwerken. Bijvoorbeeld als u een goedkeuringsworkflow voor urenstaten hebt gemaakt. Deze workflow noemen we de *documentworkflow*. U kunt een element van een *workflow voor regelartikelen* toevoegen aan deze documentworkflow. Wanneer het regelitemelement wordt uitgevoerd, wordt elk regelitem in het document ter verwerking aangeboden. U wilt mogelijk alle regelitems laten verwerken door de workflow voor regelitems of u wilt dat elk regelitem door een andere workflow voor regelitems wordt verwerkt. Stel dat een werknemer een urenstaat heeft ingediend die op de volgende afbeelding lijkt. ![Workflow met regelitems](./media/workflow_lineitemworkflow.gif) In dit scenario wilt u mogelijk de volgende workflows voor regelitems maken:
 
 -   **Workflow voor regelitems 1**: deze workflow wordt gebruikt om regelitems te verwerken waarbij de project-id 1111 is.
 -   **Workflow voor regelitems 2**: deze workflow wordt gebruikt om regelitems te verwerken waarbij de project-id 2222 is.
 -   **Workflow voor regelitems 3**: deze workflow wordt gebruikt om regelitems te verwerken waarbij de project-id 3333 is.
 
-## <a name="flowcontrol-elements"></a>Flowcontrol-elementen
+## <a name="flowcontrol-elements"></a>Stroombeheerelementen
 U kunt de volgende elementen gebruiken om workflows te ontwerpen met afwisselende vertakkingen of vertakkingen die op hetzelfde moment worden uitgevoerd.
 
 ### <a name="manual-decision"></a>Handmatige beslissing
@@ -80,5 +83,7 @@ Een *parallelle activiteit* is een workflowelement dat twee of meer workflowvert
 ### <a name="subworkflow"></a>Subworkflow
 
 Een *subworkflow* is een workflow die wordt uitgevoerd in de context van een andere workflow.
+
+
 
 

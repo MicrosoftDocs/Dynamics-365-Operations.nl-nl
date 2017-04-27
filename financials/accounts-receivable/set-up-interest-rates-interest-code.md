@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Rentepercentages instellen voor een rentecode
 
+[!include[banner](../includes/banner.md)]
+
+
 Rentecodes bevatten instellingen die bepalen wanneer kosten voor de rente geheven worden en hoe deze berekend wordt op achterstallige rekeningen.
 
 U kunt een enkele rentecode instellen en deze toepassen op meerdere klantboekingsprofielen, factureringscodes of op specifieke factuurregels. Als de details van de rentecode veranderen, zullen alle functies die de code gebruiken de wijzigingen automatisch toepassen op nieuwe transacties. U kunt twee typen tarieven instellen voor elke rentecode:
@@ -44,17 +47,17 @@ U kunt de rentevoeten instellen die een opgegeven percentage berekenen.
 
 -   Rentebedrag is van toepassing op alle valuta's.
 -   Optionele limieten voor het rentebedrag kunnen worden ingevoerd.
--   **Percentage** is geselecteerd ** ** in het **rente berekenen op basis** op de **Rentecodes instellen** pagina.
+-   **Percentage** is geselecteerd** **in het veld **Rente berekenen op basis van** op de pagina **Rentecodes instellen**.
 
-Bijvoorbeeld: instellen van een rentecode die 5 procent voor elke twee maanden aanrekent dat de factuur voorbij de vervaldatum, voert u 2 in de **rente berekenen elke** en selecteer **maand**.
+Als u bijvoorbeeld een rentecode wilt instellen die 5 procent rente aanrekent voor elke twee maanden dat de factuurbetaling voorbij de vervaldatum is, voert u 2 in het veld **Bereken rente elke** in en selecteert u **Maand**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Rentevoeten op basis van bedragen
 U kunt de rentevoeten instellen die een opgegeven bedrag berekenen per valuta.
 -   Een rentebedrag wordt opgegeven voor elke valuta in de rentecode.
 -   Optionele limieten voor het rentebedrag kunnen worden ingevoerd.
--   ** bedrag ** is geselecteerd in de **rente berekenen op basis** op de **Rentecodes instellen** pagina.
+-   **Bedrag **is geselecteerd in het veld **Rente berekenen op basis van** op de pagina **Rentecodes instellen**.
 
-Bijvoorbeeld: instellen van een rentecode die 25.00 aanrekent voor elke 20 dagen dat de factuur voorbij de vervaldatum, zou u 20 in het **rente berekenen elke** en selecteer **dag**.
+Als u bijvoorbeeld een rentecode wilt instellen die 25,00 rente aanrekent voor elke 20 dagen dat de factuurbetaling voorbij de vervaldatum is, voert u 20 in het veld **Bereken rente elke in** en selecteert u **Dag**.
 
 ## <a name="interest-rates-based-on-ranges"></a>Rentevoeten op basis van bereiken
 U kunt rentevoeten instellen die variëren afhankelijk van het openstaande bedrag, het aantal dagen dat het bedrag vervallen is of het aantal maanden dat het bedrag vervallen is.
@@ -73,7 +76,7 @@ U stelt een rentecode in die één keer rente aanrekent voor elke drie maanden d
 
 U stelt de bereikinformatie als volgt in.
 
-| **From value** | **Interest value** |
+| **Vanaf waarde** | **Rentewaarde** |
 |----------------|--------------------|
 | 0              | 1                  |
 | 1,001          | 2                  |
@@ -94,7 +97,7 @@ U stelt een rentecode in die één keer rente aanrekent voor elke 15 dagen dat d
 
 U stelt de bereikinformatie als volgt in.
 
-| **From value** | **Interest value** |
+| **Vanaf waarde** | **Rentewaarde** |
 |----------------|--------------------|
 | 0              | 10                 |
 | 61             | 15                 |
@@ -109,13 +112,13 @@ U stelt een rentecode in die één keer rente aanrekent voor elke maand dat de f
 | **Veldnaam**                  | **Veldwaarde** |
 |---------------------------------|-----------------|
 | **Rentecode**               | 1M%ByMth        |
-| **Bereken rente elke**    | 1/maand         |
+| **Bereken rente elke**    | 1/Maand         |
 | **Rente per bereik**           | Maanden          |
 | **Rente berekenen op basis van** | Percentage      |
 
 U stelt de bereikinformatie als volgt in.
 
-| **From value** | **Interest value** |
+| **Vanaf waarde** | **Rentewaarde** |
 |----------------|--------------------|
 | 0              | 1.5                |
 | 4              | 2                  |
@@ -125,5 +128,7 @@ U stelt de bereikinformatie als volgt in.
 Rentecodes zijn geldig op bepaalde datums. Als u de rentevoet wilt wijzigen, kunt u een **nieuwe versie** maken die vanaf een toekomstige datum geldig is.
 
 Als u verschillende versies wilt bekijken, kunt u de menukeuze **Begindatum** gebruiken om de afsluitdatum te selecteren. U kunt ook **Alle records weergeven** selecteren om alle rentecodes op de pagina weer te geven.
+
+
 
 

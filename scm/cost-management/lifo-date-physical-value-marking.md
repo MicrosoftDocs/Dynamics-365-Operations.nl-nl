@@ -55,16 +55,16 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bij
 -   Voorraadtransacties worden aangegeven met verticale pijlen.
 -   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 -   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie is opgegeven in de indelingQuantity@Unitprice.
+-   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
 -   Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 -   Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 -   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+-   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 -   Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO-datum met de optie Fysieke waarde opnemen
-U kunt het selectievakje **Fysieke waarde opnemen** inschakelen voor een artikel op de pagina **Artikelmodelgroepen**. In dit geval wordt door het systeem zowel fysieke als financiële ontvangsttransacties gebruikt om de lopend gemiddelde kostprijs te berekenen. Waar van toepassing wordt de fysiek bijgewerkte uitgiftetransactie ook gecorrigeerd. Als het selectievakje **Fysieke waarde opnemen** is uitgeschakeld, worden bij een voorraadafsluiting met het voorraadmodel LIFO-datum alleen vereffeningen gemaakt voor transacties die financieel zijn bijgewerkt. In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de fysieke waarde. De volgende afbeelding geeft deze transacties weer:
+U kunt het selectievakje **Fysieke waarde opnemen** inschakelen voor een artikel op de pagina **Artikelmodelgroepen**. In dit geval worden zowel fysieke als financiële ontvangsttransacties gebruikt voor het berekenen van de lopende gemiddelde kostprijs. Waar van toepassing wordt de fysiek bijgewerkte uitgiftetransactie ook gecorrigeerd. Als het selectievakje **Fysieke waarde opnemen** is uitgeschakeld, worden bij een voorraadafsluiting met het voorraadmodel LIFO-datum alleen vereffeningen gemaakt voor transacties die financieel zijn bijgewerkt. In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de fysieke waarde. De volgende afbeelding geeft deze transacties weer:
 
 -   1a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
 -   1b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
@@ -82,16 +82,16 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bij
 -   Voorraadtransacties worden aangegeven met verticale pijlen.
 -   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 -   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie is opgegeven in de indelingQuantity@Unitprice.
+-   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
 -   Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 -   Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 -   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+-   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 -   Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 ## <a name="lifo-date-with-marking"></a>LIFO-datum met markering
-Markeren is een proces waarmee u kunt koppelen, of een uitgiftetransactie aan een ontvangsttransactie markeren. Markering kan plaatsvinden voor- of nadat een transactie is geboekt. U kunt markering gebruiken als u zeker wilt zijn van de juiste kosten van de voorraad wanneer de transactie wordt geboekt of de voorraad wordt afgesloten. De afdeling Klantenservice heeft een spoedorder van een belangrijke klant aangenomen. Omdat dit een spoedorder is, moet u meer voor dit artikel betalen om aan de vraag van de klant te voldoen. U moet ervoor zorgen dat de kosten van dit voorraadartikel worden weerspiegeld in de marge, of kosten van verkochte goederen, voor deze verkooporderfactuur. Wanneer de inkooporder wordt geboekt, wordt de voorraad ontvangen voor het bedrag van USD 120,00. Als dit verkooporderdocument aan de inkooporder wordt gekoppeld voordat de pakbon of factuur wordt geboekt, bedragen de kosten van de verkochte goederen USD 120,00, niet de huidige gemiddelde kosten voor het artikel. Als de pakbon of factuur voor de verkooporder wordt geboekt voordat er wordt gemarkeerd, wordt de COGS geboekt tegen de lopende, gemiddelde kostprijs. Voordat de voorraad wordt afgesloten, worden deze twee transacties naar elkaar gemarkeerd. Een ontvangsttransactie wordt bijvoorbeeld aan een uitgiftetransactie gekoppeld. In dit geval wordt de waarderingsmethode die is gedefinieerd in de artikelmodelgroep wordt genegeerd en het systeem deze transacties met elkaar vereffent. U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie wordt geboekt. U kunt dit doen vanaf een verkooporderregel op de pagina **Details verkooporder**. U kunt de openstaande ontvangsttransacties bekijken op de pagina **Markering**. U kunt ook een uitgiftetransactie aan een ontvangst koppelen nadat de transactie is geboekt. U kunt een uitgiftetransactie voor een openstaande ontvangsttransactie voor een geïnventariseerd artikel afstemmen of markeren vanuit een geboekt voorraadcorrectiejournaal. De volgende afbeelding geeft deze transacties weer:
+Markeren is een proces waarmee u een uitgiftetransactie aan een ontvangsttransactie kunt koppelen (of markeren). Markering kan plaatsvinden voor- of nadat een transactie is geboekt. U kunt markering gebruiken als u zeker wilt zijn van de juiste kosten van de voorraad wanneer de transactie wordt geboekt of de voorraad wordt afgesloten. De afdeling Klantenservice heeft een spoedorder van een belangrijke klant aangenomen. Omdat dit een spoedorder is, moet u meer voor dit artikel betalen om aan de vraag van de klant te voldoen. U moet ervoor zorgen dat de kosten van dit voorraadartikel worden weerspiegeld in de marge, of kosten van verkochte goederen, voor deze verkooporderfactuur. Wanneer de inkooporder wordt geboekt, wordt de voorraad ontvangen voor het bedrag van USD 120,00. Als dit verkooporderdocument aan de inkooporder wordt gekoppeld voordat de pakbon of factuur wordt geboekt, bedragen de kosten van de verkochte goederen USD 120,00, niet de huidige gemiddelde kosten voor het artikel. Als de pakbon of factuur voor de verkooporder wordt geboekt voordat er wordt gemarkeerd, wordt de COGS geboekt tegen de lopende, gemiddelde kostprijs. Voordat de voorraad wordt afgesloten, worden deze twee transacties naar elkaar gemarkeerd. Een ontvangsttransactie wordt bijvoorbeeld aan een uitgiftetransactie gekoppeld. In dit geval wordt de waarderingsmethode die is gedefinieerd in de artikelmodelgroep van het artikel genegeerd en worden deze transacties met elkaar vereffend. U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie wordt geboekt. U kunt dit doen vanaf een verkooporderregel op de pagina **Details verkooporder**. U kunt de openstaande ontvangsttransacties bekijken op de pagina **Markering**. U kunt ook een uitgiftetransactie aan een ontvangst koppelen nadat de transactie is geboekt. U kunt een uitgiftetransactie voor een openstaande ontvangsttransactie voor een geïnventariseerd artikel afstemmen of markeren vanuit een geboekt voorraadcorrectiejournaal. De volgende afbeelding geeft deze transacties weer:
 
 -   1a. Fysieke voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
 -   1b. Financiële voorraadontvangst voor de hoeveelheid 1 met een waarde van USD 10,00 per stuk.
@@ -110,11 +110,11 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 -   Voorraadtransacties worden aangegeven met verticale pijlen.
 -   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
 -   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl ziet u de waarde van de voorraadtransactie is opgegeven in de indelingQuantity@Unitprice.
+-   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
 -   Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 -   Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 -   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+-   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 -   Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 

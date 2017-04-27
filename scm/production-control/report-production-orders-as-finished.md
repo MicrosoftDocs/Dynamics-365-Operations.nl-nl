@@ -1,6 +1,6 @@
 ---
 title: Productieorders als voltooid melden
-description: Gereedmelding is een productiefase. In deze fase wordt een eindproduct gerapporteerd en van de productieorder verplaatst naar de voorraad.
+description: Gereedmelden is een productiefase. In deze fase wordt een eindproduct gemeld en van de productieorder verplaatst naar de voorraad.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="report-production-orders-as-finished"></a>Productieorders als voltooid melden
 
-Gereedmelding is een productiefase. In deze fase wordt een eindproduct gerapporteerd en van de productieorder verplaatst naar de voorraad.
+[!include[banner](../includes/banner.md)]
+
+
+Gereedmelden is een productiefase. In deze fase wordt een eindproduct gemeld en van de productieorder verplaatst naar de voorraad.
 
 Wanneer een hoeveelheid van de eindproducten wordt gereedgemeld op een productieorder, wordt dit in de voorraad bijgewerkt als voorhanden. Gedeeltelijke hoeveelheden van de oorspronkelijk geplande orderhoeveelheid kunnen worden gereedgemeld. Het is ook mogelijk om fouthoeveelheden met een bijbehorende foutreden te rapporteren bij het gereedmelden van hoeveelheden. Wanneer de productieorder de fase Gereedgemeld bereikt, geeft deze aan dat er geen hoeveelheid meer zal worden gerapporteerd op de productieorder.
 De volgende kenmerken worden ook gekoppeld aan het proces **Gereedmelden**:
@@ -44,5 +47,7 @@ De hoeveelheid wordt gerapporteerd aan de uitvoerlocatie. Magazijnwerk wordt dan
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Een productieorder instellen op Gereedgemeld
 U kunt een productieorder instellen op **Gereedgemeld** via de standaardfunctie voor het bijwerken van productieorders of via de route- en taakkaartjournalen of via het journaal **Gereedmelden**. U kunt de fase ook bijwerken naar **Gereedgemeld** via de pagina's Taakkaartterminal en Apparaat voor taakkaarten, wanneer u over de laatste taak van de productieorder rapporteert. Tenslotte kunt u de optie **Gereedmelden** inschakelen als een proces voor de oplossing met handbediende magazijnapparaten.  
+
+
 
 

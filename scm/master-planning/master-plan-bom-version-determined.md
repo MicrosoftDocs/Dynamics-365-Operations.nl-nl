@@ -1,6 +1,6 @@
 ---
 title: De stuklijstversie bepalen
-description: Tijdens een vraagexplosie als een artikel een standaardtype van productie heeft, de plannings-engine een wordt geldige stuklijstversie gezocht op basis van de site.
+description: Als voor een artikel tijdens een vraagexplosie een standaardordertype is ingesteld op Productie, wordt een geldige stuklijstversie gezocht op basis van de locatie.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="determine-the-bom-version"></a>De stuklijstversie bepalen
 
-Tijdens een vraagexplosie als een artikel een standaardtype van productie heeft, de plannings-engine een wordt geldige stuklijstversie gezocht op basis van de site. 
+[!include[banner](../includes/banner.md)]
+
+
+Als voor een artikel tijdens een vraagexplosie een standaardordertype is ingesteld op Productie, wordt een geldige stuklijstversie gezocht op basis van de locatie. 
 
 De locatiedimensie is altijd bekend en wordt vermeld op de vraagtransactie. Het bepalen van de te gebruiken stuklijstversie gaat als volgt in zijn werk:
 
@@ -38,6 +41,8 @@ De locatiedimensie is altijd bekend en wordt vermeld op de vraagtransactie. Het 
 -   Als er geen algemene stuklijstversie bestaat, wordt de vraagexplosie op dit moment gestopt.
 
 Een geldige stuklijstversie, of deze nu locatiespecifiek of algemeen is, moet voldoen aan de vereiste criteria voor datum en hoeveelheid.
+
+
 
 
 

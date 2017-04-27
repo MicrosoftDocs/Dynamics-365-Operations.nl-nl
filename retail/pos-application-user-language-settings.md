@@ -1,6 +1,6 @@
 ---
 title: De taalinstellingen van de POS-toepassing en gebruiker
-description: In dit onderwerp wordt beschreven hoe taalinstellingen wijzigen in de detailhandel moderne POS (MPOS) en Cloud-POS.
+description: In dit onderwerp wordt beschreven hoe u taalinstellingen wijzigt in Retail Modern POS (MPOS) en Cloud POS.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="pos-application-and-user-language-settings"></a>De taalinstellingen van de POS-toepassing en gebruiker
 
-In dit onderwerp wordt beschreven hoe taalinstellingen wijzigen in de detailhandel moderne POS (MPOS) en Cloud-POS.
+[!include[banner](includes/banner.md)]
+
+
+In dit onderwerp wordt beschreven hoe u taalinstellingen wijzigt in Retail Modern POS (MPOS) en Cloud POS.
 
 <a name="overview"></a>Overzicht
 ========
 
-Retail moderne POS (MPOS) en Cloud-POS ondersteuning voor omgevingen waar taalinstellingen en vertalingen tussen de winkel- en instellingen variëren kunnen. De winkel kan bijvoorbeeld bevinden in een gebied waar Engels is gebruikelijk voor hun klanten, maar sommige werknemers liever de toepassing met Franse vertalingen gebruiken.
+Retail Modern POS (MPOS) en Cloud POS ondersteunen omgevingen waar de taalinstellingen en vertalingen tussen de winkel- en de gebruikerinstellingen kunnen verschillen. De winkel kan zich bijvoorbeeld bevinden in een regio waar klanten meestal Engels spreken, maar sommige werknemers kunnen er de voorkeur aan geven de toepassing te gebruiken met de Franse vertaling.
 
 ## <a name="data-language"></a>Gegevenstaal
-Ongeacht de instellingen van de gebruiker, wordt MPOS en Cloud-POS gebruik altijd de taalinstellingen van de winkel om te bepalen van de vertalingen voor de gegevens gebruikt. Hierdoor zorgt u dat alle gebruikers en klanten een consistente ervaring hebben.  Voorbeelden van gegevens zijn:
+Ongeacht de instellingen van de gebruiker gebruiken Retail Modern POS en Cloud POS altijd de taalinstellingen van de winkel om te bepalen welke vertalingen er voor gegevens moeten worden gebruikt. Dit zorgt ervoor dat alle gebruikers en klanten een consistente ervaring hebben.  Voorbeelden van de gegevens zijn:
 
 -   Producten
 -   Kenmerken en waarden
@@ -45,25 +48,27 @@ Ongeacht de instellingen van de gebruiker, wordt MPOS en Cloud-POS gebruik altij
 -   Namen betalingsmethodes
 -   Regelweergaveberichten
 
-De taal van de winkel worden ook gebruikt voor het hoofdscherm van POS-aanmelding omdat de gebruiker onbekend voordat u zich aanmeldt. Als een vertaling niet beschikbaar voor de taal van de winkel is, wordt het POS terug naar de taal van het bedrijf.
+De taal van de winkel wordt ook gebruikt voor het hoofdscherm voor aanmelding bij POS, aangezien de gebruiker niet bekend is voordat deze zich heeft aangemeld. Als geen vertaling beschikbaar is voor de taal van de winkel, wordt het POS teruggezet naar de taal van het bedrijf.
 
 ### <a name="configuring-the-stores-language-setting"></a>De taalinstelling van de winkel configureren
 
-De taalinstelling van de winkel wordt ingesteld op **alle detailhandel** op de **winkel** pagina onder ** algemene &gt;landinstellingen &gt;taal. ** Aansluiting omlaag gebruiken om de taal voor elke winkel te kiezen.
+De taalinstelling van de winkel wordt ingesteld vanuit **Alle detailhandels** op de pagina **Detailhandel** onder Algemeen &gt; Landinstellingen &gt; Taal. **Gebruik de vervolgkeuzelijst om de taal voor elke winkel te kiezen.
 
 ## <a name="user-interface-language"></a>Taal gebruikersinterface
-De taalinstelling van de POS-gebruiker bepaalt de vertalingen die in de gebruikersinterface van de toepassing gebruikt. Dit omvat alle labels, menu's en lijsten die gegevens niet worden beschouwd. Een uitzondering is de tekst die wordt weergegeven op de POS-knoppenrasters. De knoppenrasters ondersteunen geen vertalingen, zodat ze altijd de tekst weergegeven zoals gedefinieerd op de knop. Ter ondersteuning van vertaalde knoppen hebt u wilt kopiëren en afzonderlijke knoppenrasters beheren en deze toewijzen aan de gebruikers.
+De taalinstellingen van de gebruiker van het POS bepalen welke vertalingen worden gebruikt in de gebruikersinterface van de toepassing. Dit omvat alle labels en menu's en lijsten die niet als gegevens worden beschouwd. Eén uitzondering hierop is de tekst die op POS-Knoppenrasters wordt weergegeven. Deze ondersteunen geen vertalingen, waardoor ze altijd de tekst weergeven die voor de knop is gedefinieerd. Om vertaalde knoppen te ondersteunen, moet u afzonderlijke knoppenrasters kopiëren en onderhouden en deze aan de juiste gebruikers toewijzen.
 
 ### <a name="configuring-the-users-language-setting"></a>De taalinstelling van de gebruiker configureren
 
-De taalinstelling van de POS-gebruiker wordt ingesteld op **alle werknemers** op de **werknemer** pagina onder **detailhandel &gt;taal**.  Het is niet ingesteld op het tabblad met belangrijkste profiel.  Deze instelling wordt niet gebruikt door POS. Als de taal van de gebruiker niet is ingesteld of is ingesteld op een taal waarvoor geen vertalingen beschikbaar zijn, stapt het POS weer over op de taal van de winkel.  
+De taalinstellingen van de gebruiker van het POS kunnen worden ingesteld via **Alle werknemers** op de pagina **Werknemer** onder **Detailhandel &gt; Taal**.  Het wordt niet ingesteld op het hoofdtabblad Profiel.  Deze instelling wordt niet gebruikt door POS. Als de taal van de gebruiker niet is ingesteld of is ingesteld op een taal waarvoor geen vertalingen beschikbaar zijn, stapt het POS weer over op de taal van de winkel.  
 
 |             |                            |                                                                   |
 |-------------|----------------------------|-------------------------------------------------------------------|
-| ** **       | **De taal van gebruikersinterface** ** **      | **Gegevenstaal (producten, ontvangstindelingen, regelweergave, enzovoort.)** |
+| ** **       | **Taal van gebruikersinterface** ** **      | **Gegevenstaal (producten, ontvangstindelingen, regelweergave, enzovoort.)** |
 | **Bedrijf** | Standaard                    | Standaard                                                           |
 | **Winkel**   | Overschrijft bedrijf          | Overschrijft bedrijf                                                 |
-| **User**    | Overschrijft opslag of bedrijf | Nooit                                                             |
+| **Gebruiker**    | Overschrijft opslag of bedrijf | Nooit                                                             |
+
+
 
 
 

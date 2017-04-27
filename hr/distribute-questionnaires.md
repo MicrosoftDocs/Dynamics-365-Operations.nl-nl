@@ -1,6 +1,6 @@
 ---
 title: Vragenlijsten verspreiden en invullen
-description: Dit onderwerp wordt uitgelegd hoe distribueert de vragenlijsten die u hebt ontworpen, zodat ze beschikbaar zijn voor de persoon of groep mensen die ze voltooien.
+description: In dit onderwerp wordt uitgelegd hoe u de vragenlijsten die u ontwerpt kunt distribueren, zodat ze beschikbaar zijn voor de persoon of groep personen die de lijsten gaat invullen.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Vragenlijsten verspreiden en invullen
 
-Dit onderwerp wordt uitgelegd hoe distribueert de vragenlijsten die u hebt ontworpen, zodat ze beschikbaar zijn voor de persoon of groep mensen die ze voltooien. 
+In dit onderwerp wordt uitgelegd hoe u de vragenlijsten die u ontwerpt kunt distribueren, zodat ze beschikbaar zijn voor de persoon of groep personen die de lijsten gaat invullen. 
 
 Er zijn meerdere manieren om een vragenlijst te verspreiden:
 
@@ -38,7 +38,7 @@ Er zijn meerdere manieren om een vragenlijst te verspreiden:
 -   Een planning maken. De vragenlijst kan dan voor meerdere mensen beschikbaar zijn.
 
 ## <a name="marking-a-questionnaire-as-active"></a>Een vragenlijst als actief markeren.
-Door in te stellen de **actieve** veld **Ja** op de **vragenlijsten** pagina kunt u de vragenlijst beschikbaar voor alle werknemers invullen. Respondenten kunnen de vragenlijst meerdere keren. Deze functie is handig als u wilt verzamelen gedurende het jaar continue feedback. U kunt bijvoorbeeld een vragenlijst maken die werknemers gebruiken om feedback te geven over de lunchservice in de kantine.
+Als u het veld **Actief** instelt op **Ja** op de pagina **Vragenlijsten**, kunt u de vragenlijst beschikbaar maken voor alle werknemers zodat zij de lijst kunnen invullen. Respondenten kunnen de vragenlijst meerdere keren invullen. Deze functionaliteit is handig als u gedurende het hele jaar steeds feedback wilt verzamelen. U kunt bijvoorbeeld een vragenlijst maken die werknemers gebruiken om feedback te geven over de lunchservice in de kantine.
 
 ## <a name="questionnaire-groups"></a>Vragenlijstgroepen
 U kunt vragenlijstgroepen instellen en vervolgens de respondenten opnemen waarnaar een vragenlijst moet worden verspreid. 
@@ -48,7 +48,7 @@ U kunt vragenlijstgroepen maken via de volgende pagina´s:
 -   **Vragenlijstgroepen **– alleen personen in een vragenlijstgroep kunnen een geselecteerde vragenlijst invullen. Als uw doelgroep uit contractanten bestaat, kunt u een vragenlijstgroep maken die specifiek is voor die respondenten.
 -   **Vragenlijstgroepsleden** – u kunt mensen aan vragenlijstgroepen toevoegen.
 
-Voor het toewijzen van een vragenlijstgroep toewijst aan een vragenlijst op de **vragenlijsten** pagina, klikt u op **gebruikersrechten**. Nadat de vragenlijst is opgeslagen als actief, kunnen de leden van de vragenlijstgroep de vragenlijst invullen. Deze functie is handig als u wilt testen op een selecte groep mensen een vragenlijst voor de implementatie deze tot een grotere groep, of als u zich wilt richten een vragenlijst op een zeer specifieke doelgroep.
+Als u een vragenlijstgroep wilt toewijzen aan een vragenlijst, klik u op de pagina **Vragenlijsten** op **Gebruikersrechten**. Nadat de vragenlijst is opgeslagen als actief, kunnen de leden van de vragenlijstgroep de vragenlijst invullen. Deze functionaliteit is handig als u een vragenlijst op een selecte groep mensen wilt testen voordat u deze beschikbaar stelt voor een grotere groep, of als u een vragenlijst door een zeer specifieke doelgroep wilt laten invullen.
 
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Geplande antwoordsessies in een vragenlijst
 Geplande antwoordsessies zijn vragenlijsten waarvoor u de respondenten hebt aangesteld en geselecteerd. 
@@ -82,24 +82,24 @@ U kunt planningstypen voor een vragenlijstplanning opgeven op de pagina **Vragen
 
 U kunt verwijzingstypen gebruiken als hulpmiddel bij het invoeren van criteria die u gebruikt bij de selectie van respondenten wanneer u een vragenlijst plant. 
 
-Gebruik de pagina **Verwijzingstypen** om referentietypen voor een vragenlijst in te stellen. Elk verwijzingstype komt overeen met een tabel in Microsoft Dynamics 365 voor bewerkingen. Wanneer u de vragenlijstplanning maakt, kunt u afzonderlijke records in de tabel of een bereik van records opgeven waar de vragenlijst aan wordt gekoppeld. 
+Gebruik de pagina **Verwijzingstypen** om referentietypen voor een vragenlijst in te stellen. Elk verwijzingstype komt overeen met een tabel in Microsoft Dynamics 365 for Operations. Wanneer u de vragenlijstplanning maakt, kunt u afzonderlijke records in de tabel of een bereik van records opgeven waar de vragenlijst aan wordt gekoppeld. 
 
 Als u bijvoorbeeld de tabel Cursussen selecteert, kunt u bepalen voor welke specifieke cursus de vragenlijst is. Wanneer u een verwijzingstype instelt voor de tabel Cursussen, zijn sommige velden en knoppen op de pagina **Cursussen** niet meer beschikbaar.
 
 ### <a name="questionnaire-schedules"></a>Vragenlijstplanningen
 
-Planningen van de vragenlijst kunt u meerdere geplande antwoordsessies voor een groep gebruikers, op basis van een verwijzingstype te genereren. Een planning maken op de **vragenlijstplanningen** pagina. Selecteer het planningstype voor het categoriseren van de planning en ook het verwijzingstype dat moet worden gebruikt voor het systeem voor specifieke gebruikers query selecteren. Bijvoorbeeld: als u het verwijzingstype dat in de tabel cursussen instelt, kunt u een bepaalde cursus in de **verwijzing** veld. 
+U kunt vragenlijstplanningen gebruiken om meerdere geplande antwoordsessies voor een groep gebruikers op basis van een verwijzingstype te genereren. Maak een planning op de pagina **Vragenlijstplanningen**. Selecteer het planningstype om de planning te categoriseren en ook om het verwijzingstype te selecteren dat moet worden gebruikt om in het systeem naar specifieke gebruikers te laten zoeken. Bijvoorbeeld: als u het verwijzingstype instelt op de tabel Cursussen, kunt u een bepaalde cursus in het veld **Verwijzing** selecteren. 
 
-Klik op **Instellingsdetails** om de vragenlijst en andere criteria te selecteren. Bijvoorbeeld de docent naam als een criterium opgeven als de vragenlijst een evaluatie van de docent. Nadat u klaar bent met het invoeren van de informatie over instellingen, genereert het systeem geplande antwoordsessies voor de gebruikers die zijn opgenomen in de query. 
+Klik op **Instellingsdetails** om de vragenlijst en andere criteria te selecteren. Bijvoorbeeld: geef de naam van de docent als een criterium op als de vragenlijst een evaluatie van de docent is. Als u de instellingsdetails hebt ingevoerd, worden geplande antwoordsessies gegenereerd voor de gebruikers die zijn opgenomen in de query. 
 
 Klik op **Geplande antwoordsessies** om de antwoordsessie voor de planning weer te geven. U kunt vervolgens handmatig extra geplande antwoordsessies maken of geplande antwoordsessies verwijderen die niet zijn beantwoord. 
 
-Klik op **functies**&gt;**starten** de vragenlijst beschikbaar maken voor de gebruikers in de gerelateerde geplande antwoordsessies. Klik op **Antwoorden** om de ingevulde antwoorden in de vragenlijst weer te geven. U kunt de instellingen van de vragenlijstplanning, geplande antwoordsessies en de antwoorden ook kopiëren naar een nieuwe vragenlijstplanning.
+Klik op **Functies** &gt; **Starten** om de vragenlijst beschikbaar te maken voor de gebruikers in gerelateerde geplande antwoordsessies. Klik op **Antwoorden** om de ingevulde antwoorden in de vragenlijst weer te geven. U kunt de instellingen van de vragenlijstplanning, geplande antwoordsessies en de antwoorden ook kopiëren naar een nieuwe vragenlijstplanning.
 
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Respondenten op de hoogte brengen als er vragenlijsten voor hen beschikbaar zijn
 Wanneer u een vragenlijst distribueert, moet u respondenten waarschuwen dat vragenlijsten beschikbaar voor hen zijn. 
 
-**opmerking:** respondenten moeten de gebruikers in Microsoft Dynamics 365 voor bewerkingen in een vragenlijst moeten invullen.
+**Opmerking:** om een vragenlijst te kunnen invullen, moeten respondenten gebruikers in Microsoft Dynamics 365 for Operations zijn.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Respondenten op de hoogte brengen van een geplande antwoordsessie
 
@@ -107,7 +107,7 @@ Als u een geplande antwoordsessie gebruikt, moet u de persoon direct, zoals tele
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Respondenten op de hoogte brengen van een planning
 
-Gebruik de pagina **Vragenlijstplanningen** om een e-mailbericht op te stellen en te versturen naar alle respondenten die aan de vragenlijst zijn gekoppeld. Voer de e-mailtekst in op het tabblad **E-mail voor werknemersselfservice**. Nadat de planning is gestart, klikt u op **functies**&gt;**e-mailbericht verzenden** genereren en het e-mailbericht verzenden naar de respondenten. Respondenten kunnen vervolgens aanmelden bij de website en de vragenlijst. 
+Gebruik de pagina **Vragenlijstplanningen** om een e-mailbericht op te stellen en te versturen naar alle respondenten die aan de vragenlijst zijn gekoppeld. Voer de e-mailtekst in op het tabblad **E-mail voor werknemersselfservice**. Nadat de planning is gestart, klikt u op **Functies** &gt; **E-mailbericht verzenden** om het e-mailbericht te genereren en te verzenden naar de respondenten. Respondenten kunnen zich vervolgens aanmelden bij de website en de vragenlijst invullen. 
 
 **Opmerking:** voordat u de e-mailfunctionaliteit kunt gebruiken, moet de IT-beheerder de e-mailinstellingen op de pagina **E-mailparameters** invoeren.
 
@@ -119,7 +119,7 @@ U kunt een geplande vragenlijst beëindigen nadat alle respondenten hun toegewez
 ## <a name="completing-questionnaires"></a>Vragenlijsten invullen
 Nadat u een vragenlijst hebt ontworpen en verspreid, kan de vragenlijst worden ingevuld door geselecteerde respondenten. U kunt de vragenlijsten die voor u beschikbaar zijn, op twee manieren openen:
 
--   Klik in het navigatiedeelvenster op **vragenlijsten**&gt;**verdelen**&gt;**een vragenlijst**.
+-   Klik in het navigatievenster op **Vragenlijsten** &gt; **Verdelen** &gt; **Vragenlijst invullen**.
 -   Klik in Selfservice werknemer op **In te vullen vragenlijsten**.
 
 Vragenlijsten kunnen beschikbaar worden gesteld aan alle personen in een netwerk of aan specifieke gebruikers of groepen gebruikers.
@@ -131,6 +131,6 @@ Vragenlijsten kunnen beschikbaar worden gesteld aan alle personen in een netwerk
 
 [Vragenlijsten gebruiken](questionnaires.md)
 
-[Bekijken en evalueren van de resultaten van vragenlijsten](evaluate-questionnaire-results.md)
+[De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
 
 

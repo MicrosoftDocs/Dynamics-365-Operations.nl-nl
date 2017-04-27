@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Operations-resources
 
+[!include[banner](../includes/banner.md)]
+
+
 Bronnen voor bedrijfsactiviteiten voeren de activiteiten van een project of een productieproces uit. Ze kunnen van verschillende typen zijn en kunnen verschillende capaciteiten hebben. 
 
 <a name="operations-resources"></a>Operations-resources
@@ -36,7 +39,7 @@ Bronnen voor bedrijfsactiviteiten voeren de activiteiten van een project of een 
 Bronnen voor bedrijfsactiviteiten zijn de machines, de hulpmiddelen, werknemers, faciliteiten, fysieke gebieden of leveranciers die de activiteiten van een project of een productieproces uitvoeren. Ze kunnen van verschillende typen zijn en kunnen verschillende capaciteiten hebben.
 
 -   **Leverancier** – Een externe bron die projectactiviteiten of productiebewerkingen uitvoert. Een voorbeeld is een onderaannemer. Door leveranciersbronnen aan een leveranciersrekening te koppelen, kunt u inkooporders voor onderaannemers genereren op basis van stuklijst- of productieregels.
--   **Human Resources** - Een project- of productiemedewerker die een activiteit uitvoert, ofwel alleen of als operator van een machine of een stuk gereedschap. Als u de HRM-functionaliteit gebruikt, kunt u HRM koppelen aan een werknemer. De planningsengine kan de resources vervolgens toewijzen, op basis van de competenties die voor de bijbehorende werknemer zijn gedefinieerd.
+-   **Human Resources** - Een project- of productiemedewerker die een activiteit uitvoert, ofwel alleen of als operator van een machine of een stuk gereedschap. Als u de functionaliteit Human Resources gebruikt, kunt u human resources aan een werknemer koppelen. De planningsengine kan de resources vervolgens toewijzen, op basis van de competenties die voor de bijbehorende werknemer zijn gedefinieerd.
 -   **Machine** - Een machine of andere productieapparatuur die in de productie is vereist.
 -   **Hulpmiddel** - Een instrument of een apparaat dat meestal samen met een andere bron worden gebruikt om een activiteit in een project of in productie uit te voeren.
 -   **Locatie** - Een fysieke locatie van een bepaalde grootte die nodig is om een activiteit uit te voeren. Een voorbeeld is een assemblagegebied.
@@ -80,5 +83,7 @@ Wanneer een resourcegroep als lean werkcel wordt gebruikt, wordt de capaciteit v
 
 ## <a name="costing-resources"></a>Kostprijsberekeningsresources
 Wanneer u een activiteit zoals een routebewerking of een projecturenprognose definieert, kunt u de behoefte voor een specifieke bron voor bedrijfsactiviteiten of resourcegroep opgeven. U kunt ook de behoefte voor een bron voor bedrijfsactiviteiten van een specifiek type opgeven, of een bron voor bedrijfsactiviteiten die een specifieke mogelijkheid of competentie heeft. Om deze reden wordt de werkelijke brontoewijzing pas gemaakt als de activiteit is gepland en de capaciteit is gereserveerd. Daarom kunt u op een routebewerking opgeven dat de raming en de stuklijstberekening op een bepaalde bron voor bedrijfsactiviteiten moet worden gebaseerd. Deze bron voor bedrijfsactiviteiten wordt de kostprijsberekeningsbron genoemd. U kunt kostencategorieën en bewerkingstijden ook van de kostprijsberekeningsbron naar de activiteit overbrengen. Wanneer de bewerking is gepland, vinden schatting en stuklijstberekening plaats door de bron voor bedrijfsactiviteiten te gebruiken die werkelijk is gepland.
+
+
 
 

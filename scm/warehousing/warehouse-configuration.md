@@ -52,13 +52,13 @@ Als onderdeel van het proces voor een magazijnindeling moet u de magazijnzonegro
 -   **Locatietypen**: de logische of fysieke groepering van de magazijnlocaties. U kunt bijvoorbeeld een locatietype voor alle faseringslocaties maken. De verplichte instellingen op de pagina **Parameters voor magazijnbeheer** bevorderen het proces om faseringslocatietypen en het uiteindelijke verzendlocatietype te definiëren.
 -   **Locaties**: het laagste locatiegegevensniveau. De locaties worden gebruikt om te traceren waar de voorhanden voorraad wordt opgeslagen en in een magazijn verzameld.
 
-De rechtspersonen die u maakt om uw magazijnindeling te definiëren, worden gebruikt in de query's die u in de werksjablonen instelt om werkorders in het magazijn te sturen. Wanneer u dus de zones, locatietypen, enzovoort selecteert, moet u er dus rekening mee houden hoe de verschillende gebieden in het magazijn voor verschillende processen worden gebruikt. Houd bovendien rekening met factoren zoals de fysieke kenmerken van een specifiek gebied. Zo kunnen er gebieden waar u alleen een bepaald type vorkheftruck kunt. Of als uw bedrijf productie- en eindproducten in dezelfde inrichting heeft, u kunt één magazijn maken in Dynamics 365 voor bewerkingen, maar de twee bewerkingen weer worden gescheiden door twee zone groepen maken. Geef uw entiteiten beschrijvende namen, zodat eenvoudig om ze te identificeren wanneer u ze in query's de sjabloon gebruikt.
+De rechtspersonen die u maakt om uw magazijnindeling te definiëren, worden gebruikt in de query's die u in de werksjablonen instelt om werkorders in het magazijn te sturen. Wanneer u dus de zones, locatietypen, enzovoort selecteert, moet u er dus rekening mee houden hoe de verschillende gebieden in het magazijn voor verschillende processen worden gebruikt. Houd bovendien rekening met factoren zoals de fysieke kenmerken van een specifiek gebied. Er kunnen bijvoorbeeld gebieden zijn waarin u alleen een bepaald type vorkheftruck kunt gebruiken. Of, als uw bedrijf zowel productie als gereed gemelde goederen binnen dezelfde faciliteit heeft, kunt u wellicht één magazijn in Dynamics 365 for Operations maken maar hierbij de twee bewerkingen van elkaar scheiden door twee zonegroepen te maken. Geef uw entiteiten beschrijvende namen, zodat het eenvoudig is om te identificeren wanneer u ze in sjabloonquery's gebruikt.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Locatie-opslaglimieten, locatieprofielen en vaste orderverzamellocaties
 
 U moet rekening houden met de fysieke indeling van het magazijn, zowel om opslagcapaciteiten (locatie-opslaglimieten en locatieprofielen) te definiëren en als onderdeel van uw pogingen om optimale magazijnprocessen te bereiken. 
 
-Locatie opslag limieten zorgt u dat werk is niet gemaakt voor het aanvragen van die voorraad worden geplaatst op een locatie die geen fysieke capaciteit van de voorraad uitvoeren. Als sommige locaties in een magazijn slechts één pallet per locatie bevatten kunnen, kunnen limieten opslag locatie bijvoorbeeld kan worden ingeschakeld. De ** hoeveelheid ** waarde kan worden ingesteld op **1**, en de ** eenheid ** waarde kan worden ingesteld op **PL** binnen een bepaalde locatie profiel groepering. 
+Opslaglimieten van locaties helpen ervoor te zorgen dat geen werk wordt gemaakt om te verzoeken dat voorraad wordt geplaatst op een locatie die niet de fysieke capaciteit voor die voorraad heeft. Als in sommige locaties in een magazijn bijvoorbeeld alleen plaats is voor één pallet per locatie, kunt u de locatie-opslagbeperkingen inschakelen. De waarde van **Hoeveelheid **kan worden ingesteld op **1** en de **Eenheid **kan worden ingesteld op **PL** in een specifieke locatieprofielgroep. 
 
 Als meer geavanceerdere berekeningen vereist zijn om de locatiecapaciteitsbeperkingen te controleren, kunt u de locatieprofielinstellingen gebruiken. In dit geval worden het gewicht en volume in aanmerking genomen bij de capaciteitsberekeningen. 
 
@@ -66,7 +66,7 @@ Om optimale uitgaande processen te bereiken, dient u te bepalen of u orderverzam
 
 ### <a name="location-setup-wizard"></a>Wizard voor locatie-instelling
 
-U kunt snel de locaties in een magazijn maken, kunt u de ** vestigingsinstellingen ** wizard. Als onderdeel van dit proces kunt u de indeling van de locatienamen eenvoudig beheren.
+Als u de locaties in een magazijn snel wilt maken, kunt u de wizard **Locatie-instelling **gebruiken. Als onderdeel van dit proces kunt u de indeling van de locatienamen eenvoudig beheren.
 
 ## <a name="warehouse-processes"></a>Magazijnprocessen
 Als onderdeel van de configuratie van het magazijn is het belangrijk dat u magazijnprocessen overeenkomstig de bedrijfsbehoeften inschakelt. De belangrijkste onderdelen die u moet configureren zijn wavesjablonen, werksjablonen, werkgroepen en locatierichtlijnen.
@@ -75,7 +75,7 @@ Als onderdeel van de configuratie van het magazijn is het belangrijk dat u magaz
 
 Wavesjablonen helpen om het uitgaande proces "wavesjablonen " in te schakelen. Wanneer de orderregels worden vrijgegeven (rechtstreeks uit brondocumenten, via batchtaakprocessen of via ladingen die al zijn gemaakt), wordt de wavesjabloonfunctionaliteit gebruikt. 
 
-U kunt drie soorten golf sjablonen maken: **verzending**, **productieorder**, en **Kanban**. Parameters worden gebruikt om te definiëren hoe ver het systeem automatisch in de verwerking van uitgaande werk moet gaan. Een wavesjabloon wordt geselecteerd op basis van de volgorde en criteria van het wavesjabloon die zijn opgegeven in het sjabloon. Als een sjabloon bovenaan de volgorde staat, worden de criteria in die sjabloon eerst gecontroleerd. Als aan de criteria kan worden voldaan, wordt de wavesjabloon verwerkt. Anders worden de criteria in het volgende sjabloon gecontroleerd, enzovoort. Daarom is het een goed idee om het sjabloon met de meest specifieke criteria bovenaan de wavesjabloonvolgordelijst te zetten, zodat het eerst wordt verwerkt. U wilt bijvoorbeeld al het werk voor een specifieke vervoerder vandaag verwerken en de verwerking van het werk voor andere voor vervoerders tijdelijk vertragen. In dit geval moet de wavesjabloon die het werk voor die vervoerder selecteert hoger in de volgorde worden weergegeven dan andere sjablonen. Anders wordt het werk voor andere vervoerders mogelijk verwerkt voordat het werk voor die vervoerder is voltooid. 
+U kunt drie typen wavesjablonen maken: **Verzending**, **Productieorder** en **Kanban**. De parameters worden gebruikt om te bepalen hoe ver het systeem automatisch moet gaan bij de uitgaande werkverwerking. Een wavesjabloon wordt geselecteerd op basis van de volgorde en criteria van het wavesjabloon die zijn opgegeven in het sjabloon. Als een sjabloon bovenaan de volgorde staat, worden de criteria in die sjabloon eerst gecontroleerd. Als aan de criteria kan worden voldaan, wordt de wavesjabloon verwerkt. Anders worden de criteria in het volgende sjabloon gecontroleerd, enzovoort. Daarom is het een goed idee om het sjabloon met de meest specifieke criteria bovenaan de wavesjabloonvolgordelijst te zetten, zodat het eerst wordt verwerkt. U wilt bijvoorbeeld al het werk voor een specifieke vervoerder vandaag verwerken en de verwerking van het werk voor andere voor vervoerders tijdelijk vertragen. In dit geval moet de wavesjabloon die het werk voor die vervoerder selecteert hoger in de volgorde worden weergegeven dan andere sjablonen. Anders wordt het werk voor andere vervoerders mogelijk verwerkt voordat het werk voor die vervoerder is voltooid. 
 
 U moet de waveprocesmethoden in elk wavesjabloon opgeven. Welke methoden beschikbaar zijn, is afhankelijk van het wavesjabloontype.
 
@@ -87,7 +87,7 @@ Als meerdere werknemers werk moeten kunnen verwerken voor enkele van uw magazijn
 
 ### <a name="work-pools"></a>Werkgroepen
 
-Werkgroepen worden gebruikt om werk in groepen te organiseren. U kunt bijvoorbeeld, een werkpool maken om werk te classificeren dat zich in een bepaalde magazijnlocatie voordoet. Voor alle werktypen, behalve tellen, kunt u een werkgroep toewijzen aan een werksjabloon. Voor cyclustelling kunt u een werkgroep toewijzen op de volgende pagina´s:
+Werkgroepen worden gebruikt om werk in groepen te organiseren. U kunt bijvoorbeeld, een werkpool maken om werk te classificeren dat zich in een bepaalde magazijnlocatie voordoet. Voor alle werktypen, behalve tellen, kunt u een werkgroep toewijzen aan een werksjabloon. Voor cyclustelling kunt u een werkgroep toewijzen op de volgende pagina's:
 
 -   Cyclustelplannen
 -   Drempels voor cyclustelling
@@ -96,7 +96,7 @@ Werkgroepen worden gebruikt om werk in groepen te organiseren. U kunt bijvoorbee
 
 Wanneer u werksjablonen gebruikt om werk te maken, wordt de werkpool automatisch toegewezen aan het werk. 
 
-Werkgroep-id´s kunnen ook worden gebruikt om het type werk dat wordt toegewezen aan een bepaalde magazijnwerknemer, te beperken, mits deze functionaliteit is geconfigureerd in het menu-item van het mobiele apparaat.
+Werkgroep-id's kunnen ook worden gebruikt om het type werk dat wordt toegewezen aan een bepaalde magazijnwerknemer, te beperken, mits deze functionaliteit is geconfigureerd in het menu-item van het mobiele apparaat.
 
 ### <a name="location-directives"></a>Instructielocatie
 
@@ -107,6 +107,6 @@ Om het gemakkelijker en sneller te maken om de acties te definiëren die zijn ge
 <a name="see-also"></a>Zie ook
 --------
 
-[Locaties in een magazijn WMS ingeschakeld (taak guide) configureren](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Locaties in een WMS-magazijn configureren](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/) (taakbegeleiding)
 
 

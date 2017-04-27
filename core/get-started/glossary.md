@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 voor bewerkingen woordenlijst
+title: Woordenlijst Dynamics 365 for Operations
 description: In de woordenlijst van Microsoft Dynamics 365 for Operations worden de belangrijkste termen en concepten van het product Dynamics 365 for Operations gedefinieerd.
 author: tonyafehr
 manager: AnnBe
@@ -25,13 +25,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 voor bewerkingen woordenlijst
+# <a name="dynamics-365-for-operations-glossary"></a>Woordenlijst Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 In de woordenlijst van Microsoft Dynamics 365 for Operations worden de belangrijkste termen en concepten van het product Dynamics 365 for Operations gedefinieerd. 
 
 ### <a name="a"></a>**A**
 
-###### <a name="accounting-journal"></a>**accounting journal**
+###### <a name="accounting-journal"></a>**boekhoudingsjournaal**
 
 Een journaal dat wordt gebruikt voor het vastleggen van de financiële gevolgen van boekhoudgebeurtenissen in het boekhoudsysteem.
 
@@ -73,7 +76,7 @@ Het aantal dagen in een tijdperiode dat wordt gebruikt bij het rapporteren van h
 
 Een overzicht van de financiële positie van een organisatie waarin de status van de activa, passiva en eigen vermogen op een bepaalde datum is vastgelegd.
 
-###### <a name="balance-sheet-account"></a>**balance sheet account**
+###### <a name="balance-sheet-account"></a>**balansrekening**
 
 Een rekening waarin de waardewijzigingen worden weergegeven die in een balans worden vastgelegd.
 
@@ -89,7 +92,7 @@ Een productkenmerk van een verwerkingsbatch of een overboekingsbatch.
 
 De aanbevolen datum waarop de optimale kwaliteit of karakteristieken van een product zijn bereikt.
 
-###### <a name="best-before-period"></a>**best before period**
+###### <a name="best-before-period"></a>**uiterste houdbaarheidsperiode**
 
 De tijdperiode waarin de optimale kwaliteit of karakteristieken van een product worden bereikt.
 
@@ -109,23 +112,23 @@ De actie waarbij een document of product in wachtstand wordt geplaatst.
 
 Een praktijk waarbij uitgaven alleen worden toegestaan wanneer er budgetfondsen kunnen worden gereserveerd voor toekomstige betalingsverplichtingen.
 
-###### <a name="budget-control-dimension"></a>**budget control dimension**
+###### <a name="budget-control-dimension"></a>**dimensie voor budgetbeheer**
 
 Een combinatie van waarden voor actieve financiële dimensies die worden gebruikt om budgetfondsen toe te kennen ter betaling van geplande activiteiten.
 
-###### <a name="budget-control-rule"></a>**budget control rule**
+###### <a name="budget-control-rule"></a>**regel voor budgetbeheer**
 
 De codering van een zakelijke beslissing om te controleren of toegezegde en werkelijke uitgaven overeenstemmen met de beschikbare budgetfondsen die zijn toegewezen aan afzonderlijke of samengevoegde activiteiten zoals gedefinieerd door geldige combinaties voor de dimensie voor budgetbeheer.
 
-###### <a name="budget-cycle-time-span"></a>**budget cycle time span**
+###### <a name="budget-cycle-time-span"></a>**budgetcyclusduur**
 
 Een tijdperiode die wordt opgegeven als een aantal perioden in de fiscale kalender. De budgetperiode kan anders zijn dan de boekhoudperiode.
 
-###### <a name="budget-group"></a>**budget group**
+###### <a name="budget-group"></a>**budgetgroep**
 
 Een set waarden van financiële dimensies in een budgetdimensiehiërarchie die wordt gebruikt om de samengevoegde budgetfondsen te berekenen die zijn toegewezen aan bovengeschikte waarden van financiële dimensies door de budgetfondsen die zijn toegewezen aan ondergeschikte waarden van financiële dimensies bij elkaar op te tellen.
 
-###### <a name="budget-model"></a>**budget model**
+###### <a name="budget-model"></a>**budgetmodel**
 
 Een planningsstructuur die wordt gebruikt om toewijzingen en uitgaven van budgetfondsen te plannen.
 
@@ -147,7 +150,7 @@ Een semi-zelfstandige operationele eenheid die is gemaakt om strategische doelst
 
 De maximale hoeveelheid gepland werk die een werkplaats kan uitvoeren op het vereiste capaciteitsniveau.
 
-###### <a name="capacity-planning"></a>**capacity planning**
+###### <a name="capacity-planning"></a>**capaciteitsplanning**
 
 Een procedure voor het bepalen van de capaciteitsbehoefte van resources, zodat tegemoet kan worden gekomen aan de vraag naar toekomstige uitvoer gedurende bepaalde tijdperioden.
 
@@ -191,11 +194,11 @@ Een artikel dat gezamenlijk met een ander artikel wordt geproduceerd.
 
 Een operationele eenheid waarvan de managers verantwoordelijk zijn voor de gebudgetteerde en werkelijke uitgaven.
 
-###### <a name="cost-of-goods-sold"></a>**cost of goods sold**
+###### <a name="cost-of-goods-sold"></a>**kosten van verkochte goederen**
 
 Een boekhoudcategorie die wordt gebruikt om de financiële gevolgen van het fabriceren van producten en de opslag van voorraad bij elkaar op te tellen.
 
-###### <a name="cost-variance"></a>**cost variance**
+###### <a name="cost-variance"></a>**kostenafwijking**
 
 Het verschil tussen een verwachte kosten en de werkelijke kosten.
 
@@ -249,7 +252,7 @@ Het voertuig dat wordt gebruikt voor implementatie in gebruikeracceptatietest- (
 
 Een Visual Studio-hulpmiddel dat u hebt gebruikt om uw modelelementen te maken, bij te werken en te inspecteren.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. \financial-dimensions\dimension-based configuratie**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**Op ..\financial-dimensions\dimensies gebaseerde configuratie**
 
 Een configuratietechnologie die wordt gebruikt om productvarianten te maken door waarden voor productdimensies te selecteren.
 
@@ -261,7 +264,7 @@ Een uniek identificeerbaar product.
 
 Een methode waarbij een operationeel proces in wachtstand wordt geplaatst, terwijl de bestelde artikelen een proces voor kwaliteitsgarantie ondergaan.
 
-###### <a name="document-management-system"></a>**document management system**
+###### <a name="document-management-system"></a>**documentbeheersysteem**
 
 Een toepassingsservice voor het opslaan en verwerken van de documenten van een organisatie.
 
@@ -293,7 +296,7 @@ Een toepassing aanpassen door functionaliteit aan bestaande code toe te voegen.
 
 Een classificatie van financiële gegevens, gemaakt vanuit de partijen, locaties, producten en activiteiten in een organisatie, die voor rapportage aan het management wordt gebruikt.
 
-###### <a name="financial-dimension-value"></a>**financial dimension value**
+###### <a name="financial-dimension-value"></a>**waarde van financiële dimensie**
 
 Een gegevenselement in het domein van een financiële dimensie.
 
@@ -375,7 +378,7 @@ Een proces of transferactiviteit in een productiestroom die wordt geactiveerd do
 
 Het onttrekken van productonderdelen aan de voorraad om de kanbanproductietaken te voltooien.
 
-###### <a name="kanban-product-quantity"></a>**kanban product quantity**
+###### <a name="kanban-product-quantity"></a>**kanbanproducthoeveelheid**
 
 Het aantal artikelbehoeften die voorkomen op een kanban die is gebaseerd op een kanbanregel.
 
@@ -499,9 +502,9 @@ Een deel van een product.
 
 ###### <a name="product-dimension"></a>**productdimensie**
 
-De productkenmerken grootte, kleur of configuratie die worden gebruikt voor... \financial-dimensions\dimension-based-configuratie.
+De productkenmerken grootte, kleur of configuratie die worden gebruikt voor op ..\financial-dimensions\dimensies gebaseerde configuratie.
 
-###### <a name="product-family"></a>**product family**
+###### <a name="product-family"></a>**productfamilie**
 
 Een unieke groepering artikelen, services of rechten die ofwel deel uitmaken van dezelfde productie- of leveringsactiviteiten ofwel worden aangeboden aan dezelfde marktsegmenten. In Dynamics 365 for Operations wordt de groepering aangegeven met behulp van een toewijzingssleutel voor de prognose.
 
@@ -509,23 +512,23 @@ Een unieke groepering artikelen, services of rechten die ofwel deel uitmaken van
 
 Een standaard of functionele representatie van een product die de basis vormt voor de configuratie van productvarianten.
 
-###### <a name="product-receipt"></a>**product receipt**
+###### <a name="product-receipt"></a>**productontvangstbon**
 
 Een brondocument waarmee de ontvangst van bestelde producten, de ontvangst van geretourneerde producten of de ontvangst van producten die zijn ontvangen voor consignatie wordt gedocumenteerd.
 
-###### <a name="product-variant"></a>**product variant**
+###### <a name="product-variant"></a>**productvariant**
 
 Een configuratie van een productmodel.
 
-###### <a name="production-flow"></a>**production flow**
+###### <a name="production-flow"></a>**productiestroom**
 
 Een productieproces dat is ontworpen op basis van de principes van Lean Manufacturing.
 
-###### <a name="production-flow-model"></a>**production flow model**
+###### <a name="production-flow-model"></a>**model voor productiestroom**
 
 De representatie van de productiecapaciteit die wordt verzorgd door een groep werkcellen in een productiestroomproces.
 
-###### <a name="production-order"></a>**production order**
+###### <a name="production-order"></a>**productieorder**
 
 Een brondocument waarmee de vereisten voor het produceren van artikelen wordt gedocumenteerd om aan de vraag te voldoen.
 
@@ -599,7 +602,7 @@ Een product waarvan de distributie aan beperkingen is onderworpen door een overh
 
 Een brondocument waarin een overeenkomst wordt gedocumenteerd tussen één of meer partijen gebaseerd op de toezegging dat de verkopende partij een specifieke hoeveelheid of een specifieke waarde aan producten zal verkopen gedurende een tijdperiode en in ruil voor gunstige prijzen en kortingen.
 
-###### <a name="sales-agreement-policy"></a>**sales agreement policy**
+###### <a name="sales-agreement-policy"></a>**verkoopovereenkomstbeleid**
 
 Een beleid waardoor partijen worden geautoriseerd om de voorwaarden van een verkoopovereenkomst te wijzigen.
 
@@ -615,7 +618,7 @@ Een brondocument waarmee het aanbod wordt gedocumenteerd om een bepaalde hoeveel
 
 Een gedefinieerde verzameling bevoegdheden voor toegang tot een toepassing. De beveiligingsrol die aan een gebruiker wordt toegewezen, bepaalt welke taak de gebruiker kan uitvoeren en welke onderdelen van de gebruikersinterface de gebruiker kan weergeven. Alle gebruikers moeten aan ten minste één beveiligingsrol worden toegewezen om toegang tot het systeem te hebben.
 
-###### <a name="segregation-of-duties"></a>**segregation of duties**
+###### <a name="segregation-of-duties"></a>**scheiding van taken**
 
 Een ontwerpprincipe dat wordt gebruikt om het risico van fraude, onregelmatigheden en fouten te reduceren waarbij de functies vastleggen, verifiëren, autoriseren, bewaren van activa en uitvoeren van periodieke controle worden gescheiden van de personen die deelnemen aan de financiële gevolgen van economische transacties, deze documenteren of vastleggen.
 
@@ -697,7 +700,7 @@ Een bewerkingseenheid waarmee één of meer productiestromen worden beheerd.
 
 Een methode voor het ontwerpen van productmodelen en het zoeken naar configuraties voor productvarianten.
 
-###### <a name="vat-value-added-tax"></a>**btw (belasting toegevoegde waarde)**
+###### <a name="vat-value-added-tax"></a>**Btw (belasting toegevoegde waarde)**
 
 Een belasting op producten op elk stadium van het productieproces die is gebaseerd op de waarde die in dat stadium is toegevoegd.
 
@@ -705,7 +708,7 @@ Een belasting op producten op elk stadium van het productieproces die is gebasee
 
 Een lijst met de productaanbiedingen die kunnen worden gekocht bij een leverancier.
 
-###### <a name="vendor-invoice"></a>**vendor invoice**
+###### <a name="vendor-invoice"></a>**leveranciersfactuur**
 
 Een brondocument waarin het betalingsverzoek van de leverancier is vastgelegd. Een leveranciersfactuur kan betrekking hebben op één of meer inkooporders. Wanneer de leveranciersfactuur is geautoriseerd, kan de leverancier worden betaald.
 
@@ -722,5 +725,7 @@ Een persoon die de rol aanneemt van een werknemer of een contractant en die word
 ###### <a name="workspace"></a>**werkgebied**
 
 Een pagina met een overzicht van een van de activiteiten die de gebruiker uitvoert. De pagina gebruikt tegels, lijsten en grafieken voor de weergave van werk in behandeling en gerelateerde gegevens van meerdere bronnen, en de frequente taken voor het paginaoppervlak met betrekking tot deze gegevens. Tegels die worden weergegeven in de overzichtssectie van de werkruimte worden tevens weergegeven weergegeven in de gerelateerde sectie in het dashboard.
+
+
 
 

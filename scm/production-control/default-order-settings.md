@@ -28,9 +28,12 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Standaardorderinstellingen voor dimensies en productvarianten
 
+[!include[banner](../includes/banner.md)]
+
+
 Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
 
-U definieert de standaardinstellingen voor orders op de pagina **Standaard orderinstellingen**. U opent deze pagina, gaat u naar **productgegevensbeheer**&gt;**producten**&gt;**vrijgegeven producten**&gt; Selecteer een vrijgegeven product &gt;op de **plannen** of *** beheren voorraad *** actievenster &gt;**orderinstellingen**&gt;**standaard orderinstellingen**.
+U definieert de standaardinstellingen voor orders op de pagina **Standaard orderinstellingen**. U opent deze pagina als volgt: ga naar **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten** &gt;, selecteer een vrijgegeven product &gt; in het actievenster **Plannen** of Voorraadbeheer &gt; **Orderinstellingen** &gt; **Standaardorderinstellingen**.
 
 ## <a name="default-order-settings"></a>Standaard orderinstellingen
 Er zijn drie typen standaardorderinstellingen: voor inkoop, verkoop en voorraad. De standaardorderinstellingen voor inkoop worden gebruikt wanneer u de volgende items maakt:
@@ -70,13 +73,13 @@ De standaardorderinstellingen voor voorraad worden ook toegepast wanneer u de vo
 -   Geplande productieorders
 
 ## <a name="full-definition-of-a-released-product"></a>Volledige definitie van een vrijgegeven product
-Wanneer u een transactie maakt, moet u de volledige definitie van een vrijgegeven product op de regel opgeven voordat Dynamics 365 for Operations probeert vast te stellen van de standaardorderinstellingen. De volledige definitie van vrijgegeven product betekent dat het artikelnummer en actief productdimensies, zoals configuratie, grootte, stijl en kleur, zijn opgegeven op de transactie. Als u bijvoorbeeld handmatig een inkooporderregel voor een vrijgegeven productvariant maakt, moet u alle vereiste productdimensies opgeven voordat de locatie, het magazijn, hoeveelheden en de levertijd standaard op de orderregel worden weergegeven. 
+Wanneer u een transactie maakt, moet u de volledige definitie van een vrijgegeven product op de regel opgeven voordat Dynamics 365 for Operations de standaardorderinstellingen probeert vast te stellen. De volledige definitie van vrijgegeven producten betekent dat het artikelnummer en alle actieve productdimensies, zoals configuratie, grootte, stijl en kleur, worden opgegeven in de transactie. Als u bijvoorbeeld handmatig een inkooporderregel voor een vrijgegeven productvariant maakt, moet u alle vereiste productdimensies opgeven voordat de locatie, het magazijn, hoeveelheden en de levertijd standaard op de orderregel worden weergegeven. 
 
-Niet alle parameters van de standaardorderinstellingen worden toegepast wanneer u een order of journaalregels maakt. Hoeveelheden en levertijden worden alleen weergegeven wanneer de juiste. Bijvoorbeeld bij het tellen van een journaalregel, wordt alleen de locatie en magazijn standaard weergegeven wanneer de regel wordt gemaakt. Uiteraard geen gegevensvalidatie hoeveelheid of de cheques op meerdere en het minimum worden uitgevoerd bij het maken van de regel of het journaal boeken. 
+Niet alle parameters van de standaardorderinstellingen worden toegepast wanneer u een order of journaalregels maakt. Hoeveelheden en levertijden worden alleen standaard weergegeven wanneer dat kan. Bijvoorbeeld bij het tellen van een journaalregel worden alleen de locatie en het magazijn standaard weergegeven wanneer de regel wordt gemaakt. Vanzelfsprekend worden geen standaardhoeveelheden ingevuld of controles op meervouden en minimumhoeveelheden uitgevoerd, wanneer u de regel aanmaakt of het journaal boekt. 
 
-Wanneer u een order of een journaalregel maakt, wordt altijd geprobeerd om een standaardlocatie en standaardmagazijn te vinden. De locatie wordt niet altijd standaard weergegeven vanuit de orderinstellingen. Wanneer u bijvoorbeeld een verkooporder of een inkooporder maakt, wordt de locatie van de orderkoptekst automatisch gebruikt in de orderregels. Wanneer u een stuklijstregel maakt, wordt de locatie van de koptekst van de stuklijst gebruikt. Nadat de site wordt bepaald, wordt deze gebruikt om te zoeken elke site orderinstellingen die vervolgens kunnen worden gebruikt als standaardwaarde voor het magazijn. 
+Wanneer u een order of een journaalregel maakt, wordt altijd geprobeerd om een standaardlocatie en standaardmagazijn te vinden. De locatie wordt niet altijd standaard weergegeven vanuit de orderinstellingen. Wanneer u bijvoorbeeld een verkooporder of een inkooporder maakt, wordt de locatie van de orderkoptekst automatisch gebruikt in de orderregels. Wanneer u een stuklijstregel maakt, wordt de locatie van de koptekst van de stuklijst gebruikt. Nadat de locatie is bepaald, wordt deze gebruikt om eventuele locatiespecifieke orderinstellingen te vinden die daarna als standaardinstellingen voor het magazijn kunnen worden gebruikt. 
 
-Het standaardordertype, de inkoop en de levertijden voorraad kunnen worden overschreven door de behoefteplanningsregels van het artikel op de **artikelbehoefteplanning** pagina. Hoewel de standaardorderinstellingen niet is toegestaan voor het onderscheid tussen de productie en de doorlooptijd voor overdracht, de behoefteplanningsregels artikel staan. De instellingen voor artikelbehoefteplanning worden echter alleen gebruikt door MRP bij het maken van geplande orders voor productie en transfer, niet wanneer u handmatig productie- en transferorders maakt. 
+Het standaardordertype, de inkoop en de levertijden voorraad kunnen worden overschreven door de behoefteplanningsregels van het artikel op de pagina **Artikelbehoefteplanning**. Hoewel de standaardorderinstellingen geen onderscheid kunnen maken tussen de doorlooptijden voor productie en die voor verplaatsing, kunnen de artikelbehoefteplanningsregels hier wel mee overweg. De instellingen voor artikelbehoefteplanning worden echter alleen gebruikt door MRP bij het maken van geplande orders voor productie en transfer, niet wanneer u handmatig productie- en transferorders maakt. 
 
 ## <a name="default-order-settings-rules"></a>Regels voor standaardorderinstellingen
 U kunt algemene standaardorderinstellingen definiëren, evenals alle benodigde regels voor standaardorderinstellingen die alleen onder bepaalde voorwaarden gelden, zoals locatie of een bepaalde productdimensie of een combinatie van productdimensies. U kunt geen orderinstellingen definiëren die specifiek zijn voor het magazijn.
@@ -87,13 +90,13 @@ De regels voor standaardorderinstellingen kennen rangen. Hoe hoger de rang, des 
 
 ### <a name="default-order-settings-for-released-products"></a>Standaardorderinstellingen voor vrijgegeven producten
 
-Voor bepaalde vrijgegeven producten kunt u de algemene orderinstellingen of locatiespecifieke orderinstellingen definiëren. De algemene orderinstellingen hebben altijd rang 0. Als u nieuwe orderinstellingen voor verkoop, inkoop en voorraad tegelijk aanmaakt, wordt het aangeraden om gebruik te maken van de weergave **Details** op de pagina **Standaard orderinstellingen**. Als u wilt overschakelen naar de detailweergave, gaat u naar de **opties** actievenster &gt;**opties pagina**&gt;**weergave wijzigen**&gt;**detailweergave**.
+Voor bepaalde vrijgegeven producten kunt u de algemene orderinstellingen of locatiespecifieke orderinstellingen definiëren. De algemene orderinstellingen hebben altijd rang 0. Als u nieuwe orderinstellingen voor verkoop, inkoop en voorraad tegelijk aanmaakt, wordt het aangeraden om gebruik te maken van de weergave **Details** op de pagina **Standaard orderinstellingen**. Om over te schakelen naar de detailweergave gaat u naar het actievenster **Opties** &gt; **Paginaopties** &gt; **Weergave wijzigen** &gt; **Detailweergave**.
 
 ### <a name="site-specific-order-settings"></a>Vestigingspecifieke orderinstellingen
 
-Als u locatiespecifieke orderinstellingen wilt maken, klikt u op **Nieuw**. In **detailweergave**, vult u de site in de **instellingen die van toepassing voor**&gt;**Site** veld. Vul in de **Rasterweergave** de locatie in in de kolom **Locatie**. De nieuwe regel krijgt automatisch een nieuwe rangwaarde die hoger is dan nul. U kunt zoveel locatiespecifieke regels maken als nodig en u kunt alle aan locatiespecifieke regels dezelfde rang toewijzen om aan te geven dat ze even belangrijk zijn. 
+Als u locatiespecifieke orderinstellingen wilt maken, klikt u op **Nieuw**. Vul in de **Detailweergave** de locatie in het veld **Instellingen die van toepassing zijn op** &gt; **Locatie** in. Vul in de **Rasterweergave** de locatie in in de kolom **Locatie**. De nieuwe regel krijgt automatisch een nieuwe rangwaarde die hoger is dan nul. U kunt zoveel locatiespecifieke regels maken als nodig en u kunt alle aan locatiespecifieke regels dezelfde rang toewijzen om aan te geven dat ze even belangrijk zijn. 
 
-Als u in de **Detailweergave** werkt, kunt u niet het overzicht van de regels krijgen die voor het artikel zijn gemaakt. Met de knop **Lijst weergeven/verbergen** kunt u schakelen tussen het wel of niet weergeven van overzichtsgegevens. Wanneer een orderregel, ongeacht het type wordt gemaakt en er geen site die is opgegeven, zoekt Dynamics 365 voor bewerkingen voor een regel aan geen locatie opgegeven. Dit kan helpen bij het bepalen van een standaardlocatie op de orderregel. Deze locatie wordt vervolgens gebruikt om te zoeken naar een locatiespecifieke regel, waarin een standaardmagazijn kan zijn ingesteld. Dit magazijn wordt dan toegepast op de orderregel.
+Als u in de **Detailweergave** werkt, kunt u niet het overzicht van de regels krijgen die voor het artikel zijn gemaakt. Met de knop **Lijst weergeven/verbergen** kunt u schakelen tussen het wel of niet weergeven van overzichtsgegevens. Wanneer een orderregel van een van de beschikbare typen wordt gemaakt en er geen locatie voor is opgegeven, zoekt Dynamics 365 for Operations naar een regel waarvoor geen locatie is opgegeven. Dit kan helpen bij het bepalen van een standaardlocatie op de orderregel. Deze locatie wordt vervolgens gebruikt om te zoeken naar een locatiespecifieke regel, waarin een standaardmagazijn kan zijn ingesteld. Dit magazijn wordt dan toegepast op de orderregel.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Specifieke orderinstellingen voor productdimensies
 
@@ -104,7 +107,7 @@ Hier volgt een voorbeeldproduct.
 |                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
 | **Productnaam**                                    | Foto-elektrische sensor                    |
-| **Item number**                                     | XW56                                    |
+| **Artikelnummer**                                     | XW56                                    |
 | **Configuratie** (gebruikt om het type licht te modelleren) | C1-zichtbaar rood licht, C2-infrarood licht |
 | **Stijl** (gebruikt om de technische revisieniveau te modelleren)  | R1, R2, R3                              |
 
@@ -140,7 +143,7 @@ Bekijk de volgende regels voor standaardorderinstellingen eens.
 | 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-Het systeem onderzoekt de set regels twee keer om de locatie en het magazijn te bepalen. Wanneer een inkooporderregel wordt gemaakt voor de configuratie van C1, stijl R2, kan de site wordt bepaald op basis van de regel met volgnummer 10 te selecteren. Vervolgens wordt gezocht voor een regel voor locatie 2 om te bepalen van een magazijn. Regel 20 wordt gevonden en omdat deze een hogere rang heeft, wordt het magazijn voor de inkooporderregel ingesteld op 22 in plaats van 21. 
+Het systeem onderzoekt de set regels twee keer om de locatie en het magazijn te bepalen. Wanneer een inkooporderregel wordt gemaakt voor de configuratie van C1, stijl R2, kan de locatie worden bepaald op basis van de regel met positie 10. Vervolgens wordt gezocht naar een regel voor locatie 2 om een magazijn te bepalen. Regel 20 wordt gevonden en omdat deze een hogere rang heeft, wordt het magazijn voor de inkooporderregel ingesteld op 22 in plaats van 21. 
 
 Algemeen gesproken worden hogere rangen toegekend aan specifieke regels en regels voor dimensies die belangrijker dan andere dimensies zijn. Meer algemene regels krijgen lagere rangen. 
 
@@ -148,7 +151,7 @@ De regel met rang 0 dient als vangnet. Als geen andere regels van toepassing zij
 
 Omdat het rangnummer zo belangrijk is, vindt u in het actievenster **Standaard orderinstellingen ** functies om een regel omhoog of omlaag te verplaatsen en de regels nieuwe nummers te geven, zodat deze altijd oplopen in stappen van 10. 
 
-Er kunnen veel regels worden aangemaakt voor een vrijgegeven product. Om beter te begrijpen wat elke regel overschrijft en waarom dit nodig is, wordt het aangeraden om de **Rasterweergave** op de pagina **Standaard orderinstellingen** te gebruiken. U kunt de rasterweergave inschakelen door te gaan naar de **opties** actievenster &gt;**opties pagina**&gt;**weergave wijzigen**&gt;**rasterweergave**. In het raster kan een aanzienlijk aantal kolommen worden weergegeven, met name op de tabbladen voor verkoop en voorraad. Als u wilt beperken het aantal kolommen in het raster worden weergegeven, groepen van kolommen kunnen worden verborgen of weergegeven met de knoppen op de **standaard orderinstellingen**&gt;**weergeven van de kolommen** menu.
+Er kunnen veel regels worden aangemaakt voor een vrijgegeven product. Om beter te begrijpen wat elke regel overschrijft en waarom dit nodig is, wordt het aangeraden om de **Rasterweergave** op de pagina **Standaard orderinstellingen** te gebruiken. U kunt de rasterweergave inschakelen door naar het actievenster **Opties** &gt; **Paginaopties** &gt; **Weergave wijzigen** &gt; **Rasterweergave** te gaan. In het raster kan een aanzienlijk aantal kolommen worden weergegeven, met name op de tabbladen voor verkoop en voorraad. U kunt het aantal in het raster zichbare kolommen beperken door groepen van kolommen te verbergen of weer te geven met de knoppen op de pagina **Standaardorderinstellingen** &gt; **Kolomweergave**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Specifieke orderinstellingen voor vrijgegeven productvarianten
 
@@ -165,5 +168,7 @@ Als het systeem van regels voor de standaardorderinstellingen te omslachtig word
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 De rang is in dit geval niet echt van belang, en u kunt ervoor kiezen om dit te verbergen. Deze oplossing brengt mogelijk problemen op gebied van onderhoud met zich mee. Het kan echter zinvol zijn om deze configuratie te overwegen, als u bijvoorbeeld ook een integratie met systemen voor productlevenscyclusbeheer als optie ziet.
+
+
 
 

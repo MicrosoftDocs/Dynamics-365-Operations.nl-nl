@@ -1,6 +1,6 @@
 ---
-title: Recentelijk toegevoegde functies in Taakregistratie
-description: "Als u met Taakregistratie taak handleidingen maakt, kunt u uw bestanden meer efficiënt gebruik maakt van de functionaliteit die wordt beschreven in deze wiki."
+title: Recentelijk toegevoegde functies in Taakrecorder
+description: "Als u met Taakrecorder taakbegeleidingen maakt, kunt u uw bestanden efficiënter gebruiken door middel van de functionaliteit die wordt beschreven in deze wiki."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,58 +25,58 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Recentelijk toegevoegde functies in Taakregistratie
+# <a name="recently-added-editing-features-in-task-recorder"></a>Recentelijk toegevoegde functies in Taakrecorder
 
-Als u met Taakregistratie taak handleidingen maakt, kunt u uw bestanden meer efficiënt gebruik maakt van de functionaliteit die wordt beschreven in deze wiki.
+Als u met Taakrecorder taakbegeleidingen maakt, kunt u uw bestanden efficiënter gebruiken door middel van de functionaliteit die wordt beschreven in deze wiki.
 
-Deze functies zijn beschikbaar op de **instellingen &gt;Taakregistratie &gt;registratie bewerken** menu.
+Deze functies zijn beschikbaar in het menu **Instellingen &gt; Taakrecorder &gt; Opname bewerken**.
 
--   Stap invoegen zonder het gehele bestand opnieuw te registreren.
--   Verplaats stappen onder een subtaak zonder het gehele bestand opnieuw te registreren.
--   De velden naam en beschrijving opname samenvouwen.
+-   Stappen invoegen zonder het gehele bestand opnieuw op te nemen
+-   Stappen onder een subtaak plaatsen zonder het gehele bestand opnieuw op te nemen
+-   De velden Naam van opname en Omschrijving van opname samenvouwen
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Stap invoegen zonder het hele bestand rerecording
-U kunt nu een stap toevoegen ergens in de handleiding van een taak zonder afspelen of opnemen van het gehele bestand opnieuw.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Stappen invoegen zonder het gehele bestand opnieuw op te nemen
+U kunt nu een stap overal in de taakbegeleiding toevoegen, zonder het bestand af te spelen of opnieuw op te nemen.
 
-1.  Selecteer de stap die u wilt dat de nieuwe stap moet worden ingevoegd. Controleer of dat de stap is gemarkeerd.
+1.  Selecteer de stap waarna u de nieuwe stap wilt invoegen. Let erop dat de stap is gemarkeerd.
 
-In de volgorde voor taakregistratie een stap invoegen, moet u de juiste pagina openen hebben. De juiste pagina wordt de pagina waarop de nieuwe stap plaatsvindt. Taakregistratie is een mechanisme waarmee wordt bepaald wat de actieve pagina is en de functionaliteit wordt uitgeschakeld als de juiste pagina niet geopend is. 
+Om de taakrecorder een stap te laten invoegen, moet u de juiste pagina hebben geopend. De juiste pagina is de pagina waarop de nieuwe stap wordt uitgevoerd. Taakrecorder heeft een mechanisme waarmee wordt bepaald wat de actieve pagina is en schakelt de functionaliteit uit als de juiste pagina niet geopend is. 
 
 [![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Wanneer u op de juiste pagina bent **invoegen stap** beschikbaar.
+Wanneer u op de juiste pagina bent, wordt de optie **Stap invoegen** beschikbaar.
 
 [![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Klik op **invoegen stap**.
+2. Klik op **Stap invoegen**.
 
-Wanneer u klikt op **invoegen stap**, Taakregistratie schakelt over naar record-modus. Elke actie uit die in de gebruikersinterface wordt nu geregistreerd en interne toegevoegd als stappen.
+Als u klikt op **Stap invoegen** schakelt Taakrecorder over naar de opnamemodus. Alle acties die in de gebruikersinterface worden uitgevoerd, worden nu geregistreerd en op de gewenste plaats ingevoegd als stap.
 
-3. Klik op **stoppen**.
+3. Klik op **Stop**.
 
-U kunt het proces herhalen zo veel stappen toevoegen of verplaatsen van alle subtaken zo nodig (Zie hieronder voor subtaken).
+U kunt het proces herhalen en zoveel stappen toevoegen of subtaken verplaatsen als nodig is (zie hieronder voor subtaken).
 
-4. Als u klaar bent de handleiding van de taak bewerkt, klikt u op **gedaan met het bewerken van**, en kies vervolgens een van de opties die u wilt opslaan of publiceren van de handleiding van de taak.
+4. Als u klaar bent met het bewerken van de taakbegeleiding, klikt u op **Klaar met bewerken**. Kies vervolgens een van de opties om de taakbegeleiding op te slaan of te publiceren.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Verplaats stappen onder een subtaak zonder het hele bestand rerecording
-U kunt de stappen onder een subtaak verplaatsen zonder afspelen of het gehele bestand opnieuw te registreren. U kunt ook de subtaak stap of de stap van de subtaak einde verplaatsen als u wilt groeperen van een bestaande blok van stappen.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Stappen onder een subtaak plaatsen zonder het gehele bestand opnieuw op te nemen
+U kunt stappen onder een subtaak plaatsen zonder het gehele bestand af te spelen of opnieuw op te nemen U kunt ook de subtaak-stap of de eindstap van de subtaak verplaatsen, als u een bestaand blok van stappen wilt groeperen.
 
-1.  Selecteer de stap of subtaak stap die u wilt verplaatsen. Zorg ervoor dat de stap is geselecteerd.
-2.  Klik op de ellips en klik vervolgens op **verplaatsen na stap**.
+1.  Selecteer de stap of subtaakstap die u wilt verplaatsen. Let erop dat de stap is gemarkeerd.
+2.  Klik op het weglatingsteken (ellips) en vervolgens op **Stap verplaatsen na**.
 
 [![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Selecteer de stap of subtaak stap die u wilt verplaatsen van de stap voor stap of subtaak na. Taakregistratie wordt de stap verplaatst.
+3. Selecteer de stap of subtaak stap waar u de stap voor stap of subtaakstap achter wilt plaatsen. Taakrecorder verplaatst de stap.
 
-4. De stap van de subtaak einde verplaatsen, selecteert u deze, klik op de ellips, **verplaatsen na stap**, en selecteer vervolgens de stap waarna u wilt dat de stap einde subtaak moet worden.
+4. Om de eindstap van de subtaak te verplaatsen, selecteert u deze. Klik op de ellips en op **Stap verplaatsen na** en selecteer vervolgens de stap waarna u de eindstap wilt plaatsen.
 
-Desgewenst kunt u de eerste stap in de handleiding van de taak in een subtaak maken van een subtaak stap als tweede stap en verplaats vervolgens de eerste stap in deze. U kunt toevoegen of verplaatsen van zo veel stappen of subtaken zo nodig.
+Als u de eerste stap in de taakbegeleiding in een subtaak wilt hebben, maakt u een subtaakstap als de tweede stap en verplaatst u de eerste stap naar de subtaak. U kunt zoveel stappen of subtaken toevoegen of verplaatsen als nodig.
 
-5. Als u klaar bent de handleiding van de taak bewerkt, klikt u op **gedaan met het bewerken van**, en kies vervolgens een van de opties die u wilt opslaan of publiceren van de handleiding van de taak.
+5. Als u klaar bent met het bewerken van de taakbegeleiding, klikt u op **Klaar met bewerken**. Kies vervolgens een van de opties om de taakbegeleiding op te slaan of te publiceren.
 
-## <a name="collapse-recording-name-and-description"></a>Samenvouwen opname naam en beschrijving
-U kunt uitvouwen en samenvouwen de **opname naam** en **omschrijving vastleggen** velden. Als deze velden zijn samengevouwen, is meer stappen worden weergegeven in het deelvenster bewerken Taakregistratie. 
+## <a name="collapse-recording-name-and-description"></a>De velden Naam van opname en Omschrijving van opname samenvouwen
+U kunt de velden **Naam van opname** en **Omschrijving van opname** uit- en samenvouwen. Als deze velden zijn samengevouwen, worden meer stappen weergegeven in het bewerkingsdeelvenster van de Taakrecorder. 
 
 [![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
@@ -85,6 +85,6 @@ U kunt uitvouwen en samenvouwen de **opname naam** en **omschrijving vastleggen*
 
 [Documentatie of trainingen maken met Taakregistraties](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Taak recorder-beknopte naslaginformatie](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Snelzoekgids voor de Taakrecorder](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

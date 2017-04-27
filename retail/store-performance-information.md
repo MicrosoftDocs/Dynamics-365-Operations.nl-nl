@@ -1,6 +1,6 @@
 ---
 title: Winkelprestaties analyseren
-description: In dit artikel wordt uitgelegd hoe u kunt de analyses in het geheugen en real-time toegang tot, verkennen en inzichten over de prestaties van de winkel, op basis van uw Microsoft Dynamics 365 voor operationele gegevens.
+description: In dit artikel wordt beschreven hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de prestaties van uw winkel in Microsoft Dynamics 365 for Operations en deze kunt onderzoeken en er kennis uit kunt destilleren.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-store-performance"></a>Winkelprestaties analyseren
 
-In dit artikel wordt uitgelegd hoe u kunt de analyses in het geheugen en real-time toegang tot, verkennen en inzichten over de prestaties van de winkel, op basis van uw Microsoft Dynamics 365 voor operationele gegevens. 
+[!include[banner](includes/banner.md)]
 
-Als onderdeel van Dynamics 365 voor bewerkingen, gebruikers kunnen onderzoeken winkel prestaties in real time op verschillende niveaus van de organisatiehiërarchie in een geselecteerde periode door de out of box **overzicht kanaal** rapport van elk van de volgende locaties:
 
--   **detailhandel winkelvoorraad management** werkruimte Dynamics 365 voor bewerkingen &gt;**detailhandel en commerce**&gt;**kanalen**&gt;**detailhandel winkelvoorraad management**&gt;**rapporten**&gt;**overzichtsrapport kanaal**
--   **detailhandel winkelvoorraad financials** werkruimte Dynamics 365 voor bewerkingen &gt;**detailhandel en commerce**&gt;**kanalen**&gt;**detailhandel winkelvoorraad financials**&gt;**rapporten**&gt;**overzichtsrapport kanaal**
--   **Query's en rapporten** Dynamics 365 for Operations sectie &gt;**detailhandel en commerce**&gt;**query's en rapporten**&gt;**Verkooprapporten**&gt;**overzichtsrapport kanaal**
+In dit artikel wordt beschreven hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de prestaties van uw winkel in Microsoft Dynamics 365 for Operations en deze kunt onderzoeken en er kennis uit kunt destilleren. 
+
+Als onderdeel van Microsoft Dynamics 365 for Operations kunnen gebruikers opslagprestaties bestuderen in realtime op verschillende niveaus van de organisatiehiërarchie over een geselecteerde periode door het kant-en-klare rapport **Kanaalsamenvatting** te openen vanuit een van de volgende locaties:
+
+-   **Beheer van detailhandelwinkel** werkgebied Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Afzetkanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport afzetkanaalsamenvatting**
+-   **Financiën van detailhandelwinkel** werkgebied Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Afzetkanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport afzetkanaalsamenvatting**
+-   **Query's en rapporten** sectie Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport afzetkanaalsamenvatting**
 
 Dit rapport bevat een momentopname van volgende overzichten als onderdeel van winkelprestaties:
 
@@ -42,4 +45,6 @@ Dit rapport bevat een momentopname van volgende overzichten als onderdeel van wi
 -   Belastingoverzicht
 -   Overzicht van prijsoverschrijvingen
 -   Kortingsoverzicht
+
+
 

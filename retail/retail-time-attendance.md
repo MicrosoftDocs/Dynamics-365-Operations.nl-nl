@@ -1,6 +1,6 @@
 ---
 title: Tijd en aanwezigheid detailhandel
-description: Dit onderwerp beschrijft de scenario&quot;s die worden ondersteund voor tijd en aanwezigheid management in Microsoft Dynamics 365 for Operations - Retail.
+description: In dit onderwerp worden de scenario&quot;s beschreven die worden ondersteund voor beheer van tijd en aanwezigheid in Microsoft Dynamics 365 for Operations - Retail.
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-time-and-attendance"></a>Tijd en aanwezigheid detailhandel
 
-Dit onderwerp beschrijft de scenario's die worden ondersteund voor tijd en aanwezigheid management in Microsoft Dynamics 365 for Operations - Retail. 
+[!include[banner](includes/banner.md)]
 
-<a name="manage-worker-setup-and-scheduling"></a>Instellingen werknemer en planning beheren
+
+In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beheer van tijd en aanwezigheid in Microsoft Dynamics 365 for Operations - Retail. 
+
+<a name="manage-worker-setup-and-scheduling"></a>Het instellen en inplannen van medewerkers beheren
 ----------------------------------
 
 ### <a name="initial-configuration"></a> initiële configuratie
@@ -45,8 +48,8 @@ Voor informatie over de configuratiestappen zie <https://technet.microsoft.com/e
 
 ### <a name="retail-specific-configuration"></a>Detailhandelspecifieke configuratie
 
--   Schakel een functionaliteitprofiel voor tijdklok in voor medewerkers voor wie u tijdregistratie wilt inschakelen. Klik op **POS´**&gt;**functies**&gt;**POS wanneer registraties**&gt;**tijdregistraties inschakelen**.
--   Configureer verkooppuntmachtigingsgroepen om de machtiging Registraties tijdklok weergeven in te schakelen. Met deze machtiging kan een gebruiker de prikklokregistraties van andere werknemers in de winkel bekijken (en van alle andere winkels waaraan de gebruiker is gekoppeld via het adresboek). U wilt mogelijk deze machtiging inschakelen voor een managerrol maar niet voor de rol van een kassamedewerker. Klik op **POS-machtigingsgroepen**&gt;**tijdklokingaven weergeven**.
+-   Schakel een functionaliteitprofiel voor tijdklok in voor medewerkers voor wie u tijdregistratie wilt inschakelen. Klik op **POS-functionaliteitsprofielen** &gt; **Functies** &gt; **POS-tijdregistraties** &gt; **Tijdregistratie inschakelen**.
+-   Configureer verkooppuntmachtigingsgroepen om de machtiging Registraties tijdklok weergeven in te schakelen. Met deze machtiging kan een gebruiker de prikklokregistraties van andere werknemers in de winkel bekijken (en van alle andere winkels waaraan de gebruiker is gekoppeld via het adresboek). U wilt mogelijk deze machtiging inschakelen voor een managerrol maar niet voor de rol van een kassamedewerker. Klik op **POS-machtigingsgroepen** &gt; **Registraties tijdklok weergeven**.
 
 ## <a name="register-time"></a>Tijd registreren
 ### <a name="cashier-and-non-cashier-time-registrations"></a>Tijdregistraties van kassiers en niet-kassiers
@@ -106,9 +109,9 @@ Voor informatie over de configuratiestappen zie <https://technet.microsoft.com/e
 <!-- -->
 
 -   Verschillende tijdzones:
-    -   Als u tijd weergeeft vanaf een andere locatie (voor het kassierslogboek of door **Registraties tijdklok weergeven** te gebruiken voor een managerscenario), en die locatie zich in een andere tijdzone bevindt, worden de tijdrecords die u ziet, omgezet naar uw plaatselijke tijdzone. U bent bijvoorbeeld een manager voor twee winkels, één in Arizona en andere in Nevada. Een kassamedewerker zich registreert een inklokregistratie om 9:00 uur In Arizona. Op dat moment is de tijd in Nevada 8:00 's morgens. Daarom wordt de tijdregistratie gemarkeerd als 8 A.M. als u zich in de winkel in Nevada bevindt en de records voor tijdregistratie bekijkt.
+    -   Als u tijd weergeeft vanaf een andere locatie (voor het kassierslogboek of door **Registraties tijdklok weergeven** te gebruiken voor een managerscenario), en die locatie zich in een andere tijdzone bevindt, worden de tijdrecords die u ziet, omgezet naar uw plaatselijke tijdzone. U bent bijvoorbeeld een manager voor twee winkels, één in Arizona en andere in Nevada. Een kassamedewerker klokt zich in om 9:00 uur 's ochtends in Arizona. Op dat moment is de tijd in Nevada 8:00 's morgens. Daarom wordt de tijdregistratie gemarkeerd als 8 A.M. als u zich in de winkel in Nevada bevindt en de records voor tijdregistratie bekijkt.
 
-## <a name="view-worker-time-registrations"></a>Tijdregistraties van werknemer weergeven
+## <a name="view-worker-time-registrations"></a>Tijdregistraties werknemers weergeven
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Bekijk de tijdregistraties van de werknemers en filter op opslag- of activiteitstype
 
 Op POS:
@@ -117,8 +120,8 @@ Op POS:
 -   U ziet de activiteiten van de tijdklokregistratie van alle werknemers die zijn toegewezen aan dezelfde opslag als waaraan u bent toegewezen.
 -   U kunt het activiteitstype gebruiken en filters opslaan om tijdregistraties te filteren.
 
-## <a name="process-and-manage-time-registrations"></a>Verwerken en beheren van tijdregistraties
-Een Dynamics 365 for Operations - Retail gebruiker via de workflow om te berekenen, goedkeuren en overbrengen van tijdregistraties naar de salarisadministratie.
+## <a name="process-and-manage-time-registrations"></a>Tijdregistraties verwerken en beheren
+Een gebruiker in Dynamics 365 for Operations - Retail volgt de werkstroom om tijdregistraties te berekenen, goed te keuren en naar de salarisadministratie over te brengen.
 
 ### <a name="primary-operations"></a>Primaire bewerkingen
 
@@ -132,5 +135,7 @@ Een Dynamics 365 for Operations - Retail gebruiker via de workflow om te bereken
 -   Verzuim registreren
 
 Voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties zie <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+
+
 
 

@@ -40,7 +40,7 @@ Tabelbeperkingen maken een lijst met de combinaties van waarden die zijn toegest
 
 ### <a name="example-of-a-table-constraint"></a>Voorbeeld van een tabelbeperking.
 
-Dit voorbeeld toont hoe u de configuratie van een speaker tot specifieke afwerkingen van de behuizingen en voorkanten kunt beperken. De eerste tabel laat de afwerkingen van de behuizingen en voorkanten zien die algemeen beschikbaar zijn voor configuratie. De waarden worden gedefinieerd voor de ** CAB-bestand voltooien ** en **Front rooster** kenmerken van het type.
+Dit voorbeeld toont hoe u de configuratie van een speaker tot specifieke afwerkingen van de behuizingen en voorkanten kunt beperken. De eerste tabel laat de afwerkingen van de behuizingen en voorkanten zien die algemeen beschikbaar zijn voor configuratie. De waarden zijn gedefinieerd voor de kenmerktypen Afwerking behuizing en **Voorgrill**.
 
 | Type kenmerk | Waarden                      |
 |----------------|-----------------------------|
@@ -60,8 +60,8 @@ De volgende tabel geeft de combinaties weer die door de tabelbeperking **Kleur e
 
 U kunt door het systeem gedefinieerde en door de gebruiker gedefinieerde tabelbeperkingen maken. Voor meer informatie, zie [Door het systeem gedefinieerde en door gebruiker gedefinieerde tabelbeperkingen](system-defined-user-defined-table-constraints.md).
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>Welke syntaxis moet worden gebruikt om te schrijven beperkingen?
-Gebruik de OML-syntaxis (Optimization Modeling Language) wanneer u beperkingen opstelt. Microsoft Solver Foundation beperking Oplosser worden gebruikt voor het oplossen van de beperkingen.
+## <a name="what-syntax-should-be-used-to-write-constraints"></a>Welke syntaxis moet worden gebruikt om beperkingen te schrijven?
+Gebruik de OML-syntaxis (Optimization Modeling Language) wanneer u beperkingen opstelt. Microsoft Solver Foundation-beperkingsoplosser wordt gebruikt om de beperkingen op te lossen.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Moet ik tabelbeperkingen of expressiebeperkingen gebruiken?
 U kunt expressiebeperkingen of tabelbeperkingen gebruiken, afhankelijk van hoe u de beperkingen wenst te maken. U maakt een tabelbeperking als matrix, terwijl een expressiebeperking een afzonderlijke statement is. Wanneer u een product configureert, is het niet van belang welk type beperking wordt gebruikt. In het volgende voorbeeld kunt u zien hoe de twee methoden verschillen.  
@@ -110,32 +110,32 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 <td>Dit is waar als de eerste voorwaarde onwaar is, de tweede voorwaarde waar, of beide.</td>
 <td>Heeft[a, b], tussenvoegselaantekening: a -: b</td>
 <td><ul>
-<li><strong>Operator:</strong> impliceert [x! = 0, y &gt;= 0]</li>
-<li><strong>Infix-notatie:</strong> x! = 0-: y &gt;= 0</li>
+<li><strong>Operator:</strong> Implies[x != 0, y &gt;= 0]</li>
+<li><strong>Tussenvoegselnotatie:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>En</td>
 <td>Dit is alleen waar als alle voorwaarden waar zijn. Als het aantal voorwaarden 0 (nul) is, is het resultaat <strong>Waar</strong>.</td>
-<td>En [args], infix: een &amp;b &amp; ... &amp;z</td>
+<td>And[args], tussenvoegsel: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operator:</strong> en [x == 2, y &lt;= 2]</li>
-<li><strong>Infix-notatie:</strong> x == 2 &amp;y &lt;= 2</li>
+<li><strong>Operator:</strong> And[x == 2, y &lt;= 2]</li>
+<li><strong>Tussenvoegselnotatie:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Of</td>
 <td>Dit is waar als een van de voorwaarden waar is. Als het aantal condities 0 is (nul), is het product <strong>Onwaar</strong>.</td>
-<td>Of [args], infix: een | b | ... | z</td>
+<td>Or[args], tussenvoegsel: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operator:</strong> of [x == 2, y &lt;= 2]</li>
-<li><strong>Infix-notatie:</strong> x == 2 | y &lt;= 2</li>
+<li><strong>Operator:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Tussenvoegselnotatie:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Plus</td>
 <td>Dit is de som van de voorwaarden. Als het aantal voorwaarden 0 (nul) is, is het resultaat <strong>0</strong>.</td>
-<td>Plus [args], infix: een + b +... + z</td>
+<td>Plus[args], tussenvoegsel: a + b + ... + z</td>
 <td><ul>
 <li><strong>Operator:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Tussenvoegselnotatie:</strong> x + y + 2 == z</li>
@@ -159,7 +159,7 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 <tr class="odd">
 <td>Tijden</td>
 <td>Hiervoor is het product van de voorwaarden vereist. Als het aantal voorwaarden 0 (nul) is, is het resultaat <strong>1</strong>.</td>
-<td>Tijden [args], infix: een * b *... * z</td>
+<td>Times[args], tussenvoegsel: a * b * ... * z</td>
 <td><ul>
 <li><strong>Operator:</strong> Times[x, y, 2] == z</li>
 <li><strong>Tussenvoegselnotatie:</strong> x * y * 2 == z</li>
@@ -167,8 +167,8 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 </tr>
 <tr class="even">
 <td>Vermogen</td>
-<td>Hiervoor is een exponentiële waarde vereist. Hiermee wordt machtsverheffen van rechts naar links toegepast. (Met andere woorden: het is hebben associatie naar rechts.) Daarom <strong>Power [a, b, c]</strong> is gelijk aan <strong>Power [a, Power [b, c]]</strong>. <strong>Power</strong> kan alleen worden gebruikt als de exponent een positieve constante is.</td>
-<td>Energie-[args], infix: een ^ b ^... ^ z</td>
+<td>Hiervoor is een exponentiële waarde vereist. Hiermee wordt machtsverheffen van rechts naar links toegepast. (Dat wil zeggen dat het rechts associatief is) Hierdoor is <strong>Power[a, b, c]</strong> gelijk aan <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> kan alleen worden gebruikt als de exponent een positieve constante is.</td>
+<td>Power[args], tussenvoegsel: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operator:</strong> Power[x, 2] == y</li>
 <li><strong>Tussenvoegselnotatie:</strong> x ^ 2 == y</li>
@@ -191,7 +191,7 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 <td>Dit resulteert in de logische inverse van de voorwaarde. Het moet precies één voorwaarde hebben.</td>
 <td>Niet[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operator:</strong> niet [x] &amp;niet [y 3 ==]</li>
+<li><strong>Operator:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Tussenvoegselnotatie:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -203,7 +203,7 @@ De voorbeelden in de volgende tabel geven weer hoe een tussenvoegselnotatie moet
 | Infix-notatie    | Omschrijving                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | x + y + z         | Optelling                                                                                      |
-| X \*y \*z       | Vermenigvuldigen                                                                                |
+| x \* y \* z       | Vermenigvuldigen                                                                                |
 | x - y             | Binair aftrekken wordt op dezelfde manier vertaald als binaire optelling waarbij er een genegeerde tweede is. |
 | x ^ y ^ z         | Machtsverheffen met associatie naar rechts                                                   |
 | !x                | Booleaans niet                                                                                   |
@@ -212,14 +212,14 @@ De voorbeelden in de volgende tabel geven weer hoe een tussenvoegselnotatie moet
 | x & y & z         | Booleaans en                                                                                   |
 | x == y == z       | Gelijkheid                                                                                      |
 | x != y != z       | Afzonderlijk                                                                                      |
-| X &lt;y &lt;z   | Kleiner dan                                                                                     |
-| X &gt;y &gt;z   | Groter dan                                                                                  |
-| X &lt;= y &lt;= z | Kleiner dan of gelijk aan                                                                         |
-| X &gt;= y &gt;= z | Groter dan of gelijk aan                                                                      |
+| x &lt; y &lt; z   | Kleiner dan                                                                                     |
+| x &gt; y &gt; z   | Groter dan                                                                                  |
+| x &lt;= y &lt;= z | Kleiner dan of gelijk aan                                                                         |
+| x &gt;= y &gt;= z | Groter dan of gelijk aan                                                                      |
 | (x)               | Haakjes overschrijven standaard voorrang.                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Waarom worden mijn expressiebeperkingen niet correct gevalideerd?
-U kunt geen gereserveerde sleutelwoorden gebruiken als oplossernamen voor kenmerken, onderdelen of subonderdelen in een productconfiguratiemodel. Hier volgt een lijst met de gereserveerde woorden die u niet gebruiken:
+U kunt geen gereserveerde sleutelwoorden gebruiken als oplossernamen voor kenmerken, onderdelen of subonderdelen in een productconfiguratiemodel. Hierna vindt u een lijst met de gereserveerde woorden die u niet kunt gebruiken:
 
 -   Plafond
 -   Element
@@ -245,8 +245,8 @@ U kunt geen gereserveerde sleutelwoorden gebruiken als oplossernamen voor kenmer
 <a name="see-also"></a>Zie ook
 --------
 
-[Maken van een expressiebeperking (taak guide)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Een expressiebeperking maken (taakbegeleider)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[Een berekening toevoegen aan een model voor productconfiguratie (taak guide)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Een berekening toevoegen aan een productconfiguratiemodel (taakbegeleider)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

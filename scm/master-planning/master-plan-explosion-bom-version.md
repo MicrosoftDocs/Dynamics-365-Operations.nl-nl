@@ -1,6 +1,6 @@
 ---
 title: Explosie van een stuklijstversie
-description: In dit artikel wordt uitgelegd dat een scenario dat betrekking heeft op explosie van een stuklijst (BOM) versie van de hoofdplanning.
+description: In dit artikel wordt een hoofdplanningsscenario uitgelegd dat betrekking heeft op de explosie van een stuklijstversie.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="explosion-of-a-bom-version"></a>Explosie van een stuklijstversie
 
-In dit artikel wordt uitgelegd dat een scenario dat betrekking heeft op explosie van een stuklijst (BOM) versie van de hoofdplanning.
+[!include[banner](../includes/banner.md)]
+
+
+In dit artikel wordt een hoofdplanningsscenario uitgelegd dat betrekking heeft op de explosie van een stuklijstversie.
 
 Een vraagexplosie van een stuklijstversie maakt een vraag voor elk stuklijstregelartikel op een bepaalde locatie en mogelijk in een bepaald magazijn. In een locatiespecifieke stuklijst kan een specifiek magazijn worden gedefinieerd voor elke stuklijstregel. Bovendien bepalen de dimensie-instellingen van het artikel voor elke stuklijstregel of het magazijn al dan niet nodig is. De resulterende vraag voor elk stuklijstregelartikel wordt dan het beginpunt voor extra vraagexplosies. Voor dit hoofdplanningsscenario gelden de volgende voorwaarden:
 
@@ -43,6 +46,8 @@ In de volgende afbeelding ziet u het proces voor de vraagexplosie van de hoofdpl
 
 [Hoofdplanning - hoe de stuklijstversie wordt bepaald](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Hoofdplanning en de functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)
+
+
 
 

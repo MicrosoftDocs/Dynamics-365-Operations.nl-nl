@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Verkoopovereenkomsten
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel vindt u informatie over verkoopovereenkomsten. Een verkoopovereenkomst is een contract waarmee een klant toezegt specifieke hoeveelheden van producten te kopen of het product gedurende een specifieke periode te kopen, in ruil voor speciale prijzen en kortingen.
 
 Een verkoopovereenkomst is een contract waarmee een klant toezegt om producten in een specifieke hoeveelheid of een specifiek bedrag in de loop der tijd te kopen in ruil voor speciale prijzen, speciale kortingen, en andere speciale voorwaarden, zoals betaling en leveringsvoorwaarden. De prijzen en kortingen van de verkoopovereenkomst vervangen de prijzen en kortingen die worden genoemd in eventuele bestaande handelsovereenkomsten.  
@@ -36,7 +39,7 @@ De geldigheidsperiode van een verkoopovereenkomst wordt bepaald door de velden *
 
 U kunt een verkooporder direct van een verkoopovereenkomst maken door de actie **Vrijgaveorder** te gebruiken. Als alternatief kunt u een geldige verkoopovereenkomst selecteren wanneer u orders aanneemt (zie de sectie "Verkoopovereenkomsten toepassen in het bestelproces" van dit artikel).  
 
-**opmerking:** In eerdere versies verkoopovereenkomsten zijn aangeduid als afroeporders voor verkoop.
+**Opmerking:** In eerdere versies werden verkoopovereenkomsten afroeporders genoemd.
 
 ## <a name="commitment-types"></a>Toezeggingstypen
 Elke regel in een verkoopovereenkomst staat voor een toezegging om iets te verkopen. In het algemeen zijn er twee soorten toezegging:
@@ -98,16 +101,18 @@ Als u een verkooporder voor een verkoopovereenkomst hebt gemaakt (vrijgegeven), 
 | Hoeveelheid                                                          | Als u een hoeveelheid opgeeft die hoger is dan de hoeveelheid die op een verkoopovereenkomstregel is opgegeven waar het selectievakje **Max is afgedwongen** is ingeschakeld, verschijnt een bericht waarin u wordt gevraagd om de gewijzigde hoeveelheid op te slaan. Klik op **Ja** om de koppeling met de verkoopovereenkomstregel te verwijderen en de prijs opnieuw te berekenen. Klik op **Nee** om de koppeling met de verkoopovereenkomstregel te verwijderen zonder de prijs opnieuw te berekenen.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Een item dat is besteld vanuit een verkoopovereenkomst retourneren
-Wanneer een klant een product dat is besteld vanuit een verkoopovereenkomst, kan Microsoft Dynamics 365 for Operations kunt zoeken en automatisch bijwerken van de gerelateerde verkoopovereenkomst aan de wijziging in hoeveelheid of bedrag. Door een retourorder te maken die is gebaseerd op de oorspronkelijke verkooporder die is gekoppeld aan een verkoopovereenkomst, bepaalt u een relatie tussen de verkoopovereenkomsttoezegging, de verkooporderregel en de factuur voor de retourorder.  
+Wanneer een klant een product retourneert dat is besteld vanuit een verkoopovereenkomst, kan Microsoft Dynamics 365 for Operations de bijbehorende verkoopovereenkomsttoezegging zoeken en automatisch bijwerken om de wijziging in de hoeveelheid of het bedrag te weerspiegelen. Door een retourorder te maken die is gebaseerd op de oorspronkelijke verkooporder die is gekoppeld aan een verkoopovereenkomst, bepaalt u een relatie tussen de verkoopovereenkomsttoezegging, de verkooporderregel en de factuur voor de retourorder.  
 
 Als u de hoeveelheid van het geretourneerde artikel niet wilt aftrekken van de verkoopovereenkomsttoezegging, kunt u de optie **Koppeling verwijderen** op de pagina **Retourorder** gebruiken om de koppeling te verwijderen tussen de retourorder en de verkoopovereenkomsttoezegging. Als u de koppeling later opnieuw moet maken, klikt u op **Koppeling maken**.  
 
 **Opmerking:** Een retourorder kan worden gekoppeld aan slechts één verkoopovereenkomst. Als een klant verscheidene producten retourneert die zijn besteld met verscheidene verkoopovereenkomsten, moet u een nieuwe retourorder maken voor elk product en een koppeling maken naar de bijbehorende verkoopovereenkomst.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Automatisch verkoopovereenkomsten zoeken
-In sommige situaties waarin verkooporders indirect worden gemaakt, zoals wanneer u een creditnota of intercompany-verkooporders maakt, kunt u bepalen of Microsoft Dynamics 365 voor bewerkingen automatisch gezocht naar relevante verkoopovereenkomsten.
+In sommige situaties waarin verkooporders indirect zijn gemaakt, zoals wanneer u een creditnota of intercompany-verkooporders maakt, kunt u bepalen of Microsoft Dynamics 365 for Operations automatisch relevante verkoopovereenkomsten zoekt.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Financiële dimensies op verkoopovereenkomsten
 U kunt financiële dimensies kopiëren naar ofwel documentkopteksten of afzonderlijke regels van een verkoopovereenkomst. U kunt de dimensies op een overeenkomstkoptekst of overeenkomstregel op elk gewenst moment wijzigen. In dit geval worden de dimensies automatisch gekopieerd naar de vrijgavekoptekst of de vrijgaveregel van vrijgaveorders.
+
+
 
 

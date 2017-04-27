@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
 
+[!include[banner](../includes/banner.md)]
+
+
 Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden verwerkt, zoals hoe de onkosten, BTW of heffingen zullen worden verwerkt op een leveranciersfactuur. Elk bedrag dat moet worden verwerkt wanneer de leveranciersfactuur in het boekhoudingsjournaal wordt vastgelegd, heeft een of meerdere boekhoudingsverdelingen. 
 
 <a name="accounting-distributions"></a>Boekhoudingsverdelingen 
@@ -244,6 +247,8 @@ Boekhoudingsverdelingen voor belastingen kunnen pas worden gemaakt nadat belasti
 Voordat u een leveranciersfactuur boekt, kunt u het volledige boekhoudingsjournaal van de factuur bekijken, inclusief debet- en creditbedragen, om te controleren of de factuur naar de juiste rekeningen wordt geboekt. Deze weergave van het volledige boekhoudingsjournaal heet een subadministratie. 
 
 Indien het journaal in de subadministratie onjuist is wanneer u een afdrukvoorbeeld bekijkt voordat u de leveranciersfactuur boekt, kunt u het journaal in de subadministratie niet wijzigen. In plaats daarvan moet u de boekhoudingsverdelingen of het boekingsprofiel wijzigen. De boekhoudingsverdelingen worden gebruikt om één kant van de boekhoudingspost, de debit- of de creditzijde, te definiëren. De compenserende journaalregel in de subadministratie wordt gemaakt van de boekingsprofielen, zoals van de leveranciersrekening of de belasting.
+
+
 
 
 

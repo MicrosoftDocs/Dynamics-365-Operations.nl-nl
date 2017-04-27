@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Opties voor het plannen van bewerkingen
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit onderwerp beschrijft de opties voor het plannen van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 
 Bewerkingsplanning berekent de volgende informatie voor een productieorder:
@@ -128,6 +131,8 @@ U kunt de huidige waarden als standaardwaarden opslaan. Hiervoor zijn er twee op
 <a name="see-also"></a>Zie ook
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Bewerkingsplanning](operations-scheduling.md)
+
+
 
 

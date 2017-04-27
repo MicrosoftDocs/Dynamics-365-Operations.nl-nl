@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-overview"></a>Overzicht van inkoopbeheer
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat een overzicht van de functionaliteit die in de module Inkoop en sourcing beschikbaar is.
 
 De inkoop en sourcing dekken alle stappen van het identificeren van een behoefte aan producten en services tot het aanschaffen van het product, de ontvangst, facturatie, verwerking en betaling van leveranciers. De verwervingsprocessen kunnen naar specifieke behoeften worden geconfigureerd door inkoopbeleid en workflows te definiëren.
@@ -37,14 +40,14 @@ De vereiste voor producten of services kan het resultaat zijn van *inkopen*, bij
   
 De verwervingsafdeling kiest leveranciers voor vereiste producten en services, en hierbij kan een *offerteaanvraag* naar meerdere potentiële leveranciers worden verzonden. Het is mogelijk om de specificaties van het product te delen dat is aangevraagd en potentiële leveranciers kunnen deze bekijken om te zien of ze een product kunnen leveren dat hieraan voldoet. Leveranciers kunnen hun biedingen retourneren. Vervolgens worden deze door de verwervingsafdeling gecontroleerd, voordat ze de leverancier selecteren van wie ze willen aanschaffen.  
 
-De inkooporders bevatten een optie om een *inkoopquery * te sturen aan de leverancier als alternatief voor een uitgebreider offerteaanvraagproces. De aankoopquery kan worden gebruikt om voorwaarden, zoals prijzen, kortingen en leveringsdatums voor de order plaatsen. Als leveranciers worden ingesteld op de **leverancier** portal * * opdracht query functionaliteit is uitgeschakeld. In plaats daarvan wordt de order gedeeld in de** Leveranciersportal** en wanneer een *bevestigingsaanvraag* wordt verzonden, kan de leverancier de order direct bevestigen.  
+De inkooporders bevatten een optie om een *inkoopquery * te sturen aan de leverancier als alternatief voor een uitgebreider offerteaanvraagproces. De aankoopquery kan worden gebruikt om voorwaarden, zoals prijzen, kortingen en leveringsdatums voor de order plaatsen. Als leveranciers worden ingesteld met de portal **Leveranciers**,* * wordt de functionaliteit van de aankoopquery uitgeschakeld. In plaats daarvan wordt de order gedeeld in de** Leveranciersportal** en wanneer een *bevestigingsaanvraag* wordt verzonden, kan de leverancier de order direct bevestigen.  
 
 *Leverancierscatalogi *kunnen worden gebruikt om gegevens te verzamelen over het productassortiment dat leveranciers kunnen leveren. Leveranciers kunnen hun eigen catalogus publiceren, zodat is het eenvoudiger is om de catalogus bijgewerkt te houden. Het is mogelijk om een *goedkeurde leverancierslijst* te koppelen aan een product en dat kan helpen leveranciersselectie te begeleiden wanneer nieuwe inkooporders worden geopend en kan het gebruik voorkomen van onbedoelde leveranciers.
 
 ## <a name="procurement"></a>Inkoop
 *Inkooporders *kunnen worden gemaakt op een aantal verschillende manieren waaronder:
 
--   Als een uitkomst van de hoofdplanning die een vraag heeft aangegeven vereist dat een inkoop. Dit proces genereert geplande inkooporders en wanneer deze worden vrijgegeven, inkooporders worden gegenereerd.
+-   Als een uitkomst van hoofdplanning die vraag heeft geïdentificeerd die inkoop vereist. Dit proces genereert geplande inkooporders en wanneer deze worden vrijgegeven, worden inkooporders gegenereerd.
 -   Via de verwerking van opdrachten tot inkoop die resulteren in inkoop.
 -   Via de verwerking van inkoopovereenkomsten, waarbij inkooporders worden gemaakt als vrijgegeven orders op basis van de overeenkomsten. Dit wordt vaak gebruikt wanneer inkoopovereenkomsten worden gebruikt om afroeporders weer te geven.
 -   Handmatig, wanneer de inkooporder die wordt gemaakt, niet is gebaseerd op een ander document.
@@ -53,7 +56,7 @@ De inkooporders die zijn geconfigureerd met *inkoopgoedkeuringsworkflows* moeten
 
 Inkooporders worden *bevestigd* om aan te geven dat overeenkomst is gesloten met de leverancier. De inkooporder doorloopt vervolgens verschillende statussen totdat deze uiteindelijk wordt gefactureerd of geannuleerd.  
 
-Wanneer u een inkooporder maakt, worden veel van de velden vooraf gevuld met waarden die standaard van de informatie opgeslagen over de leverancier in de **leveranciers** pagina. Dit betekent dat er een beperkt aantal velden is dat u moet invullen op de inkooporder, hoewel u kunt besluiten de standaardwaarden te negeren.
+Wanneer u een inkooporder maakt, worden veel van de velden van tevoren ingevuld met waarden die standaard komen uit de informatie die over de leverancier is opgeslagen op de pagina **Leveranciers**. Dit betekent dat er een beperkt aantal velden is dat u moet invullen op de inkooporder, hoewel u kunt besluiten de standaardwaarden te negeren.
 
 ### <a name="prices-and-discounts"></a>Prijzen en kortingen
 
@@ -86,5 +89,7 @@ Gefactureerde inkooporders leggen de schuld vast in de leveranciersrekening in l
 
 ## <a name="vendor-performance"></a>Leverancierprestaties
 De prestaties en de controle van inkopen worden ondersteund met *inkoop- en leveranciersrapporten,* waarin uitgavenanalyses en leveranciersprestatieanalyses zijn opgenomen.
+
+
 
 

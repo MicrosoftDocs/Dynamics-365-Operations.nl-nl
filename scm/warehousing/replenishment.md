@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Aanvulling
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer.
 
 Dit artikel beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer. De informatie is niet van toepassing op de magazijnoplossing die in Voorraadbeheer beschikbaar is. Er zijn drie aanvullingsstrategieën beschikbaar:
@@ -67,6 +70,8 @@ Bij Vraag voor aanvulling laden wordt de vraag voor verschillende ladingen opget
 | Locatieprofielen       | Locatieprofielen zijn vereist om locaties te maken.                                                                                                                                                                                       |
 | Instructielocatie     | Locatie-instructies zijn vereist om het werk naar de locaties te leiden waar de aanvulling is vereist en naar de locaties waaruit voorraad afkomstig is.                                                                                     |
 | Werksjablonen          | Werksjablonen van het type **Aanvulling** zijn vereist voor het maken van aanvullingswerk zodat de voorraad kan worden verplaatst naar de gewenste locaties.                                                                                           |
+
+
 
 
 

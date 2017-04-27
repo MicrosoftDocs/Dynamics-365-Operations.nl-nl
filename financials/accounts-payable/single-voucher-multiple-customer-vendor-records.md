@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Enkel boekstuk met meerdere klant- of leveranciersrecords
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 for Operations. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen. 
 
 Enkele veelvoorkomende gevallen waarin een enkel boekstuk wordt gebruikt voor meerdere klanten of leveranciers zijn saldo-overboekingen tussen klanten en verrekening van saldi tussen klanten en leveranciers binnen dezelfde organisatie. 
@@ -91,7 +94,7 @@ Als de gebruiker niet wil dat de contantkorting wordt toegewezen over de volledi
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Boekstuk** | **Rekeningtype** | **Rekening**  | **Omschrijving** | **Debet** | **Krediet** | **Offset type** | **Offset account** |
+| **Boekstuk** | **Rekeningtype** | **Rekening**  | **Omschrijving** | **Debet** | **Krediet** | **Type tegenrekening** | **Tegenrekening** |
 | GNJL001     | Leverancier           | 1001         | INV1            |           | 100,00     | Grootboek          | &lt;leeg&gt;      |
 | GNJL001     | Grootboek           | 606300-001-- | INV1            |   50,00   |            | Grootboek          | &lt;leeg&gt;      |
 | GNJL001     | Grootboek           | 606300-002-- | INV1            |   50,00   |            | Grootboek          | &lt;leeg&gt;      |
@@ -248,5 +251,7 @@ Om ongewenste problemen met toekomstige vereffeningen voor deze transactie te ve
 | 002         | Leverancier           | 1001        |                 |  75,00    |            | Grootboek          | 999999---          |
 
  
+
+
 
 

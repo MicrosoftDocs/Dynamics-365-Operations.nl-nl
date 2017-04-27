@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-overview"></a>Overzicht van Transportbeheer
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit onderwerp bevat een overzicht van de functionaliteit voor het transport in Microsoft Dynamics 365 for Operations.
 
-Met Transportbeheer kunt u het transport van uw bedrijf beheren en kunt u tevens leveranciers- en routeringoplossingen voor binnenkomende en uitgaande orders identificeren. Bijvoorbeeld, kunt u de snelste route of het minste dure tarief voor een zending identificeren. In de volgende tabel worden de hoofdscenario´s beschreven voor het gebruik van Transportbeheer in Microsoft Dynamics 365 for Operations.
+Met Transportbeheer kunt u het transport van uw bedrijf beheren en kunt u tevens leveranciers- en routeringoplossingen voor binnenkomende en uitgaande orders identificeren. Bijvoorbeeld, kunt u de snelste route of het minste dure tarief voor een zending identificeren. In de volgende tabel worden de hoofdscenario's beschreven voor het gebruik van Transportbeheer in Microsoft Dynamics 365 for Operations.
 
 <table>
 <colgroup>
@@ -67,19 +70,21 @@ Met Transportbeheer kunt u het transport van uw bedrijf beheren en kunt u tevens
 ## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Planningstransport in Dynamics 365 for Operations
 In Transportbeheer kan transportplanning worden gebaseerd op orders of op verzendingen die zijn gemaakt op basis van deze orders. De verzendingen vinden altijd op een bepaald punt in de tijd plaats, maar zijn niet voor transportplanning vereist. De transferorders maken deel uit van het uitgaande scenario en kunnen samen met verkooporders worden gepland. 
 
-![Tekening laden](./media/Load-drawing1-1024x477.jpg)
+![Ladingtekening](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Binnenkomend transport
-Wanneer u artikelen bij een leverancier bestelt en de artikelen moeten worden geleverd op uw magazijn, is het raadzaam om te bepalen of het transport van de artikelen zelf. Dynamics 365 for Operations kunt u van plan bent de transport- en ontvangst van de inkomende belasting. De volgende afbeelding toont het bedrijfs processtroom voor het plannen van een verzending voor een binnenkomende lading. 
+Wanneer u artikelen bestelt bij een leverancier en deze in uw magazijn moeten worden geleverd, kunt u bijvoorbeeld het transport van de artikelen zelf bepalen. U kunt Dynamics 365 for Operations gebruiken om het transport en de ontvangst van een inkomende lading te plannen. De volgende afbeelding toont het bedrijfs processtroom voor het plannen van een verzending voor een binnenkomende lading. 
 
 ![Bedrijfsprocesstroom voor binnenkomend ladingtransport](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Uitgaand transport
 U kunt een uitgaande lading plannen en verwerken om specifieke artikelen te verzenden van het magazijn van een bedrijf naar een klant. U kunt Dynamics 365 for Operations gebruiken om het transport en de verzending van een uitgaande lading te plannen. De volgende afbeelding toont de bedrijfsprocesstroom voor het plannen en verwerken van uitgaande lading voor verzending. 
 
-![Planning en het verwerken van uitgaande wordt geladen](./media/Planningandprocessingoutboundloads.jpg)
+![Uitgaande ladingen plannen en verwerken](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Lading opbouwen
 Dynamics 365 for Operations bevat een strategie voor het opbouwen van ladingen die de op volume gebaseerde ladingopbouwstrategie wordt genoemd. Met deze strategie kunt u de maximumwaarden gebruiken die worden opgegeven voor hoogte en gewicht in de ladingsjabloon. U kunt ook de instellingen overschrijven door nieuwe waarden in te voeren. Als u deze strategie wilt gebruiken, selecteert u deze in het veld **Ladingopbouwstrategie** op het sneltabblad **Instellen** in het formulier **Workbench voor ladingopbouw**. Bovendien kunt u uw eigen belasting-bouwende strategieën toevoegen door een nieuwe klasse in de Application Object Tree (AOT) te maken.
+
+
 
 

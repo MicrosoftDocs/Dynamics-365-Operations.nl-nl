@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-production-orders"></a>Productieorders maken
 
+[!include[banner](../includes/banner.md)]
+
+
 Als een productieorder wordt gemaakt, wordt er een aanvraag geïnitieerd om te beginnen met de productie van een artikel. De productieorder bevat informatie over het artikel dat wordt geproduceerd, het aantal en de geplande einddatum. Het bevat ook informatie over de te verwerken materialen en de processen die moeten worden gevolgd om het artikel te produceren.
 
 Een productieorder doorloopt fasen van de productielevenscyclus. Bij het maken wordt aan een order de status **Gemaakt** toegewezen. Bij het voltooien wordt aan een order de status **Beëindigd** toegewezen. Met een parameterinstelling in elke fase kan een gebruiker elke stap configureren. De instelling kan worden opgegeven voor één gebruiker of voor alle gebruikers.
@@ -40,6 +43,8 @@ Een productieorder kan in de volgende scenario's worden gemaakt:
 -   Gemaakt door hoofdplanningsuitvoering op basis van de vraag naar materiaal.
 -   Rechtstreeks gemaakt van een verkooporderregel of wanneer een productieorder van een hoger niveau wordt gemaakt en geraamd (getraceerd aanbod).
 -   Handmatig gemaakt.
+
+
 
 
 

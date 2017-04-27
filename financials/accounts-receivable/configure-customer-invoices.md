@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Een **klantfactuur voor een verkooporder** is een rekening die door een organisatie aan een klant wordt verstrekt in verband met een verkoop. Een dergelijke klantfactuur maakt u op basis van een verkooporder die orderregels en artikelnummers bevat. Artikelnummers worden opgegeven en geboekt in het grootboek. Journaalposten in subadministratie zijn niet beschikbaar voor een klantfactuur voor een verkooporder. 
@@ -55,7 +58,7 @@ Op de lijstpagina **Alle verkooporders** kunt u de status van de verkooporders b
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Verkooporders of pakbonnen consolideren voor het boeken
 Gebruik deze procedure als een of meer verkooporders kunnen worden gefactureerd en u deze in één factuur wilt consolideren. 
 
-U kunt meerdere facturen op de lijstpagina **Verkooporder** selecteren en vervolgens **Facturen genereren** gebruiken om deze te consolideren. Op de **factuur wordt geboekt** pagina kunt u de **overzichtsorder** instellen om samen te vatten door het nummer (indien er meerdere pakbonnen voor een enkele verkooporder) of te factureren rekening (wanneer er meerdere verkooporders voor een enkele factuur). Gebruik de **schikken** knop verkooporders consolideren in één facturen, op basis van de **overzichtsorder** instellingen.
+U kunt meerdere facturen op de lijstpagina **Verkooporder** selecteren en vervolgens **Facturen genereren** gebruiken om deze te consolideren. Op de pagina **Factuur wordt geboekt** kunt u de instelling voor **Overzichtsorder** wijzigen om een overzicht op basis van ordernummer (met meerdere pakbonnen voor één verkooporder) of factuurrekening (met meerdere verkooporders voor één factuurrekening) weer te geven. Gebruik de knop **Schikken** om verkooporders in afzonderlijke facturen te consolideren, op basis van de instellingen voor **Overzichtsorder**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Aanvullende instellingen die het boekingsgedrag wijzigen
 De volgende velden wijzigen het gedrag van het boekingsproces.
@@ -123,8 +126,8 @@ De volgende velden wijzigen het gedrag van het boekingsproces.
 <td>Kredietlimiet controleren</td>
 <td>Selecteer de informatie die moet worden geanalyseerd wanneer een kredietlimietcontrole wordt uitgevoerd.
 <ul>
-<li><strong>None</strong> – There is no requirement for the credit limit check.</li>
-<li><strong>Balance</strong> – The credit limit is checked against the customer balance.</li>
+<li><strong>Geen</strong>: er is geen vereiste voor de controle van de kredietlimiet.</li>
+<li><strong>Saldo</strong>: de kredietlimiet wordt gecontroleerd op basis van het saldo van de klant.</li>
 <li><strong>Saldo+Pakbon of productontvangstbon</strong>: de kredietlimiet wordt vergeleken met het saldo van de klant en de leveringen.</li>
 <li><strong>Saldo+Alle</strong>: de kredietlimiet wordt vergeleken met het saldo, de leveringen en de openstaande orders van de klant.</li>
 </ul></td>
@@ -150,6 +153,8 @@ De volgende velden wijzigen het gedrag van het boekingsproces.
 </tr>
 </tbody>
 </table>
+
+
 
 
 

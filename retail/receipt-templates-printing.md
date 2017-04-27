@@ -1,6 +1,6 @@
 ---
 title: Ontvangstsjablonen en afdrukken
-description: In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Microsoft Dynamics 365 for Operations - Retail bevat een ontwerper van formulierindeling waarmee u kunt eenvoudig maken en verschillende soorten formulierindelingen te wijzigen.
+description: In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Microsoft Dynamics 365 for Operations - Retail heeft een ontwerper voor formulierindelingen, waarmee u gemakkelijk verschillende soorten formulierindelingen kunt maken en aanpassen.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="receipt-templates-and-printing"></a>Ontvangstsjablonen en afdrukken
 
-In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Microsoft Dynamics 365 for Operations - Retail bevat een ontwerper van formulierindeling waarmee u kunt eenvoudig maken en verschillende soorten formulierindelingen te wijzigen.
+[!include[banner](includes/banner.md)]
 
-**Belangrijk:** u moet formulierindelingen instellen en profielen ontvangstbewijzen en andere documenten afdrukken vanuit Retail POS op moderne en Cloud-POS voor ontvangstbewijzen. U kunt meerdere formulierindelingen in een ontvangstbewijsprofiel opnemen. U kunt vervolgens het ontvangstprofiel toewijzen aan een printer door een hardwareprofiel te wijzigen.
+
+In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Microsoft Dynamics 365 for Operations - Retail heeft een ontwerper voor formulierindelingen, waarmee u gemakkelijk verschillende soorten formulierindelingen kunt maken en aanpassen.
+
+**Belangrijk:** U moet formulierindelingen en ontvangstprofielen instellen om ontvangstbewijzen en andere documenten af te drukken vanuit Retain Modern POS en Cloud POS. U kunt meerdere formulierindelingen in een ontvangstbewijsprofiel opnemen. U kunt vervolgens het ontvangstprofiel toewijzen aan een printer door een hardwareprofiel te wijzigen.
 
 ## <a name="set-up-a-receipt-format"></a>Een ontvangstbewijsindeling instellen
-1.  Klik op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS**&gt;**indelingen voor ontvangstbewijzen**.
+1.  Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS** &gt; **Ontvangstbewijsindelingen**.
 2.  Klik op de pagina **Ontvangstbewijsindeling** op **Nieuw** om een nieuwe formulierindeling te maken, of selecteer een bestaande formulierindeling.
 3.  Voer in het veld **Ontvangstbewijsindeling** een id in voor de formulierindeling en selecteer vervolgens het type ontvangstbewijs waarvoor deze indeling wordt gebruikt. U kunt ook een omschrijving en een korte naam voor het ontvangstbewijs invoeren in het veld **Titel**.
 4.  Op het sneltabblad **Algemeen** selecteert u een optie om het drukgedrag te definiëren:
@@ -44,11 +47,11 @@ In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te be
 ## <a name="design-a-receipt-format"></a>Een ontvangstbewijsindeling ontwerpen
 Gebruik de ontwerpfunctie voor formulierindelingen om de grafische indeling van het formulierdocument te maken. De pagina **Ontwerper van ontvangstbewijsindeling** bevat drie gedeelten: **Koptekst**, **Regels** en **Voettekst**. Voor sommige typen formulierindelingen worden elementen uit alle drie de secties gebruikt, terwijl voor andere typen elementen uit slechts één of twee secties worden gebruikt. Als u de beschikbare elementen voor elke sectie wilt bekijken, klikt u op de desbetreffende knop in het navigatievenster aan de linkerkant van de pagina.
 
-1.  Klik op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS**&gt;**indelingen voor ontvangstbewijzen**.
+1.  Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS** &gt; **Ontvangstbewijsindelingen**.
 2.  Op de **Ontvangstbewijsindeling** pagina selecteert u een indeling, en klikt u op **Ontwerper**.
 3.  Klik op **Uitvoeren** om de installatie van de detailhandelsontwerperhost te starten.
-4.  Op de Meldingsbalk die onder in het Internet Explorer-venster verschijnt, klikt u op **Openen** om de installatie van de één-klik-ontwerper te starten. (Het systeemvak worden weergegeven mogelijk weergegeven in een andere locatie in andere browsers.) Het voortgangsvenster toont de voortgang van het installatieproces.
-5.  Nadat de installatie is voltooid, uw Dynamics 365 voor bewerkingen gebruikersnaam en wachtwoord invoeren en klik vervolgens op **inloggen** om te beginnen de ontwerper.
+4.  Op de Meldingsbalk die onder in het Internet Explorer-venster verschijnt, klikt u op **Openen** om de installatie van de één-klik-ontwerper te starten. (De meldingsbalk kan op een andere locatie worden weergegeven in andere browsers.) De voortgangsindicator geeft de voortgang van het installatieproces weer.
+5.  Nadat de installatie is voltooid, voert u uw gebruikersnaam en wachtwoord voor Dynamics 365 for Operations in en klikt u op **Aanmelden** om de ontwerper te starten.
 6.  Nadat uw referenties zijn gevalideerd en de ontwerper is gestart, kunt u beginnen met de ontvangstindeling te ontwerpen of een bestaande indeling te wijzigen.
 7.  Voor het maken van de elementen van het formulier selecteert u de sectie **Koptekst**, **Regels** of **Voettekst** en sleept u een element uit die sectie naar de werkruimte. De meeste elementen bevatten variabelen, die automatisch worden gevuld met gegevens uit de database. Met andere elementen, zoals **Tekst**, kunt u aangepaste tekst op het ontvangstbewijs afdrukken. **Opmerking:** U kunt aangeven hoeveel regels elke sectie omvat door het getal te wijzigen in de rechterbenedenhoek van die sectie. Om het gemakkelijker te maken een sectie te veranderen kunt u de hoogte ervan vergroten door de formaatbalk onderaan de sectie te verslepen. De hoogte van de sectie in de werkruimte heeft geen invloed op het aantal regels van het werkelijke ontvangstbewijs.
 8.  Nadat u een element naar de werkruimte hebt gesleept, stelt u in het deelvenster **Objectgegevens **onder aan de pagina de eigenschappen voor het onderdeel in. Voer een of meer van de volgende instellingen in:
@@ -63,9 +66,11 @@ Gebruik de ontwerpfunctie voor formulierindelingen om de grafische indeling van 
 ## <a name="assign-receipt-profiles"></a>Ontvangstbewijsprofielen toewijzen
 De ontvangstprofielen worden direct toegewezen aan printers via het hardwareprofiel.
 
-1.  Het hardwareprofiel openen door te klikken op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**hardwareprofiel**.
+1.  Open het hardwareprofiel door te klikken op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofiel**.
 2.  Selecteer de printer en wijs vervolgens in het veld **Ontvangstbewijsprofiel ** het ontvangstprofiel toe voor gebruik in het register.
 
 **Opmerking:** Als twee printers worden gebruikt, kan één printer worden gebruikt om standaard 40 kolom thermische ontvangstbewijzen af te drukken. De tweede printer wordt meestal gebruikt voor het afdrukken van ontvangsttypen van een hele pagina die meer informatie vereisen. Deze ontvangsttypen omvatten de ontvangsten van klantorders en klantfacturen.
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Projectfacturering
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt een overzicht van projectfacturen voor tijd- en materiaalprojecten en projecten met een vaste prijs. Het bevat informatie over factuurvoorstellen (voorlopige facturen), factuurbeheer, a conto-facturering, leveranciersfacturering en creditnota's.
 
 Aan de hand van het projecttype wordt bepaald welke factureringsmethode moet worden toegepast. Alleen de twee externe projecttypen, Tijd en materiaal en Vaste prijs, kunnen worden gefactureerd. Tijd- en materiaalprojecten en Projecten met een vaste prijs zijn altijd aan een projectcontract gekoppeld.
@@ -103,7 +106,7 @@ U kunt bijvoorbeeld het volgende factureringsschema instellen:
 Wanneer de mijlpaalbetalingen kunnen worden gefactureerd, gebruikt u de procedure voor de facturering van a conto-bedragen.
 
 ## <a name="vendor-invoicing"></a>Leveranciersfacturering
-Wanneer u een artikel van een leverancier bestelt en het artikel aan een project toewijst, bepaalt de eigenschap die u voor de inkooporderregel voor dat artikel selecteert of het ingekochte artikel aan een klant wordt gefactureerd. Als u standaardregeleigenschappen instelt, worden ze weergegeven voor het artikel op de inkooporderregel (regeldetails &gt;project &gt;regeleigenschap). Er zijn twee manieren om de regeleigenschap te wijzigen:
+Wanneer u een artikel van een leverancier bestelt en het artikel aan een project toewijst, bepaalt de eigenschap die u voor de inkooporderregel voor dat artikel selecteert of het ingekochte artikel aan een klant wordt gefactureerd. Als u standaardregeleigenschappen instelt, worden deze weergegeven voor het artikel op de inkooporderregel (Regeldetails &gt; Project &gt; Regeleigenschap). Er zijn twee manieren om de regeleigenschap te wijzigen:
 
 -   Het factureren van de klant van het project voor het artikel: stel de regeleigenschap voor het artikel in op een toerekenbare waarde op de inkooporder en factureer vervolgens de klant door de juiste projectfactureringsmethode te gebruiken.
 -   Factureer niet de projectklant voor het artikel: selecteert niet de regeleigenschap **Toerekenbaar** op de inkooporderregel voor het artikel. U kunt de inkooporder vervolgens factureren en verder hoeft u niets te doen.
@@ -118,5 +121,7 @@ Hetzelfde document kan transacties bevatten die zijn geselecteerd voor crediteri
 Als u een gefactureerd bedrag wilt crediteren, moet u dit bedrag eerst voor creditering selecteren en vervolgens een creditnota maken. U maakt een creditnota met dezelfde methode als voor het maken van een klantfactuur. 
 
 U kunt een klantfactuur met een negatieve waarde maken. Dit wordt een factuur die wordt geclassificeerd als creditnota. Om een creditnota te maken en af te drukken moet u de transacties selecteren die eerder voor een klantfactuur zijn geboekt en vervolgens de transacties bewerken. Tenzij het primaire adres van de rechtspersoon Duitsland is, wordt de titel van de factuur "Correctiefactuur".
+
+
 
 

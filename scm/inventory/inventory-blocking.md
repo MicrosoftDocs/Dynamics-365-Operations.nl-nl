@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>Voorraadblokkering
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft een overzicht van voorraadblokkering, dat deel van het kwaliteitsinspectieproces in Microsoft Dynamics AX is. U kunt voorraadblokkering gebruiken om te voorkomen dat artikelen worden verwerkt of verbruikt.
 
 U kunt op de volgende manieren voorraadartikelen blokkeren:
@@ -53,17 +56,19 @@ In het volgende voorbeeld wordt een kwaliteitsorder gegenereerd wanneer de pakbo
 | Met een kwaliteitskoppeling wordt opgegeven dat bij het boeken van een pakbon voor een inkooporder een kwaliteitsorder moet worden gegenereerd. Met het artikelbemonsteringsplan van de kwaliteitsorder wordt bepaald dat 10 procent van de hoeveelheid op de inkooporderregel moet worden geïnspecteerd. Verder moet, omdat het selectievakje **Volledige blokkering** is ingeschakeld in de instellingen voor de artikelbemonstering, de volledige hoeveelheid van de inkooporderregel worden geblokkeerd tijdens de inspectie, ongeacht de hoeveelheid die wordt verzonden voor inspectie. | De pakbon wordt geboekt. | Een kwaliteitsorder wordt gegenereerd. Tien procent van de inkooporderhoeveelheid voor het artikel wordt naar inspectie verzonden. De volledige hoeveelheid van de inkooporderregel wordt geblokkeerd. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Artikelen blokkeren via blokkering van voorraadstatus
-U kunt opgeven welke status voorraad statussen blokkeren met behulp van de **voorraadblokkering** parameter in de **voorraad statussen** pagina.  U kunt geen voorraadstatussen als blokkeringsstatus gebruiken voor productieorders, verkooporders, transferorders, uitgaande transacties of projectintegraties. Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als artikelen de status **Verbroken** hebben en de hoofdplanning op deze artikelen wordt uitgevoerd, worden de artikelen als ontbrekend beschouwd en wordt de voorraad automatisch aangevuld.
+U kunt opgeven welke voorraadstatussen blokkeringsstatussen zijn door de parameter **Voorraadblokkering** op de pagina **Voorraadstatussen** te gebruiken .  U kunt geen voorraadstatussen als blokkeringsstatus gebruiken voor productieorders, verkooporders, transferorders, uitgaande transacties of projectintegraties. Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als artikelen de status **Verbroken** hebben en de hoofdplanning op deze artikelen wordt uitgevoerd, worden de artikelen als ontbrekend beschouwd en wordt de voorraad automatisch aangevuld.
 
 
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Maak en beheer van een voorraadblokkering (taak guide)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[Voorraadblokkering maken en beheren (taakbegeleider)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[Processen voor kwaliteitsbeheer](quality-management-processes.md)
 
-[Controleer de kwaliteit van goederen (taak guide)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[De kwaliteit van goederen controleren (taakbegeleider)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

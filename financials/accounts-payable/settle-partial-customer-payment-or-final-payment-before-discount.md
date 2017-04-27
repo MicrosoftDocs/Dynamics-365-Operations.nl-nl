@@ -1,5 +1,5 @@
 ---
-title: "Een gedeeltelijke klantenbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum"
+title: "Een gedeeltelijke klantenbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum"
 description: Dit artikel geeft scenario&quot;s die laten zien hoe gedeeltelijke betalingen voor een klant worden vastgelegd en hoe contantkortingen worden verkregen in de contantkortingsperiode.
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Een gedeeltelijke klantenbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum
+# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Een gedeeltelijke klantenbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel geeft scenario's die laten zien hoe gedeeltelijke betalingen voor een klant worden vastgelegd en hoe contantkortingen worden verkregen in de contantkortingsperiode.
 
-Fabrikam verkoopt goederen aan klant 4028. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Facturen moeten worden betaald binnen 30 dagen. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De parameters voor de vereffening bevinden zich op de **parameters van module klanten** pagina.
+Fabrikam verkoopt goederen aan klant 4028. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Facturen moeten worden betaald binnen 30 dagen. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
 
 ## <a name="customer-invoice"></a>Klantfactuur
-Op 25 juni Arnie invoert en boekt een factuur voor 1.000,00 voor klant 4028. Arnie kan deze transactie bekijken op de pagina** Klanttransacties**.
+Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 4028. Arnie kan deze transactie bekijken op de pagina** Klanttransacties**.
 
 | Boekstuk   | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -63,14 +66,14 @@ Arnie klikt op het tabblad **Contantkorting** om het kortingsbedrag te bekijken.
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Gedeeltelijke betaling via de pagina Klantbetalingen invoeren
-Klant 4028 verzendt een betaling voor 500,00 op 1 juli. U voert deze betaling, niet Arnie klikken op **regels**. Hij registreert de betaling door een nieuw betalingsjournaal te maken en vervolgens de pagina **Klantbetalingen invoeren** te openen. Hij voert de betalingsgegevens in en markeert de factuur die hij ingevoerd heeft. Wanneer Arnie **500,00** invoert als het bedrag, typt hij ook **500,00** in het veld **Te betalen bedrag** in het raster. Omdat Fabrikam een contantkorting op gedeeltelijke betalingen toestaat, ziet hij dat een gedeeltelijke contantkorting van 5,05 ook wordt uitgevoerd. De berekening van deze korting is 500,00 ÷ 0,99 × 0,01 = 5,05. (In deze berekening wordt 500,00 gedeeld door 0,99, aangezien er een korting van 1 procent is. Daarom betaalt de klant 99 procent van de factuur. Het resultaat wordt vervolgens vermenigvuldigd met het kortingspercentage van 1 procent of 0,01. Als de klant de volledige korting van 10,00 neemt, het bedrag dat moet worden vereffend worden 990,00.) Gegevens over de korting wordt weergegeven in het raster onderaan in de **klantbetalingen invoeren** pagina.
+Klant 4028 verzendt op 1 juli een betaling van 500,00. Om deze betaling in te voeren, klikt Arnie niet op **Regels**. Hij registreert de betaling door een nieuw betalingsjournaal te maken en vervolgens de pagina **Klantbetalingen invoeren** te openen. Hij voert de betalingsgegevens in en markeert de factuur die hij ingevoerd heeft. Wanneer Arnie **500,00** invoert als het bedrag, typt hij ook **500,00** in het veld **Te betalen bedrag** in het raster. Omdat Fabrikam een contantkorting op gedeeltelijke betalingen toestaat, ziet hij dat een gedeeltelijke contantkorting van 5,05 ook wordt uitgevoerd. De berekening van deze korting is 500,00 ÷ 0,99 × 0,01 = 5,05. (In deze berekening wordt 500,00 gedeeld door 0,99, aangezien er een korting van 1 procent is. Daarom betaalt de klant 99 procent van de factuur. Het resultaat wordt vervolgens vermenigvuldigd met het kortingspercentage van 1 procent of 0,01. Als de klant de volledige korting van 10,00 neemt, is het bedrag dat moet worden vereffend 990,00. De kortinggegevens worden weergegeven in het raster onder aan de pagina **Klantbetalingen invoeren**.
 
 | Contantkortingsbedrag dat moet worden toegepast | Toegepaste contantkorting | Te betalen bedrag |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Gedeeltelijke betaling door de journaalregels te gebruiken
-In plaats van in het betalingsjournaal de pagina **Klantbetalingen invoeren** te openen, kan Arnie ook klikken op **Regels** om een betaling uit te voeren. Het betalingsjournaal wordt weergegeven, waar Arnie een regel voor klant 4028 kunt invoeren. Arnie opent vervolgens de pagina **Transacties vereffenen**, zodat hij de factuur kan markeren voor vereffening. Arnie markeert de factuur en wijzigt de waarde in het veld **Bedrag om te vereffenen** naar **500,00**. Nogmaals ziet hij dat de waarde in het veld **Contantkortingsbedrag** voor de volledige factuur **10,00** is en de waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** **5,05** is. Daarom vereffent Arnie 505,05 van deze factuur.
+In plaats van in het betalingsjournaal de pagina **Klantbetalingen invoeren** te openen, kan Arnie ook klikken op **Regels** om een betaling uit te voeren. Het betalingsjournaal wordt weergegeven waar Arnie een regel in kan voeren voor klant 4028. Arnie opent vervolgens de pagina **Transacties vereffenen**, zodat hij de factuur kan markeren voor vereffening. Arnie markeert de factuur en wijzigt de waarde in het veld **Bedrag om te vereffenen** naar **500,00**. Nogmaals ziet hij dat de waarde in het veld **Contantkortingsbedrag** voor de volledige factuur **10,00** is en de waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** **5,05** is. Daarom vereffent Arnie 505,05 van deze factuur.
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -143,6 +146,8 @@ Arnie boekt dit journaal en controleert de klanttransacties op de pagina **Klant
 | DISC-10010 | Contantkorting    | 01-07-2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 | ARP-10011  | Betaling          | 8-7-2015  |         |                                      | 495,00                                | 0,00    | USD      |
 | DISC-10011 | Contantkorting    | 8-7-2015  |         |                                      | 5,00                                  | 0,00    | USD      |
+
+
 
 
 

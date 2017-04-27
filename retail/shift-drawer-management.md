@@ -1,6 +1,6 @@
 ---
 title: Ploegen- en kasladebeheer
-description: "In dit artikel wordt uitgelegd hoe instellen en gebruiken van de twee typen retail punt van verkooppunten (POS) ploegen - gedeelde en zelfstandig. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen terwijl zelfstandige ploegen kunnen worden gebruikt door slechts één werknemer tegelijk."
+description: "In dit artikel wordt beschreven hoe u de twee typen ploegen voor detailhandelverkooppunten (POS) kunt instellen en gebruiken: gedeelde en zelfstandige. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen terwijl zelfstandige ploegen kunnen worden gebruikt door slechts één werknemer tegelijk."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="shift-and-cash-drawer-management"></a>Ploegen- en kasladebeheer
 
-In dit artikel wordt uitgelegd hoe instellen en gebruiken van de twee typen retail punt van verkooppunten (POS) ploegen - gedeelde en zelfstandig. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen terwijl zelfstandige ploegen kunnen worden gebruikt door slechts één werknemer tegelijk.
+[!include[banner](includes/banner.md)]
+
+
+In dit artikel wordt beschreven hoe u de twee typen ploegen voor detailhandelverkooppunten (POS) kunt instellen en gebruiken: gedeelde en zelfstandige. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen terwijl zelfstandige ploegen kunnen worden gebruikt door slechts één werknemer tegelijk.
 
 Er zijn twee typen ploegen voor detailhandelverkooppunten: zelfstandige en gedeelde. Zelfstandige ploegen kunnen door slechts één werknemer tegelijk worden gebruikt. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen. Hierdoor creëren zij in feite één ploeg voor meerdere werknemers in een winkel.
 
@@ -38,15 +41,15 @@ Zelfstandige ploegen worden gebruikt in een traditioneel scenario met vaste POS,
 
 Een zelfstandige ploeg wordt aangewezen op het niveau van de kassalade. In deze procedure wordt uitgelegd hoe u een zelfstandige ploeg kunt instellen op een POS-kassa.
 
-1.  Klik op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**hardwareprofielen**.
+1.  Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
 2.  Selecteer het hardwareprofiel dat moet worden gebruikt voor de zelfstandige ploeg.
 3.  Bevestig op het sneltabblad **Lade** dat de optie **Gedeelde ploeglade** is ingesteld op **Nee**.
-4.  Click **Save**.
-5.  Klik op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**registreert**.
+4.  Klik op **Opslaan**.
+5.  Klik op **Detailhandel en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**.
 6.  Selecteer de kassa waarvoor een zelfstandige ploeg is vereist en klik vervolgens op **Bewerken**.
 7.  Selecteer in het veld **Hardwareprofiel** het hardwareprofiel dat u in stap 2 hebt geselecteerd.
-8.  Click **Save**.
-9.  Klik op **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributieplanning**.
+8.  Klik op **Opslaan**.
+9.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 10. Selecteer de distributieplanning **1090** en klik vervolgens op **Nu uitvoeren** om wijzigingen in het POS te synchroniseren.
 
 ### <a name="use-a-stand-alone-shift"></a>Een zelfstandige ploeg gebruiken
@@ -62,19 +65,19 @@ Een zelfstandige ploeg wordt aangewezen op het niveau van de kassalade. In deze 
 **Opmerking:** andere activiteiten zijn beschikbaar tijdens de ploeg, afhankelijk van de bedrijfsprocessen die aanwezig zijn. De bewerkingen **Kluisstorting**, **Bankstorting** en **Kascontrole** kunnen worden gebruikt voor het verwijderen van geld uit de kassa gedurende de dag of voordat de ploeg wordt gesloten. Als nog maar weinig geld in een kassa zit, kan de bewerking **Wisselgeldinvoer** worden gebruikt om geld toe te voegen aan de kassa.
 
 ## <a name="shared-shifts"></a>Gedeelde ploegen
-Een gedeelde ploeg wordt gebruikt in een omgeving waarin meerdere kassamedewerkers een kassalade of een reeks kassalades delen gedurende de werkdag. Een gedeelde ploeg wordt meestal gebruikt in mobiele POS-omgevingen. In een mobiele omgeving is elke kassamedewerker niet toegewezen aan en verantwoordelijk is voor een enkele kassalade. In plaats daarvan moeten alle kassamedewerkers een verkoop kunnen afhandelen en geld kunnen toevoegen aan de kassalade die zich het dichtst bij hen bevindt. In dit scenario worden de kassalades die worden gedeeld door kassamedewerkers opgenomen in een gedeelde ploeg. Alle kassalades in een gedeelde ploeg zijn opgenomen in de dezelfde ploeg ten behoeve van de activiteiten die betrekking hebben op kasbeheer voor die ploeg. Daarom moet het beginbedrag van de ploeg het totaal van alle geld in alle kassalades omvatten die zijn opgenomen in de gedeelde ploeg. Op vergelijkbare wijze is de kascontrole het totaal van alle geld in alle kassalades die zijn opgenomen in de gedeelde ploeg. **opmerking:** slechts één gedeelde shift kan zijn geopend op een tijdstip in elke winkel. Gedeelde ploegen en zelfstandige ploegen kunnen worden gebruikt in dezelfde winkel.
+Een gedeelde ploeg wordt gebruikt in een omgeving waarin meerdere kassamedewerkers een kassalade of een reeks kassalades delen gedurende de werkdag. Een gedeelde ploeg wordt meestal gebruikt in mobiele POS-omgevingen. In een mobiele omgeving is elke kassamedewerker niet toegewezen aan en verantwoordelijk is voor een enkele kassalade. In plaats daarvan moeten alle kassamedewerkers een verkoop kunnen afhandelen en geld kunnen toevoegen aan de kassalade die zich het dichtst bij hen bevindt. In dit scenario worden de kassalades die worden gedeeld door kassamedewerkers opgenomen in een gedeelde ploeg. Alle kassalades in een gedeelde ploeg zijn opgenomen in de dezelfde ploeg ten behoeve van de activiteiten die betrekking hebben op kasbeheer voor die ploeg. Daarom moet het beginbedrag van de ploeg het totaal van alle geld in alle kassalades omvatten die zijn opgenomen in de gedeelde ploeg. Op vergelijkbare wijze is de kascontrole het totaal van alle geld in alle kassalades die zijn opgenomen in de gedeelde ploeg. **Opmerking:** In elke winkel kan telkens slechts één gedeelde shift tegelijk zijn geopend. Gedeelde ploegen en zelfstandige ploegen kunnen worden gebruikt in dezelfde winkel.
 
 ### <a name="set-up-a-shared-shift"></a>Een gedeelde ploeg instellen
 
-1.  Klik op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**hardwareprofielen**.
+1.  Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
 2.  Selecteer het hardwareprofiel dat moet worden gebruikt voor de gedeelde ploeg.
 3.  Stel op het sneltabblad **Lade** de optie **Gedeelde ploeglade** in op **Ja**.
-4.  Click **Save**.
-5.  Klik op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**registreert**.
+4.  Klik op **Opslaan**.
+5.  Klik op **Detailhandel en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**.
 6.  Selecteer de kassa waarvoor een gedeelde ploeg is vereist en klik vervolgens op **Bewerken**.
 7.  Selecteer in het veld **Hardwareprofiel** het hardwareprofiel dat u in stap 2 hebt geselecteerd.
-8.  Click **Save**.
-9.  Klik op **detailhandel en commerce**&gt;**detailhandel IT**&gt;**distributieplanning**.
+8.  Klik op **Opslaan**.
+9.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 10. Selecteer de distributieplanning **1090** en klik vervolgens op **Nu uitvoeren** om wijzigingen in het POS te synchroniseren.
 
 ### <a name="use-a-shared-shift"></a>Een gedeelde ploeg gebruiken
@@ -93,6 +96,8 @@ Een gedeelde ploeg wordt gebruikt in een omgeving waarin meerdere kassamedewerke
 8.  Nadat u het contante geld hebt verwijderd uit de laatste kassalade, telt u alle geld uit alle kassalades.
 9.  Gebruik de bewerking **Kas controleren** om het totale bedrag aan contant geld van alle kassalades die zijn opgenomen in de gedeelde ploeg aan te geven.
 10. Gebruik de bewerking **Ploeg sluiten** om de gedeelde ploeg te sluiten.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Btw-berekeningsmethoden in het veld Oorsprong
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel beschrijft de opties in het veld Oorsprong op de btw-codespagina en hoe de btw op basis van de geselecteerde optie voor een btw-code wordt berekend.
 
 Voor elke btw-code die u in de pagina Btw-codes maakt, selecteert u welke berekeningsmethode moet worden toegepast op het btw-basisbedrag in het veld Oorsprong.
@@ -124,5 +127,7 @@ Document / journaal is ingesteld op Bedragen inclusief BTW = Nee Transactieregel
 [Btw-tarieven bepalen op basis van de velden Marginale basis en Berekeningsmethode](marginal-base-field.md)
 
 [Berekeningsopties Volledige bedrag en Interval voor btw-codes](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

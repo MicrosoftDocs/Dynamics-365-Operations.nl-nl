@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Taakplanning
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over taakplanning. Dit is een gedetailleerdere vorm van planning dan bewerkingsplanning. U kunt taakplanning gebruiken om afzonderlijke taken of winkelorders te plannen en om de productieomgeving te beheren.
 
 U kunt taakplanning gebruiken om afzonderlijke taken of winkelorders te plannen en om de productieomgeving te beheren. Taakplanning verdeelt elke bewerking onder in de afzonderlijke taken. Deze taken worden vervolgens toegewezen de bronnen voor bedrijfsactiviteiten die deze zullen uitvoeren. Met taakplanning kunt u ook alle taken synchroniseren waarnaar wordt verwezen door de geselecteerde taak. U kunt een begindatum en -tijd en een einddatum en -tijd opgeven voor de taak en vervolgens de planning uitvoeren. De tijd die u hebt opgegeven kan de begintijd of eindtijd zijn, afhankelijk van de planningsrichting. Deze functionaliteit is bijvoorbeeld handig wanneer een taak enkel kan worden uitgevoerd op één machine tegelijk of wanneer u de uitgevoerde taak voor elke resource wilt optimaliseren.
@@ -39,7 +42,7 @@ Het taakplanningsproces omvat de volgende taken:
 -   Bewerkingen opsplitsen in taken.
 -   Taken plannen op basis van de datums en tijden voor de resources die zijn opgegeven voor de bijbehorende bewerking.
 -   Begintijd en eindtijd berekenen voor elke taak. Met eindige capaciteit kunt u ervoor zorgen dat er geen overlappende tijden zijn.
--   Bepalen met welke resources in de resourcegroep de taak wordt uitgevoerd. Deze taak moet een resourcegroep worden opgegeven voor een bewerking. Taakplanning selecteert de resources of resourcegroepen op basis van de kortste levertijd en houdt ook rekening met alle vorige reserveringen op de resources.
+-   Bepalen met welke resources in de resourcegroep de taak wordt uitgevoerd. Voor deze taak moet een resourcegroep worden opgegeven voor een bewerking. Taakplanning selecteert de resources of resourcegroepen op basis van de kortste levertijd en houdt ook rekening met alle vorige reserveringen op de resources.
 -   Bewerkingen in taken exploderen wanneer u taakplanning uitvoert. De taken worden gepland op datum en tijd, afhankelijk van de volgorde die is opgegeven in de productieroute. De instellingen van de bewerking bepalen de taken die worden geëxplodeerd tijdens het planningsproces. De routegroep die is toegewezen aan de bewerking, bepaalt of taken worden gegenereerd. Een taak wordt alleen gegenereerd als deze een bepaalde duur heeft. Een transporttijdtaak wordt bijvoorbeeld gegenereerd als er een transporttijd is opgegeven voor de geselecteerde bewerking.
 
 ## <a name="scheduling-direction"></a>Planningsrichting
@@ -73,5 +76,7 @@ Tijdens het taakplanningsproces worden taken aan resources toegewezen. U kunt de
 
 ## <a name="resource-efficiency"></a>Efficiëntie van resources
 In de taakplanning wordt ook gebruikgemaakt van de efficiëntiepercentages die voor de resources zijn opgegeven. Met efficiëntiepercentages neemt de tijd toe of af die voor de resource is gereserveerd. Als gevolg daarvan neemt ook de doorlooptijd toe of af. De volgende formule wordt gebruikt voor de berekening: Planningstijd = Tijd × 100 ÷ Efficiëntiepercentage. In deze formule omvat *Tijd* zowel de uitvoerings- als insteltijd.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Analyse kostprijsboekhouding Power BI-inhoud
-description: Dit onderwerp wordt beschreven wat wordt opgenomen in de kostprijsboekhouding analyse Power BI-inhoud. Deze wordt uitgelegd hoe u toegang tot de rapporten Power BI en informatie over het gegevensmodel en entiteiten die zijn gebruikt voor het bouwen van de inhoud.
+title: Power BI-inhoud voor analyse van kostprijsboekhouding
+description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor kostprijsboekhoudingsanalyse. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-04-04
@@ -24,90 +24,90 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-analysis-power-bi-content"></a>Analyse kostprijsboekhouding Power BI-inhoud
+# <a name="cost-accounting-analysis-power-bi-content"></a>Power BI-inhoud voor analyse van kostprijsboekhouding
 
-Dit onderwerp wordt beschreven wat wordt opgenomen in de kostprijsboekhouding analyse Power BI-inhoud. Deze wordt uitgelegd hoe u toegang tot de rapporten Power BI en informatie over het gegevensmodel en entiteiten die zijn gebruikt voor het bouwen van de inhoud.
+In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor kostprijsboekhoudingsanalyse. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 <a name="overview"></a>Overzicht
 --------
 
-De **Analyse kostprijsboekhouding** Microsoft Power BI-inhoud is bedoeld voor kosten-domeincontrollers of iemand anders die verantwoordelijk is voor het uitvoeren van de kosten van een organisatie te beheren. Bevat de essentiële gegevens, zoals kosten, grootte en kostentarief door werkelijke kosten, budgetkosten en flexibele budgetkosten. Deze transactiegegevens uit kostprijsboekhouding worden gebruikt in Microsoft Dynamics 365 voor bewerkingen en geeft een samengevoegde weergave van kosten voor de hele organisatie in een rapportagevaluta. Managers kunnen de gegevens filteren op kostenobjecten uit te voeren kostenbeheer van hun organisatie-eenheden, zelfs als de organisatie meerdere rechtspersonen kan zijn. Omdat de **Analyse kostprijsboekhouding** Power BI inhoud gemarkeerd afwijkingen tussen de werkelijke en gebudgetteerde kosten managers kunnen worden gewaarschuwd over positieve en negatieve trends voor hun operationele eenheden. Managers kunnen inzoomen op de kosten element hiërarchieën of afzonderlijke kostenelementen inzicht te verwerven gedetailleerde in hoe kostenafwijkingen hebben plaatsgevonden, en dan doeltreffende actie ondernemen. De **Analyse kostprijsboekhouding** Power BI inhoud laten accountants kosten analyseren hoe kosten stromen door de kostenobjecten van de hele organisatie. Zie voor meer informatie over kostprijsboekhouding, [startpagina kostprijsboekhouding](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Als u beveiliging op recordniveau toegang in kostprijsboekhouding definieert en combineert met beveiliging op in Power BI, u kunt alle kosten van objecteigenaren toegang verlenen tot de **Analyse kostprijsboekhouding** Power BI-inhoud. Alle gegevens in de visualisaties wordt vervolgens gefilterd op het toegangsniveau dat in de kostprijsboekhouding wordt geregeld. Zie voor meer informatie over beveiliging op recordniveau toegang en beveiliging op [beveiliging instellen voor kostprijsboekhouding inhoud voor Power BI](setup-security-cost-accounting-content-pack.md).
+De Microsoft Power BI-inhoud voor **Analyse kostprijsboekhouding** is bedoeld voor kostencontrollers of iemand anders die verantwoordelijk is voor het uitvoeren van het kostenbeheer van een organisatie. Het bevat de belangrijkste metrische gegevens, zoals kosten, magnitude en kostentarief op basis van werkelijke kosten, budgetkosten en flexibele budgetkosten. Hierin worden transactiegegevens uit de kostprijsboekhouding in Microsoft Dynamics 365 for Operations gebruikt en wordt een samengevoegde weergave van kosten verschaft voor de gehele organisatie in één rapportagevaluta. Managers kunnen de gegevens filteren op basis van kostenobjecten om kostenbeheer van hun organisatie-eenheden uit te voeren, zelfs als de organisatie meerdere rechtspersonen heeft. Omdat de Power BI-inhoud voor **Analyse kostprijsboekhouding** afwijkingen tussen de werkelijke en gebudgetteerde kosten markeert, kunnen managers worden geïnformeerd over positieve en negatieve trends voor hun operationele eenheden. Managers kunnen inzoomen op de kostenelementhiërarchieën of op afzonderlijke kostenelementen om een gedetailleerd inzicht te verwerven in hoe kostenafwijkingen hebben plaatsgevonden. Vervolgens kunnen ze doeltreffende actie ondernemen. Met de Power BI-inhoud voor **Analyse kostprijsboekhouding** kunnen accountants analyseren hoe kosten de kostenobjecten van de gehele organisatie doorlopen. Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhouding](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau [Beveiliging instellen voor kostprijsboekhoudingsinhoud voor Power BI](setup-security-cost-accounting-content-pack.md).
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de content Power BI
-U vindt de **Analyse kostprijsboekhouding** Power BI-inhoud in de bibliotheek met gedeelde elementen in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over het downloaden van de inhoud en deze verbinden met uw Dynamics 365 voor bewerkingen gegevens [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). **opmerking:** KB4011327 ** ** is vereist voor de **Analyse kostprijsboekhouding** Power BI-inhoud.  Nadat u zich bij Lifecycle Services aanmeldt, kunt u de KB hier openen: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
+U vindt de Power BI-inhoud voor **Kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en koppelt aan uw Microsoft Dynamics 365 for Operations-gegevens [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). **Opmerking:** KB4011327 is een vereiste voor de Power BI-inhoud voor **Analyse kostprijsboekhouding**.  Nadat u zich bij Lifecycle Services hebt aangemeld, kunt u de KB hier openen: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Prestatiegegevens die zijn opgenomen in de Power BI-inhoud
-De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set parameters die worden weergegeven als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de **Analyse kostprijsboekhouding** Power BI-inhoud.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
+De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set metrische gegevens die worden gevisualiseerd als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de Power BI-inhoud voor **Analyse kostprijsboekhouding**.
 
-| Rapportpagina.                      | Diagram                                                                                                                         | Tegel                                          |
+| Rapportpagina                      | Diagram                                                                                                                         | Tegel                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Kostenbeheer per boekingsperiode    | Werkelijke kosten en budgetkosten op kosten element hiërarchieniveau                                                                   | Werkelijke kosten versus gebudgetteerde kosten                    |
-|                                  | Budget variantie op basis van kosten element hiërarchieniveau                                                                               | Werkelijke kosten tarief vs budget tarieven          |
-|                                  | Top 10 budgetafwijking in procenten door kosten-element                                                                          | Werkelijke grootte vs budget grootte          |
-| Kostenbeheer per jaar tot heden     | Werkelijke kosten en budgetkosten per kalenderjaar periode                                                                           | Werkelijke kosten versus gebudgetteerde kosten                    |
-|                                  | Budgetafwijking per kalenderjaar periode                                                                                       | Werkelijke kosten tarief vs budget tarieven          |
-|                                  | Top 10 budgetafwijking in procenten door kosten-element                                                                          | Werkelijke grootte vs budget grootte          |
-| Kostentarief op fiscaal jaar         | Werkelijke kostentarief door kosten gedrag                                                                                             | Werkelijke kosten tarief vs budget tarieven          |
-|                                  | Tarief voor werkelijke kosten, gebudgetteerde kosten Koersafwijkingen, gebudgetteerde kosten percentage voor en budget kostentarief door kosten element hiërarchieniveau | Werkelijke grootte vs budget grootte          |
-|                                  | Budget variantie op basis van kosten element hiërarchieniveau                                                                               |                                               |
-|                                  | Top 10 budgetafwijking in procenten door kosten-element                                                                          |                                               |
-| Flexibel budget per boekingsperiode | Werkelijke kosten, budgetkosten en flexibele budgetkosten op kosten element hiërarchieniveau                                             | Werkelijke grootte vs budget grootte          |
-|                                  | Budgetafwijking en flexibele budget variantie op basis van kosten element hiërarchieniveau                                                  | Werkelijke kosten versus flexibele budgetkosten           |
-|                                  | Werkelijke kosten, budgetkosten en flexibele kosten door gedrag kosten en de element-hiërarchieniveau                                  | Kostentarief voor werkelijke kosten tarief vs flexibel budget |
-| Kostenoverzicht per boekingsperiode  | Werkelijke kosten per element hiërarchieniveau kosten en de objectnaam dimensie lid                                             |                                               |
-|                                  | Werkelijke kosten per dimensie kosten-lid objectnaam en dimensie kosten-lid elementnaam                                       |                                               |
+| Kostenbeheer per boekperiode    | Werkelijke kosten en budgetkosten per hiërarchieniveau kostenelement                                                                   | Werkelijke kosten versus budgetkosten                    |
+|                                  | Budgetafwijking per hiërarchieniveau kostenelement                                                                               | Tarief werkelijke kosten versus tarief budgetkosten          |
+|                                  | Top 10 budgetafwijkingen in percentage per kostenelement                                                                          | Werkelijke magnitude versus budgetmagnitude          |
+| Kostenbeheer per jaar tot heden     | Werkelijke kosten en budgetkosten per kalenderjaarperiode                                                                           | Werkelijke kosten versus budgetkosten                    |
+|                                  | Budgetafwijking per kalenderjaarperiode                                                                                       | Tarief werkelijke kosten versus tarief budgetkosten          |
+|                                  | Top 10 budgetafwijkingen in percentage per kostenelement                                                                          | Werkelijke magnitude versus budgetmagnitude          |
+| Kostentarief per boekjaar         | Tarief werkelijke kosten per kostengedrag                                                                                             | Tarief werkelijke kosten versus tarief budgetkosten          |
+|                                  | Tarief werkelijke kosten, afwijking tarief budgetkosten, percentage voor tarief budgetkosten en tarief budgetkosten per hiërarchieniveau kostenelement | Werkelijke magnitude versus budgetmagnitude          |
+|                                  | Budgetafwijking per hiërarchieniveau kostenelement                                                                               |                                               |
+|                                  | Top 10 budgetafwijkingen in percentage per kostenelement                                                                          |                                               |
+| Flexibel budget per boekperiode | Werkelijke kosten, budgetkosten en flexibele budgetkosten per hiërarchieniveau kostenelement                                             | Werkelijke magnitude versus budgetmagnitude          |
+|                                  | Budgetafwijking en flexibele budgetafwijking per hiërarchieniveau kostenelement                                                  | Werkelijke kosten versus flexibele budgetkosten           |
+|                                  | Werkelijke kosten, budgetkosten en flexibele kosten per kostengedrag en hiërarchieniveau kostenelement                                  | Tarief werkelijke kosten versus tarief flexibele budgetkosten |
+| Kostenoverzicht per boekperiode  | Werkelijke kosten per hiërarchieniveau kostenelement en dimensielidnaam kostenobject                                             |                                               |
+|                                  | Werkelijke kosten per dimensielidnaam kostenobject en dimensielidnaam kostenelement                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-Dynamics 365 voor bewerkingen gegevens wordt gebruikt voor het vullen van de rapportpagina's de **Analyse kostprijsboekhouding** Power BI-inhoud. Deze gegevens wordt vertegenwoordigd door statistische metingen die worden klaargezet in het archief entiteit is een Microsoft SQL-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [overzicht Power BI-integratie met entiteit winkel](power-bi-integration-entity-store.md). De volgende belangrijke statistische metingen worden gebruikt als basis voor de inhoud.
+Dynamics 365 for Operations-gegevens worden gebruikt voor het vullen van de rapportpagina's in de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de Entiteitopslag. Dit is een Microsoft SQL-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md). De volgende belangrijke samengevoegde metingen worden gebruikt als de basis van de inhoud.
 
-| Entiteit                  | Belangrijke statistische meting | Gegevensbron voor Dynamics 365 for Operations | Veld     | Omschrijving                                   |
+| Entiteit                  | Belangrijke samengevoegde meting | Gegevensbron voor Dynamics 365 for Operations | Veld     | Omschrijving                                   |
 |-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Posten voor kostprijsboekhouding | SUM(Amount)               | CAMDATAAggregatedCostEntry                  | Bedrag    | Bedrag in de valuta voor het grootboek van kostprijsboekhouding |
-| Statistische boekingen     | SUM(MAGNITUDE)            | CAMDATAAggregatedStatisctialEntry           | Magnitude |                                               |
+| Kostprijsboekhoudingsposten | SUM(Amount)               | CAMDATAAggregatedCostEntry                  | Bedrag    | Bedrag in de grootboekvaluta voor de kostprijsboekhouding |
+| Statistische boekingen     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry           | Magnitude |                                               |
 
-De volgende tabel ziet hoe de belangrijkste statistische metingen worden gebruikt voor verschillende berekende eenheden maken in de inhoud van de gegevensset.
+In de volgende tabel ziet u hoe de belangrijkste samengevoegde metingen worden gebruikt om verschillende berekende eenheden te maken in de gegevensset van de inhoud.
 
-| Maat                                       | Hoe de maateenheid wordt berekend                                                                                          |
+| Maat                                       | Hoe de meting wordt berekend                                                                                          |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| Werkelijke kosten                                   | BEREKENEN ('Cost accounting vermeldingen'\[eenheid\], transactie-versies\[ISSOURCEVERSIONBUDGET\_waarde\] = 0)            |
-| Kosten volgens budget                                   | BEREKENEN ('Cost accounting vermeldingen'\[eenheid\], transactie-versies\[ISSOURCEVERSIONBUDGET\_waarde\] = 1)            |
-| Budgetkosten afwijking                          | \[budget kosten\] - \[werkelijke kosten\]                                                                                      |
-| Afwijkingspercentage van budget                    | IF (\[gebudgetteerde kosten\] = 0, blank(), \[budgetafwijking\] / \[gebudgetteerde kosten\])                                                |
-| Werkelijke grootte                              | BEREKENEN ('Statistische vermeldingen'\[FullMagnitude\], transactie-versies\[ISSOURCEVERSIONBUDGET\_waarde\] = 0)          |
-| Grootte budget                              | BEREKENEN (\[FullMagnitude\], transactie-versies\[ISSOURCEVERSIONBUDGET\_waarde\] = 1)                               |
-| Statistische budgetafwijking                   | \[Grootte budget\] - \[werkelijke grootte\]                                                                            |
-| Afwijkingspercentage statistische budget        | IF (\[budget grootte\] = 0, blank(), \[statistische budgetafwijking\] / \[budget grootte\])                          |
-| Werkelijke kostentarief                              | IF (\[werkelijke grootte\] = 0, BLANK(), \[werkelijke kosten\] / \[werkelijke grootte\])                                          |
-| Budgetkostentarief                              | IF (\[budget grootte\] = 0, BLANK(), \[gebudgetteerde kosten\] / \[budget grootte\])                                          |
-| Koersafwijkingen budgetkosten                     | \[budget kostentarief\] - \[Werkelijk kostentarief\]                                                                            |
-| Budgetkosten tarief afwijkingspercentage          | IF (\[gebudgetteerde kosten\] = 0, blank(), \[gebudgetteerde kosten Koersafwijkingen\] / \[budget kostentarief\])                                 |
-| Gebudgetteerde vaste kosten                             | BEREKENEN (\[gebudgetteerde kosten\], 'kosten accounting vermeldingen'\[COSTBEHAVIOR\] = 1)                                              |
-| Variabele gebudgetteerde kosten                          | BEREKENEN (\[gebudgetteerde kosten\], 'kosten accounting vermeldingen'\[COSTBEHAVIOR\] = 2)                                              |
-| Vaste flexibele budgetkosten                    | \[Gebudgetteerde vaste kosten\]                                                                                                  |
-| Variabele flexibele budgetkosten                 | IF (\[budget grootte\] = 0, BLANK(), (\[variabele gebudgetteerde kosten\] / \[budget grootte\]) \*\[werkelijke grootte\])       |
-| Flexibele budgetkosten                          | \[Flexibele budgetkosten vaste\] + \[variabele flexibele budgetkosten\]                                                     |
-| Flexibel budgetafwijking                      | \[Flexibele budgetkosten\] - \[werkelijke kosten\]                                                                             |
-| Afwijkingspercentage flexibel budget           | IF (\[flexibele budgetkosten\] = 0, BLANK(), \[flexibel budgetafwijking\] / \[flexibele budgetkosten\])                     |
-| Flexibele budgetkosten tarief                     | IF (\[werkelijke grootte\] = 0, BLANK(), \[flexibele budgetkosten\] / \[werkelijke grootte\])                                 |
-| Koersafwijkingen flexibele budgetkosten            | \[kostentarief flexibel budget\] - \[Werkelijk kostentarief\]                                                                   |
-| Flexibel budget kosten tarief afwijkingspercentage | IF (\[kostentarief flexibel budget\] = 0, BLANK(), \[flexibel budget Koersafwijkingen kosten\] / \[kostentarief flexibel budget\]) |
+| Werkelijke kosten                                   | CALCULATE('Kostprijsboekhoudingsposten'\[Measure\], 'Transactieversies'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)            |
+| Kosten volgens budget                                   | CALCULATE('Kostprijsboekhoudingsposten'\[Measure\], 'Transactieversies'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)            |
+| Budgetkostenafwijking                          | \[Budgetkosten\] - \[Werkelijke kosten\]                                                                                      |
+| Budgetafwijkingspercentage                    | IF(\[Budgetkosten\] = 0, blank(), \[Budgetafwijking\] / \[Budgetkosten\])                                                |
+| Werkelijke magnitude                              | CALCULATE('Statistische boekingen'\[FullMagnitude\], 'Transactieversies'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)          |
+| Budgetmagnitude                              | CALCULATE(\[FullMagnitude\], 'Transactieversies'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)                               |
+| Statistische budgetafwijking                   | \[Budgetmagnitude\] - \[Werkelijke magnitude\]                                                                            |
+| Statistisch budgetafwijkingspercentage        | IF(\[Budgetmagnitude\] = 0, blank(), \[Statistische budgetafwijking\] / \[Budgetmagnitude\])                          |
+| Werkelijke kostentarief                              | IF(\[Werkelijke magnitude\] = 0, BLANK(), \[Werkelijke kosten\] / \[Werkelijke magnitude\])                                          |
+| Budgetkostentarief                              | IF(\[Budgetmagnitude\] = 0, BLANK(), \[Budgetkosten\] / \[Budgetmagnitude\])                                          |
+| Afwijking budgetkostentarief                     | \[Tarief budgetkosten\] - \[tarief werkelijke kosten\]                                                                            |
+| Percentage afwijking budgetkostentarief          | IF(\[Budgetkosten\] = 0, blank(), \[Afwijking budgetkostentarief\] / \[Tarief budgetkosten\])                                 |
+| Vaste budgetkosten                             | CALCULATE(\[Budgetkosten\], 'Kostprijsboekhoudingsposten'\[COSTBEHAVIOR\] = 1)                                              |
+| Variabele budgetkosten                          | CALCULATE(\[Budgetkosten\], 'Kostprijsboekhoudingsposten'\[COSTBEHAVIOR\] = 2)                                              |
+| Vaste flexibele budgetkosten                    | \[Vaste budgetkosten\]                                                                                                  |
+| Variabele flexibele budgetkosten                 | IF(\[Budgetmagnitude\] = 0, BLANK(), (\[Variabele budgetkosten\] / \[Budgetmagnitude\]) \* \[Werkelijke magnitude\])       |
+| Flexibele budgetkosten                          | \[Vaste flexibele budgetkosten\] + \[variabele flexibele budgetkosten\]                                                     |
+| Afwijking flexibel budget                      | \[Flexibele budgetkosten\] - \[Werkelijke kosten\]                                                                             |
+| Percentage afwijking flexibel budget           | IF (\[Flexibele budgetkosten\] = 0, BLANK(), \[Afwijking flexibel budget\] / \[Flexibele budgetkosten\])                     |
+| Tarief flexibele budgetkosten                     | IF(\[Werkelijke magnitude\] = 0, BLANK(), \[Flexibele budgetkosten\] / \[Werkelijke magnitude\])                                 |
+| Afwijking tarief flexibele budgetkosten            | \[Tarief flexibele budgetkosten\] - \[Tarief werkelijke kosten\]                                                                   |
+| Percentage afwijking van tarief flexibele budgetkosten | IF (\[Tarief flexibele budgetkosten\] = 0, BLANK(), \[Afwijking tarief flexibele budgetkosten\] / \[Tarief flexibele budgetkosten\]) |
 
-De volgende belangrijke dimensies worden gebruikt als filters voor het segmenteren van de statistische metingen grotere mate van granulatie bereiken en meer analytische inzicht bieden.
+De volgende belangrijke dimensies worden gebruikt als filters voor het segmenteren van de samengevoegde metingen om een grotere mate van granulatie te bereiken en analytischere inzichten te bieden.
 
 | Entiteit                             | Voorbeelden van kenmerken                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Grootboeken van kostprijsboekhouding            | Grootboek van kostprijsboekhouding                                                                                               |
 | Kostenbeheereenheden                 | Naam van kostenbeheereenheid                                                                                               |
-| Dimensies van kostenelement            | Kosten elementen dimension naam, naam dimensielid kosten element, kosten element dimensie lid omschrijving          |
-| Dimensies van kostenobject             | Dimensienaam kostenobject, dimensie kosten-lid objectnaam, dimensie kosten-lid objectomschrijving              |
-| Statistische dimensies             | Statistische dimensienaam, statistische dimensie lidnaam, omschrijving voor de statistische artikeldimensie lid              |
-| Dimensiehiërarchieën kostendrager  | Hiërarchie van de objectnaam dimensie kosten, kosten object dimensie-hiërarchieniveau, kosten object dimensiehiërarchiestructuur    |
-| Kosten element dimensiehiërarchieën | Hiërarchie van de elementnaam dimensie kosten, kosten element dimensie-hiërarchieniveau, kosten element dimensiehiërarchiestructuur |
-| Statistische dimensiehiërarchieën  | Hiërarchie van statistische dimensienaam, statistische dimensie-hiërarchieniveau, statistische dimensiehiërarchiestructuur    |
+| Dimensies van kostenelement            | Dimensienaam kostenelementen, dimensielidnaam kostenelement en dimensielidbeschrijving kostenelement          |
+| Dimensies van kostenobject             | Dimensienaam kostenobject, dimensielidnaam kostenobject en dimensielidbeschrijving kostenobject              |
+| Statistische dimensies             | Statistische dimensienaam, statistische dimensielidnaam, statistische dimensielidbeschrijving              |
+| Dimensiehiërarchieën kostenobject  | Hiërarchienaam kostenobjectdimensie, hiërarchieniveau kostenobjectdimensie, hiërarchiestructuur kostenobjectdimensie    |
+| Hiërarchieën kostenelementdimensie | Hiërarchienaam kostenelementdimensie, hiërarchieniveau kostenelementdimensie, hiërarchiestructuur kostenelementdimensie |
+| Statistische dimensiehiërarchieën  | Hiërarchienaam statistische dimensie, hiërarchieniveau statistische dimensie, hiërarchiestructuur statistische dimensie    |
 | Transactieversies               | Versienaam                                                                                                         |
-| Fiscale kalenders                   | Kalender, kalender-omschrijving                                                                                       |
-| Fiscale jaren                       | Kalenderjaar                                                                                                        |
-| Boekperioden                     | Kalenderjaar periode                                                                                                 |
+| Fiscale kalenders                   | Kalender, kalenderomschrijving                                                                                       |
+| Boekjaren                       | Kalenderjaar                                                                                                        |
+| Boekperioden                     | Kalenderjaarperiode                                                                                                 |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten en het samenstellen van Power BI-content:
@@ -116,6 +116,6 @@ Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten e
 -   [Organisatorische inhoudpakketten maken](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI-tegels toevoegen aan werkruimten](configure-power-bi-integration.md)
--   [Beveiliging voor inhoud van de kostprijsboekhouding instellen voor Power BI](setup-security-cost-accounting-content-pack.md)
+-   [Beveiliging instellen voor kostprijsboekhoudingsinhoud voor Power BI](setup-security-cost-accounting-content-pack.md)
 
 

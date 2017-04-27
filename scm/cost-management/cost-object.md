@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>Kostenobjecten
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over kostenobjecten en uitleg over hoe kosten en hoeveelheden worden samengevoegd. Een kostenopject is een entiteit waarvoor kosten en hoeveelheden worden samengevoegd. Een kostenobjectentiteit kan een product of productvarianten, zoals varianten voor stijl en kleur, zijn.  
 
 <a name="cost-objects"></a>Kostenobjecten
@@ -65,19 +68,21 @@ De volgende tabel toont wat een kostenobject is en wat een voorraadobject is.
     -   Boekingshoeveelheid
 -   Het veld **Gemiddelde eenheidskosten** is een berekend veld. De waarde wordt berekend door de waarde **Waarde** te delen door de waarde **Hoeveelheid**.
 
-**opmerking:** de ** fysieke waarde opnemen ** parameter heeft geen effect op de voorgaande berekeningen.
+**Opmerking:** de parameter Fysieke waarde opnemen is niet van invloed op de eerdere berekeningen.
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Productdimensiegroep](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Opslagdimensiegroep](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Traceringsdimensiegroep](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Wat is nieuw of gewijzigd in Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Nieuwe of gewijzigde functies in Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[Kosteninvoer](cost-entries.md)
+
+
 
 

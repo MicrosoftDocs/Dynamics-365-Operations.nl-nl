@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Overzicht van geavanceerde bankafstemming
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt de stroom voor het geavanceerde bankafstemmingsproces beschreven. Met de geavanceerde bankafstemmingsfunctie kunt u bankafschriften importeren die automatisch kunnen worden afgestemd vanuit banktransacties.
 
 Met de functie voor geavanceerde bankafstemming kunt u bankafschriften importeren. Het geïmporteerde bankafschrift kan vervolgens automatisch in banktransacties worden afgestemd. Hier vindt u de stappen in de geavanceerde bankafstemmingsstroom.
@@ -38,13 +41,15 @@ Met de functie voor geavanceerde bankafstemming kunt u bankafschriften importere
     -   De functionaliteit kan naar iedere indeling worden uitgebreid.
 
 2.  Stel een nummerreeks in die moet worden gebruikt voor geavanceerde bankafstemming en definieer de afstemmingsregels voor bankafstemming.
-    -   Afstemmingsregel voor bankafstemming is een reeks criteria die worden gebruikt voor het filteren van regels van bankafschriften en Microsoft Dynamics 365 op transactieregels van de bank bewerkingen tijdens het afstemmingsproces. U kunt meer dan één overeenkomende regel automatiseren en optimaliseren van uw afstemmingsproces instellen, afhankelijk van uw zakelijke verkeer.
+    -   Een afstemmingsregel is een reeks criteria die worden gebruikt om regels van bankafschriften en banktransactieregels van Microsoft Dynamics 365 for Operations te filteren tijdens het afstemmingsproces. Afhankelijk van uw bedrijfspraktijk kunt u meerdere afstemmingsregels instellen om uw afstemmingsproces te automatiseren en te optimaliseren.
 
-3.  Bankafschriften afstemmen met Dynamics 365 voor bewerkingen banktransacties.
+3.  Stem bankafschriften af met de banktransacties van Dynamics 365 for Operations.
     -   Voer automatische afstemming en het maken van afstemmingsjournalen uit.
-    -   Bankafschriften bekijken en Dynamics 365 voor bewerkingen banktransacties naast elkaar.
-    -   Automatisch Dynamics 365 voor bewerkingen banktransacties boeken als ze worden weergegeven op een bankafschrift maar worden niet in Dynamics 365 voor bewerkingen weergegeven.
+    -   Geef bankafschriften en banktransacties van Dynamics 365 for Operations naast elkaar weer.
+    -   Boek banktransacties van Dynamics 365 for Operations automatisch als deze op een bankafschrift worden weergegeven, maar niet in Dynamics 365 for Operations.
     -   Genereer een afstemmingsafschrift.
+
+
 
 
 

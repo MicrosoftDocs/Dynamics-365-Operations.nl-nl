@@ -1,6 +1,6 @@
 ---
-title: "Één boekstuk en herwaardering van valuta-upgrade voor Microsoft Dynamics 365 voor bewerkingen versie 1611"
-description: "Sommige organisaties journalen met één boekstuk met meer dan één klant of leverancier, en ze ook voert u uit de module klanten of het herwaarderingsproces voor vreemde valuta te betalen rekeningen. Dit onderwerp beschrijft de stappen die deze organisaties volgen moeten wanneer ze een naar Microsoft Dynamics 365 voor bewerkingen versie 1611 upgrade."
+title: Upgrade voor enkel boekstuk en herwaardering van valuta voor Microsoft Dynamics 365 for Operations, versie 1611
+description: "Sommige organisaties voeren journalen in met een enkel boekstuk dat meer dan één klant of leverancier bevat, waarbij ze ook het herwaarderingsproces voor vreemde valuta voor klanten of leveranciers uitvoeren. In dit onderwerp worden de stappen beschreven die deze organisaties moeten volgen wanneer ze een upgrade uitvoeren naar Microsoft Dynamics 365 for Operations, versie 1611."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-28 16 - 04 - 17
@@ -24,15 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Één boekstuk en herwaardering van valuta-upgrade voor Microsoft Dynamics 365 voor bewerkingen versie 1611
+# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Upgrade voor enkel boekstuk en herwaardering van valuta voor Microsoft Dynamics 365 for Operations, versie 1611
 
-Sommige organisaties journalen met één boekstuk met meer dan één klant of leverancier, en ze ook voert u uit de module klanten of het herwaarderingsproces voor vreemde valuta te betalen rekeningen. Dit onderwerp beschrijft de stappen die deze organisaties volgen moeten wanneer ze een naar Microsoft Dynamics 365 voor bewerkingen versie 1611 upgrade.
+Sommige organisaties voeren journalen in met een enkel boekstuk dat meer dan één klant of leverancier bevat, waarbij ze ook het herwaarderingsproces voor vreemde valuta voor klanten of leveranciers uitvoeren. In dit onderwerp worden de stappen beschreven die deze organisaties moeten volgen wanneer ze een upgrade uitvoeren naar Microsoft Dynamics 365 for Operations, versie 1611.
 
-Voer deze stappen als u een naar Microsoft Dynamics 365 voor bewerkingen versie 1611 upgrade.
+Voer deze stappen uit als u een upgrade uitvoert naar Microsoft Dynamics 365 for Operations, versie 1611.
 
-1.  Voordat u een naar Dynamics 365 voor bewerkingen upgrade, moet u de processen van de herwaardering van vreemde valuta uitvoeren voor klanten en leveranciers. Stel de **methode** veld **factuurdatum**. Een herwaarderingstransactie gemaakt waarin de laatste herwaardering van vreemde valuta wordt omgekeerd. Daarom kan de openstaande transacties worden gewaardeerd tegen hun oorspronkelijke valuta voor boekhouding.
-2.  Een upgrade uitvoert naar Dynamics 365 voor bewerkingen versie 1611.
-3.  De module Klanten en de rekeningen te betalen vreemde valuta herwaardering processen opnieuw uitvoeren. Dit keer de **methode** veld **standaard**. Een nieuwe herwaarderingstransactie wordt gemaakt op basis van de huidige wisselkoersen. Deze transactie wordt vastgelegd op de niet-gerealiseerde winst/verlies- en de juiste grootboekrekening voor een overzicht.
+1.  Voordat u een upgrade naar Dynamics 365 for Operations uitvoert, moet u de processen voor herwaardering van vreemde valuta uitvoeren voor klanten en leveranciers. Stel het veld **Methode** in op **Factuurdatum**. Een herwaarderingstransactie wordt gemaakt waarin de laatste herwaardering van vreemde valuta wordt omgekeerd. Daarom worden de openstaande transacties gewaardeerd tegen hun oorspronkelijke boekhoudingsvaluta.
+2.  Voer een upgrade uit naar Dynamics 365 for Operations, versie 1611.
+3.  Voer de herwaardering van vreemde valuta voor zowel Leveranciers als Klanten opnieuw uit. Stel deze keer het veld **Methode** in op **Standaard**. Een nieuwe herwaarderingstransactie wordt gemaakt op basis van de huidige wisselkoersen. Deze transactie legt de niet-gerealiseerde winst/verlies vast en het juiste bedrag in het totaalgrootboek.
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Valutaherwaardering in een consolidatiebedrijf
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Wanneer u gegevens van een valuta voor boekhouding naar een andere consolideert, moet u herwaardering alsnog uitvoeren als er een wijziging in wisselkoersen is, zodat de rekeningsaldo's correct worden geherwaardeerd. Als u oorspronkelijk de gegevens consolideert, gebruik het **Valutaomzetting** tabblad om de oorspronkelijke wisselkoers te selecteren voor vertaling tijdens het consolidatieproces. Nadat een nieuwe wisselkoers (bijvoorbeeld in de volgende maand) is ingevoerd, moet u de rekeningsaldo's herwaarderen. De ongerealiseerde winst of verlies worden vervolgens overeenkomstig bijgewerkt, op basis van de nieuwe wisselkoers en datum. Het volgende voorbeeld illustreert de journaalregels die tijdens het proces zijn gemaakt.
@@ -33,7 +36,7 @@ Wanneer u gegevens van een valuta voor boekhouding naar een andere consolideert,
 ## <a name="company-setup"></a>Bedrijfsinstellingen
 -   **Bron/werken bedrijf (USMF)** - Amerikaanse dollars (USD) worden gebruikt als boekhouding- en aangiftevaluta.
 -   **Geconsolideerd bedrijf (CON)** Euro's (EUR) worden gebruikt als de boekhouding- en aangiftevaluta.
-    -   ** Gerealiseerde winst **: grootboekrekening 801500
+    -   Gerealiseerde winst – Grootboekrekening 801500
     -   **Gerealiseerd verlies**– Grootboekrekening 801600
     -   **Ongerealiseerde winst** - Grootboekrekening 801600
     -   **Ongerealiseerd verlies** - Grootboekrekening 801400
@@ -82,6 +85,8 @@ U kunt extra transacties voor de aangiftevalutabedragen zien.
 | 130100         | EUR      | -500,00 | Oorspronkelijk bedrag van -500 × 1                          |
 | 801400         | EUR      | 250     | 500 – 333.33 = 166.67 166.67 + 83.33 = 250           |
 | 801600         | EUR      | -250    | -500 – (-333.33) = -166.67 -166.67 + (-83.33) = -250 |
+
+
 
 
 

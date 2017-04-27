@@ -1,6 +1,6 @@
 ---
-title: Nieuwe taak handleidingen (februari 2016)
-description: Deze wiki geeft een overzicht van de taak instructies die zijn uitgebracht voor de Microsoft BPM-bibliotheken vanaf februari 2016.  De bibliotheken die zijn gepubliceerd (februari 2016) opnemen APQC centrale bibliotheek voor Microsoft Dynamics 365 voor bewerkingen en (februari 2016) aan de slag.
+title: Nieuwe taakbegeleidingen (februari 2016)
+description: Deze wiki geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics 365 for Operations (februari 2016) en Aan de slag (februari 2016).
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Nieuwe taak handleidingen (februari 2016)
+# <a name="new-task-guides-february-2016"></a>Nieuwe taakbegeleidingen (februari 2016)
 
-Deze wiki geeft een overzicht van de taak instructies die zijn uitgebracht voor de Microsoft BPM-bibliotheken vanaf februari 2016.  De bibliotheken die zijn gepubliceerd (februari 2016) opnemen APQC centrale bibliotheek voor Microsoft Dynamics 365 voor bewerkingen en (februari 2016) aan de slag.
+Deze wiki geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics 365 for Operations (februari 2016) en Aan de slag (februari 2016).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Taak handleidingen in (februari 2016) APQC centrale bibliotheek voor Microsoft Dynamics 365 voor bewerkingen
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Taakbegeleidingen in de APQC Unified Library (februari 2016) voor Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
 
-(Februari 2016) APQC centrale bibliotheek bevat de taak-instructies die worden gebruikt voor hulp bij de Dynamics 365 moeten voor bewerkingen 7.0.0 vrijgeven. Als u vertaalde versies van deze taak richtlijnen, ze zijn beschikbaar in (mei 2016) APQC centrale bibliotheek voor Microsoft Dynamics 365 voor bewerkingen. Zie voor meer informatie over het aansluiten van het help-systeem naar een bibliotheek taak handleiding [aan de slag met Help](help-overview.md).
+De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Dynamics 365 for Operations versie 7.0.0. Als u gelokaliseerde versies van deze taakbegeleidingen nodig hebt, zijn deze beschikbaar in de APQC Unified Library (mei 2016) voor Microsoft Dynamics 365 for Operations. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
 
 ### <a name="accounts-payable"></a>Leveranciers    
 
@@ -231,7 +231,7 @@ Deze wiki geeft een overzicht van de taak instructies die zijn uitgebracht voor 
 | Demonteerlijst voor vaste activa gebruiken                                                                  | Japan                           |
 | MX-00006 De btw-code instellen                                                                         | Mexico                          |
 | MX-00007 Klantregistratie-id's en andere informatie                                               | Mexico                          |
-| MX-00008: Leveranciersregistratie-id´s                                                                      | Mexico                          |
+| MX-00008: Leveranciersregistratie-id's                                                                      | Mexico                          |
 | MX-00010 Een elektronische factuur annuleren                                                                  | Mexico                          |
 | MX-00010 E-facturering CFDI                                                                              | Mexico                          |
 | MX-00010 Btw-registratie-ID's voor Mexicaanse rechtspersonen invoeren                                         | Mexico                          |
@@ -243,13 +243,13 @@ Deze wiki geeft een overzicht van de taak instructies die zijn uitgebracht voor 
 | MX-00020 Rekeningschema instellen voor een rechtspersoon in Mexico                                     | Mexico                          |
 | NL-00003 Semansys XBRL-integratie                                                                     | Nederland                     |
 | NL-00010 Elektronische belastingaangiften (EVAT)                                                            | Nederland                     |
-| MY-00004 Debet- en creditnota´s van leveranciers beheren voor GST                                              | Singapore, Maleisië en Thailand |
+| MY-00004 Debet- en creditnota's van leveranciers beheren voor GST                                              | Singapore, Maleisië en Thailand |
 | MY-00005 GST-belastingfacturen afdrukken                                                                        | Singapore, Maleisië en Thailand |
 | MY-00006 01 GST-hulpclausules instellen                                                                  | Singapore, Maleisië en Thailand |
 | MY-00006 02 GST-klantfacturen met een hulpclausule afdrukken                                           | Singapore, Maleisië en Thailand |
 | MY-00007 Zelf gefactureerde facturen                                                                          | Singapore, Maleisië en Thailand |
 | MY-00010 GST – GAF-bestanden genereren in de vereiste indeling                                               | Singapore, Maleisië en Thailand |
-| MY-00011 02 Debetnota´s van klanten genereren voor project-verkopen                                             | Singapore, Maleisië en Thailand |
+| MY-00011 02 Debetnota's van klanten genereren voor project-verkopen                                             | Singapore, Maleisië en Thailand |
 | MY-00011 03 Creditnota's van klanten genereren voor projectverkopen                                            | Singapore, Maleisië en Thailand |
 | GB-00002 Een inkooporder maken met artikelen waarop btw-terugboeking van toepassing is                     | Verenigd Koninkrijk                  |
 | GB-00002 Een verkooporder maken met artikelen die aan btw-verlegging zijn onderworpen                        | Verenigd Koninkrijk                  |
@@ -531,7 +531,7 @@ Deze wiki geeft een overzicht van de taak instructies die zijn uitgebracht voor 
 | Een berekening toevoegen aan een productconfiguratiemodel    | Algemeen             |
 | Een productconfiguratiemodel goedkeuren                 | Algemeen             |
 | De basisinstellingen van een vrijgegeven productmodel voltooien | Globaal             |
-| Maak een... productmodel \financial-dimensions\dimension-based               | Globaal             |
+| Een op ..\financial-dimensions\dimensies gebaseerd productmodel maken               | Globaal             |
 | Een hiërarchie van productclassificatie maken          | Algemeen             |
 | Een productconfiguratiemodel maken                  | Algemeen             |
 | Een productmodel maken                               | Algemeen             |
@@ -544,7 +544,7 @@ Deze wiki geeft een overzicht van de taak instructies die zijn uitgebracht voor 
 | Stuklijst voor een productconfiguratiemodel onderhouden        | Algemeen             |
 | Route voor een productmodel onderhouden                    | Globaal             |
 | Vrijgegeven producten beheren                              | Globaal             |
-| Versie een... productmodel \financial-dimensions\dimension-based              | Globaal             |
+| Een op ..\financial-dimensions\dimensies gebaseerd productmodel vrijgeven              | Globaal             |
 | Gegevens voor productmodellen overboeken                      | Algemeen             |
 
  
@@ -592,7 +592,7 @@ Deze wiki geeft een overzicht van de taak instructies die zijn uitgebracht voor 
 | Een productmodel maken                                                                   | Algemeen             |
 | Maak en koppel een apparaat                                                             | Algemeen             |
 | Maak en koppel een hardwarestation                                                   | Algemeen             |
-| Financiële dimensies maken voor POS-kassa´s en dimensiewaarden configureren voor kassa´s | Algemeen             |
+| Financiële dimensies maken voor POS-kassa's en dimensiewaarden configureren voor kassa's | Algemeen             |
 | Financiële dimensies maken voor detailhandelskanalen en dimensiewaarden configureren voor winkels  | Algemeen             |
 | Online kanaal maken en kanaalkenmerken definiëren                                       | Algemeen             |
 | POS-machtigingsgroepen maken                                                              | Algemeen             |
@@ -718,10 +718,10 @@ Deze wiki geeft een overzicht van de taak instructies die zijn uitgebracht voor 
 <a name="see-also"></a>Zie ook
 --------
 
-[Nieuwe of bijgewerkte taak doorloopt (mei 2016)](new-updated-task-guides-available-may-2016.md)
+[Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nieuwe of bijgewerkte taak doorloopt (augustus 2016)](new-updated-task-guides-available-august-2016.md)
+[Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Nieuwe of bijgewerkte taak doorloopt (November 2016)](new-task-guides-november-2016.md)
+[Nieuwe of bijgewerkte taakbegeleiders (november 2016)](new-task-guides-november-2016.md)
 
 

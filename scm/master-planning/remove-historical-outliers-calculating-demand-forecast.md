@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Verwijder uitschieters uit historische transactiegegevens bij het berekenen van een vraagprognose
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u uitschieters kunt verwijderen uit de historische gegevens die worden gebruikt om een vraagprognose te berekenen. Door uitschieters uit te sluiten, kunt u de prognosenauwkeurigheid verbeteren.
 
-U kunt uitsluiten uitschieters om prognose nauwkeurigheid te verbeteren. Deze taak is optioneel. Hier is een overzicht van het proces:
+U kunt uitschieters uitsluiten om de prognosenauwkeurigheid te verbeteren. Deze taak is optioneel. Hier is een overzicht van het proces:
 
-1.  Klik op **hoofdplanning**&gt;**Setup**&gt;**vraagprognose**&gt;**weliswaar verwijderen** te openen de **weliswaar verwijderen** pagina waar u een query de transacties kunt te sluiten.
+1.  Klik op **Hoofdplanning** &gt; **Instellen** &gt; **Vraagprognose** &gt; **Verwijdering van uitschieters** om de pagina **Verwijdering van uitschieters** te openen, waar u een query kunt gebruiken om de uit te sluiten transacties te selecteren.
 2.  Selecteer het bedrijf waarop de query van toepassing is en geef een naam en een omschrijving op. Het veld **Querydatum** wordt automatisch ingesteld op de huidige datum.
 3.  Schakel het selectievakje **Actief** in om de transacties die door de query worden gevonden uit de historische gegevens te verwijderen. Deze instelling is van kracht wanneer u een basislijnprognose maakt.
 4.  Op de pagina **Query voor verwijdering van uitschieters** kunt u de criteria toevoegen, verwijderen en selecteren waarmee de transacties worden gedefinieerd die moeten worden uitgesloten wanneer de basislijnprognose wordt berekend. Selecteer bijvoorbeeld een bepaald artikel of een ordertransactie die u wilt uitsluiten.
@@ -43,8 +46,10 @@ U kunt uitsluiten uitschieters om prognose nauwkeurigheid te verbeteren. Deze ta
 <a name="see-also"></a>Zie ook
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Inleiding op vraagprognoses](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Nauwkeurigheid van prognose bewaken](monitor-forecast-accuracy.md)
+
+
 
 

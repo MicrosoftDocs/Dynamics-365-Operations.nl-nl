@@ -1,5 +1,5 @@
 ---
-title: Uitgebreide aanmelding functionaliteit voor Cloud-POS en MPOS instellen
+title: Uitgebreide aanmeldingsfunctionaliteit instellen voor Cloud POS en MPOS
 description: Deze wiki gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail moderne POS (MPOS).
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Uitgebreide aanmelding functionaliteit voor Cloud-POS en MPOS instellen
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Uitgebreide aanmeldingsfunctionaliteit instellen voor Cloud POS en MPOS
 
 Deze wiki gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail moderne POS (MPOS).
 
 <a name="setting-up-extended-logon"></a>Uitgebreide aanmelding instellen
 =========================
 
-Vindt u de instellingen voor streepjescodemaskers op **detailhandel en commerce**&gt;**instellingen voor het kanaal**&gt;**POS-instellingen**&gt;**POS profielen**&gt;**Functionaliteitsprofielen**. Het sneltabblad **Functies** bevat de volgende opties voor uitgebreide aanmelding.
+U kunt de instellingen voor streepjescodemaskers vinden via **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Functionaliteitsprofielen**. Het sneltabblad **Functies** bevat de volgende opties voor uitgebreide aanmelding.
 
 ### <a name="staff-bar-code-logon"></a>Personeel aanmelden met streepjescode
 
@@ -53,7 +53,7 @@ Wanneer de optie **Voor het aanmelden van personeel met een kaart is een wachtwo
 <a name="assigning-an-extended-logon"></a>Een uitgebreide aanmelding toewijzen
 ===========================
 
-Standaard kunnen alleen managers uitgebreide aanmelding aan werknemers toewijzen. Uitgebreide aanmelding toewijzen, gaat u naar **uitgebreid logboek op** op het POS. Zoekt u naar een werknemer door te voeren zijn of haar operator-ID in het zoekveld. Selecteer de werknemer en klik vervolgens op **Toewijzen**. Op de volgende pagina haalt u de uitgebreide aanmelding door of scant u deze om de werknemer toe te wijzen. Als het doorhalen of scannen met succes is gelezen, wordt de knop **OK **beschikbaar. Klik op **OK** om de uitgebreide aanmelding voor die werknemer op te slaan.
+Standaard kunnen alleen managers uitgebreide aanmelding aan werknemers toewijzen. Als u uitgebreide aanmelding wilt toewijzen, gaat u naar **Uitgebreid aanmelden** in POS. Zoek vervolgens naar een werknemer door zijn of haar operator-id in het zoekveld in te voeren. Selecteer de werknemer en klik vervolgens op **Toewijzen**. Op de volgende pagina haalt u de uitgebreide aanmelding door of scant u deze om de werknemer toe te wijzen. Als het doorhalen of scannen met succes is gelezen, wordt de knop **OK **beschikbaar. Klik op **OK** om de uitgebreide aanmelding voor die werknemer op te slaan.
 
 <a name="deleting-an-extended-logon"></a>Een uitgebreide aanmelding verwijderen
 ==========================

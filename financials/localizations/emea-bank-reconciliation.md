@@ -1,6 +1,6 @@
 ---
-title: Overzicht en betaling afstemming bankoverzicht voor de EU
-description: Dit onderwerp biedt een overzicht van de functionaliteit die u gebruiken kunt om af te stemmen betalingsgegevens van de banken in indelingen die worden gebruikt door europese landen.
+title: Overzicht van bankafschriften en betalingsafstemming voor de EU
+description: Dit onderwerp bevat een overzicht van de functionaliteit die u kunt gebruiken om betalingsgegevens van banken af te stemmen in indelingen die door Europese landen worden gebruikt.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,37 +25,42 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bank-statement-and-payment-reconciliation-overview-for-the-eu"></a>Overzicht en betaling afstemming bankoverzicht voor de EU
+# <a name="bank-statement-and-payment-reconciliation-overview-for-the-eu"></a>Overzicht van bankafschriften en betalingsafstemming voor de EU
 
-Dit onderwerp biedt een overzicht van de functionaliteit die u gebruiken kunt om af te stemmen betalingsgegevens van de banken in indelingen die worden gebruikt door europese landen.
+[!include[banner](../includes/banner.md)]
 
-In Microsoft Dynamics 365 voor bewerkingen, kunt u transacties importeren vanuit de banken en vereffen deze transacties tegen bestaande transacties. In europa, kunt u dit doen voor de volgende scenario's:
 
--   Importeren van bankafschriften
--   Het importeren van betalingen.
--   Retour-bestanden importeren.
+Dit onderwerp bevat een overzicht van de functionaliteit die u kunt gebruiken om betalingsgegevens van banken af te stemmen in indelingen die door Europese landen worden gebruikt.
+
+In Microsoft Dynamics 365 for Operations kunt u transacties importeren vanuit banken en deze transacties vereffenen voor bestaande transacties. In Europa kunt u dit doen voor de volgende scenario's:
+
+-   Bankafschriften importeren
+-   Betalingen importeren
+-   Retourbestanden importeren
 
 ## <a name="bank-statements"></a>Bankafschriften
-A *bankafschrift* of *overzicht rekening* vindt u een overzicht van financiële transacties die hebben plaatsgevonden in een bepaalde periode op een bankrekening van een bedrijf met een financiële instelling. U kunt een bankafschrift importeren in Dynamics 365 voor bewerkingen. Het is belangrijk voor geïmporteerde transacties vereffenen met bestaande transacties en controleer of de begin- en saldo van de bankrekeningen. De volgende lijst bevat de ondersteunde indelingen van de europese.
+Een *bankafschrift* of *rekeningoverzicht* is een overzicht van financiële transacties die hebben plaatsgevonden in een bepaalde periode op een bankrekening van een bedrijf met een financiële instelling. U kunt een bankafschrift importeren in Dynamics 365 for Operations. Het is belangrijk om geïmporteerde transacties te vereffenen met bestaande transacties, en om het begin- en eindsaldo van de bankrekeningen te verifiëren. De volgende lijst bevat de ondersteunde Europese indelingen.
 
--   Geavanceerde afstemming europese bestandsindelingen. Zie voor meer informatie [geavanceerde afstemming bankoverzicht](../cash-bank-management/advanced-bank-reconciliation-overview.md).
--   ISO 20022 camt.053 bericht bestandsindeling bankafschrift
--   Bestandsindeling voor CODA-banktransactie-instructie. Zie voor meer informatie [CODA-bankafschrift](emea-bel-coda-bank-statement-import.md).
+-   Europese bestandsindelingen geavanceerde bankafstemming. Zie voor meer informatie [Overzicht van geavanceerde bankafstemming](../cash-bank-management/advanced-bank-reconciliation-overview.md).
+-   ISO 20022 camt.053 berichtbestandsindeling bankafschrift
+-   Bestandsindeling CODA-bankafschrift Zie [CODA-bankafschrift](emea-bel-coda-bank-statement-import.md) voor meer informatie.
 
-## <a name="customer-and-vendor-payments-import-and-return-messages"></a>Klant- als leverancierbetalingen importeren en berichten geretourneerd
-Naast een bankafschrift kunnen banken specifieke berichten, met informatie over betalingen van klanten en leveranciers, die kunnen worden geïmporteerd in Dynamics 365 for Operations en afgestemd met klant- en leverancierstransacties bevatten. Wanneer een bedrijf informatie over inkomende betalingen klanttransacties van de bank ontvangt moet, kunnen de Importindelingen worden gebruikt. Voor bedrijven die gebruikmaken van automatische afschrijvingen en kredietoverdracht, kunnen de retourberichten worden ontvangen om de status van betalingen die eerder zijn geëxporteerd. Het verschil tussen de indelingen importeren en retour indelingen is dat als resultaat gegeven gericht zijn meestal om bij te werken al gemaakt journaalregels van leverancierbetalingen (ze kunnen worden gemaakt als directe overdracht debet of credit zijn gestart) in plaats van nieuwe regels maakt. Sommige Importindelingen complexe kunnen ook retourscenario's bevatten. Het volgende voorbeeld ziet hoe deze divisie moet worden geïmplementeerd.
+## <a name="customer-and-vendor-payments-import-and-return-messages"></a>Import- en retourberichten van klant- en leveranciersbetalingen
+Naast een bankafschrift kunnen banken specifieke berichten verschaffen met informatie over betalingen van klanten en leveranciers, die kunnen worden geïmporteerd in Dynamics 365 for Operations en afgestemd met klant- en leverancierstransacties. Wanneer een bedrijf informatie over inkomende klantbetalingstransacties van de bank moet ontvangen, kunnen de importindelingen worden gebruikt. Voor bedrijven die gebruikmaken van automatische afschrijving en kredietoverdracht, kunnen de retourberichten worden ontvangen om de status bij te werken van betalingen die eerder zijn geëxporteerd. Het verschil tussen importindelingen en retourindelingen is dat retouren meestal zijn bedoeld om al gemaakte betalingsjournaalregels bij te werken (ze kunnen worden gemaakt wanneer automatische afschrijvingen of kredietoverdrachten zijn geïnitieerd) in plaats van nieuwe regels te maken. Sommige complexe importindelingen kunnen ook retourscenario's omvatten. In het volgende voorbeeld wordt getoond hoe deze verdeling moet worden geïmplementeerd.
 
-##### <a name="import-formats"></a>Indelingen importeren
+##### <a name="import-formats"></a>Importindelingen
 
--   ISO 20022 camt.054 bank Meldingsbericht
--   [Netten importindeling](emea-nor-nets-import-format.md) -Complex functie voor Noorse betalingsindelingen
--   Klantbetalingen ESR importeren
--   Betalingsindelingen voor Zweden - BankGirot Max en BankGirot OCR indelingen importeren
+-   ISO 20022 camt.054 bankmeldingsbericht
+-   [Nets-importindeling](emea-nor-nets-import-format.md) - Complexe functie voor Noorse betalingsindelingen
+-   Import ESR-klantbetalingen
+-   Importbetalingsindelingen voor Zweden - BankGirot Max- en BankGirot OCR-indelingen
 
-##### <a name="return-formats"></a>Indelingen retourneren
+##### <a name="return-formats"></a>Retourindelingen
 
--   ISO 20022 pain.002 betaling statusrapport
--   (DNK) BetalingsserviceBasis-returformat: retourindeling voor klant Betalingsservice exportindeling
--   [Betalingsindelingen voor Zweden importeren](emea-swe-payment-formats-import.md) -Bankgirot Autogiro retourneert
--   (SWE) BankGirot retourneren: leveranciersbetalingen retourindeling die met de exportindeling Bankgirot overeenkomt
+-   ISO 20022 pain.002 betalingsstatusrapport
+-   (DNK) BetalingsserviceBasis-returformat: retourindeling voor Betalingsservice-exportindeling voor klanten
+-   [Importbetalingsindelingen voor Zweden](emea-swe-payment-formats-import.md) -Bankgirot Autogiro-retouren
+-   (SWE) BankGirot-retour: retourindeling leveranciersbetalingen. Dit komt overeen met de Bankgirot-exportindeling
+
+
 

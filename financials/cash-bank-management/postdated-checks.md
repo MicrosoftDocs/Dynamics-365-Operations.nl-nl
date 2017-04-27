@@ -1,6 +1,6 @@
 ---
 title: Gepostdateerde cheques
-description: "Dit artikel bevat informatie over ondersteuning voor gepostdateerde cheques in Microsoft Dynamics 365 voor bewerkingen. Gepostdateerde cheques zijn cheques die worden uitgegeven om betalingen op een datum in de toekomst uit te voeren en te ontvangen. Daarom kan de cheque pas op de opgegeven datum worden geïnd."
+description: "Dit artikel biedt informatie over ondersteuning voor gepostdateerde cheques in Microsoft Dynamics 365 for Operations. Gepostdateerde cheques zijn cheques die worden uitgegeven om betalingen op een datum in de toekomst uit te voeren en te ontvangen. Daarom kan de cheque pas op de opgegeven datum worden geïnd."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="postdated-checks"></a>Gepostdateerde cheques
 
-Dit artikel bevat informatie over ondersteuning voor gepostdateerde cheques in Microsoft Dynamics 365 voor bewerkingen. Gepostdateerde cheques zijn cheques die worden uitgegeven om betalingen op een datum in de toekomst uit te voeren en te ontvangen. Daarom kan de cheque pas op de opgegeven datum worden geïnd.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 voor bewerkingen ondersteunt de cyclus van het volledige beheer voor gepostdateerde cheques in klanten en leveranciers, zoals in de volgende tabel wordt weergegeven.
+
+Dit artikel biedt informatie over ondersteuning voor gepostdateerde cheques in Microsoft Dynamics 365 for Operations. Gepostdateerde cheques zijn cheques die worden uitgegeven om betalingen op een datum in de toekomst uit te voeren en te ontvangen. Daarom kan de cheque pas op de opgegeven datum worden geïnd.
+
+Microsoft Dynamics 365 for Operations ondersteunt de volledige beheercyclus voor gepostdateerde cheques in Klanten en in Leveranciers, zoals u in de volgende tabel ziet.
 <table>
 <colgroup>
 <col width="50%" />
@@ -48,14 +51,14 @@ Microsoft Dynamics 365 voor bewerkingen ondersteunt de cyclus van het volledige 
 </tr>
 <tr class="even">
 <td>Een gepostdateerde cheque voor een leverancier registreren en boeken</td>
-<td>Registreer de details van een gepostdateerde cheque die u aan een leverancier uitschrijft. Wanneer de betaling wordt geboekt, wordt de aansprakelijkheid van leveranciers wordt herkend, maar de bankrekening is niet nog crediteren. In plaats daarvan wordt hiervoor een speciale rekening gebruikt.</td>
+<td>Registreer de details van een gepostdateerde cheque die u aan een leverancier uitschrijft. Wanneer de betaling wordt geboekt, wordt de leveranciersaansprakelijkheid erkend, maar wordt de bankrekening nog niet gecrediteerd. In plaats daarvan wordt hiervoor een speciale rekening gebruikt.</td>
 </tr>
 <tr class="odd">
 <td>Een gepostdateerde cheque voor een klant registreren en boeken</td>
-<td>Registreer de gegevens van een gepostdateerde cheque die u van een klant ontvangt. Wanneer de betaling wordt geboekt, wordt de klant terug te vorderen krediet is, maar de bankrekening is niet nog debiteren. In plaats daarvan wordt hiervoor een speciale rekening gebruikt.</td>
+<td>Registreer de gegevens van een gepostdateerde cheque die u van een klant ontvangt. Wanneer de betaling wordt geboekt, wordt het klanttegoed wel gecrediteerd, maar wordt de bankrekening nog niet gedebiteerd. In plaats daarvan wordt hiervoor een speciale rekening gebruikt.</td>
 </tr>
 <tr class="even">
-<td>Registreren en boeken van een vervangende gepostdateerde cheque voor een klant of leverancier</td>
+<td>Een vervangende gepostdateerde cheque voor een klant of leverancier registreren en boeken</td>
 <td>
 Als uw originele cheque voor een leverancier of klant verloren of beschadigd is geraakt, kunt u een vervangende gepostdateerde cheque uitgeven. Wanneer u de gegevens van de cheque registreert, geeft u een referentie naar de originele cheque op en geeft u aan dat de nieuwe cheque de originele cheque vervangt. U kunt de vervangende cheque ook boeken.</td>
 </tr>
@@ -69,17 +72,19 @@ Als uw originele cheque voor een leverancier of klant verloren of beschadigd is 
 </tr>
 <tr class="odd">
 <td>Een gepostdateerde cheque voor een leverancier annuleren</td>
-<td>U kunt een geboekte gepostdateerde cheque in dergelijke situaties annuleren:-de cheque wordt geretourneerd door de bank.
--De cheque wordt toegepast op een verkeerde factuur.
--Een contantbetaling wordt gemaakt met de cheque.
+<td>U kunt een geboekte gepostdateerde cheque in dergelijke situaties annuleren: de cheque wordt geretourneerd door de bank.
+- De cheque is toegepast op een verkeerde factuur.
+- De cheque is contant betaald.
 </td>
 </tr>
 <tr class="even">
-<td>Betaling voor een gepostdateerde cheque stop te zetten</td>
-<td>U kunt de betaling stopzetten voor een gepostdateerde cheque die aan een leverancier is uitgeschreven, bijvoorbeeld omdat er sprake is van onvoldoende fondsen, omdat de voorwaarden van de overeenkomst met de leverancier zijn gewijzigd, omdat de leverancier defecte goederen heeft geleverd of omdat er goederen aan de leverancier zijn geretourneerd. U kunt de betaling stop te zetten alleen op cheques die nog niet zijn verwerkt.</td>
+<td>Betaling voor een gepostdateerde cheque stoppen</td>
+<td>U kunt de betaling stopzetten voor een gepostdateerde cheque die aan een leverancier is uitgeschreven, bijvoorbeeld omdat er sprake is van onvoldoende fondsen, omdat de voorwaarden van de overeenkomst met de leverancier zijn gewijzigd, omdat de leverancier defecte goederen heeft geleverd of omdat er goederen aan de leverancier zijn geretourneerd. Het is alleen mogelijk om de betaling stop te zetten voor cheques die niet zijn verrekend.</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

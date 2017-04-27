@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Berekeningsopties Volledige bedrag en Interval voor btw-codes
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden de opties voor het veld Berekeningsmethode voor btw-codes uitgelegd en wordt uitgelegd hoe btw wordt berekend voor intervallen en gehele bedragen.
 
 U kunt een btw-code instellen die moet worden berekend op basis van het gehele bedrag of een intervalbedrag. Gebruik op de pagina Btw-codes het veld Berekeningsmethode op het sneltabblad Berekening om te selecteren hoe u een btw-code berekent.
@@ -56,10 +59,10 @@ De btw wordt berekend op het volledige belastbare bedrag.
 
 | Belastbaar bedrag (prijs) | Berekening    | Btw |
 |------------------------|----------------|-----------|
-| 35,00                  | 35.00 \* 0.30  | EUR 10,50     |
-| 50,00                  | 50.00 \* 0.30  | 15,00     |
-| 85,00                  | 85.00 \* 0.20  | 17,00     |
-| 305,00                 | 305.00 \* 0.10 | 30,50     |
+| 35,00                  | 35,00 \* 0,30  | EUR 10,50     |
+| 50,00                  | 50,00 \* 0,30  | 15,00     |
+| 85,00                  | 85,00 \* 0,20  | 17,00     |
+| 305,00                 | 305,00 \* 0,10 | 30,50     |
 
 ## <a name="example-interval-method-of-calculation"></a>Voorbeeld: Berekeningsmethode Interval
 Op de pagina Waarden worden de btw-tarieven ingesteld met de volgende intervallen:
@@ -75,14 +78,16 @@ De btw is de som van de btw-bedragen die worden berekend voor elk intervalbedrag
 
 | Belastbaar bedrag (prijs) | Berekening                                                               | Btw |
 |------------------------|---------------------------------------------------------------------------|-----------|
-| 35,00                  | 35.00 \* 0.30                                                             | EUR 10,50     |
-| 50,00                  | 50.00 \* 0.30                                                             | 15,00     |
-| 85,00                  | (50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)                          | 22,00     |
-| 305,00                 | (50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50) | 45,50     |
+| 35,00                  | 35,00 \* 0,30                                                             | EUR 10,50     |
+| 50,00                  | 50,00 \* 0,30                                                             | 15,00     |
+| 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
+| 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
  
 
-Zie voor meer informatie [bepalen van de verkoop-btw-tarieven berekend op basis van de marginale basis en berekening methode velden](marginal-base-field.md).
+Zie voor meer informatie het onderwerp [Btw-tarieven bepalen op basis van de velden Marginale basis en Berekeningsmethode](marginal-base-field.md)
+
+
 
 
 

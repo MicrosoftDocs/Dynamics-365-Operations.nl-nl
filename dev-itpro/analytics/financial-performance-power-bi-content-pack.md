@@ -1,6 +1,6 @@
 ---
-title: "Financiële prestaties Power BI-inhoud"
-description: "Dit onderwerp beschrijft de Microsoft Dynamics 365 voor bedrijfsactiviteiten financiële prestaties content pack voor Microsoft Power BI. Deze beschrijving van het dashboard en rapporten die zijn opgenomen in de content pack en informatie over het gegevensmodel en entiteiten die zijn gebruikt voor het bouwen van de content pack."
+title: "Power BI-inhoud financiële prestaties"
+description: "In dit onderwerp wordt het inhoudpakket van Microsoft Power BI voor financiële prestaties van Microsoft Dynamics 365 for Operations beschreven. Ook wordt beschreven hoe u het dashboard en de rapporten kunt gebruiken die in het inhoudpakket zijn opgenomen, en vindt u informatie over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,23 +24,26 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Financiële prestaties Power BI-inhoud
+# <a name="financial-performance-power-bi-content"></a>Power BI-inhoud financiële prestaties
 
-Dit onderwerp beschrijft de Microsoft Dynamics 365 voor bedrijfsactiviteiten financiële prestaties content pack voor Microsoft Power BI. Deze beschrijving van het dashboard en rapporten die zijn opgenomen in de content pack en informatie over het gegevensmodel en entiteiten die zijn gebruikt voor het bouwen van de content pack.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Toegang tot de content pack
+
+In dit onderwerp wordt het inhoudpakket van Microsoft Power BI voor financiële prestaties van Microsoft Dynamics 365 for Operations beschreven. Ook wordt beschreven hoe u het dashboard en de rapporten kunt gebruiken die in het inhoudpakket zijn opgenomen, en vindt u informatie over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
+
+<a name="accessing-the-content-pack"></a>Toegang tot het inhoudpakket
 --------------------------
 
-Er zijn twee versies van de financiële prestaties content pack beschikbaar. Één versie is beschikbaar vanuit Microsoft Dynamics Lifecycle Services (LCS) en de andere is beschikbaar vanuit PowerBI.com.
+Er zijn twee versies van het inhoudpakket voor financiële prestaties beschikbaar. Eén versie is beschikbaar via Microsoft Dynamics Lifecycle Services (LCS) en de andere versie is beschikbaar via PowerBI.com.
 
--   **Versie die beschikbaar is vanuit LCS:** de financiële prestaties content pack die beschikbaar is vanuit LCS ondersteunt Microsoft Dynamics 365 voor bewerkingen versie 1611. U kunt de inhoud pack vinden in de bibliotheek met gedeelde elementen in LCS. Zie voor meer informatie over het downloaden van de content pack en deze verbinden met uw Microsoft Dynamics 365 voor bewerkingen gegevens [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
--   **Versie die beschikbaar is in PowerBI.com:** Microsoft Dynamics AX-versie 7.0 en 7.0.1 biedt ondersteuning voor de financiële prestaties content pack die beschikbaar is in PowerBI.com. Zie voor meer informatie over het maken en uw Dynamics 365 voor bewerkingen gegevens laden, [toegang Power BI-inhoud van PowerBI.com](power-bi-home-page.md).
+-   **Versie die beschikbaar is vanuit LCS:** het inhoudpakket voor financiële prestaties dat beschikbaar is via LCS, ondersteunt Microsoft Dynamics 365 for Operations versie 1611. U kunt het inhoudpakket vinden in de bibliotheek met gedeelde activa in LCS. Zie voor meer informatie over hoe u het inhoudpakket downloadt en koppelt aan uw Microsoft Dynamics 365 for Operations-gegevens [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
+-   **Versie die beschikbaar is vanuit PowerBI.com:** het inhoudpakket voor financiële prestaties dat beschikbaar is via PowerBI.com, ondersteunt Microsoft Dynamics AX-versies 7.0 en 7.0.1. Zie voor meer informatie over het koppelen en laden van uw Microsoft Dynamics 365 for Operations-gegevens [Toegang tot Power BI-inhoud via PowerBI.com](power-bi-home-page.md).
 
-## <a name="main-account-setup"></a>Instelling van hoofdrekening
-De instelling van de hoofdrekeningen in Dynamics 365 for Operations is belangrijk omdat organisaties passiva en opbrengstbedragen weergegeven als positieve bedragen in rapporten kunnen. Voor deze hoofdrekeningen worden weergegeven als positieve bedragen, het hoofdrekeningtype moet worden ingesteld op **passiva** of **opbrengsten**. Wanneer deze rekeningtypen worden gebruikt, rapportage via Microsoft Power BI het teken omkeren en de bedragen als positief.
+## <a name="main-account-setup"></a>Hoofdrekening instellen
+De instelling van de hoofdrekeningen in Dynamics 365 for Operations is belangrijk omdat organisaties passiva- en opbrengstenbedragen willen weergeven als positieve bedragen in rapporten. Voor weergave van hoofdrekeningen als positieve bedragen moet het hoofdrekeningtype worden ingesteld op **Passiva** of **Opbrengsten**. Wanneer deze rekeningtypen worden gebruikt, wordt in de rapportage via Microsoft Power BI het teken omgekeerd en worden de bedragen als positief weergegeven.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Dashboard en rapporten die zijn opgenomen in de content pack
-Nadat u het inhoudpakket aan uw Dynamics 365 for Operations-gegevens hebt gekoppeld, geven het dashboard en de rapporten uw financiële gegevens weer. Als u Power BI vóór nooit hebt gebruikt, kunt u meer informatie op de [cursuspagina voor Power BI begeleide](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Het dashboard bevat tegels met samengevatte gegevens, die zijn gebaseerd op onderliggende rapporten. Elke tegel bevat samengevatte informatie voor het huidige jaar, voor alle bedrijven binnen een organisatie. Hier volgen enkele van de tegels:
+## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Dashboard en rapporten die zijn opgenomen in het inhoudpakket
+Nadat u het inhoudpakket aan uw Dynamics 365 for Operations-gegevens hebt gekoppeld, geven het dashboard en de rapporten uw financiële gegevens weer. Als u Power BI nog niet eerder hebt gebruikt, raadpleegt u de pagina [Guided Learning for Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Het dashboard bevat tegels met samengevatte gegevens, die zijn gebaseerd op onderliggende rapporten. Elke tegel bevat samengevatte informatie voor het huidige jaar, voor alle bedrijven binnen een organisatie. Hieronder ziet u enkele van deze tegels:
 
 -   Contant geld
 -   Totale omzet dit jaar
@@ -56,13 +59,13 @@ Nadat u het inhoudpakket aan uw Dynamics 365 for Operations-gegevens hebt gekopp
 -   Winstmarge dit jaar
 -   Werkelijke vs. gebudgetteerde kosten - alle bedrijven
 
-Elke tegel wordt voorgesteld door een ondersteunende rapport. Deze rapporten bevatten grafieken en tabellen met meer informatie. De onderstaande tabel geeft een overzicht van de rapporten.
+Elke tegel wordt ondersteund door een ondersteunend rapport. Deze rapporten bevatten grafieken en tabellen met meer informatie. De onderstaande tabel geeft een overzicht van de rapporten.
 
 | Rapport                      | Informatie in het rapport                                                                                                                                                                                                                                                                                                          |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Analyse contanten               | Contanten, door de rechtspersoon, cash per kwartaal, Totaal contanten en contanten, door rekening **opmerking:** de **contant per kwartaal** niet opgenomen in lijst beginsaldi in het totaal voor het eerste kwartaal. Deze bevat het totaal van nieuwe transacties die zijn geboekt per kwartaal.                                                                                |
+| Analyse contanten               | Contanten per rechtspersoon, contanten per kwartaal, totaal contanten en contanten per rekening **Opmerking:** in het rapport **Contanten per kwartaal** bevat het totaal geen beginsaldi voor het eerste kwartaal. Wel wordt het totaal van nieuwe transacties weergegeven die zijn geboekt in elk kwartaal.                                                                                |
 | Analyse huidige verhouding      | Huidige verhouding op rechtspersoon; huidige verhouding op kwartaal; saldi voor huidige activa en de huidige verplichtingen                                                                                                                                                                                                                              |
-| Snelle verhoudingsanalyse        | Snelle verhouding per rechtspersoon, snelle verhouding per kwartaal en saldi voor contant geld, rekeningen klanten en huidige verplichtingen                                                                                                                                                                                                                      |
+| Snelle verhoudingsanalyse        | Snelle verhouding per rechtspersoon; snelle verhouding per kwartaal en saldi voor contanten, klanten en vlottende passiva                                                                                                                                                                                                                      |
 | Analyse van kosten van verkochte goederen | Kosten van verkochte goederen (COGS) op rechtspersoon; COGS dit jaar en vorig jaar, op kwartaal; COGS t.o.v. verkopen op rechtspersoon; totale COGS en percentage COGS t.o.v. verkoop                                                                                                                                                                                   |
 | Analyse werkkapitaal    | Werkkapitaal op rechtspersoon; werkkapitaal op kwartaal, huidige activa, huidige verplichtingen en totaal werkkapitaal                                                                                                                                                                                                                   |
 | Analyse activa en schulden     | Rendement op totale activa en schulden t.o.v. totale activa, op rechtspersoon; schulden t.o.v. totale activa; rendement op totale activa in kwartaal tot heden, activa en verplichtingen                                                                                                                                                                                     |
@@ -71,17 +74,17 @@ Elke tegel wordt voorgesteld door een ondersteunende rapport. Deze rapporten bev
 | Inkomstenanalyse           | Werkelijke en gebudgetteerde inkomsten vóór rente en belastingen (EBIT) op rechtspersoon; EBIT dit jaar en vorig jaar; percentage onkosten tegen omzet; werkelijke en gebudgetteerde onkosten t.o.v. omzet                                                                                                                                                          |
 | Opbrengstenanalyse            | Totale opbrengsten; werkelijke en gebudgetteerde totale opbrengsten op rechtspersoon; totale opbrengsten dit jaar en vorig jaar; de afwijking voor inkomstenbudgetten op rechtspersoon; totale opbrengsten deze periode en vorige periode                                                                                                                                                 |
 | Onkostenanalyse            | Totale onkosten; werkelijke tegen gebudgetteerde totale onkosten op rechtspersoon; werkelijke en gebudgetteerde totale onkosten op kwartaal; totale onkosten op rekeningcategorie; verhouding exploitatiekosten                                                                                                                                                                 |
-| Analyse gefactureerde omzet     | Totaalaantal debiteuren, totaal klanten per rechtspersoon, totaal klanten per kwartaal en saldi voor debiteurenrekeningen **opmerking:** de rapporten bevatten geen beginsaldi voor de accounts receivable grootboekrekeningen. Deze kleuren geven aan het totaal van nieuwe transacties die zijn geboekt naar rekeningen te ontvangen. |
+| Analyse gefactureerde omzet     | Totaal klanten, totaal klanten per rechtspersoon, totaal klanten per kwartaal en saldi voor klantrekeningen **Opmerking:** de rapporten bevatten geen beginsaldi voor de grootboekrekeningen van klanten. Wel wordt het totaal van nieuwe transacties weergegeven die zijn geboekt naar Klanten. |
 
 De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over het filteren en vastmaken in Power BI het onderwerp [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-De gegevens die u invult op de dashboard en rapporten in de financiële prestaties content pack is Dynamics 365 voor operationele gegevens. De volgende entiteiten zijn gebruikt als basis voor de content pack: **gegevensentiteiten samenvoegen**
+De gegevens waarmee het dashboard en de rapporten in het inhoudpakket voor financiële prestaties worden gevuld, zijn Dynamics 365 for Operations-gegevens. De volgende entiteiten zijn gebruikt als basis voor het inhoudpakket: **Samengevoegde gegevensentiteiten**
 
--   **GeneralLedgerActivities** : deze entiteit aggregeert grootboeksaldi op rekeningcategorie.
--   **budgetActivities** : deze entiteit aggregeert budgetsaldi op rekeningcategorie.
+-   **GeneralLedgerActivities**: met deze entiteit worden grootboeksaldi per rekeningcategorie samengevoegd.
+-   **BudgetActivities**: met deze entiteit worden budgetsaldi per rekeningcategorie samengevoegd.
 
-**Data entities**
+**Gegevensentiteiten**
 
 -   FiscalCalendars
 -   MainAccounts
@@ -89,7 +92,7 @@ De gegevens die u invult op de dashboard en rapporten in de financiële prestati
 -   Ledgers
 -   ChartofAccounts
 
-Deze entiteiten zijn gebruikt voor het maken van berekende eenheden in het gegevensmodel. De berekende eenheden worden gebruikt voor het berekenen van de key performance indicators (KPI's) en rapporten die worden gebruikt in de content pack. Standaard levert het inhoudpakket gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi) wijzigen. Deze werkmap is het standaardgegevensmodel, dat is gebruikt om het inhoudpakket te maken. Wanneer u klaar bent met aanbrengen van wijzigingen, kunt u een organisatorisch inhoudpakket en dashboard maken met de informatie die u hebt toegevoegd.
+Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. De berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in het inhoudpakket worden gebruikt. Standaard levert het inhoudpakket gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi) wijzigen. Deze werkmap is het standaardgegevensmodel, dat is gebruikt om het inhoudpakket te maken. Wanneer u klaar bent met aanbrengen van wijzigingen, kunt u een organisatorisch inhoudpakket en dashboard maken met de informatie die u hebt toegevoegd.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten en het samenstellen van Power BI-content:
@@ -98,6 +101,8 @@ Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten e
 -   [Organisatorische inhoudpakketten maken](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI-tegels toevoegen aan werkruimten](configure-power-bi-integration.md)
+
+
 
 
 

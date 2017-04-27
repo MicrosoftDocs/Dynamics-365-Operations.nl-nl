@@ -1,5 +1,5 @@
 ---
-title: Gebruik de betaling van een klant meerdere facturen meerdere kortingsperioden omspannen vereffenen
+title: Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten
 description: "Dit artikel toot hoe meerdere facturen worden betaald wanneer elke factuur in aanmerking komt voor een contantkorting. De scenario&quot;s in zijn artikel markeren hoe de verkregen contantkortingen variëren, afhankelijk van wanneer de betaling wordt uitgevoerd."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Gebruik de betaling van een klant meerdere facturen meerdere kortingsperioden omspannen vereffenen
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel toot hoe meerdere facturen worden betaald wanneer elke factuur in aanmerking komt voor een contantkorting. De scenario's in zijn artikel markeren hoe de verkregen contantkortingen variëren, afhankelijk van wanneer de betaling wordt uitgevoerd.
 
-Fabrikam verkoopt goederen aan klant 4032. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De parameters van de settement bevinden zich op de **parameters van module klanten** pagina.
+Fabrikam verkoopt goederen aan klant 4032. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Parameters van module Klanten**.
 
 ## <a name="invoices"></a>Facturen
 Klant 4032 heeft drie facturen van in totaal 3.000,00:
 
--   Factuur FTI-10040 voor 1000,00 werd op 15 mei ingevoerd. Deze factuur komt in aanmerking voor een contantkorting van 1 procent als deze binnen 14 dagen wordt betaald.
--   Factuur FTI-10041 voor 1000,00 werd op 25 juni ingevoerd. Deze factuur komt in aanmerking voor een contantkorting van 1 procent als deze binnen 14 dagen wordt betaald.
--   Factuur FTI-10042 voor 1000,00 werd op 25 juni ingevoerd. Deze factuur komt in aanmerking komen voor een contantkorting van 2 procent als deze wordt betaald binnen vijf dagen en een korting van 1 procent als deze binnen 14 dagen wordt betaald.
+-   Factuur FTI-10040 voor 1000,00 is op 15 mei ingevoerd. Deze factuur komt in aanmerking voor een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald.
+-   Factuur FTI-10041 voor 1.000,00 is op 25 juni ingevoerd. Deze factuur komt in aanmerking voor een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald.
+-   Factuur FTI-10042 voor 1.000,00 is op 25 juni ingevoerd. Deze factuur komt in aanmerking voor een contantkorting van 2 procent als deze binnen vijf dagen wordt betaald en een korting van 1 procent als deze binnen 14 dagen wordt betaald.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Alle facturen vereffenen op 29 juni
 Als Arnie een betalingsdagboek maakt om deze facturen volledig te vereffenen op 29 juni, wordt de betaling 2.970,00. Het totaal van alle kortingsbedragen bedraagt 30,00. Arnie maakt een betaling voor klant 4032 en opent vervolgens de pagina **Transacties vereffenen**. Op de pagina **Transacties vereffenen** markeert Arnie alle drie factuurregels voor vereffening:
@@ -76,7 +79,7 @@ Klant 4032 kan een gedeeltelijk bedrag betalen, zoals de helft van elke factuur.
 | Geselecteerd                 | Normaal            | FTI-10041 | 4032    | 6/25/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | USD      | 495,00           |
 | Geselecteerd en gemarkeerd | Normaal            | FTI-10042 | 4032    | 6/25/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie kan ook handmatig invoeren van het betalingsbedrag van 1485,00 voordat hij wordt geopend de **transacties vereffenen** pagina. Als Arnie het verschuldigde bedrag handmatig invoert en vervolgens alle drie de transacties worden gemarkeerd, maar hij niet wordt aangepast dat de waarde in de **te vereffenen bedrag** veld voor elke transactie, ontvangt hij het volgende bericht wanneer hij de pagina sluit:
+Arnie kan het betalingsbedrag van 1485,00 ook handmatig invoeren voordat hij de pagina **Transacties vereffenen** opent. Als Arnie het betalingsbedrag handmatig invoert en vervolgens alle drie de transacties markeert, maar de waarde in het veld **Bedrag om te vereffenen** niet aanpast voor elke transactie, ontvangt hij het volgende bericht wanneer hij de pagina sluit:
 
 > Het totaalbedrag van de gemarkeerde transacties verschilt van het journaalbedrag. Wilt u het journaalbedrag wijzigen?
 
@@ -95,6 +98,8 @@ Arnie bekijkt de informatie op de pagina **Klanttransacties**.
 | FTI-10042  | Factuur          | 6/25/2015 | 10042   | 1.000,00                             |                                       | 505,10   | USD      |
 | ARP-10040  | Betaling          | 6/29/2015 |         |                                      | 1.485,00                              | 0,00     | USD      |
 | DISC-10040 | Contantkorting    | 6/29/2015 |         |                                      | 9,90                                  | 0,00     | USD      |
+
+
 
 
 

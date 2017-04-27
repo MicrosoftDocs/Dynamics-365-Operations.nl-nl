@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Verkoopbeheer en marketing
 
+[!include[banner](../includes/banner.md)]
+
+
 Met Verkoop en marketing kunt u verschillende typen gegevens in de verkoopstroom opvragen, opslaan en gebruiken. Hierbij gaat het om gegevens zoals het oorspronkelijke verkoopinitiatief, toekomstige opvolgingsacties en extra verkopen.
 
 <a name="marketing"></a>Marketing
@@ -39,7 +42,7 @@ In verkoop en marketing kunnen de initiële interacties die u hebt met potentië
 
 ### <a name="campaigns"></a>Campagnes
 
-Een campagne is gericht op de contactpersonen van prospects, potentiële klanten, verkoopkansen en klanten die zijn geselecteerd voor deelname aan de campagne. In Microsoft Dynamics 365 voor bewerkingen, kunt u verschillende soorten campagnes zoals telemarketing, mailinglijsten en e-campagnes, maximaliseren van de potentiële klant. Als uw campagne vordert en u positieve reacties ontvangt, kunt u het verkoopproces beginnen met de geadresseerden die positief hebben gereageerd op de campagne.
+Een campagne is gericht op de contactpersonen van prospects, potentiële klanten, verkoopkansen en klanten die zijn geselecteerd voor deelname aan de campagne. In Microsoft Dynamics 365 for Operations kunt u verschillende typen campagnes maken, zoals telemarketing-, mailing- en e-mailcampagnes, om uw klantenpotentieel te maximaliseren. Als uw campagne vordert en u positieve reacties ontvangt, kunt u het verkoopproces beginnen met de geadresseerden die positief hebben gereageerd op de campagne.
 
 ## <a name="sales"></a>Verkoop
 U gebruikt de verkoopfunctionaliteit om offertes te maken, meerverkoop en kruisverkoop uit te voeren bij nieuwe en bestaande klanten, verkooporders te genereren en verkoopfacturen op te stellen voor klanten. In het volgende processtroomdiagram ziet u het bedrijfsproces voor verkoop. [![Bedrijfsproces voor verkoop](./media/sales01.jpg)](./media/sales01.jpg)
@@ -50,7 +53,7 @@ U maakt verkoopoffertes om klanten een aanbieding te doen van de goederen of die
 
 ### <a name="up-sellcross-sell"></a>Meerverkoop/bijverkoop
 
-Meer- en kruisverkoop zijn technieken voor het verkopen van producten bij het invoeren van een order voor een klant. Bij meerverkoop wordt een ander product voorgesteld in plaats van het huidige product. Bij kruisverkoop wordt een product voorgesteld naast het huidige product. Wanneer u de productlijsten instelt, kunt u specifieke regels om aan te geven wanneer een product moet worden voorgesteld als een cross-sell en Upsell-product.
+Meer- en kruisverkoop zijn technieken voor het verkopen van producten bij het invoeren van een order voor een klant. Bij meerverkoop wordt een ander product voorgesteld in plaats van het huidige product. Bij kruisverkoop wordt een product voorgesteld naast het huidige product. Wanneer u productlijsten instelt, kunt u specifieke regels opstellen om aan te geven wanneer een product moet worden voorgesteld als een product voor bij- of meerverkoop.
 
 ### <a name="sales-orders"></a>Verkooporders
 
@@ -117,5 +120,7 @@ Een vrije-tekstfactuur is een factuur die niet is gerelateerd aan een verkoopord
 #### <a name="pro-forma-invoice"></a>Pro-formafactuur
 
 Een pro forma-factuur is een factuur die wordt gemaakt als raming van het werkelijke factuurbedrag voordat de factuur wordt geboekt. Een pro forma-factuur kunt u zowel voor een klantfactuur als voor een vrije-tekstfactuur afdrukken.
+
+
 
 

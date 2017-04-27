@@ -46,7 +46,7 @@ Selecteer op de pagina **Projecten voor massaal aanstellen** project 'SummerInte
 
 Nadat u studenten hebt geselecteerd om voor de stages aan te stellen, voert u voor elke student informatie in **Functiedetails** in voor de functie waarvoor u deze aanstelt. Wanneer u alle functiedetails hebt ingevoerd, selecteert u de functie op de pagina Projecten voor massaal aanstellen en klikt u op **Aanstellen**. Voor elke functie wordt een functieregistratie gemaakt en voor elke persoon die u aanstelt wordt een werknemerregistratie gemaakt en toegewezen aan de juiste functie.
 
-## <a name="masshire-project-statuses"></a>Status van een project Masshire
+## <a name="masshire-project-statuses"></a>Status van een project met massale inhuur
 Een project met massale inhuur kan een van de volgende statussen hebben.
 -   Gemaakt
 -   Openstaand

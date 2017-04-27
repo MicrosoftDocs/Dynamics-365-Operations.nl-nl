@@ -1,6 +1,6 @@
 ---
 title: Vaste activa groepsgewijs bijwerken
-description: Als u boeken, kunt u de afschrijvingsconventies voor groepen van activa die deel uitmaken van hetzelfde rapport kunt wijzigen.
+description: Als u boeken gebruikt, kunt u de afschrijvingsconventies voor groepen activa wijzigen die deel uitmaken van hetzelfde boek.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-mass-update"></a>Vaste activa groepsgewijs bijwerken
 
-Als u boeken, kunt u de afschrijvingsconventies voor groepen van activa die deel uitmaken van hetzelfde rapport kunt wijzigen.
+[!include[banner](../includes/banner.md)]
+
+
+Als u boeken gebruikt, kunt u de afschrijvingsconventies voor groepen activa wijzigen die deel uitmaken van hetzelfde boek.
 
 Als u bijvoorbeeld in de Verenigde Staten woont en meer dan 40 procent van uw activa in gebruik hebt genomen tijdens het vierde kwartaal van het jaar, moet u de afschrijvingsconventie voor het midden van het kwartaal gebruiken. U kunt het proces voor groepsgewijs bijwerken gebruiken om alle activa te wijzigen waarvoor de nieuwe afschrijvingsconventie vereist is. 
 
@@ -36,6 +39,8 @@ Wanneer u de afschrijvingsconventie voor activa bijwerkt, verwijdert u alle afsc
 Om de afschrijvingsconventie voor activa die al afgestoten zijn bij te werken, moet u eerst bestaande afstotingstransacties verwijderen. Ook moet u alle transacties verwijderen die zijn gegenereerd als gevolg van het afstotingsproces verwijderen. 
 
 U kunt na het bijwerken van de afschrijvingsconventie voor activa, afschrijvingen en buitengewone afschrijving voor elk activum verwerken. Als aanpassingen vereist zijn, kunt u ook handmatige afschrijvingsaanpassingen maken.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Gecentraliseerde betalingen voor leveranciers
 
+[!include[banner](../includes/banner.md)]
+
+
 Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door één rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeven dezelfde betalingen niet in meerdere rechtspersonen worden ingevoerd. Dit artikel bevat voorbeelden die laten zien hoe de boeking voor gecentraliseerde betalingen in diverse scenario's wordt verwerkt.
 
 Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeven dezelfde betalingen niet in meerdere rechtspersonen worden ingevoerd. Bovendien bespaart de organisatie tijd, omdat het betalingsproces wordt gestroomlijnd.
@@ -66,14 +69,14 @@ Fabrikam East heeft een openstaande factuur voor leverancierrekening 100, Fourth
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-betaling wordt vereffend met Fabrikam East-factuur
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                           | Debetbedrag | Creditbedrag |
 |-----------------------------------|--------------|---------------|
 | Te betalen door Fabrikam East (Fabrikam) | 600,00       |               |
 | Leveranciers (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                          | Debetbedrag | Creditbedrag |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-betaling wordt vereffend met Fabrikam East-factuur
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                           | Debetbedrag | Creditbedrag |
 |-----------------------------------|--------------|---------------|
 | Te betalen door Fabrikam East (Fabrikam) | 580,00       |               |
 | Leveranciers (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                          | Debetbedrag | Creditbedrag |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-betaling wordt vereffend met Fabrikam East-factuur
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                           | Debetbedrag            | Creditbedrag           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.
 | Gerealiseerd verlies (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Te betalen door Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                          | Debetbedrag            | Creditbedrag           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-betaling wordt vereffend met Fabrikam East-factuur
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                           | Debetbedrag            | Creditbedrag           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.
 | Gerealiseerd verlies (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Te betalen door Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                          | Debetbedrag            | Creditbedrag           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.
 | Contantkorting (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Voorbeeld 5: creditnota van leverancier met primaire betaling
-Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-leverancier 3004 en een openstaande creditnota voor Fabrikam East-leverancier 100. De betaling als primaire betaling is geselecteerd op het **transacties vereffenen** pagina.
+Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-leverancier 3004 en een openstaande creditnota voor Fabrikam East-leverancier 100. De betaling wordt als de primaire betaling op de pagina **Transacties vereffenen** geselecteerd.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Factuur wordt geboekt naar Fabrikam West voor leverancier 3004
 
@@ -224,7 +227,7 @@ Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam-betaling wordt vereffend met Fabrikam West-factuur en Fabrikam East-creditnota
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                           | Debetbedrag | Creditbedrag |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. 
 | Te betalen door Fabrikam West (Fabrikam) | 100,00       |               |
 | Leveranciers (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                           | Debetbedrag | Creditbedrag |
 |-----------------------------------|--------------|---------------|
 | Te betalen door Fabrikam (Fabrikam East) | 25,00        |               |
 | Leveranciers (Fabrikam East)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West-boeking**
 
 | Rekening                          | Debetbedrag | Creditbedrag |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. 
 | Te betalen aan Fabrikam (Fabrikam West)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Voorbeeld 6: creditnota van leverancier zonder primaire betaling
-Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-leverancier 3004 en een openstaande creditnota voor Fabrikam East-leverancier 100. De betaling niet is geselecteerd als primaire betaling in de **transacties vereffenen** pagina.
+Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-leverancier 3004 en een openstaande creditnota voor Fabrikam East-leverancier 100. De betaling wordt niet als de primaire betaling op de pagina **Transacties vereffenen** geselecteerd.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Factuur wordt geboekt naar Fabrikam West voor leverancier 3004
 
@@ -273,21 +276,21 @@ Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam-betaling wordt vereffend met Fabrikam West-factuur en Fabrikam East-creditnota
 
-**Fabrikam posting**
+**Fabrikam-boeking**
 
 | Rekening                           | Debetbedrag | Creditbedrag |
 |-----------------------------------|--------------|---------------|
 | Te betalen door Fabrikam West (Fabrikam) | 75,00        |               |
 | Leveranciers (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East-boeking**
 
 | Rekening                                | Debetbedrag | Creditbedrag |
 |----------------------------------------|--------------|---------------|
 | Te betalen door Fabrikam West (Fabrikam East) | 25,00        |               |
 | Leveranciers (Fabrikam East)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West-boeking**
 
 | Rekening                              | Debetbedrag | Creditbedrag |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. 
 | Te betalen aan Fabrikam (Fabrikam West)      |              | 75,00         |
 | Leveranciers (Fabrikam West)     | 25,00        |               |
 | Te betalen aan Fabrikam East (Fabrikam West) |              | 25,00         |
+
+
 
 
 

@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>SEPA-mandaat instellen voor automatische afschrijving
 
+[!include[banner](../includes/banner.md)]
 
 
-Een automatische SEPA-overschrijving maakt het mogelijk voor een crediteur om fondsen te innen van de bankrekening van een klant, mits een ondertekend mandaat door de klant aan de crediteur is verleend. De klant tekent een mandaat dat de crediteur autoriseert om een betaling te innen en dat de bank van de klant opdraagt om de inning te betalen. In dit onderwerp is opgezet om weer te geven van het proces voor het instellen van SEPA automatische incasso mandaten.
+
+
+Een automatische SEPA-overschrijving maakt het mogelijk voor een crediteur om fondsen te innen van de bankrekening van een klant, mits een ondertekend mandaat door de klant aan de crediteur is verleend. De klant tekent een mandaat dat de crediteur autoriseert om een betaling te innen en dat de bank van de klant opdraagt om de inning te betalen. Dit onderwerp is opgezet om het proces weer te geven voor het instellen van SEPA-mandaten voor automatische afschrijving.
 
 ## <a name="prerequisites"></a>Vereisten
 De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u start.
@@ -37,15 +40,20 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Land/regio | Het primaire adres van de rechtspersoon moet zich in de volgende landen/regio's bevinden: Oostenrijk, België, Duitsland, Spanje, Frankrijk, Italië of Nederland. |
 
-1. Een nummerreeks voor automatische incasso opdracht, voor dat elke automatische afschrijving mandaat beschikt over een uniek nummer instellen. Gebruik het formulier **Nummerreeksen** om een nummerreeks voor automatische overschrijvingsmandaten te maken. U wilt deze identificatie gebruiken om de nummerreeks op het automatische overschrijvingsdebetmandaatsysteem op de pagina **Parameters van module Klanten** toe te wijzen.
+1. Een nummerreeks instellen voor automatische overschrijvingsmandaten
+Elk mandaat voor automatische afschrijving moet een uniek nummer hebben. Gebruik het formulier **Nummerreeksen** om een nummerreeks voor automatische overschrijvingsmandaten te maken. U wilt deze identificatie gebruiken om de nummerreeks op het automatische overschrijvingsdebetmandaatsysteem op de pagina **Parameters van module Klanten** toe te wijzen.
 
-2. Instellen van klantparameters voor automatische incasso mandaten gebruik de **parameters van module klanten** pagina kunt u parameters voor automatische incasso mandaten instellen. Instellen van de parameters op de **automatische incasso** en wijzig de standaardparameters als nodig is. Klik vervolgens op de **nummerreeksen** tabblad, werkt de **ID automatische afschrijving mandaat** bij de nummerreeks die u eerder hebt ingesteld.
+2. De leveranciersparameters voor mandaten voor automatische afschrijving in stellen
+Op de pagina **Parameters van module Klanten** stelt u de parameters voor mandaten voor automatische afschrijving in. Als u de parameters wilt instellen, wijzigt u de standaardparameters op het tabblad **Automatische afschrijving**. Werk op het tabblad **Nummerreeksen** het veld **Mandaat-ID voor automatische afschrijving** bij met de eerder ingestelde nummerreeks.
 
-3. Een betalingsmethode instellen voor automatische incasso u bepaalt een betalingsmethode voor automatische incasso mandaten moet instellen. U gebruikt deze betalingsmethode om facturen op te vragen om automatische afschrijvingen voor te genereren. Gebruik de pagina **Betalingsmethoden** om de betalingsmethode in te stellen. Als u een betalingsmethode voor mandaten voor automatische afschrijving wilt instellen, moet u deze extra stappen voor een betalingsmethode uitvoeren:
+3. Een betalingsmethode voor automatische overschrijvingsmandaten instellen
+U moet een betalingsmethode voor mandaten voor automatische afschrijving instellen. U gebruikt deze betalingsmethode om facturen op te vragen om automatische afschrijvingen voor te genereren. Gebruik de pagina **Betalingsmethoden** om de betalingsmethode in te stellen. Als u een betalingsmethode voor mandaten voor automatische afschrijving wilt instellen, moet u deze extra stappen voor een betalingsmethode uitvoeren:
 
 -   Selecteer **Elektronische betaling** in het veld **Betalingstype**.
--   Optioneel: Als u verwacht dat elk van uw klanten meerdere bepaalt, in de **periode** veld **factuur**. Een aparte betaling gemaakt voor elke factuur en elke betaling het mandaat zoals die is opgegeven voor de factuur wordt gebruikt.
+-   Optioneel: Als u verwacht dat al uw klanten meerdere mandaten hebben, selecteert u in het veld **Periode** de waarde **Factuur**. Hierdoor wordt een afzonderlijke betaling voor elke factuur gemaakt, en elke betaling gebruikt het mandaat dat voor de factuur is opgegeven.
 -   Selecteer de optie **Mandaat vereisen** om betalingen te maken door mandaten voor automatische afschrijving te gebruiken. De optie **Mandaat vereisen** is alleen beschikbaar als u **Elektronische betaling** in het veld **Betalingstype** selecteert.
 
-Zie ook [automatische incasso-overzicht](sepa-direct-debit-overview.md) 
+Zie voor meer informatie [Overzicht automatische SEPA-overschrijvingen](sepa-direct-debit-overview.md) 
+
+
 

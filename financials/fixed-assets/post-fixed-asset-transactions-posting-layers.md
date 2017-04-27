@@ -1,9 +1,9 @@
 ---
-title: Vaste-activatransacties naar boekingslagen boeken
+title: Vaste-activatransacties boeken naar boekingslagen
 description: Dit artikel geeft een overzicht van boekingslaagfunctionaliteit voor vaste-activatransacties.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,21 +26,26 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-fixed-asset-transactions-to-posting-layers"></a>Vaste-activatransacties naar boekingslagen boeken
+# <a name="post-fixed-asset-transactions-to-posting-layers"></a>Vaste-activatransacties boeken naar boekingslagen
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel geeft een overzicht van boekingslaagfunctionaliteit voor vaste-activatransacties.
 
 Vaste activa worden vaak op verschillende manieren en om verschillende redenen afgeschreven. De afschrijving voor de belasting wordt berekend conform de huidige belastingregels om de hoogst mogelijke afschrijving voor de belasting te kunnen krijgen, maar het afschrijven voor rapportagedoeleinden wordt berekend conform de regels en standaarden van de boekhouding. De diverse soorten afschrijvingen worden afzonderlijk in de boekingslagen berekend en geregistreerd.
 
-Elk boek dat is gekoppeld aan vaste activa, is ingesteld voor een bepaalde boekingslaag met een algemeen afschrijvingsdoel. Er zijn tien boekingslagen: Huidig, Bewerkingen, Btw en zeven douanelagen. U kunt het boeken naar het algemene grootboek voor het boek ook uitschakelen door het veld Boeken naar grootboek in te stellen op Nee. Het veld Boekingslaag wordt dan automatisch ingesteld op Geen. Normaal gesproken worden boeken die niet naar het grootboek boeken gebruikt voor btw-aangifte. Deze benadering biedt u de extra flexibiliteit om historische transacties voor de vaste activa te verwijderen, omdat ze nog niet toegewezen aan het grootboek is.
+Elk boek dat is gekoppeld aan vaste activa, is ingesteld voor een bepaalde boekingslaag met een algemeen afschrijvingsdoel. Er zijn tien boekingslagen: Huidig, Bewerkingen, Btw en zeven douanelagen. U kunt het boeken naar het algemene grootboek voor het boek ook uitschakelen door het veld Boeken naar grootboek in te stellen op Nee. Het veld Boekingslaag wordt dan automatisch ingesteld op Geen. De boeken die niet naar het grootboek boeken, worden gewoonlijk gebruikt voor belastingaangiftes. Deze aanpak geeft u meer flexibiliteit om historische transacties voor het activumboek te verwijderen, omdat ze niet in het grootboek zijn bevestigd.
 
-Vaste-activajournalen worden bepaald door de pagina Journaalnamen in Grootboek > Journaalinstellingen > Journaalnamen. Elk journaal waarin u afschrijvingen kunt boeken, wordt voor slechts één boekingslaag door de journaalnaam gedefinieerd. De boekingslaag in het journaal kan niet worden gewijzigd. Deze beperking zorgt dat de transacties voor elke boekingslaag gescheiden blijven. Voor elke boekingslaag moet er minstens één journaalnaam worden gemaakt. Als u afschrijvingsboeken gebruikt die niet naar het grootboek boeken, moet u ook een journaal waarin de boekingslaag is ingesteld op geen.
+Vaste-activajournalen worden bepaald door de pagina Journaalnamen in Grootboek > Journaalinstellingen > Journaalnamen. Elk journaal waarin u afschrijvingen kunt boeken, wordt voor slechts één boekingslaag door de journaalnaam gedefinieerd. De boekingslaag in het journaal kan niet worden gewijzigd. Deze beperking zorgt dat de transacties voor elke boekingslaag gescheiden blijven. Voor elke boekingslaag moet er minstens één journaalnaam worden gemaakt. Als u boeken gebruikt die niet naar het grootboek boeken, moet u ook een journaal maken waarin de boekingslaag is ingesteld op Geen.
 
 U kunt grootboekrekeningen toewijzen voor vaste-activatransacties op de pagina Boekingsprofielen voor vaste activa. Voor elk boekingsprofiel moet u het relevante transactietype en boek selecteren, en vervolgens de grootboekrekeningen aangeven. Stel een boekingsprofielrecord in voor elk boek dat naar het grootboek wordt geboekt.
 
 > [!NOTE] 
-> Met behulp van afgeleide boeken, kunt u transacties naar verschillende boekingslagen boeken op hetzelfde moment. U maakt de transacties van het primaire boek in een journaal waarvan de boekingslaag overeenkomt met de boekingslaag van het boek. Tijdens het boeken worden de transacties van het afgeleide boek naar de respectieve boekingslagen geboekt.
+> Door afgeleide boeken te gebruiken, kunt u tegelijkertijd transacties naar verschillende boekingslagen boeken. U maakt de transacties van het primaire boek in een journaal waarvan de boekingslaag overeenkomt met de boekingslaag van het boek. Tijdens het boeken worden de transacties van het afgeleide boek naar de respectieve boekingslagen geboekt.
 
-Zie voor meer informatie, [afgeleid boeken](derived-books.md) en [boeken met afgeleide boeken](post-derived-value-models.md).
+Zie voor meer informatie [Afgeleide boeken](derived-books.md) en [Boeken met afgeleide boeken](post-derived-value-models.md).
+
+
 
 

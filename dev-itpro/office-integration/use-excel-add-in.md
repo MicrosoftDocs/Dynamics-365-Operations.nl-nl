@@ -1,6 +1,6 @@
 ---
-title: Gebruik het Excel-invoegtoepassing
-description: In dit onderwerp wordt uitgelegd hoe entiteitsgegevens in Microsoft Excel openen en vervolgens bekijken, bijwerken en de gegevens bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. U opent de entiteitsgegevens, kunt u starten vanuit Excel of Microsoft Dynamics 365 voor bewerkingen.
+title: De Excel-invoegtoepassing gebruiken
+description: In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Om de entiteitsgegevens te openen, kunt u beginnen vanuit Excel of Microsoft Dynamics 365 for Operations.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,69 +24,69 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-the-excel-add-in"></a>Gebruik het Excel-invoegtoepassing
+# <a name="use-the-excel-add-in"></a>De Excel-invoegtoepassing gebruiken
 
-In dit onderwerp wordt uitgelegd hoe entiteitsgegevens in Microsoft Excel openen en vervolgens bekijken, bijwerken en de gegevens bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. U opent de entiteitsgegevens, kunt u starten vanuit Excel of Microsoft Dynamics 365 voor bewerkingen.
+In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Om de entiteitsgegevens te openen, kunt u beginnen vanuit Excel of Microsoft Dynamics 365 for Operations.
 
-Als u entiteitsgegevens in Microsoft Excel opent, kunt u snel en eenvoudig weergeven en bewerken van de gegevens via de Microsoft Dynamics Office-invoegtoepassing voor Excel. Deze invoegtoepassing moet Microsoft Excel 2016. **opmerking:** als uw pachters Microsoft Azure Active Directory (AD Azure) is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de mei 2016-update is toegepast, zodat de Excel-invoegtoepassing kunt correct aanmelden.
+Als u entiteitsgegevens in Microsoft Excel opent, kunt u deze snel en eenvoudig bekijken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Voor deze invoegtoepassing is Microsoft Excel 2016 vereist. **Opmerking:** Als uw Microsoft Azure AD-tenant (Azure Active Directory) is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de update van mei 2016 is toegepast, zodat de Excel-invoegtoepassing u correct kan aanmelden.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Entiteitsgegevens in Excel geopend bij het starten van Dynamics 365 for Operations
-1.  Klik op een pagina in Microsoft Dynamics 365 voor bewerkingen op **openen in Microsoft Office**. Als de hoofdgegevensbron (tabel) voor de pagina gelijk aan de hoofdgegevensbron voor alle entiteiten is, standaard **openen in Excel** opties voor de pagina worden gegenereerd. **Open in Excel** opties kunnen u vinden op veelgebruikte pagina's, zoals **alle leveranciers** en **alle klanten**.
-2.  Klik op een **in Excel geopend** optie en open de werkmap die wordt gegenereerd. Deze werkmap heeft bindende gegevens voor de entiteit, een verwijzing naar uw omgeving en een verwijzing naar de Excel-invoegtoepassing.
-3.  In Excel, klikt u op **bewerken inschakelen** waarmee de Excel-invoegtoepassing moet worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
-4.  Als u de Excel-invoegtoepassing voor de eerste keer uitvoert, klikt u op **deze invoegtoepassing vertrouwt**.
-5.  Als u wordt gevraagd aan te melden, klikt u op **inloggen**, en meld u vervolgens aan met behulp van dezelfde referenties die u gebruikt voor aanmelding bij Dynamics 365 for Operations. De Excel-invoegtoepassing gebruikt een vorige teken in context vanuit Internet Explorer en automatisch aanmelden, als dat mogelijk is. Controleer daarom of de gebruikersnaam in de rechterbovenhoek van het Excel-invoegtoepassing.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Entiteitsgegevens in Excel openen vanuit Dynamics 365 for Operations
+1.  Klik op een pagina in Microsoft Dynamics 365 for Operations op **Openen in Microsoft Office**. Als de hoofdgegevensbron (tabel) voor de pagina dezelfde is als de hoofdgegevensbron voor enige entiteiten, worden standaardopties voor **Openen in Excel** voor de pagina gegenereerd. **Open in Excel**-opties vindt u op veelgebruikte pagina's, zoals **Alle leveranciers** en **Alle klanten**.
+2.  Klik op een **Openen in Excel**-optie en open de werkmap die wordt gegenereerd. Deze werkmap heeft bindingsgegevens voor de entiteit, een verwijzing naar uw omgeving en een verwijzing naar de Excel-invoegtoepassing.
+3.  Klik in Excel op **Bewerken inschakelen** zodat de Excel-invoegtoepassing kan worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
+4.  Als u de Excel-invoegtoepassing voor de eerste keer uitvoert, klikt u op **Deze invoegtoepassing vertrouwen**.
+5.  Als u wordt gevraagd om u aan te melden, klikt u op **Aanmelden**. Vervolgens meldt u zich aan met dezelfde referenties die u gebruikt voor aanmelding bij Dynamics 365 for Operations. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van Internet Explorer om u automatisch aan te melden. Controleer daarom de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing.
 
-De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u hebt geselecteerd. Houd er rekening mee dat er geen gegevens in de werkmap worden totdat wordt gelezen in de Excel-invoegtoepassing.
+De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u hebt geselecteerd. Houd er rekening mee dat de werkmap geen gegevens bevat, totdat de Excel-invoegtoepassing deze inleest.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Entiteitsgegevens in Excel geopend bij het starten van Excel
-1.  In Excel op de **invoegen** tabblad in het **Add-ins** groep, klikt u op **winkel** de Office-winkel wilt openen.
-2.  In de winkel Office het trefwoord 'Dynamics', en klik op **Add** naast de **Microsoft Dynamics Office-invoegtoepassing** (de Excel-invoegtoepassing).
-3.  Als u de Excel-invoegtoepassing voor de eerste keer uitvoert, klikt u op **deze invoegtoepassing vertrouwt** zodat de Excel-invoegtoepassing moet worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
-4.  Klik op **servergegevens toevoegen** opent de **opties** deelvenster.
-5.  De browser-URL van uw doel Dynamics 365 voor bewerkingen exemplaar kopiëren en plakken, deze in de **Server-URL** veld en verwijdert u alle informatie na de hostnaam (bijvoorbeeld verwijderen **/? cmp = usmf & mi = CustTableListPage**). De resulterende URL moet de host-naam (bijvoorbeeld **https://xxx.dynamics.com**).
-6.  Klik op **OK**, en klik vervolgens op **Ja** de wijziging te bevestigen. De Excel toevoegen opnieuw opstarten en metagegevens worden geladen. De **ontwerp** knop is nu beschikbaar. Als de Excel-invoegtoepassing heeft een **Laad toepassingen** knop, u waarschijnlijk niet zijn aangemeld als de juiste gebruiker. Zie 'de knop laden invoegtoepassingen weergegeven' in de sectie 'Problemen oplossen' van dit onderwerp voor meer informatie.
-7.  Klik op **ontwerp**. De Excel-invoegtoepassing haalt entiteit metagegevens.
-8.  Klik op **tabel toevoegen**. Een lijst met entiteiten weergegeven. De entiteiten worden weergegeven in de indeling 'Label naam:'.
-9.  Selecteer een entiteit in de lijst, zoals **klant - klanten**, en klik vervolgens op **volgende**.
-10. Toevoegen van een veld uit de **beschikbare velden** lijst aan de **velden geselecteerd** lijst, klik op het veld en klik vervolgens op **toevoegen**. Ook dubbelklikken op het veld.
-11. Nadat u de gewenste velden hebt toegevoegd de **velden geselecteerd** lijst, zorgen dat de cursor op de juiste plaats in het werkblad (bijvoorbeeld cel A1) en klik vervolgens op **doen**. Klik vervolgens op **doen** om af te sluiten van de ontwerper.
-12. Klik op **vernieuwen** ophalen van gegevens.
+## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Entiteitsgegevens in Excel openen vanuit Excel
+1.  Klik in Excel op het tabblad **Invoegen** in de groep **Invoegtoepassingen** op **Store** om de Office-store te openen.
+2.  Zoek in de Office Store op het trefwoord 'Dynamics' en klik op **Toevoegen** naast de **Microsoft Dynamics Office-invoegtoepassing** (de Excel-invoegtoepassing).
+3.  Als u de Excel-invoegtoepassing voor de eerste keer uitvoert, klikt u op **Deze invoegtoepassing vertrouwen** zodat de Excel-invoegtoepassing kan worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
+4.  Klik op **Servergegevens toevoegen** om het deelvenster **Opties** te openen.
+5.  Kopieer de browser-URL van uw doel-exemplaar van Dynamics 365 for Operations, plak deze in het veld **Server-URL** en verwijder alle gegevens achter de hostnaam, zoals bijvoorbeeld **/? cmp = usmf & mi = CustTableListPage**). De resulterende URL moet alleen de hostnaam bevatten, bijvoorbeeld **https://xxx.dynamics.com**.
+6.  Klik op **OK** en vervolgens op **Ja** om de wijziging te bevestigen. De Excel-invoegtoepassing wordt opnieuw opgestart en metagegevens worden geladen. De knop **Ontwerpen** is nu beschikbaar. Als de Excel-invoegtoepassing een knop **Applets laden** bevat, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Zie voor meer informatie de paragraaf 'De knop Applets laden wordt getoond' in de sectie 'Problemen oplossen' in dit onderwerp.
+7.  Klik op **Ontwerpen**. De Excel-invoegtoepassing haalt entiteit metagegevens op.
+8.  Klik op **Tabel toevoegen**. Een lijst met entiteiten wordt geopend. De entiteiten worden weergegeven in de indeling 'Naam - label'.
+9.  Selecteer een entiteit in de lijst, zoals **Klant - Klanten** en klik op **Volgende**.
+10. Als u een veld uit de lijst **Beschikbare velden** wilt toevoegen aan de lijst **Geselecteerde velden**, klikt u op het gewenste veld en vervolgens op **Toevoegen**. U kunt ook dubbelklikken op het gewenste veld.
+11. Nadat u de gewenste velden hebt toegevoegd aan de lijst **Geselecteerde velden**, controleert u of de cursor op de juiste plaats in het werkblad staat (bijvoorbeeld cel A1) en klikt u op **Gereed**. Klik daarna op **Gereed** om de ontwerper af te sluiten.
+12. Klik op **Vernieuwen** om een reeks gegevens op te halen.
 
-## <a name="view-and-update-entity-data-in-excel"></a>Gegevens van de entiteit wilt weergeven en bijwerken in Excel
-Nadat u de Excel-invoegtoepassing leest entiteitsgegevens in de werkmap, kunt u de gegevens op elk gewenst moment bijwerken door te klikken op **vernieuwen** in de Excel-invoegtoepassing.
+## <a name="view-and-update-entity-data-in-excel"></a>Entiteitsgegevens weergeven en bijwerken in Excel
+Nadat u de Excel-invoegtoepassing entiteitsgegevens in de werkmap heeft ingelezen, kunt u deze op elk gewenst moment bijwerken door te klikken op **Vernieuwen** in de Excel-invoegtoepassing.
 
 ## <a name="edit-entity-data-in-excel"></a>Entiteitsgegevens in Excel bewerken
-Wijzigt u entiteitsgegevens die u nodig en deze vervolgens publiceren weer door te klikken op **publiceren** in de Excel-invoegtoepassing. Een record bewerken, selecteer een cel in het werkblad en wijzig de celwaarde. Als u wilt een nieuwe record toevoegt, volgt u een van deze stappen:
+U kunt naar wens entiteitsgegevens bewerken en deze vervolgens weer publiceren, door te klikken op **Publiceren** in de Excel-invoegtoepassing. Om een record te bewerken, selecteert u een cel in het werkblad en wijzigt u de celwaarde. Als u een nieuwe record wilt toevoegen, volgt u een van deze stappen:
 
--   Klik ergens in het werkblad en klik vervolgens op **New** in de Excel-invoegtoepassing.
--   Klik in de laatste rij van het werkblad en druk vervolgens op de Tab-toets totdat de cursor uit de laatste kolom van die rij verplaatst en een nieuwe rij wordt gemaakt.
--   Klik in de rij direct onder het werkblad en beginnen met het invoeren van gegevens in een cel. Wanneer u de focus uit die cel verplaatst, uitgebreid het werkblad met de nieuwe rij.
+-   Klik ergens in het werkblad en klik vervolgens op **Nieuw** in de Excel-invoegtoepassing.
+-   Klik in de laatste rij van het werkblad en druk vervolgens op de Tab-toets totdat de cursor uit de laatste kolom van die rij wordt verplaatst en een nieuwe rij wordt gemaakt.
+-   Klik in de rij direct onder het werkblad en begin gegevens in te voeren in een cel. Wanneer u de focus uit die cel verplaatst, wordt het werkblad uitgebreid met de nieuwe rij.
 
-Als u wilt een record verwijdert, volgt u een van deze stappen:
+Als u een record wilt verwijderen, volgt u een van deze stappen:
 
--   Met de rechtermuisknop op het rijnummer naast de rij in het werkblad wilt verwijderen en klik vervolgens op **verwijderen**.
--   Met de rechtermuisknop in de rij in het werkblad wilt verwijderen en klik vervolgens op **verwijderen**&gt;**tabelrijen**.
+-   Klik met de rechtermuisknop op het rijnummer naast de rij in het werkblad die u wilt verwijderen en klik vervolgens op **Verwijderen**.
+-   Klik met de rechtermuisknop in de rij in het werkblad die u wilt verwijderen en klik vervolgens op **Verwijderen** &gt; **Tabelrijen**.
 
 ## <a name="add-or-remove-columns"></a>Kolommen toevoegen of verwijderen
-U kunt de ontwerper gebruiken als u de kolommen die automatisch worden toegevoegd aan het werkblad.
+Met de ontwerper kunt u de kolommen aanpassen die automatisch worden toegevoegd aan het werkblad.
 
-1.  De ontwerper van de bron van de invoegtoepassing voor Excel starten door te klikken op de **opties** knop (het symbool van de versnelling) en vervolgens te klikken op de **ontwerp schakelen** selectievakje.
-2.  Klik op **ontwerp** in de Excel-invoegtoepassing. Alle gegevensbronnen worden weergegeven.
-3.  Naast de gegevensbron, klikt u op de **bewerken** knop (het potloodsymbool).
-4.  Aanpassen van de lijst in de **velden geselecteerd** als u nodig hebt:
-    -   Toevoegen van een veld uit de **beschikbare velden** lijst aan de **velden geselecteerd** lijst, klik op het veld en klik vervolgens op **toevoegen**. Ook dubbelklikken op het veld.
-    -   Als u wilt verwijderen van een veld uit de **velden geselecteerd** lijst, klik op het veld en klik vervolgens op **verwijderen**. Ook dubbelklikken op het veld.
-    -   De volgorde van velden, klikt u op het veld in de **velden geselecteerd** lijst en klik vervolgens op **van** of **omlaag**.
+1.  Start de gegevensbronontwerper van de Excel-invoegtoepassing door te klikken op de knop **Opties** (het tandwielsymbool). Schakel vervolgens het selectievakje **Ontwerpen inschakelen** in.
+2.  Klik op **Ontwerpen** in de Excel-invoegtoepassing. Alle gegevensbronnen worden vermeld.
+3.  Klik naast de gegevensbron op de knop **Bewerken** (het potloodsymbool).
+4.  Pas de lijst in de lijst **Geselecteerde velden** aan:
+    -   Als u een veld uit de lijst **Beschikbare velden** wilt toevoegen aan de lijst **Geselecteerde velden**, klikt u op het gewenste veld en vervolgens op **Toevoegen**. U kunt ook dubbelklikken op het gewenste veld.
+    -   Als u een veld wilt verwijderen, selecteert u het veld in de lijst tabblad **Geselecteerde velden** en vervolgens op **Verwijderen**. U kunt ook dubbelklikken op het gewenste veld.
+    -   Als u de volgorde van velden wilt wijzigen, klikt u op het veld in de lijst **Geselecteerde velden** lijst en vervolgens op **Omhoog** of **Omlaag**.
 
-5.  De wijzigingen toepassen op de gegevensbron door te klikken op **Update**. Klik vervolgens op **doen** om af te sluiten van de ontwerper. Als u een veld (kolom) toegevoegd, klikt u op **vernieuwen** ophalen van een bijgewerkte set gegevens.
+5.  Voer de wijzigingen door in de gegevensbron door te klikken op **Bijwerken**. Klik daarna op **Gereed** om de ontwerper af te sluiten. Als u een veld (kolom) hebt toegevoegd, klikt u op **Vernieuwen** om een bijgewerkte set gegevens op te halen.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Troubleshooting
-Er zijn enkele problemen die kunnen worden opgelost door enkele eenvoudige stappen.
+## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Problemen oplossen
+Er zijn enkele problemen die kunnen worden opgelost met enkele eenvoudige stappen.
 
--   **De knop laden invoegtoepassingen wordt weergegeven.** Als de Excel-invoegtoepassing heeft een **Laad toepassingen** knop na inloggen, u waarschijnlijk niet zijn aangemeld als de juiste gebruiker. Controleer of de juiste gebruikersnaam verschijnt in de rechterbovenhoek van het Excel-invoegtoepassing dit probleem op te lossen. Als een onjuiste gebruikersnaam wordt weergegeven, klikt u erop, meldt u af en vervolgens opnieuw aanmelden.
--   **U ontvangt een bericht ''.** Als het foutbericht '' weergegeven wanneer de Excel-invoegtoepassing wordt geladen metagegevens, de rekening die is aangemeld bij de Excel-invoegtoepassing niet gemachtigd om te gebruiken de beoogde service, de instantie of de database. Controleer of de juiste gebruikersnaam verschijnt in de rechterbovenhoek van het Excel-invoegtoepassing dit probleem op te lossen. Als een onjuiste gebruikersnaam wordt weergegeven, klikt u erop, meldt u af en vervolgens opnieuw aanmelden.
--   **Een lege webpagina wordt weergegeven via Excel.** Als een lege webpagina wordt geopend tijdens het aanmelden, wordt de account is vereist voor AD FS, maar de versie van Excel met de invoegtoepassing niet recent genoeg om te laden in het dialoogvenster aanmelden. Werk de versie van Excel die u gebruikt dit probleem op te lossen. Gebruiken om te werken de versie van Excel in een onderneming die zich op het uitgestelde kanaal, de [Office deployment tool](https://technet.microsoft.com/library/jj219422.aspx) naar [van de uitgestelde kanaal verplaatsen naar het huidige kanaal](https://technet.microsoft.com/library/mt455210.aspx).
+-   **De knop Applets laden wordt getoond.** Als de Excel-invoegtoepassing een knop **Applets laden** toont nadat u zich hebt aangemeld, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, klikt u erop, meldt u zich af en vervolgens weer aan met de juiste gebruiker.
+-   **U ontvangt een melding 'Verboden'.** Als u het foutbericht 'Verboden' krijgt wanneer de Excel-invoegtoepassing metagegevens laadt, is de account die is aangemeld bij de Excel-invoegtoepassing niet gemachtigd om de beoogde service, instantie of database te gebruiken. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, klikt u erop, meldt u zich af en vervolgens weer aan met de juiste gebruiker.
+-   **Een lege webpagina wordt weergegeven via Excel.** Als een lege webpagina wordt geopend tijdens het aanmelden, vereist de account AD FS maar is de versie van Excel waarin u de invoegtoepassing uitvoert niet recent genoeg om het aanmeldingsvenster weer te geven. Werk Excel bij naar een meer recente versie. Als u de versie van Excel wilt bijwerken wanneer u werkt in een onderneming die zich op het Deferred-kanaal bevindt, wijzigt u met het [hulpprogramma Office Deployment](https://technet.microsoft.com/library/jj219422.aspx) van [het Deferred-kanaal naar het Current-kanaal](https://technet.microsoft.com/library/mt455210.aspx).
 
 
 

@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Inkooporders voor een project
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel beschrijft de verschillende methoden die u kunt gebruiken om inkooporders voor een project te maken. De methode die u gebruikt, wordt bepaald door het doel van de inkooporder, wanneer de gekochte artikelen worden verbruikt, en wanneer ze bij een project in rekening worden gebracht.
 
-In Microsoft Dynamics 365 voor bewerkingen, kunt u meerdere methoden gebruiken om inkooporders voor een project te maken. De methode die u gebruikt, wordt bepaald door het doel van de inkooporder, wanneer de gekochte artikelen worden verbruikt, en wanneer ze bij een project in rekening worden gebracht.
+In Microsoft Dynamics 365 for Operations kunt u meerdere methoden gebruiken om inkooporders voor een project te maken. De methode die u gebruikt, wordt bepaald door het doel van de inkooporder, wanneer de gekochte artikelen worden verbruikt, en wanneer ze bij een project in rekening worden gebracht.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Methoden voor de aanmaak van een inkooporder
 
@@ -71,6 +74,8 @@ U kunt op een van de volgende manieren een inkooporder in Projectbeheer en boekh
 </table>
 
 > [!NOTE] 
-> Wanneer u de leveranciersfactuur of pakbon bijwerkt, wordt u gevraagd de pakbon op de artikelbehoefte te werken.
+> Wanneer u de leveranciersfactuur of pakbon bijwerkt, wordt u gevraagd de pakbon op de artikelbehoefte bij te werken.
+
+
 
 

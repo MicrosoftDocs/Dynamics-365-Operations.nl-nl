@@ -59,5 +59,5 @@ De volgende beperkingen gelden wanneer u koppelingen maakt in boekingsdefinities
 -   U kunt een boekingsdefinitie toewijzen aan ieder transactietype, maar het transactietype moet zich in dezelfde module bevinden als de boekingsdefinitie. Gebruik de pagina **Boekdefinities voor transacties** om te zien in welke module een transactietype zich bevindt.
 
 
-Zie voor meer informatie [voor het boeken van definities voorbeelden](/general-ledger/example-posting-definitions.md). 
+Zie voor meer informatie [Voorbeelden van boekingsdefinities](/general-ledger/example-posting-definitions.md). 
 

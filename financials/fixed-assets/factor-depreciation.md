@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Factorafschrijving
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft een overzicht van de factorafschrijvingsmethode.
 
 Factoren zijn de percentages die worden gebruikt om activa af te schrijven. Wanneer u een profiel voor de afschrijving van vaste activa instelt en de waarde **Factor** selecteert in het veld **Methode** op de pagina**Afschrijvingsprofielen**, kunt u progressieve, degressieve of lineaire afschrijving instellen:
@@ -39,7 +42,7 @@ Factoren zijn de percentages die worden gebruikt om activa af te schrijven. Wann
 De onderstaande regels en voorbeelden geven aan hoe u factoren voor elk type afschrijving in kunt stellen. 
 
 > [!NOTE] 
-> Wanneer u selecteert **Factor** in de **methode** veld, de **Factor** veld en de **Interval** veld worden weergegeven.
+> Wanneer u **Factor** selecteert in het veld **Methode**, worden de velden **Factor** en **Interval** weergegeven.
 
 ## <a name="progressive-depreciation"></a>Progressieve afschrijving
 De waarde in het veld **Factor** is groter dan **50**.
@@ -75,5 +78,7 @@ De aanschafprijs is 100.000, de factor is 20, de levensduur van de service is 10
 
 ## <a name="straight-line-depreciation"></a>Lineaire afschrijving
 De waarde in het veld **Factor** is gelijk aan **50**. In dit geval is de afschrijving in elke periode hetzelfde en u moet rekening houden met de implicaties van de waarden die u hebt opgegeven in andere velden, zoals beschreven in [Lineaire afschrijving van levensduur](straight-line-service-life-depreciation.md).
+
+
 
 

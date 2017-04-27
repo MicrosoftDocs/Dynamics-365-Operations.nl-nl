@@ -1,5 +1,5 @@
 ---
-title: Vaste activa-transactie-opties
+title: Opties voor vaste-activatransacties
 description: In dit artikel worden de beschikbare methoden vor het maken van vaste-activatransacties beschreven.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fixed-asset-transaction-options"></a>Vaste activa-transactie-opties
+# <a name="fixed-asset-transaction-options"></a>Opties voor vaste-activatransacties
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel worden de beschikbare methoden vor het maken van vaste-activatransacties beschreven.
 
@@ -36,7 +39,7 @@ U kunt vaste activa instellen voor integratie met crediteuren, debiteuren, inkoo
 U kunt transacties voor vaste activa invoeren op de pagina Journaalboekstuk. Deze pagina kan worden geopend vanuit de pagina Factuurjournaal. U kunt de pagina Journaalboekstuk ook openen via de pagina Factuurgoedkeuringsjournaal. Selecteer Vaste activa in het veld Tegenrekeningtype. Selecteer vervolgens een nummer voor vaste activa in het veld Tegenrekening. Voer op het tabblad Vaste activa waarden in het veld Transactietype en Boek in.
 
 ## <a name="accounts-receivable"></a>Klanten  
-U kunt transacties voor vaste activa in de pagina vrije-tekstfacturen factuur invoeren.  Selecteer een regelartikel in de pagina vrije-tekstfacturen factuur in het raster van de regels factuur. Klik op het sneltabblad Regeldetails. Geef het VA-nummer en boek op voor de afboekingstransactie. Voor facturen met vrije tekst is het vaste-activatransactietype altijd Verkoop/afstoting.
+U kunt transacties voor vaste activa invoeren op de pagina Vrije-tekstfactuur.  Selecteer een regelartikel op de pagina Vrije-tekstfactuur in het raster met factuurregels. Klik op het sneltabblad Regeldetails. Geef het VA-nummer en boek op voor de afboekingstransactie. Voor facturen met vrije tekst is het vaste-activatransactietype altijd Verkoop/afstoting.
 
 ## <a name="procurement-and-sourcing"></a>Inkoopbeheer
 U kunt transacties voor vaste activa invoeren op de pagina Inkooporder. Voer de vereiste informatie in om een inkooporder te maken en klik op OK. Klik op de pagina Inkooporder op het sneltabblad Regeldetails. Geef vervolgens op het tabblad Vaste activa informatie op over het vaste activum. 
@@ -65,6 +68,8 @@ Elk type vaste-activatransactie kan worden geboekt op de Algemeen journaal. Ook 
 
 
 
-Zie voor meer informatie [vaste activa-integratie](fixed-asset-integration.md).
+Zie [Integratie vaste activa](fixed-asset-integration.md) voor meer informatie.
+
+
 
 

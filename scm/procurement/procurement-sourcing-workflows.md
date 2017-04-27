@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-workflows"></a>Workflows voor inkoopbeheer
 
+[!include[banner](../includes/banner.md)]
+
+
 Bepaalde organisaties vereisen dat opdrachten tot inkoop en inkooporders worden goedgekeurd door een andere gebruiker dan de persoon die de transactie heeft ingevoerd. U kunt een budgetteringsworkflow maken om een workflow in te stellen.
 
 Een workflow vertegenwoordigt een bedrijfsproces. Een werkstroom definieert hoe een document zich door het systeem begeeft en geeft aan wie een taak moet voltooien of een document moet goedkeuren. Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen op:
 -   **Consistente processen**: u kunt het goedkeuringsproces voor specifieke documenten definiëren, zoals opdrachten tot inkoop en onkostennota's. Door gebruik van het werkstroomsysteem garandeert u dat documenten op een consistente, efficiënte manier worden verwerkt en goedgekeurd.
 -   **Zichtbaarheid van processen**: met het werkstroomsysteem kunt u de status, historie en prestatiegegevens van een specifiek workflowexemplaar volgen. Op deze manier kunt u bepalen of de werkstroom moet worden gewijzigd om de efficiëntie te verbeteren.
--   **Gecentraliseerde werklijst**— gebruikers kunnen een gecentraliseerde werklijst raadplegen om weer te geven welke workflowtaken en goedkeuringen aan hen zijn toegewezen via alle werkstromen ze deelnemen weergeven. Deze functie is beschikbaar in de pagina van de artikelen werken.
+-   **Gecentraliseerde werklijst**— Gebruikers kunnen een gecentraliseerde werklijst raadplegen die werkstroomtaken en goedkeuringen weergeven die aan hen zijn toegewezen in alle werkstromen waaraan ze deelnemen. Dit is beschikbaar op de pagina Werkitems.
 
 ## <a name="the-types-of-workflows-that-you-can-create"></a> De typen werkstromen die u kunt maken
 De volgende workflowtypen zijn beschikbaar voor Inkoop en sourcing.
@@ -46,7 +49,7 @@ De volgende workflowtypen zijn beschikbaar voor Inkoop en sourcing.
 | Workflow voor inkooporderregels     | Controle- en goedkeuringsworkflows maken voor inkooporderregels. |
 
 ## <a name="creating-a-workflow"></a>Een werkstroom maken
-Als u wilt een werkstroom maakt, gaat u naar de inkoop en sourcing &gt;Setup &gt;voor inkoop en sourcing workflows en een nieuwe workflow maken door te selecteren van het type workflow dat u wilt maken.  
+Om een werkstroom te maken, gaat u naar Inkoop en sourcing &gt; Instellingen &gt; Werkstromen voor inkoop en sourcing en maakt u een nieuwe werkstroom door het type werkstroom te selecteren dat u wilt maken.  
 
 U kunt in het werkstroomcanvas werkstroomelementen in de ontwerper slepen en de elementen in een stroom koppelen. De werkstroomelementen moeten worden geconfigureerd. Voor goedkeurings- en taakwerkstroomelementen kunt u configureren welke deelnemer de actie moet uitvoeren.
 Typen deelnemers
@@ -69,6 +72,8 @@ U kunt een goedkeuringsstap toewijzen aan de volgende groepen deelnemers.
 
 [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Werkstroom voor opdrachten tot inkoop](purchase-requisitions-workflow.md)
+
+
 
 

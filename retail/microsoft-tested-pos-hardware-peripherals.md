@@ -1,5 +1,5 @@
 ---
-title: POS-randapparatuur
+title: Randapparatuur POS-hardware
 description: Retail Modern POS en Cloud POS kunnen een grote verscheidenheid aan POS-randapparatuur met meerdere interfaces en implementatieopties gebruiken om in te spelen op verschillende bedrijfsscenario&quot;s van retailers.
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>POS-randapparatuur
+# <a name="pos-hardware-peripherals"></a>Randapparatuur POS-hardware
+
+[!include[banner](includes/banner.md)]
+
 
 Retail Modern POS en Cloud POS kunnen een grote verscheidenheid aan POS-randapparatuur met meerdere interfaces en implementatieopties gebruiken om in te spelen op verschillende bedrijfsscenario's van retailers. 
 
@@ -63,6 +66,8 @@ De volgende lijst bevat apparaatmodellen, in elke klasse, die intern zijn getest
 
 -   Streepjescode – Honeywell 1900, HP LS2208
 -   MSR – Magtek PN - 21073075
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Een lean organisatie modelvariabelen
+title: Een lean organisatie modelleren
 description: Het artikel bevat informatie over de belangrijkste concepten bij het modelleren van een lean organisatie.
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="modeling-a-lean-organization"></a>Een lean organisatie modelvariabelen
+# <a name="modeling-a-lean-organization"></a>Een lean organisatie modelleren
 
 Het artikel bevat informatie over de belangrijkste concepten bij het modelleren van een lean organisatie. 
 
@@ -35,7 +35,7 @@ Een lean manufacturingscenario is meestal meer dan alleen een verzameling van ni
 ## <a name="production-flows-in-lean-manufacturing"></a>Productiestromen in lean manufacturing
 In productiescenario's die zijn gebaseerd op productieorders, worden materialen uitgegeven aan een specifieke productieorder. Tijdens een reeks bewerkingen die is gebaseerd op een stuklijst en routes worden producten gemaakt en ten slotte ontvangen op de verschafte locatie. De doorvoertijd van productieorders varieert in bereiken van minuten tot weken. Alle gerelateerde kosten, materiaal en arbeid worden samengevoegd op de productieorder. Om de leveringsdoorlooptijden te verkorten en overmatige voorraad die wordt veroorzaakt door batchproductie tussen werkplaatsen te reduceren, introduceert lean manufacturing kanbanaanvulling en supermarkten in productie en magazijnaanvulling. Deze functies onderbreken meestal de productie van gedeeltelijk onafhankelijke kanbancycli. De aanvulling van een kanban voor een halffabricaat wordt niet meer geactiveerd door een order voor een eindproduct. Om een productie- en kostprijs-context te maken voor de verschillende kanbanscenario's die worden voorgesteld in Microsoft Dynamics AX, zijn de activiteitgebaseerde productiestromen geïntroduceerd als de basis van lean manufacturing. Alle kanbanregels verwijzen naar deze vooraf gedefinieerde structuur. Het op activiteit gebaseerde model ondersteunt de instelling van een breder bereik van scenario's dan door eerdere versies van lean manufacturing werd ondersteund voor Dynamics AX. Dit model voegt echter geen complexiteit toe voor de werkvloerwerknemers, omdat alle scenario's gebruikmaken van dezelfde op activiteiten gebaseerde gebruikersinterface.
 
-## <a name="semifinished-products-nonbom-levels"></a>Halfvoltooide producten (nonBOM niveaus)
+## <a name="semifinished-products-nonbom-levels"></a>Halffabricaten (niet-stuklijstniveaus)
 Lean manufacturing voor Dynamics AX integreert kanbans voor geïnventariseerde producten en halffabricaten in één raamwerk, een biedt daarmee een uniforme gebruikerservaring voor alle aanvragen. Vanwege deze architectuur, hoeven geen extra stuklijstniveaus meer te worden opgegeven om het gebruik van kanbans mogelijk te maken voor halffabricaten. Deze architectuur helpt tevens de voorraadtransacties tot een minimum te beperken.
 
 ## <a name="products-and-material-in-work-in-progress"></a>Producten en materiaal in onderhanden werk
@@ -51,6 +51,6 @@ De periodieke consolidatie van de kosten voor een productiestroom corrigeert de 
 Om u doorlopende betere ondersteuning te kunnen bieden, worden de productiestromen geïmplementeerd in tijdeffectieve versies. Daarom kan een bestaande productiestroomversie, samen met alle gerelateerde kanbanregels, worden gekopieerd naar een toekomstige versie van de productiestroom. Bovendien kan de productiestroom voor de toekomstige status worden gemodelleerd voordat deze wordt gevalideerd en geactiveerd voor productie. Bestaande kanbans van oude productiestroomversies worden automatisch gekoppeld aan de nieuwe versie om te zorgen voor een naadloze materiaalstroom op de overgangsdatum en daarna.
 
 ## <a name="simplicity"></a>Eenvoud
-Voor de implementatie van Lean manufacturing voor Dynamics AX kiest u een productie-stroom en activiteit aanpak waarmee eenvoudige en complexe productie blijken te worden gemodelleerd in een enkel schaalbare architectuur. Nadere kennismaking met het concept activiteit blijkt dat een nieuwe vereenvoudiging voor gebruikers die dit nodig is: de productie en logistiek werknemers. Door op basis van op activiteit gebaseerde taken te rapporteren in plaats van op voorraadtransacties, verplaatst een gecombineerde gebruikersinterface voor alle lean manufacturing-varianten de bedrijfscomplexiteit van de gebruikersinterface naar waar deze thuishoort: de productiestroom als backbone van lean manufacturing.
+Voor de implementatie van Lean Manufacturing voor Dynamics AX, hebben we een productiestroom- en -activiteitbenadering gekozen die modellering mogelijk maakt van eenvoudige en complexe productiescenario's in één schaalbare architectuur. Een nauwkeuriger blik op het concept activiteit toont een nieuwe eenvoud voor de gebruikers die dit nodig hebben: de werkvloer en de logistiekwerknemers. Door op basis van op activiteit gebaseerde taken te rapporteren in plaats van op voorraadtransacties, verplaatst een gecombineerde gebruikersinterface voor alle lean manufacturing-varianten de bedrijfscomplexiteit van de gebruikersinterface naar waar deze thuishoort: de productiestroom als backbone van lean manufacturing.
 
 

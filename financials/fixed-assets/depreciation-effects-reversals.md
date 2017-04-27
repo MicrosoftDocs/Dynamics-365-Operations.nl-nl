@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Afschrijvingseffecten met omkeringen
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden mogelijke implicaties van het terugboeken van een vaste-activatransactie beschreven. 
 
 U kunt vaste-activatransacties omkeren, net als de transacties die zijn gekoppeld aan een vast activum. U kunt een omgekeerde transactie ook intrekken. 
@@ -90,6 +93,8 @@ De afschrijving is 16,95 (983,62 - 966,67) te laag.
 <a name="see-also"></a>Zie ook
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Afschrijving vaste activa](fixed-asset-depreciation.md)
+
+
 
 

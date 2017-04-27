@@ -1,6 +1,6 @@
 ---
 title: De resultaten van een vragenlijst bekijken en evalueren
-description: Dit onderwerp wordt uitgelegd hoe u kunt bekijken en evalueren van de resultaten van vragenlijsten die respondenten.
+description: In dit onderwerp wordt uitgelegd hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>De resultaten van een vragenlijst bekijken en evalueren
 
-Dit onderwerp wordt uitgelegd hoe u kunt bekijken en evalueren van de resultaten van vragenlijsten die respondenten. 
+In dit onderwerp wordt uitgelegd hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen. 
 
 Nadat de respondenten een vragenlijst hebben ingevuld, kunt u de resultaten van de vragenlijst op de volgende manieren bekijken en beoordelen:
 

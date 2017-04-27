@@ -1,5 +1,5 @@
 ---
-title: Bijwerken van de bank journaal samengestelde entiteit
+title: De samengestelde entiteit Bankjournaal bijwerken
 description: Gebruik de volgende stappen om het aanvullende veld BankTransactionType aan het samengestelde BankJournalEntity toe te voegen.
 author: twheeloc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Bijwerken van de bank journaal samengestelde entiteit
+# <a name="update-the-bank-journal-composite-entity"></a>De samengestelde entiteit Bankjournaal bijwerken
+
+[!include[banner](../includes/banner.md)]
+
 
 Gebruik de volgende stappen om het aanvullende veld BankTransactionType aan het samengestelde BankJournalEntity toe te voegen.
 
@@ -37,7 +40,7 @@ Gebruik de volgende stappen om het aanvullende veld BankTransactionType aan het 
     -   Tabel\\BankJournalHeaderStaging
     -   Tabel\\BankJournalLineStaging
 
-2.  Gegevensbeheer\\gegevens projecten
+2.  Gegevensbeheer\\gegevensprojecten.
     -   Maak het type **Banktransactie **voor de indeling **Brongegevens** beschikbaar.
         -   Indeling van brongegevens = XML-element
         -   Entiteitsnaam = Bankjournaal
@@ -49,6 +52,8 @@ Gebruik de volgende stappen om het aanvullende veld BankTransactionType aan het 
             -   Controleer of Banktransactietype is toegewezen van Bron aan Fasering.
 
 3.  Importeer het nieuwe afschrift.
+
+
 
 
 

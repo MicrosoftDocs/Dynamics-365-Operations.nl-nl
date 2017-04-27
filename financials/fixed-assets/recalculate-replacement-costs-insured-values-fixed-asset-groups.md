@@ -1,5 +1,5 @@
 ---
-title: Vervangingskosten en verzekerde waarden voor vaste-activagroepen opnieuw berekenen
+title: Vervangingskosten en verzekerde waarden voor vaste-activagroepen herberekenen
 description: In dit artikel wordt het proces toegelicht voor het bijwerken van de vervangingskosten en verzekerde waarden van vaste activa.
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Vervangingskosten en verzekerde waarden voor vaste-activagroepen opnieuw berekenen
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Vervangingskosten en verzekerde waarden voor vaste-activagroepen herberekenen
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt het proces toegelicht voor het bijwerken van de vervangingskosten en verzekerde waarden van vaste activa.
 
@@ -38,18 +41,18 @@ Als u de vervangingskosten en de verzekerde waarden voor vaste-activagroepen opn
 
 Wanneer u het formulier Vervangingskosten en verzekerde waarden bijwerken gebruikt om de vervangingskosten en de verzekerde waarde voor de activa opnieuw te berekenen, worden de volgende formules gebruikt:
 
--   \[(Factor vervangingskosten van activagroep / 100) + 1\]\* de bestaande vervangingskosten van activum
--   \[(De verzekerde-waardefactor van activagroep / 100) + 1\]\* bestaande verzekerde waarde van activum
+-   \[(Factor vervangingskosten van activagroep / 100) + 1\] \* Bestaande vervangingskosten van activum
+-   \[(Factor verzekerde waarde van activagroep / 100) + 1\] \* Bestaande verzekerde waarde van activum
 
 > [!NOTE] 
 > Wanneer u het formulier Vervangingskosten en verzekerde waarden bijwerken gebruikt, worden zowel de vervangingskosten als de verzekerde waarde voor de geselecteerde activa bijgewerkt. U kunt niet opgeven dat slechts één waarde moet worden bijgewerkt. Als u één waarde wilt handhaven en de andere waarde wilt bijwerken, voert u 0 (nul) als factor in het formulier Vaste-activagroepen in. Als u nul invoert, wordt de berekening tijdens de update overgeslagen. De boekwaarde en de nettoboekwaarde van vaste activa worden niet beïnvloed door de periodieke update. 
 
 ## <a name="how-to-use-a-date-to-select-which-items-to-update"></a>Een datum gebruiken om bij te werken artikelen te selecteren
-De geselecteerde activa die op de desbetreffende dag nog niet zijn bijgewerkt maar mogelijk wel zijn bijgewerkt op voorgaande dagen, worden standaard bijgewerkt. Bijvoorbeeld: &lt;vandaag betekent 'vóór vandaag'. U kunt de datum in de vervangingskosten en verzekerde waarden Updateformulier wijzigen door te klikken op de knop selecteren. De datumcriteria die u opgeeft, worden vergeleken met de datum van de laatste periodieke update voor het activum (het veld Laatste periodieke update waarde/kosten in het formulier Vaste activa). Elke keer dat u de vervangingskosten of de verzekerde waarde van een vast activum bijwerkt, wordt het veld Laatste periodieke update waarde/kosten automatisch bijgewerkt met de huidige datum. 
+De geselecteerde activa die op de desbetreffende dag nog niet zijn bijgewerkt maar mogelijk wel zijn bijgewerkt op voorgaande dagen, worden standaard bijgewerkt. Bijvoorbeeld: &lt; vandaag betekent 'vóór vandaag'. U kunt de datum in het formulier Vervangingskosten en verzekerde waarden bijwerken wijzigen door te klikken op de knop Selecteren. De datumcriteria die u opgeeft, worden vergeleken met de datum van de laatste periodieke update voor het activum (het veld Laatste periodieke update waarde/kosten in het formulier Vaste activa). Elke keer dat u de vervangingskosten of de verzekerde waarde van een vast activum bijwerkt, wordt het veld Laatste periodieke update waarde/kosten automatisch bijgewerkt met de huidige datum. 
 
 Voorbeeld 
 
-U hebt de vervangingskosten voor de groepen Voertuigen, Kantoormeubilair en Gebouwen gisteren bijgewerkt met 5 procent en u vindt nu dat deze activa correct zijn bijgewerkt. Deze als activa wilt uitsluiten wanneer u alle overige vaste activa vandaag bijwerkt, u een datum invoeren in het laatste veld van periodieke waarde/kosten-update is die vóór gisteren valt (&lt; datum van gisteren), omdat de laatste update voor de groepen voertuigen, Kantoormeubilair en gebouwen buiten de datumcriteria die u hebt ingevoerd.
+U hebt de vervangingskosten voor de groepen Voertuigen, Kantoormeubilair en Gebouwen gisteren bijgewerkt met 5 procent en u vindt nu dat deze activa correct zijn bijgewerkt. Als u deze activa wilt uitsluiten wanneer u alle overige vaste activa vandaag bijwerkt, geeft u een datum op in het veld Laatste periodieke update waarde/kosten die vóór gisteren valt (&lt; datum van gisteren) omdat de laatste periodieke update voor de groepen Voertuigen, Kantoormeubilair en Gebouwen buiten de opgegeven datumcriteria viel.
 
 ## <a name="cumulative-effect-of-each-update"></a>Cumulatief effect van elke update
 Elke update heeft een cumulatief effect. Plan de updates daarom zorgvuldig. Als u alle activa op dinsdag bijvoorbeeld met 3 procent verhoogt en het kantoormeubilair vervolgens met 4 procent verhoogt op vrijdag, komt de verhoging voor het kantoormeubilair in totaal uit op 7,12 procent.
@@ -72,6 +75,8 @@ De volgende dag vertelt uw manager u dat de computers zijn verlaagd met 8 procen
 
 > [!NOTE]  
 > U kunt de factor -10 niet omkeren door de positieve factor 10 (of de factor 2, het verschil tussen -10 en -8) in te voeren, omdat de bedragen niet worden berekend zoals u bedoelt. 
+
+
 
 
 

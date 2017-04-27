@@ -1,5 +1,5 @@
 ---
-title: Kortingen voor contante betaling voor overbetalingen verwerken
+title: Contantkorting voor te veel bedraagde betalingen verwerken
 description: Dit artikel biedt scenario&quot;s die laten zien hoe een betaling wordt uitgevoerd wanneer de klant een contantkorting neemt maar ook te veel betaalt.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Kortingen voor contante betaling voor overbetalingen verwerken
+# <a name="handling-cash-discounts-for-overpayments"></a>Contantkorting voor te veel bedraagde betalingen verwerken
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel biedt scenario's die laten zien hoe een betaling wordt uitgevoerd wanneer de klant een contantkorting neemt maar ook te veel betaalt. 
 
@@ -133,6 +136,8 @@ Het contantkortingsbedrag wordt verminderd van €10,50 tot €10,00. De betalin
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina **Contantkortingen**) | EUR 10,50        |               |
 | Klanten                                                                                |              | EUR 10,50         |
+
+
 
 
 

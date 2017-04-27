@@ -1,6 +1,6 @@
 ---
-title: Nieuwe of bijgewerkte taak handleidingen (augustus 2016)
-description: In dit onderwerp worden de nieuwe of bijgewerkte taak instructies die zijn vrijgegeven aan het Microsoft (augustus 2016 - alle talen) APQC centrale bibliotheek voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
+title: Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)
+description: In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (augustus 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-august-2016"></a>Nieuwe of bijgewerkte taak handleidingen (augustus 2016)
+# <a name="new-or-updated-task-guides-august-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)
 
-In dit onderwerp worden de nieuwe of bijgewerkte taak instructies die zijn vrijgegeven aan het Microsoft (augustus 2016 - alle talen) APQC centrale bibliotheek voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Taak doorloopt in de (augustus 2016 - alle talen) APQC centrale bibliotheek voor Microsoft Dynamics AX
+
+In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (augustus 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Taakbegeleidingen in de APQC Unified Library (augustus 2016, alle talen) voor Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
-De (augustus 2016 - alle talen) APQC centrale bibliotheek bevat de taak-instructies die moeten worden gebruikt voor hulp bij Microsoft Dynamics AX-platformupdate 2 (augustus 2016), de Dynamics AX application 2016 werken en de Microsoft Dynamics AX februari 2016 vrijgeven. Zie voor meer informatie over deze releases, [wat er nieuwe of gewijzigde](whats-new-changed.md). Vertaalde versies van de taak-instructies zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het aansluiten van het Help-systeem naar een bibliotheek taak handleiding [aan de slag met Help](help-overview.md).
+De APQC Unified Library (augustus 2016, alle talen) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij update 2 van het Microsoft Dynamics AX-platform (augustus 2016), de toepassingsupdate voor mei 2016 van Microsoft Dynamics AX en de release van Microsoft Dynamics AX voor februari 2016. Zie voor meer informatie over deze versies [Wat is nieuw of gewijzigd](whats-new-changed.md). Gelokaliseerde versies van de taakbegeleidingen zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
 
 ### <a name="data-access"></a>Gegevenstoegang
 
@@ -97,10 +100,12 @@ De (augustus 2016 - alle talen) APQC centrale bibliotheek bevat de taak-instruct
 <a name="see-also"></a>Zie ook
 --------
 
-[Nieuwe taak doorloopt (februari 2016)](new-task-guides-available-february-2016.md)
+[Nieuwe taakbegeleiders (februari 2016)](new-task-guides-available-february-2016.md)
 
-[Nieuwe of bijgewerkte taak doorloopt (mei 2016)](new-updated-task-guides-available-may-2016.md)
+[Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nieuwe of bijgewerkte taak doorloopt (November 2016)](new-task-guides-november-2016.md)
+[Nieuwe of bijgewerkte taakbegeleiders (november 2016)](new-task-guides-november-2016.md)
+
+
 
 

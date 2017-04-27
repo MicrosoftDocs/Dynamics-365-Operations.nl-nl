@@ -1,5 +1,5 @@
 ---
-title: Een model voor productconfiguratie instellen
+title: Een productconfiguratiemodel instellen
 description: In dit artikel worden de stappen beschreven voor het maken en instellen van een productconfiguratiemodel.
 author: YuyuScheller
 manager: AnnBe
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-product-configuration-model"></a>Een model voor productconfiguratie instellen
+# <a name="set-up-a-product-configuration-model"></a>Een productconfiguratiemodel instellen
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel worden de stappen beschreven voor het maken en instellen van een productconfiguratiemodel.
 
 | Taak                                                        | Omschrijving                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Maak een productmodel.                                    | Maak een productmodel vanuit de lijst **Productmodel**. Het productmodel op alle relevante bedrijven vrijgeven. Voor een productmodel dat wordt gebruikt als een versie voor een productconfiguratiemodel of als een subonderdeel **beperkingen gebaseerde configuratie** moet worden ingeschakeld omdat de configuratietechnologie en de configuratiedimensie moet alleen worden geselecteerd voor de productdimensiegroep. |
+| Maak een productmodel.                                    | Maak een productmodel vanuit de lijst **Productmodel**. Geef het productmodel vrij aan alle relevante bedrijven. Voor een productmodel dat wordt gebruikt als versie voor een productconfiguratiemodel of als subonderdeel, moet **Op beperkingen gebaseerde configuratie** als configuratietechnologie worden geselecteerd en moet de configuratiedimensie alleen voor de productdimensiegroep worden geselecteerd. |
 | Maak onderdelen.                                          | Maak onderdelen op de pagina **Onderdelen**. Onderdelen zijn de bouwstenen van een productconfiguratiemodel en kunnen opnieuw worden gebruikt in meerdere productconfiguratiemodellen.                                                                                                                                                                                                                      |
 | Maak kenmerktypen.                                     | Maak kenmerktypen op de pagina **Kenmerktypen**. Kenmerktypen bepalen de reeks gegevenstypen voor alle kenmerken die worden gebruikt in productconfiguratiemodellen. De kenmerken van **Booleaans**, **Tekst** met een vaste lijst en **Geheel getal** met een bereik geven de reeks waarden aan die beschikbaar zijn wanneer u een productvariant configureert op basis van een productconfiguratiemodel.       |
 | Maak een productconfiguratiemodel.                       | Maak een productconfiguratiemodel op de pagina **Nieuw productconfiguratiemodel**.                                                                                                                                                                                                                                                                                                              |
@@ -47,6 +50,8 @@ In dit artikel worden de stappen beschreven voor het maken en instellen van een 
 | Test een productconfiguratiemodel.                         | Test het productconfiguratiemodel vanaf de pagina **Details van op beperkingen gebaseerd productconfiguratiemodel** of de pagina **Productconfiguratiemodellenlijst**. Het testen van de productconfiguratiemodellen stimuleert het configuratieproces van het productiemodel dat plaatsvindt tijdens de orderverwerking.                                                                                                |
 | Maak een productconfiguratiemodelsjabloon.                | Maak een sjabloon voor een productconfiguratiemodel op de pagina **Configuratiesjablonen**. Een configuratiesjabloon bevat waarden voor kenmerken in het productconfiguratiemodel. Selecteer de kenmerkwaarden op de pagina **Regel configureren**. U kunt het laden van een productconfiguratiemodelsjabloon selecteren tijdens het configuratieproces van het productmodel.                                                   |
 | Configureer een artikel.                                          | Productconfiguratiemodellen kunnen worden geconfigureerd vanuit een verkooporder, verkoopofferte, inkooporder of een productieorder.                                                                                                                                                                                                                                                                           |
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-and-filter-workspaces"></a>Werkruimten configureren en filteren
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt een overzicht van de wijze waarop u werkruimten configureert en filtert.
 
 <a name="configuring-a-workspace"></a>Een werkruimte configureren
@@ -33,11 +36,11 @@ Dit artikel biedt een overzicht van de wijze waarop u werkruimten configureert e
 
 U kunt het uiterlijk en de werking van sommige werkruimten wijzigen door instellingen bij te werken die van toepassing zijn op de hele werkruimte. Wanneer een werkruimte kan worden geconfigureerd, bevat het actievenster een knop waarop u moet klikken om configuratiewijzigingen door te voeren. In de volgende afbeelding is dit bijvoorbeeld de knop **Mijn werkruimte configureren**. 
 
-[![configureren-en-filter-werkruimten](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)   
+[![werkruimten-configureren-en-filteren](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)   
 
 Wanneer u op de knop klikt, wordt er een dialoogvenster geopend waarin u de vooraf gedefinieerde instellingen voor de werkruimte kunt wijzigen. De specifieke instellingen die u in dit dialoogvenster ziet, verschillen per werkruimte en zijn afhankelijk van de specifieke besturingselementen en de zakelijke gegevens die in de werkruimte beschikbaar zijn. 
 
-[![configureren-mijn-werkruimte](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![mijn-werkruimte-configureren](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Een werkruimte filteren
 In veel werkruimten kunt u de inhoud filteren die erin wordt weergegeven. Met de beschikbare besturingselementen kunt u alle inhoud in de werkruimte of alleen de inhoud in een specifieke sectie van de werkruimte filteren. De filters kunnen zoekopdrachten, keuzelijsten met invoervak, vrije-tekstvelden of andere typen besturingselementen zijn. Elk type filter heeft echter dezelfde effecten, zoals in de volgende secties wordt beschreven.
@@ -46,11 +49,11 @@ In veel werkruimten kunt u de inhoud filteren die erin wordt weergegeven. Met de
 
 U kunt de hele werkruimte filteren door een werkruimtefilter te gebruiken. Een werkruimtefilter wordt linksboven in de werkruimte weergegeven. Als u een specifieke waarde in de vervolgkeuzelijst selecteert, wordt de inhoud van de werkruimte gefilterd op basis van die selectie. 
 
-[![werkruimte-filter](./media/workspace-filter.png)](./media/workspace-filter.png) 
+[![werkruimte-filteren](./media/workspace-filter.png)](./media/workspace-filter.png) 
 
 Als u klikt om het filter te openen, krijgt u verschillende opties te zien. 
 
-[![werkruimte filter uitgevouwen](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png) 
+[![uitgevouwen-werkruimtefilter](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png) 
 
 Selecteer een optie voor het filteren van de werkruimte op basis van die optie.
 
@@ -58,8 +61,10 @@ Selecteer een optie voor het filteren van de werkruimte op basis van die optie.
 
 Als afzonderlijke secties van de werkruimte filters bevatten, kunt u elke sectie afzonderlijk filteren. In de volgende afbeelding is het filter (het veld met de tekst 'Filter') een filter voor een vrije-tekstveld. 
 
-[![werkruimte-sectie-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png) 
+[![werkruimtesectiefilters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png) 
 
 Net als bij een werkruimtefilter selecteert of typt u de gewenste filterwaarde in het veld om de sectie te filteren.
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Een type factuurvereffeningsvalidatie is de factuurtotalenvereffening. Om op te geven dat het systeem factuurvereffening voor totalen moet uitvoeren, stelt u op de pagina **Parameters van module Leveranciers** op het tabblad **Factuurvalidatie** u de optie **Factuurtotalen vereffenen** in op **Ja**. 
@@ -39,6 +42,8 @@ Nadat u het verschil hebt aangegeven, kunt u contact opnemen met de leverancier 
 -   Accepteer het prijsverschil en boek de factuur die matchingverschillen bevat. Uw systeem kan worden ingesteld om goedkeuring te vereisen voordat kan worden geboekt als er vereffeningsverschillen zijn. In dit geval moet u het vereffeningverschil goedkeuren en kunt u desgewenst een goedkeuringopmerking invoeren. U kunt vervolgens de factuur boeken.
 -   Het factuurbedrag met het juiste bedrag corrigeren en de factuur boeken.
 -   Een volledig credit aan de leverancier vragen en om een nieuwe, gecorrigeerde factuur verzoeken.
+
+
 
 
 

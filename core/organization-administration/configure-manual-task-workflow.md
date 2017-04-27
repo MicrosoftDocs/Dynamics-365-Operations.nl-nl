@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Een handmatige taak configureren in een workflow
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige taak configureert.
 
 Om een handmatige taak te configureren, klikt u in de workfloweditor met de rechtermuisknop op de taak en klikt u vervolgens op **Eigenschappen** om de pagina **Eigenschappen** te openen. Configureer vervolgens aan de hand van de volgende procedures de eigenschappen voor de handmatige taak.
@@ -124,10 +127,10 @@ Voer de volgende stappen uit om op te geven aan wie de handmatige taak moet word
     </tr>
     <tr class="even">
     <td>Gebruiker</td>
-    <td>Specifieke Microsoft Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Microsoft Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers aan wie u de taak wilt toewijzen en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers aan wie u de taak wilt toewijzen en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -145,8 +148,8 @@ Voer de volgende stappen uit om op te geven aan wie de handmatige taak moet word
     <li>Selecteer in de lijst <strong>Wachtrijtype</strong> de waarde <strong>Voorwaardelijke wachtrijen voor werkitems</strong>.</li>
     <li>Selecteer in de lijst <strong>Wachtrijnaam</strong> de waarde <strong>Voorwaardelijke wachtrij</strong>.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>opmerking:</strong> deze optie wordt gebruikt voor enkele workflows, zoals aanvraagbeheer.</td>
+    </ol>
+    <strong>Opmerking:</strong> deze optie wordt alleen bij enkele workflows toegepast, zoals Aanvraagbeheer.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Als een gebruiker de handmatige taak niet binnen de toegekende tijd voltooit, wo
     </tr>
     <tr class="odd">
     <td>Gebruiker</td>
-    <td>Specifieke Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers naar wie u de taak wilt escaleren en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u de taak wilt escaleren en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Als een gebruiker de handmatige taak niet binnen de toegekende tijd voltooit, wo
 6.  Als de gebruikers in het escalatiepad niet binnen de gestelde tijd de taak voltooit, voert het systeem automatisch actie uit voor de taak Om de actie in te stellen die het systeem moet uitvoeren, selecteert u de rij **Actie** en klikt u op het tabblad **Actie beëindigen**. Selecteer hier een actie.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Opgeven wanneer het systeem automatisch op de taak reageert
-U kunt het systeem zo configureren dat het systeem onder bepaalde voorwaarden automatisch actie onderneemt voor de handmatige taak. Stel dat een taak vereist dat een lid van de afdeling Onkostennota´s de ontvangstbewijzen controleert die bij een onkostennota worden ingediend. Volgens het bedrijfsbeleid, kan deze taak moet worden uitgevoerd als het totale bedrag van de onkostennota groter dan USD 100 is. In dit scenario kunt u het systeem automatisch de taak markeren als **volledig** wanneer het totale bedrag lager is dan 100. Voer de volgende stappen uit om op te geven wanneer het systeem actie onderneemt op de handmatige taak.
+U kunt het systeem zo configureren dat het systeem onder bepaalde voorwaarden automatisch actie onderneemt voor de handmatige taak. Stel dat een taak vereist dat een lid van de afdeling Onkostennota´s de ontvangstbewijzen controleert die bij een onkostennota worden ingediend. Volgens het bedrijfsbeleid moet deze taak worden uitgevoerd als het totaalbedrag van de onkostennota meer dan 100 EUR bedraagt. In dit scenario kunt u het systeem configureren om de taak automatisch als **Voltooid** te markeren wanneer het totaalbedrag minder is dan 100. Voer de volgende stappen uit om op te geven wanneer het systeem actie onderneemt op de handmatige taak.
 
 1.  Klik in het linkerdeelvenster op **Automatische acties**.
 2.  Vink het selectievakje **Automatische acties inschakelen** aan.
@@ -308,10 +311,10 @@ U kunt meldingen naar gebruikers verzenden wanneer een handmatige taak is gedele
     </tr>
     <tr class="odd">
     <td>Gebruiker</td>
-    <td>Specifieke Dynamics 365 voor gebruikers van bewerkingen</td>
+    <td>Specifieke Dynamics 365 for Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De <strong>beschikbare gebruikers</strong> lijst bevat alle Dynamics 365 voor gebruikers van bewerkingen. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Volg deze stappen als de handmatige taak binnen een opgegeven tijd moet worden v
 1.  Klik in het linkerdeelvenster op **Geavanceerde instellingen**.
 2.  Schakel het selectievakje **Een tijdslimiet instellen voor het workflowelement** in.
 3.  Geef in het veld **Duur** aan wanneer de taak moet voltooid zijn. Een van de volgende opties selecteren:
-    -   **Uren** : Voer het aantal uren dat de taak moet worden voltooid in. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
-    -   **Dagen** : Voer het aantal dagen dat de taak moet worden voltooid in. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
+    -   **Uren**: het aantal uren invoeren waarin de taak moet worden voltooid. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
+    -   **Dagen**: het aantal dagen invoeren waarin de taak moet worden voltooid. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
     -   **Weken**: voer het aantal weken in waarin de taak moet worden voltooid.
     -   **Maanden**: selecteer de dag en week waarop de taak uiterlijk moet zijn uitgevoerd. U kunt bijvoorbeeld aangeven dat de taak uiterlijk op de vrijdag in de derde week van de maand moet zijn voltooid.
     -   **Jaren**: selecteer de dag, week en maand waarop de taak uiterlijk moet zijn uitgevoerd. U kunt bijvoorbeeld aangeven dat de taak uiterlijk op de vrijdag in de derde week van december moet zijn voltooid.
@@ -343,6 +346,8 @@ Wanneer de handmatige taak is toegewezen aan een gebruiker, moet de gebruiker ac
 5.  Schakel het selectievakje **Delegeren** in als u wilt dat de gebruiker deze taak aan een andere gebruiker kan toewijzen.
 6.  Schakel het selectievakje **Opnieuw toewijzen** in als u wilt dat de gebruiker deze taak opnieuw aan een andere gebruiker in de wachtrij voor werkitems kan toewijzen.
 7.  Schakel het selectievakje **Vrijgave** in als u wilt dat de gebruiker deze taak opnieuw aan een andere gebruiker in de wachtrij voor werkitems kan toewijzen. Een andere gebruiker kan de taak vervolgens voltooien.
+
+
 
 
 

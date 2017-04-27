@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consignment"></a>Consignatie
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit onderwerp wordt uitgelegd hoe u gebruik maakt van de processen voor inkomende consignatievoorraad.
 
-De consignatievoorraad is de voorraad die eigendom is van een leverancier, maar die op uw locatie is opgeslagen. Wanneer u klaar bent om de voorraad te verbruiken of te gebruiken, neemt u het eigendom van de voorraad over. Dit onderwerp bevat informatie over het fysiek ontvangen leverancier eigendom voorhanden voorraad zonder te maken van grootboektransacties, het starten van een productieproces waar de leverancier eigendom voorraad fysiek kan worden gereserveerd. En het wijzigen van het eigendom van de grondstoffen te kunnen verwerken van het verbruik als onderdeel van de verwerking van productieorders. U vindt ook informatie over hoe leveranciers het verbruik van hun voorraad kunnen volgen door middel van de interface van de leverancierssamenwerking. Informatie over het inschakelen en configureren van inkomende consignatieprocessen vindt u in [Consignatie instellen](set-up-consignment.md).
+De consignatievoorraad is de voorraad die eigendom is van een leverancier, maar die op uw locatie is opgeslagen. Wanneer u klaar bent om de voorraad te verbruiken of te gebruiken, neemt u het eigendom van de voorraad over. Dit onderwerp bevat informatie over het fysiek ontvangen van voorhanden voorraad in eigendom van de leverancier zonder grootboektransacties te maken, over het starten van een productieproces waarin de voorraad in eigendom van de leverancier fysiek kan worden gereserveerd. en over het wijzigen van het eigendom van de grondstoffen om het verbruik als onderdeel van de verwerking van productieorders te kunnen verwerken. U vindt ook informatie over hoe leveranciers het verbruik van hun voorraad kunnen volgen door middel van de interface van de leverancierssamenwerking. Informatie over het inschakelen en configureren van inkomende consignatieprocessen vindt u in [Consignatie instellen](set-up-consignment.md).
 
 ## <a name="overview-of-the-consignment-process"></a>Overzicht van het consignatieproces
 In dit voorbeeldscenario heeft het bedrijf USMF een consignatieovereenkomst met leverancier US-104 voor de grondstof M9211CI.
@@ -57,9 +60,9 @@ USMF voert nog extra periodieke processen uit:
 Leverancier US-104 kan de updates volgen met de pagina **Voorhanden consignatievoorraad**.
 
 ## <a name="consignment-replenishment-orders"></a>Consignatieaanvullingsorders
-Een consignatieaanvullingsorder is een document dat wordt gebruikt om voorraadhoeveelheden op te vragen en te volgen van producten die een leverancier binnen een bepaald datumbereik wil leveren door transacties voor bestelde voorraad te maken. Doorgaans is dit gebaseerd op de geprognosticeerde en werkelijke vraag van de specifieke producten. De voorraad die wordt ontvangen voor de consignatieaanvullingsorder blijft eigendom van de leverancier. Alleen het eigendom van de producten die gerelateerd zijn aan de fysieke ontvangstupdate wordt geregistreerd, en daardoor komen geen updatetransacties in het grootboek voor. De dimensie **Eigenaar** wordt gebruikt om informatie scheiden voor de voorraad die eigendom is van de leverancier en voorraad die eigendom is van de ontvangende rechtspersoon. Aanvulling zending regels hebben een **openstaande order** status zolang de volledige hoeveelheid van de regels niet zijn ontvangen of geannuleerd. Wanneer de volledige hoeveelheid is ontvangen of geannuleerd, wordt de status gewijzigd in **voltooid**. De fysieke voorhanden voorraad die is gekoppeld aan een consignatieaanvullingsorder kan worden geregistreerd met een registratieproces of met een updateproces voor een productontvangstbon. De registratie kan worden uitgevoerd als onderdeel van het artikelontvangstproces of door de orderregels handmatig bij te werken. Wanneer het updateproces voor productontvangstbonnen wordt gebruikt, wordt een record gemaakt in het productontvangstbonjournaal waarmee de ontvangst van goederen bij de leveranciers kan worden bevestigd. 
+Een consignatieaanvullingsorder is een document dat wordt gebruikt om voorraadhoeveelheden op te vragen en te volgen van producten die een leverancier binnen een bepaald datumbereik wil leveren door transacties voor bestelde voorraad te maken. Doorgaans is dit gebaseerd op de geprognosticeerde en werkelijke vraag van de specifieke producten. De voorraad die wordt ontvangen voor de consignatieaanvullingsorder blijft eigendom van de leverancier. Alleen het eigendom van de producten die gerelateerd zijn aan de fysieke ontvangstupdate wordt geregistreerd, en daardoor komen geen updatetransacties in het grootboek voor. De dimensie **Eigenaar** wordt gebruikt om informatie scheiden voor de voorraad die eigendom is van de leverancier en voorraad die eigendom is van de ontvangende rechtspersoon. Consignatieaanvullingsorderregels hebben de status **Openstaande order** zolang de volledige hoeveelheid van de regels niet is ontvangen of geannuleerd. Wanneer de volledige hoeveelheid is ontvangen of geannuleerd, wordt de status gewijzigd in **Voltooid**. De fysieke voorhanden voorraad die is gekoppeld aan een consignatieaanvullingsorder kan worden geregistreerd met een registratieproces of met een updateproces voor een productontvangstbon. De registratie kan worden uitgevoerd als onderdeel van het artikelontvangstproces of door de orderregels handmatig bij te werken. Wanneer het updateproces voor productontvangstbonnen wordt gebruikt, wordt een record gemaakt in het productontvangstbonjournaal waarmee de ontvangst van goederen bij de leveranciers kan worden bevestigd. 
 
-[![zending aanvullingsorder](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![consignatieaanvullingsorder](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Journaal voor wijzigingen aan voorraadeigendom
 Het proces voor het wijzigen van het eigendom van de voorraad van de leverancier naar de ontvangende rechtspersoon wordt uitgevoerd met een Journaal voor wijzigingen aan voorraadeigendom. Er worden geen verwachte voorraadtransacties gegenereerd voor het journaal. De enige voorraadtransacties die worden gemaakt, zijn degene die samenhangen met een geboekt journaal. Wanneer het journaal wordt geboekt:
@@ -69,14 +72,16 @@ Het proces voor het wijzigen van het eigendom van de voorraad van de leverancier
 
 Het is niet mogelijk om de hoeveelheden voor consignatieinkooporderregels bij te werken nadat de order is gemaakt. 
 
-[![: eigendom-wijzigen-voorraadjournaal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![journaal-wijziging-voorraadeigendom](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Leverancierssamenwerking in consignatieprocessen
 De interface van de leverancierssamenwerking heeft drie pagina's die gerelateerd zijn aan het proces voor inkomende consignaties:
 
--   **Inkooporders****verbruikt Consignatievoorraad** -geeft gedetailleerde inkoopordergegevens betrekking hebben op de wijziging van eigendom van het proces voor consignatie.
+-   **Inkooporders** **die consignatievoorraad verbruiken**: toont gedetailleerde inkooporderinformatie die verband houdt met de eigendomswijziging uit het consignatieproces.
 -   **Producten ontvangen uit consignatievoorraad**: toont informatie over de artikelen en hoeveelheden waarvoor productontvangstbonnen zijn bijgewerkt tijdens het proces van de eigendomwijziging.
 -   **Voorhanden consignatievoorraad**: toont informatie over de consignatieartikelen waarvan de levering wordt verwacht en de artikelen die al fysiek beschikbaar zijn op de klantlocatie.
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Crediteringen en aanmaningen configureren
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u de incassofunctie configureert.
 
 <a name="set-up-aging-period-definitions"></a>Ouderdomsperiodedefinities instellen
@@ -46,7 +49,7 @@ Als er meerdere mensen binnen uw organisatie incassowerk uitvoeren, kunt u een t
 ## <a name="set-up-a-collections-case-category"></a>Een aanvraagcategorie voor collecties instellen
 Als u uw incassowerkzaamheden organiseert door middel van aanvragen, stelt u een aanvraagcategorie in met het categorietype **Aanmaningen**. Deze instelling is alleen vereist wanneer u de aanvraagfunctionaliteit op de pagina **Aanmaningen** gebruikt.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Instellen van journaalnamen (vereffening, afschrijvingen en NSF)
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Journaalnamen instellen (vereffening, afschrijven en NSF)
 Stel de journaalnamen in die worden gebruikt wanneer transacties op de pagina **Aanmaningen** worden verwerkt. Deze verwerking omvat het vereffenen van een transactie, het afschrijven van een transactie, of het verwerken van een betaling met ontoereikend saldo (NSF).
 
 | Beschrijving | Journaaltype     |
@@ -55,7 +58,7 @@ Stel de journaalnamen in die worden gebruikt wanneer transacties op de pagina **
 | Afschrijven   | Dagelijks            |
 | Onvoldoende fondsen         | Betaling van klant |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Een redencode voor transacties van de afschrijving instellen
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Een redencode voor afschrijvingstransacties instellen
 De standaardredencode die wordt gebruikt wanneer transacties worden afgeschreven op de pagina **Aanmaningen**. U kunt de code tijdens het afschrijvingsproces wijzigen.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Een map instellen voor e-mailbijlagen en e-mailsjablonen maken
@@ -67,7 +70,7 @@ Stel de parameters voor klanten in, die worden getoond op het tabbland **Aanmani
 ## <a name="optional-set-up-collections-agents"></a>Optioneel: Incassomedewerkers instellen
 Als er meerdere mensen binnen uw organisatie incassowerk uitvoeren, kunt u incassomedewerkers instellen. Een incassomedewerker is een werknemer die is geconfigureerd als een gebruiker op de pagina **Gebruikersrelaties**. U kunt klantverzamelingen (klantquery's) toewijzen aan incassomedewerkers om ze te helpen hun werk te organiseren. De incassomedewerkers worden toegevoegd aan het team dat is geselecteerd op de pagina **Parameters van module Klanten**. Als op die pagina geen team is geselecteerd, wordt automatisch een nieuw team met de naam **Aanmaningen** gemaakt en worden de incassomedewerkers aan dat team toegevoegd.
 
-## <a name="set-up-a-writeoff-account"></a>Een rekening afschrijvingen instellen
+## <a name="set-up-a-writeoff-account"></a>Een afschrijvingsrekening instellen
 Stel de afschrijvingsrekening in die wordt gebruikt voor de afschrijvingsvermelding in het grootboek, wanneer een transactie wordt afgeschreven. Deze rekening wordt opgeslagen in het boekingsprofiel van de klant.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>NSF-informatie voor bankrekeningen instellen
@@ -82,11 +85,13 @@ Stel e-mailadressen voor klantcontactpersonen in als u e-mailberichten naar deze
 Selecteer op het sneltabblad **Crediteringen en aanmaningen** in het veld **Contactpersoon voor incasseringen** de persoon binnen de klantorganisatie die samenwerkt met uw incassomedewerker. Deze contactpersoon wordt als standaard contactpersoon gebruikt op de pagina **Aanmaningen** en is degene naar wie e-mailberichten worden verzonden. 
 
 > [!NOTE] 
-> Als een contactpersoon voor incasso's voor een klant is opgegeven, wordt de primaire contactpersoon voor de klant gebruikt. Als er geen primaire contactpersoon is opgegeven, worden e-mailberichten verzonden naar het eerste adres op de pagina **Contactpersonen**.
+> Als geen contactpersoon voor incasso's voor een klant is opgegeven, wordt de primaire contactpersoon voor de klant gebruikt. Als er geen primaire contactpersoon is opgegeven, worden e-mailberichten verzonden naar het eerste adres op de pagina **Contactpersonen**.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>E-mailinstellingen instellen voor verkopers
 Stel e-mailadressen voor verkopers in als u e-mailberichten naar verkopers wilt verzenden vanaf de pagina **Aanmaningen**. Stel een e-mailadres in voor iedere verkoopvertegenwoordiger in iedere provisieverkoopgroep. De verkoopvertegenwoordiger waarvan het selectievakje **Contactpersoon** is geselecteerd, is de standaardverkoper waarnaar e-mailberichten worden verzonden. 
 
 Als er geen verkoopvertegenwoordiger is opgegeven, wordt de primaire verkoper voor de organisatie van de klant gebruikt. Als geen primaire verkoper is opgegeven, worden e-mailberichten verzonden naar het eerste adres op de pagina.
+
+
 
 

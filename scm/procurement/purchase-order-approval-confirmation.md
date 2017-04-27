@@ -1,5 +1,5 @@
 ---
-title: Goedkeuren en inkooporders bevestigen
+title: Inkooporders goedkeuren en bevestigen
 description: In dit artikel worden de statussen beschreven die een inkooporder (IO) dooloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO&quot;s.
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Goedkeuren en inkooporders bevestigen
+# <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel worden de statussen beschreven die een inkooporder (IO) dooloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
 
@@ -73,12 +76,14 @@ Nadat eeen order is bevestigd, kunt u deze niet langer verwijderen. U kunt echte
 <a name="see-also"></a>Zie ook
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Overzicht van inkooporders](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Inkooporder maken](purchase-order-creation.md)
 
 [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
 
 [Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

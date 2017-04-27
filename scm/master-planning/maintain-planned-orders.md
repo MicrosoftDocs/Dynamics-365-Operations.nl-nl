@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Geplande orders onderhouden
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over het beheer van geplande orders. Het beschrijft hoe u de status van geplande orders kunt bijwerken en fiatteren en hoe u kunt filteren voor geplande orders die dezelfde status als een geselecteerde geplande order hebben.
 
 U kunt geplande orders vanuit de werkruimte **Hoofdplanning**, de lijst **Geplande order** of de lijsten **Geplande productieorders**, **Geplande inkooporders** en **Geplande overboeking** beheren. U kunt het veld **Status** gebruiken om uw voortgang bij te houden. De volgende waarden worden gebruikt:
@@ -48,6 +51,8 @@ Wanneer een geplande order wordt gefiatteerd, wordt die order naar de ordersecti
 <a name="see-also"></a>Zie ook
 --------
 
-[Master plans](master-plans.md)
+[Hoofdplannen](master-plans.md)
+
+
 
 

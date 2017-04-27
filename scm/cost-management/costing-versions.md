@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Kostprijsberekeningsversies
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat informatie over kostprijsberekeningsversies, hoe u deze onderhoudt en de typen gegevens die u hierin kunt opnemen. Een kostprijsberekeningsversie is primair bedoeld om kostenrecords te bevatten over artikelen, kostencategorieën en berekeningsformules voor indirecte kosten.
 
 Een kostprijsberekeningsversie kan een of meer functies hebben, afhankelijk van de gegevens die de kostprijsberekeningsversie bevat. Een kostprijsberekeningsversie is primair bedoeld om kostenrecords te bevatten over artikelen, kostencategorieën en berekeningsformules voor indirecte kosten. Een kostprijsberekeningsversie kan een set standaardkostenrecords bevatten, of een set geplande kostenrecords die zijn gebaseerd op het kostprijsberekeningstype dat is toegewezen aan de kostprijsberekeningsversie.
@@ -63,5 +66,7 @@ De belangrijkste reden voor het inschakelen van inkoopprijsgegevens is het defin
 Als u inkoopprijsinhoud wilt inschakelen, definieert u eerst een stuklijstberekeningsgroep die een kostprijsmodel voor de inkoopprijs voor het artikel bevat en vervolgens wijst u de stuklijstberekeningsgroep toe aan ingekochte artikelen. Vervolgens gebruikt u een kostprijsmodel voor de stuklijstberekeningsgroep wanneer u stuklijstberekeningen met geplande kosten uitvoert om de verkoopprijs van gefabriceerde artikelen te berekenen. 
 
 De inkoopprijsrecords voor artikelen worden ook gebruikt als verwijzingsinformatie. Door de status van de inkoopprijsrecord van een artikel te wijzigen van **In behandeling** in **Actief**, kunt u de basisinkoopprijs van het artikel bijwerken. De basisinkoopprijs is echter niet sitespecifiek en kan handmatig worden overschreven. De basisinkoopprijs van het artikel wordt gebruikt als standaardinkoopprijs op inkooporders.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Opdracht uitgavenanalyse Power BI-inhoud
-description: Dit onderwerp wordt beschreven wat wordt opgenomen in de inkoop besteedt analyse content pack voor Microsoft Power BI. Deze wordt uitgelegd hoe u toegang tot de rapporten die zijn opgenomen in de content pack en informatie over het gegevensmodel en entiteiten die worden gebruikt voor het bouwen van de content pack.
+title: Power BI-inhoud voor analyse van inkoopuitgaven
+description: In dit onderwerp wordt beschreven wat het inhoudpakket voor analyse van inkoopuitgaven voor Microsoft Power BI-bevat. In dit onderwerp wordt uitgelegd hoe u toegang kunt krijgen tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-12-30 09 - 40 - 51
@@ -24,23 +24,23 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Opdracht uitgavenanalyse Power BI-inhoud
+# <a name="purchase-spend-analysis-power-bi-content"></a>Power BI-inhoud voor analyse van inkoopuitgaven
 
-Dit onderwerp wordt beschreven wat wordt opgenomen in de inkoop besteedt analyse content pack voor Microsoft Power BI. Deze wordt uitgelegd hoe u toegang tot de rapporten die zijn opgenomen in de content pack en informatie over het gegevensmodel en entiteiten die worden gebruikt voor het bouwen van de content pack.
+In dit onderwerp wordt beschreven wat het inhoudpakket voor analyse van inkoopuitgaven voor Microsoft Power BI-bevat. In dit onderwerp wordt uitgelegd hoe u toegang kunt krijgen tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
 
 <a name="overview"></a>Overzicht
 --------
 
-De inkoop uitgavenanalyse content pack voor Microsoft Power BI voor managers en managers die verantwoordelijk voor budgetten zijn inkoop is gemaakt. Het is ontworpen voor deze opdracht uitgaven in de gaten houden. Deze opdracht transactionele gegevens uit Microsoft Dynamics 365 gebruikt voor bewerkingen en geeft een samengevoegde weergave van het hele bedrijf aankoopcijfers zowel een onderverdeling van uitgaven per leverancier en product inkoop. Rapporten markeren wijzigingen in inkoop uitgaven na verloop van tijd. Daarom kunnen ze worden gebruikt voor waarschuwingen managers over positieve en negatieve uitgavenlimiet trends voor afzonderlijke leveranciers en producten. Grafieken weergeven opdracht uitgaven voor verschillende aanschaffingscategorieën en leveranciersgroepen. Categorie en regiomanagers kunnen nuttig zijn deze diagrammen gebruiken om vast te stellen van wijzigingen in gedrag uitgaven. Het inhoudspakket we inkoopmanagers en managers die verantwoordelijk voor budgetten zijn analyseren opdracht uitgaven in de volgende manieren:
+Het inhoudpakket voor analyse van inkoopuitgaven voor Microsoft Power BI is gemaakt voor inkoopmanagers en managers die verantwoordelijk voor budgetten zijn. Het is bedoeld om hen te helpen de uitgaven voor inkoop in de gaten te houden. Op basis van gegevens voor inkooptransacties uit Microsoft Dynamics 365 for Operations biedt het zowel een samengevoegde weergave van de inkoopcijfers uit het hele bedrijf en een analyse van de inkoopuitgaven op leverancier en product. Rapporten maken wijzigingen in de inkoopuitgaven in het verloop van de tijd duidelijk. Daarom kunnen ze worden gebruikt om managers te wijzen op positieve en negatieve trends in de uitgaven voor afzonderlijke leveranciers en producten. Grafieken geven de inkoopuitgaven weer voor verschillende inkoopcategorieën en leveranciersgroepen. Categorie- en regiomanagers vinden deze grafieken mogelijk nuttig wanneer zij wijzigingen in de uitgaven willen opsporen. Het inhoudspakket geeft inkoopmanagers en managers die verantwoordelijk voor budgetten zijn de mogelijkheid om inkoopuitgaven op de volgende manieren te analyseren:
 
--   Jaar tot heden-inkoop (per leveranciersgroep en afzonderlijke leveranciers, aanschaffingscategorie en afzonderlijke producten en locatie van de leverancier)
--   Jaar tot jaar opdracht wijzigen (op leverancier groeperen en aanschaffingscategorieën categorie)
+-   Inkoop jaar tot heden (op leveranciersgroep en afzonderlijke leveranciers, aanschaffingscategorie en afzonderlijke producten en locatie van de leverancier)
+-   Wijzigingen jaar tot jaar in inkoop (op leveranciersgroep en aanschaffingscategorie)
 
-## <a name="accessing-the-content-pack"></a>Toegang tot de content pack
-De inkoop uitgavenanalyse content pack wordt gepubliceerd als een activum implementatie in Microsoft Dynamics Lifecycle Services (LCS) en kunt u vanuit Microsoft Dynamics 365 voor bewerkingen. Zie voor meer informatie over het benaderen en openen Power BI-rapporten, [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>Toegang tot het inhoudpakket
+Het inhoudpakket voor analyse van inkoopuitgaven wordt gepubliceerd als een implementatieactivum in Microsoft Dynamics Lifecycle Services (LCS). U hebt er toegang toe vanuit Microsoft Dynamics 365 for Operations. Zie voor meer informatie over toegang tot en het openen van Power BI-rapporten [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>Prestatiegegevens die zijn opgenomen in de content pack
-De inkoop uitgavenanalyse content pack bevat een rapport dat uit een verzameling van prestatiegegevens bestaat. Deze gegevens worden weergegeven als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de content pack.
+## <a name="metrics-that-are-included-in-the-content-pack"></a>Metrische gegevens die zijn opgenomen in het inhoudpakket
+Het inhoudpakket voor analyse van inkoopuitgaven bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties die in het inhoudpakket worden gebruikt.
 
 <table>
 <colgroup>
@@ -50,110 +50,110 @@ De inkoop uitgavenanalyse content pack bevat een rapport dat uit een verzameling
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rapportpagina.</th>
+<th>Rapportpagina</th>
 <th>Diagrammen</th>
-<th>Naast elkaar</th>
+<th>Tegels</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Inkoop per leverancier</td>
+<td>Inkoop op leverancier</td>
 <td><ul>
-<li>Top 10-leveranciers door inkoop (gestapeld staafdiagram)</li>
-<li>Totale inkoop op leverancier groeperen / land / -naam (cirkeldiagram)</li>
-<li>Inkoop op leverancier groeperen / land / -naam (kolomdiagram)</li>
-<li>Gemiddelde inkoop op leverancier groeperen / land / -naam (kolomdiagram)</li>
+<li>Top 10-leveranciers op inkoop (gestapeld staafdiagram)</li>
+<li>Totale inkoop op groep / land / naam leverancier (cirkeldiagram)</li>
+<li>Inkoop op groep / land / naam leverancier (kolomdiagram)</li>
+<li>Gemiddelde inkoop op groep / land / naam leverancier (kolomdiagram)</li>
 </ul></td>
 <td><ul>
 <li>Totaalinkoop</li>
-<li>YOY inkoop groei</li>
+<li>Inkoopgroei jaar-op-jaar</li>
 <li>Totaal aantal leveranciers</li>
 <li>Totaal aantal actieve leveranciers</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Inkoop per product</td>
+<td>Inkoop op product</td>
 <td><ul>
 <li>Inkoop per aanschaffingscategorie / productnaam (kolomdiagram)</li>
-<li>Totaal inkoop per aanschaffingscategorie / productnaam (cirkeldiagram)</li>
-<li>Top 10 producten door inkoop (gestapeld staafdiagram)</li>
+<li>Totale inkoop per aanschaffingscategorie / productnaam (cirkeldiagram)</li>
+<li>Top 10-producten op inkoop (gestapeld staafdiagram)</li>
 </ul></td>
 <td><ul>
 <li>Totaal aantal producten</li>
-<li>Totaal aantal actieve producten percentage van het totale aantal producten</li>
-<li>Aantal producten accounting voor 80% inkoop</li>
+<li>Totaal aantal actieve producten percentage van totale aantal producten</li>
+<li>Aantal producten dat 80% van inkoop oplevert</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Inkoop per periode *</td>
+<td>Inkoop op periode*</td>
 <td><ul>
-<li>Inkoop per maand / dag (kolomdiagram)</li>
-<li>Cumulatieve YOY Inkoopverschil (waterval grafiek)</li>
-<li>Totale inkoop YOY groei (kolomdiagram)</li>
-<li>Inkoop-instructie (matrix)</li>
+<li>Inkoop op maand / dag (kolomdiagram)</li>
+<li>Cumulatieve inkoop afwijking jaar-op-jaar (watervalgrafiek)</li>
+<li>Totale inkoop groei jaar-op-jaar (kolomdiagram)</li>
+<li>Inkoopoverzicht (matrix)</li>
 </ul></td>
 <td><ul>
-<li>YOY inkoop groei</li>
-<li>YOY inkoop groei %</li>
+<li>Inkoopgroei jaar-op-jaar</li>
+<li>Inkoopgroei jaar-op-jaar %</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Inkoophoeveelheid op de locatie van de leverancier</td>
+<td>Inkoop op leverancierlocatie</td>
 <td><ul>
-<li>Inkoop per plaats</li>
-<li>Opdracht YOY groei %</li>
-<li>Inkoop per land</li>
+<li>Inkoop op stad</li>
+<li>Inkoop groei jaar-op-jaar %</li>
+<li>Inkoop op land</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Opdracht uitgavenanalyse op tijd</td>
+<td>Analyse inkoopuitgaven op tijd</td>
 <td><ul>
-<li>Opdracht huidige jaar per maand / dag (lijndiagram)</li>
-<li>Inkooporders Huidig en vorig jaar (regel- en -grafiek)</li>
+<li>Inkoop huidige jaar op maand / dag (lijndiagram)</li>
+<li>Inkooporders huidig en vorig jaar (lijn- en kolomdiagram)</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Opdracht uitgavenanalyse per leverancier</td>
+<td>Analyse inkoopuitgaven op leverancier</td>
 <td><ul>
-<li>Top 10 leverancier opdracht % van de opdracht (ongebruikte)</li>
-<li>Top 10 van leveranciers met een hogere uitgavenlimiet YOY</li>
-<li>Top 10 van leveranciers met een kleinere uitgavenlimiet YOY</li>
+<li>Top 10 leverancier inkoop % van inkoop (trechterdiagram)</li>
+<li>Top 10 leveranciers met een gestegen uitgaven jaar-op-jaar</li>
+<li>Top 10 leveranciers met een gedaalde uitgaven jaar-op-jaar</li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\*Inkoop dit jaar en vorig jaar en groei per aanschaffingscategorie
+\* Inkoop dit jaar en vorig jaar en groei per aanschaffingscategorie
 
 ## <a name="data-model-and-entities"></a>Gegevensmodel en entiteiten
-Dynamics 365 voor bewerkingen die gegevens wordt gebruikt voor het rapport in de opdracht analyse content pack uitgeven. Deze gegevens wordt vertegenwoordigd door statistische metingen die worden klaargezet in het archief entiteit is een Microsoft SQL-database die is geoptimaliseerd voor analyses. Zie voor meer informatie over de winkel entiteit, de [Power BI-integratie met entiteit winkel in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog-update. De statistische metingen in deze content pack zijn de subset van statistische metingen die beschikbaar in de inkoop-Cube in Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 voor bewerkingen 2012 R3 waren. Het voorbereiden van statistische metingen van de cube in de winkel entiteit, moet u doen gebruiken. Voor meer informatie raadpleegt u de procedure voor het klaarzetten van statistische metingen in de winkel entiteit in de [Power BI-integratie met entiteit winkel in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog-update. De volgende belangrijke statistische metingen kunnen rechtstreeks vanaf de factuur regels entiteit en worden gebruikt als basis voor de content pack.
+Gegevens uit Dynamics 365 for Operations worden gebruikt voor het rapport in het inhoudpakket voor analyse van inkoopuitgaven. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de Entiteitopslag. Dit is een Microsoft SQL-database die is geoptimaliseerd voor analyses. Zie voor meer informatie over de Entiteitopslag het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). De samengevoegde metingen in dit inhoudpakket zijn de subset van geaggregeerde metingen die beschikbaar waren in de Inkoop-cube in Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Operations 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). De volgende belangrijke samengevoegde metingen zijn rechtstreeks vanuit de entiteit Factuurregels beschikbaar en worden gebruikt als basis voor het inhoudpakket.
 
-| Entiteit        | Belangrijke statistische metingen | Gegevensbron voor Dynamics 365 for Operations | Veld              | Omschrijving                           |
+| Entiteit        | Belangrijke samengevoegde metingen | Gegevensbron voor Dynamics 365 for Operations | Veld              | Omschrijving                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
 | Factuurregels | Inkoop                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Het bedrag in de valuta voor de boekhouding. |
 
-De volgende tabel toont de belangrijkste afmetingen die zijn berekend in het inhoudspakket van de factuur regels entiteit.
+De volgende tabel toont de belangrijkste metingen die worden berekend in het inhoudpakket op basis van de entiteit Factuurregels.
 
 | Maat               | Berekening                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Opdracht huidige jaar | Opdracht huidige jaar = som ('factuurregels\[opdracht\])                                            |
-| Opdracht vorig jaar    | Opdracht vorig jaar = berekenen (som ('factuurregels\[opdracht\]), SAMEPERIODLASTYEAR (datums\[datum\])) |
-| YOY inkoop groei   | YOY inkoop groei = \[opdracht huidige jaar\] : \[vorig jaar kopen\]                            |
+| Inkoop huidig jaar | Inkoop huidig jaar = SUM('Factuurregels\[Inkoop\])                                            |
+| Inkoop vorig jaar    | Inkoop vorig jaar = CALCULATE(SUM('Factuurregels\[Inkoop\]), SAMEPERIODLASTYEAR(Datums\[Datum\])) |
+| Inkoopgroei jaar-op-jaar   | Groei inkoop jaar-op-jaar = \[Inkoop huidig jaar\] - \[Inkoop vorig jaar\]                            |
 
-De volgende belangrijke dimensies in de content pack worden gebruikt als filters opsplitsen van de statistische metingen, zodat u meer granulatie en meer analytische inzicht kunt bereiken.
+De volgende belangrijke dimensies in het inhoudpakket worden gebruikt als filters voor het segmenteren van de samengevoegde metingen, zodat u een grotere mate van granulatie en analytischere inzichten kunt bereiken.
 
 | Entiteit                 | Voorbeelden van kenmerken                                |
 |------------------------|-------------------------------------------------------|
-| Leveranciers                   | Leveranciersgroepen, leveranciers-land of regio's, Leveranciersnaam |
-| Producten               | Productnummer, productnaam, de naam van de groepen voor artikel        |
-| Inkoopcategorieën | Aanschaffingscategorie, categorienamen aanschaffingscategorieën      |
+| Leveranciers                   | Leveranciersgroepen, Land/regio van leverancier, Leveranciersnaam |
+| Producten               | Productnummer, Productnaam, Naam van artikelengroep        |
+| Inkoopcategorieën | Aanschaffingscategorie, namen van Aanschaffingscategorieën      |
 | Rechtspersonen         | Rechtspersoonnaam                                     |
-| Datums                  | Datums, jaar-verschuiving                                    |
+| Datums                  | Datums, Jaarverschuiving                                    |
 
-Standaard worden gegevens in de content pack weergegeven voor het huidige kalenderjaar. U kunt echter het datumfilter in de rapportsectie filters wijzigen. U kunt ook de Bedrijfsfilter wijzigen.
+Standaard worden gegevens in het inhoudpakket weergegeven voor het huidige kalenderjaar. U kunt echter het datumfilter in de sectie rapportfilters wijzigen. U kunt ook het bedrijfsfilter wijzigen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten en het samenstellen van Power BI-content:

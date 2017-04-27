@@ -1,5 +1,5 @@
 ---
-title: Balanced journalen voor boekhouding
+title: Evenwichtige journalen voor interunit-boekhouding
 description: "Dit artikel laat zien hoe een journaal automatisch wordt gesaldeerd wanneer een financiële tegendimensie wordt geselecteerd op de Grootboekpagina."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Balanced journalen voor boekhouding
+# <a name="balanced-journals-for-interunit-accounting"></a>Evenwichtige journalen voor interunit-boekhouding
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel laat zien hoe een journaal automatisch wordt gesaldeerd wanneer een financiële tegendimensie wordt geselecteerd op de Grootboekpagina. 
 
@@ -34,9 +37,9 @@ Als boekingen niet in evenwicht zijn op het niveau van de financiële dimensiewa
 
 |                      |           |
 |----------------------|-----------|
-| 6100: MSP: organisatie-eenheid\_256 | 100,00 DR |
-| 6100: NY: organisatie-eenheid\_249  | 100,00 DR |
-| 2100: MSP: organisatie-eenheid\_256 | 200,00 CR |
+| 6100 – MSP – OU\_256 | 100,00 DR |
+| 6100 – NY – OU\_249  | 100,00 DR |
+| 2100 – MSP – OU\_256 | 200,00 CR |
 
 In dit geval worden de volgende saldi gedefinieerd:
 
@@ -47,8 +50,10 @@ Daarom worden de volgende posten automatisch gemaakt om het journaal op het nive
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Inter-unit-debet): MSP: organisatie-eenheid\_256 | 100,00 DR |
-| (Inter-unit Credit): NY: organisatie-eenheid\_249 | 100,00 CR |
+| (Inter-unit debet) – MSP – OU\_256 | 100,00 DR |
+| (Inter-unit credit) – NY – OU\_249 | 100,00 CR |
+
+
 
 
 

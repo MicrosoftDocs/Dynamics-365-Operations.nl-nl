@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Transportbeheer engines
 
+[!include[banner](../includes/banner.md)]
+
+
 Transportbeheerengines definiëren de logica die wordt gebruikt om transporttarieven in Transportbeheer te genereren en te verwerken. 
 
 Een transportbeheer engine berekent taken zoals het transporttarief van de vervoerder. Het enginesysteem staat toe dat u berekeningsstrategieën wijzigt tijdens uitvoeringstijd op basis van gegevens in Microsoft Dynamics 365 for Operations. Een transportbeheer engine lijkt op een plug-in die aan een bepaald vervoerder contract is gekoppeld.
@@ -58,7 +61,7 @@ Een transportbeheer engine vereist dat de de initialisering-gegevens instelt om 
 In de meeste gevallen kunt u op de knop **Parameters** in de instellingsformulieren voor de transportbeheerengine klikken om de initialiseringsgegevens te configureren. **Voorbeeld van de configuratie van een tariefengine die verwijst naar een afstandsberekeningsengine** Het volgende voorbeeld toont de instellingen die zijn vereist voor een tariefengine die is gebaseerd op .NET-enginetype Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine en verwijst naar een afstandsberekeningsengine.
 | Parameter             | Omschrijving                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | Het .NET-type dat de toewijzingsgegevens van de tariefbasis voor een bepaald schema wordt vertaald. De syntaxis van de parameterwaarde bestaat uit twee segmenten, gescheiden door een verticale balk ()|). Het eerste segment bevat de assemblage-naam die het assigner-type definieert. Het tweede segment definieert het volledig-gekwalificeerde naam van het assigner-type. Dit omvat ook de naamruimte van het type. |
+| *RateBaseAssigner*    | Het .NET-type dat de toewijzingsgegevens van de tariefbasis voor een bepaald schema wordt vertaald. De syntaxis van de parameterwaarde bestaat uit twee segmenten die door een verticale streep worden afgebakend (|). Het eerste segment bevat de assemblage-naam die het assigner-type definieert. Het tweede segment definieert het volledig-gekwalificeerde naam van het assigner-type. Dit omvat ook de naamruimte van het type. |
 | *MileageEngineCode*   | Code voor de afstandsberekeningsengine die de record voor de afstandsberekeningsengine in de database van Microsoft Dynamics 365 for Operations identificeert.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Algemene enginecode die de record voor de toewijzingsengine in de database van Microsoft Dynamics 365 for Operations identificeert.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ De metagegevens voor de transportbeheer engines word verschillend geconfigureerd
 | **Transittijdengine** en **Afstandsberekeningsengine** | Haalt rechtstreeks de metagegevens op vanuit het instellingenformulier voor configuratie van de afstandberekeningsengine.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Voorbeeld van metagegevens voor een tariefengine** De transportbeheerengine vereist identificatie van het oorsprongsadres, de bestemmingsstatus en het land/regio, en het begin en eindpunt van de zending. Door deze behoeften te gebruiken, ziet de metagegevens er uit zoals de gegevens in het volgende tabel. De tabel bevat ook informatie over wat voor type invoer gegevens vereist zijn.
--   Definieer deze informatie in **Transportbeheer**&gt;**Setup** op de **beoordelen basistype** pagina.
+-   Definieer deze informatie in **Transportbeheer** &gt; **Instellingen** op de pagina **Tariefbasistype**.
 
 | Volgorde | Naam                          | Veldtype | Gegevenstype | Opzoektype    | Verplicht |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ De metagegevens voor de transportbeheer engines word verschillend geconfigureerd
 | 3        | Bestemming startpunt: postcode | Toewijzing | Tekenreeks    | Postcode    | Geselecteerd  |
 | 4        | Bestemming eindpunt: postcode   | Toewijzing | Tekenreeks    | Postcode    | Geselecteerd  |
 | 5        | Bestemmingsland           | Toewijzing | Tekenreeks    | Land/regio |           |
+
+
 
 
 

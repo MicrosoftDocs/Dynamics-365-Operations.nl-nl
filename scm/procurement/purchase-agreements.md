@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over inkoopovereenkomsten. Een inkoopovereenkomst is een contract dat een organisatie ertoe verbindt een opgegeven aantal of bedrag in te kopen via meerdere inkooporders in een bepaalde periode. De koper ontvangt in ruil voor deze toezegging speciale prijzen en kortingen. 
 
 Inkoopovereenkomsten kunnen gelden voor een bepaalde hoeveelheid van een product, een bepaald bedrag van een product of een bepaald bedrag van de producten in een aanschaffingscategorie. De prijzen en kortingen van de inkoopovereenkomst vervangen de prijzen en kortingen die worden genoemd in eventuele bestaande handelsovereenkomsten.  
@@ -70,7 +73,7 @@ Het gebied **Overeenkomst** geeft de totale hoeveelheid of het totale bedrag wee
 U hebt toegang tot de inkooporderregels en de factuurregels die bijdragen aan de vervullingsberekening door de actie **Verwante informatie** te selecteren in de regels of in de koptekst van een inkoopovereenkomst.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Bevestigingen en versiegeschiedenis voor inkoopovereenkomsten
-Als u een inkoopovereenkomst bevestigt, wordt de huidige versie van de inkoopovereenkomst opgeslagen in een tabelgeschiedenis. Als u de inkoopovereenkomst wijzigt, kunt u deze opnieuw bevestigen om een andere versie van de inkoopovereenkomst in de geschiedenis op te slaan. Als u een inkoopovereenkomst niet bevestigt, kunt u het maken van POs. Echter, de historische gegevens voor de inkoopovereenkomst is niet opgeslagen. U kunt alle versies van de overeenkomst bekijken of afdrukken. Vervolgens kunt u de wijzigingen delen met uw leverancier voor goedkeuring.
+Als u een inkoopovereenkomst bevestigt, wordt de huidige versie van de inkoopovereenkomst opgeslagen in een tabelgeschiedenis. Als u de inkoopovereenkomst wijzigt, kunt u deze opnieuw bevestigen om een andere versie van de inkoopovereenkomst in de geschiedenis op te slaan. Als u een inkoopovereenkomst niet bevestigt, kunt u deze nog steeds gebruiken om inkooporders te maken. De geschiedenisinformatie voor de inkoopovereenkomst wordt echter niet opgeslagen. U kunt alle versies van de overeenkomst bekijken of afdrukken. Vervolgens kunt u de wijzigingen delen met uw leverancier voor goedkeuring.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Inkoopovereenkomsten toepassen in het bestelproces
 Wanneer u een inkooporder maakt, kunt u er een inkoopovereenkomst op toepassen. De informatie van de voorwaarden voor de overeenkomst, zoals de betalingsvoorwaarden, leveringsvoorwaarden en het afleveradres, wordt vervolgens gekopieerd naar de koptekst van de inkooporder. Als de inkooporder een of meer orderregels bevat voor producten of categorieën die de inkoopovereenkomst dekt, worden de prijzen en kortingen van de inkoopovereenkomst gebruikt voor deze regels. Het bedrag of het aantal op de orderregel draagt bij tot de uitvoering van de toezegging in de inkoopovereenkomst. Dezelfde inkooporder kan zowel regels bevatten die niet zijn gerelateerd aan een inkoopovereenkomst en regels waarvoor een inkoopovereenkomst bestaat.  
@@ -91,8 +94,10 @@ U kunt financiële dimensies kopiëren naar documentkopteksten of naar afzonderl
 <a name="see-also"></a>Zie ook
 --------
 
-[Een inkoopovereenkomst (taak guide) maken](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Deeltaak: Een nieuwe inkoopovereenkomst maken.](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/) (taakbegeleiding)
 
-[Een vrijgaveorder voor inkoop maken vanuit een inkoopovereenkomst (taak guide)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Een vrijgaveorder voor inkoop maken op basis van een inkoopovereenkomst](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/) (taakbegeleiding)
+
+
 
 

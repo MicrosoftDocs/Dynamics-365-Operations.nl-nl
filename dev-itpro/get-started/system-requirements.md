@@ -1,6 +1,6 @@
 ---
 title: Systeemvereisten
-description: Dit onderwerp worden de systeemvereisten voor de huidige versie van Microsoft Dynamics 365 voor bewerkingen.
+description: In dit onderwerp worden systeemvereisten voor de actuele versie van Microsoft Dynamics 365 for Operations beschreven.
 author: sericks007
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,102 +26,102 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-requirements"></a>Systeemvereisten
 
-Dit onderwerp worden de systeemvereisten voor de huidige versie van Microsoft Dynamics 365 voor bewerkingen.
+In dit onderwerp worden systeemvereisten voor de actuele versie van Microsoft Dynamics 365 for Operations beschreven.
 
 <a name="supported-web-browsers"></a>Ondersteunde webbrowsers
 ----------------------
 
-De Microsoft Dynamics 365 voor webtoepassing bewerkingen kunt uitvoeren in een van de volgende webbrowsers die op de opgegeven besturingssystemen worden uitgevoerd:
+De Microsoft Dynamics 365 for Operations-webtoepassing kan worden uitgevoerd in alle onderstaande webbrowsers die op de opgegeven besturingssystemen draaien:
 
--   Microsoft Edge (meest recente versie openbaar) op Windows 10
+-   Microsoft Edge (meest recente openbaar beschikbare release) op Windows 10
 -   Internet Explorer 11 op Windows 10, Windows 8.1 of Windows 7
--   Google Chrome (meest recente versie openbaar) op 10 voor Windows, Windows 8.1, 8 voor Windows, Windows 7 of Google Nexus 10 tablet
--   Apple Safari (meest recente versie van openbaar) op Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) 10,12 (Sierra) en/of Apple iPad
+-   Google Chrome (meest recente openbaar beschikbare release) op Windows 10, Windows 8.1, Windows 8, Windows 7 of Google Nexus 10-tablet
+-   Apple Safari (meest recente openbaar beschikbare release) op Mac OS X 10.10 (Yosemite), 10.11 (El Capitan), 10.12 (Sierra) of Apple iPad
 
 Als u de laatste versie van elke webbrowser wilt opzoeken, gaat u naar de website van de softwarefabrikant. **Opmerkingen:**
 
--   Voor het vastleggen van afbeeldingen die worden gegenereerd op basis van de taakregistratie en deze opnemen in Microsoft Word-documenten, moet u de extensie Verchroomd geïnstalleerd hebben. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
--   De workfloweditor wordt als ClickOnce-toepassing gestart. Alleen Microsoft Edge en Internet Explorer (op een ondersteunde versie van Microsoft Windows) ondersteunen ClickOnce-toepassingen. De workfloweditor ClickOnce-toepassing moet een 64-bits compatibel besturingssysteem.
--   De Report Designer voor financiële rapportage wordt als ClickOnce-toepassing gestart. Een 64-bits compatibel besturingssysteem vereist. Als u Verchroomd gebruikt, moet u een extensie ClickOnce wilt downloaden van het rapport designer-client installeren. Als u met de incognito modus Verchroomd gebruikt, ervoor zorgen dat de extensie ClickOnce ook is ingeschakeld voor de incognito modus.
+-   Om schermopnamen vast te leggen die door Taakrecorder zijn gegenereerd en deze op te nemen in Microsoft Word-documenten, moet u een Chrome-invoegtoepassing hebben geïnstalleerd. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
+-   De workfloweditor wordt als ClickOnce-toepassing gestart. Alleen Microsoft Edge en Internet Explorer (op een ondersteunde versie van Microsoft Windows) ondersteunen ClickOnce-toepassingen. De ClickOnce-toepassing Workfloweditor vereist een compatibel 64-bits besturingssysteem.
+-   De Report Designer voor financiële rapportage wordt als ClickOnce-toepassing gestart. Hiervoor is een compatibel 64-bits besturingssysteem vereist. Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de rapportontwerper-client te downloaden. Als u in de incognito modus van Chrome werkt, moet u ervoor zorgen dat de ClickOnce-extensie ook voor de incognito modus is ingeschakeld.
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Ondersteunde webbrowsers voor Retail Cloud POS
 
-Cloud-POS detailhandel voor Dynamics 365 voor bewerkingen kunt uitvoeren in een van de volgende webbrowsers die op de opgegeven besturingssystemen worden uitgevoerd:
+Retail Cloud POS voor Microsoft Dynamics 365 for Operations kan worden uitgevoerd in alle onderstaande webbrowsers die op de opgegeven besturingssystemen draaien:
 
--   Microsoft Edge (meest recente versie openbaar) op Windows 10
+-   Microsoft Edge (meest recente openbaar beschikbare release) op Windows 10
 -   Internet Explorer 11 op Windows 10, Windows 8.1 of Windows 7
--   Chroom (meest recente versie van openbaar) op 10 voor Windows, Windows 8.1 of Windows 7
+-   Chroom (meest recente openbaar beschikbare versie) op Windows 10, Windows 8.1 of Windows 7
 
 ## <a name="network-requirements"></a>Netwerkvereisten
--   Dynamics 365 voor bewerkingen is ontworpen voor netwerken met vertraging van minder dan 150 milliseconden (ms). Dit is de vertragingstijd in een browserclient naar het midden van Microsoft Azure gegevens die als host fungeert voor Dynamics 365 voor bewerkingen. Raadzaam netwerk vertragingstijd op te testen <http://www.azurespeed.com>.
--   Bandbreedtevereisten voor Dynamics 365 voor bewerkingen zijn afhankelijk van uw scenario. Meest voorkomende scenario's moet een bandbreedte van meer dan 50 kB per seconde (KBps). Voor scenario's met hoge nettolading vereisten, zoals werkruimten of scenario's voor uitgebreide aanpassingsmogelijkheden wordt meer bandbreedte echter aanbevolen.
+-   Dynamics 365 for Operations is ontworpen voor netwerken met latentie van minder dan 150 milliseconden (ms). Dit is de latentie in een browserclient naar het Microsoft Azure-datacentrum waar Dynamics 365 for Operations wordt gehost. Het wordt aangeraden om uw netwerklatentie te testen op <http://www.azurespeed.com>.
+-   De bandbreedtevereisten voor Dynamics 365 for Operations zijn afhankelijk van uw scenario. De meest voorkomende scenario's vereisen een bandbreedte van meer dan 50 kilobytes per seconde (kbps). Voor scenario's met hoge vereisten nettolading, zoals werkgebieden of scenario's voor uitgebreide aanpassingsmogelijkheden wordt meer bandbreedte aanbevolen.
 
-In het algemeen is Dynamics 365 for Operations geoptimaliseerd voor het Internet. Het aantal retouren in een browserclient naar het midden Azure gegevens is erg klein en de gehele nettolading is gecomprimeerd. **Waarschuwing:** bandbreedtevereisten vanaf een client niet berekenen door te vermenigvuldigen met het aantal gebruikers de minimale bandbreedte-vereisten. Het gelijktijdige gebruik van een bepaalde locatie is zeer moeilijk te berekenen. Gebruik voor klanten die bezorgd over de bandbreedtevereisten zijn, een voorbeeldversie van Dynamics 365 voor bewerkingen.
+Over het algemeen is Dynamics 365 for Operations geoptimaliseerd voor het internet. Het aantal roundtrips vanuit een browserclient naar het Azure-datacentrum is erg klein en de gehele nettolading is gecomprimeerd. **Waarschuwing:** Bereken bandbreedtevereisten vanaf een clientlocatie niet door het aantal gebruikers te vermenigvuldigen met de minimale bandbreedte-vereisten. Het gelijktijdige gebruik van een bepaalde locatie is zeer lastig te berekenen. Gebruik voor klanten die zich zorgen maken over de bandbreedtevereisten, een evaluatieversie van Dynamics 365 for Operations.
 
-## <a name="net-framework-requirements"></a>Vereisten voor .NET framework
-Dynamics 365 voor bewerkingen is .NET Framework versie 4.6.2 voor alle Klik-eenmaal toepassingen, zoals de routering agent document. Zie voor de installatie-instructies, [installatie van .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
+## <a name="net-framework-requirements"></a>.NET Framework-vereisten
+Dynamics 365 for Operations vereist .NET Framework versie 4.6.2 voor alle ClickOnce-toepassingen, zoals de documentrouterinsgagent. Zie voor de installatie-instructies [.NET Framework installeren](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).
 
 ## <a name="supported-microsoft-office-applications"></a>Ondersteunde Microsoft Office-toepassingen
--   Als u wilt uitvoeren in de Microsoft Excel en Word-invoegtoepassingen, hebt u Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Office-integratie oplossen](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
--   Als u wilt weergeven van documenten die worden gegenereerd door het exporteren naar Excel of exporteren naar Word-functionaliteit, moet Microsoft Office 2007 of hoger geïnstalleerd.
+-   Als u de invoegtoepassingen voor Microsoft Word en Microsoft Excel wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Als u documenten wilt weergeven die worden gegenereerd door de functie Exporteren naar Excel of Exporteren naar Word, moet Microsoft Office 2007 of hoger zijn geïnstalleerd.
 
-## <a name="retail-modern-pos-requirements"></a>Retail POS moderne vereisten
+## <a name="retail-modern-pos-requirements"></a>Vereisten voor Retail Modern POS
 ### <a name="supported-operating-systems"></a>Ondersteunde besturingssystemen
 
--   Retail POS op moderne is een 32-bits toepassing, maar deze kan worden uitgevoerd op zowel x86 en x64 architectuur.
--   Retail POS op moderne wordt alleen ondersteund op edities van Windows 10 Pro-, ondernemings- en Enterprise lange termijn onderhoud vertakking (LTSB).
+-   Retail Modern POS is een 32-bits toepassing, maar deze kan worden uitgevoerd op zowel x86- als ook x64-architectuur.
+-   Retail Modern POS wordt alleen ondersteund op de Windows 10-versies Pro, Enterprise, and Enterprise Long Term Servicing Branch (LTSB).
 
 ### <a name="minimum-system-requirements"></a>Minimale systeemvereisten
 
 -   De minimale ondersteunde resolutie is 1280 × 1024.
--   De computer waarop de moderne POS detailhandel wordt uitgevoerd, moet aan deze vereisten voldoen:
-    -   Moet hebben, ten minste een dual core-processor die wordt uitgevoerd op niet minder dan 2 GHz (gigahertz).
-    -   Moet hebben, ten minste 3 gigabyte (GB) RAM.
-    -   Internet-toegang moet hebben.
+-   De computer waarop de Retail Modern POS wordt uitgevoerd, moet aan deze vereisten voldoen:
+    -   Tenminste een dual core-processor, die wordt uitgevoerd met minstens 2 GHz.
+    -   Tenminste 3 GB RAM.
+    -   Internet-verbinding.
 
-## <a name="retail-hardware-station-requirements"></a>Hardwarevereisten voor station detailhandel
+## <a name="retail-hardware-station-requirements"></a>Vereisten voor Retail Hardware Station
 ### <a name="supported-operating-systems"></a>Ondersteunde besturingssystemen
 
--   Retail hardware station is een 32-bits toepassing, maar deze kan worden uitgevoerd op zowel x86 en x64 architectuur.
--   Retail hardware station wordt ondersteund door de volgende besturingssystemen:
-    -   De edities Windows 7 Professional, Enterprise en Ultimate **opmerking:** Windows 7 wordt alleen ondersteund als Internet Explorer 11 handmatig op het systeem is geïnstalleerd.
-    -   De edities Windows 8.1 Update 1 Professional, Enterprise en ingesloten
-    -   Windows 10 Pro-, ondernemings- en LTSB Enterprise-edities
+-   Retail Hardware Station is een 32-bits toepassing, maar deze kan worden uitgevoerd op zowel x86- als ook x64-architectuur.
+-   Retail Hardware Station wordt ondersteund op de volgende besturingssystemen:
+    -   De Windows 7-versies Professional, Enterprise en Ultimate **Opmerking:** Windows 7 wordt alleen ondersteund als Internet Explorer 11 handmatig op het systeem is geïnstalleerd.
+    -   De Windows 8.1-versies Update 1 Professional, Enterprise en Embedded
+    -   De Windows 10-versies Pro, Enterprise en Enterprise LTSB
 
 ### <a name="minimum-system-requirements"></a>Minimale systeemvereisten
 
 De computer moet voldoen aan alle systeemvereisten voor het installeren en gebruiken van de volgende opties:
 
 -   Internet Information Services (IIS)
--   Fabrikanten van hardware
+-   Hardware van derden
 
-## <a name="retail-store-scale-unit-requirements"></a>Detailhandel winkelvoorraad schaaleenheid vereisten
+## <a name="retail-store-scale-unit-requirements"></a>Vereisten voor Retail Store Scale Unit
 ### <a name="supported-operating-systems"></a>Ondersteunde besturingssystemen
 
--   Retail Store schaaleenheid is een 32-bits toepassing, maar deze kan worden uitgevoerd op zowel x86 en x64 architectuur.
--   Retail Store schaaleenheid wordt ondersteund door de volgende besturingssystemen:
-    -   De edities Windows 7 Professional, Enterprise en Ultimate
-    -   De edities Windows 8.1 Update 1 Professional, Enterprise en ingesloten
-    -   Windows 10 Pro-, ondernemings- en LTSB Enterprise-edities
+-   Retail Store Scale Unit is een 32-bits toepassing, maar deze kan worden uitgevoerd op zowel x86- als ook x64-architectuur.
+-   Retail Store Scale Unit wordt ondersteund op de volgende besturingssystemen:
+    -   De Windows 7-versies Professional, Enterprise en Ultimate
+    -   De Windows 8.1-versies Update 1 Professional, Enterprise en Embedded
+    -   De Windows 10-versies Pro, Enterprise en Enterprise LTSB
 
 ### <a name="minimum-system-requirements"></a>Minimale systeemvereisten
 
 -   4 GB RAM
--   1,6 GHz piekperiode CPU-snelheid per core (twee cores zijn de minimale.)
--   Ten minste 10 GB vrije ruimte (de kanaaldatabase kan een grote hoeveelheid ruimte vereist).
+-   1,6 GHz piekprocessorsnelheid per core (twee cores minimaal)
+-   Ten minste 10 GB vrije ruimte (de afzetkanaaldatabase kan veel opslagruimte nodig hebben).
 
 ### <a name="recommended-system-requirements"></a>Aanbevolen systeemvereisten
 
 -   6 GB RAM
--   2.4 GHz i7 (of equivalent) piekperiode CPU versnellen per core (vier cores worden aanbevolen.)
--   Ten minste 10 GB vrije ruimte (de kanaaldatabase kan een grote hoeveelheid ruimte vereist).
+-   2,4 GHz i7 (of equivalent) piekprocessorsnelheid per core (vier cores aanbevolen)
+-   Ten minste 10 GB vrije ruimte (de afzetkanaaldatabase kan veel opslagruimte nodig hebben).
 
-## <a name="requirements-for-development-on-local-vms"></a>Vereisten voor de ontwikkeling van lokale VMs
-Zie voor informatie over de vereisten voor de ontwikkeling van lokale virtuele machines (VMs) [VM uitgevoerd op gebouwen](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+## <a name="requirements-for-development-on-local-vms"></a>Vereisten voor ontwikkeling op lokale VM's
+Zie voor informatie over de vereisten voor de ontwikkeling op lokale virtuele machines (VM's) [VM on-premises uitvoeren](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Een evaluatie-exemplaar van Dynamics 365 voor bewerkingen ophalen](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Een evaluatie-exemplaar van Dynamics 365 for Operations ophalen](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
 
 

@@ -1,6 +1,6 @@
 ---
-title: App veldnamen in magazijnbeheer app configureren
-description: In dit onderwerp wordt beschreven hoe definieer en configureer magazijn app veldnamen en prioriteiten in Dynamics 365 voor bewerkingen.
+title: Veldnamen in magazijnapp configureren
+description: "In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 for Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>App veldnamen in magazijnbeheer app configureren
+# <a name="configure-app-field-names-in-warehousing-app"></a>Veldnamen in magazijnapp configureren
 
-In dit onderwerp wordt beschreven hoe definieer en configureer magazijn app veldnamen en prioriteiten in Dynamics 365 voor bewerkingen. 
+[!include[banner](../includes/banner.md)]
 
-**opmerking:** in dit onderwerp geldt voor de functies in magazijnbeheer. Dit geldt niet voor functies in Voorraadbeheer. Dynamics 365 for Operations - opslag is een toepassing waarmee u kunt magazijn-taken uit te voeren. U kunt definiëren en configureren van de veldnamen die worden gebruikt in de app, alsmede configureren van de prioriteit waarmee de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe definieer en configureer deze magazijn app veldnamen en prioriteiten, en hoe ze worden gebruikt in Dynamics 365 for Operations - magazijnbeheer. Raadpleeg voor gedetailleerde informatie over het configureren van de verbinding met Dynamics 365 for Operations - magazijnen, de zelfstudie [installeren en configureren van Dynamics 365 for Operations - magazijnbeheer](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Magazijn app veldnamen configureren
+In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 for Operations. 
+
+**Opmerking:** dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Dynamics 365 for Operations - Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren en hoe ze worden gebruikt in Dynamics 365 for Operations - Magazijnbeheer. Raadpleeg voor gedetailleerde informatie over het configureren van de verbinding met Dynamics 365 for Operations - Magazijnbeheer, de zelfstudie [Dynamics 365 for Operations - Magazijnbeheer installeren en configureren](install-configure-warehousing-app.md).
+
+<a name="configure-warehouse-app-field-names"></a>Veldnamen van magazijnapp configureren
 ===================================
 
-Wanneer u Dynamics 365 voor bewerkingen gebruiken: Magazijnbeheer op het mobiele apparaat kunt u configureren hoe metagegevens moet worden weergegeven op het apparaat op de **magazijn app veldnamen** pagina. Selecteer in een nieuw bedrijf in Dynamics 365 for Operations **standaardinstellingen maken** voor het genereren van alle veldnamen die wordt gebruikt in het magazijn mobiel apparaat workflows en vervolgens een voorkeur invoermodus en invoertype toe te wijzen. Nadat u alle veldnamen hebt gegenereerd, kunt u de volgende opties voor invoer selecteren.
+Wanneer u Dynamics 365 for Operations - Magazijnbeheer op uw mobiele apparaat gebruikt, kunt u configureren hoe metagegevens moeten worden weergegeven op uw apparaat op de pagina **Veldnamen magazijnapp**. Selecteer in een nieuw bedrijf in Dynamics 365 for Operations **Standaardinstelling maken** om alle veldnamen te genereren die worden gebruikt in de magazijnworkflows van het mobiele apparaat en wijs er vervolgens een gewenste invoermodus en invoertype aan toe. Nadat u alle veldnamen hebt gegenereerd, kunt u de volgende invoeropties selecteren.
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ Wanneer u Dynamics 365 voor bewerkingen gebruiken: Magazijnbeheer op het mobiele
 <tbody>
 <tr class="odd">
 <td>Geprefereerde invoermethode</td>
-<td>Deze optie bepaalt of een veld scannen of een invoerveld voor handmatige invoer moet worden weergegeven voor de geselecteerde veldnaam. Dit is handig om te onderscheiden van velden, afhankelijk van als streepjescodes worden gebruikt voor het veld. <strong>opmerking:</strong> voor veldnamen met voorkeur invoermodus is ingesteld op <strong>scannen</strong>, kunt u gegevens handmatig invoeren als de streepjescode onleesbaar of is beschadigd is.</td>
+<td>Met deze optie wordt bepaald of het veld Scannen of een invoerveld voor handmatige invoer moet worden weergegeven voor de geselecteerde veldnaam. Dit is handig om velden te onderscheiden, afhankelijk van de vraag of er streepjescodes voor het veld worden gebruikt. <strong>Opmerking:</strong> voor veldnamen waarvan de gewenste invoermodus is ingesteld op <strong>Scannen</strong>, kunt u gegevens handmatig invoeren als de streepjescode onleesbaar of is beschadigd is.</td>
 </tr>
 <tr class="even">
 <td>Invoertype</td>
-<td>Deze optie bepaalt welk type ingang moet worden gebruikt voor de geselecteerde veldnaam. Er zijn vier opties beschikbaar:
+<td>Met deze optie wordt bepaald welk invoertype moet worden gebruikt voor de geselecteerde veldnaam. Er zijn vier opties beschikbaar:
 <ul>
 <li><strong>Selectie</strong> - bevat een lijst met opties waaruit u kunt kiezen. Veldnamen met deze optie kunnen niet worden bewerkt.</li>
-<li><strong>Datum</strong> - veldnamen opgegeven datum een datumnotatie met het label wordt weergegeven. Dit helpt magazijnmedewerkers zien welke indeling voor de datum invoeren. Veldnamen met deze optie kunnen niet worden bewerkt.</li>
-<li><strong>Alpha</strong> - als hebt geselecteerd, het toetsenbord apparaat wordt gebruikt wanneer u gegevens handmatig invoert in de toepassing. De ervaring toetsenbord kan worden gewijzigd, afhankelijk apparaat wordt gebruikt.</li>
-<li><strong>Numerieke</strong> - voor die gebruik numerieke invoer alleen veldnamen kunt u deze optie om weer te geven van een aangepaste numeriek toetsenblok met het invoerveld in plaats van het toetsenbord apparaat.</li>
+<li><strong>Datum</strong> - veldnamen die zijn opgegeven als datum, bevatten een datumnotatie met het label. Aan de hand hiervan kunnen magazijnmedewerkers zien in welke notatie de datum moet worden ingevoerd. Veldnamen met deze optie kunnen niet worden bewerkt.</li>
+<li><strong>Alfa</strong> - als deze optie is geselecteerd, wordt het toetsenbord van het apparaat gebruikt bij het handmatig invoeren van gegevens in de app. De toetsenbordervaring kan worden gewijzigd. Dit hangt af van het apparaat dat wordt gebruikt.</li>
+<li><strong>Numeriek</strong> - voor veldnamen waarin alleen numerieke invoer wordt gebruikt, kunt u deze optie selecteren om een aangepast numeriek toetsenblok weer te geven met het invoerveld in plaats van het toetsenbord van het apparaat.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Magazijn app veld prioriteit configureren
+<a name="configure-warehouse-app-field-priority"></a>Veldprioriteit van magazijnapp configureren
 ======================================
 
-Op de **magazijn app veld prioriteit** pagina kunt u de veldnamen in andere prioriteitsvolgorde groepen plaatsen. Hierdoor kunt u bepalen welke informatie moet worden weergegeven op de pagina hoofdtaak wanneer magazijnmedewerkers uitvoeren met behulp van de toepassing. Als u op **standaardinstellingen maken**, een standaardset prioriteitsvolgorde groepen wordt gegenereerd. Het is mogelijk te maken van zoveel prioriteitsvolgorde groepen zo nodig, maar slechts drie prioriteitsvolgorde groepen worden weergegeven op de taakpagina. Dynamics 365 for Operations metagegevens naar de app verzendt, wordt deze elk veld een relatieve prioriteit, afhankelijk van de groep prioriteit toewijzen als de toepassing wordt de eerste drie prioriteit groepen in de metagegevens op de taakpagina weergegeven. De rest van de overlopende metagegevens wordt weergegeven op een secundaire detailpagina. De volgende tabel toont een voorbeeld van vijf groepen van prioriteit.
+Op de pagina **Veldprioriteit van magazijnapp** kunt u veldnamen in verschillende prioriteitsgroepen plaatsen. Hierdoor kunt u bepalen welke informatie moet worden weergegeven op de hoofdtaakpagina wanneer magazijnmedewerkers taken uitvoeren met de app. Als u op **Standaardinstelling maken** klikt, wordt een standaardset prioriteitsgroepen gegenereerd. Het is mogelijk zoveel prioriteitsgroepen te maken als nodig is, maar slechts drie prioriteitsgroepen worden op de taakpagina weergegeven. Als Dynamics 365 for Operations metagegevens naar de app verzendt, wordt aan elk veld een relatieve prioriteit toegewezen, afhankelijk van de bijbehorende prioriteitsgroep. In de app worden de eerste prioriteitsgroepen in de metagegevens op de taakpagina weergegeven. De rest van de overlopende metagegevens wordt weergegeven op een secundaire detailpagina. De volgende tabel bevat een voorbeeld van vijf prioriteitsgroepen.
 
 <table>
 <colgroup>
@@ -78,7 +81,7 @@ Op de **magazijn app veld prioriteit** pagina kunt u de veldnamen in andere prio
 </colgroup>
 <thead>
 <tr class="header">
-<th>De groep prioriteit</th>
+<th>Prioriteitsgroep</th>
 <th>Toegewezen velden</th>
 </tr>
 </thead>
@@ -123,7 +126,7 @@ Op de **magazijn app veld prioriteit** pagina kunt u de veldnamen in andere prio
 </tbody>
 </table>
 
-Bijvoorbeeld wanneer een magazijnmedewerker een taak uitvoert op een mobiel apparaat als de metagegevens die worden weergegeven in de toepassing uit de volgende velden bestaat:
+Als een magazijnmedewerker bijvoorbeeld een taak uitvoert op een mobiel apparaat, als de metagegevens die worden weergegeven in de app uit de volgende velden bestaan:
 
 -   Artikel
 -   Hoeveelheid
@@ -131,17 +134,19 @@ Bijvoorbeeld wanneer een magazijnmedewerker een taak uitvoert op een mobiel appa
 -   Artikelomschrijving.
 -   Grootte en locatie
 
-Op basis van het magazijn app veld prioriteit instellen in de bovenstaande tabel, worden de volgende 3 rijen met gegevens weergegeven op de taakpagina:
+Op basis van de instellingen van de veldprioriteit van de magazijnapp in de bovenstaande tabel worden de volgende 3 rijen met gegevens weergegeven op de taakpagina:
 
--   Rij 1: Artikel, hoeveelheid, eenheid
--   Rij 2: De artikelomschrijving
--   Rij 3: grootte
+-   Rij 1: Artikel, Hoeveelheid, Maateenheid
+-   Rij 2: Artikelomschrijving
+-   Rij 3: Grootte
 
-De resterende metagegevens, bijvoorbeeld, de locatie wordt niet weergegeven op de taakpagina, maar op een detailpagina worden weergegeven. Raadpleeg voor meer informatie en voorbeelden bekijken van de gebruikersinterface, naar het blogbericht [aankondiging Dynamics 365 for Operations - magazijnbeheer](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+De resterende metagegevens, bijvoorbeeld Locatie, worden niet weergegeven op de taakpagina, maar worden op een detailpagina weergegeven. Raadpleeg voor meer informatie en voorbeelden van de gebruikersinterface het blogbericht [Dynamics 365 for Operations - Magazijnbeheer aankondigen](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Installeren en configureren van Microsoft Dynamics 365 voor bewerkingen: Magazijnbeheer](install-configure-warehousing-app.md)
+[Microsoft Dynamics 365 for Operations - Magazijnbeheer installeren en configureren](install-configure-warehousing-app.md)
+
+
 
 

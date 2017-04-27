@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accruals-overview"></a>Overzicht van transitorische posten
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel worden toerekeningen beschreven en wordt aangegeven hoe u deze instelt en transacties maakt.
 
 Transitorische posten worden gebruikt in periodetoerekeningsboekhouding om opbrengst bij te houden die wordt verantwoord in de periode waarin deze wordt verdiend en niet wanneer de betaling wordt ontvangen, en om onkosten (kosten) bij te houden die worden verantwoord wanneer ze worden gemaakt en niet wanneer de betaling wordt uitgevoerd.
@@ -41,6 +44,8 @@ Toerekeningsschema's worden gebruikt om de uitgestelde opbrengst en de kosten in
 Nadat u hebt bepaald welke rekeningen moeten worden gebruikt, kunt u opgeven hoe het boekstuknummer wordt gemaakt wanneer de transitorische posten worden gemaakt. U kunt ook opgeven hoe vaak de transacties plaatsvinden, het aantal keren dat de transacties worden gemaakt en wanneer de transacties worden geboekt. Nadat het toerekeningsschema is gemaakt, kunt u het in sommige journalen gebruiken met behulp van de functie Transitorische grootboekposten.
 
 ## <a name="ledger-accruals"></a>Transitorische grootboekposten
-Wanneer u een journaal invoert, kunt u klikken op **Transitorische grootboekposten** in het menu **Functies**. Wanneer u vervolgens het toerekeningsschema selecteert, ziet u het basisbedrag van het journaal dat over de periode wordt verspreid, zoals bepaald door het toerekeningsschema. Bijvoorbeeld: als u de verzekering van een werknemer voor het hele jaar in januari betaalt en het bedrag 12.000 is, u moet herkennen deze onkosten elke maand. U kunt de begindatum selecteren. U kunt ook opgeven of het bedrag dat wordt toegerekend, wordt gebaseerd op de rekening of de tegenrekening. Nadat u uw selecties maken, klikt u op **transacties** om weer te geven van alle transacties die zijn gemaakt op basis van het toerekeningsschema. Bijvoorbeeld: als u de 12.000 in uitgaven voor verzekering's gedurende het jaar, worden er 1000 voor elke maand. Nadat u het journaal boekt, kunt u de transacties bekijken met behulp van de **boekstuktransacties** query-pagina. Als u een toerekeningsschema kan niet worden toegepast (bijvoorbeeld wanneer een verkooporderfactuur of inkooporderfactuur betrokken is), kunt u het vooruitbetaalde bedrag te crediteren en debiteert u het onkostenbedrag. Vervolgens kunt u **Tegenrekening** selecteren wanneer u het toerekeningsschema toepast.
+Wanneer u een journaal invoert, kunt u klikken op **Transitorische grootboekposten** in het menu **Functies**. Wanneer u vervolgens het toerekeningsschema selecteert, ziet u het basisbedrag van het journaal dat over de periode wordt verspreid, zoals bepaald door het toerekeningsschema. Als u bijvoorbeeld de verzekering van een werknemer voor het hele jaar in januari betaalt en het bedrag is 12.000, moet u die onkosten elke maand verantwoorden. U kunt de begindatum selecteren. U kunt ook opgeven of het bedrag dat wordt toegerekend, wordt gebaseerd op de rekening of de tegenrekening. Nadat u uw selecties hebt gemaakt, klikt u op **Transacties** om alle transacties weer te geven die zijn gemaakt op basis van het toerekeningsschema. Bijvoorbeeld: als u het bedrag van 12.000 aan verzekeringsonkosten over het jaar verspreid, ziet u een bedrag van 1000 voor elke maand. Nadat u het journaal hebt geboekt, kunt u de transacties bekijken met behulp van de querypagina **Boekstuktransacties**. Als een toerekeningsschema niet kan worden toegepast (bijvoorbeeld in geval van een verkooporderfactuur of inkooporderfactuur), kunt u het vooruitbetaalde bedrag crediteren en het onkostenbedrag debiteren. Vervolgens kunt u **Tegenrekening** selecteren wanneer u het toerekeningsschema toepast.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Kostprijsberekeningsbladen
 
+[!include[banner](../includes/banner.md)]
+
+
 Het instellen van het kostenblad heeft twee doelen. Ten eerste definieert u de indeling voor het weergeven van informatie over kosten van verkochte goederen voor een gefabriceerd artikel of een productieorder. De ingedeelde weergave wordt een kostenblad genoemd. Ten tweede definieert u de basis voor het berekenen van de indirecte kosten. Bij het instellen van het kostenblad wordt gebruikgemaakt van de kostengroepfunctie voor het weergeven van informatie en voor de formules voor het berekenen van indirecte kosten. De twee doelen van het instellen van het kostenblad worden in dit artikel beschreven. 
 
 Een kostenblad is de opgemaakte weergave van informatie over kosten van verkochte goederen voor een gefabriceerd artikel of een productieorder. Wanneer u een kostenblad instelt, definieert u de indeling voor de informatie en bepaalt u ook de basis voor het berekenen van indirecte kosten. Bij het instellen van het kostenblad wordt gebruikgemaakt van de kostengroepfuncties voor het weergeven van informatie en voor de formules voor het berekenen van indirecte kosten. Hier is meer informatie over de volgende twee doelen van kostenbladinstellingen:
@@ -43,6 +46,8 @@ Twee blokkeringsbeleidsregels voor een kostprijsberekeningsversie bepalen of kos
 Nadat u de indeling voor het kostenblad en de berekeningen voor de indirecte kosten hebt gedefinieerd, moet u een extra stap uitvoeren om de gegevens te valideren en op te slaan. Het kostenblad is een indeling voor het hele bedrijf die ervoor moet zorgen dat de informatie over de kosten van verkochte goederen consistent wordt weergegeven. 
 
 Het kostenblad wordt weergegeven als onderdeel van de pagina **Artikelkosten berekenen**. Het kostenblad kan worden weergegeven voor de berekende kostenrecord van een gefabriceerd artikel op de pagina **Artikelprijs** of voor een orderspecifieke berekeningsrecord op de pagina **Resultaten stuklijstberekening**. Het kostenblad wordt ook weergegeven als onderdeel van de pagina **Prijsberekening** voor een productieorder.
+
+
 
 
 

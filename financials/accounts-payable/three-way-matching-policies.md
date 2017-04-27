@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Drieweg-overeenstemmingsbeleid
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel geeft voorbeelden van drieweg-overeenstemming.
 
 <a name="example-three-way-matching-for-items"></a>Voorbeeld: drieweg-overeenstemming voor artikelen
@@ -62,7 +65,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 1.  Sammy, een werknemer in de ontvangende afdeling bij Fabrikam, ontvangt de totale hoeveelheid machines die werden verzonden door Contoso. Hij voert een aantal van 5 in op de productontvangstbon. Aangezien de inkooporder volledig is ontvangen, wordt de status van de inkooporder gewijzigd naar Ontvangen.
 2.  April, de coördinator leveranciers bij Fabrikam, controleert de factuur die Contoso heeft ingediend en voert deze in. Zij controleert de volgende informatie:
     -   Voor artikelen waar drieweg-overeenstemming is vereist, controleert ze of de hoeveelheid op de factuurregel overeenstemt met de ontvangen hoeveelheid. De ontvangen hoeveelheid is aangegeven op de productontvangstbon die met de factuur wordt vereffend.
-    -   Voor artikelen die overeenkomt met twee richtingen of drieweg-vereisen, zijn de prijzen op de factuurregel binnen de toleranties valt die zijn gedefinieerd in Microsoft Dynamics 365 voor Operations.This de volgende soorten prijsovereenstemming bevat:
+    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Operations. Dit omvat de volgende soorten prijsovereenstemming:
         -   Overeenstemming netto-eenheidsprijs: De afwijking tussen de netto-eenheidsprijs op de factuurregel en de netto-eenheidsprijs op de inkooporderregel moet binnen toegestane toleranties liggen. In dit voorbeeld is de tolerantie van de netto-eenheidsprijs +8%.
         -   Vereffening van prijstotalen: de afwijking tussen de het nettobedrag op de factuurregel en het nettobedrag op de inkooporderregel moet binnen het toegestane tolerantiepercentage, -bedrag of -percentage en -bedrag liggen. In dit voorbeeld is de tolerantie van prijstotalen +15%.
 
@@ -75,7 +78,7 @@ De papieren factuur van Contoso bevat de volgende gegevens.
 | Btw                         |          |            | 0,00       |
 | Totaal                       |          |            | 44.500,00  |
 
-In Microsoft Dynamics 365 voor bewerkingen bevat de factuurregel de volgende informatie.
+In Microsoft Dynamics 365 for Operations bevat de factuurregel de volgende informatie.
 
 | artikelnummer                 | Hoeveelheid | Eenheidsprijs | Nettobedrag per regel | Overeenstemmingbeleid    | Overeenkomst van hoeveelheid van productontvangstbon | Prijsovereenkomst | Totaalprijsvereffening |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 1.  De artikelen worden geleverd. Sammy, een werknemer van de ontvangstafdeling van de Maleisië-afdeling van Fabrikam, wordt onderbroken en de boekt de productontvangstbon niet onmiddellijk.
 2.  April, de coördinator leveranciers bij Fabrikam, controleert de factuur die Contoso heeft ingediend en voert deze in. Zij controleert de volgende informatie:
     -   Voor artikelen waar drieweg-overeenstemming is vereist, controleert ze of de hoeveelheid op de factuurregel overeenstemt met de ontvangen hoeveelheid. De ontvangen hoeveelheid is aangegeven op de productontvangstbon die met de factuur wordt vereffend.
-    -   Voor artikelen die overeenkomt met twee richtingen of drieweg-vereisen, zijn de prijzen op de factuurregel binnen de toleranties valt die zijn gedefinieerd in Microsoft Dynamics 365 voor bewerkingen. Dit omvat de volgende soorten prijsovereenstemming:
+    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Operations. Dit omvat de volgende soorten prijsovereenstemming:
         -   Overeenstemming netto-eenheidsprijs: De afwijking tussen de netto-eenheidsprijs op de factuurregel en de netto-eenheidsprijs op de inkooporderregel moet binnen toegestane toleranties liggen. In dit voorbeeld is de tolerantie van de netto-eenheidsprijs +2%.
         -   Vereffening van prijstotalen: de afwijking tussen de het nettobedrag op de factuurregel en het nettobedrag op de inkooporderregel moet binnen het toegestane tolerantiepercentage, -bedrag of -percentage en -bedrag liggen. In dit voorbeeld is de tolerantie van prijstotalen +10%.
 
@@ -124,7 +127,7 @@ De papieren factuur van Contoso bevat de volgende gegevens.
 | USB-drive             | 200      | 10,05      | 2010,00   |
 | Totaal factuur         |          |            | 7092,00   |
 
-In Microsoft Dynamics 365 voor bewerkingen bevat de factuurregel de volgende informatie.
+In Microsoft Dynamics 365 for Operations bevat de factuurregel de volgende informatie.
 
 | artikelnummer           | Hoeveelheid | Eenheidsprijs | Nettobedrag per regel | Overeenstemmingbeleid    | Overeenkomst van hoeveelheid van productontvangstbon | Prijsovereenkomst | Totaalprijsvereffening |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Merk het volgende op:
 Als goedkeuring vereist is voor facturen die moeten worden geboekt met verschillen in factuurvereffening, moet het selectievakje Boeking met vereffeningsverschillen goedkeuren op de pagina Factuurvereffeningsgegevens worden geselecteerd voordat de factuur kan worden geboekt met de fouten bij prijsvereffening en hoeveelheidvereffening. Als er geen goedkeuring is vereist, kan factuurverwerking verdergaan als er geen andere boekingsfouten zijn.
 
 
-Zie voor meer informatie [factuurmatching in klanten rekeningen](accounts-payable-invoice-matching.md).
+Zie [Factuurvereffening voor crediteuren](accounts-payable-invoice-matching.md) voor meer informatie.
+
+
 
 

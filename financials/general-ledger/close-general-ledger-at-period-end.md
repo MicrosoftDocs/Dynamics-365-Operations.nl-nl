@@ -1,6 +1,6 @@
 ---
 title: Het grootboek aan het einde van de periode afsluiten
-description: In dit onderwerp beschrijft de taken die meestal worden uitgevoerd bij het uitvoeren van een periode afsluiten voor het grootboek.
+description: In dit onderwerp worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek.
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Het grootboek aan het einde van de periode afsluiten
 
-In dit onderwerp beschrijft de taken die meestal worden uitgevoerd bij het uitvoeren van een periode afsluiten voor het grootboek. 
+[!include[banner](../includes/banner.md)]
 
-In het grootboek kunt u afsluitingsprocedures voor een periode of een jaar uitvoeren. Afsluitingsprocessen bereiden het systeem voor op een nieuwe periode. Als u wilt het systeem voorbereiden voor een nieuw jaar, moet u het proces voor het afsluiten van jaar-einde uitvoeren. Elke organisatie kent verschillende processen en de stappen die worden uitgevoerd voor het einde van een periode. Hieronder staan enkele optionele stappen voor de periode eindigt:
+
+In dit onderwerp worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek. 
+
+In het grootboek kunt u afsluitingsprocedures voor een periode of een jaar uitvoeren. Afsluitingsprocessen bereiden het systeem voor op een nieuwe periode. Als u het systeem op een nieuw jaar wilt voorbereiden, moet u het jaarafsluitingsproces uitvoeren. Elke organisatie kent verschillende processen en de stappen die worden uitgevoerd voor het einde van een periode. Hieronder staan enkele optionele stappen voor periodeafsluitingen:
 
 -   Voer alle taken voor alle overige modules uit, zoals Klanten, Leveranciers en Voorraad.
 -   Controleer of alle journalen zijn geboekt.
@@ -39,9 +42,11 @@ In het grootboek kunt u afsluitingsprocedures voor een periode of een jaar uitvo
 -   Journaliseer transacties en controleer het **Grootboekjournaal**rapport.
 -   Voer een consolidatie uit met behulp van een consolidatiebedrijf of een financiële rapportage.
 -   Genereer financiële overzichten van het periode-einde met behulp van financiële rapportage.
--   Stel grootboekperioden in op **In wachtstand**, zodat geen verdere boeking plaatsvindt. Voor een beter beheer kunt u een periode ook beperken tot een specifieke gebruikersgroep terwijl periode-eindeactiviteiten plaatsvinden. Het is niet raadzaam om in te stellen van perioden moet worden **permanent gesloten**, omdat u een gesloten periode niet heropenen.
+-   Stel grootboekperioden in op **In wachtstand**, zodat geen verdere boeking plaatsvindt. Voor een beter beheer kunt u een periode ook beperken tot een specifieke gebruikersgroep terwijl periode-eindeactiviteiten plaatsvinden. Het is geen goed idee om perioden in te stellen op **Definitief afgesloten**, omdat u een periode die is afgesloten niet kunt heropenen.
 
-De financiële periode sluiten werkruimte kan worden gebruikt voor het organiseren en bijhouden van de taken die nodig zijn voor verschillende processen voor einde van de periode. Raadpleeg de [financiële periode sluiten werkruimte](financial-period-close-workspace.md) en [sluit einde van het jaar](Year-end-close.md) onderwerpen voor meer informatie. 
+De werkruimte Afgesloten financiële periode kan worden gebruikt om de taken die nodig zijn voor verschillende periodeafsluitingsprocessen te organiseren en bij te houden. Raadpleeg de onderwerpen [Werkruimte Afgesloten financiële periode](financial-period-close-workspace.md) en [Jaarafsluiting jaar](Year-end-close.md) voor meer informatie. 
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Budgetplanningsintegratie met andere modules
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>De periodieke processen voor het genereren van budgetplannen
@@ -49,13 +52,13 @@ De basiselementen van het periodieke proces zijn hetzelfde voor alle processen. 
 
 Voor elk genereerproces zijn drie acties beschikbaar:
 
--   **Een nieuw budget maakt** maakt u een nieuwe planning met de kenmerken die zijn geselecteerd in de ** doel ** sectie. Deze kenmerken hoeven niet uniek te zijn. Daarom kunnen twee plannen dezelfde naam en andere waarden hebben.
+-   Met **Een nieuw budgetplan maken** wordt een nieuw plan gemaakt dat de kenmerken bevat die in de sectie Doel worden geselecteerd. Deze kenmerken hoeven niet uniek te zijn. Daarom kunnen twee plannen dezelfde naam en andere waarden hebben.
 -   **Vervang het bestaande budgetplanscenario** verwijdert alle gegevens in het doelbudgetplan in het geselecteerde budgetplanscenario en maakt nieuwe regels die de geselecteerde brongegevens gebruiken.
 -   **Het bestaande budgetplanscenario bijwerken en nieuwe gegevens toevoegen** werkt bestaande regels in het doelplan bij die overeenkomen met de bronregels en voegt nieuwe regels voor nieuwe gegevens toe. De vereffening is gebaseerd op de grootboekrekening, de datum, de budgetklasse, en verschillende andere velden. Wanneer u bijvoorbeeld budgetplannen genereert vanuit prognoseposities, is het positienummer een belangrijk veld. Alle regels die een positienummer hebben dat overeenkomt met de bronpositie, worden vervangen door de nieuwe regels uit de bron.
 
 ### <a name="source"></a>Bron
 
-Voor alle processen de **bron** tabblad kunt u gegevens filteren met behulp van de **Filter** knop. Bepaalde velden worden standaard toegevoegd aan het filter voor elk proces. Voor het proces **Budgetplan genereren op basis van grootboek** zijn bijvoorbeeld de categorieën **Grootboekrekening** en **Hoofdrekening** beschikbaar en deze worden weergegeven op de genereerpagina. Alle velden die u toevoegt aan het filter, worden ook toegevoegd aan de pagina, samen met criteria die u toevoegt.
+Voor alle processen kunt u op het tabblad **Bron** gegevens filteren met behulp van de knop **Filter**. Bepaalde velden worden standaard toegevoegd aan het filter voor elk proces. Voor het proces **Budgetplan genereren op basis van grootboek** zijn bijvoorbeeld de categorieën **Grootboekrekening** en **Hoofdrekening** beschikbaar en deze worden weergegeven op de genereerpagina. Alle velden die u toevoegt aan het filter, worden ook toegevoegd aan de pagina, samen met criteria die u toevoegt.
 
 ### <a name="target"></a>Doel
 
@@ -63,7 +66,7 @@ Met de optie **Historisch** op het tabblad **Doel** kunt u de datums van de bron
 
 Het veld **Totaal samentellen volgens** bovenaan de pagina bepaalt ook de datum die wordt gebruikt. Dit veld bevat totale bedragen en stelt desgewenst de ingangsdatum in op de eerste dag van het boekjaar of de boekperiode. 
 
-Veel van de velden op het **Doel** tabblad kunnen worden bewerkt of zijn alleen-lezen, afhankelijk van de actie die u selecteert. Wanneer u echter overgaat van het maken van een nieuw budgetplan naar het bijwerken van een bestaand plan, is het veld **Naam van budgetplan** niet langer beschikbaar, en worden de velden voor het selecteren van een bestaand plan beschikbaar. Op beide **doel** tabblad en de ** bron ** tabblad, de **grootboek** veld is altijd niet beschikbaar, omdat de waarde wordt bepaald door het geselecteerde budgetplanningsproces. 
+Veel van de velden op het **Doel** tabblad kunnen worden bewerkt of zijn alleen-lezen, afhankelijk van de actie die u selecteert. Wanneer u echter overgaat van het maken van een nieuw budgetplan naar het bijwerken van een bestaand plan, is het veld **Naam van budgetplan** niet langer beschikbaar, en worden de velden voor het selecteren van een bestaand plan beschikbaar. Op zowel het tabblad **Doel** als het tabblad Bron is het veld **Grootboek** altijd niet-beschikbaar, omdat de waarde door het geselecteerde budgetplanningsproces wordt bepaald. 
 
 In het veld **Budgetklasse** kunt u de regels van het budgetplan instellen als onkostentransacties of opbrengsttransacties. Doorgaans worden de opbrengsttransacties als kredieten opgenomen in een grootboekrekening en daarom als negatieve bedragen opgeslagen. Doorgaans worden deze transacties ook als negatieve bedragen in het budgetplan weergegeven. Door de budgetklasse als een veld aan de planindeling toe te voegen kunt u opbrengst weer laten geven als positieve bedragen.
 
@@ -73,7 +76,7 @@ Drie velden bevatten aanvullende functionaliteit: **Factor**, **Min.voorraad** e
 
 De waarde in het veld **Factor** wordt vermenigvuldigd met het bronbedrag om het bedrag in het budgetplan in te stellen. U kunt vervolgens correcties maken wanneer u budgetplanregels maakt. U kunt bijvoorbeeld **1,03** invoeren voor een stijging van 3%. De factor moet een positief getal zijn. 
 
-In het veld **Minimum** kunt u het drempelbedrag instellen voor het maken van een budgetplanregel. Als het bronbedrag kleiner is dan dit getal is, wordt de budgetplanregel niet gemaakt. Een waarde van **0,00** zorgt ervoor dat alle bedragen maar regels naar positieve bedragen niet beperken. (Geen waarde beperkt regels naar positieve bedragen. Negatieve bedragen worden altijd opgenomen en geven meestal creditposten.)
+In het veld **Minimum** kunt u het drempelbedrag instellen voor het maken van een budgetplanregel. Als het bronbedrag kleiner is dan dit getal is, wordt de budgetplanregel niet gemaakt. Met een waarde van **0,00** zijn alle bedragen toegestaan, maar zijn regels niet beperkt tot positieve bedragen. (Als geen waarde wordt ingevuld, worden regels beperkt tot positieve bedragen. Negatieve bedragen worden altijd opgenomen en vertegenwoordigen meestal creditposten.)
 
 In het veld **Afrondingsregel** kunt u de nauwkeurigheid van de budgetplanregels instellen die worden gemaakt. U kunt bedragen afronden naar de dichtstbijzijnde 1,00, 10,00, 100,00, enzovoort van valuta.
 
@@ -86,13 +89,13 @@ In het doel is het veld **Budgetklasse** ingesteld op **Onkosten** of **Opbrengs
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Budgetplan genereren op basis van vaste activa
 
-Het proces **Budgetplan genereren op basis van vaste activa** heeft geen optie voor samenvoeging per periode of dag. Er is geen optie voor het instellen van het plan als historische. U kunt deze periodieke verwerking van de verwachte transacties voor vaste activa opnemen in uw budget plannen.
+Het proces **Budgetplan genereren op basis van vaste activa** heeft geen optie voor samenvoeging per periode of dag. Er is ook geen optie om het plan als historisch in te stellen. U kunt dit periodieke proces gebruiken om verwachte transacties voor vaste activa in uw budgetplanning op te nemen.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Budgetplan genereren op basis van prognoseposities
 
 Het proces **Budgetplan genereren op basis van prognoseposities** wijst de bronprognosepositie toe aan de budgetplanregel. U kunt de positie weergeven door de prognosepositie toe te voegen als rij in de budgetplanindeling of door de query **Budgetplanregels** te gebruiken. Als u niet wilt dat de prognosepositie wordt toegewezen aan budgetplanregels, stelt u de optie **Positie opnemen op budgetplanregel** in op **Nee**.
 
-Regels in het budgetplan worden samengevoegd per grootboekrekening en de positie. U kunt echter het positienummer uitsluiten zodat de regels worden samengevoegd per grootboekrekening alleen. Op het **Doel** tabblad, stelt u de optie **Positie opnemen op budgetplanregel** in op **Nee**.
+Regels in het budgetplan worden samengevoegd per grootboekrekening en positie. U kunt het positienummer echter uitsluiten zodat regels alleen per grootboekrekening worden samengevoegd. Op het **Doel** tabblad, stelt u de optie **Positie opnemen op budgetplanregel** in op **Nee**.
 
 In het veld **FTE-scenario voor budgetplan** kunt u een scenario selecteren om het aantal fulltime equivalenten (FTE's) in het budgetplan op te nemen. Dit veld is alleen beschikbaar voor scenario's met hoeveelheidstype die zijn opgenomen in de indeling van het doelbudgetplan. Als u een FTE-scenario selecteert, moet u ook een FTE-hoofdrekening selecteren. Deze rekening wordt gebruikt om de regels van hoeveelheidsbudgetplan te maken. 
 
@@ -140,5 +143,7 @@ Selecteer een regel en klik op de knop **Budgetplanregels** om de query **Budget
 Gebruik de knoppen **Aanbodprognose** en **Vraagprognose** om deze query's uit te voeren. In beide gevallen zoekt de query prognoseregels die de budgetplanregels gemaakt zouden kunnen hebben. 
 
 Extra rapporten die beschikbaar zijn, omvatten het rapport **Prognoseposities per budgetplan**. Dit rapport is vooral nuttig als u wilt bepalen of een positie correct aan budgetplannen is toegewezen.
+
+
 
 

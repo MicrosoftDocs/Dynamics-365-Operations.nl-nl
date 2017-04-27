@@ -1,5 +1,5 @@
 ---
-title: Een gedeeltelijke leveranciersbetaling met kortingen op creditnota&quot;s voor leverancier vereffenen
+title: Een gedeeltelijke leverancierbetaling vereffenen met kortingen op creditnota&quot;s van de leverancier
 description: Dit artikel begeleidt u door een scenario waarin een creditnota voor een factuur wordt vereffend.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Een gedeeltelijke leveranciersbetaling met kortingen op creditnota's voor leverancier vereffenen
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Een gedeeltelijke leverancierbetaling vereffenen met kortingen op creditnota's van de leverancier
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel begeleidt u door een scenario waarin een creditnota voor een factuur wordt vereffend.
 
@@ -65,6 +68,8 @@ April kan de leveranciertransacties op de pagina **Leveranciertransacties** cont
 | Factuur-10071  |                  | 7/2/2015  | CR10071 | 200,00                               |                                       | 0,00    | USD      |
 | DISC-10071 |  Contantkorting   | 7/2/2015  |         | 2,00                                 |                                       | 0,00    | USD      |
 | DISC-10071 |  Contantkorting   | 7/2/2015  |         |                                      | 2,00                                  | 0,00    | USD      |
+
+
 
 
 

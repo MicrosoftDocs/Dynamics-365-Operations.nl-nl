@@ -1,6 +1,6 @@
 ---
 title: CODA-bankafschrift
-description: In dit onderwerp bevat informatie over CODA, een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.
+description: Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,34 +27,39 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="coda-bank-statement"></a>CODA-bankafschrift
 
-In dit onderwerp bevat informatie over CODA, een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt. 
+[!include[banner](../includes/banner.md)]
 
-Voor de invoer van Belgische bank-overzicht gebruikt u de CODA-bestandsindeling. Deze functie kunt u de bedrijfsbankrekening openen en eindsaldi controleren en afstemmen van geïmporteerde transacties op basis van afstemmingsregels.
 
-## <a name="import-transactions-from-a-bank-statement"></a>Transacties importeren vanuit een bankafschrift
-Voltooi de volgende stappen voor het importeren van een bankafschriftbestand voor een bankrekening. **opmerking**: voordat u een bankafschriftbestand importeert, u moet al hebt uitgevoerd de volgende:
+Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt. 
 
--   De CODA-configuraties van Lifecycle Services (LCS) importeren. Zie voor meer informatie [elektronische downloaden rapportage configuraties vanuit Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
--   Selecteer het geïmporteerde CODA-configuratie op de **CODA-parameters** pagina.
+Voor importen van Belgische bankoverzichten gebruikt u de CODA-bestandsindeling. Met deze functie kunt u begin- en eindsaldi van bedrijfsbankrekeningen controleren en kunt u geïmporteerde transacties op basis van afstemmingsregels afstemmen.
 
-1.  Ga naar de **bankrekeningen** pagina.
-2.  Klik op **afstemmen**&gt;**CODA**.
-3.  Klik op **CODA**&gt;**importeren uit bestand**, en selecteer vervolgens het pad naar het bankafschriftbestand.
+## <a name="import-transactions-from-a-bank-statement"></a>Transacties van een bankafschrift importeren
+Voer de volgende stappen uit om een bankafschriftbestand voor een bankrekening te importeren. **Opmerking**: voordat u een bankafschriftbestand importeert, moet u het volgende al hebben uitgevoerd:
 
-Wanneer u transacties geïmporteerd, kunt u het volgende doen op de **bankafschrift** pagina.
+-   De CODA-configuraties vanuit Lifecycle Services (LCS) importeren Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Selecteer de geïmporteerde CODA-configuratie op de pagina **CODA-parameters**.
 
--   Controleer de begin- en -saldi.
--   De geïmporteerde transacties weergeven als een rapport met bankafschrift die u kunt afdrukken.
--   Geïmporteerde transacties weergeven met extra regels, zoals regels met het rekeningtype 'Geen'. Klik op **CODA &gt;Details**.
+1.  Ga naar de pagina **Bankrekeningen**.
+2.  Klik op **Afstemmen** &gt; **CODA**.
+3.  Klik op **CODA** &gt; **Importeren uit bestand** en selecteer vervolgens het pad naar het bankafschriftbestand.
 
-## <a name="process-imported-bank-statement-transactions"></a>Proces bankafschrifttransacties geïmporteerd
-Voer de volgende stappen uit om de banktransacties van de instructie te verwerken.
+Nadat u transacties hebt geïmporteerd, kunt u het volgende doen op de pagina **Bankafschrift**.
 
-1.  Proces details regels (**CODA**&gt;**detailregels verwerken**). Start automatisch afstemmen op basis van **CODA-definities**. Deze regels bepalen welke account grootboek, klant of leverancier moet worden gebruikt voor deze transactie. Vergelijking is gebaseerd op welke transactiegroepscode, transactiecode en transactiecategoriecode zijn opgegeven in de CODA-bestand voor elke transactie.
-2.  Transacties met een rekeningtype klanten en leveranciers kunnen worden vergeleken met de facturen. Indien nodig, kunnen de geïmporteerde transacties handmatig worden gewijzigd op elk gewenst moment na de verwerking, alvorens over te boeken naar het grootboek.
-3.  Als er transacties met fouten zijn (in het algemeen als er geen regels instellen), deze kunnen worden verwezen naar de speciale grootboekrekening opgegeven op de **CODA-parameters **pagina (**CODA**&gt;**wissen fouten**).
-4.  Nadat alle transacties in het bankafschrift worden vereffend, moeten worden overgeboekt naar het grootboekjournaal gereed zijn (**CODA**&gt;**overboeken naar grootboek**). Journaalinstellingen moeten worden opgegeven voor de bankrekening. Journalen kunnen worden geopend op de ** bankrekeningen ** pagina voor de geselecteerde record door te klikken op **instellen**&gt;**CODA-journaal**.
+-   De begin- en eindsaldi controleren.
+-   De geïmporteerde transacties weergeven als een bankafschriftrapport dat u kunt afdrukken.
+-   Geïmporteerde transacties weergeven met extra regels, zoals regels met het rekeningtype 'Geen'. Klik op **CODA &gt; Details**.
 
-Nadat bankafschrifttransacties verwerken voltooid is, wordt een nieuwe grootboekjournaal gemaakt en geboekt.
+## <a name="process-imported-bank-statement-transactions"></a>Geïmporteerde bankafschrifttransacties verwerken
+Voer de volgende stappen uit om de bankafschrifttransacties te verwerken.
+
+1.  Verwerk detailregels (**CODA** &gt; **Detailregels verwerken**). Start automatisch afstemmen op basis van **CODA-definities**. Deze regels bepalen welk grootboek of welke klant of leverancier moet worden gebruikt voor deze transactie. De vergelijking wordt gebaseerd op welke transactiegroepscode, transactiecode en transactiecategoriecode zijn opgegeven in het CODA-bestand voor elke transactie.
+2.  Transacties met een klant- en leveranciersrekeningtype kunnen worden vergeleken met de facturen. Indien nodig kunnen geïmporteerde transacties handmatig op elk gewenst moment na verwerking worden gewijzigd, alvorens ze worden overgeboekt naar het grootboek.
+3.  Als er transacties met fouten zijn (in het algemeen als er geen regels zijn ingesteld), kunnen deze worden verwezen naar de speciale grootboekrekening die is opgegeven op de pagina **CODA-parameters** (**CODA** &gt; **Fouten wissen**).
+4.  Nadat alle transacties in het bankafschrift zijn vereffend, kunnen ze worden overgeboekt naar het grootboekjournaal (**CODA** &gt; **Overboeken naar grootboek**). Voor de bankrekening moeten journaalinstellingen worden opgegeven. Journalen kunnen worden geopend op de pagina Bankrekeningen voor de geselecteerde record door te klikken op **Instellen** &gt; **CODA-journaal**.
+
+Nadat bankafschrifttransacties zijn verwerkt, wordt een nieuw grootboekjournaal gemaakt en is deze gereed voor boeking.
+
+
 
 

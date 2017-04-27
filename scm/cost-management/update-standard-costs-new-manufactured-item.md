@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Standaardkosten bijwerken voor een nieuw gefabriceerd artikel
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel bevat richtlijnen voor het bijwerken van standaardkosten voor een nieuw gefabriceerd artikel. 
 
 In de volgende richtlijnen wordt ervan uitgegaan dat u een methode met twee kostprijsberekeningsversies gebruikt voor het bijwerken van standaardkosten. Bij deze benadering bevat de ene kostprijsberekeningsversie de standaardkosten die oorspronkelijk waren gedefinieerd voor de bevriezingsperiode, en de tweede de incrementele updates die horen bij de nieuw gefabriceerde artikelen. De incrementele updates worden als kostenrecords ingevoerd in de tweede kostprijsberekeningsversie, en uiteindelijk ingeschakeld. De methode met twee kostprijsberekeningsversies vereist dat u een tweede kostprijsberekeningsversie definieert. Dit zijn de richtlijnen voor het definiëren van deze kostprijsberekeningsversie:
@@ -47,6 +50,8 @@ Als u nieuwe productieartikelen wilt toevoegen tijdens de bevriezingsperiode, vo
 5.  Gebruik de pagina **Instellingen kostprijsberekeningsversie** om de blokkeringsvlag te wijzigen om de activering toe te staan van de kostenrecords die in behandeling zijn en die deel uitmaken van de tweede kostprijsberekeningsversie.
 6.  Gebruik de pagina **Prijzen activeren** (die u opent vanaf de pagina **Onderhoud kostprijsberekeningsversie**) om alle in behandeling zijnde artikelkostenrecords in de tweede kostprijsberekeningsversie in te schakelen. U kunt ook de kostenrecords die in behandeling zijn voor afzonderlijke artikelen, inschakelen door op de knop **Activeren** te klikken op de pagina **Artikelprijs**.
 7.  Gebruik de pagina **Instellingen kostprijsberekeningsversie** om de blokkeringsvlaggen in de tweede kostprijsberekeningsversie te wijzigen om extra gegevensonderhoud te voorkomen. Met het blokkeringsbeleid voorkomt u de invoer van nieuwe kosten die in behandeling zijn en de activering van kosten die in behandeling zijn.
+
+
 
 
 

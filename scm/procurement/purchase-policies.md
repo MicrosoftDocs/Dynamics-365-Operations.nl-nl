@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Inkoopbeleid
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over aanschafbeleid. Een inkoopbeleid is een verzameling regels die het opdrachtproces regelen. Een aanschafbeleid helpt beheerders hun aanschaffingsstrategie implementeren door een beleidsstructuur te maken die is afgestemd op de strategische aanschaffingsbehoeften van de organisatie.
 
 Een inkoopbeleid bestaat uit een reeks beleidsregels. Wanneer u een beleidsregel definieert, selecteert u een regeltype. Vervolgens maakt u een regel voor het regeltype door de instellingen, de startdatum en de einddatum voor de regel te definiëren.  
@@ -41,13 +44,13 @@ Afhankelijk van hoe u uw inkoopbeleid configureert, kunnen meerdere regels de ge
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>Voorbeeld 1: Eenvoudige configuratie van aanschafbeleid
 
-Kleine en minder complexe organisaties inkoopbeleid per rechtspersoon kunnen instellen en alleen de organisatiehiërarchie voor bedrijven kunnen gebruiken.  
+Organisaties die klein en minder complex zijn, kunnen het inkoopbeleid per rechtspersoon instellen en kunnen alleen de organisatiehiërarchie Bedrijven gebruiken.  
 
 Voor Fabrikam, een klein bedrijf, wijken de inkoopbehoeften weinig af in de hele organisatie. De inkoopregels variëren alleen tussen de rechtspersonen van de organisatie. Werknemers van Fabrikam Canada en werknemers van Fabrikam U.S. kopen bijvoorbeeld goederen en diensten in verschillende catalogi en bij verschillende leveranciers. Daarom stelt Fabrikam haar inkoopbeleid in op het niveau van de rechtspersoon.  
 
-Fabrikam maakt twee inkoopbeleiden. Beleid A is van toepassing op de Amerikaanse rechtspersoon 1111. Beleid B geldt voor de Canadese rechtspersoon 2222. Wanneer een werknemer van rechtspersoon 1111 een opdracht tot inkoop maakt, worden de beleidsregels afgeleid van beleid A. Bijvoorbeeld: de productcatalogus die de werknemer ziet is opgegeven in de catalogusbeleidsregel voor beleid A.  
+Fabrikam maakt twee inkoopbeleiden. Beleid A is van toepassing op de Amerikaanse rechtspersoon 1111. Beleid B is van toepassing op de Canadese rechtspersoon 2222. Wanneer een werknemer van rechtspersoon 1111 een opdracht tot inkoop maakt, worden de beleidsregels afgeleid van beleid A. De productcatalogus die de werknemer ziet wordt bijvoorbeeld opgegeven in de catalogusbeleidsregel voor beleid A.  
 
-Wanneer een werknemer in de rechtspersoon 2222 een opdracht tot inkoop maakt, worden de beleidsregels afgeleid van beleid B.  
+Wanneer een werknemer van rechtspersoon 2222 een opdracht tot inkoop maakt, worden de beleidsregels afgeleid van beleid B.  
 
 **Opmerking:** Als een werknemer van rechtspersoon 1111 een artikel koopt namens een werknemer van rechtspersoon 2222, dan worden de beleidsregels die zijn opgegeven voor rechtspersoon 2222 (dat wil zeggen de beleidsregels uit beleid B), toegepast.
 
@@ -117,7 +120,7 @@ De regel voor aanvullingsbeheer is een optionele regel die de velden op de opdra
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Regel voor maken van inkooporders en vraagconsolidatie
 
-De opdracht voor het maken en vraag orderconsolidatieregel definieert de beleidsregels moeten worden gebruikt wanneer een inkooporder wordt gegenereerd vanuit een goedgekeurde opdracht tot inkoop. Wanneer u regels van dit type maakt, kunt u opties op verschillende tabbladen instellen:
+De regels voor het maken van inkooporders en consolidatie van de vraag bepaalt de beleidsregels die u moet gebruiken wanneer een inkooporder wordt gegenereerd vanuit een goedgekeurde opdracht tot inkoop. Wanneer u regels van dit type maakt, kunt u opties op verschillende tabbladen instellen:
 
 -   Op het tabblad **Inkooporder splitsen** kunt u criteria definiëren voor het splitsen van regels in een opdracht tot inkoop in afzonderlijke inkooporders.
 -   Op het tabblad **Overboeking prijs/korting** kunt u definiëren wanneer u de prijsafspraak opnieuw wilt berekenen wanneer een inkooporder is gemaakt:
@@ -126,7 +129,7 @@ De opdracht voor het maken en vraag orderconsolidatieregel definieert de beleids
 
     U kunt ook toestaan dat de aanvrager de overdrachtmethode voor prijs en korting wijzigt voor afzonderlijke regels van opdrachten tot inkoop, ongeacht de overdrachtregel die is bepaald voor prijs/korting. Selecteer de optie **Handmatig overschrijven toestaan per opdracht tot inkoopregel** indien u deze functie wilt inschakelen.
 -   Op het tabblad **Overboeking artikelbeschrijving** kunt u de artikelomschrijving van de opdracht overboeken wanneer deze uit een offerteaanvraag afkomstig is.
--   Op het tabblad **Prijstolerantie** kunt u regels definiëren om goedgekeurde opdrachten tot inkoop opnieuw door het revisieproces te routeren wanneer de prijs van een artikel in de aanschaffingscatalogus is gestegen. Stel het maximumbedrag in waarmee het nettobedrag op een regel van een opdracht tot inkoop kan stijgen tussen het tijdstip waarop de opdracht tot inkoop is goedgekeurd en het tijdstip waarop de inkooporder is gemaakt. Het nettobedrag wordt berekend met behulp van de volgende formule: (\[× hoeveelheid (eenheidsprijs – korting) ÷ prijseenheid\] + diverse inkooptoeslagen) × (100 – kortingspercentage) ÷ 100 opdracht tot inkoopregels die hoger zijn dan de prijstolerantie die u hebt ingesteld, worden vastgehouden voor handmatige verwerking. De regels die u configureert op het tabblad **Foutverwerking** bepalen hoe de regels van de opdracht tot inkoop worden verwerkt.
+-   Op het tabblad **Prijstolerantie** kunt u regels definiëren om goedgekeurde opdrachten tot inkoop opnieuw door het revisieproces te routeren wanneer de prijs van een artikel in de aanschaffingscatalogus is gestegen. Stel het maximumbedrag in waarmee het nettobedrag op een regel van een opdracht tot inkoop kan stijgen tussen het tijdstip waarop de opdracht tot inkoop is goedgekeurd en het tijdstip waarop de inkooporder is gemaakt. Het nettobedrag wordt berekend met de volgende formule: (\[Hoeveelheid× (Eenheidsprijs - Korting) ÷ Prijseenheid\] + Diverse toeslagen voor de bestelling) x (100 - Kortingspercentage) ÷ 100. Regels van de inkoopopdracht die de prijstolerantie overschrijden, worden vastgehouden voor handmatige verwerking. De regels die u configureert op het tabblad **Foutverwerking** bepalen hoe de regels van de opdracht tot inkoop worden verwerkt.
 -   Op het tabblad **Foutverwerking** kunt u de verwerkingsregel configureren die wordt toegepast op een opdracht tot inkoop waarvan de validatie is mislukt bij het maken van de inkooporder vanwege een leveranciersfout of prijstolerantiefout. Een van de volgende opties selecteren:
     -   **Geen actie** - De regels van de opdracht tot inkoop blijven op de pagina **Goedgekeurde opdrachten tot inkoop vrijgeven**. De status van de regels van de opdracht tot inkoop blijft **Goedgekeurd**. De fouten moeten echter worden gecorrigeerd voordat er een inkooporder voor de regels van de opdracht tot inkoop kan worden gegenereerd.
     -   **De opdracht tot inkoopregel annuleren** De regels van de opdracht tot inkoop worden geannuleerd. De aanvrager kan een nieuwe opdracht tot inkoop voor de geannuleerde regels maken als hij of zij de regelartikelen nog steeds wil aanvragen.
@@ -141,6 +144,8 @@ De opdracht voor het maken en vraag orderconsolidatieregel definieert de beleids
     -   **Vraagconsolidatie niet toestaan** - Geen goedgekeurde regels in opdrachten tot inkoop komen in aanmerking voor consolidatie van de vraag. Deze optie wordt standaard geselecteerd en is alleen van toepassing op regels van een opdracht tot inkoop waarvoor handmatige verwerking is vereist bij het maken van inkooporders.
     -   **Vraagconsolidatie altijd toestaan** - Alle goedgekeurde regels in opdrachten tot inkoop komen in aanmerking voor consolidatie van de vraag. **Opmerking:** Als u de optie **Vraagconsolidatie altijd toestaan** op het tabblad **Vraagconsolidatie** selecteert, maar ook de optie **Automatisch inkooporders maken** op het tabblad **Handmatig inkooporders maken**, worden alle opdrachten tot inkoop vastgehouden voor handmatige verwerking.
     -   **Vraagconsolidatie toestaan in deze omstandigheden** - Definieer de criteria die bepalen of goedgekeurde regels op opdrachten tot inkoop in aanmerking komen voor consolidatie van de vraag. U kunt de criteria per aanschaffingscategorie en leverancier instellen voor elke type regel van een opdracht tot inkoop. Als u **Vraagconsolidatie toestaan in deze omstandigheden** selecteert, kunt u de criteria per aanschaffingscategorie en leverancier instellen voor elke type regel van een opdracht tot inkoop. Wanneer u een aanschaffingscategorie selecteert, worden alle subcategorieën voor deze categorie eveneens geselecteerd. Als u de optie **Alle** selecteert voor een bepaald regeltype, komen alle regels van de opdracht tot inkoop met dit regeltype in aanmerking voor vraagconsolidatie.
+
+
 
 
 

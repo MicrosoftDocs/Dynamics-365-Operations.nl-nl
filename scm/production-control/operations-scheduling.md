@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Bewerkingsplanning
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit onderwerp bevat informatie over de planning van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 
 U kunt de productie op het niveau van de bewerking en het taakniveau plannen. In tegenstelling tot het plannen van taken worden bij het plannen van bewerkingen de bewerkingen voor de productieroute niet in taken opgesplitst. Indien u meer details in de planning op wilt nemen, zoals informatie over de huidige capaciteit, kunt u na het plannen van de bewerkingen een taakplanning uitvoeren. U kunt ook alleen een taakplanning uitvoeren. De taakplanning wordt meestal gebruikt voor het plannen van afzonderlijke taken op de werkvloer voor een onmiddellijke of een korte periode.
@@ -76,5 +79,7 @@ Indien u met beperkt materiaal werkt, hangt de planning ook af van de beschikbaa
 --------
 
 [Opties voor het plannen van bewerkingen](operation-scheduling-options.md)
+
+
 
 

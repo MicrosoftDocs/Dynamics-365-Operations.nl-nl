@@ -1,6 +1,6 @@
 ---
 title: Actiezoekopdracht
-description: Dit artikel worden de zoekfunctionaliteit actie in Microsoft Dynamics 365 voor bewerkingen. Actie zoeken kunt u zoeken en uitvoeren van acties op een pagina.
+description: In dit artikel wordt de zoekfunctionaliteit voor acties in Microsoft Dynamics 365 for Operations beschreven. Met een actiezoekopdracht kunt u zoeken naar acties op een pagina en deze uitvoeren.
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,30 +26,33 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="action-search"></a>Actiezoekopdracht
 
-Dit artikel worden de zoekfunctionaliteit actie in Microsoft Dynamics 365 voor bewerkingen. Actie zoeken kunt u zoeken en uitvoeren van acties op een pagina.
+[!include[banner](../includes/banner.md)]
+
+
+In dit artikel wordt de zoekfunctionaliteit voor acties in Microsoft Dynamics 365 for Operations beschreven. Met een actiezoekopdracht kunt u zoeken naar acties op een pagina en deze uitvoeren.
 
 <a name="introduction"></a>Introductie
 ------------
 
-Pagina's in Microsoft Dynamics 365 for Operations blootgesteld voornamelijk opdrachten in actie deelvensters, zowel standaard actievenster die aan het begin van een pagina wordt weergegeven als de werkbalken die worden weergegeven in verschillende gedeelten van de pagina. In vorige versies kunt een functie sleutel Tips u snel toegang tot een knop in een actievenster door op de Alt-toets en vervolgens een reeks letters te drukken. 
+Pagina's in Microsoft Dynamics 365 for Operations bevatten voornamelijk opdrachten in actiedeelvensters, zowel in het standaardactievenster dat boven aan de pagina wordt weergegeven als op de werkbalken die in verschillende gedeelten van de pagina worden weergegeven. In eerdere versies kon u met de functie Tips toetsen snel een knop in een actievenster openen door op de Alt-toets en vervolgens op een reeks letters te drukken. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) echter in de huidige versie van Dynamics 365 for Operations sleutel Tips zijn niet langer beschikbaar, maar zijn vervangen door de zoekfunctie van actie. Met deze nieuwe functie kunt u snel zoeken en een knop uitvoeren van elk weergegeven actievenster.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) In de huidige versie van Dynamics 365 for Operations zijn Tips toetsen echter niet meer beschikbaar en zijn deze vervangen door de functie actiezoekopdrachten. Met deze nieuwe functie kunt u snel zoeken en een knop uitvoeren van elk weergegeven actievenster.
 
 ## <a name="using-action-search"></a>Actiezoekopdrachten gebruiken
 Om de functie van het actiezoekfunctie te gebruiken, volgt u deze stappen.
 
 1.  Op het actievenster, klikt u in het veld **actiezoekopdracht**. (Het **actiezoekopdracht**-veld bevat een vergrootglaspictogram.)
-2.  Typ of een gedeelte van de naam van de knop die u wilt uitvoeren. U kunt ook zoeken met behulp van woorden uit het van de knop 'pad'. (Zie de volgende sectie van dit artikel voor meer informatie.) Een knop wordt normaal gesproken boven aan de lijst met resultaten weergegeven nadat u twee tot vier tekens hebt getypt.
+2.  Typ de hele of een deel van de naam van de knop die u wilt gebruiken. U kunt ook zoeken met behulp van woorden van het "pad" van de knop. (Zie de volgende sectie van dit artikel voor meer informatie.) Een knop wordt normaal gesproken boven aan de lijst met resultaten weergegeven nadat u twee tot vier tekens hebt getypt.
 3.  Zoek en start de knop in de resultatenlijst (met de muis of het toetsenbord).
 
 Nadat de knop is uitgevoerd, keert de focus terug naar uw de laatste positie op de pagina, zodat u door kunt werken. 
 
-[![actie in het veld zoeken](./media/action-search-field.png)](./media/action-search-field.png)
+[![actiezoekopdracht-veld](./media/action-search-field.png)](./media/action-search-field.png)
 
 U kunt actiezoekopdrachten ook starten door Ctrl+/ of Alt+Q in te drukken. Druk opnieuw op de toetsenbordsneltoets om de focus terug te plaatsen naar uw laatste positie op de pagina.
 
 ## <a name="understanding-the-results-list"></a>De resultatenlijst begrijpen
-Vaak in Dynamics 365 voor bewerkingen, moet u weten zowel de locatie en de context van een knop op het doel van die knop volledig te begrijpen. Dus wordt als u meer informatie weergegeven voor elk artikel in de lijst met resultaten kunt u precies begrijpt welke knoppen worden weergegeven in de lijst. In het bijzonder wordt het 'pad' van de knop weergegeven. Dit pad kan de labels van de volgende UI-elementen bevatten, indien dit relevant is:
+Vaak moet u in Dynamics 365 for Operations zowel de locatie als de context van een knop weten om het doel van die knop volledig te begrijpen. Daarom wordt er aanvullende informatie weergegeven voor elk item in de lijst met resultaten, zodat u precies begrijpt welke knoppen in de lijst worden weergegeven. In het bijzonder wordt het 'pad' van de knop weergegeven. Dit pad kan de labels van de volgende UI-elementen bevatten, indien dit relevant is:
 
 -   Tabblad actievenster
 -   Knopgroep
@@ -57,15 +60,17 @@ Vaak in Dynamics 365 voor bewerkingen, moet u weten zowel de locatie en de conte
 -   Menuscheidingsteken (als de knop in een benoemde groep in een menuknop is)
 -   Groep of tabblad op de pagina (bijvoorbeeld de naam van een sneltabblad)
 
-U hebt bijvoorbeeld **tot** in het **actiezoek**-veld getypt en bekijkt nu de resultatenlijst. Het eerste item, voor een knop met de naam **totalen**, wordt gemarkeerd. Een knop pad van **verkooporder**&gt;**weergave** wordt ook weergegeven. De **verkooporder** deel van het pad overeenkomt met de **verkooporder** tabblad in het actievenster en de **weergave** deel van het pad overeenkomt met de **weergeven** groeperen op dat tabblad. Op dezelfde manier het pad van de **totale korting** knop (**verkopen**&gt;**berekenen**) meldt u dat deze knop bevindt zich in de **berekenen** groeperen op de **verkopen** tabblad van het actievenster. Daarom kunt deze informatie u precies welke knop wordt aangestuurd door actie zoeken (als u die knop in de resultatenlijst) te begrijpen. 
+U hebt bijvoorbeeld **tot** in het **actiezoek**-veld getypt en bekijkt nu de resultatenlijst. Het eerste item, voor een knop met de naam **Totalen**, wordt gemarkeerd. Een knoppad van **Verkooporder** &gt; **Weergave** wordt ook weergegeven. Het gedeelte **Verkooporder** van het pad komt overeen met het tabblad **Verkooporder** in het actievenster en het gedeelte **Weergave** van het pad komt overeen met de groep **Weergave** op dat tabblad. Evenzo geeft het pad van de knop **Totale korting** (**Verkopen** &gt; **Berekenen**) aan dat deze knop zich bevindt in de groep **Berekenen** op het tabblad **Verkopen** van het actievenster. Daarom kunt u aan de hand van deze informatie precies bepalen welke knop wordt geactiveerd door de actiezoekopdracht (als u die knop selecteert in de resultatenlijst). 
 
-[![actie-zoeken-veld-met-gegevens](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
+[![actiezoekopdracht-veld-met-gegevens](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 
-In het vorige voorbeeld, werden de resultaten van de actiezoekopdracht van het standaard actievenster bovenaan een pagina weergegeven. De actiezoekopdracht geeft echter ook resultaten weer van zichtbare werkbalken die zich op andere plaatsen op de pagina bevinden. Bijvoorbeeld: u zoekt de **voorhanden voorraad** knop op de **verkooporderregels** sneltabblad. In dit geval wordt het pad van de knop in de lijst met resultaten (**verkooporderregels**&gt;**voorraad**&gt;**weergave**) meldt u dat deze knop bevindt zich onder de **weergave** titel op de **voorraad** menuknop op de **verkooporderregels** sneltabblad. 
+In het vorige voorbeeld, werden de resultaten van de actiezoekopdracht van het standaard actievenster bovenaan een pagina weergegeven. De actiezoekopdracht geeft echter ook resultaten weer van zichtbare werkbalken die zich op andere plaatsen op de pagina bevinden. U zoekt bijvoorbeeld naar de knop **Voorhanden voorraad** die zich bevindt op het sneltabblad **Verkooporderregels**. In dit geval geeft het pad van de knop in de lijst met resultaten (**Verkooporderregels** &gt; **Voorraad** &gt; **Weergave**) aan dat deze knop zich bevindt onder de kop **Weergave** op de menuknop **Voorraad** op het sneltabblad **Verkooporderregels**. 
 
-[![op de voorhanden voorraad](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![voorhanden-voorraad](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Actiezoekopdracht vergeleken met navigatiezoekopdracht
-Zoeken van de actie is bedoeld om te zoeken en acties uitvoeren op een pagina, wordt er een aparte zoekactie mechanisme voor het zoeken en navigeren naar pagina's in Dynamics 365 voor bewerkingen. Zie voor meer informatie over deze functie, de [navigatie zoeken](navigation-search.md) artikel.
+Actiezoekopdrachten zijn bedoeld om acties op een pagina te zoeken en uit te voeren, maar is er een apart zoekmechanisme voor het zoeken en navigeren naar pagina's in Dynamics 365 for Operations. Zie het artikel [Navigatiezoekfunctie](navigation-search.md) voor meer informatie over deze functie.
+
+
 
 

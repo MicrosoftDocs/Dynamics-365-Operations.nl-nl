@@ -1,6 +1,6 @@
 ---
-title: Importeren of handmatig postcodes maken
-description: In dit artikel wordt uitgelegd hoe importeren en handmatig postcodes maken in de juiste indeling. In dit onderwerp bevat informatie over de functie die is toegevoegd voor Microsoft Dynamics 365 voor bewerkingen.
+title: Postcodes importeren of handmatig maken
+description: In dit artikel wordt beschreven hoe u postcodes in de juiste indeling kunt importeren en handmatig maken. Dit onderwerp bevat informatie over de functie die is toegevoegd of gewijzigd voor Microsoft Dynamics 365 for Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="import-or-manually-create-postal-codes"></a>Importeren of handmatig postcodes maken
+# <a name="import-or-manually-create-postal-codes"></a>Postcodes importeren of handmatig maken
 
-In dit artikel wordt uitgelegd hoe importeren en handmatig postcodes maken in de juiste indeling. In dit onderwerp bevat informatie over de functie die is toegevoegd voor Microsoft Dynamics 365 voor bewerkingen. 
+[!include[banner](../includes/banner.md)]
 
-Het importproces kunt u de postcodes voor een specifiek land/regio bijwerken. U kunt postcodes ook handmatig maken.
+
+In dit artikel wordt beschreven hoe u postcodes in de juiste indeling kunt importeren en handmatig maken. Dit onderwerp bevat informatie over de functie die is toegevoegd of gewijzigd voor Microsoft Dynamics 365 for Operations. 
+
+Met het importproces kunt u de postcodes voor een bepaald land of een bepaalde regio bijwerken. U kunt postcodes ook handmatig maken.
 
 ## <a name="import-zippostal-codes"></a>Postcodes importeren
-U kunt de **importeren postcodes** pagina nieuwe postcodes importeren in Microsoft Dynamics 365 voor bewerkingen. Wanneer u de codes importeert, wordt de bestaande postcodes worden vervangen door de nieuwe indeling en eventuele nieuwe codes toegevoegd.
+U kunt de pagina **Postcodes importeren** gebruiken om nieuwe postcodes in Microsoft Dynamics 365 for Operations te importeren. Wanneer u de codes importeert, worden de bestaande postcodes door de nieuwe indeling vervangen en worden eventuele nieuwe codes toegevoegd.
 
-Voor sommige landen, moet u de Data management framework gebruiken om codes te importeren, terwijl voor andere landen alleen een uploadbestand vereist is. België, Nederland en Zweden moeten een bestand te uploaden.
+Voor sommige landen moet u het Gegevensbeheer-raamwerk gebruiken om codes te importeren, terwijl voor andere landen alleen een uploadbestand vereist is. Voor België, Nederland en Zweden moet een bestand worden geüpload.
 
 > [!NOTE]
-> -   Voor België geeft de officiële webpagina vanuit de Belgische bericht een officiële lijst van de postcodes en de bijbehorende plaatsnamen. HTML-bestandsindeling biedt ondersteuning voor het importeren.
-> -   Voor Nederland kunt een derde partij-indeling u het bestand met postcodes. Nadat het importeren is voltooid, worden alle postcodes in de notatie (NNNN AA).
-> -   Voor Zweden Postnummerservice.se biedt twee typen bestanden: Zweedse postcodes en Zweedse adressen. De import ondersteunt de bestandsindeling voor beide typen.
+> -   Voor België bevat de officiële webpagina van de Belgische Post een officiële lijst van de postcodes en de bijbehorende plaatsnamen. HTML-bestandsindeling wordt ondersteund voor het importeren.
+> -   Voor Nederland levert een externe organisatie het bestand dat postcodes bevat. Nadat de import is voltooid, worden alle postcodes in de indeling (NNNN AA) weergegeven.
+> -   Voor Zweden biedt Postnummerservice.se twee typen bestanden: Zweedse postcodes en Zweedse adressen. Tekstbestandsindeling wordt voor beide typen ondersteund voor het importeren.
 
 
 ## <a name="create-zippostal-codes-manually"></a>Handmatig postcodes maken
-In plaats van de codes importeert, kunt u de **adresinstelling** pagina handmatig toevoegen van nieuwe postcodes.
+In plaats van codes te importeren kunt u de pagina **Adresinstelling** gebruiken om handmatig nieuwe postcodes toe te voegen.
+
+
 

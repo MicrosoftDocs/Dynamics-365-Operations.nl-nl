@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="post-with-derived-books"></a>Boeken met afgeleide boeken
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u afgeleide boeken gebruikt.
 
 Wanneer u transacties boekt voor een boek dat afgeleide afschrijvingsboeken bevat, worden transacties met afgeleide boeken automatisch in journalen, inkooporders of vrije-tekstfacturen geboekt. Als u echter de transacties voor het primaire boek in het journaal Vaste activa gereedmaakt, kunt u de bedragen van de afgeleide transacties bekijken en wijzigen voordat u ze boekt.
@@ -49,11 +52,13 @@ Hieronder wordt beschreven hoe u verwervingsmethoden instelt met de functionalit
 
 De boeken kunnen aan een specifieke vaste activa worden gekoppeld. 
 
-Wanneer een verwerving wordt geboekt voor vaste activa met boek VM 1, wordt de verwerving niet alleen op VM 1, maar ook op het afgeleide boek VM 2 geboekt. De status van beide vaste-activaboeken wordt bijgewerkt om te openen.
+Wanneer een verwerving wordt geboekt voor een vast activum met boek VM 1, wordt de verwerking niet alleen op VM 1, maar ook op het afgeleide afgeleide boek VM 2 geboekt. De status van beide vaste-activaboeken wordt gewijzigd in Open.
 
 > [!NOTE]                                                                                                         
 > Als u geen afgeleide boeken gebruikt, moet u de verwerving van de vaste activa voor zowel boek VM 1 als voor boek VM 2 afschrijven.
 
-Zie voor meer informatie [afgeleid boeken](derived-books.md)
+Zie voor meer informatie [Afgeleide boeken](derived-books.md).
+
+
 
 

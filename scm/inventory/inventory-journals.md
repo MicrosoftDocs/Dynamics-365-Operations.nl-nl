@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>Voorraadjournalen
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken. 
 
 De voorraadjournalen in Microsoft Dynamics 365 for Operations worden gebruikt om fysieke voorraadtransacties van diverse typen te boeken, zoals het boeken van uitgiften en ontvangsten, voorraadmutaties, het maken van stuklijsten (BOMs), en de afstemming van fysieke voorraad. Al deze voorraadjournalen worden gebruikt op een vergelijkbare manier, maar ze worden onderscheiden in verschillende typen.
@@ -72,7 +75,7 @@ De journalen voor productie-invoer werken als de artikelontvangstjournalen, maar
 
 ### <a name="counting"></a>Tellen
 
-De tellijsten laten u de huidige voorhanden voorraad corrigeren die voor artikelen of groepen artikelen is geregistreerd, en boeken dan de werkelijke materiële telling zodat u de correcties kunt maken die nodig zijn om de verschillen af te stemmen. U kunt telbeleid koppelen aan telgroepen om artikelen te groeperen die uiteenlopende kenmerken hebben, zodat die artikelen in een teljournaal kunnen worden opgenomen. U kunt bijvoorbeeld telgroepen configureren om artikelen te tellen die een specifieke frequentie hebben, of om artikelen te tellen wanneer de voorraad daalt tot een bepaald niveau. Zie voor informatie over het definiëren van de telling worden gegroepeerd, [processen (taak guide) voor voorraadtelling definiëren](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+De tellijsten laten u de huidige voorhanden voorraad corrigeren die voor artikelen of groepen artikelen is geregistreerd, en boeken dan de werkelijke materiële telling zodat u de correcties kunt maken die nodig zijn om de verschillen af te stemmen. U kunt telbeleid koppelen aan telgroepen om artikelen te groeperen die uiteenlopende kenmerken hebben, zodat die artikelen in een teljournaal kunnen worden opgenomen. U kunt bijvoorbeeld telgroepen configureren om artikelen te tellen die een specifieke frequentie hebben, of om artikelen te tellen wanneer de voorraad daalt tot een bepaald niveau. Zie voor informatie over het definiëren van telgroepen [Voorraadtellingsprocessen definiëren (taakbegeleider)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
 
 ### <a name="tag-counting"></a>Telling labels
 
@@ -89,5 +92,7 @@ Een journaalregel is alleen toegankelijk voor één gebruiker tegelijk. Als vers
 
 ## <a name="posting-journal-lines"></a>Journaalregels boeken
 U kunt op elk gewenst moment de journaalregels boeken die u maakt, tot u een artikel van extra transacties hebt vergrendeld. De gegevens die u in een journaal invoert, blijven in dat journaal bewaard, zelfs als u het journaal sluit zonder de regels te boeken.
+
+
 
 

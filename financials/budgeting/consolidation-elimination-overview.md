@@ -86,5 +86,5 @@ De optie **Financiële rapportage** is de oplossing. Over organisatiehiërarchie
 Als u de optie **Bedrijfssaldi exporteren** gebruikt om vanuit één exemplaar te exporteren en vervolgens de optie **Consolidatie met import** in het andere exemplaar gebruikt, kunt u de gegevens consolideren.
 
 
-Zie voor meer informatie [revalution in een consolidatiebedrijf valuta](\finanicials\general-ledger\currency-revaluation-consolidation-company).
+Zie voor meer informatie [Herwaardering van valuta in een consolidatiebedrijf](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

@@ -43,11 +43,11 @@ De tegels **Overzicht** geven een overzicht van de facturen voor de geselecteerd
 Klik op een tegel om een gefilterde weergave van de pagina **Facturenlijst** te openen.
 ### <a name="tabular-lists"></a>Lijsten in tabelvorm
 
-In de sectie **Lijsten in tabelvorm **wordt de factureringsstatus onderverdeeld als de overzichtstegels: Concept en Verzonden, niet-goedgekeurde lijsten. In de Conceptstatus kan een factuur naar de workflow zijn verzonden of zijn verwijderd. De laatste lijst in tabelvorm is een optie om te zoeken naar facturen. U kunt filteren als u zoekt, zodat voor snellere zoekacties.
+In de sectie **Lijsten in tabelvorm **wordt de factureringsstatus onderverdeeld als de overzichtstegels: Concept en Verzonden, niet-goedgekeurde lijsten. In de Conceptstatus kan een factuur naar de workflow zijn verzonden of zijn verwijderd. De laatste lijst in tabelvorm is een optie om facturen te zoeken. U kunt filteren tijdens het zoeken, zodat het zoeken sneller verloopt.
 Lijstpagina met alle leveranciersfacturen
 -----------------------------
 
-U kunt alle geboekte en niet-geboekte leveranciersfacturen weergeven op de **samenwerking leveranciersfacturen** (lijstpagina). Gebruik deze pagina kunt u de betalingsstatus van de facturen weergeven. De betalingsstatussen zijn Niet-geboekt, Onbetaald, Gedeeltelijk betaald en Volledig betaald.
+U kunt alle geboekte en niet-geboekte leveranciersfacturen weergeven op de lijstpagina **Samenwerkingsfacturen van leveranciers**. Gebruik deze lijstpagina om de betalingsstatus van de facturen weer te geven. De betalingsstatussen zijn Niet-geboekt, Onbetaald, Gedeeltelijk betaald en Volledig betaald.
 Een nieuwe factuur maken van een inkooporder
 --------------------------------------------
 
@@ -55,6 +55,6 @@ U kunt een nieuwe leveranciersfactuur maken door **Nieuwe** actie te selecteren 
 
 
 
-Zie voor meer informatie [samenwerken met leveranciers via het portal voor leveranciers](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Zie voor meer informatie [Samenwerken met leveranciers met behulp van de leveranciersportal](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal).
 
 

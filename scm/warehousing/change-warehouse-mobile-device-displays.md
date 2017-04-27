@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-mobile-device-display-settings"></a>Weergave-instellingen voor mobiel apparaat magazijn
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u het uiterlijk van het scherm van een mobiel apparaat instelt en snelkoppelingen koppelt aan besturingselementen, zoals knoppen. 
 
 Dit artikel geldt voor functies voor "geavanceerde magazijnen" in Magazijnbeheer. Mobiele apparaten kunnen worden gebruikt voor veel van de taken die de werknemers uitvoeren.
@@ -39,13 +42,13 @@ Als onderdeel van mobiele apparaatconfiguratie kunt u andere indelingen voor mob
 
 De CSS- en ASPX-bestanden moeten in zich in een specifieke map bevinden, zodat de Internet Information Services (IIS)-toepassing ze kan laden. Het kan handig zijn om verschillende CSS-bestanden te definiëren als u mobiele apparaatfunctionaliteit in verschillende browsers of op verschillende typen hardware uitvoert die andere indelingsbesturing vereisen. De eenvoudige instellingen zoals de achtergrondkleur, het lettertype en de tekengrootte voor tekst, en breedte en de werking van knoppen, kunnen eenvoudig worden gecontroleerd met ander gebruik van CSS-bestanden. Het ASPX-bestand wordt gebruikt om de mobiele site weer te geven op de ASP.NET-toepassing op de server. Het bestand beheert hoe de algehele structuur van HTML wordt opgemaakt. Het is een goed idee om deze functionaliteit aan te passen als u ernstige structurele problemen hebt met HTML en JavaScript en deze code moet wijzigen voor uw specifieke apparaten. De HTML-besturingselementen op pagina van het mobiele apparaat toe te wijzen aan sneltoetsen, wijst u op de pagina **Weergave-instellingen mobiel apparaat** in het veld **Toetsenbordsneltoets** de numerieke codes voor de toetsen toe. U kunt het menu **Codes voor sneltoetsen weergeven** op het mobiele apparaat gebruiken om de numerieke tekencodes te zoeken. Merk op dat de toewijzingen kunnen verschillen, afhankelijk van de hardware die wordt gebruikt. U moet de volgende syntax gebruiken om de koppeling te creëren:
 
-&lt;de naam van besturingselement&gt;(&lt;sleutelnaam&gt;) =&lt;code belangrijke&gt;;
+&lt;naam besturingselement&gt;(&lt;naam toets&gt;)=&lt;code toets&gt;;
 
 Hier is een uitleg van de onderdelen van de syntaxis:
 
--   **&lt;de naam van besturingselement&gt;** : de naam van het besturingselement (bijvoorbeeld een knop) die wordt weergegeven in HTML.
--   **(&lt;sleutelnaam&gt;) ** : De naam van de toets die u maakt de snelkoppeling voor.
--   **&lt;Toetscode&gt;** : de numerieke code op voor de sleutel moet worden gebruikt als sneltoets.
+-   **&lt;naam besturingselement&gt;** - De naam van het besturingselement, bijvoorbeeld een knop, die in HTML wordt gerenderd.
+-   **(&lt;naam toets&gt;)** – De naam van de toets waarvoor u de snelkoppeling maakt.
+-   **&lt;Code toets&gt;** – De numerieke tekencode voor de toets die als sneltoets moet worden gebruikt.
 
 Dit is een voorbeeld:
 
@@ -57,17 +60,17 @@ Op alle pagina's die een knop **Annuleren** hebben, heeft de knop deze tekst:
 
 Druk op de toets Esc op het toetsenbord om de knop **Annuleren** te activeren. Als u de instellingen voor stijl en toetsenbordsneltoetsen wilt toepassen op een specifiek apparaat, moet u een toewijzing maken in het veld **Criteria**. U moet een normale .NET-expressie gebruiken om de toewijzing te maken en de expressie moet uit drie gedeelten bestaan die worden gescheiden door een verticale streep (|), zoals hier weergegeven:
 
-Request.UserHostAddress=&lt;hostadres van gebruiker&gt;| Hostnaam =&lt;gebruikersnaam host&gt;| Request.UserAgent=&lt;gebruikersagent&gt;
+Request.UserHostAddress=&lt;hostadres gebruiker&gt;|HostName=&lt;hostnaam gebruiker&gt;|Request.UserAgent=&lt;agent gebruiker&gt;
 
 Hier is een uitleg van de onderdelen van de expressie:
 
--   **&lt;hostadres van gebruiker&gt;** : A .NET reguliere expressie die overeenkomt met het IP-adres van de aanvrager.
--   **&lt;gebruikersnaam van de host&gt;** : A .NET reguliere expressie die overeenkomt met de naam van de aanvrager.
--   **&lt;gebruikersagent&gt;** : A .NET reguliere expressie die overeenkomt met de id van de browser die gebruikmaakt van de aanvrager.
+-   **&lt;hostadres gebruiker&gt;** – Een normale .NET-expressie die overeenkomt met het IP-adres van de aanvrager.
+-   **&lt;hostnaam gebruiker&gt;** – Een normale .NET-expressie die overeenkomt met de netwerknaam van de aanvrager.
+-   **&lt;agent gebruiker&gt;** – Een normale .NET-expressie die overeenkomt met de browser-id die de aanvrager gebruikt.
 
 In het volgende voorbeeld is het gebruik van Internet Explorer 8 mogelijk:
 
-Request.UserHostAddress=. \*| Hostnaam =. \*| Request.UserAgent=MSIE\\s8\\.0
+Request.UserHostAddress=.\*|HostName=.\*|Request.UserAgent=MSIE\\s8\\.0
 
 U kunt het menu **Serverconfiguratie voor weergave-instellingen weergeven** op het mobiele apparaat gebruiken om de informatie over de instellingen te zoeken.
 
@@ -84,19 +87,21 @@ U kunt de pagina **Tekstkleuren voor mobiel apparaat** gebruiken om de diverse k
 Om de kleur te selecteren, klikt u op **Kleur selecteren**, in het palet of typt u een hexadecimale kleurencode.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Definieer de te gebruiken datumindeling op mobiele apparaten
-U kunt de lijst met geaccepteerde datumindelingen uitbreiden voor elke installatie. Deze mogelijkheid kan bijvoorbeeld nuttig zijn als u een indeling wilt opgeven die het voor een werknemer gemakkelijker maakt datums in te voeren op een mobiel apparaat. De standaardindeling wordt bepaald door de standaardtaal voor de gebruiker, die in het veld op **Taal** de pagina **Gebruikersopties** wordt opgegeven. (Dezelfde pagina wordt ook gebruikt voor een werknemer koppelen aan een specifiek magazijn werk-gebruiker.) **opmerking:** The magazijn mobiele apparaten Portal maakt geen gebruik van de instelling van de **datum, tijd en nummerindeling** op de **taal en regio voorkeuren** pagina. Om een datumnotatie te wijzigen, moet u bekend zijn met normale expressies in het Microsoft .NET Framework. Zie voor meer informatie [Normale .NET Framework-expressies](http://go.microsoft.com/fwlink/?LinkId=391260). Als u wilt definiëren datumnotaties, bewerk het bestand Dates.ini bevindt zich inhoud\\instellingen\\Dates.ini op de magazijn mobiele apparaten Portal server. Dit bestand gebruikt .NET normale expressies om de datumnotatie te bepalen. De normale expressie moet subexpressies omvatten die benoemde groepen vormen voor dag, maand en jaar (DDMMJJ), zoals getoond in het volgende voorbeeld:
+U kunt de lijst met geaccepteerde datumindelingen uitbreiden voor elke installatie. Deze mogelijkheid kan bijvoorbeeld nuttig zijn als u een indeling wilt opgeven die het voor een werknemer gemakkelijker maakt datums in te voeren op een mobiel apparaat. De standaardindeling wordt bepaald door de standaardtaal voor de gebruiker, die in het veld op **Taal** de pagina **Gebruikersopties** wordt opgegeven. (Dezelfde pagina wordt ook gebruikt om een werknemer te koppelen aan een specifieke magazijnwerkgebruiker.) **Opmerking:** de magazijnportal voor mobiele apparaten maakt geen gebruik van de instelling van het veld **Datum-, tijd- en getalnotatie** op de pagina **Voorkeuren voor gebruikerstaal en regio**. Om een datumnotatie te wijzigen, moet u bekend zijn met normale expressies in het Microsoft .NET Framework. Zie voor meer informatie [Normale .NET Framework-expressies](http://go.microsoft.com/fwlink/?LinkId=391260). Als u datumnotaties wilt definiëren, bewerkt u het bestand Dates.ini-bestand dat u kunt vinden in Content\\Settings\Dates\\Dates.ini. op de server van de magazijnportal voor mobiele apparaten. Dit bestand gebruikt .NET normale expressies om de datumnotatie te bepalen. De normale expressie moet subexpressies omvatten die benoemde groepen vormen voor dag, maand en jaar (DDMMJJ), zoals getoond in het volgende voorbeeld:
 
-^(? &lt;day&gt;\\d{2})(?&lt; month&gt;\\d{2})(?&lt; jaar&gt;\\d {2}) $
+^(?&lt;dag&gt;\\d{2})(?&lt;maand&gt;\\d{2})(?&lt;jaar&gt;\\d{2})$
 
 Elke subexpressie vereist een tot twee cijfers voor de dag en de maand, en een tot vier cijfers voor het jaar. De volgende subexpressie definieert bijvoorbeeld een benoemde groep voor een jaar en vereist ten minste twee cijfers of maximaal vier cijfers:
 
-(? &lt;year&gt;\\d{2,4})
+(?&lt;jaar&gt;\\d{2,4})
 
 U kunt meerdere expressie in hetzelfde bestand opgeven. Elke expressie moet op een aparte regel staan. De eerste expressie die wordt afgestemd, wordt gebruikt om de datum te parseren.
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Configuration of mobile devices for warehouse work](configure-mobile-devices-warehouse.md)
+[Configuratie van mobiele apparaten voor magazijnwerk](configure-mobile-devices-warehouse.md)
+
+
 
 

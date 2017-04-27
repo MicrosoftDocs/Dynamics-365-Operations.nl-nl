@@ -1,5 +1,5 @@
 ---
-title: 'Upgrade van samengestelde gegevensentiteit geavanceerde bankafstemming MT940 importeren:'
+title: 'Geavanceerde bankafstemming MT940-import: upgrade van de samengestelde gegevensentiteit'
 description: Een volgnummer moet worden toegevoegd aan de entiteit voor bankafschriftimport, zodat de MT940-indeling wordt ondersteund.
 author: twheeloc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Upgrade van samengestelde gegevensentiteit geavanceerde bankafstemming MT940 importeren:
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Geavanceerde bankafstemming MT940-import: upgrade van de samengestelde gegevensentiteit
+
+[!include[banner](../includes/banner.md)]
+
 
 Een volgnummer moet worden toegevoegd aan de entiteit voor bankafschriftimport, zodat de MT940-indeling wordt ondersteund. 
 
@@ -33,12 +36,12 @@ Met de volgende stappen kunt u de entiteit voor import van bankafschriften toevo
 1.  Compileer en synchroniseer de volgende bestanden:
     -   Samengestelde entiteit\\BankStatementImportEntity
     -   Entiteit\\BankStatementBalanceEntity
-    -   Entiteit\\BankStatementdocumentEntity
+    -   Entiteit\\BankStatementDocumentEntity
     -   Entiteit\\BankStatementEntity
     -   Entiteit\\BankStatementLineEntity
     -   Tabellen\\BankStatementStaging
 
-2.  Gegevensbeheer\\gegevens projecten.
+2.  Gegevensbeheer\\gegevensprojecten.
     1.  Laad de projecten voor MT940-import
         1.  Vervang de XSLT.
             -   Klik op **Kaart weergeven**.
@@ -58,6 +61,8 @@ Met de volgende stappen kunt u de entiteit voor import van bankafschriften toevo
                 -   Controleer dat **SequenceNumber** is toegewezen van Bron naar Fasering.
 
 3.  Importeer het nieuwe afschrift.
+
+
 
 
 

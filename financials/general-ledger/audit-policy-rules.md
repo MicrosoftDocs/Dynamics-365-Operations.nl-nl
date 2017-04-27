@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-rules"></a>Controlebeleidsregels
 
+[!include[banner](../includes/banner.md)]
+
+
 U kunt een auditbeleid gebruiken om onkostenrapporten, leveranciersfacturen en inkooporders te beoordelen om zeker te zijn dat ze de beleidsregels die u maakt naleven. Alle regels die aan een auditbeleid zijn gekoppeld, worden in batchmodus uitgevoerd volgens een planning die u opgeeft.  Elke beleidsregel is een instantie van een beleidsregeltype. Voor elk beleidsregeltype, kan slechts één beleidsregel tegelijkertijd actief zijn. 
 
 <a name="queries-and-query-types"></a>Query's en querytypen
@@ -97,5 +100,7 @@ Alle beleidsregels voor een specifiek auditbeleid delen dezelfde batchparameters
 --------
 
 [Overtredingen van controlebeleid en aanvragen](audit-policy-violations-cases.md)
+
+
 
 

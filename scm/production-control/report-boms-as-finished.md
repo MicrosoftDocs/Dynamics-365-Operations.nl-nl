@@ -1,5 +1,5 @@
 ---
-title: Rapport gereedmelden van stuklijsten
+title: Stuklijsten gereedmelden
 description: Dit artikel bevat informatie over het gereedmelden van stuklijsten.
 author: YuyuScheller
 manager: AnnBe
@@ -26,19 +26,22 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-boms-as-finished"></a>Rapport gereedmelden van stuklijsten
+# <a name="report-boms-as-finished"></a>Stuklijsten gereedmelden
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bevat informatie over het gereedmelden van stuklijsten.
 
-De pagina's **Gereedmelden** en **Maximale gereedmelding** worden gebruikt om stuklijsten (BOMs) te melden als zijnde gereed. Conceptueel is het proces voor een stuklijst als voltooid rapporteren hetzelfde als het proces voor gereedmelden van een productieorder. Dit proces kan worden gebruikt in bijvoorbeeld eenvoudige processen voor maken en kitting, waar de geavanceerdere mogelijkheden van productieorders niet zijn vereist. Met de pagina **Gereedmelden** kunt u meerdere stuklijsten in een batch gereedmelden. De **Max. gereedmelden** pagina kunt u slechts één stuklijst gereedmelden tegelijk. De **gereedmelden** pagina is beschikbaar vanuit een menu-item in Voorraadbeheer en beide pagina's beschikbaar zijn als een menu-items op de **vrijgegeven producten** pagina.
+De pagina's **Gereedmelden** en **Maximale gereedmelding** worden gebruikt om stuklijsten (BOMs) te melden als zijnde gereed. Conceptueel is het proces voor een stuklijst als voltooid rapporteren hetzelfde als het proces voor gereedmelden van een productieorder. Dit proces kan worden gebruikt in bijvoorbeeld eenvoudige processen voor maken en kitting, waar de geavanceerdere mogelijkheden van productieorders niet zijn vereist. Met de pagina **Gereedmelden** kunt u meerdere stuklijsten in een batch gereedmelden. Op de pagina **Max. gereedmelding** kunt u slechts één stuklijst tegelijk gereedmelden. De pagina **Gereedmelden** is beschikbaar vanuit een menu-item in Voorraadbeheer en beide pagina's zijn beschikbaar als menu-items op de pagina **Vrijgegeven producten**.
 
 ## <a name="report-as-finished-page"></a>Pagina Gereedmelden
 Als u de pagina **Gereedmelden ** van een vrijgegeven product opent, suggereert de pagina dat u de standaardhoeveelheid van de standaardvoorraad gereedmeldt. Standaard wordt de actieve stuklijstversie weergegeven, maar u kunt de stuklijstversie wijzigen als er andere goedgekeurde versies zijn. Op de pagina kunt u ook registraties verwijderen en nieuwe records voor vrijgegeven producten maken, die moeten worden gereedgemeld. Om een query te gebruiken om producten te selecteren, klikt u op het menu-item **Selecteren**. U kunt handmatig rapportage bevestigen als voltooid voor de geselecteerde producten door te klikken op **OK**. U kunt ook instellen dat het proces wordt uitgevoerd in een batch. Wanneer het proces Gereedmelden is bevestigd, genereert het systeem een stuklijstjournaal waarin het boeken naar de voorraad is verwerkt. Dit journaal bestaat uit één regelartikel voor het eindproduct en een regelartikel voor elke stuklijstregel. U kunt controleren of het journaal automatisch wordt geboekt of wordt opengelaten voor aanvullende correcties.
 
-## <a name="max-report-as-finished-page"></a>Max. Rapport als voltooide pagina
+## <a name="max-report-as-finished-page"></a>Pagina Maximale gereedmelding
 Op de pagina **Maximale gereedmelding** geeft elke stuklijstregel het aantal stuks van het product aan dat kan worden gereedgemeld. Deze berekening wordt gebaseerd op de beschikbare voorhanden materiële voorraad van elke materiaalregel. In het volgende voorbeeld verbruikt een stuk van het artikelnummer FG twee stuks van grondstof RM10 en een stuk van grondstof RM20. Omdat er maar 10 stuks van RM10 voorradig zijn, bedraagt de maximale hoeveelheid van FG die kan worden gereedgemeld vijf stuks. Deze waarde wordt weergegeven in het veld **Maximale gereedmelding**.
 
-| Niveau | Artikelnummer | Hoeveelheid | Voorhanden | Max. Rapporteren als gereed |
+| Niveau | Artikelnummer | Hoeveelheid | Voorhanden | Maximale gereedmelding |
 |-------|-------------|----------|---------|-------------------------|
 | 0     | FG          |  1       | 0       | 5                       |
 | 1     | RM10        | -2       | 10      | 5                       |
@@ -68,7 +71,7 @@ De volgende tabellen tonen hoe de instelling van het veld **Explosie** de wijze 
 | 0     | FG          | 3        |
 | 1     | COMP        | -3       |
 
-Als de voorgaande tabel staat, alleen artikelnummer COMP wordt beschouwd als in het journaal in mindering gebracht. Artikelnummer RM, dat deel van COMP uitmaakt, aan de journaalregel is niet geëxplodeerd en de twee stuks van de voorhanden voorraad van COMP niet worden beschouwd. **Explosie: Altijd**
+Zoals de voorafgaande tabel laat zien, wordt alleen het artikelnummer COMP in het journaal beschouwd als afgetrokken. Het artikelnummer RM, dat deel uitmaakt van COMP, is niet geëxplodeerd in de journaalregel en de twee voorhanden stukken van COMP zijn niet meegenomen. **Explosie: Altijd**
 
 | Niveau | Artikelnummer | Hoeveelheid |
 |-------|-------------|----------|
@@ -84,5 +87,7 @@ In dit geval wordt het artikelnummer COMP geëxplodeerd in zijn grondstof, artik
 | 1     | RM          | -1       |
 
 In dit geval worden de twee voorhanden stuks van artikelnummer COMP meegenomen. Echter, omdat drie stuks van artikelnummer FG vereist zijn, is één stuk van artikelnummer RM ook vereist om het aanvullende ene stuk van COMP te maken.
+
+
 
 

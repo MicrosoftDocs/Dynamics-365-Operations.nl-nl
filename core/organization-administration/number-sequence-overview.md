@@ -1,6 +1,6 @@
 ---
 title: Nummerreeks - overzicht
-description: Nummerreeksen instellen in Microsoft Dynamics 365 voor bewerkingen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensregistraties en transactieregistraties die deze nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een <em>verwijzing</em> genoemd.
+description: Nummerreeksen in Microsoft Dynamics 365 for Operations worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die ID&quot;s nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een <em>verwijzing</em> genoemd.
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="number-sequence-overview"></a>Nummerreeks - overzicht
 
-Nummerreeksen instellen in Microsoft Dynamics 365 voor bewerkingen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensregistraties en transactieregistraties die deze nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een <em>verwijzing</em> genoemd.
+[!include[banner](../includes/banner.md)]
 
-Voordat u nieuwe records voor een verwijzing in Microsoft Dynamics 365 voor bewerkingen maken kunt, moet u een nummerreeks instellen en aan de verwijzing koppelen. Het is raadzaam om de formulieren in **Organisatiebeheer** te gebruiken om nummerreeksen in te stellen. Als er modulespecifieke instellingen zijn vereist, kunt u de parameterpagina in een module gebruiken om nummerreeksen op te geven voor de verwijzingen in die module. In **Klanten** en **Leveranciers** kunt u bijvoorbeeld nummerreeksgroepen instellen om specifieke nummerreeksen toe te wijzen aan specifieke klanten of leveranciers. Wanneer u een nummerreeks instelt, moet u een bereik opgeven die definieert welke organisatie de nummerreeks gebruikt. De scope kan **Gedeeld**, **Bedrijf**, **Rechtspersoon** of **Operationele eenheid** zijn. De scopes van **rechtspersonen** en **bedrijven** kunnen ook met **Fiscale kalenderperiode** worden gecombineerd om nog specifiekere nummerreeksen te maken. Nummerreeksnotaties bestaan uit segmenten. Nummerreeksen met een andere scope dan **Gedeeld**, kunnen segmenten bevatten die overeenkomen met de scope. Een nummerreeks met een scope van **Rechtspersoon** kan bijvoorbeeld een segment voor de rechtspersoon bevatten. Door een scopesegmenten in de nummerreeksnotatie op te nemen, kunt u de scope van een specifieke registratie bepalen door naar het nummer te kijken. Naast de segmenten die overeenkomen met scopes, kunnen nummerreeksnotaties **constante** en **alfanumerieke** segmenten bevatten. Een **constant** segment bevat een reeks letters, cijfers of symbolen die niet verandert. Een **alfanumeriek** segment bevat een reeks letters of cijfers die worden verhoogd telkens als het nummer wordt gebruikt. Gebruik een hekje (\#) voor stijgende nummers en een en -teken (&) om stijgende letters staan. Bijvoorbeeld: de indeling \#\#\#\#\#\_2017 wordt gemaakt van de reeks 00001\_2017, 00002\_2017, enzovoort.
+
+Nummerreeksen in Microsoft Dynamics 365 for Operations worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die ID's nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een <em>verwijzing</em> genoemd.
+
+Voordat u nieuwe registraties voor een verwijzing kunt maken in Microsoft Dynamics 365 for Operations moet u een nummerreeks instellen en deze aan de verwijzing koppelen. Het is raadzaam om de formulieren in **Organisatiebeheer** te gebruiken om nummerreeksen in te stellen. Als er modulespecifieke instellingen zijn vereist, kunt u de parameterpagina in een module gebruiken om nummerreeksen op te geven voor de verwijzingen in die module. In **Klanten** en **Leveranciers** kunt u bijvoorbeeld nummerreeksgroepen instellen om specifieke nummerreeksen toe te wijzen aan specifieke klanten of leveranciers. Wanneer u een nummerreeks instelt, moet u een bereik opgeven die definieert welke organisatie de nummerreeks gebruikt. De scope kan **Gedeeld**, **Bedrijf**, **Rechtspersoon** of **Operationele eenheid** zijn. De scopes van **rechtspersonen** en **bedrijven** kunnen ook met **Fiscale kalenderperiode** worden gecombineerd om nog specifiekere nummerreeksen te maken. Nummerreeksnotaties bestaan uit segmenten. Nummerreeksen met een andere scope dan **Gedeeld**, kunnen segmenten bevatten die overeenkomen met de scope. Een nummerreeks met een scope van **Rechtspersoon** kan bijvoorbeeld een segment voor de rechtspersoon bevatten. Door een scopesegmenten in de nummerreeksnotatie op te nemen, kunt u de scope van een specifieke registratie bepalen door naar het nummer te kijken. Naast de segmenten die overeenkomen met scopes, kunnen nummerreeksnotaties **constante** en **alfanumerieke** segmenten bevatten. Een **constant** segment bevat een reeks letters, cijfers of symbolen die niet verandert. Een **alfanumeriek** segment bevat een reeks letters of cijfers die worden verhoogd telkens als het nummer wordt gebruikt. Gebruik een hekje (\#) om stijgende nummers aan te geven en een en-teken (&) om stijgende letters aan te geven. De indeling \#\#\#\#\#\_2017 maakt bijvoorbeeld de reeks 00001\_2017, 00002\_2017, enzovoort.
 Voorbeelden van nummerreeksen
 ------------------------
 
@@ -52,7 +55,7 @@ In het volgende voorbeeld worden verkoopordernummers ingesteld voor de bedrijfs-
 | Segment 1 | Constante     | SO-      |
 | Segment 2 | Alfanumeriek | \#\#\#\# |
 
-**Voorbeeld van een opgemaakt nummer**: SO-0029. Hoewel een scopesegment niet in de notatie is opgenomen, begint de nummering opnieuw voor elke bedrijfs-ID. Als u dezelfde notatie gebruikt voor alle bedrijfs-ID´s, dan worden dezelfde nummers in elk bedrijf gebruikt. Het verkoopordernummer SO-0029 wordt bijvoorbeeld in elk bedrijf gebruikt. U kunt ook de volledige nummerreeksnotatie wijzigen voor andere bedrijfs-ID´s.
+**Voorbeeld van een opgemaakt nummer**: SO-0029. Hoewel een scopesegment niet in de notatie is opgenomen, begint de nummering opnieuw voor elke bedrijfs-ID. Als u dezelfde notatie gebruikt voor alle bedrijfs-ID's, dan worden dezelfde nummers in elk bedrijf gebruikt. Het verkoopordernummer SO-0029 wordt bijvoorbeeld in elk bedrijf gebruikt. U kunt ook de volledige nummerreeksnotatie wijzigen voor andere bedrijfs-ID's.
 
 ### <a name="purchase-requisition-numbers"></a>Nummers van opdrachten tot inkoop
 
@@ -73,6 +76,8 @@ Nummerreeksen kunnen doorlopend of niet-doorlopend zijn. Een doorlopende nummerr
 ### <a name="automatic-cleanup-of-number-sequences"></a>Automatische opschoning van nummerreeksen
 
 Bij een stroomuitval, een toepassingsfout of andere onverwachte storting, kan het systeem nummers niet automatisch opnieuw gebruiken voor doorlopende nummerreeksen. U kunt het opschoonproces handmatig of automatisch uitvoeren om de verloren nummers te herstellen. Overweeg zorgvuldig het servergebruik wanneer u het opschoonproces plant. Het is aan te raden het opschonen als batchtaak uit te voeren tijdens de daluren.
+
+
 
 
 

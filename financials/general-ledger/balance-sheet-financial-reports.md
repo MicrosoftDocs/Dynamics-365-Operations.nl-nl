@@ -1,6 +1,6 @@
 ---
 title: "Financiële rapporten balans"
-description: In dit artikel beschrijft de standaardrapporten voor balansen. Hierin worden ook de bouwstenen die aan deze rapporten gekoppeld zijn.
+description: In dit artikel worden de standaardrapporten voor balansen beschreven. Hierin worden ook de bouwstenen beschreven die aan deze rapporten zijn gekoppeld.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Financiële rapporten balans
 
-In dit artikel beschrijft de standaardrapporten voor balansen. Hierin worden ook de bouwstenen die aan deze rapporten gekoppeld zijn. 
+[!include[banner](../includes/banner.md)]
+
+
+In dit artikel worden de standaardrapporten voor balansen beschreven. Hierin worden ook de bouwstenen beschreven die aan deze rapporten zijn gekoppeld. 
 
 <a name="default-balance-sheet-reports"></a>Standaardbalansrapporten
 -----------------------------
@@ -72,10 +75,12 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
 <a name="see-also"></a>Zie ook
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Financiële rapportage](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Financiële rapporten weergeven](view-financial-reports.md)
 
-[Dynamics-Blog voor financiële rapportage](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

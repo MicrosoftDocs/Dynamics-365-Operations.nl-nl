@@ -1,6 +1,6 @@
 ---
 title: Stuklijsten en formules
-description: "Dit artikel bevat informatie over stuklijsten (BOMs) en formules, die een centrale deel uitmaken van de definitie van producten en productvarianten. Stuklijsten en formules voor opgeven de benodigde materialen of ingrediënten voor een specifiek product. Formules worden ook de coproducten en bijproducten die worden ontvangen in de context van een specifieke productie."
+description: "Dit artikel bevat informatie over stuklijsten en formules, die een centraal deel uitmaken van de definitie van producten en productvarianten. Met stuklijsten en formules worden de benodigde materialen of ingrediënten voor een specifiek product opgegeven. Met formules worden ook de coproducten en bijproducten opgegeven die worden ontvangen in een specifieke productiecontext."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Stuklijsten en formules
 
-Dit artikel bevat informatie over stuklijsten (BOMs) en formules, die een centrale deel uitmaken van de definitie van producten en productvarianten. Stuklijsten en formules voor opgeven de benodigde materialen of ingrediënten voor een specifiek product. Formules worden ook de coproducten en bijproducten die worden ontvangen in de context van een specifieke productie. 
+[!include[banner](../includes/banner.md)]
+
+
+Dit artikel bevat informatie over stuklijsten en formules, die een centraal deel uitmaken van de definitie van producten en productvarianten. Met stuklijsten en formules worden de benodigde materialen of ingrediënten voor een specifiek product opgegeven. Met formules worden ook de coproducten en bijproducten opgegeven die worden ontvangen in een specifieke productiecontext. 
 
 <a name="bills-of-materials"></a>Stuklijsten
 ------------------
@@ -38,7 +41,7 @@ Met een stuklijst worden de onderdelen gedefinieerd die vereist zijn om een prod
 
 Wanneer een stuklijst met een route of een productiestroom wordt gecombineerd waarmee de bewerkingen en resources worden omschreven die zijn vereist om een product te maken, vormt de stuklijst de basis voor het berekenen van de kostenraming van het product.  
 
-Een stuklijst is een afzonderlijke entiteit die wordt beschreven in de volgende informatie:
+Een stuklijst een afzonderlijke entiteit die aan de hand van de volgende informatie wordt beschreven:
 
 -   Stuklijst-ID
 -   Stuklijstnaam
@@ -49,7 +52,7 @@ Met één stuklijst wordt één niveau beschreven dat door een unieke ID wordt g
 
 ### <a name="formulas-co-products-and-by-products"></a>Formules, co- en bijproducten
 
-Een formule is een subtype van stuklijst, dat meestal voor procesproductie wordt gebruikt. Naast onderdelen en ingrediënten worden ook co- en bijproducten beschreven met een formule. De werkelijke versie moet de definitie van coproducten en bijproducten van de formule de formuleversie. Een formule is meestal gedefinieerd voor één specifieke eindproduct (een formule of Planningsartikel) die is gedefinieerd in de formuleversie.
+Een formule is een subtype van stuklijst, dat meestal voor procesproductie wordt gebruikt. Naast onderdelen en ingrediënten worden ook co- en bijproducten beschreven met een formule. In de werkelijke versie is voor de definitie van coproducten en bijproducten voor de formule de formuleversie vereist. Een formule wordt meestal gedefinieerd voor één specifiek eindproduct (een formule of planningsartikel) dat in de formuleversie wordt gedefinieerd.
 
 ### <a name="boms-in-the-product-lifecycle"></a>Stuklijsten in de productlevenscyclus
 
@@ -61,7 +64,7 @@ In de productlevenscyclus kunnen veel stuklijsttypen om diverse redenen worden g
 -   **Productiestuklijst**: dit is de werkelijke stuklijst die voor een specifieke productie wordt gebruikt. Bij een productiestuklijst moet rekening worden gehouden met de werkelijke resources waarmee het product wordt geproduceerd. Wanneer een productieorder, een batchorder of een kanban wordt gemaakt, worden de meerdere niveaus van stuklijsten die worden vertegenwoordigd door phantoms, samengevouwen in één niveau en over de bewerkingen voor de order verdeeld.
 -   **Kostprijsberekeningsstuklijst**: deze stuklijst wordt gebruikt om de kostenraming van een product te berekenen. U kunt bijvoorbeeld een kostprijsberekeningsstuklijst gebruiken wanneer standaardkosten worden gebruikt of de geschatte geplande kosten van een bepaald product worden berekend. De kostprijsberekeningsstuklijsten kunnen naar een specifieke combinatie van materialen en resources verwijzen die naar verwachting worden gebruikt. Daarom kunt u de kostprijsberekeningsstuklijst gebruiken om een representatieve kostenraming voor een periode te maken en afwijkingen in de loop van de tijd helpen voorkomen.
 
-De stuklijst die daadwerkelijk worden gebruikt in een implementatie bepaald over de uitvoering en op de zakelijke scenario's en vereisten. In eenvoudige implementaties kunnen een planningsstuklijst, een productiestuklijst en een kostprijsberekeningsstuklijst als één stuklijst worden gemodelleerd. In omgevingen waarin frequente technische wijzigingen en meerdere alternatieve routes voorkomen, is waarschijnlijk een grotere set van stuklijsttypen vereist.
+De stuklijsttypen die daadwerkelijk in een implementatie worden gebruikt, zijn afhankelijk van de implementatie, en ook van de zakelijke scenario's en vereisten. In eenvoudige implementaties kunnen een planningsstuklijst, een productiestuklijst en een kostprijsberekeningsstuklijst als één stuklijst worden gemodelleerd. In omgevingen waarin frequente technische wijzigingen en meerdere alternatieve routes voorkomen, is waarschijnlijk een grotere set van stuklijsttypen vereist.
 
 ### <a name="approval-of-boms-and-formulas"></a>Goedkeuring van stuklijsten en formules
 
@@ -78,7 +81,7 @@ Voordat een stuklijstversie in de planning of het productieproces kan worden geb
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Activering van de standaardstuklijst of formuleversie
 
-Als u een specifieke stuklijst of een formule wilt instellen als de standaardstuklijstversie of -formuleversie die door hoofdplanning wordt gebruikt of waarmee productieorders worden gemaakt, moet u de versie activeren. Wanneer een versie is geactiveerd, wordt gecontroleerd of de uniekheid van de versie voor de opgegeven beperkingen (bijvoorbeeld periode, locatie of hoeveelheid). U krijgt een foutbericht weergegeven als de versie die u probeert te activeren is strijdig met een versie die al actief is. U moet de conflicterende versie vervolgens deactiveren of de versiebeperkingen (meestal de periode) wijzigen om een dubbelzinnige activering te voorkomen.
+Als u een specifieke stuklijst of een formule wilt instellen als de standaardstuklijstversie of -formuleversie die door hoofdplanning wordt gebruikt of waarmee productieorders worden gemaakt, moet u de versie activeren. Wanneer een versie is geactiveerd, wordt de uniekheid van de versie voor de opgegeven beperkingen (bijvoorbeeld periode, locatie of hoeveelheid) gecontroleerd. U krijgt een foutbericht weergegeven als de versie die u probeert te activeren, in conflict is met een versie die al actief is. U moet de conflicterende versie vervolgens deactiveren of de versiebeperkingen (meestal de periode) wijzigen om een dubbelzinnige activering te voorkomen.
 
 ### <a name="product-change-with-case-management"></a>Productwijziging met casebeheer
 
@@ -114,5 +117,7 @@ Selecteer het regeltype **Getraceerd aanbod** wanneer u een subproductie maakt, 
 Selecteer het regeltype **Leverancier** als in het productieproces een toeleverancier wordt gebruikt en u automatisch een subproductie of inkooporder wilt maken voor de toeleverancier.  
 
 **Opmerking over uitbestede bewerkingen in een stuklijst:** de service die wordt verleend of het werk dat wordt uitgevoerd door de toeleverancier, moet als serviceartikel worden gemaakt dat in voorraad wordt bijgehouden. U moet het serviceartikel koppelen aan het bovenliggende artikel als een stuklijstregel. De route dient een bewerking te bevatten die is toegewezen aan de bron voor bedrijfsactiviteiten van de toeleverancier.
+
+
 
 

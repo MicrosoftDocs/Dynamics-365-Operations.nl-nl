@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-element-dimensions"></a>Dimensies van kostenelement
 
+[!include[banner](../includes/banner.md)]
+
+
 Kostenelementdimensies zijn een van de kernpijlers in Kostprijsboekhouding en worden gebruikt om te categoriseren en te traceren waar kosten heen stromen. 
 
 Een kostenelement correspondeert met een kostenrelevant artikel in het rekeningschema. Dit kan in principe elk type element zijn op het laagste niveau in een bedrijf, waar kosten heen kunnen stromen. Kostenelementen als concept kunnen variëren van grootboekrekeningen tot alle kostenrelevante resources. Momenteel biedt Kostprijsboekhouding ondersteuning voor grootboekrekeningen.
@@ -64,12 +67,14 @@ Er zijn twee typen kostenelementen: primaire kostenelementen en secundaire koste
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensies van kostenelementen en dimensieleden van kostenelementen.
 Kostenelementen worden ook aangeduid als *kostenelementendimensies*. De individuele dimensiewaarden staan bekend als *kostenelementdimensieleden*. Stel dat u een rekeningschemastructuur hebt, die de basis voor de wettelijk voorgeschreven rapportage vormt. Deze structuur wordt gebruikt als de kostenelementendimensie. De rekeningen, die de primaire kostenelementen vormen, zijn vertegenwoordigd als de kostenelementendimensieleden in Kostprijsboekhouding. In de onderstaande schermopname ziet u een voorbeeld van Hoofdrekeningen als de kostenelementdimensie met de werkelijke hoofdrekeningen als kostenelementdimensieleden. 
 
-[![kosten-element-dimensies](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![dimensies-kostenelement](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Kostenelementdimensieleden importeren door middel van gegevensconnectors
 Om gemakkelijker leden van kostenelementdimensies te kunnen configureren in Kostenprijsboekhouding, kunt u met vooraf gemaakte gegevensconnectors of zelf samengestelde connectors de primaire kostenelementen ophalen vanuit een of meer bronsystemen.
 
 ## <a name="implementation-considerations"></a>Implementatieoverwegingen
 Omdat kostenelementen het laagste niveau van kostendetails vertegenwoordigen, moet u ervoor zorgen dat alle kostenelementen die zijn vereist om de managementrapporten aan maken, zijn opgenomen wanneer u de kostenelementenstructuur implementeert. Het kan lastig zijn om een gepast aantal kostenelementen voor kostenbeheer te bepalen. Als u duizenden kostenelementen hebt, kan moeilijk zijn om elk kostenelement te beheersen. Eventueel kunt u kostenelementen groeperen en kostenbeheer uitvoeren op een samengevoegd niveau.
+
+
 
 

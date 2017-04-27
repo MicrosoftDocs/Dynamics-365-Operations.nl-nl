@@ -1,6 +1,6 @@
 ---
-title: "Weergeven en het ontwerp van de financiële rapporten"
-description: "Dit artikel biedt oefeningen waarin wordt uitgelegd aan u weergeven en maken van financiële rapporten voor Microsoft Dynamics 365 voor bewerkingen. Financiële rapportage bestaat uit een kijkervaring in Dynamics 365 voor bewerkingen en een op-één keer rapportontwerper waarmee u kunt maken en bewerken van financiële rapporten."
+title: "Financiële rapporten weergeven en ontwerpen"
+description: "Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Operations kunt weergeven en maken. Financiële rapportage bestaat uit een weergave-ervaring in Dynamics 365 for Operations en een ClickOnce-rapportontwerper waarmee u financiële rapporten kunt maken en bewerken."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Weergeven en het ontwerp van de financiële rapporten
+# <a name="view-and-design-financial-reports"></a>Financiële rapporten weergeven en ontwerpen
 
-Dit artikel biedt oefeningen waarin wordt uitgelegd aan u weergeven en maken van financiële rapporten voor Microsoft Dynamics 365 voor bewerkingen. Financiële rapportage bestaat uit een kijkervaring in Dynamics 365 voor bewerkingen en een op-één keer rapportontwerper waarmee u kunt maken en bewerken van financiële rapporten.  
+[!include[banner](../includes/banner.md)]
+
+
+Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Operations kunt weergeven en maken. Financiële rapportage bestaat uit een weergave-ervaring in Dynamics 365 for Operations en een ClickOnce-rapportontwerper waarmee u financiële rapporten kunt maken en bewerken.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Oefening 1: Een standaard financieel rapport genereren en controleren
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Voor deze oefening genereert en controleert u een bestaand standaardrapport. Dit
 3.  Sla de dimensieconfiguratie op. Vervolgens genereren we een rapport en controleren de gegevens in het rapport.
 4.  Ga naar **Financiële rapporten** onder **Query's en rapporten** in het grootboek.
 5.  Selecteer de rij voor het rapport met de naam **GB-details - Standaard**.
-6.  Selecteer **Bewerken**. Opmerking: Wordt u gevraagd om te downloaden van de Klik-eenmaal rapportontwerper en aan te melden. Gebruik uw referenties aan te melden.
+6.  Selecteer **Bewerken**. Opmerking: u wordt gevraagd de ClickOnce-rapportontwerper te downloaden en u aan te melden. Meld u aan met uw referenties.
 7.  Wijzig het basisjaar in 2012 en selecteer **Genereren**. Wanneer een rapport van de rapportontwerper wordt gegenereerd, wordt het op een nieuw browsertabblad geopend. U kunt het rapport op het nieuwe browsertabblad controleren of u kunt naar het oorspronkelijke browsertabblad gaan en het rapport vanuit daar openen door het in de lijst **Financiële rapporten** te selecteren.
 8.  Selecteer in het geopende rapport een van de bedragen waarvoor u wilt inzoomen op de rekeningdetails van het rapport.
 9.  Als u in de rekeningdetails bent, selecteert u een rekening met gegevens en **zoomt u in op rapporttransactieniveau**. Op het rapporttransactieniveau kunt u de eigenschappen (kenmerken) zien die in het ontwerp van dit rapport zijn opgenomen. Afhankelijk van de transactie en de rekening kunnen sommige of alle kenmerken worden weergegeven.
@@ -55,7 +58,7 @@ Voor deze oefening genereert en controleert u een bestaand standaardrapport. Dit
 13. Selecteer **Rapportopties**.
 14. Selecteer **Een dimensiefilter toevoegen** en kies **Bedrijfseenheid**.
 15. Typ 001 in het veld en selecteer **OK**. In het rapport worden nu alleen de gegevens weergegeven voor de bedrijfseenheid 001. Dit is een gepersonaliseerde weergave van het rapport en anderen mogen deze niet weergeven.
-16. Sluit het gefilterde rapport. Financiële rapporten kunnen worden weergegeven in elke valuta die is toegevoegd aan de Dynamics 365 voor bewerkingen.
+16. Sluit het gefilterde rapport. Financiële rapporten kunnen in elke valuta worden weergegeven die aan Dynamics 365 for Operations is toegevoegd.
 17. Selecteer **Valuta** en selecteer vervolgens **EUR**. Het rapport wordt nu in Euro weergegeven. Alle valutacodes of valutasymbolen die zijn opgenomen in het rapportontwerp, worden in de toegepaste valuta weergegeven. Als er geen valutasymbool is gedefinieerd voor een valuta, wordt het valutasymbool niet weergegeven.
 18. Sluit het rapport **GB-details**.
 19. Sluit **Report Designer**.
@@ -66,7 +69,7 @@ In deze oefening wijzigt u een bestaand standaardrapport. U werkt beide rijdefin
 1.  Ga naar **Financiële rapporten** onder Query's en rapporten in het grootboek.
 2.  Selecteer de rij voor het rapport met de naam **Samengevatte proefbalans: standaard**.
 3.  Selecteer **Bewerken**. **Samengevatte proefbalans: standaard** wordt in de rapportontwerper geopend.
-4.  Selecteer **Bestand** en vervolgens **Opslaan als** en geef het rapport de naam Gedetailleerde proefbalans met kenmerken. Opmerking: Elk gewenst moment die een nieuw rapport wordt gemaakt in report designer de financiële rapporten-lijst wordt bijgewerkt in Dynamics 365 voor bewerkingen.
+4.  Selecteer **Bestand** en vervolgens **Opslaan als** en geef het rapport de naam Gedetailleerde proefbalans met kenmerken. Opmerking: elke keer wanneer een nieuw rapport in rapportontwerper wordt gemaakt, wordt de lijst met financiële rapporten bijgewerkt in Dynamics 365 for Operations.
 5.  Selecteer in de rapportdefinitie het rijdefinitiepictogram om **Proefbalans: standaardrijdefinitie** te openen.
 6.  Sla de rijdefinitie op als **Gedetailleerde proefbalans met kenmerken**
 7.  Selecteer met de cursor op rij 50 **Bewerken** en vervolgens **Rijen invoegen van dimensies**. Met Rijen invoegen van dimensies kunt u kiezen welke dimensies u in uw rijdefinitie wilt hebben. Voor deze oefening gaan we de rijdefinitie met Hoofdrekening maken.
@@ -96,7 +99,7 @@ In deze oefening wijzigt u een bestaand standaardrapport. U werkt beide rijdefin
 25. Sluit het rapport **Gedetailleerde proefbalans met kenmerken **.
 26. Sluit **Report Designer**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Oefening 3: Multidimensionale rapporten maken met een rapporteringsstructuur
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Oefening 3: Een multidimensionaal rapport maken met een rapportagestructuur
 Voor deze oefening wijzigt u een bestaand standaardrapport. U maakt een rapportagestructuur en voegt deze aan een rapportdefinitie toe om een kostenplaats/afdelingsinkomensoverzicht te maken. Zodra de updates zijn voltooid, genereert u de kostenplaats/afdelingsinkomensoverzicht en controleert u het rapport met de rapportagestructuur. Wij beginnen in de lijst met financiële rapporten.
 
 1.  Ga naar **Financiële rapporten** onder Query's en rapporten in het grootboek.
@@ -138,7 +141,7 @@ Voor deze oefening wijzigt u een bestaand standaardrapport. U voegt een organisa
 1.  Ga naar **Financiële rapporten** onder Query's en rapporten in het grootboek.
 2.  Selecteer de rij voor het rapport met de naam **Balans en inkomensoverzicht naast elkaar: standaard**
 3.  Selecteer **Bewerken**. **Balans en inkomensoverzicht naast elkaar: standaard** wordt in de rapportontwerper geopend.
-4.  Selecteer **bestand**&gt;**OpslaanAls** en de naam van het rapport **geconsolideerde balans en winst- en verliesrekening naast elkaar**.
+4.  Selecteer **Bestand** &gt; **Opslaan als** en geef het rapport de naam **Geconsolideerde balans en inkomensoverzicht naast elkaar**.
 5.  Wijzig het basisjaar in 2012.
 6.  Klik op de pijl van de vervolgkeuzelijst Structuur en selecteer **Organisatiehiërarchieën**.
 7.  Klik op de pijl van de vervolgkeuzelijst Structuur en selecteer **Contoso-holdings**.
@@ -151,7 +154,7 @@ Voor deze oefening wijzigt u een bestaand standaardrapport. U voegt een organisa
 14. Sluit **Geconsolideerde balans en inkomensoverzicht naast elkaar**.
 15. Sluit **Report Designer**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Oefening 5: Een sidebyside per afdeling rapport maken
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Oefening 5: Een afdelingsrapport naast elkaar maken
 In deze oefening maakt u een nieuw rapport. Het rapport is een afdelingsinkomensoverzicht naast elkaar. U gebruikt een bestaande rijdefinitie, maar maakt een nieuwe rapportdefinitie en een nieuwe kolomdefinitie die dimensiefilters gebruikt. Wij beginnen in de lijst met financiële rapporten.
 
 1.  Ga naar **Financiële rapporten** onder Query's en rapporten in het grootboek.
@@ -179,8 +182,10 @@ In deze oefening maakt u een nieuw rapport. Het rapport is een afdelingsinkomens
 18. **Sla** uw wijzigingen op en **genereer** ze. Nadat het rapport is gegenereerd en geopend, kunt u het rapport controleren.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-[Financiële rapportage](\financials\general-ledger\financial-reporting-getting-started.md)<ph id="t1">
-</ph>[financiële rapporten weergeven](\financials\general-ledger\view-financial-reports.md)<ph id="t2">
-</ph>[Dynamics financiële rapportage-Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Financiële rapportage](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Financiële rapporten weergeven](\financials\general-ledger\view-financial-reports.md) 
+[Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Waar u moet beginnen
-description: Hier naar neemt snel starten en informatie over de Microsoft Dynamics 365 voor gebruikersinterface voor bewerkingen.
+title: Aan de slag
+description: Begin hier om snel aan de slag te gaan en kennis te maken met de gebruikersinterface van Microsoft Dynamics 365 for Operations.
 eauthor: sericks007
 manager: AnnBe
 ms.date: 2015-12-11 15 - 19 - 40
@@ -26,44 +26,44 @@ ms.lasthandoff: 03/30/2017
 
 ---
 
-# <a name="where-to-start"></a>Waar u moet beginnen
+# <a name="where-to-start"></a>Aan de slag
 
-Hier naar neemt snel starten en informatie over de Microsoft Dynamics 365 voor gebruikersinterface voor bewerkingen.
+Begin hier om snel aan de slag te gaan en kennis te maken met de gebruikersinterface van Microsoft Dynamics 365 for Operations.
 
 ## <a name="onboarding"></a>Onboarding
-De volgende bronnen bevatten een overzicht van het werken met uw partner voor onboarded voor Dynamics 365 voor bewerkingen en het gebruik van Dynamics 365 voor bewerkingen Lifecycle Services. 
+De volgende bronnen bevatten een overzicht van hoe u met uw partner kunt samenwerken om Dynamics 365 for Operations te leren kennen en hoe u Dynamics 365 for Operations Lifecycle Services kunt gebruiken. 
 
-- [Microsoft FastTrack voor Dynamics 365-overzicht](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
-- [Sign up for a subscription](../dev-tools/sign-up-preview-subscription.md) 
+- [Microsoft FastTrack for Dynamics 365: overzicht](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
+- [Aanmelden voor een abonnement](../dev-tools/sign-up-preview-subscription.md) 
 - [Lifecycle Services (LCS) voor Microsoft Dynamics 365 for Operations-klanten](../lifecycle-services/lcs-works-lcs.md) 
-- [Hoe klanten die Microsoft Dynamics 365 voor bewerkingen via een serviceprovider Cloud in bezit krijgen de versie op de lokalen van Dynamics 365 voor bewerkingen 2012](../deployment/csp-download-customersource.md)
+- [Hoe klanten die Microsoft Dynamics 365 for Operations via een cloudserviceprovider hebben aangeschaft, de lokale versie van Dynamics 365 for Operations 2012 kunnen verkrijgen](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Gebruikersinterface
-De volgende bronnen bevatten informatie over de Dynamics 365 voor gebruikerservaring bewerkingen. 
--   [Nieuwe functies in de Dynamics 365 voor bewerkingen gebruikerservaring (Office Mix)](https://mix.office.com/watch/1ohsrrpsd02e1)
+De volgende bronnen bevatten informatie over de Dynamics 365 for Operations-gebruikerservaring. 
+-   [Nieuwe functies in de Dynamics 365 for Operations-gebruikerservaring (Office Mix)](https://mix.office.com/watch/1ohsrrpsd02e1)
 -   [Het aanpassen van de gebruikerservaring](/dynamics365/operations/get-started/personalize-user-experience)
 -   [Werkruimten configureren en filteren](/dynamics365/operations/get-started/configure-filter-workspaces)
--   [Navigation search](/dynamics365/operations/get-started/navigation-search)
+-   [Navigatiezoekfunctie](/dynamics365/operations/get-started/navigation-search)
 -   [Actiezoekopdracht](/dynamics365/operations/get-started/action-search)
--   [Keyboard shortcuts](/dynamics365/operations/get-started/shortcut-keys)
--   [Display pages side-by-side using the Open in New Window icon](/dynamics365/operations/get-started/display-pages-side-by-side)
--   [Advanced filtering and query options](/dynamics365/operations/get-started/advanced-filtering-query-options)
--   [Dynamics 365 voor bewerkingen client Veelgestelde vragen](/dynamics365/operations/get-started/client-faq)
--   [Change the banner or logo (Task guide)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
+-   [Sneltoetsen](/dynamics365/operations/get-started/shortcut-keys)
+-   [Pagina's naast elkaar weergeven met het pictogram Openen in nieuw venster](/dynamics365/operations/get-started/display-pages-side-by-side)
+-   [Geavanceerde filter- en queryopties](/dynamics365/operations/get-started/advanced-filtering-query-options)
+-   [Dynamics 365 for Operations-client: veelgestelde vragen](/dynamics365/operations/get-started/client-faq)
+-   [Banner of logo wijzigen (taakbegeleider)](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)
 
 ## <a name="help-system"></a>Help-systeem
 De volgende resources bieden een overzicht van het Help-systeem gegeven en bevatten uitleg over hoe veldbeschrijvingen moeten worden bekeken.
 
--   [Getting started with Help](help-overview.md)
--   [Connect the Help system](help-connect.md)
+-   [Aan de slag met Help](help-overview.md)
+-   [Het Help-systeem verbinden](help-connect.md)
 -   [Veldomschrijvingen weergeven en exporteren](/dynamics365/operations/get-started/view-export-field-descriptions)
--   [Dynamics 365 for Operations help-systeem (praktische)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+-   [Help-systeem van Dynamics 365 for Operations (feitenblad)](https://mbs.microsoft.com/customersource/Global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 
-### <a name="task-recordings-and-task-guides"></a>Taakregistratie en taak-handleidingen
+### <a name="task-recordings-and-task-guides"></a>Taakregistraties en taakbegeleiders
 
-Taakregistratie is een Dynamics 365 for Operations tool die u gebruiken kunt om vast te leggen van de acties die u in de gebruikersinterface (UI) uitvoeren. Wanneer u een *taakregistratie* maakt, worden alle gebeurtenissen die op de server worden uitgevoerd geregistreerd wanneer u deze in het UI uitvoert. Deze gebeurtenissen omvatten het toevoegen van waarden, het wijzigen van instellingen en het verwijderen van gegevens. Een *taakbegeleiding* is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taakregistratie leidt. U kunt een taakbegeleiding openen (of *afspelen*) via het Help-systeem.
+Taakregistratie is een hulpmiddel in Dynamics 365 for Operations dat u kunt gebruiken om de acties vast te leggen die u uitvoert in de gebruikersinterface (UI). Wanneer u een *taakregistratie* maakt, worden alle gebeurtenissen die op de server worden uitgevoerd geregistreerd wanneer u deze in het UI uitvoert. Deze gebeurtenissen omvatten het toevoegen van waarden, het wijzigen van instellingen en het verwijderen van gegevens. Een *taakbegeleiding* is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taakregistratie leidt. U kunt een taakbegeleiding openen (of *afspelen*) via het Help-systeem.
 -   [Verbinding maken met het Help-systeem](help-connect.md)
--   [Taakregistratie in Dynamics 365 voor bewerkingen](../user-interface/task-recorder.md)
+-   [Taakregistratie in Dynamics 365 for Operations](../user-interface/task-recorder.md)
 -   [Documentatie of trainingen maken met Taakregistraties](../user-interface/task-recorder.md)
 -   [Nieuwe taakbegeleidingen beschikbaar (februari 2016)](new-task-guides-available-february-2016.md)
 
@@ -71,12 +71,12 @@ Taakregistratie is een Dynamics 365 for Operations tool die u gebruiken kunt om 
 <a name="see-also"></a>Zie ook
 --------
 
-[Nieuwe opleiding bibliotheken maken voor Dynamics 365 for Operations binnen Lifecycle Services met behulp van Taakregistratie (externe koppeling)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Creating New Training Libraries for Dynamics 365 for Operations within Lifecycle Services using the Task Recorder (externe koppeling)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
-[Nieuwe taak doorloopt (februari 2016)](new-task-guides-available-february-2016.md)
+[Nieuwe taakbegeleiders (februari 2016)](new-task-guides-available-february-2016.md)
 
-[Nieuwe of bijgewerkte taak doorloopt (mei 2016)](new-updated-task-guides-available-may-2016.md)
+[Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nieuwe of bijgewerkte taak doorloopt (November 2016)](new-task-guides-november-2016.md)
+[Nieuwe of bijgewerkte taakbegeleiders (november 2016)](new-task-guides-november-2016.md)
 
 

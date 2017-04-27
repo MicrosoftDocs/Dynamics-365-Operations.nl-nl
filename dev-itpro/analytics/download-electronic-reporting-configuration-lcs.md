@@ -1,6 +1,6 @@
 ---
 title: Elektronische rapportageconfiguraties downloaden van Lifecycle Services
-description: In dit onderwerp wordt uitgelegd hoe elektronische rapportage (ER) configuraties van Microsoft Dynamics Lifecycle Services (LCS) downloaden.
+description: In dit onderwerp wordt uitgelegd hoe u configuraties voor Elektronische rapportage (ER) kunt downloaden vanuit Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektronische rapportageconfiguraties downloaden van Lifecycle Services
 
-In dit onderwerp wordt uitgelegd hoe elektronische rapportage (ER) configuraties van Microsoft Dynamics Lifecycle Services (LCS) downloaden.
+In dit onderwerp wordt uitgelegd hoe u configuraties voor Elektronische rapportage (ER) kunt downloaden vanuit Microsoft Dynamics Lifecycle Services (LCS).
 
 Deze zelfstudie begeleidt u door het proces voor het downloaden van de nieuwste versie van de configuraties voor Elektronische rapportage (ER) uit Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -36,9 +36,9 @@ Deze zelfstudie begeleidt u door het proces voor het downloaden van de nieuwste 
     -   Functioneel consultant elektronische rapportage
     -   Systeembeheerder
 
-2.  Ga naar **Organisatiebeheer**&gt;**elektronische aangifte**.
+2.  Ga naar **Organisatiebeheer** &gt; **Elektronische rapportage**.
 3.  Selecteer in de sectie **Configuratieproviders** de tegel **Microsoft**.
-4.  Klik op de **Microsoft**-tegel op **Opslagplaatsen**. [![update-er-from-LCS-for-MS-Open-MS-repositories-List](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+4.  Klik op de **Microsoft**-tegel op **Opslagplaatsen**. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 5.  Selecteer in het raster op de pagina **Opslagplaatsen van configuraties** pagina de bestaande opslagplaats van het type **LCS**. Als deze opslagplaats niet wordt weergegeven in het raster, volgt u deze stappen:
     1.  Klik op **Toevoegen** en voeg een nieuwe opslagplaats toe.
     2.  Selecteer **LCS** als opslagplaatstype.
@@ -47,12 +47,12 @@ Deze zelfstudie begeleidt u door het proces voor het downloaden van de nieuwste 
     5.  Klik op **OK** om de nieuwe opslagplaats te bevestigen.
     6.  Selecteer in het raster de nieuwe opslagplaats van het type **LCS**.
 
-6.  Klik op **Openen** om de lijst met ER-configuraties voor de geselecteerde opslagplaats weer te geven. [![update-er-from-LCS-for-MS-Make-LCS-Repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+6.  Klik op **Openen** om de lijst met ER-configuraties voor de geselecteerde opslagplaats weer te geven. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Selecteer in de boomstructuur van het linkervenster de gewenste ER-configuratie.
 8.  Selecteer op het sneltabblad **Versies** de vereiste versie van de geselecteerde ER-configuratie.
-9.  Klik op **Importeren** om de geselecteerde versie vanuit LCS te downloaden naar het huidige exemplaar van Dynamics 365 for Operations. **Opmerking:** de knop **Importeren** is niet beschikbaar voor ER-configuratieversies die al aanwezig zijn in het huidige Dynamics 365 for Operations-exemplaar. [![update-er-from-LCS-for-MS-Download-Configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  Klik op **Importeren** om de geselecteerde versie vanuit LCS te downloaden naar het huidige exemplaar van Dynamics 365 for Operations. **Opmerking:** de knop **Importeren** is niet beschikbaar voor ER-configuratieversies die al aanwezig zijn in het huidige Dynamics 365 for Operations-exemplaar. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
-**Opmerking:** Afhankelijk van de ER-instellingen worden configuraties gevalideerd nadat ze zijn geïmporteerd. U krijgt mogelijk meldingen over inconsistentieproblemen die worden vastgesteld. U moet deze problemen oplossen voordat u de geïmporteerde configuratieversie kunt gebruiken. Zie de lijst met verwante artikelen voor dit onderwerp voor meer informatie.
+**Opmerking:** Afhankelijk van de ER-instellingen worden configuraties gevalideerd nadat ze zijn geïmporteerd. U krijgt mogelijk meldingen over inconsistentieproblemen die worden vastgesteld. U moet deze problemen oplossen voordat u de geïmporteerde configuratieversie kunt gebruiken. Zie voor meer informatie de lijst van gerelateerde artikelen voor dit onderwerp.
 
 <a name="see-also"></a>Zie ook
 --------

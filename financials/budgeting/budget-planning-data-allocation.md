@@ -1,6 +1,6 @@
 ---
 title: Gegevenstoewijzing voor budgetplanning
-description: In dit artikel beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 voor bewerkingen en hoe ze kunnen worden gebruikt.
+description: In dit artikel worden de verschillende toewijzingsmethoden beschreven die beschikbaar zijn in Microsoft Dynamics 365 for Operations en hoe ze kunnen worden gebruikt.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>Gegevenstoewijzing voor budgetplanning
 
-In dit artikel beschrijft de verschillende toewijzingsmethoden die beschikbaar zijn in Microsoft Dynamics 365 voor bewerkingen en hoe ze kunnen worden gebruikt.  
+[!include[banner](../includes/banner.md)]
+
+
+In dit artikel worden de verschillende toewijzingsmethoden beschreven die beschikbaar zijn in Microsoft Dynamics 365 for Operations en hoe ze kunnen worden gebruikt.  
 
 U kunt de gegevens in een budgetplan op verschillende manieren verspreiden om de verwachte bedragen nauwkeurig af te beelden.
 
 ## <a name="allocation-methods"></a>Toewijzingsmethodes
 Drie toewijzingsmethoden (Toewijzen aan perioden, Toewijzen aan dimensies en Grootboektoewijzingsregels gebruiken) kunnen de budgetplanregels maken die op regels in hetzelfde budgetplan zijn gebaseerd. Drie andere methoden (Samenvoegen, Verdelen en Kopiëren uit budgetplan) kunnen budgetplanregels maken in andere budgetplannen. Voor alle zes toewijzingsmethoden geeft u het doelscenario op. Het doelscenario kan gelijk zijn aan het bronscenario of van het bronscenario verschillen. Bovendien kunt u opgeven of de nieuwe regels aan het budgetplan worden toegevoegd of de huidige regels in het budgetplan vervangen.
 
-[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)<ph id="t1">
-</ph>**toewijzen over meerdere perioden** : een categorie periodetoewijzing de budgetplanregels uit het bronbudgetplanscenario toewijzen over meerdere perioden in het bestemmingsscenario wordt gebruikt. Het bronbedrag is toegewezen aan meerdere regels in het doelscenario, op basis van het percentage en de datum die zijn opgegeven in de periodetoewijzingscategorie.         
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Toewijzen aan perioden** – Een periodetoewijzingscategorie wordt gebruikt om de budgetplanregels toe te wijzen vanuit het bronbudgetplanscenario aan perioden in het doelscenario. Het bronbedrag is toegewezen aan meerdere regels in het doelscenario, op basis van het percentage en de datum die zijn opgegeven in de periodetoewijzingscategorie.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Toewijzen aan dimensies** – De budgetplanregels worden toegewezen van het bronbudgetplanningsscenario aan een of meer regels in het doelscenario, op basis van de percentages en financiële dimensies die in een geselecteerde budgettoewijzingstermijn worden gedefinieerd.           
@@ -56,7 +59,7 @@ Drie toewijzingsmethoden (Toewijzen aan perioden, Toewijzen aan dimensies en Gro
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Gebruik van toewijzingsmethoden in een budgetplan
 Om toewijzingen uit te voeren op de pagina van het budgetplan, selecteert u de regels die u wilt toewijzen en klikt u vervolgens op **Budget toewijzen**.
 
-[![AllocatebudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
+[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
 Selecteer vervolgens een toewijzingsmethode. De resterende velden worden vervolgens ingesteld, op basis van de methode die u hebt geselecteerd. Deze velden bevatten de bron en het doel van de gegevens van het budgetplan en een optie waarmee u de bron met een bepaalde factor kunt vermenigvuldigen wanneer de doelbedragen zijn gemaakt, om bulkcorrectie te vereenvoudigen. U kunt ook de optie **Toevoegen aan plan** instellen. Selecteer **Nee** om de bestaande budgetplanregels te vervangen of selecteer **Ja** om de bestaande budgetplanregels te behouden en nieuwe regels toe te voegen voor de toegewezen bedragen.
 
@@ -69,6 +72,8 @@ Maak vervolgens een fasetoewijzing op de pagina **Configuratie budgetplanning**.
 
 Voeg tot slot een geautomatiseerde taak toe voor de toewijzing van de budgetplanningsfase op de gewenste workflowfase. In het volgende voorbeeld zijn twee toewijzingen van de budgetplanningsfase (in rood aangegeven) ingevoegd in de workflow.
 
-[![budgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 
