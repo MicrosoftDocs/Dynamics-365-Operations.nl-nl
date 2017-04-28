@@ -1,6 +1,6 @@
 ---
 title: Startpagina Supply Chain Management
-description: Deze pagina verwijst naar resources die u helpen effectiever te gebruiken de Microsoft Dynamics 365 for Operations - Supply Chain management.
+description: Deze pagina verwijst naar resources die u helpen om Microsoft Dynamics 365 for Operations - Supply Chain Management effectiever te gebruiken.
 author: yuyus
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,31 +29,31 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-Deze pagina verwijst naar resources die u helpen effectiever te gebruiken de Microsoft Dynamics 365 for Operations - Supply Chain management. 
+Deze pagina verwijst naar resources die u helpen om Microsoft Dynamics 365 for Operations - Supply Chain Management effectiever te gebruiken. 
 
-## <a name="whats-new-and-in-development"></a>Wat is nieuw en ontwikkeling
-Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365 routekaart</a> om te zien welke nieuwe functies worden vrijgegeven en nieuwe functies worden in ontwikkeling. 
+## <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
+Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365-routekaart</a> om te zien welke nieuwe functies worden vrijgegeven en welke nieuwe functies in ontwikkeling zijn. 
 
-## <a name="core-concepts-and-tasks"></a>Belangrijkste begrippen en taken
-*  In het linkerdeelvenster een functiegebied selecteren voor meer informatie over deze. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Verwerken van inkomende ASN's in magazijnbeheer</a> (video) 
+## <a name="core-concepts-and-tasks"></a>Kernconcepten en -taken
+*  Selecteer in het linkerdeelvenster een functiegebied om meer informatie hierover te bekijken. 
+*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Inkomende ASN's verwerken in magazijnbeheer</a> (video) 
 
 
 ## <a name="blogs"></a>Weblogs
-Er zijn veel onderwerpen over productie en supply chain management op de <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX productie R & D-teamblog</a> en <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management in Dynamics AX R & D-teamblog</a>. De meeste hiervan zijn geschreven voor de vorige versie van Dynamics 365 for Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
+Er zijn veel onderwerpen over productie en supply chain management beschikbaar op de <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX Manufacturing R&D-teamblog</a> en <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management op de Dynamics AX R&D-teamblog</a>. De meeste hiervan zijn geschreven voor de vorige versie van Dynamics 365 for Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
 
 U kunt bijvoorbeeld de recente berichten lezen over: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Aankondiging van Dynamics 365 voor bewerkingen: Magazijnbeheer</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Verbeterde pakbonnen-functionaliteit (Dynamics 365 voor bewerkingen 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Cross-docken op basis van productieorders aan transferorders</a>
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Aankondiging van Dynamics 365 for Operations – Warehousing</a>
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Verbeterde verpakkingsfunctionaliteit (Dynamics 365 for Operations 1611)</a>
+* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Cross-docken van productieorders naar transferorders</a>
 
 ## <a name="white-papers"></a>Technische documenten
-* De <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Operations - aan de slag met kostprijsboekhouding</a> whitepaper geeft de basisstappen beschreven die Microsoft Dynamics 365 voor bewerkingen: kosten, zodat de analyse van de werkelijke kosten Accounting configureren. Het biedt ook een reeks procedures die u kunt uitvoeren in de volgorde waarin ze worden weergegeven.
-* De <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 for Operations - Lean Manufacturing: Capable to Promise en taakplanning Kanban</a> whitepaper beschrijft de details van de kanban taakplanning en hierin worden verkooporder rekening gehouden met die voor de controle van leveringsdatum capable to promise (CTP)-methode gebruikt. Ook wordt uitgelegd hoe CTP kan worden gecombineerd met kanbans voor gebeurtenissen als model voor op order of build-to-order-scenario's.
-* De <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Operations - stuklijstberekening met behulp van een blad kostprijsberekening</a> whitepaper beschrijft het instellen van een kostenblad met materiaal en productie, evenals de invloed van de instellingen op de stuklijstberekening resultaten. U kunt de oefeningen in de bijlage voor leermateriaal doen en de informatie die u hebt die is opgedaan bij het lezen van dit document hiervoor stuklijst berekening analyse te gebruiken.
+* De whitepaper <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Operations - Getting Started with Cost Accounting (Aan de slag met Kostprijsboekhouding)</a> bevat de basisstappen voor het configureren van Microsoft Dynamics 365 for Operations – Cost Accounting, zodat een analyse van de werkelijke kosten kan worden uitgevoerd. Het biedt ook een reeks procedures die u kunt uitvoeren in de volgorde waarin ze worden weergegeven.
+* De whitepaper <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 for Operations - Lean Manufacturing: Capable to Promise and Kanban Job Scheduling (Lean manufacturing: capable to promise en planning van kanbantaken)</a> beschrijft de details van de planning van kanbantaken en introduceert het concept van verkooporderinvoer waarbij de CTP-methode (capable to promise) wordt gebruikt voor het beheren van de leveringsdatum. Ook wordt uitgelegd hoe CTP kan worden gecombineerd met kanbans voor gebeurtenissen om scenario's voor samenstellen op bestelling of bouwen op bestelling te modelleren.
+* De whitepaper <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Operations - BOM Calculation by Using a Costing Sheet (Stuklijstberekening via een kostenblad)</a> beschrijft het instellen van een kostenblad dat materiaal en productie omvat, evenals de invloed van de instellingen op de resultaten van de stuklijstberekening. U kunt de oefeningen in de bijlage uitvoeren voor leerdoeleinden en de opgedane kennis bij het lezen van dit document gebruiken voor het uitvoeren van een analyse van de stuklijstberekening.
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
-Voor meer informatie over Microsoft Dynamics 365 for Operations training, Zie <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Learning Portal</a>. (CustomerSource-account vereist) 
+Voor meer informatie over training voor Microsoft Dynamics 365 for Operations raadpleegt u de <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Learning Portal</a>. (CustomerSource-account vereist) 
 
 
 

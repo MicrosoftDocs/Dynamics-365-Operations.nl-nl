@@ -1,62 +1,62 @@
-# [Human resources home page](index.md)
-# Strategie voor Human Resources ontwikkelen
-## [Uw personeel met behulp van afdelingen, taken en posities organiseren](departments-jobs-positions.md)
-## [Onderdelen van de taak instellen](create-job.md)
-## [Create a department and associate it with the department hierarchy](create-department-add-department-hierarchy.md)
+# [Startpagina Human resources](index.md)
+# Strategie voor Human resources ontwikkelen
+## [Uw werknemers organiseren met afdelingen, taken en posities](departments-jobs-positions.md)
+## [Taakonderdelen instellen](create-job.md)
+## [Een afdeling maken en koppelen aan de afdelingshiërarchie](create-department-add-department-hierarchy.md)
 ## [Bedrijfsspecifieke HR-parameters instellen](set-up-company-specific-hr-parameters.md)
 ## [HR-parameters instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md)
-## [Werkstroom gebruiken om werknemersgegevens te beheren](workflow-manage-employee-information.md)
+## [Workflow gebruiken om werknemersgegevens te beheren](workflow-manage-employee-information.md)
 # Werknemers werven, in dienst nemen en motiveren
-## [Manage a recruiting process](manage-recruiting-process.md)
-## [Mass hire projects](mass-hire-projects.md)
+## [Een wervingsproces beheren](manage-recruiting-process.md)
+## [Projecten voor massaal aanstellen](mass-hire-projects.md)
 ## [Compensatieplannen](compensation-plans.md)
-## [Vastecompensatieplannen maken](create-fixed-compensation-plans.md)
-## [Variabelecompensatieplannen maken](create-variable-compensation-plans.md)
+## [Plannen voor vaste compensatie maken](create-fixed-compensation-plans.md)
+## [Plannen voor variabele compensatie maken](create-variable-compensation-plans.md)
 # Werknemers ontwikkelen en trainen
-## [Performance management overview](performance-management-overview.md)
-## [Align workforce skills with business needs](skills.md)
-## [Cursussen instellen](courses.md)
+## [Overzicht van prestatiebeheer](performance-management-overview.md)
+## [Personeelsvaardigheden afstemmen op zakelijke behoeften](skills.md)
+## [Trainingscursussen instellen](courses.md)
 # Vergoedingen maken en onderhouden
-## [Een programma vergoedingen beheren](manage-benefit-program.md)
-## [Benefit eligibility policies](benefit-eligibility-policies.md)
-## [Manage items lent to workers](loan-items.md)
+## [Een vergoedingsprogramma beheren](manage-benefit-program.md)
+## [Beleid voor geschiktheid vergoedingen](benefit-eligibility-policies.md)
+## [Artikelen beheren die aan werknemers worden geleend](loan-items.md)
 # Gegevens verzamelen via vragenlijsten
-## [Questionnaires](questionnaires.md)
-## [Design a questionnaire](design-questionnaires.md)
-## [Distribute and complete a questionnaire](distribute-questionnaires.md)
-## [De resultaten van een vragenlijst](evaluate-questionnaire-results.md)
-# Functies van de Verenigde Staten
-## Werkplek veiligheid en conformiteit
-### [Formulier I-9 dienstverband verificatie](localizations/noam-usa-form-i-9-verification.md)
+## [Vragenlijsten](questionnaires.md)
+## [Een vragenlijst ontwerpen](design-questionnaires.md)
+## [Een vragenlijst verspreiden en invullen](distribute-questionnaires.md)
+## [De resultaten van een vragenlijst evalueren](evaluate-questionnaire-results.md)
+# Functies voor Verenigde Staten
+## Veiligheid en conformiteit op de werkplek
+### [Verificatie van implementatie van formulier I-9](localizations/noam-usa-form-i-9-verification.md)
 ### [Voldoen aan de ADA](localizations/noam-usa-comply-ada.md)
-## [Payroll](localizations/noam-usa-payroll.md)
-### Salarissen-instellingen
-#### [Salarisgegevens voor werknemers instellen](localizations/noam-usa-worker-position-payroll-tasks.md)
-#### [Werk cycli instellen en perioden](localizations/noam-usa-work-cycle-work-period-tasks.md)
-#### [Vergoedingsplannen toerekeningsschema instellen](localizations/noam-usa-benefit-accrual-plan-tasks.md)
-#### [Set up benefits](localizations/noam-usa-benefit-set-up-tasks.md)
+## [Salaris](localizations/noam-usa-payroll.md)
+### Salarisadministratie instellen
+#### [Salarisadministratie instellen voor medewerkers](localizations/noam-usa-worker-position-payroll-tasks.md)
+#### [Werkcycli en werkperioden instellen](localizations/noam-usa-work-cycle-work-period-tasks.md)
+#### [Vergoedingstoerekeningsplannen instellen ](localizations/noam-usa-benefit-accrual-plan-tasks.md)
+#### [Vergoedingen instellen](localizations/noam-usa-benefit-set-up-tasks.md)
 ### Frequenties en cycli
-### [Cyclus betalen en betalen van periodieke taken](localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md)
-### [Berekening en de frequentie salaristaken](localizations/noam-usa-payroll-calculation-frequencies-tasks.md)
-### [Werkschema en taken te laten](localizations/noam-usa-work-schedule-leave-tasks.md)
-### Codes en btw
-#### [Code verdienen en verdienen code taken groeperen](localizations/noam-usa-earning-code-group-tasks.md)
-#### [Taken voor btw-informatie](localizations/noam-usa-tax-information-tasks.md)
-### Aanmoedigingen, fiscale heffingen en salaris van de premie
-#### [Aanmoedigingen instellen en fiscale heffingen](localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md)
-#### [Derdenbeslag en fiscale heffingen werknemers inschrijven](localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md)
-#### [Instellen van premie-inkomsten](localizations/noam-usa-premium-earning-setup-tasks.md)
-#### [Aanmoedigingen, fiscale heffingen en administratiekosten Veelgestelde vragen](localizations/noam-usa-garnishment-tax-levy-administrative-fees.md)
-### Verwerking salaristaken
-#### [Generate earnings](localizations/noam-usa-earnings-generation-process.md)
-#### [Uitgifte werknemer betalingen](localizations/noam-usa-issue-worker-payments.md)
-#### [Salarissen boeken en facturen van leveranciers genereren](localizations/noam-usa-post-payroll-generate-vendor-invoices.md)
-#### [Overzichten en genereren van betalingen Veelgestelde vragen over het betalen](localizations/noam-usa-pay-statements-payment-generation-process.md)
-### De betaling voltooien
+### [Betalingscyclus en salarisperiodetaken](localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md)
+### [Salarisberekenings- en -frequentietaken](localizations/noam-usa-payroll-calculation-frequencies-tasks.md)
+### [Werkschema- en verloftaken](localizations/noam-usa-work-schedule-leave-tasks.md)
+### Codes en belastingen
+#### [Inkomstencode en taken voor inkomstencodegroepen](localizations/noam-usa-earning-code-group-tasks.md)
+#### [Belastinginformatietaken](localizations/noam-usa-tax-information-tasks.md)
+### Beslagleggingen, fiscale heffingen en premiebetaling
+#### [Beslagleggingen en fiscale heffingen instellen](localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md)
+#### [Medewerkers inschrijven voor beslaglegging en fiscale heffingen](localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md)
+#### [Premie-inkomsten instellen ](localizations/noam-usa-premium-earning-setup-tasks.md)
+#### [FAQ over beslagleggingen fiscale heffingen en administratiekosten](localizations/noam-usa-garnishment-tax-levy-administrative-fees.md)
+### Taken voor salarisverwerking
+#### [Inkomsten genereren](localizations/noam-usa-earnings-generation-process.md)
+#### [Betalingen doen aan medewerkers](localizations/noam-usa-issue-worker-payments.md)
+#### [Salarissen boeken en leveranciersfacturen genereren](localizations/noam-usa-post-payroll-generate-vendor-invoices.md)
+#### [FAQ over salarisoverzichten en het genereren van betalingen](localizations/noam-usa-pay-statements-payment-generation-process.md)
+### Het betalingsproces voltooien
 #### [Bestaande salarisbetalingen verwerken](localizations/noam-usa-existing-payroll-payments.md)
-#### [Verwerken van bestaande inkomsten](localizations/noam-usa-existing-earnings.md)
-#### [Proces salarisoverzichten](localizations/noam-usa-pay-statements.md)
+#### [Bestaande inkomsten verwerken](localizations/noam-usa-existing-earnings.md)
+#### [Salarisoverzichten verwerken](localizations/noam-usa-pay-statements.md)
 ### Onderhoud en rapportage
-#### [Veelgestelde vragen over salarisgegevens worden bijgewerkt](localizations/noam-usa-payroll-data-updates.md)
+#### [FAQ over het bijwerken van salarisgegevens](localizations/noam-usa-payroll-data-updates.md)
 #### [Salarisrapporten genereren](localizations/noam-usa-generate-payroll-reports.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Retail-startpagina
-description: 'Startpagina voor Dynamics 365 voor bewerkingen: detailhandel'
+title: Startpagina voor detailhandel
+description: "Startpagina voor Dynamics 365 for Operations – Retail"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,71 +25,71 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="retail-home-page"></a>Retail-startpagina
+# <a name="retail-home-page"></a>Startpagina voor detailhandel
 
 [!include[banner](includes/banner.md)]
 
-Dynamics 365 voor bewerkingen: Retail biedt een complete winkelervaring met een naadloze en universeel kanaal-oplossing die moderne, mobiele en wereldwijde onderscheid. End-to-end mogelijkheden, van moderne plaats van verkooppunten (POS)-oplossingen voor software, winkelbewerkingen, merchandising, e-commerce, callcenter marketing en klantenservice, supply chain, financiën, en nog veel meer kunnen worden geïmplementeerd in de manier waarop het meest zinvol voor uw bedrijf.
+Dynamics 365 for Operations – Retail biedt een complete winkelervaring met een naadloze en onderscheidende oplossing met meerdere kanalen die modern, mobiel en wereldwijd is. Eind-tot-eind mogelijkheden, van moderne POS-softwareoplossingen (verkooppunt), winkelactiviteiten, merchandising, e-commerce, callcenter, marketing en klantenservice tot supply chain, financiën en nog veel meer, kunnen worden geïmplementeerd op de wijze die het meest zinvol is voor uw bedrijf.
 
-Deze pagina verwijst naar resources die u helpen effectiever te gebruiken Microsoft Dynamics 365 for Operations - detailhandel. In het linkerdeelvenster een functiegebied selecteren voor meer informatie over deze. 
+Deze pagina verwijst naar resources die u helpen om Microsoft Dynamics 365 for Operations - Retail effectiever te gebruiken. Selecteer in het linkerdeelvenster een functiegebied om meer informatie hierover te bekijken. 
 
-## <a name="set-up-retail-channels"></a>Detailhandelkanalen instellen
-Bij het instellen van de ervaring van uw detailhandel, moet u bepalen hoe te definiëren en configureren van uw winkel fysieke (genoemd *winkel* in Dynamics 365 for Operations) en de activiteiten van de online winkel. 
+## <a name="set-up-retail-channels"></a>Detailhandelafzetkanalen instellen
+Bij het instellen van uw detailhandelervaring, moet u bepalen hoe u uw fysieke winkel en online winkelactiviteiten wilt definiëren en configureren (dit wordt een *detailhandelwinkel* genoemd in Dynamics 365 for Operations). 
 
-Elke winkel kan eigen betalingsmethoden, prijsgroepen, POS oplossingen, resultatenrekeningen, kostenrekeningen en personeel hebben. Nadat u uw winkel maakt, kunt u de producten die u wilt dat de winkel wilt verkopen toewijzen. U moet ook werknemers, kassa's en klanten aan de winkel toewijzen. Tot slot voegt u de nieuwe winkel toe aan een organisatiehiërarchie.
+Elke detailhandelwinkel kan eigen betalingsmethoden, prijsgroepen, POS-oplossingen, inkomstenrekeningen, kostenrekeningen en personeel hebben. Nadat u uw detailhandelwinkel hebt gemaakt, wijst u de producten toe die u in de winkel wilt verkopen. U wijst ook werknemers, kassa's en klanten toe aan de winkel. Tot slot voegt u de nieuwe winkel toe aan een organisatiehiërarchie.
 
-Wanneer u uw online winkel maakt, moet u onderdelen zoals assortimenten, kenmerken, betalingsmethoden en verzendmethoden instellen. U kunt ook de prijzen, promoties, kortingen en verzendvoorwaarden die specifiek voor de online winkel zijn definiëren.
+Wanneer u uw online winkel maakt, moet u onderdelen zoals assortimenten, kenmerken, betalingsmethoden en verzendmethoden instellen. U kunt ook prijzen, promoties, kortingen en verzendvoorwaarden definiëren die specifiek voor de online winkel zijn.
 
--   [detailhandelkanalen definiëren](define-maintain-retail-channels.md)
--   [Online store overview](online-stores.md)
+-   [Detailhandelkanalen definiëren](define-maintain-retail-channels.md)
+-   [Online winkeloverzicht](online-stores.md)
 
-## <a name="set-up-a-call-center"></a>een call center instellen
-U kunt een callcenter als een type detailhandel instellen. In een callcenter nemen werknemers telefonische orders aan van klanten en maken ze verkooporders. U kunt om te helpen uw werknemers bestellingen aannemen en klantenservice tijdens het bestelproces afhandeling verwerken, wat een verkooporder bevat, hoe prijzen worden bepaald en welke gegevens over klanten, producten en prijzen kunnen worden geopend instellen. Voor elke callcenter kunt u ook gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden instellen.
+## <a name="set-up-a-call-center"></a>Een callcenter instellen
+U kunt een callcenter instellen als een type detailhandelkanaal. In een callcenter nemen werknemers telefonische orders aan van klanten en maken ze verkooporders. U kunt uw werknemers helpen bij het aannemen van orders en het verlenen van klantenservice tijdens de orderafhandeling door in te stellen wat een verkooporder bevat, hoe prijzen worden bepaald en welke gegevens over klanten, producten en prijzen toegankelijk zijn. Voor elk callcenter kunt u ook gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden instellen.
 
--   [Call center functionality](call-center-functionality.md)
--   [Create call center catalogs](create-call-center-catalogs.md)
+-   [Callcenterfunctionaliteit](call-center-functionality.md)
+-   [Callcentercatalogi maken](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Uw oplossingen POS en MPOS definiëren
-Retail moderne POS (MPOS) is een verkooppunt app voor pc's, tabletten en telefoons. Verkoopmedewerkers kunnen verwerken van verkooptransacties, klantorders, en dagelijkse bewerkingen uitvoeren en voorraadbeheer met mobiele apparaten ergens in de winkel, en op de pc gebaseerde kassa's. Cloud POS is een browser gebaseerde POS. 
+## <a name="define-your-pos-and-mpos-solutions"></a>Uw POS- en MPOS-oplossingen definiëren
+Retail Modern POS (MPOS) is een verkooppuntapp voor pc's, tablets en telefoons. Verkoopmedewerkers kunnen verkooptransacties en klantorders verwerken, dagelijkse bewerkingen en voorraadbeheer uitvoeren met mobiele apparaten overal in de winkel en op computerkassa's. Cloud POS is een POS dat op een browser is gebaseerd. 
 
-Er zijn verschillende onderdelen die u instelt voor het definiëren van de relatie tussen een winkel, de POS-kassa's of kanalen in de winkel en de retail-randapparatuur die zijn geregistreerd of kanalen gebruiken om transacties te verwerken. U kunt ook de kenmerken van een specifiek exemplaar van de POS, waaronder het hardwareprofiel of instellingen voor retail randapparatuur die wordt gebruikt bij de kassa en de winkel die het journaal is toegewezen aan de visuele ervaring voor de gebruiker die zich aanmeldt bij die registreren definiëren.
+Er zijn verschillende onderdelen die u instelt voor het definiëren van de relaties tussen een winkel, de POS-kassa's of kanalen binnen de winkel en de detailhandelrandapparaten die door die kassa's of kanalen worden gebruikt om transacties te verwerken. U definieert ook de kenmerken van een specifiek exemplaar van het POS, waaronder het hardwareprofiel of de instellingen voor detailhandelrandapparatuur die wordt gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich aanmeldt bij die kassa.
 
--   [Definieert en beheert kanaal clients, kassa's en hardware-stations](define-maintain-channel-clients-registers-hw-stations.md)
--   [Configureren en installeren van MPOS](retail-modern-pos-device-activation.md)
--   [Offline POS-functionaliteitsprofiel](pos-offline-functionality.md)
+-   [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md)
+-   [MPOS configureren en installeren](retail-modern-pos-device-activation.md)
+-   [Offline POS-functionaliteit](pos-offline-functionality.md)
 
-## <a name="set-up-a-customer-loyalty-program"></a>Een loyaliteitsprogramma klant instellen
-U kunt uw loyaliteitsprogramma instellen dat klanten punten op basis van specifieke criteria verdienen, en het aantal punten dat kunnen op verschillende manieren worden berekend. Uw loyaliteitsprogramma kan eenvoudig of complex en heel uw rechtspersonen in elke detailhandel.
--   [Een loyaliteitsprogramma klant instellen](set-up-customer-loyalty-program.md)
+## <a name="set-up-a-customer-loyalty-program"></a>Een klantloyaliteitsprogramma instellen
+U kunt uw loyaliteitsprogramma zodanig instellen dat klanten punten verdienen op basis van specifieke criteria en de punten kunnen op verschillende manieren worden berekend. Uw loyaliteitsprogramma kan eenvoudig of complex zijn en gelden voor al uw rechtspersonen in elk detailhandelkanaal.
+-   [Een klantloyaliteitsprogramma instellen](set-up-customer-loyalty-program.md)
 
-## <a name="set-up-discounts-and-price-adjustments"></a>Kortingen en prijsaanpassingen instellen
-U kunt prijscorrecties maken voor producten en ook kortingen die zijn toegepast op een regelartikel of een transactie op het POS, in een oproep center-verkooporder of in een on line bestelling kunt instellen. 
--   [Price adjustments and discounts](price-adjustments-discounts.md)
--   [Define channel-specific discounts](define-channel-specific-discounts.md)
+## <a name="set-up-discounts-and-price-adjustments"></a>Kortingen en prijscorrecties instellen
+U kunt prijscorrecties uitvoeren voor producten en ook kortingen instellen die worden toegepast op een regelartikel of een transactie bij het POS, in een callcenter-verkooporder of in een online order. 
+-   [Prijscorrecties en kortingen](price-adjustments-discounts.md)
+-   [Kanaalspecifieke kortingen definiëren](define-channel-specific-discounts.md)
 -   [De optimale combinatie van overlappende kortingen bepalen](optimal-combination-overlapping-discounts.md)
 
 ## <a name="set-up-retail-products"></a>Detailhandelproducten instellen
-Voordat u producten voor verkoop in uw detailhandelkanalen aanbiedt kunt, moet u maken en configureren van de producten in Dynamics 365 voor bewerkingen. U kunt producten maken, de producteigenschappen en -kenmerken definiëren, en de producten toewijzen aan detailhandelcategoriehiërarchieën. De producten aan uw detailhandelkanalen beschikbaar stellen en deze toevoegen aan het actieve assortiment, u zult vervolgens de producten vrijgeven aan rechtspersonen waarin ze beschikbaar zijn.
--   [Set up retail products](set-up-retail-products.md)
+Voordat u producten te koop kunt aanbieden in uw detailhandelkanalen, moet u de producten maken en configureren in Dynamics 365 for Operations. U kunt de producten maken, de producteigenschappen en -kenmerken definiëren, en de producten toewijzen aan detailhandelcategoriehiërarchieën. Als u de producten beschikbaar wilt maken voor uw detailhandelkanalen en als u deze aan het actieve assortiment wilt toevoegen, geeft u de producten vervolgens vrij aan de rechtspersonen waarbij deze verkrijgbaar zijn.
+-   [Detailhandelproducten instellen](set-up-retail-products.md)
 
-## <a name="monitor-and-analyze-performance"></a>Volgen en analyseren van prestaties
-Met uw Dynamics 365 voor operationele gegevens, kunt u de prestaties van de winkel, klant- en productgegevens winstgevendheid en verkooptrends analyseren.
--   [Assess customer and product profitability](assess-customer-product-profitability.md)
--   [Analyze store performance](store-performance-information.md)
+## <a name="monitor-and-analyze-performance"></a>Prestaties volgen en analyseren
+Met uw gegevens in Dynamics 365 for Operations kunt u de prestaties van de winkel, de winstgevendheid van klanten en producten, verkooptrends en meer analyseren.
+-   [Winstgevendheid van klanten en producten beoordelen](assess-customer-product-profitability.md)
+-   [Winkelprestaties analyseren](store-performance-information.md)
 
-## <a name="customize-and-administer-retail-environments"></a>Aanpassen en beheren van de Retail-omgevingen
-Als u bent gevraagd om aan te passen van uw omgeving, of als u taak hebben de distributie en onderhoud van uw systeem, bekijk de ontwikkelaar en beheerder systeeminhoud specifiek zijn voor de detailhandel, alsmede de algemene inhoud voor Microsoft Dynamics 365 voor bewerkingen. 
--   [Dynamics 365 for Operations - detailhandel voor IT-professionals en ontwikkelaars](dev-itpro/dev-retail-home-page.md)
--   [Microsoft Dynamics 365 voor bewerkingen voor ontwikkelaars en IT-professionals](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+## <a name="customize-and-administer-retail-environments"></a>Detailhandelomgevingen aanpassen en beheren
+Als u bent gevraagd om uw omgeving aan te passen, of als u de taak hebt om het systeem te implementeren en onderhouden, bekijkt u de inhoud voor ontwikkelaars en systeembeheerders die speciaal is bedoeld voor de detailhandel, evenals de algemene inhoud voor Microsoft Dynamics 365 for Operations. 
+-   [Dynamics 365 for Operations - Retail voor IT-professionals en ontwikkelaars](dev-itpro/dev-retail-home-page.md)
+-   [Microsoft Dynamics 365 for Operations voor ontwikkelaars en IT-professionals](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-### <a name="whats-new-and-in-development"></a>Wat is nieuw en ontwikkeling
-Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365 routekaart</a> om te zien welke nieuwe functies worden vrijgegeven en nieuwe functies worden in ontwikkeling. 
+### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
+Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365-routekaart</a> om te zien welke nieuwe functies worden vrijgegeven en welke nieuwe functies in ontwikkeling zijn. 
 
 ### <a name="blogs"></a>Weblogs
-Vindt u adviezen, nieuws en andere informatie over Microsoft Dynamics 365 for Operations - detailhandel en andere oplossingen op de <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 blog</a>.
+U kunt adviezen, nieuws en andere informatie over Microsoft Dynamics 365 for Operations - Retail en andere oplossingen vinden op de <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365-blog</a>.
 
-Er zijn veel onderwerpen over Retail op de <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX product teamblog</a>. Enkele van deze posten zijn geschreven voor de vorige versie van Dynamics 365 voor bewerkingen, maar nog steeds dezelfde concepten die van toepassing en de procedures in de huidige versie lijken.
+Er zijn veel onderwerpen over de detailhandel beschikbaar op de <a href="https://blogs.msdn.microsoft.com/dax/">blog van het Microsoft Dynamics AX-productteam</a>. Sommige van deze berichten zijn geschreven voor de vorige versie van Dynamics 365 for Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie.
 
-De <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics bewerkingen Partner Community Blog</a> vindt u Microsoft Dynamics werkt samen met één bron voor meer informatie over wat er nieuw en volgen van trends in MBS bewerkingen.
+De <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operations Partner Community Blog</a> biedt Microsoft Dynamics-partners een enkele bron voor meer informatie over wat er nieuw is en welke trends er zijn in MBS Operations.
 

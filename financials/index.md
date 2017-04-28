@@ -31,15 +31,15 @@ ms.lasthandoff: 04/12/2017
 Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor financieel beheer in Microsoft Dynamics 365 for Operations. 
 
 Selecteer een functiegebied voor meer informatie hierover.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+- [Leveranciers](accounts-payable\accounts-payable.md) 
+- [Klanten](accounts-receivable\accounts-receivable.md) 
+- [Contanten en bankbeheer](cash-bank-management\cash-bank-management.md)
+- [Kostprijsboekhouding](cost-accounting\cost-accounting-home-page.md)
+- [Vaste activa](fixed-assets\fixed-assets.md)
+- [Grootboek](general-ledger\general-ledger.md) 
+- [Projectbeheer](project-management\overview-project-management-accounting.md)
+- [Openbare sector](public-sector\public-sector-functionality.md) 
+- [Budgettering](budgeting\budgeting-overview.md) 
 
 
 
