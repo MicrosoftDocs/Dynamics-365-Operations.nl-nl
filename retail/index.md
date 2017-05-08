@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ Dynamics 365 for Operations – Retail biedt een complete winkelervaring met een
 Deze pagina verwijst naar resources die u helpen om Microsoft Dynamics 365 for Operations - Retail effectiever te gebruiken. Selecteer in het linkerdeelvenster een functiegebied om meer informatie hierover te bekijken. 
 
 ## <a name="set-up-retail-channels"></a>Detailhandelafzetkanalen instellen
-Bij het instellen van uw detailhandelervaring, moet u bepalen hoe u uw fysieke winkel en online winkelactiviteiten wilt definiëren en configureren (dit wordt een *detailhandelwinkel* genoemd in Dynamics 365 for Operations). 
+Bij het instellen van uw detailhandelervaring, moet u bepalen hoe u uw fysieke winkel, online winkelactiviteiten en callcenter wilt definiëren en configureren. 
 
-Elke detailhandelwinkel kan eigen betalingsmethoden, prijsgroepen, POS-oplossingen, inkomstenrekeningen, kostenrekeningen en personeel hebben. Nadat u uw detailhandelwinkel hebt gemaakt, wijst u de producten toe die u in de winkel wilt verkopen. U wijst ook werknemers, kassa's en klanten toe aan de winkel. Tot slot voegt u de nieuwe winkel toe aan een organisatiehiërarchie.
-
-Wanneer u uw online winkel maakt, moet u onderdelen zoals assortimenten, kenmerken, betalingsmethoden en verzendmethoden instellen. U kunt ook prijzen, promoties, kortingen en verzendvoorwaarden definiëren die specifiek voor de online winkel zijn.
+Elke detailhandelwinkel kan eigen betalingsmethoden, levermethoden, prijsgroepen, inkomsten-/kostenrekeningen, kassa's en personeel hebben. Nadat u uw detailhandelwinkel hebt gemaakt, stelt u een productassortiment samen dat u in de winkel wilt verkopen. U kunt ook winkelspecifieke prijzen en kortingen definiëren die van toepassing zijn op producten die beschikbaar zijn in de winkel.
 
 -   [Detailhandelkanalen definiëren](define-maintain-retail-channels.md)
 -   [Online winkeloverzicht](online-stores.md)
@@ -49,12 +48,12 @@ U kunt een callcenter instellen als een type detailhandelkanaal. In een callcent
 -   [Callcenterfunctionaliteit](call-center-functionality.md)
 -   [Callcentercatalogi maken](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Uw POS- en MPOS-oplossingen definiëren
-Retail Modern POS (MPOS) is een verkooppuntapp voor pc's, tablets en telefoons. Verkoopmedewerkers kunnen verkooptransacties en klantorders verwerken, dagelijkse bewerkingen en voorraadbeheer uitvoeren met mobiele apparaten overal in de winkel en op computerkassa's. Cloud POS is een POS dat op een browser is gebaseerd. 
+## <a name="define-your-pos-solutions"></a>Uw POS-oplossingen definiëren
+Retail Modern POS (MPOS) is een verkooppuntapp voor pc's, tablets en telefoons. Verkoopmedewerkers kunnen verkooptransacties en klantorders verwerken, clientelingactiviteiten uitvoeren en dagelijkse bewerkingen en voorraadbeheer uitvoeren met mobiele apparaten overal in de winkel en op computerkassa's. Cloud POS is een browsergebaseerd POS dat in elke standaardbrowser kan worden gestart. 
 
-Er zijn verschillende onderdelen die u instelt voor het definiëren van de relaties tussen een winkel, de POS-kassa's of kanalen binnen de winkel en de detailhandelrandapparaten die door die kassa's of kanalen worden gebruikt om transacties te verwerken. U definieert ook de kenmerken van een specifiek exemplaar van het POS, waaronder het hardwareprofiel of de instellingen voor detailhandelrandapparatuur die wordt gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich aanmeldt bij die kassa.
+Er zijn verschillende onderdelen die u instelt voor het definiëren van de relaties tussen een winkel, de POS-kassa's binnen de winkel en de detailhandelrandapparaten die door deze kassa's worden gebruikt om transacties te verwerken. U definieert ook de kenmerken van een specifiek exemplaar van het POS, waaronder het hardwareprofiel of de instellingen voor detailhandelrandapparatuur die wordt gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen, de visuele ervaring voor de gebruiker die zich aanmeldt bij die kassa en de functionaliteiten die zijn ingeschakeld in de kassa. U kunt ook definiëren of de kassa kan werken als deze losgekoppeld of offline is.
 
--   [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md)
+-   [Kanaalclients, kassa's en hardwarestations definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md)
 -   [MPOS configureren en installeren](retail-modern-pos-device-activation.md)
 -   [Offline POS-functionaliteit](pos-offline-functionality.md)
 
@@ -92,4 +91,6 @@ U kunt adviezen, nieuws en andere informatie over Microsoft Dynamics 365 for Ope
 Er zijn veel onderwerpen over de detailhandel beschikbaar op de <a href="https://blogs.msdn.microsoft.com/dax/">blog van het Microsoft Dynamics AX-productteam</a>. Sommige van deze berichten zijn geschreven voor de vorige versie van Dynamics 365 for Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie.
 
 De <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operations Partner Community Blog</a> biedt Microsoft Dynamics-partners een enkele bron voor meer informatie over wat er nieuw is en welke trends er zijn in MBS Operations.
+
+
 

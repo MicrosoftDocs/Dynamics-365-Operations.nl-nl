@@ -1,5 +1,6 @@
 # Magazijnindeling maken
 # Inkomend proces
+## [Overzicht aankomst](arrival-overview.md)
 # Uitgaand proces
 # Voorraadtracering instellen
 ## [Voorraadjournalen](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [Consignatie](consignment.md)
 ## [Consignatie instellen](set-up-consignment.md)
 # Kwaliteitsbeheer
+## [Mobiel werkgebied voorhanden voorraad](inventory-on-hand-mobile-workspace.md)
 ## [Kwaliteitsbeheer inschakelen](enable-quality-management.md)
 ## [Voorraadblokkering](inventory-blocking.md)
 ## [Beheer van niet-conformering](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # Artikel en batch traceren
 ## [Voorraadbatch samenvoegen](merge-inventory-batches.md)
 ## [Artikel en grondstoffen traceren](trace-items-raw-materials-inventory-production-sales.md)
+

@@ -170,6 +170,7 @@
 ## [Dimensies van kostenelement](cost-accounting/cost-elements.md)
 ## [Dimensies van kostenobject](cost-accounting/cost-objects.md)
 ## [Dimensieleden van kostenelement toewijzen aan een gemeenschappelijke set van dimensieleden](cost-accounting/map-cost-elements-dimension-members.md)
+## [Overheadberekening](cost-accounting/overhead-calculation.md)
 ## [Mobiel werkgebied voor kostenbeheer](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [Kostprijsboekhoudingsanalyse van Power BI-inhoud](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [Beveiliging instellen voor de kostprijsboekhoudingsanalyse van Power BI-inhoud](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [Projectoffertes](project-management/project-quotations.md)
 ## [Projectbronnen](project-management/project-resourcing.md)
 ## [Structuren voor werkspecificatie](project-management/work-breakdown-structures.md)
+## [Tijdinvoer voor project voor mobiel werkgebied](project-management/project-time-entry-mobile-workspace.md)
 # [Lokalisaties](localizations/TOC.md)
+
+# [Human resources](/dynamics365/operations/human-resources/index)
+
+# [Detailhandel](/dynamics365/operations/retail/index)
+
+# [Supply chain management](/dynamics365/operations/supply-chain/index)
+
+# [Ontwikkelaar en beheerder](/dynamics365/operations/dev-itpro/index)
+
+# Overige bronnen
+## [Verklarende woordenlijst voor Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [Wat is nieuw of gewijzigd](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

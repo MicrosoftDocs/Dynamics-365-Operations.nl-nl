@@ -22,10 +22,14 @@
 ## [Datum gewogen gemiddelde](weighted-average-date.md)
 ## [Gewogen gemiddelde met fysieke waarde en markering](weighted-average-physical-value-marking.md)
 # Kostprijsberekening voor fabricage
+## [Constante kosten voor een gefabriceerd artikel afschrijven](amortize-constant-costs-manufactured-item.md)
+## [Kostprijsberekening via terugwaarts afboeken](backflush-costing.md)
+## [Stuklijstberekeningen](bom-calculations.md)
 ## [Stuklijstberekeningsgroep](bom-calculation-groups.md)
 ## [Veelvoorkomende oorzaken voor productieafwijking analyseren](common-sources-of-production-variances.md)
 ## [Kostencategorie die in productieroute worden gebruikt](cost-categories-used-production-routings.md)
 ## [Kostencategorie die wordt gebruikt in Productiebeheer en Projectbeheer en -boekhouding](cost-categories-used-production-control-project-management-accounting.md)
+## [Toeslagen voor een geproduceerd artikel weergeven](charges-manufactured-item.md)
 ## [Analyse van productieorderkosten](production-order-cost-analysis.md)
 ## [Raming van productieorderkosten](production-order-cost-estimation.md)
 ## [Productieboeking](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Standaardkosten in een productieomgeving bijwerken](update-standard-costs-manufacturing-environment.md)
 ## [Standaardkosten voor een nieuw gefabriceerd artikel bijwerken](update-standard-costs-new-manufactured-item.md)
 ## [Standaardkosten in een niet-productieomgeving bijwerken](update-standard-costs-non-manufacturing-environment.md)
+
 
 

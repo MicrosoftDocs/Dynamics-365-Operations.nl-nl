@@ -60,3 +60,15 @@
 #### [FAQ over het bijwerken van salarisgegevens](localizations/noam-usa-payroll-data-updates.md)
 #### [Salarisrapporten genereren](localizations/noam-usa-generate-payroll-reports.md)
 
+# [Financiën](/dynamics365/operations/financials/index)
+
+# [Detailhandel](/dynamics365/operations/retail/index)
+
+# [Supply chain management](/dynamics365/operations/supply-chain/index)
+
+# [Ontwikkelaar en beheerder](/dynamics365/operations/dev-itpro/index)
+
+# Overige bronnen
+## [Verklarende woordenlijst voor Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Wat is nieuw of gewijzigd](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+

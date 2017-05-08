@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: c0febeaf790fd9d2281f0e98089eb557ca1f7cec
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 8bdfc9b29da86460e8f47760cf8afc051ea923fb
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/31/2017
 
 Dit onderwerp bevat een overzicht van Leveranciers. 
 
-U kunt leveranciersfacturen handmatig invoeren of elektronisch ontvangen via een gegevensentiteit. Nadat de facturen zijn ingevoerd of ontvangen, kunt u de facturen controleren en goedkeuren met behulp van een factuurgoedkeuringsjournaal of via de pagina **Leveranciersfactuur**. U kunt gebruikmaken van factuurvereffening, beleid voor leveranciersfacturen en workflows om het controleproces te automatiseren. Hierdoor worden facturen die aan bepaalde criteria voldoen, automatisch goedgekeurd. De resterende facturen worden gemarkeerd voor controle door een geautoriseerde gebruiker.
+U kunt leveranciersfacturen handmatig invoeren of elektronisch ontvangen via een gegevensentiteit. Nadat de facturen zijn ingevoerd of ontvangen, kunt u de facturen controleren en goedkeuren met behulp van een factuurgoedkeuringsjournaal of de pagina **Leveranciersfactuur**. U kunt gebruikmaken van factuurvereffening, beleid voor leveranciersfacturen en werkstromen om het controleproces te automatiseren. Hierdoor worden facturen die aan bepaalde criteria voldoen, automatisch goedgekeurd. De resterende facturen worden gemarkeerd voor controle door een geautoriseerde gebruiker.
 
 
 

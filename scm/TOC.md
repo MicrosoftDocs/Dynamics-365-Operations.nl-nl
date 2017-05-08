@@ -56,6 +56,7 @@
 ### [Stuklijst en formule](production-control/bill-of-material-bom.md)
 ### [Functionaliteit van stuklijstontwikkelaar](production-control/bom-designer-functionality.md)
 ### [Productdimensie](pim/product-dimensions.md)
+### [Standaard orderinstellingen voor dimensies en productvarianten](production-control/default-order-settings.md)
 ### [Nomenclatuur voor productnummers](pim/product-variant-identification-nomenclature.md)
 ### [FAQ over productgerelateerde vertaling](pim/translations-product-related-information.md)
 ### [Serienummer registreren in het verkoopproces](sales-marketing/register-serial-numbers-sales-process.md)
@@ -70,49 +71,77 @@
 ### [Een configuratiemodel instellen](pim/set-up-maintain-product-configuration-model.md)
 ### [Systeemgedefinieerde en gebruikergedefinieerde tabelbeperking](pim/system-defined-user-defined-table-constraints.md)
 # Productiebeheer
-## Productieproces    
-### [Op activiteiten gebaseerde uitbesteding van werk](production-control/activity-based-subcontracting.md)
-### [Batchkenmerken](production-control/batch-attributes.md)
-### [Stuklijsten en formules](production-control/bill-of-material-bom.md)
-### [Functionaliteit van stuklijstontwikkelaar](production-control/bom-designer-functionality.md)
-### [Geconsolideerde batchorders](production-control/consolidated-batch-orders.md)
-### [Het uitbesteden van werk in de productie beheren](production-control/manage-subcontract-work-production.md)
-### [Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing](production-control/mixed-mode-plan.md)
-### [Productieproces](production-control/production-process-overview.md)
-### [Behoeften voor productie-instellingen](production-control/production-set-up-requirements.md)
-### [Routes en bewerkingen](production-control/routes-operations.md)
-## Productieorders
-### [Productieorders maken](production-control/create-production-orders.md)
-### [Standaard orderinstellingen voor dimensies en productvarianten](production-control/default-order-settings.md)
-### [Productieorders vrijgeven](production-control/release-production-orders.md)
-### [De productieorderstatus omkeren](production-control/reverse-production-order-status.md)
-### [Stuklijsten gereedmelden](production-control/report-boms-as-finished.md)
-### [Productieorders gereedmelden](production-control/report-production-orders-as-finished.md)
-## Lean productie 
-### [Ondersteuning van kanbanoverboekingsbord voor streepjescodescanners](production-control/kanban-transfer-board-support-barcode-scanner.md) 
-### [Planning van kanbantaken voor lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+## [Overzicht van productieproces](production-control/production-process-overview.md)
+## [Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing](production-control/mixed-mode-plan.md)
+## [Het uitbesteden van werk in de productie beheren](production-control/manage-subcontract-work-production.md)
+## Discrete productie
+### Hoofdgegevens productie onderhouden
+#### [Behoeften voor productie-instellingen](production-control/production-set-up-requirements.md)
+#### [Stuklijsten en formules](production-control/bill-of-material-bom.md)
+#### [Functionaliteit van stuklijstontwikkelaar](production-control/bom-designer-functionality.md)
+#### [Stuklijstberekeningen](cost-management/bom-calculations.md)
+#### [Bron voor bedrijfsactiviteiten](production-control/operations-resources.md)
+#### [Bronmogelijkheden](production-control/resource-capabilities.md)
+#### [Routes en bewerkingen](production-control/routes-operations.md)
+#### [Standaardwaarden van productieorder in productieregistratie](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Werkbeleid magazijn](warehousing/warehouse-work-policies.md)
+### Productiebewerkingen plannen
+#### [Bewerkingsplanning](production-control/operations-scheduling.md)
+#### [Taakplanning](production-control/job-scheduling.md)
+#### [Opties voor het plannen van bewerkingen](production-control/operation-scheduling-options.md)
+### Productietaken uitvoeren
+#### [Productieorders maken](production-control/create-production-orders.md)
+#### [Productieorders vrijgeven](production-control/release-production-orders.md)
+#### [De productieorderstatus omkeren](production-control/reverse-production-order-status.md)
+#### [Productieorders gereedmelden](production-control/report-production-orders-as-finished.md)
+#### [Stuklijsten gereedmelden](production-control/report-boms-as-finished.md)
+#### [Materiaalvervanging in productie](production-control/substitute-items-bom-lines.md)
+#### [Registratie voor productieregistratie](production-control/registration-manufacturing-execution.md)
+#### [Productiefeedback](production-control/production-feedback.md)
+#### [Tijd- en aanwezigheidsregistratie](production-control/time-attendance-registrations.md)
+### Financiële gegevens in productie beheren
+#### [Tijd toewijzen aan taken in een takenbundel](production-control/allocate-time-jobs-job-bundle.md)
+#### [Materiaalverbruik berekenen](production-control/consumption.md)
+#### [Productieboeking](cost-management/production-posting.md)
+## Lean manufacturing 
 ### [Overzicht van lean manufacturing](production-control/lean-manufacturing-overview.md)
-### [Een lean organisatie modelleren](production-control/lean-manufacturing-modeling-lean-organization.md)
-## Bewerkingen en taken plannen
-### [Tijd toewijzen aan taken in een takenbundel](production-control/allocate-time-jobs-job-bundle.md)
-### [Taakplanning](production-control/job-scheduling.md)
-### [Opties voor het plannen van bewerkingen](production-control/operation-scheduling-options.md)
-### [Bewerkingsplanning](production-control/operations-scheduling.md)
-## Bronnen
-### [Operations-resources](production-control/operations-resources.md)
-### [Bronmogelijkheden](production-control/resource-capabilities.md)
-### [Tijd- en aanwezigheidsregistratie](production-control/time-attendance-registrations.md)
-## Productieregistratie
-### [Materiaalvervanging in productie](production-control/substitute-items-bom-lines.md)
-### [Materiaalverbruik berekenen](production-control/consumption.md)
-### [Productiefeedback](production-control/production-feedback.md)
-### [Standaardwaarden van productieorder in productieregistratie](production-control/production-order-defaults-manufacturing-execution.md)
-### [Productieboeking](cost-management/production-posting.md)
-### [Registratie voor productieregistratie](production-control/registration-manufacturing-execution.md)
+### [Op activiteiten gebaseerde uitbesteding van werk](production-control/activity-based-subcontracting.md)
+### Hoofdgegevens productie onderhouden
+#### [Een lean organisatie modelleren](production-control/lean-manufacturing-modeling-lean-organization.md)
+#### [Bron voor bedrijfsactiviteiten](production-control/operations-resources.md)
+### Kanbantaken plannen
+#### [Planning van kanbantaken voor lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [Taakplanning](production-control/job-scheduling.md)
+### Kanbantaken uitvoeren
+#### [Ondersteuning van kanbanoverboekingsbord voor streepjescodescanners](production-control/kanban-transfer-board-support-barcode-scanner.md)
+#### [Productiefeedback](production-control/production-feedback.md)
+## Procesproductie
+### Hoofdgegevens productie onderhouden
+#### [Stuklijsten en formules](production-control/bill-of-material-bom.md)
+#### [Bron voor bedrijfsactiviteiten](production-control/operations-resources.md)
+#### [Bronmogelijkheden](production-control/resource-capabilities.md)
+#### [Batchkenmerken](production-control/batch-attributes.md)
+#### [Standaardwaarden van productieorder in productieregistratie](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Behoeften voor productie-instellingen](production-control/production-set-up-requirements.md)
+### Productiebewerkingen plannen
+#### [Bewerkingsplanning](production-control/operations-scheduling.md)
+#### [Opties voor het plannen van bewerkingen](production-control/operation-scheduling-options.md)
+#### [Taakplanning](production-control/job-scheduling.md)
+### Productietaken uitvoeren
+#### [Geconsolideerde batchorders](production-control/consolidated-batch-orders.md)
+#### [Materiaalvervanging in productie](production-control/substitute-items-bom-lines.md)
+#### [Registratie voor productieregistratie](production-control/registration-manufacturing-execution.md)
+#### [Productiefeedback](production-control/production-feedback.md)
+#### [Tijd- en aanwezigheidsregistratie](production-control/time-attendance-registrations.md) 
+### Financiële gegevens in productie beheren
+#### [Tijd toewijzen aan taken in een takenbundel](production-control/allocate-time-jobs-job-bundle.md)
+#### [Materiaalverbruik berekenen](production-control/consumption.md)
+#### [Productieboeking](cost-management/production-posting.md)
 # Verkoop en marketing
 ## [Marketing](sales-marketing/overview-sales-marketing.md)
 ## Verkooporders
 ### [Orderbelofte](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Alternatieven voor levering](sales-marketing/delivery-alternatives.md)
 ### [Uiterste datums orderinvoer](sales-marketing/order-entry-deadlines.md)
 ### [Directe leveringen](sales-marketing/direct-deliveries.md)
 ### [Afleveringsschema's](sales-marketing/delivery-schedules.md)
@@ -138,6 +167,7 @@
 ### [Lay-out instellen](warehousing/warehouse-configuration.md)
 ### [Werkbeleid magazijn](warehousing/warehouse-work-policies.md)
 ### [Maateenheid en opslagbeleid](warehousing/unit-measure-stocking-policies.md)
+### [Power BI-inhoud magazijn](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
 ## Verzamelen en verpakken
 ### [Verpakkingsmaterialen en -kosten](warehousing/pack-materials-packing-material-fees.md)
 ## Voorraadtelling
@@ -151,7 +181,21 @@
 ## Aanvulling
 ### [Aanvulling](warehousing/replenishment.md)
 ## Mobiele apparaten
+### [De app voor magazijnbeheer installeren en configureren ](warehousing/install-configure-warehousing-app.md)
 ### [Veldnamen in app voor magazijnbeheer configureren](warehousing/configure-app-field-names-priorities-warehouse.md)
 ### [Mobiele apparaten instellen voor magazijnwerk](warehousing/configure-mobile-devices-warehouse.md)
 ### [Portal voor mobiele apparaten voor magazijnbeheer (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Instellingen voor weergave van mobiele apparaten voor magazijnbeheer](warehousing/change-warehouse-mobile-device-displays.md)
+
+# [Financiën](/dynamics365/operations/financials/index)
+
+# [Human resources](/dynamics365/operations/human-resources/index)
+
+# [Detailhandel](/dynamics365/operations/retail/index)
+
+# [Ontwikkelaar en beheerder](/dynamics365/operations/dev-itpro/index)
+
+# Overige bronnen
+## [Verklarende woordenlijst voor Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Wat is nieuw of gewijzigd](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+

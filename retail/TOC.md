@@ -18,7 +18,7 @@
 ## Hardware randapparatuur
 ### [Overzicht van detailhandelrandapparatuur](retail-peripherals-overview.md)
 ### [Door Microsoft geteste POS-randapparatuur](microsoft-tested-pos-hardware-peripherals.md)
-### [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md)
+### [Kanaalclients, kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md)
 ## Schermindeling
 ### [Schermindelingen configureren voor POS](pos-screen-layouts.md)
 ### [De Retail POS-indelingsontwerper installeren](install-pos-layout-designer.md)
@@ -68,3 +68,16 @@
 ## [Overzicht van hoofdzaken van Commerce](commerce-essentials.md)
 ## [Organisaties en organisatiehiërarchieën (hoofdzaken van Commerce)](organizational-hierarchies-commerce-essentials.md)
 # [Inhoud voor IT-professionals en ontwikkelaars](dev-itpro/TOC.md)
+
+# [Financiën](/dynamics365/operations/financials/index)
+
+# [Human resources](/dynamics365/operations/human-resources/index)
+
+# [Supply chain management](/dynamics365/operations/supply-chain/index)
+
+# [Ontwikkelaar en beheerder](/dynamics365/operations/dev-itpro/index)
+
+# Overige bronnen
+## [Verklarende woordenlijst voor Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [Wat is nieuw of gewijzigd](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

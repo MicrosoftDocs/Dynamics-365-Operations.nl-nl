@@ -17,29 +17,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokalisatie en wettelijk voorgeschreven functies
 
-Microsoft Dynamics 365 for Operations bevat functionaliteit voor sommige land-/regiospecifieke regelgeving en processen. Deze functionaliteit is ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke functionaliteit. 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>Ontwikkelaars- en ISV-gegevens
-De volgende bronnen bevatten informatie die ontwikkelaars en ISV's die land-/regiospecifieke aanpassingen maken kan helpen.
+
+Microsoft Dynamics 365 for Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [handleiding voor beschikbaarheid van producten](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
+
+Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke functionaliteit. 
+
+## <a name="developing-localized-solutions"></a>Gelokaliseerde oplossingen ontwikkelen
+De volgende bronnen biedt richtlijnen en informatie waarmee ontwikkelaars en ISV's die land-/regiospecifieke aanpassingen uitvoeren of een oplossing ontwikkelen voor een land dat niet door Microsoft wordt ondersteund.
 -   [Aparte lokalisatiemodellen](separate-localization-models.md)
--   [Land/regiocontext toepassen](apply-country-context.md)
+-   [Land-/regiocontext toepassen](apply-country-context.md)
 -   [Wettelijke certificeringen](regulatory-certifications.md)
 -   [Lokalisatiefuncties classificeren](classify-localization-features.md)
 -   [Landcodes - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>Lokalisatie-updates
+## <a name="localization-updates-and-communication"></a>Lokalisatie-updates en communicatie
 De volgende bronnen bevatten informatie over geplande en nieuwe lokalisatiefuncties. 
--   [Lokalisatie-portal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>Lokalisatie-updates
+-   [Lokalisatie-portal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (wekelijks bijgewerkt)
+-   [LCS-problemen zoeken](../lifecycle-services/issue-search-lcs.md) (dagelijks bijgewerkt)
+
+### <a name="communication-and-alerts"></a>Communicatie en waarschuwingen
 -   [Communicatie over opvolging van en updates in regelgeving](regulatory-watch-communication.md)
 -   [Microsoft informeren over waarschuwingen voor land-/regiospecifieke voorschriften en de status van wettelijk voorgeschreven functies bijhouden](submit-localization-alerts.md)
 
@@ -51,7 +62,15 @@ Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor ele
 -   [De lijst met functies voor elektronische rapportage uitbreiden](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Bestemmingen van elektronische rapportage](../analytics/electronic-reporting-destinations.md)
 -   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Elektronische rapportage instellen met Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektronische aangifte configureren om gegevens op te halen in Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+## <a name="task-guides"></a>Taakbegeleidingen
+Taakbegeleidingen zijn beschikbaar vanuit het Help-venster van het product en bieden een begeleid overzicht van belangrijke bedrijfsprocessen. U kunt een taakbegeleiding openen om de stappen van een bedrijfsproces Te lezen of u kunt een taakbegeleiding afspelen om een bedrijfsproces te doorlopen en gegevens in te voeren.
+
+U kunt taakbegeleidingen zoeken door naar een pagina in Microsoft Dynamics 365 for Operations te gaan en op Help te klikken. Taakbegeleidingen die gebruikmaken van de pagina worden weergegeven in het Help-venster. U kunt het Help-venster ook gebruiken om op titel naar taakbegeleidingen te zoeken.
+
+Zie [Taakbegeleidingen](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides) voor meer informatie.
+
 
 ## <a name="countryregion-specific-help-topics"></a>Land-/regiospecifieke Help-onderwerpen
 De volgende secties bevatten resources per land/regio.
@@ -62,17 +81,17 @@ De volgende secties bevatten resources per land/regio.
 -   [Business Activity Statement ](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [Een groep met lage waarden afschrijven](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>Oostenrijk
 
+-   [Halfjaarlijkse afschrijvingen](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
 -   [Bijzondere verpakkingsmateriaalkosten](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
 -   [Btw-overzicht](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>België
 
 -   [CODA-bankafschrift](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [Intervat-belastingaangifte](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM-rapport instellen](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>Brazilië
 
@@ -93,7 +112,6 @@ De volgende secties bevatten resources per land/regio.
 -   [Belastingbetalingen](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [Belastingen](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>China
 -   [Vergelijking stuklijst](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [Chinese boekstukken](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ De volgende secties bevatten resources per land/regio.
 -   [Hoofdrekeningen voorraad boeken op locatie](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [Debet- en creditbedragen weergeven voor grootboekrekeningen](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>Tsjechië
+
+-   [Contantkorting op creditnota](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [Afronding voor afschrijving](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [Halfjaarlijkse afschrijving op de afstoting van vaste activa voor Tsjechië](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [Opschorting van afschrijvingen (vakantie)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [Afschrijvingsmethoden voor vaste activa voor Tsjechië](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [Halfjaarlijkse afschrijving op de afstoting van vaste activa voor Tsjechië](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [Opschorting van afschrijvingen (vakantie)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [Afschrijvingsmethoden voor vaste activa voor Tsjechië](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [De waarde van een vast activum voorafgaand aan verwerving boeken](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Btw-overzicht voor Tsjechië](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Gesplitste perioden in periodieke journalen](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -127,6 +147,7 @@ De volgende secties bevatten resources per land/regio.
 -   [Factuur-id's op verkooporders bewerken](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
 -   [EU-invoercertificaten](/dynamics365/operations/financials/localizations/emea-entry-certificates)
 -   [Rapport ICL-lijst](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [Aanpassingen wisselkoers](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
 -   [Bestandsindelingen voor betalingsmethoden](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 -   [Afstoting van vaste activa voor Estland en Litouwen](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [Intrastat](/dynamics365/operations/financials/localizations/emea-intrastat)
@@ -143,11 +164,9 @@ De volgende secties bevatten resources per land/regio.
 -   [Ondertekenaars voor afdrukbare formulieren instellen](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Gesplitste perioden in periodieke journalen](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
--   [Btw-rapportage voor Europa](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
+-   [Btw-wisselkoersen](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
+-   [Btw-aangifte voor Europa](/dynamics365/operations/financials/localizations/emea-vat-reporting)
 -   [Transacties weergeven bij vereffening](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
 
 ### <a name="france"></a>Frankrijk
 -   [Chronologische factuur- en boekstuknummers](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,15 +183,16 @@ De volgende secties bevatten resources per land/regio.
    -   [Titres de recette](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Betalingsaanhoudingen leveranciersfacturen](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>Duitsland
 -   [Extra verwervingsafschrijving](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [Duits auditfile (GDPdU/GoBD)](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [Duits journaallijstrapport](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [Een afzonderlijk label afdrukken voor creditnota's die voortvloeien uit verkopen (taakbegeleider)](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [Een afzonderlijk label afdrukken voor creditnota's die voortvloeien uit verkopen](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
 ### <a name="hungary"></a>Hongarije
 
+-   [Afschrijvingsmethoden voor vaste activa](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [Vaste activa naar voorraad verplaatsen](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [Vaste activa met lage kosten](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>Italië
@@ -184,6 +204,7 @@ De volgende secties bevatten resources per land/regio.
 -   [Datumverificatie van pakbon op facturen voor Italië](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Italiaanse btw-boeken](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [Betalingen splitsen voor facturen die zijn uitgegeven aan overheidsdiensten](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [Bronbelasting](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>Japan
 
@@ -240,6 +261,9 @@ De volgende secties bevatten resources per land/regio.
 -   [Nummering verkoopfactuurduplicaten](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [Afschrijving van vaste activa](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [Afstoting van vaste activa](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [Retourneerbare verpakking](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [Btw-aangiften](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [Standaard auditbestand (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [Overzicht van omzet en saldi](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>Saudi-Arabië
@@ -252,15 +276,16 @@ De volgende secties bevatten resources per land/regio.
 
 ### <a name="spain"></a>Spanje
 
-
--   [Spaanse wisselopties](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [Spaanse wisselopties](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [Parameter Contantkorting is toegepast in de factuur](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [Fiscale gegevens van de factuurrekening gebruiken](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Voorwaardelijke btw](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [Herevaluatiegroepen voor vaste activa](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [Intracommunautaire btw](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Eenmalige klanten](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [Spaanse opties voor promessen](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Verkoop- en inkoopcycli](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Speciale boekingen en openingsbladen](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [Fiscale gegevens van de factuurrekening gebruiken](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>Zweden
 
@@ -286,4 +311,7 @@ De volgende secties bevatten resources per land/regio.
 -   [1099-eindejaarsrapportage](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Salaris](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [Openbare sector](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 

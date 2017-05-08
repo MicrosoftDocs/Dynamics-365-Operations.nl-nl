@@ -42,6 +42,7 @@
 ## [Factuur-id's op verkooporders bewerken](emea-edit-invoice-id-sales-orders.md)
 ## [EU-invoercertificaten](emea-entry-certificates.md)
 ## [Rapport ICL-lijst](emea-eu-sales-list.md)
+## [Aanpassingen wisselkoers](emea-exchange-rate-adjustments.md)
 ## [Bestandsindelingen voor betalingsmethoden](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Afstoting van vaste activa voor Estland en Litouwen](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Intrastat](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [Overzicht SEPA-kredietoverdracht](../accounts-payable/sepa-credit-transfer.md)
 ## [Overzicht SEPA-incasso](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Ondertekenaars voor afdrukbare formulieren instellen](emea-set-up-signers-for-printing-forms.md)
-## [Gesplitste perioden in periodieke journalen](emea-create-post-periodic-journals.md)
-## [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](emea-amount-printing-forms.md)
-## [BTW-rapportage](emea-vat-reporting.md)
+## [Btw-wisselkoersen](emea-vat-exchange-rate.md)
 ## [Transacties weergeven bij vereffening](emea-transactions-settlement-form.md)
 ## Oostenrijk
+### [Halfjaarlijkse afschrijvingen](emea-aut-half-year-depreciation.md)
 ### [Bijzondere verpakkingsmateriaalkosten](emea-aut-packing-material-fee-calculation.md)
 ### [Btw-overzicht](emea-aut-vat-statement-details.md)
 ## België
 ### [CODA-bankafschrift](emea-bel-coda-bank-statement-import.md)
+### [Intervat-belastingaangifte](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM-rapport instellen](emea-bel-prodcom-report.md)
 
 ## Tsjechië
+### [Contantkorting op creditnota](emea-cze-credit-note-cash-discount.md)
 ### [Afronding voor afschrijving](emea-cze-depreciation-rounding.md)
 ### [Opschorting van afschrijvingen](emea-cze-depreciation-suspension-holidays.md)
 ### [Afschrijving van vaste activa](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Journaallijstrapport](emea-deu-journal-list-report.md)
 ### [Een afzonderlijk label afdrukken voor creditnota's die voortvloeien uit verkopen](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Hongarije
+### [Afschrijvingsmethoden voor vaste activa](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Vaste activa met lage kosten](emea-hun-low-cost-fixed-assets.md)
+### [Vaste activa naar voorraad verplaatsen](emea-hun-fixed-asset-to-inventory.md)
 ## Italië
 ### [Details btw-overzichten](emea-ita-vat-statements-details.md)
 ### [Zwarte-lijstrapport](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Datumverificatie van pakbon op facturen](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [Btw-boeken](emea-ita-fiscal-books.md)
 ### [Betalingen splitsen voor facturen die zijn uitgegeven aan overheidsdiensten](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Bronbelasting](emea-ita-withholding tax.md)
 ## Letland
 ### [Boekhouding van vaste activa](emea-lva-fixed-assets-accounting.md)
 ### [Wijzigingen bijhouden voor locaties van vaste activa](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Nummering verkoopfactuurduplicaten](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Afschrijving vaste activa](emea-pol-fixed-assets-depreciation.md)
 ### [Functionaliteitsuitbreiding voor afstoting van vaste activa](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Retourneerbare verpakking](emea-pol-returnable-packages.md)
+### [Btw-aangiften](emea-pol-sales-tax-reports.md)
+### [Standaard auditbestand (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Overzicht van omzetsaldi](emea-pol-turnover-balances-statement.md)
 ## Spanje
-### [Wisselopties](emea-esp-bill-of-exchange-options.md)
 ### [Contantkortingen toepassen in de factuur](emea-esp-cash-discount-applied-invoice.md)
+### [Wisselopties](emea-esp-bill-of-exchange-options.md)
+### [Voorwaardelijke btw](emea-esp-conditional-sales-tax.md)
 ### [Fiscale gegevens van factuurrekening](emea-esp-fiscal-data-invoice-account.md)
 ### [Herevaluatie van groepen voor vaste activa](emea-esp-fixed-asset-group-revaluation.md)
+### [Intracommunautaire btw](emea-esp-intra-community-vat.md)
 ### [Eenmalige klanten](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Opties voor promessen](emea-esp-promissory-note-options.md)
 ### [Verkoop- en inkoopcycli](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Noord-Amerika
 ## [Eindejaars 1099-aangifte voor de Verenigde Staten](noam-usa-year-end-1099-reporting.md)
+
