@@ -1,0 +1,75 @@
+---
+title: Productontvangst tegen inkooporders
+description: Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: PurchTable
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 93113
+ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
+ms.search.region: Global
+ms.author: fdahl
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
+ms.openlocfilehash: 1c8143ec9b18bf95d7cc10f966ce00e5a398a147
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="product-receipt-against-purchase-orders"></a>Productontvangst tegen inkooporders
+
+[!include[banner](../includes/banner.md)]
+
+
+Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
+
+Productontvangst is het proces van het vastleggen van de ontvangst van bestelde producten, zodat de inkooporderregels (IO) vervolgens kunnen worden verwerkt voor facturering. In sommige gevallen doorlopen producten een proces van voorafgaande registratie, waarbij aanvullende informatie van de leverancier wordt vastgelegd voordat de producten worden ontvangen. Wanneer producten binnenkomen, worden zij eerst gemarkeerd als **Geregistreerd**. De producten doorlopen vervolgens mogelijk aanvullende processen, zoals kwaliteitsbeheer, voordat zij definitief worden gemarkeerd als **Ontvangen**.
+
+## <a name="preregistration-asn"></a>Registratie vooraf (ASN)
+Mogelijk delen leveranciers informatie over producten die worden verzonden. In dat geval kunt u de producten vooraf registreren om deze informatie vast te leggen voordat de producten worden ontvangen. Door producten vooraf te registreren, kunt u de hoeveelheid werk die is vereist tijdens artikelregistratie en -ontvangst verminderen. Leveranciers kunnen productinformatie in elektronische vorm aanbieden door middel van een Advance Shipping Notice (ASN) die vervolgens automatisch wordt vastgelegd in het systeem. De informatie in de ASN bevat de hoeveelheid producten die zal worden verzonden en de datum waarop ze worden verzonden. De ASN biedt mogelijk ook informatie zoals batch- of serienummers. Registratie van de ASN vindt plaats in de module **Transportbeheer**.
+
+## <a name="registration"></a>Registratie
+Productontvangstregistratie treedt vaak op bij de inbound docks in een magazijn. Deze wordt uitgevoerd met behulp van een handheld-apparaat of via ontvangstjournalen. U kunt ook handmatig de ontvangst van producten registreren met behulp van de actie **Registratie** op de pagina **Inkooporder**. In beide gevallen, worden de producten gemarkeerd als **Geregistreerd**. Merk op dat de producten nog niet zijn gemarkeerd als **Ontvangen**.  
+
+Producten die worden ontvangen in een magazijn kunnen kwaliteitscontrole doorlopen voordat ze worden weggezet in de voorraad. Kwaliteitsorders of quarantaineorders kunnen worden gebruikt voor het uitvoeren van kwaliteitscontrole. Als kwaliteitsorders worden gebruikt, kunt u het proces zodanig configureren producten tijdelijk worden geblokkeerd door middel van een reservering terwijl ze worden gecontroleerd. Als quarantaineorders worden gebruikt, worden producten naar een ander magazijn verplaatst voor inspectie. Dit magazijn staat bekend als het quarantainemagazijn. In beide processen voor kwaliteitsinspectie wordt een aantal van de goederen mogelijk buiten gebruik gesteld, omdat zij niet aan de kwaliteitsverwachtingen voldoen of de kwaliteitscontrole het destructieve testen van een monster van het product behelst.
+
+## <a name="product-receipt"></a>Productontvangstbon
+In de meeste gevallen, wordt de actie **Productontvangst** op de pagina **Inkooporders** gebruikt voor het markeren van producten als **Ontvangen** op de inkooporder. De pagina **Productontvangstbon boeken** heeft verschillende opties voor de hoeveelheid die administratief wordt verwerkt als ontvangen. U kunt bijvoorbeeld het veld **Hoeveelheid** instellen op **Bestelde hoeveelheid** of **Hoeveelheid nu ontvangen**. Ook zult u, als een magazijnontvangstproces is gebruikt, vaak dit veld instellen op **Geregistreerde hoeveelheid**. U kunt de hoeveelheden op elke orderregel die wordt gemarkeerd als **Ontvangen** wijzigen ten behoeve van eventuele afwijkingen, zoals minderlevering en meerlevering. Tijdens de ontvangst van producten, moet u een id van de productontvangstbon opgeven, die meestal een verwijzing naar de pakbon van de leverancier vormt. Deze id is vereist voor de boekhouding, omdat deze controles of audits van de pakbonnen van leveranciers tegen wat is ontvangen en de naberekende voorraad of onkosten mogelijk maakt.  
+
+Als een werknemer goederen heeft besteld met behulp van een opdracht tot inkoop, wordt die werknemer mogelijk gevraagd om zelf de ontvangst van het product te bevestigen. U kunt dit gedrag configureren met behulp van een workflow. U kunt de workflowvoorwaarden configureren zodat deze overeenkomen met uw bedrijfsproces.  
+
+Inkooporders kunnen worden gemaakt voor producten die niet zijn bedoeld als voorraad, maar als onkosten worden beschouwd. Deze categorie bevat orderregels waarop de producten zijn gemarkeerd als **Niet-voorradig** door hun voorraadmodelgroep en ook regels die inkoopcategorieën gebruiken. In dit geval doorlopen de artikelen mogelijk de aankomstregistratie en ontvangst in het magazijn niet. In plaats daarvan, wordt de actie **Productontvangstbon** gebruikt voor het rechtstreeks in de inkooporder vastleggen van de ontvangst en is de ontvangst gebaseerd op de bestelde hoeveelheid, niet een geregistreerde hoeveelheid.  
+
+U kunt inkooporderregels maken waarbij de optie **Nieuw vast activum** is ingeschakeld. Deze optie geeft aan dat de aankoop moet worden beschouwd als een vast activum in plaats van als voorraad. In dit geval bepalen de regels voor de bepaling van vaste activa die zijn geconfigureerd of de aankoop van het product of de categorie bepaalde drempelwaarden overschrijdt, en daarom als activum moet worden verwerkt en beheer van vaste activa moet doorlopen. Aankopen kunnen ook worden gedaan voor een bestaand vast activum. In dit geval wordt het bedrag zo nodig aangepast.  
+
+U kunt meerdere orders selecteren en de ontvangst verwerken voor alle orders tegelijk. Deze benadering wordt niet vaak gebruikt, maar u kunt deze gebruiken als een leverancier geconsolideerde zendingen voor u heeft in een enkele lading. Tijdens de productontvangst voor de aankoop is er een functie voor het bijwerken van overzichten. Bij bijgewerkte overzichten kunt u een enkele pakbon van de leverancier boeken voor meer dan één inkooporder.  
+
+Mogelijk kunnen inkooporders worden gemaakt op basis van een verkooporder waarvoor de **Rechtstreekse levering** is geselecteerd. Als rechtstreekse levering wordt gebruikt, komen de producten nooit in uw magazijn binnen, maar worden zij rechtstreeks van de leverancier naar de klant verzonden. In dit geval wordt de ontvangst meestal direct in de inkooporder vastgelegd. De ontvangst kan automatisch worden gedaan, bijvoorbeeld via EDI-integratie (Electronic Data Interchange) met de leverancier. Ook automatiseert Microsoft Dynamics 365 for Operations de ontvangst op de intercompany-verkooporder als verzending plaatsvindt indien de inkooporder een intercompany-inkooporder is. Als rechtstreekse levering wordt gebruikt, worden producten nog steeds als voorraad beschouwd, hoewel zij niet fysiek in het magazijn aankomen. Daarom wordt, als de ontvangst van producten in de inkooporder wordt vastgelegd, de verkooporder automatisch bijgewerkt met een pakbon, zodat de totale wijziging in de voorraad 0 (nul) is. In scenario's voor rechtstreekse levering, moet u geen voorafgaande registratie vereisen. Als u magazijnen gebruikt die zijn ingeschakeld voor magazijnbeheer, kunt u het vereiste voor nummerplaatregistratie omzeilen door een virtueel magazijn op te geven. U geeft dit magazijn op in het veld **Rechtstreekse levering magazijn** op het product. 
+
+Nadat de ontvangst van producten is verwerkt op de inkooporder, wordt de status van de inkooporder ingesteld op **Ontvangen** om aan te geven dat de factuur voor de order kan worden verwerkt. U kunt informatie over producten die al zijn ontvangen bekijken met behulp van de pagina **Productontvangstjournalen**.  
+
+U kunt toegang tot deze pagina krijgen vanuit de actiegroep **Ontvangst** op de pagina **Inkooporder**. De informatie in de journalen bevat details over de hoeveelheden, datums en dimensies.
+
+<a name="see-also"></a>Zie ook
+--------
+
+[Overzicht van inkooporders](purchase-order-overview.md)
+
+[Inkooporder maken](purchase-order-creation.md)
+
+[Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
+
+[Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
+
+

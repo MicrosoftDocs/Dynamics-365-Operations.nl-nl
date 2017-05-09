@@ -1,0 +1,78 @@
+---
+title: Startpagina voor Contanten en bankbeheer
+description: "U kunt Contanten en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: index-page
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 21941
+ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
+ms.search.region: Global
+ms.author: twheeloc
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4d0be4dda7fd7f1821c2ff37b766c167f4af742
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
+
+
+---
+
+# <a name="cash-and-bank-management-home-page"></a>Startpagina voor Contanten en bankbeheer
+
+[!include[banner](../includes/banner.md)]
+
+
+U kunt Contanten en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld. 
+
+Voorbeelden van dergelijke instrumenten zijn depositostroken, cheques, wissels en promessen. U kunt ook bankafschriften afstemmen en bankgegevens op standaardrapporten afdrukken.
+
+-   [Contantkortingen](cash-discounts.md)
+-   [Vereffeningsoverzicht](settlement-overview.md)
+-   [Vereffening configureren](configure-settlement.md)
+-   [Herwaardering van vreemde valuta voor Leveranciers en Klanten](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+-   [Kredietbrieven](letters-of-credit.md)
+-   [Brieven over commanditaire kredieten en invoerincasso's](letters-of-credit-import-collections.md)
+-   [Borgstelling](letters-of-guarantee.md)
+-   [Overzicht van geavanceerde bankafstemming](advanced-bank-reconciliation-overview.md)
+-   [Geavanceerde bankafstemming configureren](configure-advanced-bank-reconciliation.md)
+-   [Importeren van geavanceerde bankafstemming instellen](set-up-advanced-bank-reconciliation-import-process.md)
+-   [Bankafschriften afstemmen via geavanceerde bankafstemming](reconcile-bank-statements-advanced-bank-reconciliation.md)
+-   [Afstemmingsregels voor bankafstemming instellen](set-up-bank-reconciliation-matching-rules.md)
+-   [Gecentraliseerde betalingen instellen](set-up-centralized-payments.md)
+
+## <a name="accounts-payable-payments-and-settlements"></a>Leveranciersbetalingen en -vereffeningen
+-   [Gecentraliseerde betalingen voor Leveranciers](../accounts-payable/centralized-payments-accounts-payable.md)
+-   [Leverancierfacturen maken met behulp van een betalingsvoorstel](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Een leveranciersbetaling omkeren](../accounts-payable/reverse-vendor-payment.md)
+-   [Leveranciersbetalingen voor een gedeeltelijk bedrag](../accounts-payable/vendor-payments-partial-amount.md)
+-   [Vooruitbetalingsfacturen en overzicht van vooruitbetalingen](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Scenario: Een gedeeltelijke leverancierbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [Scenario: Een gedeeltelijke leveranciersbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Scenario: Een gedeeltelijke leveranciersbetaling vereffenen met kortingen op creditnota's van de leverancier](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [Scenario: Een gedeeltelijke leveranciersbetaling met meerdere kortingsperioden vereffenen](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [Scenario: Een korting nemen die groter is dan de berekende korting voor een leveranciersbetaling](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Scenario: Een contantkorting nemen buiten de periode van contantkorting](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+
+## <a name="accounts-receivable-payments-and-settlements"></a>Klantbetalingen en -vereffeningen
+-   [Gecentraliseerde betalingen voor Klanten](../accounts-receivable/centralized-payments-accounts-receivable.md)
+-   [Klantbetalingen voor een gedeeltelijk bedrag](../accounts-receivable/customer-payments-partial-amount.md)
+-   [Klanten terugbetalen](../accounts-receivable/reimburse-customers.md)
+-   [Scenario: Automatische vereffening en prioriteitstelling](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [Scenario: Contantkorting voor overbetalingen verwerken](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Scenario: Een gedeeltelijke klantbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [Scenario: Een gedeeltelijke klantbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [Scenario: Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [Scenario: Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [Scenario: Eén klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingsperioden omvatten](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
+
