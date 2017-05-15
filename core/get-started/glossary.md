@@ -1,5 +1,5 @@
 ---
-title: Woordenlijst Dynamics 365 for Operations
+title: Verklarende woordenlijst voor Dynamics 365 for Operations
 description: In de woordenlijst van Microsoft Dynamics 365 for Operations worden de belangrijkste termen en concepten van het product Dynamics 365 for Operations gedefinieerd.
 author: tonyafehr
 manager: AnnBe
@@ -17,15 +17,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0d8af341c8020f756f1a736f6f74402e992d6e16
-ms.openlocfilehash: c6372e366db6abc7b586c2f1185ecd44bbf28502
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.contentlocale: nl-nl
+ms.lasthandoff: 05/10/2017
 
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Woordenlijst Dynamics 365 for Operations
+# <a name="dynamics-365-for-operations-glossary"></a>Verklarende woordenlijst voor Dynamics 365 for Operations
 
 [!include[banner](../includes/banner.md)]
 
@@ -46,7 +47,7 @@ Een regel in een boekhoudsysteem dat bepaalt welke principes, methoden en proced
 
 Een systeem voor elektronische betalingen dat wordt gebruikt in de Verenigde Staten, waarmee betalingen van de bankrekening van de betalende partij worden overgeboekt naar de bankrekening van de ontvangende partij.
 
-###### <a name="actual-quantity"></a>**huidige hoeveelheid**
+###### <a name="actual-quantity"></a>**werkelijke hoeveelheid**
 
 De gemeten hoeveelheid die wordt ingevoerd in of het resultaat is van een activiteit.
 
@@ -56,7 +57,7 @@ De service die wordt geleverd door een creditcardverwerker waarbij wordt gecontr
 
 ###### <a name="adjusted-unit-price"></a>**aangepaste eenheidsprijs**
 
-De berekende eenheidsprijs op basis van de kenmerk-gebaseerde prijzen en de werkelijk ontvangen potentie.
+De berekende eenheidsprijs op basis van de op kenmerken gebaseerde prijzen en de werkelijk ontvangen potentie.
 
 ###### <a name="advanced-pricing"></a>**geavanceerde prijscalculatie**
 
@@ -78,7 +79,7 @@ Een overzicht van de financiële positie van een organisatie waarin de status va
 
 ###### <a name="balance-sheet-account"></a>**balansrekening**
 
-Een rekening waarin de waardewijzigingen worden weergegeven die in een balans worden vastgelegd.
+Een rekening waarin de waardewijzigingen worden beschreven die in een balans worden vastgelegd.
 
 ###### <a name="bank-reconciliation"></a>**bankafstemming**
 
@@ -88,7 +89,7 @@ De praktijk van het afstemmen van een grootboekrekening voor een bankrekening do
 
 Een productkenmerk van een verwerkingsbatch of een overboekingsbatch.
 
-###### <a name="best-before-date"></a>**uiterste houdbaarheidsdatum**
+###### <a name="best-before-date"></a>**houdbaarheidsdatum**
 
 De aanbevolen datum waarop de optimale kwaliteit of karakteristieken van een product zijn bereikt.
 
@@ -106,7 +107,7 @@ Een lijst met producten en de hoeveelheden die nodig zijn om één product te pr
 
 ###### <a name="blocking"></a>**blokkeren**
 
-De actie waarbij een document of product in wachtstand wordt geplaatst.
+De actie waarbij een document of product in de wachtstand wordt geplaatst.
 
 ###### <a name="budget-control"></a>**budgetbeheer**
 
@@ -156,11 +157,11 @@ Een procedure voor het bepalen van de capaciteitsbehoefte van resources, zodat t
 
 ###### <a name="carry-forward-budget"></a>**overgeboekt budget**
 
-Het budget dat is overgeboekt van het ene fiscaal jaar naar het volgende en dat is gereserveerd voor openstaande inkooporders in het nieuwe fiscaal jaar.
+Het budget dat is overgeboekt van het ene fiscaal jaar naar het volgende en dat is gereserveerd voor openstaande inkooporders in het nieuwe fiscale jaar.
 
 ###### <a name="cash-generating-unit"></a>**kasstroomgenererende eenheid**
 
-De kleinste groep classificeerbare activa die onafhankelijk van andere activa omzet genereren in een organisatie. Deze groepen activa worden gebruikt om gebreksverliezen te meten.
+De kleinste groep classificeerbare activa die onafhankelijk van andere activa omzet genereren in een organisatie. Deze groepen activa worden gebruikt om waardeverminderingsverliezen te meten.
 
 ###### <a name="catch-weight"></a>**variabel gewicht**
 
@@ -170,7 +171,7 @@ Het werkelijke of nominale gewicht van een verkoopartikel of voorraadartikel.
 
 Een lijst met hoofdrekeningen.
 
-###### <a name="cogs-cost-of-goods-sold"></a>**Kosten van verkochte goederen (COGS)**
+###### <a name="cogs-cost-of-goods-sold"></a>**COGS (kosten van verkochte goederen)**
 
 Een boekhoudcategorie die wordt gebruikt om de financiële gevolgen van het fabriceren van producten en de opslag van voorraad bij elkaar op te tellen.
 
@@ -200,7 +201,7 @@ Een boekhoudcategorie die wordt gebruikt om de financiële gevolgen van het fabr
 
 ###### <a name="cost-variance"></a>**kostenafwijking**
 
-Het verschil tussen een verwachte kosten en de werkelijke kosten.
+Het verschil tussen de verwachte kosten en de werkelijke kosten.
 
 ###### <a name="costing"></a>**kostprijsberekening**
 
@@ -208,7 +209,7 @@ Het proces waarbij de kosten worden berekend en toegewezen van economische midde
 
 ###### <a name="ctp-capable-to-promise"></a>**CTP (capable-to-promise)**
 
-Het deel van de productuitvoer op basis van beschikbare bronnen voor bedrijfsactiviteiten en beschikbare productinvoer dat nodig is om te voldoen aan een specifieke behoefte van een klant.
+Het deel van de productuitvoer op basis van beschikbare bronnen voor bedrijfsactiviteiten en beschikbare productinvoer, dat nodig is om te voldoen aan een specifieke behoefte van een klant.
 
 ###### <a name="currency-code"></a>**valutacode**
 
@@ -222,15 +223,15 @@ De tijd die nodig is om een activiteit te voltooien.
 
 ###### <a name="dashboard"></a>**dashboard**
 
-De gebruikelijke beginpagina in Dynamics 365 for Operations. Op het dashboard zien gebruikers een sectie voor elke werkruimte waartoe ze toegang hebben. Elke sectie geeft de tegels uit de overzichtsecties in de bijbehorende werkruimte weer. Het dashboard bestaat uit een naam en secties met tegels.
+De gebruikelijke beginpagina in Dynamics 365 for Operations. Op het dashboard zien gebruikers een sectie voor elk werkgebied waartoe ze toegang hebben. Elke sectie geeft de tegels uit de overzichtsecties in het bijbehorende werkgebied weer. Het dashboard bestaat uit een naam en secties met tegels.
 
 ###### <a name="data-entity"></a>**gegevensentiteit**
 
-Een informatiestructuur die de gegevenseigenschap van een rechtspersoon vertegenwoordigt.
+Een informatiestructuur die de gegevenseigenschap van een entiteit vertegenwoordigt.
 
 ###### <a name="delegate"></a>**gemachtigde**
 
-Een gemachtigde is een type dat verwijzingen vertegenwoordigt naar methoden met een bepaalde parameterlijst en retourneringstype.
+Een gemachtigde is een type waarmee verwijzingen worden vertegenwoordigd naar methoden met een bepaalde parameterlijst en een bepaald retourtype.
 
 ###### <a name="delivery-note"></a>**afleveringsbewijs**
 
@@ -252,7 +253,7 @@ Het voertuig dat wordt gebruikt voor implementatie in gebruikeracceptatietest- (
 
 Een Visual Studio-hulpmiddel dat u hebt gebruikt om uw modelelementen te maken, bij te werken en te inspecteren.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**Op ..\financial-dimensions\dimensies gebaseerde configuratie**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**op ..\financial-dimensions\dimensies gebaseerde configuratie**
 
 Een configuratietechnologie die wordt gebruikt om productvarianten te maken door waarden voor productdimensies te selecteren.
 
@@ -262,7 +263,7 @@ Een uniek identificeerbaar product.
 
 ###### <a name="document-blocking"></a>**document blokkeren**
 
-Een methode waarbij een operationeel proces in wachtstand wordt geplaatst, terwijl de bestelde artikelen een proces voor kwaliteitsgarantie ondergaan.
+Een methode waarbij een operationeel proces in de wachtstand wordt geplaatst, terwijl de bestelde artikelen een proces voor kwaliteitsgarantie ondergaan.
 
 ###### <a name="document-management-system"></a>**documentbeheersysteem**
 
@@ -284,9 +285,9 @@ Met een gebeurtenis kan een klasse of object andere klassen of objecten informer
 
 ###### <a name="epe-every-product-every"></a>**EPE (Elk Product Elke)**
 
-Een lean concept dat wordt gebruikt om een regelmatige, herhalende productiecyclus tot stand te brengen.
+Een begrip in Lean manufacturing dat wordt gebruikt om een regelmatige, zich herhalende productiecyclus tot stand te brengen.
 
-###### <a name="extension"></a>**extensie **
+###### <a name="extension"></a>**uitbreiding**
 
 Een toepassing aanpassen door functionaliteit aan bestaande code toe te voegen.
 
@@ -332,7 +333,7 @@ De uitvoer van een batchproces dat door een formule wordt bepaald.
 
 ###### <a name="general-budget-reservation"></a>**algemene budgetreservering**
 
-Een document dat vaak wordt gebruikt door publieke instellingen om gebudgetteerde fundsen apart te zetten zodat deze fondsen niet beschikbaar zijn voor andere doeleinden.
+Een document dat vaak wordt gebruikt door publieke instellingen om gebudgetteerde fondsen apart te zetten zodat deze fondsen niet beschikbaar zijn voor andere doeleinden.
 
 ###### <a name="grace-period"></a>**respijtperiode**
 
@@ -340,7 +341,7 @@ De tijdperiode na een bepaalde datum waarin een verplichting kan worden vervuld 
 
 ###### <a name="gst-goods-and-services-tax"></a>**GST (belasting op goederen en diensten)**
 
-Een belasting toegevoegde waarde die in enkele landen of regio´s wordt geheven.
+Een belasting toegevoegde waarde (btw) die in enkele landen of regio´s wordt geheven.
 
 ### <a name="i"></a>**I**
 
@@ -368,11 +369,11 @@ Een signaal waarmee de behoefte aan een hoeveelheid product wordt gecommuniceerd
 
 ###### <a name="kanban-flow"></a>**kanbanwerkstroom**
 
-Definieert de reeks activiteiten die wordt uitgevoerd voor kanbans die worden gemaakt voor een kanbanregel.
+Hiermee wordt de volgorde gedefinieerd van activiteiten die worden uitgevoerd voor kanbans die voor een kanbanregel zijn gemaakt.
 
 ###### <a name="kanban-job"></a>**kanbantaak**
 
-Een proces of transferactiviteit in een productiestroom die wordt geactiveerd door een kanban.
+Een door een kanban geactiveerd proces of geactiveerde overdrachtsactiviteit in een productiestroom.
 
 ###### <a name="kanban-job-consumption"></a>**kanbantaakverbruik**
 
@@ -388,7 +389,7 @@ Een regel in een systeem voor Lean Manufacturing dat zorgt voor de materiaalplan
 
 ### <a name="l"></a>**L**
 
-###### <a name="lean-manufacturing"></a>**Lean manufacturing**
+###### <a name="lean-manufacturing"></a>**lean manufacturing**
 
 Een filosofie waarin productiebewerkingen lean productiestromen en zakelijke activiteiten kunnen promoten.
 
@@ -406,13 +407,13 @@ Een alfanumerieke sleutel die een partij het recht geeft software of softwarecom
 
 ###### <a name="liquidity"></a>**liquiditeit**
 
-De mogelijkheden van een partij om huidige activa te gebruiken om de vlottende passiva te vereffenen.
+De mogelijkheid van een partij om huidige activa te gebruiken om de vlottende passiva te vereffenen.
 
 ### <a name="m"></a>**M**
 
 ###### <a name="manufacturing-overhead-based-on-material"></a>**productieoverhead op basis van materiaal**
 
-Een productieoverhead wordt weergegeven als berekeningsformule voor indirecte kosten voor een toeslagpercentage. Een kostengroep die aan materiaalonderdelen is toegewezen, fungeert als de basis voor een berekeningsformule. Berekeningsformules kunnen worden gedefinieerd voor afzonderlijke producten of voor artikelgroepen die aan producten zijn toegewezen, voor meer flexibiliteit bij het berekenen van productieoverhead die op materialen is gebaseerd.
+Productieoverhead wordt weergegeven als berekeningsformule voor indirecte kosten voor een toeslagpercentage. Een kostengroep die aan materiaalonderdelen is toegewezen, fungeert als de basis voor een berekeningsformule. Berekeningsformules kunnen worden gedefinieerd voor afzonderlijke producten of voor artikelgroepen die aan producten zijn toegewezen, voor meer flexibiliteit bij het berekenen van productieoverhead die op materialen is gebaseerd.
 
 ###### <a name="master-scheduling"></a>**hoofdplanning**
 
@@ -430,7 +431,7 @@ Een model is een groep elementen (bronbestanden en metagegevens) die een distrib
 
 ###### <a name="nbv-net-book-value"></a>**NBW (nettoboekwaarde)**
 
-De waarde van een vast activum die wordt berekend als het verschil tussen de oorspronkelijke kosten van het vaste activum en de totale afschrijvingen.
+De waarde van een vast activum berekend als het verschil tussen de oorspronkelijke kosten van het vaste activum minus de totale afschrijvingen.
 
 ### <a name="o"></a>**O**
 
@@ -448,17 +449,17 @@ De fysieke producten die het resultaat zijn van een activiteit.
 
 ###### <a name="overlayering"></a>**overlappen**
 
-Een methode om broncode aan te passen door nieuwe broncode te bieden die de standaardbroncode overschrijft.
+Een methode om broncode aan te passen door nieuwe broncode op te geven die de standaardbroncode overschrijft.
 
 ### <a name="p"></a>**P**
 
-###### <a name="package"></a>**verpakking**
+###### <a name="package"></a>**pakket**
 
-Een pakket is een compileerbare en inzetbare eenheid van een of meer modellen.
+Een pakket is een compileerbare en implementeerbare eenheid van een of meer modellen.
 
 ###### <a name="party"></a>**partij**
 
-Een rechtspersoon die een wettelijk verbindende rol krijgt wanneer deze deelneemt aan contractuele relaties.
+Een entiteit die een wettelijk bindende rol krijgt wanneer deze deelneemt aan contractuele relaties.
 
 ###### <a name="party"></a>**partij**
 
@@ -478,7 +479,7 @@ Een artikel dat is geproduceerd maar niet is opgeslagen in voorraad.
 
 ###### <a name="planned-intercompany-demand"></a>**geplande intercompany-vraag**
 
-De voorspelde vraag naar een product door een rechtspersoon die de rol van leverancier aanneemt. De geplande vraag wordt gegenereerd op basis van de geplande vraag naar het product van een rechtspersoon stroomafwaarts.
+De voorspelde vraag naar een product door een rechtspersoon die de rol van leverancier aanneemt. De geplande vraag wordt gegenereerd op basis van de geplande vraag naar het product van een downstreamrechtspersoon.
 
 ###### <a name="post"></a>**boeken**
 
@@ -510,7 +511,7 @@ Een unieke groepering artikelen, services of rechten die ofwel deel uitmaken van
 
 ###### <a name="product-master"></a>**productmodel**
 
-Een standaard of functionele representatie van een product die de basis vormt voor de configuratie van productvarianten.
+Een standaard of functionele representatie van een product, die de basis vormt voor de configuratie van productvarianten.
 
 ###### <a name="product-receipt"></a>**productontvangstbon**
 
@@ -532,7 +533,7 @@ De representatie van de productiecapaciteit die wordt verzorgd door een groep we
 
 Een brondocument waarmee de vereisten voor het produceren van artikelen wordt gedocumenteerd om aan de vraag te voldoen.
 
-###### <a name="production-schedule"></a>**productieschema**
+###### <a name="production-schedule"></a>**productieplanning**
 
 Een planning om een specifiek artikel en hoeveelheid artikelen te maken op een specifieke tijd en met behulp van specifiek personeel en operationele resources.
 
@@ -584,7 +585,7 @@ Een record dat wordt gebruikt voor het vastleggen van de operationele, juridisch
 
 Een product dat wordt gereguleerd door een overheidsinstelling waarvoor conformiteits- en controlerapportage vereist is.
 
-###### <a name="rfq-request-for-quotation"></a>**Offerteaanvraag**
+###### <a name="rfq-request-for-quotation"></a>**offerteaanvraag**
 
 Een brondocument met het verzoek om een aanbod te doen voor het leveren van een bepaalde hoeveelheid producten voor een specifieke prijs en op een specifieke datum.
 
@@ -596,7 +597,7 @@ De persoon die de economische middelen heeft aangevraagd.
 
 Een product waarvan de distributie aan beperkingen is onderworpen door een overheidsinstelling.
 
-### <a name="s"></a>**Z**
+### <a name="s"></a>**S**
 
 ###### <a name="sales-agreement"></a>**verkoopovereenkomst**
 
@@ -604,11 +605,11 @@ Een brondocument waarin een overeenkomst wordt gedocumenteerd tussen één of me
 
 ###### <a name="sales-agreement-policy"></a>**verkoopovereenkomstbeleid**
 
-Een beleid waardoor partijen worden geautoriseerd om de voorwaarden van een verkoopovereenkomst te wijzigen.
+Een beleid waarmee partijen worden geautoriseerd om de voorwaarden van een verkoopovereenkomst te wijzigen.
 
 ###### <a name="sales-order-policy"></a>**verkooporderbeleid**
 
-Een beleid waardoor de partijen worden geautoriseerd om de voorwaarden van verkooporders te wijzigen en de orderverwerking en het betalingsproces nader te bepalen.
+Een beleid waarmee de partijen worden geautoriseerd om de voorwaarden van verkooporders te wijzigen en de orderverwerking en het betalingsproces nader te bepalen.
 
 ###### <a name="sales-quotation"></a>**verkoopofferte**
 
@@ -620,15 +621,15 @@ Een gedefinieerde verzameling bevoegdheden voor toegang tot een toepassing. De b
 
 ###### <a name="segregation-of-duties"></a>**scheiding van taken**
 
-Een ontwerpprincipe dat wordt gebruikt om het risico van fraude, onregelmatigheden en fouten te reduceren waarbij de functies vastleggen, verifiëren, autoriseren, bewaren van activa en uitvoeren van periodieke controle worden gescheiden van de personen die deelnemen aan de financiële gevolgen van economische transacties, deze documenteren of vastleggen.
+Een ontwerpprincipe dat wordt gebruikt om het risico van fraude, onregelmatigheden en fouten te reduceren waarbij de functies voor vastleggen, verifiëren, autoriseren, bewaren van activa en uitvoeren van periodieke controle worden gescheiden van de personen die deelnemen aan de financiële gevolgen van economische transacties, deze documenteren of vastleggen.
 
 ###### <a name="sequencing"></a>**sequentiëren**
 
 De volgorde waarin taken worden verwerkt of bewerkingen worden uitgevoerd in een productiefaciliteit om de doelstellingen te behalen.
 
-###### <a name="shared-asset"></a>**gedeelde activum**
+###### <a name="shared-asset"></a>**gedeeld activum**
 
-Activa die worden gebruikt door meer dan één kasstroomgenererende eenheid (KGE). Een voorbeeld is een distributiecentrum dat wordt gebruikt om artikelen op te slaan voordat ze naar verschillende markten worden vervoerd die hetzelfde distributiecentrum delen.
+Een activum dat wordt gebruikt door meer dan één kasstroomgenererende eenheid (KGE). Een voorbeeld is een distributiecentrum dat wordt gebruikt om artikelen op te slaan voordat ze naar verschillende markten worden vervoerd die hetzelfde distributiecentrum delen.
 
 ###### <a name="single-use-kanban"></a>**kanban voor enkelvoudig gebruik**
 
@@ -642,7 +643,7 @@ Een marketingpraktijk voor het bepalen van prijzen die gebruik maakt van oneven 
 
 De producthoeveelheid die is gedocumenteerd in een regel van het brondocument waarmee een behoeftetracering wordt gemaakt.
 
-###### <a name="statistical-baseline-forecast"></a>**Statistische basislijnprognose**
+###### <a name="statistical-baseline-forecast"></a>**statistische basislijnprognose**
 
 Een raming van de toekomstige vraag die is berekend door een prognosealgoritme uit te voeren op de historische transactiegegevens.
 
@@ -654,23 +655,23 @@ Een just-in-time-voorraadlocatie met een eindige capaciteit die wordt gebruikt o
 
 Een financiële dimensie die is toegewezen aan een tabel of weergave in de database die een entiteitstype vertegenwoordigt waarvan de waarden zich in het domein van één kenmerk van dat entiteitstype bevinden.
 
-### <a name="t"></a>**D**
+### <a name="t"></a>**T**
 
 ###### <a name="takt-time"></a>**takttijd**
 
 De tijd die nodig is om één eenheid van een product te produceren.
 
-###### <a name="task-guide"></a>**Taakbegeleiding**
+###### <a name="task-guide"></a>**Taakbegeleider**
 
-Een gecontroleerde, begeleide ervaring door de stappen in een taakregistratie. Een taakbegeleiding begeleidt de gebruiker door de ervaring die is geregistreerd. Alle beveiliging, gegevens en toepassingsgedrag zijn hetzelfde wanneer u een taakbegeleiding uitvoert als zonder de taakbegeleiding. De taakbegeleiding gebruikt dezelfde instrumentatie als Taakregistratie om te bepalen wanneer een gebruiker de beoogde stap heeft voltooid, zodat de gebruiker kan worden aangezet om de volgende stap in de registratie te ondernemen.
+Een gecontroleerde, begeleide ervaring door de stappen in een taakregistratie. Een taakbegeleider begeleidt de gebruiker door de ervaring die is geregistreerd. Alle beveiligings-, gegevens- en toepassingsgedragingen zijn hetzelfde, ongeacht of een taakbegeleider uitvoert. De taakbegeleider gebruikt dezelfde instrumentatie als Taakregistratie om te bepalen wanneer een gebruiker de beoogde stap heeft voltooid, zodat de gebruiker kan worden aangezet om de volgende stap in de registratie te ondernemen.
 
-###### <a name="task-recorder"></a>**Taakregistratie**
+###### <a name="task-recorder"></a>**Taakrecorder**
 
-Een hulpmiddel dat vooraf is geïnstalleerd in Dynamics 365 for Operations. Bij het registreren, registreert het alle gebeurtenissen die de gebruiker in de Dynamics 365 for Operations-gebruikersinterface invoert die worden uitgevoerd op de server - inclusief toegevoegde waarden, gewijzigde instellingen, verwijderde gegevens, enzovoort.
+Een hulpmiddel dat vooraf is geïnstalleerd in Dynamics 365 for Operations. Tijdens de registratie worden met dit hulpmiddel alle gebeurtenissen geregistreerd die de gebruiker in de Dynamics 365 for Operations-gebruikersinterface invoert die worden uitgevoerd op de server - inclusief toegevoegde waarden, gewijzigde instellingen, verwijderde gegevens, enzovoort.
 
-###### <a name="task-recording"></a>**Taakregistratie**
+###### <a name="task-recording"></a>**taakregistratie**
 
-Een bestand dat de acties en de aantekeningen bevat die worden vastgelegd wanneer Taakregistratie in Microsoft Dynamics 365 for Operations wordt uitgevoerd.
+Een bestand dat de acties en de aantekeningen bevat die worden vastgelegd wanneer Taakrecorder in Microsoft Dynamics 365 for Operations wordt uitgevoerd.
 
 ###### <a name="three-way-matching-policy"></a>**drieweg-overeenstemmingsbeleid**
 
@@ -678,7 +679,7 @@ Een overeenstemmingsbeleid waarvoor één of meer prijzen van een leveranciersfa
 
 ###### <a name="transfer-batch"></a>**overboekingsbatch**
 
-De hoeveelheid van één of meer artikelen die is overgeboekt of die kan worden overgeboekt.
+De hoeveelheid van één of meer artikelen, die is overgeboekt of die kan worden overgeboekt.
 
 ###### <a name="two-way-matching-policy"></a>**tweeweg-overeenstemmingsbeleid**
 
@@ -694,15 +695,15 @@ Een financiële dimensie die wordt toegewezen aan een door de gebruiker gedefini
 
 ###### <a name="value-stream"></a>**waardestroom**
 
-Een bewerkingseenheid waarmee één of meer productiestromen worden beheerd.
+Een operationele eenheid waarmee één of meer productiestromen worden beheerd.
 
 ###### <a name="variant-configuration-technology"></a>**technologie voor variantconfiguratie**
 
-Een methode voor het ontwerpen van productmodelen en het zoeken naar configuraties voor productvarianten.
+Een methode voor het ontwerpen van productmodellen en het zoeken naar configuraties voor productvarianten.
 
-###### <a name="vat-value-added-tax"></a>**Btw (belasting toegevoegde waarde)**
+###### <a name="vat-value-added-tax"></a>**btw (belasting toegevoegde waarde)**
 
-Een belasting op producten op elk stadium van het productieproces die is gebaseerd op de waarde die in dat stadium is toegevoegd.
+Een belasting op producten op elk stadium van het productieproces, die is gebaseerd op de waarde die in dat stadium is toegevoegd.
 
 ###### <a name="vendor-catalog"></a>**leverancierscatalogus**
 
@@ -724,7 +725,7 @@ Een persoon die de rol aanneemt van een werknemer of een contractant en die word
 
 ###### <a name="workspace"></a>**werkgebied**
 
-Een pagina met een overzicht van een van de activiteiten die de gebruiker uitvoert. De pagina gebruikt tegels, lijsten en grafieken voor de weergave van werk in behandeling en gerelateerde gegevens van meerdere bronnen, en de frequente taken voor het paginaoppervlak met betrekking tot deze gegevens. Tegels die worden weergegeven in de overzichtssectie van de werkruimte worden tevens weergegeven weergegeven in de gerelateerde sectie in het dashboard.
+Een pagina met een overzicht van een van de activiteiten die de gebruiker uitvoert. Op de pagina worden tegels, lijsten en grafieken gebruikt voor de weergave van werk in behandeling en gerelateerde gegevens van meerdere bronnen, en op de pagina worden de frequente taken met betrekking tot deze gegevens weergegeven. Tegels die worden weergegeven in de overzichtsectie van het werkgebied worden tevens weergegeven in de gerelateerde sectie in het dashboard.
 
 
 
