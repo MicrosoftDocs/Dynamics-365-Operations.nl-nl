@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 0a716310a3b813e08d46ac609e8ac6ce9a2db3e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5f3d0e2016a3ffe5500ecae9508d44a115c56880
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ De belastingdienst heeft een artikel met speciale heffingen belast. De heffingsb
 -   BTW = 25%, met de berekeningsmethode Percentage van brutobedrag
 
 Is het nettobedrag 10,00, dan HEFFING 1 = 1,00 (10,00 x 10%) en HEFFING 2 = 2,00 (10,00 x 20%). De bedragen zijn als volgt: Brutobedrag: nettobedrag + HEFFING 1 bedrag + HEFFING 2 bedrag (10,00 + 1,00 + 2,00) = 13,00 BTW = 13,00 x 25% = 3,25 Totaal HEFFINGEN en BTW: 1,00 + 2,00 + 3,25 = 6,25 Totaalbedrag: 10,00 + 6,25 = 16,25
-| **Opmerking **                                                                                                                                                                                                                 |
+| **Opmerking**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Slechts één btw-code met Oorsprong = Percentage van brutobedrag kan voor een transactie worden gebruikt. Als meerdere dergelijke btw-codes voor een transactie worden gedefinieerd wordt een fout weergegeven dat de btw niet kan worden berekend. |
 
@@ -68,7 +69,7 @@ Uitgaande van de volgende btw-codes:
 -   BTW = 25%, met de methode Percentage van brutobedrag
 
 Nettobedrag: 10,00 HEFFING 1: 10,00 x 10% = 1,00 HEFFING 2: 1,00 x 20% = 0,20 Brutobedrag: 10,00 + 1,00 + 0,20 = 11,20 BTW: 11,20 x 25% = 2,80 Totaal HEFFINGEN en BTW: 1,00 + 0,20 + 2,80 = 4,00 Totaalbedrag: 10,00 + 4,00 = 14,00
-| **Opmerking **                                                                                                                                                                                                                    |
+| **Opmerking**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Belasting op meerdere niveaus in belastingberekeningen is niet mogelijk. Een belasting kan niet worden berekend op basis van een belasting die al op basis van een andere belasting wordt berekend. Er kunnen meerdere één-niveau-belastingen op btw-codes worden berekend voor een transactie. |
 
@@ -77,7 +78,7 @@ Wanneer u Bedrag per eenheid in het veld Oorsprong selecteert, wordt de btw als 
 ### <a name="example"></a>Voorbeeld
 
 Btw-code is ingesteld als: USD 1,20 per eenheid = doos Op een verkoopfactuurregel worden 25 dozen van een artikel verkocht Btw wordt berekend als 25 x 1,20 = 30,00
-| **Opmerking **                                                                                                                                                                                                 |
+| **Opmerking**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als de transactie in een andere eenheid wordt ingevoerd dan de eenheid die is opgegeven voor de btw-code, wordt deze automatisch omgezet op basis van de eenheidsomrekeningen die in de pagina Eenheidsomrekeningen zijn ingesteld. |
 

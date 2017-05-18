@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 68cac68e1ea3db35b44c91f2c1901abf2aa521be
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b79b21c6c4ceebfd24225643d099a2e2789d303
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ De manier waarop de productieplanningen worden berekend, wordt bepaald door vers
 
 De planningsrichting is cruciaal voor het planningsproces. Een productie kan vanaf elke datum voorwaarts of achterwaarts worden gepland, afhankelijk van de tijd- en planningsvereisten.
 
--   **Voorwaarts plannen ** – U kunt de productie zo plannen dat deze zo vroeg mogelijk begint. De productie kan vandaag, morgen of op een specifieke datum in de toekomst van start gaan. De productie moet op een zo vroeg mogelijke datum beginnen en wordt vooruit gepland naar een zo vroeg mogelijke einddatum.
+-   **Voorwaarts plannen** – U kunt de productie zo plannen dat deze zo vroeg mogelijk begint. De productie kan vandaag, morgen of op een specifieke datum in de toekomst van start gaan. De productie moet op een zo vroeg mogelijke datum beginnen en wordt vooruit gepland naar een zo vroeg mogelijke einddatum.
 -   **Achterwaarts plannen** – U kunt de productie zo plannen dat deze zo laat mogelijk begint. De planning is gebaseerd op de datum waarop de productie moet zijn voltooid en telt achterwaarts naar de laatst mogelijke datum dat de productie kan worden begonnen zonder de gestelde deadline te missen.
 
 De volgende opties zijn beschikbaar:
@@ -98,7 +99,7 @@ Als er verwijzingen afhankelijk zijn van productieorders, staan deze ook bekend 
 
 ### <a name="synchronize-references"></a>Verwijzingen synchroniseren
 
-U kunt verwijzingen synchroniseren met de productieorder. Als deze optie is geselecteerd, worden de datums van de subproducties verschoven en afgestemd wanneer wijzigingen worden aangebracht in de planning van de productieorder. Als een productieorder een of meer subproducties heeft, kunt u deze beter tegelijk met de subproducties plannen. In dat geval kan de hoofdproductie pas kan worden gestart nadat de bijbehorende subproducties zijn voltooid. Schakel daarom dit selectievakje in als het plannen van subproducties moet worden gebaseerd op de begin- en eindtijden van de geselecteerde productie. U kunt dit selectievakje alleen inschakelen als het selectievakje** Verwijzingen plannen** ook is geselecteerd.
+U kunt verwijzingen synchroniseren met de productieorder. Als deze optie is geselecteerd, worden de datums van de subproducties verschoven en afgestemd wanneer wijzigingen worden aangebracht in de planning van de productieorder. Als een productieorder een of meer subproducties heeft, kunt u deze beter tegelijk met de subproducties plannen. In dat geval kan de hoofdproductie pas kan worden gestart nadat de bijbehorende subproducties zijn voltooid. Schakel daarom dit selectievakje in als het plannen van subproducties moet worden gebaseerd op de begin- en eindtijden van de geselecteerde productie. U kunt dit selectievakje alleen inschakelen als het selectievakje**Verwijzingen plannen** ook is geselecteerd.
 
 ## <a name="cancellation"></a>Annulering
 ### <a name="cancel-queue-time"></a>Wachttijd annuleren

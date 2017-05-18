@@ -3,7 +3,7 @@ title: Veldomschrijvingen weergeven en exporteren
 description: In dit artikel wordt beschreven hoe veldbeschrijvingen worden weergegeven en hoe de pagina Veldbeschrijvingen kan worden gebruikt van om beschrijvingen te exporteren.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: d4fc9cdee0e2160e363f9defcf6bdbc57ed4db74
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3029cb441d124e6e5aa427f7fcd95540700254c6
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Veldomschrijvingen weergeven en exporteren
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt beschreven hoe veldbeschrijvingen worden weergegeven en hoe de pagina Veldbeschrijvingen kan worden gebruikt van om beschrijvingen te exporteren.
 
@@ -80,11 +84,11 @@ Deze sectie bevat informatie om u te helpen problemen op te lossen die u kunt te
 
 ### <a name="i-cant-find-a-field-description"></a>Ik kan geen veldomschrijving vinden
 
-We zijn bezig met het toevoegen van omschrijvingen voor de complexere velden. Als u hulp nodig hebt voor een bepaald veld, laat dit ons dan weten door een opmerking voor dit wiki-artikel toe te voegen.
+We zijn bezig met het toevoegen van omschrijvingen voor de complexere velden. Als u hulp nodig hebt voor een bepaald veld, laat dit ons dan weten door een opmerking voor dit onderwerp toe te voegen.
 
 ### <a name="the-field-description-isnt-helpful"></a>De veldomschrijving is niet nuttig
 
-Laat ons dit weten door een opmerking voor dit wiki-artikel toe te voegen. Beschrijf, indien mogelijk, de aanvullende informatie die u nodig hebt.
+Laat ons dit weten door een opmerking voor dit onderwerp toe te voegen. Beschrijf, indien mogelijk, de aanvullende informatie die u nodig hebt.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Ik kan een veld op de pagina in Veldbeschrijvingen niet vinden.
 
@@ -97,6 +101,9 @@ Zie de sectie 'Zoeken naar pagina's' eerder in dit artikel voor meer informatie 
 <a name="see-also"></a>Zie ook
 --------
 
-[Help voor velden aanpassen](https:/docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/user-interface/customize-field-help.md)
+[Help voor velden aanpassen](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

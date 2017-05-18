@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -149,7 +150,7 @@ Algemeen gesproken worden hogere rangen toegekend aan specifieke regels en regel
 
 De regel met rang 0 dient als vangnet. Als geen andere regels van toepassing zijn, worden de standaardorderinstellingen van regel 0 gebruikt. 
 
-Omdat het rangnummer zo belangrijk is, vindt u in het actievenster **Standaard orderinstellingen ** functies om een regel omhoog of omlaag te verplaatsen en de regels nieuwe nummers te geven, zodat deze altijd oplopen in stappen van 10. 
+Omdat het rangnummer zo belangrijk is, vindt u in het actievenster **Standaard orderinstellingen** functies om een regel omhoog of omlaag te verplaatsen en de regels nieuwe nummers te geven, zodat deze altijd oplopen in stappen van 10. 
 
 Er kunnen veel regels worden aangemaakt voor een vrijgegeven product. Om beter te begrijpen wat elke regel overschrijft en waarom dit nodig is, wordt het aangeraden om de **Rasterweergave** op de pagina **Standaard orderinstellingen** te gebruiken. U kunt de rasterweergave inschakelen door naar het actievenster **Opties** &gt; **Paginaopties** &gt; **Weergave wijzigen** &gt; **Rasterweergave** te gaan. In het raster kan een aanzienlijk aantal kolommen worden weergegeven, met name op de tabbladen voor verkoop en voorraad. U kunt het aantal in het raster zichbare kolommen beperken door groepen van kolommen te verbergen of weer te geven met de knoppen op de pagina **Standaardorderinstellingen** &gt; **Kolomweergave**.
 

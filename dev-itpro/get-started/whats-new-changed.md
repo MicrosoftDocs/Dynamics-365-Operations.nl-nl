@@ -3,33 +3,37 @@ title: Wat is nieuw of gewijzigd
 description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versie van Microsoft Dynamics 365 for Operation.
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Core
+ms.search.scope: Operations, Core
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0d954043c461975a70f9e0ab867f30cadd9800b5
-ms.openlocfilehash: 2896a11f79d5cbb00137a439e0a2c8caaee705a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed"></a>Wat is nieuw of gewijzigd
 
+[!include[banner](../includes/banner.md)]
+
+
 Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versie van Microsoft Dynamics 365 for Operation.
 
-Als u Dynamics AX wilt bijwerken naar de meest recente versie, zie dan [Proces voor het bijwerken naar nieuwste update van Dynamics 365 for Operations](/migration-upgrade/upgrade-latest-update.md).
+Als u Dynamics AX wilt bijwerken naar de meest recente versie, zie dan [Proces voor het bijwerken naar nieuwste update van Dynamics 365 for Operations](../migration-upgrade/upgrade-latest-update.md).
 <table>
 <colgroup>
 <col width="20%" />
@@ -50,15 +54,24 @@ Als u Dynamics AX wilt bijwerken naar de meest recente versie, zie dan [Proces v
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations platform</td>
+<td>Platformupdate 6</td>
+<td> 7.0.4509.16180</td>
+<td>2017 april</td>
+<td><a href="whats-new-platform-update-6.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 6 (april 2017)</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Operations platform</td>
+<td>Platformupdate 5</td>
+<td> 7.0.4475.16165</td>
+<td>2017 maart</td>
+<td><a href="whats-new-platform-update-5.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 5 (maart 2017)</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Operations platform</td>
 <td>Platformupdate 4</td>
-<td>7.0.4425.16160</td>
+<td> 7.0.4425.16161</td>
 <td>2017 februari</td>
-<td><ol>
-<li>Ga naar de <a href="https://roadmap.dynamics.com/">Dynamics 365-routekaart</a>.</li>
-<li>Selecteer het tabblad <strong>Nieuw</strong>.</li>
-<li>Selecteer in de sectie <strong>Toepassingen</strong> de waarde <strong>Dynamics 365 for Operations</strong>.</li>
-<li>Selecteer in de sectie <strong>Gebieden</strong> de waarde <strong>Cloudplatform</strong>.</li>
-</ol></td>
+<td><a href="whats-new-platform-update-4.md">Wat is nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 4 (februari 2017)</a></td>
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Operations</td>
@@ -111,6 +124,8 @@ Als u Dynamics AX wilt bijwerken naar de meest recente versie, zie dan [Proces v
 </tr>
 </tbody>
 </table>
+
+
 
 
 

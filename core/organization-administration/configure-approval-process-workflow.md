@@ -3,7 +3,7 @@ title: Een goedkeuringsproces configureren in een workflow
 description: Met behulp van de volgende procedure kunt u de eigenschappen van het goedkeuringsproces configureren.
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Een goedkeuringsproces configureren in een workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 Met behulp van de volgende procedure kunt u de eigenschappen van het goedkeuringsproces configureren.
 
@@ -132,7 +136,7 @@ Mogelijk wilt u een definitieve fiatteur aanduiden voor gevallen waarin de fiatt
 
 ## <a name="set-a-time-limit"></a>Een tijdslimiet instellen
 Volg deze stappen als het goedkeuringsproces binnen een opgegeven tijd moet worden voltooid.
-| **Opmerking **                                                                                                                                                |
+| **Opmerking**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De opties die u in deze stappen selecteert, overschrijven de opties die u in de gebieden **Toewijzing** en **Escalatie** van elke goedkeuringsstap hebt geselecteerd. |
 
@@ -155,13 +159,15 @@ Wanneer een document voor goedkeuring is toegewezen aan een gebruiker, moet de g
 4.  Schakel het selectievakje **Wijziging aanvraag** in als u wilt dat de gebruiker wijzigingen in het document kan aanvragen.
 5.  Schakel het selectievakje **Delegeren** in als de gebruiker het document ter goedkeuring aan een andere gebruiker kan toewijzen.
 
-**Opmerking**: het selectievakje**Acties van de werklijst in Enterprise Portal activeren ** is verwijderd.
+**Opmerking**: het selectievakje**Acties van de werklijst in Enterprise Portal activeren** is verwijderd.
 
 ## <a name="configure-the-approval-steps"></a> De goedkeuringsstappen configureren
 Een goedkeuringsproces bestaat uit goedkeuringsstappen. Voer de volgende procedures uit om stappen aan het goedkeuringsproces toe te voegen en de stappen te configureren.
 1.  Dubbelklik in de workfloweditor op het goedkeuringsproces. De workfloweditor geeft de stappen van het goedkeuringsproces weer.
 2.  Sleep de goedkeuringsstappen die u wilt toevoegen van het gebied **Workflowelementen** naar het tekenpapier.
-3.  Zie [Een goedkeuringsstap configureren](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/) als u een goedkeuringsstap wilt configureren.
+3.  Zie [Een goedkeuringsstap configureren](configure-approval-step-workflow.md) als u een goedkeuringsstap wilt configureren.
+
+
 
 
 

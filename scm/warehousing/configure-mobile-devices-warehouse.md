@@ -3,7 +3,7 @@ title: Mobiele apparaten voor magazijnwerk instellen
 description: In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten voor magazijnwerk instellen
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 
@@ -315,7 +319,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 </tr>
 <tr class="even">
 <td>Voorraadstatus weergeven</td>
-<td>Selecteer deze optie als u de status van artikelen op voorraad wilt weergeven. Voor meer informatie, zie <a href="/inventory/inventory-statuses.md">Voordelen van het gebruik van voorraadstatussen</a>. Deze optie is beschikbaar voor alle menuopties die het bestaande werk, behalve het cyclus tellen gebruiken.</td>
+<td>Selecteer deze optie als u de status van artikelen op voorraad wilt weergeven. Deze optie is beschikbaar voor alle menuopties die het bestaande werk, behalve het cyclus tellen gebruiken.</td>
 </tr>
 <tr class="odd">
 <td>Samenvatting van orderverzamelscherm weergeven</td>
@@ -412,5 +416,7 @@ In de volgende tabel worden de verschillende werktypen beschreven waarbij u werk
 [Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder (taakbegeleiding)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
 [Een menuopdracht van mobiel apparaat instellen om de ontvangen artikelen te registreren (taakbegeleiding)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Voordelen van het gebruik van voorraadstatussen](../inventory/inventory-statuses.md)
+
 
 

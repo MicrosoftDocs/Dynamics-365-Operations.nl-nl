@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI-inhoud voor verkoop- en winstgevendheidsprestaties
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt beschreven wat het Microsoft Power BI-inhoudpakket Verkoop- en winstgevendheidsprestaties voor Dynamics 365 for Operations bevat. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
 
@@ -44,6 +48,7 @@ De winstgevendheid kan worden geanalyseerd op de volgende factoren:
 
 ## <a name="accessing-the-content-pack"></a>Toegang tot het inhoudpakket
 Het Power BI-inhoudpakket Verkoop- en winstgevendheidprestaties wordt gepubliceerd als een implementatieactivum in Lifecycle Services (LCS). U hebt er toegang toe vanuit Dynamics 365 for Operations. Zie voor meer informatie over toegang tot en het openen van Power BI-rapporten [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
+**Opmerking:** KB 4011327 is een vereiste voor deze Power BI-inhoud. Nadat u zich bij Lifecycle Services hebt aangemeld, kunt u de KB hier openen: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Metrische gegevens die zijn opgenomen in het inhoudpakket
 Het inhoudpakket bevat een rapport dat uit reeks metrische gegevens bestaat, die worden gevisualiseerd als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties die in het inhoudpakket worden gebruikt.
@@ -110,6 +115,8 @@ Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten e
 -   [Organisatorische inhoudpakketten maken](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI-tegels toevoegen aan werkruimten](configure-power-bi-integration.md)
+
+
 
 
 

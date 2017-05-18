@@ -3,7 +3,7 @@ title: Aan de slag
 description: Begin hier om snel aan de slag te gaan en kennis te maken met de gebruikersinterface van Microsoft Dynamics 365 for Operations.
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>Aan de slag
+
+[!include[banner](../includes/banner.md)]
+
 
 Begin hier om snel aan de slag te gaan en kennis te maken met de gebruikersinterface van Microsoft Dynamics 365 for Operations.
 
@@ -36,7 +40,7 @@ De volgende bronnen bevatten een overzicht van hoe u met uw partner kunt samenwe
 - [Microsoft FastTrack for Dynamics 365: overzicht](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [Aanmelden voor een abonnement](../dev-tools/sign-up-preview-subscription.md) 
 - [Lifecycle Services (LCS) voor Microsoft Dynamics 365 for Operations-klanten](../lifecycle-services/lcs-works-lcs.md) 
-- [Hoe klanten die Microsoft Dynamics 365 for Operations via een cloudserviceprovider hebben aangeschaft, de lokale versie van Dynamics 365 for Operations 2012 kunnen verkrijgen](../deployment/csp-download-customersource.md)
+- [Hoe klanten die Microsoft Dynamics 365 for Operations via een cloudserviceprovider hebben aangeschaft, de lokale versie van Dynamics AX 2012 kunnen verkrijgen](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Gebruikersinterface
 De volgende bronnen bevatten informatie over de Dynamics 365 for Operations-gebruikerservaring. 
@@ -71,12 +75,12 @@ Taakregistratie is een hulpmiddel in Dynamics 365 for Operations dat u kunt gebr
 <a name="see-also"></a>Zie ook
 --------
 
-[Creating New Training Libraries for Dynamics 365 for Operations within Lifecycle Services using the Task Recorder (externe koppeling)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Nieuwe taakbegeleiders (februari 2016)](new-task-guides-available-february-2016.md)
 
 [Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Nieuwe of bijgewerkte taakbegeleiders (november 2016)](new-task-guides-november-2016.md)
+
+
 
 

@@ -3,7 +3,7 @@ title: Een parallelle activiteit in een workflow configureren
 description: Voer de volgende procedures uit in de workfloweditor om een parallelle activiteit te configureren.
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 818fb054742b935d002a7341e54a37eca0bb4761
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce3fca9d2dbca046232365b1375bfd920d5b10fd
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>Een parallelle activiteit in een workflow configureren
+
+[!include[banner](../includes/banner.md)]
+
 
 Voer de volgende procedures uit in de workfloweditor om een parallelle activiteit te configureren.
 
@@ -41,11 +45,13 @@ Voer deze stappen uit om een naam op te geven voor een parallelle activiteit.
 Voer deze stappen uit om de vertakkingen van deze parallelle activiteit toe te voegen en te configureren.
 1.  Dubbelklik op de parallelle activiteit om de vertakkingen van de parallelle activiteit weer te geven.
 2.  Om een vertakking toe te voegen, sleept u het element **Vertakking**van het gebied **Workflowelementen** naar een invoegpunt op het tekenpapier. De volgende afbeelding geeft een invoegpunt weer.![Invoegpunt](./media/workflow_insertionpoint.gif)
-    | **Opmerking **                                                                                                         |
+    | **Opmerking**                                                                                                         |
     |------------------------------------------------------------------------------------------------------------------|
     | De volgorde van de vertakkingen is niet belangrijk, omdat alle vertakkingen van een parallelle activiteit op hetzelfde moment worden uitgevoerd. |
 
-3.  Zie voor configureren van elke vertakking [Een parallelle vertakking configureren](http://axhelp.dynamics.com/en/wiki/configure-a-parallel-branch/).
+3.  Zie voor configureren van elke vertakking [Een parallelle vertakking configureren](configure-parallel-branch-workflow.md).
+
+
 
 
 

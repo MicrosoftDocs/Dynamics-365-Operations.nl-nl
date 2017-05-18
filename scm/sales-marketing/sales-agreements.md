@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 4dd1eae27ae33837fbab16f764083168578d0a29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69535f07cadda4f17bb5d846132ffe614495553e
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -44,8 +45,8 @@ U kunt een verkooporder direct van een verkoopovereenkomst maken door de actie *
 ## <a name="commitment-types"></a>Toezeggingstypen
 Elke regel in een verkoopovereenkomst staat voor een toezegging om iets te verkopen. In het algemeen zijn er twee soorten toezegging:
 
--   **Waardetoezegging **- de klant gaat ermee akkoord om producten voor een specifiek bedrag te kopen.
--   **Hoeveelheidstoezegging **- de klant gaat ermee akkoord om een specifieke hoeveelheid producten te kopen.
+-   **Waardetoezegging**- de klant gaat ermee akkoord om producten voor een specifiek bedrag te kopen.
+-   **Hoeveelheidstoezegging**- de klant gaat ermee akkoord om een specifieke hoeveelheid producten te kopen.
 
 Bovendien kan met een contract worden toegezegd dat de klant een bepaald product of producten in een productcategorie koopt. Door deze twee factoren (waarde versus hoeveelheid, en specifieke producten versus productcategorieën) te combineren, hebben we vier typen toezeggingen:
 

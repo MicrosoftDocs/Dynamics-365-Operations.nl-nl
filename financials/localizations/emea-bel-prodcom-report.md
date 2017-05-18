@@ -17,10 +17,11 @@ ms.search.region: Belgium
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f7fd20ef0c78bc781f0ef9f17fc612723906ac78
-ms.openlocfilehash: 8dc30a4dcf22eaa2fb5403ba479fb8f533472d03
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8db1364414546aa003b5545bc15efe40e7803d65
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---

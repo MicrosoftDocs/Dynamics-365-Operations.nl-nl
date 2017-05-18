@@ -3,7 +3,7 @@ title: Magazijnconfiguratie
 description: In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangegeven hoe u een magazijnindeling en magazijnprocessen inschakelt.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,19 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Magazijnconfiguratie
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangegeven hoe u een magazijnindeling en magazijnprocessen inschakelt.
 
-**Opmerking:** dit artikel is van toepassing op de functies in de module** Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module** Voorraadbeheer**.
+**Opmerking:** dit artikel is van toepassing op de functies in de module **Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
 
 ## <a name="warehouse-layout"></a>Magazijnindeling
 Het magazijnbeheersysteem in Microsoft Dynamics 365 for Operations biedt u flexibele manieren om uw magazijnindeling te definiëren voor het wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
@@ -58,7 +62,7 @@ De rechtspersonen die u maakt om uw magazijnindeling te definiëren, worden gebr
 
 U moet rekening houden met de fysieke indeling van het magazijn, zowel om opslagcapaciteiten (locatie-opslaglimieten en locatieprofielen) te definiëren en als onderdeel van uw pogingen om optimale magazijnprocessen te bereiken. 
 
-Opslaglimieten van locaties helpen ervoor te zorgen dat geen werk wordt gemaakt om te verzoeken dat voorraad wordt geplaatst op een locatie die niet de fysieke capaciteit voor die voorraad heeft. Als in sommige locaties in een magazijn bijvoorbeeld alleen plaats is voor één pallet per locatie, kunt u de locatie-opslagbeperkingen inschakelen. De waarde van **Hoeveelheid **kan worden ingesteld op **1** en de **Eenheid **kan worden ingesteld op **PL** in een specifieke locatieprofielgroep. 
+Opslaglimieten van locaties helpen ervoor te zorgen dat geen werk wordt gemaakt om te verzoeken dat voorraad wordt geplaatst op een locatie die niet de fysieke capaciteit voor die voorraad heeft. Als in sommige locaties in een magazijn bijvoorbeeld alleen plaats is voor één pallet per locatie, kunt u de locatie-opslagbeperkingen inschakelen. De waarde van **Hoeveelheid** kan worden ingesteld op **1** en de **Eenheid **kan worden ingesteld op **PL** in een specifieke locatieprofielgroep. 
 
 Als meer geavanceerdere berekeningen vereist zijn om de locatiecapaciteitsbeperkingen te controleren, kunt u de locatieprofielinstellingen gebruiken. In dit geval worden het gewicht en volume in aanmerking genomen bij de capaciteitsberekeningen. 
 
@@ -66,7 +70,7 @@ Om optimale uitgaande processen te bereiken, dient u te bepalen of u orderverzam
 
 ### <a name="location-setup-wizard"></a>Wizard voor locatie-instelling
 
-Als u de locaties in een magazijn snel wilt maken, kunt u de wizard **Locatie-instelling **gebruiken. Als onderdeel van dit proces kunt u de indeling van de locatienamen eenvoudig beheren.
+Als u de locaties in een magazijn snel wilt maken, kunt u de wizard **Locatie-instelling** gebruiken. Als onderdeel van dit proces kunt u de indeling van de locatienamen eenvoudig beheren.
 
 ## <a name="warehouse-processes"></a>Magazijnprocessen
 Als onderdeel van de configuratie van het magazijn is het belangrijk dat u magazijnprocessen overeenkomstig de bedrijfsbehoeften inschakelt. De belangrijkste onderdelen die u moet configureren zijn wavesjablonen, werksjablonen, werkgroepen en locatierichtlijnen.
@@ -75,7 +79,12 @@ Als onderdeel van de configuratie van het magazijn is het belangrijk dat u magaz
 
 Wavesjablonen helpen om het uitgaande proces "wavesjablonen " in te schakelen. Wanneer de orderregels worden vrijgegeven (rechtstreeks uit brondocumenten, via batchtaakprocessen of via ladingen die al zijn gemaakt), wordt de wavesjabloonfunctionaliteit gebruikt. 
 
-U kunt drie typen wavesjablonen maken: **Verzending**, **Productieorder** en **Kanban**. De parameters worden gebruikt om te bepalen hoe ver het systeem automatisch moet gaan bij de uitgaande werkverwerking. Een wavesjabloon wordt geselecteerd op basis van de volgorde en criteria van het wavesjabloon die zijn opgegeven in het sjabloon. Als een sjabloon bovenaan de volgorde staat, worden de criteria in die sjabloon eerst gecontroleerd. Als aan de criteria kan worden voldaan, wordt de wavesjabloon verwerkt. Anders worden de criteria in het volgende sjabloon gecontroleerd, enzovoort. Daarom is het een goed idee om het sjabloon met de meest specifieke criteria bovenaan de wavesjabloonvolgordelijst te zetten, zodat het eerst wordt verwerkt. U wilt bijvoorbeeld al het werk voor een specifieke vervoerder vandaag verwerken en de verwerking van het werk voor andere voor vervoerders tijdelijk vertragen. In dit geval moet de wavesjabloon die het werk voor die vervoerder selecteert hoger in de volgorde worden weergegeven dan andere sjablonen. Anders wordt het werk voor andere vervoerders mogelijk verwerkt voordat het werk voor die vervoerder is voltooid. 
+U kunt drie typen wave-sjablonen maken: 
+-   **Verzending**
+-   **Productieorder**
+-   **Kanban** 
+
+De parameters worden gebruikt om te bepalen hoe ver het systeem automatisch moet gaan bij de uitgaande werkverwerking. Een wavesjabloon wordt geselecteerd op basis van de volgorde en criteria van het wavesjabloon die zijn opgegeven in het sjabloon. Als een sjabloon bovenaan de volgorde staat, worden de criteria in die sjabloon eerst gecontroleerd. Als aan de criteria kan worden voldaan, wordt de wavesjabloon verwerkt. Anders worden de criteria in het volgende sjabloon gecontroleerd, enzovoort. Daarom is het een goed idee om het sjabloon met de meest specifieke criteria bovenaan de wavesjabloonvolgordelijst te zetten, zodat het eerst wordt verwerkt. U wilt bijvoorbeeld al het werk voor een specifieke vervoerder vandaag verwerken en de verwerking van het werk voor andere voor vervoerders tijdelijk vertragen. In dit geval moet de wavesjabloon die het werk voor die vervoerder selecteert hoger in de volgorde worden weergegeven dan andere sjablonen. Anders wordt het werk voor andere vervoerders mogelijk verwerkt voordat het werk voor die vervoerder is voltooid. 
 
 U moet de waveprocesmethoden in elk wavesjabloon opgeven. Welke methoden beschikbaar zijn, is afhankelijk van het wavesjabloontype.
 
@@ -107,6 +116,8 @@ Om het gemakkelijker en sneller te maken om de acties te definiëren die zijn ge
 <a name="see-also"></a>Zie ook
 --------
 
-[Locaties in een WMS-magazijn configureren](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/) (taakbegeleiding)
+[Locaties in een WMS-magazijn configureren](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/) (taakbegeleiding)
+
+
 
 

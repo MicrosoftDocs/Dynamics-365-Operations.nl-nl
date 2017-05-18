@@ -1,6 +1,6 @@
 ---
 title: Nieuwe taakbegeleidingen (februari 2016)
-description: Deze wiki geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics 365 for Operations (februari 2016) en Aan de slag (februari 2016).
+description: Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics 365 for Operations (februari 2016) en Aan de slag (februari 2016).
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,24 +16,28 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 6462951cba3c289368887a037d4b71187f4523df
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9e6620c1f4c808646e6f5c3b9f5b607c64c51df
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Nieuwe taakbegeleidingen (februari 2016)
 
-Deze wiki geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics 365 for Operations (februari 2016) en Aan de slag (februari 2016).
+[!include[banner](../includes/banner.md)]
+
+
+Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics 365 for Operations (februari 2016) en Aan de slag (februari 2016).
 
 <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Taakbegeleidingen in de APQC Unified Library (februari 2016) voor Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
 
 De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Dynamics 365 for Operations versie 7.0.0. Als u gelokaliseerde versies van deze taakbegeleidingen nodig hebt, zijn deze beschikbaar in de APQC Unified Library (mei 2016) voor Microsoft Dynamics 365 for Operations. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
 
-### <a name="accounts-payable"></a>Leveranciers    
+### <a name="accounts-payable"></a>Leveranciers
 
 |                                                           |                    |
 |-----------------------------------------------------------|--------------------|
@@ -723,5 +727,7 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 [Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Nieuwe of bijgewerkte taakbegeleiders (november 2016)](new-task-guides-november-2016.md)
+
+
 
 

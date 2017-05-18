@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nieuwe of gewijzigde functies in Dynamics AX 7.0 (februari 2016)
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel worden de functies beschreven die in de huidige uitgave van Microsoft Dynamics AX 7.0 nieuw of gewijzigd zijn. Deze versie bevat zowel platform- als toepassingsfuncties en werd uitgebracht in februari 2016.
 
@@ -47,7 +51,7 @@ In dit artikel worden de functies beschreven die in de huidige uitgave van Micro
 <td>Kostencontrollers willen graag weten of de toename of de voorraadbalans of OHW-voorraadbalans in de loop van de tijd toe- of afneemt. Door operationele gebeurtenissen in het overzicht te classificeren, kan de kostencontroller zien welke kant het met de voorraad opgaat. Als de voorraad of OHW-voorraad wordt gewaardeerd op standaardkosten, kan de algemene geregistreerde afwijking eveneens worden bekeken.</td>
 </tr>
 <tr class="odd">
-<td>Gebruik de module<strong> Kostenbeheer</strong>.</td>
+<td>Gebruik de module <strong>Kostenbeheer</strong>.</td>
 <td>Niet van toepassing</td>
 <td>Kostenbeheer wordt geïntroduceerd als domeingebied. De kostengerelateerde configuratie en inzicht waren verspreid over Voorraadbeheer, Productiebeheer en Leveranciers.</td>
 <td>Omdat alle taken die verband houden met kostenbeheer in een module zijn gecentraliseerd, wordt het eenvoudiger voor kostencontrollers om het systeem te onderhouden.</td>
@@ -331,8 +335,8 @@ Deze functie werkt onafhankelijk van kostprijsberekeningmethodes die aan het gep
 <tr class="even">
 <td>Gebruik begeleide procedurele Help (taakbegeleidingen) en concepuele onderwerpen door op **Help** te klikken.</td>
 <td>Het Help-systeem van AX 2012 wijst de weg naar HTML-onderwerpen die op een lokale webserver zijn opgeslagen. Klanten en partners kunnen hun eigen Help maken.</td>
-<td>Het Help-systeem in de huidige versie van AX geeft taakbegeleidingen weer die zijn opgeslagen in de BPM van Microsoft Dynamics Lifecycle Services (LCS). Het Help-systeem geeft ook onderwerpen van de Microsoft-wiki weer. Zie voor meer informatie [Help bij Dynamics AX - Aan de slag](help-overview.md) en [Nieuwe taakbegeleidingen beschikbaar (februari 2016)](new-task-guides-available-february-2016.md).</td>
-<td>De taakbegeleidingen bieden een interactieve geleide ervaring die u door de stappen van een taak of een bedrijfsproces leidt. U kunt de taakbegeleidingen die Microsoft biedt downloaden en aanpassen. De wiki biedt een snellere en flexibelere manier om productdocumentatie te maken, leveren en bijwerken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.</td>
+<td>Het Help-systeem in de huidige versie van AX geeft taakbegeleidingen weer die zijn opgeslagen in de BPM van Microsoft Dynamics Lifecycle Services (LCS). Het Help-systeem geeft ook onderwerpen van de MicrosoftDocs-site weer. Zie voor meer informatie [Help bij Dynamics AX - Aan de slag](help-overview.md) en [Nieuwe taakbegeleidingen beschikbaar (februari 2016)](new-task-guides-available-february-2016.md).</td>
+<td>De taakbegeleidingen bieden een interactieve geleide ervaring die u door de stappen van een taak of een bedrijfsproces leidt. U kunt de taakbegeleidingen die Microsoft biedt downloaden en aanpassen. Het onderwerp biedt een snellere en flexibelere manier om productdocumentatie te maken, leveren en bijwerken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.</td>
 </tr>
 </tbody>
 </table>
@@ -1076,5 +1080,7 @@ Geen nieuwe functies zijn toegevoegd.
 [Wat is nieuw of gewijzigd](whats-new-changed.md)
 
 [Nieuwe taakbegeleidingen beschikbaar (februari 2016)](new-task-guides-available-february-2016.md)
+
+
 
 

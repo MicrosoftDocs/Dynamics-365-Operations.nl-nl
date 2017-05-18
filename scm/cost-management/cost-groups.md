@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 1a8cbe01bb774ac7fc4aac721dca00674852197f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3592f3c076681c5b755b62383212bbe6d158f62d
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,7 +51,7 @@ Kostengroepsegmentatie kan ook van toepassing zijn op afwijkingen voor een stand
 Aan een kostengroep kunnen een kostengroeptype en gedrag voor extra segmentatie worden toegewezen.
 
 -   **Kostengroeptype** − aan elke kostengroep moet een kostengroeptype worden toegewezen, waarmee wordt aangegeven dat de kostengroep van toepassing is op directe materialen, directe productie of directe outsourcing of om aan te geven dat deze indirect of ongedefinieerd is. Een kostengroep waarvoor is aangegeven dat directe materialen aan artikelen kunnen worden toegewezen. Een kostengroep voor directe productie kan aan kostencategorieën worden toegewezen. Een kostengroep directe outsourcing kan aan een producttype service worden toegewezen, zodat u kosten kunt classificeren die aan de inkoop van services voor uitbestedingsactiviteiten zijn gekoppeld. Een indirecte-kostengroep kan worden toegewezen aan indirecte kosten voor toeslagen of tarieven. Een kostengroep die is ingesteld als ongedefinieerd, kan worden toegewezen aan artikelen, kostencategorieën of indirecte kosten. Een kostengroeptype wordt toegewezen voor verschillende doeleinden. Allereerst kunnen er minder kostengroepen worden toegewezen en wordt een lijst met toepasselijke kostengroepen weergegeven. Ten tweede biedt de toewijzing extra segmentatie voor rapportagedoeleinden. Tot slot kan toewijzing worden gebruikt om grootboekrekeningen voor afwijkingen toe te wijzen.
--   **Gedrag** − aan elke kostengroep kan desgewenst een gedrag worden toegewezen om aan te geven dat de kostengroep geldt voor vaste of variabele kosten. Kostengroepen met een null-waarde voor gedrag worden beschouwd als variabele kosten. Een gedrag wordt alleen toegewezen voor rapportagedoeleinden. Kosten kunnen bijvoorbeeld worden weergegeven met segmentatie van vaste en variabele kosten in de kostprijsberekening en op de pagina** Kostenvergaring per kostengroep**. Als u een winstinstellingspercentage aan elke kostengroep toewijst, bevat de stuklijstberekening een voorgestelde verkoopprijs op basis van de kostprijs plus een opslagpercentage.
+-   **Gedrag** − aan elke kostengroep kan desgewenst een gedrag worden toegewezen om aan te geven dat de kostengroep geldt voor vaste of variabele kosten. Kostengroepen met een null-waarde voor gedrag worden beschouwd als variabele kosten. Een gedrag wordt alleen toegewezen voor rapportagedoeleinden. Kosten kunnen bijvoorbeeld worden weergegeven met segmentatie van vaste en variabele kosten in de kostprijsberekening en op de pagina**Kostenvergaring per kostengroep**. Als u een winstinstellingspercentage aan elke kostengroep toewijst, bevat de stuklijstberekening een voorgestelde verkoopprijs op basis van de kostprijs plus een opslagpercentage.
 
 
 

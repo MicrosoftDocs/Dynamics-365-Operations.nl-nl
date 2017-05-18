@@ -1,6 +1,6 @@
 ---
 title: Leveranciers configureren
-description: In dit artikel worden de pagina&quot;s beschreven die u gebruikt voor het instellen van algemene en optionele functionaliteit voor Leveranciers in Microsoft Dynamics AX. Daarnaast worden de stappen beschreven die u moet uitvoeren voordat u Leveranciers kunt instellen.
+description: In dit artikel worden de pagina&quot;s beschreven die u gebruikt voor het instellen van algemene en optionele functionaliteit voor Leveranciers in Microsoft Dynamics 365 for Operations. Daarnaast worden de stappen beschreven die u moet uitvoeren voordat u Leveranciers kunt instellen.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 926ee087a0e0c4743f29315b1d82c7d37e95be28
-ms.openlocfilehash: b06623a0eb754654f41c50b92af67dc94a069663
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8581401bfefe4ddf29f32691b5678317e392db96
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel worden de pagina's beschreven die u gebruikt voor het instellen van algemene en optionele functionaliteit voor Leveranciers in Microsoft Dynamics AX. Daarnaast worden de stappen beschreven die u moet uitvoeren voordat u Leveranciers kunt instellen.
+In dit artikel worden de pagina's beschreven die u gebruikt voor het instellen van algemene en optionele functionaliteit voor Leveranciers in Microsoft Dynamics 365 for Operations. Daarnaast worden de stappen beschreven die u moet uitvoeren voordat u Leveranciers kunt instellen.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Vereisten voor het configureren van Leveranciers
 ----------------------------------------
@@ -84,7 +85,7 @@ De aanvullende configuratiepagina's zijn geordend op functionaliteit.
 -   Configureer op de pagina Toeslagcode de codes voor de toeslagen die in inkooporders worden gebruikt.
 -   Maak en beheer op de pagina Toeslaggroep van leverancier de toeslagengroepen voor leveranciers.
 -   Maak en beheer op de pagina Toeslaggroepen van artikel de toeslagengroepen voor artikelen.
--   Definieer op de pagina  Automatische toeslagen de toeslagen die automatisch aan orders worden toegewezen.
+-   Definieer op de pagina Automatische toeslagen de toeslagen die automatisch aan orders worden toegewezen.
 
 **Bijkomende artikelen**
 
@@ -145,6 +146,7 @@ De aanvullende configuratiepagina's zijn geordend op functionaliteit.
 **Contanten en bankbeheer**
 
 -   Configureer op de pagina Betalingsdoelcodes de betalingsdoelcodes van de centrale bank.
+
 
 
 

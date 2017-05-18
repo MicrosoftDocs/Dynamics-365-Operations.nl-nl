@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: fabaacbc7187b38a1745c2139a9eb7760f2be987
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a0a105ade7e47d7c554d62ee112ed03437bb7521
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -54,10 +55,10 @@ Gebruik de ontwerpfunctie voor formulierindelingen om de grafische indeling van 
 5.  Nadat de installatie is voltooid, voert u uw gebruikersnaam en wachtwoord voor Dynamics 365 for Operations in en klikt u op **Aanmelden** om de ontwerper te starten.
 6.  Nadat uw referenties zijn gevalideerd en de ontwerper is gestart, kunt u beginnen met de ontvangstindeling te ontwerpen of een bestaande indeling te wijzigen.
 7.  Voor het maken van de elementen van het formulier selecteert u de sectie **Koptekst**, **Regels** of **Voettekst** en sleept u een element uit die sectie naar de werkruimte. De meeste elementen bevatten variabelen, die automatisch worden gevuld met gegevens uit de database. Met andere elementen, zoals **Tekst**, kunt u aangepaste tekst op het ontvangstbewijs afdrukken. **Opmerking:** U kunt aangeven hoeveel regels elke sectie omvat door het getal te wijzigen in de rechterbenedenhoek van die sectie. Om het gemakkelijker te maken een sectie te veranderen kunt u de hoogte ervan vergroten door de formaatbalk onderaan de sectie te verslepen. De hoogte van de sectie in de werkruimte heeft geen invloed op het aantal regels van het werkelijke ontvangstbewijs.
-8.  Nadat u een element naar de werkruimte hebt gesleept, stelt u in het deelvenster **Objectgegevens **onder aan de pagina de eigenschappen voor het onderdeel in. Voer een of meer van de volgende instellingen in:
+8.  Nadat u een element naar de werkruimte hebt gesleept, stelt u in het deelvenster **Objectgegevens**onder aan de pagina de eigenschappen voor het onderdeel in. Voer een of meer van de volgende instellingen in:
     -   **Uitlijnen**: stel de uitlijning van het veld in op **Links** of **Rechts**.
     -   **Opvulteken** – Het spatieteken opgeven. Standaard wordt een lege positie gebruikt. U kunt echter elk teken invoeren.
-    -   **Voorvoegsel** – Typ de waarde die aan het begin van het veld wordt weergegeven. Deze instelling is slechts van toepassing op het gedeelte **Regels **van de indeling.
+    -   **Voorvoegsel** – Typ de waarde die aan het begin van het veld wordt weergegeven. Deze instelling is slechts van toepassing op het gedeelte **Regels**van de indeling.
     -   **Tekens** – Geef het maximale aantal tekens op dat het veld kan bevatten als het element een variabele bevat. Als de tekst in het veld langer is dan het aantal tekens dat u opgeeft, wordt de tekst ingekort om in het veld te passen.
     -   **Variabele** – Dit selectievakje is automatisch ingeschakeld als dit element een variabele bevat en niet kan worden aangepast.
     -   **Lettertype** – Het lettertype instellen op **Normaal** of **Vet**. Vetgedrukte letters nemen twee maal zoveel plaats in beslag als normale letters. Dit betekent dat sommige tekens mogelijk worden afgekapt.
@@ -67,7 +68,7 @@ Gebruik de ontwerpfunctie voor formulierindelingen om de grafische indeling van 
 De ontvangstprofielen worden direct toegewezen aan printers via het hardwareprofiel.
 
 1.  Open het hardwareprofiel door te klikken op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofiel**.
-2.  Selecteer de printer en wijs vervolgens in het veld **Ontvangstbewijsprofiel ** het ontvangstprofiel toe voor gebruik in het register.
+2.  Selecteer de printer en wijs vervolgens in het veld **Ontvangstbewijsprofiel** het ontvangstprofiel toe voor gebruik in het register.
 
 **Opmerking:** Als twee printers worden gebruikt, kan één printer worden gebruikt om standaard 40 kolom thermische ontvangstbewijzen af te drukken. De tweede printer wordt meestal gebruikt voor het afdrukken van ontvangsttypen van een hele pagina die meer informatie vereisen. Deze ontvangsttypen omvatten de ontvangsten van klantorders en klantfacturen.
 

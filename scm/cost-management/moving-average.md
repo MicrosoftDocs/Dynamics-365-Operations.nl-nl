@@ -3,7 +3,7 @@ title: Zwevend gemiddelde
 description: 
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-03-17 15 - 16 - 47
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,41 +19,38 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: e75016694e63dbc26f8d4c4ae73204966ca28dcf
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: da743efaf03b7a087d797cedb9bb6f4e3d4510ca
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="moving-average"></a>Zwevend gemiddelde
 
+[!include[banner](../includes/banner.md)]
 
 
 De volgende zijn voorwaarden wanneer u gemiddelde kosten als een kostprijsmethode gebruikt.
-1.  Stel op de pagina **Artikelmodelgroepen** een artikelmodelgroep in waarbij Zwevend gemiddelde is geselecteerd in het veld **Voorraadwaarderingsmodel**.
-    | **Opmerking **                                                                                                                                |
-    |-----------------------------------------------------------------------------------------------------------------------------------------|
-    | Standaard worden, als Zwevend gemiddelde is geselecteerd, ook de velden **Fysieke voorraad boeken** en **Financiële voorraad boeken** geselecteerd. |
+1.  Stel op de pagina **Artikelmodelgroepen** een artikelmodelgroep in waarbij Zwevend gemiddelde is geselecteerd in het veld **Voorraadwaarderingsmodel**. **Opmerking:** standaard worden, als Zwevend gemiddelde is geselecteerd, ook de velden **Fysieke voorraad boeken** en **Financiële voorraad boeken** geselecteerd. 
 
 2.  Wijs op de pagina **Boeking** rekeningen toe aan de **Prijsverschil voor zwevend gemiddelde** en **Kostenherwaardering voor zwevend gemiddelde** op het tabblad **Voorraad**. U gebruikt de rekening **Prijsverschil voor zwevend gemiddelde** rekening wanneer kosten proportioneel moeten worden opgevoerd. Dit gebeurt vanwege een verschil in kosten tussen een inkoopontvangst en de inkoopfactuur en vanwege een verschil tussen de oorspronkelijke voorraad en de huidige voorraad. Gebruik de rekening **Kostenherwaardering voor zwevend gemiddelde** wanneer u de zwevende gemiddelde kosten voor een product wilt aanpassen aan een nieuwe eenheidsprijs.
-3.  Wijs op de pagina **Vrijgegeven producten** de zwevend gemiddelde artikelmodelgroep toe aan het product.
-
-| **Opmerking **                                                                                                                                                     |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| De afsluitproces van de voorraad sluit alleen de boekhoudperiode af. Het heeft geen invloed op producten waar een zwevend gemiddelde aan is toegewezen als artikelmodelgroep. |
+3.  Wijs op de pagina **Vrijgegeven producten** de zwevend gemiddelde artikelmodelgroep toe aan het product. **Opmerking:** de afsluitproces van de voorraad sluit alleen de boekhoudperiode af. Het heeft geen invloed op producten waar een zwevend gemiddelde aan is toegewezen als artikelmodelgroep.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Converteren naar de zwevend gemiddelde kostprijsmethode
-Producten kunnen worden geconverteerd zodat de gemiddelde voorraadwaarderingsmethode kan gebruikt worden. Dit type conversie gebeurt gewoonlijk op het einde van het jaar nadat de laatste maand van het huidige jaar is afgesloten. Dit gebeurt met behulp van het huidige kostprijsmodel van het product. U kunt de kostprijsmethode van uw voorraad wijzigen van een kostprijsmethode op basis van de gemiddelde kostprijs of een standaardkostprijs naar een methode die is gebaseerd op het zwevend gemiddelde. Als u de kostprijsmethode van een standaard kostprijsmethode naar een zwevend gemiddeldemethode wijzigt, moet u de volgende taken uitvoeren:
+Producten kunnen worden geconverteerd zodat de gemiddelde voorraadwaarderingsmethode kan gebruikt worden. Dit type conversie gebeurt gewoonlijk op het einde van het jaar nadat de laatste maand van het huidige jaar is afgesloten. Dit gebeurt met behulp van het huidige kostprijsmodel van het product. U kunt de kostprijsmethode van uw voorraad wijzigen van een kostprijsmethode op basis van de gemiddelde kostprijs of een standaardkostprijs naar een methode die is gebaseerd op het zwevend gemiddelde. 
+
+Als u de kostprijsmethode van een standaard kostprijsmethode naar een zwevend gemiddeldemethode wijzigt, moet u de volgende taken uitvoeren:
+
 1.  Maak aanpassingen om de voorraadhoeveelheden en waarden naar 0 (nul) te brengen.
 2.  Nadat de voorraadwaarde en de hoeveelheid 0 (nul) zijn, wijzigt u het zwevend gemiddelde in de artikelmodelgroep.
 3.  Maak aanpassingen om de voorraadhoeveelheden en waarden terug in de voorraad te brengen.
 
 U kunt uw voorraadkostprijsmethode niet wijzigen van een methode voor zwevend gemiddelde naar een FIFO-methode (First In, First Out), een LIFO-methode (Last In, First Out) of een methode voor gewogen gemiddelde.
-| **Opmerking **                                                                      |
-|-------------------------------------------------------------------------------|
-| Het omschakelen van een standaardkostprijs naar een zwevend gewogen gemiddelde is een handmatig proces. |
+
+**Opmerking:** het omschakelen van een standaardkostprijs naar een zwevend gewogen gemiddelde is een handmatig proces.
 
 De volgende voorbeelden illustreren het effect van de zwevend gemiddelde kostprijsmethode. Er zijn vier configuraties:
 -   Inkooporder en proportioneel opgevoerd kostenverschil
@@ -62,7 +59,10 @@ De volgende voorbeelden illustreren het effect van de zwevend gemiddelde kostpri
 -   Zwevend gemiddelde met een achterstallige transactie
 
 ## <a name="purchase-order-and-proportionally-expensed-cost-difference"></a>Inkooporder en proportioneel opgevoerd kostenverschil
-Bij zwevend gemiddelde worden de kosten van het product bepaald door de inkoopontvangst. Wanneer de inkoopfactuur is geboekt en er is een verschil in kosten tussen de inkoopontvangst en de inkoopfactuur, dan wordt het verschil wordt proportioneel aangepast aan de huidige producten in voorraad en wordt een eventueel resterend bedrag als last opgenomen. In dit voorbeeld wordt een inkooporder gemaakt en ontvangen tegen een kostprijs en wordt de inkoopfactuur geboekt met een andere kostprijs.
+Bij zwevend gemiddelde worden de kosten van het product bepaald door de inkoopontvangst. Wanneer de inkoopfactuur is geboekt en er is een verschil in kosten tussen de inkoopontvangst en de inkoopfactuur, dan wordt het verschil wordt proportioneel aangepast aan de huidige producten in voorraad en wordt een eventueel resterend bedrag als last opgenomen. 
+
+In dit voorbeeld wordt een inkooporder gemaakt en ontvangen tegen een kostprijs en wordt de inkoopfactuur geboekt met een andere kostprijs.
+
 1.  Maak een inkooporder voor een hoeveelheid van 2 en een eenheidsprijs van 10,00.
 2.  Maak een inkoopontvangst van het product.
 3.  Maak een verkooporder voor een hoeveelheid van 1 en een eenheidsprijs van 10,00.
@@ -71,38 +71,34 @@ Bij zwevend gemiddelde worden de kosten van het product bepaald door de inkoopon
 Het verschil in eenheidsprijs, 2,00, wordt geboekt naar de rekening Prijsverschil voor zwevend gemiddelde wanneer de inkoopfactuur is geboekt. De reden hiervoor is dat twee producten zijn gekocht aan een kostprijs van 20,00. Een van de producten is verkocht voor een eenheidsprijs van 10,00. De inkoopfactuur is geboekt tegen een eenheidsprijs van 12,00 met een hoeveelheid van 2. De eenheidsprijs van het product kan niet tegen 14,00 worden geboekt.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Aanpassen van zwevend gemiddelde product en voorraad
-Als u de zwevend gemiddelde kostprijs van een product wilt aanpassen, zijn voorraadherwaarderingen toegestaan op de huidige datum. U kunt een voorraadaanpassing niet met terugwerkende kracht aanpassen om de zwevend gemiddelde kostprijs van een product te corrigeren. U de kost niet door opeenvolgend transacties laten passeren. In dit voorbeeld wordt de zwevend gemiddelde kostprijs aangepast voor een product.
-1.  Selecteer het product waarvoor u de zwevend gemiddelde kost wilt aanpassen.
-    | **Opmerking**                                                                                    |
-    |---------------------------------------------------------------------------------------------|
-    | De pagina **Herwaardering voor zwevend gemiddelde **controleert de beschikbare voorraad voor een product. |
+Als u de zwevend gemiddelde kostprijs van een product wilt aanpassen, zijn voorraadherwaarderingen toegestaan op de huidige datum. U kunt een voorraadaanpassing niet met terugwerkende kracht aanpassen om de zwevend gemiddelde kostprijs van een product te corrigeren. U de kost niet door opeenvolgend transacties laten passeren. 
 
-    Het geselecteerde product heeft een geboekte hoeveelheid 1, een geboekte een waarde van 12,00, een geboekte kostprijs van 12,00 en een eenheidskost van 12,00.
+In dit voorbeeld wordt de zwevend gemiddelde kostprijs aangepast voor een product.
+
+1.  Selecteer het product waarvoor u de zwevend gemiddelde kost wilt aanpassen. **Opmerking:** de pagina **Herwaardering voor zwevend gemiddelde** controleert de beschikbare voorraad voor een product. Het geselecteerde product heeft een geboekte hoeveelheid 1, een geboekte een waarde van 12,00, een geboekte kostprijs van 12,00 en een eenheidskost van 12,00.
 2.  Werk het veld **Eenheidskosten** bij naar 16,00. Het systeem berekent de overige velden.
 3.  De aanpassing is geboekt.
 
-| **Opmerking **                                                        |
-|-----------------------------------------------------------------|
-| U kunt alleen de zwevend gemiddelde kosten van de huidige datum aanpassen. |
+**Opmerking:** u kunt alleen de zwevend gemiddelde kosten van de huidige datum aanpassen.
 
 Op de pagina **Vereffeningen voor boekstuk** kunt u zien dat een correctie van 4,00 is geboekt naar de rekening Kostenherwaardering voor zwevend gemiddelde.
 
 ## <a name="moving-average-with-production"></a>Zwevend gemiddelde met productie
-Zwevend gemiddelde ondersteunt geproduceerde artikelen. Als u van plan bent om zwevend gemiddelde in een productieomgeving te gebruiken, moet de schuifregelaar **De geschatte kostprijs gebruiken** op de pagina **Parameters van productiecontrole **worden geselecteerd. Dit betekent dat de kostprijs die wordt berekend tijdens de raming wordt gebruikt in plaats van de werkelijke kostprijs van de stuklijstberekening.
+Zwevend gemiddelde ondersteunt geproduceerde artikelen. Als u van plan bent om zwevend gemiddelde in een productieomgeving te gebruiken, moet de schuifregelaar **De geschatte kostprijs gebruiken** op de pagina **Parameters van productiecontrole** worden geselecteerd. Dit betekent dat de kostprijs die wordt berekend tijdens de raming wordt gebruikt in plaats van de werkelijke kostprijs van de stuklijstberekening.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Zwevend gemiddelde met een achterstallige transactie
 Indien backdated transacties worden toegewezen, worden de zwevend gemiddelde kosten en de fysieke hoeveelheid van het product bijgewerkt maar wordt de zwevend gemiddelde kost niet beïnvloed. In dit voorbeeld van zwevend gemiddelde wordt een backdated transactie voor een zwevend gemiddeldeproduct geboekt.
+
 1.  Maak een voorraadcorrectie voor het zwevend gemiddeldeproduct voor een hoeveelheid van 1 en de kosten van 20,00.
 2.  De voorraadtransactiegeschiedenis voor het product zou er als volgt uitzien:
     -   Een voorraadtransactie 1, kosten van 16,00, een boekingsdatum 15 januari en de transactiedatum 15 januari.
     -   Een voorraadcorrectie van 1, kosten van 20,00, een boekingsdatum 1 januari en de transactiedatum 15 januari.
-
 3.  De correctie boeken.
 
 Op de pagina **Voorraadtransacties** ziet u dat 4,00 als kosten zijn opgevoerd aangezien het huidig zwevend gemiddelde voor het product 16,00 is. U kunt boeken in het verleden, maar het verschil in kosten wordt als last opgenomen, waardoor de zwevend gemiddelde kostprijs niet wordt beïnvloed.
 
 ## <a name="inventory-value-report"></a>Voorraadwaardenrapport
-In dit voorbeeld van zwevend gemiddelde wordt het voorraadwaarderapport afgedrukt ter ondersteuning van de berekening van het huidige zwevend gemiddelde voor een product. Het rapport Voorraadwaarde kan de transacties in chronologische volgorde afdrukken, samen met de kosten ter ondersteuning van de zwevend gemiddelde kostenberekening van een product. Het rapport bevat de zwevend gemiddelde kosten voor het product. In het dialoogvenster **Voorraadwaardenrapporten**, kunt u via een datuminterval de **transactietijd** of de **boekingsdatum** selecteren om het rapport op te sorteren. Gewoonlijk wordt het rapport afgedrukt via de optie **Boekingsdatum**. De optie **Transactietijd** is de werkelijke datum waarop de transactie wordt gerapporteerd en waarop de zwevend gemiddelde kosten voor het product worden bijgewerkt. U kunt het rapport Voorraadwaarde afdrukken met de sorteeroptie** Transactietijd** als u de gemiddelde kostprijsberekening gedurende een bepaalde tijd wilt bekijken. De volgende tabel geeft de transacties voor het product weer die op het rapport zullen worden afgedrukt indien de sorteeroptie **Transactietijd** wordt gebruikt.
+In dit voorbeeld van zwevend gemiddelde wordt het voorraadwaarderapport afgedrukt ter ondersteuning van de berekening van het huidige zwevend gemiddelde voor een product. Het rapport Voorraadwaarde kan de transacties in chronologische volgorde afdrukken, samen met de kosten ter ondersteuning van de zwevend gemiddelde kostenberekening van een product. Het rapport bevat de zwevend gemiddelde kosten voor het product. In het dialoogvenster **Voorraadwaardenrapporten**, kunt u via een datuminterval de **transactietijd** of de **boekingsdatum** selecteren om het rapport op te sorteren. Gewoonlijk wordt het rapport afgedrukt via de optie **Boekingsdatum**. De optie **Transactietijd** is de werkelijke datum waarop de transactie wordt gerapporteerd en waarop de zwevend gemiddelde kosten voor het product worden bijgewerkt. U kunt het rapport Voorraadwaarde afdrukken met de sorteeroptie **Transactietijd** als u de gemiddelde kostprijsberekening gedurende een bepaalde tijd wilt bekijken. De volgende tabel geeft de transacties voor het product weer die op het rapport zullen worden afgedrukt indien de sorteeroptie **Transactietijd** wordt gebruikt.
 
 | Transactietijd | Datum         | Transactietype           | De hoeveelheid | Bedrag | Gemiddelde eenheidskosten |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
@@ -114,11 +110,9 @@ In dit voorbeeld van zwevend gemiddelde wordt het voorraadwaarderapport afgedruk
 | 8 oktober        | 8 oktober    | Herwaardering zwevend gemiddelde |          | 4,00   | 16,00             |
 |                  | 31 oktober   | Totaal                      | 2        | 32,00  | 16,00             |
 
- 
+ **Opmerking:** u kunt het grootboek niet op de voorraad afstemmen met de sorteeroptie **Transactietijd**. Het rapport moet worden afgedrukt met behulp van de optie **Boekingsdatum** .
 
-| **Opmerking **                                                                                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| U kunt het grootboek niet op de voorraad afstemmen met de sorteeroptie **Transactietijd**. Het rapport moet worden afgedrukt met behulp van de optie **Boekingsdatum** . |
+
 
 
 

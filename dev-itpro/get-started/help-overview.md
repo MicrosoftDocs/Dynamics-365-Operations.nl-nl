@@ -3,7 +3,7 @@ title: Help-overzicht
 description: Dit artikel biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren.
 author: margoc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 240060606c8a2955c3f0a0d47fb25b0cde64c187
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="help-overview"></a>Help-overzicht
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren. 
 
@@ -37,18 +41,18 @@ Microsoft Dynamics 365 for Operations bevat een Help-systeem dat op twee hoofdon
 U kunt zowel artikelen als taakbegeleiders openen via het deelvenster Help in Dynamics 365 for Operations, zoals wordt weergegeven in de volgende schermopname. [![Help-deelvenster](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) In dit artikel wordt het Help-systeem beschreven en wordt uitgelegd hoe u aangepaste documentatie- en trainingsbronnen voor uw organisatie kunt maken.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Help op docs.microsoft.com
-De site docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) is de primaire bron van de productdocumentatie voor Dynamics 365 for Operations. De site biedt de volgende functies:
+De site docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) is de primaire bron van de productdocumentatie voor Dynamics 365 for Operations. De site biedt de volgende functies:
 
 -   **Toegang tot de meest recente inhoud**: de site biedt ons een snellere en flexibelere manier om productdocumentatie te maken, leveren en bij te werken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.
--    **Inhoud die door deskundigen is geschreven**: de site bevat een uitgebreidere set productdocumentatie die door communityleden in en buiten Microsoft kan worden verbeterd.
--   Toegang tot verschillende typen inhoud: via de site hebt u snel toegang tot verschillende typen inhoud over Dynamics 365 for Operations, zoals Microsoft Office Mix-presentaties, taakbegeleiders, video's en wiki-artikelen.
--    **Inhoud die uw bedrijfsprocessen ondersteunt**: de site bevat op bedrijfsprocessen gerichte inhoud die profiteert van de Business Process Modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).
+-   **Inhoud die door deskundigen is geschreven**: de site bevat een uitgebreidere set productdocumentatie die door communityleden in en buiten Microsoft kan worden verbeterd.
+-   **Toegang tot verschillende typen inhoud**: via de site hebt u snel toegang tot verschillende typen inhoud over Dynamics 365 for Operations, zoals Microsoft Office Mix-presentaties, taakbegeleiders, video's en onderwerpen.
+-   **Inhoud die uw bedrijfsprocessen ondersteunt**: de site bevat op bedrijfsprocessen gerichte inhoud die profiteert van de Business Process Modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).
 
 We hebben alle inhoud van onze vorige Help-wiki gemigreerd naar documenten. We zijn erg blij met onze nieuwe site en we hopen dat u dat ook zult zijn.
 
 ### <a name="when-can-we-use-it"></a>Wanneer kunnen we de wiki gebruiken?
 
-U kunt de inhoud in documenten nu lezen. Deze is geheel openbaar en doorzoekbaar, en u hoeft zich niet aan te melden. U kunt al uw favoriete zoekprogramma's gebruiken om te zoeken naar inhoud. U kunt desgewenst opmerkingen plaatsen op artikelen op de website door aan te melden met een GitHub-account.
+U kunt de inhoud in documenten nu lezen. Deze is geheel openbaar en doorzoekbaar, en u hoeft zich niet aan te melden. U kunt al uw favoriete zoekprogramma's gebruiken om te zoeken naar inhoud. U kunt desgewenst opmerkingen plaatsen over artikelen op de website door zich aan te melden.
 
 
 ## <a name="task-guides"></a>Taakbegeleidingen
@@ -68,7 +72,7 @@ Zie voor meer informatie over Taakrecorder [Taakrecorder in Dynamics 365 for Ope
 U kunt uw eigen taakregistraties maken, of u kunt taakregistraties die Microsoft levert, downloaden en aanpassen. Zo kunt u aangepaste Help voor uw organisatie maken die uw specifieke implementatie van Dynamics 365 for Operations reflecteert. Om een taakregistratie in het deelvenster Help van Dynamics 365 for Operations weer te geven en af te spelen als een taakbegeleider, moet u de registratie opslaan in een BPM-bibliotheek in LCS. Als u een partner bent en een bibliotheek propageert als bedrijfsbibliotheek en deze in een oplossing opneemt, wordt deze beschikbaar voor uw klanten. Zie [Taakregistraties gebruiken om documentatie of een training te maken](../user-interface/task-recorder.md) voor volledige instructies.
 
 ## <a name="in-product-help"></a>Help in het product
-Voor toegang tot de Help-inhoud in Dynamics 365 for Operations klikt u op het pictogram **Help** (**?**) en kiest u vervolgens Help of drukt u op Ctrl+Shift+?. In beide gevallen wordt het deelvenster Help geopend. Via het deelvenster Help kunt u artikelen of taakbegeleiders openen. [![](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Voor toegang tot de Help-inhoud in Dynamics 365 for Operations klikt u op het pictogram **Help** (**?**) en kiest u vervolgens Help of drukt u op Ctrl+Shift+?. In beide gevallen wordt het deelvenster Help geopend. Via het deelvenster Help kunt u artikelen of taakbegeleiders openen. [![Deelvenster Help](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Artikelen openen via het deelvenster Help
 
@@ -83,7 +87,7 @@ Voordat u taakbegeleiders via het deelvenster Help kunt openen, moet een Systeem
 
 [![Formulier Systeemparameters met Help-instellingen](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Voer de volgende stappen uit op de pagina **Systeemparameters**:
 
-1.  **Belangrijk: **De eerste keer dat u het Help-tabblad opent, moet u verbinding maken met Lifecycle Services. Zorg ervoor dat u op de koppeling in het midden van het formulier klikt, wacht op de verbinding, sluit het dialoogvenster en klik op OK om het parameterformulier op te halen.[![Verbinden met LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+1.  **Belangrijk:** de eerste keer dat u het Help-tabblad opent, moet u verbinding maken met Lifecycle Services. Zorg ervoor dat u op de koppeling in het midden van het formulier klikt, wacht op de verbinding, sluit het dialoogvenster en klik op OK om het parameterformulier op te halen.[![Verbinden met LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
 2.  Selecteer het project Lifecycle Services om verbinding mee te maken.
 3.  Selecteer de BPM-bibliotheken (in het geselecteerde project) om taakregistraties op te halen.
 4.  Stel de weergavevolgorde van de BPM-bibliotheken in. Dit bepaalt de volgorde waarin de taakregistraties uit de bibliotheken verschijnen in het deelvenster Help.
@@ -101,13 +105,13 @@ De volgende tabel bevat een lijst met websites die inhoud van Dynamics 365 for O
 
 | Vestiging                                                                     | Omschrijving                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Docs.microsoft.com](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) | Host of koppelt naar alle productdocumentatie voor Dynamics 365 for Operations.                                                                                                                                                               |
-| [](http://lcs.dynamics.com/en/)Lifecycle Services\*                      | Biedt werkruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om Dynamics 365 for Operations-projecten te beheren van pre-sales tot implementatie en operations. Deze site is handig in alle fasen van een implementatie. |
+| [Docs.microsoft.com](/dynamics365/#pivot=solutions&panel=solutions_operations) | Host of koppelt naar alle productdocumentatie voor Dynamics 365 for Operations.                                                                                                                                                               |
+| [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | Biedt werkruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om Dynamics 365 for Operations-projecten te beheren van pre-sales tot implementatie en operations. Deze site is handig in alle fasen van een implementatie. |
 | [CustomerSource](http://www.customersource.com/)\*                       | Host uitgebreide trainingsbronnen en is de primaire ondersteuningssite voor Dynamics 365 for Operations. Aanmelden kan nodig zijn om toegang te krijgen tot bepaalde bronnen op de site.                                                                      |
 | [Ondersteuningsblog](http://aka.ms/AXSupportBlog)                              | Geeft tips en trucs die door het Dynamics 365 for Operations-ondersteuningsteam worden geplaatst.                                                                                                                                                  |
 | [MSDN](http://aka.ms/AXMSDN)                                             | Host inhoud van vorige releases dat voor ontwikkelaars is geschreven.                                                                                                                                                                       |
 | [TechNet](http://aka.ms/TechNet)                                         | Host inhoud van vorige releases tevreden die is geschreven door IT-professionals en toepassingsgebruikers.                                                                                                                                           |
-| [Dynamics Community](http://community.dynamics.com/en/)                  | Host blogs, forums en video's.                                                                                                                                                                                                           |
+| [Dynamics Community](http://community.dynamics.com/)                  | Host blogs, forums en video's.                                                                                                                                                                                                           |
 | [Microsoft.com/Dynamics/](http://www.microsoft.com/dynamics/)                 | Biedt evaluatie- en verkoopinformatie.                                                                                                                                                                                                 |
 
 
@@ -125,6 +129,8 @@ De volgende tabel bevat een lijst met websites die inhoud van Dynamics 365 for O
 [Nieuwe of bijgewerkte taakbegeleiders (augustus 2016)](new-updated-task-guides-available-august-2016.md)
 [Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)
 [Nieuwe taakbegeleiders (februari 2016)](new-task-guides-available-february-2016.md)
+
+
 
 
 

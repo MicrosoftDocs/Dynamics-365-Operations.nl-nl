@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Er worden verschillende typen bestemmingen ondersteund. U kunt alle typen tegeli
 
 ### <a name="email-destination"></a>E-mailbestemming
 
-Stel **Ingeschakeld **in op **Ja** om een uitvoerbestand per e-mail te verzenden. Nadat deze optie is ingeschakeld, kunt u de ontvangers van het e-mailbericht opgeven en het onderwerp en de tekst van het e-mailbericht bewerken. U kunt constante teksten voor het onderwerp en de hoofdtekst van het e-mailbericht instellen of u kunt ER-formules gebruiken om e-mailteksten dynamisch te maken. U kunt e-mailadressen voor ER op twee manieren configureren. De configuratie kan op dezelfde manier worden uitgevoerd als met de functie voor afdrukbeheer in Dynamics 365 for Operations. U kunt een e-mailadres ook herleiden met behulp van een directe verwijzing naar de ER-configuratie via een formule.
+Stel **Ingeschakeld**in op **Ja** om een uitvoerbestand per e-mail te verzenden. Nadat deze optie is ingeschakeld, kunt u de ontvangers van het e-mailbericht opgeven en het onderwerp en de tekst van het e-mailbericht bewerken. U kunt constante teksten voor het onderwerp en de hoofdtekst van het e-mailbericht instellen of u kunt ER-formules gebruiken om e-mailteksten dynamisch te maken. U kunt e-mailadressen voor ER op twee manieren configureren. De configuratie kan op dezelfde manier worden uitgevoerd als met de functie voor afdrukbeheer in Dynamics 365 for Operations. U kunt een e-mailadres ook herleiden met behulp van een directe verwijzing naar de ER-configuratie via een formule.
 
 ### <a name="email-address-types"></a>E-mailadrestypen
 
@@ -92,7 +93,7 @@ Gebruik dit e-mailtype als de configuratie die u gebruikt, een knooppunt heeft i
 
 ### <a name="archive-destination"></a>Archiefbestemming
 
-Met deze optie kunt u uitvoer naar een Microsoft SharePoint-map of naar de opslag van Microsoft Azure verzenden. Stel **Ingeschakeld** in op **Ja **om uitvoer naar een bestemming te verzenden die is gedefinieerd door het geselecteerde documenttype. Alleen documenttypen waarvan de groep is ingesteld op **Bestand** zijn beschikbaar voor selectie. U definieert documenttypen onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Documenttypen**. De configuratie voor ER-bestemmingen is hetzelfde als de configuratie voor het documentbeheersysteem.
+Met deze optie kunt u uitvoer naar een Microsoft SharePoint-map of naar de opslag van Microsoft Azure verzenden. Stel **Ingeschakeld** in op **Ja**om uitvoer naar een bestemming te verzenden die is gedefinieerd door het geselecteerde documenttype. Alleen documenttypen waarvan de groep is ingesteld op **Bestand** zijn beschikbaar voor selectie. U definieert documenttypen onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Documenttypen**. De configuratie voor ER-bestemmingen is hetzelfde als de configuratie voor het documentbeheersysteem.
 
 [![Pagina Documenttypen](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 

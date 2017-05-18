@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 33851ff7c9ee2c50544589ade0191798a13706e7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c7ab943d368c82e7d6c586ec5105210a928e2d31
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -68,7 +69,7 @@ Vervolgens boekt April de betaling. De factuur heeft nu een saldo van 700,00. Ap
 | DISC-10020 | Contantkorting    | 01-07-2015  |         | 3,00                                 |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--normal"></a>Resterende betalingen op 15 juli, Contantkorting gebruiken = Normaal
-April betaalt de rest van deze factuur op 15 juli, wat na de kortingsperiode valt. Op de pagina **Openstaande transacties vereffenen** verschijnt geen kortingsbedrag in het veld **Geraamde contantkorting **en de waarde in het veld **Contantkortingsbedrag** is **0,00**. Wanneer April de resterende 700,00 betaalt, wordt geen extra korting gepakt.
+April betaalt de rest van deze factuur op 15 juli, wat na de kortingsperiode valt. Op de pagina **Openstaande transacties vereffenen** verschijnt geen kortingsbedrag in het veld **Geraamde contantkorting**en de waarde in het veld **Contantkortingsbedrag** is **0,00**. Wanneer April de resterende 700,00 betaalt, wordt geen extra korting gepakt.
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

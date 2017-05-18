@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ In bedrijven die Tijd en aanwezigheid gebruiken, moeten werknemers de tijd regis
 -   Werknemers die verplicht zijn om tijd en aanwezigheid periodiek te registreren, bijvoorbeeld dagelijks, wekelijks of om de twee weken.
 -   Supervisors, managers en medewerkers van de salarisadministratie die registraties van werknemers berekenen, goedkeuren en overboeken voor verdere verwerking.
 
-| **Opmerking **                                                                                                                                                                                                                                                    |
+| **Opmerking**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als u Tijd en aanwezigheid tegelijk uitvoert met Uitvoering fabricage, worden alle registraties voor projecten, projectactiviteiten, verzuimcodes, indirecte activiteiten, overwerk en flextijd geregistreerd en gebruikt om salaris in beide modules te berekenen. |
 
@@ -53,7 +54,7 @@ Na instelling kunnen werknemers verschillende typen registraties invoeren.
 -   Tijd- en artikelverbruik voor productietaken.
 -   Gebruikte tijd voor een machine op de werkvloer, als de machine als bron is gedefinieerd.
 
-| **Opmerking **                                                                                                                                                                                                                      |
+| **Opmerking**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Aan een werknemer kunnen automatisch de tijdregistraties worden toegewezen die voor een bepaalde machine op de werkvloer zijn gemaakt, als de werknemer ervoor kiest als assistent van de machine te werken wanneer hij of zij de productietaak start. |
 
@@ -82,7 +83,7 @@ Net zoals u een berekeningsgroep aan een tijdregistratiewerknemer toewijst, moet
 -   Handmatige premies toevoegen.
 -   Extra informatie invoeren over verzuimregistraties.
 
-| **Opmerking **                                                                                                                                                                             |
+| **Opmerking**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als er voor specifieke werknemers overuren zijn berekend, kunnen deze overuren worden toegewezen aan specifieke taken gedurende de dag. Dit is van toepassing als taakkosten worden berekend op basis van het salaris van de werknemer. |
 
@@ -102,7 +103,7 @@ Na goedkeuring van de registraties kunnen ze worden overgeboekt naar een periodi
 ## <a name="reversing-transferred-registrations"></a>Overgeboekte registraties omkeren
 Het terugboeken van transacties kan plaatsvinden tot het moment waarop de betalingsoverboeking van de salarisperiode wordt uitgevoerd. Dit betekent dat de salarisgegevens zijn overgebracht naar een extern bestand. Wanneer geregistreerde gegevens worden teruggeboekt, worden al deze gegevens teruggenomen en worden eventuele transacties die naar productieorders of projecten zijn geboekt, ongedaan gemaakt en geneutraliseerd.
 
-| **Opmerking **                                                 |
+| **Opmerking**                                                 |
 |----------------------------------------------------------|
 | Het externe bestand kan worden geïmporteerd in de salarisadministratie. |
 

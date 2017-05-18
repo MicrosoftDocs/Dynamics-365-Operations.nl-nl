@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 9db73514d71239d75dc63fcf6e9f45923b1272f4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c65f7e44459478cac7663575abe588ad057f18e0
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ De gegevens die u gebruikt wanneer u tarieven in Microsoft Dynamics 365 for Oper
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Hebben alle engineconfiguraties metagegevens nodig?
 Nee, de transportbeheer engines die worden gebruikt om de gegevens op te halen, die voor tariefberekening op externe systemen zijn vereist, hebben geen metagegevens nodig. De tariefgegevens voor deze engines kunnen worden opgehaald van de externe systemen van de transport vervoerder, meestal via een webservice. Zo kunt u bijvoorbeeld een afstandsberekeningsengine gebruiken die gegevens direct vanuit Bing-kaarten ophaalt zodat u geen metagegevens voor deze engine nodig hebt.
-| **Opmerking **                                                                                                                                                                                                                                                                                                                                                                     |
+| **Opmerking**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De transportbeheerengines van het transportbeheer die worden meegeleverd met Microsoft Dynamics 365 for Operations, zijn afhankelijk van de gegevens die vanuit de toepassing worden opgehaald. Engines die verbinding maken met externe systemen zijn niet opgenomen met Operations. Echter, het op engines gebaseerde uitbreidbaarheidsmodel maakt het mogelijk om extensies te maken via Microsoft Dynamics 365 for Operations Visual Studio Tools. |
 

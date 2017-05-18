@@ -1,16 +1,16 @@
 ---
 title: "Kolomdefinities in financiële rapporten"
 description: Dit artikel bevat informatie over kolomdefinities. Een kolomdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van kolommen in een financieel rapport wordt gedefinieerd. Net zoals bij rijdefinities kunnen de basisdefinities van kolommen worden gebruikt in meerdere rapporten.
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bevat informatie over kolomdefinities. Een kolomdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van kolommen in een financieel rapport wordt gedefinieerd. Net zoals bij rijdefinities kunnen de basisdefinities van kolommen worden gebruikt in meerdere rapporten.
 
@@ -318,11 +322,11 @@ De cel **Afdrukbeheer** kan codes bevatten die de weergave of de afdrukkenmerken
 2.  Dubbelklik op de cel **Afdrukbeheer**.
 3.  Selecteer in het dialoogvenster **Afdrukbeheer** een code in de lijst **Afdrukbeheeropties selecteren**. Om meerdere codes te selecteren, houdt u Ctrl ingedrukt terwijl u de codes selecteert.
 4.  Selecteer een optie in het veld **Voorwaardelijke afdrukopties**. Standaard is **(geen)** geselecteerd. U kunt slechts één voorwaardelijke afdrukcode tegelijk selecteren.
-5.  Klik tot slot op **OK**.
+5.  Klik op **OK**.
 
-**Tip:** U kunt de afdrukcodes ook rechtstreeks in de cel **Afdrukbeheer** invoeren. Scheidt meerdere afdrukbeheercodes met een komma.
+> [!TIP]
+> U kunt de afdrukcodes ook rechtstreeks in de cel **Afdrukbeheer** invoeren. Scheidt meerdere afdrukbeheercodes met een komma.
 
-### 
 
 ## <a name="column-types"></a>Kolomtypen
 Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de waarde in de rij **Kolomtype** in de kolomdefinitie. Elke kolomdefinitie moet ten minste één omschrijvingskolom (**DESC**) en één bedragkolom (**FD**, **WKS** of **CALC**) bevatten. **Opmerking:** De kolomtypecodes zijn niet van toepassing op alle boekhoudsystemen. Als u een type selecteert dat niet geldig is voor uw boekhoudsysteem, is die kolom leeg op het rapport.
@@ -430,7 +434,7 @@ De cel **Periode** identificeert de boekperioden die de kolom moet bevatten. De 
 | BASE-\#:BASE+\# | Gebruik meerdere perioden, van verschillende perioden vóór de basisperiode tot verschillende perioden na de basisperiode. Als u bijvoorbeeld de drie vorige perioden, de basisperiode en de volgende twee perioden wilt gebruiken, voert u **BASE-3:BASE+2** in. |
 | 1:BASE          | Gebruik meerdere perioden, van de eerste periode tot de basisperiode.                                                                                                                                                                 |
 | \#              | Gebruik altijd een specifiek periodenummer. Wij raden aan dat u deze optie niet gebruikt, omdat deze de flexibiliteit van de kolomdefinitie verlaagt.                                                                                       |
-| \#                                      : \#           | Gebruik altijd een specifiek bereik van perioden. Wij raden aan dat u deze optie niet gebruikt, omdat deze de flexibiliteit van de kolomdefinitie verlaagt.                                                                                    |
+| \#:\#           | Gebruik altijd een specifiek bereik van perioden. Wij raden aan dat u deze optie niet gebruikt, omdat deze de flexibiliteit van de kolomdefinitie verlaagt.                                                                                    |
 
 U kunt verder gaan dan de grenzen van het fiscaal jaar in elke periodespecificatie en u kunt jaren mengen in een bereik van perioden. U geeft bijvoorbeeld de perioden als **BASE-5** op (voor de laatste zes perioden) en voert een rapport uit met een basisperiode van 2. In dit geval bevat het rapport gegevens voor de eerste twee perioden van het opgegeven boekjaar en de laatste vier perioden van het vorige boekjaar.
 
@@ -507,7 +511,8 @@ Een rapport met meerdere valuta kan bedragen weergeven in de natuurlijke (lokale
 -   **Valutaweergave** : geef het type valuta op (natuurlijke, functionele of rapportagevaluta) waarin de transacties worden weergegeven. Deze functionaliteit wordt soms ook wel valutaomzetting genoemd. De valutaomzetting is het vermogen om grootboekbedragen te rapporteren in een valuta die misschien niet de functionele valuta van het bedrijf is of de valuta waarin de transactie werd ingevoerd.
 -   **Valutafilter** - Geef een valutafilter op. Alleen transacties die in de geselecteerde valuta zijn ingevoerd worden in het rapport weergegeven.
 
-**Opmerking:** Als u rapporten wilt maken die meerdere valuta gebruiken, moet u het selectievakje **Alle aangiftevaluta opnemen** inschakelen op het tabblad **Rapport** van de rapportdefinitie. Om de functionele valuta van een bedrijf te definiëren, volgt u deze stappen.
+> [!NOTE]
+> Als u rapporten wilt maken die meerdere valuta gebruiken, moet u het selectievakje **Alle aangiftevaluta opnemen** inschakelen op het tabblad **Rapport** van de rapportdefinitie. Om de functionele valuta van een bedrijf te definiëren, volgt u deze stappen.
 
 1.  Klik in Report Designer in het menu **Bedrijf** op **Bedrijven**.
 2.  Selecteer een bedrijf in het dialoogvenster **Bedrijven** en klik op **Weergeven**.
@@ -519,7 +524,8 @@ Een rapport met meerdere valuta kan bedragen weergeven in de natuurlijke (lokale
 2.  Dubbelklik op de cel **Valutaweergave** in de juiste **FD**-kolom en selecteer vervolgens de optie voor het weergeven van valutagegevens: **Natuurlijke/oorspronkelijke valuta**, **Functionele valuta van bedrijfsgegevens** of de aangiftevaluta.
 3.  Dubbelklik op de cel **Valutafilter** in de juiste **FD**-kolom en selecteer vervolgens de juiste valutacode in de lijst. Alleen transacties die in deze valuta zijn ingevoerd worden in het rapport weergegeven.
 
-**Opmerking:** De opties die hier worden beschreven, kunnen verschillen, afhankelijk van het ERP-systeem. Raadpleeg uw [Microsoft ERP-systeemdocumentatie](https://www.microsoft.com/en-us/download/details.aspx?id=5916) voor meer informatie.
+> [!NOTE]
+> De opties die hier worden beschreven, kunnen verschillen, afhankelijk van het ERP-systeem. Raadpleeg uw [Microsoft ERP-systeemdocumentatie](https://www.microsoft.com/en-us/download/details.aspx?id=5916) voor meer informatie.
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Voorbeeld van cellen Valutaweergave en Valutafilter
 
@@ -572,7 +578,7 @@ U kunt naar een specifieke rapportcel verwijzen door een kolomletter en een rijc
 
 #### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Een kolom vermenigvuldigen met of delen door een basisrij
 
-U kunt een kolom maken die alle waarden in een opgegeven kolom weergeeft als een percentage van een basisnummer. Daarom kunt u relaties tussen rijen weergeven, zoals een percentage van een verkopenrij of een percentage van een totale onkostenrij. Als u elke rij in een specifieke kolom wilt vermenigvuldigen met of delen door een basisrij, voert u de kolom in die in de berekening moet worden gebruikt en voert u vervolgens **\*BASEROW** or **/BASEROW** in. Voer bijvoorbeeld **C\*BASEROW** of **C/BASEROW** in. ** Opmerking:** Wanneer u een basisrijberekening in een kolomdefinitie gebruikt, moet u ervoor zorgen dat elke rijdefinitie die in deze kolomdefinitie wordt gebruikt ten minste één basisrij voor berekeningen bevat.
+U kunt een kolom maken die alle waarden in een opgegeven kolom weergeeft als een percentage van een basisnummer. Daarom kunt u relaties tussen rijen weergeven, zoals een percentage van een verkopenrij of een percentage van een totale onkostenrij. Als u elke rij in een specifieke kolom wilt vermenigvuldigen met of delen door een basisrij, voert u de kolom in die in de berekening moet worden gebruikt en voert u vervolgens **\*BASEROW** or **/BASEROW** in. Voer bijvoorbeeld **C\*BASEROW** of **C/BASEROW** in. **Opmerking:** wanneer u een basisrijberekening in een kolomdefinitie gebruikt, moet u ervoor zorgen dat elke rijdefinitie die in deze kolomdefinitie wordt gebruikt ten minste één basisrij voor berekeningen bevat.
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Het bedrag in een kolom delen door het aantal perioden
 
@@ -584,5 +590,7 @@ U kunt het bedrag in een kolom delen door een opgegeven aantal perioden. De form
 [Rijdefinities in financiële rapportage](row-definitions-financial-reporting.md)
 
 [Geavanceerde opmaakopties in financiële rapportage](advanced-formatting-options-financial-reporting.md)
+
+
 
 

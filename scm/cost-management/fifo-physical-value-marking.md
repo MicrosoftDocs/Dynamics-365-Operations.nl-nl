@@ -3,7 +3,7 @@ title: FIFO met fysieke waarde en markering
 description: "FIFO (First in, First out) is een voorraadmodel waarin de eerste ontvangsten het eerst worden uitgegeven. Financieel bijgewerkte uitgiften uit de voorraad worden vereffend met de eerste financieel bijgewerkte ontvangsten in de voorraad op basis van de financiële datum van de voorraadtransactie."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 18 - 57 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8e3d189fc4dbc5c747a3473d3a221c739c323050
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0be852bde33e8dfc82ceb42dd98be10537f318d
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO met fysieke waarde en markering
+
+[!include[banner](../includes/banner.md)]
+
 
 FIFO (First in, First out) is een voorraadmodel waarin de eerste ontvangsten het eerst worden uitgegeven. Financieel bijgewerkte uitgiften uit de voorraad worden vereffend met de eerste financieel bijgewerkte ontvangsten in de voorraad op basis van de financiële datum van de voorraadtransactie. 
 
@@ -50,7 +54,9 @@ In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de
 -   5b. Financiële voorraaduitgifte voor de hoeveelheid 1 tegen een prijs van USD 20,00 per stuk (lopend gemiddelde van financieel bijgewerkte transacties).
 -   6. Voorraadafsluiting is uitgevoerd. Op basis van de FIFO-methode wordt de eerste financieel bijgewerkte uitgifte vereffend met de eerste financieel bijgewerkte ontvangst. Op de uitgiftetransactie wordt een correctie van USD -10,00 doorgevoerd.
 
-De nieuwe lopende gemiddelde kostprijs staat voor het gemiddelde van de bijgewerkte financiële transacties. In de volgende afbeeldingen worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. ![FIFO zonder Fysieke waarde opnemen](./media/fifowithoutincludephysicalvalue.gif) **Sleutel tot de diagram**
+De nieuwe lopende gemiddelde kostprijs staat voor het gemiddelde van de bijgewerkte financiële transacties. In de volgende afbeeldingen worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. ![FIFO zonder fysieke waarde opnemen](./media/fifowithoutincludephysicalvalue.gif) 
+
+**Uitleg bij het diagram**
 
 -   Voorraadtransacties worden aangegeven met verticale pijlen.
 -   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
@@ -78,7 +84,9 @@ Als u het selectievakje **Fysieke waarde opnemen** inschakelt voor een artikel o
 -   6a. Fysieke voorraaduitgifte voor de hoeveelheid 1 met een kostprijs van USD 21,25 per stuk.
 -   7. Voorraadafsluiting is uitgevoerd. Op basis van de FIFO-methode wordt de eerste financiële uitgiftetransactie gecorrigeerd of vereffend met de eerste bijgewerkte (financiële of fysieke) ontvangst.
 
-Transactie 5b wordt vereffend met ontvangsttransactie 1b. Er wordt een correctie van EUR -11,25 toegepast op deze uitgiftetransactie. De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. In de volgende afbeelding worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** wordt gebruikt. ![FIFO met Fysieke waarde opnemen](./media/fifowithincludephysicalvalue.gif) **Sleutel tot de diagram**
+Transactie 5b wordt vereffend met ontvangsttransactie 1b. Er wordt een correctie van EUR -11,25 toegepast op deze uitgiftetransactie. De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. In de volgende afbeelding worden de effecten van het FIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** wordt gebruikt. ![FIFO met fysieke waarde opnemen](./media/fifowithincludephysicalvalue.gif) 
+
+**Uitleg bij het diagram**
 
 -   Voorraadtransacties worden aangegeven met verticale pijlen.
 -   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
@@ -106,7 +114,9 @@ Markeren is een proces waarmee u een uitgiftetransactie aan een ontvangsttransac
 -   6a. Fysieke voorraaduitgifte voor de hoeveelheid 1 met een kostprijs van USD 21,25 per stuk.
 -   7. Voorraadafsluiting is uitgevoerd. Omdat de financieel bijgewerkte FIFO-transactie is gemarkeerd voor een bestaande ontvangst, worden deze transacties met elkaar vereffend en wordt er niet gecorrigeerd.
 
-De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. In het volgende afbeelding worden de effecten van het FIFO-voorraadmodel op deze reeks transacties weergegeven wanneer markering tussen uitgiften en ontvangsten wordt gebruikt. ![FIFO met Markering](./media/fifowithmarking.gif) **Sleutel tot het diagram**
+De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties, USD 27,50. In het volgende afbeelding worden de effecten van het FIFO-voorraadmodel op deze reeks transacties weergegeven wanneer markering tussen uitgiften en ontvangsten wordt gebruikt. ![FIFO met markering](./media/fifowithmarking.gif) 
+
+**Uitleg bij het diagram**
 
 -   Voorraadtransacties worden aangegeven met verticale pijlen.
 -   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
@@ -118,6 +128,8 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 -   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 -   Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
+
+
 
 
 

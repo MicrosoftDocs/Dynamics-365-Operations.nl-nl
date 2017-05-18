@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1bc458d58834be1e2e9b602619f76424b3bb449b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 62dcc8a9b17ad044ac63080a94593a5f6ae2f182
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ De berekening van de kostprijs van het budgetkostenelement gebruikt ingangsdatum
 
 Als het kostenelement op een percentage is gebaseerd, moet u de budgetkostenelementen opgeven die als basis voor de berekening worden gebruikt.
 
-**Voorbeeld ** 
+**Voorbeeld** 
 
 Jodi's organisatie biedt een trainingstoelage van 5 procent van het basisloon van een werknemer. Jodi wil een budgetkostenelement voor deze kosten maken. Ze maakt een nieuw budgetkostenelement en wijst het budgetkostentype **Vergoeding** toe.
 
@@ -98,7 +99,7 @@ Het inkomstenkostenelement dat op de compensatiegroep wordt geselecteerd, wordt 
 
 Voor de nauwkeurigste budgetplanning kunt u prognoseposities maken door gegevens van bestaande posities in Microsoft Dynamics 365 for Operations te gebruiken, ongeacht of de positie momenteel is vervuld of niet. 
 
-De functie **Bestaande posities toevoegen** geeft alle posities weer voor een organisatie. Door de datum in te stellen op** Vanaf** kunt u de lijst met posities wijzigen zodat deze de posities bevat die bestonden op een datum in het verleden of, vaker, in de toekomst (bijvoorbeeld, het begin van de volgende budgetcyclus). Selecteer een planningsproces en budgetplanscenario, selecteer posities in de lijst, en klik vervolgens in **OK** om prognoseposities voor de geselecteerde functies te maken. Merk op dat u slechts één prognosepositie voor elke bestaande positie in een budgetplanningsproces en -scenario kunt maken. U kunt echter extra versies maken door andere budgetplanscenario's toe te wijzen. 
+De functie **Bestaande posities toevoegen** geeft alle posities weer voor een organisatie. Door de datum in te stellen op**Vanaf** kunt u de lijst met posities wijzigen zodat deze de posities bevat die bestonden op een datum in het verleden of, vaker, in de toekomst (bijvoorbeeld, het begin van de volgende budgetcyclus). Selecteer een planningsproces en budgetplanscenario, selecteer posities in de lijst, en klik vervolgens in **OK** om prognoseposities voor de geselecteerde functies te maken. Merk op dat u slechts één prognosepositie voor elke bestaande positie in een budgetplanningsproces en -scenario kunt maken. U kunt echter extra versies maken door andere budgetplanscenario's toe te wijzen. 
 
 Als de budgetkostenelementen zijn toegewezen aan de positie in Human resources, worden die budgetkostenelementen ook toegewezen aan de prognosepositie en gebruiken ze de standaardbedragen. Het veld **Toegewezen werknemer** op de prognosepositie wordt ingesteld op de naam van de werknemer die aan de positie is toegewezen, als er een werknemer is toegewezen. Dit veld is een eenvoudig tekstveld. Geen directe koppeling wordt gemaakt. 
 

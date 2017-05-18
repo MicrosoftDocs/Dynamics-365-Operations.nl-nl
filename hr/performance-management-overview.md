@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 4bd934091c80ab9a4d244499d2bce2c4646c3e99
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 769680aff8c018bc042ffce98ee50a9760a65fcf
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ Het volgende diagram laat zien hoe de primaire onderdelen van prestatiebeheer me
 ## <a name="performance-journal"></a>Prestatiejournaal
 Voordat u als werknemer uw beoordeling afrondt, verzamelt u vaak informatie over activiteiten of gebeurtenissen die hebben bijgedragen aan uw succes tijdens een beoordelingsperiode. U kunt activiteiten en gebeurtenissen documenteren in het prestatiejournaal. Bovendien kunt u toekomstige activiteiten maken die u moet uitvoeren om een doel te bereiken en om te voldoen aan de vereisten van een ontwikkelingsplan of een prestatietoezegging. Prestatiejournalen zijn niet vereist om doelen of prestatiebeoordelingen te kunnen maken. 
 
-Er zijn twee versies van het prestatiejournaal: de versie van de werknemer, die toegankelijk is via de werkruimte **Selfservice werknemer** (**ESS**) en de versie van de manager, die toegankelijk is via de werkruimte **Selfservice manager ** (**MSS**). Werknemers kunnen zelf journalen maken en deze delen met hun manager. Managers kunnen zelf journalen maken voor hun team en deze delen met hun werknemers. 
+Er zijn twee versies van het prestatiejournaal: de versie van de werknemer, die toegankelijk is via de werkruimte **Selfservice werknemer** (**ESS**) en de versie van de manager, die toegankelijk is via de werkruimte **Selfservice manager** (**MSS**). Werknemers kunnen zelf journalen maken en deze delen met hun manager. Managers kunnen zelf journalen maken voor hun team en deze delen met hun werknemers. 
 
 Wanneer het prestatiejournaal wordt geopend via de **ESS**-werkruimte, kunt u op de pagina **Prestatiejournaal** de volgende informatie vastleggen:
 
@@ -126,7 +127,7 @@ U kunt een document koppelen aan een beoordeling in het gedeelte **Bijlagen** va
 Gebruik de werkstroom voor werknemerbeoordeling om de goedkeuring van een beoordeling te bepalen. U kunt ook de geautomatiseerde werkstroom overslaan en de status van de beoordeling handmatig wijzigen, zodat u eenvoudiger documenten voor bijvoorbeeld één-op-één gesprekken kunt maken buiten het werkstroomproces om. Toegang tot een beoordeling wordt bepaald door de status van de beoordeling.
 
 1.  Wanneer de beoordeling wordt gemaakt, wordt deze ingesteld op de status **Niet gestart**. De beoordeling kan door iedereen worden bewerkt.
-2.  Als de werknemer op de knop **Beoordeling starten** drukt, worden de beoordeling ingesteld op de status** In uitvoering**. De werknemer begint vervolgens inhoud toe te voegen. De manager kunt op dit moment het beoordelingsdocument niet meer bekijken.
+2.  Als de werknemer op de knop **Beoordeling starten** drukt, worden de beoordeling ingesteld op de status**In uitvoering**. De werknemer begint vervolgens inhoud toe te voegen. De manager kunt op dit moment het beoordelingsdocument niet meer bekijken.
 3.  De werknemer wijzigt de status in **Gereed voor beoordeling**.
 4.  De manager kan opmerkingen en waarderingen toevoegen. Op dit moment ziet alleen de manager de beoordeling.
 5.  De manager wijzigt de status in **Eindbeoordeling**, zodat zowel de manager als de werknemer de beoordeling kan zien en bespreken. U kunt in de parameters opgeven of de beoordeling al dan niet op dit moment kan worden bewerkt. Deze stap is ook optioneel als de manager gewoon de beoordeling wil delen met de werknemer en deze als **Volledig** markeert wanneer ze klaar zijn.

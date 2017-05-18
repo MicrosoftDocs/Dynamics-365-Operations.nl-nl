@@ -3,7 +3,7 @@ title: De functionaliteit van de stuklijstontwikkelaar
 description: In dit artikel wordt beschreven hoe u de pagina Stuklijstontwikkelaar kunt gebruiken om stuklijststructuren te ontwerpen en te gebruiken. U kunt op Instellingen klikken om verschillende configuraties te selecteren en te selecteren welke informatie wordt weergegeven op de regels van de structuur.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-08 21 - 09 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2c98039c9fa8179408394f9f66b9fca0f8cad3fe
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff482c183276a99a3c9a632d41d9121bf77befbf
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="bom-designer-functionality"></a>De functionaliteit van de stuklijstontwikkelaar
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt beschreven hoe u de pagina Stuklijstontwikkelaar kunt gebruiken om stuklijststructuren te ontwerpen en te gebruiken. U kunt op Instellingen klikken om verschillende configuraties te selecteren en te selecteren welke informatie wordt weergegeven op de regels van de structuur.
 
@@ -95,7 +99,7 @@ Het filter dat voor de stuklijst en route wordt toegepast, wordt weergegeven in 
 Wanneer u de stuklijstontwikkelaar gebruikt om stuklijsten te controleren of te bewerken die uit een of meerdere niveaus van phantoms bestaan, overspant de route die aan het hoogste artikel is gekoppeld meestal de volledige stuklijsthiërarchie. Als u het overzicht wilt vereenvoudigen, kunt u de route op het hoogste niveau in de weergave vergrendelen door te klikken op **Weergave** &gt; **Route vergrendelen**. Als u de route wilt ontgrendelen, klikt u op **Weergave** &gt; **Route ontgrendelen**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Stuklijsten en stuklijstregels toevoegen en bewerken
-Gebruik de functies Stuklijstregels of **Stuklijst** om de stuklijstregels of stuklijst te wijzigen. Als u in de structuur een knooppunt selecteert, bepaalt het type van het knooppunt de functies die beschikbaar zijn.
+Gebruik de functies **Stuklijstregels**of **Stuklijst** om de stuklijstregels of stuklijst te wijzigen. Als u in de structuur een knooppunt selecteert, bepaalt het type van het knooppunt de functies die beschikbaar zijn.
 
 | Functie                            | Omschrijving                                                                                               | Knooppunttype en voorwaarden                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,6 +119,8 @@ Klik op **Instellingen** om de gegevens aan te passen die in de structuurweergav
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stuklijst         | Gebruik de selectievakjes om de criteria te selecteren die in de boomstructuur worden weergegeven. In de stuklijstontwikkelaar worden de geselecteerde criteria onder aan beide tabbladen weergegeven. |
 | route       | Gebruik de selectievakjes om de criteria te selecteren die voor de routes worden weergegeven.                                                                                    |
+
+
 
 
 

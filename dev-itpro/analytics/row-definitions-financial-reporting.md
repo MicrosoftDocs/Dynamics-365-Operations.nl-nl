@@ -1,16 +1,16 @@
 ---
 title: "Rijdefinities in Ontwerper financiële rapporten"
 description: Een rijdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van elke rij in een financieel rapport wordt gespecificeerd. Een rijdefinitie kan worden gecombineerd met kolomdefinities, rapportagestructuurdefinities en rapportdefinities om een bouwsteengroep te maken die door meerdere bedrijven kan worden gebruikt.
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Rijdefinities in Ontwerper financiële rapporten
+
+[!include[banner](../includes/banner.md)]
+
 
 Een rijdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van elke rij in een financieel rapport wordt gespecificeerd. Een rijdefinitie kan worden gecombineerd met kolomdefinities, rapportagestructuurdefinities en rapportdefinities om een bouwsteengroep te maken die door meerdere bedrijven kan worden gebruikt.
 
@@ -72,8 +76,8 @@ Als u dimensies wilt toevoegen aan een rijdefinitie, volgt u deze stappen.
 
 1.  Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2.  Klik in het menu **Bewerken** op **Rijen invoegen van dimensies**.
-3.  Selecteer in het dialoogvenster **Rijen invoegen van dimensies **in de rij **Dimensies** de cel voor de dimensie die u naar de rijdefinitie wilt overbrengen en klik vervolgens op **Alle &&&**.
-4.  Als u de rijdefinitie tot een bepaald bereik van dimensiewaarden wilt beperken, voert u de begindimensiewaarde in de cel ** Begin van dimensiebereik **in en voert u vervolgens de einddimensiewaarde in de cel **Einde dimensiebereik** in. Als u alle waarden voor de geselecteerde dimensie wilt opnemen, laat u deze cellen leeg. Als u alle waarden voor de geselecteerde dimensie wilt opnemen, laat u deze cellen leeg. **Opmerking:** Jokertekens (\* of ?) in dimensiebereiken tonen mogelijk niet alle resultaten die u zoekt, afhankelijk van hoe de ERP-database gegevens verzamelt.
+3.  Selecteer in het dialoogvenster **Rijen invoegen van dimensies** in de rij **Dimensies** de cel voor de dimensie die u naar de rijdefinitie wilt overbrengen en klik vervolgens op **Alle &&&**.
+4.  Als u de rijdefinitie tot een bepaald bereik van dimensiewaarden wilt beperken, voert u de begindimensiewaarde in de cel **Begin van dimensiebereik** in en voert u vervolgens de einddimensiewaarde in de cel **Einde dimensiebereik** in. Als u alle waarden voor de geselecteerde dimensie wilt opnemen, laat u deze cellen leeg. Als u alle waarden voor de geselecteerde dimensie wilt opnemen, laat u deze cellen leeg. **Opmerking:** Jokertekens (\* of ?) in dimensiebereiken tonen mogelijk niet alle resultaten die u zoekt, afhankelijk van hoe de ERP-database gegevens verzamelt.
 5.  Geef in het veld **Beginrijcode** de rijcode op voor de eerste dimensiewaarde die aan de rijdefinitie moet worden toegevoegd.
 6.  Geef in het veld **Elke rij verhogen met** een waarde op om de ruimte tussen opeenvolgende rijcodes te specificeren. Als de eerste rijcode bijvoorbeeld 100 is en de verhogingswaarde 30, hebben de eerste nieuwe rijen de codes 100, 130, 160, 190 en 220. Gebruik een verhogingswaarde die ruimte biedt voor het invoegen van nieuwe opmaak en formulerijen.
 7.  Klik tot slot op **OK**. Voor elk van de geselecteerde dimensiewaarden wordt één regel toegevoegd aan de rijdefinitie.
@@ -97,9 +101,9 @@ Als u afronding in een balans wilt aanpassen, volgt u deze stappen.
     -   **Rij Totaal aansprakelijkheden en eigen vermogen** - de rijcode voor de rij in de balans die de totale aansprakelijkheden en eigen vermogen bevat.
     -   **Limiet van aanpassingsbedrag** - Een positief geheel getal dat de limiet voor automatische correcties aangeeft. Dit bedrag wordt vergeleken met de absolute waarde van het werkelijke afrondingsverschil.
 
-    **Opmerking: **Deze rijcodes moeten aan uw financiële gegevens zijn gekoppeld. Met andere woorden,de rij moet een dimensiewaarde hebben in de cel **Koppeling naar financiële dimensies**. Verwijs **niet** naar een omschrijvings- (**DESC**), berekende (**CALC**) of totaalrij (**TOT**).
+    **Opmerking:** deze rijcodes moeten aan uw financiële gegevens zijn gekoppeld. Met andere woorden,de rij moet een dimensiewaarde hebben in de cel **Koppeling naar financiële dimensies**. Verwijs **niet** naar een omschrijvings- (**DESC**), berekende (**CALC**) of totaalrij (**TOT**).
 
-De bedragen in uw balans zullen nu in evenwicht zijn wanneer afronding is ingeschakeld. **Opmerking: **De correctielimiet wordt toegepast op basis van de optie **Afrondingsprecisie** die is opgegeven voor de rapportdefinitie. Als u bijvoorbeeld selecteert om uw rapport op duizendtallen af te ronden en **2** invoert in het veld **Limiet van aanpassingsbedrag**, wordt een waarschuwingsbericht weergegeven wanneer de waarde die is opgegeven in het veld **Rij Afrondingscorrectie** met meer dan 2000 verhoogt of verlaagt.
+De bedragen in uw balans zullen nu in evenwicht zijn wanneer afronding is ingeschakeld. **Opmerking:** de correctielimiet wordt toegepast op basis van de optie **Afrondingsprecisie** die is opgegeven voor de rapportdefinitie. Als u bijvoorbeeld selecteert om uw rapport op duizendtallen af te ronden en **2** invoert in het veld **Limiet van aanpassingsbedrag**, wordt een waarschuwingsbericht weergegeven wanneer de waarde die is opgegeven in het veld **Rij Afrondingscorrectie** met meer dan 2000 verhoogt of verlaagt.
 
 ## <a name="format-row-and-column-text"></a>Opmaakrij en kolomtekst
 U kunt het uiterlijk van uw rapporten aanpassen door lettertypen te wijzigen en tekst op te maken. In de volgende secties wordt beschreven hoe u het uiterlijk van rijen en kolommen in rapporten opmaakt.
@@ -117,7 +121,7 @@ U kunt lettertypen maken en wijzigen voor uw rapport. U kunt deze stijlen vervol
 <tr class="odd">
 <td>Een tekenstijl maken</td>
 <td><ol>
-<li>Klik in Report Designer in het menu <strong>Opmaak </strong>op <strong>Stijlen en opmaak</strong>.</li>
+<li>Klik in Report Designer in het menu <strong>Opmaak</strong> op <strong>Stijlen en opmaak</strong>.</li>
 <li>Klik in het dialoogvenster <strong>Stijlen en opmaak</strong> op <strong>Nieuw</strong> en voer een unieke naam voor de nieuwe stijl in.</li>
 <li>Selecteer de gewenste lettertypen en klik op <strong>OK</strong>.</li>
 </ol></td>
@@ -125,7 +129,7 @@ U kunt lettertypen maken en wijzigen voor uw rapport. U kunt deze stijlen vervol
 <tr class="even">
 <td>Een tekenstijl wijzigen</td>
 <td><ol>
-<li>Klik in Report Designer in het menu <strong>Opmaak </strong>op <strong>Stijlen en opmaak</strong>.</li>
+<li>Klik in Report Designer in het menu <strong>Opmaak</strong> op <strong>Stijlen en opmaak</strong>.</li>
 <li>Selecteer in het dialoogvenster <strong>Stijlen en opmaak</strong> een stijl om te wijzigen en klik vervolgens op <strong>Wijzigen</strong>.</li>
 <li>Selecteer de gewenste lettertypen en klik op <strong>OK</strong>.</li>
 </ol></td>
@@ -173,6 +177,8 @@ Om het gemakkelijker te maken om de kolommen waarin u werkt in de rijdefinitie w
 <a name="see-also"></a>Zie ook
 --------
 
-[Financiële rapportage voor Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Financiële rapportage](financial-reporting-intro.md)
+
+
 
 

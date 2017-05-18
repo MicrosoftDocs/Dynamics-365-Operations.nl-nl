@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 444ffcc8a14650085e24d0ea0d7f725e9d324d69
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f3d34f9ee0c9db97e79b8577d006b198f9a5cb29
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,8 +42,8 @@ U kunt op dubbele registraties controleren vanuit de lijstpagina **Algemeen adre
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>Kan ik partijregistraties bulksgewijs toevoegen aan of verwijderen uit een adresboek?
 Ja, u kunt meerdere partijregistraties toevoegen aan en verwijderen uit een adresboek.
 
--   Als u meerdere partijregistraties wilt toevoegen aan een adresboek, selecteert u op de lijstpagina **Algemeen adresboek** de partijen in de lijst. Klik in het actievenster op het tabblad **Partij **in de groep **Onderhouden **op **Partijen toewijzen**. Selecteer de adresboeken waaraan de geselecteerde partijregistraties moeten worden toegevoegd en klik op **OK**. Alle geselecteerde partijregistraties worden toegevoegd aan de geselecteerde adresboeken.
--   Als u meerdere partijregistraties wilt verwijderen uit een adresboek, selecteert u op de lijstpagina **Algemeen adresboek** de partijen in de lijst. Klik in het actievenster op het tabblad **Partij **in de groep **Onderhouden **op **Partijen verwijderen**. Selecteer de adresboeken waaruit de partijen moeten worden verwijderd en klik vervolgens op **OK**. Alle geselecteerde partijregistraties worden verwijderd uit de geselecteerde adresboeken.
+-   Als u meerdere partijregistraties wilt toevoegen aan een adresboek, selecteert u op de lijstpagina **Algemeen adresboek** de partijen in de lijst. Klik in het actievenster op het tabblad **Partij**in de groep **Onderhouden**op **Partijen toewijzen**. Selecteer de adresboeken waaraan de geselecteerde partijregistraties moeten worden toegevoegd en klik op **OK**. Alle geselecteerde partijregistraties worden toegevoegd aan de geselecteerde adresboeken.
+-   Als u meerdere partijregistraties wilt verwijderen uit een adresboek, selecteert u op de lijstpagina **Algemeen adresboek** de partijen in de lijst. Klik in het actievenster op het tabblad **Partij**in de groep **Onderhouden**op **Partijen verwijderen**. Selecteer de adresboeken waaruit de partijen moeten worden verwijderd en klik vervolgens op **OK**. Alle geselecteerde partijregistraties worden verwijderd uit de geselecteerde adresboeken.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Kan ik het partijtype van een registratie wijzigen of moet ik de oude registratie verwijderen en een nieuwe registratie maken?
 Het kan voorkomen dat u het partijtype van een registratie van persoon in organisatie of van organisatie in persoon moet wijzigen. Nancy is bijvoorbeeld lid van het verkoopteam voor Fabrikam, Groot-Brittannië Ze ontmoet zes nieuwe prospecten op een beurs in Londen. Nancy maakt een prospect partijregistratie voor elke prospect aan. Als Nancy de registraties opslaat, wordt elke registratie ook in het algemene adresboek gemaakt. Fabrikam heeft het standaardpartijtype op organisatie ingesteld, maar twee van de nieuwe prospects moeten het registratietype persoon hebben. Daarom moet Nancy het partijtype van de twee prospectrecords wijzigen wanneer ze terugkeert van de beurs. Als u het type van een partijregistratie wilt wijzigen, moet u eerst een nieuwe partijregistratie van het juiste type in het algemene adresboek maken. U koppelt vervolgens de oude partijregistratie aan deze nieuwe registratie. Nadat u de nieuwe partijkoppeling hebt gemaakt, verwijdert u de oorspronkelijke partijregistratie met het onjuiste registratietype.

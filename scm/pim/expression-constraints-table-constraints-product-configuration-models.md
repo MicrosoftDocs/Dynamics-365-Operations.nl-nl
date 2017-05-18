@@ -3,7 +3,7 @@ title: Expressiebeperkingen en tabelbeperkingen in productconfiguratiemodellen
 description: Dit onderwerp beschrijft het gebruik van expressiebeperkingen en tabelbeperkingen. U gebruikt beperkingen om de kenmerkwaarden te beheren die u kunt gebruiken wanneer u producten voor een verkooporder, verkoopofferte, inkooporder, of een productieorder configureert. U kunt expressiebeperkingen of tabelbeperkingen gebruiken, afhankelijk van hoe u de beperkingen wenst te maken.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Expressiebeperkingen en tabelbeperkingen in productconfiguratiemodellen
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit onderwerp beschrijft het gebruik van expressiebeperkingen en tabelbeperkingen. U gebruikt beperkingen om de kenmerkwaarden te beheren die u kunt gebruiken wanneer u producten voor een verkooporder, verkoopofferte, inkooporder, of een productieorder configureert. U kunt expressiebeperkingen of tabelbeperkingen gebruiken, afhankelijk van hoe u de beperkingen wenst te maken. 
 
@@ -40,9 +44,9 @@ Tabelbeperkingen maken een lijst met de combinaties van waarden die zijn toegest
 
 ### <a name="example-of-a-table-constraint"></a>Voorbeeld van een tabelbeperking.
 
-Dit voorbeeld toont hoe u de configuratie van een speaker tot specifieke afwerkingen van de behuizingen en voorkanten kunt beperken. De eerste tabel laat de afwerkingen van de behuizingen en voorkanten zien die algemeen beschikbaar zijn voor configuratie. De waarden zijn gedefinieerd voor de kenmerktypen Afwerking behuizing en **Voorgrill**.
+Dit voorbeeld toont hoe u de configuratie van een speaker tot specifieke afwerkingen van de behuizingen en voorkanten kunt beperken. De eerste tabel laat de afwerkingen van de behuizingen en voorkanten zien die algemeen beschikbaar zijn voor configuratie. De waarden zijn gedefinieerd voor **Afwerking behuizing**en **Voorgrill**.
 
-| Type kenmerk | Waarden                      |
+| Kenmerktype | Waarden                      |
 |----------------|-----------------------------|
 | Afwerking behuizing | Zwart, Eiken, Rozenhout, Wit |
 | Voorgrill    | Zwart, Metaal, Wit         |
@@ -84,7 +88,7 @@ Wanneer u een product met de volgende beperkingsinstellingen configureert, worde
 (Kleur == "Zwart" & (afmeting == "30" | afmeting == "50")) | (kleur == "Rood" & afmeting = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>Moet ik operators gebruiken of tussenvoegselaantekening gebruiken wanneer ik expressiebeperkingen schrijf?
-U kunt een expressiebeperking opstellen met behulp van de beschikbare voorvoegseloperatoren of met tussenvoegselnotatie. Voor de operatoren **Min**, **Max**, en **Abs **kunt u de tussenvoegselnotatie niet gebruiken. Deze operatoren zijn opgenomen als standaardoperatoren in de meeste programmeertalen.
+U kunt een expressiebeperking opstellen met behulp van de beschikbare voorvoegseloperatoren of met tussenvoegselnotatie. Voor de operatoren **Min**, **Max**, en **Abs** kunt u de tussenvoegselnotatie niet gebruiken. Deze operatoren zijn opgenomen als standaardoperatoren in de meeste programmeertalen.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Welke operators en tussenvoegselnotatie kan ik gebruiken wanneer ik expressiebeperkingen schrijf?
 In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die u kunt gebruiken voor het schrijven van een expressiebeperking voor een onderdeel van een productconfiguratiemodel. In de voorbeelden in de eerste tabel kunt u zien hoe u een expressie maakt door tussenvoegselnotaties of operators te gebruiken.
@@ -248,5 +252,7 @@ U kunt geen gereserveerde sleutelwoorden gebruiken als oplossernamen voor kenmer
 [Een expressiebeperking maken (taakbegeleider)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Een berekening toevoegen aan een productconfiguratiemodel (taakbegeleider)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

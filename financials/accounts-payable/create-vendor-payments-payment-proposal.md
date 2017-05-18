@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: b46037b9509f329e18f0da69d530f6b1f88c8888
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fef518bf156aa45dff66d21d49b433ed613cead1
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ De voorstelquery voor klantbetalingen bevat verschillende tabbladen, die elk ver
 
 ## <a name="parameters"></a>Parameters
 -   **Facturen selecteren op**: facturen binnen het datumbereik dat is opgegeven met de velden **Begindatum** en **Einddatum** kunnen worden geselecteerd op vervaldatum, contantkortingsdatum of beide. Als u de datum voor contantkorting gebruikt, wordt eerst gezocht naar facturen met een datum voor contantkorting tussen de begindatum en einddatum. Het systeem bepaalt vervolgens of de factuur in aanmerking komt voor de contantkorting door de sessiedatum te gebruiken als controlemiddel om te bepalen of de datum voor contantkorting nog niet is verstreken.
--   **Begindatum** en** Einddatum** – Facturen die een vervaldatum of datum voor contantkorting hebben binnen dit datumbereik worden geselecteerd voor betaling.
+-   **Begindatum** en**Einddatum** – Facturen die een vervaldatum of datum voor contantkorting hebben binnen dit datumbereik worden geselecteerd voor betaling.
 -   **Betalingsdatum** – Als een datum wordt gedefinieerd, worden alle betalingen op deze datum uitgevoerd. Het veld **Datum minimumbetaling** wordt overschreven.
 -   **Datum minimumbetaling** – Voer de minimumbetalingsdatum in. Bijvoorbeeld: met de velden **Begindatum** en **Einddatum** wordt een bereik opgegeven van 1 september tot 10 september en is de datum minimumbetaling 5 september. In dit geval hebben alle facturen met een vervaldatum van 1 september tot 5 september een betalingsdatum van 5 september. Alle facturen met een vervaldatum van 5 September tot 10 september hebben echter een betalingsdatum die gelijk is aan de vervaldatum van elke factuur.
 -   **Grenswaarde van bedrag** – Voer het maximaal totale bedrag voor alle betalingen in.

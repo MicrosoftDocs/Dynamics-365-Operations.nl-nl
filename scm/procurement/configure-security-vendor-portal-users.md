@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 3a5c6a256f8330ba238ea3c0c25f14b10a9a58e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8885f40a36eed1de7b0f6a2f369b1fc5a9d3fc8a
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ De functionaliteit Leveranciersportal is vervangen door de verbeterde functional
 Voordat u een gebruikersaccount maakt voor iemand die de leveranciersportal zal gebruiken, moet u de leverancier instellen op leveranciersportalsamenwerking. Gebruik het veld **Inkoopordersamenwerking** op het tabblad **Algemeen** op de pagina **Leveranciers**. Externe leveranciers die de leveranciersportal gebruiken, moeten de volgende instelling hebben:
 
 -   Een Microsoft Azure-Active Directory-gebruikersaccount moet worden geregistreerd voor de leverancier op de pagina **Gebruikers** in Dynamics AX.
--   De leverancier moet de beveiligingsrol **Leverancier (extern)** hebben, niet de rol **SystemUser **. **Opmerking:** De rol **SystemUser** wordt automatisch verleend als u een nieuw gebruikersaccount in Dynamics AX maakt. Daarom moet u die rol verwijderen en het waarschuwingsbericht bevestigen dat u ontvangt.
+-   De leverancier moet de beveiligingsrol **Leverancier (extern)** hebben, niet de rol **SystemUser**. **Opmerking:** De rol **SystemUser** wordt automatisch verleend als u een nieuw gebruikersaccount in Dynamics AX maakt. Daarom moet u die rol verwijderen en het waarschuwingsbericht bevestigen dat u ontvangt.
 -   De leveranciersgebruiker mag geen toestemming geven voor het toevoegen van extra velden vanuit de inkoopordertabellen aan hun weergave van de inkooporder. Op het **Persoonlijke instellingen** tabblad, op het **Gebruikers** tabblad, stelt u de optie **Expliciete aanpassing toegestaan** voor de gebruiker in op **Nee**.
 -   De gebruikersaccount moet zijn gekoppeld aan een geregistreerde contactpersoon. Op de **Gebruikers** pagina, selecteert u een contactpersoon in het **Naam** veld. De persoon die u selecteert moet de rol **Contactpersoon** hebben voor de relevante leverancier.
 

@@ -3,7 +3,7 @@ title: Waarden van voorraadobjecten
 description: Dit artikel biedt informatie over hoe de waarden van een voorraadobject worden berekend.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 09 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 7a0a2af2094e3e5be757d3dd82255769677b96ea
-ms.openlocfilehash: 8898d5d91ffb4f73ea68f1251e1a99440e81bcd4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d177903e3c79226e90a1f2eb3d55e3c670446a44
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="inventory-object-values"></a>Waarden van voorraadobjecten
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over hoe de waarden van een voorraadobject worden berekend. 
 
-Met een nieuwe functionaliteit die **fysieke hoeveelheid **wordt genoemd, kunt u de waarden van een specifiek voorraadobject zien. Een kostobject geeft het entiteitsniveau weer waarin de voorraadboekhouding wordt uitgevoerd. Voor meer informatie over kostenobjecten, zie [Kostenobjecten](cost-object.md). Om de waarden van een specifiek voorraadobject te bekijken, klikt u op **Fysieke hoeveelheid** op de pagina **Kostenobject**. De waarde van een voorraadobject wordt als volgt berekend: Voorraadobject.Waarde = Kostenobject.Gemiddelde eenheidskosten × Voorraadobject.Hoeveelheid. In het volgende voorbeeld zie u hoe de waarden van een voorraadobject en kostenobject worden berekend. Twee productontvangstbongebeurtenissen worden geregistreerd op artikel A:
+Met een nieuwe functionaliteit die **fysieke hoeveelheid** wordt genoemd, kunt u de waarden van een specifiek voorraadobject zien. 
+
+Een kostobject geeft het entiteitsniveau weer waarin de voorraadboekhouding wordt uitgevoerd. Voor meer informatie over kostenobjecten, zie [Kostenobjecten](cost-object.md). 
+
+Om de waarden van een specifiek voorraadobject te bekijken, klikt u op **Fysieke hoeveelheid** op de pagina **Kostenobject**. De waarde van een voorraadobject wordt als volgt berekend: 
+
+Voorraaobject.Waarde = Kostenobject.Gemiddelde kosten per eenheid × voorraadobject.Hoeveelheid 
+
+Het volgende voorbeeld laat ziet hoe de waarden van een voorraadobject en een kostenobject worden berekend. Twee productontvangstbongebeurtenissen worden geregistreerd op artikel A:
 
 -   Productontvangstbon 1: Hoeveelheid = 100 stuks, Bedrag = $ 1.000,00, Locatie = 1, Magazijn =11, Batchnr. = B1
 -   Productontvangstbon 2: Hoeveelheid = 50 stuks, Bedrag = $ 800,00, Locatie = 1, Magazijn =11, Batchnr. = B2
@@ -135,5 +147,7 @@ De volgende tabel geeft het resultaat van de berekening voor een voorraadobject.
 [Kosteninvoer](cost-entries.md)
 
 [Wat is nieuw of gewijzigd in Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+
+
 
 

@@ -3,7 +3,7 @@ title: Power BI-inhoud voor analyse van kostprijsboekhouding
 description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor kostprijsboekhoudingsanalyse. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,25 +16,31 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 50e7bd92ee693f59fd013226aee22bd1a54c81e2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: be4165f58b17bed0b0984b760fd8eea09267a251
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Power BI-inhoud voor analyse van kostprijsboekhouding
 
+[!include[banner](../includes/banner.md)]
+
+
 In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor kostprijsboekhoudingsanalyse. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 <a name="overview"></a>Overzicht
 --------
 
-De Microsoft Power BI-inhoud voor **Analyse kostprijsboekhouding** is bedoeld voor kostencontrollers of iemand anders die verantwoordelijk is voor het uitvoeren van het kostenbeheer van een organisatie. Het bevat de belangrijkste metrische gegevens, zoals kosten, magnitude en kostentarief op basis van werkelijke kosten, budgetkosten en flexibele budgetkosten. Hierin worden transactiegegevens uit de kostprijsboekhouding in Microsoft Dynamics 365 for Operations gebruikt en wordt een samengevoegde weergave van kosten verschaft voor de gehele organisatie in één rapportagevaluta. Managers kunnen de gegevens filteren op basis van kostenobjecten om kostenbeheer van hun organisatie-eenheden uit te voeren, zelfs als de organisatie meerdere rechtspersonen heeft. Omdat de Power BI-inhoud voor **Analyse kostprijsboekhouding** afwijkingen tussen de werkelijke en gebudgetteerde kosten markeert, kunnen managers worden geïnformeerd over positieve en negatieve trends voor hun operationele eenheden. Managers kunnen inzoomen op de kostenelementhiërarchieën of op afzonderlijke kostenelementen om een gedetailleerd inzicht te verwerven in hoe kostenafwijkingen hebben plaatsgevonden. Vervolgens kunnen ze doeltreffende actie ondernemen. Met de Power BI-inhoud voor **Analyse kostprijsboekhouding** kunnen accountants analyseren hoe kosten de kostenobjecten van de gehele organisatie doorlopen. Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhouding](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau [Beveiliging instellen voor kostprijsboekhoudingsinhoud voor Power BI](setup-security-cost-accounting-content-pack.md).
+De Microsoft Power BI-inhoud voor **Analyse kostprijsboekhouding** is bedoeld voor kostencontrollers of iemand anders die verantwoordelijk is voor het uitvoeren van het kostenbeheer van een organisatie. Het bevat de belangrijkste metrische gegevens, zoals kosten, magnitude en kostentarief op basis van werkelijke kosten, budgetkosten en flexibele budgetkosten. Hierin worden transactiegegevens uit de kostprijsboekhouding in Microsoft Dynamics 365 for Operations gebruikt en wordt een samengevoegde weergave van kosten verschaft voor de gehele organisatie in één rapportagevaluta. Managers kunnen de gegevens filteren op basis van kostenobjecten om kostenbeheer van hun organisatie-eenheden uit te voeren, zelfs als de organisatie meerdere rechtspersonen heeft. Omdat de Power BI-inhoud voor **Analyse kostprijsboekhouding** afwijkingen tussen de werkelijke en gebudgetteerde kosten markeert, kunnen managers worden geïnformeerd over positieve en negatieve trends voor hun operationele eenheden. Managers kunnen inzoomen op de kostenelementhiërarchieën of op afzonderlijke kostenelementen om een gedetailleerd inzicht te verwerven in hoe kostenafwijkingen hebben plaatsgevonden. Vervolgens kunnen ze doeltreffende actie ondernemen. Met de Power BI-inhoud voor **Analyse kostprijsboekhouding** kunnen accountants analyseren hoe kosten de kostenobjecten van de gehele organisatie doorlopen. Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhouding](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau [Beveiliging instellen voor kostprijsboekhoudingsinhoud voor Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-U vindt de Power BI-inhoud voor **Kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en koppelt aan uw Microsoft Dynamics 365 for Operations-gegevens [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). **Opmerking:** KB4011327 is een vereiste voor de Power BI-inhoud voor **Analyse kostprijsboekhouding**.  Nadat u zich bij Lifecycle Services hebt aangemeld, kunt u de KB hier openen: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+U vindt de Power BI-inhoud voor **Kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en koppelt aan uw Microsoft Dynamics 365 for Operations-gegevens [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). 
+
+> OPMERKING - **KB4011327** is een vereistee voor deze Power BI-inhoud. Nadat u zich bij Lifecycle Services hebt aangemeld, kunt u de KB hier openen: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set metrische gegevens die worden gevisualiseerd als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de Power BI-inhoud voor **Analyse kostprijsboekhouding**.
@@ -117,5 +123,7 @@ Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten e
 -   [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI-tegels toevoegen aan werkruimten](configure-power-bi-integration.md)
 -   [Beveiliging instellen voor kostprijsboekhoudingsinhoud voor Power BI](setup-security-cost-accounting-content-pack.md)
+
+
 
 

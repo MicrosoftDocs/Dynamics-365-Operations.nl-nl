@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: f3234bf607ef9ce1643226894716b975a2c2a7b9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a12c5b0ab85ac336592941f1fb62aa62ddc5d40d
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -100,7 +101,7 @@ Informatie over korting wordt onder aan de pagina **Openstaande transacties vere
 | Toegepaste contantkorting          | 3,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 7,00      |
 
-Arnie wijzigt de waarde in het veld **Contantkorting gebruiken** terug naar **Normaal**, omdat hij deze klant niet de resterende contantkorting van 7,00 laat nemen. Vervolgens boekt Arnie de betaling. Wanneer Arnie de pagina** Klanttransacties** opent, ziet hij dat de factuur een saldo van 0,00 heeft. Hij ziet ook dat er twee betalingen zijn. Eén betaling is voor 297,00 en heeft 3,00 contantkorting en de andere betaling is voor 700,00.
+Arnie wijzigt de waarde in het veld **Contantkorting gebruiken** terug naar **Normaal**, omdat hij deze klant niet de resterende contantkorting van 7,00 laat nemen. Vervolgens boekt Arnie de betaling. Wanneer Arnie de pagina**Klanttransacties** opent, ziet hij dat de factuur een saldo van 0,00 heeft. Hij ziet ook dat er twee betalingen zijn. Eén betaling is voor 297,00 en heeft 3,00 contantkorting en de andere betaling is voor 700,00.
 
 | Boekstuk    | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: d635421112f6d1e79a47090de3ffc4178b36b132
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e63dd046587f29947c45b12a878ce7108bb1621e
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ Gedetailleerdheid van het leveringsbeleid dat in de hoofdplanning gebruikt wordt
 ## <a name="supply-policies"></a>Leveringsbeleid
 Met de gemengde planmodus van Dynamics 365 for Operations bepaalt hoe een product wordt geleverd en, op basis van de voorraad, hoe de afgeleide behoeften (verbruik van artikelen van een stuklijst) worden uitgegeven. Op basis van het ordertype vindt het systeem automatisch materialen om aan de vereisten te voldoen.  
 
-Het leveringsbeleid kan worden gedefinieerd op het productniveau of op elk niveau van gedetailleerdheid dat voldoet aan uw behoeften. U definieert de gedetailleerdheid van leveringsbeleid op de pagina **Standaard orderinstellingen **.  
+Het leveringsbeleid kan worden gedefinieerd op het productniveau of op elk niveau van gedetailleerdheid dat voldoet aan uw behoeften. U definieert de gedetailleerdheid van leveringsbeleid op de pagina **Standaard orderinstellingen**.  
 
 Het leveringsbeleid kan worden gecontroleerd per product, artikeldimensie (configuratie, kleur en grootte), site en magazijn. Deze instellingen worden uitgevoerd op de pagina **Artikelbehoefteplanning**.  
 

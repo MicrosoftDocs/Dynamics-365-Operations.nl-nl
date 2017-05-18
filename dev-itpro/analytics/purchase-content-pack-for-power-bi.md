@@ -3,7 +3,7 @@ title: Power BI-inhoud voor analyse van inkoopuitgaven
 description: In dit onderwerp wordt beschreven wat het inhoudpakket voor analyse van inkoopuitgaven voor Microsoft Power BI-bevat. In dit onderwerp wordt uitgelegd hoe u toegang kunt krijgen tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Power BI-inhoud voor analyse van inkoopuitgaven
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt beschreven wat het inhoudpakket voor analyse van inkoopuitgaven voor Microsoft Power BI-bevat. In dit onderwerp wordt uitgelegd hoe u toegang kunt krijgen tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
 
@@ -38,6 +42,7 @@ Het inhoudpakket voor analyse van inkoopuitgaven voor Microsoft Power BI is gema
 
 ## <a name="accessing-the-content-pack"></a>Toegang tot het inhoudpakket
 Het inhoudpakket voor analyse van inkoopuitgaven wordt gepubliceerd als een implementatieactivum in Microsoft Dynamics Lifecycle Services (LCS). U hebt er toegang toe vanuit Microsoft Dynamics 365 for Operations. Zie voor meer informatie over toegang tot en het openen van Power BI-rapporten [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
+Opmerking: KB 4011327 is een vereiste voor deze Power BI-inhoud. Nadat u zich bij Lifecycle Services hebt aangemeld, kunt u de KB hier openen: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>Metrische gegevens die zijn opgenomen in het inhoudpakket
 Het inhoudpakket voor analyse van inkoopuitgaven bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties die in het inhoudpakket worden gebruikt.
@@ -129,7 +134,7 @@ Het inhoudpakket voor analyse van inkoopuitgaven bevat een rapport dat uit een v
 \* Inkoop dit jaar en vorig jaar en groei per aanschaffingscategorie
 
 ## <a name="data-model-and-entities"></a>Gegevensmodel en entiteiten
-Gegevens uit Dynamics 365 for Operations worden gebruikt voor het rapport in het inhoudpakket voor analyse van inkoopuitgaven. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de Entiteitopslag. Dit is een Microsoft SQL-database die is geoptimaliseerd voor analyses. Zie voor meer informatie over de Entiteitopslag het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). De samengevoegde metingen in dit inhoudpakket zijn de subset van geaggregeerde metingen die beschikbaar waren in de Inkoop-cube in Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Operations 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). De volgende belangrijke samengevoegde metingen zijn rechtstreeks vanuit de entiteit Factuurregels beschikbaar en worden gebruikt als basis voor het inhoudpakket.
+Gegevens uit Dynamics 365 for Operations worden gebruikt voor het rapport in het inhoudpakket voor analyse van inkoopuitgaven. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de Entiteitopslag. Dit is een Microsoft SQL-database die is geoptimaliseerd voor analyses. Zie voor meer informatie over de Entiteitopslag het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). De samengevoegde metingen in dit inhoudpakket zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Inkoop-cube in Microsoft Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). De volgende belangrijke samengevoegde metingen zijn rechtstreeks vanuit de entiteit Factuurregels beschikbaar en worden gebruikt als basis voor het inhoudpakket.
 
 | Entiteit        | Belangrijke samengevoegde metingen | Gegevensbron voor Dynamics 365 for Operations | Veld              | Omschrijving                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -147,7 +152,7 @@ De volgende belangrijke dimensies in het inhoudpakket worden gebruikt als filter
 
 | Entiteit                 | Voorbeelden van kenmerken                                |
 |------------------------|-------------------------------------------------------|
-| Leveranciers                   | Leveranciersgroepen, Land/regio van leverancier, Leveranciersnaam |
+| Leveranciers                | Leveranciersgroepen, Land/regio van leverancier, Leveranciersnaam |
 | Producten               | Productnummer, Productnaam, Naam van artikelengroep        |
 | Inkoopcategorieën | Aanschaffingscategorie, namen van Aanschaffingscategorieën      |
 | Rechtspersonen         | Rechtspersoonnaam                                     |
@@ -162,6 +167,8 @@ Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten e
 -   [Organisatorische inhoudpakketten maken](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Power BI-tegels toevoegen aan werkruimten](configure-power-bi-integration.md)
+
+
 
 
 

@@ -3,7 +3,7 @@ title: Kostentoewijzingsmethode
 description: Dit artikel bevat richtlijnen voor het gebruik van de totale kostentoewijzing (TCA). TCA is een methode om de kosten te berekenen tussen het belangrijkste formuleartikel voor een batchorder en de coproducten die voor de formule zijn gedefinieerd.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Kostentoewijzingsmethode
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel bevat richtlijnen voor het gebruik van de totale kostentoewijzing (TCA). TCA is een methode om de kosten te berekenen tussen het belangrijkste formuleartikel voor een batchorder en de coproducten die voor de formule zijn gedefinieerd.
 
@@ -36,6 +40,11 @@ De totale kostentoewijzing (TCA) is een methode om de kosten te berekenen tussen
 Hieronder staan enkele richtlijnen voor het gebruik van TCA voor coproducten:
 
 -   Als u de schuifregelaar **Totale kostentoewijzing** instelt op **Ja** voor een formuleversie, moeten coproducten een kostprijs hebben die meer dan 0 (nul) is. De waarde kan worden opgehaald van de actieve kostprijsversie voor dezelfde locatie, of voor de eerste locatie voor een formule die niet sitespecifiek is. Deze voorwaarde wordt gevalideerd wanneer de formule wordt goedgekeurd.
+
+    -   U hoeft niet handmatig kostentoewijzingspercentages in te voeren voor coproducten. In plaats daarvan stelt het systeem automatisch het kostentoewijzingspercentage vast als het gemiddelde van de actieve kostprijzen van coproducten. 
+    -   U hoeft geen standaardkostprijs in te voeren voor niet-standaard kostenartikelen die coproducten zijn. Er zijn twee typen kostprijsberekeningsversies in het systeem: standaardkosten en geplande kosten 
+    -   Als een artikel niet wordt gewaardeerd door de standaardwaarderingsmethode, adviseren wij u een actieve kostprijs te gebruiken in de geplande kostenversie. Deze prijs wordt gebruikt voor kostenraming, bijvoorbeeld stuklijstberekening raming van de productiekosten en terugvalprijs in het voorraadwaarderingsproces. 
+
 -   Als u de schuifregelaar **Totale kostentoewijzing** instelt op **Ja** voor de formuleversie en de volgende condities waar zijn, is de kostentoewijzingsmethode **TCA** en is het percentage van kostentoewijzing ongewijzigd:
     -   U hebt coproducten toegevoegd.
     -   U hebt een andere kostentoewijzingsmethode voor de coproducten gebruikt.
@@ -53,6 +62,8 @@ Het veld **Kostentoewijzing bijproduct** op de pagina **Coproducten** is een ops
 -   **Percentage**: het kostenbedrag wordt berekend als percentage van de totale kosten van grondstoffen die worden verbruikt in de productie. Het percentage dat wordt gebruikt voor de berekening, wordt ingevoerd in het veld.
 -   **Per reeks**: het kostenbedrag wordt berekend als een bedrag per standaardbatchgrootte van de productieorder. Dit bedrag is onafhankelijk van de gerapporteerde hoeveelheid in de productie. Het bedrag dat wordt gebruikt voor de berekening, wordt ingevoerd in het veld.
 -   **Per hoeveelheid**: het kostenbedrag wordt berekend als een bedrag per gerapporteerde hoeveelheid van het formuleartikel in de productie. Het bedrag dat wordt gebruikt voor de berekening, wordt ingevoerd in het veld.
+
+
 
 
 
