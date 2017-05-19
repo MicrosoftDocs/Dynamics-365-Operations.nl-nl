@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ De ER-engine biedt de volgende mogelijkheden:
 ## <a name="concepts"></a>Concepten
 ### <a name="components"></a>Onderdelen
 
-ER ondersteunt twee typen onderdelen: **Gegevensmodel **en **Indeling**.
+ER ondersteunt twee typen onderdelen: **Gegevensmodel**en **Indeling**.
 
 #### <a name="data-model-components"></a>Gegevensmodelonderdelen
 
@@ -93,9 +94,9 @@ Een indelingsonderdeel biedt de mogelijkheid om specifieke bestanden toe te voeg
 Versiebeheer wordt ondersteund voor ER-onderdelen. De volgende werkstroom wordt opgegeven voor het beheren van wijzigingen in ER-onderdelen:
 
 -   De versie die oorspronkelijk is gemaakt, wordt gemarkeerd als een **CONCEPT**-versie. Deze versie kan worden bewerkt en is beschikbaar voor testruns.
--   De** CONCEPT**-versie kan worden geconverteerd naar een **VOLTOOIDE** versie. Deze versie kan worden gebruikt in lokale rapportageprocessen.
+-   De**CONCEPT**-versie kan worden geconverteerd naar een **VOLTOOIDE** versie. Deze versie kan worden gebruikt in lokale rapportageprocessen.
 -   De **VOLTOOIDE** versie kan worden geconverteerd naar een **GEDEELDE** versie. Deze versie is gepubliceerd in LCS en kan worden gebruikt in algemene rapportageprocessen.
--   De **GEDEELDE **versie kan worden geconverteerd naar een **VERVALLEN** versie. Deze versie kan vervolgens worden verwijderd.
+-   De **GEDEELDE**versie kan worden geconverteerd naar een **VERVALLEN** versie. Deze versie kan vervolgens worden verwijderd.
 
 Versies met de status VOLTOOID of **GEDEELD** zijn beschikbaar voor andere gegevensuitwisseling. Op een onderdeel dat deze statussen heeft kunnen deze acties worden uitgevoerd:
 
@@ -104,7 +105,7 @@ Versies met de status VOLTOOID of **GEDEELD** zijn beschikbaar voor andere geg
 
 #### <a name="component-date-effectivity"></a>Effectivity van de componentdatum
 
-Versies van ER-onderdelen zijn datumeffectief. De datum** Geldig vanaf **kan worden gedefinieerd voor een ER-onderdeel om de datum op te geven waarop een onderdeel geldig wordt voor rapportageprocessen. De datum van de Dynamics 365 for Operations-sessie wordt gebruikt om te bepalen of een component voor uitvoering geldig is. Als meer dan één versie geldig is voor een specifieke datum, wordt de meest recente versie gebruikt voor rapportageprocessen.
+Versies van ER-onderdelen zijn datumeffectief. De datum**Geldig vanaf**kan worden gedefinieerd voor een ER-onderdeel om de datum op te geven waarop een onderdeel geldig wordt voor rapportageprocessen. De datum van de Dynamics 365 for Operations-sessie wordt gebruikt om te bepalen of een component voor uitvoering geldig is. Als meer dan één versie geldig is voor een specifieke datum, wordt de meest recente versie gebruikt voor rapportageprocessen.
 
 #### <a name="component-access"></a>Componenttoegang
 
@@ -112,7 +113,7 @@ Toegang tot ER-indelingsonderdelen is afhankelijk van de instelling voor de ISO 
 
 #### <a name="configuration"></a>Configuratie
 
-Een ER-configuratie is de wrapper van een bepaald ER-onderdeel, **Gegevensmodel **of **Indeling**. Een configuratie kan verschillende versies van een bepaald ER-onderdeel bevatten. Elke configuratie is gemarkeerd als eigendom van een bepaalde configuratieprovider. De **CONCEPT**-versie van een onderdeel van een configuratie kan worden bewerkt als de eigenaar van de configuratie als een actieve provider is geselecteerd in de ER-instellingen in Dynamics 365 for Operations. Elke modelconfiguratie bevat een onderdeel **Gegevensmodel**. Een nieuwe indelingsconfiguratie kan afkomstig zijn (worden afgeleid) van een specifieke gegevensmodelconfiguratie. De indelingsconfiguratie die wordt gemaakt wordt gepresenteerd in de configuratiestructuur als een onderliggend element van de oorspronkelijke gegevensmodelconfiguratie. De indelingsconfiguratie die wordt gemaakt bevat een onderdeel **Indeling**. Het onderdeel **Gegevensmodel** van de oorspronkelijke modelconfiguratie wordt automatisch standaard gegevensbron ingevoegd in het onderdeel **Indeling **van de onderliggende indelingsconfiguratie. Een ER-configuratie wordt gedeeld voor Dynamics 365 for Operations-bedrijven.
+Een ER-configuratie is de wrapper van een bepaald ER-onderdeel, **Gegevensmodel**of **Indeling**. Een configuratie kan verschillende versies van een bepaald ER-onderdeel bevatten. Elke configuratie is gemarkeerd als eigendom van een bepaalde configuratieprovider. De **CONCEPT**-versie van een onderdeel van een configuratie kan worden bewerkt als de eigenaar van de configuratie als een actieve provider is geselecteerd in de ER-instellingen in Dynamics 365 for Operations. Elke modelconfiguratie bevat een onderdeel **Gegevensmodel**. Een nieuwe indelingsconfiguratie kan afkomstig zijn (worden afgeleid) van een specifieke gegevensmodelconfiguratie. De indelingsconfiguratie die wordt gemaakt wordt gepresenteerd in de configuratiestructuur als een onderliggend element van de oorspronkelijke gegevensmodelconfiguratie. De indelingsconfiguratie die wordt gemaakt bevat een onderdeel **Indeling**. Het onderdeel **Gegevensmodel** van de oorspronkelijke modelconfiguratie wordt automatisch standaard gegevensbron ingevoegd in het onderdeel **Indeling**van de onderliggende indelingsconfiguratie. Een ER-configuratie wordt gedeeld voor Dynamics 365 for Operations-bedrijven.
 
 #### <a name="provider"></a>Aanbieder
 
@@ -120,7 +121,7 @@ De ER-provider is de partij-id die wordt gebruikt om de auteur (eigenaar) van el
 
 #### <a name="repository"></a>Opslagplaats
 
-In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-opslagplaatsen worden momenteel ondersteund: **Operations-resources** en **LCS-project**. Een opslagplaats Operations-resources biedt toegang tot de lijst met configuraties die als onderdeel van de Dynamics 365 for Operations-oplossing zijn vrijgegeven door Microsoft als ER-configuratieprovider. Deze configuraties kunnen worden geïmporteerd in het huidige exemplaar van Dynamics 365 for Operations en worden gebruikt voor elektronische rapportage. Zij kunnen ook worden gebruikt voor extra lokalisaties/aanpassingen. Een opslagplaats **LCS-project **biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd in de fase van registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige Dynamics 365 for Operations-exemplaar naar een bepaalde opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van Dynamics 365 for Operations. Vereiste opslagplaatsen voor **LCS-projecten** kunnen afzonderlijk worden geregistreerd voor elke configuratieprovider van het huidige Dynamics 365 for Operations-exemplaar. Elke opslagplaats kan aan een specifieke configuratieprovider zijn gekoppeld.
+In een ER-opslagplaats worden ER-configuraties opgeslagen. De volgende typen ER-opslagplaatsen worden momenteel ondersteund: **Operations-resources** en **LCS-project**. Een opslagplaats Operations-resources biedt toegang tot de lijst met configuraties die als onderdeel van de Dynamics 365 for Operations-oplossing zijn vrijgegeven door Microsoft als ER-configuratieprovider. Deze configuraties kunnen worden geïmporteerd in het huidige exemplaar van Dynamics 365 for Operations en worden gebruikt voor elektronische rapportage. Zij kunnen ook worden gebruikt voor extra lokalisaties/aanpassingen. Een opslagplaats **LCS-project**biedt toegang tot de lijst met configuraties van een specifiek LCS-project (activabibliotheek voor LCS-project) dat is geselecteerd in de fase van registratie van de opslagplaats. Via ER kunt u gedeelde configuraties uploaden vanuit het huidige Dynamics 365 for Operations-exemplaar naar een bepaalde opslagplaats voor **LCS-projecten**. U kunt ook configuraties importeren vanuit een bepaalde opslagplaats voor **LCS-projecten** in het huidige exemplaar van Dynamics 365 for Operations. Vereiste opslagplaatsen voor **LCS-projecten** kunnen afzonderlijk worden geregistreerd voor elke configuratieprovider van het huidige Dynamics 365 for Operations-exemplaar. Elke opslagplaats kan aan een specifieke configuratieprovider zijn gekoppeld.
 
 ## <a name="supported-scenarios"></a>Ondersteunde scenario's
 ### <a name="building-a-data-model"></a>Een gegevensmodel maken
@@ -154,7 +155,7 @@ De indelingsontwerper van ER kan worden gebruikt om een bepaald elektronisch doc
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Een ontworpen indelingsonderdeel opslaan in een indelingsconfiguratie
 
-ER kan een ontworpen indeling samen met de geconfigureerde gegevenstoewijzingen opslaan als een indelingsconfiguratie van het huidige Dynamics 365 for Operations-exemplaar. In de voorgaande afbeelding wordt een voorbeeld gegeven van dit type indelingsconfiguratie (**BACS (UK)**, die is een onderliggend element vormt van de configuratie **Betalingsmodel **). Speel de taakbegeleider **ER Ontwerp domeinspecifieke indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+ER kan een ontworpen indeling samen met de geconfigureerde gegevenstoewijzingen opslaan als een indelingsconfiguratie van het huidige Dynamics 365 for Operations-exemplaar. In de voorgaande afbeelding wordt een voorbeeld gegeven van dit type indelingsconfiguratie (**BACS (UK)**, die is een onderliggend element vormt van de configuratie **Betalingsmodel**). Speel de taakbegeleider **ER Ontwerp domeinspecifieke indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
 
 ### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Dynamics 365 for Operations configureren om een gemaakte indeling intern te gaan gebruiken
 
@@ -169,11 +170,11 @@ Speel de taakbegeleiding **ER Gebruik indeling om nieuwe elektronische documente
 ## <a name="handling-er-components"></a>ER-onderdelen verwerken
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Een ER-onderdeel publiceren in LCS om dit extern aan te bieden (lokalisatie)
 
-De eigenaar van een onderdeel (model of indeling) dat is gemaakt, kan ER gebruiken voor het publiceren van de voltooide versie van het onderdeel naar LCS. Een opslagplaats van het type **LCS-project **voor de huidige ER-configuratieprovider is vereist. Als de status van de voltooide versie van een onderdeel wordt gewijzigd van **VOLTOOID** naar **GEDEELD**, wordt die versie gepubliceerd in LCS. Wanneer een onderdeel is gepubliceerd naar LCS, wordt de eigenaar van dit onderdeel een provider van de service om het onderdeel te ondersteunen. Als bijvoorbeeld de indelingsonderdeel is ontworpen om een wettelijk vereist elektronisch document te genereren (bijvoorbeeld in overeenstemming met een lokalisatiescenario), wordt ervan uitgegaan dat de indeling in overeenstemming met de wettelijke wijzigingen wordt gehouden en dat de provider nieuwe versies van het onderdeel zal uitgeven telkens wanneer moet worden voldaan aan nieuwe wettelijke vereisten. Speel de taakbegeleider **ER Een configuratie naar Lifecycle Services uploaden **af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+De eigenaar van een onderdeel (model of indeling) dat is gemaakt, kan ER gebruiken voor het publiceren van de voltooide versie van het onderdeel naar LCS. Een opslagplaats van het type **LCS-project**voor de huidige ER-configuratieprovider is vereist. Als de status van de voltooide versie van een onderdeel wordt gewijzigd van **VOLTOOID** naar **GEDEELD**, wordt die versie gepubliceerd in LCS. Wanneer een onderdeel is gepubliceerd naar LCS, wordt de eigenaar van dit onderdeel een provider van de service om het onderdeel te ondersteunen. Als bijvoorbeeld de indelingsonderdeel is ontworpen om een wettelijk vereist elektronisch document te genereren (bijvoorbeeld in overeenstemming met een lokalisatiescenario), wordt ervan uitgegaan dat de indeling in overeenstemming met de wettelijke wijzigingen wordt gehouden en dat de provider nieuwe versies van het onderdeel zal uitgeven telkens wanneer moet worden voldaan aan nieuwe wettelijke vereisten. Speel de taakbegeleider **ER Een configuratie naar Lifecycle Services uploaden**af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>Een ER-onderdeel importeren vanuit LCS om dit intern te maken
 
-Met ER kunt u ER-onderdelen vanuit LCS importeren naar het huidige exemplaar van Dynamics 365 for Operations. Een opslagplaats van het type **LCS-project **is vereist. Wanneer een ER-onderdeel vanuit LCS naar het huidige Dynamics 365 for Operations-exemplaar is geïmporteerd, wordt de eigenaar van het Dynamics AX-exemplaar een consument van de service die door de eigenaar (auteur) van het geïmporteerde onderdeel wordt aangeboden. Als bijvoorbeeld een indelingsonderdeel is ontworpen om vanuit Dynamics 365 for Operations een specifiek elektronisch document te genereren in een bepaalde land-/regiospecifieke indeling (lokalisatiescenario), wordt ervan uitgegaan dat de consument van de service in staat is updates te verkrijgen die worden uitgevoerd voor die indeling om ervoor te zorgen dat de indeling aan de wettelijke vereisten voldoet. Speel de taakbegeleider **ER Een configuratie vanuit Lifecycle Services importeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+Met ER kunt u ER-onderdelen vanuit LCS importeren naar het huidige exemplaar van Dynamics 365 for Operations. Een opslagplaats van het type **LCS-project**is vereist. Wanneer een ER-onderdeel vanuit LCS naar het huidige Dynamics 365 for Operations-exemplaar is geïmporteerd, wordt de eigenaar van het Dynamics AX-exemplaar een consument van de service die door de eigenaar (auteur) van het geïmporteerde onderdeel wordt aangeboden. Als bijvoorbeeld een indelingsonderdeel is ontworpen om vanuit Dynamics 365 for Operations een specifiek elektronisch document te genereren in een bepaalde land-/regiospecifieke indeling (lokalisatiescenario), wordt ervan uitgegaan dat de consument van de service in staat is updates te verkrijgen die worden uitgevoerd voor die indeling om ervoor te zorgen dat de indeling aan de wettelijke vereisten voldoet. Speel de taakbegeleider **ER Een configuratie vanuit Lifecycle Services importeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Een indeling maken door een andere indeling als basis te selecteren (aanpassing)
 

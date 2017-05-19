@@ -18,10 +18,11 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c0bc5b5d86956336012096c11d0d7621abab1f9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d8296dd0347a325a9ff3bd06f558d161ab4030dc
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Het gewicht en de kosten van het verpakkingsmateriaal worden voor zowel verkoop-
 
 U definieert een of meer verpakkingseenheden voor een artikel, voor een verpakkingsgroep van artikelen of voor alle artikelen. Een verpakking bestaat uit de verschillende verpakkingsmaterialen en het gewicht daarvan plus het aantal artikelen in de verpakking. Een verpakkingsmateriaalcode wordt toegewezen aan elk type verpakkingsmateriaal dat is gedefinieerd. Op basis van de verpakkingsmateriaalcode kunt u een prijs opgeven voor een bepaalde periode. De kosten van het verpakkingsmateriaal worden berekend op basis van deze informatie.
 
-| **Opmerking **                                                                                                                                             |
+| **Opmerking**                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ook als er door uw bedrijf geen kosten voor verpakkingsmateriaal worden betaald, kunt u toch met deze functie statistieken voor het gewicht van het verpakkingsmateriaal berekenen. |
 

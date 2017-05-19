@@ -1,9 +1,9 @@
 ---
-title: Elektronische rapportage instellen om Power BI gegevens uit Dynamics 365 for Operations te verschaffen
+title: Elektronische aangifte configureren om gegevens op te halen in Power BI
 description: In dit onderwerp wordt beschreven hoe u uw ER-configuratie kunt gebruiken om gegevens van uw exemplaar van Dynamics 365 for Operations over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>Elektronische rapportage instellen om Power BI gegevens uit Dynamics 365 for Operations te verschaffen
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Elektronische aangifte configureren om gegevens op te halen in Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt beschreven hoe u uw ER-configuratie kunt gebruiken om gegevens van uw exemplaar van Dynamics 365 for Operations over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
 
@@ -61,7 +65,7 @@ Om het voorbeeld in dit onderwerp te kunnen voltooien, moet u over de volgende t
 3.  Maak in de werkruimte **Elektronische rapportage** de vereiste provider actief door te klikken op **Instellen als actief**. Speel voor meer informatie de taakbegeleiding **ER-serviceprovider selecteren** af.
 
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Een ER-gegevensmodel als de bron van gegevens selecteren
-U moet een ER-gegevensmodel hebben als bron van zakelijke gegevens die worden gebruikt voor Power BI-rapporten. Dit gegevensmodel wordt geüpload vanuit de opslagplaats voor ER-configuraties. Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](download-electronic-reporting-configuration-lcs.md) of speel de taakbegeleiding **Een ER-configuratie vanuit Lifecycle Services importeren** af. Selecteer **Intrastat **als het te uploaden gegevensmodel vanuit de geselecteerde opslagplaats voor ER-configuraties. (In dit voorbeeld wordt versie 1 van het model gebruikt.) U kunt vervolgens toegang krijgen tot de configuratie **Intrastat** ER-model op de pagina **Configuraties**. [![Pagina Configuraties](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+U moet een ER-gegevensmodel hebben als bron van zakelijke gegevens die worden gebruikt voor Power BI-rapporten. Dit gegevensmodel wordt geüpload vanuit de opslagplaats voor ER-configuraties. Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](download-electronic-reporting-configuration-lcs.md) of speel de taakbegeleiding **Een ER-configuratie vanuit Lifecycle Services importeren** af. Selecteer **Intrastat** als het te uploaden gegevensmodel vanuit de geselecteerde opslagplaats voor ER-configuraties. (In dit voorbeeld wordt versie 1 van het model gebruikt.) U kunt vervolgens toegang krijgen tot de configuratie **Intrastat** ER-model op de pagina **Configuraties**. [![Pagina Configuraties](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Een configuratie voor de ER-indeling ontwerpen
 U moet een nieuwe configuratie voor de ER-indeling maken waarbij het gegevensmodel **Intrastat** als bron van zakelijke gegevens wordt gebruikt. Deze indelingsconfiguratie moet uitvoerresultaten als elektronische documenten in de indeling OpenXML (Excel-bestand) genereren. Speel voor meer informatie de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af. Geef de nieuwe configuratie de naam **Import-/exportactiviteiten**, zoals in de volgende afbeelding. Gebruik het Excel-bestand [ER-gegevens - import- en exportdetails](https://go.microsoft.com/fwlink/?linkid=845208) als sjabloon wanneer u de ER-indeling ontwerpt. (Voor meer informatie over het importeren van een indelingssjabloon, speelt u de taakbegeleider af.) [![Configuratie van import-/exportactiviteiten](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) Als u de indelingsconfiguratie **Import-/exportactiviteiten** wilt wijzigen, voert u de volgende stappen uit.
@@ -77,7 +81,7 @@ U moet een nieuwe configuratie voor de ER-indeling maken waarbij het gegevensmod
     [![richting\_opsomm](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
 5.  Voltooi de binding van elementen van het gegevensmodel **Intrastat** en elementen van de ontworpen indeling, zoals in de volgende afbeelding. [![De binding voltooien](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
 
-Nadat deze is uitgevoerd, genereert de ER-indeling het uitvoerresultaat in de Excel-indeling. De details van de Intrastat-transacties worden naar het uitvoerresultaat verzonden en hierbij wordt onderscheid gemaakt tussen de transacties die importactiviteiten en exportactiviteiten beschrijven. Klik op **Uitvoeren** om de nieuwe ER-indeling voor de lijst met Intrastat-transacties op de pagina **Intrastat** (**Belasting** &gt; **Aangiften** &gt; **Buitenlandse handel** &gt; **Intrastat**) te testen. [![Intrastat page](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png) Het volgende uitvoerresultaat wordt gegenereerd. Het bestand wordt **Import- en exportdetails.xlsx** genoemd, zoals u in de indelingsinstellingen hebt opgegeven. [![Import- en exportdetails.xlsx](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
+Nadat deze is uitgevoerd, genereert de ER-indeling het uitvoerresultaat in de Excel-indeling. De details van de Intrastat-transacties worden naar het uitvoerresultaat verzonden en hierbij wordt onderscheid gemaakt tussen de transacties die importactiviteiten en exportactiviteiten beschrijven. Klik op **Uitvoeren** om de nieuwe ER-indeling voor de lijst met Intrastat-transacties op de pagina **Intrastat** (**Belasting** &gt; **Aangiften** &gt; **Buitenlandse handel** &gt; **Intrastat**) te testen. [![Pagina Intrastat](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png) Het volgende uitvoerresultaat wordt gegenereerd. Het bestand wordt **Import- en exportdetails.xlsx** genoemd, zoals u in de indelingsinstellingen hebt opgegeven. [![Import- en exportdetails.xlsx](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
 
 ## <a name="configure-the-er-destination"></a>De ER-bestemming configureren
 U moet het ER-framework configureren om het uitvoerresultaat van de nieuwe ER-indelingsconfiguratie op een speciale manier te verzenden.
@@ -119,5 +123,7 @@ Stel de integratie tussen Dynamics 365 for Operations en Power BI in. Zie [Power
 [Bestemmingen voor elektronische rapportage](electronic-reporting-destinations.md)
 
 [Overzicht van elektronische rapportage](general-electronic-reporting.md)
+
+
 
 

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
@@ -19,15 +19,19 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: b2f59db59ea49925c3bb5e1d75beee95191220d0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 6e52ba4bdb8e879959ff886010092914332e6e12
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="define-channel-specific-discounts"></a>Kanaalspecifieke kortingen definiëren
+
+[!include[banner](includes/banner.md)]
+
 
 Detailhandelaren stellen vaak verschillende kortingen voor verschillende afzetkanalen in. In dit onderwerp komen de concepten aan bod die u moet kennen om een korting voor een bepaald afzetkanaal te maken. 
 
@@ -39,14 +43,15 @@ Detailhandelaren bieden vaak verschillende kortingen in verschillende afzetkanal
 Detailhandel en commerce in Microsoft Dynamics 365 for Operations gebruikt prijsgroepen om kanaalspecifieke kortingen te definiëren. De prijsgroepen kunnen aan een of meer van de volgende entiteiten worden toegewezen: kanalen, catalogi, aansluitingen, en loyaliteitsprogramma's. Dit artikel bespreekt kanalen, maar dezelfde concepten gelden voor cataloguskortingen, aansluitingskortingen, en loyaliteitskortingen.
 
 ## <a name="price-groups"></a>Prijsgroepen
-\[caption id="attachment\_256084" align="alignnone" width="640"\][![Prijsgroepen](./media/price-groups-1024x608.png)](./media/price-groups.png) Prijsgroepskoppelingen voor Detailhandel\[/caption\]
+
+[![Prijsgroepen](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 Het bovenstaande diagram illustreert de relatie tussen entiteiten die mogelijk in een transactie aanwezig zijn (kanaal, catalogus, klant, klantenbindingskaart) en de verschillende kortingssoorten die kunnen worden geconfigureerd. Alle transacties vinden plaats in een kanaal. Het kanaal is dus gegarandeerd aanwezig in een transactie. De resterende entiteiten zijn optioneel. Op elke hoofdgegevenspagina is er een koppeling naar een bijbehorende prijsgroepenpagina waar u desgewenst prijsgroepen kunt weergeven en toevoegen. Een prijsgroep wordt gebruikt om vier verschillende typen entiteiten te verbinden met kortingen, prijscorrecties en handelsovereenkomsten. Het is raadzaam een strategie te plannen voor de wijze waarop u uw prijsgroepen benoemt om ze georganiseerd te houden. U kunt bijvoorbeeld voorvoegsel of achtervoegsel in de vorm van een letter of getal gebruiken om onderscheid te maken tussen de verschillende typen. Bijvoorbeeld: 1-xxxxx voor kanaalprijsgroepen en 2-xxxxx voor catalogusprijsgroepen. Er zijn vier querypagina's die zich op elk van de detailhandelsentiteiten richten en waaraan kortingen kunnen worden gekoppeld.
 
--   **Prijsgroepen detailhandelkanaal **- Deze pagina bevat een lijst van kanalen en kortingen samen voor elke prijsgroep.
--   **Catalogusprijsgroepen **- Deze pagina bevat een lijst van catalogi en kortingen samen voor elke prijsgroep.
--   **Loyaliteitsprijsgroepen **- Deze pagina bevat een lijst van loyaliteitsprogramma´s en kortingen samen voor elke prijsgroep.
--   **Prijsgroepen voor aansluitingen **- Deze pagina bevat een lijst van aansluitingen en kortingen samen voor elke prijsgroep.
+-   **Prijsgroepen detailhandelkanaal** - Deze pagina bevat een lijst van kanalen en kortingen samen voor elke prijsgroep.
+-   **Catalogusprijsgroepen** - Deze pagina bevat een lijst van catalogi en kortingen samen voor elke prijsgroep.
+-   **Loyaliteitsprijsgroepen** - Deze pagina bevat een lijst van loyaliteitsprogramma´s en kortingen samen voor elke prijsgroep.
+-   **Prijsgroepen voor aansluitingen** - Deze pagina bevat een lijst van aansluitingen en kortingen samen voor elke prijsgroep.
 
 ## <a name="example-channel-discount-set-up"></a>Voorbeeld van kanaalkorting instellen
 Het volgende voorbeeld illustreert de taken die bij het instellen van een kanaalkorting moeten worden uitgevoerd.
@@ -63,5 +68,7 @@ Het volgende voorbeeld illustreert de taken die bij het instellen van een kanaal
 --------
 
 [Acties en kortingen](price-adjustments-discounts.md)
+
+
 
 

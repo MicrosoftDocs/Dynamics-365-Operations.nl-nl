@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 1fcdf262ee1e7e1fbbdd0a5fed46fb1867f8d8fd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a9794dd5bf62630ec815aaf42a032f61dbedc5dd
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -43,7 +44,7 @@ Hieronder staan enkele voorbeelden van manieren waarop u voorraadstatussen kunt 
 
 Een voorraadstatus is een van de dimensies in de opslagdimensiegroep. Voorraadstatussen kunnen worden gecategoriseerd als beschikbaar of als niet-beschikbaar en u kunt de parameter **Voorraadblokkering** gebruiken om artikelen te blokkeren met een niet-beschikbare voorraadstatus. De artikelen met een geblokkeerde status worden beschouwd als fysieke voorraad en kunnen niet op een productieorder, een verkooporder, een transferorder of een uitgaande transactie worden gebruikt. 
 
-U kunt magazijnartikelen met beschikbare of niet-beschikbare voorraadstatussen voor inkomend werk gebruiken. U maakt bijvoorbeeld een beschikbare status met de naam **Gereed**, een niet-beschikbare status met de naam **Beschadigd** en een geblokkeerde status met de naam **Geblokkeerd**. Wanneer u een inkooporder voor ontvangen of geretourneerde artikelen maakt als er artikelen gebroken zijn of beschadigd, kunt u de voorraadstatus van deze artikelen wijzigen in **Beschadigd ** op de inkooporderregel. Nadat deze artikelen zijn ontvangen, wordt de status automatisch ingesteld op **Geblokkeerd**. Als u de beschadigde artikelen met een mobiel apparaat scant, kan Microsoft Dynamics 365 for Operations locatierichtlijnen en werksjablonen gebruiken om informatie over een geschikte locatie of een bereik met locaties weer te geven waar u die artikelen kunt wegzetten. Voor geretourneerde artikelen wordt een uitgiftetype van **Reservering** gemaakt op de pagina **Voorraadtransacties**. 
+U kunt magazijnartikelen met beschikbare of niet-beschikbare voorraadstatussen voor inkomend werk gebruiken. U maakt bijvoorbeeld een beschikbare status met de naam **Gereed**, een niet-beschikbare status met de naam **Beschadigd** en een geblokkeerde status met de naam **Geblokkeerd**. Wanneer u een inkooporder voor ontvangen of geretourneerde artikelen maakt als er artikelen gebroken zijn of beschadigd, kunt u de voorraadstatus van deze artikelen wijzigen in **Beschadigd** op de inkooporderregel. Nadat deze artikelen zijn ontvangen, wordt de status automatisch ingesteld op **Geblokkeerd**. Als u de beschadigde artikelen met een mobiel apparaat scant, kan Microsoft Dynamics 365 for Operations locatierichtlijnen en werksjablonen gebruiken om informatie over een geschikte locatie of een bereik met locaties weer te geven waar u die artikelen kunt wegzetten. Voor geretourneerde artikelen wordt een uitgiftetype van **Reservering** gemaakt op de pagina **Voorraadtransacties**. 
 
 Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als u artikelen met de status van **Gebroken** hebt en de hoofdplanning op deze artikelen wordt uitgevoerd, worden de artikelen als ontbrekend beschouwd en wordt de voorraad automatisch aangevuld. 
 

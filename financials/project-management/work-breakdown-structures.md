@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 1666691ec122e65128b74056817a0c40551f49b5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c85c90feb7f314db6b47f64402f8b9455ed53d9d
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Om de werkdagen en de werkuren voor een kalender in te stellen of een nieuwe kal
 Om de volledige kostenramingsmogelijkheden van WBS te benutten, moet u de kosten en verkoopprijzen voor werknemers, arbeidscategorieën, onkosten, kosten en artikelen instellen.
 
 -   Om de kosten en de verkoopprijs van arbeid, onkosten en kostencategorieën in te stellen, klikt u op **Projectbeheer en boekhouding** &gt; **Instellen** &gt; **Prijzen**.
--   Om de kosten en verkoopprijs van artikelen in testellen, gebruikt u de pagina **Handelsovereenkomsten ** voor elk artikel op de lijstpagina **Vrijgegeven producten** in Productgegevensbeheer.
+-   Om de kosten en verkoopprijs van artikelen in testellen, gebruikt u de pagina **Handelsovereenkomsten** voor elk artikel op de lijstpagina **Vrijgegeven producten** in Productgegevensbeheer.
 
 ## <a name="creating-a-wbs"></a>Een WBS maken
 Voor het maken van een WBS zijn drie activiteiten nodig:

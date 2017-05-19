@@ -3,7 +3,7 @@ title: Microsoft Dynamics 365 for Operations - Magazijnbeheer installeren en con
 description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Operations - Magazijnbeheer installeert en configureert.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Operations - Magazijnbeheer installeren en configureren
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Operations - Magazijnbeheer installeert en configureert.
 
@@ -67,7 +71,7 @@ Als u de app wilt laten samenwerken met een specifieke Dynamics 365 for Operatio
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Een gebruikersaccount in Dynamics 365 for Operations maken en configureren
 Om ervoor te zorgen dat Dynamics 365 for Operations uw Azure AD-toepassing kan gebruiken, moet u de volgende configuratiestappen uitvoeren:
 
-1.  Maak een nieuwe gebruikersaccount in Azure Active Directory voor de Dynamics 365 for Operations-tenant. Het doel van deze gebruikersaccount is toegang te verkrijgen tot de specifieke aangepaste service van de app Magazijnbeheer die de Dynamics 365 for Operations-server weergeeft. Na het voltooien van deze stap hebt u WMDP-gebruikersreferenties, die bestaan uit een WMDP-e-mailadres en een WMDP-wachtwoord. Voor meer informatie over de basisstappen voor het toevoegen van gebruikers aan Azure AD en Dynamics 365 for Operations, raadpleegt u deze zelfstudie: [Aanmelden voor een Microsoft Dynamics 365 for Operations-abonnement](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Maak een nieuwe gebruikersaccount in Azure Active Directory voor de Dynamics 365 for Operations-tenant. Het doel van deze gebruikersaccount is toegang te verkrijgen tot de specifieke aangepaste service van de app Magazijnbeheer die de Dynamics 365 for Operations-server weergeeft. Na het voltooien van deze stap hebt u WMDP-gebruikersreferenties, die bestaan uit een WMDP-e-mailadres en een WMDP-wachtwoord. Voor meer informatie over de basisstappen voor het toevoegen van gebruikers aan Azure AD en Dynamics 365 for Operations, raadpleegt u deze zelfstudie: [Aanmelden voor een Microsoft Dynamics 365 for Operations-abonnement](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Maak een Dynamics 365 for Operations-gebruiker die met de gebruikersreferenties van de app Magazijnbeheer overeenkomt.
     1.  Ga in Dynamics 365 for Operations naar **Systeembeheer** &gt; **Algemeen** &gt; **Gebruikers**.
     2.  Maak een nieuwe gebruiker.
@@ -98,6 +102,8 @@ In geval van een verloren of beschadigd apparaat moet u de toegang tot Dynamics 
 6.  Klik op het tabblad **Configureren**, blader omlaag en zorg ervoor dat de **Client-ID** van de toepassing hetzelfde is als in stap 2 in dit gedeelte.
 7.  Klik op de knop **Verwijderen** op de opdrachtbalk.
 8.  Klik op **Ja** in het bevestigingsbericht.
+
+
 
 
 

@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Elektronische rapportageconfiguraties downloaden van Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u configuraties voor Elektronische rapportage (ER) kunt downloaden vanuit Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -43,9 +47,10 @@ Deze zelfstudie begeleidt u door het proces voor het downloaden van de nieuwste 
     1.  Klik op **Toevoegen** en voeg een nieuwe opslagplaats toe.
     2.  Selecteer **LCS** als opslagplaatstype.
     3.  Klik op **Opslagplaats maken**.
-    4.  Voer een naam en een beschrijving in voor de opslagplaats.
-    5.  Klik op **OK** om de nieuwe opslagplaats te bevestigen.
-    6.  Selecteer in het raster de nieuwe opslagplaats van het type **LCS**.
+    4. Volg de instructies van de autorisatie als hierom wordt gevraagd.
+    5.  Voer een naam en een beschrijving in voor de opslagplaats.
+    6.  Klik op **OK** om de nieuwe opslagplaats te bevestigen.
+    7.  Selecteer in het raster de nieuwe opslagplaats van het type **LCS**.
 
 6.  Klik op **Openen** om de lijst met ER-configuraties voor de geselecteerde opslagplaats weer te geven. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Selecteer in de boomstructuur van het linkervenster de gewenste ER-configuratie.
@@ -58,5 +63,7 @@ Deze zelfstudie begeleidt u door het proces voor het downloaden van de nieuwste 
 --------
 
 [Overzicht van elektronische rapportage](general-electronic-reporting.md)
+
+
 
 

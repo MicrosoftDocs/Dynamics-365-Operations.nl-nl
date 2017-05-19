@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8b13d734c22203618183b8855f99da8e51114f76
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5c21260315a08ecb31ae180d2d905a8606de2e88
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,13 +62,13 @@ De nieuwe kostprijsberekeningsversie is gekoppeld aan de conversierecord, zoals 
 Artikelkostprijsgegevens in de specifieke kostprijsberekeningsversie kunnen alleen worden beheerd op de pagina **Standaardkostprijsconversies**. U kunt de pagina **Instellingen kostprijsberekeningsversie** of de pagina **Onderhoud kostprijsberekeningsversie** niet gebruiken om tijdens de conversie kosten voor de kostprijsberekeningsversie te berekenen. U kunt deze pagina's wel gebruiken om de specifieke kostprijsberekeningsversie te beheren wanneer u de conversie hebt uitgevoerd.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. De artikelen aangeven die moeten worden geconverteerd naar standaardkostprijzen
-Gebruik de pagina** Standaardkostprijsconversies** om de afzonderlijke artikelen aan te geven die naar standaardkosten moeten worden geconverteerd. U kunt meerdere artikelen toevoegen via de pagina **Artikelen aan standaardkostprijsconversie toevoegen**. Over het algemeen moet u alle gefabriceerde artikelen opnemen in één conversierecord, zodat de kosten juist worden berekend.
+Gebruik de pagina**Standaardkostprijsconversies** om de afzonderlijke artikelen aan te geven die naar standaardkosten moeten worden geconverteerd. U kunt meerdere artikelen toevoegen via de pagina **Artikelen aan standaardkostprijsconversie toevoegen**. Over het algemeen moet u alle gefabriceerde artikelen opnemen in één conversierecord, zodat de kosten juist worden berekend.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. De standaardkostprijs in behandeling invoeren of berekenen voor elk artikel dat wordt geconverteerd
 Geef in de pagina **Artikelprijs** de standaardkosten in behandeling op in de specifieke kostprijsberekeningsversie voor ingekochte artikelen en transferartikelen. Kostprijsrecords zijn specifiek voor de locatie en u moet de kostprijs in behandeling van een artikel voor elke locatie invoeren. Via de pagina **Artikelprijs** kunt u de standaarden in behandeling voor gefabriceerde artikelen berekenen. U moet de kosten in behandeling voor een gefabriceerd artikel berekenen voor elke productielocatie, tenzij de locatie een transferlocatie is. In dit geval moeten de kosten in behandeling handmatig worden ingevoerd. Sommige artikelen hebben mogelijk productdimensies voor kleur, grootte of configuratie. Op de pagina **Standaardkostprijsconversies** laat het selectievakje **Kostprijs per variant gebruiken** de standaardkosten voor elke combinatie van productdimensies zien. Als dit selectievakje is uitgeschakeld, hoeft u alleen de kostprijs in behandeling voor het artikel in te voeren.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. De artikelen die worden geconverteerd op fouten controleren en de fouten corrigeren
-Gebruik het rapport** Controles van standaardkostprijsconversies** om problemen voor de artikelen die worden geconverteerd te identificeren. Als een artikel geen fouten bevat, wordt de status in de conversierecord gewijzigd in **Gecontroleerd**. Als een artikel fouten bevat, moet u deze corrigeren en het rapport opnieuw uitvoeren totdat de status wordt gewijzigd in **Gecontroleerd**. Als u de fouten voor een artikel niet tijdig kunt oplossen, kunt u het artikel desgewenst uit de conversierecord verwijderen en het artikel later converteren.
+Gebruik het rapport**Controles van standaardkostprijsconversies** om problemen voor de artikelen die worden geconverteerd te identificeren. Als een artikel geen fouten bevat, wordt de status in de conversierecord gewijzigd in **Gecontroleerd**. Als een artikel fouten bevat, moet u deze corrigeren en het rapport opnieuw uitvoeren totdat de status wordt gewijzigd in **Gecontroleerd**. Als u de fouten voor een artikel niet tijdig kunt oplossen, kunt u het artikel desgewenst uit de conversierecord verwijderen en het artikel later converteren.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Wijzig de status van de conversierecord in Gereed.
 Als u de status van de conversierecord wijzigt in **Gereed**, wordt een laatste controle uitgevoerd voordat een standaardkostprijsconversie wordt uitgevoerd. De status wordt alleen gewijzigd in **Gereed** als aan de volgende voorwaarden is voldaan:

@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 26c628e10aaa5f47bc87d7510ca8f41ab3630204
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>Attributen maken en beheren
+
+[!include[banner](includes/banner.md)]
+
 
 In dit artikel worden kenmerken in Microsoft Dynamics 365 for Operations beschreven. De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker gedefinieerde velden.
 
@@ -34,110 +38,28 @@ De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker
 
 #### <a name="examples"></a>Voorbeelden
 
-Categorie
+| Categorie   | Kenmerk                | Toegestane waarden          | Standaardwaarde |
+|------------|--------------------------|-----------------------------|---------------|
+| Tv en Video | Merk                    | Alle geldige Merk waarde       | Geen          |
+| Tv         | Schermgrootte              | 20"–80"                     | Geen          |
+| Tv         | Verticale resolutie      | 480i, 720p, 1080i, or 1080p | 1080p         |
+| Tv         | Schermvernieuwingsfrequentie      | 60hz, 120hz of 240hz       | 60hz          |
+| Tv         | HDMI-ingang              | 0–10                        | 3             |
+| Tv         | DVI-ingang               | 0–10                        | 1             |
+| Tv         | Composiet-ingang         | 0–10                        | 2             |
+| Tv         | Component-ingang         | 0–10                        | 1             |
+| LCD        | 3D Ready                 | Ja of Nee                   | Ja           |
+| LCD        | 3D Enabled               | Ja of Nee                   | Nee            |
+| Plasma     | Operationele Temperaturen van      | 32–110 graden              | 32            |
+| Plasma     | Operationele Temperaturen tot        | 32–110 graden              | 100           |
+| Projectie | De Garantie van de projectiebuis | 6, 12, of 18 maanden         | 12            |
+| Projectie | # van projectiebuizen    | 1–5                         | 3             |
 
-Kenmerk
-
-Toegestane waarden
-
-Standaardwaarde
-
-Tv en Video
-
-Merk
-
-Alle geldige **Merk** waarde
-
-Geen
-
-Tv
-
-Schermgrootte
-
-**20"**–**80"**
-
-Geen
-
-Verticale resolutie
-
-**480i**, **720p**, **1080i**, or **1080p**
-
-**1080p**
-
-Schermvernieuwingsfrequentie
-
-**60hz**, **120hz** of **240hz**
-
-**60hz**
-
-HDMI-ingang
-
-**0**–**10**
-
-**3**
-
-DVI-ingang
-
-**0**–**10**
-
-**1**
-
-Composiet-ingang
-
-**0**–**10**
-
-**2**
-
-Component-ingang
-
-**0**–**10**
-
-**1**
-
-LCD
-
-3D Ready
-
-**Ja** of **Nee**
-
-**Ja**
-
-3D Enabled
-
-**Ja** of **Nee**
-
-**Nee**
-
-Plasma
-
-Operationele Temperaturen van
-
-**32**–**110** graden
-
-**32**
-
-Operationele Temperaturen tot
-
-**32**–**110** graden
-
-**100**
-
-Projectie
-
-De Garantie van de projectiebuis
-
-**6**, **12**, of **18** maanden
-
-**12**
-
-\# van projectiebuizen
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>Type kenmerk
-  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Kenmerken zijn gebaseerd op kenmerktypen. Het kenmerktype geeft het gegevenstype aan dat kan worden ingevoerd voor een specifiek kenmerk. Momenteel worden in Microsoft Dynamics 365 for Operations de volgende kenmerktypen ondersteund:
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+Kenmerken zijn gebaseerd op kenmerktypen. Het kenmerktype geeft het gegevenstype aan dat kan worden ingevoerd voor een specifiek kenmerk. Momenteel worden in Microsoft Dynamics 365 for Operations de volgende kenmerktypen ondersteund:
 
 -   **Valuta** - Dit kenmerktype ondersteunt valutawaarden. Het kan begrensd zijn (oftewel kan het een waardebereik ondersteunen), of kan worden opengelaten.
 -   **DateTime** - Dit kenmerktype ondersteunt datum en tijdwaarden. Het kan begrensd zijn (oftewel kan het een waardebereik ondersteunen), of het kan worden opengelaten.
@@ -174,5 +96,7 @@ De Garantie van de projectiebuis
 ### <a name="at-the-retail-channel-level"></a>Op het detailhandelkanaalniveau
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) De standaardwaarden van kenmerken kunnen worden overschreven voor afzonderlijke producten in specifieke catalogi die gericht zijn op specifieke detailhandelskanalen.
+
+
 
 

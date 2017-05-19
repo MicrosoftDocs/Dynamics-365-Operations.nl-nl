@@ -1,9 +1,9 @@
 ---
 title: "Financiële rapportage voor Dynamics 365 for Operations"
 description: "Financiële rapportage voor Dynamics 365 for Operations stelt financiële en bedrijfsprofessionals in staat om financiële overzichten te maken, te beheren, te gebruiken en weer te geven. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen op efficiënte verschillende typen rapporten te ontwerpen."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>Financiële rapportage voor Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 Financiële rapportage voor Dynamics 365 for Operations stelt financiële en bedrijfsprofessionals in staat om financiële overzichten te maken, te beheren, te gebruiken en weer te geven. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen op efficiënte verschillende typen rapporten te ontwerpen.
 
@@ -36,15 +40,14 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 | Onderdeel        | Functies                                                                                                                                                                                                                                                                           | Aanvullende gegevens                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Report Designer  | Maak rapportbouwstenen die kunnen worden gecombineerd om een rapport te definiëren en te genereren. De Rapportwizard begeleidt minder ervaren gebruikers door het ontwerpproces. Gevorderde gebruikers kunnen nieuwe rapportbouwstenen maken of bestaande bouwstenen wijzigen zodat deze aan hun vereisten voldoen. |                                                                                                 |
-| Web Viewer       | Geef financiële rapporten weer in een webbrowser. Web Viewer vereist niet dat onderdelen van de server voor financiële rapportage worden geïnstalleerd.                                                                                                                                                        | [Web viewer](financial-reporter-designer-web-client.md)            |
-| Rapportplanningen | Plan een enkel rapport of een groep van rapporten zodat dit/deze op regelmatige basis wordt gegenereerd.                                                                                                                                                                                          | [Een rapport genereren](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Rapportplanningen | Plan een enkel rapport of een groep van rapporten zodat dit/deze op regelmatige basis wordt gegenereerd.                                                                                                                                                                                          | [Een financieel rapport maken](generate-financial-report.md) |
 
 ## <a name="features"></a>Functies
 <table>
 <thead>
 <tr class="header">
 <th>Functie</th>
-<th>Beschrijving</th>
+<th>Omschrijving</th>
 </tr>
 </thead>
 <tbody>
@@ -78,13 +81,15 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 <li>Dimensiefilters toevoegen om de rapportinhoud te beperken tot een specifieke dimensie of combinatie van dimensies.</li>
 <li>Kenmerkfilters toevoegen om de rapportinhoud te beperken tot een specifiek kenmerk of combinatie van kenmerken.</li>
 </ul>
-Voor meer informatie raadpleegt u de sectie "Interactieve onderdelen en navigatiefuncties" in <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">De Desktop Viewer-interface</a>.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Zie ook
+[Een financieel rapport maken](generate-financial-report.md)
 
-[Een financieel rapport genereren]((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

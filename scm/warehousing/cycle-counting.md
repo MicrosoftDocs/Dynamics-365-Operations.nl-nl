@@ -3,7 +3,7 @@ title: Cyclustelling
 description: In dit artikel wordt beschreven hoe u cyclustelling kunt gebruiken met de met magazijnoplossing die in Magazijnbeheer beschikbaar is. Dit artikel is niet van toepassing op de magazijnoplossing die in Voorraadbeheer beschikbaar is.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Cyclustelling
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt beschreven hoe u cyclustelling kunt gebruiken met de met magazijnoplossing die in Magazijnbeheer beschikbaar is. Dit artikel is niet van toepassing op de magazijnoplossing die in Voorraadbeheer beschikbaar is.
 
@@ -39,7 +43,6 @@ De volgende afbeelding licht het cyclustellingsproces toe. ![Processtroom voor c
 
 ## <a name="cycle-counting-prerequisites"></a>Vereisten voor cyclustelling
 De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u cyclustelling kunt gebruiken.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 <li>Groepering van cyclustelling</li>
 <li>Plaatscyclustelling</li>
 </ul>
-Zie <a href="configure-mobile-devices-warehouse">Mobiele apparaten configureren voor magazijnwerk</a> voor meer informatie.</li>
+</li>
 <li>Een menu instellen voor het mobiel apparaat.</li>
 <li>Maak een werkgebruikersaccount aan en wijs een mobiel apparaat menu aan de werkgebruikers-ID toe.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Een cyclustellingsverschil treedt op in de volgende scenario´s, als de optie **
 -   De getelde waarde verschilt van de voorhand voorraadhoeveelheid en er zijn geen afwijkingslimieten ingesteld.
 
 U kunt verschillen in de getelde waarde aanpassen en vervolgens de getelde waarde op de pagina **Cyclustellingswerk in afwachting van controle** accepteren. U kun de aangepaste telling van de artikelhoeveelheid verifiëren op de pagina **Voorhanden voorraad per locatie**. De getelde waarde wordt afgewezen als het verschil niet kan worden goedgekeurd.
+
+# <a name="see-also"></a>Zie ook
+[Mobiele apparaten voor magazijnwerk configureren](configure-mobile-devices-warehouse.md)
 
 
 

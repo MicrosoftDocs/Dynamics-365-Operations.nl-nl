@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c5986dbce88a1cb704dddfc2afbcf2ac8c4b0dd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2a39054e5736c1162634cf9b1dd3f7e0c0c4ec16
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -104,7 +105,7 @@ U hoeft geen configuraties voor uitgavencontroleurs te definiëren. U kunt in pl
 
 U kunt de uitgavencontroleurs op de pagina **Controleurs van uitgaven voor opdrachten tot inkoop** instellen. Maak een configuratie van de uitgavencontroleur en voer waarden in voor elke rechtspersoon in uw organisatie. Voor opdrachten die aan een project zijn toegewezen, kunt u de rol opgeven die voor het controleren van de opdrachten verantwoordelijk is: Projectmanager, Projectcontroleur of Projectverkoopmanager. Uitgaven worden naar de gebruiker gerouteerd die aan de opgegeven rol is toegewezen. U kunt ook de uitgaven naar de eigenaar van de financiële dimensie routeren door het correcte selectievakje van de financiële dimensie aan te vinken op het tabblad **Organisatieverdelingen**.  
 
-Als u een van de uitgavencontroleurs wilt gebruiken die u in een workflow instelt, moet u de optie **Type deelnemer** instellen op** Uitgavendeelnemers** in de eigenschappen** Toewijzing** voor het relevante workflowelement.
+Als u een van de uitgavencontroleurs wilt gebruiken die u in een workflow instelt, moet u de optie **Type deelnemer** instellen op**Uitgavendeelnemers** in de eigenschappen**Toewijzing** voor het relevante workflowelement.
 
 <a name="see-also"></a>Zie ook
 --------

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -34,18 +35,18 @@ Dit artikel bevat een overzicht van de functionaliteit die in de module Inkoop e
 De inkoop en sourcing dekken alle stappen van het identificeren van een behoefte aan producten en services tot het aanschaffen van het product, de ontvangst, facturatie, verwerking en betaling van leveranciers. De verwervingsprocessen kunnen naar specifieke behoeften worden geconfigureerd door inkoopbeleid en workflows te definiëren.
 
 ## <a name="identifying-a-need-for-product-and-services"></a>Een behoefte aan een product en services bepalen
-De vereiste voor producten of services kan het resultaat zijn van *inkopen*, bijvoorbeeld, wanneer een werknemer een product vereist. *Productcatalogi *kunnen worden ingesteld om de selectie te begeleiden van beschikbare producten waaruit kan worden geselecteerd of er kunnen aanvragen worden gedaan van producten die nog niet beschikbaar zijn gemaakt in een catalogus, zodat de inkoopafdeling kan overwegen hoe het product kan worden geleverd.  
+De vereiste voor producten of services kan het resultaat zijn van *inkopen*, bijvoorbeeld, wanneer een werknemer een product vereist. *Productcatalogi* kunnen worden ingesteld om de selectie te begeleiden van beschikbare producten waaruit kan worden geselecteerd of er kunnen aanvragen worden gedaan van producten die nog niet beschikbaar zijn gemaakt in een catalogus, zodat de inkoopafdeling kan overwegen hoe het product kan worden geleverd.  
 
-*Uitgavenlimieten *kunnen worden gebruikt om inkoopuitgaven te beperken en de *inkoopwerkstroom *voegt de optie toe om goedkeuring toe te vereisen voordat wordt besteld. Het is ook mogelijk toewijzing van budgetfondsen op te geven, indien nodig.  
+*Uitgavenlimieten* kunnen worden gebruikt om inkoopuitgaven te beperken en de *inkoopwerkstroom* voegt de optie toe om goedkeuring toe te vereisen voordat wordt besteld. Het is ook mogelijk toewijzing van budgetfondsen op te geven, indien nodig.  
   
 De verwervingsafdeling kiest leveranciers voor vereiste producten en services, en hierbij kan een *offerteaanvraag* naar meerdere potentiële leveranciers worden verzonden. Het is mogelijk om de specificaties van het product te delen dat is aangevraagd en potentiële leveranciers kunnen deze bekijken om te zien of ze een product kunnen leveren dat hieraan voldoet. Leveranciers kunnen hun biedingen retourneren. Vervolgens worden deze door de verwervingsafdeling gecontroleerd, voordat ze de leverancier selecteren van wie ze willen aanschaffen.  
 
-De inkooporders bevatten een optie om een *inkoopquery * te sturen aan de leverancier als alternatief voor een uitgebreider offerteaanvraagproces. De aankoopquery kan worden gebruikt om voorwaarden, zoals prijzen, kortingen en leveringsdatums voor de order plaatsen. Als leveranciers worden ingesteld met de portal **Leveranciers**,* * wordt de functionaliteit van de aankoopquery uitgeschakeld. In plaats daarvan wordt de order gedeeld in de** Leveranciersportal** en wanneer een *bevestigingsaanvraag* wordt verzonden, kan de leverancier de order direct bevestigen.  
+De inkooporders bevatten een optie om een *inkoopquery* te sturen aan de leverancier als alternatief voor een uitgebreider offerteaanvraagproces. De aankoopquery kan worden gebruikt om voorwaarden, zoals prijzen, kortingen en leveringsdatums voor de order plaatsen. Als leveranciers worden ingesteld met de **Leveranciersportal**, wordt de functionaliteit van de aankoopquery uitgeschakeld. In plaats daarvan wordt de order gedeeld in de **Leveranciersportal** en wanneer een *bevestigingsaanvraag* wordt verzonden, kan de leverancier de order direct bevestigen.  
 
-*Leverancierscatalogi *kunnen worden gebruikt om gegevens te verzamelen over het productassortiment dat leveranciers kunnen leveren. Leveranciers kunnen hun eigen catalogus publiceren, zodat is het eenvoudiger is om de catalogus bijgewerkt te houden. Het is mogelijk om een *goedkeurde leverancierslijst* te koppelen aan een product en dat kan helpen leveranciersselectie te begeleiden wanneer nieuwe inkooporders worden geopend en kan het gebruik voorkomen van onbedoelde leveranciers.
+*Leverancierscatalogi* kunnen worden gebruikt om gegevens te verzamelen over het productassortiment dat leveranciers kunnen leveren. Leveranciers kunnen hun eigen catalogus publiceren, zodat is het eenvoudiger is om de catalogus bijgewerkt te houden. Het is mogelijk om een *goedkeurde leverancierslijst* te koppelen aan een product en dat kan helpen leveranciersselectie te begeleiden wanneer nieuwe inkooporders worden geopend en kan het gebruik voorkomen van onbedoelde leveranciers.
 
 ## <a name="procurement"></a>Inkoop
-*Inkooporders *kunnen worden gemaakt op een aantal verschillende manieren waaronder:
+*Inkooporders* kunnen worden gemaakt op een aantal verschillende manieren waaronder:
 
 -   Als een uitkomst van hoofdplanning die vraag heeft geïdentificeerd die inkoop vereist. Dit proces genereert geplande inkooporders en wanneer deze worden vrijgegeven, worden inkooporders gegenereerd.
 -   Via de verwerking van opdrachten tot inkoop die resulteren in inkoop.
@@ -60,7 +61,7 @@ Wanneer u een inkooporder maakt, worden veel van de velden van tevoren ingevuld 
 
 ### <a name="prices-and-discounts"></a>Prijzen en kortingen
 
-De prijzen en kortingen bevatten informatie over de prijzen, kortingen, en de kortingsvoorwaarden die bieden. De prijzen en kortingen kunnen worden weergegeven al *handels**overeenkomsten*. De handelsovereenkomsten bevatten leveranciersprijslijsten met prijzen of kortingen, en hebben een specifieke reeks datums waarvoor de overeenkomst geldig is. De prijzen en kortingen kunnen worden onderhandel en weergegeven in *inkoopovereenkomsten*, met voorwaarden zoals toezeggingen om bepaalde volumes te komen of monetaire bedragen als preconditie voor de overeengekomen voorwaarden. *Kortingsovereenkomsten *kunnen met leveranciers worden gemaakt waarin de inkoop van specifieke producten of groepen producten een korting van de leverancier kan opleveren, afhankelijk van het inkoopbedrag of volume.
+De prijzen en kortingen bevatten informatie over de prijzen, kortingen, en de kortingsvoorwaarden die bieden. De prijzen en kortingen kunnen worden weergegeven als *handels**overeenkomsten*. De handelsovereenkomsten bevatten leveranciersprijslijsten met prijzen of kortingen, en hebben een specifieke reeks datums waarvoor de overeenkomst geldig is. De prijzen en kortingen kunnen worden onderhandel en weergegeven in *inkoopovereenkomsten*, met voorwaarden zoals toezeggingen om bepaalde volumes te komen of monetaire bedragen als preconditie voor de overeengekomen voorwaarden. *Kortingsovereenkomsten* kunnen met leveranciers worden gemaakt waarin de inkoop van specifieke producten of groepen producten een korting van de leverancier kan opleveren, afhankelijk van het inkoopbedrag of volume.
 
 ### <a name="delivery-options"></a>Leveringsopties
 
@@ -81,11 +82,11 @@ Sommige inkooporders bevatten producten die diensten of andere niet-fysische pro
 
 De ontvangst van producten kan resulteren in automatisch verbruik voor een specifiek doel. Dit omvat impliciet verbruik met directe levering, verbruik voor een project of boekhoudkundige verwerking van het product als een vast activum.  
 
-Wanneer * leveranciersfacturen* van de leverancier aankomen, kunnen ze eerst afzonderlijk van de inkooporder worden geregistreerd in het *facturenregister * en naderhand worden goedgekeurd als record tegen de inkooporder. Het registreren van de leveranciersfactuur voor de inkooporder bevat het vergelijken van de productontvangstbon met de factuur.  
+Wanneer *leveranciersfacturen* van de leverancier aankomen, kunnen ze eerst afzonderlijk van de inkooporder worden geregistreerd in het *facturenregister* en naderhand worden goedgekeurd als record tegen de inkooporder. Het registreren van de leveranciersfactuur voor de inkooporder bevat het vergelijken van de productontvangstbon met de factuur.  
 
 *Boekhoudingsverdelingen* kan op de inkooporder worden opgegeven om te beschrijven hoe de boekhouding in het grootboek moet worden uitgevoerd en kan ook definiëren hoe de toewijzing van de budgetfondsen wordt verkregen wanneer dit in uw configuratie is opgenomen.  
 
-Gefactureerde inkooporders leggen de schuld vast in de leveranciersrekening in leveranciers, van waaruit de *l*e*veranciersbetaling *wordt verwerkt.
+Gefactureerde inkooporders leggen de schuld vast in de leveranciersrekening in leveranciers, van waaruit de *l*e*veranciersbetaling* wordt verwerkt.
 
 ## <a name="vendor-performance"></a>Leverancierprestaties
 De prestaties en de controle van inkopen worden ondersteund met *inkoop- en leveranciersrapporten,* waarin uitgavenanalyses en leveranciersprestatieanalyses zijn opgenomen.

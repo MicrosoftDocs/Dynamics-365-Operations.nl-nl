@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 15af90d007d77a490db7cb540ef96b4104dbba7e
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35c3d59abe8c2cb4d2db9fa1cf581f022dbc8c39
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Overzicht productconfiguratiemodellen
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel worden de termen en concepten gedefinieerd die relevant voor productconfiguratiemodellen zijn. Met productconfiguratiemodellen kunt u een generieke productstructuur maken, waarmee u veel productvarianten voor één product kunt configureren.
 
@@ -69,13 +73,13 @@ U kunt ook een voorwaarde voor kenmerken opgeven. Als er aan de voorwaarde is vo
 <li><strong>Tekst</strong> met of zonder een vaste lijst</li>
 <li><strong>Booleaanse waarde</strong></li>
 </ul>
-Als het type kenmerk <strong>Booleaans</strong>, <strong>Geheel getal</strong> met een bereik, of <strong>Tekst</strong> met een vaste lijst is, is de set waarden beschikbaar wanneer een productconfiguratiemodel is ingesteld. <strong>Opmerking:</strong> De productconfiguratieoplosser herkent alleen de volgende typen kenmerken: <strong>Booleaans</strong>, <strong>Tekst</strong> met een vaste lijst en <strong>Geheel getal</strong> met een bereik. Daarom kunnen alleen deze kenmerkytypen worden gebruikt in de expressie beperkingen en voorwaarden.</td>
+Als het type kenmerk <strong>Booleaans</strong>, <strong>Geheel getal</strong> met een bereik, of <strong>Tekst</strong> met een vaste lijst is, is de set waarden beschikbaar wanneer een productconfiguratiemodel is ingesteld. <strong>Opmerking:</strong> de productconfiguratieoplosser herkent alleen de volgende typen kenmerken: <strong>Booleaans</strong>, <strong>Tekst</strong> met een vaste lijst en <strong>Geheel getal</strong> met een bereik. Daarom kunnen alleen deze kenmerkytypen worden gebruikt in de expressie beperkingen en voorwaarden.</td>
 </tr>
 <tr class="even">
 <td>Beperkingen</td>
 <td>Beperkingen beschrijven de beperkingen van het productconfiguratiemodel. Beperkingen worden gebruikt om te garanderen dat alleen geldige waarden zijn geselecteerd wanneer een product wordt geconfigureerd. Er zijn twee typen beperkingen: expressiebeperkingen en tabelbeperkingen:
 <ul>
-<li>Expressiebeperkingen kunnen alleen worden gebruikt voor het onderdeel waaraan ze gekoppeld zijn. De expressiebeperkingen voor een onderdeel kunnen echter verwijzen naar kenmerken van subonderdelen van het onderdeel. De productconfiguratieoplosser wordt gebruikt voor het oplossen van de beperkingen, en u moet de oplossersyntaxis gebruiken wanneer u de beperkingen schrijft. Zie de wiki-koppeling over expressiebeperkingen en tabelbeperkingen voor meer info.</li>
+<li>Expressiebeperkingen kunnen alleen worden gebruikt voor het onderdeel waaraan ze gekoppeld zijn. De expressiebeperkingen voor een onderdeel kunnen echter verwijzen naar kenmerken van subonderdelen van het onderdeel. De productconfiguratieoplosser wordt gebruikt voor het oplossen van de beperkingen, en u moet de oplossersyntaxis gebruiken wanneer u de beperkingen schrijft. Zie de onderwerpkoppeling over expressiebeperkingen en tabelbeperkingen voor meer info.</li>
 <li>Tabelbeperkingen moeten worden gedefinieerd voordat ze op een component in een productconfiguratie kunnen worden toegepast. Tabelbeperkingen kunnen door de gebruiker of door het systeem zijn gedefinieerd. Een gebruikergedefinieerde tabelbeperking is een matrix die kan worden gebruikt voor het beschrijven van combinaties voor de waarden die zijn gedefinieerd door het kenmerktypen. Als er bijvoorbeeld speakers worden geproduceerd, heeft de matrix voor een gebruikergedefinieerde tabelbeperking mogelijk kolommen voor de speakerafwerking en speaker grill.</li>
 </ul>
 <strong>Voorbeeld</strong> De speakers zijn beschikbaar in vier afwerkingen: Zwart, Eiken, Rozenhout en Wit. De speakers kunnen drie voorgrills hebben: Zwart, Metaal of Wit. De zwarte afwerking is beschikbaar voor alle grills, maar de andere afwerkingen zijn beperkt tot specifieke grills. De volgende tabel toont een voorbeeld van de informatie die op het tabblad <strong>Toegestane combinaties</strong> op de pagina <strong>Tabelbeperking bewerken</strong> wordt weergegeven.
@@ -121,11 +125,11 @@ Een systeemgedefinieerde tabelbeperking vertegenwoordigt een koppeling tussen ee
 </tr>
 <tr class="odd">
 <td>Berekeningen</td>
-<td>Berekeningen vertegenwoordigen een aanvulling op beperkingen. U kunt een berekening gebruiken om rekenkundige bewerkingen uit te voeren op kenmerken van de typen <strong>Decimaal</strong> en <strong>Geheel getal</strong>, of logische bewerkingen met kenmerken van de typen <strong>Tekst</strong> met een vaste lijst en <strong>Booleaans</strong>. Een berekening heeft een doelkenmerk dat het resultaat van de berekeningsexpressie bevat. De berekeningsexpressie wordt gebouwd met de expressie-editor.</td>
+<td>Berekeningen vertegenwoordigen een aanvulling op beperkingen. U kunt een berekening gebruiken om rekenkundige bewerkingen uit te voeren op kenmerken van de typen <strong>Decimaal</strong> en <strong>Geheel getal</strong>, of logische bewerkingen met kenmerken van de typen <strong>Tekst</strong> met een vaste lijst en <strong>Booleaans</strong>. Een berekening heeft een doelkenmerk dat het resultaat van de berekeningsexpressie bevat. De berekeningsexpressie wordt gebouwd met de expressie-editor.</td>
 </tr>
 <tr class="even">
 <td>Subonderdelen</td>
-<td>Subonderdelen weerspiegelen de structuur van het productconfiguratiemodel. U kunt subonderdelen gebruiken om de structuur van het productconfiguratiemodel te bouden. Subonderdelen verwijzen naar bestaande onderdelen. Subonderdelen moedigen daarom het hergebruik van onderdelen in meerdere productconfiguratiemodellen aan. U kunt op de pagina <strong>Regeldetails van stuklijst</strong> voor een subonderdeel een andere waarde voor het subonderdeel selecteren. U kunt ook een kenmerk selecteren waarvoor de waarde is geselecteerd wanneer het productconfiguratiemodel is ingesteld. Om een product als onderdeel of subonderdeel toe te voegen, moet u in de pagina<strong> Product maken</strong> de volgende info opgeven:
+<td>Subonderdelen weerspiegelen de structuur van het productconfiguratiemodel. U kunt subonderdelen gebruiken om de structuur van het productconfiguratiemodel te bouden. Subonderdelen verwijzen naar bestaande onderdelen. Subonderdelen moedigen daarom het hergebruik van onderdelen in meerdere productconfiguratiemodellen aan. U kunt op de pagina <strong>Regeldetails van stuklijst</strong> voor een subonderdeel een andere waarde voor het subonderdeel selecteren. U kunt ook een kenmerk selecteren waarvoor de waarde is geselecteerd wanneer het productconfiguratiemodel is ingesteld. Om een product als onderdeel of subonderdeel toe te voegen, moet u in de pagina <strong>Product maken</strong> de volgende info opgeven:
 <ul>
 <li>Selecteer in het veld <strong>Producttype</strong> de optie <strong>Artikel</strong>.</li>
 <li>Selecteer in het veld <strong>Subtype van product</strong> de optie <strong>Productmodel</strong>.</li>
@@ -147,6 +151,8 @@ U kunt bekijken of een vrijgegeven product kan worden gebruikt als een onderdeel
 </tr>
 </tbody>
 </table>
+
+
 
 
 

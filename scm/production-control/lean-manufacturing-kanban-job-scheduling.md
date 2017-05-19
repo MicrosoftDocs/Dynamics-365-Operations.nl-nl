@@ -3,7 +3,7 @@ title: Planning van kanbantaken voor lean manufacturing
 description: Dit artikel biedt informatie over visuele controle over de planning van kanbantaken en diverse manieren om kanbantaken te plannen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Planning van kanbantaken voor lean manufacturing
 
+[!include[banner](../includes/banner.md)]
+
+
 Dit artikel biedt informatie over visuele controle over de planning van kanbantaken en diverse manieren om kanbantaken te plannen.  
 
 De pagina **Kanbantaakplanning** biedt visueel controle over de planning van lean manufacturing-werkcellen. Er wordt een overzicht gegeven van alle kanbantaken en er worden meerdere filtermogelijkheden geboden. Vanaf deze pagina kunt u naar alle andere pagina's gaan die verband houden met kanbanconfiguratie en -uitvoering.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Automatische planning van kanbantaken
-Planning kan automatisch worden geactiveerd als u de parameter **Automatische planningshoeveelheid** op de kanbanregel. Als u **Automatische planningshoeveelheid** instelt op **1**, wordt elke kanbantaak onmiddellijk gepland wanneer deze wordt gemaakt. Het resultaat is een reeks van 'first pull, first serve'-bewerkingen. Als u een **Automatische planningshoeveelheid** instelt op een waarde die groter is dan 1, worden kanbantaken gegroepeerd weergegeven voordat ze worden gepland. Dit concept maakt het mogelijk om kanbangrootten te beperken tot minder dan de werkelijke economische batchgrootte. De economische batchgrootte voor een bepaald artikel (of artikelgroep) is bijvoorbeeld 30. In plaats van kanbans te maken met de producthoeveelheid, 30, kunt u de kanbanregel configureren zodat deze een producthoeveelheid van 10 en een automatische planningshoeveelheid van **3** heeft. Hoewel automatische planning de kanbantaken voor de werkcel alleen plant wanneer er drie ongeplande taken bestaan, is het volledig transparant voor de planner en de werkvloersupervisor dat twee ongeplande taken mogelijk op uitvoering wachten. De planner of de werkvloermanager kan die twee taken in productie nemen door ze handmatig te plannen of aanvullende kanbans te maken.
+Planning kan automatisch worden geactiveerd als u de parameter **Automatische planningshoeveelheid** op de kanbanregel. Als u **Automatische planningshoeveelheid** instelt op **1**, wordt elke kanbantaak onmiddellijk gepland wanneer deze wordt gemaakt. Het resultaat is een reeks van 'first pull, first serve'-bewerkingen. Als u een **Automatische planningshoeveelheid** instelt op een waarde die groter is dan 1, worden kanbantaken gegroepeerd weergegeven voordat ze worden gepland. 
+
+Dit concept maakt het mogelijk om kanbangrootten te beperken tot minder dan de werkelijke economische batchgrootte. De economische batchgrootte voor een bepaald artikel (of artikelgroep) is bijvoorbeeld 30. In plaats van kanbans te maken met de producthoeveelheid, 30, kunt u de kanbanregel configureren zodat deze een producthoeveelheid van 10 en een **automatische planningshoeveelheid** van **3** heeft. Hoewel automatische planning de kanbantaken voor de werkcel alleen plant wanneer er drie ongeplande taken bestaan, is het volledig transparant voor de planner en de werkvloersupervisor dat twee ongeplande taken mogelijk op uitvoering wachten. De planner of de werkvloermanager kan die twee taken in productie nemen door ze handmatig te plannen of aanvullende kanbans te maken.
 
 ## <a name="manual-scheduling"></a>Handmatige planning
 Voor handmatige planning introduceerde Microsoft Dynamics AX 2012 het kanbanplanningbord. Handmatige planning kan met automatische planning worden gecombineerd. Met het kanbanplanbord kunt u taken plannen en verwijderen, ze in een reeks plaatsen of ze van de ene periode naar de andere periode verplaatsen. Van taken die zijn gebaseerd op een kanbanregel waarvan de waarde van **Automatisch planning** groter is dan **0**, kan de planning handmatig ongedaan worden gemaakt. Deze taken worden echter opnieuw gepland wanneer de volgende automatische planningsgebeurtenis optreedt (dat wil zeggen wanneer een nieuwe kanban wordt gemaakt). De volgende opties zijn beschikbaar voor handmatige planning:
@@ -66,5 +72,7 @@ De lijstpagina **Kanbantaakplanning** bevat feitenblok waarin de beschikbare en 
 
 <a name="see-also"></a>Zie ook
 --------
+
+
 
 

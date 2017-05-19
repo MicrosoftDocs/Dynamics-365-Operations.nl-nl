@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,13 +65,13 @@ Eerst moet u de verwerkingsgroep voor de indeling voor bankafschriften definiër
 1.  Ga naar **Werkgebieden** &gt; **Gegevensbeheer**.
 2.  Klik op **Importeren**.
 3.  Voer een naam voor de indeling in, zoals **ISO20022**.
-4.  Stel het veld **Indeling van brongegevens **in op **XML-element**.
+4.  Stel het veld **Indeling van brongegevens**in op **XML-element**.
 5.  Stel het veld **Entiteitnaam** in op **Bankafschriften**.
 6.  U kunt de importbestanden uploaden door op **Uploaden** te klikken en te bladeren om het bestand **SampleBankCompositeEntity.xml** te selecteren dat u eerder hebt opgeslagen.
 7.  Nadat de entiteit Bankafschriften is geüpload en de toewijzing is voltooid, klikt u op de actie **Kaart weergeven** voor de entiteit.
 8.  De entiteit Bankafschriften is een samengestelde entiteit die uit vier afzonderlijke entiteiten bestaat. Selecteer in de lijst **BankStatementDocumentEntity** en klik vervolgens op de actie **Kaart weergeven**.
 9.  Klik op het tabblad **Transformaties** op **Nieuw**.
-10. Klik voor volgnummer 1 op **Bestand uploaden** en selecteer het bestand** ISO20022XML-to-Reconciliation.xslt** dat u eerder hebt opgeslagen. **Opmerking:** Dynamics 365 for Operations-transformatiebestanden worden gebouwd voor de standaardindeling. Omdat banken vaak afwijken van deze indeling, moet u het transformatiebestand mogelijk bijwerken om het af te stemmen op uw indeling voor bankafschriften. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Klik voor volgnummer 1 op **Bestand uploaden** en selecteer het bestand **ISO20022XML-to-Reconciliation.xslt** dat u eerder hebt opgeslagen. **Opmerking:** Dynamics 365 for Operations-transformatiebestanden worden gebouwd voor de standaardindeling. Omdat banken vaak afwijken van deze indeling, moet u het transformatiebestand mogelijk bijwerken om het af te stemmen op uw indeling voor bankafschriften. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Klik op **Nieuw**.
 12. Klik voor volgnummer 2 op **Bestand uploaden** en selecteer het bestand **BankReconciliation-to-Composite.xslt** dat u eerder hebt opgeslagen.
 13. Klik op **Transformaties toepassen**.
@@ -88,8 +89,8 @@ De laatste stap is het inschakelen van geavanceerde bankafstemming en het instel
 
 1.  Ga naar **Kas- en bankbeheer** &gt; **Bankrekeningen**.
 2.  Selecteer de bankrekening en open deze om de details weer te geven.
-3.  Stel op het tabblad **Afstemming** de optie **Geavanceerde bankafstemming **in op **Ja**.
-4.  Stel het veld **Afschriftindeling **in op de indeling die u eerder hebt gemaakt, zoals **ISO20022**.
+3.  Stel op het tabblad **Afstemming** de optie **Geavanceerde bankafstemming**in op **Ja**.
+4.  Stel het veld **Afschriftindeling**in op de indeling die u eerder hebt gemaakt, zoals **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>De import van MT940-bankafschriften instellen
 Eerst moet u de verwerkingsgroep voor de indeling voor bankafschriften definiëren voor MT940-bankafschriften met behulp van het gegevensentiteitsraamwerk.

@@ -3,7 +3,7 @@ title: Processen voor kwaliteitsbeheer
 description: Dit artikel biedt informatie over het kwaliteitsbeheerproces voor niet-overeenkomende producten. Het beschrijft hoe u kwaliteitscontrolefunctionaliteit kunt gebruiken, hoe u niet-conformeringen definieert en beheert, en hoe u omgaat met correcties.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 53 - 17
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 2deec6d262e87daf4704ce21ce64546f9c9d638b
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3523a89768bc3aee2aab250ee134128fcc3eeeef
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="quality-management-processes"></a>Processen voor kwaliteitsbeheer
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit artikel biedt informatie over het kwaliteitsbeheerproces voor niet-overeenkomende producten. Het beschrijft hoe u kwaliteitscontrolefunctionaliteit kunt gebruiken, hoe u niet-conformeringen definieert en beheert, en hoe u omgaat met correcties.
 
@@ -52,7 +56,9 @@ Het testen van producten wordt doorgaans geschaard onder kwaliteitscontroles en 
 -   De testresultaten in een kwaliteitsorder registreren, de testresultaten ten opzichte van de acceptabele kwaliteitsniveaus valideren en een analysecertificaat met de testresultaten afdrukken.
 
 ## <a name="nonconformance"></a>Non-conformiteit
-Een niet-conformering beschrijft een artikel met kwaliteitsproblemen.** **Met het niet-conformeringsproces kunt u een niet-conformeringsorder maken waarin een hoeveelheid niet-conformeringsmateriaal, de bron van het probleem, het type probleem en begeleidende notities worden beschreven. U kunt een classificatie van probleemtypen definiëren om de analyse van niet-conformeringmateriaal te vergemakkelijken. U kunt een niet-conformeringslabel en een niet-conformeringsrapport ook afdrukken als richtlijn voor beschikking van niet-conformeringsmateriaal. Het label en rapport kunnen bijvoorbeeld de toestand **Onbruikbaar** of **Beperkt gebruik** aangeven. De volgende tabel bevat de zes standaard niet-conformeringstypen en beschrijft de informatie die voor elk type moet worden geregistreerd.
+Een non-conformering beschrijft een artikel met een kwaliteitsprobleem. Via het niet-conformeringsproces kunt u een non-conformeringsorder maken waarin een hoeveelheid niet-overeenkomende materialen wordt beschreven in termen van de bron van het probleem, het type probleem en begeleidende notities. U kunt een classificatie van probleemtypen definiëren om de analyse van niet-conformeringmateriaal te vergemakkelijken. U kunt een niet-conformeringslabel en een niet-conformeringsrapport ook afdrukken als richtlijn voor beschikking van niet-conformeringsmateriaal. Het label en rapport kunnen bijvoorbeeld de toestand **Onbruikbaar** of **Beperkt gebruik** aangeven. 
+
+De volgende tabel bevat de zes standaard niet-conformeringstypen en beschrijft de informatie die voor elk type moet worden geregistreerd.
 
 | Non-conformiteitstype   | Brongegevens                                                                                                                                                                                                                          |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -72,10 +78,16 @@ U kunt opmerkingen invoeren voor een niet-conformering door een document te kopp
 Het niet-conformeringsrapport geeft het niet-conformeringsnummer, artikel en probleemtype weer. Afhankelijk van uw rapportinstellingenbeleid kan het rapport ook gerelateerde notities over de niet-conformering weergeven. Het niet-conformeringlabel toont vergelijkbare informatie en omvat ook de quarantainezone en het type (zoals **Beperkt gebruik** of **Onbruikbaar**) die u hebt toegewezen aan de niet-conformering om de beschikking van het defecte materiaal te begeleiden.
 
 ## <a name="approved-nonconformance"></a>Goedgekeurde niet-conformering
-U kunt desgewenst een of meer gerelateerde bewerkingen voor een goedgekeurde non-conformiteit definiëren. Een gerelateerde bewerking beschrijft het werk dat moet worden uitgevoerd en bevat een lijst van de kwaliteitsbewerkingen die u hebt gedefinieerd en de beschrijvende tekst over de reden voor het werk. Nadat u een bewerking hebt gedefinieerd, kunt u desgewenst de diverse kosten, artikelen en arbeidsuren definiëren die nodig zijn om het werk uit te voeren. De berekende kosten worden weergegeven voor de gerelateerde bewerking en de totale berekende kosten worden weergegeven voor de non-conformiteit. De berekende kosten en de bijbehorende details (over artikelen, arbeidsuren en diverse kosten) zijn referentiegegevens en worden alleen gebruikt in de functie voor kwaliteitsbeheer. U kunt zo nodig een kwaliteitsorder maken voor een niet-conformering door eerst een aanvraag uit te voeren voor kwaliteitsorders en vervolgens de nieuwe kwaliteitsorder te maken. Met een kwaliteitsorder kan bijvoorbeeld worden aangegeven dat het defecte materiaal moet worden getest (of opnieuw moet worden getest). In de nieuwe kwaliteitsorder wordt de koppeling met de oorspronkelijke non-conformiteit aangegeven. U kunt desgewenst niet-conformeringen aan elkaar koppelen of een nieuwe niet-conformering maken op basis van een bestaande niet-conformering. Met de koppeling kan bijvoorbeeld het verband tussen kwaliteitsproblemen worden aangegeven.
+U kunt desgewenst een of meer gerelateerde bewerkingen voor een goedgekeurde non-conformiteit definiëren. Een gerelateerde bewerking beschrijft het werk dat moet worden uitgevoerd en bevat een lijst van de kwaliteitsbewerkingen die u hebt gedefinieerd en de beschrijvende tekst over de reden voor het werk. Nadat u een bewerking hebt gedefinieerd, kunt u desgewenst de diverse kosten, artikelen en arbeidsuren definiëren die nodig zijn om het werk uit te voeren. De berekende kosten worden weergegeven voor de gerelateerde bewerking en de totale berekende kosten worden weergegeven voor de non-conformiteit. De berekende kosten en de bijbehorende details (over artikelen, arbeidsuren en diverse kosten) zijn referentiegegevens en worden alleen gebruikt in de functie voor kwaliteitsbeheer. 
+
+U kunt zo nodig een kwaliteitsorder maken voor een niet-conformering door eerst een aanvraag uit te voeren voor kwaliteitsorders en vervolgens de nieuwe kwaliteitsorder te maken. Met een kwaliteitsorder kan bijvoorbeeld worden aangegeven dat het defecte materiaal moet worden getest (of opnieuw moet worden getest). In de nieuwe kwaliteitsorder wordt de koppeling met de oorspronkelijke non-conformiteit aangegeven. 
+
+U kunt desgewenst niet-conformeringen aan elkaar koppelen of een nieuwe niet-conformering maken op basis van een bestaande niet-conformering. Met de koppeling kan bijvoorbeeld het verband tussen kwaliteitsproblemen worden aangegeven.
 
 ## <a name="correction-handling"></a>Afhandeling van correcties
-Op de pagina **Correcties** kunt u een lijst van niet-conformeringen maken die moeten worden gecorrigeerd. Elk correctieartikel wordt gekoppeld aan het type diagnose waardoor het probleem werd gevonden. De pagina **Correcties** bevat ook informatie over wie een corrigerende actie moet uitvoeren en wanneer. U kunt de details van het probleem en de vereiste corrigerende actie beschrijven, door een document aan de correctie te koppelen. Nadat de niet-conformering is geadresseerd of gecorrigeerd, "sluit" u het correctieartikel door de optie **Voltooid** te selecteren. U kunt ook aangeven dat de oplossing een kortetermijnoplossing was. Het is daarom een goed idee om een uniek documenttype voor correcties te definiëren door de pagina **Documenttype** te gebruiken. U kunt de pagina **Rapport instellen** gebruiken om te definiëren of opmerkingen voor dit documenttype moeten worden afgedrukt op het correctierapport. Op een afgedrukt correctierapport wordt informatie weergegeven over de niet-conformering en de gerelateerde niet-conformeringsnotities. Het rapport bevat ook correctiegegevens, zoals het type diagnose en de gerelateerde correctienotities.
+Op de pagina **Correcties** kunt u een lijst van niet-conformeringen maken die moeten worden gecorrigeerd. Elk correctieartikel wordt gekoppeld aan het type diagnose waardoor het probleem werd gevonden. De pagina **Correcties** bevat ook informatie over wie een corrigerende actie moet uitvoeren en wanneer. U kunt de details van het probleem en de vereiste corrigerende actie beschrijven, door een document aan de correctie te koppelen. Nadat de niet-conformering is geadresseerd of gecorrigeerd, "sluit" u het correctieartikel door de optie **Voltooid** te selecteren. U kunt ook aangeven dat de oplossing een kortetermijnoplossing was. 
+
+Het is daarom een goed idee om een uniek documenttype voor correcties te definiëren door de pagina **Documenttype** te gebruiken. U kunt de pagina **Rapport instellen** gebruiken om te definiëren of opmerkingen voor dit documenttype moeten worden afgedrukt op het correctierapport. Op een afgedrukt correctierapport wordt informatie weergegeven over de niet-conformering en de gerelateerde niet-conformeringsnotities. Het rapport bevat ook correctiegegevens, zoals het type diagnose en de gerelateerde correctienotities.
 
 <a name="see-also"></a>Zie ook
 --------
@@ -91,5 +103,7 @@ Op de pagina **Correcties** kunt u een lijst van niet-conformeringen maken die m
 [Kwaliteitsorders instellen](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/) (taakbegeleiding)
 
 [De kwaliteit van goederen controleren (taakbegeleider)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

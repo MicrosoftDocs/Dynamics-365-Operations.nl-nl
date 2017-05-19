@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Alle persoonlijke instellingen van elk type die een gebruiker aanbrengt in Dynam
 ## <a name="systemwide-options-for-the-current-user"></a>Systeembrede opties voor de huidige gebruiker
 Op de navigatiebalk vindt u een afbeelding van een tandwiel. Dat is de menuknop **Instellingen**. Bij het openen van het **Instellingen** menu wordt een aantal keuzen weergeven. Door **Opties** te selecteren opent de gebruiker de pagina **Opties**. Hier vindt u vier optietabbladen: **Zichtbaar**, **Voorkeuren**, **Rekening** en **Werkstroom**.
 
--   **Zichtbaar: **Gebruiken om een kleurenthema en de standaardgrootte van de elementen op uw pagina's te kiezen.
+-   **Zichtbaar:**Gebruiken om een kleurenthema en de standaardgrootte van de elementen op uw pagina's te kiezen.
 -   **Voorkeuren:** Hier kunt u standaardwaarden kiezen voor wanneer u Dynamics 365 for Operations opstart, inclusief het bedrijf, de oorspronkelijke pagina en standaardweergave/bewerkingsmodus (die bepaalt of een pagina is vergrendeld voor weergave of voor bewerking wordt geopend telkens wanneer u deze opent). U vindt ook opties voor de taal, tijdzone en datum, tijd en getalnotatie. Ten slotte bevat deze pagina een aantal verschillende voorkeuren die van versie tot versie variëren.
--   **Account: **Gebruiken om uw gebruikers-ID op te geven en andere opties die op de rekening betrekking hebben.
--   **Werkstroom: **Hier kiest u opties met betrekking tot workflows.
+-   **Account:** Gebruiken om uw gebruikers-ID op te geven en andere opties die op de rekening betrekking hebben.
+-   **Werkstroom:**Hier kiest u opties met betrekking tot workflows.
 
 ## <a name="implicit-personalizations"></a>Impliciete aanpassingen
 Impliciete aanpassingen zijn aanpassingen die u eenvoudig aanbrengt door met bepaalde besturingselementen te werken die hun huidige zichtbare status onthouden. 
@@ -106,7 +107,7 @@ Sommige werkgebieden bevatten teltegels (tegels met cijfers erop) die u ook op u
 Het dashboard is vaak de eerste pagina die bij het openen Dynamics 365 for Operations wordt weergegeven. U kunt het dashboard personaliseren om de naam van uw werkruimtenavigatietegels te wijzigen, alleen de tegels te tonen die u wilt weergeven, de naam van de tegels te wijzigen of de tegels te ordenen in elke gewenste volgorde. Om het dashboard te personaliseren, selecteert u een tegel en klikt u met de rechtermuisknop om een contextmenu te openen. Selecteer in het contextmenu **Aanpassen**. Als de geselecteerde tegel er een is die u wilt verbergen, hernoemen of overslaan, kunt u die wijziging direct maken in het eigenschappenvenster dat wordt weergegeven. Als u tegels wilt ordenen, selecteert u **Dit formulier aanpassen** in het eigenschapvenster om de werkbalk Aanpassing te openen. U kunt vervolgens de verplaatsingsfunctie gebruiken om de tegels te ordenen.
 
 ## <a name="administration-of-personalization"></a>Beheer van aanpassing
-Het is mogelijk om een pagina aan te passen en te delen met andere gebruikers door de aangepaste pagina eenvoudigweg te exporteren en de andere gebruikers te vragen naar de aangepaste pagina te navigeren en het aanpassingsbestand te importeren dat u hebt gemaakt. Als een gebruiker beheerdersbevoegdheden heeft, kan deze ook aanpassingen voor andere gebruikers beheren op de pagina **Aanpassingsinstelling**. Navigeer naar de B-pagina. Op de pagina **Aanpassing** vindt u twee tabbladen, één genaamd **Systeem** en één genaamd** Gebruikers**. 
+Het is mogelijk om een pagina aan te passen en te delen met andere gebruikers door de aangepaste pagina eenvoudigweg te exporteren en de andere gebruikers te vragen naar de aangepaste pagina te navigeren en het aanpassingsbestand te importeren dat u hebt gemaakt. Als een gebruiker beheerdersbevoegdheden heeft, kan deze ook aanpassingen voor andere gebruikers beheren op de pagina **Aanpassingsinstelling**. Navigeer naar de B-pagina. Op de pagina **Aanpassing** vindt u twee tabbladen, één genaamd **Systeem** en één genaamd**Gebruikers**. 
 
 **Systeem:** Dit is waar u tijdelijk alle aanpassingen in het systeem kunt uitschakelen. Hiermee worden geen persoonlijke instellingen verwijderd, maar worden alle formulieren opnieuw ingesteld op hun standaardstatus. U kunt aanpassingen later opnieuw inschakelen om alle aanpassingen opnieuw toe te passen op de formulieren van iedere gebruiker. U kunt ook alle aanpassingen voor alle gebruikers verwijderen. Merk op dat als u aanpassingen verwijdert, er geen manier is om aanpassingen van het systeem automatisch opnieuw in te schakelen. Zorg ervoor dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt importeren voordat u deze stap uitvoert. 
 

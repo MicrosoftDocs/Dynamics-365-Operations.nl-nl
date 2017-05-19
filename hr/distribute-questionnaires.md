@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Vragenlijsten verspreiden en invullen
+
+[!include[banner](includes/banner.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u de vragenlijsten die u ontwerpt kunt distribueren, zodat ze beschikbaar zijn voor de persoon of groep personen die de lijsten gaat invullen. 
 
@@ -45,7 +49,7 @@ U kunt vragenlijstgroepen instellen en vervolgens de respondenten opnemen waarna
 
 U kunt vragenlijstgroepen maken via de volgende pagina´s:
 
--   **Vragenlijstgroepen **– alleen personen in een vragenlijstgroep kunnen een geselecteerde vragenlijst invullen. Als uw doelgroep uit contractanten bestaat, kunt u een vragenlijstgroep maken die specifiek is voor die respondenten.
+-   **Vragenlijstgroepen** – alleen personen in een vragenlijstgroep kunnen een geselecteerde vragenlijst invullen. Als uw doelgroep uit contractanten bestaat, kunt u een vragenlijstgroep maken die specifiek is voor die respondenten.
 -   **Vragenlijstgroepsleden** – u kunt mensen aan vragenlijstgroepen toevoegen.
 
 Als u een vragenlijstgroep wilt toewijzen aan een vragenlijst, klik u op de pagina **Vragenlijsten** op **Gebruikersrechten**. Nadat de vragenlijst is opgeslagen als actief, kunnen de leden van de vragenlijstgroep de vragenlijst invullen. Deze functionaliteit is handig als u een vragenlijst op een selecte groep mensen wilt testen voordat u deze beschikbaar stelt voor een grotere groep, of als u een vragenlijst door een zeer specifieke doelgroep wilt laten invullen.
@@ -53,7 +57,8 @@ Als u een vragenlijstgroep wilt toewijzen aan een vragenlijst, klik u op de pagi
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Geplande antwoordsessies in een vragenlijst
 Geplande antwoordsessies zijn vragenlijsten waarvoor u de respondenten hebt aangesteld en geselecteerd. 
 
-**Opmerking:** voordat u geplande antwoordsessies kunt opzetten, dient u een vragenlijst te ontwerpen. 
+> **Opmerking**
+>   Voordat u geplande antwoordsessies kunt opzetten, dient u een vragenlijst te ontwerpen. 
 
 Op de pagina **Geplande antwoordsessie** kunt u een geplande antwoordsessie voor een individuele werknemer maken. De lijst op de pagina toont alle geplande vragenlijsten. 
 
@@ -99,7 +104,8 @@ Klik op **Functies** &gt; **Starten** om de vragenlijst beschikbaar te maken voo
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Respondenten op de hoogte brengen als er vragenlijsten voor hen beschikbaar zijn
 Wanneer u een vragenlijst distribueert, moet u respondenten waarschuwen dat vragenlijsten beschikbaar voor hen zijn. 
 
-**Opmerking:** om een vragenlijst te kunnen invullen, moeten respondenten gebruikers in Microsoft Dynamics 365 for Operations zijn.
+> **Opmerking**
+>   Om een vragenlijst te kunnen invullen, moeten respondenten gebruikers in Microsoft Dynamics 365 for Operations zijn.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Respondenten op de hoogte brengen van een geplande antwoordsessie
 
@@ -109,12 +115,14 @@ Als u een geplande antwoordsessie gebruikt, moet u de persoon direct, zoals tele
 
 Gebruik de pagina **Vragenlijstplanningen** om een e-mailbericht op te stellen en te versturen naar alle respondenten die aan de vragenlijst zijn gekoppeld. Voer de e-mailtekst in op het tabblad **E-mail voor werknemersselfservice**. Nadat de planning is gestart, klikt u op **Functies** &gt; **E-mailbericht verzenden** om het e-mailbericht te genereren en te verzenden naar de respondenten. Respondenten kunnen zich vervolgens aanmelden bij de website en de vragenlijst invullen. 
 
-**Opmerking:** voordat u de e-mailfunctionaliteit kunt gebruiken, moet de IT-beheerder de e-mailinstellingen op de pagina **E-mailparameters** invoeren.
+> **Opmerking**
+>   Voordat u de e-mailfunctionaliteit kunt gebruiken, moet de IT-beheerder de e-mailinstellingen op de pagina **E-mailparameters** invoeren.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Een geplande vragenlijst beëindigen
 U kunt een geplande vragenlijst beëindigen nadat alle respondenten hun toegewezen antwoordsessies hebben voltooid. Nadat een geplande vragenlijst is beëindigd, kunt u de instellingen niet kopiëren naar een nieuwe planning. 
 
-**Opmerking:** als een of meer respondenten de vragenlijst niet hebben ingevuld maar u de planning toch wilt beëindigen, moet u eerst die respondenten uit de lijst verwijderen op de pagina **Geplande antwoordsessie**. Vervolgens kunt u de planning beëindigen.
+> **Opmerking**
+>   Als een of meer respondenten de vragenlijst niet hebben ingevuld maar u de planning toch wilt beëindigen, moet u eerst die respondenten uit de lijst verwijderen op de pagina **Geplande antwoordsessie**. Vervolgens kunt u de planning beëindigen.
 
 ## <a name="completing-questionnaires"></a>Vragenlijsten invullen
 Nadat u een vragenlijst hebt ontworpen en verspreid, kan de vragenlijst worden ingevuld door geselecteerde respondenten. U kunt de vragenlijsten die voor u beschikbaar zijn, op twee manieren openen:
@@ -132,5 +140,7 @@ Vragenlijsten kunnen beschikbaar worden gesteld aan alle personen in een netwerk
 [Vragenlijsten gebruiken](questionnaires.md)
 
 [De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
+
+
 
 

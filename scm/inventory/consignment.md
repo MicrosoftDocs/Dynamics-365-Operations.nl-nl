@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Een consignatieaanvullingsorder is een document dat wordt gebruikt om voorraadho
 ## <a name="inventory-ownership-change-journal"></a>Journaal voor wijzigingen aan voorraadeigendom
 Het proces voor het wijzigen van het eigendom van de voorraad van de leverancier naar de ontvangende rechtspersoon wordt uitgevoerd met een Journaal voor wijzigingen aan voorraadeigendom. Er worden geen verwachte voorraadtransacties gegenereerd voor het journaal. De enige voorraadtransacties die worden gemaakt, zijn degene die samenhangen met een geboekt journaal. Wanneer het journaal wordt geboekt:
 
--   De voorraad in eigendom van de leverancier wordt uitgegeven met een verwijzing **Wijziging aan eigendom** met de status **Verkocht **.
+-   De voorraad in eigendom van de leverancier wordt uitgegeven met een verwijzing **Wijziging aan eigendom** met de status **Verkocht**.
 -   Voorhanden voorraad wordt ontvangen door de rechtspersoon die het gebruikt, door middel van een voorraadtransactie van het type 'productontvangsbon bijgewerkt' op de inkooporder Dit stelt de status van de order in op **Ontvangen**. Voor inkooporders voor consignatie wordt het veld **Oorsprong** ingesteld op **Consignatie**.
 
 Het is niet mogelijk om de hoeveelheden voor consignatieinkooporderregels bij te werken nadat de order is gemaakt. 

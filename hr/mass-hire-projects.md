@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>Projecten voor massaal aanstellen
+
+[!include[banner](includes/banner.md)]
+
 
 Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen.
 
@@ -46,7 +50,7 @@ Selecteer op de pagina **Projecten voor massaal aanstellen** project 'SummerInte
 
 Nadat u studenten hebt geselecteerd om voor de stages aan te stellen, voert u voor elke student informatie in **Functiedetails** in voor de functie waarvoor u deze aanstelt. Wanneer u alle functiedetails hebt ingevoerd, selecteert u de functie op de pagina Projecten voor massaal aanstellen en klikt u op **Aanstellen**. Voor elke functie wordt een functieregistratie gemaakt en voor elke persoon die u aanstelt wordt een werknemerregistratie gemaakt en toegewezen aan de juiste functie.
 
-## <a name="masshire-project-statuses"></a>Status van een project met massale inhuur
+## <a name="mass-hire-project-statuses"></a>Status van een project met massale inhuur
 Een project met massale inhuur kan een van de volgende statussen hebben.
 -   Gemaakt
 -   Openstaand
@@ -77,7 +81,7 @@ Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of *
 <table>
 <thead>
 <tr class="header">
-<th><strong>Opmerking </strong></th>
+<th><strong>Opmerking</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -92,6 +96,8 @@ Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of *
 </table>
 
  
+
+
 
 
 

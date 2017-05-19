@@ -19,10 +19,11 @@ ms.search.industry: Distribution
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: ec2907129e68f39e6e5f56f0617b7599598312d2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: de1d8bc2fa1080e549cb8c33657ad0f373644d38
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ De instelling van de traceringsdimensiegroep die is toegewezen aan het product b
 U kunt gedeeltelijk facturen en pakbonnen maken voor verkooporders, en alleen de serienummers registreren voor de artikelen die deze facturen en pakbonnen bevatten. Als u een gedeeltelijke factuur wilt maken en u meerdere pakbonnen voor de verkooporder hebt, kunt u serienummers van meer dan één pakbon opnemen. Er kan echter maar één pakbon zijn die niet alle serienummers bevat. Stel, u hebt drie pakbonnen en elke omvat twee artikelen met serienummers. U kunt dan geen gedeeltelijke factuur maken voor een artikel van elke pakbon.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Wat doe ik wanneer een serienummer niet leesbaar is?
-Als een serienummer niet kan worden gelezen of worden gescand, kunt u een lege regel voor het artikel maken door op **Niet leesbaar **op de pagina **Serienummers **te klikken. Als het serienummer later beschikbaar wordt, kunt u de factuur of de pakbon bijwerken. Voor meer informatie, zie het volgende onderdeel "Kan ik de serienummers die ik heb geregistreerd voor een verkooporder corrigeren of wijzigen?"
+Als een serienummer niet kan worden gelezen of worden gescand, kunt u een lege regel voor het artikel maken door op **Niet leesbaar**op de pagina **Serienummers**te klikken. Als het serienummer later beschikbaar wordt, kunt u de factuur of de pakbon bijwerken. Voor meer informatie, zie het volgende onderdeel "Kan ik de serienummers die ik heb geregistreerd voor een verkooporder corrigeren of wijzigen?"
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Kan ik de serienummers die ik heb geregistreerd voor een verkooporder corrigeren of wijzigen?
 Ja, u kunt serienummers corrigeren als aan de volgende voorwaarden wordt voldaan:

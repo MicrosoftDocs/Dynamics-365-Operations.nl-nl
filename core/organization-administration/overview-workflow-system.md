@@ -1,9 +1,9 @@
 ---
-title: Overzicht van het workflowsysteem
-description: In dit onderwerp wordt het werkstroomsysteem in Microsoft Dynamics 365 for Operations beschreven.
+title: Overzicht van workflowsystemen
+description: In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Operations beschreven.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,20 +16,21 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 08c36f02f88fef7508730b6c01a1c99a0f77fb0c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5432e67ffa41e6a38b19c9fe5bb12c5acb2c345c
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="workflow-system-overview"></a>Overzicht van het workflowsysteem
+# <a name="workflow-system-overview"></a>Overzicht van workflowsystemen
 
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt het werkstroomsysteem in Microsoft Dynamics 365 for Operations beschreven.
+In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Operations beschreven.
 
 <a name="what-is-workflow"></a>Wat is een workflow?
 -----------------
@@ -41,9 +42,13 @@ Workflow is een system dat wordt geïnstalleerd met Dynamics 365 for Operations 
 
 ### <a name="workflow-is-a-business-process"></a>Workflow is een bedrijfsproces
 
-Een workflow vertegenwoordigt een bedrijfsproces. Een workflow definieert hoe een document zich door het systeem begeeft of stroomt door aan te geven wie een taak moet voltooien, een beslissing moet nemen of een document moet goedkeuren. De volgende afbeelding toont bijvoorbeeld een workflow voor onkostennota's. ![Workflow met elementen die aan gebruikers worden toegewezen](./media/workflow_user.gif) Om deze workflow beter te begrijpen, wordt aangenomen dat Sam een onkostennota voor 7000 euro indient. In dit scenario moet Ivan de bonnen beoordelen die Sam naar hem heeft doorstuurt. Vervolgens moeten Frank en Sue het onkostenrapport goedkeuren. Stel nu dat Sam een onkostennota van EUR 11.000 heeft ingediend. In dit scenario moet Ivan de bonnen beoordelen en moeten Frank, Suzan en Anne het onkostenrapport goedkeuren.
-Voordelen van het gebruik van het workflowsysteem
--------------------------------------
+Een workflow vertegenwoordigt een bedrijfsproces. Een workflow definieert hoe een document zich door het systeem begeeft of stroomt door aan te geven wie een taak moet voltooien, een beslissing moet nemen of een document moet goedkeuren. De volgende illustratie toont bijvoorbeeld een workflow voor onkostennota's. 
+
+![Een workflow met elementen die zijn toegewezen aan gebruikers](./media/workflow_user.gif) 
+
+Voor een beter begrip van deze workflow wordt aangenomen dat Sam een onkostenrapport voor 7.000 EUR indient. In dit scenario moet Ivan de bonnen beoordelen die Sam naar hem heeft doorstuurt. Vervolgens moeten Frank en Sue het onkostenrapport goedkeuren. Stel nu dat Sam een onkostennota van EUR 11.000 heeft ingediend. In dit scenario moet Ivan de bonnen beoordelen en moeten Frank, Suzan en Anne het onkostenrapport goedkeuren.
+
+## <a name="benefits-of-using-the-workflow-system"></a>Voordelen van het gebruik van het workflowsysteem
 
 Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen op:
 -   **Consistente processen**: u kunt definiëren hoe specifieke documenten, zoals opdrachten tot inkoop en onkostennota's, worden verwerkt. Door gebruik van het workflowsysteem garandeert u dat documenten op een consistente, efficiënte manier wordt verwerkt en goedgekeurd.
@@ -51,6 +56,20 @@ Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen
 -   **Gecentraliseerde werklijst**: gebruikers kunnen een gecentraliseerde werklijst raadplegen die weergeeft welke workflowtaken en -goedkeuringen aan hen zijn toegewezen.
 
 
+## <a name="workflow-content"></a>Workflowinhoud
 
-
++ [Workflowarchitectuur](workflow-system-architecture.md)
++ [Workflowelementen](workflow-elements.md)
++ [Workflowacties](workflow-actions.md)
++ [Een workflow maken](create-workflow.md)
++ [Workfloweigenschappen configureren](configure-workflow-properties.md)
++ [Een handmatige taak configureren in een workflow](configure-manual-task-workflow.md)
++ [Een geautomatiseerde taak configureren in een workflow](configure-automated-task-workflow.md)
++ [Een goedkeuringsproces configureren in een workflow](configure-approval-process-workflow.md)
++ [Een goedkeuringsstap configureren in een workflow](configure-approval-step-workflow.md)
++ [Een handmatige beslissing configureren in een workflow](configure-manual-decision-workflow.md)
++ [Een voorwaardelijke beslissing configureren in een workflow](configure-conditional-decision-workflow.md)
++ [Een parallelle activiteit in een workflow configureren](configure-parallel-activity-workflow.md)
++ [Een parallelle vertakking in een workflow configureren](configure-parallel-branch-workflow.md)
++ [Een workflow voor regelartikelen configureren](configure-line-item-workflow.md)
 

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 318c88f88277a8300b1fcda5056a9a92c9a81eae
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7edf456b09c6f77550f1dd023e712c7ef379fd1a
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ Dit artikel bevat informatie over het gereedmelden van stuklijsten.
 De pagina's **Gereedmelden** en **Maximale gereedmelding** worden gebruikt om stuklijsten (BOMs) te melden als zijnde gereed. Conceptueel is het proces voor een stuklijst als voltooid rapporteren hetzelfde als het proces voor gereedmelden van een productieorder. Dit proces kan worden gebruikt in bijvoorbeeld eenvoudige processen voor maken en kitting, waar de geavanceerdere mogelijkheden van productieorders niet zijn vereist. Met de pagina **Gereedmelden** kunt u meerdere stuklijsten in een batch gereedmelden. Op de pagina **Max. gereedmelding** kunt u slechts één stuklijst tegelijk gereedmelden. De pagina **Gereedmelden** is beschikbaar vanuit een menu-item in Voorraadbeheer en beide pagina's zijn beschikbaar als menu-items op de pagina **Vrijgegeven producten**.
 
 ## <a name="report-as-finished-page"></a>Pagina Gereedmelden
-Als u de pagina **Gereedmelden ** van een vrijgegeven product opent, suggereert de pagina dat u de standaardhoeveelheid van de standaardvoorraad gereedmeldt. Standaard wordt de actieve stuklijstversie weergegeven, maar u kunt de stuklijstversie wijzigen als er andere goedgekeurde versies zijn. Op de pagina kunt u ook registraties verwijderen en nieuwe records voor vrijgegeven producten maken, die moeten worden gereedgemeld. Om een query te gebruiken om producten te selecteren, klikt u op het menu-item **Selecteren**. U kunt handmatig rapportage bevestigen als voltooid voor de geselecteerde producten door te klikken op **OK**. U kunt ook instellen dat het proces wordt uitgevoerd in een batch. Wanneer het proces Gereedmelden is bevestigd, genereert het systeem een stuklijstjournaal waarin het boeken naar de voorraad is verwerkt. Dit journaal bestaat uit één regelartikel voor het eindproduct en een regelartikel voor elke stuklijstregel. U kunt controleren of het journaal automatisch wordt geboekt of wordt opengelaten voor aanvullende correcties.
+Als u de pagina **Gereedmelden** van een vrijgegeven product opent, suggereert de pagina dat u de standaardhoeveelheid van de standaardvoorraad gereedmeldt. Standaard wordt de actieve stuklijstversie weergegeven, maar u kunt de stuklijstversie wijzigen als er andere goedgekeurde versies zijn. Op de pagina kunt u ook registraties verwijderen en nieuwe records voor vrijgegeven producten maken, die moeten worden gereedgemeld. Om een query te gebruiken om producten te selecteren, klikt u op het menu-item **Selecteren**. U kunt handmatig rapportage bevestigen als voltooid voor de geselecteerde producten door te klikken op **OK**. U kunt ook instellen dat het proces wordt uitgevoerd in een batch. Wanneer het proces Gereedmelden is bevestigd, genereert het systeem een stuklijstjournaal waarin het boeken naar de voorraad is verwerkt. Dit journaal bestaat uit één regelartikel voor het eindproduct en een regelartikel voor elke stuklijstregel. U kunt controleren of het journaal automatisch wordt geboekt of wordt opengelaten voor aanvullende correcties.
 
 ## <a name="max-report-as-finished-page"></a>Pagina Maximale gereedmelding
 Op de pagina **Maximale gereedmelding** geeft elke stuklijstregel het aantal stuks van het product aan dat kan worden gereedgemeld. Deze berekening wordt gebaseerd op de beschikbare voorhanden materiële voorraad van elke materiaalregel. In het volgende voorbeeld verbruikt een stuk van het artikelnummer FG twee stuks van grondstof RM10 en een stuk van grondstof RM20. Omdat er maar 10 stuks van RM10 voorradig zijn, bedraagt de maximale hoeveelheid van FG die kan worden gereedgemeld vijf stuks. Deze waarde wordt weergegeven in het veld **Maximale gereedmelding**.

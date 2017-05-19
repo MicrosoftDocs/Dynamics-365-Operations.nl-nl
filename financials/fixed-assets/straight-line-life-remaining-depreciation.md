@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b41901d573e977a89fcd1a7c1ebf7185e162c654
-ms.openlocfilehash: 9b690b80f148e7ccecba19850bd78c81216d8658
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3b424d34a1469ac37e96927dea5627f5f2fed8ee
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Als u bijvoorbeeld **Jaarlijks** selecteert, wordt de jaarlijkse afschrijving wo
 Als u **Fiscaal** selecteert in het veld **Afschrijvingsjaar** wordt de lineaire resterende afschrijving van de levensduur gebruikt. Afschrijving wordt berekend op basis van de resterende boekjaren. Voor bijvoorbeeld het boekjaar van 1 juli 2015 t/m 30 juni 2016 wordt de afschrijving vanaf 1 juli berekend. Een boekjaar kan langer of korter dan 12 maanden zijn. De afschrijving wordt voor elke boekperiode aangepast. De lengte van het volgende boekjaar wordt bepaald door de boekperioden die zijn ingesteld op de pagina **Fiscale kalenders**. Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 
 -   **Jaarlijks** boekt het totale bedrag van de afschrijving die is berekend voor het boekjaar als één bedrag op de laatste dag van het boekjaar.
--   **Boekperiode **berekent het totale bedrag van de afschrijving voor het boekjaar. Dit bedrag wordt vervolgens toegerekend in de boekperioden die zijn gedefinieerd op de pagina **Fiscale kalenders** voor de fiscale kalender die is opgegeven voor het boek.
+-   **Boekperiode**berekent het totale bedrag van de afschrijving voor het boekjaar. Dit bedrag wordt vervolgens toegerekend in de boekperioden die zijn gedefinieerd op de pagina **Fiscale kalenders** voor de fiscale kalender die is opgegeven voor het boek.
 
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Voorbeeld van lineaire afschrijving van een ongewijzigd vast activum
 Een vast activum heeft de volgende kenmerken.

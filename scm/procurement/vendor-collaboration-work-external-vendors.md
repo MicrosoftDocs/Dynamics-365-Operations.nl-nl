@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,8 +58,8 @@ De algemene instellingen voor leverancierssamenwerking in Dynamics 365 for Opera
 
 Voordat gebruikersrekeningen kunnen worden gemaakt voor een externe leverancier, moet u de leveranciersrekening zo configureren dat ze leverancierssamenwerking kunnen gebruiken. U doet dit door **Samenwerkingactivering** op actief in te stellen op het tabblad **Algemeen** op de pagina **Leveranciers**. Er zijn twee opties die u kunt kiezen:
 
--   **Actief (IO wordt automatisch bevestigd) **- Inkooporders worden automatisch bevestigd wanneer de leverancier deze zonder wijzigingen accepteert.
--   **Actief (IO wordt niet automatisch bevestigd) **- Inkooporders moeten handmatig door uw organisatie worden bevestigd nadat de leverancier ze heeft geaccepteerd.
+-   **Actief (IO wordt automatisch bevestigd)**- Inkooporders worden automatisch bevestigd wanneer de leverancier deze zonder wijzigingen accepteert.
+-   **Actief (IO wordt niet automatisch bevestigd)**- Inkooporders moeten handmatig door uw organisatie worden bevestigd nadat de leverancier ze heeft geaccepteerd.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Bepalen of de leverancier prijsgegevens te zien krijgt
 
@@ -142,7 +143,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 | De leverancier verzendt een antwoord **Geaccepteerd met wijzigingen**.                  | De status is nog steeds **Externe controle**.                                                                                                                  |
 | U brengt enkele wijzigingen aan die door de leverancier zijn aangevraagd.                  | De status wordt gewijzigd in **Goedgekeurd**.                                                                                                                        |
 | U verzendt de nieuwe versie van de IO naar de leverancier.                        | Er wordt een nieuwe versie geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**.                                      |
-| De leverancier accepteert de nieuwe versie van de inkooporder.                            | De status is nog steeds **Externe controle **, tenzij de leveranciersrekening zo is geconfigureerd dat de IO bij acceptatie automatisch de status **Bevestigd** krijgt. |
+| De leverancier accepteert de nieuwe versie van de inkooporder.                            | De status is nog steeds **Externe controle**, tenzij de leveranciersrekening zo is geconfigureerd dat de IO bij acceptatie automatisch de status **Bevestigd** krijgt. |
 
 Leveranciers hoeven de inkooporder niet te bevestigen via de interface voor leverancierssamenwerking. Ze kunnen ook een e-mailbericht verzenden of hun acceptatie van een inkooporder via andere kanalen laten weten. U kunt de order vervolgens handmatig in Dynamics 365 for Operations bevestigen. In dit geval ontvangt u een waarschuwing dat de order wordt bevestigd, zelfs als er geen antwoord van de leverancier is. De inkooporder wordt vervolgens in de bevestigingshistorie weergegeven als een openstaande bevestigde order die geen antwoorden heeft. De leverancier heeft niet meer de mogelijkheid om de inkooporder te bevestigen of af te wijzen.  
 

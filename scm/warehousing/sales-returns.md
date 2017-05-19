@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: b265a20a271230de5dba6df93900a24aad642885
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: efc932d24e20721c024e8da735ccdbbeca58beb1
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -73,7 +74,7 @@ Wanneer u een retourorder maakt, moeten de gegevens uit de volgende tabel worden
 
 | Veld              | Omschrijving                                              | Opmerkingen                                                                                                                                                                                                                                                                                                                                        |
 |--------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Klantaccount   | Een verwijzing naar de tabel Klanten                       | U moet een bestaande klantaccount opgeven.                                                                                                                                                                                                                                                                                                  |
+| Klantrekening   | Een verwijzing naar de tabel Klanten                       | U moet een bestaande klantaccount opgeven.                                                                                                                                                                                                                                                                                                  |
 | Afleveradres   | Het adres waarnaar het artikel wordt geretourneerd.                 | Standaard wordt het adres van de organisatie gebruikt. Als een bepaald magazijn is geselecteerd in de koptekst, wordt het afleveradres gewijzigd in het afleveradres van het magazijn. U kunt dit adres wijzigen op de pagina **Retourorderdetails**.                                                                                                  |
 | Locatie/magazijn     | De locatie of het magazijn waar het geretourneerde product aankomt | Het afleveradres voor de retourorder wordt bepaald op basis van het afleveradres van de locatie of het magazijn.                                                                                                                                                                                                                                 |
 | RMA-nummer         | De ID die is toegewezen aan de retourorder              | Het RMA-nummer wordt gebruikt als een alternatieve sleutel in het retourorderproces. Het RMA-nummer dat wordt toegewezen, is gebaseerd op de RMA-nummerreeks die is ingesteld op de pagina **Parameters van module Klanten**.                                                                                                                              |

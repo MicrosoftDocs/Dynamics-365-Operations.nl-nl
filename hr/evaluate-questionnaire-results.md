@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>De resultaten van een vragenlijst bekijken en evalueren
+
+[!include[banner](includes/banner.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen. 
 
@@ -56,7 +60,8 @@ Via de pagina **Antwoorden** kunt u details bekijken over antwoorden, verdiende 
 -   **Antwoordrapport** - Dit rapport geeft de antwoorden die de respondent voor elke vraag in de vragenlijst heeft geselecteerd.
 -   **Incorrecte antwoorden** – Dit rapport geeft informatie over de onjuiste antwoorden die de respondent heeft geselecteerd.
 
-**Opmerking:** het rapport **Resultaten** is alleen beschikbaar als u resultatengroepen op de vragenlijst gebruikt en u **Vragenlijsten** hebt geselecteerd op de pagina **Vragenlijsten**. Het rapport **Antwoord** en het rapport **Incorrecte antwoorden** zijn alleen beschikbaar als u **Antwoordrapport** hebt geselecteerd op de pagina **Vragenlijsten**.
+> **Opmerking**
+>   Het rapport **Resultaten** is alleen beschikbaar als u resultatengroepen op de vragenlijst gebruikt en u **Resultatenpagina** hebt geselecteerd op de pagina **Vragenlijsten**. Het rapport **Antwoord** en het rapport **Incorrecte antwoorden** zijn alleen beschikbaar als u **Antwoordrapport** hebt geselecteerd op de pagina **Vragenlijsten**.
 
 ## <a name="questionnaire-statistics"></a>Vragenlijststatistieken
 U kunt vragenlijststatistieken gebruiken voor het analyseren van de resultaten van een ingevulde vragenlijst die is gebaseerd op berekeningen die u definieert. Voer de volgende taken uit om berekeningen te definiëren:
@@ -79,5 +84,7 @@ De instellingen die u definieert, worden opgeslagen en kunnen worden gebruikt om
 [Vragenlijsten gebruiken](questionnaires.md)
 
 [Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
+
+
 
 

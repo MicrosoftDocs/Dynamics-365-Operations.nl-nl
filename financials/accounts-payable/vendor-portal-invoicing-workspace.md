@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7aebcdf0578d931d326420b42e2b220407049bc6
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Werkgebied voor samenwerkingsfacturering van leveranciers
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt beschreven hoe u leveranciersfacturen kunt weergeven en facturen indient vanuit het samenwerkingswerkgebied voor leveranciersfacturering.
 
@@ -43,7 +47,7 @@ De tegels **Overzicht** geven een overzicht van de facturen voor de geselecteerd
 Klik op een tegel om een gefilterde weergave van de pagina **Facturenlijst** te openen.
 ### <a name="tabular-lists"></a>Lijsten in tabelvorm
 
-In de sectie **Lijsten in tabelvorm **wordt de factureringsstatus onderverdeeld als de overzichtstegels: Concept en Verzonden, niet-goedgekeurde lijsten. In de Conceptstatus kan een factuur naar de workflow zijn verzonden of zijn verwijderd. De laatste lijst in tabelvorm is een optie om facturen te zoeken. U kunt filteren tijdens het zoeken, zodat het zoeken sneller verloopt.
+In de sectie **Lijsten in tabelvorm**wordt de factureringsstatus onderverdeeld als de overzichtstegels: Concept en Verzonden, niet-goedgekeurde lijsten. In de Conceptstatus kan een factuur naar de workflow zijn verzonden of zijn verwijderd. De laatste lijst in tabelvorm is een optie om facturen te zoeken. U kunt filteren tijdens het zoeken, zodat het zoeken sneller verloopt.
 Lijstpagina met alle leveranciersfacturen
 -----------------------------
 
@@ -55,6 +59,8 @@ U kunt een nieuwe leveranciersfactuur maken door **Nieuwe** actie te selecteren 
 
 
 
-Zie voor meer informatie [Samenwerken met leveranciers met behulp van de leveranciersportal](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal).
+Zie voor meer informatie [Samenwerken met leveranciers met behulp van de leveranciersportal](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal).
+
+
 
 

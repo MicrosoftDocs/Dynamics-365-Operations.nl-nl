@@ -1,7 +1,7 @@
 ---
 title: "Financiële rapporten weergeven en ontwerpen"
-description: "Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Operations kunt weergeven en maken. Financiële rapportage bestaat uit een weergave-ervaring in Dynamics 365 for Operations en een ClickOnce-rapportontwerper waarmee u financiële rapporten kunt maken en bewerken."
-author: twheeloc
+description: "Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Operations kunt weergeven en maken."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -96,7 +97,7 @@ In deze oefening wijzigt u een bestaand standaardrapport. U werkt beide rijdefin
 22. Selecteer in de rapportdefinitie **Gedetailleerde proefbalans met kenmerken** Gedetailleerde proefbalans met kenmerken voor zowel de rijdefinitie als de kolomdefinitie.
 23. Wijzig het basisjaar in **2012**.
 24. **Sla** de rapportdefinitie op en **genereer** deze. Zodra het rapport is gegenereerd en geopend, kunt u het rapport controleren zoals u in de eerste oefening hebt gedaan. Zoom in op verschillende rekeningen om te zien hoe de aanvullende kenmerken worden weergegeven.
-25. Sluit het rapport **Gedetailleerde proefbalans met kenmerken **.
+25. Sluit het rapport **Gedetailleerde proefbalans met kenmerken**.
 26. Sluit **Report Designer**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Oefening 3: Een multidimensionaal rapport maken met een rapportagestructuur
@@ -165,7 +166,7 @@ In deze oefening maakt u een nieuw rapport. Het rapport is een afdelingsinkomens
 6.  Dubbelklik in het veld **Dimensiefilter**.
 7.  Dubbelklik in het venster **Dimensie** op de kolom **Afdeling**.
 8.  Klik in de sectie Persoon of bereik van het dialoogvenster op de **ellips** voor het veld **Van** om een lijst van afdelingen weer te geven.
-9.  Selecteer afdeling **022**, **Verkoop en Marketing**, en klik vervolgens op ** OK**.
+9.  Select department **022**, **Sales & Marketing** and then click **OK**.
 10. Herhaal stap 5 tot 8 voor afdelingen 23-25.
 11. Typ in de rij **Koptekst 2** voor elke FD-kolom de volgende afdelingsomschrijvingen:
     -   Kolom B – Verkoop en marketing
@@ -182,8 +183,8 @@ In deze oefening maakt u een nieuw rapport. Het rapport is een afdelingsinkomens
 18. **Sla** uw wijzigingen op en **genereer** ze. Nadat het rapport is gegenereerd en geopend, kunt u het rapport controleren.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-[Financiële rapportage](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Financiële rapporten weergeven](\financials\general-ledger\view-financial-reports.md) 
+[Financiële rapportage](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Financiële rapporten weergeven](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

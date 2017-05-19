@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: c29c95fc6abd13e668c44d3ccf437bb0e879e46b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11755e4ab4b3c1f55da80e57ff96e0b13c84c697
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -209,13 +210,13 @@ De onderstaande procedure licht toe hoe u een projectteam maakt.
 1.  Selecteer een project op de lijstpagina **Alle projecten** en klik op **Bewerken**.
 2.  Voer op het tabblad **Projectteam en planning** in het veld **Planning einddatum** de begindatum van het schema plus één maand in. Als bijvoorbeeld de planningbegindatum 24 juni 2017 is (24-06-2017), voert u **24-07-2017** in.
 3.  Klik op **Toevoegen**.
-4.  Selecteer in het venster **Rollen toevoegen aan het project** in het veld **Rol ** de waarde **Senior projectmanager**.
+4.  Selecteer in het venster **Rollen toevoegen aan het project** in het veld **Rol** de waarde **Senior projectmanager**.
 5.  Klik op **Vereiste competenties**.
 6.  Op de pagina **Kenmerken kiezen** zijn de kenmerken die u eerder hebt ingesteld voor de rol Senior projectmanager automatisch geselecteerd. Klik tot slot op **OK**.
 7.  Voer op de pagina **Rollen toevoegen aan project** in het veld **Aantal resources** de waarde **1** in.
 8.  In het veld **Resource** geeft de zoekopdracht alle resources weer die de vereiste competenties hebben. Selecteer **Daniel Goldschmidt** en klik op **Maken**.
 9.  Klik op de pagina **Project** op **Toevoegen**.
-10. Selecteer in het venster **Rollen toevoegen aan het project** in het veld **Rol ** de waarde **Teamlid**. Voer in het veld **Aantal resources** de waarde **5** in.
+10. Selecteer in het venster **Rollen toevoegen aan het project** in het veld **Rol** de waarde **Teamlid**. Voer in het veld **Aantal resources** de waarde **5** in.
 11. Klik op **Maken**.
 12. Klik op de pagina **Projecten** op **Voorzien in resource**.
 
@@ -316,7 +317,7 @@ Extra opties zijn toegevoegd aan de WBS, om beter gebruik te kunnen maken van de
 
 > [!NOTE] 
 > U ontvangt geen waarschuwing dat de opgegeven resource nu 2 is, omdat het aantal resources op 1 blijft staan.
-18. Valideer op de pagina **Structuur voor werkspecificatie ** de resourcetoewijzing op de WBS en klik op **Opslaan**.
+18. Valideer op de pagina **Structuur voor werkspecificatie** de resourcetoewijzing op de WBS en klik op **Opslaan**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Resourcevoorziening voor geplande resources
 Een projectmanager kan vereiste resourcerollen voor een project plannen. De resourcemanager ziet deze geplande resources als aanvragen op de pagina **Resourcevervulling** en kan werkelijke resources toewijzen.

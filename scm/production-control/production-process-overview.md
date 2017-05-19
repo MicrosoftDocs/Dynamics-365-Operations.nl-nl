@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 6a33117f454b5b0d109c8a5c460fa218eab5c0f7
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 434b603fd0b2322372c7e2e7584267173fb90b94
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ In dit artikel vindt u een overzicht van de productieprocessen. De verschillende
 
 De vervaardiging van producten, soms ook wel bekend als de productiecyclus, volgt specifieke stappen die vereist zijn voor het maken van een artikel. De levenscyclus begint met het opstellen van de productieorder, batchorder of kanban. Het eindigt met een voltooid, gefabriceerd artikel dat gereed is voor een klant of een andere productiefase. Elke stap in de levenscyclus vereist verschillende soorten informatie om het proces te voltooien. Bij elke stap die is voltooid, ondergaat de productieorder, batchorder of kanban een wijziging in de productiestatus. Verschillende typen producten vereisen verschillende productieprocessen.  
 
-De module **Productiecontrole** is gekoppeld aan andere modules, zoals **Productgegevensbeheer**, **Voorraadbeheer**, **Grootboek**, **Magazijnbeheer**, **Projectadministratie** en ** Organisatiebeheer**. Door deze integratie wordt de informatiestroom ondersteund die is vereist om de productie van een afgewerkt artikel te voltooien.  
+De module **Productiecontrole** is gekoppeld aan andere modules, zoals **Productgegevensbeheer**, **Voorraadbeheer**, **Grootboek**, **Magazijnbeheer**, **Projectadministratie** en **Organisatiebeheer**. Door deze integratie wordt de informatiestroom ondersteund die is vereist om de productie van een afgewerkt artikel te voltooien.  
 
 Het productieproces wordt doorgaans beïnvloed door de kostprijsboekhouding en voorraadwaarderingsmethoden die voor een bepaald productieproces worden gekozen. Dynamics 365 for Operations ondersteunt zowel werkelijke kosten (first in, first out \[FIFO\]; last in, first out \[LIFO\]; zwevend gemiddelde en periodiek gewogen gemiddelde) als standaardmethoden voor kostprijsberekening. Lean manufacturing wordt geïmplementeerd op basis van het principe van kostprijsberekening via terugwaarts afboeken.  
 

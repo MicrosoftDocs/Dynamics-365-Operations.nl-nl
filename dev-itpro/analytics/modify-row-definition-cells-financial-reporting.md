@@ -1,16 +1,16 @@
 ---
 title: Rijdefinitiecellen wijzigen
 description: In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert.
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 16 - 09 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: b61364c9055e5c5a63592c7f05551d0c145924b9
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82a0b8c52a816a7fc608e90866bd564392f9c8d4
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert. 
 
@@ -38,7 +42,9 @@ In rijdefinities bepalen de nummers of labels in de cel **Rijcode** elke regel i
 
 Een rijcode is vereist voor alle rijen. U kunt numerieke, alfanumerieke en niet-ingestelde (lege) rijcodes mengen in een rijdefinitie. De rijcode kan elk positief geheel getal (onder 100.000.000) zijn of een beschrijvend label dat die rij identificeert. Een beschrijvend label moet aan deze regels voldoen:
 
--   Het label moet met een alfabetisch teken (a tot en met z of A tot en met Z) beginnen en kan elke combinatie van cijfers en letters tot 16 tekens zijn. **Opmerking:** Een label kan het onderstrepingsteken (\_) bevatten. Andere speciale tekens zijn niet toegestaan.
+-   Het label moet met een alfabetisch teken (a tot en met z of A tot en met Z) beginnen en kan elke combinatie van cijfers en letters tot 16 tekens zijn. 
+    > [!NOTE]
+    > Een label kan het onderstrepingstekenteken (\_) bevatten. Geen andere speciale tekens zijn toegestaan.
 -   Het label mag de volgende voorbehouden woorden niet gebruiken: EN, OF, ALS, TOEN, ANDERS, PERIODEN, TOT, BASISRIJ, EENHEID, NULL, CPO of RPO.
 
 De volgende voorbeelden zijn geldige rijcodes:
@@ -56,10 +62,14 @@ De volgende voorbeelden zijn geldige rijcodes:
 
 1.  Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
 2.  Klik in het menu **Bewerken** op **Rijen opnieuw nummeren**.
-3.  Geef in het dialoogvenster **Rijen opnieuw nummeren** nieuwe waarden op voor de beginrijcode en de verhogingswaarde van de rijcode. U kunt de numerieke rijcodes opnieuw instellen op waarden met gelijke tussenruimte. De rapportontwerper nummert echter alleen rijcodes opnieuw die met cijfers beginnen (bijvoorbeeld 130 of 246). Rijcodes die met letters beginnen (bijvoorbeeld INCOME\_93 of TP0693) worden niet opnieuw genummerd. **Opmerking:** Wanneer u rijcodes opnieuw nummert, werkt de rapportontwerper **TOT**- en **CAL**-verwijzingen automatisch bij. Als een **TOT**-rij bijvoorbeeld verwijst naar een reeks die begint met rijcode 100 en u rijen opnieuw nummert, te beginnen met 90, verandert de beginverwijzing **TOT** van 100 in 90.
+3.  Geef in het dialoogvenster **Rijen opnieuw nummeren** nieuwe waarden op voor de beginrijcode en de verhogingswaarde van de rijcode. U kunt de numerieke rijcodes opnieuw instellen op waarden met gelijke tussenruimte. De rapportontwerper nummert echter alleen rijcodes opnieuw die met cijfers beginnen (bijvoorbeeld 130 of 246). Rijcodes die met letters beginnen (bijvoorbeeld INCOME\_93 of TP0693) worden niet opnieuw genummerd. 
+> [!NOTE]
+> Wanneer u rijcodes opnieuw nummert. werkt de rapportontwerper **TOT**- en **CAL**-verwijzingen automatisch bij. Als een **TOT**-rij bijvoorbeeld verwijst naar een reeks die begint met rijcode 100 en u rijen opnieuw nummert, te beginnen met 90, verandert de beginverwijzing **TOT** van 100 in 90.
 
 ## <a name="add-a-description"></a>Een omschrijving toevoegen
-De omschrijvingscel biedt de omschrijving van de financiële gegevens in de rij van het rapport, zoals 'opbrengst' of 'netto-inkomsten'. De tekst in de cel **Omschrijving** wordt in het rapport precies weergegeven zoals u deze in de rijdefinitie invoert. **Opmerking:** De breedte van de omschrijvingskolom op het rapport wordt ingesteld in de kolomdefinitie. Als de tekst in de kolom **Omschrijving** in de rijdefinitie lang is, controleert u de breedte van de kolom **DESC**. Wanneer u het dialoogvenster **Rijen invoegen van** gebruikt, zijn de waarden in de kolom **Omschrijving** de segmentwaarden of dimensiewaarden van de financiële gegevens. U kunt rijen invoegen om beschrijvende tekst toe te voegen, zoals een sectiekoptekst of een sectietotaal, en om opmaak toe te voegen, zoals een regel vóór een totaalrij. Als het rapport een rapportagestructuur bevat, kunt u de aanvullende tekst opnemen die is gedefinieerd voor de rapportage-eenheden in de rapportagestructuur. U kunt de aanvullende tekst ook beperken tot een specifieke rapportage-eenheid.
+De omschrijvingscel biedt de omschrijving van de financiële gegevens in de rij van het rapport, zoals 'opbrengst' of 'netto-inkomsten'. De tekst in de cel **Omschrijving** wordt in het rapport precies weergegeven zoals u deze in de rijdefinitie invoert. 
+> [!NOTE]
+> De breedte van de omschrijvingskolom op het rapport wordt ingesteld in de kolomdefinitie. Als de tekst in de kolom **Omschrijving** in de rijdefinitie lang is, controleert u de breedte van de kolom **DESC**. Wanneer u het dialoogvenster **Rijen invoegen van** gebruikt, zijn de waarden in de kolom **Omschrijving** de segmentwaarden of dimensiewaarden van de financiële gegevens. U kunt rijen invoegen om beschrijvende tekst toe te voegen, zoals een sectiekoptekst of een sectietotaal, en om opmaak toe te voegen, zoals een regel vóór een totaalrij. Als het rapport een rapportagestructuur bevat, kunt u de aanvullende tekst opnemen die is gedefinieerd voor de rapportage-eenheden in de rapportagestructuur. U kunt de aanvullende tekst ook beperken tot een specifieke rapportage-eenheid.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>De omschrijving voor een regel op een rapport toevoegen
 
@@ -81,7 +91,9 @@ De omschrijvingscel biedt de omschrijving van de financiële gegevens in de rij 
 4.  Vouw in het veld **Rapportage-eenheid voor beperking selecteren** de rapportagestructuur uit of samen en selecteer vervolgens een rapportage-eenheid.
 
 ## <a name="add-a-format-code"></a>Een opmaakcode toevoegen
-De cel **Opmaakcode** biedt een selectie van vooraf opgemaakte keuzes voor de inhoud van die rij. Als de cel **Opmaakcode** leeg is, wordt de rij geïnterpreteerd als een rij met financiële gegevens. **Opmerking:** Als een rapport opmaakrijen bevat die geen bedragrij en die zijn gerelateerd aan bedragrijen die zijn onderdrukt (bijvoorbeeld omdat hun saldi nul zijn), kunt u de kolom **Gerelateerde formules/rijen/eenheden** gebruiken om te voorkomen dat titel- en opmaakrijen worden afgedrukt.
+De cel **Opmaakcode** biedt een selectie van vooraf opgemaakte keuzes voor de inhoud van die rij. Als de cel **Opmaakcode** leeg is, wordt de rij geïnterpreteerd als een rij met financiële gegevens. 
+> [!NOTE]
+> Als een rapport opmaakrijen bevat die geen bedragrij en die zijn gerelateerd aan bedragrijen die zijn onderdrukt (bijvoorbeeld omdat hun saldi nul zijn). kunt u de kolom **Gerelateerde formules/rijen/eenheden** gebruiken om te voorkomen dat titel- en opmaakrijen worden afgedrukt.
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Een opmaakcode toevoegen aan een rapportrij
 
@@ -92,7 +104,7 @@ De cel **Opmaakcode** biedt een selectie van vooraf opgemaakte keuzes voor de in
     |---|---|---|
     | (Geen)                        |                                    | Wist de cel **Opmaakcode**.                                                                                                                                                                               |
     | TOT                           | Totaal                              | Identificeert een rij die wiskundige operatoren gebruikt in de kolom **Gerelateerde formules/rijen/eenheden**. De totalen bevatten eenvoudige operatoren, zoals **+** of **-**.                                                      |
-    | CAL                           | Berekening                        | Identificeert een rij die wiskundige operatoren gebruikt in de kolom **Gerelateerde formules/rijen/eenheden**. De berekeningen bevatten complexe operatoren, zoals **+**, **-**, **\***, **/** en **IF/THEN/ELSE**-instructies. |
+    | CAL                           | Berekening                        | Identificeert een rij die wiskundige operatoren gebruikt in de kolom **Gerelateerde formules/rijen/eenheden**. De berekeningen bevatten complexe operatoren, zoals **+**, **-**, **\***, **/** en **IF/THEN/ELSE**-instructies. |
     | DES                           | Omschrijving                        | Identificeert een kopregel of een lege regel op een rapport.                                                                                                                                                        |
     | LFT RGT CEN                   | Links rechts midden                  | Lijnt de tekst van de rijomschrijving op de rapportpagina uit, ongeacht de positie van de tekst in de kolomdefinitie.                                                                                               |
     | CBR                           | Basisrij wijzigen                    | Identificeert een rij die de basisrij voor kolomberekeningen instelt.                                                                                                                                               |
@@ -140,7 +152,9 @@ Wanneer u een rijtotaalformule maakt, moet u rijcodes gebruiken om op te geven w
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Een opmaakrij koppelen aan een bedragrij
 
-In de kolom **Opmaakcode** in een rijdefinitie passen de opmaakcodes **DES**, **LFT**, **RGT**, **CEN**, **---** en **===** opmaak toe op niet-bedragrijen. Om te voorkomen dat deze opmaak wordt afgedrukt wanneer de bijbehorende bedragrijen worden onderdrukt (bijvoorbeeld omdat de bedragrijen nulwaarden of geen periodeactiviteit bevatten), moet u de opmaakrijen koppelen aan de bijbehorende bedragrijen. Deze functie is handig wanneer u wilt voorkomen dat koptekst of opmaak die is gekoppeld aan subtotalen wordt afgedrukt als er voor de periode geen details af te drukken zijn. **Opmerking:** U kunt ook voorkomen dat de gedetailleerde bedragrijen worden afgedrukt door de optie te wissen om rijen zonder bedragen weer te geven. Dit optie bevindt zich in het tabblad **Instellingen** van de rapportdefinitie. Standaard worden rekeningen met transactiedetails met een nulsaldo of zonder een periodeactiviteit onderdrukt in rapporten. Om deze rekeningen met transactiedetails weer te geven, selecteert u het selectievakje **Rijen weergeven zonder bedragen** op het tabblad **Instellingen** van de rapportdefinitie.
+In de kolom **Opmaakcode** in een rijdefinitie passen de opmaakcodes **DES**, **LFT**, **RGT**, **CEN**, **---** en **===** opmaak toe op niet-bedragrijen. Om te voorkomen dat deze opmaak wordt afgedrukt wanneer de bijbehorende bedragrijen worden onderdrukt (bijvoorbeeld omdat de bedragrijen nulwaarden of geen periodeactiviteit bevatten), moet u de opmaakrijen koppelen aan de bijbehorende bedragrijen. Deze functie is handig wanneer u wilt voorkomen dat koptekst of opmaak die is gekoppeld aan subtotalen wordt afgedrukt als er voor de periode geen details af te drukken zijn. 
+    > [!NOTE]
+    >  You can also prevent the detailed amount rows from being printed by clearing the option to display rows without amounts. This option is located on the **Settings** tab of the report definition. By default, transaction detail accounts that have a zero balance or no period activity are suppressed in reports. To show these transaction detail accounts, select the **Display rows without an amounts** check box on the **Settings** tab of the report definition.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Een opmaakrij koppelen aan een bedragrij
 
@@ -196,7 +210,9 @@ Sorteercodes sorteren rekeningen of waarden, sorteren een werkelijk of budgetafw
 1.  Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
 2.  Dubbelklik op de cel **Opmaakcode** en selecteer vervolgens een sorteercode.
 3.  Geef in de cel **Gerelateerde formules/rijen/eenheden** het bereik op van te sorteren rijcodes. Om een bereik op te geven, voert u het volgende in: de eerste rijcode, een dubbelepunt (:) en de laatste rijcode. Voer bijvoorbeeld **160:490** in om op te geven dat het bereik van rij 160 tot rij 490 is.
-4.  Voer in de cel **Kolombeperking** de letter in van de rapportkolom die voor het sorteren moet worden gebruikt. **Opmerking:** Neem alleen bedragrijen op in een sorteerberekening.
+4.  Voer in de cel **Kolombeperking** de letter in van de rapportkolom die voor het sorteren moet worden gebruikt. 
+    > [!NOTE]
+    > Neem alleen bedragrijen op in een sorteerberekening.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Voorbeelden van oplopende en aflopende kolomwaarden
 
@@ -220,255 +236,24 @@ In het volgende voorbeeld worden de waarden in kolom D van het rapport gesorteer
 
 Hier volgt een voorbeeld van het rapport dat wordt gegenereerd.
 
-**Afwijkingsanalyse (gesorteerd op afwijking)**
+|||||||||
+|---|---|---|---|---|---|---|
+|**Afwijkingsanalyse (gesorteerd op afwijking)**|||||||
 
-**Regio's van Peking en Atlanta**
+|**Regio's Beijing en Atlanta**|||||||
 
-**Voor de zeven maanden die eindigen op 31 juli 2013**
+|**Voor de zeven maanden die eindigen op 31 juli 2013**|||||||
 
-**juli**
+||**Juli**|**JTH**|||||
 
-**JTD**
+||**Werkelijk**|**Budget**|**Afwijking**|**Werkelijk**|**Budget**|**Afwijking**|
 
-**Werkelijk**
+|**Gesorteerd op maandelijkse afwijking in oplopende volgorde**|||||||
 
-**Budget**
+|COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273.959)|
 
-**Variantie**
-
-**Werkelijk**
-
-**Budget**
-
-**Variantie**
-
-**Gesorteerd op maandelijkse afwijking in oplopende volgorde**
-
-COGS
-
-873.872
-
-236.144
-
-(637.728)
-
-4.864.274
-
-1.590.315
-
-(3.273.959)
-
-Salarissen en lonen
-
-97.624
-
-65.573
-
-(32.051)
-
-653.884
-
-441.664
-
-(212.220)
-
-Verkoopkortingen
-
-36.383
-
-24.152
-
-(12.231)
-
-241.562
-
-162.670
-
-(78.892)
-
-Verkoopretouren
-
-10.917
-
-7246
-
-(3671)
-
-62.809
-
-48.803
-
-(14.006)
-
-Rente onkosten
-
-12.052
-
-9019
-
-(3033)
-
-80.444
-
-60.748
-
-(19696)
-
-Kantooronkosten
-
-5023
-
-3291
-
-(1732)
-
-33.420
-
-22.098
-
-(11322)
-
-Reiskosten
-
-7656
-
-7641
-
-(15)
-
-51.062
-
-51.469
-
-407
-
-Verkoop
-
-1.240.119
-
-410.389
-
-829.730
-
-7.139.288
-
-2.764.549
-
-4.374.739
-
-**Gesorteerd op JTD absolute afwijking in aflopende volgorde**
-
-Verkoop
-
-1.240.119
-
-410.389
-
-829.730
-
-7.139.288
-
-2.764.549
-
-4.374.739
-
-Reiskosten
-
-7656
-
-7641
-
-(15)
-
-51.062
-
-51.469
-
-407
-
-Kantooronkosten
-
-5023
-
-3291
-
-(1732)
-
-33.420
-
-22.098
-
-(11322)
-
-Verkoopretouren
-
-10.917
-
-7246
-
-(3671)
-
-62.809
-
-48.803
-
-(14.006)
-
-Rente onkosten
-
-12.052
-
-9019
-
-(3033)
-
-80.444
-
-60.748
-
-(19.696)
-
-Verkoopkortingen
-
-36.383
-
-24.152
-
-(12.231)
-
-241.562
-
-162.670
-
-(78.892)
-
-Salarissen en lonen
-
-97.624
-
-65.573
-
-(32.051)
-
-653.884
-
-441.664
-
-(212.220)
-
-COGS
-
-873.872
-
-236.144
-
-(637.728)
-
-4.864.274
-
-1.590.315
-
-(3.273.959)
+|Lonen en salarissen|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |Verkoopkortingen|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Verkoopretouren|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Onkosten verhuren|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Onkosten kantoor|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Reiskosten|7.656|7.641|(15)|51.062|51.469|407| |Verkoop|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |**Absolute afwijking JTD in aflopende volgorde gesorteerd**|||||||
+|Verkoop|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |Reiskosten|7.656|7.641|(15)|51.062|51.469|407| |Onkosten kantoor|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Verkoopretouren|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Onkosten verhuren|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Verkoopkortingen|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Lonen en salarissen|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273.959)|
 
 ## <a name="specify-a-format-override-cell"></a>Een cel voor opmaakopheffing opgeven
 De cel **Opmaakopheffing** geeft de opmaak op die voor de rij wordt gebruikt wanneer het rapport wordt afgedrukt. Deze opmaak negeert de opmaak die in de kolomdefinitie en de rapportdefinitie is opgegeven. Standaard is valuta de opmaakcode die in deze definities is opgegeven. Als één rij van het rapport het aantal activa, zoals het aantal gebouwen, weergeeft en een andere rij de monetaire waarde van die activa, kunt u de valutaopmaak negeren en een numerieke opmaak invoeren voor de rij die het aantal gebouwen opgeeft. U kunt deze informatie opgeven in het dialoogvenster **Opmaakopheffing**. De beschikbare opties zijn afhankelijk van de opmaakcategorie die u selecteert. Het gebied **Voorbeeld** van het dialoogvenster toont voorbeeldopmaak. De volgende opmaakcategorieën zijn beschikbaar:
@@ -492,7 +277,9 @@ Valutaopmaak is van toepassing op een fiscaal bedrag en bevat het valutasymbool.
 -   **Valutasymbool** - Het valutasymbool voor het rapport. Deze waarde overschrijft de instelling **Landinstellingen** voor de bedrijfsgegevens.
 -   **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
 -   **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
--   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. **Opmerking:** Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
+-   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
+    > [!NOTE]
+    >  Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
 
 ### <a name="numeric-formatting"></a>Numerieke opmaak
 
@@ -500,7 +287,9 @@ Numerieke opmaak is van toepassing op elk bedrag en bevat geen valutasymbool. De
 
 -   **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
 -   **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
--   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. **Opmerking:** Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
+-   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
+    > [!NOTE]
+    >  Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
 
 ### <a name="percentage-formatting"></a>Percentage-opmaak
 
@@ -508,14 +297,18 @@ Percentage-opmaak bevat het procentteken (%). De volgende opties zijn beschikbaa
 
 -   **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
 -   **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
--   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. **Opmerking:** Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
+-   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
+    > [!NOTE]
+    >  Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
 
 ### <a name="custom-formatting"></a>Aangepaste opmaak
 
 Gebruik de aangepaste opmaakcategorie om een aangepaste opmaakopheffing te maken. De volgende opties zijn beschikbaar:
 
 -   **Type** – De aangepaste opmaak.
--   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. **Opmerking:** Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
+-   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
+    > [!NOTE]
+    >  Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
 
 Het type moet de positieve waarde en daarna de negatieve waarde vertegenwoordigen. Doorgaans voert u een vergelijkbare opmaak in die positieve en negatieve waarden onderscheidt. Als u bijvoorbeeld wilt aangeven dat zowel positieve als negatieve waarden twee decimalen hebben, maar negatieve waarden tussen haakjes worden weergegeven, voert u **0.00;(0.00)** in. De volgende tabel geeft aangepaste opmaak weer die u kunt gebruiken om de opmaak van uw waarden te beheren. Alle voorbeelden beginnen vanaf de waarde 1234.56.
 
@@ -570,14 +363,18 @@ Wanneer u een specifieke rekening selecteert, combineert de rapportontwerper de 
 
 ### <a name="book-code-modifiers"></a>Boekcodemodificators
 
-U kunt een rij beperken tot een bestaande boekcode. De kolomdefinitie moet ten minste één **FD**-kolom met een boekcode bevatten. **Opmerking:** De boekcodebeperking voor een rij negeert de boekcodebeperkingen in de kolomdefinitie voor die rij.
+U kunt een rij beperken tot een bestaande boekcode. De kolomdefinitie moet ten minste één **FD**-kolom met een boekcode bevatten. 
+> [!NOTE]
+> De boekcodebeperking voor een rij negeert de boekcodebeperkingen in de kolomdefinitie voor die rij.
 
 ### <a name="account-and-transaction-attributes"></a>Rekening- en transactiekenmerken
 
 Sommige boekhoudsystemen ondersteunen rekeningkenmerken en transactiekenmerken in de financiële gegevens. Deze kenmerken functioneren als virtuele accountsegmenten en kunnen extra informatie over de rekening of transactie dragen. Deze extra informatie kan het volgende zijn: rekening-id's, batch-id's, postcodes of andere kenmerken. Als uw boekhoudsysteem kenmerken ondersteunt, kunt u rekeningkenmerken of transactiekenmerken gebruiken als rijmodificators in de rijdefinitie. Raadpleeg de sectie 'Een kolomdefinitie negeren' eerder in dit artikel voor informatie over hoe u rij-informatie negeert.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Een cel Koppeling naar financiële dimensies opgeven
-De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financiële gegevens die in elke rij van een rapport moeten worden opgenomen. Deze cel bevat dimensiewaarden, maar u kunt in plaats daarvan cellen in een Microsoft Excel-werkblad opgeven, of daarnaast segmentwaarden of dimensiewaarden. Om het dialoogvenster **Dimensies** te openen, dubbelklikt u op de cel **Koppeling naar financiële dimensies**. **Opmerking:** Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende voorbehouden tekens bevatten: &, \*, \[, \], {, of }. Om informatie voor een rij op te geven die zich al in de rijdefinitie bevindt, voegt u de informatie toe aan de cel **Koppeling naar financiële dimensies**. Om nieuwe rijen toe te voegen die naar de financiële gegevens koppelen, gebruikt u het dialoogvenster **Rijen invoegen van** om nieuwe rijen in de rapportdefinitie te maken. De kolomtitel wijzigt, afhankelijk van hoe de kolom is geconfigureerd, zoals weergegeven in de volgende tabel.
+De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financiële gegevens die in elke rij van een rapport moeten worden opgenomen. Deze cel bevat dimensiewaarden, maar u kunt in plaats daarvan cellen in een Microsoft Excel-werkblad opgeven, of daarnaast segmentwaarden of dimensiewaarden. Om het dialoogvenster **Dimensies** te openen, dubbelklikt u op de cel **Koppeling naar financiële dimensies**. 
+> [!NOTE]
+> Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. Om informatie voor een rij op te geven die zich al in de rijdefinitie bevindt, voegt u de informatie toe aan de cel **Koppeling naar financiële dimensies**. Om nieuwe rijen toe te voegen die naar de financiële gegevens koppelen, gebruikt u het dialoogvenster **Rijen invoegen van** om nieuwe rijen in de rapportdefinitie te maken. De kolomtitel wijzigt, afhankelijk van hoe de kolom is geconfigureerd, zoals weergegeven in de volgende tabel.
 
 | Koppelingstype dat is ingeschakeld       | De omschrijving van de Koppelingskolom wijzigt hiernaar |
 |----------------------------------|----------------------------------------------------|
@@ -606,21 +403,27 @@ Standaard drukt de rapportontwerper geen rij af die geen corresponderend saldo i
 3.  Klik op **Opslaan** in het menu **Bestand** om uw wijzigingen op te slaan.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Jokertekens en -bereiken gebruiken in een rijdefinitie
-Wanneer u een natuurlijke segmentwaarde invoert in het dialoogvenster **Dimensies**, kunt u een jokerteken (? of \*) gebruiken op elke positie van een segment. Report Designer pakt alle waarden voor de opgegeven posities uit zonder rekening te houden met de jokertekens. De rijdefinitie bevat bijvoorbeeld alleen natuurlijke segmentwaarden. Natuurlijke segmenten hebben vier tekens. Door **6???** in te voeren in een rij, geeft u Report Designer opdracxht om alle rekeningen op te nemen met een natuurlijke segmentwaarde die met een 6 begint. Als u **6\*** invoert, worden dezelfde resultaten geretourneerd, maar de resultaten bevatten ook waarden met variabele breedte zoals **60** en **600000**. De rapportontwerper vervangt elk jokerteken (?) met het volledig bereik van mogelijke waarden, zoals letters en speciale tekens. Bijvoorbeeld, in het bereik van **12?0** tot en met **12?4** wordt het jokerteken in **12?0** vervangen door de laagste waarde in het tekenreeks en wordt het jokerteken in **12?4** vervangen door de hoogste waarde in de tekenreeks. **Opmerking:** Gebruik jokertekens niet voor de eerste en laatste rekeningen in bereiken. Als u in jokertekens gebruikt in de eerste rekening of de laatste rekening, krijgt u mogelijk onverwachte resultaten.
+Wanneer u een natuurlijke segmentwaarde invoert in het dialoogvenster **Dimensies**, kunt u een jokerteken (? of \*) gebruiken op elke positie van een segment. Report Designer pakt alle waarden voor de opgegeven posities uit zonder rekening te houden met de jokertekens. De rijdefinitie bevat bijvoorbeeld alleen natuurlijke segmentwaarden. Natuurlijke segmenten hebben vier tekens. Door **6???** in te voeren in een rij, geeft u Report Designer opdracxht om alle rekeningen op te nemen met een natuurlijke segmentwaarde die met een 6 begint. Als u **6\*** invoert, worden dezelfde resultaten geretourneerd, maar de resultaten bevatten ook waarden met variabele breedte zoals **60** en **600000**. De rapportontwerper vervangt elk jokerteken (?) met het volledig bereik van mogelijke waarden, zoals letters en speciale tekens. Bijvoorbeeld, in het bereik van **12?0** tot en met **12?4** wordt het jokerteken in **12?0** vervangen door de laagste waarde in het tekenreeks en wordt het jokerteken in **12?4** vervangen door de hoogste waarde in de tekenreeks. 
+> [!NOTE]
+> Gebruik jokertekens niet voor de eerste en laatste rekeningen in bereiken. Als u in jokertekens gebruikt in de eerste rekening of de laatste rekening, krijgt u mogelijk onverwachte resultaten.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>Bereiken met één segment of één dimensie
 
-U kunt een bereik opgeven van segmentwaarden of dimensiewaarden. Het voordeel van het opgeven van een bereik is dat u de rijdefinitie niet hoeft bij te werken telkens wanneer een nieuwe segmentwaarde of dimensiewaarde aan de financiële gegevens wordt toegevoegd. Bijvoorbeeld, het bereik **+Account=\[6100:6900\]** trekt de waarden van rekeningen 6100 tot en met 6900 in het rijbedrag. Wanneer een bereik een jokerteken (?) bevat, evalueert de rapportontwerper het bereik niet teken per teken. In plaats daarvan worden de lage en hoge uiteinden van het bereik bepaald en worden vervolgens de eindwaarden en alle waarden daartussen opgenomen. **Opmerking:** Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende voorbehouden tekens bevatten: &, \*, \[, \], {, of }. U kunt een en-teken (&) alleen toevoegen wanneer u automatisch rijdefinities samenstelt via het dialoogvenster **Rijen invoegen van dimensies**.
+U kunt een bereik opgeven van segmentwaarden of dimensiewaarden. Het voordeel van het opgeven van een bereik is dat u de rijdefinitie niet hoeft bij te werken telkens wanneer een nieuwe segmentwaarde of dimensiewaarde aan de financiële gegevens wordt toegevoegd. Bijvoorbeeld, het bereik **+Account=\[6100:6900\]** trekt de waarden van rekeningen 6100 tot en met 6900 in het rijbedrag. Wanneer een bereik een jokerteken (?) bevat, evalueert de rapportontwerper het bereik niet teken per teken. In plaats daarvan worden de lage en hoge uiteinden van het bereik bepaald en worden vervolgens de eindwaarden en alle waarden daartussen opgenomen. 
+> [!NOTE]
+> Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. U kunt een en-teken (&) alleen toevoegen wanneer u automatisch rijdefinities samenstelt via het dialoogvenster **Rijen invoegen van dimensies**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Bereiken met meerdere segmenten of meerdere dimensies
 
-Wanneer u een bereik invoert door combinaties van meerdere dimensiewaarden te gebruiken, wordt de bereikvergelijking ..\financial-dimensions\dimensie voor dimensie uitgevoerd. De bereikvergelijking kan niet teken per teken of op basis van een gedeeltelijke segment worden uitgevoerd. Het bereik **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** bevat bijvoorbeeld alleen de rekeningen die overeenkomen met elk segment. In dit scenario moet de eerste dimensie in het bereik van 5000 tot en met 6000 zijn, de tweede dimensie in het bereik van 1000 tot en met 2000 en moet de laatste dimensie 00 zijn. Zo wordt bijvoorbeeld **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** niet in het rapport opgenomen, omdat het laatste segment buiten het opgegeven bereik ligt. Als een segmentwaarde spaties bevat, plaatst u die waarde tussen vierkante haakjes (\[ \]). De volgende waarden zijn geldig voor een segment met vier tekens: **\[ 234\], \[123 \], \[1 34\]**. Dimensiewaarden moeten tussen vierkante haakjes (\[ \]) worden geplaatst. Report Designer voegt deze haakjes voor u toe. Wanneer een bereik met meerdere segmenten of meerdere dimensies jokertekens (? of \*) bevat, worden de hoge en lage uiteinden van het hele bereik met meerdere segmenten of meerdere dimensies bepaald en worden de eindwaarden en alle waarden daartussen opgenomen. Als u een groot bereik hebt, zoals de hele reeks rekeningen van 40000 tot en met 99999, moet u waar mogelijk een geldige eerste rekening en laatste rekening opgeven. **Opmerking:** Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende voorbehouden tekens bevatten: &, \*, \[, \], {, of }. U kunt een en-teken (&) alleen toevoegen wanneer u automatisch rijdefinities samenstelt via het dialoogvenster **Rijen invoegen van dimensies**.
+Wanneer u een bereik invoert door combinaties van meerdere dimensiewaarden te gebruiken, wordt de bereikvergelijking ..\financial-dimensions\dimensie voor dimensie uitgevoerd. De bereikvergelijking kan niet teken per teken of op basis van een gedeeltelijke segment worden uitgevoerd. Het bereik **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** bevat bijvoorbeeld alleen de rekeningen die overeenkomen met elk segment. In dit scenario moet de eerste dimensie in het bereik van 5000 tot en met 6000 zijn, de tweede dimensie in het bereik van 1000 tot en met 2000 en moet de laatste dimensie 00 zijn. Zo wordt bijvoorbeeld **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** niet in het rapport opgenomen, omdat het laatste segment buiten het opgegeven bereik ligt. Als een segmentwaarde spaties bevat, plaatst u die waarde tussen vierkante haakjes (\[ \]). De volgende waarden zijn geldig voor een segment met vier tekens: **\[ 234\], \[123 \], \[1 34\]**. Dimensiewaarden moeten tussen vierkante haakjes (\[ \]) worden geplaatst. Report Designer voegt deze haakjes voor u toe. Wanneer een bereik met meerdere segmenten of meerdere dimensies jokertekens (? of \*) bevat, worden de hoge en lage uiteinden van het hele bereik met meerdere segmenten of meerdere dimensies bepaald en worden de eindwaarden en alle waarden daartussen opgenomen. Als u een groot bereik hebt, zoals de hele reeks rekeningen van 40000 tot en met 99999, moet u waar mogelijk een geldige eerste rekening en laatste rekening opgeven. 
+> [!NOTE]
+> Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. U kunt een en-teken (&) alleen toevoegen wanneer u automatisch rijdefinities samenstelt via het dialoogvenster **Rijen invoegen van dimensies**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Optellen bij en aftrekken van andere rekeningen in een rijdefinitie
 Om de monetaire bedragen in één rekening op te tellen bij of af te trekken van de monetaire bedragen in een andere rekening, kunt u het plusteken (+) en het minteken (-) in de cel **Koppeling naar financiële dimensies** gebruiken. De volgende tabel geeft acceptabele notaties weer voor het optellen bij en aftrekken van koppelingen naar financiële gegevens.
 
-| Bewerking                                                                               | Deze opmaak gebruiken                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Bewerking  | Deze opmaak gebruiken  |
+|------------|-----------------|
 | Voeg twee volledig gekwalificeerd rekeningen toe.                                                       | +Division=\[000\], Account=\[1205\], Department=\[00\]+Division=\[100\], Account=\[1205\], Department=\[00\] |
 | Voeg twee segmentwaarden toe.                                                                 | +Account=\[1205\]+Account=\[1210\]                                                                           |
 | Voeg segmentwaarden toe die jokertekens bevatten.                                    | +Account=\[120?+Account=\[11??\]                                                                             |
@@ -634,7 +437,9 @@ Om de monetaire bedragen in één rekening op te tellen bij of af te trekken van
 | Trek een bereik van segmentwaarden af.                                                     | -Account=\[1200:1205\]                                                                                       |
 | Trek een bereik van segmentwaarden af die jokertekens bevatten.                    | -Account=\[120?:130?\]                                                                                       |
 
-Hoewel u de rekeningen rechtstreeks kunt wijzigen, kunt u ook het dialoogvenster **Dimensies** gebruiken om de juiste opmaak toe te passen op uw koppelingen naar financiële gegevens. Alle waarden mogen jokertekens bevatten (? of \*). Report Designer kan echter geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende voorbehouden tekens bevatten: &, \*, \[, \], {, of }. **Opmerking:** Om waarden af te trekken, moet u deze waarden tussen haakjes plaatsen. Als u bijvoorbeeld **450?-(4509)** invoert, wordt dit weergegeven als **+Account=\[4509\]-Account=\[450?\]** en draagt u Report Designer op om het bedrag voor rekeningsegment 4509 af te trekken van het bedrag voor elk rekeningsegment dat begint met 450.
+Hoewel u de rekeningen rechtstreeks kunt wijzigen, kunt u ook het dialoogvenster **Dimensies** gebruiken om de juiste opmaak toe te passen op uw koppelingen naar financiële gegevens. Alle waarden mogen jokertekens bevatten (? of \*). Report Designer kan echter geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende voorbehouden tekens bevatten: &, \*, \[, \], {, of }. 
+> [!NOTE]
+> Om waarden af te trekken, moet u deze waarden tussen haakjes plaatsen. Als u bijvoorbeeld **450?-(4509)** invoert, wordt dit weergegeven als **+Account=\[4509\]-Account=\[450?\]** en draagt u Report Designer op om het bedrag voor rekeningsegment 4509 af te trekken van het bedrag voor elk rekeningsegment dat begint met 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Rekeningen optellen bij of aftrekken van andere rekeningen
 
@@ -648,7 +453,8 @@ Hoewel u de rekeningen rechtstreeks kunt wijzigen, kunt u ook het dialoogvenster
 
 4.  Herhaal stap 2 - 3 als u nog meer bewerkingen wilt toevoegen.
 
-**Opmerking:** De operator is van toepassing op alle dimensies in de rij.
+> [!NOTE]
+> De operator is van toepassing op alle dimensies in de rij.
 
 ## <a name="description-of-the-dimensions-dialog-box"></a>Dialoogvenster Omschrijving van de dimensies
 In de volgende tabel worden de velden beschreven in het dialoogvenster **Dimensies**.
@@ -680,7 +486,9 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 2.  Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
 3.  Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
 4.  Selecteer in de lijst de set van dimensiewaarden die u wilt bijwerken en klik vervolgens op **Wijzigen**.
-5.  Open het dialoogvenster **Wijzigen** en wijzig de formulewaarden die in de set moeten worden opgenomen. **Opmerking:** Als u nieuwe rekeningen of dimensies toevoegt, moet u de bestaande sets van dimensiewaarden wijzigen om de wijzigingen op te nemen.
+5.  Open het dialoogvenster **Wijzigen** en wijzig de formulewaarden die in de set moeten worden opgenomen. 
+    > [!NOTE]
+    >  Als u nieuwe rekeningen of dimensies toevoegt, moet u de bestaande sets van dimensiewaarden wijzigen om de wijzigingen op te nemen.
 6.  Dubbelklik op de cel en selecteer de juiste operator, **Van**-rekening en **Naar**-rekening.
 7.  Klik op **OK** om het dialoogvenster **Wijzigen** te sluiten en wijzigingen op te slaan.
 
@@ -703,6 +511,8 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 <a name="see-also"></a>Zie ook
 --------
 
-[Financiële rapportage voor Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Financiële rapportage](financial-reporting-intro.md)
+
+
 
 

@@ -3,7 +3,7 @@ title: Afgeschafte functies
 description: "Dit onderwerp beschrijft de functies die zijn verwijderd of zijn in gepland voor verwijdering uit Dynamics van 365 for Operations. Het bevat ook functies die in Dynamics AX 7.0-versies zijn beëindigd."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Afgeschafte functies
+
+[!include[banner](../includes/banner.md)]
+
 
 Dit onderwerp beschrijft de functies die zijn verwijderd of zijn in gepland voor verwijdering uit Dynamics van 365 for Operations. Het bevat ook functies die in Dynamics AX 7.0-versies zijn beëindigd.
 
@@ -49,7 +53,7 @@ Bankbetalingsoverboekingen worden gegenereerd en afgedrukt met de exportindeling
 |------------------------------|------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindelingen worden niet meer gebruikt.                    |
 | Vervangen door een andere functie? | Ja, ISO20022-indeling voor kredietoverdrachtbetalingen voor Litouwen |
-| Modules die worden beïnvloed             | Leveranciers                                               |
+| Modules die worden beïnvloed             | Leveranciers                                           |
 
 ### <a name="bbs-direkte-remittering-payment-formats-for-norway"></a>Betalingsindelingen van BBS Direkte voor Remittering voor Noorwegen
 
@@ -79,7 +83,7 @@ Verouderde Belgische betalingsindeling voor het innen van betalingen (automatisc
 |------------------------------|--------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                  |
 | Vervangen door een andere functie? | Ja, ISO 20022-betalingsindeling voor automatische afschrijving voor België |
-| Modules die worden beïnvloed             | Klanten                                      |
+| Modules die worden beïnvloed             | Klanten                                    |
 
 ### <a name="dtaezag-payment-formats-for-switzerland"></a>DTA/EZAG-betalingsindelingen voor Zwitserland
 
@@ -89,7 +93,7 @@ DTA/EZAG-indelingen worden geïntegreerd in het ESR-systeem omdat ze een referen
 |------------------------------|--------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindelingen worden niet meer gebruikt.                      |
 | Vervangen door een andere functie? | Ja, ISO20022-betalingsindeling voor kredietoverdracht voor Zwitserland |
-| Modules die worden beïnvloed             | Leveranciers                                                 |
+| Modules die worden beïnvloed             | Leveranciers                                             |
 
 ### <a name="edifact-dirdeb-payment-format-for-austria"></a>EDIFACT-DIRDEB-betalingsindeling voor voor Oostenrijk
 
@@ -99,7 +103,7 @@ EDIFACT-DIRDEB-betalingsindeling voor het innen van betalingen (automatische afs
 |------------------------------|--------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                  |
 | Vervangen door een andere functie? | Ja, ISO 20022-betalingsindeling voor automatische afschrijving voor Oostenrijk |
-| Modules die worden beïnvloed             | Klanten                                      |
+| Modules die worden beïnvloed             | Klanten                                    |
 
 ### <a name="edivat-for-belgium"></a>EDIVAT voor België
 
@@ -119,7 +123,7 @@ eGiro is gebaseerd op de internationale UN-standaard EDIFACT CREMUL (Multiple Cr
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                                                     |
 | Vervangen door een andere functie? | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
-| Modules die worden beïnvloed             | Klanten                                                                         |
+| Modules die worden beïnvloed             | Klanten                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Externe voorraad voor Polen
 
@@ -149,7 +153,7 @@ U kunt een importindeling voor Finse betalingen selecteren om de transacties van
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                                                     |
 | Vervangen door een andere functie? | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
-| Modules die worden beïnvloed             | Klanten                                                                         |
+| Modules die worden beïnvloed             | Klanten                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importeren van betalingstransacties in een grootboekjournaal voor Finland
 
@@ -159,7 +163,7 @@ Een indeling die specifiek is voor Finland, wordt gebruikt voor het importeren v
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                                                     |
 | Vervangen door een andere functie? | Nr. De indeling wordt vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
-| Modules die worden beïnvloed             | Klanten                                                                         |
+| Modules die worden beïnvloed             | Klanten                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integratie met Isabel gesynchroniseerd (CIS) voor België
 
@@ -169,7 +173,7 @@ Isabel is het framework voor elektronisch bankieren in Europa en een de facto-st
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | Integratie met Isabel-client is beëindigd.                                                                |
 | Vervangen door een andere functie? | Nr. De betalingsindelingen die niet meer worden gebruikt, worden vervangen door ISO20022-betalingsindeling voor kredietoverdracht voor België. |
-| Modules die worden beïnvloed             | Leveranciers                                                                                                         |
+| Modules die worden beïnvloed             | Leveranciers                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>Wijzigingen in het rekeningschema en boekhoudregels voor Spanje
 
@@ -189,7 +193,7 @@ Verouderde Italiaanse betalingsindeling voor kredietoverdrachten.
 |------------------------------|--------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindeling wordt niet meer gebruikt.                  |
 | Vervangen door een andere functie? | Ja, ISO20022-betalingsindeling voor kredietoverdracht voor Italië |
-| Modules die worden beïnvloed             | Leveranciers                                           |
+| Modules die worden beïnvloed             | Leveranciers                                       |
 
 ### <a name="payment-export-formats-for-estonia"></a>Opmaak voor betalingsexport voor Estland
 
@@ -199,7 +203,7 @@ De indelingen Telehansa en Teleservice worden gebruikt voor het exporteren van b
 |------------------------------|----------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindelingen worden niet meer gebruikt.                  |
 | Vervangen door een andere functie? | Ja, ISO20022-betalingsindeling voor kredietoverdrachten voor Estland |
-| Modules die worden beïnvloed             | Leveranciers                                             |
+| Modules die worden beïnvloed             | Leveranciers                                         |
 
 ### <a name="payment-file-archive-for-norway"></a>Betalingsbestandsarchief Noorwegen
 
@@ -219,7 +223,7 @@ De indelingen Telehansa en TeleTeenus worden gebruikt voor het importeren van ba
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindelingen worden niet meer gebruikt.                                                    |
 | Vervangen door een andere functie? | Nr. De indelingen worden vervangen door ISO 20022-importindelingen voor afschriften in toekomstige versies. |
-| Modules die worden beïnvloed             | Klanten                                                                          |
+| Modules die worden beïnvloed             | Klanten                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Werkstroom doel prestatiebeheer
 
@@ -239,7 +243,7 @@ De betalingsindelingen Postgirot en Utland Postgirot van Zweden.
 |------------------------------|---------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindelingen worden niet meer gebruikt.                 |
 | Vervangen door een andere functie? | Ja, ISO20022-betalingsindeling voor kredietoverdracht voor Zweden |
-| Modules die worden beïnvloed             | Leveranciers                                            |
+| Modules die worden beïnvloed             | Leveranciers                                        |
 
 ### <a name="radio-frequency-identifier"></a>Radiofrequentie-identificatie
 
@@ -259,7 +263,7 @@ De Letse wetgeving kent specifieke regels voor het nummeren van verkoopfacturen.
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De statusnummering van de factuur hoeft niet meer te worden onderhouden. Het rapport over gebruikte factuurnummers is niet meer nodig. |
 | Vervangen door een andere functie? | Nee                                                                                                                       |
-| Modules die worden beïnvloed             | Klanten                                                                                                        |
+| Modules die worden beïnvloed             | Klanten                                                                                                      |
 
 ### <a name="set-up-the-names-of-the-manager-and-general-accountant-of-a-company-for-lithuania"></a>De namen van de manager en de algemene boekhouder instellen van een bedrijf voor Litouwen
 
@@ -289,7 +293,7 @@ Twee indelingen voor het exporteren van betalingen zijn beschikbaar voor Finland
 |------------------------------|----------------------------------------------------------|
 | Reden voor afschrijving       | De betalingsindelingen worden niet meer gebruikt.                  |
 | Vervangen door een andere functie? | Ja, ISO20022-betalingsindeling voor kredietoverdracht voor Finland |
-| Modules die worden beïnvloed             | Leveranciers                                             |
+| Modules die worden beïnvloed             | Leveranciers                                         |
 
 ### <a name="workflow-for-creating-goals"></a>Workflow voor het maken van doelen
 
@@ -338,7 +342,7 @@ Specifieke betalingsmethode voor Braziliaanse bedrijven
 |------------------------------|-------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De ondersteuning voor de Braziliaanse Bordero-betalingsmethode is verwijderd uit de Braziliaanse lokalisatie |
 | Vervangen door een andere functie? | Nee                                                                                                    |
-| Modules die worden beïnvloed             | Leveranciers                                                                                          |
+| Modules die worden beïnvloed             | Leveranciers                                                                                      |
 
 ### <a name="brazilian-sintegra-statement"></a>Braziliaans Sintegra-overzicht
 
@@ -358,7 +362,7 @@ Federaal belastingoverzicht voor ICMS-belasting
 |------------------------------|-----------------------------------------------------------------------------|
 | Reden voor afschrijving       | Deze contingentiemethode is niet langer van toepassing in alle Braziliaanse staten |
 | Vervangen door een andere functie? | Nee                                                                          |
-| Modules die worden beïnvloed             | Klanten                                                           |
+| Modules die worden beïnvloed             | Klanten                                                         |
 
 ### <a name="business-analyzer"></a>Bedrijfsanalyse
 
@@ -473,6 +477,16 @@ Gegevenspartities bieden een logische scheiding van gegevens in de Microsoft Dyn
 | Reden voor afschrijving       | De ervaring met de Dynamics AX-client is opnieuw ontworpen om bruikbaarheid over meerdere platformen en apparaten te verbeteren.                      |
 | Vervangen door een andere functie? | De nieuwe webclient is gebaseerd op het metagegevens en programmeringsmodel van het bureaubladformulier, die zijn aangepast om een rijk webplatform te bieden. |
 | Modules die worden beïnvloed             | Alles                                                                                                                                    |
+
+### <a name="direct-database-connection"></a>Directe databaseverbinding
+
+In Dynamics AX 2012 R3 kan Retail Modern POS direct verbinding maken met de afzetkanaal-DB op soortgelijke wijze als Enterprise POS. Dit was een aanvulling op de standaardcommunicatiemethode van communicatie van Retail Modern POS via Retail Server.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Reden voor afschrijving       | Voor een directe databaseverbinding waren lagere beveiligingsprotocollen vereist en deze methode werd voornamelijk gebruikt voor het behalen van optimale prestaties. Als gevolg van de prestatie- en beveiligingsverbeteringen in Dynamics 365 for Operations, levert deze functionaliteit nu meer problemen op dan ermee worden opgelost. |
+| Vervangen door een andere functie? | Nr. Alleen standaard Retail Server-communicatie wordt nu ondersteund.    |
+| Modules die worden beïnvloed             | Afzetkanaal DB/Retail Modern POS                                    |
 
 ### <a name="dutch-swift-mt940"></a>Nederlandse SWIFT MT940
 
@@ -664,6 +678,16 @@ Met deze functie kon u de naam van een van de drie standaardproductdimensies (gr
 | Vervangen door een andere functie? | Nee                                                                            |
 | Modules die worden beïnvloed             | Productgegevensbeheer                                                |
 
+### <a name="retail-server-connectivity-using-http"></a>Retail Server-verbinding via HTTP
+
+In Dynamics AX 2012 R3 kon de Retail Server functioneren met behulp van HTTP-communicatie (niet-beveiligd). Dit was naast de standaardcommunicatie via HTTPS.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Reden voor afschrijving       | Als gevolg van nieuwe beveiligingsvereisten, wordt nu alleen beveiligde communicatie via TLS 1.2 (of hoger, indien beschikbaar) ondersteund. Het installatieprogramma Self-service configureert automatisch de computer voor deze communicatie. |
+| Vervangen door een andere functie? | Nr. Alleen standaard HTTPS-communicatie wordt nu ondersteund.                                                                           |
+| Modules die worden beïnvloed             | Detailhandelserver                                                |
+
 ### <a name="role-center-pages"></a>Pagina's van rollencentrums
 
 |                              |                                                                                                                                                                          |
@@ -784,6 +808,8 @@ Salarisgegevens in Human Resources
 | Reden voor afschrijving       | De functionaliteit is vervangen door een andere functie.                                    |
 | Vervangen door een andere functie? | Management Reporter (in de huidige versie van Dynamics AX aangeduid als **Financiële rapportage**) |
 | Modules die worden beïnvloed             | Grootboek                                                                              |
+
+
 
 
 

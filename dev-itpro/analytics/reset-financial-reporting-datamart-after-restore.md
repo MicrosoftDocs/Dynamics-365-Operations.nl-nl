@@ -1,9 +1,9 @@
 ---
 title: "De datamart voor financiële rapportage opnieuw instellen na het herstellen van een database"
 description: "In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt na het terugzetten van een Microsoft Dynamics 365 for Operations-database."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>De datamart voor financiële rapportage opnieuw instellen na het herstellen van een database
+
+[!include[banner](../includes/banner.md)]
+
 
 In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt na het terugzetten van een Microsoft Dynamics 365 for Operations-database. 
 
@@ -43,7 +47,11 @@ Exporteer eerst de rapportontwerpen die zich in de Report Designer bevinden volg
 5.  Voer een bestandsnaam in en selecteer de beveiligde locatie waar u de geëxporteerde rapportdefinities wilt opslaan.
 6.  Klik op **Opslaan**.
 
-U kunt het bestand kopiëren of uploaden naar een beveiligde locatie, zodat u het later kunt importeren in een andere omgeving. Informatie over het gebruik van een Microsoft Azure-opslagaccount vindt u in het onderwerp [Gegevensoverdracht met het opdrachtregelprogramma AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Opmerking:** Microsoft biedt bij uw abonnement voor Dynamics 365 for Operations geen opslagaccount aan. U moet een opslagaccount aanschaffen of een opslagaccount uit een separaat Azure-abonnement gebruiken. **Belangrijk:** Houd rekening met het gedrag van het station D in virtuele Azure-machines. Bewaar uw geëxporteerde bouwsteengroepen hier niet permanent. Zie voor meer informatie over tijdelijke schijven het onderwerp [Understanding the temporary drive on Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+U kunt het bestand kopiëren of uploaden naar een beveiligde locatie, zodat u het later kunt importeren in een andere omgeving. Informatie over het gebruik van een Microsoft Azure-opslagaccount vindt u in het onderwerp [Gegevensoverdracht met het opdrachtregelprogramma AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> Microsoft biedt bij uw abonnement voor Dynamics 365 for Operations geen opslagaccount aan. U moet een opslagaccount aanschaffen of een opslagaccount uit een separaat Azure-abonnement gebruiken. 
+> [!WARNING]
+> Houd rekening met het gedrag van het station D in virtuele Azure-machines. Bewaar uw geëxporteerde bouwsteengroepen hier niet permanent. Zie voor meer informatie over tijdelijke schijven het onderwerp [Understanding the temporary drive on Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Services afstoppen
 Maak via Extern bureaublad verbinding met alle computers in de omgeving en stop de volgende Windows-services af door middel van services.msc:
@@ -57,7 +65,7 @@ Deze services hebben openstaande verbindingen met de Dynamics 365 for Operations
 ## <a name="reset"></a>Opnieuw instellen
 #### <a name="locate-the-latest-dataupgradezip-package"></a>Het meest recente pakket DataUpgrade.zip zoeken
 
-Zoek het meest recente pakket DataUpgrade.zip met de aanwijzingen in het onderwerp [Download the DataUpgrade.zip script](..\migration-upgrade\upgrade-data-to-latest-update.md). De instructies geven aan hoe u de juiste versie van het gegevensupgradepakket voor uw omgeving vindt.
+Zoek het meest recente pakket DataUpgrade.zip met de aanwijzingen in het onderwerp [Het script DataUpgrade.zip downloaden](..\migration-upgrade\upgrade-data-to-latest-update.md). De instructies geven aan hoe u de juiste versie van het gegevensupgradepakket voor uw omgeving vindt.
 
 #### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Scripts uitvoeren op de Dynamics 365 for Operations-database
 
@@ -96,7 +104,9 @@ Start de services die u eerder hebt afgestopt opnieuw op door middel van service
 Importeert uw rapportontwerpen vanuit de Report Designer, met behulp van het bestand dat bij het exporteren werd aangemaakt:
 
 1.  Ga in Report Designer naar **Bedrijf** &gt; **Bouwsteengroepen**.
-2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. **Opmerking:** Voor Dynamics 365 for Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
+2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. 
+    > [!NOTE]
+    > Voor Dynamics 365 for Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
 3.  Selecteer de bouwsteen **Standaard** en klik op **Importeren**.
 4.  Selecteer het bestand met de geëxporteerde rapportdefinities en klik op **Openen**.
 5.  Selecteer in het dialoogvenster Importeren de te importeren rapportdefinities:
@@ -104,6 +114,8 @@ Importeert uw rapportontwerpen vanuit de Report Designer, met behulp van het bes
     -   Om specifieke rapporten, rijen, kolommen, structuren of dimensiesets te importeren, selecteert u de te importeren rapporten, rijen, kolommen, structuren of dimensiesets.
 
 6.  Klik op **Importeren**.
+
+
 
 
 

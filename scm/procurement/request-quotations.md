@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d70b4ae0a6b177508021ee72481333cf6f265069
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ad50ab5c2dddf4fe07ebb5bb940954c0408f8d
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,9 +49,9 @@ Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de o
 
 Wanneer u biedingen ontvangt, moet u deze invoeren op de pagina **Antwoorden op offerteaanvraag**. Als u de optie **Gegevens kopiëren naar antwoord** selecteert, worden gegevens zoals de hoeveelheid en de datums vanuit de offerteaanvraagcase in het antwoord gekopieerd. U kunt deze gegevens wijzigen om de bieding van de leverancier te reflecteren.  
 
-Als een tweede herhaling van een antwoord is vereist voor een specifieke leverancier, klikt u op **Retour **op de pagina** Antwoord offerteaanvraag**. De actie Retour genereert een nieuw journaal en een rapport dat wordt afgedrukt, gearchiveerd en verzonden, afhankelijk van uw instellingen voor afdrukbeheer.  
+Als een tweede herhaling van een antwoord is vereist voor een specifieke leverancier, klikt u op **Retour**op de pagina**Antwoord offerteaanvraag**. De actie Retour genereert een nieuw journaal en een rapport dat wordt afgedrukt, gearchiveerd en verzonden, afhankelijk van uw instellingen voor afdrukbeheer.  
 
-Als u scoringscriteria aan uw offerteaanvraagcase hebt toegevoegd, heeft het antwoord op de offerteaanvraag een scorepaneel waarin u de scores kunt invoeren. De totale scores worden weergegeven wanneer u de antwoorden op de pagina **Antwoorden vergelijken **vergelijkt. Hier kunt u tevens andere antwoordgegevens vergelijken, zoals de regelprijs, leverdatum en totale prijs.  
+Als u scoringscriteria aan uw offerteaanvraagcase hebt toegevoegd, heeft het antwoord op de offerteaanvraag een scorepaneel waarin u de scores kunt invoeren. De totale scores worden weergegeven wanneer u de antwoorden op de pagina **Antwoorden vergelijken**vergelijkt. Hier kunt u tevens andere antwoordgegevens vergelijken, zoals de regelprijs, leverdatum en totale prijs.  
 
 Nadat u een beslissing hebt genomen over een bieding of een gedeeltelijk bieding, kunt u deze accepteren en de rest afwijzen. Er worden acceptatiejournalen, afwijzingsjournalen en overeenkomstige rapporten gegenereerd. Deze worden afgedrukt, gearchiveerd en verzonden, afhankelijk van uw instellingen voor afdrukbeheer. Als u een bieding of specifieke regels in een bieding accepteert, wordt een inkoopovereenkomst of inkooporder gegenereerd, of wordt een opdracht tot inkoop bijgewerkt, afhankelijk van het inkooptype van de offerteaanvraag. U kunt een handelsovereenkomst maken die u later voor alle antwoorden kunt gebruiken, ongeacht of u deze hebt geaccepteerd of afgewezen.  
 
@@ -107,7 +108,7 @@ Als de offerteaanvraag van het type **Inkoopovereenkomst** is:
 -   De offerteaanvraag wordt gebruikt voor een overeenkomst voor aankoop van een specifieke hoeveelheid of waarde van een product in een bepaalde periode. U moet het datumbereik selecteren dat van toepassing is op de koopovereenkomst en de naam van de persoon die de koopovereenkomst beheert.
 -   Als u een bieding accepteert, wordt een inkoopovereenkomst gegenereerd.
 
-U kunt alleen een offerteaanvraag maken vanuit een opdracht tot inkoop als de status van de opdracht tot inkoop **Wordt gecontroleerd **is en de volgende workflowtaak aan u is toegewezen. De regels in de opdracht tot inkoop worden automatisch bijgewerkt als u regels accepteert van antwoorden op offerteaanvragen (biedingen) die u van leveranciers hebt ontvangen. U kunt de opdracht tot inkoop niet voltooien, afwijzen of goedkeuren of andere handelingen uitvoeren als de offerteaanvraag nog wordt verwerkt.  
+U kunt alleen een offerteaanvraag maken vanuit een opdracht tot inkoop als de status van de opdracht tot inkoop **Wordt gecontroleerd**is en de volgende workflowtaak aan u is toegewezen. De regels in de opdracht tot inkoop worden automatisch bijgewerkt als u regels accepteert van antwoorden op offerteaanvragen (biedingen) die u van leveranciers hebt ontvangen. U kunt de opdracht tot inkoop niet voltooien, afwijzen of goedkeuren of andere handelingen uitvoeren als de offerteaanvraag nog wordt verwerkt.  
 
 Wanneer u een offerteaanvraag maakt, kunt u een specifiek verzoektype selecteren. Het verzoektype definieert de set van scoringscriteria die wordt gebruikt om antwoorden op de offerteaanvraag van een score te voorzien.  
 

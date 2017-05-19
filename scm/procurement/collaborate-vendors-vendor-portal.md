@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: e6c731109dddb7dd47595126c4bf5f1f09425a7d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2ad5bb9db955647730c4e02fc866d1f0a31687f
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -71,7 +72,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 
 Als u de naar de leverancier verzonden versies van de inkooporder en de antwoorden van de leverancier wilt bekijken, klikt u op **Journalen** &gt; **Bevestigingsaanvragen** van de inkooporder.  
 
-Orders die voor een antwoord naar de leverancier zijn verzonden en de status **Externe controle** hebben, worden weergegeven in de lijst **Inkooporders die naar de leveranciersportal zijn verzonden, in afwachting van antwoord ** of in de lijst **Inkooporders die naar de leveranciersportal zijn verzonden, antwoord vereist actie**. Wanneer u een order wijzigt die naar de leverancier is verzonden, zodat de status weer wordt gewijzigd in **Goedgekeurd**, wordt deze niet meer in deze lijsten weergegeven. Als u wilt zien of de leverancier eerder op de order heeft gereageerd, klikt u op **Journalen** &gt; **Bevestigingsaanvragen**.  
+Orders die voor een antwoord naar de leverancier zijn verzonden en de status **Externe controle** hebben, worden weergegeven in de lijst **Inkooporders die naar de leveranciersportal zijn verzonden, in afwachting van antwoord** of in de lijst **Inkooporders die naar de leveranciersportal zijn verzonden, antwoord vereist actie**. Wanneer u een order wijzigt die naar de leverancier is verzonden, zodat de status weer wordt gewijzigd in **Goedgekeurd**, wordt deze niet meer in deze lijsten weergegeven. Als u wilt zien of de leverancier eerder op de order heeft gereageerd, klikt u op **Journalen** &gt; **Bevestigingsaanvragen**.  
 
 Leveranciers hoeven de inkooporder niet in de leveranciersportal te bevestigen. Ze kunnen ook een e-mailbericht verzenden of hun acceptatie van een inkooporder via andere kanalen laten weten. U kunt de order vervolgens handmatig in Dynamics AX bevestigen. In dit geval ontvangt u een waarschuwing dat de order wordt bevestigd zelfs als er geen antwoord van de leverancier is. De inkooporder wordt vervolgens in de bevestigingshistorie in de leveranciersportal weergegeven als een openstaande bevestigde order die geen antwoorden heeft. Daarnaast heeft de leverancier niet meer de mogelijkheid om de inkooporder te bevestigen of af te wijzen.  
 

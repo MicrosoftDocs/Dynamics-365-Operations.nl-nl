@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a812c93a13fd36f44e659c9976099af62793098f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce03d3b55ecdc05f70a36762f7de49b3018b6451
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Voorbeelden van nummerreeksen
 De volgende voorbeelden geven aan hoe u segmenten gebruikt om nummerreeksnotaties te maken. De voorbeelden tonen in het bijzonder de effecten van het gebruik van scopesegmenten.
 ### <a name="expense-report-numbers"></a>Onkostennotanummers
 
-In het volgende voorbeeld worden onkostennotanummer ingesteld voor de rechtspersoon die **CS** heet. **Gebied: **Reis- en onkosten **Verwijzing: **Nummer onkostennota **Bereik: **Rechtspersoon **Rechtspersoon: **CS
+In het volgende voorbeeld worden onkostennotanummer ingesteld voor de rechtspersoon die **CS** heet. **Gebied:**Reis- en onkosten **Verwijzing:**Nummer onkostennota **Bereik:**Rechtspersoon **Rechtspersoon:**CS
 | Segmenten  | Segmenttype | Waarde     |
 |-----------|--------------|-----------|
 | Segment 1 | Rechtspersoon | CS        |
@@ -49,17 +50,17 @@ In het volgende voorbeeld worden onkostennotanummer ingesteld voor de rechtspers
 
 ### <a name="sales-order-numbers"></a>Verkoopordernummers
 
-In het volgende voorbeeld worden verkoopordernummers ingesteld voor de bedrijfs-id **CEU**. **Gebied: **Verkoop **Verwijzing: **Verkooporder **Bereik: **Bedrijf **Bedrijf: **CEU
+In het volgende voorbeeld worden verkoopordernummers ingesteld voor de bedrijfs-id **CEU**. **Gebied:**Verkoop **Verwijzing:**Verkooporder **Bereik:**Bedrijf **Bedrijf:**CEU
 | Segmenten  | Segmenttype | Waarde    |
 |-----------|--------------|----------|
 | Segment 1 | Constante     | SO-      |
 | Segment 2 | Alfanumeriek | \#\#\#\# |
 
-**Voorbeeld van een opgemaakt nummer**: SO-0029. Hoewel een scopesegment niet in de notatie is opgenomen, begint de nummering opnieuw voor elke bedrijfs-ID. Als u dezelfde notatie gebruikt voor alle bedrijfs-ID's, dan worden dezelfde nummers in elk bedrijf gebruikt. Het verkoopordernummer SO-0029 wordt bijvoorbeeld in elk bedrijf gebruikt. U kunt ook de volledige nummerreeksnotatie wijzigen voor andere bedrijfs-ID's.
+**Voorbeeld van een opgemaakt nummer**: SO-0029. Hoewel een scopesegment niet in de notatie is opgenomen, begint de nummering opnieuw voor elke bedrijfs-ID. Als u dezelfde notatie gebruikt voor alle bedrijfs-ID´s, dan worden dezelfde nummers in elk bedrijf gebruikt. Het verkoopordernummer SO-0029 wordt bijvoorbeeld in elk bedrijf gebruikt. U kunt ook de volledige nummerreeksnotatie wijzigen voor andere bedrijfs-ID´s.
 
 ### <a name="purchase-requisition-numbers"></a>Nummers van opdrachten tot inkoop
 
-In het volgende voorbeeld zijn de nummers van de opdracht tot inkoop organisatiebreed. **Gebied: **Inkoop **Verwijzing: **Opdracht tot inkoop **Bereik: **Gedeeld
+In het volgende voorbeeld zijn de nummers van de opdracht tot inkoop organisatiebreed. **Gebied:**Inkoop **Verwijzing:**Opdracht tot inkoop **Bereik:**Gedeeld
 | Segmenten  | Segmenttype | Waarde    |
 |-----------|--------------|----------|
 | Segment 1 | Constante     | Behoefte      |
@@ -71,7 +72,7 @@ In het volgende voorbeeld zijn de nummers van de opdracht tot inkoop organisatie
 Bekijk de volgende gegevens over hoe de configuratie van nummerreeksen de systeemprestaties kan beïnvloeden voordat u nummerreeksen instelt.
 ### <a name="continuous-and-non-continuous-number-sequences"></a>Doorlopende en niet-doorlopende nummerreeksen
 
-Nummerreeksen kunnen doorlopend of niet-doorlopend zijn. Een doorlopende nummerreeks slaat geen nummers over, maar de nummers mogen niet opeenvolgend worden gebruikt. Nummers van een niet-doorlopende nummerreeks worden opeenvolgend gebruikt, maar de nummerreeks kan nummers overslaan. Als een gebruiker bijvoorbeeld een transactie annuleert, wordt een nummer gegenereerd, maar niet gebruikt. In een doorlopende nummerreeks, wordt dat nummer later opnieuw gebruikt. In een niet-doorlopende nummerreeks, wordt het nummer niet gebruikt. Doorlopende nummerreeksen zijn normaal gezien vereist voor externe documenten, zoals inkooporders, verkooporders en facturen. Doorlopende nummerreeksen kunnen de reactietijden van het systeem nadelig beïnvloeden, maar het systeem moet een nummer aanvragen bij de database telkens als een nieuw document of registratie wordt gemaakt. Als u een niet-doorlopende nummerreeks gebruikt, kunt u **Voorafgaande toewijzing** inschakelen op het sneltabblad **Prestaties ** op de pagina **Nummerreeksen**. Wanneer u een hoeveelheid nummers opgeeft om vooraf toe te wijzen, selecteert het systeem die nummers en bewaart het ze in het geheugen. Nieuwe nummers worden alleen bij de database opgevraagd nadat de vooraf toegewezen hoeveelheid is gebruikt. Tenzij er een regelgevende vereiste is die doorlopende nummerreeksen gebruikt, bevelen we u aan om niet-doorlopende nummerreeksen te gebruiken voor betere prestaties.
+Nummerreeksen kunnen doorlopend of niet-doorlopend zijn. Een doorlopende nummerreeks slaat geen nummers over, maar de nummers mogen niet opeenvolgend worden gebruikt. Nummers van een niet-doorlopende nummerreeks worden opeenvolgend gebruikt, maar de nummerreeks kan nummers overslaan. Als een gebruiker bijvoorbeeld een transactie annuleert, wordt een nummer gegenereerd, maar niet gebruikt. In een doorlopende nummerreeks, wordt dat nummer later opnieuw gebruikt. In een niet-doorlopende nummerreeks, wordt het nummer niet gebruikt. Doorlopende nummerreeksen zijn normaal gezien vereist voor externe documenten, zoals inkooporders, verkooporders en facturen. Doorlopende nummerreeksen kunnen de reactietijden van het systeem nadelig beïnvloeden, maar het systeem moet een nummer aanvragen bij de database telkens als een nieuw document of registratie wordt gemaakt. Als u een niet-doorlopende nummerreeks gebruikt, kunt u **Voorafgaande toewijzing** inschakelen op het sneltabblad **Prestaties** op de pagina **Nummerreeksen**. Wanneer u een hoeveelheid nummers opgeeft om vooraf toe te wijzen, selecteert het systeem die nummers en bewaart het ze in het geheugen. Nieuwe nummers worden alleen bij de database opgevraagd nadat de vooraf toegewezen hoeveelheid is gebruikt. Tenzij er een regelgevende vereiste is die doorlopende nummerreeksen gebruikt, bevelen we u aan om niet-doorlopende nummerreeksen te gebruiken voor betere prestaties.
 
 ### <a name="automatic-cleanup-of-number-sequences"></a>Automatische opschoning van nummerreeksen
 

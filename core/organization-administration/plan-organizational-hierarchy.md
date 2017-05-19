@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 77052552c8a22724c363b2b50c352b4956e332b8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b43a361bdc9b49080d15aab13f2267897b114094
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,7 +65,7 @@ Houd rekening met de volgende beste praktijken wanneer u een organisatiehiërarc
 -   Maak geen hiërarchie voor elk doel. Gewoonlijk kunt u één hiërarchie voor meerdere doelen gebruiken. Eén hiërarchie van operationele eenheden kan bijvoorbeeld aan alle beleidsdoelen worden toegewezen.
 -   Gebalanceerde hiërarchieën maken. In een hiërarchie worden alle knooppunten die zich op dezelfde afstand van het basisknooppunt bevatten als een niveau gedefinieerd. In een gebalanceerde hiërarchie kan slechts één type operationele eenheid voorkomen op elk niveau en de afstand tussen het basisknooppunt en het niveau is consistent. Als er tussenniveaus zijn tussen een afdeling en een rechtspersoon of bedrijfseenheid, zijn er mogelijk placeholderorganisaties vereist om een gebalanceerde hiërarchie te maken.
 -   Modelleer geen afzonderlijke hiërarchie van operationele eenheden als de structuur voor rechtspersonen ook uw operationele structuur is. Een gemengde hiërarchie van rechtspersonen en operationele eenheden kan voor beide doeleinden worden gebruikt.
--   Voordat u belangrijke herstructureringsscenario's modelleert, gebruikt u de ingangsdatums van de hiërarchie om een impactanalyse en een validatietest uit te voeren.
+-   Voordat u belangrijke herstructureringsscenario´s modelleert, gebruikt u de ingangsdatums van de hiërarchie om een impactanalyse en een validatietest uit te voeren.
 -   Gebruik conceptmodus om een hiërarchie te wijzigen voordat u een nieuwe versie in een productieomgeving publiceert.
 -   Beperk het aantal mensen met machtigingen om organisaties toe te voegen of te verwijderen uit een hiërarchie in een productieomgeving. Een kleiner aantal beperkt de kans dat kostbare fouten optreden en correcties moeten worden uitgevoerd.
 

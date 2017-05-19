@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 2f14e9227ef56f428d18999aa7b52254580cdfa4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d37531eb746324c6ddb9ca363f2bde1dfd84a197
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -59,7 +60,7 @@ De pagina **Terugkerende facturen** bevat een taak waarmee sjablonen voor terugk
 Terugkerende vrije-tekstfacturen boeken
 ---------------------------------
 
-Nadat terugkerende facturen zijn gegenereerd, wordt de factuurherhalings-ID weergegeven in een boekingstaak op de pagina **Terugkerende facturen **. U kunt alle facturen voor een herhalings-ID weergeven door op de koppeling te klikken. Tijdens de controle van de facturen voor de herhalings-ID kunt u afzonderlijke facturen verwijderen. De herhalingsinstellingen van de klant worden voor die sjabloon opnieuw ingesteld, zodat deze later opnieuw kan worden gegenereerd. U kunt één factuur, een groot aantal facturen of alle facturen voor een herhalings-ID boeken. Als workflows worden ingeschakeld, moet u klikken op **Verzenden** voordat u de facturen kunt boeken.
+Nadat terugkerende facturen zijn gegenereerd, wordt de factuurherhalings-ID weergegeven in een boekingstaak op de pagina **Terugkerende facturen**. U kunt alle facturen voor een herhalings-ID weergeven door op de koppeling te klikken. Tijdens de controle van de facturen voor de herhalings-ID kunt u afzonderlijke facturen verwijderen. De herhalingsinstellingen van de klant worden voor die sjabloon opnieuw ingesteld, zodat deze later opnieuw kan worden gegenereerd. U kunt één factuur, een groot aantal facturen of alle facturen voor een herhalings-ID boeken. Als workflows worden ingeschakeld, moet u klikken op **Verzenden** voordat u de facturen kunt boeken.
 Terugkerende vrije-tekstfacturen afdrukken
 ----------------------------------
 

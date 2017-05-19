@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 24caafcd01875f04cf3ae5299aadcf9b38ac0e15
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 38725d4d873a3b39eb3916c3f616826f8a266b60
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ De **Gecorrigeerde vraagprognose** pagina bevat een raster met de volgende struc
 ## <a name="forecast-aggregation-and-deaggregation"></a>Prognoseaggregatie en -deaggregatie
 De ondertitel van de pagina geeft het niveau van prognoseaggregatie aan. 
 
-Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Toewijzingssleutel / Artikelnummer / Kleur / Grootte / Configuratie / Stijl** is, is er geen prognoseaggregatie, en wordt de prognose weergegeven op het niveau van het artikel en de dimensies ervan. Om de aggregatie te wijzigen, gebruikt u de pagina** Prognosedimensies wijzigen**, die u kunt openen vanuit het toepassingsmenu. 
+Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Toewijzingssleutel / Artikelnummer / Kleur / Grootte / Configuratie / Stijl** is, is er geen prognoseaggregatie, en wordt de prognose weergegeven op het niveau van het artikel en de dimensies ervan. Om de aggregatie te wijzigen, gebruikt u de pagina**Prognosedimensies wijzigen**, die u kunt openen vanuit het toepassingsmenu. 
 
 Om de prognose te wijzigen, typt op in een beschikbare cel en typt u de aangepaste prognosewaarde. De bewerkte cel wordt onmiddellijk vet om aan te geven dat de prognose die deze bevat niet de prognose die vraagprognose-service heeft gemaakt, maar dat deze handmatig is gecorrigeerd. 
 
@@ -58,7 +59,7 @@ Wanneer de correctie van de geraamde hoeveelheid op een samengevoegd niveau word
 U kunt ook handmatige aanpassingen uitvoeren op de pagina **Vraagprognoseregels** door de waarde **Totale hoeveelheid** of de cellen voor **Hoeveelheid** te wijzigen in het deaggregatieraster.
 
 ## <a name="viewing-details-of-the-forecast"></a>Details van de prognose bekijken
-U kunt de pagina** Details van vraagprognose** openen om meer informatie over de prognose weer te geven. 
+U kunt de pagina**Details van vraagprognose** openen om meer informatie over de prognose weer te geven. 
 
 Op de pagina **Details van vraagprognose** wordt de volgende informatie in grafische vorm en in tabelvorm weergegeven:
 

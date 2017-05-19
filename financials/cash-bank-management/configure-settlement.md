@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 6927ed98c82f174a18d3d8821fbdb302801835c4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dd10b2ebe1871f5845b1f245e259c8647a4408c1
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,7 +53,7 @@ De volgende parameters zijn van invloed op de wijze waarop vereffeningen worden 
     -   Als deze optie is in gesteld op **Ja** en een creditnota wordt gemarkeerd op de pagina **Transacties vereffenen**, wordt de korting automatisch berekend en weergegeven als de standaardinvoer in het veld **Contantkortingsbedrag dat moet worden toegepast**.
     -   Als deze optie is ingesteld op **Nee** en een creditnota is gemarkeerd op de pagina **Transacties vereffenen**, is de standaardinvoer in het veld **Contantkortingsbedrag dat moet worden toegepast** **0** (nul).
 -   **Kortingstegenrekeningen (alleen leveranciers)**: definieer de grootboekrekening van de standaardcontantkorting die voor de boeking voor contantkortingen moet worden gebruikt.
-    -   ** Hoofdrekening voor leverancierskortingen gebruiken**: de contantkorting wordt geboekt naar de hoofdrekening die op de pagina **Contantkortingsinstelling** wordt gedefinieerd.
+    -   **Hoofdrekening voor leverancierskortingen gebruiken**: de contantkorting wordt geboekt naar de hoofdrekening die op de pagina **Contantkortingsinstelling** wordt gedefinieerd.
     -   **Rekeningen op de factuurregels**: de contantkorting wordt geboekt naar de grootboekrekeningen op de oorspronkelijke factuur.
 -   **Regels op facturen met vrije tekst en rentenota's markeren (alleen klanten)**: stel deze optie in op **Ja** om de knop **Factuurregels markeren** op de pagina´s **Klantbetalingen invoeren** **Betalingsjournaalboekstuk** en **Transacties vereffenen** in te schakelen. Met deze knop kunnen gebruikers afzonderlijke regels voor vereffening markeren.
 -   **Prioriteit van vereffening (alleen klanten)**: stel deze optie in op **Ja** om de knop **Markeren op prioriteit** in te schakelen op de pagina **Klantbetalingen invoeren** en **Transacties vereffenen**. Met deze knop kunnen gebruikers de vooraf vastgestelde vereffeningsvolgorde toewijzen aan transacties.  Nadat de vereffeningsvolgorde is toegepast op een transactie, kunnen de volgorde en de betalingstoewijzing worden gewijzigd vóór boeking.

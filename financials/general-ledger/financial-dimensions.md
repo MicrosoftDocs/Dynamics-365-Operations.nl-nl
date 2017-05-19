@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: f849b98cac88d182875aca88aaf04cd3575ed99f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ee2d132f0b23ceec2a79ee6b0ee33862d6a0518
+ms.contentlocale: nl-nl
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Hierna volgen enkele voorbeelden van de beperkingen:
 
 Als u een door de gebruiker gedefinieerde financiële dimensie wilt maken, selecteert u &lt; Aangepaste dimensie &gt; in het veld Waarden gebruiken van. U kunt ook een opmaakmasker opgeven om de hoeveelheid en het type gegevens te beperken die u voor dimensiewaarden kunt invoeren. U kunt tekens zoals letters of een koppelteken invoeren die voor elke dimensiewaarde hetzelfde blijven. U kunt ook hekjes (\#) en en-tekens (&) invoeren die dienen als tijdelijke aanduidingen voor letters en cijfers die elke keer worden gewijzigd als een dimensiewaarde wordt gemaakt. Gebruik een hekje (\#) als tijdelijke aanduiding voor een cijfer en een en-teken (&) als tijdelijke aanduiding voor een letter. 
 
-**Voorbeeld ** 
+**Voorbeeld** 
 
 Om de dimensiewaarde te beperken tot de letters CC en drie getallen, voert u CC-\#\#\# als opmaakmasker in. Dit veld is alleen beschikbaar wanneer u &lt;Aangepaste dimensie &gt; selecteert in het veld Waarden gebruiken van. 
 
