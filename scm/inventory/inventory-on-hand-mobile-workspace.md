@@ -3,10 +3,10 @@ title: Mobiel werkgebied voorhanden voorraad
 description: Dit onderwerp biedt informatie over het mobiele werkgebied Voorhanden voorraad, dat beschikbaar is voor de mobiele app voor Microsoft Dynamics 365 for Operations. Met dit mobiele werkgebied kunt u altijd en overal mobiele inzichten verkrijgen in gereserveerde en beschikbare voorraad.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e703ae80800b993ebca1c7bee455af1be41c7d5f
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7387df37e047d5ab7a90b696a6ffa249094499c4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,15 +37,21 @@ Dit onderwerp biedt informatie over het mobiele werkgebied Voorhanden voorraad, 
 <a name="overview-of-the-inventory-on-hand-mobile-workspace"></a>Overzicht van mobiel werkgebied voorhanden voorraad
 --------------------------------------------------
 
-Normaal gesproken hebben bedrijven elke dag meerdere verzendingen en meerdere ontvangsten van voorraad. Deze verplaatsingen veranderen voortdurend de status van de voorhanden voorraad. Met het mobiele werkgebied **Voorhanden voorraad** kunt u de status van de voorhanden voorraad voor meerdere bedrijven bekijken, zodat u de meest recente inzichten in de voorraadgegevens op het mobiele apparaat van uw keuze kunt verkrijgen. Ongeacht of u werkzaam bent in het magazijn of voor inkoop, verkoop, productie of beheer of andere rollen vervult, u hebt altijd en overal toegang tot de gegevens over de voorhanden voorraad. Het mobiele werkgebied is een duidelijk overzicht van de voorhanden status over faciliteiten beschikken. U kunt voorhanden voorraad weergeven in faciliteiten, huidige materiaalreserveringen en niet-gereserveerde voorhanden voorraad. U kunt ook artikelnummers invoeren om te zoeken in voorhanden voorraad en een gefilterde zoekopdracht uitvoeren naar voorhanden producten of varianten. Het mobiele werkgebied biedt vooral de volgende functies:
+Normaal gesproken hebben bedrijven elke dag meerdere verzendingen en meerdere ontvangsten van voorraad. Deze verplaatsingen veranderen voortdurend de status van de voorhanden voorraad. Met het mobiele werkgebied **Voorhanden voorraad** kunt u de status van de voorhanden voorraad voor meerdere bedrijven bekijken, zodat u de meest recente inzichten in de voorraadgegevens op het mobiele apparaat van uw keuze kunt verkrijgen. Ongeacht of u werkzaam bent in het magazijn of voor inkoop, verkoop, productie of beheer of andere rollen vervult, u hebt altijd en overal toegang tot de gegevens over de voorhanden voorraad. 
+
+Het mobiele werkgebied is een duidelijk overzicht van de voorhanden status over faciliteiten beschikken. U kunt voorhanden voorraad weergeven in faciliteiten, huidige materiaalreserveringen en niet-gereserveerde voorhanden voorraad. U kunt ook artikelnummers invoeren om te zoeken in voorhanden voorraad en een gefilterde zoekopdracht uitvoeren naar voorhanden producten of varianten. 
+
+Het mobiele werkgebied biedt vooral de volgende functies:
 
 -   U kunt zoeken op productnummer of productnaam om producten te vinden waarvoor u de status van de voorhanden voorraad wilt weergeven.
+
 -   Voor de geselecteerde producten kunt u de volgende informatie weergeven:
     -   Voorhanden voorraad per vestiging
     -   Voorhanden voorraad per magazijn
     -   Voorhanden voorraad per locatie
     -   Voorhanden voorraad per batch (voor batchproducten)
     -   Voorhanden voorraad per voorraadstatus
+    
 -   Voorhanden voorraad van producten wordt weergegeven op de volgende manieren:
     -   Op basis van fysieke voorraad (deze weergave geeft de totale hoeveelheid.)
     -   Op basis van fysieke gereserveerde voorraad (deze weergave geeft de gereserveerde hoeveelheid.)
@@ -71,7 +77,7 @@ Voordat u het mobiele werkgebied **Voorhanden voorraad** kunt gebruiken, control
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations versie 1611 met platformupdate 3 of hoger moet worden geïmplementeerd.</td>
 <td>Systeembeheerder</td>
-<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient de systeembeheerder <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
+<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient de systeembeheerder <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
 </tr>
 <tr class="even">
 <td>KB 4013633 moet worden geïmplementeerd.</td>
@@ -79,9 +85,9 @@ Voordat u het mobiele werkgebied **Voorhanden voorraad** kunt gebruiken, control
 <td>KB 4013633 (een X++-update of metagegevenshotfix) bevat vier mobiele werkgebieden voor supply chain management. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633:
 <ol>
 <li>KB 4013633 downloaden van Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">De metagegevenshotfix installeren</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -114,7 +120,7 @@ Download en installeer de mobiele app van Microsoft Dynamics 365 for Operations 
 
 ## <a name="view-the-onhand-inventory-for-a-product-by-using-the-inventory-onhand-mobile-workspace"></a>De voorhanden voorraad weergeven voor een product met behulp van het mobiele werkgebied voor voorhanden voorraad
 1.  Selecteer op uw mobiele apparaat het werkgebied **Voorhanden voorraad**.
-2.  Selecteer **Voorhanden voorraad voor een artikel controleren**. U ziet een lijst van de producten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/) raadplegen.
+2.  Selecteer **Voorhanden voorraad voor een artikel controleren**. U ziet een lijst van de producten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) raadplegen.
 3.  Als uw artikel niet in de lijst staat, selecteert u **Meer zoeken** om een online zoekopdracht in Dynamics 365 for Operations uit te voeren. Zoek op productnummer of schakel over naar een zoekopdracht op productnaam.
 4.  Selecteer een product. Als het artikel een afbeelding heeft, wordt de afbeelding weergegeven.
 5.  Selecteer een van de volgende opties om de status van de voorhanden voorraad weer te geven:

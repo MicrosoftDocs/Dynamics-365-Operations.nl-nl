@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: ShylaThompson
@@ -18,10 +18,10 @@ ms.author: ShylaThompson
 ms.dyn365.ops.intro: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 051fe3e40b68c50aeff1a1cfe5b9a5be8a0bc564
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: dc9b79d2d52aa44d7d104232ca389748706a1c04
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---

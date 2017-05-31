@@ -4,6 +4,7 @@
 ## Vraagprognose maken
 ### [Overzicht van vraagprognose](master-planning/introduction-demand-forecasting.md)
 ### [Een vraagprognose instellen](master-planning/demand-forecasting-setup.md)
+### [Historische gegevens voor vraagprognoses importeren](master-planning/import-historical-data.md)
 ### [Een statistische basislijnprognose genereren](master-planning/generate-statistical-baseline-forecast.md)
 ### [Handmatige correctie uitvoeren in de basislijnprognose](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Een gecorrigeerde vraagprognose autoriseren](master-planning/authorize-adjusted-forecast.md)

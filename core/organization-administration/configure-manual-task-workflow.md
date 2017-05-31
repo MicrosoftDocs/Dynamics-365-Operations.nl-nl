@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: a62b56bd2ac0a7484471190c5f342a1db335ab07
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Voer de volgende stappen uit om op te geven aan wie de handmatige taak moet word
     <td>Gebruikers in een specifieke organisatiehiërarchie</td>
     <td><ol>
     <li>Selecteer op het tabblad <strong>Hiërarchieselectie</strong> de optie <strong>Hiërarchie</strong> en selecteer vervolgens in de lijst <strong>Type hiërarchie</strong> het type hiërarchie waaraan u de taak wilt toewijzen.</li>
-    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen vertegenwoordigen gebruikers waaraan de taak kan worden toegewezen. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt:
-    <ol>
+    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen vertegenwoordigen gebruikers waaraan de taak kan worden toegewezen. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt: <ol>
     <li>Geef het beginpunt op door een persoon te selecteren in de lijst <strong>Beginnen vanaf</strong>.</li>
     <li>Klik op <strong>Voorwaarde toevoegen</strong> om het eindpunt op te geven. Geef vervolgens een voorwaarde op die bepaalt bij welk punt in de hiërarchie stopt met het ophalen van namen.</li>
     </ol></li>
-    <li>Geeft op het tabblad <strong>Hiërarchieopties</strong> op aan welke gebruikers in het bereik de taak moet worden toegewezen:
-    <ul>
+    <li>Geeft op het tabblad <strong>Hiërarchieopties</strong> op aan welke gebruikers in het bereik de taak moet worden toegewezen: <ul>
     <li><strong>Aan alle opgehaalde gebruikers toewijzen</strong>: de taak wordt toegewezen aan alle gebruikers in het bereik.</li>
     <li><strong>Alleen aan laatst opgehaalde gebruiker toewijzen</strong>: de taak wordt alleen aan de laatste gebruiker in het bereik toegewezen.</li>
     <li><strong>Gebruikers met de volgende status uitsluiten</strong>: de taak wordt niet toegewezen aan een gebruiker in het bereik die aan een specifieke voorwaarde voldoet. Klik op <strong>Voorwaarde toevoegen</strong> om de voorwaarde op te geven.</li>
@@ -139,13 +137,11 @@ Voer de volgende stappen uit om op te geven aan wie de handmatige taak moet word
     <td>Een wachtrij voor werkitems</td>
     <td><ol>
     <li>Selecteer het tabblad <strong>Wachtrij</strong> en klik op het tabblad <strong>Wachtrijgebaseerd</strong>.</li>
-    <li>Voer deze stappen uit om de taak aan een specifieke wachtrij toe te wijzen:
-    <ol>
+    <li>Voer deze stappen uit om de taak aan een specifieke wachtrij toe te wijzen: <ol>
     <li>Selecteer in de lijst <strong>Wachtrijtype</strong> de waarde <strong>Wachtrijen voor werkitems</strong>.</li>
     <li>Selecteer in de lijst <strong>Wachtrijnaam</strong> de gewenste wachtrij.</li>
     </ol></li>
-    <li>Als een specifieke voorwaarde moet bepalen aan welke wachtrij de taak wordt toegewezen, volgt u deze stappen:
-    <ol>
+    <li>Als een specifieke voorwaarde moet bepalen aan welke wachtrij de taak wordt toegewezen, volgt u deze stappen: <ol>
     <li>Selecteer in de lijst <strong>Wachtrijtype</strong> de waarde <strong>Voorwaardelijke wachtrijen voor werkitems</strong>.</li>
     <li>Selecteer in de lijst <strong>Wachtrijnaam</strong> de waarde <strong>Voorwaardelijke wachtrij</strong>.</li>
     </ol></li>
@@ -196,13 +192,11 @@ Als een gebruiker de handmatige taak niet binnen de toegekende tijd voltooit, wo
     <td>Gebruikers in een specifieke organisatiehiërarchie</td>
     <td><ol>
     <li>Selecteer op het tabblad <strong>Hiërarchieselectie</strong> de optie <strong>Hiërarchie</strong> en selecteer vervolgens in de lijst <strong>Type hiërarchie</strong> het type hiërarchie waarnaar u de taak wilt escaleren.</li>
-    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen vertegenwoordigen gebruikers waarnaar de taak kan worden geëscaleerd. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt:
-    <ol>
+    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen vertegenwoordigen gebruikers waarnaar de taak kan worden geëscaleerd. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt: <ol>
     <li>Geef het beginpunt op door een persoon te selecteren in de lijst <strong>Beginnen vanaf</strong>.</li>
     <li>Klik op <strong>Voorwaarde toevoegen</strong> om het eindpunt op te geven. Geef vervolgens een voorwaarde op die bepaalt bij welk punt in de hiërarchie stopt met het ophalen van namen.</li>
     </ol></li>
-    <li>Geeft op het tabblad <strong>Hiërarchieopties</strong> op naar welke gebruikers in het bereik de taak moet worden geëscaleerd:
-    <ul>
+    <li>Geeft op het tabblad <strong>Hiërarchieopties</strong> op naar welke gebruikers in het bereik de taak moet worden geëscaleerd: <ul>
     <li><strong>Aan alle opgehaalde gebruikers toewijzen</strong>: de taak wordt geëscaleerd naar alle gebruikers in het bereik.</li>
     <li><strong>Alleen aan laatst opgehaalde gebruiker toewijzen</strong>: de taak wordt alleen geëscaleerd naar de laatste gebruiker in het bereik.</li>
     <li><strong>Gebruikers met de volgende status uitsluiten</strong>: de taak wordt niet geëscaleerd naar een gebruiker in het bereik die aan een specifieke voorwaarde voldoet. Klik op <strong>Voorwaarde toevoegen</strong> om de voorwaarde op te geven.</li>

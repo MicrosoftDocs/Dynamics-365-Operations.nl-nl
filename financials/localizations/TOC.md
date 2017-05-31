@@ -67,6 +67,7 @@
 ### [CODA-bankafschrift](emea-bel-coda-bank-statement-import.md)
 ### [Intervat-belastingaangifte](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM-rapport instellen](emea-bel-prodcom-report.md)
+### [Afstemmingsrapporten](emea-bel-reconciliation-reports.md)
 
 ## Tsjechië
 ### [Contantkorting op creditnota](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Opschorting van afschrijvingen](emea-cze-depreciation-suspension-holidays.md)
 ### [Afschrijving van vaste activa](emea-cze-fixed-assets-depreciation.md)
 ### [Halfjaarlijkse afschrijvingen](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [Btw-aangifte ](emea-cze-intra-community-vat-transactions.md)
 ### [Btw-overzicht](emea-cze-vat-statement-details.md)
 ## Estland
 ### [Btw-overzicht](emea-est-vat-statement-details.md)

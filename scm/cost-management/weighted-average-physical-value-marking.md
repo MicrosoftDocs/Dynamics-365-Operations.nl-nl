@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e4d753a4c267058f29443de3ff73aebc2a7d24f2
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: cdbca6d9c71c901a1f4e7a8e5a2f9be1d3efb355
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -81,7 +81,7 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 -   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 -   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 -   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+-   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
 -   Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
 
@@ -115,7 +115,7 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 -   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 -   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 -   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+-   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
 -   Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
 -   Rode pijlen duiden op ontvangsttransacties die worden vereffend met de uitgiftetransactie die is gemaakt door het systeem.
@@ -144,7 +144,7 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 -   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 -   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 -   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+-   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
 -   Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
 
@@ -225,7 +225,7 @@ In het volgende diagram wordt voor deze reeks transacties het effect geïllustre
 -   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
 -   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
 -   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+-   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
 -   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
 -   Vereffeningen door voorraadafsluitingen worden aangegeven met rode stippelpijlen die diagonaal van een ontvangst naar een uitgifte lopen.
 

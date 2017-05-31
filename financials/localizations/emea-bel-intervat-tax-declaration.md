@@ -1,29 +1,28 @@
 ---
 title: INTERVAT-belastingaangifte
 description: "Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België."
-author: annbe
+author: v-oloski
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxIntervat
 audience: Application User
-ms.reviewer: ShylaThompson
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.1, Operations, Core
 ms.custom: 273023
-ms.assetid: 619afcc2-c6b1-4364-8ff1-33b5efcc1807
 ms.search.region: Belgium
 ms.search.industry: All
-ms.author: ShylaThompson
+ms.author: v-oloski
 ms.dyn365.ops.intro: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: a15ed651cfe15133a79264a1f93d8bde2ebfc140
+ms.sourcegitcommit: fd42fe23b30fe163a003614d6cbe9ff24ae38c5d
+ms.openlocfilehash: f4edc3d017056e53bccd968d768a3087adc3bb26
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -43,9 +42,9 @@ De volgende tabel bevat de vereisten die moeten worden ingesteld voordat u begin
 |Categorie|Vereiste||
 |---------|----------------------------|---------------------------------------------|
 |Instelling|Rechtspersoon|Selecteer op de pagina <strong>Rechtspersonen</strong> (klik op <strong>Organisatiebeheer</strong> &gt; <strong>Organisaties</strong> &gt; <strong>Rechtspersonen</strong>) uw rechtspersoon. Maak een adres op het sneltabblad <strong>Adressen</strong>. Selecteer <strong>België</strong> in het veld <strong>Land/regio</strong>, vul andere adresonderdelen in en markeer het adres als <strong>Primair</strong>. In het Sneltabblad <strong>Belastingregistratie</strong>, in het veld <strong>BTW-registratienummer</strong>, specificeer het BTW-registratienummer van uw bedrijf. Zie de veldomschrijvingen in <a href="https://ax.help.dynamics.com/en/wiki/create-a-legal-entity/">Rechtspersoon</a>.|
-|Instelling| Registratienummer|Stel op de pagina <strong>Rechtspersonen</strong> het registratienummer in (klik op <strong>Organisatiebeheer</strong> &gt; <strong>Organisaties</strong> &gt; <strong>Rechtspersonen</strong>). Klik op <strong>Registratie-id's</strong> en klik vervolgens op het sneltabblad <strong>Registratie-id</strong> op <strong>Toevoegen</strong>. Selecteer een waarde in het veld <strong>Registratietype</strong> en voer een waarde in het veld <strong>Registratienummer</strong> in. Zie de veldomschrijvingen in <a href="https://ax.help.dynamics.com/en/wiki/registration-ids/">Registratienummer</a>.|
+|Instelling| Registratienummer|Stel op de pagina <strong>Rechtspersonen</strong> het registratienummer in (klik op <strong>Organisatiebeheer</strong> &gt; <strong>Organisaties</strong> &gt; <strong>Rechtspersonen</strong>). Klik op <strong>Registratie-id's</strong> en klik vervolgens op het sneltabblad <strong>Registratie-id</strong> op <strong>Toevoegen</strong>. Selecteer een waarde in het veld <strong>Registratietype</strong> en voer een waarde in het veld <strong>Registratienummer</strong> in. Zie <a href="emea-registration-ids.md">Registratienummer</a> voor meer informatie.|
 |Instelling| Nummerreeksen|Stel nummerreeksen in voor <strong>Id van jaarlijkse verkooplijst</strong> en <strong>INTERVAT-id</strong> op het tabblad <strong>Nummerreeksen</strong> van de pagina <strong>Grootboekparameters</strong> (klik op <strong>Grootboek</strong> &gt; <strong>Grootboek instellen</strong> &gt; <strong>Grootboekparameters</strong>).</td>
-|Instelling| Boekingsjournaal|Stel boekingsjournalen in op de pagina <strong>Journaal instellen</strong> pagina (klik op <strong>Grootboek</strong> &gt; <strong>Journaal instellen</strong>). Zie de veldomschrijvingen in <a href="https://ax.help.dynamics.com/en/wiki/posting-journals-page-field-descriptions/">Boekingsjournalen</a>.</td>
+|Instelling| Boekingsjournaal|Stel boekingsjournalen in op de pagina <strong>Journaal instellen</strong> pagina (klik op <strong>Grootboek</strong> &gt; <strong>Journaal instellen</strong>). </td>
 |Instelling| Btw-dienst|Stel btw-diensten in op de pagina <strong>Btw-diensten</strong> (klik op <strong>Btw</strong> &gt; <strong>Indirecte belastingen</strong> &gt; <strong>Btw-diensten</strong>). Het veld <strong>Rapportindeling</strong> moet worden ingesteld op <strong>Indeling van Belgische aangifte</strong>. Zie de veldomschrijvingen in <a href="https://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/">Btw-diensten</a>.|
 |Instelling| Btw-aangiftecodes|Stel btw-aangiftecodes in op de pagina <strong>Btw-aangiftecodes</strong> pagina (klik op <strong>Btw</strong> &gt; <strong>Instelling</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-aangiftecodes</strong>). Zie de veldomschrijvingen in <a href="https://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/">Btw-aangiftecodes</a>. Btw-aangiftecodes waarvoor het selectievakje <strong>Btw-correctie</strong> is ingeschakeld, zijn beschikbaar voor selectie op de pagina <strong>Extra btw-aangiftevakken</strong> (klik op <strong>Btw-correcties</strong> &gt; <strong>Correcties</strong>). Een voorbeeld van btw-aangiftecodes vindt u verderop in dit onderwerp.|
 |Instelling| Btw-codes|Vul de velden op de tabbladen <strong>Rapport</strong> en <strong>Rapportinstelling - creditnota</strong> tabbladen van de pagina <strong>Btw-codes</strong> in (klik op <strong>Btw</strong> &gt; <strong>Indirecte belastingen</strong> &gt; <strong>Btw-codes</strong>). Selecteer waarden in de tabel <strong>Btw-aangiftecodes</strong>. Zie de veldomschrijvingen in <a href="https://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/">Btw-codes</a>.|
@@ -54,11 +53,11 @@ De volgende tabel bevat de vereisten die moeten worden ingesteld voordat u begin
 |     |                  |Land/regio</strong> Selecteer het land of de regio van de btw-registratie van de tegenpartij.|
 |     |                  |Btw-vrijstellingsnummer</strong> Voer het btw-vrijstellingsnummer van de tegenpartij in.|
 |     |                  |Bedrijfsnaam</strong> (optioneel) Voer de naam van de tegenpartij in.|
-|Instelling|Parameters buitenlandse handel|Stel parameters voor buitenlandse handel in op het tabblad <strong>Land-/regio-eigenschappen</strong> van de pagina <strong><strong>Parameters buitenlandse handel</strong></strong> (klik op <strong>Btw</strong> &gt; <strong>Instellen</strong> &gt; <strong>Buitenlandse handel</strong> &gt; <strong>Parameters buitenlandse handel</strong>). Zie de veldomschrijvingen in <a href="https://ax.help.dynamics.com/en/wiki/foreign-trade-parameters-page-field-descriptions/">Parameters buitenlandse handel</a>.|
+|Instelling|Parameters buitenlandse handel|Stel parameters voor buitenlandse handel in op het tabblad <strong>Land-/regio-eigenschappen</strong> van de pagina <strong><strong>Parameters buitenlandse handel</strong></strong> (klik op <strong>Btw</strong> &gt; <strong>Instellen</strong> &gt; <strong>Buitenlandse handel</strong> &gt; <strong>Parameters buitenlandse handel</strong>). |
 |Instelling|Configuratie van INTERVAT-belastingaangifte|Configureer een model en indeling voor elektronische aangifte voor het rapport. Zie de sectie &quot;Het model en de indeling voor elektronische aangifte configureren voor het rapport&quot; verderop in dit onderwerp. Informatie over het maken en onderhouden van ER-configuraties is te vinden in de ER-documentatie.|
 
 
-Meer informatie over het opstellen van het btw-overzicht raadpleegt u [(EU) Btw-aangifte](http://ax.help.dynamics.com/en/wiki/eu-vat-reporting/).
+Meer informatie over het opstellen van het btw-overzicht raadpleegt u [(EU) Btw-aangifte](emea-vat-reporting.md).
 
 ### <a name="example-setup-of-sales-tax-reporting-codes"></a>Voorbeeld: instelling van btw-aangiftecodes
 
@@ -122,7 +121,7 @@ Als u correcties van de INTERVAT-belastingaangifte voor de vorige periode wilt m
 | Begindatum         | Voer de eerste dag van de btw-vereffeningsperiode in waarvoor btw moet worden berekend. Deze waarde komt overeen met de datum in het veld **Van** op de pagina **Btw-vereffeningsperioden**. |
 | Einddatum           | Voer de laatste datum in.                                                                                                                                                                      |
 
-Zie de veldomschrijvingen in [Extra btw-aangiftevakken](https://ax.help.dynamics.com/en/wiki/additional-sales-tax-report-boxes-page-field-descriptions/). Voer correcties in door op **Btw-correcties** &gt; **Correcties** te klikken en de volgende velden in te vullen.
+Voer correcties in door op **Btw-correcties** &gt; **Correcties** te klikken en de volgende velden in te vullen.
 
 | Veld             | Omschrijving                                                                                                                                                                               |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

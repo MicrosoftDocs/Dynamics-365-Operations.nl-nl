@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3df3144b08c54441699d9c0b48fe507857877586
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5208dc64d86345de4e53c5e293fbc861351a63ef
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -59,6 +59,7 @@ Wanneer een werknemer van rechtspersoon 2222 een opdracht tot inkoop maakt, word
 
 In het vorige voorbeeld waren alle inkoopregel gedefinieerd in één organisatiehiërarchie, in dit geval de organisatiehiërarchie Bedrijven. Een complexe organisatie kan echter een beleid definiëren voor meerdere organisatiehiërarchieën.  
 
+
 Contoso is een groot bedrijf dat complexe inkoopregels nodig heeft om het inkoopproces te controleren. Contoso heeft regels gedefinieerd voor twee verschillende organisatiehiërarchieën: Afdeling en Algemene inkoopcontrole.  
 
 Beleid 123 is gedefinieerd voor de organisatiehiërarchie 'Afdeling' voor de Sales UK – Verkoopafdeling. In beleid 123 vermeldt de beheerregel voor opdrachten tot inkoop dat beperkingen op minimumorderhoeveelheden moeten worden afgedwongen. In deze regel is de optie **Beperkingen op minimumorderhoeveelheid afdwingen** geselecteerd.  
@@ -93,6 +94,9 @@ De categoriebeleidsregel bepaalt hoe gebruikers voor elke categorie leveranciers
 ### <a name="re-approval-rule-for-purchase-orders"></a>Regel voor het opnieuw goedkeuren van inkooporders
 
 De regel voor het opnieuw goedkeuren is een optionele regel die de criteria bepaalt voor het vereisen van nieuwe goedkeuring wanneer een inkooporder is gewijzigd. De geselecteerde velden worden geëvalueerd in de workflow voor inkooporders wanneer de voorwaarde 'Opnieuw goedkeuren inkooporder vereist' is ingesteld in de workflow.
+
+> [!NOTE]
+> Boekhoudingsverdeling wordt altijd opnieuw ingesteld wanneer een goedgekeurde inkooporder wordt gewijzigd met wijzigingsbeheer ingeschakeld. Dus u moet er rekening mee houden dat als u hernieuwde goedkeuring van een inkooporder wilt voorkomen wanneer bepaalde velden veranderen, het veld Boekhoudingsverdeling NIET moet worden opgenomen als een geselecteerd veld voor hernieuwde goedkeuring. 
 
 ### <a name="purchase-requisition-rfq-rule"></a>Offerteaanvraagregel voor opdracht tot inkoop
 

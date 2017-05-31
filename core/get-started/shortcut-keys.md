@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Operations.
 | Het feitenblok openen (of de focus naar het feitenblok verplaatsen als dat al is geopend) | Ctrl+F2                                   |
 | Het feitenblok sluiten (met de focus in het feitenblok)                         | Esc                                       |
 | Naar het volgende/vorige feitenvak gaan (met focus in het feitenblok)              | Alt+Shift+Pijl omlaag/Alt+Shift+Pijl omhoog |
-| Naar het &lt;n&gt;de feitenvak gaan (met focus in het feitenblok)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Naar het &lt;n&gt;e feitenvak gaan (met de focus in het deelvenster Feitenvak)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Een feitenvak uitvouwen (met de focus op de koptekst van het feitenvak)                             | Spatiebalk of Enter                            |
 | Het huidige feitenvak samenvouwen                                                    | Alt+0                                     |
 
@@ -115,8 +115,8 @@ De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Operations.
 | Naar het volgende/vorige veld gaan                     | Tabtoets/Shift+Tabtoets                              |
 | Naar het volgende/vorige tabblad gaan                       | Alt+Shift+Pijl rechts/Alt+Shift+Pijl links |
 | Naar het volgende/vorige sneltabblad gaan                   | Alt+Shift+Pijl omlaag/Alt+Shift+Pijl omhoog    |
-| Naar het &lt;n&gt;de sneltabblad gaan                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Naar het &lt;n&gt;de tabblad gaan                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Naar het &lt;n&gt;e sneltabblad gaan                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Naar het &lt;n&gt;e tabblad gaan                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Een sneltabblad uitvouwen (met de focus op de koptekst van het sneltabblad) | Spatiebalk of Enter                               |
 | Het huidige sneltabblad samenvouwen                        | Alt+0                                        |
 | Overschakelen naar rasterweergave                                 | Ctrl+Shift+G                                 |

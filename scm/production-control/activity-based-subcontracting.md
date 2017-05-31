@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 4d8ebe2c0a8b4fe08fa7f63ba310c1d9203c1150
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -90,7 +90,7 @@ Net als voor procesactiviteiten moet u een standaardservice voor uitbestede over
 ## <a name="service-quantity-calculation"></a>Berekening van servicehoeveelheid
 Het gehele inkoopproces is gebaseerd op een artikelverwijzing voor een service. De artikelverwijzing wordt gemeten in een maateenheid voor een service. Services worden meestal gemeten in het aantal services (eenheden) of in tijd. Voor het berekenen van de servicehoeveelheid op basis van de geregistreerde voltooiing van kanbantaken, kunt u de volgende methoden gebruiken:
 
--   **Berekening op basis van het aantal taken** : één kanbantaak is gelijk aan *n* service-eenheden, ongeacht de producthoeveelheid die wordt geleverd. In lean manfacturing correspondeert één taak met één materiaalverwerkingseenheid. Deze berekeningsmethode geldt voor alle services met een vaste prijs per materiaalverwerkingseenheid. Daarom is deze methode meestal van toepassing op overboekingsactiviteiten. Deze methode kan echter ook worden toegepast op procesactiviteiten waarmee gehele materiaalverwerkingseenheden worden verwerkt.
+-   **Berekening op basis van het aantal taken**: één kanbantaak is gelijk aan *n* service-eenheden, ongeacht de producthoeveelheid die wordt geleverd. In lean manfacturing correspondeert één taak met één materiaalverwerkingseenheid. Deze berekeningsmethode geldt voor alle services met een vaste prijs per materiaalverwerkingseenheid. Daarom is deze methode meestal van toepassing op overboekingsactiviteiten. Deze methode kan echter ook worden toegepast op procesactiviteiten waarmee gehele materiaalverwerkingseenheden worden verwerkt.
 -   **Berekening op basis van de producthoeveelheid** : de servicehoeveelheid is gerelateerd aan de producthoeveelheid die is gepland of geleverd. Wanneer de geleverde producthoeveelheid wordt berekend, kunnen slechte hoeveelheden worden opgenomen of uitgesloten. Deze berekeningsmethode geldt voor alle gevallen waarin de prijs per eenheid voor de service van het verwerkte product is overeengekomen.
 -   **Berekening op basis van de activiteitstijd**: de theoretische activiteitstijden worden berekend op basis van de verwerkingstijd van de activiteit, de totale verwerkte hoeveelheid en de doorvoerverhouding van het verwerkte product. Deze berekeningsmethode is van toepassing op services die per uur worden betaald en een afwijking in tijd per verwerkt product hebben.
 

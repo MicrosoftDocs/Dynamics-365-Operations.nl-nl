@@ -3,10 +3,10 @@ title: Mobiel werkgebied voor invoer van projecturen voor de app Microsoft Dynam
 description: Dit onderwerp biedt informatie over het mobiele werkgebied voor invoer van projecturen. In dit werkgebied kunnen gebruikers tijd invoeren en opslaan voor een project met behulp van hun mobiele apparaat.
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,19 +19,18 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="project-time-entry-mobile-workspace"></a>Mobiel werkgebied voor invoer van projecturen
+# <a name="project-time-entry-mobile-workspace"></a>Tijdinvoer voor project voor mobiel werkgebied
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 Dit onderwerp biedt informatie over het mobiele werkgebied Invoer van projecturen, dat beschikbaar is voor de mobiele app voor Microsoft Dynamics 365 for Operations. In dit werkgebied kunnen gebruikers tijd invoeren en opslaan voor een project met behulp van hun mobiele apparaat.
@@ -71,7 +70,7 @@ Voordat u het mobiele werkgebied **Invoer van projecturen** kunt gebruiken, cont
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations versie 1611 met platformupdate 3 of hoger moet worden geïmplementeerd.</td>
 <td>Systeembeheerder</td>
-<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient uw systeembeheerder <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
+<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient uw systeembeheerder <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
 </tr>
 <tr class="even">
 <td>KB 4018050 moet worden geïmplementeerd.</td>
@@ -79,9 +78,9 @@ Voordat u het mobiele werkgebied **Invoer van projecturen** kunt gebruiken, cont
 <td>KB 4018050 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Invoer van projecturen</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4018050.
 <ol>
 <li>Download KB 4018050 van Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installeer de metagegevenshotfix</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Maak een implementeerbaar pakket</a> dat de <strong>ApplicationSuite</strong> en <strong>ProjectMobile</strong>-modellen bevat en upload het implementeerbare pakket vervolgens naar LCS.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Maak een implementeerbaar pakket</a> dat de <strong>ApplicationSuite</strong> en <strong>ProjectMobile</strong>-modellen bevat en upload het implementeerbare pakket vervolgens naar LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
 </ol></td>
 </tr>
 <tr class="odd">

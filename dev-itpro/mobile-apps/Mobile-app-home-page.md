@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Startpagina voor mobiele app van Dynamics 365 for Operations
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ Navigeren in de mobiele app bestaat uit vier eenvoudige concepten: het dashboard
 ## <a name="implementation-process"></a>Implementatieproces
 De volgende afbeelding toont het proces voor het implementeren van de mobiele app voor Dynamics 365 for Operations in uw organisatie. 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![Implementatieproces voor mobiele apps](./media/mobile-implementation-process_4.png)
 
 De volgende tabel bevat koppelingen naar bronnen die u kunnen helpen de mobiele app voor Dynamics 365 for Operations te implementeren in uw organisatie. De nummers in de eerste kolom komen overeen met de genummerde stappen in de bovenstaande afbeelding.
 
@@ -85,7 +83,7 @@ De volgende tabel bevat koppelingen naar bronnen die u kunnen helpen de mobiele 
 <td>1</td>
 <td>Systeembeheerder</td>
 <td>Implementeer Dynamics 365 for Operations voor de organisatie.</td>
-<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, raadpleegt u <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a>.</td>
+<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, raadpleegt u <a href="../deployment/deploy-demo-environment.md">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a>.</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ De volgende tabel bevat koppelingen naar bronnen die u kunnen helpen de mobiele 
 <td>Download en installeer KB's waarmee de mobiele werkgebieden die door Microsoft worden geleverd worden ingeschakeld.</td>
 <td>Zie de sectie &quot;Vereisten&quot; in het onderwerp over het mobiele werkgebied dat uw organisatie wil gebruiken:
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Mobiel werkgebied voor kostenbeheer</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Mobiel werkgebied voorhanden voorraad</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Mobiele werkbieden voor verkooporders</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Mobiel werkgebied voor leverancierssamenwerking</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Tijdinvoer voor project voor mobiel werkgebied</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Mobiel werkgebied voor kostenbeheer</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Mobiel werkgebied voorhanden voorraad</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Mobiele werkbieden voor verkooporders</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Mobiel werkgebied voor leverancierssamenwerking</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Tijdinvoer voor project voor mobiel werkgebied</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Mobiel werkgebied voor onkostenbeheer</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>Systeembeheerder</td>
 <td>Publiceer de mobiele werkgebieden die worden geleverd door Microsoft.</td>
-<td>Zie de sectie &quot;Vereisten&quot; in het onderwerp over het mobiele werkgebied dat uw organisatie wil gebruiken:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Mobiel werkgebied voor kostenbeheer</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Mobiel werkgebied voorhanden voorraad</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Mobiele werkbieden voor verkooporders</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Mobiel werkgebied voor leverancierssamenwerking</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Tijdinvoer voor project voor mobiel werkgebied</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">Een mobiel werkgebied publiceren</a>
+</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>Ontwikkelaar of onafhankelijke softwareleveranciers (Independent software vendors - ISV's)</td>
 <td>Gebruik het mobiele framework voor Dynamics 365 for Operations om aangepaste mobiele werkgebieden te maken.</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Mobiel framework voor Dynamics 365 for Operations</a></li>
+<li><a href="mobile-platform.md">Mobiel framework voor Dynamics 365 for Operations</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Werkgebied X++ API's voor Dynamics 365 for Operations</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ De volgende tabel bevat koppelingen naar bronnen die u kunnen helpen de mobiele 
 <td>5</td>
 <td>ISV</td>
 <td>Maak een implementeerbaar pakket met aangepaste mobiele werkgebieden en upload het pakket naar Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Een implementeerbaar pakket genereren</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>Systeembeheerder</td>
 <td>Pas het implementeerbare pakket toe met de aangepaste werkbieden die worden geleverd door de ISV.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Een implementeerbaar pakket toepassen op een Microsoft Dynamics 365 for Operations-systeem</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">Een implementeerbaar pakket toepassen op een Microsoft Dynamics 365 for Operations-systeem</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>Systeembeheerder</td>
 <td>Publiceer de aangepaste mobiele werkgebieden die worden geleverd door de ISV.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">Een mobiel werkgebied publiceren</a></td>
+<td><a href="publish-mobile-workspace.md">Een mobiel werkgebied publiceren</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ De volgende tabel bevat koppelingen naar bronnen die u kunnen helpen de mobiele 
 <td>9</td>
 <td>Gebruiker</td>
 <td>Meld u aan en gebruik de mobiele app voor Dynamics 365 for Operations. De app omvat de mobiele werkgebieden die zijn gepubliceerd.</td>
-<td>Microsoft heeft de volgende mobiele werkgebieden geleverd:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Mobiel werkgebied voor kostenbeheer</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Mobiel werkgebied voorhanden voorraad</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Mobiele werkbieden voor verkooporders</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Mobiel werkgebied voor leverancierssamenwerking</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Tijdinvoer voor project voor mobiel werkgebied</a></li>
-</ul></td>
+<td>Als u een lijst wilt zien met mobiele werkgebieden die door Microsoft worden verstrekt, raadpleegt u <a href="mobile-workspaces-released.md">Mobiele werkgebieden die onlangs zijn vrijgegeven voor de mobiele Dynamics 365 for Operations-app</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>Zie ook
---------
-
-[Mobiele werkgebieden die onlangs zijn vrijgegeven voor de mobiele app voor Dynamics 365 for Operations](mobile-workspaces-released.md)
 
 
 

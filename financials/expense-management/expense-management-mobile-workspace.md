@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: end user, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 8bc47c5b170fd7dd8f6288682aad6eae1d2dc09a
-ms.openlocfilehash: 9d3b7a4d5184c3c4958f4298f1d3dd4de0cd06d6
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4e3202de8e5288bbd52e8c28922374de147cc99f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -29,8 +29,6 @@ ms.lasthandoff: 04/26/2017
 # <a name="expense-management-mobile-workspace"></a>Mobiel werkgebied voor onkostenbeheer
 
 [!include[banner](../includes/banner.md)]
-
-"[!include[banner](../includes/banner.md)]"
 
 
 Dit onderwerp biedt informatie over het mobiele werkgebied Onkostenbeheer, dat beschikbaar is voor de mobiele app voor Microsoft Dynamics 365 for Operations. Via dit werkgebied kunnen gebruikers een ontvangstbewijs vastleggen en uploaden, zodat zij dit later aan een onkostennota kunnen koppelen. Het mobiele werkgebied stelt gebruikers tevens in staat snel een onkostenregel te maken op basis van een bevoegd ontvangstbewijs.
@@ -66,7 +64,7 @@ Voordat u het mobiele werkgebied **Onkostenbeheer** kunt gebruiken, controleert 
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations versie 1611 met platformupdate 3 of hoger moet worden geïmplementeerd.</td>
 <td>Systeembeheerder</td>
-<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient uw systeembeheerder <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
+<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient uw systeembeheerder <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
 </tr>
 <tr class="even">
 <td>KB 4019015 moet worden geïmplementeerd.</td>
@@ -74,9 +72,9 @@ Voordat u het mobiele werkgebied **Onkostenbeheer** kunt gebruiken, controleert 
 <td>KB 4019015 (een X++-update of metagegevenshotfix) bevat vier mobiele werkgebieden voor supply chain management. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4019015:
 <ol>
 <li>Download KB 4019015 van Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">De metagegevenshotfix installeren</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Een implementeerbaar pakket maken</a> dat de <strong>ApplicationSuite</strong> en <strong>ExpenseMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Een implementeerbaar pakket maken</a> dat de <strong>ApplicationSuite</strong> en <strong>ExpenseMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -97,14 +95,15 @@ Download en installeer de mobiele app van Microsoft Dynamics 365 for Operations 
 
 -   Voor Android: [Dynamics 365 for Operations in de Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
 -   Voor iPhone: [Dynamics 365 for Operations in de iTunes apps store](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
--   Voor Windows Phone (Universeel Windows-platform \[UWP\]): binnenkort beschikbaar!
 
 ## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Meld u aan bij de mobiele app voor Dynamics 365 for Operations
 1.  Start de app op uw mobiele apparaat.
 2.  Voer uw Dynamics 365 for Operations-URL in.
 3.  Voer het bedrijf in waarbij u zich wilt aanmelden. Voer bijvoorbeeld **USMF** in.
 4.  De eerste keer dat u zich aanmeldt, wordt u gevraagd om de gebruikersnaam en het wachtwoord voor uw Dynamics 365 for Operations-account. Voer uw referenties in.
-5.  Nadat u zich hebt aangemeld, ziet u de beschikbare werkgebieden voor uw bedrijf. Houd er rekening mee dat als uw systeembeheerder een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden kunt opvragen om te vernieuwen. [![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+5.  Nadat u zich hebt aangemeld, ziet u de beschikbare werkgebieden voor uw bedrijf. Houd er rekening mee dat als uw systeembeheerder een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden kunt opvragen om te vernieuwen. 
+
+[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Een ontvangstbewijs vastleggen met behulp van het mobiele werkgebied Onkostenbeheer
 1.  Selecteer op uw mobiele apparaat het werkgebied **Onkostenbeheer**.
@@ -114,7 +113,7 @@ Download en installeer de mobiele app van Microsoft Dynamics 365 for Operations 
     1.  U gaat naar de camera op uw mobiele apparaat, zodat u een foto van het ontvangstbewijs kunt maken. Wanneer u klaar bent met het maken van een foto, klikt u op **OK** om de foto te accepteren.
     2.  Optioneel: voer een naam in voor de foto en voer eventuele notities in.
 
-     Of volg deze stappen als u **Afbeelding kiezen** hebt geselecteerd:
+     **Of:**  volg deze stappen als u **Afbeelding kiezen** hebt geselecteerd:
     1.  Selecteer een afbeelding in de lijst.
     2.  Optioneel: voer een naam in voor de afbeelding en voer eventuele notities in.
 
@@ -123,11 +122,11 @@ Download en installeer de mobiele app van Microsoft Dynamics 365 for Operations 
 ## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>Snelle invoer van onkosten met behulp van het mobiele werkgebied Onkostenbeheer
 1.  Selecteer op uw mobiele apparaat het werkgebied **Onkostenbeheer**.
 2.  Selecteer **Snelle onkosteninvoer**.
-3.  Selecteer de categorie voor de onkostenpost. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden maximaal 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/) raadplegen. Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om een online zoekopdracht in Dynamics 365 for Operations uit te voeren. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
+3.  Selecteer de categorie voor de onkostenpost. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden maximaal 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) raadplegen. Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om een online zoekopdracht in Dynamics 365 for Operations uit te voeren. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
 4.  Voer de transactiedatum van de onkostenpost in.
 5.  Optioneel: voer de verkoper voor de onkostenpost in.
 6.  Voer het bedrag van de onkostenpost in.
-7.  Selecteer de valuta van de onkostenpost. U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden maximaal 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](http://ax.help.dynamics.com/en/wiki/mobile-development-handbook/) raadplegen. Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om een online zoekopdracht in Dynamics 365 for Operations uit te voeren. Zoek op valuta of schakel over naar zoeken op naam.
+7.  Selecteer de valuta van de onkostenpost. U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden maximaal 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) raadplegen. Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om een online zoekopdracht in Dynamics 365 for Operations uit te voeren. Zoek op valuta of schakel over naar zoeken op naam.
 8.  Selecteer **Foto maken** of **Afbeelding kiezen**.
 9.  Als u **Foto maken** hebt geselecteerd, gaat u naar de camera op uw mobiele apparaat, zodat u een foto van het ontvangstbewijs kunt maken. Wanneer u klaar bent met het maken van een foto, klikt u op **OK** om de foto te accepteren.  Of als u **Afbeelding kiezen** hebt geselecteerd, selecteert u een afbeelding in de lijst.
 10. Selecteer **Gereed**.

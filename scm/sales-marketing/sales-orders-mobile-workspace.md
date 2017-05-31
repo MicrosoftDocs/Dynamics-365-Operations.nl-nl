@@ -3,10 +3,10 @@ title: Mobiel werkgebied voor verkooporders
 description: Dit onderwerp biedt informatie over het mobiele werkgebied Verkooporders, dat beschikbaar is voor de mobiele app voor Microsoft Dynamics 365 for Operations. Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ Dit onderwerp biedt informatie over het mobiele werkgebied Verkooporders, dat be
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Overzicht van het mobiele werkgebied Verkooporders
 ---------------------------------------------
 
-Het mobiele werkgebied **Verkooporders** heeft toegang tot Microsoft Dynamics 365 for Operations en stelt u in staat gedetailleerde informatie weer te geven over elke verkooporder. Deze informatie omvat de status van de order, contactgegevens voor de klant en contactgegevens voor degene die de order aanneemt. Het mobiele werkgebied **Verkooporders** geeft een direct overzicht van verkooporders. U kunt alle verkooporders weergeven, verkooporders per klant weergeven of informatie weergeven over een specifieke verkooporder. Het mobiele werkgebied bevat twee weergaven waarmee u verkooporders grondig kunt analyseren.
+Het mobiele werkgebied **Verkooporders** heeft toegang tot Microsoft Dynamics 365 for Operations en stelt u in staat gedetailleerde informatie weer te geven over elke verkooporder. Deze informatie omvat de status van de order, contactgegevens voor de klant en contactgegevens voor degene die de order aanneemt. Het mobiele werkgebied **Verkooporders** geeft een direct overzicht van verkooporders. U kunt alle verkooporders weergeven, verkooporders per klant weergeven of informatie weergeven over een specifieke verkooporder. 
+
+Het mobiele werkgebied bevat twee weergaven waarmee u verkooporders grondig kunt analyseren.
 
 ### <a name="view-all-sales-orders"></a>Alle verkooporders weergeven
 
@@ -50,6 +52,7 @@ In deze weergave geeft een overzicht van alle verkooporders.
     -   Zoeken op status
     -   Zoeken op vrijgavestatus
     -   Zoeken op aanmaakdatum en -tijd
+    
 -   Nadat u de verkooporders hebt geselecteerd, kunt u de details van specifieke orders weergeven. U kunt met name de volgende gegevens bekijken:
     -   Klantnaam en adresgegevens
     -   Verschillende datums voor de verkooporder, zoals de gewenste verzenddatum en de bevestigde verzenddatum
@@ -65,6 +68,7 @@ In deze weergave ziet u een overzicht van de verkooporders per klant.
 -   Gebruik een van de volgende filters om orders voor een klant weer te geven:
     -   Zoeken op naam
     -   Zoeken op account
+
 -   Nadat u een klant hebt geselecteerd, kunt u de volgende informatie weergeven:
     -   Naam en groep van klant
     -   Contactgegevens van de klant
@@ -96,7 +100,7 @@ Voordat u het mobiele werkgebied **Verkooporders** kunt gebruiken, controleert u
 <tr class="odd">
 <td>Dynamics 365 for Operations versie 1611 met platformupdate 3 of hoger moet worden geïmplementeerd.</td>
 <td>Systeembeheerder</td>
-<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient de systeembeheerder <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
+<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient de systeembeheerder <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
 </tr>
 <tr class="even">
 <td>KB 4013633 moet worden geïmplementeerd.</td>
@@ -104,9 +108,9 @@ Voordat u het mobiele werkgebied **Verkooporders** kunt gebruiken, controleert u
 <td>KB 4013633 (een X++-update of metagegevenshotfix) bevat vier mobiele werkgebieden voor supply chain management. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633:
 <ol>
 <li>KB 4013633 downloaden van Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">De metagegevenshotfix installeren</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
 </ol></td>
 </tr>
 <tr class="odd">

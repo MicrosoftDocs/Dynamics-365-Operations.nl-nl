@@ -1,40 +1,38 @@
 ---
-title: Productnummer-nomenclatuur
-description: Dit onderwerp beschrijft hoe u een productnummernomenclatuur kunt opzetten om de vaste indeling [Productmodelnummer - Configuratie - Maat - Kleur - Stijl] te vervangen door een doelgerichte indeling die bestaat uit het productmodelnummer, actieve productdimensies en de tekstscheidingstekens van uw keuze. U kunt ook een nomenclature maken om configuraties aan te geven die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
-author: YuyuScheller
+title: Nomenclatuur van productvariantnummers en -namen
+description: In dit onderwerp wordt beschreven hoe u een productnummernomenclatuur instelt om de vaste indeling [productmodelnummer - configuratie - maat - kleur - stijl] te vervangen. De nieuwe nomenclatuur heeft een beoogde indeling die het productmodelnummer, de actieve productdimensies en tekstscheidingstekens van uw keuze bevat. U kunt ook een nomenclatuur maken voor productnamen. Ten slotte kunt u een nomenclatuur maken om configuraties te identificeren die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
+author: roxanadiaconu
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
+ms.reviewer: annbe
 ms.search.scope: Operations, Core
 ms.custom: 220104
-ms.assetid: 31c9efb4-b5f6-4af3-b884-8f1e128469bd
+ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: roxanad
+ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: deda2b7986333e0d865aa87e6b34b6acdc8f6a6d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 0e19b18a2900a0b42dc9a1a984b9c884ca0c17cc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="product-number-nomenclature"></a>Productnummer-nomenclatuur
+# <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatuur van productvariantnummers en -namen
 
-[!include[banner](../includes/banner.md)]
+In dit onderwerp wordt beschreven hoe u een productnummernomenclatuur instelt om de vaste indeling [productmodelnummer - configuratie - maat - kleur - stijl] te vervangen. De nieuwe nomenclatuur heeft een beoogde indeling die het productmodelnummer, de actieve productdimensies en tekstscheidingstekens van uw keuze bevat. U kunt ook een nomenclatuur maken voor productnamen. Ten slotte kunt u een nomenclatuur maken om configuraties te identificeren die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
 
-
-Dit onderwerp beschrijft hoe u een productnummernomenclatuur kunt opzetten om de vaste indeling [Productmodelnummer - Configuratie - Maat - Kleur - Stijl] te vervangen door een doelgerichte indeling die bestaat uit het productmodelnummer, actieve productdimensies en de tekstscheidingstekens van uw keuze. U kunt ook een nomenclature maken om configuraties aan te geven die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
-
-Met de nieuwe nomenclatuur van productvariantnummers kunt u segmenten in uw productvariant-id's opnemen. Deze segmenten kunnen het productmodelnummer, de productdimensies, de nummerreeksen, de tekstconstantes en de kenmerken omvatten. Met deze functionaliteit kunt u snel een specifieke productvariant vinden wanneer u een verkooporder of een inkooporder maakt.
+Met de nieuwe nomenclaturen voor productvariantnummers en productvariantnamen kunt u segmenten in de id's opnemen voor productvarianten. Deze segmenten kunnen productmodelnummer en -naam, productdimensie-id's en -namen, nummerreeksen, tekstconstanten en kenmerken omvatten. Met deze functionaliteit kunt u snel een specifieke productvariant vinden wanneer u een verkooporder of een inkooporder maakt. U maakt nomenclaturen voor zowel productvariantnummers als productvariantnamen met behulp van de pagina **Productnomenclatuur**. Als u deze pagina wilt openen, klikt u op **Productgegevensbeheer** &gt; **Instellen**.
 
 ## <a name="nomenclature-of-predefined-product-variants"></a>Nomenclatuur met vooraf gedefinieerde productvarianten
 De productvarianten worden gegenereerd voor productmodellen volgens drie configuratietechnologieën:
@@ -43,69 +41,70 @@ De productvarianten worden gegenereerd voor productmodellen volgens drie configu
 -   Op basis van beperkingen
 -   Op basis van dimensies
 
-Elke productvariant heeft een nummer en in de nomenclatuur van de productvariant-id's kunt u de segmenten selecteren die in elk productvariantnummer worden opgenomen. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**.
+Elke productvariant heeft een nummer en een naam en in de nomenclatuur van de productvariant-id's kunt u de segmenten selecteren die in elk productvariantnummer of -naam worden opgenomen. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**:
 
 -   Nummer van basismaster
+-   Naam van productmodel
 -   Nummerreekswaarde
 -   Tekstconstante
 -   Productdimensies
-    -   Configuratie
-    -   Kleur
-    -   Grootte
-    -   Opmaakmodel
+    -   Configuratie-id of -naam
+    -   Kleur-id of -naam
+    -   Maat-id of -naam
+    -   Stijl-id of -naam
 
-Nadat een productvariant-id gedefinieerd, kan deze aan een productdimensiegroep worden gekoppeld. Vervolgens worden aan alle productmodellen die naar deze productdimensiegroep verwijzen, productvariantnummers toegewezen volgens de nomenclatuur. Het is ook mogelijk om een productvariantnomenclatuur rechtstreeks toe te wijzen aan een productmodel. In dat geval worden aan de productvarianten die bij dit model horen, productvariantnummers toegewezen volgens de nomenclatuur.
+Nadat een productvariant-id hebt gedefinieerd, kunt u deze koppelen aan een productdimensiegroep. Aan alle productmodellen die verwijzen naar deze productdimensiegroep, worden vervolgens productvariantnummers toegewezen op basis van de nomenclatuur. Nomenclaturen van productvariantnamen kunnen echter niet worden gekoppeld aan productdimensiegroepen. U kunt ook een nomenclatuur voor productvariant-id's direct aan een productmodel toewijzen. In dit geval worden aan de productvarianten die behoren tot het productmodel, productvariantnummers en -namen toegewezen volgens de nomenclaturen.
 
 ### <a name="example"></a>Voorbeeld
 
-Een t-shirt (TS1234) wordt geproduceerd in 3 verschillende maten (S, M, L), 4 kleuren (rood groen, geel, blauw) en 2 stijlen (Polo, V) wat in totaal 24 mogelijke productvarianten geeft. Een nomenclatuur met productvariant-id's wordt gemaakt met de volgende segmenten:
+Een T-shirt (TS1234) wordt geproduceerd in drie maten (S, M, L), vier kleuren (rood, groen, blauw, geel) en twee stijlen (Polo, V). Daarom zijn 24 productvarianten mogelijk (= 3 × 4 × 2). U maakt een productvariantnummernomenclatuur met de volgende segmenten:
 
 1.  Nummer van basismaster
-2.  Tekstconstante: '-'
+2.  Tekstconstante: "-"
 3.  Kleur
-4.  Tekstconstante: '-'
+4.  Tekstconstante: "-"
 5.  Grootte
-6.  Tekstconstante: '-'
+6.  Tekstconstante: "-"
 7.  Opmaakmodel
 
-Het productvariantnummer voor de rode Polo in S is: TS1234-rood-small-polo.
+In dit geval is het productvariantnummer voor een rood, klein polo T-shirt TS1234-Rood-Klein-Polo.
 
 ## <a name="nomenclature-of-constraintbased-configurations"></a>Op beperkingen gebaseerde configuraties
-Voor op beperkingen gebaseerde configuraties kan een specifieke nomenclatuur voor de configuratieproductdimensie worden gebouwd. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**.
+Voor op beperkingen gebaseerde configuraties kunt u een specifieke nomenclatuur maken voor de configuratieproductdimensie. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**:
 
 -   Nummerreekswaarde
 -   Tekstconstante
--   Kenmerkwaarde 
+-   Kenmerkwaarde
 
-Elke component in een productconfiguratiemodel kan een eigen configuratienomenclatuur hebben. Alleen kenmerken die bij de component horen, worden gebruikt. De kenmerken van subcomponenten of gebruikersvereisten zijn niet beschikbaar.
+Elke component in een productconfiguratiemodel kan een eigen configuratienomenclatuur hebben. Alleen kenmerken die bij de component horen, kunnen worden gebruikt. Kenmerken van subcomponenten of gebruikersvereisten kunnen niet worden gebruikt.
 
 ### <a name="example"></a>Voorbeeld
 
-Een productconfiguratiemodel heeft een hoofdcomponent met twee kenmerken.
+Een productconfiguratiemodel heeft een hoofdcomponent met twee kenmerken:
 
 -   Materiaal (plastic, hout, staal)
 -   Lengte (10... 100)
 
-Een configuratienomenclatuur wordt gedefinieerd met de volgende segmenten:
+U maakt een configuratienomenclatuur met de volgende segmenten:
 
 1.  Kenmerkwaarde: materiaal
-2.  Tekstconstante: 'AAA'
+2.  Tekstconstante: "AAA"
 3.  Kenmerkwaarde: lengte
 
-De configuratie-id voor het materiaal hout met een lengte van 78 is als volgt: WoodAAA78.
+In dit geval is de configuratie-id voor houten materiaal met een lengte van 78 WoodAAA78.
 
 ## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatuur van op dimensies gebaseerde configuraties
-Voor op dimensies gebaseerde configuraties kan een specifieke nomenclatuur voor de configuratieproductdimensie worden gebouwd. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**.
+Voor op dimensies gebaseerde configuraties kunt u een specifieke nomenclatuur maken voor de configuratieproductdimensie. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**:
 
 -   Nummerreekswaarde
 -   Tekstconstante
 -   Configuratiegroepitem
 
-Een configuratienomenclatuur kan worden gedefinieerd voor een stuklijst (BOM).
+U kunt een configuratienomenclatuur definiëren voor een stuklijst (BOM).
 
 ### <a name="example"></a>Voorbeeld
 
-Een stuklijst heeft 4 stuklijstregels die in 2 configuratiegroepen worden verdeeld.
+Een stuklijst heeft vier stuklijstregels die worden onderverdeeld in twee configuratiegroepen:
 
 -   Stuklijstregel: M0007, standaardbehuizing
     -   Configuratiegroep: behuizing
@@ -116,89 +115,87 @@ Een stuklijst heeft 4 stuklijstregels die in 2 configuratiegroepen worden verdee
 -   Stuklijstregel: M0022, metalen voorgrill
     -   Configuratiegroep: Voorgrill
 
-Een configuratienomenclatuur wordt gedefinieerd met de volgende segmenten:
+U maakt een configuratienomenclatuur met de volgende segmenten:
 
 1.  Configuratiegroep: behuizing
-2.  Tekstconstante: '&'
+2.  Tekstconstante: "&"
 3.  Configuratiegroep: Voorgrill
 
-De configuratie-id voor een standaardbehuizing met een voorgrill van stof is: M0007&M0021.
+In dit geval is de configuratie-id voor een standaardbehuizing met een voorgrill van stof M0007&M0021.
 
-## <a name="nomenclature-of-a-combination-of-product-variants-and-configurations"></a>Nomenclatuur van een combinatie van productvarianten en configuraties
-Als u een op beperkingen of dimensies gebaseerde configuratietechnologie gebruikt om productvarianten voor een productmodel te configureren, kunnen de productvarianten productvariantnummers krijgen waarin de nomenclatuur van de configuratiedimensie is opgenomen. Volg deze stappen om varianten te configureren:
+## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Nomenclatuur voor een combinatie van productvarianten en configuraties
+Als u de op beperkingen of dimensies gebaseerde configuratietechnologie gebruikt om productvarianten voor een productmodel te configureren, kunnen de productvariantnummers van de productvarianten de nomenclatuur bevatten van de configuratiedimensie. Volg deze stappen om varianten te configureren.
 
-1.  Definieer een nomenclatuur van het productvariantnummer die de configuratiedimensie omvat op de pagina **Productnomenclatuur**.
-2.  Wijs deze nomenclatuur toe aan een productdimensiegroep met de configuratiedimensie.
-3.  Definieer een configuratienomenclatuur voor de componenten of de stuklijsten die voor het configureren van de productvarianten worden gebruikt.
+1.  Definieer op de pagina **Productnomenclatuur** een nomenclatuur van productvariantnummers die de configuratiedimensie omvat.
+2.  Wijs de nomenclatuur toe aan een productdimensiegroep die de configuratiedimensie heeft.
+3.  Definieer een configuratienomenclatuur voor de componenten of de stuklijsten die worden gebruikt voor het configureren van de productvarianten.
+
+U kunt ook nomenclaturen maken voor de productvariantnamen. De productvariantnamen kunnen worden geconfigureerd voor het opnemen van de configuratie-ID of -naam.
 
 ### <a name="example-for-constraint-based-configurations"></a>Voorbeeld van op beperkingen gebaseerde configuraties
 
-In dit voorbeeld kunt u een nomenclatuur van het productvariantnummer gebruiken die de volgende segmenten bevat:
+In dit voorbeeld gebruikt u een productvariantnummernomenclatuur die bestaat uit de volgende segmenten:
 
 1.  Nummer van basismaster
-2.  Tekstconstante '\_'
+2.  Tekstconstante "\_"
 3.  Configuratie
 
-De configuratienomenclatuur kan bestaan uit de volgende segmenten:
+De configuratienomenclatuur bestaat uit de volgende segmenten:
 
 1.  Kenmerkwaarde: materiaal
-2.  Tekstconstante: 'AAA'
+2.  Tekstconstante: "AAA"
 3.  Kenmerkwaarde: lengte
 
 U kunt de volgende waarden voor segmenten invoeren:
 
--   Productmodelnummer = M0099
--   Materiaal = plastic
--   Lengte = 12
+-   Productmodelnummer = **M0099**
+-   Materiaal = **Plastic**
+-   Lengte = **12**
 
-Het productvariantnummer wordt: M0099\_PlasticAAA12.
+In dit geval is het productvariantnummer M0099\_PlasticAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Voorbeeld van op dimensies gebaseerde configuraties
 
-In dit voorbeeld kunt u een nomenclatuur van het productvariantnummer gebruiken die de volgende segmenten bevat:
+In dit voorbeeld gebruikt u een productvariantnummernomenclatuur die bestaat uit de volgende segmenten:
 
 1.  Nummer van basismaster
-2.  Tekstconstante '//'
+2.  Tekstconstante "//"
 3.  Configuratie
 
-De configuratienomenclatuur kan bestaan uit de volgende segmenten:
+De configuratienomenclatuur bestaat uit de volgende segmenten:
 
 1.  Configuratiegroep: behuizing
-2.  Tekstconstante: '&'
+2.  Tekstconstante: "&"
 3.  Configuratiegroep: Voorgrill
 
 U kunt de volgende waarden voor segmenten invoeren:
 
--   Productmodelnummer = D0123
--   Behuizing = M0008
--   Voorgrill = M0022
+-   Productmodelnummer = **D0123**
+-   Behuizing = **M0008**
+-   Voorgrill = **M0022**
 
-Het productvariantnummer wordt: D0123//M0008&M0022.
+In dit geval is het productvariantnummer D0123//M0008&M0022.
 
 ## <a name="numbering-conflicts"></a>Nummeringsconflicten
-Het is mogelijk om een nomenclatuur voor productvariantnummers in te stellen die niet in unieke productvariantnummers resulteert. Dit kan bijvoorbeeld gebeuren als een actieve productdimensie niet is opgenomen in de nomenclatuur voor een productmodel dat de vooraf gedefinieerde technologie voor variantconfiguratie gebruikt. De conflicten worden anders behandeld voor de verschillende configuratietechnologieën.
+In sommige gevallen is het mogelijk dat een nomenclatuur voor productvariantnummers die u instelt, geen unieke productvariantnummers produceert. De productvariantnummers zijn bijvoorbeeld niet uniek als één actieve productdimensie niet wordt opgenomen in de nomenclatuur van een productmodel dat de vooraf gedefinieerde variantconfiguratietechnologie gebruikt. De manier waarop u conflicten verwerken, varieert afhankelijk van de configuratietechnologie.
 
 ### <a name="predefined-variants"></a>Vooraf gedefinieerde varianten
 
-Een fout gebeurt als u handmatig of automatisch productvarianten probeert te genereren waarbij een of meerdere eindigen met hetzelfde productvariantnummer. Om dit te voorkomen moet u alle actieve productdimensies in de productdimensiegroep gebruiken of een nummerreeks bevatten opnemen om ervoor te zorgen dat de productvariantnummers uniek zijn.
+Er treedt een fout op als u handmatig of automatisch probeert productvarianten te genereren, en meerdere productvarianten hetzelfde productvariantnummer krijgen. Als u dit scenario wilt voorkomen, moet u alle actieve productdimensies in de productdimensiegroep gebruiken. U kunt ook een nummerreeks opnemen om te garanderen dat de productvariantnummers uniek zijn.
 
 ### <a name="constraint-based-configurations"></a>Op beperkingen gebaseerde configuraties
 
-Afhankelijk van de nomenclatuur kan het systeem proberen een niet-uniek productvariantnummer aan een configuratie toe te wijzen. In dit geval zal het systeem de nummerreeks voor de configuratiedimensie als productvariantproductdimensie gebruiken. Als dit gebeurt, ontvangt u een waarschuwing. Om dit te voorkomen kunt u voldoende unieke kenmerken in de nomenclatuur opnemen en ervoor zorgen dat de optie **Opnieuw gebruiken** voor de component is ingeschakeld.
+Afhankelijk van de nomenclatuur kan het systeem proberen een niet-uniek productvariantnummer aan een configuratie toe te wijzen. In dit geval gebruikt het systeem de nummerreeks voor de configuratiedimensie als productvariantnummer. Als dit gebeurt, ontvangt u een waarschuwing. Als u dit scenario wilt voorkomen, moet u voldoende kenmerken opnemen in de nomenclatuur om unieke productvariantnummers te garanderen. U moet tevens zorgen dat de optie **Opnieuw gebruiken** is ingeschakeld voor het onderdeel.
 
 ### <a name="dimension-based-configurations"></a>Op dimensie gebaseerde configuraties
 
-Het configuratieproces bevat een stap waarin het systeem een configuratiewaarde volgens de nomenclatuur voorstelt. In deze stap kunt u de configuratiewaarde handmatig wijzigen. Wanneer u de configuratie opslaat, controleert het systeem of de configuratiewaarde uniek is. Als dat niet het geval is, wordt er een foutbericht weergegeven. U moet een unieke configuratiewaarde invoeren om de configuratie te slaan.
-
-
+Tijdens een stap van het configuratieproces suggereert het systeem een configuratiewaarde volgens de nomenclatuur. In deze stap kunt u de configuratiewaarde handmatig wijzigen. Wanneer u de configuratie opslaat, controleert het systeem of de configuratiewaarde uniek is. Als de waarde die u hebt ingevoerd niet uniek is, ontvangt u een foutbericht. Als u de configuratie wilt opslaan, moet u een unieke configuratiewaarde invoeren.
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Een productnummernomenclatuur maken voor vooraf gedefinieerde productvarianten](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/) (taakbegeleiding)
+[Een productnummernomenclatuur voor vooraf bepaalde productvarianten maken](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Een productnummernomenclatuur maken voor geconfigureerde productvarianten](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/) (taakbegeleiding)
-
-
+[Een productnummernomenclatuur voor geconfigureerde productvarianten maken](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
 
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 63731b5ffa4f4a7586782bba5f91ee4b0d5bcd34
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 2a0d3fe9dcdb58e40d519b2792700dd6d40bb99d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -166,7 +166,7 @@ De afdeling Klantenservice heeft een spoedorder van een belangrijke klant aangen
 U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie wordt geboekt. U kunt dit doen vanaf een verkooporderregel op de pagina **Details verkooporder**. U kunt de openstaande ontvangsttransacties bekijken op de pagina **Markering**. U kunt een uitgiftetransactie aan een ontvangst koppelen nadat de transactie is geboekt. U kunt een uitgiftetransactie voor een openstaande ontvangsttransactie voor een geïnventariseerd artikel afstemmen of markeren vanuit een geboekt voorraadcorrectiejournaal. De volgende afbeelding geeft deze transacties weer:
 
 -   1a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
--   1b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
+-   1a. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
 -   2a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 20,00 per stuk.
 -   2b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een prijs van USD 20,00 per stuk.
 -   3a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 25,00 per stuk.

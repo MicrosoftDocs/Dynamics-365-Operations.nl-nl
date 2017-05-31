@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
@@ -18,10 +18,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
-ms.openlocfilehash: f731d0f872ac0f7e369de3744e90e0cb0179e691
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: d32c1b87417b69e5564c4b0e73e867cff511a8f1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/26/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -52,7 +52,7 @@ Zo kunnen gebruikers ook winstgevendheid onderzoeken van de beste producten (10 
 -   Brutowinstmarge
 -   Margepercentage
 
-Voor deze beoordeling kunt u het kant-en-klare rapport **Beste producten**gebruiken, dat u vanuit de volgende locaties kunt openen:
+Voor deze beoordeling kunt u het kant-en-klare rapport **Beste producten** gebruiken, dat u vanuit de volgende locaties kunt openen:
 
 -   **Beheer van detailhandelwinkel** werkruimte Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Afzetkanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
 -   **Categorie en productbeheer** werkruimte Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Producten en categorieën** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
