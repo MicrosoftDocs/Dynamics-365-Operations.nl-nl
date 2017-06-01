@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ Bij overheadberekening wordt het beleid voor kostprijsboekhouding in de juiste v
 -   Boekjaar
 -   Boekperiode
 
-De overheadberekening wordt onafhankelijk van de versie uitgevoerd. Daarom kunt u de budgetversie vóór de huidige versie berekenen. De berekening van de overheadkosten bestaat uit vier stappen, zoals in de volgende afbeelding wordt weergegeven. In elke stap wordt een journaalkop gemaakt met journaalposten. Deze journaalkop bevat de ingevoerde gegevens voor elke berekeningsstap. Er worden beleid en regels toegepast op elke journaalregel en er worden kostenposten gegenereerd als uitvoer. Daarom beschikt u altijd over volledige traceerbaarheid. [![Overheadberekening](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+De overheadberekening wordt onafhankelijk van de versie uitgevoerd. Daarom kunt u de budgetversie vóór de huidige versie berekenen. De berekening van de overheadkosten bestaat uit vier stappen, zoals in de volgende afbeelding wordt weergegeven. In elke stap wordt een journaalkop gemaakt met journaalposten. Deze journaalkop bevat de ingevoerde gegevens voor elke berekeningsstap. Er worden beleid en regels toegepast op elke journaalregel en er worden kostenposten gegenereerd als uitvoer. Daarom beschikt u altijd over volledige traceerbaarheid. 
+[![Overheadberekening](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>De overheadkosten voor elektriciteit berekenen en toewijzen
 In de financiële boekhouding worden sommige kosten, zoals elektriciteit, geregistreerd als een vast bedrag. Daarom worden geen managementinzichten verstrekt voor kostprijsboekhouding. Als u in de kostprijsboekhouding het juiste leidinggevende inzicht wilt bieden voor alle organisatie-eenheden en niveaus, moeten kosten door de organisatie-eenheden stromen. Deze stroom moet zijn gebaseerd op een nauwkeurig overzicht van het verbruik of op een reële beoordeling. In het grootboek kunnen kosten voor elektriciteit worden geboekt, zoals weergegeven in de volgende tabel.
@@ -622,7 +623,7 @@ Zie Beleid voor overheadtarief en Toewijzingsgrondslagen voor gedetailleerde inf
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Stap 4: De berekening van kostentoewijzing verwerken
 
-Toewijzing wordt gebruikt om het saldo van een kostenobject toe te wijzen aan andere kostenobjecten door een toewijzingsgrondslag toe te passen. Microsoft Dynamics 365 for Operations ondersteunt de wederzijdse toewijzingsmethode. Bij de wederzijdse toewijzingsmethode worden de onderlinge services die bijkomende kostenobjecten uitwisselen volledig erkend. Het systeem bepaalt automatisch de juiste volgorde voor het uitvoeren van de toewijzingen. Het saldo van een kostenobject wordt toegewezen door een enkele toewijzingsgrondslag. Toewijzingen over dimensies voor kostenobjecten en hun respectievelijke leden heen worden ondersteund. De toewijzingsvolgorde wordt bepaald door de kostenbeheereenheid. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+Toewijzing wordt gebruikt om het saldo van een kostenobject toe te wijzen aan andere kostenobjecten door een toewijzingsgrondslag toe te passen. Microsoft Dynamics 365 for Operations ondersteunt de wederzijdse toewijzingsmethode. Bij de wederzijdse toewijzingsmethode worden de onderlinge services die bijkomende kostenobjecten uitwisselen volledig erkend. Het systeem bepaalt automatisch de juiste volgorde voor het uitvoeren van de toewijzingen. Het saldo van een kostenobject wordt toegewezen door een enkele toewijzingsgrondslag. Toewijzingen over dimensies voor kostenobjecten en hun respectievelijke leden heen worden ondersteund. De toewijzingsvolgorde wordt bepaald door de kostenbeheereenheid. [![Wederzijdse methode](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>De kostentoewijzing definiëren
 

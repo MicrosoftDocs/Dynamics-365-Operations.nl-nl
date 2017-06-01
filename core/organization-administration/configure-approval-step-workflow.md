@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Voer de volgende stappen uit om op te geven aan wie de goedkeuringsstap moet wor
     <td>Gebruikers in een specifieke organisatiehiërarchie</td>
     <td><ol>
     <li>Selecteer op het tabblad <strong>Hiërarchieselectie</strong> de optie <strong>Hiërarchie</strong> en selecteer vervolgens in de lijst <strong>Type hiërarchie</strong> het type hiërarchie waaraan u de stap wilt toewijzen.</li>
-    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen stellen gebruikers voor waaraan de stap kan worden toegewezen. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt:
-    <ol>
+    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen stellen gebruikers voor waaraan de stap kan worden toegewezen. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt: <ol>
     <li>Geef het beginpunt op door een persoon te selecteren in de lijst <strong>Beginnen vanaf</strong>.</li>
     <li>Klik op <strong>Voorwaarde toevoegen</strong> om het eindpunt op te geven. Geef vervolgens een voorwaarde op die bepaalt bij welk punt in de hiërarchie stopt met het ophalen van namen.</li>
     </ol></li>
-    <li>Geef op het tabblad <strong>Hiërarchieopties</strong> op aan welke gebruikers in het bereik de stap moet worden toegewezen:
-    <ul>
+    <li>Geef op het tabblad <strong>Hiërarchieopties</strong> op aan welke gebruikers in het bereik de stap moet worden toegewezen: <ul>
     <li><strong>Aan alle opgehaalde gebruikers toewijzen</strong>: de stap wordt toegewezen aan alle gebruikers in het bereik.</li>
     <li><strong>Alleen aan laatst opgehaalde gebruiker toewijzen</strong>: de stap wordt alleen aan de laatste gebruiker in het bereik toegewezen.</li>
     <li><strong>Gebruikers met de volgende status uitsluiten</strong>: de stap wordt niet toegewezen aan een gebruiker in het bereik die aan een specifieke voorwaarde voldoet. Klik op <strong>Voorwaarde toevoegen</strong> om de voorwaarde op te geven.</li>
@@ -211,13 +209,11 @@ Als een gebruiker niet binnen de toegekende tijd actie onderneemt op een documen
     <td>Gebruikers in een specifieke organisatiehiërarchie</td>
     <td><ol>
     <li>Selecteer op het tabblad <strong>Hiërarchieselectie</strong> de optie <strong>Hiërarchie</strong> en selecteer vervolgens in de lijst <strong>Type hiërarchie</strong> het type hiërarchie waarnaar u het document wilt escaleren.</li>
-    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen vertegenwoordigen gebruikers naar wie het document kan worden geëscaleerd. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt:
-    <ol>
+    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen vertegenwoordigen gebruikers naar wie het document kan worden geëscaleerd. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt: <ol>
     <li>Geef het beginpunt op door een persoon te selecteren in de lijst <strong>Beginnen vanaf</strong>.</li>
     <li>Klik op <strong>Voorwaarde toevoegen</strong> om het eindpunt op te geven. Geef vervolgens een voorwaarde op die bepaalt bij welk punt in de hiërarchie stopt met het ophalen van namen.</li>
     </ol></li>
-    <li>Geef op het tabblad <strong>Hiërarchieopties</strong> op naar welke gebruikers in het bereik het document moet worden geëscaleerd:
-    <ul>
+    <li>Geef op het tabblad <strong>Hiërarchieopties</strong> op naar welke gebruikers in het bereik het document moet worden geëscaleerd: <ul>
     <li><strong>Aan alle opgehaalde gebruikers toewijzen</strong>: het document wordt geëscaleerd naar alle gebruikers in het bereik.</li>
     <li><strong>Alleen aan laatst opgehaalde gebruiker toewijzen</strong>: het document wordt alleen geëscaleerd naar de laatste gebruiker in het bereik.</li>
     <li><strong>Gebruikers met de volgende status uitsluiten</strong>: het document wordt niet geëscaleerd naar een gebruiker in het bereik die aan een specifieke voorwaarde voldoet. Klik op <strong>Voorwaarde toevoegen</strong> om de voorwaarde op te geven.</li>

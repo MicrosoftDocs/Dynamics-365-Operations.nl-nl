@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: ShylaThompson
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
-ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: af30c12a7b8097c1786c1ece0485b027912ef906
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -133,6 +133,7 @@ De volgende secties bevatten resources per land/regio.
 
 -   [De waarde van een vast activum voorafgaand aan verwerving boeken](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Btw-overzicht voor Tsjechië](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
+-   [Btw-aangifte ](/dynamics365/operations/financials/localizations/emea-cze-intra-community-vat-transactions)
 -   [Gesplitste perioden in periodieke journalen](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [Ondertekenaars voor afdrukbare formulieren instellen](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)

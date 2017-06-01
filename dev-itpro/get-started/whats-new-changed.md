@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 55a3252aa2d84ac5af68a1a6eebeaa909d95b33b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -34,6 +34,9 @@ ms.lasthandoff: 04/25/2017
 Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versie van Microsoft Dynamics 365 for Operation.
 
 Als u Dynamics AX wilt bijwerken naar de meest recente versie, zie dan [Proces voor het bijwerken naar nieuwste update van Dynamics 365 for Operations](../migration-upgrade/upgrade-latest-update.md).
+
+Zie voor meer informatie over de onlangs vrijgegeven mobiele werkgebieden en Power BI-inhoud [Onlangs vrijgegeven mobiele werkgebieden voor de mobiele Dynamics 365 for Operations-app](../mobile-apps/mobile-workspaces-released.md) en [Onlangs vrijgegeven Power BI-inhoud voor Dynamics 365 for Operations](../analytics/power-bi-content-released.md)
+
 <table>
 <colgroup>
 <col width="20%" />
@@ -44,15 +47,21 @@ Als u Dynamics AX wilt bijwerken naar de meest recente versie, zie dan [Proces v
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Vrijgave</strong></th>
+<th><strong>Release</strong></th>
 <th><strong><strong>Versie</strong></strong></th>
-<th><strong><strong>Build nr.</strong></strong></th>
+<th><strong><strong>Buildnummer</strong></strong></th>
 <th><strong><strong>Beschikbaarheid</strong></strong></th>
 <th><strong><strong>Meer informatie</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td>Microsoft Dynamics 365 for Operations platform</td>
+<td>Platformupdate 7</td>
+<td> 7.0.4542.16189</td>
+<td>2017 mei</td>
+<td><a href="whats-new-platform-update-7.md">Wat is er nieuw of gewijzigd in Dynamics 365 for Operations platformupdate 7 (mei 2017)</a></td>
+</tr><tr class="odd">
 <td>Microsoft Dynamics 365 for Operations platform</td>
 <td>Platformupdate 6</td>
 <td> 7.0.4509.16180</td>

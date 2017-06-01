@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 In dit onderwerp geeft een overzicht van de mobiele werkgebieden die onlangs zijn uitgebracht voor de mobiele app van Microsoft Dynamics 365 for Operations.
@@ -51,9 +50,9 @@ In dit onderwerp geeft een overzicht van de mobiele werkgebieden die onlangs zij
 | Mobiel werkgebied     | Omschrijving                                                                                                                                                                         | Meer informatie                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kostenbeheer     | Kostenplaatsmanager kunnen altijd en overal de prestaties van kostenplaatsen bekijken.                                                                                               | [Mobiel werkgebied voor kostenbeheer](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Voorhanden voorraad    | Krijg altijd en overal mobiel inzicht in de gereserveerde en beschikbare voorraad.                                                                                                    | [Mobiel werkgebied voorhanden voorraad](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| Verkooporders         | Blijf altijd en overal op de hoogte van uw verkooporders.                                                                                                                          | [Mobiel werkgebied voor verkooporders](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| Leverancierssamenwerking | Uw leveranciers kunnen de inkooporders volgen die aan hen zijn verzonden voor goedkeuring en zij kunnen informatie weergeven over nieuwe en bijgewerkte inkooporders en contactpersonen. | [Mobiel werkgebied voor leverancierssamenwerking](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| Voorhanden voorraad    | Krijg altijd en overal mobiel inzicht in de gereserveerde en beschikbare voorraad.                                                                                                    | [Mobiel werkgebied voorhanden voorraad](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| Verkooporders         | Blijf altijd en overal op de hoogte van uw verkooporders.                                                                                                                          | [Mobiel werkgebied voor verkooporders](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| Leverancierssamenwerking | Uw leveranciers kunnen de inkooporders volgen die aan hen zijn verzonden voor goedkeuring en zij kunnen informatie weergeven over nieuwe en bijgewerkte inkooporders en contactpersonen. | [Mobiel werkgebied voor leverancierssamenwerking](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>Functionaliteit voor mobiele werkgebieden die werd uitgebracht in december 2016
 | Mobiel werkgebied        | Omschrijving                                                                    | Meer informatie                                                                                                            |

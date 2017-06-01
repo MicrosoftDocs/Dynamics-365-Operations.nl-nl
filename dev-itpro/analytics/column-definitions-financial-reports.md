@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de w
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Geef financiële gegevens of gegevens van een Excel-werkblad weer wanneer u een <strong>Koppeling naar financiële dimensies</strong>-kolom of een <strong>Koppeling naar werkblad</strong>-kolom gebruikt in de rijdefinitie. Wanneer u het kolomtype <strong>FD</strong> selecteert, worden de standaardinstellingen automatisch opgegeven voor de volgende rijen:
-    <ul>
+    <td>Geef financiële gegevens of gegevens van een Excel-werkblad weer wanneer u een <strong>Koppeling naar financiële dimensies</strong>-kolom of een <strong>Koppeling naar werkblad</strong>-kolom gebruikt in de rijdefinitie. Wanneer u het kolomtype <strong>FD</strong> selecteert, worden de standaardinstellingen automatisch opgegeven voor de volgende rijen: <ul>
     <li><strong>Categorie boekcode/-kenmerk:</strong> WERKELIJK</li>
     <li><strong>Categorie boekcode/-kenmerk:</strong> WERKELIJK</li>
     <li><strong>Fiscaal jaar:</strong> BASE</li>
@@ -359,7 +358,7 @@ Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de w
     <li><strong>Behandelde perioden:</strong> PERIODIEK</li>
     <li><strong>Kolombreedte:</strong> 14</li>
     </ul>
-    U kunt deze standaardinstellingen wijzigen.</td>
+U kunt deze standaardinstellingen wijzigen.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -379,7 +378,7 @@ Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de w
     </tr>
     <tr class="even">
     <td>FILL</td>
-    <td>Vul de cel met een teken dat u tussen enkele aanhalingstekens plaatst. Als u geen teken invoert, is de kolom leeg. Als u bijvoorbeeld een kolom met een beletselteken (...) wilt invullen, voert u <strong>FILL</strong> <strong>'.'</strong> in.</td>
+    <td>Vul de cel met een teken dat u tussen enkele aanhalingstekens plaatst. Als u geen teken invoert, is de kolom leeg. Als u bijvoorbeeld een kolom met een beletselteken (...) wilt vullen, voert u <strong>FILL</strong> <strong>'.'</strong> in.</td>
     </tr>
     <tr class="odd">
     <td>PAGE</td>
@@ -387,12 +386,11 @@ Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de w
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Geef gegevens weer die uit een Excel-werkblad worden gehaald. Wanneer u het kolomtype <strong>WKS</strong> selecteert, worden de standaardinstellingen automatisch opgegeven voor de volgende rijen:
-    <ul>
+    <td>Geef gegevens weer die uit een Excel-werkblad worden gehaald. Wanneer u het kolomtype <strong>WKS</strong> selecteert, worden de standaardinstellingen automatisch opgegeven voor de volgende rijen: <ul>
     <li><strong>Fiscaal jaar:</strong> PERIODIEK</li>
     <li><strong>Periode:</strong> BASE</li>
     </ul>
-    U kunt deze standaardinstellingen wijzigen.</td>
+U kunt deze standaardinstellingen wijzigen.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>
