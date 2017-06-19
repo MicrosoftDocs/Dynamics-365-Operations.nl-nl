@@ -15,10 +15,11 @@
 ## [Een detailhandelhardwarestation configureren en installeren](retail-hardware-station-configuration-installation.md)
 ## [Tijd en aanwezigheid in detailhandel](retail-time-attendance.md)
 # Modern point-of-sale (MPOS) en Cloud POS
-## Hardware randapparatuur
+## Hardware en randapparatuur
 ### [Overzicht van detailhandelrandapparatuur](retail-peripherals-overview.md)
+### [Randapparatuursimulator voor detailhandel](retail-peripheral-simulator.md)
 ### [Door Microsoft geteste POS-randapparatuur](microsoft-tested-pos-hardware-peripherals.md)
-### [Kanaalclients, kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md)
+### [Kanaalclients, kassa's en hardwarestations definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md)
 ## Schermindeling
 ### [Schermindelingen configureren voor POS](pos-screen-layouts.md)
 ### [De Retail POS-indelingsontwerper installeren](install-pos-layout-designer.md)
@@ -39,9 +40,10 @@
 ### [MPOS configureren en installeren](retail-modern-pos-device-activation.md)
 ### [Uitgebreide aanmelding instellen voor Cloud POS en MPOS](extended-logon.md)
 ### [Detailhandelaccounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
-## Ontvangstbewijzen
+## Ontvangsten
 ### [Ontvangstbewijssjablonen instellen](receipt-templates-printing.md) 
 ### [E-mailontvangstbewijzen verzenden vanuit MPOS](email-receipts.md)
+## [Taakrecorder en Help voor POS](task-recorder-retail-pos.md)
 # Bewaking en analyse
 ## [Verkoop- en margeprestaties bewaken](monitor-sales-margin-performance.md)
 ## [Verkooptrends en patronen analyseren](analyze-sales-trends-patterns.md)
@@ -53,6 +55,7 @@
 ## [Prijscorrecties en kortingen](price-adjustments-discounts.md)
 ## [De optimale combinatie van overlappende kortingen bepalen](optimal-combination-overlapping-discounts.md)
 ## [Kanaalspecifieke kortingen definiëren](define-channel-specific-discounts.md)
+## [Coupons voor detailhandelverkoop maken](retail-coupons.md)
 # Producten en merchandising
 ## [Detailhandelhiërarchieën](retail-hierarchies.md)
 ## [Attributen maken en beheren](create-manage-attributes.md)
@@ -60,6 +63,7 @@
 ## [Streepjescodes instellen](set-up-bar-codes.md)
 ## [Streepjescodemaskers instellen](set-up-bar-code-masks.md)
 ## [Assortimenten instellen](set-up-assortments.md)
+## [Producten buiten een assortiment verkopen en retourneren](sell-return-outside-assortments.md)
 # Loyaliteit
 ## [Een klantloyaliteitsprogramma instellen](set-up-customer-loyalty-program.md)
 # Voorraad
@@ -69,15 +73,15 @@
 ## [Organisaties en organisatiehiërarchieën (hoofdzaken van Commerce)](organizational-hierarchies-commerce-essentials.md)
 # [Inhoud voor IT-professionals en ontwikkelaars](dev-itpro/TOC.md)
 
-# [Financiën](/dynamics365/operations/financials/index)
+# [Financiën](/dynamics365/unified-operations/financials/index)
 
-# [Human resources](/dynamics365/operations/human-resources/index)
+# [Human resources](/dynamics365/unified-operations/talent/index)
 
-# [Supply chain management](/dynamics365/operations/supply-chain/index)
+# [Supply Chain Management](/dynamics365/unified-operations/supply-chain/index)
 
-# [Ontwikkelaar en beheerder](/dynamics365/operations/dev-itpro/index)
+# [Ontwikkelaar en beheerder](/dynamics365/unified-operations/dev-itpro/index)
 
 # Overige bronnen
-## [Verklarende woordenlijst voor Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [Wat is nieuw of gewijzigd](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [Verklarende woordenlijst voor Dynamics 365 for Retail](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [Wat is nieuw of gewijzigd](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

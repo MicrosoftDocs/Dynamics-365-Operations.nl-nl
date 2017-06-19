@@ -1,34 +1,34 @@
 # [Introductie](index.md)
 
-# [Inleiding tot Dynamics 365 for Operations](get-started/onboarding-home.md)
-## Inleiding tot Dynamics 365 for Operations
-### [Aan de slag met Microsoft FastTrack voor Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
-### [Aanmelden voor een abonnement](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [Procedure voor het ophalen van de on-premises versie van Dynamics AX 2012](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [Een demo-omgeving implementeren](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+# [Onboarden voor Finance and Operations](get-started/onboarding-home.md)
+## Inleiding bij Finance and Operations
+### [Aan de slag met Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
+### [Aanmelden voor een abonnement](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Procedure voor het ophalen van de on-premises versie van Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Een demo-omgeving implementeren](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## De gebruikersinterface verkennen
 ### [Actiezoekopdracht](get-started/action-search.md)
 ### [Geavanceerde filter- en querysyntaxis](get-started/advanced-filtering-query-options.md)
-### [FAQ voor Dynamics 365 for Operations-client](get-started/client-faq.md)
-### [Werkruimten configureren en filteren](get-started/configure-filter-workspaces.md)
+### [Veelgestelde vragen over Finance and Operations-client](get-started/client-faq.md)
+### [Werkgebieden configureren en filteren](get-started/configure-filter-workspaces.md)
 ### [Pagina's naast elkaar weergeven met het pictogram Openen in nieuw venster](get-started/display-pages-side-by-side.md)
 ### [Navigatiezoekfunctie](get-started/navigation-search.md)
 ### [De gebruikerservaring aanpassen](get-started/personalize-user-experience.md)
 ### [Sneltoetsen](get-started/shortcut-keys.md)
 ### [De weergave van pagina's beheren](get-started/window-management.md)
-### [Lifecycle Services begrijpen](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [Lifecycle Services begrijpen](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Hulp en ondersteuning aanvragen
-### [Help-overzicht](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [Help verbinden](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [Help-overzicht](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Help verbinden](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Veldomschrijvingen weergeven en exporteren](get-started/view-export-field-descriptions.md)
 
 ### Taakhandleidingen en taakrecorder
-#### [Taakrecorder](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [Documentatie of training maken](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [Taakrecorder](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Documentatie of training maken](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Inhoud van land-/regiospecifieke Help](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [Inhoud van land-/regiospecifieke Help](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [Uw organisatie configureren](organization-administration/organization-administration-home-page.md)
 ## [Organisaties en organisatiehiërarchieën](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [De batchtaak voor workflowberichtverwerking configureren](organization-administration/workflow-batch-job-critical.md)
 ## [Rapport over workflowtypen](organization-administration/workflow-types-report.md)
 
-# [Financiën](/dynamics365/operations/financials/index)
+# [Financiën](/dynamics365/unified-operations/financials/index)
 
-# [Human resources](/dynamics365/operations/human-resources/index)
+# [Human resources](/dynamics365/unified-operations/talent/index)
 
-# [Detailhandel](/dynamics365/operations/retail/index)
+# [Detailhandel](/dynamics365/unified-operations/retail/index)
 
-# [Supply chain management](/dynamics365/operations/supply-chain/index)
+# [Supply Chain Management](/dynamics365/unified-operations/supply-chain/index)
 
-# [Ontwikkelaar en beheerder](/dynamics365/operations/dev-itpro/index)
+# [Ontwikkelaar en beheerder](/dynamics365/unified-operations/dev-itpro/index)
 
 # Overige bronnen
-## [Verklarende woordenlijst voor Dynamics 365 for Operations](get-started/glossary.md)
-## [Wat is nieuw of gewijzigd](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [Verklarende woordenlijst Finance and Operations](get-started/glossary.md)
+## [Wat is nieuw of gewijzigd](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 

@@ -21,4 +21,5 @@
 # Artikel en batch traceren
 ## [Voorraadbatch samenvoegen](merge-inventory-batches.md)
 ## [Artikel en grondstoffen traceren](trace-items-raw-materials-inventory-production-sales.md)
+## [Serienummer registreren in het verkoopproces](../sales-marketing/register-serial-numbers-sales-process.md)
 

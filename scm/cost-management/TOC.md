@@ -1,5 +1,5 @@
 # Power BI-inhoudpakket
-## [Inhoudpakket voor kostenbeheer](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Inhoudpakket voor kostenbeheer](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Vooraf bepaalde kosten
 ## [Kostenblad](costing-sheets.md)
 ## [Kostprijsberekeningsversie](costing-versions.md)

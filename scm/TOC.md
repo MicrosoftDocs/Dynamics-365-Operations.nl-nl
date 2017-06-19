@@ -43,6 +43,8 @@
 ### [Leveranciersrekeningen instellen](procurement/set-up-vendor-accounts.md)
 ### [Leverancierssamenwerking met externe leveranciers](procurement/vendor-collaboration-work-external-vendors.md)
 ### [Leverancierssamenwerking met klanten](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Externe catalogi gebruiken voor PunchOut eProcurement](procurement/use-external-catalogs-for-punchout.md)
+### [Externe catalogus instellen voor PunchOut eProcurement](procurement/set-up-external-catalog-for-punchout.md)
 ### [Samenwerken met leveranciers met behulp van de leveranciersportal](procurement/collaborate-vendors-vendor-portal.md)
 ### [Mobiel werkgebied voor leverancierssamenwerking](procurement/vendor-collaboration-mobile-workspace.md)
 ### [Gebruikersbeveiliging in leveranciersportal](procurement/configure-security-vendor-portal-users.md)
@@ -50,27 +52,47 @@
 ### [Inkoopovereenkomsten](procurement/purchase-agreements.md)
 ## Productontvangsten en -facturering
 ### [Productontvangst tegen inkooporders](procurement/product-receipt-against-purchase-orders.md)
-### [Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
-### [Boekingsprofielen van leverancier](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Overzicht van leveranciersfacturen](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Boekingsprofielen van leverancier](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Productgegevensbeheer
-## Productgegevens
-### [Stuklijst en formule](production-control/bill-of-material-bom.md)
-### [Functionaliteit van stuklijstontwikkelaar](production-control/bom-designer-functionality.md)
-### [Productdimensie](pim/product-dimensions.md)
-### [Standaard orderinstellingen voor dimensies en productvarianten](production-control/default-order-settings.md)
-### [Nomenclatuur voor productnummers](pim/product-variant-identification-nomenclature.md)
-### [FAQ over productgerelateerde vertaling](pim/translations-product-related-information.md)
-### [Serienummer registreren in het verkoopproces](sales-marketing/register-serial-numbers-sales-process.md)
-### [Zoeken naar product tijdens orderinvoer](pim/search-products-product-variants.md)
-## Productconfiguratie maken
+## [Overzicht met productinformatie](pim/product-information.md)
+## Productcategorieën onderhouden
+## Productinformatie onderhouden
+### Productdefinitie onderhouden
+#### [Nomenclatuur voor productnummers](pim/product-variant-identification-nomenclature.md)
+#### Productsjablonen
+#### [Productdimensie](pim/product-dimensions.md)
+#### Productkenmerken
+#### Productafbeeldingen en bijlagen
+#### Product-id's
+#### [Vertaling van veelgestelde vragen over productinformatie](pim/translations-product-related-information.md)
+### Producten vrijgeven aan rechtspersonen
+### Zoeken naar producten
+#### [Zoeken naar product tijdens orderinvoer](pim/search-products-product-variants.md)
+### Product voor planning voorbereiden
+#### [Standaard orderinstellingen voor dimensies en productvarianten](production-control/default-order-settings.md)
+#### Prognosemodellen en artikeltoewijzingssleutels
+### Product voor productie voorbereiden
+#### Stuklijst en formule
+##### [Stuklijsten en formules](production-control/bill-of-material-bom.md)
+##### [Stuklijstontwikkelaar gebruiken](production-control/bom-designer-functionality.md)
+##### [Formuleontwerper gebruiken](production-control/formula-designer.md)
+#### Routes
+#### Lean manufacturing
+### Producten voorbereiden voor magazijn en logistiek
+### Kosten voor producten ramen
+#### [Stuklijstberekeningen](cost-management/bom-calculations.md)
+## Productconfiguratiemodellen onderhouden
 ### [Een productconfiguratiemodel opstellen](pim/build-product-configuration-model.md)
-### [FAQ over berekening van productconfiguratiemodel](pim/calculate-product-configuration-models.md)
+### [Veelgestelde vragen over berekening van productconfiguratiemodel](pim/calculate-product-configuration-models.md)
 ### [Configuratieregel](pim/configuration-rules.md)
 ### [Op dimensie gebaseerde configuratie](pim/dimension-based-product-configuration.md)
 ### [Expressiebeperking en tabelbeperking](pim/expression-constraints-table-constraints-product-configuration-models.md)
 ### [Productconfiguratie opnieuw gebruiken](pim/reuse-product-configurations.md)
 ### [Een configuratiemodel instellen](pim/set-up-maintain-product-configuration-model.md)
 ### [Systeemgedefinieerde en gebruikergedefinieerde tabelbeperking](pim/system-defined-user-defined-table-constraints.md)
+## Gegevens voor productinformatie importeren
+## Gegevens voor productinformatie exporteren
 # Productiebeheer
 ## [Overzicht van productieproces](production-control/production-process-overview.md)
 ## [Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing](production-control/mixed-mode-plan.md)
@@ -81,7 +103,7 @@
 #### [Stuklijsten en formules](production-control/bill-of-material-bom.md)
 #### [Functionaliteit van stuklijstontwikkelaar](production-control/bom-designer-functionality.md)
 #### [Stuklijstberekeningen](cost-management/bom-calculations.md)
-#### [Bron voor bedrijfsactiviteiten](production-control/operations-resources.md)
+#### [Bronnen voor bedrijfsactiviteiten](production-control/operations-resources.md)
 #### [Bronmogelijkheden](production-control/resource-capabilities.md)
 #### [Routes en bewerkingen](production-control/routes-operations.md)
 #### [Standaardwaarden van productieorder in productieregistratie](production-control/production-order-defaults-manufacturing-execution.md)
@@ -96,6 +118,8 @@
 #### [De productieorderstatus omkeren](production-control/reverse-production-order-status.md)
 #### [Productieorders gereedmelden](production-control/report-production-orders-as-finished.md)
 #### [Stuklijsten gereedmelden](production-control/report-boms-as-finished.md)
+#### [Cross-docken van productieorders naar outbound docks](production-control/cross-docking-opportunities.md)
+#### [Materiaalverbruik registeren met een mobiel apparaat](production-control/register-material-consumption-hand-held-device.md)
 #### [Materiaalvervanging in productie](production-control/substitute-items-bom-lines.md)
 #### [Registratie voor productieregistratie](production-control/registration-manufacturing-execution.md)
 #### [Productiefeedback](production-control/production-feedback.md)
@@ -109,8 +133,9 @@
 ### [Op activiteiten gebaseerde uitbesteding van werk](production-control/activity-based-subcontracting.md)
 ### Hoofdgegevens productie onderhouden
 #### [Een lean organisatie modelleren](production-control/lean-manufacturing-modeling-lean-organization.md)
-#### [Bron voor bedrijfsactiviteiten](production-control/operations-resources.md)
+#### [Bronnen voor bedrijfsactiviteiten](production-control/operations-resources.md)
 ### Kanbantaken plannen
+#### [Visuele planning voor lean manufacturing](production-control/visual-scheduling-lean-manufacturing.md)
 #### [Planning van kanbantaken voor lean manufacturing](production-control/lean-manufacturing-kanban-job-scheduling.md)
 #### [Taakplanning](production-control/job-scheduling.md)
 ### Kanbantaken uitvoeren
@@ -119,7 +144,7 @@
 ## Procesproductie
 ### Hoofdgegevens productie onderhouden
 #### [Stuklijsten en formules](production-control/bill-of-material-bom.md)
-#### [Bron voor bedrijfsactiviteiten](production-control/operations-resources.md)
+#### [Bronnen voor bedrijfsactiviteiten](production-control/operations-resources.md)
 #### [Bronmogelijkheden](production-control/resource-capabilities.md)
 #### [Batchkenmerken](production-control/batch-attributes.md)
 #### [Standaardwaarden van productieorder in productieregistratie](production-control/production-order-defaults-manufacturing-execution.md)
@@ -128,6 +153,7 @@
 #### [Bewerkingsplanning](production-control/operations-scheduling.md)
 #### [Opties voor het plannen van bewerkingen](production-control/operation-scheduling-options.md)
 #### [Taakplanning](production-control/job-scheduling.md)
+#### [Een gantt-diagram voor het plannen van taken](production-control/visual-scheduling-production.md)
 ### Productietaken uitvoeren
 #### [Geconsolideerde batchorders](production-control/consolidated-batch-orders.md)
 #### [Materiaalvervanging in productie](production-control/substitute-items-bom-lines.md)
@@ -162,18 +188,26 @@
 ## [Transportbeheer](transportation/transportation-management-overview.md)
 ## [Transportengine](transportation/transportation-management-engines.md)
 # Magazijnbeheer
-## Instelling 
+## Geavanceerd magazijnbeheer
+### [Migreren van AX 2012 naar Finance and Operations](warehousing/upgrade-migration-warehouse-management-processes.md)
+## Instellen 
 ### [Werk beheren met behulp van sjablonen en locatierichtlijnen](warehousing/control-warehouse-location-directives.md)
 ### [Magazijnmedewerkers beheren](warehousing/manage-warehouse-workers.md)
 ### [Lay-out instellen](warehousing/warehouse-configuration.md)
 ### [Werkbeleid magazijn](warehousing/warehouse-work-policies.md)
 ### [Maateenheid en opslagbeleid](warehousing/unit-measure-stocking-policies.md)
-### [Power BI-inhoud magazijn](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
+### [Power BI-inhoud magazijn](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/scm/toc.json)
+### [Bevestiging van batch en nummerplaat](warehousing/batch-and-license-plate-confirmation.md)
+### [Mutatie van voorraad met gekoppeld werk](warehousing/move-inventory-associated-work.md)
+### [Systeem groeperen op een geopende werklijst](warehousing/system-group-on-open-work-list.md)
+### [Productbevestiging voor clusterverzameling](warehousing/cluster-picking-item-confirmation.md)
 ## Verzamelen en verpakken
 ### [Verpakkingsmaterialen en -kosten](warehousing/pack-materials-packing-material-fees.md)
+### [Bevestiging van orderverzameling](warehousing/piece-picking-confirmation.md)
 ## Voorraadtelling
 ### [Voorraad blokkeren](inventory/inventory-blocking.md)
 ### [Cyclustelling](warehousing/cycle-counting.md)
+### [Gedeeltelijke cyclustelling van locatie](warehousing/partial-location-cycle-counting.md)
 ### [Voorraadjournaal](inventory/inventory-journals.md)
 ### [Voorraadlocatie](inventory/inventory-locations.md)
 ### [Voorraadstatus](inventory/inventory-statuses.md)
@@ -181,6 +215,7 @@
 ## Containervorming 
 ## Aanvulling
 ### [Aanvulling](warehousing/replenishment.md)
+### [Aanvulling met opnamekanbans](warehousing/material-replenishment-withdrawal-kanban.md)
 ## Mobiele apparaten
 ### [De app voor magazijnbeheer installeren en configureren ](warehousing/install-configure-warehousing-app.md)
 ### [Veldnamen in app voor magazijnbeheer configureren](warehousing/configure-app-field-names-priorities-warehouse.md)
@@ -188,15 +223,15 @@
 ### [Portal voor mobiele apparaten voor magazijnbeheer (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Instellingen voor weergave van mobiele apparaten voor magazijnbeheer](warehousing/change-warehouse-mobile-device-displays.md)
 
-# [Financiën](/dynamics365/operations/financials/index)
+# [Financiën](/dynamics365/unified-operations/financials/index)
 
-# [Human resources](/dynamics365/operations/human-resources/index)
+# [Human Resources](/dynamics365/unified-operations/talent/index)
 
-# [Detailhandel](/dynamics365/operations/retail/index)
+# [Detailhandel](/dynamics365/unified-operations/retail/index)
 
-# [Ontwikkelaar en beheerder](/dynamics365/operations/dev-itpro/index)
+# [Ontwikkelaar en beheerder](/dynamics365/unified-operations/dev-itpro/index)
 
 # Overige bronnen
-## [Verklarende woordenlijst voor Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
-## [Wat is nieuw of gewijzigd](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Verklarende woordenlijst Finance and Operations](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+## [Wat is nieuw of gewijzigd](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 

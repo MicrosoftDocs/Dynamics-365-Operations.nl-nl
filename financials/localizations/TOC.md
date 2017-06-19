@@ -1,4 +1,4 @@
-# [Lokalisatie-overzicht](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Lokalisatie-overzicht](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Azië/Pacific
 ## Australië
 ### [Bankbestandsindelingen](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [De waarde van een vast activum voorafgaand aan verwerving boeken](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Postcodes](emea-import-create-postal-codes-manually.md)
 ## [Registratie-id's](emea-registration-ids.md)
+## [Omgekeerde toeslag](emea-reverse-charge.md)
 ## [Overzicht SEPA-kredietoverdracht](../accounts-payable/sepa-credit-transfer.md)
 ## [Overzicht SEPA-incasso](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Ondertekenaars voor afdrukbare formulieren instellen](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Journaallijstrapport](emea-deu-journal-list-report.md)
 ### [Een afzonderlijk label afdrukken voor creditnota's die voortvloeien uit verkopen](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Hongarije
-### [Afschrijvingsmethoden voor vaste activa](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Afschrijvingsmethoden voor vaste activa](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Vaste activa met lage kosten](emea-hun-low-cost-fixed-assets.md)
 ### [Vaste activa naar voorraad verplaatsen](emea-hun-fixed-asset-to-inventory.md)
 ## Italië
@@ -138,6 +139,7 @@
 ### [Herevaluatie van groepen voor vaste activa](emea-esp-fixed-asset-group-revaluation.md)
 ### [Intracommunautaire btw](emea-esp-intra-community-vat.md)
 ### [Eenmalige klanten](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Cheques afdrukken met een Spaanse indeling](emea-esp-print-checks-with-spanish-layout.md)
 ### [Opties voor promessen](emea-esp-promissory-note-options.md)
 ### [Verkoop- en inkoopcycli](emea-esp-sales-purchase-cycle.md)
 ### [Speciale boekingen en openingsbladen](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Belastingboeken](latam-bra-fiscal-books.md)
 #### [Belastingdocumenten voor ICMS-belasting](latam-bra-icms-tax-fiscal-documents.md)
 #### [Belastingdocumenten importeren](latam-bra-import-fiscal-documents.md)
+#### [Transacties van rechtspersoon exporteren en importeren uit grootboekconsolidatie](latam-bra-general-ledger-consolidation-transactions.md)
 #### [NF-e-XML-documenten en DANFE-bestanden importeren en controleren](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Elektronische overschrijvingen verwerken](latam-bra-process-electronic-payment-remittances.md)
 #### [Belastingdocumenten](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Tijdelijke aanduidingen voor tekst in belastingdocumenten](latam-bra-fiscal-document-text-placeholders.md)
 #### [Aanvullende belastingdocumenten voor inkoop](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Journalen die zijn gegenereerd tijdens het retourproces bij elektronische betaling](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [NF-e-proces](latam-bra-nf-e-process.md)
 ### [Parameters voor rechtspersonen](latam-bra-legal-entity-parameters.md)
+### [Een vast activum van CIAP aanschaffen](latam-bra-ciap-fixed-asset.md)
+### [Een vast activum van CIAP afstoten](latam-bra-ciap-fixed-asset.md)
 ### [Belastingen](latam-bra-calculate-taxes.md)
 #### [Belastingkenmerken](latam-bra-tax-attributes.md)
 #### [Belastingbetalingen](latam-bra-tax-payments.md)
