@@ -3,7 +3,7 @@ title: Hoofdplannen
 description: "U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

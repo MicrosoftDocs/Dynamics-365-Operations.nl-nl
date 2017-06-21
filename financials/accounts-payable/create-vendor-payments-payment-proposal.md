@@ -3,7 +3,7 @@ title: Leverancierbetalingen maken met behulp van een betalingsvoorstel
 description: Dit onderwerp geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken. Betalingsvoorstellen worden vaak gebruikt om leveranciersbetalingen te maken, omdat de query kan worden gebruikt om snel leveranciersfacturen voor betaling te selecteren op basis van criteria zoals vervaldatum en contantkorting.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

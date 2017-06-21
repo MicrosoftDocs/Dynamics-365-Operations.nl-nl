@@ -3,7 +3,7 @@ title: Nieuwe of gewijzigde functies in Dynamics AX versie 7.0.1 (mei 2016)
 description: In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie 7.0.1 nieuw of gewijzigd zijn. Deze versie werd uitgebracht in mei 2016 en heeft een buildnummer van 7.0.1265.23014.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

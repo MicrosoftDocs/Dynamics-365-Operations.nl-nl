@@ -3,7 +3,7 @@ title: Kostenwijzigingen simuleren via een kostprijsberekeningsversie voor gepla
 description: In dit artikel wordt uitgelegd hoe u de effecten van kostenwijzigingen op de berekende kosten van een gefabriceerd artikel simuleert met een aparte kostprijsberekeningsversie voor geplande kosten.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

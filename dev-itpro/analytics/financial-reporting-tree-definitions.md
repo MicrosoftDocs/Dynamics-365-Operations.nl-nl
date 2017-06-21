@@ -3,7 +3,7 @@ title: "Rapportagestructuurdefinities in financiële rapporten"
 description: "Dit artikel bevat informatie over rapportagestructuurdefinities. Een rapportagestructuurdefinitie is een rapportonderdeel, of bouwsteen, die helpt bij het definiëren van de structuur en de hiërarchie van uw organisatie."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

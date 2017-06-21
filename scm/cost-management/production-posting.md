@@ -3,7 +3,7 @@ title: Productieboeking
 description: Dit artikel bevat informatie over verschillende typen boekingen in het productieproces.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

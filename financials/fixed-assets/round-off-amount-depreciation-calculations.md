@@ -1,9 +1,9 @@
 ---
 title: Afgerond bedrag voor afschrijvingsberekeningen
-description: In dit artikel wordt het veld Afschrijving afronden besproken uit de pagina&quot;s Instellingen voor boeken.
+description: In dit artikel wordt het veld Afschrijving afronden besproken uit de pagina's Instellingen voor boeken.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

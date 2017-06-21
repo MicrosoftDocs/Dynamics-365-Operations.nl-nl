@@ -3,7 +3,7 @@ title: Afschrijvingseffecten met omkeringen
 description: In dit artikel worden mogelijke implicaties van het terugboeken van een vaste-activatransactie beschreven.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

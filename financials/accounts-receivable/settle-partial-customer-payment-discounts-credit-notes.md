@@ -1,9 +1,9 @@
 ---
-title: Een gedeeltelijke klantenbetaling vereffenen met kortingen op creditnota&quot;s
+title: Een gedeeltelijke klantenbetaling vereffenen met kortingen op creditnota's
 description: Dit artikel begeleidt u door een scenario waarbij een contantkorting op een creditnota wordt genomen wanneer de oorspronkelijke factuur ook een contantkorting had.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

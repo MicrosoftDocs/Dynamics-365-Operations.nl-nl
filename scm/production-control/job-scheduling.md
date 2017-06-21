@@ -3,7 +3,7 @@ title: Taakplanning
 description: Dit artikel biedt informatie over taakplanning. Dit is een gedetailleerdere vorm van planning dan bewerkingsplanning. U kunt taakplanning gebruiken om afzonderlijke taken of winkelorders te plannen en om de productieomgeving te beheren.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

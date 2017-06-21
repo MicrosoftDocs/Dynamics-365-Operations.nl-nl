@@ -3,7 +3,7 @@ title: "Gebruikersvoorkeuren in Ontwerper financiële rapporten"
 description: "In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aanpassen van uw gebruikersinteracties in Ontwerper financiële rapporten en de ervaring bij eerste aanmelding bepaalt. U kunt ook bepalen hoe afzonderlijke rapporten, de rapportbibliotheek en de standaardbestandslocaties worden weergegeven."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

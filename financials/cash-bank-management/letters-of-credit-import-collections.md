@@ -1,9 +1,9 @@
 ---
 title: "Kredietbrieven en importincasso´s"
-description: Dit artikel geeft algemene informatie over kredietbrieven en importincasso&quot;s. Beide typen bankdocumenten worden vaak gebruikt voor de inkoop en verkoop van goederen in binnen- en buitenland.
+description: Dit artikel geeft algemene informatie over kredietbrieven en importincasso's. Beide typen bankdocumenten worden vaak gebruikt voor de inkoop en verkoop van goederen in binnen- en buitenland.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

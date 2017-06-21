@@ -1,9 +1,9 @@
 ---
 title: Contantkorting voor te veel bedraagde betalingen verwerken
-description: Dit artikel biedt scenario&quot;s die laten zien hoe een betaling wordt uitgevoerd wanneer de klant een contantkorting neemt maar ook te veel betaalt.
+description: Dit artikel biedt scenario's die laten zien hoe een betaling wordt uitgevoerd wanneer de klant een contantkorting neemt maar ook te veel betaalt.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Kostengroepen
 description: Kostengroepen vormen de basis voor het segmenteren en analyseren van kostenbijdragen in de berekende kosten van een gefabriceerd artikel, zoals de kostenbijdragen voor materiaal, arbeid en overhead. Voor segmentatie van kostengroepen worden in de productieomgeving verschillende synoniemen gehanteerd, zoals kostenanalyse, kostenontleding of kostenclassificatie.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Productiefeedback
 description: Dit artikel bevat informatie over productiefeedback, die medewerkers feedback geeft over productietaken. Het artikel bevat informatie over de verschillende manieren waarop productiefeedback kan worden bijgewerkt.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

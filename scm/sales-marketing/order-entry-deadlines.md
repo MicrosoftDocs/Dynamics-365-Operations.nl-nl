@@ -3,7 +3,7 @@ title: Uiterste datums orderinvoer
 description: Dit artikel bevat informatie over uiterste datums voor orderinvoer. Een uiterste datum voor orderinvoer is een afsluittijd die bepaalt of een klantorder wordt behandeld (en uitgevoerd) als deze op de huidige dag of de volgende dag wordt ontvangen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

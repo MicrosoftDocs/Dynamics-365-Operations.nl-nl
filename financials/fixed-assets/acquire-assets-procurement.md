@@ -3,7 +3,7 @@ title: Activa aanschaffen via inkoop
 description: In dit artikel wordt beschreven hoe u de integratie instelt tussen Vaste activa en Leveranciers om automatisch vaste activa van inkooporders of leveranciersfacturen te maken of om automatisch verwervings- en verwervingscorrectietransacties voor vaste activa te boeken.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Materiaalverbruik berekenen
 description: Dit artikel bevat informatie over verschillende opties met betrekking tot de berekening van materiaalverbruik.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Processen voor kwaliteitsbeheer
 description: Dit artikel biedt informatie over het kwaliteitsbeheerproces voor niet-overeenkomende producten. Het beschrijft hoe u kwaliteitscontrolefunctionaliteit kunt gebruiken, hoe u niet-conformeringen definieert en beheert, en hoe u omgaat met correcties.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

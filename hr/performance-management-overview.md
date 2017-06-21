@@ -3,10 +3,10 @@ title: Overzicht Prestatiebeheer
 description: Met het prestatiebeheerproces kunnen werknemers hun prestaties met hun manager documenteren en bespreken. Managers kunnen vervolgens feedback en ondersteuning geven voor de werknemers.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

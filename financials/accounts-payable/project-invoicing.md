@@ -1,9 +1,9 @@
 ---
 title: Projectfacturering
-description: Dit artikel biedt een overzicht van projectfacturen voor tijd- en materiaalprojecten en projecten met een vaste prijs. Het bevat informatie over factuurvoorstellen (voorlopige facturen), factuurbeheer, a conto-facturering, leveranciersfacturering en creditnota&quot;s.
+description: Dit artikel biedt een overzicht van projectfacturen voor tijd- en materiaalprojecten en projecten met een vaste prijs. Het bevat informatie over factuurvoorstellen (voorlopige facturen), factuurbeheer, a conto-facturering, leveranciersfacturering en creditnota's.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

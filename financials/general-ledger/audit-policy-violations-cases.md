@@ -3,7 +3,7 @@ title: Overtredingen van controlebeleid en aanvragen
 description: In dit artikel wordt beschreven hoe controleaanvragen worden gegenereerd voor overtredingen van controlebeleidsregels. Het bevat ook informatie over de verschillende manieren waarop door controlebeleid wordt gebruikgemaakt van het datumbereik voor documentselectie.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

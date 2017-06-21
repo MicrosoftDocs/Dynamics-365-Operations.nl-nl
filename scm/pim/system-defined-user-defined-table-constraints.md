@@ -3,7 +3,7 @@ title: Tabelbeperkingen door de gebruiker of door het systeem gedefinieerd
 description: "Dit artikel beschrijft de twee typen tabelbeperkingen voor onderdelen in een productconfiguratiemodel: gedefinieerd door de gebruiker en gedefinieerd door het systeem. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

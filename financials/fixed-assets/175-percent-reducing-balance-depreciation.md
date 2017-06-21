@@ -3,7 +3,7 @@ title: Degressieve afschrijving van 175 procent
 description: Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 175 procent.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

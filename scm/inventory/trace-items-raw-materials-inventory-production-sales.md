@@ -3,7 +3,7 @@ title: Artikelen en grondstoffen in voorraad, productie en verkoop traceren
 description: Dit onderwerp beschrijft hoe u artikeltracering kunt gebruiken om te bepalen waar de artikelen of de grondstoffen zijn gebruikt, worden gebruikt, of gebruikt gaan worden in productie- en verkoopprocessen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

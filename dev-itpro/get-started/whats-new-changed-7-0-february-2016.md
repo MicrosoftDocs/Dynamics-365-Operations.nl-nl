@@ -3,7 +3,7 @@ title: Nieuwe of gewijzigde functies in Dynamics AX 7.0 (februari 2016)
 description: In dit artikel worden de functies beschreven die in de huidige uitgave van Microsoft Dynamics AX 7.0 nieuw of gewijzigd zijn. Deze versie bevat zowel platform- als toepassingsfuncties en werd uitgebracht in februari 2016.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

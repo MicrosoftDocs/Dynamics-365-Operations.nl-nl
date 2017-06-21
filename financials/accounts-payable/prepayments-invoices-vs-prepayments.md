@@ -3,7 +3,7 @@ title: Vooruitbetalingsfacturen versus vooruitbetalingen
 description: "Dit artikel beschrijft en vergelijkt de twee methoden met elkaar start die de organisaties voor voorschotten (vooruitbetalingen) gebruiken. Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

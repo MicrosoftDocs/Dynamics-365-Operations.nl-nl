@@ -3,7 +3,7 @@ title: Tijd toewijzen aan taken in een takenbundel
 description: In Productie-uitvoering kunt u taken bundelen. U kunt meerdere taken tegelijk starten op de pagina Taaklijst.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

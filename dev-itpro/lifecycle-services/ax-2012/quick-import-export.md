@@ -3,7 +3,7 @@ title: Snelle import/export gebruiken
 description: Het doel van snelle import/export is om u in staat te stellen met minder stappen te importeren en exporteren.
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
 ms.service: 

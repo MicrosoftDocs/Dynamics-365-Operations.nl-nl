@@ -3,7 +3,7 @@ title: Updates voor standaardkosten beheren
 description: "Updates van standaardkostengegevens kunnen worden beheerd met twee verschillende benaderingen: de benadering met één versie en de benadering met twee versies."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

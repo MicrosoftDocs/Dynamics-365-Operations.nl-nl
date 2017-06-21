@@ -3,7 +3,7 @@ title: Weergave-instellingen voor mobiel apparaat magazijn
 description: In dit artikel wordt beschreven hoe u het uiterlijk van het scherm van een mobiel apparaat instelt en snelkoppelingen koppelt aan besturingselementen, zoals knoppen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

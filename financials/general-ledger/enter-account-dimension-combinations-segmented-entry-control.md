@@ -3,7 +3,7 @@ title: Account- en dimensiecombinaties invoeren (gesegmenteerd invoerbesturingse
 description: In dit artikel wordt beschreven hoe u combinaties van rekeningen en dimensies of grootboekrekeningen invoert. Deze invoerervaring wordt ook wel gesegmenteerd invoerbestuur genoemd.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
