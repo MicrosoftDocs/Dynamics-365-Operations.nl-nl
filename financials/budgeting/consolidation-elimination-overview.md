@@ -3,7 +3,7 @@ title: Overzicht van consolidatie en schrapping
 description: Dit artikel geeft algemene informatie over het consolidatie- en schrappingsproces. Het bevat antwoorden op enkele veelgestelde vragen.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

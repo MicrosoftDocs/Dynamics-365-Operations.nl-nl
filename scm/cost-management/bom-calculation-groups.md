@@ -3,7 +3,7 @@ title: Stuklijstberekeningsgroepen
 description: Dit artikel bevat informatie over berekeningsgroepen voor stuklijsten en het instellen hiervan. Als u een stuklijstberekening wilt uitvoeren, moet u berekeningsgroepen instellen en deze toewijzen aan afzonderlijke artikelen, of een standaardberekeningsgroep instellen. De berekeningsinstellingen van de berekeningsgroep worden vervolgens gebruikt als standaardwaarden op de pagina Sstuklijstberekening op het moment van de berekening van de stuklijst.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

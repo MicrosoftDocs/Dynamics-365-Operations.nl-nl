@@ -3,7 +3,7 @@ title: "Kostencategorieën die worden gebruikt in Productiebeheer en in Projectb
 description: "Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. Dit artikel bevat informatie over de kostencategorieën die u voor deze soorten productiewerk voor productie- en projectdoeleinden moet definiëren."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

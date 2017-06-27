@@ -3,7 +3,7 @@ title: Afschrijving vaste activa
 description: Dit onderwerp bevat een overzicht van de afschrijving van vaste activa.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

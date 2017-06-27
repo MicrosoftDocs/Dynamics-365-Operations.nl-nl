@@ -3,7 +3,7 @@ title: Voorraad sluiten
 description: Als onderdeel van het proces voor uitgiftetransacties met ontvangsttransacties te vereffenen, kunt u ook het grootboek bijwerken om de aangebrachte correcties weer te geven.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

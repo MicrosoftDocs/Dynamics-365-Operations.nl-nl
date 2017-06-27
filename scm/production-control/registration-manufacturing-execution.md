@@ -3,7 +3,7 @@ title: Registratie voor Productieregistratie-uitvoering
 description: In dit onderwerp worden belangrijke concepten en termen beschreven, die u moet kennen om de productieregistratie te configureren en te gebruiken.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

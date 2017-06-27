@@ -3,7 +3,7 @@ title: Werkruimten configureren en filteren
 description: Dit artikel biedt een overzicht van de wijze waarop u werkruimten configureert en filtert.
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

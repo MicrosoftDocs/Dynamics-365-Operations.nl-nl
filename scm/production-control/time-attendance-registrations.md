@@ -3,13 +3,14 @@ title: Tijd- en aanwezigheidsregistratie
 description: Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit artikel beschrijft registraties, hun berekening, goedkeuring, en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f

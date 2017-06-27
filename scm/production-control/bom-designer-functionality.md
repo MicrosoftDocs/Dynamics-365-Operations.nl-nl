@@ -3,7 +3,7 @@ title: De functionaliteit van de stuklijstontwikkelaar
 description: In dit artikel wordt beschreven hoe u de pagina Stuklijstontwikkelaar kunt gebruiken om stuklijststructuren te ontwerpen en te gebruiken. U kunt op Instellingen klikken om verschillende configuraties te selecteren en te selecteren welke informatie wordt weergegeven op de regels van de structuur.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

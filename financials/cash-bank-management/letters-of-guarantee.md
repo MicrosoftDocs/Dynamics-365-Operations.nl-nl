@@ -3,7 +3,7 @@ title: Garantiebrieven
 description: Dit artikel bevat informatie over borgstellingen. In een borgstelling gaat een bank akkoord om een specifiek bedrag aan een persoon te betalen als een van de klanten van de bank in gebreke blijft voor een betaling aan of verplichting ten opzichte van die persoon.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

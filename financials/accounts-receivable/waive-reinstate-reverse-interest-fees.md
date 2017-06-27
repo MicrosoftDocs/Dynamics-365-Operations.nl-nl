@@ -3,7 +3,7 @@ title: Rentekosten kwijtschelden, opnieuw invoeren of omkeren
 description: In dit artikel wordt beschreven hoe toeslagen voor rente en bijzondere kosten kunnen worden kwijtgescholden, opnieuw ingevoerd en omgekeerd.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Terugkerende facturen instellen en verwerken
 description: In dit artikel wordt beschreven hoe u terugkerende facturen instelt en verwerkt. U kunt terugkerende facturen gebruiken als u klanten regelmatig voor hetzelfde bedrag moet factureren.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

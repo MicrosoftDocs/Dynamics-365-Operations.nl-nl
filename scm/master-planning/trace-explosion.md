@@ -3,7 +3,7 @@ title: Tracering gebruiken voor explosie
 description: In dit artikel wordt uitgelegd hoe u tracering kunt gebruiken om de oorzaken achter het resultaat van een orderexplosie te onderzoeken.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

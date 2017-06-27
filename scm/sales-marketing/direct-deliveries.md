@@ -3,7 +3,7 @@ title: Directe leveringen
 description: Dit artikel bevat informatie over directe leveringen. Directe leveringen zijn leveringen die rechtstreeks van de leverancier naar uw klant worden verzonden.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

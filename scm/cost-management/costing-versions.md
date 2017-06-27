@@ -3,7 +3,7 @@ title: Kostprijsberekeningsversies
 description: "Dit artikel bevat informatie over kostprijsberekeningsversies, hoe u deze onderhoudt en de typen gegevens die u hierin kunt opnemen. Een kostprijsberekeningsversie is primair bedoeld om kostenrecords te bevatten over artikelen, kostencategorieën en berekeningsformules voor indirecte kosten."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

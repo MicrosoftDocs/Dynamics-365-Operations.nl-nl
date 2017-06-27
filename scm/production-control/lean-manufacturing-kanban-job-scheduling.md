@@ -3,7 +3,7 @@ title: Planning van kanbantaken voor lean manufacturing
 description: Dit artikel biedt informatie over visuele controle over de planning van kanbantaken en diverse manieren om kanbantaken te plannen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

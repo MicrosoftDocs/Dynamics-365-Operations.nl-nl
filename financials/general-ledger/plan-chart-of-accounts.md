@@ -3,7 +3,7 @@ title: Uw rekeningschema plannen
 description: Dit artikel bevat informatie waarmee u het rekeningschema voor uw organisatie kunt plannen.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

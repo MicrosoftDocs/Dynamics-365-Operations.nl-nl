@@ -3,7 +3,7 @@ title: Klanten en Crediteringen en aanmaningen configureren
 description: Configureer Klanten en Crediteringen en aanmaningen om facturen en binnenkomende betalingen van klanten bij te houden.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

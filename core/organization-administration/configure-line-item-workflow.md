@@ -3,7 +3,7 @@ title: Een workflow voor regelartikelen configureren
 description: In dit onderwerp wordt uitgelegd hoe u een workflowelement voor regelartikelen configureert.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

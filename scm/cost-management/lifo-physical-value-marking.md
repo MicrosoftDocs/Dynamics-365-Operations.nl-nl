@@ -3,7 +3,7 @@ title: LIFO met fysieke waarde en markering
 description: LIFO (Last in, First out) is een voorraadmodel waarin de laatste (nieuwste) ontvangsten het eerst worden uitgegeven. Uitgiften uit de voorraad worden vereffend met de laatste ontvangsten in de voorraad op basis van de datum van de voorraadtransactie.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

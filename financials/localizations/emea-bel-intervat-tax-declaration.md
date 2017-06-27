@@ -16,7 +16,7 @@ ms.custom: 273023
 ms.search.region: Belgium
 ms.search.industry: All
 ms.author: v-oloski
-ms.dyn365.ops.intro: AX 7.0.1
+ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: Human Translation
 ms.sourcegitcommit: fd42fe23b30fe163a003614d6cbe9ff24ae38c5d

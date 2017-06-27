@@ -3,7 +3,7 @@ title: Hoofdrekeningtypen
 description: De typen hoofdrekeningen bepalen hoe een hoofdrekening wordt gebruikt in het rekeningschema.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

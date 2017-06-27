@@ -3,7 +3,7 @@ title: Grootboekrekeningsaldi
 description: "In dit artikel worden twee manieren beschreven waarop u grootboekrekeningsaldi kunt weergeven: de lijstpagina met proefbalansen en financiële rapporten. Daarnaast wordt aangegeven hoe u dimensiesetsaldi bijwerkt."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

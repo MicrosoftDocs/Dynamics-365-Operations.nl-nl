@@ -9,13 +9,12 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.1, Operations, Core
 ms.custom: 273103
-ms.assetid: 7f300068-6004-4a5f-9817-5bf22ef633a6
 ms.search.region: Belgium
 ms.author: ShylaThompson
-ms.dyn365.ops.intro: AX 7.0.1
+ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

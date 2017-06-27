@@ -3,7 +3,7 @@ title: Opties voor vaste-activatransacties
 description: In dit artikel worden de beschikbare methoden vor het maken van vaste-activatransacties beschreven.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

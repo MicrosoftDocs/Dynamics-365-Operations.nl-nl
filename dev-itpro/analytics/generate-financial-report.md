@@ -3,7 +3,7 @@ title: Een financieel rapport maken
 description: Dit onderwerp biedt informatie over het genereren van een financieel rapport.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

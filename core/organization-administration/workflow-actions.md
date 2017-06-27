@@ -3,7 +3,7 @@ title: Workflowacties
 description: In dit artikel worden de acties beschreven die elke deelnemer in een goedkeuringsproces kan uitvoeren.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

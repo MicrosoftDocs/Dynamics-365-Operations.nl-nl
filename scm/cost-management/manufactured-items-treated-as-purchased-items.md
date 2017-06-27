@@ -3,7 +3,7 @@ title: Producten instellen die kunnen worden geproduceerd of kunnen worden aange
 description: 'Producten kunnen verschillende bronnen hebben: ze kunnen worden geproduceerd of worden aangeschaft (ingekocht). Dit artikel beschrijft sommige algemene punten om na te gaan wanneer u producten configureert om multi-sourcing te ondersteunen.'
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

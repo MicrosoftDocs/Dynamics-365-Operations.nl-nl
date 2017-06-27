@@ -3,7 +3,7 @@ title: Journaalboekingen en transacties weergeven
 description: In dit artikel worden de verschillende manieren beschreven waarop u journaalposten en transacties kunt weergeven.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Overzicht van inkoopbeheer
 description: Dit artikel bevat een overzicht van de functionaliteit die in de module Inkoop en sourcing beschikbaar is.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -1,9 +1,9 @@
 ---
-title: Offerteaanvragen (RFQ&quot;s)
+title: Offerteaanvragen (RFQ's)
 description: In dit artikel wordt een overzicht gegeven van offerteaanvragen, die organisaties uitgeven wanneer ze artikelen of services moeten aanschaffen en daarvoor concurrerende aanbiedingen van verschillende leveranciers willen ontvangen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft. U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

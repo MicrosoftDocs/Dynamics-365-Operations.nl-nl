@@ -3,7 +3,7 @@ title: Standaardkostprijsconversie - Overzicht
 description: Dit artikel geeft een procesoverzicht om u te helpen bij het instellen en uitvoeren van een standaardkostprijsconversie. De genoemde stappen zijn bedoeld om te worden voltooid nadat u de vereisten voor een standaardkostprijsconversie hebt voltooid.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

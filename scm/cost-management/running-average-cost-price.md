@@ -3,7 +3,7 @@ title: Lopend gemiddelde kostprijs
 description: Met het proces voor het afsluiten van voorraden worden uitgiftetransacties vereffend met ontvangsttransacties op basis van de methode voor het waarderen van voorraden die in de artikelmodelgroep van het artikel is geselecteerd. Voordat de voorraadafsluiting wordt uitgevoerd, wordt echter een lopend gemiddelde kostprijs berekend die in de meeste gevallen wordt gebruikt voor het boeken van uitgiftetransacties.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

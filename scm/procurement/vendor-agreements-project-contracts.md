@@ -3,7 +3,7 @@ title: Leveranciersovereenkomsten voor betalen bij betaling
 description: In dit artikel worden voorwaarden voor betalen bij betaling voor leveranciersovereenkomsten uitgelegd. Op basis van voorwaarden voor betalen bij betaling kunt u de betaling aan een leverancier volledig of gedeeltelijk inhouden tot de klant voor het project u betaalt. Dit artikel biedt ook een praktijkvoorbeeld om aan te geven hoe u voorwaarden voor betalen bij betaling voor een project kunt gebruiken.
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

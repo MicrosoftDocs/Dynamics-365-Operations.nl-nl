@@ -1,9 +1,9 @@
 ---
-title: Een gedeeltelijke leverancierbetaling vereffenen met kortingen op creditnota&quot;s van de leverancier
+title: Een gedeeltelijke leverancierbetaling vereffenen met kortingen op creditnota's van de leverancier
 description: Dit artikel begeleidt u door een scenario waarin een creditnota voor een factuur wordt vereffend.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

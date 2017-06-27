@@ -3,7 +3,7 @@ title: Vaste activa groepsgewijs bijwerken
 description: Als u boeken gebruikt, kunt u de afschrijvingsconventies voor groepen activa wijzigen die deel uitmaken van hetzelfde boek.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

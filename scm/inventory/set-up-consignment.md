@@ -3,7 +3,7 @@ title: Consignatie instellen
 description: In dit onderwerp wordt uitgelegd hoe u bewerkingen voor inkomende consignatievoorraad configureert.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

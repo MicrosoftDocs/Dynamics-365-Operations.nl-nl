@@ -3,7 +3,7 @@ title: Vervangingskosten en verzekerde waarden voor vaste-activagroepen herberek
 description: In dit artikel wordt het proces toegelicht voor het bijwerken van de vervangingskosten en verzekerde waarden van vaste activa.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

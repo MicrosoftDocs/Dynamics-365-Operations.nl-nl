@@ -3,7 +3,7 @@ title: Startpagina Vaste activa
 description: Vaste activa zijn waardevolle zaken, bijvoorbeeld gebouwen, voertuigen, grond en apparatuur, die het eigendom zijn van een persoon of organisatie.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

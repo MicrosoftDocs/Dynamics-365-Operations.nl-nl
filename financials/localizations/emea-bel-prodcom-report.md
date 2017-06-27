@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: IntrastatToProdcom, InventProdComLineDetail, InventProdComLineWithCode, InventProdComParameters, InventProdComTable
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264804
-ms.assetid: b9c3b605-13fd-4764-9f7a-8d4a797297e0
 ms.search.region: Belgium
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
