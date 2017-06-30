@@ -1,15 +1,15 @@
 ---
 title: Startpagina BI en rapportage
-description: Dit onderwerp pagina biedt een overzicht van resources die beschikbaar zijn voor BI en rapportage in Microsoft Dynamics 365 for Operations.
+description: Dit onderwerp biedt een overzicht van resources die beschikbaar zijn voor BI en rapportage in Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit onderwerp pagina biedt een overzicht van resources die beschikbaar zijn voor BI en rapportage in Microsoft Dynamics 365 for Operations. 
+Dit onderwerp biedt een overzicht van resources die beschikbaar zijn voor BI en rapportage in Microsoft Dynamics 365 for Finance and Operations. 
 
 <a name="working-with-aggregate-data"></a>Werken met samengevoegde gegevens
 ---------------------------
@@ -43,22 +43,22 @@ Dit onderwerp pagina biedt een overzicht van resources die beschikbaar zijn voor
 ## <a name="self-service-reporting"></a>Self-service rapportage
 -   [Power BI-integratie](power-bi-integration.md)
 -   [Power BI-integratie voor werkgebieden configureren](configure-power-bi-integration.md)
--   [Een Power BI-rapport maken met Microsoft Dynamics 365 for Operations-gegevens](create-powerbi-report-data.md)
+-   [Een Power BI-rapport maken met Microsoft Dynamics 365 for Finance and Operations-gegevens](create-powerbi-report-data.md)
 -   [Een Power BI-rapport en -dashboard maken](create-powerbi-report-dashboard.md)
 -   [Power BI-inhoud over prestaties voor detailhandelafzetkanaal](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Power BI-inhoud over financiële prestaties](financial-performance-power-bi-content-pack.md)
 -   [Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid](sales-profitability-performance-content-pack.md)
--   [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Dynamics 365 for Operations te voorzien](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Finance and Operations te voorzien](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Ingesloten analytische ervaringen inbouwen in de Dynamics 365 for Operations-client
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Ingesloten analytische ervaringen inbouwen in de Finance and Operations-client
 -   [Ingesloten BI](analytics.md#embedded-business-intelligence)
 -   [Modellering en aanpassing van KPI's](analytics.md#kpi-modeling-and-customization)
 -   [BI toevoegen aan werkgebieden](add-bi-workspaces.md)
 -   [Contextuele BI toevoegen aan formulieren](add-contextual-bi-forms.md)
 
 ## <a name="document-reporting-and-printing"></a>Documenten rapporteren en afdrukken
--   [Overzicht van documentrapporteservices](document-reporting-services.md)
--   [Afdrukken in toepassingen van Dynamics 365 for Operations](print-documents.md)
+-   [Overzicht van documentrapportservices](document-reporting-services.md)
+-   [Afdrukken in toepassingen van Finance and Operations](print-documents.md)
 -   [De documentrouteringsagent installeren om netwerkprinterapparatuur in te schakelen](install-document-routing-agent.md)
 -   [De documentrouteringsagent uitvoeren als Windows-service](run-document-routing-agent-as-windows-service.md)
 -   [Zeer geavanceerde rapportageoplossingen maken](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ Dit onderwerp pagina biedt een overzicht van resources die beschikbaar zijn voor
 -   [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md)
 -   [Bestemmingen van elektronische rapportage](electronic-reporting-destinations.md)
 -   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Dynamics 365 for Operations te voorzien](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Finance and Operations te voorzien](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [ER Een configuratieprovider maken en deze als actief markeren](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (taakbegeleiding)
 -   [ER Domeinspecifiek gegevensmodel ontwerpen](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (taakbegeleiding)
 -   [ER Modeltoewijzing definiëren en gegevensbronnen selecteren](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (taakbegeleiding)
