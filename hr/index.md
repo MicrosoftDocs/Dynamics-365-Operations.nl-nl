@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,18 +32,19 @@ ms.lasthandoff: 06/21/2017
 
 Microsoft Dynamics 365 for Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn werknemerwerving en behoud, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer. Het biedt tevens een kader voor het personeel van Human resources voor het beheren van gebieden van toezicht.
 
-Dynamics 365 for Talent hangt nauw samen met Human Resources in Dynamics 365 for Finance and Operations, Enterprise Edition. Dezelfde functionaliteit kan in beide producten voorkomen. In onderwerpen die hoofdzakelijk zijn gerelateerd aan Human Resources, wordt de productnaam Dynamics 365 for Finance and Operations, Enterprise Edition gebruikt, terwijl in onderwerpen die voornamelijk betrekking hebben op Talent, de productnaam Dynamics 365 for Talent is. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
-
 Met Talent kunt u deze taken uitvoeren:
 
-> + Organisatiestructuren beheren.
-> + Uitgebreide werknemersinformatie bijhouden van aanstelling tot pensionering.
-> + Vergoedingsplannen definiëren en toepassen, werknemers inschrijven, afhankelijkheidsdekking toewijzen en begunstigden aangeven.
-> + Verzuimbeleid opstellen en bewaken.
-> + Tijdbeheer op profielbasis implementeren en volgen en betalingsinformatie genereren om naar een salarissysteem te exporteren.
-> + Werknemerscompetenties beheren.
-> + Prestaties beoordelen en werknemersdoelstellingen implementeren.
-> + Interne trainingscursussen, waaronder agenda's, sessies en paden, instellen, afleveren en analyseren.
++ Organisatiestructuren beheren.
++ Uitgebreide werknemersinformatie bijhouden van aanstelling tot pensionering.
++ Vergoedingsplannen definiëren en toepassen, werknemers inschrijven, afhankelijkheidsdekking toewijzen en begunstigden aangeven.
++ Verzuimbeleid opstellen en bewaken.
++ Tijdbeheer op profielbasis implementeren en volgen en betalingsinformatie genereren om naar een salarissysteem te exporteren.
++ Werknemerscompetenties beheren.
++ Prestaties beoordelen en werknemersdoelstellingen implementeren.
++ Interne trainingscursussen, waaronder agenda's, sessies en paden, instellen, afleveren en analyseren.
+
+> [!NOTE] 
+> Dynamics 365 for Talent hangt nauw samen met Human Resources in Dynamics 365 for Finance and Operations, Enterprise Edition. Dezelfde functionaliteit kan in beide producten voorkomen. In onderwerpen die hoofdzakelijk zijn gerelateerd aan Human Resources, wordt de productnaam Dynamics 365 for Finance and Operations, Enterprise Edition gebruikt, terwijl in onderwerpen die voornamelijk betrekking hebben op Talent, de productnaam Dynamics 365 for Talent is. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Een strategie ontwikkelen voor het beheren van human resources
 ---------------------------------------------------------

@@ -6,22 +6,21 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
-ms.assetid: 2e299a38-16e5-474e-b993-d88cebfadca0
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: 25a9885a31871a19285cdd30987e3d1caa99bc04
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -54,6 +53,9 @@ De volgende bronnen bevatten informatie over geplande en nieuwe lokalisatiefunct
 -   [Communicatie over opvolging van en updates in regelgeving](regulatory-watch-communication.md)
 -   [Microsoft informeren over waarschuwingen voor land-/regiospecifieke voorschriften en de status van wettelijk voorgeschreven functies bijhouden](submit-localization-alerts.md)
 
+### <a name="dynamics-365-roadmap"></a>Dynamics 365-routekaart
+De [Dynamics 365-routekaart](https://roadmap.dynamics.com/) biedt een momentopname van waar wij aan werken. Gebruik deze routekaart om te bekijken wat er algemeen beschikbaar wordt gesteld en wat er in ontwikkeling is. Alle datums en functies die in ontwikkeling zijn, zijn voorlopig, gebaseerd op huidige verwachtingen en kunnen zonder voorafgaande kennisgeving worden gewijzigd.
+
 ## <a name="electronic-reporting"></a>Elektronische rapportage
 Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor elektronische documenten configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Met ER kunt u deze indelingen beheren gedurende hun hele levenscyclus. Raadpleeg een van de volgende onderwerpen voor meer informatie:
 -   [Overzicht van elektronische rapportage](../analytics/general-electronic-reporting.md)
@@ -62,7 +64,9 @@ Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor ele
 -   [De lijst met functies voor elektronische rapportage uitbreiden](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Bestemmingen van elektronische rapportage](../analytics/electronic-reporting-destinations.md)
 -   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Configuraties van elektronische rapportage importeren](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Elektronische aangifte configureren om gegevens op te halen in Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektronische documenten genereren en toepassingsgegevens bijwerken via het hulpmiddel voor elektronische aangifte](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Taakbegeleidingen
 Taakbegeleidingen zijn beschikbaar vanuit het Help-venster van het product en bieden een begeleid overzicht van belangrijke bedrijfsprocessen. U kunt een taakbegeleiding openen om de stappen van een bedrijfsproces Te lezen of u kunt een taakbegeleiding afspelen om een bedrijfsproces te doorlopen en gegevens in te voeren.
@@ -83,9 +87,10 @@ De volgende secties bevatten resources per land/regio.
 
 ### <a name="austria"></a>Oostenrijk
 
--   [Halfjaarlijkse afschrijvingen](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
--   [Bijzondere verpakkingsmateriaalkosten](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
--   [Btw-overzicht](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [Halfjaarlijkse afschrijvingen](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
+- [Bijzondere verpakkingsmateriaalkosten](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
+- [Inkoopheffingen](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
+- [Btw-overzicht](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>België
 
@@ -130,7 +135,6 @@ De volgende secties bevatten resources per land/regio.
 -   [Halfjaarlijkse afschrijving op de afstoting van vaste activa voor Tsjechië](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
 -   [Opschorting van afschrijvingen (vakantie)](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
 -   [Afschrijvingsmethoden voor vaste activa voor Tsjechië](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
-
 -   [De waarde van een vast activum voorafgaand aan verwerving boeken](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Btw-overzicht voor Tsjechië](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Btw-aangifte ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
@@ -144,30 +148,39 @@ De volgende secties bevatten resources per land/regio.
 -   [Afstoting van vaste activa](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 
 ### <a name="europe"></a>Europa
--   [Voorschothouders](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
--   [Factuur-id's op verkooporders bewerken](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
--   [EU-invoercertificaten](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
--   [Rapport ICL-lijst](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
--   [Aanpassingen wisselkoers](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
--   [Bestandsindelingen voor betalingsmethoden](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
--   [Afstoting van vaste activa voor Estland en Litouwen](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
--   [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
--   [Factuur- en pakbonnummering voor Letland en Litouwen](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Deadlines voor uitgeven van facturen](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
--   [OIOUBL-standaarden](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
--   [Rapport betaalbon](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
--   [Kleine kas](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
--   [De waarde van een vast activum voorafgaand aan verwerving boeken](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [Postcodes](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
--   [Registratie-id's](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
--   [Overzicht SEPA-kredietoverdracht](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
--   [Overzicht SEPA-incasso](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
--   [Ondertekenaars voor afdrukbare formulieren instellen](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Gesplitste perioden in periodieke journalen](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
--   [Btw-wisselkoersen](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
--   [Btw-aangifte voor Europa](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
--   [Transacties weergeven bij vereffening](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [Voorschothouders](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
+- [Voorschothoudertransacties](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
+- [Geavanceerde facturering](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
+- [Bankafstemming](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
+- [Correctieve facturering](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
+- [Periodieke journalen maken en boeken](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
+- [Factuur-id's op verkooporders bewerken](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
+- [EU-invoercertificaten](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
+- [Rapport ICL-lijst](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
+- [Aanpassingen wisselkoers](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
+- [Bestandsindelingen voor betalingsmethoden](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
+- [Afstoting van vaste activa voor Estland en Litouwen](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
+- [Voorraadjournaalrapporten](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
+- [Factuur- en pakbonnummering voor Letland en Litouwen](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+- [Deadlines voor uitgeven van facturen](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+- [OIOUBL-standaarden](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
+- [Rapport betaalbon](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
+- [Kleine kas](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
+- [De waarde van een vast activum voorafgaand aan verwerving boeken](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
+- [Postcodes](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
+- [Registratie-id's](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
+- [Terugboekingen](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
+- [Overzicht SEPA-kredietoverdracht](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
+- [Overzicht SEPA-incasso](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
+- [Compensatie voor klanten en leveranciers instellen](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
+- [Ondertekenaars voor afdrukbare formulieren instellen](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Belastinginstructies](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
+- [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
+- [Btw-wisselkoersen](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
+- [Transacties vastleggen in btw-register voor Oost-Europa](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
+- [Btw-rapportage](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
+- [Transacties weergeven bij vereffening](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
 
 ### <a name="france"></a>Frankrijk
 -   [Chronologische factuur- en boekstuknummers](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -180,6 +193,7 @@ De volgende secties bevatten resources per land/regio.
 #### <a name="public-sector"></a>Openbare sector
    -   [Toezeggingen in de openbare sector](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
    -   [Mandats de paiement in de openbare sector](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
+   -   [Inkoopbeheer](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
    -   [Rekeningen voor de openbare sector](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
    -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Betalingsaanhoudingen leveranciersfacturen](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
@@ -205,22 +219,21 @@ De volgende secties bevatten resources per land/regio.
 -   [Datumverificatie van pakbon op facturen voor Italië](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Italiaanse btw-boeken](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
 -   [Betalingen splitsen voor facturen die zijn uitgegeven aan overheidsdiensten](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [Bronbelasting](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax)
+-   [Bronbelasting](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
 
 ### <a name="japan"></a>Japan
 
--   [Bankbetalingskosten die door leveranciers worden gedekt](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--   [Geconsolideerde facturen](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
-
-#### <a name="fixed-assets"></a>Vaste activa
-   -  [Toewijzingsregels voor vaste activa](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
-   -  [Gelijkelijk verdeelde afschrijvingsmethode](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
-   -  [Afschrijving vaste activa](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
-   -  [Beheer van gebrek van vaste activa bij kasstroomgenererende eenheid](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
-   -  [Verplichting tot pensionering voor vaste activa instellen](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
-   -  [Reductieboekingen voor vaste activa instellen](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--   [Een leverancier betalen door goedkeuring van een wissel](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--   [Progressieve berekening van bronbelasting](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [Bankbetalingskosten die door leveranciers worden gedekt](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
+-  [Geconsolideerde facturen](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
+-  [Toewijzingsregels voor vaste activa](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
+-  [Gelijkelijk verdeelde afschrijvingsmethode](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
+-  [Afschrijving vaste activa](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
+-  [Beheer van gebrek van vaste activa bij kasstroomgenererende eenheid](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
+-  [Postcodes importeren](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
+-  [Verplichting tot pensionering voor vaste activa instellen](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
+-  [Reductieboekingen voor vaste activa instellen](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
+-  [Een leverancier betalen door goedkeuring van een wissel](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
+-  [Progressieve berekening van bronbelasting](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
 
 ### <a name="latvia"></a>Letland
 
@@ -254,6 +267,7 @@ De volgende secties bevatten resources per land/regio.
 ### <a name="norway"></a>Noorwegen
 
 -   [Importindeling Nets](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
+-   [Btw-overzicht](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
 
 ### <a name="poland"></a>Polen
 
@@ -291,6 +305,7 @@ De volgende secties bevatten resources per land/regio.
 ### <a name="sweden"></a>Zweden
 
 -   [Betalingsindelingen voor Zweden importeren](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [Kassa's voor Zweden](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
 
 ### <a name="switzerland"></a>Zwitserland
 
