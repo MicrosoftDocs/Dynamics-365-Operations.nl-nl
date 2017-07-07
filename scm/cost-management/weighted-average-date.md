@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Datum gewogen gemiddelde
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Datum gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het beginsel van gewogen gemiddelden. Voor het principe van gewogen gemiddelden, worden uitgiften uit de voorraad gewaardeerd tegen de gemiddelde waarde van de artikelen die zijn ontvangen in de voorraad voor elke dag in de periode van de eindvoorraad. Wanneer u een voorraad afsluit met een datum gewogen gemiddelde, worden alle dagelijkse ontvangsten vereffend met een virtuele uitgifte. Deze virtuele uitgifte omvat de totale hoeveelheid die is ontvangen en de waarde voor die dag. De virtuele uitgifte heeft een bijbehorende virtuele ontvangst waarmee de uitgiften worden vereffend. Daarom hebben alle uitgiften dezelfde gemiddelde kosten. De virtuele uitgifte en virtuele ontvangst kunnen worden gezien als virtuele overboeking, die ook wel een *overboeking van gewogen gemiddelde eindvoorraad* wordt genoemd. 
