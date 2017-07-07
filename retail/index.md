@@ -80,8 +80,8 @@ Met Retail kunnen winkelmanagers ploegen en roosters maken en publiceren voor de
 
 Winkelmedewerkers krijgen inzicht in ploegen en toegewezen roosters, ontvangen instructies voor de ploegen en weten welke collega's zijn toegewezen aan ploegendiensten. Ze kunnen verlofaanvragen indienen, verzoeken om diensten te ruilen met collega's en diensten aanbieden.
 
-## <a name="customize-and-administer-retail-environments"></a>Detailhandelomgevingen aanpassen en beheren
-Als u bent gevraagd om uw omgeving aan te passen, of als u verantwoordelijk bent om het systeem te implementeren en te onderhouden, bekijkt u de inhoud voor ontwikkelaars en systeembeheerders die speciaal is bedoeld voor de detailhandel, evenals de meer algemene inhoud.
+## <a name="customize-and-administer-retail-environments"></a>Retail-omgevingen aanpassen en beheren
+Als u bent gevraagd om uw omgeving aan te passen, of als u verantwoordelijk bent om het systeem te implementeren en te onderhouden, bekijkt u de inhoud voor ontwikkelaars en systeembeheerders die speciaal is bedoeld voor Retail, evenals de meer algemene inhoud.
 
 - [Dynamics 365 for Retail voor IT-professionals en ontwikkelaars](dev-itpro/dev-retail-home-page.md)
 - [Microsoft Dynamics 365 for Retail IT-professionals en ontwikkelaars](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)

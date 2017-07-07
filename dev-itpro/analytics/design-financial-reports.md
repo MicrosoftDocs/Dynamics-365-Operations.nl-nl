@@ -1,16 +1,16 @@
 ---
 title: "Financiële rapporten weergeven en ontwerpen"
-description: "Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Operations kunt weergeven en maken."
+description: "Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Finance and Operations kunt weergeven en maken."
 author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1c0787327830d2cdff9e8a48798165dc83493393
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Operations kunt weergeven en maken. Financiële rapportage bestaat uit een weergave-ervaring in Dynamics 365 for Operations en een ClickOnce-rapportontwerper waarmee u financiële rapporten kunt maken en bewerken.  
+Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Finance and Operations kunt weergeven en maken. Financiële rapportage bestaat uit een weergave-ervaring in Finance and Operations en een ClickOnce-rapportontwerper waarmee u financiële rapporten kunt maken en bewerken.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Oefening 1: Een standaard financieel rapport genereren en controleren
 -----------------------------------------------------------
@@ -59,7 +59,7 @@ Voor deze oefening genereert en controleert u een bestaand standaardrapport. Dit
 13. Selecteer **Rapportopties**.
 14. Selecteer **Een dimensiefilter toevoegen** en kies **Bedrijfseenheid**.
 15. Typ 001 in het veld en selecteer **OK**. In het rapport worden nu alleen de gegevens weergegeven voor de bedrijfseenheid 001. Dit is een gepersonaliseerde weergave van het rapport en anderen mogen deze niet weergeven.
-16. Sluit het gefilterde rapport. Financiële rapporten kunnen in elke valuta worden weergegeven die aan Dynamics 365 for Operations is toegevoegd.
+16. Sluit het gefilterde rapport. Financiële rapporten kunnen in elke valuta worden weergegeven die aan Finance and Operations is toegevoegd.
 17. Selecteer **Valuta** en selecteer vervolgens **EUR**. Het rapport wordt nu in Euro weergegeven. Alle valutacodes of valutasymbolen die zijn opgenomen in het rapportontwerp, worden in de toegepaste valuta weergegeven. Als er geen valutasymbool is gedefinieerd voor een valuta, wordt het valutasymbool niet weergegeven.
 18. Sluit het rapport **GB-details**.
 19. Sluit **Report Designer**.
@@ -70,7 +70,7 @@ In deze oefening wijzigt u een bestaand standaardrapport. U werkt beide rijdefin
 1.  Ga naar **Financiële rapporten** onder Query's en rapporten in het grootboek.
 2.  Selecteer de rij voor het rapport met de naam **Samengevatte proefbalans: standaard**.
 3.  Selecteer **Bewerken**. **Samengevatte proefbalans: standaard** wordt in de rapportontwerper geopend.
-4.  Selecteer **Bestand** en vervolgens **Opslaan als** en geef het rapport de naam Gedetailleerde proefbalans met kenmerken. Opmerking: elke keer wanneer een nieuw rapport in rapportontwerper wordt gemaakt, wordt de lijst met financiële rapporten bijgewerkt in Dynamics 365 for Operations.
+4.  Selecteer **Bestand** en vervolgens **Opslaan als** en geef het rapport de naam Gedetailleerde proefbalans met kenmerken. Opmerking: elke keer wanneer een nieuw rapport in rapportontwerper wordt gemaakt, wordt de lijst met financiële rapporten bijgewerkt in Finance and Operations.
 5.  Selecteer in de rapportdefinitie het rijdefinitiepictogram om **Proefbalans: standaardrijdefinitie** te openen.
 6.  Sla de rijdefinitie op als **Gedetailleerde proefbalans met kenmerken**
 7.  Selecteer met de cursor op rij 50 **Bewerken** en vervolgens **Rijen invoegen van dimensies**. Met Rijen invoegen van dimensies kunt u kiezen welke dimensies u in uw rijdefinitie wilt hebben. Voor deze oefening gaan we de rijdefinitie met Hoofdrekening maken.
@@ -183,8 +183,8 @@ In deze oefening maakt u een nieuw rapport. Het rapport is een afdelingsinkomens
 18. **Sla** uw wijzigingen op en **genereer** ze. Nadat het rapport is gegenereerd en geopend, kunt u het rapport controleren.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-[Financiële rapportage](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
-[Financiële rapporten weergeven](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
+[Financiële rapportage](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
+[Financiële rapporten weergeven](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

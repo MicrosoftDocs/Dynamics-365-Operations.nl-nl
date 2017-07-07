@@ -3,14 +3,14 @@ title: Bestemmingen voor elektronische rapportage
 description: U kunt een bestemming voor elke ER-indelingsconfiguratie (Elektronische Rapportage) en de bijbehorende uitvoercomponent (een map of een bestand) configureren. Gebruikers aan wie de juiste toegangsrechten zijn verleend, kunnen tevens bestemmingsinstellingen wijzigen tijdens de uitvoeren. In dit artikel worden ER bestemmingsbeheer, de typen bestemmingen die worden ondersteund en beveiligingsoverwegingen beschreven.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ U kunt een bestemming voor elke ER-indelingsconfiguratie (Elektronische Rapporta
 Indelingconfiguraties voor Elektronische rapportage (ER) bevatten meestal minimaal één uitvoeronderdeel: een bestand. Configuraties bevatten gewoonlijk meerdere onderdelen voor bestandsuitvoer van verschillende typen (bijvoorbeeld XML, TXT of XLSX) die zijn gegroepeerd in een enkele map of in meerdere mappen. ER-bestemmingsbeheer stelt u in staat vooraf te configureren wat er gebeurt wanneer elk onderdeel wordt uitgevoerd. Wanneer een configuratie wordt uitgevoerd, wordt standaard een dialoogvenster weergegeven waarin de gebruiker het bestand kan opslaan of openen. Hetzelfde gedrag wordt ook gebruikt wanneer u een ER-configuratie importeert en geen specifieke bestemmingen hiervoor configureert. Nadat u een bestemming voor een hoofduitvoeronderdeel hebt gemaakt, overschrijft die bestemming het standaardgedrag en wordt de map of het bestand verzonden op basis van de instellingen van de bestemming.
 
 ## <a name="availability-and-general-prerequisites"></a>Beschikbaarheid en algemene vereisten
-De functionaliteit ER-bestemmingen is niet beschikbaar in de versie van Microsoft Dynamics 365 for Operations 7.0 (februari 2016). Daarom moet u Microsoft Dynamics 365 for Operations (versie november 2016) installeren om gebruik te kunnen maken van de functies die in dit onderwerp worden beschreven. U kunt ook een van de volgende vereisten installeren. Houd er echter rekening mee dat dit alternatief een beperktere versie van ER-bestemmingen biedt.
+De functionaliteit ER-bestemmingen is niet beschikbaar in de versie van Microsoft Dynamics AX 7.0 (februari 2016). Daarom moet u Microsoft Dynamics 365 for Operations versie 1611 (november 2016) installeren om gebruik te kunnen maken van alle functies die in dit onderwerp worden beschreven. U kunt ook een van de volgende vereisten installeren. Houd er echter rekening mee dat dit alternatief een beperktere versie van ER-bestemmingen biedt.
 
--   Microsoft Dynamics 365 for Operations applicatieversie 7.0.1 (mei 2016)
+-   Microsoft Dynamics AX-toepassing versie 7.0.1 (mei 2016)
 -   [Toepassingshotfix](https://fix.lcs.dynamics.com/issue/results/?q=3160213) voor ER-bestemmingsbeheer
 
 U kunt alleen bestemmingen instellen voor ER-configuraties die zijn geïmporteerd en voor de indelingen die beschikbaar zijn op de pagina **Configuraties van elektronische rapportage**.
@@ -61,7 +61,7 @@ Er worden verschillende typen bestemmingen ondersteund. U kunt alle typen tegeli
 
 ### <a name="email-destination"></a>E-mailbestemming
 
-Stel **Ingeschakeld**in op **Ja** om een uitvoerbestand per e-mail te verzenden. Nadat deze optie is ingeschakeld, kunt u de ontvangers van het e-mailbericht opgeven en het onderwerp en de tekst van het e-mailbericht bewerken. U kunt constante teksten voor het onderwerp en de hoofdtekst van het e-mailbericht instellen of u kunt ER-formules gebruiken om e-mailteksten dynamisch te maken. U kunt e-mailadressen voor ER op twee manieren configureren. De configuratie kan op dezelfde manier worden uitgevoerd als met de functie voor afdrukbeheer in Dynamics 365 for Operations. U kunt een e-mailadres ook herleiden met behulp van een directe verwijzing naar de ER-configuratie via een formule.
+Stel **Ingeschakeld** in op **Ja** om een uitvoerbestand per e-mail te verzenden. Nadat deze optie is ingeschakeld, kunt u de ontvangers van het e-mailbericht opgeven en het onderwerp en de tekst van het e-mailbericht bewerken. U kunt constante teksten voor het onderwerp en de hoofdtekst van het e-mailbericht instellen of u kunt ER-formules gebruiken om e-mailteksten dynamisch te maken. U kunt e-mailadressen voor ER op twee manieren configureren. De configuratie kan op dezelfde manier worden uitgevoerd als met de functie voor afdrukbeheer in Finance and Operations. U kunt een e-mailadres ook herleiden met behulp van een directe verwijzing naar de ER-configuratie via een formule.
 
 ### <a name="email-address-types"></a>E-mailadrestypen
 
@@ -89,15 +89,15 @@ Gebruik dit e-mailtype als de configuratie die u gebruikt, een knooppunt heeft i
 
 [![Een e-mailadresgegevensbron toewijzen voor een e-mailbestemming](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Opmerking:** er moet een SMTP-server (Simple Mail Transfer Protocol) worden geconfigureerd en beschikbaar besteld. U kunt uw SMTP-server opgeven in Dynamics 365 for Operations bij **Systeembeheer** &gt; **Instellen** &gt; **E-mail** &gt; **E-mailparameters**.
+**Opmerking:** er moet een SMTP-server (Simple Mail Transfer Protocol) worden geconfigureerd en beschikbaar besteld. U kunt uw SMTP-server opgeven in Finance and Operations bij **Systeembeheer** &gt; **Instellen** &gt; **E-mail** &gt; **E-mailparameters**.
 
 ### <a name="archive-destination"></a>Archiefbestemming
 
-Met deze optie kunt u uitvoer naar een Microsoft SharePoint-map of naar de opslag van Microsoft Azure verzenden. Stel **Ingeschakeld** in op **Ja**om uitvoer naar een bestemming te verzenden die is gedefinieerd door het geselecteerde documenttype. Alleen documenttypen waarvan de groep is ingesteld op **Bestand** zijn beschikbaar voor selectie. U definieert documenttypen onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Documenttypen**. De configuratie voor ER-bestemmingen is hetzelfde als de configuratie voor het documentbeheersysteem.
+Met deze optie kunt u uitvoer naar een Microsoft SharePoint-map of naar de opslag van Microsoft Azure verzenden. Stel **Ingeschakeld** in op **Ja** om uitvoer naar een bestemming te verzenden die is gedefinieerd door het geselecteerde documenttype. Alleen documenttypen waarvan de groep is ingesteld op **Bestand** zijn beschikbaar voor selectie. U definieert documenttypen onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Documenttypen**. De configuratie voor ER-bestemmingen is hetzelfde als de configuratie voor het documentbeheersysteem.
 
 [![Pagina Documenttypen](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-De locatie bepaalt waar het bestand wordt opgeslagen. Nadat de bestemming **Archief** is ingeschakeld, kunnen de resultaten van de uitvoering van de configuratie worden opgeslagen in het taakarchief. U kunt de resultaten weergeven via **Organisatiebeheer** &gt; **Elektronische aangifte** &gt; **Gearchiveerde taken elektronische aangifte**. **Opmerking:** u kunt een documenttype voor het taakarchief in Dynamics 365 for Operations selecteren via **Organisatiebeheer** &gt; **Werkgebieden** &gt; **Elektronische aangifte** &gt; **Elektronische rapportparameters**.
+De locatie bepaalt waar het bestand wordt opgeslagen. Nadat de bestemming **Archief** is ingeschakeld, kunnen de resultaten van de uitvoering van de configuratie worden opgeslagen in het taakarchief. U kunt de resultaten weergeven via **Organisatiebeheer** &gt; **Elektronische aangifte** &gt; **Gearchiveerde taken elektronische aangifte**. **Opmerking:** u kunt een documenttype voor het taakarchief in Finance and Operations selecteren via **Organisatiebeheer** &gt; **Werkgebieden** &gt; **Elektronische aangifte** &gt; **Elektronische rapportparameters**.
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -119,7 +119,7 @@ Als u **Ingeschakeld** instelt op **Ja**, wordt een voorbeeld van de uitvoer gem
 
 ### <a name="power-bi-destination"></a>Power BI-bestemming
 
-Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw exemplaar van Dynamics 365 for Operations over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Een configuratie van Elektronische rapportage gebruiken om Power BI met gegevens uit Dynamics 365 for Operations te verschaffen](general-electronic-reporting-report-configuration-get-data-powerbi.md) voor meer informatie. **Tip:** als u het standaardgedrag wilt negeren (dat wil zeggen het dialoogvenster voor een configuratie), kunt u een bestemmingsverwijzing en een bestandsbestemming voor het hoofduitvoeronderdeel maken en vervolgens alle bestemmingen uitschakelen.
+Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Finance and Operations te voorzien](general-electronic-reporting-report-configuration-get-data-powerbi.md) voor meer informatie. **Tip:** als u het standaardgedrag wilt negeren (dat wil zeggen het dialoogvenster voor een configuratie), kunt u een bestemmingsverwijzing en een bestandsbestemming voor het hoofduitvoeronderdeel maken en vervolgens alle bestemmingen uitschakelen.
 
 ## <a name="security-considerations"></a>Beveiligingsoverwegingen
 Twee typen machtigingen en rechten worden gebruikt voor ER-bestemmingen. Eén type regelt de mogelijkheid om de algehele bestemmingen te onderhouden die worden geconfigureerd voor een rechtspersoon (dat wil zeggen, toegang tot de pagina **Bestemmingen voor elektronische rapportage** wordt beheerd). Het andere type regelt de mogelijkheid van een toepassingsgebruiker om, tijdens de uitvoering, de bestemmingsinstellingen die zijn geconfigureerd door een ER-ontwikkelaar of functionele ER-consultant te negeren.

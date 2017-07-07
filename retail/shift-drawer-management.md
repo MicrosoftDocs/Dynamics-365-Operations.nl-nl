@@ -3,25 +3,27 @@ title: Ploegen- en kasladebeheer
 description: "In dit artikel wordt beschreven hoe u de twee typen ploegen voor detailhandelverkooppunten (POS) kunt instellen en gebruiken: gedeelde en zelfstandige. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen terwijl zelfstandige ploegen kunnen worden gebruikt door slechts één werknemer tegelijk."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ Zelfstandige ploegen worden gebruikt in een traditioneel scenario met vaste POS,
 
 Een zelfstandige ploeg wordt aangewezen op het niveau van de kassalade. In deze procedure wordt uitgelegd hoe u een zelfstandige ploeg kunt instellen op een POS-kassa.
 
-1.  Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
+1.  Klik op **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
 2.  Selecteer het hardwareprofiel dat moet worden gebruikt voor de zelfstandige ploeg.
 3.  Bevestig op het sneltabblad **Lade** dat de optie **Gedeelde ploeglade** is ingesteld op **Nee**.
 4.  Klik op **Opslaan**.
-5.  Klik op **Detailhandel en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**.
+5.  Klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**.
 6.  Selecteer de kassa waarvoor een zelfstandige ploeg is vereist en klik vervolgens op **Bewerken**.
 7.  Selecteer in het veld **Hardwareprofiel** het hardwareprofiel dat u in stap 2 hebt geselecteerd.
 8.  Klik op **Opslaan**.
-9.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
+9.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 10. Selecteer de distributieplanning **1090** en klik vervolgens op **Nu uitvoeren** om wijzigingen in het POS te synchroniseren.
 
 ### <a name="use-a-stand-alone-shift"></a>Een zelfstandige ploeg gebruiken
@@ -70,15 +72,15 @@ Een gedeelde ploeg wordt gebruikt in een omgeving waarin meerdere kassamedewerke
 
 ### <a name="set-up-a-shared-shift"></a>Een gedeelde ploeg instellen
 
-1.  Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
+1.  Klik op **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.
 2.  Selecteer het hardwareprofiel dat moet worden gebruikt voor de gedeelde ploeg.
 3.  Stel op het sneltabblad **Lade** de optie **Gedeelde ploeglade** in op **Ja**.
 4.  Klik op **Opslaan**.
-5.  Klik op **Detailhandel en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**.
+5.  Klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**.
 6.  Selecteer de kassa waarvoor een gedeelde ploeg is vereist en klik vervolgens op **Bewerken**.
 7.  Selecteer in het veld **Hardwareprofiel** het hardwareprofiel dat u in stap 2 hebt geselecteerd.
 8.  Klik op **Opslaan**.
-9.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
+9.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 10. Selecteer de distributieplanning **1090** en klik vervolgens op **Nu uitvoeren** om wijzigingen in het POS te synchroniseren.
 
 ### <a name="use-a-shared-shift"></a>Een gedeelde ploeg gebruiken
@@ -89,7 +91,7 @@ Een gedeelde ploeg wordt gebruikt in een omgeving waarin meerdere kassamedewerke
 4.  Selecteer **Een nieuwe ploeg maken**.
 5.  Selecteer **Beginbedrag declareren**.
 6.  Voer het beginbedrag van alle kassalades in de winkel in die deel uitmaken van de gedeelde ploeg en klik vervolgens op **Opslaan**.
-    -   Als u een deel van het beginbedrag wilt toevoegen aan elke opeenvolgende kassalade, gebruikt u de bewerking **Hardwarestation selecteren**om het hardwarestation actief te maken.
+    -   Als u een deel van het beginbedrag wilt toevoegen aan elke opeenvolgende kassalade, gebruikt u de bewerking **Hardwarestation selecteren** om het hardwarestation actief te maken.
     -   U kunt een kassa toevoegen aan een specifieke kassalade door de bewerking **Lade openen** te gebruiken.
     -   Ga door totdat alle kassalades in de gedeelde ploeg hun deel van het beginbedrag bevatten.
 

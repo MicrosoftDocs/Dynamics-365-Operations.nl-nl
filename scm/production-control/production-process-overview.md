@@ -3,7 +3,7 @@ title: Overzicht van productieproces
 description: In dit artikel vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ De vervaardiging van producten, soms ook wel bekend als de productiecyclus, volg
 
 De module **Productiecontrole** is gekoppeld aan andere modules, zoals **Productgegevensbeheer**, **Voorraadbeheer**, **Grootboek**, **Magazijnbeheer**, **Projectadministratie** en **Organisatiebeheer**. Door deze integratie wordt de informatiestroom ondersteund die is vereist om de productie van een afgewerkt artikel te voltooien.  
 
-Het productieproces wordt doorgaans beïnvloed door de kostprijsboekhouding en voorraadwaarderingsmethoden die voor een bepaald productieproces worden gekozen. Dynamics 365 for Operations ondersteunt zowel werkelijke kosten (first in, first out \[FIFO\]; last in, first out \[LIFO\]; zwevend gemiddelde en periodiek gewogen gemiddelde) als standaardmethoden voor kostprijsberekening. Lean manufacturing wordt geïmplementeerd op basis van het principe van kostprijsberekening via terugwaarts afboeken.  
+Het productieproces wordt doorgaans beïnvloed door de kostprijsboekhouding en voorraadwaarderingsmethoden die voor een bepaald productieproces worden gekozen. Finance and Operations ondersteunt zowel werkelijke kosten (first in, first out \[FIFO\]; last in, first out \[LIFO\]; zwevend gemiddelde en periodiek gewogen gemiddelde) als standaardmethoden voor kostprijsberekening. Lean manufacturing wordt geïmplementeerd op basis van het principe van kostprijsberekening via terugwaarts afboeken.  
 
 De keuze van de methoden voor kostenmeting bepaalt ook de vereisten voor rapportage over materiaal- en resourceverbruik tijdens het productieproces. Doorgaans vereisen methoden voor de berekening van werkelijke kosten nauwkeurige rapportage op taakniveau, terwijl methoden voor periodieke kostprijsberekening minder gedetailleerde rapportage van materiaal- en resourceverbruik toestaan.
 
 ## <a name="mixed-mode-manufacturing"></a>Gemengde productie
-Verschillende producten en de productietopologieën vereisen het gebruik van verschillende ordertypen. Dynamics 365 for Operations kan de diverse ordertypen in een gemengde modus toepassen. Met andere woorden, alle ordertypen kunnen voorkomen tijdens het totale proces van het vervaardigen van één afgewerkt product.
+Verschillende producten en de productietopologieën vereisen het gebruik van verschillende ordertypen. Finance and Operations kan de diverse ordertypen in een gemengde modus toepassen. Met andere woorden, alle ordertypen kunnen voorkomen tijdens het totale proces van het vervaardigen van één afgewerkt product.
 
 -   **Productieorder** - Dit is het klassieke ordertype om een specifiek product of een productvariant te vervaardigen in een bepaalde hoeveelheid op een specifieke datum. Productieorders zijn gebaseerd op stuklijsten en routes.
 -   **Batchorder** – Dit ordertype wordt gebruikt voor procesbedrijfstakken en afzonderlijke processen waarbij de productieconversie op een formule is gebaseerd of waarbij de co- en bijproducten eindproducten kunnen zijn, naast of in plaats van het hoofdproduct. Batchorders gebruiken stuklijsten en routes van het type **Formule**.

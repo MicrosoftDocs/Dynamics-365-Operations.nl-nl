@@ -3,14 +3,14 @@ title: Een productconfiguratiemodel maken
 description: De noodzaak om producten te configureren om aan speciale vereisten te voldoen, wordt de regel eerder dan de uitzondering, zowel in business-to-business- als business-to-consumer-relaties.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 901d5dd18f0da6f05c185c24b3f11fe32fdc400b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5bc19e95266e8f1bec8744da688387dca559373f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -72,7 +72,7 @@ Tabelbeperkingen kunnen door de gebruiker of door het systeem zijn gedefinieerd.
 
 Een door de gebruiker gedefinieerde tabelbeperking wordt gemaakt door de gebruiker. De gebruiker selecteert een combinatie van kenmerktypen om de kolommen van de tabel weer te geven, en voert vervolgens waarden uit de domeinen van het geselecteerde kenmerktype in om de rijen in de tabelbeperking te vormen.  
 
-Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke Microsoft Dynamics 365 for Operations-tabel als referentie wordt gebruikt, en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Dynamics 365 for Operations-tabel die aanwezig zijn tijdens de configuratie.  
+Een door het systeem gedefinieerde tabelbeperking wordt gedefinieerd door te selecteren welke Microsoft Dynamics 365 for Finance and Operations-tabel als referentie wordt gebruikt, en vervolgens velden in deze tabel te selecteren om de kolommen te vormen in de beperking. De rijen van de tabelbeperking zijn de rijen van de Finance and Operations-tabel die aanwezig zijn tijdens de configuratie.  
 
 Een tabelbeperking wordt opgenomen in een model voor productconfiguratie door naar de definitie van de tabelbeperking te verwijzen en de betreffende kenmerken in het model toe te wijzen aan de kolommen in de tabelbeperking.
 

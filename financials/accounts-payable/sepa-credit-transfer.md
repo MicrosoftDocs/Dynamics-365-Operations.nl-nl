@@ -1,16 +1,16 @@
 ---
 title: Overzicht SEPA-kredietoverdracht
-description: Dit artikel geeft algemene informatie over ISO 20022-overschrijvingen, waaronder SEPA-overschrijvingen (Single euro Payments Area) en andere elektronische betalingen voor leveranciers. Een SEPA-kredietoverdracht is een specifiek type betaling in euro&quot;s van een persoon of bedrijf aan een andere persoon of bedrijf. In dit onderwerp wordt ook beschreven hoe u een kredietoverdrachtbetalingsbestand kunt instellen en verzenden.
+description: Dit artikel geeft algemene informatie over ISO 20022-overschrijvingen, waaronder SEPA-overschrijvingen (Single euro Payments Area) en andere elektronische betalingen voor leveranciers. Een SEPA-kredietoverdracht is een specifiek type betaling in euro's van een persoon of bedrijf aan een andere persoon of bedrijf. In dit onderwerp wordt ook beschreven hoe u een kredietoverdrachtbetalingsbestand kunt instellen en verzenden.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8f1a220babc333fe2091e9286afc565ebeecf036
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,15 +53,15 @@ De EPC, die bestaat uit Europese banken, ontwikkelt commerciële en technische r
 Een SEPA-kredietoverdracht is een betaling van een persoon of bedrijf aan een andere persoon of bedrijf. De betalingen moeten in euro's zijn en moeten het Internationale Bankrekeningnummer (IBAN) en de BIC (Bank Identifier Code) voor beide partijen bevatten De BIC wordt ook wel SWIFT-code genoemd \[Society for Worldwide Interbank Financial Telecommunication SWIFT\]. Bovendien moeten transactiekosten worden gedeeld door de beide partijen. Voor kredietoverdrachten tussen partijen moeten XML-bestanden worden gebruikt die voldoen aan de ISO 20022 betalingsverwerkingsstandaarden en de XML-indeling voldoen, zoals opgegeven door de EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Hoe wordt een kredietoverdracht uitgevoerd?
-De kredietoverdrachtbetalingsindeling voor Europese landen wordt uitgevoerd met behulp van de functionaliteit voor Elektronische Rapportage en Betalingsmethoden in Dynamics 365 for Operations. Enkele kredietoverdrachtindelingen die in andere regio's worden gebruikt, gebruiken nog het oude framework voor betalingen. Er zijn vele andere indelingen beschikbaar, waaronder twaalf ISO 20022-bestandsindelingen voor kredietoverdracht. Deze exportindelingen voldoen aan de XML-standaard ISO 20022 voor SEPA. Zij zijn bedoeld om betalingsoverschrijvingen in andere valuta dan euro te genereren, voor de landen/regio's waar ze worden gebruikt, en betalingen in euro zoals opgegeven in versie 8.2 van het SEPA Credit Transfer Scheme Rulebook dat de EPC uitgeeft. Voordat u kredietoverdrachten kunt uitvoeren, moet u contact opnemen met uw bank om software te krijgen die vereist is voor het uploaden van bestanden voor elektronisch bankieren. U kunt die software gebruiken om de XML-bestanden met betalingsopdrachten naar uw bank over te zetten.
+De kredietoverdrachtbetalingsindeling voor Europese landen wordt geïmplementeerd door middel van de functionaliteit voor Elektronische Rapportage en Betalingsmethoden in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Enkele kredietoverdrachtindelingen die in andere regio's worden gebruikt, gebruiken nog het oude framework voor betalingen. Er zijn vele andere indelingen beschikbaar, waaronder twaalf ISO 20022-bestandsindelingen voor kredietoverdracht. Deze exportindelingen voldoen aan de XML-standaard ISO 20022 voor SEPA. Zij zijn bedoeld om betalingsoverschrijvingen in andere valuta dan euro te genereren, voor de landen/regio's waar ze worden gebruikt, en betalingen in euro zoals opgegeven in versie 8.2 van het SEPA Credit Transfer Scheme Rulebook dat de EPC uitgeeft. Voordat u kredietoverdrachten kunt uitvoeren, moet u contact opnemen met uw bank om software te krijgen die vereist is voor het uploaden van bestanden voor elektronisch bankieren. U kunt die software gebruiken om de XML-bestanden met betalingsopdrachten naar uw bank over te zetten.
 
-## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Welke indelingen voor kredietoverdracht worden momenteel in Dynamics 365 for Operations ondersteund?
+## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Welke indelingen voor kredietoverdracht worden momenteel in Finance and Operations ondersteund?
 U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In de volgende sectie, 'Wat moet ik instellen?' vindt u een koppeling naar het onderwerp met informatie over het maken van een LCS-opslagplaats voor het controleren van de beschikbare configuraties en het importeren van geselecteerde configuraties.
 
 ## <a name="what-do-i-have-to-set-up"></a>Wat moet ik instellen?
--   Voordat u kredietoverdrachtbestanden kunt maken, moet tenminste één actieve kredietoverdrachtconfiguratie in uw ER-configuraties worden geïmporteerd. Zie voor instructies het onderwerp [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Voordat u kredietoverdrachtbestanden kunt maken, moet tenminste één actieve kredietoverdrachtconfiguratie in uw ER-configuraties worden geïmporteerd. Zie voor instructies het onderwerp [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 -   Wanneer u betalingsmethoden voor leveranciers configureert, selecteert u het selectievakje **Algemene elektronische rapportage**. Selecteer vervolgens de gewenste kredietoverdrachtindeling (bijvoorbeeld **ISO 20022 Kredietoverdracht**) als exportindelingsconfiguratie.
--   U moet ook de gegevens van de rechtspersoon en de bankrekeningen in Dynamics 365 for Operations instellen.
+-   U moet ook de rechtspersoon en bankrekeninggegevens in Finance and Operations instellen.
 -   Bankrekeningnummers, IBAN's en soms SWIFT-codes (BIC's) of andere id's zijn vereist om geldige kredietoverdracht betalingen te kunnen maken. Daarom moet u deze instellen voor de bankrekening van de leverancier en de bankrekening van de organisatie die de overdracht aanvraagt.
 -   Mogelijk is aanvullende informatie vereist, zoals btw-nummers voor de partijen waarnaar wordt verwezen in het kredietoverdrachtbericht. Deze informatie moet worden ingesteld voor leveranciers en voor de rechtspersoon wanneer daarom wordt gevraagd.
 -   Sommige leveranciersbetalingsmethoden, meestal de betalingsmethoden op basis van ISO 20022, kunnen aanvullende instellingen vereisen voor **Codesets van de betalingsindeling**, zoals **Servicetype** = **SLEV**. Deze codes worden gebruikt als extra labels voor betalingstransacties tijdens de verwerking van betalingen. Standaardwaarden van betalingscodes, zoals **Categoriedoel**, **Aansprakelijke voor de kosten**, **Lokaal instrument** en **Serviceniveau** kunnen worden ingesteld op twee plaatsen. De eerste plaats is **Journaalkoptekst voor leveranciersbetalingen** en de tweede is **Betalingsmethoden voor leveranciers**. Bij het maken van regels in een betalingsjournaal, worden de waarden van betalingscodes die zijn ingesteld op de betalingsjournaalkoptekst overgebracht naar een journaalregel. Als ze niet zijn ingesteld, worden de waarden uit Betalingsmethoden gebruikt.

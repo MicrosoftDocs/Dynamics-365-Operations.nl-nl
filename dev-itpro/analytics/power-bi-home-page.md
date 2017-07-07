@@ -1,9 +1,9 @@
 ---
-title: De Power BI-startpagina
-description: In dit onderwerp vindt u een overzicht van resources die u helpen Power BI te gebruiken met Dynamics 365 for Operations.
+title: Beschikbare Power BI-inhoud
+description: In dit onderwerp wordt de Power BI-inhoud vermeld die beschikbaar is en wordt aangegeven waar u meer informatie hierover kunt vinden.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,66 +17,86 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 711a2e18a692d7f4d048109fdd97497483ce05e8
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="power-bi-home-page"></a>De Power BI-startpagina
-
+# <a name="power-bi-content-available"></a>Beschikbare Power BI-inhoud
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp vindt u een overzicht van resources die u helpen Power BI te gebruiken met Dynamics 365 for Operations.
+In dit onderwerp wordt de Microsoft Power BI-inhoud vermeld die beschikbaar is en wordt aangegeven waar u meer informatie hierover kunt vinden.
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>Power BI-inhoud voor Dynamics 365 for Operations
-------------------------------------------------
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Power BI-inhoud voor Dynamics 365 for Finance and Operations, Enterprise edition, update juli 2017
+Als u werkt met de update voor juli 2017 van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, is de volgende Power BI-inhoud beschikbaar:
 
-| **Functiegebied**                  | **Power BI-inhoud**                          | **Waar vindt u de Power BI-inhoud?**                                                                                                                                                                                         | **Meer informatie**                                                                                                                                                               |
-|-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Financieel beheer              | Financiële prestaties                         | Microsoft Dynamics Lifecycle Services (LCS) (deze versie van het inhoudpakket ondersteunt Dynamics 365 for Operations, versie 1611) PowerBI.com (deze versie van het inhoudspakket ondersteunt Microsoft Dynamics 365 for Operations 7.0 en 7.0.1) | [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)                                               |
-|                                   | Crediterings- en aanmaningsbeheer             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Human Capital-beheer          | Wervingsrapporten                            | LCS                                                                                                                                                                                                                            | [Power BI-inhoud voor werving](recruiting-analysis-power-bi-content-pack.md)                                                       |
-|                                   | Rapporten voor werknemercompetenties en -ontwikkeling | LCS                                                                                                                                                                                                                            | [Power BI-inhoud voor rapporten voor werknemercompetenties en -ontwikkeling](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
-|                                   | Rapporten voor organisatietraining               | LCS                                                                                                                                                                                                                            | [Power BI-inhoud voor organisatietraining](organizational-training-analysis-power-bi-content-pack.md)                             |
-|                                   | Metrische gegevens personeel                             | LCS                                                                                                                                                                                                                            | [Power BI-inhoud voor metrische gegevens over personeel](workforce-analysis-power-bi-content-pack.md)                                                 |
-|                                   | Compensatie- en vergoedingenrapporten             | LCS                                                                                                                                                                                                                            | [Power BI-inhoud voor compensatie en vergoedingen](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
-| Projectbeheer en boekhouding | Praktijkbeheerder                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Detailhandel en commerce               | Prestaties detailhandelafzetkanaal                    | PowerBI.com                                                                                                                                                                                                                    | [Power BI-inhoud prestaties detailhandelafzetkanaal](retail-channel-performance-dashboard-power-bi-data.md)                 |
-| Supply Chain Management           | Kostenbeheer                               | PowerBI.com                                                                                                                                                                                                                    |  [Power BI-inhoud voor kostenbeheer](cost-management-content-pack.md)                                                          |
-|                                   | Verkoop- en winstgevendheidsprestaties           | LCS                                                                                                                                                                                                                            | [Power BI-inhoud prestaties verkoop en winstgevendheid](sales-profitability-performance-content-pack.md)          |
-|                                   | Analyse inkoopuitgaven                       | LCS                                                                                                                                                                                                                            | [Power BI-inhoud voor analyse van inkoopuitgaven](purchase-content-pack-for-power-bi.md)                                                 |
-|                                   | Analyse van kostprijsboekhouding                      | LCS                                                                                                                                                                                                                            | [Power BI-inhoud voor analyse van kostprijsboekhouding](cost-accounting-analysis-content-pack.md)                                         |
-|                                   | Magazijnprestaties                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-|                                   | Productieprestaties                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+- [Power BI-inhoud Vergoedingen](benefits-power-bi.md)
+- [Power BI-inhoud Overzicht van contant geld](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [Power BI-inhoud CFO-overzicht](CFO-power-bi.md)
+- [Power BI-inhoud Compensatie](compensation-power-bi.md)
+- [Power BI-inhoud Kostprijsboekhoudingsanalyse*](cost-accounting-analysis-content-pack.md) 
+- [Power BI-inhoud Crediterings- en aanmaningsbeheer](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Power BI-inhoud Werknemerontwikkeling](employee-development-PBI.md) 
+- [Power BI-inhoud Financiële prestaties*](financial-performance-power-bi-content-pack.md)
+- [Power BI-inhoud Beheer van vaste activa](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [Power BI-inhoud Leren](learning-power-bi.md)
+- [Power BI-inhoud Praktijkbeheerder](practice-manager-power-bi.md)
+- [Power BI-inhoud Productieprestaties](production-performance-power-bi.md)
+- [Power BI-inhoud voor analyse van inkoopuitgaven](purchase-content-pack-for-power-bi.md) 
+- [Power BI-inhoud voor werving](recruiting-analysis-power-bi-content-pack.md) 
+- [Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid](sales-profitability-performance-content-pack.md)
+- [Power BI-inhoud Leveranciersbetalingen](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [Power BI-inhoud voor magazijnprestaties](warehouse-power-bi-content.md)
+- [Power BI-inhoud voor metrische gegevens over personeel](workforce-analysis-power-bi-content-pack.md)  
 
-## <a name="access-power-bi-content-from-lcs"></a>Toegang tot Power BI-inhoud vanuit LCS
-Zie voor meer informatie over hoe u Power BI-inhoud downloadt en aan uw gegevens koppelt het onderwerp [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
+### <a name="accessing-the-content"></a>Toegang tot de inhoud
 
-## <a name="access-power-bi-content-from-powerbicom"></a>Toegang tot Power BI-inhoud vanuit PowerBI.com
-1.  Meld u aan bij [PowerBI.com](https://www.powerbi.com/).
-2.  Klik op **Get Data**.
-3.  Klik in het vak **Services** op **Get**.
-4.  Selecteer het gewenste inhoudpakket en klik op **Get**.
-5.  Voer de URL van uw Dynamics 365 for Operations-omgeving in. De URL moet de volgende notatie hebben: **https://&lt;UwAOSTenant&gt;. cloudax.dynamics.com** Klik op **Next**.
-6.  Selecteer **oAuth2** als de verificatiemethode en klik op **Sign in**.
-7.  Wanneer daarom wordt gevraagd, voert u een Microsoft Office 365-account in die toegang heeft tot uw Dynamics 365 for Operations-omgeving.
-8.  Nadat u zich hebt aangemeld, wordt het importproces automatisch gestart. Wanneer de import is voltooid, worden de rapporten die zijn opgenomen in het inhoudpakket weergegeven in het navigatievenster. Selecteer een rapport om uw geïmporteerde gegevens weer te geven.
+#### <a name="embedded-content"></a>Ingesloten inhoud
+Behalve de inhoud die is gemarkeerd met een sterretje (\*) is alle inhoud in de voorgaande lijst ingesloten in de toepassing. Als u wilt weten waar u de Power BI-inhoud kunt bekijken, klikt u op de koppelingen.
 
-## <a name="learn-more-about-the-power-bi-integration"></a>Meer informatie over de Power BI-integratie
--   [Power BI-integratie](power-bi-integration.md)
--   [Overzicht van de Power BI-integratie met de entiteitopslag](power-bi-integration-entity-store.md)
--   [Power BI-rapporten ontwerpen en distribueren met de entiteitopslag](author-distribute-power-bi-reports.md)
--   [Power BI-rapporten vastmaken in werkgebieden](pin-power-bi-reports.md)
--   [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md)
--   [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Dynamics 365 te voorzien voor Bewerkingen](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+#### <a name="files-available-in-lifecycle-services"></a>Bestanden beschikbaar in Lifecycle Services
+Deze Power BI-inhoud is beschikbaar in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en aan uw gegevens koppelt het onderwerp [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
 
+## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Power BI-inhoud voor Dynamics 365 for Operations, versie 1611
+Als u werkt met Microsoft Dynamics 365 for Operations, versie 1611, is de volgende Power BI-inhoud beschikbaar:
 
+- [Power BI-inhoud voor compensatie en vergoedingen](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Kostprijsboekhoudingsanalyse van Power BI-inhoud](cost-accounting-analysis-content-pack.md) 
+- [Power BI-inhoud Crediterings- en aanmaningsbeheer](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Power BI-inhoud voor rapporten voor werknemercompetenties en -ontwikkeling](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)
+- [Power BI-inhoud voor organisatietraining](organizational-training-analysis-power-bi-content-pack.md) 
+- [Power BI-inhoud Praktijkbeheerder](practice-manager-power-bi.md)
+- [Power BI-inhoud Productieprestaties](production-performance-power-bi.md)
+- [Power BI-inhoud voor analyse van inkoopuitgaven](purchase-content-pack-for-power-bi.md) 
+- [Power BI-inhoud voor werving](recruiting-analysis-power-bi-content-pack.md) 
+- [Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid](sales-profitability-performance-content-pack.md)
+- [Power BI-inhoud voor magazijnprestaties](warehouse-power-bi-content.md)
+- [Power BI-inhoud voor metrische gegevens over personeel](workforce-analysis-power-bi-content-pack.md)  
 
+### <a name="accessing-the-content"></a>Toegang tot de inhoud
+Deze Power BI-inhoud is beschikbaar in de bibliotheek voor gedeelde activa in LCS. Zie voor meer informatie over hoe u de inhoud downloadt en aan uw gegevens koppelt het onderwerp [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
 
+## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI-inhoud voor Microsoft Dynamics AX
+Als u werkt met Microsoft Dynamics AX 7.0 of Microsoft Dynamics AX 7.0.1, is de volgende Power BI-inhoud beschikbaar:
 
+- [Power BI-inhoud voor kostenbeheer](cost-management-content-pack.md)    
+- [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)
+- [Power BI-inhoud Prestaties detailhandelafzetkanaal](retail-channel-performance-dashboard-power-bi-data.md) 
 
+### <a name="accessing-the-content"></a>Toegang tot de inhoud
+Deze Power BI-inhoud is beschikbaar via PowerBI.com.
+
+1. Meld u aan bij [PowerBI.com](https://www.powerbi.com/).
+2. Klik op **Get Data**.
+3. Klik in het vak **Services** op **Get**.
+4. Selecteer het gewenste inhoudpakket en klik op **Get**.
+5. Voer de URL van uw Dynamics AX-omgeving in. De URL moet de volgende notatie hebben: **https://&lt;UwAOSTenant&gt;. cloudax.dynamics.com** Klik op **Next**.
+6. Selecteer **oAuth2** als de verificatiemethode en klik op **Sign in**.
+7. Wanneer daarom wordt gevraagd, voert u een Microsoft Office 365-account in die toegang heeft tot uw Microsoft Dynamics AX-omgeving.
+8. Nadat u zich hebt aangemeld, wordt het importproces automatisch gestart. Wanneer de import is voltooid, worden de rapporten die zijn opgenomen in het inhoudpakket weergegeven in het navigatievenster. Selecteer een rapport om uw geïmporteerde gegevens weer te geven.
 

@@ -1,15 +1,15 @@
 ---
 title: Mobiele factuurgoedkeuringen
-description: Met mobiele mogelijkheden in Microsoft Dynamics 365 for Operations kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario&quot;s kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario&quot;s te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario&quot;s door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario&quot;s ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario&quot;s die niet zijn gerelateerd aan facturen van leveranciers.
+description: Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's in Dynamics 365 for Finance and Operations, door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c412562a5b224e682c4a555a56e713570a1e4ef
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,19 +30,19 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Met mobiele mogelijkheden in Microsoft Dynamics 365 for Operations kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
+Met mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
 
 <a name="prerequisites"></a>Vereisten
 -------------
 
 | Vereiste                                                                                            | Omschrijving                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vooraf gelezen mobiel handboek                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
-| Dynamics 365 for Operations                                                                             | Een omgeving met Microsoft Dynamics 365 for Operations versie 1611 en Microsoft Dynamics 365 for Operations-platform update 3 (november 2016)                   |
+| Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Dynamics 365 for Finance en Operations                                                                             | Een omgeving met Microsoft Dynamics 365 for Operations versie 1611 en Microsoft Dynamics 365 for Operations-platform update 3 (november 2016)                   |
 | Installeer hotfix KB 3204341.                                                                              | Taakrecorder kan onterecht twee Sluiten-opdrachten voor vervolgkeuzelijstdialoogvensters registreren. Dit is opgenomen in het Dynamics 365 for Operations-platform update 3 (update van november 2016). |
 | Installeer hotfix KB 3207800.                                                                              | Met deze hotfix kunnen bijlagen worden weergegeven op de mobiele client. Dit is opgenomen in het Dynamics 365 for Operations-platform update 3 (update van november 2016).           |
 | Installeer hotfix KB 3208224.                                                                              | De toepassingscode voor de mobiele toepassing voor leveranciersfactuurgoedkeuring. Dit is opgenomen in de Microsoft Dynamics AX-toepassing 7.0.1 (mei 2016).                          |
-| Een Android of iOS of een Windows-apparaat waarop de mobiele app is geïnstalleerd voor Dynamics 365 for Operations | Zoek naar de app in de juiste store voor mobiele apps.                                                                                                                     |
+| Een Android of iOS of een Windows-apparaat waarop de mobiele app is geïnstalleerd voor Finance and Operations | Zoek naar de app in de juiste store voor mobiele apps.                                                                                                                     |
 
 ## <a name="introduction"></a>Introductie
 Voor mobiele goedkeuringen van leveranciersfacturen zijn de drie hotfixes vereist die worden vermeld in de sectie 'Vereisten'. Deze hotfixes verschaffen geen werkgebied voor de factuurgoedkeuringen. Als u wilt weten wat een werkgebied is in de context van mobiel gebruik, leest u het mobiele handboek dat wordt vermeld in de sectie 'Vereisten'. Het werkgebied voor factuurgoedkeuringen moet worden ontworpen. 
@@ -126,7 +126,7 @@ Zorg er als algemene richtlijn voor dat u tijdens het werken met de mobiele ontw
 
 ### <a name="create-the-workspace"></a>Het werkgebied maken
 
-1.  Open in een browser Dynamics 365 for Operations en meld u aan.
+1.  Open in een browser Finance and Operations en meld u aan.
 2.  Nadat u bent aangemeld, voegt u **& mode=mobile** toe aan de URL, zoals weergegeven in het volgende voorbeeld, en vernieuwt u de pagina: https://&lt;yoururl&gt;/? cmp=usmf&mi=DefaultDashboard**&mode=mobile**
 3.  Klik op de knop **Instellingen** (tandwiel) in de rechterbovenhoek van de pagina en klik op **Mobiele app**. De ontwerper van de mobiele app moet worden weergegeven meteen wanneer de taakrecorder verschijnt.
 4.  Klik op **Toevoegen** om een nieuw werkgebied te maken. Geef voor dit voorbeeld het werkgebied de naam **Mijn goedkeuringen**.
@@ -138,9 +138,9 @@ Zorg er als algemene richtlijn voor dat u tijdens het werken met de mobiele ontw
 
 ### <a name="vendor-invoices-assigned-to-me"></a>Leveranciersfacturen die aan mij zijn toegewezen
 
-De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter beoordeling zijn toegewezen aan de gebruiker. Als u deze mobiele pagina wilt ontwerpen, gebruikt u de pagina **VendMobileInvoiceAssignedToMeListPage** in Dynamics 365 for Operations. Voordat u deze procedure voltooit, controleert u of er ten minste één leveranciersfactuur ter beoordeling aan u is toegewezen en of de factuurregel twee verdelingen heeft. Deze instelling voldoet aan de vereisten voor dit scenario.
+De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter beoordeling zijn toegewezen aan de gebruiker. Als u deze mobiele pagina wilt ontwerpen, gebruikt u de pagina **VendMobileInvoiceAssignedToMeListPage** in Finance and Operations. Voordat u deze procedure voltooit, controleert u of er ten minste één leveranciersfactuur ter beoordeling aan u is toegewezen en of de factuurregel twee verdelingen heeft. Deze instelling voldoet aan de vereisten voor dit scenario.
 
-1.  Vervang in de Dynamics 365 for Operations-URL, de naam van de menuoptie door **VendMobileInvoiceAssignedToMeListPage** om de mobiele versie van de lijstpagina **Aan mij toegewezen leveranciersfacturen in behandeling** in de module **Leveranciers** te openen. Afhankelijk van het aantal facturen dat in uw systeem aan u is toegewezen, worden op deze pagina deze facturen weergegeven. Als u op zoek bent naar een specifieke factuur, kunt u het filter aan de linkerkant gebruiken. Voor dit voorbeeld is echter geen specifieke factuur vereist. Er moet alleen een bepaalde factuur aan u zijn toegewezen op basis waarvan u de mobiele pagina kunt ontwerpen. De nieuwe pagina's die beschikbaar zijn, zijn specifiek ontworpen voor het ontwikkelen van mobiele scenario's voor leveranciersfacturen. Daarom moet u deze pagina's gebruiken. De URL moet lijken op de volgende URL en nadat u deze hebt ingevoerd, moet de pagina die wordt weergegeven in de afbeelding verschijnen: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Pagina Aan mij toegewezen leveranciersfacturen in behandeling](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  Vervang in de Finance and Operations-URL de naam van de menuoptie door **VendMobileInvoiceAssignedToMeListPage** om de mobiele versie van de lijstpagina **Aan mij toegewezen leveranciersfacturen in behandeling** in de module **Leveranciers** te openen. Afhankelijk van het aantal facturen dat in uw systeem aan u is toegewezen, worden op deze pagina deze facturen weergegeven. Als u op zoek bent naar een specifieke factuur, kunt u het filter aan de linkerkant gebruiken. Voor dit voorbeeld is echter geen specifieke factuur vereist. Er moet alleen een bepaalde factuur aan u zijn toegewezen op basis waarvan u de mobiele pagina kunt ontwerpen. De nieuwe pagina's die beschikbaar zijn, zijn specifiek ontworpen voor het ontwikkelen van mobiele scenario's voor leveranciersfacturen. Daarom moet u deze pagina's gebruiken. De URL moet lijken op de volgende URL en nadat u deze hebt ingevoerd, moet de pagina die wordt weergegeven in de afbeelding verschijnen: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Pagina Aan mij toegewezen leveranciersfacturen in behandeling](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
 2.  Klik op de knop **Instellingen** (tandwiel) in de rechterbovenhoek van de pagina en klik op **Mobiele app**.
 3.  Selecteer uw werkgebied en klik op **Bewerken**
 4.  Klik op **Pagina toevoegen** voor het maken van de eerste mobiele pagina.
@@ -148,20 +148,21 @@ De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter 
 6.  Klik op **Gereed**.
 7.  Klik in de mobiele ontwerper op het tabblad **Velden** op **Velden selecteren**. De kolommen op de lijstpagina moeten lijken op de volgende afbeelding. [![Kolommen op de pagina In behandeling zijnde leveranciersfacturen die aan mij zijn toegewezen](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
 8.  Voeg de vereiste kolommen toe vanuit de lijstpagina die moet worden weergegeven voor de gebruikers op de mobiele pagina. De volgorde waarin u toevoegt, is de volgorde waarin de velden worden weergegeven voor de eindgebruiker. De enige manier om de volgorde van de velden te wijzigen is door alle velden opnieuw te selecteren. Op basis van de vereisten voor dit scenario zijn de volgende acht velden vereist. Sommige gebruikers vinden mogelijk dat acht velden te veel informatie is voor een mobiel apparaat. Daarom laten we alleen de belangrijkste velden in de mobiele lijstweergave zien. De resterende velden worden weergegeven in de detailweergave die wij later ontwerpen. Op dit moment voegen we de volgende velden toe. Klik op het plusteken (**+**) in deze kolommen om aan de mobiele pagina toe te voegen.
-    1.  Leveranciernaam
-    2.  Factuurtotaal
-    3.  Te factureren rekening
-    4.  Factuurnummer
-    5.  Factuurdatum
+    - Leveranciernaam
+    - Factuurtotaal
+    - Te factureren rekening
+    - Factuurnummer
+    - Factuurdatum
 
-    Nadat u de velden zijn toegevoegd, moet de mobiele pagina lijken op de volgende afbeelding. [![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    Nadat u de velden zijn toegevoegd, moet de mobiele pagina lijken op de volgende afbeelding. 
+    [![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 9.  U moet de volgende kolommen nu ook toevoegen, zodat we workflowacties later kunnen inschakelen.
-    1.  Voltooide taak weergeven
-    2.  Gedelegeerde taak weergeven
-    3.  Teruggeroepen taak weergeven
-    4.  Geweigerde taak weergeven
-    5.  Voltooiingstaak aanvraag weergeven
-    6.  Herindieningstaak weergeven
+    - Voltooide taak weergeven
+    - Gedelegeerde taak weergeven
+    - Teruggeroepen taak weergeven
+    - Geweigerde taak weergeven
+    - Voltooiingstaak aanvraag weergeven
+    - Herindieningstaak weergeven
 
 10. Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 11. Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten
@@ -170,42 +171,44 @@ De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter 
 
 ### <a name="vendor-invoice-details"></a>Details leveranciersfactuur
 
-Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebruikt u de pagina **VendMobileInvoiceHeaderDetails** in Dynamics 365 for Operations. Houd er rekening mee dat, afhankelijk van het aantal facturen dat u in uw systeem hebt, op deze pagina de oudste factuur (de factuur die het eerst is gemaakt) wordt weergegeven. Als u op zoek bent naar een specifieke factuur, kunt u het filter aan de linkerkant gebruiken. Voor dit voorbeeld is echter geen specifieke factuur vereist. We hebben slechts enkele factuurgegevens nodig zodat we de mobiele pagina kunnen ontwerpen. [![Pagina Workflow](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebruikt u de pagina **VendMobileInvoiceHeaderDetails** in Finance and Operations. Houd er rekening mee dat, afhankelijk van het aantal facturen dat u in uw systeem hebt, op deze pagina de oudste factuur (de factuur die het eerst is gemaakt) wordt weergegeven. Als u op zoek bent naar een specifieke factuur, kunt u het filter aan de linkerkant gebruiken. Voor dit voorbeeld is echter geen specifieke factuur vereist. We hebben slechts enkele factuurgegevens nodig zodat we de mobiele pagina kunnen ontwerpen. [![Pagina Workflow](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Vervang in de Dynamics 365 for Operations-URL de naam van de menuoptie met **VendMobileInvoiceHeaderDetails** om het formulier te openen
+1.  Vervang in de Finance and Operations-URL de naam van de menuoptie met **VendMobileInvoiceHeaderDetails** om het formulier te openen
 2.  Open de mobiele ontwerper met de knop **Instellingen** (tandwiel).
 3.  Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
 4.  Selecteer de pagina Mijn leveranciersfacturen die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
 5.  Klik op het tabblad **Velden** op de kolomkop **Raster**.
 6.  Klik op **Eigenschappen** &gt; **Pagina toevoegen**. **Opmerking:** wanneer u klikt op de kop **Raster** en een pagina toevoegt, wordt de relatie met de detailpagina automatisch ingesteld.
 7.  Voer een paginatitel in, zoals **Factuurdetails**, en een omschrijving, zoals **Koptekst- en regeldetails factuur weergeven**.
-8.  Klik op **Velden selecteren**. Houd er rekening mee dat de volgorde waarin u toevoegt, de volgorde is waarin de velden worden weergegeven voor de eindgebruiker. De enige manier om de volgorde van de velden te wijzigen is door alle velden opnieuw te selecteren.
+8.  Klik op **Velden selecteren**. Houd er rekening mee dat de volgorde waarin u toevoegt, de volgorde is waarin de velden worden weergegeven voor de eindgebruiker. De enige manier om de volgorde van de velden te wijzigen is door alle velden opnieuw te selecteren. 
 9.  Op basis van de vereisten voor dit scenario voegt u de volgende velden uit de koptekst toe:
-    1.  Leveranciernaam
-    2.  Factuurtotaal
-    3.  Te factureren rekening
-    4.  Factuurnummer
-    5.  Factuurdatum
-    6.  Factuuromschrijving
-    7.  Vervaldatum
-    8.  Factuurvaluta
+    - Leveranciernaam
+    - Factuurtotaal
+    - Te factureren rekening
+    - Factuurnummer
+    - Factuurdatum
+    - Factuuromschrijving
+    - Vervaldatum
+    - Factuurvaluta
 
 10. Voeg de volgende velden uit het regelraster op de pagina toe:
-    1.  Inkoopcategorie
-    2.  Hoeveelheid
-    3.  Eenheidsprijs
-    4.  Nettobedrag per regel
-    5.  1099-bedrag
+    - Inkoopcategorie
+    - Hoeveelheid
+    - Eenheidsprijs
+    - Nettobedrag per regel
+    - 1099-bedrag
 
-11. Nadat alle velden uit de vorige twee stappen zijn toegevoegd, klikt u op **Gereed**. De pagina moet lijken op de volgende afbeelding. [![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+11. Nadat alle velden uit de vorige twee stappen zijn toegevoegd, klikt u op **Gereed**. De pagina moet lijken op de volgende afbeelding.
+[![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 13. Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten
 14. Klik op **Werkgebied publiceren** om uw werk op te slaan.
 
 ### <a name="workflow-actions"></a>Workflowacties
 
-Als workflowacties wilt toevoegen, gebruikt u de pagina **VendMobileInvoiceHeaderDetails** in Dynamics 365 for Operations. Als u deze pagina wilt openen, vervangt u de naam van de menuoptie in de URL, zoals u eerder hebt gedaan. Open de mobiele ontwerper vervolgens met de knop **Instellingen** (tandwiel). Voer de volgende stappen uit om workflowacties op de detailpagina toe te voegen.
+Als workflowacties wilt toevoegen, gebruikt u de pagina **VendMobileInvoiceHeaderDetails** in Finance and Operations. Als u deze pagina wilt openen, vervangt u de naam van de menuoptie in de URL, zoals u eerder hebt gedaan. Open de mobiele ontwerper vervolgens met de knop **Instellingen** (tandwiel). Voer de volgende stappen uit om workflowacties op de detailpagina toe te voegen. Er moeten dus facturen aan u zijn toegewezen die de correcte status hebben, zodat de workflowacties beschikbaar voor u kunnen worden gemaakt waarvoor u een ontwerp gaat ontwikkelen.
 
+#### <a name="record-workflow-actions"></a>Workflowacties opnemen
 1.  Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
 2.  Selecteer de pagina **Factuurdetails** die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
 3.  Klik op het tabblad **Acties** op **Actie toevoegen**.
@@ -217,14 +220,40 @@ Als workflowacties wilt toevoegen, gebruikt u de pagina **VendMobileInvoiceHeade
 9.  Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 10. Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten
 11. Klik op **Werkgebied publiceren** om uw werk op te slaan.
-12. Herhaal de stappen 3 tot en met 11 om alle vereiste workflowacties te registreren. Het is dus een vereiste dat er facturen aan u moeten zijn toegewezen die een status hebben zodat de workflowacties beschikbaar voor u kunnen worden gemaakt waarvoor u een ontwerp gaat ontwikkelen.
-13. Open Kladblok of Microsoft Visual Studio en plak de volgende code. Sla het rapport als een .js-bestand op. Deze code doet twee dingen:
-    1.  De extra workflowgerelateerde kolommen worden verborgen die we eerder op de mobiele lijstpagina hebben toegevoegd. We hebben deze kolommen toegevoegd zodat de app die informatie in context heeft en de volgende stap kan worden uitgevoerd.
-    2.  Op basis van de workflowstap die actief is, wordt deze logica toegepast om slechts twee acties weer te geven.
+12. Herhaal de vorige stappen om alle vereiste workflowacties te registreren. 
 
-Houd er rekening mee dat de naam van de pagina's en andere besturingselementen in de JS-code hetzelfde moet zijn als die uit het werkgebied.
+#### <a name="create-a-js-file"></a>Een js-bestand maken.
+1. Open Kladblok of Microsoft Visual Studio en plak de volgende code. Sla het rapport als een .js-bestand op. Deze code voert het volgende uit:
+    - De extra workflowgerelateerde kolommen worden verborgen die we eerder op de mobiele lijstpagina hebben toegevoegd. We hebben deze kolommen toegevoegd zodat de app die informatie in context heeft en de volgende stap kan worden uitgevoerd.
+    - Op basis van de workflowstap die actief is, wordt deze logica toegepast om slechts twee acties weer te geven.
 
-1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
+> [!NOTE]
+> De namen van pagina's en andere besturingselementen in de code moet hetzelfde zijn als de namen in het werkgebied.
+
+    function main(metadataService, dataService, cacheService, $q) {
+           return {
+               appInit: function (appMetadata) {
+                   // Hide controls that need to be present, but not visible
+                   metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });
+                 metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });
+               metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });
+               },
+               pageInit: function (pageMetadata, params) {
+        if (pageMetadata.Name == 'Invoice-details') {
+                       // Show/hide workflow actions based on workflow step
+                       metadataService.configureAction('Accept', { visible: true });
+                       metadataService.configureAction('Approve', { visible: true });
+                       metadataService.configureAction('Reject', { visible: true });
+                       metadataService.configureAction('Delegate', { visible: true });
+                       metadataService.configureAction('Request-change', { visible: true });
+                       metadataService.configureAction('Recall', { visible: true });
+                       metadataService.configureAction('Complete', { visible: true });
+                       metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -271,19 +300,20 @@ Houd er rekening mee dat de naam van de pagina's en andere besturingselementen i
 2.  Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
 3.  Selecteer de pagina Factuurdetails die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
 4.  Stel de optie **Documentbeheer** in op **Ja** zoals hieronder wordt weergegeven. **Opmerking:** als er geen vereisten zijn om bijlagen weer te geven op het mobiele apparaat, kunt u deze optie ingesteld laten op **Nee**. Dit is de standaardinstelling.
-5.  [![docmanagement](./media/docmanagement-216x300.png)](./media/docmanagement.png)
+![Documentbeheer](./media/docmanagement-216x300.png)
 6.  Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 7.  Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten
 8.  Klik op **Werkgebied publiceren** om uw werk op te slaan.
 
 ### <a name="vendor-invoice-line-distributions"></a>Leveranciersfactuurregelverdelingen
 
-Met vereisten voor dit scenario wordt bevestigd dat er alleen verdelingen op regelniveau zijn en dat een factuur altijd slechts één regel heeft. Omdat dit scenario eenvoudig is, moet de gebruikerservaring op het mobiele apparaat ook zo eenvoudig zijn dat de gebruiker geen detailanalyse hoeft uit te voeren op verschillende niveaus om de verdelingen weer te geven. Leveranciersfacturen in Dynamics 365 for Operations bevatten de optie waarmee alle verdelingen uit de factuurkoptekst kunnen worden weergegeven. Deze ervaring is wat we nodig hebben voor het mobiele scenario. Daarom gebruiken we de pagina **VendMobileInvoiceAllDistributionTree** om dit deel van het mobiele scenario te ontwerpen. 
+Met vereisten voor dit scenario wordt bevestigd dat er alleen verdelingen op regelniveau zijn en dat een factuur altijd slechts één regel heeft. Omdat dit scenario eenvoudig is, moet de gebruikerservaring op het mobiele apparaat ook zo eenvoudig zijn dat de gebruiker geen detailanalyse hoeft uit te voeren op verschillende niveaus om de verdelingen weer te geven. Leveranciersfacturen in Finance and Operations hebben ook de optie om alle verdelingen uit de factuurkoptekst weer te geven. Deze ervaring is wat we nodig hebben voor het mobiele scenario. Daarom gebruiken we de pagina **VendMobileInvoiceAllDistributionTree** om dit deel van het mobiele scenario te ontwerpen. 
 
 > [!NOTE] 
 > Op basis van de vereisten kunnen we bepalen welke specifieke pagina moet worden gebruikt en hoe de mobiele ervaring exact moet worden geoptimaliseerd voor de gebruiker bij het ontwerp van het scenario. In het tweede scenario gebruiken we een andere pagina om de verdelingen weer te geven, omdat de vereisten voor dat scenario verschillen.
 
-1.  Vervang in de URL de naam van de menuoptie, zoals u eerder hebt gedaan. De pagina die verschijnt, moet lijken op de volgende afbeelding. [![Pagina Alle verdelingen](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+1.  Vervang in de URL de naam van de menuoptie, zoals u eerder hebt gedaan. De pagina die verschijnt, moet lijken op de volgende afbeelding.
+[![Pagina Alle verdelingen](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 2.  Open de mobiele ontwerper met de knop **Instellingen** (tandwiel).
 3.  Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten. **Opmerking:** u ziet dat er automatisch twee nieuwe pagina's zijn gemaakt. Omdat u documentbeheer in het vorige gedeelte hebt ingeschakeld, worden deze pagina's gemaakt. U kunt deze nieuwe pagina's negeren.
 4.  Klik op **Pagina toevoegen**.
@@ -294,22 +324,50 @@ Met vereisten voor dit scenario wordt bevestigd dat er alleen verdelingen op reg
     2.  Valuta
     3.  Grootboekrekening
 
-> [!NOTE] 
-> We hebben de kolom **Omschrijving** uit het raster Verdelingen niet geselecteerd, omdat de vereisten voor dit scenario hebben bevestigd dat de totaalprijs het enige bedrag is waarvoor er verdelingen zijn. De gebruiker heeft daarom geen ander veld nodig om het bedragtype te bepalen waarvoor de verdeling is bestemd. In het volgende scenario gebruiken we echter deze gegevens **wel**, omdat de vereisten voor dat scenario aangeven dat andere bedragtypen verdelingen hebben (bijvoorbeeld btw).
+    > [!NOTE] 
+    > We hebben de kolom **Omschrijving** uit het raster Verdelingen niet geselecteerd, omdat de vereisten voor dit scenario hebben bevestigd dat de totaalprijs het enige bedrag is waarvoor er verdelingen zijn. De gebruiker heeft daarom geen ander veld nodig om het bedragtype te bepalen waarvoor de verdeling is bestemd. In het volgende scenario gebruiken we echter deze gegevens **wel**, omdat de vereisten voor dat scenario aangeven dat andere bedragtypen verdelingen hebben (bijvoorbeeld btw).
 8.  Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 9.  Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten
 10. Klik op **Werkgebied publiceren** om uw werk op te slaan.
 
-**Opmerking:** de mobiele pagina **Boekhouding weergeven** is momenteel niet gekoppeld aan een van de mobiele pagina's die we tot nu toe hebben ontworpen. Omdat de gebruiker moet kunnen navigeren naar de pagina **Boekhouding weergeven** van de pagina **Factuurdetails** op het mobiele apparaat, moeten wij navigatie verschaffen vanaf de pagina **Factuurdetails** naar de pagina **Boekhouding weergeven**. We stellen deze navigatie in met behulp van aanvullende logica via JavaScript.
+> [!NOTE] 
+> De mobiele pagina **Boekhouding weergeven** is nu nog niet gekoppeld aan een van de mobiele pagina's die we tot nu toe hebben ontworpen. Omdat de gebruiker moet kunnen navigeren naar de pagina **Boekhouding weergeven** van de pagina **Factuurdetails** op het mobiele apparaat, moeten wij navigatie verschaffen vanaf de pagina **Factuurdetails** naar de pagina **Boekhouding weergeven**. We stellen deze navigatie in met behulp van aanvullende logica via JavaScript.
 
 1.  Open het .js-bestand dat u eerder hebt gemaakt en voeg de regels toe die in de volgende code zijn gemarkeerd. Deze code doet twee dingen:
     1.  Dit helpt te garanderen dat gebruikers niet rechtstreeks van het werkgebied naar de pagina **Boekhouding weergeven** kunnen navigeren.
     2.  Er wordt een navigatiebesturingselement ingesteld vanaf de pagina **Factuurdetails** naar de pagina **Boekhouding weergeven**.
 
 > [!NOTE] 
-> De naam van de pagina's en andere besturingselementen in de JS-code moet hetzelfde zijn als die uit het werkgebied.
+> De namen van pagina's en andere besturingselementen in de code moet hetzelfde zijn als de namen in het werkgebied.
 
-1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });                // Hide pages not applicable for root navigation                metadataService.hideNavigation('View-accounting');                //Link to view accounting                metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
+    function main(metadataService, dataService, cacheService, $q) {
+           return {
+               appInit: function (appMetadata) {
+                   // Hide controls that need to be present, but not visible
+                   metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });
+                 metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });
+                   metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });
+               metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });
+                   // Hide pages not applicable for root navigation
+                   metadataService.hideNavigation('View-accounting');
+                   //Link to view accounting
+                   metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);
+               },
+               pageInit: function (pageMetadata, params) {
+        if (pageMetadata.Name == 'Invoice-details') {
+                       // Show/hide workflow actions based on workflow step
+                       metadataService.configureAction('Accept', { visible: true });
+                       metadataService.configureAction('Approve', { visible: true });
+                       metadataService.configureAction('Reject', { visible: true });
+                       metadataService.configureAction('Delegate', { visible: true });
+                       metadataService.configureAction('Request-change', { visible: true });
+                       metadataService.configureAction('Recall', { visible: true });
+                       metadataService.configureAction('Complete', { visible: true });
+                       metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -352,7 +410,7 @@ Met vereisten voor dit scenario wordt bevestigd dat er alleen verdelingen op reg
 
 ### <a name="validation"></a>Validatie
 
-Open vanaf uw mobiele apparaat de app en maak verbinding met uw Dynamics 365 for Operations-exemplaar. Zorg ervoor dat u zich aanmeldt bij het bedrijf waar leveranciersfacturen ter controle aan u zijn toegewezen. U moet de volgende acties kunnen uitvoeren:
+Open op uw mobiele apparaat de app en maak verbinding met uw Finance and Operations-exemplaar. Zorg ervoor dat u zich aanmeldt bij het bedrijf waar leveranciersfacturen ter controle aan u zijn toegewezen. U moet de volgende acties kunnen uitvoeren:
 
 -   Zie het werkgebied **Mijn goedkeuringen**.
 -   Zoom in op het werkgebied **Mijn goedkeuringen** en bekijk de pagina **Mijn leveranciersfacturen**.
@@ -421,9 +479,9 @@ Open vanaf uw mobiele apparaat de app en maak verbinding met uw Dynamics 365 for
 </tbody>
 </table>
 
-### <a name="exercise"></a>Oefening
+### <a name="next-steps"></a>Volgende stappen
 
-De volgende variaties kunnen worden uitgevoerd voor scenario 1, op basis van de vereisten voor scenario 2. Gebruik dit gedeelte als een oefening die u kunt uitvoeren voor leerdoeleinden.
+De volgende variaties kunnen worden uitgevoerd voor scenario 1, op basis van de vereisten voor scenario 2. U kunt deze sectie gebruiken om de ervaring in uw mobiele app te verbeteren.
 
 1.  Omdat er meer factuurregels worden verwacht in scenario 2, helpen de volgende wijzigingen in het ontwerp de gebruikerservaring op het mobiele apparaat te optimaliseren:
     1.  In plaats van factuurregels weer te geven op de detailpagina (zoals in scenario 1), kunnen gebruikers ervoor kiezen regels op een aparte mobiele pagina weer te geven.
@@ -432,8 +490,6 @@ De volgende variaties kunnen worden uitgevoerd voor scenario 1, op basis van de 
 
 2.  Omdat meer dan één bedragtype wordt verwacht voor de verdelingen in scenario 2 (btw, toeslagen, enzovoort), is het nuttig om de omschrijving van het bedragtype weer te geven. (We hebben deze informatie in scenario 1 weggelaten.)
 
-## <a name="conclusion"></a>Conclusie
-Met het mobiele platform en de toepassingsmogelijkheden kunt u mobiele scenario's ontwerpen die zijn geoptimaliseerd voor een gebruikersbasis in een organisatie. Op basis van de voorbeelden in dit onderwerp kunt u andere variaties proberen en verschillende ervaringen creëren die voldoen aan een specifieke behoefte.
 
 
 

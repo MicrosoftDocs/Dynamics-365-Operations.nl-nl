@@ -1,9 +1,9 @@
 ---
 title: Intrastat
-description: Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio&quot;s van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
+description: Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5dea47c92c3891ce86b470119ea3bad8252c08d1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6d1141d597e95b0d5cabf77c0248697d256b102a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ De volgende secties beschrijven de gehele stroom van informatie die wordt gebrui
 
 ### <a name="1-enter-a-transaction-that-crosses-the-border-of-another-eu-countryregion"></a>1. Voer een transactie in die de grens met een ander EU-land/regio overschrijdt.
 
-Een klantfactuur, een vrije-tektsfactuur, een inkoopfactuur, een projectfactuur, een pakbon van de klant, een productontvangstbon van de leverancier of een transferorder worden alleen overgeboekt naar het Intrastat-journaal als het type land/regio van de bestemming (voor verzendingen) of verzending (op ontvangsten)**EU** is. Deze functie is uitgebreid voor Microsoft Dynamics 365 for Operations versie 1611. Met deze functie kunt u vrachtadressen voor een intracommunautaire transactie opgeven. Als een vrachtadres afwijkt van een zakelijk adres van de leverancier (of zakelijk adres van de klant voor retourorder), wordt deze informatie voor de Intrastat-aangifte gebruikt. Wanneer u een verkooporder, een vrije-tektsfactuur, een inkooporder, een leveranciersfactuur, een projectfactuur of een transferorder maakt, hebben sommige velden die aan buitenlandse handel zijn gerelateerd, standaardwaarden in de documentkoptekst of op de regel. De standaardtransactiecode wordt overgenomen uit het overeenkomstige veld op de pagina **Parameters buitenlandse handel**. De standaarbasisproductcode, het land/de regio van herkomst, en staat/provincie van herkomst worden opgehaald van het artikel. U kunt de standaardwaarden wijzigen en ook andere aan buitenlandse handel gerelateerde informatie invullen: de statistische procedure, de transportwijze en de haven.
+Een klantfactuur, een vrije-tektsfactuur, een inkoopfactuur, een projectfactuur, een pakbon van de klant, een productontvangstbon van de leverancier of een transferorder worden alleen overgeboekt naar het Intrastat-journaal als het type land/regio van de bestemming (voor verzendingen) of verzending (op ontvangsten)**EU** is. Deze functie is uitgebreid voor Microsoft Dynamics 365 for Operations (1611). Met deze functie kunt u vrachtadressen voor een intracommunautaire transactie opgeven. Als een vrachtadres afwijkt van een zakelijk adres van de leverancier (of zakelijk adres van de klant voor retourorder), wordt deze informatie voor de Intrastat-aangifte gebruikt. Wanneer u een verkooporder, een vrije-tektsfactuur, een inkooporder, een leveranciersfactuur, een projectfactuur of een transferorder maakt, hebben sommige velden die aan buitenlandse handel zijn gerelateerd, standaardwaarden in de documentkoptekst of op de regel. De standaardtransactiecode wordt overgenomen uit het overeenkomstige veld op de pagina **Parameters buitenlandse handel**. De standaarbasisproductcode, het land/de regio van herkomst, en staat/provincie van herkomst worden opgehaald van het artikel. U kunt de standaardwaarden wijzigen en ook andere aan buitenlandse handel gerelateerde informatie invullen: de statistische procedure, de transportwijze en de haven.
 
 ### <a name="2-use-the-intrastat-journal-to-generate-information-about-trade-among-eu-countriesregions"></a>2. Met het Intrastat-journaal kunt u gegevens genereren over handel tussen landen en regio's van de EU.
 

@@ -3,14 +3,14 @@ title: Veldomschrijvingen weergeven en exporteren
 description: In dit artikel wordt beschreven hoe veldbeschrijvingen worden weergegeven en hoe de pagina Veldbeschrijvingen kan worden gebruikt van om beschrijvingen te exporteren.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 In dit artikel wordt beschreven hoe veldbeschrijvingen worden weergegeven en hoe de pagina Veldbeschrijvingen kan worden gebruikt van om beschrijvingen te exporteren.
 
-Microsoft Dynamics 365 for Operations bevat beschrijvingen voor enkele van de complexere velden. Deze beschrijvingen worden weergegeven wanneer u de muisaanwijzer op een veld plaatst. U kunt ook beschrijvingen weergeven en exporteren op de pagina **Veldbeschrijvingen**. 
+Microsoft Dynamics 365 for Finance and Operations bevat beschrijvingen voor enkele van de complexere velden. Deze beschrijvingen worden weergegeven wanneer u de muisaanwijzer op een veld plaatst. U kunt ook beschrijvingen weergeven en exporteren op de pagina **Veldbeschrijvingen**. 
 
 Niet alle pagina's hebben veldomschrijvingen. We willen alleen beschrijvingen geven voor de complexere velden en niet voor de velden waarvoor het gebruik duidelijk is. Daarom hebben sommige pagina's geen veldbeschrijvingen, sommige pagina's een paar beschrijvingen en sommige van de meer complexe pagina's, zoals veel van de pagina's met parameters, veel beschrijvingen. 
 
-Als u toegang hebt tot de Dynamics 365 for Operations-ontwikkelomgeving, kunt u nieuwe veldbeschrijvingen toevoegen en bestaande beschrijvingen aanpassen. U kunt bijvoorbeeld bedrijfsspecifieke informatie toevoegen aan een veldbeschrijving. Zie [Help voor velden aanpassen](/dynamics365/operations/dev-itpro/user-interface/customize-field-help) voor meer informatie.
+Als u toegang hebt tot de Finance and Operations-ontwikkelomgeving, kunt u nieuwe veldbeschrijvingen toevoegen en bestaande beschrijvingen aanpassen. U kunt bijvoorbeeld bedrijfsspecifieke informatie toevoegen aan een veldbeschrijving. Zie [Help voor velden aanpassen](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help) voor meer informatie.
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Zie veldbeschrijvingen in de gebruikersinterface.
-U kunt veldomschrijvingen weergeven door de cursor boven een veld te houden. Als er geen beschrijving beschikbaar is, ziet u de veldnaam wanneer u de muisaanwijzer op het veld plaatst. (Opmerking: In versie 7.0.0 kunnen veldbeschrijvingen alleen worden weergegeven op de pagina **Veldomschrijvingen**.) In de volgende afbeelding ziet u de beschrijving die wordt weergegeven wanneer u de muisaanwijzer op het veld **Artikelen vergrendelen tijdens telling** plaatst. 
+U kunt veldomschrijvingen weergeven door de cursor boven een veld te houden. Als er geen beschrijving beschikbaar is, ziet u de veldnaam wanneer u de muisaanwijzer op het veld plaatst. (Opmerking: In versie Dynamics AX 7.0.0 (februari 2016) kunnen veldbeschrijvingen alleen worden weergegeven op de pagina **Veldomschrijvingen**.) In de volgende afbeelding ziet u de beschrijving die wordt weergegeven wanneer u de muisaanwijzer op het veld **Artikelen vergrendelen tijdens telling** plaatst. 
 
 [![Voorbeeld van een veldbeschrijving](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Zie de sectie 'Zoeken naar pagina's' eerder in dit artikel voor meer informatie 
 <a name="see-also"></a>Zie ook
 --------
 
-[Help voor velden aanpassen](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[Help voor velden aanpassen](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

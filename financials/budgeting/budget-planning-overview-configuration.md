@@ -3,14 +3,14 @@ title: Overzicht budgetplanning
 description: Dit artikel is een introductie tot budgetplanning en bevat informatie waarmee u budgetplanning kunt configureren en budgetplanningprocessen kunt instellen.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -38,7 +38,7 @@ Dit artikel is een introductie tot budgetplanning en bevat informatie waarmee u 
 
 U voert budgetplanning uit wanneer u de budgetten voorbereidt die door een organisatie worden geïmplementeerd. Een organisatie kan budgetplanning configureren en vervolgens budgetplanningsprocessen instellen om te voldoen aan de bijbehorende beleidsregels, procedures en vereisten voor budgetvoorbereiding. 
 
-Wanneer u de concepten en terminologie begrijpt die in Microsoft Dynamics 365 for Operations worden gebruikt, is het voor u gemakkelijker budgetplanning in uw organisatie te implementeren.
+Wanneer u de concepten en terminologie begrijpt die in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition worden gebruikt, is het voor u gemakkelijker budgetplanning in uw organisatie te implementeren.
 
 ### <a name="key-terms"></a>Belangrijke termen
 
@@ -59,7 +59,7 @@ U kunt budgetplanning gebruiken om de volgende taken uit te voeren:
 -   De budgetplannen automatisch doorsturen samen met werkbladen, verantwoordingsdocumenten en andere bijlagen voor beoordeling en goedkeuring.
 -   Meerdere budgetplannen van een lager niveau van de organisatie samenvoegen in één bovenliggend budgetplan op een hoger niveau van de organisatie. U kunt ook een enkel budgetplan ontwikkelen op een hoger niveau in de organisatie en de budgetten toewijzen aan lagere niveaus van de organisatie.
 
-Budgetplanning wordt geïntegreerd met andere Microsoft Dynamics 365 for Operations-modules. Zo kunt u informatie van vorige budgetten, werkelijke uitgaven, vaste activa en Human Resources gebruiken. Omdat budgetplanning ook is geïntegreerd met Microsoft Excel en Microsoft Word, kunt u deze programma's gebruiken om met budgetplanningsgegevens te werken. Een budgetbeheerder kan bijvoorbeeld de budgetaanvraag van een afdeling importeren vanuit een budgetplanscenario in een Excel-werkblad. De gegevens kunnen worden geanalyseerd, bijgewerkt en uitgezet in het werkblad en vervolgens terug naar de budgetplanregels worden gepubliceerd.
+Budgetplanning wordt geïntegreerd met andere Microsoft Dynamics 365 for Finance and Operations-modules. Zo kunt u informatie van vorige budgetten, werkelijke uitgaven, vaste activa en Human Resources gebruiken. Omdat budgetplanning ook is geïntegreerd met Microsoft Excel en Microsoft Word, kunt u deze programma's gebruiken om met budgetplanningsgegevens te werken. Een budgetbeheerder kan bijvoorbeeld de budgetaanvraag van een afdeling importeren vanuit een budgetplanscenario in een Excel-werkblad. De gegevens kunnen worden geanalyseerd, bijgewerkt en uitgezet in het werkblad en vervolgens terug naar de budgetplanregels worden gepubliceerd.
 
 ## <a name="configuring-budget-planning"></a>Budgetplanning configureren
 De pagina **Budgetplanningsconfiguratie** bevat de meeste instellingen die u nodig hebt om budgetplanning in te stellen. In de volgende secties wordt een aantal belangrijke factoren beschreven waarmee u rekening dient te houden wanneer u budgetplanning configureert. Nadat u de configuratie hebt voltooid, stelt u budgetplanningsprocessen in.
@@ -78,7 +78,7 @@ In het volgende voorbeeld schat het hoofdkantoor van het bedrijf de oorspronkeli
 
 Op de pagina **Organisatiehiërarchie** kunt u een organisatiehiërarchie toewijzen als een budgetplanningshiërarchie voor elk budgetplanningsproces. De budgetplanningshiërarchie hoeft niet overeen te komen met de standaardorganisatiehiërarchie die wordt gebruikt voor andere doeleinden. Omdat deze hiërarchie wordt gebruikt om gegevens samen te voegen en te distribueren, kunt u deze wellicht een andere structuur geven. In het voorbeeldschema bevinden de verkoopafdelingen zich onder een hoofdkantoorniveau dat budget- en financiële afdelingen bevat. Deze structuur verschilt waarschijnlijk van de structuur die wordt gebruikt om bewerkingen voor de verkoopafdelingen te beheren. Slechts één organisatiehiërarchie kan worden toegewezen aan elk budgetplanningsproces. 
 
-Zie [Organisaties en organisatiehiërarchieën](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies) voor meer informatie.
+Zie [Organisaties en organisatiehiërarchieën](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies) voor meer informatie.
 
 ### <a name="user-security"></a>Gebruikersbeveiliging
 
@@ -88,13 +88,13 @@ Budgetplanning kan een van de twee beveiligingsmodellen volgen om gebruikermacht
 
 Budgetplanningsworkflows worden gebruikt in combinatie met budgetteringsworkflows om het maken en ontwikkelen van budgetplannen te beheren.
 
-Een budgetplanningwerkstroom bestaat uit een geordende reeks fasen die een budgetplan doorloopt. Elke budgetplanningsworkflow wordt gekoppeld aan een budgetteringsworkflow. Budgetteringsworkflows zijn een type workflow die in heel Microsoft Dynamics 365 for Operations wordt gebruikt. Met de budgetteringsworkflow worden de budgetplannen samen met de werkbladen, verantwoordingsdocumenten en bijlagen door de hele organisatie doorgestuurd voor beoordeling en goedkeuring. 
+Een budgetplanningwerkstroom bestaat uit een geordende reeks fasen die een budgetplan doorloopt. Elke budgetplanningsworkflow wordt gekoppeld aan een budgetteringsworkflow. Budgetteringsworkflows zijn een type workflow die in heel Finance and Operations wordt gebruikt. Met de budgetteringsworkflow worden de budgetplannen samen met de werkbladen, verantwoordingsdocumenten en bijlagen door de hele organisatie doorgestuurd voor beoordeling en goedkeuring. 
 
 U maakt de budgetplanningsworkflow in de sectie **Workflowfasen** van de pagina **Budgetplanningsconfiguratie**. Daar kunt u de fasen en de budgetteringsworkflow selecteren die worden gebruikt en ook kunt u extra instellingen configureren. 
 
 Het is een goed idee om een budgetplanningsworkflow voor elk niveau van een budgetteringshiërarchie maken. U wijst vervolgens een budgetteringsworkflow toe die elementen bevat die overeenkomen met de fasen in de budgetplanningsworkflow. In het voorbeeldschema eerder in dit artikel wordt een budgetplanningsworkflow gemaakt voor de verkoopafdelingen, wordt een andere budgetplanningsworkflow gemaakt voor het hoofdkantoor. Met een budgetteringsworkflow worden de budgetplannen door de fasen verplaatst. 
 
-U maakt de budgetteringsworkflow voor budgetplanning op de pagina **Budgetteringsworkflows**. Het proces lijkt op het proces voor het maken van andere workflows in Microsoft Dynamics 365 for Operations. In de volgende afbeelding ziet u een voorbeeld van een hoofdkantoorworkflow. 
+U maakt de budgetteringsworkflow voor budgetplanning op de pagina **Budgetteringsworkflows**. Het proces lijkt op het proces voor het maken van andere workflows in Finance and Operations. In de volgende afbeelding ziet u een voorbeeld van een hoofdkantoorworkflow. 
 
 [![Budgetteringsworkflow voor budgetplanning](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 

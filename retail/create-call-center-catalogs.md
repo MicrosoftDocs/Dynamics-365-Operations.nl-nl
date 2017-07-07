@@ -3,27 +3,26 @@ title: Een catalogus maken voor het call center
 description: Dit artikel geeft een overzicht van het proces voor de aanmaak van een catalogus voor een callcenter.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef58d4b2028aee5bccd9f060abed8342381888eb
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28aaa84c11a897b895b2a106ca5f0cd6168997b2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Dit artikel geeft een overzicht van het proces voor de aanmaak van een catalogus voor een callcenter. 
 
-In een callcenter kunt u productcatalogi gebruiken voor de identificatie van de producten die u aan klanten wilt aanbieden. Callcenters gebruiken meestal afgedrukte catalogi. Het ontwerp en de productie van een afgedrukte catalogus worden buiten Microsoft Dynamics 365 for Operations uitgevoerd. U kunt echter een digitaal formulier van een catalogus in Detailhandel en commerce in Dynamics 365 for Operations maken en opslaan met dezelfde formulieren die u gebruikt om online detailhandelcatalogi in te stellen. Voordat u een catalogus kunt maken, moet u de productassortimenten instellen en de assortimenten toewijzen aan een callcenter. U voegt vervolgens producten toe aan de catalogus door producten uit deze assortimenten te selecteren. Nadat de producten aan de catalogus zijn toegevoegd, en de catalogus is voltooid, moet u de catalogus valideren om de gegevens te controleren. U moet vervolgens de catalogus indienen ter beoordeling en goedkeuring. Nadat de catalogus is goedgekeurd, kan deze worden gepubliceerd. Wanneer een callcentercatalogus wordt gemaakt, kunt u een momentopname van de catalogusgegevens nemen op het moment dat de catalogus wordt gepubliceerd. Met deze momentopnamefunctionaliteit kunt u een bepaalde versie van de catalogus openen, zelfs als de catalogus later wordt gewijzigd en bijgewerkt. De callcentercatalogi kunnen ook worden ingesteld om de volgende optionele functies te bevatten.
+In een callcenter kunt u productcatalogi gebruiken voor de identificatie van de producten die u aan klanten wilt aanbieden. Callcenters gebruiken meestal afgedrukte catalogi. Het ontwerp en de productie van een afgedrukte catalogus worden buiten Microsoft Dynamics 365 for Retail uitgevoerd. U kunt echter een digitaal formulier van een catalogus maken en opslaan met dezelfde formulieren die u gebruikt om online detailhandelcatalogi in te stellen. Voordat u een catalogus kunt maken, moet u de productassortimenten instellen en de assortimenten toewijzen aan een callcenter. U voegt vervolgens producten toe aan de catalogus door producten uit deze assortimenten te selecteren. Nadat de producten aan de catalogus zijn toegevoegd, en de catalogus is voltooid, moet u de catalogus valideren om de gegevens te controleren. U moet vervolgens de catalogus indienen ter beoordeling en goedkeuring. Nadat de catalogus is goedgekeurd, kan deze worden gepubliceerd. Wanneer een callcentercatalogus wordt gemaakt, kunt u een momentopname van de catalogusgegevens nemen op het moment dat de catalogus wordt gepubliceerd. Met deze momentopnamefunctionaliteit kunt u een bepaalde versie van de catalogus openen, zelfs als de catalogus later wordt gewijzigd en bijgewerkt. De callcentercatalogi kunnen ook worden ingesteld om de volgende optionele functies te bevatten.
 
 -   **Broncodes** – Codes die worden gebruikt om de klantrespons op bepaalde catalogusmailings bij te houden.
 -   **Gratis producten** – Producten die in een klantorder zijn opgenomen zonder extra kosten. Deze producten worden automatisch aan de order toegevoegd wanneer de broncode voor de catalogus in de order wordt ingevoerd.

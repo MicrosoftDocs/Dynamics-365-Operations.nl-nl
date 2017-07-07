@@ -3,14 +3,14 @@ title: Overzicht opdracht tot inkoop
 description: In dit artikel wordt de workflow voor opdrachten tot inkoop beschreven en de verschillende statussen die een opdracht tot inkoop kan hebben.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 38e7fba3fbd12de3a1cd9ac7b1c627834978ba30
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8c60d870d0ca178af84919e5ebaaa13769b46f8a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Nadat een opdracht tot inkoop is goedgekeurd, kan deze worden gebruikt om een in
 ## <a name="creating-purchase-requisitions"></a>Opdrachten tot inkoop maken
 U kunt een opdracht tot inkoop maken op de pagina **Mijn opdrachten tot inkoop** en de artikelen en services selecteren die u nodig hebt. U kunt artikelen selecteren uit een aanschaffingscatalogus die uw organisatie maakte of u kunt artikelen vereisen die niet in een catalogus zijn gevonden door een aanschaffingscategorie te selecteren en de productgegevens in te voeren.  
 
-Voordat u een opdracht tot inkoop ter controle kunt indienen, moeten de workflow in de Microsoft Dynamics 365 for Operations-client worden geconfigureerd. U gebruikt en workflow om een opdracht tot inkoop door het beoordelingsproces te sturen, vanaf de beginstatus **Concept** tot de definitieve status **Goedgekeurd**.
+Voordat u een opdracht tot inkoop ter controle kunt indienen, moeten de workflow in Microsoft Dynamics 365 for Finance and Operations worden geconfigureerd. U gebruikt en workflow om een opdracht tot inkoop door het beoordelingsproces te sturen, vanaf de beginstatus **Concept** tot de definitieve status **Goedgekeurd**.
 
 ### <a name="purchase-requisition-statuses"></a>Status van inkoopbestelopdracht
 
@@ -143,7 +143,7 @@ In het inkoopbeleid kunt u de bestelopdrachtdoelen bepalen die beschikbaar zijn 
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Opdrachten bestemd voor verbruik
 
-Een opdracht die een verbruiksdoel heeft, vertegenwoordigt een vraag naar artikelen of services die intern worden gebruikt door uw organisatie. De vraag dat dit type opdracht maakt, wordt altijd voldaan door een inkooporder. Als Microsoft Dynamics 365 for Operations zo is ingesteld dat er automatisch inkooporders worden gegenereerd, worden inkooporders gemaakt nadat de opdracht tot inkoop is goedgekeurd.
+Een opdracht die een verbruiksdoel heeft, vertegenwoordigt een vraag naar artikelen of services die intern worden gebruikt door uw organisatie. De vraag dat dit type opdracht maakt, wordt altijd voldaan door een inkooporder. Als Microsoft Dynamics 365 for Finance and Operations zo is ingesteld dat inkooporders automatisch worden gegenereerd, worden inkooporders gemaakt nadat de opdracht tot inkoop is goedgekeurd.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Opdrachten bestemd voor aanvulling
 

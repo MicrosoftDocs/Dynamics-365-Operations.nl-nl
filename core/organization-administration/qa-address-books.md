@@ -3,7 +3,7 @@ title: Adresboeken
 description: 
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23601
 ms.assetid: b177fa0f-ac9a-415e-9498-15438e132f60
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 568000b37fa067dfd34b4ee0642e4ba6cbe3aa54
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7b3bed2bec4b109c6e3b557b8c3651f15f25169c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,8 +42,8 @@ U kunt op dubbele registraties controleren vanuit de lijstpagina **Algemeen adre
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>Kan ik partijregistraties bulksgewijs toevoegen aan of verwijderen uit een adresboek?
 Ja, u kunt meerdere partijregistraties toevoegen aan en verwijderen uit een adresboek.
 
--   Als u meerdere partijregistraties wilt toevoegen aan een adresboek, selecteert u op de lijstpagina **Algemeen adresboek** de partijen in de lijst. Klik in het actievenster op het tabblad **Partij**in de groep **Onderhouden**op **Partijen toewijzen**. Selecteer de adresboeken waaraan de geselecteerde partijregistraties moeten worden toegevoegd en klik op **OK**. Alle geselecteerde partijregistraties worden toegevoegd aan de geselecteerde adresboeken.
--   Als u meerdere partijregistraties wilt verwijderen uit een adresboek, selecteert u op de lijstpagina **Algemeen adresboek** de partijen in de lijst. Klik in het actievenster op het tabblad **Partij**in de groep **Onderhouden**op **Partijen verwijderen**. Selecteer de adresboeken waaruit de partijen moeten worden verwijderd en klik vervolgens op **OK**. Alle geselecteerde partijregistraties worden verwijderd uit de geselecteerde adresboeken.
+-   Als u meerdere partijregistraties wilt toevoegen aan een adresboek, selecteert u op de lijstpagina **Algemeen adresboek** de partijen in de lijst. Klik in het actievenster op het tabblad **Partij** in de groep **Onderhouden** op **Partijen toewijzen**. Selecteer de adresboeken waaraan de geselecteerde partijregistraties moeten worden toegevoegd en klik op **OK**. Alle geselecteerde partijregistraties worden toegevoegd aan de geselecteerde adresboeken.
+-   Als u meerdere partijregistraties wilt verwijderen uit een adresboek, selecteert u op de lijstpagina **Algemeen adresboek** de partijen in de lijst. Klik in het actievenster op het tabblad **Partij** in de groep **Onderhouden** op **Partijen verwijderen**. Selecteer de adresboeken waaruit de partijen moeten worden verwijderd en klik vervolgens op **OK**. Alle geselecteerde partijregistraties worden verwijderd uit de geselecteerde adresboeken.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Kan ik het partijtype van een registratie wijzigen of moet ik de oude registratie verwijderen en een nieuwe registratie maken?
 Het kan voorkomen dat u het partijtype van een registratie van persoon in organisatie of van organisatie in persoon moet wijzigen. Nancy is bijvoorbeeld lid van het verkoopteam voor Fabrikam, Groot-Brittannië Ze ontmoet zes nieuwe prospecten op een beurs in Londen. Nancy maakt een prospect partijregistratie voor elke prospect aan. Als Nancy de registraties opslaat, wordt elke registratie ook in het algemene adresboek gemaakt. Fabrikam heeft het standaardpartijtype op organisatie ingesteld, maar twee van de nieuwe prospects moeten het registratietype persoon hebben. Daarom moet Nancy het partijtype van de twee prospectrecords wijzigen wanneer ze terugkeert van de beurs. Als u het type van een partijregistratie wilt wijzigen, moet u eerst een nieuwe partijregistratie van het juiste type in het algemene adresboek maken. U koppelt vervolgens de oude partijregistratie aan deze nieuwe registratie. Nadat u de nieuwe partijkoppeling hebt gemaakt, verwijdert u de oorspronkelijke partijregistratie met het onjuiste registratietype.
@@ -67,7 +67,7 @@ U kunt partijregistraties invoeren in het algemene adresboek of op de pagina van
 -   **Een partijregistratie maken wanneer u het type rechtspersoon weet** – Als u het type rechtspersoon voor de partij weet, kunt u een registratie maken op de betreffende pagina voor dat type. Voor een klant maakt u bijvoorbeeld een registratie op de pagina **Klant**. Wanneer u een registratie maakt en opslaat via de betreffende pagina, wordt de record ook automatisch gemaakt in het algemene adresboek.
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Kan ik adresgegevens voor partijregistraties vertalen?
-U kunt vertalingen van adresgegevens zo instellen dat u de gegevens in uw gebruikerstaal (systeemtaal) kunt bekijken in Microsoft Dynamics 365 for Operations, terwijl de gegevens in documenten, zoals verkooporders, in een andere taal worden weergegeven. U kunt vertalingen invoeren voor landen/regionamen, adresdoeleinden en naamvolgordes. Stel dat uw systeemtaal Deens is en u een verkooporder voor een klant in Frankrijk maakt. In dit geval kunt u de klantregistratie in het programma in het Deens weergeven, maar worden de adresgegevens in het Frans weergegeven op de afgedrukte verkooporder. Als u vertalingen instelt, moet u een vertaling voor elk artikel in de lijst invoeren. Elk artikel waarvoor u geen vertaling invoert, verschijnt in de systeemtaal. Als uw systeemtaal bijvoorbeeld Deens is, en u verstuurd een document naar een klant in Spanje. Als u geen Spaanse (ESP) vertalingen voor de adresgegevens hebt ingevoerd, worden die gegevens zowel in het programma als op het afgedrukte document in het Deens weergegeven.
+U kunt vertalingen van adresgegevens zo instellen dat u de gegevens in uw gebruikerstaal (systeemtaal) kunt bekijken in Microsoft Dynamics 365 for Finance and Operations, terwijl de gegevens in documenten, zoals verkooporders, in een andere taal worden weergegeven. U kunt vertalingen invoeren voor landen/regionamen, adresdoeleinden en naamvolgordes. Stel dat uw systeemtaal Deens is en u een verkooporder voor een klant in Frankrijk maakt. In dit geval kunt u de klantregistratie in het programma in het Deens weergeven, maar worden de adresgegevens in het Frans weergegeven op de afgedrukte verkooporder. Als u vertalingen instelt, moet u een vertaling voor elk artikel in de lijst invoeren. Elk artikel waarvoor u geen vertaling invoert, verschijnt in de systeemtaal. Als uw systeemtaal bijvoorbeeld Deens is, en u verstuurd een document naar een klant in Spanje. Als u geen Spaanse (ESP) vertalingen voor de adresgegevens hebt ingevoerd, worden die gegevens zowel in het programma als op het afgedrukte document in het Deens weergegeven.
 
 
 

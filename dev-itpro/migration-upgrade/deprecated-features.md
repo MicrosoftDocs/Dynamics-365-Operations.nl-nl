@@ -1,9 +1,9 @@
 ---
 title: Afgeschafte functies
-description: "Dit onderwerp beschrijft de functies die zijn verwijderd of zijn in gepland voor verwijdering uit Dynamics van 365 for Operations. Het bevat ook functies die in Dynamics AX 7.0-versies zijn beëindigd."
+description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 
-Dit onderwerp beschrijft de functies die zijn verwijderd of zijn in gepland voor verwijdering uit Dynamics van 365 for Operations. Het bevat ook functies die in Dynamics AX 7.0-versies zijn beëindigd.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Functies die zijn afgeschaft in Dynamics 365 for Finance and Operations, Enterprise Edition, update juli 2017
+
+### <a name="warehouse-mobile-devices-portal"></a>Portal voor mobiele apparaten voor magazijnbeheer
+
+Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onderdeel dat is bedoeld voor on-premises zelfimplementatie. Dit onderdeel wordt niet meer ondersteund in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. De functionaliteit van WMDP is vervangen door een native app waarmee de gebruikerservaring wordt verbeterd. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Reden voor afschaffing**       | Dubbele functionaliteit.                        |
+| **Vervangen door een andere functie?** | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie [Microsoft Dynamics 365 for Finance and Operations - Warehousing installeren en configureren](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app) voor meer informatie over instellingen en vereisten. |
+| **Modules die worden beïnvloed**             | Magazijnbeheer, Transportbeheer |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Afstemmingsregel voor geavanceerde bankafstemming voor handmatig afstemmen
+
+Er is een afstemmingsregel gebruikt voor het selecteren en markeren van een bankdocument bij het handmatig afstemmen van documenten in het werkblad voor afstemming.
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Reden voor afschaffing**       | Beperkt gebruik.                                                                         |
+| **Vervangen door een andere functie?** | Nr. Kolomfilteropties moeten worden gebruikt om documenten te vinden voor afstemming. |
+| **Modules die worden beïnvloed**             | Contanten en bankbeheer                                                               |
+
+### <a name="windows-8-tablet-app"></a>Windows 8-tabletapp
+
+De Windows 8-tabletapp leverde functionaliteit voor het invoeren van onkosten en goedkeuring.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Reden voor afschaffing**       | Finance and Operations is compatibel met tablets. De tablet-app is niet langer vereist. |
+| **Vervangen door een andere functie?** | Nr.                                                                                      |
+| **Modules die worden beïnvloed**             | Onkostenbeheer                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Functies die in Dynamics 365 for Operations 1611 met platformupdate 3 zijn verwijderd
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Een workflow voor het beheren van het maken van werknemerdoelstellingen is een v
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Reden voor afschrijving       | Het prestatiebeheer is volledig opnieuw ontworpen in Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                        |
+| Reden voor afschrijving       | Het prestatiebeheer is volledig opnieuw ontworpen in Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                        |
 | Vervangen door een andere functie? | De functie Prestatiebeheer is volledig opnieuw ontworpen en geeft meer controle over de inhoud van de doelen, de metingen die worden gebruikt om de voortgang bij te houden en het bijvoegen van ondersteunende documentatie. Doelen kunnen als sjablonen worden opgeslagen en opnieuw worden gebruikt. Deze functie kan u helpen om sneller extra doelen voor uw werknemers op te zetten. |
 | Modules die worden beïnvloed             | Human Capital-beheer                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ In Dynamics AX 2012 R3 kan Retail Modern POS direct verbinding maken met de afze
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Reden voor afschrijving       | Voor een directe databaseverbinding waren lagere beveiligingsprotocollen vereist en deze methode werd voornamelijk gebruikt voor het behalen van optimale prestaties. Als gevolg van de prestatie- en beveiligingsverbeteringen in Dynamics 365 for Operations, levert deze functionaliteit nu meer problemen op dan ermee worden opgelost. |
+| Reden voor afschrijving       | Voor een directe databaseverbinding waren lagere beveiligingsprotocollen vereist en deze methode werd voornamelijk gebruikt voor het behalen van optimale prestaties. Door de prestatie- en beveiligingsverbeteringen in Dynamics 365 for Finance and Operations levert deze functionaliteit nu meer problemen op dan ermee worden opgelost. |
 | Vervangen door een andere functie? | Nr. Alleen standaard Retail Server-communicatie wordt nu ondersteund.    |
 | Modules die worden beïnvloed             | Afzetkanaal DB/Retail Modern POS                                    |
 
@@ -808,9 +840,5 @@ Salarisgegevens in Human Resources
 | Reden voor afschrijving       | De functionaliteit is vervangen door een andere functie.                                    |
 | Vervangen door een andere functie? | Management Reporter (in de huidige versie van Dynamics AX aangeduid als **Financiële rapportage**) |
 | Modules die worden beïnvloed             | Grootboek                                                                              |
-
-
-
-
 
 

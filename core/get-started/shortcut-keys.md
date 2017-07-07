@@ -1,15 +1,15 @@
 ---
 title: Sneltoetsen
-description: De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Operations.
+description: De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Operations. 
+De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Finance and Operations. 
 
 **Opmerking:** De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
 
@@ -44,7 +44,7 @@ De volgende sneltoetsen gelden in heel Microsoft Dynamics 365 for Operations.
 | Naar volgende/vorige optie in een menu gaan            | Pijl omlaag/Pijl omhoog            |
 | Een tabblad sluiten in het actievenster of een menu          | Esc                              |
 | Klikken met de rechtermuisknop simuleren                            | Shift+F10                        |
-| Het contextmenu in Dynamics 365 for Operations openen | Ctrl+F10                         |
+| Het contextmenu Finance and Operations openen | Ctrl+F10                         |
 | Op de standaardknop in een formulier/dialoogvenster klikken       | Alt+Enter                        |
 | Op een knop of tegel klikken                            | Enter of spatiebalk                   |
 | Vernieuwde informatie voor een tellingstegel weergeven         | Alt+Pijl omhoog                     |

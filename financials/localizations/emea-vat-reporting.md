@@ -3,7 +3,7 @@ title: Btw-aangifte voor Europa
 description: Dit onderwerp bevat algemene informatie over het instellen en genereren van het btw-overzicht (belasting toegevoegde waarde) voor een aantal Europese landen.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 697af132142fadf907ffcab3fa20a6646d9ae632
+ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
+ms.openlocfilehash: 7dc6a32a9babc95cfa4ad031534404cae6fa37ea
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/09/2017
 
 
 ---
@@ -253,9 +253,9 @@ d<li>De transactie <strong>Belastingbasisbedrag</strong> of <strong>Belastingbed
 
 U kunt elektronische rapportage (ER) gebruiken om overzichten en aangifte te configureren en om gegevens te exporteren in verschillende elektronische indelingen zonder de X ++-code te wijzigen. Voor aanvullende informatie:
 
--   [Overzicht van elektronische rapportage](/dynamics365/operations/dev-itpro/analytics/general-electronic-reporting)
--   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Lokalisatievereisten: een GER-configuratie maken](/dynamics365/operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [Overzicht van elektronische rapportage](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)
+-   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+-   [Lokalisatievereisten: een GER-configuratie maken](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
 
 ## <a name="countryspecific-resources-for-vat-statements"></a>Landspecifieke resources voor btw-overzichten
 Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving van het land. Er zijn vooraf gedefinieerde algemene modellen en indelingen van btw-overzichten voor de landen die in de volgende tabel staan.

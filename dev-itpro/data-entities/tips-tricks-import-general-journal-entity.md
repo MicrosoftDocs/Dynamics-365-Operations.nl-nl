@@ -3,13 +3,13 @@ title: Best practices voor het importeren van boekstukken met behulp van de enti
 description: In dit artikel vindt u tips voor het importeren van gegevens in het algemeen journaal met behulp van de entiteit Algemeen journaal.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a1740f322972b1c37f23a0422fdcb4435253710
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b9a5c03584635908067bb7b623deba76f4ba3e18
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -51,16 +51,16 @@ In de volgende secties wordt het effect van deze instellingen beschreven en word
 ### <a name="journal-batch-number"></a>Batchnummer journaal
 
 -   De instelling **Op sets gebaseerde verwerking** in de entiteit Algemeen journaal heeft geen invloed op de manier waarop journaalbatchnummers worden gegenereerd.
--   Als het veld **Journaalbatchnummer** is ingesteld op **Automatisch gegenereerd**, wordt een nieuw journaalbatchnummer gemaakt voor elke regel die wordt geïmporteerd. Dit gedrag wordt niet aanbevolen. De instelling **Automatisch gegenereerd** is te vinden in het importproject, onder **Kaart weergeven**op het tabblad **Gegevens toewijzen**.
+-   Als het veld **Journaalbatchnummer** is ingesteld op **Automatisch gegenereerd**, wordt een nieuw journaalbatchnummer gemaakt voor elke regel die wordt geïmporteerd. Dit gedrag wordt niet aanbevolen. De instelling **Automatisch gegenereerd** is te vinden in het importproject, onder **Kaart weergeven** op het tabblad **Gegevens toewijzen**.
 -   Als het veld **Journaalbatchnummer** niet is ingesteld op **Automatisch gegenereerd**, wordt het journaalbatchnummer als volgt gemaakt:
-    -   Als het journaalbatchnummer dat is gedefinieerd in het geïmporteerde bestand overeenkomt met een bestaand, niet-geboekt dagelijks journaal in Microsoft Dynamics 365 for Operations, worden alle regels met een overeenkomende journaalbatchnummer geïmporteerd in het bestaande journaal. Regels worden nooit in een geboekt journaalbatchnummer geïmporteerd. In plaats daarvan wordt er een nieuw nummer gemaakt.
-    -   Als het journaalbatchnummer dat is gedefinieerd in het geïmporteerde bestand niet overeenkomt met een bestaand, niet-geboekt dagelijks journaal in Dynamics 365 for Operations, worden alle regels met hetzelfde journaalbatchnummer gegroepeerd onder een nieuw journaal. Zo worden bijvoorbeeld alle regels met een journaalbatchnummer van 1 geïmporteerd in een nieuw journaal en worden alle regels met een journaalbatchnummer van 2 geïmporteerd in een tweede nieuw journaal. Het journaalbatchnummer wordt gemaakt met behulp van de nummerreeks die is gedefinieerd in de grootboekparameters.
+    -   Als het journaalbatchnummer dat is gedefinieerd in het geïmporteerde bestand overeenkomt met een bestaand, niet-geboekt dagelijks journaal, worden alle regels met een overeenkomende journaalbatchnummer geïmporteerd in het bestaande journaal. Regels worden nooit in een geboekt journaalbatchnummer geïmporteerd. In plaats daarvan wordt er een nieuw nummer gemaakt.
+    -   Als het journaalbatchnummer dat is gedefinieerd in het geïmporteerde bestand niet overeenkomt met een bestaand, niet-geboekt dagelijks journaal, worden alle regels met hetzelfde journaalbatchnummer gegroepeerd onder een nieuw journaal. Zo worden bijvoorbeeld alle regels met een journaalbatchnummer van 1 geïmporteerd in een nieuw journaal en worden alle regels met een journaalbatchnummer van 2 geïmporteerd in een tweede nieuw journaal. Het journaalbatchnummer wordt gemaakt met behulp van de nummerreeks die is gedefinieerd in de grootboekparameters.
 
 ### <a name="voucher-number"></a>Boekstuknummer
 
--   Als u de instelling **Op sets gebaseerde verwerking** gebruikt in de entiteit Algemeen journaal, moet het boekstuknummer worden opgegeven in het geïmporteerde bestand. Aan elke transactie in het algemeen journaal wordt het boekstuknummer toegewezen dat is verstrekt in het geïmporteerde bestand, zelfs als het boekstuk niet in evenwicht is. Als u de op sets gebaseerde verwerking wilt gebruiken, maar ook gebruik wilt maken van de nummerreeks die is gedefinieerd voor boekstuknummers in Dynamics 365 for Operations, is er een hotfix beschikbaar voor de versie van februari 2016. Het nummer van de hotfix is 3170316 en deze kan worden gedownload vanuit Lifecycle Services (LCS). Zie voor meer informatie [Hotfixes downloaden vanuit Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
-    -   U kunt deze functionaliteit inschakelen door in de journaalnaam die wordt gebruikt voor imports in Dynamics 365 for Operations, **Nummertoewijzing tijdens boeking** in te stellen op **Ja**.
-    -   Er moet nog steeds een boekstuknummer worden gedefinieerd in het geïmporteerde bestand. Dit nummer is echter tijdelijk en wordt overschreven door de Dynamics 365 for Operations-boekstuknummer als het journaal wordt geboekt. U moet ervoor zorgen dat de regels van het journaal juist zijn gegroepeerd op tijdelijk boekstuknummer. Stel bijvoorbeeld dat tijdens het boeken drie regels worden gevonden die een tijdelijke boekstuknummer 1 hebben. Het tijdelijke boekstuknummer van alle drie de regels worden overschreven door het volgende nummer uit de nummerreeks. Als deze drie regels geen evenwichtige vermelding zijn, wordt het boekstuk niet geboekt. Vervolgens geldt dat, als er regels worden gevonden die een tijdelijk boekstuknummer van 2 hebben, dit nummer wordt overschreven door het volgende boekstuknummer in de nummerreeks enzovoort.
+-   Als u de instelling **Op sets gebaseerde verwerking** gebruikt in de entiteit Algemeen journaal, moet het boekstuknummer worden opgegeven in het geïmporteerde bestand. Aan elke transactie in het algemeen journaal wordt het boekstuknummer toegewezen dat is verstrekt in het geïmporteerde bestand, zelfs als het boekstuk niet in evenwicht is. Als u de op sets gebaseerde verwerking wilt gebruiken, maar ook gebruik wilt maken van de nummerreeks die is gedefinieerd voor boekstuknummers, is er een hotfix beschikbaar voor de versie van februari 2016. Het nummer van de hotfix is 3170316 en deze kan worden gedownload vanuit Lifecycle Services (LCS). Zie voor meer informatie [Hotfixes downloaden vanuit Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+    -   U kunt deze functionaliteit inschakelen door in de journaalnaam die wordt gebruikt voor imports, **Nummertoewijzing tijdens boeking** in te stellen op **Ja**.
+    -   Er moet nog steeds een boekstuknummer worden gedefinieerd in het geïmporteerde bestand. Dit nummer is echter tijdelijk en wordt overschreven door het boekstuknummer als het journaal wordt geboekt. U moet ervoor zorgen dat de regels van het journaal juist zijn gegroepeerd op tijdelijk boekstuknummer. Stel bijvoorbeeld dat tijdens het boeken drie regels worden gevonden die een tijdelijke boekstuknummer 1 hebben. Het tijdelijke boekstuknummer van alle drie de regels worden overschreven door het volgende nummer uit de nummerreeks. Als deze drie regels geen evenwichtige vermelding zijn, wordt het boekstuk niet geboekt. Vervolgens geldt dat, als er regels worden gevonden die een tijdelijk boekstuknummer van 2 hebben, dit nummer wordt overschreven door het volgende boekstuknummer in de nummerreeks enzovoort.
 
 <!-- -->
 

@@ -1,15 +1,15 @@
 ---
 title: Lookups gebruiken om informatie te vinden
-description: Veel velden in Microsoft Dynamics 365 for Operations hebben lookups waarmee u gemakkelijk de juiste of de gewenste waarde vindt. Enkele verbeteringen zijn toegevoegd aan de lookups, die deze besturingselementen bruikbaarder maken en gebruikers productiever. In dit onderwerp vindt u informatie over deze nieuwe lookupfuncties en handige tips voor een optimaal gebruik van lookups in het systeem.
+description: Veel velden in Microsoft Dynamics 365 for Finance and Operations hebben lookups waarmee u gemakkelijk de juiste of de gewenste waarde vindt. Enkele verbeteringen zijn toegevoegd aan de lookups, die deze besturingselementen bruikbaarder maken en gebruikers productiever. In dit onderwerp vindt u informatie over deze nieuwe lookupfuncties en handige tips voor een optimaal gebruik van lookups in het systeem.
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269934
 ms.assetid: f20cbd2c-14e0-47e7-b351-8e60d3537f96
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 652fbdb7a96c516ca1fc17357683d94b85cd93f3
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5d0a9edd2cb5747fc799c6fdca45dd9ba5720f7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Veel velden in Microsoft Dynamics 365 for Operations hebben lookups waarmee u gemakkelijk de juiste of de gewenste waarde vindt. Enkele verbeteringen zijn toegevoegd aan de lookups, die deze besturingselementen bruikbaarder maken en gebruikers productiever. In dit onderwerp vindt u informatie over deze nieuwe lookupfuncties en handige tips voor een optimaal gebruik van lookups in het systeem.  
+Veel velden in Microsoft Dynamics 365 for Finance and Operations hebben lookups waarmee u gemakkelijk de juiste of de gewenste waarde vindt. Enkele verbeteringen zijn toegevoegd aan de lookups, die deze besturingselementen bruikbaarder maken en gebruikers productiever. In dit onderwerp vindt u informatie over deze nieuwe lookupfuncties en handige tips voor een optimaal gebruik van lookups in het systeem.  
 
 <a name="responsive-lookups"></a>Responsieve lookups
 ------------------
 
-In eerdere versies van Dynamics 365 for Operations moest een gebruiker, bij de interactie met een lookup-besturingselement, expliciet een handeling uitvoeren om de vervolgkeuzelijst te openen. Dit kon hij doen door een sterretje (\*) in het besturingselement te typen, om de lookup te filteren op basis van de huidige waarde van het besturingselement, door op de vervolgkeuzepijl te klikken, of met de sneltoets **Alt**+**pijl-omlaag**. Lookup-besturingselementen zijn op de volgende wijzen aangepast, om beter aan te sluiten op bestaande praktijken op het internet:
+In eerdere versies van Finance and Operations moest een gebruiker bij de interactie met een lookup-besturingselement expliciet een handeling uitvoeren om de vervolgkeuzelijst te openen. Dit kon hij doen door een sterretje (\*) in het besturingselement te typen, om de lookup te filteren op basis van de huidige waarde van het besturingselement, door op de vervolgkeuzepijl te klikken, of met de sneltoets **Alt**+**pijl-omlaag**. Lookup-besturingselementen zijn op de volgende wijzen aangepast, om beter aan te sluiten op bestaande praktijken op het internet:
 
 -   Lookup-vervolgkeuzelijsten openen nu automatisch na een korte pauze in het typen, waarbij de inhoud van de vervolgkeuzelijst wordt gefilterd op basis van de waarde van het lookup-besturingselement.
     -   Houd er rekening mee dat het oude gedrag van de vervolgkeuzelijst, namelijk automatisch openen na het typen van een sterretje (\*), is afgeschaft.
@@ -58,7 +58,7 @@ Hoewel het lookup-besturingselement nog steeds de focus heeft, u kunt ook met de
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Meer invoeren dan id's
-Bij het invoeren van gegevens proberen gebruikers een entiteit (zoals een klant of leverancier) eerder op naam te vinden dan via een id die de entiteit vertegenwoordigt. In de huidige versie van Dynamics 365 for Operations kan in vele (maar niet alle) lookups ook contextuele informatie worden ingevoerd. Met deze krachtige functie kan de gebruiker nu kiezen of hij de id of de bijbehorende naam in het besturingselement invoert. 
+Bij het invoeren van gegevens proberen gebruikers een entiteit (zoals een klant of leverancier) eerder op naam te vinden dan via een id die de entiteit vertegenwoordigt. In de huidige versie van Finance and Operations kan in vele (maar niet alle) lookups ook contextuele informatie worden ingevoerd. Met deze krachtige functie kan de gebruiker nu kiezen of hij de id of de bijbehorende naam in het besturingselement invoert. 
 
 Neem bijvoorbeeld het veld **Klantaccount** bij het maken van een verkooporder. Dit veld bevat de **Account-id** van de klant, maar een gebruiker zou in dit veld meestal liever een **Accountnaam** invoeren in plaats van een **Account-id** bij het maken van een verkooporder, zoals 'Forest Wholesales' in plaats van 'US-003.'
 

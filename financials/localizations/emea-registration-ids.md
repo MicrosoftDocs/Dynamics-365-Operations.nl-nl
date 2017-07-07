@@ -1,9 +1,9 @@
 ---
-title: Registratie-id&quot;s
+title: Registratie-id's
 description: "Dit onderwerp bevat informatie over het instellen en gebruiken van registratie-id´s."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264824
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fc4a56eceb75673b7a044bd8392f8d0cc675e869
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -57,10 +57,12 @@ Registratiecategorie is een registratie-id voor land/regio die is goedgekeurd vo
 |-----------------------|----------------|
 | Registratietype     | Het registratietype in een bepaald land of een bepaalde regio.|
 | Beperkt tot         | Het soort beperking die geldt voor het belastingregistratietype: geen, persoon, organisatie.|
-| Registratiecategorie | De unieke registratie-id die is goedgekeurd voor gebruik in het land. De volledige lijst van in AX7.1 ondersteunde categorieën vindt u hierna. |
+| Registratiecategorie | De unieke registratie-id die is goedgekeurd voor gebruik in het land. De volledige lijst met categorieën die worden ondersteund in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition vindt u hieronder. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Registratie-id's voor globale-adresboekrecords invoeren
-Het globale adresboek in Microsoft Dynamics 365 for Operations bevat geconsolideerde adresgegevens voor klanten, leveranciers, contactpersonen, zakenrelaties en rechtspersonen. Zie voor meer informatie [Overzicht globaal adresboek](/dynamics365/operations/organization-administration/overview-global-address-book). De partijrecords die zijn opgeslagen in het globale adresboek, kunnen een of meer adresrecords bevatten. Deze adressen worden gebruikt voor verschillende doeleinden, zoals facturering of levering. U kunt registratie-id's voor adresgegevens instellen voor klanten, leveranciers, werknemers en rechtspersonen. Zoek de partij (rechtspersoon, leverancier, klant, werknemer) waarvoor u de registratie-id wilt invoeren en klik vervolgens op **Registratie-id's** in formulieren die zijn gerelateerd aan partij, rechtspersoon, leverancier, klant, werknemer om de pagina **Adressen beheren** te openen. Klik op het tabblad **Btw-registratie** op **Toevoegen** en voer de volgende informatie over de registratie-id in.
+
+Het globale adresboek in Microsoft Finance and Operations bevat geconsolideerde adresgegevens voor klanten, leveranciers, contactpersonen, zakenrelaties en rechtspersonen. Zie voor meer informatie [Overzicht globaal adresboek](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). De partijrecords die zijn opgeslagen in het globale adresboek, kunnen een of meer adresrecords bevatten. Deze adressen worden gebruikt voor verschillende doeleinden, zoals facturering of levering. U kunt registratie-id's voor adresgegevens instellen voor klanten, leveranciers, werknemers en rechtspersonen. Zoek de partij (rechtspersoon, leverancier, klant, werknemer) waarvoor u de registratie-id wilt invoeren en klik vervolgens op **Registratie-id's** in formulieren die zijn gerelateerd aan partij, rechtspersoon, leverancier, klant, werknemer om de pagina **Adressen beheren** te openen. Klik op het tabblad **Btw-registratie** op **Toevoegen** en voer de volgende informatie over de registratie-id in.
+
 
 |Veld                |Omschrijving                                                |
 |---------------------|-----------------------------------------------------------|
@@ -80,23 +82,23 @@ Het globale adresboek in Microsoft Dynamics 365 for Operations bevat geconsolide
 Zoeken naar partijrecords op basis van een registratie-id is beschikbaar op formulieren die zijn gerelateerd aan partijen, rechtspersonen, leveranciers, klanten en werknemers. Klik op **Registratie-id zoeken** om de pagina **Zoekcriteria registratie-id** te openen. Geef zoekcriteria op en klik op **Zoeken**. De geselecteerde records uit het globale adresboek en de bijbehorende typen partijrecords worden weergegeven.
 
 ## <a name="supported-registration-categories"></a>Ondersteunde registratiecategorieën
-De volgende tabel bevat de ondersteunde registratietypen in Dynamics 365 for Operations. Als u vertrouwd bent met de velden in Microsoft Dynamics AX 2012 voor registratie-id's, worden in deze tabel deze velden ook toegewezen aan de Dynamics 365 for Operations-registratiecategorieën.
+De volgende tabel bevat de ondersteunde registratietypen in Finance and Operations. Als u vertrouwd bent met de velden in Microsoft Dynamics AX 2012 voor registratie-id's, worden in deze tabel deze velden ook toegewezen aan de Finance and Operations-registratiecategorieën.
 
-| Dynamics 365 for Operations-registratiecategorie         |Land/regio  | Dynamics AX 2012-term/veld|
+| Finance and Operations-registratiecategorie         |Land/regio  | Dynamics AX 2012-term/veld|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| Btw-id                                                        | Alle landen van de Europese Unie (EU)|  Btw-nummer (wettelijk type belasting-id in AX2012 R3)|
-| Ondernemings-id (COID)                                          | België,Tsjechische Republiek,Estland,Hongarije,Letland,Litouwen,Polen,Zwitserland | Ondernemingsnummer (EnterpriseNumber) Registratienummer (RegNum\_W) Registratienummer (RegNum\_W) Registratienummer (RegNum\_W) Registratienummer (RegNum\_W) Ondernemingscode (EnterpriseCode) Registratienummer (RegNum\_W) UID (wettelijk type UID in AX2012 R3) |
+| Btw-id                                                        | Alle landen van de Europese Unie (EU)|  Nummer van btw-vrijstelling (wettelijk type belasting-id in AX 2012 R3)|
+| Ondernemings-id (COID)                                          | België,Tsjechische Republiek,Estland,Hongarije,Letland,Litouwen,Polen,Zwitserland | Ondernemingsnummer (EnterpriseNumber) Registratienummer (RegNum\_W) Registratienummer (RegNum\_W) Registratienummer (RegNum\_W) Registratienummer (RegNum\_W) Ondernemingscode (EnterpriseCode) Registratienummer (RegNum\_W) UID (wettelijk type UID in AX 2012 R3) |
 | Vestigings-id                                                     | België            | Vestigingsnummer (BranchNumber)|
 | Spisová značka (registratienummer, uitgevende bank, sectie) | Tsjechische Republiek     | Nummer bijvoegsel (CommercialRegisterInsetNumber) Bewaard in handelsregister (CommercialRegister) Sectie van handelsregister (CommercialRegisterSection)|
 | Klant-id van de douane                                           | Finland | Klantnummer voor douanezaken (CustomsCustomerNumber\_FI)|
-| INN                                                           | Russische Federatie| INN (wettelijk type INN in AX2012 R3)|
-| RRC                                                           | Russische Federatie| RRC (wettelijk type RRC in AX2012 R3)|
-| OKDP                                                          | Russische Federatie| OKDP (wettelijk type OKDP in AX2012 R3)|
-| OKPO                                                          | Russische Federatie| OKPO (wettelijk type OKPO in AX2012 R3)|
-| RCOAD                                                         | Russische Federatie| RCOAD (wettelijk type RCOAD in AX2012 R3)|
-| OGRN                                                          | Russische Federatie| OGRN (wettelijk type OGRN in AX2012 R3) |
-| SNILS                                                         | Russische Federatie| SNILS (wettelijk type SNILS in AX2012 R3)|
-| CIFTS                                                         | Russische Federatie| CIFTS (wettelijk type CIFTS in AX2012 R3)|
+| INN                                                           | Russische Federatie| INN (wettelijk type INN in AX 2012 R3)|
+| RRC                                                           | Russische Federatie| RRC (wettelijk type RRC in AX 2012 R3)|
+| OKDP                                                          | Russische Federatie| OKDP (wettelijk type OKDP in AX 2012 R3)|
+| OKPO                                                          | Russische Federatie| OKPO (wettelijk type OKPO in AX 2012 R3)|
+| RCOAD                                                         | Russische Federatie| RCOAD (wettelijk type RCOAD in AX 2012 R3)|
+| OGRN                                                          | Russische Federatie| OGRN (wettelijk type OGRN in AX 2012 R3) |
+| SNILS                                                         | Russische Federatie| SNILS (wettelijk type SNILS in AX 2012 R3)|
+| CIFTS                                                         | Russische Federatie| CIFTS (wettelijk type CIFTS in AX 2012 R3)|
 
 Zie de volgende taakregistraties voor btw-id in Lifecycle Services (LCS) voor meer informatie over verwerken van registratie-id´s, waaronder vereisten:
 

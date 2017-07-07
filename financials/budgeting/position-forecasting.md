@@ -1,16 +1,16 @@
 ---
-title: Positie voorspellen
-description: 
+title: Prognosepositie
+description: De onkosten die aan werknemers zijn gerelateerd vormen vaak een grote deel van de kosten van een organisatie. Positie voorspellen laat u die onkosten plannen en deze opnemen in de planning van budgetten.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,18 +18,17 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="position-forecasting"></a>Positie voorspellen
+# <a name="position-forecasting"></a>Prognosepositie
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,9 +96,9 @@ Het inkomstenkostenelement dat op de compensatiegroep wordt geselecteerd, wordt 
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognoseposities maken voor bestaande posities
 
-Voor de nauwkeurigste budgetplanning kunt u prognoseposities maken door gegevens van bestaande posities in Microsoft Dynamics 365 for Operations te gebruiken, ongeacht of de positie momenteel is vervuld of niet. 
+Voor de nauwkeurigste budgetplanning kunt u prognoseposities maken door gegevens van bestaande posities te gebruiken in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, ongeacht of de positie momenteel is vervuld of niet. 
 
-De functie **Bestaande posities toevoegen** geeft alle posities weer voor een organisatie. Door de datum in te stellen op**Vanaf** kunt u de lijst met posities wijzigen zodat deze de posities bevat die bestonden op een datum in het verleden of, vaker, in de toekomst (bijvoorbeeld, het begin van de volgende budgetcyclus). Selecteer een planningsproces en budgetplanscenario, selecteer posities in de lijst, en klik vervolgens in **OK** om prognoseposities voor de geselecteerde functies te maken. Merk op dat u slechts één prognosepositie voor elke bestaande positie in een budgetplanningsproces en -scenario kunt maken. U kunt echter extra versies maken door andere budgetplanscenario's toe te wijzen. 
+De functie **Bestaande posities toevoegen** geeft alle posities weer voor een organisatie. Door de datum in te stellen op **Vanaf** kunt u de lijst met posities wijzigen zodat deze de posities bevat die bestonden op een datum in het verleden of, vaker, in de toekomst (bijvoorbeeld, het begin van de volgende budgetcyclus). Selecteer een planningsproces en budgetplanscenario, selecteer posities in de lijst, en klik vervolgens in **OK** om prognoseposities voor de geselecteerde functies te maken. Merk op dat u slechts één prognosepositie voor elke bestaande positie in een budgetplanningsproces en -scenario kunt maken. U kunt echter extra versies maken door andere budgetplanscenario's toe te wijzen. 
 
 Als de budgetkostenelementen zijn toegewezen aan de positie in Human resources, worden die budgetkostenelementen ook toegewezen aan de prognosepositie en gebruiken ze de standaardbedragen. Het veld **Toegewezen werknemer** op de prognosepositie wordt ingesteld op de naam van de werknemer die aan de positie is toegewezen, als er een werknemer is toegewezen. Dit veld is een eenvoudig tekstveld. Geen directe koppeling wordt gemaakt. 
 

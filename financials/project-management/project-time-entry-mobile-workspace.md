@@ -1,28 +1,28 @@
 ---
-title: Mobiel werkgebied voor invoer van projecturen voor de app Microsoft Dynamics 365 for Operations
+title: Tijdinvoer voor project voor mobiel werkgebied
 description: Dit onderwerp biedt informatie over het mobiele werkgebied voor invoer van projecturen. In dit werkgebied kunnen gebruikers tijd invoeren en opslaan voor een project met behulp van hun mobiele apparaat.
-author: annbe
+author: KimANelson
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-audience: Application User, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: annbe
+ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,16 +31,14 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Dit onderwerp biedt informatie over het mobiele werkgebied **Projecttijdinvoer**. In dit werkgebied kunnen gebruikers tijd invoeren en opslaan voor een project met behulp van hun mobiele apparaat.
 
+Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations. 
 
-Dit onderwerp biedt informatie over het mobiele werkgebied Invoer van projecturen, dat beschikbaar is voor de mobiele app voor Microsoft Dynamics 365 for Operations. In dit werkgebied kunnen gebruikers tijd invoeren en opslaan voor een project met behulp van hun mobiele apparaat.
-
-<a name="overview-of-the-project-time-entry-mobile-workspace"></a>Overzicht van het mobiele werkgebied Invoer van projecturen
----------------------------------------------------
-
+## <a name="overview"></a>Overzicht
 Als onderdeel van hun dagelijkse werkzaamheden zijn projectresources vaak on-site of onderweg. Het mobiele werkgebied **Invoer van projecturen** stelt gebruikers in staat hun factureerbaar of niet-factureerbare tijd voor een project in te voeren op het mobiele apparaat van hun keuze. Daarom kunnen projectresources altijd en overal tijdinvoer vastleggen. Zij kunnen ook tijdinvloer bekijken die al is geregistreerd. 
 
-Het mobiele werkgebied **Invoer van projecturen** biedt vooral de volgende functies:
+Specifiek kunnen gebruikers in het mobiele werkgebied **Projecttijdinvoer** deze taken uitvoeren:
 
 -   Voer voor elke geselecteerde datum het aantal uren in dat u hebt besteed aan een bepaalde taak.
 -   Zoek op projectnaam of klant om het project te vinden waarvoor u tijd wilt invoeren.
@@ -48,17 +46,16 @@ Het mobiele werkgebied **Invoer van projecturen** biedt vooral de volgende funct
 -   Leg de tijd vast als factureerbaar of niet-factureerbaar voor het project.
 -   Voer desgewenst externe of interne opmerkingen toe.
 
-Voor het implementeren van het mobiele werkgebied **Invoer van projecturen** bekijkt u de volgende secties in dit onderwerp.
-
 ## <a name="prerequisites"></a>Vereisten
-Voordat u het mobiele werkgebied **Invoer van projecturen** kunt gebruiken, controleert u of de systeembeheerder de volgende vereisten heeft geregeld.
+De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, update juli 2017 gebruikt 
+Als Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, update juli 2017, is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Projecttijdinvoer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger gebruikt.
+Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder aan de volgende vereisten voldoen. 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Vereiste</th>
@@ -68,65 +65,54 @@ Voordat u het mobiele werkgebied **Invoer van projecturen** kunt gebruiken, cont
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Operations versie 1611 met platformupdate 3 of hoger moet worden geïmplementeerd.</td>
-<td>Systeembeheerder</td>
-<td>Als u Dynamics 365 for Operations nog niet hebt geïmplementeerd in uw organisatie, dient uw systeembeheerder <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Een Microsoft Dynamics 365 for Operations demo-omgeving implementeren</a> te raadplegen.</td>
-</tr>
-<tr class="even">
-<td>KB 4018050 moet worden geïmplementeerd.</td>
+
+<td>KB 4018050 implementeren.</td>
 <td>Systeembeheerder</td>
 <td>KB 4018050 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Invoer van projecturen</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4018050.
 <ol>
-<li>Download KB 4018050 van Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Maak een implementeerbaar pakket</a> dat de <strong>ApplicationSuite</strong> en <strong>ProjectMobile</strong>-modellen bevat en upload het implementeerbare pakket vervolgens naar LCS.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a> op uw Microsoft Dynamics 365 for Operations-systeem.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Maak een implementeerbaar pakket</a> dat de <strong>ApplicationSuite</strong> en <strong>ProjectMobile</strong>-modellen bevat en upload het implementeerbare pakket vervolgens naar LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Het implementeerbare pakket toepassen</a></li>
+
 </ol></td>
 </tr>
-<tr class="odd">
-<td>Het mobiele werkgebied <strong>Invoer van projecturen</strong> moet worden gepubliceerd naar de mobiele app voor Dynamics 365 for Operations.</td>
+<tr class="even">
+<td>Het mobiele werkgebied <strong>Projecttijdinvoer</strong> publiceren.</td>
 <td>Systeembeheerder</td>
-<td><ol>
-<li>Start Dynamics 365 for Operations in uw browser.</li>
-<li>Selecteer op de pagina <strong>Systeemparameters</strong>, op het tabblad <strong>Mobiele werkgebieden beheren</strong>, het werkgebied <strong>Invoer van projecturen</strong>.</li>
-<li>Klik op <strong>Mobiel werkgebied publiceren</strong>.</li>
-</ol></td>
+<td>Zie <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiel werkgebied publiceren</a>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>De mobiele app voor Dynamics 365 for Operations downloaden en installeren
-Download en installeer de mobiele app van Microsoft Dynamics 365 for Operations vanuit uw store voor mobiele apps.
+## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
 
--   Voor Android: [Dynamics 365 for Operations in de Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   Voor iPhone: [Dynamics 365 for Operations in de iTunes apps store](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Meld u aan bij de mobiele app voor Dynamics 365 for Operations
+-   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+
+## <a name="sign-in-to-the-mobile-app"></a>Aanmelden bij de mobiele app
 1.  Start de app op uw mobiele apparaat.
-2.  Voer uw Dynamics 365 for Operations-URL in.
-3.  Voer het bedrijf in waarbij u zich wilt aanmelden. Voer bijvoorbeeld **USMF** in.
-4.  De eerste keer dat u zich aanmeldt, wordt u gevraagd om de gebruikersnaam en het wachtwoord voor uw Dynamics 365 for Operations-account. Voer uw referenties in.
-5.  Nadat u zich hebt aangemeld, ziet u de beschikbare werkgebieden voor uw bedrijf. Houd er rekening mee dat als uw systeembeheerder een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden kunt opvragen om te vernieuwen.
+2.  Voer uw Dynamics 365-URL in.
+3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
+4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
 [![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Tijd invoeren met behulp van het mobiele werkgebied Invoer van projecturen
 1.  Selecteer op uw mobiele apparaat het werkgebied **Invoer van projecturen**.
-2.  Selecteer **Tijdinvoer**. U ziet de kalenderdatums voor de huidige week.
+2.  Selecteer **Tijdinvoer**. De kalenderdatums voor de huidige week worden weergegeven.
 3.  Selecteer voor een geselecteerde datum **Acties** &gt; **Nieuwe invoer**.
 4.  Voer het aantal uren te registreren uren in.
-5.  Selecteer het project voor de tijdinvoer. U ziet een lijst van de projecten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) raadplegen.
-6.  Als uw project niet in de lijst staat, selecteert u **Zoeken** om een online zoekopdracht in Dynamics 365 for Operations uit te voeren. Zoek op naam of schakel over naar zoeken op projectnaam of klant.
-7.  Een categorie selecteren. U ziet een lijst van de categorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) raadplegen.
-8.  Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om een online zoekopdracht in Dynamics 365 for Operations uit te voeren. Zoek op categorie of schakel over naar zoeken op categorienaam.
-9.  Een activiteit selecteren. U ziet een lijst van de activiteiten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Voor meer informatie moeten ontwikkelaars [Mobiel platform van Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) raadplegen.
-10. Als uw activiteit niet in de lijst staat, selecteert u **Zoeken** om een online zoekopdracht in Dynamics 365 for Operations uit te voeren. Zoeken op activiteitnummer of schakel over als u wilt zoeken op doel.
+5.  Selecteer het project voor de tijdinvoer. In een lijst ziet u de projecten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+6.  Als uw project niet in de lijst staat, selecteert u **Zoeken**. Zoek op naam of schakel over naar zoeken op projectnaam of klant.
+7.  Een categorie selecteren. In een lijst ziet u de categorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+8.  Als uw categorie niet in de lijst staat, selecteert u **Zoeken**. Zoek op categorie of schakel over naar zoeken op categorienaam.
+9.  Een activiteit selecteren. In een lijst ziet u de activiteiten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+10. Als uw activiteit niet in de lijst staat, selecteert u **Zoeken**. Zoeken op activiteitnummer of schakel over als u wilt zoeken op doel.
+
 11. Selecteer de regeleigenschap.
 12. Optioneel: voer eventueel externe en interne opmerkingen toe.
 13. Selecteer **Gereed**.
-
-
-
-
-
 

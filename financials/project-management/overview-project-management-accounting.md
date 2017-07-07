@@ -3,24 +3,24 @@ title: Projectbeheer en boekhouding
 description: De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt om in een service te voorzien, een product te produceren of een resultaat te halen.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ Een project is een groep van activiteiten die zijn ontworpen om in een service t
 ## <a name="projects-across-industries"></a>Projecten in de verschillende bedrijfstakken
 De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt, zoals u ziet in de volgende afbeelding. [![Projecten in verschillende bedrijfstakken](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-In een callcenter kan een ticket worden gebruikt om de set acties te beschrijven die zijn vereist om een probleem op te lossen. Adviserende bedrijven, zoals management- of technische adviesorganisaties of reclamebureaus, verwijzen naar hun activiteiten als projecten. In marketing vertegenwoordigt een campagne een reeks werkzaamheden die moeten worden uitgevoerd. In op projecten gebaseerde productie heeft een productieorder betrekking op de verschillende werkzaamheden die moet worden uitgevoerd om bepaalde eindproducten te produceren. Ongeacht welke naam ervoor wordt gebruikt, deze projecten betreffen resources, planningen en kosten, en het projectbeheer en de boekhoudingsfunctionaliteit in Microsoft Dynamics 365 for Operations kunnen helpen met de planning, de uitvoering en de analyse van deze projecten.
+In een callcenter kan een ticket worden gebruikt om de set acties te beschrijven die zijn vereist om een probleem op te lossen. Adviserende bedrijven, zoals management- of technische adviesorganisaties of reclamebureaus, verwijzen naar hun activiteiten als projecten. In marketing vertegenwoordigt een campagne een reeks werkzaamheden die moeten worden uitgevoerd. In op projecten gebaseerde productie heeft een productieorder betrekking op de verschillende werkzaamheden die moet worden uitgevoerd om bepaalde eindproducten te produceren. Ongeacht welke naam ervoor wordt gebruikt, deze projecten betreffen resources, planningen en kosten, en het projectbeheer en de boekhoudingsfunctionaliteit in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, kunnen helpen met de planning, de uitvoering en de analyse van deze projecten.
 
 ## <a name="project-phases"></a>Projectfasen
 Hoewel de volgende processtroom is gericht op externe projecten of projecten die voor een of meer klanten worden voltooid, de functionaliteit is ook van toepassing op interne, alleen kosten betreffende projecten. 
@@ -75,11 +75,11 @@ Zie [Structuren voor werkspecificatie](work-breakdown-structures.md) voor meer i
 
 ### <a name="create-project-forecasts-and-budgets"></a>Projectprognoses en -budgetten maken
 
-U kunt prognoses gebruiken als uw organisatie een operationeel perspectief heeft en zich richt op opbrengsten en kosten die van specifieke transacties worden afgeleid. Als uw organisatie zich echter meer richt op financiële bedragen, kunt u budgettering gebruiken. Elke methode heeft zijn voordelen. Zie [Projectprognoses en -budgetten](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/) voor meer informatie.
+U kunt prognoses gebruiken als uw organisatie een operationeel perspectief heeft en zich richt op opbrengsten en kosten die van specifieke transacties worden afgeleid. Als uw organisatie zich echter meer richt op financiële bedragen, kunt u budgettering gebruiken. Elke methode heeft zijn voordelen. Zie [Projectprognoses en -budgetten](project-forecasts-budgets.md) voor meer informatie.
 
 ### <a name="create-projects"></a>Projecten maken
 
-In Microsoft Dynamics 365 for Operations kunt u zes typen projecten aanmaken. Elk projecttype is anders ingesteld voor kosten en verantwoording van opbrengsten. Het projecttype dat u kiest hangt af van het doel van het project. De volgende tabel beschrijft het typisch doel van elk projecttype.
+In Microsoft Dynamics 365 for Finance and Operations kunt u zes typen projecten aanmaken. Elk projecttype is anders ingesteld voor kosten en verantwoording van opbrengsten. Het projecttype dat u kiest hangt af van het doel van het project. De volgende tabel beschrijft het typisch doel van elk projecttype.
 
                                                                                                                                                                          |
 | Projecttype      | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Zie [Structuren voor werkspecificatie](work-breakdown-structures.md) voor meer i
 
 Er zijn twee manieren om uw projecten te beheren en te regelen: projectprognoses en projectbudgetten. U kunt prognoses gebruiken als uw organisatie een operationeel perspectief heeft en zich richt op opbrengsten en kosten die van specifieke transacties worden afgeleid. Als uw organisatie zich echter meer richt op financiële bedragen, kunt u budgettering gebruiken.
 
-Zie [Projectprognoses en -budgetten](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/) voor meer informatie.
+Zie [Projectprognoses en -budgetten](project-forecasts-budgets.md) voor meer informatie.
 
 ### <a name="create-production-orders"></a>Productieorders maken
 
@@ -228,7 +228,7 @@ In de volgende tabel worden de methoden beschreven voor berekening van de kosten
 <tbody>
 <tr class="odd">
 <td>Totale kosten: werkelijk</td>
-<td>De kostenraming moet handmatig worden ingevoerd. Nadat de kolom <strong>Totale kosten</strong> of <strong>Totale hoeveelheid</strong> op de pagina <strong>Kostenraming</strong> is ingevuld, worden de werkelijke kosten afgetrokken van de door de gebruiker ingevoerde totalen. Het resultaat bestaat uit de kosten om het project te voltooien. Doorgaans wordt de voortgang van kosten gebaseerd op bijvoorbeeld het aantal hotelverblijven en maaltijden die in elke periode worden geregistreerd, niet bijgehouden. Maar. In plaats daarvan wordt de voortgang meestal bijgehouden op basis van een vergelijking met het totale aantal geschatte uren. Bij deze benadering is geen prognosemodel nodig en kunnen de totale kosten of de totale hoeveelheid handmatig worden gewijzigd. Wanneer een waarde in kolom <strong>Totale hoeveelheid</strong> of <strong>Totale kosten</strong> wordt ingevoerd, wordt deze waarde in Microsoft Dynamics 365 for Operations vergeleken met de werkelijke transacties die in de periode zijn geboekt. Vervolgens wordt de waarde in de kolom <strong>Te voltooien hoeveelheid</strong> of <strong>Kosten voor voltooien</strong> verlaagd.</td>
+<td>De kostenraming moet handmatig worden ingevoerd. Nadat de kolom <strong>Totale kosten</strong> of <strong>Totale hoeveelheid</strong> op de pagina <strong>Kostenraming</strong> is ingevuld, worden de werkelijke kosten afgetrokken van de door de gebruiker ingevoerde totalen. Het resultaat bestaat uit de kosten om het project te voltooien. Doorgaans wordt de voortgang van kosten gebaseerd op bijvoorbeeld het aantal hotelverblijven en maaltijden die in elke periode worden geregistreerd, niet bijgehouden. Maar. In plaats daarvan wordt de voortgang meestal bijgehouden op basis van een vergelijking met het totale aantal geschatte uren. Bij deze benadering is geen prognosemodel nodig en kunnen de totale kosten of de totale hoeveelheid handmatig worden gewijzigd. Wanneer een waarde in kolom <strong>Totale hoeveelheid</strong> of <strong>Totale kosten</strong> wordt ingevoerd, wordt deze waarde in Finance and Operations vergeleken met de werkelijke transacties die in de periode zijn geboekt. Vervolgens wordt de waarde in de kolom <strong>Te voltooien hoeveelheid</strong> of <strong>Kosten voor voltooien</strong> verlaagd.</td>
 </tr>
 <tr class="even">
 <td>Totaal budget: werkelijk</td>
@@ -238,7 +238,7 @@ In de volgende tabel worden de methoden beschreven voor berekening van de kosten
 <li>Voorspelde transacties vergelijken met werkelijke transacties.</li>
 <li>De ramingen bijhouden, verlagen of verhogen voor de volgende periode.</li>
 </ol>
-In Microsoft Dynamics 365 for Operations worden de voorspelde ramingen niet automatisch verlaagd . Daarom raden we aan om een oorspronkelijk prognosemodel van het project met een vaste prijs bij te houden om een startsituatie vast te stellen waarmee een vergelijking wordt gemaakt wanneer het project is voltooid. 
+In Finance and Operations worden de voorspelde ramingen niet automatisch verlaagd . Daarom raden we aan om een oorspronkelijk prognosemodel van het project met een vaste prijs bij te houden om een startsituatie vast te stellen waarmee een vergelijking wordt gemaakt wanneer het project is voltooid. 
 > [!NOTE] Gebruik ten minste twee prognosemodellen wanneer u deze methode selecteert. Eén model dient de oorspronkelijke prognose te bevatten. Voor het andere model moet u prognosetransacties kopiëren vanuit een ander model. Deze methode is alleen geldig voor projecten met een vaste prijs en investeringsprojecten.</td>
 > </tr>
 <tr class="odd">

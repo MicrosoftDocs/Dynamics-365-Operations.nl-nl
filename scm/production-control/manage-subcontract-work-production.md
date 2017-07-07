@@ -1,16 +1,16 @@
 ---
 title: Uitbesteed werk in productie beheren
-description: 'In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Microsoft Dynamics 365 for Operations. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.'
+description: 'In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Microsoft Dynamics 365 for Finance and Operations. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.'
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Microsoft Dynamics 365 for Operations. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.
+In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Microsoft Dynamics 365 for Finance and Operations. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.
 
 In [productieprocessen](production-process-overview.md) kunnen werkzaamheden worden uitgevoerd door resources die eigendom zijn van leveranciers of die door leveranciers worden beheerd. Leveranciersresources worden meestal gebruikt voor het nivelleren van periodiek excessieve vraag die de beschikbare capaciteit van de eigen resources van een bedrijf overschrijdt. De leverancier kan mogelijk ook specifieke [resourcemogelijkheden](resource-capabilities.md)of resources tegen een lagere prijs aanbieden.  
 
@@ -42,7 +42,7 @@ Wanneer uitbestede bewerkingen of activiteiten worden gebruikt, zijn deze van in
 
 Voor interne resources is gewoonlijk een vast kostentarief toegewezen voor een periode. Daarentegen worden de kosten van uitbestede resources gebaseerd op de inkoopprijs van de gerelateerde service. De service wordt gedefinieerd als een ander product en wordt gebruikt om de aanschaf- en inkoopprocessen aan te sturen voor een bepaalde uitbestede bewerking.  
 
-Er is momenteel geen expliciet concept van halffabrikaten in Microsoft Dynamics 365 for Operations. In geval van een productieorder waarvoor meer dan één bewerking is vereist om grondstoffen te transformeren in het eindproduct, wordt het eindproduct alleen in de laatste bewerking teruggeboekt naar de voorraad. De halffabricaten die door de eerdere bewerkingen worden geproduceerd, worden meegenomen in het onderhanden werk (OHW), maar ze worden niet geboekt of bijgehouden in de voorraad. Hoewel u routes en stuklijsten in meerdere kleinere eenheden kunt opsplitsen, verhoogt deze methode het aantal producten, stuklijsten en routes die moeten worden beheerd.  
+Er is momenteel geen expliciet concept van halffabrikaten in Microsoft Dynamics 365 for Finance and Operations. In geval van een productieorder waarvoor meer dan één bewerking is vereist om grondstoffen te transformeren in het eindproduct, wordt het eindproduct alleen in de laatste bewerking teruggeboekt naar de voorraad. De halffabricaten die door de eerdere bewerkingen worden geproduceerd, worden meegenomen in het onderhanden werk (OHW), maar ze worden niet geboekt of bijgehouden in de voorraad. Hoewel u routes en stuklijsten in meerdere kleinere eenheden kunt opsplitsen, verhoogt deze methode het aantal producten, stuklijsten en routes die moeten worden beheerd.  
 
 Er zijn twee methoden voor het modelleren van uitbestede werkzaamheden voor productiebewerkingen. Deze methoden verschillen in de wijze waarop het uitbestedingsproces kan worden gemodelleerd, de manier waarop halffabrikaten worden vertegenwoordigd in het proces en de manier waarop kostenbeheer wordt beheerd.
 

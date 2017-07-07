@@ -1,16 +1,16 @@
 ---
 title: Leverancierssamenwerking met klanten
-description: In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken in Microsoft Dynamics 365 for Operations.
+description: In dit onderwerp wordt beschreven hoe u leverancierssamenwerking in Finance and Operations kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken in Microsoft Dynamics 365 for Operations.
+In dit onderwerp wordt beschreven hoe u leverancierssamenwerking in Finance and Operations kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken.
 
-In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 for Operations. Hier wordt aangegeven hoe u inkooporders controleert en hierop reageert, en hoe u consignatievoorraad controleert. Het is ook mogelijk om leverancierssamenwerking te gebruiken om met facturen te werken. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace) voor meer informatie.
+In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 for Finance and Operations. Hier wordt aangegeven hoe u inkooporders controleert en hierop reageert, en hoe u consignatievoorraad controleert. Het is ook mogelijk om leverancierssamenwerking te gebruiken om met facturen te werken. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace) voor meer informatie.
 
 ## <a name="working-with-purchase-orders"></a>Werken met inkooporders
 In de werkruimte **Inkooporderbevestiging** kunt u reageren op de inkooporders die ter beoordeling naar u zijn verzonden. Daarnaast kunt u informatie weergeven over inkooporders die wachten op actie van de klant en inkooporders die zijn bevestigd, maar nog openstaan. Er zijn drie lijsten in de werkruimte **Inkooporderbevestiging**:

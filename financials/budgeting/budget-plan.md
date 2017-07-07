@@ -1,9 +1,9 @@
 ---
 title: Budgetplanning
-description: "Het doel van dit lab is om Microsoft Dynamics 365 for Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.  Dit lab is specifiek gericht op de volgende bedrijfsprocessen of taken: - Een organisatiehiërarchie maken voor budgetplanning en gebruikersbeveiliging configureren - Budgetplanningscenario&quot;s, budgetplanningskolommen, indelingen en Excel-sjablonen definiëren - Budgetplanningsproces maken en activeren - Een budgetplanningsdocument maken door werkelijke waarden uit het grootboek te halen - Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen - Gegevens voor budgetplanningsdocumenten bewerken in Excel"
+description: "Het doel van dit lab is om Microsoft Dynamics 365 for Finance and Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.  Dit lab is specifiek gericht op de volgende bedrijfsprocessen of taken: - Een organisatiehiërarchie maken voor budgetplanning en gebruikersbeveiliging configureren - Budgetplanningscenario's, budgetplanningskolommen, indelingen en Excel-sjablonen definiëren - Budgetplanningsproces maken en activeren - Een budgetplanningsdocument maken door werkelijke waarden uit het grootboek te halen - Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen - Gegevens voor budgetplanningsdocumenten bewerken in Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Het doel van dit lab is om Microsoft Dynamics 365 for Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.  Dit lab is specifiek gericht op de volgende bedrijfsprocessen of taken: - Een organisatiehiërarchie maken voor budgetplanning en gebruikersbeveiliging configureren - Budgetplanningscenario's, budgetplanningskolommen, indelingen en Excel-sjablonen definiëren - Budgetplanningsproces maken en activeren - Een budgetplanningsdocument maken door werkelijke waarden uit het grootboek te halen - Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen - Gegevens voor budgetplanningsdocumenten bewerken in Excel 
+Het doel van dit lab is om Microsoft Dynamics 365 for Finance and Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.  Dit lab is specifiek gericht op de volgende bedrijfsprocessen of taken: - Een organisatiehiërarchie maken voor budgetplanning en gebruikersbeveiliging configureren - Budgetplanningscenario's, budgetplanningskolommen, indelingen en Excel-sjablonen definiëren - Budgetplanningsproces maken en activeren - Een budgetplanningsdocument maken door werkelijke waarden uit het grootboek te halen - Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen - Gegevens voor budgetplanningsdocumenten bewerken in Excel 
 
 <a name="prerequisites"></a>Vereisten 
 ------------------
 
-Voor deze zelfstudie moet u toegang hebben tot de Dynamics 365 for Operations-omgeving met Contoso-demogegevens en moet u als beheerder zijn geconfigureerd voor het exemplaar. Gebruik niet de browsermodus Privé voor dit lab. Meld u indien nodig af bij een andere account in de browser en meld u aan met Dynamics 365 for Operations-beheerdersreferenties. Wanneer u zich aanmeldt bij Dynamics 365 for Operations, **MOET** u het selectievakje “Aangemeld blijven” inschakelen. Hiermee wordt een permanente cookie gemaakt die de Excel-toepassing momenteel nodig heeft. Als u zich aanmeldt bij Dynamics 365 for Operations met een andere browser dan IE, wordt u gevraagd om u aan te melden binnen de Excel-app. Wanneer u op Aanmelden in de Excel-app klikt, wordt een pop-upvenster van IE geopend en wanneer u zich aanmeldt, **MOET** u het selectievakje Aangemeld blijven inschakelen. Als u klikt op Aanmelden in de Excel-app en dat lijkt niets te doen, moet u de IE-cookiecache wissen.
+Voor deze zelfstudie moet u toegang hebben tot de Finance and Operations-omgeving met Contoso-demogegevens en moet u als beheerder zijn geconfigureerd voor het exemplaar. Gebruik niet de browsermodus Privé voor dit lab. Meld u indien nodig af bij een andere account in de browser en meld u aan met Finance and Operations-beheerdersreferenties. Wanneer u zich aanmeldt bij Finance and Operations, **MOET** u het selectievakje “Aangemeld blijven” inschakelen. Hiermee wordt een permanente cookie gemaakt die de Excel-toepassing momenteel nodig heeft. Als u zich aanmeldt bij Finance and Operations met een andere browser dan IE, wordt u gevraagd om u aan te melden binnen de Excel-app. Wanneer u op Aanmelden in de Excel-app klikt, wordt een pop-upvenster van IE geopend en wanneer u zich aanmeldt, **MOET** u het selectievakje Aangemeld blijven inschakelen. Als u klikt op Aanmelden in de Excel-app en dat lijkt niets te doen, moet u de IE-cookiecache wissen.
 
 ## <a name="scenario-overview"></a>**Scenario-overzicht**
 Julia werkt als financiële manager in Contoso Entertainment Systems in Duitsland (DEMF). Aangezien FY2016 dichterbij komt, moet ze zich gaan bezighouden met het budget van het bedrijf voor het komende jaar. Budgetvoorbereiding ziet er als volgt uit:
@@ -148,7 +148,7 @@ De kolommen van het budgetplan zijn monetaire of op hoeveelheid gebaseerde kolom
 
 [![Automatisch invullen](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Keer terug naar Dynamics 365 for Operations en vernieuw de pagina. Gepubliceerde waarden worden weergegeven in Dynamics 365 for Operations. 
+4.7. Keer terug naar Finance and Operations en vernieuw de pagina. Gepubliceerde waarden worden weergegeven in Finance and Operations. 
 
 [![Vernieuwen](./media/screenshot23.png)](./media/screenshot23.png)
 
@@ -233,7 +233,7 @@ De werkelijke bedragen van vorig jaar worden gekopieerd naar het huidige jaarbud
 
 [![Publiceren](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Keer terug naar het budgetplandocument in 365 for Operations. Klik op Workflow &gt; Verzenden om het document automatisch goed te keuren
+9.3. Keer terug naar het budgetplandocument in Finance and Operations. Klik op Workflow &gt; Verzenden om het document automatisch goed te keuren
 
 [![Automatisch goedkeuren](./media/screenshot37.png)](./media/screenshot37.png) 
 

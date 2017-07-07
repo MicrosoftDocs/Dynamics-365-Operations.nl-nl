@@ -1,9 +1,9 @@
 ---
 title: Crediteringen en aanmaningen in Klanten
-description: "Gegevens van klantincasso&quot;s worden beheerd in één centrale weergave, met behulp van de Microsoft Dynamics 365 for Operations-pagina Incasso&quot;s. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten."
+description: "Gegevens van klantincasso's worden beheerd in één centrale weergave, met behulp van de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition-pagina Incasso's. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Gegevens van klantincasso's worden beheerd in één centrale weergave, met behulp van de Microsoft Dynamics 365 for Operations-pagina Incasso's. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
+Gegevens van klantincasso's worden beheerd in één centrale weergave, met behulp van de Finance and Operations-pagina Incasso's. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
 
 Voordat u aanmaningen gaat instellen of hiermee gaat werken, moet u vertrouwd zijn met de volgende concepten:
 -   Ouderdomsmomentopnamen voor klanten bevatten saldogegevens die zijn gerangschikt naar ouderdom
@@ -59,9 +59,9 @@ Voor elke ouderdomsperiode in de ouderdomsperiodedefinitie wordt een ouderdomsmo
 Klantverzamelingen zijn query's waarmee een groep klantrecords wordt gedefinieerd die kan worden weergegeven en beheerd voor aanmaningen of ouderdomsrangschikkingprocessen. Met klantverzamelingen kunt u gegevens filteren op de pagina's Vervallen saldi, Incassoactiviteiten en Aanmaningen. U kunt klantverzamelingen ook gebruiken om de klantrekeningen te filteren, die worden opgenomen bij de aanmaak van ouderdomsmomentopnamen.
 
 ## <a name="collections-agents"></a>Incassomedewerkers
-Gebruikers van Microsoft Dynamics 365 for Operations kunnen standaard alle klantgegevens op lijstpagina's met aanmaningen weergeven. U kunt incassomedewerkerrecords gebruiken om te bepalen welke klantverzamelingen beschikbaar zijn voor het filteren van gegevens op de lijstpagina's met aanmaningen en op de pagina Aanmaningen. 
+Gebruikers van Microsoft Dynamics 365 for Finance and Operations kunnen standaard alle klantgegevens op lijstpagina's met aanmaningen weergeven. U kunt incassomedewerkerrecords gebruiken om te bepalen welke klantverzamelingen beschikbaar zijn voor het filteren van gegevens op de lijstpagina's met aanmaningen en op de pagina Aanmaningen. 
 
-Een incassomedewerker is een persoon die met klanten samenwerkt om ervoor te zorgen dat de betalingen op tijd worden geïnd. In Microsoft Dynamics 365 for Operations zijn incassomedewerkers werknemers die worden toegewezen aan gebruikers op de pagina Gebruikersinstellingen.
+Een incassomedewerker is een persoon die met klanten samenwerkt om ervoor te zorgen dat de betalingen op tijd worden geïnd. In Finance and Operations zijn incassomedewerkers werknemers die worden toegewezen aan gebruikers op de pagina Gebruikersinstellingen.
 
 ## <a name="collections-list-pages"></a> Lijstpagina's met aanmaningen 
 Met de volgende lijstpagina's kunt u gegevens over aanmaningen organiseren.
@@ -71,7 +71,7 @@ Met de volgende lijstpagina's kunt u gegevens over aanmaningen organiseren.
 
 > [!NOTE]
 > Een ouderdomsmomentopname moet worden gemaakt, voordat u gegevens op deze lijstpagina's kunt bekijken. De informatie wordt alleen weergegeven voor klanten voor wie een ouderdomsmomentopname is gemaakt. De records die op de lijstpagina worden weergegeven kunnen bovendien als volgt worden gefilterd:
-<li>Standaard heeft een gebruiker van Microsoft Dynamics 365 for Operations toegang tot alle klanten die een ouderdomsmomentopname hebben.</li>
+<li>Een Finance and Operations-gebruiker heeft standaard toegang tot alle klanten die een ouderdomsmomentopname hebben.</li>
 <li>Als er klantverzamelingen bestaan, moet een gebruiker als incassomedewerker zijn ingesteld om de verzamelingen te gebruiken om gegevens op de lijstpagina's met aanmaningen te filteren. De gegevens zijn beperkt tot de klanten die zijn opgenomen in de geselecteerde klantverzameling.</li>
 <li>Als een gebruiker is ingesteld als incassomedewerker, bevat de lijstpagina alleen de verzamelingen die zijn geselecteerd voor die incassomedewerker. Als de schakeloptie Medewerker toestaan alle klantverzamelingen te bekijken is geselecteerd op de pagina Incassomedewerker voor de incassomedewerker, zijn alle verzamelingen beschikbaar voor die medewerker.</li>
 

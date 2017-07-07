@@ -3,14 +3,14 @@ title: Een statistische basislijnprognose maken
 description: Dit artikel bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d5232b0862d02962c6524ddc5ef37a6ad49d4143
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 93646e37ee511d433097bb284fccc73c230aee32
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,13 +49,13 @@ Wanneer de prognosestrategie is ingesteld **Kopieer over historische vraag**, wo
 
 Om verwarring in de productieplannen te vermijden, kan een bepaald aantal prognoseverzamelingen worden vergrendeld. Dit aantal wordt ingesteld in het veld **Blokkering van de tijdlimiet**. Op de **Aangepaste vraagprognose** pagina, worden de cellen voor de stilgezette verzamelingen uitgeschakeld, om een grafische indicatie te geven dat deze waarden niet moeten worden gewijzigd. 
 
-De begindatum voor de basislijnvraagprognose hoeft niet de huidige datum of een datum in de toekomst te zijn. Om een andere begindatum in te stellen, gebruikt u het veld **De begindatum van de basislijnprognose - Begindatum**. In juni kunnen gebruikers bijvoorbeeld een prognose voor het volgende jaar genereren. Omdat de prognoseverzamelingen tussen het einde van historische vraag en het begin van de basislijn ontbreken, zijn de voorspellingen mogelijk niet nauwkeurig. Als u de vraagprognoseservice van Microsoft Dynamics 365 for Operations gebruikt, zijn er vier manieren waarop u de lacunes kunt invullen. U kunt de gewenste methode selecteren door de parameter MISSING\_VALUE\_SUBSTITUTION in te stellen op de pagina **Parameters voor vraagprognose**. 
+De begindatum voor de basislijnvraagprognose hoeft niet de huidige datum of een datum in de toekomst te zijn. Om een andere begindatum in te stellen, gebruikt u het veld **De begindatum van de basislijnprognose - Begindatum**. In juni kunnen gebruikers bijvoorbeeld een prognose voor het volgende jaar genereren. Omdat de prognoseverzamelingen tussen het einde van historische vraag en het begin van de basislijn ontbreken, zijn de voorspellingen mogelijk niet nauwkeurig. Als u de vraagprognoseservice van Microsoft Dynamics 365 for Finance and Operations gebruikt, zijn er vier manieren waarop u de lacunes kunt invullen. U kunt de gewenste methode selecteren door de parameter MISSING\_VALUE\_SUBSTITUTION in te stellen op de pagina **Parameters voor vraagprognose**. 
 
 Het veld **Begindatum van basislijnprognose** - **Begindatum** moet worden ingesteld aan het begin van een prognoseverzameling, bijvoorbeeld in de Verenigde Staten op een zondag als de prognoseverzameling de week is. Het veld **Begindatum van basislijnprognose** - **Begindatum** wordt automatisch aan het begin van een prognoseverzameling aangepast. 
 
 Het veld **Begindatum van basislijnprognose** - **Begindatum** kan worden ingesteld op een datum in het verleden. Met andere woorden, het is mogelijk om een vraagprognose in het verleden te genereren. Dit is handig, omdat het gebruikers in staat stelt de parameters van de prognoseservice af te stemmen zodat de statistische prognose die in het verleden is gegenereerd overeenkomt met de werkelijke historische vraag. Gebruikers kunnen vervolgens deze parameterinstellingen blijven gebruiken om een statistische basislijnprognose te genereren voor de toekomst. 
 
-Handmatige correcties die bij vorige iteraties van vraagprognoses zijn aangebracht, kunnen automatisch worden toegepast op de nieuwe basislijnprognose als het selectievakje **Handmatige correcties overbrengen naar de vraagprognose** is ingeschakeld. Als het selectievakje is uitgeschakeld, worden handmatige aanpassingen niet toegevoegd aan de basislijnprognose, maar ze worden niet verwijderd. Handmatige correcties die in een prognose zijn aangebracht, kunnen alleen op het moment van importeren van de prognose worden verwijderd door het selectievakje **De handmatige correcties opslaan die in de basislijnvraagprognose zijn gemaakt** te wissen. Handmatige aanpassingen worden opgeslagen op het moment van autorisatie. Daarom gaan de wijzigingen verloren als een gebruiker handmatig aanpassingen uitvoert in de prognose, maar de prognose niet opnieuw autoriseert in Dynamics 365 for Operations. Zie [De gecorrigeerde prognose autoriseren](authorize-adjusted-forecast.md) voor meer informatie over handmatige correcties en hoe deze werken. 
+Handmatige correcties die bij vorige iteraties van vraagprognoses zijn aangebracht, kunnen automatisch worden toegepast op de nieuwe basislijnprognose als het selectievakje **Handmatige correcties overbrengen naar de vraagprognose** is ingeschakeld. Als het selectievakje is uitgeschakeld, worden handmatige aanpassingen niet toegevoegd aan de basislijnprognose, maar ze worden niet verwijderd. Handmatige correcties die in een prognose zijn aangebracht, kunnen alleen op het moment van importeren van de prognose worden verwijderd door het selectievakje **De handmatige correcties opslaan die in de basislijnvraagprognose zijn gemaakt** te wissen. Handmatige aanpassingen worden opgeslagen op het moment van autorisatie. Daarom gaan de wijzigingen verloren als een gebruiker handmatig aanpassingen uitvoert in de prognose, maar de prognose niet opnieuw autoriseert in Finance and Operations. Zie [De gecorrigeerde prognose autoriseren](authorize-adjusted-forecast.md) voor meer informatie over handmatige correcties en hoe deze werken. 
 
 Het genereren van een vraagprognose kan een naam en opmerkingen hebben om gebruikers te helpen de gegenereerde prognose te identificeren. Deze waarden zijn zichtbaar in de historie voor het genereren van prognoses op de pagina **Historie van genereren van statistische basislijnprognose**. 
 
