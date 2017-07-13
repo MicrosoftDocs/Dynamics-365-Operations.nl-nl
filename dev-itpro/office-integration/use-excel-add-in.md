@@ -1,9 +1,9 @@
 ---
 title: De Excel-invoegtoepassing gebruiken
-description: In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Om de entiteitsgegevens te openen, kunt u beginnen vanuit Excel of Microsoft Dynamics 365 for Operations.
+description: In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Om de entiteitsgegevens te openen, kunt u beginnen vanuit Excel of Microsoft Dynamics 365 for Operations.
+In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Om de entiteitsgegevens te openen, kunt u beginnen vanuit Excel of Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Als u entiteitsgegevens in Microsoft Excel opent, kunt u deze snel en eenvoudig bekijken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel. Voor deze invoegtoepassing is Microsoft Excel 2016 vereist. **Opmerking:** Als uw Microsoft Azure AD-tenant (Azure Active Directory) is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de update van mei 2016 is toegepast, zodat de Excel-invoegtoepassing u correct kan aanmelden.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Entiteitsgegevens in Excel openen vanuit Dynamics 365 for Operations
-1.  Klik op een pagina in Microsoft Dynamics 365 for Operations op **Openen in Microsoft Office**. Als de hoofdgegevensbron (tabel) voor de pagina dezelfde is als de hoofdgegevensbron voor enige entiteiten, worden standaardopties voor **Openen in Excel** voor de pagina gegenereerd. **Openen in Excel**-opties vindt u op veelgebruikte pagina's, zoals **Alle leveranciers** en **Alle klanten**.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Entiteitsgegevens in Excel openen vanuit Dynamics 365 for Finance and Operations
+1.  Klik op een pagina in Microsoft Dynamics 365 for Finance and Operations op **Openen in Microsoft Office**. Als de hoofdgegevensbron (tabel) voor de pagina dezelfde is als de hoofdgegevensbron voor enige entiteiten, worden standaardopties voor **Openen in Excel** voor de pagina gegenereerd. **Openen in Excel**-opties vindt u op veelgebruikte pagina's, zoals **Alle leveranciers** en **Alle klanten**.
 2.  Klik op een **Openen in Excel**-optie en open de werkmap die wordt gegenereerd. Deze werkmap heeft bindingsgegevens voor de entiteit, een verwijzing naar uw omgeving en een verwijzing naar de Excel-invoegtoepassing.
 3.  Klik in Excel op **Bewerken inschakelen** zodat de Excel-invoegtoepassing kan worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
 4.  Als u de Excel-invoegtoepassing voor de eerste keer uitvoert, klikt u op **Deze invoegtoepassing vertrouwen**.
-5.  Als u wordt gevraagd om u aan te melden, klikt u op **Aanmelden**. Vervolgens meldt u zich aan met dezelfde referenties die u gebruikt voor aanmelding bij Dynamics 365 for Operations. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van Internet Explorer om u automatisch aan te melden. Controleer daarom de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing.
+5.  Als u wordt gevraagd om u aan te melden, klikt u op **Aanmelden**. Vervolgens meldt u zich aan met dezelfde referenties die u gebruikt voor aanmelding bij Dynamics 365 for Finance and Operations. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van Internet Explorer om u automatisch aan te melden. Controleer daarom de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing.
 
 De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u hebt geselecteerd. Houd er rekening mee dat de werkmap geen gegevens bevat, totdat de Excel-invoegtoepassing deze inleest.
 
@@ -48,7 +48,7 @@ De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u h
 2.  Zoek in de Office Store op het trefwoord 'Dynamics' en klik op **Toevoegen** naast de **Microsoft Dynamics Office-invoegtoepassing** (de Excel-invoegtoepassing).
 3.  Als u de Excel-invoegtoepassing voor de eerste keer uitvoert, klikt u op **Deze invoegtoepassing vertrouwen** zodat de Excel-invoegtoepassing kan worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
 4.  Klik op **Servergegevens toevoegen** om het deelvenster **Opties** te openen.
-5.  Kopieer de browser-URL van uw doel-exemplaar van Dynamics 365 for Operations, plak deze in het veld **Server-URL** en verwijder alle gegevens achter de hostnaam. De resulterende URL moet de hostnaam hebben.
+5.  Kopieer de browser-URL van uw doel-exemplaar van Dynamics 365 for Finance and Operations, plak deze in het veld **Server-URL** en verwijder alle gegevens achter de hostnaam. De resulterende URL moet de hostnaam hebben.
 Bijvoorbeeld: als de URL is https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, verwijdert u alles behalve **https://xxx.dynamics.com**.
 6.  Klik op **OK** en vervolgens op **Ja** om de wijziging te bevestigen. De Excel-invoegtoepassing wordt opnieuw opgestart en metagegevens worden geladen. De knop **Ontwerpen** is nu beschikbaar. Als de Excel-invoegtoepassing een knop **Applets laden** bevat, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Zie voor meer informatie de paragraaf 'De knop Applets laden wordt getoond' in de sectie 'Problemen oplossen' in dit onderwerp.
 7.  Klik op **Ontwerpen**. De Excel-invoegtoepassing haalt entiteit metagegevens op.

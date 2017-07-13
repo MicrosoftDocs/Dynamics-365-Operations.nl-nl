@@ -3,7 +3,7 @@ title: Routes en bewerkingen
 description: In dit onderwerp vindt u informatie over routes en bewerkingen. Een route definieert het proces voor het produceren van een product of de productvariant. Hierin wordt elke stap (bewerking) in het productieproces beschreven, plus de volgorde waarin deze stappen moeten worden uitgevoerd. Voor elke stap definieert de route ook de vereiste bronnen voor bedrijfsactiviteiten, de vereiste insteltijd en uitvoeringstijd en hoe de kosten moet worden berekend.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -37,7 +37,7 @@ In dit onderwerp vindt u informatie over routes en bewerkingen. Een route defini
 <a name="overview"></a>Overzicht
 --------
 
-Met een route wordt de volgorde van bewerkingen beschreven die nodig is om een product of de productvariant te produceren. Voor elke bewerking definieert de route ook de bronnen voor bedrijfsactiviteiten die vereist zijn, de tijd die nodig is om de bewerking in te stellen en uit te voeren en hoe de kosten moet worden berekend. U kunt met één en dezelfde route meerdere producten produceren of kunt u een unieke route definiëren voor elk product of productvariant. U kunt zelfs meerdere routes voor hetzelfde product hebben. In dit geval kunnen verschillende routes worden gebruikt, afhankelijk van factoren zoals de hoeveelheid die moet worden geproduceerd. De definitie van een route in Microsoft Dynamics 365 for Operations bestaat uit vier afzonderlijke elementen die samen het productieproces beschrijven:
+Met een route wordt de volgorde van bewerkingen beschreven die nodig is om een product of de productvariant te produceren. Voor elke bewerking definieert de route ook de bronnen voor bedrijfsactiviteiten die vereist zijn, de tijd die nodig is om de bewerking in te stellen en uit te voeren en hoe de kosten moet worden berekend. U kunt met één en dezelfde route meerdere producten produceren of kunt u een unieke route definiëren voor elk product of productvariant. U kunt zelfs meerdere routes voor hetzelfde product hebben. In dit geval kunnen verschillende routes worden gebruikt, afhankelijk van factoren zoals de hoeveelheid die moet worden geproduceerd. De definitie van een route in Microsoft Dynamics 365 for Finance and Operations bestaat uit vier afzonderlijke elementen die samen het productieproces beschrijven:
 
 -   **Route:** Een route definieert de structuur van het productieproces. Met andere woorden, de route definieert de volgorde van bewerkingen.
 -   **Bewerking:** Een bewerking identificeert een benoemde stap in een route, zoals **Montage**. Dezelfde bewerking kan voorkomen in meerdere routes en verschillende bewerkingsnummers hebben.
@@ -45,7 +45,7 @@ Met een route wordt de volgorde van bewerkingen beschreven die nodig is om een p
 -   **Routeversie:** Een routeversie bepaalt de route die wordt gebruikt voor het produceren van een product of de productvariant. Routeversies maken het mogelijk om routes opnieuw te gebruiken voor verschillende producten of in de loop van de tijd te wijzigen. Ze maken het ook mogelijk om verschillende routes te gebruiken om één en hetzelfde product te produceren. In dit geval is de gebruikte route afhankelijk van factoren zoals de locatie of de hoeveelheid die moet worden geproduceerd.
 
 ## <a name="routes"></a>Routes
-Met een route wordt de volgorde van bewerkingen beschreven die gebruikt wordt om een product of de productvariant te produceren. Aan elke bewerking wordt een bewerkingsnummer toegewezen en een volgende bewerking. De volgorde van bewerkingen vormt een routenetwerk, dat kan worden voorgesteld door een gericht diagram met een of meer beginpunten en een enkel eindpunt. In Dynamics 365 for Operations wordt onderscheid gemaakt tussen routes op basis van het type structuur. De twee typen routes zijn eenvoudige routes en routenetwerken. In de parameters van Productiebeheer kunt u opgeven of alleen eenvoudige routes kunnen worden gebruikt of dat de meer complexe routenetwerken kunnen worden gebruikt.
+Met een route wordt de volgorde van bewerkingen beschreven die gebruikt wordt om een product of de productvariant te produceren. Aan elke bewerking wordt een bewerkingsnummer toegewezen en een volgende bewerking. De volgorde van bewerkingen vormt een routenetwerk, dat kan worden voorgesteld door een gericht diagram met een of meer beginpunten en een enkel eindpunt. In Dynamics 365 for Finance and Operations wordt onderscheid gemaakt tussen routes op basis van het type structuur. De twee typen routes zijn eenvoudige routes en routenetwerken. In de parameters van Productiebeheer kunt u opgeven of alleen eenvoudige routes kunnen worden gebruikt of dat de meer complexe routenetwerken kunnen worden gebruikt.
 
 ### <a name="simple-routes"></a>Eenvoudige routes
 
@@ -53,7 +53,7 @@ Een eenvoudige route is sequentieel en heeft slechts één beginpunt.
 
 [![Eenvoudige routes](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Als u in de parameters van productiebeheer alleen eenvoudige routes hebt ingeschakeld, genereert Dynamics 365 for Operations automatisch de bewerkingsnummers (10, 20, 30, enzovoort) wanneer u de route definieert.
+Als u in de parameters van productiebeheer alleen eenvoudige routes hebt ingeschakeld, genereert Finance and Operations automatisch de bewerkingsnummers (10, 20, 30, enzovoort) wanneer u de route definieert.
 
 ### <a name="route-networks"></a>Routenetwerken
 
@@ -85,10 +85,10 @@ Voordat een route in de planning of het productieproces kan worden gebruikt, moe
 
 Elke route kan afzonderlijk worden goedgekeurd of afgekeurd. Houd er rekening mee dat wanneer de goedkeuring van een route wordt ingetrokken, dit ook gebeurt voor alle gerelateerde routeversies. In de parameters van productiebeheer kunt u opgeven of de goedkeuring van routes kan vervallen en of de goedgekeurde routes kunnen worden gewijzigd.  
 
-Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routes goedkeurt, kunt u elektronische handtekeningen vereisen voor routegoedkeuring. Gebruikers moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routes goedkeurt, kunt u elektronische handtekeningen vereisen voor routegoedkeuring. Gebruikers moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Bewerkingen
-Een bewerking is een stap in het productieproces. In Dynamics 365 for Operations heeft elke bewerking een ID en een eenvoudige beschrijving. In de volgende tabellen staan gangbare voorbeelden van bewerkingen in een machinewerkplaats.
+Een bewerking is een stap in het productieproces. In Dynamics 365 for Finance and Operations heeft elke bewerking een ID en een eenvoudige beschrijving. In de volgende tabellen staan gangbare voorbeelden van bewerkingen in een machinewerkplaats.
 
 | Bewerking  | Omschrijving        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Bewerkingsrelaties geven u meer flexibiliteit bij het definiëren van uw routes.
 
 ### <a name="modifying-product-specific-routes"></a>Productspecifieke routes wijzigen
 
-Bij het openen van de pagina **Route** vanuit de pagina **Vrijgegeven productdetails** worden de routeversies weergegeven die gekoppeld zijn aan het geselecteerde vrijgegeven product. In deze context geeft Dynamics 365 for Operations voor elke bewerking de operationele eigenschappen weer uit de bewerkingsrelatie die het meest overeenkomt met de routeversie. Merk op dat de lijst met bewerkingen de eigenschappen **Artikelcode** en **Routecode** van de bewerkingsrelatie bevat. Zo kunt u bepalen welke bewerkingsrelatie wordt weergegeven.  
+Bij het openen van de pagina **Route** vanuit de pagina **Vrijgegeven productdetails** worden de routeversies weergegeven die gekoppeld zijn aan het geselecteerde vrijgegeven product. In deze context geeft Dynamics 365 for Finance and Operations voor elke bewerking de operationele eigenschappen weer uit de bewerkingsrelatie die het meest overeenkomt met de routeversie. Merk op dat de lijst met bewerkingen de eigenschappen **Artikelcode** en **Routecode** van de bewerkingsrelatie bevat. Zo kunt u bepalen welke bewerkingsrelatie wordt weergegeven.  
 
 Op de pagina **Route** kunt u de operationele eigenschappen van de bewerking wijzigen, zoals de uitvoeringstijd of de kostencategorieën. Uw wijzigingen worden opgeslagen in de bewerkingsrelatie die specifiek is voor de route en het vrijgegeven product waarnaar wordt verwezen in de huidige routeversie. Als de bewerkingsrelatie die wordt weergegeven niet specifiek is voor de route en het vrijgegeven product, maakt het systeem een kopie van de bewerkingsrelatie voordat uw wijzigingen worden opgeslagen. Deze kopie *is* specifiek voor de route en het vrijgegeven product. Zo hebben uw wijzigingen geen invloed op andere routes of vrijgegeven producten. Om te controleren welke bewerkingsrelatie wordt gewijzigd op de pagina **Route**, bekijkt u de velden **Artikelcode** en **Routecode**.  
 
@@ -150,9 +150,9 @@ Als uw bedrijf gebruikmaakt van standaardbewerkingen en de operationele paramete
 
 ### <a name="applying-operation-relations"></a>Bewerkingsrelaties toepassen
 
-In sommige gevallen moet Dynamics 365 for Operations de operationele eigenschappen zoeken voor een bewerking. Wanneer bijvoorbeeld een inkooporder wordt gemaakt, moeten de operationele eigenschappen van elke bewerking worden gekopieerd van de bewerkingsrelaties naar de productieroute. In dergelijke situaties zoekt Dynamics 365 for Operations de relevante bewerkingsrelaties vanaf de meest specifieke combinatie tot en met de minst specifieke combinatie.  
+In sommige gevallen moet Dynamics 365 for Finance and Operations de operationele eigenschappen zoeken voor een bewerking. Wanneer bijvoorbeeld een inkooporder wordt gemaakt, moeten de operationele eigenschappen van elke bewerking worden gekopieerd van de bewerkingsrelaties naar de productieroute. In dergelijke situaties zoekt Finance and Operations de relevante bewerkingsrelaties vanaf de meest specifieke combinatie tot en met de minst specifieke combinatie.  
 
-Wanneer Dynamics 365 for Operations de meest relevante bewerkingsrelatie zoekt voor een vrijgegeven product, krijgt een bewerkingsrelatie die overeenkomt met de artikel-ID van het vrijgegeven product de voorkeur boven een bewerkingsrelatie die overeenkomt met de artikelengroep-ID. Op zijn beurt krijgt een bewerkingsrelatie die overeenkomt met de artikelengroep-ID de voorkeur boven de standaardbewerkingsrelatie. De zoekopdracht wordt in de volgende volgorde uitgevoerd:
+Wanneer Dynamics 365 for Finance and Operations de meest relevante bewerkingsrelatie zoekt voor een vrijgegeven product, krijgt een bewerkingsrelatie die overeenkomt met de artikel-ID van het vrijgegeven product de voorkeur boven een bewerkingsrelatie die overeenkomt met de artikelengroep-ID. Op zijn beurt krijgt een bewerkingsrelatie die overeenkomt met de artikelengroep-ID de voorkeur boven de standaardbewerkingsrelatie. De zoekopdracht wordt in de volgende volgorde uitgevoerd:
 
 1.  **Artikelcode**=**Tabel** en **Artikelrelatie**=&lt;artikel-ID&gt;
 2.  **Artikelcode**=**Groep** en **Artikelrelatie**=&lt;artikelengroep-ID&gt;
@@ -188,7 +188,7 @@ Wanneer u een routeversie activeert, wijst u deze aan als de standaardversie van
 
 ### <a name="electronic-signatures"></a>Elektronische handtekeningen
 
-Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routeversies goedkeurt en activeert, kunt u elektronische handtekeningen voor deze taken vereisen. Gebruikers die routeversies goedkeuren en activeren, moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routeversies goedkeurt en activeert, kunt u elektronische handtekeningen voor deze taken vereisen. Gebruikers die routeversies goedkeuren en activeren, moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ### <a name="product-change-that-uses-case-management"></a>Productwijziging door middel van casebeheer
 
@@ -199,7 +199,7 @@ Afhankelijk van uw bedrijfsbehoeften kunt u mogelijk het werk reduceren dat het 
 
 ### <a name="making-routes-independent-of-resources"></a>Routes onafhankelijk van resources maken
 
-In veel systemen moet de bron voor bedrijfsactiviteiten of resourcegroep die een bewerking moet uitvoeren, in de route worden opgegeven. In Dynamics 365 for Operations kunt u echter een aantal vereisten definiëren waaraan een bron voor bedrijfsactiviteiten voldoen moet om in aanmerking te komen voor de bewerking. Daarom hoeft de specifieke bron voor bedrijfsactiviteiten of resourcegroep die u wilt gebruiken niet te worden bepaald totdat de bewerking wordt gepland. Deze functionaliteit is vooral nuttig als u veel werknemers of machines hebt die dezelfde bewerking kunnen uitvoeren.  
+In veel systemen moet de bron voor bedrijfsactiviteiten of resourcegroep die een bewerking moet uitvoeren, in de route worden opgegeven. In Dynamics 365 for Finance and Operations kunt u echter een aantal vereisten definiëren waaraan een bron voor bedrijfsactiviteiten voldoen moet om in aanmerking te komen voor de bewerking. Daarom hoeft de specifieke bron voor bedrijfsactiviteiten of resourcegroep die u wilt gebruiken niet te worden bepaald totdat de bewerking wordt gepland. Deze functionaliteit is vooral nuttig als u veel werknemers of machines hebt die dezelfde bewerking kunnen uitvoeren.  
 
 Stel dat u opgeeft dat een bewerking een bron voor bedrijfsactiviteiten vereist van het type **Machine** met een **Stempel**-vermogen van 20 ton. De planningsengine zet deze vereisten om naar een specifieke bron voor bedrijfsactiviteiten of resourcegroep wanneer de bewerking wordt gepland. Omdat u alleen deze vereisten kunt opgeven in plaats van de bewerking aan een specifieke machine te koppelen, hebt u veel grotere flexibiliteit. Bovendien is onderhoud eenvoudiger wanneer resources worden verplaatst of nieuwe resources worden toegevoegd.  
 
@@ -240,7 +240,7 @@ Als u geen bron voor bedrijfsactiviteiten of resourcegroep opgeeft als onderdeel
 
 [Bronmogelijkheden](resource-capabilities.md)
 
-[Overzicht van elektronische handtekeningen](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Overzicht van elektronische handtekeningen](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

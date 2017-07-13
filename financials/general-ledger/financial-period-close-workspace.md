@@ -3,7 +3,7 @@ title: "Werkgebied voor afsluiten van financiële periode"
 description: "Dit artikel geeft een overzicht van het werkgebied Afgesloten financiële periode en de bijbehorende configuratie."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ De optie **Taak voltooid** moet handmatig worden geselecteerd nadat de taak is v
 U kunt alle huidige en vorige taken voor het afsluiten van de periode weergeven via de lijstpagina **Alle taken voor het afsluiten van de financiële periode**. Deze lijstpagina kan het beste worden gebruikt voor een historische analyse van het afsluitingsproces omdat deze informatie over de geplande vervaldatum bevat, de werkelijke voltooiingsdatum en de persoon die de taak heeft voltooid. U kunt de informatie op deze lijstpagina eenvoudig exporteren naar Microsoft Excel voor rapportage- en controledoeleinden.
 
 ## <a name="financial-period-close-configuration-page"></a>Pagina Configuratie van afgesloten financiële periode
-Voordat u het werkgebied **Afgesloten financiële periode** kunt gebruiken, moet u het proces in Microsoft Dynamics 365 for Operations configureren via de pagina **Configuratie van afgesloten financiële periode**. (Klik op **Grootboek** &gt; **Afgesloten periode** &gt; **Configuratie van afgesloten financiële periode**.)
+Voordat u het werkgebied **Afgesloten financiële periode** kunt gebruiken, moet u het proces in Microsoft Dynamics 365 for Finance and Operations configureren via de pagina **Configuratie van afgesloten financiële periode**. (Klik op **Grootboek** &gt; **Afgesloten periode** &gt; **Configuratie van afgesloten financiële periode**.)
 
 ### <a name="resources"></a>Bronnen
 
@@ -90,7 +90,7 @@ U gebruikt een sjabloon voor financiële afsluiting om alle taken te definiëren
 
 U kunt een taak in de sjabloon toewijzen aan een of meer bedrijven waar deze taak van toepassing is. Als een andere persoon wordt toegewezen om die werkzaamheden in elk bedrijf te verrichten, is het mogelijk handig meerdere taken te maken voor dezelfde werkzaamheden. Maak een taak voor elk bedrijf. 
 
-De menuoptie **Taakkoppeling** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Zo kan een afsluitingstaak om het herwaarderingsproces voor valuta uit te voeren voor leveranciers worden gekoppeld aan de bijbehorende pagina **Herwaardering van vreemde valuta** in Microsoft Dynamics 365 for Operations. U kunt ook koppelen aan een externe URL. 
+De menuoptie **Taakkoppeling** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Zo kan een afsluitingstaak om het herwaarderingsproces voor valuta uit te voeren voor leveranciers worden gekoppeld aan de bijbehorende pagina **Herwaardering van vreemde valuta** in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. U kunt ook koppelen aan een externe URL. 
 
 > [!Hint] Als u een bepaald Management Reporter-rapport wilt koppelen aan een taak voor het afsluiten van de financiële periode, kunt u de rapport-URL gebruiken. Om de rapport-URL te openen, opent u het rapport in de rapportontwerper en klikt u op **Bestand** &gt; **Rapport weergeven** om het rapport in een webbrowser te openen. U kunt de URL vervolgens kopiëren in de adresbalk van de browser en deze in het veld **Taakkoppeling** **URL** plakken. 
 

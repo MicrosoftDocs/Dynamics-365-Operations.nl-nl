@@ -3,25 +3,27 @@ title: Streepjescodemaskers instellen
 description: In dit onderwerp wordt beschreven hoe u streepjescodemaskertekens en streepjescodemaskers instelt en hoe u streepjescodemaskers toewijst aan streepjescodes.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ In dit onderwerp wordt beschreven hoe u streepjescodemaskertekens en streepjesco
 <a name="set-up-bar-code-mask-characters"></a>Tekens van streepjescodemaskers instellen
 -------------------------------
 
-Streepjescodemaskers worden gebruikt om streepjescodes te maken en snel streepjescodes te identificeren die in het POS worden gescand. Maskers bestaan uit tekens die fungeren als tijdelijke aanduidingen, die aangeven wat de indeling van de gemaakte streepjescodes is. Als u een streepjescodemasker wilt configureren, moet u de tekens van streepjescodemaskers instellen. Ga naar **Kleinhandel en commerce** &gt; **Voorraadbeheer** &gt; **Streepjescodes en etiketten** &gt; **Maskertekens**. Klik op **Nieuw** om tekens voor het streepjescodemasker te maken. Tekens van streepjescodemaskers kunnen worden gemaakt om de volgende gegevens in de streepjescode aan te geven.
+Streepjescodemaskers worden gebruikt om streepjescodes te maken en snel streepjescodes te identificeren die in het POS worden gescand. Maskers bestaan uit tekens die fungeren als tijdelijke aanduidingen, die aangeven wat de indeling van de gemaakte streepjescodes is. Als u een streepjescodemasker wilt configureren, moet u de tekens van streepjescodemaskers instellen. Ga naar **Retail** &gt; **Voorraadbeheer** &gt; **Streepjescodes en etiketten** &gt; **Maskertekens**. Klik op **Nieuw** om tekens voor het streepjescodemasker te maken. Tekens van streepjescodemaskers kunnen worden gemaakt om de volgende gegevens in de streepjescode aan te geven.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ Streepjescodemaskers worden gebruikt om streepjescodes te maken en snel streepje
 | **Werknemer**         | Geeft het segment in de streepjescode aan met het id-nummer van werknemers, dat wordt gebruikt bij POS-aanmelding via streepjescode.                                  |
 | **Klant**         | Geeft het segment met het klant-ID in de streepjescode aan.                                                                                  |
 | **Gegevensinvoer**       | *Nog niet geïmplementeerd.*                                                                                          |
-| **Kortingscode**    | Geeft de kortingscode aan voor een streepjescode die wordt gebruikt om een korting toe te voegen aan een POS-transactie.             |
+| **Kortingscode**    | *Afgeschaft* vanaf Dynamics 365 for Retail, versie lente 2017. Voorheen: Geeft de kortingscode aan voor een streepjescode die wordt gebruikt om een korting toe te voegen aan een POS-transactie.                                                                   |
+| **Couponcode**      | Geeft een couponcode voor een streepjescode aan, waarmee een korting wordt toegevoegd aan een detailhandelorder. Deze code vervangt de kortingscode.     |
 | **Geschenkbon**        | Geeft een geschenkbonnummer aan bij de uitgifte van een geschenkbon of betaling daarmee.                                               |
 | **Loyaliteitskaart**     | Voegt een loyaliteitsklant aan de transactie toe en kan worden gebruikt wanneer met een loyaliteitskaart wordt betaald.                             |
 
 ## <a name="define-bar-code-masks"></a>Streepjescodemaskers definiëren
-Nadat de tekens van streepjescodemaskers zijn opgegeven voor de benodigde streepjescodemaskers, gaat u naar **Detailhandel en commerce** &gt; **Voorraadbeheer** &gt; **Streepjescodes en etiketten** &gt; **Instellingen streepjescodemasker**. Op deze pagina definieert u de streepjescodemaskers die gebruik maken van de eerder opgegeven tekens. Deze streepjescodemaskers wordt gebruikt bij het genereren van streepjescodes en helpen ook bij het identificeren van streepjescodes die worden gescand op het POS.
+Nadat de tekens van streepjescodemaskers zijn opgegeven voor de benodigde streepjescodemaskers, gaat u naar **Retail** &gt; **Voorraadbeheer** &gt; **Streepjescodes en etiketten** &gt; **Instellingen streepjescodemasker**. Op deze pagina definieert u de streepjescodemaskers die gebruik maken van de eerder opgegeven tekens. Deze streepjescodemaskers wordt gebruikt bij het genereren van streepjescodes en helpen ook bij het identificeren van streepjescodes die worden gescand op het POS.
 
 1.  Klik op **Nieuw** om een nieuw streepjescodemasker te maken.
 2.  Voer waarden in de velden **Masker-ID** en **Omschrijving** in en selecteer vervolgens een type streepjescodemasker in het veld **Type**.

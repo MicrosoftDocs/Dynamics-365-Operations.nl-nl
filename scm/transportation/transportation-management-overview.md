@@ -1,15 +1,15 @@
 ---
 title: Overzicht van Transportbeheer
-description: Dit onderwerp bevat een overzicht van de functionaliteit voor het transport in Microsoft Dynamics 365 for Operations.
+description: Dit onderwerp bevat een overzicht van de functionaliteit voor het transport in Microsoft Dynamics 365 for Finance and Operations.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30251
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 796bf42f103bd6d14e872138d07e4a911ddcab1a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2fbea4f5e86a6bef98be5df3a2b69aac36e371e5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit onderwerp bevat een overzicht van de functionaliteit voor het transport in Microsoft Dynamics 365 for Operations.
+Dit onderwerp bevat een overzicht van de functionaliteit voor het transport in Microsoft Dynamics 365 for Finance and Operations.
 
-Met Transportbeheer kunt u het transport van uw bedrijf beheren en kunt u tevens leveranciers- en routeringoplossingen voor binnenkomende en uitgaande orders identificeren. Bijvoorbeeld, kunt u de snelste route of het minste dure tarief voor een zending identificeren. In de volgende tabel worden de hoofdscenario's beschreven voor het gebruik van Transportbeheer in Microsoft Dynamics 365 for Operations.
+Met Transportbeheer kunt u het transport van uw bedrijf beheren en kunt u tevens leveranciers- en routeringoplossingen voor binnenkomende en uitgaande orders identificeren. Bijvoorbeeld, kunt u de snelste route of het minste dure tarief voor een zending identificeren. In de volgende tabel worden de hoofdscenario's beschreven voor het gebruik van Transportbeheer in Microsoft Dynamics 365 for Finance and Operations.
 
 <table>
 <colgroup>
@@ -68,23 +68,23 @@ Met Transportbeheer kunt u het transport van uw bedrijf beheren en kunt u tevens
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Planningstransport in Dynamics 365 for Operations
+## <a name="planning-transportation-in-finance-and-operations"></a>Transportplanning in Finance and Operations
 In Transportbeheer kan transportplanning worden gebaseerd op orders of op verzendingen die zijn gemaakt op basis van deze orders. De verzendingen vinden altijd op een bepaald punt in de tijd plaats, maar zijn niet voor transportplanning vereist. De transferorders maken deel uit van het uitgaande scenario en kunnen samen met verkooporders worden gepland. 
 
 ![Ladingtekening](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Binnenkomend transport
-Wanneer u artikelen bestelt bij een leverancier en deze in uw magazijn moeten worden geleverd, kunt u bijvoorbeeld het transport van de artikelen zelf bepalen. U kunt Dynamics 365 for Operations gebruiken om het transport en de ontvangst van een inkomende lading te plannen. De volgende afbeelding toont het bedrijfs processtroom voor het plannen van een verzending voor een binnenkomende lading. 
+Wanneer u artikelen bestelt bij een leverancier en deze in uw magazijn moeten worden geleverd, kunt u bijvoorbeeld het transport van de artikelen zelf bepalen. U kunt Finance and Operations gebruiken om het transport en de ontvangst van een inkomende lading te plannen. De volgende afbeelding toont het bedrijfs processtroom voor het plannen van een verzending voor een binnenkomende lading. 
 
 ![Bedrijfsprocesstroom voor binnenkomend ladingtransport](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Uitgaand transport
-U kunt een uitgaande lading plannen en verwerken om specifieke artikelen te verzenden van het magazijn van een bedrijf naar een klant. U kunt Dynamics 365 for Operations gebruiken om het transport en de verzending van een uitgaande lading te plannen. De volgende afbeelding toont de bedrijfsprocesstroom voor het plannen en verwerken van uitgaande lading voor verzending. 
+U kunt een uitgaande lading plannen en verwerken om specifieke artikelen te verzenden van het magazijn van een bedrijf naar een klant. U kunt Finance and Operations gebruiken om het transport en de verzending van een uitgaande lading te plannen. De volgende afbeelding toont de bedrijfsprocesstroom voor het plannen en verwerken van uitgaande lading voor verzending. 
 
 ![Uitgaande ladingen plannen en verwerken](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Lading opbouwen
-Dynamics 365 for Operations bevat een strategie voor het opbouwen van ladingen die de op volume gebaseerde ladingopbouwstrategie wordt genoemd. Met deze strategie kunt u de maximumwaarden gebruiken die worden opgegeven voor hoogte en gewicht in de ladingsjabloon. U kunt ook de instellingen overschrijven door nieuwe waarden in te voeren. Als u deze strategie wilt gebruiken, selecteert u deze in het veld **Ladingopbouwstrategie** op het sneltabblad **Instellen** in het formulier **Workbench voor ladingopbouw**. Bovendien kunt u uw eigen belasting-bouwende strategieën toevoegen door een nieuwe klasse in de Application Object Tree (AOT) te maken.
+Finance and Operations bevat een strategie voor het opbouwen van ladingen die de op volume gebaseerde ladingopbouwstrategie wordt genoemd. Met deze strategie kunt u de maximumwaarden gebruiken die worden opgegeven voor hoogte en gewicht in de ladingsjabloon. U kunt ook de instellingen overschrijven door nieuwe waarden in te voeren. Als u deze strategie wilt gebruiken, selecteert u deze in het veld **Ladingopbouwstrategie** op het sneltabblad **Instellen** in het formulier **Workbench voor ladingopbouw**. Bovendien kunt u uw eigen belasting-bouwende strategieën toevoegen door een nieuwe klasse in de Application Object Tree (AOT) te maken.
 
 
 

@@ -3,25 +3,26 @@ title: Bedrijfsspecifieke HR-parameters instellen
 description: De instellingen van bepaalde parameters van Human Resources (HR) worden in alle bedrijven gedeeld, terwijl de instellingen van andere parameters bedrijfsspecifiek zijn. In dit artikel wordt uitgelegd hoe u bedrijfsspecifieke HR-parameters instelt.
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRMParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1a3560013271fc1b83bdb931aef2153b1d07317
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: ef84ad6e90e7c58ea921930e23b67228d393bc7e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -36,7 +37,7 @@ De instellingen van bepaalde parameters van Human Resources (HR) worden in alle 
 Twee pagina's worden gebruikt om de parameters voor Human resources (HR) in te stellen. Voor parameters die door bedrijven worden gedeeld, gebruikt u de pagina **Gedeelde Human resources-parameters**. Voor parameters die bedrijfsspecifiek zijn (met andere woorden, de instellingen gelden voor één bedrijf), gebruikt u de pagina **Parameters personeel**. Op de **Human resources-parameters** pagina, zijn de instellingen verdeeld over zes tabbladen:
 
 -   Algemeen
--   Werving
+-   Werving: dit maakt geen deel uit van Dynamics 365 for Talent
 -   Compensatie
 -   Nummerreeksen
 -   Family and Medical Leave Act (FMLA)
@@ -48,7 +49,11 @@ De instellingen op het tabblad **Werving** definiëren de documenttypen die word
 
 De instellingen op het tabblad **Compensatie** definiëren of gebruikers moeten bevestigen dat ze informatie willen opslaan voor een vaste- of variabele-compensatieplan. Als u het selectievakje **Opslaan van validatie activeren** inschakelt, wordt een gebruiker wanneer hij of zij een compensatie-gerelateerde pagina afsluit, gevraagd of hij of zij de record wil opslaan. Op sommige pagina's in compensatiebeheer kunnen gebruikers geen gegevens verwijderen.. Door gebruikers te vragen of ze gegevens daadwerkelijk willen opslaan, worden er mogelijk minder gegevens opgeslagen die naderhand niet meer kunnen worden verwijderd. Als het selectievakje **Opslaan van validatie activeren** is uitgeschakeld, worden records altijd direct opgeslagen, misschien voordat de gebruiker klaar is. Als u prestatiebeheer gebruikt, kunt u met het tabblad **Compensatie** ook een beoordelingsmodel selecteren om te gebruiken in plaats van het model dat wordt toegewezen aan compensatieplannen wanneer prestaties worden beoordeeld. 
 
-De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt voor het automatisch toewijzen van id's aan items in Human resources, zoals sollicitaties, verzuimregistraties, resultaten van compensatieprocessen, casenummers, cursussen en cursusagenda's. Om nummerreeksverwijzingen en codes te onderhouden, gebruikt u de lijstpagina **Nummerreeksen**. Klik op **Organisatiebeheer** &gt; **Nummerreeksen** &gt; **Nummerreeksen**. 
+### <a name="previously-released-functionality"></a>Eerder uitgebrachte functionaliteit
+De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt voor het automatisch toewijzen van id's aan items in Human resources, zoals sollicitaties, verzuimregistraties, resultaten van compensatieprocessen, casenummers, cursussen en cursusagenda's. Om nummerreeksverwijzingen en codes te onderhouden, gebruikt u de lijstpagina **Nummerreeksen**. Klik op **Organisatiebeheer** &gt; **Nummerreeksen** &gt; **Nummerreeksen**.
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Als u Dynamics 365 for Talent gebruikt
+De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden gebruikt voor het automatisch toewijzen van id's aan items in Human resources, zoals sollicitaties, verzuimregistraties, resultaten van compensatieprocessen, casenummers, cursussen en cursusagenda's. Om nummerreeksverwijzingen en codes te onderhouden, gebruikt u de lijstpagina **Nummerreeksen**. Klik op **Systeembeheer** &gt; tabblad **Koppelingen** &gt; **Nummerreeksen** &gt; **Nummerreeksen**. 
 
 De instellingen op het tabblad **FMLA** bepalen hoeveel uren een werknemer moet werken om in aanmerking te komen voor FMLA-vergoedingen, de duur van het dienstverband dat is vereist om in aanmerking te komen en de begindatum van het dienstverband die wordt gebruikt om de duur van het dienstverband te definiëren. De instellingen bepalen ook het aantal FMLA-uren waarop werknemers recht hebben en de FMLA-verlofkalender die wordt gebruikt om te berekenen hoeveel FMLA-uren werknemers hebben gebruikt. Het tabblad **FMLA** is alleen beschikbaar voor bedrijven in de Verenigde Staten. 
 

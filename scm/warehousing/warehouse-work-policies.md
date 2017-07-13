@@ -1,16 +1,16 @@
 ---
 title: Werkbeleid magazijn
-description: "Een nieuw beleid voor magazijnwerk is geïntroduceerd in Microsoft Dynamics AX 7.0.1 (de update van mei 2016 ). Dit werkbeleid bepaalt of er magazijnwerk wordt gemaakt voor magazijnprocessen in productie."
+description: Magazijnwerkbeleid bepaalt of magazijnwerk wordt aangemaakt door magazijnprocessen in productie, op basis van het werkordertype, de voorraadlocatie en het product.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Een nieuw beleid voor magazijnwerk is geïntroduceerd in Microsoft Dynamics AX 7.0.1 (de update van mei 2016 ). Dit werkbeleid bepaalt of er magazijnwerk wordt gemaakt voor magazijnprocessen in productie.
+Magazijnwerkbeleid in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, bepaalt of magazijnwerk wordt aangemaakt door magazijnprocessen in productie, op basis van het werkordertype, de voorraadlocatie en het product.
 
 Dit werkbeleid bepaalt of er magazijnwerk wordt gemaakt voor magazijnprocessen in productie. U kunt het werkbeleid instellen door een combinatie van **werkordertypen**, een **voorraadlocatie** en een **product** te gebruiken. Stel dat het product L0101 gereed wordt gemeld bij uitvoerlocatie 001. Het eindproduct wordt later gebruikt in een andere productieorder op uitvoerlocatie 001. In dit geval kunt u een werkbeleid instellen om te voorkomen dat het werk voor het wegzetten van het eindproduct wordt uitgevoerd wanneer u product L0101 gereedmeldt bij uitvoerlocatie 001. Het werkbeleid is een afzonderlijke entiteit die kan worden beschreven aan de hand van de volgende informatie:
 
 -   **Werkbeleidsnaam**(de unieke id van het werkbeleid)
--   **Werkordertypen**en**Werkaanmaakmethode**
+-   **Werkordertypen** en **Werkaanmaakmethode**
 -   **Voorraadlocaties**
 -   **Producten**
 

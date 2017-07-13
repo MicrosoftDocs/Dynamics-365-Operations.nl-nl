@@ -1,36 +1,36 @@
 ---
 title: intercompany-facturering
-description: Dit artikel bevat informatie en voorbeelden met betrekking tot intercompany-facturering voor projecten in Microsoft Dynamics 365 for Operations.
+description: Dit artikel bevat informatie en voorbeelden met betrekking tot intercompany-facturering voor projecten in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="intercompany-invoicing"></a>intercompany-facturering
+# <a name="intercompany-invoicing"></a>Intercompany-facturering
 
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel bevat informatie en voorbeelden met betrekking tot intercompany-facturering voor projecten in Microsoft Dynamics 365 for Operations.
+Dit artikel bevat informatie en voorbeelden met betrekking tot intercompany-facturering voor projecten in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Uw organisatie kan meerdere afdelingen, dochterondernemingen en andere rechtspersonen hebben die producten en services aan elkaar overdrachten voor projecten. De rechtspersoon die het product of de service levert, wordt de *uitlenende rechtspersoon* genoemd en de rechtspersoon die de service of het product ontvangt, de *lenende rechtspersoon*. 
 
@@ -53,7 +53,7 @@ Het doel is kostenbeheer, verantwoording van opbrengsten, belastingen en verreke
     -   **Bijdrageverhouding** – Het getal dat u invoert in het veld **Prijscalculatie** is de bijdrageverhouding, uitgedrukt als een percentage van de verkoopprijs.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Voorbeeld 1: Parameters voor intercompany-facturering instellen
-In dit voorbeeld is USSI een uitlenende rechtspersoon en rapporteren de resources tijd tegen de lenende rechtspersoon, FRSI, die eigenaar is van het contract met de eindklant. Uren en kosten die werknemers van USSI rapporteren kunnen worden opgenomen in de projectfactuur die FRSI genereert. Bovendien is er een derde bron van transacties die afkomstig kunnen zijn van de uitlenende rechtspersoon (USSI in dit voorbeeld) wanneer deze gedeelde leveranciersservices levert aan dochterondernemingen (zoals FRSI) en vervolgens deze kosten doorgeeft aan projecten binnen die dochterondernemingen. Alle overeenkomende factuurdocumenten en btw-berekeningen worden uitgevoerd door Dynamics 365 for Operations. 
+In dit voorbeeld is USSI een uitlenende rechtspersoon en rapporteren de resources tijd tegen de lenende rechtspersoon, FRSI, die eigenaar is van het contract met de eindklant. Uren en kosten die werknemers van USSI rapporteren kunnen worden opgenomen in de projectfactuur die FRSI genereert. Bovendien is er een derde bron van transacties die afkomstig kunnen zijn van de uitlenende rechtspersoon (USSI in dit voorbeeld) wanneer deze gedeelde leveranciersservices levert aan dochterondernemingen (zoals FRSI) en vervolgens deze kosten doorgeeft aan projecten binnen die dochterondernemingen. Alle overeenkomende factuurdocumenten en btw-berekeningen worden uitgevoerd door Finance and Operations. 
 
 In dit voorbeeld moet FRSI een klant zijn in de rechtspersoon USSI en moet USSI een leverancier zijn in de rechtspersoon FRSI. U kunt vervolgens een intercompany-relatie opzetten tussen de twee rechtspersonen. De volgende procedure laat zien hoe de parameters zodanig kunnen worden ingesteld dat beide rechtspersonen kunnen deelnemen aan intercompany-facturering.
 

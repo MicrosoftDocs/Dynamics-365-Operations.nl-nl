@@ -1,27 +1,29 @@
 ---
 title: Orderverwerkingsopties instellen
-description: Dit onderwerp bevat informatie over hoe u orders voor callcenters verwerkt via Microsoft Dynamics 365 for Operations - Retail.
+description: Dit onderwerp bevat informatie over hoe u orders voor callcenters verwerkt via Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Dit onderwerp bevat informatie over hoe u orders voor callcenters verwerkt via Microsoft Dynamics 365 for Operations - Retail. 
+Dit onderwerp bevat informatie over hoe u orders voor callcenters verwerkt via Microsoft Dynamics 365 for Retail. 
 
-Detailhandel en commerce in Dynamics 365 for Operations ondersteunt meerdere detailhandelskanalen, zoals online winkels, fysieke winkels en callcenters. In een callcenter nemen de werknemers via de telefoon klantenorders aan en maken ze verkooporders. Dit onderwerp beschrijft hoe u een call center kunt maken en de opties van het call center kunt configureren. Elk call center kan eigen gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden hebben. U kunt deze opties configureren wanneer u het call center maakt. **Belangrijk:** Voordat callcenterworkflows kunnen worden gebruikt wanneer de huidige Dynamics AX-gebruiker verkooporders maakt, moet de gebruiker aan het callcenter worden toegewezen als een callcentergebruiker. U kunt de pagina **Callcenter** gebruiken om groepen of functies in te schakelen of uit te schakelen die uniek voor callcenters. De volgende groepen functies kunnen worden ingeschakeld:
+Retail ondersteunt meerdere retailkanalen, zoals onlinewinkels, fysieke winkels en callcenters. In een callcenter nemen de werknemers via de telefoon klantenorders aan en maken ze verkooporders. Dit onderwerp beschrijft hoe u een call center kunt maken en de opties van het call center kunt configureren. Elk call center kan eigen gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden hebben. U kunt deze opties configureren wanneer u het call center maakt. **Belangrijk:** Voordat callcenterworkflows kunnen worden gebruikt wanneer een gebruiker verkooporders maakt, moet de gebruiker aan het callcenter worden toegewezen als een callcentergebruiker. U kunt de pagina **Callcenter** gebruiken om groepen of functies in te schakelen of uit te schakelen die uniek voor callcenters. De volgende groepen functies kunnen worden ingeschakeld:
 
 -   **Ordervoltooiing**: deze groep bevat functies die aan betalingen en ordervoltooiing in de **Verkooporder** zijn gekoppeld.
 -   **Geleide verkoop:** deze groep bevat functies die aan broncodes, scripts en catalogusaanvragen worden gekoppeld.

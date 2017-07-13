@@ -3,14 +3,14 @@ title: Resources plannen voor projecten
 description: In dit onderwerp vindt u informatie over het plannen van resources voor projecten.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 In dit onderwerp vindt u informatie over het plannen van resources voor projecten.
 
-Een van de uitdagingen voor projectmanagers en resourcemanagers tijdens de projectplanningsfase is resourcetoewijzing, waarin ze de juiste resources moetn definiëren en reserveren voor werk aan een project. In Microsoft Dynamics 365 for Operations kunt u met de capaciteiten voor projectresourcing rollen definiëren die worden behandeld als tijdelijke resources. Die kunt u reserveren voor een specifieke taak, ofwel een gedeelte van een taak. Met dit type resourcing kunnen projectmanagers en resourcemanagers de volgende taken uitvoeren:
+Een van de uitdagingen voor projectmanagers en resourcemanagers tijdens de projectplanningsfase is resourcetoewijzing, waarin ze de juiste resources moetn definiëren en reserveren voor werk aan een project. In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, kunt u met de capaciteiten voor projectresourcing rollen definiëren die worden behandeld als tijdelijke resources. Die kunt u reserveren voor een specifieke taak, ofwel een gedeelte van een taak. Met dit type resourcing kunnen projectmanagers en resourcemanagers de volgende taken uitvoeren:
 
 -   Een rol definiëren met de vereiste competenties om het afstemmen van resources te vergemakkelijken.
 -   Met behulp van rollen een initiële taakplanning definiëren op basis van resourcereserveringen.
@@ -65,10 +65,10 @@ Wanneer u een medewerker als een intercompany-resource instelt, moet u de instel
 
 **In het uitlenende bedrijf:**
 
-1.  Controleer in Dynamics 365 for Operations of het uitlenende bedrijf is geselecteerd en voer de voorgaande procedure, 'Een medewerker instellen als een projectresource', uit.
+1.  Controleer in Finance and Operations of het uitlenende bedrijf is geselecteerd en voer de voorgaande procedure, 'Een medewerker instellen als een projectresource', uit.
 2.  Ga naar ** Grootboek **&gt; ** Boekingsinstellingen **&gt; **Intercompany-boekhouding**. Klik op **Nieuw**.
 3.  Selecteer in het veld **Rechtspersoon-ID **het uitlenende bedrijf. Vul de resterende velden in met de vereiste waarden en klik vervolgens op **Opslaan**.
-4.  Ga naar **Projectbeheer en boekhouding **&gt; **Instellingen **&gt; **Prijzen ** &gt; **Prijs overboeken**.** **
+4.  Ga naar **Projectbeheer en boekhouding **&gt; **Instellingen **&gt; **Prijzen ** &gt; **Prijs overboeken****. **
 5.  Klik in het formulier **Prijs overboeken ** op **Nieuw** en selecteer in de ** Lenende rechtspersoon **het gewenste bedrijf.
 6.  Als aan het lenende bedrijf alleen de resource wilt uitlenen die u hebt gemaakt aan het begin van deze sectie, selecteert u in het veld **Resource** de naam van de resource die u hebt gemaakt. Als u alle resources in het bedrijf beschikbaar wilt stellen voor het lenende bedrijf, laat u het veld **Resource **leeg.
 7.  Ga naar **Projectbeheer en boekhouding **&gt; **Instellingen **&gt; **Projectbeheer- en boekhoudingsparameters** en stel op het tabblad **Intercompany ** tabblad het veld **Intercompany-resourceplanning en urenstaten inschakelen ** in op **Ja**.
@@ -123,7 +123,7 @@ Configuratie van competenties voor een medewerker kunt u doen op de lijstpagina 
 6.  Selecteer een project in het deelvenster **Resterende projecten** en klik op de pijl om dit toe te voegen aan het deelvenster **Geselecteerde projecten**.
 7.  Sluit de pagina.
 
-Indien nodig kunt u ook categorieën voor een resource toewijzen. Het categorietype is ofwel Kosten of Opbrengst. Dit wordt bepaald door uw organisatie. Als geen categorieën aan de resource zijn toegewezen, zal Dynamics 365 for Operations de standaardcategorie opzoeken voor uurtarieven voor kosten en opbrengsten.
+Indien nodig kunt u ook categorieën voor een resource toewijzen. Het categorietype is ofwel Kosten of Opbrengst. Dit wordt bepaald door uw organisatie. Als geen categorieën aan de resource zijn toegewezen, zal Finance and Operations de standaardcategorie opzoeken voor uurtarieven voor kosten en opbrengsten.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Kenmerken voor projectresource en rollen configureren
 
@@ -190,7 +190,7 @@ Alle prijzen voor kosten, verkoop, en overdracht kunnen voor rollen worden gecon
 5.  Voer in de kolom **Prijscalculatie** een prijs in voor de geselecteerde resourcerol.
 
 ## <a name="form-a-project-team"></a>Een projectteam vormen
-Om de rollen te gebruiken die eerder in een project zijn geconfigureerd, moet een projectmanager de rollen aan het project koppelen. Meerdere rollen kunnen aan een project worden toegewezen, en Dynamics 365 for Operations geeft deze rollen automatisch een label tijdens het reserveren om verwarring te voorkomen. Als bijvoorbeeld de projectmanager drie software-engineer nodig heeft, worden automatisch drie software-engineerrollen gegenereerd met de labels Software-engineer 1, Software-engineer 2 en Software-engineer 3. Als voor de rol eerder rolkenmerken zijn ingesteld, worden deze toegepast als filter in zoekopdrachten naar een resource. Aanvullende kenmerken kunnen indien nodig worden toegevoegd om het zoeken te verfijnen. 
+Om de rollen te gebruiken die eerder in een project zijn geconfigureerd, moet een projectmanager de rollen aan het project koppelen. Meerdere rollen kunnen aan een project worden toegewezen, en Finance and Operations geeft deze rollen automatisch een label tijdens het reserveren om verwarring te voorkomen. Als bijvoorbeeld de projectmanager drie software-engineer nodig heeft, worden automatisch drie software-engineerrollen gegenereerd met de labels Software-engineer 1, Software-engineer 2 en Software-engineer 3. Als voor de rol eerder rolkenmerken zijn ingesteld, worden deze toegepast als filter in zoekopdrachten naar een resource. Aanvullende kenmerken kunnen indien nodig worden toegevoegd om het zoeken te verfijnen. 
 
 Weergave-instellingen kunnen ook worden aangepast voor een betere weergave van de beschikbaarheid van resources. Er zijn opties voor weergave van beschikbaarheid per uur, dag, week, maand, kwartaal en jaar. Er is ook een optie om beschikbaar en resterende capaciteit van resources weer te geven. Deze optie is handig voor tijdbeheer, wanneer u beschikbare tijd voor activiteiten of resourcebeschikbaarheid raamt. 
 
@@ -277,7 +277,7 @@ Extra opties zijn toegevoegd aan de WBS, om beter gebruik te kunnen maken van de
 </tr>
 <tr class="even">
 <td>Team automatisch genereren</td>
-<td>Voeg automatisch geplande resources toe door rollen te gebruiken die aan een taak zijn gekoppeld. Dynamics 365 for Operations suggereert automatisch geplande resources door middel van de op rollen gebaseerde beslissingsanalyse met meerdere criteria. Nadat de rollen en de inzet (uren) voor taken in de WBS zijn ingesteld en de structuur is vrijgegeven, klikt u op <strong>Team automatisch genereren</strong>. Het vereiste aantal geplande resources wordt toegevoegd aan de WBS en het tabblad <strong>Projectteam en planning</strong>.</td>
+<td>Voeg automatisch geplande resources toe door rollen te gebruiken die aan een taak zijn gekoppeld. Finance and Operations suggereert automatisch geplande resources door middel van de op rollen gebaseerde beslissingsanalyse met meerdere criteria. Nadat de rollen en de inzet (uren) voor taken in de WBS zijn ingesteld en de structuur is vrijgegeven, klikt u op <strong>Team automatisch genereren</strong>. Het vereiste aantal geplande resources wordt toegevoegd aan de WBS en het tabblad <strong>Projectteam en planning</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Resource (vervolgkeuzelijst)</td>

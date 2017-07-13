@@ -3,7 +3,7 @@ title: Schrappingsregels
 description: Dit onderwerp bevat informatie over schrappingsregels en de verschillende opties voor het rapporteren van schrappingen.
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ab1d8fb5bfc9413652d222e701c44b3b91a4c842
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -133,7 +133,7 @@ Uw rechstpersoon, rechtspersoon A, verkoopt widgets aan een andere rechtspersoon
 Al deze transacties resulteren in intercompany-transacties die worden geboekt naar rekeningen voor betalen aan en betalen van. Bovendien bevatten deze transacties mogelijk prijsverhogings- en prijsverlagingsbedragen wanneer het bedrag van de intercompanyverkoop niet overeenkomt met de kosten van de verkochte goederen.
 
 ## <a name="set-up-elimination-rules"></a>Schrappingregels instellen
-Wanneer u schrappingsregels in Dynamics 365 for Operations instelt, wordt u aangeraden een financiële dimensie te maken die speciaal geldt voor schrappingsdoeleinden. De meeste klanten noemen dit Handelspartner of iets dergelijks. Als u besluit geen financiële dimensie te gebruiken, moet u ervoor zorgen dat u hoofdrekeningen hebt die specifiek en uitsluitend voor intercompany-transacties gelden. 
+Wanneer u schrappingsregels in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition instelt, wordt u aangeraden een financiële dimensie te maken die speciaal geldt voor schrappingsdoeleinden. De meeste klanten noemen dit Handelspartner of iets dergelijks. Als u besluit geen financiële dimensie te gebruiken, moet u ervoor zorgen dat u hoofdrekeningen hebt die specifiek en uitsluitend voor intercompany-transacties gelden. 
 
 De instellingen voor schrappingen vindt u in het gedeelte Instellen van de module Consolidaties. Nadat u een omschrijving voor de regel hebt ingevoerd, moet u het bedrijf selecteren waarnaar het schrappingsjournaal wordt geboekt. Dit moet een bedrijf zijn waarvoor **Gebruiken voor proces voor financiële schrapping** is ingeschakeld in de instellingen van de rechtspersoon. 
 

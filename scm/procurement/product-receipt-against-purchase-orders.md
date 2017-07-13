@@ -3,14 +3,14 @@ title: Productontvangst tegen inkooporders
 description: Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d1b063344d4191facf2ddace5f5c9d592fb0942
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a192688315adb2d83f349c525c5d8f70309375db
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="product-receipt-against-purchase-orders"></a>Productontvangst tegen inkooporders
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
@@ -54,7 +56,7 @@ U kunt inkooporderregels maken waarbij de optie **Nieuw vast activum** is ingesc
 
 U kunt meerdere orders selecteren en de ontvangst verwerken voor alle orders tegelijk. Deze benadering wordt niet vaak gebruikt, maar u kunt deze gebruiken als een leverancier geconsolideerde zendingen voor u heeft in een enkele lading. Tijdens de productontvangst voor de aankoop is er een functie voor het bijwerken van overzichten. Bij bijgewerkte overzichten kunt u een enkele pakbon van de leverancier boeken voor meer dan één inkooporder.  
 
-Mogelijk kunnen inkooporders worden gemaakt op basis van een verkooporder waarvoor de **Rechtstreekse levering** is geselecteerd. Als rechtstreekse levering wordt gebruikt, komen de producten nooit in uw magazijn binnen, maar worden zij rechtstreeks van de leverancier naar de klant verzonden. In dit geval wordt de ontvangst meestal direct in de inkooporder vastgelegd. De ontvangst kan automatisch worden gedaan, bijvoorbeeld via EDI-integratie (Electronic Data Interchange) met de leverancier. Ook automatiseert Microsoft Dynamics 365 for Operations de ontvangst op de intercompany-verkooporder als verzending plaatsvindt indien de inkooporder een intercompany-inkooporder is. Als rechtstreekse levering wordt gebruikt, worden producten nog steeds als voorraad beschouwd, hoewel zij niet fysiek in het magazijn aankomen. Daarom wordt, als de ontvangst van producten in de inkooporder wordt vastgelegd, de verkooporder automatisch bijgewerkt met een pakbon, zodat de totale wijziging in de voorraad 0 (nul) is. In scenario's voor rechtstreekse levering, moet u geen voorafgaande registratie vereisen. Als u magazijnen gebruikt die zijn ingeschakeld voor magazijnbeheer, kunt u het vereiste voor nummerplaatregistratie omzeilen door een virtueel magazijn op te geven. U geeft dit magazijn op in het veld **Rechtstreekse levering magazijn** op het product. 
+Mogelijk kunnen inkooporders worden gemaakt op basis van een verkooporder waarvoor de **Rechtstreekse levering** is geselecteerd. Als rechtstreekse levering wordt gebruikt, komen de producten nooit in uw magazijn binnen, maar worden zij rechtstreeks van de leverancier naar de klant verzonden. In dit geval wordt de ontvangst meestal direct in de inkooporder vastgelegd. De ontvangst kan automatisch worden gedaan, bijvoorbeeld via EDI-integratie (Electronic Data Interchange) met de leverancier. Ook automatiseert Microsoft Dynamics 365 for Finance and Operations de ontvangst op de intercompany-verkooporder als verzending plaatsvindt, indien de inkooporder een intercompany-inkooporder is. Als rechtstreekse levering wordt gebruikt, worden producten nog steeds als voorraad beschouwd, hoewel zij niet fysiek in het magazijn aankomen. Daarom wordt, als de ontvangst van producten in de inkooporder wordt vastgelegd, de verkooporder automatisch bijgewerkt met een pakbon, zodat de totale wijziging in de voorraad 0 (nul) is. In scenario's voor rechtstreekse levering, moet u geen voorafgaande registratie vereisen. Als u magazijnen gebruikt die zijn ingeschakeld voor magazijnbeheer, kunt u het vereiste voor nummerplaatregistratie omzeilen door een virtueel magazijn op te geven. U geeft dit magazijn op in het veld **Rechtstreekse levering magazijn** op het product. 
 
 Nadat de ontvangst van producten is verwerkt op de inkooporder, wordt de status van de inkooporder ingesteld op **Ontvangen** om aan te geven dat de factuur voor de order kan worden verwerkt. U kunt informatie over producten die al zijn ontvangen bekijken met behulp van de pagina **Productontvangstjournalen**.  
 
@@ -69,7 +71,7 @@ U kunt toegang tot deze pagina krijgen vanuit de actiegroep **Ontvangst** op de 
 
 [Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
 
-[Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Overzicht van leveranciersfacturen](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

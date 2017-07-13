@@ -3,25 +3,27 @@ title: Taakrecorder en Help voor POS
 description: In dit onderwerp wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern POS en Cloud POS.
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+audience: Application User
 ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 ---
 
@@ -40,21 +42,23 @@ Taakrecorder kan gebruikersacties in de client registreren met exacte betrouwbaa
 ## <a name="basic-configuration"></a>Basisconfiguratie
 Ga als volgt te werk om taakregistratie in POS in te schakelen.
 
-1.  Klik op **Detailhandel en commerce** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**.
+1.  Klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**.
 2.  Klik op de kassa om taakregistratie in te schakelen.
 3.  Stel op het tabblad **Registreren** op het sneltabblad **Algemeen** de optie **Taakregistratie inschakelen** in op **Ja**.
 4.  Klik op **Opslaan**.
-5.  Ga naar **Detailhandel en commerce** &gt; **Detailhandel-IT** &gt; **Distributieplanning**.
+5.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 6.  Selecteer de taak **1090, kassa's** en klik vervolgens op **Nu uitvoeren**.
 
 ## <a name="create-a-recording"></a>Een registratie maken
-Volg deze stappen om een nieuwe registratie te maken met via Taakrecorder.
+Volg deze stappen om een nieuwe registratie te maken met Taakrecorder.
 
 1.  Start Retail Modern POS of Cloud POS en meld u aan.
 2.  Klik op de pagina **Instellingen** in het gedeelte **Taakrecorder** op **Taakregistratie openen**. Het deelvenster **Taakrecorder** wordt weergegeven. U kunt klikken op de knop **Sluiten** (**X**) in de rechterbovenhoek om het deelvenster **Taakrecorder** te sluiten voordat u een nieuwe registratie start. Als u het deelvenster weer wilt openen, herhaalt u stap 2.
 [![Deelvenster Taakrecorder](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
-3.  Voer een naam en omschrijving voor de registratie in en klik vervolgens op **Start**. De registratiesessie begint zodra u klikt op **Start**. **Opmerking:** als u op de knop **Sluiten** (**X**) in de rechterbovenhoek klikt terwijl de registratie wordt uitgevoerd, wordt het deelvenster **Taakrecorder** gesloten, maar wordt de registratiesessie niet beëindigd. Klik op de knop Help (vraagteken) boven aan het scherm om het deelvenster Taakrecorder weer te openen. 
+3.  Voer een naam en omschrijving voor de registratie in en klik vervolgens op **Start**. De registratiesessie begint zodra u klikt op **Start**.
+
+**Opmerking:** als u op de knop **Sluiten** (**X**) in de rechterbovenhoek klikt terwijl de registratie wordt uitgevoerd, wordt het deelvenster **Taakrecorder** gesloten, maar wordt de registratiesessie niet beëindigd. Klik op de knop **Help** (vraagteken) boven aan het scherm om het deelvenster Taakrecorder weer te openen. 
 
 [![Vraagteken](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +99,10 @@ Als u de opnamesessie wilt hervatten nadat u deze hebt onderbroken, klikt u op *
 
 ### <a name="capture-screenshots"></a>Schermopnamen maken
 
-Taakrecorder kan schermopnamen maken van de gebruikersinterface van Retail Modern POS, terwijl u een bedrijfsproces registreert. Taakrecorder gebruikt de schermopnamen als u de registratie downloadt als een Word-document. Als u de functie voor het maken van schermopnamen wilt aanzetten, stelt u de optie **Schermopnamen maken** in op **Ja**. Opmerking: functionaliteit voor het maken van schermopnamen wordt niet ondersteund in Cloud POS.
+Taakrecorder kan schermopnamen maken van de gebruikersinterface van Retail Modern POS, terwijl u een bedrijfsproces registreert. Taakrecorder gebruikt de schermopnamen als u de registratie downloadt als een Word-document. Als u de functie voor het maken van schermopnamen wilt aanzetten, stelt u de optie **Schermopnamen maken** in op **Ja**. 
+
+#### <a name="note"></a>Opmerking
+> Functionaliteit voor het maken van schermopnamen wordt niet ondersteund in Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Taak starten en taak beëindigen
 
@@ -119,11 +126,13 @@ Tekst die u invoert in het veld **Tekst**, verschijnt *boven* de staptekst in de
 
 Tekst die u invoert in het veld **Notities**, verschijnt *onder* de staptekst in de taakbegeleider. Als de gebruiker de tekst wil lezen, moet deze de staptekst in het pop-upvenster uitvouwen. Deze locatie is geschikt voor optionele tekst of andere informatie die van belang kan zijn voor de gebruiker, maar die de gebruiker niet hoeft te lezen om de actie te voltooien.
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>Help bij Retail Modern POS en Cloud POS
-Om uw eigen taakregistraties in het Help-deelvenster van Retail Modern Pos en Cloud POS weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Zie voor meer informatie [Verbinding maken met het Help-systeem.](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system) Retail Modern POS en Cloud POS Help doorzoekt LCS in real-time. Alle BPM-bibliotheken worden doorzocht die zijn geselecteerd in de parameters van het Microsoft Dynamics AX Help-systeem, en de relevante resultaten worden weergegeven. Voor toegang tot het menu **Help** klikt u op de knop **Help**, boven aan het scherm, typt u vervolgens in het zoekvak uw procesnaam en klikt u op de zoekknop. 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Help in Retail Modern POS en Cloud POS
+Om uw eigen taakregistraties in het Help-deelvenster van Retail Modern Pos en Cloud POS weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Zie voor meer informatie het onderwerp [Verbinding maken met het Help-systeem.](/dynamics365/unified-operations/dev-itpro/get-started/help-connect) Retail Modern POS en Cloud POS Help doorzoekt LCS in real-time. Alle BPM-bibliotheken worden doorzocht die zijn geselecteerd in de parameters van het Microsoft Dynamics 365 for Retail Help-systeem, en de relevante resultaten worden weergegeven. Voor toegang tot het menu **Help** klikt u op de knop **Help** (vraagteken) bovenaan het scherm, typt u vervolgens in het zoekvak uw procesnaam en klikt u op de zoekknop. 
 
 [![De knop Help](./media/help.jpg)](./media/help.jpg) 
 
-Wanneer u op de taakbegeleider in de zoekresultaten klikt, kunt u de stappen weergeven als een Help-onderwerp of een Word-document. Opmerking: het Help-systeem in Retail Modern POS en Cloud POS opent de taakbegeleiders niet automatisch op basis van uw formulier of bewerkingen. U moet de procesnaam in het zoekvak typen en op de zoekknop klikken om de resultaten te krijgen.
+Wanneer u op de taakbegeleider in de zoekresultaten klikt, kunt u de stappen weergeven als een Help-onderwerp of een Word-document. 
+#### <a name="note"></a>Opmerking
+> Help in Retail Modern POS en Cloud POS opent geen taakbegeleiding op basis van het formulier waar u zich bevindt of de bewerking die u uitvoert. U moet de procesnaam in het zoekvak typen en op **Zoeken** klikken.
 
 

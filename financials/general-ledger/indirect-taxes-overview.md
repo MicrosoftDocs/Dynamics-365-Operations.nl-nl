@@ -3,7 +3,7 @@ title: Btw-overzicht
 description: In dit artikel vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 In dit artikel vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
@@ -73,7 +75,7 @@ Voor elke transactie (verkoop-/inkoopdocumentregels, journalen, enzovoort) moet 
 Voor elke transactie kunt u de berekende btw opzoeken door de pagina **Btw-transactie** te openen. U kunt de btw voor een documentregel of voor het hele document opzoeken. Voor bepaalde documenten (bijvoorbeeld leveranciersfacturen en algemene journalen) kunt u de berekende btw aanpassen als het oorspronkelijke document afwijkende bedragen bevat.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Btw-vereffening en -aangifte
-Btw moet regelmatig (maandelijks, per kwartaal, enzovoort) worden aangegeven bij en betaald aan btw-diensten. Microsoft Dynamics 365 for Operations biedt een functionaliteit waarmee u belastingrekeningen voor het interval kunt vereffenen en de saldi kunt boeken naar de btw-vereffeningsrekening, zoals opgegeven in de grootboekboekingsgroepen. U hebt toegang tot deze functionaliteit op de pagina **Btw vereffenen en boeken**. U moet de btw-vereffeningsperiode opgeven waarvoor btw moet worden vereffend. 
+Btw moet regelmatig (maandelijks, per kwartaal, enzovoort) worden aangegeven bij en betaald aan btw-diensten. Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, biedt een functionaliteit waarmee u belastingrekeningen voor het interval kunt vereffenen en de saldi kunt boeken naar de btw-vereffeningsrekening, zoals opgegeven in de grootboekboekingsgroepen. U hebt toegang tot deze functionaliteit op de pagina **Btw vereffenen en boeken**. U moet de btw-vereffeningsperiode opgeven waarvoor btw moet worden vereffend. 
 
 Nadat de btw is betaald, moet het saldo op de btw-vereffeningsrekening worden verrekend met de bankrekening. Als de btw-dienst die is opgegeven voor de btw-vereffeningsperiode aan een leveranciersrekening is gekoppeld, wordt het btw-saldo geboekt als openstaande leveranciersfactuur en kan deze in het normale betalingsvoorstel worden opgenomen.
 

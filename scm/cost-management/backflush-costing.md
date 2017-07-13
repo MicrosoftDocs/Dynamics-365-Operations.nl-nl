@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb8fa9f5f17b8d658e2d0fea3a9659ab09562611
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -64,11 +64,11 @@ Voor producten die uit een productiestroom zijn geleverd, moet de stuklijstberek
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Berekening die is gebaseerd op de productiestroom
 
-Lean manufacturing voor Microsoft Dynamics 365 for Operations is onafhankelijk van routes. De kostenberekening voor producten die worden geleverd vanuit een productiestroom kan worden gebaseerd op de productiestroom zelf. Voordat de berekening kan worden uitgevoerd, moet een kanbanregel worden gemaakt die het product levert vanuit de productiestroom. Als een product op de berekeningsdatum uit meerdere productiestromen op dezelfde locatie kan worden geleverd, kunt u de productiestroom voor de stuklijstberekening selecteren. Op de pagina **Standaardproductiestroom** kunt u een standaardproductiestroom configureren voor elk artikel. Als er meerdere kanbanregels bestaan voor hetzelfde product in dezelfde productiestroom die actief is op de berekeningsdatum, selecteert de berekening de eerste kanbanregel die actief is voor de berekening.
+Lean manufacturing voor Microsoft Dynamics 365 for Finance and Operations is onafhankelijk van routes. De kostenberekening voor producten die worden geleverd vanuit een productiestroom kan worden gebaseerd op de productiestroom zelf. Voordat de berekening kan worden uitgevoerd, moet een kanbanregel worden gemaakt die het product levert vanuit de productiestroom. Als een product op de berekeningsdatum uit meerdere productiestromen op dezelfde locatie kan worden geleverd, kunt u de productiestroom voor de stuklijstberekening selecteren. Op de pagina **Standaardproductiestroom** kunt u een standaardproductiestroom configureren voor elk artikel. Als er meerdere kanbanregels bestaan voor hetzelfde product in dezelfde productiestroom die actief is op de berekeningsdatum, selecteert de berekening de eerste kanbanregel die actief is voor de berekening.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Berekening die is gebaseerd op de route
 
-Berekening die is gebaseerd op een route is net zo geldig als berekening die is gebaseerd op een productiestroom. Berekening die is gebaseerd op een route maakt echter geen gebruik van de kostprijsberekening voor Lean manufacturing-functionaliteit. De route moet gebruikmaken van resourcevereisten voor resourcegroepen. Als u systematische afwijkingen wilt voorkomen, moet tevens gebruik worden gemaakt van dezelfde werkcellen of ten minste dezelfde kostencategorieën. Nogmaals, voorkom kostencategorieën voor instellingen en hoeveelheid. Zij helpen niet de kosten in een meer gedetailleerde vorm te berekenen dan bij het terugwaarts afboeken van kosten voor Lean manufacturing. Om te bepalen welke optie (productiestroom of route) u het beste kunt gebruiken voor het berekenen van de kostprijs, houdt u rekening met de resultaten van de kostenanalyse. De versie die dichter bij de werkelijkheid komt en minder algemene afwijkingen produceert is de beste optie. In een Lean manufacturing-omgeving waarin een product wordt geleverd door een enkele productiestroom en een enkele kanbanregel is de berekening op basis van de productiestroom waarschijnlijk nauwkeuriger. Voor een product dat kan worden geleverd door Lean manufacturing en productieorders op dezelfde locatie of waarbij meerdere productiestromen of meerdere kanbanregels in dezelfde werkstroom mogelijk zijn, is een berekening die is gebaseerd op een routeversie die specifiek is samengesteld voor de kostenberekening en niet voor de productie mogelijk nauwkeuriger. De berekening van de productiestroom moet worden gebruikt voor het berekenen van producten waarbij sprake is van uitbesteding. In Microsoft Dynamics 365 for Operations maken de kostenmodellen voor uitbesteding via productieorders en uitbesteding in Lean manufacturing gebruik van twee verschillende benaderingen. Lean manufacturing introduceert een nieuwe kostengroeptype, **Directe uitbesteding**, voor het berekenen van uitbestede services.
+Berekening die is gebaseerd op een route is net zo geldig als berekening die is gebaseerd op een productiestroom. Berekening die is gebaseerd op een route maakt echter geen gebruik van de kostprijsberekening voor Lean manufacturing-functionaliteit. De route moet gebruikmaken van resourcevereisten voor resourcegroepen. Als u systematische afwijkingen wilt voorkomen, moet tevens gebruik worden gemaakt van dezelfde werkcellen of ten minste dezelfde kostencategorieën. Nogmaals, voorkom kostencategorieën voor instellingen en hoeveelheid. Zij helpen niet de kosten in een meer gedetailleerde vorm te berekenen dan bij het terugwaarts afboeken van kosten voor Lean manufacturing. Om te bepalen welke optie (productiestroom of route) u het beste kunt gebruiken voor het berekenen van de kostprijs, houdt u rekening met de resultaten van de kostenanalyse. De versie die dichter bij de werkelijkheid komt en minder algemene afwijkingen produceert is de beste optie. In een Lean manufacturing-omgeving waarin een product wordt geleverd door een enkele productiestroom en een enkele kanbanregel is de berekening op basis van de productiestroom waarschijnlijk nauwkeuriger. Voor een product dat kan worden geleverd door Lean manufacturing en productieorders op dezelfde locatie of waarbij meerdere productiestromen of meerdere kanbanregels in dezelfde werkstroom mogelijk zijn, is een berekening die is gebaseerd op een routeversie die specifiek is samengesteld voor de kostenberekening en niet voor de productie mogelijk nauwkeuriger. De berekening van de productiestroom moet worden gebruikt voor het berekenen van producten waarbij sprake is van uitbesteding. In Microsoft Dynamics 365 for Finance and Operations maken de kostenmodellen voor uitbesteding via productieorders en uitbesteding in Lean manufacturing gebruik van twee verschillende benaderingen. Lean manufacturing introduceert een nieuwe kostengroeptype, **Directe uitbesteding**, voor het berekenen van uitbestede services.
 
 ## <a name="material-consumption"></a>Materiaalverbruik
 Wanneer materiaal wordt verbruikt uit voorraad naar OHW, worden de materiaalkosten toegevoegd aan OHW tegen de werkelijke standaardkosten voor een kostengroep. Deze bewerking vindt plaats onder de volgende voorwaarden:
@@ -85,7 +85,7 @@ Producten worden onder de volgende voorwaarden ontvangen vanuit de productiestro
 Producten die worden ontvangen van de productiestroom worden afgetrokken van het OHW.
 
 ## <a name="products-in-wip"></a>Producten in OHW
-Met het OHW-model van Lean manufacturing in Microsoft Dynamics 365 for Operations kunt u de status van de kanban-materiaalverwerkingseenheid gebruiken voor het beheren van het materiaal, de halffabrikaten en de eindproducten die deel uitmaken van OHW.
+Met het OHW-model van Lean manufacturing in Microsoft Dynamics 365 for Finance and Operations kunt u de status van de kanban-materiaalverwerkingseenheid gebruiken voor het beheren van het materiaal, de halffabrikaten en de eindproducten die deel uitmaken van OHW.
 
 -   **Toegewezen**: de kanban kan verbruikt materiaal hebben dat wordt verwerkt in OHW.
 -   **Ontvangen**: als de kanban naar een laatste activiteit verwijst waarbij **Voorraad bijwerken bij ontvangst** is ingesteld op **Nee**, vertegenwoordigt dit een volledige materiaalverwerkingseenheid van een product of een halffabrikaat dat is niet geregistreerd voor de voorraad.

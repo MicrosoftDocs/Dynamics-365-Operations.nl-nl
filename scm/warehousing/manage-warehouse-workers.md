@@ -1,16 +1,16 @@
 ---
 title: Magazijnmedewerkers beheren
-description: In dit artikel wordt beschreven hoe u Microsoft Dynamics AX kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
+description: In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt beschreven hoe u Microsoft Dynamics AX kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
+In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 
 Als u de functionaliteit in Magazijnbeheer gebruikt, wordt naar alle bewerkingen van magazijnwerknemers verwezen als *werk*. Werk zoals het orderverzamelen, verplaatsen en tellen van voorhanden voorraad wort geregistreerd door mobiele apparaten te gebruiken. Voordat een magazijnwerknemer werk kan uitvoeren, moet hij of zij aan een werknemer in Human resources worden gekoppeld. Aan elk **Werknemer**-account kunnen meerdere magazijnwerkgebruikers zijn gekoppeld. Deze werkgebruikers kunnen in verschillende magazijnen werken en kunnen verschillende niveaus van toegang tot de verschillende menu's voor mobiele apparaten hebben. U kunt de gebruikers van het magazijnwerk zien als meerdere aanmeldingen voor de geselecteerde werknemer. Elke werkgebruiker heeft een standaardmagazijn en de specifieke workflows worden beschikbaar gemaakt door de menuopties die voor die werkgebruiker beschikbaar zijn. 
 

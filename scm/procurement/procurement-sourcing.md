@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 -   [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md)
 -   [Samenwerking met leveranciers instellen en onderhouden](set-up-maintain-vendor-collaboration.md)
--   [Demoscript Inkomende consignatievoorraad voor Microsoft Dynamics 365 for Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(whitepaper)
+-   [Demoscript Inkomende consignatievoorraad voor Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(whitepaper)
 -   [Consignmentvoorraad bewaken door middel van leverancierssamenwerking](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Samenwerken met leveranciers via de Leveranciersportal](collaborate-vendors-vendor-portal.md) (alleen versies van Dynamics 365 for Operations van februari en mei 2016)
--   [Configuratie van beveiliging voor gebruikers van Leveranciersportal](configure-security-vendor-portal-users.md) (alleen versies van Dynamics 365 for Operations van februari en mei 2016)
--   [Mobiel werkgebied voor leverancierssamenwerking voor de app Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [Samenwerken met leveranciers via de portal Leveranciers](collaborate-vendors-vendor-portal.md) (alleen versies van Dynamics AX van februari 2016 en mei 2016)
+-   [Configuratie van beveiliging voor Leveranciersportal-gebruikers](configure-security-vendor-portal-users.md) (alleen versies van Finance and Operations van februari 2016 en mei 2016)
+-   [Mobiel werkgebied voor leverancierssamenwerking voor de app Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Beheer inkoopproducten
 -   [Aanschaffingscatalogi](procurement-catalogs.md)
@@ -92,8 +92,8 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 
 ## <a name="product-receipt-and-invoicing"></a>Productontvangstbon en facturering
 -   [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
--   [Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Boekingsprofielen van leverancier](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Overzicht van leveranciersfacturen](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Boekingsprofielen van leverancier](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Workflows voor inkoopbeheer
 -   [Overzicht van inkoopbeheer](procurement-sourcing-overview.md)

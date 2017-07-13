@@ -1,27 +1,27 @@
 ---
 title: Overzicht van randapparatuur voor de detailhandel
 description: In dit onderwerp worden de concepten beschreven die verband houden met detailhandelrandapparaten. Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 268444
-ms.assetid: 2ea93e43-8019-49a0-a7f8-325565ebc52d
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f7c47c3dc22b2f3c2ea08085326be08011eca4e
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,16 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 In dit onderwerp worden de concepten beschreven die verband houden met detailhandelrandapparaten. Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.
 
-<a name="concepts"></a>Concepten
---------
+## <a name="concepts"></a>Concepten
 
 ### <a name="pos-registers"></a>POS-kassa's
 
-Navigatie: klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**. De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd van een specifiek exemplaar van het POS. Deze kenmerken omvatten het hardwareprofiel of de instellingen voor detailhandelrandapparaten die worden gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich bij die kassa aanmeldt.
+Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**. De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd van een specifiek exemplaar van het POS. Deze kenmerken omvatten het hardwareprofiel of de instellingen voor detailhandelrandapparaten die worden gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich bij die kassa aanmeldt.
 
 ### <a name="devices"></a>Apparaten
 
-Navigatie: klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Apparaten**. Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Wanneer een apparaat wordt gemaakt, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Modern POS, Retail Cloud-POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android en Retail Modern POS – iOS.
+Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Apparaten**. Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Wanneer een apparaat wordt gemaakt, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Modern POS, Retail Cloud-POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android en Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -66,11 +65,11 @@ POS-randapparaten zijn apparaten die expliciet worden ondersteund voor POS-funct
 
 ### <a name="hardware-station"></a>Hardwarestation
 
-Navigatie: klik op **Detailhandel en commerce** &gt; **Kanalen** &gt; **Detailhandelwinkels** &gt; **Alle detailhandelwinkels**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**. De instelling **Hardwarestation** is een instelling op afzetkanaalniveau, die wordt gebruikt voor het definiëren van situaties waarin de logica voor detailhandelrandapparaten wordt geïmplementeerd. Deze instelling op het afzetkanaalniveau wordt gebruikt om de kenmerken van het hardwarestation te bepalen. Hiermee wordt ook een overzicht gemaakt van hardwarestations, die beschikbaar zijn voor een Modern POS-exemplaar in een bepaalde winkel. Het hardwarestation is ingebouwd in het Modern POS-programma voor Windows. Het hardwarestation kan ook onafhankelijk worden geïmplementeerd als een zelfstandig Microsoft Internet Information Services-programma (IIS). In dit geval vindt toegang plaats via een netwerk.
+Navigatie: klik op **Detailhandel** &gt; **Kanalen** &gt; **Detailhandelwinkels** &gt; **Alle detailhandelwinkels**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**. De instelling **Hardwarestation** is een instelling op afzetkanaalniveau, die wordt gebruikt voor het definiëren van situaties waarin de logica voor detailhandelrandapparaten wordt geïmplementeerd. Deze instelling op het afzetkanaalniveau wordt gebruikt om de kenmerken van het hardwarestation te bepalen. Hiermee wordt ook een overzicht gemaakt van hardwarestations, die beschikbaar zijn voor een Modern POS-exemplaar in een bepaalde winkel. Het hardwarestation is ingebouwd in het Modern POS-programma voor Windows. Het hardwarestation kan ook onafhankelijk worden geïmplementeerd als een zelfstandig Microsoft Internet Information Services-programma (IIS). In dit geval vindt toegang plaats via een netwerk.
 
 ### <a name="hardware-profile"></a>Hardwareprofiel
 
-Navigatie: Klik op **Detailhandel en commerce** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**. Het hardwareprofiel is een lijst apparaten die zijn geconfigureerd voor een POS-kassa of een hardwarestation. Het hardwareprofielen kan rechtstreeks aan de POS-kassa of een hardwarestation worden toegewezen.
+Navigatie: klik op **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**. Het hardwareprofiel is een lijst apparaten die zijn geconfigureerd voor een POS-kassa of een hardwarestation. Het hardwareprofielen kan rechtstreeks aan de POS-kassa of een hardwarestation worden toegewezen.
 
 ## <a name="devices-classes"></a>Apparaatklassen
 POS-randapparaten worden meestal onderverdeeld in klassen. In deze sectie worden een overzicht gegeven (samen met een beschrijving) van de apparaten die Modern POS ondersteunt.
@@ -118,12 +117,12 @@ Ondersteuning voor betalingsapparaten wordt geïmplementeerd via de betalingscon
 ## <a name="supported-interfaces"></a>Ondersteunde interfaces
 ### <a name="opos"></a>OPOS
 
-Om te kunnen garanderen dat het grootste aantal apparaten kan worden gebruikt met Microsoft Dynamics 365 for Operations - Retail, is de industrienorm OLE voor POS het primaire platform voor detailhandelrandapparaten dat wordt ondersteund in Microsoft Dynamics 365 for Operations - Retail. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
+Om te kunnen garanderen dat het grootste aantal apparaten kan worden gebruikt met Microsoft Dynamics 365 for Retail, is de industrienorm OLE voor POS het primaire platform voor detailhandelrandapparaten dat wordt ondersteund in Microsoft Dynamics 365 for Retail. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
 
--   **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). Met de CCO's wordt de POS-component van Microsoft Dynamics 365 for Operations - Retail getest. Daarom helpt het testen te garanderen dat, als Microsoft Dynamics 365 for Operations - Retail een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, indien de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
+-   **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). Met de CCO's wordt de POS-component van Microsoft Dynamics 365 for Retail getest. Daarom helpt het testen te garanderen dat, als Microsoft Dynamics 365 for Retail een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, indien de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
 -   **Serviceobject**: Het serviceobject verzorgt de communicatie tussen het Control Object (CCO) en het apparaat. Meestal wordt voor fysieke apparaten het serviceobject geleverd door de fabrikant van het apparaat. In sommige gevallen moet u misschien het serviceobject downloaden vanaf de website van de fabrikant. Er kan bijvoorbeeld een meer recente serviceobject beschikbaar zijn. Het adres van de website van de fabrikant vindt u in de documentatie bij uw hardware.
 
-[![Control Object en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Ondersteuning voor de OPOS-implementatie van OLE voor POS helpt te garanderen dat, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren, POS-systemen en ondersteunde apparaten kunnen samenwerken, zelfs als ze daarvoor niet samen zijn getest. **Opmerking:** OPOS-support garandeert niet ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Microsoft Dynamics 365 for Operations - Retail moet eerst dat type of die klasse van het apparaat ondersteunen met OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
+[![Control Object en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Ondersteuning voor de OPOS-implementatie van OLE voor POS helpt te garanderen dat, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren, POS-systemen en ondersteunde apparaten kunnen samenwerken, zelfs als ze daarvoor niet samen zijn getest. **Opmerking:** OPOS-support garandeert niet ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Microsoft Dynamics 365 for Retail moet eerst dat type of die klasse van het apparaat ondersteunen met OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
 
 ### <a name="windows"></a>Windows
 
@@ -133,7 +132,7 @@ Het afdrukken van kassabonnen op het POS is geoptimaliseerd voor OPOS. Het afdru
 -   Apparaten die zijn verbonden via de printer ('daisy-chained' ofwel in serie) werken mogelijk niet correct met Windows-stuurprogramma's. Bijvoorbeeld gaat de kassalade niet open of de bonprinter functioneert niet zoals u verwacht.
 -   OPOS ondersteunt ook een uitgebreidere reeks variabelen die specifiek zijn voor kassabonprinters in de detailhandel, zoals papiersnijden of bon afdrukken.
 
-Als OPOS-besturingselementen beschikbaar zijn voor uw Windows-printer, functioneert de printer naar verwachting nog steeds correct met Microsoft Dynamics 365 for Operations - Retail.
+Als OPOS-besturingselementen beschikbaar zijn voor uw Windows-printer, functioneert de printer naar verwachting nog steeds correct met Microsoft Dynamics 365 for Retail.
 
 ### <a name="universal-windows-platform"></a>Universeel Windows-platform
 
@@ -473,7 +472,7 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuratie voor ondersteunde scenario's
-Zie voor meer informatie over het maken van hardwareprofielen het onderwerp [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md). **Opmerking:** Voor Microsoft Dynamics 365 for Operations, versie 1611, wordt het hardwarestationprofiel niet meer gebruikt. Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.
+Zie voor meer informatie over het maken van hardwareprofielen het onderwerp [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md). **Opmerking:** Voor Microsoft Dynamics 365 for Retail, versie 1611, wordt het hardwarestationprofiel niet meer gebruikt. Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS voor Windows met een IPC-hardwarestation (geïntegreerd)
 
@@ -482,7 +481,7 @@ Deze configuratie is de meestgebruikte configuratie voor traditionele, vaste POS
 1.  Maak een hardwareprofiel aan waarin de vereiste randapparaten zijn geconfigureerd.
 2.  Wijs het hardwareprofiel toe aan de POS-kassa.
 3.  Maak een hardwarestation van het type **Specifiek** voor de winkel waar de POS-kassa wordt gebruikt. Eeen beschrijving is optioneel. **Opmerking:** U hoeft geen andere eigenschappen in te stellen voor het hardwarestation. Alle overige vereiste informatie, zoals het hardwareprofiel, komen uit de kassa zelf.
-4.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
+4.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 5.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 6.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7.  Modern POS voor Windows installeren en activeren
@@ -501,7 +500,7 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients met een hardw
     -   **EFT POS-nummer:** De EFT-terminal-ID die moet worden gebruikt wanneer EFT-autorisaties worden verzonden. Deze ID wordt geleverd door de creditcardverwerker.
     -   **Pakketnaam:** Het hardwarestationpakket dat moet worden gebruikt wanneer het hardwarestation wordt geïmplementeerd.
 
-4.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
+4.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 5.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 6.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7.  Installeer het hardwarestation. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
@@ -524,12 +523,12 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwares
     -   **Hostnaam:** De naam van de computer waarop het hardwarestation wordt uitgevoerd.
     -   **Beschrijving:** Tekst die helpt het hardwarestation te identificeren, zoals **Retouren** of **Voorzijde winkel**.
     -   **Poort:** De poort die u wilt gebruiken voor het hardwarestation voor communicatie met de Modern POS-client.
-    -   **Hardwareprofiel:** Bij gedeelde hardwarestations moet elk hardwarestation een hardwareprofiel hebben. Hardwareprofielen kunnen worden gedeeld tussen hardwarestations, maar aan elk hardwarestation moet er een zijn toegewezen. Bovendien is het raadzaam om gebruik te maken van gedeelde ploegen, als meerdere apparaten gebruik maken van hetzelfde gedeelde hardwarestation. Om een gedeelde ploeg in te stellen, klikt u op **Detailhandel en commerce** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**. Selecteer voor elk gedeelde hardwareprofiel de kassalade en stel de optie **Gedeelde ploeglade** in op **Ja**.
+    -   **Hardwareprofiel:** Bij gedeelde hardwarestations moet elk hardwarestation een hardwareprofiel hebben. Hardwareprofielen kunnen worden gedeeld tussen hardwarestations, maar aan elk hardwarestation moet er een zijn toegewezen. Bovendien is het raadzaam om gebruik te maken van gedeelde ploegen, als meerdere apparaten gebruik maken van hetzelfde gedeelde hardwarestation. Om een gedeelde ploeg in te stellen, klikt u op **Retail** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**. Selecteer voor elk gedeelde hardwareprofiel de kassalade en stel de optie **Gedeelde ploeglade** in op **Ja**.
     -   **EFT POS-nummer:** De EFT-terminal-ID die moet worden gebruikt wanneer EFT-autorisaties worden verzonden. Deze ID wordt geleverd door de creditcardverwerker.
     -   **Pakketnaam:** Het hardwarestationpakket dat moet worden gebruikt wanneer het hardwarestation wordt geïmplementeerd.
 
 4.  Herhaal stap 2 en 3 voor elk extra hardwarestation dat nodig is in de winkel.
-5.  Klik op **Detailhandel en commerce** &gt; **IT detailhandel** &gt; **Distributieplanning**.
+5.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
 6.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 7.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
 8.  Installeer het hardwarestation op elke hostcomputer die u in stap 2 en 3 hebt ingesteld. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
@@ -542,7 +541,7 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwares
 14. Selecteer het hardwarestation dat u wilt gebruiken en klik op **Koppelen**.
 15. Herhaal stap 14 voor elk hardwarestation dat Modern POS gaat gebruiken.
 16. Nadat alle vereiste hardwarestations zijn gekoppeld, klikt u op **Sluiten**.
-17. Ga naar de pagina voor het selecteren van het hardwarestation en klik op het laatst geselecteerde hardwarestation om dit te activeren. **Opmerking:** Als apparaten vaak verschillende hardwarestations gebruiken, raden we aan om Modern POS te configureren om kassiers te vragen een hardwarestation te selecteren, op het moment dat ze beginnen de betalingsmethode te selecteren. Klik op **Detailhandel en Commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**. Selecteer de kassa en stel de optie **Selecteren bij offertes** in op **Ja**. Gebruik de distributieplanning **1090** om wijzigingen te synchroniseren naar de kanaaldatabase.
+17. Ga naar de pagina voor het selecteren van het hardwarestation en klik op het laatst geselecteerde hardwarestation om dit te activeren. **Opmerking:** Als apparaten vaak verschillende hardwarestations gebruiken, raden we aan om Modern POS te configureren om kassiers te vragen een hardwarestation te selecteren, op het moment dat ze beginnen de betalingsmethode te selecteren. Klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**. Selecteer de kassa en stel de optie **Selecteren bij offertes** in op **Ja**. Gebruik de distributieplanning **1090** om wijzigingen te synchroniseren naar de kanaaldatabase.
 
 ## <a name="extensibility"></a>Uitbreidbaarheid
 Zie voor informatie over uitbreidbaarheidsscenario's voor het hardwarestation het onderwerp [Uitbreidbaarheid van hardwarestations](dev-itpro/hardware-station-extensibility.md).
@@ -575,7 +574,7 @@ Volgens de huidige beveiligingsnormen moeten de volgende instellingen worden geb
 **Opmerking:** Het is zeer belangrijk dat u beveiligingsrichtlijnen voor IIS en de vereisten van de Payment Card Industry (PCI) bestudeert.
 
 ## <a name="peripheral-simulator"></a>Randapparatuursimulator
-Zie voor meer informatie het onderwerp [Simulator voor detailhandelrandapparaten](retail-peripheral-simulator.md).
+Zie voor meer informatie het onderwerp [Simulator voor detailhandelrandapparaten](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsofttested-peripheral-devices"></a>Door Microsoft geteste randapparaten
 ### <a name="ipc-built-in-hardware-station"></a>IPC-hardwarestation (geïntegreerd)
@@ -806,7 +805,7 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
 <a name="see-also"></a>Zie ook
 --------
 
-[Simulator voor detailhandelrandapparaten](retail-peripheral-simulator.md)
+[Simulator voor detailhandelrandapparaten](dev-itpro/retail-peripheral-simulator.md)
 
 
 

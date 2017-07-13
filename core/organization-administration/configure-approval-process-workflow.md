@@ -3,13 +3,13 @@ title: Een goedkeuringsproces configureren in een workflow
 description: Met behulp van de volgende procedure kunt u de eigenschappen van het goedkeuringsproces configureren.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 159fe64b7a37ffdcbcd6c122116c2e110300122b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c2765cf4ed8e0f5e00491bfe74835102bddff611
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -117,10 +117,10 @@ U kunt meldingen naar gebruikers verzenden wanneer een document is goedgekeurd, 
     </tr>
     <tr class="odd">
     <td><strong>Gebruiker</strong></td>
-    <td>Specifieke Microsoft Dynamics 365 for Operations-gebruikers</td>
+    <td>Specifieke Microsoft Dynamics 365 for Finance and Operations-gebruikers</td>
     <td><ol>
     <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Microsoft Dynamics 365 for Operations-gebruikers. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>:.</li>
+    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Microsoft Dynamics 365 for Finance and Operations-gebruikers. Selecteer de gebruikers naar wie u meldingen wilt verzenden en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>:.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -141,7 +141,7 @@ Volg deze stappen als het goedkeuringsproces binnen een opgegeven tijd moet word
 | De opties die u in deze stappen selecteert, overschrijven de opties die u in de gebieden **Toewijzing** en **Escalatie** van elke goedkeuringsstap hebt geselecteerd. |
 
 1.  Klik in het linkerdeelvenster op **Geavanceerde instellingen**.
-2.  Schakel het selectievakje **Een tijdslimiet instellen voor het** **workflowelement**in.
+2.  Schakel het selectievakje **Een tijdslimiet instellen voor het** **workflowelement** in.
 3.  Geef in het veld **Duur** aan wanneer het goedkeuringsproces moet voltooid zijn. Een van de volgende opties selecteren:
     -   **Uren**: het aantal uren invoeren waarin het goedkeuringsproces moet worden voltooid. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
     -   **Dagen**: het aantal dagen invoeren waarin het goedkeuringsproces moet worden voltooid. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
@@ -159,7 +159,7 @@ Wanneer een document voor goedkeuring is toegewezen aan een gebruiker, moet de g
 4.  Schakel het selectievakje **Wijziging aanvraag** in als u wilt dat de gebruiker wijzigingen in het document kan aanvragen.
 5.  Schakel het selectievakje **Delegeren** in als de gebruiker het document ter goedkeuring aan een andere gebruiker kan toewijzen.
 
-**Opmerking**: het selectievakje**Acties van de werklijst in Enterprise Portal activeren** is verwijderd.
+**Opmerking**: het selectievakje **Acties van de werklijst in Enterprise Portal activeren** is verwijderd.
 
 ## <a name="configure-the-approval-steps"></a> De goedkeuringsstappen configureren
 Een goedkeuringsproces bestaat uit goedkeuringsstappen. Voer de volgende procedures uit om stappen aan het goedkeuringsproces toe te voegen en de stappen te configureren.

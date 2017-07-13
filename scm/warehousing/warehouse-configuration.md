@@ -3,14 +3,14 @@ title: Magazijnconfiguratie
 description: In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangegeven hoe u een magazijnindeling en magazijnprocessen inschakelt.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08c086767303f6f52e085f8f56b5d09f1e46878f
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangeg
 **Opmerking:** dit artikel is van toepassing op de functies in de module **Magazijnbeheer** (geavanceerde magazijnen). Het is niet van toepassing op magazijnfuncties in de module **Voorraadbeheer**.
 
 ## <a name="warehouse-layout"></a>Magazijnindeling
-Het magazijnbeheersysteem in Microsoft Dynamics 365 for Operations biedt u flexibele manieren om uw magazijnindeling te definiëren voor het wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
+Het magazijnbeheersysteem in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, biedt u flexibele manieren om uw magazijnindeling te definiëren voor het wisselende behoeften, zodat u optimale magazijnefficiëntie kunt bereiken.
 
 -   U kunt opslaggebieden met hoge prioriteit en lage prioriteit ontwikkelen voor optimale plaatsing van goederen.
 -   U kunt uw magazijn in zones verdelen voor verschillende opslagbehoeften, zoals temperatuurvereisten of diverse omzettarieven voor artikelen.
@@ -44,7 +44,7 @@ Het magazijnbeheersysteem in Microsoft Dynamics 365 for Operations biedt u flexi
 -   U kunt locaties groeperen door de instellingen voor fysieke capaciteitsbeperking te gebruiken.
 -   U kunt bepalen hoe de artikelen worden opgeslagen en verzameld, gebaseerd op query-bepaalde regels.
 
-Als u magazijnbeheer in Microsoft Dynamics 365 for Operations wilt gebruiken, moet u een magazijn maken en dit inschakelen voor meer geavanceerde of gespecialiseerde magazijnbeheeractiviteiten. Selecteer op de pagina **Magazijnen** de optie **Magazijnbeheerprocessen gebruiken**.
+Als u magazijnbeheer in Finance and Operations wilt gebruiken, moet u een magazijn maken en dit inschakelen voor meer geavanceerde of gespecialiseerde magazijnbeheeractiviteiten. Selecteer op de pagina **Magazijnen** de optie **Magazijnbeheerprocessen gebruiken**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonegroepen, zones, locatietypen en locaties
 
@@ -56,7 +56,7 @@ Als onderdeel van het proces voor een magazijnindeling moet u de magazijnzonegro
 -   **Locatietypen**: de logische of fysieke groepering van de magazijnlocaties. U kunt bijvoorbeeld een locatietype voor alle faseringslocaties maken. De verplichte instellingen op de pagina **Parameters voor magazijnbeheer** bevorderen het proces om faseringslocatietypen en het uiteindelijke verzendlocatietype te definiëren.
 -   **Locaties**: het laagste locatiegegevensniveau. De locaties worden gebruikt om te traceren waar de voorhanden voorraad wordt opgeslagen en in een magazijn verzameld.
 
-De rechtspersonen die u maakt om uw magazijnindeling te definiëren, worden gebruikt in de query's die u in de werksjablonen instelt om werkorders in het magazijn te sturen. Wanneer u dus de zones, locatietypen, enzovoort selecteert, moet u er dus rekening mee houden hoe de verschillende gebieden in het magazijn voor verschillende processen worden gebruikt. Houd bovendien rekening met factoren zoals de fysieke kenmerken van een specifiek gebied. Er kunnen bijvoorbeeld gebieden zijn waarin u alleen een bepaald type vorkheftruck kunt gebruiken. Of, als uw bedrijf zowel productie als gereed gemelde goederen binnen dezelfde faciliteit heeft, kunt u wellicht één magazijn in Dynamics 365 for Operations maken maar hierbij de twee bewerkingen van elkaar scheiden door twee zonegroepen te maken. Geef uw entiteiten beschrijvende namen, zodat het eenvoudig is om te identificeren wanneer u ze in sjabloonquery's gebruikt.
+De rechtspersonen die u maakt om uw magazijnindeling te definiëren, worden gebruikt in de query's die u in de werksjablonen instelt om werkorders in het magazijn te sturen. Wanneer u dus de zones, locatietypen, enzovoort selecteert, moet u er dus rekening mee houden hoe de verschillende gebieden in het magazijn voor verschillende processen worden gebruikt. Houd bovendien rekening met factoren zoals de fysieke kenmerken van een specifiek gebied. Er kunnen bijvoorbeeld gebieden zijn waarin u alleen een bepaald type vorkheftruck kunt gebruiken. Of, als uw bedrijf zowel productie als gereed gemelde goederen binnen dezelfde faciliteit heeft, kunt u wellicht één magazijn in Finance and Operations maken maar hierbij de twee bewerkingen van elkaar scheiden door twee zonegroepen te maken. Geef uw entiteiten beschrijvende namen, zodat het eenvoudig is om te identificeren wanneer u ze in sjabloonquery's gebruikt.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Locatie-opslaglimieten, locatieprofielen en vaste orderverzamellocaties
 

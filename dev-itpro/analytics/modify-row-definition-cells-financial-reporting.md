@@ -3,7 +3,7 @@ title: Rijdefinitiecellen wijzigen
 description: In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 920cd02edee96b829069e88e026af1774d037d9a
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -252,8 +252,7 @@ Hier volgt een voorbeeld van het rapport dat wordt gegenereerd.
 
 |COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273.959)|
 
-|Lonen en salarissen|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |Verkoopkortingen|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Verkoopretouren|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Onkosten verhuren|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Onkosten kantoor|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Reiskosten|7.656|7.641|(15)|51.062|51.469|407| |Verkoop|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |**Absolute afwijking JTD in aflopende volgorde gesorteerd**|||||||
-|Verkoop|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |Reiskosten|7.656|7.641|(15)|51.062|51.469|407| |Onkosten kantoor|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Verkoopretouren|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Onkosten verhuren|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Verkoopkortingen|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Lonen en salarissen|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273.959)|
+|Lonen en salarissen|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |Verkoopkortingen|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Verkoopretouren|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Onkosten verhuren|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Onkosten kantoor|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Reiskosten|7.656|7.641|(15)|51.062|51.469|407| |Verkoop|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |**Absolute afwijking JTD in aflopende volgorde gesorteerd**||||||| |Verkoop|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |Reiskosten|7.656|7.641|(15)|51.062|51.469|407| |Onkosten kantoor|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Verkoopretouren|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Onkosten verhuren|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Verkoopkortingen|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Lonen en salarissen|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273.959)|
 
 ## <a name="specify-a-format-override-cell"></a>Een cel voor opmaakopheffing opgeven
 De cel **Opmaakopheffing** geeft de opmaak op die voor de rij wordt gebruikt wanneer het rapport wordt afgedrukt. Deze opmaak negeert de opmaak die in de kolomdefinitie en de rapportdefinitie is opgegeven. Standaard is valuta de opmaakcode die in deze definities is opgegeven. Als één rij van het rapport het aantal activa, zoals het aantal gebouwen, weergeeft en een andere rij de monetaire waarde van die activa, kunt u de valutaopmaak negeren en een numerieke opmaak invoeren voor de rij die het aantal gebouwen opgeeft. U kunt deze informatie opgeven in het dialoogvenster **Opmaakopheffing**. De beschikbare opties zijn afhankelijk van de opmaakcategorie die u selecteert. Het gebied **Voorbeeld** van het dialoogvenster toont voorbeeldopmaak. De volgende opmaakcategorieën zijn beschikbaar:

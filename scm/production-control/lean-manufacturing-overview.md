@@ -1,9 +1,9 @@
 ---
 title: Overzicht van lean manufacturing
-description: Dit artikel bevat een overzicht en beschrijving van de functies van lean manufacturing in Microsoft Dynamics AX.
+description: Dit artikel bevat een overzicht en beschrijving van de functies voor lean manufacturing in Dynamics 365 for Finance and Operations.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd29e601cb78b6903e09e63182196427183f6dbe
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,17 +33,17 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel bevat een overzicht en beschrijving van de functies van lean manufacturing in Microsoft Dynamics AX.
+Dit artikel bevat een overzicht en beschrijving van de functies voor lean manufacturing in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Lean manufacturing biedt hulpprogramma's die u kunt gebruiken om lean-acties te modelleren. Deze hulpprogramma's ondersteunen en bevorderen van de volgende concepten en zakelijke activiteiten:
 -   Lean manufacturing opzetten door het modelleren van productie- en logistieke processen als productiestromen.
 -   Een flexibel pull-systeem implementeren met behulp van kanbans voor het melden van de vereisten van de aanvraag.
 -   Kanbantaken beheren en bijhouden.
 
-De architectuur voor lean manufacturing in Microsoft Dynamics AX 7 bestaat uit productiestromen, activiteiten en kanbanregels. Deze structuren zijn volledig geïntegreerd met de processen in Microsoft Dynamics AX 7. U kunt lean manufacturing gebruiken in een gemengde productieomgeving die verschillende leveringen, producties en sourcingstrategieën combineert. Deze strategieën omvatten productieorders, batchorders voor procesindustrieën, inkooporders en overdrachtorders.
+De architectuur van lean manufacturing in Finance and Operations bestaat uit productiestromen, activiteiten en kanbanregels. Deze structuren zijn volledig geïntegreerd met de processen in Finance and Operations. U kunt lean manufacturing gebruiken in een gemengde productieomgeving die verschillende leveringen, producties en sourcingstrategieën combineert. Deze strategieën omvatten productieorders, batchorders voor procesindustrieën, inkooporders en overdrachtorders.
 | **Belangrijk**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| U kunt Microsoft Dynamics AX 7 gebruiken om de implementatie van lean manufacturing met kanbans te ondersteunen. Een succesvolle implementatie van de principes van lean manufacturing is afhankelijk van de interne bedrijfsprocessen die u gebruikt en de werkelijke productieomstandigheden en de omgeving. |
+| U kunt Finance and Operations gebruiken om de implementatie van lean manufacturing met kanbans te ondersteunen. Een succesvolle implementatie van de principes van lean manufacturing is afhankelijk van de interne bedrijfsprocessen die u gebruikt en de werkelijke productieomstandigheden en de omgeving. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Productie- en logistieke processen modelleren als productiestromen
 Lean manufacturing opzetten door het modelleren van de productie- en logistieke processen als productiestromen. Deze activiteit bestaat uit de volgende taken:
@@ -71,8 +71,8 @@ De volgende lijst beschrijft de speciale kanbanborden:
 -   Kanbanbord voor overdrachttaken – Dit bord biedt een overzicht van de huidige overdrachttaken. U kunt orderverzamellijsten bijwerken en registreren, overdrachttaken starten en voltooien en andere taken uitvoeren.
 -   Kanbanbord voor procestaken - Dit bord is ontworpen om de normale productiestroom te ondersteunen en geeft een overzicht van de actuele situatie in een of meerdere werkcellen. Vanaf dit bord kunt u prioriteit toekennen aan kanbans, of ze ophalen of fabriceren. Het bord is ook ontworpen om scannen van streepjescodes te ondersteunen voor het rapporteren van kanbans.
 
-## <a name="kanban-jobs-and-integration-with-microsoft-dynamics-ax-processes"></a>Kabantaken en integratie met Microsoft Dynamics AX-processen
-Kanbantaken zijn volledig geïntegreerd met de huidige processen voor voorraadtransacties in Microsoft Dynamics AX.
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Kanbantaken en integratie met processen in Finance and Operations
+Kanbantaken zijn volledig geïntegreerd met de huidige processen voor voorraadtransacties in Finance and Operations.
 -   U kunt orderverzamelactiviteiten uitvoeren om materiaal aan te vullen dat wordt gebruikt om te voldoen aan de vereisten van kanbantaken.
 -   U kunt kanbankaarten, rondgaande kanbankaarten en orderverzamellijsten printen ter ondersteuning van het gebruik van kanbans. Deze documenten worden gebruikt om kabantaken weer te geven, bij te houden en te registreren in het magazijn en op de productievloer.
 -   U kunt de orderverzamel- en overdrachtactiviteiten registreren in de voorraad door streepjescodes te scannen.

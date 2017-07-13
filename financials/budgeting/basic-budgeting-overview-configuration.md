@@ -1,15 +1,15 @@
 ---
 title: Budgetteringsoverzicht
-description: "Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 for Operations, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Dynamics 365 for Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden."
+description: "Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 for Finance and Operations, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation, Enterprise Edition te kunnen maken of budgetten te kunnen laden vanuit een programma van derden."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>Budgetteringsoverzicht
+# <a name="budgeting-overview"></a>Budgetteringsoverzicht 
 
 [!include[banner](../includes/banner.md)]
 
 
-Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 for Operations, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Dynamics 365 for Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
+Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 for Finance and Operations, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
 
 <a name="overview"></a>Overzicht
 --------
 
 Het goedgekeurde budget voor een rechtspersoon wordt beheerd in een document dat een *budgetregisterregel* wordt genoemd. De regels in een budgetjournaalpostdocument worden *budgetrekening*posten genoemd, en bevatten financiële dimensiegegevens, datums en de bedragen van het goedgekeurde budget. Het document met budgetjournaalposten is geïntegreerd met elementaire financiële rapporten en querypagina´s waarin werkelijke bedragen worden vergeleken met gebudgetteerde bedragen. 
 
-Er zijn meerdere methoden om budgetjournaalposten te maken in Dynamics 365 for Operations:
+Er zijn meerdere methoden om budgetjournaalposten te maken in Finance and Operations:
 
 -   Voer handmatig de documentinformatie in op de pagina **Budgetregisterposten**.
 -   Gebruik de Microsoft Excel-sjabloon die u kunt openen door op de knop **Openen in Excel** te klikken op de pagina **Budgetregisterposten**.

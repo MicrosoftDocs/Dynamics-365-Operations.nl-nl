@@ -3,14 +3,14 @@ title: Werkuitbesteding op basis van een activiteit
 description: In dit onderwerp wordt tot in detail beschreven hoe u uitbestede activiteiten in een productiestroom voor lean manufacturing kunt gebruiken.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 43c95c8ab8599a048b1c8c732d6dcac1c3e8b9e9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 In dit onderwerp wordt tot in detail beschreven hoe u uitbestede activiteiten in een productiestroom voor lean manufacturing kunt gebruiken.
 
-Microsoft Dynamics 365 for Operations bevat twee methoden voor uitbesteding: productieorders en lean manufacturing. In de lean manufacturing-methode worden de uitbestedingswerkzaamheden gemodelleerd als een service die is gerelateerd aan een activiteit van een productiestroom. Een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** is geïntroduceerd, en de uitbestedingsservices zijn niet langer onderdeel van een stuklijst. De kostprijsboekhouding van uitbesteed werk is volledig geïntegreerd in de kostprijsberekeningsoplossing voor lean manufacturing.
+Microsoft Dynamics 365 for Finance and Operations bevat twee methoden voor uitbesteding: productieorders en lean manufacturing. In de lean manufacturing-methode worden de uitbestedingswerkzaamheden gemodelleerd als een service die is gerelateerd aan een activiteit van een productiestroom. Een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** is geïntroduceerd, en de uitbestedingsservices zijn niet langer onderdeel van een stuklijst. De kostprijsboekhouding van uitbesteed werk is volledig geïntegreerd in de kostprijsberekeningsoplossing voor lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Productiestromen die betrekking hebben op toeleveranciers
 Het basisprincipe van een productiestroom verandert niet wanneer activiteiten worden uitbesteed. Materiaal wordt nog steeds verplaatst tussen vestigingen, met procesactiviteiten wordt materiaal omgezet in producten en met overboekingsactiviteiten worden producten of materiaal van de ene locatie naar de andere verplaatst. U kunt locaties en werkcellen modelleren als door een leverancier beheerd door de leverancierrekening aan een magazijn of aan een resource van een resourcegroep toe te wijzen.  
@@ -104,7 +104,7 @@ Transport wordt vaak gezien als niet-productief en zonder toegevoegde waarde. Al
 
 Met uitbesteding op basis van een activiteit in lean manufacturing kunt u vervoerders en transportleveranciers integreren die materiaal en producten tussen de locaties van een productiestroom verplaatsen. U kunt een vervoerder of leverancier toewijzen door een overboekingsactiviteit te modelleren. De overboekingsactiviteiten/-taak zijn gebaseerd op een service- en inkoopovereenkomst en u kunt inkooporders en ontvangstadviezen maken op basis van de werkelijke overboekingstaken. Deze functionaliteit is hetzelfde als de functionaliteit voor uitbestede procesactiviteiten.  
 
-Daarom wordt in Dynamics 365 for Operations nu stuklijstberekening ondersteund waarin transportservices, het maken van gerelateerde inkooporders, geïntegreerde ontvangstregistratie en de integratie van transportservicekosten zijn opgenomen in de kostprijsberekening van de productiestroom.
+Daarom wordt Finance and Operations nu stuklijstberekening ondersteund waarin transportservices, het maken van gerelateerde inkooporders, geïntegreerde ontvangstregistratie en de integratie van transportservicekosten zijn opgenomen in de kostprijsberekening van de productiestroom.
 
 
 

@@ -114,7 +114,7 @@ Deze documentatie kan u helpen inzicht te verkrijgen in hoe Dynamics 365 for Fin
 <p><a href="../retail/call-center-functionality">Callcenter</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanaalinstelling en -beheer</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS en Cloud POS</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Ontwikkelaar en beheerder voor detailhandel</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Retail-ontwikkelaar en -beheer</p>
 
 </td>
 </tr>

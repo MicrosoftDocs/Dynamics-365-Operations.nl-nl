@@ -3,13 +3,13 @@ title: Verkoopbeheer en marketing
 description: Met Verkoop en marketing kunt u verschillende typen gegevens in de verkoopstroom opvragen, opslaan en gebruiken. Hierbij gaat het om gegevens zoals het oorspronkelijke verkoopinitiatief, toekomstige opvolgingsacties en extra verkopen.
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ In verkoop en marketing kunnen de initiële interacties die u hebt met potentië
 
 ### <a name="campaigns"></a>Campagnes
 
-Een campagne is gericht op de contactpersonen van prospects, potentiële klanten, verkoopkansen en klanten die zijn geselecteerd voor deelname aan de campagne. In Microsoft Dynamics 365 for Operations kunt u verschillende typen campagnes maken, zoals telemarketing-, mailing- en e-mailcampagnes, om uw klantenpotentieel te maximaliseren. Als uw campagne vordert en u positieve reacties ontvangt, kunt u het verkoopproces beginnen met de geadresseerden die positief hebben gereageerd op de campagne.
+Een campagne is gericht op de contactpersonen van prospects, potentiële klanten, verkoopkansen en klanten die zijn geselecteerd voor deelname aan de campagne. In Microsoft Dynamics 365 for Finance and Operations kunt u verschillende typen campagnes maken, zoals telemarketing-, mailing- en e-mailcampagnes, om uw klantenpotentieel te maximaliseren. Als uw campagne vordert en u positieve reacties ontvangt, kunt u het verkoopproces beginnen met de geadresseerden die positief hebben gereageerd op de campagne.
 
 ## <a name="sales"></a>Verkoop
 U gebruikt de verkoopfunctionaliteit om offertes te maken, meerverkoop en kruisverkoop uit te voeren bij nieuwe en bestaande klanten, verkooporders te genereren en verkoopfacturen op te stellen voor klanten. In het volgende processtroomdiagram ziet u het bedrijfsproces voor verkoop. [![Bedrijfsproces voor verkoop](./media/sales01.jpg)](./media/sales01.jpg)

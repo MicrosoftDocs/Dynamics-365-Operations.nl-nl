@@ -1,15 +1,15 @@
 ---
 title: Bankafschriften afstemmen via geavanceerde bankafstemming
-description: Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Operations. In dit onderwerp wordt het afstemmingsproces uitgelegd.
+description: Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In dit onderwerp wordt het afstemmingsproces uitgelegd.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Operations. In dit onderwerp wordt het afstemmingsproces uitgelegd.  
+Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In dit onderwerp wordt het afstemmingsproces uitgelegd.  
 
 <a name="import-an-electronic-bank-statement"></a>Een elektronisch bankafschrift importeren
 -----------------------------------
@@ -44,7 +44,7 @@ U kunt een bankafschrift uploaden dat informatie bevat voor één rekening of vo
 
 Als afschriften in het elektronisch bestand niet aan een bankrekening kunnen worden gekoppeld door middel van de identificatievelden, worden deze niet geïmporteerd. Andere afschriften in het bestand kunnen echter nog wel worden geïmporteerd. De gebruiker ontvangt een bericht waarin wordt gemeld dat het importeren van bankafschriften voor specifieke bankrekeningen niet is geslaagd. Let erop dat de gebruiker die het bankafschriftbestand importeert, toegang tot een rechtspersoon moet hebben om afschriften voor de bankrekeningen van die rechtspersoon te kunnen importeren. 
 
-U kunt ook door middel van een zip-bestand in één proces meerdere afschriftbestanden uploaden naar Microsoft Dynamics 365 for Operations. Als u wilt meerdere bankafschriftbestanden wilt importeren voor meerdere rekeningen, combineert u alle bankafschriftbestanden in één zipbestand. Stel in het dialoogvenster **Bankafschriften importeren** de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Ja**. Klik op **Bladeren** om het zip-bestand te selecteren dat de bankafschriftbestanden bevat en klik vervolgens op **Uploaden**. Het importproces herkent het zip-bestand en uploadt alle afschriften daaruit, ongeacht de rechtspersoon waaraan de bankrekening is gekoppeld. 
+U kunt ook door middel van een zip-bestand in één proces meerdere afschriftbestanden uploaden naar Finance and Operations. Als u wilt meerdere bankafschriftbestanden wilt importeren voor meerdere rekeningen, combineert u alle bankafschriftbestanden in één zipbestand. Stel in het dialoogvenster **Bankafschriften importeren** de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Ja**. Klik op **Bladeren** om het zip-bestand te selecteren dat de bankafschriftbestanden bevat en klik vervolgens op **Uploaden**. Het importproces herkent het zip-bestand en uploadt alle afschriften daaruit, ongeacht de rechtspersoon waaraan de bankrekening is gekoppeld. 
 
 Er is een optie **Afstemmen na importeren** beschikbaar. Als u deze optie instelt op **Ja**, valideert het systeem automatisch het bankafschrift, maakt een nieuwe bankafstemming en werkblad en voert de set met standaardregels voor afstemming uit als het bankafschrift wordt geüpload. Deze functie automatiseert het proces tot aan het punt waar transacties handmatig moeten worden afgestemd.
 
@@ -76,7 +76,7 @@ Er zijn drie manieren om bankafschrifttransacties af te stemmen:
 
 -   De transacties afstemmen met Operations-banktransacties.
 -   De transacties afstemmen met een omgekeerde bankafschrifttransactie.
--   De transacties markeren als **Nieuw**, zodat zij later kunnen worden geboekt als een banktransactie in Dynamics 365 for Operations.
+-   De transacties markeren als **Nieuw**, zodat zij later kunnen worden geboekt als een banktransactie in Finance and Operations.
 
 Als u transacties handmatig wilt afstemmen, selecteert u de transacties in het raster **Bankafschrifttransacties**, selecteert u de bijbehorende transacties in het raster **Operations-banktransacties** en klikt u vervolgens op **Afstemmen**. De geselecteerde transacties worden verplaatst van de bovenste rasters voor niet-afgestemde transacties naar de lagere rasters voor afgestemde transacties. Bovendien worden de afgestemde en niet-afgestemde totaalbedragen bijgewerkt. U kunt één-op-één, veel-op-één en veel-op-veel transactieafstemmingen hebben. Afstemmingen moeten voldoen aan de regels voor toegestane datumverschillen en toewijzing van het transactietype. Deze regels worden ingesteld op de pagina **Parameters voor Contanten en bankbeheer**.
 
@@ -86,7 +86,7 @@ Terugboekingen van bankafschrifttransacties worden afgestemd met behulp van het 
 
 Teruggeboekte Operations-banktransacties moeten worden afgestemd met behulp van de pagina **Operations-banktransacties**. U kunt twee Operations-banktransacties samen afstemmen als de documenten dezelfde bankrekening, dezelfde documentsoort en hetzelfde betalingskenmerk hebben, plus tegengestelde bedragen. U kunt ook één geannuleerde cheque afstemmen om te voorkomen dat deze transacties worden weergegeven op het werkblad voor afstemming. 
 
-Als er nieuwe, door de bank geïnitieerde transacties zijn, zoals rente en kosten, die nog niet in Dynamics 365 for Operations zijn opgenomen, kunt u ze toevoegen aan een journaal dat is gekoppeld aan de geselecteerde bankafschriftafstemming. Selecteer een bankafschrifttransactie in het raster **Bankafschrifttransacties** voor niet-gerelateerde transacties en klik vervolgens op **Markeren als nieuw**. De status van de transactie is ingesteld op **Nieuw** en de transactie wordt verplaatst naar het raster **Bankafschrifttransacties** voor afgestemde transacties. U boekt transacties die zijn gemarkeerd als **Nieuw** op een later tijdstip, vanaf de pagina **Bankafschrift**. 
+Als er nieuwe, door de bank geïnitieerde transacties zijn, zoals rente en kosten, die nog niet in Finance and Operations zijn opgenomen, kunt u ze toevoegen aan een journaal dat is gekoppeld aan de geselecteerde bankafschriftafstemming. Selecteer een bankafschrifttransactie in het raster **Bankafschrifttransacties** voor niet-gerelateerde transacties en klik vervolgens op **Markeren als nieuw**. De status van de transactie is ingesteld op **Nieuw** en de transactie wordt verplaatst naar het raster **Bankafschrifttransacties** voor afgestemde transacties. U boekt transacties die zijn gemarkeerd als **Nieuw** op een later tijdstip, vanaf de pagina **Bankafschrift**. 
 
 U kunt de afstemming ongedaan maken van transacties die niet goed zijn afgestemd. Selecteer de afgestemde bankafschrifttransactie en klik vervolgens op **Afstemming ongedaan maken**. Alle bijbehorende transacties worden teruggeplaatst naar de bovenste rasters voor niet-afgestemde transacties en de afgestemde en niet-afgestemde totaalbedragen worden bijgewerkt. 
 

@@ -1,28 +1,29 @@
 ---
 title: Attributen maken en beheren
-description: In dit artikel worden kenmerken in Microsoft Dynamics 365 for Operations beschreven. De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker gedefinieerde velden.
+description: In dit artikel worden kenmerken in Microsoft Dynamics 365 for Retail beschreven. De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker gedefinieerde velden.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-In dit artikel worden kenmerken in Microsoft Dynamics 365 for Operations beschreven. De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker gedefinieerde velden.
+In dit artikel worden kenmerken in Microsoft Dynamics 365 for Retail beschreven. De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker gedefinieerde velden.
 
 De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker gedefinieerde velden. Bijvoorbeeld, U kunt de geheugengrootte van het product en de harde schijf capaciteit opgeven, en aangeven of het product Energy star-conform is. De attributen kunnen met verschillende kleinhandelsentiteiten zoals productcategorieën en kleinhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen voor hen zijn ingesteld. De producten erven hun kenmerken en standaardwaarden voor die kenmerken wanneer ze gekoppeld zijn met productcategorieën of kleinhandelskanalen. De standaardwaarden kunnen op het niveau van het afzonderlijke product, op het kleinhandelskanaalniveau, of in een kleinhandelscatalogus worden overschreven.
 
@@ -59,7 +60,7 @@ De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker
 ## <a name="attribute-type"></a>Type kenmerk
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
-Kenmerken zijn gebaseerd op kenmerktypen. Het kenmerktype geeft het gegevenstype aan dat kan worden ingevoerd voor een specifiek kenmerk. Momenteel worden in Microsoft Dynamics 365 for Operations de volgende kenmerktypen ondersteund:
+Kenmerken zijn gebaseerd op kenmerktypen. Het kenmerktype geeft het gegevenstype aan dat kan worden ingevoerd voor een specifiek kenmerk. Momenteel worden in Microsoft Dynamics 365 for Retail de volgende kenmerktypen ondersteund:
 
 -   **Valuta** - Dit kenmerktype ondersteunt valutawaarden. Het kan begrensd zijn (oftewel kan het een waardebereik ondersteunen), of kan worden opengelaten.
 -   **DateTime** - Dit kenmerktype ondersteunt datum en tijdwaarden. Het kan begrensd zijn (oftewel kan het een waardebereik ondersteunen), of het kan worden opengelaten.

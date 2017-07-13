@@ -1,27 +1,27 @@
 ---
 title: Structuren voor werkspecificatie
-description: 
+description: "Een structuur voor werkspecificatie (WBS) is een omschrijving van de werkzaamheden die voor een project worden uitgevoerd. Dit is een hiërarchie van taken die het projectteam inzicht geeft in de samenstelling van de werkzaamheden, de grootte, kosten en de duur van elke component of taak."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -29,9 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="work-breakdown-structures"></a>Structuren voor werkspecificatie
 
 [!include[banner](../includes/banner.md)]
-
-
-
 
 Een structuur voor werkspecificatie (WBS) is een omschrijving van de werkzaamheden die voor een project worden uitgevoerd. Dit is een hiërarchie van taken die het projectteam inzicht geeft in de samenstelling van de werkzaamheden, de grootte, kosten en de duur van elke component of taak. Een WBS heeft drie belangrijke doeleinden:
 
@@ -43,7 +40,7 @@ De mate van detail in een WBS is afhankelijk van het niveau van nauwkeurigheid d
 
 Daarentegen zijn de projecten in bedrijfstakken zoals media en reclame, software en IT-infrastructuur van één type , en de productiviteit is gekoppeld aan de ervaring en competentie van de persoon die de taak uitvoert. Deze bedrijfstakken gebruiken daarom een WBS om een schatting te krijgen van de grootte van een project, en niet om in detail de voortgang van het project bij te houden. 
 
-Het samenstellen van een WBS is een intensief proces dat doorgaans over een lange periode wordt uitgevoerd, en dat samenwerking en informatie van een grote verscheidenheid aan mensen vereist. Dit onderwerp beschrijft hoe u WBS-verbeteringen in Microsoft Dynamics 365 for Operations kunt gebruiken om aan uw vereisten te voldoen voor ramingen en tracering.
+Het samenstellen van een WBS is een intensief proces dat doorgaans over een lange periode wordt uitgevoerd, en dat samenwerking en informatie van een grote verscheidenheid aan mensen vereist. Dit onderwerp beschrijft hoe u WBS-verbeteringen in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om aan uw vereisten te voldoen voor ramingen en tracering.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Vereisten voor het maken van een WBS
 Om een WBS te maken moet u een werkplanning kunnen maken en de kosten van het werk schatten.
@@ -106,10 +103,10 @@ Momenteel kunt u de WBS-nummering niet aanpassen.
 
 ### <a name="schedule-estimation"></a>Planningsraming
 
-Planningsraming is meestal de tweede stap bij het maken van een WBS. U kunt het best de planningsraming uitvoeren nadat u de taken hebt gemaakt. De pagina **Structuur voor werkspecificatie** in Microsoft Dynamics 365 for Operations heeft twee gedeelten. Het bovenste deelvenster is bedoeld voor planningsraming, en het onderste deelvenster bevat een tabblad **Geraamde kosten en inkomsten** dat u kunt gebruiken voor kostenraming. 
+Planningsraming is meestal de tweede stap bij het maken van een WBS. U kunt het best de planningsraming uitvoeren nadat u de taken hebt gemaakt. De pagina **Structuur voor werkspecificatie** in Finance and Operations heeft twee gedeelten. Het bovenste deelvenster is bedoeld voor planningsraming, en het onderste deelvenster bevat een tabblad **Geraamde kosten en inkomsten** dat u kunt gebruiken voor kostenraming. 
 **Taakafhankelijkheden** In een WBS kunt u een voorafgaande relatie maken tussen taken. Wanneer u voorafgaande taken aan een taak toewijst, kan die taak pas starten nadat alle voorafgaande taken zijn voltooid. De geplande begindatum van de taak wordt automatisch ingesteld op de laatste datum van alle voorafgaande taken. 
 
-**Taakplanning Microsoft Dynamics 365 for Operations** De volgende factoren bepalen het plannen van bladknooppunttaken:
+**Taakplanning Microsoft Dynamics 365 for Finance and Operations** De volgende factoren bepalen het plannen van bladknooppunttaken:
 
 -   Voorgangers
 -   Inzet
@@ -126,7 +123,7 @@ De begindatum van een bladknooppunttaak zonder voorafgaande taken wordt automati
 
 Aantal personen × duur × aantal uren in een standaard werkdag op de projectkalender. 
 
-In sommige gevallen kunt u van deze regels afwijken. U kunt automatische planning uitschakelen om te voorkomen dat Microsoft Dynamics 365 for Operations automatisch eigenschappen van bladknooppunttaken instelt of corrigeert. Wanneer u de gegevens voor een taak invoert die een schending van planningsregels veroorzaakt, wordt een planningsfoutpictogram weergegeven voor de taak. Als u niet wilt dat planningsfouten worden weergegeven, klikt u op **Planningsfouten worden weergegeven** om de functie uit te schakelen. 
+In sommige gevallen kunt u van deze regels afwijken. U kunt automatische planning uitschakelen om te voorkomen dat Finance and Operations automatisch eigenschappen van bladknooppunttaken instelt of corrigeert. Wanneer u de gegevens voor een taak invoert die een schending van planningsregels veroorzaakt, wordt een planningsfoutpictogram weergegeven voor de taak. Als u niet wilt dat planningsfouten worden weergegeven, klikt u op **Planningsfouten worden weergegeven** om de functie uit te schakelen. 
 
 > [!NOTE] 
 > De waarden voor een overzicht of containertaak worden nog steeds berekend als de som van waarden van de integrale taken, ongeacht of automatische planningshulp is in- of uitgeschakeld. 
@@ -135,7 +132,7 @@ In sommige gevallen kunt u van deze regels afwijken. U kunt automatische plannin
 
 **Planningsfouten op taak oplossen** Wanneer u dubbelklikt op het planningsfoutpictogram voor een bepaalde taak, worden in het dialoogvenster alle planningsfouten voor die taak weergegeven. U kunt kiezen welke planningsfouten u voor de taak wilt oplossen. 
 
-**Alle planningsfouten oplossen** Als u wilt dat Microsoft Dynamics 365 for Operations alle fouten in de WBS oplost, dan klikt u in het actievenster **Alle afwijkingen in planning corrigeren**. 
+**Alle planningsfouten oplossen** Als u wilt dat Finance and Operations alle fouten in de WBS oplost, dan klikt u in het actievenster **Alle afwijkingen in planning corrigeren**. 
 
 > [!NOTE] 
 > Deze functie kan aanzienlijke wijzigingen aan de WBS veroorzaken. De fouten worden gecorrigeerd in de volgende volgorde:
@@ -170,7 +167,7 @@ De kostprijs en verkoopprijs voor elke arbeids- of onkostenramingsregel zijn geb
 ## <a name="tracking-progress-on-the-wbs"></a>Voortgang in de WBS bijhouden
 Bepaalde bedrijfstakken volgen de voortgang van een project met een WBS op een heel laag niveau, terwijl anderen de voortgang op een hoger niveau van de WBS volgen. In deze sectie wordt beschreven hoe u WBS kunt gebruiken voor uw projectvereisten. 
 
-Microsoft Dynamics 365 for Operations heeft drie weergaven voor de WBS van een project: Planningsweergave, Weergave inzettracering en Weergave kostentracering.
+Finance and Operations heeft drie weergaven voor de WBS van een project: Planningsweergave, Weergave inzettracering en Weergave kostentracering.
 
 ### <a name="planning-view"></a>Planningsweergave
 
@@ -246,13 +243,13 @@ De tijdfase in de huidige grafiek voor verdiende waarde wordt weergegeven per we
 
 **Geplande waarde** De EVM-theorie bepaalt dat de geplande waardegrafiek het tarief toont waarmee het projectteam waarde op het project wil verdienen. 
 
-Microsoft Dynamics 365 for Operations gebruikt de verdienregel 0:100 voor het uitzetten van de geplande waarde. Onder deze regel wordt de waarde van de taak geboekt naar de taak vanaf de einddatum. Er wordt geen waarde geboekt tot de taak voor 100 procent is voltooid. 
+Finance and Operations gebruikt de verdienregel 0:100 voor het uitzetten van de geplande waarde. Onder deze regel wordt de waarde van de taak geboekt naar de taak vanaf de einddatum. Er wordt geen waarde geboekt tot de taak voor 100 procent is voltooid. 
 
 In Projectbeheer en boekhouding voert u hiervoor de einddatum van de bladknooppunten en de geplande kosten in. Wanneer de grafiek van geplande waarde per week wordt weergegeven, wordt de geplande waarde samengevat per week voor alle bladknooppunttaken voor de duur van het project. 
 
 **Verdiende waarde** De EVM-theorie bepaalt dat de verdiende waardegrafiek het tarief toont waarmee het projectteam in werkelijkheid waarde op het project verdient. 
 
-Microsoft Dynamics 365 for Operations gebruikt de verdienregel 0:100 voor het uitzetten van de verdiende waarde. Onder deze regel wordt de waarde van de taak geboekt naar de taak vanaf de einddatum. Er wordt geen waarde geboekt tot de taak voor 100 procent is voltooid. 
+Finance and Operations gebruikt de verdienregel 0:100 voor het uitzetten van de verdiende waarde. Onder deze regel wordt de waarde van de taak geboekt naar de taak vanaf de einddatum. Er wordt geen waarde geboekt tot de taak voor 100 procent is voltooid. 
 
 Als de huidige verdiende waarde wordt berekend, wordt het voortgangspercentage van elke taak meegenomen. Onder de regel 0:100 worden alleen de taken die tijdens een gedefinieerde periode zijn voltooid meegenomen voor de berekening van huidige verdiende waarde vanaf het einde van de periode. De verdiende waarde op het project wordt berekend voor alle taken die zijn voltooid wanneer de grafiek wordt gemaakt. 
 

@@ -1,15 +1,15 @@
 ---
 title: Nummerreeks - overzicht
-description: Nummerreeksen in Microsoft Dynamics 365 for Operations worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die ID&quot;s nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een <em>verwijzing</em> genoemd.
+description: Nummerreeksen in Microsoft Dynamics 365 for Finance and Operations worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die ID's nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een <em>verwijzing</em> genoemd.
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Nummerreeksen in Microsoft Dynamics 365 for Operations worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die ID's nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een <em>verwijzing</em> genoemd.
+Nummerreeksen in Microsoft Dynamics 365 for Finance and Operations worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die ID's nodig hebben. Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een <em>verwijzing</em> genoemd.
 
-Voordat u nieuwe registraties voor een verwijzing kunt maken in Microsoft Dynamics 365 for Operations moet u een nummerreeks instellen en deze aan de verwijzing koppelen. Het is raadzaam om de formulieren in **Organisatiebeheer** te gebruiken om nummerreeksen in te stellen. Als er modulespecifieke instellingen zijn vereist, kunt u de parameterpagina in een module gebruiken om nummerreeksen op te geven voor de verwijzingen in die module. In **Klanten** en **Leveranciers** kunt u bijvoorbeeld nummerreeksgroepen instellen om specifieke nummerreeksen toe te wijzen aan specifieke klanten of leveranciers. Wanneer u een nummerreeks instelt, moet u een bereik opgeven die definieert welke organisatie de nummerreeks gebruikt. De scope kan **Gedeeld**, **Bedrijf**, **Rechtspersoon** of **Operationele eenheid** zijn. De scopes van **rechtspersonen** en **bedrijven** kunnen ook met **Fiscale kalenderperiode** worden gecombineerd om nog specifiekere nummerreeksen te maken. Nummerreeksnotaties bestaan uit segmenten. Nummerreeksen met een andere scope dan **Gedeeld**, kunnen segmenten bevatten die overeenkomen met de scope. Een nummerreeks met een scope van **Rechtspersoon** kan bijvoorbeeld een segment voor de rechtspersoon bevatten. Door een scopesegmenten in de nummerreeksnotatie op te nemen, kunt u de scope van een specifieke registratie bepalen door naar het nummer te kijken. Naast de segmenten die overeenkomen met scopes, kunnen nummerreeksnotaties **constante** en **alfanumerieke** segmenten bevatten. Een **constant** segment bevat een reeks letters, cijfers of symbolen die niet verandert. Een **alfanumeriek** segment bevat een reeks letters of cijfers die worden verhoogd telkens als het nummer wordt gebruikt. Gebruik een hekje (\#) om stijgende nummers aan te geven en een en-teken (&) om stijgende letters aan te geven. De indeling \#\#\#\#\#\_2017 maakt bijvoorbeeld de reeks 00001\_2017, 00002\_2017, enzovoort.
+Voordat u nieuwe registraties voor een verwijzing kunt maken in Microsoft Dynamics 365 for Finance and Operations moet u een nummerreeks instellen en deze aan de verwijzing koppelen. Het is raadzaam om de formulieren in **Organisatiebeheer** te gebruiken om nummerreeksen in te stellen. Als er modulespecifieke instellingen zijn vereist, kunt u de parameterpagina in een module gebruiken om nummerreeksen op te geven voor de verwijzingen in die module. In **Klanten** en **Leveranciers** kunt u bijvoorbeeld nummerreeksgroepen instellen om specifieke nummerreeksen toe te wijzen aan specifieke klanten of leveranciers. Wanneer u een nummerreeks instelt, moet u een bereik opgeven die definieert welke organisatie de nummerreeks gebruikt. De scope kan **Gedeeld**, **Bedrijf**, **Rechtspersoon** of **Operationele eenheid** zijn. De scopes van **rechtspersonen** en **bedrijven** kunnen ook met **Fiscale kalenderperiode** worden gecombineerd om nog specifiekere nummerreeksen te maken. Nummerreeksnotaties bestaan uit segmenten. Nummerreeksen met een andere scope dan **Gedeeld**, kunnen segmenten bevatten die overeenkomen met de scope. Een nummerreeks met een scope van **Rechtspersoon** kan bijvoorbeeld een segment voor de rechtspersoon bevatten. Door een scopesegmenten in de nummerreeksnotatie op te nemen, kunt u de scope van een specifieke registratie bepalen door naar het nummer te kijken. Naast de segmenten die overeenkomen met scopes, kunnen nummerreeksnotaties **constante** en **alfanumerieke** segmenten bevatten. Een **constant** segment bevat een reeks letters, cijfers of symbolen die niet verandert. Een **alfanumeriek** segment bevat een reeks letters of cijfers die worden verhoogd telkens als het nummer wordt gebruikt. Gebruik een hekje (\#) om stijgende nummers aan te geven en een en-teken (&) om stijgende letters aan te geven. De indeling \#\#\#\#\#\_2017 maakt bijvoorbeeld de reeks 00001\_2017, 00002\_2017, enzovoort.
 Voorbeelden van nummerreeksen
 ------------------------
 
 De volgende voorbeelden geven aan hoe u segmenten gebruikt om nummerreeksnotaties te maken. De voorbeelden tonen in het bijzonder de effecten van het gebruik van scopesegmenten.
 ### <a name="expense-report-numbers"></a>Onkostennotanummers
 
-In het volgende voorbeeld worden onkostennotanummer ingesteld voor de rechtspersoon die **CS** heet. **Gebied:**Reis- en onkosten **Verwijzing:**Nummer onkostennota **Bereik:**Rechtspersoon **Rechtspersoon:**CS
+In het volgende voorbeeld worden onkostennotanummer ingesteld voor de rechtspersoon die **CS** heet. **Gebied:** Reis- en onkosten **Verwijzing:** Nummer onkostennota **Bereik:** Rechtspersoon **Rechtspersoon:** CS
 | Segmenten  | Segmenttype | Waarde     |
 |-----------|--------------|-----------|
 | Segment 1 | Rechtspersoon | CS        |
@@ -50,7 +50,7 @@ In het volgende voorbeeld worden onkostennotanummer ingesteld voor de rechtspers
 
 ### <a name="sales-order-numbers"></a>Verkoopordernummers
 
-In het volgende voorbeeld worden verkoopordernummers ingesteld voor de bedrijfs-id **CEU**. **Gebied:**Verkoop **Verwijzing:**Verkooporder **Bereik:**Bedrijf **Bedrijf:**CEU
+In het volgende voorbeeld worden verkoopordernummers ingesteld voor de bedrijfs-id **CEU**. **Gebied:** Verkoop **Verwijzing:** Verkooporder **Bereik:** Bedrijf **Bedrijf:** CEU
 | Segmenten  | Segmenttype | Waarde    |
 |-----------|--------------|----------|
 | Segment 1 | Constante     | SO-      |
@@ -60,7 +60,7 @@ In het volgende voorbeeld worden verkoopordernummers ingesteld voor de bedrijfs-
 
 ### <a name="purchase-requisition-numbers"></a>Nummers van opdrachten tot inkoop
 
-In het volgende voorbeeld zijn de nummers van de opdracht tot inkoop organisatiebreed. **Gebied:**Inkoop **Verwijzing:**Opdracht tot inkoop **Bereik:**Gedeeld
+In het volgende voorbeeld zijn de nummers van de opdracht tot inkoop organisatiebreed. **Gebied:** Inkoop **Verwijzing:** Opdracht tot inkoop **Bereik:** Gedeeld
 | Segmenten  | Segmenttype | Waarde    |
 |-----------|--------------|----------|
 | Segment 1 | Constante     | Behoefte      |

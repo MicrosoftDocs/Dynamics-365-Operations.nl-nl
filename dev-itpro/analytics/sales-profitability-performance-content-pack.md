@@ -1,15 +1,15 @@
 ---
-title: Power BI-inhoud voor verkoop- en winstgevendheidsprestaties
-description: In dit onderwerp wordt beschreven wat het Microsoft Power BI-inhoudpakket Verkoop- en winstgevendheidsprestaties voor Dynamics 365 for Operations bevat. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
+title: Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Verkoop- en winstgevendheidsprestaties. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
@@ -17,45 +17,45 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 357f7071d801b13518c83170f8d0e7946dd9dede
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 16fef86e330a392ddd888fcb46060c3e1efa87c5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI-inhoud voor verkoop- en winstgevendheidsprestaties
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid
 
 [!include[banner](../includes/banner.md)]
 
+In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Verkoop- en winstgevendheidsprestaties**. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
-In dit onderwerp wordt beschreven wat het Microsoft Power BI-inhoudpakket Verkoop- en winstgevendheidsprestaties voor Dynamics 365 for Operations bevat. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in het inhoudpakket en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee het inhoudpakket is samengesteld.
+## <a name="overview"></a>Overzicht
 
-<a name="overview"></a>Overzicht
---------
+De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** is opgesteld zodat verkoopmanagers de belangrijkste verkoopmeetwaarden, namelijk opbrengst, brutowinst en winstmarge, kunnen controleren. Op basis van gegevens voor verkooptransacties biedt het zowel een samengevoegde weergave van de verkoopcijfers uit het hele bedrijf als ook een analyse van de verkoopprestaties voor klanten en producten.
 
-Dit inhoudpakket is opgesteld voor verkoopmanagers, zodat zij de belangrijkste verkoopmeetwaarden voor opbrengsten, brutowinst en winstmarge kunnen bewaken. Op basis van gegevens voor verkooptransacties uit Dynamics 365 for Operations biedt het zowel een samengevoegde weergave van de verkoopcijfers uit het hele bedrijf en een analyse van de verkoopprestaties voor klanten en producten. Wijzigingen in de groei van de opbrengsten en winsten in het verloop van de tijd worden gemarkeerd in rapporten, zodat managers worden gewaarschuwd over positieve en negatieve trends voor afzonderlijke klanten en producten. Categorie- en regiomanagers profiteren van grafieken waarin opbrengsten en winstgevendheid van verschillende productcategorieën en klantengroepen met elkaar worden vergeleken, zodat zij achterblijvers en goedlopende categorieën kunnen identificeren. Met een uitgebreid rapport waarin de opbrengsten en winstmarge van individuele klanten tegen elkaar worden afgezet, vinden accountmanagers de gegevens om hun inspanningen voor verkoop en marketing af te stemmen op de afzonderlijke profielen van hun klanten. Met het inhoudpakket Verkoop- en winstgevendheidprestaties kunnen verkoopmanagers verkoopprestaties analyseren op de volgende factoren:
+Rapporten markeren wijzigingen in opbrengst en winst die in de loop van de tijd optreden. Daarom kunnen de rapporten worden gebruikt om managers te wijzen op positieve en negatieve trends voor afzonderlijke klanten en producten. Bovendien vergelijken diagrammen de inkomsten en winstgevendheid van de verschillende productcategorieën en klantengroepen met elkaar. Zo kunnen categorie- en regiomanagers achterblijvers en leiders identificeren. Tenslotte geeft een uitgebreid rapport de omzet van een individuele klant ten opzichte van de winstmarge weer. Accountmanagers hebben daarmee een fundament op basis van gegevens, waarmee ze hun inspanningen voor verkoop en marketing op het profiel van elke klant kunnen afstemmen. 
+
+Met het inhoudpakket **Verkoop- en winstgevendheidprestaties** kunnen verkoopmanagers verkoopprestaties analyseren op de volgende manieren:
 
 -   Opbrengst, boekjaar tot heden (op klantengroep en individuele klanten, verkoopcategorieën en afzonderlijke producten en regio's)
 -   Opbrengstwijziging, jaar op jaar (op klantenregio en verkoopcategorieën)
 
-De winstgevendheid kan worden geanalyseerd op de volgende factoren:
+Winstgevendheid kan worden geanalyseerd op de volgende manieren:
 
 -   Brutowinst en winstmarge (op klantengroepen en categorieën van productverkoop)
 -   Wijziging brutowinst wijziging, jaar op jaar
 -   Winstgevendheid klant (op opbrengst versus brutomarge)
 
-## <a name="accessing-the-content-pack"></a>Toegang tot het inhoudpakket
-Het Power BI-inhoudpakket Verkoop- en winstgevendheidprestaties wordt gepubliceerd als een implementatieactivum in Lifecycle Services (LCS). U hebt er toegang toe vanuit Dynamics 365 for Operations. Zie voor meer informatie over toegang tot en het openen van Power BI-rapporten [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).
-**Opmerking:** KB 4011327 is een vereiste voor deze Power BI-inhoud. Nadat u zich bij Lifecycle Services hebt aangemeld, kunt u de KB hier openen: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
+Als u werkt met de update voor juli 2017 van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, vindt u de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** op de pagina **Verkoop- en winstgevendheidsprestaties** (**Verkoop en marketing** > **Query's en rapporten** > **Verkoopprestatieanalyse** > **Verkoop- en winstgevendheidsprestaties**). 
 
-## <a name="metrics-included-in-the-content-pack"></a>Metrische gegevens die zijn opgenomen in het inhoudpakket
-Het inhoudpakket bevat een rapport dat uit reeks metrische gegevens bestaat, die worden gevisualiseerd als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties die in het inhoudpakket worden gebruikt.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
+De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties die in de inhoud worden gebruikt.
 
-|                        |                                            |                                                         |
+| Rapportpagina            | Diagrammen                                     | Tegels                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Rapportpagina**        | **Diagrammen**                                 | **Tegels**                                               |
 | Opbrengst op klant    | Top 10-klanten op opbrengst                | Totale opbrengst                                           |
 |                        | Totale opbrengst op klantgroep            | Opbrengststijging jaar-op-jaar                                      |
 |                        | Gemiddelde omzet van klanten, op klantgroep | Brutomarge                                            |
@@ -76,47 +76,46 @@ Het inhoudpakket bevat een rapport dat uit reeks metrische gegevens bestaat, die
 
 \* Opbrengst dit jaar en vorig jaar en groei per verkoopcategorie.
 
+## <a name="extending-the-power-bi-content"></a>De Power BI-inhoud uitbreiden
+Met behulp van de inhoudpakketten die beschikbaar zijn in Microsoft Dynamics Lifecycle Services (LCS) kunt u grondige analyses verschaffen aan personen die zich niet bij Microsoft Dynamics 365 aanmelden. U kunt deze inhoudpakketten wijzigen zodat ze andere rapporten of visuele elementen bevatten, en de inhoudpakketten vervolgens publiceren naar uw Power BI.com-tenant voor analyse.
+
+U vindt de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** in de bibliotheek voor gedeelde materialen in LCS. Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
+
+Let erop dat u de inhoud **Verkoop- en winstgevendheidsprestaties** downloadt, die van toepassing is voor de versie van Dynamics 365 die u gebruikt.
+
+> [!NOTE]
+> Als u werkt met Microsoft Dynamics 365 for Operations, versie 1611, is KB 4011327 een voorwaarde voor gebruik van deze volgende Power BI-inhoud: Nadat u zich bij LCS hebt aangemeld, kunt u de KB hier openen: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-Met gegevens in Dynamics 365 for Operations worden de rapporten gevuld in het inhoudpakket Verkoop- en winstgevendheidsprestaties. Deze gegevens worden weergegeven als samengevoegde metingen die worden klaargezet in de Entiteitopslag. Dit is een Microsoft SQL-database die is geoptimaliseerd voor analyses. Meer informatie over dit onderwerp vindt u in de blog [Power BI-integratie met de Entiteitopslag in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). De samengevoegde metingen in dit inhoudpakket zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Verkoop-cube in Microsoft Dynamics AX 2012 en AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI-integratie met de Entiteitopslag in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). De volgende belangrijke samengevoegde metingen van de entiteit Factuurregels worden gebruikt als basis voor het inhoudpakket.
+De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md). 
 
-|               |                                              |                                                 |                                              |                                          |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entiteit**    | **Belangrijke samengevoegde metingen**               | **Gegevensbron voor Dynamics 365 for Operations** | **Veld**                                    | **Beschrijving**                          |
-| Factuurregels | Opbrengst                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Bedrag in valuta voor boekhouding            |
-|               | Kosten van verkochte goederen                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Kostenbedrag + aanpassing                 |
-|               | Provisieregelbedrag – valuta voor boekhouding | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Provisieregelbedrag in valuta voor boekhouding |
+De samengevoegde metingen in deze inhoud zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Verkoop-cube in Microsoft Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
 
-In de volgende tabel ziet u de belangrijkste samengevoegde metingen van de entiteit Factuurregel die worden gebruikt om verschillende berekende eenheden te maken in de gegevensset van het inhoudpakket.
+De volgende belangrijke samengevoegde metingen van de entiteit Factuurregels worden gebruikt als basis voor de inhoud.
 
-|                   |                                                                                                  |
+| Entiteit        | Belangrijke samengevoegde metingen                   | Gegevensbron voor Dynamics 365                    | Veld                                        | Omschrijving                                   |
+|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
+| Factuurregels | Opbrengst                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Het bedrag in de valuta voor boekhouding.            |
+|               | Kosten van verkochte goederen                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | De som van het kostenbedrag en de correctie.    |
+|               | Provisieregelbedrag – valuta voor boekhouding | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Het provisiebedrag in de boekhoudvaluta. |
+
+In de volgende tabel ziet u de belangrijkste samengevoegde metingen van de entiteit Factuurregel die worden gebruikt om verschillende berekende eenheden te maken in de gegevensset van de inhoud.
+
+| Maat           | Berekening                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Meeteenheid**       | **Berekend als**                                                                                |
 | Brutowinst      | SUM(Opbrengst – COGS – Provisie – btw (opgenomen in bedrag klantfactuurregel))          |
 | Brutomarge      | SUM(Brutowinst / (Opbrengst - btw (opgenomen in bedrag klantfactuurregel)))             |
 | Opbrengst vorig jaar | Opbrengst vorig jaar = CALCULATE(SUM('Factuurregels\[Opbrengst\]), SAMEPERIODLASTYEAR(Datums\[Datum\])) |
 
-De volgende belangrijke dimensies in de **Verkoop-cube** worden gebruikt als filters voor het segmenteren van de samengevoegde metingen om een grotere mate van granulatie te bereiken en analytischere inzichten te bieden.
+De volgende belangrijke dimensies in de Verkoop-cube worden gebruikt als filters voor het segmenteren van de samengevoegde metingen, zodat u een grotere mate van granulatie en analytischere inzichten kunt bereiken.
 
-|                  |                                                      |
+| Entiteit           | Voorbeelden van kenmerken                               |
 |------------------|------------------------------------------------------|
-| **Entiteit**       | **Voorbeelden van kenmerken**                           |
 | Klanten        | Klantengroepen, klantregio's, adressen, bedrijfstak |
 | Producten         | Productnummer, Productnaam, Naam van artikelengroep       |
 | Verkoopcategorieën | Namen verkoopcategorieën                                 |
 | Rechtspersonen   | Namen rechtspersonen                                   |
 | Datums            | Datums                                                |
 
-Standaard geeft het inhoudpakket gegevens weer voor het huidige kalenderjaar, maar u kunt de sectie rapportfilters openen en het datumfilter wijzigen. U kunt ook het bedrijfsfilter wijzigen.
-
-## <a name="additional-resources"></a>Aanvullende bronnen
-Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten en het samenstellen van Power BI-content:
-
--   [Gegevensentiteiten](..\data-entities\data-entities.md)
--   [Organisatorische inhoudpakketten maken](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI-tegels toevoegen aan werkruimten](configure-power-bi-integration.md)
-
-
-
-
+Standaard worden gegevens in de inhoud weergegeven voor het huidige kalenderjaar. U kunt echter het datumfilter in de sectie rapportfilters wijzigen. U kunt ook het bedrijfsfilter wijzigen.
 
