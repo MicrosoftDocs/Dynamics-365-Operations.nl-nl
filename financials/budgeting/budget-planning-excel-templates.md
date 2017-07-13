@@ -3,7 +3,7 @@ title: Budgetplanningssjablonen voor Excel
 description: In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ De Excel-sjabloon bevat alle elementen van de documentindeling voor het budgetpl
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Om mogelijke problemen te voorkomen bij het weergeven en bewerken van budgetplangegevens met behulp van Excel, moet dezelfde gebruiker zijn aangemeld bij zowel Dynamics 365 for Operations als de invoegtoepassing Gegevensconnector van Microsoft Dynamics Office.
+> Om mogelijke problemen te voorkomen bij het weergeven en bewerken van budgetplangegevens met behulp van Excel, moet dezelfde gebruiker zijn aangemeld bij zowel Microsoft Dynamics 365 for Finance and Operations als de invoegtoepassing Gegevensconnector van Microsoft Dynamics Office.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Een koptekst toevoegen aan de documentsjabloon voor het budgetplan
 Als u koptekstgegevens wilt toevoegen, selecteert u de bovenste rij in het Excel-bestand en voegt u lege rijen in. Klik op **Ontwerp** in **Gegevensconnector** om koptekstvelden toe te voegen aan het Excel-bestand.
@@ -79,11 +79,11 @@ De geselecteerde veldgroep bevat de kolommen die in de sjabloon beschikbaar zijn
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Als u de formule wilt definiëren, maakt u de formule in de spreadsheet en kopieert u deze naar het venster **Ontwerp**. Een aan Dynamics 365 for Operations gerelateerde tabel heeft meestal de naam 'AXTable1'. Om bijvoorbeeld de kolommen Aanvraag KW1-Aanvraag KW4 in de spreadsheet samen te vatten, is de formule als volgt: AxTable1\[Aanvraag KW1\]+ AxTable1\[Aanvraag KW2\]+ AxTable1\[Aanvraag KW3\]+ AxTable1\[Aanvraag KW4\].
+> Als u de formule wilt definiëren, maakt u de formule in de spreadsheet en kopieert u deze naar het venster **Ontwerp**. Een aan Finance and Operations gerelateerde tabel heeft meestal de naam 'AXTable1'. Om bijvoorbeeld de kolommen Aanvraag KW1-Aanvraag KW4 in de spreadsheet samen te vatten, is de formule als volgt: AxTable1\[Aanvraag KW1\]+ AxTable1\[Aanvraag KW2\]+ AxTable1\[Aanvraag KW3\]+ AxTable1\[Aanvraag KW4\].
 
 Herhaal deze stappen om de kolom **Correctie** in te voegen. Gebruik formule = AxTable1\[Totale aanvraag\]\*$I$1 voor deze kolom. Hiermee wordt de waarde in cel I1 gebruikt en worden de waarden in de kolom **Totale aanvraag** vermenigvuldigd om correctiebedragen te berekenen.
 
-Sla het Excel-bestand op en sluit het. Keer terug naar Dynamics 365 for Operations en klik in **Indelingen** op **Sjabloon &gt; Uploaden** om de opgeslagen Excel-sjabloon te uploaden die moet worden gebruikt voor het budgetplan. 
+Sla het Excel-bestand op en sluit het. Keer terug naar Finance and Operations en klik in **Indelingen** op **Sjabloon &gt; Uploaden** om de opgeslagen Excel-sjabloon te uploaden die moet worden gebruikt voor het budgetplan. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

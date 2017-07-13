@@ -3,13 +3,13 @@ title: Verkoopretouren
 description: In dit onderwerp vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 In dit onderwerp vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
 
-Klanten kunnen artikelen retourneren om verschillende redenen. Een artikel kan bijvoorbeeld beschadigd zijn of niet voldoen aan de verwachtingen van de klant. Het retourproces begint wanneer een klant een verzoek indient om een artikel te retourneren. Nadat het verzoek van de klant is ontvangen, wordt een retourorder gemaakt in Microsoft Dynamics 365 for Operations.
+Klanten kunnen artikelen retourneren om verschillende redenen. Een artikel kan bijvoorbeeld beschadigd zijn of niet voldoen aan de verwachtingen van de klant. Het retourproces begint wanneer een klant een verzoek indient om een artikel te retourneren. Nadat het verzoek van de klant is ontvangen, wordt een retourorder gemaakt in Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="return-order-process"></a>Het retourorderproces
 De volgende afbeelding geeft een overzicht van het proces voor retourorders.  
@@ -264,7 +264,7 @@ Dit scenario omvat twee bedrijven in dezelfde organisatie, zoals te zien in de v
 
 [![Eenvoudige intercompany-retouren](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-De orderketen kan worden opgesteld wanneer een leverancierretourorder wordt gemaakt in het inkopende bedrijf of een klantretourorder wordt gemaakt in het verkopende bedrijf. In Dynamics 365 for Operations wordt de bijbehorende order gemaakt in het andere bedrijf. Er wordt voor gezorgd dat de koptekst en regelgegevens voor de leverancierretourorder overeenkomen met de instellingen op de klantretourorder. De retourorder die is opgesteld kan de verwijzing (**Verkooporder zoeken**) naar een bestaande klantfactuur bevatten of juist niet. De pakbonnen en facturen van de twee orders kunnen afzonderlijk worden verwerkt. U hoeft bijvoorbeeld geen pakbon te genereren voor de leverancierretourorder voordat u de pakbon voor de klantretourorder genereert.
+De orderketen kan worden opgesteld wanneer een leverancierretourorder wordt gemaakt in het inkopende bedrijf of een klantretourorder wordt gemaakt in het verkopende bedrijf. In Finance and Operations wordt de bijbehorende order gemaakt in het andere bedrijf. Er wordt voor gezorgd dat de koptekst en regelgegevens voor de leverancierretourorder overeenkomen met de instellingen op de klantretourorder. De retourorder die is opgesteld kan de verwijzing (**Verkooporder zoeken**) naar een bestaande klantfactuur bevatten of juist niet. De pakbonnen en facturen van de twee orders kunnen afzonderlijk worden verwerkt. U hoeft bijvoorbeeld geen pakbon te genereren voor de leverancierretourorder voordat u de pakbon voor de klantretourorder genereert.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Retouren bij zendingen met directe levering tussen drie partijen
 

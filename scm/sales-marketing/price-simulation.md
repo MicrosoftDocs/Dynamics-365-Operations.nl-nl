@@ -3,7 +3,7 @@ title: Prijssimulatie
 description: Dit artikel bevat informatie over prijssimulatie voor offertes. Met prijssimulaties kunt u het effect van inhoudingen op de toekomstige verkoopprijs tijdens het offerteproces evalueren voordat u zich vastlegt op een bepaalde prijs.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -54,7 +54,7 @@ Kortingen en prijzen moeten correct worden berekend. Let daarom goed op als u pr
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Kortingstypen in handelsovereenkomsten
 
-In handelsovereenkomsten in Microsoft Dynamics 365 for Operations kunnen vier typen prijskortingen worden gebruikt. Deze kortingen kunnen worden ingesteld voor verschillende artikelen, klanten of prijsgroepen. De geldigheid ervan kan worden beperkt op datum. U moet bij het uitvoeren van prijssimulaties rekening houden met handelsovereenkomsten om fouten in berekeningen te voorkomen. In handelsovereenkomsten komen de volgende vier typen kortingen voor:
+In handelsovereenkomsten in Microsoft Dynamics 365 for Finance and Operations kunnen vier typen prijskortingen worden gebruikt. Deze kortingen kunnen worden ingesteld voor verschillende artikelen, klanten of prijsgroepen. De geldigheid ervan kan worden beperkt op datum. U moet bij het uitvoeren van prijssimulaties rekening houden met handelsovereenkomsten om fouten in berekeningen te voorkomen. In handelsovereenkomsten komen de volgende vier typen kortingen voor:
 
 -   **Verkoopprijs**: Het is mogelijk om afzonderlijke verkoopprijzen op te geven voor artikelen. Bij het maken van offerteregels wordt gezocht naar de juiste verkoopprijs voor een artikel, die vervolgens in de offerteregels wordt opgenomen. Daarom is een handelsovereenkomst met dit kortingstype niet van invloed op de prijssimulatie. De verkoopprijs die in de offerteregel wordt gebruikt, is in overeenstemming met de handelsovereenkomst.
 -   **Regelkorting**: Afhankelijk van de bestelde hoeveelheden worden speciale kortingen opgegeven voor artikelen. De regelkorting wordt meestal van de regelbedragen afgetrokken vóór het uitvoeren van de prijssimulatie. Daarom is een handelsovereenkomst met dit kortingstype van invloed op de prijssimulatie.

@@ -3,14 +3,14 @@ title: Inkoopovereenkomsten
 description: Dit artikel biedt informatie over inkoopovereenkomsten. Een inkoopovereenkomst is een contract dat een organisatie ertoe verbindt een opgegeven aantal of bedrag in te kopen via meerdere inkooporders in een bepaalde periode. De koper ontvangt in ruil voor deze toezegging speciale prijzen en kortingen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ Als u een inkoopovereenkomst bevestigt, wordt de huidige versie van de inkoopove
 Wanneer u een inkooporder maakt, kunt u er een inkoopovereenkomst op toepassen. De informatie van de voorwaarden voor de overeenkomst, zoals de betalingsvoorwaarden, leveringsvoorwaarden en het afleveradres, wordt vervolgens gekopieerd naar de koptekst van de inkooporder. Als de inkooporder een of meer orderregels bevat voor producten of categorieën die de inkoopovereenkomst dekt, worden de prijzen en kortingen van de inkoopovereenkomst gebruikt voor deze regels. Het bedrag of het aantal op de orderregel draagt bij tot de uitvoering van de toezegging in de inkoopovereenkomst. Dezelfde inkooporder kan zowel regels bevatten die niet zijn gerelateerd aan een inkoopovereenkomst en regels waarvoor een inkoopovereenkomst bestaat.  
 
 U kunt een inkoopovereenkomst alleen selecteren wanneer u een inkooporder maakt. U kunt geen inkoopovereenkomst selecteren nadat de inkooporder is gemaakt.  
-In sommige situaties waarin verkooporders indirect worden gemaakt, is het mogelijk te bepalen of Microsoft Dynamics 365 for Operations automatisch moet zoeken naar relevante inkoopovereenkomsten. U kunt dit bijvoorbeeld doen wanneer u automatisch geplande inkooporders goedkeurt of inkooporders maakt die zijn gebaseerd op verkooporders.
+In sommige situaties waarin verkooporders indirect worden gemaakt, is het mogelijk te bepalen of Finance and Operations automatisch moet zoeken naar relevante inkoopovereenkomsten. U kunt dit bijvoorbeeld doen wanneer u automatisch geplande inkooporders goedkeurt of inkooporders maakt die zijn gebaseerd op verkooporders.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Inkoopovereenkomsten en intercompany-handel
 Intercompany-handelsrelaties kunnen worden gemaakt tussen leveranciersrekeningen en klantenrekeningen van verschillende rechtspersonen. Wanneer een verkooporder of inkooporder is gemaakt voor een van de partijen, wordt een intercompany-orderketen gemaakt. In de orderketen worden de verkooporder en inkooporder gemaakt in de juiste rechtspersonen.  

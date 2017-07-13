@@ -1,28 +1,29 @@
 ---
 title: Callcenterfunctionaliteit
-description: Dit artikel bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Operations.
+description: Dit artikel bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 40d7c1a95f33c189639c12279a8e3a286f0c6761
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: befbf43a0af8016895e570f5d8cf3a51983692f2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Dit artikel bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Operations.
+Dit artikel bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Retail.
 
-Detailhandel in Microsoft Dynamics AX ondersteunt ook call centers als een type detailhandelskanaal. In een callcenter nemen werknemers telefonische orders aan van klanten en maken ze verkooporders. De callcenterfunctie omvat functies die zijn ontworpen om het gemakkelijker te maken om telefoonorders aan te nemen en klantenservice te bieden door het orderverwerkingsproces heen. Bijvoorbeeld: medewerkers van callcenters kunnen betalingsgegevens rechtstreeks invoeren in de verkooporder en een gedetailleerd overzicht van de toeslagen en betalingen bekijken voordat ze de order indienen. Werknemers hebben ook opties om prijzen te regelen en kunnen uiteenlopende gegevens bekijken over klanten, producten en prijzen van de **verkooporderpagina**. Daarnaast hebben callcenters ook verbeterde functionaliteit voor het bijhouden van klanthistorie en orderstatus. Elk call center kan eigen gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden hebben. U kunt deze opties configureren wanneer u het call center maakt. Bovendien, kunt u de pagina **Callcenter** gebruiken om de volgende groepen functies in te schakelen of uit te schakelen die uniek voor callcenters:
+Dynamics 365 for Retail ondersteunt ook callcenters als type detailhandelkanaal. In een callcenter nemen werknemers telefonische orders aan van klanten en maken ze verkooporders. De callcenterfunctie omvat functies die zijn ontworpen om het gemakkelijker te maken om telefoonorders aan te nemen en klantenservice te bieden door het orderverwerkingsproces heen. Bijvoorbeeld: medewerkers van callcenters kunnen betalingsgegevens rechtstreeks invoeren in de verkooporder en een gedetailleerd overzicht van de toeslagen en betalingen bekijken voordat ze de order indienen. Werknemers hebben ook opties om prijzen te regelen en kunnen uiteenlopende gegevens bekijken over klanten, producten en prijzen van de **verkooporderpagina**. Daarnaast hebben callcenters ook verbeterde functionaliteit voor het bijhouden van klanthistorie en orderstatus. Elk call center kan eigen gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden hebben. U kunt deze opties configureren wanneer u het call center maakt. Bovendien, kunt u de pagina **Callcenter** gebruiken om de volgende groepen functies in te schakelen of uit te schakelen die uniek voor callcenters:
 
 -   **Ordervoltooiing**: deze groep bevat functies die aan betalingen en ordervoltooiing in de **Verkooporder** zijn gekoppeld.
 -   **Geleide verkoop:** deze groep bevat functies die aan broncodes, scripts en catalogusaanvragen worden gekoppeld.

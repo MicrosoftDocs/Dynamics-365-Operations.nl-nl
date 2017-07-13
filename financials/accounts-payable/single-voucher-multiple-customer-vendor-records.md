@@ -1,15 +1,15 @@
 ---
 title: Enkel boekstuk met meerdere klant- of leveranciersrecords
-description: "Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 for Operations. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen."
+description: "Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 for Operations. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen. 
+Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen. 
 
 Enkele veelvoorkomende gevallen waarin een enkel boekstuk wordt gebruikt voor meerdere klanten of leveranciers zijn saldo-overboekingen tussen klanten en verrekening van saldi tussen klanten en leveranciers binnen dezelfde organisatie. 
 
@@ -162,7 +162,7 @@ Wanneer nu INV2 wordt betaald, wordt de volgende vermelding aangemaakt. Merk op 
 | 14000056    | 200110-001- | Leveranciersaldo     |                                          | -2.00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Eén boekstuk voor scenario's met saldo-overboekingen en verrekeningen
-Twee veel voorkomende scenario's waarin één boekstuk wordt gebruikt met meerdere klanten of leveranciers, zijn saldo-overboekingen van een klant of leverancier naar een andere klant of leverancier, en een verrekening tussen een klant en een leverancier binnen dezelfde organisatie. In de volgende twee voorbeelden wordt de voorkeursmethode getoond voor het invoeren van deze scenario's in Dynamics 365 for Operations, als alternatief voor het invoeren in één boekstuk. 
+Twee veel voorkomende scenario's waarin één boekstuk wordt gebruikt met meerdere klanten of leveranciers, zijn saldo-overboekingen van een klant of leverancier naar een andere klant of leverancier, en een verrekening tussen een klant en een leverancier binnen dezelfde organisatie. In de volgende twee voorbeelden wordt de voorkeursmethode getoond voor het invoeren van deze scenario's in Finance and Operations, als alternatief voor het invoeren in één boekstuk. 
 
 Een *saldo-overboeking* is een boekstuk met meerdere klanten, dat wordt ingevoerd om het saldo van de en klant naar een andere over te zetten. Bij leveranciers functioneert dit op dezelfde wijze. Dit scenario kan voorkomen wanneer de verantwoordelijkheid voor het betalen van de factuur overgaat naar een andere partij, zoals wanneer een dochteronderneming de verantwoordelijkheid doorgeeft aan een moederbedrijf. 
 
@@ -176,7 +176,7 @@ Laten we aannemen dat de onderstaande verkoop wordt uitgevoerd aan klant ACME. D
 | 401100-002-023-    | Opbrengst          |           | 100        |
 | 130100-002-        | Klantsaldo | 100       |            |
 
-Vervolgens boekt de gebruiker het te betalen saldo van ACME naar de verzekeringsmaatschappij, in een enkel boekstuk in het journaal voor klantbetalingen. In Dynamics 365 for Operations is de verzekeringsmaatschappij ingesteld als de klant Verzekering.
+Vervolgens boekt de gebruiker het te betalen saldo van ACME naar de verzekeringsmaatschappij, in een enkel boekstuk in het journaal voor klantbetalingen. In Finance and Operations is de verzekeringsmaatschappij ingesteld als de klant Verzekering.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

@@ -3,14 +3,14 @@ title: Terminologie voor kostprijsboekhouding
 description: In dit onderwerp worden de belangrijkste termen gedefinieerd die in Kostprijsboekhouding worden gebruikt.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ce12337c22542aea2002ffc5abd09e4f4d770c1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ In dit onderwerp worden de belangrijkste termen gedefinieerd die in Kostprijsboe
 
 **Kostprijsboekhouding**
 
-Door middel van Kostprijsboekhouding kunt u gegevens uit verschillende bronnen verzamelen, zoals het grootboek, subadministraties, budgetten en statistische gegevens. U kunt dan kostengegevens analyseren, samenvatten en evalueren, zodat het management de best mogelijke beslissingen kan nemen voor prijsaanpassingen, budgetten, kostenbeheer en dergelijke. De brongegevens voor kostenanalyse worden onafhankelijk behandeld in Kostprijsboekhouding. Daarom hebben updates in Kostprijsboekhouding geen invloed op de brongegevens. Wanneer u echter kostengegevens van verschillende bronnen verzamelt, en vooral als u de hoofdrekeningen importeert vanuit Grootboek in Microsoft Dynamics 365 for Operations als kostenelementen, zijn er redundante gegevens omdat dezelfde gegevens in zowel Grootboek als kostprijsboekhouding voorkomen. Deze redundantie is vereist, omdat u financieel beheer gebruikt voor externe rapportage en Kostprijsboekhouding voor interne rapportage.
+Door middel van Kostprijsboekhouding kunt u gegevens uit verschillende bronnen verzamelen, zoals het grootboek, subadministraties, budgetten en statistische gegevens. U kunt dan kostengegevens analyseren, samenvatten en evalueren, zodat het management de best mogelijke beslissingen kan nemen voor prijsaanpassingen, budgetten, kostenbeheer en dergelijke. De brongegevens voor kostenanalyse worden onafhankelijk behandeld in Kostprijsboekhouding. Daarom hebben updates in Kostprijsboekhouding geen invloed op de brongegevens. Wanneer u echter kostengegevens van verschillende bronnen verzamelt, en vooral als u de hoofdrekeningen als kostenelementen importeert vanuit Grootboek in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, zijn er redundante gegevens omdat dezelfde gegevens in zowel Grootboek als Kostprijsboekhouding voorkomen. Deze redundantie is vereist, omdat u financieel beheer gebruikt voor externe rapportage en Kostprijsboekhouding voor interne rapportage.
 
 **Grootboek van kostprijsboekhouding**
 

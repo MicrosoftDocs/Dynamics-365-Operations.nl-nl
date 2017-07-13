@@ -1,15 +1,16 @@
 ---
 title: Actiezoekopdracht
-description: In dit artikel wordt de zoekfunctionaliteit voor acties in Microsoft Dynamics 365 for Operations beschreven. Met een actiezoekopdracht kunt u zoeken naar acties op een pagina en deze uitvoeren.
+description: In dit artikel wordt de zoekfunctionaliteit voor acties in Microsoft Dynamics 365 for Finance and Operations beschreven. Met een actiezoekopdracht kunt u zoeken naar acties op een pagina en deze uitvoeren.
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62303
 ms.assetid: 62c70de0-fdde-4417-8e08-0583fb095a40
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef5709889dcabd4c9ed760f57d210956f38c37e9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt de zoekfunctionaliteit voor acties in Microsoft Dynamics 365 for Operations beschreven. Met een actiezoekopdracht kunt u zoeken naar acties op een pagina en deze uitvoeren.
+In dit artikel wordt de zoekfunctionaliteit voor acties in Microsoft Dynamics 365 for Finance and Operations beschreven. Met een actiezoekopdracht kunt u zoeken naar acties op een pagina en deze uitvoeren.
 
 <a name="introduction"></a>Introductie
 ------------
 
-Pagina's in Microsoft Dynamics 365 for Operations bevatten voornamelijk opdrachten in actiedeelvensters, zowel in het standaardactievenster dat boven aan de pagina wordt weergegeven als op de werkbalken die in verschillende gedeelten van de pagina worden weergegeven. In eerdere versies kon u met de functie Tips toetsen snel een knop in een actievenster openen door op de Alt-toets en vervolgens op een reeks letters te drukken. 
+Pagina's in Microsoft Dynamics 365 for Finance and Operations bevatten voornamelijk opdrachten in actiedeelvensters, zowel in het standaardactievenster dat boven aan de pagina wordt weergegeven als op de werkbalken die in verschillende gedeelten van de pagina worden weergegeven. In eerdere versies kon u met de functie Tips toetsen snel een knop in een actievenster openen door op de Alt-toets en vervolgens op een reeks letters te drukken. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) In de huidige versie van Dynamics 365 for Operations zijn Tips toetsen echter niet meer beschikbaar en zijn deze vervangen door de functie actiezoekopdrachten. Met deze nieuwe functie kunt u snel zoeken en een knop uitvoeren van elk weergegeven actievenster.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) In de huidige versie van Finance and Operations zijn Tips toetsen echter niet meer beschikbaar en zijn deze vervangen door de zoekfunctie voor acties. Met deze nieuwe functie kunt u snel zoeken en een knop uitvoeren van elk weergegeven actievenster.
 
 ## <a name="using-action-search"></a>Actiezoekopdrachten gebruiken
 Om de functie van het actiezoekfunctie te gebruiken, volgt u deze stappen.
@@ -53,7 +54,7 @@ Nadat de knop is uitgevoerd, keert de focus terug naar uw de laatste positie op 
 U kunt actiezoekopdrachten ook starten door Ctrl+/ of Alt+Q in te drukken. Druk opnieuw op de toetsenbordsneltoets om de focus terug te plaatsen naar uw laatste positie op de pagina.
 
 ## <a name="understanding-the-results-list"></a>De resultatenlijst begrijpen
-Vaak moet u in Dynamics 365 for Operations zowel de locatie als de context van een knop weten om het doel van die knop volledig te begrijpen. Daarom wordt er aanvullende informatie weergegeven voor elk item in de lijst met resultaten, zodat u precies begrijpt welke knoppen in de lijst worden weergegeven. In het bijzonder wordt het 'pad' van de knop weergegeven. Dit pad kan de labels van de volgende UI-elementen bevatten, indien dit relevant is:
+Vaak moet u in Finance and Operations zowel de locatie als de context van een knop weten om het doel van die knop volledig te begrijpen. Daarom wordt er aanvullende informatie weergegeven voor elk item in de lijst met resultaten, zodat u precies begrijpt welke knoppen in de lijst worden weergegeven. In het bijzonder wordt het 'pad' van de knop weergegeven. Dit pad kan de labels van de volgende UI-elementen bevatten, indien dit relevant is:
 
 -   Tabblad actievenster
 -   Knopgroep
@@ -70,7 +71,7 @@ In het vorige voorbeeld, werden de resultaten van de actiezoekopdracht van het s
 [![voorhanden-voorraad](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Actiezoekopdracht vergeleken met navigatiezoekopdracht
-Actiezoekopdrachten zijn bedoeld om acties op een pagina te zoeken en uit te voeren, maar is er een apart zoekmechanisme voor het zoeken en navigeren naar pagina's in Dynamics 365 for Operations. Zie het artikel [Navigatiezoekfunctie](navigation-search.md) voor meer informatie over deze functie.
+Actiezoekopdrachten zijn bedoeld om acties op een pagina te zoeken en uit te voeren, maar is er een apart zoekmechanisme voor het zoeken en navigeren naar pagina's in Finance and Operations. Zie het artikel [Navigatiezoekfunctie](navigation-search.md) voor meer informatie over deze functie.
 
 
 

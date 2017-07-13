@@ -1,15 +1,15 @@
 ---
 title: Elektronische aangifte configureren om gegevens op te halen in Power BI
-description: In dit onderwerp wordt beschreven hoe u uw ER-configuratie kunt gebruiken om gegevens van uw exemplaar van Dynamics 365 for Operations over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
+description: In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Electronische rapportage) kunt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3161dfe830dc0908010130c3b77b52fc2eafce59
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,34 +30,34 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u uw ER-configuratie kunt gebruiken om gegevens van uw exemplaar van Dynamics 365 for Operations over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
+In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Electronische rapportage) kunt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
 
 <a name="overview"></a>Overzicht
 --------
 
-Microsoft Power BI bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om externe gegevensbronnen om te zetten in coherente, visueel aantrekkelijk en interactieve inzichten. Met Elektronische rapportage (ER) kunnen gebruikers van Microsoft Dynamics 365 for Operations gemakkelijk gegevensbronnen configureren en de overdracht van gegevens van Dynamics 365 for Operations naar Power BI organiseren. De gegevens worden overgebracht als bestanden in de OpenXML-werkbladindeling (Microsoft Excel-werkmapbestand). De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint-server die voor dit doel is geconfigureerd. De opgeslagen bestanden worden in Power BI gebruikt om rapporten met visualisaties (tabellen, grafieken, kaarten, enzovoort) te maken. Power BI-rapporten worden gedeeld met Power BI-gebruikers en in Power BI-dashboards en op Dynamics 365 for Operations-pagina's geopend. In dit onderwerp worden de volgende taken beschreven:
+Microsoft Power BI bestaat uit een verzameling softwareservices, apps en connectors die samenwerken om externe gegevensbronnen om te zetten in coherente, visueel aantrekkelijk en interactieve inzichten. Met Elektronische rapportage (ER) kunnen gebruikers van Microsoft Dynamics 365 for Finance and Operations gemakkelijk gegevensbronnen configureren en de overdracht van gegevens van Finance and Operations naar Power BI organiseren. De gegevens worden overgebracht als bestanden in de OpenXML-werkbladindeling (Microsoft Excel-werkmapbestand). De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint-server die voor dit doel is geconfigureerd. De opgeslagen bestanden worden in Power BI gebruikt om rapporten met visualisaties (tabellen, grafieken, kaarten, enzovoort) te maken. Power BI-rapporten worden gedeeld met Power BI-gebruikers en in Power BI-dashboards en op Finance and Operations-pagina's geopend. In dit onderwerp worden de volgende taken beschreven:
 
--   Dynamics 365 for Operations configureren.
--   Uw configuratie van de ER-indeling voorbereiden om gegevens op te halen uit Dynamics 365 for Operations.
+-   Finance and Operations configureren.
+-   Uw configuratie van de ER-indeling voorbereiden om gegevens op te halen uit Finance and Operations.
 -   De ER-omgeving configureren om gegevens over te dragen naar Power BI.
 -   Overgedragen gegevens gebruiken om een Power BI-rapport te maken.
--   Het Power BI-rapport toegankelijk maken in Dynamics 365 for Operations.
+-   Het Power BI-rapport toegankelijk maken in Finance and Operations.
 
 ## <a name="prerequisites"></a>Vereisten
 Om het voorbeeld in dit onderwerp te kunnen voltooien, moet u over de volgende toegangsrechten beschikken:
 
--   Toegang tot Dynamics 365 for Operations voor een van de volgende functies:
+-   Toegang verkrijgen tot Finance and Operations voor een van de volgende rollen:
     -   Ontwikkelaar elektronische rapportage
     -   Functioneel consultant elektronische rapportage
     -   Systeembeheerder
--   Toegang tot de SharePoint-server die voor gebruik met Dynamics 365 for Operations is geconfigureerd
+-   Toegang verkrijgen tot de SharePoint-server die voor gebruik met Finance and Operations is geconfigureerd
 -   Toegang tot het Power BI-framework
 
 ## <a name="configure-document-management-parameters"></a>Parameters voor documentbeheer configureren
 1.  Configureer op de pagina **Parameters voor documentbeheer** toegang tot de SharePoint-server die in het bedrijf wordt gebruikt waarbij u bent aangemeld (het bedrijf DEMF in dit voorbeeld).
 2.  Test de verbinding met de SharePoint-server om er zeker van te zijn dat u toegang hebt gekregen. [![Pagina Parameters voor documentbeheer](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 3.  Open de geconfigureerde SharePoint-site. Maak een nieuwe map waarin door ER Excel-bestanden moeten worden opgeslagen die de bedrijfsgegevens bevatten die Power BI-rapporten nodig hebben als bron van Power BI-gegevenssets.
-4.  Maak in Dynamics 365 for Operations op de pagina **Documenttypen** een nieuw documenttype dat moet worden gebruikt om toegang te krijgen tot de SharePoint-map die u zojuist hebt gemaakt. Voer **Bestand** in het veld **Groep** en **SharePoint** in het veld **Locatie** in een geef vervolgens het adres van de SharePoint-map op. [![Pagina Documenttypen](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
+4.  Maak in Finance and Operations op de pagina **Documenttypen** een nieuw documenttype dat wordt gebruikt om toegang te krijgen tot de SharePoint-map die u zojuist hebt gemaakt. Voer **Bestand** in het veld **Groep** en **SharePoint** in het veld **Locatie** in een geef vervolgens het adres van de SharePoint-map op. [![Pagina Documenttypen](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
 ## <a name="configure-er-parameters"></a>ER-parameters configureren
 1.  Klik in de werkruimte **Elektronische rapportage** op de koppeling **Parameters van elektronische rapportage**.
@@ -100,10 +100,10 @@ Klik op de knop **Instellingen** voor de nieuwe bestemmingsrecord. Ga vervolgens
 2.  Selecteer in het veld **SharePoint** het documenttype **Gedeeld** dat u eerder hebt gemaakt.
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>De uitvoering van de geconfigureerde ER-indeling plannen
-Selecteer op de pagina **Configuraties** (**Organisatiebeheer** &gt; **Elektronische rapportage** &gt; **Configuraties**) in de configuratiestructuur de configuratie **Import-/exportactiviteiten** die u eerder hebt gemaakt. Wijzig de status van versie 1.1 van **Concept** in **Volledig** om deze indeling voor gebruik beschikbaar te maken. [![Pagina Configuraties](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Selecteer de voltooide versie van de configuratie **Import-/exportactiviteiten** en klik op **Uitvoeren**. De geconfigureerde bestemming wordt toegepast op het uitvoerresultaat dat in de Excel-indeling wordt gegenereerd. Stel de optie **Batchverwerking** in op **Ja** om dit rapport in een modus zonder toezicht uit te voeren. Klik op **Terugkeerpatroon** om het vereiste terugkeerpatroon van deze batchuitvoering te plannen. Met het terugkeerpatroon geeft u op hoe vaak de bijgewerkte gegevens van Dynamics 365 for Operations naar Power BI worden overgedragen. [![Dialoogvenster Parameters elektronisch rapport](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Na de configuratie vindt u de taak van de ER-rapportuitvoering op de pagina **Batchtaken** (**Systeembeheer &gt; Query's &gt; Batchtaken**). [![Pagina Batchtaken](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Als deze taak voor het eerst wordt uitgevoerd, wordt een nieuw Excel-bestand met de geconfigureerde naam in de geselecteerde SharePoint-map gemaakt. Elke volgende keer dat de taak wordt uitgevoerd, wordt er een nieuwe versie van dit Excel-bestand gemaakt. [![Nieuwe versie van het Excel-bestand](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
+Selecteer op de pagina **Configuraties** (**Organisatiebeheer** &gt; **Elektronische rapportage** &gt; **Configuraties**) in de configuratiestructuur de configuratie **Import-/exportactiviteiten** die u eerder hebt gemaakt. Wijzig de status van versie 1.1 van **Concept** in **Volledig** om deze indeling voor gebruik beschikbaar te maken. [![Pagina Configuraties](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Selecteer de voltooide versie van de configuratie **Import-/exportactiviteiten** en klik op **Uitvoeren**. De geconfigureerde bestemming wordt toegepast op het uitvoerresultaat dat in de Excel-indeling wordt gegenereerd. Stel de optie **Batchverwerking** in op **Ja** om dit rapport in een modus zonder toezicht uit te voeren. Klik op **Terugkeerpatroon** om het vereiste terugkeerpatroon van deze batchuitvoering te plannen. Met het terugkeerpatroon geeft u op hoe vaak de bijgewerkte gegevens van Finance and Operations naar Power BI worden overgedragen. [![Dialoogvenster Parameters elektronisch rapport](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Na de configuratie vindt u de taak van de ER-rapportuitvoering op de pagina **Batchtaken** (**Systeembeheer &gt; Query's &gt; Batchtaken**). [![Pagina Batchtaken](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Als deze taak voor het eerst wordt uitgevoerd, wordt een nieuw Excel-bestand met de geconfigureerde naam in de geselecteerde SharePoint-map gemaakt. Elke volgende keer dat de taak wordt uitgevoerd, wordt er een nieuwe versie van dit Excel-bestand gemaakt. [![Nieuwe versie van het Excel-bestand](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Een Power BI-gegevensset maken op basis van het uivoerresultaat van de ER-indeling
-Meld u aan bij Power BI en open een bestaande Power BI-groep (werkruimte ) of maak een nieuwe groep. Klik op **Toevoegen** onder **Bestanden** in het gedeelte **Importeren of verbinden met gegevens** of klik op het plusteken (**+**) naast **Gegevenssets** in het linkerdeelvenster. [![Een gegevensset maken](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selecteer de optie **SharePoint – Teamsites** en voer het pad in van de SharePoint-server die u gebruikt (**https://ax7partner.spoppe.com** in ons voorbeeld). Blader vervolgens naar de map **/Shared Documents/GER data/PowerBI** en selecteer het Excel-bestand dat u als de gegevensbron voor de nieuwe Power BI-gegevensset hebt gemaakt. [![Het Excel-bestand selecteren](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Klik op **Verbinden** en klik vervolgens op **Importeren**. Er wordt een nieuwe gegevensset gemaakt die is gebaseerd op het geselecteerde Excel-bestand. De gegevensset kan ook automatisch aan het nieuwe dashboard worden toegevoegd. [![Gegevensset op het dashboard](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configureer het schema voor vernieuwen voor deze gegevensset om een periodieke update af te dwingen. Bij periodieke updates kunnen nieuwe bedrijfsgegevens worden gebruikt die afkomstig zijn uit Dynamics 365 for Operations via periodieke uitvoering van het ER-rapport door nieuwe versies van het Excel-bestand die op de SharePoint-server worden gemaakt.
+Meld u aan bij Power BI en open een bestaande Power BI-groep (werkruimte ) of maak een nieuwe groep. Klik op **Toevoegen** onder **Bestanden** in het gedeelte **Importeren of verbinden met gegevens** of klik op het plusteken (**+**) naast **Gegevenssets** in het linkerdeelvenster. [![Een gegevensset maken](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selecteer de optie **SharePoint – Teamsites** en voer het pad in van de SharePoint-server die u gebruikt (**https://ax7partner.spoppe.com** in ons voorbeeld). Blader vervolgens naar de map **/Shared Documents/GER data/PowerBI** en selecteer het Excel-bestand dat u als de gegevensbron voor de nieuwe Power BI-gegevensset hebt gemaakt. [![Het Excel-bestand selecteren](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Klik op **Verbinden** en klik vervolgens op **Importeren**. Er wordt een nieuwe gegevensset gemaakt die is gebaseerd op het geselecteerde Excel-bestand. De gegevensset kan ook automatisch aan het nieuwe dashboard worden toegevoegd. [![Gegevensset op het dashboard](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configureer het schema voor vernieuwen voor deze gegevensset om een periodieke update af te dwingen. Bij periodieke updates kunnen nieuwe bedrijfsgegevens worden gebruikt die afkomstig zijn uit Finance and Operations via periodieke uitvoering van het ER-rapport door nieuwe versies van het Excel-bestand die op de SharePoint-server worden gemaakt.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Een Power BI-rapport maken op basis van de nieuwe gegevensset
 Als u een nieuw Power BI-rapport wilt maken, klikt u op de Power BI-gegevensset **Import- en exportdetails** die u hebt gemaakt. Configureer vervolgens de visualisering. Selecteer bijvoorbeeld de visualisering **Ingevulde kaart** en configureer deze als volgt:
@@ -114,8 +114,8 @@ Als u een nieuw Power BI-rapport wilt maken, klikt u op de Power BI-gegevensset 
 
 Sla het Power BI-rapport op als **Rapport Import- en exportdetails**. [![Rapport Import- en exportdetails](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Op de kaart worden de landen/regio's weergegeven die in het Excel-bestand worden vermeld (Oostenrijk en Zwitserland in dit voorbeeld). Met kleuren wordt de verhouding gefactureerde bedragen voor elk weergegeven. Werk de lijst met Intrastat-transacties bij. De exporttransactie uit Italië wordt toegevoegd. [![Lijst Intrastat-transacties](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) Wacht tot de volgende geplande uitvoering van het ER-rapport en de volgende geplande update van de Power BI-gegevensset. Controleer vervolgens het Power BI-rapport (geef alleen geïmporteerde transacties weer). De bijgewerkte kaart bevat nu Italië. [![Bijgewerkte kaart](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
-## <a name="access-power-bi-report-in-dynamics-365-for-operations"></a>Power BI-rapport openen in Dynamics 365 for Operations
-Stel de integratie tussen Dynamics 365 for Operations en Power BI in. Zie [Power BI-integratie voor werkruimten configureren](configure-power-bi-integration.md) voor meer informatie. Klik op de werkgebiedpagina **Elektronische rapportage** die Power BI-integratie ondersteunt (**Organisatiebeheer** &gt; **Werkgebieden** &gt; **Elektronische rapportage**) op **Opties** &gt; **Rapportcatalogus openen**. Selecteer het Power BI-rapport **Import- en exportdetails** dat u hebt gemaakt om dat rapport als actie-item weer te geven op de geselecteerde pagina. Klik op het actie-item om de Dynamics 365 for Operations-pagina te openen met het rapport dat u in Power BI hebt ontworpen. [![Rapport Import- en exportdetails](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+## <a name="access-power-bi-report-in-finance-and-operations"></a>Het Power BI-rapport toegankelijk maken in Finance and Operations.
+De integratie tussen Finance and Operations en Power BI instellen. Zie [Power BI-integratie voor werkruimten configureren](configure-power-bi-integration.md) voor meer informatie. Klik op de werkgebiedpagina **Elektronische rapportage** die Power BI-integratie ondersteunt (**Organisatiebeheer** &gt; **Werkgebieden** &gt; **Elektronische rapportage**) op **Opties** &gt; **Rapportcatalogus openen**. Selecteer het Power BI-rapport **Import- en exportdetails** dat u hebt gemaakt om dat rapport als actie-item weer te geven op de geselecteerde pagina. Klik op het actie-item om de Finance and Operations-pagina te openen met het rapport dat u in Power BI hebt ontworpen. [![Rapport Import- en exportdetails](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 <a name="see-also"></a>Zie ook
 --------

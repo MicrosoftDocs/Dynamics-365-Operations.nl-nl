@@ -3,15 +3,15 @@ title: Drieweg-overeenstemmingsbeleid
 description: Dit artikel geeft voorbeelden van drieweg-overeenstemming.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -66,7 +66,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 1.  Sammy, een werknemer in de ontvangende afdeling bij Fabrikam, ontvangt de totale hoeveelheid machines die werden verzonden door Contoso. Hij voert een aantal van 5 in op de productontvangstbon. Aangezien de inkooporder volledig is ontvangen, wordt de status van de inkooporder gewijzigd naar Ontvangen.
 2.  April, de coördinator leveranciers bij Fabrikam, controleert de factuur die Contoso heeft ingediend en voert deze in. Zij controleert de volgende informatie:
     -   Voor artikelen waar drieweg-overeenstemming is vereist, controleert ze of de hoeveelheid op de factuurregel overeenstemt met de ontvangen hoeveelheid. De ontvangen hoeveelheid is aangegeven op de productontvangstbon die met de factuur wordt vereffend.
-    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Operations. Dit omvat de volgende soorten prijsovereenstemming:
+    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Dit omvat de volgende soorten prijsovereenstemming:
         -   Overeenstemming netto-eenheidsprijs: De afwijking tussen de netto-eenheidsprijs op de factuurregel en de netto-eenheidsprijs op de inkooporderregel moet binnen toegestane toleranties liggen. In dit voorbeeld is de tolerantie van de netto-eenheidsprijs +8%.
         -   Vereffening van prijstotalen: de afwijking tussen de het nettobedrag op de factuurregel en het nettobedrag op de inkooporderregel moet binnen het toegestane tolerantiepercentage, -bedrag of -percentage en -bedrag liggen. In dit voorbeeld is de tolerantie van prijstotalen +15%.
 
@@ -79,7 +79,7 @@ De papieren factuur van Contoso bevat de volgende gegevens.
 | Btw                         |          |            | 0,00       |
 | Totaal                       |          |            | 44.500,00  |
 
-In Microsoft Dynamics 365 for Operations bevat de factuurregel de volgende informatie.
+In Finance and Operations bevat de factuurregel de volgende informatie.
 
 | artikelnummer                 | Hoeveelheid | Eenheidsprijs | Nettobedrag per regel | Overeenstemmingbeleid    | Overeenkomst van hoeveelheid van productontvangstbon | Prijsovereenkomst | Totaalprijsvereffening |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -115,7 +115,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 1.  De artikelen worden geleverd. Sammy, een werknemer van de ontvangstafdeling van de Maleisië-afdeling van Fabrikam, wordt onderbroken en de boekt de productontvangstbon niet onmiddellijk.
 2.  April, de coördinator leveranciers bij Fabrikam, controleert de factuur die Contoso heeft ingediend en voert deze in. Zij controleert de volgende informatie:
     -   Voor artikelen waar drieweg-overeenstemming is vereist, controleert ze of de hoeveelheid op de factuurregel overeenstemt met de ontvangen hoeveelheid. De ontvangen hoeveelheid is aangegeven op de productontvangstbon die met de factuur wordt vereffend.
-    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Operations. Dit omvat de volgende soorten prijsovereenstemming:
+    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Finance and Operations. Dit omvat de volgende soorten prijsovereenstemming:
         -   Overeenstemming netto-eenheidsprijs: De afwijking tussen de netto-eenheidsprijs op de factuurregel en de netto-eenheidsprijs op de inkooporderregel moet binnen toegestane toleranties liggen. In dit voorbeeld is de tolerantie van de netto-eenheidsprijs +2%.
         -   Vereffening van prijstotalen: de afwijking tussen de het nettobedrag op de factuurregel en het nettobedrag op de inkooporderregel moet binnen het toegestane tolerantiepercentage, -bedrag of -percentage en -bedrag liggen. In dit voorbeeld is de tolerantie van prijstotalen +10%.
 
@@ -128,7 +128,7 @@ De papieren factuur van Contoso bevat de volgende gegevens.
 | USB-drive             | 200      | 10,05      | 2010,00   |
 | Totaal factuur         |          |            | 7092,00   |
 
-In Microsoft Dynamics 365 for Operations bevat de factuurregel de volgende informatie.
+In Finance and Operations bevat de factuurregel de volgende informatie.
 
 | artikelnummer           | Hoeveelheid | Eenheidsprijs | Nettobedrag per regel | Overeenstemmingbeleid    | Overeenkomst van hoeveelheid van productontvangstbon | Prijsovereenkomst | Totaalprijsvereffening |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|

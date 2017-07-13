@@ -1,16 +1,16 @@
 ---
 title: Overzicht kwaliteitsbeheer
-description: In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
+description: In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
+In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
 
-Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong. Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Microsoft Dynamics 365 for Operations taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.
+Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong. Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Microsoft Dynamics 365 for Finance and Operations taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.
 
 Naast functionaliteit voor het beheer van non-conformiteit omvat het kwaliteitsbeheer functionaliteit voor het bijhouden van problemen op probleemtype (ook interne problemen) en om oplossingen als kortetermijn- of langetermijnoplossingen te identificeren. De statistieken over Key Performance Indicators (KPI´s) bieden inzicht in de geschiedenis van eerdere niet-conformeringsproblemen en de oplossingen die zijn gebruikt om ze te corrigeren. U kunt de historische gegevens gebruiken om de efficiëntie van eerdere kwaliteitsmetingen te controleren en passende stappen voor de toekomst te definiëren.
 
-Wanneer u een kwaliteitskoppeling opzet, kan Microsoft Dynamics 365 for Operations kwaliteitsorders genereren voor verschillende bedrijfsprocessen, gebeurtenissen en voorwaarden. De kwaliteitskoppeling kan betrekking hebben op een specifiek artikel, een specifieke groep artikelen of alle artikelen.
+Wanneer u een kwaliteitskoppeling opzet, kan Finance and Operations kwaliteitsorders genereren voor verschillende bedrijfsprocessen, gebeurtenissen en voorwaarden. De kwaliteitskoppeling kan betrekking hebben op een specifiek artikel, een specifieke groep artikelen of alle artikelen.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Voorbeelden van het gebruik van kwaliteitsbeheer
 Kwaliteitsbeheer is flexibel en kan op verschillende manieren worden geïmplementeerd om aan de vereisten van specifieke niveaus van toeleveringsactiviteiten te voldoen. In de volgende voorbeelden worden mogelijke toepassingen van deze functies beschreven:

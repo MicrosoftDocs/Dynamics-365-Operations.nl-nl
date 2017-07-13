@@ -3,14 +3,14 @@ title: Cyclustelling
 description: In dit artikel wordt beschreven hoe u cyclustelling kunt gebruiken met de met magazijnoplossing die in Magazijnbeheer beschikbaar is. Dit artikel is niet van toepassing op de magazijnoplossing die in Voorraadbeheer beschikbaar is.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4446dfec1fa8eabb45e14b3f2ff685b3b1d68e2c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ebc7789d7b0be5db4a0faf4309bc3640f51956c6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ In dit artikel wordt beschreven hoe u cyclustelling kunt gebruiken met de met ma
 Cyclustelling is een magazijnproces dat u kunt gebruiken om voorhanden voorraadartikelen te controleren. Het cyclustellingsproces kan in drie stappen worden beschreven:
 
 1.  **Cyclustellingwerk maken** - Cyclustellingwerk kan automatisch worden gemaakt op basis van drempelparameters voor artikelen of door een cyclustellingsplan te gebruiken. U kunt ook handmatig cyclustellingswerk maken door de artikel- of magazijnparameters te gebruiken op de pagina **Cyclustellingswerk volgens artikel** of de pagina **Cyclustellingswerk volgens locatie**.
-2.  **Cyclustelling verwerken** - Nadat u cyclustellingswerk hebt gemaakt, kunt u het cyclustellingswerk uitvoeren door artikelen in een magazijnlocatie te tellen en het resultaat via een mobiel apparaat in Microsoft Dynamics 365 for Operations in te voeren. Als alternatief, kunt u artikelen in een magazijnlocatie tellen zonder het cyclustelling werk te maken. Dit proces wordt *spot cyclustelling* genoemd.
+2.  **Cyclustelling verwerken**: nadat cyclustellingswerk is gemaakt, kunt u het cyclustellingswerk uitvoeren door artikelen in een magazijnlocatie te tellen en het resultaat via een mobiel apparaat in Microsoft Dynamics 365 for Finance and Operations in te voeren. Als alternatief, kunt u artikelen in een magazijnlocatie tellen zonder het cyclustelling werk te maken. Dit proces wordt *spot cyclustelling* genoemd.
 3.  **Verschillen in de getelde waarde oplossen** - Na een cyclustelling hebben artikelen met verschillen in de getelde waarde de werkstatus **In afwachting van controle** hebben op de pagina **Alle werk**. U kunt deze verschillen oplossen op de pagina **Cyclustellingswerk in afwachting van controle**.
 
 De volgende afbeelding licht het cyclustellingsproces toe. ![Processtroom voor cyclustelling](./media/performcyclecountinginawarehouselocation.jpg)
@@ -115,10 +115,10 @@ U kunt een cyclustellingsplan plannen om onmiddellijk of periodiek cyclustelwerk
 Als u handmatig cyclustellingswerk wilt aanmaken, kunt u de pagina´s **Cyclustellingswerk volgens artikel** of **Cyclustellingswerk volgens locatie** hiervoor gebruiken. U kunt het maximale aantal cyclustellingen opgeven dat tegelijkertijd moet worden gemaakt. Als de magazijnmanager bijvoorbeeld een waarde van **vijf** opgeeft, wordt er cyclustellingswerk aangemaakt voor vijf locaties zelfs als het artikel op 10 locaties aanwezig is. U kunt ook een werkgroep-ID selecteren waaraan u de gemaakte cyclustellingswerk-IDs toewijst. Wanneer een werkgroep-ID wordt verwerkt voor cyclustelling, worden de cyclustellingswerk-ID´s die aan deze werkpool zijn toegewezen verwerkt als een groep.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Een cyclustelling uitvoeren met een mobiel apparaat
-Er zijn verscheidene methoden voor het verwerken van cyclustellingswerk met Dynamics 365 for Operations op een mobiel apparaat:
+Er zijn verscheidene methoden voor het verwerken van cyclustellingswerk met Finance and Operations op een mobiel apparaat:
 
 -   **Door gebruiker bestuurd** - De werknemer kan een cyclustellingswerk-ID specificeren die de status **Openstaand** heeft.
--   **Systeem-geleid** - Dynamics 365 for Operations wijst een cyclustellingswerk-ID toe aan de werknemer.
+-   **Systeem-geleid**: Finance and Operations wijst een cyclustellingswerk-id toe aan de werknemer.
 -   **Groepering van cyclustelling** - De werknemer kan cyclustellingswerk-IDs groeperen die specifiek zijn voor een bepaalde locatie, zone, of een werkpool.
 -   **Plaatscyclustelling** - De werknemer kan artikelen in een magazijnlocatie op elk moment tellen, zonder cyclustelling werk te maken. Om plaatscyclustelling op een locatie uit te voeren, voert de werknemer de locatie-ID in.
 

@@ -1,27 +1,29 @@
 ---
 title: Winstgevendheid van klanten en producten beoordelen
-description: In dit artikel wordt uitgelegd hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de winstgevendheid van uw klanten en producten in Microsoft Dynamics 365 for Operations en deze kunt onderzoeken en er kennis uit kunt destilleren.
+description: In dit artikel wordt uitgelegd hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de winstgevendheid van uw klanten en producten in Microsoft Dynamics 365 for Retail en deze kunt onderzoeken en er kennis uit kunt destilleren.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d32c1b87417b69e5564c4b0e73e867cff511a8f1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: ea35bdd54c476fc5a3d329f7ca0dcf014c417e7a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-In dit artikel wordt uitgelegd hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de winstgevendheid van uw klanten en producten in Microsoft Dynamics 365 for Operations en deze kunt onderzoeken en er kennis uit kunt destilleren. 
+In dit artikel wordt uitgelegd hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de winstgevendheid van uw klanten en producten in Microsoft Dynamics 365 for Retail en deze kunt onderzoeken en er kennis uit kunt destilleren. 
 
-Als onderdeel van Dynamics 365 for Operations kunnen gebruikers rentabiliteit onderzoeken voor de beste klanten (10 tot 100) op verschillende niveaus van de organisatiehiërarchie, op basis van een van de volgende criteria:
+Als onderdeel van Dynamics 365 for Retail kunnen gebruikers winstgevendheid onderzoeken voor de beste klanten (10 tot 100) op verschillende niveaus van de organisatiehiërarchie, op basis van een van de volgende criteria:
 
 -   Verkoopbedrag
 -   Hoeveelheid
@@ -42,8 +44,8 @@ Als onderdeel van Dynamics 365 for Operations kunnen gebruikers rentabiliteit on
 
 Voor deze beoordeling kunt u het kant-en-klare rapport **Beste klanten** gebruiken, dat u vanuit de volgende locaties kunt openen:
 
--   **Beheer van detailhandelwinkel** werkruimte Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Afzetkanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Beste klanten**
--   **Query's en rapporten** sectie Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Beste klanten**
+-   Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Beste klanten**
+-   Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Beste klanten**
 
 Zo kunnen gebruikers ook winstgevendheid onderzoeken van de beste producten (10 tot 100) op verschillende niveaus van de organisatiehiërarchie, op basis van een van de volgende criteria:
 
@@ -54,9 +56,9 @@ Zo kunnen gebruikers ook winstgevendheid onderzoeken van de beste producten (10 
 
 Voor deze beoordeling kunt u het kant-en-klare rapport **Beste producten** gebruiken, dat u vanuit de volgende locaties kunt openen:
 
--   **Beheer van detailhandelwinkel** werkruimte Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Afzetkanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
--   **Categorie en productbeheer** werkruimte Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Producten en categorieën** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
--   **Query's en rapporten** sectie Dynamics 365 for Operations &gt; **Detailhandel en commerce** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Topproducten**
+-   Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
+-   Werkgebied **Categorie- en productbeheer** &gt; **Retail** &gt; **Producten en categorieën** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
+-   Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Topproducten**
 
 
 

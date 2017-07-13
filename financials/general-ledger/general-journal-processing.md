@@ -1,6 +1,6 @@
 ---
 title: Algemene journaalverwerking
-description: In dit artikel worden de mogelijkheden in Microsoft Dynamics 365 for Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.
+description: In dit artikel worden de mogelijkheden beschreven in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 150ca540fca154947cca47e97e45ce865ab1f507
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel worden de mogelijkheden in Microsoft Dynamics 365 for Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.  
+In dit artikel worden de mogelijkheden beschreven in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.  
 
 Journaalnamen
 
@@ -53,7 +53,7 @@ Een journaalnaam kan alleen worden gebruikt voor een specifiek segment of voor e
 De optie **Automatische omkering** is beschikbare in algemene journalen. U hebt bijvoorbeeld een toerekeningscorrectie waar het werkelijke document nog niet van is verwerkt, zoals in de volgende afbeelding.
 [![Omkering van algemeen journaal](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-De Microsoft Excel-invoegtoepassing voor journaalboeking biedt een extra niveau van automatisering en maakt gegevensinvoer eenvoudiger. De actie **Regels openen in Excel**is beschikbaar op de pagina's **Algemeen journaal** en **Journaalboekstuk**. 
+De Microsoft Excel-invoegtoepassing voor journaalboeking biedt een extra niveau van automatisering en maakt gegevensinvoer eenvoudiger. De actie **Regels openen in Excel** is beschikbaar op de pagina's **Algemeen journaal** en **Journaalboekstuk**. 
 
 Op de pagina **Periodieke journalen** kunt u terugkerende journalen instellen om journaalverwerking te automatiseren. 
 

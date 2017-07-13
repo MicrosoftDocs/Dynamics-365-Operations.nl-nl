@@ -1,27 +1,29 @@
 ---
 title: Een klantloyaliteitsprogramma instellen
-description: Dit artikel beschrijft hoe u een loyaliteitsprogramma instelt. Een loyaliteitsprogramma kan helpen klantloyaliteit verhogen door klanten te belonen voor het kopen van producten in uw detailhandels. In Microsoft Dynamics 365 for Operations kunt u eenvoudige of complexe loyaliteitsprogramma&quot;s instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal.
+description: Dit artikel beschrijft hoe u een loyaliteitsprogramma instelt. Een loyaliteitsprogramma kan helpen klantloyaliteit verhogen door klanten te belonen voor het kopen van producten in uw detailhandels. In Microsoft Dynamics 365 for Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 04521c20ddeca1154b134b23c1db69f45c554ed3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Dit artikel beschrijft hoe u een loyaliteitsprogramma instelt. Een loyaliteitsprogramma kan helpen klantloyaliteit verhogen door klanten te belonen voor het kopen van producten in uw detailhandels. In Microsoft Dynamics 365 for Operations kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal.
+Dit artikel beschrijft hoe u een loyaliteitsprogramma instelt. Een loyaliteitsprogramma kan helpen klantloyaliteit verhogen door klanten te belonen voor het kopen van producten in uw detailhandels. In Microsoft Dynamics 365 for Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal.
 
 <a name="loyalty-features"></a>Loyaliteitsfuncties
 ----------------
@@ -45,7 +47,7 @@ U kunt uw loyaliteitsprogramma zo instellen dat het de volgende opties bevat:
 -   Pas handmatig loyaliteitskaarten aan of boek het saldo van loyaliteitsbeloningen van een kaart naar een andere over om een klant bij te werken of te belonen.
 
 ## <a name="setting-up-loyalty-programs"></a>Loyaliteitsprogramma's instellen
-U moet verschillende onderdelen instellen om de loyaliteitsfunctie in Dynamics 365 for Operations - Retail in te schakelen. Het volgende schema geeft de loyaliteitscomponenten aan en hoe ze met elkaar zijn verbonden. ![Processtroom loyaliteitsinstellingen](./media/loyaltyprocess.gif)
+U moet verschillende onderdelen instellen om de loyaliteitsfunctie in Dynamics 365 for Retail in te schakelen. Het volgende schema geeft de loyaliteitscomponenten aan en hoe ze met elkaar zijn verbonden. ![Processtroom loyaliteitsinstellingen](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Loyaliteitscomponenten
 De volgende tabel beschrijft elke component en waar deze in de loyaliteitsinstellingen wordt gebruikt.
@@ -68,7 +70,7 @@ De volgende tabel beschrijft de processen die moeten worden uitgevoerd om de loy
 
 | Procesnaam                         | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                    | Paginanaam                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (loyaliteitsinformatie)           | Voer dit proces uit om de loyaliteitsgegevens van Dynamics 365 for Operations naar de winkels te verzenden. Het is een goed idee dit proces te plannen om vaak te worden uitgevoerd, zodat de loyaliteitsgegevens naar alle winkels worden verzonden.                                                                                                                                                                                               | Distributieplanning                |
+| 1050 (loyaliteitsinformatie)           | Voer dit proces uit om de loyaliteitsgegevens van Dynamics 365 for Retail naar de winkels te verzenden. Het is een goed idee dit proces te plannen om vaak te worden uitgevoerd, zodat de loyaliteitsgegevens naar alle winkels worden verzonden.                                                                                                                                                                                               | Distributieplanning                |
 | Loyaliteitsschema verwerken              | Voer dit proces uit om loyaliteitsschema's te koppelen aan de detailhandelskanalen waaraan het loyaliteitsschema is toegewezen. Dit proces kan worden gepland om als een batchproces te worden uitgevoerd. U moet dit proces uitvoeren als u de gegevens van de loyaliteitsconfiguratie wijzigt, zoals loyaliteitsschema's, loyaliteitsprogramma's, of de punten van de loyaliteitsbeloning.                                                                                               | Loyaliteitsschema verwerken              |
 | Offline loyaliteitstransacties verwerken | Voer dit proces uit om loyaliteitskaarten bij te werken zodat ze transacties bevatten die offline werden verwerkt. Dit proces is alleen van toepassing als het selectievakje **Offline verdienen** is ingeschakeld op de pagina **Gedeelde parameters detailhandel **, zodat de beloningen offline kunnen worden verdiend.                                                                                                                                               | Offline loyaliteitstransacties verwerken |
 | Niveaus van loyaliteitskaarten bijwerken            | Voer dit proces uit om de verdienende activiteit van de klant te beoordelen volgens de rijregels voor een loyaliteitsprogramma en om de rijstatus van de klant bij te werken. Dit proces is alleen nodig als u de rijregels in loyaliteitsprogramma's wijzigt en u wilt dat de bijgewerkte regels retroactief worden toegepast op loyaliteitskaarten die reeds zijn uitgegeven. Dit proces kan worden uitgevoerd als een batchproces of voor afzonderlijke kaarten. | Niveaus van loyaliteitskaarten bijwerken            |

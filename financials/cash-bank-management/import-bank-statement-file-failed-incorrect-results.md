@@ -1,15 +1,15 @@
 ---
 title: Problemen oplossen met importeren van bankafschriftbestanden
-description: "Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die Microsoft Dynamics 365 for Operations ondersteunt. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen."
+description: "Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die wordt ondersteund in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die Microsoft Dynamics 365 for Operations ondersteunt. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen.
+Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die wordt ondersteund in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen.
 
 <a name="what-is-the-error"></a>Wat is de fout?
 ------------------
@@ -38,7 +38,7 @@ Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de in
 Nadat u hebt geprobeerd een bankafschriftbestand te importeren, gaat u naar de geschiedenis van de taak in Gegevensbeheer en zoekt u de fout op in de uitvoeringsdetails. De foutmelding kan helpen door te verwijzen naar het afschrift, het saldo, of de afschriftregel. Hij bevat waarschijnlijk onvoldoende informatie om u te helpen het veld of het element te identificeren dat het probleem veroorzaakt.
 
 ## <a name="what-are-the-differences"></a>Wat zijn de verschillen?
-Vergelijk de indelingsdefinitie van het bankbestand met de importdefinitie van Microsoft Dynamics 365 for Operations en noteer eventuele verschillen tussen de velden en de elementen. Vergelijk het bankafschriftbestand met het gerelateerde Dynamics 365 for Operations-voorbeeldbestand. Eventuele verschillen moeten gemakkelijk te zien zijn in de ISO20022-bestanden.
+Vergelijk de indelingsdefinitie van het bankbestand met de importdefinitie van Finance and Operations en noteer eventuele verschillen tussen de velden en de elementen. Vergelijk het bankafschriftbestand met het gerelateerde Finance and Operations-voorbeeldbestand. Eventuele verschillen moeten gemakkelijk te zien zijn in de ISO20022-bestanden.
 
 ## <a name="transformations"></a>Transformaties
 Doorgaans moeten wijzigingen worden doorgevoerd in één van drie transformaties. Elke transformatie is geschreven voor een specifieke standaard.
@@ -80,7 +80,7 @@ Tijdens het uitvoeren van de transformatie wordt een uitvoerbestand aangemaakt d
 
 ### <a name="adjust-the-transformation"></a>De transformatie aanpassen
 
-Pas de transformatie aan om het gewenste veld of element in het bankafschriftbestand te krijgen. Wijs vervolgens dat veld of element toe aan het juiste Dynamics 365 for Operations-element.
+Pas de transformatie aan om het gewenste veld of element in het bankafschriftbestand te krijgen. Wijs vervolgens dat veld of element toe aan het juiste Finance and Operations-element.
 
 ### <a name="debitcredit-indicator"></a>Debet- of creditindicator
 

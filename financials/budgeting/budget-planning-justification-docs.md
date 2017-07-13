@@ -3,13 +3,13 @@ title: Verantwoordingsdocumenten voor budgetplanning
 description: Verantwoordingsdocumenten bieden een beschrijving voor degenen die een budget aanvragen en willen uitleggen waarom een specifiek budget nodig is.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Een budgetplansjabloon wordt gemaakt door de budgetmanager in Microsoft Word en 
 
 1.  Klik op **Ontwerp** in de Microsoft Dynamics Office-invoegtoepassing nadat u zich hebt aangemeld.
 2.  Gebruik voor koptekstgegevens de knop **Velden toevoegen**.
-3.  Selecteer de gegevensbron voor de entiteit BudgetPlanJustification en klik op **Volgende**. **Opmerking:** deze entiteit is vereist voor elk verantwoordingsdocument. Andere entiteiten kunnen worden gebruikt, maar weer uploaden naar Microsoft Dynamics 365 for Operations is niet mogelijk als deze entiteit niet is opgenomen.
+3.  Selecteer de gegevensbron voor de entiteit BudgetPlanJustification en klik op **Volgende**. **Opmerking:** deze entiteit is vereist voor elk verantwoordingsdocument. Andere entiteiten kunnen worden gebruikt, maar weer uploaden naar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition is niet mogelijk als deze entiteit niet is opgenomen.
 4.  Voeg de labels en waarden BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter en DocumentNumber in het Word-document toe. **Opmerking:** u kunt desgewenst uw eigen aangepaste labels gebruiken in plaats van de standaardlabels.
 5.  Klik op **Gereed** om de koptekstsectie te voltooien.
 6.  Klik voor regelniveaudetails van budgetplanbedragen op **Tabel toevoegen**.
@@ -57,7 +57,7 @@ Een budgetplansjabloon wordt gemaakt door de budgetmanager in Microsoft Word en 
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Het budgetplanningsproces instellen voor gebruik van de sjabloon Reden
 
-1.  Ga in Microsoft Dynamics 365 for Operations naar **Budgettering** &gt; **Instellen** &gt; **Budgetplanning** &gt; **Verantwoordingsdocumentsjablonen**.
+1.  Ga in Finance and Operations naar **Budgettering** &gt; **Instellen** &gt; **Budgetplanning** &gt; **Verantwoordingsdocumentsjablonen**.
 2.  Klik op **Nieuw** en blader naar het nieuwe Microsoft Word-document.
 3.  Voer een naam en beschrijving voor de sjabloonweergave in. Klik op **OK**.
 4.  Ga naar **Budgettering** &gt; **Instellen** &gt; **Budget****planning** &gt; **Budgetplanningsproces**.
@@ -66,7 +66,7 @@ Een budgetplansjabloon wordt gemaakt door de budgetmanager in Microsoft Word en 
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>Persoonlijke redendocumenten bewerken en opslaan
 
-1.  Maak in Dynamics 365 for Operations een nieuw budgetplan of open een bestaand budgetplan.
+1.  Maak in Finance and Operations een nieuw budgetplan of open een bestaand budgetplan.
 2.  Selecteer in het vervolgkeuzemenu **Reden** **Nieuwe verantwoording maken**.
 3.  Geef na het invullen van de details aan dat u het aangepaste document wilt uploaden in het vervolgkeuzemenu **Reden**.
 

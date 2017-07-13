@@ -3,15 +3,15 @@ title: Serienummers in het verkoopproces registreren
 description: In deze artikelen wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d984a6af2b48f02120ea61b385522a6400d93d4a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ffb567c0ba9c95d059e64e24cbe0ea53ec9f7bc9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,15 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 In deze artikelen wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
 
-Veel bedrijven wilt alleen serienummers vastleggen voor service en garantiedoeleinden en niet serienummers in voorraad te hoeven bijhouden van ontvangst tot uitgifte. In deze gevallen kunt u met Microsoft Dynamics 365 for Operations de serienummers op de pakbonnen of de facturen registreren wanneer producten worden verkocht. Als producten later worden geretourneerd, kunt u elk product op een factuur traceren om te bepalen of u het product verkocht hebt en of de service- of garantieverplichtingen geldig zijn.
+Veel bedrijven wilt alleen serienummers vastleggen voor service en garantiedoeleinden en niet serienummers in voorraad te hoeven bijhouden van ontvangst tot uitgifte. In deze gevallen kunt u met Microsoft Dynamics 365 for Finance and Operations de serienummers op de pakbonnen of de facturen registreren wanneer producten worden verkocht. Als producten later worden geretourneerd, kunt u elk product op een factuur traceren om te bepalen of u het product verkocht hebt en of de service- of garantieverplichtingen geldig zijn.
 Zijn er vereisten?
 ----------------------------
 
-U moet serienummers inschakelen voor het verkoopproces door de optie **Actief in verkoopproces** te selecteren op de pagina **Traceringsdimensiegroepen**. De volgende gebeurtenissen vinden vervolgens plaats in Microsoft Dynamics 365 for Operations:
+U moet serienummers inschakelen voor het verkoopproces door de optie **Actief in verkoopproces** te selecteren op de pagina **Traceringsdimensiegroepen**. De volgende gebeurtenissen vinden vervolgens plaats in Microsoft Dynamics 365 for Finance and Operations:
 -   Op het sneltabblad **Serienummers** wordt de optie **Serienummercontrole** geselecteerd. Als deze optie is geselecteerd, moet u één serienummer registreren voor elk artikel op de pakbon of factuur.
 -   Alle selecties op traceringsdimensiegroep voor serienummers worden gewist, behalve de optie **Lege uitgifte is toegestaan**. U kunt de optie **Lege uitgifte is toegestaan** selecteren om serienummerbeheer te negeren en toe te staan dat producten worden verpakt of gefactureerd zonder serienummers te registreren.
 
@@ -56,7 +57,7 @@ De instelling van de traceringsdimensiegroep die is toegewezen aan het product b
 U kunt gedeeltelijk facturen en pakbonnen maken voor verkooporders, en alleen de serienummers registreren voor de artikelen die deze facturen en pakbonnen bevatten. Als u een gedeeltelijke factuur wilt maken en u meerdere pakbonnen voor de verkooporder hebt, kunt u serienummers van meer dan één pakbon opnemen. Er kan echter maar één pakbon zijn die niet alle serienummers bevat. Stel, u hebt drie pakbonnen en elke omvat twee artikelen met serienummers. U kunt dan geen gedeeltelijke factuur maken voor een artikel van elke pakbon.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Wat doe ik wanneer een serienummer niet leesbaar is?
-Als een serienummer niet kan worden gelezen of worden gescand, kunt u een lege regel voor het artikel maken door op **Niet leesbaar**op de pagina **Serienummers**te klikken. Als het serienummer later beschikbaar wordt, kunt u de factuur of de pakbon bijwerken. Voor meer informatie, zie het volgende onderdeel "Kan ik de serienummers die ik heb geregistreerd voor een verkooporder corrigeren of wijzigen?"
+Als een serienummer niet kan worden gelezen of worden gescand, kunt u een lege regel voor het artikel maken door op **Niet leesbaar** op de pagina **Serienummers** te klikken. Als het serienummer later beschikbaar wordt, kunt u de factuur of de pakbon bijwerken. Voor meer informatie, zie het volgende onderdeel "Kan ik de serienummers die ik heb geregistreerd voor een verkooporder corrigeren of wijzigen?"
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Kan ik de serienummers die ik heb geregistreerd voor een verkooporder corrigeren of wijzigen?
 Ja, u kunt serienummers corrigeren als aan de volgende voorwaarden wordt voldaan:

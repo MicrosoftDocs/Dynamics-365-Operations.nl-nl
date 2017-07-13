@@ -1,6 +1,6 @@
 ---
 title: Overzicht van workflowsystemen
-description: In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Operations beschreven.
+description: In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Finance and Operations beschreven.
 author: sericks007
 manager: AnnBe
 ms.date: 04/25/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 142f6f122172f717733db6f39b964c3f6f2e2f77
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1dc7935bf92567d529d393abf3069935a387e388
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Operations beschreven.
+In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Finance and Operations beschreven.
 
 <a name="what-is-workflow"></a>Wat is een workflow?
 -----------------
@@ -38,7 +38,7 @@ In dit onderwerp wordt het workflowsysteem in Microsoft Dynamics 365 for Operati
 De voorwaarde van *workflow* kan op twee manieren worden gedefinieerd: als een systeem en als bedrijfsproces.
 ### <a name="workflow-is-a-system"></a>Workflow is een systeem
 
-Workflow is een system dat wordt geïnstalleerd met Dynamics 365 for Operations en draait op de Application Object Server (AOS). Het workflowsysteem bevat functies waarmee u afzonderlijke workflows of bedrijfsprocessen kunt maken.
+Workflow is een systeem dat wordt geïnstalleerd met Dynamics 365 for Finance and Operations en dat draait op de Application Object Server (AOS). Het workflowsysteem bevat functies waarmee u afzonderlijke workflows of bedrijfsprocessen kunt maken.
 
 ### <a name="workflow-is-a-business-process"></a>Workflow is een bedrijfsproces
 

@@ -3,14 +3,14 @@ title: Inkooporders maken
 description: In dit artikel worden het proces en de opties voor het handmatig maken van een inkooporder beschreven.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c6c6b40d8934d1059c54678df8d4fc6530db1b24
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="create-purchase-orders"></a>Inkooporders maken
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 In dit artikel worden het proces en de opties voor het handmatig maken van een inkooporder beschreven.
@@ -70,7 +72,7 @@ Soms wilt u mogelijk de hoeveelheid die u hebt besteld opsplitsen, zodat verschi
 Toeslagen kunnen automatisch worden toegevoegd aan inkooporderregels als automatische toeslagen zijn ingesteld voor de leverancier of de toeslagengroep van de leverancier, en voor het artikel of de toeslaggroep van het artikel. Meestal worden toeslagen echter handmatig toegevoegd op het niveau van de orderregel. U kunt een toeslag toevoegen door de pagina **Toeslagen onderhouden** te openen met de actie **Toeslagen onderhouden** in het menu **Financiële items** in de weergave **Regels**. Het voordeel van het toevoegen van toeslagen rechtstreeks op het niveau van de orderregel is dat de toeslag kan worden toegewezen als voorraadkosten. U kunt toeslagcodes instellen voor productkosten door de debetoptie **Artikel** te gebruiken. Dit soort toeslagen moet worden toegewezen vanuit de IO-koptekst aan de regels voordat de order kan worden bevestigd. Zo wilt u bijvoorbeeld mogelijk toeslagen toewijzen op basis van de hoeveelheid op elke regel. De toeslagcategorie heeft eveneens invloed op hoe de toeslagen worden verwerkt. Bij vaste toeslagen, bijvoorbeeld, geeft u een vast bedrag op en procentuele toeslagen worden berekend als een percentage van het nettobedrag voor de orderregel. Inkooporders kunnen worden toegewezen aan een belasting en de belasting kan een schatting bevatten van de verwachte kosten voor het vervoer. U kunt deze onkosten vanuit de belasting terug aan de regels toewijzen.
 
 ## <a name="purchase-order-actions"></a>Inkooporderacties
-Nadat u de koptekst en regels aan de inkooporder hebt toegevoegd, moet u vaak extra stappen voltooien voordat de order klaar is voor bevestiging. Omdat er zoveel opties beschikbaar zijn, vindt u het misschien handig om [Actie zoeken](/dynamics365/operations/get-started/action-search) te gebruiken om het gewenste menu-item te zoeken.  
+Nadat u de koptekst en regels aan de inkooporder hebt toegevoegd, moet u vaak extra stappen voltooien voordat de order klaar is voor bevestiging. Omdat er zoveel opties beschikbaar zijn, vindt u het misschien handig om [Actie zoeken](/dynamics365/unified-operations/fin-and-ops/get-started/action-search) te gebruiken om het gewenste menu-item te zoeken.  
 
 U kunt producten op de order zodanig configureren dat zij bijkomende artikelen hebben. Bijkomende artikelen zijn producten die samen met andere producten moeten of kunnen worden gekocht. Bijkomende producten kunnen gratis worden toegevoegd als begeleidende producten, of u kunt zelf beslissen of u ze wilt toevoegen aan de order of niet. U kunt de bijkomende artikelen bekijken na elke orderregel die is toegevoegd. Waarschijnlijk vindt u het echter handiger om relevante bijkomende artikelen te controleren en toe te voegen voor alle orderregels via de pagina **Bijkomende artikelen**, die u vanuit het actievenster kunt openen.  
 
@@ -94,7 +96,7 @@ Mogelijk moet u de voltooiing van een inkooporder uitstellen. Zo hebt u bijvoorb
 
 [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
 
-[Overzicht van leveranciersfacturen](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Overzicht van leveranciersfacturen](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

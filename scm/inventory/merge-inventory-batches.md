@@ -3,14 +3,14 @@ title: Voorraadbatches samenvoegen
 description: "Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e97257955f4f8fa86c8bf957a182aa71d4fbc8ef
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: aec97976ef6a2b4c66118289f7f76b14351456f8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -91,7 +91,7 @@ Nee. U kunt alleen batches samenvoegen met dezelfde locatie en magazijnopslagdim
 Nee, u kunt alleen de volledige hoeveelheid van batches samenvoegen. De functionaliteit van batch samenvoegen is bedoeld als voorraadfunctie, geen productiefunctie.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Wat als de batches verschillende batchkenmerkwaarden hebben?
-Wanneer u de bronbatches selecteert om te combineren in de samengevoegde batch, zal Microsoft Dynamics 365 for Operations controleren of alle batches de eigenschappen of kenmerkwaarden hebben. Wanneer een kenmerkwaarde dezelfde is, wordt een waarde voorgesteld voor de samengevoegde batch. U kunt deze waarde wijzigen. Kenmerkwaarden die niet dezelfde zijn, worden leeg gelaten voor de samengevoegde batch en u kunt deze waarden handmatig invoeren. Als het type batchkenmerk voor de kenmerkwaarde een geheel getal of een breuk is, en de waarden zijn niet dezelfde voor alle bronbatches, wordt de waarde berekend met behulp van een gewogen gemiddelde. De berekende waarde wordt naar boven of beneden afgerond naar de dichtste stap. Als de waarde leeg is voor een bronbatch, worden de batch en de hoeveelheid niet opgenomen in de berekening. **Voorbeeld** Het volgende voorbeeld toont de berekening van een gewogen gemiddelde voor een samengevoegde batch. Twee van de bronbatches hebben een blanco waarde voor een batchkenmerktype dat een geheel getal is. Het volgende kenmerk wordt toegewezen aan de bronbatches.
+Wanneer u de bronbatches selecteert om te combineren in de samengevoegde batch, wordt in Finance and Operations gecontroleerd of alle batches de eigenschappen of kenmerkwaarden hebben. Wanneer een kenmerkwaarde dezelfde is, wordt een waarde voorgesteld voor de samengevoegde batch. U kunt deze waarde wijzigen. Kenmerkwaarden die niet dezelfde zijn, worden leeg gelaten voor de samengevoegde batch en u kunt deze waarden handmatig invoeren. Als het type batchkenmerk voor de kenmerkwaarde een geheel getal of een breuk is, en de waarden zijn niet dezelfde voor alle bronbatches, wordt de waarde berekend met behulp van een gewogen gemiddelde. De berekende waarde wordt naar boven of beneden afgerond naar de dichtste stap. Als de waarde leeg is voor een bronbatch, worden de batch en de hoeveelheid niet opgenomen in de berekening. **Voorbeeld** Het volgende voorbeeld toont de berekening van een gewogen gemiddelde voor een samengevoegde batch. Twee van de bronbatches hebben een blanco waarde voor een batchkenmerktype dat een geheel getal is. Het volgende kenmerk wordt toegewezen aan de bronbatches.
 
 | Kenmerk | Min.voorraad | Verhoging | Max.voorraad |
 |-----------|---------|-----------|---------|

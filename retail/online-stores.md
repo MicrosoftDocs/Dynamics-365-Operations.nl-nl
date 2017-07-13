@@ -1,27 +1,29 @@
 ---
 title: Online winkeloverzicht
-description: Dit artikel bevat informatie over onlinewinkels en hoe ze in Microsoft Dynamics 365 for Operations worden ingesteld.
+description: Dit artikel bevat informatie over onlinewinkels en hoe ze in Microsoft Dynamics 365 for Retail worden ingesteld.
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 784444258a324eeefb5b96ae518ef4123ac219d4
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28ab301dc3aede6b23fb5d87fcb179916e0296e4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Dit artikel bevat informatie over onlinewinkels en hoe ze in Microsoft Dynamics 365 for Operations worden ingesteld.
+Dit artikel bevat informatie over onlinewinkels en hoe ze in Microsoft Dynamics 365 for Retail worden ingesteld.
 
-Detailhandel en commerce in Microsoft Dynamics 365 for Operations ondersteunt meerdere detailhandelskanalen. Deze detailhandelskanalen zijn o.a. online winkels, call centers en winkels (ook fysieke winkels genoemd). Een online winkel zorgt ervoor dat een detailhandelaar online is zodat hun klanten producten zowel in hun online winkel als in de fysieke winkel kunnen kopen. Als klanten producten in de online winkel kopen, kunnen deze producten bij hen worden bezorgd of kunnen zij ze ophalen bij een plaatselijke detailhandelwinkel. U maakt een online winkel in de Dynamics 365 for Operations-client. Deze online winkel wordt vervolgens gepubliceerd naar een online winkel van een derde partij die met Dynamics 365 for Operations wordt geïntegreerd. De online winkel van de derde partij is de UI voor de online winkel en biedt diverse klantbeheersysteem (CMS)- en UI-mogelijkheden. Verschillende integraties van dit type zijn beschikbaar voor Dynamics 365 for Operations. De eigenschappen die u definieert voor de online winkel bepalen de werking van de online winkel. U kunt bijvoorbeeld de navigatiecategoriehiërarchie bepalen in Dynamics 365 for Operations en deze toewijzen aan de online winkel. Bij het publiceren van de online winkel naar de online winkel van de derde partij, wordt de navigatiecategoriehiërarchie weergegeven in de online versie van de winkel. Kopers gebruiken vervolgens de navigatiecategoriehiërarchie om in de online winkel naar producten te zoeken. Om een online winkel te maken, moet u de onderdelen instellen waarmee transacties voor de winkel worden verwerkt. Bijvoorbeeld: u moet assortimenten toevoegen, kenmerken toepassen en verzendwijzen en betalingsmethoden instellen. U kunt ook prijzen, promoties, kortingen, handelsovereenkomsten en verzendvoorwaarden bepalen die specifiek zijn voor de online winkel. Nadat de online winkel is gepubliceerd naar de online winkel van de derde partij, kunt u de productcatalogi maken voor de online winkel. De producten in de catalogus worden productaanbiedingen in de online winkel. Wanneer een klant producten uit de online winkel koopt, wordt de beschikbare voorraad bijgewerkt en gesynchroniseerd in de client. Ook worden verkooporders gegenereerd voor de aankopen en verzonden naar de client voor verwerking en afhandeling van de orders.
+Dynamics 365 for Retail ondersteunt meerdere detailhandelskanalen. Deze detailhandelskanalen zijn o.a. online winkels, call centers en winkels (ook fysieke winkels genoemd). Een online winkel zorgt ervoor dat een detailhandelaar online is zodat hun klanten producten zowel in hun online winkel als in de fysieke winkel kunnen kopen. Als klanten producten in de online winkel kopen, kunnen deze producten bij hen worden bezorgd of kunnen zij ze ophalen bij een plaatselijke detailhandelwinkel. U maakt een online winkel in de Dynamics 365 for Retail-client. Deze online winkel wordt vervolgens gepubliceerd naar een online winkel van een derde partij die met Dynamics 365 for Retail is geïntegreerd. De online winkel van de derde partij is de UI voor de online winkel en biedt diverse klantbeheersysteem (CMS)- en UI-mogelijkheden. Verschillende integraties van dit type zijn beschikbaar voor Dynamics 365 for Retail. De eigenschappen die u definieert voor de online winkel bepalen de werking van de online winkel. U kunt bijvoorbeeld de navigatiecategoriehiërarchie bepalen in Dynamics 365 for Retail en deze toewijzen aan de online winkel. Bij het publiceren van de online winkel naar de online winkel van de derde partij, wordt de navigatiecategoriehiërarchie weergegeven in de online versie van de winkel. Kopers gebruiken vervolgens de navigatiecategoriehiërarchie om in de online winkel naar producten te zoeken. Om een online winkel te maken, moet u de onderdelen instellen waarmee transacties voor de winkel worden verwerkt. Bijvoorbeeld: u moet assortimenten toevoegen, kenmerken toepassen en verzendwijzen en betalingsmethoden instellen. U kunt ook prijzen, promoties, kortingen, handelsovereenkomsten en verzendvoorwaarden bepalen die specifiek zijn voor de online winkel. Nadat de online winkel is gepubliceerd naar de online winkel van de derde partij, kunt u de productcatalogi maken voor de online winkel. De producten in de catalogus worden productaanbiedingen in de online winkel. Wanneer een klant producten uit de online winkel koopt, wordt de beschikbare voorraad bijgewerkt en gesynchroniseerd in de client. Ook worden verkooporders gegenereerd voor de aankopen en verzonden naar de client voor verwerking en afhandeling van de orders.
 
 ## <a name="set-up-an-online-store"></a>Een online winkel instellen
 Voor het instellen van een online winkel moet u de volgende taken voltooien.

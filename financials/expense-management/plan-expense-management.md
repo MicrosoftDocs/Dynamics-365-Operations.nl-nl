@@ -1,27 +1,28 @@
 ---
 title: Onkostenbeheer configureren
-description: In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics AX. In het gebied Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota&quot;s, opslaan en beleid opslaan.
-author: kfend
+description: In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In het gebied Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's, opslaan en beleid opslaan.
+author: KimANelson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 62bef78c143f7ad83e78982dbecb1c9e4542187d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics AX. In het gebied Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's, opslaan en beleid opslaan. 
+In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In het gebied Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's, opslaan en beleid opslaan. 
 
 Omdat veel van de beslissingen die u neemt wanneer u uw configuratie voor Onkostenbeheer plant, zijn gebaseerd op de hiërarchie en financiële structuur van uw organisatie, moet u naar de planningsdocumenten voor die gebieden verwijzen.
 

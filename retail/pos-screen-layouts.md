@@ -1,27 +1,28 @@
 ---
 title: Schermindelingen configureren voor POS
-description: Dit onderwerp biedt informatie over schermindelingen voor het gebruik van Microsoft Dynamics 365 for Operations - Retail POS.
+description: Dit onderwerp biedt informatie over schermindelingen voor het gebruik van de Microsoft Dynamics 365 for Retail-POS.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7dee20166ea89b56523e3ef38e66de53d6e4a621
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 9f7f46c1bae5bac6eefa0b8c70b079cab76aa8b6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Dit onderwerp biedt informatie over schermindelingen voor het gebruik van Microsoft Dynamics 365 for Operations - Retail POS.
+Dit onderwerp biedt informatie over schermindelingen voor het gebruik van de Microsoft Dynamics 365 for Retail-POS.
 
-De gebruikersinterface van Microsoft Dynamics 365 for Operations - Retail POS kan worden geconfigureerd met een combinatie van weergaveprofielen en schermindelingen, die u toewijst aan winkels, kassa's en/of gebruikers.
+De gebruikersinterface van de Microsoft Dynamics 365 for Retail-POS kan worden geconfigureerd met een combinatie van weergaveprofielen en schermindelingen, die u toewijst aan winkels, kassa's en/of gebruikers.
 
 ## <a name="visual-profile"></a>Weergaveprofiel
 Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de visuele elementen op te geven die specifiek zijn voor kassa's en worden gedeeld door gebruikers. Alle gebruikers die zich aanmelden bij de kasse werken met hetzelfde thema en dezelfde kleuren en afbeeldingen. 
@@ -46,7 +47,7 @@ Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de visuele
 
 **Accentkleur**: De accentkleur wordt overal in het POS gebruikt om bepaalde visuele elementen zoals tegels, opdrachtknoppen of hyperlinks te differentiëren of te markeren. Deze elementen zijn meestal uitvoerbaar.
 
-**Koptekstkleur**: Met de koptekstkleur kan de gebruiker de kleur van de paginakoptekst configureren, zodat deze aansluit bij de brandingbehoefte van de detailhandelaar. Deze functie is alleen beschikbaar in Dynamics 365 for Operations, versie 1611.
+**Koptekstkleur**: Met de koptekstkleur kan de gebruiker de kleur van de paginakoptekst configureren, zodat deze aansluit bij de brandingbehoefte van de detailhandelaar. Deze functie is alleen beschikbaar in Dynamics 365 for Retail, versie 1611.
 
 **Aanmeldingsachtergrond**: Gebruikers kunnen een achtergrondafbeelding opgeven voor het aanmeldingsscherm. De bestandsgrootte van achtergrondafbeeldingen moet zo klein mogelijk worden ghouden, omdat het opslaan en laden van grote bestanden het gedrag en de prestaties van de toepassing kunnen beïnvloeden.
 
@@ -67,7 +68,7 @@ Schermindelingen kunnen worden toegewezen op het niveau van de winkel, kassa of 
 
 ### <a name="layout-sizes"></a>Indelingsgrootten
 
-Deze functie is alleen beschikbaar in Dynamics 365 for Operations, versie 1611. Omdat in veel gevallen schermindelingen in meerdere schermformaten en -resoluties kunnen worden gebruikt, kunnen gebruikers hun indeling en inhoud voor elk daarvan configureren. De POS-toepassing kiest bij het opstarten automatisch de indelingsgrootte die het best bij het apparaat past. Een schermindeling kan ook configuraties voor zowel volledige als ook compacte apparaten bevatten. Met deze configuratie kan een gebruiker worden toegewezen aan een enkele schermindeling die functioneert op verschillende afmetingen en vormfactor in de winkel. 
+Deze functie is alleen beschikbaar in Dynamics 365 for Retail, versie 1611. Omdat in veel gevallen schermindelingen in meerdere schermformaten en -resoluties kunnen worden gebruikt, kunnen gebruikers hun indeling en inhoud voor elk daarvan configureren. De POS-toepassing kiest bij het opstarten automatisch de indelingsgrootte die het best bij het apparaat past. Een schermindeling kan ook configuraties voor zowel volledige als ook compacte apparaten bevatten. Met deze configuratie kan een gebruiker worden toegewezen aan een enkele schermindeling die functioneert op verschillende afmetingen en vormfactor in de winkel. 
 
 **Modern POS - volledig**: Volledige indelingen zijn normaal gesproken het meest geschikt voor grotere beeldschermen, zoals pc-monitors en tablets. Gebruikers kunnen kiezen welke UI-elementen worden opgenomen, de grootte en plaatsing ervan bepalen en de gedetailleerde eigenschappen configureren. Volledige indelingen ondersteunen zowel staande (portrait) als liggende (landscape) configuraties. 
 
@@ -77,11 +78,11 @@ Deze functie is alleen beschikbaar in Dynamics 365 for Operations, versie 1611. 
 
 De grootte van elke indeling binnen een schermindeling moet worden geconfigureerd door middel van de schermindelingontwerper. In de ontwerper kunnen gebruikers de UI-elementen van het transactiescherm opgeven en configureren. De schermindelingontwerper gebruikt ClickOnce om de meest recente versie van de toepassing te downloaden, installeren en starten, telkens wanneer die de gebruiker deze opent. Controleer de browservereisten voor het gebruik van ClickOnce; sommige browsers, zoals Chrome, vereisen hiervoor extensies. 
 
-**Numeriek toetsenblok**: Het toetsenblok is de belangrijkste gebruikersinvoer in het transactiescherm in POS. Het kan worden geconfigureerd om het gehele toetsenblok op het scherm weer te geven, wat ideaal is voor touchscreens, of alleen het invoerveld, dat kan worden gebruikt met een fysiek toetsenbord. De instellingen voor het numeriek toetsenblok zijn alleen beschikbaar in de volledige indeling. In Dynamics 365 for Operations, versie 1611, is voor compacte indelingen altijd het volledige toetsenblok beschikbaar vanuit het transactiescherm.
+**Numeriek toetsenblok**: Het toetsenblok is de belangrijkste gebruikersinvoer in het transactiescherm in POS. Het kan worden geconfigureerd om het gehele toetsenblok op het scherm weer te geven, wat ideaal is voor touchscreens, of alleen het invoerveld, dat kan worden gebruikt met een fysiek toetsenbord. De instellingen voor het numeriek toetsenblok zijn alleen beschikbaar in de volledige indeling. In Dynamics 365 for Retail, versie 1611, is voor compacte indelingen altijd het volledige toetsenblok beschikbaar vanuit het transactiescherm.
 
-**Deelvenster Totalen**: Het deelvenster Totalen kan worden geconfigureerd in een of twee kolommen, met velden zoals aantal regels, kortingsbedrag, toeslagen, subtotaal, en btw. In Dynamics 365 for Operations, versie 1611, ondersteunen compacte indelingen alleen één enkele kolom met totalen. 
+**Deelvenster Totalen**: Het deelvenster Totalen kan worden geconfigureerd in een of twee kolommen, met velden zoals aantal regels, kortingsbedrag, toeslagen, subtotaal, en btw. In Dynamics 365 for Retail, versie 1611, ondersteunen compacte indelingen alleen één enkele kolom met totalen. 
 
-**Ontvangst**: het deelvenster Ontvangst bevat de verkoopregels, betalingsregels en leveringsinformatie voor de producten en services die worden verwerkt in het POS. Gebruikers kunnen de kolommen, breedte en plaatsing opgeven. In compacte indelingen in Dynamics 365 for Operations, versie 1611, kunt u ook extra informatie configureren die wordt weergegeven in de rij onder de hoofdregel. 
+**Ontvangst**: het deelvenster Ontvangst bevat de verkoopregels, betalingsregels en leveringsinformatie voor de producten en services die worden verwerkt in het POS. Gebruikers kunnen de kolommen, breedte en plaatsing opgeven. In compacte indelingen in Dynamics 365 for Retail, versie 1611, kunt u ook extra informatie configureren die wordt weergegeven in de rij onder de hoofdregel. 
 
 **Klantenkaart**: De klantenkaart bevat gegevens over de klant die momenteel is gekoppeld aan de transactie. De klantenkaart kan worden geconfigureerd om extra informatie weer te geven of te verbergen. 
 
@@ -89,7 +90,7 @@ De grootte van elke indeling binnen een schermindeling moet worden geconfigureer
 
 **Afbeelding**: het afbeeldingsbesturingselement kan worden gebruikt om het winkellogo of andere branding-afbeeldingen weer te geven op het transactiescherm. Het afbeeldingsbesturingselement is alleen beschikbaar voor volledige indelingen. 
 
-**Aanbevolen producten**: Als dit is geconfigureerd voor de omgeving, laat het besturingselement voor aanbevolen producten productsuggesties zien die zijn gegenereerd door middel van machine learning. Het besturingselement voor productaanbevelingen is alleen beschikbaar voor volledige indelingen in Dynamics 365 for Operations, versie 1611. **Aangepast besturingselement **: Het aangepaste besturingselement fungeert als een tijdelijke aanduiding in de schermindeling. Gebruikers kunnen daarmee plaats reserveren voor hun eigen inhoud. Het aangepaste besturingselement is alleen beschikbaar voor volledige indelingen.
+**Aanbevolen producten**: Als dit is geconfigureerd voor de omgeving, laat het besturingselement voor aanbevolen producten productsuggesties zien die zijn gegenereerd door middel van machine learning. Het besturingselement voor productaanbevelingen is alleen beschikbaar voor volledige indelingen in Dynamics 365 for Retail, versie 1611. **Aangepast besturingselement **: Het aangepaste besturingselement fungeert als een tijdelijke aanduiding in de schermindeling. Gebruikers kunnen daarmee plaats reserveren voor hun eigen inhoud. Het aangepaste besturingselement is alleen beschikbaar voor volledige indelingen.
 
 <a name="see-also"></a>Zie ook
 --------

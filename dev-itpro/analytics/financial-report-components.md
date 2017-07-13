@@ -3,7 +3,7 @@ title: Onderdelen van een financieel rapport
 description: "In dit artikel wordt beschreven hoe de onderdelen of bouwstenen van rapportdefinities worden gebruikt in de financiële rapportage. Deze bouwstenen bevatten rijdefinities, kolomdefinities en rapportagestructuurdefinities. In het artikel wordt uitgelegd hoe bouwstenen moeten worden geordend en vergrendeld en hoe u kunt werken met bouwsteengroepen."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 057c338c11518b3a1081223e432cbfd109d5e679
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -105,7 +105,7 @@ U kunt een bestaande bouwsteengroep opslaan onder een nieuwe naam. U kunt vervol
 
 ### <a name="export-a-building-block-group"></a>Een bouwsteengroep exporteren
 
-U kunt een groep bouwstenen of bepaalde rapportbouwstenen in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt ook de geëxporteerde gegevens tussen bouwsteengroepen of Dynamics 365 for Operations-installaties kopiëren. Rapportontwerper bevat de lettertypen en de dimensiesets waarnaar wordt verwezen, samen met de bouwsteengroep.
+U kunt een groep bouwstenen of bepaalde rapportbouwstenen in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt ook de geëxporteerde gegevens tussen bouwsteengroepen of Finance and Operations-installaties kopiëren. Rapportontwerper bevat de lettertypen en de dimensiesets waarnaar wordt verwezen, samen met de bouwsteengroep.
 1.  Klik in Report Designer in het menu **Bedrijf** op **Bouwsteengroepen**.
 2.  Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteengroep die u wilt exporteren en klik dan op **Exporteren**.
 3.  Selecteer in het dialoogvenster **Exporteren** de te exporteren rapportdefinities:

@@ -3,7 +3,7 @@ title: "Kolomdefinities in financiële rapporten"
 description: Dit artikel bevat informatie over kolomdefinities. Een kolomdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van kolommen in een financieel rapport wordt gedefinieerd. Net zoals bij rijdefinities kunnen de basisdefinities van kolommen worden gebruikt in meerdere rapporten.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -164,7 +164,7 @@ U kunt het dialoogvenster **Kolomkoptekst** gebruiken om kopteksten toe te voege
 
 ### <a name="create-an-automatically-generated-header"></a>Een automatisch gegenereerde koptekst maken
 
-Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcodes. De AutoTekstcodes zok, variabelen die altijd worden bijgewerkt wanneer een rapport wordt gegenereerd. Elke kolomkop kan deze codes bevatten om rapportinformatie op te geven die kan verschillen, zoals datums of periodenummers. Daarom kunt u één kolomdefinitie gebruiken voor meerdere rapportdefinities, perioden en rapportagestructuren. Omdat AutoTekstcodes zich baseren op de kalendergegevens van de rijen met details van de kolomdefinitie, worden deze alleen ondersteund voor **CALC**-, **FD**- en **WKS**-kolommen. De manier waarop een AutoTekstcode in de kolomkopcel wordt weergegeven bepaalt hoe die informatie op het rapport wordt weergegeven. In het dialoogvenster **Kolomkop** worden AutoTekstcodes weergegeven in zowel hoofdletters als kleine letters. Daarom wordt tekst op het rapport in zowel hoofdletters als kleine letters weergegeven. In een standaardkalenderjaar wordt met **@CalMonthLong** bijvoorbeeld maand **7** omgezet in **Juli**. Als de naam van de maand in hoofdletters moet zijn (bijvoorbeeld **JULI**), typt u de AutoTekst-code in hoofdletters in het veld **Kolomkoptekst**. Voer bijvoorbeeld **@CALMONTHLONG** in. U kunt codes en tekst mengen. U voert bijvoorbeeld de volgende koptekst in: **periode @FiscalPeriod-@FiscalYear van @StartDate tot @EndDate**. De rapportkop die wordt gegenereerd lijkt op de volgende tekst: **Periode 1-02 van 01/01/02 tot 31/01/02**. **Opmerking:** de indeling van bepaalde tekst, zoals de lange datumnotatie, is afhankelijk van uw landinstellingen op de Dynamics 365 for Operations-server. Als u deze instellingen wilt wijzigen, klikt u op de knop **Start**, klikt u op **Configuratiescherm** en vervolgens op **Regio en Taal**. In de volgende tabel vindt u de beschikbare AutoTekst-opties voor kolomkoppen.
+Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcodes. De AutoTekstcodes zok, variabelen die altijd worden bijgewerkt wanneer een rapport wordt gegenereerd. Elke kolomkop kan deze codes bevatten om rapportinformatie op te geven die kan verschillen, zoals datums of periodenummers. Daarom kunt u één kolomdefinitie gebruiken voor meerdere rapportdefinities, perioden en rapportagestructuren. Omdat AutoTekstcodes zich baseren op de kalendergegevens van de rijen met details van de kolomdefinitie, worden deze alleen ondersteund voor **CALC**-, **FD**- en **WKS**-kolommen. De manier waarop een AutoTekstcode in de kolomkopcel wordt weergegeven bepaalt hoe die informatie op het rapport wordt weergegeven. In het dialoogvenster **Kolomkop** worden AutoTekstcodes weergegeven in zowel hoofdletters als kleine letters. Daarom wordt tekst op het rapport in zowel hoofdletters als kleine letters weergegeven. In een standaardkalenderjaar wordt met **@CalMonthLong** bijvoorbeeld maand **7** omgezet in **Juli**. Als de naam van de maand in hoofdletters moet zijn (bijvoorbeeld **JULI**), typt u de AutoTekst-code in hoofdletters in het veld **Kolomkoptekst**. Voer bijvoorbeeld **@CALMONTHLONG** in. U kunt codes en tekst mengen. U voert bijvoorbeeld de volgende koptekst in: **periode @FiscalPeriod-@FiscalYear van @StartDate tot @EndDate**. De rapportkop die wordt gegenereerd lijkt op de volgende tekst: **Periode 1-02 van 01/01/02 tot 31/01/02**. **Opmerking:** de indeling van bepaalde tekst, zoals de lange datumnotatie, is afhankelijk van uw landinstellingen op de Finance and Operations-server. Als u deze instellingen wilt wijzigen, klikt u op de knop **Start**, klikt u op **Configuratiescherm** en vervolgens op **Regio en Taal**. In de volgende tabel vindt u de beschikbare AutoTekst-opties voor kolomkoppen.
 
 | AutoTekst-optie en -code                | Omschrijving                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -488,7 +488,7 @@ Het volgende voorbeeld toont een deel van een kolomomschrijving die een rekening
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Dimensiefilter in een kolomdefinitie
 
-Een dimensiefilter wordt gebruikt om de **FD**-kolom te beperken tot specifieke dimensiewaarden. Het filter kan één dimensie, een bereik van dimensies of een groep van dimensies bevatten. Het filter kan ook verzamelingen van dimensiewaarden opnemen. Omdat dimensiewaarden kunnen verschillen, hoeft een op ..\financial-dimensions\dimension-gebaseerd systeem niet met een exacte lengte overeen te komen. Het filter wordt toegepast, ongeacht of het rapport een rapportagestructuur bevat. U kunt op elke positie een jokerteken (\* of ?) gebruiken. Als u meerdere rekeningen opgeeft, plaatst u een komma tussen de rekeningen, zoals in het volgende voorbeeld: +Rekening=\[1200\], +Rekening=\[1100\], Afdeling=\[01?\] Om alle afdelingen voor een bepaalde rekening te ontvangen, kunt u de dimensie voor de afdeling uit het dimensiefilter uitsluiten. Bijvoorbeeld, de volgende dimensiefilters worden op dezelfde manier verwerkt:
+Een dimensiefilter wordt gebruikt om de **FD**-kolom te beperken tot specifieke dimensiewaarden. Het filter kan één dimensie, een bereik van dimensies of een groep van dimensies bevatten. Het filter kan ook verzamelingen van dimensiewaarden opnemen. Omdat dimensiewaarden kunnen verschillen, hoeft een op ..\financial-dimensions\dimension-gebaseerd systeem niet met een exacte lengte overeen te komen. Het filter wordt toegepast, ongeacht of het rapport een rapportagestructuur bevat. U kunt op elke positie een jokerteken (\* of ?) gebruiken. Wanneer u meerdere rekeningen opgeeft, plaatst u een komma tussen de rekeningen, zoals in het volgende voorbeeld: +Rekening=\[1200\], +Rekening=\[1100\], Afdeling=\[01?\] Als u alle afdelingen voor een bepaalde rekening wilt ontvangen, kunt u de dimensie Afdeling uitsluiten van het dimensiefilter. Bijvoorbeeld, de volgende dimensiefilters worden op dezelfde manier verwerkt:
 
 -   +Rekening=\[1100\],Afdeling
 -   +Rekening=\[1100\]

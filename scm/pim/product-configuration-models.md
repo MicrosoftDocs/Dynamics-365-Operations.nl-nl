@@ -3,7 +3,7 @@ title: Overzicht productconfiguratiemodellen
 description: "In dit artikel worden de termen en concepten gedefinieerd die relevant voor productconfiguratiemodellen zijn. Met productconfiguratiemodellen kunt u een generieke productstructuur maken, waarmee u veel productvarianten voor één product kunt configureren."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 30580b059a4c240ad540a9c347b0551df0ab5c02
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1270c35bc7dbe4c85a1aa991a0387b33e1cb6990
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -121,7 +121,7 @@ Als het type kenmerk <strong>Booleaans</strong>, <strong>Geheel getal</strong> m
 </tr>
 </tbody>
 </table>
-Een systeemgedefinieerde tabelbeperking vertegenwoordigt een koppeling tussen een kenmerktype en een veld in een Dynamics 365 for Operations-tabel. Een systeemgedefinieerde tabelbeperking koppelt dynamisch het kenmerktype aan het veld. Dankzij deze koppeling kan het kenmerk in een productconfiguratiemodel de gegevens van het veld in de Dynamics 365 for Operations-tabel weergeven.</td>
+Een systeemgedefinieerde tabelbeperking vertegenwoordigt een koppeling tussen een kenmerktype en een veld in een Finance and Operations-tabel. Een systeemgedefinieerde tabelbeperking koppelt dynamisch het kenmerktype aan het veld. Dankzij deze koppeling kan het kenmerk in een productconfiguratiemodel de gegevens van het veld in de Finance and Operations-tabel weergeven.</td>
 </tr>
 <tr class="odd">
 <td>Berekeningen</td>

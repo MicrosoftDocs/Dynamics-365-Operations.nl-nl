@@ -3,14 +3,14 @@ title: Handmatige correcties aanbrengen in de basislijnprognose
 description: In dit artikel wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 00e3d39d93a971dd6d4e88e322a1311eb58d7230
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0b3b56aa838888461a6d27c6612e405a3cf59414
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ De **Gecorrigeerde vraagprognose** pagina bevat een raster met de volgende struc
 ## <a name="forecast-aggregation-and-deaggregation"></a>Prognoseaggregatie en -deaggregatie
 De ondertitel van de pagina geeft het niveau van prognoseaggregatie aan. 
 
-Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Toewijzingssleutel / Artikelnummer / Kleur / Grootte / Configuratie / Stijl** is, is er geen prognoseaggregatie, en wordt de prognose weergegeven op het niveau van het artikel en de dimensies ervan. Om de aggregatie te wijzigen, gebruikt u de pagina**Prognosedimensies wijzigen**, die u kunt openen vanuit het toepassingsmenu. 
+Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Toewijzingssleutel / Artikelnummer / Kleur / Grootte / Configuratie / Stijl** is, is er geen prognoseaggregatie, en wordt de prognose weergegeven op het niveau van het artikel en de dimensies ervan. Om de aggregatie te wijzigen, gebruikt u de pagina **Prognosedimensies wijzigen**, die u kunt openen vanuit het toepassingsmenu. 
 
 Om de prognose te wijzigen, typt op in een beschikbare cel en typt u de aangepaste prognosewaarde. De bewerkte cel wordt onmiddellijk vet om aan te geven dat de prognose die deze bevat niet de prognose die vraagprognose-service heeft gemaakt, maar dat deze handmatig is gecorrigeerd. 
 
@@ -59,7 +59,7 @@ Wanneer de correctie van de geraamde hoeveelheid op een samengevoegd niveau word
 U kunt ook handmatige aanpassingen uitvoeren op de pagina **Vraagprognoseregels** door de waarde **Totale hoeveelheid** of de cellen voor **Hoeveelheid** te wijzigen in het deaggregatieraster.
 
 ## <a name="viewing-details-of-the-forecast"></a>Details van de prognose bekijken
-U kunt de pagina**Details van vraagprognose** openen om meer informatie over de prognose weer te geven. 
+U kunt de pagina **Details van vraagprognose** openen om meer informatie over de prognose weer te geven. 
 
 Op de pagina **Details van vraagprognose** wordt de volgende informatie in grafische vorm en in tabelvorm weergegeven:
 
@@ -73,7 +73,7 @@ Op de pagina **Details van vraagprognose** wordt de volgende informatie in grafi
 **Opmerkingen:**
 
 -   Het betrouwbaarheidsinterval dat in de sectie **Prognose** van de pagina wordt weergegeven is het verschil tussen de betrouwbaarheidsintervalbovengrens en de betrouwbaarheidsintervalondergrens. Om de waarden voor de boven- en ondergrens te zien, beweegt u de cursor over de grafiek in de **Historische vraag en prognose grafisch weergegeven**.
--   Als u de Microsoft Azure Machine Learning-service Vraagprognose in Dynamics 365 for Operations gebruikt, kunt u het percentage van het vertrouwensniveau opgeven dat de gegenereerde prognose moet hebben. Een waarschijnlijkheidsinterval bestaat uit een waardebereik dat als goede ramingen voor de vraagprognose fungeert. Een waarschijnlijkheidspercentage van 95% geeft aan dat er een kans van 5% is dat de vraagprognose valt buiten het bereik van het waarschijnlijkheidsinterval.
+-   Als u de Microsoft Azure Machine Learning-service Vraagprognose in Dynamics 365 for Finance and Operations gebruikt, kunt u het percentage van het vertrouwensniveau opgeven dat de gegenereerde prognose moet hebben. Een waarschijnlijkheidsinterval bestaat uit een waardebereik dat als goede ramingen voor de vraagprognose fungeert. Een waarschijnlijkheidspercentage van 95% geeft aan dat er een kans van 5% is dat de vraagprognose valt buiten het bereik van het waarschijnlijkheidsinterval.
 
 U kunt ook handmatige aanpassingen uitvoeren aan de prognose op de pagina **Details van vraagprognose** door de waarden in de rij **Prognose** te wijzigen in de sectie **Prognose**.
 

@@ -3,14 +3,14 @@ title: Quarantaineorders
 description: In dit artikel wordt beschreven hoe quarantaineorders worden gebruikt om voorraad te blokkeren.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 63d8c5827a95693a903428322367a4eec61f17d8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ In dit artikel wordt beschreven hoe quarantaineorders worden gebruikt om voorraa
 Quarantaineorders kunnen worden gebruikt om voorraad te blokkeren. U wilt bijvoorbeeld artikelen om redenen van kwaliteitscontrole in quarantaine plaatsen. Voorraad die in quarantaine is geplaatst, wordt verplaatst naar een quarantainemagazijn. **Opmerking:** als u gebruikmaakt van geavanceerde magazijnbeheerprocessen (in Magazijnbeheer), wordt quarantaineorderverwerking alleen gebruikt voor retourverkooporders.
 
 ## <a name="quarantine-onhand-inventory-items"></a>Voorhanden voorraadartikelen in quarantaine plaatsen
-Wanneer u artikelen in quarantaine plaatst, kunt u de quarantaineorders handmatig maken of het systeem zo instellen dat de quarantaineorders automatisch worden gemaakt tijdens inkomende verwerking. Als u quarantaineorders automatisch wilt maken, selecteert u de optie **Quarantainebeheer** op het tabblad **Voorraadbeleid** op de pagina **Artikelmodelgroepen**. U moet ook een standaardquarantainemagazijn opgeven in het veld **Quarantainemagazijn** voor de magazijnen van ontvangst. Wanneer de fysiek voorhanden voorraad wordt geregistreerd in een inkooporder of productieorder, worden in quarantaine geplaatste artikelen automatisch verplaatst naar een quarantainemagazijn in Microsoft Dynamics 365 for Operations. Deze verplaatsing vindt plaats omdat de status van de quarantaineorder is gewijzigd in **Gestart**. Wanneer u quarantaineorders handmatig maakt, hoeft het artikel niet te worden ingesteld voor quarantainebeheer in de gekoppelde artikelmodelgroep. Voor dit proces moet u de voorhanden voorraad opgeven die in quarantaine moet worden geplaatst, en het quarantainemagazijn dat moet worden gebruikt. U kunt de quarantaineorderstatussen gebruiken om het proces plannen.
+Wanneer u artikelen in quarantaine plaatst, kunt u de quarantaineorders handmatig maken of het systeem zo instellen dat de quarantaineorders automatisch worden gemaakt tijdens inkomende verwerking. Als u quarantaineorders automatisch wilt maken, selecteert u de optie **Quarantainebeheer** op het tabblad **Voorraadbeleid** op de pagina **Artikelmodelgroepen**. U moet ook een standaardquarantainemagazijn opgeven in het veld **Quarantainemagazijn** voor de magazijnen van ontvangst. Wanneer de fysiek voorhanden voorraad wordt geregistreerd in een inkooporder of productieorder, worden in quarantaine geplaatste artikelen automatisch verplaatst naar een quarantainemagazijn in Microsoft Dynamics 365 for Finance and Operations. Deze verplaatsing vindt plaats omdat de status van de quarantaineorder is gewijzigd in **Gestart**. Wanneer u quarantaineorders handmatig maakt, hoeft het artikel niet te worden ingesteld voor quarantainebeheer in de gekoppelde artikelmodelgroep. Voor dit proces moet u de voorhanden voorraad opgeven die in quarantaine moet worden geplaatst, en het quarantainemagazijn dat moet worden gebruikt. U kunt de quarantaineorderstatussen gebruiken om het proces plannen.
 
 ## <a name="quarantine-order-statuses"></a>Statussen van quarantaineorder
 Quarantaineorders kunnen de volgende status hebben:
@@ -48,7 +48,7 @@ Quarantaineorders kunnen de volgende status hebben:
 
 ### <a name="created"></a>Gemaakt
 
-Wanneer een quarantaineorder handmatig is gemaakt, maar het artikel nog niet in het quarantainemagazijn is geplaatst, krijgt de quarantaineorder de status **Gemaakt**. Er worden twee voorraadtransacties gegenereerd. Eén transactie is een uitgiftetransactie die de status **In bestelling**, **Fysiek gereserveerd** of**Verzameld** kan hebben. De andere transactie is een ontvangsttransactie die de status **Besteld** of **Geregistreerd** in het quarantainemagazijn kan hebben. U kunt updates in de voorraad met de normale processen reserveren, kiezen en registreren.
+Wanneer een quarantaineorder handmatig is gemaakt, maar het artikel nog niet in het quarantainemagazijn is geplaatst, krijgt de quarantaineorder de status **Gemaakt**. Er worden twee voorraadtransacties gegenereerd. Eén transactie is een uitgiftetransactie die de status **In bestelling**, **Fysiek gereserveerd** of **Verzameld** kan hebben. De andere transactie is een ontvangsttransactie die de status **Besteld** of **Geregistreerd** in het quarantainemagazijn kan hebben. U kunt updates in de voorraad met de normale processen reserveren, kiezen en registreren.
 
 ### <a name="started"></a>Gestart
 

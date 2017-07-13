@@ -1,27 +1,27 @@
 ---
 title: "Financiële rapporten weergeven"
-description: "In dit artikel wordt beschreven hoe u financiële rapporten in Microsoft Dynamics AX kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen."
-author: RobinARH
+description: "In dit artikel wordt beschreven hoe u financiële rapporten kunt bekijken en verkennen in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt beschreven hoe u financiële rapporten in Microsoft Dynamics AX kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
+In dit artikel wordt beschreven hoe u financiële rapporten kunt bekijken en verkennen in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 
 <a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
 ----------------------------
@@ -64,7 +64,7 @@ U kunt een financieel rapport vernieuwen (bijwerken) zodat het de meest recente 
 Nadat u een financieel rapport hebt bijgewerkt, kunt u het publiceren. Andere personen in de organisatie kunnen het dan weergeven. Als u een rapport wilt publiceren, klikt u in het actievenster op **Publiceren**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Een financieel rapport in een andere valuta weergeven
-Een financieel rapport kan op elk gewenst moment in een willekeurige valuta worden weergegeven. Als u een rapport in een andere valuta wilt weergeven, klikt u in het actievenster op **Valuta** en selecteert u vervolgens een valuta. Het rapport wordt in die valuta omgezet en de resultaten worden weergegeven. Alle valutacodes of symbolen die als onderdeel van het rapportontwerp zijn opgenomen, worden bijgewerkt om de nieuwe valuta weer te geven. De valuta's die in de lijst worden weergegeven, zijn de aangiftevaluta die in Microsoft Dynamics AX zijn geconfigureerd.
+Een financieel rapport kan op elk gewenst moment in een willekeurige valuta worden weergegeven. Als u een rapport in een andere valuta wilt weergeven, klikt u in het actievenster op **Valuta** en selecteert u vervolgens een valuta. Het rapport wordt in die valuta omgezet en de resultaten worden weergegeven. Alle valutacodes of symbolen die als onderdeel van het rapportontwerp zijn opgenomen, worden bijgewerkt om de nieuwe valuta weer te geven. De valuta's die in de lijst worden weergegeven, zijn de aangiftevaluta's die in Finance and Operations zijn geconfigureerd.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Een overzichtsweergave van het financiële rapport weergeven
 Een financieel rapport kan detailregels en overzichtsregels bevatten. De detailregels zijn regels die hoofdrekeningen of dimensies bevatten. De overzichtsregels zijn omschrijvings-, totaal- en berekeningsregels. Als u alleen de overzichtsregels van een rapport wilt weergeven, klikt u op **Weergeven** en vervolgens op **Alleen overzichtsregels**. Het rapport wordt samengevouwen en alleen de overzichtsregels worden weergegeven. Als u de detailregels samen met de overzichtsregels wilt weergeven, klik u op **Weergeven** en vervolgens op **Alleen overzichtsregels**.
@@ -88,7 +88,8 @@ Als u een financieel rapport wilt exporteren, klikt u in het actievenster op **E
 <a name="see-also"></a>Zie ook
 --------
 
-[Financiële rapportage voor Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Financiële rapportage voor Microsoft Dynamics AX](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

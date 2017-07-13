@@ -1,6 +1,6 @@
 ---
 title: Budgetplanning bijwerken
-description: Er zijn belangrijke verschillen in budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.
+description: Er zijn belangrijke verschillen in budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Finance and Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.
 author: twheeloc
 manager: AnnBe
 ms.date: 04/10/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fafa323c3949c09707c81ec41edae25ad2677eeb
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 83e93df3284760c46cb95b931f32cc9990ef2db1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Er zijn belangrijke verschillen in budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.  
+Er zijn belangrijke verschillen in budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Finance and Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.  
 
-De budgetplanning in Microsoft Dynamics 365 for Operations beschikt over vele verbeteringen die niet beschikbaar waren in Microsoft Dynamics AX 2012. In dit onderwerp worden de wijzigingen uitgelegd die klanten moeten uitvoeren bij een upgrade. Ook wordt verwezen naar de nieuwe functies die in overweging moeten worden genomen in het upgradeproces. Vanwege de omvang van de wijzigingen, kunnen eventuele bestaande budgetplannen pas worden geopend nadat de wijzigingen zie doorgevoerd die in dit onderwerp worden beschreven. Rapporten moeten echter blijven werken en mogen geen extra wijzigingen vereisen.
+De budgetplanning in Microsoft Dynamics 365 for Finance and Operations kent vele verbeteringen die niet beschikbaar waren in Microsoft Dynamics AX 2012. In dit onderwerp worden de wijzigingen uitgelegd die klanten moeten uitvoeren bij een upgrade. Ook wordt verwezen naar de nieuwe functies die in overweging moeten worden genomen in het upgradeproces. Vanwege de omvang van de wijzigingen, kunnen eventuele bestaande budgetplannen pas worden geopend nadat de wijzigingen zie doorgevoerd die in dit onderwerp worden beschreven. Rapporten moeten echter blijven werken en mogen geen extra wijzigingen vereisen.
 
 ## <a name="overview-of-changes"></a>Overzicht van wijzigingen
-Er zijn veel belangrijke wijzigingen aangebracht in budgettering voor Dynamics 365 for Operations. Deze wijzigingen zijn bedoeld om ervoor te zorgen dat budgetplanning gemakkelijker te configureren en bruikbaarder wordt, zodat onderhoud en instelling van jaar tot jaar afnemen. De volgende gebieden in AX 2012 bestaan niet langer in Dynamics 365 for Operations:
+Er zijn veel belangrijke wijzigingen aangebracht in budgettering voor Finance and Operations. Deze wijzigingen zijn bedoeld om ervoor te zorgen dat budgetplanning gemakkelijker te configureren en bruikbaarder wordt, zodat onderhoud en instelling van jaar tot jaar afnemen. De volgende gebieden in AX 2012 bestaan niet langer in Finance and Operations:
 
 -   Budgetplansjablonen (budgetplanningsconfiguratie)
 -   Budgetplanmappen (budgetplanningsconfiguratie)
@@ -53,15 +53,15 @@ Kolommen zijn een nieuw concept dat delen van de Excel-sjabloon en ook matrixvel
 
 ### <a name="layouts"></a>Indelingen
 
-Indelingen zijn een nieuw concept ter vervanging van de Excel-sjabloon. Indelingen bevatten de kolommen die definiëren welke budgetgegevens of werkelijke waarden en perioden moeten worden weergegeven. Indelingen worden ook gedeeld tussen de client en de Excel-invoegtoepassing. Daarom is de gebruikerservaring bij het invoeren of weergeven van gegevens in de client van Dynamics 365 for Operations dan de gebruikerservaring in AX 2012. Als u gegevens wilt invoeren in de client van Dynamics 365 for Operations, bent u niet langer beperkt tot het weergeven en invoeren van een enkel scenario in een transactieweergave. In plaats daarvan kunt u met een vergelijkingsweergave op eenvoudige wijze bedragen bekijken en invoeren voor meerdere perioden en rekeningen tegelijk. Ook kunnen indelingen worden gedefinieerd zodat u valuta, opmerkingen en andere optionele gegevens kunt invoeren en weergeven. Via indelingen kunt u definiëren welke grootboekdimensies en beschrijvingen van dimensies moeten worden weergegeven. Indelingen kunnen ook scenariobeperkingen bevatten om te bepalen welke kolommen in een sjabloon kunnen worden bewerkt en welke kolommen beschikbaar moeten zijn in Excel. Nadat u een indeling hebt gedefinieerd, wordt hiervoor een sjabloon gegenereerd. Deze sjabloon maakt op zijn beurt de bijbehorende Excel-sjabloon. Vervolgens kunt u de Excel-sjabloon bewerken om meer formules en opmaak op te nemen en deze vervolgens opnieuw uploaden. Indelingen worden vervolgens toegewezen aan elke faseregel op de pagina **Budgetplanningsproces**. Daarom vervangen de indelingen sjablonen, die op een vergelijkbare manier werden toegewezen en gebruikt.
+Indelingen zijn een nieuw concept ter vervanging van de Excel-sjabloon. Indelingen bevatten de kolommen die definiëren welke budgetgegevens of werkelijke waarden en perioden moeten worden weergegeven. Indelingen worden ook gedeeld tussen de client en de Excel-invoegtoepassing. Daarom is de gebruikerservaring bij het invoeren of weergeven van gegevens in de client van Finance and Operations beter dan de gebruikerservaring in AX 2012. Als u gegevens wilt invoeren in de client van Finance and Operations, bent u niet langer beperkt tot het weergeven en invoeren van een enkel scenario in een transactieweergave. In plaats daarvan kunt u met een vergelijkingsweergave op eenvoudige wijze bedragen bekijken en invoeren voor meerdere perioden en rekeningen tegelijk. Ook kunnen indelingen worden gedefinieerd zodat u valuta, opmerkingen en andere optionele gegevens kunt invoeren en weergeven. Via indelingen kunt u definiëren welke grootboekdimensies en beschrijvingen van dimensies moeten worden weergegeven. Indelingen kunnen ook scenariobeperkingen bevatten om te bepalen welke kolommen in een sjabloon kunnen worden bewerkt en welke kolommen beschikbaar moeten zijn in Excel. Nadat u een indeling hebt gedefinieerd, wordt hiervoor een sjabloon gegenereerd. Deze sjabloon maakt op zijn beurt de bijbehorende Excel-sjabloon. Vervolgens kunt u de Excel-sjabloon bewerken om meer formules en opmaak op te nemen en deze vervolgens opnieuw uploaden. Indelingen worden vervolgens toegewezen aan elke faseregel op de pagina **Budgetplanningsproces**. Daarom vervangen de indelingen sjablonen, die op een vergelijkbare manier werden toegewezen en gebruikt.
 
 ### <a name="budget-planning-processes"></a>Budgetplanningsprocessen
 
-Budgetplanningsprocessen zijn meestal hetzelfde als in AX 2012. De belangrijkste wijziging is de vervanging van sjablonen door indelingen. Als eerder processen werden voltooid in AX 2012, worden de processen nu bijgewerkt naar een status In uitvoering, zodat wijzigingen kunnen worden aangebracht. U moet indelingen toewijzen voor elke faseregel om te bepalen welke scenario's en tijdsperioden worden weergegeven wanneer het plan wordt geopend in de client. De indelingen bepalen ook welke Excel-sjabloon wordt geopend buiten Dynamics 365 for Operations zodat u het budget kunt weergeven. **Standaardrekeningstructuur** is een nieuw verplicht veld voor het budgetplanningsproces. Wijs voor elk budgetplanningsproces de primaire rekeningstructuur toe die moet worden gebruikt voor budgettering.
+Budgetplanningsprocessen zijn meestal hetzelfde als in AX 2012. De belangrijkste wijziging is de vervanging van sjablonen door indelingen. Als eerder processen werden voltooid in AX 2012, worden de processen nu bijgewerkt naar een status In uitvoering, zodat wijzigingen kunnen worden aangebracht. U moet indelingen toewijzen voor elke faseregel om te bepalen welke scenario's en tijdsperioden worden weergegeven wanneer het plan wordt geopend in de client. De indelingen bepalen ook welke Excel-sjabloon wordt geopend buiten Dynamics 365 for Finance and Operations zodat u het budget kunt weergeven. **Standaardrekeningstructuur** is een nieuw verplicht veld voor het budgetplanningsproces. Wijs voor elk budgetplanningsproces de primaire rekeningstructuur toe die moet worden gebruikt voor budgettering.
 
 ### <a name="attachments"></a>Bijlagen
 
-In AX 2012 werden redendocumenten opgeslagen in een bijlagemap. Er vindt geen upgrade van eerdere redendocumenten plaats. Redendocumenten worden nu opgeslagen in de database. Als deze informatie moet worden opgeslagen in de bijgewerkte versie, kunt u definitieve redendocumenten voor elk plan uploaden als bijlage met de knop **Reden** in het actievenster. In AX 2012 werden voor elk budgetplan Excel-werkbladen gemaakt op basis van de sjabloon. In Dynamics 365 for Operations wordt in alle plannen een kopie van de indeling geopend. Er worden echter geen wijzigingen in het Excel-bestand opgeslagen. Eventuele formules of ondersteunende gegevens die werden gebruikt op planbasis moeten worden toegevoegd via opmerkingen, een redendocument of een ander aanvullend proces.
+In AX 2012 werden redendocumenten opgeslagen in een bijlagemap. Er vindt geen upgrade van eerdere redendocumenten plaats. Redendocumenten worden nu opgeslagen in de database. Als deze informatie moet worden opgeslagen in de bijgewerkte versie, kunt u definitieve redendocumenten voor elk plan uploaden als bijlage met de knop **Reden** in het actievenster. In AX 2012 werden voor elk budgetplan Excel-werkbladen gemaakt op basis van de sjabloon. In Finance and Operations wordt in alle plannen een kopie van de indeling geopend. Er worden echter geen wijzigingen in het Excel-bestand opgeslagen. Eventuele formules of ondersteunende gegevens die werden gebruikt op planbasis moeten worden toegevoegd via opmerkingen, een redendocument of een ander aanvullend proces.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Een bijgewerkte omgeving configureren vanuit AX 2012
 Om te helpen bepalen hoe het bijgewerkte systeem moet worden geconfigureerd, wordt in het volgende voorbeeld een bijgewerkt budgetproces uit de demogegevens voor AX 2012 gebruikt. Er zijn standaardconfiguratiegegevens voor kolommen gemaakt om te helpen met het upgradeproces. U kunt deze standaardgegevens bijwerken of verwijderen als zij niet voldoen aan uw configuratievereisten. **Opmerking:** er zijn nieuwe vereiste velden die niet worden ingesteld in het systeem. Als u vast komt te zitten op een pagina, zoals de pagina **Budgetplanningsconfiguratie** en niet weg kunt navigeren, kunt u uw browser sluiten en vervolgens opnieuw openen op een andere pagina om gegevens in de juiste volgorde in te voeren. Er zijn vereiste velden die nog niet zijn ingesteld. Daarom kunnen zich problemen voordoen totdat alles is geconfigureerd en alle vereiste velden zijn ingesteld. In dit onderwerp wordt uitgelegd hoe deze velden instelt, zoals vereist. Dit zijn enkele van deze vereiste velden:
@@ -75,7 +75,7 @@ Om te helpen bepalen hoe het bijgewerkte systeem moet worden geconfigureerd, wor
     -   Budgetplanscenario's: werkelijke waarden, basislijn, budgetaanvraag, goedgekeurd budget
     -   Budgetplanregels voor alle scenario's in 2017 en werkelijke waarden voor zowel 2017 als 2016
 
-    De volgende kolommen worden gemaakt in Dynamics 365 for Operations:
+    De volgende kolommen worden gemaakt in Finance and Operations:
     | Kolomnaam    | Budgetplanscenario | Kolomperiode | Jaargrens |
     |----------------|----------------------|--------------------|-------------|
     | Jan Scenario 1 | Werkelijke kosten              | 1                  | 0           |
@@ -128,7 +128,7 @@ De volgende opties zijn toegevoegd als periodieke processen. Met deze opties kun
 
 ### <a name="more-complete-tracking-of-amounts"></a>Gedetailleerdere tracering van bedragen
 
-In AX 2012 had budgetplanning een enkel planbedrag dat werd opgeslagen voor elke waarde. In Dynamics 365 for Operations is het gegevensmodel uitgebreid. Er zijn nu bedragen in valuta voor boekhouding, transactievaluta en aangiftevaluta voor elke waarde. Tijdens de upgrade worden deze nieuwe kolommen automatisch ingevuld voor bestaande gegevens.
+In AX 2012 had budgetplanning een enkel planbedrag dat werd opgeslagen voor elke waarde. In Finance and Operations is het gegevensmodel uitgebreid. Er zijn nu bedragen in valuta voor boekhouding, transactievaluta en aangiftevaluta voor elke waarde. Tijdens de upgrade worden deze nieuwe kolommen automatisch ingevuld voor bestaande gegevens.
 
 ### <a name="do-not-convert-currency-in-aggregation"></a>Valuta niet converteren in aggregatie
 
