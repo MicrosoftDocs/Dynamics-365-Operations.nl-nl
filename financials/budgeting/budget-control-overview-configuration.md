@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
@@ -128,3 +128,4 @@ Nadat budgetbeheer is ingeschakeld, ontvangen gebruikers waarschuwings- en foutb
 Vanaf deze pagina kunnen gebruikers op de pagina **Statistieken voor budgetbeheer per periode** de details en reserveringen voor budgetbeschikbaarheid bekijken voor een geselecteerde combinatie van budgetbeheerdimensies. Gebruikers kunnen ook inzoomen op de pagina **Budgetbeheerstatistiek** om de budgetbeschikbaarheid te bekijken voor alle dimensies van financiële dimensies die worden gebruikt in budgetbeheer. 
 
 Als budgetbeheer is ingeschakeld voor inkooporders, kan de budgetbeheerder de werkruimte **Grootboekbudgetten en prognoses** gebruiken om de wachtrij te bekijken van alle niet-bevestigde inkooporders met budgetcontrolewaarschuwingen en -fouten. Als de budgetbeheerder machtigingen om over budget te gaan heeft geconfigureerd, kan hij of zij inkooporders rechtstreeks in de werkruimte bevestigen.    
+
