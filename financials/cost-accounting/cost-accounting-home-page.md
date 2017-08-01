@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# Startpagina kostprijsboekhouding
+# <a name="cost-accounting-home-page"></a>Startpagina kostprijsboekhouding
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ Met de module Kostprijsboekhouding kunt u het volgende doen:
 -   Overzichten maken die in het werkgebied kunnen worden weergegeven.
 -   Rapporten maken met Excel.
 
-<a id="get-started" class="xliff"></a>
-
-## Aan de slag
+## <a name="get-started"></a>Aan de slag
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ Om te begrijpen hoe u in uw dagelijks werk Kostprijsboekhouding kunt gebruiken, 
 -   [Dimensies van kostenobject](cost-objects.md)
 -   [Kostenobjecten maken](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (taakbegeleiding)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## Mobiel werkgebied voor kostenbeheer
+## <a name="cost-control-mobile-workspace"></a>Mobiel werkgebied voor kostenbeheer
 Met het mobiele werkgebied voor kostenbeheer kunnen kostenplaatsmanagers de prestaties van kostenplaatsen altijd en overal bekijken.
 
 -   [Mobiel werkgebied voor kostenbeheer](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## Power BI-inhoud voor analyse van kostprijsboekhouding
+## <a name="cost-accounting-analysis-power-bi-content"></a>Power BI-inhoud voor analyse van kostprijsboekhouding
 De Microsoft Power BI-inhoud voor Analyse kostprijsboekhouding is bedoeld voor kostencontrollers of iemand anders die verantwoordelijk is voor het uitvoeren van het kostenbeheer van een organisatie. Het bevat de belangrijkste metrische gegevens, zoals kosten, magnitude en kostentarief op basis van werkelijke kosten, budgetkosten en flexibele budgetkosten. Hierin worden transactiegegevens uit de module Kostprijsboekhouding in Finance and Operations gebruikt en wordt een samengevoegde weergave van kosten verschaft voor de gehele organisatie in één rapportagevaluta. Managers kunnen de gegevens filteren op basis van kostenobjecten om kostenbeheer van hun organisatie-eenheden uit te voeren, zelfs als de organisatie meerdere rechtspersonen heeft.
 
 -   [Power BI-inhoud voor analyse van kostprijsboekhouding](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
