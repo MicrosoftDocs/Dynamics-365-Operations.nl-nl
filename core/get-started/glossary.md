@@ -1,37 +1,35 @@
 ---
-title: Verklarende woordenlijst voor Dynamics 365 for Operations
-description: In de woordenlijst van Microsoft Dynamics 365 for Operations worden de belangrijkste termen en concepten van het product Dynamics 365 for Operations gedefinieerd.
+title: Verklarende woordenlijst Finance and Operations
+description: Deze woordenlijst bevat belangrijke termen en concepten in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 author: tonyafehr
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 07/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global
 ms.author: tfehr
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
+ms.translationtype: HT
+ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
+ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/08/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Verklarende woordenlijst voor Dynamics 365 for Operations
+# <a name="finance-and-operations-glossary"></a>Verklarende woordenlijst Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-
-In de woordenlijst van Microsoft Dynamics 365 for Operations worden de belangrijkste termen en concepten van het product Dynamics 365 for Operations gedefinieerd. 
+Deze woordenlijst bevat belangrijke termen en concepten in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
 
 ### <a name="a"></a>**A**
 
@@ -51,17 +49,9 @@ Een systeem voor elektronische betalingen dat wordt gebruikt in de Verenigde Sta
 
 De gemeten hoeveelheid die wordt ingevoerd in of het resultaat is van een activiteit.
 
-###### <a name="address-verification-service"></a>**adresverificatieservice**
+###### <a name="address-verification"></a>**adresverificatie**
 
 De service die wordt geleverd door een creditcardverwerker waarbij wordt gecontroleerd of het factuuradres, dat door een creditcardhouder is opgegeven, overeenstemt met de gegevens van de uitgevende bank.
-
-###### <a name="adjusted-unit-price"></a>**aangepaste eenheidsprijs**
-
-De berekende eenheidsprijs op basis van de op kenmerken gebaseerde prijzen en de werkelijk ontvangen potentie.
-
-###### <a name="advanced-pricing"></a>**geavanceerde prijscalculatie**
-
-Logica die wordt gebruikt om de inkoopsprijs van een potentieartikel te berekenen.
 
 ###### <a name="aging"></a>**ouderdomsrangschikking**
 
@@ -101,14 +91,13 @@ De tijdperiode waarin de optimale kwaliteit of karakteristieken van een product 
 
 Een brondocument waarin het onvoorwaardelijke verzoek is vastgelegd aan een derde partij om een twee partij op aanvraag te betalen.
 
-###### <a name="bill-of-materials"></a>**stuklijst**
-
-Een lijst met producten en de hoeveelheden die nodig zijn om één product te produceren.
-
 ###### <a name="blocking"></a>**blokkeren**
 
 De actie waarbij een document of product in de wachtstand wordt geplaatst.
 
+###### <a name="bom-bill-of-materials"></a>**Stuklijsten**
+
+Een lijst met producten en de hoeveelheden die nodig zijn om één product te produceren.
 ###### <a name="budget-control"></a>**budgetbeheer**
 
 Een praktijk waarbij uitgaven alleen worden toegestaan wanneer er budgetfondsen kunnen worden gereserveerd voor toekomstige betalingsverplichtingen.
@@ -175,14 +164,6 @@ Een lijst met hoofdrekeningen.
 
 Een boekhoudcategorie die wordt gebruikt om de financiële gevolgen van het fabriceren van producten en de opslag van voorraad bij elkaar op te tellen.
 
-###### <a name="commodity-pricing"></a>**basisproductprijsstelling**
-
-Een prijsstellingsstrategie voor het bijwerken van de prijs van verkoopartikelen die worden gemaakt uit basisproducten met vaak wisselende prijzen.
-
-###### <a name="consolidated-order"></a>**geconsolideerde order**
-
-Een brondocument met meer dan één order waarnaar wordt verwezen.
-
 ###### <a name="contractor"></a>**contractant**
 
 De rol die door een persoon wordt aangenomen die deelneemt aan een contractant-werkgeverrelatie met een rechtspersoon.
@@ -194,10 +175,6 @@ Een artikel dat gezamenlijk met een ander artikel wordt geproduceerd.
 ###### <a name="cost-center"></a>**kostenplaats**
 
 Een operationele eenheid waarvan de managers verantwoordelijk zijn voor de gebudgetteerde en werkelijke uitgaven.
-
-###### <a name="cost-of-goods-sold"></a>**kosten van verkochte goederen**
-
-Een boekhoudcategorie die wordt gebruikt om de financiële gevolgen van het fabriceren van producten en de opslag van voorraad bij elkaar op te tellen.
 
 ###### <a name="cost-variance"></a>**kostenafwijking**
 
@@ -223,7 +200,7 @@ De tijd die nodig is om een activiteit te voltooien.
 
 ###### <a name="dashboard"></a>**dashboard**
 
-De gebruikelijke beginpagina in Dynamics 365 for Operations. Op het dashboard zien gebruikers een sectie voor elk werkgebied waartoe ze toegang hebben. Elke sectie geeft de tegels uit de overzichtsecties in het bijbehorende werkgebied weer. Het dashboard bestaat uit een naam en secties met tegels.
+De gebruikelijke beginpagina in Finance and Operations. Op het dashboard zien gebruikers een sectie voor elk werkgebied waartoe ze toegang hebben. Elke sectie geeft de tegels uit de overzichtsecties in het bijbehorende werkgebied weer. Het dashboard bestaat uit een naam en secties met tegels.
 
 ###### <a name="data-entity"></a>**gegevensentiteit**
 
@@ -260,10 +237,6 @@ Een configuratietechnologie die wordt gebruikt om productvarianten te maken door
 ###### <a name="distinct-product"></a>**verschillend product**
 
 Een uniek identificeerbaar product.
-
-###### <a name="document-blocking"></a>**document blokkeren**
-
-Een methode waarbij een operationeel proces in de wachtstand wordt geplaatst, terwijl de bestelde artikelen een proces voor kwaliteitsgarantie ondergaan.
 
 ###### <a name="document-management-system"></a>**documentbeheersysteem**
 
@@ -316,10 +289,6 @@ Een valuta die een vaste wisselkoers heeft met betrekking tot een andere valuta.
 ###### <a name="fixed-quantity-kanban"></a>**kanban met vaste hoeveelheid**
 
 Een type kanban dat wordt gebruikt als het aantal kanbans dat is toegewezen aan een kanbanregel constant is.
-
-###### <a name="flexible-authentication"></a>**flexibele authenticatie**
-
-Een authenticatieproces waarmee gebruikers van verschillende systemen voor identiteitsbeheer kunnen worden geverifieerd.
 
 ###### <a name="formula"></a>**formule**
 
@@ -379,10 +348,6 @@ Een door een kanban geactiveerd proces of geactiveerde overdrachtsactiviteit in 
 
 Het onttrekken van productonderdelen aan de voorraad om de kanbanproductietaken te voltooien.
 
-###### <a name="kanban-product-quantity"></a>**kanbanproducthoeveelheid**
-
-Het aantal artikelbehoeften die voorkomen op een kanban die is gebaseerd op een kanbanregel.
-
 ###### <a name="kanban-rule"></a>**kanbanregel**
 
 Een regel in een systeem voor Lean Manufacturing dat zorgt voor de materiaalplanning en het aanvullingsbeleid door te bepalen hoe proces- en overdrachtsactiviteiten worden gecoördineerd in productiestromen.
@@ -410,10 +375,6 @@ Een alfanumerieke sleutel die een partij het recht geeft software of softwarecom
 De mogelijkheid van een partij om huidige activa te gebruiken om de vlottende passiva te vereffenen.
 
 ### <a name="m"></a>**M**
-
-###### <a name="manufacturing-overhead-based-on-material"></a>**productieoverhead op basis van materiaal**
-
-Productieoverhead wordt weergegeven als berekeningsformule voor indirecte kosten voor een toeslagpercentage. Een kostengroep die aan materiaalonderdelen is toegewezen, fungeert als de basis voor een berekeningsformule. Berekeningsformules kunnen worden gedefinieerd voor afzonderlijke producten of voor artikelgroepen die aan producten zijn toegewezen, voor meer flexibiliteit bij het berekenen van productieoverhead die op materialen is gebaseerd.
 
 ###### <a name="master-scheduling"></a>**hoofdplanning**
 
@@ -459,10 +420,6 @@ Een pakket is een compileerbare en implementeerbare eenheid van een of meer mode
 
 ###### <a name="party"></a>**partij**
 
-Een entiteit die een wettelijk bindende rol krijgt wanneer deze deelneemt aan contractuele relaties.
-
-###### <a name="party"></a>**partij**
-
 Een persoon of organisatie die deelneemt aan economische activiteiten.
 
 ###### <a name="pegging"></a>**tracering van de behoefte**
@@ -472,10 +429,6 @@ Het proces waarbij de vereiste artikelhoeveelheid wordt getraceerd om de bron te
 ###### <a name="pegging-event"></a>**gebeurtenis voor tracering van de behoefte**
 
 Een bronflowgebeurtenis die de vraag naar een product signaleert.
-
-###### <a name="phantom-item"></a>**phantom-artikel**
-
-Een artikel dat is geproduceerd maar niet is opgeslagen in voorraad.
 
 ###### <a name="planned-intercompany-demand"></a>**geplande intercompany-vraag**
 
@@ -489,17 +442,9 @@ De monetaire waarde van een economische gebeurtenis vastleggen in een specifieke
 
 De persoon die een brondocument maakt zodat een aanvraag voor economische middelen kan worden gestart.
 
-###### <a name="privilege"></a>**bevoegdheid**
-
-Een of meer machtigingen die een gebruiker nodig heeft om een taak uit te voeren.
-
 ###### <a name="procurement-catalog"></a>**aanschaffingscatalogus**
 
 Een lijst met aangeboden producten die zijn gegroepeerd per aanschaffingscategorie. Een aanschaffingscatalogus wordt gebruikt om producten aan te vragen voor intern gebruik in een organisatie.
-
-###### <a name="product-component"></a>**productonderdeel**
-
-Een deel van een product.
 
 ###### <a name="product-dimension"></a>**productdimensie**
 
@@ -507,7 +452,7 @@ De productkenmerken grootte, kleur of configuratie die worden gebruikt voor op d
 
 ###### <a name="product-family"></a>**productfamilie**
 
-Een unieke groepering artikelen, services of rechten die ofwel deel uitmaken van dezelfde productie- of leveringsactiviteiten ofwel worden aangeboden aan dezelfde marktsegmenten. In Dynamics 365 for Operations wordt de groepering aangegeven met behulp van een toewijzingssleutel voor de prognose.
+Een unieke groepering artikelen, services of rechten die ofwel deel uitmaken van dezelfde productie- of leveringsactiviteiten ofwel worden aangeboden aan dezelfde marktsegmenten. In Finance and Operations wordt de groepering aangegeven met behulp van een toewijzingssleutel voor de prognose.
 
 ###### <a name="product-master"></a>**productmodel**
 
@@ -581,10 +526,6 @@ Een methode die wordt gebruikt om prognosebehoeften in hoofdplanning te verhogen
 
 Een record dat wordt gebruikt voor het vastleggen van de operationele, juridische en financiële gevolgen van bronflowgebeurtenissen in het boekhoudsysteem.
 
-###### <a name="regulated-product"></a>**gereguleerd product**
-
-Een product dat wordt gereguleerd door een overheidsinstelling waarvoor conformiteits- en controlerapportage vereist is.
-
 ###### <a name="rfq-request-for-quotation"></a>**offerteaanvraag**
 
 Een brondocument met het verzoek om een aanbod te doen voor het leveren van een bepaalde hoeveelheid producten voor een specifieke prijs en op een specifieke datum.
@@ -593,9 +534,6 @@ Een brondocument met het verzoek om een aanbod te doen voor het leveren van een 
 
 De persoon die de economische middelen heeft aangevraagd.
 
-###### <a name="restricted-product"></a>**aan beperkingen onderworpen product**
-
-Een product waarvan de distributie aan beperkingen is onderworpen door een overheidsinstelling.
 
 ### <a name="s"></a>**S**
 
@@ -647,13 +585,6 @@ De producthoeveelheid die is gedocumenteerd in een regel van het brondocument wa
 
 Een raming van de toekomstige vraag die is berekend door een prognosealgoritme uit te voeren op de historische transactiegegevens.
 
-###### <a name="supermarket"></a>**supermarkt**
-
-Een just-in-time-voorraadlocatie met een eindige capaciteit die wordt gebruikt om materiaal op te slaan nabij het punt waar het wordt verbruikt.
-
-###### <a name="system-defined-financial-dimension-type"></a>**in systeem gedefinieerd type financiële dimensie**
-
-Een financiële dimensie die is toegewezen aan een tabel of weergave in de database die een entiteitstype vertegenwoordigt waarvan de waarden zich in het domein van één kenmerk van dat entiteitstype bevinden.
 
 ### <a name="t"></a>**T**
 
@@ -667,11 +598,11 @@ Een gecontroleerde, begeleide ervaring door de stappen in een taakregistratie. E
 
 ###### <a name="task-recorder"></a>**Taakrecorder**
 
-Een hulpmiddel dat vooraf is geïnstalleerd in Dynamics 365 for Operations. Tijdens de registratie worden met dit hulpmiddel alle gebeurtenissen geregistreerd die de gebruiker in de Dynamics 365 for Operations-gebruikersinterface invoert die worden uitgevoerd op de server - inclusief toegevoegde waarden, gewijzigde instellingen, verwijderde gegevens, enzovoort.
+Een hulpmiddel dat vooraf is geïnstalleerd in Finance and Operations. Tijdens de registratie worden met dit hulpmiddel alle gebeurtenissen geregistreerd die de gebruiker in de gebruikersinterface van Finance and Operations invoert die worden uitgevoerd op de server - inclusief toegevoegde waarden, gewijzigde instellingen, verwijderde gegevens, enzovoort.
 
 ###### <a name="task-recording"></a>**taakregistratie**
 
-Een bestand dat de acties en de aantekeningen bevat die worden vastgelegd wanneer Taakrecorder in Microsoft Dynamics 365 for Operations wordt uitgevoerd.
+Een bestand dat de acties en de aantekeningen bevat die worden vastgelegd wanneer Taakrecorder in Finance and Operations wordt uitgevoerd.
 
 ###### <a name="three-way-matching-policy"></a>**drieweg-overeenstemmingsbeleid**
 
@@ -684,12 +615,6 @@ De hoeveelheid van één of meer artikelen, die is overgeboekt of die kan worden
 ###### <a name="two-way-matching-policy"></a>**tweeweg-overeenstemmingsbeleid**
 
 Een overeenstemmingsbeleid waarbij één of meer prijzen van een leveranciersfactuur nodig zijn om deze te vergelijken met één of meer prijzen van inkooporders.
-
-### <a name="u"></a>**U**
-
-###### <a name="user-defined-financial-dimension-type"></a>**door gebruiker gedefinieerd type financiële dimensie**
-
-Een financiële dimensie die wordt toegewezen aan een door de gebruiker gedefinieerde lijst met waarden.
 
 ### <a name="v"></a>**V**
 
@@ -726,7 +651,4 @@ Een persoon die de rol aanneemt van een werknemer of een contractant en die word
 ###### <a name="workspace"></a>**werkgebied**
 
 Een pagina met een overzicht van een van de activiteiten die de gebruiker uitvoert. Op de pagina worden tegels, lijsten en grafieken gebruikt voor de weergave van werk in behandeling en gerelateerde gegevens van meerdere bronnen, en op de pagina worden de frequente taken met betrekking tot deze gegevens weergegeven. Tegels die worden weergegeven in de overzichtsectie van het werkgebied worden tevens weergegeven in de gerelateerde sectie in het dashboard.
-
-
-
 
