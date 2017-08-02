@@ -58,7 +58,7 @@ Definieer een budgetmodel dat correspondeert met alle of enkele budgetten. U ku
 > [!NOTE] 
 > Als budgetbeheer wordt gebruikt, kunt u slechts één budgetmodel aan een specifieke budgetcyclustijd koppelen. 
 
-*Budgetcodes *maken die het type budgettransacties identificeren dat moet worden vastgelegd en een eventuele gerelateerde werkstroom. Budgetcodes kunnen de volgende budgettypen ondersteunen:
+*Budgetcodes* maken die het type budgettransacties identificeren dat moet worden vastgelegd en een eventuele gerelateerde werkstroom. Budgetcodes kunnen de volgende budgettypen ondersteunen:
 
 -   Oorspronkelijk budget
 -   Overboeken
@@ -79,7 +79,7 @@ De budgetmanager kan de huidige status van een budget controleren in de werkruim
 
 Op de querypagina **Werkelijk vs. budget** kunt u inzoomen op de details de budgetbedragen in vergelijking met de werkelijke bedragen. Selecteer een regel op de querypagina, en klik vervolgens op **Periodesaldi** om budgetbedragen en werkelijke bedragen te bekijken verdeeld over boekperioden. De pagina **Budgetjournaalregels** bevat detailanalyse aan de details van het budgetbedrag in budgetregisterregels. De pagina **Algemeen journaalposten** opent de grootboektransacties die zijn opgenomen in het berekende bedrag voor **Werkelijke kosten**. 
 
-Een bedrijf dat budgetplanningsfunctionaliteit gebruikt, kan *budgetprognoses *maken en gebruiken in de werkruimte **Grootboekbudgetten en prognoses**.
+Een bedrijf dat budgetplanningsfunctionaliteit gebruikt, kan *budgetprognoses* maken en gebruiken in de werkruimte **Grootboekbudgetten en prognoses**.
 
 
 

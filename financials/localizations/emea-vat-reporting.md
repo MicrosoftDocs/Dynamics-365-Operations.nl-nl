@@ -25,9 +25,7 @@ ms.lasthandoff: 06/09/2017
 
 ---
 
-<a id="vat-reporting-for-europe" class="xliff"></a>
-
-# Btw-aangifte voor Europa
+# <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
 [!include[banner](../includes/banner.md)]
 
@@ -47,38 +45,28 @@ Dit onderwerp biedt een algemene aanpak voor het instellen en genereren van de b
 -   Nederland
 -   Zweden
 
-<a id="vat-statement-overview" class="xliff"></a>
-
-## Overzicht btw-overzichten
+## <a name="vat-statement-overview"></a>Overzicht btw-overzichten
 Het btw-overzicht is gebaseerd op bedragen van belastingtransacties. Het proces voor het genereren van een btw-aangifte is onderdeel van het btw-betalingsproces dat is geïmplementeerd via de functie Btw vereffenen en boeken. Met deze functie wordt de btw berekend die verschuldigd is voor een bepaalde periode. De berekening van de vereffening omvat de geboekte btw voor de geselecteerde vereffeningsperiode voor de belastingtransacties. Het proces voor het berekenen van gegevens voor een btw-overzicht is gebaseerd op de relatie tussen btw-codes en btw-aangiftecodes, waarbij btw-aangiftecodes overeenkomen met de btw-overzichtvakken (of labels in XML). Voor elke btw-code moeten er btw-aangiftecodes worden ingesteld voor elk type transactie, zoals belastbare verkoop, belastbare inkopen, belastbare import. Dit transactietype wordt beschreven in het gedeelte Btw-codes voor btw-aangifte verderop in dit onderwerp.
 
 Voor elke btw-aangiftecode moet een specifieke rapportindeling worden bepaald. Btw-codes worden tegelijkertijd gekoppeld aan een specifieke btw-dienst via btw-vereffeningsperioden. Voor elke btw-dienst moet een rapportindeling worden bepaald. Dus alleen btw-aangiftecodes met dezelfde rapportindeling als die is ingesteld voor een btw-dienst in btw-vereffeningsperioden voor btw-code, kunnen worden geselecteerd in de rapportinstelling van de btw-code. Een btw-transactie die is gegenereerd bij het boeken van een order of een journaal, bevat een btw-code, btw-bron, btw-richting en transactiebedragen (belastingbasisbedrag en belastingbedrag in valuta voor boekhouding, btw-valuta en transactievaluta). Op basis van de combinatie van belastingtransactiekenmerken bestaan transactiebedragen uit totaalbedragen voor btw-aangiftecodes die zijn opgegeven voor btw-codes. In de volgende afbeelding wordt de gegevensrelatie weergegeven.
 
 ![diagram](./media/diagram4.jpg)
 
-<a id="vat-statement-setup" class="xliff"></a>
-
-## Instelling btw-overzicht
+## <a name="vat-statement-setup"></a>Instelling btw-overzicht
 Als u een btw-overzicht wilt genereren, moet u het volgende instellen.
 
-<a id="sales-tax-authorities-for-vat-reporting" class="xliff"></a>
+### <a name="sales-tax-authorities-for-vat-reporting"></a>Btw-diensten voor btw-rapportage
 
-### Btw-diensten voor btw-rapportage
-
-<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-authorities/). -->
+<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-authorities). -->
 Voordat u btw-aangiftecodes kunt instellen, moet u de juiste rapportindeling voor de btw-dienst selecteren. Selecteer op de pagina **Btw-diensten** in de sectie **Algemeen** een **Rapportindeling**. Deze indeling wordt gebruikt bij het instellen van btw-aangiftecodes.
 
-<a id="sales-tax-reporting-codes" class="xliff"></a>
+### <a name="sales-tax-reporting-codes"></a>Btw-aangiftecodes
 
-### Btw-aangiftecodes
+Btw-aangiftecodes zijn vakcodes in het btw-overzicht of labelnamen in XML-indeling. Deze codes worden gebruikt voor het samenvoegen en voorbereiden van bedragen voor het rapport. De namen van de resultaatbedragen worden gebruikt bij het configureren van de ER-indeling (elektronische rapportage) van het btw-overzicht. U kunt btw-aangiftecodes maken en onderhouden op de pagina **Btw-aangiftecodes**. U moet aan elke code een rapportindeling toewijzen. Nadat u de btw-aangiftecodes hebt gemaakt, kunt u de codes kiezen in de sectie **Rapport instellen** op de pagina **Btw-codes**. <!---For more information, see [Set up sales tax reporting codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-reporting-codes).-->
 
-Btw-aangiftecodes zijn vakcodes in het btw-overzicht of labelnamen in XML-indeling. Deze codes worden gebruikt voor het samenvoegen en voorbereiden van bedragen voor het rapport. De namen van de resultaatbedragen worden gebruikt bij het configureren van de ER-indeling (elektronische rapportage) van het btw-overzicht. U kunt btw-aangiftecodes maken en onderhouden op de pagina **Btw-aangiftecodes**. U moet aan elke code een rapportindeling toewijzen. Nadat u de btw-aangiftecodes hebt gemaakt, kunt u de codes kiezen in de sectie **Rapport instellen** op de pagina **Btw-codes**. <!---For more information, see [Set up sales tax reporting codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-reporting-codes/).-->
+### <a name="sales-tax-codes-for-vat-reporting"></a>Btw-codes voor btw-aangifte
 
-<a id="sales-tax-codes-for-vat-reporting" class="xliff"></a>
-
-### Btw-codes voor btw-aangifte
-
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](http://ax.help.dynamics.com/en/wiki/set-up-sales-tax-codes/).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-codes).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
 
 <table>
 <colgroup>
@@ -260,9 +248,7 @@ d<li>De transactie <strong>Belastingbasisbedrag</strong> of <strong>Belastingbed
 > -   Het belastingbasisbedrag is een transactiebedrag van het veld **Oorsprong in valuta voor boekhouding**.
 > -   Het belastingbedrag is een transitiebedrag van het veld **Werkelijke btw-bedrag in valuta voor boekhouding**.
 
-<a id="configure-the-er-model-and-format-for-the-report" class="xliff"></a>
-
-### Het ER-model configureren en indelen voor het rapport
+### <a name="configure-the-er-model-and-format-for-the-report"></a>Het ER-model configureren en indelen voor het rapport
 
 U kunt elektronische rapportage (ER) gebruiken om overzichten en aangifte te configureren en om gegevens te exporteren in verschillende elektronische indelingen zonder de X ++-code te wijzigen. Voor aanvullende informatie:
 
@@ -270,9 +256,7 @@ U kunt elektronische rapportage (ER) gebruiken om overzichten en aangifte te con
 -   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 -   [Lokalisatievereisten: een GER-configuratie maken](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
 
-<a id="countryspecific-resources-for-vat-statements" class="xliff"></a>
-
-## Landspecifieke resources voor btw-overzichten
+## <a name="countryspecific-resources-for-vat-statements"></a>Landspecifieke resources voor btw-overzichten
 Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving van het land. Er zijn vooraf gedefinieerde algemene modellen en indelingen van btw-overzichten voor de landen die in de volgende tabel staan.
 
 

@@ -3,29 +3,27 @@ title: Inleiding tot Dynamics 365 for Finance and Operations
 description: Microsoft Dynamics 365 for Finance and Operations is de bedrijfstoepassing voor ondernemingen van Microsoft. Deze pagina helpt u het product te leren kennen en ermee aan de slag te gaan.
 author: margoc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/10/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: 71
+ms.reviewer: margoc
 ms.custom: 62303
-ms.assetid: 3d7dfc2a-4be2-4fdc-ac35-cc96868f56ab
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bb0700ad317fa8faf5dc83ea523dd151f0f4a811
-ms.openlocfilehash: 713178e79000e4358104038295452db0ba025195
+ms.translationtype: HT
+ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
+ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/28/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="introduction-to-dynamics-365-finance-and-operations"></a>Inleiding tot Dynamics 365 for Finance and Operations
 
+# <a name="introduction-to-dynamics-365-for-finance-and-operations"></a>Inleiding tot Dynamics 365 for Finance and Operations
 [!include[banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations is de bedrijfstoepassing voor ondernemingen van Microsoft. Hiermee kunnen mensen snel betere beslissingen nemen via een intelligente gebruikersinterface die toegang biedt tot real-time inzichten en gegevens. Het stelt bedrijven in staat tot transformatie en innovatie dankzij bewezen zakelijke logica waarmee zij hun bedrijfsprocessen sneller kunnen aanpassen. Het biedt bedrijven de flexibiliteit in hun eigen tempo te groeien en praktisch overal en op elk moment zaken te doen, waardoor zij hun wereldwijde activiteiten kunnen uitbreiden om in de bedrijfsbehoeften te voorzien. 
@@ -40,77 +38,82 @@ Deze documentatie kan u helpen inzicht te verkrijgen in hoe Dynamics 365 for Fin
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Financials</h3>
+<td>
+<h3><a href="../fin-and-ops/get-started/before-you-buy">Voordat u gaat kopen</a></h3>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription">Aanmelden voor een preview-abonnement</a></p>
+ <p><a href="../dev-itpro/deployment/choose-deployment-type">Een implementatieoptie kiezen</a></p>
+<p>Finance and Operations aanschaffen</p>
+ <ul style="list-style-type:none">
+  <p><a href="../fin-and-ops/get-started/fasttrack-dynamics-365-overview">FastTrack for Dynamics 365</a></p>
+  <p><a href="../dev-itpro/get-started/purchase-on-premises">De on-premises versie van Finance and Operations ophalen</a></p></ul>
+
+<h3><a href="../financials/index">Financials</a></h3>
+<p><a href="../financials/accounts-payable/accounts-payable">Leveranciers</a></p>
+<p><a href="../financials/accounts-receivable/accounts-receivable">Klanten</a></p>
+<p><a href="../financials/budgeting/budgeting-overview">Budgettering</a></p>
+<p><a href="../financials/cash-bank-management/cash-bank-management">Contanten en bankbeheer</a></p>
 <p><a href="../financials/general-ledger/audit-policy-rules">Conformiteit</a></p>
-<p>Financieel beheer</p>
-<ul style="list-style-type:none">
-<li><a href="../financials/accounts-payable/accounts-payable">Leveranciers</a></li>
-<li><a href="../financials/accounts-receivable/accounts-receivable">Klanten</a></li>
-<li><a href="../financials/budgeting/budgeting-overview">Budgettering</a></li>
-<li><a href="../financials/cash-bank-management/cash-bank-management">Contanten en bankbeheer</a></li>
-<li><a href="../financials/cost-accounting/cost-accounting-home-page">Kostprijsboekhouding</a></li>
-<li><a href="../financials/fixed-assets/fixed-assets">Vaste activa</a></li>
-<li><a href="../financials/general-ledger/general-ledger">Grootboek</a></li>
-<li><a href="../financials/public-sector/public-sector-functionality">Openbare sector</a></li>
-<li><a href="../dev-itpro/lcs-solutions/country-region">Regionale wettelijk voorgeschreven functies</a></li></ul>
+<p><a href="../financials/cost-accounting/cost-accounting-home-page">Kostprijsboekhouding</a></p>
+<p><a href="../financials/fixed-assets/fixed-assets">Vaste activa</a></p>
+<p><a href="../financials/general-ledger/general-ledger">Grootboek</a></p>
 <p><a href="../financials/project-management/overview-project-management-accounting">Projectbeheer</a></p>
-<H3>Human resources</h3>
-  <ul style="list-style-type:none">
-<li><a href="hr/manage-recruiting-process">Werving</a></li>
-<li><a href="hr/localizations/noam-usa-payroll">Salaris VS</a></li>
-</ul>
-<h3>Supply Chain Management</h3>
+<p><a href="../financials/public-sector/public-sector-functionality">Openbare sector</a></p>
+<p><a href="../dev-itpro/lcs-solutions/country-region">Regionale wettelijk voorgeschreven functies</a></p>
+
+<H3><a href="hr/hr-landing-page">Human Resources</a></h3>
+<p><a href="hr/manage-recruiting-process">Werving</a></p>
+<p><a href="hr/localizations/noam-usa-payroll">Salaris VS</a></p>
+
+<h3><a href="../supply-chain/index">Toeleveringsbeheer</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets">Kostenbeheer</a></p>
 <p><a href="../supply-chain/inventory/inventory-locations">Voorraadbeheer</a></p>
 <p>Logistiek</p>
-<ul style="list-style-type:none"><li><a href="../supply-chain/transportation/transportation-management-overview">Transportbeheer</a></li>
-<li><a href="../supply-chain/warehousing/warehouse-configuration">Magazijnbeheer</a></li></ul>
+<ul style="list-style-type:none">
+<p><a href="../supply-chain/transportation/transportation-management-overview">Transportbeheer</a></p>
+<p><a href="../supply-chain/warehousing/warehouse-configuration">Magazijnbeheer</a></p></ul>
 <p><a href="../supply-chain/master-planning/master-plans">Planning</a></p>
-  <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Productgegevensbeheer</a></p>
-  <p><a href="../supply-chain/production-control/create-production-orders">Productiebeheer</a></p>
+<p><a href="../supply-chain/pim/product-information">Productgegevensbeheer</a></p>
+<p><a href="../supply-chain/production-control/create-production-orders">Productiebeheer</a></p>
 <p>Orderbeheer</p>
-  <ul style="list-style-type:none"><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Inkoopbeheer</a></li>
-  <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Verkoop en marketing</a></li></ul>
+  <ul style="list-style-type:none">
+  <p><a href="../supply-chain/procurement/procurement-sourcing-overview">Inkoopbeheer</a></p>
+  <p><a href="../supply-chain/sales-marketing/overview-sales-marketing">Verkoop en marketing</a></p></ul>
 </td>
 <td>
-<h3>Unified Operations-platform</h3>
-<p>Intelligence</p>
-<ul style="list-style-type:none"><li><a href="../dev-itpro/analytics/analytics">Analyses</a></li>
- <li><a href="../dev-itpro/analytics/document-reporting-services">Bedrijfsdocumenten</a></li>
-<li><a href="../dev-itpro/analytics/financial-reporting-intro">Financiële rapportage</a></li>
-<li><a href="../dev-itpro/analytics/general-electronic-reporting">Wettelijke rapportage</a></li></ul>
+<h3><a href="../dev-itpro/analytics/information-access-reporting">Intelligence</a></h3>
+<p><a href="../dev-itpro/analytics/analytics">Analyses</a></p>
+ <p><a href="../dev-itpro/analytics/document-reporting-services">Bedrijfsdocumenten</a></p>
+<p><a href="../dev-itpro/analytics/financial-reporting-intro">Financiële rapportage</a></p>
+<p><a href="../dev-itpro/analytics/general-electronic-reporting">Wettelijke rapportage</a></p>
 
-<p><a href="../dev-itpro/mobile-apps/mobile-platform">Mobiel platform</a></p>
+<h3><a href="../dev-itpro/mobile-apps/mobile-platform">Mobiel platform</a></h3>
 
- <p>Functionaliteit voor ontwikkelaars</p>
-<ul style="list-style-type:none">
-<li><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Continue levering</a></li>
-<li><a href="../dev-itpro/get-started/demo-data">Demogegevens</a></li>
-<li><a href="../dev-itpro/dev-tools/developer-home-page">Ontwikkelprogramma's</a></li>
-<li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Uitbreidbaarheid</a></li>
-<li><p>Integratie</p>
-<ul style="list-style-type:none"><li><a href="../dev-itpro/data-entities/data-entities">Gegevensentiteiten</a></li>
-<li><a href="../dev-itpro/office-integration/office-integration">Office-integratie</a></li></ul></li></ul>
+<h3>Functionaliteit voor ontwikkelaars</h3>
+<p><a href="../dev-itpro/dev-tools/developer-home-page">Introductiepagina voor ontwikkelaars</a></p>
+<p><a href="../dev-itpro/extensibility/extensibility-home-page">Uitbreidbaarheid</a></p>
+<p>Integratie</p>
+<ul style="list-style-type:none"><p><a href="../dev-itpro/data-entities/data-entities">Gegevensentiteiten</a></p>
+<p><a href="../dev-itpro/office-integration/office-integration">Office-integratie</a></p></ul></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Continue levering</a></p>
+<p><a href="../dev-itpro/get-started/demo-data">Demogegevens</a></p>
 
-<p>Beheerderfunctionaliteit<p>
-<ul style="list-style-type:none">
-<li><a href="../fin-and-ops/get-started/onboarding-home">Onboarding van uw organisatie</a></li>
-<li><a href="../dev-itpro/deployment/deploy-demo-environment">Implementatie en onderhoud</a></li>
-<li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Upgraden</a></li>
-<li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Gegevensbeheer</a></li>
-<li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
-<li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organisatiebeheer</a></li>
-<li><a href="../dev-itpro/sysadmin/system-administration-home-page">Systeembeheer</a></li>
-</ul>
+<h3>Beheerderfunctionaliteit</h3>
+<p><a href="../fin-and-ops/get-started/onboarding-home">Onboarding van uw organisatie</a></p>
+<p><a href="../dev-itpro/deployment/deploy-demo-environment">Implementatie en onderhoud</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Upgraden</a></p>
+<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Gegevensbeheer</a></p>
+<p><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></p>
+<p><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Organisatiebeheer</a></p>
+<p><a href="../dev-itpro/sysadmin/system-administration-home-page">Systeembeheer</a></p>
 </td>
 <td>
 <h3>Gerelateerde producten</h3>
-<h4>Dynamics 365 for Talent</h4>
+<h4><a href="../talent/index">Dynamics 365 for Talent</a></h4>
 <p><a href="../talent/manage-benefit-program">Vergoedingen</a></p>
 <p><a href="../talent/performance-management-overview">Ontwikkeling en training van werknemers</a></p>
 <p><a href="../talent/questionnaires">Vragenlijst</a></p>
 
-<h4>Dynamics 365 for Retail</h4>
+<h4><a href="../retail/index">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality">Callcenter</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanaalinstelling en -beheer</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS en Cloud POS</p>
