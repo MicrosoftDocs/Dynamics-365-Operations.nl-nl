@@ -15,14 +15,13 @@ ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: fe644d5e8f76da95d2738a5fa76eebfe47066fb7
 ms.contentlocale: nl-nl
 ms.lasthandoff: 05/25/2017
-
 
 ---
 
@@ -34,6 +33,10 @@ ms.lasthandoff: 05/25/2017
 Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden. 
 
 U kunt klantfacturen maken die zijn gebaseerd op verkooporders of pakbonnen. U kunt ook vrije-tekstfacturen invoeren, die niet aan verkooporders zijn gekoppeld. U kunt betalingen ontvangen met behulp van verschillende betalingstypen. Voorbeelden van betalingstypen zijn wissels, contanten, cheques, creditcards en elektronische betalingen. Als uw organisatie meerdere rechtspersonen omvat, kunt u gecentraliseerde betalingen gebruiken om betalingen in één rechtspersoon te registreren namens de andere rechtspersonen.
+
+
+
+
 
 
 
