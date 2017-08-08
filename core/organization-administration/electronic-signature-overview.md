@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0cebd30a560ff033efab89c2055827b62cf31576
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,7 +39,7 @@ Dit artikel bevat een overzicht van elektronische handtekeningen en een omschrij
 Met een elektronische handtekening wordt de identiteit bevestigd van een persoon die een computerproces wil starten of goedkeuren. In bepaalde bedrijfstakken is een elektronische handtekening in dezelfde mate juridisch bindend als een handtekening die met de hand is geschreven. Elektronische handtekeningen zijn volgens de wetgeving vereist voor verschillende gereguleerde bedrijfstakken, zoals farmaceutische bedrijven, voedsel en drank, de ruimtevaartindustrie en defensie. Daarnaast zijn deze handtekeningen vereist voor de naleving van de wetgeving in 21 CFR Part 11 die is uitgevaardigd door de Food and Drug Administration (FDA) in de Verenigde Staten. **Opmerking:** Een elektronische handtekening is niet hetzelfde als een digitale handtekening. Een elektronische handtekening is simpelweg een vervanging van een handtekening die met de hand is geschreven, terwijl een digitale handtekening is voorzien van extra beveiligingsmaatregelen. Met een digitale handtekening kan worden aangegeven of met de gegevens is geknoeid door een andere gebruiker of een ander proces. Een digitale handtekening kan ook worden geverifieerd en deze verificatie kan niet worden weerlegd door de eigenaar van het certificaat dat is gebruikt voor het ondertekenen van de gegevens. Zoals hierna wordt beschreven, bevatten elektronische handtekeningen in Microsoft Dynamics 365 for Finance and Operations ingebouwde functionaliteit voor digitale handtekeningen.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Elektronische handtekeningen in Dynamics 365 for Finance and Operations
-In Finance and Operations kunt u elektronische handtekeningen gebruiken voor belangrijke bedrijfsprocessen. Een aantal processen bevat ingebouwde functies voor elektronische handtekeningen. Daarnaast kunt u aangepaste vereisten voor handtekeningen maken voor databasetabellen en -velden. Elektronische handtekeningen bevatten ingebouwde functionaliteit voor digitale handtekeningen. Elke gebruiker die documenten ondertekent, moet een geldig cryptografisch certificaat ophalen. Wanneer een document wordt ondertekend, wordt de persoonlijke sleutel die aan dit certificaat is gekoppeld, gevalideerd. In Finance and Operations worden elektronische-handtekeninggegevens geregistreerd in een logboek voor de benodigde informatie voor een audittrail. Zie [Elektronische handtekeningen instellen (taakbegeleiding)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) voor meer informatie over het instellen van elektronische handtekeningen.
+In Finance and Operations kunt u elektronische handtekeningen gebruiken voor belangrijke bedrijfsprocessen. Een aantal processen bevat ingebouwde functies voor elektronische handtekeningen. Daarnaast kunt u aangepaste vereisten voor handtekeningen maken voor databasetabellen en -velden. Elektronische handtekeningen bevatten ingebouwde functionaliteit voor digitale handtekeningen. Elke gebruiker die documenten ondertekent, moet een geldig cryptografisch certificaat ophalen. Wanneer een document wordt ondertekend, wordt de persoonlijke sleutel die aan dit certificaat is gekoppeld, gevalideerd. In Finance and Operations worden elektronische-handtekeninggegevens geregistreerd in een logboek voor de benodigde informatie voor een audittrail. Zie [Elektronische handtekeningen instellen (taakbegeleiding)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) voor meer informatie over het instellen van elektronische handtekeningen.
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Gebruikers die toegang tot elektronische handtekeningen nodig hebben
 Drie soorten gebruikers vereisen doorgaans beveiligde toegang tot elektronische handtekeningen: elektronische handtekeningbeheerders ondertekenaars en auditors van elektronische handtekeningen.

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 579abd13f75c332bb4619730ed3630ffe6065d74
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -62,7 +62,7 @@ De rechtspersonen die u maakt om uw magazijnindeling te definiëren, worden gebr
 
 U moet rekening houden met de fysieke indeling van het magazijn, zowel om opslagcapaciteiten (locatie-opslaglimieten en locatieprofielen) te definiëren en als onderdeel van uw pogingen om optimale magazijnprocessen te bereiken. 
 
-Opslaglimieten van locaties helpen ervoor te zorgen dat geen werk wordt gemaakt om te verzoeken dat voorraad wordt geplaatst op een locatie die niet de fysieke capaciteit voor die voorraad heeft. Als in sommige locaties in een magazijn bijvoorbeeld alleen plaats is voor één pallet per locatie, kunt u de locatie-opslagbeperkingen inschakelen. De waarde van **Hoeveelheid** kan worden ingesteld op **1** en de **Eenheid **kan worden ingesteld op **PL** in een specifieke locatieprofielgroep. 
+Opslaglimieten van locaties helpen ervoor te zorgen dat geen werk wordt gemaakt om te verzoeken dat voorraad wordt geplaatst op een locatie die niet de fysieke capaciteit voor die voorraad heeft. Als in sommige locaties in een magazijn bijvoorbeeld alleen plaats is voor één pallet per locatie, kunt u de locatie-opslagbeperkingen inschakelen. De waarde van **Hoeveelheid** kan worden ingesteld op **1** en de **Eenheid**kan worden ingesteld op **PL** in een specifieke locatieprofielgroep. 
 
 Als meer geavanceerdere berekeningen vereist zijn om de locatiecapaciteitsbeperkingen te controleren, kunt u de locatieprofielinstellingen gebruiken. In dit geval worden het gewicht en volume in aanmerking genomen bij de capaciteitsberekeningen. 
 
@@ -116,7 +116,7 @@ Om het gemakkelijker en sneller te maken om de acties te definiëren die zijn ge
 <a name="see-also"></a>Zie ook
 --------
 
-[Locaties in een WMS-magazijn configureren](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/) (taakbegeleiding)
+[Locaties in een WMS-magazijn configureren](/dynamics365/unified-operations/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse) (taakbegeleider)
 
 
 

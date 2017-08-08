@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 06fc9f8dda83fddea9ae331bb82c8874b15d76b9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -90,7 +90,7 @@ Met de ontwerper kunt u de kolommen aanpassen die automatisch worden toegevoegd 
 5. Pas uw wijzigingen toe op de gegevensbron door op **Bijwerken** te klikken. Klik daarna op **Gereed** om de ontwerper af te sluiten. 
 6. Als u een veld (kolom) hebt toegevoegd, klikt u op **Vernieuwen** om een bijgewerkte set gegevens op te halen.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Problemen oplossen
+## <a name="troubleshooting"></a>Problemen oplossen
 Er zijn enkele problemen die kunnen worden opgelost met enkele eenvoudige stappen.
 
 -   **De knop Applets laden wordt getoond.** Als de Excel-invoegtoepassing een knop **Applets laden** toont nadat u zich hebt aangemeld, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, klikt u erop, meldt u zich af en vervolgens weer aan met de juiste gebruiker.

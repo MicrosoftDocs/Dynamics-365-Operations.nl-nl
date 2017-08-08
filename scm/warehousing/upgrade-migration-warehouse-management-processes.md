@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ In dit onderwerp vindt u een overzicht van de opties voor migratie van product- 
 Tijdens een upgrade naar Finance and Operations worden producten geblokkeerd, als ze zijn gekoppeld aan een opslagdimensiegroep met instellingen die niet overeenkomen met de vereisten voor opslagdimensiegroepinstellingen in Finance and Operations. Na de upgrade kunt u echter met een reeks migratieopties in het proces **Opslagdimensiegroep voor artikelen wijzigen** producten deblokkeren die tijdens de upgrade zijn geblokkeerd. Vervolgens kunt u transacties voor die producten verwerken. Sommige van deze artikelen zijn mogelijk al gekoppeld aan de opslagdimensiegroepen waarvoor de voorraaddimensies Vestiging, Magazijn en Locatie actief zijn en fysiek worden bijgehouden. In dit geval kunt u met het proces **Opslagdimensiegroep voor artikelen wijzigen** die artikelen inschakelen die u wilt gebruiken in magazijnbeheersprocessen. Deze functie is handig als u de functionaliteit voor magazijnbeheer wilt gebruiken voor bestaande artikelen.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Upgraden naar Finance and Operations wanneer AX 2012 R3 WMSII wordt gebruikt
-Finance and Operations ondersteunt niet meer de verouderde module **WMSII** van Microsoft Dynamics AX 2012. In plaats daarvan kunt u de nieuwe module **Magazijnbeheer** gebruiken. Zie [Startpagina Magazijnbeheer](https://ax.help.dynamics.com/en/wiki/warehouse-management/) voor meer informatie. In vorige versies konden de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor de financiële voorraad. Als onderdeel van het upgradeproces kan echter de voorraaddimensie Pallet-ID niet langer worden ingeschakeld voor de financiële voorraad. Alle producten die zijn gekoppeld aan een opslagdimensiegroep die gebruik maakt van de voorraaddimensie Pallet-ID, worden geblokkeerd en niet verwerkt.
+Finance and Operations ondersteunt niet meer de verouderde module **WMSII** van Microsoft Dynamics AX 2012. In plaats daarvan kunt u de nieuwe module **Magazijnbeheer** gebruiken. In vorige versies konden de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor de financiële voorraad. Als onderdeel van het upgradeproces kan echter de voorraaddimensie Pallet-ID niet langer worden ingeschakeld voor de financiële voorraad. Alle producten die zijn gekoppeld aan een opslagdimensiegroep die gebruik maakt van de voorraaddimensie Pallet-ID, worden geblokkeerd en niet verwerkt.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Artikelen in inschakelen in Finance and Operations
 
@@ -70,7 +70,7 @@ Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, 
 1.  Maak tenminste één nieuw locatieprofiel.
 2.  Klik op **Magazijnbeheer** &gt; **Instellingen** &gt; **Magazijnbeheerprocessen inschakelen** &gt; **Magazijninstellingen inschakelen**.
 3.  Op de pagina **Magazijninstellingen inschakelen** voegt u de magazijnen toe die u wilt inschakelen. U kunt deze stap rechtstreeks op de pagina uitvoeren of door middel van de integratie met Microsoft Office.
-4.  Wijs een locatieprofiel toe aan alle locaties. U kunt deze stap eenvoudig uitvoeren door middel van de integratie met Microsoft Office rechtstreeks vanaf de pagina. U kunt de gegevens exporteren en importeren, of de entiteit voor gegevensverwerking in [Gegevensbeheer](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/) gebruiken.
+4.  Wijs een locatieprofiel toe aan alle locaties. U kunt deze stap eenvoudig uitvoeren door middel van de integratie met Microsoft Office rechtstreeks vanaf de pagina. U kunt de gegevens exporteren en importeren, of de entiteit voor gegevensverwerking in [Gegevensbeheer](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities) gebruiken.
 5.  Valideer de wijzigingen. Als onderdeel van het validatieproces worden verschillende validaties van gegevensintegriteit uitgevoerd. Als onderdeel van een groter upgradeproces moeten mogelijk problemen die optreden worden gecorrigeerd in de bron-implementatie. In dit geval is een aanvullende gegevensupgrade vereist.
 6.  Verwerk de wijzigingen.
 
@@ -81,7 +81,7 @@ Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, 
 3.  Definieer op de pagina **Reserveringshiërarchie** een nieuwe reserveringshiërarchie op basis van de opslag- en traceringsdimensiegroepen van het artikel.
 4.  Maak een of meer eenheidvolgordegroepen die ten minste dezelfde eenheden bevatten die worden gebruikt voor de voorraadeenheden van het artikel.
 5.  Klik op **Magazijnbeheer** &gt; **Instellingen** &gt; **Magazijnbeheerprocessen inschakelen** &gt; **Opslagdimensiegroep voor artikelen wijzigen**.
-6.  Voeg op de pagina **Opslagdimensiegroep voor artikelen wijzigen** de artikelnummers, opslagdimensiegroepen en eenheidvolgordegroepen toe. U kunt deze stap rechtstreeks op de pagina uitvoeren met behulp van de Microsoft Office-integratie of door middel van het gegevensentiteitsproces in [Gegevensbeheer](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+6.  Voeg op de pagina **Opslagdimensiegroep voor artikelen wijzigen** de artikelnummers, opslagdimensiegroepen en eenheidvolgordegroepen toe. U kunt deze stap rechtstreeks op de pagina uitvoeren met behulp van de Microsoft Office-integratie of door middel van het gegevensentiteitsproces in [Gegevensbeheer](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 7.  Valideer de wijzigingen. Als onderdeel van het validatieproces worden verschillende validaties van gegevensintegriteit uitgevoerd. Als onderdeel van een groter upgradeproces moeten mogelijk problemen die optreden worden gecorrigeerd in de bron-implementatie. In dit geval is een aanvullende gegevensupgrade vereist.
 8.  Verwerk de wijzigingen. Het bijwerken van alle voorraaddimensies kan even duren. U kunt de voortgang controleren met behulp van de taken voor batchtaken.
 

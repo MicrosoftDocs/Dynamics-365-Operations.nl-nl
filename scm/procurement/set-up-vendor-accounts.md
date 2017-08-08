@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ U kunt een leverancier in de wachtstand zetten voor diverse transactietypen. De 
 -   **Nooit**: de leverancier wordt nooit inactief gemaakt.
 
 Wanneer u een leverancier in de wachtstand zet, kunt u ook een reden opgeven en de datum waarop de wachtstandstatus eindigt. Als u geen einddatum invoert, blijft de blokkeringsstatus van de leverancier voor onbepaalde tijd actief.
+
+U kunt bulksgewijs de wachtstandstatus **Alle** bijwerken voor leveranciers op basis van de geselecteerde criteria op de pagina **Deactivering leverancier** en een reden toewijzen waarom de leverancier in de wachtstand staat.
+
+De volgende criteria worden gebruikt om leveranciers op te nemen die een periode niet actief zijn geweest, leveranciers op te nemen of uit te sluiten die werknemers zijn en leveranciers uit te sluiten waarvoor een respijtperiode geldt voor de volgende blokkering.
+
+- Op basis van het aantal dagen dat u invoert in het veld **In activiteitperiode** op de pagina **Deactivering leverancier**, berekent de toepassing de laatste datum waarop de leverancier een activiteit moet hebben om als niet-actief te worden beschouwd. Dat is de huidige datum min het aantal dagen dat u invoert. Als er een of meer facturen zijn voor de leverancier waar de datum na de berekende datum valt, wordt de leverancier van de deactivering uitgesloten. Dit gedlt ook als de leverancier betalingen heeft na die datum, opestaande opdrachten tot inkoop, openstaande inkooporders, aanvragen voor offertes of antwoorden.
+- Het aantal dagen in het veld **Respijttijd voor volgende blokkering** wordt gebruikt voor het berekenen van de laatste respijtdatum. Dat is de huidige datum min de dagen die u invoert. Dit geldt alleen voor leveranciers die eerder uitgeschakeld zijn geweest. In het geval van een eerdere deactivering controleert de toepassing de historie van andere deactiveringsgebeurtenissen van de leverancier en of de meest recente deactivering heeft plaatsgevonden vóór de laatste datum van de respijtperiode. Als dit het geval is, wordt de leverancier opgenomen in het deactiveringsproces.
+- De parameter **Werknemers opnemen** verwijst naar de leveranciers die zijn gekoppeld aan een werknemer. U kunt instellen of u die werknemers wilt opnemen.
+
+In dit proces worden altijd leveranciers uitgesloten voor wie de waarde in het veld **Blokkering van leverancier** op **Nooit** staat.
+
+Leveranciers die voor de validaties slagen, worden in de wachtstand geplaatst. Daarmee wordt het veld **Blokkering van leverancier** op **Alle** ingesteld en wordt de **Reden** geselecteerd. Een record van de wachtstandgeschiedenis wordt gemaakt voor de leverancier.
 
 ## <a name="vendor-invoice-account"></a>Te factureren leverancierrekening
 Als meerdere leveranciers hetzelfde factuuradres hebben, of als de leverancier via derden wordt gefactureerd, kunt u een factuuraccount opgeven in de leverancierrecord. De factuuraccount is de account waarnaar het factuurbedrag wordt gecrediteerd, wanneer u een leveranciersfactuur maakt op basis van een inkooporder. Als u geen factuuraccount invoert voor de leverancierrecord, wordt de leverancieraccount gebruikt als factuuraccount.

@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ Wanneer deze configuratie wordt gebruikt, wordt er een inkooporder gemaakt voor 
 Een productieorder kan vele bewerkingen hebben en elke bewerking kan worden toegewezen aan een andere leverancier. Een end-to-end productieorder kan daarom meerdere inkooporders activeren.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Uitbesteding van productiestroomactiviteiten
-In de [lean manufacturing](lean-manufacturing-overview.md)-oplossing wordt het uitbestede werk gemodelleerd als een service die is gerelateerd aan een activiteit van een [productiestroom](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (Taakbegeleider-onderwerp). Daarom kan naar dit soort uitbesteding ook worden verwezen als [uitbesteding op basis van een activiteit.](activity-based-subcontracting.md) Er is een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** geïntroduceerd en de uitbestedingsservices maken geen deel uit van de stuklijst van de eindproducten. Wanneer u lean manufacturing gebruikt, worden alle activiteiten gedefinieerd door kanbans die kunnen worden gekoppeld aan een of meer productiestroomactiviteiten. Tot nu toe lijkt die uitleg op de uitleg van productieorders. Maar terwijl productieorders altijd met een eindproduct eindigen, kunt u kanbans maken om een halffabricaat te leveren. U hoeft geen nieuw product en stuklijstniveau te introduceren.  
+In de [lean manufacturing](lean-manufacturing-overview.md)-oplossing wordt het uitbestede werk gemodelleerd als een service die is gerelateerd aan een activiteit van een [productiestroom](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) (Taakbegeleider-onderwerp). Daarom kan naar dit soort uitbesteding ook worden verwezen als [uitbesteding op basis van een activiteit.](activity-based-subcontracting.md) Er is een speciaal soort kostengroeptype met de naam **Rechtstreekse uitbesteding** geïntroduceerd en de uitbestedingsservices maken geen deel uit van de stuklijst van de eindproducten. Wanneer u lean manufacturing gebruikt, worden alle activiteiten gedefinieerd door kanbans die kunnen worden gekoppeld aan een of meer productiestroomactiviteiten. Tot nu toe lijkt die uitleg op de uitleg van productieorders. Maar terwijl productieorders altijd met een eindproduct eindigen, kunt u kanbans maken om een halffabricaat te leveren. U hoeft geen nieuw product en stuklijstniveau te introduceren.  
 
 Omdat kanbanregels zeer dynamisch kunnen zijn, kunt u verschillende varianten van levering modelleren voor hetzelfde product in een productiestroom. Wanneer u lean-uitbesteding gebruikt, worden de materiaalstroom en de financiële stroom strikt gescheiden. De hele materiaalstroom wordt vertegenwoordigd door kanbanactiviteiten. De inkooporders voor de serviceproducten en de boekingen van de ontvangst van deze services kunnen worden geautomatiseerd op basis van de status van kanbantaken in de productiestroom. Kanbantaken kunnen worden gestart en voltooid voordat de inkooporders worden gemaakt. Per periode en service kunnen de uitbestedingsdocumenten (inkooporder en inkoopontvangst van de service) worden samengevoegd. Daarom kan het aantal inkoopdocumenten en regels klein worden gehouden, zelfs in bewerkingen die heel vaak worden herhaald, waarbij leveranciers uitbestede services in een stroom voor één stuk leveren.
 

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 2
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: a65de22d01d15510c3f2cb792b86e6a88260bed9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2044bd5a3c858fb099fa7f612ede9963acc51efb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,9 +34,10 @@ Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over d
 
 Voor informatie over hoe u een upgrade naar de meest recente versie uitvoert, zie [Proces voor het bijwerken naar nieuwste update](../migration-upgrade/upgrade-latest-update.md).
 
-## <a name="application-releases"></a>Toepassingsversies
+> [!NOTE]
+> Dynamics 365 for Operations (on-premises) krijgt momenteel een andere naam. In de communicatie en licentiehandleidingen wordt verwezen naar Dynamics 365 for Operations (on-premises). De naam in het product die wordt weergegeven bij het implementeren van het product is Dynamics 365 for Finance and Operations, Enterprise edition. Beide namen verwijzen naar hetzelfde product.
 
-Zie voor meer informatie over de onlangs vrijgegeven mobiele werkgebieden en Power BI-inhoud [Onlangs vrijgegeven mobiele werkgebieden voor de mobiele Dynamics 365 for Finance and Operations-app](../mobile-apps/mobile-workspaces-released.md) en [Onlangs vrijgegeven Power BI-inhoud voor Dynamics 365 for Finance and Operations](../analytics/power-bi-home-page.md)
+## <a name="application-releases"></a>Toepassingsversies
 
 <table>
 <colgroup>
@@ -59,7 +60,7 @@ Zie voor meer informatie over de onlangs vrijgegeven mobiele werkgebieden en Pow
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise-editie</td>
 <td>Update juli 2017</td>
-<td>X</td>
+<td>7.2.11792.56024</td>
 <td>2017 juni</td>
 <td><a href="whats-new-application-July-2017-update.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise edition, update juli 2017</a></td>
 </tr>
@@ -110,7 +111,7 @@ Zie voor meer informatie over de onlangs vrijgegeven mobiele werkgebieden en Pow
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise-editie</td>
 <td>Platformupdate 8</td>
-<td>X</td>
+<td>7.0.4565.16212</td>
 <td>2017 juni</td>
 <td><a href="whats-new-platform-update-8.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise edition, platformupdate 8 (juni 2017)</a></td>
 </tr>

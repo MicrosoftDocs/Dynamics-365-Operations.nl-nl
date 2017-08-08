@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI
 
 Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
-Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace) 
+Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace) 
 
 Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
@@ -196,12 +196,16 @@ Als wijzigingsbeheer is ingeschakeld voor inkooporders, doorloopt de inkooporder
 
 De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die een inkooporder mogelijk ondergaat als wijzigingsbeheer is ingeschakeld. De versie wordt geregistreerd wanneer de inkooporder wordt goedgekeurd, niet wanneer de inkooporder naar de leverancier wordt verzonden of wordt bevestigd.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Actie**                                                                                                    | **Status en versie**                                                                                                                                                                                                                                                                                                                                                                      |
-| De oorspronkelijke versie van de inkooporder wordt gemaakt in Finance and Operations.                                      | De status is **Concept**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| De IO wordt verzonden naar het goedkeuringsproces. (Het goedkeuringsproces is een intern proces waarbij de leverancier niet betrokken is.) | De status wordt gewijzigd van **Concept** naar **Wordt gecontroleerd** naar **Goedkeuring** als de inkooporder niet wordt afgewezen tijdens het goedkeuringsproces. De goedgekeurde inkooporder wordt geregistreerd als een versie.                                                                                                                                                                                                                     | | De inkooporder wordt verzonden naar de leverancier                                                                                  | De versie wordt geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**.                                                                                                                                                                                                                                                                       | | U brengt enkele wijzigingen aan die door de leverancier zijn aangevraagd, handmatig dan wel door middel van de actie op de reactie, om zo de inkooporder bij te werken.                                                       | De status wordt weer gewijzigd in **Concept**.                                                                                                                                                                                                                                                                                                                                                    | | De inkooporder wordt weer naar het goedkeuringsproces verzonden.                                                            | De status wordt gewijzigd van **Concept** in **Wordt gecontroleerd** in **Goedkeuring** als de inkooporder niet tijdens het goedkeuringsproces wordt afgewezen. Het systeem kan ook zo worden geconfigureerd dat voor bepaalde veldwijzigingen geen nieuwe goedkeuring vereist is. In dit geval wordt de status eerst gewijzigd in **Concept** en vervolgens automatisch bijgewerkt in **Goedgekeurd**. De goedgekeurde inkooporder wordt geregistreerd als een nieuwe versie. | | U verzendt de nieuwe versie van de inkooporder naar de leverancier.                                                             | De nieuwe versie wordt geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**.                                                                                                                                                                                                                                                                   | | De leverancier keurt de nieuwe versie van de inkooporder goed.                                                                | De status wordt gewijzigd in **Bevestigd**. Dit gebeurt automatisch of wanneer u het antwoord van de leverancier ontvangt en vervolgens de inkooporder bevestigt.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Actie**                                                               | **Status en versie**                                                                                                                                       |
+| De oorspronkelijke versie van de inkooporder wordt gemaakt in Finance and Operations.      | De status is **Concept**.  |
+| De IO wordt verzonden naar het goedkeuringsproces. (Het goedkeuringsproces is een intern proces waarbij de leverancier niet is betrokken.)                                                           | De status wordt gewijzigd van **Concept** in **Wordt gecontroleerd** in **Goedkeuring** als de inkooporder niet tijdens het goedkeuringsproces wordt afgewezen. De goedgekeurde inkooporder wordt geregistreerd als een versie.           | 
+| De IO wordt verzonden naar de leverancier                                                            | De versie wordt geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**.      |
+| U brengt enkele wijzigingen aan die door de leverancier zijn aangevraagd, handmatig dan wel door middel van de actie op de reactie, om zo de inkooporder bij te werken.                                                            | De status wordt weer gewijzigd in **Concept**.     |
+|De IO wordt weer naar het goedkeuringsproces verzonden.                                                |  De status wordt gewijzigd van **Concept** in **Wordt gecontroleerd** in **Goedkeuring** als de inkooporder niet tijdens het goedkeuringsproces wordt afgewezen. Het systeem kan ook zo worden geconfigureerd dat voor bepaalde veldwijzigingen geen nieuwe goedkeuring vereist is. In dit geval wordt de status eerst gewijzigd in **Concept** en vervolgens automatisch bijgewerkt in **Goedgekeurd**. De goedgekeurde inkooporder wordt geregistreerd als een nieuwe versie.                                         |
+|U verzendt de nieuwe versie van de IO naar de leverancier.                                                |  De nieuwe versie wordt geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**.                                         |
+|De leverancier keurt de nieuwe versie van de inkooporder goed                                                |  De status wordt gewijzigd in **Bevestigd**. Dit gebeurt automatisch of wanneer u het antwoord van de leverancier ontvangt en vervolgens de inkooporder bevestigt. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Informatie over consignatievoorraad delen
 Als u consignatievoorraad gebruikt, kunnen leveranciers de interface voor leverancierssamenwerking gebruiken om informatie op de volgende pagina's te bekijken:

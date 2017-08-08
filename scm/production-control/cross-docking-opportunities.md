@@ -1,5 +1,5 @@
 ---
-title: Cross-docken van productieorders naar outbound docks | Microsoft Docs
+title: Cross-docken van productieorders naar outbound docks
 description: In dit onderwerp wordt beschreven hoe u het proces van cross-docken van gereedgemeld materiaal van een productieregel naar een outbound transportdock kunt beheren.
 author: johanhoffmann
 manager: AnnBe
@@ -8,19 +8,20 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+audience: Application User
 ms.reviewer: bis
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 0b5541b6752da0c73e4309951ecabc0793f24289
+ms.translationtype: HT
+ms.sourcegitcommit: b424be5396df9434cd799ca7e7e9342a7c476e29
+ms.openlocfilehash: 231808260eeab73120bab43558ab5745f9fdbe46
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,7 +124,6 @@ Nadat een product voor de productieregel gereed is gemeld, wordt het overgebrach
 ### <a name="additional-information"></a>Aanvullende gegevens
 
 -   Het scenario van cross-docken wordt ondersteund voor batch- en serie gecontroleerde artikelen, waarbij zowel de batch- als serienummerdimensies boven en onder de locatie in de reserveringshiërarchie zijn gedefinieerd.
--   De hoeveelheid die wordt gereedgemeld, kan niet worden opgedeeld voor een transferorder die lager is. Bijvoorbeeld: als 20 stuks worden gereedgemeld en er een transferorder aanwezig is voor 5 stuks, wordt de transferorder niet beschouwd als van toepassing voor cross-docken.
 
 
 
