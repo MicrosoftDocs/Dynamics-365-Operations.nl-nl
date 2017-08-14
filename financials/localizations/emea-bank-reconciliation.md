@@ -1,7 +1,7 @@
 ---
-title: Overzicht van bankafschriften en betalingsafstemming voor de EU
+title: Bankafschriften en betalingsafstemming voor de EU
 description: Dit onderwerp bevat een overzicht van de functionaliteit die u kunt gebruiken om betalingsgegevens van banken af te stemmen in indelingen die door Europese landen worden gebruikt.
-author: ShylaThompson
+author: neserovleo
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,22 +11,21 @@ ms.technology:
 ms.search.form: BankAccountTable, CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267994
 ms.search.region: Belgium, Norway, Sweden, Switzerland
 ms.author: v-lenest
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5e4f3fdce97cf05a8f54873cd8d80364b1505bd3
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 48cf0926cd8b440459f71e5a72044585cb73e5dc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="bank-statement-and-payment-reconciliation-overview-for-the-eu"></a>Overzicht van bankafschriften en betalingsafstemming voor de EU
+# <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Bankafschriften en betalingsafstemming voor de EU
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,16 +48,16 @@ Een *bankafschrift* of *rekeningoverzicht* is een overzicht van financiële tran
 ## <a name="customer-and-vendor-payments-import-and-return-messages"></a>Import- en retourberichten van klant- en leveranciersbetalingen
 Naast een bankafschrift kunnen banken specifieke berichten verschaffen met informatie over betalingen van klanten en leveranciers, die kunnen worden geïmporteerd in Finance and Operations en afgestemd met klant- en leverancierstransacties. Wanneer een bedrijf informatie over inkomende klantbetalingstransacties van de bank moet ontvangen, kunnen de importindelingen worden gebruikt. Voor bedrijven die gebruikmaken van automatische afschrijving en kredietoverdracht, kunnen de retourberichten worden ontvangen om de status bij te werken van betalingen die eerder zijn geëxporteerd. Het verschil tussen importindelingen en retourindelingen is dat retouren meestal zijn bedoeld om al gemaakte betalingsjournaalregels bij te werken (ze kunnen worden gemaakt wanneer automatische afschrijvingen of kredietoverdrachten zijn geïnitieerd) in plaats van nieuwe regels te maken. Sommige complexe importindelingen kunnen ook retourscenario's omvatten. In het volgende voorbeeld wordt getoond hoe deze verdeling moet worden geïmplementeerd.
 
-##### <a name="import-formats"></a>Importindelingen
+### <a name="import-formats"></a>Importindelingen
 
--   ISO 20022 camt.054 bankmeldingsbericht
+-   ISO 20022 [camt.054](emea-ISO20022-file-formats.md) bankmeldingsbericht
 -   [Nets-importindeling](emea-nor-nets-import-format.md) - Complexe functie voor Noorse betalingsindelingen
--   Import ESR-klantbetalingen
+-   [ESR](emea-che-esr-customer-payments-import.md)-klantbetalingen importeren
 -   Importbetalingsindelingen voor Zweden - BankGirot Max- en BankGirot OCR-indelingen
 
-##### <a name="return-formats"></a>Retourindelingen
+### <a name="return-formats"></a>Retourindelingen
 
--   ISO 20022 pain.002 betalingsstatusrapport
+-   ISO 20022 [pain.002](emea-ISO20022-file-formats.md) betalingsstatusrapport
 -   (DNK) BetalingsserviceBasis-returformat: retourindeling voor Betalingsservice-exportindeling voor klanten
 -   [Importbetalingsindelingen voor Zweden](emea-swe-payment-formats-import.md) -Bankgirot Autogiro-retouren
 -   (SWE) BankGirot-retour: retourindeling leveranciersbetalingen. Dit komt overeen met de Bankgirot-exportindeling

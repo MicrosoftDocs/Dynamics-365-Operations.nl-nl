@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 Dit artikel biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren. 
 
-> [!IMPORTANT] 
+> [!NOTE] 
 > De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor het ene product gelden mogelijk ook voor dezelfde functionaliteit in een verwant product.
+
+Het Help-systeem wordt gedeeld door alle Unified Operations-producten:
+- Dynamics 365 for Finance and Operations, Enterprise-editie
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations bevat een Help-systeem dat op twee hoofdonderdelen is gebaseerd:
 
 -   Een documentatiesite
 -   Taakbegeleidingen
 
-De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor het ene product gelden mogelijk ook voor dezelfde functionaliteit in een verwant product. 
-
-Het Help-systeem wordt gedeeld door alle Unified Operations-producten:
-- Dynamics 365 for Finance and Operations, Enterprise Edition
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
-
 U hebt toegang tot zowel de helponderwerpen als de taakbegeleidingen vanuit het Help-venster van het product dat u gebruikt. In de volgende schermopname ziet u Dynamics 365 for Finance and Operations
 
-![Deelvenster Help](./media/help-pane-ops-task-guides-1024x741.png)
+![Deelvenster Help](./media/help-pane-ops-task-guides.png)
 
 In dit onderwerp wordt het Help-systeem beschreven en wordt uitgelegd hoe u aangepaste documentatie en training voor uw organisatie kunt maken.
 
 > [!IMPORTANT]
-> Het tabblad **Taakbegeleidingen** is momenteel niet beschikbaar in Microsoft Dynamics 365 for Talent en Microsoft Dynamics 365 for Retail. Wij werken er momenteel aan om deze functionaliteit in een toekomstige versie beschikbaar te stellen. De taakbegeleidingen in de ervaring Aan de slag in Talent blijven beschikbaar om de basisfunctionaliteit uit te leggen. Procedurele help is ook beschikbaar op de website docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) voor zowel Retail als Talent.
+> Het tabblad **Taakbegeleidingen** is momenteel niet beschikbaar in Microsoft Dynamics 365 for Talent en Microsoft Dynamics 365 for Retail. Wij werken er momenteel aan om deze functionaliteit in een toekomstige versie beschikbaar te stellen. De taakbegeleidingen in de ervaring Aan de slag in Talent blijven beschikbaar om de basisfunctionaliteit uit te leggen. Procedurele help is ook beschikbaar op de website docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) voor zowel Retail als Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Help op docs.microsoft.com
 
-De site docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) is de primaire bron van productdocumentatie voor Finance and Operations. De site biedt de volgende functies:
+De site docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) is de primaire bron van productdocumentatie voor Finance and Operations. De site biedt de volgende functies:
 
 -   **Toegang tot de meest recente inhoud**: de site biedt ons een snellere en flexibelere manier om productdocumentatie te maken, leveren en bij te werken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.
 -   **Inhoud die door deskundigen is geschreven**: de site bevat een uitgebreidere set productdocumentatie die door communityleden in en buiten Microsoft kan worden verbeterd.
@@ -68,12 +65,13 @@ De site docs.microsoft.com ([docs.microsoft.com/dynamics365/operations](/dynamic
 ### <a name="searching-on-docsmicrosoftcom"></a>Zoeken op docs.microsoft.com
 We krijgen veel vragen over het zoeken in onze inhoud. Als u op onze site begint te zoeken vanaf een pagina over Finance and Operations, beperken we uw zoekopdracht tot Finance and Operations-inhoud. U kunt deze beperking verwijderen door te klikken op de X naast Operations in het zoekvak. 
 
-![Orders zoeken](./media/search-scope.png)
+![Orders zoeken](./media/search-scope-2.png)
 
 U vindt onze inhoud ook met een willekeurige zoekmachine. We raden voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld: site:docs.microsoft.com "<zoekterm>".  
-![Zoeken op locatie](./media/site-search.png)
 
-![Zoekresultaten op site](./media/site-search-results.png)
+![Zoeken op locatie](./media/site-search-1.png)
+
+![Zoekresultaten op site](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>De inhoudsopgave van docs.microsoft.com voor Unified Operations
 Alle producten delen dezelfde inhoudsopgave op de docs-site, waardoor klanten de context kunnen zien van het onderwerp waarin zij zich bevinden. Bovendien kunt u ook het besturingselement Filter gebruiken om onderwerpen te vinden die u zoekt.
@@ -105,7 +103,7 @@ Een taakbegeleider is een gecontroleerde, begeleide, interactieve ervaring die u
 
 We bieden verschillende sets met taakbegeleidingen aan voor elk Unified Operations-product. In de sectie Taakbegeleidingen openen via het deelvenster Help wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt. 
 
-![Leesweergave van taakbegeleider](./media/task-guide-ops-1024x742.png)
+![Leesweergave van taakbegeleider](./media/task-guide-ops.png)
 
 U kunt met de interactieve taakbegeleiding beginnen door op **Taakbegeleiding starten** onder aan het deelvenster Help te klikken. Een zwarte aanwijzer wordt geopend en wijst de actie aan die u moet uitvoeren. Volg de aanwijzingen die in de UI verschijnen en voer gegevens in volgens de aanwijzingen. 
 ![Instructies bij stappen taakbegeleider](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ U kunt uw eigen taakregistraties maken, of u kunt taakregistraties die Microsoft
 ## <a name="in-product-help"></a>Help in het product
 Voor toegang tot de Help-inhoud in Finance and Operations klikt u op het pictogram **Help** (**?**) en kiest u vervolgens Help of drukt u op Ctrl+Shift+?. In beide gevallen wordt het deelvenster Help geopend. Via het deelvenster Help kunt u artikelen of taakbegeleiders openen. 
 
-![Deelvenster Help](./media/help-pane-wiki-1024x684.png)
+![Deelvenster Help](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Taakbegeleidingen openen via het deelvenster Help
 
@@ -162,7 +160,7 @@ Voer op de pagina **Systeemparameters** de volgende stappen uit:
 
 Nadat een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster Help openen en op het tabblad **Taakbegeleidingen** klikken. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend in Finance and Operations. Als er geen taakbegeleiders worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Nadat u op een taakbegeleider in het deelvenster Help hebt geklikt, toont het deelvenster Help de stapsgewijze instructies en kunt u de taakbegeleider afspelen. 
 
-![Leesweergave van taakbegeleider](./media/task-guide-ops-1024x742.png)
+![Leesweergave van taakbegeleider](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Waar zijn de vertaalde taakbegeleiders?
 

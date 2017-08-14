@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -67,7 +67,7 @@ De volgende afbeelding toont het ontwerp van een expressie van dit type. In dit 
 
 ### <a name="data-formatting"></a>Gegevensnotatie
 
-De ER-formuleontwerper kan worden gebruikt om een expressie te definiëren voor de opmaak van gegevens die worden ontvangen van gegevensbronnen, zodat de gegevens kunnen worden verzonden als onderdeel van het genererende elektronische document. Als u opmaak hebt die moet worden toegepast als een normale regel die opnieuw moet worden gebruikt voor een indeling, kunt u die opmaak één keer introduceren in een indelingsconfiguratie als een benoemde transformatie met een opmaakexpressie. Deze benoemde transformatie kan vervolgens worden gekoppeld aan vele indelingscomponenten waarvan de uitvoer volgens de gemaakte expressie moet worden opgemaakt. De volgende afbeelding toont het ontwerp van een transformatie van dit type. In dit voorbeeld neemt de transformatie **TrimmedString** inkomende gegevens van het gegevenstype **Tekenreeks** en worden spaties vooraan en achteraan verwijderd wanneer de tekenreekswaarde wordt geretourneerd. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) De volgende afbeelding toont hoe een transformatie van dit type kan worden gebruikt. In dit voorbeeld verwijzen verschillende indelingsonderdelen die tijdens uitvoering tekst als uitvoer naar het genererende elektronische document verzenden op naam naar de transformatie **TrimmedString**. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Wanneer de indelingsonderdelen verwijzen naar de transformatie TrimmedString (bijvoorbeeld het onderdeel **partyName** in de eerdere afbeelding), wordt tekst als uitvoer verzonden naar het genererende document. De tekst bevat geen spaties vooraan en achteraan. Als u een opmaak hebt die afzonderlijk moet worden toegepast, kan deze opmaak als een afzonderlijke expressie van een binding van een specifieke indelingscomponent worden geïntroduceerd. De volgende afbeelding toont een expressie van dit type. In dit voorbeeld is het indelingsonderdel **partyType** gebonden aan de gegevensbron via een expressie waarmee inkomende gegevens vanuit het veld **Model.Company.RegistrationType** in de gegevensbron wordt geconverteerd naar tekst in hoofdletters en die tekst als uitvoer naar het elektronische document wordt verzonden. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+De ER-formuleontwerper kan worden gebruikt om een expressie te definiëren voor de opmaak van gegevens die worden ontvangen van gegevensbronnen, zodat de gegevens kunnen worden verzonden als onderdeel van het genererende elektronische document. Als u opmaak hebt die moet worden toegepast als een normale regel die opnieuw moet worden gebruikt voor een indeling, kunt u die opmaak één keer introduceren in een indelingsconfiguratie als een benoemde transformatie met een opmaakexpressie. Deze benoemde transformatie kan vervolgens worden gekoppeld aan vele indelingscomponenten waarvan de uitvoer volgens de gemaakte expressie moet worden opgemaakt. De volgende afbeelding toont het ontwerp van een transformatie van dit type. In dit voorbeeld neemt de transformatie **TrimmedString** inkomende gegevens van het gegevenstype **Tekenreeks** en worden spaties vooraan en achteraan verwijderd wanneer de tekenreekswaarde wordt geretourneerd. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) De volgende afbeelding toont hoe een transformatie van dit type kan worden gebruikt. In dit voorbeeld verwijzen verschillende indelingsonderdelen die tijdens uitvoering tekst als uitvoer naar het genererende elektronische document verzenden op naam naar de transformatie **TrimmedString**. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Wanneer de indelingsonderdelen verwijzen naar de transformatie **TrimmedString** (bijvoorbeeld het onderdeel **partyName** in de eerdere afbeelding), wordt tekst als uitvoer verzonden naar het genererende document. De tekst bevat geen spaties vooraan en achteraan. Als u een opmaak hebt die afzonderlijk moet worden toegepast, kan deze opmaak als een afzonderlijke expressie van een binding van een specifieke indelingscomponent worden geïntroduceerd. De volgende afbeelding toont een expressie van dit type. In dit voorbeeld is het indelingsonderdel **partyType** gebonden aan de gegevensbron via een expressie waarmee inkomende gegevens vanuit het veld **Model.Company.RegistrationType** in de gegevensbron wordt geconverteerd naar tekst in hoofdletters en die tekst als uitvoer naar het elektronische document wordt verzonden. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ### <a name="process-flow-control"></a>Processtroombeheer
 
@@ -104,7 +104,7 @@ ER-expressies kunnen een of alle van de volgende elementen bevatten:
 
 #### <a name="constants"></a>Constanten
 
-U kunt tekst- en numerieke constanten (waarden die niet worden berekend) gebruiken bij het ontwerpen van expressies. In de expressie VALUE ("100") + 20 worden bijvoorbeeld de numerieke constante 20 en de tekenreeksconstante '100' gebruikt en wordt de numerieke waarde **120** geretourneerd. De ER-formulierontwerper ondersteunt escapereeksen, wat betekent dat u de expressietekenreeks kunt opgeven die anders moet worden afgehandeld. De expressie **""Leo Tolstoy ""War and Peace"" Volume 1"** retourneert bijvoorbeeld de tekstreeks **Leo Tolstoy "War and Peace" Volume 1**.
+U kunt tekst- en numerieke constanten (waarden die niet worden berekend) gebruiken bij het ontwerpen van expressies. In de expressie **VALUE ("100") + 20** worden bijvoorbeeld de numerieke constante 20 en de tekenreeksconstante '100' gebruikt en wordt de numerieke waarde **120** geretourneerd. De ER-formulierontwerper ondersteunt escapereeksen, wat betekent dat u de expressietekenreeks kunt opgeven die anders moet worden afgehandeld. De expressie **""Leo Tolstoy ""War and Peace"" Volume 1"** retourneert bijvoorbeeld de tekstreeks **Leo Tolstoy "War and Peace" Volume 1**.
 
 #### <a name="operators"></a>Operatoren
 
@@ -136,7 +136,7 @@ U kunt bovendien een en-teken (&) gebruiken als operator voor tekstaaneenschakel
 
 #### <a name="operator-precedence"></a>Operatorprioriteit
 
-De volgorde waarin de onderdelen van een samenstellingsexpressie worden geëvalueerd, is belangrijk. Het resultaat van de expressie 1 + 4/2 verschilt bijvoorbeeld, afhankelijk van de vraag of de optellingsbewerking of de deelbewerking eerst wordt uitgevoerd. U kunt haakjes gebruiken om expliciet te definiëren hoe een expressie wordt geëvalueerd. Als u bijvoorbeeld wilt aangeven dat de optellingsbewerking eerst moet worden uitgevoerd, kunt u de voorafgaande expressie wijzigen in **(1 + 4) / 2**. Als de volgorde van bewerkingen die moeten worden uitgevoerd in een expressie, niet expliciet is gedefinieerd, wordt de volgorde gebaseerd op de standaardprioriteit die aan de ondersteunde operators is toegewezen. De volgende tabellen tonen de operators en de prioriteit die aan elk is toegewezen. Operators met een hogere prioriteit (bijvoorbeeld 7) worden eerder geëvalueerd dan operators met een lagere prioriteit (bijvoorbeeld 1).
+De volgorde waarin de onderdelen van een samenstellingsexpressie worden geëvalueerd, is belangrijk. Het resultaat van de expressie **1 + 4/2** verschilt bijvoorbeeld, afhankelijk van de vraag of de optellingsbewerking of de deelbewerking eerst wordt uitgevoerd. U kunt haakjes gebruiken om expliciet te definiëren hoe een expressie wordt geëvalueerd. Als u bijvoorbeeld wilt aangeven dat de optellingsbewerking eerst moet worden uitgevoerd, kunt u de voorafgaande expressie wijzigen in **(1 + 4) / 2**. Als de volgorde van bewerkingen die moeten worden uitgevoerd in een expressie, niet expliciet is gedefinieerd, wordt de volgorde gebaseerd op de standaardprioriteit die aan de ondersteunde operators is toegewezen. De volgende tabellen tonen de operators en de prioriteit die aan elk is toegewezen. Operators met een hogere prioriteit (bijvoorbeeld 7) worden eerder geëvalueerd dan operators met een lagere prioriteit (bijvoorbeeld 1).
 
 | Prioriteit | Operatoren      | Syntaxis                                                   |
 |------------|----------------|----------------------------------------------------------|
@@ -196,8 +196,8 @@ De volgende tabellen beschrijven de functies voor gegevensmanipulatie die u kunt
 | SESSIONNOW ()                              | Retourneer de datum en tijd van de huidige Finance and Operations-sessie als een datum-/tijdwaarde.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (datum, indeling)                  | Retourneert een tekenreeksvoorstelling van de datum met de opgegeven indeling.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** retourneert de huidige datum van de Finance and Operations-sessie 12/24/2015 als “**24-12-2015**” volgens de opgegeven aangepaste notatie.                                                                                                                      |
 | DATEFORMAT (datum, indeling, cultuur)         | Converteer de opgegeven datumwaarde naar een tekenreeks in de opgegeven indeling en [cultuur](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Zie voor informatie over de ondersteunde indelingen [standaard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) en [aangepast](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)).     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** retourneert de huidige Finance and Operations-sessiedatum 12/24/2015 als **“24.12.2015”** volgens de geselecteerde Duitse cultuur.                                                                                                                       |
-| DAYOFYEAR (datum)              | Retourneert de geheel-getalweergave van het aantal dagen tussen 1 januari en de opgegeven datum.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** retourneert **61**.
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** retourneert **1**.                                                                                                                       |
+| DAYOFYEAR (datum)              | Retourneert de geheel-getalweergave van het aantal dagen tussen 1 januari en de opgegeven datum.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** retourneert **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** retourneert **1**. 
+                                                                                                                      |
 
 **Functies voor gegevensconversie**
 
@@ -236,7 +236,14 @@ De volgende tabellen beschrijven de functies voor gegevensmanipulatie die u kunt
 <li>Batches als normale lijsten (onderdeel <strong>Waarde </strong>)</li>
 <li>Het huidige batchaantal (onderdeel <strong>BatchNumber</strong>)</li>
 </ul></td>
-<td>In het volgende voorbeeld wordt de gegevensbron <strong>Regels</strong> gemaakt als een recordlijst van drie records die wordt verdeeld in batches, waarvan elk maximaal twee records bevat. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Hier wordt de ontworpen indelingslay-out weergegeven, waarin bindingen met de gegevensbron <strong>Regels</strong> worden gemaakt om uitvoer in XML-indeling te genereren die afzonderlijke knooppunten voor elke batch en de records erin toont. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> Hierna ziet u het resultaat van het uitvoeren van de ontworpen indeling. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>In het volgende voorbeeld wordt de gegevensbron <strong>Regels</strong> gemaakt als een recordlijst van drie records die wordt verdeeld in batches, waarvan elk maximaal twee records bevat. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+Hier is de ontworpen indelingslay-out, waarbij bindingen naar de gegevensbron <strong>Regels</strong> worden gemaakt om uitvoer in XML-indeling te genereren die afzonderlijke knooppunten voor elke batch en de records hierin vertegenwoordigt. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+Hier is het resultaat van het uitvoeren van de ontworpen indeling. 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (record 1 [, record 2, ...])</td>
@@ -300,7 +307,14 @@ De volgende tabellen beschrijven de functies voor gegevensmanipulatie die u kunt
 <li>Opgegeven lijstrecords als normale lijsten (component <strong>Waarde </strong>)</li>
 <li>De huidige recordindex (onderdeel <strong>Nummer</strong>)</li>
 </ul></td>
-<td>In het volgende voorbeeld wordt de gegevensbron <strong>Genummerd</strong> gemaakt als een genummerde lijst leveranciersrecords van de gegevensbron <strong>Leveranciers</strong> die verwijst naar de tabel <strong>VendTable</strong>. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>Hier is de indeling, waarbij gegevensbindingen worden gemaakt om uitvoer in XML-indeling te genereren die afzonderlijke leveranciers als genummerde knooppunten voorstelt. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> Dit is het resultaat van het uitvoeren van de ontworpen indeling. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>In het volgende voorbeeld wordt de gegevensbron <strong>Genummerd</strong> gemaakt als een genummerde lijst leveranciersrecords van de gegevensbron <strong>Leveranciers</strong> die verwijst naar de tabel <strong>VendTable</strong>. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+Hier is de indeling, waarbij gegevensbindingen worden gemaakt om uitvoer in XML-indeling te genereren die afzonderlijke leveranciers als genummerde knooppunten voorstelt. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+Dit is het resultaat van het uitvoeren van de ontworpen indeling. 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (lijst)</td>
@@ -322,13 +336,24 @@ De gemaakte lijst bestat uit records met de volgende velden:
 <li>Omschrijving</li>
 </ul>
 De velden Label en Omschrijving retourneren tijdens de uitvoering waarden op basis van de taalinstellingen van de indeling.</td>
-<td>Het volgende voorbeeld toont de opsomming die in een gegevensmodel wordt geïntroduceerd. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>In het volgende voorbeeld ziet u het volgende:
+<td>Het volgende voorbeeld toont de opsomming die in een gegevensmodel wordt geïntroduceerd. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+In het volgende voorbeeld ziet u het volgende:
 <ul>
 <li>Modelopsomming die in een rapport wordt ingevoegd als gegevensbron.</li>
 <li>ER-expressie die is ontworpen om modelopsomming als parameter voor deze functie te gebruiken.</li>
 <li>Gegevensbron van het type recordlijst die wordt ingevoegd in een rapport met de gemaakte ER-expressie.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a>Het volgende voorbeeld toont de ER-indelingselementen die zijn gebonden aan de gegevensbron van het type recordlijst die met de LISTOFFIELDS-functie is gemaakt.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>Dit is het resultaat van de ontworpen indelingsuitvoering.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Opmerking:</strong> vertaalde tekst voor labels en omschrijvingen wordt gevuld met ER-indelingsuitvoer conform de taalinstellingen voor de indelingselementen FILE en FOLDER.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+In het volgende voorbeeld ziet u de elementen van de ER-indeling die afhankelijk zijn van de gegevensbron van het type recordlijst die is gemaakt met de functie LISTOFFIELDS.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+Dit is het resultaat van de uitvoering van de ontworpen indeling.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+Opmerking:</strong> vertaalde tekst voor labels en omschrijvingen is ingevuld in de uitvoer van de ER-indeling overeenkomstig de taalinstellingen die zijn geconfigureerd voor de bovenliggende indelingselementen Bestand en Map.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (lijst, veldnaam, scheidingsteken)</td>
@@ -338,7 +363,18 @@ De velden Label en Omschrijving retourneren tijdens de uitvoering waarden op bas
 <tr class="even">
 <td>SPLITLISTBYLIMIT (lijst, limietwaarde, limietbron)</td>
 <td>Splitst de gedefinieerde lijst in een nieuwe lijst met sublijsten en retourneert het resultaat in de inhoud van de recordlijst. De grenswaardeparameter geeft de waarde van de limiet om de lijst van herkomst te splitsen. De parameter voor de limietbron geeft de stap aan waarmee de totale som wordt verhoogd. De limiet wordt niet toegepast op één artikel van de gedefinieerde lijst wanneer de limietbron de gedefinieerde limiet overschrijden.</td>
-<td>In het volgende voorbeeld wordt de voorbeeldindeling weergegeven met gegevensbronnen. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>Dit is de uitvoering van de resultaatindeling die de lijst van basisproducten weergeeft.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>Het volgende voorbeeld laat dezelfde indeling zien die is aangepast om de lijst met basisproducten in batches weer te geven wanneer één batch basisproducten moet omvatten met een totaal gewicht dat niet hoger mag zijn dan 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>Dit is het resultaat van de uitvoering van de aangepaste indeling. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Opmerking:</strong> de limiet wordt niet toegepast op het laatste artikel van de oorspronkelijke lijst als de waarde (11) van de limietbron (gewicht) de gedefinieerde limiet (9) overschrijdt. Gebruik de functie <strong>WAAR</strong> of de expressie <strong>Ingeschakeld</strong> van het bijbehorende indelingselement om de sublijsten te negeren (overslaan) tijdens het genereren van het rapport (indien nodig).</td>
+<td>In het volgende voorbeeld wordt de voorbeeldindeling weergegeven met gegevensbronnen. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+Dit is de uitvoering van de resultaatindeling die de lijst van basisproducten weergeeft.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+Het volgende voorbeeld laat dezelfde indeling zien die is aangepast om de lijst met basisproducten in batches weer te geven wanneer één batch basisproducten moet omvatten met een totaal gewicht dat niet hoger mag zijn dan 9.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+Dit is het resultaat van de uitvoering van de aangepaste indeling. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>Opmerking:</strong> de limiet wordt niet toegepast op het laatste artikel van de oorspronkelijke lijst als de waarde (11) van de limietbron (gewicht) de gedefinieerde limiet (9) overschrijdt. Gebruik de functie <strong>WAAR</strong> of de expressie <strong>Ingeschakeld</strong> van het bijbehorende indelingselement om de sublijsten te negeren (overslaan) tijdens het genereren van het rapport (indien nodig).</td>
 </tr>
 <tr class="odd">
 <td>FILTER (lijst, voorwaarde)</td>
@@ -511,7 +547,10 @@ De velden Label en Omschrijving retourneren tijdens de uitvoering waarden op bas
 <tr class="even">
 <td>FORMAT (tekenreeks 1, tekenreeks 2[, tekenreeks 3, ...])</td>
 <td>Retourneer de opgegeven tekenreeks, die wordt opgemaakt door elk exemplaar van <strong>%N</strong> te vervangen door het <em>n</em>de argument. De argumenten zijn tekenreeksen. Als een argument niet voor een parameter wordt verstrekt, wordt de parameter geretourneerd als <strong>&quot;%N&quot;</strong> in de tekenreeks. Voor waarden van het type <strong>real</strong> wordt de tekenreeksconversie beperkt tot twee decimalen.</td>
-<td>In dit voorbeeld retourneert de gegevensbron <strong>PaymentModel</strong> de lijst van klantrecords via het onderdeel <strong>Klant</strong> en de waarde van de verwerkingsdatum via het veld <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> In de ER-indeling die is ontworpen om een elektronisch bestand voor geselecteerde klanten te genereren, wordt <strong>PaymentModel</strong> geselecteerd als een gegevensbron en beheert deze de processtroom. Er treedt een uitzondering op voor eindgebruikers wanneer een geselecteerde klant wordt gestopt voor de datum waarop het rapport wordt verwerkt. De formule die is ontworpen voor dit type verwerkingsbesturingselement kan de volgende bronnen gebruiken:
+<td>In dit voorbeeld retourneert de gegevensbron <strong>PaymentModel</strong> de lijst van klantrecords via het onderdeel <strong>Klant</strong> en de waarde van de verwerkingsdatum via het veld <strong>ProcessingDate</strong>. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+In de ER-indeling die is ontworpen om een elektronisch bestand voor geselecteerde klanten te genereren, wordt  <strong>PaymentModel</strong> geselecteerd als een gegevensbron en beheert deze de processtroom. Er treedt een uitzondering op voor eindgebruikers wanneer een geselecteerde klant wordt gestopt voor de datum waarop het rapport wordt verwerkt. De formule die is ontworpen voor dit type verwerkingsbesturingselement kan de volgende bronnen gebruiken:
 <ul>
 <li>Finance and Operations-label SYS70894, met de volgende tekst:
 <ul>
@@ -549,7 +588,8 @@ De formule die kan worden ontworpen, is als volgt: FORMAT (CONCATENATE (@&quot;S
 <td>TRIM (tekenreeks)</td>
 <td>Retourneert opgegeven tekst na het afkappen van voorloop- en volgspaties en verwijdert meerdere spaties tussen woorden. </td>
 <td><strong>TRIM ("     Voorbeeldtekst     ")</strong> retourneert <strong>"Voorbeeldtekst".</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (bronpad opsommingsgegevens, labeltekst opsommingswaarde)</td>
 <td>Retourneert een waarde van een opgegeven opsommingsgegevensbron door opgegeven tekst van dit opsommingslabel.</td>
 <td>Het volgende voorbeeld toont de opsomming ReportDirection die in een gegevensmodel wordt geïntroduceerd. Houd er rekening mee dat labels voor opsommingswaarden worden gedefinieerd.

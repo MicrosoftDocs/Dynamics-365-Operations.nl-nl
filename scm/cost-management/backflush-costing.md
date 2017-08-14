@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 In dit onderwerp wordt het concept van kostprijsberekening via terugwaarts afboeken geïntroduceerd dat wordt gebruikt voor Lean manufacturing. 
 
-Bij kostprijsberekening voor Lean manufacturing kan de productiestroom gebruikmaken van de kostenaccumulatiemethode die bekend staat als kostprijsberekening via terugwaarts afboeken. Bij de methode van kostprijsberekening via terugwaarts afboeken worden de directe materialen die worden verbruikt bij elkaar opgeteld in de kostenrekening voor onderhanden werk (OHW) van de productiestroom. Er wordt gebruikgemaakt van de voorraadmodelgroep voor standaardkosten. De producten die worden ontvangen van de productiestroom worden afgetrokken van het OHW tegen standaardkostprijs. Het belangrijkste verschil tussen de kostprijsberekening via terugwaarts afboeken en standaardkosten is dat afwijkingen voor kostprijsberekening via terugwaarts afboeken niet worden berekend per kanban of eindproduct. In plaats daarvan worden afwijkingen per productiestroom berekend gedurende een periode. Deze methode introduceert een echt lean concept voor het melden van materiaalverbruik. Specifiek verzamelde hoeveelheid materiaal worden niet aan een kanban of productieorder gerapporteerd. In plaats daarvan worden volledige batches of materiaalverwerkingseenheden klaargezet voor de productiestroom. Nadat de batches of materiaalverwerkingseenheden als leeg zijn geregistreerd, worden zij als verbruikt verklaard. Mogelijk wordt gebruikgemaakt van geavanceerd verbruik, afhankelijk van de [configuratie van de productiestroom](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/). Voordat gebruik kan worden gemaakt van geavanceerd verbruik, moeten organisaties zichzelf toestaan dat materiaal kan verdwijnen in het OHW van de productiestroom. De periodieke kostprijsberekening via terugwaarts afboeken bepaalt de effectieve waarde van OHW naar het einde van de periode. Deze bepaling is gebaseerd op de kanban-materiaalverwerkingseenheden en de kanbantaakstatus. Afwijkingen tussen de daadwerkelijke waarden en de werkelijke OHW-waarden per kostengroep en artikel worden verwerkt en weergegeven als afwijkingen.
+Bij kostprijsberekening voor Lean manufacturing kan de productiestroom gebruikmaken van de kostenaccumulatiemethode die bekend staat als kostprijsberekening via terugwaarts afboeken. Bij de methode van kostprijsberekening via terugwaarts afboeken worden de directe materialen die worden verbruikt bij elkaar opgeteld in de kostenrekening voor onderhanden werk (OHW) van de productiestroom. Er wordt gebruikgemaakt van de voorraadmodelgroep voor standaardkosten. De producten die worden ontvangen van de productiestroom worden afgetrokken van het OHW tegen standaardkostprijs. Het belangrijkste verschil tussen de kostprijsberekening via terugwaarts afboeken en standaardkosten is dat afwijkingen voor kostprijsberekening via terugwaarts afboeken niet worden berekend per kanban of eindproduct. In plaats daarvan worden afwijkingen per productiestroom berekend gedurende een periode. Deze methode introduceert een echt lean concept voor het melden van materiaalverbruik. Specifiek verzamelde hoeveelheid materiaal worden niet aan een kanban of productieorder gerapporteerd. In plaats daarvan worden volledige batches of materiaalverwerkingseenheden klaargezet voor de productiestroom. Nadat de batches of materiaalverwerkingseenheden als leeg zijn geregistreerd, worden zij als verbruikt verklaard. Mogelijk wordt gebruikgemaakt van geavanceerd verbruik, afhankelijk van de [configuratie van de productiestroom](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization). Voordat gebruik kan worden gemaakt van geavanceerd verbruik, moeten organisaties zichzelf toestaan dat materiaal kan verdwijnen in het OHW van de productiestroom. De periodieke kostprijsberekening via terugwaarts afboeken bepaalt de effectieve waarde van OHW naar het einde van de periode. Deze bepaling is gebaseerd op de kanban-materiaalverwerkingseenheden en de kanbantaakstatus. Afwijkingen tussen de daadwerkelijke waarden en de werkelijke OHW-waarden per kostengroep en artikel worden verwerkt en weergegeven als afwijkingen.
 
 ## <a name="configuring-backflush-costing"></a>Kostprijsberekening via terugwaarts afboeken configureren
 U moet de volgende instellingen uitvoeren om kostprijsberekening in te schakelen:

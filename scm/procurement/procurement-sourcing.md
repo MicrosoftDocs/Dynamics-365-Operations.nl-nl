@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 6e9402eb1fd559784a9013f91205503d806e2a44
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,58 +36,58 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 
 ## <a name="purchase-requisitions"></a>Opdrachten tot inkoop
 -   [Overzicht opdracht tot inkoop](purchase-requisitions-overview.md)
--   [Een bestelaanvraag voor verbruik maken](http://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
--   [Een bestelopdracht maken die een offerteaanvraag gebruikt](http://ax.help.dynamics.com/en/wiki/create-a-requisition-that-uses-an-rfq/)
--   [Machtigingen instellen voor het bestellen van producten namens iemand anders](http://ax.help.dynamics.com/en/wiki/set-up-permissions-for-ordering-products-on-behalf-of-someone-else/)
+-   [Een bestelaanvraag voor verbruik maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
+-   [Een bestelopdracht maken die een offerteaanvraag gebruikt](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-uses-rfq)
+-   [Machtigingen instellen voor het bestellen van producten namens iemand anders](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-permissions-ordering-products)
 
 ## <a name="requests-for-quotation"></a>Offerteaanvragen
 -   [Offerteaanvragen](request-quotations.md)
--   [Een offerteaanvraag maken](http://ax.help.dynamics.com/en/wiki/create-a-request-for-quotation/)
--   [Offerteaanvraagbiedingen invoeren en vergelijken en contracten toekennen](http://ax.help.dynamics.com/en/wiki/enter-and-compare-rfq-bids-and-award-contracts/)
--   [Een scoringsmethode maken voor offerteaanvragen](http://ax.help.dynamics.com/en/wiki/create-a-scoring-method-for-rfqs/)
--   [Aanvraagtypen en scoringscriteria maken voor offerteaanvragen](http://ax.help.dynamics.com/en/wiki/create-solicitation-types-and-scoring-criteria-for-rfqs/)
+-   [Een offerteaanvraag maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-request-quotation)
+-   [Offerteaanvraagbiedingen invoeren en vergelijken en contracten toekennen](/dynamics365/unified-operations/supply-chain/procurement/tasks/enter-compare-rfq-bids-award-contracts)
+-   [Een scoringsmethode maken voor offerteaanvragen](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-scoring-method-rfqs)
+-   [Aanvraagtypen en scoringscriteria maken voor offerteaanvragen](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-solicitation-types-scoring-criteria-rfqs)
 
 ## <a name="vendor-management-and-collaboration"></a>Leveranciersbeheer en samenwerking
 -   [Leverancieraccounts instellen](set-up-vendor-accounts.md)
--   [Een leverancierrekening maken](http://ax.help.dynamics.com/en/wiki/create-a-vendor-account/)
--   [Een bankrekening van een leverancier maken](http://ax.help.dynamics.com/en/wiki/create-a-vendor-bank-account/)
--   [Zoeken naar leveranciers](http://ax.help.dynamics.com/en/wiki/search-for-vendors/)
--   [Leveranciers voor specifieke producten goedkeuren](http://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-products/)
+-   [Een leverancierrekening maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-vendor-account)
+-   [Een bankrekening van een leverancier maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-vendor-bank-account)
+-   [Zoeken naar leveranciers](/dynamics365/unified-operations/supply-chain/procurement/tasks/search-vendors)
+-   [Leveranciers voor specifieke producten goedkeuren](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-products)
 -   [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md)
 -   [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md)
 -   [Samenwerking met leveranciers instellen en onderhouden](set-up-maintain-vendor-collaboration.md)
 -   [Demoscript Inkomende consignatievoorraad voor Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(whitepaper)
--   [Consignmentvoorraad bewaken door middel van leverancierssamenwerking](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
+-   [Consignmentvoorraad bewaken door middel van leverancierssamenwerking](/dynamics365/unified-operations/supply-chain/inventory/tasks/monitor-consignment-inventory-vendor-collaboration)
 -   [Samenwerken met leveranciers via de portal Leveranciers](collaborate-vendors-vendor-portal.md) (alleen versies van Dynamics AX van februari 2016 en mei 2016)
 -   [Configuratie van beveiliging voor Leveranciersportal-gebruikers](configure-security-vendor-portal-users.md) (alleen versies van Finance and Operations van februari 2016 en mei 2016)
 -   [Mobiel werkgebied voor leverancierssamenwerking voor de app Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Beheer inkoopproducten
 -   [Aanschaffingscatalogi](procurement-catalogs.md)
--   [Een aanschaffingscatalogus maken](http://ax.help.dynamics.com/en/wiki/create-a-procurement-catalog/)
+-   [Een aanschaffingscatalogus maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-procurement-catalog)
 -   [Leverancierscatalogi importeren](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (blogbericht)
--   [Een hiërarchie van aanschaffingscategorieën instellen](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
--   [Beleid instellen voor categoriehiërarchieën voor aanschaffing](http://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/)
--   [Leveranciers goedkeuren voor specifieke aanschaffingscategorieën](http://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/)
+-   [Een hiërarchie van aanschaffingscategorieën instellen](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-procurement-category-hierarchy)
+-   [Beleid instellen voor categoriehiërarchieën voor aanschaffing](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies)
+-   [Leveranciers goedkeuren voor specifieke aanschaffingscategorieën](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories)
 
 ## <a name="procurement"></a>Inkoop
 -   [Overzicht van inkooporders](purchase-order-overview.md)
 -   [Inkooporder maken](purchase-order-creation.md)
 -   [Goedkeuring en bevestiging van inkooporder](purchase-order-approval-confirmation.md)
--   [Inkooporder maken](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order/)
--   [Een herhalingsinkooporder maken](http://ax.help.dynamics.com/en/wiki/create-a-repeat-purchase-order/)
--   [Een inkooporder maken op basis van een verkooporder](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-from-a-sales-order/)
--   [Een inkooporder maken voor een eenmalige leverancier](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-for-a-one-time-supplier/)
--   [Een inkooporder maken met een afleveringsschema](http://ax.help.dynamics.com/en/wiki/create-a-purchase-order-with-a-delivery-schedule/)
--   [Een inkoopretourorder maken](http://ax.help.dynamics.com/en/wiki/create-a-purchase-return-order/)
--   [Maak een vrijgaveorder voor inkoop van een inkoopovereenkomst](http://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
--   [Een vrijgaveorder voor inkoop maken wanneer de inkooporder wordt gemaakt](http://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-when-creating-the-purchase-order/)
--   [Een nieuwe consignatieaanvullingsorder maken](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/)
+-   [Inkooporder maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order)
+-   [Een herhalingsinkooporder maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-repeat-purchase-order)
+-   [Een inkooporder maken op basis van een verkooporder](/dynamics365/unified-operations/supply-chain/sales-marketing/tasks/create-purchase-order-sales-order)
+-   [Een inkooporder maken voor een eenmalige leverancier](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order-one-time-supplier)
+-   [Een inkooporder maken met een afleveringsschema](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-order-delivery-schedule)
+-   [Een inkoopretourorder maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-return-order)
+-   [Maak een vrijgaveorder voor inkoop van een inkoopovereenkomst](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-release-order-purchase-agreement)
+-   [Een vrijgaveorder voor inkoop maken wanneer de inkooporder wordt gemaakt](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-release-order-creating-purchase-order)
+-   [Een nieuwe consignatieaanvullingsorder maken](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-consignment-replenishment-order)
 
 ## <a name="prices-and-discounts"></a>Prijzen en kortingen
 -   [Inkoopovereenkomsten](purchase-agreements.md)
--   [Een inkoopovereenkomst maken](http://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+-   [Een inkoopovereenkomst maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-agreement)
 -   [Leverancierskortingen](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (whitepaper)
 
 ## <a name="product-receipt-and-invoicing"></a>Productontvangstbon en facturering
@@ -98,11 +98,11 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 ## <a name="procurement-and-sourcing-workflows"></a>Workflows voor inkoopbeheer
 -   [Overzicht van inkoopbeheer](procurement-sourcing-overview.md)
 -   [Workflows voor inkoopbeheer](procurement-sourcing-workflows.md)
--   [De ontvangst van goederen registreren voor de inkooporder](http://ax.help.dynamics.com/en/wiki/record-receipt-of-goods-on-a-purchase-order/)
+-   [De ontvangst van goederen registreren voor de inkooporder](/dynamics365/unified-operations/supply-chain/procurement/tasks/record-receipt-goods-purchase-order)
 -   [Workflow voor opdracht tot inkoop](purchase-requisitions-workflow.md)
 -   [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (whitepaper)
 -   [Inkoopbeleid](purchase-policies.md)
--   [Een inkoopbeleid maken](http://ax.help.dynamics.com/en/wiki/create-purchasing-policies/)
+-   [Een inkoopbeleid maken](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchasing-policies)
 
 
 

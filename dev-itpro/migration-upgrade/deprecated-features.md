@@ -3,25 +3,25 @@ title: Afgeschafte functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,9 +29,10 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
+In dit onderwerp worden functies beschreven die zijn verwijderd uit Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, of die zijn gepland voor verwijdering.
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Functies die zijn afgeschaft in Dynamics 365 for Finance and Operations, Enterprise Edition, update juli 2017
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Functies die zijn afgeschaft voor alle implementatietypen van de update van juli 2017 met Platform update 8
+Deze lijst bevat functies die zijn afgeschaft voor implementaties in de cloud zowel on-premises.
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portal voor mobiele apparaten voor magazijnbeheer
 
@@ -40,7 +41,7 @@ Portal voor mobiele apparaten voor magazijnbeheer (WMDP) is een zelfstandig onde
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **Reden voor afschaffing**       | Dubbele functionaliteit.                        |
-| **Vervangen door een andere functie?** | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie [Microsoft Dynamics 365 for Finance and Operations - Warehousing installeren en configureren](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app) voor meer informatie over instellingen en vereisten. |
+| **Vervangen door een andere functie?** | Ja. Deze functie is vervangen door Finance and Operations - Warehousing. Zie [Microsoft Dynamics 365 for Finance and Operations - Warehousing installeren en configureren](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app) voor meer informatie over instellingen en vereisten. |
 | **Modules die worden beïnvloed**             | Magazijnbeheer, Transportbeheer |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Afstemmingsregel voor geavanceerde bankafstemming voor handmatig afstemmen
@@ -62,6 +63,28 @@ De Windows 8-tabletapp leverde functionaliteit voor het invoeren van onkosten en
 | **Reden voor afschaffing**       | Finance and Operations is compatibel met tablets. De tablet-app is niet langer vereist. |
 | **Vervangen door een andere functie?** | Nr.                                                                                      |
 | **Modules die worden beïnvloed**             | Onkostenbeheer                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Functies die zijn afgeschaft voor implementaties on-premises van de update van juli 2017 met Platform update 8
+
+### <a name="ssrs-report-viewer-control"></a>Besturingselement SSRS-rapportweergave
+
+Deze functie werd gebruikt voor interactie met rapporten in HTML-indeling in de webclient Finance and Operations.
+
+|                                  |  |
+|----------------------------------|--|
+| **Reden voor afschaffing**       | SQL Reporting Services (SSRS) biedt geen ondersteuning voor een rapportviewerbesturingselement dat compatibel is met de on-premises webclient.      |
+| **Vervangen door een andere functie?** | Rapporten worden gegenereerd als PDF-documenten door de on-premises service. Gebruik uitbreidingen om ingesloten gedetailleerde koppelingen in te schakelen voor toepassingrapporten. |
+| **Modules die worden beïnvloed**             | Alles    |
+
+### <a name="document-routing-agent"></a>Documentrouteringsagent
+
+De Documentrouteringsagent-client wordt gebruikt als een servicegateway voor de verbinding uit de cloud met door het domein geverifieerde netwerkprinters.
+
+|                                  |  |
+|----------------------------------|--|
+| **Reden voor afschaffing**       | On-premises implementaties worden gehost op servers die door het domein zijn geverifieerd. Dit biedt beveiligde, directe toegang tot netwerkprinterapparaten. |
+| **Vervangen door een andere functie?** | Dit onderdeel is niet nodig voor on-premises implementaties.|
+| **Modules die worden beïnvloed**             | Geen               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Functies die in Dynamics 365 for Operations 1611 met platformupdate 3 zijn verwijderd
@@ -488,11 +511,20 @@ Deze tool is gebruikt om belangrijke gegevens van Microsoft Dynamics CRM te inte
 
 Gegevenspartities bieden een logische scheiding van gegevens in de Microsoft Dynamics AX-database.
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | Reden voor afschrijving       | In Microsoft Dynamics AX 2012 R2 werden gegevenspartities geïntroduceerd om de isolatie van gegevens mogelijk te maken. In een gebruikelijk scenario heeft een bedrijf dochterondernemingen en mogen de gegevens van de ene vestiging niet zichtbaar zijn voor een andere vestiging, hoewel beide dochterondernemingen worden beheerd door dezelfde IT-afdeling. Er waren echter extra scripts en beheeroverhead in het hele programma vereist om nieuwe partities maken en deze te vullen met gegevens, en om back-ups van partitiegegevens te maken. In de cloud, waar we toegang hebben tot PaaS-databaseservices (platform als een service) (Microsoft Azure SQL-database), is het veel efficiënter gebruik te maken van een database als de isolatiecontainer dan om isolatie uit te voeren in het programma. Ongeacht of partitioneren van gegevens is vereist voor dochterondernemingen, voor meerdere tenants of gewoon voor schaal, geloven wij dat de scenario's beter kunnen worden verwerkt via meerdere databases of meerdere exemplaren van Dynamics AX. |
-| Vervangen door een andere functie? | In een toekomstige versie zullen gegevenspartities worden vervangen via ondersteuning voor meerdere databases of Dynamics AX-exemplaren.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Modules die worden beïnvloed             | Alles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Vervangen door een andere functie? | In een toekomstige versie zullen gegevenspartities worden vervangen via ondersteuning voor meerdere databases of Dynamics AX-exemplaren.    |
+| Modules die worden beïnvloed             | Alles  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>Opslag in database en bestandsshare voor bijlagen
+In Microsoft Dynamics AX 2012 was opslag van bijlagen in de database en bestandsshares toegestaan. Beide opties worden niet langer ondersteund.
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| Reden voor afschrijving       | Opslag in bestandsshares wordt niet langer ondersteund omdat in de cloud gehoste omgevingen niet kunnen communiceren met lokale bestandsshares. Database-opslag is vervangen door een Azure Blob-opslag. Azure Blob-opslag is vergelijkbaar met opslag in de database, omdat documenten alleen toegankelijk zijn via clientformulieren van Dynamics 365 for Finance and Operations. Dit biedt als extra voordeel dat opslagcapaciteit wordt geboden die geen nadelige invloed heeft op de prestaties van de database. Blobopslag is het standaardopslagmechanisme voor Documentbeheer en werkt onmiddellijk. |
+| Vervangen door een andere functie? | Database-opslag is vervangen door een Azure Blob-opslag.       |
+| Modules die worden beïnvloed             | Alles                   |
 
 ### <a name="delimitation"></a>Begrenzing
 
@@ -525,7 +557,7 @@ In Dynamics AX 2012 R3 kan Retail Modern POS direct verbinding maken met de afze
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | Algemene functionaliteit wordt nu gebruikt in plaats van gelokaliseerde functionaliteit.                                                                                                                                                                 |
-| Vervangen door een andere functie? | Ja, deze functionaliteit is vervangen door de functionaliteit Geavanceerde bankafstemming. Daarnaast is de implementatie van de import van het camt.053 ISO20022-rekeningoverzicht gepland voor het algemene journaal in de volgende update van Dynamics AX. |
+| Vervangen door een andere functie? | Ja, deze functionaliteit is vervangen door de functionaliteit Geavanceerde bankafstemming. |
 | Modules die worden beïnvloed             | Alles                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (XBRL voor Duitsland)
@@ -577,7 +609,7 @@ Het genereren van voorafmeldingen kan niet worden uitgevoerd door een batch te g
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | De indeling is niet meer geldig in Duitsland, omdat het is vervangen door de functionaliteit voor de gemeenschappelijke betalingsruimte voor de euro (SEPA).                                                                                                                                                                 |
-| Vervangen door een andere functie? | Ja, deze functionaliteit is vervangen door de functionaliteit voor export van SEPA-betalingen en geavanceerde bankafstemming bij het importeren van rekeningoverzichten. Daarnaast is de implementatie van de import van het camt.053 ISO20022-rekeningoverzicht gepland voor het algemene journaal in de volgende update van Dynamics AX. |
+| Vervangen door een andere functie? | Ja, deze functionaliteit is vervangen door de functionaliteit voor export van SEPA-betalingen en geavanceerde bankafstemming bij het importeren van rekeningoverzichten. |
 | Modules die worden beïnvloed             | Alles                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Indeling van Duitse DTAZV-betalingen
@@ -593,7 +625,7 @@ Het genereren van voorafmeldingen kan niet worden uitgevoerd door een batch te g
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Reden voor afschrijving       | Algemene functionaliteit wordt nu gebruikt in plaats van gelokaliseerde functionaliteit.                                                                                                                                                                 |
-| Vervangen door een andere functie? | Ja, deze functionaliteit is vervangen door de functionaliteit Geavanceerde bankafstemming. Daarnaast is de implementatie van de import van het camt.053 ISO20022-rekeningoverzicht gepland voor het algemene journaal in de volgende update van Dynamics AX. |
+| Vervangen door een andere functie? | Ja, deze functionaliteit is vervangen door de functionaliteit Geavanceerde bankafstemming. |
 | Modules die worden beïnvloed             | Alles                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>XML-indeling voor Duitse ICL-lijst

@@ -1,6 +1,6 @@
 ---
 title: Offerteaanvragen (RFQ's)
-description: In dit artikel wordt een overzicht gegeven van offerteaanvragen, die organisaties uitgeven wanneer ze artikelen of services moeten aanschaffen en daarvoor concurrerende aanbiedingen van verschillende leveranciers willen ontvangen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft. U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.
+description: In dit onderwerp wordt een overzicht gegeven van offerteaanvragen, die organisaties uitgeven wanneer ze artikelen of services moeten aanschaffen en daarvoor concurrerende aanbiedingen van verschillende leveranciers willen ontvangen.
 author: YuyuScheller
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d681f4c107a9dbc1ea8c5e1de38b2d45cf19bcfa
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 47e394c8642f502c698dbcd5506979b7cac0a830
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt een overzicht gegeven van offerteaanvragen, die organisaties uitgeven wanneer ze artikelen of services moeten aanschaffen en daarvoor concurrerende aanbiedingen van verschillende leveranciers willen ontvangen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft. U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.
+In dit onderwerp wordt een overzicht gegeven van offerteaanvragen, die organisaties uitgeven wanneer ze artikelen of services moeten aanschaffen en daarvoor concurrerende aanbiedingen van verschillende leveranciers willen ontvangen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft. U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.
 
 Het proces van offerteaanvraag omvat de volgende taken:
 
--   Een offerteaanvraag maken en verzenden naar een of meer leveranciers
--   Antwoorden op de offerteaanvraag (biedingen) ontvangen en registreren
--   Geaccepteerde biedingen overboeken naar een inkooporder, inkoopovereenkomst of opdracht tot inkoop
+-   Een offerteaanvraag maken en verzenden naar een of meer leveranciers.
+-   Antwoorden op de offerteaanvraag (biedingen) ontvangen en registreren.
+-   Geaccepteerde biedingen overboeken naar een inkooporder, inkoopovereenkomst of opdracht tot inkoop.
 
 De volgende afbeelding geeft een overzicht van het proces voor offerteaanvragen.  
 
@@ -49,9 +49,9 @@ Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de o
 
 Wanneer u biedingen ontvangt, moet u deze invoeren op de pagina **Antwoorden op offerteaanvraag**. Als u de optie **Gegevens kopiëren naar antwoord** selecteert, worden gegevens zoals de hoeveelheid en de datums vanuit de offerteaanvraagcase in het antwoord gekopieerd. U kunt deze gegevens wijzigen om de bieding van de leverancier te reflecteren.  
 
-Als een tweede herhaling van een antwoord is vereist voor een specifieke leverancier, klikt u op **Retour**op de pagina**Antwoord offerteaanvraag**. De actie Retour genereert een nieuw journaal en een rapport dat wordt afgedrukt, gearchiveerd en verzonden, afhankelijk van uw instellingen voor afdrukbeheer.  
+Als een tweede herhaling van een antwoord is vereist voor een specifieke leverancier, klikt u op **Retour** op de pagina **Antwoord offerteaanvraag**. De actie Retour genereert een nieuw journaal en een rapport dat wordt afgedrukt, gearchiveerd en verzonden, afhankelijk van uw instellingen voor afdrukbeheer.  
 
-Als u scoringscriteria aan uw offerteaanvraagcase hebt toegevoegd, heeft het antwoord op de offerteaanvraag een scorepaneel waarin u de scores kunt invoeren. De totale scores worden weergegeven wanneer u de antwoorden op de pagina **Antwoorden vergelijken**vergelijkt. Hier kunt u tevens andere antwoordgegevens vergelijken, zoals de regelprijs, leverdatum en totale prijs.  
+Als u scoringscriteria aan uw offerteaanvraagcase hebt toegevoegd, heeft het antwoord op de offerteaanvraag een scorepaneel waarin u de scores kunt invoeren. De totale scores worden weergegeven wanneer u de antwoorden op de pagina **Antwoorden vergelijken** vergelijkt. Hier kunt u tevens andere antwoordgegevens vergelijken, zoals de regelprijs, leverdatum en totale prijs.  
 
 Nadat u een beslissing hebt genomen over een bieding of een gedeeltelijk bieding, kunt u deze accepteren en de rest afwijzen. Er worden acceptatiejournalen, afwijzingsjournalen en overeenkomstige rapporten gegenereerd. Deze worden afgedrukt, gearchiveerd en verzonden, afhankelijk van uw instellingen voor afdrukbeheer. Als u een bieding of specifieke regels in een bieding accepteert, wordt een inkoopovereenkomst of inkooporder gegenereerd, of wordt een opdracht tot inkoop bijgewerkt, afhankelijk van het inkooptype van de offerteaanvraag. U kunt een handelsovereenkomst maken die u later voor alle antwoorden kunt gebruiken, ongeacht of u deze hebt geaccepteerd of afgewezen.  
 
@@ -66,17 +66,17 @@ Hier volgen de statussen voor het verwerken van offerteaanvragen:
 3.  **Ontvangen**
 4.  **Geaccepteerd**/**Geannuleerd**/**Afgewezen**
 
-De statussen worden nader beschreven in volgende onderdelen van dit artikel.
+De statussen worden nader beschreven in volgende onderdelen van dit onderwerp.
 
 ## <a name="setting-up-rfq-functionality"></a>Functionaliteit voor offerteaanvragen instellen
 Voordat u een offerteaanvraagcase kunt maken, moet u offerteaanvraaggegevens instellen op de pagina **Parameters voor inkoop en sourcing**. Wanneer u een offerteaanvraagcase maakt, kunt u standaardwaarden opgeven die naar de offerteaanvraag worden gekopieerd. U kunt de volgende standaardwaarden opgeven:
 
--   Het inkooptype van nieuwe offerteaanvragen: **Inkooporder** of **Inkoopovereenkomst**
--   Instellingen voor vervaldatum en -tijd
+-   Het inkooptype van nieuwe offerteaanvragen: **Inkooporder** of **Inkoopovereenkomst**.
+-   Instellingen voor vervaldatum en -tijd.
 -   Leveringsgegevens en betalingsvoorwaarden.
--   Velden die in het antwoord op de offerteaanvraag moeten worden opgenomen
+-   Velden die in het antwoord op de offerteaanvraag moeten worden opgenomen.
 
-U kunt deze waarden negeren voor een specifieke offerteaanvraagcase. Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen eerst op **Maken** in de sectie **Aanpassing** van het tabblad **Offerte** klikken. Nadat de offerteaanvraag is bijgewerkt met de aanpassing, moet de inkoopmedewerker het proces uitvoeren door op **Voltooien** te klikken.** **Bij de actie Voltooien wordt een e-mailbericht gegenereerd waarmee de leveranciers over de gewijzigde offerteaanvraag worden geïnformeerd. U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt, kan deze de volgende vervangingstokens bevatten:
+U kunt deze waarden negeren voor een specifieke offerteaanvraagcase. Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen eerst op **Maken** in de sectie **Aanpassing** van het tabblad **Offerte** klikken. Nadat de offerteaanvraag is bijgewerkt met de wijziging, beëindigt de inkoper het proces door op **Voltooien**  te klikken. Door de actie **Voltooien** wordt een e-mailbericht gegenereerd waarin aan de leveranciers de gewijzigde offerteaanvraag wordt gemeld. U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt, kan deze de volgende vervangingstokens bevatten:
 
 -   %Reden voor retour van bieding%
 -   %Reden voor aanpassing%
@@ -87,7 +87,10 @@ De tokens %Reden voor retour van biedng% en %Reden voor aanpassing% worden verva
 
 Als u redencodes wilt gebruiken in een antwoord op een offerteaanvraag om aan te geven waarom een bieding is afgewezen of geaccepteerd, moet u redencodes instellen op de pagina **Leveranciersredenen**.  
 
-U kunt het uiterlijk van de afgedrukte of opgeslagen offerteaanvraagdocumenten configureren op de pagina **Formulierinstelling** in Inkoop en sourcing.  
+U kunt het uiterlijk van de afgedrukte of opgeslagen offerteaanvraagdocumenten configureren op de pagina **Formulierinstelling** in Inkoop en sourcing. 
+
+**Opmerking:** voor een configuratie van de publieke sector is het bij wijzigingen in een reeds verzonden offerteaanvraag vereist om het wijzigingsproces te gebruiken. Wanneer de offerteaanvraag wordt verzonden, worden de velden vergrendeld. U moet dus op **Maken** klikken om het wijzigingsproces zoals hierboven is beschreven, te gebruiken bij wijzigingen in de offerteaanvraag.
+Dit wordt bepaald door de vergrendelingsparameter **Offerteaanvragen vergrendelen wanneer ze zijn verzonden** in **Parameters voor inkoopbeheer**. Deze parameter is ingesteld op **Ja** en voor de configuratie van de publieke sector is dit een standaardinstelling die niet worden gewijzigd. Het wijzigingsproces kan dus handmatig worden verwerkt in een configuratie voor de niet-publieke sector, maar voor de publieke sector is het verplicht om de velden te vergrendelen nadat de offerteaanvraag is verzonden.
 
 Wanneer u een offerteaanvraag voor een inkooporder maakt en een voorraadartikel toevoegt aan de offerteaanvraag, wordt een voorraadtransactie gegenereerd met de ontvangststatus **Offerte-ontvangst**. Alleen regels voor offerteaanvragen die deze status hebben worden in overweging genomen als u een hoofdplan gebruikt om leveringen te berekenen. Als u wilt dat het hoofdplan regels voor offerteaanvragen bevat als verwachte ontvangst, moet u dit gedrag in de instellingen van de hoofdplanning configureren.  
 
@@ -108,7 +111,7 @@ Als de offerteaanvraag van het type **Inkoopovereenkomst** is:
 -   De offerteaanvraag wordt gebruikt voor een overeenkomst voor aankoop van een specifieke hoeveelheid of waarde van een product in een bepaalde periode. U moet het datumbereik selecteren dat van toepassing is op de koopovereenkomst en de naam van de persoon die de koopovereenkomst beheert.
 -   Als u een bieding accepteert, wordt een inkoopovereenkomst gegenereerd.
 
-U kunt alleen een offerteaanvraag maken vanuit een opdracht tot inkoop als de status van de opdracht tot inkoop **Wordt gecontroleerd**is en de volgende workflowtaak aan u is toegewezen. De regels in de opdracht tot inkoop worden automatisch bijgewerkt als u regels accepteert van antwoorden op offerteaanvragen (biedingen) die u van leveranciers hebt ontvangen. U kunt de opdracht tot inkoop niet voltooien, afwijzen of goedkeuren of andere handelingen uitvoeren als de offerteaanvraag nog wordt verwerkt.  
+U kunt alleen een offerteaanvraag maken vanuit een opdracht tot inkoop als de status van de opdracht tot inkoop **Wordt gecontroleerd** is en de volgende workflowtaak aan u is toegewezen. De regels in de opdracht tot inkoop worden automatisch bijgewerkt als u regels accepteert van antwoorden op offerteaanvragen (biedingen) die u van leveranciers hebt ontvangen. U kunt de opdracht tot inkoop niet voltooien, afwijzen of goedkeuren of andere handelingen uitvoeren als de offerteaanvraag nog wordt verwerkt.  
 
 Wanneer u een offerteaanvraag maakt, kunt u een specifiek verzoektype selecteren. Het verzoektype definieert de set van scoringscriteria die wordt gebruikt om antwoorden op de offerteaanvraag van een score te voorzien.  
 
@@ -137,7 +140,7 @@ De volgende tabel laat zien hoe de status van een offerteaanvraag verandert wann
 **Opmerking:** U kunt op elk gewenst moment meer leveranciers toevoegen aan een offerteaanvraag. De laagste en hoogste status veranderen en weerspiegelen de nieuwe leveranciers. Als u bijvoorbeeld biedingen hebt ontvangen van alle leveranciers en u ten minste één regel van een bieding hebt geaccepteerd, is de laagste status in de koptekst van de offerte **Afgewezen** en de hoogste status **Geaccepteerd**. Als u een nieuwe leverancier toevoegt, is de laagste status van een regel nu **Gemaakt**. Daarom wijzigt de laagste status van de offerteaanvraag naar **Gemaakt** en de hoogste status blijft **Geaccepteerd**.
 
 ## <a name="amending-an-rfq"></a>Een offerteaanvraag aanpassen
-Nu en dan moet u een offerteaanvraag aanpassen nadat u deze hebt verzonden. Dit kan gebeuren omdat, bijvoorbeeld, de leveringsdatums zijn gewijzigd of u extra producten of verschillende hoeveelheden producten wilt. U kunt het aanpassingsproces configureren zodat het of meer of minder beperkend is.  
+Nu en dan moet u een offerteaanvraag aanpassen nadat u deze hebt verzonden. Dit kan bijvoorbeeld gebeuren als de leveringsdatums zijn gewijzigd of u extra producten of verschillende hoeveelheden producten wilt. U kunt het aanpassingsproces configureren zodat het of meer of minder beperkend is.  
 
 Als u het aanpassingsproces beperkter wilt maken, moet u op **Maken** op de offerteaanvraagcase klikken om een aanpassing te starten voordat u de velden op de offerteaanvraagcase kunt wijzigen. Wanneer u klaar bent met aanbrengen van wijzigingen, moet u op **Voltooien** klikken. U wordt dan begeleid door het proces om informatie toe te voegen voor het e-mailbericht dat wordt verzonden om leveranciers over de aanpassing te informeren. Het bijgewerkte offerteaanvraagrapport, dat een aanpassingsnotitie bevat, wordt automatisch aan het bericht gekoppeld.  
 
@@ -181,7 +184,7 @@ Wanneer u een offerteaanvraag accepteert met een antwoord van het type **Opdrach
 
 In het antwoord kunt u een redencode toevoegen om uit te leggen waarom u een bieding hebt geaccepteerd of afgewezen.  
 
-U kunt bepaalde regels in een bieding accepteren en andere afwijzen. U kunt ook regels van verschillende leveranciers accepteren. Houd er alleen rekening mee dat, als u bepaalde regels accepteert, u wordt gevraagd alle andere regels af te wijzigen. Als u dus andere regels wilt accepteren, moet u op **Annuleren** klikken als u de prompt ontvangt.  
+U kunt bepaalde regels in een bieding accepteren en andere afwijzen. U kunt ook regels van verschillende leveranciers accepteren. Houd er rekening mee dat, als u bepaalde regels accepteert, u wordt gevraagd alle andere regels af te wijzigen. Als u dus andere regels wilt accepteren, moet u op **Annuleren** klikken als u de prompt ontvangt.  
 
 De volgende tabel laat zien hoe de offerteaanvraagstatus verandert als u biedingen van leveranciers accepteert en afwijst.
 

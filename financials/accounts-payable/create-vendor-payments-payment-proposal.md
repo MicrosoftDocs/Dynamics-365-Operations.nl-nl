@@ -3,26 +3,26 @@ title: Leverancierbetalingen maken met behulp van een betalingsvoorstel
 description: Dit onderwerp geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken. Betalingsvoorstellen worden vaak gebruikt om leveranciersbetalingen te maken, omdat de query kan worden gebruikt om snel leveranciersfacturen voor betaling te selecteren op basis van criteria zoals vervaldatum en contantkorting.
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,8 +39,8 @@ De voorstelquery voor klantbetalingen bevat verschillende tabbladen, die elk ver
 
 ## <a name="parameters"></a>Parameters
 -   **Facturen selecteren op**: facturen binnen het datumbereik dat is opgegeven met de velden **Begindatum** en **Einddatum** kunnen worden geselecteerd op vervaldatum, contantkortingsdatum of beide. Als u de datum voor contantkorting gebruikt, wordt eerst gezocht naar facturen met een datum voor contantkorting tussen de begindatum en einddatum. Het systeem bepaalt vervolgens of de factuur in aanmerking komt voor de contantkorting door de sessiedatum te gebruiken als controlemiddel om te bepalen of de datum voor contantkorting nog niet is verstreken.
--   **Begindatum** en**Einddatum** – Facturen die een vervaldatum of datum voor contantkorting hebben binnen dit datumbereik worden geselecteerd voor betaling.
--   **Betalingsdatum** – Als een datum wordt gedefinieerd, worden alle betalingen op deze datum uitgevoerd. Het veld **Datum minimumbetaling** wordt overschreven.
+-   **Begindatum** en **Einddatum** – Facturen die een vervaldatum of datum voor contantkorting hebben binnen dit datumbereik worden geselecteerd voor betaling.
+-   **Betalingsdatum**: dit wordt alleen gebruikt als het veld **Periode** voor de betalingsmethode is ingesteld op **Totaal**. Als een datum wordt gedefinieerd, worden alle betalingen op deze datum uitgevoerd. Het veld **Datum minimumbetaling** wordt overschreven.
 -   **Datum minimumbetaling** – Voer de minimumbetalingsdatum in. Bijvoorbeeld: met de velden **Begindatum** en **Einddatum** wordt een bereik opgegeven van 1 september tot 10 september en is de datum minimumbetaling 5 september. In dit geval hebben alle facturen met een vervaldatum van 1 september tot 5 september een betalingsdatum van 5 september. Alle facturen met een vervaldatum van 5 September tot 10 september hebben echter een betalingsdatum die gelijk is aan de vervaldatum van elke factuur.
 -   **Grenswaarde van bedrag** – Voer het maximaal totale bedrag voor alle betalingen in.
 -   **Betalingen maken zonder facturenvoorbeeld**: als u deze optie instelt op **Ja**, worden betalingen onmiddellijk op de pagina **Leveranciersbetalingen** gemaakt. De pagina **Betalingsvoorstel** wordt overgeslagen. Daarom worden betalingen sneller gemaakt. Betalingen kunnen nog steeds worden gewijzigd vanaf de pagina **Leveranciersbetalingen**. U kunt ook teruggaan naar de pagina **Betalingsvoorstel** door op de knop **Facturen bewerken voor geselecteerde betaling** te klikken.

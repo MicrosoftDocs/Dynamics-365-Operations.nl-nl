@@ -1,28 +1,28 @@
 ---
 title: Geavanceerde filter- en querysyntaxis
-description: In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u de operator &quot;komt overeen&quot; in het dialoogvenster Geavanceerd filteren/sorteren gebruikt.
+description: In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u de operator "komt overeen" in het dialoogvenster Geavanceerd filteren/sorteren gebruikt.
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysQueryForm
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48b2049c3f5025d7e8d3fc7e944aa9360786d18a
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td><em>beginwaarde</em>..<em>eindwaarde</em> (twee puntjes)</td>
 <td>Tussen de twee waarden die zijn gescheiden door twee puntjes</td>
 <td>Typ de beginwaarde, vervolgens twee puntjes en daarna de eindwaarde.</td>
-<td>Een zoekopdracht op <strong>1..10</strong> heeft alle waarden van 1 tot en met 10 als resultaat. In een tekenreeksveld wordt met een zoekopdracht <strong>A..C</strong> gezocht naar alle waarden die beginnen met &quot;A&quot; en &quot;B&quot; en waarden die identiek zijn aan &quot;C&quot;. (&quot;Ca&quot; wordt bijvoorbeeld niet gevonden). Als u alle waarden van &quot;A*&quot; tot en met &quot;C*&quot; wilt vinden, typt u <strong>A..D</strong>.</td>
+<td>Een zoekopdracht op <strong>1..10</strong> heeft alle waarden van 1 tot en met 10 als resultaat. In een tekenreeksveld wordt met een zoekopdracht <strong>A..C</strong> echter gezocht naar alle waarden die beginnen met &quot;A&quot; en &quot;B&quot; en waarden die identiek zijn aan &quot;C&quot;. Met deze query wordt &quot;Ca&quot; bijvoorbeeld niet gevonden. Als u alle waarden van &quot;A*&quot; tot en met &quot;C*&quot; wilt vinden, typt u <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>waarde</em> (twee puntjes)</td>
@@ -122,7 +122,7 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td><em>waarde</em>,<em>waarde</em> (komma)</td>
 <td>Overeenkomend met de waarden die zijn gescheiden door een komma</td>
 <td>Typ alle zoekcriteria en scheid deze met behulp van komma's.</td>
-<td>De zoekopdracht <strong>A, D, F, G</strong> heeft exact &quot;A&quot;, &quot;D&quot;, &quot;F&quot; en &quot;G&quot; als resultaat. <strong>10, 20, 30, 100</strong> heeft &quot;10, 20, 30, 100&quot; als resultaat.</td>
+<td><strong>A, D, F, G</strong> heeft &quot;A&quot;, &quot;D&quot;, &quot;F&quot; en &quot;G&quot; als resultaat. De zoekopdracht <strong>10, 20, 30, 100</strong> heeft exact &quot;10, 20, 30, 100&quot; als resultaat.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">SQL-instructie</span>) (SQL-instructie tussen haakjes)</td>

@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ Dit onderwerp verwijst naar resources die u helpen om Microsoft Dynamics 365 for
 ----------------
 
 -   [Overzicht van nummerreeksen](number-sequence-overview.md)
--   [Nummerreeksen instellen met een wizard](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (taakbegeleiding)
--   [Nummerreeksen op een individuele basis instellen](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (taakbegeleiding)
+-   [Nummerreeksen instellen met een wizard](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (taakbegeleiding)
+-   [Nummerreeksen op een individuele basis instellen](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (taakbegeleiding)
 
 ## <a name="address-books"></a>Adresboeken
 -   [Adresboeken](qa-address-books.md)
@@ -67,17 +67,17 @@ Dit onderwerp verwijst naar resources die u helpen om Microsoft Dynamics 365 for
 
 ## <a name="electronic-signatures"></a>Elektronische handtekeningen
 -   [Overzicht van elektronische handtekeningen](electronic-signature-overview.md)
--   [Elektronische handtekeningen instellen](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (taakbegeleiding)
+-   [Elektronische handtekeningen instellen](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (taakbegeleiding)
 
 ## <a name="organizations"></a>Organisaties
 -   [Organisaties en organisatiehiërarchieën](organizations-organizational-hierarchies.md)
 -   [De organisatiehiërarchie plannen](plan-organizational-hierarchy.md)
--   [Een operationele eenheid maken](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (taakbegeleiding)
--   [Een organisatiehiërarchie maken](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (taakbegeleiding)
--   [Een rechtspersoon selecteren](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (taakbegeleiding)
+-   [Een operationele eenheid maken](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (taakbegeleiding)
+-   [Een organisatiehiërarchie maken](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (taakbegeleiding)
+-   [Een rechtspersoon selecteren](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (taakbegeleiding)
 
 ## <a name="general-administration"></a>Algemeen beheer
--   [Banner of logo wijzigen](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (taakbegeleiding)
+-   [Banner of logo wijzigen](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (taakbegeleiding)
 -   [Informatie over datum/tijdgegevens en tijdzones](date-time-zones.md)
 -   [Recordsjablonen](record-templates.md)
 

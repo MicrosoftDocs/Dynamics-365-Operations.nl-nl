@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die
 In dit onderwerp wordt beschreven hoe u Excel-sjablonen kunt maken die worden gebruikt voor budgetplannen met behulp van de standaard-demogegevensset en de beheerdersaanmelding. Zie [Overzicht van budgetplanning](budget-planning-overview-configuration.md) voor meer informatie over budgetplanning. U kunt ook de zelfstudie [Budgetplanning 101](budget-plan.md) volgen om de basismoduleconfiguratie en gebruiksbeginselen te leren.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Een werkblad genereren met de indeling voor het budgetplandocument
-Budgetplandocumenten kunnen worden weergegeven en bewerkt met behulp van een of meer indelingen. Aan elke indeling kan een documentsjabloon voor het budgetplan worden gekoppeld om de budgetplangegevens in een Excel-werkblad weer te geven en te bewerken. In dit onderwerp wordt een documentsjabloon voor het budgetplan gegenereerd met behulp van een bestaande indelingsconfiguratie. Open de **Lijst met budgetplannen** (**Budgettering**&gt; **Budgetplannen**). Klik op **Nieuw** om een nieuw budgetplandocument te maken. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Budgetplandocumenten kunnen worden weergegeven en bewerkt met behulp van een of meer indelingen. Aan elke indeling kan een documentsjabloon voor het budgetplan worden gekoppeld om de budgetplangegevens in een Excel-werkblad weer te geven en te bewerken. In dit onderwerp wordt een documentsjabloon voor het budgetplan gegenereerd met behulp van een bestaande indelingsconfiguratie. 
+
+Open de **Lijst met budgetplannen** (**Budgettering** &gt; **Budgetplannen**). Klik op **Nieuw** om een nieuw budgetplandocument te maken. 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Gebruik de optie **Regel toevoegen** om regels toe te voegen. Klik op **indelingen** om de documentindelingsconfiguratie voor het budgetplan weer te geven. 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-U kunt de indelingsconfiguratie controleren en zo nodig aanpassen. Ga naar **Sjabloon** &gt; **Genereren** om een Excel-bestand voor deze indeling te maken. Nadat de sjabloon is gegenereerd, gaat u naar **Sjabloon** &gt; **Weergave** om de documentsjabloon voor het budgetplan te openen en te controleren. U kunt het Excel-bestand op uw lokale schijf opslaan. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+U kunt de indelingsconfiguratie controleren en zo nodig aanpassen. Ga naar **Sjabloon** &gt; **Genereren** om een Excel-bestand voor deze indeling te maken. Nadat de sjabloon is gegenereerd, gaat u naar **Sjabloon** &gt; **Weergave** om de documentsjabloon voor het budgetplan te openen en te controleren. U kunt het Excel-bestand op uw lokale schijf opslaan. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > De documentindeling van het budgetplan kan niet worden bewerkt nadat er een Excel-sjabloon aan is gekoppeld. Als u de indeling wilt wijzigen, verwijdert u het gekoppelde Excel-sjabloonbestand en genereert u het opnieuw. Dit is noodzakelijk om de indeling voor de velden te behouden en om het werkblad gesynchroniseerd te laten. 

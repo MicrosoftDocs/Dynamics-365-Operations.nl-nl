@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Klik op de knop **Instellingen** voor de nieuwe bestemmingsrecord. Ga vervolgens
 Selecteer op de pagina **Configuraties** (**Organisatiebeheer** &gt; **Elektronische rapportage** &gt; **Configuraties**) in de configuratiestructuur de configuratie **Import-/exportactiviteiten** die u eerder hebt gemaakt. Wijzig de status van versie 1.1 van **Concept** in **Volledig** om deze indeling voor gebruik beschikbaar te maken. [![Pagina Configuraties](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Selecteer de voltooide versie van de configuratie **Import-/exportactiviteiten** en klik op **Uitvoeren**. De geconfigureerde bestemming wordt toegepast op het uitvoerresultaat dat in de Excel-indeling wordt gegenereerd. Stel de optie **Batchverwerking** in op **Ja** om dit rapport in een modus zonder toezicht uit te voeren. Klik op **Terugkeerpatroon** om het vereiste terugkeerpatroon van deze batchuitvoering te plannen. Met het terugkeerpatroon geeft u op hoe vaak de bijgewerkte gegevens van Finance and Operations naar Power BI worden overgedragen. [![Dialoogvenster Parameters elektronisch rapport](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Na de configuratie vindt u de taak van de ER-rapportuitvoering op de pagina **Batchtaken** (**Systeembeheer &gt; Query's &gt; Batchtaken**). [![Pagina Batchtaken](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Als deze taak voor het eerst wordt uitgevoerd, wordt een nieuw Excel-bestand met de geconfigureerde naam in de geselecteerde SharePoint-map gemaakt. Elke volgende keer dat de taak wordt uitgevoerd, wordt er een nieuwe versie van dit Excel-bestand gemaakt. [![Nieuwe versie van het Excel-bestand](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Een Power BI-gegevensset maken op basis van het uivoerresultaat van de ER-indeling
-Meld u aan bij Power BI en open een bestaande Power BI-groep (werkruimte ) of maak een nieuwe groep. Klik op **Toevoegen** onder **Bestanden** in het gedeelte **Importeren of verbinden met gegevens** of klik op het plusteken (**+**) naast **Gegevenssets** in het linkerdeelvenster. [![Een gegevensset maken](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selecteer de optie **SharePoint – Teamsites** en voer het pad in van de SharePoint-server die u gebruikt (**https://ax7partner.spoppe.com** in ons voorbeeld). Blader vervolgens naar de map **/Shared Documents/GER data/PowerBI** en selecteer het Excel-bestand dat u als de gegevensbron voor de nieuwe Power BI-gegevensset hebt gemaakt. [![Het Excel-bestand selecteren](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Klik op **Verbinden** en klik vervolgens op **Importeren**. Er wordt een nieuwe gegevensset gemaakt die is gebaseerd op het geselecteerde Excel-bestand. De gegevensset kan ook automatisch aan het nieuwe dashboard worden toegevoegd. [![Gegevensset op het dashboard](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configureer het schema voor vernieuwen voor deze gegevensset om een periodieke update af te dwingen. Bij periodieke updates kunnen nieuwe bedrijfsgegevens worden gebruikt die afkomstig zijn uit Finance and Operations via periodieke uitvoering van het ER-rapport door nieuwe versies van het Excel-bestand die op de SharePoint-server worden gemaakt.
+Meld u aan bij Power BI en open een bestaande Power BI-groep (werkruimte ) of maak een nieuwe groep. Klik op **Toevoegen** onder **Bestanden** in het gedeelte **Importeren of verbinden met gegevens** of klik op het plusteken (**+**) naast **Gegevenssets** in het linkerdeelvenster. [![Een gegevensset maken](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selecteer de optie **SharePoint – Teamsites** en voer het pad in van de SharePoint-server die u gebruikt (**https://ax7partner.litware.com** in ons voorbeeld). Blader vervolgens naar de map **/Shared Documents/GER data/PowerBI** en selecteer het Excel-bestand dat u als de gegevensbron voor de nieuwe Power BI-gegevensset hebt gemaakt. [![Het Excel-bestand selecteren](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Klik op **Verbinden** en klik vervolgens op **Importeren**. Er wordt een nieuwe gegevensset gemaakt die is gebaseerd op het geselecteerde Excel-bestand. De gegevensset kan ook automatisch aan het nieuwe dashboard worden toegevoegd. [![Gegevensset op het dashboard](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configureer het schema voor vernieuwen voor deze gegevensset om een periodieke update af te dwingen. Bij periodieke updates kunnen nieuwe bedrijfsgegevens worden gebruikt die afkomstig zijn uit Finance and Operations via periodieke uitvoering van het ER-rapport door nieuwe versies van het Excel-bestand die op de SharePoint-server worden gemaakt.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Een Power BI-rapport maken op basis van de nieuwe gegevensset
 Als u een nieuw Power BI-rapport wilt maken, klikt u op de Power BI-gegevensset **Import- en exportdetails** die u hebt gemaakt. Configureer vervolgens de visualisering. Selecteer bijvoorbeeld de visualisering **Ingevulde kaart** en configureer deze als volgt:
