@@ -1,9 +1,9 @@
 ---
 title: Crediteringen en aanmaningen in Klanten
 description: "Gegevens van klantincasso's worden beheerd in één centrale weergave, met behulp van de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition-pagina Incasso's. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ U kunt rentenota's, of kosten en de transactierente die deel uitmaken van renten
 
 Deze correcties zijn alleen van invloed op rentenota's en de bijbehorende rente en kosten. Gebruik de stappen in de sectie 'Afschrijvingstransacties kunnen in één stap worden gemaakt' om alle kosten van een klant af te schrijven.
 
+Zie voor meer informatie [Een rentecode met een bereik maken](tasks/create-interest-code-range.md) en [Rente verwerken](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Afschrijvingstransacties maken
 U kunt oninbare schulden afschrijven door te klikken op Afschrijven in het formulier Aanmaningen en op de lijstpagina's Vervallen saldi, Klanten en Openstaande klantfacturen. 
 
@@ -100,7 +101,10 @@ Wanneer u transacties voor een klant afschrijft, worden alle transacties voor de
 -   Het derde type journaalregel bevat de grootboekafschrijvingsgegevens voor btw. Deze journaalregel wordt alleen gemaakt als de schakeloptie Btw apart is ingeschakeld op de pagina Parameters van module Klanten. Als de gemarkeerde transacties meerdere combinaties bevat van rekening voor te betalen btw, dimensie en btw-code, wordt voor elke combinatie een afzonderlijke journaalregel gemaakt.
 
 De afschrijvingstransactie wordt gemaakt in de transactievaluta.
-Betalingen met ontoereikend saldo verwerken  
+
+Zie voor meer informatie [Een afschrijvingsjournaal voor een klant maken](tasks/create-write-off-journal-customer.md).
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Betalingen met ontoereikend saldo verwerken  
 --------------------------------------------
 
 U kunt betalingen met ontoereikend saldo verwerken door op Betaling met ontoereikend saldo op de pagina Aanmaningen te klikken. Wanneer u op deze knop klikt, wordt de betaling geannuleerd. Als er kosten voor een betaling met ontoereikend saldo voor de klant van toepassing zijn, wordt een toeslagentransactie gemaakt in een betalingsjournaal. Het bedrag van de kosten is gebaseerd op de instellingen voor de automatische toeslagen. De automatische toeslagen die van toepassing zijn voor betalingen met ontoereikend saldo, zijn opgegeven bij de groep toeslagen die is geselecteerd op de pagina Bankrekeningen voor de betreffende bankrekening.

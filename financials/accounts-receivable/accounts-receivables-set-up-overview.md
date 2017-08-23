@@ -1,9 +1,9 @@
 ---
 title: Klanten en Crediteringen en aanmaningen configureren
 description: Configureer Klanten en Crediteringen en aanmaningen om facturen en binnenkomende betalingen van klanten bij te houden.
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ In de volgende tabel worden de pagina's weergegeven die de configuratie en het o
 |                                                      | Valuta's                           | De valuta's die uw organisatie gebruikt, maken en weergeven                                                                                                                                                                                                                       |
 |                                                      | Wisselkoersen valuta              | De juiste wisselkoersen tussen de boekhoudingsvaluta en andere valuta's maken en beheren                                                                                                                                                                              |
 |                                                      | Intercompany-boekhouding              | Een lijst met rekeningen maken waarnaar de huidige rechtspersoon kan boeken. U moet debet- en creditrekeningen opgeven en het journaal instellen waarin de transacties van de andere rechtspersoon worden ontvangen.                                                                             |
-|                                                      | Betalingsmethoden - klant        | Gegevens maken en beheren over betalingsmethoden voor klanten                                                                                                                                                                                                           |
+|                                                      | Betalingsmethoden - klant        | Gegevens maken en beheren over betalingsmethoden voor klanten Zie [Betalingsmethode van klant vaststellen](tasks/establish-customer-method-payment.md) voor meer informatie.                                                                                             |
 |                                                      | Organisatiehiërarchieën             | Een organisatiehiërarchie instellen voor gecentraliseerde betalingen                                                                                                                                                                                                                        |
 |                                                      | Organisatiehiërarchiedoelstellingen      | Een doel voor gecentraliseerde betalingen opgeven                                                                                                                                                                                                                                       |
 |                                                      | Betalingsdagen                         | De betalingsdagen definiëren op basis waarvan de vervaldatums worden berekend voor betalingen die u ontvangt van klanten of betalingen die u moet doen aan leveranciers                                                                                                                                                |
-|                                                      | Bijzondere betalingskosten                          | Bijzondere betalingskosten maken en beheren die zijn gerelateerd aan klanten, zoals bijzondere kosten voor wissels                                                                                                                                                                               |
-|                                                      | Instellingen van bijzondere betalingskosten                    | Bijzondere betalingskosten instellen voor verschillende combinaties van banken, betalingsmethoden, typen remise, betalingsspecificaties, valuta's en datumintervallen                                                                                                                              |
+|                                                      | Bijzondere betalingskosten                          | Bijzondere betalingskosten maken en beheren die zijn gerelateerd aan klanten, zoals bijzondere kosten voor wissels                                                                                                                                                                         |
+|                                                      | Instellingen van bijzondere betalingskosten                    | Bijzondere betalingskosten instellen voor verschillende combinaties van banken, betalingsmethoden, typen remise, betalingsspecificaties, valuta's en datumintervallen  Zie [Betalingskosten van klant vaststellen](tasks/establish-customer-payment-fees.md) voor meer informatie.                                                                                   |
 |                                                      | Betalingsschema's                    | Betalingsschema's maken, waarmee u afbetalingen door klanten en voor leveranciers kunt inplannen                                                                                                                                                                       |
 |                                                      | Betalingsspecificatie                | Betalingsspecificatiecodes maken en weergeven voor de betalingsmethode die u hebt geselecteerd op de pagina Betalingsmethoden. U definieert betalingsspecificatiecodes in overeenstemming met uw overeenkomst met de bank die is opgegeven voor de geselecteerde betalingsmethode.                    |
 |                                                      | Transactietekst                     | Transactietekst maken voor automatische boekingen naar Grootboek. U kunt transactietekst instellen in verschillende talen.                                                                                                                                                           |
@@ -83,8 +82,8 @@ In de volgende tabel worden de pagina's weergegeven die de configuratie en het o
 |                                                      | Betalingsmethoden - klant        | Gegevens maken en beheren over betalingsmethoden voor klanten                                                                                                                                                                                                           |
 |                                                      | Handtekening                            | Handtekeningafbeeldingsbestanden, zoals BMP-, JPG- en GIF-bestanden, toevoegen, wijzigen of verwijderen. De handtekeningafbeeldingsbestanden worden op cheques afgedrukt als officiële handtekeningen van de rechtspersoon.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Klantstatistieken configureren           | Ouderdomsperiodedefinities             | Door de gebruiker gedefinieerde ouderdomsperiodedefinities instellen en beheren. Met deze definities kunt u de vervaldag van klant- en leveranciersrekeningen analyseren op basis van een door u ingevoerde datum.                                                                                                         |
-|                                                      | Bedrijfsstatistieken                  | Query's voor bedrijfsstatistieken instellen, waarmee u de prestaties van uw organisatie kunt analyseren                                                                                                                                                                              |
+| Klantstatistieken configureren           | Ouderdomsperiodedefinities             | Door de gebruiker gedefinieerde ouderdomsperiodedefinities instellen en beheren. Met deze definities kunt u de vervaldag van klant- en leveranciersrekeningen analyseren op basis van een door u ingevoerde datum. Zie [Informatie over ouderdom van klanten instellen en genereren](tasks/set-up-accounts-receivable-aging-information.md) voor meer informatie.                                                           |
+|                                                      | Zakelijke statistieken                  | Query's voor zakelijke statistieken instellen waarmee u de prestaties van uw organisatie kunt analyseren.                                                                                                                                                                              |
 |                                                      | Gegevens uit zakelijke statistieken             | Gegevens weergeven in een raster voor de geselecteerde bedrijfsstatistieken                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
 | Klantgegevens onderhouden                     | Adresboek                         | Informatie over prospects, potentiële klanten, verkoopkansen, klanten, contacten, concurrenten en werknemers invoeren of weergeven                                                                                                                                                          |

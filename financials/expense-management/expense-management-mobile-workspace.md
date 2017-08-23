@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Snelle invoer van onkosten met behulp van het mobiele werkgebied Onkostenbeheer
 1. Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.
 2. Selecteer **Snelle onkosteninvoer**.
-3. Selecteer de categorie voor de onkostenpost. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
+3. Selecteer de categorie voor de onkostenpost. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
 4. Voer de transactiedatum van de onkostenpost in.
 5. Optioneel: voer de verkoper voor de onkostenpost in.
 6. Voer het bedrag van de onkostenpost in.
-7. Selecteer de valuta van de onkostenpost. U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
+7. Selecteer de valuta van de onkostenpost. U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
 8. Selecteer **Foto maken** of **Afbeelding kiezen**.
 9. Volg één van deze stappen:
 
@@ -166,11 +166,11 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 7. Selecteer een of meer kostenposten in de lijst.
 8. Selecteer **Gereed**.
 9. Selecteer **Nieuwe onkosten** als u een nieuwe kostenpost wilt toevoegen aan de onkostennota.
-10. Selecteer de categorie voor de onkostenpost. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
+10. Selecteer de categorie voor de onkostenpost. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
 11. Optioneel: voer de verkoper voor de onkostenpost in.
 12. Voer de transactiedatum van de onkostenpost in.
 13. Voer het bedrag van de onkostenpost in.
-14. Selecteer de valuta van de onkostenpost. U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
+14. Selecteer de valuta van de onkostenpost. U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
 15. Selecteer **Gereed**.
 16. Selecteer **Meer details toevoegen** om meer details toe te voegen aan de onkosten. Welke velden beschikbaar zijn, is afhankelijk van de configuratie van Onkostenbeheer voor uw bedrijf.
 17. Als het bedrijfsbeleid een ontvangstbewijs voor de onkosten vereist, selecteert u **Ontvangstbewijzen** en gaat u als volgt te werk:
@@ -216,12 +216,12 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
         - Volg deze stappen als u **Vorige gasten** hebt geselecteerd:
 
-            1. Selecteer een of meer eerdere gasten in de lijst. U ziet een lijst met eerdere gasten die u hebt toegevoegd aan vorige onkostenrapporten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Als uw eerdere gast niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam of schakel over naar zoeken op organisatie, land of functie.
+            1. Selecteer een of meer eerdere gasten in de lijst. U ziet een lijst met eerdere gasten die u hebt toegevoegd aan vorige onkostenrapporten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw eerdere gast niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam of schakel over naar zoeken op organisatie, land of functie.
             2. Selecteer **Gereed**.
 
         - Als u **Collega's** hebt geselecteerd, gaat u als volgt te werk:
 
-            1. Selecteer een of meer collega's in de lijst. U ziet een lijst met collega's die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Als uw collega niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam of schakel over naar zoeken op bedrijf of functie.
+            1. Selecteer een of meer collega's in de lijst. U ziet een lijst met collega's die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw collega niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam of schakel over naar zoeken op bedrijf of functie.
             2. Selecteer **Gereed**.
 
     3. Selecteer de knop **Terug** om terug te gaan naar de onkostendetails.
@@ -230,7 +230,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
     1. Selecteer de eerste datum om te specificeren.
     2. Selecteer **Specificatie toevoegen**.
-    3. Selecteer de subcategorie voor de specificatie van de onkosten. U ziet een lijst met subcategorieën voor onkosten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Als uw subcategorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek naar onkostensubcategorie op naam.
+    3. Selecteer de subcategorie voor de specificatie van de onkosten. U ziet een lijst met subcategorieën voor onkosten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw subcategorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek naar onkostensubcategorie op naam.
     4. Voer het transactiebedrag in voor de specificatie.
     5. Voer de transactiedatum in als deze is vereist.
     6. Selecteer **Gereed**.

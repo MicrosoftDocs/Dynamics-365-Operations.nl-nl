@@ -1,9 +1,9 @@
 ---
 title: De gebruikerservaring aanpassen
-description: In dit artikel wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations kunt aanpassen.
+description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations kunt aanpassen.
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -31,28 +31,28 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations kunt aanpassen.
+In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations kunt aanpassen.
 
 Er bestaan veel typen aanpassingen in Microsoft Dynamics 365 for Finance and Operations. Sommige aanpassingen zijn selecties die u in een lijst met opties op een instellingenpagina maakt. Sommige aanpassingen zijn impliciet. Finance and Operations houdt bijvoorbeeld de breedte van rasterkolommen bij als u deze aanpast, en de status van uitgevouwen of samengevouwen sneltabbladen. Andere aanpassingen zijn expliciet. Voor expliciete aanpassingen activeert u een interactieve aanpassingsmodus en wijzigt u de weergave van een pagina door direct te beheren hoe elementen worden weergegeven of zich op de pagina gedragen. 
 
 Alle aanpassingen van elk type die een gebruiker aanbrengt in Finance and Operations, zijn alleen voor die gebruiker, ongeacht het bedrijf waarmee de gebruiker communiceert. Wijzigingen die een gebruiker op een pagina aanbrengt, beïnvloeden andere gebruikers in het systeem niet.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Systeembrede opties voor de huidige gebruiker
-Op de navigatiebalk vindt u een afbeelding van een tandwiel. Dat is de menuknop **Instellingen**. Bij het openen van het **Instellingen** menu wordt een aantal keuzen weergeven. Door **Opties** te selecteren opent de gebruiker de pagina **Opties**. Hier vindt u vier optietabbladen: **Zichtbaar**, **Voorkeuren**, **Rekening** en **Werkstroom**.
+Op de navigatiebalk vindt u een afbeelding van een tandwiel. Dat is de menuknop **Instellingen**. Bij het openen van het **Instellingen** menu wordt een aantal keuzen weergeven. Door **Opties** te selecteren opent de gebruiker de pagina **Opties**. Hier vindt u vier tabbladen met opties: 
 
--   **Zichtbaar:** Gebruiken om een kleurenthema en de standaardgrootte van de elementen op uw pagina's te kiezen.
--   **Voorkeuren:** Hier kunt u standaardwaarden kiezen voor wanneer u Finance and Operations opstart, inclusief het bedrijf, de oorspronkelijke pagina en standaardweergave/bewerkingsmodus (die bepaalt of een pagina is vergrendeld voor weergave of voor bewerking wordt geopend telkens wanneer u deze opent). U vindt ook opties voor de taal, tijdzone en datum, tijd en getalnotatie. Ten slotte bevat deze pagina een aantal verschillende voorkeuren die van versie tot versie variëren.
--   **Account:** Gebruiken om uw gebruikers-ID op te geven en andere opties die op de rekening betrekking hebben.
--   **Werkstroom:** Hier kiest u opties met betrekking tot workflows.
+-   **Zichtbaar:** gebruiken om een kleurenthema en de standaardgrootte van de elementen op uw pagina's te kiezen.
+-   **Voorkeuren:** hier kunt u standaardwaarden kiezen voor wanneer u Finance and Operations opstart, inclusief het bedrijf, de oorspronkelijke pagina en standaardweergave/bewerkingsmodus (die bepaalt of een pagina is vergrendeld voor weergave of voor bewerking wordt geopend telkens wanneer u deze opent). U vindt ook opties voor de taal, tijdzone en datum, tijd en getalnotatie. Ten slotte bevat deze pagina een aantal verschillende voorkeuren die van versie tot versie variëren.
+-   **Account:** gebruiken om uw gebruikers-ID op te geven en andere opties die op de rekening betrekking hebben.
+-   **Werkstroom:** hier kiest u opties met betrekking tot workflows.
 
 ## <a name="implicit-personalizations"></a>Impliciete aanpassingen
 Impliciete aanpassingen zijn aanpassingen die u eenvoudig aanbrengt door met bepaalde besturingselementen te werken die hun huidige zichtbare status onthouden. 
 
-**Rasterkolommen:** U kunt de breedte van een kolom in een lijst aanpassen door de formaatbalk links of rechts van de kolomkop te selecteren en deze naar links of rechts te schuiven voor de gewenste breedte. Finance and Operations slaat de gewenste breedte op en geeft die kolom steeds met die breedte weer als u de pagina met die lijst opent. 
+**Rasterkolommen:** u kunt de breedte van een kolom in een lijst aanpassen door de formaatbalk links of rechts van de kolomkop te selecteren en deze naar links of rechts te schuiven voor de gewenste breedte. Finance and Operations slaat de gewenste breedte op en geeft die kolom steeds met die breedte weer als u de pagina met die lijst opent. 
 
-**Sneltabbladen:** Sommige lijstpagina's bevatten uitvouwbare secties genaamd sneltabbladen. Finance and Operations slaat op welke sneltabbladen uitgevouwen zijn en welke sneltabbladen u hebt samengevouwen. Telkens als u terugkeert naar de pagina, worden die dezelfde sneltabbladen uitgevouwen of samengevouwen gebaseerd op de laatste keer dat u ze gebruikte. In dit artikel wordt beschreven hoe u de volgorde van uw sneltabbladsecties wijzigt. In sommige gevallen verbetert samenvouwen van een sneltabblad de prestaties omdat Finance and Operations de informatie voor dat sneltabblad pas hoeft op te halen als het sneltabblad wordt uitgevouwen. 
+**Sneltabbladen:** sommige lijstpagina's bevatten uitvouwbare secties genaamd sneltabbladen. Finance and Operations slaat op welke sneltabbladen uitgevouwen zijn en welke sneltabbladen u hebt samengevouwen. Telkens als u terugkeert naar de pagina, worden die dezelfde sneltabbladen uitgevouwen of samengevouwen gebaseerd op de laatste keer dat u ze gebruikte. In dit artikel wordt beschreven hoe u de volgorde van uw sneltabbladsecties wijzigt. In sommige gevallen verbetert samenvouwen van een sneltabblad de prestaties omdat Finance and Operations de informatie voor dat sneltabblad pas hoeft op te halen als het sneltabblad wordt uitgevouwen. 
 
-**Feitenvakken:** Sommige lijstpagina's hebben een onderdeel genaamd het feitenvak. Dit deelvenster bevat alleen-lezen gegevens met betrekking tot het huidige onderwerp van de pagina. Elke sectie in het feitenvakvenster wordt een feitenvak genoemd. U kunt een feitenvak uitvouwen en samenvouwen en Finance and Operations slaat uw voorkeuren op. In sommige gevallen kan het samenvouwen van een feitenvak de prestaties van Finance and Operations verbeteren, doordat de gegevens voor dat feitenvak pas opgehaald hoeven te worden wanneer het feitenvak wordt uitgevouwen.
+**Feitenvakken:** sommige lijstpagina's hebben een onderdeel genaamd het feitenvak. Dit deelvenster bevat alleen-lezen gegevens met betrekking tot het huidige onderwerp van de pagina. Elke sectie in het feitenvakvenster wordt een feitenvak genoemd. U kunt een feitenvak uitvouwen en samenvouwen en Finance and Operations slaat uw voorkeuren op. In sommige gevallen kan het samenvouwen van een feitenvak de prestaties van Finance and Operations verbeteren, doordat de gegevens voor dat feitenvak pas opgehaald hoeven te worden wanneer het feitenvak wordt uitgevouwen.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Expliciete aanpassingen met de werkbalk Aanpassing
 Elke persoon en bedrijf heeft een ander perspectief op welke gegevens het belangrijkst zijn of welke gegevens niet nodig zijn voor hoe zij hun bedrijf runnen. De mogelijkheid om de manier aan te passen waarop uw informatie wordt geordend, gebruikt of verborgen maakt Finance and Operations tot een persoonlijke en productieve ervaring. 
@@ -107,15 +107,20 @@ Sommige werkgebieden bevatten teltegels (tegels met cijfers erop) die u ook op u
 Het dashboard is vaak de eerste pagina die bij het openen Finance and Operations wordt weergegeven. U kunt het dashboard personaliseren om de naam van uw werkruimtenavigatietegels te wijzigen, alleen de tegels te tonen die u wilt weergeven, de naam van de tegels te wijzigen of de tegels te ordenen in elke gewenste volgorde. Om het dashboard te personaliseren, selecteert u een tegel en klikt u met de rechtermuisknop om een contextmenu te openen. Selecteer in het contextmenu **Aanpassen**. Als de geselecteerde tegel er een is die u wilt verbergen, hernoemen of overslaan, kunt u die wijziging direct maken in het eigenschappenvenster dat wordt weergegeven. Als u tegels wilt ordenen, selecteert u **Dit formulier aanpassen** in het eigenschapvenster om de werkbalk Aanpassing te openen. U kunt vervolgens de verplaatsingsfunctie gebruiken om de tegels te ordenen.
 
 ## <a name="administration-of-personalization"></a>Beheer van aanpassing
-Nadat u een pagina hebt aangepast, kunt u uw aanpassingen delen met andere gebruikers. U hoeft alleen maar de aangepaste pagina te exporteren. U kunt vervolgens de andere gebruikers vragen om naar de aangepaste pagina te navigeren en het aanpassingsbestand te importeren dat u hebt gemaakt.
+Nadat u een pagina hebt aangepast, kunt u uw aanpassingen delen met andere gebruikers door de aangepaste pagina te exporteren. U kunt vervolgens de andere gebruikers vragen om naar de aangepaste pagina te navigeren en het aanpassingsbestand te importeren dat u hebt gemaakt.
 
-Gebruiker met beheerdersbevoegdheden kunnen ook aanpassingen voor andere gebruikers beheren op de pagina **Aanpassing**. Deze pagina heeft vier tabbladen: **Systeem**, **Gebruikers**, **Importeren** en **Wissen**.
+Gebruiker met beheerdersbevoegdheden kunnen ook aanpassingen voor andere gebruikers beheren op de pagina **Aanpassing**. Deze pagina heeft vier tabbladen: 
 
 - **Systeem**: Hier kunt u tijdelijk alle aanpassingen in het systeem uitschakelen. In dit geval verwijdert u de aanpassingen niet. U stelt alleen alle pagina's in op hun standaardinstellingen. Als u aanpassingen later opnieuw inschakelt, worden alle aanpassingen opnieuw toegepast op de pagina's van iedere gebruiker. U kunt ook alle aanpassingen voor alle gebruikers verwijderen. Merk op dat als u aanpassingen verwijdert, er geen manier is om aanpassingen van het systeem automatisch opnieuw in te schakelen. Voordat u deze stap uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt importeren.
 - **Gebruikers**: U kunt opgeven of elke gebruiker impliciete aanpassing of expliciete aanpassing doen kan. U kunt ook bepalen of elke gebruiker impliciete of expliciete aanpassingen kan maken aan een specifieke pagina. Ten slotte kunt u een aanpassing voor elke gebruiker importeren, exporteren of verwijderen.
 - **Importeren**: U kunt een aanpassing voor een of meer gebruikers importeren. U gebruikt dit tabblad nadat u een aanpassing hebt gemaakt op een pagina of werkgebied en deze aanpassing vervolgens hebt geëxporteerd als een aanpassingsbestand. Als u het bestand met persoonlijke instellingen wilt importeren en toepassen op een of meer gebruikers, selecteert u afzonderlijke gebruikers in de lijst met alle gebruikers of u filtert op een specifieke rol en selecteert gebruikers met die rol. Nadat u de gebruikers hebt geselecteerd die uw aanpassingen gaan gebruiken, klikt u op **Importeren** en selecteert u het aanpassingsbestand. De aanpassing wordt gevalideerd en toegepast op alle geselecteerde gebruikers. Dit wordt van kracht bij de volgende keer dat ze de geselecteerde pagina openen.
 - **Wissen**: U kunt de aanpassingen voor de pagina of het werkgebied voor een of meer gebruikers uitschakelen. Selecteer eerst de pagina of het werkgebied waarvoor u de aanpassingen wilt wissen. Selecteer vervolgens afzonderlijke gebruikers in de lijst met alle gebruikers of filter op een specifieke rol en selecteer gebruikers met die rol. Nadat u een pagina of werkgebied en gebruikers hebt geselecteerd, klikt u op **Wissen**. Alle aanpassingen die de geselecteerde gebruikers hebben toegepast op de geselecteerde pagina of werkgebied, zijn gewist. Deze actie kan niet ongedaan worden gemaakt. Als de pagina of de werkruimte echter een opgeslagen aanpassing heeft, kan die aanpassing opnieuw worden geïmporteerd.
 
+## <a name="personalization-of-inventory-dimensions"></a>Aanpassing van voorraaddimensies
 
+Wanneer u de instellingen van de voorraaddimensies op een pagina wilt aanpassen, kunt u de instellingen toepassen die zijn gemaakt met de optie **Dimensie weergeven**. Als u bijvoorbeeld persoonlijke instellingen gebruikt om een kolom voor de voorraaddimensie Batchnummer te verbergen en de kolom de volgende keer wordt weergegeven zodra de pagina wordt geopend, kan dat komen doordat de instellingen voor dimensieweergave bepalen welke voorraaddimensiekolommen worden weergegeven. 
 
+De instellingen voor dimensieweergave zijn van toepassing op alle pagina's en hebben voorrang op eventuele persoonlijke instellingen van voorraaddimensievelden op afzonderlijke pagina's. 
+
+In het voorbeeld met de voorraaddimensie Batchnummer moet deze dimensie worden gewist als onderdeel van de optie **Dimensies weergeven** van de tabel om te voorkomen dat deze kolom wordt weergegeven. Deze wijziging zou uiteindelijk niet alleen op een bepaalde pagina gelden, maar voor alle pagina's.
 

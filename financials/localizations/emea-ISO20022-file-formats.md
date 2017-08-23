@@ -3,7 +3,7 @@ title: ISO20022-bestanden importeren
 description: In dit onderwerp wordt uitgelegd hoe u betalingsbestanden in de ISO 20022-indelingen camt.054 en pain.002 importeert in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 author: neserovleo
 manager: AnnBe
-ms.date: 05/25/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
-ms.search.validFrom: 2017-06-01T00:00:00.000Z
+ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: Enterprise edition, July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 48e280bf0a6c5db237bd389fe448c9d698d3ae12
-ms.openlocfilehash: acf6ed5f503d77f372d802a51a71cec062c2b24b
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
@@ -105,4 +105,29 @@ Als u het bestand camt.054 importeert, moet u de volgende aanvullende parameters
 - **Transacties vereffenen**: stel deze optie in op **Ja** als geïmporteerde leveranciersbetalingen moeten worden vereffend met facturen die zijn gevonden in het systeem.
 
 U kunt de geïmporteerde informatie bekijken op de pagina **Betalingsoverboekingen**. 
+
+## <a name="additional-details"></a>Extra details
+
+Wanneer u een indelingsconfiguratie van LCS importeert, kunt u de hele configuratiestructuur importeren, wat betekent dat de Model- en de Modeltoewijzingsconfiguraties zijn opgenomen. In het model voor betaling vanaf versie 8 bevinden de toewijzingen zich in aparte ER-configuraties in de oplossingenstructuur (toewijzing betalingsmodel 1611, toewijzing betalingsmodel aan bestemming ISO20022, enzovoort). Er zijn veel verschillende betalingsindelingen in één model (Betalingsmodel), dus is het van belang om de toewijzingen afzonderlijk te verwerken voor eenvoudige oplossingsbeheer. Bekijk bijvoorbeeld dit scenario: u gebruikt ISO20022-betalingen om kredietoverboekingsbestanden te genereren en vervolgens importeert u de retourberichten van de bank. In dit scenario moet u de volgende configuraties gebruiken:
+
+ - **Betalingsmodel**
+ - **Betalingsmodeltoewijzing 1611**: deze toewijzing wordt gebruikt voor het genereren van het exportbestand
+ - **Betalingsmodeltoewijzing naar bestemming ISO20022**: deze configuratie bevat alle toewijzingen die worden gebruikt om de gegevens (toewijzingsrichting 'naar bestemming') te importeren
+ - **ISO20022 kredietoverdracht**: deze configuratie omvat een indelingsonderdeel dat verantwoordelijk is voor het genereren van exportbestanden (pain.001) op basis van betalingsmodeltoewijzing 1611, alsmede een indeling om het toewijzingsonderdeel vorm te geven dat samen met de betalingsmodeltoewijzing naar bestemming ISO20022 wordt gebruikt om geëxporteerde betalingen te registreren in het systeem voor verdere importdoeleinden (import in technische tabel CustVendProcessedPayments)
+ - **ISO20022 kredietoverdracht (CE)**, waarbij CE overeenkomt met de landextensie: afgeleide indeling voor de ISO20022 kredietoverdracht met dezelfde structuur en met bepaalde landspecifieke verschillen
+ - **Pain.002**: deze indeling wordt samen met de betalingsmodeltoewijzing naar bestemming ISO20022 gebruikt om het bestand pain.002 te importeren in het journaal met leverancierbetalingsoverboekingen
+ - **Camt.054**: deze indeling wordt samen met de betalingsmodeltoewijzing naar bestemming ISO20022 gebruikt om het bestand camt.054 te importeren in het journaal met leverancierbetalingsoverboekingen Dezelfde indelingsconfiguratie wordt gebruikt voor de importfunctionaliteit voor klantbetalingen, maar de andere toewijzing wordt gebruikt in de configuratie van betalingsmodeltoewijzing voor bestemming ISO20022.
+
+Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van elektronische rapportage](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+
+## <a name="additional-resources"></a>Aanvullende resources
+- [Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling](./tasks/create-export-vendor-payments-iso20022-payment-format.md)
+- [Configuratie van ISO20022-kredietoverdracht importeren](./tasks/import-iso20022-credit-transfer-configuration.md)
+- [Configuratie van ISO20022 automatische afschrijving importeren](./tasks/import-iso20022-direct-debit-configuration.md)
+- [Bankrekeningen voor ISO20022-kredietoverdrachten voor een bank instellen](./tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+- [Bankrekeningen voor ISO20022-automatische overschrijvingen voor een bank instellen](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+- [Klanten en bankrekeningen van klanten instellen voor ISO20022-automatische overschrijvingen](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+- [Betalingsmethode voor ISO20022-kredietoverdracht instellen](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
+- [Betalingsmethode voor ISO20022 automatische incasso instellen](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Leveranciers en bankrekeningen voor leveranciers voor ISO20022-kredietoverdrachten instellen](./tasks/set-up-vendor-iso20022-credit-transfers.md)
 

@@ -1,9 +1,9 @@
 ---
-title: Recentelijk gepubliceerde mobiele werkgebieden
-description: In dit onderwerp worden de mobiele werkgebieden vermeld die onlangs zijn gepubliceerd.
+title: Mobiele werkgebieden
+description: Dit onderwerp geeft een overzicht van de mobiele werkgebieden die beschikbaar zijn voor gebruik.
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -13,62 +13,36 @@ ms.reviewer: sericks
 ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e5633d1db9593e2e0cb8bb4703de76766ab706b0
+ms.translationtype: HT
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: e6d45094e8722fa51e545076c204459c41fd9131
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="mobile-workspaces-recently-released"></a>Recentelijk gepubliceerde mobiele werkgebieden
+# <a name="mobile-workspaces"></a>Mobiele werkgebieden
 
 [!include[banner](../includes/banner.md)]
 
-
-
-In dit onderwerp vindt u een overzicht van de mobiele werkgebieden die onlangs zijn gepubliceerd voor de mobiele app van Dynamics 365 for Unified Operations.
+In dit onderwerp vindt u een overzicht van de mobiele werkgebieden die beschikbaar zijn voor de mobiele app van Dynamics 365 for Unified Operations.
 
 > [!NOTE]
 > De mobiele toepassing heette voorheen *Microsoft Dynamics 365 for Finance and Operations*.
 
-
-## <a name="new-mobile-workspaces-released-in-june-2017"></a>Nieuwe mobiele werkgebieden, gepubliceerd in juni 2017
-
-| Mobiel werkgebied     | Omschrijving   | Meer informatie   |
+| Mobiel werkgebied     | Omschrijving   | Beschikbaarheid   |
 |----------------------|---------------|--------------|
-|Bedrijfsdirecteur| Hier kunnen gebruikers andere werknemers in hun organisatie weergeven en er contact mee opnemen.| [Mobiel werkgebied Adresboek van bedrijf](company-directory-mobile-workspace.md)|    
-|Mijn team| Hier kunnen gebruikers hun directe ondergeschikten en uitgebreide personeel weergeven, evenals lof versturen voor personen in hun rapportageketen.| [Mobiel werkgebied Mijn team](manager-self-service-mobile-workspace.md)|     
-|Factuurgoedkeuringen| Geeft een lijst met facturen die aan u zijn toegewezen via het workflowproces voor de koptekst van de leveranciersfactuur.|[Mobiel werkgebied Goedkeuring van facturen](invoice-approval-mobile-workspace.md)    |    
-
-## <a name="new-mobile-workspaces-released-in-april-2017"></a>Nieuwe mobiele werkgebieden, gepubliceerd in april 2017
-
-| Mobiel werkgebied   | Omschrijving                                                                                                                                                                                                      | Meer informatie                                                                                                      |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Onkostenbeheer | Hier kunnen gebruikers een ontvangstbewijs vastleggen en uploaden, zodat zij dit later aan een onkostennota kunnen koppelen. Het mobiele werkgebied stelt gebruikers tevens in staat snel een onkostenregel te maken op basis van een bevoegd ontvangstbewijs. | [Mobiel werkgebied voor onkostenbeheer](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) |
-| Goedkeuring van inkooporder | Hier kunnen gebruikers inkooporders weergeven en daarop reageren met acties zoals goedkeuren of afwijzen. | [Mobiel werkgebied Goedkeuring van inkooporder](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) |
-
-## <a name="new-mobile-workspaces-released-in-march-2017"></a>Nieuwe mobiele werkgebieden, gepubliceerd in maart 2017
-
-| Mobiel werkgebied   | Omschrijving                                                                                   | Meer informatie                                                                                                                                                                              |
-|--------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projecttijdinvoer | Hier kunnen gebruikers tijd invoeren en opslaan voor een project met behulp van hun mobiele apparaat. | [Tijdinvoer voor project voor mobiel werkgebied](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) |
-
-## <a name="new-mobile-workspaces-released-in-january-2017"></a>Nieuwe mobiele werkgebieden, gepubliceerd in januari 2017
-
-| Mobiel werkgebied     | Omschrijving                                                                                                                                                                         | Meer informatie                                                                                                                                                        |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kostenbeheer     | Hier kunnen kostenplaatsmanagers altijd en overal de prestaties van kostenplaatsen bekijken.                                                                                               | [Mobiel werkgebied voor kostenbeheer](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Voorhanden voorraad    | Hier kunnen gebruikers altijd en overal mobiel inzicht krijgen in de gereserveerde en beschikbare voorraad.                                                                                                    | [Mobiel werkgebied voorhanden voorraad](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)       |
-| Verkooporders         | Hier kunnen gebruikers altijd en overal op de hoogte blijven van hun verkooporders.                                                                                                                          | [Mobiel werkgebied voor verkooporders](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)                 |
-| Leverancierssamenwerking | Hiermee kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen. | [Mobiel werkgebied voor leverancierssamenwerking](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
-
-## <a name="new-mobile-workspace-functionality-released-in-december-2016"></a>Nieuwe functionaliteit in mobiele werkgebieden die werd uitgebracht in december 2016
-
-| Mobiel werkgebied        | Omschrijving                                                                    | Meer informatie                                                                                                            |
-|-------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Goedkeuring leveranciersfactuur | Kom meer te weten over het ontwerpen en maken van een mobiel werkgebied voor goedkeuring van leveranciersfacturen. | [Mobiele factuurgoedkeuringen](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals) |
+|[Bedrijfsdirecteur](company-directory-mobile-workspace.md)| Hier kunt u andere werknemers in hun organisatie weergeven en er contact mee opnemen.| 2017 juni |    
+|[Mijn team](manager-self-service-mobile-workspace.md)| U kunt directe medewerkers en een uitgebreid personeelsoverzicht weergeven, evenals lovende kritiek versturen voor personen in uw rapportageketen.|2017 juni |     
+|[Goedkeuring van facturen](invoice-approval-mobile-workspace.md)| Geeft een lijst met facturen die aan u zijn toegewezen via het workflowproces voor de koptekst van de leveranciersfactuur.| 2017 juni   |
+| [Onkostenbeheer](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) | U kunt een ontvangstbewijs vastleggen en uploaden, zodat u dit later aan een onkostennota kunt koppelen. Het mobiele werkgebied stelt u tevens in staat snel een onkostenregel te maken op basis van een bevoegd ontvangstbewijs. | 2017 april |
+| [Goedkeuring van inkooporder](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) | U kunt inkooporders weergeven en daarop reageren met acties zoals goedkeuren of afwijzen. | 2017 april |
+| [Projecttijdinvoer](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) | U kunt tijd invoeren en opslaan voor een project met behulp van uw mobiele apparaat. | 2017 maart |
+| [Kostenbeheer](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)     | Kostenplaatsmanager kunnen de prestaties van kostenplaatsen bekijken.                                                                                               |  2017 januari        |
+| [Voorhanden voorraad](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)    | Krijg inzicht in de gereserveerde en beschikbare voorraad.                                                                                                    |   2017 januari       |
+| [Verkooporders](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)         | Blijf op de hoogte van uw verkooporders.                                                                                                                          |  2017 januari                  |
+| [Leverancierssamenwerking](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) | Leveranciers kunnen op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen. |2017 januari    |
 
 

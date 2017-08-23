@@ -1,9 +1,9 @@
 ---
 title: Een klantfactuur maken
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd89921a97782c4d09807a730ab077809304159f
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 249b1f331d6889d3b9ed2ace2e5db21d7a5d3e46
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,11 +30,20 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-
-
-Een **klantfactuur voor een verkooporder** is een rekening die door een organisatie aan een klant wordt verstrekt in verband met een verkoop. Een dergelijke klantfactuur maakt u op basis van een verkooporder die orderregels en artikelnummers bevat. Artikelnummers worden opgegeven en geboekt in het grootboek. Journaalposten in subadministratie zijn niet beschikbaar voor een klantfactuur voor een verkooporder. 
+Een **klantfactuur voor een verkooporder** is een rekening die door een organisatie aan een klant wordt verstrekt in verband met een verkoop. Een dergelijke klantfactuur maakt u op basis van een verkooporder die orderregels en artikelnummers bevat. Artikelnummers worden opgegeven en geboekt in het grootboek. Journaalposten in subadministratie zijn niet beschikbaar voor een klantfactuur voor een verkooporder. Zie [Facturen van verkooporder maken](tasks/create-sales-order-invoices.md) voor meer informatie.
 
 Een **vrije-tekstfactuur** is niet gerelateerd aan een verkooporder. Deze factuur bevat orderregels met grootboekrekeningen, vrije-tekstomschrijvingen en verkoopbedragen die u invoert. U kunt geen artikelnummer invoeren op dit type factuur. U moet de betreffende btw-gegevens invullen. Op een vrije-tekstfactuur wordt een hoofdrekening voor de verkoop vermeld die u over meerdere grootboekrekeningen kunt verdelen door te klikken op **Bedragen verdelen** op de pagina **Vrije-tekstfactuur**. Tevens wordt het klantsaldo naar de totaalrekening van het boekingsprofiel geboekt dat gebruikt wordt voor de vrije-tekstfactuur.
+
+Zie  voor meer informatie.
+
+[Een vrije-tekstfactuur invoeren](tasks/create-free-text-invoice.md)
+
+[Een sjabloon voor vrije-tekstfacturen maken](tasks/create-free-text-invoice-template.md)
+
+[Een sjabloon voor vrije-tekstfacturen toewijzen aan een klant](tasks/assign-free-text-invoice-template-customer.md)
+
+[Terugkerende vrije-tekstfacturen genereren en boeken](tasks/post-recurring-free-text-invoices.md)
+
 
 Een **pro forma-factuur** is een factuur die wordt gemaakt als raming van de werkelijke factuurbedragen voordat de factuur wordt geboekt. Een pro forma-factuur kunt u zowel voor een klantfactuur als voor een verkooporder of een vrije-tekstfactuur afdrukken.
 

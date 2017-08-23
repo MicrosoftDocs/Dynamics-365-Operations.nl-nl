@@ -1,9 +1,9 @@
 ---
 title: Mobiele factuurgoedkeuringen
 description: Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's in Dynamics 365 for Finance and Operations, door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen.
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0ca4ebdca1fce3863a50abf19a071af1f1c425e0
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -37,7 +37,7 @@ Met mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations, 
 
 | Vereiste                                                                                            | Omschrijving                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)                                                                                                  |
+| Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
 | Dynamics 365 for Finance en Operations                                                                             | Een omgeving met Microsoft Dynamics 365 for Operations versie 1611 en Microsoft Dynamics 365 for Operations-platform update 3 (november 2016)                   |
 | Installeer hotfix KB 3204341.                                                                              | Taakrecorder kan onterecht twee Sluiten-opdrachten voor vervolgkeuzelijstdialoogvensters registreren. Dit is opgenomen in het Dynamics 365 for Operations-platform update 3 (update van november 2016). |
 | Installeer hotfix KB 3207800.                                                                              | Met deze hotfix kunnen bijlagen worden weergegeven op de mobiele client. Dit is opgenomen in het Dynamics 365 for Operations-platform update 3 (update van november 2016).           |
@@ -176,7 +176,7 @@ Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebr
 1.  Vervang in de Finance and Operations-URL de naam van de menuoptie met **VendMobileInvoiceHeaderDetails** om het formulier te openen
 2.  Open de mobiele ontwerper met de knop **Instellingen** (tandwiel).
 3.  Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
-4.  Selecteer de pagina Mijn leveranciersfacturen die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
+4.  Selecteer de pagina **Mijn leveranciersfacturen** die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
 5.  Klik op het tabblad **Velden** op de kolomkop **Raster**.
 6.  Klik op **Eigenschappen** &gt; **Pagina toevoegen**. **Opmerking:** wanneer u klikt op de kop **Raster** en een pagina toevoegt, wordt de relatie met de detailpagina automatisch ingesteld.
 7.  Voer een paginatitel in, zoals **Factuurdetails**, en een omschrijving, zoals **Koptekst- en regeldetails factuur weergeven**.
@@ -298,7 +298,7 @@ Als workflowacties wilt toevoegen, gebruikt u de pagina **VendMobileInvoiceHeade
 
 1.  Klik op de knop **Instellingen** (tandwiel) in de rechterbovenhoek van de pagina en klik op **Mobiele app**.
 2.  Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
-3.  Selecteer de pagina Factuurdetails die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
+3.  Selecteer de pagina **Factuurdetails** die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
 4.  Stel de optie **Documentbeheer** in op **Ja** zoals hieronder wordt weergegeven. **Opmerking:** als er geen vereisten zijn om bijlagen weer te geven op het mobiele apparaat, kunt u deze optie ingesteld laten op **Nee**. Dit is de standaardinstelling.
 ![Documentbeheer](./media/docmanagement-216x300.png)
 6.  Klik op **Gereed** om de bewerkingsmodus af te sluiten.

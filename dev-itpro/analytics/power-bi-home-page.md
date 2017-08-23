@@ -1,9 +1,9 @@
 ---
-title: Beschikbare Power BI-inhoud
+title: Power BI-inhoud
 description: In dit onderwerp wordt de Power BI-inhoud vermeld die beschikbaar is en wordt aangegeven waar u meer informatie hierover kunt vinden.
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>Beschikbare Power BI-inhoud
+# <a name="power-bi-content"></a>Power BI-inhoud
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ In dit onderwerp wordt de Microsoft Power BI-inhoud vermeld die beschikbaar is e
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Power BI-inhoud voor Dynamics 365 for Finance and Operations, Enterprise edition, update juli 2017
 Als u werkt met de update voor juli 2017 van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, is de volgende Power BI-inhoud beschikbaar:
 
+- [Power BI-inhoud Werkelijk vs. budget](ledger-budgets-power-bi.md)
 - [Power BI-inhoud Vergoedingen](benefits-power-bi.md)
 - [Power BI-inhoud Overzicht van contant geld](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [Power BI-inhoud CFO-overzicht](CFO-power-bi.md)

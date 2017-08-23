@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt na het terugzetten van een Microsoft Dynamics 365 for Finance and Operations-database. 
+In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt na het terugzetten van een Microsoft Dynamics 365 for Finance and Operations-database.
 
-Er zijn verschillende scenario's denkbaar waarin u uw Finance and Operations-database wilt herstellen vanaf een back-up of de database vanuit een andere omgeving wilt kopiëren. In een dergelijke situatie moet u ook de juiste stappen uitvoeren zodat de datamart voor financiële rapportage correct gebruikmaakt van de herstelde Finance and Operations-database. Als u de datamart voor financiële rapportage opnieuw wilt instellen om andere redenen dan het herstel van een Finance and Operations-database en hierover vragen hebt, raadpleegt u het onderwerp [De Management Reporter-datamart opnieuw instellen](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) voor meer informatie. Houd er rekening mee dat de stappen in dit proces worden ondersteund voor de release van mei 2016 van Dynamics 365 for Operations (App-build 7.0.1265.23014 en financiële rapportage-build 7.0.10000.4) en nieuwere versies. Als u een eerdere versie van Finance and Operations hebt, neem dan contact op met ons ondersteuningsteam voor hulp.
+Als u uw Finance and Operations-database vanaf een back-up moet terugzetten of de database uit een andere omgeving kopieert, moet u de stappen in dit onderwerp volgen om te zorgen dat de datamart voor financiële rapportage correct gebruikmaakt van de teruggezette Finance and Operations-database. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> De stappen in dit proces worden ondersteund voor de release van mei 2016 van Dynamics 365 for Operations (App-build 7.0.1265.23014 en financiële rapportage-build 7.0.10000.4) en nieuwere versies. Als u een eerdere versie van Finance and Operations hebt, neem dan contact op met ons ondersteuningsteam voor hulp.
 
 ## <a name="export-report-definitions"></a>Rapportdefinities exporteren
 Exporteer eerst de rapportontwerpen die zich in de Report Designer bevinden volgens de onderstaande procedure:
 
 1.  Ga in Report Designer naar **Bedrijf** &gt; **Bouwsteengroepen**.
-2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. **Opmerking:** Voor Finance and Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
+2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. 
+    > [!Note] 
+    > Voor Finance and Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
 3.  Selecteer de rapportdefinities die u wilt exporteren:
     -   Om al uw rapportdefinities en de gekoppelde bouwstenen te exporteren klikt u op **Alles selecteren**.
     -   U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiesets exporteren door op het gewenste tabblad te klikken en vervolgens de te exporteren items selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere artikelen in een tabblad te selecteren. Als u te exporteren rapporten selecteert, worden de gekoppelde rijen, kolommen, structuren en dimensiesets geselecteerd.
@@ -63,9 +68,9 @@ Maak via Extern bureaublad verbinding met alle computers in de omgeving en stop 
 Deze services hebben openstaande verbindingen met de Finance and Operations-database.
 
 ## <a name="reset"></a>Opnieuw instellen
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Het meest recente pakket DataUpgrade.zip zoeken
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>Zoek het meest recente pakket met MinorVersionDataUpgrade.zip en download het
 
-Zoek het meest recente pakket DataUpgrade.zip met de aanwijzingen in het onderwerp [Het script DataUpgrade.zip downloaden](..\migration-upgrade\upgrade-data-to-latest-update.md). De instructies geven aan hoe u de juiste versie van het gegevensupgradepakket voor uw omgeving vindt.
+Zoek het meest recente pakket MinorVersionDataUpgrade.zip met de aanwijzingen in het onderwerp [Downloaden van het meest recente bruikbare pakket met gegevensupgrade](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). De instructies geven aan hoe u de juiste versie van het gegevensupgradepakket voor uw omgeving vindt en downloadt. Een upgrade is niet vereist voor het downloaden van het pakket MinorVersionDataUpgrade.zip. U hoeft alleen de stappen in de sectie 'Downloaden van het meest recente bruikbare pakket met gegevensupgrade' uit te voeren zonder de overige stappen in het artikel voor het ophalen van een kopie van het pakket MinorVersionDataUpgrade.zip.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>Scripts uitvoeren op de Finance and Operations-database
 
@@ -105,8 +110,10 @@ Importeert uw rapportontwerpen vanuit de Report Designer, met behulp van het bes
 
 1.  Ga in Report Designer naar **Bedrijf** &gt; **Bouwsteengroepen**.
 2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. 
+
     > [!NOTE]
     > Voor Finance and Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
+    
 3.  Selecteer de bouwsteen **Standaard** en klik op **Importeren**.
 4.  Selecteer het bestand met de geëxporteerde rapportdefinities en klik op **Openen**.
 5.  Selecteer in het dialoogvenster Importeren de te importeren rapportdefinities:

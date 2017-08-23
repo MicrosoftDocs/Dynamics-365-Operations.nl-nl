@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ Klanten kunnen artikelen retourneren om verschillende redenen. Een artikel kan b
 ## <a name="return-order-process"></a>Het retourorderproces
 De volgende afbeelding geeft een overzicht van het proces voor retourorders.  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Het retourorderproces](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Er zijn twee typen retourorderproces: Fysieke retouren en Alleen krediet.
 
@@ -213,7 +213,7 @@ Er zijn twee methoden voor het beheer van vervangende producten:
 
 Bij vervanging bij aanvang (¨vervanging van tevoren¨) kan het vervangende artikel worden geleverd aan de klant voordat het artikel is geretourneerd. Deze methode is nuttig als het artikel is bijvoorbeeld een machineonderdeel is dat niet kan worden verwijderd tenzij een reserveonderdeel beschikbaar is om het te vervangen, of als u gewoon wilt dat uw klant het vervangende product zo snel mogelijk heeft. De order van het type Vervanging bij aanvang is een onafhankelijke verkooporder. De koptekstgegeven worden geïnitialiseerd vanuit de klant en de regelgegevens worden geïnitialiseerd vanuit de retourorder. U kunt de vervangingsorder onafhankelijk van de retourorder bewerken, verwerken en verwijderen. Wanneer u een vervangingsorder verwijdert, ontvangt u een bericht dat de order is aangemaakt als een vervangingsorder. In de volgende afbeelding ziet u het proces voor vervanging bij aanvang.  
 
-[![Het proces Vervanging bij aanvang](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Het proces Vervanging bij aanvang](./media/SalesReturn04.png)
 
 De retourorder bevat een verwijzing naar de vervangingsorder. Als een vervangingsorder van het type Vervanging bij aanvang wordt gemaakt voor een retourorder voordat het gebrekkige artikel is geretourneerd, kunt u geen beschikkingscodes voor vervanging selecteren nadat het beschadigde artikel is ontvangen.
 
@@ -221,7 +221,7 @@ De retourorder bevat een verwijzing naar de vervangingsorder. Als een vervanging
 
 Als u een vervangend artikel naar de klant verzendt en op de retourorder gebruik maakt van de beschikkingsacties **Vervangen en uitvallen** of **Vervangen en crediteren**, gebruikt u het proces dat wordt weergegeven in de volgende afbeelding.  
 
-[![Vervangingsproces bij gebruik van een beschikkingscode](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Vervangingsproces bij gebruik van een beschikkingscode](./media/SalesReturn05.png)
 
 Het vervangende artikel wordt geleverd door middel van een onafhankelijke verkooporder, de vervangende verkooporder. Deze verkooporder wordt gemaakt wanneer de pakbon voor de retourorder wordt gegenereerd. De orderkoptekst gebruikt gegevens van de klant, waarnaar wordt verwezen in de retourorderkoptekst. De regelgegevens worden verzameld van de informatie die is ingevoerd op de pagina **Vervangingsartikel**. De pagina **Vervangingsartikel** moet worden ingevuld voor regels met beschikkingsacties die beginnen met het woord 'vervangen'. Zowel de hoeveelheid als de identiteit van het vervangingsartikel worden echter niet gevalideerd of beperkt. Dankzij dit gedrag kan de klant hetzelfde artikel toegezonden krijgen maar in een andere configuratie of maat, of zelfs een geheel ander artikel. Standaard wordt een identiek artikel ingevoerd op de pagina **Vervangingsartikel**. U kunt echter een ander item selecteren op voorwaarde dat de functie is geconfigureerd. **Opmerking:** U kunt de vervangende verkooporder bewerken en verwijderen nadat deze is gemaakt.
 
@@ -254,7 +254,7 @@ Retourorders kunnen worden uitgevoerd tussen twee bedrijven binnen uw organisati
 
 In de volgende afbeelding ziet u de minimale configuratie die is vereist voor twee bedrijven die deelnemen aan een intercompany-relatie en profiteren van de intercompany-handel.  
 
-[![Minimale configuratie](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Minimale instellingen](./media/SalesReturn06.png)
 
 In het volgende scenario is CompBuy het inkopende bedrijf en CompSell de verkopende partij. Meestal verzendt het verkopende bedrijf goederen naar het inkopende bedrijf of, bij directe leveringen, rechtstreeks naar de eindklant. In CompBuy, de leverancier IC\_CompSell is gedefinieerd als een intercompany-eindpunt dat is gekoppeld aan het bedrijf CompSell. Tegelijkertijd is in CompSell de klant IC\_CompBuy is gedefinieerd als een intercompany-eindpunt dat is gekoppeld aan het bedrijf CompBuy. De juiste gegevens en waardetoewijzingen voor actiebeleid moeten zijn gedefinieerd in beide bedrijven. In een scenario met directe leveringen wordt een intercompany-retourorder, die ook een intercompany-verkooporder is, aangemaakt in het verkopende bedrijf. Het RMA-nummer van de intercompany-retourorder kan worden gekozen uit de RMA-nummerreeks in CompSell of deze kan worden gekopieerd van het RMA-nummer dat is toegewezen aan de oorspronkelijke retourorder in CompBuy. De RMA-nummer-instellingen op het actiebeleid **PurchaseRequisition** in CompBuy bepalen deze acties. Als het RMA-nummer wordt gesynchroniseerd, moet u maatregelen nemen om het risico van nummerconflicten te vermijden als de twee bedrijven dezelfde nummerreeks gebruiken.
 
@@ -262,7 +262,7 @@ In het volgende scenario is CompBuy het inkopende bedrijf en CompSell de verkope
 
 Dit scenario omvat twee bedrijven in dezelfde organisatie, zoals te zien in de volgende afbeelding.  
 
-[![Eenvoudige intercompany-retouren](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Eenvoudige intercompany-retouren](./media/SalesReturn07.png)
 
 De orderketen kan worden opgesteld wanneer een leverancierretourorder wordt gemaakt in het inkopende bedrijf of een klantretourorder wordt gemaakt in het verkopende bedrijf. In Finance and Operations wordt de bijbehorende order gemaakt in het andere bedrijf. Er wordt voor gezorgd dat de koptekst en regelgegevens voor de leverancierretourorder overeenkomen met de instellingen op de klantretourorder. De retourorder die is opgesteld kan de verwijzing (**Verkooporder zoeken**) naar een bestaande klantfactuur bevatten of juist niet. De pakbonnen en facturen van de twee orders kunnen afzonderlijk worden verwerkt. U hoeft bijvoorbeeld geen pakbon te genereren voor de leverancierretourorder voordat u de pakbon voor de klantretourorder genereert.
 
@@ -270,7 +270,7 @@ De orderketen kan worden opgesteld wanneer een leverancierretourorder wordt gema
 
 Dit scenario kan worden opgesteld als een vorige verkoop van het type **Directe levering** is voltooid en als een factuur voor de klant bestaat in het bedrijf dat het contact met de klant afhandelt. In de onderstaande afbeelding heeft het bedrijf CompBuy eerder producten verkocht aan de klant Extern en deze gefactureerd. De producten zijn rechtstreeks vanuit het bedrijf CompSell verzonden naar de klant via een intercompany-orderketen.  
 
-[![Retouren bij zendingen met directe levering tussen drie partijen](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Retouren bij zendingen met directe levering tussen drie partijen](./media/SalesReturn08.png)
 
 Als de klant Extern de producten wil retourneren, wordt een retourorder (RMA02) gemaakt voor de klant in het bedrijf CompBuy. Om de intercompany-keten op te stellen, moet de retourorder worden gemarkeerd voor directe levering. Als u werkt met de functie **Verkooporder zoeken** voor het verzamelen van de klantfactuur die moet worden geretourneerd, wordt een intercompany-orderketen opgesteld die uit de volgende documenten bestaat:
 
@@ -292,7 +292,7 @@ In de volgende voorbeelden wordt de retourkostprijs vertegenwoordigd door **Voor
 
 De retourorder verwijst niet naar een klantfactuur. Het geretourneerde artikel wordt gecrediteerd. De parameter **Creditcorrectie** is niet geselecteerd wanneer de retourorderfactuur of creditnota wordt gegenereerd.  
 
-[![De retourorder verwijst niet naar een klantfactuur.](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![De retourorder verwijst niet naar een klantfactuur.](./media/SalesReturn09.png)  
 
 **Opmerking:** De hoofdrecordprijs wordt gebruikt als de standaardwaarde voor de parameter **Retourkostprijs**. De standaardprijs wijkt af van de kostprijs op het moment van voorraaduitgifte. Daarom is de implicatie dat een verlies van 3 is gemaakt. De retourorder omvat bovendien niet de korting die op de verkooporder aan de klant is gegeven. Daarom wordt een te hoge creditering uitgevoerd.
 
@@ -300,7 +300,7 @@ De retourorder verwijst niet naar een klantfactuur. Het geretourneerde artikel w
 
 Voorbeeld 2 is hetzelfde als voorbeeld 1, maar de parameter **Creditcorrectie** wordt geselecteerd wanneer de retourorderfactuur wordt gegenereerd.  
 
-[![Retourorder waarbij creditcorrectie is ingeschakeld](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![Retourorder waarbij creditcorrectie is ingeschakeld ](./media/SalesReturn10.png)  
 
 **Opmerking:** De grootboekboekingen worden ingevoerd als negatieve correcties.
 
@@ -308,7 +308,7 @@ Voorbeeld 2 is hetzelfde als voorbeeld 1, maar de parameter **Creditcorrectie** 
 
 In dit voorbeeld wordt de retourorderregel gemaakt door middel van de functie **Verkooporder zoeken**. De parameter **Creditcorrectie** is niet geselecteerd wanneer de factuur wordt gemaakt.  
 
-[![Een retourorderregel die is gemaakt door middel van de functie Verkooporder zoeken](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![Een retourorderregel die is gemaakt door middel van de functie Verkooporder zoeken ](./media/SalesReturn11.png)  
 
 **Opmerking:** **Korting** en **Kostprijs retour** zijn correct ingesteld. Daarom wordt precies het bedrag van de klantfactuur teruggeboekt.
 

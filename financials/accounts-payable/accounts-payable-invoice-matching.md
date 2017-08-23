@@ -3,7 +3,7 @@ title: Factuurvereffening voor leveranciers
 description: Factuurmatching in Klanten is het proces van het vergelijken van de leverancierfactuur-, inkooporder- en productontvangstgegevens.
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ Leverancierfacturen zijn vaak gebaseerd op productontvangstbonnen die staan voor
 -   Geef factuurbedragen op die niet zijn opgenomen in de oorspronkelijke inkooporder, zodat de factuurgegevens overeenkomen met de factuur die u hebt ontvangen van de leverancier. U kunt de toeslagen voor inkooporders vergelijken met de toeslagen voor facturen. U kunt indien nodig toeslagen toevoegen aan facturen en deze toewijzen aan factuurregels.
 -   Geef prijsverschillen tussen de netto-eenheidsprijs van de factuur en de netto-eenheidsprijs van de inkooporder op en keur deze goed. U kunt prijstolerantiepercentages instellen voor uw rechtspersonen, leveranciers, en artikelen. Als de leverancierfactuurregelprijs niet binnen de prijstolerantie valt, kunt u de factuur opslaan totdat deze is goedgekeurd voor boeking of totdat u een correctie ontvangt van de leverancier.
 
-Zie [Drieweg-overeenstemmingsbeleid](three-way-matching-policies.md) voor meer informatie.
+Zie voor meer informatie [Drieweg-overeenstemmingsbeleid](three-way-matching-policies.md) en [Validatie voor factuurmatching instellen voor leveranciers](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

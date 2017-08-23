@@ -1,9 +1,9 @@
 ---
 title: Overzicht van leveranciersfacturen
 description: Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 16ff8ebb0e620f45c4d290ee5076d5505abf3436
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 4c27b5a8ab1a7aeab31b48937dcaf4a86d798689
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -75,11 +74,23 @@ Wanneer u de factuur boekt, wordt de hoeveelheid bij **Resterend gedeelte van fa
 
 Bij deze optie wordt ervan uitgegaan dat er minimaal één productontvangstbon is geboekt voor de inkooporder. De leveranciersfactuur is gebaseerd op deze productontvangstbonnen en hieruit worden de hoeveelheden overgenomen. De financiële gegevens voor de factuur zijn gebaseerd op de gegevens die worden ingevoerd wanneer u de factuur boekt.
 
+Zie [Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md) voor meer informatie.
+
 ## <a name="working-with-multiple-invoices"></a>Werken met meerdere facturen
 
 U kunt met meerdere facturen tegelijkertijd werken en ze allemaal op hetzelfde moment boeken. Als u meerdere facturen moet maken, gebruikt u de pagina **Leveranciersfacturen in behandeling**. Als u meerdere leveranciersfacturen moet boeken en afdrukken, gebruikt u de pagina Factuurgoedkeuringsjournaal Als u het factuurgoedkeuringsjournaal gebruikt, moet er minimaal één productontvangstbon worden geboekt voor de inkooporder en moet er een factuur voor de inkooporder worden geboekt in een facturenregister. De financiële gegevens voor de factuur komen uit de factuur die is geboekt in het register.
 
 
+Zie  voor meer informatie.
 
+ - [Leveranciersfactuurbeleid instellen](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+
+ - [Factuurgegevens invoeren in leveranciers met behulp van een leveranciersfactuur](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+ 
+ - [Factuurgegevens invoeren in leveranciers met behulp van een goedkeuringsjournaal](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+  
+ - [Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+ 
+ - [Een leveranciersfactuur in het factuurjournaal registreren](tasks/record-vendor-invoice-invoice-journal.md)
 
 
