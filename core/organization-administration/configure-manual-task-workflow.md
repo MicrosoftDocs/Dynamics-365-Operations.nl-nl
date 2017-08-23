@@ -3,7 +3,7 @@ title: Een handmatige taak configureren in een workflow
 description: In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige taak configureert.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Als een gebruiker de handmatige taak niet binnen de toegekende tijd voltooit, wo
 
 1.  Klik in het linkerdeelvenster op **Escalatie**.
 2.  Vink het selectievakje **Escalatiepad gebruiken** aan om een escalatiepad te maken. Het systeem wijst de taak automatisch toe aan de gebruikers die in het escalatiepad zijn vermeld. De volgende tabel kan bijvoorbeeld een escalatiepad voorstellen.
+
     | Reeks | Escalatiepad      |
     |----------|----------------------|
     | 1        | Toewijzen aan: Diana     |
@@ -318,7 +319,9 @@ U kunt meldingen naar gebruikers verzenden wanneer een handmatige taak is gedele
 8.  Herhaal stappen 3 tot en met 7 voor elke gebeurtenis die u in stap 2 hebt geselecteerd.
 
 ## <a name="set-a-time-limit"></a>Een tijdslimiet instellen
-Volg deze stappen als de handmatige taak binnen een opgegeven tijd moet worden voltooid. **Opmerking:** De hier geselecteerde opties hebben voorrang op de opties die u in de gebieden **Toewijzing** en **Escalatie** van de pagina hebt geselecteerd.
+Volg deze stappen als de handmatige taak binnen een opgegeven tijd moet worden voltooid. 
+
+**Opmerking:** De hier geselecteerde opties hebben voorrang op de opties die u in de gebieden **Toewijzing** en **Escalatie** van de pagina hebt geselecteerd.
 
 1.  Klik in het linkerdeelvenster op **Geavanceerde instellingen**.
 2.  Schakel het selectievakje **Een tijdslimiet instellen voor het workflowelement** in.
