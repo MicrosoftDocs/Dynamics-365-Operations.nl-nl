@@ -16,13 +16,13 @@ ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
+ms.sourcegitcommit: 9e0d4e510542ffdeb01c8c9daffab40f5ba4b654
+ms.openlocfilehash: 3875aab63d2046bf6f0ebeb04622babb6f3f104d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -56,12 +56,15 @@ Selecteer een functiegebied voor meer informatie hierover.
 
 Deze korte video's kunnen u aan de slag met de nieuwe functies in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition juli 2017 update.
 
--  [Aan de slag van kostprijsboekhouding](https://youtu.be/1pUDtJQZ8FU)
--  [Mobiel werkgebied voor kostenbeheer](https://youtu.be/imsuTg8rUVk)
--  [Excel gebruiken voor kostenanalyse](https://youtu.be/-HKHYdClvx8)
+-  [Aan de slag met kostprijsboekhouding](https://youtu.be/1pUDtJQZ8FU)
+-  [Het mobiele werkgebied Kostenbeheer](https://youtu.be/imsuTg8rUVk)
+-  [Kostenanalyse met Excel](https://youtu.be/-HKHYdClvx8)
+-  [Inkooporders goedkeuren op een mobiel apparaat](https://youtu.be/gZ-gOlJe7H8)
 
-### <a name="tech-talk"></a>Techspraak 
--  <a href="https://youtu.be/zotrj3SbCl4">Product Configurator in Microsoft Dynamics AX</a>
+### <a name="tech-talks"></a>Tech-talks
+In de meeste hiervan wordt productfunctionaliteit in de vorige versie van Finance and Operations besproken, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
+
+-  <a href="https://youtu.be/zotrj3SbCl4">Productconfigurator in Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Hoofdplanning - tips en trucs voor het oplossen van prestatieproblemen</a>
 -  <a href="https://youtu.be/RLXybx20B5o">Help! MRP is traag!</a>
 -  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Inkomende ASN's verwerken in magazijnbeheer</a> 
@@ -70,10 +73,11 @@ Deze korte video's kunnen u aan de slag met de nieuwe functies in Microsoft Dyna
 -  <a href="https://youtu.be/Og0gLlVp7jA">Geavanceerd R3-magazijnbeheer - Een dag in het leven, uitgaande verwerking en vraagaanvulling</a>
 -  <a href="https://youtu.be/5w1MngVchBA">Labels in het nieuwe Microsoft Dynamics AX 2012 R3-magazijnbeheer</a>
 -  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: Geavanceerd magazijnbeheer - Een dag in het leven van procesfabricage</a>
--  <a href="https://youtu.be/y1jrd3A_k70">Uitbestede bewerkingen en activiteiten in productie</a>
+-  <a href="https://youtu.be/y1jrd3A_k70">Bewerkingen en activiteiten in productie uitbesteden</a>
+-  <a href="https://youtu.be/jgmTgJIgEFQ">Transportbeheer (TMS) in de nieuwe Microsoft Dynamics AX</a>
 
 ## <a name="blogs"></a>Weblogs
-Er zijn veel onderwerpen over productie en supply chain management beschikbaar op de <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX Manufacturing R&D-teamblog</a> en <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Supply Chain Management op de Dynamics AX R&D-teamblog</a>. De meeste hiervan zijn geschreven voor de vorige versie van Finance and Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
+Er zijn veel onderwerpen over productie en supply chain management beschikbaar op de <a href="https://blogs.msdn.microsoft.com/axmfg/">blog van het R&D-team voor Dynamics AX Manufacturing</a> en <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">de blog van het R&D-team voor Supply Chain Management in Dynamics AX</a>. De meeste hiervan zijn geschreven voor de vorige versie van Finance and Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
 
 ## <a name="white-papers"></a>Technische documenten
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Praktijkoefeningen voor kostprijsboekhouding</a> 
@@ -81,7 +85,7 @@ Er zijn veel onderwerpen over productie en supply chain management beschikbaar o
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Stuklijstberekening aan de hand van kostprijsberekening</a>
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
-Voor meer informatie over training voor Microsoft Dynamics 365 for Finance and Operations raadpleegt u de <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Learning Portal</a>. (CustomerSource-account vereist) 
+Bezoek voor meer informatie over training voor Microsoft Dynamics 365 for Finance and Operations de <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Learning Portal</a>. (CustomerSource-account vereist) 
 
 
 

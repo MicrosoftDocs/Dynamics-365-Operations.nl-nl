@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,12 +29,12 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [handleiding voor beschikbaarheid van producten](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
+Microsoft Dynamics 365 for Finance and Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
 
-Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke functionaliteit. 
+Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke oplossingen, updates waarschuwingen en functionaliteit. 
 
 ## <a name="developing-localized-solutions"></a>Gelokaliseerde oplossingen ontwikkelen
-De volgende bronnen biedt richtlijnen en informatie waarmee ontwikkelaars en ISV's die land-/regiospecifieke aanpassingen uitvoeren of een oplossing ontwikkelen voor een land dat niet door Microsoft wordt ondersteund.
+De volgende bronnen bieden richtlijnen en informatie ter ondersteuning van ontwikkelaars en ISV's die land-/regiospecifieke aanpassingen uitvoeren of een oplossing ontwikkelen voor een land dat niet door Microsoft wordt ondersteund.
 -   [Aparte lokalisatiemodellen](separate-localization-models.md)
 -   [Land-/regiocontext toepassen](apply-country-context.md)
 -   [Wettelijke certificeringen](regulatory-certifications.md)
@@ -94,11 +94,15 @@ De volgende secties bevatten resources per land/regio.
 ### <a name="belgium"></a>België
 
 -   [CODA-bankafschrift](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
--   [Intervat-belastingaangifte](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
+-   [Intervat-btw-aangifte](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM-rapport instellen](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [Afstemmingsrapporten](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>Brazilië
 
+-   [Vaste activa volgens CIAP](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [Belastingboeken configureren](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [Transacties voor grootboekconsolidatie exporteren en importeren voor Brazilië](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [Belastingboeken](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [Tijdelijke aanduidingen voor tekst in belastingdocumenten](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [Belastingdocumenten](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
@@ -106,18 +110,20 @@ De volgende secties bevatten resources per land/regio.
 -   [NF-e-XML-documenten en DANFE-bestanden importeren en controleren](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails)
 -   [Belastingdocumenten importeren](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents)
 -   [Journalen die zijn gegenereerd tijdens het retourproces bij elektronische betaling](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
--   [NF-e-proces](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
+-   [Het NF-e-proces](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [Parameters voor rechtspersonen](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [Elektronische overschrijvingen verwerken voor Brazilië](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [Aanvullende belastingdocumenten voor inkoop](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [Belastingdocumenten waarnaar wordt verwezen](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
 -   [Aanvullende belastingdocumenten voor verkoop](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
--   [Elektronisch belastingdocument voor service](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [Elektronisch belastingdocument voor services](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [NF-e-XML-documenten en DANFE instellen, importeren en controleren](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
 -   [Belastingkenmerken](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [Belastingbetalingen](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
--   [Belastingen](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
+-   [Btw](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
 
 ### <a name="china"></a>China
--   [Vergelijking stuklijst](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison)
+-   [Stuklijsten vergelijken](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison)
 -   [Chinese boekstukken](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers)
 -   [Belastingintegratie configureren](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration)
     -   [Veelgestelde vragen over btw bij klantfacturen](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices)
@@ -159,6 +165,7 @@ De volgende secties bevatten resources per land/regio.
 - [Aanpassingen wisselkoers](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [Bestandsindelingen voor betalingsmethoden](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [Afstoting van vaste activa voor Estland en Litouwen](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [ISO20022-bestanden importeren](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [Voorraadjournaalrapporten](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [Factuur- en pakbonnummering voor Letland en Litouwen](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -174,6 +181,7 @@ De volgende secties bevatten resources per land/regio.
 - [Overzicht SEPA-incasso](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [Compensatie voor klanten en leveranciers instellen](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [Ondertekenaars voor afdrukbare formulieren instellen](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Stornoboekhouding](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [Belastinginstructies](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
 - [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [Btw-wisselkoersen](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
@@ -189,11 +197,11 @@ De volgende secties bevatten resources per land/regio.
 -   [Tekst voor invordering forfaitair bedrag afdrukken op een klantfactuur](/dynamics365/unified-operations/financials/localizations/emea-fra-print-lump-sum-recovery-text)
 -   [Degressieve/lineaire afschrijving](/dynamics365/unified-operations/financials/localizations/emea-fra-rbsl-depreciation)
 
-#### <a name="public-sector"></a>Openbare sector
-   -   [Toezeggingen in de openbare sector](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
-   -   [Mandats de paiement in de openbare sector](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
+#### <a name="public-sector"></a>Publieke sector
+   -   [Toezeggingen in de publieke sector](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
+   -   [Mandats de paiement in de publieke sector](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
    -   [Inkoopbeheer](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
-   -   [Rekeningen voor de openbare sector](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
+   -   [Rekeningen voor de publieke sector](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
    -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Betalingsaanhoudingen leveranciersfacturen](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
@@ -246,11 +254,12 @@ De volgende secties bevatten resources per land/regio.
 
 -   [Rapport over reparaties van vaste activa](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [Factuur- en pakbonnummering](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [Details btw-overzicht](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>Mexico
 
 -   [DIOT-aangifteoverzicht](/dynamics365/unified-operations/financials/localizations/latam-mex-diot-declaration-statement)
--   [Overzichten van elektronische grootboekrekening](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements)
+-   [Elektronische grootboekrekeningoverzichten](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements)
 -   [Inflatiecorrectie-declaratierapport](/dynamics365/unified-operations/financials/localizations/latam-mex-adjustment-inflation-declaration-report)
 -   [ISR-declaratierapport](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes)
 -   [Elektronische facturen (CFDI)](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices)
@@ -296,6 +305,7 @@ De volgende secties bevatten resources per land/regio.
 -   [Herevaluatiegroepen voor vaste activa](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
 -   [Intracommunautaire btw](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Eenmalige klanten](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [Cheques afdrukken met de Spaanse indeling](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [Spaanse opties voor promessen](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Verkoop- en inkoopcycli](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Speciale boekingen en openingsbladen](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,6 +323,7 @@ De volgende secties bevatten resources per land/regio.
 ### <a name="thailand"></a>Thailand
 
 -   [Voorraadkaartrapporten](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [Vervanging/correctie van btw-factuur voor Thailand](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [Niet-gerealiseerde btw](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [Bronbelasting](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
@@ -322,10 +333,11 @@ De volgende secties bevatten resources per land/regio.
 
 ### <a name="united-states"></a>Verenigde Staten
 
+-   [Formulier 1099 in de publieke sector](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [Verificatie van formulier I-9](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [1099-eindejaarsrapportage](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Salaris](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
--   [Openbare sector](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality)
+-   [Publieke sector](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality)
 
 
 
