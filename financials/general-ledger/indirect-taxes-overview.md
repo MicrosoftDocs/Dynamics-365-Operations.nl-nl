@@ -3,7 +3,7 @@ title: Btw-overzicht
 description: In dit artikel vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ In het volgende diagram worden de verschillende rechtspersonen in de btw-structu
 
 Voor elk type btw waarvoor een bedrijf zich moet verantwoorden, moet een btw-code worden gedefinieerd. In een btw-code worden de btw-tarieven en berekeningsregels voor de btw opgeslagen. 
 
-Elke btw-code moet aan een btw-vereffeningsperiode zijn gekoppeld. Btw-vereffeningsperioden definiëren de intervallen waarmee btw moet worden aangegeven en betaald aan de btw-dienst. Elke btw-vereffeningsperiode moet worden toegewezen aan een btw-dienst. Een btw-dienst vertegenwoordigt de rechtspersoon waaraan btw wordt aangegeven en betaald. Tevens definieert deze de indeling voor de btw-aangifte. De btw-dienst kan aan leveranciersrekeningen worden gekoppeld. 
+Elke btw-code moet aan een btw-vereffeningsperiode zijn gekoppeld. Btw-vereffeningsperioden definiëren de intervallen waarmee btw moet worden aangegeven en betaald aan de btw-dienst. Elke btw-vereffeningsperiode moet worden toegewezen aan een btw-dienst. Een btw-dienst vertegenwoordigt de rechtspersoon waaraan btw wordt aangegeven en betaald. Tevens definieert deze de indeling voor de btw-aangifte. De btw-dienst kan aan leveranciersrekeningen worden gekoppeld. Zie [Btw-vereffeningsperioden instellen](tasks/set-up-sales-tax-settlement-periods.md) voor meer informatie.
 
 Elke btw-code moet ook aan een grootboekboekingsgroep zijn gekoppeld. Met een grootboekboekingsgroep worden de hoofdrekeningen gedefinieerd waarnaar bedragen voor de btw-codes worden geboekt. 
 
@@ -60,13 +59,13 @@ In de volgende tabel worden de rechtspersonen en de volgorde voor het instellen 
 | Instellingsactiviteit                                                  | Vereist/optioneel en omschrijving                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hoofdrekeningen maken.                                           | Vereist. Voordat u de btw-functie in kunt stellen, moeten de hoofdrekeningen worden gemaakt die het bedrijf gebruikt om belastingen te betalen en te registreren.                                                                                                                                                                             |
-| Groepen boekingen in grootboek instellen voor btw.                     | Vereist. Grootboekboekingsgroepen definiëren de hoofdrekeningen voor het registreren en het betalen van btw.                                                                                                                                                                                                                            |
-| Btw-diensten instellen.                                   | Vereist. Btw-diensten zijn de rechtspersonen waarbij btw moet worden aangegeven en waaraan deze moet worden betaald.                                                                                                                                                                                                                                   |
+| Groepen boekingen in grootboek instellen voor btw.                     | Vereist. Grootboekboekingsgroepen definiëren de hoofdrekeningen voor het registreren en het betalen van btw.   Zie [Groepen boekingen in grootboek instellen voor btw](tasks/set-up-ledger-posting-groups-sales-tax.md) voor meer informatie.                                                                                 |
+| Btw-diensten instellen.                                   | Vereist. Btw-diensten zijn de rechtspersonen waarbij btw moet worden aangegeven en waaraan deze moet worden betaald.    Zie [Btw-diensten instellen](tasks/set-up-sales-tax-authorities.md) voor meer informatie.                                                                                                                                          |
 | Een btw-vereffeningsperiode instellen.                            | Vereist. Btw-vereffeningsperioden bevatten informatie over wanneer en hoe vaak de btw moet worden aangegeven en betaald. Ze zijn gerelateerd aan een btw-dienst.                                                                                                                                                       |
-| Btw-aangiftecodes instellen.                               | Optioneel. Btw-aangiftecodes kunnen aan btw-codes worden toegewezen om bedragen voor meerdere btw-codes aan te geven onder één btw-aangiftecode.                                                                                                                                                                 |
-| Stel btw-codes in.                                         | Vereist. In btw-codes worden de btw-tarieven en berekeningsregels voor elke btw opgeslagen. Btw-codes zijn gekoppeld aan een btw-vereffeningsperiode en een grootboekboekingsgroep.                                                                                                                                        |
+| Btw-aangiftecodes instellen.                               | Optioneel. Btw-aangiftecodes kunnen aan btw-codes worden toegewezen om bedragen voor meerdere btw-codes aan te geven onder één btw-aangiftecode. Zie [Btw-aangiftecodes instellen](tasks/set-up-sales-tax-reporting-codes.md) voor meer informatie.                                         |
+| Stel btw-codes in.                                         | Vereist. In btw-codes worden de btw-tarieven en berekeningsregels voor elke btw opgeslagen. Btw-codes zijn gekoppeld aan een btw-vereffeningsperiode en een grootboekboekingsgroep. Zie [Btw-codes instellen](tasks/set-up-sales-tax-codes.md) voor meer informatie.                                |
 | Btw-groepen instellen.                                        | Vereist. Btw-groepen bevatten een lijst met btw-codes die gelden voor de partij (klant of leverancier) van een transactie. Voor elke transactie bepaalt het snijpunt van btw-codes in de btw-groep en de btw-groep voor artikelen welke btw-codes van toepassing zijn op die transactie.                  |
-| Btw-groepen voor artikelen instellen.                                   | Vereist. Btw-groepen voor artikelen bevatten een lijst met btw-codes die voor de bron (product, service, enzovoort) van een transactie gelden. Voor elke transactie bepaalt het snijpunt van btw-codes in de btw-groep en de btw-groep voor artikelen welke btw-codes van toepassing zijn op die transactie. |
+| Btw-groepen voor artikelen instellen.                                   | Vereist. Btw-groepen voor artikelen bevatten een lijst met btw-codes die voor de bron (product, service, enzovoort) van een transactie gelden. Voor elke transactie bepaalt het snijpunt van btw-codes in de btw-groep en de btw-groep voor artikelen welke btw-codes van toepassing zijn op die transactie. Zie [Btw-groepen en artikel-btw-groepen instellen](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md) voor meer informatie. |
 | Btw-parameters instellen op de pagina's voor toepassingsparameters. | Vereist. Verschillende gebieden, zoals Grootboek, Klanten en Leveranciers, moeten parameters voor een correcte berekening van indirecte belastingen instellen. Hoewel de meeste van deze parameters standaardwaarden hebben, moeten ze worden aangepast aan de vereisten van elk bedrijf.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Btw op transacties
@@ -98,5 +97,5 @@ Gewoonlijk zou u 2.500 aan de belastingdienst moeten betalen wanneer de factuur 
 Echter, als u een voorwaardelijke BTW gebruikt, hoeft u pas met de belastingdienst te vereffenen wanneer u de betaling van de klant op 30 juli ontvangt.
 
 
-
+Zie [Bronbelasting instellen](tasks/set-up-withholding-tax.md) voor meer informatie.
 

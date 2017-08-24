@@ -3,7 +3,7 @@ title: Algemene journaalverwerking
 description: In dit artikel worden de mogelijkheden beschreven in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -40,7 +39,7 @@ Een van de belangrijkste in te stellen gebieden is Journaalnamen. Het is verstan
 
 Op de pagina **Journaalnamen** kunt u de volgende elementen instellen:
 
--   **Goedkeuring workflow** - Om interne controle te verhogen, definieert u journaalworkflows die materiaallimieten vastleggen voor controle- en goedkeuringsstappen, op basis van criteria zoals totale debetbedrag wordt gebaseerd. U stelt workflows voor de algemene journalen in op de pagina Grootboekworkflows.
+-   **Goedkeuring workflow** - Om interne controle te verhogen, definieert u journaalworkflows die materiaallimieten vastleggen voor controle- en goedkeuringsstappen, op basis van criteria zoals totale debetbedrag wordt gebaseerd. U stelt workflows voor de algemene journalen in op de pagina **Grootboekworkflows**.
 -   **Standaardwaarden** - Selecteer standaardwaarden voor tegenrekeningen, valuta en financiële dimensies.
 -   **Journaalcontrole** - U kunt beperkingen instellen op het bedrijf en het rekeningtype, en ook de segmentwaarden. 
 
@@ -82,8 +81,13 @@ De instelling van de hoofdrekening biedt veel opties voor algemene journaalverwe
 
 Boekhoudingsstructuren en geavanceerde regelsstructuren zijn uiterst belangrijk voor het garanderen dat de gegevens die vereist zijn voor financiële rapportage en prestatie-opvolging worden vastgelegd tijdens de verwerking van het algemeen journaal en eventuele documentatie. Met boekhoudingsstructuren en geavanceerde regelsstructuren kunt u de gegevensinvoerervaring aanpassen. U kunt ervoor dat gegevens alleen kunnen worden ingevoerd voor financiële dimensies die in elke situatie relevant zijn, en u kunt ook de behoefte afdwingen dat altijd verplichte en juiste gegevens worden vastgelegd.
 
-Zie voor meer informatie [Planning: rekeningschema](plan-chart-of-accounts.md). 
-
+Zie de volgende onderwerpen voor meer informatie:
+- [Planning: rekeningschema](plan-chart-of-accounts.md). 
+- [Geavanceerde regels voor journalen maken](tasks/create-advanced-rules-journals.md)
+- [Een journaalboeking maken met een sjabloon](tasks/create-journal-entry-template.md)
+- [Journalen maken en valideren](tasks/create-validate-journals.md)
+- [Periodieke journalen boeken](tasks/post-periodic-journals.md)
+- [Grootboektoewijzingsjournaal verwerken](tasks/process-ledger-allocation-journal.md)
 
 
 

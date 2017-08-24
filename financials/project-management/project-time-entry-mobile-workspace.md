@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -105,11 +104,11 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 2.  Selecteer **Tijdinvoer**. De kalenderdatums voor de huidige week worden weergegeven.
 3.  Selecteer voor een geselecteerde datum **Acties** &gt; **Nieuwe invoer**.
 4.  Voer het aantal uren te registreren uren in.
-5.  Selecteer het project voor de tijdinvoer. In een lijst ziet u de projecten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Selecteer het project voor de tijdinvoer. In een lijst ziet u de projecten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Als uw project niet in de lijst staat, selecteert u **Zoeken**. Zoek op naam of schakel over naar zoeken op projectnaam of klant.
-7.  Een categorie selecteren. In een lijst ziet u de categorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Een categorie selecteren. In een lijst ziet u de categorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Als uw categorie niet in de lijst staat, selecteert u **Zoeken**. Zoek op categorie of schakel over naar zoeken op categorienaam.
-9.  Een activiteit selecteren. In een lijst ziet u de activiteiten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Een activiteit selecteren. In een lijst ziet u de activiteiten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Zie voor meer informatie [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Als uw activiteit niet in de lijst staat, selecteert u **Zoeken**. Zoeken op activiteitnummer of schakel over als u wilt zoeken op doel.
 
 11. Selecteer de regeleigenschap.

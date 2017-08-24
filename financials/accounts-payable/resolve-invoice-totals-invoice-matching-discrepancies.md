@@ -1,9 +1,9 @@
 ---
 title: Verschillen m.b.t. factuurtotalen tijdens factuurvereffening oplossen
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 63413
 ms.assetid: 9ac42457-95b2-4191-ad06-c7e323704466
 ms.search.region: Global
-ms.author: abruer
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8773773d9686bf5061958fbe414ed1fef7288f81
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 8ccc1af0e1bd7909b7810d359a916849ecc1a709
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -44,7 +44,7 @@ Nadat u het verschil hebt aangegeven, kunt u contact opnemen met de leverancier 
 -   Het factuurbedrag met het juiste bedrag corrigeren en de factuur boeken.
 -   Een volledig credit aan de leverancier vragen en om een nieuwe, gecorrigeerde factuur verzoeken.
 
-
+Zie voor meer informatie [Uitzonderingen onderzoeken of oplossen](tasks/research-resolve-exceptions.md).
 
 
 

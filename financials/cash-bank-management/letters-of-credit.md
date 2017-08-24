@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bd61cd2a5fa7705f3f9152323281e6f4ca520dc1
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 64446efd518390ee2a7204e2c977fa4174581808
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -46,6 +45,13 @@ De kredietbrief bevat een beschrijving van de goederen, eventuele vereiste docum
 
 Een kredietbrief kan herroepelijk of onherroepelijk zijn. De aard van een kredietbrief kan overdraagbaar, niet-overdraagbaar of roulerend zijn. Normaal gezien is een kredietbrief een onherroepelijke en bevestigde overeenkomst dat de betaling aan een specifieke begunstigde wordt uitgevoerd na indiening van volledige en nauwkeurige verzendingsdocumentatie.
 
+Zie de volgende onderwerpen voor meer informatie:
+
+[Een kredietbrief importeren](tasks/import-letter-credit.md)
+
+[Een kredietbrief exporteren](tasks/export-letter-credit.md)
+
+[Een bankfaciliteit maken voor een kredietbrief](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
 

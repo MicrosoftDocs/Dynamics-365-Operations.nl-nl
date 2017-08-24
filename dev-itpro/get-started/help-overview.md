@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -32,10 +32,10 @@ ms.lasthandoff: 07/27/2017
 Dit artikel biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren. 
 
 > [!NOTE] 
-> De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor het ene product gelden mogelijk ook voor dezelfde functionaliteit in een verwant product.
+> De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
-Het Help-systeem wordt gedeeld door alle Unified Operations-producten:
-- Dynamics 365 for Finance and Operations, Enterprise-editie
+Het Help-systeem wordt gedeeld door de volgende producten:
+- Dynamics 365 for Finance and Operations, Enterprise Edition
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -67,13 +67,13 @@ We krijgen veel vragen over het zoeken in onze inhoud. Als u op onze site begint
 
 ![Orders zoeken](./media/search-scope-2.png)
 
-U vindt onze inhoud ook met een willekeurige zoekmachine. We raden voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld: site:docs.microsoft.com "<zoekterm>".  
+U vindt onze inhoud ook met een willekeurige zoekmachine. We raden voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld: site:docs.microsoft.com "zoekterm".  
 
 ![Zoeken op locatie](./media/site-search-1.png)
 
 ![Zoekresultaten op site](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>De inhoudsopgave van docs.microsoft.com voor Unified Operations
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>De inhoudsopgave van docs.microsoft.com
 Alle producten delen dezelfde inhoudsopgave op de docs-site, waardoor klanten de context kunnen zien van het onderwerp waarin zij zich bevinden. Bovendien kunt u ook het besturingselement Filter gebruiken om onderwerpen te vinden die u zoekt.
 
 ### <a name="how-can-i-contribute"></a>Hoe kan ik bijdragen? 
@@ -101,7 +101,7 @@ Voer aan de rechterkant een e-mailadres en een nieuw wachtwoord in om een accoun
 ## <a name="task-guides"></a>Taakbegeleidingen
 Een taakbegeleider is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. U kunt een taakbegeleider openen (afspelen) via het deelvenster Help. Wanneer u eerst op een taakbegeleider klikt, worden in het deelvenster Help de stapsgewijze instructies voor de taak weergegeven. Gelokaliseerde taakbegeleiders zijn nu beschikbaar. 
 
-We bieden verschillende sets met taakbegeleidingen aan voor elk Unified Operations-product. In de sectie Taakbegeleidingen openen via het deelvenster Help wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt. 
+We bieden verschillende sets met taakbegeleidingen voor elk product zoals Dynamics 365 for Retail, Dynamics 365 for Finance and Operations of Dynamics 365 for Talent. In de sectie Taakbegeleidingen openen via het deelvenster Help wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt. 
 
 ![Leesweergave van taakbegeleider](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ Vertaalde taakbegeleiders worden vrijgegeven in bibliotheken waarvan de titel "A
 -   Als een taakbegeleider nog niet is vertaald, wordt bij het openen van die taakbegeleider alleen bepaalde tekst (de tekst van de besturingselementen) weergegeven in uw geselecteerde taal.
 
 ## <a name="additional-resources"></a>Aanvullende resources
-De volgende tabel bevat een lijst met websites die inhoud van Unified Operations bevatten. Onze inhoudwebsites worden ingedeeld om de levenscyclus van klanten te ondersteunen. Elke fase wordt ondersteund door een andere set sites. Sites die een sterretje (\*) naast de naam hebben, vereisen dat u zich aanmeldt via een account die aan een serviceplan is gekoppeld.
+In de volgende tabel worden onze websites weergegeven. Onze inhoudwebsites worden ingedeeld om de levenscyclus van klanten te ondersteunen. Elke fase wordt ondersteund door een andere set sites. Sites die een sterretje (\*) naast de naam hebben, vereisen dat u zich aanmeldt via een account die aan een serviceplan is gekoppeld.
 
 | Vestiging                                                                     | Omschrijving                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

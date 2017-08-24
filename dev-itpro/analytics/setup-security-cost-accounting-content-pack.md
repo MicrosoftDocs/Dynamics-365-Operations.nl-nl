@@ -15,13 +15,13 @@ ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ea4ee6cfdca6e65f289db32ca41305a39b186033
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 12fd8e11211b701304f9f4a68ff31f3b42e3e8ee
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -45,11 +45,11 @@ Om beveiliging op toegangsniveau door te voeren in Power BI, moet de eigenaar va
 3.  Zoek de gegevensset voor de Power BI-inhoud **Analyse van kostprijsboekhouding**.
 4.  Open de pagina Beveiliging. 
 
-    [![De pagina Beveiliging openen](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
+    ![De pagina Beveiliging openen](./media/CA-picture-1.png)
 
 5.  De rol **Controller voor kostenobjecten** is al gemaakt. Voeg andere leden toe die lid zijn van de organisatiehiërarchie op toegangsniveau van Kostprijsboekhouding. 
 
-    [![Leden toevoegen](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
+    ![Leden toevoegen](./media/CA-picture-2.png)
 
 Gebruikers die zijn toegevoegd aan de rol **Controller voor kostenobjecten** zien alleen de gegevens die ze mogen zien, volgens de definitie in de organisatiehiërarchie op toegangsniveau van Kostprijsboekhouding. **Opmerking:** Beveiliging op rijniveau geldt voor tegels en rapporten in Microsoft Dynamics 365 for Finance and Operations die zijn ingesloten vanuit Power BI.
 

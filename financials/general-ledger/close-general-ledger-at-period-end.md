@@ -3,7 +3,7 @@ title: Het grootboek aan het einde van de periode afsluiten
 description: In dit onderwerp worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek.
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81d687cc16ef43442c8c1c166cc6f0d8b171e28f
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: bcf58b0ca995883bc466eec66a3d75c73c0be79e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -40,13 +40,18 @@ In het grootboek kunt u afsluitingsprocedures voor een periode of een jaar uitvo
 -   Vereffen transacties voor elke grootboekrekening.
 -   Verwerk alle vereiste toewijzingen.
 -   Boek handmatig periode-eindecorrecties.
--   Journaliseer transacties en controleer het **Grootboekjournaal**rapport.
+-   Journaliseer transacties en controleer het **Grootboekjournaal** rapport.
 -   Voer een consolidatie uit met behulp van een consolidatiebedrijf of een financiële rapportage.
 -   Genereer financiële overzichten van het periode-einde met behulp van financiële rapportage.
 -   Stel grootboekperioden in op **In wachtstand**, zodat geen verdere boeking plaatsvindt. Voor een beter beheer kunt u een periode ook beperken tot een specifieke gebruikersgroep terwijl periode-eindeactiviteiten plaatsvinden. Het is geen goed idee om perioden in te stellen op **Definitief afgesloten**, omdat u een periode die is afgesloten niet kunt heropenen.
 
-De werkruimte Afgesloten financiële periode kan worden gebruikt om de taken die nodig zijn voor verschillende periodeafsluitingsprocessen te organiseren en bij te houden. Raadpleeg de onderwerpen [Werkruimte Afgesloten financiële periode](financial-period-close-workspace.md) en [Jaarafsluiting jaar](Year-end-close.md) voor meer informatie. 
+De werkruimte Afgesloten financiële periode kan worden gebruikt om de taken die nodig zijn voor verschillende periodeafsluitingsprocessen te organiseren en bij te houden. 
 
+
+Zie de volgende onderwerpen voor meer informatie.
+- [Werkgebied voor afsluiten van financiële periode](financial-period-close-workspace.md) 
+- [Jaarafsluiting](Year-end-close.md)  
+- [Massale sluiting van financiële periode](tasks/mass-financial-period-close.md)
 
 
 

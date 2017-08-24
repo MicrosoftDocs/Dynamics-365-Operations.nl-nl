@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -54,12 +53,15 @@ Tijdens het werken met Talent kunt u bepalen hoe u uw organisatie wilt structure
 -   [Uw werknemers organiseren met afdelingen, taken en posities](departments-jobs-positions.md)
 -   [Bedrijfsspecifieke HR-parameters instellen](set-up-company-specific-hr-parameters.md)
 -   [HR-parameters instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md) 
+-   [Veelgestelde vragen personeelsacties](personnel-actions-faq.md)
+-   [Overzicht van verlof en verzuim](leave-absence-overview.md)
 
 ## <a name="retain-and-motivate-employees"></a>Werknemers vasthouden en motiveren
 
 U kunt plannen instellen om effectief en op billijke wijze compensatie te beheren, en tevens artikelen, zoals computers en telefoons, die uw organisatie uitleent aan werknemers te beheren. U kunt plannen voor vaste en variabele compensatie maken, alsmede regels definiëren voor het toepassen van het compensatieplan om te voldoen aan de criteria voor dat plan.
 
 -   [Compensatieplannen](compensation-plans.md)
+-   [Compensatie verwerken](process-compensation.md)
 -   [Plannen voor vaste compensatie maken](create-fixed-compensation-plans.md)
 -   [Plannen voor variabele compensatie maken](create-variable-compensation-plans.md)
 

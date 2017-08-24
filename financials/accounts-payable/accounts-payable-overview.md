@@ -1,9 +1,9 @@
 ---
 title: Leveranciers configureren
 description: In dit artikel worden de pagina's beschreven die u gebruikt voor het instellen van algemene en optionele functionaliteit voor Leveranciers in Microsoft Dynamics 365 for Finance and Operations. Daarnaast worden de stappen beschreven die u moet uitvoeren voordat u Leveranciers kunt instellen.
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2a61cb86a4f2cfc6d701445c139e22df0db44f8c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -47,7 +46,7 @@ Voordat u Leveranciers kunt configureren, moet u de volgende instellingen uitvoe
 ## <a name="setup-pages-for-accounts-payable"></a>Configuratiepagina's voor Leveranciers
 
 Gebruik de volgende pagina's om de basisfunctionaliteit van Leveranciers in te stellen voor elke rechtspersoon. De pagina's worden weergegeven in de aanbevolen volgorde van configuratie. Voor een eenvoudiger configuratieproces kunt u sjablonen maken op basis van de eerste records die u maakt. In een sjabloon worden meestal waarden ingevuld in veel velden, die de functies vertegenwoordigen die de organisatie wil implementeren voor een bepaald type leverancier.
-1.  Definieer op de pagina Betalingsvoorwaarden de betalingsvoorwaarden die u toewijst aan verkooporders, inkooporders, klanten en leveranciers, en die de vervaldatums van facturen bepalen.
+1.  Definieer op de pagina Betalingsvoorwaarden de betalingsvoorwaarden die u toewijst aan verkooporders, inkooporders, klanten en leveranciers, en die de vervaldatums van facturen bepalen. Zie [Bijzondere kosten voor leveranciersbetalingen definiëren](tasks/define-vendor-payment-fees.md) voor meer informatie.
 2.  Maak en beheer op de pagina Betalingsmethoden - leveranciers informatie over hoe de organisatie zijn leveranciers betaalt.
 3.  Maak en beheer op de pagina Leveranciersgroepen leveranciersgroepen die belangrijke parameters delen voor boeking, vereffening en betaling, rapportage en prognoses.
 4.  Definieer op de pagina Leveranciersboekingsprofiel hoe leverancierstransacties naar het grootboek worden geboekt.

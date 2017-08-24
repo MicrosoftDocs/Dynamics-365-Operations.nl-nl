@@ -1,9 +1,9 @@
 ---
 title: Budgetplanningssjablonen voor Excel
 description: In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: nl-nl
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ In dit onderwerp wordt beschreven hoe u Excel-sjablonen kunt maken die worden ge
 
 Budgetplandocumenten kunnen worden weergegeven en bewerkt met behulp van een of meer indelingen. Aan elke indeling kan een documentsjabloon voor het budgetplan worden gekoppeld om de budgetplangegevens in een Excel-werkblad weer te geven en te bewerken. In dit onderwerp wordt een documentsjabloon voor het budgetplan gegenereerd met behulp van een bestaande indelingsconfiguratie. 
 
-Open de **Lijst met budgetplannen** (**Budgettering** &gt; **Budgetplannen**). Klik op **Nieuw** om een nieuw budgetplandocument te maken. 
+1. Open de **Lijst met budgetplannen** (**Budgettering** &gt; **Budgetplannen**). 
+2. Klik op **Nieuw** om een nieuw budgetplandocument te maken. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Budgetplanlijst](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Gebruik de optie **Regel toevoegen** om regels toe te voegen. Klik op **indelingen** om de documentindelingsconfiguratie voor het budgetplan weer te geven. 
+3. Gebruik de optie **Regel toevoegen** om regels toe te voegen. Klik op **indelingen** om de documentindelingsconfiguratie voor het budgetplan weer te geven. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Budgetplannen toevoegen](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-U kunt de indelingsconfiguratie controleren en zo nodig aanpassen. Ga naar **Sjabloon** &gt; **Genereren** om een Excel-bestand voor deze indeling te maken. Nadat de sjabloon is gegenereerd, gaat u naar **Sjabloon** &gt; **Weergave** om de documentsjabloon voor het budgetplan te openen en te controleren. U kunt het Excel-bestand op uw lokale schijf opslaan. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+U kunt de indelingsconfiguratie controleren en zo nodig aanpassen. 
+1. Ga naar **Sjabloon** &gt; **Genereren** om een Excel-bestand voor deze indeling te maken. 
+2. Nadat de sjabloon is gegenereerd, gaat u naar **Sjabloon** &gt; **Weergave** om de documentsjabloon voor het budgetplan te openen en te controleren. U kunt het Excel-bestand op uw lokale schijf opslaan. 
+
+[![Opslaan als](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > De documentindeling van het budgetplan kan niet worden bewerkt nadat er een Excel-sjabloon aan is gekoppeld. Als u de indeling wilt wijzigen, verwijdert u het gekoppelde Excel-sjabloonbestand en genereert u het opnieuw. Dit is noodzakelijk om de indeling voor de velden te behouden en om het werkblad gesynchroniseerd te laten. 
 
 De Excel-sjabloon bevat alle elementen van de documentindeling voor het budgetplan waarin de kolom **Beschikbaar in werkblad** is ingesteld op ´waar´. Overlappende elementen zijn niet toegestaan in de Excel-sjabloon. Als de indeling bijvoorbeeld de kolommen Aanvraag KW1, Aanvraag KW2, Aanvraag KW3 en Aanvraag KW4 bevat, en een kolom met de totale aanvraag waarin de som van alle 4 de kwartaalkolommen is opgenomen, zijn alleen de kwartaalkolommen of de kolom met het totaal beschikbaar voor gebruik in de Excel-sjabloon. In het Excel-bestand kunnen overlappende kolommen niet worden bijgewerkt tijdens de update, omdat gegevens in de tabel verouderd kunnen raken en onnauwkeurig worden.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Voorbeeld ](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > Om mogelijke problemen te voorkomen bij het weergeven en bewerken van budgetplangegevens met behulp van Excel, moet dezelfde gebruiker zijn aangemeld bij zowel Microsoft Dynamics 365 for Finance and Operations als de invoegtoepassing Gegevensconnector van Microsoft Dynamics Office.

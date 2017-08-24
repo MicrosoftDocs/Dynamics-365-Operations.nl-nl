@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations ondersteunt de volledige behee
 </tr>
 <tr class="even">
 <td>Een gepostdateerde cheque voor een leverancier registreren en boeken</td>
-<td>Registreer de details van een gepostdateerde cheque die u aan een leverancier uitschrijft. Wanneer de betaling wordt geboekt, wordt de leveranciersaansprakelijkheid erkend, maar wordt de bankrekening nog niet gecrediteerd. In plaats daarvan wordt hiervoor een speciale rekening gebruikt.</td>
+<td>Registreer de details van een gepostdateerde cheque die u aan een leverancier uitschrijft. Wanneer de betaling wordt geboekt, wordt de leveranciersaansprakelijkheid erkend, maar wordt de bankrekening nog niet gecrediteerd. In plaats daarvan wordt hiervoor een speciale rekening gebruikt. </td>
 </tr>
 <tr class="odd">
 <td>Een gepostdateerde cheque voor een klant registreren en boeken</td>
@@ -87,6 +86,17 @@ Als uw originele cheque voor een leverancier of klant verloren of beschadigd is 
 
 
 
+Zie de volgende onderwerpen voor meer informatie:
+
+[Gepostdateerde cheques instellen](tasks/set-up-postdated-checks.md)
+
+[Een gepostdateerde cheque voor een klant registreren en boeken](tasks/register-post-postdated-check-customer.md)
+
+[Een gepostdateerde cheque van een klant vereffenen](tasks/settle-postdated-check-customer.md)
+
+[Een gepostdateerde cheque voor een leverancier registreren en boeken](tasks/register-post-postdated-check-vendor.md) 
+
+[Een gepostdateerde cheque voor een leverancier vereffenen](tasks/settle-postdated-check-vendor.md)
 
 
 

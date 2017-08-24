@@ -3,7 +3,7 @@ title: Overzicht van transitorische posten
 description: In dit artikel worden toerekeningen beschreven en wordt aangegeven hoe u deze instelt en transacties maakt.
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14131
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ad5030da963ca961d49e645b1d9ad19453376b8
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 87d9f7fbdbc06a3399a6ec5c2492de0f053b1513
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,5 +47,5 @@ Nadat u hebt bepaald welke rekeningen moeten worden gebruikt, kunt u opgeven hoe
 Wanneer u een journaal invoert, kunt u klikken op **Transitorische grootboekposten** in het menu **Functies**. Wanneer u vervolgens het toerekeningsschema selecteert, ziet u het basisbedrag van het journaal dat over de periode wordt verspreid, zoals bepaald door het toerekeningsschema. Als u bijvoorbeeld de verzekering van een werknemer voor het hele jaar in januari betaalt en het bedrag is 12.000, moet u die onkosten elke maand verantwoorden. U kunt de begindatum selecteren. U kunt ook opgeven of het bedrag dat wordt toegerekend, wordt gebaseerd op de rekening of de tegenrekening. Nadat u uw selecties hebt gemaakt, klikt u op **Transacties** om alle transacties weer te geven die zijn gemaakt op basis van het toerekeningsschema. Bijvoorbeeld: als u het bedrag van 12.000 aan verzekeringsonkosten over het jaar verspreid, ziet u een bedrag van 1000 voor elke maand. Nadat u het journaal hebt geboekt, kunt u de transacties bekijken met behulp van de querypagina **Boekstuktransacties**. Als een toerekeningsschema niet kan worden toegepast (bijvoorbeeld in geval van een verkooporderfactuur of inkooporderfactuur), kunt u het vooruitbetaalde bedrag crediteren en het onkostenbedrag debiteren. Vervolgens kunt u **Tegenrekening** selecteren wanneer u het toerekeningsschema toepast.
 
 
-
+Zie voor meer informatie [Toerekeningsschema's maken](tasks/create-accrual-schemes.md) en [Toenametransacties voor grootboek maken](tasks/create-ledger-accrual-transactions.md).
 

@@ -1,9 +1,9 @@
 ---
 title: SEPA-mandaat instellen voor automatische afschrijving
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ebf80efa32b21184a8effdde4d46c4d0d2179efd
+ms.translationtype: HT
+ms.sourcegitcommit: 17dc0cc19c4c58e6c795e085e2e8985598d403a0
+ms.openlocfilehash: 4ea72cf6410eb30d83103bceb4a1628bafd33ac7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -54,7 +54,10 @@ U moet een betalingsmethode voor mandaten voor automatische afschrijving instell
 -   Optioneel: Als u verwacht dat al uw klanten meerdere mandaten hebben, selecteert u in het veld **Periode** de waarde **Factuur**. Hierdoor wordt een afzonderlijke betaling voor elke factuur gemaakt, en elke betaling gebruikt het mandaat dat voor de factuur is opgegeven.
 -   Selecteer de optie **Mandaat vereisen** om betalingen te maken door mandaten voor automatische afschrijving te gebruiken. De optie **Mandaat vereisen** is alleen beschikbaar als u **Elektronische betaling** in het veld **Betalingstype** selecteert.
 
-Zie voor meer informatie [Overzicht automatische SEPA-overschrijvingen](sepa-direct-debit-overview.md) 
+Zie ook
 
+[Overzicht automatische overschrijvingen](sepa-direct-debit-overview.md) 
+
+[Een mandaat voor automatische afschrijving maken voor een klant](tasks/create-direct-debit-mandate-customer.md) 
 
 
