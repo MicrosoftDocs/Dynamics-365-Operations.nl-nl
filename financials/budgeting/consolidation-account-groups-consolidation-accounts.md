@@ -1,7 +1,7 @@
 ---
 title: Groepen met consolidatierekeningen en aanvullende consolidatierekeningen
 description: In dit onderwerp wordt informatie gegeven over groepen met consolidatierekeningen en aanvullende consolidatierekeningen en wordt uitgelegd hoe deze worden gebruikt in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

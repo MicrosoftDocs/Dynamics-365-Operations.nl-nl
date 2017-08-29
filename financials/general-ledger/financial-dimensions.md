@@ -1,7 +1,7 @@
 ---
 title: "Financiële dimensies"
 description: "In dit onderwerp worden de verschillende typen financiële dimensies beschreven en hoe ze worden ingesteld."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

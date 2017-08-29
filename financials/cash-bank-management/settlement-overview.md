@@ -1,7 +1,7 @@
 ---
 title: Vereffeningsoverzicht
 description: Dit artikel geeft algemene informatie over het vereffeningsproces. Het beschrijft de transactietypen die kunnen worden vereffend, wanneer en hoe de transacties kunnen worden vereffend, en de resultaten van het vereffeningsproces.
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

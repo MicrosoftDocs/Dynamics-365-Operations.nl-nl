@@ -1,7 +1,7 @@
 ---
 title: Mobiel werkgebied voor kostenbeheer
 description: Dit onderwerp bevat informatie over het mobiele werkgebied Kostenbeheer. Via dit werkgebied kunnen kostenplaatsmanagers altijd en overal informatie over de prestaties van hun kostenplaats bekijken.
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

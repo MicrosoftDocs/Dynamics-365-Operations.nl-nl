@@ -1,7 +1,7 @@
 ---
 title: PRODCOM instellen en onderhouden
 description: In dit onderwerp wordt uitgelegd hoe u PRODCOM in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition kunt instellen en beheren.
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 836e02eaad64395c18bae21cb5c28601d52375ed
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

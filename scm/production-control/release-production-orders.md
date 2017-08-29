@@ -1,7 +1,7 @@
 ---
 title: Productieorders vrijgeven
 description: Een vrijgegeven productieorder is een order die is geautoriseerd voor productie. De term Vrijgegeven wordt gebruikt om een status in de levenscyclus van de productieorder te beschrijven, waar de productieorder beschikbaar is voor uitvoering op de productiewerkvloer en voor magazijnprocessen.
-author: YuyuScheller
+author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProdParmRelease
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: bis
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2414
 ms.assetid: 50c2257b-2924-44f5-b7c1-11f498092053
@@ -24,7 +24,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 1b033e4bf6705b3c9a33f2184666158049909a80
 ms.contentlocale: nl-nl
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

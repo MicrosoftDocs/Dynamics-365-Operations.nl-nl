@@ -1,7 +1,7 @@
 ---
 title: Gecentraliseerde betalingen instellen
 description: Voer de volgende stappen uit ter voorbereiding van het verwerken van betalingen in een rechtspersoon namens andere rechtspersonen in uw organisatie.
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article

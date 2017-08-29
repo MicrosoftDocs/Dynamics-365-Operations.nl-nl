@@ -1,7 +1,7 @@
 ---
 title: Journaalboekingen en transacties weergeven
 description: In dit artikel worden de verschillende manieren beschreven waarop u journaalposten en transacties kunt weergeven.
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
