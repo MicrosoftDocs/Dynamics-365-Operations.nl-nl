@@ -1,7 +1,7 @@
 ---
 title: Vereffeningsoverzicht voor gecentraliseerde betalingen
 description: Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt. Hierdoor hoeft u dezelfde transactie niet voor meerdere rechtspersonen in te voeren en bespaart u tijd doordat het betalingsvoorstelproces, het vereffeningsproces, en het bewerken van openstaande en gesloten transacties voor gecentraliseerde betalingen worden gestroomlijnd.
-author: twheeloc
+author: abruer
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

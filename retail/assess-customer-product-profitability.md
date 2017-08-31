@@ -1,7 +1,7 @@
 ---
 title: Winstgevendheid van klanten en producten beoordelen
 description: In dit artikel wordt uitgelegd hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de winstgevendheid van uw klanten en producten in Microsoft Dynamics 365 for Retail en deze kunt onderzoeken en er kennis uit kunt destilleren.
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: ea35bdd54c476fc5a3d329f7ca0dcf014c417e7a
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

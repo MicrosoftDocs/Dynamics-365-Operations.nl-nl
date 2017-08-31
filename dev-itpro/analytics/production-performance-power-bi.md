@@ -1,7 +1,7 @@
 ---
 title: Power BI-inhoud Productieprestaties
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Productieprestaties. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Ploegen- en kasladebeheer
 description: "In dit artikel wordt beschreven hoe u de twee typen ploegen voor detailhandelverkooppunten (POS) kunt instellen en gebruiken: gedeelde en zelfstandige. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen terwijl zelfstandige ploegen kunnen worden gebruikt door slechts één werknemer tegelijk."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

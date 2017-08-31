@@ -1,7 +1,7 @@
 ---
 title: Overzicht van transitorische posten
 description: In dit artikel worden toerekeningen beschreven en wordt aangegeven hoe u deze instelt en transacties maakt.
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

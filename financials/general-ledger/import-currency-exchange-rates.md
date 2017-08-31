@@ -1,7 +1,7 @@
 ---
 title: Valutawisselkoersen importeren
 description: Als een rechtspersoon facturen in vreemde valuta's heeft ontvangen, is het nodig de vreemde valuta in de lokale valuta om te rekenen. Dit betekent dat de actuele wisselkoersen voor verschillende valuta's vereist zijn. Dit onderwerp biedt een overzicht van de vereiste instellingen en verwerking voor het importeren van deviezenreferentiekoersen die via internet zijn gepubliceerd door de wisselkoersproviders, zoals de Europese Centrale Bank en de Centrale Bank van Rusland.
-author: ShylaThompson
+author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008

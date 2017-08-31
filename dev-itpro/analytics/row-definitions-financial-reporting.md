@@ -1,7 +1,7 @@
 ---
 title: "Rijdefinities in Ontwerper financiële rapporten"
 description: Een rijdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van elke rij in een financieel rapport wordt gespecificeerd. Een rijdefinitie kan worden gecombineerd met kolomdefinities, rapportagestructuurdefinities en rapportdefinities om een bouwsteengroep te maken die door meerdere bedrijven kan worden gebruikt.
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014

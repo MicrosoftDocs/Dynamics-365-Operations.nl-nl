@@ -1,7 +1,7 @@
 ---
 title: Stuklijsten en formules
 description: "Dit artikel bevat informatie over stuklijsten en formules, die een centraal deel uitmaken van de definitie van producten en productvarianten. Met stuklijsten en formules worden de benodigde materialen of ingrediënten voor een specifiek product opgegeven. Met formules worden ook de coproducten en bijproducten opgegeven die worden ontvangen in een specifieke productiecontext."
-author: YuyuScheller
+author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
@@ -24,7 +24,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 5a23acfa95bb93dbc5990bf3839bbc629f15cc2f
 ms.contentlocale: nl-nl
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

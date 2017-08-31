@@ -1,7 +1,7 @@
 ---
 title: Uw rekeningschema plannen
 description: Dit artikel bevat informatie waarmee u het rekeningschema voor uw organisatie kunt plannen.
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

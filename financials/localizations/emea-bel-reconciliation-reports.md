@@ -13,7 +13,7 @@ ms.reviewer: shylaw
 ms.search.scope: AX 7.0.1, Operations, Core
 ms.custom: 273103
 ms.search.region: Belgium
-ms.author: ShylaThompson
+ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: Human Translation
@@ -21,7 +21,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 6d941f22add6f35900baf18913854f8d6a640086
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

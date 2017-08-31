@@ -1,7 +1,7 @@
 ---
 title: Herwaardering van vreemde valuta voor Leveranciers en Klanten
 description: "Schommelingen in wisselkoersen leiden ertoe dat de theoretische waarde (boekwaarde) van openstaande transacties in vreemde valuta in de loop van de tijd variëren. Dit artikel bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: f09589a6f0a684752c7c9b98528e9546fedf341e
 ms.contentlocale: nl-nl
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

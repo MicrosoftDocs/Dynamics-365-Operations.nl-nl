@@ -1,7 +1,7 @@
 ---
 title: Winkelprestaties analyseren
 description: In dit artikel wordt beschreven hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de prestaties van uw winkel in Microsoft Dynamics 365 for Retail en deze kunt onderzoeken en er kennis uit kunt destilleren.
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 37baac8d3160b95f75dd11197fc60060450c0680
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Het grootboek aan het einde van de periode afsluiten
 description: In dit onderwerp worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek.
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

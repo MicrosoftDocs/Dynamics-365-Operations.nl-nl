@@ -13,22 +13,22 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
 # <a name="introduction-to-dynamics-365-for-finance-and-operations"></a>Inleiding tot Dynamics 365 for Finance and Operations
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations is de bedrijfstoepassing voor ondernemingen van Microsoft. Hiermee kunnen mensen snel betere beslissingen nemen via een intelligente gebruikersinterface die toegang biedt tot real-time inzichten en gegevens. Het stelt bedrijven in staat tot transformatie en innovatie dankzij bewezen zakelijke logica waarmee zij hun bedrijfsprocessen sneller kunnen aanpassen. Het biedt bedrijven de flexibiliteit in hun eigen tempo te groeien en praktisch overal en op elk moment zaken te doen, waardoor zij hun wereldwijde activiteiten kunnen uitbreiden om in de bedrijfsbehoeften te voorzien. 
+Microsoft Dynamics 365 for Finance and Operations is de bedrijfstoepassing voor ondernemingen van Microsoft. Hiermee kunnen mensen snel betere beslissingen nemen via een intelligente gebruikersinterface, die toegang biedt tot real-time inzichten en gegevens. Het stelt bedrijven in staat tot transformatie en innovatie, dankzij bewezen zakelijke logica waarmee zij hun bedrijfsprocessen sneller kunnen aanpassen. Het biedt bedrijven de flexibiliteit in hun eigen tempo te groeien en praktisch overal en op elk moment zaken te doen, waardoor zij hun wereldwijde activiteiten kunnen uitbreiden om in de bedrijfsbehoeften te voorzien. 
 
-Deze documentatie kan u helpen inzicht te verkrijgen in hoe Dynamics 365 for Finance and Operations uw bedrijf kan ondersteunen. Deze hangt samen met documentatie voor de gerelateerde producten in de Unified Operations-suite, Dynamics 365 for Retail en Dynamics 365 for Talent. 
+Deze documentatie kan u helpen te begrijpen hoe Dynamics 365 for Finance and Operations uw bedrijf kan ondersteunen. De vermelde documenten hangen samen met documentatie voor de gerelateerde producten, Dynamics 365 for Retail en Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -57,7 +57,7 @@ Deze documentatie kan u helpen inzicht te verkrijgen in hoe Dynamics 365 for Fin
 <p><a href="../financials/fixed-assets/fixed-assets">Vaste activa</a></p>
 <p><a href="../financials/general-ledger/general-ledger">Grootboek</a></p>
 <p><a href="../financials/project-management/overview-project-management-accounting">Projectbeheer</a></p>
-<p><a href="../financials/public-sector/public-sector-functionality">Openbare sector</a></p>
+<p><a href="../financials/public-sector/public-sector-functionality">Publieke sector</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region">Regionale wettelijk voorgeschreven functies</a></p>
 
 <H3><a href="hr/hr-landing-page">Human Resources</a></h3>
@@ -86,7 +86,7 @@ Deze documentatie kan u helpen inzicht te verkrijgen in hoe Dynamics 365 for Fin
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">Financiële rapportage</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">Wettelijke rapportage</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">Mobiel platform</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobiel platform</a></h3>
 
 <h3>Functionaliteit voor ontwikkelaars</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">Introductiepagina voor ontwikkelaars</a></p>

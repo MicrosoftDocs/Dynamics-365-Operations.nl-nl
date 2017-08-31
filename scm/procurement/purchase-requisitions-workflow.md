@@ -1,7 +1,7 @@
 ---
 title: Werkstroom voor opdrachten tot inkoop
 description: Het workflowproces verplaatst opdrachten tot inkoop door het beoordelingsproces, vanaf de beginstatus Concept tot de laatste status Goedgekeurd. Wanneer een opdracht tot inkoop ter controle wordt ingediend, wordt het workflowproces gestart. Nadat een opdracht tot inkoop is goedgekeurd, kan een inkooporder worden gegenereerd voor de regels van de opdracht tot inkoop en kunnen ze bij de leverancier worden ingediend om te worden voltooid.
-author: YuyuScheller
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
