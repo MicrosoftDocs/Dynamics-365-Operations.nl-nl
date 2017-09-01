@@ -1,7 +1,7 @@
 ---
 title: Een wervingsproces beheren
 description: In dit artikel wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een aanwervingsproces op te volgen, waaronder inspanningen om vacatures te adverteren en sollicitanten aan te werven, het opvolgen van gegevens van sollicitanten en sollicitaties, het interviewen van sollicitanten en een of meerdere kandidaten selecteren om de openstaande posities in uw organisatie in te vullen.
-author: twheeloc
+author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 6276655f6e7d09f5bc8862ad456b834d8919e574
 ms.contentlocale: nl-nl
 ms.lasthandoff: 06/13/2017
-
 
 ---
 
