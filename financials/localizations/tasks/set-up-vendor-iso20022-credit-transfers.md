@@ -16,39 +16,39 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 147d8fa82bf15c984ad263cada42789038fa7371
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f01947840553a65af4aba1309d89f9b3e9ced872
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>Leveranciers en bankrekeningen voor leveranciers voor ISO20022-kredietoverdrachten instellen
+# <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="33878-103">Leveranciers en bankrekeningen voor leveranciers voor ISO20022-kredietoverdrachten instellen</span><span class="sxs-lookup"><span data-stu-id="33878-103">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u de leverancier- en leverancierspecifieke bankrekeninggegevens kunt instellen voor het genereren van bestanden voor ISO20022-kredietoverdracht of andere vormen van leveranciersbetalingen. 
+<span data-ttu-id="33878-104">Deze procedure laat zien hoe u de leverancier- en leverancierspecifieke bankrekeninggegevens kunt instellen voor het genereren van bestanden voor ISO20022-kredietoverdracht of andere vormen van leveranciersbetalingen.</span><span class="sxs-lookup"><span data-stu-id="33878-104">This procedure demonstrates how to set up the vendor and vendor specific bank account information required for ISO20022 Credit transfer or any other vendor payment file generation.</span></span> 
 
-Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF.
-Dit is de vierde van vijf taken die het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+<span data-ttu-id="33878-105">Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF.</span><span class="sxs-lookup"><span data-stu-id="33878-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="33878-106">Dit is de vierde van vijf taken die het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="33878-106">This is the fourth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="33878-107">Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="33878-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="set-up-bank-details"></a>Bankgegevens instellen
-1. Ga naar Leveranciers > Leveranciers > Alle leveranciers.
-2. Gebruik de snelfilter om records te zoeken. Filter bijvoorbeeld op het veld Leveranciersrekening met een waarde van 'DE-001'.
-3. Klik op DE-001 om de leveranciersgegevens te openen.
-4. Klik in het actievenster op Leverancier.
-5. Klik op Bankrekeningen.
-6. Klik op Bewerken.
-    * Als er geen bankrekening beschikbaar is, moet u een nieuwe maken.  
-7. Typ 'COBADEFFXXX' in het veld SWIFT-code.
-8. Typ 'DE36200400000628808808' in het veld IBAN.
-9. Sluit de pagina.
+## <a name="set-up-bank-details"></a><span data-ttu-id="33878-108">Bankgegevens instellen</span><span class="sxs-lookup"><span data-stu-id="33878-108">Set up bank details</span></span>
+1. <span data-ttu-id="33878-109">Ga naar Leveranciers > Leveranciers > Alle leveranciers.</span><span class="sxs-lookup"><span data-stu-id="33878-109">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="33878-110">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="33878-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="33878-111">Filter bijvoorbeeld op het veld Leveranciersrekening met een waarde van 'DE-001'.</span><span class="sxs-lookup"><span data-stu-id="33878-111">For example, filter on the Vendor account field with a value of 'DE-001'.</span></span>
+3. <span data-ttu-id="33878-112">Klik op DE-001 om de leveranciersgegevens te openen.</span><span class="sxs-lookup"><span data-stu-id="33878-112">Click DE-001 to open vendor details.</span></span>
+4. <span data-ttu-id="33878-113">Klik in het actievenster op Leverancier.</span><span class="sxs-lookup"><span data-stu-id="33878-113">On the Action Pane, click Vendor.</span></span>
+5. <span data-ttu-id="33878-114">Klik op Bankrekeningen.</span><span class="sxs-lookup"><span data-stu-id="33878-114">Click Bank accounts.</span></span>
+6. <span data-ttu-id="33878-115">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="33878-115">Click Edit.</span></span>
+    * <span data-ttu-id="33878-116">Als er geen bankrekening beschikbaar is, moet u een nieuwe maken.</span><span class="sxs-lookup"><span data-stu-id="33878-116">If there is no bank account available, you need to create a new one.</span></span>  
+7. <span data-ttu-id="33878-117">Typ 'COBADEFFXXX' in het veld SWIFT-code.</span><span class="sxs-lookup"><span data-stu-id="33878-117">In the SWIFT code field, type 'COBADEFFXXX'.</span></span>
+8. <span data-ttu-id="33878-118">Typ 'DE36200400000628808808' in het veld IBAN.</span><span class="sxs-lookup"><span data-stu-id="33878-118">In the IBAN field, type 'DE36200400000628808808'.</span></span>
+9. <span data-ttu-id="33878-119">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="33878-119">Close the page.</span></span>
 
-## <a name="set-up-a-method-of-payment-for-the-vendor"></a>Een betalingswijze voor de leverancier instellen
-1. Klik op Bewerken.
-2. Vouw de sectie Betaling uit of samen.
-3. Klik in het veld Betalingsmethode op de vervolgkeuzeknop om de zoekopdracht te openen.
-4. Klik in de lijst op de koppeling in de rij SEPA CT.
-5. Klik op Opslaan.
+## <a name="set-up-a-method-of-payment-for-the-vendor"></a><span data-ttu-id="33878-120">Een betalingswijze voor de leverancier instellen</span><span class="sxs-lookup"><span data-stu-id="33878-120">Set up a method of payment for the vendor</span></span>
+1. <span data-ttu-id="33878-121">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="33878-121">Click Edit.</span></span>
+2. <span data-ttu-id="33878-122">Vouw de sectie Betaling uit of samen.</span><span class="sxs-lookup"><span data-stu-id="33878-122">Expand or collapse the Payment section.</span></span>
+3. <span data-ttu-id="33878-123">Klik in het veld Betalingsmethode op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="33878-123">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="33878-124">Klik in de lijst op de koppeling in de rij SEPA CT.</span><span class="sxs-lookup"><span data-stu-id="33878-124">In the list, click the link in the SEPA CT row.</span></span>
+5. <span data-ttu-id="33878-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="33878-125">Click Save.</span></span>
 
 

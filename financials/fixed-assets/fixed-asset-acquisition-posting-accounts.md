@@ -19,32 +19,32 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d89bff85317a6aee952d32a9c29f0ebdd27934ec
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 887616463856875e2382a00b1d56520391ead844
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="fixed-asset-acquisition-posting-accounts"></a>Boekingsrekeningen verwerving vaste activa
+# <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="ca5bb-103">Boekingsrekeningen verwerving vaste activa</span><span class="sxs-lookup"><span data-stu-id="ca5bb-103">Fixed asset acquisition posting accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het aanchaffen van activa.
+<span data-ttu-id="ca5bb-104">In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het aanchaffen van activa.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
 
-Rekeningen voor het boeken van verwervingen van vaste activa kunnen verschillen afhankelijk van de methode die wordt gebruikt om het activum te verwerven. Selecteer Verwerving en Verwervingscorrectie op de pagina Boekingsprofielen voor vaste activa op het tabblad Grootboekrekeningen vaste-activarekeningen in te stellen om naar het grootboek te boeken. 
+<span data-ttu-id="ca5bb-105">Rekeningen voor het boeken van verwervingen van vaste activa kunnen verschillen afhankelijk van de methode die wordt gebruikt om het activum te verwerven.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-105">Accounts used for posting fixed asset acquisitions may vary depending upon the method used to acquire the asset.</span></span> <span data-ttu-id="ca5bb-106">Selecteer Verwerving en Verwervingscorrectie op de pagina Boekingsprofielen voor vaste activa op het tabblad Grootboekrekeningen vaste-activarekeningen in te stellen om naar het grootboek te boeken.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-106">On the Fixed asset posting profiles page, on the Ledger accounts tab, select Acquisition and Acquisition adjustment to set up fixed asset accounts to post to the ledger.</span></span> 
 
-In journalen en op inkooporders is het grootboek gewoonlijk de balansrekening waar de aanschafwaarde van het nieuwe vaste activum wordt gedebiteerd. Deze rekening wordt niet weergegeven in het journaal en kan niet worden vervangen in transacties. 
+<span data-ttu-id="ca5bb-107">In journalen en op inkooporders is het grootboek gewoonlijk de balansrekening waar de aanschafwaarde van het nieuwe vaste activum wordt gedebiteerd.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-107">In journals and on purchase orders, Ledger account is typically the balance sheet account, where the acquisition value of the new fixed asset is debited.</span></span> <span data-ttu-id="ca5bb-108">Deze rekening wordt niet weergegeven in het journaal en kan niet worden vervangen in transacties.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-108">This account is not displayed in the journal and cannot be replaced in transactions.</span></span> 
 
-Tegenrekening is ook een balansrekening. In het algemene journaal en in het vaste-activajournaal is deze rekening vaak de bankrekening die wordt gebruikt om te betalen voor de aanschaf van het activum. De tegenrekening is een standaardrekening, die wordt voorgesteld in de journalen. Deze kan in het journaal worden gewijzigd naar een andere rekening uit het rekeningschema of naar een leveranciersrekening, als het vaste activum van een leverancier is gekocht. 
+<span data-ttu-id="ca5bb-109">Tegenrekening is ook een balansrekening.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-109">Offset account is also a balance sheet account.</span></span> <span data-ttu-id="ca5bb-110">In het algemene journaal en in het vaste-activajournaal is deze rekening vaak de bankrekening die wordt gebruikt om te betalen voor de aanschaf van het activum.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-110">In the general journal and in the fixed assets journal, this account often will be the bank account that is used to pay for the acquisition of the asset.</span></span> <span data-ttu-id="ca5bb-111">De tegenrekening is een standaardrekening, die wordt voorgesteld in de journalen.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-111">The offset account is a default account, which is suggested in the journals.</span></span> <span data-ttu-id="ca5bb-112">Deze kan in het journaal worden gewijzigd naar een andere rekening uit het rekeningschema of naar een leveranciersrekening, als het vaste activum van een leverancier is gekocht.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-112">It can be changed in the journal to any other account from the chart of accounts or to a vendor account, if the fixed asset was purchase from a vendor.</span></span> 
 
-Als Factuurjournaal of Inkooporders in Leveranciers worden gebruikt voor de verwerving van vaste activa, wordt de tegenrekening voor de vaste-activatransactie vervangen door de leveranciersrekening die voor de transactie is geselecteerd.
+<span data-ttu-id="ca5bb-113">Als Factuurjournaal of Inkooporders in Leveranciers worden gebruikt voor de verwerving van vaste activa, wordt de tegenrekening voor de vaste-activatransactie vervangen door de leveranciersrekening die voor de transactie is geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-113">When Invoice journal or Purchase orders in Accounts payable are used for fixed asset acquisitions, the offset account for the fixed asset transaction is replaced by the vendor account that is selected for the transaction.</span></span>
 
-Voor verwervingen die zijn geboekt met het Voorraad naar vaste-activajournaal in het grootboek, is het vaste activum niet gekocht van externe bronnen, maar overgebracht uit de eigen voorraad van het bedrijf. Daarom is de tegenrekening een voorraaduitgifterekening voor het voorraadartikel in Voorraadbeheer.
+<span data-ttu-id="ca5bb-114">Voor verwervingen die zijn geboekt met het Voorraad naar vaste-activajournaal in het grootboek, is het vaste activum niet gekocht van externe bronnen, maar overgebracht uit de eigen voorraad van het bedrijf.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-114">For acquisitions posted using the Inventory to fixed assets journal in General ledger, the fixed asset is not bought from external sources, but transferred from the company's own inventory.</span></span> <span data-ttu-id="ca5bb-115">Daarom is de tegenrekening een voorraaduitgifterekening voor het voorraadartikel in Voorraadbeheer.</span><span class="sxs-lookup"><span data-stu-id="ca5bb-115">Therefore, the offset account is an inventory issue account for the inventory item in Inventory management.</span></span>
 
-Zie voor meer informatie [Verwerving van activa via inkoop](acquire-assets-procurement.md).
+<span data-ttu-id="ca5bb-116">Zie voor meer informatie [Verwerving van activa via inkoop](acquire-assets-procurement.md).</span><span class="sxs-lookup"><span data-stu-id="ca5bb-116">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md).</span></span>
 
 
 

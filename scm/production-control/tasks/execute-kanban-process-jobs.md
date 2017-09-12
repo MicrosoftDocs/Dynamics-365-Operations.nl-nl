@@ -17,43 +17,43 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 50b5048a5f9277c47444fa69d2c8cc8e36ba7dcd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="execute-kanban-process-jobs"></a>Kanbanprocestaken uitvoeren
+# <a name="execute-kanban-process-jobs"></a><span data-ttu-id="03b3d-103">Kanbanprocestaken uitvoeren</span><span class="sxs-lookup"><span data-stu-id="03b3d-103">Execute kanban process jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure is gericht op het uitvoeren van kanbanprocestaken. De eerste taak wordt voltooid met de verwachte hoeveelheid en heeft geen fouten. De tweede taak wordt voltooid met fouten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de machineoperator.
+<span data-ttu-id="03b3d-104">Deze procedure is gericht op het uitvoeren van kanbanprocestaken.</span><span class="sxs-lookup"><span data-stu-id="03b3d-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="03b3d-105">De eerste taak wordt voltooid met de verwachte hoeveelheid en heeft geen fouten.</span><span class="sxs-lookup"><span data-stu-id="03b3d-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="03b3d-106">De tweede taak wordt voltooid met fouten.</span><span class="sxs-lookup"><span data-stu-id="03b3d-106">The second job is completed with errors.</span></span> <span data-ttu-id="03b3d-107">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="03b3d-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="03b3d-108">Deze procedure is bedoeld voor de machineoperator.</span><span class="sxs-lookup"><span data-stu-id="03b3d-108">This procedure is intended for the machine operator.</span></span>
 
 
-## <a name="select-a-kanban-job"></a>Een kanbantaak selecteren
-1. Ga naar Productiebeheer > Kanban > Kanbanplanbord voor procestaken.
-2. Klik in het veld Werkcel op de vervolgkeuzeknop om de zoekopdracht te openen.
-3. Klik op de rij met resourcegroep 1250. Hiermee wordt de lijst met taken gefilterd zodat alleen de taken voor werkcel 1250 worden weergegeven.
-    * Markeer de rij met de status Geplande taak.  
+## <a name="select-a-kanban-job"></a><span data-ttu-id="03b3d-109">Een kanbantaak selecteren</span><span class="sxs-lookup"><span data-stu-id="03b3d-109">Select a kanban job</span></span>
+1. <span data-ttu-id="03b3d-110">Ga naar Productiebeheer > Kanban > Kanbanplanbord voor procestaken.</span><span class="sxs-lookup"><span data-stu-id="03b3d-110">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="03b3d-111">Klik in het veld Werkcel op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="03b3d-111">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="03b3d-112">Klik op de rij met resourcegroep 1250.</span><span class="sxs-lookup"><span data-stu-id="03b3d-112">Click the row with resource group 1250.</span></span> <span data-ttu-id="03b3d-113">Hiermee wordt de lijst met taken gefilterd zodat alleen de taken voor werkcel 1250 worden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="03b3d-113">This filters the Jobs list to display only the jobs for work cell 1250.</span></span>
+    * <span data-ttu-id="03b3d-114">Markeer de rij met de status Geplande taak.</span><span class="sxs-lookup"><span data-stu-id="03b3d-114">Mark the row that has the Planned job status.</span></span>  
 
-## <a name="complete-a-job-with-expected-quantity"></a>Een taak uitvoeren met verwachte hoeveelheid
-1. Vouw de sectie Details uit of samen.
-    * Deze sectie bevat belangrijke informatie over kaartnummer, artikelnummer, bestelde hoeveelheid en activiteitsnaam.  
-2. Vouw de sectie Productie-instructies uit of samen.
-    * Deze sectie bevat productie-instructies voor de activiteit. De instructies kunnen tekst, afbeeldingen, tekeningen en andere documenten zijn.  
-3. Klik op Start.
-    * Selecteer een taak die niet voltooid is. Gebruik statuspictogrammen in het veld Taakstatus om de taakstatus weer te geven.      
-4. Klik op Voltooien.
-    * De taak is voltooid met de verwachte kwaliteit.  
+## <a name="complete-a-job-with-expected-quantity"></a><span data-ttu-id="03b3d-115">Een taak uitvoeren met verwachte hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="03b3d-115">Complete a job with expected quantity</span></span>
+1. <span data-ttu-id="03b3d-116">Vouw de sectie Details uit of samen.</span><span class="sxs-lookup"><span data-stu-id="03b3d-116">Expand or collapse the Details section.</span></span>
+    * <span data-ttu-id="03b3d-117">Deze sectie bevat belangrijke informatie over kaartnummer, artikelnummer, bestelde hoeveelheid en activiteitsnaam.</span><span class="sxs-lookup"><span data-stu-id="03b3d-117">This section displays important information about card number, item number, quantity ordered, and activity name.</span></span>  
+2. <span data-ttu-id="03b3d-118">Vouw de sectie Productie-instructies uit of samen.</span><span class="sxs-lookup"><span data-stu-id="03b3d-118">Expand or collapse the Production instructions section.</span></span>
+    * <span data-ttu-id="03b3d-119">Deze sectie bevat productie-instructies voor de activiteit.</span><span class="sxs-lookup"><span data-stu-id="03b3d-119">This section displays production instructions for the activity.</span></span> <span data-ttu-id="03b3d-120">De instructies kunnen tekst, afbeeldingen, tekeningen en andere documenten zijn.</span><span class="sxs-lookup"><span data-stu-id="03b3d-120">The instructions can be text, pictures, drawings, and other documents.</span></span>  
+3. <span data-ttu-id="03b3d-121">Klik op Start.</span><span class="sxs-lookup"><span data-stu-id="03b3d-121">Click Start.</span></span>
+    * <span data-ttu-id="03b3d-122">Selecteer een taak die niet voltooid is.</span><span class="sxs-lookup"><span data-stu-id="03b3d-122">Select a job that is not completed.</span></span> <span data-ttu-id="03b3d-123">Gebruik statuspictogrammen in het veld Taakstatus om de taakstatus weer te geven.</span><span class="sxs-lookup"><span data-stu-id="03b3d-123">Use status icons in the Job status field to view job status.</span></span>      
+4. <span data-ttu-id="03b3d-124">Klik op Voltooien.</span><span class="sxs-lookup"><span data-stu-id="03b3d-124">Click Complete.</span></span>
+    * <span data-ttu-id="03b3d-125">De taak is voltooid met de verwachte kwaliteit.</span><span class="sxs-lookup"><span data-stu-id="03b3d-125">The job is completed with the expected quality.</span></span>  
 
-## <a name="complete-a-job-with-errors"></a>Een taak uitvoeren met fouten
-1. Klik op Start.
-    * Wanneer een taak is voltooid, wordt de volgende taak in de lijst automatisch geselecteerd. Om deze reden hoeft u geen taak te selecteren voordat u op Start klikt.  
-2. Klik in het actievenster op Fabriceren.
-3. Klik op Voltooien (details).
-4. Markeer in de lijst de geselecteerde rij.
-5. Voer in het veld Slechte hoeveelheid een getal in.
-6. Voer in het veld Goede hoeveelheid een getal in.
-7. Klik op OK.
+## <a name="complete-a-job-with-errors"></a><span data-ttu-id="03b3d-126">Een taak uitvoeren met fouten</span><span class="sxs-lookup"><span data-stu-id="03b3d-126">Complete a job with errors</span></span>
+1. <span data-ttu-id="03b3d-127">Klik op Start.</span><span class="sxs-lookup"><span data-stu-id="03b3d-127">Click Start.</span></span>
+    * <span data-ttu-id="03b3d-128">Wanneer een taak is voltooid, wordt de volgende taak in de lijst automatisch geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="03b3d-128">When a job is completed, the next job on the list is selected automatically.</span></span> <span data-ttu-id="03b3d-129">Om deze reden hoeft u geen taak te selecteren voordat u op Start klikt.</span><span class="sxs-lookup"><span data-stu-id="03b3d-129">This is why you don't need to select a job before you click Start.</span></span>  
+2. <span data-ttu-id="03b3d-130">Klik in het actievenster op Fabriceren.</span><span class="sxs-lookup"><span data-stu-id="03b3d-130">On the Action Pane, click Manufacture.</span></span>
+3. <span data-ttu-id="03b3d-131">Klik op Voltooien (details).</span><span class="sxs-lookup"><span data-stu-id="03b3d-131">Click Complete (details).</span></span>
+4. <span data-ttu-id="03b3d-132">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="03b3d-132">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="03b3d-133">Voer in het veld Slechte hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="03b3d-133">In the Error quantity field, enter a number.</span></span>
+6. <span data-ttu-id="03b3d-134">Voer in het veld Goede hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="03b3d-134">In the Good quantity field, enter a number.</span></span>
+7. <span data-ttu-id="03b3d-135">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="03b3d-135">Click OK.</span></span>
 
 

@@ -16,26 +16,26 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 79de3c04b3360bdbedd32c3bb462367bb8abab9a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 36ae1d85c8d9960a4f816a5f5644e69af4d6e369
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="semansys-xbrl-integration-netherlands"></a>Semansys XBRL-integratie (Nederland)
+# <a name="semansys-xbrl-integration-netherlands"></a><span data-ttu-id="fdb5c-103">Semansys XBRL-integratie (Nederland)</span><span class="sxs-lookup"><span data-stu-id="fdb5c-103">Semansys XBRL integration (Netherlands)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren. Deze procedure is gemaakt met het demobedrijf DEMF, met het primaire adres van de rechtspersoon bijgewerkt zodat het in Nederland ligt.
+<span data-ttu-id="fdb5c-104">Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-104">This procedure walks you through using Dutch functionality to export financial data in the XML format.</span></span> <span data-ttu-id="fdb5c-105">Deze procedure is gemaakt met het demobedrijf DEMF, met het primaire adres van de rechtspersoon bijgewerkt zodat het in Nederland ligt.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-105">This procedure was created using the demo data company DEMF with a legal entity primary address updated to be in the Netherlands.</span></span>
 
-Opmerking: het importeren van de elektronische rapportageconfiguraties XBRL-integratiemodel en Semansys XBRL (NL) is een vereiste.
+<span data-ttu-id="fdb5c-106">Opmerking: het importeren van de elektronische rapportageconfiguraties XBRL-integratiemodel en Semansys XBRL (NL) is een vereiste.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-106">Note: Importing Dutch XBRL integration model and Semansys XBRL (NL) electronic reporting configurations is a prerequisite.</span></span>
 
-1. Ga naar Grootboek > Periodieke taken > Financiële gegevens naar XBRL exporteren.
-2. Voer een datum in het veld Begindatum in.
-    * Typ of selecteer bijvoorbeeld de datum 2012-11-01.  
-3. Voer een datum in het veld Einddatum in.
-    * Typ of selecteer bijvoorbeeld de datum 2012-11-30.  
-4. Typ of selecteer een waarde in het veld Indelingstoewijzing.
-5. Klik op OK.
+1. <span data-ttu-id="fdb5c-107">Ga naar Grootboek > Periodieke taken > Financiële gegevens naar XBRL exporteren.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-107">Go to General ledger > Periodic tasks > Export financial data to XBRL.</span></span>
+2. <span data-ttu-id="fdb5c-108">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-108">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="fdb5c-109">Typ of selecteer bijvoorbeeld de datum 2012-11-01.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-109">For example: enter or select the date 2012-11-01.</span></span>  
+3. <span data-ttu-id="fdb5c-110">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-110">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="fdb5c-111">Typ of selecteer bijvoorbeeld de datum 2012-11-30.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-111">For example: enter or select the date 2012-11-30.</span></span>  
+4. <span data-ttu-id="fdb5c-112">Typ of selecteer een waarde in het veld Indelingstoewijzing.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-112">In the Format mapping field, enter or select a value.</span></span>
+5. <span data-ttu-id="fdb5c-113">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="fdb5c-113">Click OK.</span></span>
 
 

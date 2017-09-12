@@ -17,51 +17,51 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 3cd2ff6f410e3817f3e23a651b7a2febf38b072b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 58b3c9cd265b97a814541315e4ba8378010eb2b2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-production-flow-version"></a>Een productiestroomversie maken
+# <a name="create-a-production-flow-version"></a><span data-ttu-id="3edc8-103">Een productiestroomversie maken</span><span class="sxs-lookup"><span data-stu-id="3edc8-103">Create a production flow version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure is gericht op het maken van een nieuwe productstroomversie. Voor deze procedure moeten de productieparameters voor lean manufacturing en de maateenheden voor klassetijd worden gedefinieerd. U moet ook een waardestroom en een productiegroep definiëren. Als u meer wilt weten over productiestromen en activiteiten in lean manufacturing, raadpleegt u de whitepapers over lean manufacturing voor Microsoft Dynamics AX. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+<span data-ttu-id="3edc8-104">Deze procedure is gericht op het maken van een nieuwe productstroomversie.</span><span class="sxs-lookup"><span data-stu-id="3edc8-104">This procedure focuses on creating a new production flow version.</span></span> <span data-ttu-id="3edc8-105">Voor deze procedure moeten de productieparameters voor lean manufacturing en de maateenheden voor klassetijd worden gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="3edc8-105">For this procedure, the production parameters for lean manufacturing and the units of measurement for class time must be defined.</span></span> <span data-ttu-id="3edc8-106">U moet ook een waardestroom en een productiegroep definiëren.</span><span class="sxs-lookup"><span data-stu-id="3edc8-106">You also need to define a value stream and a production group.</span></span> <span data-ttu-id="3edc8-107">Als u meer wilt weten over productiestromen en activiteiten in lean manufacturing, raadpleegt u de whitepapers over lean manufacturing voor Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="3edc8-107">To learn more about production flows and activities in lean manufacturing, see the white papers on Lean manufacturing for Microsoft Dynamics AX.</span></span> <span data-ttu-id="3edc8-108">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="3edc8-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-production-flow"></a>Een productiestromen maken
-1. Ga naar Productiebeheer > Instellingen > Lean productiestroom > Productiestromen.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Naam.
-4. Typ een waarde in het veld Omschrijving.
-5. Klik in het veld Naam op de vervolgkeuzeknop om de zoekopdracht te openen.
-6. Klik in de lijst op de koppeling in de geselecteerde rij.
-    * Selecteer een operationele eenheid van het type waardestroom. Een waardestroom is een operationele eenheid die alle activiteiten en stromen van de waardestroom omvat. In deze fase zijn operationele eenheden beperkt tot een rechtspersoon en hebben ze verder geen functionaliteit.  
-7. Klik in het veld Productiegroep op de vervolgkeuzeknop om de zoekopdracht te openen.
-8. Klik in de lijst op de koppeling in de geselecteerde rij.
-    * Selecteer een productiegroep voor de productiestroom. Productieorders maken het definiëren van materiaal, arbeid en OHW-rekeningen mogelijk voor een productieproces. Als u de boekhoudcontext wilt koppelen aan een productiestroom, moet een productiegroep zijn geselecteerd.  
-9. Klik op Opslaan.
+## <a name="create-a-production-flow"></a><span data-ttu-id="3edc8-109">Een productiestromen maken</span><span class="sxs-lookup"><span data-stu-id="3edc8-109">Create a production flow</span></span>
+1. <span data-ttu-id="3edc8-110">Ga naar Productiebeheer > Instellingen > Lean productiestroom > Productiestromen.</span><span class="sxs-lookup"><span data-stu-id="3edc8-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="3edc8-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="3edc8-111">Click New.</span></span>
+3. <span data-ttu-id="3edc8-112">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="3edc8-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="3edc8-113">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="3edc8-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3edc8-114">Klik in het veld Naam op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="3edc8-114">In the Name field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="3edc8-115">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3edc8-115">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3edc8-116">Selecteer een operationele eenheid van het type waardestroom.</span><span class="sxs-lookup"><span data-stu-id="3edc8-116">Select an operating unit of type value stream.</span></span> <span data-ttu-id="3edc8-117">Een waardestroom is een operationele eenheid die alle activiteiten en stromen van de waardestroom omvat.</span><span class="sxs-lookup"><span data-stu-id="3edc8-117">A value stream is an operating unit that spans all activities and flows of the value stream.</span></span> <span data-ttu-id="3edc8-118">In deze fase zijn operationele eenheden beperkt tot een rechtspersoon en hebben ze verder geen functionaliteit.</span><span class="sxs-lookup"><span data-stu-id="3edc8-118">At this stage, operating units are limited to a legal entity and have no further functionality.</span></span>  
+7. <span data-ttu-id="3edc8-119">Klik in het veld Productiegroep op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="3edc8-119">In the Production group field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="3edc8-120">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3edc8-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3edc8-121">Selecteer een productiegroep voor de productiestroom.</span><span class="sxs-lookup"><span data-stu-id="3edc8-121">Select a production group for the production flow.</span></span> <span data-ttu-id="3edc8-122">Productieorders maken het definiëren van materiaal, arbeid en OHW-rekeningen mogelijk voor een productieproces.</span><span class="sxs-lookup"><span data-stu-id="3edc8-122">Production groups allow the definition of material, labour, and WIP accounts for a production process.</span></span> <span data-ttu-id="3edc8-123">Als u de boekhoudcontext wilt koppelen aan een productiestroom, moet een productiegroep zijn geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="3edc8-123">To associate the accounting context to a production flow, a production group must be selected.</span></span>  
+9. <span data-ttu-id="3edc8-124">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="3edc8-124">Click Save.</span></span>
 
-## <a name="create-a-production-flow-version"></a>Een productiestroomversie maken
-1. Klik op Toevoegen.
-2. Voer in het veld Vervaldatum een datum en tijd in.
-    * Definieer indien nodig een vervaldatum voor de versie. U kunt deze op elk moment bijwerken, zelfs voor actieve versies. U kunt deze gebruiken om een versie uit te faseren.  
-3. Klik op OK.
-4. Markeer in de lijst de geselecteerde rij.
-5. Typ een waarde in het veld Eenheid.
-6. Wijzig de takteenheid.
-7. Voer in het veld Gemiddelde takttijd een getal in.
-    * Definieer de gemiddelde takttijd van de versie. Definieer voor het taktbeheer van de productiestroomversie een beoogde gemiddelde takttijd. De takt wordt gedefinieerd als hoeveelheid per periode. In het voorbeeld is de takttijd 0,2 uur per 10 stuks. Voor een werktijd van 8 uur correspondeert dat met een dagelijkse doorvoercapaciteit van 400 stuks.  
-8. Voer in het veld Hoeveelheid per cyclus een getal in.
-    * Definieer de hoeveelheid per cyclus, gerelateerd aan de gemiddelde takttijd.  
-9. Schakel de uitbreiding van de sectie Versiedetails om.
-10. Voer in het veld Minimumtakttijd een getal in.
-    * Definieer de minimale takttijd. De minimale takttijd moet korter zijn dan of gelijk zijn aan de gemiddelde takttijd.  
-11. Voer in het veld Maximumtakttijd een getal in.
-    * De maximale takttijd moet langer zijn dan of gelijk zijn aan de gemiddelde takttijd.  
-12. Voer een getal in het veld Periode voor werkelijke cyclusduur (dagen) in.
-    * Voer het aantal dagen in het veld Periode voor werkelijke cyclusduur in. De periode voor de werkelijke cyclustijd is het aantal dagen dat taken worden samengevoegd vanaf de werkelijke minuut achterwaarts om de werkelijke cyclustijd te berekenen. De waarde kan altijd worden gewijzigd en wordt alleen gebruikt voor de berekening van de werkelijke cyclustijden.  
-13. Klik op Opslaan.
+## <a name="create-a-production-flow-version"></a><span data-ttu-id="3edc8-125">Een productiestroomversie maken</span><span class="sxs-lookup"><span data-stu-id="3edc8-125">Create a production flow version</span></span>
+1. <span data-ttu-id="3edc8-126">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="3edc8-126">Click Add.</span></span>
+2. <span data-ttu-id="3edc8-127">Voer in het veld Vervaldatum een datum en tijd in.</span><span class="sxs-lookup"><span data-stu-id="3edc8-127">In the Expiration date field, enter a date and time.</span></span>
+    * <span data-ttu-id="3edc8-128">Definieer indien nodig een vervaldatum voor de versie.</span><span class="sxs-lookup"><span data-stu-id="3edc8-128">If required, define an Expiration date for the version.</span></span> <span data-ttu-id="3edc8-129">U kunt deze op elk moment bijwerken, zelfs voor actieve versies.</span><span class="sxs-lookup"><span data-stu-id="3edc8-129">You can update it at any given time, even for active versions.</span></span> <span data-ttu-id="3edc8-130">U kunt deze gebruiken om een versie uit te faseren.</span><span class="sxs-lookup"><span data-stu-id="3edc8-130">You can use it to plan to phase out a version.</span></span>  
+3. <span data-ttu-id="3edc8-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="3edc8-131">Click OK.</span></span>
+4. <span data-ttu-id="3edc8-132">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="3edc8-132">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="3edc8-133">Typ een waarde in het veld Eenheid.</span><span class="sxs-lookup"><span data-stu-id="3edc8-133">In the Unit field, type a value.</span></span>
+6. <span data-ttu-id="3edc8-134">Wijzig de takteenheid.</span><span class="sxs-lookup"><span data-stu-id="3edc8-134">ResolveChanges the Takt unit.</span></span>
+7. <span data-ttu-id="3edc8-135">Voer in het veld Gemiddelde takttijd een getal in.</span><span class="sxs-lookup"><span data-stu-id="3edc8-135">In the Average takt time field, enter a number.</span></span>
+    * <span data-ttu-id="3edc8-136">Definieer de gemiddelde takttijd van de versie.</span><span class="sxs-lookup"><span data-stu-id="3edc8-136">Define the Average takt time of the version.</span></span> <span data-ttu-id="3edc8-137">Definieer voor het taktbeheer van de productiestroomversie een beoogde gemiddelde takttijd.</span><span class="sxs-lookup"><span data-stu-id="3edc8-137">For the takt control of the production flow version, define a targeted average takt time.</span></span> <span data-ttu-id="3edc8-138">De takt wordt gedefinieerd als hoeveelheid per periode.</span><span class="sxs-lookup"><span data-stu-id="3edc8-138">The takt is defined as quantity per time period.</span></span> <span data-ttu-id="3edc8-139">In het voorbeeld is de takttijd 0,2 uur per 10 stuks.</span><span class="sxs-lookup"><span data-stu-id="3edc8-139">In the example, the takt time is 0.2 hours per 10 pieces.</span></span> <span data-ttu-id="3edc8-140">Voor een werktijd van 8 uur correspondeert dat met een dagelijkse doorvoercapaciteit van 400 stuks.</span><span class="sxs-lookup"><span data-stu-id="3edc8-140">For a working time of 8 hours, this corresponds to a daily throughput capacity of 400 pieces.</span></span>  
+8. <span data-ttu-id="3edc8-141">Voer in het veld Hoeveelheid per cyclus een getal in.</span><span class="sxs-lookup"><span data-stu-id="3edc8-141">In the Quantity per cycle field, enter a number.</span></span>
+    * <span data-ttu-id="3edc8-142">Definieer de hoeveelheid per cyclus, gerelateerd aan de gemiddelde takttijd.</span><span class="sxs-lookup"><span data-stu-id="3edc8-142">Define the quantity per cycle related to the Average takt time.</span></span>  
+9. <span data-ttu-id="3edc8-143">Schakel de uitbreiding van de sectie Versiedetails om.</span><span class="sxs-lookup"><span data-stu-id="3edc8-143">Toggle the expansion of the Version details section.</span></span>
+10. <span data-ttu-id="3edc8-144">Voer in het veld Minimumtakttijd een getal in.</span><span class="sxs-lookup"><span data-stu-id="3edc8-144">In the Minimum takt time field, enter a number.</span></span>
+    * <span data-ttu-id="3edc8-145">Definieer de minimale takttijd.</span><span class="sxs-lookup"><span data-stu-id="3edc8-145">Define the minimum takt time.</span></span> <span data-ttu-id="3edc8-146">De minimale takttijd moet korter zijn dan of gelijk zijn aan de gemiddelde takttijd.</span><span class="sxs-lookup"><span data-stu-id="3edc8-146">The minimum takt time must be less than or equal to the average takt time.</span></span>  
+11. <span data-ttu-id="3edc8-147">Voer in het veld Maximumtakttijd een getal in.</span><span class="sxs-lookup"><span data-stu-id="3edc8-147">In the Maximum takt time field, enter a number.</span></span>
+    * <span data-ttu-id="3edc8-148">De maximale takttijd moet langer zijn dan of gelijk zijn aan de gemiddelde takttijd.</span><span class="sxs-lookup"><span data-stu-id="3edc8-148">The maximum takt time must be higher than or equal to the Average takt time.</span></span>  
+12. <span data-ttu-id="3edc8-149">Voer een getal in het veld Periode voor werkelijke cyclusduur (dagen) in.</span><span class="sxs-lookup"><span data-stu-id="3edc8-149">In the Period for actual cycle time (days) field, enter a number.</span></span>
+    * <span data-ttu-id="3edc8-150">Voer het aantal dagen in het veld Periode voor werkelijke cyclusduur in.</span><span class="sxs-lookup"><span data-stu-id="3edc8-150">Enter the number of days in the Period for actual cycle time.</span></span> <span data-ttu-id="3edc8-151">De periode voor de werkelijke cyclustijd is het aantal dagen dat taken worden samengevoegd vanaf de werkelijke minuut achterwaarts om de werkelijke cyclustijd te berekenen.</span><span class="sxs-lookup"><span data-stu-id="3edc8-151">The period for actual cycle time is the number of days that jobs are aggregated from the actual minute backwards to calculate the actual cycle time.</span></span> <span data-ttu-id="3edc8-152">De waarde kan altijd worden gewijzigd en wordt alleen gebruikt voor de berekening van de werkelijke cyclustijden.</span><span class="sxs-lookup"><span data-stu-id="3edc8-152">The value can be changed at any time and is only used for the calculation of the actual cycle times.</span></span>  
+13. <span data-ttu-id="3edc8-153">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="3edc8-153">Click Save.</span></span>
 
 

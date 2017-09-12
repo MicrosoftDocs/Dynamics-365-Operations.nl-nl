@@ -25,222 +25,222 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="expense-management-mobile-workspace"></a>Mobiel werkgebied voor onkostenbeheer
+# <a name="expense-management-mobile-workspace"></a><span data-ttu-id="7abfd-105">Mobiel werkgebied voor onkostenbeheer</span><span class="sxs-lookup"><span data-stu-id="7abfd-105">Expense management mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over het mobiele werkgebied voor **Onkostenbeheer**. Via dit werkgebied kunnen gebruikers een ontvangstbewijs vastleggen en uploaden, zodat zij dit later aan een onkostennota kunnen koppelen. Gebruikers kunnen ook snel een onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs en hun onkostennota's beheren. Fiatteurs kunnen bovendien het mobiele werkgebied **Onkostenbeheer** gebruiken voor het weergeven van onkostenrapporten die aan hen zijn toegewezen, en deze goedkeuren of afwijzen.
+<span data-ttu-id="7abfd-106">Dit onderwerp bevat informatie over het mobiele werkgebied voor **Onkostenbeheer**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="7abfd-107">Via dit werkgebied kunnen gebruikers een ontvangstbewijs vastleggen en uploaden, zodat zij dit later aan een onkostennota kunnen koppelen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="7abfd-108">Gebruikers kunnen ook snel een onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs en hun onkostennota's beheren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="7abfd-109">Fiatteurs kunnen bovendien het mobiele werkgebied **Onkostenbeheer** gebruiken voor het weergeven van onkostenrapporten die aan hen zijn toegewezen, en deze goedkeuren of afwijzen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
 
-Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="7abfd-110">Dit mobiele werkgebied is bedoeld om te worden gebruikt met de mobiele app Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="7abfd-110">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
 
-## <a name="overview"></a>Overzicht
+## <a name="overview"></a><span data-ttu-id="7abfd-111">Overzicht</span><span class="sxs-lookup"><span data-stu-id="7abfd-111">Overview</span></span>
 
-Veel organisaties vereisen dat een kopie van een ontvangstbewijs aan een reisgerelateerde of zakelijke onkostennota wordt gekoppeld die een werknemer indient voor terugbetaling. Het mobiele werkgebied **Onkostenbeheer** stelt gebruikers in staat snel nieuwe onkostenregels te maken op het mobiele apparaat van hun keuze met behulp van een bijgevoegde foto van een ontvangstbewijs. Gebruikers kunnen ook een foto van een ontvangstbewijs maken en deze vervolgens later aan een onkostennota koppelen. Werknemers kunnen ook onkostennota's maken en beheren en deze vervolgens ter goedkeuring en terugbetaling indienen via hun mobiele apparaat.
+<span data-ttu-id="7abfd-112">Veel organisaties vereisen dat een kopie van een ontvangstbewijs aan een reisgerelateerde of zakelijke onkostennota wordt gekoppeld die een werknemer indient voor terugbetaling.</span><span class="sxs-lookup"><span data-stu-id="7abfd-112">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="7abfd-113">Het mobiele werkgebied **Onkostenbeheer** stelt gebruikers in staat snel nieuwe onkostenregels te maken op het mobiele apparaat van hun keuze met behulp van een bijgevoegde foto van een ontvangstbewijs.</span><span class="sxs-lookup"><span data-stu-id="7abfd-113">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="7abfd-114">Gebruikers kunnen ook een foto van een ontvangstbewijs maken en deze vervolgens later aan een onkostennota koppelen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-114">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="7abfd-115">Werknemers kunnen ook onkostennota's maken en beheren en deze vervolgens ter goedkeuring en terugbetaling indienen via hun mobiele apparaat.</span><span class="sxs-lookup"><span data-stu-id="7abfd-115">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
 
-Gebruikers kunnen met het mobiele werkgebied **Onkostenbeheer** de volgende taken uitvoeren:
+<span data-ttu-id="7abfd-116">Gebruikers kunnen met het mobiele werkgebied **Onkostenbeheer** de volgende taken uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="7abfd-116">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Een foto maken van een ontvangstbewijs en deze uploaden naar Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. U kunt vervolgens deze foto later aan een onkostennota koppelen.
-- Een bestand uploaden als een vastgelegd ontvangstbewijs. U kunt vervolgens dat bestand later aan een onkostennota koppelen.
-- Een nieuwe onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs. U kunt vervolgens later het regelartikel toevoegen aan een onkostennota en deze indienen voor goedkeuring en terugbetaling.
+- <span data-ttu-id="7abfd-117">Een foto maken van een ontvangstbewijs en deze uploaden naar Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="7abfd-117">Take a photo of a receipt, and upload it to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="7abfd-118">U kunt vervolgens deze foto later aan een onkostennota koppelen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-118">You can then attach that photo to an expense report later.</span></span>
+- <span data-ttu-id="7abfd-119">Een bestand uploaden als een vastgelegd ontvangstbewijs.</span><span class="sxs-lookup"><span data-stu-id="7abfd-119">Upload a file as a captured receipt.</span></span> <span data-ttu-id="7abfd-120">U kunt vervolgens dat bestand later aan een onkostennota koppelen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-120">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="7abfd-121">Een nieuwe onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs.</span><span class="sxs-lookup"><span data-stu-id="7abfd-121">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="7abfd-122">U kunt vervolgens later het regelartikel toevoegen aan een onkostennota en deze indienen voor goedkeuring en terugbetaling.</span><span class="sxs-lookup"><span data-stu-id="7abfd-122">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Als u werkt met de update voor juli 2017 van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, kunt u ook deze functies gebruiken:
+<span data-ttu-id="7abfd-123">Als u werkt met de update voor juli 2017 van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, kunt u ook deze functies gebruiken:</span><span class="sxs-lookup"><span data-stu-id="7abfd-123">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can also use these features:</span></span>
 
-- Een nieuwe onkostennota maken.
-- Creditcardtransacties en overige eerder gemaakte kosten koppelen aan een onkostennota.
-- Nieuwe onkosten maken voor een onkostennota.
-- Een ontvangstbewijs koppelen aan alle onkosten voor een onkostennota door middel van een foto van het ontvangstbewijs of door het uploaden van een bestand met een vastgelegd ontvangstbewijs.
-- Afhankelijk van het onkostenbeleid van het bedrijf de lijst met gasten aan een onkostenpost toevoegen.
-- Afhankelijk van het onkostenbeleid van het bedrijf de uitgaven specificeren.
-- Een onkostennota indienen ter goedkeuring en vergoeding.
-- Goedkeuren of afwijzen van onkostennota's waaraan u bent toegewezen als fiatteur.
+- <span data-ttu-id="7abfd-124">Een nieuwe onkostennota maken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-124">Create a new expense report.</span></span>
+- <span data-ttu-id="7abfd-125">Creditcardtransacties en overige eerder gemaakte kosten koppelen aan een onkostennota.</span><span class="sxs-lookup"><span data-stu-id="7abfd-125">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="7abfd-126">Nieuwe onkosten maken voor een onkostennota.</span><span class="sxs-lookup"><span data-stu-id="7abfd-126">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="7abfd-127">Een ontvangstbewijs koppelen aan alle onkosten voor een onkostennota door middel van een foto van het ontvangstbewijs of door het uploaden van een bestand met een vastgelegd ontvangstbewijs.</span><span class="sxs-lookup"><span data-stu-id="7abfd-127">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="7abfd-128">Afhankelijk van het onkostenbeleid van het bedrijf de lijst met gasten aan een onkostenpost toevoegen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-128">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="7abfd-129">Afhankelijk van het onkostenbeleid van het bedrijf de uitgaven specificeren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-129">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="7abfd-130">Een onkostennota indienen ter goedkeuring en vergoeding.</span><span class="sxs-lookup"><span data-stu-id="7abfd-130">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="7abfd-131">Goedkeuren of afwijzen van onkostennota's waaraan u bent toegewezen als fiatteur.</span><span class="sxs-lookup"><span data-stu-id="7abfd-131">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Vereisten
-De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
+## <a name="prerequisites"></a><span data-ttu-id="7abfd-132">Vereisten</span><span class="sxs-lookup"><span data-stu-id="7abfd-132">Prerequisites</span></span>
+<span data-ttu-id="7abfd-133">De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.</span><span class="sxs-lookup"><span data-stu-id="7abfd-133">The prerequisites vary, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, update juli 2017 gebruikt 
-Als Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, update juli 2017, is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Onkostenbeheer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="7abfd-134">Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, update juli 2017 gebruikt</span><span class="sxs-lookup"><span data-stu-id="7abfd-134">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="7abfd-135">Als Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, update juli 2017, is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Onkostenbeheer** publiceren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-135">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> <span data-ttu-id="7abfd-136">Zie voor meer informatie [Een mobiel werkgebied publiceren](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="7abfd-136">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger gebruikt.
-Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder aan de volgende vereisten voldoen. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="7abfd-137">Vereisten als u Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger gebruikt.</span><span class="sxs-lookup"><span data-stu-id="7abfd-137">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="7abfd-138">Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder aan de volgende vereisten voldoen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-138">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Vereiste</th>
-<th>Rol</th>
-<th>Omschrijving</th>
+<th><span data-ttu-id="7abfd-139">Vereiste</span><span class="sxs-lookup"><span data-stu-id="7abfd-139">Prerequisite</span></span></th>
+<th><span data-ttu-id="7abfd-140">Rol</span><span class="sxs-lookup"><span data-stu-id="7abfd-140">Role</span></span></th>
+<th><span data-ttu-id="7abfd-141">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="7abfd-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 4019015 implementeren.</td>
-<td>Systeembeheerder</td>
-<td>KB 4019015 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Onkostenbeheer</strong> bevat. Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4019015.
+<td><span data-ttu-id="7abfd-142">KB 4019015 implementeren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-142">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="7abfd-143">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="7abfd-143">System administrator</span></span></td>
+<td><span data-ttu-id="7abfd-144">KB 4019015 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Onkostenbeheer</strong> bevat.</span><span class="sxs-lookup"><span data-stu-id="7abfd-144">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="7abfd-145">Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="7abfd-145">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Een implementeerbaar pakket maken</a> dat de <strong>ApplicationSuite</strong> en <strong>ExpenseMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Het implementeerbare pakket toepassen</a></li>
+<li><span data-ttu-id="7abfd-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">De metagegevenshotfix van Microsoft Dynamics Lifecycle Services (LCS) downloaden</a>.</span><span class="sxs-lookup"><span data-stu-id="7abfd-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="7abfd-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">De metagegevenshotfix installeren</a>.</span><span class="sxs-lookup"><span data-stu-id="7abfd-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="7abfd-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Een implementeerbaar pakket maken</a> dat de <strong>ApplicationSuite</strong> en <strong>ExpenseMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</span><span class="sxs-lookup"><span data-stu-id="7abfd-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="7abfd-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Het implementeerbare pakket toepassen</a></span><span class="sxs-lookup"><span data-stu-id="7abfd-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Mobiel werkgebied voor <strong>Onkostenbeheer</strong> publiceren.</td>
-<td>Systeembeheerder</td>
-<td>Zie <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiel werkgebied publiceren</a>.</td>
+<td><span data-ttu-id="7abfd-150">Mobiel werkgebied voor <strong>Onkostenbeheer</strong> publiceren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-150">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="7abfd-151">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="7abfd-151">System administrator</span></span></td>
+<td><span data-ttu-id="7abfd-152">Zie <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiel werkgebied publiceren</a>.</span><span class="sxs-lookup"><span data-stu-id="7abfd-152">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>De mobiele app voor Dynamics 365 for Operations downloaden en installeren
-Download en installeer de mobiele app Dynamics 365 for Unified Operations:
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a><span data-ttu-id="7abfd-153">De mobiele app voor Dynamics 365 for Operations downloaden en installeren</span><span class="sxs-lookup"><span data-stu-id="7abfd-153">Download and install the Dynamics 365 for Operations mobile app</span></span>
+<span data-ttu-id="7abfd-154">Download en installeer de mobiele app Dynamics 365 for Unified Operations:</span><span class="sxs-lookup"><span data-stu-id="7abfd-154">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
-- [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="7abfd-155">Voor Android-telefoons</span><span class="sxs-lookup"><span data-stu-id="7abfd-155">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="7abfd-156">Voor iPhones</span><span class="sxs-lookup"><span data-stu-id="7abfd-156">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Aanmelden bij de mobiele app
-1. Start de app op uw mobiele apparaat.
-2. Voer uw Dynamics 365-URL in.
-4. De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
-5. Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="7abfd-157">Aanmelden bij de mobiele app</span><span class="sxs-lookup"><span data-stu-id="7abfd-157">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="7abfd-158">Start de app op uw mobiele apparaat.</span><span class="sxs-lookup"><span data-stu-id="7abfd-158">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="7abfd-159">Voer uw Dynamics 365-URL in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-159">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="7abfd-160">De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-160">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="7abfd-161">Voer uw referenties in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-161">Enter your credentials.</span></span>
+5. <span data-ttu-id="7abfd-162">Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven.</span><span class="sxs-lookup"><span data-stu-id="7abfd-162">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="7abfd-163">Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-163">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
 
-[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="7abfd-164">[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="7abfd-164">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Een ontvangstbewijs vastleggen met behulp van het mobiele werkgebied Onkostenbeheer
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="7abfd-165">Een ontvangstbewijs vastleggen met behulp van het mobiele werkgebied Onkostenbeheer</span><span class="sxs-lookup"><span data-stu-id="7abfd-165">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.
-2. Selecteer **Ontvangstbewijs vastleggen**.
-3. Selecteer **Foto maken** of **Afbeelding kiezen**.
-4. Volg één van deze stappen:
+1. <span data-ttu-id="7abfd-166">Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-166">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="7abfd-167">Selecteer **Ontvangstbewijs vastleggen**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-167">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="7abfd-168">Selecteer **Foto maken** of **Afbeelding kiezen**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-168">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="7abfd-169">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="7abfd-169">Follow one of these steps:</span></span>
 
-    - Als u **Foto maken** hebt geselecteerd, gaat u als volgt te werk:
+    - <span data-ttu-id="7abfd-170">Als u **Foto maken** hebt geselecteerd, gaat u als volgt te werk:</span><span class="sxs-lookup"><span data-stu-id="7abfd-170">If you selected **Take photo**, follow these steps:</span></span>
 
-        1. U gaat naar de camera op uw mobiele apparaat, zodat u een foto van het ontvangstbewijs kunt maken. Wanneer u klaar bent met het maken van een foto, selecteert u **OK** om de foto te accepteren.
-        2. Optioneel: voer een naam in voor de foto en voer eventuele notities in.
+        1. <span data-ttu-id="7abfd-171">U gaat naar de camera op uw mobiele apparaat, zodat u een foto van het ontvangstbewijs kunt maken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-171">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="7abfd-172">Wanneer u klaar bent met het maken van een foto, selecteert u **OK** om de foto te accepteren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-172">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+        2. <span data-ttu-id="7abfd-173">Optioneel: voer een naam in voor de foto en voer eventuele notities in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-173">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Volg deze stappen als u **Afbeelding kiezen** hebt geselecteerd:
+    - <span data-ttu-id="7abfd-174">Volg deze stappen als u **Afbeelding kiezen** hebt geselecteerd:</span><span class="sxs-lookup"><span data-stu-id="7abfd-174">If you selected **Choose image**, follow these steps:</span></span>
 
-        1. Selecteer een afbeelding in de lijst.
-        2. Optioneel: voer een naam in voor de afbeelding en voer eventuele notities in.
+        1. <span data-ttu-id="7abfd-175">Selecteer een afbeelding in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-175">Select an image in the list.</span></span>
+        2. <span data-ttu-id="7abfd-176">Optioneel: voer een naam in voor de afbeelding en voer eventuele notities in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-176">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Selecteer **Gereed**.
+5. <span data-ttu-id="7abfd-177">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-177">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Snelle invoer van onkosten met behulp van het mobiele werkgebied Onkostenbeheer
-1. Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.
-2. Selecteer **Snelle onkosteninvoer**.
-3. Selecteer de categorie voor de onkostenpost. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
-4. Voer de transactiedatum van de onkostenpost in.
-5. Optioneel: voer de verkoper voor de onkostenpost in.
-6. Voer het bedrag van de onkostenpost in.
-7. Selecteer de valuta van de onkostenpost. U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
-8. Selecteer **Foto maken** of **Afbeelding kiezen**.
-9. Volg één van deze stappen:
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="7abfd-178">Snelle invoer van onkosten met behulp van het mobiele werkgebied Onkostenbeheer</span><span class="sxs-lookup"><span data-stu-id="7abfd-178">Quickly enter expenses by using the Expense management mobile workspace</span></span>
+1. <span data-ttu-id="7abfd-179">Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-179">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="7abfd-180">Selecteer **Snelle onkosteninvoer**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-180">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="7abfd-181">Selecteer de categorie voor de onkostenpost.</span><span class="sxs-lookup"><span data-stu-id="7abfd-181">Select the category for the expense.</span></span> <span data-ttu-id="7abfd-182">U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik.</span><span class="sxs-lookup"><span data-stu-id="7abfd-182">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="7abfd-183">Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-183">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7abfd-184">Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7abfd-184">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7abfd-185">Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-185">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7abfd-186">Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.</span><span class="sxs-lookup"><span data-stu-id="7abfd-186">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="7abfd-187">Voer de transactiedatum van de onkostenpost in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-187">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="7abfd-188">Optioneel: voer de verkoper voor de onkostenpost in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-188">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="7abfd-189">Voer het bedrag van de onkostenpost in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-189">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="7abfd-190">Selecteer de valuta van de onkostenpost.</span><span class="sxs-lookup"><span data-stu-id="7abfd-190">Select the currency of the expense.</span></span> <span data-ttu-id="7abfd-191">U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik.</span><span class="sxs-lookup"><span data-stu-id="7abfd-191">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="7abfd-192">Standaard worden 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-192">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7abfd-193">Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7abfd-193">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7abfd-194">Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-194">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7abfd-195">Zoek op valuta of schakel over naar zoeken op naam.</span><span class="sxs-lookup"><span data-stu-id="7abfd-195">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="7abfd-196">Selecteer **Foto maken** of **Afbeelding kiezen**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-196">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="7abfd-197">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="7abfd-197">Follow one of these steps:</span></span>
 
-    - Als u **Foto maken** hebt geselecteerd, gaat u naar de camera op uw mobiele apparaat, zodat u een foto van het ontvangstbewijs kunt maken. Wanneer u klaar bent met het maken van een foto, selecteert u **OK** om de foto te accepteren.
-    - Als u **Afbeelding kiezen** hebt geselecteerd, selecteert u een afbeelding in de lijst.
+    - <span data-ttu-id="7abfd-198">Als u **Foto maken** hebt geselecteerd, gaat u naar de camera op uw mobiele apparaat, zodat u een foto van het ontvangstbewijs kunt maken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-198">If you selected **Take photo**, you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="7abfd-199">Wanneer u klaar bent met het maken van een foto, selecteert u **OK** om de foto te accepteren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-199">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="7abfd-200">Als u **Afbeelding kiezen** hebt geselecteerd, selecteert u een afbeelding in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-200">If you selected **Choose image**, select an image in the list.</span></span>
 
-10. Selecteer **Gereed**.
+10. <span data-ttu-id="7abfd-201">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-201">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Een onkostennota goedkeuren met behulp van het mobiele werkgebied Onkostenbeheer (update van juli 2017)
-1. Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.
-2. **Goedkeuringen van onkosten** bevat het aantal onkostennota's dat ter goedkeuring aan u is toegewezen. Het aantal wordt ongeveer elke 30 minuten bijgewerkt. Selecteer **Goedkeuringen van onkosten**.
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="7abfd-202">Een onkostennota goedkeuren met behulp van het mobiele werkgebied Onkostenbeheer (update van juli 2017)</span><span class="sxs-lookup"><span data-stu-id="7abfd-202">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="7abfd-203">Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-203">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="7abfd-204">**Goedkeuringen van onkosten** bevat het aantal onkostennota's dat ter goedkeuring aan u is toegewezen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-204">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="7abfd-205">Het aantal wordt ongeveer elke 30 minuten bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="7abfd-205">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="7abfd-206">Selecteer **Goedkeuringen van onkosten**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-206">Select **Expense approvals**.</span></span>
 
-    De lijst bevat de onkostennota's die ter goedkeuring aan u zijn toegewezen.
+    <span data-ttu-id="7abfd-207">De lijst bevat de onkostennota's die ter goedkeuring aan u zijn toegewezen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-207">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Selecteer een onkostennota om de onkostendetails weer te geven.
-4. Selecteer een kostenpost om de details weer te geven. De informatie die wordt weergegeven voor een kostenpost bevat details over het ontvangstbewijs, gasten en een specificatie.
-5. Terug op de pagina **Onkostennota** kiest u of u de onkostennota goedkeurt of afwijst.
-6. Voer opmerkingen in voor de goedkeuringsactie.
-7. Selecteer **Gereed**.
+3. <span data-ttu-id="7abfd-208">Selecteer een onkostennota om de onkostendetails weer te geven.</span><span class="sxs-lookup"><span data-stu-id="7abfd-208">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="7abfd-209">Selecteer een kostenpost om de details weer te geven.</span><span class="sxs-lookup"><span data-stu-id="7abfd-209">Select an expense to view the details for it.</span></span> <span data-ttu-id="7abfd-210">De informatie die wordt weergegeven voor een kostenpost bevat details over het ontvangstbewijs, gasten en een specificatie.</span><span class="sxs-lookup"><span data-stu-id="7abfd-210">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="7abfd-211">Terug op de pagina **Onkostennota** kiest u of u de onkostennota goedkeurt of afwijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-211">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="7abfd-212">Voer opmerkingen in voor de goedkeuringsactie.</span><span class="sxs-lookup"><span data-stu-id="7abfd-212">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="7abfd-213">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-213">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Een nieuw onkostennota maken en ter goedkeuring indien met het mobiele werkgebied Onkostenbeheer (update van juli 2017)
-1. Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.
-2. Selecteer **Onkosteninvoer**.
-3. Selecteer **Nieuw rapport** of selecteer een bestaande onkostennota in de lijst.
-4. Geef voor nieuwe onkostennota's het doel en aanvullende informatie op. Deze informatie is afhankelijk van de manier waarop Onkostenbeheer is geconfigureerd voor uw bedrijf.
-5. Selecteer **Gereed**.
-6. Selecteer **Koppelen** om bestaande onkosten, zoals creditcardtransacties, toe te voegen aan de onkostennota.
-7. Selecteer een of meer kostenposten in de lijst.
-8. Selecteer **Gereed**.
-9. Selecteer **Nieuwe onkosten** als u een nieuwe kostenpost wilt toevoegen aan de onkostennota.
-10. Selecteer de categorie voor de onkostenpost. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
-11. Optioneel: voer de verkoper voor de onkostenpost in.
-12. Voer de transactiedatum van de onkostenpost in.
-13. Voer het bedrag van de onkostenpost in.
-14. Selecteer de valuta van de onkostenpost. U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
-15. Selecteer **Gereed**.
-16. Selecteer **Meer details toevoegen** om meer details toe te voegen aan de onkosten. Welke velden beschikbaar zijn, is afhankelijk van de configuratie van Onkostenbeheer voor uw bedrijf.
-17. Als het bedrijfsbeleid een ontvangstbewijs voor de onkosten vereist, selecteert u **Ontvangstbewijzen** en gaat u als volgt te werk:
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="7abfd-214">Een nieuw onkostennota maken en ter goedkeuring indien met het mobiele werkgebied Onkostenbeheer (update van juli 2017)</span><span class="sxs-lookup"><span data-stu-id="7abfd-214">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="7abfd-215">Open op uw mobiele apparaat het werkgebied **Onkostenbeheer**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-215">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="7abfd-216">Selecteer **Onkosteninvoer**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-216">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="7abfd-217">Selecteer **Nieuw rapport** of selecteer een bestaande onkostennota in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-217">Select **New report**, or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="7abfd-218">Geef voor nieuwe onkostennota's het doel en aanvullende informatie op.</span><span class="sxs-lookup"><span data-stu-id="7abfd-218">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="7abfd-219">Deze informatie is afhankelijk van de manier waarop Onkostenbeheer is geconfigureerd voor uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="7abfd-219">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="7abfd-220">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-220">Select **Done**.</span></span>
+6. <span data-ttu-id="7abfd-221">Selecteer **Koppelen** om bestaande onkosten, zoals creditcardtransacties, toe te voegen aan de onkostennota.</span><span class="sxs-lookup"><span data-stu-id="7abfd-221">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="7abfd-222">Selecteer een of meer kostenposten in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-222">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="7abfd-223">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-223">Select **Done**.</span></span>
+9. <span data-ttu-id="7abfd-224">Selecteer **Nieuwe onkosten** als u een nieuwe kostenpost wilt toevoegen aan de onkostennota.</span><span class="sxs-lookup"><span data-stu-id="7abfd-224">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="7abfd-225">Selecteer de categorie voor de onkostenpost.</span><span class="sxs-lookup"><span data-stu-id="7abfd-225">Select the category for the expense.</span></span> <span data-ttu-id="7abfd-226">U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik.</span><span class="sxs-lookup"><span data-stu-id="7abfd-226">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="7abfd-227">Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-227">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7abfd-228">Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7abfd-228">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7abfd-229">Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-229">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7abfd-230">Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.</span><span class="sxs-lookup"><span data-stu-id="7abfd-230">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="7abfd-231">Optioneel: voer de verkoper voor de onkostenpost in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-231">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="7abfd-232">Voer de transactiedatum van de onkostenpost in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-232">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="7abfd-233">Voer het bedrag van de onkostenpost in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-233">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="7abfd-234">Selecteer de valuta van de onkostenpost.</span><span class="sxs-lookup"><span data-stu-id="7abfd-234">Select the currency of the expense.</span></span> <span data-ttu-id="7abfd-235">U ziet een lijst van de valutacodes die in uw app zijn geladen voor offline gebruik.</span><span class="sxs-lookup"><span data-stu-id="7abfd-235">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="7abfd-236">Standaard worden 400 valuta's geladen, maar een ontwikkelaar kan dit aantal wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-236">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7abfd-237">Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7abfd-237">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7abfd-238">Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-238">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7abfd-239">Zoek op valuta of schakel over naar zoeken op naam.</span><span class="sxs-lookup"><span data-stu-id="7abfd-239">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="7abfd-240">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-240">Select **Done**.</span></span>
+16. <span data-ttu-id="7abfd-241">Selecteer **Meer details toevoegen** om meer details toe te voegen aan de onkosten.</span><span class="sxs-lookup"><span data-stu-id="7abfd-241">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="7abfd-242">Welke velden beschikbaar zijn, is afhankelijk van de configuratie van Onkostenbeheer voor uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="7abfd-242">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="7abfd-243">Als het bedrijfsbeleid een ontvangstbewijs voor de onkosten vereist, selecteert u **Ontvangstbewijzen** en gaat u als volgt te werk:</span><span class="sxs-lookup"><span data-stu-id="7abfd-243">If company policy requires a receipt for the expense, select **Receipts**, and then follow these steps:</span></span>
 
-    1. Selecteer **Ontvangst vastleggen** of **Ontvangstbestand bijvoegen**.
-    2. Volg één van deze stappen:
+    1. <span data-ttu-id="7abfd-244">Selecteer **Ontvangst vastleggen** of **Ontvangstbestand bijvoegen**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-244">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="7abfd-245">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="7abfd-245">Follow one of these steps:</span></span>
 
-        - Volg deze stappen als u **Ontvangst vastleggen** hebt geselecteerd:
+        - <span data-ttu-id="7abfd-246">Volg deze stappen als u **Ontvangst vastleggen** hebt geselecteerd:</span><span class="sxs-lookup"><span data-stu-id="7abfd-246">If you selected **Capture receipt**, follow these steps:</span></span>
 
-            1. Selecteer **Foto maken** of **Afbeelding kiezen**.
-            2. Volg één van deze stappen:
+            1. <span data-ttu-id="7abfd-247">Selecteer **Foto maken** of **Afbeelding kiezen**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-247">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="7abfd-248">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="7abfd-248">Follow one of these steps:</span></span>
 
-                - Als u **Foto maken** hebt geselecteerd, gaat u als volgt te werk:
+                - <span data-ttu-id="7abfd-249">Als u **Foto maken** hebt geselecteerd, gaat u als volgt te werk:</span><span class="sxs-lookup"><span data-stu-id="7abfd-249">If you selected **Take photo**, follow these steps:</span></span>
 
-                    1. U gaat naar de camera op uw mobiele apparaat, zodat u een foto van het ontvangstbewijs kunt maken. Wanneer u klaar bent met het maken van een foto, selecteert u **OK** om de foto te accepteren.
-                    2. Optioneel: voer een naam in voor de foto en voer eventuele notities in.
+                    1. <span data-ttu-id="7abfd-250">U gaat naar de camera op uw mobiele apparaat, zodat u een foto van het ontvangstbewijs kunt maken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-250">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="7abfd-251">Wanneer u klaar bent met het maken van een foto, selecteert u **OK** om de foto te accepteren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-251">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="7abfd-252">Optioneel: voer een naam in voor de foto en voer eventuele notities in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-252">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Volg deze stappen als u **Afbeelding kiezen** hebt geselecteerd:
+                - <span data-ttu-id="7abfd-253">Volg deze stappen als u **Afbeelding kiezen** hebt geselecteerd:</span><span class="sxs-lookup"><span data-stu-id="7abfd-253">If you selected **Choose image**, follow these steps:</span></span>
 
-                    1. Selecteer een afbeelding in de lijst.
-                    2. Optioneel: voer een naam in voor de afbeelding en voer eventuele notities in.
+                    1. <span data-ttu-id="7abfd-254">Selecteer een afbeelding in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-254">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="7abfd-255">Optioneel: voer een naam in voor de afbeelding en voer eventuele notities in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-255">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Selecteer **Gereed**.
+            3.  <span data-ttu-id="7abfd-256">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-256">Select **Done**.</span></span>
 
-        - Volg deze stappen als u **Ontvangstbewijs koppelen** hebt geselecteerd:
+        - <span data-ttu-id="7abfd-257">Volg deze stappen als u **Ontvangstbewijs koppelen** hebt geselecteerd:</span><span class="sxs-lookup"><span data-stu-id="7abfd-257">If you selected **Attach receipt**, follow these steps:</span></span>
 
-            1.  Selecteer een of meer afbeeldingen in de lijst.
-            2.  Selecteer **Gereed**.
+            1.  <span data-ttu-id="7abfd-258">Selecteer een of meer afbeeldingen in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-258">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="7abfd-259">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-259">Select **Done**.</span></span>
 
-    3. Selecteer de knop **Terug** om terug te gaan naar de onkostendetails.
+    3. <span data-ttu-id="7abfd-260">Selecteer de knop **Terug** om terug te gaan naar de onkostendetails.</span><span class="sxs-lookup"><span data-stu-id="7abfd-260">Select the **Back** button to return to the expense details.</span></span>
 
-18. Als het bedrijfsbeleid gasten voor de onkosten vereist, selecteert u **Gasten** en gaat u als volgt te werk:
+18. <span data-ttu-id="7abfd-261">Als het bedrijfsbeleid gasten voor de onkosten vereist, selecteert u **Gasten** en gaat u als volgt te werk:</span><span class="sxs-lookup"><span data-stu-id="7abfd-261">If company policy requires guests for the expense, select **Guests**, and then follow these steps:</span></span>
 
-    1. Selecteer **Gast**, **Vorige gasten** of **Collega's**.
-    2. Volg één van deze stappen:
+    1. <span data-ttu-id="7abfd-262">Selecteer **Gast**, **Vorige gasten** of **Collega's**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-262">Select **Guest**, **Previous guests**, or **Coworkers**.</span></span>
+    2. <span data-ttu-id="7abfd-263">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="7abfd-263">Follow one of these steps:</span></span>
 
-        - Als u **Gast** hebt geselecteerd, gaat u als volgt te werk:
+        - <span data-ttu-id="7abfd-264">Als u **Gast** hebt geselecteerd, gaat u als volgt te werk:</span><span class="sxs-lookup"><span data-stu-id="7abfd-264">If you selected **Guest**, follow these steps:</span></span>
 
-            1. Geef de naam op van de gast.
-            2. Optioneel: voer de organisatie en/of het land van de gast in.
-            3. Optioneel: voer de functie van de gast in.
-            4. Selecteer **Gereed**.
+            1. <span data-ttu-id="7abfd-265">Geef de naam op van de gast.</span><span class="sxs-lookup"><span data-stu-id="7abfd-265">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="7abfd-266">Optioneel: voer de organisatie en/of het land van de gast in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-266">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="7abfd-267">Optioneel: voer de functie van de gast in.</span><span class="sxs-lookup"><span data-stu-id="7abfd-267">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="7abfd-268">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-268">Select **Done**.</span></span>
 
-        - Volg deze stappen als u **Vorige gasten** hebt geselecteerd:
+        - <span data-ttu-id="7abfd-269">Volg deze stappen als u **Vorige gasten** hebt geselecteerd:</span><span class="sxs-lookup"><span data-stu-id="7abfd-269">If you selected **Previous guests**, follow these steps:</span></span>
 
-            1. Selecteer een of meer eerdere gasten in de lijst. U ziet een lijst met eerdere gasten die u hebt toegevoegd aan vorige onkostenrapporten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw eerdere gast niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam of schakel over naar zoeken op organisatie, land of functie.
-            2. Selecteer **Gereed**.
+            1. <span data-ttu-id="7abfd-270">Selecteer een of meer eerdere gasten in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-270">Select one or more previous guests in the list.</span></span> <span data-ttu-id="7abfd-271">U ziet een lijst met eerdere gasten die u hebt toegevoegd aan vorige onkostenrapporten die in uw app zijn geladen voor offline gebruik.</span><span class="sxs-lookup"><span data-stu-id="7abfd-271">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="7abfd-272">Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-272">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7abfd-273">Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7abfd-273">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7abfd-274">Als uw eerdere gast niet in de lijst staat, selecteert u **Zoeken** om online te zoeken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-274">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7abfd-275">Zoek op naam of schakel over naar zoeken op organisatie, land of functie.</span><span class="sxs-lookup"><span data-stu-id="7abfd-275">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="7abfd-276">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-276">Select **Done**.</span></span>
 
-        - Als u **Collega's** hebt geselecteerd, gaat u als volgt te werk:
+        - <span data-ttu-id="7abfd-277">Als u **Collega's** hebt geselecteerd, gaat u als volgt te werk:</span><span class="sxs-lookup"><span data-stu-id="7abfd-277">If you selected **Coworkers**, follow these steps:</span></span>
 
-            1. Selecteer een of meer collega's in de lijst. U ziet een lijst met collega's die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw collega niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam of schakel over naar zoeken op bedrijf of functie.
-            2. Selecteer **Gereed**.
+            1. <span data-ttu-id="7abfd-278">Selecteer een of meer collega's in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7abfd-278">Select one or more coworkers in the list.</span></span> <span data-ttu-id="7abfd-279">U ziet een lijst met collega's die in uw app zijn geladen voor offline gebruik.</span><span class="sxs-lookup"><span data-stu-id="7abfd-279">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="7abfd-280">Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-280">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7abfd-281">Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7abfd-281">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7abfd-282">Als uw collega niet in de lijst staat, selecteert u **Zoeken** om online te zoeken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-282">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7abfd-283">Zoek op naam of schakel over naar zoeken op bedrijf of functie.</span><span class="sxs-lookup"><span data-stu-id="7abfd-283">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="7abfd-284">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-284">Select **Done**.</span></span>
 
-    3. Selecteer de knop **Terug** om terug te gaan naar de onkostendetails.
+    3. <span data-ttu-id="7abfd-285">Selecteer de knop **Terug** om terug te gaan naar de onkostendetails.</span><span class="sxs-lookup"><span data-stu-id="7abfd-285">Select the **Back** button to return to the expense details.</span></span>
 
-19. Als het bedrijfsbeleid een specificatie voor de onkosten vereist, selecteert u **Specificeren** en gaat u als volgt te werk:
+19. <span data-ttu-id="7abfd-286">Als het bedrijfsbeleid een specificatie voor de onkosten vereist, selecteert u **Specificeren** en gaat u als volgt te werk:</span><span class="sxs-lookup"><span data-stu-id="7abfd-286">If company policy requires that the expense be itemized, select **Itemize**, and then follow these steps:</span></span>
 
-    1. Selecteer de eerste datum om te specificeren.
-    2. Selecteer **Specificatie toevoegen**.
-    3. Selecteer de subcategorie voor de specificatie van de onkosten. U ziet een lijst met subcategorieën voor onkosten die in uw app zijn geladen voor offline gebruik. Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Als uw subcategorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek naar onkostensubcategorie op naam.
-    4. Voer het transactiebedrag in voor de specificatie.
-    5. Voer de transactiedatum in als deze is vereist.
-    6. Selecteer **Gereed**.
-    7. Herhaal de voorgaande stappen totdat u klaar bent met het toevoegen van alle specificaties voor de geselecteerde datum.
-    8. Voor extra dagen selecteert u **Kopiëren naar volgende dag** om de specificaties te kopiëren naar de volgende dag. U kunt ook de datum selecteren en specificaties toevoegen zoals u voor de eerste datum hebt gedaan.
-    9. Nadat u de onkosten hebt gespecificeerd, selecteert u de knop **Terug** om terug te keren naar de onkostendetails.
+    1. <span data-ttu-id="7abfd-287">Selecteer de eerste datum om te specificeren.</span><span class="sxs-lookup"><span data-stu-id="7abfd-287">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="7abfd-288">Selecteer **Specificatie toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-288">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="7abfd-289">Selecteer de subcategorie voor de specificatie van de onkosten.</span><span class="sxs-lookup"><span data-stu-id="7abfd-289">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="7abfd-290">U ziet een lijst met subcategorieën voor onkosten die in uw app zijn geladen voor offline gebruik.</span><span class="sxs-lookup"><span data-stu-id="7abfd-290">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="7abfd-291">Standaard worden 50 artikelen geladen, maar een ontwikkelaar kan dit aantal wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7abfd-291">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="7abfd-292">Ontwikkelaars vinden meer informatie in het onderwerp [Mobiel platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="7abfd-292">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="7abfd-293">Als uw subcategorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken.</span><span class="sxs-lookup"><span data-stu-id="7abfd-293">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="7abfd-294">Zoek naar onkostensubcategorie op naam.</span><span class="sxs-lookup"><span data-stu-id="7abfd-294">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="7abfd-295">Voer het transactiebedrag in voor de specificatie.</span><span class="sxs-lookup"><span data-stu-id="7abfd-295">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="7abfd-296">Voer de transactiedatum in als deze is vereist.</span><span class="sxs-lookup"><span data-stu-id="7abfd-296">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="7abfd-297">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-297">Select **Done**.</span></span>
+    7. <span data-ttu-id="7abfd-298">Herhaal de voorgaande stappen totdat u klaar bent met het toevoegen van alle specificaties voor de geselecteerde datum.</span><span class="sxs-lookup"><span data-stu-id="7abfd-298">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="7abfd-299">Voor extra dagen selecteert u **Kopiëren naar volgende dag** om de specificaties te kopiëren naar de volgende dag.</span><span class="sxs-lookup"><span data-stu-id="7abfd-299">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="7abfd-300">U kunt ook de datum selecteren en specificaties toevoegen zoals u voor de eerste datum hebt gedaan.</span><span class="sxs-lookup"><span data-stu-id="7abfd-300">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="7abfd-301">Nadat u de onkosten hebt gespecificeerd, selecteert u de knop **Terug** om terug te keren naar de onkostendetails.</span><span class="sxs-lookup"><span data-stu-id="7abfd-301">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Selecteer de knop **Terug** om terug te gaan naar de pagina **Onkostennota**.
-21. Herhaal de voorgaande stappen totdat u klaar bent met het toevoegen van alle onkosten.
-22. Selecteer **Indienen**.
-23. Voer opmerkingen in voor de fiatteur.
-24. Selecteer **Gereed**.
+20. <span data-ttu-id="7abfd-302">Selecteer de knop **Terug** om terug te gaan naar de pagina **Onkostennota**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-302">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="7abfd-303">Herhaal de voorgaande stappen totdat u klaar bent met het toevoegen van alle onkosten.</span><span class="sxs-lookup"><span data-stu-id="7abfd-303">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="7abfd-304">Selecteer **Indienen**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-304">Select **Submit**.</span></span>
+23. <span data-ttu-id="7abfd-305">Voer opmerkingen in voor de fiatteur.</span><span class="sxs-lookup"><span data-stu-id="7abfd-305">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="7abfd-306">Selecteer **Gereed**.</span><span class="sxs-lookup"><span data-stu-id="7abfd-306">Select **Done**.</span></span>
 

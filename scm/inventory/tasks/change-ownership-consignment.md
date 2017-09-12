@@ -1,4 +1,4 @@
---- 
+---
 title: Het eigendom van consignatievoorraad wijzigen op basis van de productievraag
 description: Deze procedure laat zien hoe u de eigenaar van de consignatievoorraad wijzigt van de leverancier in uw rechtspersoon wanneer er vraag is naar de voorraad in productie.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,39 +17,38 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: c0126ef34ccbf15d180ff9aa474ac7ab8a749bb4
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Het eigendom van consignatievoorraad wijzigen op basis van de productievraag
+# <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="acb95-103">Het eigendom van consignatievoorraad wijzigen op basis van de productievraag</span><span class="sxs-lookup"><span data-stu-id="acb95-103">Change the ownership of consignment inventory based on production demand</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u de eigenaar van de consignatievoorraad wijzigt van de leverancier in uw rechtspersoon wanneer er vraag is naar de voorraad in productie. Deze wijziging van eigendom wordt uitgevoerd door een wijzigingslogboek van het voorraadeigendom te maken en te boeken. De regels van het eigendomwijzigingslogboek kunnen handmatig worden gemaakt of, zoals deze opname laat zien, worden gebaseerd op de bestaande productievraag. Gewoonlijk voert een werkvloersupervisor deze taak uit. U kunt deze procedure gebruiken in het demobedrijf USMF of voor uw eigen gegevens. Als u uw eigen gegevens gebruikt, moet u voldoen aan de volgende vereisten: een voorraadjournaalnaam die is ingesteld voor de wijziging van het voorraadeigendom, fysiek geregistreerde voorhanden artikelen in het bezit van de leverancier, en een of meer productieorderregels voor het materiaal. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+<span data-ttu-id="acb95-104">Deze procedure laat zien hoe u de eigenaar van de consignatievoorraad wijzigt van de leverancier in uw rechtspersoon wanneer er vraag is naar de voorraad in productie.</span><span class="sxs-lookup"><span data-stu-id="acb95-104">This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production.</span></span> <span data-ttu-id="acb95-105">Deze wijziging van eigendom wordt uitgevoerd door een wijzigingslogboek van het voorraadeigendom te maken en te boeken.</span><span class="sxs-lookup"><span data-stu-id="acb95-105">This change of ownership is done by creating and posting an inventory ownership change journal.</span></span> <span data-ttu-id="acb95-106">De regels van het eigendomwijzigingslogboek kunnen handmatig worden gemaakt of, zoals deze opname laat zien, worden gebaseerd op de bestaande productievraag.</span><span class="sxs-lookup"><span data-stu-id="acb95-106">The ownership change journal lines can be created manually or, as shown in this recording, based on existing production demand.</span></span> <span data-ttu-id="acb95-107">Gewoonlijk voert een werkvloersupervisor deze taak uit.</span><span class="sxs-lookup"><span data-stu-id="acb95-107">Typically, a shop floor supervisor performs this task.</span></span> <span data-ttu-id="acb95-108">U kunt deze procedure gebruiken in het demobedrijf USMF of voor uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="acb95-108">You can use this procedure in the USMF demo data company or on your own data.</span></span> <span data-ttu-id="acb95-109">Als u uw eigen gegevens gebruikt, moet u voldoen aan de volgende vereisten: een voorraadjournaalnaam die is ingesteld voor de wijziging van het voorraadeigendom, fysiek geregistreerde voorhanden artikelen in het bezit van de leverancier, en een of meer productieorderregels voor het materiaal.</span><span class="sxs-lookup"><span data-stu-id="acb95-109">If you're using your own data, make sure that you have the following prerequisites: an inventory journal name that has been set up for inventory ownership change, physically recorded vendor-owned on-hand items, and one or more production order lines for the material.</span></span> <span data-ttu-id="acb95-110">Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="acb95-110">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="create-an-inventory-ownership-journal"></a>Een voorraadeigendomsjournaal maken
-1. Ga naar Voorraadbeheer > Journaalboekingen > Artikelen > Wijziging aan voorraadeigendom.
-2. Klik op Nieuw.
-    * Het wijzigingslogboek van het voorraadeigendom wordt gebruikt om de eigenaar van consignatievoorraad van de leverancier te wijzigen in de huidige rechtspersoon. Deze wijziging van eigendom wordt uitgevoerd door de voorhanden voorraad vrij te geven die eigendom is van de leverancier en die voorraad vervolgens te ontvangen voor de huidige rechtspersoon.  
-3. Typ of selecteer een waarde in het veld Naam.
-    * U kunt alleen voorraadjournaalnamen selecteren die het journaaltype Wijziging aan eigendom hebben.  
-4. Klik op OK.
-5. Klik op Functies.
-6. Klik op Journaalregels maken op basis van productieorders.
-    * U kunt de wijziging van het eigendomproces starten door alle productieregels te zoeken met vraag naar verbruik van grondstoffen.  
-7. Selecteer een optie in het veld Op te nemen voorraaduitgiftestatussen.
-    * Met deze optie kunt u filteren op de uitgiftestatus van de voorraadtransacties. U kunt bijvoorbeeld journaalregels maken voor voorraad met de status Verzameld en fysiek gereserveerd.  
-8. Breid de sectie Op te nemen records uit.
-    * In deze sectie kunt u aanvullende filterbewerkingen toepassen. U kunt bijvoorbeeld een specifieke grondstoffendatum selecteren.  
-9. Klik op OK.
+## <a name="create-an-inventory-ownership-journal"></a><span data-ttu-id="acb95-111">Een voorraadeigendomsjournaal maken</span><span class="sxs-lookup"><span data-stu-id="acb95-111">Create an inventory ownership journal</span></span>
+1. <span data-ttu-id="acb95-112">Ga naar Voorraadbeheer > Journaalboekingen > Artikelen > Wijziging aan voorraadeigendom.</span><span class="sxs-lookup"><span data-stu-id="acb95-112">Go to Inventory management > Journal entries > Items > Inventory ownership change.</span></span>
+2. <span data-ttu-id="acb95-113">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="acb95-113">Click New.</span></span>
+    * <span data-ttu-id="acb95-114">Het wijzigingslogboek van het voorraadeigendom wordt gebruikt om de eigenaar van consignatievoorraad van de leverancier te wijzigen in de huidige rechtspersoon.</span><span class="sxs-lookup"><span data-stu-id="acb95-114">The inventory ownership change journal is used to change the owner of consignment inventory from the vendor to the current legal entity.</span></span> <span data-ttu-id="acb95-115">Deze wijziging van eigendom wordt uitgevoerd door de voorhanden voorraad vrij te geven die eigendom is van de leverancier en die voorraad vervolgens te ontvangen voor de huidige rechtspersoon.</span><span class="sxs-lookup"><span data-stu-id="acb95-115">This change of ownership is done by releasing the on-hand inventory that is owned by the vendor and then receiving that inventory in the current legal entity.</span></span>  
+3. <span data-ttu-id="acb95-116">Typ of selecteer een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="acb95-116">In the Name field, enter or select a value.</span></span>
+    * <span data-ttu-id="acb95-117">U kunt alleen voorraadjournaalnamen selecteren die het journaaltype Wijziging aan eigendom hebben.</span><span class="sxs-lookup"><span data-stu-id="acb95-117">You can select only inventory journal names that have a journal type of Ownership change.</span></span>  
+4. <span data-ttu-id="acb95-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="acb95-118">Click OK.</span></span>
+5. <span data-ttu-id="acb95-119">Klik op Functies.</span><span class="sxs-lookup"><span data-stu-id="acb95-119">Click Functions.</span></span>
+6. <span data-ttu-id="acb95-120">Klik op Journaalregels maken op basis van productieorders.</span><span class="sxs-lookup"><span data-stu-id="acb95-120">Click Create journal lines from production orders.</span></span>
+    * <span data-ttu-id="acb95-121">U kunt de wijziging van het eigendomproces starten door alle productieregels te zoeken met vraag naar verbruik van grondstoffen.</span><span class="sxs-lookup"><span data-stu-id="acb95-121">You can start the change of ownership process by querying all the production lines that have demand for consumption of raw material.</span></span>  
+7. <span data-ttu-id="acb95-122">Selecteer een optie in het veld Op te nemen voorraaduitgiftestatussen.</span><span class="sxs-lookup"><span data-stu-id="acb95-122">In the Inventory issue statuses to include field, select an option.</span></span>
+    * <span data-ttu-id="acb95-123">Met deze optie kunt u filteren op de uitgiftestatus van de voorraadtransacties.</span><span class="sxs-lookup"><span data-stu-id="acb95-123">This option lets you filter by the issue status of the inventory transactions.</span></span> <span data-ttu-id="acb95-124">U kunt bijvoorbeeld journaalregels maken voor voorraad met de status Verzameld en fysiek gereserveerd.</span><span class="sxs-lookup"><span data-stu-id="acb95-124">For example, you can create journal lines for inventory that has the Picked and Reserved physical statuses.</span></span>  
+8. <span data-ttu-id="acb95-125">Breid de sectie Op te nemen records uit.</span><span class="sxs-lookup"><span data-stu-id="acb95-125">Expand the Records to include section.</span></span>
+    * <span data-ttu-id="acb95-126">In deze sectie kunt u aanvullende filterbewerkingen toepassen.</span><span class="sxs-lookup"><span data-stu-id="acb95-126">This section lets you apply additional filtering.</span></span> <span data-ttu-id="acb95-127">U kunt bijvoorbeeld een specifieke grondstoffendatum selecteren.</span><span class="sxs-lookup"><span data-stu-id="acb95-127">For example, you can select a specific raw material date.</span></span>  
+9. <span data-ttu-id="acb95-128">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="acb95-128">Click OK.</span></span>
 
-## <a name="post-the-inventory-ownership-change-journal"></a>De wijzigingen in het voorraadeigendomsjournaal boeken
-1. Klik op Boeken.
-    * Wanneer het journaal wordt geboekt, wordt de voorraad die in het bezit is van de leverancier vrijgegeven door een verwijzing voor Wijziging aan eigendom. Vervolgens wordt de voorraad ontvangen als voorhanden voorraad met een voorraadtransactie die met een inkooporderproductontvangstbon wordt bijgewerkt. Merk op dat alleen transacties worden gemaakt die samenhangen met het geboekte journaal. Er worden geen verwachte voorraadtransacties gegenereerd.  
-2. Klik op OK.
-3. Sluit de pagina.
-
+## <a name="post-the-inventory-ownership-change-journal"></a><span data-ttu-id="acb95-129">De wijzigingen in het voorraadeigendomsjournaal boeken</span><span class="sxs-lookup"><span data-stu-id="acb95-129">Post the inventory ownership change journal</span></span>
+1. <span data-ttu-id="acb95-130">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="acb95-130">Click Post.</span></span>
+    * <span data-ttu-id="acb95-131">Wanneer het journaal wordt geboekt, wordt de voorraad die in het bezit is van de leverancier vrijgegeven door een verwijzing voor Wijziging aan eigendom.</span><span class="sxs-lookup"><span data-stu-id="acb95-131">When the journal is posted, the vendor-owned inventory is released by using an "Ownership change" reference.</span></span> <span data-ttu-id="acb95-132">Vervolgens wordt de voorraad ontvangen als voorhanden voorraad met een voorraadtransactie die met een inkooporderproductontvangstbon wordt bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="acb95-132">The inventory is then received as on-hand by using an inventory transaction that is updated with a purchase order product receipt.</span></span> <span data-ttu-id="acb95-133">Merk op dat alleen transacties worden gemaakt die samenhangen met het geboekte journaal.</span><span class="sxs-lookup"><span data-stu-id="acb95-133">Note that only transactions that are related to the posted journal are created.</span></span> <span data-ttu-id="acb95-134">Er worden geen verwachte voorraadtransacties gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="acb95-134">No expected inventory transactions are created.</span></span>  
+2. <span data-ttu-id="acb95-135">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="acb95-135">Click OK.</span></span>
+3. <span data-ttu-id="acb95-136">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="acb95-136">Close the page.</span></span>
 

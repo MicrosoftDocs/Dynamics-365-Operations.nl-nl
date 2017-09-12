@@ -17,52 +17,52 @@ ms.assetid: b4625d10-c852-4fda-b718-79df458de0d4
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9ae0bbb641d7517d33ad087faec231cb0bda3f78
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 172bb55358c20ba80b1c32b05f1ae8e6aff8901f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="production-order-cost-estimation"></a>Raming van productieorderkosten
+# <a name="production-order-cost-estimation"></a><span data-ttu-id="c0a09-104">Raming van productieorderkosten</span><span class="sxs-lookup"><span data-stu-id="c0a09-104">Production order cost estimation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel biedt informatie over ramingen van productiekosten. Door de productiekosten te ramen, weet u wat de verwachte materiaal- en capaciteitverbruikskosten zijn van het fabriceren van een artikel in de geplande productieorderhoeveelheid. 
+<span data-ttu-id="c0a09-105">Dit artikel biedt informatie over ramingen van productiekosten.</span><span class="sxs-lookup"><span data-stu-id="c0a09-105">This article provides information about production cost estimation.</span></span> <span data-ttu-id="c0a09-106">Door de productiekosten te ramen, weet u wat de verwachte materiaal- en capaciteitverbruikskosten zijn van het fabriceren van een artikel in de geplande productieorderhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="c0a09-106">Production cost estimation provides the projected material and capacity consumption costs of producing an item in the planned production order quantity.</span></span> 
 
-Nadat u een productieorder hebt gemaakt, moet u productiekosten ramen. Het belangrijkste doel hiervan is het ramen van het artikel- en routeverbruik voor het productieproces, omdat deze ramingen de basis vormen voor volgende plannings- en productieprocessen.
+<span data-ttu-id="c0a09-107">Nadat u een productieorder hebt gemaakt, moet u productiekosten ramen.</span><span class="sxs-lookup"><span data-stu-id="c0a09-107">After you create a production order, you must estimate production costs.</span></span> <span data-ttu-id="c0a09-108">Het belangrijkste doel hiervan is het ramen van het artikel- en routeverbruik voor het productieproces, omdat deze ramingen de basis vormen voor volgende plannings- en productieprocessen.</span><span class="sxs-lookup"><span data-stu-id="c0a09-108">The purpose is to estimate item and route consumption for the production process, because these estimates are used as the basis for subsequent scheduling and production processes.</span></span>
 
-## <a name="production-cost-estimation"></a>Raming van productiekosten
-Ramingen van productiekosten zijn gebaseerd op de volgende informatie:
+## <a name="production-cost-estimation"></a><span data-ttu-id="c0a09-109">Raming van productiekosten</span><span class="sxs-lookup"><span data-stu-id="c0a09-109">Production cost estimation</span></span>
+<span data-ttu-id="c0a09-110">Ramingen van productiekosten zijn gebaseerd op de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="c0a09-110">Estimates of production costs are based on the following information:</span></span>
 
--   De hoeveelheid van de productieorder
--   De onderdelen in de productiestuklijsten
--   De routebewerkingen in de productieroute
--   de indirecte kosten die van toepassing zijn op deze onderdelen en bewerkingen
--   De actieve kostengegevens op de datum van berekening
+-   <span data-ttu-id="c0a09-111">De hoeveelheid van de productieorder</span><span class="sxs-lookup"><span data-stu-id="c0a09-111">The quantity on the production order</span></span>
+-   <span data-ttu-id="c0a09-112">De onderdelen in de productiestuklijsten</span><span class="sxs-lookup"><span data-stu-id="c0a09-112">The components on the production bills of materials (BOMs)</span></span>
+-   <span data-ttu-id="c0a09-113">De routebewerkingen in de productieroute</span><span class="sxs-lookup"><span data-stu-id="c0a09-113">The routing operations in the production route</span></span>
+-   <span data-ttu-id="c0a09-114">de indirecte kosten die van toepassing zijn op deze onderdelen en bewerkingen</span><span class="sxs-lookup"><span data-stu-id="c0a09-114">The indirect costs that apply to the components and operations</span></span>
+-   <span data-ttu-id="c0a09-115">De actieve kostengegevens op de datum van berekening</span><span class="sxs-lookup"><span data-stu-id="c0a09-115">The active cost data as of the calculation date</span></span>
 
-Als er een phantom-regelartikel in de productiestuklijsten staat, weerspiegelen de berekeningen de onderdelen en routebewerkingen van het phantom-artikel. U kunt de ramingstaak gebruiken om geschatte kosten opnieuw te berekenen zodat bijgewerkte informatie wordt gereflecteerd. De bijgewerkte informatie kan bijvoorbeeld bestaan uit wijzigingen in de productieorderhoeveelheid, de onderdelen in de productiestuklijsten, de routebewerkingen in de productieroute, de indirecte kosten die van toepassing zijn op deze onderdelen en bewerkingen, of de actieve kostengegevens op de datum van herberekening. De berekeningen van de geschatte kosten stellen ook een verkoopprijs voor het productieartikel voor op basis van een kostprijs-plus-verhoging-benadering. De berekeningen van de kostenraming kunnen eventueel worden toegepast op referentieorders die andere productieorders reflecteren die aan de productieorder zijn gekoppeld.
+<span data-ttu-id="c0a09-116">Als er een phantom-regelartikel in de productiestuklijsten staat, weerspiegelen de berekeningen de onderdelen en routebewerkingen van het phantom-artikel.</span><span class="sxs-lookup"><span data-stu-id="c0a09-116">If there is a phantom line item on the production BOMs, the calculations reflect the phantom’s components and route operations.</span></span> <span data-ttu-id="c0a09-117">U kunt de ramingstaak gebruiken om geschatte kosten opnieuw te berekenen zodat bijgewerkte informatie wordt gereflecteerd.</span><span class="sxs-lookup"><span data-stu-id="c0a09-117">You can use the estimation task to recalculate estimated costs so that they reflect updated information.</span></span> <span data-ttu-id="c0a09-118">De bijgewerkte informatie kan bijvoorbeeld bestaan uit wijzigingen in de productieorderhoeveelheid, de onderdelen in de productiestuklijsten, de routebewerkingen in de productieroute, de indirecte kosten die van toepassing zijn op deze onderdelen en bewerkingen, of de actieve kostengegevens op de datum van herberekening.</span><span class="sxs-lookup"><span data-stu-id="c0a09-118">For example, the updated information might be changes to the quantity on the production order, the components on the production BOMs, the routing operations in the production route, the indirect costs that apply to these components and operations, or the active cost data as of the recalculation date.</span></span> <span data-ttu-id="c0a09-119">De berekeningen van de geschatte kosten stellen ook een verkoopprijs voor het productieartikel voor op basis van een kostprijs-plus-verhoging-benadering.</span><span class="sxs-lookup"><span data-stu-id="c0a09-119">The calculations of estimated cost also suggest a sales price for the production item, based on a cost-plus-markup approach.</span></span> <span data-ttu-id="c0a09-120">De berekeningen van de kostenraming kunnen eventueel worden toegepast op referentieorders die andere productieorders reflecteren die aan de productieorder zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="c0a09-120">The calculations of estimated cost can optionally apply to reference orders that reflect other production orders that are linked to the production order.</span></span>
 
-## <a name="view-the-estimated-costs"></a>De kostenramingen weergeven
-Nadat u de raming hebt uitgevoerd, kunt u de resultaten op de pagina **Prijsberekening** weergeven. Bij de raming worden de volgende waarden berekend:
+## <a name="view-the-estimated-costs"></a><span data-ttu-id="c0a09-121">De kostenramingen weergeven</span><span class="sxs-lookup"><span data-stu-id="c0a09-121">View the estimated costs</span></span>
+<span data-ttu-id="c0a09-122">Nadat u de raming hebt uitgevoerd, kunt u de resultaten op de pagina **Prijsberekening** weergeven.</span><span class="sxs-lookup"><span data-stu-id="c0a09-122">After you run estimation, you can view the results on the **Price calculation** page.</span></span> <span data-ttu-id="c0a09-123">Bij de raming worden de volgende waarden berekend:</span><span class="sxs-lookup"><span data-stu-id="c0a09-123">The estimation calculates the following values:</span></span>
 
--   **Productiekosten**: de bovenste regel van de raming. Hier worden de volledige kosten van het uitvoeren van de productieorder en de totale verkoopprijs voor de productie weergegeven. Dit is de som van alle kostenregels van de raming.
--   **Route- of resourcekosten**: de kosten voor de productiebewerkingen. Dit zijn onder andere de kosten van elementen als de insteltijd, de uitvoeringstijd en overhead.
--   **Materiaalkosten**: de kosten en prijzen van de stuklijstonderdelen die nodig zijn om het artikel te fabriceren. Deze kosten zijn al eerder gemaakt en ingevoerd in het systeem.
+-   <span data-ttu-id="c0a09-124">**Productiekosten**: de bovenste regel van de raming.</span><span class="sxs-lookup"><span data-stu-id="c0a09-124">**Production cost** – The production cost is the top line of the estimate.</span></span> <span data-ttu-id="c0a09-125">Hier worden de volledige kosten van het uitvoeren van de productieorder en de totale verkoopprijs voor de productie weergegeven.</span><span class="sxs-lookup"><span data-stu-id="c0a09-125">It shows the complete cost of running the production order and the total sales price for the production.</span></span> <span data-ttu-id="c0a09-126">Dit is de som van alle kostenregels van de raming.</span><span class="sxs-lookup"><span data-stu-id="c0a09-126">It's the sum of all the cost lines on the estimate.</span></span>
+-   <span data-ttu-id="c0a09-127">**Route- of resourcekosten**: de kosten voor de productiebewerkingen.</span><span class="sxs-lookup"><span data-stu-id="c0a09-127">**Route or resource costs** – Route or resource costs are the costs for the production operations.</span></span> <span data-ttu-id="c0a09-128">Dit zijn onder andere de kosten van elementen als de insteltijd, de uitvoeringstijd en overhead.</span><span class="sxs-lookup"><span data-stu-id="c0a09-128">They include the cost of elements such as setup time, run time, and overhead.</span></span>
+-   <span data-ttu-id="c0a09-129">**Materiaalkosten**: de kosten en prijzen van de stuklijstonderdelen die nodig zijn om het artikel te fabriceren.</span><span class="sxs-lookup"><span data-stu-id="c0a09-129">**Material costs** – Material costs are the costs and prices of the BOM components that are required in order to produce the item.</span></span> <span data-ttu-id="c0a09-130">Deze kosten zijn al eerder gemaakt en ingevoerd in het systeem.</span><span class="sxs-lookup"><span data-stu-id="c0a09-130">These costs have previously been established and entered into the system.</span></span>
 
-## <a name="other-uses-of-cost-estimation"></a>Andere functies van kostenramingen
-Een kostenraming biedt ook de volgende informatie:
+## <a name="other-uses-of-cost-estimation"></a><span data-ttu-id="c0a09-131">Andere functies van kostenramingen</span><span class="sxs-lookup"><span data-stu-id="c0a09-131">Other uses of cost estimation</span></span>
+<span data-ttu-id="c0a09-132">Een kostenraming biedt ook de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="c0a09-132">A cost estimate also provides the following information:</span></span>
 
--   Onderbouwde prijsoffertes
--   Ramingen van de rentabiliteit van de order
--   Ramingen van het grondstofverbruik
--   Vergelijkingen van kostengegevens van eerdere producties
--   Budget- en prognosegegevens
--   Ramingen van de productiegrootte die nodig zijn om bepaalde kosten te beheren
+-   <span data-ttu-id="c0a09-133">Onderbouwde prijsoffertes</span><span class="sxs-lookup"><span data-stu-id="c0a09-133">Meaningful price quotations</span></span>
+-   <span data-ttu-id="c0a09-134">Ramingen van de rentabiliteit van de order</span><span class="sxs-lookup"><span data-stu-id="c0a09-134">Estimates of the profitability of the order</span></span>
+-   <span data-ttu-id="c0a09-135">Ramingen van het grondstofverbruik</span><span class="sxs-lookup"><span data-stu-id="c0a09-135">Estimates of raw material usage</span></span>
+-   <span data-ttu-id="c0a09-136">Vergelijkingen van kostengegevens van eerdere producties</span><span class="sxs-lookup"><span data-stu-id="c0a09-136">Comparisons of cost information from previous productions</span></span>
+-   <span data-ttu-id="c0a09-137">Budget- en prognosegegevens</span><span class="sxs-lookup"><span data-stu-id="c0a09-137">Budget and forecasting information</span></span>
+-   <span data-ttu-id="c0a09-138">Ramingen van de productiegrootte die nodig zijn om bepaalde kosten te beheren</span><span class="sxs-lookup"><span data-stu-id="c0a09-138">Estimates of the production size that is required in order to maintain a particular cost</span></span>
 
 
 

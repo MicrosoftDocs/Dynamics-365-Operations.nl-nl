@@ -19,28 +19,28 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0540ba30cb26abe274075deea80ca1e9cfc686f9
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 0129eae177d44100b09c2b7bce553dd5bde5ce0c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="fixed-asset-disposal-posting-accounts"></a>Boekingsrekeningen voor afboeking van vaste activa
+# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="3e3f9-103">Boekingsrekeningen voor afboeking van vaste activa</span><span class="sxs-lookup"><span data-stu-id="3e3f9-103">Fixed asset disposal posting accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het afboeken van activa.
+<span data-ttu-id="3e3f9-104">In dit artikel wordt beschreven hoe u grootboekboekingsrekeningen instelt voor het afboeken van activa.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-104">This article explains how to set up general ledger posting accounts for disposing of assets.</span></span>
 
-Selecteer op de pagina Boekingsprofielen voor vaste activa, op het sneltabblad Grootboekrekeningen, de optie Verkoop/afstoting en Afstoting - uitval voor het instellen van boekingen naar het grootboek.
+<span data-ttu-id="3e3f9-105">Selecteer op de pagina Boekingsprofielen voor vaste activa, op het sneltabblad Grootboekrekeningen, de optie Verkoop/afstoting en Afstoting - uitval voor het instellen van boekingen naar het grootboek.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
 
-Voor beide transactietypen wordt de grootboekrekening gecrediteerd voor de afboekwaarde van het vaste activum. Het debetbedrag wordt naar een tegenrekening geboekt, die bijvoorbeeld een bankrekening kan zijn. Als een vast activum aan een klant wordt verkocht, wordt de klantrekening in plaats van de tegenrekening gebruikt.
+<span data-ttu-id="3e3f9-106">Voor beide transactietypen wordt de grootboekrekening gecrediteerd voor de afboekwaarde van het vaste activum.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="3e3f9-107">Het debetbedrag wordt naar een tegenrekening geboekt, die bijvoorbeeld een bankrekening kan zijn.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="3e3f9-108">Als een vast activum aan een klant wordt verkocht, wordt de klantrekening in plaats van de tegenrekening gebruikt.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
 
-Klik op Afstoting en klik vervolgens op Verkoop of Uitval, en stel vervolgens gedetailleerde rekeningen in om de nettoboekwaarde van het vaste activum om te keren. U kunt ook informatie invoeren in de velden Waarde boeken en Verkoopwaarde op de pagina Afstotingsparameters. 
+<span data-ttu-id="3e3f9-109">Klik op Afstoting en klik vervolgens op Verkoop of Uitval, en stel vervolgens gedetailleerde rekeningen in om de nettoboekwaarde van het vaste activum om te keren.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="3e3f9-110">U kunt ook informatie invoeren in de velden Waarde boeken en Verkoopwaarde op de pagina Afstotingsparameters.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
 
-Door de afboekingstransactie voor een activum in een groep met lage waarden, wordt de nettoboekwaarde van de groep met lage waarden alleen verminderd met het afgeboekte bedrag. Wanneer de verkoop van een activum echter de nettoboekwaarde van de groep met lage waarden overschrijdt, wordt de nettoboekwaarde verlaagd tot nul.
+<span data-ttu-id="3e3f9-111">Door de afboekingstransactie voor een activum in een groep met lage waarden, wordt de nettoboekwaarde van de groep met lage waarden alleen verminderd met het afgeboekte bedrag.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="3e3f9-112">Wanneer de verkoop van een activum echter de nettoboekwaarde van de groep met lage waarden overschrijdt, wordt de nettoboekwaarde verlaagd tot nul.</span><span class="sxs-lookup"><span data-stu-id="3e3f9-112">However, when the sale of an asset is exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
 
 
 

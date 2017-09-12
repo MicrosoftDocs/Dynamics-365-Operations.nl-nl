@@ -16,65 +16,65 @@ ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 75d176623b4fdf2198440becd0345628f873f6da
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: e43b9397dd4e362eff9d78f302732e6bcc53d1db
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="manual-depreciation"></a>Handmatige afschrijving
+# <a name="manual-depreciation"></a><span data-ttu-id="10d6c-103">Handmatige afschrijving</span><span class="sxs-lookup"><span data-stu-id="10d6c-103">Manual depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel biedt een overzicht van de methode voor handmatige afschrijving.
+<span data-ttu-id="10d6c-104">Dit artikel biedt een overzicht van de methode voor handmatige afschrijving.</span><span class="sxs-lookup"><span data-stu-id="10d6c-104">This article gives an overview of the manual depreciation method.</span></span>
 
-Wanneer u een profiel voor de afschrijving van vaste activa instelt en **Handmatig** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, wordt de afschrijving van vaste activa die aan het afschrijvingsprofiel zijn toegewezen, bepaald door het percentage dat u opgeeft voor elk interval in het kalenderjaar. De intervallen waarvoor u percentages instelt, worden geboekt volgens de waarde die u selecteert in het veld **Periodefrequentie** op het sneltabblad **Algemeen** van de pagina **Afschrijvingsprofielen**. U kunt kiezen uit de volgende waarden:
+<span data-ttu-id="10d6c-105">Wanneer u een profiel voor de afschrijving van vaste activa instelt en **Handmatig** selecteert in het veld **Methode** op de pagina **Afschrijvingsprofielen**, wordt de afschrijving van vaste activa die aan het afschrijvingsprofiel zijn toegewezen, bepaald door het percentage dat u opgeeft voor elk interval in het kalenderjaar.</span><span class="sxs-lookup"><span data-stu-id="10d6c-105">When you set up a fixed asset depreciation profile and select **Manual** in the **Method** field on the **Depreciation profiles** page, the depreciation of fixed assets that are assigned to the depreciation profile is determined by the percentage that you enter for each interval in the calendar year.</span></span> <span data-ttu-id="10d6c-106">De intervallen waarvoor u percentages instelt, worden geboekt volgens de waarde die u selecteert in het veld **Periodefrequentie** op het sneltabblad **Algemeen** van de pagina **Afschrijvingsprofielen**.</span><span class="sxs-lookup"><span data-stu-id="10d6c-106">The intervals that you set up percentages for are posted according to the value that you select in the **Period frequency** field on the **General** FastTab of the **Depreciation profiles** page.</span></span> <span data-ttu-id="10d6c-107">U kunt kiezen uit de volgende waarden:</span><span class="sxs-lookup"><span data-stu-id="10d6c-107">Here are the values that you can select:</span></span>
 
--   Jaarlijks
--   Maandelijks
--   Per kwartaal
--   Zesmaandelijks
--   Dagelijks
+-   <span data-ttu-id="10d6c-108">Jaarlijks</span><span class="sxs-lookup"><span data-stu-id="10d6c-108">Yearly</span></span>
+-   <span data-ttu-id="10d6c-109">Maandelijks</span><span class="sxs-lookup"><span data-stu-id="10d6c-109">Monthly</span></span>
+-   <span data-ttu-id="10d6c-110">Per kwartaal</span><span class="sxs-lookup"><span data-stu-id="10d6c-110">Quarterly</span></span>
+-   <span data-ttu-id="10d6c-111">Zesmaandelijks</span><span class="sxs-lookup"><span data-stu-id="10d6c-111">Half-Yearly</span></span>
+-   <span data-ttu-id="10d6c-112">Dagelijks</span><span class="sxs-lookup"><span data-stu-id="10d6c-112">Daily</span></span>
 
-Nadat u een periodefrequentie hebt geselecteerd, klikt u op **Handmatige schema's** en stelt u percentages in voor elk van de boekingsintervallen. Het afschrijvingsbedrag wordt door de combinatie van handmatige schema's en de boekingsintervallen gedefinieerd, zoals in de voorbeelden verderop in dit artikel wordt getoond. De handmatige afschrijving wordt altijd berekend als een percentage van de aanschafprijs. Voor handmatige afschrijving hoeven de percentages die u invoert in de intervallen van de afschrijving niet samen 100 procent te zijn. Handmatige afschrijving is een flexibele afschrijvingsmethode, die vaak wordt gebruikt om een buitengewoon afschrijvingsprofiel te definiëren op de pagina **Boeken**, zoals een niet-periodieke afschrijving voor speciale doeleinden (bijvoorbeeld belastingen).
+<span data-ttu-id="10d6c-113">Nadat u een periodefrequentie hebt geselecteerd, klikt u op **Handmatige schema's** en stelt u percentages in voor elk van de boekingsintervallen.</span><span class="sxs-lookup"><span data-stu-id="10d6c-113">After you select the period frequency, click **Manual schedules**, and set up percentages for each posting interval.</span></span> <span data-ttu-id="10d6c-114">Het afschrijvingsbedrag wordt door de combinatie van handmatige schema's en de boekingsintervallen gedefinieerd, zoals in de voorbeelden verderop in dit artikel wordt getoond.</span><span class="sxs-lookup"><span data-stu-id="10d6c-114">Together, the manual schedules and the posting intervals define the depreciation amount, as shown in the examples later in this article.</span></span> <span data-ttu-id="10d6c-115">De handmatige afschrijving wordt altijd berekend als een percentage van de aanschafprijs.</span><span class="sxs-lookup"><span data-stu-id="10d6c-115">Manual depreciation is always calculated as a percentage of the acquisition price.</span></span> <span data-ttu-id="10d6c-116">Voor handmatige afschrijving hoeven de percentages die u invoert in de intervallen van de afschrijving niet samen 100 procent te zijn.</span><span class="sxs-lookup"><span data-stu-id="10d6c-116">For manual depreciation, the percentages that you enter in the intervals of the depreciation don't have to add up to 100 percent.</span></span> <span data-ttu-id="10d6c-117">Handmatige afschrijving is een flexibele afschrijvingsmethode, die vaak wordt gebruikt om een buitengewoon afschrijvingsprofiel te definiëren op de pagina **Boeken**, zoals een niet-periodieke afschrijving voor speciale doeleinden (bijvoorbeeld belastingen).</span><span class="sxs-lookup"><span data-stu-id="10d6c-117">Manual depreciation is a flexible depreciation method that is often used to define an extraordinary depreciation profile on the **Books** page, such as a non-periodic depreciation for special purposes (for example, tax).</span></span>
 
-## <a name="examples"></a>Voorbeelden
-Aanschafprijs: 11.000.00 Verwachte restwaarde: 1.000,00 In de volgende tabel worden de intervallen en percentages weergeven die u instelt op de pagina **Schema's afschrijvingsprofiel vaste activa**.
+## <a name="examples"></a><span data-ttu-id="10d6c-118">Voorbeelden</span><span class="sxs-lookup"><span data-stu-id="10d6c-118">Examples</span></span>
+<span data-ttu-id="10d6c-119">Aanschafprijs: 11.000.00 Verwachte restwaarde: 1.000,00 In de volgende tabel worden de intervallen en percentages weergeven die u instelt op de pagina **Schema's afschrijvingsprofiel vaste activa**.</span><span class="sxs-lookup"><span data-stu-id="10d6c-119">Acquisition price: 11,000.00 Expected scrap value: 1,000.00 The following table shows the intervals and percentages that you set up on the **Fixed asset depreciation profile schedules** page.</span></span>
 
-| Intervalnummer | Percentage |
+| <span data-ttu-id="10d6c-120">Intervalnummer</span><span class="sxs-lookup"><span data-stu-id="10d6c-120">Interval number</span></span> | <span data-ttu-id="10d6c-121">Percentage</span><span class="sxs-lookup"><span data-stu-id="10d6c-121">Percentage</span></span> |
 |-----------------|------------|
-| 1               | 10,00      |
-| 2               | 50,00      |
-| 3               | 8,00       |
+| <span data-ttu-id="10d6c-122">1</span><span class="sxs-lookup"><span data-stu-id="10d6c-122">1</span></span>               | <span data-ttu-id="10d6c-123">10,00</span><span class="sxs-lookup"><span data-stu-id="10d6c-123">10.00</span></span>      |
+| <span data-ttu-id="10d6c-124">2</span><span class="sxs-lookup"><span data-stu-id="10d6c-124">2</span></span>               | <span data-ttu-id="10d6c-125">50,00</span><span class="sxs-lookup"><span data-stu-id="10d6c-125">50.00</span></span>      |
+| <span data-ttu-id="10d6c-126">3</span><span class="sxs-lookup"><span data-stu-id="10d6c-126">3</span></span>               | <span data-ttu-id="10d6c-127">8,00</span><span class="sxs-lookup"><span data-stu-id="10d6c-127">8.00</span></span>       |
 
-In de volgende tabel ziet u hoe de afschrijving voor alle intervallen wordt berekend.
+<span data-ttu-id="10d6c-128">In de volgende tabel ziet u hoe de afschrijving voor alle intervallen wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="10d6c-128">The following table shows how the depreciation for each interval is calculated.</span></span>
 
-|  Intervalnummer | Berekening van het jaarlijkse afschrijvingsbedrag | Nettoboekwaarde aan het einde van het interval |
+|  <span data-ttu-id="10d6c-129">Intervalnummer</span><span class="sxs-lookup"><span data-stu-id="10d6c-129">Interval number</span></span> | <span data-ttu-id="10d6c-130">Berekening van het jaarlijkse afschrijvingsbedrag</span><span class="sxs-lookup"><span data-stu-id="10d6c-130">Calculation of the yearly depreciation amount</span></span> | <span data-ttu-id="10d6c-131">Nettoboekwaarde aan het einde van het interval</span><span class="sxs-lookup"><span data-stu-id="10d6c-131">Net book value at the end of the interval</span></span> |
 |------------------|-----------------------------------------------|-------------------------------------------|
-| 1                | (11.000 – 1.000) × 10% = 1.000                | 10.000 (11.000 – 1.000)                   |
-| 2                | (11.000 – 1.000) × 50% = 5.000                | 5.000 (10.000 – 5.000)                    |
-| 3                | (11.000 – 1.000) × 8% = 800                   | 4.200 (5.000 – 800)                       |
+| <span data-ttu-id="10d6c-132">1</span><span class="sxs-lookup"><span data-stu-id="10d6c-132">1</span></span>                | <span data-ttu-id="10d6c-133">(11.000 – 1.000) × 10% = 1.000</span><span class="sxs-lookup"><span data-stu-id="10d6c-133">(11,000 – 1,000) × 10% = 1,000</span></span>                | <span data-ttu-id="10d6c-134">10.000 (11.000 – 1.000)</span><span class="sxs-lookup"><span data-stu-id="10d6c-134">10,000 (11,000 – 1,000)</span></span>                   |
+| <span data-ttu-id="10d6c-135">2</span><span class="sxs-lookup"><span data-stu-id="10d6c-135">2</span></span>                | <span data-ttu-id="10d6c-136">(11.000 – 1.000) × 50% = 5.000</span><span class="sxs-lookup"><span data-stu-id="10d6c-136">(11,000 – 1,000) × 50% = 5,000</span></span>                | <span data-ttu-id="10d6c-137">5.000 (10.000 – 5.000)</span><span class="sxs-lookup"><span data-stu-id="10d6c-137">5,000 (10,000 – 5,000)</span></span>                    |
+| <span data-ttu-id="10d6c-138">3</span><span class="sxs-lookup"><span data-stu-id="10d6c-138">3</span></span>                | <span data-ttu-id="10d6c-139">(11.000 – 1.000) × 8% = 800</span><span class="sxs-lookup"><span data-stu-id="10d6c-139">(11,000 – 1,000) × 8% = 800</span></span>                   | <span data-ttu-id="10d6c-140">4.200 (5.000 – 800)</span><span class="sxs-lookup"><span data-stu-id="10d6c-140">4,200 (5,000 – 800)</span></span>                       |
 
-Als u **Maandelijks** selecteert in het veld **Periodefrequentie**, moet u 12 handmatige planningsintervallen instellen. In de volgende tabel ziet u de afschrijvingsbedragen voor de eerste twee intervallen.
+<span data-ttu-id="10d6c-141">Als u **Maandelijks** selecteert in het veld **Periodefrequentie**, moet u 12 handmatige planningsintervallen instellen.</span><span class="sxs-lookup"><span data-stu-id="10d6c-141">If you select **Monthly** in the **Period frequency** field, you set up 12 manual schedule intervals.</span></span> <span data-ttu-id="10d6c-142">In de volgende tabel ziet u de afschrijvingsbedragen voor de eerste twee intervallen.</span><span class="sxs-lookup"><span data-stu-id="10d6c-142">The following table shows the depreciation amounts for the first two intervals.</span></span>
 
-| Interval | Afschrijvingsbedrag            |
+| <span data-ttu-id="10d6c-143">Interval</span><span class="sxs-lookup"><span data-stu-id="10d6c-143">Interval</span></span> | <span data-ttu-id="10d6c-144">Afschrijvingsbedrag</span><span class="sxs-lookup"><span data-stu-id="10d6c-144">Depreciation amount</span></span>            |
 |----------|--------------------------------|
-| januari  | (11.000 – 1.000) × 10% = 1.000 |
-| februari | (11.000 – 1.000) × 50% = 5.000 |
+| <span data-ttu-id="10d6c-145">januari</span><span class="sxs-lookup"><span data-stu-id="10d6c-145">January</span></span>  | <span data-ttu-id="10d6c-146">(11.000 – 1.000) × 10% = 1.000</span><span class="sxs-lookup"><span data-stu-id="10d6c-146">(11,000 – 1,000) × 10% = 1,000</span></span> |
+| <span data-ttu-id="10d6c-147">februari</span><span class="sxs-lookup"><span data-stu-id="10d6c-147">February</span></span> | <span data-ttu-id="10d6c-148">(11.000 – 1.000) × 50% = 5.000</span><span class="sxs-lookup"><span data-stu-id="10d6c-148">(11,000 – 1,000) × 50% = 5,000</span></span> |
 
-Als u **Zesmaandelijks** selecteert in het veld Periodefrequentie, stelt u twee handmatige planningsintervallen in. In de volgende tabel ziet u de afschrijvingsbedragen voor deze twee intervallen.
+<span data-ttu-id="10d6c-149">Als u **Zesmaandelijks** selecteert in het veld Periodefrequentie, stelt u twee handmatige planningsintervallen in.</span><span class="sxs-lookup"><span data-stu-id="10d6c-149">If you select **Half-Yearly** in the ****Period frequency** field**, you set up two manual schedule intervals.</span></span> <span data-ttu-id="10d6c-150">In de volgende tabel ziet u de afschrijvingsbedragen voor deze twee intervallen.</span><span class="sxs-lookup"><span data-stu-id="10d6c-150">The following table shows the depreciation amounts for those two intervals.</span></span>
 
-| Interval    | Afschrijvingsbedrag            |
+| <span data-ttu-id="10d6c-151">Interval</span><span class="sxs-lookup"><span data-stu-id="10d6c-151">Interval</span></span>    | <span data-ttu-id="10d6c-152">Afschrijvingsbedrag</span><span class="sxs-lookup"><span data-stu-id="10d6c-152">Depreciation amount</span></span>            |
 |-------------|--------------------------------|
-| 30 juni     | (11.000 – 1.000) × 10% = 1.000 |
-| 31 december | (11.000 – 1.000) × 50% = 5.000 |
+| <span data-ttu-id="10d6c-153">30 juni</span><span class="sxs-lookup"><span data-stu-id="10d6c-153">June 30</span></span>     | <span data-ttu-id="10d6c-154">(11.000 – 1.000) × 10% = 1.000</span><span class="sxs-lookup"><span data-stu-id="10d6c-154">(11,000 – 1,000) × 10% = 1,000</span></span> |
+| <span data-ttu-id="10d6c-155">31 december</span><span class="sxs-lookup"><span data-stu-id="10d6c-155">December 31</span></span> | <span data-ttu-id="10d6c-156">(11.000 – 1.000) × 50% = 5.000</span><span class="sxs-lookup"><span data-stu-id="10d6c-156">(11,000 – 1,000) × 50% = 5,000</span></span> |
 
-Het totaal van de percentages voor alle intervallen hoeft niet gelijk te zijn aan 100. U ontvangt echter een bericht als de waarde in het veld **Cumulatief percentage** op de pagina **Schema's afschrijvingsprofiel vaste activa** niet **100** is.
+<span data-ttu-id="10d6c-157">Het totaal van de percentages voor alle intervallen hoeft niet gelijk te zijn aan 100.</span><span class="sxs-lookup"><span data-stu-id="10d6c-157">The total of percentages for all intervals doesn't have to be 100.</span></span> <span data-ttu-id="10d6c-158">U ontvangt echter een bericht als de waarde in het veld **Cumulatief percentage** op de pagina **Schema's afschrijvingsprofiel vaste activa** niet **100** is.</span><span class="sxs-lookup"><span data-stu-id="10d6c-158">However, you receive a message if the value in the **Cumulative percentage** field on the **Fixed asset depreciation profile schedules** page isn't **100**.</span></span>
 
 
 

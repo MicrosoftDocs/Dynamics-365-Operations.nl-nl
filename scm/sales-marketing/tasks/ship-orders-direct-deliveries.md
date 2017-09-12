@@ -22,84 +22,84 @@ ms.contentlocale: nl-nl
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="ship-orders-as-direct-deliveries"></a>Orders verzenden als rechtstreekse leveringen
+# <a name="ship-orders-as-direct-deliveries"></a><span data-ttu-id="db6d2-103">Orders verzenden als rechtstreekse leveringen</span><span class="sxs-lookup"><span data-stu-id="db6d2-103">Ship orders as direct deliveries</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure toont hoe een rechtstreekse levering voor een verkooporder wordt gemaakt. U gebruikt rechtstreekse levering wanneer u goederen rechtstreeks van uw leverancier naar de klant wilt verzenden in plaats van deze eerst naar uw eigen magazijn te verzenden. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Om de tweede subtaak 'Rechtstreekse leveringen vanaf de workbench maken' met succes te voltooien, controleert u dat er voor het artikel dat u op de verkooporder kiest een standaardleverancier is opgegeven op het sneltabblad Inkoop van het model Vrijgegeven product.
+<span data-ttu-id="db6d2-104">Deze procedure toont hoe een rechtstreekse levering voor een verkooporder wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="db6d2-104">This procedure demonstrates how to create a direct delivery for a sales order.</span></span> <span data-ttu-id="db6d2-105">U gebruikt rechtstreekse levering wanneer u goederen rechtstreeks van uw leverancier naar de klant wilt verzenden in plaats van deze eerst naar uw eigen magazijn te verzenden.</span><span class="sxs-lookup"><span data-stu-id="db6d2-105">You use direct delivery when you want to ship goods to the customer directly from your vendor, instead of shipping them to your own warehouse first.</span></span> <span data-ttu-id="db6d2-106">U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="db6d2-106">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="db6d2-107">Om de tweede subtaak 'Rechtstreekse leveringen vanaf de workbench maken' met succes te voltooien, controleert u dat er voor het artikel dat u op de verkooporder kiest een standaardleverancier is opgegeven op het sneltabblad Inkoop van het model Vrijgegeven product.</span><span class="sxs-lookup"><span data-stu-id="db6d2-107">To successfully complete the second sub-task "Create direct deliveries from the workbench", make sure that the item that you choose on the sales order has a default Vendor specified on the Purchase FastTab of the Released product master.</span></span>
 
 
-## <a name="set-an-individual-order-for-direct-delivery"></a>Een afzonderlijk order voor rechtstreekse levering instellen
-1. Ga naar Alle verkooporders.
-2. Klik op Nieuw.
-3. Typ of selecteer een waarde in het veld Klantrekening.
-    * Als u USMF gebruikt, kunt u rekening US-001 selecteren.  
-4. Klik op OK.
-5. Typ of selecteer een waarde in het veld Artikelnummer.
-    * Als u USMF gebruikt, kunt u artikel T0020 selecteren.  
-6. Klik op Opslaan.
-7. Klik in het actievenster op Verkooporder.
-8. Klik op Rechtstreekse levering.
-    * De pagina Levering maken toont alle openstaande verkooporderregels zoals die van de verkooporder zijn gekopieerd. U kunt de orderdetails controleren en, zo nodig, details zoals inkoophoeveelheid de prijsvoorwaarden wijzigen voordat u de rechtstreekse levering maakt.  
-9. Selecteer Ja in het veld Alles opnemen.
-    * Als u een directe levering voor een subset van de verkooporderregels wilt genereren, selecteert u deze afzonderlijk.  
-    * Het veld Leveranciersrekening is mogelijk al ingevuld met een leveranciersnummer. Als de standaardleverancier is ingesteld voor het product (op de gekoppelde Artikelbehoefteplanning), wordt deze leverancier naar de regel gekopieerd. Anders moet u handmatig een leverancier invoeren. In dit voorbeeld selecteren we een nieuwe leverancier in de volgende stap, zelfs als er al één is ingevuld.   
-10. Typ of selecteer een waarde in het veld Leveranciersrekening.
-    * Als u USMF gebruikt, kunt u rekening 1001 selecteren.  
-11. Klik op OK.
-    * Het bericht meldt u dat de inkooporder nu is gemaakt.   
-12. Vouw de sectie Regeldetails uit.
-13. Klik op het tabblad Levering.
-    * Het veld Rechtstreekse levering is nu ingesteld op Ja.  
-    * De status Rechtstreekse levering toont de gemaakte inkooporder.   
-14. Klik in het actievenster op Algemeen.
-15. Klik op Gerelateerde orders.
-16. Klik om de koppeling in het veld Inkooporder te volgen.
-17. Vouw de sectie Regeldetails uit.
-18. Klik op het tabblad Adres.
-    * Het afleveradres voor deze inkooporderregel is het afleveradres van de klant en niet het adres van uw bedrijf.  
-    * Als u het afleveradres op de inkooporder of de oorspronkelijk verkooporderregel bijgewerkt, wordt het adres op de overeenkomstige orderregel automatisch gewijzigd.  
-19. Klik op het tabblad Levering.
-    * Net als de verkooporderregel, wordt het gekoppelde type van inkooporderregel ook ingesteld op Rechtstreekse levering.  
-    * De Leveringsdatum en Bevestigde leveringsdatum van de inkooporderregel zijn ingesteld op de Gevraagde ontvangstdatum en Bevestigde ontvangstdatum van de oorspronkelijke verkooporderregel.   
-    * Als u elk van deze datums op de inkoopregel of verkoopregel bijwerkt, worden de datums op de bijbehorende order automatisch bijgewerkt.     
-    * De inkooporder die is ingesteld om goederen rechtstreeks aan de klant te leveren is gekoppeld aan de oorspronkelijke verkooporder door middel van een speciale koppeling. Deze koppeling legt de regel op dat de update van de pakbon van de verkooporder niet kan worden uitgevoerd vanaf de verkooporder zelf, maar moet worden uitgevoerd door de inkooporder te gebruiken. De klantfacturering moet echter vanaf de verkooporder worden uitgevoerd.  
-20. Klik in het actievenster op Inkoop.
-21. Klik op Bevestiging.
-22. Klik op OK.
-23. Klik in het actievenster op Ontvangen.
-24. Klik op Productontvangstbon.
-25. Typ een waarde in het veld Productontvangstbon.
-26. Klik op OK.
-27. Klik in het actievenster op Algemeen.
-28. Klik op Gerelateerde orders.
-29. Markeer in de lijst de geselecteerde rij.
-    * Nadat de inkooporder is bijgewerkt en ontvangen of, met andere woorden, nadat de leverancier de goederen naar het adres van de klant heeft verzonden, wordt de status van de oorspronkelijke verkooporder automatisch bijgewerkt naar Geleverd.  
-    * De verkooporder kan nu worden gefactureerd.    
-30. Klik op OK.
-31. Sluit de pagina.
-32. Klik op OK.
+## <a name="set-an-individual-order-for-direct-delivery"></a><span data-ttu-id="db6d2-108">Een afzonderlijk order voor rechtstreekse levering instellen</span><span class="sxs-lookup"><span data-stu-id="db6d2-108">Set an individual order for direct delivery</span></span>
+1. <span data-ttu-id="db6d2-109">Ga naar Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="db6d2-109">Go to All sales orders.</span></span>
+2. <span data-ttu-id="db6d2-110">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="db6d2-110">Click New.</span></span>
+3. <span data-ttu-id="db6d2-111">Typ of selecteer een waarde in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="db6d2-111">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="db6d2-112">Als u USMF gebruikt, kunt u rekening US-001 selecteren.</span><span class="sxs-lookup"><span data-stu-id="db6d2-112">If you’re using USMF, you can select account US-001.</span></span>  
+4. <span data-ttu-id="db6d2-113">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="db6d2-113">Click OK.</span></span>
+5. <span data-ttu-id="db6d2-114">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="db6d2-114">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="db6d2-115">Als u USMF gebruikt, kunt u artikel T0020 selecteren.</span><span class="sxs-lookup"><span data-stu-id="db6d2-115">If you’re using USMF, you can select item T0020.</span></span>  
+6. <span data-ttu-id="db6d2-116">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="db6d2-116">Click Save.</span></span>
+7. <span data-ttu-id="db6d2-117">Klik in het actievenster op Verkooporder.</span><span class="sxs-lookup"><span data-stu-id="db6d2-117">On the Action Pane, click Sales order.</span></span>
+8. <span data-ttu-id="db6d2-118">Klik op Rechtstreekse levering.</span><span class="sxs-lookup"><span data-stu-id="db6d2-118">Click Direct delivery.</span></span>
+    * <span data-ttu-id="db6d2-119">De pagina Levering maken toont alle openstaande verkooporderregels zoals die van de verkooporder zijn gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="db6d2-119">The Create delivery page lists all the open sales order lines as copied from the sales order.</span></span> <span data-ttu-id="db6d2-120">U kunt de orderdetails controleren en, zo nodig, details zoals inkoophoeveelheid de prijsvoorwaarden wijzigen voordat u de rechtstreekse levering maakt.</span><span class="sxs-lookup"><span data-stu-id="db6d2-120">You can review the order details, and if required, you can modify details such purchase quantity and pricing terms before you create the direct delivery.</span></span>  
+9. <span data-ttu-id="db6d2-121">Selecteer Ja in het veld Alles opnemen.</span><span class="sxs-lookup"><span data-stu-id="db6d2-121">Select Yes in the Include all field.</span></span>
+    * <span data-ttu-id="db6d2-122">Als u een directe levering voor een subset van de verkooporderregels wilt genereren, selecteert u deze afzonderlijk.</span><span class="sxs-lookup"><span data-stu-id="db6d2-122">If you want to generate a direct delivery for only a subset of the sales order lines, select these individually.</span></span>  
+    * <span data-ttu-id="db6d2-123">Het veld Leveranciersrekening is mogelijk al ingevuld met een leveranciersnummer.</span><span class="sxs-lookup"><span data-stu-id="db6d2-123">The Vendor account field may or may not already be populated with a vendor number.</span></span> <span data-ttu-id="db6d2-124">Als de standaardleverancier is ingesteld voor het product (op de gekoppelde Artikelbehoefteplanning), wordt deze leverancier naar de regel gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="db6d2-124">If the default vendor is set up for the product (on the associated Item coverage) then this vendor will be copied to the line.</span></span> <span data-ttu-id="db6d2-125">Anders moet u handmatig een leverancier invoeren.</span><span class="sxs-lookup"><span data-stu-id="db6d2-125">Otherwise, you must enter a vendor manually.</span></span> <span data-ttu-id="db6d2-126">In dit voorbeeld selecteren we een nieuwe leverancier in de volgende stap, zelfs als er al één is ingevuld.</span><span class="sxs-lookup"><span data-stu-id="db6d2-126">In this example, we’ll select a new vendor in the next step, even if one is already populated.</span></span>   
+10. <span data-ttu-id="db6d2-127">Typ of selecteer een waarde in het veld Leveranciersrekening.</span><span class="sxs-lookup"><span data-stu-id="db6d2-127">In the Vendor account field, enter or select a value.</span></span>
+    * <span data-ttu-id="db6d2-128">Als u USMF gebruikt, kunt u rekening 1001 selecteren.</span><span class="sxs-lookup"><span data-stu-id="db6d2-128">If you’re using USMF, you can select account 1001.</span></span>  
+11. <span data-ttu-id="db6d2-129">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="db6d2-129">Click OK.</span></span>
+    * <span data-ttu-id="db6d2-130">Het bericht meldt u dat de inkooporder nu is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="db6d2-130">The message informs you that the purchase order has now been created.</span></span>   
+12. <span data-ttu-id="db6d2-131">Vouw de sectie Regeldetails uit.</span><span class="sxs-lookup"><span data-stu-id="db6d2-131">Expand the Line details section.</span></span>
+13. <span data-ttu-id="db6d2-132">Klik op het tabblad Levering.</span><span class="sxs-lookup"><span data-stu-id="db6d2-132">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="db6d2-133">Het veld Rechtstreekse levering is nu ingesteld op Ja.</span><span class="sxs-lookup"><span data-stu-id="db6d2-133">The Direct delivery field is now set to Yes.</span></span>  
+    * <span data-ttu-id="db6d2-134">De status Rechtstreekse levering toont de gemaakte inkooporder.</span><span class="sxs-lookup"><span data-stu-id="db6d2-134">The Direct delivery status shows the Purchase order created.</span></span>   
+14. <span data-ttu-id="db6d2-135">Klik in het actievenster op Algemeen.</span><span class="sxs-lookup"><span data-stu-id="db6d2-135">On the Action Pane, click General.</span></span>
+15. <span data-ttu-id="db6d2-136">Klik op Gerelateerde orders.</span><span class="sxs-lookup"><span data-stu-id="db6d2-136">Click Related orders.</span></span>
+16. <span data-ttu-id="db6d2-137">Klik om de koppeling in het veld Inkooporder te volgen.</span><span class="sxs-lookup"><span data-stu-id="db6d2-137">Click to follow the link in the Purchase order field.</span></span>
+17. <span data-ttu-id="db6d2-138">Vouw de sectie Regeldetails uit.</span><span class="sxs-lookup"><span data-stu-id="db6d2-138">Expand the Line details section.</span></span>
+18. <span data-ttu-id="db6d2-139">Klik op het tabblad Adres.</span><span class="sxs-lookup"><span data-stu-id="db6d2-139">Click the Address tab.</span></span>
+    * <span data-ttu-id="db6d2-140">Het afleveradres voor deze inkooporderregel is het afleveradres van de klant en niet het adres van uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="db6d2-140">Note that the delivery address for this purchase order line is the customer's delivery address and not your company's address.</span></span>  
+    * <span data-ttu-id="db6d2-141">Als u het afleveradres op de inkooporder of de oorspronkelijk verkooporderregel bijgewerkt, wordt het adres op de overeenkomstige orderregel automatisch gewijzigd.</span><span class="sxs-lookup"><span data-stu-id="db6d2-141">If you change the delivery address on either the purchase order line or the originating sales order line, the address on the corresponding order line will be automatically updated.</span></span>  
+19. <span data-ttu-id="db6d2-142">Klik op het tabblad Levering.</span><span class="sxs-lookup"><span data-stu-id="db6d2-142">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="db6d2-143">Net als de verkooporderregel, wordt het gekoppelde type van inkooporderregel ook ingesteld op Rechtstreekse levering.</span><span class="sxs-lookup"><span data-stu-id="db6d2-143">Like the sales order line, the associated purchase order line type is also set to Direct delivery.</span></span>  
+    * <span data-ttu-id="db6d2-144">De Leveringsdatum en Bevestigde leveringsdatum van de inkooporderregel zijn ingesteld op de Gevraagde ontvangstdatum en Bevestigde ontvangstdatum van de oorspronkelijke verkooporderregel.</span><span class="sxs-lookup"><span data-stu-id="db6d2-144">The purchase order line's Delivery  date and the Confirmed delivery date are set to the Requested receipt date and Confirmed receipt date of the originating sales order line respectively.</span></span>   
+    * <span data-ttu-id="db6d2-145">Als u elk van deze datums op de inkoopregel of verkoopregel bijwerkt, worden de datums op de bijbehorende order automatisch bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="db6d2-145">If you update any of these dates on either the purchase line or the sales line, the dates on the corresponding order will be automatically updated.</span></span>     
+    * <span data-ttu-id="db6d2-146">De inkooporder die is ingesteld om goederen rechtstreeks aan de klant te leveren is gekoppeld aan de oorspronkelijke verkooporder door middel van een speciale koppeling.</span><span class="sxs-lookup"><span data-stu-id="db6d2-146">The purchase order that is set to deliver goods directly the customer is linked to the originating sales order by means of a special association.</span></span> <span data-ttu-id="db6d2-147">Deze koppeling legt de regel op dat de update van de pakbon van de verkooporder niet kan worden uitgevoerd vanaf de verkooporder zelf, maar moet worden uitgevoerd door de inkooporder te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="db6d2-147">This association imposes the rule that the packing slip update of the sales order can't be done from the sales order itself and must be done by using the purchase order.</span></span> <span data-ttu-id="db6d2-148">De klantfacturering moet echter vanaf de verkooporder worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="db6d2-148">However, customer invoicing must be carried out from the sales order.</span></span>  
+20. <span data-ttu-id="db6d2-149">Klik in het actievenster op Inkoop.</span><span class="sxs-lookup"><span data-stu-id="db6d2-149">On the Action Pane, click Purchase.</span></span>
+21. <span data-ttu-id="db6d2-150">Klik op Bevestiging.</span><span class="sxs-lookup"><span data-stu-id="db6d2-150">Click Confirmation.</span></span>
+22. <span data-ttu-id="db6d2-151">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="db6d2-151">Click OK.</span></span>
+23. <span data-ttu-id="db6d2-152">Klik in het actievenster op Ontvangen.</span><span class="sxs-lookup"><span data-stu-id="db6d2-152">On the Action Pane, click Receive.</span></span>
+24. <span data-ttu-id="db6d2-153">Klik op Productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="db6d2-153">Click Product receipt.</span></span>
+25. <span data-ttu-id="db6d2-154">Typ een waarde in het veld Productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="db6d2-154">In the Product receipt field, type a value.</span></span>
+26. <span data-ttu-id="db6d2-155">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="db6d2-155">Click OK.</span></span>
+27. <span data-ttu-id="db6d2-156">Klik in het actievenster op Algemeen.</span><span class="sxs-lookup"><span data-stu-id="db6d2-156">On the Action Pane, click General.</span></span>
+28. <span data-ttu-id="db6d2-157">Klik op Gerelateerde orders.</span><span class="sxs-lookup"><span data-stu-id="db6d2-157">Click Related orders.</span></span>
+29. <span data-ttu-id="db6d2-158">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="db6d2-158">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="db6d2-159">Nadat de inkooporder is bijgewerkt en ontvangen of, met andere woorden, nadat de leverancier de goederen naar het adres van de klant heeft verzonden, wordt de status van de oorspronkelijke verkooporder automatisch bijgewerkt naar Geleverd.</span><span class="sxs-lookup"><span data-stu-id="db6d2-159">After the purchase order has been updated as received, or in other words, after the vendor has shipped the goods to your customer's address, the status of the originating sales order is automatically updated to Delivered.</span></span>  
+    * <span data-ttu-id="db6d2-160">De verkooporder kan nu worden gefactureerd.</span><span class="sxs-lookup"><span data-stu-id="db6d2-160">The sales order can now be invoiced.</span></span>    
+30. <span data-ttu-id="db6d2-161">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="db6d2-161">Click OK.</span></span>
+31. <span data-ttu-id="db6d2-162">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="db6d2-162">Close the page.</span></span>
+32. <span data-ttu-id="db6d2-163">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="db6d2-163">Click OK.</span></span>
 
-## <a name="create-direct-deliveries-from-the-workbench"></a>Rechtstreekse leveringen maken vanuit de workbench
-1. Sluit de pagina.
-2. Sluit de pagina.
-3. Ga naar Alle verkooporders.
-4. Klik op Nieuw.
-5. Typ of selecteer een waarde in het veld Klantrekening.
-6. Klik op OK.
-7. Typ of selecteer een waarde in het veld Artikelnummer.
-8. Vouw de sectie Regeldetails uit.
-9. Klik op het tabblad Levering.
-    * In plaats van een rechtstreekse levering te maken als onderdeel van de verkooporderverwerking, zoals in de vorige procedure, kunt u ervoor kiezen om deze taak naar een inkoopprofessional door te sturen. Als u de verkooporderregel in het afhandelingsproces van rechtstreekse leveringen wilt opnemen, moet u de regel voor rechtstreekse levering markeren.  
-10. Selecteer Ja in het veld Rechtstreekse levering.
-    *   Als het artikel standaard al is ingesteld voor directe levering, wordt het veld automatisch ingesteld op Ja op de orderregelinvoer. U kunt een artikel instellen voor directe levering op het model van het Vrijgegeven product door de optie Directe levering in te stellen op Ja en een standaardmagazijn voor rechtstreekse levering te selecteren.  
-    * Omdat de inkooporder nog niet is gemaakt, wordt de status Rechtstreekse levering ingesteld op Voor directe levering.   
-11. Sluit de pagina.
-12. Sluit de pagina.
-13. Ga naar Rechtstreekse levering.
-    * De pagina Rechtstreekse levering fungeert als workbench die de inkoper voorziet van een overzicht van alle verkooporderregels die rechtstreeks moeten worden geleverd. Deze pagina biedt ook de mogelijkheid om de betreffende inkooporders te maken. Bovendien kunnen ze de openstaande rechtstreekse leveringsorders en bevestigde orders op de tabbladen Bevestiging en Levering weergeven.   
-14. Klik op Rechtstreekse levering maken.
-15. Klik op het tabblad Bevestiging.
-    * Nadat u een order voor rechtstreekse levering hebt gemaakt, verplaatst deze automatisch naar het tabblad Bevestiging. U kunt de order rechtstreeks op deze pagina bevestigen. Als de aankoop is bevestigd, wordt deze automatisch naar het tabblad Levering verplaatst, waar u de ontvangst ervan kunt registreren.  
+## <a name="create-direct-deliveries-from-the-workbench"></a><span data-ttu-id="db6d2-164">Rechtstreekse leveringen maken vanuit de workbench</span><span class="sxs-lookup"><span data-stu-id="db6d2-164">Create direct deliveries from the workbench</span></span>
+1. <span data-ttu-id="db6d2-165">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="db6d2-165">Close the page.</span></span>
+2. <span data-ttu-id="db6d2-166">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="db6d2-166">Close the page.</span></span>
+3. <span data-ttu-id="db6d2-167">Ga naar Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="db6d2-167">Go to All sales orders.</span></span>
+4. <span data-ttu-id="db6d2-168">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="db6d2-168">Click New.</span></span>
+5. <span data-ttu-id="db6d2-169">Typ of selecteer een waarde in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="db6d2-169">In the Customer account field, enter or select a value.</span></span>
+6. <span data-ttu-id="db6d2-170">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="db6d2-170">Click OK.</span></span>
+7. <span data-ttu-id="db6d2-171">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="db6d2-171">In the Item number field, enter or select a value.</span></span>
+8. <span data-ttu-id="db6d2-172">Vouw de sectie Regeldetails uit.</span><span class="sxs-lookup"><span data-stu-id="db6d2-172">Expand the Line details section.</span></span>
+9. <span data-ttu-id="db6d2-173">Klik op het tabblad Levering.</span><span class="sxs-lookup"><span data-stu-id="db6d2-173">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="db6d2-174">In plaats van een rechtstreekse levering te maken als onderdeel van de verkooporderverwerking, zoals in de vorige procedure, kunt u ervoor kiezen om deze taak naar een inkoopprofessional door te sturen.</span><span class="sxs-lookup"><span data-stu-id="db6d2-174">Instead of creating a direct delivery as part of the sales order processing as in the previous procedure, you can choose to hand over this task to a purchasing professional.</span></span> <span data-ttu-id="db6d2-175">Als u de verkooporderregel in het afhandelingsproces van rechtstreekse leveringen wilt opnemen, moet u de regel voor rechtstreekse levering markeren.</span><span class="sxs-lookup"><span data-stu-id="db6d2-175">To include the sales order line in the direct delivery handling process, you must mark the line for direct delivery.</span></span>  
+10. <span data-ttu-id="db6d2-176">Selecteer Ja in het veld Rechtstreekse levering.</span><span class="sxs-lookup"><span data-stu-id="db6d2-176">Select Yes in the Direct delivery field.</span></span>
+    *   <span data-ttu-id="db6d2-177">Als het artikel standaard al is ingesteld voor directe levering, wordt het veld automatisch ingesteld op Ja op de orderregelinvoer.</span><span class="sxs-lookup"><span data-stu-id="db6d2-177">If the item has already been set up for direct delivery by default, the field will automatically be set to Yes at the order line entry.</span></span> <span data-ttu-id="db6d2-178">U kunt een artikel instellen voor directe levering op het model van het Vrijgegeven product door de optie Directe levering in te stellen op Ja en een standaardmagazijn voor rechtstreekse levering te selecteren.</span><span class="sxs-lookup"><span data-stu-id="db6d2-178">You can set up an item for direct delivery on the Released product's master by setting the Direct delivery option to Yes and selecting a default Direct delivery warehouse.</span></span>  
+    * <span data-ttu-id="db6d2-179">Omdat de inkooporder nog niet is gemaakt, wordt de status Rechtstreekse levering ingesteld op Voor directe levering.</span><span class="sxs-lookup"><span data-stu-id="db6d2-179">Because the purchase order has not yet been created, the Direct delivery status is set to To be direct delivered.</span></span>   
+11. <span data-ttu-id="db6d2-180">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="db6d2-180">Close the page.</span></span>
+12. <span data-ttu-id="db6d2-181">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="db6d2-181">Close the page.</span></span>
+13. <span data-ttu-id="db6d2-182">Ga naar Rechtstreekse levering.</span><span class="sxs-lookup"><span data-stu-id="db6d2-182">Go to Direct delivery.</span></span>
+    * <span data-ttu-id="db6d2-183">De pagina Rechtstreekse levering fungeert als workbench die de inkoper voorziet van een overzicht van alle verkooporderregels die rechtstreeks moeten worden geleverd. Deze pagina biedt ook de mogelijkheid om de betreffende inkooporders te maken.</span><span class="sxs-lookup"><span data-stu-id="db6d2-183">The Direct delivery page acts as a workbench that provides the purchasing agent with an overview of all the sales order lines that are to be direct delivered and it allows them to create the respective purchase orders.</span></span> <span data-ttu-id="db6d2-184">Bovendien kunnen ze de openstaande rechtstreekse leveringsorders en bevestigde orders op de tabbladen Bevestiging en Levering weergeven.</span><span class="sxs-lookup"><span data-stu-id="db6d2-184">In addition, they can view the open direct delivery orders and the confirmed orders on the Confirmation and Delivery tabs.</span></span>   
+14. <span data-ttu-id="db6d2-185">Klik op Rechtstreekse levering maken.</span><span class="sxs-lookup"><span data-stu-id="db6d2-185">Click Create direct delivery.</span></span>
+15. <span data-ttu-id="db6d2-186">Klik op het tabblad Bevestiging.</span><span class="sxs-lookup"><span data-stu-id="db6d2-186">Click the Confirmation tab.</span></span>
+    * <span data-ttu-id="db6d2-187">Nadat u een order voor rechtstreekse levering hebt gemaakt, verplaatst deze automatisch naar het tabblad Bevestiging.</span><span class="sxs-lookup"><span data-stu-id="db6d2-187">After you have created a direct delivery order, it automatically moved to the Confirmation tab.</span></span> <span data-ttu-id="db6d2-188">U kunt de order rechtstreeks op deze pagina bevestigen.</span><span class="sxs-lookup"><span data-stu-id="db6d2-188">You can choose to confirm the order directly from this page.</span></span> <span data-ttu-id="db6d2-189">Als de aankoop is bevestigd, wordt deze automatisch naar het tabblad Levering verplaatst, waar u de ontvangst ervan kunt registreren.</span><span class="sxs-lookup"><span data-stu-id="db6d2-189">When the purchase is confirmed, it will automatically move to the Delivery tab, from which you can registered its receipt.</span></span>  
 
 

@@ -16,37 +16,37 @@ ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8d5a9d9267c14ee045388c3b3b42b26f2fff45ea
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: ae5c24633a9ce4ce43e213581eb64c8548eecf5d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="round-off-amount-for-depreciation-calculations"></a>Afgerond bedrag voor afschrijvingsberekeningen
+# <a name="round-off-amount-for-depreciation-calculations"></a><span data-ttu-id="78bd4-103">Afgerond bedrag voor afschrijvingsberekeningen</span><span class="sxs-lookup"><span data-stu-id="78bd4-103">Round-off amount for depreciation calculations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt het veld Afschrijving afronden besproken uit de pagina's Instellingen voor boeken.
+<span data-ttu-id="78bd4-104">In dit artikel wordt het veld Afschrijving afronden besproken uit de pagina's Instellingen voor boeken.</span><span class="sxs-lookup"><span data-stu-id="78bd4-104">This article discusses the Round-off depreciation field that is found on the Book setup pages.</span></span>
 
-Afgeronde afschrijvingsbedragen worden ingesteld voor elk boek. Afgeronde afschrijvingsbedragen worden gebruikt in het afschrijvingsprofiel voor vaste activa dat de toekomstige afschrijving en waarde van het vaste activum weergeeft, en ook in afschrijvingsvoorstellen. Voer het laagste afschrijvingsbedrag in dat is toegestaan voor het boek. 
+<span data-ttu-id="78bd4-105">Afgeronde afschrijvingsbedragen worden ingesteld voor elk boek.</span><span class="sxs-lookup"><span data-stu-id="78bd4-105">Round-off depreciation amounts are set for each book.</span></span> <span data-ttu-id="78bd4-106">Afgeronde afschrijvingsbedragen worden gebruikt in het afschrijvingsprofiel voor vaste activa dat de toekomstige afschrijving en waarde van het vaste activum weergeeft, en ook in afschrijvingsvoorstellen.</span><span class="sxs-lookup"><span data-stu-id="78bd4-106">Round-off depreciation amounts are used in the fixed asset depreciation profile that shows the future depreciation and value of the fixed asset, and also in depreciation proposals.</span></span> <span data-ttu-id="78bd4-107">Voer het laagste afschrijvingsbedrag in dat is toegestaan voor het boek.</span><span class="sxs-lookup"><span data-stu-id="78bd4-107">Enter the lowest depreciation amount that is allowed for the book.</span></span> 
 
-Ongeacht de afronding die is ingesteld, wordt het afschrijvingsbedrag in de laatste afschrijvingsperiode niet afgerond. Aan het einde van de laatste afschrijvingsperiode moet de waarde van het vaste activum 0 (nul) of de restwaarde zijn als de restwaarde wordt gebruikt.
+<span data-ttu-id="78bd4-108">Ongeacht de afronding die is ingesteld, wordt het afschrijvingsbedrag in de laatste afschrijvingsperiode niet afgerond.</span><span class="sxs-lookup"><span data-stu-id="78bd4-108">Regardless of the rounding that is set up, the depreciation amount in the last depreciation period isn't rounded.</span></span> <span data-ttu-id="78bd4-109">Aan het einde van de laatste afschrijvingsperiode moet de waarde van het vaste activum 0 (nul) of de restwaarde zijn als de restwaarde wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="78bd4-109">At the end of the last depreciation period, the value of the fixed asset must be 0 (zero) or the scrap value, if scrap value is used.</span></span>
 
-### <a name="example"></a>Voorbeeld
+### <a name="example"></a><span data-ttu-id="78bd4-110">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="78bd4-110">Example</span></span>
 
-Afschrijving zonder afronding wordt berekend als 2444,44. Zoals te zien in de volgende tabel, variëren de bedragen die worden voorgesteld, afhankelijk van hoe de afronding is ingesteld.
+<span data-ttu-id="78bd4-111">Afschrijving zonder afronding wordt berekend als 2444,44.</span><span class="sxs-lookup"><span data-stu-id="78bd4-111">Depreciation without rounding is calculated as 2,444.44.</span></span> <span data-ttu-id="78bd4-112">Zoals te zien in de volgende tabel, variëren de bedragen die worden voorgesteld, afhankelijk van hoe de afronding is ingesteld.</span><span class="sxs-lookup"><span data-stu-id="78bd4-112">As the following table shows, the amounts that are suggested vary, depending on how rounding is set up.</span></span>
 
-| Afrondingsmethode | Afschrijvingsbedrag |
+| <span data-ttu-id="78bd4-113">Afrondingsmethode</span><span class="sxs-lookup"><span data-stu-id="78bd4-113">Rounding method</span></span> | <span data-ttu-id="78bd4-114">Afschrijvingsbedrag</span><span class="sxs-lookup"><span data-stu-id="78bd4-114">Depreciation amount</span></span> |
 |-----------------|---------------------|
-| Afronding van 0,1    | 2444,40            |
-| Afronding van 1,00   | 2444,00            |
-| Afronding van 10,00  | 2440,00            |
-| Afronding van 100,00 | 2400,00            |
+| <span data-ttu-id="78bd4-115">Afronding van 0,1</span><span class="sxs-lookup"><span data-stu-id="78bd4-115">Rounding 0.1</span></span>    | <span data-ttu-id="78bd4-116">2444,40</span><span class="sxs-lookup"><span data-stu-id="78bd4-116">2,444.40</span></span>            |
+| <span data-ttu-id="78bd4-117">Afronding van 1,00</span><span class="sxs-lookup"><span data-stu-id="78bd4-117">Rounding 1.00</span></span>   | <span data-ttu-id="78bd4-118">2444,00</span><span class="sxs-lookup"><span data-stu-id="78bd4-118">2,444.00</span></span>            |
+| <span data-ttu-id="78bd4-119">Afronding van 10,00</span><span class="sxs-lookup"><span data-stu-id="78bd4-119">Rounding 10.00</span></span>  | <span data-ttu-id="78bd4-120">2440,00</span><span class="sxs-lookup"><span data-stu-id="78bd4-120">2,440.00</span></span>            |
+| <span data-ttu-id="78bd4-121">Afronding van 100,00</span><span class="sxs-lookup"><span data-stu-id="78bd4-121">Rounding 100.00</span></span> | <span data-ttu-id="78bd4-122">2400,00</span><span class="sxs-lookup"><span data-stu-id="78bd4-122">2,400.00</span></span>            |
 
 
 

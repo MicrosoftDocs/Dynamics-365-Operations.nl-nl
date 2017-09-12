@@ -16,53 +16,53 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8afbcf781e917f48136e06692234d49302b077fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f2dab127a40a1a48b49077d4b2395f5b8c58116b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-payment-slip-format-for-project-invoices"></a>Indeling voor betalingsbonnen voor projectfacturen instellen
+# <a name="set-up-payment-slip-format-for-project-invoices"></a><span data-ttu-id="edff5-103">Indeling voor betalingsbonnen voor projectfacturen instellen</span><span class="sxs-lookup"><span data-stu-id="edff5-103">Set up payment slip format for project invoices</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bedrijven koppelen om klanten van dienst te zijn vaak afgedrukte betalingsbonnen aan facturen en leveren een betalingsverwijzing voor het boeken en vereffenen. De betalingsbon kan naast verkoopfacturen en vrije-tekstfacturen worden gebruikt voor project- of servicefacturen, aanmaningen, rentenota's en rekeningoverzichten. Als u pakbonnen wilt verwerken, stelt u eerst uw crediteur-ID-nummer en indelingen voor betalingsbonbijlagen in.
+<span data-ttu-id="edff5-104">Bedrijven koppelen om klanten van dienst te zijn vaak afgedrukte betalingsbonnen aan facturen en leveren een betalingsverwijzing voor het boeken en vereffenen.</span><span class="sxs-lookup"><span data-stu-id="edff5-104">Businesses commonly attach printed payment slips to invoices to assist customers and provide a payment reference for posting and settlement.</span></span> <span data-ttu-id="edff5-105">De betalingsbon kan naast verkoopfacturen en vrije-tekstfacturen worden gebruikt voor project- of servicefacturen, aanmaningen, rentenota's en rekeningoverzichten.</span><span class="sxs-lookup"><span data-stu-id="edff5-105">The payment slip can be used for project or service invoices, collection letters, interest notes, and account statements, in addition to sales invoices and free text invoices.</span></span> <span data-ttu-id="edff5-106">Als u pakbonnen wilt verwerken, stelt u eerst uw crediteur-ID-nummer en indelingen voor betalingsbonbijlagen in.</span><span class="sxs-lookup"><span data-stu-id="edff5-106">To process payment slips, first set up your creditor identification number and payment slip attachment formats.</span></span>
 
-Bij deze procedure wordt het demobedrijf DEMF gebruikt. 
+<span data-ttu-id="edff5-107">Bij deze procedure wordt het demobedrijf DEMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="edff5-107">This procedure uses the DEMF demo company.</span></span> 
 
-Deze functionaliteit is alleen beschikbaar voor rechtspersonen waarvan het primaire adres in Denemarken is.
+<span data-ttu-id="edff5-108">Deze functionaliteit is alleen beschikbaar voor rechtspersonen waarvan het primaire adres in Denemarken is.</span><span class="sxs-lookup"><span data-stu-id="edff5-108">This functionality is available for legal entities whose primary address is in Denmark.</span></span>
 
 
-## <a name="set-up-a-creditor-id-number"></a>Een crediteur-ID-nummer instellen
-1. Ga naar Organisatiebeheer > Organisaties > Rechtspersonen.
-2. Vouw de sectie Bankrekeninggegevens uit of samen.
-3. Klik op Bewerken.
-4. Typ een waarde in het veld FI-crediteur-id.
-5. Klik op Opslaan.
-6. Sluit de pagina.
+## <a name="set-up-a-creditor-id-number"></a><span data-ttu-id="edff5-109">Een crediteur-ID-nummer instellen</span><span class="sxs-lookup"><span data-stu-id="edff5-109">Set up a creditor ID number</span></span>
+1. <span data-ttu-id="edff5-110">Ga naar Organisatiebeheer > Organisaties > Rechtspersonen.</span><span class="sxs-lookup"><span data-stu-id="edff5-110">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="edff5-111">Vouw de sectie Bankrekeninggegevens uit of samen.</span><span class="sxs-lookup"><span data-stu-id="edff5-111">Expand or collapse the Bank account information section.</span></span>
+3. <span data-ttu-id="edff5-112">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="edff5-112">Click Edit.</span></span>
+4. <span data-ttu-id="edff5-113">Typ een waarde in het veld FI-crediteur-id.</span><span class="sxs-lookup"><span data-stu-id="edff5-113">In the FI-Creditor ID field, type a value.</span></span>
+5. <span data-ttu-id="edff5-114">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="edff5-114">Click Save.</span></span>
+6. <span data-ttu-id="edff5-115">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="edff5-115">Close the page.</span></span>
 
-## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a>Een betalingsbonindeling voor facturen, nota's, aanmaningen en overzichten instellen
-1. Ga naar Klanten > Instellingen > Formulieren > Formulierinstelling.
-2. Klik op het tabblad Factuur.
-3. Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij klantfactuur.
-    * Geen: er wordt geen betalingsbon afgedrukt. Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.   FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.   FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.  
-4. Klik op Opslaan.
-5. Klik op het tabblad Vrije-tekstfactuur.
-6. Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij vrije-tekstfactuur.
-    * Geen: er wordt geen betalingsbon afgedrukt. Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.   FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.   FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.  
-7. Klik op Opslaan.
-8. Klik op het tabblad Rentenota.
-9. Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij rentenota.
-    * Geen: er wordt geen betalingsbon afgedrukt. Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.   FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.   FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.  
-10. Klik op Opslaan.
-11. Klik op het tabblad Aanmaning.
-12. Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij aanmaning.
-    * Geen: er wordt geen betalingsbon afgedrukt. Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.   FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.   FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.  
-13. Klik op Opslaan.
-14. Klik op het tabblad Rekeningoverzicht.
-15. Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij rekeningoverzicht.
-    * Geen: er wordt geen betalingsbon afgedrukt. Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.   FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.   FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.  
-16. Klik op Opslaan.
-17. Sluit de pagina.
+## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a><span data-ttu-id="edff5-116">Een betalingsbonindeling voor facturen, nota's, aanmaningen en overzichten instellen</span><span class="sxs-lookup"><span data-stu-id="edff5-116">Set up a payment slip format for invoices, notes, letters, and statements</span></span>
+1. <span data-ttu-id="edff5-117">Ga naar Klanten > Instellingen > Formulieren > Formulierinstelling.</span><span class="sxs-lookup"><span data-stu-id="edff5-117">Go to Accounts receivable > Setup > Forms > Form setup.</span></span>
+2. <span data-ttu-id="edff5-118">Klik op het tabblad Factuur.</span><span class="sxs-lookup"><span data-stu-id="edff5-118">Click the Invoice tab.</span></span>
+3. <span data-ttu-id="edff5-119">Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij klantfactuur.</span><span class="sxs-lookup"><span data-stu-id="edff5-119">In the Associated payment attachment on customer invoice field, select an option.</span></span>
+    * <span data-ttu-id="edff5-120">Geen: er wordt geen betalingsbon afgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-120">None – Do not print a payment slip.</span></span> <span data-ttu-id="edff5-121">Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.</span><span class="sxs-lookup"><span data-stu-id="edff5-121">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="edff5-122">FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.</span><span class="sxs-lookup"><span data-stu-id="edff5-122">FIK 751 – Print an FIK 751 payment slip if you intend to manually write the payment amount and due date on the payment slip.</span></span>   <span data-ttu-id="edff5-123">FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-123">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+4. <span data-ttu-id="edff5-124">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="edff5-124">Click Save.</span></span>
+5. <span data-ttu-id="edff5-125">Klik op het tabblad Vrije-tekstfactuur.</span><span class="sxs-lookup"><span data-stu-id="edff5-125">Click the Free text invoice tab.</span></span>
+6. <span data-ttu-id="edff5-126">Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij vrije-tekstfactuur.</span><span class="sxs-lookup"><span data-stu-id="edff5-126">In the Associated payment attachment on free text invoice field, select an option.</span></span>
+    * <span data-ttu-id="edff5-127">Geen: er wordt geen betalingsbon afgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-127">None – Do not print a payment slip.</span></span> <span data-ttu-id="edff5-128">Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.</span><span class="sxs-lookup"><span data-stu-id="edff5-128">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="edff5-129">FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.</span><span class="sxs-lookup"><span data-stu-id="edff5-129">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="edff5-130">FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-130">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+7. <span data-ttu-id="edff5-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="edff5-131">Click Save.</span></span>
+8. <span data-ttu-id="edff5-132">Klik op het tabblad Rentenota.</span><span class="sxs-lookup"><span data-stu-id="edff5-132">Click the Interest note tab.</span></span>
+9. <span data-ttu-id="edff5-133">Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij rentenota.</span><span class="sxs-lookup"><span data-stu-id="edff5-133">In the Associated payment attachment on interest note field, select an option.</span></span>
+    * <span data-ttu-id="edff5-134">Geen: er wordt geen betalingsbon afgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-134">None – Do not print a payment slip.</span></span> <span data-ttu-id="edff5-135">Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.</span><span class="sxs-lookup"><span data-stu-id="edff5-135">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="edff5-136">FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.</span><span class="sxs-lookup"><span data-stu-id="edff5-136">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="edff5-137">FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-137">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+10. <span data-ttu-id="edff5-138">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="edff5-138">Click Save.</span></span>
+11. <span data-ttu-id="edff5-139">Klik op het tabblad Aanmaning.</span><span class="sxs-lookup"><span data-stu-id="edff5-139">Click the Collection letter tab.</span></span>
+12. <span data-ttu-id="edff5-140">Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij aanmaning.</span><span class="sxs-lookup"><span data-stu-id="edff5-140">In the Associated payment attachment on collection letter field, select an option.</span></span>
+    * <span data-ttu-id="edff5-141">Geen: er wordt geen betalingsbon afgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-141">None – Do not print a payment slip.</span></span> <span data-ttu-id="edff5-142">Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.</span><span class="sxs-lookup"><span data-stu-id="edff5-142">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="edff5-143">FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.</span><span class="sxs-lookup"><span data-stu-id="edff5-143">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="edff5-144">FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-144">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+13. <span data-ttu-id="edff5-145">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="edff5-145">Click Save.</span></span>
+14. <span data-ttu-id="edff5-146">Klik op het tabblad Rekeningoverzicht.</span><span class="sxs-lookup"><span data-stu-id="edff5-146">Click the Account statement tab.</span></span>
+15. <span data-ttu-id="edff5-147">Selecteer een optie in het veld Bijlage 'gekoppelde betaling' bij rekeningoverzicht.</span><span class="sxs-lookup"><span data-stu-id="edff5-147">In the Associated payment attachment on account statement field, select an option.</span></span>
+    * <span data-ttu-id="edff5-148">Geen: er wordt geen betalingsbon afgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-148">None – Do not print a payment slip.</span></span> <span data-ttu-id="edff5-149">Kies deze optie als het betalingsbedrag in een andere valuta dan de Deense kroon (DKK) is.</span><span class="sxs-lookup"><span data-stu-id="edff5-149">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="edff5-150">FIK 751: druk een FIK 751-betalingsbon af als u het betalingsbedrag en de vervaldatum handmatig op de betalingsbon wilt schrijven.</span><span class="sxs-lookup"><span data-stu-id="edff5-150">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="edff5-151">FIK 752: druk een FIK 752-betalingsbon af als u een door de computer gegenereerde betalingsbon wilt gebruiken waarop het betalingsbedrag en de vervaldatum zijn voorgedrukt.</span><span class="sxs-lookup"><span data-stu-id="edff5-151">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+16. <span data-ttu-id="edff5-152">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="edff5-152">Click Save.</span></span>
+17. <span data-ttu-id="edff5-153">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="edff5-153">Close the page.</span></span>
 
 

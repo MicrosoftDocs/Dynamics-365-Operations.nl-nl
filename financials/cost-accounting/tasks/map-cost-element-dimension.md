@@ -16,32 +16,32 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6b99e1b5fc86bd1972766c8154141e9dd26bb7b0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ff31db3dbb6da9570bb85bbcaa3b444852d91d7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="map-a-cost-element-dimension"></a>Een kostenelementdimensie toewijzen
+# <a name="map-a-cost-element-dimension"></a><span data-ttu-id="fb3b8-103">Een kostenelementdimensie toewijzen</span><span class="sxs-lookup"><span data-stu-id="fb3b8-103">Map a cost element dimension</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Een kostencontroller kan deze procedure gebruiken om een kostenelementdimensie toe te wijzen aan een kostenelementdimensie in de MXMF-rechtspersoon. Deze registratie gebruikt het USP2-demogegevensbedrijf.
+<span data-ttu-id="fb3b8-104">Een kostencontroller kan deze procedure gebruiken om een kostenelementdimensie toe te wijzen aan een kostenelementdimensie in de MXMF-rechtspersoon.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="fb3b8-105">Deze registratie gebruikt het USP2-demogegevensbedrijf.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-105">This recording uses the USP2 demo data company.</span></span>
 
-1. Ga naar Kostprijsboekhouding > Dimensies > Dimensies van kostenelement.
-2. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer voor dit voorbeeld Kostenelementen.  
-3. Klik op Dimensietoewijzingen.
-4. Klik op Toewijzingen van deze dimensie configureren.
-5. Klik op Nieuw.
-6. Typ of selecteer een waarde in het veld Naar dimensie.
-    * Selecteer voor dit voorbeeld MXMF-kostenelementen.  
-7. Klik op Nieuw.
-8. Markeer in de lijst de geselecteerde rij.
-9. Typ of selecteer een waarde in het veld Van dimensielid.
-    * Selecteer voor dit voorbeeld dimensielid 606400 Onkosten voor telefoon en fax.  
-10. Typ of selecteer een waarde in het veld Tot dimensielid.
-    * Selecteer voor dit voorbeeld dimensielid 6001004 Telefono.  
-11. Klik op Opslaan.
+1. <span data-ttu-id="fb3b8-106">Ga naar Kostprijsboekhouding > Dimensies > Dimensies van kostenelement.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-106">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
+2. <span data-ttu-id="fb3b8-107">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="fb3b8-108">Selecteer voor dit voorbeeld Kostenelementen.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-108">For this example, select Cost elements.</span></span>  
+3. <span data-ttu-id="fb3b8-109">Klik op Dimensietoewijzingen.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-109">Click Dimension mappings.</span></span>
+4. <span data-ttu-id="fb3b8-110">Klik op Toewijzingen van deze dimensie configureren.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-110">Click Configure mappings from this dimension.</span></span>
+5. <span data-ttu-id="fb3b8-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-111">Click New.</span></span>
+6. <span data-ttu-id="fb3b8-112">Typ of selecteer een waarde in het veld Naar dimensie.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-112">In the To dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="fb3b8-113">Selecteer voor dit voorbeeld MXMF-kostenelementen.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-113">For this example, select MXMF Cost elements.</span></span>  
+7. <span data-ttu-id="fb3b8-114">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-114">Click New.</span></span>
+8. <span data-ttu-id="fb3b8-115">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-115">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="fb3b8-116">Typ of selecteer een waarde in het veld Van dimensielid.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-116">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="fb3b8-117">Selecteer voor dit voorbeeld dimensielid 606400 Onkosten voor telefoon en fax.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-117">For this example, select dimension member 606400 Telephone & Fax Expense.</span></span>  
+10. <span data-ttu-id="fb3b8-118">Typ of selecteer een waarde in het veld Tot dimensielid.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-118">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="fb3b8-119">Selecteer voor dit voorbeeld dimensielid 6001004 Telefono.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-119">For this example, select dimension member 6001004 Telefono.</span></span>  
+11. <span data-ttu-id="fb3b8-120">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="fb3b8-120">Click Save.</span></span>
 
 

@@ -19,31 +19,31 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: f27e332e5a8028055903054a6175baafd224abe9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 46aa385d14f913a24e1cc3c4cc2fd00243b30e75
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="analyze-sales-trends-and-patterns"></a>Verkooptrends en patronen analyseren
+# <a name="analyze-sales-trends-and-patterns"></a><span data-ttu-id="71e22-103">Verkooptrends en patronen analyseren</span><span class="sxs-lookup"><span data-stu-id="71e22-103">Analyze sales trends and patterns</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-U kunt verkooptrends en -patronen in realtime bestuderen in Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="71e22-104">U kunt verkooptrends en -patronen in realtime bestuderen in Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="71e22-104">You can study sales trends and patterns in real time in Microsoft Dynamics 365 for Retail.</span></span>
 
-Als onderdeel van Dynamics 365 for Retail kunnen gebruikers verkooptrends en -patronen bestuderen in realtime op verschillende niveaus van de organisatiehiërarchie over een periode van jaren, door het kant-en-klare rapport **Afzetkanaalverkoop per jaar** te openen. U kunt dit rapport openen vanaf een van de volgende locaties:
+<span data-ttu-id="71e22-105">Als onderdeel van Dynamics 365 for Retail kunnen gebruikers verkooptrends en -patronen bestuderen in realtime op verschillende niveaus van de organisatiehiërarchie over een periode van jaren, door het kant-en-klare rapport **Afzetkanaalverkoop per jaar** te openen.</span><span class="sxs-lookup"><span data-stu-id="71e22-105">As part of Dynamics 365 for Retail, users can study sales trends and patterns in real time across different levels of the organization hierarchy over a period of years by using the out-of-box **Channel sales by year** report.</span></span> <span data-ttu-id="71e22-106">U kunt dit rapport openen vanaf een van de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="71e22-106">You can open this report from any of the following locations:</span></span>
 
--   Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
--   Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
--   Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
+-   <span data-ttu-id="71e22-107">Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**</span><span class="sxs-lookup"><span data-stu-id="71e22-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+-   <span data-ttu-id="71e22-108">Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**</span><span class="sxs-lookup"><span data-stu-id="71e22-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+-   <span data-ttu-id="71e22-109">Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**</span><span class="sxs-lookup"><span data-stu-id="71e22-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
 
-Gebruikers kunnen ook trends en patronen in de verkoop per uur bestuderen op verschillende niveaus van de organisatiehiërarchie voor een geselecteerde periode, door het kant-en-klare rapport **Afzetkanaalverkoop per uur** te openen. U kunt dit rapport openen vanaf een van de volgende locaties:
+<span data-ttu-id="71e22-110">Gebruikers kunnen ook trends en patronen in de verkoop per uur bestuderen op verschillende niveaus van de organisatiehiërarchie voor een geselecteerde periode, door het kant-en-klare rapport **Afzetkanaalverkoop per uur** te openen.</span><span class="sxs-lookup"><span data-stu-id="71e22-110">Users can also study sales trends and patterns by hour across different levels of the organization hierarchy over a selected period by using the out-of-box **Channel sales by hour** report.</span></span> <span data-ttu-id="71e22-111">U kunt dit rapport openen vanaf een van de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="71e22-111">You can open this report from any of the following locations:</span></span>
 
--   Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
--   Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
--   Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
+-   <span data-ttu-id="71e22-112">Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**</span><span class="sxs-lookup"><span data-stu-id="71e22-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+-   <span data-ttu-id="71e22-113">Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**</span><span class="sxs-lookup"><span data-stu-id="71e22-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+-   <span data-ttu-id="71e22-114">Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per uur**</span><span class="sxs-lookup"><span data-stu-id="71e22-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>
 
 
 

@@ -18,321 +18,219 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Overzicht van randapparatuur voor de detailhandel
+# <a name="retail-peripherals-overview"></a><span data-ttu-id="0d24a-104">Overzicht van randapparatuur voor de detailhandel</span><span class="sxs-lookup"><span data-stu-id="0d24a-104">Retail peripherals overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-In dit onderwerp worden de concepten beschreven die verband houden met detailhandelrandapparaten. Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.
+<span data-ttu-id="0d24a-105">In dit onderwerp worden de concepten beschreven die verband houden met detailhandelrandapparaten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-105">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="0d24a-106">Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-106">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 
-## <a name="concepts"></a>Concepten
+## <a name="concepts"></a><span data-ttu-id="0d24a-107">Concepten</span><span class="sxs-lookup"><span data-stu-id="0d24a-107">Concepts</span></span>
 
-### <a name="pos-registers"></a>POS-kassa's
+### <a name="pos-registers"></a><span data-ttu-id="0d24a-108">POS-kassa's</span><span class="sxs-lookup"><span data-stu-id="0d24a-108">POS registers</span></span>
 
-Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**. De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd van een specifiek exemplaar van het POS. Deze kenmerken omvatten het hardwareprofiel of de instellingen voor detailhandelrandapparaten die worden gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich bij die kassa aanmeldt.
+<span data-ttu-id="0d24a-109">Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-109">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="0d24a-110">De POS-kassa is een entiteit waarmee de kenmerken worden gedefinieerd van een specifiek exemplaar van het POS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-110">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="0d24a-111">Deze kenmerken omvatten het hardwareprofiel of de instellingen voor detailhandelrandapparaten die worden gebruikt bij de kassa, de winkel waaraan de kassa is toegewezen en de visuele ervaring voor de gebruiker die zich bij die kassa aanmeldt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-111">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
 
-### <a name="devices"></a>Apparaten
+### <a name="devices"></a><span data-ttu-id="0d24a-112">Apparaten</span><span class="sxs-lookup"><span data-stu-id="0d24a-112">Devices</span></span>
 
-Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Apparaten**. Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa. Wanneer een apparaat wordt gemaakt, wordt het toegewezen aan een POS-kassa. De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat. Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Modern POS, Retail Cloud-POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android en Retail Modern POS – iOS.
+<span data-ttu-id="0d24a-113">Navigatie: klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Apparaten**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-113">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="0d24a-114">Een apparaat is een entiteit die een fysiek exemplaar vertegenwoordigt van een apparaat dat is toegewezen aan een POS-kassa.</span><span class="sxs-lookup"><span data-stu-id="0d24a-114">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="0d24a-115">Wanneer een apparaat wordt gemaakt, wordt het toegewezen aan een POS-kassa.</span><span class="sxs-lookup"><span data-stu-id="0d24a-115">When a device is created, it’s mapped to a POS register.</span></span> <span data-ttu-id="0d24a-116">De apparaatentiteit houdt informatie bij over wanneer een POS-kassa wordt geactiveerd, het type client dat wordt gebruikt en het toepassingspakket dat is geïmplementeerd op een specifiek apparaat.</span><span class="sxs-lookup"><span data-stu-id="0d24a-116">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="0d24a-117">Apparaten kunnen worden toegewezen aan de volgende toepassingstypen: Retail Modern POS, Retail Cloud-POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android en Retail Modern POS – iOS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-117">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
 
-### <a name="retail-modern-pos"></a>Retail Modern POS
+### <a name="retail-modern-pos"></a><span data-ttu-id="0d24a-118">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="0d24a-118">Retail Modern POS</span></span>
 
-Modern POS is het POS-programma voor Microsoft Windows. Het kan worden geïmplementeerd op de besturingssystemen Windows 10.
+<span data-ttu-id="0d24a-119">Modern POS is het POS-programma voor Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="0d24a-119">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="0d24a-120">Het kan worden geïmplementeerd op de besturingssystemen Windows 10.</span><span class="sxs-lookup"><span data-stu-id="0d24a-120">It can be deployed on Windows 10 operating systems (OSs).</span></span>
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a><span data-ttu-id="0d24a-121">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="0d24a-121">Cloud POS</span></span>
 
-Cloud POS is een versie van het programma Modern POS, die kan worden geopend in een webbrowser.
+<span data-ttu-id="0d24a-122">Cloud POS is een versie van het programma Modern POS, die kan worden geopend in een webbrowser.</span><span class="sxs-lookup"><span data-stu-id="0d24a-122">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
 
-### <a name="modern-pos-for-ios"></a>Modern POS voor iOS
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="0d24a-123">Modern POS voor iOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-123">Modern POS for iOS</span></span>
 
-Modern POS voor iOS is een iOS-versie van het Modern POS-programma dat kan worden geïmplementeerd op iOS-apparaten.
+<span data-ttu-id="0d24a-124">Modern POS voor iOS is een iOS-versie van het Modern POS-programma dat kan worden geïmplementeerd op iOS-apparaten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-124">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
 
-### <a name="modern-pos-for-android"></a>Modern POS voor Android
+### <a name="modern-pos-for-android"></a><span data-ttu-id="0d24a-125">Modern POS voor Android</span><span class="sxs-lookup"><span data-stu-id="0d24a-125">Modern POS for Android</span></span>
 
-Modern POS voor Android is een Android-versie van het Modern POS-programma dat kan worden geïmplementeerd op Android-apparaten.
+<span data-ttu-id="0d24a-126">Modern POS voor Android is een Android-versie van het Modern POS-programma dat kan worden geïmplementeerd op Android-apparaten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-126">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
 
-### <a name="pos-peripherals"></a>POS-randapparaten
+### <a name="pos-peripherals"></a><span data-ttu-id="0d24a-127">POS-randapparaten</span><span class="sxs-lookup"><span data-stu-id="0d24a-127">POS peripherals</span></span>
 
-POS-randapparaten zijn apparaten die expliciet worden ondersteund voor POS-functies. Deze randapparaten worden meestal onderverdeeld in specifieke klassen. Zie de sectie 'Apparaatklassen' van dit onderwerp voor meer informatie over deze klassen.
+<span data-ttu-id="0d24a-128">POS-randapparaten zijn apparaten die expliciet worden ondersteund voor POS-functies.</span><span class="sxs-lookup"><span data-stu-id="0d24a-128">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="0d24a-129">Deze randapparaten worden meestal onderverdeeld in specifieke klassen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-129">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="0d24a-130">Zie de sectie 'Apparaatklassen' van dit onderwerp voor meer informatie over deze klassen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-130">For more information about these classes, see the “Device classes” section of this topic.</span></span>
 
-### <a name="hardware-station"></a>Hardwarestation
+### <a name="hardware-station"></a><span data-ttu-id="0d24a-131">Hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-131">Hardware station</span></span>
 
-Navigatie: klik op **Detailhandel** &gt; **Kanalen** &gt; **Detailhandelwinkels** &gt; **Alle detailhandelwinkels**. Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**. De instelling **Hardwarestation** is een instelling op afzetkanaalniveau, die wordt gebruikt voor het definiëren van situaties waarin de logica voor detailhandelrandapparaten wordt geïmplementeerd. Deze instelling op het afzetkanaalniveau wordt gebruikt om de kenmerken van het hardwarestation te bepalen. Hiermee wordt ook een overzicht gemaakt van hardwarestations, die beschikbaar zijn voor een Modern POS-exemplaar in een bepaalde winkel. Het hardwarestation is ingebouwd in het Modern POS-programma voor Windows. Het hardwarestation kan ook onafhankelijk worden geïmplementeerd als een zelfstandig Microsoft Internet Information Services-programma (IIS). In dit geval vindt toegang plaats via een netwerk.
+<span data-ttu-id="0d24a-132">Navigatie: klik op **Detailhandel** &gt; **Kanalen** &gt; **Detailhandelwinkels** &gt; **Alle detailhandelwinkels**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-132">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="0d24a-133">Selecteer een winkel en klik vervolgens op het sneltabblad **Hardwarestations**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-133">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="0d24a-134">De instelling **Hardwarestation** is een instelling op afzetkanaalniveau, die wordt gebruikt voor het definiëren van situaties waarin de logica voor detailhandelrandapparaten wordt geïmplementeerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-134">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="0d24a-135">Deze instelling op het afzetkanaalniveau wordt gebruikt om de kenmerken van het hardwarestation te bepalen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-135">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="0d24a-136">Hiermee wordt ook een overzicht gemaakt van hardwarestations, die beschikbaar zijn voor een Modern POS-exemplaar in een bepaalde winkel.</span><span class="sxs-lookup"><span data-stu-id="0d24a-136">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="0d24a-137">Het hardwarestation is ingebouwd in het Modern POS-programma voor Windows.</span><span class="sxs-lookup"><span data-stu-id="0d24a-137">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="0d24a-138">Het hardwarestation kan ook onafhankelijk worden geïmplementeerd als een zelfstandig Microsoft Internet Information Services-programma (IIS).</span><span class="sxs-lookup"><span data-stu-id="0d24a-138">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="0d24a-139">In dit geval vindt toegang plaats via een netwerk.</span><span class="sxs-lookup"><span data-stu-id="0d24a-139">In this case, it can be accessed via a network.</span></span>
 
-### <a name="hardware-profile"></a>Hardwareprofiel
+### <a name="hardware-profile"></a><span data-ttu-id="0d24a-140">Hardwareprofiel</span><span class="sxs-lookup"><span data-stu-id="0d24a-140">Hardware profile</span></span>
 
-Navigatie: klik op **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**. Het hardwareprofiel is een lijst apparaten die zijn geconfigureerd voor een POS-kassa of een hardwarestation. Het hardwareprofielen kan rechtstreeks aan de POS-kassa of een hardwarestation worden toegewezen.
+<span data-ttu-id="0d24a-141">Navigatie: klik op **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-141">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="0d24a-142">Het hardwareprofiel is een lijst apparaten die zijn geconfigureerd voor een POS-kassa of een hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-142">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="0d24a-143">Het hardwareprofielen kan rechtstreeks aan de POS-kassa of een hardwarestation worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-143">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
 
-## <a name="devices-classes"></a>Apparaatklassen
-POS-randapparaten worden meestal onderverdeeld in klassen. In deze sectie worden een overzicht gegeven (samen met een beschrijving) van de apparaten die Modern POS ondersteunt.
+## <a name="devices-classes"></a><span data-ttu-id="0d24a-144">Apparaatklassen</span><span class="sxs-lookup"><span data-stu-id="0d24a-144">Devices classes</span></span>
+<span data-ttu-id="0d24a-145">POS-randapparaten worden meestal onderverdeeld in klassen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-145">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="0d24a-146">In deze sectie worden een overzicht gegeven (samen met een beschrijving) van de apparaten die Modern POS ondersteunt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-146">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
 
-### <a name="printer"></a>Printer
+### <a name="printer"></a><span data-ttu-id="0d24a-147">Printer</span><span class="sxs-lookup"><span data-stu-id="0d24a-147">Printer</span></span>
 
-Printers omvatten traditionele POS-kassabonprinters en full-page printers. Printers worden ondersteund via interfaces voor Object Linking and Embedding for Retail POS (OPOS) en Microsoft Windows-stuurprogramma's. Tot twee printers kunnen tegelijkertijd worden gebruikt. Deze functionaliteit ondersteunt scenario's waarin kassabonnen voor contanttransacties van klanten worden afgedrukt op kassabonprinters, terwijl klantorders, die meer informatie bevatten, worden afgedrukt op een full-page printer. Kassabonprinters kunnen rechtstreeks op een computer zijn aangesloten via USB, aangesloten op een netwerk via Ethernet, of aangesloten via Bluetooth.
+<span data-ttu-id="0d24a-148">Printers omvatten traditionele POS-kassabonprinters en full-page printers.</span><span class="sxs-lookup"><span data-stu-id="0d24a-148">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="0d24a-149">Printers worden ondersteund via interfaces voor Object Linking and Embedding for Retail POS (OPOS) en Microsoft Windows-stuurprogramma's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-149">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="0d24a-150">Tot twee printers kunnen tegelijkertijd worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-150">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="0d24a-151">Deze functionaliteit ondersteunt scenario's waarin kassabonnen voor contanttransacties van klanten worden afgedrukt op kassabonprinters, terwijl klantorders, die meer informatie bevatten, worden afgedrukt op een full-page printer.</span><span class="sxs-lookup"><span data-stu-id="0d24a-151">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="0d24a-152">Kassabonprinters kunnen rechtstreeks op een computer zijn aangesloten via USB, aangesloten op een netwerk via Ethernet, of aangesloten via Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="0d24a-152">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
 
-### <a name="scanner"></a>Scanner
+### <a name="scanner"></a><span data-ttu-id="0d24a-153">Scanner</span><span class="sxs-lookup"><span data-stu-id="0d24a-153">Scanner</span></span>
 
-Tot twee streepjescodescanners kunnen tegelijkertijd worden gebruikt. Deze functionaliteit ondersteunt scenario's waarin een meer mobiele scanner is vereist voor het scannen van grote of zware artikelen, terwijl een vaste geïntegreerde scanner wordt gebruikt voor de meeste artikelen van standaardformaat, om de afrekentijden te reduceren. Scanners worden ondersteund via OPOS, universeel Windows-platform (UWP) of keyboard-wedge-interfaces. Een scanner kan worden aangesloten op een computer met USB of Bluetooth.
+<span data-ttu-id="0d24a-154">Tot twee streepjescodescanners kunnen tegelijkertijd worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-154">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="0d24a-155">Deze functionaliteit ondersteunt scenario's waarin een meer mobiele scanner is vereist voor het scannen van grote of zware artikelen, terwijl een vaste geïntegreerde scanner wordt gebruikt voor de meeste artikelen van standaardformaat, om de afrekentijden te reduceren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-155">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="0d24a-156">Scanners worden ondersteund via OPOS, universeel Windows-platform (UWP) of keyboard-wedge-interfaces.</span><span class="sxs-lookup"><span data-stu-id="0d24a-156">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="0d24a-157">Een scanner kan worden aangesloten op een computer met USB of Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="0d24a-157">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
 
-### <a name="msr"></a>MSR
+### <a name="msr"></a><span data-ttu-id="0d24a-158">MSR</span><span class="sxs-lookup"><span data-stu-id="0d24a-158">MSR</span></span>
 
-Een USB-magneetstriplezer (MSR) kunt u instellen met behulp van OPOS-stuurprogramma's. Als u een zelfstandige MSR wilt gebruiken voor betalingstransacties met elektronische betaling (EFT), moet de MSR worden beheerd door een betalingsconnector. Zelfstandige MSR's kunnen worden gebruikt voor invoer van klantloyaliteitsgegevens, aanmelden van werknemers en invoer van geschenkbongegevens, onafhankelijk van de betalingsconnector.
+<span data-ttu-id="0d24a-159">Een USB-magneetstriplezer (MSR) kunt u instellen met behulp van OPOS-stuurprogramma's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-159">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="0d24a-160">Als u een zelfstandige MSR wilt gebruiken voor betalingstransacties met elektronische betaling (EFT), moet de MSR worden beheerd door een betalingsconnector.</span><span class="sxs-lookup"><span data-stu-id="0d24a-160">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="0d24a-161">Zelfstandige MSR's kunnen worden gebruikt voor invoer van klantloyaliteitsgegevens, aanmelden van werknemers en invoer van geschenkbongegevens, onafhankelijk van de betalingsconnector.</span><span class="sxs-lookup"><span data-stu-id="0d24a-161">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
 
-### <a name="cash-drawer"></a>Kassalade
+### <a name="cash-drawer"></a><span data-ttu-id="0d24a-162">Kassalade</span><span class="sxs-lookup"><span data-stu-id="0d24a-162">Cash drawer</span></span>
 
-Twee kassaladen worden ondersteund per hardwareprofiel. Deze functionaliteit maakt het mogelijk om twee actieve ploegen per kassa tegelijkertijd beschikbaar te hebben. Bij een gedeelde dienst of een kassalade die wordt gebruikt door meerdere mobiele POS-apparaten tegelijk, is per hardwareprofiel slechts één kassalade toegestaan. Kassaladen kunnen rechtstreeks op een computer zijn aangesloten via USB, aangesloten op een netwerk via Ethernet, of aangesloten op een kassabonprinter via een RJ12-aansluiting. In sommige gevallen kunnen kassaladen ook worden aangesloten met Bluetooth.
+<span data-ttu-id="0d24a-163">Twee kassaladen worden ondersteund per hardwareprofiel.</span><span class="sxs-lookup"><span data-stu-id="0d24a-163">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="0d24a-164">Deze functionaliteit maakt het mogelijk om twee actieve ploegen per kassa tegelijkertijd beschikbaar te hebben.</span><span class="sxs-lookup"><span data-stu-id="0d24a-164">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="0d24a-165">Bij een gedeelde dienst of een kassalade die wordt gebruikt door meerdere mobiele POS-apparaten tegelijk, is per hardwareprofiel slechts één kassalade toegestaan.</span><span class="sxs-lookup"><span data-stu-id="0d24a-165">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="0d24a-166">Kassaladen kunnen rechtstreeks op een computer zijn aangesloten via USB, aangesloten op een netwerk via Ethernet, of aangesloten op een kassabonprinter via een RJ12-aansluiting.</span><span class="sxs-lookup"><span data-stu-id="0d24a-166">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="0d24a-167">In sommige gevallen kunnen kassaladen ook worden aangesloten met Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="0d24a-167">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
 
-### <a name="line-display"></a>Regelweergave
+### <a name="line-display"></a><span data-ttu-id="0d24a-168">Regelweergave</span><span class="sxs-lookup"><span data-stu-id="0d24a-168">Line display</span></span>
 
-Regelweergaven worden gebruikt om producten, transactiesaldi en andere nuttige informatie aan de klant te tonen tijdens een transactie. U kunt één regelweergave op de computer aansluiten via USB met OPOS-stuurprogramma's.
+<span data-ttu-id="0d24a-169">Regelweergaven worden gebruikt om producten, transactiesaldi en andere nuttige informatie aan de klant te tonen tijdens een transactie.</span><span class="sxs-lookup"><span data-stu-id="0d24a-169">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="0d24a-170">U kunt één regelweergave op de computer aansluiten via USB met OPOS-stuurprogramma's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-170">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
 
-### <a name="signature-capture"></a>Handtekeningregistratie
+### <a name="signature-capture"></a><span data-ttu-id="0d24a-171">Handtekeningregistratie</span><span class="sxs-lookup"><span data-stu-id="0d24a-171">Signature capture</span></span>
 
-Apparaten voor handtekeningregistratie kunnen rechtstreeks op een computer worden aangesloten via USB met OPOS-stuurprogramma's. Als registratie van de handtekening is geconfigureerd, wordt de klant gevraagd op het apparaat zijn handtekening te zetten. Nadat de handtekening is gezet, wordt deze aan de kassamedewerker getoond voor acceptatie.
+<span data-ttu-id="0d24a-172">Apparaten voor handtekeningregistratie kunnen rechtstreeks op een computer worden aangesloten via USB met OPOS-stuurprogramma's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-172">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="0d24a-173">Als registratie van de handtekening is geconfigureerd, wordt de klant gevraagd op het apparaat zijn handtekening te zetten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-173">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="0d24a-174">Nadat de handtekening is gezet, wordt deze aan de kassamedewerker getoond voor acceptatie.</span><span class="sxs-lookup"><span data-stu-id="0d24a-174">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
 
-### <a name="scale"></a>Weegschaal
+### <a name="scale"></a><span data-ttu-id="0d24a-175">Weegschaal</span><span class="sxs-lookup"><span data-stu-id="0d24a-175">Scale</span></span>
 
-U kunt één weegschaal op de computer aansluiten via USB met OPOS-stuurprogramma's. Als een product dat is gemarkeerd als gewogen product wordt toegevoegd aan een transactie, leest het POS het gewicht van de weegschaal, voegt het product aan de transactie toe en gebruikt de hoeveelheid die de weegschaal aangeeft.
+<span data-ttu-id="0d24a-176">U kunt één weegschaal op de computer aansluiten via USB met OPOS-stuurprogramma's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-176">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="0d24a-177">Als een product dat is gemarkeerd als gewogen product wordt toegevoegd aan een transactie, leest het POS het gewicht van de weegschaal, voegt het product aan de transactie toe en gebruikt de hoeveelheid die de weegschaal aangeeft.</span><span class="sxs-lookup"><span data-stu-id="0d24a-177">When a product that is marked as a “Weighed” product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
 
-### <a name="pin-pad"></a>Pinapparaat
+### <a name="pin-pad"></a><span data-ttu-id="0d24a-178">Pinapparaat</span><span class="sxs-lookup"><span data-stu-id="0d24a-178">PIN pad</span></span>
 
-Pinapparaten (P.I.N. = persoonlijk identificatienummer) worden ondersteund via OPOS, maar ze moeten worden beheerd via een betalingsconnector.
+<span data-ttu-id="0d24a-179">Pinapparaten (P.I.N. = persoonlijk identificatienummer) worden ondersteund via OPOS, maar ze moeten worden beheerd via een betalingsconnector.</span><span class="sxs-lookup"><span data-stu-id="0d24a-179">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
 
-### <a name="secondary-display"></a>Tweede display
+### <a name="secondary-display"></a><span data-ttu-id="0d24a-180">Tweede display</span><span class="sxs-lookup"><span data-stu-id="0d24a-180">Secondary display</span></span>
 
-Wanneer een secundaire display is geconfigureerd, wordt de Windows-display nr. 2 gebruikt om algemene informatie weer te geven. De tweede display is bedoeld om uitbreidingen van ISV's (Independent Software Vendors) te ondersteunen. Dit is om dat de tweede display standaard niet configureerbaar is en slechts beperkt inhoud weergeeft.
+<span data-ttu-id="0d24a-181">Wanneer een secundaire display is geconfigureerd, wordt de Windows-display nr. 2 gebruikt om algemene informatie weer te geven.</span><span class="sxs-lookup"><span data-stu-id="0d24a-181">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="0d24a-182">De tweede display is bedoeld om uitbreidingen van ISV's (Independent Software Vendors) te ondersteunen. Dit is om dat de tweede display standaard niet configureerbaar is en slechts beperkt inhoud weergeeft.</span><span class="sxs-lookup"><span data-stu-id="0d24a-182">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
 
-### <a name="payment-device"></a>Betalingsapparaat
+### <a name="payment-device"></a><span data-ttu-id="0d24a-183">Betalingsapparaat</span><span class="sxs-lookup"><span data-stu-id="0d24a-183">Payment device</span></span>
 
-Ondersteuning voor betalingsapparaten wordt geïmplementeerd via de betalingsconnector. Betalingsapparaten kunnen een of meer van de functies uitvoeren die andere apparaatklassen bieden. Een betalingsapparaat kan bijvoorbeeld functioneren als een MSR/kaartlezer, regelweergave, apparaat voor handtekeningregistratie of pinapparaat. Ondersteuning voor betalingsapparaten wordt onafhankelijk geïmplementeerd van de ondersteuning voor zelfstandige apparaten, die wordt geleverd voor andere apparaten die in het hardwareprofiel zijn opgenomen.
+<span data-ttu-id="0d24a-184">Ondersteuning voor betalingsapparaten wordt geïmplementeerd via de betalingsconnector.</span><span class="sxs-lookup"><span data-stu-id="0d24a-184">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="0d24a-185">Betalingsapparaten kunnen een of meer van de functies uitvoeren die andere apparaatklassen bieden.</span><span class="sxs-lookup"><span data-stu-id="0d24a-185">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="0d24a-186">Een betalingsapparaat kan bijvoorbeeld functioneren als een MSR/kaartlezer, regelweergave, apparaat voor handtekeningregistratie of pinapparaat.</span><span class="sxs-lookup"><span data-stu-id="0d24a-186">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="0d24a-187">Ondersteuning voor betalingsapparaten wordt onafhankelijk geïmplementeerd van de ondersteuning voor zelfstandige apparaten, die wordt geleverd voor andere apparaten die in het hardwareprofiel zijn opgenomen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-187">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
 
-## <a name="supported-interfaces"></a>Ondersteunde interfaces
-### <a name="opos"></a>OPOS
+## <a name="supported-interfaces"></a><span data-ttu-id="0d24a-188">Ondersteunde interfaces</span><span class="sxs-lookup"><span data-stu-id="0d24a-188">Supported interfaces</span></span>
+### <a name="opos"></a><span data-ttu-id="0d24a-189">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-189">OPOS</span></span>
 
-Om te kunnen garanderen dat het grootste aantal apparaten kan worden gebruikt met Microsoft Dynamics 365 for Retail, is de industrienorm OLE voor POS het primaire platform voor detailhandelrandapparaten dat wordt ondersteund in Microsoft Dynamics 365 for Retail. De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn. OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm. Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd. OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt. OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software. Een OPOS-besturingselement bestaat uit twee onderdelen:
+<span data-ttu-id="0d24a-190">Om te kunnen garanderen dat het grootste aantal apparaten kan worden gebruikt met Microsoft Dynamics 365 for Retail, is de industrienorm OLE voor POS het primaire platform voor detailhandelrandapparaten dat wordt ondersteund in Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="0d24a-190">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="0d24a-191">De OLE voor POS-norm is opgesteld door de National Retail Federation (NRF), die communicatieprotocollen voor detailhandelrandapparatuur opstelt die de norm in de branche zijn.</span><span class="sxs-lookup"><span data-stu-id="0d24a-191">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="0d24a-192">OPOS is een algemeen geaccepteerde implementatie van de OLE voor POS-norm.</span><span class="sxs-lookup"><span data-stu-id="0d24a-192">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="0d24a-193">Deze is ontwikkeld in de jaren 1990 en sinds die tijd verschillende malen geactualiseerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-193">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="0d24a-194">OPOS biedt een apparaatstuurprogramma-architectuur die eenvoudige integratie van POS-hardware met Windows-gebaseerde POS-systemen mogelijk maakt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-194">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="0d24a-195">OPOS-besturingselementen handelen de communicatie af tussen hardware en de POS-software.</span><span class="sxs-lookup"><span data-stu-id="0d24a-195">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="0d24a-196">Een OPOS-besturingselement bestaat uit twee onderdelen:</span><span class="sxs-lookup"><span data-stu-id="0d24a-196">An OPOS control consists of two parts:</span></span>
 
--   **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). Met de CCO's wordt de POS-component van Microsoft Dynamics 365 for Retail getest. Daarom helpt het testen te garanderen dat, als Microsoft Dynamics 365 for Retail een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, indien de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
--   **Serviceobject**: Het serviceobject verzorgt de communicatie tussen het Control Object (CCO) en het apparaat. Meestal wordt voor fysieke apparaten het serviceobject geleverd door de fabrikant van het apparaat. In sommige gevallen moet u misschien het serviceobject downloaden vanaf de website van de fabrikant. Er kan bijvoorbeeld een meer recente serviceobject beschikbaar zijn. Het adres van de website van de fabrikant vindt u in de documentatie bij uw hardware.
+-   <span data-ttu-id="0d24a-197">**Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma.</span><span class="sxs-lookup"><span data-stu-id="0d24a-197">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="0d24a-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's).</span><span class="sxs-lookup"><span data-stu-id="0d24a-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="0d24a-199">Met de CCO's wordt de POS-component van Microsoft Dynamics 365 for Retail getest.</span><span class="sxs-lookup"><span data-stu-id="0d24a-199">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="0d24a-200">Daarom helpt het testen te garanderen dat, als Microsoft Dynamics 365 for Retail een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, indien de fabrikant een serviceobject levert dat is samengesteld voor OPOS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-200">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="0d24a-201">U hoeft niet expliciet elk apparaattype te testen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-201">You don't have to explicitly test each device type.</span></span>
+-   <span data-ttu-id="0d24a-202">**Serviceobject**: Het serviceobject verzorgt de communicatie tussen het Control Object (CCO) en het apparaat.</span><span class="sxs-lookup"><span data-stu-id="0d24a-202">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="0d24a-203">Meestal wordt voor fysieke apparaten het serviceobject geleverd door de fabrikant van het apparaat.</span><span class="sxs-lookup"><span data-stu-id="0d24a-203">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="0d24a-204">In sommige gevallen moet u misschien het serviceobject downloaden vanaf de website van de fabrikant.</span><span class="sxs-lookup"><span data-stu-id="0d24a-204">However, in some cases, you might have to download the service object from the manufacturer’s website.</span></span> <span data-ttu-id="0d24a-205">Er kan bijvoorbeeld een meer recente serviceobject beschikbaar zijn.</span><span class="sxs-lookup"><span data-stu-id="0d24a-205">For example, a more recent service object might be available.</span></span> <span data-ttu-id="0d24a-206">Het adres van de website van de fabrikant vindt u in de documentatie bij uw hardware.</span><span class="sxs-lookup"><span data-stu-id="0d24a-206">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
 
-[![Control Object en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Ondersteuning voor de OPOS-implementatie van OLE voor POS helpt te garanderen dat, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren, POS-systemen en ondersteunde apparaten kunnen samenwerken, zelfs als ze daarvoor niet samen zijn getest. **Opmerking:** OPOS-support garandeert niet ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Microsoft Dynamics 365 for Retail moet eerst dat type of die klasse van het apparaat ondersteunen met OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.
+<span data-ttu-id="0d24a-207">[![Control Object en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Ondersteuning voor de OPOS-implementatie van OLE voor POS helpt te garanderen dat, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren, POS-systemen en ondersteunde apparaten kunnen samenwerken, zelfs als ze daarvoor niet samen zijn getest.</span><span class="sxs-lookup"><span data-stu-id="0d24a-207">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span> <span data-ttu-id="0d24a-208">**Opmerking:** OPOS-support garandeert niet ondersteuning voor alle apparaten met OPOS-stuurprogramma's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-208">**Note:** OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="0d24a-209">Microsoft Dynamics 365 for Retail moet eerst dat type of die klasse van het apparaat ondersteunen met OPOS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="0d24a-210">Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="0d24a-211">Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="0d24a-212">Windows</span><span class="sxs-lookup"><span data-stu-id="0d24a-212">Windows</span></span>
 
-Het afdrukken van kassabonnen op het POS is geoptimaliseerd voor OPOS. Het afdrukken werkt met OPOS vaak veel sneller dan afdrukken via Windows. Daarom is het een goed idee om OPOS te gebruiken, vooral in detailhandelomgevingen waar kassabonnen met 40 kolommen worden afgedrukt en de transactietijden kort moeten zijn. Voor de meeste apparaten gebruikt u OPOS-besturingselementen. Sommige OPOS-kassabonprinters ondersteunen echter ook Windows-stuurprogramma's. Als u een Windows-stuurprogramma gebruikt, hebt u toegang tot de nieuwste lettertypen en kunt één printer via het netwerk bereikbaar maken voor meerdere kassa's. Windows-stuurprogramma's hebben echter nadelen. Dit zijn enkele van veel voorkomende nadelen:
+<span data-ttu-id="0d24a-213">Het afdrukken van kassabonnen op het POS is geoptimaliseerd voor OPOS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="0d24a-214">Het afdrukken werkt met OPOS vaak veel sneller dan afdrukken via Windows.</span><span class="sxs-lookup"><span data-stu-id="0d24a-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="0d24a-215">Daarom is het een goed idee om OPOS te gebruiken, vooral in detailhandelomgevingen waar kassabonnen met 40 kolommen worden afgedrukt en de transactietijden kort moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="0d24a-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="0d24a-216">Voor de meeste apparaten gebruikt u OPOS-besturingselementen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="0d24a-217">Sommige OPOS-kassabonprinters ondersteunen echter ook Windows-stuurprogramma's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="0d24a-218">Als u een Windows-stuurprogramma gebruikt, hebt u toegang tot de nieuwste lettertypen en kunt één printer via het netwerk bereikbaar maken voor meerdere kassa's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="0d24a-219">Windows-stuurprogramma's hebben echter nadelen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="0d24a-220">Dit zijn enkele van veel voorkomende nadelen:</span><span class="sxs-lookup"><span data-stu-id="0d24a-220">Here are some examples of these drawbacks:</span></span>
 
--   Met Windows-stuurprogramma's worden afbeeldingen gerenderd vóór het afdrukken. Daarom gaat het afdrukken vaan trager dan op printers die gebruikmaken van OPOS-besturingselementen.
--   Apparaten die zijn verbonden via de printer ('daisy-chained' ofwel in serie) werken mogelijk niet correct met Windows-stuurprogramma's. Bijvoorbeeld gaat de kassalade niet open of de bonprinter functioneert niet zoals u verwacht.
--   OPOS ondersteunt ook een uitgebreidere reeks variabelen die specifiek zijn voor kassabonprinters in de detailhandel, zoals papiersnijden of bon afdrukken.
+-   <span data-ttu-id="0d24a-221">Met Windows-stuurprogramma's worden afbeeldingen gerenderd vóór het afdrukken.</span><span class="sxs-lookup"><span data-stu-id="0d24a-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="0d24a-222">Daarom gaat het afdrukken vaan trager dan op printers die gebruikmaken van OPOS-besturingselementen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+-   <span data-ttu-id="0d24a-223">Apparaten die zijn verbonden via de printer ('daisy-chained' ofwel in serie) werken mogelijk niet correct met Windows-stuurprogramma's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-223">Devices that are connected through the printer (“daisy-chained”) might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="0d24a-224">Bijvoorbeeld gaat de kassalade niet open of de bonprinter functioneert niet zoals u verwacht.</span><span class="sxs-lookup"><span data-stu-id="0d24a-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+-   <span data-ttu-id="0d24a-225">OPOS ondersteunt ook een uitgebreidere reeks variabelen die specifiek zijn voor kassabonprinters in de detailhandel, zoals papiersnijden of bon afdrukken.</span><span class="sxs-lookup"><span data-stu-id="0d24a-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
 
-Als OPOS-besturingselementen beschikbaar zijn voor uw Windows-printer, functioneert de printer naar verwachting nog steeds correct met Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="0d24a-226">Als OPOS-besturingselementen beschikbaar zijn voor uw Windows-printer, functioneert de printer naar verwachting nog steeds correct met Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="0d24a-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
 
-### <a name="universal-windows-platform"></a>Universeel Windows-platform
+### <a name="universal-windows-platform"></a><span data-ttu-id="0d24a-227">Universeel Windows-platform</span><span class="sxs-lookup"><span data-stu-id="0d24a-227">Universal Windows Platform</span></span>
 
-UWP is, voor de retail-randapparatuur, gerelateerd aan Windows-ondersteuning voor plug en play-apparaten. Wanneer u een Plug en Play-apparaat aansluit op een Windows-versie die dat type apparaat ondersteunt, is geen stuurprogramma vereist om het apparaat te kunnen gebruiken zoals het is bedoeld. Als in Windows bijvoorbeeld een Bluetooth-luidspreker wordt gedetecteerd, is automatisch bekend dat het apparaat het klassetype **Luidspreker** heeft. Het apparaat wordt daarna dus ook behandeld als een luidspreker. Het is niet nodig om het nog verder te configureren. Voor wat betreft POS-apparaten worden veel USB-apparaten na het aansluiten herkend als als HID-apparaten (Human Interface Devices). Het kan echter zijn dat de functionaliteit van het apparaat niet kan worden bepaald, omdat het apparaat niet opgeeft van welke klasse of type het is. In Windows 10 zijn apparaatklassen voor streepjescodescanners en MSR's toegevoegd. Als een apparaat zichzelf bij Windows 10 aanmeld als een apparaat uit een van deze klassen, zal worden geluisterd naar gebeurtenissen van dat apparaat op de overeenkomende momenten. Modern POS ondersteunt UWP MSR's en scanners. Als het gereed is om invoer van een van deze apparaten te ontvangen en een apparaat uit een van deze klassen is aangesloten, kan dat apparaat worden gebruikt. Als bijvoorbeeld een UWP-streepjescodescanner is aangesloten op een computer met Windows 10 en aanmelding met streepjescode is geconfigureerd voor Modern POS, wordt de streepjescodescanner actief op het aanmeldingsscherm. Het is niet nodig om het nog verder te configureren. Aanvullende klassen van point-of-service UWP-apparaten worden toegevoegd aan Windows. Deze klassen bevatten klassen voor kassaladen en kassabonprinters. Ondersteuning voor deze nieuwe apparaatklassen in Modern POS is gepland voor de toekomst.
+<span data-ttu-id="0d24a-228">UWP is, voor de retail-randapparatuur, gerelateerd aan Windows-ondersteuning voor plug en play-apparaten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="0d24a-229">Wanneer u een Plug en Play-apparaat aansluit op een Windows-versie die dat type apparaat ondersteunt, is geen stuurprogramma vereist om het apparaat te kunnen gebruiken zoals het is bedoeld.</span><span class="sxs-lookup"><span data-stu-id="0d24a-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="0d24a-230">Als in Windows bijvoorbeeld een Bluetooth-luidspreker wordt gedetecteerd, is automatisch bekend dat het apparaat het klassetype **Luidspreker** heeft.</span><span class="sxs-lookup"><span data-stu-id="0d24a-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="0d24a-231">Het apparaat wordt daarna dus ook behandeld als een luidspreker.</span><span class="sxs-lookup"><span data-stu-id="0d24a-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="0d24a-232">Het is niet nodig om het nog verder te configureren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-232">No additional setup is required.</span></span> <span data-ttu-id="0d24a-233">Voor wat betreft POS-apparaten worden veel USB-apparaten na het aansluiten herkend als als HID-apparaten (Human Interface Devices).</span><span class="sxs-lookup"><span data-stu-id="0d24a-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="0d24a-234">Het kan echter zijn dat de functionaliteit van het apparaat niet kan worden bepaald, omdat het apparaat niet opgeeft van welke klasse of type het is.</span><span class="sxs-lookup"><span data-stu-id="0d24a-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="0d24a-235">In Windows 10 zijn apparaatklassen voor streepjescodescanners en MSR's toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="0d24a-236">Als een apparaat zichzelf bij Windows 10 aanmeld als een apparaat uit een van deze klassen, zal worden geluisterd naar gebeurtenissen van dat apparaat op de overeenkomende momenten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="0d24a-237">Modern POS ondersteunt UWP MSR's en scanners.</span><span class="sxs-lookup"><span data-stu-id="0d24a-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="0d24a-238">Als het gereed is om invoer van een van deze apparaten te ontvangen en een apparaat uit een van deze klassen is aangesloten, kan dat apparaat worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="0d24a-239">Als bijvoorbeeld een UWP-streepjescodescanner is aangesloten op een computer met Windows 10 en aanmelding met streepjescode is geconfigureerd voor Modern POS, wordt de streepjescodescanner actief op het aanmeldingsscherm.</span><span class="sxs-lookup"><span data-stu-id="0d24a-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="0d24a-240">Het is niet nodig om het nog verder te configureren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-240">No additional setup is required.</span></span> <span data-ttu-id="0d24a-241">Aanvullende klassen van point-of-service UWP-apparaten worden toegevoegd aan Windows.</span><span class="sxs-lookup"><span data-stu-id="0d24a-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="0d24a-242">Deze klassen bevatten klassen voor kassaladen en kassabonprinters.</span><span class="sxs-lookup"><span data-stu-id="0d24a-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="0d24a-243">Ondersteuning voor deze nieuwe apparaatklassen in Modern POS is gepland voor de toekomst.</span><span class="sxs-lookup"><span data-stu-id="0d24a-243">Support for these new device classes in Modern POS is pending.</span></span>
 
-### <a name="keyboard-wedge"></a>Keyboard-wedge
+### <a name="keyboard-wedge"></a><span data-ttu-id="0d24a-244">Keyboard-wedge</span><span class="sxs-lookup"><span data-stu-id="0d24a-244">Keyboard wedge</span></span>
 
-Keyboard-wedge-apparaten verzenden gegevens naar de computer alsof deze gegevens zijn ingevoerd op een toetsenbord. Standaard krijgen dus het veld dat actief is op het POS de gegevens die worden gescand of ingelezen. In sommige gevallen kan dit gedrag kan ertoe leiden dat het verkeerde type gegevens in een veld worden gescand. Een streepjescode kan bijvoorbeeld worden gescand in een veld dat is bedoeld voor het vastleggen van creditcard-gegevens. In veel gevallen bevat het POS logica waarmee wordt bepaald of de gescande of ingelezen gegevens een streepjescode of magneetstrip op een kaart betreffen. Daarmee kunnen de gegevens dan correct worden verwerkt. Wanneer apparaten zijn ingesteld als OPOS in plaats van keyboard-wedge-apparaten, is er echter meer controle over hoe de gegevens van deze apparaten kunnen worden gebruikt, omdat meer 'bekend' is over het apparaat waarvan de gegevens afkomstig zijn. Gegevens uit een streepjescodescanner worden bijvoorbeeld automatisch herkend als een streepjescode en de bijbehorende record wordt gemakkelijker en sneller gevonden in de database, dan wanneer een algemene zoektekenreeks wordt gebruikt zoals bij keyboard-wedge-apparaten.
+<span data-ttu-id="0d24a-245">Keyboard-wedge-apparaten verzenden gegevens naar de computer alsof deze gegevens zijn ingevoerd op een toetsenbord.</span><span class="sxs-lookup"><span data-stu-id="0d24a-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="0d24a-246">Standaard krijgen dus het veld dat actief is op het POS de gegevens die worden gescand of ingelezen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="0d24a-247">In sommige gevallen kan dit gedrag kan ertoe leiden dat het verkeerde type gegevens in een veld worden gescand.</span><span class="sxs-lookup"><span data-stu-id="0d24a-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="0d24a-248">Een streepjescode kan bijvoorbeeld worden gescand in een veld dat is bedoeld voor het vastleggen van creditcard-gegevens.</span><span class="sxs-lookup"><span data-stu-id="0d24a-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="0d24a-249">In veel gevallen bevat het POS logica waarmee wordt bepaald of de gescande of ingelezen gegevens een streepjescode of magneetstrip op een kaart betreffen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="0d24a-250">Daarmee kunnen de gegevens dan correct worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="0d24a-251">Wanneer apparaten zijn ingesteld als OPOS in plaats van keyboard-wedge-apparaten, is er echter meer controle over hoe de gegevens van deze apparaten kunnen worden gebruikt, omdat meer 'bekend' is over het apparaat waarvan de gegevens afkomstig zijn.</span><span class="sxs-lookup"><span data-stu-id="0d24a-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is “known” about the device that the data originates from.</span></span> <span data-ttu-id="0d24a-252">Gegevens uit een streepjescodescanner worden bijvoorbeeld automatisch herkend als een streepjescode en de bijbehorende record wordt gemakkelijker en sneller gevonden in de database, dan wanneer een algemene zoektekenreeks wordt gebruikt zoals bij keyboard-wedge-apparaten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
 
-### <a name="native-printer"></a>Native printer
+### <a name="native-printer"></a><span data-ttu-id="0d24a-253">Native printer</span><span class="sxs-lookup"><span data-stu-id="0d24a-253">Native printer</span></span>
 
-Native (ofwel 'Apparaat', zoals het type wordt aangeduid in het hardwareprofiel) printers kunnen worden geconfigureerd om de gebruiker te vragen een printer te selecteren die is geconfigureerd voor de computer. Wanneer een printer van het type **Apparaat** type is geconfigureerd, wordt de gebruiker gevraagd een printer in een lijst selecteren wanneer Modern POS een printopdracht detecteert. Dit gedrag verschilt van het gedrag van Windows-stuurprogramma's, omdat het printertype **Windows** in het hardwareprofiel geen lijst met printers toont. In plaats daarvan is hier vereist dat een benoemde printers wordt opgegeven in het veld **Apparaatnaam**.
+<span data-ttu-id="0d24a-254">Native (ofwel 'Apparaat', zoals het type wordt aangeduid in het hardwareprofiel) printers kunnen worden geconfigureerd om de gebruiker te vragen een printer te selecteren die is geconfigureerd voor de computer.</span><span class="sxs-lookup"><span data-stu-id="0d24a-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="0d24a-255">Wanneer een printer van het type **Apparaat** type is geconfigureerd, wordt de gebruiker gevraagd een printer in een lijst selecteren wanneer Modern POS een printopdracht detecteert.</span><span class="sxs-lookup"><span data-stu-id="0d24a-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="0d24a-256">Dit gedrag verschilt van het gedrag van Windows-stuurprogramma's, omdat het printertype **Windows** in het hardwareprofiel geen lijst met printers toont.</span><span class="sxs-lookup"><span data-stu-id="0d24a-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="0d24a-257">In plaats daarvan is hier vereist dat een benoemde printers wordt opgegeven in het veld **Apparaatnaam**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="0d24a-258">Windows</span><span class="sxs-lookup"><span data-stu-id="0d24a-258">Windows</span></span>
 
-Het apparaattype **Windows** wordt alleen gebruikt voor printers. Wanneer een Windows-printer in het hardwareprofiel is geconfigureerd, moet de naam van de specifieke printer worden opgegeven. Wanneer Modern POS printgebeurtenissen tegenkomt en een Windows-printer is geconfigureerd, wordt de gebeurtenis doorgegeven aan de opgegeven Windows-printer. De gebruiker wordt niet gevraagd om een printer te selecteren.
+<span data-ttu-id="0d24a-259">Het apparaattype **Windows** wordt alleen gebruikt voor printers.</span><span class="sxs-lookup"><span data-stu-id="0d24a-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="0d24a-260">Wanneer een Windows-printer in het hardwareprofiel is geconfigureerd, moet de naam van de specifieke printer worden opgegeven.</span><span class="sxs-lookup"><span data-stu-id="0d24a-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="0d24a-261">Wanneer Modern POS printgebeurtenissen tegenkomt en een Windows-printer is geconfigureerd, wordt de gebeurtenis doorgegeven aan de opgegeven Windows-printer.</span><span class="sxs-lookup"><span data-stu-id="0d24a-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="0d24a-262">De gebruiker wordt niet gevraagd om een printer te selecteren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-262">The user won't be prompted to select a printer.</span></span>
 
-### <a name="network"></a>Netwerk
+### <a name="network"></a><span data-ttu-id="0d24a-263">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-263">Network</span></span>
 
-Kassalade, kassabonprinters en betalingsterminals met een netwerkadres kunnen worden gebruikt via een netwerk, rechtstreeks via het Interprocess Communications (IPC) hardwarestation dat is geïntegreerd in de toepassing Modern POS voor Windows, of via het IIS-hardwarestation voor andere Modern POS-clients.
+<span data-ttu-id="0d24a-264">Kassalade, kassabonprinters en betalingsterminals met een netwerkadres kunnen worden gebruikt via een netwerk, rechtstreeks via het Interprocess Communications (IPC) hardwarestation dat is geïntegreerd in de toepassing Modern POS voor Windows, of via het IIS-hardwarestation voor andere Modern POS-clients.</span><span class="sxs-lookup"><span data-stu-id="0d24a-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
 
-## <a name="hardware-station-deployment-options"></a>Implementatieopties voor het hardwarestation
-### <a name="ipc-built-in"></a>IPC (geïntegreerd)
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="0d24a-265">Implementatieopties voor het hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-265">Hardware station deployment options</span></span>
+### <a name="ipc-built-in"></a><span data-ttu-id="0d24a-266">IPC (geïntegreerd)</span><span class="sxs-lookup"><span data-stu-id="0d24a-266">IPC (built-in)</span></span>
 
-Het IPC-hardwarestation (Interprocess Communications) is ingebouwd in de toepassing Modern POS voor Windows. Als u het IPC-hardwarestation wilt gebruiken, wijst u een hardwareprofiel toe aan een kassa die gebruik maakt van de toepassing Modern POS voor Windows. Vervolgens maakt u een hardwarestation van het type **Specifiek** voor de winkel waar de kassa wordt gebruikt. Wanneer u Modern POS start, is het IPC-hardwarestation actief en zijn de geconfigureerde POS-randapparaten klaar voor gebruik. Als u om de een of andere reden de de lokale hardware niet nodig hebt, schakelt u de functionaliteit van het hardwarestation uit met de bewerking **Hardwarestations beheren**. Modern POS kan ook via het IPC-hardwarestation rechtstreeks communiceren met randapparaten die via het netwerk zijn aangesloten.
+<span data-ttu-id="0d24a-267">Het IPC-hardwarestation (Interprocess Communications) is ingebouwd in de toepassing Modern POS voor Windows.</span><span class="sxs-lookup"><span data-stu-id="0d24a-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="0d24a-268">Als u het IPC-hardwarestation wilt gebruiken, wijst u een hardwareprofiel toe aan een kassa die gebruik maakt van de toepassing Modern POS voor Windows.</span><span class="sxs-lookup"><span data-stu-id="0d24a-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="0d24a-269">Vervolgens maakt u een hardwarestation van het type **Specifiek** voor de winkel waar de kassa wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="0d24a-270">Wanneer u Modern POS start, is het IPC-hardwarestation actief en zijn de geconfigureerde POS-randapparaten klaar voor gebruik.</span><span class="sxs-lookup"><span data-stu-id="0d24a-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="0d24a-271">Als u om de een of andere reden de de lokale hardware niet nodig hebt, schakelt u de functionaliteit van het hardwarestation uit met de bewerking **Hardwarestations beheren**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="0d24a-272">Modern POS kan ook via het IPC-hardwarestation rechtstreeks communiceren met randapparaten die via het netwerk zijn aangesloten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
 
-### <a name="iis"></a>IIS
+### <a name="iis"></a><span data-ttu-id="0d24a-273">IIS</span><span class="sxs-lookup"><span data-stu-id="0d24a-273">IIS</span></span>
 
-U kunt de IIS-versie of de zelfstandige versie van het hardwarestation op twee manieren gebruiken. De beschrijving 'IIS' betekent dat de POS-toepassing verbinding maakt met het hardwarestation via Microsoft Internet Information Services. De POS-toepassing maakt verbinding met het IIS-hardwarestation via webservices die worden uitgevoerd op een computer waarop de apparaten zijn aangesloten. Wanneer IIS wordt gebruikt, kunnen de detailhandelrandapparaten die zijn aangesloten op een hardwarestation worden gebruikt door iedere POS-kassa in hetzelfde netwerk als het IIS-hardwarestation. Omdat alleen Modern POS voor Windows ingebouwde ondersteuning heeft voor detailhandelrandapparaten, moeten alle andere Modern POS-toepassingen voor communicatie met POS-randapparaten die zijn geconfigureerd in het hardwareprofiel, gebruik maken van het IIS-hardwarestation. Daarom vereist elk exemplaar van de IIS-hardwarestation een computer waarop de webservice wordt uitgevoerd en de toepassing die met de apparaten communiceert. Het IIS-hardwarestation is vereist voor alle niet-Windows-versies van Modern POS.
+<span data-ttu-id="0d24a-274">U kunt de IIS-versie of de zelfstandige versie van het hardwarestation op twee manieren gebruiken.</span><span class="sxs-lookup"><span data-stu-id="0d24a-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="0d24a-275">De beschrijving 'IIS' betekent dat de POS-toepassing verbinding maakt met het hardwarestation via Microsoft Internet Information Services.</span><span class="sxs-lookup"><span data-stu-id="0d24a-275">The descriptor “IIS” implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="0d24a-276">De POS-toepassing maakt verbinding met het IIS-hardwarestation via webservices die worden uitgevoerd op een computer waarop de apparaten zijn aangesloten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="0d24a-277">Wanneer IIS wordt gebruikt, kunnen de detailhandelrandapparaten die zijn aangesloten op een hardwarestation worden gebruikt door iedere POS-kassa in hetzelfde netwerk als het IIS-hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="0d24a-278">Omdat alleen Modern POS voor Windows ingebouwde ondersteuning heeft voor detailhandelrandapparaten, moeten alle andere Modern POS-toepassingen voor communicatie met POS-randapparaten die zijn geconfigureerd in het hardwareprofiel, gebruik maken van het IIS-hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="0d24a-279">Daarom vereist elk exemplaar van de IIS-hardwarestation een computer waarop de webservice wordt uitgevoerd en de toepassing die met de apparaten communiceert.</span><span class="sxs-lookup"><span data-stu-id="0d24a-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="0d24a-280">Het IIS-hardwarestation is vereist voor alle niet-Windows-versies van Modern POS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
 
-#### <a name="dedicated"></a>Specifiek
+#### <a name="dedicated"></a><span data-ttu-id="0d24a-281">Specifiek</span><span class="sxs-lookup"><span data-stu-id="0d24a-281">Dedicated</span></span>
 
-Modern POS detecteert door middel van hardwarestations van het type **Specifiek** dat randapparaten rechtstreeks zijn aangesloten op de computer waarop de toepassing wordt gebruikt. Het type **Specifiek** kan echter ook worden gebruikt voor IIS-hardwarestations. In een traditioneel scenario met een vaste POS waarin Cloud POS wordt gebruikt als POS-toepassing, wordt het hardwarestation van het type **Specifiek** gebruikt voor IIS-hardwarestations die zijn geïmplementeerd op dezelfde computer waarop Cloud POS draait. Voor wat betreft detailhandelrandapparaten biedt het specifiek IIS-hardwarestation betere ondersteuning voor detailhandelrandapparaten in traditionele scenario's met een vaste POS. Specifieke hardwarestations ondersteunen alle randapparatuur die worden ondersteund in het hardwareprofiel.
+<span data-ttu-id="0d24a-282">Modern POS detecteert door middel van hardwarestations van het type **Specifiek** dat randapparaten rechtstreeks zijn aangesloten op de computer waarop de toepassing wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="0d24a-283">Het type **Specifiek** kan echter ook worden gebruikt voor IIS-hardwarestations.</span><span class="sxs-lookup"><span data-stu-id="0d24a-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="0d24a-284">In een traditioneel scenario met een vaste POS waarin Cloud POS wordt gebruikt als POS-toepassing, wordt het hardwarestation van het type **Specifiek** gebruikt voor IIS-hardwarestations die zijn geïmplementeerd op dezelfde computer waarop Cloud POS draait.</span><span class="sxs-lookup"><span data-stu-id="0d24a-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="0d24a-285">Voor wat betreft detailhandelrandapparaten biedt het specifiek IIS-hardwarestation betere ondersteuning voor detailhandelrandapparaten in traditionele scenario's met een vaste POS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="0d24a-286">Specifieke hardwarestations ondersteunen alle randapparatuur die worden ondersteund in het hardwareprofiel.</span><span class="sxs-lookup"><span data-stu-id="0d24a-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
 
-#### <a name="shared"></a>Gedeeld
+#### <a name="shared"></a><span data-ttu-id="0d24a-287">Gedeeld</span><span class="sxs-lookup"><span data-stu-id="0d24a-287">Shared</span></span>
 
-Gedeelde hardwarestations zijn bedoeld om in de loop van de dag door meerdere POS-apparaten te worden gebruikt. Gedeelde hardwarestations zijn geoptimaliseerd voor ondersteuning van uitsluitend kassaladen, kassabonprinters en betalingsterminals. U kunt niet rechtstreeks andere apparaten aansluiten zoals zelfstandige streepjescodescanners, MSR's, regelweergaven, weegschalen en dergelijke. Als u dit wel doet, zullen conflicten optreden wanneer meerdere POS-apparaten die randapparatuur op hetzelfde moment proberen aan te spreken. Hier ziet u hoe conflicten voor ondersteunde apparaten worden beheerd:
+<span data-ttu-id="0d24a-288">Gedeelde hardwarestations zijn bedoeld om in de loop van de dag door meerdere POS-apparaten te worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="0d24a-289">Gedeelde hardwarestations zijn geoptimaliseerd voor ondersteuning van uitsluitend kassaladen, kassabonprinters en betalingsterminals.</span><span class="sxs-lookup"><span data-stu-id="0d24a-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="0d24a-290">U kunt niet rechtstreeks andere apparaten aansluiten zoals zelfstandige streepjescodescanners, MSR's, regelweergaven, weegschalen en dergelijke.</span><span class="sxs-lookup"><span data-stu-id="0d24a-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="0d24a-291">Als u dit wel doet, zullen conflicten optreden wanneer meerdere POS-apparaten die randapparatuur op hetzelfde moment proberen aan te spreken.</span><span class="sxs-lookup"><span data-stu-id="0d24a-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="0d24a-292">Hier ziet u hoe conflicten voor ondersteunde apparaten worden beheerd:</span><span class="sxs-lookup"><span data-stu-id="0d24a-292">Here is how conflicts are managed for supported devices:</span></span>
 
--   **Kassalade:** De kassalade wordt geopend door middel van een gebeurtenis die wordt verzonden naar het apparaat. Het enige probleem dat kan optreden bij het aanroepen van een kassalade, is wanneer de kassalade al is geopend. Bij gedeelde hardwarestations moet de kassalade in het hardwareprofiel worden ingesteld op **Gedeeld**. Deze instelling voorkomt dat het POS controleert of de kassalade al geopend is bij het verzenden van opdrachten voor openen.
--   **Kassabonprinter:** Als twee opdrachten voor het afdrukken van kassabonnen tegelijk naar het hardwarestation worden verzonden, kan, afhankelijk van het apparaat, één van de opdrachten verloren gaan Sommige apparaten hebben intern geheugen of pooling waarmee dit probleem kan worden voorkomen. Als een printopdracht mislukt, ontvangt de kassamedewerker een foutbericht. Vanaf het POS kan de printopdracht opnieuw worden verzonden.
--   **Betalingsterminal:** Als een kassamedewerker een transactie wil laten betalen op een betalingsterminal die al wordt gebruikt, komt een bericht terug dat de terminal in gebruik is. De kassamedewerker wordt gevraag het later opnieuw te proberen. Meestal ziet de kassamedewerker dat een terminal in gebruik is en wacht totdat de andere transactie is voltooid voordat de transactie opnieuw wordt aangeboden.
+-   <span data-ttu-id="0d24a-293">**Kassalade:** De kassalade wordt geopend door middel van een gebeurtenis die wordt verzonden naar het apparaat.</span><span class="sxs-lookup"><span data-stu-id="0d24a-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="0d24a-294">Het enige probleem dat kan optreden bij het aanroepen van een kassalade, is wanneer de kassalade al is geopend.</span><span class="sxs-lookup"><span data-stu-id="0d24a-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="0d24a-295">Bij gedeelde hardwarestations moet de kassalade in het hardwareprofiel worden ingesteld op **Gedeeld**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="0d24a-296">Deze instelling voorkomt dat het POS controleert of de kassalade al geopend is bij het verzenden van opdrachten voor openen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+-   <span data-ttu-id="0d24a-297">**Kassabonprinter:** Als twee opdrachten voor het afdrukken van kassabonnen tegelijk naar het hardwarestation worden verzonden, kan, afhankelijk van het apparaat, één van de opdrachten verloren gaan</span><span class="sxs-lookup"><span data-stu-id="0d24a-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="0d24a-298">Sommige apparaten hebben intern geheugen of pooling waarmee dit probleem kan worden voorkomen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="0d24a-299">Als een printopdracht mislukt, ontvangt de kassamedewerker een foutbericht. Vanaf het POS kan de printopdracht opnieuw worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="0d24a-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+-   <span data-ttu-id="0d24a-300">**Betalingsterminal:** Als een kassamedewerker een transactie wil laten betalen op een betalingsterminal die al wordt gebruikt, komt een bericht terug dat de terminal in gebruik is. De kassamedewerker wordt gevraag het later opnieuw te proberen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="0d24a-301">Meestal ziet de kassamedewerker dat een terminal in gebruik is en wacht totdat de andere transactie is voltooid voordat de transactie opnieuw wordt aangeboden.</span><span class="sxs-lookup"><span data-stu-id="0d24a-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
 
-In een toekomstige versie wordt validatie ingevoerd, om te detecteren of niet-ondersteunde apparaten zijn ingesteld voor een hardwareprofiel dat is toegewezen aan een gedeeld hardwarestation. Als een niet-ondersteund apparaat wordt gedetecteerd, krijgt de gebruiker een bericht waarin wordt gemeld dat het apparaat niet wordt ondersteund voor gedeelde hardware stations. In het geval van gedeelde hardwarestations is de optie **Selecteren bij offertes** ingesteld op **Ja** op het kassaniveau. De POS-gebruiker wordt vervolgens gevraagd een hardwarestation selecteren, wanneer op het POS een betalingsmethode wordt geselecteerd voor een transactie. Als het hardwarestation pas op het moment van het aanbieden wordt geselecteerd, wordt de selectie van het hardwarestation rechtstreeks aan de POS-werkstroom voor mobiele scenario's toegevoegd. Een extra voordeel is dat de regelweergave op de betalingsterminal niet wordt gebruikt in gedeelde scenario's. Als de betalingsterminal wordt gebruikt als de regelweergave, kunnen andere gebruikers deze terminal mogelijk niet gebruiken totdat de transactie is voltooid. In mobiele scenario's kunnen gedurende een langere periode regels worden toegevoegd aan een transactie. Daarom is de optie **Selecteren bij offertes** vereist, om te kunnen garanderen dat het apparaat maximaal beschikbaar is.
+<span data-ttu-id="0d24a-302">In een toekomstige versie wordt validatie ingevoerd, om te detecteren of niet-ondersteunde apparaten zijn ingesteld voor een hardwareprofiel dat is toegewezen aan een gedeeld hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="0d24a-303">Als een niet-ondersteund apparaat wordt gedetecteerd, krijgt de gebruiker een bericht waarin wordt gemeld dat het apparaat niet wordt ondersteund voor gedeelde hardware stations.</span><span class="sxs-lookup"><span data-stu-id="0d24a-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="0d24a-304">In het geval van gedeelde hardwarestations is de optie **Selecteren bij offertes** ingesteld op **Ja** op het kassaniveau.</span><span class="sxs-lookup"><span data-stu-id="0d24a-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="0d24a-305">De POS-gebruiker wordt vervolgens gevraagd een hardwarestation selecteren, wanneer op het POS een betalingsmethode wordt geselecteerd voor een transactie.</span><span class="sxs-lookup"><span data-stu-id="0d24a-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="0d24a-306">Als het hardwarestation pas op het moment van het aanbieden wordt geselecteerd, wordt de selectie van het hardwarestation rechtstreeks aan de POS-werkstroom voor mobiele scenario's toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="0d24a-307">Een extra voordeel is dat de regelweergave op de betalingsterminal niet wordt gebruikt in gedeelde scenario's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="0d24a-308">Als de betalingsterminal wordt gebruikt als de regelweergave, kunnen andere gebruikers deze terminal mogelijk niet gebruiken totdat de transactie is voltooid.</span><span class="sxs-lookup"><span data-stu-id="0d24a-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="0d24a-309">In mobiele scenario's kunnen gedurende een langere periode regels worden toegevoegd aan een transactie.</span><span class="sxs-lookup"><span data-stu-id="0d24a-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="0d24a-310">Daarom is de optie **Selecteren bij offertes** vereist, om te kunnen garanderen dat het apparaat maximaal beschikbaar is.</span><span class="sxs-lookup"><span data-stu-id="0d24a-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
 
-### <a name="network-peripherals"></a>Op netwerk aangesloten randapparaten
+### <a name="network-peripherals"></a><span data-ttu-id="0d24a-311">Op netwerk aangesloten randapparaten</span><span class="sxs-lookup"><span data-stu-id="0d24a-311">Network peripherals</span></span>
 
-Met de aanduiding Netwerk voor apparaten in het hardwareprofiel kunnen kassaladen, kassabonprinters en betalingsterminals worden aangesloten via een netwerkverbinding.
+<span data-ttu-id="0d24a-312">Met de aanduiding Netwerk voor apparaten in het hardwareprofiel kunnen kassaladen, kassabonprinters en betalingsterminals worden aangesloten via een netwerkverbinding.</span><span class="sxs-lookup"><span data-stu-id="0d24a-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
 
-#### <a name="modern-pos-for-windows"></a>Modern POS voor Windows
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="0d24a-313">Modern POS voor Windows</span><span class="sxs-lookup"><span data-stu-id="0d24a-313">Modern POS for Windows</span></span>
 
-U kunt op twee plaatsen IP-adressen voor netwerkrandapparaten opgeven. Als de Modern POS-Windows-client één set netwerkrandapparaten gebruikt, moet u de IP-adressen voor die apparaten instellen via de optie **IP-configuratie** optie in het actievenster van de kassa. Bij apparaten die worden gedeeld tussen de POS-kassa's kan een hardwareprofiel, waaraan netwerkapparaten zijn toegewezen, rechtstreeks aan een gedeeld hardwarestation worden toegewezen. Om IP-adressen toe te wijzen, selecteert u dat hardwarestation op de pagina **Detailhandelwinkels**. Vervolgens geeft u met de optie **IP-configuratie** in de sectie **Hardwarestations** de netwerkapparaten op die aan dat hardwarestation zijn toegewezen. Voor hardwarestations die alleen netwerkapparaten hebben, hoeft u niet het hardwarestation zelf te implementeren. In dit geval is het hardwarestation alleen nodig om apparaten met netwerkadressen conceptueel te groeperen op basis van hun locatie in de winkel.
+<span data-ttu-id="0d24a-314">U kunt op twee plaatsen IP-adressen voor netwerkrandapparaten opgeven.</span><span class="sxs-lookup"><span data-stu-id="0d24a-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="0d24a-315">Als de Modern POS-Windows-client één set netwerkrandapparaten gebruikt, moet u de IP-adressen voor die apparaten instellen via de optie **IP-configuratie** optie in het actievenster van de kassa.</span><span class="sxs-lookup"><span data-stu-id="0d24a-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="0d24a-316">Bij apparaten die worden gedeeld tussen de POS-kassa's kan een hardwareprofiel, waaraan netwerkapparaten zijn toegewezen, rechtstreeks aan een gedeeld hardwarestation worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="0d24a-317">Om IP-adressen toe te wijzen, selecteert u dat hardwarestation op de pagina **Detailhandelwinkels**. Vervolgens geeft u met de optie **IP-configuratie** in de sectie **Hardwarestations** de netwerkapparaten op die aan dat hardwarestation zijn toegewezen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="0d24a-318">Voor hardwarestations die alleen netwerkapparaten hebben, hoeft u niet het hardwarestation zelf te implementeren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="0d24a-319">In dit geval is het hardwarestation alleen nodig om apparaten met netwerkadressen conceptueel te groeperen op basis van hun locatie in de winkel.</span><span class="sxs-lookup"><span data-stu-id="0d24a-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS voor iOS en Modern POS voor Android
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="0d24a-320">Cloud POS, Modern POS voor iOS en Modern POS voor Android</span><span class="sxs-lookup"><span data-stu-id="0d24a-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
 
-De logica die fysiek aangesloten randapparaten en randapparaten in een netwerk aanstuurt, bevindt zich in het hardwarestation. Daarom moet voor alle POS-clients, met uitzondering van Modern POS voor Windows, een IIS-hardwarestation worden geïmplementeerd en actief zijn, zodat het POS kan communiceren met randapparaten, ongeacht of deze apparaten fysiek zijn aangesloten op een hardwarestation of benaderd worden via het netwerk.
+<span data-ttu-id="0d24a-321">De logica die fysiek aangesloten randapparaten en randapparaten in een netwerk aanstuurt, bevindt zich in het hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="0d24a-322">Daarom moet voor alle POS-clients, met uitzondering van Modern POS voor Windows, een IIS-hardwarestation worden geïmplementeerd en actief zijn, zodat het POS kan communiceren met randapparaten, ongeacht of deze apparaten fysiek zijn aangesloten op een hardwarestation of benaderd worden via het netwerk.</span><span class="sxs-lookup"><span data-stu-id="0d24a-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
 
-## <a name="setup-and-configuration"></a>Instellingen en configuratie
-### <a name="hardware-station-installation"></a>Het hardwarestation installeren
+## <a name="setup-and-configuration"></a><span data-ttu-id="0d24a-323">Instellingen en configuratie</span><span class="sxs-lookup"><span data-stu-id="0d24a-323">Setup and configuration</span></span>
+### <a name="hardware-station-installation"></a><span data-ttu-id="0d24a-324">Het hardwarestation installeren</span><span class="sxs-lookup"><span data-stu-id="0d24a-324">Hardware station installation</span></span>
 
-Zie voor meer informatie het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
+<span data-ttu-id="0d24a-325">Zie voor meer informatie het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS voor Windows installeren en configureren
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="0d24a-326">Modern POS voor Windows installeren en configureren</span><span class="sxs-lookup"><span data-stu-id="0d24a-326">Modern POS for Windows setup and configuration</span></span>
 
-Zie voor meer informatie het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
+<span data-ttu-id="0d24a-327">Zie voor meer informatie het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
 
-### <a name="opos-device-setup-and-configuration"></a>Een OPOS-apparaat installeren en configureren
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="0d24a-328">Een OPOS-apparaat installeren en configureren</span><span class="sxs-lookup"><span data-stu-id="0d24a-328">OPOS device setup and configuration</span></span>
 
-Zie de sectie 'Ondersteunde interfaces' in dit document voor meer informatie over OPOS-onderdelen. OPOS-stuurprogramma's worden gewoonlijk geleverd door de fabrikant van het apparaat. Wanneer een OPOS-stuurprogramma is geïnstalleerd, wordt een sleutel toegevoegd aan het Windows-register op een van de volgende locaties:
+<span data-ttu-id="0d24a-329">Zie de sectie 'Ondersteunde interfaces' in dit document voor meer informatie over OPOS-onderdelen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="0d24a-330">OPOS-stuurprogramma's worden gewoonlijk geleverd door de fabrikant van het apparaat.</span><span class="sxs-lookup"><span data-stu-id="0d24a-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="0d24a-331">Wanneer een OPOS-stuurprogramma is geïnstalleerd, wordt een sleutel toegevoegd aan het Windows-register op een van de volgende locaties:</span><span class="sxs-lookup"><span data-stu-id="0d24a-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
 
--   **32-bitssysteem:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64-bitssysteem:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   <span data-ttu-id="0d24a-332">**32-bitssysteem:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+-   <span data-ttu-id="0d24a-333">**64-bitssysteem:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
 
-Binnen de registerlocatie ServiceOPOS worden geconfigureerde apparaten ingedeeld op basis van hun OPOS-apparaatklasse. Meerdere stuurprogramma's worden opgeslagen.
+<span data-ttu-id="0d24a-334">Binnen de registerlocatie ServiceOPOS worden geconfigureerde apparaten ingedeeld op basis van hun OPOS-apparaatklasse.</span><span class="sxs-lookup"><span data-stu-id="0d24a-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="0d24a-335">Meerdere stuurprogramma's worden opgeslagen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-335">Multiple device drivers are saved.</span></span>
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>Ondersteunde scenario's op type hardwarestation
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>Ondersteuning voor clients: IPC-hardwarestation versus IIS-hardwarestation
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="0d24a-336">Ondersteunde scenario's op type hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-336">Supported scenarios by hardware station type</span></span>
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="0d24a-337">Ondersteuning voor clients: IPC-hardwarestation versus IIS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
 
-In de volgende tabel ziet u de ondersteunde topologieën en implementatiescenario's.
+<span data-ttu-id="0d24a-338">In de volgende tabel ziet u de ondersteunde topologieën en implementatiescenario's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
 
-| Client      | IPC-hardwarestation | ISS-hardwarestation |
+| <span data-ttu-id="0d24a-339">Client</span><span class="sxs-lookup"><span data-stu-id="0d24a-339">Client</span></span>      | <span data-ttu-id="0d24a-340">IPC-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-340">IPC hardware station</span></span> | <span data-ttu-id="0d24a-341">ISS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-341">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Windows-app | Ja                  | Ja                  |
-| Cloud POS   | Nee                   | Ja                  |
-| Android     | Nee                   | Ja                  |
-| iOS         | Nee                   | Ja                  |
+| <span data-ttu-id="0d24a-342">Windows-app</span><span class="sxs-lookup"><span data-stu-id="0d24a-342">Windows app</span></span> | <span data-ttu-id="0d24a-343">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-343">Yes</span></span>                  | <span data-ttu-id="0d24a-344">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-344">Yes</span></span>                  |
+| <span data-ttu-id="0d24a-345">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="0d24a-345">Cloud POS</span></span>   | <span data-ttu-id="0d24a-346">Nee</span><span class="sxs-lookup"><span data-stu-id="0d24a-346">No</span></span>                   | <span data-ttu-id="0d24a-347">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-347">Yes</span></span>                  |
+| <span data-ttu-id="0d24a-348">Android</span><span class="sxs-lookup"><span data-stu-id="0d24a-348">Android</span></span>     | <span data-ttu-id="0d24a-349">Nee</span><span class="sxs-lookup"><span data-stu-id="0d24a-349">No</span></span>                   | <span data-ttu-id="0d24a-350">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-350">Yes</span></span>                  |
+| <span data-ttu-id="0d24a-351">iOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-351">iOS</span></span>         | <span data-ttu-id="0d24a-352">Nee</span><span class="sxs-lookup"><span data-stu-id="0d24a-352">No</span></span>                   | <span data-ttu-id="0d24a-353">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-353">Yes</span></span>                  |
 
-### <a name="network-peripherals"></a>Op netwerk aangesloten randapparaten
+### <a name="network-peripherals"></a><span data-ttu-id="0d24a-354">Op netwerk aangesloten randapparaten</span><span class="sxs-lookup"><span data-stu-id="0d24a-354">Network peripherals</span></span>
 
-Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestation dat is geïntegreerd in de toepassing Modern POS voor Windows. Voor alle overige clients moet u een ISS-hardwarestation implementeren.
+<span data-ttu-id="0d24a-355">Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestation dat is geïntegreerd in de toepassing Modern POS voor Windows.</span><span class="sxs-lookup"><span data-stu-id="0d24a-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="0d24a-356">Voor alle overige clients moet u een ISS-hardwarestation implementeren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-356">For all other clients, you must deploy an IIS hardware station.</span></span>
 
-| Client      | IPC-hardwarestation | ISS-hardwarestation |
+| <span data-ttu-id="0d24a-357">Client</span><span class="sxs-lookup"><span data-stu-id="0d24a-357">Client</span></span>      | <span data-ttu-id="0d24a-358">IPC-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-358">IPC hardware station</span></span> | <span data-ttu-id="0d24a-359">ISS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-359">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Windows-app | Ja                  | Ja                  |
-| Cloud POS   | Nee                   | Ja                  |
-| Android     | Nee                   | Ja                  |
-| iOS         | Nee                   | Ja                  |
+| <span data-ttu-id="0d24a-360">Windows-app</span><span class="sxs-lookup"><span data-stu-id="0d24a-360">Windows app</span></span> | <span data-ttu-id="0d24a-361">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-361">Yes</span></span>                  | <span data-ttu-id="0d24a-362">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-362">Yes</span></span>                  |
+| <span data-ttu-id="0d24a-363">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="0d24a-363">Cloud POS</span></span>   | <span data-ttu-id="0d24a-364">Nee</span><span class="sxs-lookup"><span data-stu-id="0d24a-364">No</span></span>                   | <span data-ttu-id="0d24a-365">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-365">Yes</span></span>                  |
+| <span data-ttu-id="0d24a-366">Android</span><span class="sxs-lookup"><span data-stu-id="0d24a-366">Android</span></span>     | <span data-ttu-id="0d24a-367">Nee</span><span class="sxs-lookup"><span data-stu-id="0d24a-367">No</span></span>                   | <span data-ttu-id="0d24a-368">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-368">Yes</span></span>                  |
+| <span data-ttu-id="0d24a-369">iOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-369">iOS</span></span>         | <span data-ttu-id="0d24a-370">Nee</span><span class="sxs-lookup"><span data-stu-id="0d24a-370">No</span></span>                   | <span data-ttu-id="0d24a-371">Ja</span><span class="sxs-lookup"><span data-stu-id="0d24a-371">Yes</span></span>                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>Ondersteunde apparaattypen op type hardwarestation
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS voor Windows met een IPC-hardwarestation (geïntegreerd)
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Ondersteunde apparaatklasse</th>
-<th>Ondersteunde interfaces</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Printer</td>
-<td><ul>
-<li>OPOS</li>
-<li>Windows-stuurprogramma</li>
-<li>Apparaat</li>
-<li>Netwerk</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Printer 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Windows-stuurprogramma</li>
-<li>Apparaat</li>
-<li>Netwerk</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Regelweergave</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Twee schermen</td>
-<td>Windows-stuurprogramma</td>
-</tr>
-<tr class="odd">
-<td>MSR</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (instellen is niet nodig)</li>
-<li>Keyboard-wedge (instellen is niet nodig)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Wisseluitschrijver</td>
-<td><ul>
-<li>OPOS</li>
-<li>Netwerk <strong>Opmerking:</strong> U kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Lade 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Netwerk <strong>Opmerking:</strong> U kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Scanner</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (instellen is niet nodig)</li>
-<li>Keyboard-wedge (instellen is niet nodig)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Scanner 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (instellen is niet nodig)</li>
-<li>Keyboard-wedge (instellen is niet nodig)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Schaal</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Pinapparaat</td>
-<td>OPOS (ondersteuning beschikbaar via de aanpassing van de betalingsconnector)</td>
-</tr>
-<tr class="even">
-<td>Handtekeningregistratie</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Betalingsterminal </td>
-<td><ul>
-<li>Aangepaste apparaatondersteuning</li>
-<li>Netwerk (zie de documentatie van de betalingsconnector voor meer informatie)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Alle moderne POS-clients met een specifiek ISS-hardwarestation
-
-**Opmerking:** Als het IIS-hardwarestation 'specifiek' is, bestaat er een één-op-één-relatie tussen de POS-client en het hardwarestation.
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="0d24a-372">Ondersteunde apparaattypen op type hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-372">Supported device types by hardware station type</span></span>
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="0d24a-373">Modern POS voor Windows met een IPC-hardwarestation (geïntegreerd)</span><span class="sxs-lookup"><span data-stu-id="0d24a-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
 <table>
 <colgroup>
@@ -341,82 +239,100 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ondersteunde apparaatklasse</th>
-<th>Ondersteunde interfaces</th>
+<th><span data-ttu-id="0d24a-374">Ondersteunde apparaatklasse</span><span class="sxs-lookup"><span data-stu-id="0d24a-374">Supported device class</span></span></th>
+<th><span data-ttu-id="0d24a-375">Ondersteunde interfaces</span><span class="sxs-lookup"><span data-stu-id="0d24a-375">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Printer</td>
+<td><span data-ttu-id="0d24a-376">Printer</span><span class="sxs-lookup"><span data-stu-id="0d24a-376">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows-stuurprogramma <strong>Opmerking:</strong> Bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</li>
-<li>Netwerk</li>
+<li><span data-ttu-id="0d24a-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-377">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-378">Windows-stuurprogramma</span><span class="sxs-lookup"><span data-stu-id="0d24a-378">Windows driver</span></span></li>
+<li><span data-ttu-id="0d24a-379">Apparaat</span><span class="sxs-lookup"><span data-stu-id="0d24a-379">Device</span></span></li>
+<li><span data-ttu-id="0d24a-380">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-380">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Printer 2</td>
+<td><span data-ttu-id="0d24a-381">Printer 2</span><span class="sxs-lookup"><span data-stu-id="0d24a-381">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows-stuurprogramma</li>
-<li>Netwerk</li>
+<li><span data-ttu-id="0d24a-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-382">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-383">Windows-stuurprogramma</span><span class="sxs-lookup"><span data-stu-id="0d24a-383">Windows driver</span></span></li>
+<li><span data-ttu-id="0d24a-384">Apparaat</span><span class="sxs-lookup"><span data-stu-id="0d24a-384">Device</span></span></li>
+<li><span data-ttu-id="0d24a-385">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-385">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Regelweergave</td>
-<td>OPOS</td>
+<td><span data-ttu-id="0d24a-386">Regelweergave</span><span class="sxs-lookup"><span data-stu-id="0d24a-386">Line display</span></span></td>
+<td><span data-ttu-id="0d24a-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-387">OPOS</span></span></td>
 </tr>
 <tr class="even">
-<td>MSR</td>
-<td>OPOS</td>
+<td><span data-ttu-id="0d24a-388">Twee schermen</span><span class="sxs-lookup"><span data-stu-id="0d24a-388">Dual display</span></span></td>
+<td><span data-ttu-id="0d24a-389">Windows-stuurprogramma</span><span class="sxs-lookup"><span data-stu-id="0d24a-389">Windows driver</span></span></td>
 </tr>
 <tr class="odd">
-<td>Wisseluitschrijver</td>
+<td><span data-ttu-id="0d24a-390">MSR</span><span class="sxs-lookup"><span data-stu-id="0d24a-390">MSR</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Netwerk <strong>Opmerking:</strong> U kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
+<li><span data-ttu-id="0d24a-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-391">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-392">UWP (instellen is niet nodig)</span><span class="sxs-lookup"><span data-stu-id="0d24a-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="0d24a-393">Keyboard-wedge (instellen is niet nodig)</span><span class="sxs-lookup"><span data-stu-id="0d24a-393">Keyboard wedge (No setup is required.)</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Lade 2</td>
+<td><span data-ttu-id="0d24a-394">Wisseluitschrijver</span><span class="sxs-lookup"><span data-stu-id="0d24a-394">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Netwerk</li>
+<li><span data-ttu-id="0d24a-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-395">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-396">Netwerk <strong>Opmerking:</strong> U kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</span><span class="sxs-lookup"><span data-stu-id="0d24a-396">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Scanner</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Scanner 2</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Schaal</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Pinapparaat</td>
-<td>OPOS (ondersteuning beschikbaar via de aanpassing van de betalingsconnector)</td>
-</tr>
-<tr class="odd">
-<td>Handtek. registreren</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Betalingsterminal </td>
+<td><span data-ttu-id="0d24a-397">Lade 2</span><span class="sxs-lookup"><span data-stu-id="0d24a-397">Drawer 2</span></span></td>
 <td><ul>
-<li>Aangepaste apparaatondersteuning</li>
-<li>Netwerk (zie de documentatie van de betalingsconnector voor meer informatie)</li>
+<li><span data-ttu-id="0d24a-398">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-398">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-399">Netwerk <strong>Opmerking:</strong> U kunt slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</span><span class="sxs-lookup"><span data-stu-id="0d24a-399">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-400">Scanner</span><span class="sxs-lookup"><span data-stu-id="0d24a-400">Scanner</span></span></td>
+<td><ul>
+<li><span data-ttu-id="0d24a-401">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-401">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-402">UWP (instellen is niet nodig)</span><span class="sxs-lookup"><span data-stu-id="0d24a-402">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="0d24a-403">Keyboard-wedge (instellen is niet nodig)</span><span class="sxs-lookup"><span data-stu-id="0d24a-403">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-404">Scanner 2</span><span class="sxs-lookup"><span data-stu-id="0d24a-404">Scanner 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="0d24a-405">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-405">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-406">UWP (instellen is niet nodig)</span><span class="sxs-lookup"><span data-stu-id="0d24a-406">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="0d24a-407">Keyboard-wedge (instellen is niet nodig)</span><span class="sxs-lookup"><span data-stu-id="0d24a-407">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-408">Schaal</span><span class="sxs-lookup"><span data-stu-id="0d24a-408">Scale</span></span></td>
+<td><span data-ttu-id="0d24a-409">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-409">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-410">Pinapparaat</span><span class="sxs-lookup"><span data-stu-id="0d24a-410">PIN pad</span></span></td>
+<td><span data-ttu-id="0d24a-411">OPOS (ondersteuning beschikbaar via de aanpassing van de betalingsconnector)</span><span class="sxs-lookup"><span data-stu-id="0d24a-411">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-412">Handtekeningregistratie</span><span class="sxs-lookup"><span data-stu-id="0d24a-412">Signature capture</span></span></td>
+<td><span data-ttu-id="0d24a-413">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-413">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-414">Betalingsterminal </span><span class="sxs-lookup"><span data-stu-id="0d24a-414">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="0d24a-415">Aangepaste apparaatondersteuning</span><span class="sxs-lookup"><span data-stu-id="0d24a-415">Custom device support</span></span></li>
+<li><span data-ttu-id="0d24a-416">Netwerk (zie de documentatie van de betalingsconnector voor meer informatie)</span><span class="sxs-lookup"><span data-stu-id="0d24a-416">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Alle Modern POS-clients met een gedeeld ISS-hardwarestation
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="0d24a-417">Alle moderne POS-clients met een specifiek ISS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-417">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-**Opmerking:** Als het IIS-hardwarestation 'gedeeld' is, kunnen meerdere apparaten tegelijk gebruik maken van het hardwarestation. Gebruik in dit scenario alleen de apparaten die worden vermeld in de onderstaande tabel. Als u apparaten probeert te delen die hier niet worden vermeld, zoals streepjescodescanners en MSR's, treden fouten op wanneer meerdere apparaten het zelfde randapparaat willen aanspreken. In de toekomst worden dergelijke configuraties expliciet voorkomen.
+<span data-ttu-id="0d24a-418">**Opmerking:** Als het IIS-hardwarestation 'specifiek' is, bestaat er een één-op-één-relatie tussen de POS-client en het hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-418">**Note:** When the IIS hardware station is “dedicated,” there is a one-to-one relationship between the POS client and the hardware station.</span></span>
 
 <table>
 <colgroup>
@@ -425,386 +341,470 @@ Netwerkrandapparaten kunnen rechtstreeks worden ondersteund via het hardwarestat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ondersteunde apparaatklasse</th>
-<th>Ondersteunde interfaces</th>
+<th><span data-ttu-id="0d24a-419">Ondersteunde apparaatklasse</span><span class="sxs-lookup"><span data-stu-id="0d24a-419">Supported device class</span></span></th>
+<th><span data-ttu-id="0d24a-420">Ondersteunde interfaces</span><span class="sxs-lookup"><span data-stu-id="0d24a-420">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Printer</td>
+<td><span data-ttu-id="0d24a-421">Printer</span><span class="sxs-lookup"><span data-stu-id="0d24a-421">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows-stuurprogramma <strong>Opmerking:</strong> Bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</li>
-<li>Netwerk</li>
+<li><span data-ttu-id="0d24a-422">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-422">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-423">Windows-stuurprogramma <strong>Opmerking:</strong> Bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</span><span class="sxs-lookup"><span data-stu-id="0d24a-423">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="0d24a-424">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-424">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Printer 2</td>
+<td><span data-ttu-id="0d24a-425">Printer 2</span><span class="sxs-lookup"><span data-stu-id="0d24a-425">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows-stuurprogramma</li>
-<li>Netwerk</li>
+<li><span data-ttu-id="0d24a-426">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-426">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-427">Windows-stuurprogramma</span><span class="sxs-lookup"><span data-stu-id="0d24a-427">Windows driver</span></span></li>
+<li><span data-ttu-id="0d24a-428">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-428">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Wisseluitschrijver</td>
+<td><span data-ttu-id="0d24a-429">Regelweergave</span><span class="sxs-lookup"><span data-stu-id="0d24a-429">Line display</span></span></td>
+<td><span data-ttu-id="0d24a-430">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-430">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-431">MSR</span><span class="sxs-lookup"><span data-stu-id="0d24a-431">MSR</span></span></td>
+<td><span data-ttu-id="0d24a-432">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-432">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-433">Wisseluitschrijver</span><span class="sxs-lookup"><span data-stu-id="0d24a-433">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Netwerk <strong>Opmerking:</strong> U kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</li>
+<li><span data-ttu-id="0d24a-434">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-434">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-435">Netwerk <strong>Opmerking:</strong> U kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</span><span class="sxs-lookup"><span data-stu-id="0d24a-435">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Lade 2</td>
+<td><span data-ttu-id="0d24a-436">Lade 2</span><span class="sxs-lookup"><span data-stu-id="0d24a-436">Drawer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Netwerk</li>
+<li><span data-ttu-id="0d24a-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-437">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-438">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-438">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Betalingsterminal </td>
+<td><span data-ttu-id="0d24a-439">Scanner</span><span class="sxs-lookup"><span data-stu-id="0d24a-439">Scanner</span></span></td>
+<td><span data-ttu-id="0d24a-440">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-440">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-441">Scanner 2</span><span class="sxs-lookup"><span data-stu-id="0d24a-441">Scanner 2</span></span></td>
+<td><span data-ttu-id="0d24a-442">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-442">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-443">Schaal</span><span class="sxs-lookup"><span data-stu-id="0d24a-443">Scale</span></span></td>
+<td><span data-ttu-id="0d24a-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-444">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-445">Pinapparaat</span><span class="sxs-lookup"><span data-stu-id="0d24a-445">PIN pad</span></span></td>
+<td><span data-ttu-id="0d24a-446">OPOS (ondersteuning beschikbaar via de aanpassing van de betalingsconnector)</span><span class="sxs-lookup"><span data-stu-id="0d24a-446">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-447">Handtek.</span><span class="sxs-lookup"><span data-stu-id="0d24a-447">Sig.</span></span> <span data-ttu-id="0d24a-448">registreren</span><span class="sxs-lookup"><span data-stu-id="0d24a-448">capture</span></span></td>
+<td><span data-ttu-id="0d24a-449">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-449">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-450">Betalingsterminal </span><span class="sxs-lookup"><span data-stu-id="0d24a-450">Payment terminal</span></span></td>
 <td><ul>
-<li>Aangepaste apparaatondersteuning</li>
-<li>Netwerk (zie de documentatie van de betalingsconnector voor meer informatie)</li>
+<li><span data-ttu-id="0d24a-451">Aangepaste apparaatondersteuning</span><span class="sxs-lookup"><span data-stu-id="0d24a-451">Custom device support</span></span></li>
+<li><span data-ttu-id="0d24a-452">Netwerk (zie de documentatie van de betalingsconnector voor meer informatie)</span><span class="sxs-lookup"><span data-stu-id="0d24a-452">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configuration-for-supported-scenarios"></a>Configuratie voor ondersteunde scenario's
-Zie voor meer informatie over het maken van hardwareprofielen het onderwerp [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md). **Opmerking:** Voor Microsoft Dynamics 365 for Retail, versie 1611, wordt het hardwarestationprofiel niet meer gebruikt. Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="0d24a-453">Alle Modern POS-clients met een gedeeld ISS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-453">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS voor Windows met een IPC-hardwarestation (geïntegreerd)
+<span data-ttu-id="0d24a-454">**Opmerking:** Als het IIS-hardwarestation 'gedeeld' is, kunnen meerdere apparaten tegelijk gebruik maken van het hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-454">**Note:** When the IIS hardware station is “shared,” multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="0d24a-455">Gebruik in dit scenario alleen de apparaten die worden vermeld in de onderstaande tabel.</span><span class="sxs-lookup"><span data-stu-id="0d24a-455">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="0d24a-456">Als u apparaten probeert te delen die hier niet worden vermeld, zoals streepjescodescanners en MSR's, treden fouten op wanneer meerdere apparaten het zelfde randapparaat willen aanspreken.</span><span class="sxs-lookup"><span data-stu-id="0d24a-456">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="0d24a-457">In de toekomst worden dergelijke configuraties expliciet voorkomen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-457">In the future, such a configuration will be explicitly prevented.</span></span>
 
-Deze configuratie is de meestgebruikte configuratie voor traditionele, vaste POS-kassa's. In dit scenario wordt de informatie van het hardwareprofiel rechtstreeks toegewezen aan de kassa. Het EFT-terminalnummer moet ook worden ingesteld op de kassa. Volg deze stappen om deze configuratie in te stellen.
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="0d24a-458">Ondersteunde apparaatklasse</span><span class="sxs-lookup"><span data-stu-id="0d24a-458">Supported device class</span></span></th>
+<th><span data-ttu-id="0d24a-459">Ondersteunde interfaces</span><span class="sxs-lookup"><span data-stu-id="0d24a-459">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-460">Printer</span><span class="sxs-lookup"><span data-stu-id="0d24a-460">Printer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="0d24a-461">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-461">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-462">Windows-stuurprogramma <strong>Opmerking:</strong> Bij een Windows-printer in een netwerk moet de gebruiker van het hardwarestation gemachtigd zijn voor toegang tot de printer.</span><span class="sxs-lookup"><span data-stu-id="0d24a-462">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="0d24a-463">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-463">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-464">Printer 2</span><span class="sxs-lookup"><span data-stu-id="0d24a-464">Printer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="0d24a-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-465">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-466">Windows-stuurprogramma</span><span class="sxs-lookup"><span data-stu-id="0d24a-466">Windows driver</span></span></li>
+<li><span data-ttu-id="0d24a-467">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-467">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-468">Wisseluitschrijver</span><span class="sxs-lookup"><span data-stu-id="0d24a-468">Drawer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="0d24a-469">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-469">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-470">Netwerk <strong>Opmerking:</strong> U kunt per hardwareprofiel slechts één lade instellen als <strong>Gebruik van gedeelde ploeg toestaan</strong> is geconfigureerd voor de lade.</span><span class="sxs-lookup"><span data-stu-id="0d24a-470">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="0d24a-471">Lade 2</span><span class="sxs-lookup"><span data-stu-id="0d24a-471">Drawer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="0d24a-472">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-472">OPOS</span></span></li>
+<li><span data-ttu-id="0d24a-473">Netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-473">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="0d24a-474">Betalingsterminal </span><span class="sxs-lookup"><span data-stu-id="0d24a-474">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="0d24a-475">Aangepaste apparaatondersteuning</span><span class="sxs-lookup"><span data-stu-id="0d24a-475">Custom device support</span></span></li>
+<li><span data-ttu-id="0d24a-476">Netwerk (zie de documentatie van de betalingsconnector voor meer informatie)</span><span class="sxs-lookup"><span data-stu-id="0d24a-476">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-1.  Maak een hardwareprofiel aan waarin de vereiste randapparaten zijn geconfigureerd.
-2.  Wijs het hardwareprofiel toe aan de POS-kassa.
-3.  Maak een hardwarestation van het type **Specifiek** voor de winkel waar de POS-kassa wordt gebruikt. Eeen beschrijving is optioneel. **Opmerking:** U hoeft geen andere eigenschappen in te stellen voor het hardwarestation. Alle overige vereiste informatie, zoals het hardwareprofiel, komen uit de kassa zelf.
-4.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
-5.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-6.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-7.  Modern POS voor Windows installeren en activeren
-8.  Start Modern POS voor Windows en ga de aangesloten randapparaten gebruiken.
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="0d24a-477">Configuratie voor ondersteunde scenario's</span><span class="sxs-lookup"><span data-stu-id="0d24a-477">Configuration for supported scenarios</span></span>
+<span data-ttu-id="0d24a-478">Zie voor meer informatie over het maken van hardwareprofielen het onderwerp [Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-478">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span> <span data-ttu-id="0d24a-479">**Opmerking:** Voor Microsoft Dynamics 365 for Retail, versie 1611, wordt het hardwarestationprofiel niet meer gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-479">**Note:** For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="0d24a-480">Kenmerken die u hebt ingesteld in het hardwarestationprofiel maken nu deel uit van het hardwarestation zelf.</span><span class="sxs-lookup"><span data-stu-id="0d24a-480">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Alle moderne POS-clients met een specifiek ISS-hardwarestation
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="0d24a-481">Modern POS voor Windows met een IPC-hardwarestation (geïntegreerd)</span><span class="sxs-lookup"><span data-stu-id="0d24a-481">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
-Deze configuratie kan worden gebruikt voor alle Modern POS-clients met een hardwarestation dat uitsluitend door één POS-kassa wordt gebruikt. Volg deze stappen om deze configuratie in te stellen.
+<span data-ttu-id="0d24a-482">Deze configuratie is de meestgebruikte configuratie voor traditionele, vaste POS-kassa's.</span><span class="sxs-lookup"><span data-stu-id="0d24a-482">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="0d24a-483">In dit scenario wordt de informatie van het hardwareprofiel rechtstreeks toegewezen aan de kassa.</span><span class="sxs-lookup"><span data-stu-id="0d24a-483">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="0d24a-484">Het EFT-terminalnummer moet ook worden ingesteld op de kassa.</span><span class="sxs-lookup"><span data-stu-id="0d24a-484">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="0d24a-485">Volg deze stappen om deze configuratie in te stellen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-485">To set up this configuration, follow these steps.</span></span>
 
-1.  Maak een hardwareprofiel aan waarin de vereiste randapparaten zijn geconfigureerd.
-2.  Maak een hardwarestation van het type **Specifiek** voor de winkel waar de POS-kassa wordt gebruikt.
-3.  Stel op het specifieke hardwarestation de volgende eigenschappen in:
-    -   **Hostnaam:** De naam van de computer waarop het hardwarestation wordt uitgevoerd. **Opmerking:** Cloud POS kan **localhost** omzetten om de lokale computer te bepalen waarop Cloud POS wordt uitgevoerd. Het certificaat dat is vereist om Cloud POS aan het hardwarestation te koppelen, moet echter ook de computernaam 'Localhost' hebben. Om problemen te voorkomen, is het raadzaam dat u een exemplaar van elk specifiek hardwarestation voor de winkel noemt, al naar gelang wat nodig is. Voor elk hardwarestation moet de hostnaam de specifieke computernaam zijn waarin het hardwarestation wordt geïmplementeerd.
-    -   **Poort:** De poort die u wilt gebruiken voor het hardwarestation voor communicatie met de Modern POS-client.
-    -   **Hardwareprofiel:** Als het hardwareprofiel niet is opgegeven op het hardwarestation zelf, wordt het hardwareprofiel gebruikt dat is toegewezen aan de kassa.
-    -   **EFT POS-nummer:** De EFT-terminal-ID die moet worden gebruikt wanneer EFT-autorisaties worden verzonden. Deze ID wordt geleverd door de creditcardverwerker.
-    -   **Pakketnaam:** Het hardwarestationpakket dat moet worden gebruikt wanneer het hardwarestation wordt geïmplementeerd.
+1.  <span data-ttu-id="0d24a-486">Maak een hardwareprofiel aan waarin de vereiste randapparaten zijn geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-486">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="0d24a-487">Wijs het hardwareprofiel toe aan de POS-kassa.</span><span class="sxs-lookup"><span data-stu-id="0d24a-487">Map the hardware profile to the POS register.</span></span>
+3.  <span data-ttu-id="0d24a-488">Maak een hardwarestation van het type **Specifiek** voor de winkel waar de POS-kassa wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-488">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="0d24a-489">Eeen beschrijving is optioneel.</span><span class="sxs-lookup"><span data-stu-id="0d24a-489">A description is optional.</span></span> <span data-ttu-id="0d24a-490">**Opmerking:** U hoeft geen andere eigenschappen in te stellen voor het hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-490">**Note:** You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="0d24a-491">Alle overige vereiste informatie, zoals het hardwareprofiel, komen uit de kassa zelf.</span><span class="sxs-lookup"><span data-stu-id="0d24a-491">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+4.  <span data-ttu-id="0d24a-492">Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-492">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="0d24a-493">Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-493">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="0d24a-494">Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-494">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="0d24a-495">Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-495">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="0d24a-496">Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-496">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="0d24a-497">Modern POS voor Windows installeren en activeren</span><span class="sxs-lookup"><span data-stu-id="0d24a-497">Install and activate Modern POS for Windows.</span></span>
+8.  <span data-ttu-id="0d24a-498">Start Modern POS voor Windows en ga de aangesloten randapparaten gebruiken.</span><span class="sxs-lookup"><span data-stu-id="0d24a-498">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
 
-4.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
-5.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-6.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-7.  Installeer het hardwarestation. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
-8.  Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
-9.  Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.
-10. Start de bewerking **Hardwarestations beheren**.
-11. Klik op **Beheren**.
-12. Ga naar de pagina voor beheer van hardwarestations en stel de optie in om het hardwarestation in te schakelen.
-13. Selecteer het hardwarestation dat u wilt gebruiken en klik op **Koppelen**.
-14. Nadat het hardware-station is gekoppeld, klikt u op **Sluiten**.
-15. Ga naar de pagina voor het selecteren van het hardwarestation en klik op het laatst geselecteerde hardwarestation om dit te activeren.
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="0d24a-499">Alle moderne POS-clients met een specifiek ISS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-499">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Alle Modern POS-clients met een gedeeld ISS-hardwarestation
+<span data-ttu-id="0d24a-500">Deze configuratie kan worden gebruikt voor alle Modern POS-clients met een hardwarestation dat uitsluitend door één POS-kassa wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-500">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="0d24a-501">Volg deze stappen om deze configuratie in te stellen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-501">To set up this configuration, follow these steps.</span></span>
 
-Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwarestations met andere apparaten delen. Volg deze stappen om deze configuratie in te stellen.
+1.  <span data-ttu-id="0d24a-502">Maak een hardwareprofiel aan waarin de vereiste randapparaten zijn geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-502">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="0d24a-503">Maak een hardwarestation van het type **Specifiek** voor de winkel waar de POS-kassa wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-503">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="0d24a-504">Stel op het specifieke hardwarestation de volgende eigenschappen in:</span><span class="sxs-lookup"><span data-stu-id="0d24a-504">On the dedicated hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="0d24a-505">**Hostnaam:** De naam van de computer waarop het hardwarestation wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-505">**Host name** – The name of the host computer where the hardware station will run.</span></span> <span data-ttu-id="0d24a-506">**Opmerking:** Cloud POS kan **localhost** omzetten om de lokale computer te bepalen waarop Cloud POS wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-506">**Note:** Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="0d24a-507">Het certificaat dat is vereist om Cloud POS aan het hardwarestation te koppelen, moet echter ook de computernaam 'Localhost' hebben.</span><span class="sxs-lookup"><span data-stu-id="0d24a-507">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="0d24a-508">Om problemen te voorkomen, is het raadzaam dat u een exemplaar van elk specifiek hardwarestation voor de winkel noemt, al naar gelang wat nodig is.</span><span class="sxs-lookup"><span data-stu-id="0d24a-508">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="0d24a-509">Voor elk hardwarestation moet de hostnaam de specifieke computernaam zijn waarin het hardwarestation wordt geïmplementeerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-509">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+    -   <span data-ttu-id="0d24a-510">**Poort:** De poort die u wilt gebruiken voor het hardwarestation voor communicatie met de Modern POS-client.</span><span class="sxs-lookup"><span data-stu-id="0d24a-510">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="0d24a-511">**Hardwareprofiel:** Als het hardwareprofiel niet is opgegeven op het hardwarestation zelf, wordt het hardwareprofiel gebruikt dat is toegewezen aan de kassa.</span><span class="sxs-lookup"><span data-stu-id="0d24a-511">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    -   <span data-ttu-id="0d24a-512">**EFT POS-nummer:** De EFT-terminal-ID die moet worden gebruikt wanneer EFT-autorisaties worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="0d24a-512">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="0d24a-513">Deze ID wordt geleverd door de creditcardverwerker.</span><span class="sxs-lookup"><span data-stu-id="0d24a-513">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="0d24a-514">**Pakketnaam:** Het hardwarestationpakket dat moet worden gebruikt wanneer het hardwarestation wordt geïmplementeerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-514">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-1.  Maak een hardwareprofiel aan waarin de vereiste randapparaten zijn geconfigureerd.
-2.  Maak een hardwarestation van het type **Gedeeld** voor de winkel waar de POS-kassa wordt gebruikt.
-3.  Stel op het gedeelde hardwarestation de volgende eigenschappen in:
-    -   **Hostnaam:** De naam van de computer waarop het hardwarestation wordt uitgevoerd.
-    -   **Beschrijving:** Tekst die helpt het hardwarestation te identificeren, zoals **Retouren** of **Voorzijde winkel**.
-    -   **Poort:** De poort die u wilt gebruiken voor het hardwarestation voor communicatie met de Modern POS-client.
-    -   **Hardwareprofiel:** Bij gedeelde hardwarestations moet elk hardwarestation een hardwareprofiel hebben. Hardwareprofielen kunnen worden gedeeld tussen hardwarestations, maar aan elk hardwarestation moet er een zijn toegewezen. Bovendien is het raadzaam om gebruik te maken van gedeelde ploegen, als meerdere apparaten gebruik maken van hetzelfde gedeelde hardwarestation. Om een gedeelde ploeg in te stellen, klikt u op **Retail** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**. Selecteer voor elk gedeelde hardwareprofiel de kassalade en stel de optie **Gedeelde ploeglade** in op **Ja**.
-    -   **EFT POS-nummer:** De EFT-terminal-ID die moet worden gebruikt wanneer EFT-autorisaties worden verzonden. Deze ID wordt geleverd door de creditcardverwerker.
-    -   **Pakketnaam:** Het hardwarestationpakket dat moet worden gebruikt wanneer het hardwarestation wordt geïmplementeerd.
+4.  <span data-ttu-id="0d24a-515">Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-515">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="0d24a-516">Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-516">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="0d24a-517">Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-517">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="0d24a-518">Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-518">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="0d24a-519">Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-519">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="0d24a-520">Installeer het hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-520">Install the hardware station.</span></span> <span data-ttu-id="0d24a-521">Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-521">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8.  <span data-ttu-id="0d24a-522">Installeer en activeer Modern POS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-522">Install and activate Modern POS.</span></span> <span data-ttu-id="0d24a-523">Zie voor meer informatie over het installeren van Modern POS het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-523">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9.  <span data-ttu-id="0d24a-524">Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-524">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="0d24a-525">Start de bewerking **Hardwarestations beheren**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-525">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="0d24a-526">Klik op **Beheren**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-526">Click **Manage**.</span></span>
+12. <span data-ttu-id="0d24a-527">Ga naar de pagina voor beheer van hardwarestations en stel de optie in om het hardwarestation in te schakelen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-527">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="0d24a-528">Selecteer het hardwarestation dat u wilt gebruiken en klik op **Koppelen**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-528">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="0d24a-529">Nadat het hardware-station is gekoppeld, klikt u op **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-529">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="0d24a-530">Ga naar de pagina voor het selecteren van het hardwarestation en klik op het laatst geselecteerde hardwarestation om dit te activeren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-530">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
 
-4.  Herhaal stap 2 en 3 voor elk extra hardwarestation dat nodig is in de winkel.
-5.  Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.
-6.  Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-7.  Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren. Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.
-8.  Installeer het hardwarestation op elke hostcomputer die u in stap 2 en 3 hebt ingesteld. Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).
-9.  Installeer en activeer Modern POS. Zie voor meer informatie over het installeren van Modern POS het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).
-10. Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.
-11. Start de bewerking **Hardwarestations beheren**.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="0d24a-531">Alle Modern POS-clients met een gedeeld ISS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-531">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-12. Klik op **Beheren**.
-13. Ga naar de pagina voor beheer van hardwarestations en stel de optie in om het hardwarestation in te schakelen.
-14. Selecteer het hardwarestation dat u wilt gebruiken en klik op **Koppelen**.
-15. Herhaal stap 14 voor elk hardwarestation dat Modern POS gaat gebruiken.
-16. Nadat alle vereiste hardwarestations zijn gekoppeld, klikt u op **Sluiten**.
-17. Ga naar de pagina voor het selecteren van het hardwarestation en klik op het laatst geselecteerde hardwarestation om dit te activeren. **Opmerking:** Als apparaten vaak verschillende hardwarestations gebruiken, raden we aan om Modern POS te configureren om kassiers te vragen een hardwarestation te selecteren, op het moment dat ze beginnen de betalingsmethode te selecteren. Klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**. Selecteer de kassa en stel de optie **Selecteren bij offertes** in op **Ja**. Gebruik de distributieplanning **1090** om wijzigingen te synchroniseren naar de kanaaldatabase.
+<span data-ttu-id="0d24a-532">Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwarestations met andere apparaten delen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-532">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="0d24a-533">Volg deze stappen om deze configuratie in te stellen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-533">To set up this configuration, follow these steps.</span></span>
 
-## <a name="extensibility"></a>Uitbreidbaarheid
-Zie voor informatie over uitbreidbaarheidsscenario's voor het hardwarestation het onderwerp [Uitbreidbaarheid van hardwarestations](dev-itpro/hardware-station-extensibility.md).
+1.  <span data-ttu-id="0d24a-534">Maak een hardwareprofiel aan waarin de vereiste randapparaten zijn geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-534">Create a hardware profile where the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="0d24a-535">Maak een hardwarestation van het type **Gedeeld** voor de winkel waar de POS-kassa wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-535">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="0d24a-536">Stel op het gedeelde hardwarestation de volgende eigenschappen in:</span><span class="sxs-lookup"><span data-stu-id="0d24a-536">On the shared hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="0d24a-537">**Hostnaam:** De naam van de computer waarop het hardwarestation wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-537">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    -   <span data-ttu-id="0d24a-538">**Beschrijving:** Tekst die helpt het hardwarestation te identificeren, zoals **Retouren** of **Voorzijde winkel**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-538">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    -   <span data-ttu-id="0d24a-539">**Poort:** De poort die u wilt gebruiken voor het hardwarestation voor communicatie met de Modern POS-client.</span><span class="sxs-lookup"><span data-stu-id="0d24a-539">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="0d24a-540">**Hardwareprofiel:** Bij gedeelde hardwarestations moet elk hardwarestation een hardwareprofiel hebben.</span><span class="sxs-lookup"><span data-stu-id="0d24a-540">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="0d24a-541">Hardwareprofielen kunnen worden gedeeld tussen hardwarestations, maar aan elk hardwarestation moet er een zijn toegewezen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-541">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="0d24a-542">Bovendien is het raadzaam om gebruik te maken van gedeelde ploegen, als meerdere apparaten gebruik maken van hetzelfde gedeelde hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-542">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="0d24a-543">Om een gedeelde ploeg in te stellen, klikt u op **Retail** &gt; **Afzetkanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Hardwareprofielen**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-543">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="0d24a-544">Selecteer voor elk gedeelde hardwareprofiel de kassalade en stel de optie **Gedeelde ploeglade** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-544">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    -   <span data-ttu-id="0d24a-545">**EFT POS-nummer:** De EFT-terminal-ID die moet worden gebruikt wanneer EFT-autorisaties worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="0d24a-545">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="0d24a-546">Deze ID wordt geleverd door de creditcardverwerker.</span><span class="sxs-lookup"><span data-stu-id="0d24a-546">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="0d24a-547">**Pakketnaam:** Het hardwarestationpakket dat moet worden gebruikt wanneer het hardwarestation wordt geïmplementeerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-547">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-## <a name="security"></a>Beveiliging
-Volgens de huidige beveiligingsnormen moeten de volgende instellingen worden gebruikt in een productieomgeving: **Opmerking:** Het installatieprogramma van het hardwarestation voert automatisch deze wijzigingen in het register door als onderdeel van de installatie via self-service.
+4.  <span data-ttu-id="0d24a-548">Herhaal stap 2 en 3 voor elk extra hardwarestation dat nodig is in de winkel.</span><span class="sxs-lookup"><span data-stu-id="0d24a-548">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5.  <span data-ttu-id="0d24a-549">Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-549">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6.  <span data-ttu-id="0d24a-550">Selecteer de distributieplanning **1090** om het nieuwe hardwareprofiel naar de winkel te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-550">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="0d24a-551">Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-551">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="0d24a-552">Selecteer de distributieplanning **1040** om het nieuwe hardwarestation naar de winkel te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-552">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="0d24a-553">Klik op **Nu uitvoeren** om wijzigingen met het POS te synchroniseren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-553">Click **Run now** to sync changes to the POS.</span></span>
+8.  <span data-ttu-id="0d24a-554">Installeer het hardwarestation op elke hostcomputer die u in stap 2 en 3 hebt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="0d24a-554">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="0d24a-555">Zie voor meer informatie over het installeren van het hardwarestation het onderwerp [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-555">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9.  <span data-ttu-id="0d24a-556">Installeer en activeer Modern POS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-556">Install and activate Modern POS.</span></span> <span data-ttu-id="0d24a-557">Zie voor meer informatie over het installeren van Modern POS het onderwerp [Retail Modern POS configureren en installeren](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-557">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="0d24a-558">Meld u aan bij Modern POS en selecteer **Niet-ladebewerkingen uitvoeren**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-558">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="0d24a-559">Start de bewerking **Hardwarestations beheren**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-559">Start the **Manage hardware stations** operation.</span></span>
 
--   Secure Sockets Layer (SSL) moet zijn uitgeschakeld.
--   Alleen Transport Layer Security (TLS) versie 1.2 (of de actuele hoogste versie) mag zijn ingeschakeld en worden gebruikt. **Opmerking:** Standaard zijn SSL en alle versies van TLS behalve TLS 1.2 uitgeschakeld. Ga als volgt te werk om deze waarden te bewerken of in te schakelen:
-    1.  Druk op de Windows-toets+R om een venster **Uitvoeren** te openen.
-    2.  Typ in het veld **Openen** de tekst **Regedit** en klik vervolgens op **OK**.
-    3.  Als een venster **Gebruikersaccountbeheer** wordt geopend, klikt u op **Ja**.
-    4.  Navigeer in het venster **Register-editor** naar de sleutel **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. De volgende sleutels zijn automatisch ingevoerd om alleen TLS 1.2 toe te staan:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   Geen extra netwerkpoorten mogen geopend zijn, tenzij ze vereist zijn om bekende en opgegeven redenen.
--   Cross-origin resource sharing (CORS) moet zijn uitgeschakeld en de toegestane origins die worden geaccepteerd, moeten zijn opgeven.
--   Alleen vertrouwde certificeringsinstanties moeten worden gebruikt om certificaten te krijgen, die worden gebruikt op computers waarop het hardwarestation draait.
+12. <span data-ttu-id="0d24a-560">Klik op **Beheren**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-560">Click **Manage**.</span></span>
+13. <span data-ttu-id="0d24a-561">Ga naar de pagina voor beheer van hardwarestations en stel de optie in om het hardwarestation in te schakelen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-561">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="0d24a-562">Selecteer het hardwarestation dat u wilt gebruiken en klik op **Koppelen**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-562">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="0d24a-563">Herhaal stap 14 voor elk hardwarestation dat Modern POS gaat gebruiken.</span><span class="sxs-lookup"><span data-stu-id="0d24a-563">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="0d24a-564">Nadat alle vereiste hardwarestations zijn gekoppeld, klikt u op **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-564">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="0d24a-565">Ga naar de pagina voor het selecteren van het hardwarestation en klik op het laatst geselecteerde hardwarestation om dit te activeren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-565">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span> <span data-ttu-id="0d24a-566">**Opmerking:** Als apparaten vaak verschillende hardwarestations gebruiken, raden we aan om Modern POS te configureren om kassiers te vragen een hardwarestation te selecteren, op het moment dat ze beginnen de betalingsmethode te selecteren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-566">**Note:** If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="0d24a-567">Klik op **Retail** &gt; **Kanaalinstelling** &gt; **POS-instellingen** &gt; **Kassa's**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-567">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="0d24a-568">Selecteer de kassa en stel de optie **Selecteren bij offertes** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-568">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="0d24a-569">Gebruik de distributieplanning **1090** om wijzigingen te synchroniseren naar de kanaaldatabase.</span><span class="sxs-lookup"><span data-stu-id="0d24a-569">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
 
-**Opmerking:** Het is zeer belangrijk dat u beveiligingsrichtlijnen voor IIS en de vereisten van de Payment Card Industry (PCI) bestudeert.
+## <a name="extensibility"></a><span data-ttu-id="0d24a-570">Uitbreidbaarheid</span><span class="sxs-lookup"><span data-stu-id="0d24a-570">Extensibility</span></span>
+<span data-ttu-id="0d24a-571">Zie voor informatie over uitbreidbaarheidsscenario's voor het hardwarestation het onderwerp [Uitbreidbaarheid van hardwarestations](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-571">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
-## <a name="peripheral-simulator"></a>Randapparatuursimulator
-Zie voor meer informatie het onderwerp [Simulator voor detailhandelrandapparaten](dev-itpro/retail-peripheral-simulator.md).
+## <a name="security"></a><span data-ttu-id="0d24a-572">Beveiliging</span><span class="sxs-lookup"><span data-stu-id="0d24a-572">Security</span></span>
+<span data-ttu-id="0d24a-573">Volgens de huidige beveiligingsnormen moeten de volgende instellingen worden gebruikt in een productieomgeving: **Opmerking:** Het installatieprogramma van het hardwarestation voert automatisch deze wijzigingen in het register door als onderdeel van de installatie via self-service.</span><span class="sxs-lookup"><span data-stu-id="0d24a-573">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
-## <a name="microsofttested-peripheral-devices"></a>Door Microsoft geteste randapparaten
-### <a name="ipc-built-in-hardware-station"></a>IPC-hardwarestation (geïntegreerd)
+-   <span data-ttu-id="0d24a-574">Secure Sockets Layer (SSL) moet zijn uitgeschakeld.</span><span class="sxs-lookup"><span data-stu-id="0d24a-574">Secure Sockets Layer (SSL) should be disabled.</span></span>
+-   <span data-ttu-id="0d24a-575">Alleen Transport Layer Security (TLS) versie 1.2 (of de actuele hoogste versie) mag zijn ingeschakeld en worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-575">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="0d24a-576">**Opmerking:** Standaard zijn SSL en alle versies van TLS behalve TLS 1.2 uitgeschakeld.</span><span class="sxs-lookup"><span data-stu-id="0d24a-576">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="0d24a-577">Ga als volgt te werk om deze waarden te bewerken of in te schakelen:</span><span class="sxs-lookup"><span data-stu-id="0d24a-577">To edit or enable these values, follow these steps:</span></span>
+    1.  <span data-ttu-id="0d24a-578">Druk op de Windows-toets+R om een venster **Uitvoeren** te openen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-578">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2.  <span data-ttu-id="0d24a-579">Typ in het veld **Openen** de tekst **Regedit** en klik vervolgens op **OK**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-579">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="0d24a-580">Als een venster **Gebruikersaccountbeheer** wordt geopend, klikt u op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-580">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4.  <span data-ttu-id="0d24a-581">Navigeer in het venster **Register-editor** naar de sleutel **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-581">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="0d24a-582">De volgende sleutels zijn automatisch ingevoerd om alleen TLS 1.2 toe te staan:</span><span class="sxs-lookup"><span data-stu-id="0d24a-582">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+        -   <span data-ttu-id="0d24a-583">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="0d24a-583">TLS 1.2Server:Enabled=1</span></span>
+        -   <span data-ttu-id="0d24a-584">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-584">TLS 1.2Server:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="0d24a-585">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="0d24a-585">TLS 1.2Client:Enabled=1</span></span>
+        -   <span data-ttu-id="0d24a-586">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-586">TLS 1.2Client:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="0d24a-587">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-587">TLS 1.1Server:Enabled=0</span></span>
+        -   <span data-ttu-id="0d24a-588">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-588">TLS 1.1Client:Enabled=0</span></span>
+        -   <span data-ttu-id="0d24a-589">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-589">TLS 1.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="0d24a-590">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-590">TLS 1.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="0d24a-591">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-591">SSL 3.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="0d24a-592">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-592">SSL 3.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="0d24a-593">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-593">SSL 2.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="0d24a-594">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="0d24a-594">SSL 2.0Client:Enabled=0</span></span>
+-   <span data-ttu-id="0d24a-595">Geen extra netwerkpoorten mogen geopend zijn, tenzij ze vereist zijn om bekende en opgegeven redenen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-595">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+-   <span data-ttu-id="0d24a-596">Cross-origin resource sharing (CORS) moet zijn uitgeschakeld en de toegestane origins die worden geaccepteerd, moeten zijn opgeven.</span><span class="sxs-lookup"><span data-stu-id="0d24a-596">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+-   <span data-ttu-id="0d24a-597">Alleen vertrouwde certificeringsinstanties moeten worden gebruikt om certificaten te krijgen, die worden gebruikt op computers waarop het hardwarestation draait.</span><span class="sxs-lookup"><span data-stu-id="0d24a-597">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
 
-De volgende randapparaten zijn getest met het IPC-hardwarestation dat is geïntegreerd in Modern POS voor Windows.
+<span data-ttu-id="0d24a-598">**Opmerking:** Het is zeer belangrijk dat u beveiligingsrichtlijnen voor IIS en de vereisten van de Payment Card Industry (PCI) bestudeert.</span><span class="sxs-lookup"><span data-stu-id="0d24a-598">**Note:** It’s very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
 
-#### <a name="printer"></a>Printer
+## <a name="peripheral-simulator"></a><span data-ttu-id="0d24a-599">Randapparatuursimulator</span><span class="sxs-lookup"><span data-stu-id="0d24a-599">Peripheral simulator</span></span>
+<span data-ttu-id="0d24a-600">Zie voor meer informatie het onderwerp [Simulator voor detailhandelrandapparaten](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="0d24a-600">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
 
-| Fabrikant | Model    | Interface | Opmerkingen                |
+## <a name="microsofttested-peripheral-devices"></a><span data-ttu-id="0d24a-601">Door Microsoft geteste randapparaten</span><span class="sxs-lookup"><span data-stu-id="0d24a-601">Microsofttested peripheral devices</span></span>
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="0d24a-602">IPC-hardwarestation (geïntegreerd)</span><span class="sxs-lookup"><span data-stu-id="0d24a-602">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="0d24a-603">De volgende randapparaten zijn getest met het IPC-hardwarestation dat is geïntegreerd in Modern POS voor Windows.</span><span class="sxs-lookup"><span data-stu-id="0d24a-603">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="0d24a-604">Printer</span><span class="sxs-lookup"><span data-stu-id="0d24a-604">Printer</span></span>
+
+| <span data-ttu-id="0d24a-605">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-605">Manufacturer</span></span> | <span data-ttu-id="0d24a-606">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-606">Model</span></span>    | <span data-ttu-id="0d24a-607">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-607">Interface</span></span> | <span data-ttu-id="0d24a-608">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-608">Comments</span></span>                |
 |--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Aangepast    | Aangesloten via netwerk   |
-| Star         | mPOP     | OPOS      | Aangesloten via Bluetooth |
-| HP           | F7M67AA  | OPOS      | USB met voeding             |
+| <span data-ttu-id="0d24a-609">Epson</span><span class="sxs-lookup"><span data-stu-id="0d24a-609">Epson</span></span>        | <span data-ttu-id="0d24a-610">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="0d24a-610">Tm-T88IV</span></span> | <span data-ttu-id="0d24a-611">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-611">OPOS</span></span>      |                         |
+| <span data-ttu-id="0d24a-612">Epson</span><span class="sxs-lookup"><span data-stu-id="0d24a-612">Epson</span></span>        | <span data-ttu-id="0d24a-613">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="0d24a-613">TM-T88V</span></span>  | <span data-ttu-id="0d24a-614">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-614">OPOS</span></span>      |                         |
+| <span data-ttu-id="0d24a-615">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-615">Star</span></span>         | <span data-ttu-id="0d24a-616">TSP650II</span><span class="sxs-lookup"><span data-stu-id="0d24a-616">TSP650II</span></span> | <span data-ttu-id="0d24a-617">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-617">OPOS</span></span>      |                         |
+| <span data-ttu-id="0d24a-618">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-618">Star</span></span>         | <span data-ttu-id="0d24a-619">TSP650II</span><span class="sxs-lookup"><span data-stu-id="0d24a-619">TSP650II</span></span> | <span data-ttu-id="0d24a-620">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-620">Custom</span></span>    | <span data-ttu-id="0d24a-621">Aangesloten via netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-621">Connected via network</span></span>   |
+| <span data-ttu-id="0d24a-622">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-622">Star</span></span>         | <span data-ttu-id="0d24a-623">mPOP</span><span class="sxs-lookup"><span data-stu-id="0d24a-623">mPOP</span></span>     | <span data-ttu-id="0d24a-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-624">OPOS</span></span>      | <span data-ttu-id="0d24a-625">Aangesloten via Bluetooth</span><span class="sxs-lookup"><span data-stu-id="0d24a-625">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="0d24a-626">HP</span><span class="sxs-lookup"><span data-stu-id="0d24a-626">HP</span></span>           | <span data-ttu-id="0d24a-627">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-627">F7M67AA</span></span>  | <span data-ttu-id="0d24a-628">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-628">OPOS</span></span>      | <span data-ttu-id="0d24a-629">USB met voeding</span><span class="sxs-lookup"><span data-stu-id="0d24a-629">Powered USB</span></span>             |
 
-#### <a name="bar-code-scanner"></a>Streepjescodelezer
+#### <a name="bar-code-scanner"></a><span data-ttu-id="0d24a-630">Streepjescodelezer</span><span class="sxs-lookup"><span data-stu-id="0d24a-630">Bar code scanner</span></span>
 
-| Fabrikant  | Model         | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-631">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-631">Manufacturer</span></span>  | <span data-ttu-id="0d24a-632">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-632">Model</span></span>         | <span data-ttu-id="0d24a-633">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-633">Interface</span></span> | <span data-ttu-id="0d24a-634">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-634">Comments</span></span> |
 |---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Symbool        | LS2208        | OPOS      |          |
-| HP geïntegreerd | E1L07AA       | OPOS      |          |
-| Datalogic     | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="0d24a-635">Motorola</span><span class="sxs-lookup"><span data-stu-id="0d24a-635">Motorola</span></span>      | <span data-ttu-id="0d24a-636">DS9208</span><span class="sxs-lookup"><span data-stu-id="0d24a-636">DS9208</span></span>        | <span data-ttu-id="0d24a-637">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-637">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-638">Honeywell</span><span class="sxs-lookup"><span data-stu-id="0d24a-638">Honeywell</span></span>     | <span data-ttu-id="0d24a-639">1900</span><span class="sxs-lookup"><span data-stu-id="0d24a-639">1900</span></span>          | <span data-ttu-id="0d24a-640">UWP</span><span class="sxs-lookup"><span data-stu-id="0d24a-640">UWP</span></span>       |          |
+| <span data-ttu-id="0d24a-641">Symbool</span><span class="sxs-lookup"><span data-stu-id="0d24a-641">Symbol</span></span>        | <span data-ttu-id="0d24a-642">LS2208</span><span class="sxs-lookup"><span data-stu-id="0d24a-642">LS2208</span></span>        | <span data-ttu-id="0d24a-643">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-643">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-644">HP geïntegreerd</span><span class="sxs-lookup"><span data-stu-id="0d24a-644">HP Integrated</span></span> | <span data-ttu-id="0d24a-645">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-645">E1L07AA</span></span>       | <span data-ttu-id="0d24a-646">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-646">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-647">Datalogic</span><span class="sxs-lookup"><span data-stu-id="0d24a-647">Datalogic</span></span>     | <span data-ttu-id="0d24a-648">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="0d24a-648">Magellan 8400</span></span> | <span data-ttu-id="0d24a-649">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-649">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>Pinapparaat
+#### <a name="pin-pad"></a><span data-ttu-id="0d24a-650">Pinapparaat</span><span class="sxs-lookup"><span data-stu-id="0d24a-650">PIN pad</span></span>
 
-| Fabrikant | Model  | Interface | Opmerkingen                                        |
+| <span data-ttu-id="0d24a-651">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-651">Manufacturer</span></span> | <span data-ttu-id="0d24a-652">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-652">Model</span></span>  | <span data-ttu-id="0d24a-653">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-653">Interface</span></span> | <span data-ttu-id="0d24a-654">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-654">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Aanpassing van de betalingsconnector vereist |
+| <span data-ttu-id="0d24a-655">VeriFone</span><span class="sxs-lookup"><span data-stu-id="0d24a-655">VeriFone</span></span>     | <span data-ttu-id="0d24a-656">1000SE</span><span class="sxs-lookup"><span data-stu-id="0d24a-656">1000SE</span></span> | <span data-ttu-id="0d24a-657">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-657">OPOS</span></span>      | <span data-ttu-id="0d24a-658">Aanpassing van de betalingsconnector vereist</span><span class="sxs-lookup"><span data-stu-id="0d24a-658">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Betalingsterminal 
+#### <a name="payment-terminal"></a><span data-ttu-id="0d24a-659">Betalingsterminal </span><span class="sxs-lookup"><span data-stu-id="0d24a-659">Payment terminal</span></span>
 
-| Fabrikant | Model | Interface | Opmerkingen                                                                       |
+| <span data-ttu-id="0d24a-660">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-660">Manufacturer</span></span> | <span data-ttu-id="0d24a-661">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-661">Model</span></span> | <span data-ttu-id="0d24a-662">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-662">Interface</span></span> | <span data-ttu-id="0d24a-663">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-663">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Aangepast    | Aanpassing van de betalingsconnector vereist                                |
-| VeriFone     | MX925 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
-| VeriFone     | MX915 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+| <span data-ttu-id="0d24a-664">Equinox</span><span class="sxs-lookup"><span data-stu-id="0d24a-664">Equinox</span></span>      | <span data-ttu-id="0d24a-665">L5300</span><span class="sxs-lookup"><span data-stu-id="0d24a-665">L5300</span></span> | <span data-ttu-id="0d24a-666">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-666">Custom</span></span>    | <span data-ttu-id="0d24a-667">Aanpassing van de betalingsconnector vereist</span><span class="sxs-lookup"><span data-stu-id="0d24a-667">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="0d24a-668">VeriFone</span><span class="sxs-lookup"><span data-stu-id="0d24a-668">VeriFone</span></span>     | <span data-ttu-id="0d24a-669">MX925</span><span class="sxs-lookup"><span data-stu-id="0d24a-669">MX925</span></span> | <span data-ttu-id="0d24a-670">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-670">Custom</span></span>    | <span data-ttu-id="0d24a-671">Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB</span><span class="sxs-lookup"><span data-stu-id="0d24a-671">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="0d24a-672">VeriFone</span><span class="sxs-lookup"><span data-stu-id="0d24a-672">VeriFone</span></span>     | <span data-ttu-id="0d24a-673">MX915</span><span class="sxs-lookup"><span data-stu-id="0d24a-673">MX915</span></span> | <span data-ttu-id="0d24a-674">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-674">Custom</span></span>    | <span data-ttu-id="0d24a-675">Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB</span><span class="sxs-lookup"><span data-stu-id="0d24a-675">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Kassalade
+#### <a name="cash-drawer"></a><span data-ttu-id="0d24a-676">Kassalade</span><span class="sxs-lookup"><span data-stu-id="0d24a-676">Cash drawer</span></span>
 
-| Fabrikant | Model     | Interface | Opmerkingen                |
+| <span data-ttu-id="0d24a-677">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-677">Manufacturer</span></span> | <span data-ttu-id="0d24a-678">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-678">Model</span></span>     | <span data-ttu-id="0d24a-679">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-679">Interface</span></span> | <span data-ttu-id="0d24a-680">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-680">Comments</span></span>                |
 |--------------|-----------|-----------|-------------------------|
-| Star         | mPOP      | OPOS      | Aangesloten via Bluetooth |
-| APG          | Atwood    | Aangepast    | Aangesloten via netwerk   |
-| Star         | SMD2-1317 | OPOS      |                         |
-| HP           | QT457AA   | OPOS      |                         |
+| <span data-ttu-id="0d24a-681">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-681">Star</span></span>         | <span data-ttu-id="0d24a-682">mPOP</span><span class="sxs-lookup"><span data-stu-id="0d24a-682">mPOP</span></span>      | <span data-ttu-id="0d24a-683">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-683">OPOS</span></span>      | <span data-ttu-id="0d24a-684">Aangesloten via Bluetooth</span><span class="sxs-lookup"><span data-stu-id="0d24a-684">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="0d24a-685">APG</span><span class="sxs-lookup"><span data-stu-id="0d24a-685">APG</span></span>          | <span data-ttu-id="0d24a-686">Atwood</span><span class="sxs-lookup"><span data-stu-id="0d24a-686">Atwood</span></span>    | <span data-ttu-id="0d24a-687">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-687">Custom</span></span>    | <span data-ttu-id="0d24a-688">Aangesloten via netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-688">Connected via network</span></span>   |
+| <span data-ttu-id="0d24a-689">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-689">Star</span></span>         | <span data-ttu-id="0d24a-690">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="0d24a-690">SMD2-1317</span></span> | <span data-ttu-id="0d24a-691">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-691">OPOS</span></span>      |                         |
+| <span data-ttu-id="0d24a-692">HP</span><span class="sxs-lookup"><span data-stu-id="0d24a-692">HP</span></span>           | <span data-ttu-id="0d24a-693">QT457AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-693">QT457AA</span></span>   | <span data-ttu-id="0d24a-694">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-694">OPOS</span></span>      |                         |
 
-#### <a name="line-display"></a>Regelweergave
+#### <a name="line-display"></a><span data-ttu-id="0d24a-695">Regelweergave</span><span class="sxs-lookup"><span data-stu-id="0d24a-695">Line display</span></span>
 
-| Fabrikant  | Model   | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-696">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-696">Manufacturer</span></span>  | <span data-ttu-id="0d24a-697">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-697">Model</span></span>   | <span data-ttu-id="0d24a-698">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-698">Interface</span></span> | <span data-ttu-id="0d24a-699">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-699">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP geïntegreerd | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="0d24a-700">HP geïntegreerd</span><span class="sxs-lookup"><span data-stu-id="0d24a-700">HP integrated</span></span> | <span data-ttu-id="0d24a-701">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-701">G6U79AA</span></span> | <span data-ttu-id="0d24a-702">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-702">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-703">Epson</span><span class="sxs-lookup"><span data-stu-id="0d24a-703">Epson</span></span>         | <span data-ttu-id="0d24a-704">M58DC</span><span class="sxs-lookup"><span data-stu-id="0d24a-704">M58DC</span></span>   | <span data-ttu-id="0d24a-705">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-705">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Handtekeningregistratie
+#### <a name="signature-capture"></a><span data-ttu-id="0d24a-706">Handtekeningregistratie</span><span class="sxs-lookup"><span data-stu-id="0d24a-706">Signature capture</span></span>
 
-| Fabrikant | Model  | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-707">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-707">Manufacturer</span></span> | <span data-ttu-id="0d24a-708">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-708">Model</span></span>  | <span data-ttu-id="0d24a-709">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-709">Interface</span></span> | <span data-ttu-id="0d24a-710">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-710">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="0d24a-711">Scriptel</span><span class="sxs-lookup"><span data-stu-id="0d24a-711">Scriptel</span></span>     | <span data-ttu-id="0d24a-712">ST1550</span><span class="sxs-lookup"><span data-stu-id="0d24a-712">ST1550</span></span> | <span data-ttu-id="0d24a-713">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-713">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Schaal
+#### <a name="scale"></a><span data-ttu-id="0d24a-714">Schaal</span><span class="sxs-lookup"><span data-stu-id="0d24a-714">Scale</span></span>
 
-| Fabrikant | Model         | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-715">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-715">Manufacturer</span></span> | <span data-ttu-id="0d24a-716">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-716">Model</span></span>         | <span data-ttu-id="0d24a-717">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-717">Interface</span></span> | <span data-ttu-id="0d24a-718">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-718">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="0d24a-719">Datalogic</span><span class="sxs-lookup"><span data-stu-id="0d24a-719">Datalogic</span></span>    | <span data-ttu-id="0d24a-720">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="0d24a-720">Magellan 8400</span></span> | <span data-ttu-id="0d24a-721">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-721">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="0d24a-722">MSR</span><span class="sxs-lookup"><span data-stu-id="0d24a-722">MSR</span></span>
 
-| Fabrikant | Model       | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-723">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-723">Manufacturer</span></span> | <span data-ttu-id="0d24a-724">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-724">Model</span></span>       | <span data-ttu-id="0d24a-725">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-725">Interface</span></span> | <span data-ttu-id="0d24a-726">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-726">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="0d24a-727">Magtek</span><span class="sxs-lookup"><span data-stu-id="0d24a-727">Magtek</span></span>       | <span data-ttu-id="0d24a-728">21073075</span><span class="sxs-lookup"><span data-stu-id="0d24a-728">21073075</span></span>    | <span data-ttu-id="0d24a-729">UWP</span><span class="sxs-lookup"><span data-stu-id="0d24a-729">UWP</span></span>       |          |
+| <span data-ttu-id="0d24a-730">Magtek</span><span class="sxs-lookup"><span data-stu-id="0d24a-730">Magtek</span></span>       | <span data-ttu-id="0d24a-731">21073062</span><span class="sxs-lookup"><span data-stu-id="0d24a-731">21073062</span></span>    | <span data-ttu-id="0d24a-732">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-732">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-733">HP</span><span class="sxs-lookup"><span data-stu-id="0d24a-733">HP</span></span>           | <span data-ttu-id="0d24a-734">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="0d24a-734">IDRA-334133</span></span> | <span data-ttu-id="0d24a-735">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-735">OPOS</span></span>      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>Specifiek ISS-hardwarestation
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="0d24a-736">Specifiek ISS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-736">Dedicated IIS hardware station</span></span>
 
-De volgende randapparaten zijn getest met een specifiek (niet-gedeeld) IIS-hardwarestation, samen met Modern POS voor Windows en Cloud POS.
+<span data-ttu-id="0d24a-737">De volgende randapparaten zijn getest met een specifiek (niet-gedeeld) IIS-hardwarestation, samen met Modern POS voor Windows en Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-737">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
 
-#### <a name="printer"></a>Printer
+#### <a name="printer"></a><span data-ttu-id="0d24a-738">Printer</span><span class="sxs-lookup"><span data-stu-id="0d24a-738">Printer</span></span>
 
-| Fabrikant | Model    | Interface | Opmerkingen                  |
+| <span data-ttu-id="0d24a-739">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-739">Manufacturer</span></span> | <span data-ttu-id="0d24a-740">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-740">Model</span></span>    | <span data-ttu-id="0d24a-741">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-741">Interface</span></span> | <span data-ttu-id="0d24a-742">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-742">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Aangepast    | Aangesloten via netwerk     |
-| Star         | TSP100   | OPOS      | Vereist TSP650II-stuurprogramma's |
-| HP           | F7M67AA  | OPOS      | USB met voeding               |
+| <span data-ttu-id="0d24a-743">Epson</span><span class="sxs-lookup"><span data-stu-id="0d24a-743">Epson</span></span>        | <span data-ttu-id="0d24a-744">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="0d24a-744">Tm-T88IV</span></span> | <span data-ttu-id="0d24a-745">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-745">OPOS</span></span>      |                           |
+| <span data-ttu-id="0d24a-746">Epson</span><span class="sxs-lookup"><span data-stu-id="0d24a-746">Epson</span></span>        | <span data-ttu-id="0d24a-747">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="0d24a-747">TM-T88V</span></span>  | <span data-ttu-id="0d24a-748">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-748">OPOS</span></span>      |                           |
+| <span data-ttu-id="0d24a-749">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-749">Star</span></span>         | <span data-ttu-id="0d24a-750">TSP650II</span><span class="sxs-lookup"><span data-stu-id="0d24a-750">TSP650II</span></span> | <span data-ttu-id="0d24a-751">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-751">OPOS</span></span>      |                           |
+| <span data-ttu-id="0d24a-752">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-752">Star</span></span>         | <span data-ttu-id="0d24a-753">TSP650II</span><span class="sxs-lookup"><span data-stu-id="0d24a-753">TSP650II</span></span> | <span data-ttu-id="0d24a-754">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-754">Custom</span></span>    | <span data-ttu-id="0d24a-755">Aangesloten via netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-755">Connected via network</span></span>     |
+| <span data-ttu-id="0d24a-756">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-756">Star</span></span>         | <span data-ttu-id="0d24a-757">TSP100</span><span class="sxs-lookup"><span data-stu-id="0d24a-757">TSP100</span></span>   | <span data-ttu-id="0d24a-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-758">OPOS</span></span>      | <span data-ttu-id="0d24a-759">Vereist TSP650II-stuurprogramma's</span><span class="sxs-lookup"><span data-stu-id="0d24a-759">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="0d24a-760">HP</span><span class="sxs-lookup"><span data-stu-id="0d24a-760">HP</span></span>           | <span data-ttu-id="0d24a-761">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-761">F7M67AA</span></span>  | <span data-ttu-id="0d24a-762">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-762">OPOS</span></span>      | <span data-ttu-id="0d24a-763">USB met voeding</span><span class="sxs-lookup"><span data-stu-id="0d24a-763">Powered USB</span></span>               |
 
-#### <a name="bar-code-scanner"></a>Streepjescodelezer
+#### <a name="bar-code-scanner"></a><span data-ttu-id="0d24a-764">Streepjescodelezer</span><span class="sxs-lookup"><span data-stu-id="0d24a-764">Bar code scanner</span></span>
 
-| Fabrikant  | Model   | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-765">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-765">Manufacturer</span></span>  | <span data-ttu-id="0d24a-766">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-766">Model</span></span>   | <span data-ttu-id="0d24a-767">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-767">Interface</span></span> | <span data-ttu-id="0d24a-768">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-768">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Symbool        | LS2208  | OPOS      |          |
-| HP geïntegreerd | E1L07AA | OPOS      |          |
+| <span data-ttu-id="0d24a-769">Motorola</span><span class="sxs-lookup"><span data-stu-id="0d24a-769">Motorola</span></span>      | <span data-ttu-id="0d24a-770">DS9208</span><span class="sxs-lookup"><span data-stu-id="0d24a-770">DS9208</span></span>  | <span data-ttu-id="0d24a-771">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-771">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-772">Symbool</span><span class="sxs-lookup"><span data-stu-id="0d24a-772">Symbol</span></span>        | <span data-ttu-id="0d24a-773">LS2208</span><span class="sxs-lookup"><span data-stu-id="0d24a-773">LS2208</span></span>  | <span data-ttu-id="0d24a-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-774">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-775">HP geïntegreerd</span><span class="sxs-lookup"><span data-stu-id="0d24a-775">HP Integrated</span></span> | <span data-ttu-id="0d24a-776">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-776">E1L07AA</span></span> | <span data-ttu-id="0d24a-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-777">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>Pinapparaat
+#### <a name="pin-pad"></a><span data-ttu-id="0d24a-778">Pinapparaat</span><span class="sxs-lookup"><span data-stu-id="0d24a-778">PIN pad</span></span>
 
-| Fabrikant | Model  | Interface | Opmerkingen                                        |
+| <span data-ttu-id="0d24a-779">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-779">Manufacturer</span></span> | <span data-ttu-id="0d24a-780">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-780">Model</span></span>  | <span data-ttu-id="0d24a-781">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-781">Interface</span></span> | <span data-ttu-id="0d24a-782">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-782">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Aanpassing van de betalingsconnector vereist |
+| <span data-ttu-id="0d24a-783">VeriFone</span><span class="sxs-lookup"><span data-stu-id="0d24a-783">VeriFone</span></span>     | <span data-ttu-id="0d24a-784">1000SE</span><span class="sxs-lookup"><span data-stu-id="0d24a-784">1000SE</span></span> | <span data-ttu-id="0d24a-785">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-785">OPOS</span></span>      | <span data-ttu-id="0d24a-786">Aanpassing van de betalingsconnector vereist</span><span class="sxs-lookup"><span data-stu-id="0d24a-786">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Betalingsterminal 
+#### <a name="payment-terminal"></a><span data-ttu-id="0d24a-787">Betalingsterminal </span><span class="sxs-lookup"><span data-stu-id="0d24a-787">Payment terminal</span></span>
 
-| Fabrikant | Model | Interface | Opmerkingen                                                                       |
+| <span data-ttu-id="0d24a-788">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-788">Manufacturer</span></span> | <span data-ttu-id="0d24a-789">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-789">Model</span></span> | <span data-ttu-id="0d24a-790">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-790">Interface</span></span> | <span data-ttu-id="0d24a-791">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-791">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Aangepast    | Aanpassing van de betalingsconnector vereist                                |
-| VeriFone     | MX925 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
-| VeriFone     | MX915 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+| <span data-ttu-id="0d24a-792">Equinox</span><span class="sxs-lookup"><span data-stu-id="0d24a-792">Equinox</span></span>      | <span data-ttu-id="0d24a-793">L5300</span><span class="sxs-lookup"><span data-stu-id="0d24a-793">L5300</span></span> | <span data-ttu-id="0d24a-794">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-794">Custom</span></span>    | <span data-ttu-id="0d24a-795">Aanpassing van de betalingsconnector vereist</span><span class="sxs-lookup"><span data-stu-id="0d24a-795">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="0d24a-796">VeriFone</span><span class="sxs-lookup"><span data-stu-id="0d24a-796">VeriFone</span></span>     | <span data-ttu-id="0d24a-797">MX925</span><span class="sxs-lookup"><span data-stu-id="0d24a-797">MX925</span></span> | <span data-ttu-id="0d24a-798">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-798">Custom</span></span>    | <span data-ttu-id="0d24a-799">Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB</span><span class="sxs-lookup"><span data-stu-id="0d24a-799">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="0d24a-800">VeriFone</span><span class="sxs-lookup"><span data-stu-id="0d24a-800">VeriFone</span></span>     | <span data-ttu-id="0d24a-801">MX915</span><span class="sxs-lookup"><span data-stu-id="0d24a-801">MX915</span></span> | <span data-ttu-id="0d24a-802">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-802">Custom</span></span>    | <span data-ttu-id="0d24a-803">Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB</span><span class="sxs-lookup"><span data-stu-id="0d24a-803">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Kassalade
+#### <a name="cash-drawer"></a><span data-ttu-id="0d24a-804">Kassalade</span><span class="sxs-lookup"><span data-stu-id="0d24a-804">Cash drawer</span></span>
 
-| Fabrikant | Model     | Interface | Opmerkingen              |
+| <span data-ttu-id="0d24a-805">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-805">Manufacturer</span></span> | <span data-ttu-id="0d24a-806">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-806">Model</span></span>     | <span data-ttu-id="0d24a-807">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-807">Interface</span></span> | <span data-ttu-id="0d24a-808">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-808">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Aangepast    | Aangesloten via netwerk |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="0d24a-809">APG</span><span class="sxs-lookup"><span data-stu-id="0d24a-809">APG</span></span>          | <span data-ttu-id="0d24a-810">Atwood</span><span class="sxs-lookup"><span data-stu-id="0d24a-810">Atwood</span></span>    | <span data-ttu-id="0d24a-811">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-811">Custom</span></span>    | <span data-ttu-id="0d24a-812">Aangesloten via netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-812">Connected via network</span></span> |
+| <span data-ttu-id="0d24a-813">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-813">Star</span></span>         | <span data-ttu-id="0d24a-814">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="0d24a-814">SMD2-1317</span></span> | <span data-ttu-id="0d24a-815">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-815">OPOS</span></span>      |                       |
+| <span data-ttu-id="0d24a-816">HP</span><span class="sxs-lookup"><span data-stu-id="0d24a-816">HP</span></span>           | <span data-ttu-id="0d24a-817">QT457AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-817">QT457AA</span></span>   | <span data-ttu-id="0d24a-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-818">OPOS</span></span>      |                       |
 
-#### <a name="line-display"></a>Regelweergave
+#### <a name="line-display"></a><span data-ttu-id="0d24a-819">Regelweergave</span><span class="sxs-lookup"><span data-stu-id="0d24a-819">Line display</span></span>
 
-| Fabrikant  | Model   | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-820">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-820">Manufacturer</span></span>  | <span data-ttu-id="0d24a-821">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-821">Model</span></span>   | <span data-ttu-id="0d24a-822">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-822">Interface</span></span> | <span data-ttu-id="0d24a-823">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-823">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP geïntegreerd | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="0d24a-824">HP geïntegreerd</span><span class="sxs-lookup"><span data-stu-id="0d24a-824">HP integrated</span></span> | <span data-ttu-id="0d24a-825">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-825">G6U79AA</span></span> | <span data-ttu-id="0d24a-826">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-826">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-827">Epson</span><span class="sxs-lookup"><span data-stu-id="0d24a-827">Epson</span></span>         | <span data-ttu-id="0d24a-828">M58DC</span><span class="sxs-lookup"><span data-stu-id="0d24a-828">M58DC</span></span>   | <span data-ttu-id="0d24a-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-829">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Handtekeningregistratie
+#### <a name="signature-capture"></a><span data-ttu-id="0d24a-830">Handtekeningregistratie</span><span class="sxs-lookup"><span data-stu-id="0d24a-830">Signature capture</span></span>
 
-| Fabrikant | Model  | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-831">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-831">Manufacturer</span></span> | <span data-ttu-id="0d24a-832">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-832">Model</span></span>  | <span data-ttu-id="0d24a-833">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-833">Interface</span></span> | <span data-ttu-id="0d24a-834">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-834">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="0d24a-835">Scriptel</span><span class="sxs-lookup"><span data-stu-id="0d24a-835">Scriptel</span></span>     | <span data-ttu-id="0d24a-836">ST1550</span><span class="sxs-lookup"><span data-stu-id="0d24a-836">ST1550</span></span> | <span data-ttu-id="0d24a-837">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-837">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Schaal
+#### <a name="scale"></a><span data-ttu-id="0d24a-838">Schaal</span><span class="sxs-lookup"><span data-stu-id="0d24a-838">Scale</span></span>
 
-| Fabrikant | Model         | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-839">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-839">Manufacturer</span></span> | <span data-ttu-id="0d24a-840">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-840">Model</span></span>         | <span data-ttu-id="0d24a-841">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-841">Interface</span></span> | <span data-ttu-id="0d24a-842">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-842">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="0d24a-843">Datalogic</span><span class="sxs-lookup"><span data-stu-id="0d24a-843">Datalogic</span></span>    | <span data-ttu-id="0d24a-844">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="0d24a-844">Magellan 8400</span></span> | <span data-ttu-id="0d24a-845">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-845">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="0d24a-846">MSR</span><span class="sxs-lookup"><span data-stu-id="0d24a-846">MSR</span></span>
 
-| Fabrikant | Model       | Interface | Opmerkingen |
+| <span data-ttu-id="0d24a-847">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-847">Manufacturer</span></span> | <span data-ttu-id="0d24a-848">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-848">Model</span></span>       | <span data-ttu-id="0d24a-849">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-849">Interface</span></span> | <span data-ttu-id="0d24a-850">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-850">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="0d24a-851">Magtek</span><span class="sxs-lookup"><span data-stu-id="0d24a-851">Magtek</span></span>       | <span data-ttu-id="0d24a-852">21073075</span><span class="sxs-lookup"><span data-stu-id="0d24a-852">21073075</span></span>    | <span data-ttu-id="0d24a-853">UWP</span><span class="sxs-lookup"><span data-stu-id="0d24a-853">UWP</span></span>       |          |
+| <span data-ttu-id="0d24a-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="0d24a-854">Magtek</span></span>       | <span data-ttu-id="0d24a-855">21073062</span><span class="sxs-lookup"><span data-stu-id="0d24a-855">21073062</span></span>    | <span data-ttu-id="0d24a-856">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-856">OPOS</span></span>      |          |
+| <span data-ttu-id="0d24a-857">HP</span><span class="sxs-lookup"><span data-stu-id="0d24a-857">HP</span></span>           | <span data-ttu-id="0d24a-858">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="0d24a-858">IDRA-334133</span></span> | <span data-ttu-id="0d24a-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-859">OPOS</span></span>      |          |
 
-### <a name="shared-iis-hardware-station"></a>Gedeeld ISS-hardwarestation
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="0d24a-860">Gedeeld ISS-hardwarestation</span><span class="sxs-lookup"><span data-stu-id="0d24a-860">Shared IIS hardware station</span></span>
 
-De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen met Modern POS voor Windows en Cloud POS. **Opmerking:** Alleen een printer, betalingsterminal en kassalade worden ondersteund.
+<span data-ttu-id="0d24a-861">De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen met Modern POS voor Windows en Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="0d24a-861">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="0d24a-862">**Opmerking:** Alleen een printer, betalingsterminal en kassalade worden ondersteund.</span><span class="sxs-lookup"><span data-stu-id="0d24a-862">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
-#### <a name="printer"></a>Printer
+#### <a name="printer"></a><span data-ttu-id="0d24a-863">Printer</span><span class="sxs-lookup"><span data-stu-id="0d24a-863">Printer</span></span>
 
-| Fabrikant | Model    | Interface | Opmerkingen                  |
+| <span data-ttu-id="0d24a-864">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-864">Manufacturer</span></span> | <span data-ttu-id="0d24a-865">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-865">Model</span></span>    | <span data-ttu-id="0d24a-866">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-866">Interface</span></span> | <span data-ttu-id="0d24a-867">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-867">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Aangepast    | Aangesloten via netwerk     |
-| Star         | TSP100   | OPOS      | Vereist TSP650II-stuurprogramma's |
-| HP           | F7M67AA  | OPOS      | USB met voeding               |
+| <span data-ttu-id="0d24a-868">Epson</span><span class="sxs-lookup"><span data-stu-id="0d24a-868">Epson</span></span>        | <span data-ttu-id="0d24a-869">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="0d24a-869">Tm-T88IV</span></span> | <span data-ttu-id="0d24a-870">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-870">OPOS</span></span>      |                           |
+| <span data-ttu-id="0d24a-871">Epson</span><span class="sxs-lookup"><span data-stu-id="0d24a-871">Epson</span></span>        | <span data-ttu-id="0d24a-872">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="0d24a-872">TM-T88V</span></span>  | <span data-ttu-id="0d24a-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="0d24a-874">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-874">Star</span></span>         | <span data-ttu-id="0d24a-875">TSP650II</span><span class="sxs-lookup"><span data-stu-id="0d24a-875">TSP650II</span></span> | <span data-ttu-id="0d24a-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="0d24a-877">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-877">Star</span></span>         | <span data-ttu-id="0d24a-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="0d24a-878">TSP650II</span></span> | <span data-ttu-id="0d24a-879">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-879">Custom</span></span>    | <span data-ttu-id="0d24a-880">Aangesloten via netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-880">Connected via network</span></span>     |
+| <span data-ttu-id="0d24a-881">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-881">Star</span></span>         | <span data-ttu-id="0d24a-882">TSP100</span><span class="sxs-lookup"><span data-stu-id="0d24a-882">TSP100</span></span>   | <span data-ttu-id="0d24a-883">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-883">OPOS</span></span>      | <span data-ttu-id="0d24a-884">Vereist TSP650II-stuurprogramma's</span><span class="sxs-lookup"><span data-stu-id="0d24a-884">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="0d24a-885">HP</span><span class="sxs-lookup"><span data-stu-id="0d24a-885">HP</span></span>           | <span data-ttu-id="0d24a-886">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-886">F7M67AA</span></span>  | <span data-ttu-id="0d24a-887">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-887">OPOS</span></span>      | <span data-ttu-id="0d24a-888">USB met voeding</span><span class="sxs-lookup"><span data-stu-id="0d24a-888">Powered USB</span></span>               |
 
-#### <a name="payment-terminal"></a>Betalingsterminal 
+#### <a name="payment-terminal"></a><span data-ttu-id="0d24a-889">Betalingsterminal </span><span class="sxs-lookup"><span data-stu-id="0d24a-889">Payment terminal</span></span>
 
-| Fabrikant | Model | Interface | Opmerkingen                                                                       |
+| <span data-ttu-id="0d24a-890">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-890">Manufacturer</span></span> | <span data-ttu-id="0d24a-891">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-891">Model</span></span> | <span data-ttu-id="0d24a-892">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-892">Interface</span></span> | <span data-ttu-id="0d24a-893">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-893">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
-| VeriFone     | MX915 | Aangepast    | Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB |
+| <span data-ttu-id="0d24a-894">VeriFone</span><span class="sxs-lookup"><span data-stu-id="0d24a-894">VeriFone</span></span>     | <span data-ttu-id="0d24a-895">MX925</span><span class="sxs-lookup"><span data-stu-id="0d24a-895">MX925</span></span> | <span data-ttu-id="0d24a-896">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-896">Custom</span></span>    | <span data-ttu-id="0d24a-897">Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB</span><span class="sxs-lookup"><span data-stu-id="0d24a-897">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="0d24a-898">VeriFone</span><span class="sxs-lookup"><span data-stu-id="0d24a-898">VeriFone</span></span>     | <span data-ttu-id="0d24a-899">MX915</span><span class="sxs-lookup"><span data-stu-id="0d24a-899">MX915</span></span> | <span data-ttu-id="0d24a-900">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-900">Custom</span></span>    | <span data-ttu-id="0d24a-901">Vereist aanpassing van de betalingsconnector; aangesloten via een netwerk en USB</span><span class="sxs-lookup"><span data-stu-id="0d24a-901">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Kassalade
+#### <a name="cash-drawer"></a><span data-ttu-id="0d24a-902">Kassalade</span><span class="sxs-lookup"><span data-stu-id="0d24a-902">Cash drawer</span></span>
 
-| Fabrikant | Model     | Interface | Opmerkingen              |
+| <span data-ttu-id="0d24a-903">Fabrikant</span><span class="sxs-lookup"><span data-stu-id="0d24a-903">Manufacturer</span></span> | <span data-ttu-id="0d24a-904">Model</span><span class="sxs-lookup"><span data-stu-id="0d24a-904">Model</span></span>     | <span data-ttu-id="0d24a-905">Interface</span><span class="sxs-lookup"><span data-stu-id="0d24a-905">Interface</span></span> | <span data-ttu-id="0d24a-906">Opmerkingen</span><span class="sxs-lookup"><span data-stu-id="0d24a-906">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Aangepast    | Aangesloten via netwerk |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="0d24a-907">APG</span><span class="sxs-lookup"><span data-stu-id="0d24a-907">APG</span></span>          | <span data-ttu-id="0d24a-908">Atwood</span><span class="sxs-lookup"><span data-stu-id="0d24a-908">Atwood</span></span>    | <span data-ttu-id="0d24a-909">Aangepast</span><span class="sxs-lookup"><span data-stu-id="0d24a-909">Custom</span></span>    | <span data-ttu-id="0d24a-910">Aangesloten via netwerk</span><span class="sxs-lookup"><span data-stu-id="0d24a-910">Connected via network</span></span> |
+| <span data-ttu-id="0d24a-911">Star</span><span class="sxs-lookup"><span data-stu-id="0d24a-911">Star</span></span>         | <span data-ttu-id="0d24a-912">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="0d24a-912">SMD2-1317</span></span> | <span data-ttu-id="0d24a-913">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-913">OPOS</span></span>      |                       |
+| <span data-ttu-id="0d24a-914">HP</span><span class="sxs-lookup"><span data-stu-id="0d24a-914">HP</span></span>           | <span data-ttu-id="0d24a-915">QT457AA</span><span class="sxs-lookup"><span data-stu-id="0d24a-915">QT457AA</span></span>   | <span data-ttu-id="0d24a-916">OPOS</span><span class="sxs-lookup"><span data-stu-id="0d24a-916">OPOS</span></span>      |                       |
 
-## <a name="troubleshooting"></a>Problemen oplossen
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS kan het hardwarestation detecteren in de lijst voor selectie, maar kan de koppeling niet voltooien.
+## <a name="troubleshooting"></a><span data-ttu-id="0d24a-917">Problemen oplossen</span><span class="sxs-lookup"><span data-stu-id="0d24a-917">Troubleshooting</span></span>
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="0d24a-918">Modern POS kan het hardwarestation detecteren in de lijst voor selectie, maar kan de koppeling niet voltooien.</span><span class="sxs-lookup"><span data-stu-id="0d24a-918">Modern POS can detect the hardware station in its list for selection, but it can’t complete the pairing</span></span>
 
-**Oplossing:** Loop de onderstaande lijst met mogelijke storingsoorzaken door:
+<span data-ttu-id="0d24a-919">**Oplossing:** Loop de onderstaande lijst met mogelijke storingsoorzaken door:</span><span class="sxs-lookup"><span data-stu-id="0d24a-919">**Solution:** Verify the following list of potential failure points:</span></span>
 
--   De computer waarop de Modern POS draait, vertrouwt het certificaat dat wordt gebruikt op de computer waarop het hardwarestation draait.
-    -   Om deze configuratie te controleren, gaat u in een webbrowser naar de volgende URL: https://&lt;Computernaam&gt;:&lt;Poortnummer&gt;/HardwareStation/ping.
-    -   Deze URL gebruikt een ping om te verifiëren dat toegang tot de computer mogelijk is en de browser geeft aan of het certificaat vertrouwd wordt. In Internet Explorer bijvoorbeeld wordt een pictogram van een hangslot weergegeven in de adresbalk. Wanneer u op dit pictogram klikt, controleert Internet Explorer of het certificaat momenteel vertrouwd wordt. U kunt het certificaat installeren op de lokale computer aan de hand van de details van het certificaat dat wordt weergegeven.
--   Op de computer waarop het hardwarestation draait, wordt de poort die het hardwarestation gebruikt in de firewall geopend.
--   Het hardwarestation heeft de verkopersaccountgegevens correct geïnstalleerd via het hulpprogramma Verkopersgegevens installeren, dat wordt uitgevoerd aan het einde van het installatieprogramma voor het hardwarestation.
+-   <span data-ttu-id="0d24a-920">De computer waarop de Modern POS draait, vertrouwt het certificaat dat wordt gebruikt op de computer waarop het hardwarestation draait.</span><span class="sxs-lookup"><span data-stu-id="0d24a-920">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+    -   <span data-ttu-id="0d24a-921">Om deze configuratie te controleren, gaat u in een webbrowser naar de volgende URL: https://&lt;Computernaam&gt;:&lt;Poortnummer&gt;/HardwareStation/ping.</span><span class="sxs-lookup"><span data-stu-id="0d24a-921">To verify this setup, in a web browser, go to the following URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span></span>
+    -   <span data-ttu-id="0d24a-922">Deze URL gebruikt een ping om te verifiëren dat toegang tot de computer mogelijk is en de browser geeft aan of het certificaat vertrouwd wordt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-922">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="0d24a-923">In Internet Explorer bijvoorbeeld wordt een pictogram van een hangslot weergegeven in de adresbalk.</span><span class="sxs-lookup"><span data-stu-id="0d24a-923">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="0d24a-924">Wanneer u op dit pictogram klikt, controleert Internet Explorer of het certificaat momenteel vertrouwd wordt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-924">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="0d24a-925">U kunt het certificaat installeren op de lokale computer aan de hand van de details van het certificaat dat wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="0d24a-925">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+-   <span data-ttu-id="0d24a-926">Op de computer waarop het hardwarestation draait, wordt de poort die het hardwarestation gebruikt in de firewall geopend.</span><span class="sxs-lookup"><span data-stu-id="0d24a-926">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+-   <span data-ttu-id="0d24a-927">Het hardwarestation heeft de verkopersaccountgegevens correct geïnstalleerd via het hulpprogramma Verkopersgegevens installeren, dat wordt uitgevoerd aan het einde van het installatieprogramma voor het hardwarestation.</span><span class="sxs-lookup"><span data-stu-id="0d24a-927">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS kan het hardwarestation niet vinden in de lijst voor selectie.
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="0d24a-928">Modern POS kan het hardwarestation niet vinden in de lijst voor selectie.</span><span class="sxs-lookup"><span data-stu-id="0d24a-928">Modern POS can’t detect the hardware station in its list for selection</span></span>
 
-**Oplossing:** Dit kan worden veroorzaakt door één van de volgende:
+<span data-ttu-id="0d24a-929">**Oplossing:** Dit kan worden veroorzaakt door één van de volgende:</span><span class="sxs-lookup"><span data-stu-id="0d24a-929">**Solution:** Either of the following factors can cause this issue:</span></span>
 
--   Het hardwarestation is niet correct ingesteld in het hoofdkantoor. Verifieer met de stappen eerder in dit onderwerp of het hardwarestationprofiel en het hardwarestation correct zijn ingevoerd.
--   De taken voor het bijwerken van de afzetkanaalconfiguratie zijn nog niet uitgevoerd. Voer in dit geval taak 1070 voor afzetkanaalconfiguratie uit.
+-   <span data-ttu-id="0d24a-930">Het hardwarestation is niet correct ingesteld in het hoofdkantoor.</span><span class="sxs-lookup"><span data-stu-id="0d24a-930">The hardware station hasn’t been set up correctly in headquarters.</span></span> <span data-ttu-id="0d24a-931">Verifieer met de stappen eerder in dit onderwerp of het hardwarestationprofiel en het hardwarestation correct zijn ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-931">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+-   <span data-ttu-id="0d24a-932">De taken voor het bijwerken van de afzetkanaalconfiguratie zijn nog niet uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="0d24a-932">The jobs haven’t been run to update the channel configuration.</span></span> <span data-ttu-id="0d24a-933">Voer in dit geval taak 1070 voor afzetkanaalconfiguratie uit.</span><span class="sxs-lookup"><span data-stu-id="0d24a-933">In this case, run the 1070 job for channel configuration.</span></span>
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>In Modern POS zijn de nieuwe instellingen voor de kassalade niet zichtbaar.
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="0d24a-934">In Modern POS zijn de nieuwe instellingen voor de kassalade niet zichtbaar.</span><span class="sxs-lookup"><span data-stu-id="0d24a-934">Modern POS doesn't reflect new cash drawer settings</span></span>
 
-**Oplossing:** Sluit de huidige batch. Wijzigingen in de kassalade worden pas bijgewerkt in Modern POS als de huidige batch is gesloten.
+<span data-ttu-id="0d24a-935">**Oplossing:** Sluit de huidige batch.</span><span class="sxs-lookup"><span data-stu-id="0d24a-935">**Solution:** Close the current batch.</span></span> <span data-ttu-id="0d24a-936">Wijzigingen in de kassalade worden pas bijgewerkt in Modern POS als de huidige batch is gesloten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-936">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS meldt een probleem met een detailhandelrandapparaat.
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="0d24a-937">Modern POS meldt een probleem met een detailhandelrandapparaat.</span><span class="sxs-lookup"><span data-stu-id="0d24a-937">Modern POS is reporting an issue with a retail peripheral</span></span>
 
-**Oplossing:** Hier volgen enkele veelvoorkomende oorzaken van dit probleem:
+<span data-ttu-id="0d24a-938">**Oplossing:** Hier volgen enkele veelvoorkomende oorzaken van dit probleem:</span><span class="sxs-lookup"><span data-stu-id="0d24a-938">**Solution:** Here are some typical causes of this issue:</span></span>
 
--   Zorg ervoor dat andere configuratieprogramma's voor apparaatstuurprogramma's zijn gesloten. Als deze hulpprogramma's geopend zijn, verhinderen ze mogelijk dat Modern POS of het hardwarestation het apparaat aanspreken.
--   Als het randapparaat wordt gedeeld met verschillende POS-apparaten, overtuig u er dan van dat het apparaat deel uitmaakt van een van de volgende categorieën:
-    -   Kassalade
-    -   Kassabonprinter
-    -   Betalingsterminal 
+-   <span data-ttu-id="0d24a-939">Zorg ervoor dat andere configuratieprogramma's voor apparaatstuurprogramma's zijn gesloten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-939">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="0d24a-940">Als deze hulpprogramma's geopend zijn, verhinderen ze mogelijk dat Modern POS of het hardwarestation het apparaat aanspreken.</span><span class="sxs-lookup"><span data-stu-id="0d24a-940">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+-   <span data-ttu-id="0d24a-941">Als het randapparaat wordt gedeeld met verschillende POS-apparaten, overtuig u er dan van dat het apparaat deel uitmaakt van een van de volgende categorieën:</span><span class="sxs-lookup"><span data-stu-id="0d24a-941">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+    -   <span data-ttu-id="0d24a-942">Kassalade</span><span class="sxs-lookup"><span data-stu-id="0d24a-942">Cash drawer</span></span>
+    -   <span data-ttu-id="0d24a-943">Kassabonprinter</span><span class="sxs-lookup"><span data-stu-id="0d24a-943">Receipt printer</span></span>
+    -   <span data-ttu-id="0d24a-944">Betalingsterminal </span><span class="sxs-lookup"><span data-stu-id="0d24a-944">Payment terminal</span></span>
 
-    Als het randapparaat niet tot een van deze categorieën behoort, is het hardwarestation niet ontworpen om het randapparaat in te schakelen om te worden gedeeld tussen verschillende POS-apparaten.
--   Soms kunnen stuurprogramma ertoe leiden dat de Common Control Objects (CCO's) niet meer goed functioneren. Als een onlangs geïnstalleerd apparaat niet goed werkt of er andere problemen optreden, kunt u het probleem vaak oplossen door de CCO's opnieuw te installeren. U kunt de CCOs downloaden vanaf <http://monroecs.com/oposccos_current.htm>.
--   Als u regelmatig randapparatuur wijzigt tijdens testen of probleemoplossing, moet u wellicht IIS resetten in plaats van te wachten totdat de cache zichzelf vernieuwt. Ga als volgt te werk om IIS te resetten:
-    1.  Typ in het menu **Start** de opdracht **CMD**.
-    2.  Klik in de lijst met zoekresultaten met de rechtermuisknop op **Opdrachtprompt** en klik vervolgens op **Uitvoeren als beheerder**.
-    3.  Typ in het venster **Opdrachtprompt** de tekst **iisreset/restart** en druk op Enter.
-    4.  Start Modern POS opnieuw op nadat IIS opnieuw is opgestart.
--   Wanneer u vaak randapparaten aanpast en ook regelmatig de POS-client opstart en afsluit, kan het proces dllhost van een eerdere POS-sessie de huidige sessie storen. In dit geval kan het niet mogelijk zijn om een apparaat te gebruiken, totdat u de dll-host afsluit die de vorige sessie beheert. Ga als volgt te werk om de dll-host te sluiten:
-    1.  Typ in het menu **Start** de opdracht **Taakbeheer**.
-    2.  Klik in de lijst met zoekresultaten op **Taakbeheer**.
-    3.  Klik in Taakbeheer op het tabblad **Details** en klik op de kolomkop met de naam **Naam** in de tabel alfabetisch op naam te sorteren.
-    4.  Schuif omlaag tot u dllhost.exe vinden.
-    5.  Selecteer alle dll-hosts en klik vervolgens op **Taak beëindigen**.
-    6.  Nadat de DLL-hosts zijn afgesloten, start u moderne POS opnieuw op.
+    <span data-ttu-id="0d24a-945">Als het randapparaat niet tot een van deze categorieën behoort, is het hardwarestation niet ontworpen om het randapparaat in te schakelen om te worden gedeeld tussen verschillende POS-apparaten.</span><span class="sxs-lookup"><span data-stu-id="0d24a-945">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+-   <span data-ttu-id="0d24a-946">Soms kunnen stuurprogramma ertoe leiden dat de Common Control Objects (CCO's) niet meer goed functioneren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-946">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="0d24a-947">Als een onlangs geïnstalleerd apparaat niet goed werkt of er andere problemen optreden, kunt u het probleem vaak oplossen door de CCO's opnieuw te installeren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-947">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="0d24a-948">U kunt de CCOs downloaden vanaf <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="0d24a-948">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+-   <span data-ttu-id="0d24a-949">Als u regelmatig randapparatuur wijzigt tijdens testen of probleemoplossing, moet u wellicht IIS resetten in plaats van te wachten totdat de cache zichzelf vernieuwt.</span><span class="sxs-lookup"><span data-stu-id="0d24a-949">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="0d24a-950">Ga als volgt te werk om IIS te resetten:</span><span class="sxs-lookup"><span data-stu-id="0d24a-950">To reset IIS, follow these steps:</span></span>
+    1.  <span data-ttu-id="0d24a-951">Typ in het menu **Start** de opdracht **CMD**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-951">From the **Start** menu, type **CMD**.</span></span>
+    2.  <span data-ttu-id="0d24a-952">Klik in de lijst met zoekresultaten met de rechtermuisknop op **Opdrachtprompt** en klik vervolgens op **Uitvoeren als beheerder**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-952">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3.  <span data-ttu-id="0d24a-953">Typ in het venster **Opdrachtprompt** de tekst **iisreset/restart** en druk op Enter.</span><span class="sxs-lookup"><span data-stu-id="0d24a-953">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4.  <span data-ttu-id="0d24a-954">Start Modern POS opnieuw op nadat IIS opnieuw is opgestart.</span><span class="sxs-lookup"><span data-stu-id="0d24a-954">After IIS has restarted, restart Modern POS.</span></span>
+-   <span data-ttu-id="0d24a-955">Wanneer u vaak randapparaten aanpast en ook regelmatig de POS-client opstart en afsluit, kan het proces dllhost van een eerdere POS-sessie de huidige sessie storen.</span><span class="sxs-lookup"><span data-stu-id="0d24a-955">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="0d24a-956">In dit geval kan het niet mogelijk zijn om een apparaat te gebruiken, totdat u de dll-host afsluit die de vorige sessie beheert.</span><span class="sxs-lookup"><span data-stu-id="0d24a-956">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="0d24a-957">Ga als volgt te werk om de dll-host te sluiten:</span><span class="sxs-lookup"><span data-stu-id="0d24a-957">To close the DLL host, follow these steps:</span></span>
+    1.  <span data-ttu-id="0d24a-958">Typ in het menu **Start** de opdracht **Taakbeheer**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-958">From the **Start** menu, type **Task manager**.</span></span>
+    2.  <span data-ttu-id="0d24a-959">Klik in de lijst met zoekresultaten op **Taakbeheer**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-959">In the search results, click **Task manager**.</span></span>
+    3.  <span data-ttu-id="0d24a-960">Klik in Taakbeheer op het tabblad **Details** en klik op de kolomkop met de naam **Naam** in de tabel alfabetisch op naam te sorteren.</span><span class="sxs-lookup"><span data-stu-id="0d24a-960">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4.  <span data-ttu-id="0d24a-961">Schuif omlaag tot u dllhost.exe vinden.</span><span class="sxs-lookup"><span data-stu-id="0d24a-961">Scroll down until you find dllhost.exe.</span></span>
+    5.  <span data-ttu-id="0d24a-962">Selecteer alle dll-hosts en klik vervolgens op **Taak beëindigen**.</span><span class="sxs-lookup"><span data-stu-id="0d24a-962">Select each DLL host, and then click **End task**.</span></span>
+    6.  <span data-ttu-id="0d24a-963">Nadat de DLL-hosts zijn afgesloten, start u moderne POS opnieuw op.</span><span class="sxs-lookup"><span data-stu-id="0d24a-963">After the DLL hosts have been closed, restart Modern POS.</span></span>
 
 
-<a name="see-also"></a>Zie ook
+<a name="see-also"></a><span data-ttu-id="0d24a-964">Zie ook</span><span class="sxs-lookup"><span data-stu-id="0d24a-964">See also</span></span>
 --------
 
-[Simulator voor detailhandelrandapparaten](dev-itpro/retail-peripheral-simulator.md)
+[<span data-ttu-id="0d24a-965">Simulator voor detailhandelrandapparaten</span><span class="sxs-lookup"><span data-stu-id="0d24a-965">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
 
 
 

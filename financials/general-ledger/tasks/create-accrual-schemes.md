@@ -16,30 +16,30 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3f545d5792a0a5cf132799d5fb04bb43f63343b9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 324be23a1e26de0d05c7cf6a61567f7260d0c390
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-accrual-schemes"></a>Toerekeningsschema's maken
+# <a name="create-accrual-schemes"></a><span data-ttu-id="857b1-103">Toerekeningsschema's maken</span><span class="sxs-lookup"><span data-stu-id="857b1-103">Create accrual schemes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze taakbegeleiding helpt u bij het maken van een toerekeningsschema. Bij deze taak wordt het demobedrijf USMF gebruikt.
+<span data-ttu-id="857b1-104">Deze taakbegeleiding helpt u bij het maken van een toerekeningsschema.</span><span class="sxs-lookup"><span data-stu-id="857b1-104">This task guide steps through creating an accrual scheme.</span></span> <span data-ttu-id="857b1-105">Bij deze taak wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="857b1-105">This task uses the USMF demo company.</span></span>
 
-1. Ga naar Grootboek > Journaalinstellingen > Toerekeningsschema's.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Toerekeningsidentificatie.
-4. Typ een waarde in het veld Omschrijving van toenameschema.
-5. Geef in het veld Debet de gewenste waarden op.
-    * De opgegeven hoofdrekening zal de hoofddebetrekening op de journaalboekstukregel vervangen en zal ook worden gebruikt voor de omkering van de uitstelling op basis van de transitorische grootboekposten.  
-6. Geef in het veld Credit de gewenste waarden op.
-    * De opgegeven hoofdrekening zal de hoofdcreditrekening op de journaalboekstukregel vervangen en zal ook worden gebruikt voor de omkering van de uitstelling op basis van de transitorische grootboekposten.  
-7. Selecteer in het veld Boekstuk hoe u wilt dat het boekstuk wordt bepaald wanneer de transacties worden geboekt.
-8. Typ in het veld Beschrijving een waarde om de transacties die zullen worden geboekt te beschrijven.
-9. Selecteer in het veld Periodefrequentie hoe vaak de transacties moeten voorkomen.
-10. Voer in het veld Aantal voorvallen per periode een getal in.
-11. Selecteer in het veld Transacties boeken wanneer de transacties moeten worden geboekt, zoals Maandelijks.
+1. <span data-ttu-id="857b1-106">Ga naar Grootboek > Journaalinstellingen > Toerekeningsschema's.</span><span class="sxs-lookup"><span data-stu-id="857b1-106">Go to General ledger > Journal setup > Accrual schemes.</span></span>
+2. <span data-ttu-id="857b1-107">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="857b1-107">Click New.</span></span>
+3. <span data-ttu-id="857b1-108">Typ een waarde in het veld Toerekeningsidentificatie.</span><span class="sxs-lookup"><span data-stu-id="857b1-108">In the Accrual identification field, type a value.</span></span>
+4. <span data-ttu-id="857b1-109">Typ een waarde in het veld Omschrijving van toenameschema.</span><span class="sxs-lookup"><span data-stu-id="857b1-109">In the Description of accrual scheme field, type a value.</span></span>
+5. <span data-ttu-id="857b1-110">Geef in het veld Debet de gewenste waarden op.</span><span class="sxs-lookup"><span data-stu-id="857b1-110">In the Debit field, specify the desired values.</span></span>
+    * <span data-ttu-id="857b1-111">De opgegeven hoofdrekening zal de hoofddebetrekening op de journaalboekstukregel vervangen en zal ook worden gebruikt voor de omkering van de uitstelling op basis van de transitorische grootboekposten.</span><span class="sxs-lookup"><span data-stu-id="857b1-111">The main account defined will replace the debit main account on the journal voucher line and it will also be used for the reversal of the deferral based on the ledger accrual transactions.</span></span>  
+6. <span data-ttu-id="857b1-112">Geef in het veld Credit de gewenste waarden op.</span><span class="sxs-lookup"><span data-stu-id="857b1-112">In the Credit field, specify the desired values.</span></span>
+    * <span data-ttu-id="857b1-113">De opgegeven hoofdrekening zal de hoofdcreditrekening op de journaalboekstukregel vervangen en zal ook worden gebruikt voor de omkering van de uitstelling op basis van de transitorische grootboekposten.</span><span class="sxs-lookup"><span data-stu-id="857b1-113">The main account defined will replace the credit main account on the journal voucher line and it will also be used for the reversal of the deferral based on the ledger accrual transactions.</span></span>  
+7. <span data-ttu-id="857b1-114">Selecteer in het veld Boekstuk hoe u wilt dat het boekstuk wordt bepaald wanneer de transacties worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="857b1-114">In the Voucher field, select how you want the voucher determined when the transactions are posted.</span></span>
+8. <span data-ttu-id="857b1-115">Typ in het veld Beschrijving een waarde om de transacties die zullen worden geboekt te beschrijven.</span><span class="sxs-lookup"><span data-stu-id="857b1-115">In the Description field, type a value to describe the transactions that will be posted.</span></span>
+9. <span data-ttu-id="857b1-116">Selecteer in het veld Periodefrequentie hoe vaak de transacties moeten voorkomen.</span><span class="sxs-lookup"><span data-stu-id="857b1-116">In the Period frequency field, select how often the transactions should occur.</span></span>
+10. <span data-ttu-id="857b1-117">Voer in het veld Aantal voorvallen per periode een getal in.</span><span class="sxs-lookup"><span data-stu-id="857b1-117">In the Number of occurrences by period field, enter a number.</span></span>
+11. <span data-ttu-id="857b1-118">Selecteer in het veld Transacties boeken wanneer de transacties moeten worden geboekt, zoals Maandelijks.</span><span class="sxs-lookup"><span data-stu-id="857b1-118">In the Post transactions field, select when the transactions should be posted, such as Monthly.</span></span>
 
 

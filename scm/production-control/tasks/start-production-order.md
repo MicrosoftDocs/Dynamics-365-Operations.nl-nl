@@ -17,58 +17,58 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a88968072b28ab468af97a875bd76d4d6abecfde
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 33558053d33d9fe4a2ecb3576da569b2c441db80
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="start-a-production-order"></a>Een productieorder starten
+# <a name="start-a-production-order"></a><span data-ttu-id="04289-103">Een productieorder starten</span><span class="sxs-lookup"><span data-stu-id="04289-103">Start a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure toont hoe u een productieorder start op de werkvloer. Tijd- en materiaalverbruik worden in dit proces gerapporteerd. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Dit is de vijfde procedure van zeven waarin de levenscyclus van de productieorder wordt uitgelegd.
+<span data-ttu-id="04289-104">Deze procedure toont hoe u een productieorder start op de werkvloer.</span><span class="sxs-lookup"><span data-stu-id="04289-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="04289-105">Tijd- en materiaalverbruik worden in dit proces gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="04289-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="04289-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="04289-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="04289-107">Dit is de vijfde procedure van zeven waarin de levenscyclus van de productieorder wordt uitgelegd.</span><span class="sxs-lookup"><span data-stu-id="04289-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a>Een productieorder starten
-1. Ga naar Productiebeheer > Productieorders > Alle productieorders.
-    * Selecteer een productieorder met de status Vrijgegeven.  
-2. Klik in het actievenster op Productieorder.
-3. Klik op Start.
-    * Op deze pagina kunt u de start van de productieorder bevestigen.  
-4. Klik op het tabblad Algemeen.
-5. Voer in het veld Van Nr. '10' in.
-6. Selecteer 'Altijd' in het veld Automatisch routeverbruik.
-7. Klik op het selectievakje Routekaart nu boeken.
-8. Selecteer 'Altijd' in het veld Automatisch stuklijstverbruik.
-9. Klik op het selectievakje Orderverzamellijst nu boeken.
-10. Klik op het selectievakje Orderverzamellijst afdrukken.
-11. Klik op OK.
-    * Dit is de afgedrukte orderverzamellijst die de materialen bevat die worden gebruikt voor de productieorder.  
-12. Sluit de pagina.
+## <a name="start-a-production-order"></a><span data-ttu-id="04289-108">Een productieorder starten</span><span class="sxs-lookup"><span data-stu-id="04289-108">Start a production order</span></span>
+1. <span data-ttu-id="04289-109">Ga naar Productiebeheer > Productieorders > Alle productieorders.</span><span class="sxs-lookup"><span data-stu-id="04289-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="04289-110">Selecteer een productieorder met de status Vrijgegeven.</span><span class="sxs-lookup"><span data-stu-id="04289-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="04289-111">Klik in het actievenster op Productieorder.</span><span class="sxs-lookup"><span data-stu-id="04289-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="04289-112">Klik op Start.</span><span class="sxs-lookup"><span data-stu-id="04289-112">Click Start.</span></span>
+    * <span data-ttu-id="04289-113">Op deze pagina kunt u de start van de productieorder bevestigen.</span><span class="sxs-lookup"><span data-stu-id="04289-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="04289-114">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="04289-114">Click the General tab.</span></span>
+5. <span data-ttu-id="04289-115">Voer in het veld Van</span><span class="sxs-lookup"><span data-stu-id="04289-115">In the From Oper.</span></span> <span data-ttu-id="04289-116">Nr.</span><span class="sxs-lookup"><span data-stu-id="04289-116">No.</span></span> <span data-ttu-id="04289-117">'10' in.</span><span class="sxs-lookup"><span data-stu-id="04289-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="04289-118">Selecteer 'Altijd' in het veld Automatisch routeverbruik.</span><span class="sxs-lookup"><span data-stu-id="04289-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="04289-119">Klik op het selectievakje Routekaart nu boeken.</span><span class="sxs-lookup"><span data-stu-id="04289-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="04289-120">Selecteer 'Altijd' in het veld Automatisch stuklijstverbruik.</span><span class="sxs-lookup"><span data-stu-id="04289-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="04289-121">Klik op het selectievakje Orderverzamellijst nu boeken.</span><span class="sxs-lookup"><span data-stu-id="04289-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="04289-122">Klik op het selectievakje Orderverzamellijst afdrukken.</span><span class="sxs-lookup"><span data-stu-id="04289-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="04289-123">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="04289-123">Click OK.</span></span>
+    * <span data-ttu-id="04289-124">Dit is de afgedrukte orderverzamellijst die de materialen bevat die worden gebruikt voor de productieorder.</span><span class="sxs-lookup"><span data-stu-id="04289-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="04289-125">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="04289-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a>De orderverzamellijst valideren
-1. Klik in het actievenster op Weergeven.
-2. Klik op Orderverzamellijst.
-3. Zoek en selecteer de gewenste record in de lijst.
-4. Klik in de lijst op de koppeling in de geselecteerde rij.
-5. Klik op Bewerken.
-6. Voer een getal in het veld Verbruik in.
-7. Klik op Boeken.
-8. Klik op OK.
-    * In het orderverzamellijstjournaal worden de materialen geboekt die worden verbruikt door de productieorder. Voordat u het journaal boekt, kunt u correcties aanbrengen als er een verschil is tussen de geschatte hoeveelheid en de werkelijke verbruikte hoeveelheid.  
-9. Klik op het tabblad Rasterdeelvenster.
-10. Sluit de pagina.
+## <a name="validate-the-picking-list"></a><span data-ttu-id="04289-126">De orderverzamellijst valideren</span><span class="sxs-lookup"><span data-stu-id="04289-126">Validate the picking list</span></span>
+1. <span data-ttu-id="04289-127">Klik in het actievenster op Weergeven.</span><span class="sxs-lookup"><span data-stu-id="04289-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="04289-128">Klik op Orderverzamellijst.</span><span class="sxs-lookup"><span data-stu-id="04289-128">Click Picking list.</span></span>
+3. <span data-ttu-id="04289-129">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="04289-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="04289-130">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="04289-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="04289-131">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="04289-131">Click Edit.</span></span>
+6. <span data-ttu-id="04289-132">Voer een getal in het veld Verbruik in.</span><span class="sxs-lookup"><span data-stu-id="04289-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="04289-133">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="04289-133">Click Post.</span></span>
+8. <span data-ttu-id="04289-134">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="04289-134">Click OK.</span></span>
+    * <span data-ttu-id="04289-135">In het orderverzamellijstjournaal worden de materialen geboekt die worden verbruikt door de productieorder.</span><span class="sxs-lookup"><span data-stu-id="04289-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="04289-136">Voordat u het journaal boekt, kunt u correcties aanbrengen als er een verschil is tussen de geschatte hoeveelheid en de werkelijke verbruikte hoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="04289-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="04289-137">Klik op het tabblad Rasterdeelvenster.</span><span class="sxs-lookup"><span data-stu-id="04289-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="04289-138">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="04289-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a>Het routekaartjournaal verifiëren
-1. Klik in het actievenster op Weergeven.
-2. Klik op Routekaart.
-3. Zoek en selecteer de gewenste record in de lijst.
-4. Klik in de lijst op de koppeling in de geselecteerde rij.
-5. Klik op Bewerken.
-6. Voer een getal in het veld Uren in.
-7. Klik op Boeken.
-8. Klik op OK.
-    * In het routekaartjournaal wordt de bestede tijd voor de afzonderlijke bewerkingen vastgelegd. Goede en foutieve hoeveelheid kan ook worden gerapporteerd.  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="04289-139">Het routekaartjournaal verifiëren</span><span class="sxs-lookup"><span data-stu-id="04289-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="04289-140">Klik in het actievenster op Weergeven.</span><span class="sxs-lookup"><span data-stu-id="04289-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="04289-141">Klik op Routekaart.</span><span class="sxs-lookup"><span data-stu-id="04289-141">Click Route card.</span></span>
+3. <span data-ttu-id="04289-142">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="04289-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="04289-143">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="04289-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="04289-144">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="04289-144">Click Edit.</span></span>
+6. <span data-ttu-id="04289-145">Voer een getal in het veld Uren in.</span><span class="sxs-lookup"><span data-stu-id="04289-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="04289-146">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="04289-146">Click Post.</span></span>
+8. <span data-ttu-id="04289-147">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="04289-147">Click OK.</span></span>
+    * <span data-ttu-id="04289-148">In het routekaartjournaal wordt de bestede tijd voor de afzonderlijke bewerkingen vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="04289-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="04289-149">Goede en foutieve hoeveelheid kan ook worden gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="04289-149">Good and error quantity can also be reported.</span></span>  
 
 

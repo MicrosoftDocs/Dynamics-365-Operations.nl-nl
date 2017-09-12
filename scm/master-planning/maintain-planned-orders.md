@@ -20,38 +20,38 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 94f6f28ec4b255930f84a27eb5394503ff59e4c0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ec45e7426f65827f161245870f9114e52e035ab
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="maintain-planned-orders"></a>Geplande orders onderhouden
+# <a name="maintain-planned-orders"></a><span data-ttu-id="6ec25-104">Geplande orders onderhouden</span><span class="sxs-lookup"><span data-stu-id="6ec25-104">Maintain planned orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel bevat informatie over het beheer van geplande orders. Het beschrijft hoe u de status van geplande orders kunt bijwerken en fiatteren en hoe u kunt filteren voor geplande orders die dezelfde status als een geselecteerde geplande order hebben.
+<span data-ttu-id="6ec25-105">Dit artikel bevat informatie over het beheer van geplande orders.</span><span class="sxs-lookup"><span data-stu-id="6ec25-105">This article provides information about how to manage planned orders.</span></span> <span data-ttu-id="6ec25-106">Het beschrijft hoe u de status van geplande orders kunt bijwerken en fiatteren en hoe u kunt filteren voor geplande orders die dezelfde status als een geselecteerde geplande order hebben.</span><span class="sxs-lookup"><span data-stu-id="6ec25-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-U kunt geplande orders vanuit de werkruimte **Hoofdplanning**, de lijst **Geplande order** of de lijsten **Geplande productieorders**, **Geplande inkooporders** en **Geplande overboeking** beheren. U kunt het veld **Status** gebruiken om uw voortgang bij te houden. De volgende waarden worden gebruikt:
+<span data-ttu-id="6ec25-107">U kunt geplande orders vanuit de werkruimte **Hoofdplanning**, de lijst **Geplande order** of de lijsten **Geplande productieorders**, **Geplande inkooporders** en **Geplande overboeking** beheren.</span><span class="sxs-lookup"><span data-stu-id="6ec25-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="6ec25-108">U kunt het veld **Status** gebruiken om uw voortgang bij te houden.</span><span class="sxs-lookup"><span data-stu-id="6ec25-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="6ec25-109">De volgende waarden worden gebruikt:</span><span class="sxs-lookup"><span data-stu-id="6ec25-109">The following values are used:</span></span>
 
--   Wanneer geplande orders door de hoofdplanning worden gegenereerd, hebben de geplande orders de status **Niet-verwerkt**.
--   Wanneer u besluit een geplande order niet te fiatteren, kunt u die order de status **Voltooid** geven.
--   Wanneer u besluit een geplande order te fiatteren, geeft u die order de status **Goedgekeurd**. Deze status geeft aan dat u ermee akkoord gaat dat de geplande order wordt gefiatteerd, maar de order is nog niet gefiatteerd.
+-   <span data-ttu-id="6ec25-110">Wanneer geplande orders door de hoofdplanning worden gegenereerd, hebben de geplande orders de status **Niet-verwerkt**.</span><span class="sxs-lookup"><span data-stu-id="6ec25-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="6ec25-111">Wanneer u besluit een geplande order niet te fiatteren, kunt u die order de status **Voltooid** geven.</span><span class="sxs-lookup"><span data-stu-id="6ec25-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="6ec25-112">Wanneer u besluit een geplande order te fiatteren, geeft u die order de status **Goedgekeurd**.</span><span class="sxs-lookup"><span data-stu-id="6ec25-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="6ec25-113">Deze status geeft aan dat u ermee akkoord gaat dat de geplande order wordt gefiatteerd, maar de order is nog niet gefiatteerd.</span><span class="sxs-lookup"><span data-stu-id="6ec25-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-**Opmerking:** Een goedgekeurde, geplande order wordt in de huidige status overgeboekt naar de volgende berekening in de hoofdplanning. U kunt geplande orders fiatteren door te klikken op **Fiatteren**. De volgende geplande orders kunnen worden gefiatteerd:
+<span data-ttu-id="6ec25-114">**Opmerking:** Een goedgekeurde, geplande order wordt in de huidige status overgeboekt naar de volgende berekening in de hoofdplanning.</span><span class="sxs-lookup"><span data-stu-id="6ec25-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="6ec25-115">U kunt geplande orders fiatteren door te klikken op **Fiatteren**.</span><span class="sxs-lookup"><span data-stu-id="6ec25-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="6ec25-116">De volgende geplande orders kunnen worden gefiatteerd:</span><span class="sxs-lookup"><span data-stu-id="6ec25-116">You can firm the following planned orders:</span></span>
 
--   De geplande order die is geselecteerd.
--   Meerdere geplande orders.
--   Geplande orders die door een explosie vanaf de pagina **Explosie** zijn gegenereerd. Klik op **Geplande orders**, selecteer de geplande order en klik op **Fiatteren**.
+-   <span data-ttu-id="6ec25-117">De geplande order die is geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="6ec25-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="6ec25-118">Meerdere geplande orders.</span><span class="sxs-lookup"><span data-stu-id="6ec25-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="6ec25-119">Geplande orders die door een explosie vanaf de pagina **Explosie** zijn gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="6ec25-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="6ec25-120">Klik op **Geplande orders**, selecteer de geplande order en klik op **Fiatteren**.</span><span class="sxs-lookup"><span data-stu-id="6ec25-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-Wanneer een geplande order wordt gefiatteerd, wordt die order naar de ordersectie van de relevante module verplaatst. **Opmerking:** U kunt met de rechtermuisknop op een geplande order met een bepaalde status klikken en vervolgens op geplande orders met dezelfde status filteren. Dit is een handige functionaliteit die u kunt gebruiken wanneer u bijvoorbeeld alle geplande orders met de status **Goedgekeurd** wilt filteren zodat u ze kunt fiatteren.
+<span data-ttu-id="6ec25-121">Wanneer een geplande order wordt gefiatteerd, wordt die order naar de ordersectie van de relevante module verplaatst.</span><span class="sxs-lookup"><span data-stu-id="6ec25-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> <span data-ttu-id="6ec25-122">**Opmerking:** U kunt met de rechtermuisknop op een geplande order met een bepaalde status klikken en vervolgens op geplande orders met dezelfde status filteren.</span><span class="sxs-lookup"><span data-stu-id="6ec25-122">**Note:** You can right-click a planned order that has a particular status and filter for other planned orders that have the same status.</span></span> <span data-ttu-id="6ec25-123">Dit is een handige functionaliteit die u kunt gebruiken wanneer u bijvoorbeeld alle geplande orders met de status **Goedgekeurd** wilt filteren zodat u ze kunt fiatteren.</span><span class="sxs-lookup"><span data-stu-id="6ec25-123">This functionality is useful if, for example, you want to filter for all planned orders that have a status of **Approved**, so that you can then firm them.</span></span>
 
-<a name="see-also"></a>Zie ook
+<a name="see-also"></a><span data-ttu-id="6ec25-124">Zie ook</span><span class="sxs-lookup"><span data-stu-id="6ec25-124">See also</span></span>
 --------
 
-[Hoofdplannen](master-plans.md)
+[<span data-ttu-id="6ec25-125">Hoofdplannen</span><span class="sxs-lookup"><span data-stu-id="6ec25-125">Master plans</span></span>](master-plans.md)
 
 
 

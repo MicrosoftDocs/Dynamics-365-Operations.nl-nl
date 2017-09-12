@@ -16,51 +16,51 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e84432faf32e519059a21d2b56e320a46599c1e8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: adb759c59d7275e7323dbb760de56acdef2e3cff
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-vendor-bank-account"></a>Een nieuwe leveranciersbankrekening maken
+# <a name="create-a-vendor-bank-account"></a><span data-ttu-id="964d5-103">Een nieuwe leveranciersbankrekening maken</span><span class="sxs-lookup"><span data-stu-id="964d5-103">Create a vendor bank account</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat u zien hoe u een bankrekening maakt voor een leverancier. U kunt deze procedure gebruiken in het demobedrijf USMF.
+<span data-ttu-id="964d5-104">Deze procedure laat u zien hoe u een bankrekening maakt voor een leverancier.</span><span class="sxs-lookup"><span data-stu-id="964d5-104">This procedure shows you how to create a bank account for a vendor.</span></span> <span data-ttu-id="964d5-105">U kunt deze procedure gebruiken in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="964d5-105">You can use this procedure in demo data company USMF.</span></span>
 
-1. Ga naar Inkoop en sourcing > Leveranciers > Alle leveranciers.
-2. Selecteer de leverancier waarvoor u een bankrekening wilt maken en klik vervolgens op de koppeling van de id van de leveranciersrekening.
-3. Klik in het actievenster op Leverancier.
-4. Klik op Bankrekeningen.
-5. Klik op Nieuw.
-6. Typ een waarde in het veld Bankrekening.
-    * Deze id wordt gebruikt om de bankrekening in de leverancierrecord te identificeren.  
-7. Typ een waarde in het veld Naam.
-8. Typ of selecteer een waarde in het veld Bankgroepen.
-9. Selecteer een optie in het veld Routenummertype.
-    * Dit is het type routenummer dat wordt gebruikt voor internationale betalingen.  
-10. Typ een waarde in het veld Bankrekeningnummer.
-11. Typ een waarde in het veld SWIFT-code.
-12. Typ een waarde in het veld IBAN.
-    * Het IBAN-nummer moet de juiste indeling hebben. U kunt bijvoorbeeld DE89370400440532013000 gebruiken.  
-    * De status van de bankrekening is Actief als de begindatum is bereikt en de vervaldatum niet is overschreden. De bankrekening is tevens actief als zowel het veld Begindatum als het veld Vervaldatum leeg is gelaten. Als de datums in de velden Begindatum en Vervaldatum beide in de toekomst liggen, zijn er geen elektronische betalingen beschikbaar. Andere betalingstypen zijn wel beschikbaar en de bankrekening is actief.  
-13. Vouw de sectie Instellingen uit.
-14. Typ een waarde in het veld Tekstcode.
-    * Dit veld bevat een code die op het bankafschrift van de ontvanger wordt weergegeven.  
-15. Typ een waarde in het veld Bericht aan bank.
-16. Typ een waarde in het veld Verwijzing uitwisseling.
-    * Dit is het verwijzingsnummer voor een eventuele termijnkoers of vaste wisselkoers  
-17. Typ of selecteer een waarde in het veld Valuta.
-    * Wanneer voorafmeldingen worden afgegeven, bevat deze sectie een overzicht van hun status (in behandeling of goedgekeurd).  
-18. Vouw de sectie Adres uit.
-19. Vouw de sectie Voorafmeldingen uit.
-20. Vouw de sectie Contactpersoon uit.
-21. Typ een waarde in het veld Telefoon.
-22. Sluit de pagina.
-23. Klik op Bewerken.
-24. Vouw de sectie Betaling uit.
-25. Selecteer in het veld Bankrekening de rekening die u zojuist hebt gemaakt.
-26. Klik op Opslaan.
-    * Het adres kan worden overgenomen vanuit de bankgroep, als deze is opgegeven, of u kunt het hier toevoegen.  
+1. <span data-ttu-id="964d5-106">Ga naar Inkoop en sourcing > Leveranciers > Alle leveranciers.</span><span class="sxs-lookup"><span data-stu-id="964d5-106">Go to Procurement and sourcing > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="964d5-107">Selecteer de leverancier waarvoor u een bankrekening wilt maken en klik vervolgens op de koppeling van de id van de leveranciersrekening.</span><span class="sxs-lookup"><span data-stu-id="964d5-107">Select the vendor that you want to create a bank account for, and then click the link on the Vendor account ID.</span></span>
+3. <span data-ttu-id="964d5-108">Klik in het actievenster op Leverancier.</span><span class="sxs-lookup"><span data-stu-id="964d5-108">On the Action Pane, click Vendor.</span></span>
+4. <span data-ttu-id="964d5-109">Klik op Bankrekeningen.</span><span class="sxs-lookup"><span data-stu-id="964d5-109">Click Bank accounts.</span></span>
+5. <span data-ttu-id="964d5-110">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="964d5-110">Click New.</span></span>
+6. <span data-ttu-id="964d5-111">Typ een waarde in het veld Bankrekening.</span><span class="sxs-lookup"><span data-stu-id="964d5-111">In the Bank account field, type a value.</span></span>
+    * <span data-ttu-id="964d5-112">Deze id wordt gebruikt om de bankrekening in de leverancierrecord te identificeren.</span><span class="sxs-lookup"><span data-stu-id="964d5-112">This ID will be used to identify the bank account on the vendor record.</span></span>  
+7. <span data-ttu-id="964d5-113">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="964d5-113">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="964d5-114">Typ of selecteer een waarde in het veld Bankgroepen.</span><span class="sxs-lookup"><span data-stu-id="964d5-114">In the Bank groups field, enter or select a value.</span></span>
+9. <span data-ttu-id="964d5-115">Selecteer een optie in het veld Routenummertype.</span><span class="sxs-lookup"><span data-stu-id="964d5-115">In the Routing number type field, select an option.</span></span>
+    * <span data-ttu-id="964d5-116">Dit is het type routenummer dat wordt gebruikt voor internationale betalingen.</span><span class="sxs-lookup"><span data-stu-id="964d5-116">This is the type of routing number that’s used for international payments.</span></span>  
+10. <span data-ttu-id="964d5-117">Typ een waarde in het veld Bankrekeningnummer.</span><span class="sxs-lookup"><span data-stu-id="964d5-117">In the Bank account number field, type a value.</span></span>
+11. <span data-ttu-id="964d5-118">Typ een waarde in het veld SWIFT-code.</span><span class="sxs-lookup"><span data-stu-id="964d5-118">In the SWIFT code field, type a value.</span></span>
+12. <span data-ttu-id="964d5-119">Typ een waarde in het veld IBAN.</span><span class="sxs-lookup"><span data-stu-id="964d5-119">In the IBAN field, type a value.</span></span>
+    * <span data-ttu-id="964d5-120">Het IBAN-nummer moet de juiste indeling hebben.</span><span class="sxs-lookup"><span data-stu-id="964d5-120">The IBAN number must be in the correct format.</span></span> <span data-ttu-id="964d5-121">U kunt bijvoorbeeld DE89370400440532013000 gebruiken.</span><span class="sxs-lookup"><span data-stu-id="964d5-121">For example, you could use DE89370400440532013000.</span></span>  
+    * <span data-ttu-id="964d5-122">De status van de bankrekening is Actief als de begindatum is bereikt en de vervaldatum niet is overschreden.</span><span class="sxs-lookup"><span data-stu-id="964d5-122">The status of the bank account is Active if the Active date has been reached, and the Expiration date has not been exceeded.</span></span> <span data-ttu-id="964d5-123">De bankrekening is tevens actief als zowel het veld Begindatum als het veld Vervaldatum leeg is gelaten.</span><span class="sxs-lookup"><span data-stu-id="964d5-123">It’s also active if both the Active date and Expiration date fields are blank.</span></span> <span data-ttu-id="964d5-124">Als de datums in de velden Begindatum en Vervaldatum beide in de toekomst liggen, zijn er geen elektronische betalingen beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="964d5-124">If the dates in both the Active date and Expiration date fields are in the future electronic payments are not available.</span></span> <span data-ttu-id="964d5-125">Andere betalingstypen zijn wel beschikbaar en de bankrekening is actief.</span><span class="sxs-lookup"><span data-stu-id="964d5-125">Other payment types are available and the bank account is active.</span></span>  
+13. <span data-ttu-id="964d5-126">Vouw de sectie Instellingen uit.</span><span class="sxs-lookup"><span data-stu-id="964d5-126">Expand the Setup section.</span></span>
+14. <span data-ttu-id="964d5-127">Typ een waarde in het veld Tekstcode.</span><span class="sxs-lookup"><span data-stu-id="964d5-127">In the Text code field, type a value.</span></span>
+    * <span data-ttu-id="964d5-128">Dit veld bevat een code die op het bankafschrift van de ontvanger wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="964d5-128">This field specifies a code that will appear on the bank statement of the recipient.</span></span>  
+15. <span data-ttu-id="964d5-129">Typ een waarde in het veld Bericht aan bank.</span><span class="sxs-lookup"><span data-stu-id="964d5-129">In the Message to bank field, type a value.</span></span>
+16. <span data-ttu-id="964d5-130">Typ een waarde in het veld Verwijzing uitwisseling.</span><span class="sxs-lookup"><span data-stu-id="964d5-130">In the Exchange reference field, type a value.</span></span>
+    * <span data-ttu-id="964d5-131">Dit is het verwijzingsnummer voor een eventuele termijnkoers of vaste wisselkoers</span><span class="sxs-lookup"><span data-stu-id="964d5-131">This is the reference number for any forward-term or fixed-term rate of exchange.</span></span>  
+17. <span data-ttu-id="964d5-132">Typ of selecteer een waarde in het veld Valuta.</span><span class="sxs-lookup"><span data-stu-id="964d5-132">In the Currency field, enter or select a value.</span></span>
+    * <span data-ttu-id="964d5-133">Wanneer voorafmeldingen worden afgegeven, bevat deze sectie een overzicht van hun status (in behandeling of goedgekeurd).</span><span class="sxs-lookup"><span data-stu-id="964d5-133">When prenotes are issued, this section provides an overview of their status (pending or approved).</span></span>  
+18. <span data-ttu-id="964d5-134">Vouw de sectie Adres uit.</span><span class="sxs-lookup"><span data-stu-id="964d5-134">Expand the Address section.</span></span>
+19. <span data-ttu-id="964d5-135">Vouw de sectie Voorafmeldingen uit.</span><span class="sxs-lookup"><span data-stu-id="964d5-135">Expand the Prenotes section.</span></span>
+20. <span data-ttu-id="964d5-136">Vouw de sectie Contactpersoon uit.</span><span class="sxs-lookup"><span data-stu-id="964d5-136">Expand the Contact information section.</span></span>
+21. <span data-ttu-id="964d5-137">Typ een waarde in het veld Telefoon.</span><span class="sxs-lookup"><span data-stu-id="964d5-137">In the Telephone field, type a value.</span></span>
+22. <span data-ttu-id="964d5-138">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="964d5-138">Close the page.</span></span>
+23. <span data-ttu-id="964d5-139">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="964d5-139">Click Edit.</span></span>
+24. <span data-ttu-id="964d5-140">Vouw de sectie Betaling uit.</span><span class="sxs-lookup"><span data-stu-id="964d5-140">Expand the Payment section.</span></span>
+25. <span data-ttu-id="964d5-141">Selecteer in het veld Bankrekening de rekening die u zojuist hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="964d5-141">In the Bank  account field, select the account that you’ve just created.</span></span>
+26. <span data-ttu-id="964d5-142">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="964d5-142">Click Save.</span></span>
+    * <span data-ttu-id="964d5-143">Het adres kan worden overgenomen vanuit de bankgroep, als deze is opgegeven, of u kunt het hier toevoegen.</span><span class="sxs-lookup"><span data-stu-id="964d5-143">The address may be inherited from the bank group, if one is specified, or you can add it here.</span></span>  
 
 

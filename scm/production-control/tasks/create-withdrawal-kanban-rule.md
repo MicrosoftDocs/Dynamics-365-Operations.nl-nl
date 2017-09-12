@@ -17,50 +17,50 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: c3172f5c932b94b2a9e442286eb61159286297fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 02c7133d2e02b27fb428874deeda21e2bab28fb6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-withdrawal-kanban-rule"></a>Een opnamekanbanregel maken
+# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="b9d5a-103">Een opnamekanbanregel maken</span><span class="sxs-lookup"><span data-stu-id="b9d5a-103">Create a withdrawal kanban rule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure toont de instellingen die nodig zijn om een kanbanregel voor opname te maken om materiaal in een lean-omgeving over te boeken. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de Procesingenieur of de Waardestroombeheerder, want zij bereiden de aanvulling van nieuw of gewijzigd materiaal voor.
+<span data-ttu-id="b9d5a-104">Deze procedure toont de instellingen die nodig zijn om een kanbanregel voor opname te maken om materiaal in een lean-omgeving over te boeken.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="b9d5a-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b9d5a-106">Deze procedure is bedoeld voor de Procesingenieur of de Waardestroombeheerder, want zij bereiden de aanvulling van nieuw of gewijzigd materiaal voor.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
 
 
-## <a name="create-new-kanban-rule"></a>Nieuwe kanbanregel maken
-1. Ga naar Kanbanregels.
-2. Klik op Nieuw.
-3. Selecteer Opname in het veld Type.
-    * Het opnametype wordt gebruikt voor kanbanregels om materiaal of goederen over te boeken.  
-4. Typ of selecteer een waarde in het veld Eerste planactiviteit.
-    * Selecteer ReplenishSpeakerComponents.   Deze activiteit wordt ingesteld om onderdelen van magazijn 11, locatie 11 naar magazijn 12 en locatie 12 te verplaatsen.  
-5. Typ of selecteer een waarde in het veld Product.
-    * Selecteer M0007.  
-6. Voer in het veld Levertijd een nummer in.
-    * Bijvoorbeeld 60.  
-7. Typ of selecteer een waarde in het veld Maateenheid.
-    * Bijvoorbeeld Minuten.  
+## <a name="create-new-kanban-rule"></a><span data-ttu-id="b9d5a-107">Nieuwe kanbanregel maken</span><span class="sxs-lookup"><span data-stu-id="b9d5a-107">Create new kanban rule</span></span>
+1. <span data-ttu-id="b9d5a-108">Ga naar Kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-108">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="b9d5a-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-109">Click New.</span></span>
+3. <span data-ttu-id="b9d5a-110">Selecteer Opname in het veld Type.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-110">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="b9d5a-111">Het opnametype wordt gebruikt voor kanbanregels om materiaal of goederen over te boeken.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
+4. <span data-ttu-id="b9d5a-112">Typ of selecteer een waarde in het veld Eerste planactiviteit.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-112">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="b9d5a-113">Selecteer ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="b9d5a-114">Deze activiteit wordt ingesteld om onderdelen van magazijn 11, locatie 11 naar magazijn 12 en locatie 12 te verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
+5. <span data-ttu-id="b9d5a-115">Typ of selecteer een waarde in het veld Product.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-115">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="b9d5a-116">Selecteer M0007.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-116">Select M0007.</span></span>  
+6. <span data-ttu-id="b9d5a-117">Voer in het veld Levertijd een nummer in.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-117">In the Lead time field, enter a number.</span></span>
+    * <span data-ttu-id="b9d5a-118">Bijvoorbeeld 60.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-118">For example, 60.</span></span>  
+7. <span data-ttu-id="b9d5a-119">Typ of selecteer een waarde in het veld Maateenheid.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-119">In the Unit of measure field, enter or select a value.</span></span>
+    * <span data-ttu-id="b9d5a-120">Bijvoorbeeld Minuten.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-120">For example, Minutes.</span></span>  
 
-## <a name="set-quantities-for-kanban"></a>Hoeveelheden voor kanban instellen
-1. Stel Standaardhoeveelheid in op '5'.
-    * Dit is de hoeveelheid die voor elke kanban wordt overgeboekt.  
-2. Voer 2 in het veld Vaste kanbanhoeveelheid in.
-    * Dit is het aantal kanbans die actief moeten zijn. In dit geval 2 kanbans die elk 5 overboeken.  
-3. Typ '1' in het veld Minimum waarschuwingsgrens.
-    * Gebruikt om het minimumaantal van volledige kanbans bij te houden die bij de bestemming moeten zijn. Dit wordt bijvoorbeeld gebruikt op het overzicht van kanbanhoeveelheid.  
-4. Typ '2' in het veld Maximum waarschuwingsgrens.
-    * Gebruikt om het maximumaantal van volledige kanbans bij te houden die bij de bestemming moeten zijn. Dit wordt bijvoorbeeld gebruikt op het overzicht van kanbanhoeveelheid.  
+## <a name="set-quantities-for-kanban"></a><span data-ttu-id="b9d5a-121">Hoeveelheden voor kanban instellen</span><span class="sxs-lookup"><span data-stu-id="b9d5a-121">Set quantities for kanban</span></span>
+1. <span data-ttu-id="b9d5a-122">Stel Standaardhoeveelheid in op '5'.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-122">Set Default quantity to '5'.</span></span>
+    * <span data-ttu-id="b9d5a-123">Dit is de hoeveelheid die voor elke kanban wordt overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-123">This is the quantity that will be transferred for each kanban.</span></span>  
+2. <span data-ttu-id="b9d5a-124">Voer 2 in het veld Vaste kanbanhoeveelheid in.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-124">In the Fixed kanban quantity field, enter '2'.</span></span>
+    * <span data-ttu-id="b9d5a-125">Dit is het aantal kanbans die actief moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="b9d5a-126">In dit geval 2 kanbans die elk 5 overboeken.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-126">In this case, 2 kanbans transferring 5 each.</span></span>  
+3. <span data-ttu-id="b9d5a-127">Typ '1' in het veld Minimum waarschuwingsgrens.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-127">In the Alert boundary minimum field, enter '1'.</span></span>
+    * <span data-ttu-id="b9d5a-128">Gebruikt om het minimumaantal van volledige kanbans bij te houden die bij de bestemming moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="b9d5a-129">Dit wordt bijvoorbeeld gebruikt op het overzicht van kanbanhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-129">For example, this is used on the kanban quantity overview.</span></span>  
+4. <span data-ttu-id="b9d5a-130">Typ '2' in het veld Maximum waarschuwingsgrens.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-130">In the Alert boundary maximum field, enter '2'.</span></span>
+    * <span data-ttu-id="b9d5a-131">Gebruikt om het maximumaantal van volledige kanbans bij te houden die bij de bestemming moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="b9d5a-132">Dit wordt bijvoorbeeld gebruikt op het overzicht van kanbanhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-132">For example, this is used on the kanban quantity overview.</span></span>  
 
-## <a name="create-kanbans"></a>Kanbans maken
-1. Klik op Opslaan.
-    * De kanbanregel moet worden opgeslagen voordat kanbans kunnen worden gemaakt.  
-2. Klik op Toevoegen.
-    * Er zijn geen actieve kanbans, omdat het voorgestelde 'Aantal nieuwe kanbans' 2 is. Dit is gelijk aan de 'Vaste kanbanhoeveelheid'.  
-3. Klik op Maken.
-    * Hierdoor worden twee kanbans gemaakt.  
-    * Voor deze opnamekanbanregel werden er 2 kanbans gemaakt, voor elk 5.  Dit is de laatste stap in deze procedure.  
+## <a name="create-kanbans"></a><span data-ttu-id="b9d5a-133">Kanbans maken</span><span class="sxs-lookup"><span data-stu-id="b9d5a-133">Create kanbans</span></span>
+1. <span data-ttu-id="b9d5a-134">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-134">Click Save.</span></span>
+    * <span data-ttu-id="b9d5a-135">De kanbanregel moet worden opgeslagen voordat kanbans kunnen worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
+2. <span data-ttu-id="b9d5a-136">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-136">Click Add.</span></span>
+    * <span data-ttu-id="b9d5a-137">Er zijn geen actieve kanbans, omdat het voorgestelde 'Aantal nieuwe kanbans' 2 is. Dit is gelijk aan de 'Vaste kanbanhoeveelheid'.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
+3. <span data-ttu-id="b9d5a-138">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-138">Click Create.</span></span>
+    * <span data-ttu-id="b9d5a-139">Hierdoor worden twee kanbans gemaakt.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-139">This will create two kanbans.</span></span>  
+    * <span data-ttu-id="b9d5a-140">Voor deze opnamekanbanregel werden er 2 kanbans gemaakt, voor elk 5.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="b9d5a-141">Dit is de laatste stap in deze procedure.</span><span class="sxs-lookup"><span data-stu-id="b9d5a-141">This is the last step in this procedure.</span></span>  
 
 

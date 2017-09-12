@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>Onkostenbeheer configureren
+# <a name="configure-expense-management"></a><span data-ttu-id="85cc3-104">Onkostenbeheer configureren</span><span class="sxs-lookup"><span data-stu-id="85cc3-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In het gebied Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's, opslaan en beleid opslaan. 
+<span data-ttu-id="85cc3-105">In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="85cc3-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="85cc3-106">In het gebied Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's, opslaan en beleid opslaan.</span><span class="sxs-lookup"><span data-stu-id="85cc3-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-Omdat veel van de beslissingen die u neemt wanneer u uw configuratie voor Onkostenbeheer plant, zijn gebaseerd op de hiërarchie en financiële structuur van uw organisatie, moet u naar de planningsdocumenten voor die gebieden verwijzen.
+<span data-ttu-id="85cc3-107">Omdat veel van de beslissingen die u neemt wanneer u uw configuratie voor Onkostenbeheer plant, zijn gebaseerd op de hiërarchie en financiële structuur van uw organisatie, moet u naar de planningsdocumenten voor die gebieden verwijzen.</span><span class="sxs-lookup"><span data-stu-id="85cc3-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>Intercompany-onkosten
-Wanneer u intercompany-onkosten inschakelt, stelt u rechtspersonen en werknemers in staat onkosten te maken namens, en te innen van, een andere rechtspersoon in uw organisatie. Een werknemer in rechtspersoon A rondt bijvoorbeeld een project voor rechtspersoon B af. Als Intercompany-onkosten zijn ingeschakeld, kan de werknemer vervolgens een urenstaat indienen bij, en betaald worden door, rechtspersoon B. Als uw organisatie niet meerdere rechtspersonen omvat, hoeft u intercompany-onkosten niet in te schakelen. **Beslissing:** wilt u intercompany-onkosten inschakelen?
+## <a name="intercompany-expenses"></a><span data-ttu-id="85cc3-108">Intercompany-onkosten</span><span class="sxs-lookup"><span data-stu-id="85cc3-108">Intercompany expenses</span></span>
+<span data-ttu-id="85cc3-109">Wanneer u intercompany-onkosten inschakelt, stelt u rechtspersonen en werknemers in staat onkosten te maken namens, en te innen van, een andere rechtspersoon in uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="85cc3-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="85cc3-110">Een werknemer in rechtspersoon A rondt bijvoorbeeld een project voor rechtspersoon B af. Als Intercompany-onkosten zijn ingeschakeld, kan de werknemer vervolgens een urenstaat indienen bij, en betaald worden door, rechtspersoon B. Als uw organisatie niet meerdere rechtspersonen omvat, hoeft u intercompany-onkosten niet in te schakelen.</span><span class="sxs-lookup"><span data-stu-id="85cc3-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="85cc3-111">**Beslissing:** wilt u intercompany-onkosten inschakelen?</span><span class="sxs-lookup"><span data-stu-id="85cc3-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>Financieel beheer
-Onkostenbeheer is sterk geïntegreerd met het financieel beheer van uw organisatie. Veel van uw configuraties voor Onkostenbeheer zijn gebaseerd op de beslissingen die u over de financiën van uw organisatie hebt genomen. In de volgende secties worden de verschillende gebieden beschreven waarvoor planning en beslissingen vereist zijn die zijn gebaseerd op de financiële beslissingen van uw organisatie en de richtlijnen van uw managementteam.
+## <a name="financial-management"></a><span data-ttu-id="85cc3-112">Financieel beheer</span><span class="sxs-lookup"><span data-stu-id="85cc3-112">Financial management</span></span>
+<span data-ttu-id="85cc3-113">Onkostenbeheer is sterk geïntegreerd met het financieel beheer van uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="85cc3-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="85cc3-114">Veel van uw configuraties voor Onkostenbeheer zijn gebaseerd op de beslissingen die u over de financiën van uw organisatie hebt genomen.</span><span class="sxs-lookup"><span data-stu-id="85cc3-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="85cc3-115">In de volgende secties worden de verschillende gebieden beschreven waarvoor planning en beslissingen vereist zijn die zijn gebaseerd op de financiële beslissingen van uw organisatie en de richtlijnen van uw managementteam.</span><span class="sxs-lookup"><span data-stu-id="85cc3-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>Dagvergoedingen
+### <a name="per-diems"></a><span data-ttu-id="85cc3-116">Dagvergoedingen</span><span class="sxs-lookup"><span data-stu-id="85cc3-116">Per diems</span></span>
 
-U moet de dagvergoeding per werknemer definiëren die uw organisatie biedt. Omdat dagvergoedingen doorgaan worden gebruikt om onkosten, zoals maaltijden, overnachtingen en andere incidentele kosten, te dekken, kunt u regels maken voor de dagvergoeding die uw organisatie aanbiedt. De dagvergoedingstarieven kunnen worden gebaseerd op de tijd van het jaar en/of de reisbestemming. Wanneer u een dagvergoedingsregel definieert, kunt u instellen dat er een percentage van een dagvergoedingstarief wordt ingehouden als een werknemer extra maaltijden of diensten ontvangt. Ook kunt u dagtariefniveaus definiëren om het minimum of maximum aantal toegestane uren voor het dagvergoedingstarief op te geven dat kan worden toegepast op de reis van een werknemer. **Beslissingen:**
+<span data-ttu-id="85cc3-117">U moet de dagvergoeding per werknemer definiëren die uw organisatie biedt.</span><span class="sxs-lookup"><span data-stu-id="85cc3-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="85cc3-118">Omdat dagvergoedingen doorgaan worden gebruikt om onkosten, zoals maaltijden, overnachtingen en andere incidentele kosten, te dekken, kunt u regels maken voor de dagvergoeding die uw organisatie aanbiedt.</span><span class="sxs-lookup"><span data-stu-id="85cc3-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="85cc3-119">De dagvergoedingstarieven kunnen worden gebaseerd op de tijd van het jaar en/of de reisbestemming.</span><span class="sxs-lookup"><span data-stu-id="85cc3-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="85cc3-120">Wanneer u een dagvergoedingsregel definieert, kunt u instellen dat er een percentage van een dagvergoedingstarief wordt ingehouden als een werknemer extra maaltijden of diensten ontvangt.</span><span class="sxs-lookup"><span data-stu-id="85cc3-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="85cc3-121">Ook kunt u dagtariefniveaus definiëren om het minimum of maximum aantal toegestane uren voor het dagvergoedingstarief op te geven dat kan worden toegepast op de reis van een werknemer.</span><span class="sxs-lookup"><span data-stu-id="85cc3-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="85cc3-122">**Beslissingen:**</span><span class="sxs-lookup"><span data-stu-id="85cc3-122">**Decisions:**</span></span>
 
--   Standaardregels voor dagvergoedingen voor de eerste en laatste dagen:
-    -   Wat is het minimum aantal uren dat een werknemer voor een dag kan claimen als deze ook nog een dagvergoeding wil ontvangen?
-    -   Geldt er een reductie voor het bedrag dat voor maaltijden wordt aangeboden voor de eerste en laatste dag? Zo ja, wat is het percentage van de reductie?
-    -   Geldt er een reductie voor het bedrag dat voor een hotel wordt aangeboden voor de eerste en laatste dag? Zo ja, wat is het percentage van de reductie?
-    -   Geldt er een reductie voor het bedrag dat voor overige gemaakte onkosten wordt aangeboden voor de eerste en laatste dag? Zo ja, wat is het percentage van de reductie?
--   Standaardregels voor dagvergoedingen:
-    -   Geldt er een percentagereductie voor de dagvergoeding voor elke maaltijd als de maaltijd bijvoorbeeld gratis is? Zo ja, wat is dan het reductiepercentage voor elke maaltijd?
-    -   Wordt de maaltijdreductie berekend per dag, reis of het aantal maaltijden per dag?
-    -   Moeten dagvergoedingen normaal of naar boven afgerond worden?
-    -   Worden dagvergoedingen berekend op basis van een periode van 24 uur of op een kalenderdag?
--   Dagvergoedingsregels op basis van locatie:
-    -   Variëren dagvergoedingstarieven op basis van locatie en welke locaties zijn opgenomen?
-    -   Welk percentagebedrag wordt voor elke locatie geleverd als het dagvergoedingstarief varieert op basis van locatie:
-        -   maaltijden
-        -   hotel
-        -   overige uitgaven
+-   <span data-ttu-id="85cc3-123">Standaardregels voor dagvergoedingen voor de eerste en laatste dagen:</span><span class="sxs-lookup"><span data-stu-id="85cc3-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="85cc3-124">Wat is het minimum aantal uren dat een werknemer voor een dag kan claimen als deze ook nog een dagvergoeding wil ontvangen?</span><span class="sxs-lookup"><span data-stu-id="85cc3-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="85cc3-125">Geldt er een reductie voor het bedrag dat voor maaltijden wordt aangeboden voor de eerste en laatste dag?</span><span class="sxs-lookup"><span data-stu-id="85cc3-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="85cc3-126">Zo ja, wat is het percentage van de reductie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="85cc3-127">Geldt er een reductie voor het bedrag dat voor een hotel wordt aangeboden voor de eerste en laatste dag?</span><span class="sxs-lookup"><span data-stu-id="85cc3-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="85cc3-128">Zo ja, wat is het percentage van de reductie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="85cc3-129">Geldt er een reductie voor het bedrag dat voor overige gemaakte onkosten wordt aangeboden voor de eerste en laatste dag?</span><span class="sxs-lookup"><span data-stu-id="85cc3-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="85cc3-130">Zo ja, wat is het percentage van de reductie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="85cc3-131">Standaardregels voor dagvergoedingen:</span><span class="sxs-lookup"><span data-stu-id="85cc3-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="85cc3-132">Geldt er een percentagereductie voor de dagvergoeding voor elke maaltijd als de maaltijd bijvoorbeeld gratis is?</span><span class="sxs-lookup"><span data-stu-id="85cc3-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="85cc3-133">Zo ja, wat is dan het reductiepercentage voor elke maaltijd?</span><span class="sxs-lookup"><span data-stu-id="85cc3-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="85cc3-134">Wordt de maaltijdreductie berekend per dag, reis of het aantal maaltijden per dag?</span><span class="sxs-lookup"><span data-stu-id="85cc3-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="85cc3-135">Moeten dagvergoedingen normaal of naar boven afgerond worden?</span><span class="sxs-lookup"><span data-stu-id="85cc3-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="85cc3-136">Worden dagvergoedingen berekend op basis van een periode van 24 uur of op een kalenderdag?</span><span class="sxs-lookup"><span data-stu-id="85cc3-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="85cc3-137">Dagvergoedingsregels op basis van locatie:</span><span class="sxs-lookup"><span data-stu-id="85cc3-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="85cc3-138">Variëren dagvergoedingstarieven op basis van locatie en welke locaties zijn opgenomen?</span><span class="sxs-lookup"><span data-stu-id="85cc3-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="85cc3-139">Welk percentagebedrag wordt voor elke locatie geleverd als het dagvergoedingstarief varieert op basis van locatie:</span><span class="sxs-lookup"><span data-stu-id="85cc3-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="85cc3-140">maaltijden</span><span class="sxs-lookup"><span data-stu-id="85cc3-140">meals</span></span>
+        -   <span data-ttu-id="85cc3-141">hotel</span><span class="sxs-lookup"><span data-stu-id="85cc3-141">hotel</span></span>
+        -   <span data-ttu-id="85cc3-142">overige uitgaven</span><span class="sxs-lookup"><span data-stu-id="85cc3-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>Journalen en rekeningen voor onkostenbeheer
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="85cc3-143">Journalen en rekeningen voor onkostenbeheer</span><span class="sxs-lookup"><span data-stu-id="85cc3-143">Expense management journals and accounts</span></span>
 
-Onkostenbeheer vereist dat u meerdere journalen en rekeningen gebruikt. U moet bijvoorbeeld bepalen of voor kasvoorschotten en creditcardgeschillen dezelfde rekening moet worden gebruikt. **Beslissingen:**
+<span data-ttu-id="85cc3-144">Onkostenbeheer vereist dat u meerdere journalen en rekeningen gebruikt.</span><span class="sxs-lookup"><span data-stu-id="85cc3-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="85cc3-145">U moet bijvoorbeeld bepalen of voor kasvoorschotten en creditcardgeschillen dezelfde rekening moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="85cc3-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="85cc3-146">**Beslissingen:**</span><span class="sxs-lookup"><span data-stu-id="85cc3-146">**Decisions:**</span></span>
 
--   Naar welk grootboekjournaal worden goedgekeurde onkostennota's geboekt?
--   Welke rekening wordt gebruikt voor kasvoorschotten?
--   Moeten kasvoorschotten onmiddellijk worden geboekt?
+-   <span data-ttu-id="85cc3-147">Naar welk grootboekjournaal worden goedgekeurde onkostennota's geboekt?</span><span class="sxs-lookup"><span data-stu-id="85cc3-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="85cc3-148">Welke rekening wordt gebruikt voor kasvoorschotten?</span><span class="sxs-lookup"><span data-stu-id="85cc3-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="85cc3-149">Moeten kasvoorschotten onmiddellijk worden geboekt?</span><span class="sxs-lookup"><span data-stu-id="85cc3-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>Betalingsmethoden
+### <a name="payment-methods"></a><span data-ttu-id="85cc3-150">Betalingsmethoden</span><span class="sxs-lookup"><span data-stu-id="85cc3-150">Payment methods</span></span>
 
-Als u werknemers toestemming geeft om onkosten namens uw bedrijf te maken, moet u de betalingsmethoden definiëren die werknemers kunnen gebruiken. U kunt werknemers bijvoorbeeld toestemming geven contant geld of een zakelijke creditcard te gebruiken. U kunt werknemers ook toestemming geven om persoonlijke creditcards te gebruiken en de werknemers vervolgens terugbetalen. U moet de volgende beslissingen nemen voor elke betalingsmethode die u toestaat. **Beslissingen:**
+<span data-ttu-id="85cc3-151">Als u werknemers toestemming geeft om onkosten namens uw bedrijf te maken, moet u de betalingsmethoden definiëren die werknemers kunnen gebruiken.</span><span class="sxs-lookup"><span data-stu-id="85cc3-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="85cc3-152">U kunt werknemers bijvoorbeeld toestemming geven contant geld of een zakelijke creditcard te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="85cc3-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="85cc3-153">U kunt werknemers ook toestemming geven om persoonlijke creditcards te gebruiken en de werknemers vervolgens terugbetalen.</span><span class="sxs-lookup"><span data-stu-id="85cc3-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="85cc3-154">U moet de volgende beslissingen nemen voor elke betalingsmethode die u toestaat.</span><span class="sxs-lookup"><span data-stu-id="85cc3-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="85cc3-155">**Beslissingen:**</span><span class="sxs-lookup"><span data-stu-id="85cc3-155">**Decisions:**</span></span>
 
--   Welke betalingsmethoden zijn toegestaan?
--   Wie betaalt de onkosten voor de betalingsmethode?
--   Is er een soort tegenrekening? Zo ja, welke?
--   Wat is de tegenrekening, indien van toepassing?
--   Kan de betalingsmethode alleen voor geïmporteerde transacties worden gebruikt als de betalingsmethode een creditcard is?
+-   <span data-ttu-id="85cc3-156">Welke betalingsmethoden zijn toegestaan?</span><span class="sxs-lookup"><span data-stu-id="85cc3-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="85cc3-157">Wie betaalt de onkosten voor de betalingsmethode?</span><span class="sxs-lookup"><span data-stu-id="85cc3-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="85cc3-158">Is er een soort tegenrekening?</span><span class="sxs-lookup"><span data-stu-id="85cc3-158">Is there an offset account type?</span></span> <span data-ttu-id="85cc3-159">Zo ja, welke?</span><span class="sxs-lookup"><span data-stu-id="85cc3-159">If so, what is it?</span></span>
+-   <span data-ttu-id="85cc3-160">Wat is de tegenrekening, indien van toepassing?</span><span class="sxs-lookup"><span data-stu-id="85cc3-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="85cc3-161">Kan de betalingsmethode alleen voor geïmporteerde transacties worden gebruikt als de betalingsmethode een creditcard is?</span><span class="sxs-lookup"><span data-stu-id="85cc3-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>Onkostencategorieën en gedeelde categorieën
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="85cc3-162">Onkostencategorieën en gedeelde categorieën</span><span class="sxs-lookup"><span data-stu-id="85cc3-162">Expense categories and shared categories</span></span>
 
-Wanneer werknemers een onkostennota maken, moeten alle geregistreerde onkosten aan een onkostencategorie worden gekoppeld. Onkostencategorieën worden afgeleid van gedeelde categorieën die door alle rechtspersonen in uw organisatie kunnen worden gebruikt. Deze categorieën kunnen ook in Projectbeheer en boekhouding worden gedeeld, afhankelijk van hoe uw organisatie is gedefinieerd. Bepaal op basis van de definitie van uw organisatie en richtlijnen van het implementatieteam of de gebruikte categorieën voor onkostenbeheer alleen in Onkosten moeten worden gebruikt of moeten worden gedeeld tussen Project en Onkosten. Deze categorieën kunnen tussen Project en Onkosten of Project en Productie worden gedeeld, maar niet tussen Onkosten en Productie. U moet de volgende beslissingen nemen voor elke onkostencategorie. **Beslissingen:**
+<span data-ttu-id="85cc3-163">Wanneer werknemers een onkostennota maken, moeten alle geregistreerde onkosten aan een onkostencategorie worden gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="85cc3-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="85cc3-164">Onkostencategorieën worden afgeleid van gedeelde categorieën die door alle rechtspersonen in uw organisatie kunnen worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="85cc3-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="85cc3-165">Deze categorieën kunnen ook in Projectbeheer en boekhouding worden gedeeld, afhankelijk van hoe uw organisatie is gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="85cc3-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="85cc3-166">Bepaal op basis van de definitie van uw organisatie en richtlijnen van het implementatieteam of de gebruikte categorieën voor onkostenbeheer alleen in Onkosten moeten worden gebruikt of moeten worden gedeeld tussen Project en Onkosten.</span><span class="sxs-lookup"><span data-stu-id="85cc3-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="85cc3-167">Deze categorieën kunnen tussen Project en Onkosten of Project en Productie worden gedeeld, maar niet tussen Onkosten en Productie.</span><span class="sxs-lookup"><span data-stu-id="85cc3-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="85cc3-168">U moet de volgende beslissingen nemen voor elke onkostencategorie.</span><span class="sxs-lookup"><span data-stu-id="85cc3-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="85cc3-169">**Beslissingen:**</span><span class="sxs-lookup"><span data-stu-id="85cc3-169">**Decisions:**</span></span>
 
--   Wat is de onkostencategorie? Dit kan bijvoorbeeld vluchten, hotel of kilometervergoeding zijn.
--   Kan deze onkostencategorie ook worden gebruikt in Projectbeheer en boekhouding?
--   Wat is het onkostentype?
--   Wat is de standaardbetalingsmethode voor de onkostencategorie?
--   Moeten onkosten in deze categorie worden gespecificeerd?
--   Wat is de belangrijkste standaardrekening voor de onkostencategorie?
--   Wat is de standaard btw-groep voor artikelen voor de onkostencategorie?
--   Zijn extra betalingsmethoden toegestaan voor de onkostencategorie? Zo ja, welke?
--   Zijn er subcategorieën binnen deze onkostencategorie? Zo ja:
-    -   Zijn er subcategorieën uitgesloten van btw-teruggave?
-    -   Wat is de btw-groep voor artikelen van de subcategorieën?
+-   <span data-ttu-id="85cc3-170">Wat is de onkostencategorie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-170">What is the expense category?</span></span> <span data-ttu-id="85cc3-171">Dit kan bijvoorbeeld vluchten, hotel of kilometervergoeding zijn.</span><span class="sxs-lookup"><span data-stu-id="85cc3-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="85cc3-172">Kan deze onkostencategorie ook worden gebruikt in Projectbeheer en boekhouding?</span><span class="sxs-lookup"><span data-stu-id="85cc3-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="85cc3-173">Wat is het onkostentype?</span><span class="sxs-lookup"><span data-stu-id="85cc3-173">What is the expense type?</span></span>
+-   <span data-ttu-id="85cc3-174">Wat is de standaardbetalingsmethode voor de onkostencategorie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="85cc3-175">Moeten onkosten in deze categorie worden gespecificeerd?</span><span class="sxs-lookup"><span data-stu-id="85cc3-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="85cc3-176">Wat is de belangrijkste standaardrekening voor de onkostencategorie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="85cc3-177">Wat is de standaard btw-groep voor artikelen voor de onkostencategorie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="85cc3-178">Zijn extra betalingsmethoden toegestaan voor de onkostencategorie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="85cc3-179">Zo ja, welke?</span><span class="sxs-lookup"><span data-stu-id="85cc3-179">If so, what are they?</span></span>
+-   <span data-ttu-id="85cc3-180">Zijn er subcategorieën binnen deze onkostencategorie?</span><span class="sxs-lookup"><span data-stu-id="85cc3-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="85cc3-181">Zo ja:</span><span class="sxs-lookup"><span data-stu-id="85cc3-181">If so:</span></span>
+    -   <span data-ttu-id="85cc3-182">Zijn er subcategorieën uitgesloten van btw-teruggave?</span><span class="sxs-lookup"><span data-stu-id="85cc3-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="85cc3-183">Wat is de btw-groep voor artikelen van de subcategorieën?</span><span class="sxs-lookup"><span data-stu-id="85cc3-183">What is the item sales tax group of the subcategories?</span></span>
 
-    Als deze onkostencategorie ook in Projectbeheer en boekhouding wordt gebruikt, moet u ook de resterende vragen beantwoorden. In het andere geval bent u klaar met deze sectie.
--   Welke kostenrekeningen worden voor het volgende gebruikt?
-    -   Kosten
-    -   Salaristoewijzing
-    -   OHW - kostprijs
-    -   Kosten - artikel
-    -   OHW - kostprijs - artikel
-    -   Transitorisch verlies
-    -   OHW - transitorisch verlies
--   Welke opbrengstrekeningen worden voor het volgende gebruikt?
-    -   Gefactureerde opbrengst
-    -   Transitorische opbrengsten - verkoopwaarde
-    -   OHW - verkoopwaarde
-    -   Transitorische opbrengsten - productie
-    -   OHW - productie
-    -   Transitorische opbrengsten - winst
-    -   OHW - winst
-    -   Transitorische opbrengsten - abonnement
-    -   OHW - abonnement
+    <span data-ttu-id="85cc3-184">Als deze onkostencategorie ook in Projectbeheer en boekhouding wordt gebruikt, moet u ook de resterende vragen beantwoorden.</span><span class="sxs-lookup"><span data-stu-id="85cc3-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="85cc3-185">In het andere geval bent u klaar met deze sectie.</span><span class="sxs-lookup"><span data-stu-id="85cc3-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="85cc3-186">Welke kostenrekeningen worden voor het volgende gebruikt?</span><span class="sxs-lookup"><span data-stu-id="85cc3-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="85cc3-187">Kosten</span><span class="sxs-lookup"><span data-stu-id="85cc3-187">Cost</span></span>
+    -   <span data-ttu-id="85cc3-188">Salaristoewijzing</span><span class="sxs-lookup"><span data-stu-id="85cc3-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="85cc3-189">OHW - kostprijs</span><span class="sxs-lookup"><span data-stu-id="85cc3-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="85cc3-190">Kosten - artikel</span><span class="sxs-lookup"><span data-stu-id="85cc3-190">Cost-item</span></span>
+    -   <span data-ttu-id="85cc3-191">OHW - kostprijs - artikel</span><span class="sxs-lookup"><span data-stu-id="85cc3-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="85cc3-192">Transitorisch verlies</span><span class="sxs-lookup"><span data-stu-id="85cc3-192">Accrued loss</span></span>
+    -   <span data-ttu-id="85cc3-193">OHW - transitorisch verlies</span><span class="sxs-lookup"><span data-stu-id="85cc3-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="85cc3-194">Welke opbrengstrekeningen worden voor het volgende gebruikt?</span><span class="sxs-lookup"><span data-stu-id="85cc3-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="85cc3-195">Gefactureerde opbrengst</span><span class="sxs-lookup"><span data-stu-id="85cc3-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="85cc3-196">Transitorische opbrengsten - verkoopwaarde</span><span class="sxs-lookup"><span data-stu-id="85cc3-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="85cc3-197">OHW - verkoopwaarde</span><span class="sxs-lookup"><span data-stu-id="85cc3-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="85cc3-198">Transitorische opbrengsten - productie</span><span class="sxs-lookup"><span data-stu-id="85cc3-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="85cc3-199">OHW - productie</span><span class="sxs-lookup"><span data-stu-id="85cc3-199">WIP-production</span></span>
+    -   <span data-ttu-id="85cc3-200">Transitorische opbrengsten - winst</span><span class="sxs-lookup"><span data-stu-id="85cc3-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="85cc3-201">OHW - winst</span><span class="sxs-lookup"><span data-stu-id="85cc3-201">WIP-profit</span></span>
+    -   <span data-ttu-id="85cc3-202">Transitorische opbrengsten - abonnement</span><span class="sxs-lookup"><span data-stu-id="85cc3-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="85cc3-203">OHW - abonnement</span><span class="sxs-lookup"><span data-stu-id="85cc3-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>Belasting
+### <a name="taxes"></a><span data-ttu-id="85cc3-204">Belasting</span><span class="sxs-lookup"><span data-stu-id="85cc3-204">Taxes</span></span>
 
-Voor btw gerelateerd aan onkosten moet u bepalen wat wordt opgenomen of ingeschakeld op onkostennota's. **Beslissingen:**
+<span data-ttu-id="85cc3-205">Voor btw gerelateerd aan onkosten moet u bepalen wat wordt opgenomen of ingeschakeld op onkostennota's.</span><span class="sxs-lookup"><span data-stu-id="85cc3-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="85cc3-206">**Beslissingen:**</span><span class="sxs-lookup"><span data-stu-id="85cc3-206">**Decisions:**</span></span>
 
--   Is btw inbegrepen in de onkostenbedragen?
--   Moet btw-teruggave worden ingeschakeld voor onkosten?
+-   <span data-ttu-id="85cc3-207">Is btw inbegrepen in de onkostenbedragen?</span><span class="sxs-lookup"><span data-stu-id="85cc3-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="85cc3-208">Moet btw-teruggave worden ingeschakeld voor onkosten?</span><span class="sxs-lookup"><span data-stu-id="85cc3-208">Should tax recovery be enabled on expenses?</span></span>
 
-Als u tijdens de planning van het grootboek hebt besloten Amerikaanse btw- en gebruiksbelastingregels toe te passen, door het veld **Belastingregels btw toepassen** in te stellen op Ja, kunt u geen btw-teruggave voor onkosten inschakelen.
+<span data-ttu-id="85cc3-209">Als u tijdens de planning van het grootboek hebt besloten Amerikaanse btw- en gebruiksbelastingregels toe te passen, door het veld **Belastingregels btw toepassen** in te stellen op Ja, kunt u geen btw-teruggave voor onkosten inschakelen.</span><span class="sxs-lookup"><span data-stu-id="85cc3-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>Beleidsrichtlijnen
-U kunt beleid voor onkostennota's maken zodat uw organisatie tijd en geld kan besparen wanneer werknemers onkosten maken namens het bedrijf. Beleid zorgt ervoor dat werknemers binnen het budget blijven, alle vereiste gegevens doorgeven en alleen waar nodig geld uitgeven. U moet de volgende beslissingen nemen voor elk gemaakt beleid en goedkeuringsbeleid voor onkostennota's. **Beslissingen:**
+## <a name="policies"></a><span data-ttu-id="85cc3-210">Beleidsrichtlijnen</span><span class="sxs-lookup"><span data-stu-id="85cc3-210">Policies</span></span>
+<span data-ttu-id="85cc3-211">U kunt beleid voor onkostennota's maken zodat uw organisatie tijd en geld kan besparen wanneer werknemers onkosten maken namens het bedrijf.</span><span class="sxs-lookup"><span data-stu-id="85cc3-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="85cc3-212">Beleid zorgt ervoor dat werknemers binnen het budget blijven, alle vereiste gegevens doorgeven en alleen waar nodig geld uitgeven.</span><span class="sxs-lookup"><span data-stu-id="85cc3-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="85cc3-213">U moet de volgende beslissingen nemen voor elk gemaakt beleid en goedkeuringsbeleid voor onkostennota's.</span><span class="sxs-lookup"><span data-stu-id="85cc3-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="85cc3-214">**Beslissingen:**</span><span class="sxs-lookup"><span data-stu-id="85cc3-214">**Decisions:**</span></span>
 
--   Wat is de naam van het beleid?
--   Waarvoor is het onkostenbeleid bedoeld?
--   Op welke bedrijven in uw organisatie is dit beleid van toepassing als u eerder hebt besloten intercompany-onkosten in te schakelen?
--   Wanneer gaat het beleid in?
--   Wanneer verloopt het beleid?
--   Wat is de beleidsregel?
--   Wat is de uitkomt van de beleidsregel?
+-   <span data-ttu-id="85cc3-215">Wat is de naam van het beleid?</span><span class="sxs-lookup"><span data-stu-id="85cc3-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="85cc3-216">Waarvoor is het onkostenbeleid bedoeld?</span><span class="sxs-lookup"><span data-stu-id="85cc3-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="85cc3-217">Op welke bedrijven in uw organisatie is dit beleid van toepassing als u eerder hebt besloten intercompany-onkosten in te schakelen?</span><span class="sxs-lookup"><span data-stu-id="85cc3-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="85cc3-218">Wanneer gaat het beleid in?</span><span class="sxs-lookup"><span data-stu-id="85cc3-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="85cc3-219">Wanneer verloopt het beleid?</span><span class="sxs-lookup"><span data-stu-id="85cc3-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="85cc3-220">Wat is de beleidsregel?</span><span class="sxs-lookup"><span data-stu-id="85cc3-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="85cc3-221">Wat is de uitkomt van de beleidsregel?</span><span class="sxs-lookup"><span data-stu-id="85cc3-221">What is the outcome of the policy rule?</span></span>
 
 
 

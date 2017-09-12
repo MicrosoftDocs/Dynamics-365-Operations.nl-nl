@@ -16,58 +16,58 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7a1e0a4dcf12c921e1c92fbeb3e68dd167c1b75d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ffc58d2afe73fa2290e4e73a058d47ffd64b8d54
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="approve-vendors-for-specific-products"></a>Leveranciers voor specifieke producten goedkeuren
+# <a name="approve-vendors-for-specific-products"></a><span data-ttu-id="d81f5-103">Leveranciers voor specifieke producten goedkeuren</span><span class="sxs-lookup"><span data-stu-id="d81f5-103">Approve vendors for specific products</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u leveranciers voor specifieke producten goedkeurt. Zo kunt u bepalen welke leveranciers kunnen worden gebruikt wanneer het product aan een inkooporder wordt toegevoegd. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken. Deze taak wordt meestal uitgevoerd door een inkoopmanager.
+<span data-ttu-id="d81f5-104">Deze procedure laat zien hoe u leveranciers voor specifieke producten goedkeurt.</span><span class="sxs-lookup"><span data-stu-id="d81f5-104">This procedure shows you how to approve vendors for specific products.</span></span> <span data-ttu-id="d81f5-105">Zo kunt u bepalen welke leveranciers kunnen worden gebruikt wanneer het product aan een inkooporder wordt toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="d81f5-105">This allows you to control which vendors can be used when the product is added to a purchase order.</span></span> <span data-ttu-id="d81f5-106">U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="d81f5-106">You can use this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="d81f5-107">Deze taak wordt meestal uitgevoerd door een inkoopmanager.</span><span class="sxs-lookup"><span data-stu-id="d81f5-107">This task would typically be carried out by a Purchasing manager.</span></span>
 
-1. Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.
-2. Zoek en selecteer de gewenste record in de lijst.
-3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Vouw de sectie Inkoop uit.
-    * Als er een primaire leverancier in het veld Leverancier wordt weergegeven, moet u deze leverancier als goedgekeurde leverancier toevoegen in de volgende stappen. Maak een notitie van het leveranciersnummer, als er een wordt weergegeven.  
-5. Klik in het actievenster op Inkoop.
-6. Klik op Instellingen.
-7. Klik op Toevoegen.
-8. Typ of selecteer een waarde in het veld Leverancier.
-    * Selecteer de goedgekeurde leverancier. Ten minste een van de regels moet de primaire leverancier zijn als de productrecord er een bevatte. Als u eerder een notitie van het leveranciersnummer hebt gemaakt, selecteert u het hier.  
-9. Voer in het veld Vervaldatum een datum in.
-    * Kies een datum een paar maanden vooruit.  
-10. Klik op Toevoegen.
-11. Typ of selecteer een waarde in het veld Leverancier.
-12. Voer in het veld Vervaldatum een datum in.
-    * Kies een datum die afwijkt van de vorige vervaldatum.  
-13. Sluit de pagina.
-14. Klik op Goedgekeurde leveranciers.
-15. Voer in het veld Vervaldatum een datum in.
-    * Deze datum fungeert als filter zodat u kunt zien wie de goedgekeurde leveranciers zijn, tot een bepaalde datum.  
-16. Sluit de pagina.
-17. Klik op Geldigheidsperiode.
-18. Voer een datum in het veld Leveranciers weergeven die vervallen op in.
-    * U kunt deze pagina gebruiken om leveranciers te identificeren van wie de goedkeuringsstatus na een bepaalde datum vervalt.  
-19. Sluit de pagina.
-20. Klik op Bewerken.
-21. Selecteer een optie in het veld Controlemethode goedgekeurde leveranciers.
-    * Met dit veld kunt u het beleid selecteren voor wat er moet gebeuren als het product aan een inkooporderregel wordt toegevoegd waarop de leverancier geen goedgekeurde leverancier is.  
-22. Klik op Opslaan.
-23. Sluit de pagina.
-24. Sluit de pagina.
-25. Ga naar Inkoop en sourcing > Leveranciers > Relaties tussen leveranciers en artikelen > Lijst met goedgekeurde leveranciers, gesorteerd op artikel.
-    * Deze pagina geeft u een overzicht van alle producten en de goedgekeurde leveranciers.  
-26. Sluit de pagina.
-27. Ga naar Inkoop en sourcing > Leveranciers > Alle leveranciers.
-    * U kunt ook beginnen bij een leverancier en vervolgens naar de lijst met goedgekeurde producten voor die leveranciersaccount gaan.  
-28. Zoek en selecteer de gewenste record in de lijst.
-29. Klik in het actievenster op Inkoop.
-30. Klik op Lijst met goedgekeurde leveranciers, gesorteerd op leverancier.
-31. Sluit de pagina.
-32. Sluit de pagina.
+1. <span data-ttu-id="d81f5-108">Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="d81f5-108">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="d81f5-109">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d81f5-109">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="d81f5-110">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d81f5-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="d81f5-111">Vouw de sectie Inkoop uit.</span><span class="sxs-lookup"><span data-stu-id="d81f5-111">Expand the Purchase section.</span></span>
+    * <span data-ttu-id="d81f5-112">Als er een primaire leverancier in het veld Leverancier wordt weergegeven, moet u deze leverancier als goedgekeurde leverancier toevoegen in de volgende stappen.</span><span class="sxs-lookup"><span data-stu-id="d81f5-112">If there is a primary vendor shown in the Vendor field, then you need to add this vendor as an approved vendor in the following steps.</span></span> <span data-ttu-id="d81f5-113">Maak een notitie van het leveranciersnummer, als er een wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="d81f5-113">Make a note of the vendor number, if one is shown.</span></span>  
+5. <span data-ttu-id="d81f5-114">Klik in het actievenster op Inkoop.</span><span class="sxs-lookup"><span data-stu-id="d81f5-114">On the Action Pane, click Purchase.</span></span>
+6. <span data-ttu-id="d81f5-115">Klik op Instellingen.</span><span class="sxs-lookup"><span data-stu-id="d81f5-115">Click Setup.</span></span>
+7. <span data-ttu-id="d81f5-116">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d81f5-116">Click Add.</span></span>
+8. <span data-ttu-id="d81f5-117">Typ of selecteer een waarde in het veld Leverancier.</span><span class="sxs-lookup"><span data-stu-id="d81f5-117">In the Vendor field, enter or select a value.</span></span>
+    * <span data-ttu-id="d81f5-118">Selecteer de goedgekeurde leverancier.</span><span class="sxs-lookup"><span data-stu-id="d81f5-118">Select the approved vendor.</span></span> <span data-ttu-id="d81f5-119">Ten minste een van de regels moet de primaire leverancier zijn als de productrecord er een bevatte.</span><span class="sxs-lookup"><span data-stu-id="d81f5-119">At least one of the lines has to be the primary vendor if there was one in the product record.</span></span> <span data-ttu-id="d81f5-120">Als u eerder een notitie van het leveranciersnummer hebt gemaakt, selecteert u het hier.</span><span class="sxs-lookup"><span data-stu-id="d81f5-120">If you made a note of the vendor number earlier, select it here.</span></span>  
+9. <span data-ttu-id="d81f5-121">Voer in het veld Vervaldatum een datum in.</span><span class="sxs-lookup"><span data-stu-id="d81f5-121">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="d81f5-122">Kies een datum een paar maanden vooruit.</span><span class="sxs-lookup"><span data-stu-id="d81f5-122">Choose a date a that is a few months ahead.</span></span>  
+10. <span data-ttu-id="d81f5-123">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d81f5-123">Click Add.</span></span>
+11. <span data-ttu-id="d81f5-124">Typ of selecteer een waarde in het veld Leverancier.</span><span class="sxs-lookup"><span data-stu-id="d81f5-124">In the Vendor field, enter or select a value.</span></span>
+12. <span data-ttu-id="d81f5-125">Voer in het veld Vervaldatum een datum in.</span><span class="sxs-lookup"><span data-stu-id="d81f5-125">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="d81f5-126">Kies een datum die afwijkt van de vorige vervaldatum.</span><span class="sxs-lookup"><span data-stu-id="d81f5-126">Choose a date that is different than the previous expiration date.</span></span>  
+13. <span data-ttu-id="d81f5-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d81f5-127">Close the page.</span></span>
+14. <span data-ttu-id="d81f5-128">Klik op Goedgekeurde leveranciers.</span><span class="sxs-lookup"><span data-stu-id="d81f5-128">Click Approved vendors.</span></span>
+15. <span data-ttu-id="d81f5-129">Voer in het veld Vervaldatum een datum in.</span><span class="sxs-lookup"><span data-stu-id="d81f5-129">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="d81f5-130">Deze datum fungeert als filter zodat u kunt zien wie de goedgekeurde leveranciers zijn, tot een bepaalde datum.</span><span class="sxs-lookup"><span data-stu-id="d81f5-130">This date acts as a filter so you can see who the approved vendors are, up to a certain date.</span></span>  
+16. <span data-ttu-id="d81f5-131">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d81f5-131">Close the page.</span></span>
+17. <span data-ttu-id="d81f5-132">Klik op Geldigheidsperiode.</span><span class="sxs-lookup"><span data-stu-id="d81f5-132">Click Effective period.</span></span>
+18. <span data-ttu-id="d81f5-133">Voer een datum in het veld Leveranciers weergeven die vervallen op in.</span><span class="sxs-lookup"><span data-stu-id="d81f5-133">In the Show vendors expired by field, enter a date.</span></span>
+    * <span data-ttu-id="d81f5-134">U kunt deze pagina gebruiken om leveranciers te identificeren van wie de goedkeuringsstatus na een bepaalde datum vervalt.</span><span class="sxs-lookup"><span data-stu-id="d81f5-134">You can use this page to identify vendors where the approval status will expire after a certain date.</span></span>  
+19. <span data-ttu-id="d81f5-135">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d81f5-135">Close the page.</span></span>
+20. <span data-ttu-id="d81f5-136">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="d81f5-136">Click Edit.</span></span>
+21. <span data-ttu-id="d81f5-137">Selecteer een optie in het veld Controlemethode goedgekeurde leveranciers.</span><span class="sxs-lookup"><span data-stu-id="d81f5-137">In the Approved vendor check method field, select an option.</span></span>
+    * <span data-ttu-id="d81f5-138">Met dit veld kunt u het beleid selecteren voor wat er moet gebeuren als het product aan een inkooporderregel wordt toegevoegd waarop de leverancier geen goedgekeurde leverancier is.</span><span class="sxs-lookup"><span data-stu-id="d81f5-138">This field allows you to select the policy for what should happen if the product is added to a purchase order line where the vendor is not an approved vendor.</span></span>  
+22. <span data-ttu-id="d81f5-139">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="d81f5-139">Click Save.</span></span>
+23. <span data-ttu-id="d81f5-140">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d81f5-140">Close the page.</span></span>
+24. <span data-ttu-id="d81f5-141">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d81f5-141">Close the page.</span></span>
+25. <span data-ttu-id="d81f5-142">Ga naar Inkoop en sourcing > Leveranciers > Relaties tussen leveranciers en artikelen > Lijst met goedgekeurde leveranciers, gesorteerd op artikel.</span><span class="sxs-lookup"><span data-stu-id="d81f5-142">Go to Procurement and sourcing > Vendors > Vendor/item relations > Approved vendor list by item.</span></span>
+    * <span data-ttu-id="d81f5-143">Deze pagina geeft u een overzicht van alle producten en de goedgekeurde leveranciers.</span><span class="sxs-lookup"><span data-stu-id="d81f5-143">This page gives you an overview of all products and the approved vendors.</span></span>  
+26. <span data-ttu-id="d81f5-144">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d81f5-144">Close the page.</span></span>
+27. <span data-ttu-id="d81f5-145">Ga naar Inkoop en sourcing > Leveranciers > Alle leveranciers.</span><span class="sxs-lookup"><span data-stu-id="d81f5-145">Go to Procurement and sourcing > Vendors > All vendors.</span></span>
+    * <span data-ttu-id="d81f5-146">U kunt ook beginnen bij een leverancier en vervolgens naar de lijst met goedgekeurde producten voor die leveranciersaccount gaan.</span><span class="sxs-lookup"><span data-stu-id="d81f5-146">You can also start from a vendor and then go to the list of approved products for that vendor account.</span></span>  
+28. <span data-ttu-id="d81f5-147">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d81f5-147">In the list, find and select the desired record.</span></span>
+29. <span data-ttu-id="d81f5-148">Klik in het actievenster op Inkoop.</span><span class="sxs-lookup"><span data-stu-id="d81f5-148">On the Action Pane, click Procurement.</span></span>
+30. <span data-ttu-id="d81f5-149">Klik op Lijst met goedgekeurde leveranciers, gesorteerd op leverancier.</span><span class="sxs-lookup"><span data-stu-id="d81f5-149">Click Approved vendor list by vendor.</span></span>
+31. <span data-ttu-id="d81f5-150">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d81f5-150">Close the page.</span></span>
+32. <span data-ttu-id="d81f5-151">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d81f5-151">Close the page.</span></span>
 
 

@@ -19,33 +19,33 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 89ddb0f246eb1d874ff0f2b5305f30355905c45e
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fd6dc5173fd37f0257c98c1a41f3e6ce40b5b680
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Een budget maken op basis van transactierekeningen en totaalrekeningen.
+# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a><span data-ttu-id="29d9f-104">Een budget maken op basis van transactierekeningen en totaalrekeningen.</span><span class="sxs-lookup"><span data-stu-id="29d9f-104">Create a budget from transaction accounts and total accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel biedt een overzicht van het proces voor het maken van budgetten op basis van totaalrekeningen. Daarnaast wordt beschreven hoe u budgetbeheer voor totaalrekeningen inschakelt, als budgetbeheer vereist is.
+<span data-ttu-id="29d9f-105">Dit artikel biedt een overzicht van het proces voor het maken van budgetten op basis van totaalrekeningen.</span><span class="sxs-lookup"><span data-stu-id="29d9f-105">This article provides an overview of the process for creating budgets based on total accounts.</span></span> <span data-ttu-id="29d9f-106">Daarnaast wordt beschreven hoe u budgetbeheer voor totaalrekeningen inschakelt, als budgetbeheer vereist is.</span><span class="sxs-lookup"><span data-stu-id="29d9f-106">It also explains how to turn on budget control for total accounts, if budget control is required.</span></span>
 
-Zowel met budgetplan- als budgetregisterinvoerdocumenten is budgettering voor hoofdrekeningen mogelijk die het hoofdrekeningtype **Totaal** hebben. Werkelijke kosten kunnen alleen naar transactiehoofdrekeningen worden geboekt. 
+<span data-ttu-id="29d9f-107">Zowel met budgetplan- als budgetregisterinvoerdocumenten is budgettering voor hoofdrekeningen mogelijk die het hoofdrekeningtype **Totaal** hebben.</span><span class="sxs-lookup"><span data-stu-id="29d9f-107">Both budget plan and budget register entry documents allow for budgeting on main accounts that have a main account type of **Total**.</span></span> <span data-ttu-id="29d9f-108">Werkelijke kosten kunnen alleen naar transactiehoofdrekeningen worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="29d9f-108">Actuals can be posted only to transactional main accounts.</span></span> 
 
-Voor het periodieke proces **Budgetplan genereren op basis van grootboek** op het tabblad **Bron** kunt u het hoofdrekeningtype **Totaal** als criterium opgeven. In dit geval wordt elke totale hoofdrekening opgenomen in het doelbudgetplan en is het bedrag gelijk aan het totaalbedrag van het bereik van geselecteerde hoofdrekeningen. 
+<span data-ttu-id="29d9f-109">Voor het periodieke proces **Budgetplan genereren op basis van grootboek** op het tabblad **Bron** kunt u het hoofdrekeningtype **Totaal** als criterium opgeven.</span><span class="sxs-lookup"><span data-stu-id="29d9f-109">For the **Generate budget plan from General ledger** periodic process, on the **Source** tab, you can specify the **Total** main account type as a criterion.</span></span> <span data-ttu-id="29d9f-110">In dit geval wordt elke totale hoofdrekening opgenomen in het doelbudgetplan en is het bedrag gelijk aan het totaalbedrag van het bereik van geselecteerde hoofdrekeningen.</span><span class="sxs-lookup"><span data-stu-id="29d9f-110">In this case, each total main account will be included in the target budget plan, and the amount will equal the total amount of the range of selected main accounts.</span></span> 
 
-U kunt budgetbeheer voor hoofdrekeningen van het type **Totaal** activeren. Deze functionaliteit wordt ondersteund via het gebruik van budgetgroepen. Voor elke totale hoofdrekening moet het budget dat moet worden beheerd voor een budgetgroep, worden gemaakt op de pagina Budgetbeheerconfiguratie. De criteria die u opgeeft, moeten de totale hoofdrekening en het bereik van rekeningen bevatten. Om het proces voor het maken van budgetgroepen te versnellen, kunt u profiteren van de gegevensentiteit van budgetbeheergroepen. 
+<span data-ttu-id="29d9f-111">U kunt budgetbeheer voor hoofdrekeningen van het type **Totaal** activeren.</span><span class="sxs-lookup"><span data-stu-id="29d9f-111">You can activate budget control for main accounts of the **Total** type.</span></span> <span data-ttu-id="29d9f-112">Deze functionaliteit wordt ondersteund via het gebruik van budgetgroepen.</span><span class="sxs-lookup"><span data-stu-id="29d9f-112">This functionality is supported through the use of budget groups.</span></span> <span data-ttu-id="29d9f-113">Voor elke totale hoofdrekening moet het budget dat moet worden beheerd voor een budgetgroep, worden gemaakt op de pagina Budgetbeheerconfiguratie.</span><span class="sxs-lookup"><span data-stu-id="29d9f-113">For each total main account, the budget that should be controlled for a budget group must be created on the **Budget control configuration **page.</span></span> <span data-ttu-id="29d9f-114">De criteria die u opgeeft, moeten de totale hoofdrekening en het bereik van rekeningen bevatten.</span><span class="sxs-lookup"><span data-stu-id="29d9f-114">The criteria that you specify must include the total main account and the range of accounts.</span></span> <span data-ttu-id="29d9f-115">Om het proces voor het maken van budgetgroepen te versnellen, kunt u profiteren van de gegevensentiteit van budgetbeheergroepen.</span><span class="sxs-lookup"><span data-stu-id="29d9f-115">To speed up the process of creating budget groups, you can take advantage of the Budget control groups data entity.</span></span> 
 
-Wanneer een budget wordt gebruikt bij rapportage, zoals in een financieel overzicht, bestaat de som van het budget voor de totaalrekening uit de volgende bedragen:
+<span data-ttu-id="29d9f-116">Wanneer een budget wordt gebruikt bij rapportage, zoals in een financieel overzicht, bestaat de som van het budget voor de totaalrekening uit de volgende bedragen:</span><span class="sxs-lookup"><span data-stu-id="29d9f-116">When a budget is used in reporting, such as on a financial statement, the budget sum for the total account consists of the following amounts:</span></span>
 
--   De budgetten die op elke transactiegrootboekrekening binnen het interval van de totaalrekening zijn gemaakt.
--   Het budgetbedrag dat direct op de totaalrekening is ingevoerd.
+-   <span data-ttu-id="29d9f-117">De budgetten die op elke transactiegrootboekrekening binnen het interval van de totaalrekening zijn gemaakt.</span><span class="sxs-lookup"><span data-stu-id="29d9f-117">The budgets that are created from each transaction ledger account in the interval of the total account.</span></span>
+-   <span data-ttu-id="29d9f-118">Het budgetbedrag dat direct op de totaalrekening is ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="29d9f-118">The budget amount that is entered directly on the total account.</span></span>
 
-Zo kunt u afzonderlijke budgetten voor de belangrijkste transactierekeningen binnen het interval van de totaalrekening maken en het beschikbare budgetbedrag vervolgens toevoegen aan de totaalrekening.
+<span data-ttu-id="29d9f-119">Zo kunt u afzonderlijke budgetten voor de belangrijkste transactierekeningen binnen het interval van de totaalrekening maken en het beschikbare budgetbedrag vervolgens toevoegen aan de totaalrekening.</span><span class="sxs-lookup"><span data-stu-id="29d9f-119">Therefore, you can create separate budgets for the most significant transaction accounts in the interval of the total account, and then add the available budget amount to the total account.</span></span>
 
 
 

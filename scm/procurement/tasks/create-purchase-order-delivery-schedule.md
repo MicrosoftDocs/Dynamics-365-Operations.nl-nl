@@ -16,63 +16,63 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 93bd832b4bbb91e6bd0288042098383eb5f4488d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Een inkooporder maken met een afleveringsschema
+# <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="717cc-103">Een inkooporder maken met een afleveringsschema</span><span class="sxs-lookup"><span data-stu-id="717cc-103">Create a purchase order with a delivery schedule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u een afleveringsschema voor een inkooporder kunt maken. Een afleveringsschema wordt gebruikt wanneer wordt gevraagd een hoeveelheid op een order of journaal in meerdere zendingen te leveren. Het voorbeeld dat in deze handleiding wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf. Deze procdure wordt gewoonlijk uitgevoerd door een inkoper.
+<span data-ttu-id="717cc-104">Deze procedure laat zien hoe u een afleveringsschema voor een inkooporder kunt maken.</span><span class="sxs-lookup"><span data-stu-id="717cc-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="717cc-105">Een afleveringsschema wordt gebruikt wanneer wordt gevraagd een hoeveelheid op een order of journaal in meerdere zendingen te leveren.</span><span class="sxs-lookup"><span data-stu-id="717cc-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="717cc-106">Het voorbeeld dat in deze handleiding wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf.</span><span class="sxs-lookup"><span data-stu-id="717cc-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="717cc-107">Deze procdure wordt gewoonlijk uitgevoerd door een inkoper.</span><span class="sxs-lookup"><span data-stu-id="717cc-107">This procedure would typically be done by a purchasing agent.</span></span>
 
 
-## <a name="create-a-delivery-schedule"></a>Een afleveringsschema maken
-1. Ga naar Inkoop en sourcing > Inkooporders > Alle inkooporders.
-2. Klik op Nieuw.
-3. Typ in het veld Leveranciersrekening de waarde US-101.
-4. Klik op OK.
-5. Voer M0001 in het veld Artikelnummer in.
-6. Typ 10 in het veld Hoeveelheid.
-7. Klik op Inkooporderregel.
-8. Klik op Afleveringsschema.
-    * Op de pagina Afleveringsschema kunt u het aantal zendingen opgeven waarin de totale hoeveelheid van de orderregel van de leverancier wordt geleverd.  
-    * Standaard kopieert het systeem de totale hoeveelheid en andere leveringsdetails van de oorspronkelijke inkoopregel in de eerste afleveringsschemaregel. In dit voorbeeld wordt er een planning voor twee zendingen gemaakt, met de datum van de tweede zending een week later dan de eerste.  
-9. Wijzig de hoeveelheid in 4 in het veld Hoeveelheid.
-10. Klik op Nieuw.
-11. Typ 6 in het veld Hoeveelheid als resterende hoeveelheid.
-    * Selecteer in het veld Leveringsdatum een datum één week na de datum op de eerste leveringsregel.  
-    * U kunt bijhouden welke totale hoeveelheid is toegewezen aan de afleveringsschemaregels door te kijken naar de velden Totaal en Resterend. Als de resterende hoeveelheid nul is, is de volledige hoeveelheid van de oorspronkelijke regel toegewezen aan het schema.  
-12. Vouw de sectie Omrekening van toeslagen uit.
-    * Met de opties hier kunt u bepalen hoe u kosten wilt verdelen over de afleveringsschemaregels. Als u Brutobedragen kopiëren selecteert, wordt hetzelfde toeslagbedrag op de oorspronkelijke orderregel gekopieerd naar elke leveringsregel. Met de optie Toewijzen aan afleveringsregels wordt de oorspronkelijke regeltoeslag verdeeld op basis van de hoeveelheid op elke leveringsregel.  
-13. Vouw de sectie Omrekening van toeslagen samen.
-14. Klik op OK.
-    * Het afleveringsschema is nu toegepast op de order.  
-    * De oorspronkelijke orderregel, die nu de commerciële regel wordt genoemd, is omgezet in een orderregel met meerdere leveringen. De regel is gemarkeerd met een specifiek pictogram en dient als de kop voor de leveringsregels.  
-15. Selecteer de tweede orderregel. Dit is de eerste van de twee leveringsregels.
-    * De twee nieuwe regels, die leveringsregels worden genoemd, vormen één afleveringsschema. De order wordt met deze regels en niet de oorspronkelijke regel verwerkt. Als documenten zoals bevestigingen, productontvangstjournalen of facturen worden afgedrukt, worden alleen de leveringsregels weergegeven.  
+## <a name="create-a-delivery-schedule"></a><span data-ttu-id="717cc-108">Een afleveringsschema maken</span><span class="sxs-lookup"><span data-stu-id="717cc-108">Create a delivery schedule</span></span>
+1. <span data-ttu-id="717cc-109">Ga naar Inkoop en sourcing > Inkooporders > Alle inkooporders.</span><span class="sxs-lookup"><span data-stu-id="717cc-109">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="717cc-110">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="717cc-110">Click New.</span></span>
+3. <span data-ttu-id="717cc-111">Typ in het veld Leveranciersrekening de waarde US-101.</span><span class="sxs-lookup"><span data-stu-id="717cc-111">In the Vendor account field, enter US-101.</span></span>
+4. <span data-ttu-id="717cc-112">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="717cc-112">Click OK.</span></span>
+5. <span data-ttu-id="717cc-113">Voer M0001 in het veld Artikelnummer in.</span><span class="sxs-lookup"><span data-stu-id="717cc-113">In the Item number field, enter M0001.</span></span>
+6. <span data-ttu-id="717cc-114">Typ 10 in het veld Hoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="717cc-114">In the Quantity field, enter 10.</span></span>
+7. <span data-ttu-id="717cc-115">Klik op Inkooporderregel.</span><span class="sxs-lookup"><span data-stu-id="717cc-115">Click Purchase order line.</span></span>
+8. <span data-ttu-id="717cc-116">Klik op Afleveringsschema.</span><span class="sxs-lookup"><span data-stu-id="717cc-116">Click Delivery schedule.</span></span>
+    * <span data-ttu-id="717cc-117">Op de pagina Afleveringsschema kunt u het aantal zendingen opgeven waarin de totale hoeveelheid van de orderregel van de leverancier wordt geleverd.</span><span class="sxs-lookup"><span data-stu-id="717cc-117">The Delivery schedule page allows you to specify the number of shipments in which the total quantity of the order line will be delivered from the vendor.</span></span>  
+    * <span data-ttu-id="717cc-118">Standaard kopieert het systeem de totale hoeveelheid en andere leveringsdetails van de oorspronkelijke inkoopregel in de eerste afleveringsschemaregel.</span><span class="sxs-lookup"><span data-stu-id="717cc-118">By default, the system copies the total quantity and other delivery details of the original purchase line into the first delivery schedule line.</span></span> <span data-ttu-id="717cc-119">In dit voorbeeld wordt er een planning voor twee zendingen gemaakt, met de datum van de tweede zending een week later dan de eerste.</span><span class="sxs-lookup"><span data-stu-id="717cc-119">In this example, we’ll create a schedule for two shipments, with the second shipment’s date offset by a week from the first shipment.</span></span>  
+9. <span data-ttu-id="717cc-120">Wijzig de hoeveelheid in 4 in het veld Hoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="717cc-120">In the Quantity field, change the quantity to 4.</span></span>
+10. <span data-ttu-id="717cc-121">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="717cc-121">Click New.</span></span>
+11. <span data-ttu-id="717cc-122">Typ 6 in het veld Hoeveelheid als resterende hoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="717cc-122">In the Quantity field, enter 6 as the remaining quantity.</span></span>
+    * <span data-ttu-id="717cc-123">Selecteer in het veld Leveringsdatum een datum één week na de datum op de eerste leveringsregel.</span><span class="sxs-lookup"><span data-stu-id="717cc-123">In the delivery date field, select a date that’s one week after the date on the first delivery line.</span></span>  
+    * <span data-ttu-id="717cc-124">U kunt bijhouden welke totale hoeveelheid is toegewezen aan de afleveringsschemaregels door te kijken naar de velden Totaal en Resterend.</span><span class="sxs-lookup"><span data-stu-id="717cc-124">You can keep track of the total quantity that’s allocated to the delivery schedule lines by looking at the Total and Remaining fields.</span></span> <span data-ttu-id="717cc-125">Als de resterende hoeveelheid nul is, is de volledige hoeveelheid van de oorspronkelijke regel toegewezen aan het schema.</span><span class="sxs-lookup"><span data-stu-id="717cc-125">When the remaining quantity is zero, the full quantity from the original line has been allocated to the schedule.</span></span>  
+12. <span data-ttu-id="717cc-126">Vouw de sectie Omrekening van toeslagen uit.</span><span class="sxs-lookup"><span data-stu-id="717cc-126">Expand the Charges conversion section.</span></span>
+    * <span data-ttu-id="717cc-127">Met de opties hier kunt u bepalen hoe u kosten wilt verdelen over de afleveringsschemaregels.</span><span class="sxs-lookup"><span data-stu-id="717cc-127">The options here allow you to control how you want charges to be distributed across the delivery schedule lines.</span></span> <span data-ttu-id="717cc-128">Als u Brutobedragen kopiëren selecteert, wordt hetzelfde toeslagbedrag op de oorspronkelijke orderregel gekopieerd naar elke leveringsregel.</span><span class="sxs-lookup"><span data-stu-id="717cc-128">If you select Copy gross amounts, the charge amount on the original order line is copied to each delivery line.</span></span> <span data-ttu-id="717cc-129">Met de optie Toewijzen aan afleveringsregels wordt de oorspronkelijke regeltoeslag verdeeld op basis van de hoeveelheid op elke leveringsregel.</span><span class="sxs-lookup"><span data-stu-id="717cc-129">The Allocate to delivery lines option divides the original line charge according to the quantity on each delivery line.</span></span>  
+13. <span data-ttu-id="717cc-130">Vouw de sectie Omrekening van toeslagen samen.</span><span class="sxs-lookup"><span data-stu-id="717cc-130">Collapse the Charges conversion section.</span></span>
+14. <span data-ttu-id="717cc-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="717cc-131">Click OK.</span></span>
+    * <span data-ttu-id="717cc-132">Het afleveringsschema is nu toegepast op de order.</span><span class="sxs-lookup"><span data-stu-id="717cc-132">The delivery schedule has now been applied to the order.</span></span>  
+    * <span data-ttu-id="717cc-133">De oorspronkelijke orderregel, die nu de commerciële regel wordt genoemd, is omgezet in een orderregel met meerdere leveringen.</span><span class="sxs-lookup"><span data-stu-id="717cc-133">The original order line, now referred to as a Commercial line, has been converted to an Order line with multiple deliveries.</span></span> <span data-ttu-id="717cc-134">De regel is gemarkeerd met een specifiek pictogram en dient als de kop voor de leveringsregels.</span><span class="sxs-lookup"><span data-stu-id="717cc-134">It is marked with a distinct icon and acts as a header for the delivery lines.</span></span>  
+15. <span data-ttu-id="717cc-135">Selecteer de tweede orderregel. Dit is de eerste van de twee leveringsregels.</span><span class="sxs-lookup"><span data-stu-id="717cc-135">Select the second order line, which is the first of the two delivery lines.</span></span>
+    * <span data-ttu-id="717cc-136">De twee nieuwe regels, die leveringsregels worden genoemd, vormen één afleveringsschema.</span><span class="sxs-lookup"><span data-stu-id="717cc-136">The two new lines, referred to as Delivery lines, make up one delivery schedule.</span></span> <span data-ttu-id="717cc-137">De order wordt met deze regels en niet de oorspronkelijke regel verwerkt.</span><span class="sxs-lookup"><span data-stu-id="717cc-137">The order will be processed against these lines and not the original line.</span></span> <span data-ttu-id="717cc-138">Als documenten zoals bevestigingen, productontvangstjournalen of facturen worden afgedrukt, worden alleen de leveringsregels weergegeven.</span><span class="sxs-lookup"><span data-stu-id="717cc-138">If documents such as confirmations, product receipt journals, or invoices are printed, only the delivery lines are shown.</span></span>  
 
-## <a name="change-the-delivery-schedule"></a>Het afleveringsschema wijzigen
-    * U kunt de hoeveelheid op leveringsregels wijzigen. Als u dit doet, wordt de commerciële regel automatisch bijgewerkt tot de totale hoeveelheid in de leveringsregels.  
-1. Wijzig in het veld Hoeveelheid van de eerste leveringsregel de hoeveelheid van 4 in 5.
-2. Selecteer de eerste orderregel (de commerciële regel).
-    * De hoeveelheid op de commerciële regel is gewijzigd in 11.  
+## <a name="change-the-delivery-schedule"></a><span data-ttu-id="717cc-139">Het afleveringsschema wijzigen</span><span class="sxs-lookup"><span data-stu-id="717cc-139">Change the delivery schedule</span></span>
+    * <span data-ttu-id="717cc-140">U kunt de hoeveelheid op leveringsregels wijzigen.</span><span class="sxs-lookup"><span data-stu-id="717cc-140">You can change the quantity on delivery lines.</span></span> <span data-ttu-id="717cc-141">Als u dit doet, wordt de commerciële regel automatisch bijgewerkt tot de totale hoeveelheid in de leveringsregels.</span><span class="sxs-lookup"><span data-stu-id="717cc-141">If you do this, the commercial line is automatically updated to the total quantity in the delivery lines.</span></span>  
+1. <span data-ttu-id="717cc-142">Wijzig in het veld Hoeveelheid van de eerste leveringsregel de hoeveelheid van 4 in 5.</span><span class="sxs-lookup"><span data-stu-id="717cc-142">In the Quantity field of the first delivery line, change the quantity from 4 to 5.</span></span>
+2. <span data-ttu-id="717cc-143">Selecteer de eerste orderregel (de commerciële regel).</span><span class="sxs-lookup"><span data-stu-id="717cc-143">Select the first order line (the commercial line).</span></span>
+    * <span data-ttu-id="717cc-144">De hoeveelheid op de commerciële regel is gewijzigd in 11.</span><span class="sxs-lookup"><span data-stu-id="717cc-144">The quantity on the commercial line has been changed to 11.</span></span>  
 
-## <a name="process-product-receipt-using-delivery-schedules"></a>Productontvangst verwerken met afleveringsschema's
-    * De inkooporder moet worden bevestigd voordat een productontvangst kan worden verwerkt. In dit voorbeeld wordt de ontvangst direct in de inkooporder vastgelegd. De ontvangst kan ook worden geregistreerd bij aankomst van de goederen in het magazijn.  
-1. Klik in het actievenster op Inkoop.
-2. Klik op Bevestigen.
-3. Klik in het actievenster op Ontvangen.
-4. Klik op Productontvangstbon.
-5. Typ een willekeurige waarde in het veld Productontvangstbon.
-    * Dit veld wordt gebruikt om een verwijzing in te voeren die als het boekstuk voor productontvangstbonjournaal wordt gebruikt.  
-    * Selecteer in het Veld Hoeveelheid de optie 'Bestelde hoeveelheid'. Deze optie betekent dat de ontvangst wordt verwerkt voor de hoeveelheid waarmee de orderregels zijn gemaakt.  
-    * Controleer of het veld Productontvangstbon afdrukken is ingesteld op Nee. Afdrukken is niet nodig in dit voorbeeld.  
-6. Vouw de sectie Regels uit.
-    * Merk op hoe de productontvangstbon wordt gemaakt voor de twee leveringsregels en niet voor de oorspronkelijke orderregel. Als de ontvangst is geregistreerd in het magazijn, kan deze ook worden geregistreerd op de afleveringsschemaregels.  
-7. Vouw de sectie Regels samen.
-8. Klik op OK om de ontvangst te boeken.
+## <a name="process-product-receipt-using-delivery-schedules"></a><span data-ttu-id="717cc-145">Productontvangst verwerken met afleveringsschema's</span><span class="sxs-lookup"><span data-stu-id="717cc-145">Process product receipt using delivery schedules</span></span>
+    * <span data-ttu-id="717cc-146">De inkooporder moet worden bevestigd voordat een productontvangst kan worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="717cc-146">The purchase order must be confirmed before product receipt can be processed.</span></span> <span data-ttu-id="717cc-147">In dit voorbeeld wordt de ontvangst direct in de inkooporder vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="717cc-147">In this example, receipt is recorded directly on the purchase order.</span></span> <span data-ttu-id="717cc-148">De ontvangst kan ook worden geregistreerd bij aankomst van de goederen in het magazijn.</span><span class="sxs-lookup"><span data-stu-id="717cc-148">Receipt could also have been recorded when the goods arrived in the warehouse.</span></span>  
+1. <span data-ttu-id="717cc-149">Klik in het actievenster op Inkoop.</span><span class="sxs-lookup"><span data-stu-id="717cc-149">On the Action Pane, click Purchase.</span></span>
+2. <span data-ttu-id="717cc-150">Klik op Bevestigen.</span><span class="sxs-lookup"><span data-stu-id="717cc-150">Click Confirm.</span></span>
+3. <span data-ttu-id="717cc-151">Klik in het actievenster op Ontvangen.</span><span class="sxs-lookup"><span data-stu-id="717cc-151">On the Action Pane, click Receive.</span></span>
+4. <span data-ttu-id="717cc-152">Klik op Productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="717cc-152">Click Product receipt.</span></span>
+5. <span data-ttu-id="717cc-153">Typ een willekeurige waarde in het veld Productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="717cc-153">In the Product receipt field, type any value.</span></span>
+    * <span data-ttu-id="717cc-154">Dit veld wordt gebruikt om een verwijzing in te voeren die als het boekstuk voor productontvangstbonjournaal wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="717cc-154">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
+    * <span data-ttu-id="717cc-155">Selecteer in het Veld Hoeveelheid de optie 'Bestelde hoeveelheid'.</span><span class="sxs-lookup"><span data-stu-id="717cc-155">In the Quantity field, select ‘Ordered quantity’.</span></span> <span data-ttu-id="717cc-156">Deze optie betekent dat de ontvangst wordt verwerkt voor de hoeveelheid waarmee de orderregels zijn gemaakt.</span><span class="sxs-lookup"><span data-stu-id="717cc-156">This option means that receipt will process for the quantity that the order lines were created with.</span></span>  
+    * <span data-ttu-id="717cc-157">Controleer of het veld Productontvangstbon afdrukken is ingesteld op Nee.</span><span class="sxs-lookup"><span data-stu-id="717cc-157">Make sure that the Print product receipt field is set to No.</span></span> <span data-ttu-id="717cc-158">Afdrukken is niet nodig in dit voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="717cc-158">Printing isn’t needed in this example.</span></span>  
+6. <span data-ttu-id="717cc-159">Vouw de sectie Regels uit.</span><span class="sxs-lookup"><span data-stu-id="717cc-159">Expand the Lines section.</span></span>
+    * <span data-ttu-id="717cc-160">Merk op hoe de productontvangstbon wordt gemaakt voor de twee leveringsregels en niet voor de oorspronkelijke orderregel.</span><span class="sxs-lookup"><span data-stu-id="717cc-160">Notice how the product receipt is created for the two delivery lines and not the original order line.</span></span> <span data-ttu-id="717cc-161">Als de ontvangst is geregistreerd in het magazijn, kan deze ook worden geregistreerd op de afleveringsschemaregels.</span><span class="sxs-lookup"><span data-stu-id="717cc-161">If receipt had been recorded in the warehouse, it would also have been recorded on the delivery schedule lines.</span></span>  
+7. <span data-ttu-id="717cc-162">Vouw de sectie Regels samen.</span><span class="sxs-lookup"><span data-stu-id="717cc-162">Collapse the Lines section.</span></span>
+8. <span data-ttu-id="717cc-163">Klik op OK om de ontvangst te boeken.</span><span class="sxs-lookup"><span data-stu-id="717cc-163">Click OK to post the receipt.</span></span>
 
 

@@ -16,145 +16,145 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9a7d8c4335ab29174fe4e4f3d6c4a771c23c746d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 512e24b5d0e20f00890e2a9abfe45b660a913913
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a>Modeltoewijzing definiëren en gegevensbronnen selecteren voor elektronische aangifte (ER)
+# <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a><span data-ttu-id="cdace-103">Modeltoewijzing definiëren en gegevensbronnen selecteren voor elektronische aangifte (ER)</span><span class="sxs-lookup"><span data-stu-id="cdace-103">Define model mapping and select data sources for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage gegevensbronnen kan selecteren voor een ER-gegevensmodel (elektronische rapportage). De gegevensbronnen worden verbonden met afzonderlijke onderdelen van het geselecteerde gegevensmodel tijdens ontwerptijd en vullen zakelijke gegevens in dat gegevensmodel in tijdens de uitvoering. In dit voorbeeld selecteert u gegevensbronnen voor een bestaand gegevensmodel dat voor het voorbeeldbedrijf, Litware, Inc. is gemaakt. Als u deze stappen wilt uitvoeren, moet u de stappen in de procedure Een nieuw gegevensmodel maken eerst uitvoeren.
+<span data-ttu-id="cdace-104">In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage gegevensbronnen kan selecteren voor een ER-gegevensmodel (elektronische rapportage).</span><span class="sxs-lookup"><span data-stu-id="cdace-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can select data sources for an Electronic reporting (ER) data model.</span></span> <span data-ttu-id="cdace-105">De gegevensbronnen worden verbonden met afzonderlijke onderdelen van het geselecteerde gegevensmodel tijdens ontwerptijd en vullen zakelijke gegevens in dat gegevensmodel in tijdens de uitvoering.</span><span class="sxs-lookup"><span data-stu-id="cdace-105">The data sources will be bound to individual components of the selected data model at design time and populate business data to that data model at run-time.</span></span> <span data-ttu-id="cdace-106">In dit voorbeeld selecteert u gegevensbronnen voor een bestaand gegevensmodel dat voor het voorbeeldbedrijf, Litware, Inc. is gemaakt. Als u deze stappen wilt uitvoeren, moet u de stappen in de procedure Een nieuw gegevensmodel maken eerst uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="cdace-106">In this example, you will select data sources for an existing data model that has been created for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Create a new data model” procedure.</span></span>
 
 
-## <a name="open-the-electronic-reporting-configurations-tree"></a>De structuur met ER-configuraties openen
-1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-2. Klik op Rapportconfiguraties.
+## <a name="open-the-electronic-reporting-configurations-tree"></a><span data-ttu-id="cdace-107">De structuur met ER-configuraties openen</span><span class="sxs-lookup"><span data-stu-id="cdace-107">Open the Electronic Reporting configurations tree</span></span>
+1. <span data-ttu-id="cdace-108">Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="cdace-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="cdace-109">Klik op Rapportconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="cdace-109">Click Reporting configurations.</span></span>
 
-## <a name="insert-a-new-model-mapping"></a>Een nieuwe modeltoewijzing invoegen
-1. Selecteer "Payments (simplified model)" in de structuur.
-2. Klik op Ontwerper.
-3. Klik op Model toewijzen aan gegevensbron.
-4. Klik op Nieuw.
-    * Hiermee wordt een nieuwe record gemaakt waarmee het gegevensmodel wordt toegewezen aan gegevensbronnen. In dit voorbeeld wijst u het gegevensmodel toe aan gegevensbronnen voor het gewenste betalingstype: kredietoverdracht.     Het is mogelijk om meer dan één toewijzing te ontwerpen voor een bepaald gegevensmodel. Zo kunt u bijvoorbeeld een toewijzing maken voor de verschillende typen betalingen, zoals voor automatische afschrijving of voor kredietoverdrachten. In dit voorbeeld maakt u een toewijzing voor kredietoverdrachten.  
-5. Typ "CT-toewijzing" in het veld Naam.
-    * CT-toewijzing  
-6. Typ "Betalingsmodel voor CT-toewijzing" in het veld Beschrijving.
-    * Betalingsmodel voor CT-toewijzing  
-7. Typ in het veld Definitie: 'CustomerCreditTransferInitiation'.
-    * CustomerCreditTransferInitiation  
-8. ResolveChanges de definitie.
-9. Klik op Opslaan.
+## <a name="insert-a-new-model-mapping"></a><span data-ttu-id="cdace-110">Een nieuwe modeltoewijzing invoegen</span><span class="sxs-lookup"><span data-stu-id="cdace-110">Insert a new model mapping</span></span>
+1. <span data-ttu-id="cdace-111">Selecteer "Payments (simplified model)" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-111">In the tree, select 'Payments (simplified model)'.</span></span>
+2. <span data-ttu-id="cdace-112">Klik op Ontwerper.</span><span class="sxs-lookup"><span data-stu-id="cdace-112">Click Designer.</span></span>
+3. <span data-ttu-id="cdace-113">Klik op Model toewijzen aan gegevensbron.</span><span class="sxs-lookup"><span data-stu-id="cdace-113">Click Map model to datasource.</span></span>
+4. <span data-ttu-id="cdace-114">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="cdace-114">Click New.</span></span>
+    * <span data-ttu-id="cdace-115">Hiermee wordt een nieuwe record gemaakt waarmee het gegevensmodel wordt toegewezen aan gegevensbronnen.</span><span class="sxs-lookup"><span data-stu-id="cdace-115">This will create a new record that will map the data model to data sources.</span></span> <span data-ttu-id="cdace-116">In dit voorbeeld wijst u het gegevensmodel toe aan gegevensbronnen voor het gewenste betalingstype: kredietoverdracht.</span><span class="sxs-lookup"><span data-stu-id="cdace-116">In this example, you will map the data model to data sources for the desired payment type: credit transfer.</span></span>     <span data-ttu-id="cdace-117">Het is mogelijk om meer dan één toewijzing te ontwerpen voor een bepaald gegevensmodel.</span><span class="sxs-lookup"><span data-stu-id="cdace-117">It is possible to design more than one mapping for a particular data model.</span></span> <span data-ttu-id="cdace-118">Zo kunt u bijvoorbeeld een toewijzing maken voor de verschillende typen betalingen, zoals voor automatische afschrijving of voor kredietoverdrachten.</span><span class="sxs-lookup"><span data-stu-id="cdace-118">For example, you could create a mapping for the different types of payments, such as for direct debit or for credit transfers.</span></span> <span data-ttu-id="cdace-119">In dit voorbeeld maakt u een toewijzing voor kredietoverdrachten.</span><span class="sxs-lookup"><span data-stu-id="cdace-119">In this example, you will create a mapping for credit transfers.</span></span>  
+5. <span data-ttu-id="cdace-120">Typ "CT-toewijzing" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="cdace-120">In the Name field, type 'CT mapping'.</span></span>
+    * <span data-ttu-id="cdace-121">CT-toewijzing</span><span class="sxs-lookup"><span data-stu-id="cdace-121">CT mapping</span></span>  
+6. <span data-ttu-id="cdace-122">Typ "Betalingsmodel voor CT-toewijzing" in het veld Beschrijving.</span><span class="sxs-lookup"><span data-stu-id="cdace-122">In the Description field, type 'Payment model mapping CT'.</span></span>
+    * <span data-ttu-id="cdace-123">Betalingsmodel voor CT-toewijzing</span><span class="sxs-lookup"><span data-stu-id="cdace-123">Payment model mapping CT</span></span>  
+7. <span data-ttu-id="cdace-124">Typ in het veld Definitie: 'CustomerCreditTransferInitiation'.</span><span class="sxs-lookup"><span data-stu-id="cdace-124">In the Definition field, type 'CustomerCreditTransferInitiation'.</span></span>
+    * <span data-ttu-id="cdace-125">CustomerCreditTransferInitiation</span><span class="sxs-lookup"><span data-stu-id="cdace-125">CustomerCreditTransferInitiation</span></span>  
+8. <span data-ttu-id="cdace-126">ResolveChanges de definitie.</span><span class="sxs-lookup"><span data-stu-id="cdace-126">ResolveChanges the Definition.</span></span>
+9. <span data-ttu-id="cdace-127">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="cdace-127">Click Save.</span></span>
 
-## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Vereiste gegevensbronnen voor de huidige modeltoewijzing definiëren
-1. Klik op Ontwerper.
-2. Selecteer in de structuur 'Dynamics 365 for Operations\Tabelrecords'.
-3. Klik op Basis toevoegen.
-    * Voer deze gegevensbron in om toegang te krijgen tot betalingstransacties.  
-4. Typ "Transacties" in het veld Naam.
-    * Transacties  
-5. Typ "Transacties" in het veld Label.
-    * Transacties  
-6. Typ "Grootboekjournaalregels" in het veld Help.
-    * Grootboekjournaalregels  
-7. Selecteer Ja in het veld Vragen om query.
-    * Selecteer Ja.  
-8. Typ "LedgerJournalTrans" in het veld Tabel.
-    * LedgerJournalTrans  
-9. Klik op OK.
-    * Selecteer de tabel LedgerJournalTrans als gegevensbron voor het huidige gegevensmodel.  
-10. Selecteer "Functions\Calculated field" in de structuur.
-11. Klik op Toevoegen.
-    * Klik op Toevoegen om een nieuw berekend veld toe te voegen.  
-12. Typ "$EndToEndID" in het veld Naam.
-    * $EndToEndID  
-13. Klik op Formule bewerken.
-14. Selecteer "String\CONCATENATE" in de structuur.
-15. Klik op Functie toevoegen.
-16. Vouw "Transactions" uit in de structuur.
-17. Selecteer "Transactions\Voucher" in de structuur.
-18. Klik op Gegevensbron toevoegen.
-19. Typ in het veld Formule: 'CONCATENATE(Transactions.Voucher, "-", '. (Let op de spatie tussen komma en enkel aanhalingsteken.)
-    * Typ [ , "- ", ] aan het einde van de formule.  
-20. Selecteer "String\TEXT" in de structuur.
-21. Klik op Functie toevoegen.
-22. Selecteer "Transactions\Record-ID(RecId)" in de structuur.
-23. Klik op Gegevensbron toevoegen.
-24. Typ in het veld Formule: 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.
-    * Typ [))] aan het einde van de formule.  
-25. Klik op Opslaan.
-    * Controleer of er geen fouten zijn gevonden voor de gemaakte formule. Zie het tabblad FOUTEN onder het bedieningselement voor de formule-editor.  
-26. Sluit de pagina.
-27. Klik op OK.
-    * Voeg het berekende veld toe aan deze gegevensbron.  
-28. Klik op Toevoegen.
-    * Klik op Toevoegen om een nieuw berekend veld toe te voegen.  
-29. Typ "$Amount" in het veld Naam.
-    * $Amount  
-30. Klik op Formule bewerken.
-31. Vouw "Transactions" uit in de structuur.
-32. Selecteer "Transactions\Debit(AmountCurDebit)" in de structuur.
-33. Klik op Gegevensbron toevoegen.
-34. Typ in het veld Formule: 'Transactions.AmountCurDebit - '. (Let op de spatie tussen minus-teken en enkel aanhalingsteken.)
-    * Typ [ - ] aan het einde van de formule.  
-35. Selecteer "Transactions\Credit(AmountCurCredit)" in de structuur.
-36. Klik op Gegevensbron toevoegen.
-37. Klik op Opslaan.
-38. Sluit de pagina.
-39. Klik op OK.
-    * Hiermee wordt het berekende veld $Amount toegevoegd aan de geselecteerde gegevensbron voor het huidige gegevensmodel.  
-40. Selecteer 'Transactions\$Amount' in de structuur.
-41. Vouw "Transactions" uit in de structuur.
-42. Zoek in de structuur 'Transactions\$Amount' en vouw dit uit of samen.
-43. Vouw in de structuur 'Transactions' uit of samen.
-44. Selecteer in de structuur 'Dynamics 365 for Operations\Tabelrecords'.
-45. Klik op Basis toevoegen.
-    * Voer deze gegevensbron in om toegang te krijgen tot de bankrekeninggegevens van het bedrijf.  
-46. Typ "BankAccount" in het veld Naam.
-    * BankAccount  
-47. Typ "Bankrekening" in het veld Label.
-    * Bankrekening  
-48. Typ "Bankrekening" in het veld Help.
-    * Bankrekening  
-49. Selecteer Ja in het veld Vragen om query.
-    * Selecteer Ja.  
-50. Typ "BankAccountTable" in het veld Tabel.
-    * BankAccountTable  
-51. Klik op OK.
-    * Selecteer de tabel BankAccountTable als gegevensbron voor het huidige gegevensmodel.  
-52. Klik op Basis toevoegen.
-    * Voer deze gegevensbron in om toegang te krijgen tot de vereisten van het bedrijf.  
-53. Typ "Bedrijf" in het veld Naam.
-    * Bedrijf  
-54. Typ een waarde in het veld Label.
-    * Bedrijfsgegevens  
-55. Typ "Bedrijfsinformatie" in het veld Help.
-    * Bedrijfsgegevens  
-56. Selecteer Ja in het veld Vragen om query.
-    * Selecteer Ja.  
-57. Typ "CompanyInfo" in het veld Tabel.
-    * CompanyInfo  
-58. Klik op OK.
-    * Selecteer de tabel CompanyInfo als gegevensbron voor het huidige gegevensmodel.  
-59. Selecteer "Functions\Calculated field" in de structuur.
-60. Klik op Basis toevoegen.
-    * Voeg een berekend veld in als nieuwe gegevensbron.  
-61. Typ "ProcessingDateTime" in het veld Naam.
-    * ProcessingDateTime  
-62. Typ Verwerkingsdatum en -tijd in het veld Label.
-    * Verwerkingsdatum en -tijd  
-63. Klik op Formule bewerken.
-64. Selecteer in de structuur 'Date/time\SESSIONNOW'.
-65. Klik op Functie toevoegen.
-66. Klik op Opslaan.
-67. Sluit de pagina.
-68. Klik op OK.
-    * Voeg het berekende veld ProcessingDateTime toe als gegevensbron voor het huidige gegevensmodel.  
-69. Klik op Opslaan.
-70. Sluit de pagina.
-71. Sluit de pagina.
-72. Sluit de pagina.
+## <a name="define-required-data-sources-for-the-current-model-mapping"></a><span data-ttu-id="cdace-128">Vereiste gegevensbronnen voor de huidige modeltoewijzing definiëren</span><span class="sxs-lookup"><span data-stu-id="cdace-128">Define required data sources for the current model mapping</span></span>
+1. <span data-ttu-id="cdace-129">Klik op Ontwerper.</span><span class="sxs-lookup"><span data-stu-id="cdace-129">Click Designer.</span></span>
+2. <span data-ttu-id="cdace-130">Selecteer in de structuur 'Dynamics 365 for Operations\Tabelrecords'.</span><span class="sxs-lookup"><span data-stu-id="cdace-130">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+3. <span data-ttu-id="cdace-131">Klik op Basis toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-131">Click Add root.</span></span>
+    * <span data-ttu-id="cdace-132">Voer deze gegevensbron in om toegang te krijgen tot betalingstransacties.</span><span class="sxs-lookup"><span data-stu-id="cdace-132">Enter this data source to access payment transactions.</span></span>  
+4. <span data-ttu-id="cdace-133">Typ "Transacties" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="cdace-133">In the Name field, type 'Transactions'.</span></span>
+    * <span data-ttu-id="cdace-134">Transacties</span><span class="sxs-lookup"><span data-stu-id="cdace-134">Transactions</span></span>  
+5. <span data-ttu-id="cdace-135">Typ "Transacties" in het veld Label.</span><span class="sxs-lookup"><span data-stu-id="cdace-135">In the Label field, enter 'Transactions'.</span></span>
+    * <span data-ttu-id="cdace-136">Transacties</span><span class="sxs-lookup"><span data-stu-id="cdace-136">Transactions</span></span>  
+6. <span data-ttu-id="cdace-137">Typ "Grootboekjournaalregels" in het veld Help.</span><span class="sxs-lookup"><span data-stu-id="cdace-137">In the Help field, enter 'Ledger journal lines'.</span></span>
+    * <span data-ttu-id="cdace-138">Grootboekjournaalregels</span><span class="sxs-lookup"><span data-stu-id="cdace-138">Ledger journal lines</span></span>  
+7. <span data-ttu-id="cdace-139">Selecteer Ja in het veld Vragen om query.</span><span class="sxs-lookup"><span data-stu-id="cdace-139">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="cdace-140">Selecteer Ja.</span><span class="sxs-lookup"><span data-stu-id="cdace-140">Select Yes.</span></span>  
+8. <span data-ttu-id="cdace-141">Typ "LedgerJournalTrans" in het veld Tabel.</span><span class="sxs-lookup"><span data-stu-id="cdace-141">In the Table field, type 'LedgerJournalTrans'.</span></span>
+    * <span data-ttu-id="cdace-142">LedgerJournalTrans</span><span class="sxs-lookup"><span data-stu-id="cdace-142">LedgerJournalTrans</span></span>  
+9. <span data-ttu-id="cdace-143">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="cdace-143">Click OK.</span></span>
+    * <span data-ttu-id="cdace-144">Selecteer de tabel LedgerJournalTrans als gegevensbron voor het huidige gegevensmodel.</span><span class="sxs-lookup"><span data-stu-id="cdace-144">Select the LedgerJournalTrans table as a data source for the current data model.</span></span>  
+10. <span data-ttu-id="cdace-145">Selecteer "Functions\Calculated field" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-145">In the tree, select 'Functions\Calculated field'.</span></span>
+11. <span data-ttu-id="cdace-146">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-146">Click Add.</span></span>
+    * <span data-ttu-id="cdace-147">Klik op Toevoegen om een nieuw berekend veld toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-147">Click Add to add a new calculated field.</span></span>  
+12. <span data-ttu-id="cdace-148">Typ "$EndToEndID" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="cdace-148">In the Name field, type '$EndToEndID'.</span></span>
+    * <span data-ttu-id="cdace-149">$EndToEndID</span><span class="sxs-lookup"><span data-stu-id="cdace-149">$EndToEndID</span></span>  
+13. <span data-ttu-id="cdace-150">Klik op Formule bewerken.</span><span class="sxs-lookup"><span data-stu-id="cdace-150">Click Edit formula.</span></span>
+14. <span data-ttu-id="cdace-151">Selecteer "String\CONCATENATE" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-151">In the tree, select 'String\CONCATENATE'.</span></span>
+15. <span data-ttu-id="cdace-152">Klik op Functie toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-152">Click Add function.</span></span>
+16. <span data-ttu-id="cdace-153">Vouw "Transactions" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-153">In the tree, expand 'Transactions'.</span></span>
+17. <span data-ttu-id="cdace-154">Selecteer "Transactions\Voucher" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-154">In the tree, select 'Transactions\Voucher'.</span></span>
+18. <span data-ttu-id="cdace-155">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-155">Click Add data source.</span></span>
+19. <span data-ttu-id="cdace-156">Typ in het veld Formule: 'CONCATENATE(Transactions.Voucher, "-", '. (Let op de spatie tussen komma en enkel aanhalingsteken.)</span><span class="sxs-lookup"><span data-stu-id="cdace-156">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", '.</span></span>
+    * <span data-ttu-id="cdace-157">Typ [ , "- ", ] aan het einde van de formule.</span><span class="sxs-lookup"><span data-stu-id="cdace-157">Type [ , “-“, ] at the end of the formula.</span></span>  
+20. <span data-ttu-id="cdace-158">Selecteer "String\TEXT" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-158">In the tree, select 'String\TEXT'.</span></span>
+21. <span data-ttu-id="cdace-159">Klik op Functie toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-159">Click Add function.</span></span>
+22. <span data-ttu-id="cdace-160">Selecteer "Transactions\Record-ID(RecId)" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-160">In the tree, select 'Transactions\Record-ID(RecId)'.</span></span>
+23. <span data-ttu-id="cdace-161">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-161">Click Add data source.</span></span>
+24. <span data-ttu-id="cdace-162">Typ in het veld Formule: 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.</span><span class="sxs-lookup"><span data-stu-id="cdace-162">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.</span></span>
+    * <span data-ttu-id="cdace-163">Typ [))] aan het einde van de formule.</span><span class="sxs-lookup"><span data-stu-id="cdace-163">Type [))] at the end of the formula.</span></span>  
+25. <span data-ttu-id="cdace-164">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="cdace-164">Click Save.</span></span>
+    * <span data-ttu-id="cdace-165">Controleer of er geen fouten zijn gevonden voor de gemaakte formule.</span><span class="sxs-lookup"><span data-stu-id="cdace-165">Make sure that no errors have been discovered for the created formula.</span></span> <span data-ttu-id="cdace-166">Zie het tabblad FOUTEN onder het bedieningselement voor de formule-editor.</span><span class="sxs-lookup"><span data-stu-id="cdace-166">See the ERRORS tab below the formula editor control.</span></span>  
+26. <span data-ttu-id="cdace-167">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="cdace-167">Close the page.</span></span>
+27. <span data-ttu-id="cdace-168">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="cdace-168">Click OK.</span></span>
+    * <span data-ttu-id="cdace-169">Voeg het berekende veld toe aan deze gegevensbron.</span><span class="sxs-lookup"><span data-stu-id="cdace-169">Add the calculated field to this data source.</span></span>  
+28. <span data-ttu-id="cdace-170">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-170">Click Add.</span></span>
+    * <span data-ttu-id="cdace-171">Klik op Toevoegen om een nieuw berekend veld toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-171">Click Add to add a new calculated field.</span></span>  
+29. <span data-ttu-id="cdace-172">Typ "$Amount" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="cdace-172">In the Name field, type '$Amount'.</span></span>
+    * <span data-ttu-id="cdace-173">$Amount</span><span class="sxs-lookup"><span data-stu-id="cdace-173">$Amount</span></span>  
+30. <span data-ttu-id="cdace-174">Klik op Formule bewerken.</span><span class="sxs-lookup"><span data-stu-id="cdace-174">Click Edit formula.</span></span>
+31. <span data-ttu-id="cdace-175">Vouw "Transactions" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-175">In the tree, expand 'Transactions'.</span></span>
+32. <span data-ttu-id="cdace-176">Selecteer "Transactions\Debit(AmountCurDebit)" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-176">In the tree, select 'Transactions\Debit(AmountCurDebit)'.</span></span>
+33. <span data-ttu-id="cdace-177">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-177">Click Add data source.</span></span>
+34. <span data-ttu-id="cdace-178">Typ in het veld Formule: 'Transactions.AmountCurDebit - '. (Let op de spatie tussen minus-teken en enkel aanhalingsteken.)</span><span class="sxs-lookup"><span data-stu-id="cdace-178">In the Formula field, enter 'Transactions.AmountCurDebit - '.</span></span>
+    * <span data-ttu-id="cdace-179">Typ [ - ] aan het einde van de formule.</span><span class="sxs-lookup"><span data-stu-id="cdace-179">Type [ - ] at the end of the formula.</span></span>  
+35. <span data-ttu-id="cdace-180">Selecteer "Transactions\Credit(AmountCurCredit)" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-180">In the tree, select 'Transactions\Credit(AmountCurCredit)'.</span></span>
+36. <span data-ttu-id="cdace-181">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-181">Click Add data source.</span></span>
+37. <span data-ttu-id="cdace-182">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="cdace-182">Click Save.</span></span>
+38. <span data-ttu-id="cdace-183">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="cdace-183">Close the page.</span></span>
+39. <span data-ttu-id="cdace-184">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="cdace-184">Click OK.</span></span>
+    * <span data-ttu-id="cdace-185">Hiermee wordt het berekende veld $Amount toegevoegd aan de geselecteerde gegevensbron voor het huidige gegevensmodel.</span><span class="sxs-lookup"><span data-stu-id="cdace-185">This will add the $Amount calculated field to the selected data source for the current data model.</span></span>  
+40. <span data-ttu-id="cdace-186">Selecteer 'Transactions\$Amount' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-186">In the tree, select 'Transactions\$Amount'.</span></span>
+41. <span data-ttu-id="cdace-187">Vouw "Transactions" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-187">In the tree, expand 'Transactions'.</span></span>
+42. <span data-ttu-id="cdace-188">Zoek in de structuur 'Transactions\$Amount' en vouw dit uit of samen.</span><span class="sxs-lookup"><span data-stu-id="cdace-188">In the tree, expand or collapse 'Transactions\$Amount'.</span></span>
+43. <span data-ttu-id="cdace-189">Vouw in de structuur 'Transactions' uit of samen.</span><span class="sxs-lookup"><span data-stu-id="cdace-189">In the tree, expand or collapse 'Transactions'.</span></span>
+44. <span data-ttu-id="cdace-190">Selecteer in de structuur 'Dynamics 365 for Operations\Tabelrecords'.</span><span class="sxs-lookup"><span data-stu-id="cdace-190">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+45. <span data-ttu-id="cdace-191">Klik op Basis toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-191">Click Add root.</span></span>
+    * <span data-ttu-id="cdace-192">Voer deze gegevensbron in om toegang te krijgen tot de bankrekeninggegevens van het bedrijf.</span><span class="sxs-lookup"><span data-stu-id="cdace-192">Enter this data source to access the company’s bank account details.</span></span>  
+46. <span data-ttu-id="cdace-193">Typ "BankAccount" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="cdace-193">In the Name field, type 'BankAccount'.</span></span>
+    * <span data-ttu-id="cdace-194">BankAccount</span><span class="sxs-lookup"><span data-stu-id="cdace-194">BankAccount</span></span>  
+47. <span data-ttu-id="cdace-195">Typ "Bankrekening" in het veld Label.</span><span class="sxs-lookup"><span data-stu-id="cdace-195">In the Label field, enter 'Bank Account'.</span></span>
+    * <span data-ttu-id="cdace-196">Bankrekening</span><span class="sxs-lookup"><span data-stu-id="cdace-196">Bank Account</span></span>  
+48. <span data-ttu-id="cdace-197">Typ "Bankrekening" in het veld Help.</span><span class="sxs-lookup"><span data-stu-id="cdace-197">In the Help field, enter 'Bank Account'.</span></span>
+    * <span data-ttu-id="cdace-198">Bankrekening</span><span class="sxs-lookup"><span data-stu-id="cdace-198">Bank Account</span></span>  
+49. <span data-ttu-id="cdace-199">Selecteer Ja in het veld Vragen om query.</span><span class="sxs-lookup"><span data-stu-id="cdace-199">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="cdace-200">Selecteer Ja.</span><span class="sxs-lookup"><span data-stu-id="cdace-200">Select Yes.</span></span>  
+50. <span data-ttu-id="cdace-201">Typ "BankAccountTable" in het veld Tabel.</span><span class="sxs-lookup"><span data-stu-id="cdace-201">In the Table field, type 'BankAccountTable'.</span></span>
+    * <span data-ttu-id="cdace-202">BankAccountTable</span><span class="sxs-lookup"><span data-stu-id="cdace-202">BankAccountTable</span></span>  
+51. <span data-ttu-id="cdace-203">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="cdace-203">Click OK.</span></span>
+    * <span data-ttu-id="cdace-204">Selecteer de tabel BankAccountTable als gegevensbron voor het huidige gegevensmodel.</span><span class="sxs-lookup"><span data-stu-id="cdace-204">Select the BankAccountTable table as a data source for the current data model.</span></span>  
+52. <span data-ttu-id="cdace-205">Klik op Basis toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-205">Click Add root.</span></span>
+    * <span data-ttu-id="cdace-206">Voer deze gegevensbron in om toegang te krijgen tot de vereisten van het bedrijf.</span><span class="sxs-lookup"><span data-stu-id="cdace-206">Enter this data source to access the company’s requisites.</span></span>  
+53. <span data-ttu-id="cdace-207">Typ "Bedrijf" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="cdace-207">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="cdace-208">Bedrijf</span><span class="sxs-lookup"><span data-stu-id="cdace-208">Company</span></span>  
+54. <span data-ttu-id="cdace-209">Typ een waarde in het veld Label.</span><span class="sxs-lookup"><span data-stu-id="cdace-209">In the Label field, type a value.</span></span>
+    * <span data-ttu-id="cdace-210">Bedrijfsgegevens</span><span class="sxs-lookup"><span data-stu-id="cdace-210">Company information</span></span>  
+55. <span data-ttu-id="cdace-211">Typ "Bedrijfsinformatie" in het veld Help.</span><span class="sxs-lookup"><span data-stu-id="cdace-211">In the Help field, enter 'Company information'.</span></span>
+    * <span data-ttu-id="cdace-212">Bedrijfsgegevens</span><span class="sxs-lookup"><span data-stu-id="cdace-212">Company information</span></span>  
+56. <span data-ttu-id="cdace-213">Selecteer Ja in het veld Vragen om query.</span><span class="sxs-lookup"><span data-stu-id="cdace-213">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="cdace-214">Selecteer Ja.</span><span class="sxs-lookup"><span data-stu-id="cdace-214">Select Yes.</span></span>  
+57. <span data-ttu-id="cdace-215">Typ "CompanyInfo" in het veld Tabel.</span><span class="sxs-lookup"><span data-stu-id="cdace-215">In the Table field, type 'CompanyInfo'.</span></span>
+    * <span data-ttu-id="cdace-216">CompanyInfo</span><span class="sxs-lookup"><span data-stu-id="cdace-216">CompanyInfo</span></span>  
+58. <span data-ttu-id="cdace-217">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="cdace-217">Click OK.</span></span>
+    * <span data-ttu-id="cdace-218">Selecteer de tabel CompanyInfo als gegevensbron voor het huidige gegevensmodel.</span><span class="sxs-lookup"><span data-stu-id="cdace-218">Select the CompanyInfo table as a data source for the current data model.</span></span>  
+59. <span data-ttu-id="cdace-219">Selecteer "Functions\Calculated field" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cdace-219">In the tree, select 'Functions\Calculated field'.</span></span>
+60. <span data-ttu-id="cdace-220">Klik op Basis toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-220">Click Add root.</span></span>
+    * <span data-ttu-id="cdace-221">Voeg een berekend veld in als nieuwe gegevensbron.</span><span class="sxs-lookup"><span data-stu-id="cdace-221">Insert a calculated field as a new data source.</span></span>  
+61. <span data-ttu-id="cdace-222">Typ "ProcessingDateTime" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="cdace-222">In the Name field, type 'ProcessingDateTime'.</span></span>
+    * <span data-ttu-id="cdace-223">ProcessingDateTime</span><span class="sxs-lookup"><span data-stu-id="cdace-223">ProcessingDateTime</span></span>  
+62. <span data-ttu-id="cdace-224">Typ Verwerkingsdatum en -tijd in het veld Label.</span><span class="sxs-lookup"><span data-stu-id="cdace-224">In the Label field, enter 'Processing date & time'.</span></span>
+    * <span data-ttu-id="cdace-225">Verwerkingsdatum en -tijd</span><span class="sxs-lookup"><span data-stu-id="cdace-225">Processing date & time</span></span>  
+63. <span data-ttu-id="cdace-226">Klik op Formule bewerken.</span><span class="sxs-lookup"><span data-stu-id="cdace-226">Click Edit formula.</span></span>
+64. <span data-ttu-id="cdace-227">Selecteer in de structuur 'Date/time\SESSIONNOW'.</span><span class="sxs-lookup"><span data-stu-id="cdace-227">In the tree, select 'Date/time\SESSIONNOW'.</span></span>
+65. <span data-ttu-id="cdace-228">Klik op Functie toevoegen.</span><span class="sxs-lookup"><span data-stu-id="cdace-228">Click Add function.</span></span>
+66. <span data-ttu-id="cdace-229">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="cdace-229">Click Save.</span></span>
+67. <span data-ttu-id="cdace-230">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="cdace-230">Close the page.</span></span>
+68. <span data-ttu-id="cdace-231">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="cdace-231">Click OK.</span></span>
+    * <span data-ttu-id="cdace-232">Voeg het berekende veld ProcessingDateTime toe als gegevensbron voor het huidige gegevensmodel.</span><span class="sxs-lookup"><span data-stu-id="cdace-232">Add the ProcessingDateTime calculated field as a data source for the current data model.</span></span>  
+69. <span data-ttu-id="cdace-233">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="cdace-233">Click Save.</span></span>
+70. <span data-ttu-id="cdace-234">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="cdace-234">Close the page.</span></span>
+71. <span data-ttu-id="cdace-235">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="cdace-235">Close the page.</span></span>
+72. <span data-ttu-id="cdace-236">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="cdace-236">Close the page.</span></span>
 
 

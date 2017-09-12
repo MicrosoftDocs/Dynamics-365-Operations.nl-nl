@@ -17,81 +17,81 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4c2456fffd9a010728154749b35c58db13f142bb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Een locatie-instructie instellen voor wegzetten van inkooporder
+# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="5c58c-103">Een locatie-instructie instellen voor wegzetten van inkooporder</span><span class="sxs-lookup"><span data-stu-id="5c58c-103">Set up a location directive for purchase order put-away</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u een eenvoudige locatierichtlijn instelt. Het voorbeeld dat wordt gegeven, maakt een locatierichtlijn die moet worden gebruikt om te bepalen waar artikelen worden weggezet die zijn ontvangen voor een inkooporder. U kunt deze taakbegeleiding afspelen met de gegevens van het demobedrijf USMF. Precondities: u moet een beschikkingscode maken. In deze procedure gebruiken we een beschikkingscode met de naam Opnieuw labelen. Als u een locatierichtlijn in uw eigen gegevens maakt, moet u geavanceerd magazijnbeheer voor uw magazijn en artikelen hebben ingesteld.  Deze procedure is bedoeld voor de magazijnbeheerder.
+<span data-ttu-id="5c58c-104">Deze procedure laat zien hoe u een eenvoudige locatierichtlijn instelt.</span><span class="sxs-lookup"><span data-stu-id="5c58c-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="5c58c-105">Het voorbeeld dat wordt gegeven, maakt een locatierichtlijn die moet worden gebruikt om te bepalen waar artikelen worden weggezet die zijn ontvangen voor een inkooporder.</span><span class="sxs-lookup"><span data-stu-id="5c58c-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="5c58c-106">U kunt deze taakbegeleiding afspelen met de gegevens van het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="5c58c-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="5c58c-107">Precondities: u moet een beschikkingscode maken.</span><span class="sxs-lookup"><span data-stu-id="5c58c-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="5c58c-108">In deze procedure gebruiken we een beschikkingscode met de naam Opnieuw labelen.</span><span class="sxs-lookup"><span data-stu-id="5c58c-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="5c58c-109">Als u een locatierichtlijn in uw eigen gegevens maakt, moet u geavanceerd magazijnbeheer voor uw magazijn en artikelen hebben ingesteld.</span><span class="sxs-lookup"><span data-stu-id="5c58c-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="5c58c-110">Deze procedure is bedoeld voor de magazijnbeheerder.</span><span class="sxs-lookup"><span data-stu-id="5c58c-110">This procedure is intended for the warehouse manager.</span></span>
 
-1. Ga naar Magazijnbeheer > Instellingen > Instructielocatie.
-2. Selecteer 'Inkooporders' in het veld Werkordertype.
+1. <span data-ttu-id="5c58c-111">Ga naar Magazijnbeheer > Instellingen > Instructielocatie.</span><span class="sxs-lookup"><span data-stu-id="5c58c-111">Go to Warehouse management > Setup > Location directives.</span></span>
+2. <span data-ttu-id="5c58c-112">Selecteer 'Inkooporders' in het veld Werkordertype.</span><span class="sxs-lookup"><span data-stu-id="5c58c-112">In the Work order type field, select 'Purchase orders'.</span></span>
 
-## <a name="create-a-location-directive-header"></a>Een locatierichtlijnkop maken
-1. Klik op Nieuw.
-2. Voer een getal in het veld Volgnummer in.
-    * Dit is de volgorde waarin de locatierichtlijn voor het geselecteerde werktype wordt verwerkt. U kunt ook de volgorde wijzigen, als dat nodig is.  
-3. Typ een waarde in het veld Naam.
-    * Dit is de unieke identificatie voor deze richtlijn.  
-4. Selecteer 'Wegzetten' in het veld Werktype.
-    * Selecteer het type van werk dat moet worden verwerkt. Voor een richtlijn met het werkordertype Inkooporder is Wegzetten de enige ondersteunde waarde.  
-5. Typ een waarde in het veld Locatie.
-6. Typ een waarde in het veld Magazijn.
-    * Laat de richtlijncode leeg.  Richtlijncodes worden gebruikt om een werkorderregel van het type Wegzetten te koppelen aan een specifieke richtlijn. Voor inkooporders wordt de locatie van de laatste werkorderregel van het type Wegzetten opgelost voordat de werksjabloon wordt bepaald. Daarom is het niet mogelijk om de laatste regel van een werksjabloon te koppelen aan een specifieke richtlijn.   
-7. Typ een waarde in het veld Beschikkingscode.
-    * De beschikkingscode beperkt het gebruik van de locatierichtlijn, zodat de locatierichtlijn alleen wordt gebruikt als de magazijnwerknemer deze specifieke waarde tijdens registratie van het artikel met een mobiel apparaat invoert.  
-8. Klik op Opslaan.
+## <a name="create-a-location-directive-header"></a><span data-ttu-id="5c58c-113">Een locatierichtlijnkop maken</span><span class="sxs-lookup"><span data-stu-id="5c58c-113">Create a location directive header</span></span>
+1. <span data-ttu-id="5c58c-114">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5c58c-114">Click New.</span></span>
+2. <span data-ttu-id="5c58c-115">Voer een getal in het veld Volgnummer in.</span><span class="sxs-lookup"><span data-stu-id="5c58c-115">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="5c58c-116">Dit is de volgorde waarin de locatierichtlijn voor het geselecteerde werktype wordt verwerkt.</span><span class="sxs-lookup"><span data-stu-id="5c58c-116">This is the sequence in which the location directive is processed for the selected work type.</span></span> <span data-ttu-id="5c58c-117">U kunt ook de volgorde wijzigen, als dat nodig is.</span><span class="sxs-lookup"><span data-stu-id="5c58c-117">You can also modify the sequence, if needed.</span></span>  
+3. <span data-ttu-id="5c58c-118">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="5c58c-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="5c58c-119">Dit is de unieke identificatie voor deze richtlijn.</span><span class="sxs-lookup"><span data-stu-id="5c58c-119">This is the unique identifier for this directive.</span></span>  
+4. <span data-ttu-id="5c58c-120">Selecteer 'Wegzetten' in het veld Werktype.</span><span class="sxs-lookup"><span data-stu-id="5c58c-120">In the Work type field, select 'Put'.</span></span>
+    * <span data-ttu-id="5c58c-121">Selecteer het type van werk dat moet worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="5c58c-121">Select the type of work to be performed.</span></span> <span data-ttu-id="5c58c-122">Voor een richtlijn met het werkordertype Inkooporder is Wegzetten de enige ondersteunde waarde.</span><span class="sxs-lookup"><span data-stu-id="5c58c-122">For directive with work order type Purchase order, Put is the only supported value.</span></span>  
+5. <span data-ttu-id="5c58c-123">Typ een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="5c58c-123">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="5c58c-124">Typ een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="5c58c-124">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="5c58c-125">Laat de richtlijncode leeg.</span><span class="sxs-lookup"><span data-stu-id="5c58c-125">Leave the Directive code blank.</span></span>  <span data-ttu-id="5c58c-126">Richtlijncodes worden gebruikt om een werkorderregel van het type Wegzetten te koppelen aan een specifieke richtlijn.</span><span class="sxs-lookup"><span data-stu-id="5c58c-126">Directive codes are used to link a work order line of type Put to a specific directive.</span></span> <span data-ttu-id="5c58c-127">Voor inkooporders wordt de locatie van de laatste werkorderregel van het type Wegzetten opgelost voordat de werksjabloon wordt bepaald.</span><span class="sxs-lookup"><span data-stu-id="5c58c-127">For purchase orders, the location of the last work order line of type Put is resolved before the work template is determined.</span></span> <span data-ttu-id="5c58c-128">Daarom is het niet mogelijk om de laatste regel van een werksjabloon te koppelen aan een specifieke richtlijn.</span><span class="sxs-lookup"><span data-stu-id="5c58c-128">Therefore it is not possible to connect the last line of a work template to a specific directive.</span></span>   
+7. <span data-ttu-id="5c58c-129">Typ een waarde in het veld Beschikkingscode.</span><span class="sxs-lookup"><span data-stu-id="5c58c-129">In the Disposition code field, type a value.</span></span>
+    * <span data-ttu-id="5c58c-130">De beschikkingscode beperkt het gebruik van de locatierichtlijn, zodat de locatierichtlijn alleen wordt gebruikt als de magazijnwerknemer deze specifieke waarde tijdens registratie van het artikel met een mobiel apparaat invoert.</span><span class="sxs-lookup"><span data-stu-id="5c58c-130">The Disposition code limits the use of the location directive, so the location directive is only used if the warehouse worker enters this specific value during registration of the item using a mobile device.</span></span>  
+8. <span data-ttu-id="5c58c-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5c58c-131">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive"></a>De query voor een richtlijn bewerken
-1. Klik op Query bewerken.
-    * Het gebruik van deze richtlijn is al beperkt tot artikelen die zijn geregistreerd in het magazijn dat u hebt opgegeven, en met de beschikkingscode die u hebt opgegeven. U kunt andere beperkingen toevoegen met de query.  
-2. Klik op OK.
+## <a name="edit-the-query-for-directive"></a><span data-ttu-id="5c58c-132">De query voor een richtlijn bewerken</span><span class="sxs-lookup"><span data-stu-id="5c58c-132">Edit the query for directive</span></span>
+1. <span data-ttu-id="5c58c-133">Klik op Query bewerken.</span><span class="sxs-lookup"><span data-stu-id="5c58c-133">Click Edit query.</span></span>
+    * <span data-ttu-id="5c58c-134">Het gebruik van deze richtlijn is al beperkt tot artikelen die zijn geregistreerd in het magazijn dat u hebt opgegeven, en met de beschikkingscode die u hebt opgegeven.</span><span class="sxs-lookup"><span data-stu-id="5c58c-134">The use of this directive is already limited to be used for items registered in the warehouse that you specified, and with the disposition code that you specified.</span></span> <span data-ttu-id="5c58c-135">U kunt andere beperkingen toevoegen met de query.</span><span class="sxs-lookup"><span data-stu-id="5c58c-135">You can add other constraints using the query.</span></span>  
+2. <span data-ttu-id="5c58c-136">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="5c58c-136">Click OK.</span></span>
 
-## <a name="add-directive-lines"></a>Instructieregels toevoegen
-1. Klik op Nieuw.
-    * Dit is de volgorde waarin de locatierichtlijnregels worden verwerkt voor het geselecteerde werktype. U kunt ook de volgorde wijzigen, als dat nodig is.  
-2. Voer een getal in het veld Vanaf hoeveelheid in.
-    * Dit is de kleinste hoeveelheid waarvoor deze richtlijn geldig is.  
-3. Voer een getal in het veld Tot hoeveelheid in.
-4. Typ een waarde in het veld Eenheid.
-    * De eenheid waarin de van- en de tot-hoeveelheid is uitgedrukt. Als u dit veld niet invult, wordt de voorraadeenheid voor het artikel gebruikt.  
-5. Selecteer een optie in het veld Hoeveelheid plaatsen.
-    * Geen of nummerplaathoeveelheid: de hoeveelheid die op elke nummerplaat is geregistreerd. In eenheden omgezette hoeveelheid: de volledige hoeveelheid die is geregistreerd. Resterende hoeveelheid: de hoeveelheid die nog moeten worden geregistreerd vanaf de inkooporderregel. Verwachte hoeveelheid: de totale hoeveelheid die is opgegeven op de inkooporderregel.  
-6. Schakel het selectievakje Beperken op eenheid in of uit.
-    * Als u deze optie selecteert en de eenheid op de pagina Beperken op eenheid opgeeft, kunnen alleen artikelen met die maateenheid op de locatie worden geplaatst. Stel dat de maateenheid PL (pallets) is, dan kunnen alleen artikelen in pallets op een bepaalde locatie worden geplaatst.  
-7. Schakel het selectievakje Splitsing toestaan in of uit.
-    * Hierdoor kan de hoeveelheid over meerdere locaties worden gesplitst.  
-8. Klik op Opslaan.
+## <a name="add-directive-lines"></a><span data-ttu-id="5c58c-137">Instructieregels toevoegen</span><span class="sxs-lookup"><span data-stu-id="5c58c-137">Add directive lines</span></span>
+1. <span data-ttu-id="5c58c-138">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5c58c-138">Click New.</span></span>
+    * <span data-ttu-id="5c58c-139">Dit is de volgorde waarin de locatierichtlijnregels worden verwerkt voor het geselecteerde werktype.</span><span class="sxs-lookup"><span data-stu-id="5c58c-139">This is the sequence in which the location directive lines are processed for the selected work type.</span></span> <span data-ttu-id="5c58c-140">U kunt ook de volgorde wijzigen, als dat nodig is.</span><span class="sxs-lookup"><span data-stu-id="5c58c-140">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="5c58c-141">Voer een getal in het veld Vanaf hoeveelheid in.</span><span class="sxs-lookup"><span data-stu-id="5c58c-141">In the From quantity field, enter a number.</span></span>
+    * <span data-ttu-id="5c58c-142">Dit is de kleinste hoeveelheid waarvoor deze richtlijn geldig is.</span><span class="sxs-lookup"><span data-stu-id="5c58c-142">This is the lowest quantity that this directive line is valid for.</span></span>  
+3. <span data-ttu-id="5c58c-143">Voer een getal in het veld Tot hoeveelheid in.</span><span class="sxs-lookup"><span data-stu-id="5c58c-143">In the To quantity field, enter a number.</span></span>
+4. <span data-ttu-id="5c58c-144">Typ een waarde in het veld Eenheid.</span><span class="sxs-lookup"><span data-stu-id="5c58c-144">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="5c58c-145">De eenheid waarin de van- en de tot-hoeveelheid is uitgedrukt.</span><span class="sxs-lookup"><span data-stu-id="5c58c-145">The unit the From quantity and To quantity is expressed in.</span></span> <span data-ttu-id="5c58c-146">Als u dit veld niet invult, wordt de voorraadeenheid voor het artikel gebruikt.</span><span class="sxs-lookup"><span data-stu-id="5c58c-146">If you leave this field blank the inventory unit from the item is used.</span></span>  
+5. <span data-ttu-id="5c58c-147">Selecteer een optie in het veld Hoeveelheid plaatsen.</span><span class="sxs-lookup"><span data-stu-id="5c58c-147">In the Locate quantity field, select an option.</span></span>
+    * <span data-ttu-id="5c58c-148">Geen of nummerplaathoeveelheid: de hoeveelheid die op elke nummerplaat is geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="5c58c-148">None, or licence plate quantity: The quantity registered on each licence plate.</span></span> <span data-ttu-id="5c58c-149">In eenheden omgezette hoeveelheid: de volledige hoeveelheid die is geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="5c58c-149">Unitized quantity: The entire quantity that’s been registered.</span></span> <span data-ttu-id="5c58c-150">Resterende hoeveelheid: de hoeveelheid die nog moeten worden geregistreerd vanaf de inkooporderregel.</span><span class="sxs-lookup"><span data-stu-id="5c58c-150">Remaining quantity: The quantity that is yet to be registered from the purchase order line.</span></span> <span data-ttu-id="5c58c-151">Verwachte hoeveelheid: de totale hoeveelheid die is opgegeven op de inkooporderregel.</span><span class="sxs-lookup"><span data-stu-id="5c58c-151">Expected quantity: The total quantity that is specified on the purchase order line.</span></span>  
+6. <span data-ttu-id="5c58c-152">Schakel het selectievakje Beperken op eenheid in of uit.</span><span class="sxs-lookup"><span data-stu-id="5c58c-152">Check or uncheck the Restrict by unit checkbox.</span></span>
+    * <span data-ttu-id="5c58c-153">Als u deze optie selecteert en de eenheid op de pagina Beperken op eenheid opgeeft, kunnen alleen artikelen met die maateenheid op de locatie worden geplaatst.</span><span class="sxs-lookup"><span data-stu-id="5c58c-153">If you select this option, and specify the unit on the Restrict by unit page, only items with that unit of measurement can be put into the location.</span></span> <span data-ttu-id="5c58c-154">Stel dat de maateenheid PL (pallets) is, dan kunnen alleen artikelen in pallets op een bepaalde locatie worden geplaatst.</span><span class="sxs-lookup"><span data-stu-id="5c58c-154">For example, if the unit of measurement is PL (pallets), only items in pallets can be put into the specified location.</span></span>  
+7. <span data-ttu-id="5c58c-155">Schakel het selectievakje Splitsing toestaan in of uit.</span><span class="sxs-lookup"><span data-stu-id="5c58c-155">Check or uncheck the Allow split checkbox.</span></span>
+    * <span data-ttu-id="5c58c-156">Hierdoor kan de hoeveelheid over meerdere locaties worden gesplitst.</span><span class="sxs-lookup"><span data-stu-id="5c58c-156">This allows the directive to split the quantity across multiple locations.</span></span>  
+8. <span data-ttu-id="5c58c-157">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5c58c-157">Click Save.</span></span>
 
-## <a name="restrict-the-directive-line-to-a-specific-unit"></a>De richtlijnregel beperken tot een specifieke eenheid
-1. Klik op Beperken op eenheid.
-    * Deze knop is alleen beschikbaar wanneer u op Opslaan drukt nadat u het selectievakje Beperken op eenheid hebt geselecteerd.  
-2. Typ een waarde in het veld Eenheid.
-3. Sluit de pagina.
+## <a name="restrict-the-directive-line-to-a-specific-unit"></a><span data-ttu-id="5c58c-158">De richtlijnregel beperken tot een specifieke eenheid</span><span class="sxs-lookup"><span data-stu-id="5c58c-158">Restrict the directive line to a specific unit</span></span>
+1. <span data-ttu-id="5c58c-159">Klik op Beperken op eenheid.</span><span class="sxs-lookup"><span data-stu-id="5c58c-159">Click Restrict by unit.</span></span>
+    * <span data-ttu-id="5c58c-160">Deze knop is alleen beschikbaar wanneer u op Opslaan drukt nadat u het selectievakje Beperken op eenheid hebt geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="5c58c-160">This button is only available when you press Save after you have selected the Restrict by unit check box.</span></span>  
+2. <span data-ttu-id="5c58c-161">Typ een waarde in het veld Eenheid.</span><span class="sxs-lookup"><span data-stu-id="5c58c-161">In the Unit field, type a value.</span></span>
+3. <span data-ttu-id="5c58c-162">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="5c58c-162">Close the page.</span></span>
 
-## <a name="add-a-location-directive-action-line"></a>Een actieregel voor een locatierichtlijn toevoegen
-1. Klik op Nieuw.
-    * Dit is de volgorde waarin de locatierichtlijnactieregels worden verwerkt voor het geselecteerde werktype. U kunt ook de volgorde wijzigen, als dat nodig is.  
-2. Typ een waarde in het veld Naam.
-    * Dit is de unieke id voor deze richtlijnactie.  
-3. Selecteer een optie in het veld Gebruik vaste locaties.
-    * Vaste en niet-vaste locaties: alle niet-vaste locaties zijn geldig, evenals de eigen vaste locatie van het product, binnen het in de query opgegeven bereik.  Alleen vaste locaties voor het product: vaste locaties voor het product zijn geldig en alle productvarianten delen dezelfde set vaste locaties. Alleen vaste locaties voor de productvariant: alleen vaste locaties die zijn opgegeven voor elke productvariant, zijn geldig.  
-4. Selecteer een optie in het veld Strategie.
-    * Werkorders van het type Inkooporder ondersteunen de volgende strategieën: Geen: het artikel wordt geplaatst op de eerste locatie die wordt gevonden. Consolideren: het artikel wordt geplaatst op een locatie waar soortgelijke artikelen al beschikbaar zijn. Lege locatie zonder werk: het artikel wordt geplaatst op de eerste lege locatie die wordt gevonden. Een locatie wordt beschouwd als leeg als deze geen fysieke voorraad en geen verwacht inkomend werk heeft.  
-5. Klik op Opslaan.
+## <a name="add-a-location-directive-action-line"></a><span data-ttu-id="5c58c-163">Een actieregel voor een locatierichtlijn toevoegen</span><span class="sxs-lookup"><span data-stu-id="5c58c-163">Add a location directive action line</span></span>
+1. <span data-ttu-id="5c58c-164">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5c58c-164">Click New.</span></span>
+    * <span data-ttu-id="5c58c-165">Dit is de volgorde waarin de locatierichtlijnactieregels worden verwerkt voor het geselecteerde werktype.</span><span class="sxs-lookup"><span data-stu-id="5c58c-165">This is the sequence in which the location directive action lines are processed for the selected work type.</span></span> <span data-ttu-id="5c58c-166">U kunt ook de volgorde wijzigen, als dat nodig is.</span><span class="sxs-lookup"><span data-stu-id="5c58c-166">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="5c58c-167">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="5c58c-167">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="5c58c-168">Dit is de unieke id voor deze richtlijnactie.</span><span class="sxs-lookup"><span data-stu-id="5c58c-168">This is the unique identifier for this directive action.</span></span>  
+3. <span data-ttu-id="5c58c-169">Selecteer een optie in het veld Gebruik vaste locaties.</span><span class="sxs-lookup"><span data-stu-id="5c58c-169">In the Fixed location usage field, select an option.</span></span>
+    * <span data-ttu-id="5c58c-170">Vaste en niet-vaste locaties: alle niet-vaste locaties zijn geldig, evenals de eigen vaste locatie van het product, binnen het in de query opgegeven bereik.</span><span class="sxs-lookup"><span data-stu-id="5c58c-170">Fixed and non-fixed locations: All non-fixed locations are valid as well as the product’s own fixed location, within the range specified in the query.</span></span>  <span data-ttu-id="5c58c-171">Alleen vaste locaties voor het product: vaste locaties voor het product zijn geldig en alle productvarianten delen dezelfde set vaste locaties.</span><span class="sxs-lookup"><span data-stu-id="5c58c-171">Only fixed location for the product: Fixed locations for the product are valid, and all product variants share the same set of fixed locations.</span></span> <span data-ttu-id="5c58c-172">Alleen vaste locaties voor de productvariant: alleen vaste locaties die zijn opgegeven voor elke productvariant, zijn geldig.</span><span class="sxs-lookup"><span data-stu-id="5c58c-172">Only fixed location for the product variants: Only fixed locations specified for each product variant are valid.</span></span>  
+4. <span data-ttu-id="5c58c-173">Selecteer een optie in het veld Strategie.</span><span class="sxs-lookup"><span data-stu-id="5c58c-173">In the Strategy field, select an option.</span></span>
+    * <span data-ttu-id="5c58c-174">Werkorders van het type Inkooporder ondersteunen de volgende strategieën: Geen: het artikel wordt geplaatst op de eerste locatie die wordt gevonden.</span><span class="sxs-lookup"><span data-stu-id="5c58c-174">Work orders of type Purchase order support the following strategies: None: the item is placed at the first location that’s found.</span></span> <span data-ttu-id="5c58c-175">Consolideren: het artikel wordt geplaatst op een locatie waar soortgelijke artikelen al beschikbaar zijn.</span><span class="sxs-lookup"><span data-stu-id="5c58c-175">Consolidate: The item is placed in a location where similar items are already available.</span></span> <span data-ttu-id="5c58c-176">Lege locatie zonder werk: het artikel wordt geplaatst op de eerste lege locatie die wordt gevonden.</span><span class="sxs-lookup"><span data-stu-id="5c58c-176">Empty location with no incoming work: the item is placed in the first empty location that’s found.</span></span> <span data-ttu-id="5c58c-177">Een locatie wordt beschouwd als leeg als deze geen fysieke voorraad en geen verwacht inkomend werk heeft.</span><span class="sxs-lookup"><span data-stu-id="5c58c-177">A location is considered to be empty if it has no physical inventory and no expected incoming work.</span></span>  
+5. <span data-ttu-id="5c58c-178">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5c58c-178">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive-action-line"></a>De query voor een richtlijnactieregel bewerken
-1. Klik op Query bewerken.
-2. Klik op Toevoegen.
-3. Typ 'locatieprofiel-id' in het veld Veld.
-    * In dit voorbeeld worden de mogelijke locaties beperkt met een locatieprofiel-id.  
-4. Typ een waarde in het veld Criteria.
-5. Klik op OK.
-    * U kunt richtlijnregels en richtlijnacties blijven toevoegen totdat u alle mogelijke scenario's in uw magazijn hebt gehad.  
+## <a name="edit-the-query-for-directive-action-line"></a><span data-ttu-id="5c58c-179">De query voor een richtlijnactieregel bewerken</span><span class="sxs-lookup"><span data-stu-id="5c58c-179">Edit the query for directive action line</span></span>
+1. <span data-ttu-id="5c58c-180">Klik op Query bewerken.</span><span class="sxs-lookup"><span data-stu-id="5c58c-180">Click Edit query.</span></span>
+2. <span data-ttu-id="5c58c-181">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="5c58c-181">Click Add.</span></span>
+3. <span data-ttu-id="5c58c-182">Typ 'locatieprofiel-id' in het veld Veld.</span><span class="sxs-lookup"><span data-stu-id="5c58c-182">In the Field field, type 'location profile ID'.</span></span>
+    * <span data-ttu-id="5c58c-183">In dit voorbeeld worden de mogelijke locaties beperkt met een locatieprofiel-id.</span><span class="sxs-lookup"><span data-stu-id="5c58c-183">In this example, we’ll restrict the possible locations using a location profile ID.</span></span>  
+4. <span data-ttu-id="5c58c-184">Typ een waarde in het veld Criteria.</span><span class="sxs-lookup"><span data-stu-id="5c58c-184">In the Criteria field, type a value.</span></span>
+5. <span data-ttu-id="5c58c-185">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="5c58c-185">Click OK.</span></span>
+    * <span data-ttu-id="5c58c-186">U kunt richtlijnregels en richtlijnacties blijven toevoegen totdat u alle mogelijke scenario's in uw magazijn hebt gehad.</span><span class="sxs-lookup"><span data-stu-id="5c58c-186">You can continue to add directive lines and directive actions until you have covered all the possible scenarios in your warehouse.</span></span>  
 
 

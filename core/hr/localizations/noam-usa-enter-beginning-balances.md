@@ -18,155 +18,155 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 736eedf270ac08b0bdf9364821f8a7bae981ade9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="enter-payroll-beginning-balances"></a>Beginsaldi voor salarisadministratie invoeren
+# <a name="enter-payroll-beginning-balances"></a><span data-ttu-id="bb30f-104">Beginsaldi voor salarisadministratie invoeren</span><span class="sxs-lookup"><span data-stu-id="bb30f-104">Enter payroll beginning balances</span></span>
 
 [!include[banner](../../includes/banner.md)]
 
-In dit onderwerp worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen. Deze informatie is nuttig voor partners die gegevens voor een nieuwe salarisadministratie-implementatie willen migreren of overbrengen vanuit een ander systeem. Als voorbereiding voor het invoeren van beginsaldi controleren we de volgende informatie:
+<span data-ttu-id="bb30f-105">In dit onderwerp worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen.</span><span class="sxs-lookup"><span data-stu-id="bb30f-105">The topic describes the steps for entering beginning balances for earning codes, deductions, benefits, and taxes.</span></span> <span data-ttu-id="bb30f-106">Deze informatie is nuttig voor partners die gegevens voor een nieuwe salarisadministratie-implementatie willen migreren of overbrengen vanuit een ander systeem.</span><span class="sxs-lookup"><span data-stu-id="bb30f-106">This information is valuable for partners who transfer data for a new Payroll implementation from another system.</span></span> <span data-ttu-id="bb30f-107">Als voorbereiding voor het invoeren van beginsaldi controleren we de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="bb30f-107">To prepare to enter beginning payroll balances, we verify the following information:</span></span>
 
-> * Werknemersrecords zijn ingevoerd en beschikbaar in het systeem
-> * De volgende gegevens zijn ingesteld en toegewezen aan werknemers:
+> * <span data-ttu-id="bb30f-108">Werknemersrecords zijn ingevoerd en beschikbaar in het systeem</span><span class="sxs-lookup"><span data-stu-id="bb30f-108">Employee records are entered and available in the system</span></span>
+> * <span data-ttu-id="bb30f-109">De volgende gegevens zijn ingesteld en toegewezen aan werknemers:</span><span class="sxs-lookup"><span data-stu-id="bb30f-109">The following data is set up and assigned to employees:</span></span>
 
-> > * Betalingscycli en salarisperioden
-> > * Inkomstencodes
-> > * Belastingen
-> > * Vergoedingen en aftrekposten
+> > * <span data-ttu-id="bb30f-110">Betalingscycli en salarisperioden</span><span class="sxs-lookup"><span data-stu-id="bb30f-110">Pay cycles and pay periods</span></span>
+> > * <span data-ttu-id="bb30f-111">Inkomstencodes</span><span class="sxs-lookup"><span data-stu-id="bb30f-111">Earning codes</span></span>
+> > * <span data-ttu-id="bb30f-112">Belastingen</span><span class="sxs-lookup"><span data-stu-id="bb30f-112">Taxes</span></span>
+> > * <span data-ttu-id="bb30f-113">Vergoedingen en aftrekposten</span><span class="sxs-lookup"><span data-stu-id="bb30f-113">Benefits and deductions</span></span>
 
-> * Het bedrijf moet een datum hebben gekozen waarop de beginsaldi kunnen worden ingesteld.
+> * <span data-ttu-id="bb30f-114">Het bedrijf moet een datum hebben gekozen waarop de beginsaldi kunnen worden ingesteld.</span><span class="sxs-lookup"><span data-stu-id="bb30f-114">The company should have chosen a date where payroll beginning balances can be set.</span></span>
 
-> * Gegevens zijn verzameld voor alle inkomsten, vergoedingen/inhoudingen, vergoedingsbijdragen, werknemersbelastingen en werkgeverbelastingen en de betreffende JTH-bedragen in het oude systeem.
+> * <span data-ttu-id="bb30f-115">Gegevens zijn verzameld voor alle inkomsten, vergoedingen/inhoudingen, vergoedingsbijdragen, werknemersbelastingen en werkgeverbelastingen en de betreffende JTH-bedragen in het oude systeem.</span><span class="sxs-lookup"><span data-stu-id="bb30f-115">Information were gathered on all earnings, benefits/deductions, benefit contributions, employee taxes, and employer taxes and their YTD amounts from the legacy system.</span></span>
 
-Bedenk bij het plannen van de invoer van beginsaldi hoe gedetailleerd de gegevens moeten zijn. De meeste bedrijven voeren een enkel, geconsolideerd bedrag voor JTH in. Als u meer gedetailleerde informatie nodig hebt, kunt u echter saldi invoeren in kwartaalstappen. Door te bepalen welk detailniveau nodig is, bepaalt u hoeveel handmatige salarisoverzichten u moet aanmaken voor elke werknemer. Voor een enkel JTH-bedrag is slechts één handmatig overzicht nodig voor elke werknemer. Hiervoor neemt u de JTH-bedragen van de laatste salarisoverzichten uit het oude systeem en voert u deze in als beginbedrag in de nieuwe salarisadministratie.
+<span data-ttu-id="bb30f-116">Bedenk bij het plannen van de invoer van beginsaldi hoe gedetailleerd de gegevens moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="bb30f-116">As you plan to enter beginning balances, consider how detailed the data needs to be.</span></span> <span data-ttu-id="bb30f-117">De meeste bedrijven voeren een enkel, geconsolideerd bedrag voor JTH in.</span><span class="sxs-lookup"><span data-stu-id="bb30f-117">Most businesses enter a single, consolidated year-to-date amount.</span></span> <span data-ttu-id="bb30f-118">Als u meer gedetailleerde informatie nodig hebt, kunt u echter saldi invoeren in kwartaalstappen.</span><span class="sxs-lookup"><span data-stu-id="bb30f-118">However if more detailed information is needed, balances can be entered in quarterly increments.</span></span> <span data-ttu-id="bb30f-119">Door te bepalen welk detailniveau nodig is, bepaalt u hoeveel handmatige salarisoverzichten u moet aanmaken voor elke werknemer.</span><span class="sxs-lookup"><span data-stu-id="bb30f-119">Deciding the level of detail that's needed determines how many manual pay statements must be created for each worker.</span></span> <span data-ttu-id="bb30f-120">Voor een enkel JTH-bedrag is slechts één handmatig overzicht nodig voor elke werknemer.</span><span class="sxs-lookup"><span data-stu-id="bb30f-120">For a single year-to-date amount, only one manual statement is needed for each employee.</span></span> <span data-ttu-id="bb30f-121">Hiervoor neemt u de JTH-bedragen van de laatste salarisoverzichten uit het oude systeem en voert u deze in als beginbedrag in de nieuwe salarisadministratie.</span><span class="sxs-lookup"><span data-stu-id="bb30f-121">To do this use year-to-date amounts from the final pay statement from the previous system as the amount entered in the new payroll system.</span></span>
 
-In het volgende voorbeeld ziet hoe u beginsaldi voor de werknemersalarissen kunt invoeren, inclusief inkomstencodes, vergoedingen/inhoudingen en belastingen. In de praktijk zou u een regelitem hebben voor elke inkomstencode, vergoedingsinhouding, vergoedingsbijdrage, werknemersbelasting en werkgeverbelasting, waarbij telkens het JTH-bedrag voor elk item wordt ingevoerd. Met deze lijst van codes en bedragen volgt u de stappen voor het maken van een handmatig inkomsten- en salarisoverzicht, met boekhouding uitgeschakeld, om de beginsaldi voor de salarisadministratie over te brengen.  U schakelt hierbij de boekhouding uit, omdat u niet deze salarisbeginsaldi in uw grootboek wilt boeken. Dat is gedaan in het oude systeem en dit wordt naar het nieuwe systeem overgezet wanneer u de beginsaldi in het grootboek instelt.
+<span data-ttu-id="bb30f-122">In het volgende voorbeeld ziet hoe u beginsaldi voor de werknemersalarissen kunt invoeren, inclusief inkomstencodes, vergoedingen/inhoudingen en belastingen.</span><span class="sxs-lookup"><span data-stu-id="bb30f-122">The following example shows how you can enter employee payroll beginning balances, including earning codes, benefits/deductions, and taxes.</span></span> <span data-ttu-id="bb30f-123">In de praktijk zou u een regelitem hebben voor elke inkomstencode, vergoedingsinhouding, vergoedingsbijdrage, werknemersbelasting en werkgeverbelasting, waarbij telkens het JTH-bedrag voor elk item wordt ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="bb30f-123">In a real-world example you would have a line item for each earning code, benefit deduction, benefit contribution, employee tax and employer tax with the amount entered being the year-to-date amount.</span></span> <span data-ttu-id="bb30f-124">Met deze lijst van codes en bedragen volgt u de stappen voor het maken van een handmatig inkomsten- en salarisoverzicht, met boekhouding uitgeschakeld, om de beginsaldi voor de salarisadministratie over te brengen.</span><span class="sxs-lookup"><span data-stu-id="bb30f-124">Using that list of codes and amounts, follow the steps for creating a manual earning and pay statement with accounting disabled to bring over beginning balances for payroll purposes.</span></span>  <span data-ttu-id="bb30f-125">U schakelt hierbij de boekhouding uit, omdat u niet deze salarisbeginsaldi in uw grootboek wilt boeken.</span><span class="sxs-lookup"><span data-stu-id="bb30f-125">You disable accounting because you won't want to post this beginning balance pay statement to your general ledger.</span></span> <span data-ttu-id="bb30f-126">Dat is gedaan in het oude systeem en dit wordt naar het nieuwe systeem overgezet wanneer u de beginsaldi in het grootboek instelt.</span><span class="sxs-lookup"><span data-stu-id="bb30f-126">That was done in the legacy system and will come over to the new system when you set beginning balances in General ledger.</span></span>
 
-### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Inkomstencodes instellen die worden gebruikt in de salarisbeginsaldi
-Wanneer u salarisbeginsaldi invoert, let er dan op dat voor de gebruikte inkomstencodes de optie 'Bewerken van inkomstenoverzichttarieven toestaan' is ingeschakeld. Hierdoor kunt u handmatig het bedrag van het oude systeem intoetsen. 
+### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a><span data-ttu-id="bb30f-127">A.</span><span class="sxs-lookup"><span data-stu-id="bb30f-127">A.</span></span> <span data-ttu-id="bb30f-128">Inkomstencodes instellen die worden gebruikt in de salarisbeginsaldi</span><span class="sxs-lookup"><span data-stu-id="bb30f-128">How to set up earnings codes to be used on payroll beginning balances</span></span>
+<span data-ttu-id="bb30f-129">Wanneer u salarisbeginsaldi invoert, let er dan op dat voor de gebruikte inkomstencodes de optie 'Bewerken van inkomstenoverzichttarieven toestaan' is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="bb30f-129">When you enter payroll beginning balances, be sure the earning codes that you will be using are configured with the "Allow editing of earning statement rates" option enabled.</span></span> <span data-ttu-id="bb30f-130">Hierdoor kunt u handmatig het bedrag van het oude systeem intoetsen.</span><span class="sxs-lookup"><span data-stu-id="bb30f-130">This will allow you to manually key the amount from the legacy system.</span></span> 
 
-### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a>B. Inkomstenoverzichten maken met een beginsaldo voor een werknemer
-In deze stap maakt u handmatig een inkomstenoverzicht aan voor elke werknemer voor de laatste periode van het oude systeem, waarmee u de inkomstenoverzichtsregels in de nieuwe salarisadministratie aanmaakt. Voeg één regel in per inkomstencode en het JTH-bedrag en -uren. De stappen met de demodata gaan als volgt:
+### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a><span data-ttu-id="bb30f-131">B.</span><span class="sxs-lookup"><span data-stu-id="bb30f-131">B.</span></span> <span data-ttu-id="bb30f-132">Inkomstenoverzichten maken met een beginsaldo voor een werknemer</span><span class="sxs-lookup"><span data-stu-id="bb30f-132">Create earnings statement for an employee to have a beginning balance</span></span>
+<span data-ttu-id="bb30f-133">In deze stap maakt u handmatig een inkomstenoverzicht aan voor elke werknemer voor de laatste periode van het oude systeem, waarmee u de inkomstenoverzichtsregels in de nieuwe salarisadministratie aanmaakt.</span><span class="sxs-lookup"><span data-stu-id="bb30f-133">This step manually creates an earnings statement for each worker for the last pay period of the legacy system, which creates the earning statement lines in the new payroll system.</span></span> <span data-ttu-id="bb30f-134">Voeg één regel in per inkomstencode en het JTH-bedrag en -uren.</span><span class="sxs-lookup"><span data-stu-id="bb30f-134">Enter one line per earning code and the YTD amount and hours.</span></span> <span data-ttu-id="bb30f-135">De stappen met de demodata gaan als volgt:</span><span class="sxs-lookup"><span data-stu-id="bb30f-135">The sample steps are as follows:</span></span>
 
-1. Open de pagina **Alle inkomstenoverzichten** en klik op **Nieuw**.  
+1. <span data-ttu-id="bb30f-136">Open de pagina **Alle inkomstenoverzichten** en klik op **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="bb30f-136">Open the **All earnings statements** page and click **New**.</span></span>  
 
-Voer de volgende gegevens in: 
+<span data-ttu-id="bb30f-137">Voer de volgende gegevens in:</span><span class="sxs-lookup"><span data-stu-id="bb30f-137">Enter the following:</span></span> 
 
-| Veld      | Waarde                 |
+| <span data-ttu-id="bb30f-138">Veld</span><span class="sxs-lookup"><span data-stu-id="bb30f-138">Field</span></span>      | <span data-ttu-id="bb30f-139">Waarde</span><span class="sxs-lookup"><span data-stu-id="bb30f-139">Value</span></span>                 |
 |------------|-----------------------|
-| Medewerker     | Michael Redmond       |
-| Betalingscyclus  | SM                    |
-| Salarisperiode | 16-6-2017 - 30-6-2017 |
+| <span data-ttu-id="bb30f-140">Medewerker</span><span class="sxs-lookup"><span data-stu-id="bb30f-140">Worker</span></span>     | <span data-ttu-id="bb30f-141">Michael Redmond</span><span class="sxs-lookup"><span data-stu-id="bb30f-141">Michael Redmond</span></span>       |
+| <span data-ttu-id="bb30f-142">Betalingscyclus</span><span class="sxs-lookup"><span data-stu-id="bb30f-142">Pay cycle</span></span>  | <span data-ttu-id="bb30f-143">SM</span><span class="sxs-lookup"><span data-stu-id="bb30f-143">sm</span></span>                    |
+| <span data-ttu-id="bb30f-144">Salarisperiode</span><span class="sxs-lookup"><span data-stu-id="bb30f-144">Pay period</span></span> | <span data-ttu-id="bb30f-145">16-6-2017 - 30-6-2017</span><span class="sxs-lookup"><span data-stu-id="bb30f-145">6/16/2017 - 6/30/2017</span></span> |
 
-2. Voer op het tabblad **Inkomstenoverzichtregel** de volgende waarden in:
+2. <span data-ttu-id="bb30f-146">Voer op het tabblad **Inkomstenoverzichtregel** de volgende waarden in:</span><span class="sxs-lookup"><span data-stu-id="bb30f-146">In the **Earnings statement line** tab, enter the following:</span></span>
 
-Regel 1: tabblad **Inkomstenoverzichtregel**
+<span data-ttu-id="bb30f-147">Regel 1: tabblad **Inkomstenoverzichtregel**</span><span class="sxs-lookup"><span data-stu-id="bb30f-147">Line 1: **Earning statement line** tab</span></span>
 
-| Veld            | Waarde       |
+| <span data-ttu-id="bb30f-148">Veld</span><span class="sxs-lookup"><span data-stu-id="bb30f-148">Field</span></span>            | <span data-ttu-id="bb30f-149">Waarde</span><span class="sxs-lookup"><span data-stu-id="bb30f-149">Value</span></span>       |
 |------------------|-------------|
-| Inkomstencode    | Normaal salaris |
-| Hoeveelheid         | 1,00        |
-| Tarief             | 30.000      |
-| Tabblad Regeldetails |             |
-| Handmatig           | (gemarkeerd)    |
+| <span data-ttu-id="bb30f-150">Inkomstencode</span><span class="sxs-lookup"><span data-stu-id="bb30f-150">Earnings code</span></span>    | <span data-ttu-id="bb30f-151">Normaal salaris</span><span class="sxs-lookup"><span data-stu-id="bb30f-151">Regular pay</span></span> |
+| <span data-ttu-id="bb30f-152">Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="bb30f-152">Quantity</span></span>         | <span data-ttu-id="bb30f-153">1,00</span><span class="sxs-lookup"><span data-stu-id="bb30f-153">1.00</span></span>        |
+| <span data-ttu-id="bb30f-154">Tarief</span><span class="sxs-lookup"><span data-stu-id="bb30f-154">Rage</span></span>             | <span data-ttu-id="bb30f-155">30.000</span><span class="sxs-lookup"><span data-stu-id="bb30f-155">30,000</span></span>      |
+| <span data-ttu-id="bb30f-156">Tabblad Regeldetails</span><span class="sxs-lookup"><span data-stu-id="bb30f-156">Line details tab</span></span> |             |
+| <span data-ttu-id="bb30f-157">Handmatig</span><span class="sxs-lookup"><span data-stu-id="bb30f-157">Manual</span></span>           | <span data-ttu-id="bb30f-158">(gemarkeerd)</span><span class="sxs-lookup"><span data-stu-id="bb30f-158">(marked)</span></span>    |
 
-Regel 2: tabblad **Inkomstenoverzichtregel**
+<span data-ttu-id="bb30f-159">Regel 2: tabblad **Inkomstenoverzichtregel**</span><span class="sxs-lookup"><span data-stu-id="bb30f-159">Line 2: **Earning statement line** tab</span></span>
 
-| Veld            | Waarde    |
+| <span data-ttu-id="bb30f-160">Veld</span><span class="sxs-lookup"><span data-stu-id="bb30f-160">Field</span></span>            | <span data-ttu-id="bb30f-161">Waarde</span><span class="sxs-lookup"><span data-stu-id="bb30f-161">Value</span></span>    |
 |------------------|----------|
-| Inkomstencode    | Bonus    |
-| Hoeveelheid         | 1.0000   |
-| Tarief             | 4250.00  |
-| Tabblad Regeldetails |          |
-| Handmatig           | (gemarkeerd) |
+| <span data-ttu-id="bb30f-162">Inkomstencode</span><span class="sxs-lookup"><span data-stu-id="bb30f-162">Earnings code</span></span>    | <span data-ttu-id="bb30f-163">Bonus</span><span class="sxs-lookup"><span data-stu-id="bb30f-163">Bonus</span></span>    |
+| <span data-ttu-id="bb30f-164">Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="bb30f-164">Quantity</span></span>         | <span data-ttu-id="bb30f-165">1.0000</span><span class="sxs-lookup"><span data-stu-id="bb30f-165">1.0000</span></span>   |
+| <span data-ttu-id="bb30f-166">Tarief</span><span class="sxs-lookup"><span data-stu-id="bb30f-166">Rate</span></span>             | <span data-ttu-id="bb30f-167">4250.00</span><span class="sxs-lookup"><span data-stu-id="bb30f-167">4250.00</span></span>  |
+| <span data-ttu-id="bb30f-168">Tabblad Regeldetails</span><span class="sxs-lookup"><span data-stu-id="bb30f-168">Line details tab</span></span> |          |
+| <span data-ttu-id="bb30f-169">Handmatig</span><span class="sxs-lookup"><span data-stu-id="bb30f-169">Manual</span></span>           | <span data-ttu-id="bb30f-170">(gemarkeerd)</span><span class="sxs-lookup"><span data-stu-id="bb30f-170">(marked)</span></span> |
 
-Regel 3: tabblad **Inkomstenoverzichtregel**
+<span data-ttu-id="bb30f-171">Regel 3: tabblad **Inkomstenoverzichtregel**</span><span class="sxs-lookup"><span data-stu-id="bb30f-171">Line 3: **Earning statement line** tab</span></span>
 
-| Veld           | Waarde      |
+| <span data-ttu-id="bb30f-172">Veld</span><span class="sxs-lookup"><span data-stu-id="bb30f-172">Field</span></span>           | <span data-ttu-id="bb30f-173">Waarde</span><span class="sxs-lookup"><span data-stu-id="bb30f-173">Value</span></span>      |
 |-----------------|------------|
-| Inkomstencode   | Provisie |
-| Hoeveelheid        | 1.0000     |
-| Tarief            | 1.299,00   |
-| Tarief            | 1,299.00   |
-| Tabblad Regeldetails |            |
-| Handmatig          | (gemarkeerd)   |
+| <span data-ttu-id="bb30f-174">Inkomstencode</span><span class="sxs-lookup"><span data-stu-id="bb30f-174">Earnings code</span></span>   | <span data-ttu-id="bb30f-175">Provisie</span><span class="sxs-lookup"><span data-stu-id="bb30f-175">Commission</span></span> |
+| <span data-ttu-id="bb30f-176">Hoeveelheid</span><span class="sxs-lookup"><span data-stu-id="bb30f-176">Quantity</span></span>        | <span data-ttu-id="bb30f-177">1.0000</span><span class="sxs-lookup"><span data-stu-id="bb30f-177">1.0000</span></span>     |
+| <span data-ttu-id="bb30f-178">Tarief</span><span class="sxs-lookup"><span data-stu-id="bb30f-178">Rate</span></span>            | <span data-ttu-id="bb30f-179">1.299,00</span><span class="sxs-lookup"><span data-stu-id="bb30f-179">!,299.00</span></span>   |
+| <span data-ttu-id="bb30f-180">Tarief</span><span class="sxs-lookup"><span data-stu-id="bb30f-180">Rate</span></span>            | <span data-ttu-id="bb30f-181">1,299.00</span><span class="sxs-lookup"><span data-stu-id="bb30f-181">1,299.00</span></span>   |
+| <span data-ttu-id="bb30f-182">Tabblad Regeldetails</span><span class="sxs-lookup"><span data-stu-id="bb30f-182">Line detail tab</span></span> |            |
+| <span data-ttu-id="bb30f-183">Handmatig</span><span class="sxs-lookup"><span data-stu-id="bb30f-183">Manual</span></span>          | <span data-ttu-id="bb30f-184">(gemarkeerd)</span><span class="sxs-lookup"><span data-stu-id="bb30f-184">(Marked)</span></span>   |
 
 > [!NOTE]
-> Stel de schuifregelaar **Handmatig** op **Ja** in voor elke inkomstenoverzichtregel op het tabblad **Regeldetails** om salarisbeginsaldi te kunnen instellen voor elke medewerker.
+> <span data-ttu-id="bb30f-185">Stel de schuifregelaar **Handmatig** op **Ja** in voor elke inkomstenoverzichtregel op het tabblad **Regeldetails** om salarisbeginsaldi te kunnen instellen voor elke medewerker.</span><span class="sxs-lookup"><span data-stu-id="bb30f-185">Setting the **Manual** slider to **Yes** in the **Line Details** tab for each earnings statement line is key to have payroll beginning balances entered for each worker.</span></span>
 
-3. Klik in het **actie** venster op **Inkomstenoverzicht vrijgeven** USA-FED-ER-FICA.
+3. <span data-ttu-id="bb30f-186">Klik in het **actie** venster op **Inkomstenoverzicht vrijgeven** USA-FED-ER-FICA.</span><span class="sxs-lookup"><span data-stu-id="bb30f-186">On the **Action** pane, click **Release earnings statement** USA-FED-ER-FICA.</span></span>
 
-4. Klik in het **actie** venster op **Salarisoverzicht** om de pagina **Salarisoverzichten genereren** te openen en stel het volgende in:
+4. <span data-ttu-id="bb30f-187">Klik in het **actie** venster op **Salarisoverzicht** om de pagina **Salarisoverzichten genereren** te openen en stel het volgende in:</span><span class="sxs-lookup"><span data-stu-id="bb30f-187">On the **Action** pane click **Pay statement** to open the **Generate pay statements** page and set the following:</span></span>
 
-| Veld              | Waarde     |
+| <span data-ttu-id="bb30f-188">Veld</span><span class="sxs-lookup"><span data-stu-id="bb30f-188">Field</span></span>              | <span data-ttu-id="bb30f-189">Waarde</span><span class="sxs-lookup"><span data-stu-id="bb30f-189">Value</span></span>     |
 |--------------------|-----------|
-| Betalingsdatum       | 6/30/2017 |
-| Type betalingsronde   | Handmatig    |
-| Boekhouding uitschakelen |   Ja     |
+| <span data-ttu-id="bb30f-190">Betalingsdatum</span><span class="sxs-lookup"><span data-stu-id="bb30f-190">Payment date</span></span>       | <span data-ttu-id="bb30f-191">6/30/2017</span><span class="sxs-lookup"><span data-stu-id="bb30f-191">6/30/2017</span></span> |
+| <span data-ttu-id="bb30f-192">Type betalingsronde</span><span class="sxs-lookup"><span data-stu-id="bb30f-192">Payment run type</span></span>   | <span data-ttu-id="bb30f-193">Handmatig</span><span class="sxs-lookup"><span data-stu-id="bb30f-193">Manual</span></span>    |
+| <span data-ttu-id="bb30f-194">Boekhouding uitschakelen</span><span class="sxs-lookup"><span data-stu-id="bb30f-194">Disable accounting</span></span> |   <span data-ttu-id="bb30f-195">Ja</span><span class="sxs-lookup"><span data-stu-id="bb30f-195">Yes</span></span>     |
 
 > [!NOTE] 
-> Dit is alleen beschikbaar wanneer het type van de betalingsronde handmatig is en als de gebruiker de boekhouding op de betalingsronde wil uitschakelen.
+> <span data-ttu-id="bb30f-196">Dit is alleen beschikbaar wanneer het type van de betalingsronde handmatig is en als de gebruiker de boekhouding op de betalingsronde wil uitschakelen.</span><span class="sxs-lookup"><span data-stu-id="bb30f-196">This is only available when the payment run type is manual and wherein the user want to disable accounting on the pay run.</span></span>
 
-Klik op **OK** en sluit het **Infologboek**.
+<span data-ttu-id="bb30f-197">Klik op **OK** en sluit het **Infologboek**.</span><span class="sxs-lookup"><span data-stu-id="bb30f-197">Click **OK** and close the **Infolog**.</span></span>
 
-#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Waarom moet het selectievakje Boekhouding uitschakelen zijn ingesteld op Ja bij het genereren van salarisoverzichten?
-Als u de schuifregelaar op **Ja** instelt, voorkomt u dat regels in het salarisoverzicht wordt gedistribueerd naar het grootboek. Grootboekbedragen worden eerder bijgewerkt wanneer de rekeningsaldi van het oude systeem zijn ingevoerd. Als u beginsaldi invoert voor salarissen, kunt u rapporten genereren die informatie uit eerdere jaren bevatten, alsmede limieten aangeven voor vergoedings- en belastingdoeleinden.   
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a><span data-ttu-id="bb30f-198">Waarom moet het selectievakje Boekhouding uitschakelen zijn ingesteld op Ja bij het genereren van salarisoverzichten?</span><span class="sxs-lookup"><span data-stu-id="bb30f-198">Why the Disable Accounting slider needs to set to Yes when generating pay statements?</span></span>
+<span data-ttu-id="bb30f-199">Als u de schuifregelaar op **Ja** instelt, voorkomt u dat regels in het salarisoverzicht wordt gedistribueerd naar het grootboek.</span><span class="sxs-lookup"><span data-stu-id="bb30f-199">Setting the slider to **Yes** prevents lines in the pay statement from being districuted to General ledger.</span></span> <span data-ttu-id="bb30f-200">Grootboekbedragen worden eerder bijgewerkt wanneer de rekeningsaldi van het oude systeem zijn ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="bb30f-200">General ledger amounts were updating earlier when account balances from the legacy system were entered.</span></span> <span data-ttu-id="bb30f-201">Als u beginsaldi invoert voor salarissen, kunt u rapporten genereren die informatie uit eerdere jaren bevatten, alsmede limieten aangeven voor vergoedings- en belastingdoeleinden.</span><span class="sxs-lookup"><span data-stu-id="bb30f-201">Entering beginning balances for Payroll lets you generate reports that include information from prior years, as well as for identifying limits for benefit and tax purposes.</span></span>   
 
-### <a name="c-create-pay-statements-for-employees"></a>C. Salarisoverzichten voor werknemers genereren
-Na het genereren van salarisoverzichten met beginsaldi moet u controleren dat de salarisoverzichten de salarisgegevens correct weergeven. U moet ook handmatig de gegevens voor vergoedingen en belastingen bijwerken, zodat deze overeenkomen met de gegevens in de oude salarisadministratie. Nadat u hebt gecontroleerd of de bedragen uit de vorige salarisadministratie overeenkomen met de bedragen in de huidige salarisoverzichten, moet u de salarisoverzichten voltooien.
+### <a name="c-create-pay-statements-for-employees"></a><span data-ttu-id="bb30f-202">C.</span><span class="sxs-lookup"><span data-stu-id="bb30f-202">C.</span></span> <span data-ttu-id="bb30f-203">Salarisoverzichten voor werknemers genereren</span><span class="sxs-lookup"><span data-stu-id="bb30f-203">Create pay statements for employees</span></span>
+<span data-ttu-id="bb30f-204">Na het genereren van salarisoverzichten met beginsaldi moet u controleren dat de salarisoverzichten de salarisgegevens correct weergeven.</span><span class="sxs-lookup"><span data-stu-id="bb30f-204">After you generate pay statements that have beginning balances, you must verify that the pay statements accurately reflect payroll data.</span></span> <span data-ttu-id="bb30f-205">U moet ook handmatig de gegevens voor vergoedingen en belastingen bijwerken, zodat deze overeenkomen met de gegevens in de oude salarisadministratie.</span><span class="sxs-lookup"><span data-stu-id="bb30f-205">You must also manually update the benefit and taxes information to match the values in the previous payroll system.</span></span> <span data-ttu-id="bb30f-206">Nadat u hebt gecontroleerd of de bedragen uit de vorige salarisadministratie overeenkomen met de bedragen in de huidige salarisoverzichten, moet u de salarisoverzichten voltooien.</span><span class="sxs-lookup"><span data-stu-id="bb30f-206">After you verify that the amounts from the previous payroll system match the amounts on the current pay statements, you must finalize the pay statements.</span></span>
 
-1. Open de pagina **Alle salarisoverzichten**.
+1. <span data-ttu-id="bb30f-207">Open de pagina **Alle salarisoverzichten**.</span><span class="sxs-lookup"><span data-stu-id="bb30f-207">Open the **All pay statements** page.</span></span>
 
-2. Selecteer het laatst gegenereerde salarisoverzicht voor Michael Redmond.
+2. <span data-ttu-id="bb30f-208">Selecteer het laatst gegenereerde salarisoverzicht voor Michael Redmond.</span><span class="sxs-lookup"><span data-stu-id="bb30f-208">Highlight the last generated pay statement for Michael Redmond</span></span>
 
-3. Klik op **Bewerken** om de pagina **Salarisoverzicht** te openen.
+3. <span data-ttu-id="bb30f-209">Klik op **Bewerken** om de pagina **Salarisoverzicht** te openen.</span><span class="sxs-lookup"><span data-stu-id="bb30f-209">Click **Edit** to open the **Pay statement** page.</span></span>
 
-4. Ga naar het tabblad **Vergoedingsinhoudingen** en voer de volgende waarden in:
+4. <span data-ttu-id="bb30f-210">Ga naar het tabblad **Vergoedingsinhoudingen** en voer de volgende waarden in:</span><span class="sxs-lookup"><span data-stu-id="bb30f-210">Open the **Benefit deductions** tab and enter the following:</span></span>
 
-| Veld                           | Waarde            |
+| <span data-ttu-id="bb30f-211">Veld</span><span class="sxs-lookup"><span data-stu-id="bb30f-211">Field</span></span>                           | <span data-ttu-id="bb30f-212">Waarde</span><span class="sxs-lookup"><span data-stu-id="bb30f-212">Value</span></span>            |
 |---------------------------------|------------------|
-| Vergoeding                         | Inhoudingsbedrag |
-| 401K | Deelnemen              | 3000.00          |
-| Tandartsverzekering | SubSp                  | 495,00           |
-| Uitgaven zorg afh. | Deelnemen | 2500.00          |
-| Zicht | SupSp                  | 500,00           |
+| <span data-ttu-id="bb30f-213">Vergoeding</span><span class="sxs-lookup"><span data-stu-id="bb30f-213">Benefit</span></span>                         | <span data-ttu-id="bb30f-214">Inhoudingsbedrag</span><span class="sxs-lookup"><span data-stu-id="bb30f-214">Deduction amount</span></span> |
+| <span data-ttu-id="bb30f-215">401K</span><span class="sxs-lookup"><span data-stu-id="bb30f-215">401K</span></span> | <span data-ttu-id="bb30f-216">Deelnemen</span><span class="sxs-lookup"><span data-stu-id="bb30f-216">Participate</span></span>              | <span data-ttu-id="bb30f-217">3000.00</span><span class="sxs-lookup"><span data-stu-id="bb30f-217">3000.00</span></span>          |
+| <span data-ttu-id="bb30f-218">Tandartsverzekering</span><span class="sxs-lookup"><span data-stu-id="bb30f-218">Dental</span></span> | <span data-ttu-id="bb30f-219">SubSp</span><span class="sxs-lookup"><span data-stu-id="bb30f-219">SubSp</span></span>                  | <span data-ttu-id="bb30f-220">495,00</span><span class="sxs-lookup"><span data-stu-id="bb30f-220">495.00</span></span>           |
+| <span data-ttu-id="bb30f-221">Uitgaven zorg afh.</span><span class="sxs-lookup"><span data-stu-id="bb30f-221">Dep care spending</span></span> | <span data-ttu-id="bb30f-222">Deelnemen</span><span class="sxs-lookup"><span data-stu-id="bb30f-222">Participate</span></span> | <span data-ttu-id="bb30f-223">2500.00</span><span class="sxs-lookup"><span data-stu-id="bb30f-223">2500.00</span></span>          |
+| <span data-ttu-id="bb30f-224">Zicht</span><span class="sxs-lookup"><span data-stu-id="bb30f-224">Vision</span></span> | <span data-ttu-id="bb30f-225">SupSp</span><span class="sxs-lookup"><span data-stu-id="bb30f-225">SupSp</span></span>                  | <span data-ttu-id="bb30f-226">500,00</span><span class="sxs-lookup"><span data-stu-id="bb30f-226">500.00</span></span>           |
 
-5. Voer op het tabblad **Vergoedingsbijdragen** de volgende waarden in:
+5. <span data-ttu-id="bb30f-227">Voer op het tabblad **Vergoedingsbijdragen** de volgende waarden in:</span><span class="sxs-lookup"><span data-stu-id="bb30f-227">In the **Benefit contributions** tab and enter the following:</span></span>
 
-| Veld              | Waarde               |
+| <span data-ttu-id="bb30f-228">Veld</span><span class="sxs-lookup"><span data-stu-id="bb30f-228">Field</span></span>              | <span data-ttu-id="bb30f-229">Waarde</span><span class="sxs-lookup"><span data-stu-id="bb30f-229">Value</span></span>               |
 |--------------------|---------------------|
-| Vergoeding            | Bijdragebedrag |
-| 401K | Deelnemen | 3000,00             |
-| Tandartsverzekering | SubSp     | 495,00              |
-| Zicht | SubSp     | 500,00              |
+| <span data-ttu-id="bb30f-230">Vergoeding</span><span class="sxs-lookup"><span data-stu-id="bb30f-230">Benefit</span></span>            | <span data-ttu-id="bb30f-231">Bijdragebedrag</span><span class="sxs-lookup"><span data-stu-id="bb30f-231">Contribution amount</span></span> |
+| <span data-ttu-id="bb30f-232">401K</span><span class="sxs-lookup"><span data-stu-id="bb30f-232">401K</span></span> | <span data-ttu-id="bb30f-233">Deelnemen</span><span class="sxs-lookup"><span data-stu-id="bb30f-233">Participate</span></span> | <span data-ttu-id="bb30f-234">3000,00</span><span class="sxs-lookup"><span data-stu-id="bb30f-234">3000,00</span></span>             |
+| <span data-ttu-id="bb30f-235">Tandartsverzekering</span><span class="sxs-lookup"><span data-stu-id="bb30f-235">Dental</span></span> | <span data-ttu-id="bb30f-236">SubSp</span><span class="sxs-lookup"><span data-stu-id="bb30f-236">SubSp</span></span>     | <span data-ttu-id="bb30f-237">495,00</span><span class="sxs-lookup"><span data-stu-id="bb30f-237">495.00</span></span>              |
+| <span data-ttu-id="bb30f-238">Zicht</span><span class="sxs-lookup"><span data-stu-id="bb30f-238">Vision</span></span> | <span data-ttu-id="bb30f-239">SubSp</span><span class="sxs-lookup"><span data-stu-id="bb30f-239">SubSp</span></span>     | <span data-ttu-id="bb30f-240">500,00</span><span class="sxs-lookup"><span data-stu-id="bb30f-240">500.00</span></span>              |
 
-6. Voer op het tabblad **Belastinginhoudingen** de volgende waarden in:
+6. <span data-ttu-id="bb30f-241">Voer op het tabblad **Belastinginhoudingen** de volgende waarden in:</span><span class="sxs-lookup"><span data-stu-id="bb30f-241">In the **Tax deductions** tab, enter the following:</span></span>
 
-| Veld           | Waarde            |
+| <span data-ttu-id="bb30f-242">Veld</span><span class="sxs-lookup"><span data-stu-id="bb30f-242">Field</span></span>           | <span data-ttu-id="bb30f-243">Waarde</span><span class="sxs-lookup"><span data-stu-id="bb30f-243">Value</span></span>            |
 |-----------------|------------------|
-| Btw-code        | Inhoudingsbedrag |
-| USA-FED-ER-FICA | 1600.00          |
-| USA-FED-ER-MEDI | 825.75           |
+| <span data-ttu-id="bb30f-244">Btw-code</span><span class="sxs-lookup"><span data-stu-id="bb30f-244">Tax code</span></span>        | <span data-ttu-id="bb30f-245">Inhoudingsbedrag</span><span class="sxs-lookup"><span data-stu-id="bb30f-245">Deduction amount</span></span> |
+| <span data-ttu-id="bb30f-246">USA-FED-ER-FICA</span><span class="sxs-lookup"><span data-stu-id="bb30f-246">USA-FED-ER-FICA</span></span> | <span data-ttu-id="bb30f-247">1600.00</span><span class="sxs-lookup"><span data-stu-id="bb30f-247">1600.00</span></span>          |
+| <span data-ttu-id="bb30f-248">USA-FED-ER-MEDI</span><span class="sxs-lookup"><span data-stu-id="bb30f-248">USA-FED-ER-MEDI</span></span> | <span data-ttu-id="bb30f-249">825.75</span><span class="sxs-lookup"><span data-stu-id="bb30f-249">825.75</span></span>           |
 
-7. Voer op het tabblad **Belastingbijdragen** de volgende waarden in:
+7. <span data-ttu-id="bb30f-250">Voer op het tabblad **Belastingbijdragen** de volgende waarden in:</span><span class="sxs-lookup"><span data-stu-id="bb30f-250">In the **Tax contributions** tab enter the following:</span></span>
 
-8. Klik op **Berekenen**.
+8. <span data-ttu-id="bb30f-251">Klik op **Berekenen**.</span><span class="sxs-lookup"><span data-stu-id="bb30f-251">Click **Calculate**.</span></span>
 > [!IMPORTANT] 
-> Valideer of de totaalbedragen van het salarisoverzicht overeenkomen met JTH-bedragen van het oude systeem voor de werknemer. U kunt het definitief maken in de volgende stap uitstellen en een validatie uitvoeren voor het totaal van alle salarisoverzichten. Na de validatie werkt u alle salarisoverzichten door en maakt u deze definitief.
+> <span data-ttu-id="bb30f-252">Valideer of de totaalbedragen van het salarisoverzicht overeenkomen met JTH-bedragen van het oude systeem voor de werknemer.</span><span class="sxs-lookup"><span data-stu-id="bb30f-252">Validate the totals of the pay statement that they match the YTD of the legacy system for the worker.</span></span> <span data-ttu-id="bb30f-253">U kunt het definitief maken in de volgende stap uitstellen en een validatie uitvoeren voor het totaal van alle salarisoverzichten.</span><span class="sxs-lookup"><span data-stu-id="bb30f-253">You may want to hold off on finalizing in the next step to do some overall validating of all pay statements in aggregate.</span></span> <span data-ttu-id="bb30f-254">Na de validatie werkt u alle salarisoverzichten door en maakt u deze definitief.</span><span class="sxs-lookup"><span data-stu-id="bb30f-254">Once validated run through all the pay statements and finalize them.</span></span>
 
-Indien nodig kunt u hetzelfde proces uitvoeren per kwartaal voor alle voorgaande kwartalen in elk jaar. Dit is alleen nodig als de klant de gegevens per kwartaal moet zien, zonder terug te hoeven gaan naar het oude systeem.
+<span data-ttu-id="bb30f-255">Indien nodig kunt u hetzelfde proces uitvoeren per kwartaal voor alle voorgaande kwartalen in elk jaar.</span><span class="sxs-lookup"><span data-stu-id="bb30f-255">The same process can be done in quarter increments if necessary for all prior quarters in each year.</span></span> <span data-ttu-id="bb30f-256">Dit is alleen nodig als de klant de gegevens per kwartaal moet zien, zonder terug te hoeven gaan naar het oude systeem.</span><span class="sxs-lookup"><span data-stu-id="bb30f-256">This is only needed if the customer needs to see the data by quarter without going back to the legacy system.</span></span>
 
-## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a>Als u een fout maakt bij het invoeren van beginsaldi voor een werknemer
-U kunt transacties ongedaan maken en opnieuw invoeren. Als u een transactie ongedaan wilt maken, hoeft u alleen maar de volgende stappen uit te voeren op de pagina **Alle salarisoverzichten**.
+## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a><span data-ttu-id="bb30f-257">Als u een fout maakt bij het invoeren van beginsaldi voor een werknemer</span><span class="sxs-lookup"><span data-stu-id="bb30f-257">If you make a mistake Entering Beginning Balances for an Employee</span></span>
+<span data-ttu-id="bb30f-258">U kunt transacties ongedaan maken en opnieuw invoeren.</span><span class="sxs-lookup"><span data-stu-id="bb30f-258">It is possible to reverse and reenter transactions.</span></span> <span data-ttu-id="bb30f-259">Als u een transactie ongedaan wilt maken, hoeft u alleen maar de volgende stappen uit te voeren op de pagina **Alle salarisoverzichten**.</span><span class="sxs-lookup"><span data-stu-id="bb30f-259">To reverse the transaction, all you have to do is to complete the follow steps on the **All pay statements** page.</span></span>
 
-1. Klik op **Omkeren**.
+1. <span data-ttu-id="bb30f-260">Klik op **Omkeren**.</span><span class="sxs-lookup"><span data-stu-id="bb30f-260">Click **Reverse**.</span></span>
 
-2. Klik op **Ja** als het bericht "Als u dit salarisoverzicht omkeert, wordt een omgekeerd salarisoverzicht gemaakt als tegenboeking voor dit salarisoverzicht. Geen van beide salarisoverzichten kan worden bewerkt. Wilt u dit salarisoverzicht omkeren? wordt getoond. 
+2. <span data-ttu-id="bb30f-261">Klik op **Ja** als het bericht "Als u dit salarisoverzicht omkeert, wordt een omgekeerd salarisoverzicht gemaakt als tegenboeking voor dit salarisoverzicht.</span><span class="sxs-lookup"><span data-stu-id="bb30f-261">Click **Yes** when the message "When you reverse this pay statement, a reversing pay statement will be created to offset this pay statement.</span></span> <span data-ttu-id="bb30f-262">Geen van beide salarisoverzichten kan worden bewerkt.</span><span class="sxs-lookup"><span data-stu-id="bb30f-262">Neither pay statement can be edited.</span></span> <span data-ttu-id="bb30f-263">Wilt u dit salarisoverzicht omkeren?</span><span class="sxs-lookup"><span data-stu-id="bb30f-263">Do you want to reverse this pay statement?"</span></span> <span data-ttu-id="bb30f-264">wordt getoond.</span><span class="sxs-lookup"><span data-stu-id="bb30f-264">displays.</span></span> 
 
-Na het omkeren van het salarisoverzicht kunt u een nieuw salarisoverzicht genereren voor de werknemer uit het inkomstenoverzicht dat u eerder hebt gemaakt. Zorg ervoor dat u onjuiste regels uit het inkomstenoverzicht corrigeert voordat u het nieuwe salarisoverzicht genereert en genereer vervolgens nieuwe salarisoverzichten met de juiste bedragen. 
+<span data-ttu-id="bb30f-265">Na het omkeren van het salarisoverzicht kunt u een nieuw salarisoverzicht genereren voor de werknemer uit het inkomstenoverzicht dat u eerder hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="bb30f-265">After you reverse the pay statement, you can generate a new pay statement for the worker from the earnings statement that you created previously.</span></span> <span data-ttu-id="bb30f-266">Zorg ervoor dat u onjuiste regels uit het inkomstenoverzicht corrigeert voordat u het nieuwe salarisoverzicht genereert en genereer vervolgens nieuwe salarisoverzichten met de juiste bedragen.</span><span class="sxs-lookup"><span data-stu-id="bb30f-266">Be sure to fix any incorrect lines on the earnings statement before you generate the new pay statement, and then generate new pay statements with the correct amounts.</span></span> 
 

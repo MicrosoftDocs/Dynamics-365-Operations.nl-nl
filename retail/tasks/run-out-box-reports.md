@@ -17,53 +17,53 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: e948525d4c7873fdc5101136ee37cd117268f4dd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9ba616550120e273429e348ea9cddf7c9e8baee4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-and-run-out-of-box-reports"></a> Kant-en-klare rapporten genereren en uitvoeren
+# <a name="generate-and-run-out-of-box-reports"></a><span data-ttu-id="7073c-103"> Kant-en-klare rapporten genereren en uitvoeren</span><span class="sxs-lookup"><span data-stu-id="7073c-103">Generate and run out-of-box reports</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Gebruik deze taakbegeleiding om kant-en-klare rapporten op het hoofdkantoor uit te voeren vanuit verschillende werkgebieden en query's en verkooprapporten onder Detailhandel en commerce.
+<span data-ttu-id="7073c-104">Gebruik deze taakbegeleiding om kant-en-klare rapporten op het hoofdkantoor uit te voeren vanuit verschillende werkgebieden en query's en verkooprapporten onder Detailhandel en commerce.</span><span class="sxs-lookup"><span data-stu-id="7073c-104">Use this task guide to run out of box reports in headquarters from different workspaces and Inquiries & Sales reports located under Retail & Commerce.</span></span>
 
 
 
-Het demobedrijf dat wordt gebruikt om deze registratie te maken is USRT. Deze registratie is bedoeld voor de systeembeheerdersrol.
+<span data-ttu-id="7073c-105">Het demobedrijf dat wordt gebruikt om deze registratie te maken is USRT.</span><span class="sxs-lookup"><span data-stu-id="7073c-105">The demo data company used to create this recording is USRT.</span></span> <span data-ttu-id="7073c-106">Deze registratie is bedoeld voor de systeembeheerdersrol.</span><span class="sxs-lookup"><span data-stu-id="7073c-106">This recording is intended for the System administrator role.</span></span>
 
 
-## <a name="launch-reports-from-workspaces"></a>Rapporten starten vanuit werkgebieden
-1. Ga naar Detailhandel en commerce > Producten en categorieën > Categorie- en productbeheer.
-2. Klik op de pijl om de sectie Rapporten uit te vouwen of samen te vouwen.
-3. Klik op Rapport Topproducten.
-4. Voer een datum in het veld Begindatum in.
-5. Voer een datum in het veld Einddatum in.
-6. Klik in het veld Kanaal op de vervolgkeuzeknop om de zoekopdracht te openen.
-7. Selecteer in de structuur 'Contoso Retail\Contoso Retail USA\Central\Houston'.
-    * Dit toont de standaardhiërarchie voor detailhandelsorganisaties voor detailhandelrapportagedoeleinden.   Ga naar Organisatiebeheer >Organisaties > Organisatiehiërarchiedoelstellingen en kies Detailhandelrapportage onder Toegewezen hiërarchieën, en controleer de hiërarchienaam waarvoor Standaardkolom is ingeschakeld.      Als onderdeel van demogegevens (gebruikt voor taakregistratie) ziet u dat Detailhandelwinkels per regio de standaardorganisatiehiërarchie is voor detailhandelrapportagedoeleinden.     
-8. Klik op OK.
-9. Selecteer een optie in het veld Weergeven.
-10. Selecteer een optie in het veld Op.
-11. Klik op OK.
+## <a name="launch-reports-from-workspaces"></a><span data-ttu-id="7073c-107">Rapporten starten vanuit werkgebieden</span><span class="sxs-lookup"><span data-stu-id="7073c-107">Launch reports from workspaces</span></span>
+1. <span data-ttu-id="7073c-108">Ga naar Detailhandel en commerce > Producten en categorieën > Categorie- en productbeheer.</span><span class="sxs-lookup"><span data-stu-id="7073c-108">Go to Retail and commerce > Products and categories > Category and product management.</span></span>
+2. <span data-ttu-id="7073c-109">Klik op de pijl om de sectie Rapporten uit te vouwen of samen te vouwen.</span><span class="sxs-lookup"><span data-stu-id="7073c-109">Click the arrow to expand or collapse the Reports section.</span></span>
+3. <span data-ttu-id="7073c-110">Klik op Rapport Topproducten.</span><span class="sxs-lookup"><span data-stu-id="7073c-110">Click Top products report.</span></span>
+4. <span data-ttu-id="7073c-111">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="7073c-111">In the From date field, enter a date.</span></span>
+5. <span data-ttu-id="7073c-112">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="7073c-112">In the To date field, enter a date.</span></span>
+6. <span data-ttu-id="7073c-113">Klik in het veld Kanaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="7073c-113">In the Channel field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="7073c-114">Selecteer in de structuur 'Contoso Retail\Contoso Retail USA\Central\Houston'.</span><span class="sxs-lookup"><span data-stu-id="7073c-114">In the tree, select 'Contoso Retail\Contoso Retail USA\Central\Houston'.</span></span>
+    * <span data-ttu-id="7073c-115">Dit toont de standaardhiërarchie voor detailhandelsorganisaties voor detailhandelrapportagedoeleinden.</span><span class="sxs-lookup"><span data-stu-id="7073c-115">This shows the default retail organization hierarchy for Retail reporting purpose.</span></span>   <span data-ttu-id="7073c-116">Ga naar Organisatiebeheer >Organisaties > Organisatiehiërarchiedoelstellingen en kies Detailhandelrapportage onder Toegewezen hiërarchieën, en controleer de hiërarchienaam waarvoor Standaardkolom is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="7073c-116">Go to Organization administration >Organizations >Organization hierarchy purposes and choose Retail reporting and under Assigned hierarchies, check the hierarchy name for which Default column is checked.</span></span>      <span data-ttu-id="7073c-117">Als onderdeel van demogegevens (gebruikt voor taakregistratie) ziet u dat Detailhandelwinkels per regio de standaardorganisatiehiërarchie is voor detailhandelrapportagedoeleinden.</span><span class="sxs-lookup"><span data-stu-id="7073c-117">As part of demo data (used for this task recording) you would notice, Retail Stores by Region, is the default organization hierarchy for the Retail reporting purpose.</span></span>     
+8. <span data-ttu-id="7073c-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7073c-118">Click OK.</span></span>
+9. <span data-ttu-id="7073c-119">Selecteer een optie in het veld Weergeven.</span><span class="sxs-lookup"><span data-stu-id="7073c-119">In the View field, select an option.</span></span>
+10. <span data-ttu-id="7073c-120">Selecteer een optie in het veld Op.</span><span class="sxs-lookup"><span data-stu-id="7073c-120">In the By field, select an option.</span></span>
+11. <span data-ttu-id="7073c-121">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7073c-121">Click OK.</span></span>
 
-## <a name="launch-reports-from-the-inquiries-and-sales-reports-located-under-retail--commerce-app-link"></a>Rapporten starten vanuit de query- en verkooprapporten onder de appkoppeling Detailhandel en commerce.
-1. Ga naar Detailhandel en commerce > Query's en rapporten > Verkooprapporten > Rapport Verkoop van categorie.
-2. Voer een datum in het veld Begindatum in.
-3. Voer een datum in het veld Einddatum in.
-4. Klik in het veld Kanaal op de vervolgkeuzeknop om de zoekopdracht te openen.
-5. Selecteer in de structuur 'Contoso Retail\Contoso Retail USA\West\Seattle'.
-    * Dit toont de standaardhiërarchie voor detailhandelsorganisaties voor detailhandelrapportagedoeleinden.   Ga naar Organisatiebeheer >Organisaties > Organisatiehiërarchiedoelstellingen en kies Detailhandelrapportage onder Toegewezen hiërarchieën, en controleer de hiërarchienaam waarvoor Standaardkolom is ingeschakeld.      Als onderdeel van demogegevens (gebruikt voor taakregistratie) ziet u dat Detailhandelwinkels per regio de standaardorganisatiehiërarchie is voor detailhandelrapportagedoeleinden.     
-6. Klik op OK.
-7. Klik op OK.
+## <a name="launch-reports-from-the-inquiries-and-sales-reports-located-under-retail--commerce-app-link"></a><span data-ttu-id="7073c-122">Rapporten starten vanuit de query- en verkooprapporten onder de appkoppeling Detailhandel en commerce.</span><span class="sxs-lookup"><span data-stu-id="7073c-122">Launch reports from the inquiries and sales reports located under Retail & Commerce app link.</span></span>
+1. <span data-ttu-id="7073c-123">Ga naar Detailhandel en commerce > Query's en rapporten > Verkooprapporten > Rapport Verkoop van categorie.</span><span class="sxs-lookup"><span data-stu-id="7073c-123">Go to Retail and commerce > Inquiries and reports > Sales reports > Category sales report.</span></span>
+2. <span data-ttu-id="7073c-124">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="7073c-124">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="7073c-125">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="7073c-125">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="7073c-126">Klik in het veld Kanaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="7073c-126">In the Channel field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="7073c-127">Selecteer in de structuur 'Contoso Retail\Contoso Retail USA\West\Seattle'.</span><span class="sxs-lookup"><span data-stu-id="7073c-127">In the tree, select 'Contoso Retail\Contoso Retail USA\West\Seattle'.</span></span>
+    * <span data-ttu-id="7073c-128">Dit toont de standaardhiërarchie voor detailhandelsorganisaties voor detailhandelrapportagedoeleinden.</span><span class="sxs-lookup"><span data-stu-id="7073c-128">This shows the default retail organization hierarchy for Retail reporting purpose.</span></span>   <span data-ttu-id="7073c-129">Ga naar Organisatiebeheer >Organisaties > Organisatiehiërarchiedoelstellingen en kies Detailhandelrapportage onder Toegewezen hiërarchieën, en controleer de hiërarchienaam waarvoor Standaardkolom is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="7073c-129">Go to Organization administration >Organizations >Organization hierarchy purposes and choose Retail reporting and under Assigned hierarchies, check the hierarchy name for which Default column is checked.</span></span>      <span data-ttu-id="7073c-130">Als onderdeel van demogegevens (gebruikt voor taakregistratie) ziet u dat Detailhandelwinkels per regio de standaardorganisatiehiërarchie is voor detailhandelrapportagedoeleinden.</span><span class="sxs-lookup"><span data-stu-id="7073c-130">As part of demo data (used for this task recording) you would notice, Retail Stores by Region, is the default organization hierarchy for the Retail reporting purpose.</span></span>     
+6. <span data-ttu-id="7073c-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7073c-131">Click OK.</span></span>
+7. <span data-ttu-id="7073c-132">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7073c-132">Click OK.</span></span>
 
-## <a name="export-an-hq-reports"></a>Een hoofdkantoorrapport exporteren
-1. Ga naar Detailhandel en commerce > Query's en rapporten > Verkooprapporten > Rapport Verkoop van organisatie.
-2. Voer een datum in het veld Begindatum in.
-3. Voer een datum in het veld Einddatum in.
-4. Klik op OK.
-5. Klik op Exporteren.
-6. Klik op PDF.
+## <a name="export-an-hq-reports"></a><span data-ttu-id="7073c-133">Een hoofdkantoorrapport exporteren</span><span class="sxs-lookup"><span data-stu-id="7073c-133">Export an HQ reports</span></span>
+1. <span data-ttu-id="7073c-134">Ga naar Detailhandel en commerce > Query's en rapporten > Verkooprapporten > Rapport Verkoop van organisatie.</span><span class="sxs-lookup"><span data-stu-id="7073c-134">Go to Retail and commerce > Inquiries and reports > Sales reports > Organization sales report.</span></span>
+2. <span data-ttu-id="7073c-135">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="7073c-135">In the From date field, enter a date.</span></span>
+3. <span data-ttu-id="7073c-136">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="7073c-136">In the To date field, enter a date.</span></span>
+4. <span data-ttu-id="7073c-137">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="7073c-137">Click OK.</span></span>
+5. <span data-ttu-id="7073c-138">Klik op Exporteren.</span><span class="sxs-lookup"><span data-stu-id="7073c-138">Click Export.</span></span>
+6. <span data-ttu-id="7073c-139">Klik op PDF.</span><span class="sxs-lookup"><span data-stu-id="7073c-139">Click PDF.</span></span>
 
 

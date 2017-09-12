@@ -16,101 +16,101 @@ ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bf6f564ab19347f29476f02e51a690b1a27ba454
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f74da78232c477224c8fa753e9755b7f9d13174d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-an-eu-intrastat-declaration"></a>Een EU Intrastat-aangifte genereren
+# <a name="generate-an-eu-intrastat-declaration"></a><span data-ttu-id="e667f-103">Een EU Intrastat-aangifte genereren</span><span class="sxs-lookup"><span data-stu-id="e667f-103">Generate an EU Intrastat declaration</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure begeleidt u bij de stappen die nodig zijn om de Intrastat-aangifte in de elektronische bestandsindeling te exporteren en een voorbeeld te bekijken van de aangiftegegevens in een Excel-indeling. 
+<span data-ttu-id="e667f-104">Deze procedure begeleidt u bij de stappen die nodig zijn om de Intrastat-aangifte in de elektronische bestandsindeling te exporteren en een voorbeeld te bekijken van de aangiftegegevens in een Excel-indeling.</span><span class="sxs-lookup"><span data-stu-id="e667f-104">This procedure walks you through the steps required to export the Intrastat declaration in the electronic file format and preview the declaration data in an Excel format.</span></span> 
 
-Voordat u deze procedure kunt uitvoeren, moet u transacties overboeken naar Intrastat. 
+<span data-ttu-id="e667f-105">Voordat u deze procedure kunt uitvoeren, moet u transacties overboeken naar Intrastat.</span><span class="sxs-lookup"><span data-stu-id="e667f-105">Before you can complete this procedure, you must transfer transactions to the Intrastat.</span></span> 
 
-Deze procedure is gemaakt met het demobedrijf DEMF.
+<span data-ttu-id="e667f-106">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="e667f-106">This procedure was created using the demo data company DEMF.</span></span>
 
 
-## <a name="import-configurations-with-settings"></a>Configuraties met instellingen importeren
-1. Ga naar Werkruimten > Elektronische rapportage
-2. Klik op Instellingen als actief.
-3. Klik op Opslagplaatsen.
-4. Klik op Openen.
-5. Open de kolomfilter Configuratienaam.
-6. Pas een filter toe op het veld "Configuratienaam" met de waarde "Intrastat (DE)" met behulp van de filteroperator ´begint met´.
-    * U moet de configuratienaam selecteren die van toepassing is voor het land van uw rechtspersoon. In deze procedure wordt de Duitse rechtspersoon (DEMF) als voorbeeld gebruikt. Daarom moet "Intrastat (DE") worden gekozen.  
-    * Klik op Importeren en klik vervolgens op Ja.  
-7. Open de kolomfilter Configuratienaam.
-8. Pas een filter toe op het veld "Configuratienaam" met de waarde "Intrastat-rapport" met behulp van de filteroperator ´begint met´.
-    * Klik op Importeren en klik vervolgens op Ja.  
+## <a name="import-configurations-with-settings"></a><span data-ttu-id="e667f-107">Configuraties met instellingen importeren</span><span class="sxs-lookup"><span data-stu-id="e667f-107">Import configurations with settings</span></span>
+1. <span data-ttu-id="e667f-108">Ga naar Werkruimten > Elektronische rapportage</span><span class="sxs-lookup"><span data-stu-id="e667f-108">Go to Workspaces > Electronic reporting</span></span>
+2. <span data-ttu-id="e667f-109">Klik op Instellingen als actief.</span><span class="sxs-lookup"><span data-stu-id="e667f-109">Click Set active.</span></span>
+3. <span data-ttu-id="e667f-110">Klik op Opslagplaatsen.</span><span class="sxs-lookup"><span data-stu-id="e667f-110">Click Repositories.</span></span>
+4. <span data-ttu-id="e667f-111">Klik op Openen.</span><span class="sxs-lookup"><span data-stu-id="e667f-111">Click Open.</span></span>
+5. <span data-ttu-id="e667f-112">Open de kolomfilter Configuratienaam.</span><span class="sxs-lookup"><span data-stu-id="e667f-112">Open Configuration name column filter.</span></span>
+6. <span data-ttu-id="e667f-113">Pas een filter toe op het veld "Configuratienaam" met de waarde "Intrastat (DE)" met behulp van de filteroperator ´begint met´.</span><span class="sxs-lookup"><span data-stu-id="e667f-113">Apply a filter on the "Configuration name" field, with a value of "Intrastat (DE)", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="e667f-114">U moet de configuratienaam selecteren die van toepassing is voor het land van uw rechtspersoon.</span><span class="sxs-lookup"><span data-stu-id="e667f-114">You should select the configuration name applicable for the country of your legal entity.</span></span> <span data-ttu-id="e667f-115">In deze procedure wordt de Duitse rechtspersoon (DEMF) als voorbeeld gebruikt. Daarom moet "Intrastat (DE") worden gekozen.</span><span class="sxs-lookup"><span data-stu-id="e667f-115">This procedure uses the German legal entity (DEMF) as an example, therefore "Intrastat (DE)" should be chosen.</span></span>  
+    * <span data-ttu-id="e667f-116">Klik op Importeren en klik vervolgens op Ja.</span><span class="sxs-lookup"><span data-stu-id="e667f-116">Click Import and then click Yes.</span></span>  
+7. <span data-ttu-id="e667f-117">Open de kolomfilter Configuratienaam.</span><span class="sxs-lookup"><span data-stu-id="e667f-117">Open Configuration name column filter.</span></span>
+8. <span data-ttu-id="e667f-118">Pas een filter toe op het veld "Configuratienaam" met de waarde "Intrastat-rapport" met behulp van de filteroperator ´begint met´.</span><span class="sxs-lookup"><span data-stu-id="e667f-118">Apply a filter on the "Configuration name" field, with a value of "intrastat report", using the "begins with" filter operator.</span></span>
+    * <span data-ttu-id="e667f-119">Klik op Importeren en klik vervolgens op Ja.</span><span class="sxs-lookup"><span data-stu-id="e667f-119">Click Import and then click Yes.</span></span>  
 
-## <a name="set-up-foreign-trade-parameters"></a>Parameters voor buitenlandse handel instellen
-1. Ga naar Belasting > Instellingen > Buitenlandse handel > Parameters buitenlandse handel
-2. Vouw de sectie Elektronische rapportage uit.
-3. Typ of selecteer een waarde voor Intrastat (DE) in het veld Bestandsindelingstoewijzing.
-4. Typ of selecteer een waarde voor Intrastat-rapport in het veld Rapportindelingstoewijzing.
-5. Vouw de sectie Afrondingsregels uit.
-    * U moet de afrondingsregels instellen die van toepassing zijn in uw land/regio voor Intrastat-rapportage.  
-6. Voer een nummer in het veld Afrondingsregel in.
-    * Voer de afrondingsprecisie in. Voer bijvoorbeeld '0,01' in.  
-7. Voer een getal in het veld Aantal decimalen voor bedrag in.
-    * Voer bijvoorbeeld 2 in:  
-8. Selecteer een optie in het veld Afronding onder 1 kg.
-    * Selecteer bijvoorbeeld Afronden naar 1 kg.  
-9. Voer een nummer in het veld Afrondingsregel in.
-    * Voer bijvoorbeeld '1' in voor afrondinggewicht op het gehele getal.  
-10. Vouw de sectie Ondergrens uit.
-11. Voer een getal in het veld Gewicht in.
-    * Voer bijvoorbeeld '10' als het minimumgewicht in.  
-12. Typ een getal in het veld Bedrag.
-    * Voer bijvoorbeeld '200' als het minimumbedrag in.  
-13. Typ of selecteer een waarde in het veld Basisproduct.
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="e667f-120">Parameters voor buitenlandse handel instellen</span><span class="sxs-lookup"><span data-stu-id="e667f-120">Set up Foreign trade parameters</span></span>
+1. <span data-ttu-id="e667f-121">Ga naar Belasting > Instellingen > Buitenlandse handel > Parameters buitenlandse handel</span><span class="sxs-lookup"><span data-stu-id="e667f-121">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
+2. <span data-ttu-id="e667f-122">Vouw de sectie Elektronische rapportage uit.</span><span class="sxs-lookup"><span data-stu-id="e667f-122">Expand the Electronic reporting section.</span></span>
+3. <span data-ttu-id="e667f-123">Typ of selecteer een waarde voor Intrastat (DE) in het veld Bestandsindelingstoewijzing.</span><span class="sxs-lookup"><span data-stu-id="e667f-123">In the File format mapping field, enter or select a value Intrastat (DE)</span></span>
+4. <span data-ttu-id="e667f-124">Typ of selecteer een waarde voor Intrastat-rapport in het veld Rapportindelingstoewijzing.</span><span class="sxs-lookup"><span data-stu-id="e667f-124">In the Report format mapping field, enter or select a value Intrastat report</span></span>
+5. <span data-ttu-id="e667f-125">Vouw de sectie Afrondingsregels uit.</span><span class="sxs-lookup"><span data-stu-id="e667f-125">Expand the Rounding rules section.</span></span>
+    * <span data-ttu-id="e667f-126">U moet de afrondingsregels instellen die van toepassing zijn in uw land/regio voor Intrastat-rapportage.</span><span class="sxs-lookup"><span data-stu-id="e667f-126">You should set up rounding rules that are applicable in your country/region for Intrastat reporting.</span></span>  
+6. <span data-ttu-id="e667f-127">Voer een nummer in het veld Afrondingsregel in.</span><span class="sxs-lookup"><span data-stu-id="e667f-127">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="e667f-128">Voer de afrondingsprecisie in. Voer bijvoorbeeld '0,01' in.</span><span class="sxs-lookup"><span data-stu-id="e667f-128">Enter rounding precision, for example, enter '0.01'.</span></span>  
+7. <span data-ttu-id="e667f-129">Voer een getal in het veld Aantal decimalen voor bedrag in.</span><span class="sxs-lookup"><span data-stu-id="e667f-129">In the Number of decimals for amount field, enter a number.</span></span>
+    * <span data-ttu-id="e667f-130">Voer bijvoorbeeld 2 in:</span><span class="sxs-lookup"><span data-stu-id="e667f-130">For example, enter '2'.</span></span>  
+8. <span data-ttu-id="e667f-131">Selecteer een optie in het veld Afronding onder 1 kg.</span><span class="sxs-lookup"><span data-stu-id="e667f-131">In the Rounding below 1 kg field, select an option.</span></span>
+    * <span data-ttu-id="e667f-132">Selecteer bijvoorbeeld Afronden naar 1 kg.</span><span class="sxs-lookup"><span data-stu-id="e667f-132">For example, select 'Rounding up to 1 kg'.</span></span>  
+9. <span data-ttu-id="e667f-133">Voer een nummer in het veld Afrondingsregel in.</span><span class="sxs-lookup"><span data-stu-id="e667f-133">In the Rounding rule field, enter a number.</span></span>
+    * <span data-ttu-id="e667f-134">Voer bijvoorbeeld '1' in voor afrondinggewicht op het gehele getal.</span><span class="sxs-lookup"><span data-stu-id="e667f-134">For example, enter '1' for rounding weight to the integer.</span></span>  
+10. <span data-ttu-id="e667f-135">Vouw de sectie Ondergrens uit.</span><span class="sxs-lookup"><span data-stu-id="e667f-135">Expand the Minimum limit section.</span></span>
+11. <span data-ttu-id="e667f-136">Voer een getal in het veld Gewicht in.</span><span class="sxs-lookup"><span data-stu-id="e667f-136">In the Weight field, enter a number.</span></span>
+    * <span data-ttu-id="e667f-137">Voer bijvoorbeeld '10' als het minimumgewicht in.</span><span class="sxs-lookup"><span data-stu-id="e667f-137">For example, enter '10' as the minimum weight.</span></span>  
+12. <span data-ttu-id="e667f-138">Typ een getal in het veld Bedrag.</span><span class="sxs-lookup"><span data-stu-id="e667f-138">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="e667f-139">Voer bijvoorbeeld '200' als het minimumbedrag in.</span><span class="sxs-lookup"><span data-stu-id="e667f-139">For example, enter '200' as the minimum amount.</span></span>  
+13. <span data-ttu-id="e667f-140">Typ of selecteer een waarde in het veld Basisproduct.</span><span class="sxs-lookup"><span data-stu-id="e667f-140">In the Commodity field, enter or select a value.</span></span>
 
-## <a name="set-up-compression-of-intrastat"></a>Compressie van Intrastat instellen
-1. Ga naar Belasting > Instellingen > Buitenlandse handel > Compressie van Intrastat.
-2. Klik op Verwijderen.
-3. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer bijvoorbeeld Basisproduct in de sectie Beschikbaar.  
-4. Klik op Toevoegen.
+## <a name="set-up-compression-of-intrastat"></a><span data-ttu-id="e667f-141">Compressie van Intrastat instellen</span><span class="sxs-lookup"><span data-stu-id="e667f-141">Set up Compression of Intrastat</span></span>
+1. <span data-ttu-id="e667f-142">Ga naar Belasting > Instellingen > Buitenlandse handel > Compressie van Intrastat.</span><span class="sxs-lookup"><span data-stu-id="e667f-142">Go to Tax > Setup > Foreign trade > Compression of Intrastat.</span></span>
+2. <span data-ttu-id="e667f-143">Klik op Verwijderen.</span><span class="sxs-lookup"><span data-stu-id="e667f-143">Click Remove.</span></span>
+3. <span data-ttu-id="e667f-144">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="e667f-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e667f-145">Selecteer bijvoorbeeld Basisproduct in de sectie Beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="e667f-145">For example, select Commodity in the Available section.</span></span>  
+4. <span data-ttu-id="e667f-146">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="e667f-146">Click Add.</span></span>
 
-## <a name="generate-intrastat-declaration"></a>Intrastat-aangifte genereren
-1. Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat
-2. Klik op Valideren.
-    * De validatie wordt uitgevoerd op basis van het veld Instelling controleren op de pagina Parameters buitenlandse handel.  
-3. Klik op OK.
-4. Klik op Bijwerken.
-5. Klik op Ondergrens.
-6. Voer een datum in het veld Startdatum in.
-    * Voer bijvoorbeeld 1 januari 2015 in.  
-7. Selecteer Ja in het veld Comprimeren.
-8. Voer een datum in het veld Einddatum in.
-    * Voer bijvoorbeeld 31 januari 2015 in.  
-9. Klik op OK.
-10. Klik op Bijwerken.
-11. Klik op Comprimeren.
-    * Deze compressie vindt plaats volgens uw instellingen bij de Compressie van Intrastat.  
-12. Voer een datum in het veld Startdatum in.
-    * Voer bijvoorbeeld 1 januari 2015 in.  
-13. Voer een datum in het veld Einddatum in.
-    * Voer bijvoorbeeld 31 januari 2015 in.  
-14. Klik op OK.
-15. Klik op Bijwerken.
-16. Klik op Volgnummers opnieuw genereren.
-17. Klik op OK.
-18. Klik op Uitvoer.
-19. Klik op Rapport.
-20. Voer in het veld Vanaf de eerste datum van de aangifteperiode in.
-    * Stel de datum bijvoorbeeld op 1 januari 2015 in.  
-21. Voer een datum in het veld Einddatum in.
-    * Voer bijvoorbeeld 31 januari 2015 in.  
-22. Selecteer Ja in het veld Bestand maken.
-23. Typ een waarde in het veld Bestandsnaam.
-24. Selecteer Ja in het veld Rapport maken.
-25. Typ een waarde in het veld Bestandsnaam van rapport.
-26. Selecteer een optie in het veld Richting.
-    * Selecteer bijvoorbeeld 'Verzendingen'.  
-27. Klik op OK.
+## <a name="generate-intrastat-declaration"></a><span data-ttu-id="e667f-147">Intrastat-aangifte genereren</span><span class="sxs-lookup"><span data-stu-id="e667f-147">Generate Intrastat declaration</span></span>
+1. <span data-ttu-id="e667f-148">Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat</span><span class="sxs-lookup"><span data-stu-id="e667f-148">Go to Tax > Declarations > Foreign trade > Intrastat</span></span>
+2. <span data-ttu-id="e667f-149">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="e667f-149">Click Validate.</span></span>
+    * <span data-ttu-id="e667f-150">De validatie wordt uitgevoerd op basis van het veld Instelling controleren op de pagina Parameters buitenlandse handel.</span><span class="sxs-lookup"><span data-stu-id="e667f-150">The validation is done according to the Check setup field on the Foreign trade parameters page.</span></span>  
+3. <span data-ttu-id="e667f-151">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="e667f-151">Click OK.</span></span>
+4. <span data-ttu-id="e667f-152">Klik op Bijwerken.</span><span class="sxs-lookup"><span data-stu-id="e667f-152">Click Update.</span></span>
+5. <span data-ttu-id="e667f-153">Klik op Ondergrens.</span><span class="sxs-lookup"><span data-stu-id="e667f-153">Click Minimum limit.</span></span>
+6. <span data-ttu-id="e667f-154">Voer een datum in het veld Startdatum in.</span><span class="sxs-lookup"><span data-stu-id="e667f-154">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="e667f-155">Voer bijvoorbeeld 1 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="e667f-155">For example, enter January 1, 2015.</span></span>  
+7. <span data-ttu-id="e667f-156">Selecteer Ja in het veld Comprimeren.</span><span class="sxs-lookup"><span data-stu-id="e667f-156">Select Yes in the Compress field.</span></span>
+8. <span data-ttu-id="e667f-157">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="e667f-157">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="e667f-158">Voer bijvoorbeeld 31 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="e667f-158">For example, enter January 31, 2015.</span></span>  
+9. <span data-ttu-id="e667f-159">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="e667f-159">Click OK.</span></span>
+10. <span data-ttu-id="e667f-160">Klik op Bijwerken.</span><span class="sxs-lookup"><span data-stu-id="e667f-160">Click Update.</span></span>
+11. <span data-ttu-id="e667f-161">Klik op Comprimeren.</span><span class="sxs-lookup"><span data-stu-id="e667f-161">Click Compress.</span></span>
+    * <span data-ttu-id="e667f-162">Deze compressie vindt plaats volgens uw instellingen bij de Compressie van Intrastat.</span><span class="sxs-lookup"><span data-stu-id="e667f-162">This compression happens according to how you set the Compression of intrastate settings.</span></span>  
+12. <span data-ttu-id="e667f-163">Voer een datum in het veld Startdatum in.</span><span class="sxs-lookup"><span data-stu-id="e667f-163">In the Start date field, enter a date.</span></span>
+    * <span data-ttu-id="e667f-164">Voer bijvoorbeeld 1 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="e667f-164">For example, enter January 1, 2015.</span></span>  
+13. <span data-ttu-id="e667f-165">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="e667f-165">In the End date field, enter a date.</span></span>
+    * <span data-ttu-id="e667f-166">Voer bijvoorbeeld 31 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="e667f-166">For example, enter 31st January 2015.</span></span>  
+14. <span data-ttu-id="e667f-167">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="e667f-167">Click OK.</span></span>
+15. <span data-ttu-id="e667f-168">Klik op Bijwerken.</span><span class="sxs-lookup"><span data-stu-id="e667f-168">Click Update.</span></span>
+16. <span data-ttu-id="e667f-169">Klik op Volgnummers opnieuw genereren.</span><span class="sxs-lookup"><span data-stu-id="e667f-169">Click Regenerate sequence numbers.</span></span>
+17. <span data-ttu-id="e667f-170">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="e667f-170">Click OK.</span></span>
+18. <span data-ttu-id="e667f-171">Klik op Uitvoer.</span><span class="sxs-lookup"><span data-stu-id="e667f-171">Click Output.</span></span>
+19. <span data-ttu-id="e667f-172">Klik op Rapport.</span><span class="sxs-lookup"><span data-stu-id="e667f-172">Click Report.</span></span>
+20. <span data-ttu-id="e667f-173">Voer in het veld Vanaf de eerste datum van de aangifteperiode in.</span><span class="sxs-lookup"><span data-stu-id="e667f-173">In the From date field, enter the first date of the reporting period.</span></span>
+    * <span data-ttu-id="e667f-174">Stel de datum bijvoorbeeld op 1 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="e667f-174">For example, set the date to January 1, 2015.</span></span>  
+21. <span data-ttu-id="e667f-175">Voer een datum in het veld Einddatum in.</span><span class="sxs-lookup"><span data-stu-id="e667f-175">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="e667f-176">Voer bijvoorbeeld 31 januari 2015 in.</span><span class="sxs-lookup"><span data-stu-id="e667f-176">For example, enter January 31, 2015.</span></span>  
+22. <span data-ttu-id="e667f-177">Selecteer Ja in het veld Bestand maken.</span><span class="sxs-lookup"><span data-stu-id="e667f-177">Select Yes in the Generate file field.</span></span>
+23. <span data-ttu-id="e667f-178">Typ een waarde in het veld Bestandsnaam.</span><span class="sxs-lookup"><span data-stu-id="e667f-178">In the File name field, type a value.</span></span>
+24. <span data-ttu-id="e667f-179">Selecteer Ja in het veld Rapport maken.</span><span class="sxs-lookup"><span data-stu-id="e667f-179">Select Yes in the Generate report field.</span></span>
+25. <span data-ttu-id="e667f-180">Typ een waarde in het veld Bestandsnaam van rapport.</span><span class="sxs-lookup"><span data-stu-id="e667f-180">In the Report file name field, type a value.</span></span>
+26. <span data-ttu-id="e667f-181">Selecteer een optie in het veld Richting.</span><span class="sxs-lookup"><span data-stu-id="e667f-181">In the Direction field, select an option.</span></span>
+    * <span data-ttu-id="e667f-182">Selecteer bijvoorbeeld 'Verzendingen'.</span><span class="sxs-lookup"><span data-stu-id="e667f-182">For example, select 'Dispatches'.</span></span>  
+27. <span data-ttu-id="e667f-183">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="e667f-183">Click OK.</span></span>
 
 

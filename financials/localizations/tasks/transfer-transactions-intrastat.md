@@ -16,176 +16,176 @@ ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 54521c1d09b5680869f640dc52378a3e5c7d4d90
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: cc21497a6905cdb57bd687b7bff0d9dc810ba9eb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="transfer-transactions-to-the-intrastat"></a>Transacties overboeken naar Intrastat
+# <a name="transfer-transactions-to-the-intrastat"></a><span data-ttu-id="42d96-103">Transacties overboeken naar Intrastat</span><span class="sxs-lookup"><span data-stu-id="42d96-103">Transfer transactions to the Intrastat</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure begeleidt u bij het instellen van Intrastat-parameters en overboeken van transacties naar Intrastat. Deze procedure is gemaakt met het demobedrijf DEMF.
+<span data-ttu-id="42d96-104">Deze procedure begeleidt u bij het instellen van Intrastat-parameters en overboeken van transacties naar Intrastat.</span><span class="sxs-lookup"><span data-stu-id="42d96-104">This procedure walks you through how to set up Intrastat parameters and transfer transactions to Intrastat.</span></span> <span data-ttu-id="42d96-105">Deze procedure is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="42d96-105">This procedure was created using the demo data company DEMF.</span></span>
 
 
-## <a name="create-new-and-update-existing-commodity-code"></a>Nieuwe basisproductcodes maken en bestaande basisproductcodes bijwerken
-1. Ga naar Productgegevensbeheer > Instellingen > Categorieën en kenmerken > Categoriehiërarchieën.
-2. Zoek of selecteer in de lijst de record "Intrastat-basisproductcodes".
-3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Selecteer 'een record' in de structuur.
-    * Selecteer bijvoorbeeld 'Luidspreker van Intrastat'.  
-5. Klik op Bewerken.
-6. Vouw de sectie Buitenlandse handel uit.
-7. Typ of selecteer een waarde in het veld Extra eenheden.
-    * Kies bijvoorbeeld 'stuks'.  
-8. Selecteer Ja in het veld Gewicht niet van toepassing.
-9. Selecteer 'Intrastat' in de structuur.
-10. Klik op Nieuw categorieknooppunt.
-11. Voer de naam van het basisproduct in het veld Naam in.
-    * Typ bijvoorbeeld 'Ander basisproduct'.  
-12. Voer de basisproductcode in het veld Code in.
-    * Typ bijvoorbeeld '995 00 00'.  
-13. Typ een waarde in het veld Beschrijvende naam.
-    * Typ bijvoorbeeld 'Overige'.  
-14. Klik op Opslaan.
-15. Sluit de pagina.
+## <a name="create-new-and-update-existing-commodity-code"></a><span data-ttu-id="42d96-106">Nieuwe basisproductcodes maken en bestaande basisproductcodes bijwerken</span><span class="sxs-lookup"><span data-stu-id="42d96-106">Create new and update existing commodity code</span></span>
+1. <span data-ttu-id="42d96-107">Ga naar Productgegevensbeheer > Instellingen > Categorieën en kenmerken > Categoriehiërarchieën.</span><span class="sxs-lookup"><span data-stu-id="42d96-107">Go to Product information management > Setup > Categories and attributes > Category hierarchies.</span></span>
+2. <span data-ttu-id="42d96-108">Zoek of selecteer in de lijst de record "Intrastat-basisproductcodes".</span><span class="sxs-lookup"><span data-stu-id="42d96-108">In the list, find or select the record "Intrastat commodity codes."</span></span>
+3. <span data-ttu-id="42d96-109">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="42d96-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="42d96-110">Selecteer 'een record' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="42d96-110">In the tree, select 'a record'.</span></span>
+    * <span data-ttu-id="42d96-111">Selecteer bijvoorbeeld 'Luidspreker van Intrastat'.</span><span class="sxs-lookup"><span data-stu-id="42d96-111">For example, select 'Intrastat\Speaker'.</span></span>  
+5. <span data-ttu-id="42d96-112">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="42d96-112">Click Edit.</span></span>
+6. <span data-ttu-id="42d96-113">Vouw de sectie Buitenlandse handel uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-113">Expand the Foreign trade section.</span></span>
+7. <span data-ttu-id="42d96-114">Typ of selecteer een waarde in het veld Extra eenheden.</span><span class="sxs-lookup"><span data-stu-id="42d96-114">In the Additional units field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-115">Kies bijvoorbeeld 'stuks'.</span><span class="sxs-lookup"><span data-stu-id="42d96-115">For example, choose 'pcs'.</span></span>  
+8. <span data-ttu-id="42d96-116">Selecteer Ja in het veld Gewicht niet van toepassing.</span><span class="sxs-lookup"><span data-stu-id="42d96-116">Select Yes in the Weight not applicable field.</span></span>
+9. <span data-ttu-id="42d96-117">Selecteer 'Intrastat' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="42d96-117">In the tree, select 'Intrastat'.</span></span>
+10. <span data-ttu-id="42d96-118">Klik op Nieuw categorieknooppunt.</span><span class="sxs-lookup"><span data-stu-id="42d96-118">Click New category node.</span></span>
+11. <span data-ttu-id="42d96-119">Voer de naam van het basisproduct in het veld Naam in.</span><span class="sxs-lookup"><span data-stu-id="42d96-119">In the Name field, enter the name of commodity.</span></span>
+    * <span data-ttu-id="42d96-120">Typ bijvoorbeeld 'Ander basisproduct'.</span><span class="sxs-lookup"><span data-stu-id="42d96-120">For example, type 'Other commodity'.</span></span>  
+12. <span data-ttu-id="42d96-121">Voer de basisproductcode in het veld Code in.</span><span class="sxs-lookup"><span data-stu-id="42d96-121">In the Code field, enter the commodity code.</span></span>
+    * <span data-ttu-id="42d96-122">Typ bijvoorbeeld '995 00 00'.</span><span class="sxs-lookup"><span data-stu-id="42d96-122">For example, type '995 00 00'.</span></span>  
+13. <span data-ttu-id="42d96-123">Typ een waarde in het veld Beschrijvende naam.</span><span class="sxs-lookup"><span data-stu-id="42d96-123">In the Friendly name field, type a value.</span></span>
+    * <span data-ttu-id="42d96-124">Typ bijvoorbeeld 'Overige'.</span><span class="sxs-lookup"><span data-stu-id="42d96-124">For example, type 'Other'.</span></span>  
+14. <span data-ttu-id="42d96-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="42d96-125">Click Save.</span></span>
+15. <span data-ttu-id="42d96-126">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="42d96-126">Close the page.</span></span>
 
-## <a name="assign-commodity-code-to-product-hierarchy-and-released-product"></a>Basisproductcodes toewijzen aan producthiërarchie en vrijgegeven product
-1. Gebruik de snelfilter om records te zoeken. Filter bijvoorbeeld op het veld Naam met de waarde 'verkoop'.
-2. Klik in de lijst op de koppeling in de geselecteerde rij.
-3. Vouw 'een categorieknooppunt' in de structuur uit.
-    * Vouw bijvoorbeeld 'Verkoophiërarchie\Home audio' uit.  
-4. Selecteer 'de categorie om aan de basisproductcode toe te wijzen' in de structuur.
-    * Selecteer bijvoorbeeld 'Verkoophiërarchie\Home audio\Luidsprekers'.  
-5. Vouw de sectie Basisproductcodes uit.
-6. Klik op Toevoegen.
-7. Selecteer 'Intrastat' in het veld Hiërarchie selecteren.
-8. Zoek en selecteer de basisproductcode in de lijst.
-    * Selecteer bijvoorbeeld 'Luidspreker van 920 20 34'.  
-9. Klik op SelectCodes.
-10. Klik op OK.
-11. Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.
-12. Kies in de lijst het vrijgegeven product dat u aan de basisproductcode toewijst.
-    * Kies bijvoorbeeld 'D0001'.  
-13. Klik op Bewerken.
-14. Vouw de sectie Buitenlandse handel uit.
-15. Voer de basisproductcode in het veld Basisproduct in.
-    * Selecteer bijvoorbeeld de waarde 'Luidspreker 920 20 34'.    
-16. Voer een getal in het veld Percentage van toeslagen in.
-    * Voer bijvoorbeeld '3' in:  
-17. Typ of selecteer in het veld Land/regio een land of regio van herkomst
-    * Selecteer bijvoorbeeld 'AUT'.  
-18. Vouw de sectie Voorraad beheren uit.
-19. Voer een gewicht in kg in het veld Nettogewicht in.
-    * Voer bijvoorbeeld '2,5' in:  
-20. Klik op Opslaan.
+## <a name="assign-commodity-code-to-product-hierarchy-and-released-product"></a><span data-ttu-id="42d96-127">Basisproductcodes toewijzen aan producthiërarchie en vrijgegeven product</span><span class="sxs-lookup"><span data-stu-id="42d96-127">Assign commodity code to product hierarchy and released product</span></span>
+1. <span data-ttu-id="42d96-128">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="42d96-128">Use the Quick Filter to find records.</span></span> <span data-ttu-id="42d96-129">Filter bijvoorbeeld op het veld Naam met de waarde 'verkoop'.</span><span class="sxs-lookup"><span data-stu-id="42d96-129">For example, filter on the Name field with a value of 'sales'.</span></span>
+2. <span data-ttu-id="42d96-130">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="42d96-130">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="42d96-131">Vouw 'een categorieknooppunt' in de structuur uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-131">In the tree, expand 'a category node'.</span></span>
+    * <span data-ttu-id="42d96-132">Vouw bijvoorbeeld 'Verkoophiërarchie\Home audio' uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-132">For example, expand 'Sales hierarchy\Home audio'.</span></span>  
+4. <span data-ttu-id="42d96-133">Selecteer 'de categorie om aan de basisproductcode toe te wijzen' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="42d96-133">In the tree, select 'the category to assign to the commodity code'.</span></span>
+    * <span data-ttu-id="42d96-134">Selecteer bijvoorbeeld 'Verkoophiërarchie\Home audio\Luidsprekers'.</span><span class="sxs-lookup"><span data-stu-id="42d96-134">For example, select 'Sales hierarchy\Home audio\Speakers.</span></span>  
+5. <span data-ttu-id="42d96-135">Vouw de sectie Basisproductcodes uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-135">Expand the Commodity codes section.</span></span>
+6. <span data-ttu-id="42d96-136">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="42d96-136">Click Add.</span></span>
+7. <span data-ttu-id="42d96-137">Selecteer 'Intrastat' in het veld Hiërarchie selecteren.</span><span class="sxs-lookup"><span data-stu-id="42d96-137">In the Select hierarchy field, select 'Intrastat'.</span></span>
+8. <span data-ttu-id="42d96-138">Zoek en selecteer de basisproductcode in de lijst.</span><span class="sxs-lookup"><span data-stu-id="42d96-138">In the list, find and select the commodity code</span></span>
+    * <span data-ttu-id="42d96-139">Selecteer bijvoorbeeld 'Luidspreker van 920 20 34'.</span><span class="sxs-lookup"><span data-stu-id="42d96-139">For example, select '920 20 34 Speaker'.</span></span>  
+9. <span data-ttu-id="42d96-140">Klik op SelectCodes.</span><span class="sxs-lookup"><span data-stu-id="42d96-140">Click SelectCodes.</span></span>
+10. <span data-ttu-id="42d96-141">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-141">Click OK.</span></span>
+11. <span data-ttu-id="42d96-142">Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="42d96-142">Go to Product information management > Products > Released products.</span></span>
+12. <span data-ttu-id="42d96-143">Kies in de lijst het vrijgegeven product dat u aan de basisproductcode toewijst.</span><span class="sxs-lookup"><span data-stu-id="42d96-143">In the list, choose the released product that you will assign to the commodity code.</span></span>
+    * <span data-ttu-id="42d96-144">Kies bijvoorbeeld 'D0001'.</span><span class="sxs-lookup"><span data-stu-id="42d96-144">For example, choose 'D0001'.</span></span>  
+13. <span data-ttu-id="42d96-145">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="42d96-145">Click Edit.</span></span>
+14. <span data-ttu-id="42d96-146">Vouw de sectie Buitenlandse handel uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-146">Expand the Foreign trade section.</span></span>
+15. <span data-ttu-id="42d96-147">Voer de basisproductcode in het veld Basisproduct in.</span><span class="sxs-lookup"><span data-stu-id="42d96-147">In the Commodity field, enter the commodity code</span></span>
+    * <span data-ttu-id="42d96-148">Selecteer bijvoorbeeld de waarde 'Luidspreker 920 20 34'.</span><span class="sxs-lookup"><span data-stu-id="42d96-148">For example, select value '920 20 34 Speaker'.</span></span>    
+16. <span data-ttu-id="42d96-149">Voer een getal in het veld Percentage van toeslagen in.</span><span class="sxs-lookup"><span data-stu-id="42d96-149">In the Charges percentage field, enter a number.</span></span>
+    * <span data-ttu-id="42d96-150">Voer bijvoorbeeld '3' in:</span><span class="sxs-lookup"><span data-stu-id="42d96-150">For example, enter '3'.</span></span>  
+17. <span data-ttu-id="42d96-151">Typ of selecteer in het veld Land/regio een land of regio van herkomst</span><span class="sxs-lookup"><span data-stu-id="42d96-151">In the Country/region field, enter or select a country or region of origin</span></span>
+    * <span data-ttu-id="42d96-152">Selecteer bijvoorbeeld 'AUT'.</span><span class="sxs-lookup"><span data-stu-id="42d96-152">For example, select 'AUT'.</span></span>  
+18. <span data-ttu-id="42d96-153">Vouw de sectie Voorraad beheren uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-153">Expand the Manage inventory section.</span></span>
+19. <span data-ttu-id="42d96-154">Voer een gewicht in kg in het veld Nettogewicht in.</span><span class="sxs-lookup"><span data-stu-id="42d96-154">In the Net weight field, enter a weight in kg.</span></span>
+    * <span data-ttu-id="42d96-155">Voer bijvoorbeeld '2,5' in:</span><span class="sxs-lookup"><span data-stu-id="42d96-155">For example, enter '2.5'.</span></span>  
+20. <span data-ttu-id="42d96-156">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="42d96-156">Click Save.</span></span>
 
-## <a name="set-up-intrastat-transaction-codes-and-foreign-trade-parameters"></a>Intrastat-transactiecodes en parameters voor buitenlandse handel instellen
-1. Ga naar Belasting > Instellingen > Buitenlandse handel > Transactiecodes
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Transactiecode.
-    * Voer bijvoorbeeld '21' in voor de transactiecode die is gebruikt als retour.  
-4. Typ de naam van de transactiecode in het veld Naam.
-    * Voer bijvoorbeeld 'Retour' in.  
-5. Selecteer een optie in het veld Statistisch bedrag.
-    * Selecteer bijvoorbeeld 'Leeg' waarmee wordt aangegeven dat de statistische waarde die voor transacties met transactiecode "21" moet worden gerapporteerd, altijd nul is.  
-6. Ga naar Belasting > Instellingen > Buitenlandse handel > Parameters buitenlandse handel
-7. Typ of selecteer een waarde in het veld Transactiecode.
-    * Selecteer bijvoorbeeld '11'.  
-8. Typ of selecteer een waarde in het veld Creditnota.
-    * Met deze waarde wordt ook de fysieke retour geïdentificeerd. De creditnota voor de fysieke retour wordt in het Intrastat-journaal in tegengestelde richting overgeboekt. De retour van aankomst wordt bijvoorbeeld overgeboekt als verzending.   Anders wordt de creditnota als een correctie beschouwd en wordt deze in dezelfde richting en met het tegengesteld teken overgeboekt. De correctie van aankomst wordt overgeboekt als een aankomst met negatief bedrag en de actieve markering wordt ingesteld op "Correctie".  
-9. Vouw de sectie Overboeken uit.
-10. Selecteer Ja in het veld Artikelen met basisproductcode.
-    * Selecteer deze optie om alleen de transacties met een toegewezen basisproductcode over te boeken. Transacties zonder een basisproductcode worden niet overgeboekt naar Intrastat.  
-11. Selecteer een optie in het veld Overboeken bij overeenkomst met criterium voor.
-    * Selecteer bijvoorbeeld 'Een van de geselecteerde elementen'.  
-12. Vouw de sectie Hiërarchie van basisproductcodes uit.
-13. Klik op het tabblad Land-/regio-eigenschappen.
-14. Klik op Nieuw.
-15. Typ of selecteer een waarde in het veld Land/regio.
-    * Selecteer bijvoorbeeld de waarde 'FRA'.  
-16. Voer in het veld Intrastat-code de ISO-code voor het land in.
-    * Typ bijvoorbeeld 'FR'.  
-17. Selecteer 'EU' in het veld Land-/regiotype.
-18. Klik op het tabblad Nummerreeksen.
+## <a name="set-up-intrastat-transaction-codes-and-foreign-trade-parameters"></a><span data-ttu-id="42d96-157">Intrastat-transactiecodes en parameters voor buitenlandse handel instellen</span><span class="sxs-lookup"><span data-stu-id="42d96-157">Set up Intrastat transaction codes and foreign trade parameters</span></span>
+1. <span data-ttu-id="42d96-158">Ga naar Belasting > Instellingen > Buitenlandse handel > Transactiecodes</span><span class="sxs-lookup"><span data-stu-id="42d96-158">Go to Tax > Setup > Foreign trade > Transaction codes</span></span>
+2. <span data-ttu-id="42d96-159">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="42d96-159">Click New.</span></span>
+3. <span data-ttu-id="42d96-160">Typ een waarde in het veld Transactiecode.</span><span class="sxs-lookup"><span data-stu-id="42d96-160">In the Transaction code field, type a value.</span></span>
+    * <span data-ttu-id="42d96-161">Voer bijvoorbeeld '21' in voor de transactiecode die is gebruikt als retour.</span><span class="sxs-lookup"><span data-stu-id="42d96-161">For example, enter '21' for the transaction code used as return.</span></span>  
+4. <span data-ttu-id="42d96-162">Typ de naam van de transactiecode in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="42d96-162">In the Name field, type the name of transaction code.</span></span>
+    * <span data-ttu-id="42d96-163">Voer bijvoorbeeld 'Retour' in.</span><span class="sxs-lookup"><span data-stu-id="42d96-163">For example, enter 'Return'.</span></span>  
+5. <span data-ttu-id="42d96-164">Selecteer een optie in het veld Statistisch bedrag.</span><span class="sxs-lookup"><span data-stu-id="42d96-164">In the Statistical amount field, select an option.</span></span>
+    * <span data-ttu-id="42d96-165">Selecteer bijvoorbeeld 'Leeg' waarmee wordt aangegeven dat de statistische waarde die voor transacties met transactiecode "21" moet worden gerapporteerd, altijd nul is.</span><span class="sxs-lookup"><span data-stu-id="42d96-165">For example, select 'Empty' which indicates that the Statistical value to be reported for transactions with Transaction code of "21" will always be zero.</span></span>  
+6. <span data-ttu-id="42d96-166">Ga naar Belasting > Instellingen > Buitenlandse handel > Parameters buitenlandse handel</span><span class="sxs-lookup"><span data-stu-id="42d96-166">Go to Tax > Setup > Foreign trade > Foreign trade parameters</span></span>
+7. <span data-ttu-id="42d96-167">Typ of selecteer een waarde in het veld Transactiecode.</span><span class="sxs-lookup"><span data-stu-id="42d96-167">In the Transaction code field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-168">Selecteer bijvoorbeeld '11'.</span><span class="sxs-lookup"><span data-stu-id="42d96-168">For example, select '11'.</span></span>  
+8. <span data-ttu-id="42d96-169">Typ of selecteer een waarde in het veld Creditnota.</span><span class="sxs-lookup"><span data-stu-id="42d96-169">In the Credit note field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-170">Met deze waarde wordt ook de fysieke retour geïdentificeerd.</span><span class="sxs-lookup"><span data-stu-id="42d96-170">This value also identifies the physical return.</span></span> <span data-ttu-id="42d96-171">De creditnota voor de fysieke retour wordt in het Intrastat-journaal in tegengestelde richting overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="42d96-171">The credit note for the physical return will be transferred in the Intrastat journal with opposite direction.</span></span> <span data-ttu-id="42d96-172">De retour van aankomst wordt bijvoorbeeld overgeboekt als verzending.</span><span class="sxs-lookup"><span data-stu-id="42d96-172">For example, the return of arrival is transferred as dispatch.</span></span>   <span data-ttu-id="42d96-173">Anders wordt de creditnota als een correctie beschouwd en wordt deze in dezelfde richting en met het tegengesteld teken overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="42d96-173">Otherwise, the credit note is considered a correction and is transferred with the same direction and opposite sign.</span></span> <span data-ttu-id="42d96-174">De correctie van aankomst wordt overgeboekt als een aankomst met negatief bedrag en de actieve markering wordt ingesteld op "Correctie".</span><span class="sxs-lookup"><span data-stu-id="42d96-174">For example, the correction of arrival is transferred as an arrival with negative amount and the active flag is set to "Correction".</span></span>  
+9. <span data-ttu-id="42d96-175">Vouw de sectie Overboeken uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-175">Expand the Transfer section.</span></span>
+10. <span data-ttu-id="42d96-176">Selecteer Ja in het veld Artikelen met basisproductcode.</span><span class="sxs-lookup"><span data-stu-id="42d96-176">Select Yes in the Items with commodity code field.</span></span>
+    * <span data-ttu-id="42d96-177">Selecteer deze optie om alleen de transacties met een toegewezen basisproductcode over te boeken.</span><span class="sxs-lookup"><span data-stu-id="42d96-177">Select this option to transfer only the transactions with a commodity code assigned.</span></span> <span data-ttu-id="42d96-178">Transacties zonder een basisproductcode worden niet overgeboekt naar Intrastat.</span><span class="sxs-lookup"><span data-stu-id="42d96-178">Transactions without a commodity code won't be transferred to Intrastat.</span></span>  
+11. <span data-ttu-id="42d96-179">Selecteer een optie in het veld Overboeken bij overeenkomst met criterium voor.</span><span class="sxs-lookup"><span data-stu-id="42d96-179">In the Transfer when meeting criterion for field, select an option.</span></span>
+    * <span data-ttu-id="42d96-180">Selecteer bijvoorbeeld 'Een van de geselecteerde elementen'.</span><span class="sxs-lookup"><span data-stu-id="42d96-180">For example, select 'One of the selected'.</span></span>  
+12. <span data-ttu-id="42d96-181">Vouw de sectie Hiërarchie van basisproductcodes uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-181">Expand the Commodity code hierarchy section.</span></span>
+13. <span data-ttu-id="42d96-182">Klik op het tabblad Land-/regio-eigenschappen.</span><span class="sxs-lookup"><span data-stu-id="42d96-182">Click the Country/region properties tab.</span></span>
+14. <span data-ttu-id="42d96-183">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="42d96-183">Click New.</span></span>
+15. <span data-ttu-id="42d96-184">Typ of selecteer een waarde in het veld Land/regio.</span><span class="sxs-lookup"><span data-stu-id="42d96-184">In the Country/region field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-185">Selecteer bijvoorbeeld de waarde 'FRA'.</span><span class="sxs-lookup"><span data-stu-id="42d96-185">For example, select the value 'FRA'.</span></span>  
+16. <span data-ttu-id="42d96-186">Voer in het veld Intrastat-code de ISO-code voor het land in.</span><span class="sxs-lookup"><span data-stu-id="42d96-186">In the Intrastat code field, enter the ISO code for the country.</span></span>
+    * <span data-ttu-id="42d96-187">Typ bijvoorbeeld 'FR'.</span><span class="sxs-lookup"><span data-stu-id="42d96-187">For example, type 'FR'.</span></span>  
+17. <span data-ttu-id="42d96-188">Selecteer 'EU' in het veld Land-/regiotype.</span><span class="sxs-lookup"><span data-stu-id="42d96-188">In the Country/region type field, select 'EU'.</span></span>
+18. <span data-ttu-id="42d96-189">Klik op het tabblad Nummerreeksen.</span><span class="sxs-lookup"><span data-stu-id="42d96-189">Click the Number sequences tab.</span></span>
 
-## <a name="set-up-modes-of-delivery-and-rules-for-including-charges-in-intrastat"></a>Leveringsmethoden en regels instellen voor opname van toeslagen in Intrastat
-1. Ga naar Verkoop en marketing > Instellingen > Distributie > Leveringsmethoden
-2. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer bijvoorbeeld '20 Air'.  
-3. Vouw de sectie Buitenlandse handel uit.
-4. Klik op Bewerken.
-5. Typ of selecteer een waarde in het veld Transport.
-    * Selecteer bijvoorbeeld '02'.  
-6. Ga naar Klanten > Instelling van toeslagen > Toeslagcode.
-7. Gebruik de snelfilter om records te zoeken. Filter bijvoorbeeld op het veld Toeslagcode met de waarde 'vracht'.
-8. Vouw de sectie Buitenlandse handel uit.
-9. Klik op Bewerken.
-10. Selecteer Ja in het veld Intrastat-factuurwaarde.
-    * Het bedrag wordt overgeboekt naar het veld Factuurtoeslagen en wordt samengevat met het bedrag dat in het veld Factuurbedrag is overgeboekt.    Selecteer Ja in het veld Statistische Intrastat-waarde als het bedrag van wijzigingen naar het veld Statistische toeslagen moet worden overgeboekt en samengevat met het statistische bedrag.  
+## <a name="set-up-modes-of-delivery-and-rules-for-including-charges-in-intrastat"></a><span data-ttu-id="42d96-190">Leveringsmethoden en regels instellen voor opname van toeslagen in Intrastat</span><span class="sxs-lookup"><span data-stu-id="42d96-190">Set up Modes of delivery and rules for including charges in Intrastat</span></span>
+1. <span data-ttu-id="42d96-191">Ga naar Verkoop en marketing > Instellingen > Distributie > Leveringsmethoden</span><span class="sxs-lookup"><span data-stu-id="42d96-191">Go to Sales and marketing > Setup > Distribution > Modes of delivery</span></span>
+2. <span data-ttu-id="42d96-192">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="42d96-192">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="42d96-193">Selecteer bijvoorbeeld '20 Air'.</span><span class="sxs-lookup"><span data-stu-id="42d96-193">For example, select '20 Air'.</span></span>  
+3. <span data-ttu-id="42d96-194">Vouw de sectie Buitenlandse handel uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-194">Expand the Foreign trade section.</span></span>
+4. <span data-ttu-id="42d96-195">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="42d96-195">Click Edit.</span></span>
+5. <span data-ttu-id="42d96-196">Typ of selecteer een waarde in het veld Transport.</span><span class="sxs-lookup"><span data-stu-id="42d96-196">In the Transport field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-197">Selecteer bijvoorbeeld '02'.</span><span class="sxs-lookup"><span data-stu-id="42d96-197">For example, select '02'.</span></span>  
+6. <span data-ttu-id="42d96-198">Ga naar Klanten > Instelling van toeslagen > Toeslagcode.</span><span class="sxs-lookup"><span data-stu-id="42d96-198">Go to Accounts receivable > Charges setup > Charges code.</span></span>
+7. <span data-ttu-id="42d96-199">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="42d96-199">Use the Quick Filter to find records.</span></span> <span data-ttu-id="42d96-200">Filter bijvoorbeeld op het veld Toeslagcode met de waarde 'vracht'.</span><span class="sxs-lookup"><span data-stu-id="42d96-200">For example, filter on the Charges code field with a value of 'freight'.</span></span>
+8. <span data-ttu-id="42d96-201">Vouw de sectie Buitenlandse handel uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-201">Expand the Foreign trade section.</span></span>
+9. <span data-ttu-id="42d96-202">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="42d96-202">Click Edit.</span></span>
+10. <span data-ttu-id="42d96-203">Selecteer Ja in het veld Intrastat-factuurwaarde.</span><span class="sxs-lookup"><span data-stu-id="42d96-203">Select Yes in the Intrastat invoice value field.</span></span>
+    * <span data-ttu-id="42d96-204">Het bedrag wordt overgeboekt naar het veld Factuurtoeslagen en wordt samengevat met het bedrag dat in het veld Factuurbedrag is overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="42d96-204">The amount will be transferred to the  Invoice charges field and will be summarized with the amount transferred in the Invoice amount field.</span></span>    <span data-ttu-id="42d96-205">Selecteer Ja in het veld Statistische Intrastat-waarde als het bedrag van wijzigingen naar het veld Statistische toeslagen moet worden overgeboekt en samengevat met het statistische bedrag.</span><span class="sxs-lookup"><span data-stu-id="42d96-205">Select Yes in the Intrastat statistical value field if the amount of changes need to be transferred to the field Statistical charges and summarized with Statistical amount.</span></span>  
 
-## <a name="sell-products-for-eu-customers"></a>Producten verkopen voor klanten in de EU
-1. Ga naar Klanten > Orders > Alle verkooporders.
-2. Klik op Nieuw.
-3. Selecteer een EU-klant in het veld Klantrekening.
-    * Selecteer bijvoorbeeld "DE-012 Litware Retail".  
-4. Vouw de sectie Levering uit.
-5. Typ of selecteer een waarde in het veld Leveringsmethode.
-    * Selecteer bijvoorbeeld '20 Air'.  
-6. Klik op OK.
-7. Plaats de cursor op de eerste rij van verkooporderregels.
-8. Typ of selecteer een waarde in het veld Artikelnummer.
-    * Selecteer bijvoorbeeld D001.  
-9. Vouw de sectie Regeldetails uit.
-10. Klik op het tabblad Buitenlandse handel.
-    * Het transport wordt automatisch ingevuld op basis van de gekozen leveringsmethode.  
-11. Typ of selecteer een waarde in het veld Haven.
-12. Klik op Financiële items.
-    * Op basis van de instellingen wordt dit bedrag opgenomen in de Intrastat-factuurwaarde.  
-13. Klik op Toeslagen onderhouden.
-14. Typ of selecteer een waarde in het veld Toeslagcode.
-    * Selecteer bijvoorbeeld 'VRACHT'.  
-15. Schakel het selectievakje Behouden in.
-16. Voer een nummer in het veld Waarde van toeslagen in.
-    * Voer bijvoorbeeld 10 in:  
-17. Klik op Opslaan.
-18. Sluit de pagina.
-19. Klik in het actievenster op Factuur.
-20. Klik op Factuur.
-21. Vouw de sectie Parameters uit.
-22. Selecteer in het veld Hoeveelheid de optie 'Alle'.
-23. Vouw de sectie Instellingen uit.
-24. Voer een datum in het veld Factuurdatum in.
-    * Voer bijvoorbeeld '2015-01-31' in.  
-25. Klik op OK.
-26. Klik op OK.
-27. Sluit de pagina.
-28. Klik op Nieuw.
-29. Selecteer een EU-klant in het veld Klantrekening.
-    * Selecteer bijvoorbeeld 'DE-013 Trey Wholesales'  
-30. Klik op OK.
-31. Typ of selecteer een waarde in het veld Artikelnummer.
-    * Selecteer bijvoorbeeld 'D0001'.  
-32. Klik op Opslaan.
-33. Klik op Factuur.
-34. Voer een datum in het veld Factuurdatum in.
-    * Typ of selecteer bijvoorbeeld de datum '31-01-2015'.  
-35. Klik op OK.
-36. Klik op OK.
+## <a name="sell-products-for-eu-customers"></a><span data-ttu-id="42d96-206">Producten verkopen voor klanten in de EU</span><span class="sxs-lookup"><span data-stu-id="42d96-206">Sell products for EU customers</span></span>
+1. <span data-ttu-id="42d96-207">Ga naar Klanten > Orders > Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="42d96-207">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="42d96-208">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="42d96-208">Click New.</span></span>
+3. <span data-ttu-id="42d96-209">Selecteer een EU-klant in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="42d96-209">In the Customer account field, select an EU customer</span></span>
+    * <span data-ttu-id="42d96-210">Selecteer bijvoorbeeld "DE-012 Litware Retail".</span><span class="sxs-lookup"><span data-stu-id="42d96-210">For example, select "DE-012 Litware Retail".</span></span>  
+4. <span data-ttu-id="42d96-211">Vouw de sectie Levering uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-211">Expand the Delivery section.</span></span>
+5. <span data-ttu-id="42d96-212">Typ of selecteer een waarde in het veld Leveringsmethode.</span><span class="sxs-lookup"><span data-stu-id="42d96-212">In the Mode of delivery field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-213">Selecteer bijvoorbeeld '20 Air'.</span><span class="sxs-lookup"><span data-stu-id="42d96-213">For example, select '20 Air'.</span></span>  
+6. <span data-ttu-id="42d96-214">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-214">Click OK.</span></span>
+7. <span data-ttu-id="42d96-215">Plaats de cursor op de eerste rij van verkooporderregels.</span><span class="sxs-lookup"><span data-stu-id="42d96-215">Place the cursor on the first row of sales order lines.</span></span>
+8. <span data-ttu-id="42d96-216">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="42d96-216">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-217">Selecteer bijvoorbeeld D001.</span><span class="sxs-lookup"><span data-stu-id="42d96-217">For example, select 'D001'.</span></span>  
+9. <span data-ttu-id="42d96-218">Vouw de sectie Regeldetails uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-218">Expand the Line details section.</span></span>
+10. <span data-ttu-id="42d96-219">Klik op het tabblad Buitenlandse handel.</span><span class="sxs-lookup"><span data-stu-id="42d96-219">Click the Foreign trade tab.</span></span>
+    * <span data-ttu-id="42d96-220">Het transport wordt automatisch ingevuld op basis van de gekozen leveringsmethode.</span><span class="sxs-lookup"><span data-stu-id="42d96-220">The transport is filled automatically from the chosen Mode of delivery.</span></span>  
+11. <span data-ttu-id="42d96-221">Typ of selecteer een waarde in het veld Haven.</span><span class="sxs-lookup"><span data-stu-id="42d96-221">In the Port field, enter or select a value.</span></span>
+12. <span data-ttu-id="42d96-222">Klik op Financiële items.</span><span class="sxs-lookup"><span data-stu-id="42d96-222">Click Financials.</span></span>
+    * <span data-ttu-id="42d96-223">Op basis van de instellingen wordt dit bedrag opgenomen in de Intrastat-factuurwaarde.</span><span class="sxs-lookup"><span data-stu-id="42d96-223">As per the settings, this amount will be included in Intrastat invoice value.</span></span>  
+13. <span data-ttu-id="42d96-224">Klik op Toeslagen onderhouden.</span><span class="sxs-lookup"><span data-stu-id="42d96-224">Click Maintain charges.</span></span>
+14. <span data-ttu-id="42d96-225">Typ of selecteer een waarde in het veld Toeslagcode.</span><span class="sxs-lookup"><span data-stu-id="42d96-225">In the Charges code field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-226">Selecteer bijvoorbeeld 'VRACHT'.</span><span class="sxs-lookup"><span data-stu-id="42d96-226">For example, select 'FREIGHT'.</span></span>  
+15. <span data-ttu-id="42d96-227">Schakel het selectievakje Behouden in.</span><span class="sxs-lookup"><span data-stu-id="42d96-227">Select the Keep check box.</span></span>
+16. <span data-ttu-id="42d96-228">Voer een nummer in het veld Waarde van toeslagen in.</span><span class="sxs-lookup"><span data-stu-id="42d96-228">In the Charges value field, enter a number.</span></span>
+    * <span data-ttu-id="42d96-229">Voer bijvoorbeeld 10 in:</span><span class="sxs-lookup"><span data-stu-id="42d96-229">For example, enter '10'.</span></span>  
+17. <span data-ttu-id="42d96-230">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="42d96-230">Click Save.</span></span>
+18. <span data-ttu-id="42d96-231">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="42d96-231">Close the page.</span></span>
+19. <span data-ttu-id="42d96-232">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="42d96-232">On the Action Pane, click Invoice.</span></span>
+20. <span data-ttu-id="42d96-233">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="42d96-233">Click Invoice.</span></span>
+21. <span data-ttu-id="42d96-234">Vouw de sectie Parameters uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-234">Expand the Parameters section.</span></span>
+22. <span data-ttu-id="42d96-235">Selecteer in het veld Hoeveelheid de optie 'Alle'.</span><span class="sxs-lookup"><span data-stu-id="42d96-235">In the Quantity field, select 'All'.</span></span>
+23. <span data-ttu-id="42d96-236">Vouw de sectie Instellingen uit.</span><span class="sxs-lookup"><span data-stu-id="42d96-236">Expand the Setup section.</span></span>
+24. <span data-ttu-id="42d96-237">Voer een datum in het veld Factuurdatum in.</span><span class="sxs-lookup"><span data-stu-id="42d96-237">In the Invoice date field, enter a date.</span></span>
+    * <span data-ttu-id="42d96-238">Voer bijvoorbeeld '2015-01-31' in.</span><span class="sxs-lookup"><span data-stu-id="42d96-238">For example, enter '2015-01-31'.</span></span>  
+25. <span data-ttu-id="42d96-239">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-239">Click OK.</span></span>
+26. <span data-ttu-id="42d96-240">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-240">Click OK.</span></span>
+27. <span data-ttu-id="42d96-241">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="42d96-241">Close the page.</span></span>
+28. <span data-ttu-id="42d96-242">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="42d96-242">Click New.</span></span>
+29. <span data-ttu-id="42d96-243">Selecteer een EU-klant in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="42d96-243">In the Customer account field, select an EU customer.</span></span>
+    * <span data-ttu-id="42d96-244">Selecteer bijvoorbeeld 'DE-013 Trey Wholesales'</span><span class="sxs-lookup"><span data-stu-id="42d96-244">For example, select 'DE-013 Trey Wholesales'</span></span>  
+30. <span data-ttu-id="42d96-245">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-245">Click OK.</span></span>
+31. <span data-ttu-id="42d96-246">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="42d96-246">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="42d96-247">Selecteer bijvoorbeeld 'D0001'.</span><span class="sxs-lookup"><span data-stu-id="42d96-247">For example, select 'D0001'.</span></span>  
+32. <span data-ttu-id="42d96-248">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="42d96-248">Click Save.</span></span>
+33. <span data-ttu-id="42d96-249">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="42d96-249">Click Invoice.</span></span>
+34. <span data-ttu-id="42d96-250">Voer een datum in het veld Factuurdatum in.</span><span class="sxs-lookup"><span data-stu-id="42d96-250">In the Invoice date field, enter a date.</span></span>
+    * <span data-ttu-id="42d96-251">Typ of selecteer bijvoorbeeld de datum '31-01-2015'.</span><span class="sxs-lookup"><span data-stu-id="42d96-251">For example, enter the date '2015-01-31'.</span></span>  
+35. <span data-ttu-id="42d96-252">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-252">Click OK.</span></span>
+36. <span data-ttu-id="42d96-253">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-253">Click OK.</span></span>
 
-## <a name="transfer-transactions-to-the-intrastat"></a>Transacties overboeken naar Intrastat
-1. Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat.
-2. Klik op Overbrengen.
-3. Selecteer Ja in het veld Klantfactuur.
-4. Klik op Filter.
-5. Markeer in de lijst de rij met Datum.
-6. Typ een waarde in het veld Criteria.
-    * Voer bijvoorbeeld het filter voor de periode januari 2015 in (de exacte waarde is afhankelijk van uw datumnotatie): 1-1-2015..31-1-2015  
-7. Klik op OK.
-8. Klik op OK.
-9. Zoek en selecteer de overgeboekte record in de lijst.
-10. Klik op het tabblad Algemeen.
-    * Controleer de overgeboekte gegevens, waaronder land/regio van bestemming/verzending, land van oorsprong, gewicht, hoeveelheid, hoeveelheid in extra eenheden, basisproduct, transactiecode, factuurbedragen en statistische bedragen.   U kunt gegevens indien nodig wijzigen.  
+## <a name="transfer-transactions-to-the-intrastat"></a><span data-ttu-id="42d96-254">Transacties overboeken naar Intrastat</span><span class="sxs-lookup"><span data-stu-id="42d96-254">Transfer transactions to the Intrastat</span></span>
+1. <span data-ttu-id="42d96-255">Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="42d96-255">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+2. <span data-ttu-id="42d96-256">Klik op Overbrengen.</span><span class="sxs-lookup"><span data-stu-id="42d96-256">Click Transfer.</span></span>
+3. <span data-ttu-id="42d96-257">Selecteer Ja in het veld Klantfactuur.</span><span class="sxs-lookup"><span data-stu-id="42d96-257">Select Yes in the Customer invoice field.</span></span>
+4. <span data-ttu-id="42d96-258">Klik op Filter.</span><span class="sxs-lookup"><span data-stu-id="42d96-258">Click Filter.</span></span>
+5. <span data-ttu-id="42d96-259">Markeer in de lijst de rij met Datum.</span><span class="sxs-lookup"><span data-stu-id="42d96-259">In the list, mark the row with Date</span></span>
+6. <span data-ttu-id="42d96-260">Typ een waarde in het veld Criteria.</span><span class="sxs-lookup"><span data-stu-id="42d96-260">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="42d96-261">Voer bijvoorbeeld het filter voor de periode januari 2015 in (de exacte waarde is afhankelijk van uw datumnotatie): 1-1-2015..31-1-2015</span><span class="sxs-lookup"><span data-stu-id="42d96-261">For example, enter the filter for the period January 2015 (the exact value depends on your date format): 1/1/2015..1/31/2015</span></span>  
+7. <span data-ttu-id="42d96-262">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-262">Click OK.</span></span>
+8. <span data-ttu-id="42d96-263">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="42d96-263">Click OK.</span></span>
+9. <span data-ttu-id="42d96-264">Zoek en selecteer de overgeboekte record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="42d96-264">In the list, find and selected the transferred record.</span></span>
+10. <span data-ttu-id="42d96-265">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="42d96-265">Click the General tab.</span></span>
+    * <span data-ttu-id="42d96-266">Controleer de overgeboekte gegevens, waaronder land/regio van bestemming/verzending, land van oorsprong, gewicht, hoeveelheid, hoeveelheid in extra eenheden, basisproduct, transactiecode, factuurbedragen en statistische bedragen.</span><span class="sxs-lookup"><span data-stu-id="42d96-266">Review transferred data, including country\region of destination/dispatch, country of origin, weight, quantity, quantity in additional units, commodity, transaction code, invoice amounts and statistical amounts.</span></span>   <span data-ttu-id="42d96-267">U kunt gegevens indien nodig wijzigen.</span><span class="sxs-lookup"><span data-stu-id="42d96-267">You can modify data if necessary.</span></span>  
 
 

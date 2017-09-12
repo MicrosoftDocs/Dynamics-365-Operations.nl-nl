@@ -16,34 +16,34 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 25a781206dc82f32693e9fec4ff034e50867f43a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a1d5d47e5e05680b8a622bb3a45c2113236a1197
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-leave-of-absence"></a>Verlof beheren
+# <a name="manage-leave-of-absence"></a><span data-ttu-id="c3b76-103">Verlof beheren</span><span class="sxs-lookup"><span data-stu-id="c3b76-103">Manage leave of absence</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure doorloopt het maken van de records van het werknemerverlof. U kunt verloftijd bijhouden voor bijvoorbeeld medische, opleidings- of ouderlijke activiteiten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+<span data-ttu-id="c3b76-104">Deze procedure doorloopt het maken van de records van het werknemerverlof.</span><span class="sxs-lookup"><span data-stu-id="c3b76-104">This procedure walks through the creation of employee leave records.</span></span> <span data-ttu-id="c3b76-105">U kunt verloftijd bijhouden voor bijvoorbeeld medische, opleidings- of ouderlijke activiteiten.</span><span class="sxs-lookup"><span data-stu-id="c3b76-105">You can track leave time for reasons that include medical, educational, or parental activities.</span></span> <span data-ttu-id="c3b76-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="c3b76-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Ga naar Human resources > Medewerkers > Werknemers.
-2. Selecteer een werknemer in de lijst.
-3. Geef gedetailleerde informatie voor de geselecteerde werknemer weer door de naam van de werknemer te selecteren.
-4. Klik op het tabblad Aanstelling.
-5. Klik op Verlof.
-6. Klik op Nieuw.
-7. Klik in het veld Verloftype op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * U kunt een verloftype aan een inkomstencode in het formulier Verloftypen koppelen. Als het verloftype is gekoppeld aan een inkomstencode, wordt een inkomstenregel gegenereerd met de gekoppelde inkomstencode tijdens de verlofperiode die u invoert.  
-8. Selecteer een type verlof in de lijst. 
-    * Bijvoorbeeld: Adoptie  
-9. Voer de begindatum van het verlof in. Bijvoorbeeld: 26-10-2015
-    * Bijvoorbeeld: 26-10-2015  
-10. Voer de begindatum van het verlof in. 
-    * Bijvoorbeeld: 20-11-2015  
-11. Voer in het veld Opmerking een omschrijving in.
-    * Bijvoorbeeld: Verlof voor adoptie  
-12. Klik op Opslaan.
+1. <span data-ttu-id="c3b76-107">Ga naar Human resources > Medewerkers > Werknemers.</span><span class="sxs-lookup"><span data-stu-id="c3b76-107">Go to Human resources > Workers > Employees.</span></span>
+2. <span data-ttu-id="c3b76-108">Selecteer een werknemer in de lijst.</span><span class="sxs-lookup"><span data-stu-id="c3b76-108">In the list, select an employee.</span></span>
+3. <span data-ttu-id="c3b76-109">Geef gedetailleerde informatie voor de geselecteerde werknemer weer door de naam van de werknemer te selecteren.</span><span class="sxs-lookup"><span data-stu-id="c3b76-109">Display detailed information for the selected employee by selecting the employee's name.</span></span>
+4. <span data-ttu-id="c3b76-110">Klik op het tabblad Aanstelling.</span><span class="sxs-lookup"><span data-stu-id="c3b76-110">Click the Employment tab.</span></span>
+5. <span data-ttu-id="c3b76-111">Klik op Verlof.</span><span class="sxs-lookup"><span data-stu-id="c3b76-111">Click Leave.</span></span>
+6. <span data-ttu-id="c3b76-112">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="c3b76-112">Click New.</span></span>
+7. <span data-ttu-id="c3b76-113">Klik in het veld Verloftype op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="c3b76-113">In the Leave type field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="c3b76-114">U kunt een verloftype aan een inkomstencode in het formulier Verloftypen koppelen.</span><span class="sxs-lookup"><span data-stu-id="c3b76-114">You can associate a leave type to an earning code in the Leave types form.</span></span> <span data-ttu-id="c3b76-115">Als het verloftype is gekoppeld aan een inkomstencode, wordt een inkomstenregel gegenereerd met de gekoppelde inkomstencode tijdens de verlofperiode die u invoert.</span><span class="sxs-lookup"><span data-stu-id="c3b76-115">If a leave type is associated with an earning code, an earning line will be generated with the associated earning code during the leave period that you enter.</span></span>  
+8. <span data-ttu-id="c3b76-116">Selecteer een type verlof in de lijst.</span><span class="sxs-lookup"><span data-stu-id="c3b76-116">In the list, select a leave type.</span></span> 
+    * <span data-ttu-id="c3b76-117">Bijvoorbeeld: Adoptie</span><span class="sxs-lookup"><span data-stu-id="c3b76-117">For example: Adoption</span></span>  
+9. <span data-ttu-id="c3b76-118">Voer de begindatum van het verlof in.</span><span class="sxs-lookup"><span data-stu-id="c3b76-118">Enter the date that the leave will start.</span></span> <span data-ttu-id="c3b76-119">Bijvoorbeeld: 26-10-2015</span><span class="sxs-lookup"><span data-stu-id="c3b76-119">Example: '2015-10-26'</span></span>
+    * <span data-ttu-id="c3b76-120">Bijvoorbeeld: 26-10-2015</span><span class="sxs-lookup"><span data-stu-id="c3b76-120">For example:  2015-10-26</span></span>  
+10. <span data-ttu-id="c3b76-121">Voer de begindatum van het verlof in.</span><span class="sxs-lookup"><span data-stu-id="c3b76-121">Enter the date that the leave will start.</span></span> 
+    * <span data-ttu-id="c3b76-122">Bijvoorbeeld: 20-11-2015</span><span class="sxs-lookup"><span data-stu-id="c3b76-122">For example:  2015-11-20</span></span>  
+11. <span data-ttu-id="c3b76-123">Voer in het veld Opmerking een omschrijving in.</span><span class="sxs-lookup"><span data-stu-id="c3b76-123">In the note field, enter a description.</span></span>
+    * <span data-ttu-id="c3b76-124">Bijvoorbeeld: Verlof voor adoptie</span><span class="sxs-lookup"><span data-stu-id="c3b76-124">For example: Leave for adoption</span></span>  
+12. <span data-ttu-id="c3b76-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="c3b76-125">Click Save.</span></span>
 
 

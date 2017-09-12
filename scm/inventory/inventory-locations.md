@@ -1,7 +1,7 @@
 ---
 title: Voorraadlocaties
 description: Voorraadlocaties worden met basale magazijnen (WMS I) gebruikt om te bepalen waar artikelen worden opgeslagen en waar artikelen uit worden verzameld in een WMS I-magazijn.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,66 +10,62 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSLocation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 95d93c9d471cc86877f35340693c171958db71df
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 22f4d0c93b0fccdb5439998a68add7b7e0e7750b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="inventory-locations"></a>Voorraadlocaties
+# <a name="inventory-locations"></a><span data-ttu-id="c55f9-103">Voorraadlocaties</span><span class="sxs-lookup"><span data-stu-id="c55f9-103">Inventory locations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Voorraadlocaties worden met basale magazijnen (WMS I) gebruikt om te bepalen waar artikelen worden opgeslagen en waar artikelen uit worden verzameld in een WMS I-magazijn.
+<span data-ttu-id="c55f9-104">Voorraadlocaties worden met basale magazijnen (WMS I) gebruikt om te bepalen waar artikelen worden opgeslagen en waar artikelen uit worden verzameld in een WMS I-magazijn.</span><span class="sxs-lookup"><span data-stu-id="c55f9-104">Inventory locations are used with basic warehousing (WMS I) to determine where items are stored and where items are picked from in a WMS I warehouse.</span></span>
 
-Dit onderwerp geldt voor functies in de module voor Voorraadbeheer. Het geldt niet voor functies in de module Magazijnbeheer.
+<span data-ttu-id="c55f9-105">Dit onderwerp geldt voor functies in de module voor Voorraadbeheer.</span><span class="sxs-lookup"><span data-stu-id="c55f9-105">This topic applies to features in the Inventory management module.</span></span> <span data-ttu-id="c55f9-106">Het geldt niet voor functies in de module Magazijnbeheer.</span><span class="sxs-lookup"><span data-stu-id="c55f9-106">It does not apply to features in the Warehouse management module.</span></span>
 
-De term locatie verwijst naar de plaats waar artikelen worden opgeslagen en opgehaald.
+<span data-ttu-id="c55f9-107">De term locatie verwijst naar de plaats waar artikelen worden opgeslagen en opgehaald.</span><span class="sxs-lookup"><span data-stu-id="c55f9-107">The term location refers to the place that items are stored and drawn from.</span></span>
 
-Voor elke locatie kan ook de plaats worden opgegeven waar het artikel wordt ingevoegd. Standaard zijn deze gelijk. Meestal worden artikelen aan dezelfde kant van de locatie ingevoegd en opgehaald, maar niet altijd. Zo worden artikelen in opslagrekken aan de ene kant in de rekken geplaatst en aan de andere kant uit de rekken gehaald. De belangrijkste invoer is een locatienaam, die meestal door de coördinaten ervan wordt gedefinieerd: magazijn, gang, rek, plank en bak. Deze naam of id kan op de pagina Voorraadlocaties handmatig worden ingevoerd of worden gegenereerd op basis van de coördinaten van de locatie, bijvoorbeeld 01-02-03-4 voor gang 1, rek 2, plank 3, bak 4.
-Locatie-eigenschappen
--------------------
+<span data-ttu-id="c55f9-108">Voor elke locatie kan ook de plaats worden opgegeven waar het artikel wordt ingevoegd.</span><span class="sxs-lookup"><span data-stu-id="c55f9-108">For each location, the place where the item is inserted can also be specified.</span></span> <span data-ttu-id="c55f9-109">Standaard zijn deze gelijk.</span><span class="sxs-lookup"><span data-stu-id="c55f9-109">By default, they are the same.</span></span> <span data-ttu-id="c55f9-110">Meestal worden artikelen aan dezelfde kant van de locatie ingevoegd en opgehaald, maar niet altijd.</span><span class="sxs-lookup"><span data-stu-id="c55f9-110">Items are usually inserted and drawn from the same side of a location, but not always.</span></span> <span data-ttu-id="c55f9-111">Zo worden artikelen in opslagrekken aan de ene kant in de rekken geplaatst en aan de andere kant uit de rekken gehaald.</span><span class="sxs-lookup"><span data-stu-id="c55f9-111">For example, items that are stored in live storage racks are inserted from one aisle and drawn from another.</span></span> <span data-ttu-id="c55f9-112">De belangrijkste invoer is een locatienaam, die meestal door de coördinaten ervan wordt gedefinieerd: magazijn, gang, rek, plank en bak.</span><span class="sxs-lookup"><span data-stu-id="c55f9-112">The main input is given by a location name, which is usually determined by its coordinates: warehouse, aisle, rack, shelf, and bin.</span></span> <span data-ttu-id="c55f9-113">Deze naam of id kan op de pagina Voorraadlocaties handmatig worden ingevoerd of worden gegenereerd op basis van de coördinaten van de locatie, bijvoorbeeld 01-02-03-4 voor gang 1, rek 2, plank 3, bak 4.</span><span class="sxs-lookup"><span data-stu-id="c55f9-113">This name or ID can be entered manually or generated from the location coordinates—for example, 01-02-03-4 for aisle 1, rack 2, shelf 3, bin 4 in the Inventory locations page.</span></span>
+<span data-ttu-id="c55f9-114">Locatie-eigenschappen</span><span class="sxs-lookup"><span data-stu-id="c55f9-114">Location properties</span></span>
 
-Een locatie heeft de volgende kenmerken:
--   Grootte (hoogte, breedte, diepte, en dus volume)
--   Magazijn, gang, rek, plank en bakpositie
--   Locatietype (bulklocatie, orderverzamellocatie, inbound dock, outbound dock, productieinvoerlocatie, inspectielocatie, of kanbansupermarkt)
+<span data-ttu-id="c55f9-115">Een locatie heeft de volgende kenmerken:</span><span class="sxs-lookup"><span data-stu-id="c55f9-115">A location has the following characteristics:</span></span>
+-   <span data-ttu-id="c55f9-116">Grootte (hoogte, breedte, diepte, en dus volume)</span><span class="sxs-lookup"><span data-stu-id="c55f9-116">Size (height, width, depth, and thereby volume)</span></span>
+-   <span data-ttu-id="c55f9-117">Magazijn, gang, rek, plank en bakpositie</span><span class="sxs-lookup"><span data-stu-id="c55f9-117">Warehouse, aisle, rack, shelf, and bin position</span></span>
+-   <span data-ttu-id="c55f9-118">Locatietype (bulklocatie, orderverzamellocatie, inbound dock, outbound dock, productieinvoerlocatie, inspectielocatie, of kanbansupermarkt)</span><span class="sxs-lookup"><span data-stu-id="c55f9-118">Location type (bulk location, picking location, inbound dock, outbound dock, production input location, inspection location, or kanban supermarket)</span></span>
 
-Met controletekst kan in onlinesystemen worden gecontroleerd of de operator de juiste locatie voor een bepaald artikel heeft geselecteerd. Deze controletekst kan handmatig of standaard door het systeem worden gemaakt.
+<span data-ttu-id="c55f9-119">Met controletekst kan in onlinesystemen worden gecontroleerd of de operator de juiste locatie voor een bepaald artikel heeft geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="c55f9-119">Check text can be used in online systems to verify that the operator has selected the correct location for a specific item.</span></span> <span data-ttu-id="c55f9-120">Deze controletekst kan handmatig of standaard door het systeem worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="c55f9-120">This check text can be created manually or by default.</span></span>
 
-## <a name="sort-codes"></a>Sorteercodes
-Met sorteercodes kunt u de afhandeling van orderverzamelregels optimaliseren. Deze regels bevatten de gegevens die nodig zijn om artikelen uit de voorraad op te halen zoals de volgorde waarin de orders worden verzameld. Sorteercodes kunnen worden opgegeven met de gang en de andere coördinaten, of handmatig voor de locatie worden toegewezen.
+## <a name="sort-codes"></a><span data-ttu-id="c55f9-121">Sorteercodes</span><span class="sxs-lookup"><span data-stu-id="c55f9-121">Sort codes</span></span>
+<span data-ttu-id="c55f9-122">Met sorteercodes kunt u de afhandeling van orderverzamelregels optimaliseren. Deze regels bevatten de gegevens die nodig zijn om artikelen uit de voorraad op te halen zoals de volgorde waarin de orders worden verzameld.</span><span class="sxs-lookup"><span data-stu-id="c55f9-122">Use sort codes to optimize the handling of picking lines, which describe the information that is required for picking items from inventory, including the picking order.</span></span> <span data-ttu-id="c55f9-123">Sorteercodes kunnen worden opgegeven met de gang en de andere coördinaten, of handmatig voor de locatie worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="c55f9-123">Sort codes can be specified by the aisle and other coordinates, or assigned manually for the location.</span></span>
 
-## <a name="blocked-locations"></a>Geblokkeerde locaties
-Soms wilt u wellicht aangeven dat een locatie gedurende een bepaalde tijd is geblokkeerd, bijvoorbeeld om reparaties mogelijk te maken. Op andere momenten wilt u mogelijk aangeven dat alleen de invoer of alleen de uitvoer is geblokkeerd.
-Boomstructuur
---------------
+## <a name="blocked-locations"></a><span data-ttu-id="c55f9-124">Geblokkeerde locaties</span><span class="sxs-lookup"><span data-stu-id="c55f9-124">Blocked locations</span></span>
+<span data-ttu-id="c55f9-125">Soms wilt u wellicht aangeven dat een locatie gedurende een bepaalde tijd is geblokkeerd, bijvoorbeeld om reparaties mogelijk te maken.</span><span class="sxs-lookup"><span data-stu-id="c55f9-125">Occasionally, you might want to indicate that a location is blocked for a period of time, for example, to allow for repairs.</span></span> <span data-ttu-id="c55f9-126">Op andere momenten wilt u mogelijk aangeven dat alleen de invoer of alleen de uitvoer is geblokkeerd.</span><span class="sxs-lookup"><span data-stu-id="c55f9-126">At other times, you may want to indicate blocking of only the input or only output.</span></span>
 
-Op de pagina Voorraadlocaties kunt u de magazijnindeling bekijken in een boomstructuur in een bepaalde weergave-indeling op basis van de coördinaten van voorraadlocaties.
-Voorraadlocaties onderhouden via het formulier voor magazijnbeheer
----------------------------------------------------
+## <a name="tree-structure"></a><span data-ttu-id="c55f9-127">Boomstructuur</span><span class="sxs-lookup"><span data-stu-id="c55f9-127">Tree structure</span></span>
 
-Het is mogelijk om locaties van het ene magazijn naar het andere te kopiëren en locaties via een wizard te maken. Voordat u de wizard uitvoert, moet u ervoor zorgen dat u de standaardlocatienamen hebt gedefinieerd op de pagina Magazijn.
+<span data-ttu-id="c55f9-128">Op de pagina Voorraadlocaties kunt u de magazijnindeling bekijken in een boomstructuur in een bepaalde weergave-indeling op basis van de coördinaten van voorraadlocaties.</span><span class="sxs-lookup"><span data-stu-id="c55f9-128">In the Inventory locations page, you can view the warehouse layout in a tree structure based on the coordinates of inventory locations, in a defined display format.</span></span>
 
+## <a name="maintain-inventory-locations-via-the-warehouse-form"></a><span data-ttu-id="c55f9-129">Voorraadlocaties onderhouden via het formulier voor magazijnbeheer</span><span class="sxs-lookup"><span data-stu-id="c55f9-129">Maintain inventory locations via the warehouse form</span></span>
+
+<span data-ttu-id="c55f9-130">Het is mogelijk om locaties van het ene magazijn naar het andere te kopiëren en locaties via een wizard te maken.</span><span class="sxs-lookup"><span data-stu-id="c55f9-130">It is possible to copy locations from one warehouse to another and to create locations via a wizard.</span></span> <span data-ttu-id="c55f9-131">Voordat u de wizard uitvoert, moet u ervoor zorgen dat u de standaardlocatienamen hebt gedefinieerd op de pagina Magazijn.</span><span class="sxs-lookup"><span data-stu-id="c55f9-131">Before you run the wizard you should make sure that you have defined the default location names on the Warehouse page.</span></span>
 
 
-<a name="see-also"></a>Zie ook
+
+<a name="see-also"></a><span data-ttu-id="c55f9-132">Zie ook</span><span class="sxs-lookup"><span data-stu-id="c55f9-132">See also</span></span>
 --------
 
-[Een nieuwe magazijnindeling maken (Taakbegeleiding)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
-
-
-
+[<span data-ttu-id="c55f9-133">Een nieuwe magazijnindeling maken (Taakbegeleiding)</span><span class="sxs-lookup"><span data-stu-id="c55f9-133">Create a new warehouse layout (Task guide)</span></span>](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
 

@@ -16,127 +16,127 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d787cc951f8389fb07a265c99635fedeca132170
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 000cfe484865ff5c1003c2a68eac710491f6c536
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a>Berekeningen configureren om te tellen en totaliseren voor elektronische aangifte (ER)
+# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a><span data-ttu-id="66bf7-103">Berekeningen configureren om te tellen en totaliseren voor elektronische aangifte (ER)</span><span class="sxs-lookup"><span data-stu-id="66bf7-103">Configure computations to do counting and summing for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer. Deze stappen kunnen in elk bedrijf worden uitgevoerd.
+<span data-ttu-id="66bf7-104">In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer.</span><span class="sxs-lookup"><span data-stu-id="66bf7-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to do counting and summing based on data of the already generated text output.</span></span> <span data-ttu-id="66bf7-105">Deze stappen kunnen in elk bedrijf worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="66bf7-105">These steps can be performed in any company.</span></span>
 
-Als u deze stappen wilt uitvoeren, voert u eerst de stappen uit in de procedure "ER Indeling configureren voor tellen en totaliseren (Deel 1: Indeling maken)".
+<span data-ttu-id="66bf7-106">Als u deze stappen wilt uitvoeren, voert u eerst de stappen uit in de procedure "ER Indeling configureren voor tellen en totaliseren (Deel 1: Indeling maken)".</span><span class="sxs-lookup"><span data-stu-id="66bf7-106">To complete these steps, you must first complete the steps in the “ER Configure format to do counting and summing (Part 1: Create format)” procedure.</span></span>
 
-Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+<span data-ttu-id="66bf7-107">Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="66bf7-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-format-configuration-to-add-counting-and-summing-details"></a>Maak een indelingsconfiguratie om tellen en totaliseren van details toe te voegen
-1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-2. Klik op Rapportconfiguraties.
-3. Vouw in de structuur 'Intrastat-model' uit.
-4. Selecteer in de structuur 'Intrastat-model\Intrastat (DE)'.
-    * Stel dat u de indeling moet aanpassen die door Microsoft wordt geleverd door regels met overzichtdetails toe te voegen aan het einde van het Intrastat-rapport. U moet dat doen door een eigen exemplaar van de Intrastat-configuratie af te leiden uit het Microsoft-exemplaar om wijzigingen aan te brengen.  
-5. Klik op Configuratie maken om het dialoogvenster voor beëindigen te openen.
-6. Typ in het veld Nieuw 'Afleiden van naam: Intrastat (DE), Microsoft'.
-7. Typ 'Intrastat (DE) met tellen en totaliseren' in het veld Naam.
-8. Klik op Configuratie maken.
+## <a name="create-a-format-configuration-to-add-counting-and-summing-details"></a><span data-ttu-id="66bf7-108">Maak een indelingsconfiguratie om tellen en totaliseren van details toe te voegen</span><span class="sxs-lookup"><span data-stu-id="66bf7-108">Create a format configuration to add counting and summing details</span></span>
+1. <span data-ttu-id="66bf7-109">Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="66bf7-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="66bf7-110">Klik op Rapportconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="66bf7-110">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="66bf7-111">Vouw in de structuur 'Intrastat-model' uit.</span><span class="sxs-lookup"><span data-stu-id="66bf7-111">In the tree, expand 'Intrastat model'.</span></span>
+4. <span data-ttu-id="66bf7-112">Selecteer in de structuur 'Intrastat-model\Intrastat (DE)'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-112">In the tree, select 'Intrastat model\Intrastat (DE)'.</span></span>
+    * <span data-ttu-id="66bf7-113">Stel dat u de indeling moet aanpassen die door Microsoft wordt geleverd door regels met overzichtdetails toe te voegen aan het einde van het Intrastat-rapport.</span><span class="sxs-lookup"><span data-stu-id="66bf7-113">Assume that you need to customize the format provided by Microsoft by adding lines with summary details at the end of the Intrastat report.</span></span> <span data-ttu-id="66bf7-114">U moet dat doen door een eigen exemplaar van de Intrastat-configuratie af te leiden uit het Microsoft-exemplaar om wijzigingen aan te brengen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-114">You need to do that by deriving our own instance of the Intrastat configuration from the Microsoft instance to make modifications.</span></span>  
+5. <span data-ttu-id="66bf7-115">Klik op Configuratie maken om het dialoogvenster voor beëindigen te openen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-115">Click Create configuration to open the drop dialog.</span></span>
+6. <span data-ttu-id="66bf7-116">Typ in het veld Nieuw 'Afleiden van naam: Intrastat (DE), Microsoft'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-116">In the New field, enter 'Derive from Name: Intrastat (DE), Microsoft'.</span></span>
+7. <span data-ttu-id="66bf7-117">Typ 'Intrastat (DE) met tellen en totaliseren' in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="66bf7-117">In the Name field, type 'Intrastat (DE) with counting & summing'.</span></span>
+8. <span data-ttu-id="66bf7-118">Klik op Configuratie maken.</span><span class="sxs-lookup"><span data-stu-id="66bf7-118">Click Create configuration.</span></span>
 
-## <a name="configure-this-report-to-do-counting-and-summation-based-on-output-details"></a>Configureer dit rapport om tellen en totaliseren uit te voeren op basis van uitvoerdetails
-1. Klik op Ontwerper.
-2. Selecteer Ja in de veld Uitvoerdetails verzamelen.
-    * Deze markering activeert in runtime het proces van het verzamelen van uitvoerdetails voor het genereren van het Intrastat-bestand.  
-    * U moet tellen voor verschillende Intrastat-richtingen, dus voeg een specifieke modelopsomming toe aan de lijst met gegevensbronnen van deze indelingsconfiguratie.  
-3. Klik op het tabblad Toewijzing.
-4. Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.
-5. Selecteer in de structuur Gegevensmodel\Opsomming.
-6. Typ Richting in het veld Naam.
-7. Typ of selecteer een waarde in het veld Modelopsomming.
-    * Selecteer de waarde Richting.  
-8. Klik op OK.
-9. Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.
-10. Selecteer "Functions\Calculated field" in de structuur.
-11. Typ '$BlockName' in het veld Naam
-12. Klik op Formule bewerken.
-13. Typ 'blok' in het veld Formule.
-14. Klik op Opslaan.
-15. Sluit de pagina.
-16. Klik op OK.
-17. Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.
-18. Selecteer "Functions\Calculated field" in de structuur.
-19. Typ '$RecName' in het veld Naam.
-20. Klik op Formule bewerken.
-21. Typ 'record' in het veld Formule.
-22. Klik op Opslaan.
-23. Sluit de pagina.
-24. Klik op OK.
-25. Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.
-26. Selecteer "Functions\Calculated field" in de structuur.
-27. Typ '$InvName' in het veld Naam.
-28. Klik op Formule bewerken.
-29. Typ 'InvoicedAmountEUR' in het veld Formule.
-30. Klik op Opslaan.
-31. Sluit de pagina.
-32. Klik op OK.
-33. Selecteer Intrastat\Gegevens in de structuur.
-34. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens
-35. Klik op Gegevensbron toevoegen.
-    * $BlockName  
-36. Klik op Opslaan.
-37. Sluit de pagina.
-38. Klik op de knop Bewerken voor het veld Sleutelwaarde verzamelde gegevens
-39. Typ in het veld Formule 'IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")'.
-    * IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")  
-40. Klik op Opslaan.
-41. Sluit de pagina.
-    * Tel de regels van deze reeks. De resultaten worden afzonderlijk voor verschillende richtingen gebruikt met de naam 'blok'. De waarde Importeren wordt gebruikt voor Intrastat-transacties voor ontvangsten. De waarde Exporteren wordt gebruikt voor Intrastat-transacties voor verzendingen. Beschouw dit als een virtueel Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom 'blok' is ingevuld met de waarden 'Import' en 'Export'.  
-42. Vouw in de structuur 'Intrastat\Gegevens: Reeks' uit.
-43. Selecteer in de structuur 'Intrastat\Gegevens: Reeks\Ontvangsten?'.
-44. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.
-    * Tel de regels van deze reeks. De resultaten worden onthouden met de naam 'record'.  
-45. Selecteer in de structuur '$RecName'.
-46. Klik op Gegevensbron toevoegen.
-47. Klik op Opslaan.
-48. Sluit de pagina.
-49. Klik op de knop Bewerken voor het veld Sleutelwaarde verzamelde gegevens.
-50. Typ in het veld Formule 'Intrastat.CommodityRecord.CommodityCode'.
-51. Klik op Opslaan.
-52. Sluit de pagina.
-    * Tel de regels van deze reeks. De resultaten worden afzonderlijk voor verschillende basisproductcode gebruikt met de naam 'record'. Beschouw dit als een virtueel Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom 'blok' wordt gevuld met de waarden 'Import' en 'Export' en het tweede blok 'record' wordt gevuld met de waarde van de basisproductcode.  
-53. Select in de structuur 'Intrastat\Gegevens: Reeks\Verzendingen?'.
-54. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens
-55. Selecteer in de structuur '$RecName'.
-56. Klik op Gegevensbron toevoegen.
-57. Klik op Opslaan.
-58. Sluit de pagina.
-59. Klik op de knop Bewerken voor het veld Sleutelwaarde verzamelde gegevens.
-60. Typ in het veld Formule 'Intrastat.CommodityRecord.CommodityCode'.
-61. Klik op Opslaan.
-62. Sluit de pagina.
-63. Vouw in de structuur 'Intrastat\Gegevens: Reeks\Verzendingen: Reeks' uit.
-64. Vouw in de structuur 'Intrastat\Gegevens: Reeks\Verzendingen: Reeks?\Record =  Intrastat.CommodityRecord' uit.
-65. Klik op het tabblad Indeling.
-66. Selecteer in de structuur 'Intrastat\Gegevens\Verzendingen\Record\Factuurbedrag EUR'.
-67. Klik op het tabblad Toewijzing.
-68. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.
-69. Selecteer in de structuur '$InvName'.
-70. Klik op Gegevensbron toevoegen.
-71. Klik op Opslaan.
-72. Sluit de pagina.
-    * Vat de gefactureerde bedragwaarden samen voor regels van deze reeks. De resultaten worden afzonderlijk voor verschillende intrastat-richtingen en basisproductcodes gebruikt met de naam "InvoicedAmountEUR". Beschouw dit als een virtueel gemaakt item in het Excel-spreadsheet. Voor elke transactie een rij waarin de eerste kolom 'blok' is ingevuld met de waarden 'Import' en 'Export'. Het tweede blok 'record' wordt gevuld met de waarde van de basisproductcode, en de derde kolom InvoicedAmountEUR wordt gevuld met de factuurbedragwaarde.  
-73. Vouw in de structuur 'Intrastat\Gegevens\Ontvangsten?' uit.
-74. Vouw in de structuur 'Intrastat\Gegevens\Ontvangsten?\Record = Intrastat.CommodityRecord' uit.
-75. Klik op het tabblad Indeling.
-76. Selecteer in de structuur 'Intrastat\Gegevens\Ontvangsten\Record\Factuurbedrag EUR'.
-77. Klik op het tabblad Toewijzing.
-78. Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.
-79. Selecteer in de structuur '$InvName'.
-80. Klik op Gegevensbron toevoegen.
-81. Klik op Opslaan.
-82. Sluit de pagina.
-83. Klik op Opslaan.
-84. Sluit de pagina.
+## <a name="configure-this-report-to-do-counting-and-summation-based-on-output-details"></a><span data-ttu-id="66bf7-119">Configureer dit rapport om tellen en totaliseren uit te voeren op basis van uitvoerdetails</span><span class="sxs-lookup"><span data-stu-id="66bf7-119">Configure this report to do counting and summation based on output details</span></span>
+1. <span data-ttu-id="66bf7-120">Klik op Ontwerper.</span><span class="sxs-lookup"><span data-stu-id="66bf7-120">Click Designer.</span></span>
+2. <span data-ttu-id="66bf7-121">Selecteer Ja in de veld Uitvoerdetails verzamelen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-121">Select Yes in the Collect output details field.</span></span>
+    * <span data-ttu-id="66bf7-122">Deze markering activeert in runtime het proces van het verzamelen van uitvoerdetails voor het genereren van het Intrastat-bestand.</span><span class="sxs-lookup"><span data-stu-id="66bf7-122">This flag will activate at run-time the process of collecting output details for generating the Intrastat file.</span></span>  
+    * <span data-ttu-id="66bf7-123">U moet tellen voor verschillende Intrastat-richtingen, dus voeg een specifieke modelopsomming toe aan de lijst met gegevensbronnen van deze indelingsconfiguratie.</span><span class="sxs-lookup"><span data-stu-id="66bf7-123">You need to do counting for different Intrastat directions, so add a dedicated model enumeration to the data sources’ list of this format configuration.</span></span>  
+3. <span data-ttu-id="66bf7-124">Klik op het tabblad Toewijzing.</span><span class="sxs-lookup"><span data-stu-id="66bf7-124">Click the Mapping tab.</span></span>
+4. <span data-ttu-id="66bf7-125">Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-125">Click Add root to open the drop dialog.</span></span>
+5. <span data-ttu-id="66bf7-126">Selecteer in de structuur Gegevensmodel\Opsomming.</span><span class="sxs-lookup"><span data-stu-id="66bf7-126">In the tree, select 'Data model\Enumeration '.</span></span>
+6. <span data-ttu-id="66bf7-127">Typ Richting in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="66bf7-127">In the Name field, type 'Direction'.</span></span>
+7. <span data-ttu-id="66bf7-128">Typ of selecteer een waarde in het veld Modelopsomming.</span><span class="sxs-lookup"><span data-stu-id="66bf7-128">In the Model enumeration field, enter or select a value.</span></span>
+    * <span data-ttu-id="66bf7-129">Selecteer de waarde Richting.</span><span class="sxs-lookup"><span data-stu-id="66bf7-129">Select the value Direction.</span></span>  
+8. <span data-ttu-id="66bf7-130">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="66bf7-130">Click OK.</span></span>
+9. <span data-ttu-id="66bf7-131">Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-131">Click Add root to open the drop dialog.</span></span>
+10. <span data-ttu-id="66bf7-132">Selecteer "Functions\Calculated field" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="66bf7-132">In the tree, select 'Functions\Calculated field'.</span></span>
+11. <span data-ttu-id="66bf7-133">Typ '$BlockName' in het veld Naam</span><span class="sxs-lookup"><span data-stu-id="66bf7-133">In the Name field, type '$BlockName'.</span></span>
+12. <span data-ttu-id="66bf7-134">Klik op Formule bewerken.</span><span class="sxs-lookup"><span data-stu-id="66bf7-134">Click Edit formula.</span></span>
+13. <span data-ttu-id="66bf7-135">Typ 'blok' in het veld Formule.</span><span class="sxs-lookup"><span data-stu-id="66bf7-135">In the Formula field, enter '"block"'.</span></span>
+14. <span data-ttu-id="66bf7-136">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-136">Click Save.</span></span>
+15. <span data-ttu-id="66bf7-137">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-137">Close the page.</span></span>
+16. <span data-ttu-id="66bf7-138">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="66bf7-138">Click OK.</span></span>
+17. <span data-ttu-id="66bf7-139">Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-139">Click Add root to open the drop dialog.</span></span>
+18. <span data-ttu-id="66bf7-140">Selecteer "Functions\Calculated field" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="66bf7-140">In the tree, select 'Functions\Calculated field'.</span></span>
+19. <span data-ttu-id="66bf7-141">Typ '$RecName' in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="66bf7-141">In the Name field, type '$RecName'.</span></span>
+20. <span data-ttu-id="66bf7-142">Klik op Formule bewerken.</span><span class="sxs-lookup"><span data-stu-id="66bf7-142">Click Edit formula.</span></span>
+21. <span data-ttu-id="66bf7-143">Typ 'record' in het veld Formule.</span><span class="sxs-lookup"><span data-stu-id="66bf7-143">In the Formula field, enter '"record"'.</span></span>
+22. <span data-ttu-id="66bf7-144">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-144">Click Save.</span></span>
+23. <span data-ttu-id="66bf7-145">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-145">Close the page.</span></span>
+24. <span data-ttu-id="66bf7-146">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="66bf7-146">Click OK.</span></span>
+25. <span data-ttu-id="66bf7-147">Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-147">Click Add root to open the drop dialog.</span></span>
+26. <span data-ttu-id="66bf7-148">Selecteer "Functions\Calculated field" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="66bf7-148">In the tree, select 'Functions\Calculated field'.</span></span>
+27. <span data-ttu-id="66bf7-149">Typ '$InvName' in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="66bf7-149">In the Name field, type '$InvName'.</span></span>
+28. <span data-ttu-id="66bf7-150">Klik op Formule bewerken.</span><span class="sxs-lookup"><span data-stu-id="66bf7-150">Click Edit formula.</span></span>
+29. <span data-ttu-id="66bf7-151">Typ 'InvoicedAmountEUR' in het veld Formule.</span><span class="sxs-lookup"><span data-stu-id="66bf7-151">In the Formula field, enter '"InvoicedAmountEUR"'.</span></span>
+30. <span data-ttu-id="66bf7-152">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-152">Click Save.</span></span>
+31. <span data-ttu-id="66bf7-153">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-153">Close the page.</span></span>
+32. <span data-ttu-id="66bf7-154">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="66bf7-154">Click OK.</span></span>
+33. <span data-ttu-id="66bf7-155">Selecteer Intrastat\Gegevens in de structuur.</span><span class="sxs-lookup"><span data-stu-id="66bf7-155">In the tree, select 'Intrastat\Data'.</span></span>
+34. <span data-ttu-id="66bf7-156">Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens</span><span class="sxs-lookup"><span data-stu-id="66bf7-156">Click Edit button for the ‘Collected data key name’ field</span></span>
+35. <span data-ttu-id="66bf7-157">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-157">Click Add data source.</span></span>
+    * <span data-ttu-id="66bf7-158">$BlockName</span><span class="sxs-lookup"><span data-stu-id="66bf7-158">$BlockName</span></span>  
+36. <span data-ttu-id="66bf7-159">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-159">Click Save.</span></span>
+37. <span data-ttu-id="66bf7-160">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-160">Close the page.</span></span>
+38. <span data-ttu-id="66bf7-161">Klik op de knop Bewerken voor het veld Sleutelwaarde verzamelde gegevens</span><span class="sxs-lookup"><span data-stu-id="66bf7-161">Click the Edit button for the Collected data key value field.</span></span>
+39. <span data-ttu-id="66bf7-162">Typ in het veld Formule 'IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-162">In the Formula field, enter 'IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")'.</span></span>
+    * <span data-ttu-id="66bf7-163">IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")</span><span class="sxs-lookup"><span data-stu-id="66bf7-163">IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")</span></span>  
+40. <span data-ttu-id="66bf7-164">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-164">Click Save.</span></span>
+41. <span data-ttu-id="66bf7-165">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-165">Close the page.</span></span>
+    * <span data-ttu-id="66bf7-166">Tel de regels van deze reeks.</span><span class="sxs-lookup"><span data-stu-id="66bf7-166">Count the lines of this sequence.</span></span> <span data-ttu-id="66bf7-167">De resultaten worden afzonderlijk voor verschillende richtingen gebruikt met de naam 'blok'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-167">The results will be used with the name “block” separately for different directions.</span></span> <span data-ttu-id="66bf7-168">De waarde Importeren wordt gebruikt voor Intrastat-transacties voor ontvangsten.</span><span class="sxs-lookup"><span data-stu-id="66bf7-168">Value “Import” will be used for any arrivals Intrastat transactions.</span></span> <span data-ttu-id="66bf7-169">De waarde Exporteren wordt gebruikt voor Intrastat-transacties voor verzendingen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-169">The value “Export” will be used for any Intrastat dispatches transactions.</span></span> <span data-ttu-id="66bf7-170">Beschouw dit als een virtueel Excel-spreadsheet.</span><span class="sxs-lookup"><span data-stu-id="66bf7-170">Consider this to be a virtual Excel spreadsheet.</span></span> <span data-ttu-id="66bf7-171">Voor elke transactie een rij waarin de eerste kolom 'blok' is ingevuld met de waarden 'Import' en 'Export'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-171">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly.</span></span>  
+42. <span data-ttu-id="66bf7-172">Vouw in de structuur 'Intrastat\Gegevens: Reeks' uit.</span><span class="sxs-lookup"><span data-stu-id="66bf7-172">In the tree, expand 'Intrastat\Data: Sequence'.</span></span>
+43. <span data-ttu-id="66bf7-173">Selecteer in de structuur 'Intrastat\Gegevens: Reeks\Ontvangsten?'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-173">In the tree, select 'Intrastat\Data: Sequence\Arrivals?'.</span></span>
+44. <span data-ttu-id="66bf7-174">Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.</span><span class="sxs-lookup"><span data-stu-id="66bf7-174">Click Edit button for the ‘Collected data key name’ field.</span></span>
+    * <span data-ttu-id="66bf7-175">Tel de regels van deze reeks.</span><span class="sxs-lookup"><span data-stu-id="66bf7-175">Count the lines of this sequence.</span></span> <span data-ttu-id="66bf7-176">De resultaten worden onthouden met de naam 'record'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-176">The results will be memorized using the name “record”.</span></span>  
+45. <span data-ttu-id="66bf7-177">Selecteer in de structuur '$RecName'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-177">In the tree, select '$RecName'.</span></span>
+46. <span data-ttu-id="66bf7-178">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-178">Click Add data source.</span></span>
+47. <span data-ttu-id="66bf7-179">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-179">Click Save.</span></span>
+48. <span data-ttu-id="66bf7-180">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-180">Close the page.</span></span>
+49. <span data-ttu-id="66bf7-181">Klik op de knop Bewerken voor het veld Sleutelwaarde verzamelde gegevens.</span><span class="sxs-lookup"><span data-stu-id="66bf7-181">Click Edit button for the ‘Collected data key value’ field</span></span>
+50. <span data-ttu-id="66bf7-182">Typ in het veld Formule 'Intrastat.CommodityRecord.CommodityCode'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-182">In the Formula field, enter 'Intrastat.CommodityRecord.CommodityCode'.</span></span>
+51. <span data-ttu-id="66bf7-183">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-183">Click Save.</span></span>
+52. <span data-ttu-id="66bf7-184">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-184">Close the page.</span></span>
+    * <span data-ttu-id="66bf7-185">Tel de regels van deze reeks.</span><span class="sxs-lookup"><span data-stu-id="66bf7-185">Count the lines of this sequence.</span></span> <span data-ttu-id="66bf7-186">De resultaten worden afzonderlijk voor verschillende basisproductcode gebruikt met de naam 'record'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-186">The results will be used with the name “record” separately for different commodity codes.</span></span> <span data-ttu-id="66bf7-187">Beschouw dit als een virtueel Excel-spreadsheet.</span><span class="sxs-lookup"><span data-stu-id="66bf7-187">Consider this to be a virtual Excel spreadsheet.</span></span> <span data-ttu-id="66bf7-188">Voor elke transactie een rij waarin de eerste kolom 'blok' wordt gevuld met de waarden 'Import' en 'Export' en het tweede blok 'record' wordt gevuld met de waarde van de basisproductcode.</span><span class="sxs-lookup"><span data-stu-id="66bf7-188">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly and the second block “record” is filled with the commodity code value.</span></span>  
+53. <span data-ttu-id="66bf7-189">Select in de structuur 'Intrastat\Gegevens: Reeks\Verzendingen?'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-189">In the tree, select 'Intrastat\Data: Sequence\Dispatches?'.</span></span>
+54. <span data-ttu-id="66bf7-190">Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens</span><span class="sxs-lookup"><span data-stu-id="66bf7-190">Click Edit button for the ‘Collected data key name’ field</span></span>
+55. <span data-ttu-id="66bf7-191">Selecteer in de structuur '$RecName'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-191">In the tree, select '$RecName'.</span></span>
+56. <span data-ttu-id="66bf7-192">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-192">Click Add data source.</span></span>
+57. <span data-ttu-id="66bf7-193">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-193">Click Save.</span></span>
+58. <span data-ttu-id="66bf7-194">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-194">Close the page.</span></span>
+59. <span data-ttu-id="66bf7-195">Klik op de knop Bewerken voor het veld Sleutelwaarde verzamelde gegevens.</span><span class="sxs-lookup"><span data-stu-id="66bf7-195">Click the Edit button for the ‘Collected data key value’ field.</span></span>
+60. <span data-ttu-id="66bf7-196">Typ in het veld Formule 'Intrastat.CommodityRecord.CommodityCode'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-196">In the Formula field, enter 'Intrastat.CommodityRecord.CommodityCode'.</span></span>
+61. <span data-ttu-id="66bf7-197">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-197">Click Save.</span></span>
+62. <span data-ttu-id="66bf7-198">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-198">Close the page.</span></span>
+63. <span data-ttu-id="66bf7-199">Vouw in de structuur 'Intrastat\Gegevens: Reeks\Verzendingen: Reeks' uit.</span><span class="sxs-lookup"><span data-stu-id="66bf7-199">In the tree, expand 'Intrastat\Data: Sequence\Dispatches: Sequence?'.</span></span>
+64. <span data-ttu-id="66bf7-200">Vouw in de structuur 'Intrastat\Gegevens: Reeks\Verzendingen: Reeks?\Record =  Intrastat.CommodityRecord' uit.</span><span class="sxs-lookup"><span data-stu-id="66bf7-200">In the tree, expand 'Intrastat\Data: Sequence\Dispatches: Sequence?\Record =  Intrastat.CommodityRecord'.</span></span>
+65. <span data-ttu-id="66bf7-201">Klik op het tabblad Indeling.</span><span class="sxs-lookup"><span data-stu-id="66bf7-201">Click the Format tab.</span></span>
+66. <span data-ttu-id="66bf7-202">Selecteer in de structuur 'Intrastat\Gegevens\Verzendingen\Record\Factuurbedrag EUR'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-202">In the tree, select 'Intrastat\Data\Dispatches\Record\Invoice amount EUR'.</span></span>
+67. <span data-ttu-id="66bf7-203">Klik op het tabblad Toewijzing.</span><span class="sxs-lookup"><span data-stu-id="66bf7-203">Click the Mapping tab.</span></span>
+68. <span data-ttu-id="66bf7-204">Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.</span><span class="sxs-lookup"><span data-stu-id="66bf7-204">Click the Edit button for the ‘Collected data key name’ field.</span></span>
+69. <span data-ttu-id="66bf7-205">Selecteer in de structuur '$InvName'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-205">In the tree, select '$InvName'.</span></span>
+70. <span data-ttu-id="66bf7-206">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-206">Click Add data source.</span></span>
+71. <span data-ttu-id="66bf7-207">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-207">Click Save.</span></span>
+72. <span data-ttu-id="66bf7-208">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-208">Close the page.</span></span>
+    * <span data-ttu-id="66bf7-209">Vat de gefactureerde bedragwaarden samen voor regels van deze reeks.</span><span class="sxs-lookup"><span data-stu-id="66bf7-209">Summarize the invoiced amount values for lines of this sequence.</span></span> <span data-ttu-id="66bf7-210">De resultaten worden afzonderlijk voor verschillende intrastat-richtingen en basisproductcodes gebruikt met de naam "InvoicedAmountEUR".</span><span class="sxs-lookup"><span data-stu-id="66bf7-210">The results will be used with the name “InvoicedAmountEUR” separately for different Intrastat directions and commodity codes.</span></span> <span data-ttu-id="66bf7-211">Beschouw dit als een virtueel gemaakt item in het Excel-spreadsheet.</span><span class="sxs-lookup"><span data-stu-id="66bf7-211">Consider this to be a virtual creation in Excel spreadsheet.</span></span> <span data-ttu-id="66bf7-212">Voor elke transactie een rij waarin de eerste kolom 'blok' is ingevuld met de waarden 'Import' en 'Export'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-212">For each transaction a row where the first column “block” is filled with the values “Import” and “Export” accordingly.</span></span> <span data-ttu-id="66bf7-213">Het tweede blok 'record' wordt gevuld met de waarde van de basisproductcode, en de derde kolom InvoicedAmountEUR wordt gevuld met de factuurbedragwaarde.</span><span class="sxs-lookup"><span data-stu-id="66bf7-213">The second block “record” is filled with the commodity code value, and the third column “InvoicedAmountEUR” is filled with the invoice amount value.</span></span>  
+73. <span data-ttu-id="66bf7-214">Vouw in de structuur 'Intrastat\Gegevens\Ontvangsten?' uit.</span><span class="sxs-lookup"><span data-stu-id="66bf7-214">In the tree, expand 'Intrastat\Data\Arrivals?'.</span></span>
+74. <span data-ttu-id="66bf7-215">Vouw in de structuur 'Intrastat\Gegevens\Ontvangsten?\Record = Intrastat.CommodityRecord' uit.</span><span class="sxs-lookup"><span data-stu-id="66bf7-215">In the tree, expand 'Intrastat\Data\Arrivals?\Record =  Intrastat.CommodityRecord'.</span></span>
+75. <span data-ttu-id="66bf7-216">Klik op het tabblad Indeling.</span><span class="sxs-lookup"><span data-stu-id="66bf7-216">Click the Format tab.</span></span>
+76. <span data-ttu-id="66bf7-217">Selecteer in de structuur 'Intrastat\Gegevens\Ontvangsten\Record\Factuurbedrag EUR'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-217">In the tree, select 'Intrastat\Data\Arrivals\Record\Invoice amount EUR'.</span></span>
+77. <span data-ttu-id="66bf7-218">Klik op het tabblad Toewijzing.</span><span class="sxs-lookup"><span data-stu-id="66bf7-218">Click the Mapping tab.</span></span>
+78. <span data-ttu-id="66bf7-219">Klik op de knop Bewerken voor het veld Sleutelnaam verzamelde gegevens.</span><span class="sxs-lookup"><span data-stu-id="66bf7-219">Click the Edit button for the ‘Collected data key name’ field.</span></span>
+79. <span data-ttu-id="66bf7-220">Selecteer in de structuur '$InvName'.</span><span class="sxs-lookup"><span data-stu-id="66bf7-220">In the tree, select '$InvName'.</span></span>
+80. <span data-ttu-id="66bf7-221">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="66bf7-221">Click Add data source.</span></span>
+81. <span data-ttu-id="66bf7-222">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-222">Click Save.</span></span>
+82. <span data-ttu-id="66bf7-223">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-223">Close the page.</span></span>
+83. <span data-ttu-id="66bf7-224">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="66bf7-224">Click Save.</span></span>
+84. <span data-ttu-id="66bf7-225">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="66bf7-225">Close the page.</span></span>
 
 

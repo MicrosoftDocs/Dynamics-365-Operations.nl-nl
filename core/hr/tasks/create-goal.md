@@ -16,47 +16,47 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 46661449fcff01e417c788d3cc1d5d39ac39cba0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0c84003fa2326c68978dae698ae7c91c0c62b0f7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-goal"></a>Een doelstelling maken
+# <a name="create-a-goal"></a><span data-ttu-id="5da72-103">Een doelstelling maken</span><span class="sxs-lookup"><span data-stu-id="5da72-103">Create a goal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen volgen, en de doelstellingen koppelen aan een beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
+<span data-ttu-id="5da72-104">U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen volgen, en de doelstellingen koppelen aan een beoordeling.</span><span class="sxs-lookup"><span data-stu-id="5da72-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="5da72-105">Deze procedure is gemaakt met het demogegevensbedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="5da72-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="5da72-106">Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="5da72-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
-1. Ga naar Alle werkgebieden > Selfservice werknemer.
-2. Klik op Alle doelen weergeven
-3. Klik op Nieuw.
-4. Typ in het veld Naam 'Het Contoso-project voltooien'.
-5. Typ in het veld Overzicht 'Ik rond het Contoso-project af in 30 dagen'.
-    * Doelstellingen kunnen van toepassing zijn op een persoon, een team of zelfs een bedrijf. De standaardwaarde voor Werknemersdoelstellingen is Afzonderlijk.  
-6. Typ of selecteer een waarde in het veld Doelstellingscategorie.
-7. Wijzig in het veld Begindatum de ingevulde datum.
-8. Wijzig in het veld Einddatum de ingevulde datum.
-    * Wanneer u een doelstelling haalt, voert u hier de datum in waarop u dit hebt gedaan.  
-9. Klik op Opslaan.
-10. Vouw de sectie Metingen uit. Als deze al is uitgevouwen, dubbelklikt u op de pijl Uitvouwen.
-11. Klik op Meting toevoegen om de vervolgkeuzelijst te openen.
-12. Typ of selecteer een waarde in het veld Meting.
-13. Typ een getal in het veld Doelbedrag.
-14. Klik op OK.
-15. Vouw de sectie Activiteiten uit. Als deze al is uitgevouwen, dubbelklikt u op de pijl Uitvouwen.
-16. Klik op Toevoegen.
-17. Typ een waarde in het veld Titel.
-18. Typ een waarde in het veld Omschrijving.
-19. Klik op Opslaan.
-20. Klik op Secties weergeven om de vervolgkeuzelijst te openen.
-21. Selecteer Nee in het veld Metingen weergeven.
-22. Klik op Opslaan.
-23. Klik op Secties weergeven om de vervolgkeuzelijst te openen.
-24. Selecteer Ja in het veld Metingen weergeven.
-25. Klik op Opslaan.
-    * Vaak zijn er doelstellingen die hetzelfde of vergelijkbaar zijn voor teamleden of alle werknemers.     Uw HR-beheerder of -manager kan hiervoor doelstellingsjablonen maken. U kunt een doelstelling toevoegen op basis van een sjabloon en deze dan aanpassen voor uw tijdslijnen.  
-    * Vaak zijn meerdere doelstellingen hetzelfde of vergelijkbaar voor teamleden of alle werknemers.     Uw HR-beheerder of -manager kan doelstellingsgroepen maken die een of meer doelsjablonen bevatten. U kunt doelstellingen toevoegen vanuit een doelstellingsgroep en deze dan aanpassen voor uw tijdslijnen.  
-    * Wanneer u een beoordeling maakt, kunt u daaraan doelstellingen toevoegen. In de taakhandleiding voor beoordelingen wordt uitgelegd hoe u doelstellingen aan uw beoordelingen toevoegt.  
+1. <span data-ttu-id="5da72-107">Ga naar Alle werkgebieden > Selfservice werknemer.</span><span class="sxs-lookup"><span data-stu-id="5da72-107">Go to All workspaces > Employee self service.</span></span>
+2. <span data-ttu-id="5da72-108">Klik op Alle doelen weergeven</span><span class="sxs-lookup"><span data-stu-id="5da72-108">Click View all goals</span></span>
+3. <span data-ttu-id="5da72-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="5da72-109">Click New.</span></span>
+4. <span data-ttu-id="5da72-110">Typ in het veld Naam 'Het Contoso-project voltooien'.</span><span class="sxs-lookup"><span data-stu-id="5da72-110">In the Name field, type 'Complete the Contoso project'.</span></span>
+5. <span data-ttu-id="5da72-111">Typ in het veld Overzicht 'Ik rond het Contoso-project af in 30 dagen'.</span><span class="sxs-lookup"><span data-stu-id="5da72-111">In the Overview field, enter 'I will finish the Contoso project in 30 days'.</span></span>
+    * <span data-ttu-id="5da72-112">Doelstellingen kunnen van toepassing zijn op een persoon, een team of zelfs een bedrijf.</span><span class="sxs-lookup"><span data-stu-id="5da72-112">Goals can apply to an individual, a team, or even a corporation.</span></span> <span data-ttu-id="5da72-113">De standaardwaarde voor Werknemersdoelstellingen is Afzonderlijk.</span><span class="sxs-lookup"><span data-stu-id="5da72-113">The default setting for Employee goals is Individual.</span></span>  
+6. <span data-ttu-id="5da72-114">Typ of selecteer een waarde in het veld Doelstellingscategorie.</span><span class="sxs-lookup"><span data-stu-id="5da72-114">In the Goal category field, enter or select a value.</span></span>
+7. <span data-ttu-id="5da72-115">Wijzig in het veld Begindatum de ingevulde datum.</span><span class="sxs-lookup"><span data-stu-id="5da72-115">In the Start date field, change the date shown.</span></span>
+8. <span data-ttu-id="5da72-116">Wijzig in het veld Einddatum de ingevulde datum.</span><span class="sxs-lookup"><span data-stu-id="5da72-116">In the End date field, change the date shown.</span></span>
+    * <span data-ttu-id="5da72-117">Wanneer u een doelstelling haalt, voert u hier de datum in waarop u dit hebt gedaan.</span><span class="sxs-lookup"><span data-stu-id="5da72-117">When you complete a goal, enter the date that you completed the goal here.</span></span>  
+9. <span data-ttu-id="5da72-118">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5da72-118">Click Save.</span></span>
+10. <span data-ttu-id="5da72-119">Vouw de sectie Metingen uit.</span><span class="sxs-lookup"><span data-stu-id="5da72-119">Expand the Measurements section.</span></span> <span data-ttu-id="5da72-120">Als deze al is uitgevouwen, dubbelklikt u op de pijl Uitvouwen.</span><span class="sxs-lookup"><span data-stu-id="5da72-120">If it is already expanded, click the Expand arrow twice.</span></span>
+11. <span data-ttu-id="5da72-121">Klik op Meting toevoegen om de vervolgkeuzelijst te openen.</span><span class="sxs-lookup"><span data-stu-id="5da72-121">Click Add measurement to open the drop dialog.</span></span>
+12. <span data-ttu-id="5da72-122">Typ of selecteer een waarde in het veld Meting.</span><span class="sxs-lookup"><span data-stu-id="5da72-122">In the Measurement field, enter or select a value.</span></span>
+13. <span data-ttu-id="5da72-123">Typ een getal in het veld Doelbedrag.</span><span class="sxs-lookup"><span data-stu-id="5da72-123">In the Target amount field, enter a number.</span></span>
+14. <span data-ttu-id="5da72-124">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="5da72-124">Click OK.</span></span>
+15. <span data-ttu-id="5da72-125">Vouw de sectie Activiteiten uit.</span><span class="sxs-lookup"><span data-stu-id="5da72-125">Expand the Activities section.</span></span> <span data-ttu-id="5da72-126">Als deze al is uitgevouwen, dubbelklikt u op de pijl Uitvouwen.</span><span class="sxs-lookup"><span data-stu-id="5da72-126">If it is already expanded, click the Expand arrow twice.</span></span>
+16. <span data-ttu-id="5da72-127">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="5da72-127">Click Add.</span></span>
+17. <span data-ttu-id="5da72-128">Typ een waarde in het veld Titel.</span><span class="sxs-lookup"><span data-stu-id="5da72-128">In the Title field, type a value.</span></span>
+18. <span data-ttu-id="5da72-129">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="5da72-129">In the Description field, type a value.</span></span>
+19. <span data-ttu-id="5da72-130">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5da72-130">Click Save.</span></span>
+20. <span data-ttu-id="5da72-131">Klik op Secties weergeven om de vervolgkeuzelijst te openen.</span><span class="sxs-lookup"><span data-stu-id="5da72-131">Click Show sections to open the drop dialog.</span></span>
+21. <span data-ttu-id="5da72-132">Selecteer Nee in het veld Metingen weergeven.</span><span class="sxs-lookup"><span data-stu-id="5da72-132">Select No in the Show measurements field.</span></span>
+22. <span data-ttu-id="5da72-133">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5da72-133">Click Save.</span></span>
+23. <span data-ttu-id="5da72-134">Klik op Secties weergeven om de vervolgkeuzelijst te openen.</span><span class="sxs-lookup"><span data-stu-id="5da72-134">Click Show sections to open the drop dialog.</span></span>
+24. <span data-ttu-id="5da72-135">Selecteer Ja in het veld Metingen weergeven.</span><span class="sxs-lookup"><span data-stu-id="5da72-135">Select Yes in the Show measurements field.</span></span>
+25. <span data-ttu-id="5da72-136">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="5da72-136">Click Save.</span></span>
+    * <span data-ttu-id="5da72-137">Vaak zijn er doelstellingen die hetzelfde of vergelijkbaar zijn voor teamleden of alle werknemers.</span><span class="sxs-lookup"><span data-stu-id="5da72-137">There are often goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="5da72-138">Uw HR-beheerder of -manager kan hiervoor doelstellingsjablonen maken.</span><span class="sxs-lookup"><span data-stu-id="5da72-138">Your HR administrator or manager can create goal templates for those goals.</span></span> <span data-ttu-id="5da72-139">U kunt een doelstelling toevoegen op basis van een sjabloon en deze dan aanpassen voor uw tijdslijnen.</span><span class="sxs-lookup"><span data-stu-id="5da72-139">You can add a goal from a template, and then modify it to match your timelines.</span></span>  
+    * <span data-ttu-id="5da72-140">Vaak zijn meerdere doelstellingen hetzelfde of vergelijkbaar voor teamleden of alle werknemers.</span><span class="sxs-lookup"><span data-stu-id="5da72-140">There are often several goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="5da72-141">Uw HR-beheerder of -manager kan doelstellingsgroepen maken die een of meer doelsjablonen bevatten.</span><span class="sxs-lookup"><span data-stu-id="5da72-141">Your HR administrator or manager can create goal groups that contain one or more goal templates.</span></span> <span data-ttu-id="5da72-142">U kunt doelstellingen toevoegen vanuit een doelstellingsgroep en deze dan aanpassen voor uw tijdslijnen.</span><span class="sxs-lookup"><span data-stu-id="5da72-142">You can add goals from a goal group, and then modify them to match your timelines.</span></span>  
+    * <span data-ttu-id="5da72-143">Wanneer u een beoordeling maakt, kunt u daaraan doelstellingen toevoegen.</span><span class="sxs-lookup"><span data-stu-id="5da72-143">When you create a review, you can add goals to that review.</span></span> <span data-ttu-id="5da72-144">In de taakhandleiding voor beoordelingen wordt uitgelegd hoe u doelstellingen aan uw beoordelingen toevoegt.</span><span class="sxs-lookup"><span data-stu-id="5da72-144">Refer to the task guide for reviews to see how you can add goals to your reviews.</span></span>  
 
 

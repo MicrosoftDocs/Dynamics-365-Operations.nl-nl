@@ -1,7 +1,7 @@
 ---
 title: Overzicht kwaliteitsbeheer
 description: In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,293 +10,293 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: c2c7a9c82809bd989eb362995dfe8e6d7829e89d
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 28ef47e2dc1f9c7e1c0b262c58332dcfea1f7495
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Overzicht kwaliteitsbeheer
+# <a name="quality-management-overview"></a><span data-ttu-id="54d22-103">Overzicht kwaliteitsbeheer</span><span class="sxs-lookup"><span data-stu-id="54d22-103">Quality management overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
+<span data-ttu-id="54d22-104">In dit artikel wordt beschreven hoe u kwaliteitsbeheer in Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.</span><span class="sxs-lookup"><span data-stu-id="54d22-104">This article describes how you can use quality management in Microsoft Dynamics 365 for Finance and Operations to help improve product quality within your supply chain.</span></span>
 
-Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong. Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Microsoft Dynamics 365 for Finance and Operations taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.
+<span data-ttu-id="54d22-105">Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong.</span><span class="sxs-lookup"><span data-stu-id="54d22-105">Quality management can help you manage turnaround times when you handle nonconforming products, regardless of their point of origin.</span></span> <span data-ttu-id="54d22-106">Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Microsoft Dynamics 365 for Finance and Operations taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.</span><span class="sxs-lookup"><span data-stu-id="54d22-106">Because diagnostic types are linked to correction reporting, Microsoft Dynamics 365 for Finance and Operations can schedule tasks to correct problems and prevent them from recurring.</span></span>
 
-Naast functionaliteit voor het beheer van non-conformiteit omvat het kwaliteitsbeheer functionaliteit voor het bijhouden van problemen op probleemtype (ook interne problemen) en om oplossingen als kortetermijn- of langetermijnoplossingen te identificeren. De statistieken over Key Performance Indicators (KPI´s) bieden inzicht in de geschiedenis van eerdere niet-conformeringsproblemen en de oplossingen die zijn gebruikt om ze te corrigeren. U kunt de historische gegevens gebruiken om de efficiëntie van eerdere kwaliteitsmetingen te controleren en passende stappen voor de toekomst te definiëren.
+<span data-ttu-id="54d22-107">Naast functionaliteit voor het beheer van non-conformiteit omvat het kwaliteitsbeheer functionaliteit voor het bijhouden van problemen op probleemtype (ook interne problemen) en om oplossingen als kortetermijn- of langetermijnoplossingen te identificeren.</span><span class="sxs-lookup"><span data-stu-id="54d22-107">In addition to functionality for managing nonconformance, quality management includes functionality for tracking issues by problem type (even internal problems), and for identifying solutions as short-term or long-term.</span></span> <span data-ttu-id="54d22-108">De statistieken over Key Performance Indicators (KPI´s) bieden inzicht in de geschiedenis van eerdere niet-conformeringsproblemen en de oplossingen die zijn gebruikt om ze te corrigeren.</span><span class="sxs-lookup"><span data-stu-id="54d22-108">Statistics about key performance indicators (KPIs) provide insight into the history of previous nonconformance issues and the solutions that were used to correct them.</span></span> <span data-ttu-id="54d22-109">U kunt de historische gegevens gebruiken om de efficiëntie van eerdere kwaliteitsmetingen te controleren en passende stappen voor de toekomst te definiëren.</span><span class="sxs-lookup"><span data-stu-id="54d22-109">You can use historical data to review the effectiveness of previous quality measures and determine appropriate measures to use in the future.</span></span>
 
-Wanneer u een kwaliteitskoppeling opzet, kan Finance and Operations kwaliteitsorders genereren voor verschillende bedrijfsprocessen, gebeurtenissen en voorwaarden. De kwaliteitskoppeling kan betrekking hebben op een specifiek artikel, een specifieke groep artikelen of alle artikelen.
+<span data-ttu-id="54d22-110">Wanneer u een kwaliteitskoppeling opzet, kan Finance and Operations kwaliteitsorders genereren voor verschillende bedrijfsprocessen, gebeurtenissen en voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-110">When you set up a quality association, Finance and Operations can generate quality orders for various business processes, events, and conditions.</span></span> <span data-ttu-id="54d22-111">De kwaliteitskoppeling kan betrekking hebben op een specifiek artikel, een specifieke groep artikelen of alle artikelen.</span><span class="sxs-lookup"><span data-stu-id="54d22-111">The quality association can cover a specific item, a specific group of items, or all items.</span></span>
 
-## <a name="examples-of-the-use-of-quality-management"></a>Voorbeelden van het gebruik van kwaliteitsbeheer
-Kwaliteitsbeheer is flexibel en kan op verschillende manieren worden geïmplementeerd om aan de vereisten van specifieke niveaus van toeleveringsactiviteiten te voldoen. In de volgende voorbeelden worden mogelijke toepassingen van deze functies beschreven:
+## <a name="examples-of-the-use-of-quality-management"></a><span data-ttu-id="54d22-112">Voorbeelden van het gebruik van kwaliteitsbeheer</span><span class="sxs-lookup"><span data-stu-id="54d22-112">Examples of the use of quality management</span></span>
+<span data-ttu-id="54d22-113">Kwaliteitsbeheer is flexibel en kan op verschillende manieren worden geïmplementeerd om aan de vereisten van specifieke niveaus van toeleveringsactiviteiten te voldoen.</span><span class="sxs-lookup"><span data-stu-id="54d22-113">Quality management is flexible and can be implemented in various ways to meet the requirements of specific levels of supply chain operations.</span></span> <span data-ttu-id="54d22-114">In de volgende voorbeelden worden mogelijke toepassingen van deze functies beschreven:</span><span class="sxs-lookup"><span data-stu-id="54d22-114">The following examples illustrate possible uses of these features:</span></span>
 
--   Start automatisch een kwaliteitscontroleproces, op basis van vooraf gedefinieerde criteria (bij magazijnregistratie van een inkooporder van een specifieke leverancier).
--   Blokkeer voorraad tijdens inspectie om te voorkomen dat niet-goedgekeurde voorraad wordt gebruikt (volledig blokkeren van inkooporderhoeveelheden).
--   Gebruik artikelbemonstering als onderdeel van een kwaliteitskoppeling om te definiëren hoeveel fysieke actuele voorraad moet worden geïnspecteerd. Bemonstering kan betrekking hebben op een vaste hoeveelheid of een percentage. 
--   Maak kwaliteitsorders voor gedeeltelijke ontvangsten. Als u een kwaliteitsorder wilt maken die is gebaseerd op de hoeveelheid die fysiek is ontvangen met een order, moet u het selectievakje **Per bijgewerkte hoeveelheid** op het formulier **Artikelbemonstering** inschakelen. 
--   Maak testtypen die minimum-, maximum- en doeltestwaarden bevatten en voer vergelijkende kwalitatieve en kwantitatieve testen met vooraf gedefinieerde validatieresultaten uit.
--   Geef een acceptabel kwaliteitsniveau op om kwaliteitsmetingstoleranties te beheren.
--   Geef op welke resources een inspectiebewerking nodig hebben, zoals een testgebied en testinstrumenten.
+-   <span data-ttu-id="54d22-115">Start automatisch een kwaliteitscontroleproces, op basis van vooraf gedefinieerde criteria (bij magazijnregistratie van een inkooporder van een specifieke leverancier).</span><span class="sxs-lookup"><span data-stu-id="54d22-115">Automatically start a quality control process, based on predefined criteria (upon warehouse registration of a purchase order from a specific vendor).</span></span>
+-   <span data-ttu-id="54d22-116">Blokkeer voorraad tijdens inspectie om te voorkomen dat niet-goedgekeurde voorraad wordt gebruikt (volledig blokkeren van inkooporderhoeveelheden).</span><span class="sxs-lookup"><span data-stu-id="54d22-116">Block inventory during inspection to prevent non-approved inventory from being used (full blocking of purchase order quantities).</span></span>
+-   <span data-ttu-id="54d22-117">Gebruik artikelbemonstering als onderdeel van een kwaliteitskoppeling om te definiëren hoeveel fysieke actuele voorraad moet worden geïnspecteerd.</span><span class="sxs-lookup"><span data-stu-id="54d22-117">Use item sampling as part of a quality association to define the amount of current physical inventory that must be inspected.</span></span> <span data-ttu-id="54d22-118">Bemonstering kan betrekking hebben op een vaste hoeveelheid of een percentage.</span><span class="sxs-lookup"><span data-stu-id="54d22-118">Sampling can be based on fixed quantities or a percentage.</span></span>
+-   <span data-ttu-id="54d22-119">Maak kwaliteitsorders voor gedeeltelijke ontvangsten.</span><span class="sxs-lookup"><span data-stu-id="54d22-119">Create quality orders for partial receipts.</span></span> <span data-ttu-id="54d22-120">Als u een kwaliteitsorder wilt maken die is gebaseerd op de hoeveelheid die fysiek is ontvangen met een order, moet u het selectievakje **Per bijgewerkte hoeveelheid** op het formulier **Artikelbemonstering** inschakelen.</span><span class="sxs-lookup"><span data-stu-id="54d22-120">To create a quality order that is based on the quantity that is physically received with an order, you must select the **Per updated quantity** check box on the **Item sampling** form.</span></span>
+-   <span data-ttu-id="54d22-121">Maak testtypen die minimum-, maximum- en doeltestwaarden bevatten en voer vergelijkende kwalitatieve en kwantitatieve testen met vooraf gedefinieerde validatieresultaten uit.</span><span class="sxs-lookup"><span data-stu-id="54d22-121">Create test types that include minimum, maximum, and target test values, and perform qualitative-versus-quantitative testing that has predefined validation results.</span></span>
+-   <span data-ttu-id="54d22-122">Geef een acceptabel kwaliteitsniveau op om kwaliteitsmetingstoleranties te beheren.</span><span class="sxs-lookup"><span data-stu-id="54d22-122">Specify an acceptable quality level (AQL) to control quality measure tolerances.</span></span>
+-   <span data-ttu-id="54d22-123">Geef op welke resources een inspectiebewerking nodig hebben, zoals een testgebied en testinstrumenten.</span><span class="sxs-lookup"><span data-stu-id="54d22-123">Specify the resources that an inspection operation requires, such as a test area and test instruments.</span></span>
 
-## <a name="working-with-quality-associations"></a>Werken met kwaliteitskoppelingen
-Bedrijfsprocessen die gebruikmaken van een kwaliteitskoppeling, kunnen betrekking hebben op verschillende brondocumenten, zoals inkooporders, verkooporders of productieorders. 
+## <a name="working-with-quality-associations"></a><span data-ttu-id="54d22-124">Werken met kwaliteitskoppelingen</span><span class="sxs-lookup"><span data-stu-id="54d22-124">Working with quality associations</span></span>
+<span data-ttu-id="54d22-125">Bedrijfsprocessen die gebruikmaken van een kwaliteitskoppeling, kunnen betrekking hebben op verschillende brondocumenten, zoals inkooporders, verkooporders of productieorders.</span><span class="sxs-lookup"><span data-stu-id="54d22-125">The business process that uses a quality association can be related to various source documents, such as purchase orders, sales orders, or production orders.</span></span>
 
-Elk kwaliteitskoppelingsrecord definieert de set met testen, het aanvaardbare kwaliteitsniveau en het bemonsteringsplan dat van toepassing is op de gegenereerde kwaliteitsorders. U moet een kwaliteitskoppelingsrecord definiëren voor elke variatie in een bedrijfsproces. U kunt bijvoorbeeld een kwaliteitskoppeling opzetten die een kwaliteitsorder genereert wanneer een productontvangstbon voor een inkooporder wordt bijgewerkt. Afhankelijk van de instelling van het uitvoeringsplan, kan het activerende proces zelf worden geblokkeerd terwijl er een kwaliteitsorder geopend is of kunnen volgende processen, zoals de facturering van inkooporders, worden geblokkeerd. 
+<span data-ttu-id="54d22-126">Elk kwaliteitskoppelingsrecord definieert de set met testen, het aanvaardbare kwaliteitsniveau en het bemonsteringsplan dat van toepassing is op de gegenereerde kwaliteitsorders.</span><span class="sxs-lookup"><span data-stu-id="54d22-126">Each quality association record defines the set of tests, the AQL, and the sampling plan that applies to the quality orders that are generated.</span></span> <span data-ttu-id="54d22-127">U moet een kwaliteitskoppelingsrecord definiëren voor elke variatie in een bedrijfsproces.</span><span class="sxs-lookup"><span data-stu-id="54d22-127">You must define a quality association record for each variation in a business process.</span></span> <span data-ttu-id="54d22-128">U kunt bijvoorbeeld een kwaliteitskoppeling opzetten die een kwaliteitsorder genereert wanneer een productontvangstbon voor een inkooporder wordt bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="54d22-128">For example, you can set up a quality association that generates a quality order when a purchase order product receipt is updated.</span></span> <span data-ttu-id="54d22-129">Afhankelijk van de instelling van het uitvoeringsplan, kan het activerende proces zelf worden geblokkeerd terwijl er een kwaliteitsorder geopend is of kunnen volgende processen, zoals de facturering van inkooporders, worden geblokkeerd.</span><span class="sxs-lookup"><span data-stu-id="54d22-129">Depending on the setup of the execution plan, the triggering process itself can be blocked while there is an open quality order, or the next processes, such as purchase order invoicing, can be blocked.</span></span>
 
-**Opmerking:** wanneer er kwaliteitsorders open staan, wordt de uitgave van voorraadhoeveelheden die zijn opgegeven in kwaliteitsorder automatisch geblokkeerd. Afhankelijk van de instelling **Volledig blokkeren** op de pagina **Artikelbemonsteringen**, is de hoeveelheid de hoeveelheid op de kwaliteit op de brondocumentregel. 
+<span data-ttu-id="54d22-130">**Opmerking:** wanneer er kwaliteitsorders open staan, wordt de uitgave van voorraadhoeveelheden die zijn opgegeven in kwaliteitsorder automatisch geblokkeerd.</span><span class="sxs-lookup"><span data-stu-id="54d22-130">**Note:** While there are open quality orders, inventory quantities are automatically blocked from being issued.</span></span> <span data-ttu-id="54d22-131">Afhankelijk van de instelling **Volledig blokkeren** op de pagina **Artikelbemonsteringen**, is de hoeveelheid de hoeveelheid op de kwaliteit op de brondocumentregel.</span><span class="sxs-lookup"><span data-stu-id="54d22-131">Depending on the **Full blocking** setting on the **Item samplings** page, the quantity is either the quantity on the quality order or the quantity on the source document line.</span></span>
 
-De kwaliteitskoppeling identificeert voor een opgegeven bedrijfsproces de gebeurtenis en de omstandigheden waarin een kwaliteitsorder wordt gegenereerd. De voorwaarden kunnen specifiek voor een site of een rechtspersoon zijn. Een kwaliteitsorder waarvoor destructieve testen worden uitgevoerd, kan alleen worden gegenereerd als er voorraad voor de gebeurtenis voorhanden is. 
+<span data-ttu-id="54d22-132">De kwaliteitskoppeling identificeert voor een opgegeven bedrijfsproces de gebeurtenis en de omstandigheden waarin een kwaliteitsorder wordt gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="54d22-132">For a given business process, the quality association record identifies the event and the conditions that a quality order is generated for.</span></span> <span data-ttu-id="54d22-133">De voorwaarden kunnen specifiek voor een site of een rechtspersoon zijn.</span><span class="sxs-lookup"><span data-stu-id="54d22-133">The conditions can be specific to either a site or a legal entity.</span></span> <span data-ttu-id="54d22-134">Een kwaliteitsorder waarvoor destructieve testen worden uitgevoerd, kan alleen worden gegenereerd als er voorraad voor de gebeurtenis voorhanden is.</span><span class="sxs-lookup"><span data-stu-id="54d22-134">A quality order that involves destructive tests can be generated only when on-hand inventory exists for the event.</span></span>
 
-In de volgende voorbeelden ziet u hoe een kwaliteitskoppelingsrecord wordt gedefinieerd voor de verschillen in elk bedrijfsproces. Voor elk voorbeeld worden in de volgende tabel de gebeurtenissen en voorwaarden samengevat die door een kwaliteitskoppelingsrecord zijn gedefinieerd.
+<span data-ttu-id="54d22-135">In de volgende voorbeelden ziet u hoe een kwaliteitskoppelingsrecord wordt gedefinieerd voor de verschillen in elk bedrijfsproces.</span><span class="sxs-lookup"><span data-stu-id="54d22-135">The following examples illustrate how a quality association record is defined for the variations in each business process.</span></span> <span data-ttu-id="54d22-136">Voor elk voorbeeld worden in de volgende tabel de gebeurtenissen en voorwaarden samengevat die door een kwaliteitskoppelingsrecord zijn gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="54d22-136">For each example, the following table summarizes the events and conditions that are defined by a quality association record.</span></span>
 
 <table>
 <tbody>
 <tr>
-<th>Verwijzingstype</th>
-<th>Gebeurtenistype</th>
-<th>Uitvoering</th>
-<th>Gebeurtenisblokkering</th>
-<th>Documentverwijzing</th>
+<th><span data-ttu-id="54d22-137">Verwijzingstype</span><span class="sxs-lookup"><span data-stu-id="54d22-137">Reference type</span></span></th>
+<th><span data-ttu-id="54d22-138">Gebeurtenistype</span><span class="sxs-lookup"><span data-stu-id="54d22-138">Event type</span></span></th>
+<th><span data-ttu-id="54d22-139">Uitvoering</span><span class="sxs-lookup"><span data-stu-id="54d22-139">Execution</span></span></th>
+<th><span data-ttu-id="54d22-140">Gebeurtenisblokkering</span><span class="sxs-lookup"><span data-stu-id="54d22-140">Event blocking</span></span></th>
+<th><span data-ttu-id="54d22-141">Documentverwijzing</span><span class="sxs-lookup"><span data-stu-id="54d22-141">Document reference</span></span></th>
 </tr>
 <tr>
-<td>Voorraad</td>
-<td>Niet van toepassing</td>
-<td>Niet van toepassing</td>
-<td>Geen</td>
-<td>Alle</td>
+<td><span data-ttu-id="54d22-142">Voorraad</span><span class="sxs-lookup"><span data-stu-id="54d22-142">Inventory</span></span></td>
+<td><span data-ttu-id="54d22-143">Niet van toepassing</span><span class="sxs-lookup"><span data-stu-id="54d22-143">Not applicable</span></span></td>
+<td><span data-ttu-id="54d22-144">Niet van toepassing</span><span class="sxs-lookup"><span data-stu-id="54d22-144">Not applicable</span></span></td>
+<td><span data-ttu-id="54d22-145">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-145">None</span></span></td>
+<td><span data-ttu-id="54d22-146">Alle</span><span class="sxs-lookup"><span data-stu-id="54d22-146">All</span></span></td>
 </tr>
 <tr>
-<td rowspan="7">Verkoop</td>
-<td rowspan="4">Verzamelproces is gepland</td>
-<td rowspan="4">Vóór</td>
-<td>Geen</td>
-<td rowspan="22">Specifieke id, Groep of alleen Alle</td>
+<td rowspan="7"><span data-ttu-id="54d22-147">Verkoop</span><span class="sxs-lookup"><span data-stu-id="54d22-147">Sales</span></span></td>
+<td rowspan="4"><span data-ttu-id="54d22-148">Verzamelproces is gepland</span><span class="sxs-lookup"><span data-stu-id="54d22-148">Picking process is scheduled</span></span></td>
+<td rowspan="4"><span data-ttu-id="54d22-149">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-149">Before</span></span></td>
+<td><span data-ttu-id="54d22-150">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-150">None</span></span></td>
+<td rowspan="22"><span data-ttu-id="54d22-151">Specifieke id, Groep of alleen Alle</span><span class="sxs-lookup"><span data-stu-id="54d22-151">Specific ID, Group, or All only</span></span></td>
 </tr>
 <tr>
-<td>Verzamelproces</td>
+<td><span data-ttu-id="54d22-152">Verzamelproces</span><span class="sxs-lookup"><span data-stu-id="54d22-152">Picking process</span></span></td>
 </tr>
 <tr>
-<td>Pakbon</td>
+<td><span data-ttu-id="54d22-153">Pakbon</span><span class="sxs-lookup"><span data-stu-id="54d22-153">Packing slip</span></span></td>
 </tr>
 <tr>
-<td>Factuur</td>
+<td><span data-ttu-id="54d22-154">Factuur</span><span class="sxs-lookup"><span data-stu-id="54d22-154">Invoice</span></span></td>
 </tr>
 <tr>
-<td rowspan="3">Pakbon</td>
-<td rowspan="3">Vóór</td>
-<td>Geen</td>
+<td rowspan="3"><span data-ttu-id="54d22-155">Pakbon</span><span class="sxs-lookup"><span data-stu-id="54d22-155">Packing slip</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-156">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-156">Before</span></span></td>
+<td><span data-ttu-id="54d22-157">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-157">None</span></span></td>
 </tr>
 <tr>
-<td>Pakbon</td>
+<td><span data-ttu-id="54d22-158">Pakbon</span><span class="sxs-lookup"><span data-stu-id="54d22-158">Packing slip</span></span></td>
 </tr>
 <tr>
-<td>Factuur</td>
+<td><span data-ttu-id="54d22-159">Factuur</span><span class="sxs-lookup"><span data-stu-id="54d22-159">Invoice</span></span></td>
 </tr>
 <tr>
-<td rowspan="15">Inkoop</td>
-<td rowspan="7">Ontvangstlijst</td>
-<td rowspan="4">Vóór</td>
-<td>Geen</td>
+<td rowspan="15"><span data-ttu-id="54d22-160">Inkoop</span><span class="sxs-lookup"><span data-stu-id="54d22-160">Purchase</span></span></td>
+<td rowspan="7"><span data-ttu-id="54d22-161">Ontvangstlijst</span><span class="sxs-lookup"><span data-stu-id="54d22-161">Receipt list</span></span></td>
+<td rowspan="4"><span data-ttu-id="54d22-162">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-162">Before</span></span></td>
+<td><span data-ttu-id="54d22-163">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-163">None</span></span></td>
 </tr>
 <tr>
-<td>Ontvangstlijst</td>
+<td><span data-ttu-id="54d22-164">Ontvangstlijst</span><span class="sxs-lookup"><span data-stu-id="54d22-164">Receipt list</span></span></td>
 </tr>
 <tr>
-<td>Productontvangstbon</td>
+<td><span data-ttu-id="54d22-165">Productontvangstbon</span><span class="sxs-lookup"><span data-stu-id="54d22-165">Product receipt</span></span></td>
 </tr>
 <tr>
-<td>Factuur</td>
+<td><span data-ttu-id="54d22-166">Factuur</span><span class="sxs-lookup"><span data-stu-id="54d22-166">Invoice</span></span></td>
 </tr>
 <tr>
-<td rowspan="3">Na</td>
-<td>Geen</td>
+<td rowspan="3"><span data-ttu-id="54d22-167">Na</span><span class="sxs-lookup"><span data-stu-id="54d22-167">After</span></span></td>
+<td><span data-ttu-id="54d22-168">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-168">None</span></span></td>
 </tr>
 <tr>
-<td>Productontvangstbon</td>
+<td><span data-ttu-id="54d22-169">Productontvangstbon</span><span class="sxs-lookup"><span data-stu-id="54d22-169">Product receipt</span></span></td>
 </tr>
 <tr>
-<td>Factuur</td>
+<td><span data-ttu-id="54d22-170">Factuur</span><span class="sxs-lookup"><span data-stu-id="54d22-170">Invoice</span></span></td>
 </tr>
 <tr>
-<td rowspan="3">Registratie</td>
-<td rowspan="3">Niet van toepassing</td>
-<td>Geen</td>
+<td rowspan="3"><span data-ttu-id="54d22-171">Registratie</span><span class="sxs-lookup"><span data-stu-id="54d22-171">Registration</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-172">Niet van toepassing</span><span class="sxs-lookup"><span data-stu-id="54d22-172">Not applicable</span></span></td>
+<td><span data-ttu-id="54d22-173">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-173">None</span></span></td>
 </tr>
 <tr>
-<td>Productontvangstbon</td>
+<td><span data-ttu-id="54d22-174">Productontvangstbon</span><span class="sxs-lookup"><span data-stu-id="54d22-174">Product receipt</span></span></td>
 </tr>
 <tr>
-<td>Factuur</td>
+<td><span data-ttu-id="54d22-175">Factuur</span><span class="sxs-lookup"><span data-stu-id="54d22-175">Invoice</span></span></td>
 </tr>
 <tr>
-<td rowspan="5">Productontvangstbon</td>
-<td rowspan="3">Vóór</td>
-<td>Geen</td>
+<td rowspan="5"><span data-ttu-id="54d22-176">Productontvangstbon</span><span class="sxs-lookup"><span data-stu-id="54d22-176">Product receipt</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-177">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-177">Before</span></span></td>
+<td><span data-ttu-id="54d22-178">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-178">None</span></span></td>
 </tr>
 <tr>
-<td>Productontvangstbon</td>
+<td><span data-ttu-id="54d22-179">Productontvangstbon</span><span class="sxs-lookup"><span data-stu-id="54d22-179">Product receipt</span></span></td>
 </tr>
 <tr>
-<td>Factuur</td>
+<td><span data-ttu-id="54d22-180">Factuur</span><span class="sxs-lookup"><span data-stu-id="54d22-180">Invoice</span></span></td>
 </tr>
 <tr>
-<td rowspan="2">Na</td>
-<td>Geen</td>
+<td rowspan="2"><span data-ttu-id="54d22-181">Na</span><span class="sxs-lookup"><span data-stu-id="54d22-181">After</span></span></td>
+<td><span data-ttu-id="54d22-182">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-182">None</span></span></td>
 </tr>
 <tr>
-<td>Factuur</td>
+<td><span data-ttu-id="54d22-183">Factuur</span><span class="sxs-lookup"><span data-stu-id="54d22-183">Invoice</span></span></td>
 </tr>
 <tr>
-<td rowspan="8">Productie</td>
-<td rowspan="3">Registratie</td>
-<td rowspan="3">Niet van toepassing</td>
-<td>Geen</td>
-<td rowspan="12">Alle</td>
+<td rowspan="8"><span data-ttu-id="54d22-184">Productie</span><span class="sxs-lookup"><span data-stu-id="54d22-184">Production</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-185">Registratie</span><span class="sxs-lookup"><span data-stu-id="54d22-185">Registration</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-186">Niet van toepassing</span><span class="sxs-lookup"><span data-stu-id="54d22-186">Not applicable</span></span></td>
+<td><span data-ttu-id="54d22-187">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-187">None</span></span></td>
+<td rowspan="12"><span data-ttu-id="54d22-188">Alle</span><span class="sxs-lookup"><span data-stu-id="54d22-188">All</span></span></td>
 </tr>
 <tr>
-<td>Rapporteren als gereed</td>
+<td><span data-ttu-id="54d22-189">Rapporteren als gereed</span><span class="sxs-lookup"><span data-stu-id="54d22-189">Report as finished</span></span></td>
 </tr>
 <tr>
-<td>Beëindigen</td>
+<td><span data-ttu-id="54d22-190">Beëindigen</span><span class="sxs-lookup"><span data-stu-id="54d22-190">End</span></span></td>
 </tr>
 <tr>
-<td rowspan="5">Rapporteren als gereed</td>
-<td rowspan="3">Vóór</td>
-<td>Geen</td>
+<td rowspan="5"><span data-ttu-id="54d22-191">Rapporteren als gereed</span><span class="sxs-lookup"><span data-stu-id="54d22-191">Report as finished</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-192">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-192">Before</span></span></td>
+<td><span data-ttu-id="54d22-193">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-193">None</span></span></td>
 </tr>
 <tr>
-<td>Rapporteren als gereed</td>
+<td><span data-ttu-id="54d22-194">Rapporteren als gereed</span><span class="sxs-lookup"><span data-stu-id="54d22-194">Report as finished</span></span></td>
 </tr>
 <tr>
-<td>Beëindigen</td>
+<td><span data-ttu-id="54d22-195">Beëindigen</span><span class="sxs-lookup"><span data-stu-id="54d22-195">End</span></span></td>
 </tr>
 <tr>
-<td rowspan="2">Na</td>
-<td>Geen</td>
+<td rowspan="2"><span data-ttu-id="54d22-196">Na</span><span class="sxs-lookup"><span data-stu-id="54d22-196">After</span></span></td>
+<td><span data-ttu-id="54d22-197">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-197">None</span></span></td>
 </tr>
 <tr>
-<td>Beëindigen</td>
+<td><span data-ttu-id="54d22-198">Beëindigen</span><span class="sxs-lookup"><span data-stu-id="54d22-198">End</span></span></td>
 </tr>
 <tr>
-<td rowspan="4">Quarantaine</td>
-<td rowspan="3">Rapporteren als gereed</td>
-<td rowspan="2">Vóór</td>
-<td>Rapporteren als gereed</td>
+<td rowspan="4"><span data-ttu-id="54d22-199">Quarantaine</span><span class="sxs-lookup"><span data-stu-id="54d22-199">Quarantine</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-200">Rapporteren als gereed</span><span class="sxs-lookup"><span data-stu-id="54d22-200">Report as finished</span></span></td>
+<td rowspan="2"><span data-ttu-id="54d22-201">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-201">Before</span></span></td>
+<td><span data-ttu-id="54d22-202">Rapporteren als gereed</span><span class="sxs-lookup"><span data-stu-id="54d22-202">Report as finished</span></span></td>
 </tr>
 <tr>
-<td>Beëindigen</td>
+<td><span data-ttu-id="54d22-203">Beëindigen</span><span class="sxs-lookup"><span data-stu-id="54d22-203">End</span></span></td>
 </tr>
 <tr>
-<td>Na</td>
-<td>Beëindigen</td>
+<td><span data-ttu-id="54d22-204">Na</span><span class="sxs-lookup"><span data-stu-id="54d22-204">After</span></span></td>
+<td><span data-ttu-id="54d22-205">Beëindigen</span><span class="sxs-lookup"><span data-stu-id="54d22-205">End</span></span></td>
 </tr>
 <tr>
-<td>Beëindigen</td>
-<td>Vóór</td>
-<td>Beëindigen</td>
+<td><span data-ttu-id="54d22-206">Beëindigen</span><span class="sxs-lookup"><span data-stu-id="54d22-206">End</span></span></td>
+<td><span data-ttu-id="54d22-207">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-207">Before</span></span></td>
+<td><span data-ttu-id="54d22-208">Beëindigen</span><span class="sxs-lookup"><span data-stu-id="54d22-208">End</span></span></td>
 </tr>
 <tr>
-<td rowspan="3">Routebewerking</td>
-<td rowspan="3">Rapporteren als gereed</td>
-<td rowspan="2">Vóór</td>
-<td>Geen</td>
-<td rowspan="3">Specifieke id, Groep of Alle, en Resourcespecifiek, Groep of Alle</td>
+<td rowspan="3"><span data-ttu-id="54d22-209">Routebewerking</span><span class="sxs-lookup"><span data-stu-id="54d22-209">Route operation</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-210">Rapporteren als gereed</span><span class="sxs-lookup"><span data-stu-id="54d22-210">Report as finished</span></span></td>
+<td rowspan="2"><span data-ttu-id="54d22-211">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-211">Before</span></span></td>
+<td><span data-ttu-id="54d22-212">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-212">None</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-213">Specifieke id, Groep of Alle, en Resourcespecifiek, Groep of Alle</span><span class="sxs-lookup"><span data-stu-id="54d22-213">Specific ID, Group, or All, and Resource specific, Group, or All</span></span></td>
 </tr>
 <tr>
-<td>Rapporteren als gereed</td>
+<td><span data-ttu-id="54d22-214">Rapporteren als gereed</span><span class="sxs-lookup"><span data-stu-id="54d22-214">Report as finished</span></span></td>
 </tr>
 <tr>
-<td>Na</td>
-<td>Geen</td>
+<td><span data-ttu-id="54d22-215">Na</span><span class="sxs-lookup"><span data-stu-id="54d22-215">After</span></span></td>
+<td><span data-ttu-id="54d22-216">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-216">None</span></span></td>
 </tr>
 <tr>
-<td rowspan="3">Productie van coproducten</td>
-<td>Registratie</td>
-<td>Niet van toepassing</td>
-<td rowspan="3">Geen</td>
-<td rowspan="3">Alle</td>
+<td rowspan="3"><span data-ttu-id="54d22-217">Productie van coproducten</span><span class="sxs-lookup"><span data-stu-id="54d22-217">Co-product production</span></span></td>
+<td><span data-ttu-id="54d22-218">Registratie</span><span class="sxs-lookup"><span data-stu-id="54d22-218">Registration</span></span></td>
+<td><span data-ttu-id="54d22-219">Niet van toepassing</span><span class="sxs-lookup"><span data-stu-id="54d22-219">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-220">Geen</span><span class="sxs-lookup"><span data-stu-id="54d22-220">None</span></span></td>
+<td rowspan="3"><span data-ttu-id="54d22-221">Alle</span><span class="sxs-lookup"><span data-stu-id="54d22-221">All</span></span></td>
 </tr>
 <tr>
-<td rowspan="2">Rapporteren als gereed</td>
-<td>Vóór</td>
+<td rowspan="2"><span data-ttu-id="54d22-222">Rapporteren als gereed</span><span class="sxs-lookup"><span data-stu-id="54d22-222">Report as finished</span></span></td>
+<td><span data-ttu-id="54d22-223">Vóór</span><span class="sxs-lookup"><span data-stu-id="54d22-223">Before</span></span></td>
 </tr>
 <tr>
-<td>Na</td>
+<td><span data-ttu-id="54d22-224">Na</span><span class="sxs-lookup"><span data-stu-id="54d22-224">After</span></span></td>
 </tr>
 </tbody>
 </table>
 
-De volgende tabel bevat meer informatie over de manier waarop kwaliteitsorders kunnen worden gegenereerd voor specifieke typen processen.
+<span data-ttu-id="54d22-225">De volgende tabel bevat meer informatie over de manier waarop kwaliteitsorders kunnen worden gegenereerd voor specifieke typen processen.</span><span class="sxs-lookup"><span data-stu-id="54d22-225">The following table provides more information about how quality orders can be generated for specific types of processes.</span></span>
 <div class="tableSection">
 
 <table>
 <tbody>
 <tr>
-<th>Procestypen</th>
-<th>Wanneer automatisch kwaliteitsorders kunnen worden gegenereerd</th>
-<th>Wanneer kwaliteitsorders kunnen worden gegenereerd als destructieve testen vereist zijn</th>
-<th>Informatie over voorwaarden</th>
-<th>Handmatig informatie genereren</th>
+<th><span data-ttu-id="54d22-226">Procestypen</span><span class="sxs-lookup"><span data-stu-id="54d22-226">Type of process</span></span></th>
+<th><span data-ttu-id="54d22-227">Wanneer automatisch kwaliteitsorders kunnen worden gegenereerd</span><span class="sxs-lookup"><span data-stu-id="54d22-227">When quality orders can be automatically generated</span></span></th>
+<th><span data-ttu-id="54d22-228">Wanneer kwaliteitsorders kunnen worden gegenereerd als destructieve testen vereist zijn</span><span class="sxs-lookup"><span data-stu-id="54d22-228">When quality orders can be generated if destructive testing is required</span></span></th>
+<th><span data-ttu-id="54d22-229">Informatie over voorwaarden</span><span class="sxs-lookup"><span data-stu-id="54d22-229">Condition information</span></span></th>
+<th><span data-ttu-id="54d22-230">Handmatig informatie genereren</span><span class="sxs-lookup"><span data-stu-id="54d22-230">Manual generation information</span></span></th>
 </tr>
 <tr>
-<td>Inkooporder</td>
-<td>Vóór of nadat een ontvangstlijst of productontvangstbon voor het ontvangen materiaal wordt geboekt</td>
-<td>Nadat de productontvangstbon voor het ontvangen materiaal is geboekt, aangezien het materiaal beschikbaar dient te zijn voor destructieve testen</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde leverancier of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een inkooporder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
+<td><span data-ttu-id="54d22-231">Inkooporder</span><span class="sxs-lookup"><span data-stu-id="54d22-231">Purchase order</span></span></td>
+<td><span data-ttu-id="54d22-232">Vóór of nadat een ontvangstlijst of productontvangstbon voor het ontvangen materiaal wordt geboekt</span><span class="sxs-lookup"><span data-stu-id="54d22-232">Before or after a receipts list or product receipt for the material that is received is posted</span></span></td>
+<td><span data-ttu-id="54d22-233">Nadat de productontvangstbon voor het ontvangen materiaal is geboekt, aangezien het materiaal beschikbaar dient te zijn voor destructieve testen</span><span class="sxs-lookup"><span data-stu-id="54d22-233">After the product receipt for the material that is received is posted, because the material must be available for destructive testing</span></span></td>
+<td><span data-ttu-id="54d22-234">De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde leverancier of een combinatie van deze voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-234">The requirement for a quality order can reflect a particular site, item, or vendor, or a combination of these conditions.</span></span></td>
+<td><span data-ttu-id="54d22-235">Een handmatig gegenereerde kwaliteitsorder die naar een inkooporder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</span><span class="sxs-lookup"><span data-stu-id="54d22-235">A manually generated quality order that refers to a purchase order can use information in a quality association record, such as the test sampling plan.</span></span></td>
 </tr>
 <tr>
-<td>Quarantaineorder</td>
-<td>Vóór of nadat de quarantaineorder is gerapporteerd als voltooid of beëindigd</td>
-<td>Kwaliteitsorders waarvoor destructieve testen vereist zijn, kunnen niet worden gegenereerd. Er wordt verondersteld dat de functie voor quarantaineorders de rangschikking verwerkt van het materiaal dat wordt vernietigd.</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde leverancier of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een quarantaineorder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
+<td><span data-ttu-id="54d22-236">Quarantaineorder</span><span class="sxs-lookup"><span data-stu-id="54d22-236">Quarantine order</span></span></td>
+<td><span data-ttu-id="54d22-237">Vóór of nadat de quarantaineorder is gerapporteerd als voltooid of beëindigd</span><span class="sxs-lookup"><span data-stu-id="54d22-237">Before or after the quarantine order is reported as finished or ended</span></span></td>
+<td><span data-ttu-id="54d22-238">Kwaliteitsorders waarvoor destructieve testen vereist zijn, kunnen niet worden gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="54d22-238">Quality orders that require destructive tests can't be generated.</span></span> <span data-ttu-id="54d22-239">Er wordt verondersteld dat de functie voor quarantaineorders de rangschikking verwerkt van het materiaal dat wordt vernietigd.</span><span class="sxs-lookup"><span data-stu-id="54d22-239">It's assumed that the quarantine order functionality handles the disposition of the material that is destroyed.</span></span></td>
+<td><span data-ttu-id="54d22-240">De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde leverancier of een combinatie van deze voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-240">The requirement for a quality order can reflect a particular site, item, or vendor, or a combination of these conditions.</span></span></td>
+<td><span data-ttu-id="54d22-241">Een handmatig gegenereerde kwaliteitsorder die naar een quarantaineorder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</span><span class="sxs-lookup"><span data-stu-id="54d22-241">A manually generated quality order that refers to a quarantine order can use information in a quality association record, such as the test sampling plan.</span></span></td>
 </tr>
 <tr>
-<td>Verkooporder</td>
-<td>Vóór een gepland orderverzamelproces of pakbonupdate voor de artikelen die worden verzonden</td>
-<td>Bij elke stap</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde klant of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een verkooporder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
+<td><span data-ttu-id="54d22-242">Verkooporder</span><span class="sxs-lookup"><span data-stu-id="54d22-242">Sales order</span></span></td>
+<td><span data-ttu-id="54d22-243">Vóór een gepland orderverzamelproces of pakbonupdate voor de artikelen die worden verzonden</span><span class="sxs-lookup"><span data-stu-id="54d22-243">Before a scheduled picking process or packing slip update for the items that are being shipped</span></span></td>
+<td><span data-ttu-id="54d22-244">Bij elke stap</span><span class="sxs-lookup"><span data-stu-id="54d22-244">At any step</span></span></td>
+<td><span data-ttu-id="54d22-245">De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde klant of een combinatie van deze voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-245">The requirement for a quality order can reflect a particular site, item, or customer, or a combination of these conditions.</span></span></td>
+<td><span data-ttu-id="54d22-246">Een handmatig gegenereerde kwaliteitsorder die naar een verkooporder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</span><span class="sxs-lookup"><span data-stu-id="54d22-246">A manually generated quality order that refers to a sales order can use information in a quality association record, such as the test sampling plan.</span></span></td>
 </tr>
 <tr>
-<td>Productieorder</td>
-<td>Vóór of nadat de voltooide hoeveelheid voor de productieorder wordt gerapporteerd</td>
-<td>Nadat de voltooide hoeveelheid voor de productieorder wordt gerapporteerd</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een productieorder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
+<td><span data-ttu-id="54d22-247">Productieorder</span><span class="sxs-lookup"><span data-stu-id="54d22-247">Production order</span></span></td>
+<td><span data-ttu-id="54d22-248">Vóór of nadat de voltooide hoeveelheid voor de productieorder wordt gerapporteerd</span><span class="sxs-lookup"><span data-stu-id="54d22-248">Before or after the finished quantity for the production order is reported</span></span></td>
+<td><span data-ttu-id="54d22-249">Nadat de voltooide hoeveelheid voor de productieorder wordt gerapporteerd</span><span class="sxs-lookup"><span data-stu-id="54d22-249">After the finished quantity for the production order is reported</span></span></td>
+<td><span data-ttu-id="54d22-250">De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel of een combinatie van deze voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-250">The requirement for a quality order can reflect a particular site or item, or a combination of these conditions.</span></span></td>
+<td><span data-ttu-id="54d22-251">Een handmatig gegenereerde kwaliteitsorder die naar een productieorder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</span><span class="sxs-lookup"><span data-stu-id="54d22-251">A manually generated quality order that refers to a production order can use information in a quality association record, such as the test sampling plan.</span></span></td>
 </tr>
 <tr>
-<td>Productieorder met een routebewerking</td>
-<td>Voor of nadat het rapport voor een bewerking wordt voltooid</td>
-<td>Nadat de rapportageproductie voor de laatste bewerking wordt voltooid</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde bron voor bedrijfsactiviteiten of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een routebewerking verwijst, kan gebruikmaken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
+<td><span data-ttu-id="54d22-252">Productieorder met een routebewerking</span><span class="sxs-lookup"><span data-stu-id="54d22-252">Production order that has a route operation</span></span></td>
+<td><span data-ttu-id="54d22-253">Voor of nadat het rapport voor een bewerking wordt voltooid</span><span class="sxs-lookup"><span data-stu-id="54d22-253">Before or after the report is finished for an operation</span></span></td>
+<td><span data-ttu-id="54d22-254">Nadat de rapportageproductie voor de laatste bewerking wordt voltooid</span><span class="sxs-lookup"><span data-stu-id="54d22-254">After the reporting production is finished for the last operation</span></span></td>
+<td><span data-ttu-id="54d22-255">De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde bron voor bedrijfsactiviteiten of een combinatie van deze voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-255">The requirement for a quality order can reflect a particular, site, item, or operations resource, or a combination of these conditions.</span></span></td>
+<td><span data-ttu-id="54d22-256">Een handmatig gegenereerde kwaliteitsorder die naar een routebewerking verwijst, kan gebruikmaken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</span><span class="sxs-lookup"><span data-stu-id="54d22-256">A manually generated quality order that refers to a route operation can use information in a quality association record, such as the test sampling plan.</span></span></td>
 </tr>
 <tr>
-<td>Voorraad</td>
-<td>Er kan niet automatisch een kwaliteitsorder worden gegenereerd voor een transactie in een voorraadjournaal of voor overdrachtordertransacties.</td>
+<td><span data-ttu-id="54d22-257">Voorraad</span><span class="sxs-lookup"><span data-stu-id="54d22-257">Inventory</span></span></td>
+<td><span data-ttu-id="54d22-258">Er kan niet automatisch een kwaliteitsorder worden gegenereerd voor een transactie in een voorraadjournaal of voor overdrachtordertransacties.</span><span class="sxs-lookup"><span data-stu-id="54d22-258">A quality order cannot be automatically generated for a transaction in an inventory journal or for transfer order transactions.</span></span></td>
 <td></td>
 <td></td>
-<td>Er dient handmatig een kwaliteitsorder te worden gemaakt voor de voorraadhoeveelheid van een artikel. Fysieke voorhanden voorraad is vereist.</td>
+<td><span data-ttu-id="54d22-259">Er dient handmatig een kwaliteitsorder te worden gemaakt voor de voorraadhoeveelheid van een artikel.</span><span class="sxs-lookup"><span data-stu-id="54d22-259">A quality order must be created manually for an item's inventory quantity.</span></span> <span data-ttu-id="54d22-260">Fysieke voorhanden voorraad is vereist.</span><span class="sxs-lookup"><span data-stu-id="54d22-260">Physical on-hand inventory is required.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="quality-management-pages"></a>Kwaliteitsbeheerpagina's
+## <a name="quality-management-pages"></a><span data-ttu-id="54d22-261">Kwaliteitsbeheerpagina's</span><span class="sxs-lookup"><span data-stu-id="54d22-261">Quality management pages</span></span>
 <table>
 <colgroup>
 <col width="33%" />
@@ -305,65 +305,62 @@ De volgende tabel bevat meer informatie over de manier waarop kwaliteitsorders k
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pagina</th>
-<th>Beschrijving</th>
-<th>Voorbeeld</th>
+<th><span data-ttu-id="54d22-262">Pagina</span><span class="sxs-lookup"><span data-stu-id="54d22-262">Page</span></span></th>
+<th><span data-ttu-id="54d22-263">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="54d22-263">Description</span></span></th>
+<th><span data-ttu-id="54d22-264">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="54d22-264">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kwaliteitskoppelingen</td>
-<td>Zie de vorige secties van dit artikel.</td>
-<td>Met een kwaliteitskoppeling worden de volgende gegevens gedefinieerd voor een gegenereerde kwaliteitsorder:
+<td><span data-ttu-id="54d22-265">Kwaliteitskoppelingen</span><span class="sxs-lookup"><span data-stu-id="54d22-265">Quality associations</span></span></td>
+<td><span data-ttu-id="54d22-266">Zie de vorige secties van dit artikel.</span><span class="sxs-lookup"><span data-stu-id="54d22-266">See the previous sections of this article.</span></span></td>
+<td><span data-ttu-id="54d22-267">Met een kwaliteitskoppeling worden de volgende gegevens gedefinieerd voor een gegenereerde kwaliteitsorder:</span><span class="sxs-lookup"><span data-stu-id="54d22-267">A quality association defines all the following information for a quality order that is generated:</span></span>
 <ul>
-<li>De transactiegebeurtenis</li>
-<li>De tests die op de artikelen moeten worden uitgevoerd</li>
-<li>Het acceptabele kwaliteitsniveau</li>
-<li>Het bemonsteringsplan</li>
+<li><span data-ttu-id="54d22-268">De transactiegebeurtenis</span><span class="sxs-lookup"><span data-stu-id="54d22-268">The transaction event</span></span></li>
+<li><span data-ttu-id="54d22-269">De tests die op de artikelen moeten worden uitgevoerd</span><span class="sxs-lookup"><span data-stu-id="54d22-269">The set of tests that must be performed on the items</span></span></li>
+<li><span data-ttu-id="54d22-270">Het acceptabele kwaliteitsniveau</span><span class="sxs-lookup"><span data-stu-id="54d22-270">The AQL</span></span></li>
+<li><span data-ttu-id="54d22-271">Het bemonsteringsplan</span><span class="sxs-lookup"><span data-stu-id="54d22-271">The sampling plan</span></span></li>
 </ul>
-U moet een kwaliteitskoppeling opgeven voor elke afwijking in een bedrijfsproces waarvoor automatisch kwaliteitsorders moeten worden gegenereerd. Er kan bijvoorbeeld een kwaliteitsorder worden gegenereerd in de bedrijfsprocessen voor inkooporders, quarantaineorders, verkooporders en productieorders.</td>
+<span data-ttu-id="54d22-272">U moet een kwaliteitskoppeling opgeven voor elke afwijking in een bedrijfsproces waarvoor automatisch kwaliteitsorders moeten worden gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="54d22-272">You must define a quality associationfor each variation in a business process that requires automatic generation of quality orders.</span></span> <span data-ttu-id="54d22-273">Er kan bijvoorbeeld een kwaliteitsorder worden gegenereerd in de bedrijfsprocessen voor inkooporders, quarantaineorders, verkooporders en productieorders.</span><span class="sxs-lookup"><span data-stu-id="54d22-273">For example, a quality order can be generated in the business processes for purchase orders, quarantine orders, sales orders, and production orders.</span></span></td>
 </tr>
 <tr class="even">
-<td>Tests</td>
-<td>Met deze pagina kunt u de afzonderlijke tests definiëren en bekijken aan de hand waarvan wordt bepaald of uw producten voldoen aan de kwaliteitsspecificaties. U kunt een of meer afzonderlijke tests toewijzen aan een testgroep. In dit geval geeft u ook testspecifieke informatie op, zoals de aanvaardbare meetwaarden. Meetwaarden worden gebruikt voor kwantitatieve tests en testvariabelen worden gebruikt voor kwalitatieve tests.
+<td><span data-ttu-id="54d22-274">Tests</span><span class="sxs-lookup"><span data-stu-id="54d22-274">Tests</span></span></td>
+<td><span data-ttu-id="54d22-275">Met deze pagina kunt u de afzonderlijke tests definiëren en bekijken aan de hand waarvan wordt bepaald of uw producten voldoen aan de kwaliteitsspecificaties.</span><span class="sxs-lookup"><span data-stu-id="54d22-275">Use this page to define and view the individual tests that determine whether your products meet quality specifications.</span></span> <span data-ttu-id="54d22-276">U kunt een of meer afzonderlijke tests toewijzen aan een testgroep.</span><span class="sxs-lookup"><span data-stu-id="54d22-276">You can assign one or more individual tests to a test group.</span></span> <span data-ttu-id="54d22-277">In dit geval geeft u ook testspecifieke informatie op, zoals de aanvaardbare meetwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-277">In this case, you also specify test-specific information, such as the acceptable measurement values.</span></span> <span data-ttu-id="54d22-278">Meetwaarden worden gebruikt voor kwantitatieve tests en testvariabelen worden gebruikt voor kwalitatieve tests.</span><span class="sxs-lookup"><span data-stu-id="54d22-278">Measurement values are used for quantitative tests, and test variables are used for qualitative tests.</span></span>
 <ul>
-<li>Een kwantitatieve test is van het testtype <strong>Geheel getal</strong> of <strong>Breuk</strong> en heeft ook een bepaalde maateenheid. Kwaliteitsspecificaties en testresultaten worden uitgedrukt in getallen.</li>
-<li>Het testtype van een kwalitatieve test is <strong>Optie</strong>. Voor kwalitatieve tests is aanvullende informatie nodig over de testvariabele die wordt gemeten en de vaste opties. Kwaliteitsspecificaties en testresultaten worden uitgedrukt in getallen volgens een uitkomst.</li>
+<li><span data-ttu-id="54d22-279">Een kwantitatieve test is van het testtype <strong>Geheel getal</strong> of <strong>Breuk</strong> en heeft ook een bepaalde maateenheid.</span><span class="sxs-lookup"><span data-stu-id="54d22-279">A quantitative test has a test type of <strong>Integer</strong> or <strong>Fraction</strong>, and also has a designated unit of measure.</span></span> <span data-ttu-id="54d22-280">Kwaliteitsspecificaties en testresultaten worden uitgedrukt in getallen.</span><span class="sxs-lookup"><span data-stu-id="54d22-280">Quality specifications and test results are expressed as numbers.</span></span></li>
+<li><span data-ttu-id="54d22-281">Het testtype van een kwalitatieve test is <strong>Optie</strong>.</span><span class="sxs-lookup"><span data-stu-id="54d22-281">A qualitative test has a test type of <strong>Option</strong>.</span></span> <span data-ttu-id="54d22-282">Voor kwalitatieve tests is aanvullende informatie nodig over de testvariabele die wordt gemeten en de vaste opties.</span><span class="sxs-lookup"><span data-stu-id="54d22-282">Qualitative tests require additional information about the test variable that is being measured and its enumerated options.</span></span> <span data-ttu-id="54d22-283">Kwaliteitsspecificaties en testresultaten worden uitgedrukt in getallen volgens een uitkomst.</span><span class="sxs-lookup"><span data-stu-id="54d22-283">Quality specifications and test results are expressed according to an outcome.</span></span></li>
 </ul></td>
-<td>Een productiebedrijf voert twee tests uit op ingekocht materiaal: een kwantitatieve test op de kwaliteit van het materiaal en een kwalitatieve test op beschadigde verpakking. Het bedrijf definieert aanvullende gegevens voor de kwalitatieve test om de testvariabele (beschadigde verpakking) en de bijbehorende uitkomst te bepalen. Het bedrijf maakt gebruikt van de pagina <strong>Testgroepen</strong> om de twee tests toe te wijzen aan een testgroep en om specifieke informatie voor de tests op te geven. De testgroep wordt toegewezen aan een kwaliteitsorder, zodat het bedrijf kan rapporteren over de testresultaten van de twee tests.</td>
+<td><span data-ttu-id="54d22-284">Een productiebedrijf voert twee tests uit op ingekocht materiaal: een kwantitatieve test op de kwaliteit van het materiaal en een kwalitatieve test op beschadigde verpakking.</span><span class="sxs-lookup"><span data-stu-id="54d22-284">A manufacturing company performs two tests on purchased material: a quantitative test about material quality and a qualitative test about packaging damage.</span></span> <span data-ttu-id="54d22-285">Het bedrijf definieert aanvullende gegevens voor de kwalitatieve test om de testvariabele (beschadigde verpakking) en de bijbehorende uitkomst te bepalen.</span><span class="sxs-lookup"><span data-stu-id="54d22-285">The company defines additional information about the qualitative test to identify the test variable (damaged packaging) and its outcomes.</span></span> <span data-ttu-id="54d22-286">Het bedrijf maakt gebruikt van de pagina <strong>Testgroepen</strong> om de twee tests toe te wijzen aan een testgroep en om specifieke informatie voor de tests op te geven.</span><span class="sxs-lookup"><span data-stu-id="54d22-286">The company uses the <strong>Test groups</strong> page to assign the two tests to a test group and to specify the test-specific information.</span></span> <span data-ttu-id="54d22-287">De testgroep wordt toegewezen aan een kwaliteitsorder, zodat het bedrijf kan rapporteren over de testresultaten van de twee tests.</span><span class="sxs-lookup"><span data-stu-id="54d22-287">The test group is assigned to a quality order, so that the company can report test results for the two tests.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Testgroepen</td>
-<td>Gebruik deze pagina voor het instellen, bewerken en weergeven van testgroepen en de afzonderlijke tests die zijn toegewezen aan een testgroep. In het bovenste deelvenster worden testgroepen weergegeven en in het onderste deelvenster worden de tests weergegeven die aan een geselecteerde testgroep zijn toegewezen. U wijst beleid toe aan een testgroep, zoals een bemonsteringsplan, een acceptabel kwaliteitsniveau en of een destructieve test moet worden uitgevoerd. Wanneer u een afzonderlijke test aan een testgroep toewijst, definieert u extra informatie, zoals de volgorde, datums en geldigheidsdatums. Voor een kwantitatieve test omvatten de gedefinieerde gegevens ook de acceptabele meetwaarden. Voor een kwalitatieve test omvatten de gegevens de testvariabele en standaarduitkomst. De testgroep die aan een kwaliteitsorder is toegewezen, bepaalt de standaardverzameling aan tests die moeten worden uitgevoerd op het opgegeven artikel. U kunt echter ook tests toevoegen aan en verwijderen of wijzigen in de kwaliteitsorder. De testresultaten worden vastgelegd voor elke test in een kwaliteitsorder.</td>
-<td>Een productiebedrijf stelt een testgroep in voor elke wijziging van in de kwaliteitsrichtlijnen van het bedrijf. De verschillende testgroepen vertegenwoordigen de verschillen in de bemonsteringsplannen, de verzameling tests die moet worden uitgevoerd, de AQL en andere factoren. Voor kwantitatieve tests zijn er ook verschillen in de acceptabele meetwaarden. Het bedrijf dwingt zijn kwaliteitsrichtlijnen af door op de pagina <strong>Kwaliteitskoppelingen</strong> een testgroep toe te wijzen aan elke regel voor het automatisch genereren van kwaliteitsorders en een testgroep toe te wijzen aan handmatig gemaakte kwaliteitsorders.</td>
+<td><span data-ttu-id="54d22-288">Testgroepen</span><span class="sxs-lookup"><span data-stu-id="54d22-288">Test groups</span></span></td>
+<td><span data-ttu-id="54d22-289">Gebruik deze pagina voor het instellen, bewerken en weergeven van testgroepen en de afzonderlijke tests die zijn toegewezen aan een testgroep.</span><span class="sxs-lookup"><span data-stu-id="54d22-289">Use this page to set up, edit, and view test groups and the individual tests that are assigned to a test group.</span></span> <span data-ttu-id="54d22-290">In het bovenste deelvenster worden testgroepen weergegeven en in het onderste deelvenster worden de tests weergegeven die aan een geselecteerde testgroep zijn toegewezen.</span><span class="sxs-lookup"><span data-stu-id="54d22-290">The upper pane displays test groups, and the lower pane displays the tests that are assigned to a selected test group.</span></span> <span data-ttu-id="54d22-291">U wijst beleid toe aan een testgroep, zoals een bemonsteringsplan, een acceptabel kwaliteitsniveau en of een destructieve test moet worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="54d22-291">You assign several policies to a test group, such as a sampling plan, an AQL, and the requirement for destructive testing.</span></span> <span data-ttu-id="54d22-292">Wanneer u een afzonderlijke test aan een testgroep toewijst, definieert u extra informatie, zoals de volgorde, datums en geldigheidsdatums.</span><span class="sxs-lookup"><span data-stu-id="54d22-292">When you assign an individual test to a test group, you define additional information, such as the sequence, documents, and validity dates.</span></span> <span data-ttu-id="54d22-293">Voor een kwantitatieve test omvatten de gedefinieerde gegevens ook de acceptabele meetwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-293">For a quantitative test, the information that you define also includes the acceptable measurement values.</span></span> <span data-ttu-id="54d22-294">Voor een kwalitatieve test omvatten de gegevens de testvariabele en standaarduitkomst.</span><span class="sxs-lookup"><span data-stu-id="54d22-294">For a qualitative test, the information includes the test variable and default outcome.</span></span> <span data-ttu-id="54d22-295">De testgroep die aan een kwaliteitsorder is toegewezen, bepaalt de standaardverzameling aan tests die moeten worden uitgevoerd op het opgegeven artikel.</span><span class="sxs-lookup"><span data-stu-id="54d22-295">The test group that is assigned to a quality order defines the default set of tests that must be performed on the specified item.</span></span> <span data-ttu-id="54d22-296">U kunt echter ook tests toevoegen aan en verwijderen of wijzigen in de kwaliteitsorder.</span><span class="sxs-lookup"><span data-stu-id="54d22-296">However, you can add, delete, or change tests on the quality order.</span></span> <span data-ttu-id="54d22-297">De testresultaten worden vastgelegd voor elke test in een kwaliteitsorder.</span><span class="sxs-lookup"><span data-stu-id="54d22-297">Test results are reported for each test on a quality order.</span></span></td>
+<td><span data-ttu-id="54d22-298">Een productiebedrijf stelt een testgroep in voor elke wijziging van in de kwaliteitsrichtlijnen van het bedrijf.</span><span class="sxs-lookup"><span data-stu-id="54d22-298">A manufacturing company defines a test group for each variation of its quality guidelines.</span></span> <span data-ttu-id="54d22-299">De verschillende testgroepen vertegenwoordigen de verschillen in de bemonsteringsplannen, de verzameling tests die moet worden uitgevoerd, de AQL en andere factoren.</span><span class="sxs-lookup"><span data-stu-id="54d22-299">The various test groups reflect differences in the sampling plans, the sets of tests that must be performed together, the AQL, and other factors.</span></span> <span data-ttu-id="54d22-300">Voor kwantitatieve tests zijn er ook verschillen in de acceptabele meetwaarden.</span><span class="sxs-lookup"><span data-stu-id="54d22-300">For quantitative tests, there are also differences in the acceptable measurement values.</span></span> <span data-ttu-id="54d22-301">Het bedrijf dwingt zijn kwaliteitsrichtlijnen af door op de pagina <strong>Kwaliteitskoppelingen</strong> een testgroep toe te wijzen aan elke regel voor het automatisch genereren van kwaliteitsorders en een testgroep toe te wijzen aan handmatig gemaakte kwaliteitsorders.</span><span class="sxs-lookup"><span data-stu-id="54d22-301">To enforce its quality guidelines, the company assigns a test group to each rule for automatically generating quality orders on the <strong>Quality associations</strong> page, and also assigns a test group to quality orders that are manually created.</span></span></td>
 </tr>
 <tr class="even">
-<td>Artikelkwaliteitsgroepen</td>
-<td>Gebruik deze pagina om de artikelen die aan een kwaliteitsgroep zijn toegewezen of de kwaliteitsgroepen die aan een artikel zijn toegewezen, in te stellen, te bewerken en weer te geven. Een kwaliteitsgroep bevat algemene testvereisten voor artikelen. Wanneer u de testvereisten hebt gedefinieerd op de pagina <strong>Testgroepen</strong>, kunt u de regels voor het automatisch genereren van kwaliteitsorders definiëren. Om het proces te vereenvoudigen, definieert u geen regels voor afzonderlijke artikelen. In plaats daarvan definieert u regels voor een kwaliteitsgroep op de pagina <strong>Kwaliteitskoppelingen</strong>. U kunt de pagina <strong>Artikelkwaliteitsgroepen</strong> ook gebruiken voor een bepaalde kwaliteitsgroep om relevante artikelen aan die groep toe te wijzen. U kunt de pagina <strong>Artikelkwaliteitsgroepen</strong> ook gebruiken voor een bepaald artikel om relevante kwaliteitsgroepen aan dat artikel toe te wijzen.</td>
-<td>Een bedrijf dat artikelen vervaardigt koopt verschillende grondstoffen in waarvoor testvereisten gelden voor een op handen zijnde inspectie. Het bedrijf definieert een kwaliteitsgroep en wijst de artikelnummers die aan de grondstoffen zijn gekoppeld, aan deze groep toe. Later koopt het bedrijf een nieuw grondstoftype in waarop dezelfde testvereisten van toepassing zijn. In plaats van nieuwe testvereisten voor de nieuwe grondstof in te stellen, voegt het bedrijf het artikelnummer voor de nieuwe grondstof aan de bestaande kwaliteitsgroep toe. Hetzelfde productiebedrijf produceert tevens artikelen met dezelfde productietestvereisten en stuurt artikelen met dezelfde vereisten door voor tests die worden uitgevoerd voordat er een verzending plaatsvindt. Het bedrijf definieert twee extra kwaliteitsgroepen en wijst de relevante artikelnummers aan elke groep toe.</td>
+<td><span data-ttu-id="54d22-302">Artikelkwaliteitsgroepen</span><span class="sxs-lookup"><span data-stu-id="54d22-302">Item quality groups</span></span></td>
+<td><span data-ttu-id="54d22-303">Gebruik deze pagina om de artikelen die aan een kwaliteitsgroep zijn toegewezen of de kwaliteitsgroepen die aan een artikel zijn toegewezen, in te stellen, te bewerken en weer te geven.</span><span class="sxs-lookup"><span data-stu-id="54d22-303">Use this page to set up, edit, and view the items that are assigned to a quality group or the quality groups that are assigned to an item.</span></span> <span data-ttu-id="54d22-304">Een kwaliteitsgroep bevat algemene testvereisten voor artikelen.</span><span class="sxs-lookup"><span data-stu-id="54d22-304">A quality group represents common testing requirements for items.</span></span> <span data-ttu-id="54d22-305">Wanneer u de testvereisten hebt gedefinieerd op de pagina <strong>Testgroepen</strong>, kunt u de regels voor het automatisch genereren van kwaliteitsorders definiëren.</span><span class="sxs-lookup"><span data-stu-id="54d22-305">After you define the test requirements on the <strong>Test groups</strong> page, you can define the rules for automatically generating quality orders.</span></span> <span data-ttu-id="54d22-306">Om het proces te vereenvoudigen, definieert u geen regels voor afzonderlijke artikelen.</span><span class="sxs-lookup"><span data-stu-id="54d22-306">To simplify the process, you don't define rules for individual items.</span></span> <span data-ttu-id="54d22-307">In plaats daarvan definieert u regels voor een kwaliteitsgroep op de pagina <strong>Kwaliteitskoppelingen</strong>.</span><span class="sxs-lookup"><span data-stu-id="54d22-307">Instead, you define rules for a quality group, by using the <strong>Quality associations</strong> page.</span></span> <span data-ttu-id="54d22-308">U kunt de pagina <strong>Artikelkwaliteitsgroepen</strong> ook gebruiken voor een bepaalde kwaliteitsgroep om relevante artikelen aan die groep toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="54d22-308">You can also use the <strong>Item quality groups</strong> page for a selected quality group to assign relevant items to that group.</span></span> <span data-ttu-id="54d22-309">U kunt de pagina <strong>Artikelkwaliteitsgroepen</strong> ook gebruiken voor een bepaald artikel om relevante kwaliteitsgroepen aan dat artikel toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="54d22-309">You can also use the <strong>Item quality groups</strong> page for a selected item to assign relevant quality groups to that item.</span></span></td>
+<td><span data-ttu-id="54d22-310">Een bedrijf dat artikelen vervaardigt koopt verschillende grondstoffen in waarvoor testvereisten gelden voor een op handen zijnde inspectie.</span><span class="sxs-lookup"><span data-stu-id="54d22-310">A manufacturing company purchases various raw materials that have the same testing requirements for incoming inspection.</span></span> <span data-ttu-id="54d22-311">Het bedrijf definieert een kwaliteitsgroep en wijst de artikelnummers die aan de grondstoffen zijn gekoppeld, aan deze groep toe.</span><span class="sxs-lookup"><span data-stu-id="54d22-311">The company defines a quality group and then assigns the item numbers that are associated with the raw materials to that group.</span></span> <span data-ttu-id="54d22-312">Later koopt het bedrijf een nieuw grondstoftype in waarop dezelfde testvereisten van toepassing zijn.</span><span class="sxs-lookup"><span data-stu-id="54d22-312">Later, the company purchases a new type of raw material that has the same testing requirements.</span></span> <span data-ttu-id="54d22-313">In plaats van nieuwe testvereisten voor de nieuwe grondstof in te stellen, voegt het bedrijf het artikelnummer voor de nieuwe grondstof aan de bestaande kwaliteitsgroep toe.</span><span class="sxs-lookup"><span data-stu-id="54d22-313">Instead of setting up new testing requirements for the new material, the company adds the item number for the new material to the existing quality group.</span></span> <span data-ttu-id="54d22-314">Hetzelfde productiebedrijf produceert tevens artikelen met dezelfde productietestvereisten en stuurt artikelen met dezelfde vereisten door voor tests die worden uitgevoerd voordat er een verzending plaatsvindt.</span><span class="sxs-lookup"><span data-stu-id="54d22-314">The same manufacturing company also produces items that have the same production testing requirements and ships items that have the same requirement for pre-shipment testing.</span></span> <span data-ttu-id="54d22-315">Het bedrijf definieert twee extra kwaliteitsgroepen en wijst de relevante artikelnummers aan elke groep toe.</span><span class="sxs-lookup"><span data-stu-id="54d22-315">The company defines two additional quality groups and then assigns the relevant item numbers to each group.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Testvariabelen</td>
-<td>Gebruik deze pagina om de variabelen te definiëren die aan een kwalitatieve test zijn gekoppeld. Voor elke variabele definieert u genummerde uitkomsten die de mogelijke opties vertegenwoordigen. U definieert tests op de pagina <strong>Tests</strong>. Voor kwalitatieve tests moet u het testtype instellen op <strong>Optie</strong>. Gebruik de pagina <strong>Testgroepen</strong> om een testvariabele aan een afzonderlijke test toe te wijzen.</td>
-<td>Een productiebedrijf dat koekjes produceert, maakt gebruik van een inspectietest voor het eindproduct. Deze inspectietest omvat verschillende variabelen. Een van deze variabelen is Smaak met de mogelijke uitkomsten Goed en Slecht. Een tweede variabele is Kleur met als mogelijke uitkomsten Te donker, Te licht en Correct.</td>
+<td><span data-ttu-id="54d22-316">Testvariabelen</span><span class="sxs-lookup"><span data-stu-id="54d22-316">Test variables</span></span></td>
+<td><span data-ttu-id="54d22-317">Gebruik deze pagina om de variabelen te definiëren die aan een kwalitatieve test zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="54d22-317">Use this page to define and view the variables that are associated with a qualitative test.</span></span> <span data-ttu-id="54d22-318">Voor elke variabele definieert u genummerde uitkomsten die de mogelijke opties vertegenwoordigen.</span><span class="sxs-lookup"><span data-stu-id="54d22-318">For each variable, you define enumerated outcomes that represent the possible options.</span></span> <span data-ttu-id="54d22-319">U definieert tests op de pagina <strong>Tests</strong>.</span><span class="sxs-lookup"><span data-stu-id="54d22-319">You define tests on the <strong>Tests</strong> page.</span></span> <span data-ttu-id="54d22-320">Voor kwalitatieve tests moet u het testtype instellen op <strong>Optie</strong>.</span><span class="sxs-lookup"><span data-stu-id="54d22-320">For qualitative tests, you must set the test type to <strong>Option</strong>.</span></span> <span data-ttu-id="54d22-321">Gebruik de pagina <strong>Testgroepen</strong> om een testvariabele aan een afzonderlijke test toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="54d22-321">Use the <strong>Test groups</strong> page to assign a test variable to an individual test.</span></span></td>
+<td><span data-ttu-id="54d22-322">Een productiebedrijf dat koekjes produceert, maakt gebruik van een inspectietest voor het eindproduct.</span><span class="sxs-lookup"><span data-stu-id="54d22-322">A manufacturing company that produces cookies uses an inspection test for the finished product.</span></span> <span data-ttu-id="54d22-323">Deze inspectietest omvat verschillende variabelen.</span><span class="sxs-lookup"><span data-stu-id="54d22-323">This inspection test has several variables.</span></span> <span data-ttu-id="54d22-324">Een van deze variabelen is Smaak met de mogelijke uitkomsten Goed en Slecht.</span><span class="sxs-lookup"><span data-stu-id="54d22-324">One variable is taste, and the possible outcomes for this variable are good and bad.</span></span> <span data-ttu-id="54d22-325">Een tweede variabele is Kleur met als mogelijke uitkomsten Te donker, Te licht en Correct.</span><span class="sxs-lookup"><span data-stu-id="54d22-325">A second variable is color, and the possible outcomes are too dark, too light, and correct.</span></span></td>
 </tr>
 <tr class="even">
-<td>Uitkomsten van testvariabele</td>
-<td>Gebruik deze pagina om de mogelijke testresultaten in te stellen, te bewerken en weer te geven voor een testvariabele die aan een kwaliteitstest is gekoppeld. Voor elke uitkomst wijst u de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toe. U moet een variabele en de bijbehorende uitkomsten instellen voor elke kwaliteitstest die is ingesteld op de pagina <strong>Tests</strong>. (Voor kwalitatieve tests wordt het testtype ingesteld op <strong>Optie</strong> op de pagina <strong>Tests</strong>.) Gebruik de pagina <strong>Testgroepen</strong> om een testvariabele en de standaarduitkomst toe te wijzen aan een afzonderlijke kwaliteitstest.</td>
-<td>Een productiebedrijf dat koekjes produceert, maakt gebruik van een inspectietest voor het eindproduct. Deze inspectietest omvat verschillende variabelen. Een van deze variabelen is Smaak met de mogelijke uitkomsten Goed en Slecht. Een tweede variabele is Kleur met als mogelijke uitkomsten Te donker, Te licht en Correct. Aan elke uitkomst wordt de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toegewezen. De inspecteur rapporteert gedurende de inspectietest voor elke variabele de testresultaten door een van de uitkomsten te selecteren.</td>
+<td><span data-ttu-id="54d22-326">Uitkomsten van testvariabele</span><span class="sxs-lookup"><span data-stu-id="54d22-326">Test variable outcomes</span></span></td>
+<td><span data-ttu-id="54d22-327">Gebruik deze pagina om de mogelijke testresultaten in te stellen, te bewerken en weer te geven voor een testvariabele die aan een kwaliteitstest is gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="54d22-327">Use this page to set up, edit, and to view the possible test results for a test variable that is associated with a qualitative test.</span></span> <span data-ttu-id="54d22-328">Voor elke uitkomst wijst u de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toe.</span><span class="sxs-lookup"><span data-stu-id="54d22-328">For each outcome, you assign a <strong>pass</strong> or <strong>fail</strong> status.</span></span> <span data-ttu-id="54d22-329">U moet een variabele en de bijbehorende uitkomsten instellen voor elke kwaliteitstest die is ingesteld op de pagina <strong>Tests</strong>.</span><span class="sxs-lookup"><span data-stu-id="54d22-329">You must define a variable and its outcomes for each qualitative test that is defined on the <strong>Tests</strong> page.</span></span> <span data-ttu-id="54d22-330">(Voor kwalitatieve tests wordt het testtype ingesteld op <strong>Optie</strong> op de pagina <strong>Tests</strong>.) Gebruik de pagina <strong>Testgroepen</strong> om een testvariabele en de standaarduitkomst toe te wijzen aan een afzonderlijke kwaliteitstest.</span><span class="sxs-lookup"><span data-stu-id="54d22-330">(For qualitative tests, the test type is set to <strong>Option</strong> on the <strong>Tests</strong> page.) Use the <strong>Test groups</strong> page to assign a test variable and the default outcome to an individual qualitative test.</span></span></td>
+<td><span data-ttu-id="54d22-331">Een productiebedrijf dat koekjes produceert, maakt gebruik van een inspectietest voor het eindproduct.</span><span class="sxs-lookup"><span data-stu-id="54d22-331">A manufacturing company that produces cookies uses an inspection test for the finished product.</span></span> <span data-ttu-id="54d22-332">Deze inspectietest omvat verschillende variabelen.</span><span class="sxs-lookup"><span data-stu-id="54d22-332">This inspection test has of several variables.</span></span> <span data-ttu-id="54d22-333">Een van deze variabelen is Smaak met de mogelijke uitkomsten Goed en Slecht.</span><span class="sxs-lookup"><span data-stu-id="54d22-333">One variable is taste, and the possible outcomes for this variable are good and bad.</span></span> <span data-ttu-id="54d22-334">Een tweede variabele is Kleur met als mogelijke uitkomsten Te donker, Te licht en Correct.</span><span class="sxs-lookup"><span data-stu-id="54d22-334">A second variable is color, and the possible outcomes are too dark, too light, and correct.</span></span> <span data-ttu-id="54d22-335">Aan elke uitkomst wordt de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toegewezen.</span><span class="sxs-lookup"><span data-stu-id="54d22-335">A status of <strong>pass</strong> or <strong>fail</strong> is assigned to each outcome.</span></span> <span data-ttu-id="54d22-336">De inspecteur rapporteert gedurende de inspectietest voor elke variabele de testresultaten door een van de uitkomsten te selecteren.</span><span class="sxs-lookup"><span data-stu-id="54d22-336">During the inspection test for each variable, the inspector reports the test result by selecting one of the outcomes.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a>Zie ook
+<a name="see-also"></a><span data-ttu-id="54d22-337">Zie ook</span><span class="sxs-lookup"><span data-stu-id="54d22-337">See also</span></span>
 --------
 
-[Processen voor kwaliteitsbeheer](quality-management-processes.md)
+[<span data-ttu-id="54d22-338">Processen voor kwaliteitsbeheer</span><span class="sxs-lookup"><span data-stu-id="54d22-338">Quality management processes</span></span>](quality-management-processes.md)
 
-[Niet-conformeringsbeheer inschakelen](enable-nonconformance-management.md)
-
-
-
+[<span data-ttu-id="54d22-339">Niet-conformeringsbeheer inschakelen</span><span class="sxs-lookup"><span data-stu-id="54d22-339">Enabling nonconformance management</span></span>](enable-nonconformance-management.md)
 

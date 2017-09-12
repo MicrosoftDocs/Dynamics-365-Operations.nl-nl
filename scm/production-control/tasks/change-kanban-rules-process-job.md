@@ -16,36 +16,36 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e8355a94322e6489fe64f22a049a34b7ecfe65b9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7f8b2a67e03a64deae9d4bc9c7e3e714d134443c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="change-kanban-rules-for-a-process-job"></a>Kanbanregels wijzigen voor een procestaak
+# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="8dc52-103">Kanbanregels wijzigen voor een procestaak</span><span class="sxs-lookup"><span data-stu-id="8dc52-103">Change kanban rules for a process job</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure is gericht op het wijzigen van de gebruikte kanbanregel voor een bepaalde kanban. Dit is handig om de belasting van resources te effenen of in het geval van opsplitsing. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de planner, die in een lean manufacturingbedrijf werkt en verantwoordelijk is voor de waardestroom.
+<span data-ttu-id="8dc52-104">Deze procedure is gericht op het wijzigen van de gebruikte kanbanregel voor een bepaalde kanban.</span><span class="sxs-lookup"><span data-stu-id="8dc52-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="8dc52-105">Dit is handig om de belasting van resources te effenen of in het geval van opsplitsing.</span><span class="sxs-lookup"><span data-stu-id="8dc52-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="8dc52-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="8dc52-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8dc52-107">Deze procedure is bedoeld voor de planner, die in een lean manufacturingbedrijf werkt en verantwoordelijk is voor de waardestroom.</span><span class="sxs-lookup"><span data-stu-id="8dc52-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
 
 
-## <a name="copy-kanban-rule"></a>Kanbanregel kopiëren
-1. Ga naar Kanbanregels.
-2. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer gebeurteniskanbanregel 000022 voor L0001.  
-3. Klik op Dubbele kanbanregel.
-4. Klik op OK.
+## <a name="copy-kanban-rule"></a><span data-ttu-id="8dc52-108">Kanbanregel kopiëren</span><span class="sxs-lookup"><span data-stu-id="8dc52-108">Copy kanban rule</span></span>
+1. <span data-ttu-id="8dc52-109">Ga naar Kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="8dc52-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="8dc52-110">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="8dc52-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="8dc52-111">Selecteer gebeurteniskanbanregel 000022 voor L0001.</span><span class="sxs-lookup"><span data-stu-id="8dc52-111">Select Event Kanban rule 000022 for L0001.</span></span>  
+3. <span data-ttu-id="8dc52-112">Klik op Dubbele kanbanregel.</span><span class="sxs-lookup"><span data-stu-id="8dc52-112">Click Duplicate kanban rule.</span></span>
+4. <span data-ttu-id="8dc52-113">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="8dc52-113">Click OK.</span></span>
 
-## <a name="change-kanban-rule"></a>Kanbanregel wijzigen
-1. Sluit de pagina.
-2. Ga naar Kanbantaakplanning.
-3. Markeer in de lijst de geselecteerde rij.
-    * Selecteer regel met kanban 000177.  
-4. KIik op Alternatieve kanbanregel gebruiken.
-5. Klik op Volgende.
-6. Typ of selecteer een waarde in het veld Kanbanregel.
-    * Selecteer de kanbanregel die u eerder hebt gemaakt. Dit is de kanbanregel met het hoogste cijfer.  
-7. Klik op Voltooien.
-    * Nu gebruikt de kanbantaak een andere kanbanregel. Dit kan nuttig zijn om de belasting van de werkcellen te effenen.  
+## <a name="change-kanban-rule"></a><span data-ttu-id="8dc52-114">Kanbanregel wijzigen</span><span class="sxs-lookup"><span data-stu-id="8dc52-114">Change kanban rule</span></span>
+1. <span data-ttu-id="8dc52-115">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="8dc52-115">Close the page.</span></span>
+2. <span data-ttu-id="8dc52-116">Ga naar Kanbantaakplanning.</span><span class="sxs-lookup"><span data-stu-id="8dc52-116">Go to Kanban job scheduling.</span></span>
+3. <span data-ttu-id="8dc52-117">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8dc52-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="8dc52-118">Selecteer regel met kanban 000177.</span><span class="sxs-lookup"><span data-stu-id="8dc52-118">Select line with Kanban 000177.</span></span>  
+4. <span data-ttu-id="8dc52-119">KIik op Alternatieve kanbanregel gebruiken.</span><span class="sxs-lookup"><span data-stu-id="8dc52-119">Click Use alternative kanban rule.</span></span>
+5. <span data-ttu-id="8dc52-120">Klik op Volgende.</span><span class="sxs-lookup"><span data-stu-id="8dc52-120">Click Next.</span></span>
+6. <span data-ttu-id="8dc52-121">Typ of selecteer een waarde in het veld Kanbanregel.</span><span class="sxs-lookup"><span data-stu-id="8dc52-121">In the Kanban rule field, enter or select a value.</span></span>
+    * <span data-ttu-id="8dc52-122">Selecteer de kanbanregel die u eerder hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="8dc52-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="8dc52-123">Dit is de kanbanregel met het hoogste cijfer.</span><span class="sxs-lookup"><span data-stu-id="8dc52-123">This is the kanban rule with the highest number.</span></span>  
+7. <span data-ttu-id="8dc52-124">Klik op Voltooien.</span><span class="sxs-lookup"><span data-stu-id="8dc52-124">Click Finish.</span></span>
+    * <span data-ttu-id="8dc52-125">Nu gebruikt de kanbantaak een andere kanbanregel.</span><span class="sxs-lookup"><span data-stu-id="8dc52-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="8dc52-126">Dit kan nuttig zijn om de belasting van de werkcellen te effenen.</span><span class="sxs-lookup"><span data-stu-id="8dc52-126">This can be useful to level load work cells.</span></span>  
 
 

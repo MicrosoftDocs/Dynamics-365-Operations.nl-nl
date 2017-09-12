@@ -16,28 +16,28 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 126447cad226c843afa2cf9bc609a316cab7b8cb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 306e9ebca811c576b06de3aef697ed64cbe85180
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-linked-products"></a>Gekoppelde producten configureren
+# <a name="configure-linked-products"></a><span data-ttu-id="07874-103">Gekoppelde producten configureren</span><span class="sxs-lookup"><span data-stu-id="07874-103">Configure linked products</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure doorloopt de configuratie van gekoppelde producten. Deze procedure gebruikt het demobedrijf USRT en gaat ervanuit dat beide producten al zijn gemaakt en vrijgegeven.
+<span data-ttu-id="07874-104">Deze procedure doorloopt de configuratie van gekoppelde producten.</span><span class="sxs-lookup"><span data-stu-id="07874-104">This procedure walks through configuring linked products.</span></span> <span data-ttu-id="07874-105">Deze procedure gebruikt het demobedrijf USRT en gaat ervanuit dat beide producten al zijn gemaakt en vrijgegeven.</span><span class="sxs-lookup"><span data-stu-id="07874-105">This procedure uses the USRT demo data, and assumes both products have already been created and released.</span></span>
 
-1. Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.
-2. Zoek en selecteer de gewenste record in de lijst.
-3. Klik op Detailhandel in het actievenster.
-4. Klik op Gekoppelde producten.
-5. Klik op Bewerken.
-6. Klik in het veld Nummer gekoppeld product op de vervolgkeuzeknop om de zoekopdracht te openen.
-7. Klik in de lijst op de koppeling in de geselecteerde rij.
-8. Klik in het veld Eenheid op de vervolgkeuzeknop om de zoekopdracht te openen.
-9. Klik in de lijst op de koppeling in de geselecteerde rij.
-10. Voer in het veld Hoeveelheid een getal in.
-11. Klik op Opslaan.
+1. <span data-ttu-id="07874-106">Ga naar Productgegevensbeheer > Producten > Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="07874-106">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="07874-107">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="07874-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="07874-108">Klik op Detailhandel in het actievenster.</span><span class="sxs-lookup"><span data-stu-id="07874-108">On the Action Pane, click Retail.</span></span>
+4. <span data-ttu-id="07874-109">Klik op Gekoppelde producten.</span><span class="sxs-lookup"><span data-stu-id="07874-109">Click Linked products.</span></span>
+5. <span data-ttu-id="07874-110">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="07874-110">Click Edit.</span></span>
+6. <span data-ttu-id="07874-111">Klik in het veld Nummer gekoppeld product op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="07874-111">In the Linked product number field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="07874-112">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="07874-112">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="07874-113">Klik in het veld Eenheid op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="07874-113">In the Unit field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="07874-114">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="07874-114">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="07874-115">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="07874-115">In the Quantity field, enter a number.</span></span>
+11. <span data-ttu-id="07874-116">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="07874-116">Click Save.</span></span>
 
 

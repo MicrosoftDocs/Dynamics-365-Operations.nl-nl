@@ -16,45 +16,45 @@ ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bfdc149632f2d0b7bdb978e7c12e0afef6ba3734
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7b6e35c922edeb3c3c7a33ff741a25e699242abf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Een bankfaciliteitsovereenkomst maken voor de borgstelling
+# <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a><span data-ttu-id="0e332-103">Een bankfaciliteitsovereenkomst maken voor de borgstelling</span><span class="sxs-lookup"><span data-stu-id="0e332-103">Create a bank facility agreement for the letter of guarantee</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze taak maakt een bankfaciliteitsovereenkomst om een borgstelling te verwerken. Bij deze taak wordt het demobedrijf USMF gebruikt. 
+<span data-ttu-id="0e332-104">Deze taak maakt een bankfaciliteitsovereenkomst om een borgstelling te verwerken.</span><span class="sxs-lookup"><span data-stu-id="0e332-104">This task creates a bank facility agreement to process a letter of guarantee.</span></span> <span data-ttu-id="0e332-105">Bij deze taak wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0e332-105">This task uses the USMF demo company.</span></span> 
 
 
-## <a name="create-bank-facility-agreement"></a>Een bankfaciliteitsovereenkomst maken
-1. Ga naar Kas- en bankbeheer > Borgstellingen > Bankfaciliteitsovereenkomsten.
-2. Klik op Nieuw.
-3. Voer in het veld Overeenkomstnummer het bankovereenkomstnummer voor de transactie in.
-4. Selecteer in het veld Bankrekening het bankrekeningnummer waarvoor de borgstelling is geopend. 
-5. Klik in de lijst op de koppeling in de geselecteerde rij.
-6. Typ in het datumveld voor het begin de datum en een tijd.
-7. Typ in het datumveld voor het einde de datum en een tijd.
-8. Schakel de uitbreiding van de sectie Algemeen om.
-9. Klik op Regel toevoegen.
-10. Klik in het veld Type faciliteit op de vervolgkeuzeknop om de zoekopdracht te openen.
-11. Zoek en selecteer het gewenste record in de lijst.
-12. Klik in de lijst op de koppeling in de geselecteerde rij.
-13. Voer in het veld Limiet het bedrag in dat met de bank is overeengekomen.
-14. Klik op Opslaan.
-15. Schakel de uitbreiding van de sectie Borgstelling om.
-16. Selecteer een optie in het veld Berekeningsmethode.
-    * Voer de berekeningsmethode en percentagedetails in voor Contantenmarge, Uitgifteprovisie, Extensieprovisie, Waardeprovisie verhogen of Waardeprovisie verlagen, waar van toepassing.   
-17. Klik op Opslaan.
+## <a name="create-bank-facility-agreement"></a><span data-ttu-id="0e332-106">Een bankfaciliteitsovereenkomst maken</span><span class="sxs-lookup"><span data-stu-id="0e332-106">Create Bank facility agreement</span></span>
+1. <span data-ttu-id="0e332-107">Ga naar Kas- en bankbeheer > Borgstellingen > Bankfaciliteitsovereenkomsten.</span><span class="sxs-lookup"><span data-stu-id="0e332-107">Go to Cash and bank management > Letters of guarantee > Bank facility agreements.</span></span>
+2. <span data-ttu-id="0e332-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="0e332-108">Click New.</span></span>
+3. <span data-ttu-id="0e332-109">Voer in het veld Overeenkomstnummer het bankovereenkomstnummer voor de transactie in.</span><span class="sxs-lookup"><span data-stu-id="0e332-109">In the Agreement number field, enter the bank agreement number for the transaction.</span></span>
+4. <span data-ttu-id="0e332-110">Selecteer in het veld Bankrekening het bankrekeningnummer waarvoor de borgstelling is geopend.</span><span class="sxs-lookup"><span data-stu-id="0e332-110">In the Bank account field, select the bank account number for which the letter of guarantee is open.</span></span> 
+5. <span data-ttu-id="0e332-111">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="0e332-111">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="0e332-112">Typ in het datumveld voor het begin de datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="0e332-112">In the Start date field, enter a date and time.</span></span>
+7. <span data-ttu-id="0e332-113">Typ in het datumveld voor het einde de datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="0e332-113">In the End date field, enter a date and time.</span></span>
+8. <span data-ttu-id="0e332-114">Schakel de uitbreiding van de sectie Algemeen om.</span><span class="sxs-lookup"><span data-stu-id="0e332-114">Toggle the expansion of the General section.</span></span>
+9. <span data-ttu-id="0e332-115">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="0e332-115">Click Add line.</span></span>
+10. <span data-ttu-id="0e332-116">Klik in het veld Type faciliteit op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="0e332-116">In the Facility type field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="0e332-117">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="0e332-117">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="0e332-118">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="0e332-118">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="0e332-119">Voer in het veld Limiet het bedrag in dat met de bank is overeengekomen.</span><span class="sxs-lookup"><span data-stu-id="0e332-119">In the Limit field, enter the amount negotiated with the bank.</span></span>
+14. <span data-ttu-id="0e332-120">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="0e332-120">Click Save.</span></span>
+15. <span data-ttu-id="0e332-121">Schakel de uitbreiding van de sectie Borgstelling om.</span><span class="sxs-lookup"><span data-stu-id="0e332-121">Toggle the expansion of the Letter of guarantee section.</span></span>
+16. <span data-ttu-id="0e332-122">Selecteer een optie in het veld Berekeningsmethode.</span><span class="sxs-lookup"><span data-stu-id="0e332-122">In the Calculation method field, select an option.</span></span>
+    * <span data-ttu-id="0e332-123">Voer de berekeningsmethode en percentagedetails in voor Contantenmarge, Uitgifteprovisie, Extensieprovisie, Waardeprovisie verhogen of Waardeprovisie verlagen, waar van toepassing.</span><span class="sxs-lookup"><span data-stu-id="0e332-123">Enter the calculation method and percentage details for the Cash margin, Issuance commission, Extension commission, Increase value commission, or Decrease value commission, as appropriate.</span></span>   
+17. <span data-ttu-id="0e332-124">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="0e332-124">Click Save.</span></span>
 
-## <a name="extend-bank-facility-agreement"></a>Bankfaciliteitsovereenkomst uitbreiden
-1. Klik op Uitbreiden om het verwijderdialoogvenster te openen.
-2. Typ een waarde in het veld Nieuw overeenkomstnummer.
-3. Typ in het datumveld voor het einde de datum en een tijd.
-4. Klik op Uitbreiden.
-5. Klik op Opslaan.
-6. Sluit de pagina.
+## <a name="extend-bank-facility-agreement"></a><span data-ttu-id="0e332-125">Bankfaciliteitsovereenkomst uitbreiden</span><span class="sxs-lookup"><span data-stu-id="0e332-125">Extend bank facility agreement</span></span>
+1. <span data-ttu-id="0e332-126">Klik op Uitbreiden om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="0e332-126">Click Extend to open the drop dialog.</span></span>
+2. <span data-ttu-id="0e332-127">Typ een waarde in het veld Nieuw overeenkomstnummer.</span><span class="sxs-lookup"><span data-stu-id="0e332-127">In the New agreement number field, type a value.</span></span>
+3. <span data-ttu-id="0e332-128">Typ in het datumveld voor het einde de datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="0e332-128">In the End date field, enter a date and time.</span></span>
+4. <span data-ttu-id="0e332-129">Klik op Uitbreiden.</span><span class="sxs-lookup"><span data-stu-id="0e332-129">Click Extend.</span></span>
+5. <span data-ttu-id="0e332-130">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="0e332-130">Click Save.</span></span>
+6. <span data-ttu-id="0e332-131">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="0e332-131">Close the page.</span></span>
 
 

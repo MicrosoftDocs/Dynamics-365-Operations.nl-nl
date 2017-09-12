@@ -19,124 +19,124 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Contantkorting voor te veel bedraagde betalingen verwerken
+# <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="ef325-103">Contantkorting voor te veel bedraagde betalingen verwerken</span><span class="sxs-lookup"><span data-stu-id="ef325-103">Handling cash discounts for overpayments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel biedt scenario's die laten zien hoe een betaling wordt uitgevoerd wanneer de klant een contantkorting neemt maar ook te veel betaalt. 
+<span data-ttu-id="ef325-104">Dit artikel biedt scenario's die laten zien hoe een betaling wordt uitgevoerd wanneer de klant een contantkorting neemt maar ook te veel betaalt.</span><span class="sxs-lookup"><span data-stu-id="ef325-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-Een factuur wordt beschouwd als overbetaald wanneer het betaalde bedrag hoger is dan het factuurbedrag minus de contantkorting. Om te specificeren hoe een verschil in mogelijke contantkorting wordt behandeld wanneer te veel wordt betaald voor een factuur, gebruikt u de velden **Administratie voor contantkorting** en **Max. te veel/te weinig betaald bedrag** op de pagina **Parameters van module Klanten**. In het volgende voorbeeld heeft de klant de factuur met €0,50 teveel betaald.
+<span data-ttu-id="ef325-105">Een factuur wordt beschouwd als overbetaald wanneer het betaalde bedrag hoger is dan het factuurbedrag minus de contantkorting.</span><span class="sxs-lookup"><span data-stu-id="ef325-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="ef325-106">Om te specificeren hoe een verschil in mogelijke contantkorting wordt behandeld wanneer te veel wordt betaald voor een factuur, gebruikt u de velden **Administratie voor contantkorting** en **Max. te veel/te weinig betaald bedrag** op de pagina **Parameters van module Klanten**.</span><span class="sxs-lookup"><span data-stu-id="ef325-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="ef325-107">In het volgende voorbeeld heeft de klant de factuur met €0,50 teveel betaald.</span><span class="sxs-lookup"><span data-stu-id="ef325-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
-| Factuurtotaal | Beschikbare contantkorting | Te betalen bedrag na aftrek van de contantkorting | Het bedrag dat de klant betaalt |
+| <span data-ttu-id="ef325-108">Factuurtotaal</span><span class="sxs-lookup"><span data-stu-id="ef325-108">Invoice total</span></span> | <span data-ttu-id="ef325-109">Beschikbare contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-109">Cash discount available</span></span> | <span data-ttu-id="ef325-110">Te betalen bedrag na aftrek van de contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="ef325-111">Het bedrag dat de klant betaalt</span><span class="sxs-lookup"><span data-stu-id="ef325-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
-| 105,00        | EUR 10,50                   | EUR 94,50                                               | EUR 95,00                             |
+| <span data-ttu-id="ef325-112">105,00</span><span class="sxs-lookup"><span data-stu-id="ef325-112">105.00</span></span>        | <span data-ttu-id="ef325-113">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-113">10.50</span></span>                   | <span data-ttu-id="ef325-114">EUR 94,50</span><span class="sxs-lookup"><span data-stu-id="ef325-114">94.50</span></span>                                               | <span data-ttu-id="ef325-115">EUR 95,00</span><span class="sxs-lookup"><span data-stu-id="ef325-115">95.00</span></span>                             |
 
-## <a name="cash-discount-administration--specific"></a>Administratie voor contantkorting = Specifiek
-Wanneer **Specifiek** is geselecteerd in het veld **Administratie voor contantkorting** op de pagina **Rekeningen voor automatische transacties**, wordt de volledige contantkorting opgehaald. Het overbetalingsbedrag wordt geboekt naar een grootboekrekening voor contantkortingsverschillen of het wordt saldo op de klantrekening. Het gedrag is afhankelijk van de vraag of het overbetalingsbedrag ligt tussen 0,00 en het bedrag dat is ingevoerd in het veld**Max. te veel/te weinig betaald bedrag**, of dat het overbetalingsbedrag meer is dan het bedrag van **Max. te veel/te weinig betaald bedrag**.
+## <a name="cash-discount-administration--specific"></a><span data-ttu-id="ef325-116">Administratie voor contantkorting = Specifiek</span><span class="sxs-lookup"><span data-stu-id="ef325-116">Cash discount administration = Specific</span></span>
+<span data-ttu-id="ef325-117">Wanneer **Specifiek** is geselecteerd in het veld **Administratie voor contantkorting** op de pagina **Rekeningen voor automatische transacties**, wordt de volledige contantkorting opgehaald.</span><span class="sxs-lookup"><span data-stu-id="ef325-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="ef325-118">Het overbetalingsbedrag wordt geboekt naar een grootboekrekening voor contantkortingsverschillen of het wordt saldo op de klantrekening.</span><span class="sxs-lookup"><span data-stu-id="ef325-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="ef325-119">Het gedrag is afhankelijk van de vraag of het overbetalingsbedrag ligt tussen 0,00 en het bedrag dat is ingevoerd in het veld**Max. te veel/te weinig betaald bedrag**, of dat het overbetalingsbedrag meer is dan het bedrag van **Max. te veel/te weinig betaald bedrag**.</span><span class="sxs-lookup"><span data-stu-id="ef325-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
-### <a name="scenario-1"></a>Scenario 1
+### <a name="scenario-1"></a><span data-ttu-id="ef325-120">Scenario 1</span><span class="sxs-lookup"><span data-stu-id="ef325-120">Scenario 1</span></span>
 
-In dit scenario ligt het overbetalingsbedrag tussen 0,00 en de maximale overbetaling of onderbetaling. Een factuur voor 105,00 is ingevoerd en een contantkorting is beschikbaar als de factuur binnen zeven dagen wordt betaald.
+<span data-ttu-id="ef325-121">In dit scenario ligt het overbetalingsbedrag tussen 0,00 en de maximale overbetaling of onderbetaling.</span><span class="sxs-lookup"><span data-stu-id="ef325-121">In this scenario, the overpayment amount is between 0.00 and the maximum overpayment or underpayment.</span></span> <span data-ttu-id="ef325-122">Een factuur voor 105,00 is ingevoerd en een contantkorting is beschikbaar als de factuur binnen zeven dagen wordt betaald.</span><span class="sxs-lookup"><span data-stu-id="ef325-122">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Factuurtotaal | Beschikbare contantkorting | Te betalen bedrag na aftrek van de contantkorting |
+| <span data-ttu-id="ef325-123">Factuurtotaal</span><span class="sxs-lookup"><span data-stu-id="ef325-123">Invoice total</span></span> | <span data-ttu-id="ef325-124">Beschikbare contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-124">Cash discount available</span></span> | <span data-ttu-id="ef325-125">Te betalen bedrag na aftrek van de contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-125">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | EUR 10,50                   | EUR 94,50                                               |
+| <span data-ttu-id="ef325-126">105,00</span><span class="sxs-lookup"><span data-stu-id="ef325-126">105.00</span></span>        | <span data-ttu-id="ef325-127">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-127">10.50</span></span>                   | <span data-ttu-id="ef325-128">EUR 94,50</span><span class="sxs-lookup"><span data-stu-id="ef325-128">94.50</span></span>                                               |
 
-De klant voert een betaling van 95,00 uit in de periode van contantkorting. De betaling wordt vereffend met de factuur voor €105,00. Nadat de factuur en de betaling zijn vereffend, worden voor de klant de volgende transacties uitgevoerd in Klanten.
+<span data-ttu-id="ef325-129">De klant voert een betaling van 95,00 uit in de periode van contantkorting.</span><span class="sxs-lookup"><span data-stu-id="ef325-129">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="ef325-130">De betaling wordt vereffend met de factuur voor €105,00.</span><span class="sxs-lookup"><span data-stu-id="ef325-130">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="ef325-131">Nadat de factuur en de betaling zijn vereffend, worden voor de klant de volgende transacties uitgevoerd in Klanten.</span><span class="sxs-lookup"><span data-stu-id="ef325-131">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transactie   | Bedrag | Saldo |
+| <span data-ttu-id="ef325-132">Transactie</span><span class="sxs-lookup"><span data-stu-id="ef325-132">Transaction</span></span>   | <span data-ttu-id="ef325-133">Bedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-133">Amount</span></span> | <span data-ttu-id="ef325-134">Saldo</span><span class="sxs-lookup"><span data-stu-id="ef325-134">Balance</span></span> |
 |---------------|--------|---------|
-| Factuur       | 105,00 | 0,00    |
-| Betaling       | €-95.00 | 0,00    |
-| Contantkorting | €-10,50 | 0,00    |
+| <span data-ttu-id="ef325-135">Factuur</span><span class="sxs-lookup"><span data-stu-id="ef325-135">Invoice</span></span>       | <span data-ttu-id="ef325-136">105,00</span><span class="sxs-lookup"><span data-stu-id="ef325-136">105.00</span></span> | <span data-ttu-id="ef325-137">0,00</span><span class="sxs-lookup"><span data-stu-id="ef325-137">0.00</span></span>    |
+| <span data-ttu-id="ef325-138">Betaling</span><span class="sxs-lookup"><span data-stu-id="ef325-138">Payment</span></span>       | <span data-ttu-id="ef325-139">€-95.00</span><span class="sxs-lookup"><span data-stu-id="ef325-139">-95.00</span></span> | <span data-ttu-id="ef325-140">0,00</span><span class="sxs-lookup"><span data-stu-id="ef325-140">0.00</span></span>    |
+| <span data-ttu-id="ef325-141">Contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-141">Cash discount</span></span> | <span data-ttu-id="ef325-142">€-10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-142">-10.50</span></span> | <span data-ttu-id="ef325-143">0,00</span><span class="sxs-lookup"><span data-stu-id="ef325-143">0.00</span></span>    |
 
-De volgende boekhoudvermeldingen worden gegenereerd voor de betaling en de vereffening. **Betaling**
+<span data-ttu-id="ef325-144">De volgende boekhoudvermeldingen worden gegenereerd voor de betaling en de vereffening.</span><span class="sxs-lookup"><span data-stu-id="ef325-144">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="ef325-145">**Betaling**</span><span class="sxs-lookup"><span data-stu-id="ef325-145">**Payment**</span></span>
 
-| Rekening             | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="ef325-146">Rekening</span><span class="sxs-lookup"><span data-stu-id="ef325-146">Account</span></span>             | <span data-ttu-id="ef325-147">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-147">Debit amount</span></span> | <span data-ttu-id="ef325-148">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-148">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Contant                | EUR 95,00        |               |
-| Klanten |              | EUR 95,00         |
+| <span data-ttu-id="ef325-149">Contant</span><span class="sxs-lookup"><span data-stu-id="ef325-149">Cash</span></span>                | <span data-ttu-id="ef325-150">EUR 95,00</span><span class="sxs-lookup"><span data-stu-id="ef325-150">95.00</span></span>        |               |
+| <span data-ttu-id="ef325-151">Klanten</span><span class="sxs-lookup"><span data-stu-id="ef325-151">Accounts receivable</span></span> |              | <span data-ttu-id="ef325-152">EUR 95,00</span><span class="sxs-lookup"><span data-stu-id="ef325-152">95.00</span></span>         |
 
-**Vereffening**
+<span data-ttu-id="ef325-153">**Vereffening**</span><span class="sxs-lookup"><span data-stu-id="ef325-153">**Settlement**</span></span>
 
-| Rekening                                                                                                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="ef325-154">Rekening</span><span class="sxs-lookup"><span data-stu-id="ef325-154">Account</span></span>                                                                                                          | <span data-ttu-id="ef325-155">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-155">Debit amount</span></span> | <span data-ttu-id="ef325-156">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina **Contantkortingen**)                 | EUR 10,50        |               |
-| Klanten                                                                                              |              | EUR 10,50         |
-| Contantkorting van klant (het veld **Contantkorting van klant** op de pagina **Rekening voor automatische transacties**) |              | 0,50          |
-| Klanten                                                                                              | 0,50         |               |
+| <span data-ttu-id="ef325-157">Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina **Contantkortingen**)</span><span class="sxs-lookup"><span data-stu-id="ef325-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="ef325-158">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-158">10.50</span></span>        |               |
+| <span data-ttu-id="ef325-159">Klanten</span><span class="sxs-lookup"><span data-stu-id="ef325-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="ef325-160">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-160">10.50</span></span>         |
+| <span data-ttu-id="ef325-161">Contantkorting van klant (het veld **Contantkorting van klant** op de pagina **Rekening voor automatische transacties**)</span><span class="sxs-lookup"><span data-stu-id="ef325-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="ef325-162">0,50</span><span class="sxs-lookup"><span data-stu-id="ef325-162">0.50</span></span>          |
+| <span data-ttu-id="ef325-163">Klanten</span><span class="sxs-lookup"><span data-stu-id="ef325-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="ef325-164">0,50</span><span class="sxs-lookup"><span data-stu-id="ef325-164">0.50</span></span>         |               |
 
-### <a name="scenario-2"></a>Scenario 2
+### <a name="scenario-2"></a><span data-ttu-id="ef325-165">Scenario 2</span><span class="sxs-lookup"><span data-stu-id="ef325-165">Scenario 2</span></span>
 
-In dit scenario overschrijdt het overbetalingsbedrag de maximale overbetaling of onderbetaling. Een factuur voor 105,00 is ingevoerd en een contantkorting is beschikbaar als de factuur binnen zeven dagen wordt betaald.
+<span data-ttu-id="ef325-166">In dit scenario overschrijdt het overbetalingsbedrag de maximale overbetaling of onderbetaling.</span><span class="sxs-lookup"><span data-stu-id="ef325-166">In this scenario, the overpayment amount exceeds the maximum overpayment or underpayment amount.</span></span> <span data-ttu-id="ef325-167">Een factuur voor 105,00 is ingevoerd en een contantkorting is beschikbaar als de factuur binnen zeven dagen wordt betaald.</span><span class="sxs-lookup"><span data-stu-id="ef325-167">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Factuurtotaal | Beschikbare contantkorting | Te betalen bedrag na aftrek van de contantkorting |
+| <span data-ttu-id="ef325-168">Factuurtotaal</span><span class="sxs-lookup"><span data-stu-id="ef325-168">Invoice total</span></span> | <span data-ttu-id="ef325-169">Beschikbare contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-169">Cash discount available</span></span> | <span data-ttu-id="ef325-170">Te betalen bedrag na aftrek van de contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-170">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | EUR 10,50                   | EUR 94,50                                               |
+| <span data-ttu-id="ef325-171">105,00</span><span class="sxs-lookup"><span data-stu-id="ef325-171">105.00</span></span>        | <span data-ttu-id="ef325-172">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-172">10.50</span></span>                   | <span data-ttu-id="ef325-173">EUR 94,50</span><span class="sxs-lookup"><span data-stu-id="ef325-173">94.50</span></span>                                               |
 
-De klant voert een betaling van 95,00 uit in de periode van contantkorting. De betaling wordt vereffend met de factuur voor €105,00. Nadat de factuur en de betaling zijn vereffend, worden voor de klant de volgende transacties uitgevoerd in Klanten.
+<span data-ttu-id="ef325-174">De klant voert een betaling van 95,00 uit in de periode van contantkorting.</span><span class="sxs-lookup"><span data-stu-id="ef325-174">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="ef325-175">De betaling wordt vereffend met de factuur voor €105,00.</span><span class="sxs-lookup"><span data-stu-id="ef325-175">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="ef325-176">Nadat de factuur en de betaling zijn vereffend, worden voor de klant de volgende transacties uitgevoerd in Klanten.</span><span class="sxs-lookup"><span data-stu-id="ef325-176">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transactie   | Bedrag | Saldo |
+| <span data-ttu-id="ef325-177">Transactie</span><span class="sxs-lookup"><span data-stu-id="ef325-177">Transaction</span></span>   | <span data-ttu-id="ef325-178">Bedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-178">Amount</span></span> | <span data-ttu-id="ef325-179">Saldo</span><span class="sxs-lookup"><span data-stu-id="ef325-179">Balance</span></span> |
 |---------------|--------|---------|
-| Factuur       | 105,00 | 0,00    |
-| Betaling       | €-95.00 | €-0,50   |
-| Contantkorting | €-10,50 | 0,00    |
+| <span data-ttu-id="ef325-180">Factuur</span><span class="sxs-lookup"><span data-stu-id="ef325-180">Invoice</span></span>       | <span data-ttu-id="ef325-181">105,00</span><span class="sxs-lookup"><span data-stu-id="ef325-181">105.00</span></span> | <span data-ttu-id="ef325-182">0,00</span><span class="sxs-lookup"><span data-stu-id="ef325-182">0.00</span></span>    |
+| <span data-ttu-id="ef325-183">Betaling</span><span class="sxs-lookup"><span data-stu-id="ef325-183">Payment</span></span>       | <span data-ttu-id="ef325-184">€-95.00</span><span class="sxs-lookup"><span data-stu-id="ef325-184">-95.00</span></span> | <span data-ttu-id="ef325-185">€-0,50</span><span class="sxs-lookup"><span data-stu-id="ef325-185">-0.50</span></span>   |
+| <span data-ttu-id="ef325-186">Contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-186">Cash discount</span></span> | <span data-ttu-id="ef325-187">€-10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-187">-10.50</span></span> | <span data-ttu-id="ef325-188">0,00</span><span class="sxs-lookup"><span data-stu-id="ef325-188">0.00</span></span>    |
 
-Het overbetalingsbedrag van €0,50 wordt als saldo op de betaling weergegeven en kan op een andere factuur worden vereffend. De volgende boekhoudvermeldingen worden gegenereerd voor de betaling en de vereffening. **Betaling**
+<span data-ttu-id="ef325-189">Het overbetalingsbedrag van €0,50 wordt als saldo op de betaling weergegeven en kan op een andere factuur worden vereffend.</span><span class="sxs-lookup"><span data-stu-id="ef325-189">The overpayment amount of 0.50 will remain as an open balance on the payment and can be settled against another invoice.</span></span> <span data-ttu-id="ef325-190">De volgende boekhoudvermeldingen worden gegenereerd voor de betaling en de vereffening.</span><span class="sxs-lookup"><span data-stu-id="ef325-190">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="ef325-191">**Betaling**</span><span class="sxs-lookup"><span data-stu-id="ef325-191">**Payment**</span></span>
 
-| Rekening             | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="ef325-192">Rekening</span><span class="sxs-lookup"><span data-stu-id="ef325-192">Account</span></span>             | <span data-ttu-id="ef325-193">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-193">Debit amount</span></span> | <span data-ttu-id="ef325-194">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-194">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Contant                | EUR 95,00        |               |
-| Klanten |              | EUR 95,00         |
+| <span data-ttu-id="ef325-195">Contant</span><span class="sxs-lookup"><span data-stu-id="ef325-195">Cash</span></span>                | <span data-ttu-id="ef325-196">EUR 95,00</span><span class="sxs-lookup"><span data-stu-id="ef325-196">95.00</span></span>        |               |
+| <span data-ttu-id="ef325-197">Klanten</span><span class="sxs-lookup"><span data-stu-id="ef325-197">Accounts receivable</span></span> |              | <span data-ttu-id="ef325-198">EUR 95,00</span><span class="sxs-lookup"><span data-stu-id="ef325-198">95.00</span></span>         |
 
-**Vereffening**
+<span data-ttu-id="ef325-199">**Vereffening**</span><span class="sxs-lookup"><span data-stu-id="ef325-199">**Settlement**</span></span>
 
-| Rekening                                                                                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="ef325-200">Rekening</span><span class="sxs-lookup"><span data-stu-id="ef325-200">Account</span></span>                                                                                          | <span data-ttu-id="ef325-201">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-201">Debit amount</span></span> | <span data-ttu-id="ef325-202">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina**Contantkortingen**) | EUR 10,50        |               |
-| Klanten                                                                              |              | EUR 10,50         |
+| <span data-ttu-id="ef325-203">Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina**Contantkortingen**)</span><span class="sxs-lookup"><span data-stu-id="ef325-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="ef325-204">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-204">10.50</span></span>        |               |
+| <span data-ttu-id="ef325-205">Klanten</span><span class="sxs-lookup"><span data-stu-id="ef325-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="ef325-206">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-206">10.50</span></span>         |
 
-## <a name="cash-discount-administration--unspecific"></a>Administratie voor contantkorting = Flexibel
-Wanneer **Flexibel** is geselecteerd in het veld **Administratie voor contantkorting** op de pagina **Rekeningen voor automatische transacties**, wordt de bedrag van de contantkorting verminderd met het bedrag van de overbetaling. Dit gedrag is altijd van toepassing, ongeacht of het overbetalingsbedrag meer of minder is dan het bedrag dat is in gevoerd in het veld **Max. te veel/te weinig betaald bedrag**.
+## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="ef325-207">Administratie voor contantkorting = Flexibel</span><span class="sxs-lookup"><span data-stu-id="ef325-207">Cash discount administration = Unspecific</span></span>
+<span data-ttu-id="ef325-208">Wanneer **Flexibel** is geselecteerd in het veld **Administratie voor contantkorting** op de pagina **Rekeningen voor automatische transacties**, wordt de bedrag van de contantkorting verminderd met het bedrag van de overbetaling.</span><span class="sxs-lookup"><span data-stu-id="ef325-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="ef325-209">Dit gedrag is altijd van toepassing, ongeacht of het overbetalingsbedrag meer of minder is dan het bedrag dat is in gevoerd in het veld **Max. te veel/te weinig betaald bedrag**.</span><span class="sxs-lookup"><span data-stu-id="ef325-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
-### <a name="scenario-3"></a>Scenario 3
+### <a name="scenario-3"></a><span data-ttu-id="ef325-210">Scenario 3</span><span class="sxs-lookup"><span data-stu-id="ef325-210">Scenario 3</span></span>
 
-In dit scenario wordt een factuur voor 105,00 ingevoerd en is een contantkorting beschikbaar als de factuur binnen zeven dagen wordt betaald.
+<span data-ttu-id="ef325-211">In dit scenario wordt een factuur voor 105,00 ingevoerd en is een contantkorting beschikbaar als de factuur binnen zeven dagen wordt betaald.</span><span class="sxs-lookup"><span data-stu-id="ef325-211">In this scenario, an invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Factuurtotaal | Beschikbare contantkorting | Te betalen bedrag na aftrek van de contantkorting |
+| <span data-ttu-id="ef325-212">Factuurtotaal</span><span class="sxs-lookup"><span data-stu-id="ef325-212">Invoice total</span></span> | <span data-ttu-id="ef325-213">Beschikbare contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-213">Cash discount available</span></span> | <span data-ttu-id="ef325-214">Te betalen bedrag na aftrek van de contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-214">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | EUR 10,50                   | EUR 94,50                                               |
+| <span data-ttu-id="ef325-215">105,00</span><span class="sxs-lookup"><span data-stu-id="ef325-215">105.00</span></span>        | <span data-ttu-id="ef325-216">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-216">10.50</span></span>                   | <span data-ttu-id="ef325-217">EUR 94,50</span><span class="sxs-lookup"><span data-stu-id="ef325-217">94.50</span></span>                                               |
 
-De klant voert een betaling van 95,00 uit in de datum van de contantkorting. De betaling wordt vereffend met de factuur voor €105,00. Nadat de factuur en de betaling zijn vereffend, worden voor de klant de volgende transacties uitgevoerd in Klanten.
+<span data-ttu-id="ef325-218">De klant voert een betaling van 95,00 uit in de datum van de contantkorting.</span><span class="sxs-lookup"><span data-stu-id="ef325-218">The customer submits a payment for 95.00 within the cash discount date.</span></span> <span data-ttu-id="ef325-219">De betaling wordt vereffend met de factuur voor €105,00.</span><span class="sxs-lookup"><span data-stu-id="ef325-219">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="ef325-220">Nadat de factuur en de betaling zijn vereffend, worden voor de klant de volgende transacties uitgevoerd in Klanten.</span><span class="sxs-lookup"><span data-stu-id="ef325-220">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transactie   | Bedrag | Saldo |
+| <span data-ttu-id="ef325-221">Transactie</span><span class="sxs-lookup"><span data-stu-id="ef325-221">Transaction</span></span>   | <span data-ttu-id="ef325-222">Bedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-222">Amount</span></span> | <span data-ttu-id="ef325-223">Saldo</span><span class="sxs-lookup"><span data-stu-id="ef325-223">Balance</span></span> |
 |---------------|--------|---------|
-| Factuur       | 105,00 | 0,00    |
-| Betaling       | €-95.00 | €-0,00   |
-| Contantkorting | -10,00 | 0,00    |
+| <span data-ttu-id="ef325-224">Factuur</span><span class="sxs-lookup"><span data-stu-id="ef325-224">Invoice</span></span>       | <span data-ttu-id="ef325-225">105,00</span><span class="sxs-lookup"><span data-stu-id="ef325-225">105.00</span></span> | <span data-ttu-id="ef325-226">0,00</span><span class="sxs-lookup"><span data-stu-id="ef325-226">0.00</span></span>    |
+| <span data-ttu-id="ef325-227">Betaling</span><span class="sxs-lookup"><span data-stu-id="ef325-227">Payment</span></span>       | <span data-ttu-id="ef325-228">€-95.00</span><span class="sxs-lookup"><span data-stu-id="ef325-228">-95.00</span></span> | <span data-ttu-id="ef325-229">€-0,00</span><span class="sxs-lookup"><span data-stu-id="ef325-229">-0.00</span></span>   |
+| <span data-ttu-id="ef325-230">Contantkorting</span><span class="sxs-lookup"><span data-stu-id="ef325-230">Cash discount</span></span> | <span data-ttu-id="ef325-231">-10,00</span><span class="sxs-lookup"><span data-stu-id="ef325-231">-10.00</span></span> | <span data-ttu-id="ef325-232">0,00</span><span class="sxs-lookup"><span data-stu-id="ef325-232">0.00</span></span>    |
 
-Het contantkortingsbedrag wordt verminderd van €10,50 tot €10,00. De betaling en de factuur worden beschouwd als vereffend. **Betaling**
+<span data-ttu-id="ef325-233">Het contantkortingsbedrag wordt verminderd van €10,50 tot €10,00.</span><span class="sxs-lookup"><span data-stu-id="ef325-233">The cash discount amount is reduced from 10.50 to 10.00.</span></span> <span data-ttu-id="ef325-234">De betaling en de factuur worden beschouwd als vereffend.</span><span class="sxs-lookup"><span data-stu-id="ef325-234">The payment and invoice are considered settled.</span></span> <span data-ttu-id="ef325-235">**Betaling**</span><span class="sxs-lookup"><span data-stu-id="ef325-235">**Payment**</span></span>
 
-| Rekening             | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="ef325-236">Rekening</span><span class="sxs-lookup"><span data-stu-id="ef325-236">Account</span></span>             | <span data-ttu-id="ef325-237">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-237">Debit amount</span></span> | <span data-ttu-id="ef325-238">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-238">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Contant                | EUR 95,00        |               |
-| Klanten |              | EUR 95,00         |
+| <span data-ttu-id="ef325-239">Contant</span><span class="sxs-lookup"><span data-stu-id="ef325-239">Cash</span></span>                | <span data-ttu-id="ef325-240">EUR 95,00</span><span class="sxs-lookup"><span data-stu-id="ef325-240">95.00</span></span>        |               |
+| <span data-ttu-id="ef325-241">Klanten</span><span class="sxs-lookup"><span data-stu-id="ef325-241">Accounts receivable</span></span> |              | <span data-ttu-id="ef325-242">EUR 95,00</span><span class="sxs-lookup"><span data-stu-id="ef325-242">95.00</span></span>         |
 
-**Vereffening**
+<span data-ttu-id="ef325-243">**Vereffening**</span><span class="sxs-lookup"><span data-stu-id="ef325-243">**Settlement**</span></span>
 
-| Rekening                                                                                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="ef325-244">Rekening</span><span class="sxs-lookup"><span data-stu-id="ef325-244">Account</span></span>                                                                                          | <span data-ttu-id="ef325-245">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-245">Debit amount</span></span> | <span data-ttu-id="ef325-246">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="ef325-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina **Contantkortingen**) | EUR 10,50        |               |
-| Klanten                                                                                |              | EUR 10,50         |
+| <span data-ttu-id="ef325-247">Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina **Contantkortingen**)</span><span class="sxs-lookup"><span data-stu-id="ef325-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="ef325-248">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-248">10.50</span></span>        |               |
+| <span data-ttu-id="ef325-249">Klanten  </span><span class="sxs-lookup"><span data-stu-id="ef325-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="ef325-250">EUR 10,50</span><span class="sxs-lookup"><span data-stu-id="ef325-250">10.50</span></span>         |
 
 
 

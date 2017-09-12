@@ -24,34 +24,34 @@ ms.contentlocale: nl-nl
 ms.lasthandoff: 08/04/2017
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Startpagina On-premises implementatie
+# <a name="on-premises-deployment-landing-page"></a><span data-ttu-id="cc474-103">Startpagina On-premises implementatie</span><span class="sxs-lookup"><span data-stu-id="cc474-103">On-premises deployment landing page</span></span>
 
-U kunt Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition implementeren (on-premises). Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
+<span data-ttu-id="cc474-104">U kunt Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition implementeren (on-premises).</span><span class="sxs-lookup"><span data-stu-id="cc474-104">You can deploy Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises).</span></span> <span data-ttu-id="cc474-105">Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie.</span><span class="sxs-lookup"><span data-stu-id="cc474-105">When you choose an on-premises deployment type, the system requirements, hardware sizing, and functionality differ from a cloud deployment.</span></span> <span data-ttu-id="cc474-106">Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.</span><span class="sxs-lookup"><span data-stu-id="cc474-106">This topic provides links to content that contains information specific to on-premises deployments.</span></span>
 
-**Opmerking:** Dynamics 365 for Operations (on-premises) krijgt momenteel een andere naam. In de communicatie en licentiehandleidingen wordt verwezen naar Dynamics 365 for Operations (on-premises). De naam in het product die wordt weergegeven bij het implementeren van het product is Dynamics 365 for Finance and Operations, Enterprise edition. Beide namen verwijzen naar hetzelfde product.
+<span data-ttu-id="cc474-107">**Opmerking:** Dynamics 365 for Operations (on-premises) krijgt momenteel een andere naam.</span><span class="sxs-lookup"><span data-stu-id="cc474-107">**Note:** Dynamics 365 for Operations (on-premises) is currently being renamed.</span></span> <span data-ttu-id="cc474-108">In de communicatie en licentiehandleidingen wordt verwezen naar Dynamics 365 for Operations (on-premises).</span><span class="sxs-lookup"><span data-stu-id="cc474-108">You will see Dynamics 365 for Operations (on-premises) referenced throughout communications and licensing guides.</span></span> <span data-ttu-id="cc474-109">De naam in het product die wordt weergegeven bij het implementeren van het product is Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="cc474-109">The in-product name that you will see when deploying the product is Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="cc474-110">Beide namen verwijzen naar hetzelfde product.</span><span class="sxs-lookup"><span data-stu-id="cc474-110">Both of these names refer to the same product.</span></span>
 
-## <a name="get-started"></a>Aan de slag
-- [Overzicht van Dynamics 365 for Finance and Operations, Enterprise-editie (on-premises)](on-premises-overview.md)
-- [Systeemvereisten voor on-premises implementaties](../get-started/system-requirements-on-prem.md)
-- [Grootte van de hardware voor on-premises omgevingen vaststellen](../get-started/hardware-sizing-on-premises-environments.md)
-- [Online service en on-premises lifecycle-beleid voor software](../migration-upgrade/versions-update-policy.md)
-- [Dynamics 365 for Finance and Operations, Enterprise-editie (on-premises) aanschaffen](../get-started/purchase-on-premises.md)
+## <a name="get-started"></a><span data-ttu-id="cc474-111">Aan de slag</span><span class="sxs-lookup"><span data-stu-id="cc474-111">Get started</span></span>
+- [<span data-ttu-id="cc474-112">Overzicht van Dynamics 365 for Finance and Operations, Enterprise-editie (on-premises)</span><span class="sxs-lookup"><span data-stu-id="cc474-112">Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) overview</span></span>](on-premises-overview.md)
+- [<span data-ttu-id="cc474-113">Systeemvereisten voor on-premises implementaties</span><span class="sxs-lookup"><span data-stu-id="cc474-113">System requirements for on-premises deployments</span></span>](../get-started/system-requirements-on-prem.md)
+- [<span data-ttu-id="cc474-114">Grootte van de hardware voor on-premises omgevingen vaststellen</span><span class="sxs-lookup"><span data-stu-id="cc474-114">Hardware sizing for on-premises environments</span></span>](../get-started/hardware-sizing-on-premises-environments.md)
+- [<span data-ttu-id="cc474-115">Online service en on-premises lifecycle-beleid voor software</span><span class="sxs-lookup"><span data-stu-id="cc474-115">Online service and on-premises software lifecycle policy</span></span>](../migration-upgrade/versions-update-policy.md)
+- [<span data-ttu-id="cc474-116">Dynamics 365 for Finance and Operations, Enterprise-editie (on-premises) aanschaffen</span><span class="sxs-lookup"><span data-stu-id="cc474-116">Purchase Dynamics 365 for Finance and Operations, Enterprise edition (on-premises)</span></span>](../get-started/purchase-on-premises.md)
 
-## <a name="onboard"></a>Onboard
-- [Een on-premises project maken in Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [On-premises omgevingen instellen en implementeren](setup-deploy-on-premises-environments.md)
-- [SQL Server Reporting Services configureren voor een on-premises implementatie](../analytics/configure-ssrs-on-premises.md)
-- [Aangepaste modellen ontwikkelen voor on-premises omgevingen](develop-deploy-custom-models-on-premises.md)
+## <a name="onboard"></a><span data-ttu-id="cc474-117">Onboard</span><span class="sxs-lookup"><span data-stu-id="cc474-117">Onboard</span></span>
+- [<span data-ttu-id="cc474-118">Een on-premises project maken in Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="cc474-118">Create an on-premises project in Lifecycle Services</span></span>](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
+- [<span data-ttu-id="cc474-119">On-premises omgevingen instellen en implementeren</span><span class="sxs-lookup"><span data-stu-id="cc474-119">Set up and deploy on-premises environments</span></span>](setup-deploy-on-premises-environments.md)
+- [<span data-ttu-id="cc474-120">SQL Server Reporting Services configureren voor een on-premises implementatie</span><span class="sxs-lookup"><span data-stu-id="cc474-120">Configure SQL Server Reporting Services for an on-premises deployment</span></span>](../analytics/configure-ssrs-on-premises.md)
+- [<span data-ttu-id="cc474-121">Aangepaste modellen ontwikkelen voor on-premises omgevingen</span><span class="sxs-lookup"><span data-stu-id="cc474-121">Develop and deploy custom models to on-premises environments</span></span>](develop-deploy-custom-models-on-premises.md)
 
-## <a name="work-in-your-on-premises-deployment"></a>Werken in uw on-premises implementatie
-- [Documentbeheer configureren](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
-- [Configuraties van elektronische rapportage importeren](../analytics/electronic-reporting-import-ger-configurations.md)
-- [Mogelijkheid voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties](../analytics/printing-capabilities-on-premises.md)
-- [Technische ondersteuning instellen](../lifecycle-services/support-experience.md)
-- [Problemen oplossen met internetverbinding van client](../user-interface/client-disconnected.md)
+## <a name="work-in-your-on-premises-deployment"></a><span data-ttu-id="cc474-122">Werken in uw on-premises implementatie</span><span class="sxs-lookup"><span data-stu-id="cc474-122">Work in your on-premises deployment</span></span>
+- [<span data-ttu-id="cc474-123">Documentbeheer configureren</span><span class="sxs-lookup"><span data-stu-id="cc474-123">Configure document management</span></span>](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
+- [<span data-ttu-id="cc474-124">Configuraties van elektronische rapportage importeren</span><span class="sxs-lookup"><span data-stu-id="cc474-124">Import Electronic reporting configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
+- [<span data-ttu-id="cc474-125">Mogelijkheid voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties</span><span class="sxs-lookup"><span data-stu-id="cc474-125">Document generation, publishing, and printing capabilities in on-premises deployments</span></span>](../analytics/printing-capabilities-on-premises.md)
+- [<span data-ttu-id="cc474-126">Technische ondersteuning instellen</span><span class="sxs-lookup"><span data-stu-id="cc474-126">Set up technical support</span></span>](../lifecycle-services/support-experience.md)
+- [<span data-ttu-id="cc474-127">Problemen oplossen met internetverbinding van client</span><span class="sxs-lookup"><span data-stu-id="cc474-127">Client Internet connection troubleshooting</span></span>](../user-interface/client-disconnected.md)
 
-## <a name="other-resources"></a>Overige bronnen
-- [Functies die niet zijn geïmplementeerd in On-premises implementaties](../get-started/features-not-implemented-on-prem.md)
-- [Afgeschafte functies](../migration-upgrade/deprecated-features.md)
+## <a name="other-resources"></a><span data-ttu-id="cc474-128">Overige bronnen</span><span class="sxs-lookup"><span data-stu-id="cc474-128">Other resources</span></span>
+- [<span data-ttu-id="cc474-129">Functies die niet zijn geïmplementeerd in On-premises implementaties</span><span class="sxs-lookup"><span data-stu-id="cc474-129">Features not implemented in on-premises deployments</span></span>](../get-started/features-not-implemented-on-prem.md)
+- [<span data-ttu-id="cc474-130">Afgeschafte functies</span><span class="sxs-lookup"><span data-stu-id="cc474-130">Deprecated features</span></span>](../migration-upgrade/deprecated-features.md)
  
 

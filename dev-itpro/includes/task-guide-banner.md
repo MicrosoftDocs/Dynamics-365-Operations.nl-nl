@@ -1,2 +1,2 @@
 > [!NOTE]
-> We zullen geen wijzigingen in dit onderwerp accepteren, omdat het wordt gegenereerd vanuit een bedrijfsproces in Lifecycle Services.
+> <span data-ttu-id="63633-101">We zullen geen wijzigingen in dit onderwerp accepteren, omdat het wordt gegenereerd vanuit een bedrijfsproces in Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="63633-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>

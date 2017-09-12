@@ -1,2 +1,2 @@
 > [!NOTE]
-> Dit onderwerp is van toepassing op zowel Dynamics 365 for Finance and Operations, Enterprise edition als Dynamics 365 for Retail. 
+> <span data-ttu-id="c10be-101">Dit onderwerp is van toepassing op zowel Dynamics 365 for Finance and Operations, Enterprise edition als Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="c10be-101">This topic applies to both Dynamics 365 for Finance and Operations, Enterprise edition and to Dynamics 365 for Retail.</span></span> 

@@ -16,73 +16,73 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: df6d8620316cf0dcde457b06235d9e041a51e100
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 331f516f3483acd79be4ef7b95b53adcfbef1ae2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-request-for-quotation"></a>Een offerteaanvraag maken
+# <a name="create-a-request-for-quotation"></a><span data-ttu-id="d921b-103">Een offerteaanvraag maken</span><span class="sxs-lookup"><span data-stu-id="d921b-103">Create a request for quotation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat u zien hoe u een offerteaanvraag maakt. Dit wordt gewoonlijk gedaan door een inkoper. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens. U moet de verzoektypen hebben ingesteld voordat u begint. Zodra u deze taak hebt voltooid en een offerteaanvraag hebt gemaakt en verzonden, kunt u de antwoorden per leverancier invoeren, deze vergelijken en het contract toekennen.
+<span data-ttu-id="d921b-104">Deze procedure laat u zien hoe u een offerteaanvraag maakt.</span><span class="sxs-lookup"><span data-stu-id="d921b-104">This procedure shows you how to create a request for quotation.</span></span> <span data-ttu-id="d921b-105">Dit wordt gewoonlijk gedaan door een inkoper.</span><span class="sxs-lookup"><span data-stu-id="d921b-105">This would typically be done by a purchasing agent.</span></span> <span data-ttu-id="d921b-106">U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="d921b-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="d921b-107">U moet de verzoektypen hebben ingesteld voordat u begint.</span><span class="sxs-lookup"><span data-stu-id="d921b-107">You need to have set up solicitation types before you start.</span></span> <span data-ttu-id="d921b-108">Zodra u deze taak hebt voltooid en een offerteaanvraag hebt gemaakt en verzonden, kunt u de antwoorden per leverancier invoeren, deze vergelijken en het contract toekennen.</span><span class="sxs-lookup"><span data-stu-id="d921b-108">Once you’ve completed this task and you’ve created and sent an RFQ you can then enter the replies per vendor, compare them, and award the contract.</span></span>
 
 
-## <a name="prepare-a-new-rfq"></a>Een nieuwe offerteaanvraag voorbereiden
-1. Ga naar Inkoop en sourcing > Offerteaanvragen > Alle offerteaanvragen.
-2. Klik op Nieuw.
-    * De volgende inkooptypen zijn beschikbaar: Inkooporder (dit is de standaard): een document dat het aanbod om producten te kopen of de acceptatie van een aanbod om producten te verkopen tegen een betaling bevestigt. Opdracht tot inkoop: dit type wordt automatisch geselecteerd als u een offerteaanvraag rechtstreeks vanuit een opdracht tot inkoop maakt. Als u deze optie handmatig selecteert, verschijnt er een foutmelding. Inkoopovereenkomst: een overeenkomst voor de aanschaf van een bepaalde hoeveelheid of waarde van een product in een bepaalde periode. Als u deze optie selecteert, moet u het datumbereik selecteren dat van toepassing is op de inkoopovereenkomst.  
-3. Typ een waarde in het veld Documenttitel.
-4. Typ of selecteer een waarde in het veld Verzoektype.
-    * Als een beoordelingsmethode aan het verzoektype is gekoppeld, wordt dit de standaardbeoordelingsmethode voor de offerteaanvraag die u maakt. Het is mogelijk om de beoordelingsmethode later te wijzigen.  
-    * Typ een datum in het veld Leveringsdatum.  
-    * Selecteer de datum waarop u de artikelen wilt ontvangen.  
-    * Voer in het veld Vervaldatum en -tijd een datum en tijd in.  
-    * Geef de datum en tijd op wanneer leveranciers de offerteaanvraag moeten beantwoorden.  
-5. Typ of selecteer een waarde in het veld Magazijn.
-    * Het afleveradres wordt standaard ingesteld op het magazijnadres.  
-6. Klik op OK.
+## <a name="prepare-a-new-rfq"></a><span data-ttu-id="d921b-109">Een nieuwe offerteaanvraag voorbereiden</span><span class="sxs-lookup"><span data-stu-id="d921b-109">Prepare a new RFQ</span></span>
+1. <span data-ttu-id="d921b-110">Ga naar Inkoop en sourcing > Offerteaanvragen > Alle offerteaanvragen.</span><span class="sxs-lookup"><span data-stu-id="d921b-110">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="d921b-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d921b-111">Click New.</span></span>
+    * <span data-ttu-id="d921b-112">De volgende inkooptypen zijn beschikbaar: Inkooporder (dit is de standaard): een document dat het aanbod om producten te kopen of de acceptatie van een aanbod om producten te verkopen tegen een betaling bevestigt.</span><span class="sxs-lookup"><span data-stu-id="d921b-112">The following purchase types are available: Purchase order (this is the default): a document that confirms the offer to buy products, or the acceptance of an offer to sell products in exchange for payment.</span></span> <span data-ttu-id="d921b-113">Opdracht tot inkoop: dit type wordt automatisch geselecteerd als u een offerteaanvraag rechtstreeks vanuit een opdracht tot inkoop maakt.</span><span class="sxs-lookup"><span data-stu-id="d921b-113">Purchase requisition: this type is automatically selected if you create an RFQ directly from a purchase requisition.</span></span> <span data-ttu-id="d921b-114">Als u deze optie handmatig selecteert, verschijnt er een foutmelding.</span><span class="sxs-lookup"><span data-stu-id="d921b-114">If you manually select this option, you’ll get an error.</span></span> <span data-ttu-id="d921b-115">Inkoopovereenkomst: een overeenkomst voor de aanschaf van een bepaalde hoeveelheid of waarde van een product in een bepaalde periode.</span><span class="sxs-lookup"><span data-stu-id="d921b-115">Purchase agreement: an agreement to purchase a specific quantity or value of product over time.</span></span> <span data-ttu-id="d921b-116">Als u deze optie selecteert, moet u het datumbereik selecteren dat van toepassing is op de inkoopovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="d921b-116">If you select this option, you must select the date range that applies to the purchase agreement.</span></span>  
+3. <span data-ttu-id="d921b-117">Typ een waarde in het veld Documenttitel.</span><span class="sxs-lookup"><span data-stu-id="d921b-117">In the Document title field, type a value.</span></span>
+4. <span data-ttu-id="d921b-118">Typ of selecteer een waarde in het veld Verzoektype.</span><span class="sxs-lookup"><span data-stu-id="d921b-118">In the Solicitation type field, enter or select a value.</span></span>
+    * <span data-ttu-id="d921b-119">Als een beoordelingsmethode aan het verzoektype is gekoppeld, wordt dit de standaardbeoordelingsmethode voor de offerteaanvraag die u maakt.</span><span class="sxs-lookup"><span data-stu-id="d921b-119">If a scoring method is associated with the solicitation type, this will be the default scoring method for the RFQ that you’re creating.</span></span> <span data-ttu-id="d921b-120">Het is mogelijk om de beoordelingsmethode later te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="d921b-120">It is possible to change the scoring method later.</span></span>  
+    * <span data-ttu-id="d921b-121">Typ een datum in het veld Leveringsdatum.</span><span class="sxs-lookup"><span data-stu-id="d921b-121">In the Delivery date field, enter a date.</span></span>  
+    * <span data-ttu-id="d921b-122">Selecteer de datum waarop u de artikelen wilt ontvangen.</span><span class="sxs-lookup"><span data-stu-id="d921b-122">Select the date by which you want to receive the items.</span></span>  
+    * <span data-ttu-id="d921b-123">Voer in het veld Vervaldatum en -tijd een datum en tijd in.</span><span class="sxs-lookup"><span data-stu-id="d921b-123">In the Expiration date and time field, enter a date and time.</span></span>  
+    * <span data-ttu-id="d921b-124">Geef de datum en tijd op wanneer leveranciers de offerteaanvraag moeten beantwoorden.</span><span class="sxs-lookup"><span data-stu-id="d921b-124">Specify the date and time by which vendors must respond to the RFQ.</span></span>  
+5. <span data-ttu-id="d921b-125">Typ of selecteer een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="d921b-125">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="d921b-126">Het afleveradres wordt standaard ingesteld op het magazijnadres.</span><span class="sxs-lookup"><span data-stu-id="d921b-126">The delivery address will default to the warehouse address.</span></span>  
+6. <span data-ttu-id="d921b-127">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d921b-127">Click OK.</span></span>
 
-## <a name="add-lines"></a>Regels toevoegen
-    * Nadat u de basisgegevens over uw offerteaanvraag hebt opgegeven, geeft u de goederen of services op waarop u wilt dat leveranciers bieden. Artikel is het standaardregeltype.   
-1. Typ of selecteer een waarde in het veld Artikelnummer.
-    * Als u USMF gebruikt, kunt u T0020 selecteren.  
-2. Voer in het veld Hoeveelheid een getal in.
-3. Klik op Regel toevoegen.
-4. Selecteer 'Categorie' in het veld Regeltype.
-    * U kunt het categorieregeltype gebruiken om offerteaanvragen voor niet-voorraadgoederen of -services te maken. U moet vervolgens het type goederen of services van een hiërarchie van aanschaffingscategorieën selecteren.  
-5. Typ of selecteer een waarde in het veld Aanschaffingscategorie.
-6. Typ een waarde in het veld Productnaam.
-7. Voer in het veld Hoeveelheid een getal in.
-8. Typ of selecteer een waarde in het veld Eenheid.
+## <a name="add-lines"></a><span data-ttu-id="d921b-128">Regels toevoegen</span><span class="sxs-lookup"><span data-stu-id="d921b-128">Add lines</span></span>
+    * <span data-ttu-id="d921b-129">Nadat u de basisgegevens over uw offerteaanvraag hebt opgegeven, geeft u de goederen of services op waarop u wilt dat leveranciers bieden.</span><span class="sxs-lookup"><span data-stu-id="d921b-129">After you’ve specified the basic information about your RFQ, you specify the goods or services that you want vendors to bid on.</span></span> <span data-ttu-id="d921b-130">Artikel is het standaardregeltype.</span><span class="sxs-lookup"><span data-stu-id="d921b-130">Item is the default line type.</span></span>   
+1. <span data-ttu-id="d921b-131">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="d921b-131">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="d921b-132">Als u USMF gebruikt, kunt u T0020 selecteren.</span><span class="sxs-lookup"><span data-stu-id="d921b-132">If you're using USMF, you can select T0020.</span></span>  
+2. <span data-ttu-id="d921b-133">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="d921b-133">In the Quantity field, enter a number.</span></span>
+3. <span data-ttu-id="d921b-134">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d921b-134">Click Add line.</span></span>
+4. <span data-ttu-id="d921b-135">Selecteer 'Categorie' in het veld Regeltype.</span><span class="sxs-lookup"><span data-stu-id="d921b-135">In the Line type field, select 'Category'.</span></span>
+    * <span data-ttu-id="d921b-136">U kunt het categorieregeltype gebruiken om offerteaanvragen voor niet-voorraadgoederen of -services te maken.</span><span class="sxs-lookup"><span data-stu-id="d921b-136">You can use the Category line type to create RFQs for non-inventory goods or services.</span></span> <span data-ttu-id="d921b-137">U moet vervolgens het type goederen of services van een hiërarchie van aanschaffingscategorieën selecteren.</span><span class="sxs-lookup"><span data-stu-id="d921b-137">You then need to select the type of goods or services from a hierarchy of procurement categories.</span></span>  
+5. <span data-ttu-id="d921b-138">Typ of selecteer een waarde in het veld Aanschaffingscategorie.</span><span class="sxs-lookup"><span data-stu-id="d921b-138">In the Procurement category field, enter or select a value.</span></span>
+6. <span data-ttu-id="d921b-139">Typ een waarde in het veld Productnaam.</span><span class="sxs-lookup"><span data-stu-id="d921b-139">In the Product name field, type a value.</span></span>
+7. <span data-ttu-id="d921b-140">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="d921b-140">In the Quantity field, enter a number.</span></span>
+8. <span data-ttu-id="d921b-141">Typ of selecteer een waarde in het veld Eenheid.</span><span class="sxs-lookup"><span data-stu-id="d921b-141">In the Unit field, enter or select a value.</span></span>
 
-## <a name="add-vendors"></a>Leveranciers toevoegen
-1. Klik op Koptekst om van de weergave Regels over te schakelen naar de weergave Koptekst. 
-2. Vouw de sectie Leverancier uit.
-3. Klik op Leveranciers automatisch toevoegen.
-    * U kunt leveranciers automatisch aan de offerteaanvraag toevoegen op basis van de aanschaffingscategorie van de gevraagde artikelen. Als er geen leveranciers zijn goedgekeurd voor de categorieën die zijn opgenomen in de regels, kunt u leveranciers handmatig toevoegen.  
-4. Klik op Toevoegen.
-5. Typ of selecteer een waarde in het veld Leveranciersrekening.
-6. Klik op Toevoegen.
-7. Typ of selecteer een waarde in het veld Leveranciersrekening.
-    * Zodra u een leverancier hebt geselecteerd, is de status gemaakt. Dat wil zeggen dat de leveranciersgegevens in de RFQ zijn opgeslagen, maar dat u de RFQ niet naar de leverancier hebt gezonden. U kunt een leverancier aan een RFQ toevoegen, ongeacht de status van de leverancier.  
+## <a name="add-vendors"></a><span data-ttu-id="d921b-142">Leveranciers toevoegen</span><span class="sxs-lookup"><span data-stu-id="d921b-142">Add vendors</span></span>
+1. <span data-ttu-id="d921b-143">Klik op Koptekst om van de weergave Regels over te schakelen naar de weergave Koptekst.</span><span class="sxs-lookup"><span data-stu-id="d921b-143">Click Header to change from the Lines view to the Header view.</span></span> 
+2. <span data-ttu-id="d921b-144">Vouw de sectie Leverancier uit.</span><span class="sxs-lookup"><span data-stu-id="d921b-144">Expand the Vendor section.</span></span>
+3. <span data-ttu-id="d921b-145">Klik op Leveranciers automatisch toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d921b-145">Click Auto-add vendors.</span></span>
+    * <span data-ttu-id="d921b-146">U kunt leveranciers automatisch aan de offerteaanvraag toevoegen op basis van de aanschaffingscategorie van de gevraagde artikelen.</span><span class="sxs-lookup"><span data-stu-id="d921b-146">You can add vendors to the RFQ automatically, based on the procurement category of the items requested.</span></span> <span data-ttu-id="d921b-147">Als er geen leveranciers zijn goedgekeurd voor de categorieën die zijn opgenomen in de regels, kunt u leveranciers handmatig toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d921b-147">If there are no vendors approved for the categories included in the lines you can add vendors manually.</span></span>  
+4. <span data-ttu-id="d921b-148">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d921b-148">Click Add.</span></span>
+5. <span data-ttu-id="d921b-149">Typ of selecteer een waarde in het veld Leveranciersrekening.</span><span class="sxs-lookup"><span data-stu-id="d921b-149">In the Vendor account field, enter or select a value.</span></span>
+6. <span data-ttu-id="d921b-150">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d921b-150">Click Add.</span></span>
+7. <span data-ttu-id="d921b-151">Typ of selecteer een waarde in het veld Leveranciersrekening.</span><span class="sxs-lookup"><span data-stu-id="d921b-151">In the Vendor account field, enter or select a value.</span></span>
+    * <span data-ttu-id="d921b-152">Zodra u een leverancier hebt geselecteerd, is de status gemaakt.</span><span class="sxs-lookup"><span data-stu-id="d921b-152">Once you’ve selected a vendor, the status is Created.</span></span> <span data-ttu-id="d921b-153">Dat wil zeggen dat de leveranciersgegevens in de RFQ zijn opgeslagen, maar dat u de RFQ niet naar de leverancier hebt gezonden.</span><span class="sxs-lookup"><span data-stu-id="d921b-153">This means that the vendor information has been saved in the RFQ, but you have not sent the RFQ to the vendor.</span></span> <span data-ttu-id="d921b-154">U kunt een leverancier aan een RFQ toevoegen, ongeacht de status van de leverancier.</span><span class="sxs-lookup"><span data-stu-id="d921b-154">You can add a vendor to an RFQ regardless of the vendor status.</span></span>  
 
-## <a name="send-the-rfq-to-vendors"></a>Offerteaanvraag verzenden naar leveranciers
-1. Klik op Verzenden.
-    * Controleer op de pagina Offerteaanvraag verzenden of de leveranciers in de lijst de leveranciers zijn die de offerteaanvraag moeten ontvangen.  
-2. Klik op Afdrukken.
-    * In dit dialoogvenster kunt u de offerteaanvraag afdrukken. Als u ervoor kiest een antwoordblad af te drukken, wordt de inhoud hiervan gedefinieerd in Parameters voor inkoop en sourcing. Om te bepalen hoe u antwoordbladen afdrukt, klikt u op Geavanceerde afdrukopties zodra u het dialoogvenster Afdrukken hebt geopend. Er wordt voor elke leverancier een offerteaanvraag afgedrukt met de regels die de status Gemaakt of Verzonden hebben. Geannuleerde regels en regels met geregistreerde antwoorden worden niet afgedrukt.   
-3. Klik op Annuleren.
-4. Klik op OK.
-5. Sluit de pagina.
-6. Sluit de pagina.
+## <a name="send-the-rfq-to-vendors"></a><span data-ttu-id="d921b-155">Offerteaanvraag verzenden naar leveranciers</span><span class="sxs-lookup"><span data-stu-id="d921b-155">Send the RFQ to vendors</span></span>
+1. <span data-ttu-id="d921b-156">Klik op Verzenden.</span><span class="sxs-lookup"><span data-stu-id="d921b-156">Click Send.</span></span>
+    * <span data-ttu-id="d921b-157">Controleer op de pagina Offerteaanvraag verzenden of de leveranciers in de lijst de leveranciers zijn die de offerteaanvraag moeten ontvangen.</span><span class="sxs-lookup"><span data-stu-id="d921b-157">In the Sending request for quotation page, check that the vendors in the list are the ones that you want to receive the RFQ.</span></span>  
+2. <span data-ttu-id="d921b-158">Klik op Afdrukken.</span><span class="sxs-lookup"><span data-stu-id="d921b-158">Click Print.</span></span>
+    * <span data-ttu-id="d921b-159">In dit dialoogvenster kunt u de offerteaanvraag afdrukken.</span><span class="sxs-lookup"><span data-stu-id="d921b-159">This dialog allows you to print the RFQ.</span></span> <span data-ttu-id="d921b-160">Als u ervoor kiest een antwoordblad af te drukken, wordt de inhoud hiervan gedefinieerd in Parameters voor inkoop en sourcing.</span><span class="sxs-lookup"><span data-stu-id="d921b-160">If you choose to print a reply sheet, the contents of this are defined in Procurement and Sourcing parameters.</span></span> <span data-ttu-id="d921b-161">Om te bepalen hoe u antwoordbladen afdrukt, klikt u op Geavanceerde afdrukopties zodra u het dialoogvenster Afdrukken hebt geopend.</span><span class="sxs-lookup"><span data-stu-id="d921b-161">To choose how to print reply sheets, once you’ve opened the Print dialog, click Advanced printing options.</span></span> <span data-ttu-id="d921b-162">Er wordt voor elke leverancier een offerteaanvraag afgedrukt met de regels die de status Gemaakt of Verzonden hebben.</span><span class="sxs-lookup"><span data-stu-id="d921b-162">One RFQ will be printed for each vendor containing the lines that have the status of Created or Sent.</span></span> <span data-ttu-id="d921b-163">Geannuleerde regels en regels met geregistreerde antwoorden worden niet afgedrukt.</span><span class="sxs-lookup"><span data-stu-id="d921b-163">Canceled lines and lines with registered replies will not be printed.</span></span>   
+3. <span data-ttu-id="d921b-164">Klik op Annuleren.</span><span class="sxs-lookup"><span data-stu-id="d921b-164">Click Cancel.</span></span>
+4. <span data-ttu-id="d921b-165">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d921b-165">Click OK.</span></span>
+5. <span data-ttu-id="d921b-166">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d921b-166">Close the page.</span></span>
+6. <span data-ttu-id="d921b-167">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d921b-167">Close the page.</span></span>
 
-## <a name="view-the-rfq-journal"></a>Het offerteaanvraagjournaal weergeven
-1. Ga naar Inkoop en sourcing > Offerteaanvragen > Opvolging op offerteaanvragen > Offerteaanvraagjournalen.
-2. Klik op Voorbeeld/afdrukken.
-3. Klik op Oorspronkelijk voorbeeld.
-4. Sluit de pagina.
-5. Sluit de pagina.
+## <a name="view-the-rfq-journal"></a><span data-ttu-id="d921b-168">Het offerteaanvraagjournaal weergeven</span><span class="sxs-lookup"><span data-stu-id="d921b-168">View the RFQ journal</span></span>
+1. <span data-ttu-id="d921b-169">Ga naar Inkoop en sourcing > Offerteaanvragen > Opvolging op offerteaanvragen > Offerteaanvraagjournalen.</span><span class="sxs-lookup"><span data-stu-id="d921b-169">Go to Procurement and sourcing > Requests for quotations > Request for quotations follow-up > Request for quotation journals.</span></span>
+2. <span data-ttu-id="d921b-170">Klik op Voorbeeld/afdrukken.</span><span class="sxs-lookup"><span data-stu-id="d921b-170">Click Preview/Print.</span></span>
+3. <span data-ttu-id="d921b-171">Klik op Oorspronkelijk voorbeeld.</span><span class="sxs-lookup"><span data-stu-id="d921b-171">Click Original preview.</span></span>
+4. <span data-ttu-id="d921b-172">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d921b-172">Close the page.</span></span>
+5. <span data-ttu-id="d921b-173">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d921b-173">Close the page.</span></span>
 
 

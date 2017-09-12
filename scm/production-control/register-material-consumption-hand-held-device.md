@@ -18,75 +18,75 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: b4c0d14340e96b2e7916ea73e25e62ae5c33ce49
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: 83703d962d6099ba8ac107548a569c8d1f34882f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="register-material-consumption-using-a-mobile-device"></a>Materiaalverbruik registeren met een mobiel apparaat
-In dit onderwerp wordt een workflow beschreven waarmee u het grondstoffenverbruik in productie kunt registreren door middel van een mobiel apparaat.
+# <a name="register-material-consumption-using-a-mobile-device"></a><span data-ttu-id="3afbf-103">Materiaalverbruik registeren met een mobiel apparaat</span><span class="sxs-lookup"><span data-stu-id="3afbf-103">Register material consumption using a mobile device</span></span>
+<span data-ttu-id="3afbf-104">In dit onderwerp wordt een workflow beschreven waarmee u het grondstoffenverbruik in productie kunt registreren door middel van een mobiel apparaat.</span><span class="sxs-lookup"><span data-stu-id="3afbf-104">This topic describes a workflow that enables registration of raw material consumption in production by using a handheld device.</span></span>
 
-<a name="introduction"></a>Introductie
+<a name="introduction"></a><span data-ttu-id="3afbf-105">Introductie</span><span class="sxs-lookup"><span data-stu-id="3afbf-105">Introduction</span></span>
 ------------
 
-Deze werkstroom is relevant als er een harde vereiste is voor traceerbaarheid van materialen. In dat geval moet vanwege de traceerbaarheid van de materialen de precieze tijd en hoeveelheden voor het verbruik worden gerapporteerd. Dit proces kunt u zien in tegenstelling tot bewerkingen met voor- of achterwaarts afboeken, waarbij een offset bestaat tussen het tijdstip van registratie en het tijdstip waarop het werkelijke verbruik plaatsvindt. Dit verklaart waarom een strategie van automatisch verbruik niet kan worden toegepast voor bepaalde materialen met traceerbaarheidsvereisten. We bekijken een eenvoudig scenario dat toelicht hoe u een workflow instelt voor het inschakelen van registratie van het grondstoffenverbruik in de productie door middel van een handheldapparaat. [![](./media/scenario3.png)](./media/scenario3.png)
+<span data-ttu-id="3afbf-106">Deze werkstroom is relevant als er een harde vereiste is voor traceerbaarheid van materialen.</span><span class="sxs-lookup"><span data-stu-id="3afbf-106">This workflow is relevant if there is a strict requirement for material traceability.</span></span> <span data-ttu-id="3afbf-107">In dat geval moet vanwege de traceerbaarheid van de materialen de precieze tijd en hoeveelheden voor het verbruik worden gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="3afbf-107">In those cases, to maintain traceability of the materials, the exact time and quantity must be reported for the consumption.</span></span> <span data-ttu-id="3afbf-108">Dit proces kunt u zien in tegenstelling tot bewerkingen met voor- of achterwaarts afboeken, waarbij een offset bestaat tussen het tijdstip van registratie en het tijdstip waarop het werkelijke verbruik plaatsvindt.</span><span class="sxs-lookup"><span data-stu-id="3afbf-108">This process can be seen as opposed to pre- or back-flushing operations, where there is an offset between the time of registration and the time when the actual consumption takes place.</span></span> <span data-ttu-id="3afbf-109">Dit verklaart waarom een strategie van automatisch verbruik niet kan worden toegepast voor bepaalde materialen met traceerbaarheidsvereisten.</span><span class="sxs-lookup"><span data-stu-id="3afbf-109">This explains why a strategy of automatic consumption cannot be used for some materials with traceability requirements.</span></span> <span data-ttu-id="3afbf-110">We bekijken een eenvoudig scenario dat toelicht hoe u een workflow instelt voor het inschakelen van registratie van het grondstoffenverbruik in de productie door middel van een handheldapparaat.</span><span class="sxs-lookup"><span data-stu-id="3afbf-110">Let’s look at a simple scenario that explains how to set up a workflow to enable registration of raw material consumption in production by using a handheld device.</span></span> [![](./media/scenario3.png)](./media/scenario3.png)
 
-### <a name="scenario-details"></a>Scenariodetails
+### <a name="scenario-details"></a><span data-ttu-id="3afbf-111">Scenariodetails</span><span class="sxs-lookup"><span data-stu-id="3afbf-111">Scenario details</span></span>
 
-Een continu productieproces (5) verbruikt het batchmateriaal-grondstof RM-100. Het materiaal is voorhanden op locatie Bulk-001 (1) op nummerplaat PL-1 met twee batches, B1 en B2, beide met een hoeveelheid van 100 kg. Magazijnwerk (2) wordt vrijgegeven voor RM-100. Het materiaal wordt opgehaald vanuit Bulk-001 en naar de productinvoerlocatie PIL-01 (3) gebracht, die is gedefinieerd als niet met nummerplaten gecontroleerd. De machine-operator weegt materiaal van de productie-invoerlocatie (3) af en registreert het gewicht en batchnummer als verbruikt (4). Van de productie-invoerlocatie wordt een gedeelte van het materiaal handmatig toegevoegd aan het productieproces in gedefinieerde intervallen. Wanneer de machine-operator materiaal toevoegt, wordt dit op een schaal gewogen en het batchnummer wordt geregistreerd.
+<span data-ttu-id="3afbf-112">Een continu productieproces (5) verbruikt het batchmateriaal-grondstof RM-100.</span><span class="sxs-lookup"><span data-stu-id="3afbf-112">A continuous production process (5) consumes the batch-controlled raw material RM-100.</span></span> <span data-ttu-id="3afbf-113">Het materiaal is voorhanden op locatie Bulk-001 (1) op nummerplaat PL-1 met twee batches, B1 en B2, beide met een hoeveelheid van 100 kg.</span><span class="sxs-lookup"><span data-stu-id="3afbf-113">The material is on-hand on location Bulk-001 (1) on license plate PL-1 with two batches, B1 and B2, both with a quantity of 100 lbs.</span></span> <span data-ttu-id="3afbf-114">Magazijnwerk (2) wordt vrijgegeven voor RM-100. Het materiaal wordt opgehaald vanuit Bulk-001 en naar de productinvoerlocatie PIL-01 (3) gebracht, die is gedefinieerd als niet met nummerplaten gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="3afbf-114">Warehouse work (2) is released and processed for RM-100, and the material is picked from Bulk-001 to the production input location PIL-01 (3), which is defined as non-license plate controlled.</span></span> <span data-ttu-id="3afbf-115">De machine-operator weegt materiaal van de productie-invoerlocatie (3) af en registreert het gewicht en batchnummer als verbruikt (4).</span><span class="sxs-lookup"><span data-stu-id="3afbf-115">The machine operator weighs out material from the production input location (3) and registers the weight and batch number as consumed (4).</span></span> <span data-ttu-id="3afbf-116">Van de productie-invoerlocatie wordt een gedeelte van het materiaal handmatig toegevoegd aan het productieproces in gedefinieerde intervallen.</span><span class="sxs-lookup"><span data-stu-id="3afbf-116">From the production input location, a portion of the material is manually added to the production process in defined time intervals.</span></span> <span data-ttu-id="3afbf-117">Wanneer de machine-operator materiaal toevoegt, wordt dit op een schaal gewogen en het batchnummer wordt geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="3afbf-117">When the machine operator adds material, it is weighed on a scale and the batch number is registered.</span></span>
 
-## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>De werkstroom instellen om met een handheldapparaat verbruik te registreren
-Maak een eindproduct FG-100, met een stuklijst die de batchmateriaal-grondstof RM-100 bevat. Voeg twee batches B1 en B2 toe van RM-100 in een hoeveelheid van 100 naar locatie Bulk-001 op nummerplaat PL-1. Het afboekprincipe op de stuklijstregel voor RM-100 is ingesteld op **Handmatig**. Stel de productie-invoerlocatie in op PIL-01. U doet dit door deze locatie als de standaardproductie-invoerlocatie te kiezen in magazijn 51.
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a><span data-ttu-id="3afbf-118">De werkstroom instellen om met een handheldapparaat verbruik te registreren</span><span class="sxs-lookup"><span data-stu-id="3afbf-118">Set up the workflow to register consumption using a handheld device</span></span>
+<span data-ttu-id="3afbf-119">Maak een eindproduct FG-100, met een stuklijst die de batchmateriaal-grondstof RM-100 bevat.</span><span class="sxs-lookup"><span data-stu-id="3afbf-119">Create a finished-good product, FG-100, with a bill of material that has the batch-controlled raw material RM-100.</span></span> <span data-ttu-id="3afbf-120">Voeg twee batches B1 en B2 toe van RM-100 in een hoeveelheid van 100 naar locatie Bulk-001 op nummerplaat PL-1.</span><span class="sxs-lookup"><span data-stu-id="3afbf-120">Add two batches, B1 and B2, of RM-100 in a quantity of 100 to location: Bulk-001 on license plate: PL-1.</span></span> <span data-ttu-id="3afbf-121">Het afboekprincipe op de stuklijstregel voor RM-100 is ingesteld op **Handmatig**.</span><span class="sxs-lookup"><span data-stu-id="3afbf-121">The flushing principle on the bill of material line for RM-100 is set to **Manual**.</span></span> <span data-ttu-id="3afbf-122">Stel de productie-invoerlocatie in op PIL-01.</span><span class="sxs-lookup"><span data-stu-id="3afbf-122">Set  the production input location to PIL-01.</span></span> <span data-ttu-id="3afbf-123">U doet dit door deze locatie als de standaardproductie-invoerlocatie te kiezen in magazijn 51.</span><span class="sxs-lookup"><span data-stu-id="3afbf-123">You can do that by selecting this location as the default production input location on warehouse 51.</span></span>
 
-1.  Maak een nieuwe menuopdracht voor een mobiel apparaat: 
+1.  <span data-ttu-id="3afbf-124">Maak een nieuwe menuopdracht voor een mobiel apparaat:</span><span class="sxs-lookup"><span data-stu-id="3afbf-124">Create a new mobile device menu item:</span></span> 
 
--    **Naam menuopdracht**: Materiaalverbruik registreren. 
--    **Titel**: Materiaalverbruik registreren. 
--    **Modus**: Indirect. 
--    **Activiteitscode**: Materiaalverbruik registeren.
+-    <span data-ttu-id="3afbf-125">**Naam menuopdracht**: Materiaalverbruik registreren.</span><span class="sxs-lookup"><span data-stu-id="3afbf-125">**Menu item name** - Register material consumption.</span></span> 
+-    <span data-ttu-id="3afbf-126">**Titel**: Materiaalverbruik registreren.</span><span class="sxs-lookup"><span data-stu-id="3afbf-126">**Title** - Register material consumption.</span></span> 
+-    <span data-ttu-id="3afbf-127">**Modus**: Indirect.</span><span class="sxs-lookup"><span data-stu-id="3afbf-127">**Mode** - Indirect.</span></span> 
+-    <span data-ttu-id="3afbf-128">**Activiteitscode**: Materiaalverbruik registeren.</span><span class="sxs-lookup"><span data-stu-id="3afbf-128">**Activity code** - Register material consumption.</span></span>
 
-2.  Voeg de menuopdracht toe aan het apparaatmenu **Productie mobiel**.
-3.  Maak een productieorder voor het eindproduct: 
+2.  <span data-ttu-id="3afbf-129">Voeg de menuopdracht toe aan het apparaatmenu **Productie mobiel**.</span><span class="sxs-lookup"><span data-stu-id="3afbf-129">Add the menu item to the **Production Mobile** device menu.</span></span>
+3.  <span data-ttu-id="3afbf-130">Maak een productieorder voor het eindproduct:</span><span class="sxs-lookup"><span data-stu-id="3afbf-130">Create a production order for the finished product:</span></span> 
 
--    **Artikelnummer**: FG-100 
--    **Locatie**: 5 
--    **Magazijn**: 51 
--    **Hoeveelheid**: 150
+-    <span data-ttu-id="3afbf-131">**Artikelnummer**: FG-100</span><span class="sxs-lookup"><span data-stu-id="3afbf-131">**Item number** - FG-100</span></span> 
+-    <span data-ttu-id="3afbf-132">**Locatie**: 5</span><span class="sxs-lookup"><span data-stu-id="3afbf-132">**Site** - 5</span></span> 
+-    <span data-ttu-id="3afbf-133">**Magazijn**: 51</span><span class="sxs-lookup"><span data-stu-id="3afbf-133">**Warehouse** - 51</span></span> 
+-    <span data-ttu-id="3afbf-134">**Hoeveelheid**: 150</span><span class="sxs-lookup"><span data-stu-id="3afbf-134">**Quantity** - 150</span></span>
 
-De productieorder wordt **Geraamd** en **Vrijgegeven** en magazijnwerk wordt gemaakt.
+<span data-ttu-id="3afbf-135">De productieorder wordt **Geraamd** en **Vrijgegeven** en magazijnwerk wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="3afbf-135">The production order is **Estimated** and **Released** and warehouse work is created.</span></span>
 
-4.  Voltooi het werk door middel van de workflow voor verzamelen van grondstoffen voor het draagbare apparaat.
+4.  <span data-ttu-id="3afbf-136">Voltooi het werk door middel van de workflow voor verzamelen van grondstoffen voor het draagbare apparaat.</span><span class="sxs-lookup"><span data-stu-id="3afbf-136">Complete the work using the workflow for raw material picking for the handheld device.</span></span>
 
-Dit brengt het materiaal uit de bulklocatie naar de productie-invoerlocatie PIL-01. Nadat het werk is voltooid, heeft het materiaal de status **Verzameld op de productie-invoerlocatie**. De status nadat het werk is verwerkt, kan **Verzameld** of **Fysiek gereserveerd** zijn. Dit wordt geconfigureerd met de parameter **Status uitgeven na plaatsing op magazijnformulier**.
+<span data-ttu-id="3afbf-137">Dit brengt het materiaal uit de bulklocatie naar de productie-invoerlocatie PIL-01.</span><span class="sxs-lookup"><span data-stu-id="3afbf-137">This will bring the material from the bulk location to the production input location PIL-01.</span></span> <span data-ttu-id="3afbf-138">Nadat het werk is voltooid, heeft het materiaal de status **Verzameld op de productie-invoerlocatie**.</span><span class="sxs-lookup"><span data-stu-id="3afbf-138">After the work is completed, the material has the status **Picked on the production input location**.</span></span> <span data-ttu-id="3afbf-139">De status nadat het werk is verwerkt, kan **Verzameld** of **Fysiek gereserveerd** zijn.</span><span class="sxs-lookup"><span data-stu-id="3afbf-139">The status after work has been processed can be either **Picked** or **Reserved physical**.</span></span> <span data-ttu-id="3afbf-140">Dit wordt geconfigureerd met de parameter **Status uitgeven na plaatsing op magazijnformulier**.</span><span class="sxs-lookup"><span data-stu-id="3afbf-140">This is configured with the parameter **Issue status after put on the warehouse form**.</span></span>
 
-5.  Start de productieorder vanuit de client of op het handheldapparaat door middel van de menuopdracht **Productie - begin**.
+5.  <span data-ttu-id="3afbf-141">Start de productieorder vanuit de client of op het handheldapparaat door middel van de menuopdracht **Productie - begin**.</span><span class="sxs-lookup"><span data-stu-id="3afbf-141">Start the production order either from the client or from the handheld device by using the **Production start** menu item.</span></span>
 
-Nadat de productieorder is gestart, kunt u met de workflow voor de handheld materiaalverbruik registreren. We beginnen met een verbruik van 25 kg van batch B1 te registreren.
+<span data-ttu-id="3afbf-142">Nadat de productieorder is gestart, kunt u met de workflow voor de handheld materiaalverbruik registreren.</span><span class="sxs-lookup"><span data-stu-id="3afbf-142">After the production order has been started, you can register material consumption with the workflow for the handheld device.</span></span> <span data-ttu-id="3afbf-143">We beginnen met een verbruik van 25 kg van batch B1 te registreren.</span><span class="sxs-lookup"><span data-stu-id="3afbf-143">Let's start by registering consumption of 25 lbs of batch B1.</span></span>
 
-6.  Selecteer de menuopdracht **Materiaalverbruik** **registreren** in het menu voor het handheldapparaat en voer de volgende gegevens in: 
+6.  <span data-ttu-id="3afbf-144">Selecteer de menuopdracht **Materiaalverbruik** **registreren** in het menu voor het handheldapparaat en voer de volgende gegevens in:</span><span class="sxs-lookup"><span data-stu-id="3afbf-144">Select the **Register material** **consumption** menu item in the menu for the hand held device, enter the following details:</span></span> 
 
--    Het productieordernummer. 
--    De locatie waar het materiaal wordt verbruikt, in dit geval PIL-01. 
--    Artikelnummer RM-100. 
--    Batchnummer B1. 
--    De hoeveelheid 25.
+-    <span data-ttu-id="3afbf-145">Het productieordernummer.</span><span class="sxs-lookup"><span data-stu-id="3afbf-145">The production order number.</span></span> 
+-    <span data-ttu-id="3afbf-146">De locatie waar het materiaal wordt verbruikt, in dit geval PIL-01.</span><span class="sxs-lookup"><span data-stu-id="3afbf-146">The location on which the material is going to be consumed, in this case PIL-01.</span></span> 
+-    <span data-ttu-id="3afbf-147">Artikelnummer RM-100.</span><span class="sxs-lookup"><span data-stu-id="3afbf-147">Item number RM-100.</span></span> 
+-    <span data-ttu-id="3afbf-148">Batchnummer B1.</span><span class="sxs-lookup"><span data-stu-id="3afbf-148">Batch number B1.</span></span> 
+-    <span data-ttu-id="3afbf-149">De hoeveelheid 25.</span><span class="sxs-lookup"><span data-stu-id="3afbf-149">A quantity of 25.</span></span>
 
-7.  Selecteer **OK**.
+7.  <span data-ttu-id="3afbf-150">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="3afbf-150">Select **OK**.</span></span>
 
-Merk op dat het bericht 'De journaalregel is gemaakt.' wordt weergegeven op het beeldscherm. Op de productieorder ziet u een openstaand journaal van het type **Productieverzamellijst** voor artikelnummer RM-100 en batch nummer B1. 
+<span data-ttu-id="3afbf-151">Merk op dat het bericht 'De journaalregel is gemaakt.' wordt weergegeven op het beeldscherm.</span><span class="sxs-lookup"><span data-stu-id="3afbf-151">Note that the message "Journal line is created" appears on the display.</span></span> <span data-ttu-id="3afbf-152">Op de productieorder ziet u een openstaand journaal van het type **Productieverzamellijst** voor artikelnummer RM-100 en batch nummer B1.</span><span class="sxs-lookup"><span data-stu-id="3afbf-152">On the production order there is an open journal of the type **Production picking list** for item number RM-100 and batch number B1.</span></span> 
 
-U kunt nu doorgaan met uw registratie, bijvoorbeeld op batchnummer B2. Elke keer dat u **OK** selecteert, wordt een nieuwe journaalregel toegevoegd aan het openstaande journaal. 
+<span data-ttu-id="3afbf-153">U kunt nu doorgaan met uw registratie, bijvoorbeeld op batchnummer B2. Elke keer dat u **OK** selecteert, wordt een nieuwe journaalregel toegevoegd aan het openstaande journaal.</span><span class="sxs-lookup"><span data-stu-id="3afbf-153">You can now choose to continue your registration, for example on batch number B2, and each time you select **OK,** a new journal line is added to the open journal.</span></span> 
 
-Nadat u de registratie hebt afgerond, selecteert u **Gereed**. Het journaal wordt geboekt en de werkstroom eindigt.
+<span data-ttu-id="3afbf-154">Nadat u de registratie hebt afgerond, selecteert u **Gereed**. Het journaal wordt geboekt en de werkstroom eindigt.</span><span class="sxs-lookup"><span data-stu-id="3afbf-154">After you have finished your registration, select **Done** to post the journal and end the workflow.</span></span>
 
-### <a name="additional-comments"></a>Aanvullende opmerkingen 
+### <a name="additional-comments"></a><span data-ttu-id="3afbf-155">Aanvullende opmerkingen</span><span class="sxs-lookup"><span data-stu-id="3afbf-155">Additional comments</span></span> 
 
--   Als een gebruiker de werkstroom annuleert nadat een journaalregel is gemaakt, heeft het journaal een niet-geboekte status. Als de gebruiker later de workflow gebruikt voor dezelfde productieorder, worden de regels toegevoegd aan het openstaande journaal in plaats van aan een nieuw journaal.
--   De nieuwe werkstroom ondersteunt ook de registratie van serienummers.
--   Het is alleen mogelijk om een artikelnummer te registreren dat is gedefinieerd in de stuklijst of in de formule voor de geselecteerde productieorder of batchorder.
--   Materiaal kan ook worden overgebruikt. Als bijvoorbeeld wordt geschat dat het materiaal wordt verbruikt met de hoeveelheid van 100 kg, kan het vervolgens worden overgebruikt met een hoeveelheid van 105 kg.
+-   <span data-ttu-id="3afbf-156">Als een gebruiker de werkstroom annuleert nadat een journaalregel is gemaakt, heeft het journaal een niet-geboekte status. Als de gebruiker later de workflow gebruikt voor dezelfde productieorder, worden de regels toegevoegd aan het openstaande journaal in plaats van aan een nieuw journaal.</span><span class="sxs-lookup"><span data-stu-id="3afbf-156">If a user cancels the workflow after a journal line is created, the journal is in an unposted state but if the user at a later point uses the workflow for the same production order, then the lines will be added to the open journal rather than to a new journal.</span></span>
+-   <span data-ttu-id="3afbf-157">De nieuwe werkstroom ondersteunt ook de registratie van serienummers.</span><span class="sxs-lookup"><span data-stu-id="3afbf-157">The new workflow also supports the registration of serial numbers.</span></span>
+-   <span data-ttu-id="3afbf-158">Het is alleen mogelijk om een artikelnummer te registreren dat is gedefinieerd in de stuklijst of in de formule voor de geselecteerde productieorder of batchorder.</span><span class="sxs-lookup"><span data-stu-id="3afbf-158">It is only possible to register an item number that is defined in the bill of material or in the formula for the selected production order or batch order.</span></span>
+-   <span data-ttu-id="3afbf-159">Materiaal kan ook worden overgebruikt.</span><span class="sxs-lookup"><span data-stu-id="3afbf-159">Material can be overconsumed.</span></span> <span data-ttu-id="3afbf-160">Als bijvoorbeeld wordt geschat dat het materiaal wordt verbruikt met de hoeveelheid van 100 kg, kan het vervolgens worden overgebruikt met een hoeveelheid van 105 kg.</span><span class="sxs-lookup"><span data-stu-id="3afbf-160">For example, if the material is estimated to be consumed with the quantity of 100 lbs, then it can be overconsumed with a quantity of, for example, 105 lbs.</span></span>
 
 
 

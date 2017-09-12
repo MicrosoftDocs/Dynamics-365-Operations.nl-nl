@@ -16,52 +16,52 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7382c5ddc5d0972c8756b64ca7cc4e62073c367e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e9c9811b348d81cd735c5b75ca48e0a56a8d52be
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-free-text-invoice-template"></a>Een sjabloon voor vrije-tekstfacturen maken
+# <a name="create-a-free-text-invoice-template"></a><span data-ttu-id="b873a-103">Een sjabloon voor vrije-tekstfacturen maken</span><span class="sxs-lookup"><span data-stu-id="b873a-103">Create a free text invoice template</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bij deze registratie wordt het demobedrijf USMF gebruikt. De opname is bedoeld voor de gebruiker die verantwoordelijk is voor het beheren en verwerken van klantenfacturen.
+<span data-ttu-id="b873a-104">Bij deze registratie wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b873a-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="b873a-105">De opname is bedoeld voor de gebruiker die verantwoordelijk is voor het beheren en verwerken van klantenfacturen.</span><span class="sxs-lookup"><span data-stu-id="b873a-105">The recording is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 
-1. Ga naar Klanten > Facturen > Terugkerende facturen > Vrije-tekstfactuursjablonen.
-    * Met dit formulier kunt u sjablonen voor vrije-tekstfacturen maken met factuurregels, toeslagen, een boekhoudingsverdelingsjabloon en gegevens over grootboekrekeningen.  
-2. Klik op Nieuw om een nieuwe sjabloon voor een terugkerende vrije-tekstfactuur te maken.
-3. Typ een waarde in het veld Sjabloonnaam.
-    * "Sjabloonnaam" identificeert op unieke wijze een sjabloon voor vrije-tekstfacturen. Twee sjablonen kunnen niet dezelfde "Sjabloonnaam" hebben.  
-4. Voer in het veld Beschrijving een omschrijving van de sjabloon in.
-5. Vouw het tabblad Factuurregels uit.
-6. Voer in het veld Beschrijving een omschrijving in voor de factuurregel.
-7. Selecteer in het veld Hoofdrekening een opbrengstrekening.
-    * U kunt de tegenrekening voor transacties van een klantkrediet voor het totaalbedrag van de factuur selecteren op de pagina Boekingsprofielen van klant.  
-8. Klik in het veld Btw-groep op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * De btw-groep voor de huidige factuurregel. Dit is de standaard-btw-groep voor de klantrekening.  
-9. Klik in de lijst op de koppeling in de geselecteerde rij.
-10. Selecteer in het veld Btw-groep voor artikel de btw-groep voor artikel voor de huidige factuurregel.
-11. Klik in de lijst op de koppeling in de geselecteerde rij.
-12. Typ of bekijk in het veld Eenheidsprijs de prijs per eenheid voor factuurregel.
-    * Dit bedrag wordt vermenigvuldigd met de waarde in het veld Hoeveelheid om het bedrag van de factuurregel te berekenen.  
-13. Voeg een nieuwe regel toe aan een sjabloon voor een vrije-tekstfactuur.
-14. Voer in het veld Beschrijving een omschrijving in voor de factuurregel.
-15. Selecteer in het veld Hoofdrekening een opbrengstrekening.
-    * U kunt de tegenrekening voor transacties van een klantkrediet voor het totaalbedrag van de factuur selecteren op de pagina Boekingsprofielen van klant.  
-16. Klik in het veld Btw-groep op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * De btw-groep voor de huidige factuurregel. Dit is de standaard-btw-groep voor de klantrekening.  
-17. Klik in de lijst op de koppeling in de geselecteerde rij.
-18. Klik in het veld Btw-groep van artikel op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * De artikel-btw-groep voor de huidige factuurregel.  
-19. Klik in de lijst op de koppeling in de geselecteerde rij.
-20. Het aantal eenheden voor de factuurregel invoeren of bekijken
-    * Dit getal wordt vermenigvuldigd met de waarde in het veld Eenheidsprijs om het bedrag van de factuurregel te berekenen.  
-21. De prijs per eenheid voor de factuurregel bekijken of invoeren. 
-    * Dit bedrag wordt vermenigvuldigd met de waarde in het veld Hoeveelheid om het bedrag van de factuurregel te berekenen.  
-22. Bekijk en wijzig de boekhoudingsverdelingen voor een afzonderlijke regel en eventuele onderliggende regels.
-    * Boekhoudingsverdelingen bepalen hoe een bedrag zal worden verwerkt, zoals hoe de omzet, btw of heffingen zal worden verwerkt op een factuur met vrije tekst.  
-23. Werk de boekhoudingsverdelingen voor de geselecteerde factuurregel bij.
-24. Klik op Sluiten.
+1. <span data-ttu-id="b873a-106">Ga naar Klanten > Facturen > Terugkerende facturen > Vrije-tekstfactuursjablonen.</span><span class="sxs-lookup"><span data-stu-id="b873a-106">Go to Accounts receivable > Invoices > Recurring invoices > Free text invoice templates.</span></span>
+    * <span data-ttu-id="b873a-107">Met dit formulier kunt u sjablonen voor vrije-tekstfacturen maken met factuurregels, toeslagen, een boekhoudingsverdelingsjabloon en gegevens over grootboekrekeningen.</span><span class="sxs-lookup"><span data-stu-id="b873a-107">Use this form to create free text invoice templates that can include invoice lines, charges, an accounting distribution template, and ledger account information.</span></span>  
+2. <span data-ttu-id="b873a-108">Klik op Nieuw om een nieuwe sjabloon voor een terugkerende vrije-tekstfactuur te maken.</span><span class="sxs-lookup"><span data-stu-id="b873a-108">Click 'New' to create a new free text invoice template.</span></span>
+3. <span data-ttu-id="b873a-109">Typ een waarde in het veld Sjabloonnaam.</span><span class="sxs-lookup"><span data-stu-id="b873a-109">In the Template name field, type a value.</span></span>
+    * <span data-ttu-id="b873a-110">"Sjabloonnaam" identificeert op unieke wijze een sjabloon voor vrije-tekstfacturen.</span><span class="sxs-lookup"><span data-stu-id="b873a-110">‘Template name’ uniquely identifies a free text invoice template.</span></span> <span data-ttu-id="b873a-111">Twee sjablonen kunnen niet dezelfde "Sjabloonnaam" hebben.</span><span class="sxs-lookup"><span data-stu-id="b873a-111">No two templates can have the same ‘Template name’.</span></span>  
+4. <span data-ttu-id="b873a-112">Voer in het veld Beschrijving een omschrijving van de sjabloon in.</span><span class="sxs-lookup"><span data-stu-id="b873a-112">In the Description field, enter a description of the template.</span></span>
+5. <span data-ttu-id="b873a-113">Vouw het tabblad Factuurregels uit.</span><span class="sxs-lookup"><span data-stu-id="b873a-113">Expand the Invoice lines tab.</span></span>
+6. <span data-ttu-id="b873a-114">Voer in het veld Beschrijving een omschrijving in voor de factuurregel.</span><span class="sxs-lookup"><span data-stu-id="b873a-114">In the Description field, enter a description of the invoice line.</span></span>
+7. <span data-ttu-id="b873a-115">Selecteer in het veld Hoofdrekening een opbrengstrekening.</span><span class="sxs-lookup"><span data-stu-id="b873a-115">In the Main account field, select a revenue account.</span></span>
+    * <span data-ttu-id="b873a-116">U kunt de tegenrekening voor transacties van een klantkrediet voor het totaalbedrag van de factuur selecteren op de pagina Boekingsprofielen van klant.</span><span class="sxs-lookup"><span data-stu-id="b873a-116">You can select the offset transaction account of a customer credit for the total invoice amount in the Customer posting profiles page.</span></span>  
+8. <span data-ttu-id="b873a-117">Klik in het veld Btw-groep op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="b873a-117">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="b873a-118">De btw-groep voor de huidige factuurregel. Dit is de standaard-btw-groep voor de klantrekening.</span><span class="sxs-lookup"><span data-stu-id="b873a-118">The sales tax group for the current invoice line is the default sales tax group for the customer account.</span></span>  
+9. <span data-ttu-id="b873a-119">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b873a-119">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="b873a-120">Selecteer in het veld Btw-groep voor artikel de btw-groep voor artikel voor de huidige factuurregel.</span><span class="sxs-lookup"><span data-stu-id="b873a-120">In the Item tax group field, select the item sales tax group for the current invoice line.</span></span>
+11. <span data-ttu-id="b873a-121">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b873a-121">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="b873a-122">Typ of bekijk in het veld Eenheidsprijs de prijs per eenheid voor factuurregel.</span><span class="sxs-lookup"><span data-stu-id="b873a-122">In the Unit price field, enter or view the price per unit for the invoice line</span></span>
+    * <span data-ttu-id="b873a-123">Dit bedrag wordt vermenigvuldigd met de waarde in het veld Hoeveelheid om het bedrag van de factuurregel te berekenen.</span><span class="sxs-lookup"><span data-stu-id="b873a-123">This amount is multiplied by the Quantity field to determine the invoice line amount.</span></span>  
+13. <span data-ttu-id="b873a-124">Voeg een nieuwe regel toe aan een sjabloon voor een vrije-tekstfactuur.</span><span class="sxs-lookup"><span data-stu-id="b873a-124">Add a new line to free text invoice template.</span></span>
+14. <span data-ttu-id="b873a-125">Voer in het veld Beschrijving een omschrijving in voor de factuurregel.</span><span class="sxs-lookup"><span data-stu-id="b873a-125">In the Description field, enter a description of the invoice line.</span></span>
+15. <span data-ttu-id="b873a-126">Selecteer in het veld Hoofdrekening een opbrengstrekening.</span><span class="sxs-lookup"><span data-stu-id="b873a-126">In the Main account field, select a revenue account.</span></span>
+    * <span data-ttu-id="b873a-127">U kunt de tegenrekening voor transacties van een klantkrediet voor het totaalbedrag van de factuur selecteren op de pagina Boekingsprofielen van klant.</span><span class="sxs-lookup"><span data-stu-id="b873a-127">You can select the offset transaction account of a customer credit for the total invoice amount in the Customer posting profiles page.</span></span>  
+16. <span data-ttu-id="b873a-128">Klik in het veld Btw-groep op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="b873a-128">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="b873a-129">De btw-groep voor de huidige factuurregel. Dit is de standaard-btw-groep voor de klantrekening.</span><span class="sxs-lookup"><span data-stu-id="b873a-129">The sales tax group for the current invoice line is the default sales tax group for the customer account.</span></span>  
+17. <span data-ttu-id="b873a-130">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b873a-130">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="b873a-131">Klik in het veld Btw-groep van artikel op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="b873a-131">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="b873a-132">De artikel-btw-groep voor de huidige factuurregel.</span><span class="sxs-lookup"><span data-stu-id="b873a-132">The item sales tax group for the current invoice line.</span></span>  
+19. <span data-ttu-id="b873a-133">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b873a-133">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="b873a-134">Het aantal eenheden voor de factuurregel invoeren of bekijken</span><span class="sxs-lookup"><span data-stu-id="b873a-134">Enter or view the number of units for the invoice line</span></span>
+    * <span data-ttu-id="b873a-135">Dit getal wordt vermenigvuldigd met de waarde in het veld Eenheidsprijs om het bedrag van de factuurregel te berekenen.</span><span class="sxs-lookup"><span data-stu-id="b873a-135">This number is multiplied by the value in the Unit price field to determine the invoice line amount.</span></span>  
+21. <span data-ttu-id="b873a-136">De prijs per eenheid voor de factuurregel bekijken of invoeren.</span><span class="sxs-lookup"><span data-stu-id="b873a-136">Enter or view the price per unit for the invoice line.</span></span> 
+    * <span data-ttu-id="b873a-137">Dit bedrag wordt vermenigvuldigd met de waarde in het veld Hoeveelheid om het bedrag van de factuurregel te berekenen.</span><span class="sxs-lookup"><span data-stu-id="b873a-137">This amount is multiplied by the value in the Quantity field to determine the invoice line amount.</span></span>  
+22. <span data-ttu-id="b873a-138">Bekijk en wijzig de boekhoudingsverdelingen voor een afzonderlijke regel en eventuele onderliggende regels.</span><span class="sxs-lookup"><span data-stu-id="b873a-138">View and modify the accounting distributions for an individual line and any child lines.</span></span>
+    * <span data-ttu-id="b873a-139">Boekhoudingsverdelingen bepalen hoe een bedrag zal worden verwerkt, zoals hoe de omzet, btw of heffingen zal worden verwerkt op een factuur met vrije tekst.</span><span class="sxs-lookup"><span data-stu-id="b873a-139">Accounting distributions define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span>  
+23. <span data-ttu-id="b873a-140">Werk de boekhoudingsverdelingen voor de geselecteerde factuurregel bij.</span><span class="sxs-lookup"><span data-stu-id="b873a-140">Update the accounting distributions for the selected invoice line.</span></span>
+24. <span data-ttu-id="b873a-141">Klik op Sluiten.</span><span class="sxs-lookup"><span data-stu-id="b873a-141">Click Close.</span></span>
 
 

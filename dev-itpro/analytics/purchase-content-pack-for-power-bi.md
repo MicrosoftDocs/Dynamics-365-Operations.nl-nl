@@ -15,36 +15,36 @@ ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
 ms.author: fdahl
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: daba17aed7e6cc475a16d6100c5c99ee747ca048
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4e60a6c7d79f59382b3958b849d78aac18550bc3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Power BI-inhoud Analyse inkoopuitgaven
+# <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="ad3f5-104">Power BI-inhoud Analyse inkoopuitgaven</span><span class="sxs-lookup"><span data-stu-id="ad3f5-104">Purchase spend analysis Power BI content</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Analyse inkoopuitgaven**. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+<span data-ttu-id="ad3f5-105">In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Analyse inkoopuitgaven**.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="ad3f5-106">In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
-## <a name="overview"></a>Overzicht
+## <a name="overview"></a><span data-ttu-id="ad3f5-107">Overzicht</span><span class="sxs-lookup"><span data-stu-id="ad3f5-107">Overview</span></span>
 
-De Power BI-inhoud **Analyse inkoopuitgaven** is ontworpen om inkoopmanagers en managers met budgetverantwoordelijkheid te helpen de inkoopuitgaven in de gaten te houden. Managers kunnen inkoopuitgaven op de volgende manieren analyseren:
+<span data-ttu-id="ad3f5-108">De Power BI-inhoud **Analyse inkoopuitgaven** is ontworpen om inkoopmanagers en managers met budgetverantwoordelijkheid te helpen de inkoopuitgaven in de gaten te houden.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-108">The **Purchase spend analysis** Power BI content was designed to help purchasing managers and managers who are responsible for budgets keep an eye on purchase spending.</span></span> <span data-ttu-id="ad3f5-109">Managers kunnen inkoopuitgaven op de volgende manieren analyseren:</span><span class="sxs-lookup"><span data-stu-id="ad3f5-109">Managers can analyze purchase spending in the following ways:</span></span>
 
--   Inkoop jaar tot heden (op leveranciersgroep en afzonderlijke leveranciers, aanschaffingscategorie en afzonderlijke producten en locatie van de leverancier)
--   Wijzigingen jaar tot jaar in inkoop (op leveranciersgroep en aanschaffingscategorie)
+-   <span data-ttu-id="ad3f5-110">Inkoop jaar tot heden (op leveranciersgroep en afzonderlijke leveranciers, aanschaffingscategorie en afzonderlijke producten en locatie van de leverancier)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-110">Year-to-date purchase (by vendor group and individual vendors, procurement category and individual products, and vendor location)</span></span>
+-   <span data-ttu-id="ad3f5-111">Wijzigingen jaar tot jaar in inkoop (op leveranciersgroep en aanschaffingscategorie)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-111">Year-over-year purchase change (by vendor group and procurement category)</span></span>
 
-Op basis van gegevens voor inkooptransacties biedt de inhoud zowel een samengevoegde weergave van de inkoopcijfers uit het hele bedrijf als ook een analyse van de inkoopuitgaven op leverancier en product. Rapporten maken wijzigingen in de inkoopuitgaven in het verloop van de tijd duidelijk. Daarom kunnen de rapporten worden gebruikt om managers te wijzen op positieve en negatieve trends in de uitgaven voor afzonderlijke leveranciers en producten. Daarnaast geven grafieken de inkoopuitgaven weer voor verschillende inkoopcategorieën en leveranciersgroepen. Categorie- en regiomanagers kunnen met deze grafieken veranderingen in het uitgavegedrag opsporen.
+<span data-ttu-id="ad3f5-112">Op basis van gegevens voor inkooptransacties biedt de inhoud zowel een samengevoegde weergave van de inkoopcijfers uit het hele bedrijf als ook een analyse van de inkoopuitgaven op leverancier en product.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-112">The content uses purchase transactional data, and provides both an aggregate view of the company-wide purchase figures and a breakdown of purchase spending by vendor and product.</span></span> <span data-ttu-id="ad3f5-113">Rapporten maken wijzigingen in de inkoopuitgaven in het verloop van de tijd duidelijk.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-113">Reports highlight changes in purchase spending over time.</span></span> <span data-ttu-id="ad3f5-114">Daarom kunnen de rapporten worden gebruikt om managers te wijzen op positieve en negatieve trends in de uitgaven voor afzonderlijke leveranciers en producten.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-114">Therefore, the reports can be used to alert managers about positive and negative spending trends for individual vendors and products.</span></span> <span data-ttu-id="ad3f5-115">Daarnaast geven grafieken de inkoopuitgaven weer voor verschillende inkoopcategorieën en leveranciersgroepen.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-115">Additionally, charts show purchase spending for different procurement categories and vendor groups.</span></span> <span data-ttu-id="ad3f5-116">Categorie- en regiomanagers kunnen met deze grafieken veranderingen in het uitgavegedrag opsporen.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-116">Therefore, category and regional managers can use the charts to help identify changes in spending behavior.</span></span>
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-Als u werkt met de update voor juli 2017 van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, vindt u de Power BI-inhoud **Analyse inkoopuitgaven** op de pagina **Inkoop- en uitgavenanalyse** (**Inkoopbeheer** > **Query's en rapporten** > **Inkoopprestatieanalyse** > **Inkoop- en uitgavenanalyse**). 
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="ad3f5-117">Toegang tot de Power BI-inhoud verkrijgen</span><span class="sxs-lookup"><span data-stu-id="ad3f5-117">Accessing the Power BI content</span></span>
+<span data-ttu-id="ad3f5-118">Als u werkt met de update voor juli 2017 van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, vindt u de Power BI-inhoud **Analyse inkoopuitgaven** op de pagina **Inkoop- en uitgavenanalyse** (**Inkoopbeheer** > **Query's en rapporten** > **Inkoopprestatieanalyse** > **Inkoop- en uitgavenanalyse**).</span><span class="sxs-lookup"><span data-stu-id="ad3f5-118">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, the **Purchase spend analysis** Power BI content is shown on the **Purchase and spend analysis** page (**Procurement and sourcing** > **Inquiries and reports** > **Purchase performance analysis** > **Purchase and spend analysis**).</span></span> 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
-De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="ad3f5-119">Metrische gegevens die zijn opgenomen in de Power BI-inhoud</span><span class="sxs-lookup"><span data-stu-id="ad3f5-119">Metrics that are included in the Power BI content</span></span>
+<span data-ttu-id="ad3f5-120">De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verzameling van metrische gegevens bestaat.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-120">The **Purchase spend analysis** Power BI content includes a report that consists of a set of metrics.</span></span> <span data-ttu-id="ad3f5-121">Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-121">These metrics are visualized as charts, tiles, and tables.</span></span> <span data-ttu-id="ad3f5-122">In de volgende tabel vindt u een overzicht van de visualisaties.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-122">The following table provides an overview of the visualizations.</span></span>
 
 <table>
 <colgroup>
@@ -54,120 +54,120 @@ De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rapportpagina</th>
-<th>Diagrammen</th>
-<th>Tegels</th>
+<th><span data-ttu-id="ad3f5-123">Rapportpagina</span><span class="sxs-lookup"><span data-stu-id="ad3f5-123">Report page</span></span></th>
+<th><span data-ttu-id="ad3f5-124">Diagrammen</span><span class="sxs-lookup"><span data-stu-id="ad3f5-124">Charts</span></span></th>
+<th><span data-ttu-id="ad3f5-125">Tegels</span><span class="sxs-lookup"><span data-stu-id="ad3f5-125">Tiles</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Inkoop op leverancier</td>
+<td><span data-ttu-id="ad3f5-126">Inkoop op leverancier</span><span class="sxs-lookup"><span data-stu-id="ad3f5-126">Purchase by vendor</span></span></td>
 <td><ul>
-<li>Top 10-leveranciers op inkoop (gestapeld staafdiagram)</li>
-<li>Totale inkoop op groep / land / naam leverancier (cirkeldiagram)</li>
-<li>Inkoop op groep / land / naam leverancier (kolomdiagram)</li>
-<li>Gemiddelde inkoop op groep / land / naam leverancier (kolomdiagram)</li>
+<li><span data-ttu-id="ad3f5-127">Top 10-leveranciers op inkoop (gestapeld staafdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-127">Top 10 vendors by purchase (stacked bar chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-128">Totale inkoop op groep / land / naam leverancier (cirkeldiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-128">Total purchase by vendor group / country / name (pie chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-129">Inkoop op groep / land / naam leverancier (kolomdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-129">Purchase by vendor group / country / name (column chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-130">Gemiddelde inkoop op groep / land / naam leverancier (kolomdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-130">Average purchase by vendor group / country / name (column chart)</span></span></li>
 </ul></td>
 <td><ul>
-<li>Totaalinkoop</li>
-<li>Inkoopgroei jaar-op-jaar</li>
-<li>Totaal aantal leveranciers</li>
-<li>Totaal aantal actieve leveranciers</li>
+<li><span data-ttu-id="ad3f5-131">Totaalinkoop</span><span class="sxs-lookup"><span data-stu-id="ad3f5-131">Total purchase</span></span></li>
+<li><span data-ttu-id="ad3f5-132">Inkoopgroei jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="ad3f5-132">YOY purchase growth</span></span></li>
+<li><span data-ttu-id="ad3f5-133">Totaal aantal leveranciers</span><span class="sxs-lookup"><span data-stu-id="ad3f5-133">Total # vendors</span></span></li>
+<li><span data-ttu-id="ad3f5-134">Totaal aantal actieve leveranciers</span><span class="sxs-lookup"><span data-stu-id="ad3f5-134">Total # of active vendors</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Inkoop op product</td>
+<td><span data-ttu-id="ad3f5-135">Inkoop op product</span><span class="sxs-lookup"><span data-stu-id="ad3f5-135">Purchase by product</span></span></td>
 <td><ul>
-<li>Inkoop per aanschaffingscategorie / productnaam (kolomdiagram)</li>
-<li>Totale inkoop per aanschaffingscategorie / productnaam (cirkeldiagram)</li>
-<li>Top 10-producten op inkoop (gestapeld staafdiagram)</li>
+<li><span data-ttu-id="ad3f5-136">Inkoop per aanschaffingscategorie / productnaam (kolomdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-136">Purchase by procurement category / product name (column chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-137">Totale inkoop per aanschaffingscategorie / productnaam (cirkeldiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-137">Total purchase by procurement category / product name (pie chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-138">Top 10-producten op inkoop (gestapeld staafdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-138">Top 10 products by purchase (stacked bar chart)</span></span></li>
 </ul></td>
 <td><ul>
-<li>Totaal aantal producten</li>
-<li>Totaal aantal actieve producten percentage van totale aantal producten</li>
-<li>Aantal producten dat 80% van inkoop oplevert</li>
+<li><span data-ttu-id="ad3f5-139">Totaal aantal producten</span><span class="sxs-lookup"><span data-stu-id="ad3f5-139">Total # of products</span></span></li>
+<li><span data-ttu-id="ad3f5-140">Totaal aantal actieve producten percentage van totale aantal producten</span><span class="sxs-lookup"><span data-stu-id="ad3f5-140">Total active products percentage of total # of products</span></span></li>
+<li><span data-ttu-id="ad3f5-141">Aantal producten dat 80% van inkoop oplevert</span><span class="sxs-lookup"><span data-stu-id="ad3f5-141">Number of products accounting for 80% purchase</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Inkoop op periode*</td>
+<td><span data-ttu-id="ad3f5-142">Inkoop op periode*</span><span class="sxs-lookup"><span data-stu-id="ad3f5-142">Purchase by period*</span></span></td>
 <td><ul>
-<li>Inkoop op maand / dag (kolomdiagram)</li>
-<li>Cumulatieve inkoop afwijking jaar-op-jaar (watervalgrafiek)</li>
-<li>Totale inkoop groei jaar-op-jaar (kolomdiagram)</li>
-<li>Inkoopoverzicht (matrix)</li>
+<li><span data-ttu-id="ad3f5-143">Inkoop op maand / dag (kolomdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-143">Purchase by month / day (column chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-144">Cumulatieve inkoop afwijking jaar-op-jaar (watervalgrafiek)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-144">Cumulative purchase YOY variance (waterfall chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-145">Totale inkoop groei jaar-op-jaar (kolomdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-145">Total purchase YOY growth (column chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-146">Inkoopoverzicht (matrix)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-146">Procurement statement (matrix)</span></span></li>
 </ul></td>
 <td><ul>
-<li>Inkoopgroei jaar-op-jaar</li>
-<li>Inkoopgroei jaar-op-jaar %</li>
+<li><span data-ttu-id="ad3f5-147">Inkoopgroei jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="ad3f5-147">YOY purchase growth</span></span></li>
+<li><span data-ttu-id="ad3f5-148">Inkoopgroei jaar-op-jaar %</span><span class="sxs-lookup"><span data-stu-id="ad3f5-148">YOY purchase growth %</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Inkoop op leverancierlocatie</td>
+<td><span data-ttu-id="ad3f5-149">Inkoop op leverancierlocatie</span><span class="sxs-lookup"><span data-stu-id="ad3f5-149">Purchase by vendor location</span></span></td>
 <td><ul>
-<li>Inkoop op stad</li>
-<li>Inkoop groei jaar-op-jaar %</li>
-<li>Inkoop op land</li>
+<li><span data-ttu-id="ad3f5-150">Inkoop op stad</span><span class="sxs-lookup"><span data-stu-id="ad3f5-150">Purchase by city</span></span></li>
+<li><span data-ttu-id="ad3f5-151">Inkoop groei jaar-op-jaar %</span><span class="sxs-lookup"><span data-stu-id="ad3f5-151">Purchase YOY growth %</span></span></li>
+<li><span data-ttu-id="ad3f5-152">Inkoop op land</span><span class="sxs-lookup"><span data-stu-id="ad3f5-152">Purchase by country</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Analyse inkoopuitgaven op tijd</td>
+<td><span data-ttu-id="ad3f5-153">Analyse inkoopuitgaven op tijd</span><span class="sxs-lookup"><span data-stu-id="ad3f5-153">Purchase spend analysis by time</span></span></td>
 <td><ul>
-<li>Inkoop huidige jaar op maand / dag (lijndiagram)</li>
-<li>Inkooporders huidig en vorig jaar (lijn- en kolomdiagram)</li>
+<li><span data-ttu-id="ad3f5-154">Inkoop huidige jaar op maand / dag (lijndiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-154">Purchase current year by month / day (line chart)</span></span></li>
+<li><span data-ttu-id="ad3f5-155">Inkooporders huidig en vorig jaar (lijn- en kolomdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-155">Purchase current and last year (line and column chart)</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Analyse inkoopuitgaven op leverancier</td>
+<td><span data-ttu-id="ad3f5-156">Analyse inkoopuitgaven op leverancier</span><span class="sxs-lookup"><span data-stu-id="ad3f5-156">Purchase spend analysis by vendor</span></span></td>
 <td><ul>
-<li>Top 10 leverancier inkoop % van inkoop (trechterdiagram)</li>
-<li>Top 10 leveranciers met een gestegen uitgaven jaar-op-jaar</li>
-<li>Top 10 leveranciers met een gedaalde uitgaven jaar-op-jaar</li>
+<li><span data-ttu-id="ad3f5-157">Top 10 leverancier inkoop % van inkoop (trechterdiagram)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-157">Top 10 vendor purchase % of purchase (funnel)</span></span></li>
+<li><span data-ttu-id="ad3f5-158">Top 10 leveranciers met een gestegen uitgaven jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="ad3f5-158">Top 10 vendors with increased spending YOY</span></span></li>
+<li><span data-ttu-id="ad3f5-159">Top 10 leveranciers met een gedaalde uitgaven jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="ad3f5-159">Top 10 vendors with decreased spending YOY</span></span></li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\* Inkoop dit jaar en vorig jaar en groei per aanschaffingscategorie
+<span data-ttu-id="ad3f5-160">\* Inkoop dit jaar en vorig jaar en groei per aanschaffingscategorie</span><span class="sxs-lookup"><span data-stu-id="ad3f5-160">\* Purchase this year and last year, and growth by procurement category</span></span>
 
-## <a name="extending-the-power-bi-content"></a>De Power BI-inhoud uitbreiden
-Met behulp van de inhoudpakketten die beschikbaar zijn in Microsoft Dynamics Lifecycle Services (LCS) kunt u grondige analyses verschaffen aan personen die zich niet bij Microsoft Dynamics 365 aanmelden. U kunt deze inhoudpakketten wijzigen zodat ze andere rapporten of visuele elementen bevatten, en de inhoudpakketten vervolgens publiceren naar uw Power BI.com-tenant voor analyse. 
+## <a name="extending-the-power-bi-content"></a><span data-ttu-id="ad3f5-161">De Power BI-inhoud uitbreiden</span><span class="sxs-lookup"><span data-stu-id="ad3f5-161">Extending the Power BI content</span></span>
+<span data-ttu-id="ad3f5-162">Met behulp van de inhoudpakketten die beschikbaar zijn in Microsoft Dynamics Lifecycle Services (LCS) kunt u grondige analyses verschaffen aan personen die zich niet bij Microsoft Dynamics 365 aanmelden.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-162">By using the content packs that are available in Microsoft Dynamics Lifecycle Services (LCS), you can provide great analytics to people who don't sign in to Microsoft Dynamics 365.</span></span> <span data-ttu-id="ad3f5-163">U kunt deze inhoudpakketten wijzigen zodat ze andere rapporten of visuele elementen bevatten, en de inhoudpakketten vervolgens publiceren naar uw Power BI.com-tenant voor analyse.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-163">You can modify these content packs so that they include other reports or visuals, and then publish the content packs to your Power BI.com tenant for analysis.</span></span> 
 
-U vindt de Power BI-inhoud **Analyse inkoopuitgaven** in de bibliotheek voor gedeelde materialen in LCS. Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
+<span data-ttu-id="ad3f5-164">U vindt de Power BI-inhoud **Analyse inkoopuitgaven** in de bibliotheek voor gedeelde materialen in LCS.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-164">You can find the **Purchase spend analysis** Power BI content in the Shared assets library in LCS.</span></span> <span data-ttu-id="ad3f5-165">Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md).</span><span class="sxs-lookup"><span data-stu-id="ad3f5-165">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="ad3f5-166">Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).</span><span class="sxs-lookup"><span data-stu-id="ad3f5-166">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
 
-Let erop dat u de inhoud **Analyse inkoopuitgaven** downloadt, die van toepassing is voor de versie van Dynamics 365 die u gebruikt.
+<span data-ttu-id="ad3f5-167">Let erop dat u de inhoud **Analyse inkoopuitgaven** downloadt, die van toepassing is voor de versie van Dynamics 365 die u gebruikt.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-167">Be sure to download the **Purchase spend analysis** content that applies to the version of Dynamics 365 that you're using.</span></span>
 
 > [!NOTE]
-> Als u werkt met Microsoft Dynamics 365 for Operations, versie 1611, is KB 4011327 een voorwaarde voor gebruik van deze volgende Power BI-inhoud: Nadat u zich bij LCS hebt aangemeld, kunt u de KB hier openen: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+> <span data-ttu-id="ad3f5-168">Als u werkt met Microsoft Dynamics 365 for Operations, versie 1611, is KB 4011327 een voorwaarde voor gebruik van deze volgende Power BI-inhoud:</span><span class="sxs-lookup"><span data-stu-id="ad3f5-168">If you're using Microsoft Dynamics 365 for Operations version 1611, KB 4011327 is a prerequisite for this Power BI content.</span></span> <span data-ttu-id="ad3f5-169">Nadat u zich bij LCS hebt aangemeld, kunt u de KB hier openen: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-169">After you sign in to LCS, you can access the KB at https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.</span></span>
 
-## <a name="data-model-and-entities"></a>Gegevensmodel en entiteiten
-De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Analyse inkoopuitgaven** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
+## <a name="data-model-and-entities"></a><span data-ttu-id="ad3f5-170">Gegevensmodel en entiteiten</span><span class="sxs-lookup"><span data-stu-id="ad3f5-170">Data model and entities</span></span>
+<span data-ttu-id="ad3f5-171">De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Analyse inkoopuitgaven** te vullen.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-171">The following data is used to fill the report pages in the **Purchase spend analysis** Power BI content.</span></span> <span data-ttu-id="ad3f5-172">Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-172">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="ad3f5-173">De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-173">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="ad3f5-174">Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).</span><span class="sxs-lookup"><span data-stu-id="ad3f5-174">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>
 
-De samengevoegde metingen in deze inhoud zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Inkoop-cube in Microsoft Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Overzicht van Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md). De volgende belangrijke samengevoegde metingen zijn rechtstreeks vanuit de entiteit Factuurregels beschikbaar en worden gebruikt als basis voor de inhoud.
+<span data-ttu-id="ad3f5-175">De samengevoegde metingen in deze inhoud zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Inkoop-cube in Microsoft Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-175">The aggregate measurements in this content are the subset of aggregate measurements that were available in the Purchase Cube in Microsoft Dynamics AX 2012 and Microsoft Dynamics AX 2012 R3.</span></span> <span data-ttu-id="ad3f5-176">Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-176">To stage the cube’s aggregate measurements in the Entity store, you must make them deployable.</span></span> <span data-ttu-id="ad3f5-177">Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Overzicht van Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).</span><span class="sxs-lookup"><span data-stu-id="ad3f5-177">For more information, see the procedure for staging aggregate measurements in the Entity store in [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span> <span data-ttu-id="ad3f5-178">De volgende belangrijke samengevoegde metingen zijn rechtstreeks vanuit de entiteit Factuurregels beschikbaar en worden gebruikt als basis voor de inhoud.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-178">The following key aggregate measurements are available directly from the Invoice lines entity and are used as the basis of the content.</span></span>
 
-| Entiteit        | Belangrijke samengevoegde metingen | Gegevensbron                                 | Veld              | Omschrijving                            |
+| <span data-ttu-id="ad3f5-179">Entiteit</span><span class="sxs-lookup"><span data-stu-id="ad3f5-179">Entity</span></span>        | <span data-ttu-id="ad3f5-180">Belangrijke samengevoegde metingen</span><span class="sxs-lookup"><span data-stu-id="ad3f5-180">Key aggregate measurements</span></span> | <span data-ttu-id="ad3f5-181">Gegevensbron</span><span class="sxs-lookup"><span data-stu-id="ad3f5-181">Data source</span></span>                                 | <span data-ttu-id="ad3f5-182">Veld</span><span class="sxs-lookup"><span data-stu-id="ad3f5-182">Field</span></span>              | <span data-ttu-id="ad3f5-183">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="ad3f5-183">Description</span></span>                            |
 |---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
-| Factuurregels | Inkoop                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Het bedrag in de valuta voor boekhouding. |
+| <span data-ttu-id="ad3f5-184">Factuurregels</span><span class="sxs-lookup"><span data-stu-id="ad3f5-184">Invoice lines</span></span> | <span data-ttu-id="ad3f5-185">Inkoop</span><span class="sxs-lookup"><span data-stu-id="ad3f5-185">Purchase</span></span>                   | <span data-ttu-id="ad3f5-186">VendInvoiceTrans</span><span class="sxs-lookup"><span data-stu-id="ad3f5-186">VendInvoiceTrans</span></span>                            | <span data-ttu-id="ad3f5-187">SUM(LineAmountMST)</span><span class="sxs-lookup"><span data-stu-id="ad3f5-187">SUM(LineAmountMST)</span></span> | <span data-ttu-id="ad3f5-188">Het bedrag in de valuta voor boekhouding.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-188">The amount in the accounting currency.</span></span> |
 
-De volgende tabel toont de belangrijkste metingen in de inhoud die worden berekend op basis van de entiteit Factuurregels.
+<span data-ttu-id="ad3f5-189">De volgende tabel toont de belangrijkste metingen in de inhoud die worden berekend op basis van de entiteit Factuurregels.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-189">The following table shows the key measurements in the content that are calculated from the Invoice lines entity.</span></span>
 
-| Maat               | Berekening                                                                                         |
+| <span data-ttu-id="ad3f5-190">Maat</span><span class="sxs-lookup"><span data-stu-id="ad3f5-190">Measure</span></span>               | <span data-ttu-id="ad3f5-191">Berekening</span><span class="sxs-lookup"><span data-stu-id="ad3f5-191">Calculation</span></span>                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Inkoop huidig jaar | Inkoop huidig jaar = SUM('Factuurregels\[Inkoop\])                                            |
-| Inkoop vorig jaar    | Inkoop vorig jaar = CALCULATE(SUM('Factuurregels\[Inkoop\]), SAMEPERIODLASTYEAR(Datums\[Datum\])) |
-| Inkoopgroei jaar-op-jaar   | Groei inkoop jaar-op-jaar = \[Inkoop huidig jaar\] - \[Inkoop vorig jaar\]                            |
+| <span data-ttu-id="ad3f5-192">Inkoop huidig jaar</span><span class="sxs-lookup"><span data-stu-id="ad3f5-192">Purchase current year</span></span> | <span data-ttu-id="ad3f5-193">Inkoop huidig jaar = SUM('Factuurregels\[Inkoop\])</span><span class="sxs-lookup"><span data-stu-id="ad3f5-193">Purchase current year = SUM('Invoice lines'\[Purchase\])</span></span>                                            |
+| <span data-ttu-id="ad3f5-194">Inkoop vorig jaar</span><span class="sxs-lookup"><span data-stu-id="ad3f5-194">Purchase last year</span></span>    | <span data-ttu-id="ad3f5-195">Inkoop vorig jaar = CALCULATE(SUM('Factuurregels\[Inkoop\]), SAMEPERIODLASTYEAR(Datums\[Datum\]))</span><span class="sxs-lookup"><span data-stu-id="ad3f5-195">Purchase last year = CALCULATE(SUM('Invoice lines'\[Purchase\]), SAMEPERIODLASTYEAR(Dates\[Date\]))</span></span> |
+| <span data-ttu-id="ad3f5-196">Inkoopgroei jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="ad3f5-196">YOY purchase growth</span></span>   | <span data-ttu-id="ad3f5-197">Groei inkoop jaar-op-jaar = \[Inkoop huidig jaar\] - \[Inkoop vorig jaar\]</span><span class="sxs-lookup"><span data-stu-id="ad3f5-197">YOY purchase growth = \[Purchase current year\] – \[Purchase last year\]</span></span>                            |
 
-De volgende belangrijke dimensies in de inhoud worden gebruikt als filters voor het segmenteren van de samengevoegde metingen, zodat u een grotere mate van granulatie en analytischere inzichten kunt bereiken.
+<span data-ttu-id="ad3f5-198">De volgende belangrijke dimensies in de inhoud worden gebruikt als filters voor het segmenteren van de samengevoegde metingen, zodat u een grotere mate van granulatie en analytischere inzichten kunt bereiken.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-198">The following key dimensions in the content are used as filters to slice the aggregate measurements, so that you can achieve more granularity and gain deeper analytical insights.</span></span>
 
-| Entiteit                 | Voorbeelden van kenmerken                                |
+| <span data-ttu-id="ad3f5-199">Entiteit</span><span class="sxs-lookup"><span data-stu-id="ad3f5-199">Entity</span></span>                 | <span data-ttu-id="ad3f5-200">Voorbeelden van kenmerken</span><span class="sxs-lookup"><span data-stu-id="ad3f5-200">Examples of attributes</span></span>                                |
 |------------------------|-------------------------------------------------------|
-| Leveranciers                | Leveranciersgroepen, Land/regio van leverancier, Leveranciersnaam |
-| Producten               | Productnummer, Productnaam, Naam van artikelengroep        |
-| Inkoopcategorieën | Aanschaffingscategorie, namen van Aanschaffingscategorieën      |
-| Rechtspersonen         | Rechtspersoonnaam                                     |
-| Datums                  | Datums, Jaarverschuiving                                    |
+| <span data-ttu-id="ad3f5-201">Leveranciers</span><span class="sxs-lookup"><span data-stu-id="ad3f5-201">Vendors</span></span>                | <span data-ttu-id="ad3f5-202">Leveranciersgroepen, Land/regio van leverancier, Leveranciersnaam</span><span class="sxs-lookup"><span data-stu-id="ad3f5-202">Vendor groups, Vendor country or regions, Vendor name</span></span> |
+| <span data-ttu-id="ad3f5-203">Producten</span><span class="sxs-lookup"><span data-stu-id="ad3f5-203">Products</span></span>               | <span data-ttu-id="ad3f5-204">Productnummer, Productnaam, Naam van artikelengroep</span><span class="sxs-lookup"><span data-stu-id="ad3f5-204">Product number, Product name, Item groups name</span></span>        |
+| <span data-ttu-id="ad3f5-205">Inkoopcategorieën</span><span class="sxs-lookup"><span data-stu-id="ad3f5-205">Procurement categories</span></span> | <span data-ttu-id="ad3f5-206">Aanschaffingscategorie, namen van Aanschaffingscategorieën</span><span class="sxs-lookup"><span data-stu-id="ad3f5-206">Procurement category, Procurement category names</span></span>      |
+| <span data-ttu-id="ad3f5-207">Rechtspersonen</span><span class="sxs-lookup"><span data-stu-id="ad3f5-207">Legal entities</span></span>         | <span data-ttu-id="ad3f5-208">Rechtspersoonnaam</span><span class="sxs-lookup"><span data-stu-id="ad3f5-208">Legal entity name</span></span>                                     |
+| <span data-ttu-id="ad3f5-209">Datums</span><span class="sxs-lookup"><span data-stu-id="ad3f5-209">Dates</span></span>                  | <span data-ttu-id="ad3f5-210">Datums, Jaarverschuiving</span><span class="sxs-lookup"><span data-stu-id="ad3f5-210">Dates, Year offset</span></span>                                    |
 
-Standaard worden gegevens in de inhoud weergegeven voor het huidige kalenderjaar. U kunt echter het datumfilter in de sectie rapportfilters wijzigen. U kunt ook het bedrijfsfilter wijzigen.
+<span data-ttu-id="ad3f5-211">Standaard worden gegevens in de inhoud weergegeven voor het huidige kalenderjaar.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-211">By default, the content shows data for the current calendar year.</span></span> <span data-ttu-id="ad3f5-212">U kunt echter het datumfilter in de sectie rapportfilters wijzigen.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-212">However, you can change the date filter in the report filters section.</span></span> <span data-ttu-id="ad3f5-213">U kunt ook het bedrijfsfilter wijzigen.</span><span class="sxs-lookup"><span data-stu-id="ad3f5-213">You can also change the company filter.</span></span>
 

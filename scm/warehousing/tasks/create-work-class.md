@@ -17,26 +17,26 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 50b8ee1825391d7e5977f758628b559d006a334e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9a775366bdaecb59a375f245f7a4d17a659cab11
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-work-class"></a>Een werkklasse maken
+# <a name="create-a-work-class"></a><span data-ttu-id="838db-103">Een werkklasse maken</span><span class="sxs-lookup"><span data-stu-id="838db-103">Create a work class</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u een werkklasse instelt. Werkklassen worden gebruikt om het type werkorderregels te bepalen en/of beperken dat een magazijnwerknemer op een mobiel apparaat kan verwerken. De regels die een werknemer kan verwerken, worden bepaald op basis van de werkklassen in menuopdrachten van mobiele apparaten waartoe de magazijnwerknemer toegang heeft, en de werkklasse die op de werkregels is opgegeven. Werkklassen kunnen ook worden gebruikt om de neerzetlocatie van een werkorderregel te valideren. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Deze procedure is bedoeld voor de magazijnbeheerder.
+<span data-ttu-id="838db-104">Deze procedure laat zien hoe u een werkklasse instelt.</span><span class="sxs-lookup"><span data-stu-id="838db-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="838db-105">Werkklassen worden gebruikt om het type werkorderregels te bepalen en/of beperken dat een magazijnwerknemer op een mobiel apparaat kan verwerken.</span><span class="sxs-lookup"><span data-stu-id="838db-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="838db-106">De regels die een werknemer kan verwerken, worden bepaald op basis van de werkklassen in menuopdrachten van mobiele apparaten waartoe de magazijnwerknemer toegang heeft, en de werkklasse die op de werkregels is opgegeven.</span><span class="sxs-lookup"><span data-stu-id="838db-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that’s specified on the work lines.</span></span> <span data-ttu-id="838db-107">Werkklassen kunnen ook worden gebruikt om de neerzetlocatie van een werkorderregel te valideren.</span><span class="sxs-lookup"><span data-stu-id="838db-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="838db-108">U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="838db-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="838db-109">Deze procedure is bedoeld voor de magazijnbeheerder.</span><span class="sxs-lookup"><span data-stu-id="838db-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. Ga naar Magazijnbeheer > Instellingen > Werk > Werkklassen.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Werkklasse-id.
-4. Typ een waarde in het veld Omschrijving.
-5. Selecteer een optie in het veld Werkordertype.
-6. Klik op Nieuw.
-7. Typ een waarde in het veld Locatie.
-    * Als u een locatietype selecteert, stelt dit een beperking in op waar artikelen kunnen worden geplaatst nadat ze zijn verzameld. Deze instelling wordt gebruikt wanneer een locatierichtlijn probeert de locatie op te lossen of als een magazijnwerknemer handmatig de locatie voor menuopdrachten van mobiele apparaten verschaft.  
-8. Sluit de pagina.
+1. <span data-ttu-id="838db-110">Ga naar Magazijnbeheer > Instellingen > Werk > Werkklassen.</span><span class="sxs-lookup"><span data-stu-id="838db-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="838db-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="838db-111">Click New.</span></span>
+3. <span data-ttu-id="838db-112">Typ een waarde in het veld Werkklasse-id.</span><span class="sxs-lookup"><span data-stu-id="838db-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="838db-113">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="838db-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="838db-114">Selecteer een optie in het veld Werkordertype.</span><span class="sxs-lookup"><span data-stu-id="838db-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="838db-115">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="838db-115">Click New.</span></span>
+7. <span data-ttu-id="838db-116">Typ een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="838db-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="838db-117">Als u een locatietype selecteert, stelt dit een beperking in op waar artikelen kunnen worden geplaatst nadat ze zijn verzameld.</span><span class="sxs-lookup"><span data-stu-id="838db-117">If you select a location type, this sets a restriction on where items can be put after they’ve been picked.</span></span> <span data-ttu-id="838db-118">Deze instelling wordt gebruikt wanneer een locatierichtlijn probeert de locatie op te lossen of als een magazijnwerknemer handmatig de locatie voor menuopdrachten van mobiele apparaten verschaft.</span><span class="sxs-lookup"><span data-stu-id="838db-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="838db-119">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="838db-119">Close the page.</span></span>
 
 

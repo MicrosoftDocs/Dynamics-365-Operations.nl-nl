@@ -17,40 +17,40 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 19acb9a93a5f58303b6d90d207dfb72bdaafa6d2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1b50b06879fa50db7d7dc652a15e1284d7b74d17
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-assortments"></a> Assortimenten beheren  
+# <a name="manage-assortments"></a><span data-ttu-id="6512e-103"> Assortimenten beheren </span><span class="sxs-lookup"><span data-stu-id="6512e-103">Manage assortments</span></span> 
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-In deze procedure wordt getoond hoe u een nieuw productassortiment kunt maken en publiceren. Dit voorbeeld maakt gebruik van het demogegevensmodel USRT. Voor deze procedure zijn Dynamics AX 7.0.1 of hoger en Dynamics AX platform 7.1 vereist.  
+<span data-ttu-id="6512e-104">In deze procedure wordt getoond hoe u een nieuw productassortiment kunt maken en publiceren. Dit voorbeeld maakt gebruik van het demogegevensmodel USRT.</span><span class="sxs-lookup"><span data-stu-id="6512e-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> <span data-ttu-id="6512e-105">Voor deze procedure zijn Dynamics AX 7.0.1 of hoger en Dynamics AX platform 7.1 vereist.</span><span class="sxs-lookup"><span data-stu-id="6512e-105">This procedure requires Dynamics AX application 7.0.1 or later, and Dynamics AX platform 7.1.</span></span>  
 
-1. Klik op Categorie- en productbeheer.
+1. <span data-ttu-id="6512e-106">Klik op Categorie- en productbeheer.</span><span class="sxs-lookup"><span data-stu-id="6512e-106">Click Category and product management.</span></span>
 
-## <a name="create-an-assortment"></a>Een assortiment maken
-1. Klik op het tabblad Assortimenten.
-2. Klik op Nieuw.
-3. Klik op Assortiment.
-    * De assortiment-id is vereist en moet een unieke waarde zijn.  
-4. Typ een waarde in het veld Assortimentnaam.
-5. Voer een datum in het veld Begindatum in.
-6. Voer een datum in het veld Vervaldatum in.
-7. Vouw de sectie Detailhandelafzetkanalen uit.
-8. Klik op Regel toevoegen.
-9. Selecteer 'Contoso Retail\Electronics\Boston' in de structuur.
-10. Klik op Toevoegen.
-11. Klik op OK.
-12. Vouw de sectie Producten uit.
-13. Klik op Regel toevoegen.
-14. Typ of selecteer een waarde in het veld Categorie.
-15. Klik op Opslaan.
+## <a name="create-an-assortment"></a><span data-ttu-id="6512e-107">Een assortiment maken</span><span class="sxs-lookup"><span data-stu-id="6512e-107">Create an assortment</span></span>
+1. <span data-ttu-id="6512e-108">Klik op het tabblad Assortimenten.</span><span class="sxs-lookup"><span data-stu-id="6512e-108">Click the Assortments tab.</span></span>
+2. <span data-ttu-id="6512e-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="6512e-109">Click New.</span></span>
+3. <span data-ttu-id="6512e-110">Klik op Assortiment.</span><span class="sxs-lookup"><span data-stu-id="6512e-110">Click Assortment.</span></span>
+    * <span data-ttu-id="6512e-111">De assortiment-id is vereist en moet een unieke waarde zijn.</span><span class="sxs-lookup"><span data-stu-id="6512e-111">The Assortment ID is required and must be a unique value.</span></span>  
+4. <span data-ttu-id="6512e-112">Typ een waarde in het veld Assortimentnaam.</span><span class="sxs-lookup"><span data-stu-id="6512e-112">In the Assortment name field, type a value.</span></span>
+5. <span data-ttu-id="6512e-113">Voer een datum in het veld Begindatum in.</span><span class="sxs-lookup"><span data-stu-id="6512e-113">In the Effective date field, enter a date.</span></span>
+6. <span data-ttu-id="6512e-114">Voer een datum in het veld Vervaldatum in.</span><span class="sxs-lookup"><span data-stu-id="6512e-114">In the Expiration date field, enter a date.</span></span>
+7. <span data-ttu-id="6512e-115">Vouw de sectie Detailhandelafzetkanalen uit.</span><span class="sxs-lookup"><span data-stu-id="6512e-115">Expand the Retail channels section.</span></span>
+8. <span data-ttu-id="6512e-116">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="6512e-116">Click Add line.</span></span>
+9. <span data-ttu-id="6512e-117">Selecteer 'Contoso Retail\Electronics\Boston' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="6512e-117">In the tree, select 'Contoso Retail\Electronics\Boston'.</span></span>
+10. <span data-ttu-id="6512e-118">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="6512e-118">Click Add.</span></span>
+11. <span data-ttu-id="6512e-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="6512e-119">Click OK.</span></span>
+12. <span data-ttu-id="6512e-120">Vouw de sectie Producten uit.</span><span class="sxs-lookup"><span data-stu-id="6512e-120">Expand the Products section.</span></span>
+13. <span data-ttu-id="6512e-121">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="6512e-121">Click Add line.</span></span>
+14. <span data-ttu-id="6512e-122">Typ of selecteer een waarde in het veld Categorie.</span><span class="sxs-lookup"><span data-stu-id="6512e-122">In the Category field, enter or select a value.</span></span>
+15. <span data-ttu-id="6512e-123">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="6512e-123">Click Save.</span></span>
 
-## <a name="publish-an-assortment"></a>Een assortiment publiceren
-1. Klik op Publiceren.
-2. Klik op Ja.
+## <a name="publish-an-assortment"></a><span data-ttu-id="6512e-124">Een assortiment publiceren</span><span class="sxs-lookup"><span data-stu-id="6512e-124">Publish an assortment</span></span>
+1. <span data-ttu-id="6512e-125">Klik op Publiceren.</span><span class="sxs-lookup"><span data-stu-id="6512e-125">Click Publish.</span></span>
+2. <span data-ttu-id="6512e-126">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="6512e-126">Click Yes.</span></span>
 
 

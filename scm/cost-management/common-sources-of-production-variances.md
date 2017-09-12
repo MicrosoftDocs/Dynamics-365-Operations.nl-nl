@@ -17,50 +17,50 @@ ms.assetid: 14ac7db4-fb40-43c1-bb0d-1d51fc91d24f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5bfb56096bb10ff0e1740db67e0122f5de936c14
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 041cd20e6b0ab7d1cb31e8925aa3a755ea556706
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="common-sources-of-production-variances"></a>Veelvoorkomende oorzaken van productieafwijkingen
+# <a name="common-sources-of-production-variances"></a><span data-ttu-id="29af3-103">Veelvoorkomende oorzaken van productieafwijkingen</span><span class="sxs-lookup"><span data-stu-id="29af3-103">Common sources of production variances</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel worden verschillende bronnen van elk type productieafwijking beschreven. 
+<span data-ttu-id="29af3-104">In dit artikel worden verschillende bronnen van elk type productieafwijking beschreven.</span><span class="sxs-lookup"><span data-stu-id="29af3-104">This article explains various typical sources of each type of production variance.</span></span> 
 
-Hier volgen enkele veelvoorkomende bronnen van een afwijking in **partijgrootte**:
+<span data-ttu-id="29af3-105">Hier volgen enkele veelvoorkomende bronnen van een afwijking in **partijgrootte**:</span><span class="sxs-lookup"><span data-stu-id="29af3-105">Here are some typical sources of a **lot size** variance:</span></span>
 
--   De goede hoeveelheid voor een productieorder wijkt af van de berekeningshoeveelheid die wordt gebruikt in de standaardkostenberekening. De hoeveelheid vormt de basis voor het afschrijven van constante kosten.
--   De waarde van constante kosten op de productieorder wijkt af van de constante kosten die worden gebruikt in de standaardkostenberekening. Het verschil in constante kosten op de productieorder kan verschillende redenen hebben. Zo reflecteren de constante kosten bijvoorbeeld mogelijk de volgende factoren:
-    -   Handmatige wijzigingen in de productiestuklijst of de route
-    -   De selectie van een andere stuklijstversie of routeversie tijdens het maken van de productieorder
-    -   Geplande engineeringwijzigingen in de stuklijstversie of routeversie die aan het artikel is toegewezen
+-   <span data-ttu-id="29af3-106">De goede hoeveelheid voor een productieorder wijkt af van de berekeningshoeveelheid die wordt gebruikt in de standaardkostenberekening.</span><span class="sxs-lookup"><span data-stu-id="29af3-106">The good quantity for a production order differs from the calculation quantity that is used in the standard cost calculation.</span></span> <span data-ttu-id="29af3-107">De hoeveelheid vormt de basis voor het afschrijven van constante kosten.</span><span class="sxs-lookup"><span data-stu-id="29af3-107">The quantity provides the basis for amortizing constant costs.</span></span>
+-   <span data-ttu-id="29af3-108">De waarde van constante kosten op de productieorder wijkt af van de constante kosten die worden gebruikt in de standaardkostenberekening.</span><span class="sxs-lookup"><span data-stu-id="29af3-108">The value of constant costs on the production order differs from the constant costs that are used in the standard cost calculation.</span></span> <span data-ttu-id="29af3-109">Het verschil in constante kosten op de productieorder kan verschillende redenen hebben.</span><span class="sxs-lookup"><span data-stu-id="29af3-109">The constant costs on the production order can differ for several reasons.</span></span> <span data-ttu-id="29af3-110">Zo reflecteren de constante kosten bijvoorbeeld mogelijk de volgende factoren:</span><span class="sxs-lookup"><span data-stu-id="29af3-110">For example, the constant costs might reflect the following factors:</span></span>
+    -   <span data-ttu-id="29af3-111">Handmatige wijzigingen in de productiestuklijst of de route</span><span class="sxs-lookup"><span data-stu-id="29af3-111">Manual changes to the production bill of materials (BOM) or route</span></span>
+    -   <span data-ttu-id="29af3-112">De selectie van een andere stuklijstversie of routeversie tijdens het maken van de productieorder</span><span class="sxs-lookup"><span data-stu-id="29af3-112">The selection of a different BOM version or route version when you create the production order</span></span>
+    -   <span data-ttu-id="29af3-113">Geplande engineeringwijzigingen in de stuklijstversie of routeversie die aan het artikel is toegewezen</span><span class="sxs-lookup"><span data-stu-id="29af3-113">Planned engineering changes to the BOM version or route version that is assigned to the item</span></span>
 
-Hier volgen enkele veelvoorkomende bronnen van een afwijking in **productieprijs**:
+<span data-ttu-id="29af3-114">Hier volgen enkele veelvoorkomende bronnen van een afwijking in **productieprijs**:</span><span class="sxs-lookup"><span data-stu-id="29af3-114">Here are some typical sources of a **production price** variance:</span></span>
 
--   De kostencategorie (en kostencategorieprijs) voor het gemelde verbruik van een routebewerking wijkt af van de kostencategorie die wordt gebruikt in de standaardkostenberekening.
--   De actieve kosten voor de kostencategorieprijs wijkt af van de kostencategorieprijs die wordt gebruikt in de standaardkostenberekening.
+-   <span data-ttu-id="29af3-115">De kostencategorie (en kostencategorieprijs) voor het gemelde verbruik van een routebewerking wijkt af van de kostencategorie die wordt gebruikt in de standaardkostenberekening.</span><span class="sxs-lookup"><span data-stu-id="29af3-115">The cost category (and cost category price) for the reported consumption of a routing operation differs from the cost category that is used in standard cost calculation.</span></span>
+-   <span data-ttu-id="29af3-116">De actieve kosten voor de kostencategorieprijs wijkt af van de kostencategorieprijs die wordt gebruikt in de standaardkostenberekening.</span><span class="sxs-lookup"><span data-stu-id="29af3-116">The active cost for the cost category price differs from the cost category price that is used in standard cost calculation.</span></span>
 
-Hier volgen enkele veelvoorkomende bronnen van een afwijking in **productiehoeveelheid**:
+<span data-ttu-id="29af3-117">Hier volgen enkele veelvoorkomende bronnen van een afwijking in **productiehoeveelheid**:</span><span class="sxs-lookup"><span data-stu-id="29af3-117">Here are some typical sources of a **production quantity** variance:</span></span>
 
--   U geeft te veel of te weinig materiaalcomponenten uit.
--   U meldt te veel of te weinig tijd voor een routebewerking.
--   U ontvangt te veel of te weinig goederen van het bovenliggende artikel, ten opzichte van de orderhoeveelheid. U geeft componenten echter volledig uit en meldt bewerkingen volledig, op basis van de orderhoeveelheid voor de productieorder.
+-   <span data-ttu-id="29af3-118">U geeft te veel of te weinig materiaalcomponenten uit.</span><span class="sxs-lookup"><span data-stu-id="29af3-118">You over-issue or under-issue a material component.</span></span>
+-   <span data-ttu-id="29af3-119">U meldt te veel of te weinig tijd voor een routebewerking.</span><span class="sxs-lookup"><span data-stu-id="29af3-119">You over-report or under-report the time for a routing operation.</span></span>
+-   <span data-ttu-id="29af3-120">U ontvangt te veel of te weinig goederen van het bovenliggende artikel, ten opzichte van de orderhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="29af3-120">You over-receive or under-receive the good quantity of the parent item, relative to the order quantity.</span></span> <span data-ttu-id="29af3-121">U geeft componenten echter volledig uit en meldt bewerkingen volledig, op basis van de orderhoeveelheid voor de productieorder.</span><span class="sxs-lookup"><span data-stu-id="29af3-121">However, you issue components and report operations completely, based on the order quantity for the production order.</span></span>
 
-Hier volgen enkele veelvoorkomende bronnen van een afwijking in **productievervanging**:
+<span data-ttu-id="29af3-122">Hier volgen enkele veelvoorkomende bronnen van een afwijking in **productievervanging**:</span><span class="sxs-lookup"><span data-stu-id="29af3-122">Here are some typical sources of a **production substitution** variance:</span></span>
 
--   U geeft een materiaalcomponent uit die niet voorkomt op de productiestuklijst.
--   U voegt handmatig een component toe aan de productiestuklijst en rapporteert die component als verbruikt.
--   U meldt een artikel als verbruikt maar voegt het niet handmatig toe aan de productiestuklijst.
--   U voegt handmatig een bewerking toe aan de productieroute en meldt die bewerking als verbruikt.
--   Bij het maken van de productieorder selecteert u een andere stuklijstversie dan de versie die wordt gebruikt in de standaardkostenberekening.
--   Bij het maken van de productieorder selecteert u een routeversie die afwijkt van de routeversie die wordt gebruikt in de standaardkostenberekening.
+-   <span data-ttu-id="29af3-123">U geeft een materiaalcomponent uit die niet voorkomt op de productiestuklijst.</span><span class="sxs-lookup"><span data-stu-id="29af3-123">You issue a material component that isn't on the production BOM.</span></span>
+-   <span data-ttu-id="29af3-124">U voegt handmatig een component toe aan de productiestuklijst en rapporteert die component als verbruikt.</span><span class="sxs-lookup"><span data-stu-id="29af3-124">You manually add a component to the production BOM and report that component as consumed.</span></span>
+-   <span data-ttu-id="29af3-125">U meldt een artikel als verbruikt maar voegt het niet handmatig toe aan de productiestuklijst.</span><span class="sxs-lookup"><span data-stu-id="29af3-125">You report an item as consumed but don't manually add it to the production BOM.</span></span>
+-   <span data-ttu-id="29af3-126">U voegt handmatig een bewerking toe aan de productieroute en meldt die bewerking als verbruikt.</span><span class="sxs-lookup"><span data-stu-id="29af3-126">You manually add an operation to the production route and report that operation as consumed.</span></span>
+-   <span data-ttu-id="29af3-127">Bij het maken van de productieorder selecteert u een andere stuklijstversie dan de versie die wordt gebruikt in de standaardkostenberekening.</span><span class="sxs-lookup"><span data-stu-id="29af3-127">When you create the production order, you select a BOM version that differs from the BOM version that is used in the standard cost calculation.</span></span>
+-   <span data-ttu-id="29af3-128">Bij het maken van de productieorder selecteert u een routeversie die afwijkt van de routeversie die wordt gebruikt in de standaardkostenberekening.</span><span class="sxs-lookup"><span data-stu-id="29af3-128">When you create the production order, you select a route version that differs from the route version that is used in the standard cost calculation.</span></span>
 
 
 

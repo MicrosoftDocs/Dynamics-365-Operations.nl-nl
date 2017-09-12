@@ -16,43 +16,43 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5a86cc6fb2b70b913dc0f15ab7cac20b468ca8ae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 9cb6064a83e02ddf1fea2de7928965773d08bbc9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="settle-a-postdated-check-from-a-customer"></a>Een gepostdateerde cheque van een klant vereffenen
+# <a name="settle-a-postdated-check-from-a-customer"></a><span data-ttu-id="35735-103">Een gepostdateerde cheque van een klant vereffenen</span><span class="sxs-lookup"><span data-stu-id="35735-103">Settle a postdated check from a customer</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-U kunt een gepostdateerde cheque vereffenen nadat de cheque is verrekend door de bank. Met deze financiële transactie boekt u ook de overbruggingsrekeningtransactie over voor de gepostdateerde cheque. 
+<span data-ttu-id="35735-104">U kunt een gepostdateerde cheque vereffenen nadat de cheque is verrekend door de bank.</span><span class="sxs-lookup"><span data-stu-id="35735-104">You can settle a postdated check after the check has been cleared by the bank.</span></span> <span data-ttu-id="35735-105">Met deze financiële transactie boekt u ook de overbruggingsrekeningtransactie over voor de gepostdateerde cheque.</span><span class="sxs-lookup"><span data-stu-id="35735-105">This financial transaction also clears the bridge account transaction for the postdated check.</span></span> 
 
-De volgende taken moeten zijn voltooid voordat u deze start.
+<span data-ttu-id="35735-106">De volgende taken moeten zijn voltooid voordat u deze start.</span><span class="sxs-lookup"><span data-stu-id="35735-106">The following tasks must be complete before you start this one.</span></span>
 
-1) Gepostdateerde cheques instellen
+1) <span data-ttu-id="35735-107">Gepostdateerde cheques instellen</span><span class="sxs-lookup"><span data-stu-id="35735-107">Set up postdated checks</span></span>
 
-2) Een gepostdateerde cheque voor een klant registreren en boeken 
-
-
-
-De rol van deze taakbegeleidingen is penningmeester.
+2) <span data-ttu-id="35735-108">Een gepostdateerde cheque voor een klant registreren en boeken</span><span class="sxs-lookup"><span data-stu-id="35735-108">Register and post a postdated check for a customer</span></span> 
 
 
 
-Bij deze procedure wordt het demobedrijf USMF gebruikt.
+<span data-ttu-id="35735-109">De rol van deze taakbegeleidingen is penningmeester.</span><span class="sxs-lookup"><span data-stu-id="35735-109">The role of this task guides is Treasurer.</span></span>
 
-1. Ga naar Crediteringen en aanmaningen > Query's en rapporten > Betalingen > Gepostdateerde cheques van klant.
-2. Klik op Vereffenen.
-3. Klik op Aflossingstransacties vereffenen.
-    * Vereffen de klantrekening voor de chequetransactie.  
-4. Sluit de pagina.
-5. Ga naar Grootboek > Journaalboekingen > Algemene journalen.
-6. Selecteer een optie in het veld Weergeven.
-7. Schakel het selectievakje Alleen door de gebruiker gemaakte journalen weergeven in of uit.
-8. Zoek en selecteer de gewenste record in de lijst.
-9. Klik op Regels.
-10. Klik op Boekstuk.
-11. Sluit de pagina.
+
+
+<span data-ttu-id="35735-110">Bij deze procedure wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="35735-110">This procedure uses the USMF demo company.</span></span>
+
+1. <span data-ttu-id="35735-111">Ga naar Crediteringen en aanmaningen > Query's en rapporten > Betalingen > Gepostdateerde cheques van klant.</span><span class="sxs-lookup"><span data-stu-id="35735-111">Go to Credit and collections > Inquiries and reports > Payments > Customer postdated checks.</span></span>
+2. <span data-ttu-id="35735-112">Klik op Vereffenen.</span><span class="sxs-lookup"><span data-stu-id="35735-112">Click Settle.</span></span>
+3. <span data-ttu-id="35735-113">Klik op Aflossingstransacties vereffenen.</span><span class="sxs-lookup"><span data-stu-id="35735-113">Click Settle clearing entries.</span></span>
+    * <span data-ttu-id="35735-114">Vereffen de klantrekening voor de chequetransactie.</span><span class="sxs-lookup"><span data-stu-id="35735-114">Settle the customer account for the check transaction.</span></span>  
+4. <span data-ttu-id="35735-115">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="35735-115">Close the page.</span></span>
+5. <span data-ttu-id="35735-116">Ga naar Grootboek > Journaalboekingen > Algemene journalen.</span><span class="sxs-lookup"><span data-stu-id="35735-116">Go to General ledger > Journal entries > General journals.</span></span>
+6. <span data-ttu-id="35735-117">Selecteer een optie in het veld Weergeven.</span><span class="sxs-lookup"><span data-stu-id="35735-117">In the Show field, select an option.</span></span>
+7. <span data-ttu-id="35735-118">Schakel het selectievakje Alleen door de gebruiker gemaakte journalen weergeven in of uit.</span><span class="sxs-lookup"><span data-stu-id="35735-118">Select or clear the Show user-created only check box.</span></span>
+8. <span data-ttu-id="35735-119">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="35735-119">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="35735-120">Klik op Regels.</span><span class="sxs-lookup"><span data-stu-id="35735-120">Click Lines.</span></span>
+10. <span data-ttu-id="35735-121">Klik op Boekstuk.</span><span class="sxs-lookup"><span data-stu-id="35735-121">Click Voucher.</span></span>
+11. <span data-ttu-id="35735-122">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="35735-122">Close the page.</span></span>
 
 

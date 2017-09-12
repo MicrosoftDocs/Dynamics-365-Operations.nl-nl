@@ -17,34 +17,34 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: caf7dead2da14e1ff76e205e7477b1eb11a2ca52
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3c2b5a5fbfc5bd83cc68ffafaa243dac9244c003
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="update-kanban-status"></a>Kanbanstatus bijwerken
+# <a name="update-kanban-status"></a><span data-ttu-id="86235-103">Kanbanstatus bijwerken</span><span class="sxs-lookup"><span data-stu-id="86235-103">Update kanban status</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Wanneer een kanban per ongeluk is geleegd of als een ontvangen kanban moet worden leeggemaakt, moet u de kanbanstatus bijwerken. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de winkelchef.
+<span data-ttu-id="86235-104">Wanneer een kanban per ongeluk is geleegd of als een ontvangen kanban moet worden leeggemaakt, moet u de kanbanstatus bijwerken.</span><span class="sxs-lookup"><span data-stu-id="86235-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="86235-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="86235-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="86235-106">Deze procedure is bedoeld voor de winkelchef.</span><span class="sxs-lookup"><span data-stu-id="86235-106">This procedure is intended for the shop supervisor.</span></span>
 
 
-## <a name="find-the-kanban"></a>Zoek de kanban.
-1. Ga naar Productiebeheer > Kanban > Kanbans.
-2. Open de kolomfilter Status materiaalverwerkingseenheid.
-3. Klik op Wissen.
-    * Hiermee worden de filters opnieuw ingesteld.  
-4. Gebruik de snelfilter om records te zoeken. Filter bijvoorbeeld op het veld Kaartnummer met een waarde van '000149'.
+## <a name="find-the-kanban"></a><span data-ttu-id="86235-107">Zoek de kanban.</span><span class="sxs-lookup"><span data-stu-id="86235-107">Find the kanban.</span></span>
+1. <span data-ttu-id="86235-108">Ga naar Productiebeheer > Kanban > Kanbans.</span><span class="sxs-lookup"><span data-stu-id="86235-108">Go to Production control > Kanban > Kanbans.</span></span>
+2. <span data-ttu-id="86235-109">Open de kolomfilter Status materiaalverwerkingseenheid.</span><span class="sxs-lookup"><span data-stu-id="86235-109">Open Handling unit status column filter.</span></span>
+3. <span data-ttu-id="86235-110">Klik op Wissen.</span><span class="sxs-lookup"><span data-stu-id="86235-110">Click Clear.</span></span>
+    * <span data-ttu-id="86235-111">Hiermee worden de filters opnieuw ingesteld.</span><span class="sxs-lookup"><span data-stu-id="86235-111">This resets the filters.</span></span>  
+4. <span data-ttu-id="86235-112">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="86235-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="86235-113">Filter bijvoorbeeld op het veld Kaartnummer met een waarde van '000149'.</span><span class="sxs-lookup"><span data-stu-id="86235-113">For example, filter on the Card number field with a value of '000149'.</span></span>
 
-## <a name="change-emptied-status-to-received-status"></a>Status Geleegd in Ontvangen wijzigen
-1. Klik op Omgekeerde lege materiaalverwerkingseenheid.
-2. Klik op OK.
-    * De status van de materiaalverwerkingseenheid is Ontvangen.  
+## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="86235-114">Status Geleegd in Ontvangen wijzigen</span><span class="sxs-lookup"><span data-stu-id="86235-114">Change emptied status to received status</span></span>
+1. <span data-ttu-id="86235-115">Klik op Omgekeerde lege materiaalverwerkingseenheid.</span><span class="sxs-lookup"><span data-stu-id="86235-115">Click Reverse empty handling unit.</span></span>
+2. <span data-ttu-id="86235-116">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="86235-116">Click OK.</span></span>
+    * <span data-ttu-id="86235-117">De status van de materiaalverwerkingseenheid is Ontvangen.</span><span class="sxs-lookup"><span data-stu-id="86235-117">Notice that the Handling unit status is Received.</span></span>  
 
-## <a name="change-received-status-to-emptied-status"></a>Status Ontvangen in Geleegd wijzigen
-1. Klik op Lege Kanban.
-2. Markeer in de lijst de geselecteerde rij.
-    * De status van de materiaalverwerkingseenheid is Geleegd.  
+## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="86235-118">Status Ontvangen in Geleegd wijzigen</span><span class="sxs-lookup"><span data-stu-id="86235-118">Change received status to emptied status</span></span>
+1. <span data-ttu-id="86235-119">Klik op Lege Kanban.</span><span class="sxs-lookup"><span data-stu-id="86235-119">Click Empty kanban.</span></span>
+2. <span data-ttu-id="86235-120">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="86235-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="86235-121">De status van de materiaalverwerkingseenheid is Geleegd.</span><span class="sxs-lookup"><span data-stu-id="86235-121">Notice that the Handling unit status is Emptied.</span></span>  
 
 

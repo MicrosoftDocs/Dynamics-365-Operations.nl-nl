@@ -16,62 +16,62 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 6a9487567620b7b7d6d15015f7f0b7675e227c8a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e9a520b2af7cdfef325f1fa96504f2a20078ed80
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-order-holds"></a>Orderwachtstanden beheren
+# <a name="manage-order-holds"></a><span data-ttu-id="f15d2-103">Orderwachtstanden beheren</span><span class="sxs-lookup"><span data-stu-id="f15d2-103">Manage order holds</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-In deze procedure wordt uitgelegd hoe klantverkooporders in de wachtstand kunnen worden geplaatst, hoe u een order in de wachtstand uitcheckt en hoe u orderwachtstanden verwijdert. Een order kan in wachtstand worden geplaatst om diverse redenen. U kunt bijvoorbeeld een order in wachtstand plaatsen tot een klantadres of betalingsmethode kan worden geverifieerd of tot een manager de kredietlimiet van de klant kan controleren. Zolang de order in de wachtstand staat, kan deze niet worden verwerkt door het magazijn voor verzending. 
+<span data-ttu-id="f15d2-104">In deze procedure wordt uitgelegd hoe klantverkooporders in de wachtstand kunnen worden geplaatst, hoe u een order in de wachtstand uitcheckt en hoe u orderwachtstanden verwijdert.</span><span class="sxs-lookup"><span data-stu-id="f15d2-104">This procedure demonstrates how to place customer sales orders on hold, how to work with order hold checkouts, and how to remove order holds.</span></span> <span data-ttu-id="f15d2-105">Een order kan in wachtstand worden geplaatst om diverse redenen.</span><span class="sxs-lookup"><span data-stu-id="f15d2-105">An order might be placed on hold for a variety of reasons.</span></span> <span data-ttu-id="f15d2-106">U kunt bijvoorbeeld een order in wachtstand plaatsen tot een klantadres of betalingsmethode kan worden geverifieerd of tot een manager de kredietlimiet van de klant kan controleren.</span><span class="sxs-lookup"><span data-stu-id="f15d2-106">For example, you might hold an order until a customer address or payment method can be verified or until a manager can review the customer’s credit limit.</span></span> <span data-ttu-id="f15d2-107">Zolang de order in de wachtstand staat, kan deze niet worden verwerkt door het magazijn voor verzending.</span><span class="sxs-lookup"><span data-stu-id="f15d2-107">While the order on hold, it cannot be processed by the warehouse for shipping.</span></span> 
 
-U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.
+<span data-ttu-id="f15d2-108">U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="f15d2-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="set-up-order-holds"></a>Order in wachtstand instellen
-1. Ga naar Verkoop en marketing > Instellingen > Verkooporders > Orderwachtstandcodes.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Wachtstandcode.
-    * Typ bijvoorbeeld Terugbellen.  
-4. Typ een waarde in het veld Omschrijving.
-    * Bijvoorbeeld: Order in wachtstand, wacht tot klant terugbelt.  
-    * Schakel eventueel het selectievakje Reserveringen verwijderen in, zodat alle fysieke reserveringen uit de order worden verwijderd wanneer deze wachtstandcode wordt toegevoegd.  
-5. Klik op Opslaan.
+## <a name="set-up-order-holds"></a><span data-ttu-id="f15d2-109">Order in wachtstand instellen</span><span class="sxs-lookup"><span data-stu-id="f15d2-109">Set up order holds</span></span>
+1. <span data-ttu-id="f15d2-110">Ga naar Verkoop en marketing > Instellingen > Verkooporders > Orderwachtstandcodes.</span><span class="sxs-lookup"><span data-stu-id="f15d2-110">Go to Sales and marketing > Setup > Sales orders > Order hold codes.</span></span>
+2. <span data-ttu-id="f15d2-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f15d2-111">Click New.</span></span>
+3. <span data-ttu-id="f15d2-112">Typ een waarde in het veld Wachtstandcode.</span><span class="sxs-lookup"><span data-stu-id="f15d2-112">In the Hold code field, type a value.</span></span>
+    * <span data-ttu-id="f15d2-113">Typ bijvoorbeeld Terugbellen.</span><span class="sxs-lookup"><span data-stu-id="f15d2-113">For example, type Call back.</span></span>  
+4. <span data-ttu-id="f15d2-114">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="f15d2-114">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="f15d2-115">Bijvoorbeeld: Order in wachtstand, wacht tot klant terugbelt.</span><span class="sxs-lookup"><span data-stu-id="f15d2-115">For example, Order held waiting for customer callback.</span></span>  
+    * <span data-ttu-id="f15d2-116">Schakel eventueel het selectievakje Reserveringen verwijderen in, zodat alle fysieke reserveringen uit de order worden verwijderd wanneer deze wachtstandcode wordt toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="f15d2-116">Optionally, select the Remove reservations check box to remove any physical reservations from the order when this hold code is added.</span></span>  
+5. <span data-ttu-id="f15d2-117">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f15d2-117">Click Save.</span></span>
 
-## <a name="place-order-on-hold"></a>Order in wachtstand plaatsen
-1. Ga naar Verkoop en marketing > Verkooporders > Alle verkooporders.
-2. Klik op Nieuw.
-3. Typ of selecteer een waarde in het veld Klantrekening.
-4. Klik op OK.
-5. Typ of selecteer een waarde in het veld Artikelnummer.
-6. Voer in het veld Hoeveelheid een getal in.
-7. Klik in het actievenster op Verkooporder.
-8. Klik op Orderwachtstanden.
-9. Klik op Nieuw.
-10. Selecteer in het veld Orderwachtstand de code die u hebt gemaakt in de vorige subtaak.
-11. Klik op Opslaan.
-12. Sluit de pagina.
-13. Ga naar Verkoop en marketing > Verkooporders > Alle verkooporders.
-14. Markeer in de lijst de geselecteerde rij.
-    * Bij orders die momenteel de status 'In wachtstand' hebben, zijn de velden 'Niet verwerken' en 'Wachtstand' gemarkeerd.    
-15. Klik in het actievenster op Verzamelen en inpakken.
+## <a name="place-order-on-hold"></a><span data-ttu-id="f15d2-118">Order in wachtstand plaatsen</span><span class="sxs-lookup"><span data-stu-id="f15d2-118">Place order on hold</span></span>
+1. <span data-ttu-id="f15d2-119">Ga naar Verkoop en marketing > Verkooporders > Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="f15d2-119">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="f15d2-120">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f15d2-120">Click New.</span></span>
+3. <span data-ttu-id="f15d2-121">Typ of selecteer een waarde in het veld Klantrekening.</span><span class="sxs-lookup"><span data-stu-id="f15d2-121">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="f15d2-122">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f15d2-122">Click OK.</span></span>
+5. <span data-ttu-id="f15d2-123">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="f15d2-123">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="f15d2-124">Voer in het veld Hoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="f15d2-124">In the Quantity field, enter a number.</span></span>
+7. <span data-ttu-id="f15d2-125">Klik in het actievenster op Verkooporder.</span><span class="sxs-lookup"><span data-stu-id="f15d2-125">On the Action Pane, click Sales order.</span></span>
+8. <span data-ttu-id="f15d2-126">Klik op Orderwachtstanden.</span><span class="sxs-lookup"><span data-stu-id="f15d2-126">Click Order holds.</span></span>
+9. <span data-ttu-id="f15d2-127">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f15d2-127">Click New.</span></span>
+10. <span data-ttu-id="f15d2-128">Selecteer in het veld Orderwachtstand de code die u hebt gemaakt in de vorige subtaak.</span><span class="sxs-lookup"><span data-stu-id="f15d2-128">In the Hold code field, select the code you have created in the previous subtask.</span></span>
+11. <span data-ttu-id="f15d2-129">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f15d2-129">Click Save.</span></span>
+12. <span data-ttu-id="f15d2-130">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f15d2-130">Close the page.</span></span>
+13. <span data-ttu-id="f15d2-131">Ga naar Verkoop en marketing > Verkooporders > Alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="f15d2-131">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+14. <span data-ttu-id="f15d2-132">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f15d2-132">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="f15d2-133">Bij orders die momenteel de status 'In wachtstand' hebben, zijn de velden 'Niet verwerken' en 'Wachtstand' gemarkeerd.</span><span class="sxs-lookup"><span data-stu-id="f15d2-133">Orders that are currently on hold have the "Do not process" and "Hold" fields marked.</span></span>    
+15. <span data-ttu-id="f15d2-134">Klik in het actievenster op Verzamelen en inpakken.</span><span class="sxs-lookup"><span data-stu-id="f15d2-134">On the Action Pane, click Pick and pack.</span></span>
 
-## <a name="manage-order-holds"></a>Orderwachtstanden beheren
-1. Ga naar Verkoop en marketing > Verkooporders > Openstaande orders > Orderwachtstanden.
-    * De pagina Orderwachtstanden fungeert als een workbench, waarin u een overzicht kunt krijgen van alle actuele en verwerkte wachtstanden en waar u deze en de bijbehorende verkooporders kunt afhandelen.      
-2. Markeer in de lijst de geselecteerde rij.
-3. Klik in het actievenster op Uitchecken in wachtstand.
-4. Klik op Uitchecken.
-5. Maak in de lijst de markering van de geselecteerde rij ongedaan.
-    * In het veld Uitgecheckt naar ziet u uw gebruikers-id staan.   
-6. Klik op Uitchecken wissen.
-7. Klik in het actievenster op Wachtstand wissen.
-    * Als u de wachtstand wilt verwijderen zodat de order door kan gaan naar de volgende afhandelingsstap, moet u de wachtstand uitschakelen. Als de order geen aanpassing vereist, kunt u de actie Wachtstanden wissen uitvoeren. U kunt echter de actie Wissen en aanpassen gebruiken, als bij het wissen van een wachtstand de order moet worden bijgewerkt.      
-    * De actie Wissen en indienen is alleen van toepassing wanneer gebruik maakt van de Callcenterfunctionaliteit.  
-8. Klik op Wachtstanden wissen.
-    * De wachtstand is nu van de order gewist en verwijderd uit de lijst met actieve wachtstanden. Als u alle wachtstanden wilt bekijken, of een subset daarvan op basis van een specifieke status, wijzigt u de waarde in het veld Weergeven.     
+## <a name="manage-order-holds"></a><span data-ttu-id="f15d2-135">Orderwachtstanden beheren</span><span class="sxs-lookup"><span data-stu-id="f15d2-135">Manage order holds</span></span>
+1. <span data-ttu-id="f15d2-136">Ga naar Verkoop en marketing > Verkooporders > Openstaande orders > Orderwachtstanden.</span><span class="sxs-lookup"><span data-stu-id="f15d2-136">Go to Sales and marketing > Sales orders > Open orders > Order holds.</span></span>
+    * <span data-ttu-id="f15d2-137">De pagina Orderwachtstanden fungeert als een workbench, waarin u een overzicht kunt krijgen van alle actuele en verwerkte wachtstanden en waar u deze en de bijbehorende verkooporders kunt afhandelen.</span><span class="sxs-lookup"><span data-stu-id="f15d2-137">Order holds page functions as a workbench where you can get an overview of all the current and processed holds, and handle them and associated sales orders.</span></span>      
+2. <span data-ttu-id="f15d2-138">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f15d2-138">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="f15d2-139">Klik in het actievenster op Uitchecken in wachtstand.</span><span class="sxs-lookup"><span data-stu-id="f15d2-139">On the Action Pane, click Hold checkout.</span></span>
+4. <span data-ttu-id="f15d2-140">Klik op Uitchecken.</span><span class="sxs-lookup"><span data-stu-id="f15d2-140">Click Check out.</span></span>
+5. <span data-ttu-id="f15d2-141">Maak in de lijst de markering van de geselecteerde rij ongedaan.</span><span class="sxs-lookup"><span data-stu-id="f15d2-141">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="f15d2-142">In het veld Uitgecheckt naar ziet u uw gebruikers-id staan.</span><span class="sxs-lookup"><span data-stu-id="f15d2-142">The Checkout out to field now shows your user ID.</span></span>   
+6. <span data-ttu-id="f15d2-143">Klik op Uitchecken wissen.</span><span class="sxs-lookup"><span data-stu-id="f15d2-143">Click Clear checkout.</span></span>
+7. <span data-ttu-id="f15d2-144">Klik in het actievenster op Wachtstand wissen.</span><span class="sxs-lookup"><span data-stu-id="f15d2-144">On the Action Pane, click Clear hold.</span></span>
+    * <span data-ttu-id="f15d2-145">Als u de wachtstand wilt verwijderen zodat de order door kan gaan naar de volgende afhandelingsstap, moet u de wachtstand uitschakelen.</span><span class="sxs-lookup"><span data-stu-id="f15d2-145">When you are ready to remove the hold and allow the order to proceed to the next fulfilment step, you must clear the hold.</span></span> <span data-ttu-id="f15d2-146">Als de order geen aanpassing vereist, kunt u de actie Wachtstanden wissen uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="f15d2-146">If the order requires no changes, you can run the Clear holds action.</span></span> <span data-ttu-id="f15d2-147">U kunt echter de actie Wissen en aanpassen gebruiken, als bij het wissen van een wachtstand de order moet worden bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="f15d2-147">However, you can use the Clear and modify action if, when clearing a hold, the order has to be updated.</span></span>      
+    * <span data-ttu-id="f15d2-148">De actie Wissen en indienen is alleen van toepassing wanneer gebruik maakt van de Callcenterfunctionaliteit.</span><span class="sxs-lookup"><span data-stu-id="f15d2-148">The Clear and submit action is only applicable when you use Call center functionality.</span></span>  
+8. <span data-ttu-id="f15d2-149">Klik op Wachtstanden wissen.</span><span class="sxs-lookup"><span data-stu-id="f15d2-149">Click Clear holds.</span></span>
+    * <span data-ttu-id="f15d2-150">De wachtstand is nu van de order gewist en verwijderd uit de lijst met actieve wachtstanden.</span><span class="sxs-lookup"><span data-stu-id="f15d2-150">The hold has now been cleared from the order and removed from the list of Active holds.</span></span> <span data-ttu-id="f15d2-151">Als u alle wachtstanden wilt bekijken, of een subset daarvan op basis van een specifieke status, wijzigt u de waarde in het veld Weergeven.</span><span class="sxs-lookup"><span data-stu-id="f15d2-151">To see all the holds or their subset according to a specific status, change the value in the Show field.</span></span>     
 
 

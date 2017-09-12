@@ -18,57 +18,57 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: f07aea0b87bc3e09982f9ba248d3c28540fd2dc5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0017d13b7f7594462dfff4ef896f4139607d4bc5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="income-statement-financial-report"></a>Financieel rapport inkomensoverzicht
+# <a name="income-statement-financial-report"></a><span data-ttu-id="f11cb-104">Financieel rapport inkomensoverzicht</span><span class="sxs-lookup"><span data-stu-id="f11cb-104">Income statement financial report</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld. 
+<span data-ttu-id="f11cb-105">In dit artikel wordt het standaardrapport voor inkomensoverzichten beschreven.</span><span class="sxs-lookup"><span data-stu-id="f11cb-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="f11cb-106">In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="f11cb-106">It also describes the building blocks that are associated with this report.</span></span> 
 
-<a name="default-income-statement-report"></a>Standaardrapport inkomensoverzicht
+<a name="default-income-statement-report"></a><span data-ttu-id="f11cb-107">Standaardrapport inkomensoverzicht</span><span class="sxs-lookup"><span data-stu-id="f11cb-107">Default income statement report</span></span>
 -------------------------------
 
-| Standaardrapport             | Functie                                                                                              |
+| <span data-ttu-id="f11cb-108">Standaardrapport</span><span class="sxs-lookup"><span data-stu-id="f11cb-108">Default report</span></span>             | <span data-ttu-id="f11cb-109">Functie</span><span class="sxs-lookup"><span data-stu-id="f11cb-109">What it does</span></span>                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
-| Inkomensoverzicht – Standaard | Biedt een weergave van de winstgevendheid van de organisatie voor de huidige periode en ook voor het jaar tot heden. |
+| <span data-ttu-id="f11cb-110">Inkomensoverzicht – Standaard</span><span class="sxs-lookup"><span data-stu-id="f11cb-110">Income Statement – Default</span></span> | <span data-ttu-id="f11cb-111">Biedt een weergave van de winstgevendheid van de organisatie voor de huidige periode en ook voor het jaar tot heden.</span><span class="sxs-lookup"><span data-stu-id="f11cb-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
 
-## <a name="building-blocks"></a>Bouwstenen
-In het financiële rapport van het inkomensoverzicht worden de volgende bouwstenen gebruikt.
+## <a name="building-blocks"></a><span data-ttu-id="f11cb-112">Bouwstenen</span><span class="sxs-lookup"><span data-stu-id="f11cb-112">Building blocks</span></span>
+<span data-ttu-id="f11cb-113">In het financiële rapport van het inkomensoverzicht worden de volgende bouwstenen gebruikt.</span><span class="sxs-lookup"><span data-stu-id="f11cb-113">The income statement financial report uses the following building blocks.</span></span>
 
-| Standaardrapport             | Rijdefinitie                     | Kolomdefinitie          |
+| <span data-ttu-id="f11cb-114">Standaardrapport</span><span class="sxs-lookup"><span data-stu-id="f11cb-114">Default report</span></span>             | <span data-ttu-id="f11cb-115">Rijdefinitie</span><span class="sxs-lookup"><span data-stu-id="f11cb-115">Row definition</span></span>                     | <span data-ttu-id="f11cb-116">Kolomdefinitie</span><span class="sxs-lookup"><span data-stu-id="f11cb-116">Column definition</span></span>          |
 |----------------------------|------------------------------------|----------------------------|
-| Inkomensoverzicht: standaard | Samengevat inkomensoverzicht: standaard | Periodiek en jaar tot heden: standaard |
+| <span data-ttu-id="f11cb-117">Inkomensoverzicht: standaard</span><span class="sxs-lookup"><span data-stu-id="f11cb-117">Income Statement - Default</span></span> | <span data-ttu-id="f11cb-118">Samengevat inkomensoverzicht: standaard</span><span class="sxs-lookup"><span data-stu-id="f11cb-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="f11cb-119">Periodiek en jaar tot heden: standaard</span><span class="sxs-lookup"><span data-stu-id="f11cb-119">Periodic and YTD - Default</span></span> |
 
-### <a name="row-definition"></a>Rijdefinitie
+### <a name="row-definition"></a><span data-ttu-id="f11cb-120">Rijdefinitie</span><span class="sxs-lookup"><span data-stu-id="f11cb-120">Row definition</span></span>
 
-De rijdefinitie, Samengevat inkomensoverzicht: standaard, bevat een sectie voor elk onderdeel van een traditioneel inkomensoverzicht. De dimensie Categorie van hoofdrekening wordt gebruikt om deze rijdefinitie te maken. Zo kan iedereen het rapport genereren zonder wijzigingen te hoeven aanbrengen.
+<span data-ttu-id="f11cb-121">De rijdefinitie, Samengevat inkomensoverzicht: standaard, bevat een sectie voor elk onderdeel van een traditioneel inkomensoverzicht.</span><span class="sxs-lookup"><span data-stu-id="f11cb-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="f11cb-122">De dimensie Categorie van hoofdrekening wordt gebruikt om deze rijdefinitie te maken.</span><span class="sxs-lookup"><span data-stu-id="f11cb-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="f11cb-123">Zo kan iedereen het rapport genereren zonder wijzigingen te hoeven aanbrengen.</span><span class="sxs-lookup"><span data-stu-id="f11cb-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a>Kolomdefinitie
+### <a name="column-definition"></a><span data-ttu-id="f11cb-124">Kolomdefinitie</span><span class="sxs-lookup"><span data-stu-id="f11cb-124">Column Definition</span></span>
 
-De kolomdefinities bevatten verschillende typen kolommen om verschillende detailniveaus en financiële gegevens te verschaffen.
+<span data-ttu-id="f11cb-125">De kolomdefinities bevatten verschillende typen kolommen om verschillende detailniveaus en financiële gegevens te verschaffen.</span><span class="sxs-lookup"><span data-stu-id="f11cb-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   **Periodiek en jaar tot heden: standaardkolomtypen:**
-    -   **DESC**: de omschrijving van de rijdefinitie
-    -   **FD**: financiële gegevens voor de huidige periode
-    -   **FD**: financiële gegevens voor jaar tot heden
+-   <span data-ttu-id="f11cb-126">**Periodiek en jaar tot heden: standaardkolomtypen:**</span><span class="sxs-lookup"><span data-stu-id="f11cb-126">**Periodic and YTD – Default column types:**</span></span>
+    -   <span data-ttu-id="f11cb-127">**DESC**: de omschrijving van de rijdefinitie</span><span class="sxs-lookup"><span data-stu-id="f11cb-127">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="f11cb-128">**FD**: financiële gegevens voor de huidige periode</span><span class="sxs-lookup"><span data-stu-id="f11cb-128">**FD** – Financial data for the current period</span></span>
+    -   <span data-ttu-id="f11cb-129">**FD**: financiële gegevens voor jaar tot heden</span><span class="sxs-lookup"><span data-stu-id="f11cb-129">**FD** – Financial data for the year to date</span></span>
 
  
 
-<a name="see-also"></a>Zie ook
+<a name="see-also"></a><span data-ttu-id="f11cb-130">Zie ook</span><span class="sxs-lookup"><span data-stu-id="f11cb-130">See also</span></span>
 --------
 
-[Financiële rapportage](financial-reporting-getting-started.md)
+[<span data-ttu-id="f11cb-131">Financiële rapportage</span><span class="sxs-lookup"><span data-stu-id="f11cb-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[Financiële rapporten weergeven](view-financial-reports.md)
+[<span data-ttu-id="f11cb-132">Financiële rapporten weergeven</span><span class="sxs-lookup"><span data-stu-id="f11cb-132">View financial reports</span></span>](view-financial-reports.md)
 
-[Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="f11cb-133">Blog met financiële rapportage van Dynamics</span><span class="sxs-lookup"><span data-stu-id="f11cb-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

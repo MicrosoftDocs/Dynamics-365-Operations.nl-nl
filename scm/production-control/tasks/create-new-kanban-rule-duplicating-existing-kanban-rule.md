@@ -17,30 +17,30 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a2b9e4784f328a921982765ca45f83fe1539ed54
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6bdd79de9f7dd71c3acbfa32c4decbf0b4593798
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Een nieuwe kanbanregel maken door een bestaande kanbanregel te dupliceren
+# <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a><span data-ttu-id="cfc67-103">Een nieuwe kanbanregel maken door een bestaande kanbanregel te dupliceren</span><span class="sxs-lookup"><span data-stu-id="cfc67-103">Create a new kanban rule by duplicating an existing kanban rule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure is gericht op het maken van een kopie van een bestaande kanbanregel. Dit is handig als u nieuwe kanbanregels wilt maken op basis van bestaande kanbanregels. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de procesingenieur of de waardestroombeheerder, want zij bereiden de productie voor een gewijzigde productiestroom of een nieuwe aanvullingsregel voor.
+<span data-ttu-id="cfc67-104">Deze procedure is gericht op het maken van een kopie van een bestaande kanbanregel.</span><span class="sxs-lookup"><span data-stu-id="cfc67-104">This procedure focuses on creating a duplicate of an existing kanban rule.</span></span> <span data-ttu-id="cfc67-105">Dit is handig als u nieuwe kanbanregels wilt maken op basis van bestaande kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="cfc67-105">This is useful if you want to create new kanban rules based on existing kanban rules.</span></span> <span data-ttu-id="cfc67-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="cfc67-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cfc67-107">Deze procedure is bedoeld voor de procesingenieur of de waardestroombeheerder, want zij bereiden de productie voor een gewijzigde productiestroom of een nieuwe aanvullingsregel voor.</span><span class="sxs-lookup"><span data-stu-id="cfc67-107">This procedure is intended for the process engineer or the value stream manager as they prepare production for a changed production flow or a new replenishment rule.</span></span>
 
 
-## <a name="select-a-kanban-rule"></a>Een kanban-regel selecteren
-1. Ga naar Kanbanregels.
-2. Zoek en selecteer de gewenste record in de lijst.
-    * Selecteer kanbanregel 000017 voor Product M0006.  
+## <a name="select-a-kanban-rule"></a><span data-ttu-id="cfc67-108">Een kanban-regel selecteren</span><span class="sxs-lookup"><span data-stu-id="cfc67-108">Select a kanban rule</span></span>
+1. <span data-ttu-id="cfc67-109">Ga naar Kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="cfc67-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="cfc67-110">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="cfc67-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="cfc67-111">Selecteer kanbanregel 000017 voor Product M0006.</span><span class="sxs-lookup"><span data-stu-id="cfc67-111">Select kanban rule 000017 for Product M0006.</span></span>  
 
-## <a name="duplicate-a-kanban-rule"></a>Een kanbanregel kopiëren
-1. Klik op Dubbele kanbanregel.
-    * Wanneer u een kopie maakt van een kanbanregel, is het mogelijk om type, datums, activiteiten en de productselectie te wijzigen. Wijzig het product voor deze procedure in de volgende stap.  
-2. Typ of selecteer een waarde in het veld Product.
-    * Selecteer M0007.  
-3. Klik op OK.
-    * Er is een kopie van kanbanregel 000017 gemaakt.    
+## <a name="duplicate-a-kanban-rule"></a><span data-ttu-id="cfc67-112">Een kanbanregel kopiëren</span><span class="sxs-lookup"><span data-stu-id="cfc67-112">Duplicate a kanban rule</span></span>
+1. <span data-ttu-id="cfc67-113">Klik op Dubbele kanbanregel.</span><span class="sxs-lookup"><span data-stu-id="cfc67-113">Click Duplicate kanban rule.</span></span>
+    * <span data-ttu-id="cfc67-114">Wanneer u een kopie maakt van een kanbanregel, is het mogelijk om type, datums, activiteiten en de productselectie te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="cfc67-114">When duplicating a kanban rule, it is possible to change type, dates, activities, and the product selection.</span></span> <span data-ttu-id="cfc67-115">Wijzig het product voor deze procedure in de volgende stap.</span><span class="sxs-lookup"><span data-stu-id="cfc67-115">Change the product for this procedure in the next step.</span></span>  
+2. <span data-ttu-id="cfc67-116">Typ of selecteer een waarde in het veld Product.</span><span class="sxs-lookup"><span data-stu-id="cfc67-116">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="cfc67-117">Selecteer M0007.</span><span class="sxs-lookup"><span data-stu-id="cfc67-117">Select M0007.</span></span>  
+3. <span data-ttu-id="cfc67-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="cfc67-118">Click OK.</span></span>
+    * <span data-ttu-id="cfc67-119">Er is een kopie van kanbanregel 000017 gemaakt.</span><span class="sxs-lookup"><span data-stu-id="cfc67-119">Note that a duplicate of kanban rule 000017 is created.</span></span>    
 
 

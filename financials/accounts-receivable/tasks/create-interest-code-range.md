@@ -16,39 +16,39 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: fef4db5a3e109aa197d28cc4bbc582c03cf26c15
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-interest-code-with-a-range"></a>Een rentecode met een bereik maken
+# <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="a34b7-103">Een rentecode met een bereik maken</span><span class="sxs-lookup"><span data-stu-id="a34b7-103">Create an interest code with a range</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-U kunt rentecodes instellen om verschillende rentebedragen te berekenen op basis van een waardebereik. Deze procedure toont hoe u een rentecode toevoegt en er een bereik aan toevoegt.
+<span data-ttu-id="a34b7-104">U kunt rentecodes instellen om verschillende rentebedragen te berekenen op basis van een waardebereik.</span><span class="sxs-lookup"><span data-stu-id="a34b7-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="a34b7-105">Deze procedure toont hoe u een rentecode toevoegt en er een bereik aan toevoegt.</span><span class="sxs-lookup"><span data-stu-id="a34b7-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
 
-1. Ga naar Crediteringen en aanmaningen > Rente > Rentecodes instellen.
-2. Klik op Nieuw.
-3. Voer in het veld Rentecode de naam van de rentecode in.
-4. Type in het veld Omschrijving een omschrijving voor de rentecode.
-5. Selecteer Maand.
-6. Vouw de sectie Inkomsten uit.
-7. Vouw de sectie Inkomsten per valuta uit.
-8. Geef in het veld Grootboekboekingsrekening de gewenste waarden op.
-9. Selecteer 'Maanden' in het veld Rente per bereik.
-10. Klik op Toevoegen.
-11. Voer in het veld Omschrijving een omschrijving van deze valuta en dit bereik in.
-12. Klik op Opslaan.
-13. Klik op Bereiken.
-14. Klik op Nieuw.
-15. Voer 0 in als Vanaf waarde en voer vervolgens het rentepercentage per maand in dat wordt gebruikt om de rente te berekenen. In ons voorbeeld is dit 1,5.
-16. Klik op Nieuw.
-17. Voer 4 in voor de volgende Vanaf waarde. Dit is de eerste maand waarin u een nieuw rentebedrag berekent.
-18. Voer het rentepercentage per maand in dat wordt gebruikt om de rente te berekenen vanaf maand 4. In dit voorbeeld is dit 2,0.
-19. Klik op Nieuw.
-20. Voer 7 in voor de volgende Vanaf waarde. Dit is de volgende maand waarin u een nieuw rentebedrag berekent.
-21. Voer het rentepercentage per maand in dat wordt gebruikt om de rente te berekenen vanaf maand 7. In dit voorbeeld is dit 2,5.
-22. Klik op Sluiten om de instelling te beëindigen.
+1. <span data-ttu-id="a34b7-106">Ga naar Crediteringen en aanmaningen > Rente > Rentecodes instellen.</span><span class="sxs-lookup"><span data-stu-id="a34b7-106">Go to Credit and collections > Interest > Set up interest codes.</span></span>
+2. <span data-ttu-id="a34b7-107">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="a34b7-107">Click New.</span></span>
+3. <span data-ttu-id="a34b7-108">Voer in het veld Rentecode de naam van de rentecode in.</span><span class="sxs-lookup"><span data-stu-id="a34b7-108">In the Interest code field, enter the name of the interest code.</span></span>
+4. <span data-ttu-id="a34b7-109">Type in het veld Omschrijving een omschrijving voor de rentecode.</span><span class="sxs-lookup"><span data-stu-id="a34b7-109">In the Description field, enter a description for the interest code.</span></span>
+5. <span data-ttu-id="a34b7-110">Selecteer Maand.</span><span class="sxs-lookup"><span data-stu-id="a34b7-110">Select Month.</span></span>
+6. <span data-ttu-id="a34b7-111">Vouw de sectie Inkomsten uit.</span><span class="sxs-lookup"><span data-stu-id="a34b7-111">Expand the Earnings section.</span></span>
+7. <span data-ttu-id="a34b7-112">Vouw de sectie Inkomsten per valuta uit.</span><span class="sxs-lookup"><span data-stu-id="a34b7-112">Expand the Earnings by currency section.</span></span>
+8. <span data-ttu-id="a34b7-113">Geef in het veld Grootboekboekingsrekening de gewenste waarden op.</span><span class="sxs-lookup"><span data-stu-id="a34b7-113">In the Ledger posting account field, specify the desired values.</span></span>
+9. <span data-ttu-id="a34b7-114">Selecteer 'Maanden' in het veld Rente per bereik.</span><span class="sxs-lookup"><span data-stu-id="a34b7-114">In the Interest by range field, select 'Months'.</span></span>
+10. <span data-ttu-id="a34b7-115">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="a34b7-115">Click Add.</span></span>
+11. <span data-ttu-id="a34b7-116">Voer in het veld Omschrijving een omschrijving van deze valuta en dit bereik in.</span><span class="sxs-lookup"><span data-stu-id="a34b7-116">In the Description field, enter a description for this currency and range.</span></span>
+12. <span data-ttu-id="a34b7-117">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="a34b7-117">Click Save.</span></span>
+13. <span data-ttu-id="a34b7-118">Klik op Bereiken.</span><span class="sxs-lookup"><span data-stu-id="a34b7-118">Click Ranges.</span></span>
+14. <span data-ttu-id="a34b7-119">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="a34b7-119">Click New.</span></span>
+15. <span data-ttu-id="a34b7-120">Voer 0 in als Vanaf waarde en voer vervolgens het rentepercentage per maand in dat wordt gebruikt om de rente te berekenen.</span><span class="sxs-lookup"><span data-stu-id="a34b7-120">Enter the From value as 0 and then enter the interest percent per month that will be used to calculate the interest.</span></span> <span data-ttu-id="a34b7-121">In ons voorbeeld is dit 1,5.</span><span class="sxs-lookup"><span data-stu-id="a34b7-121">For our example, it is 1.5.</span></span>
+16. <span data-ttu-id="a34b7-122">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="a34b7-122">Click New.</span></span>
+17. <span data-ttu-id="a34b7-123">Voer 4 in voor de volgende Vanaf waarde. Dit is de eerste maand waarin u een nieuw rentebedrag berekent.</span><span class="sxs-lookup"><span data-stu-id="a34b7-123">Enter the next From value as 4, which is the first month that you will be calculating a new interest amount.</span></span>
+18. <span data-ttu-id="a34b7-124">Voer het rentepercentage per maand in dat wordt gebruikt om de rente te berekenen vanaf maand 4.</span><span class="sxs-lookup"><span data-stu-id="a34b7-124">Enter the interest percent per month that will be used to calculate the interest starting in month 4.</span></span> <span data-ttu-id="a34b7-125">In dit voorbeeld is dit 2,0.</span><span class="sxs-lookup"><span data-stu-id="a34b7-125">For this example, it is 2.0.</span></span>
+19. <span data-ttu-id="a34b7-126">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="a34b7-126">Click New.</span></span>
+20. <span data-ttu-id="a34b7-127">Voer 7 in voor de volgende Vanaf waarde. Dit is de volgende maand waarin u een nieuw rentebedrag berekent.</span><span class="sxs-lookup"><span data-stu-id="a34b7-127">Enter the next From value as 7, which is the next month that you will be calculating a new interest amount.</span></span>
+21. <span data-ttu-id="a34b7-128">Voer het rentepercentage per maand in dat wordt gebruikt om de rente te berekenen vanaf maand 7.</span><span class="sxs-lookup"><span data-stu-id="a34b7-128">Enter the interest percent per month that will be used to calculate the interest starting in month 7.</span></span> <span data-ttu-id="a34b7-129">In dit voorbeeld is dit 2,5.</span><span class="sxs-lookup"><span data-stu-id="a34b7-129">For this example, it is 2.5.</span></span>
+22. <span data-ttu-id="a34b7-130">Klik op Sluiten om de instelling te beëindigen.</span><span class="sxs-lookup"><span data-stu-id="a34b7-130">Click Close to complete the setup.</span></span>
 
 

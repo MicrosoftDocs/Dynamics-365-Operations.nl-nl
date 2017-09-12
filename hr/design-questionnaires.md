@@ -27,242 +27,229 @@ ms.lasthandoff: 05/25/2017
 
 ---
 
-# Een vragenlijst ontwerpen
-<a id="design-a-questionnaire" class="xliff"></a>
+# <a name="design-a-questionnaire"></a><span data-ttu-id="77313-105">Een vragenlijst ontwerpen</span><span class="sxs-lookup"><span data-stu-id="77313-105">Design a questionnaire</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-In dit onderwerp wordt het proces om een vragenlijst te maken beschreven. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
+<span data-ttu-id="77313-106">In dit onderwerp wordt het proces om een vragenlijst te maken beschreven.</span><span class="sxs-lookup"><span data-stu-id="77313-106">This topic describes the process for creating a questionnaire.</span></span> <span data-ttu-id="77313-107">Als eerste stap ontwerpt u de vragenlijst</span><span class="sxs-lookup"><span data-stu-id="77313-107">The first step is to design the questionnaire.</span></span> <span data-ttu-id="77313-108">Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd.</span><span class="sxs-lookup"><span data-stu-id="77313-108">When you design a questionnaire, you not only write the questions and answers, but also create the structure that enables answers to be recorded and tabulated.</span></span> 
 
-Door een vragenlijst zorgvuldig te ontwerpen, verhoogt u de kwaliteit van de gegevens die u verzamelt. Door een zorgvuldig ontwerp kunt u op het juiste moment beter de gewenste opties selecteren voor een vragenlijst. De volgende punten kunnen u helpen bij het plannen van een effectieve vragenlijst:
+<span data-ttu-id="77313-109">Door een vragenlijst zorgvuldig te ontwerpen, verhoogt u de kwaliteit van de gegevens die u verzamelt.</span><span class="sxs-lookup"><span data-stu-id="77313-109">A carefully designed questionnaire can help increase the quality of the data that you collect.</span></span> <span data-ttu-id="77313-110">Door een zorgvuldig ontwerp kunt u op het juiste moment beter de gewenste opties selecteren voor een vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-110">Through careful design, you can better select the appropriate options at the appropriate time for a questionnaire.</span></span> <span data-ttu-id="77313-111">De volgende punten kunnen u helpen bij het plannen van een effectieve vragenlijst:</span><span class="sxs-lookup"><span data-stu-id="77313-111">The following points can help you plan an effective questionnaire:</span></span>
 
--   Definieer duidelijk het doel van de vragenlijst om te zorgen dat de vragen het doel ondersteunen.
--   Bepaal welke afzonderlijke persoon of groep mensen de vragenlijst moet invullen.
--   Schrijf vragen die worden weergegeven op de vragenlijst en neem antwoordopties op, indien van toepassing.
--   Zorg ervoor dat de vragenlijst logisch is opgebouwd, zodat de respondenten geïnteresseerd blijven.
--   Plaats vragen en antwoorden in de volgorde waarin ze moeten verschijnen voor respondenten.
--   Kies hoe de resultaten moeten worden geëvalueerd, indien van toepassing.
--   Bepaal of u extra functies nodig hebt. Bep[aal bijvoorbeeld of en hoe resultaten moeten worden gecategoriseerd, of een tijdslimiet is vereist en of alle vragen verplicht zijn.
+-   <span data-ttu-id="77313-112">Definieer duidelijk het doel van de vragenlijst om te zorgen dat de vragen het doel ondersteunen.</span><span class="sxs-lookup"><span data-stu-id="77313-112">Clearly define the purpose of the questionnaire to help guarantee that the questions support the purpose.</span></span>
+-   <span data-ttu-id="77313-113">Bepaal welke afzonderlijke persoon of groep mensen de vragenlijst moet invullen.</span><span class="sxs-lookup"><span data-stu-id="77313-113">Determine the individual person or the group of people who should complete the questionnaire.</span></span>
+-   <span data-ttu-id="77313-114">Schrijf vragen die worden weergegeven op de vragenlijst en neem antwoordopties op, indien van toepassing.</span><span class="sxs-lookup"><span data-stu-id="77313-114">Write questions that will appear on the questionnaire, and include answer choices, if applicable.</span></span>
+-   <span data-ttu-id="77313-115">Zorg ervoor dat de vragenlijst logisch is opgebouwd, zodat de respondenten geïnteresseerd blijven.</span><span class="sxs-lookup"><span data-stu-id="77313-115">Be sure that the questionnaire flows logically, so that respondents remain engaged.</span></span>
+-   <span data-ttu-id="77313-116">Plaats vragen en antwoorden in de volgorde waarin ze moeten verschijnen voor respondenten.</span><span class="sxs-lookup"><span data-stu-id="77313-116">Arrange questions and answers in the order that they should be presented to respondents in.</span></span>
+-   <span data-ttu-id="77313-117">Kies hoe de resultaten moeten worden geëvalueerd, indien van toepassing.</span><span class="sxs-lookup"><span data-stu-id="77313-117">Decide how the results should be evaluated, if applicable.</span></span>
+-   <span data-ttu-id="77313-118">Bepaal of u extra functies nodig hebt.</span><span class="sxs-lookup"><span data-stu-id="77313-118">Decide whether you’ll need additional features.</span></span> <span data-ttu-id="77313-119">Bep[aal bijvoorbeeld of en hoe resultaten moeten worden gecategoriseerd, of een tijdslimiet is vereist en of alle vragen verplicht zijn.</span><span class="sxs-lookup"><span data-stu-id="77313-119">For example, determine whether and how results should be categorized, whether a time limit is required, or whether all the questions will be mandatory.</span></span>
 
-De ontwerpfase bevat vier categorieën van taken die u in deze volgorde moet voltooien:
+<span data-ttu-id="77313-120">De ontwerpfase bevat vier categorieën van taken die u in deze volgorde moet voltooien:</span><span class="sxs-lookup"><span data-stu-id="77313-120">The design phase includes four categories of tasks that you must complete in this order:</span></span>
 
-1.  Stel vereisten in, indien nodig.
-2.  Stel antwoordgroepen en antwoorden in, indien van toepassing.
-3.  Stel vragen en de koppeling ervan met de antwoordgroepen in.
-4.  Stel de vragenlijst zelf in en koppel er vragen aan.
+1.  <span data-ttu-id="77313-121">Stel vereisten in, indien nodig.</span><span class="sxs-lookup"><span data-stu-id="77313-121">Set up prerequisites, as required.</span></span>
+2.  <span data-ttu-id="77313-122">Stel antwoordgroepen en antwoorden in, indien van toepassing.</span><span class="sxs-lookup"><span data-stu-id="77313-122">Set up answer groups and answers, if applicable.</span></span>
+3.  <span data-ttu-id="77313-123">Stel vragen en de koppeling ervan met de antwoordgroepen in.</span><span class="sxs-lookup"><span data-stu-id="77313-123">Set up questions and their association with the answer groups.</span></span>
+4.  <span data-ttu-id="77313-124">Stel de vragenlijst zelf in en koppel er vragen aan.</span><span class="sxs-lookup"><span data-stu-id="77313-124">Set up the questionnaire itself, and attach questions to it.</span></span>
 
-## Vereisten
-<a id="prerequisites" class="xliff"></a>
-Voordat u vragenlijsten en vragen kunt maken, moet u de voorwaarden opgeven. Echter, niet alle voorwaarden zijn vereist voor volledige functionaliteit.
+## <a name="prerequisites"></a><span data-ttu-id="77313-125">Vereisten</span><span class="sxs-lookup"><span data-stu-id="77313-125">Prerequisites</span></span>
+<span data-ttu-id="77313-126">Voordat u vragenlijsten en vragen kunt maken, moet u de voorwaarden opgeven.</span><span class="sxs-lookup"><span data-stu-id="77313-126">Some prerequisites must be in place before you can create questionnaires, answers, and questions.</span></span> <span data-ttu-id="77313-127">Echter, niet alle voorwaarden zijn vereist voor volledige functionaliteit.</span><span class="sxs-lookup"><span data-stu-id="77313-127">However, not all prerequisites are required for full functionality.</span></span>
 
-### Vereist
-<a id="required" class="xliff"></a>
+### <a name="required"></a><span data-ttu-id="77313-128">Vereist</span><span class="sxs-lookup"><span data-stu-id="77313-128">Required</span></span>
 
-| Vereiste        | Beschrijving                |
+| <span data-ttu-id="77313-129">Vereiste</span><span class="sxs-lookup"><span data-stu-id="77313-129">Prerequisite</span></span>        | <span data-ttu-id="77313-130">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="77313-130">Description</span></span>                |
 |---------------------|----------------------------|
-| Typen vragenlijst | Vragenlijsten categoriseren. |
-| Vraagtypen      | Vragen categoriseren.      |
+| <span data-ttu-id="77313-131">Typen vragenlijst</span><span class="sxs-lookup"><span data-stu-id="77313-131">Questionnaire types</span></span> | <span data-ttu-id="77313-132">Vragenlijsten categoriseren.</span><span class="sxs-lookup"><span data-stu-id="77313-132">Categorize questionnaires.</span></span> |
+| <span data-ttu-id="77313-133">Vraagtypen</span><span class="sxs-lookup"><span data-stu-id="77313-133">Question types</span></span>      | <span data-ttu-id="77313-134">Vragen categoriseren.</span><span class="sxs-lookup"><span data-stu-id="77313-134">Categorize questions.</span></span>      |
 
-### Optioneel
-<a id="optional" class="xliff"></a>
+### <a name="optional"></a><span data-ttu-id="77313-135">Optioneel</span><span class="sxs-lookup"><span data-stu-id="77313-135">Optional</span></span>
 
-| Vereiste             | Beschrijving                                                    |
+| <span data-ttu-id="77313-136">Vereiste</span><span class="sxs-lookup"><span data-stu-id="77313-136">Prerequisite</span></span>             | <span data-ttu-id="77313-137">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="77313-137">Description</span></span>                                                    |
 |--------------------------|----------------------------------------------------------------|
-| Vragenlijstparameters | Basisbesturingselementen en standaardinstellingen voor vragenlijsten wijzigen. |
+| <span data-ttu-id="77313-138">Vragenlijstparameters</span><span class="sxs-lookup"><span data-stu-id="77313-138">Questionnaire parameters</span></span> | <span data-ttu-id="77313-139">Basisbesturingselementen en standaardinstellingen voor vragenlijsten wijzigen.</span><span class="sxs-lookup"><span data-stu-id="77313-139">Modify basic controls and default settings for questionnaires.</span></span> |
 
-### Typen vragenlijst
-<a id="questionnaire-types" class="xliff"></a>
+### <a name="questionnaire-types"></a><span data-ttu-id="77313-140">Typen vragenlijst</span><span class="sxs-lookup"><span data-stu-id="77313-140">Questionnaire types</span></span>
 
-Vragenlijsttypen zijn vereist en moeten worden toegewezen bij het maken van een vragenlijst. Met deze vragenlijsttypen kunt u vragenlijsten eenvoudiger beheren en classificeren. Gebruik vragenlijsttypen om vragenlijsten te classificeren en ze van elkaar te onderscheiden. Als u bijvoorbeeld meerdere vragenlijsten kunt selecteren, kunt u ze filteren op type om zo een specifieke vragenlijst gemakkelijker terug te kunnen vinden. Hieronder staan enkele voorbeelden van vragenlijsttypen:
+<span data-ttu-id="77313-141">Vragenlijsttypen zijn vereist en moeten worden toegewezen bij het maken van een vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-141">Questionnaire types are required and must be assigned when you create a questionnaire.</span></span> <span data-ttu-id="77313-142">Met deze vragenlijsttypen kunt u vragenlijsten eenvoudiger beheren en classificeren.</span><span class="sxs-lookup"><span data-stu-id="77313-142">Questionnaire types help you manage and classify questionnaires more easily.</span></span> <span data-ttu-id="77313-143">Gebruik vragenlijsttypen om vragenlijsten te classificeren en ze van elkaar te onderscheiden.</span><span class="sxs-lookup"><span data-stu-id="77313-143">Use questionnaire types to classify questionnaires and differentiate them from each other.</span></span> <span data-ttu-id="77313-144">Als u bijvoorbeeld meerdere vragenlijsten kunt selecteren, kunt u ze filteren op type om zo een specifieke vragenlijst gemakkelijker terug te kunnen vinden.</span><span class="sxs-lookup"><span data-stu-id="77313-144">For example, if you have multiple questionnaires to select from, you can filter them by type to help make it easier to find a particular questionnaire.</span></span> <span data-ttu-id="77313-145">Hieronder staan enkele voorbeelden van vragenlijsttypen:</span><span class="sxs-lookup"><span data-stu-id="77313-145">Here are some examples of questionnaire types:</span></span>
 
--   Personeelontwikkeling
--   Klantenquêtes
--   Controleproces
+-   <span data-ttu-id="77313-146">Personeelontwikkeling</span><span class="sxs-lookup"><span data-stu-id="77313-146">Human resource development</span></span>
+-   <span data-ttu-id="77313-147">Klantenquêtes</span><span class="sxs-lookup"><span data-stu-id="77313-147">Customer surveys</span></span>
+-   <span data-ttu-id="77313-148">Controleproces</span><span class="sxs-lookup"><span data-stu-id="77313-148">Review process</span></span>
 
-### Vraagtypen
-<a id="question-types" class="xliff"></a>
+### <a name="question-types"></a><span data-ttu-id="77313-149">Vraagtypen</span><span class="sxs-lookup"><span data-stu-id="77313-149">Question types</span></span>
 
-Vraagtypen zijn vereist en moeten worden toegewezen bij het maken van een vraag. 
+<span data-ttu-id="77313-150">Vraagtypen zijn vereist en moeten worden toegewezen bij het maken van een vraag.</span><span class="sxs-lookup"><span data-stu-id="77313-150">Question types are required and must be assigned when you create a question.</span></span> 
 
-Gebruik vraagtypen om vragen voor rapportage te categoriseren. De vraagtypen maken het eenvoudiger om ook vragen te zoeken, omdat u typen kunt gebruiken als filters op de pagina **Vragen**. Hieronder staan enkele voorbeelden van vraagtypen:
+<span data-ttu-id="77313-151">Gebruik vraagtypen om vragen voor rapportage te categoriseren.</span><span class="sxs-lookup"><span data-stu-id="77313-151">Use question types to categorize questions for reporting.</span></span> <span data-ttu-id="77313-152">De vraagtypen maken het eenvoudiger om ook vragen te zoeken, omdat u typen kunt gebruiken als filters op de pagina **Vragen**.</span><span class="sxs-lookup"><span data-stu-id="77313-152">Question types also make it easier to find questions, because you can use types as filters on the **Questions** page.</span></span> <span data-ttu-id="77313-153">Hieronder staan enkele voorbeelden van vraagtypen:</span><span class="sxs-lookup"><span data-stu-id="77313-153">Here are some examples of question types:</span></span>
 
--   Personeelsbeleid
--   Management
--   Cursusevaluatie
+-   <span data-ttu-id="77313-154">Personeelsbeleid</span><span class="sxs-lookup"><span data-stu-id="77313-154">Human resource</span></span>
+-   <span data-ttu-id="77313-155">Management</span><span class="sxs-lookup"><span data-stu-id="77313-155">Managing business</span></span>
+-   <span data-ttu-id="77313-156">Cursusevaluatie</span><span class="sxs-lookup"><span data-stu-id="77313-156">Course evaluation</span></span>
 
-### Vragenlijstparameters
-<a id="questionnaire-parameters" class="xliff"></a>
+### <a name="questionnaire-parameters"></a><span data-ttu-id="77313-157">Vragenlijstparameters</span><span class="sxs-lookup"><span data-stu-id="77313-157">Questionnaire parameters</span></span>
 
-Vragenlijstparameters zijn optioneel. U kunt ze ook niet gebruiken, afhankelijk van de behoeften van uw bedrijf. 
+<span data-ttu-id="77313-158">Vragenlijstparameters zijn optioneel.</span><span class="sxs-lookup"><span data-stu-id="77313-158">Questionnaire parameters are optional.</span></span> <span data-ttu-id="77313-159">U kunt ze ook niet gebruiken, afhankelijk van de behoeften van uw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="77313-159">You might not use them, depending on your company’s requirements.</span></span> 
 
-Vragenlijstparameters bepalen de anonimiteit, nummerreekscodes en verwijzingstypen van een vragenlijst. Wanneer een organisatie een vragenlijst distribueert, kan de optie om respondenten toe te staan anoniem te blijven problematisch zijn. 
+<span data-ttu-id="77313-160">Vragenlijstparameters bepalen de anonimiteit, nummerreekscodes en verwijzingstypen van een vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-160">Questionnaire parameters define the anonymity, number sequence codes, and reference types of a questionnaire.</span></span> <span data-ttu-id="77313-161">Wanneer een organisatie een vragenlijst distribueert, kan de optie om respondenten toe te staan anoniem te blijven problematisch zijn.</span><span class="sxs-lookup"><span data-stu-id="77313-161">When an organization distributes a questionnaire, the option to allow respondents to remain anonymous might be of concern.</span></span> 
 
-De nummerreekscodes worden gebruikt voor het ordenen van vragen en antwoorden. Op basis van deze nummerreekscodes worden waarden automatisch toegewezen aan artikelen. 
+<span data-ttu-id="77313-162">De nummerreekscodes worden gebruikt voor het ordenen van vragen en antwoorden.</span><span class="sxs-lookup"><span data-stu-id="77313-162">The number sequence codes are used to organize questions and answers.</span></span> <span data-ttu-id="77313-163">Op basis van deze nummerreekscodes worden waarden automatisch toegewezen aan artikelen.</span><span class="sxs-lookup"><span data-stu-id="77313-163">Based on these number sequence codes, values are automatically assigned to items.</span></span> 
 
-Definieer eerst alle parameters voordat u uw gegevens gaat maken. U kunt de instellingen van de vragenlijst op elk gewenst moment wijzigen.
+<span data-ttu-id="77313-164">Definieer eerst alle parameters voordat u uw gegevens gaat maken.</span><span class="sxs-lookup"><span data-stu-id="77313-164">You should define all parameters before you begin to create your data.</span></span> <span data-ttu-id="77313-165">U kunt de instellingen van de vragenlijst op elk gewenst moment wijzigen.</span><span class="sxs-lookup"><span data-stu-id="77313-165">You can modify the questionnaire parameter settings at any time.</span></span>
 
-## Vragenlijstonderdelen
-<a id="questionnaire-components" class="xliff"></a>
-Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf. U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst. 
+## <a name="questionnaire-components"></a><span data-ttu-id="77313-166">Vragenlijstonderdelen</span><span class="sxs-lookup"><span data-stu-id="77313-166">Questionnaire components</span></span>
+<span data-ttu-id="77313-167">Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf.</span><span class="sxs-lookup"><span data-stu-id="77313-167">Questionnaires comprise three main elements: answer groups that contain the answers for multiple choice questions, questions, and the questionnaire itself.</span></span> <span data-ttu-id="77313-168">U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen.</span><span class="sxs-lookup"><span data-stu-id="77313-168">You can optionally group the questions on a questionnaire into result groups.</span></span> <span data-ttu-id="77313-169">Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-169">Result groups let you categorize questions and provide further analysis on the questionnaire.</span></span> 
 
-[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+<span data-ttu-id="77313-170">[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)</span><span class="sxs-lookup"><span data-stu-id="77313-170">[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)</span></span>
 
-### Antwoordgroepen en antwoorden
-<a id="answer-groups-and-answers" class="xliff"></a>
+### <a name="answer-groups-and-answers"></a><span data-ttu-id="77313-171">Antwoordgroepen en antwoorden</span><span class="sxs-lookup"><span data-stu-id="77313-171">Answer groups and answers</span></span>
 
-Er zijn twee manieren waarop respondenten een vraag kunnen beantwoorden, afhankelijk van het onderwerp van de vraag:
+<span data-ttu-id="77313-172">Er zijn twee manieren waarop respondenten een vraag kunnen beantwoorden, afhankelijk van het onderwerp van de vraag:</span><span class="sxs-lookup"><span data-stu-id="77313-172">Respondents can answer a question in two ways, depending on the subject of the question:</span></span>
 
--   De open vragen vereisen geen antwoorden in een specifieke indeling. Respondenten kunnen een antwoord typen als tekst, een getal, een datum of een tijd. Bij deze vragen moeten respondenten meestal subjectieve informatie geven in hun antwoord, bijvoorbeeld een mening, beschrijving, beoordeling of schatting.
--   Meerkeuzevragen vereisen dat de respondent een antwoord in een lijst van mogelijke juiste antwoorden selecteert.
+-   <span data-ttu-id="77313-173">De open vragen vereisen geen antwoorden in een specifieke indeling.</span><span class="sxs-lookup"><span data-stu-id="77313-173">Open-ended questions don’t require responses in a specific format.</span></span> <span data-ttu-id="77313-174">Respondenten kunnen een antwoord typen als tekst, een getal, een datum of een tijd.</span><span class="sxs-lookup"><span data-stu-id="77313-174">Respondents can type a response as text, a number, a date, or a time.</span></span> <span data-ttu-id="77313-175">Bij deze vragen moeten respondenten meestal subjectieve informatie geven in hun antwoord, bijvoorbeeld een mening, beschrijving, beoordeling of schatting.</span><span class="sxs-lookup"><span data-stu-id="77313-175">These questions typically require that the respondents provide subjective information in their answers, such as an opinion, description, evaluation, or estimate.</span></span>
+-   <span data-ttu-id="77313-176">Meerkeuzevragen vereisen dat de respondent een antwoord in een lijst van mogelijke juiste antwoorden selecteert.</span><span class="sxs-lookup"><span data-stu-id="77313-176">Closed-ended questions require that the respondent select an answer in a list of possible correct answers.</span></span>
 
-Om een lijst van mogelijke antwoorden voor meerkeuzevragen te geven, kunt u antwoorden op de pagina **Antwoordgroepen** maken. 
+<span data-ttu-id="77313-177">Om een lijst van mogelijke antwoorden voor meerkeuzevragen te geven, kunt u antwoorden op de pagina **Antwoordgroepen** maken.</span><span class="sxs-lookup"><span data-stu-id="77313-177">To provide a list of possible answers for closed-ended questions, you can create answers on the **Answer groups** page.</span></span> 
 
-Antwoordgroepen en antwoorden zijn onderdelen van de hoeveelheid informatie waarvan de vragen worden gemaakt. Nadat u een antwoordgroep hebt gemaakt, kunt u de antwoordgroep aan een vraag koppelen in het veld **Antwoordgroep** op de pagina **Vragen**. 
+<span data-ttu-id="77313-178">Antwoordgroepen en antwoorden zijn onderdelen van de hoeveelheid informatie waarvan de vragen worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="77313-178">Answer groups and answers are components that make up the main body of information that questions are created from.</span></span> <span data-ttu-id="77313-179">Nadat u een antwoordgroep hebt gemaakt, kunt u de antwoordgroep aan een vraag koppelen in het veld **Antwoordgroep** op de pagina **Vragen**.</span><span class="sxs-lookup"><span data-stu-id="77313-179">After you create an answer group, you can associate the answer group with a question in the **Answer group** field on the **Questions** page.</span></span> 
 
-U kunt een antwoordgroep gebruiken voor meer dan één vraag in dezelfde vragenlijst en in meer dan één vragenlijst. 
+<span data-ttu-id="77313-180">U kunt een antwoordgroep gebruiken voor meer dan één vraag in dezelfde vragenlijst en in meer dan één vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-180">An answer group can be used for more than one question on the same questionnaire, and can also be used on more than one questionnaire.</span></span> 
 
->**Opmerking:** als u antwoordtekst in antwoordgroepen aanpast die al is gebruikt op ingevulde vragenlijsten, kunnen de gegevens moeilijk te beoordelen worden, en zijn de vragenlijstresultaten mogelijk niet langer meer geldig. Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen. U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.
+><span data-ttu-id="77313-181">**Opmerking:** als u antwoordtekst in antwoordgroepen aanpast die al is gebruikt op ingevulde vragenlijsten, kunnen de gegevens moeilijk te beoordelen worden, en zijn de vragenlijstresultaten mogelijk niet langer meer geldig.</span><span class="sxs-lookup"><span data-stu-id="77313-181">**Note** If you modify answer text in answer groups that have already been used on completed questionnaires, data can become difficult to evaluate, and questionnaire results might no longer be valid.</span></span> <span data-ttu-id="77313-182">Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="77313-182">If you must change an answer group, consider creating a new answer group instead of changing an existing one.</span></span> <span data-ttu-id="77313-183">U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.</span><span class="sxs-lookup"><span data-stu-id="77313-183">You can't delete answer groups that are attached to a question or answer, or that have been answered.</span></span>
 
-### Vragen
-<a id="questions" class="xliff"></a>
+### <a name="questions"></a><span data-ttu-id="77313-184">Vragen</span><span class="sxs-lookup"><span data-stu-id="77313-184">Questions</span></span>
 
-Een vragenlijst moet vragen bevatten. Vragen kan open of meerkeuze zijn.
+<span data-ttu-id="77313-185">Een vragenlijst moet vragen bevatten.</span><span class="sxs-lookup"><span data-stu-id="77313-185">A questionnaire must contain questions.</span></span> <span data-ttu-id="77313-186">Vragen kan open of meerkeuze zijn.</span><span class="sxs-lookup"><span data-stu-id="77313-186">Questions can be either open-ended or closed-ended.</span></span>
 
--   Antwoorden op open vragen worden niet geregeld en respondenten kunnen hun antwoorden typen.
--   Bij meerkeuzevragen is een lijst met vooraf gedefinieerde antwoordopties nodig en de vragen kunnen worden gestructureerd zodat een respondent een of meer antwoorden kan selecteren. De vragen moeten zijn ontworpen om specifieke informatie van een respondent te onthullen en moeten aan een antwoordgroep zijn gekoppeld die de antwoordopties voor elke meerkeuzevraag bevat. 
-    >**Opmerking** Voordat u meerkeuzevragen kunt instellen, moet u antwoordgroepen en antwoorden maken.
+-   <span data-ttu-id="77313-187">Antwoorden op open vragen worden niet geregeld en respondenten kunnen hun antwoorden typen.</span><span class="sxs-lookup"><span data-stu-id="77313-187">The responses to open-ended questions aren't controlled, and respondents can type their answers.</span></span>
+-   <span data-ttu-id="77313-188">Bij meerkeuzevragen is een lijst met vooraf gedefinieerde antwoordopties nodig en de vragen kunnen worden gestructureerd zodat een respondent een of meer antwoorden kan selecteren.</span><span class="sxs-lookup"><span data-stu-id="77313-188">Closed-ended questions require a list of predefined response options, and the questions can be structured to let a respondent select multiple responses.</span></span> <span data-ttu-id="77313-189">De vragen moeten zijn ontworpen om specifieke informatie van een respondent te onthullen en moeten aan een antwoordgroep zijn gekoppeld die de antwoordopties voor elke meerkeuzevraag bevat.</span><span class="sxs-lookup"><span data-stu-id="77313-189">Questions should be designed to elicit specific information from a respondent and must be linked to an answer group that provides the response options for each closed-ended question.</span></span> 
+    ><span data-ttu-id="77313-190">**Opmerking** Voordat u meerkeuzevragen kunt instellen, moet u antwoordgroepen en antwoorden maken.</span><span class="sxs-lookup"><span data-stu-id="77313-190">**Note** Before you can set up closed-ended questions, you must create answer groups and answers.</span></span>
 
-Vragen kunnen worden gerangschikt in een voorwaardelijke vragenhiërarchie, zodat secundaire vragen afhankelijk zijn van het antwoord dat de respondent op de vorige vraag heeft geselecteerd. U kunt de vragen eerst schrijven en ze vervolgens later in een hiërarchie ordenen.
+<span data-ttu-id="77313-191">Vragen kunnen worden gerangschikt in een voorwaardelijke vragenhiërarchie, zodat secundaire vragen afhankelijk zijn van het antwoord dat de respondent op de vorige vraag heeft geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="77313-191">Questions can be arranged in a conditional question hierarchy, so that secondary questions depend on the answer that the respondent selects for the previous question.</span></span> <span data-ttu-id="77313-192">U kunt de vragen eerst schrijven en ze vervolgens later in een hiërarchie ordenen.</span><span class="sxs-lookup"><span data-stu-id="77313-192">You can write the questions first and then arrange them into a hierarchy later.</span></span>
 
-## Vragenlijsten instellen
-<a id="setting-up-questionnaires" class="xliff"></a>
->**Opmerking**
->  Voordat u een vragenlijst kunt instellen, moet u vragen, antwoorden en vereisten instellen. 
+## <a name="setting-up-questionnaires"></a><span data-ttu-id="77313-193">Vragenlijsten instellen</span><span class="sxs-lookup"><span data-stu-id="77313-193">Setting up questionnaires</span></span>
+><span data-ttu-id="77313-194">**Opmerking**
+>  Voordat u een vragenlijst kunt instellen, moet u vragen, antwoorden en vereisten instellen.</span><span class="sxs-lookup"><span data-stu-id="77313-194">**Note**
+ Before you can set up a questionnaire, you must set up answers, questions, and prerequisites.</span></span> 
 
-Voor elke vragenlijst kunt u de volgende informatie opgeven:
+<span data-ttu-id="77313-195">Voor elke vragenlijst kunt u de volgende informatie opgeven:</span><span class="sxs-lookup"><span data-stu-id="77313-195">For each questionnaire, you can specify the following information:</span></span>
 
--   De totale tijd of tijdlimiet voor het beantwoorden van verplichte vragen.
--   Of alle vragen verplicht zijn.
--   Of u punten berekent in een vragenlijst.
--   Hoe u resultaten categoriseert.
--   Of de vragenlijst voor een beperkte set van respondenten beschikbaar is.
--   Of een formuliersjabloon moet worden weergegeven als achtergrond voor elke pagina van de vragenlijst.
--   Of extra notities vereist zijn om de bedoeling van de vragenlijst te verduidelijken voor de respondenten.
--   Of u vragen wilt weergeven in een vaste volgorde of dat u ze willekeurig uit een groep wilt selecteren.
--   Of vragen alleen worden gesteld als specifieke reacties op eerdere antwoorden zijn gegeven.
+-   <span data-ttu-id="77313-196">De totale tijd of tijdlimiet voor het beantwoorden van verplichte vragen.</span><span class="sxs-lookup"><span data-stu-id="77313-196">The total time or time limit to answer mandatory questions.</span></span>
+-   <span data-ttu-id="77313-197">Of alle vragen verplicht zijn.</span><span class="sxs-lookup"><span data-stu-id="77313-197">Whether all questions are mandatory.</span></span>
+-   <span data-ttu-id="77313-198">Of u punten berekent in een vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-198">Whether to calculate points on a questionnaire.</span></span>
+-   <span data-ttu-id="77313-199">Hoe u resultaten categoriseert.</span><span class="sxs-lookup"><span data-stu-id="77313-199">How to categorize results.</span></span>
+-   <span data-ttu-id="77313-200">Of de vragenlijst voor een beperkte set van respondenten beschikbaar is.</span><span class="sxs-lookup"><span data-stu-id="77313-200">Whether the questionnaire will be available to a restricted set of respondents.</span></span>
+-   <span data-ttu-id="77313-201">Of een formuliersjabloon moet worden weergegeven als achtergrond voor elke pagina van de vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-201">Whether a form template should be displayed as a background behind each page of the questionnaire.</span></span>
+-   <span data-ttu-id="77313-202">Of extra notities vereist zijn om de bedoeling van de vragenlijst te verduidelijken voor de respondenten.</span><span class="sxs-lookup"><span data-stu-id="77313-202">Whether additional notes are required in order to clarify the intent of the questionnaire for the respondents.</span></span>
+-   <span data-ttu-id="77313-203">Of u vragen wilt weergeven in een vaste volgorde of dat u ze willekeurig uit een groep wilt selecteren.</span><span class="sxs-lookup"><span data-stu-id="77313-203">Whether to display questions in a fixed order or randomly select them from a pool.</span></span>
+-   <span data-ttu-id="77313-204">Of vragen alleen worden gesteld als specifieke reacties op eerdere antwoorden zijn gegeven.</span><span class="sxs-lookup"><span data-stu-id="77313-204">Whether questions will be asked only if specific responses are given for previous answers.</span></span>
 
-### Een vragenlijst opstellen
-<a id="set-up-a-questionnaire" class="xliff"></a>
+### <a name="set-up-a-questionnaire"></a><span data-ttu-id="77313-205">Een vragenlijst opstellen</span><span class="sxs-lookup"><span data-stu-id="77313-205">Set up a questionnaire</span></span>
 
-De eerste pagina die u gebruikt om een vragenlijst in te stellen, is de pagina **Vragenlijsten**. Om een vragenlijst in te stellen voert u de volgende taken in deze volgorde uit:
+<span data-ttu-id="77313-206">De eerste pagina die u gebruikt om een vragenlijst in te stellen, is de pagina **Vragenlijsten**.</span><span class="sxs-lookup"><span data-stu-id="77313-206">The primary page that you use to set up a questionnaire is the **Questionnaires** page.</span></span> <span data-ttu-id="77313-207">Om een vragenlijst in te stellen voert u de volgende taken in deze volgorde uit:</span><span class="sxs-lookup"><span data-stu-id="77313-207">To set up a questionnaire, complete the following tasks in order:</span></span>
 
-1.  Een vragenlijst maken.
-2.  Volg één van deze stappen om vragen in de vragenlijst te koppelen:
-    -   Als u resultaatgroepen gebruikt, kunt u vragen aan een vragenlijst toevoegen door resultaatgroepen te gebruiken. Stel eerst de resultaatgroepen voor de vragenlijst in en voegt vervolgens vragen aan de resultaatgroepen toe.
-    -   Als u geen gebruik wilt maken van resultaatgroepen, kunt u vragen rechtstreeks aan de vragenlijst koppelen.
+1.  <span data-ttu-id="77313-208">Een vragenlijst maken.</span><span class="sxs-lookup"><span data-stu-id="77313-208">Create a questionnaire.</span></span>
+2.  <span data-ttu-id="77313-209">Volg één van deze stappen om vragen in de vragenlijst te koppelen:</span><span class="sxs-lookup"><span data-stu-id="77313-209">Follow one of these steps to attach questions to the questionnaire:</span></span>
+    -   <span data-ttu-id="77313-210">Als u resultaatgroepen gebruikt, kunt u vragen aan een vragenlijst toevoegen door resultaatgroepen te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="77313-210">If you're using result groups, you can attach questions to a questionnaire by using result groups.</span></span> <span data-ttu-id="77313-211">Stel eerst de resultaatgroepen voor de vragenlijst in en voegt vervolgens vragen aan de resultaatgroepen toe.</span><span class="sxs-lookup"><span data-stu-id="77313-211">First set up the result groups for the questionnaire, and then add questions to the result groups.</span></span>
+    -   <span data-ttu-id="77313-212">Als u geen gebruik wilt maken van resultaatgroepen, kunt u vragen rechtstreeks aan de vragenlijst koppelen.</span><span class="sxs-lookup"><span data-stu-id="77313-212">If you aren't using result groups, you can attach questions directly to the questionnaire.</span></span>
 
-3.  Een voorwaardelijke vragenhiërarchie instellen, indien nodig.
-4.  De vragenlijst testen.
+3.  <span data-ttu-id="77313-213">Een voorwaardelijke vragenhiërarchie instellen, indien nodig.</span><span class="sxs-lookup"><span data-stu-id="77313-213">Set up a conditional question hierarchy, if it's required.</span></span>
+4.  <span data-ttu-id="77313-214">De vragenlijst testen.</span><span class="sxs-lookup"><span data-stu-id="77313-214">Test the questionnaire.</span></span>
 
-Klik op de pagina **Vragenlijsten** op **Valideren** om te testen of de vragenlijst juist is samengesteld. Wij raden u ook aan de vragenlijst in te vullen en zelf te testen voordat u deze distribueert.
+<span data-ttu-id="77313-215">Klik op de pagina **Vragenlijsten** op **Valideren** om te testen of de vragenlijst juist is samengesteld.</span><span class="sxs-lookup"><span data-stu-id="77313-215">On the **Questionnaires** page, click **Validate** to test whether the questionnaire is assembled correctly.</span></span> <span data-ttu-id="77313-216">Wij raden u ook aan de vragenlijst in te vullen en zelf te testen voordat u deze distribueert.</span><span class="sxs-lookup"><span data-stu-id="77313-216">However, it's also a good idea to complete the questionnaire and test it yourself before you distribute it.</span></span>
 
-### Een vragenlijst wijzigen
-<a id="modify-a-questionnaire" class="xliff"></a>
+### <a name="modify-a-questionnaire"></a><span data-ttu-id="77313-217">Een vragenlijst wijzigen</span><span class="sxs-lookup"><span data-stu-id="77313-217">Modify a questionnaire</span></span>
 
-Op de pagina **Vragenlijsten** kunt u de volgende taken uitvoeren:
+<span data-ttu-id="77313-218">Op de pagina **Vragenlijsten** kunt u de volgende taken uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="77313-218">You can complete the following tasks on the **Questionnaires** page:</span></span>
 
--   Informatie in de vragenlijst bewerken, zoals de resultaatgroepen en vragen.
--   Vragen verwijderen en toevoegen.
--   Wijzigingen aanbrengen in de resultaatgroepen en het volgnummer. 
+-   <span data-ttu-id="77313-219">Informatie in de vragenlijst bewerken, zoals de resultaatgroepen en vragen.</span><span class="sxs-lookup"><span data-stu-id="77313-219">Modify information in the questionnaire, such as the result groups and questions.</span></span>
+-   <span data-ttu-id="77313-220">Vragen verwijderen en toevoegen.</span><span class="sxs-lookup"><span data-stu-id="77313-220">Delete and add questions.</span></span>
+-   <span data-ttu-id="77313-221">Wijzigingen aanbrengen in de resultaatgroepen en het volgnummer.</span><span class="sxs-lookup"><span data-stu-id="77313-221">Make changes in the result groups and sequence number.</span></span> 
 
->**Waarschuwing** Wees voorzichtig wanneer u wijzigingen aanbrengt in vragenlijsten die al zijn beantwoord. Wijzigingen kunnen de juistheid van de statistieken negatief beïnvloeden, wat kan leiden tot een zwakke basis voor evaluatie. Het is beter een nieuwe vraag te maken dan er een te wijzigen die al is beantwoord.
+><span data-ttu-id="77313-222">**Waarschuwing** Wees voorzichtig wanneer u wijzigingen aanbrengt in vragenlijsten die al zijn beantwoord.</span><span class="sxs-lookup"><span data-stu-id="77313-222">**Caution** Be careful when you change questionnaires that have already been answered.</span></span> <span data-ttu-id="77313-223">Wijzigingen kunnen de juistheid van de statistieken negatief beïnvloeden, wat kan leiden tot een zwakke basis voor evaluatie.</span><span class="sxs-lookup"><span data-stu-id="77313-223">Changes can reduce the accuracy of statistics and therefore make them a poor basis for evaluation.</span></span> <span data-ttu-id="77313-224">Het is beter een nieuwe vraag te maken dan er een te wijzigen die al is beantwoord.</span><span class="sxs-lookup"><span data-stu-id="77313-224">Consider creating a new question instead of changing a question that has already been answered.</span></span>
 
-In een vragenlijst kunt u de volgende typen vragen verwijderen:
+<span data-ttu-id="77313-225">In een vragenlijst kunt u de volgende typen vragen verwijderen:</span><span class="sxs-lookup"><span data-stu-id="77313-225">In a questionnaire, you can't delete the following types of questions:</span></span>
 
--   Vragen die zijn gekoppeld aan een vragenlijst
--   Vragen die al zijn beantwoord en daarom worden weergegeven in het dialoogvenster **Antwoorden**.
+-   <span data-ttu-id="77313-226">Vragen die zijn gekoppeld aan een vragenlijst</span><span class="sxs-lookup"><span data-stu-id="77313-226">Questions that are attached to a questionnaire</span></span>
+-   <span data-ttu-id="77313-227">Vragen die al zijn beantwoord en daarom worden weergegeven in het dialoogvenster **Antwoorden**.</span><span class="sxs-lookup"><span data-stu-id="77313-227">Questions that have already been answered and therefore appear in the **Answers** dialog box.</span></span>
 
-### Resultaatgroepen
-<a id="result-groups" class="xliff"></a>
+### <a name="result-groups"></a><span data-ttu-id="77313-228">Resultaatgroepen</span><span class="sxs-lookup"><span data-stu-id="77313-228">Result groups</span></span>
 
-Resultaatgroepen zijn optioneel wanneer u vragen aan een vragenlijst koppelt. 
+<span data-ttu-id="77313-229">Resultaatgroepen zijn optioneel wanneer u vragen aan een vragenlijst koppelt.</span><span class="sxs-lookup"><span data-stu-id="77313-229">Result groups are optional when you attach questions to a questionnaire.</span></span> 
 
-Een resultaatgroep wordt gebruikt om punten te berekenen en de resultaten van een vragenlijst te categoriseren. Als u resultaatgroepen gebruikt, kunt u de volgende taken uitvoeren:
+<span data-ttu-id="77313-230">Een resultaatgroep wordt gebruikt om punten te berekenen en de resultaten van een vragenlijst te categoriseren.</span><span class="sxs-lookup"><span data-stu-id="77313-230">A result group is used to calculate points and categorize the results of a questionnaire.</span></span> <span data-ttu-id="77313-231">Als u resultaatgroepen gebruikt, kunt u de volgende taken uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="77313-231">If you use result groups, you can perform the following tasks:</span></span>
 
--   Vragenlijstresultaten evalueren op basis van puntenstatistieken.
--   De score van een respondent evalueren voor elke ingestelde resultaatgroep.
--   Statistieken genereren voor elke resultaatgroep waarmee u de resultaten beter kunt analyseren.
--   Een rapport afdrukken met de resultaten voor elke resultaatgroep en ook optionele punten/teksten die zijn gebaseerd op punten die zijn verdiend in elke resultaatgroep.
+-   <span data-ttu-id="77313-232">Vragenlijstresultaten evalueren op basis van puntenstatistieken.</span><span class="sxs-lookup"><span data-stu-id="77313-232">Evaluate questionnaire results, based on point statistics.</span></span>
+-   <span data-ttu-id="77313-233">De score van een respondent evalueren voor elke ingestelde resultaatgroep.</span><span class="sxs-lookup"><span data-stu-id="77313-233">Evaluate a respondent’s score for each result group that you set up.</span></span>
+-   <span data-ttu-id="77313-234">Statistieken genereren voor elke resultaatgroep waarmee u de resultaten beter kunt analyseren.</span><span class="sxs-lookup"><span data-stu-id="77313-234">Generate statistics for each result group to help you analyze results.</span></span>
+-   <span data-ttu-id="77313-235">Een rapport afdrukken met de resultaten voor elke resultaatgroep en ook optionele punten/teksten die zijn gebaseerd op punten die zijn verdiend in elke resultaatgroep.</span><span class="sxs-lookup"><span data-stu-id="77313-235">Print a report that shows results for each result group, and also optional points/texts that are based on points that are earned in each result group.</span></span>
 
-> **Opmerking**
->  Voordat u resultaatgroepen kunt configureren, moet u de volgende taken uitvoeren:
+> <span data-ttu-id="77313-236">**Opmerking**
+>  Voordat u resultaatgroepen kunt configureren, moet u de volgende taken uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="77313-236">**Note**
+  Before you can set up result groups, you must complete the following tasks:</span></span>
 
--   Gesloten vragen instellen. Voor een meerkeuzevraag, moet op de pagina **Vragen** het invoertype **Selectievakje**, **Alternatieve knop** of **Keuzelijst met invoervak** zijn.
--   Punten definiëren voor antwoorden in de antwoordgroepen die aan elke vraag zijn toegewezen.
--   Een vragenlijst opstellen.
+-   <span data-ttu-id="77313-237">Gesloten vragen instellen.</span><span class="sxs-lookup"><span data-stu-id="77313-237">Set up closed-ended questions.</span></span> <span data-ttu-id="77313-238">Voor een meerkeuzevraag, moet op de pagina **Vragen** het invoertype **Selectievakje**, **Alternatieve knop** of **Keuzelijst met invoervak** zijn.</span><span class="sxs-lookup"><span data-stu-id="77313-238">For a closed-ended question, the input type on the **Questions** page must be **Check box**, **Alternative button**, or **Combo box**.</span></span>
+-   <span data-ttu-id="77313-239">Punten definiëren voor antwoorden in de antwoordgroepen die aan elke vraag zijn toegewezen.</span><span class="sxs-lookup"><span data-stu-id="77313-239">Define points for answers in the answer groups that are assigned to each question.</span></span>
+-   <span data-ttu-id="77313-240">Een vragenlijst opstellen.</span><span class="sxs-lookup"><span data-stu-id="77313-240">Set up a questionnaire.</span></span>
 
-Als u vragen wilt koppelen aan een vragenlijst door resultaatgroepen te gebruiken, moet u eerst resultaatgroepen instellen voor de vragenlijst en vervolgens vragen toevoegen aan de resultaatgroepen. Als u geen gebruik wilt maken van resultaatgroepen, kunt u vragen rechtstreeks aan een vragenlijst koppelen. 
+<span data-ttu-id="77313-241">Als u vragen wilt koppelen aan een vragenlijst door resultaatgroepen te gebruiken, moet u eerst resultaatgroepen instellen voor de vragenlijst en vervolgens vragen toevoegen aan de resultaatgroepen.</span><span class="sxs-lookup"><span data-stu-id="77313-241">To attach questions to a questionnaire by using result groups, first set up the result groups for the questionnaire, and then add questions to the result groups.</span></span> <span data-ttu-id="77313-242">Als u geen gebruik wilt maken van resultaatgroepen, kunt u vragen rechtstreeks aan een vragenlijst koppelen.</span><span class="sxs-lookup"><span data-stu-id="77313-242">If you don't use result groups, you can attach questions directly to a questionnaire.</span></span> 
 
-U kunt meerdere resultaatgroepen instellen om de punten die door een respondent in elke categorie zijn verdiend, te evalueren. Nadat een vragenlijst is voltooid, kunt u de behaalde punten voor elke resultatengroep weergeven. 
+<span data-ttu-id="77313-243">U kunt meerdere resultaatgroepen instellen om de punten die door een respondent in elke categorie zijn verdiend, te evalueren.</span><span class="sxs-lookup"><span data-stu-id="77313-243">You can set up multiple result groups to evaluate the points that a respondent earns in each category.</span></span> <span data-ttu-id="77313-244">Nadat een vragenlijst is voltooid, kunt u de behaalde punten voor elke resultatengroep weergeven.</span><span class="sxs-lookup"><span data-stu-id="77313-244">After a questionnaire is completed, you can view the points that have been achieved for each result group.</span></span> 
 
-> **Tip**
->  As u een vragenlijst met punten wilt evalueren, maar niet voor afzonderlijke categorieën, kunt u alle vragen toevoegen aan één resultaatgroep. 
+> <span data-ttu-id="77313-245">**Tip**
+>  As u een vragenlijst met punten wilt evalueren, maar niet voor afzonderlijke categorieën, kunt u alle vragen toevoegen aan één resultaatgroep.</span><span class="sxs-lookup"><span data-stu-id="77313-245">**Tip**
+   To evaluate a questionnaire by using points but not separate categories, you can add all questions to a single result group.</span></span> 
 
-Voor elke resultaatgroep kunt u ook een of meer op punten gebaseerde berichten instellen die respondenten ontvangen nadat ze de vragenlijst hebben voltooid. De weergegeven tekst kan variëren afhankelijk van de score die een respondent bereikt in een resultaatgroep. Als u op punten gebaseerde berichten gebruikt, definieert u puntenintervallen en een omschrijving van elk interval. Als een respondent een score behaalt in een bepaald interval, wordt de tekst voor dat interval opgenomen in het resultaatrapport. 
+<span data-ttu-id="77313-246">Voor elke resultaatgroep kunt u ook een of meer op punten gebaseerde berichten instellen die respondenten ontvangen nadat ze de vragenlijst hebben voltooid.</span><span class="sxs-lookup"><span data-stu-id="77313-246">For each result group, you can also set up one or more point-based messages that respondents receive after they complete a questionnaire.</span></span> <span data-ttu-id="77313-247">De weergegeven tekst kan variëren afhankelijk van de score die een respondent bereikt in een resultaatgroep.</span><span class="sxs-lookup"><span data-stu-id="77313-247">The text that is shown can vary, depending on the score that a respondent achieves in a result group.</span></span> <span data-ttu-id="77313-248">Als u op punten gebaseerde berichten gebruikt, definieert u puntenintervallen en een omschrijving van elk interval.</span><span class="sxs-lookup"><span data-stu-id="77313-248">To use point-based messages, you must define point intervals and a description of each interval.</span></span> <span data-ttu-id="77313-249">Als een respondent een score behaalt in een bepaald interval, wordt de tekst voor dat interval opgenomen in het resultaatrapport.</span><span class="sxs-lookup"><span data-stu-id="77313-249">When a respondent achieves a score in a specific interval, the text for that interval is included on the results report.</span></span> 
 
-Omdat een resultaatgroep betrekking heeft op punten die zijn gekoppeld aan specifieke groepen vragen op een vragenlijst, moet u een bepaalde resultaatgroep gebruiken voor een vragenlijst.
+<span data-ttu-id="77313-250">Omdat een resultaatgroep betrekking heeft op punten die zijn gekoppeld aan specifieke groepen vragen op een vragenlijst, moet u een bepaalde resultaatgroep gebruiken voor een vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-250">Because a result group is related to the points that are associated with specific sets of questions on a questionnaire, you can use only a specific result group for a questionnaire.</span></span>
 
-#### Voorbeeld: punten/teksten voor resultaatgroep 3
-<a id="example-pointstexts-for-result-group-3" class="xliff"></a>
+#### <a name="example-pointstexts-for-result-group-3"></a><span data-ttu-id="77313-251">Voorbeeld: punten/teksten voor resultaatgroep 3</span><span class="sxs-lookup"><span data-stu-id="77313-251">Example: Points/texts for result group 3</span></span>
 
-U gebruikt een vragenlijst die voor een leiderschapstest 15 vragen in drie categorieën bevat. U maakt drie resultaatgroepen en voegt vijf vragen aan elke resultaatgroep toe. De punten worden vervolgens ingediend in de drie groepen. Dit zijn de drie resultaatgroepen:
+<span data-ttu-id="77313-252">U gebruikt een vragenlijst die voor een leiderschapstest 15 vragen in drie categorieën bevat.</span><span class="sxs-lookup"><span data-stu-id="77313-252">You're using a questionnaire for a leadership test that has 15 questions in three categories.</span></span> <span data-ttu-id="77313-253">U maakt drie resultaatgroepen en voegt vijf vragen aan elke resultaatgroep toe.</span><span class="sxs-lookup"><span data-stu-id="77313-253">You create three result groups and add five questions to each result group.</span></span> <span data-ttu-id="77313-254">De punten worden vervolgens ingediend in de drie groepen.</span><span class="sxs-lookup"><span data-stu-id="77313-254">Points are then totaled in the three groups.</span></span> <span data-ttu-id="77313-255">Dit zijn de drie resultaatgroepen:</span><span class="sxs-lookup"><span data-stu-id="77313-255">The three result groups are as follows:</span></span>
 
--   Creatieve vaardigheden
--   Leiderschapsvaardigheden
--   Technische vaardigheden
+-   <span data-ttu-id="77313-256">Creatieve vaardigheden</span><span class="sxs-lookup"><span data-stu-id="77313-256">Creative abilities</span></span>
+-   <span data-ttu-id="77313-257">Leiderschapsvaardigheden</span><span class="sxs-lookup"><span data-stu-id="77313-257">Leadership abilities</span></span>
+-   <span data-ttu-id="77313-258">Technische vaardigheden</span><span class="sxs-lookup"><span data-stu-id="77313-258">Technical abilities</span></span>
 
-Als u op punten gebaseerde berichten gebruikt, kunt u tekstintervallen voor elke resultaatgroep instellen. Aan elke vraag worden twee punten toegewezen. Daarom is het maximale puntentotaal in elke resultaatgroep 10. 
+<span data-ttu-id="77313-259">Als u op punten gebaseerde berichten gebruikt, kunt u tekstintervallen voor elke resultaatgroep instellen.</span><span class="sxs-lookup"><span data-stu-id="77313-259">To use point-based messages, you set up text intervals for each result group.</span></span> <span data-ttu-id="77313-260">Aan elke vraag worden twee punten toegewezen.</span><span class="sxs-lookup"><span data-stu-id="77313-260">Each question is assigned two points.</span></span> <span data-ttu-id="77313-261">Daarom is het maximale puntentotaal in elke resultaatgroep 10.</span><span class="sxs-lookup"><span data-stu-id="77313-261">Therefore, the maximum point total in each result group is 10.</span></span> 
 
-De volgende tabel geeft de op punten gebaseerde berichten weer die u voor de resultaatgroep "leidingsmogelijkheden" definieert.
+<span data-ttu-id="77313-262">De volgende tabel geeft de op punten gebaseerde berichten weer die u voor de resultaatgroep "leidingsmogelijkheden" definieert.</span><span class="sxs-lookup"><span data-stu-id="77313-262">The following table shows the point-based messages that you define for the “leadership abilities” result group.</span></span>
 
-| Punteninterval | Tekst                                       |
+| <span data-ttu-id="77313-263">Punteninterval</span><span class="sxs-lookup"><span data-stu-id="77313-263">Point interval</span></span> | <span data-ttu-id="77313-264">Tekst</span><span class="sxs-lookup"><span data-stu-id="77313-264">Text</span></span>                                       |
 |----------------|--------------------------------------------|
-| 1 tot 3         | U hebt gemiddelde leiderschapsvaardigheden.     |
-| 4 tot 7         | U hebt goede leiderschapsvaardigheden.        |
-| 8 tot 10        | U hebt uitstekende leiderschapsvaardigheden. |
+| <span data-ttu-id="77313-265">1 tot 3</span><span class="sxs-lookup"><span data-stu-id="77313-265">1 to 3</span></span>         | <span data-ttu-id="77313-266">U hebt gemiddelde leiderschapsvaardigheden.</span><span class="sxs-lookup"><span data-stu-id="77313-266">You have average leadership abilities.</span></span>     |
+| <span data-ttu-id="77313-267">4 tot 7</span><span class="sxs-lookup"><span data-stu-id="77313-267">4 to 7</span></span>         | <span data-ttu-id="77313-268">U hebt goede leiderschapsvaardigheden.</span><span class="sxs-lookup"><span data-stu-id="77313-268">You have good leadership abilities.</span></span>        |
+| <span data-ttu-id="77313-269">8 tot 10</span><span class="sxs-lookup"><span data-stu-id="77313-269">8 to 10</span></span>        | <span data-ttu-id="77313-270">U hebt uitstekende leiderschapsvaardigheden.</span><span class="sxs-lookup"><span data-stu-id="77313-270">You have outstanding leadership abilities.</span></span> |
 
-U kunt puntintervallen en teksten instellen voor elke resultaatgroep op een vragenlijst. Teksten die overeenkomen met de score van elke respondent, worden voor elke resultaatgroep weergegeven. 
+<span data-ttu-id="77313-271">U kunt puntintervallen en teksten instellen voor elke resultaatgroep op een vragenlijst.</span><span class="sxs-lookup"><span data-stu-id="77313-271">You can set up point intervals and texts for each result group on a questionnaire.</span></span> <span data-ttu-id="77313-272">Teksten die overeenkomen met de score van elke respondent, worden voor elke resultaatgroep weergegeven.</span><span class="sxs-lookup"><span data-stu-id="77313-272">Texts that correspond to each respondent’s score are displayed for each result group.</span></span> 
 
-> **Opmerking**
->  U kunt intervallen en teksten veranderen. Als een vragenlijst is voltooid, kunnen wijzigingen echter resulteren in verschillen tussen eerdere en nieuwe resultaatrapporten.
+> <span data-ttu-id="77313-273">**Opmerking**
+>  U kunt intervallen en teksten veranderen.</span><span class="sxs-lookup"><span data-stu-id="77313-273">**Note**
+  You can change intervals and texts.</span></span> <span data-ttu-id="77313-274">Als een vragenlijst is voltooid, kunnen wijzigingen echter resulteren in verschillen tussen eerdere en nieuwe resultaatrapporten.</span><span class="sxs-lookup"><span data-stu-id="77313-274">However, if a questionnaire has been completed, changes might cause differences between previous and new result reports.</span></span>
 
-### Hiërarchieën van voorwaardelijke vragen
-<a id="conditional-question-hierarchies" class="xliff"></a>
+### <a name="conditional-question-hierarchies"></a><span data-ttu-id="77313-275">Hiërarchieën van voorwaardelijke vragen</span><span class="sxs-lookup"><span data-stu-id="77313-275">Conditional question hierarchies</span></span>
 
-Hiërarchieën van voorwaardelijke vragen zijn optioneel wanneer u een vragenlijst opstelt. 
+<span data-ttu-id="77313-276">Hiërarchieën van voorwaardelijke vragen zijn optioneel wanneer u een vragenlijst opstelt.</span><span class="sxs-lookup"><span data-stu-id="77313-276">Conditional question hierarchies are optional when you set up a questionnaire.</span></span> 
 
-> **Opmerking**
->  Voordat u een hiërarchie van voorwaardelijke vragen kunt maken, moet u vragen waaraan antwoordgroepen zijn toegewezen, aan de vragenlijst koppelen. 
+> <span data-ttu-id="77313-277">**Opmerking**
+>  Voordat u een hiërarchie van voorwaardelijke vragen kunt maken, moet u vragen waaraan antwoordgroepen zijn toegewezen, aan de vragenlijst koppelen.</span><span class="sxs-lookup"><span data-stu-id="77313-277">**Note**
+  Before you can set up a conditional question hierarchy, you must attach questions that have assigned answer groups to the questionnaire.</span></span> 
 
-Voor het gebruiken van voorwaardelijke vragen voor het maken van een vraaghiërarchie in een vragenlijst kunt u de volgorde waarin vragen worden weergegeven afhankelijk maken van de antwoorden die door een respondent voor elke vraag worden geselecteerd. Door de vraagvolgorde te baseren op het antwoord van een respondent, kunt u de vragenlijst aanpassen terwijl de respondent hem invult.
+<span data-ttu-id="77313-278">Voor het gebruiken van voorwaardelijke vragen voor het maken van een vraaghiërarchie in een vragenlijst kunt u de volgorde waarin vragen worden weergegeven afhankelijk maken van de antwoorden die door een respondent voor elke vraag worden geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="77313-278">To use conditional questions to create a question hierarchy in a questionnaire, you can make the sequence that questions are presented in depend on the answer that a respondent selects for each question.</span></span> <span data-ttu-id="77313-279">Door de vraagvolgorde te baseren op het antwoord van een respondent, kunt u de vragenlijst aanpassen terwijl de respondent hem invult.</span><span class="sxs-lookup"><span data-stu-id="77313-279">By basing the question sequence on a respondent’s answer, you can modify the questionnaire as the respondent completes it.</span></span>
 
-#### Voorbeelden
-<a id="examples" class="xliff"></a>
+#### <a name="examples"></a><span data-ttu-id="77313-280">Voorbeelden</span><span class="sxs-lookup"><span data-stu-id="77313-280">Examples</span></span>
 
-Een rechtspersoon biedt zowel artikelen als services aan zijn klanten. Zoals meestal gebeurt in zulke gevallen kopen sommige klanten alleen artikelen of alleen diensten af en andere nemen beide af. Wanneer de rechtspersoon dus een klanttevredenheidsonderzoek houdt, wordt er een voorwaardelijke structuur toegepast op de vragenlijst om te voorkomen dat klanten die alleen diensten afnemen vragen moeten beantwoorden over artikelen. 
+<span data-ttu-id="77313-281">Een rechtspersoon biedt zowel artikelen als services aan zijn klanten.</span><span class="sxs-lookup"><span data-stu-id="77313-281">A legal entity offers both items and services to its customers.</span></span> <span data-ttu-id="77313-282">Zoals meestal gebeurt in zulke gevallen kopen sommige klanten alleen artikelen of alleen diensten af en andere nemen beide af.</span><span class="sxs-lookup"><span data-stu-id="77313-282">As typically occurs in such cases, some customers purchase only items, some purchase only services, and some purchase both items and services.</span></span> <span data-ttu-id="77313-283">Wanneer de rechtspersoon dus een klanttevredenheidsonderzoek houdt, wordt er een voorwaardelijke structuur toegepast op de vragenlijst om te voorkomen dat klanten die alleen diensten afnemen vragen moeten beantwoorden over artikelen.</span><span class="sxs-lookup"><span data-stu-id="77313-283">Therefore, when the legal entity distributes a customer satisfaction survey, it applies a conditional structure to the questionnaire, so that customers who purchase only services don't have to answer questions about items.</span></span> 
 
-U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecteert voor vraag 1, vraag 2 de volgende vraag in de vragenreeks is. Als de respondent echter antwoord B voor vraag 1 selecteert, dan is vraag 5 de volgende vraag.
+<span data-ttu-id="77313-284">U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecteert voor vraag 1, vraag 2 de volgende vraag in de vragenreeks is.</span><span class="sxs-lookup"><span data-stu-id="77313-284">Alternatively, you set up a questionnaire so that if a respondent selects answer A for question 1, question 2 is next in the question sequence.</span></span> <span data-ttu-id="77313-285">Als de respondent echter antwoord B voor vraag 1 selecteert, dan is vraag 5 de volgende vraag.</span><span class="sxs-lookup"><span data-stu-id="77313-285">However, if the respondent selects answer B for question 1, question 5 is next.</span></span>
 
-Zie ook
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a><span data-ttu-id="77313-286">Zie ook</span><span class="sxs-lookup"><span data-stu-id="77313-286">See also</span></span>
 --------
 
-[Vragenlijsten gebruiken](questionnaires.md)
+[<span data-ttu-id="77313-287">Vragenlijsten gebruiken</span><span class="sxs-lookup"><span data-stu-id="77313-287">Using questionnaires</span></span>](questionnaires.md)
 
-[Vragenlijsten verspreiden en invullen](distribute-questionnaires.md)
+[<span data-ttu-id="77313-288">Vragenlijsten verspreiden en invullen</span><span class="sxs-lookup"><span data-stu-id="77313-288">Distributing and completing questionnaires</span></span>](distribute-questionnaires.md)
 
-[De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
+[<span data-ttu-id="77313-289">De resultaten van vragenlijsten bekijken en evalueren</span><span class="sxs-lookup"><span data-stu-id="77313-289">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
 
 

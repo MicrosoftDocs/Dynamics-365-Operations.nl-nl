@@ -15,32 +15,32 @@ ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 3482aacba9315606a7751adc5839a8a11c2d4490
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6b576be9986a0c0701792a87422a0865cd3f8e7a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Startpagina Financieel beheer
+# <a name="financial-management-home-page"></a><span data-ttu-id="d66f1-103">Startpagina Financieel beheer</span><span class="sxs-lookup"><span data-stu-id="d66f1-103">Financial management home page</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor financieel beheer in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+<span data-ttu-id="d66f1-104">Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor financieel beheer in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="d66f1-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Selecteer een functiegebied voor meer informatie hierover.
-- [Leveranciers](accounts-payable\accounts-payable.md) 
-- [Klanten](accounts-receivable\accounts-receivable.md) 
-- [Contanten en bankbeheer](cash-bank-management\cash-bank-management.md)
-- [Kostprijsboekhouding](cost-accounting\cost-accounting-home-page.md)
-- [Vaste activa](fixed-assets\fixed-assets.md)
-- [Grootboek](general-ledger\general-ledger.md) 
-- [Projectbeheer](project-management\overview-project-management-accounting.md)
-- [Openbare sector](public-sector\public-sector-functionality.md) 
-- [Budgettering](budgeting\budgeting-overview.md) 
+<span data-ttu-id="d66f1-105">Selecteer een functiegebied voor meer informatie hierover.</span><span class="sxs-lookup"><span data-stu-id="d66f1-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="d66f1-106">Leveranciers</span><span class="sxs-lookup"><span data-stu-id="d66f1-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
+- [<span data-ttu-id="d66f1-107">Klanten</span><span class="sxs-lookup"><span data-stu-id="d66f1-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
+- [<span data-ttu-id="d66f1-108">Contanten en bankbeheer</span><span class="sxs-lookup"><span data-stu-id="d66f1-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
+- [<span data-ttu-id="d66f1-109">Kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="d66f1-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
+- [<span data-ttu-id="d66f1-110">Vaste activa</span><span class="sxs-lookup"><span data-stu-id="d66f1-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
+- [<span data-ttu-id="d66f1-111">Grootboek</span><span class="sxs-lookup"><span data-stu-id="d66f1-111">General ledger</span></span>](general-ledger\general-ledger.md) 
+- [<span data-ttu-id="d66f1-112">Projectbeheer</span><span class="sxs-lookup"><span data-stu-id="d66f1-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
+- [<span data-ttu-id="d66f1-113">Openbare sector</span><span class="sxs-lookup"><span data-stu-id="d66f1-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
+- [<span data-ttu-id="d66f1-114">Budgettering</span><span class="sxs-lookup"><span data-stu-id="d66f1-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
 
 
 

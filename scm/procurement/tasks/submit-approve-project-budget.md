@@ -17,43 +17,43 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f438b149bed29936b39653825199c0e3cb73a85e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a867e07eb4c9a753c10d5c1fc6fc03c4cacad08e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="submit-and-approve-project-budgets"></a>Projectbudgetten indienen en goedkeuren
+# <a name="submit-and-approve-project-budgets"></a><span data-ttu-id="12fc5-103">Projectbudgetten indienen en goedkeuren</span><span class="sxs-lookup"><span data-stu-id="12fc5-103">Submit and approve project budgets</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-In deze procedure wordt beschreven hoe u het budget voor een project maakt en indient. 
+<span data-ttu-id="12fc5-104">In deze procedure wordt beschreven hoe u het budget voor een project maakt en indient.</span><span class="sxs-lookup"><span data-stu-id="12fc5-104">This procedure shows you how to create and submit the budget for a project.</span></span> 
 
-Wanneer u een projectbudget opstelt, kunt u geschatte opbrengsten en kosten voor een project invoeren en deze vervolgens gebruiken om de daadwerkelijke projecttransacties te controleren. Bij projectbudgettering moeten alle oorspronkelijke budgetten en revisies ter goedkeuring naar de projectworkflow worden verzonden. De werkstroom geeft u meer controle over het proces en registreert de wijzigingshistorie.
+<span data-ttu-id="12fc5-105">Wanneer u een projectbudget opstelt, kunt u geschatte opbrengsten en kosten voor een project invoeren en deze vervolgens gebruiken om de daadwerkelijke projecttransacties te controleren.</span><span class="sxs-lookup"><span data-stu-id="12fc5-105">When you create a project budget, you can enter estimated revenues and costs for a project, and then use those to control actual project transactions.</span></span> <span data-ttu-id="12fc5-106">Bij projectbudgettering moeten alle oorspronkelijke budgetten en revisies ter goedkeuring naar de projectworkflow worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="12fc5-106">In project budgeting, all original budgets and revisions must be sent to project workflow for approval.</span></span> <span data-ttu-id="12fc5-107">De werkstroom geeft u meer controle over het proces en registreert de wijzigingshistorie.</span><span class="sxs-lookup"><span data-stu-id="12fc5-107">Workflow gives you increased control over the process and creates a change history record.</span></span>
 
-Deze taak is gemaakt met de gegevensset van USSI.
+<span data-ttu-id="12fc5-108">Deze taak is gemaakt met de gegevensset van USSI.</span><span class="sxs-lookup"><span data-stu-id="12fc5-108">This task was created using the USSI data set.</span></span>
 
-1. Ga naar Projectbeheer en boekhouding > Projecten > Alle projecten.
-2. Zoek en selecteer de gewenste record in de lijst.
-3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Klik op Plannen in het actievenster.
-5. Klik op Projectbudget.
-6. Typ een waarde in het veld Omschrijving.
-7. Vouw de sectie Kosten uit.
-8. Klik op Nieuw.
-9. Selecteer een optie in het veld Transactietype.
-10. Typ of selecteer een waarde in het veld Categorie.
-11. Voer in het veld Oorspronkelijk budget een getal in.
-12. Vouw de sectie Opbrengsten uit.
-13. Klik op Nieuw.
-14. Markeer in de lijst de geselecteerde rij.
-15. Selecteer een optie in het veld Transactietype.
-16. Typ of selecteer een waarde in het veld Categorie.
-17. Voer in het veld Oorspronkelijk budget een getal in.
-18. Klik op Opslaan.
-19. Klik op Workflow.
-20. Klik op Aanbieden.
-21. Typ een waarde in het veld Opmerking.
-22. Klik op Aanbieden.
+1. <span data-ttu-id="12fc5-109">Ga naar Projectbeheer en boekhouding > Projecten > Alle projecten.</span><span class="sxs-lookup"><span data-stu-id="12fc5-109">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="12fc5-110">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="12fc5-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="12fc5-111">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="12fc5-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="12fc5-112">Klik op Plannen in het actievenster.</span><span class="sxs-lookup"><span data-stu-id="12fc5-112">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="12fc5-113">Klik op Projectbudget.</span><span class="sxs-lookup"><span data-stu-id="12fc5-113">Click Project budget.</span></span>
+6. <span data-ttu-id="12fc5-114">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="12fc5-114">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="12fc5-115">Vouw de sectie Kosten uit.</span><span class="sxs-lookup"><span data-stu-id="12fc5-115">Expand the Cost section</span></span>
+8. <span data-ttu-id="12fc5-116">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="12fc5-116">Click New.</span></span>
+9. <span data-ttu-id="12fc5-117">Selecteer een optie in het veld Transactietype.</span><span class="sxs-lookup"><span data-stu-id="12fc5-117">In the Transaction type field, select an option.</span></span>
+10. <span data-ttu-id="12fc5-118">Typ of selecteer een waarde in het veld Categorie.</span><span class="sxs-lookup"><span data-stu-id="12fc5-118">In the Category field, enter or select a value.</span></span>
+11. <span data-ttu-id="12fc5-119">Voer in het veld Oorspronkelijk budget een getal in.</span><span class="sxs-lookup"><span data-stu-id="12fc5-119">In the Original budget field, enter a number.</span></span>
+12. <span data-ttu-id="12fc5-120">Vouw de sectie Opbrengsten uit.</span><span class="sxs-lookup"><span data-stu-id="12fc5-120">Expand the Revenues section.</span></span>
+13. <span data-ttu-id="12fc5-121">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="12fc5-121">Click New.</span></span>
+14. <span data-ttu-id="12fc5-122">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="12fc5-122">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="12fc5-123">Selecteer een optie in het veld Transactietype.</span><span class="sxs-lookup"><span data-stu-id="12fc5-123">In the Transaction type field, select an option.</span></span>
+16. <span data-ttu-id="12fc5-124">Typ of selecteer een waarde in het veld Categorie.</span><span class="sxs-lookup"><span data-stu-id="12fc5-124">In the Category field, enter or select a value.</span></span>
+17. <span data-ttu-id="12fc5-125">Voer in het veld Oorspronkelijk budget een getal in.</span><span class="sxs-lookup"><span data-stu-id="12fc5-125">In the Original budget field, enter a number.</span></span>
+18. <span data-ttu-id="12fc5-126">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="12fc5-126">Click Save.</span></span>
+19. <span data-ttu-id="12fc5-127">Klik op Workflow.</span><span class="sxs-lookup"><span data-stu-id="12fc5-127">Click Workflow.</span></span>
+20. <span data-ttu-id="12fc5-128">Klik op Aanbieden.</span><span class="sxs-lookup"><span data-stu-id="12fc5-128">Click Submit.</span></span>
+21. <span data-ttu-id="12fc5-129">Typ een waarde in het veld Opmerking.</span><span class="sxs-lookup"><span data-stu-id="12fc5-129">In the Comment field, type a value.</span></span>
+22. <span data-ttu-id="12fc5-130">Klik op Aanbieden.</span><span class="sxs-lookup"><span data-stu-id="12fc5-130">Click Submit.</span></span>
 
 

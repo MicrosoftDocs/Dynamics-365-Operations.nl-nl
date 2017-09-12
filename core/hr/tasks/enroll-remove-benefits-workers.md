@@ -16,45 +16,45 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 146d62fef0da482d141276ddd2c73c43e7d29e46
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a0edbe6de43a1c99e2e5d8507f9190e6a7b04b8e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enroll-and-remove-benefits-from-workers"></a>Vergoedingen inschrijven en verwijderen van werknemers
+# <a name="enroll-and-remove-benefits-from-workers"></a><span data-ttu-id="d56af-103">Vergoedingen inschrijven en verwijderen van werknemers</span><span class="sxs-lookup"><span data-stu-id="d56af-103">Enroll and remove benefits from workers</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan worden geregistreerd en hoe meerdere medewerkers in een vergoeding kunnen worden geregistreerd. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
+<span data-ttu-id="d56af-104">Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan worden geregistreerd en hoe meerdere medewerkers in een vergoeding kunnen worden geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="d56af-104">This procedure demonstrates how a single worker can be enrolled in one or more benefits, as well as multiple workers can be enrolled in a benefit.</span></span> <span data-ttu-id="d56af-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="d56af-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="enroll-a-single-worker-in-benefits"></a>Eén medewerker voor vergoedingen inschrijven
-1. Ga naar Human resources > Medewerkers > Werknemers.
-2. Zoek en selecteer de gewenste record in de lijst.
-3. Klik op Vergoedingen.
-4. Klik op Nieuw.
-5. Typ of selecteer een waarde in het veld Vergoeding.
-6. Typ een datum en tijd in het veld Begindatum dekking.
-7. Typ een datum en tijd in het veld Einddatum dekking.
-8. Vouw de sectie Begunstigden uit als u begunstigden moet toevoegen aan de vergoeding. U kunt ook afhankelijken van deze pagina toevoegen aan de vergoeding, indien van toepassing.
-9. Op deze pagina kunt u ook de details van een vergoedingsinschrijving bewerken of een inschrijving verwijderen. Wanneer u klaar bent met wijzigingen aanbrengen aan de inschrijving op vergoedingen, sluit u de pagina.
+## <a name="enroll-a-single-worker-in-benefits"></a><span data-ttu-id="d56af-106">Eén medewerker voor vergoedingen inschrijven</span><span class="sxs-lookup"><span data-stu-id="d56af-106">Enroll a single worker in benefits</span></span>
+1. <span data-ttu-id="d56af-107">Ga naar Human resources > Medewerkers > Werknemers.</span><span class="sxs-lookup"><span data-stu-id="d56af-107">Go to Human resources > Workers > Employees</span></span>
+2. <span data-ttu-id="d56af-108">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d56af-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="d56af-109">Klik op Vergoedingen.</span><span class="sxs-lookup"><span data-stu-id="d56af-109">Click Benefits.</span></span>
+4. <span data-ttu-id="d56af-110">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d56af-110">Click New.</span></span>
+5. <span data-ttu-id="d56af-111">Typ of selecteer een waarde in het veld Vergoeding.</span><span class="sxs-lookup"><span data-stu-id="d56af-111">In the Benefit field, enter or select a value.</span></span>
+6. <span data-ttu-id="d56af-112">Typ een datum en tijd in het veld Begindatum dekking.</span><span class="sxs-lookup"><span data-stu-id="d56af-112">In the Coverage start date field, enter a date and time.</span></span>
+7. <span data-ttu-id="d56af-113">Typ een datum en tijd in het veld Einddatum dekking.</span><span class="sxs-lookup"><span data-stu-id="d56af-113">In the Coverage end date field, enter a date and time.</span></span>
+8. <span data-ttu-id="d56af-114">Vouw de sectie Begunstigden uit als u begunstigden moet toevoegen aan de vergoeding.</span><span class="sxs-lookup"><span data-stu-id="d56af-114">Expand the Beneficiaries section if beneficiaries need to be added to the benefit.</span></span> <span data-ttu-id="d56af-115">U kunt ook afhankelijken van deze pagina toevoegen aan de vergoeding, indien van toepassing.</span><span class="sxs-lookup"><span data-stu-id="d56af-115">You can also add dependents from this page if applicable to the benefit.</span></span>
+9. <span data-ttu-id="d56af-116">Op deze pagina kunt u ook de details van een vergoedingsinschrijving bewerken of een inschrijving verwijderen.</span><span class="sxs-lookup"><span data-stu-id="d56af-116">You can also edit the details of a benefit enrollment or delete an enrollment on this page.</span></span> <span data-ttu-id="d56af-117">Wanneer u klaar bent met wijzigingen aanbrengen aan de inschrijving op vergoedingen, sluit u de pagina.</span><span class="sxs-lookup"><span data-stu-id="d56af-117">When you have finished making changes to the benefit enrollment, close the page.</span></span>
 
-## <a name="enroll-multiple-workers-in-a-benefit"></a>Meerdere medewerkers voor een vergoeding inschrijven
-1. Sluit de pagina.
-2. Ga naar Human resources > Medewerkers > Werknemers.
-3. Markeer in de lijst de geselecteerde rij.
-4. Zoek en selecteer de gewenste record in de lijst.
-5. Zoek en selecteer het gewenste record in de lijst.
-6. Klik op Inschrijven voor vergoedingen.
-7. Typ of selecteer een waarde in het veld Vergoeding.
-8. Typ een datum en tijd in het veld Begindatum dekking.
-9. Typ een datum en tijd in het veld Einddatum dekking.
-10. Klik op Inschrijven.
-11. Sluit de pagina.
-12. Ga naar Human Resources > Vergoedingen > Inschrijving > Resultaten inschrijving op vergoedingen
-13. Zoek de record met resultaten van vergoeding die u zoekt.
-14. Klik in de lijst op de koppeling in de geselecteerde rij.
-15. Met deze pagina kunt u weergeven welke werknemers in de vergoeding zijn geregistreerd en welke werknemers niet zijn geregistreerd.
+## <a name="enroll-multiple-workers-in-a-benefit"></a><span data-ttu-id="d56af-118">Meerdere medewerkers voor een vergoeding inschrijven</span><span class="sxs-lookup"><span data-stu-id="d56af-118">Enroll multiple workers in a benefit</span></span>
+1. <span data-ttu-id="d56af-119">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d56af-119">Close the page.</span></span>
+2. <span data-ttu-id="d56af-120">Ga naar Human resources > Medewerkers > Werknemers.</span><span class="sxs-lookup"><span data-stu-id="d56af-120">Go to Human resources > Workers > Employees</span></span>
+3. <span data-ttu-id="d56af-121">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d56af-121">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="d56af-122">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d56af-122">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="d56af-123">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d56af-123">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="d56af-124">Klik op Inschrijven voor vergoedingen.</span><span class="sxs-lookup"><span data-stu-id="d56af-124">Click Enroll in benefits.</span></span>
+7. <span data-ttu-id="d56af-125">Typ of selecteer een waarde in het veld Vergoeding.</span><span class="sxs-lookup"><span data-stu-id="d56af-125">In the Benefit field, enter or select a value.</span></span>
+8. <span data-ttu-id="d56af-126">Typ een datum en tijd in het veld Begindatum dekking.</span><span class="sxs-lookup"><span data-stu-id="d56af-126">In the Coverage start date field, enter a date and time.</span></span>
+9. <span data-ttu-id="d56af-127">Typ een datum en tijd in het veld Einddatum dekking.</span><span class="sxs-lookup"><span data-stu-id="d56af-127">In the Coverage end date field, enter a date and time.</span></span>
+10. <span data-ttu-id="d56af-128">Klik op Inschrijven.</span><span class="sxs-lookup"><span data-stu-id="d56af-128">Click Enroll.</span></span>
+11. <span data-ttu-id="d56af-129">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d56af-129">Close the page.</span></span>
+12. <span data-ttu-id="d56af-130">Ga naar Human Resources > Vergoedingen > Inschrijving > Resultaten inschrijving op vergoedingen</span><span class="sxs-lookup"><span data-stu-id="d56af-130">Go to Human Resources > Benefits > Enrollment > Benefit enrollment results</span></span>
+13. <span data-ttu-id="d56af-131">Zoek de record met resultaten van vergoeding die u zoekt.</span><span class="sxs-lookup"><span data-stu-id="d56af-131">Find the benefit results record that you are looking for.</span></span>
+14. <span data-ttu-id="d56af-132">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d56af-132">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="d56af-133">Met deze pagina kunt u weergeven welke werknemers in de vergoeding zijn geregistreerd en welke werknemers niet zijn geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="d56af-133">This page allows you to view which employees have been enrolled in the benefit, as well as any employees who were not enrolled.</span></span>
 
 

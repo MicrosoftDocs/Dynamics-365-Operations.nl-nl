@@ -17,34 +17,34 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: a452f875622dde748d3d1c518212a9a35e498d71
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5023ca589b3ab25d808a52a9162f27430bd69241
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-project-purchase-order"></a>Projectinkooporder maken
+# <a name="create-project-purchase-order"></a><span data-ttu-id="b036f-103">Projectinkooporder maken</span><span class="sxs-lookup"><span data-stu-id="b036f-103">Create project purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u een projectinkooporder maakt. In deze taak wordt de gegevensset van USSI gebruikt.
+<span data-ttu-id="b036f-104">Deze procedure laat zien hoe u een projectinkooporder maakt.</span><span class="sxs-lookup"><span data-stu-id="b036f-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="b036f-105">In deze taak wordt de gegevensset van USSI gebruikt.</span><span class="sxs-lookup"><span data-stu-id="b036f-105">This task uses the USSI data set.</span></span>
 
-1. Ga naar Projectbeheer en boekhouding > Projecten > Alle projecten.
-2. Klik in de lijst op de koppeling in de geselecteerde rij.
-3. Klik in het actievenster op Beheren.
-4. Klik op Artikeltaak.
-5. Klik op Inkooporder.
-6. Typ of selecteer een waarde in het veld Leveranciersrekening.
-7. Typ of selecteer een waarde in het veld Locatie.
-    * Deze stappen zijn niet vereist, maar ze vereenvoudigen de inkooporder doordat een standaardvestiging en -magazijn worden ingesteld voor de inkooporderregels.  
-8. Typ of selecteer een waarde in het veld Magazijn.
-9. Klik op OK.
-10. Markeer in de lijst de geselecteerde rij.
-11. Typ of selecteer een waarde in het veld Artikelnummer.
-    * Dit kan het artikelnummer zijn of een aanschaffingscategorie.  
-12. Vouw de sectie Regeldetails uit.
-13. Klik op het tabblad Project.
-    * Controleer of de verkoop- en kostprijzen beschikbaar zijn. Als deze niet beschikbaar zijn maar wel zijn vereist, moet u de informatie invoeren.  
-14. Klik op Opslaan.
+1. <span data-ttu-id="b036f-106">Ga naar Projectbeheer en boekhouding > Projecten > Alle projecten.</span><span class="sxs-lookup"><span data-stu-id="b036f-106">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="b036f-107">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b036f-107">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="b036f-108">Klik in het actievenster op Beheren.</span><span class="sxs-lookup"><span data-stu-id="b036f-108">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="b036f-109">Klik op Artikeltaak.</span><span class="sxs-lookup"><span data-stu-id="b036f-109">Click Item task.</span></span>
+5. <span data-ttu-id="b036f-110">Klik op Inkooporder.</span><span class="sxs-lookup"><span data-stu-id="b036f-110">Click Purchase order.</span></span>
+6. <span data-ttu-id="b036f-111">Typ of selecteer een waarde in het veld Leveranciersrekening.</span><span class="sxs-lookup"><span data-stu-id="b036f-111">In the Vendor account field, enter or select a value.</span></span>
+7. <span data-ttu-id="b036f-112">Typ of selecteer een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="b036f-112">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="b036f-113">Deze stappen zijn niet vereist, maar ze vereenvoudigen de inkooporder doordat een standaardvestiging en -magazijn worden ingesteld voor de inkooporderregels.</span><span class="sxs-lookup"><span data-stu-id="b036f-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
+8. <span data-ttu-id="b036f-114">Typ of selecteer een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="b036f-114">In the Warehouse field, enter or select a value.</span></span>
+9. <span data-ttu-id="b036f-115">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b036f-115">Click OK.</span></span>
+10. <span data-ttu-id="b036f-116">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b036f-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="b036f-117">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="b036f-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="b036f-118">Dit kan het artikelnummer zijn of een aanschaffingscategorie.</span><span class="sxs-lookup"><span data-stu-id="b036f-118">This can be the item number or a procurement category.</span></span>  
+12. <span data-ttu-id="b036f-119">Vouw de sectie Regeldetails uit.</span><span class="sxs-lookup"><span data-stu-id="b036f-119">Expand the Line details section.</span></span>
+13. <span data-ttu-id="b036f-120">Klik op het tabblad Project.</span><span class="sxs-lookup"><span data-stu-id="b036f-120">Click the Project tab.</span></span>
+    * <span data-ttu-id="b036f-121">Controleer of de verkoop- en kostprijzen beschikbaar zijn.</span><span class="sxs-lookup"><span data-stu-id="b036f-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="b036f-122">Als deze niet beschikbaar zijn maar wel zijn vereist, moet u de informatie invoeren.</span><span class="sxs-lookup"><span data-stu-id="b036f-122">If they are not available but needed, enter the information.</span></span>  
+14. <span data-ttu-id="b036f-123">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b036f-123">Click Save.</span></span>
 
 

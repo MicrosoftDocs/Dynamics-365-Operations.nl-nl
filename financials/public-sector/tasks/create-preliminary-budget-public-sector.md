@@ -17,39 +17,39 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: df83465dafead715fa83386861acd06ca6bdd809
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a2c2dab44d771a7e7b662c808912940eed7473c5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-preliminary-budget-for-public-sector"></a>Een voorlopig budget maken voor de openbare sector
+# <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="e7984-103">Een voorlopig budget maken voor de openbare sector</span><span class="sxs-lookup"><span data-stu-id="e7984-103">Create a preliminary budget for public sector</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-U kunt voorlopige budgetregisterregels maken voor een specifiek budgetmodel en dimensiewaarden. Nadat het werkelijke budget is goedgekeurd, kunt u oorspronkelijke budgetjournaalregels maken. Deze procedure werd gemaakt met de demogegevens van het bedrijf PSUS in de partitie van openbare sector.
+<span data-ttu-id="e7984-104">U kunt voorlopige budgetregisterregels maken voor een specifiek budgetmodel en dimensiewaarden.</span><span class="sxs-lookup"><span data-stu-id="e7984-104">You can create preliminary budget register entries for a specific budget model and dimension values.</span></span> <span data-ttu-id="e7984-105">Nadat het werkelijke budget is goedgekeurd, kunt u oorspronkelijke budgetjournaalregels maken.</span><span class="sxs-lookup"><span data-stu-id="e7984-105">After the actual budget is approved, you can create original budget register entries.</span></span> <span data-ttu-id="e7984-106">Deze procedure werd gemaakt met de demogegevens van het bedrijf PSUS in de partitie van openbare sector.</span><span class="sxs-lookup"><span data-stu-id="e7984-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. Ga naar Budgettering > Budgetregisterregels.
-2. Klik op Nieuw.
-3. Klik in het veld Budgetmodel op de vervolgkeuzeknop om de zoekopdracht te openen.
-4. Zoek en selecteer het gewenste record in de lijst.
-5. Klik in het veld Budgetcode op de vervolgkeuzeknop om de zoekopdracht te openen.
-6. Zoek en selecteer het gewenste record in de lijst.
-7. Klik in het veld Redencode op de vervolgkeuzeknop om de zoekopdracht te openen.
-8. Klik in de lijst op het gewenste record.
-9. Klik op Opslaan.
-10. Klik op Regel toevoegen.
-    * Optioneel: als u een andere datum wilt dan de datum in de koptekst, voert een nieuwe datum in. Deze datum bepaalt de boekperiode waarvoor het budget wordt vastgelegd. Wanneer u de taakbegeleiding bekijkt en andere velden wilt invullen, klikt u boven aan de pagina op Ontgrendelen.  
-11. Klik in het veld Rekeningstructuur op de vervolgkeuzeknop om de zoekopdracht te openen.
-12. Zoek en selecteer het gewenste record in de lijst.
-13. Geef in het veld Dimensiewaarden de gewenste waarden op.
-14. Typ een getal in het veld Bedrag.
-    * U kunt ook een bedragtype invoeren.  
-15. Klik in het veld Valuta op de vervolgkeuzeknop om de zoekopdracht te openen.
-16. Zoek en selecteer de gewenste record in de lijst.
-17. Klik op Opslaan.
-18. Klik op Budgetsaldi bijwerken.
-19. Klik op Bijwerken.
-    * Om de resultaten van de update te zien, klikt u op de blauwe balk op Berichtdetails.  
+1. <span data-ttu-id="e7984-107">Ga naar Budgettering > Budgetregisterregels.</span><span class="sxs-lookup"><span data-stu-id="e7984-107">Go to Budgeting > Budget register entries.</span></span>
+2. <span data-ttu-id="e7984-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="e7984-108">Click New.</span></span>
+3. <span data-ttu-id="e7984-109">Klik in het veld Budgetmodel op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e7984-109">In the Budget model field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="e7984-110">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="e7984-110">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="e7984-111">Klik in het veld Budgetcode op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e7984-111">In the Budget code field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="e7984-112">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="e7984-112">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="e7984-113">Klik in het veld Redencode op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e7984-113">In the Reason code field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="e7984-114">Klik in de lijst op het gewenste record.</span><span class="sxs-lookup"><span data-stu-id="e7984-114">In the list, click the desired record.</span></span>
+9. <span data-ttu-id="e7984-115">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="e7984-115">Click Save.</span></span>
+10. <span data-ttu-id="e7984-116">Klik op Regel toevoegen.</span><span class="sxs-lookup"><span data-stu-id="e7984-116">Click Add line.</span></span>
+    * <span data-ttu-id="e7984-117">Optioneel: als u een andere datum wilt dan de datum in de koptekst, voert een nieuwe datum in.</span><span class="sxs-lookup"><span data-stu-id="e7984-117">Optional: If you want to change the date from the one in the header, enter a new date.</span></span> <span data-ttu-id="e7984-118">Deze datum bepaalt de boekperiode waarvoor het budget wordt vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="e7984-118">This date determines the fiscal period that the budget will be recorded to.</span></span> <span data-ttu-id="e7984-119">Wanneer u de taakbegeleiding bekijkt en andere velden wilt invullen, klikt u boven aan de pagina op Ontgrendelen.</span><span class="sxs-lookup"><span data-stu-id="e7984-119">When viewing the task guide, to fill out other fields, click Unlock at the top of the page.</span></span>  
+11. <span data-ttu-id="e7984-120">Klik in het veld Rekeningstructuur op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e7984-120">In the Account structure field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="e7984-121">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="e7984-121">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="e7984-122">Geef in het veld Dimensiewaarden de gewenste waarden op.</span><span class="sxs-lookup"><span data-stu-id="e7984-122">In the Dimension values field, specify the desired values.</span></span>
+14. <span data-ttu-id="e7984-123">Typ een getal in het veld Bedrag.</span><span class="sxs-lookup"><span data-stu-id="e7984-123">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="e7984-124">U kunt ook een bedragtype invoeren.</span><span class="sxs-lookup"><span data-stu-id="e7984-124">You can also enter an amount type.</span></span>  
+15. <span data-ttu-id="e7984-125">Klik in het veld Valuta op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e7984-125">In the Currency field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="e7984-126">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="e7984-126">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="e7984-127">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="e7984-127">Click Save.</span></span>
+18. <span data-ttu-id="e7984-128">Klik op Budgetsaldi bijwerken.</span><span class="sxs-lookup"><span data-stu-id="e7984-128">Click Update budget balances.</span></span>
+19. <span data-ttu-id="e7984-129">Klik op Bijwerken.</span><span class="sxs-lookup"><span data-stu-id="e7984-129">Click Update.</span></span>
+    * <span data-ttu-id="e7984-130">Om de resultaten van de update te zien, klikt u op de blauwe balk op Berichtdetails.</span><span class="sxs-lookup"><span data-stu-id="e7984-130">To see the results of the update, click Message details on the blue bar.</span></span>  
 
 

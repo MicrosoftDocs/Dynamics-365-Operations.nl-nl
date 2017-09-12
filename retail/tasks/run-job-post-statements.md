@@ -17,29 +17,29 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: d111e914ef24b328d26fc88c059f51180fa02ee3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0e2dae54cc9ccfc0a85046c5478e539585c3744d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-and-run-a-job-to-post-statements"></a> Een taak configureren en uitvoeren om overzichten te boeken
+# <a name="configure-and-run-a-job-to-post-statements"></a><span data-ttu-id="af6ff-103"> Een taak configureren en uitvoeren om overzichten te boeken</span><span class="sxs-lookup"><span data-stu-id="af6ff-103">Configure and run a job to post statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Deze procedure doorloopt de configuratie en uitvoering van een terugkerende batchtaak om overzichten te boeken voor een geselecteerde winkel of groep winkels. Deze procedure gebruikt het demobedrijf USRT.
+<span data-ttu-id="af6ff-104">Deze procedure doorloopt de configuratie en uitvoering van een terugkerende batchtaak om overzichten te boeken voor een geselecteerde winkel of groep winkels.</span><span class="sxs-lookup"><span data-stu-id="af6ff-104">This procedure walks through configuring and running a recurrent batch job to post statements for a selected store or group of stores.</span></span> <span data-ttu-id="af6ff-105">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="af6ff-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. Ga naar Alle werkgebieden > .. > Financiën van detailhandelwinkel.
-2. Klik op Overzichten boeken.
-    * Selecteer een organisatiehiërarchie en selecteer vervolgens in de structuur van organisatieknooppunten een individuele winkel of een knooppunt. Selecteer een knooppunt als u de batchtaak wilt maken voor een groep winkels.  
-    * Klik op de pijl om uw selectie toe te voegen.  
-3. Klik op het tabblad Op de achtergrond uitvoeren.
-4. Schakel het selectievakje Batchverwerking in of uit.
-5. Klik op Terugkeerpatroon.
-6. Voer een datum in het veld Startdatum in.
-7. Voer een tijd in het veld Begintijd in.
-    * Kies of u de herhaling wilt beëindigen na een bepaald aantal uitvoeringen, op een specifieke datum of nooit. Kies vervolgens de verschillende opties om te bepalen hoe vaak u de taak wilt uitvoeren.  
-8. Klik op OK.
-9. Klik op OK.
+1. <span data-ttu-id="af6ff-106">Ga naar Alle werkgebieden > ..</span><span class="sxs-lookup"><span data-stu-id="af6ff-106">Go to All workspaces > ..</span></span> <span data-ttu-id="af6ff-107">> Financiën van detailhandelwinkel.</span><span class="sxs-lookup"><span data-stu-id="af6ff-107">> Retail store financials.</span></span>
+2. <span data-ttu-id="af6ff-108">Klik op Overzichten boeken.</span><span class="sxs-lookup"><span data-stu-id="af6ff-108">Click Post statements.</span></span>
+    * <span data-ttu-id="af6ff-109">Selecteer een organisatiehiërarchie en selecteer vervolgens in de structuur van organisatieknooppunten een individuele winkel of een knooppunt.</span><span class="sxs-lookup"><span data-stu-id="af6ff-109">Select an organizational hierarchy and then in the organization nodes tree, select either an individual store or a node.</span></span> <span data-ttu-id="af6ff-110">Selecteer een knooppunt als u de batchtaak wilt maken voor een groep winkels.</span><span class="sxs-lookup"><span data-stu-id="af6ff-110">Select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="af6ff-111">Klik op de pijl om uw selectie toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="af6ff-111">Click the arrow to add your selection.</span></span>  
+3. <span data-ttu-id="af6ff-112">Klik op het tabblad Op de achtergrond uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="af6ff-112">Click the Run in the background tab.</span></span>
+4. <span data-ttu-id="af6ff-113">Schakel het selectievakje Batchverwerking in of uit.</span><span class="sxs-lookup"><span data-stu-id="af6ff-113">Check or uncheck the Batch processing checkbox.</span></span>
+5. <span data-ttu-id="af6ff-114">Klik op Terugkeerpatroon.</span><span class="sxs-lookup"><span data-stu-id="af6ff-114">Click Recurrence.</span></span>
+6. <span data-ttu-id="af6ff-115">Voer een datum in het veld Startdatum in.</span><span class="sxs-lookup"><span data-stu-id="af6ff-115">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="af6ff-116">Voer een tijd in het veld Begintijd in.</span><span class="sxs-lookup"><span data-stu-id="af6ff-116">In the Start time field, enter a time.</span></span>
+    * <span data-ttu-id="af6ff-117">Kies of u de herhaling wilt beëindigen na een bepaald aantal uitvoeringen, op een specifieke datum of nooit.</span><span class="sxs-lookup"><span data-stu-id="af6ff-117">Choose whether you want to end the recurrence after a specific number of runs, at a specific date, or never.</span></span> <span data-ttu-id="af6ff-118">Kies vervolgens de verschillende opties om te bepalen hoe vaak u de taak wilt uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="af6ff-118">Then choose the various options to define how frequently you want the job to run.</span></span>  
+8. <span data-ttu-id="af6ff-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="af6ff-119">Click OK.</span></span>
+9. <span data-ttu-id="af6ff-120">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="af6ff-120">Click OK.</span></span>
 
 

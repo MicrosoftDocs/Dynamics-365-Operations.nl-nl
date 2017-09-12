@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>Gecentraliseerde betalingen voor leveranciers
+# <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="23134-105">Gecentraliseerde betalingen voor leveranciers</span><span class="sxs-lookup"><span data-stu-id="23134-105">Centralized payments for Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door één rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeven dezelfde betalingen niet in meerdere rechtspersonen worden ingevoerd. Dit artikel bevat voorbeelden die laten zien hoe de boeking voor gecentraliseerde betalingen in diverse scenario's wordt verwerkt.
+<span data-ttu-id="23134-106">Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door één rechtspersoon te gebruiken die alle betalingen verwerkt.</span><span class="sxs-lookup"><span data-stu-id="23134-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="23134-107">Daarom hoeven dezelfde betalingen niet in meerdere rechtspersonen worden ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="23134-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="23134-108">Dit artikel bevat voorbeelden die laten zien hoe de boeking voor gecentraliseerde betalingen in diverse scenario's wordt verwerkt.</span><span class="sxs-lookup"><span data-stu-id="23134-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeven dezelfde betalingen niet in meerdere rechtspersonen worden ingevoerd. Bovendien bespaart de organisatie tijd, omdat het betalingsproces wordt gestroomlijnd.
+<span data-ttu-id="23134-109">Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt.</span><span class="sxs-lookup"><span data-stu-id="23134-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="23134-110">Daarom hoeven dezelfde betalingen niet in meerdere rechtspersonen worden ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="23134-110">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="23134-111">Bovendien bespaart de organisatie tijd, omdat het betalingsproces wordt gestroomlijnd.</span><span class="sxs-lookup"><span data-stu-id="23134-111">Additionally, the organization saves time, because the payment process is streamlined.</span></span>
 
-In een gecentraliseerde betalingsorganisatie zijn vele rechtspersonen voor verwerkingen, en iedere werkende rechtspersoon beheert zijn eigen leveranciersfacturen. Betalingen voor alle werkende rechtspersonen worden door één rechtspersoon gegenereerd, die de rechtspersoon van de betaling wordt genoemd. Tijdens het vereffeningsproces worden de toepasselijke transacties voor betaling aan en betaling van gegenereerd. U kunt opgeven welke rechtspersoon binnen de organisatie de gerealiseerde winst- of verliestransacties ontvangt, en hoe contantkortingstransacties met betrekking tot een betaling tussen meerdere bedrijven worden verwerkt. 
+<span data-ttu-id="23134-112">In een gecentraliseerde betalingsorganisatie zijn vele rechtspersonen voor verwerkingen, en iedere werkende rechtspersoon beheert zijn eigen leveranciersfacturen.</span><span class="sxs-lookup"><span data-stu-id="23134-112">In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices.</span></span> <span data-ttu-id="23134-113">Betalingen voor alle werkende rechtspersonen worden door één rechtspersoon gegenereerd, die de rechtspersoon van de betaling wordt genoemd.</span><span class="sxs-lookup"><span data-stu-id="23134-113">Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="23134-114">Tijdens het vereffeningsproces worden de toepasselijke transacties voor betaling aan en betaling van gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="23134-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="23134-115">U kunt opgeven welke rechtspersoon binnen de organisatie de gerealiseerde winst- of verliestransacties ontvangt, en hoe contantkortingstransacties met betrekking tot een betaling tussen meerdere bedrijven worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="23134-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled.</span></span> 
 
-In de volgende voorbeelden ziet u hoe boekingen in diverse scenario's worden verwerkt. Bij al deze voorbeelden is van het volgende uitgegaan:
+<span data-ttu-id="23134-116">In de volgende voorbeelden ziet u hoe boekingen in diverse scenario's worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="23134-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="23134-117">Bij al deze voorbeelden is van het volgende uitgegaan:</span><span class="sxs-lookup"><span data-stu-id="23134-117">The following configuration is assumed for all these examples:</span></span>
 
--   De rechtspersonen zijn Fabrikam, Fabrikam East, en Fabrikam West. De betalingen worden gemaakt van Fabrikam.
--   Het veld **Contantkorting boeken** op de pagina **Intercompany-boekhouding** pagina is ingesteld op **Rechtspersoon van de factuur**.
--   Het veld **Winst of verlies bij valutawissel boeken** op de pagina **Intercompany-boekhouding** pagina is ingesteld op **Rechtspersoon van de factuur**.
--   De leverancier Fourth Coffee is ingesteld als leverancier in elke rechtspersoon. De leveranciers van de verschillende rechtspersonen worden geïdentificeerd als dezelfde leverancier omdat ze dezelfde globaal adresboek-id delen.
+-   <span data-ttu-id="23134-118">De rechtspersonen zijn Fabrikam, Fabrikam East, en Fabrikam West.</span><span class="sxs-lookup"><span data-stu-id="23134-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="23134-119">De betalingen worden gemaakt van Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="23134-119">Payments are made from Fabrikam.</span></span>
+-   <span data-ttu-id="23134-120">Het veld **Contantkorting boeken** op de pagina **Intercompany-boekhouding** pagina is ingesteld op **Rechtspersoon van de factuur**.</span><span class="sxs-lookup"><span data-stu-id="23134-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="23134-121">Het veld **Winst of verlies bij valutawissel boeken** op de pagina **Intercompany-boekhouding** pagina is ingesteld op **Rechtspersoon van de factuur**.</span><span class="sxs-lookup"><span data-stu-id="23134-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="23134-122">De leverancier Fourth Coffee is ingesteld als leverancier in elke rechtspersoon.</span><span class="sxs-lookup"><span data-stu-id="23134-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="23134-123">De leveranciers van de verschillende rechtspersonen worden geïdentificeerd als dezelfde leverancier omdat ze dezelfde globaal adresboek-id delen.</span><span class="sxs-lookup"><span data-stu-id="23134-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
-| Map-ID | Leveranciersrekening | Naam          | Rechtspersoon  |
+| <span data-ttu-id="23134-124">Map-ID</span><span class="sxs-lookup"><span data-stu-id="23134-124">Directory ID</span></span> | <span data-ttu-id="23134-125">Leveranciersrekening</span><span class="sxs-lookup"><span data-stu-id="23134-125">Vendor account</span></span> | <span data-ttu-id="23134-126">Naam</span><span class="sxs-lookup"><span data-stu-id="23134-126">Name</span></span>          | <span data-ttu-id="23134-127">Rechtspersoon</span><span class="sxs-lookup"><span data-stu-id="23134-127">Legal entity</span></span>  |
 |--------------|----------------|---------------|---------------|
-| 1050         | 3004           | Fourth Coffee | Fabrikam      |
-| 1050         | 100            | Fourth Coffee | Fabrikam East |
-| 1050         | 3004           | Fourth Coffee | Fabrikam West |
+| <span data-ttu-id="23134-128">1050</span><span class="sxs-lookup"><span data-stu-id="23134-128">1050</span></span>         | <span data-ttu-id="23134-129">3004</span><span class="sxs-lookup"><span data-stu-id="23134-129">3004</span></span>           | <span data-ttu-id="23134-130">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="23134-130">Fourth Coffee</span></span> | <span data-ttu-id="23134-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="23134-131">Fabrikam</span></span>      |
+| <span data-ttu-id="23134-132">1050</span><span class="sxs-lookup"><span data-stu-id="23134-132">1050</span></span>         | <span data-ttu-id="23134-133">100</span><span class="sxs-lookup"><span data-stu-id="23134-133">100</span></span>            | <span data-ttu-id="23134-134">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="23134-134">Fourth Coffee</span></span> | <span data-ttu-id="23134-135">Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="23134-135">Fabrikam East</span></span> |
+| <span data-ttu-id="23134-136">1050</span><span class="sxs-lookup"><span data-stu-id="23134-136">1050</span></span>         | <span data-ttu-id="23134-137">3004</span><span class="sxs-lookup"><span data-stu-id="23134-137">3004</span></span>           | <span data-ttu-id="23134-138">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="23134-138">Fourth Coffee</span></span> | <span data-ttu-id="23134-139">Fabrikam West</span><span class="sxs-lookup"><span data-stu-id="23134-139">Fabrikam West</span></span> |
 
-## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a>Voorbeeld 1: leveranciersbetaling van factuur vanuit een andere rechtspersoon
-Fabrikam East heeft een openstaande factuur voor leverancierrekening 100, Fourth Coffee. Fabrikam voert een betaling in en boekt deze voor Fabrikam-leverancierrekening 3004, Fourth Coffee. De betaling wordt vereffend met de openstaande factuur.
+## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="23134-140">Voorbeeld 1: leveranciersbetaling van factuur vanuit een andere rechtspersoon</span><span class="sxs-lookup"><span data-stu-id="23134-140">Example 1: Vendor payment of invoice from another legal entity</span></span>
+<span data-ttu-id="23134-141">Fabrikam East heeft een openstaande factuur voor leverancierrekening 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-141">Fabrikam East has an open invoice for vendor account 100, Fourth Coffee.</span></span> <span data-ttu-id="23134-142">Fabrikam voert een betaling in en boekt deze voor Fabrikam-leverancierrekening 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-142">Fabrikam enters and posts a payment to Fabrikam vendor account 3004, Fourth Coffee.</span></span> <span data-ttu-id="23134-143">De betaling wordt vereffend met de openstaande factuur.</span><span class="sxs-lookup"><span data-stu-id="23134-143">The payment is settled with the open invoice.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a>Factuur wordt geboekt in Fabrikam East voor leverancier 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="23134-144">Factuur wordt geboekt in Fabrikam East voor leverancier 100</span><span class="sxs-lookup"><span data-stu-id="23134-144">Invoice is posted in Fabrikam East for vendor 100</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-145">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-145">Account</span></span>                          | <span data-ttu-id="23134-146">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-146">Debit amount</span></span> | <span data-ttu-id="23134-147">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-147">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Onkosten (Fabrikam East)          | 600,00       |               |
-| Leveranciers (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="23134-148">Onkosten (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-148">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="23134-149">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-149">600.00</span></span>       |               |
+| <span data-ttu-id="23134-150">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-150">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="23134-151">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-151">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Betaling wordt gegenereerd en geboekt in Fabrikam voor leverancier 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="23134-152">Betaling wordt gegenereerd en geboekt in Fabrikam voor leverancier 3004</span><span class="sxs-lookup"><span data-stu-id="23134-152">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Rekening                     | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-153">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-153">Account</span></span>                     | <span data-ttu-id="23134-154">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-154">Debit amount</span></span> | <span data-ttu-id="23134-155">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-155">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Leveranciers (Fabrikam) | 600,00       |               |
-| Contant geld (Fabrikam)             |              | 600,00        |
+| <span data-ttu-id="23134-156">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-156">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="23134-157">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-157">600.00</span></span>       |               |
+| <span data-ttu-id="23134-158">Contant geld (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-158">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="23134-159">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-159">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-betaling wordt vereffend met Fabrikam East-factuur
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="23134-160">Fabrikam-betaling wordt vereffend met Fabrikam East-factuur</span><span class="sxs-lookup"><span data-stu-id="23134-160">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam-boeking**
+<span data-ttu-id="23134-161">**Fabrikam-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-161">**Fabrikam posting**</span></span>
 
-| Rekening                           | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-162">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-162">Account</span></span>                           | <span data-ttu-id="23134-163">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-163">Debit amount</span></span> | <span data-ttu-id="23134-164">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-164">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Te betalen door Fabrikam East (Fabrikam) | 600,00       |               |
-| Leveranciers (Fabrikam)       |              | 600,00        |
+| <span data-ttu-id="23134-165">Te betalen door Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-165">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="23134-166">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-166">600.00</span></span>       |               |
+| <span data-ttu-id="23134-167">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-167">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="23134-168">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-168">600.00</span></span>        |
 
-**Fabrikam East-boeking**
+<span data-ttu-id="23134-169">**Fabrikam East-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-169">**Fabrikam East posting**</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-170">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-170">Account</span></span>                          | <span data-ttu-id="23134-171">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-171">Debit amount</span></span> | <span data-ttu-id="23134-172">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-172">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Leveranciers (Fabrikam East) | 600,00       |               |
-| Te betalen aan Fabrikam East (Fabrikam)  |              | 600,00        |
+| <span data-ttu-id="23134-173">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-173">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="23134-174">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-174">600.00</span></span>       |               |
+| <span data-ttu-id="23134-175">Te betalen aan Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-175">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="23134-176">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-176">600.00</span></span>        |
 
-## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Voorbeeld 2: leveranciersbetaling van factuur vanuit een andere rechtspersoon met contantkorting
-Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee. De factuur heeft een beschikbare contantkorting van 20,00. Fabrikam voert een betaling van 580,00 in en boekt deze voor Fabrikam-leverancier 3004, Fourth Coffee. De betaling wordt vereffend met de openstaande Fabrikam East-facturen. De contantkorting wordt geboekt naar de te betalen rechtspersoon, Fabrikam East.
+## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="23134-177">Voorbeeld 2: leveranciersbetaling van factuur vanuit een andere rechtspersoon met contantkorting</span><span class="sxs-lookup"><span data-stu-id="23134-177">Example 2: Vendor payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="23134-178">Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-178">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="23134-179">De factuur heeft een beschikbare contantkorting van 20,00.</span><span class="sxs-lookup"><span data-stu-id="23134-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="23134-180">Fabrikam voert een betaling van 580,00 in en boekt deze voor Fabrikam-leverancier 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-180">Fabrikam enters and posts a payment of 580.00 for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="23134-181">De betaling wordt vereffend met de openstaande Fabrikam East-facturen.</span><span class="sxs-lookup"><span data-stu-id="23134-181">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="23134-182">De contantkorting wordt geboekt naar de te betalen rechtspersoon, Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="23134-182">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Factuur wordt geboekt in Fabrikam East voor Fabrikam East-leverancier 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="23134-183">Factuur wordt geboekt in Fabrikam East voor Fabrikam East-leverancier 100</span><span class="sxs-lookup"><span data-stu-id="23134-183">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-184">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-184">Account</span></span>                          | <span data-ttu-id="23134-185">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-185">Debit amount</span></span> | <span data-ttu-id="23134-186">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-186">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Onkosten (Fabrikam East)          | 600,00       |               |
-| Leveranciers (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="23134-187">Onkosten (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-187">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="23134-188">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-188">600.00</span></span>       |               |
+| <span data-ttu-id="23134-189">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-189">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="23134-190">600,00</span><span class="sxs-lookup"><span data-stu-id="23134-190">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Betaling wordt gegenereerd en geboekt in Fabrikam voor Fabrikam-leverancier 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="23134-191">Betaling wordt gegenereerd en geboekt in Fabrikam voor Fabrikam-leverancier 3004</span><span class="sxs-lookup"><span data-stu-id="23134-191">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Rekening                     | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-192">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-192">Account</span></span>                     | <span data-ttu-id="23134-193">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-193">Debit amount</span></span> | <span data-ttu-id="23134-194">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-194">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Leveranciers (Fabrikam) | 580,00       |               |
-| Contant geld (Fabrikam)             |              | 580,00        |
+| <span data-ttu-id="23134-195">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-195">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="23134-196">580,00</span><span class="sxs-lookup"><span data-stu-id="23134-196">580.00</span></span>       |               |
+| <span data-ttu-id="23134-197">Contant geld (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-197">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="23134-198">580,00</span><span class="sxs-lookup"><span data-stu-id="23134-198">580.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-betaling wordt vereffend met Fabrikam East-factuur
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="23134-199">Fabrikam-betaling wordt vereffend met Fabrikam East-factuur</span><span class="sxs-lookup"><span data-stu-id="23134-199">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam-boeking**
+<span data-ttu-id="23134-200">**Fabrikam-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-200">**Fabrikam posting**</span></span>
 
-| Rekening                           | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-201">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-201">Account</span></span>                           | <span data-ttu-id="23134-202">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-202">Debit amount</span></span> | <span data-ttu-id="23134-203">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-203">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Te betalen door Fabrikam East (Fabrikam) | 580,00       |               |
-| Leveranciers (Fabrikam)       |              | 580,00        |
+| <span data-ttu-id="23134-204">Te betalen door Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-204">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="23134-205">580,00</span><span class="sxs-lookup"><span data-stu-id="23134-205">580.00</span></span>       |               |
+| <span data-ttu-id="23134-206">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-206">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="23134-207">580,00</span><span class="sxs-lookup"><span data-stu-id="23134-207">580.00</span></span>        |
 
-**Fabrikam East-boeking**
+<span data-ttu-id="23134-208">**Fabrikam East-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-208">**Fabrikam East posting**</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-209">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-209">Account</span></span>                          | <span data-ttu-id="23134-210">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-210">Debit amount</span></span> | <span data-ttu-id="23134-211">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-211">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Leveranciers (Fabrikam East) | 580,00       |               |
-| Te betalen aan Fabrikam (Fabrikam East)  |              | 580,00        |
-| Leveranciers (Fabrikam East) | 20,00        |               |
-| Contantkorting (Fabrikam East)    |              | 20,00         |
+| <span data-ttu-id="23134-212">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-212">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="23134-213">580,00</span><span class="sxs-lookup"><span data-stu-id="23134-213">580.00</span></span>       |               |
+| <span data-ttu-id="23134-214">Te betalen aan Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-214">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="23134-215">580,00</span><span class="sxs-lookup"><span data-stu-id="23134-215">580.00</span></span>        |
+| <span data-ttu-id="23134-216">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-216">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="23134-217">20,00</span><span class="sxs-lookup"><span data-stu-id="23134-217">20.00</span></span>        |               |
+| <span data-ttu-id="23134-218">Contantkorting (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-218">Cash discount (Fabrikam East)</span></span>    |              | <span data-ttu-id="23134-219">20,00</span><span class="sxs-lookup"><span data-stu-id="23134-219">20.00</span></span>         |
 
-## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>Voorbeeld 3: leverancierbetaling van factuur door een andere rechtspersoon met gerealiseerd wisselkoersverlies
-Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee. Fabrikam voert een betaling in en boekt deze voor Fabrikam-leverancier 3004, Fourth Coffee. De betaling wordt vereffend met de openstaande Fabrikam East-factuur. Er wordt een valutawisselverliestransactie tijdens het vereffeningsproces gegenereerd.
+## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a><span data-ttu-id="23134-220">Voorbeeld 3: leverancierbetaling van factuur door een andere rechtspersoon met gerealiseerd wisselkoersverlies</span><span class="sxs-lookup"><span data-stu-id="23134-220">Example 3: Vendor payment of invoice from another legal entity with realized exchange rate loss</span></span>
+<span data-ttu-id="23134-221">Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-221">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="23134-222">Fabrikam voert een betaling in en boekt deze voor Fabrikam-leverancier 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-222">Fabrikam enters and posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="23134-223">De betaling wordt vereffend met de openstaande Fabrikam East-factuur.</span><span class="sxs-lookup"><span data-stu-id="23134-223">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="23134-224">Er wordt een valutawisselverliestransactie tijdens het vereffeningsproces gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="23134-224">A currency exchange loss transaction is generated during the settlement process.</span></span>
 
--   De wisselkoers van de euro naar USD was op de factuurdatum: 1,2062
--   De wisselkoers van de euro naar USD was op de betalingsdatum: 1.2277
+-   <span data-ttu-id="23134-225">De wisselkoers van de euro naar USD was op de factuurdatum: 1,2062</span><span class="sxs-lookup"><span data-stu-id="23134-225">Exchange rate for euros (EUR) to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="23134-226">De wisselkoers van de euro naar USD was op de betalingsdatum: 1.2277</span><span class="sxs-lookup"><span data-stu-id="23134-226">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Factuur wordt geboekt in Fabrikam East voor Fabrikam East-leverancier 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="23134-227">Factuur wordt geboekt in Fabrikam East voor Fabrikam East-leverancier 100</span><span class="sxs-lookup"><span data-stu-id="23134-227">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Rekening                          | Debetbedrag            | Creditbedrag           |
+| <span data-ttu-id="23134-228">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-228">Account</span></span>                          | <span data-ttu-id="23134-229">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-229">Debit amount</span></span>            | <span data-ttu-id="23134-230">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-230">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Onkosten (Fabrikam East)          | 600,00 EUR / 723,72 USD |                         |
-| Leveranciers (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="23134-231">Onkosten (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-231">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="23134-232">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="23134-232">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="23134-233">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-233">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="23134-234">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="23134-234">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Betaling wordt gegenereerd en geboekt in Fabrikam voor Fabrikam-leverancier 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="23134-235">Betaling wordt gegenereerd en geboekt in Fabrikam voor Fabrikam-leverancier 3004</span><span class="sxs-lookup"><span data-stu-id="23134-235">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Rekening                     | Debetbedrag            | Creditbedrag           |
+| <span data-ttu-id="23134-236">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-236">Account</span></span>                     | <span data-ttu-id="23134-237">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-237">Debit amount</span></span>            | <span data-ttu-id="23134-238">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-238">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Leveranciers (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Contant geld (Fabrikam)             |                         | 600,00 EUR / 736,62 USD |
+| <span data-ttu-id="23134-239">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-239">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="23134-240">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="23134-240">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="23134-241">Contant geld (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-241">Cash (Fabrikam)</span></span>             |                         | <span data-ttu-id="23134-242">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="23134-242">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-betaling wordt vereffend met Fabrikam East-factuur
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="23134-243">Fabrikam-betaling wordt vereffend met Fabrikam East-factuur</span><span class="sxs-lookup"><span data-stu-id="23134-243">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam-boeking**
+<span data-ttu-id="23134-244">**Fabrikam-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-244">**Fabrikam posting**</span></span>
 
-| Rekening                           | Debetbedrag            | Creditbedrag           |
+| <span data-ttu-id="23134-245">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-245">Account</span></span>                           | <span data-ttu-id="23134-246">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-246">Debit amount</span></span>            | <span data-ttu-id="23134-247">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-247">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Te betalen door Fabrikam East (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Leveranciers (Fabrikam)       |                         | 600,00 EUR / 736,62 USD |
-| Gerealiseerd verlies (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
-| Te betalen door Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="23134-248">Te betalen door Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-248">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="23134-249">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="23134-249">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="23134-250">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-250">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="23134-251">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="23134-251">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="23134-252">Gerealiseerd verlies (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-252">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="23134-253">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="23134-253">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="23134-254">Te betalen door Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-254">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="23134-255">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="23134-255">0.00 EUR / 12.90 USD</span></span>    |
 
-**Fabrikam East-boeking**
+<span data-ttu-id="23134-256">**Fabrikam East-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-256">**Fabrikam East posting**</span></span>
 
-| Rekening                          | Debetbedrag            | Creditbedrag           |
+| <span data-ttu-id="23134-257">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-257">Account</span></span>                          | <span data-ttu-id="23134-258">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-258">Debit amount</span></span>            | <span data-ttu-id="23134-259">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-259">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Leveranciers (Fabrikam East) | 600,00 EUR / 736,62 USD |                         |
-| Te betalen aan Fabrikam (Fabrikam East)  |                         | 600,00 EUR / 736,62 USD |
-| Te betalen aan Fabrikam (Fabrikam East)  | 0,00 EUR / 12,90 USD    |                         |
-| Leveranciers (Fabrikam East) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="23134-260">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-260">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="23134-261">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="23134-261">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="23134-262">Te betalen aan Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-262">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="23134-263">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="23134-263">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="23134-264">Te betalen aan Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-264">Due to Fabrikam (Fabrikam East)</span></span>  | <span data-ttu-id="23134-265">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="23134-265">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="23134-266">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-266">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="23134-267">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="23134-267">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>Voorbeeld 4: leveranciersbetaling van factuur vanuit een andere rechtspersoon met contantkorting en gerealiseerd verlies door wisselkoers
-Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee. Op de factuur is een contantkorting gegeven en er is een btw-transactie gegenereerd. Fabrikam boekt een betaling voor Fabrikam-leverancier 3004, Fourth Coffee. De betaling wordt vereffend met de openstaande Fabrikam East-factuur. Er wordt een valutawisselverliestransactie tijdens het vereffeningsproces gegenereerd. De contantkorting wordt naar de te betalen rechtspersoon (Fabrikam East) geboekt en het verlies bij valutawissel wordt naar de te factureren rechtspersoon (Fabrikam) geboekt.
+## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a><span data-ttu-id="23134-268">Voorbeeld 4: leveranciersbetaling van factuur vanuit een andere rechtspersoon met contantkorting en gerealiseerd verlies door wisselkoers</span><span class="sxs-lookup"><span data-stu-id="23134-268">Example 4: Vendor payment of invoice from another legal entity with cash discount and realized exchange rate loss</span></span>
+<span data-ttu-id="23134-269">Fabrikam East heeft een openstaande factuur voor leverancier 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-269">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="23134-270">Op de factuur is een contantkorting gegeven en er is een btw-transactie gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="23134-270">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="23134-271">Fabrikam boekt een betaling voor Fabrikam-leverancier 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-271">Fabrikam posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="23134-272">De betaling wordt vereffend met de openstaande Fabrikam East-factuur.</span><span class="sxs-lookup"><span data-stu-id="23134-272">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="23134-273">Er wordt een valutawisselverliestransactie tijdens het vereffeningsproces gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="23134-273">A currency exchange loss transaction is generated during the settlement process.</span></span> <span data-ttu-id="23134-274">De contantkorting wordt naar de te betalen rechtspersoon (Fabrikam East) geboekt en het verlies bij valutawissel wordt naar de te factureren rechtspersoon (Fabrikam) geboekt.</span><span class="sxs-lookup"><span data-stu-id="23134-274">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange loss is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   De wisselkoers van de euro naar USD was op de factuurdatum: 1.2062
--   De wisselkoers van de euro naar USD was op de betalingsdatum: 1.2277
+-   <span data-ttu-id="23134-275">De wisselkoers van de euro naar USD was op de factuurdatum: 1.2062</span><span class="sxs-lookup"><span data-stu-id="23134-275">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="23134-276">De wisselkoers van de euro naar USD was op de betalingsdatum: 1.2277</span><span class="sxs-lookup"><span data-stu-id="23134-276">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a>Factuur wordt geboekt en er wordt een belastingtransactie gegenereerd in Fabrikam East voor leverancier 100
+### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="23134-277">Factuur wordt geboekt en er wordt een belastingtransactie gegenereerd in Fabrikam East voor leverancier 100</span><span class="sxs-lookup"><span data-stu-id="23134-277">Invoice is posted and a tax transaction is generated in Fabrikam East for vendor 100</span></span>
 
-| Rekening                          | Debetbedrag            | Creditbedrag           |
+| <span data-ttu-id="23134-278">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-278">Account</span></span>                          | <span data-ttu-id="23134-279">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-279">Debit amount</span></span>            | <span data-ttu-id="23134-280">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-280">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Onkosten (Fabrikam East)          | 564,07 EUR / 680,38 USD |                         |
-| Btw (Fabrikam East)        | 35,93 EUR / 43,34 USD   |                         |
-| Leveranciers (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="23134-281">Onkosten (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-281">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="23134-282">564,07 EUR / 680,38 USD</span><span class="sxs-lookup"><span data-stu-id="23134-282">564.07 EUR / 680.38 USD</span></span> |                         |
+| <span data-ttu-id="23134-283">Btw (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-283">Sales tax (Fabrikam East)</span></span>        | <span data-ttu-id="23134-284">35,93 EUR / 43,34 USD</span><span class="sxs-lookup"><span data-stu-id="23134-284">35.93 EUR / 43.34 USD</span></span>   |                         |
+| <span data-ttu-id="23134-285">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-285">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="23134-286">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="23134-286">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Betaling wordt gegenereerd en geboekt in Fabrikam voor leverancier 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="23134-287">Betaling wordt gegenereerd en geboekt in Fabrikam voor leverancier 3004</span><span class="sxs-lookup"><span data-stu-id="23134-287">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Rekening                     | Debetbedrag            | Creditbedrag           |
+| <span data-ttu-id="23134-288">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-288">Account</span></span>                     | <span data-ttu-id="23134-289">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-289">Debit amount</span></span>            | <span data-ttu-id="23134-290">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-290">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Leveranciers (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Contant geld (Fabrikam East)        |                         | 588,72 EUR / 722,77 USD |
+| <span data-ttu-id="23134-291">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-291">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="23134-292">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="23134-292">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="23134-293">Contant geld (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-293">Cash (Fabrikam East)</span></span>        |                         | <span data-ttu-id="23134-294">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="23134-294">588.72 EUR / 722.77 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam-betaling wordt vereffend met Fabrikam East-factuur
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="23134-295">Fabrikam-betaling wordt vereffend met Fabrikam East-factuur</span><span class="sxs-lookup"><span data-stu-id="23134-295">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam-boeking**
+<span data-ttu-id="23134-296">**Fabrikam-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-296">**Fabrikam posting**</span></span>
 
-| Rekening                           | Debetbedrag            | Creditbedrag           |
+| <span data-ttu-id="23134-297">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-297">Account</span></span>                           | <span data-ttu-id="23134-298">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-298">Debit amount</span></span>            | <span data-ttu-id="23134-299">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-299">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Te betalen door Fabrikam East (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Leveranciers (Fabrikam)       |                         | 588,72 EUR / 722,77 USD |
-| Gerealiseerd verlies (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
-| Te betalen door Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
+| <span data-ttu-id="23134-300">Te betalen door Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-300">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="23134-301">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="23134-301">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="23134-302">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-302">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="23134-303">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="23134-303">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="23134-304">Gerealiseerd verlies (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-304">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="23134-305">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="23134-305">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="23134-306">Te betalen door Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-306">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="23134-307">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="23134-307">0.00 EUR / 12.66 USD</span></span>    |
 
-**Fabrikam East-boeking**
+<span data-ttu-id="23134-308">**Fabrikam East-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-308">**Fabrikam East posting**</span></span>
 
-| Rekening                          | Debetbedrag            | Creditbedrag           |
+| <span data-ttu-id="23134-309">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-309">Account</span></span>                          | <span data-ttu-id="23134-310">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-310">Debit amount</span></span>            | <span data-ttu-id="23134-311">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-311">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Leveranciers (Fabrikam East) | 588,72 EUR / 722,77 USD |                         |
-| Te betalen aan Fabrikam (Fabrikam East)  |                         | 588,72 EUR / 722,77 USD |
-| Te betalen aan Fabrikam (Fabrikam East)   | 0,00 EUR / 12,66 USD    |                         |
-| Leveranciers (Fabrikam East) |                         | 0,00 EUR / 12,66 USD    |
-| Leveranciers (Fabrikam East) | 11,28 EUR / 13,61 USD   |                         |
-| Contantkorting (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
+| <span data-ttu-id="23134-312">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-312">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="23134-313">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="23134-313">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="23134-314">Te betalen aan Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-314">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="23134-315">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="23134-315">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="23134-316">Te betalen aan Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-316">Due to Fabrikam (Fabrikam East</span></span>   | <span data-ttu-id="23134-317">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="23134-317">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="23134-318">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-318">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="23134-319">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="23134-319">0.00 EUR / 12.66 USD</span></span>    |
+| <span data-ttu-id="23134-320">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-320">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="23134-321">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="23134-321">11.28 EUR / 13.61 USD</span></span>   |                         |
+| <span data-ttu-id="23134-322">Contantkorting (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-322">Cash discount (Fabrikam East)</span></span>    |                         | <span data-ttu-id="23134-323">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="23134-323">11.28 EUR / 13.61 USD</span></span>   |
 
-## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Voorbeeld 5: creditnota van leverancier met primaire betaling
-Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-leverancier 3004 en een openstaande creditnota voor Fabrikam East-leverancier 100. De betaling wordt als de primaire betaling op de pagina **Transacties vereffenen** geselecteerd.
+## <a name="example-5-vendor-credit-note-with-primary-payment"></a><span data-ttu-id="23134-324">Voorbeeld 5: creditnota van leverancier met primaire betaling</span><span class="sxs-lookup"><span data-stu-id="23134-324">Example 5: Vendor credit note with primary payment</span></span>
+<span data-ttu-id="23134-325">Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-325">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="23134-326">De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-leverancier 3004 en een openstaande creditnota voor Fabrikam East-leverancier 100.</span><span class="sxs-lookup"><span data-stu-id="23134-326">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="23134-327">De betaling wordt als de primaire betaling op de pagina **Transacties vereffenen** geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="23134-327">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Factuur wordt geboekt naar Fabrikam West voor leverancier 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="23134-328">Factuur wordt geboekt naar Fabrikam West voor leverancier 3004</span><span class="sxs-lookup"><span data-stu-id="23134-328">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-329">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-329">Account</span></span>                          | <span data-ttu-id="23134-330">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-330">Debit amount</span></span> | <span data-ttu-id="23134-331">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-331">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Onkosten (Fabrikam West)          | 100,00       |               |
-| Leveranciers (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="23134-332">Onkosten (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-332">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="23134-333">100,00</span><span class="sxs-lookup"><span data-stu-id="23134-333">100.00</span></span>       |               |
+| <span data-ttu-id="23134-334">Leveranciers (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-334">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="23134-335">100,00</span><span class="sxs-lookup"><span data-stu-id="23134-335">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Creditnota wordt geboekt naar Fabrikam East voor leverancier 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="23134-336">Creditnota wordt geboekt naar Fabrikam East voor leverancier 100</span><span class="sxs-lookup"><span data-stu-id="23134-336">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-337">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-337">Account</span></span>                          | <span data-ttu-id="23134-338">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-338">Debit amount</span></span> | <span data-ttu-id="23134-339">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-339">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Leveranciers (Fabrikam East) | 25,00        |               |
-| Inkoopretouren (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="23134-340">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-340">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="23134-341">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-341">25.00</span></span>        |               |
+| <span data-ttu-id="23134-342">Inkoopretouren (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-342">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="23134-343">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-343">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Betaling wordt geboekt naar Fabrikam voor leverancier 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="23134-344">Betaling wordt geboekt naar Fabrikam voor leverancier 3004</span><span class="sxs-lookup"><span data-stu-id="23134-344">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Rekening                     | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-345">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-345">Account</span></span>                     | <span data-ttu-id="23134-346">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-346">Debit amount</span></span> | <span data-ttu-id="23134-347">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-347">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Leveranciers (Fabrikam) | 75,00        |               |
-| Contant geld (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="23134-348">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-348">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="23134-349">75,00</span><span class="sxs-lookup"><span data-stu-id="23134-349">75.00</span></span>        |               |
+| <span data-ttu-id="23134-350">Contant geld (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-350">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="23134-351">75,00</span><span class="sxs-lookup"><span data-stu-id="23134-351">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam-betaling wordt vereffend met Fabrikam West-factuur en Fabrikam East-creditnota
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="23134-352">Fabrikam-betaling wordt vereffend met Fabrikam West-factuur en Fabrikam East-creditnota</span><span class="sxs-lookup"><span data-stu-id="23134-352">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam-boeking**
+<span data-ttu-id="23134-353">**Fabrikam-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-353">**Fabrikam posting**</span></span>
 
-| Rekening                           | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-354">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-354">Account</span></span>                           | <span data-ttu-id="23134-355">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-355">Debit amount</span></span> | <span data-ttu-id="23134-356">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-356">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Leveranciers (Fabrikam)       | 25,00        |               |
-| Te betalen aan Fabrikam East (Fabrikam)   |              | 25,00         |
-| Te betalen door Fabrikam West (Fabrikam) | 100,00       |               |
-| Leveranciers (Fabrikam)       |              | 100,00        |
+| <span data-ttu-id="23134-357">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-357">Accounts payable (Fabrikam)</span></span>       | <span data-ttu-id="23134-358">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-358">25.00</span></span>        |               |
+| <span data-ttu-id="23134-359">Te betalen aan Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-359">Due to Fabrikam East (Fabrikam)</span></span>   |              | <span data-ttu-id="23134-360">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-360">25.00</span></span>         |
+| <span data-ttu-id="23134-361">Te betalen door Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-361">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="23134-362">100,00</span><span class="sxs-lookup"><span data-stu-id="23134-362">100.00</span></span>       |               |
+| <span data-ttu-id="23134-363">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-363">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="23134-364">100,00</span><span class="sxs-lookup"><span data-stu-id="23134-364">100.00</span></span>        |
 
-**Fabrikam East-boeking**
+<span data-ttu-id="23134-365">**Fabrikam East-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-365">**Fabrikam East posting**</span></span>
 
-| Rekening                           | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-366">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-366">Account</span></span>                           | <span data-ttu-id="23134-367">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-367">Debit amount</span></span> | <span data-ttu-id="23134-368">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-368">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Te betalen door Fabrikam (Fabrikam East) | 25,00        |               |
-| Leveranciers (Fabrikam East)  |              | 25,00         |
+| <span data-ttu-id="23134-369">Te betalen door Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-369">Due from Fabrikam (Fabrikam East)</span></span> | <span data-ttu-id="23134-370">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-370">25.00</span></span>        |               |
+| <span data-ttu-id="23134-371">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-371">Accounts payable (Fabrikam East)</span></span>  |              | <span data-ttu-id="23134-372">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-372">25.00</span></span>         |
 
-**Fabrikam West-boeking**
+<span data-ttu-id="23134-373">**Fabrikam West-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-373">**Fabrikam West posting**</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-374">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-374">Account</span></span>                          | <span data-ttu-id="23134-375">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-375">Debit amount</span></span> | <span data-ttu-id="23134-376">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-376">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Leveranciers (Fabrikam West) | 100,00       |               |
-| Te betalen aan Fabrikam (Fabrikam West)  |              | 100,00        |
+| <span data-ttu-id="23134-377">Leveranciers (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-377">Accounts payable (Fabrikam West)</span></span> | <span data-ttu-id="23134-378">100,00</span><span class="sxs-lookup"><span data-stu-id="23134-378">100.00</span></span>       |               |
+| <span data-ttu-id="23134-379">Te betalen aan Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-379">Due to Fabrikam (Fabrikam West)</span></span>  |              | <span data-ttu-id="23134-380">100,00</span><span class="sxs-lookup"><span data-stu-id="23134-380">100.00</span></span>        |
 
-## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Voorbeeld 6: creditnota van leverancier zonder primaire betaling
-Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-leverancier 3004 en een openstaande creditnota voor Fabrikam East-leverancier 100. De betaling wordt niet als de primaire betaling op de pagina **Transacties vereffenen** geselecteerd.
+## <a name="example-6-vendor-credit-note-without-primary-payment"></a><span data-ttu-id="23134-381">Voorbeeld 6: creditnota van leverancier zonder primaire betaling</span><span class="sxs-lookup"><span data-stu-id="23134-381">Example 6: Vendor credit note without primary payment</span></span>
+<span data-ttu-id="23134-382">Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="23134-382">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="23134-383">De betaling wordt vereffend met een openstaande factuur voor Fabrikam West-leverancier 3004 en een openstaande creditnota voor Fabrikam East-leverancier 100.</span><span class="sxs-lookup"><span data-stu-id="23134-383">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="23134-384">De betaling wordt niet als de primaire betaling op de pagina **Transacties vereffenen** geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="23134-384">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Factuur wordt geboekt naar Fabrikam West voor leverancier 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="23134-385">Factuur wordt geboekt naar Fabrikam West voor leverancier 3004</span><span class="sxs-lookup"><span data-stu-id="23134-385">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-386">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-386">Account</span></span>                          | <span data-ttu-id="23134-387">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-387">Debit amount</span></span> | <span data-ttu-id="23134-388">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-388">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Onkosten (Fabrikam West)          | 100,00       |               |
-| Leveranciers (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="23134-389">Onkosten (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-389">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="23134-390">100,00</span><span class="sxs-lookup"><span data-stu-id="23134-390">100.00</span></span>       |               |
+| <span data-ttu-id="23134-391">Leveranciers (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-391">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="23134-392">100,00</span><span class="sxs-lookup"><span data-stu-id="23134-392">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Creditnota wordt geboekt naar Fabrikam East voor leverancier 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="23134-393">Creditnota wordt geboekt naar Fabrikam East voor leverancier 100</span><span class="sxs-lookup"><span data-stu-id="23134-393">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Rekening                          | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-394">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-394">Account</span></span>                          | <span data-ttu-id="23134-395">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-395">Debit amount</span></span> | <span data-ttu-id="23134-396">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-396">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Leveranciers (Fabrikam East) | 25,00        |               |
-| Inkoopretouren (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="23134-397">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-397">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="23134-398">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-398">25.00</span></span>        |               |
+| <span data-ttu-id="23134-399">Inkoopretouren (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-399">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="23134-400">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-400">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Betaling wordt geboekt naar Fabrikam voor leverancier 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="23134-401">Betaling wordt geboekt naar Fabrikam voor leverancier 3004</span><span class="sxs-lookup"><span data-stu-id="23134-401">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Rekening                     | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-402">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-402">Account</span></span>                     | <span data-ttu-id="23134-403">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-403">Debit amount</span></span> | <span data-ttu-id="23134-404">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-404">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Leveranciers (Fabrikam) | 75,00        |               |
-| Contant geld (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="23134-405">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-405">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="23134-406">75,00</span><span class="sxs-lookup"><span data-stu-id="23134-406">75.00</span></span>        |               |
+| <span data-ttu-id="23134-407">Contant geld (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-407">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="23134-408">75,00</span><span class="sxs-lookup"><span data-stu-id="23134-408">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam-betaling wordt vereffend met Fabrikam West-factuur en Fabrikam East-creditnota
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="23134-409">Fabrikam-betaling wordt vereffend met Fabrikam West-factuur en Fabrikam East-creditnota</span><span class="sxs-lookup"><span data-stu-id="23134-409">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam-boeking**
+<span data-ttu-id="23134-410">**Fabrikam-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-410">**Fabrikam posting**</span></span>
 
-| Rekening                           | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-411">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-411">Account</span></span>                           | <span data-ttu-id="23134-412">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-412">Debit amount</span></span> | <span data-ttu-id="23134-413">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-413">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Te betalen door Fabrikam West (Fabrikam) | 75,00        |               |
-| Leveranciers (Fabrikam)       |              | 75,00         |
+| <span data-ttu-id="23134-414">Te betalen door Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-414">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="23134-415">75,00</span><span class="sxs-lookup"><span data-stu-id="23134-415">75.00</span></span>        |               |
+| <span data-ttu-id="23134-416">Leveranciers (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="23134-416">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="23134-417">75,00</span><span class="sxs-lookup"><span data-stu-id="23134-417">75.00</span></span>         |
 
-**Fabrikam East-boeking**
+<span data-ttu-id="23134-418">**Fabrikam East-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-418">**Fabrikam East posting**</span></span>
 
-| Rekening                                | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-419">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-419">Account</span></span>                                | <span data-ttu-id="23134-420">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-420">Debit amount</span></span> | <span data-ttu-id="23134-421">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-421">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Te betalen door Fabrikam West (Fabrikam East) | 25,00        |               |
-| Leveranciers (Fabrikam East)       |              | 25,00         |
+| <span data-ttu-id="23134-422">Te betalen door Fabrikam West (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-422">Due from Fabrikam West (Fabrikam East)</span></span> | <span data-ttu-id="23134-423">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-423">25.00</span></span>        |               |
+| <span data-ttu-id="23134-424">Leveranciers (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="23134-424">Accounts payable (Fabrikam East)</span></span>       |              | <span data-ttu-id="23134-425">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-425">25.00</span></span>         |
 
-**Fabrikam West-boeking**
+<span data-ttu-id="23134-426">**Fabrikam West-boeking**</span><span class="sxs-lookup"><span data-stu-id="23134-426">**Fabrikam West posting**</span></span>
 
-| Rekening                              | Debetbedrag | Creditbedrag |
+| <span data-ttu-id="23134-427">Rekening</span><span class="sxs-lookup"><span data-stu-id="23134-427">Account</span></span>                              | <span data-ttu-id="23134-428">Debetbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-428">Debit amount</span></span> | <span data-ttu-id="23134-429">Creditbedrag</span><span class="sxs-lookup"><span data-stu-id="23134-429">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Leveranciers (Fabrikam West)     | 75,00        |               |
-| Te betalen aan Fabrikam (Fabrikam West)      |              | 75,00         |
-| Leveranciers (Fabrikam West)     | 25,00        |               |
-| Te betalen aan Fabrikam East (Fabrikam West) |              | 25,00         |
+| <span data-ttu-id="23134-430">Leveranciers (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-430">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="23134-431">75,00</span><span class="sxs-lookup"><span data-stu-id="23134-431">75.00</span></span>        |               |
+| <span data-ttu-id="23134-432">Te betalen aan Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-432">Due to Fabrikam (Fabrikam West)</span></span>      |              | <span data-ttu-id="23134-433">75,00</span><span class="sxs-lookup"><span data-stu-id="23134-433">75.00</span></span>         |
+| <span data-ttu-id="23134-434">Leveranciers (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-434">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="23134-435">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-435">25.00</span></span>        |               |
+| <span data-ttu-id="23134-436">Te betalen aan Fabrikam East (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="23134-436">Due to Fabrikam East (Fabrikam West)</span></span> |              | <span data-ttu-id="23134-437">25,00</span><span class="sxs-lookup"><span data-stu-id="23134-437">25.00</span></span>         |
 
 
 

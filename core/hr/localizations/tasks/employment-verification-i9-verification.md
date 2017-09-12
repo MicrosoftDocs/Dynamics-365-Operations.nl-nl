@@ -16,42 +16,42 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 2183a6599646880e3af2a76b28a40a6299401943
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0841cd664a842880f24c30090a33d846b0c08ac4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="employment-verification-using-form-i-9"></a>Verificatie van implementatie via formulier I-9
+# <a name="employment-verification-using-form-i-9"></a><span data-ttu-id="3fbd8-103">Verificatie van implementatie via formulier I-9</span><span class="sxs-lookup"><span data-stu-id="3fbd8-103">Employment verification using form I-9</span></span>
 
 [!include[task guide banner](../../../includes/task-guide-banner.md)]
 
-Volgens de Immigration Reform and Control Act moeten Amerikaanse werkgevers de arbeidsbevoegdheidsstatus van nieuwe werknemers controleren. Deze procedure doorloopt de stappen van het registreren van de benodigde documenten voor I-9-verificatie. Gebruik het bedrijf USMF voor deze procedure.
+<span data-ttu-id="3fbd8-104">Volgens de Immigration Reform and Control Act moeten Amerikaanse werkgevers de arbeidsbevoegdheidsstatus van nieuwe werknemers controleren.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-104">The Immigration Reform and Control Act requires US employers to verify the employment eligibility status of newly hired employees.</span></span> <span data-ttu-id="3fbd8-105">Deze procedure doorloopt de stappen van het registreren van de benodigde documenten voor I-9-verificatie.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-105">This procedure will walk you through the steps of recording the necessary documents for I-9 verification.</span></span> <span data-ttu-id="3fbd8-106">Gebruik het bedrijf USMF voor deze procedure.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-106">Use the USMF company for this procedure.</span></span>
 
-1. Ga naar Human resources > Medewerkers > Werknemers.
-2. Gebruik de snelfilter om records te zoeken. Filter bijvoorbeeld op het Veld Naam met een waarde van "Vince".
-3. Selecteer de werknemer. Voorbeeld: Vincent Prado
-4. Vouw het sneltabblad Persoonlijke gegevens uit.
-5. Klik op Identificatienummers.
-6. Klik op Nieuw.
-7. Selecteer het identificatietype dat u registreert. Voorbeeld: Paspoort
-8. Typ een waarde in het veld Nummer.
-9. Selecteer Ja in het veld Primair.
-10. Voer in het veld Omschrijving een korte omschrijving van de identificatierecord in.
-11. Selecteer bij Uitgevende instantie de instantie die de vorm van identificatie voor de werknemer heeft uitgegeven. Voorbeeld: Overheid
-12. Voer de datum in waarop de uitgevende instantie de vorm van identificatie voor de werknemer heeft uitgegeven. Bijvoorbeeld: 15-02-2011
-13. Voer de datum in waarop de vorm van identificatie verloopt. Bijvoorbeeld: 15-2-2021
-14. Klik op Opslaan.
-15. Sluit de pagina.
-16. Klik op het tabblad Aanstelling.
-17. Klik op I-9.
-18. Klik op Nieuw.
-19. Selecteer een optie in het veld Werkvergunningen.
-    * Als de werknemer geen Amerikaans staatsburger is, moet u het vreemdelingen- of toelatingsnummer van de werknemer opgeven.  
-20. Selecteer de optie GroupListA.
-    * De lijst die u selecteert is afhankelijk van welke vorm van identificatie de werknemer heeft opgegeven. Eenwerknemer moet één document van Lijst A opgeven of één document uit Lijst B en C. Als de werknemer bijvoorbeeld een paspoort heeft verstrekt, moet Lijst A worden geselecteerd. Als de werknemer echter alleen het rijbewijs en de identiteitskaart heeft verstrekt, moeten lijst B en C worden geselecteerd.  
-21. Selecteer in het veld I-9-documenttypen het type document dat de werknemer heeft verstrekt.
-22. Typ of selecteer een waarde in het veld Documentnummer.
-23. Klik op Opslaan.
+1. <span data-ttu-id="3fbd8-107">Ga naar Human resources > Medewerkers > Werknemers.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-107">Go to Human resources > Workers > Employees.</span></span>
+2. <span data-ttu-id="3fbd8-108">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="3fbd8-109">Filter bijvoorbeeld op het Veld Naam met een waarde van "Vince".</span><span class="sxs-lookup"><span data-stu-id="3fbd8-109">For example, filter on the Name field with a value of 'Vince'.</span></span>
+3. <span data-ttu-id="3fbd8-110">Selecteer de werknemer.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-110">Select the employee.</span></span> <span data-ttu-id="3fbd8-111">Voorbeeld: Vincent Prado</span><span class="sxs-lookup"><span data-stu-id="3fbd8-111">Example: Vince Prado</span></span>
+4. <span data-ttu-id="3fbd8-112">Vouw het sneltabblad Persoonlijke gegevens uit.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-112">Expand the Personal information FastTab.</span></span>
+5. <span data-ttu-id="3fbd8-113">Klik op Identificatienummers.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-113">Click Identification numbers.</span></span>
+6. <span data-ttu-id="3fbd8-114">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-114">Click New.</span></span>
+7. <span data-ttu-id="3fbd8-115">Selecteer het identificatietype dat u registreert.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-115">Select the identification type that you are recording.</span></span> <span data-ttu-id="3fbd8-116">Voorbeeld: Paspoort</span><span class="sxs-lookup"><span data-stu-id="3fbd8-116">Example: Passport</span></span>
+8. <span data-ttu-id="3fbd8-117">Typ een waarde in het veld Nummer.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-117">In the Number field, type a value.</span></span>
+9. <span data-ttu-id="3fbd8-118">Selecteer Ja in het veld Primair.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-118">Select Yes in the Primary field.</span></span>
+10. <span data-ttu-id="3fbd8-119">Voer in het veld Omschrijving een korte omschrijving van de identificatierecord in.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-119">In the Description field, enter a brief description of the identification record..</span></span>
+11. <span data-ttu-id="3fbd8-120">Selecteer bij Uitgevende instantie de instantie die de vorm van identificatie voor de werknemer heeft uitgegeven.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-120">In the issuing agency select the agency that issued the form of identification to the worker.</span></span> <span data-ttu-id="3fbd8-121">Voorbeeld: Overheid</span><span class="sxs-lookup"><span data-stu-id="3fbd8-121">Example: Government</span></span>
+12. <span data-ttu-id="3fbd8-122">Voer de datum in waarop de uitgevende instantie de vorm van identificatie voor de werknemer heeft uitgegeven.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-122">Enter the date that the issuing agency issued the form of identification to the worker.</span></span> <span data-ttu-id="3fbd8-123">Bijvoorbeeld: 15-02-2011</span><span class="sxs-lookup"><span data-stu-id="3fbd8-123">Example: 02/15/2011</span></span>
+13. <span data-ttu-id="3fbd8-124">Voer de datum in waarop de vorm van identificatie verloopt.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-124">Enter the date when the form of identification expires.</span></span> <span data-ttu-id="3fbd8-125">Bijvoorbeeld: 15-2-2021</span><span class="sxs-lookup"><span data-stu-id="3fbd8-125">Example: 2/15/2021</span></span>
+14. <span data-ttu-id="3fbd8-126">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-126">Click Save.</span></span>
+15. <span data-ttu-id="3fbd8-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-127">Close the page.</span></span>
+16. <span data-ttu-id="3fbd8-128">Klik op het tabblad Aanstelling.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-128">Click the Employment tab.</span></span>
+17. <span data-ttu-id="3fbd8-129">Klik op I-9.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-129">Click I-9.</span></span>
+18. <span data-ttu-id="3fbd8-130">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-130">Click New.</span></span>
+19. <span data-ttu-id="3fbd8-131">Selecteer een optie in het veld Werkvergunningen.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-131">In the Work eligibility field, select an option.</span></span>
+    * <span data-ttu-id="3fbd8-132">Als de werknemer geen Amerikaans staatsburger is, moet u het vreemdelingen- of toelatingsnummer van de werknemer opgeven.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-132">If the employee is not a citizen or national of the United States, you must enter the worker's resident alien or admission number.</span></span>  
+20. <span data-ttu-id="3fbd8-133">Selecteer de optie GroupListA.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-133">Select the GroupListA option.</span></span>
+    * <span data-ttu-id="3fbd8-134">De lijst die u selecteert is afhankelijk van welke vorm van identificatie de werknemer heeft opgegeven.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-134">The list that you select depends on what form of identification the worker provided.</span></span> <span data-ttu-id="3fbd8-135">Eenwerknemer moet één document van Lijst A opgeven of één document uit Lijst B en C. Als de werknemer bijvoorbeeld een paspoort heeft verstrekt, moet Lijst A worden geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-135">A worker must provide one List A document or one document from List B and C. For example, if the worker provided a passport, then List A could be selected.</span></span> <span data-ttu-id="3fbd8-136">Als de werknemer echter alleen het rijbewijs en de identiteitskaart heeft verstrekt, moeten lijst B en C worden geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-136">However, if the worker has only provided their drivers license and social security card, then list B and C must be selected.</span></span>  
+21. <span data-ttu-id="3fbd8-137">Selecteer in het veld I-9-documenttypen het type document dat de werknemer heeft verstrekt.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-137">In the I-9 document type field, select the type of document that the worker provided.</span></span>
+22. <span data-ttu-id="3fbd8-138">Typ of selecteer een waarde in het veld Documentnummer.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-138">In the Document number field, enter or select a value.</span></span>
+23. <span data-ttu-id="3fbd8-139">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="3fbd8-139">Click Save.</span></span>
 
 

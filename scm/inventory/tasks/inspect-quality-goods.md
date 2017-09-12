@@ -1,4 +1,4 @@
---- 
+---
 title: De kwaliteit van goederen inspecteren
 description: Deze procedure laat zien hoe u een kwaliteitsorder verwerkt.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,43 +17,42 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4d971d8ea83939d25c72c6c79bcfd6358d1ab9f4
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: aeed7eab750c606ea0009fa7c51baf96e2f9de51
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="inspect-the-quality-of-goods"></a>De kwaliteit van goederen inspecteren
+# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="afb18-103">De kwaliteit van goederen inspecteren</span><span class="sxs-lookup"><span data-stu-id="afb18-103">Inspect the quality of goods</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure laat zien hoe u een kwaliteitsorder verwerkt. U kunt deze handleiding uitvoeren in het demobedrijf USMF. Voordat u deze voorbeeldprocedure start, moet u aankooporder "000016" bevestigen en een productontvangst boeken. Hiermee wordt automatisch een kwaliteitsorder gemaakt. Kwaliteitscontroles worden gewoonlijk uitgevoerd door een kwaliteitsmedewerker.
+<span data-ttu-id="afb18-104">Deze procedure laat zien hoe u een kwaliteitsorder verwerkt.</span><span class="sxs-lookup"><span data-stu-id="afb18-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="afb18-105">U kunt deze handleiding uitvoeren in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="afb18-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="afb18-106">Voordat u deze voorbeeldprocedure start, moet u aankooporder "000016" bevestigen en een productontvangst boeken.</span><span class="sxs-lookup"><span data-stu-id="afb18-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="afb18-107">Hiermee wordt automatisch een kwaliteitsorder gemaakt.</span><span class="sxs-lookup"><span data-stu-id="afb18-107">This will automatically create a quality order.</span></span> <span data-ttu-id="afb18-108">Kwaliteitscontroles worden gewoonlijk uitgevoerd door een kwaliteitsmedewerker.</span><span class="sxs-lookup"><span data-stu-id="afb18-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 
 
-## <a name="select-a-quality-order"></a>Een kwaliteitsorder selecteren
-1. Ga naar Voorraadbeheer > Periodieke taken > Kwaliteitsbeheer > Kwaliteitsorders.
-2. Markeer in de lijst de geselecteerde rij.
-    * Selecteer de kwaliteitsorder die is gemaakt voordat u deze procedure hebt gestart.  
+## <a name="select-a-quality-order"></a><span data-ttu-id="afb18-109">Een kwaliteitsorder selecteren</span><span class="sxs-lookup"><span data-stu-id="afb18-109">Select a quality order</span></span>
+1. <span data-ttu-id="afb18-110">Ga naar Voorraadbeheer > Periodieke taken > Kwaliteitsbeheer > Kwaliteitsorders.</span><span class="sxs-lookup"><span data-stu-id="afb18-110">Go to Inventory management > Periodic tasks > Quality management > Quality orders.</span></span>
+2. <span data-ttu-id="afb18-111">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="afb18-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="afb18-112">Selecteer de kwaliteitsorder die is gemaakt voordat u deze procedure hebt gestart.</span><span class="sxs-lookup"><span data-stu-id="afb18-112">Select the quality order that was created before you started this procedure.</span></span>  
 
-## <a name="record-test-results"></a>Testresultaten vastleggen
-1. Klik op Resultaten.
-2. Klik op Bewerken.
-3. Voer in het veld Resultaathoeveelheid een getal in.
-4. Markeer in de lijst de geselecteerde rij.
-5. Klik in het veld Resultaat op de vervolgkeuzeknop om de zoekopdracht te openen.
-6. Zoek en selecteer de gewenste record in de lijst.
-    * In dit voorbeeld is het resultaat gebaseerd op een vooraf gedefinieerd resultaat. Normaliter registreert u een specifieker testresultaat, bijvoorbeeld een formaat of andere dimensie.  
-7. Klik in de lijst op de koppeling in de geselecteerde rij.
-8. Klik op Opslaan.
-9. Sluit de pagina.
+## <a name="record-test-results"></a><span data-ttu-id="afb18-113">Testresultaten vastleggen</span><span class="sxs-lookup"><span data-stu-id="afb18-113">Record test results</span></span>
+1. <span data-ttu-id="afb18-114">Klik op Resultaten.</span><span class="sxs-lookup"><span data-stu-id="afb18-114">Click Results.</span></span>
+2. <span data-ttu-id="afb18-115">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="afb18-115">Click Edit.</span></span>
+3. <span data-ttu-id="afb18-116">Voer in het veld Resultaathoeveelheid een getal in.</span><span class="sxs-lookup"><span data-stu-id="afb18-116">In the Result quantity field, enter a number.</span></span>
+4. <span data-ttu-id="afb18-117">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="afb18-117">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="afb18-118">Klik in het veld Resultaat op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="afb18-118">In the Outcome field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="afb18-119">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="afb18-119">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="afb18-120">In dit voorbeeld is het resultaat gebaseerd op een vooraf gedefinieerd resultaat.</span><span class="sxs-lookup"><span data-stu-id="afb18-120">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="afb18-121">Normaliter registreert u een specifieker testresultaat, bijvoorbeeld een formaat of andere dimensie.</span><span class="sxs-lookup"><span data-stu-id="afb18-121">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
+7. <span data-ttu-id="afb18-122">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="afb18-122">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="afb18-123">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="afb18-123">Click Save.</span></span>
+9. <span data-ttu-id="afb18-124">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="afb18-124">Close the page.</span></span>
 
-## <a name="validate-the-quality-order"></a>De kwaliteitsorder valideren
-1. Klik op Valideren.
-2. Klik in het veld Gevalideerd door op de vervolgkeuzeknop om de zoekopdracht te openen.
-    * Selecteer de gebruiker die de inspectie uitvoert.  
-3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Klik op Selecteren.
-5. Klik op OK.
-6. Sluit de pagina.
-
+## <a name="validate-the-quality-order"></a><span data-ttu-id="afb18-125">De kwaliteitsorder valideren</span><span class="sxs-lookup"><span data-stu-id="afb18-125">Validate the quality order</span></span>
+1. <span data-ttu-id="afb18-126">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="afb18-126">Click Validate.</span></span>
+2. <span data-ttu-id="afb18-127">Klik in het veld Gevalideerd door op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="afb18-127">In the Validated by field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="afb18-128">Selecteer de gebruiker die de inspectie uitvoert.</span><span class="sxs-lookup"><span data-stu-id="afb18-128">Select the user performing the inspection.</span></span>  
+3. <span data-ttu-id="afb18-129">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="afb18-129">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="afb18-130">Klik op Selecteren.</span><span class="sxs-lookup"><span data-stu-id="afb18-130">Click Select.</span></span>
+5. <span data-ttu-id="afb18-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="afb18-131">Click OK.</span></span>
+6. <span data-ttu-id="afb18-132">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="afb18-132">Close the page.</span></span>
 

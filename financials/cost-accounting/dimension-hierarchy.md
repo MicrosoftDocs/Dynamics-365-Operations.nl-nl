@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>Dimensiehiërarchie
+# <a name="dimension-hierarchy"></a><span data-ttu-id="cac22-104">Dimensiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="cac22-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.  
+<span data-ttu-id="cac22-105">Dit onderwerp bevat informatie over dimensiehiërarchieën.</span><span class="sxs-lookup"><span data-stu-id="cac22-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="cac22-106">U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.</span><span class="sxs-lookup"><span data-stu-id="cac22-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>Overzicht
+## <a name="overview"></a><span data-ttu-id="cac22-107">Overzicht</span><span class="sxs-lookup"><span data-stu-id="cac22-107">Overview</span></span>
 
-Dimensiehiërarchieën worden op verschillende plaatsen in Kostprijsboekhouding gebruikt. Met een dimensiehiërarchie kunt u de volgende informatie definiëren:
+<span data-ttu-id="cac22-108">Dimensiehiërarchieën worden op verschillende plaatsen in Kostprijsboekhouding gebruikt.</span><span class="sxs-lookup"><span data-stu-id="cac22-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="cac22-109">Met een dimensiehiërarchie kunt u de volgende informatie definiëren:</span><span class="sxs-lookup"><span data-stu-id="cac22-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  De rapportagestructuur die past bij de behoeften van de organisatie
--  Kostenbeleid
--  De beveiligingsinstelling
+-  <span data-ttu-id="cac22-110">De rapportagestructuur die past bij de behoeften van de organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="cac22-111">Kostenbeleid</span><span class="sxs-lookup"><span data-stu-id="cac22-111">Cost policies</span></span>
+-  <span data-ttu-id="cac22-112">De beveiligingsinstelling</span><span class="sxs-lookup"><span data-stu-id="cac22-112">The security setup</span></span>
 
-Hier volgt een voorbeeld van een dimensiehiërarchie.
+<span data-ttu-id="cac22-113">Hier volgt een voorbeeld van een dimensiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="cac22-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![Voorbeeld van een dimensiehiërarchie](./media/dimension-hierarchy.png)
 
-Een dimensiehiërarchie kan worden gemaakt voor de volgende typen dimensies:
+<span data-ttu-id="cac22-115">Een dimensiehiërarchie kan worden gemaakt voor de volgende typen dimensies:</span><span class="sxs-lookup"><span data-stu-id="cac22-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  Dimensies van kostenelement
--  Dimensies van kostenobject
--  Statistische dimensies
+-  <span data-ttu-id="cac22-116">Dimensies van kostenelement</span><span class="sxs-lookup"><span data-stu-id="cac22-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="cac22-117">Dimensies van kostenobject</span><span class="sxs-lookup"><span data-stu-id="cac22-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="cac22-118">Statistische dimensies</span><span class="sxs-lookup"><span data-stu-id="cac22-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - U kunt meerdere dimensiehiërarchieën voor dezelfde dimensie maken als verschillende perspectieven vereist zijn.
-> - Een dimensiehiërarchie kan aan slechts één dimensie worden gekoppeld.
-> - Een dimensiehiërarchie kan een onbeperkt aantal niveaus in de structuur hebben. Alle niveaus zijn beschikbaar in het werkgebied **Kostenbeheer**. Wanneer u Microsoft Excel of Microsoft Power BI voor rapportagedoeleinden gebruikt, worden alleen de eerste 15 niveaus van de dimensiehiërarchie geëxporteerd. Deze beperking geldt omdat zowel Excel als Power BI een vast schema vereisen.
-> - Een dimensiehiërarchie is niet datumeffectief. Daarom wordt een wijziging in een dimensiehiërarchie onmiddellijk in de record opgeslagen en kunt u de datum vóór en de datum na niet vergelijken.
+> - <span data-ttu-id="cac22-119">U kunt meerdere dimensiehiërarchieën voor dezelfde dimensie maken als verschillende perspectieven vereist zijn.</span><span class="sxs-lookup"><span data-stu-id="cac22-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="cac22-120">Een dimensiehiërarchie kan aan slechts één dimensie worden gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="cac22-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="cac22-121">Een dimensiehiërarchie kan een onbeperkt aantal niveaus in de structuur hebben.</span><span class="sxs-lookup"><span data-stu-id="cac22-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="cac22-122">Alle niveaus zijn beschikbaar in het werkgebied **Kostenbeheer**.</span><span class="sxs-lookup"><span data-stu-id="cac22-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="cac22-123">Wanneer u Microsoft Excel of Microsoft Power BI voor rapportagedoeleinden gebruikt, worden alleen de eerste 15 niveaus van de dimensiehiërarchie geëxporteerd.</span><span class="sxs-lookup"><span data-stu-id="cac22-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="cac22-124">Deze beperking geldt omdat zowel Excel als Power BI een vast schema vereisen.</span><span class="sxs-lookup"><span data-stu-id="cac22-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="cac22-125">Een dimensiehiërarchie is niet datumeffectief.</span><span class="sxs-lookup"><span data-stu-id="cac22-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="cac22-126">Daarom wordt een wijziging in een dimensiehiërarchie onmiddellijk in de record opgeslagen en kunt u de datum vóór en de datum na niet vergelijken.</span><span class="sxs-lookup"><span data-stu-id="cac22-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>Type dimensiehiërarchie
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="cac22-127">Type dimensiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="cac22-127">Dimension hierarchy type</span></span>
 
-Wanneer u een nieuwe dimensiehiërarchie maakt, moet u een hiërarchietype selecteren. Ga naar **Kostprijsboekhouding** > **Dimensies** > **Dimensiehiërarchieën**. Klik op **Nieuw** en selecteer een type dimensiehiërarchie. U kunt **Hiërarchie dimensiecategorisatie** of **Hiërarchie dimensieclassificatie** selecteren.
+<span data-ttu-id="cac22-128">Wanneer u een nieuwe dimensiehiërarchie maakt, moet u een hiërarchietype selecteren.</span><span class="sxs-lookup"><span data-stu-id="cac22-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="cac22-129">Ga naar **Kostprijsboekhouding** > **Dimensies** > **Dimensiehiërarchieën**.</span><span class="sxs-lookup"><span data-stu-id="cac22-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="cac22-130">Klik op **Nieuw** en selecteer een type dimensiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="cac22-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="cac22-131">U kunt **Hiërarchie dimensiecategorisatie** of **Hiërarchie dimensieclassificatie** selecteren.</span><span class="sxs-lookup"><span data-stu-id="cac22-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>Hiërarchie dimensiecategorisatie
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="cac22-132">Hiërarchie dimensiecategorisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-132">Dimension categorization hierarchy</span></span>
 
-Het type **Hiërarchie dimensiecategorisatie** wordt gebruikt voor rapportagedoeleinden. Dit type ondersteunt alleen de kostenelementdimensies. Wanneer u dit type gebruikt, gelden de volgende regels:
+<span data-ttu-id="cac22-133">Het type **Hiërarchie dimensiecategorisatie** wordt gebruikt voor rapportagedoeleinden.</span><span class="sxs-lookup"><span data-stu-id="cac22-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="cac22-134">Dit type ondersteunt alleen de kostenelementdimensies.</span><span class="sxs-lookup"><span data-stu-id="cac22-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="cac22-135">Wanneer u dit type gebruikt, gelden de volgende regels:</span><span class="sxs-lookup"><span data-stu-id="cac22-135">When you select this type, the following rules apply:</span></span>
 
--  Een dimensielid kan meerdere keren worden gekoppeld in de hiërarchiestructuur.
--  U kunt een kostenelementdimensielid in verschillende knooppunten plaatsen door een kostengedrag aan het bladknooppunt toe te wijzen.
+-  <span data-ttu-id="cac22-136">Een dimensielid kan meerdere keren worden gekoppeld in de hiërarchiestructuur.</span><span class="sxs-lookup"><span data-stu-id="cac22-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="cac22-137">U kunt een kostenelementdimensielid in verschillende knooppunten plaatsen door een kostengedrag aan het bladknooppunt toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="cac22-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>Hiërarchie dimensieclassificatie
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="cac22-138">Hiërarchie dimensieclassificatie</span><span class="sxs-lookup"><span data-stu-id="cac22-138">Dimension classification hierarchy</span></span>
 
-Het type **Hiërarchie dimensieclassificatie** wordt gebruikt om regels voor rapportagedoeleinden te definiëren. Het biedt ondersteuning voor alle dimensies, zoals kostenobjecten, kostenelementen en statistische dimensies. Als u dit type selecteert, kan een dimensielid slechts één keer in de hiërarchiestructuur worden gekoppeld.
+<span data-ttu-id="cac22-139">Het type **Hiërarchie dimensieclassificatie** wordt gebruikt om regels voor rapportagedoeleinden te definiëren.</span><span class="sxs-lookup"><span data-stu-id="cac22-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="cac22-140">Het biedt ondersteuning voor alle dimensies, zoals kostenobjecten, kostenelementen en statistische dimensies.</span><span class="sxs-lookup"><span data-stu-id="cac22-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="cac22-141">Als u dit type selecteert, kan een dimensielid slechts één keer in de hiërarchiestructuur worden gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="cac22-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>Een dimensiehiërarchie maken en onderhouden
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="cac22-142">Een dimensiehiërarchie maken en onderhouden</span><span class="sxs-lookup"><span data-stu-id="cac22-142">Create and maintain a dimension hierarchy</span></span>
 
-Een dimensiehiërarchie wordt gemaakt als een boomstructuur die knooppunt- en bladknooppuntrelaties heeft.
+<span data-ttu-id="cac22-143">Een dimensiehiërarchie wordt gemaakt als een boomstructuur die knooppunt- en bladknooppuntrelaties heeft.</span><span class="sxs-lookup"><span data-stu-id="cac22-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  Een knooppunt kan 1:_n_ subknooppunten hebben.
--  Aan een knooppunt kunnen niet zowel subknooppunten als bladknooppunten worden toegewezen.
--  Een bladknooppunt kan alleen op het laagste niveau in de hiërarchie worden toegewezen.
+-  <span data-ttu-id="cac22-144">Een knooppunt kan 1:_n_ subknooppunten hebben.</span><span class="sxs-lookup"><span data-stu-id="cac22-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="cac22-145">Aan een knooppunt kunnen niet zowel subknooppunten als bladknooppunten worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="cac22-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="cac22-146">Een bladknooppunt kan alleen op het laagste niveau in de hiërarchie worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="cac22-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>Voorbeeld
+### <a name="example"></a><span data-ttu-id="cac22-147">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="cac22-147">Example</span></span>
 
-Een klein bedrijf heeft de volgende organisatiestructuur, waarin Financiën en Personeelszaken afdelingen zijn die onder Administatie vallen, en Assemblage en Verpakking onder Productie.
+<span data-ttu-id="cac22-148">Een klein bedrijf heeft de volgende organisatiestructuur, waarin Financiën en Personeelszaken afdelingen zijn die onder Administatie vallen, en Assemblage en Verpakking onder Productie.</span><span class="sxs-lookup"><span data-stu-id="cac22-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![Voorbeeld van een organisatiestructuur](./media/dimension-hierarchy-org.png)
 
-Een kostenobjectdimensie vertegenwoordigt alle kostenplaatsen in de organisatie.
+<span data-ttu-id="cac22-150">Een kostenobjectdimensie vertegenwoordigt alle kostenplaatsen in de organisatie.</span><span class="sxs-lookup"><span data-stu-id="cac22-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- Dimensie van kostenobject
-    - Kostenplaatsen
+- <span data-ttu-id="cac22-151">Dimensie van kostenobject</span><span class="sxs-lookup"><span data-stu-id="cac22-151">Cost object dimension</span></span>
+    - <span data-ttu-id="cac22-152">Kostenplaatsen</span><span class="sxs-lookup"><span data-stu-id="cac22-152">Cost centers</span></span>
 
-De kostenobjectdimensie die alle kostenplaatsen vertegenwoordigt, kan worden ingesteld zoals hier wordt weergegeven.
+<span data-ttu-id="cac22-153">De kostenobjectdimensie die alle kostenplaatsen vertegenwoordigt, kan worden ingesteld zoals hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="cac22-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| Kostenplaatsen | Omschrijving |
+| <span data-ttu-id="cac22-154">Kostenplaatsen</span><span class="sxs-lookup"><span data-stu-id="cac22-154">Cost centers</span></span> | <span data-ttu-id="cac22-155">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="cac22-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | HR          |
-| CC002        | Financiën     |
-| CC003        | Btw         |
-| CC007        | Leveranciers/Klanten       |
-| CC005        | Assembleren    |
-| CC006        | Verpakking   |
+| <span data-ttu-id="cac22-156">CC001</span><span class="sxs-lookup"><span data-stu-id="cac22-156">CC001</span></span>        | <span data-ttu-id="cac22-157">HR</span><span class="sxs-lookup"><span data-stu-id="cac22-157">HR</span></span>          |
+| <span data-ttu-id="cac22-158">CC002</span><span class="sxs-lookup"><span data-stu-id="cac22-158">CC002</span></span>        | <span data-ttu-id="cac22-159">Financiën</span><span class="sxs-lookup"><span data-stu-id="cac22-159">Finance</span></span>     |
+| <span data-ttu-id="cac22-160">CC003</span><span class="sxs-lookup"><span data-stu-id="cac22-160">CC003</span></span>        | <span data-ttu-id="cac22-161">Btw</span><span class="sxs-lookup"><span data-stu-id="cac22-161">Tax</span></span>         |
+| <span data-ttu-id="cac22-162">CC007</span><span class="sxs-lookup"><span data-stu-id="cac22-162">CC007</span></span>        | <span data-ttu-id="cac22-163">Leveranciers/Klanten</span><span class="sxs-lookup"><span data-stu-id="cac22-163">AR/AP</span></span>       |
+| <span data-ttu-id="cac22-164">CC005</span><span class="sxs-lookup"><span data-stu-id="cac22-164">CC005</span></span>        | <span data-ttu-id="cac22-165">Assembleren</span><span class="sxs-lookup"><span data-stu-id="cac22-165">Assembly</span></span>    |
+| <span data-ttu-id="cac22-166">CC006</span><span class="sxs-lookup"><span data-stu-id="cac22-166">CC006</span></span>        | <span data-ttu-id="cac22-167">Verpakking</span><span class="sxs-lookup"><span data-stu-id="cac22-167">Packaging</span></span>   |
 
-Een kostenelementdimensie vertegenwoordigt alle kostenelementen in de organisatie.
+<span data-ttu-id="cac22-168">Een kostenelementdimensie vertegenwoordigt alle kostenelementen in de organisatie.</span><span class="sxs-lookup"><span data-stu-id="cac22-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- Dimensie van kostenelement
-    - Kostenelementen
+- <span data-ttu-id="cac22-169">Dimensie van kostenelement</span><span class="sxs-lookup"><span data-stu-id="cac22-169">Cost element dimension</span></span>
+    - <span data-ttu-id="cac22-170">Kostenelementen</span><span class="sxs-lookup"><span data-stu-id="cac22-170">Cost elements</span></span>
 
-De kostenelementdimensie die alle kostenelementen vertegenwoordigt, kan worden ingesteld zoals hier wordt weergegeven.
+<span data-ttu-id="cac22-171">De kostenelementdimensie die alle kostenelementen vertegenwoordigt, kan worden ingesteld zoals hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="cac22-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| Kostenelementen | Omschrijving |
+| <span data-ttu-id="cac22-172">Kostenelementen</span><span class="sxs-lookup"><span data-stu-id="cac22-172">Cost elements</span></span> | <span data-ttu-id="cac22-173">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="cac22-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | Elektriciteit |
-| 10010         | Schoonmaken    |
-| 10011         | Verwarming     |
-| 40001         | COGS        |
+| <span data-ttu-id="cac22-174">10001</span><span class="sxs-lookup"><span data-stu-id="cac22-174">10001</span></span>         | <span data-ttu-id="cac22-175">Elektriciteit</span><span class="sxs-lookup"><span data-stu-id="cac22-175">Electricity</span></span> |
+| <span data-ttu-id="cac22-176">10010</span><span class="sxs-lookup"><span data-stu-id="cac22-176">10010</span></span>         | <span data-ttu-id="cac22-177">Schoonmaken</span><span class="sxs-lookup"><span data-stu-id="cac22-177">Cleaning</span></span>    |
+| <span data-ttu-id="cac22-178">10011</span><span class="sxs-lookup"><span data-stu-id="cac22-178">10011</span></span>         | <span data-ttu-id="cac22-179">Verwarming</span><span class="sxs-lookup"><span data-stu-id="cac22-179">Heating</span></span>     |
+| <span data-ttu-id="cac22-180">40001</span><span class="sxs-lookup"><span data-stu-id="cac22-180">40001</span></span>         | <span data-ttu-id="cac22-181">COGS</span><span class="sxs-lookup"><span data-stu-id="cac22-181">COGS</span></span>        |
 
-Een dimensiehiërarchie die voldoet aan de rapportagevereisten van de organisatie kan worden ingesteld zoals hier wordt weergegeven.
+<span data-ttu-id="cac22-182">Een dimensiehiërarchie die voldoet aan de rapportagevereisten van de organisatie kan worden ingesteld zoals hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="cac22-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**Gegevens van dimensiehiërarchie**
+<span data-ttu-id="cac22-183">**Gegevens van dimensiehiërarchie**</span><span class="sxs-lookup"><span data-stu-id="cac22-183">**Dimension hierarchy details**</span></span>
 
-| Naam van dimensiehiërarchie | Dimensie    | Naam van type dimensiehiërarchie      | Hiërarchie van toegangslijsten |
+| <span data-ttu-id="cac22-184">Naam van dimensiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="cac22-184">Dimension hierarchy name</span></span> | <span data-ttu-id="cac22-185">Dimensie</span><span class="sxs-lookup"><span data-stu-id="cac22-185">Dimension</span></span>    | <span data-ttu-id="cac22-186">Naam van type dimensiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="cac22-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="cac22-187">Hiërarchie van toegangslijsten</span><span class="sxs-lookup"><span data-stu-id="cac22-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organisatie             | Kostenplaatsen | Hiërarchie dimensieclassificatie | Nee                    |
+| <span data-ttu-id="cac22-188">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-188">Organization</span></span>             | <span data-ttu-id="cac22-189">Kostenplaatsen</span><span class="sxs-lookup"><span data-stu-id="cac22-189">Cost centers</span></span> | <span data-ttu-id="cac22-190">Hiërarchie dimensieclassificatie</span><span class="sxs-lookup"><span data-stu-id="cac22-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="cac22-191">Nee</span><span class="sxs-lookup"><span data-stu-id="cac22-191">No</span></span>                    |
 
-De dimensiehiërarchie voor rapportage kan worden ingesteld zoals hier wordt weergegeven.
+<span data-ttu-id="cac22-192">De dimensiehiërarchie voor rapportage kan worden ingesteld zoals hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="cac22-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | Bereiken van dimensieleden   |                         |
+|                   | <span data-ttu-id="cac22-193">Bereiken van dimensieleden</span><span class="sxs-lookup"><span data-stu-id="cac22-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Knooppunten**         | **Van dimensielid** | **Tot dimensielid** |
-| Organisatie      |                           |                         |
-| &nbsp;&nbsp;Beheer         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Financiën   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;HR        | CC001                     | CC001                   |
-| &nbsp;&nbsp;Productie    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Verpakking | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Assembleren  | CC006                     | CC006                   |
+| <span data-ttu-id="cac22-194">**Knooppunten**</span><span class="sxs-lookup"><span data-stu-id="cac22-194">**Nodes**</span></span>         | <span data-ttu-id="cac22-195">**Van dimensielid**</span><span class="sxs-lookup"><span data-stu-id="cac22-195">**From dimension member**</span></span> | <span data-ttu-id="cac22-196">**Tot dimensielid**</span><span class="sxs-lookup"><span data-stu-id="cac22-196">**To dimension member**</span></span> |
+| <span data-ttu-id="cac22-197">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="cac22-198">&nbsp;&nbsp;Beheer</span><span class="sxs-lookup"><span data-stu-id="cac22-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="cac22-199">&nbsp;&nbsp;&nbsp;&nbsp;Financiën</span><span class="sxs-lookup"><span data-stu-id="cac22-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="cac22-200">CC002</span><span class="sxs-lookup"><span data-stu-id="cac22-200">CC002</span></span>                     | <span data-ttu-id="cac22-201">CC003</span><span class="sxs-lookup"><span data-stu-id="cac22-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="cac22-202">CC007</span><span class="sxs-lookup"><span data-stu-id="cac22-202">CC007</span></span>                     | <span data-ttu-id="cac22-203">CC007</span><span class="sxs-lookup"><span data-stu-id="cac22-203">CC007</span></span>                   |
+| <span data-ttu-id="cac22-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span><span class="sxs-lookup"><span data-stu-id="cac22-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="cac22-205">CC001</span><span class="sxs-lookup"><span data-stu-id="cac22-205">CC001</span></span>                     | <span data-ttu-id="cac22-206">CC001</span><span class="sxs-lookup"><span data-stu-id="cac22-206">CC001</span></span>                   |
+| <span data-ttu-id="cac22-207">&nbsp;&nbsp;Productie</span><span class="sxs-lookup"><span data-stu-id="cac22-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="cac22-208">&nbsp;&nbsp;&nbsp;&nbsp;Verpakking</span><span class="sxs-lookup"><span data-stu-id="cac22-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="cac22-209">CC005</span><span class="sxs-lookup"><span data-stu-id="cac22-209">CC005</span></span>                     | <span data-ttu-id="cac22-210">CC005</span><span class="sxs-lookup"><span data-stu-id="cac22-210">CC005</span></span>                   |
+| <span data-ttu-id="cac22-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembleren</span><span class="sxs-lookup"><span data-stu-id="cac22-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="cac22-212">CC006</span><span class="sxs-lookup"><span data-stu-id="cac22-212">CC006</span></span>                     | <span data-ttu-id="cac22-213">CC006</span><span class="sxs-lookup"><span data-stu-id="cac22-213">CC006</span></span>                   |
 
-Een dimensiehiërarchie die voldoet aan de beleidsvereiste kan worden ingesteld zoals hier wordt weergegeven.
+<span data-ttu-id="cac22-214">Een dimensiehiërarchie die voldoet aan de beleidsvereiste kan worden ingesteld zoals hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="cac22-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**Gegevens van dimensiehiërarchie**
+<span data-ttu-id="cac22-215">**Gegevens van dimensiehiërarchie**</span><span class="sxs-lookup"><span data-stu-id="cac22-215">**Dimension hierarchy details**</span></span>
 
-| Naam van dimensiehiërarchie | Dimensie     | Naam van type dimensiehiërarchie      |
+| <span data-ttu-id="cac22-216">Naam van dimensiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="cac22-216">Dimension hierarchy name</span></span> | <span data-ttu-id="cac22-217">Dimensie</span><span class="sxs-lookup"><span data-stu-id="cac22-217">Dimension</span></span>     | <span data-ttu-id="cac22-218">Naam van type dimensiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="cac22-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| Kostengedrag            | Kostenelementen | Hiërarchie dimensieclassificatie |
+| <span data-ttu-id="cac22-219">Kostengedrag</span><span class="sxs-lookup"><span data-stu-id="cac22-219">Cost behavior</span></span>            | <span data-ttu-id="cac22-220">Kostenelementen</span><span class="sxs-lookup"><span data-stu-id="cac22-220">Cost elements</span></span> | <span data-ttu-id="cac22-221">Hiërarchie dimensieclassificatie</span><span class="sxs-lookup"><span data-stu-id="cac22-221">Dimension classification hierarchy</span></span> |
 
-De dimensiehiërarchie voor het beleid kan worden ingesteld zoals hier wordt weergegeven.
+<span data-ttu-id="cac22-222">De dimensiehiërarchie voor het beleid kan worden ingesteld zoals hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="cac22-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | Bereiken van dimensieleden   |                         |
+|                   | <span data-ttu-id="cac22-223">Bereiken van dimensieleden</span><span class="sxs-lookup"><span data-stu-id="cac22-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Knooppunten**         | **Van dimensielid** | **Tot dimensielid** |
-| Kostengedrag     |                           |                         |
-| &nbsp;&nbsp;Vaste kosten    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Variabele kosten | 40001                     | 40010                   |
+| <span data-ttu-id="cac22-224">**Knooppunten**</span><span class="sxs-lookup"><span data-stu-id="cac22-224">**Nodes**</span></span>         | <span data-ttu-id="cac22-225">**Van dimensielid**</span><span class="sxs-lookup"><span data-stu-id="cac22-225">**From dimension member**</span></span> | <span data-ttu-id="cac22-226">**Tot dimensielid**</span><span class="sxs-lookup"><span data-stu-id="cac22-226">**To dimension member**</span></span> |
+| <span data-ttu-id="cac22-227">Kostengedrag</span><span class="sxs-lookup"><span data-stu-id="cac22-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="cac22-228">&nbsp;&nbsp;Vaste kosten</span><span class="sxs-lookup"><span data-stu-id="cac22-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="cac22-229">10001</span><span class="sxs-lookup"><span data-stu-id="cac22-229">10001</span></span>                     | <span data-ttu-id="cac22-230">10011</span><span class="sxs-lookup"><span data-stu-id="cac22-230">10011</span></span>                   |
+|<span data-ttu-id="cac22-231">&nbsp;&nbsp;Variabele kosten</span><span class="sxs-lookup"><span data-stu-id="cac22-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="cac22-232">40001</span><span class="sxs-lookup"><span data-stu-id="cac22-232">40001</span></span>                     | <span data-ttu-id="cac22-233">40010</span><span class="sxs-lookup"><span data-stu-id="cac22-233">40010</span></span>                   |
 
 > [!NOTE]
-> Onder **Bereiken van dimensieleden** kan een knooppunt 1: _n_ bereiken van dimensieleden bevatten. U kunt de dimensielid-id´s invoegen die nog niet bestaan als dimensieleden. Deze benadering maakt de hiërarchie flexibel voor de toekomst.  
+> <span data-ttu-id="cac22-234">Onder **Bereiken van dimensieleden** kan een knooppunt 1: _n_ bereiken van dimensieleden bevatten.</span><span class="sxs-lookup"><span data-stu-id="cac22-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="cac22-235">U kunt de dimensielid-id´s invoegen die nog niet bestaan als dimensieleden.</span><span class="sxs-lookup"><span data-stu-id="cac22-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="cac22-236">Deze benadering maakt de hiërarchie flexibel voor de toekomst.</span><span class="sxs-lookup"><span data-stu-id="cac22-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>Een hiërarchie kopiëren
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="cac22-237">Een hiërarchie kopiëren</span><span class="sxs-lookup"><span data-stu-id="cac22-237">Copy a hierarchy</span></span>
 
-U kunt een huidige dimensiehiërarchie kopiëren als uitgangspunt voor een nieuwe dimensiehiërarchie. Deze benadering kan nuttig zijn als u de vorige dimensiehiërarchie wilt vergelijken met de nieuwe dimensiehiërarchie.
+<span data-ttu-id="cac22-238">U kunt een huidige dimensiehiërarchie kopiëren als uitgangspunt voor een nieuwe dimensiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="cac22-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="cac22-239">Deze benadering kan nuttig zijn als u de vorige dimensiehiërarchie wilt vergelijken met de nieuwe dimensiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="cac22-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>Knooppunten in een hiërarchie opnieuw rangschikken
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="cac22-240">Knooppunten in een hiërarchie opnieuw rangschikken</span><span class="sxs-lookup"><span data-stu-id="cac22-240">Rearrange nodes in a hierarchy</span></span>
 
-U kunt een knooppunt omhoog en omlaag verplaatsen binnen het huidige niveau in de structuur. Op deze manier u kunt de volgorde van knooppunten opnieuw rangschikken in het werkgebied **Kostenbeheer**.
+<span data-ttu-id="cac22-241">U kunt een knooppunt omhoog en omlaag verplaatsen binnen het huidige niveau in de structuur.</span><span class="sxs-lookup"><span data-stu-id="cac22-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="cac22-242">Op deze manier u kunt de volgorde van knooppunten opnieuw rangschikken in het werkgebied **Kostenbeheer**.</span><span class="sxs-lookup"><span data-stu-id="cac22-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-U verplaatst een knooppunt naar een nieuwe locatie in de hiërarchie door het doelknooppunt te selecteren. U kunt een knooppunt op twee manieren verplaatsen:
+<span data-ttu-id="cac22-243">U verplaatst een knooppunt naar een nieuwe locatie in de hiërarchie door het doelknooppunt te selecteren.</span><span class="sxs-lookup"><span data-stu-id="cac22-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="cac22-244">U kunt een knooppunt op twee manieren verplaatsen:</span><span class="sxs-lookup"><span data-stu-id="cac22-244">There are two ways to move a node:</span></span>
 
-- **Verplaatsen onder**: verplaats het geselecteerde knooppunt van de huidige positie in de hiërarchie en voeg het **onder** het geselecteerde doelknooppunt in.
-- **Verplaatsen na**: verplaats het geselecteerde knooppunt van de huidige positie in de hiërarchie en voeg het **na** het geselecteerde doelknooppunt in op het niveau ervan in de hiërarchie.
+- <span data-ttu-id="cac22-245">**Verplaatsen onder**: verplaats het geselecteerde knooppunt van de huidige positie in de hiërarchie en voeg het **onder** het geselecteerde doelknooppunt in.</span><span class="sxs-lookup"><span data-stu-id="cac22-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="cac22-246">**Verplaatsen na**: verplaats het geselecteerde knooppunt van de huidige positie in de hiërarchie en voeg het **na** het geselecteerde doelknooppunt in op het niveau ervan in de hiërarchie.</span><span class="sxs-lookup"><span data-stu-id="cac22-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> De volgorde van de knooppunten wordt niet behouden wanneer u gegevens naar Excel of Power BI exporteert, omdat deze programma's standaard een alfanumerieke sorteervolgorde gebruiken. U moet de volgorde handmatig opnieuw rangschikken.
+> <span data-ttu-id="cac22-247">De volgorde van de knooppunten wordt niet behouden wanneer u gegevens naar Excel of Power BI exporteert, omdat deze programma's standaard een alfanumerieke sorteervolgorde gebruiken.</span><span class="sxs-lookup"><span data-stu-id="cac22-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="cac22-248">U moet de volgorde handmatig opnieuw rangschikken.</span><span class="sxs-lookup"><span data-stu-id="cac22-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>Dimensiehiërarchieën definiëren rapportage
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="cac22-249">Dimensiehiërarchieën definiëren rapportage</span><span class="sxs-lookup"><span data-stu-id="cac22-249">Define dimension hierarchies for reporting</span></span>
 
-Dimensiehiërarchieën zijn belangrijk voor rapportage. U kunt er de specifieke structuur mee definiëren die past in de afzonderlijke organisatie. Met de samenvoegingen die zijn uitgevoerd op het knooppuntniveau van de dimensiehiërarchie, kunnen belanghebbenden op elk niveau van de organisatie gegevens op elk niveau bekijken.
+<span data-ttu-id="cac22-250">Dimensiehiërarchieën zijn belangrijk voor rapportage.</span><span class="sxs-lookup"><span data-stu-id="cac22-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="cac22-251">U kunt er de specifieke structuur mee definiëren die past in de afzonderlijke organisatie.</span><span class="sxs-lookup"><span data-stu-id="cac22-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="cac22-252">Met de samenvoegingen die zijn uitgevoerd op het knooppuntniveau van de dimensiehiërarchie, kunnen belanghebbenden op elk niveau van de organisatie gegevens op elk niveau bekijken.</span><span class="sxs-lookup"><span data-stu-id="cac22-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-Dimensiehiërarchieën zijn beschikbaar in de volgende rapportageprogramma's. Deze benadering garandeert consistentie in de rapportagestructuur.
+<span data-ttu-id="cac22-253">Dimensiehiërarchieën zijn beschikbaar in de volgende rapportageprogramma's.</span><span class="sxs-lookup"><span data-stu-id="cac22-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="cac22-254">Deze benadering garandeert consistentie in de rapportagestructuur.</span><span class="sxs-lookup"><span data-stu-id="cac22-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- Werkgebied **Kostenbeheer** (client):
+- <span data-ttu-id="cac22-255">Werkgebied **Kostenbeheer** (client):</span><span class="sxs-lookup"><span data-stu-id="cac22-255">**Cost control** workspace (Client):</span></span>
 
-    - Beheerd door configuratie.
+    - <span data-ttu-id="cac22-256">Beheerd door configuratie.</span><span class="sxs-lookup"><span data-stu-id="cac22-256">Controlled by configuration.</span></span>
 
-- Werkgebied **Kostenbeheer** (mobiele toepassing):
+- <span data-ttu-id="cac22-257">Werkgebied **Kostenbeheer** (mobiele toepassing):</span><span class="sxs-lookup"><span data-stu-id="cac22-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - Beheerd door configuratie.
+    - <span data-ttu-id="cac22-258">Beheerd door configuratie.</span><span class="sxs-lookup"><span data-stu-id="cac22-258">Controlled by configuration.</span></span>
 
-- Excel
+- <span data-ttu-id="cac22-259">Excel</span><span class="sxs-lookup"><span data-stu-id="cac22-259">Excel</span></span>
 
-    - Biedt de optie om specifieke dimensiehiërarchieën per exportdefinitie te selecteren:
+    - <span data-ttu-id="cac22-260">Biedt de optie om specifieke dimensiehiërarchieën per exportdefinitie te selecteren:</span><span class="sxs-lookup"><span data-stu-id="cac22-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - Eén kostenelementdimensiehiërarchie (verplicht)
-        - Eén kostenobjectdimensiehiërarchie (optioneel)
-        - Eén statistische dimensiehiërarchie (optioneel)
+        - <span data-ttu-id="cac22-261">Eén kostenelementdimensiehiërarchie (verplicht)</span><span class="sxs-lookup"><span data-stu-id="cac22-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="cac22-262">Eén kostenobjectdimensiehiërarchie (optioneel)</span><span class="sxs-lookup"><span data-stu-id="cac22-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="cac22-263">Eén statistische dimensiehiërarchie (optioneel)</span><span class="sxs-lookup"><span data-stu-id="cac22-263">One statistical dimension hierarchy (optional)</span></span>
 
-- Power BI:
+- <span data-ttu-id="cac22-264">Power BI:</span><span class="sxs-lookup"><span data-stu-id="cac22-264">Power BI:</span></span>
 
-    - Alle dimensiehiërarchieën zijn beschikbaar.
+    - <span data-ttu-id="cac22-265">Alle dimensiehiërarchieën zijn beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="cac22-265">All dimension hierarchies are available.</span></span>
     
-Als u rapporten maakt met behulp van Excel of Power BI, worden alleen de eerste 15 niveaus van de dimensiehiërarchieën geëxporteerd. Deze beperking geldt omdat er een vast schema is vereist in Excel en Power BI. Als een hiërarchie meer dan 15 niveaus heeft, worden de extra niveaus niet geëxporteerd. De gestandaardiseerde tabel bevat een record voor elk dimensielid in de hiërarchie. Daarom vindt automatische samenvoeging plaats. Dit gedrag helpt ervoor te zorgen dat de saldi op elk van de 15 beschikbare niveaus in de hiërarchie nog steeds correct zijn.
+<span data-ttu-id="cac22-266">Als u rapporten maakt met behulp van Excel of Power BI, worden alleen de eerste 15 niveaus van de dimensiehiërarchieën geëxporteerd.</span><span class="sxs-lookup"><span data-stu-id="cac22-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="cac22-267">Deze beperking geldt omdat er een vast schema is vereist in Excel en Power BI.</span><span class="sxs-lookup"><span data-stu-id="cac22-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="cac22-268">Als een hiërarchie meer dan 15 niveaus heeft, worden de extra niveaus niet geëxporteerd.</span><span class="sxs-lookup"><span data-stu-id="cac22-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="cac22-269">De gestandaardiseerde tabel bevat een record voor elk dimensielid in de hiërarchie.</span><span class="sxs-lookup"><span data-stu-id="cac22-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="cac22-270">Daarom vindt automatische samenvoeging plaats.</span><span class="sxs-lookup"><span data-stu-id="cac22-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="cac22-271">Dit gedrag helpt ervoor te zorgen dat de saldi op elk van de 15 beschikbare niveaus in de hiërarchie nog steeds correct zijn.</span><span class="sxs-lookup"><span data-stu-id="cac22-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-Het volgende voorbeeld laat zien hoe een dimensiehiërarchie eruit kan zien in de rapportagestructuur.
+<span data-ttu-id="cac22-272">Het volgende voorbeeld laat zien hoe een dimensiehiërarchie eruit kan zien in de rapportagestructuur.</span><span class="sxs-lookup"><span data-stu-id="cac22-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| Dimensiehiërarchie van een kostenobject - niveau 1 | Dimensiehiërarchie van een kostenobject - niveau 2 | Dimensiehiërarchie van een kostenobject - niveau 3 | Dimensiehiërarchie van een kostenobject - niveau 4 | Dimensiehiërarchie van een kostenobject - niveau 15 |
+| <span data-ttu-id="cac22-273">Dimensiehiërarchie van een kostenobject - niveau 1</span><span class="sxs-lookup"><span data-stu-id="cac22-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="cac22-274">Dimensiehiërarchie van een kostenobject - niveau 2</span><span class="sxs-lookup"><span data-stu-id="cac22-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="cac22-275">Dimensiehiërarchie van een kostenobject - niveau 3</span><span class="sxs-lookup"><span data-stu-id="cac22-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="cac22-276">Dimensiehiërarchie van een kostenobject - niveau 4</span><span class="sxs-lookup"><span data-stu-id="cac22-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="cac22-277">Dimensiehiërarchie van een kostenobject - niveau 15</span><span class="sxs-lookup"><span data-stu-id="cac22-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organisatie                              | Beheer                                     | Financiën                                   | CC002                                     |                                            |
-| Organisatie                              | Beheer                                     | Financiën                                   | CC003                                     |                                            |
-| Organisatie                              | Beheer                                     | Financiën                                   | CC007                                     |                                            |
-| Organisatie                              | Beheer                                     | HR                                        | CC001                                     |                                            |
-| Organisatie                              | Productie                                | Verpakking                                 | CC005                                     |                                            |
-| Organisatie                              | Productie                                | Assembleren                                  | CC006                                     |                                            |
+| <span data-ttu-id="cac22-278">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-278">Organization</span></span>                              | <span data-ttu-id="cac22-279">Beheer</span><span class="sxs-lookup"><span data-stu-id="cac22-279">Admin</span></span>                                     | <span data-ttu-id="cac22-280">Financiën</span><span class="sxs-lookup"><span data-stu-id="cac22-280">Finance</span></span>                                   | <span data-ttu-id="cac22-281">CC002</span><span class="sxs-lookup"><span data-stu-id="cac22-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="cac22-282">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-282">Organization</span></span>                              | <span data-ttu-id="cac22-283">Beheer</span><span class="sxs-lookup"><span data-stu-id="cac22-283">Admin</span></span>                                     | <span data-ttu-id="cac22-284">Financiën</span><span class="sxs-lookup"><span data-stu-id="cac22-284">Finance</span></span>                                   | <span data-ttu-id="cac22-285">CC003</span><span class="sxs-lookup"><span data-stu-id="cac22-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="cac22-286">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-286">Organization</span></span>                              | <span data-ttu-id="cac22-287">Beheer</span><span class="sxs-lookup"><span data-stu-id="cac22-287">Admin</span></span>                                     | <span data-ttu-id="cac22-288">Financiën</span><span class="sxs-lookup"><span data-stu-id="cac22-288">Finance</span></span>                                   | <span data-ttu-id="cac22-289">CC007</span><span class="sxs-lookup"><span data-stu-id="cac22-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="cac22-290">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-290">Organization</span></span>                              | <span data-ttu-id="cac22-291">Beheer</span><span class="sxs-lookup"><span data-stu-id="cac22-291">Admin</span></span>                                     | <span data-ttu-id="cac22-292">HR</span><span class="sxs-lookup"><span data-stu-id="cac22-292">HR</span></span>                                        | <span data-ttu-id="cac22-293">CC001</span><span class="sxs-lookup"><span data-stu-id="cac22-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="cac22-294">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-294">Organization</span></span>                              | <span data-ttu-id="cac22-295">Productie</span><span class="sxs-lookup"><span data-stu-id="cac22-295">Production</span></span>                                | <span data-ttu-id="cac22-296">Verpakking</span><span class="sxs-lookup"><span data-stu-id="cac22-296">Packaging</span></span>                                 | <span data-ttu-id="cac22-297">CC005</span><span class="sxs-lookup"><span data-stu-id="cac22-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="cac22-298">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-298">Organization</span></span>                              | <span data-ttu-id="cac22-299">Productie</span><span class="sxs-lookup"><span data-stu-id="cac22-299">Production</span></span>                                | <span data-ttu-id="cac22-300">Assembleren</span><span class="sxs-lookup"><span data-stu-id="cac22-300">Assembly</span></span>                                  | <span data-ttu-id="cac22-301">CC006</span><span class="sxs-lookup"><span data-stu-id="cac22-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Dimensiehiërarchieën bijwerken die worden gebruikt voor rapportage 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="cac22-302">Dimensiehiërarchieën bijwerken die worden gebruikt voor rapportage</span><span class="sxs-lookup"><span data-stu-id="cac22-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-In de loop van de tijd worden de dimensiehiërarchieën die worden gebruikt in de eerder genoemde rapportagefuncties bijgewerkt. U kunt dimensiehiërarchieën bijwerken door de client te vernieuwen.
+<span data-ttu-id="cac22-303">In de loop van de tijd worden de dimensiehiërarchieën die worden gebruikt in de eerder genoemde rapportagefuncties bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="cac22-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="cac22-304">U kunt dimensiehiërarchieën bijwerken door de client te vernieuwen.</span><span class="sxs-lookup"><span data-stu-id="cac22-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- Werkgebied **Kostenbeheer** (client)
-- Werkgebied **Kostenbeheer** (mobiele toepassing)
+- <span data-ttu-id="cac22-305">Werkgebied **Kostenbeheer** (client)</span><span class="sxs-lookup"><span data-stu-id="cac22-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="cac22-306">Werkgebied **Kostenbeheer** (mobiele toepassing)</span><span class="sxs-lookup"><span data-stu-id="cac22-306">**Cost control** workspace (Mobile application)</span></span>
 
-Updates van dimensiehiërarchieën worden elke 24 uur verzameld door een vooraf in cache opgeslagen taak. Nadat de geëxporteerde gegevens zijn bijgewerkt, zijn de bijgewerkte dimensiehiërarchieën beschikbaar in de volgende programma's:
+<span data-ttu-id="cac22-307">Updates van dimensiehiërarchieën worden elke 24 uur verzameld door een vooraf in cache opgeslagen taak.</span><span class="sxs-lookup"><span data-stu-id="cac22-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="cac22-308">Nadat de geëxporteerde gegevens zijn bijgewerkt, zijn de bijgewerkte dimensiehiërarchieën beschikbaar in de volgende programma's:</span><span class="sxs-lookup"><span data-stu-id="cac22-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- Excel
-- Power BI
+- <span data-ttu-id="cac22-309">Excel</span><span class="sxs-lookup"><span data-stu-id="cac22-309">Excel</span></span>
+- <span data-ttu-id="cac22-310">Power BI</span><span class="sxs-lookup"><span data-stu-id="cac22-310">Power BI</span></span>
 
 > [!NOTE] 
-> Als u handmatig een update van de dimensiehiërarchiecache wilt activeren, kunt u een nieuwe export naar Excel maken voor de dimensiehiërarchie of -hiërarchieën die moet(en) worden bijgewerkt.
+> <span data-ttu-id="cac22-311">Als u handmatig een update van de dimensiehiërarchiecache wilt activeren, kunt u een nieuwe export naar Excel maken voor de dimensiehiërarchie of -hiërarchieën die moet(en) worden bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="cac22-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>Dimensiehiërarchieën definiëren voor kostenbeleid
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="cac22-312">Dimensiehiërarchieën definiëren voor kostenbeleid</span><span class="sxs-lookup"><span data-stu-id="cac22-312">Define dimension hierarchies for cost policies</span></span>
 
-Kostprijsboekhouding bestaat uit meerdere beleidsregels waarin gedetailleerde regels worden gedefinieerd. U moet een of meer dimensiehiërarchieën voor de volgende beleidsregels definiëren:
+<span data-ttu-id="cac22-313">Kostprijsboekhouding bestaat uit meerdere beleidsregels waarin gedetailleerde regels worden gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="cac22-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="cac22-314">U moet een of meer dimensiehiërarchieën voor de volgende beleidsregels definiëren:</span><span class="sxs-lookup"><span data-stu-id="cac22-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- Kostengedrag
-- Kostenverdeling
-- Kostentoewijzing
-- Kosten totaliseren
+- <span data-ttu-id="cac22-315">Kostengedrag</span><span class="sxs-lookup"><span data-stu-id="cac22-315">Cost behavior</span></span>
+- <span data-ttu-id="cac22-316">Kostenverdeling</span><span class="sxs-lookup"><span data-stu-id="cac22-316">Cost distribution</span></span>
+- <span data-ttu-id="cac22-317">Kostentoewijzing</span><span class="sxs-lookup"><span data-stu-id="cac22-317">Cost allocation</span></span>
+- <span data-ttu-id="cac22-318">Kosten totaliseren</span><span class="sxs-lookup"><span data-stu-id="cac22-318">Cost rollup</span></span>
 
-Dimensiehiërarchieën maken het eenvoudig om regels te maken. Om te voorkomen dat u regels voor elk dimensielid moet maken, kunt u profiteren van de samenvoegingen van dimensieleden die worden verschaft door dimensiehiërarchieniveaus. Als er overlappende regels zijn, moet u specifieke regels definiëren die door het systeem worden meegenomen wanneer de berekening van overhead wordt uitgevoerd.
+<span data-ttu-id="cac22-319">Dimensiehiërarchieën maken het eenvoudig om regels te maken.</span><span class="sxs-lookup"><span data-stu-id="cac22-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="cac22-320">Om te voorkomen dat u regels voor elk dimensielid moet maken, kunt u profiteren van de samenvoegingen van dimensieleden die worden verschaft door dimensiehiërarchieniveaus.</span><span class="sxs-lookup"><span data-stu-id="cac22-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="cac22-321">Als er overlappende regels zijn, moet u specifieke regels definiëren die door het systeem worden meegenomen wanneer de berekening van overhead wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="cac22-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>Voorbeeld: een beleid voor kostengedrag definiëren
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="cac22-322">Voorbeeld: een beleid voor kostengedrag definiëren</span><span class="sxs-lookup"><span data-stu-id="cac22-322">Example: Define a cost behavior policy</span></span>
 
-Een nieuw kostengedragbeleid wordt gemaakt en de juiste dimensiehiërarchieën worden toegewezen aan het beleid, zoals hier wordt weergegeven.
+<span data-ttu-id="cac22-323">Een nieuw kostengedragbeleid wordt gemaakt en de juiste dimensiehiërarchieën worden toegewezen aan het beleid, zoals hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="cac22-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**Kostengedragbeleid**
+<span data-ttu-id="cac22-324">**Kostengedragbeleid**</span><span class="sxs-lookup"><span data-stu-id="cac22-324">**Cost behavior policy**</span></span>
 
-| Beleidsnaam   | Dimensiehiërarchie van een kostenelement | Dimensiehiërarchie van een kostenobject | Valuta voor boekhouding |
+| <span data-ttu-id="cac22-325">Beleidsnaam</span><span class="sxs-lookup"><span data-stu-id="cac22-325">Policy name</span></span>   | <span data-ttu-id="cac22-326">Dimensiehiërarchie van een kostenelement</span><span class="sxs-lookup"><span data-stu-id="cac22-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="cac22-327">Dimensiehiërarchie van een kostenobject</span><span class="sxs-lookup"><span data-stu-id="cac22-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="cac22-328">Valuta voor boekhouding</span><span class="sxs-lookup"><span data-stu-id="cac22-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| Kostengedrag | Kostengedrag                    | Organisatie                    | EUR                 |
+| <span data-ttu-id="cac22-329">Kostengedrag</span><span class="sxs-lookup"><span data-stu-id="cac22-329">Cost behavior</span></span> | <span data-ttu-id="cac22-330">Kostengedrag</span><span class="sxs-lookup"><span data-stu-id="cac22-330">Cost behavior</span></span>                    | <span data-ttu-id="cac22-331">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-331">Organization</span></span>                    | <span data-ttu-id="cac22-332">EUR</span><span class="sxs-lookup"><span data-stu-id="cac22-332">USD</span></span>                 |
 
-**Regels**
+<span data-ttu-id="cac22-333">**Regels**</span><span class="sxs-lookup"><span data-stu-id="cac22-333">**Rules**</span></span>
 
-| Dimensiehiërarchieknooppunt van een kostenelement | Dimensiehiërarchieknooppunt van een kostenobject | Vast percentage | Vast bedrag | Geldig vanaf | Geldig tot |
+| <span data-ttu-id="cac22-334">Dimensiehiërarchieknooppunt van een kostenelement</span><span class="sxs-lookup"><span data-stu-id="cac22-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="cac22-335">Dimensiehiërarchieknooppunt van een kostenobject</span><span class="sxs-lookup"><span data-stu-id="cac22-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="cac22-336">Vast percentage</span><span class="sxs-lookup"><span data-stu-id="cac22-336">Fixed percentage</span></span> | <span data-ttu-id="cac22-337">Vast bedrag</span><span class="sxs-lookup"><span data-stu-id="cac22-337">Fixed amount</span></span> | <span data-ttu-id="cac22-338">Geldig vanaf</span><span class="sxs-lookup"><span data-stu-id="cac22-338">Valid from</span></span> | <span data-ttu-id="cac22-339">Geldig tot</span><span class="sxs-lookup"><span data-stu-id="cac22-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| Vaste kosten                            | Organisatie                         | 100,00           | 0,00         | 1/1/2017   | Nooit    |
-| 10001                                 | Organisatie                         | 0,00             | 150,00       | 1/1/2017   | Nooit    |
-| 10001 (\*)                             | Financiën                              |                  | 50,00        | 1/1/2017   | Nooit    |
-| Kostengedrag of variabele kosten (\*\*)   | Organisatie                         | 0,00             | 0,00         | 1/1/2017   | Nooit    |
+| <span data-ttu-id="cac22-340">Vaste kosten</span><span class="sxs-lookup"><span data-stu-id="cac22-340">Fixed cost</span></span>                            | <span data-ttu-id="cac22-341">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-341">Organization</span></span>                         | <span data-ttu-id="cac22-342">100,00</span><span class="sxs-lookup"><span data-stu-id="cac22-342">100.00</span></span>           | <span data-ttu-id="cac22-343">0,00</span><span class="sxs-lookup"><span data-stu-id="cac22-343">0.00</span></span>         | <span data-ttu-id="cac22-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-344">1/1/2017</span></span>   | <span data-ttu-id="cac22-345">Nooit</span><span class="sxs-lookup"><span data-stu-id="cac22-345">Never</span></span>    |
+| <span data-ttu-id="cac22-346">10001</span><span class="sxs-lookup"><span data-stu-id="cac22-346">10001</span></span>                                 | <span data-ttu-id="cac22-347">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-347">Organization</span></span>                         | <span data-ttu-id="cac22-348">0,00</span><span class="sxs-lookup"><span data-stu-id="cac22-348">0.00</span></span>             | <span data-ttu-id="cac22-349">150,00</span><span class="sxs-lookup"><span data-stu-id="cac22-349">150.00</span></span>       | <span data-ttu-id="cac22-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-350">1/1/2017</span></span>   | <span data-ttu-id="cac22-351">Nooit</span><span class="sxs-lookup"><span data-stu-id="cac22-351">Never</span></span>    |
+| <span data-ttu-id="cac22-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="cac22-352">10001 (\*)</span></span>                             | <span data-ttu-id="cac22-353">Financiën</span><span class="sxs-lookup"><span data-stu-id="cac22-353">Finance</span></span>                              |                  | <span data-ttu-id="cac22-354">50,00</span><span class="sxs-lookup"><span data-stu-id="cac22-354">50.00</span></span>        | <span data-ttu-id="cac22-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-355">1/1/2017</span></span>   | <span data-ttu-id="cac22-356">Nooit</span><span class="sxs-lookup"><span data-stu-id="cac22-356">Never</span></span>    |
+| <span data-ttu-id="cac22-357">Kostengedrag of variabele kosten (\*\*)</span><span class="sxs-lookup"><span data-stu-id="cac22-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="cac22-358">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-358">Organization</span></span>                         | <span data-ttu-id="cac22-359">0,00</span><span class="sxs-lookup"><span data-stu-id="cac22-359">0.00</span></span>             | <span data-ttu-id="cac22-360">0,00</span><span class="sxs-lookup"><span data-stu-id="cac22-360">0.00</span></span>         | <span data-ttu-id="cac22-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-361">1/1/2017</span></span>   | <span data-ttu-id="cac22-362">Nooit</span><span class="sxs-lookup"><span data-stu-id="cac22-362">Never</span></span>    |
 
-\* Het knooppunt van de variabele kosten is niet vereist. Als kosten niet worden geclassificeerd als vaste kosten, moeten dit variabele kosten zijn.
+<span data-ttu-id="cac22-363">\* Het knooppunt van de variabele kosten is niet vereist.</span><span class="sxs-lookup"><span data-stu-id="cac22-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="cac22-364">Als kosten niet worden geclassificeerd als vaste kosten, moeten dit variabele kosten zijn.</span><span class="sxs-lookup"><span data-stu-id="cac22-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* Een gedetailleerde regel wordt gemaakt voor de combinatie van kostenelementlid 10001 en alle kostenobjectleden die onder het hiërarchieniveau Financiën (CC002, CC003, CC007) worden samengevoegd.
+<span data-ttu-id="cac22-365">\*\* Een gedetailleerde regel wordt gemaakt voor de combinatie van kostenelementlid 10001 en alle kostenobjectleden die onder het hiërarchieniveau Financiën (CC002, CC003, CC007) worden samengevoegd.</span><span class="sxs-lookup"><span data-stu-id="cac22-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-De voorgaande regels tonen de flexibiliteit die dimensiehiërarchieën verschaffen. Door regels op hoog niveau te definiëren, kunt u onderhoud minimaliseren. Vervolgens kunt u gedetailleerde regels definiëren die passen in een specifieke zakelijke doelstelling.
+<span data-ttu-id="cac22-366">De voorgaande regels tonen de flexibiliteit die dimensiehiërarchieën verschaffen.</span><span class="sxs-lookup"><span data-stu-id="cac22-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="cac22-367">Door regels op hoog niveau te definiëren, kunt u onderhoud minimaliseren.</span><span class="sxs-lookup"><span data-stu-id="cac22-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="cac22-368">Vervolgens kunt u gedetailleerde regels definiëren die passen in een specifieke zakelijke doelstelling.</span><span class="sxs-lookup"><span data-stu-id="cac22-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-Als de dimensiehiërarchieën die worden gebruikt in regels worden bijgewerkt, worden de updates automatisch aangereikt.
+<span data-ttu-id="cac22-369">Als de dimensiehiërarchieën die worden gebruikt in regels worden bijgewerkt, worden de updates automatisch aangereikt.</span><span class="sxs-lookup"><span data-stu-id="cac22-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-Als een niveau van gedetailleerdheid in de regels niet meer nodig is, kan de regel vervallen.
+<span data-ttu-id="cac22-370">Als een niveau van gedetailleerdheid in de regels niet meer nodig is, kan de regel vervallen.</span><span class="sxs-lookup"><span data-stu-id="cac22-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-Zo is een specifieke kostengedragregel voor het knooppunt van de kostenobjectdimensiehiërarchie Financiën niet langer vereist. In dit geval klikt u op **Regel vervallen** om de regel te laten vervallen.
+<span data-ttu-id="cac22-371">Zo is een specifieke kostengedragregel voor het knooppunt van de kostenobjectdimensiehiërarchie Financiën niet langer vereist.</span><span class="sxs-lookup"><span data-stu-id="cac22-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="cac22-372">In dit geval klikt u op **Regel vervallen** om de regel te laten vervallen.</span><span class="sxs-lookup"><span data-stu-id="cac22-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| Dimensiehiërarchieknooppunt van een kostenelement | Dimensiehiërarchieknooppunt van een kostenobject | Vast percentage | Vast bedrag | Geldig vanaf | Geldig tot  |
+| <span data-ttu-id="cac22-373">Dimensiehiërarchieknooppunt van een kostenelement</span><span class="sxs-lookup"><span data-stu-id="cac22-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="cac22-374">Dimensiehiërarchieknooppunt van een kostenobject</span><span class="sxs-lookup"><span data-stu-id="cac22-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="cac22-375">Vast percentage</span><span class="sxs-lookup"><span data-stu-id="cac22-375">Fixed percentage</span></span> | <span data-ttu-id="cac22-376">Vast bedrag</span><span class="sxs-lookup"><span data-stu-id="cac22-376">Fixed amount</span></span> | <span data-ttu-id="cac22-377">Geldig vanaf</span><span class="sxs-lookup"><span data-stu-id="cac22-377">Valid from</span></span> | <span data-ttu-id="cac22-378">Geldig tot</span><span class="sxs-lookup"><span data-stu-id="cac22-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| Vaste kosten                            | Organisatie                         | 100,00           | 0.00         | 1/1/2017   | Nooit     |
-| 10001                                 | Organisatie                         | 0.00             | 150,00       | 1/1/2017   | Nooit     |
-| 10001                                 | Financiën                              |                  | 50,00        | 1/1/2017   | 20/1/2017 |
-| Kostengedrag of variabele kosten        | Organisatie                         | 0.00             | 0.00         | 1/1/2017   | Nooit     |
+| <span data-ttu-id="cac22-379">Vaste kosten</span><span class="sxs-lookup"><span data-stu-id="cac22-379">Fixed cost</span></span>                            | <span data-ttu-id="cac22-380">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-380">Organization</span></span>                         | <span data-ttu-id="cac22-381">100,00</span><span class="sxs-lookup"><span data-stu-id="cac22-381">100,00</span></span>           | <span data-ttu-id="cac22-382">0.00</span><span class="sxs-lookup"><span data-stu-id="cac22-382">0,00</span></span>         | <span data-ttu-id="cac22-383">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-383">1/1/2017</span></span>   | <span data-ttu-id="cac22-384">Nooit</span><span class="sxs-lookup"><span data-stu-id="cac22-384">Never</span></span>     |
+| <span data-ttu-id="cac22-385">10001</span><span class="sxs-lookup"><span data-stu-id="cac22-385">10001</span></span>                                 | <span data-ttu-id="cac22-386">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-386">Organization</span></span>                         | <span data-ttu-id="cac22-387">0.00</span><span class="sxs-lookup"><span data-stu-id="cac22-387">0,00</span></span>             | <span data-ttu-id="cac22-388">150,00</span><span class="sxs-lookup"><span data-stu-id="cac22-388">150,00</span></span>       | <span data-ttu-id="cac22-389">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-389">1/1/2017</span></span>   | <span data-ttu-id="cac22-390">Nooit</span><span class="sxs-lookup"><span data-stu-id="cac22-390">Never</span></span>     |
+| <span data-ttu-id="cac22-391">10001</span><span class="sxs-lookup"><span data-stu-id="cac22-391">10001</span></span>                                 | <span data-ttu-id="cac22-392">Financiën</span><span class="sxs-lookup"><span data-stu-id="cac22-392">Finance</span></span>                              |                  | <span data-ttu-id="cac22-393">50,00</span><span class="sxs-lookup"><span data-stu-id="cac22-393">50,00</span></span>        | <span data-ttu-id="cac22-394">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-394">1/1/2017</span></span>   | <span data-ttu-id="cac22-395">20/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-395">20/1/2017</span></span> |
+| <span data-ttu-id="cac22-396">Kostengedrag of variabele kosten</span><span class="sxs-lookup"><span data-stu-id="cac22-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="cac22-397">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-397">Organization</span></span>                         | <span data-ttu-id="cac22-398">0.00</span><span class="sxs-lookup"><span data-stu-id="cac22-398">0,00</span></span>             | <span data-ttu-id="cac22-399">0.00</span><span class="sxs-lookup"><span data-stu-id="cac22-399">0,00</span></span>         | <span data-ttu-id="cac22-400">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="cac22-400">1/1/2017</span></span>   | <span data-ttu-id="cac22-401">Nooit</span><span class="sxs-lookup"><span data-stu-id="cac22-401">Never</span></span>     |
 
-In een overheadkostenberekening die na 20 januari 2017 wordt uitgevoerd, wordt niet langer rekening gehouden met deze regel.
+<span data-ttu-id="cac22-402">In een overheadkostenberekening die na 20 januari 2017 wordt uitgevoerd, wordt niet langer rekening gehouden met deze regel.</span><span class="sxs-lookup"><span data-stu-id="cac22-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> De velden **Geldig vanaf** en **Geldig tot** zijn datumeffectief en tijdeffectief. U kunt de regel laten vervallen en op dezelfde dag een nieuwe berekening van de overheadkosten uitvoeren.
+> <span data-ttu-id="cac22-403">De velden **Geldig vanaf** en **Geldig tot** zijn datumeffectief en tijdeffectief.</span><span class="sxs-lookup"><span data-stu-id="cac22-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="cac22-404">U kunt de regel laten vervallen en op dezelfde dag een nieuwe berekening van de overheadkosten uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="cac22-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>Dimensiehiërarchieën definiëren voor beveiligingsinstelling
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="cac22-405">Dimensiehiërarchieën definiëren voor beveiligingsinstelling</span><span class="sxs-lookup"><span data-stu-id="cac22-405">Define dimension hierarchies for security setup</span></span>
 
-Gegevens van Kostprijsboekhouding moeten beschikbaar worden gesteld aan alle beheerders die verantwoordelijk voor een rapportage-eenheid zijn. Volgens de terminologie van Kostprijsboekhouding wordt een rapportage-eenheid vertegenwoordigd als een kostenobject of een reeks kostenobjecten.
+<span data-ttu-id="cac22-406">Gegevens van Kostprijsboekhouding moeten beschikbaar worden gesteld aan alle beheerders die verantwoordelijk voor een rapportage-eenheid zijn.</span><span class="sxs-lookup"><span data-stu-id="cac22-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="cac22-407">Volgens de terminologie van Kostprijsboekhouding wordt een rapportage-eenheid vertegenwoordigd als een kostenobject of een reeks kostenobjecten.</span><span class="sxs-lookup"><span data-stu-id="cac22-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-Alle managers kunnen mogelijk toegang krijgen tot zeer gevoelige bedrijfsgegevens, zoals opbrengsten en marges. Het is daarom belangrijk dat u beveiliging instelt, zodat managers alleen de gegevens zien die relevant zijn voor hen. Als hulpmiddel voor het beheer van gegevensbeveiliging definieert u dimensiehiërarchieën.
+<span data-ttu-id="cac22-408">Alle managers kunnen mogelijk toegang krijgen tot zeer gevoelige bedrijfsgegevens, zoals opbrengsten en marges.</span><span class="sxs-lookup"><span data-stu-id="cac22-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="cac22-409">Het is daarom belangrijk dat u beveiliging instelt, zodat managers alleen de gegevens zien die relevant zijn voor hen.</span><span class="sxs-lookup"><span data-stu-id="cac22-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="cac22-410">Als hulpmiddel voor het beheer van gegevensbeveiliging definieert u dimensiehiërarchieën.</span><span class="sxs-lookup"><span data-stu-id="cac22-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- Het gebruik van dimensiehiërarchieën geldt alleen als de dimensiewaarde die is geselecteerd in de dimensiehiërarchieverwijzing, een kostenobjectdimensie is.
-- Er kan slechts één dimensiehiërarchie worden ingeschakeld per kostenobjectdimensie in de toegangslijsthiërarchie.
+- <span data-ttu-id="cac22-411">Het gebruik van dimensiehiërarchieën geldt alleen als de dimensiewaarde die is geselecteerd in de dimensiehiërarchieverwijzing, een kostenobjectdimensie is.</span><span class="sxs-lookup"><span data-stu-id="cac22-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="cac22-412">Er kan slechts één dimensiehiërarchie worden ingeschakeld per kostenobjectdimensie in de toegangslijsthiërarchie.</span><span class="sxs-lookup"><span data-stu-id="cac22-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**Gegevens van dimensiehiërarchie**
+<span data-ttu-id="cac22-413">**Gegevens van dimensiehiërarchie**</span><span class="sxs-lookup"><span data-stu-id="cac22-413">**Dimension hierarchy details**</span></span>
 
-| Naam van dimensiehiërarchie | Dimensie    | Naam van type dimensiehiërarchie      | Hiërarchie van toegangslijsten |
+| <span data-ttu-id="cac22-414">Naam van dimensiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="cac22-414">Dimension hierarchy name</span></span> | <span data-ttu-id="cac22-415">Dimensie</span><span class="sxs-lookup"><span data-stu-id="cac22-415">Dimension</span></span>    | <span data-ttu-id="cac22-416">Naam van type dimensiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="cac22-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="cac22-417">Hiërarchie van toegangslijsten</span><span class="sxs-lookup"><span data-stu-id="cac22-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organisatie             | Kostenplaatsen | Hiërarchie dimensieclassificatie | **Ja**               |
+| <span data-ttu-id="cac22-418">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-418">Organization</span></span>             | <span data-ttu-id="cac22-419">Kostenplaatsen</span><span class="sxs-lookup"><span data-stu-id="cac22-419">Cost centers</span></span> | <span data-ttu-id="cac22-420">Hiërarchie dimensieclassificatie</span><span class="sxs-lookup"><span data-stu-id="cac22-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="cac22-421">**Ja**</span><span class="sxs-lookup"><span data-stu-id="cac22-421">**Yes**</span></span>               |
 
-Het nieuwe sneltabblad **Gebruikers** is beschikbaar in de hiërarchieontwerper. Hier kunt u een of meer gebruikers-id´s in elk knooppunt van de hiërarchie invoegen.
+<span data-ttu-id="cac22-422">Het nieuwe sneltabblad **Gebruikers** is beschikbaar in de hiërarchieontwerper.</span><span class="sxs-lookup"><span data-stu-id="cac22-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="cac22-423">Hier kunt u een of meer gebruikers-id´s in elk knooppunt van de hiërarchie invoegen.</span><span class="sxs-lookup"><span data-stu-id="cac22-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | Gebruikers            | Bereiken van dimensieleden   |                         |
+|                 | <span data-ttu-id="cac22-424">Gebruikers</span><span class="sxs-lookup"><span data-stu-id="cac22-424">Users</span></span>            | <span data-ttu-id="cac22-425">Bereiken van dimensieleden</span><span class="sxs-lookup"><span data-stu-id="cac22-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Knooppunten**       | **Gebruikers-id**      | **Van dimensielid** | **Tot dimensielid** |
-| Organisatie    | Benjamin, Claire |                           |                         |
-| &nbsp;&nbsp;Beheer         | april            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Financiën   | Alicia           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;HR        | Arnie            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Productie    | David            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Verpakking | Ellen            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Assembleren  | Chris            | CC006                     | CC006                   |
+| <span data-ttu-id="cac22-426">**Knooppunten**</span><span class="sxs-lookup"><span data-stu-id="cac22-426">**Nodes**</span></span>       | <span data-ttu-id="cac22-427">**Gebruikers-id**</span><span class="sxs-lookup"><span data-stu-id="cac22-427">**User ID**</span></span>      | <span data-ttu-id="cac22-428">**Van dimensielid**</span><span class="sxs-lookup"><span data-stu-id="cac22-428">**From dimension member**</span></span> | <span data-ttu-id="cac22-429">**Tot dimensielid**</span><span class="sxs-lookup"><span data-stu-id="cac22-429">**To dimension member**</span></span> |
+| <span data-ttu-id="cac22-430">Organisatie</span><span class="sxs-lookup"><span data-stu-id="cac22-430">Organization</span></span>    | <span data-ttu-id="cac22-431">Benjamin, Claire</span><span class="sxs-lookup"><span data-stu-id="cac22-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="cac22-432">&nbsp;&nbsp;Beheer</span><span class="sxs-lookup"><span data-stu-id="cac22-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="cac22-433">april</span><span class="sxs-lookup"><span data-stu-id="cac22-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="cac22-434">&nbsp;&nbsp;&nbsp;&nbsp;Financiën</span><span class="sxs-lookup"><span data-stu-id="cac22-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="cac22-435">Alicia</span><span class="sxs-lookup"><span data-stu-id="cac22-435">Alicia</span></span>           | <span data-ttu-id="cac22-436">CC002</span><span class="sxs-lookup"><span data-stu-id="cac22-436">CC002</span></span>                     | <span data-ttu-id="cac22-437">CC003</span><span class="sxs-lookup"><span data-stu-id="cac22-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="cac22-438">CC007</span><span class="sxs-lookup"><span data-stu-id="cac22-438">CC007</span></span>                     | <span data-ttu-id="cac22-439">CC007</span><span class="sxs-lookup"><span data-stu-id="cac22-439">CC007</span></span>                   |
+| <span data-ttu-id="cac22-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span><span class="sxs-lookup"><span data-stu-id="cac22-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="cac22-441">Arnie</span><span class="sxs-lookup"><span data-stu-id="cac22-441">Arnie</span></span>            | <span data-ttu-id="cac22-442">CC001</span><span class="sxs-lookup"><span data-stu-id="cac22-442">CC001</span></span>                     | <span data-ttu-id="cac22-443">CC001</span><span class="sxs-lookup"><span data-stu-id="cac22-443">CC001</span></span>                   |
+| <span data-ttu-id="cac22-444">&nbsp;&nbsp;Productie</span><span class="sxs-lookup"><span data-stu-id="cac22-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="cac22-445">David</span><span class="sxs-lookup"><span data-stu-id="cac22-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="cac22-446">&nbsp;&nbsp;&nbsp;&nbsp;Verpakking</span><span class="sxs-lookup"><span data-stu-id="cac22-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="cac22-447">Ellen</span><span class="sxs-lookup"><span data-stu-id="cac22-447">Ellen</span></span>            | <span data-ttu-id="cac22-448">CC005</span><span class="sxs-lookup"><span data-stu-id="cac22-448">CC005</span></span>                     | <span data-ttu-id="cac22-449">CC005</span><span class="sxs-lookup"><span data-stu-id="cac22-449">CC005</span></span>                   |
+| <span data-ttu-id="cac22-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembleren</span><span class="sxs-lookup"><span data-stu-id="cac22-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="cac22-451">Chris</span><span class="sxs-lookup"><span data-stu-id="cac22-451">Chris</span></span>            | <span data-ttu-id="cac22-452">CC006</span><span class="sxs-lookup"><span data-stu-id="cac22-452">CC006</span></span>                     | <span data-ttu-id="cac22-453">CC006</span><span class="sxs-lookup"><span data-stu-id="cac22-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> Kostenaccountants moeten worden toegewezen op het hoogste niveau van de hiërarchie, zodat ze alle vermeldingen in Kostprijsboekhouding kunnen zien.
+> <span data-ttu-id="cac22-454">Kostenaccountants moeten worden toegewezen op het hoogste niveau van de hiërarchie, zodat ze alle vermeldingen in Kostprijsboekhouding kunnen zien.</span><span class="sxs-lookup"><span data-stu-id="cac22-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Als u de hiërarchie van toegangslijsten en de bijbehorende beveiligingsinstellingen wilt inschakelen, gaat u naar **Kostprijsboekhouding** > **Instellen** > **Parameters** > **Algemeen**. Selecteer de parameter **Weergavetoegang voor dimensieleden voor kostenobject inschakelen**.
+<span data-ttu-id="cac22-455">Als u de hiërarchie van toegangslijsten en de bijbehorende beveiligingsinstellingen wilt inschakelen, gaat u naar **Kostprijsboekhouding** > **Instellen** > **Parameters** > **Algemeen**.</span><span class="sxs-lookup"><span data-stu-id="cac22-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="cac22-456">Selecteer de parameter **Weergavetoegang voor dimensieleden voor kostenobject inschakelen**.</span><span class="sxs-lookup"><span data-stu-id="cac22-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-De instellingen voor de hiërarchie van toegangslijsten worden gebruikt om de gegevens te beheren die in de volgende gebieden worden weergegeven:
+<span data-ttu-id="cac22-457">De instellingen voor de hiërarchie van toegangslijsten worden gebruikt om de gegevens te beheren die in de volgende gebieden worden weergegeven:</span><span class="sxs-lookup"><span data-stu-id="cac22-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- Werkgebied **Kostenbeheer** (client):
+- <span data-ttu-id="cac22-458">Werkgebied **Kostenbeheer** (client):</span><span class="sxs-lookup"><span data-stu-id="cac22-458">**Cost control** workspace (Client):</span></span>
 
-    - Gegevens in formulieren die worden gebruikt voor detailanalysescenario 's
+    - <span data-ttu-id="cac22-459">Gegevens in formulieren die worden gebruikt voor detailanalysescenario 's</span><span class="sxs-lookup"><span data-stu-id="cac22-459">Data in forms that are used to drill through scenarios</span></span>
 
-- Werkgebied **Kostenbeheer** (mobiele toepassing):
+- <span data-ttu-id="cac22-460">Werkgebied **Kostenbeheer** (mobiele toepassing):</span><span class="sxs-lookup"><span data-stu-id="cac22-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - Saldi in kaarten
+    - <span data-ttu-id="cac22-461">Saldi in kaarten</span><span class="sxs-lookup"><span data-stu-id="cac22-461">Balances in cards</span></span>
 
-- Power BI:
+- <span data-ttu-id="cac22-462">Power BI:</span><span class="sxs-lookup"><span data-stu-id="cac22-462">Power BI:</span></span>
 
-    - Gegevens die worden weergegeven in Power BI-visualisaties
-    - Gegevens van Power BI-visualisaties die worden ingesloten in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, client
+    - <span data-ttu-id="cac22-463">Gegevens die worden weergegeven in Power BI-visualisaties</span><span class="sxs-lookup"><span data-stu-id="cac22-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="cac22-464">Gegevens van Power BI-visualisaties die worden ingesloten in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, client</span><span class="sxs-lookup"><span data-stu-id="cac22-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack) voor meer informatie.
-> - De hiërarchie van toegangslijsten helpen de export van gegevens naar Excel niet beveiligen. Daarom moet die rapportagefunctie alleen worden gebruikt door kostenaccountants en managers die volledige toegang moeten hebben om de gegevens weer te geven.
+> - <span data-ttu-id="cac22-465">Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="cac22-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="cac22-466">Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="cac22-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="cac22-467">De hiërarchie van toegangslijsten helpen de export van gegevens naar Excel niet beveiligen.</span><span class="sxs-lookup"><span data-stu-id="cac22-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="cac22-468">Daarom moet die rapportagefunctie alleen worden gebruikt door kostenaccountants en managers die volledige toegang moeten hebben om de gegevens weer te geven.</span><span class="sxs-lookup"><span data-stu-id="cac22-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

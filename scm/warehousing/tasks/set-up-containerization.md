@@ -17,102 +17,102 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 38b60098daa0389af596920682c30dcd9b17a7fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-containerization"></a>Containervorming instellen
+# <a name="set-up-containerization"></a><span data-ttu-id="980e6-103">Containervorming instellen</span><span class="sxs-lookup"><span data-stu-id="980e6-103">Set up containerization</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Met deze procedure wordt beschreven hoe u de containervorming van ladingen in Magazijnbeheer kunt automatiseren. Met geautomatiseerde containervorming worden containers en orderverzamelingen voor zendingen gemaakt wanneer een wave wordt verwerkt en werkregels kunnen worden opgesplitst in hoeveelheden die in de containers passen. Dit helpt werknemers de artikelen direct in de gekozen container te verzamelen. Vergeleken met het handmatige verpakkingsproces worden taken zoals het maken van containers, het toewijzen van artikelen en het sluiten van containers geautomatiseerd door het systeem. In deze procedure wordt het demobedrijf USMF gebruikt en deze procedure wordt door een magazijnmanager uitgevoerd.
+<span data-ttu-id="980e6-104">Met deze procedure wordt beschreven hoe u de containervorming van ladingen in Magazijnbeheer kunt automatiseren.</span><span class="sxs-lookup"><span data-stu-id="980e6-104">This procedure describes how to automate the containerization of loads in Warehouse management.</span></span> <span data-ttu-id="980e6-105">Met geautomatiseerde containervorming worden containers en orderverzamelingen voor zendingen gemaakt wanneer een wave wordt verwerkt en werkregels kunnen worden opgesplitst in hoeveelheden die in de containers passen.</span><span class="sxs-lookup"><span data-stu-id="980e6-105">Automated containerization creates containers and the picking work for shipments when a wave is processed and work lines can be split into quantities that fit the containers.</span></span> <span data-ttu-id="980e6-106">Dit helpt werknemers de artikelen direct in de gekozen container te verzamelen.</span><span class="sxs-lookup"><span data-stu-id="980e6-106">This helps warehouse workers to pick the items directly into the chosen container.</span></span> <span data-ttu-id="980e6-107">Vergeleken met het handmatige verpakkingsproces worden taken zoals het maken van containers, het toewijzen van artikelen en het sluiten van containers geautomatiseerd door het systeem.</span><span class="sxs-lookup"><span data-stu-id="980e6-107">Compared to the manual packing process, tasks such as creating containers, assigning items, and closing containers are automated by the system.</span></span> <span data-ttu-id="980e6-108">In deze procedure wordt het demobedrijf USMF gebruikt en deze procedure wordt door een magazijnmanager uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="980e6-108">This procedure uses the USMF demo company and is performed by a Warehouse manager.</span></span>
 
 
-## <a name="set-up-a-wave-template"></a>Een wavesjabloon instellen
-1. Ga naar Magazijnbeheer > Instellingen > Waves > Wavesjablonen.
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Wavesjabloon.
-4. Typ een waarde in het veld Omschrijving van wavesjabloon.
-5. Typ of selecteer een waarde in het veld Locatie.
-6. Typ of selecteer een waarde in het veld Magazijn.
-7. Vouw de sectie Methoden uit.
-    * In het deelvenster Geselecteerde methoden worden de methoden voor het geselecteerde type wavesjabloon weergegeven. De wavesjabloon moet de methode Containervormen bevatten.  
-8. Zoek en selecteer de gewenste record in de lijst.
-9. Typ een waarde in het veld Wavestapcode.
-    * Voer een wavestapcode voor de toegevoegde methode in. Dit kan elke code zijn. Het is mogelijk om de methode meerdere malen toe te voegen en verschillende wavestapcodes toe te wijzen. Selecteer hiervoor Herhaalbaar voor deze methode op de pagina Methoden voor verwerking van waves.  
-10. Klik op Opslaan.
-11. Sluit de pagina.
+## <a name="set-up-a-wave-template"></a><span data-ttu-id="980e6-109">Een wavesjabloon instellen</span><span class="sxs-lookup"><span data-stu-id="980e6-109">Set up a wave template</span></span>
+1. <span data-ttu-id="980e6-110">Ga naar Magazijnbeheer > Instellingen > Waves > Wavesjablonen.</span><span class="sxs-lookup"><span data-stu-id="980e6-110">Go to Warehouse management > Setup > Waves > Wave templates.</span></span>
+2. <span data-ttu-id="980e6-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-111">Click New.</span></span>
+3. <span data-ttu-id="980e6-112">Typ een waarde in het veld Wavesjabloon.</span><span class="sxs-lookup"><span data-stu-id="980e6-112">In the Wave template name field, type a value.</span></span>
+4. <span data-ttu-id="980e6-113">Typ een waarde in het veld Omschrijving van wavesjabloon.</span><span class="sxs-lookup"><span data-stu-id="980e6-113">In the Wave template description field, type a value.</span></span>
+5. <span data-ttu-id="980e6-114">Typ of selecteer een waarde in het veld Locatie.</span><span class="sxs-lookup"><span data-stu-id="980e6-114">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="980e6-115">Typ of selecteer een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="980e6-115">In the Warehouse field, enter or select a value.</span></span>
+7. <span data-ttu-id="980e6-116">Vouw de sectie Methoden uit.</span><span class="sxs-lookup"><span data-stu-id="980e6-116">Expand the Methods section.</span></span>
+    * <span data-ttu-id="980e6-117">In het deelvenster Geselecteerde methoden worden de methoden voor het geselecteerde type wavesjabloon weergegeven.</span><span class="sxs-lookup"><span data-stu-id="980e6-117">The Selected methods pane lists the methods for the selected wave template type.</span></span> <span data-ttu-id="980e6-118">De wavesjabloon moet de methode Containervormen bevatten.</span><span class="sxs-lookup"><span data-stu-id="980e6-118">The wave template must include the containerize method.</span></span>  
+8. <span data-ttu-id="980e6-119">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="980e6-119">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="980e6-120">Typ een waarde in het veld Wavestapcode.</span><span class="sxs-lookup"><span data-stu-id="980e6-120">In the Wave step code field, type a value.</span></span>
+    * <span data-ttu-id="980e6-121">Voer een wavestapcode voor de toegevoegde methode in. Dit kan elke code zijn.</span><span class="sxs-lookup"><span data-stu-id="980e6-121">Enter a Wave step code for the added method, which can be any code.</span></span> <span data-ttu-id="980e6-122">Het is mogelijk om de methode meerdere malen toe te voegen en verschillende wavestapcodes toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="980e6-122">It’s possible to add the method more than once and assign different wave step codes.</span></span> <span data-ttu-id="980e6-123">Selecteer hiervoor Herhaalbaar voor deze methode op de pagina Methoden voor verwerking van waves.</span><span class="sxs-lookup"><span data-stu-id="980e6-123">To do this, select Repeatable for this method in the Wave process methods page.</span></span>  
+10. <span data-ttu-id="980e6-124">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="980e6-124">Click Save.</span></span>
+11. <span data-ttu-id="980e6-125">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="980e6-125">Close the page.</span></span>
 
-## <a name="set-up-a-container-type"></a>Een containertype instellen
-1. Ga naar Magazijnbeheer > Instellingen > Containers > Containertypen.
-    * U kunt uw containers definiëren op de pagina Containertypen. U kunt de fysieke afmetingen van containers configureren, waaronder tarragewicht, maximumgewicht, maximumvolume, lengte, breedte en hoogte. In dit voorbeeld zijn er drie verschillende formaten van dozen.  
-2. Klik op Nieuw.
-3. Typ een waarde in het veld Containertype.
-4. Voer een getal in het veld Tarragewicht in.
-5. Voer in het veld Maximumgewicht een getal in.
-6. Voer een getal in het veld Volume in.
-7. Voer een getal in het veld Lengte in.
-8. Voer een getal in het veld Breedte in.
-9. Voer een getal in het veld Hoogte in.
-10. Typ een waarde in het veld Omschrijving.
-11. Klik op Opslaan.
-12. Klik op Nieuw.
-13. Typ een waarde in het veld Containertype.
-14. Typ een waarde in het veld Omschrijving.
-15. Voer een getal in het veld Tarragewicht in.
-16. Voer in het veld Maximumgewicht een getal in.
-17. Voer een getal in het veld Volume in.
-18. Voer een getal in het veld Lengte in.
-19. Voer een getal in het veld Breedte in.
-20. Voer een getal in het veld Hoogte in.
-21. Klik op Opslaan.
-22. Klik op Nieuw.
-23. Typ een waarde in het veld Containertype.
-24. Typ een waarde in het veld Omschrijving.
-25. Voer een getal in het veld Tarragewicht in.
-26. Voer in het veld Maximumgewicht een getal in.
-27. Voer een getal in het veld Volume in.
-28. Voer een getal in het veld Lengte in.
-29. Voer een getal in het veld Breedte in.
-30. Voer een getal in het veld Hoogte in.
-31. Klik op Opslaan.
-32. Sluit de pagina.
+## <a name="set-up-a-container-type"></a><span data-ttu-id="980e6-126">Een containertype instellen</span><span class="sxs-lookup"><span data-stu-id="980e6-126">Set up a container type</span></span>
+1. <span data-ttu-id="980e6-127">Ga naar Magazijnbeheer > Instellingen > Containers > Containertypen.</span><span class="sxs-lookup"><span data-stu-id="980e6-127">Go to Warehouse management > Setup > Containers > Container types.</span></span>
+    * <span data-ttu-id="980e6-128">U kunt uw containers definiëren op de pagina Containertypen.</span><span class="sxs-lookup"><span data-stu-id="980e6-128">You can define your containers in the Container types page.</span></span> <span data-ttu-id="980e6-129">U kunt de fysieke afmetingen van containers configureren, waaronder tarragewicht, maximumgewicht, maximumvolume, lengte, breedte en hoogte.</span><span class="sxs-lookup"><span data-stu-id="980e6-129">You can configure the physical dimensions of containers including tare weight, maximum weight, maximum volume, length, width, and height.</span></span> <span data-ttu-id="980e6-130">In dit voorbeeld zijn er drie verschillende formaten van dozen.</span><span class="sxs-lookup"><span data-stu-id="980e6-130">In this example, we have three different sizes of boxes.</span></span>  
+2. <span data-ttu-id="980e6-131">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-131">Click New.</span></span>
+3. <span data-ttu-id="980e6-132">Typ een waarde in het veld Containertype.</span><span class="sxs-lookup"><span data-stu-id="980e6-132">In the Container type code field, type a value.</span></span>
+4. <span data-ttu-id="980e6-133">Voer een getal in het veld Tarragewicht in.</span><span class="sxs-lookup"><span data-stu-id="980e6-133">In the Tare weight field, enter a number.</span></span>
+5. <span data-ttu-id="980e6-134">Voer in het veld Maximumgewicht een getal in.</span><span class="sxs-lookup"><span data-stu-id="980e6-134">In the Maximum weight field, enter a number.</span></span>
+6. <span data-ttu-id="980e6-135">Voer een getal in het veld Volume in.</span><span class="sxs-lookup"><span data-stu-id="980e6-135">In the Volume field, enter a number.</span></span>
+7. <span data-ttu-id="980e6-136">Voer een getal in het veld Lengte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-136">In the Length field, enter a number.</span></span>
+8. <span data-ttu-id="980e6-137">Voer een getal in het veld Breedte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-137">In the Width field, enter a number.</span></span>
+9. <span data-ttu-id="980e6-138">Voer een getal in het veld Hoogte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-138">In the Height field, enter a number.</span></span>
+10. <span data-ttu-id="980e6-139">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="980e6-139">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="980e6-140">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="980e6-140">Click Save.</span></span>
+12. <span data-ttu-id="980e6-141">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-141">Click New.</span></span>
+13. <span data-ttu-id="980e6-142">Typ een waarde in het veld Containertype.</span><span class="sxs-lookup"><span data-stu-id="980e6-142">In the Container type code field, type a value.</span></span>
+14. <span data-ttu-id="980e6-143">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="980e6-143">In the Description field, type a value.</span></span>
+15. <span data-ttu-id="980e6-144">Voer een getal in het veld Tarragewicht in.</span><span class="sxs-lookup"><span data-stu-id="980e6-144">In the Tare weight field, enter a number.</span></span>
+16. <span data-ttu-id="980e6-145">Voer in het veld Maximumgewicht een getal in.</span><span class="sxs-lookup"><span data-stu-id="980e6-145">In the Maximum weight field, enter a number.</span></span>
+17. <span data-ttu-id="980e6-146">Voer een getal in het veld Volume in.</span><span class="sxs-lookup"><span data-stu-id="980e6-146">In the Volume field, enter a number.</span></span>
+18. <span data-ttu-id="980e6-147">Voer een getal in het veld Lengte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-147">In the Length field, enter a number.</span></span>
+19. <span data-ttu-id="980e6-148">Voer een getal in het veld Breedte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-148">In the Width field, enter a number.</span></span>
+20. <span data-ttu-id="980e6-149">Voer een getal in het veld Hoogte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-149">In the Height field, enter a number.</span></span>
+21. <span data-ttu-id="980e6-150">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="980e6-150">Click Save.</span></span>
+22. <span data-ttu-id="980e6-151">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-151">Click New.</span></span>
+23. <span data-ttu-id="980e6-152">Typ een waarde in het veld Containertype.</span><span class="sxs-lookup"><span data-stu-id="980e6-152">In the Container type code field, type a value.</span></span>
+24. <span data-ttu-id="980e6-153">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="980e6-153">In the Description field, type a value.</span></span>
+25. <span data-ttu-id="980e6-154">Voer een getal in het veld Tarragewicht in.</span><span class="sxs-lookup"><span data-stu-id="980e6-154">In the Tare weight field, enter a number.</span></span>
+26. <span data-ttu-id="980e6-155">Voer in het veld Maximumgewicht een getal in.</span><span class="sxs-lookup"><span data-stu-id="980e6-155">In the Maximum weight field, enter a number.</span></span>
+27. <span data-ttu-id="980e6-156">Voer een getal in het veld Volume in.</span><span class="sxs-lookup"><span data-stu-id="980e6-156">In the Volume field, enter a number.</span></span>
+28. <span data-ttu-id="980e6-157">Voer een getal in het veld Lengte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-157">In the Length field, enter a number.</span></span>
+29. <span data-ttu-id="980e6-158">Voer een getal in het veld Breedte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-158">In the Width field, enter a number.</span></span>
+30. <span data-ttu-id="980e6-159">Voer een getal in het veld Hoogte in.</span><span class="sxs-lookup"><span data-stu-id="980e6-159">In the Height field, enter a number.</span></span>
+31. <span data-ttu-id="980e6-160">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="980e6-160">Click Save.</span></span>
+32. <span data-ttu-id="980e6-161">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="980e6-161">Close the page.</span></span>
 
-## <a name="set-up-a-container-group"></a>Een containergroep instellen
-1. Ga naar Magazijnbeheer > Instellingen > Containers > Containergroepen.
-2. Klik op Nieuw.
-    * U kunt logische groepen containertypen instellen. Voor elke groep kunt u de volgorde opgeven waarin de containers moeten worden verpakt, en het percentage te vullen containers. Voor grootte worden de groottedimensies van het artikel gebruikt om te bepalen of het in een container past. De container die het nauwst aansluit bij de groottedimensies van het artikel, wordt gebruikt. Als u meerdere containertypen in een groep hebt, is het raadzaam deze op grootte te rangschikken zodat de grootste container eerste is, nummer 1 is in de volgorde, en de kleinste container laatste is.    
-3. Typ een waarde in het veld Containergroep-ID.
-4. Typ een waarde in het veld Omschrijving.
-5. Klik op Nieuw.
-6. Markeer in de lijst de geselecteerde rij.
-7. Typ of selecteer een waarde in het veld Containertype.
-8. Klik op Nieuw.
-9. Markeer in de lijst de geselecteerde rij.
-10. Typ of selecteer een waarde in het veld Containertype.
-11. Klik op Nieuw.
-12. Markeer in de lijst de geselecteerde rij.
-13. Typ of selecteer een waarde in het veld Containertype.
-14. Klik op Opslaan.
-15. Sluit de pagina.
+## <a name="set-up-a-container-group"></a><span data-ttu-id="980e6-162">Een containergroep instellen</span><span class="sxs-lookup"><span data-stu-id="980e6-162">Set up a container group</span></span>
+1. <span data-ttu-id="980e6-163">Ga naar Magazijnbeheer > Instellingen > Containers > Containergroepen.</span><span class="sxs-lookup"><span data-stu-id="980e6-163">Go to Warehouse management > Setup > Containers > Container groups.</span></span>
+2. <span data-ttu-id="980e6-164">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-164">Click New.</span></span>
+    * <span data-ttu-id="980e6-165">U kunt logische groepen containertypen instellen.</span><span class="sxs-lookup"><span data-stu-id="980e6-165">You can set up logical groups of container types.</span></span> <span data-ttu-id="980e6-166">Voor elke groep kunt u de volgorde opgeven waarin de containers moeten worden verpakt, en het percentage te vullen containers. Voor grootte worden de groottedimensies van het artikel gebruikt om te bepalen of het in een container past.</span><span class="sxs-lookup"><span data-stu-id="980e6-166">For each group, you can specify the sequence in which to pack the containers and the percentage of the containers to fill.The size dimensions of the item is used to determine whether it will fit in a container.</span></span> <span data-ttu-id="980e6-167">De container die het nauwst aansluit bij de groottedimensies van het artikel, wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="980e6-167">The container that is closest to the size dimensions of the item is used.</span></span> <span data-ttu-id="980e6-168">Als u meerdere containertypen in een groep hebt, is het raadzaam deze op grootte te rangschikken zodat de grootste container eerste is, nummer 1 is in de volgorde, en de kleinste container laatste is.</span><span class="sxs-lookup"><span data-stu-id="980e6-168">If you have multiple container types in a group, we recommend that you arrange the sequence by size, so that the largest container is first, number 1 in the sequence, and the smallest container is last.</span></span>    
+3. <span data-ttu-id="980e6-169">Typ een waarde in het veld Containergroep-ID.</span><span class="sxs-lookup"><span data-stu-id="980e6-169">In the Container group ID field, type a value.</span></span>
+4. <span data-ttu-id="980e6-170">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="980e6-170">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="980e6-171">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-171">Click New.</span></span>
+6. <span data-ttu-id="980e6-172">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="980e6-172">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="980e6-173">Typ of selecteer een waarde in het veld Containertype.</span><span class="sxs-lookup"><span data-stu-id="980e6-173">In the Container type field, enter or select a value.</span></span>
+8. <span data-ttu-id="980e6-174">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-174">Click New.</span></span>
+9. <span data-ttu-id="980e6-175">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="980e6-175">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="980e6-176">Typ of selecteer een waarde in het veld Containertype.</span><span class="sxs-lookup"><span data-stu-id="980e6-176">In the Container type field, enter or select a value.</span></span>
+11. <span data-ttu-id="980e6-177">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-177">Click New.</span></span>
+12. <span data-ttu-id="980e6-178">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="980e6-178">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="980e6-179">Typ of selecteer een waarde in het veld Containertype.</span><span class="sxs-lookup"><span data-stu-id="980e6-179">In the Container type field, enter or select a value.</span></span>
+14. <span data-ttu-id="980e6-180">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="980e6-180">Click Save.</span></span>
+15. <span data-ttu-id="980e6-181">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="980e6-181">Close the page.</span></span>
 
-## <a name="set-up-a-container-build-template"></a>Een containervormingsjabloon instellen
-1. Ga naar Magazijnbeheer > Instellingen > Containers > Containervormingssjablonen.
-2. Klik op Nieuw.
-    * Welke containervormingssjabloon wordt gebruikt, wordt gebaseerd op welke containervormingsprocessen worden uitgevoerd. Met elke containervormingssjabloon wordt één containervormingsproces gedefinieerd dat door een wavesjabloon wordt gebruikt. Met de optie Query bewerken kunt u de voorwaarden definiëren waaronder de geselecteerde sjabloon wordt verwerkt. U kunt bijvoorbeeld containervorming alleen voor specifieke klanten, producten of magazijnen uitvoeren of u kunt de bijbehorende querybereiken aan de sjabloon toevoegen. Met het veld Wavestapcode wordt bepaald hoe een containervormingssjabloon wordt gekoppeld aan stappen in een wavesjabloon. Wanneer een wave wordt uitgevoerd, wordt bepaald welke containervormingssjabloon wordt gebruikt om containervorming uit te voeren. Met het veld Basisquerytypen wordt bepaald wat moet worden verpakt en waarop de filterquery moet worden gebaseerd.  
-3. Markeer in de lijst de geselecteerde rij.
-4. Typ een waarde in het veld ID containersjabloon.
-5. Typ of selecteer een waarde in het veld Containergroep-ID.
-6. Typ een waarde in het veld Wavestapcode.
-7. Schakel het selectievakje Gesplitst verzamelen toestaan in.
-8. Klik op Opslaan.
-9. Klik op Beperkingen op mengen containers.
-    * Met Logica-onderbrekingen mengen kunt u regels instellen voor het verpakken van toewijzingsregels in containers. Als u bijvoorbeeld het veld Artikelnummer toevoegt, wordt wanneer artikelen aan containers worden toegewezen, een nieuwe container gemaakt wanneer er een nieuw artikelnummer is. Hiermee wordt voorkomen dat werknemers toewijzingsrgels voor twee verschillende klanten in dezelfde container verpakken.  
-10. Klik op Nieuw.
-11. Selecteer een optie in het veld Tabel.
-12. Typ of selecteer een waarde in het veld Veld selecteren.
-13. Klik op OK.
+## <a name="set-up-a-container-build-template"></a><span data-ttu-id="980e6-182">Een containervormingsjabloon instellen</span><span class="sxs-lookup"><span data-stu-id="980e6-182">Set up a container build template</span></span>
+1. <span data-ttu-id="980e6-183">Ga naar Magazijnbeheer > Instellingen > Containers > Containervormingssjablonen.</span><span class="sxs-lookup"><span data-stu-id="980e6-183">Go to Warehouse management > Setup > Containers > Container build templates.</span></span>
+2. <span data-ttu-id="980e6-184">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-184">Click New.</span></span>
+    * <span data-ttu-id="980e6-185">Welke containervormingssjabloon wordt gebruikt, wordt gebaseerd op welke containervormingsprocessen worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="980e6-185">The container build template is based on which of the containerization processes are performed.</span></span> <span data-ttu-id="980e6-186">Met elke containervormingssjabloon wordt één containervormingsproces gedefinieerd dat door een wavesjabloon wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="980e6-186">Each container build template defines one containerization process that will be used by a wave template.</span></span> <span data-ttu-id="980e6-187">Met de optie Query bewerken kunt u de voorwaarden definiëren waaronder de geselecteerde sjabloon wordt verwerkt.</span><span class="sxs-lookup"><span data-stu-id="980e6-187">The Edit query option allows you to define the conditions on which the selected template will be processed.</span></span> <span data-ttu-id="980e6-188">U kunt bijvoorbeeld containervorming alleen voor specifieke klanten, producten of magazijnen uitvoeren of u kunt de bijbehorende querybereiken aan de sjabloon toevoegen.</span><span class="sxs-lookup"><span data-stu-id="980e6-188">For example, you may want to only run containerization for specific customers, products, or warehouses or you can add the corresponding query ranges to the template.</span></span> <span data-ttu-id="980e6-189">Met het veld Wavestapcode wordt bepaald hoe een containervormingssjabloon wordt gekoppeld aan stappen in een wavesjabloon.</span><span class="sxs-lookup"><span data-stu-id="980e6-189">The Wave step code field is how a container build template is linked to steps in a wave template.</span></span> <span data-ttu-id="980e6-190">Wanneer een wave wordt uitgevoerd, wordt bepaald welke containervormingssjabloon wordt gebruikt om containervorming uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="980e6-190">When a wave is executed, it determines which container build template(s) are used to initiate containerization.</span></span> <span data-ttu-id="980e6-191">Met het veld Basisquerytypen wordt bepaald wat moet worden verpakt en waarop de filterquery moet worden gebaseerd.</span><span class="sxs-lookup"><span data-stu-id="980e6-191">The Base query type field determines what to pack and what to base the filter query on.</span></span>  
+3. <span data-ttu-id="980e6-192">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="980e6-192">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="980e6-193">Typ een waarde in het veld ID containersjabloon.</span><span class="sxs-lookup"><span data-stu-id="980e6-193">In the Container template ID field, type a value.</span></span>
+5. <span data-ttu-id="980e6-194">Typ of selecteer een waarde in het veld Containergroep-ID.</span><span class="sxs-lookup"><span data-stu-id="980e6-194">In the Container group ID field, enter or select a value.</span></span>
+6. <span data-ttu-id="980e6-195">Typ een waarde in het veld Wavestapcode.</span><span class="sxs-lookup"><span data-stu-id="980e6-195">In the Wave step code field, type a value.</span></span>
+7. <span data-ttu-id="980e6-196">Schakel het selectievakje Gesplitst verzamelen toestaan in.</span><span class="sxs-lookup"><span data-stu-id="980e6-196">Select the Allow split picks check box.</span></span>
+8. <span data-ttu-id="980e6-197">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="980e6-197">Click Save.</span></span>
+9. <span data-ttu-id="980e6-198">Klik op Beperkingen op mengen containers.</span><span class="sxs-lookup"><span data-stu-id="980e6-198">Click Containier mixing constraints.</span></span>
+    * <span data-ttu-id="980e6-199">Met Logica-onderbrekingen mengen kunt u regels instellen voor het verpakken van toewijzingsregels in containers.</span><span class="sxs-lookup"><span data-stu-id="980e6-199">Mixing logic breaks allows you to set up rules for packing allocation lines in containers.</span></span> <span data-ttu-id="980e6-200">Als u bijvoorbeeld het veld Artikelnummer toevoegt, wordt wanneer artikelen aan containers worden toegewezen, een nieuwe container gemaakt wanneer er een nieuw artikelnummer is.</span><span class="sxs-lookup"><span data-stu-id="980e6-200">For example, if you add the Item number field, when items are assigned to containers, a new container will be created when there is a new item number.</span></span> <span data-ttu-id="980e6-201">Hiermee wordt voorkomen dat werknemers toewijzingsrgels voor twee verschillende klanten in dezelfde container verpakken.</span><span class="sxs-lookup"><span data-stu-id="980e6-201">This is will prevent workers from packing allocations lines for two different customers in the same container.</span></span>  
+10. <span data-ttu-id="980e6-202">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="980e6-202">Click New.</span></span>
+11. <span data-ttu-id="980e6-203">Selecteer een optie in het veld Tabel.</span><span class="sxs-lookup"><span data-stu-id="980e6-203">In the Table field, select an option.</span></span>
+12. <span data-ttu-id="980e6-204">Typ of selecteer een waarde in het veld Veld selecteren.</span><span class="sxs-lookup"><span data-stu-id="980e6-204">In the Field Select field, enter or select a value.</span></span>
+13. <span data-ttu-id="980e6-205">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="980e6-205">Click OK.</span></span>
 
 

@@ -16,101 +16,101 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: df3dcd6d5242c516f254450a727d8a754bd74f6a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1c81a1268a56164e0d4465359a0f9ec425ee7c31
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>Onderdelen van de gemaakte indeling toewijzen aan gegevensmodelelementen voor elektronische aangifte (ER)
+# <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a><span data-ttu-id="efa24-103">Onderdelen van de gemaakte indeling toewijzen aan gegevensmodelelementen voor elektronische aangifte (ER)</span><span class="sxs-lookup"><span data-stu-id="efa24-103">Map components of the created format to data model elements for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd. Met deze indeling worden later elektronische documenten gegenereerd voor de verwerking van betalingen. In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd wanneer ER-configuraties tussen alle bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de taakbegeleider 'Een indelingsconfiguratie maken' uitvoeren.
+<span data-ttu-id="efa24-104">In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="efa24-104">The following procedure shows how a user in either the System administrator or Electronic reporting developer role can map data model elements to components of the created Electronic reporting (ER) configuration, which defines an electronic document format for the payments business domain.</span></span> <span data-ttu-id="efa24-105">Met deze indeling worden later elektronische documenten gegenereerd voor de verwerking van betalingen.</span><span class="sxs-lookup"><span data-stu-id="efa24-105">This format will be used later to generate electronic documents for processing payments.</span></span> <span data-ttu-id="efa24-106">In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="efa24-106">In this example, you will create a format configuration for the sample company, ‘Litware, Inc.’.</span></span> <span data-ttu-id="efa24-107">Deze stappen kunnen in elk bedrijf worden uitgevoerd wanneer ER-configuraties tussen alle bedrijven worden gedeeld.</span><span class="sxs-lookup"><span data-stu-id="efa24-107">These steps can be performed in any company as ER configurations are shared for all companies.</span></span> <span data-ttu-id="efa24-108">Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de taakbegeleider 'Een indelingsconfiguratie maken' uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="efa24-108">To complete these steps, you must first complete the steps in the “Create a format configuration” task guide.</span></span>
 
 
-## <a name="select-a-format-configuration"></a>Een indelingsconfiguratie selecteren
-1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-2. Klik op Rapportconfiguraties.
-3. Vouw 'Betalingen (vereenvoudigd model)' in de structuur uit.
-4. Selecteer 'Betalingen (vereenvoudigd model)\BACS (UK fictief)' in de structuur uit.
-5. Klik op Ontwerper.
+## <a name="select-a-format-configuration"></a><span data-ttu-id="efa24-109">Een indelingsconfiguratie selecteren</span><span class="sxs-lookup"><span data-stu-id="efa24-109">Select a format configuration</span></span>
+1. <span data-ttu-id="efa24-110">Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="efa24-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="efa24-111">Klik op Rapportconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="efa24-111">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="efa24-112">Vouw 'Betalingen (vereenvoudigd model)' in de structuur uit.</span><span class="sxs-lookup"><span data-stu-id="efa24-112">In the tree, expand 'Payments (simplified model)'.</span></span>
+4. <span data-ttu-id="efa24-113">Selecteer 'Betalingen (vereenvoudigd model)\BACS (UK fictief)' in de structuur uit.</span><span class="sxs-lookup"><span data-stu-id="efa24-113">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
+5. <span data-ttu-id="efa24-114">Klik op Ontwerper.</span><span class="sxs-lookup"><span data-stu-id="efa24-114">Click Designer.</span></span>
 
-## <a name="map-format-components-to-data-model-elements"></a>Indelingsonderdelen toewijzen aan gegevensmodelelementen
-1. Klik op Uitvouwen/samenvouwen.
-2. Klik op het tabblad Toewijzing.
-3. Vouw in de structuur "model" uit.
-4. Selecteer in de structuur 'Xml\Message\ProcessingDate\DateTime'.
-5. Selecteer in de structuur 'model\ProcessingDateTime'.
-6. Klik op Binden.
-7. Selecteer in de structuur 'Xml\Message\MessageId\String'.
-8. Selecteer in de structuur 'model\MessageIdentification'.
-9. Klik op Binden.
-10. Vouw "model\Payments" uit in de structuur.
-11. Selecteer in de structuur 'Xml\Message\Payments\Item\Amount\String'.
-12. Selecteer in de structuur 'model\Payments\InstructedAmount'.
-13. Klik op Binden.
-14. Selecteer in de structuur 'Xml\Message\Payments\Item\TransDate\DateTime'.
-15. Selecteer in de structuur 'model\Payments\TransactionDate'.
-16. Klik op Binden.
-17. Selecteer in de structuur 'Xml\Message\Payments\Item\Description\String'.
-18. Selecteer "model\Payments\Description" in de structuur.
-19. Klik op Binden.
-20. Selecteer in de structuur 'Xml\Message\Payments\Item\Currency\String'.
-21. Selecteer 'model\Payments\Currency' in de structuur.
-22. Klik op Binden.
-23. Selecteer in de structuur 'Xml\Message\Payments\Item\Id'.
-24. Selecteer in de structuur 'model\Payments\End2EndID'.
-25. Klik op Binden.
-26. Vouw "model\Payments\Creditor" uit in de structuur.
-27. Vouw "model\Payments\Creditor\Account" uit in de structuur.
-28. Vouw "model\Payments\Creditor\Agent" uit in de structuur.
-29. Selecteer in de structuur 'Xml\Message\Payments\Item\Vendor\Name\String'.
-30. Selecteer "model\Payments\Creditor\Name" in de structuur.
-31. Klik op Binden.
-32. Selecteer in de structuur 'Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber\String'.
-33. Selecteer in de structuur 'model\Payments\Creditor\Agent\RoutingNumber'.
-34. Klik op Binden.
-35. Selecteer in de structuur 'Xml\Message\Payments\Item\Vendor\Bank\AccountNumber\String'.
-36. Selecteer "model\Payments\Creditor\Account\Number" in de structuur.
-37. Klik op Binden.
-38. Selecteer in de structuur 'Xml\Message\Payments\Item\Payer\Name\String'.
-39. Vouw "model\Payments\Debtor" uit in de structuur.
-40. Vouw "model\Payments\Debtor\Account" uit in de structuur.
-41. Vouw "model\Payments\Debtor\Agent" uit in de structuur.
-42. Selecteer "model\Payments\Debtor\Name" in de structuur.
-43. Klik op Binden.
-44. Selecteer in de structuur 'Xml\Message\Payments\Item\Payer\Bank\RoutingNumber\String'.
-45. Selecteer in de structuur 'model\Payments\Debtor\Agent\RoutingNumber'.
-46. Klik op Binden.
-47. Selecteer in de structuur 'Xml\Message\Payments\Item\Payer\Bank\AccountNumber\String'.
-48. Selecteer "model\Payments\Debtor\Account\Number" in de structuur.
-49. Klik op Binden.
-50. Selecteer in de structuur 'Xml\Message\Payments\Item'.
-51. Selecteer "model\Payments" in de structuur.
-52. Klik op Binden.
-53. Klik op Opslaan.
+## <a name="map-format-components-to-data-model-elements"></a><span data-ttu-id="efa24-115">Indelingsonderdelen toewijzen aan gegevensmodelelementen</span><span class="sxs-lookup"><span data-stu-id="efa24-115">Map format components to data model elements</span></span>
+1. <span data-ttu-id="efa24-116">Klik op Uitvouwen/samenvouwen.</span><span class="sxs-lookup"><span data-stu-id="efa24-116">Click Expand/collapse.</span></span>
+2. <span data-ttu-id="efa24-117">Klik op het tabblad Toewijzing.</span><span class="sxs-lookup"><span data-stu-id="efa24-117">Click the Mapping tab.</span></span>
+3. <span data-ttu-id="efa24-118">Vouw in de structuur "model" uit.</span><span class="sxs-lookup"><span data-stu-id="efa24-118">In the tree, expand 'model'.</span></span>
+4. <span data-ttu-id="efa24-119">Selecteer in de structuur 'Xml\Message\ProcessingDate\DateTime'.</span><span class="sxs-lookup"><span data-stu-id="efa24-119">In the tree, select 'Xml\Message\ProcessingDate\DateTime'.</span></span>
+5. <span data-ttu-id="efa24-120">Selecteer in de structuur 'model\ProcessingDateTime'.</span><span class="sxs-lookup"><span data-stu-id="efa24-120">In the tree, select 'model\ProcessingDateTime'.</span></span>
+6. <span data-ttu-id="efa24-121">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-121">Click Bind.</span></span>
+7. <span data-ttu-id="efa24-122">Selecteer in de structuur 'Xml\Message\MessageId\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-122">In the tree, select 'Xml\Message\MessageId\String'.</span></span>
+8. <span data-ttu-id="efa24-123">Selecteer in de structuur 'model\MessageIdentification'.</span><span class="sxs-lookup"><span data-stu-id="efa24-123">In the tree, select 'model\MessageIdentification'.</span></span>
+9. <span data-ttu-id="efa24-124">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-124">Click Bind.</span></span>
+10. <span data-ttu-id="efa24-125">Vouw "model\Payments" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-125">In the tree, expand 'model\Payments'.</span></span>
+11. <span data-ttu-id="efa24-126">Selecteer in de structuur 'Xml\Message\Payments\Item\Amount\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-126">In the tree, select 'Xml\Message\Payments\Item\Amount\String'.</span></span>
+12. <span data-ttu-id="efa24-127">Selecteer in de structuur 'model\Payments\InstructedAmount'.</span><span class="sxs-lookup"><span data-stu-id="efa24-127">In the tree, select 'model\Payments\InstructedAmount'.</span></span>
+13. <span data-ttu-id="efa24-128">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-128">Click Bind.</span></span>
+14. <span data-ttu-id="efa24-129">Selecteer in de structuur 'Xml\Message\Payments\Item\TransDate\DateTime'.</span><span class="sxs-lookup"><span data-stu-id="efa24-129">In the tree, select 'Xml\Message\Payments\Item\TransDate\DateTime'.</span></span>
+15. <span data-ttu-id="efa24-130">Selecteer in de structuur 'model\Payments\TransactionDate'.</span><span class="sxs-lookup"><span data-stu-id="efa24-130">In the tree, select 'model\Payments\TransactionDate'.</span></span>
+16. <span data-ttu-id="efa24-131">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-131">Click Bind.</span></span>
+17. <span data-ttu-id="efa24-132">Selecteer in de structuur 'Xml\Message\Payments\Item\Description\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-132">In the tree, select 'Xml\Message\Payments\Item\Description\String'.</span></span>
+18. <span data-ttu-id="efa24-133">Selecteer "model\Payments\Description" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-133">In the tree, select 'model\Payments\Description'.</span></span>
+19. <span data-ttu-id="efa24-134">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-134">Click Bind.</span></span>
+20. <span data-ttu-id="efa24-135">Selecteer in de structuur 'Xml\Message\Payments\Item\Currency\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-135">In the tree, select 'Xml\Message\Payments\Item\Currency\String'.</span></span>
+21. <span data-ttu-id="efa24-136">Selecteer 'model\Payments\Currency' in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-136">In the tree, select 'model\Payments\Currency'.</span></span>
+22. <span data-ttu-id="efa24-137">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-137">Click Bind.</span></span>
+23. <span data-ttu-id="efa24-138">Selecteer in de structuur 'Xml\Message\Payments\Item\Id'.</span><span class="sxs-lookup"><span data-stu-id="efa24-138">In the tree, select 'Xml\Message\Payments\Item\Id'.</span></span>
+24. <span data-ttu-id="efa24-139">Selecteer in de structuur 'model\Payments\End2EndID'.</span><span class="sxs-lookup"><span data-stu-id="efa24-139">In the tree, select 'model\Payments\End2EndID'.</span></span>
+25. <span data-ttu-id="efa24-140">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-140">Click Bind.</span></span>
+26. <span data-ttu-id="efa24-141">Vouw "model\Payments\Creditor" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-141">In the tree, expand 'model\Payments\Creditor'.</span></span>
+27. <span data-ttu-id="efa24-142">Vouw "model\Payments\Creditor\Account" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-142">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
+28. <span data-ttu-id="efa24-143">Vouw "model\Payments\Creditor\Agent" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-143">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
+29. <span data-ttu-id="efa24-144">Selecteer in de structuur 'Xml\Message\Payments\Item\Vendor\Name\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-144">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
+30. <span data-ttu-id="efa24-145">Selecteer "model\Payments\Creditor\Name" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-145">In the tree, select 'model\Payments\Creditor\Name'.</span></span>
+31. <span data-ttu-id="efa24-146">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-146">Click Bind.</span></span>
+32. <span data-ttu-id="efa24-147">Selecteer in de structuur 'Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-147">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber\String'.</span></span>
+33. <span data-ttu-id="efa24-148">Selecteer in de structuur 'model\Payments\Creditor\Agent\RoutingNumber'.</span><span class="sxs-lookup"><span data-stu-id="efa24-148">In the tree, select 'model\Payments\Creditor\Agent\RoutingNumber'.</span></span>
+34. <span data-ttu-id="efa24-149">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-149">Click Bind.</span></span>
+35. <span data-ttu-id="efa24-150">Selecteer in de structuur 'Xml\Message\Payments\Item\Vendor\Bank\AccountNumber\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\AccountNumber\String'.</span></span>
+36. <span data-ttu-id="efa24-151">Selecteer "model\Payments\Creditor\Account\Number" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-151">In the tree, select 'model\Payments\Creditor\Account\Number'.</span></span>
+37. <span data-ttu-id="efa24-152">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-152">Click Bind.</span></span>
+38. <span data-ttu-id="efa24-153">Selecteer in de structuur 'Xml\Message\Payments\Item\Payer\Name\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-153">In the tree, select 'Xml\Message\Payments\Item\Payer\Name\String'.</span></span>
+39. <span data-ttu-id="efa24-154">Vouw "model\Payments\Debtor" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-154">In the tree, expand 'model\Payments\Debtor'.</span></span>
+40. <span data-ttu-id="efa24-155">Vouw "model\Payments\Debtor\Account" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-155">In the tree, expand 'model\Payments\Debtor\Account'.</span></span>
+41. <span data-ttu-id="efa24-156">Vouw "model\Payments\Debtor\Agent" uit in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-156">In the tree, expand 'model\Payments\Debtor\Agent'.</span></span>
+42. <span data-ttu-id="efa24-157">Selecteer "model\Payments\Debtor\Name" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-157">In the tree, select 'model\Payments\Debtor\Name'.</span></span>
+43. <span data-ttu-id="efa24-158">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-158">Click Bind.</span></span>
+44. <span data-ttu-id="efa24-159">Selecteer in de structuur 'Xml\Message\Payments\Item\Payer\Bank\RoutingNumber\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-159">In the tree, select 'Xml\Message\Payments\Item\Payer\Bank\RoutingNumber\String'.</span></span>
+45. <span data-ttu-id="efa24-160">Selecteer in de structuur 'model\Payments\Debtor\Agent\RoutingNumber'.</span><span class="sxs-lookup"><span data-stu-id="efa24-160">In the tree, select 'model\Payments\Debtor\Agent\RoutingNumber'.</span></span>
+46. <span data-ttu-id="efa24-161">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-161">Click Bind.</span></span>
+47. <span data-ttu-id="efa24-162">Selecteer in de structuur 'Xml\Message\Payments\Item\Payer\Bank\AccountNumber\String'.</span><span class="sxs-lookup"><span data-stu-id="efa24-162">In the tree, select 'Xml\Message\Payments\Item\Payer\Bank\AccountNumber\String'.</span></span>
+48. <span data-ttu-id="efa24-163">Selecteer "model\Payments\Debtor\Account\Number" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-163">In the tree, select 'model\Payments\Debtor\Account\Number'.</span></span>
+49. <span data-ttu-id="efa24-164">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-164">Click Bind.</span></span>
+50. <span data-ttu-id="efa24-165">Selecteer in de structuur 'Xml\Message\Payments\Item'.</span><span class="sxs-lookup"><span data-stu-id="efa24-165">In the tree, select 'Xml\Message\Payments\Item'.</span></span>
+51. <span data-ttu-id="efa24-166">Selecteer "model\Payments" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="efa24-166">In the tree, select 'model\Payments'.</span></span>
+52. <span data-ttu-id="efa24-167">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="efa24-167">Click Bind.</span></span>
+53. <span data-ttu-id="efa24-168">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="efa24-168">Click Save.</span></span>
 
-## <a name="validate-format-mapping"></a>Indelingstoewijzing valideren
-1. Klik op Valideren.
-    * De nieuwe toewijzing valideren om te controleren of alle bindingen in orde zijn.  
-2. Sluit de pagina.
+## <a name="validate-format-mapping"></a><span data-ttu-id="efa24-169">Indelingstoewijzing valideren</span><span class="sxs-lookup"><span data-stu-id="efa24-169">Validate format mapping</span></span>
+1. <span data-ttu-id="efa24-170">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="efa24-170">Click Validate.</span></span>
+    * <span data-ttu-id="efa24-171">De nieuwe toewijzing valideren om te controleren of alle bindingen in orde zijn.</span><span class="sxs-lookup"><span data-stu-id="efa24-171">Validate the new mapping to ensure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="efa24-172">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="efa24-172">Close the page.</span></span>
 
-## <a name="change-status-of-the-current-version-of-format-configuration"></a>Status van de huidige versie van de indelingsconfiguratie wijzigen
-    * In de volgende stappen gaat u de status van de indelingsconfiguratie wijzigen van Concept naar Voltooid, om deze beschikbaar te maken voor het genereren van betalingsdocumenten.  
-1. Klik op Status wijzigen.
-2. Klik op Voltooien.
-3. Typ een waarde in het veld Omschrijving.
-    * Bijvoorbeeld: 'versie 1'.  
-4. Klik op OK.
-5. Selecteer de ingevulde versie van de huidige configuratie.
-    * Merk op dat de configuratie wordt opgeslagen als voltooide versie 1.1: versie 1 van de indeling, gebaseerd op versie 1 van het gegevensmodel.  
+## <a name="change-status-of-the-current-version-of-format-configuration"></a><span data-ttu-id="efa24-173">Status van de huidige versie van de indelingsconfiguratie wijzigen</span><span class="sxs-lookup"><span data-stu-id="efa24-173">Change status of the current version of format configuration</span></span>
+    * <span data-ttu-id="efa24-174">In de volgende stappen gaat u de status van de indelingsconfiguratie wijzigen van Concept naar Voltooid, om deze beschikbaar te maken voor het genereren van betalingsdocumenten.</span><span class="sxs-lookup"><span data-stu-id="efa24-174">In the next steps, you’ll change the status of the format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
+1. <span data-ttu-id="efa24-175">Klik op Status wijzigen.</span><span class="sxs-lookup"><span data-stu-id="efa24-175">Click Change status.</span></span>
+2. <span data-ttu-id="efa24-176">Klik op Voltooien.</span><span class="sxs-lookup"><span data-stu-id="efa24-176">Click Complete.</span></span>
+3. <span data-ttu-id="efa24-177">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="efa24-177">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="efa24-178">Bijvoorbeeld: 'versie 1'.</span><span class="sxs-lookup"><span data-stu-id="efa24-178">For example, 'version 1'.</span></span>  
+4. <span data-ttu-id="efa24-179">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="efa24-179">Click OK.</span></span>
+5. <span data-ttu-id="efa24-180">Selecteer de ingevulde versie van de huidige configuratie.</span><span class="sxs-lookup"><span data-stu-id="efa24-180">Select completed version of the current configuration.</span></span>
+    * <span data-ttu-id="efa24-181">Merk op dat de configuratie wordt opgeslagen als voltooide versie 1.1: versie 1 van de indeling, gebaseerd op versie 1 van het gegevensmodel.</span><span class="sxs-lookup"><span data-stu-id="efa24-181">Note that the configuration is saved as completed version 1.1: version 1 of the format based on the version 1 of the data model.</span></span>  
 
-## <a name="define-effective-date-for-completed-version-of-format"></a>Ingangsdatum voor voltooide versie van indeling definiëren
-    * Elke indelingsversie kan worden geconfigureerd als beschikbaar voor gebruik vanaf een bepaalde datum. Wanneer meer dan één indelingsversie actief is op een bepaalde datum, wordt de meest recente indeling (op basis van versienummer) geselecteerd voor gebruik. De waarde van de sessiedatum wordt gebruikt voor selectie van de juiste versie.  
+## <a name="define-effective-date-for-completed-version-of-format"></a><span data-ttu-id="efa24-182">Ingangsdatum voor voltooide versie van indeling definiëren</span><span class="sxs-lookup"><span data-stu-id="efa24-182">Define effective date for completed version of format</span></span>
+    * <span data-ttu-id="efa24-183">Elke indelingsversie kan worden geconfigureerd als beschikbaar voor gebruik vanaf een bepaalde datum.</span><span class="sxs-lookup"><span data-stu-id="efa24-183">Each format version can be configured as available for usage starting from a certain date.</span></span> <span data-ttu-id="efa24-184">Wanneer meer dan één indelingsversie actief is op een bepaalde datum, wordt de meest recente indeling (op basis van versienummer) geselecteerd voor gebruik.</span><span class="sxs-lookup"><span data-stu-id="efa24-184">When more than one format version is active on a certain date, the latest format (based on version number) will be selected for usage.</span></span> <span data-ttu-id="efa24-185">De waarde van de sessiedatum wordt gebruikt voor selectie van de juiste versie.</span><span class="sxs-lookup"><span data-stu-id="efa24-185">The session date value is used for proper version selection.</span></span>  
 
-## <a name="restrict-access-to-created-format-from-companies"></a>Toegang tot gemaakte indeling van bedrijven beperken
-1. Vouw de sectie ISO-land-/regiocodes uit.
-    * Elke indelingstoegang kan worden beperkt door bepaalde landen/regio's te identificeren waarin een indeling van toepassing is. Als de lijst met landen/regio's voor een specifieke indeling leeg is, kan deze indeling worden gebruikt in elk bedrijf. Als enkele ISO-land-/regiocodes worden ingevoegd in de lijst met landen/regio's, kan deze indeling alleen in bedrijven worden gebruikt waarvan het primaire adres in de land-/regiocode uit die lijst is gelegen.  
+## <a name="restrict-access-to-created-format-from-companies"></a><span data-ttu-id="efa24-186">Toegang tot gemaakte indeling van bedrijven beperken</span><span class="sxs-lookup"><span data-stu-id="efa24-186">Restrict access to created format from companies</span></span>
+1. <span data-ttu-id="efa24-187">Vouw de sectie ISO-land-/regiocodes uit.</span><span class="sxs-lookup"><span data-stu-id="efa24-187">Expand the ISO Country/region codes section.</span></span>
+    * <span data-ttu-id="efa24-188">Elke indelingstoegang kan worden beperkt door bepaalde landen/regio's te identificeren waarin een indeling van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="efa24-188">Each format access can be restricted by identifying particular countries/regions in which a format is applicable.</span></span> <span data-ttu-id="efa24-189">Als de lijst met landen/regio's voor een specifieke indeling leeg is, kan deze indeling worden gebruikt in elk bedrijf.</span><span class="sxs-lookup"><span data-stu-id="efa24-189">When the list of countries/regions for particular format is empty, this format can be used in any company.</span></span> <span data-ttu-id="efa24-190">Als enkele ISO-land-/regiocodes worden ingevoegd in de lijst met landen/regio's, kan deze indeling alleen in bedrijven worden gebruikt waarvan het primaire adres in de land-/regiocode uit die lijst is gelegen.</span><span class="sxs-lookup"><span data-stu-id="efa24-190">When some ISO country/region codes are inserted in the list of countries/regions, the format can only be use in companies if the primary address is in the country/region.</span></span>  
 
 
