@@ -1,4 +1,4 @@
---- 
+---
 title: "Voorraadtellingsprocessen definiëren"
 description: Deze procedure leidt u door de configuratie van telprocessen voor basisvoorraad door een telgroep en een tellijst te maken.
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ Deze procedure leidt u door de configuratie van telprocessen voor basisvoorraad 
 7. Selecteer een telgroep in de lijst.
     * Hier kunt u een specifieke telgroep selecteren die moet gelden voor het artikel in het opgegeven magazijn dat u hebt geselecteerd. Als het tellen wordt uitgevoerd in dat magazijn, negeert dit telbeleid het algemene telbeleid voor het artikel.  
 8. Klik op Opslaan.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Een nieuwe magazijnindeling maken
 description: Deze procedure laat zien hoe u de informatie over locaties in een magazijn instelt.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ Deze procedure laat zien hoe u de informatie over locaties in een magazijn inste
 7. Schakel de uitbreiding van de sectie Locatienamen om.
     * De opties in deze sectie definiëren de standaardindeling voor locatienamen. In ons voorbeeld nemen we het gangnummer, het reknummer en het planknummer op.  
 8. Stel de optie Gang opnemen in op Ja.
-9. Stel de optie Rek opnemen in op Ja. 
+9. Stel de optie Rek opnemen in op Ja.
 10. Typ in het veld Indeling voor het rek een waarde.
     * Bijvoorbeeld: -##  
 11. Stel de optie Plank opnemen in op Ja.
@@ -74,5 +74,4 @@ Deze procedure laat zien hoe u de informatie over locaties in een magazijn inste
 14. Klik op Voltooien.
 15. Sluit de pagina.
 16. Vernieuw de pagina.
-
 

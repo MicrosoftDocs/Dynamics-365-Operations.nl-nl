@@ -1,4 +1,4 @@
---- 
+---
 title: Kwaliteitsorders instellen
 description: "Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarbij inkomende voorraad onmiddellijk na aankomstregistratie moet worden geïnspecteerd."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarb
 15. Zoek en selecteer het gewenste record in de lijst.
 16. Klik op Opslaan.
 17. Sluit de pagina.
-
 

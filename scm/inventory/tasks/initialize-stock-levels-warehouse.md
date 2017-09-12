@@ -1,4 +1,4 @@
---- 
+---
 title: "Voorraadniveaus in het magazijn initiëren"
 description: Deze procedure laat zien hoe u de voorhanden voorraad handmatig bijwerkt met behulp van een voorraadmutatiejournaal.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Deze procedure laat zien hoe u de voorhanden voorraad handmatig bijwerkt met beh
 24. Klik op OK.
 25. Sluit de pagina.
 26. Sluit de pagina.
-
 

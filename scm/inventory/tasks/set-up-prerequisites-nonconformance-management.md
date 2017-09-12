@@ -1,4 +1,4 @@
---- 
+---
 title: Vereisten voor beheer instellen
 description: Met deze procedure kunt u de processen van het niet-conformeringsbeheer inschakelen.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Met deze procedure kunt u de processen van het niet-conformeringsbeheer inschake
 3. Typ een waarde in het veld Quarantainezone.
 4. Typ een waarde in het veld Omschrijving.
 5. Sluit de pagina.
-
 

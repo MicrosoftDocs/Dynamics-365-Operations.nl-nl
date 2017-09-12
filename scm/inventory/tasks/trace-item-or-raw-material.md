@@ -1,4 +1,4 @@
---- 
+---
 title: Een artikel of een grondstof traceren
 description: Deze procedure toont aan hoe u artikeltracering kunt gebruiken om te bepalen waar artikelen of grondstoffen zijn of worden gebruikt.
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ Deze procedure toont aan hoe u artikeltracering kunt gebruiken om te bepalen waa
 8. Klik in het actievenster op Tracering.
 9. Klik op Verzonden verkooporders.
 10. Sluit de pagina.
-
 

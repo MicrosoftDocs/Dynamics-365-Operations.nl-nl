@@ -1,7 +1,7 @@
 ---
 title: Overzicht aankomst
 description: Dit onderwerp biedt informatie over de functie Overzicht aankomst. De pagina Overzicht aankomst maakt deel uit van deze functie en biedt een overzicht van alle atikelen die naar verwachting zullen arriveren als binnenkomende artikelen.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ Dit onderwerp biedt informatie over de functie Overzicht aankomst. De pagina Ove
 De pagian **Overzicht aankomst** bevat een overzicht van alle verwachte binnenkomende artikelen. Hier worden tevens ontvangsten weergegeven die kunnen worden geïnitialiseerd op basis van het overzicht. In dit onderwerp ligt de nadruk op het ontvangstproces.
 
 ## <a name="business-scenario"></a>Zakelijke scenario
-Neem het volgende scenario in de inkomende processen in overweging. 
+Neem het volgende scenario in de inkomende processen in overweging.
 
-[![Zakelijke scenario](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Zakelijke scenario](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, een ontvangstadministrateur, wil weten welke ontvangsten worden verwacht op de huidige dag. Op de pagina **Overzicht aankomst** krijgt Sammy een overzicht van de huidige taken en een ruwe schatting van hoeveelheden, volume, gewicht, verschillende ordertypen enzovoort. Later, komt een levering binnen bij een van de inbound docks aankomt en ontvangt Sammy een lijst met de levering. Op de pagina **Overzicht aankomst** kan Sammy de volgende taken uitvoeren:
 
@@ -69,7 +69,7 @@ In dit voorbeeld is het veld **Naam aankomstoverzichtsprofiel** op het sneltabbl
 
 Als u automatisch ontvangstjournalen wilt maken vanaf de pagina **Overzicht aankomst**, moet u relevante gegevens definiëren in de veldgroep **Journaal** op het sneltabblad **Aankomstopties**.
 
--   U moet een journaalnaam opgeven om een journaal te maken. 
+-   U moet een journaalnaam opgeven om een journaal te maken.
 
 [![Een journaalnaam opgeven](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Wanneer alle goederen zijn geregistreerd, kan de magazijnbeheerder of inkoopmana
 
 ## <a name="summary"></a>Overzicht
 De pagina **Overzicht aankomst** kan de magazijnbeheerder en magazijnmedewerkers helpen een overzicht te krijgen van verwacht werk dat moet worden uitgevoerd als onderdeel van een inkomend proces. De pagina kan ook worden gebruikt om het proces van artikelontvangst te starten en te helpen garanderen dat de artikelen worden bijgehouden bij de eerste invoer in het magazijn.
-
-
-
 

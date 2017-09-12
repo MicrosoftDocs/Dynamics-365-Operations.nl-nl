@@ -1,7 +1,7 @@
 ---
 title: Consignatie
 description: In dit onderwerp wordt uitgelegd hoe u gebruik maakt van de processen voor inkomende consignatievoorraad.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220834
 ms.assetid: 3c9d6de4-45d4-459a-aef7-0d9ad2c22b3a
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -61,7 +61,7 @@ USMF voert nog extra periodieke processen uit:
 Leverancier US-104 kan de updates volgen met de pagina **Voorhanden consignatievoorraad**.
 
 ## <a name="consignment-replenishment-orders"></a>Consignatieaanvullingsorders
-Een consignatieaanvullingsorder is een document dat wordt gebruikt om voorraadhoeveelheden op te vragen en te volgen van producten die een leverancier binnen een bepaald datumbereik wil leveren door transacties voor bestelde voorraad te maken. Doorgaans is dit gebaseerd op de geprognosticeerde en werkelijke vraag van de specifieke producten. De voorraad die wordt ontvangen voor de consignatieaanvullingsorder blijft eigendom van de leverancier. Alleen het eigendom van de producten die gerelateerd zijn aan de fysieke ontvangstupdate wordt geregistreerd, en daardoor komen geen updatetransacties in het grootboek voor. De dimensie **Eigenaar** wordt gebruikt om informatie scheiden voor de voorraad die eigendom is van de leverancier en voorraad die eigendom is van de ontvangende rechtspersoon. Consignatieaanvullingsorderregels hebben de status **Openstaande order** zolang de volledige hoeveelheid van de regels niet is ontvangen of geannuleerd. Wanneer de volledige hoeveelheid is ontvangen of geannuleerd, wordt de status gewijzigd in **Voltooid**. De fysieke voorhanden voorraad die is gekoppeld aan een consignatieaanvullingsorder kan worden geregistreerd met een registratieproces of met een updateproces voor een productontvangstbon. De registratie kan worden uitgevoerd als onderdeel van het artikelontvangstproces of door de orderregels handmatig bij te werken. Wanneer het updateproces voor productontvangstbonnen wordt gebruikt, wordt een record gemaakt in het productontvangstbonjournaal waarmee de ontvangst van goederen bij de leveranciers kan worden bevestigd. 
+Een consignatieaanvullingsorder is een document dat wordt gebruikt om voorraadhoeveelheden op te vragen en te volgen van producten die een leverancier binnen een bepaald datumbereik wil leveren door transacties voor bestelde voorraad te maken. Doorgaans is dit gebaseerd op de geprognosticeerde en werkelijke vraag van de specifieke producten. De voorraad die wordt ontvangen voor de consignatieaanvullingsorder blijft eigendom van de leverancier. Alleen het eigendom van de producten die gerelateerd zijn aan de fysieke ontvangstupdate wordt geregistreerd, en daardoor komen geen updatetransacties in het grootboek voor. De dimensie **Eigenaar** wordt gebruikt om informatie scheiden voor de voorraad die eigendom is van de leverancier en voorraad die eigendom is van de ontvangende rechtspersoon. Consignatieaanvullingsorderregels hebben de status **Openstaande order** zolang de volledige hoeveelheid van de regels niet is ontvangen of geannuleerd. Wanneer de volledige hoeveelheid is ontvangen of geannuleerd, wordt de status gewijzigd in **Voltooid**. De fysieke voorhanden voorraad die is gekoppeld aan een consignatieaanvullingsorder kan worden geregistreerd met een registratieproces of met een updateproces voor een productontvangstbon. De registratie kan worden uitgevoerd als onderdeel van het artikelontvangstproces of door de orderregels handmatig bij te werken. Wanneer het updateproces voor productontvangstbonnen wordt gebruikt, wordt een record gemaakt in het productontvangstbonjournaal waarmee de ontvangst van goederen bij de leveranciers kan worden bevestigd.
 
 [![consignatieaanvullingsorder](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
@@ -71,7 +71,7 @@ Het proces voor het wijzigen van het eigendom van de voorraad van de leverancier
 -   De voorraad in eigendom van de leverancier wordt uitgegeven met een verwijzing **Wijziging aan eigendom** met de status **Verkocht**.
 -   Voorhanden voorraad wordt ontvangen door de rechtspersoon die het gebruikt, door middel van een voorraadtransactie van het type 'productontvangsbon bijgewerkt' op de inkooporder Dit stelt de status van de order in op **Ontvangen**. Voor inkooporders voor consignatie wordt het veld **Oorsprong** ingesteld op **Consignatie**.
 
-Het is niet mogelijk om de hoeveelheden voor consignatieinkooporderregels bij te werken nadat de order is gemaakt. 
+Het is niet mogelijk om de hoeveelheden voor consignatieinkooporderregels bij te werken nadat de order is gemaakt.
 
 [![journaal-wijziging-voorraadeigendom](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
@@ -81,8 +81,4 @@ De interface van de leverancierssamenwerking heeft drie pagina's die gerelateerd
 -   **Inkooporders** **die consignatievoorraad verbruiken**: toont gedetailleerde inkooporderinformatie die verband houdt met de eigendomswijziging uit het consignatieproces.
 -   **Producten ontvangen uit consignatievoorraad**: toont informatie over de artikelen en hoeveelheden waarvoor productontvangstbonnen zijn bijgewerkt tijdens het proces van de eigendomwijziging.
 -   **Voorhanden consignatievoorraad**: toont informatie over de consignatieartikelen waarvan de levering wordt verwacht en de artikelen die al fysiek beschikbaar zijn op de klantlocatie.
-
-
-
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: De beschikbaarheid van voorraad controleren
 description: Deze procedure laat zien hoe u voorhanden en fysieke voorraad voor een specifiek artikelnummer kunt controleren.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Deze procedure laat zien hoe u voorhanden en fysieke voorraad voor een specifiek
 4. Klik op Dimensies weergeven.
 5. Klik op OK.
 6. Sluit de pagina.
-
 

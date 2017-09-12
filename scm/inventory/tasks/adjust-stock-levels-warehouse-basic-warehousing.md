@@ -1,4 +1,4 @@
---- 
+---
 title: Voorraadniveaus in het magazijn aanpassen (basale magazijnen)
 description: Deze procedure begeleidt u door het proces voor het maken en boeken van een voorraadcorrectiejournaal om voorraadniveaus te corrigeren van producten in het magazijn.
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Deze procedure begeleidt u door het proces voor het maken en boeken van een voor
 4. Klik op OK.
 5. Het formulier sluiten.
 6. Sluit de pagina.
-
 

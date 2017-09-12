@@ -1,4 +1,4 @@
---- 
+---
 title: Voorraadblokkering maken en beheren
 description: Deze procedure laat zien hoe wordt voorkomen dat fysieke voorhanden voorraad kan worden gereserveerd door andere uitgaande brondocumenten met behulp van de voorraadblokkering.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ Deze procedure laat zien hoe wordt voorkomen dat fysieke voorhanden voorraad kan
 1. Ga naar Voorraadbeheer > Periodieke taken > Voorraadblokkering.
 2. Klik op Nieuw.
 3. Klik in het veld Artikelnummer op de vervolgkeuzeknop om de zoekopdracht te openen.
-4. Selecteer in de lijst het artikel dat u wilt kiezen. 
+4. Selecteer in de lijst het artikel dat u wilt kiezen.
     * Selecteer een artikelnummer met fysieke voorhanden voorraad die u wilt blokkeren. Als u USMF gebruikt, kunt u artikel M9201 selecteren.  
 5. Voer in het veld Hoeveelheid een getal in.
     * Als u artikel M9201 gebruikt, moet u minder dan 200 selecteren.  
@@ -55,5 +55,4 @@ Deze procedure laat zien hoe wordt voorkomen dat fysieke voorhanden voorraad kan
 1. Klik op Verwijderen.
 2. Klik op Ja.
 3. Sluit de pagina.
-
 

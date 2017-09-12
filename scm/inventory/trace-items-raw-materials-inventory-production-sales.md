@@ -1,7 +1,7 @@
 ---
 title: Artikelen en grondstoffen in voorraad, productie en verkoop traceren
 description: Dit onderwerp beschrijft hoe u artikeltracering kunt gebruiken om te bepalen waar de artikelen of de grondstoffen zijn gebruikt, worden gebruikt, of gebruikt gaan worden in productie- en verkoopprocessen.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit onderwerp beschrijft hoe u artikeltracering kunt gebruiken om te bepalen waar de artikelen of de grondstoffen zijn gebruikt, worden gebruikt, of gebruikt gaan worden in productie- en verkoopprocessen. 
+Dit onderwerp beschrijft hoe u artikeltracering kunt gebruiken om te bepalen waar de artikelen of de grondstoffen zijn gebruikt, worden gebruikt, of gebruikt gaan worden in productie- en verkoopprocessen.
 
 De functionaliteit van de artikeltracering is beschikbaar op de pagina **Traceren artikel**. De volgende secties beschrijven hoe u artikeltracering kunt gebruiken, en welke opties en beperkingen er zijn.
 
@@ -142,7 +142,4 @@ U kunt het rapport **Verzonden naar klanten** genereren om de hoeveelheid van he
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Kan ik co- en bijproducten traceren?
 U kunt co-producten traceren, maar u kunt een bijproduct niet traceren omdat traceringsdimensies meestal niet aan hen zijn toegewezen. Wanneer u een artikel traceert, bevatten de traceringsdetails alle gerelateerde co-producten. Een knooppunt dat een coproduct bevat, bevat het woord "coproduct" in de details. U kunt details over een co-product ook weergeven door het knooppunt in de traceringsdetails te selecteren, en vervolgens het sneltabblad **Productie** te openen.
-
-
-
 

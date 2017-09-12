@@ -1,4 +1,4 @@
---- 
+---
 title: Een consignatieaanvullingsorder maken
 description: Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de
 ## <a name="receive-items"></a>Artikelen ontvangen
 1. Klik op Productontvangstbon.
 2. Typ een waarde in het veld Externe productontvangstbon.
-3. Typ in het veld Hoeveelheid een aantal dat lager is dan het aantal dat hier wordt weergegeven. 
+3. Typ in het veld Hoeveelheid een aantal dat lager is dan het aantal dat hier wordt weergegeven.
 4. Klik op OK.
 
 ## <a name="check-the-on-hand-inventory"></a>Controleer de voorhanden voorraad
@@ -70,5 +70,4 @@ Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de
     * De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad. De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld Totaal van order.  
 4. Sluit de pagina.
 5. Klik op Sluiten.
-
 

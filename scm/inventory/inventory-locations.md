@@ -1,7 +1,7 @@
 ---
 title: Voorraadlocaties
 description: Voorraadlocaties worden met basale magazijnen (WMS I) gebruikt om te bepalen waar artikelen worden opgeslagen en waar artikelen uit worden verzameld in een WMS I-magazijn.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSLocation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -40,7 +40,6 @@ De term locatie verwijst naar de plaats waar artikelen worden opgeslagen en opge
 
 Voor elke locatie kan ook de plaats worden opgegeven waar het artikel wordt ingevoegd. Standaard zijn deze gelijk. Meestal worden artikelen aan dezelfde kant van de locatie ingevoegd en opgehaald, maar niet altijd. Zo worden artikelen in opslagrekken aan de ene kant in de rekken geplaatst en aan de andere kant uit de rekken gehaald. De belangrijkste invoer is een locatienaam, die meestal door de coördinaten ervan wordt gedefinieerd: magazijn, gang, rek, plank en bak. Deze naam of id kan op de pagina Voorraadlocaties handmatig worden ingevoerd of worden gegenereerd op basis van de coördinaten van de locatie, bijvoorbeeld 01-02-03-4 voor gang 1, rek 2, plank 3, bak 4.
 Locatie-eigenschappen
--------------------
 
 Een locatie heeft de volgende kenmerken:
 -   Grootte (hoogte, breedte, diepte, en dus volume)
@@ -54,12 +53,12 @@ Met sorteercodes kunt u de afhandeling van orderverzamelregels optimaliseren. De
 
 ## <a name="blocked-locations"></a>Geblokkeerde locaties
 Soms wilt u wellicht aangeven dat een locatie gedurende een bepaalde tijd is geblokkeerd, bijvoorbeeld om reparaties mogelijk te maken. Op andere momenten wilt u mogelijk aangeven dat alleen de invoer of alleen de uitvoer is geblokkeerd.
-Boomstructuur
---------------
+
+## <a name="tree-structure"></a>Boomstructuur
 
 Op de pagina Voorraadlocaties kunt u de magazijnindeling bekijken in een boomstructuur in een bepaalde weergave-indeling op basis van de coördinaten van voorraadlocaties.
-Voorraadlocaties onderhouden via het formulier voor magazijnbeheer
----------------------------------------------------
+
+## <a name="maintain-inventory-locations-via-the-warehouse-form"></a>Voorraadlocaties onderhouden via het formulier voor magazijnbeheer
 
 Het is mogelijk om locaties van het ene magazijn naar het andere te kopiëren en locaties via een wizard te maken. Voordat u de wizard uitvoert, moet u ervoor zorgen dat u de standaardlocatienamen hebt gedefinieerd op de pagina Magazijn.
 
@@ -69,7 +68,4 @@ Het is mogelijk om locaties van het ene magazijn naar het andere te kopiëren en
 --------
 
 [Een nieuwe magazijnindeling maken (Taakbegeleiding)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-new-warehouse-layout)
-
-
-
 

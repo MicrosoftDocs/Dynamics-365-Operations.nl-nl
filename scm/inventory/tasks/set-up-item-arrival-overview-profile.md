@@ -1,7 +1,7 @@
---- 
+---
 title: Een aankomstoverzichtsprofiel instellen voor een artikel
 description: Deze taak is gericht op de instelling van een profiel van aankomstoverzicht.
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Deze taak is gericht op de instelling van een profiel van aankomstoverzicht. Het
     * Regels vanuit transferorders selecteren.  
 17. Klik op Opslaan.
 18. Sluit de pagina.
-
 

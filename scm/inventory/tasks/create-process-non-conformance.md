@@ -1,4 +1,4 @@
---- 
+---
 title: Een conformiteit maken en verwerken
 description: Gebruik deze procedure om beheer van non-conformiteiten uit te voeren, op basis van een bestaande kwaliteitsorder.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Gebruik deze procedure om beheer van non-conformiteiten uit te voeren, op basis van een bestaande kwaliteitsorder. U kunt deze registratie in het demobedrijf USMF uitvoeren en u kunt de voorgestelde waarden gebruiken. Doorgaans wordt deze procedure uitgevoerd door een kwaliteitsbewakingsmedewerker.  Voer als vereiste vooraf de taakregistratie 'De kwaliteit van goederen inspecteren' uit. Om de goedkeuring van een niet-conformering te verwerken moet aan de gebruiker die de taakregistratie uitvoert, een 'Naam'-waarde zijn toegewezen op de pagina Gebruikers. Om de documentnotities te gebruiken moet de gebruiker ook Documentverwerking geactiveerd hebben in de gebruikersopties. 
+Gebruik deze procedure om beheer van non-conformiteiten uit te voeren, op basis van een bestaande kwaliteitsorder. U kunt deze registratie in het demobedrijf USMF uitvoeren en u kunt de voorgestelde waarden gebruiken. Doorgaans wordt deze procedure uitgevoerd door een kwaliteitsbewakingsmedewerker.  Voer als vereiste vooraf de taakregistratie 'De kwaliteit van goederen inspecteren' uit. Om de goedkeuring van een niet-conformering te verwerken moet aan de gebruiker die de taakregistratie uitvoert, een 'Naam'-waarde zijn toegewezen op de pagina Gebruikers. Om de documentnotities te gebruiken moet de gebruiker ook Documentverwerking geactiveerd hebben in de gebruikersopties.
 
 
 ## <a name="select-a-quality-order"></a>Een kwaliteitsorder selecteren
@@ -78,5 +78,4 @@ Gebruik deze procedure om beheer van non-conformiteiten uit te voeren, op basis 
 3. Klik op Ja.
 4. Sluit de pagina.
 5. Sluit de pagina.
-
 

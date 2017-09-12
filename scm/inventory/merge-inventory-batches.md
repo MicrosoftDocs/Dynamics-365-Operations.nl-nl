@@ -1,7 +1,7 @@
 ---
 title: Voorraadbatches samenvoegen
 description: "Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch. 
+Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch.
 
 Wanneer u batches samenvoegt, kunnen berekeningen helpen bij het optimaliseren van de eigenschappen en batchkenmerken van de samengevoegde batch. Nadat de bronbatches zijn geselecteerd, kan de samengevoegde batch worden beoordeeld en aangepast voordat u deze boekt. U kunt ook de batchsamenvoeging overboeken naar een voorraadjournaal voor goedkeuring. De voorraad kan vervolgens direct vanaf dat voorraadjournaal worden gereserveerd of worden geboekt. Wanneer u een samengevoegde batch boekt, wordt de voorraad aangepast voor de bronbatches en de samengevoegde batch.
 
@@ -142,7 +142,4 @@ U kunt het voorraadjournaal goedkeuren voor de batchsamenvoeging vanaf de lijstp
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Waarom kan ik de informatie over variabel gewicht niet zien in het voorraadjournaal nadat ik een artikel met variabel gewicht heb samengevoegd?
 U kunt batches van catch weight-artikels samenvoegen, net zoals alle andere artikels. De catch weight-informatie wordt echter niet weergegeven op het voorraadjournaal. Wij raden u aan de catch weight-informatie na te gaan voordat u de batchsamenvoeging overdraagt naar het voorraadjournaal.
-
-
-
 

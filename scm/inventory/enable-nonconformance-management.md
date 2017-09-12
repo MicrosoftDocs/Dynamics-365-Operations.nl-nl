@@ -1,7 +1,7 @@
 ---
 title: Niet-conformiteitsbeheer
 description: In dit artikel wordt de algemene configuratie beschreven die nodig is om non-conformiteiten te gebruiken. Als u kwaliteitsorders wilt gebruiken, moet u aanvullende instellingen configureren.
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 28951
 ms.assetid: a62d4ba8-eebc-4b14-b587-630be7298522
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -31,7 +31,7 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt de algemene configuratie beschreven die nodig is om non-conformiteiten te gebruiken. Als u kwaliteitsorders wilt gebruiken, moet u aanvullende instellingen configureren. 
+In dit artikel wordt de algemene configuratie beschreven die nodig is om non-conformiteiten te gebruiken. Als u kwaliteitsorders wilt gebruiken, moet u aanvullende instellingen configureren.
 
 Ga als volgt te werk om niet-conformeringsbeheer in te schakelen:
 
@@ -56,7 +56,4 @@ Ga als volgt te werk om niet-conformeringsbeheer in te schakelen:
 [Processen voor kwaliteitsbeheer](quality-management-processes.md)
 
 [Vereisten voor niet-conformiteitsbeheer instellen (Taakbegeleiding)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-prerequisites-nonconformance-management)
-
-
-
 

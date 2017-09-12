@@ -1,4 +1,4 @@
---- 
+---
 title: Voorraadtraceringsinformatie corrigeren
 description: Deze procedure begeleidt u door het proces voor het maken en boeken van een voorraadoverboekingjournaal om voorraadtraceringsinformatie te corrigeren.
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Deze procedure begeleidt u door het proces voor het maken en boeken van een voor
 1. Klik op Voorraad.
 2. Klik op Transacties.
     * Hier ziet u de transacties die werden gemaakt toen u uw journaal boekte.   
-
 

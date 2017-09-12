@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-In dit artikel wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken. 
+In dit artikel wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
 
 De voorraadjournalen in Microsoft Dynamics 365 for Finance and Operations worden gebruikt om fysieke voorraadtransacties van diverse typen te boeken, zoals het boeken van uitgiften en ontvangsten, voorraadmutaties, het maken van stuklijsten (BOMs), en de afstemming van fysieke voorraad. Al deze voorraadjournalen worden gebruikt op een vergelijkbare manier, maar ze worden onderscheiden in verschillende typen.
 
@@ -95,7 +95,4 @@ Een journaalregel is alleen toegankelijk voor één gebruiker tegelijk. Als vers
 
 ## <a name="posting-journal-lines"></a>Journaalregels boeken
 U kunt op elk gewenst moment de journaalregels boeken die u maakt, tot u een artikel van extra transacties hebt vergrendeld. De gegevens die u in een journaal invoert, blijven in dat journaal bewaard, zelfs als u het journaal sluit zonder de regels te boeken.
-
-
-
 

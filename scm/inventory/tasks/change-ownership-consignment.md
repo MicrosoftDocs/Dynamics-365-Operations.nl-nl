@@ -1,4 +1,4 @@
---- 
+---
 title: Het eigendom van consignatievoorraad wijzigen op basis van de productievraag
 description: Deze procedure laat zien hoe u de eigenaar van de consignatievoorraad wijzigt van de leverancier in uw rechtspersoon wanneer er vraag is naar de voorraad in productie.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -51,5 +51,4 @@ Deze procedure laat zien hoe u de eigenaar van de consignatievoorraad wijzigt va
     * Wanneer het journaal wordt geboekt, wordt de voorraad die in het bezit is van de leverancier vrijgegeven door een verwijzing voor Wijziging aan eigendom. Vervolgens wordt de voorraad ontvangen als voorhanden voorraad met een voorraadtransactie die met een inkooporderproductontvangstbon wordt bijgewerkt. Merk op dat alleen transacties worden gemaakt die samenhangen met het geboekte journaal. Er worden geen verwachte voorraadtransacties gegenereerd.  
 2. Klik op OK.
 3. Sluit de pagina.
-
 

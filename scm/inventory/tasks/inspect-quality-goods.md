@@ -1,4 +1,4 @@
---- 
+---
 title: De kwaliteit van goederen inspecteren
 description: Deze procedure laat zien hoe u een kwaliteitsorder verwerkt.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -55,5 +55,4 @@ Deze procedure laat zien hoe u een kwaliteitsorder verwerkt. U kunt deze handlei
 4. Klik op Selecteren.
 5. Klik op OK.
 6. Sluit de pagina.
-
 
