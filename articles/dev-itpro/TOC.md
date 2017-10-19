@@ -451,6 +451,7 @@
 ### [Modellen splitsen](dev-tools/model-split.md)
 ### [Gemachtigden gebruiken bij het oplossen van afhankelijkheden tussen modellen](migration-upgrade/delegates-migration.md)
 
+
 ## Upgraden naar een recente update
 ### [Proces voor overschakeling naar de nieuwste update](migration-upgrade/upgrade-latest-update.md)
 ### [Lifecycle-beleid](migration-upgrade/versions-update-policy.md)
@@ -511,6 +512,8 @@
 ## [Aangepaste bedrijfsprocessen uploaden](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Controle en diagnose ](lifecycle-services/monitoring-diagnostics.md)
 ## [Activabibliotheek](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 - Overzicht vertaalservice](lifecycle-services/translation-service-overview.md)
+### [Microsoft Dynamics 365 - Gebruikershandleiding vertaalservice](lifecycle-services/use-translation-service.md)
 
 ## Dynamics AX 2012 Lifecycle Services-functies
 ### Implementatie
@@ -555,7 +558,7 @@
 #### [Aanpassingsanalyse ](lifecycle-services/ax-2012/customization-analysis-lcs.md)
 #### [Schatting infrastructuur](lifecycle-services/ax-2012/infrastructure-estimator-lcs.md)
 #### [Schatting licentieomvang](lifecycle-services/ax-2012/license-sizing-estimator-lcs.md)
-#### [Aanvragen voor antwoorden voorstel (Lifecycle Services/RFP](lifecycle-services/ax-2012/rfp-responses-lcs.md)
+#### [Aanvragen voor antwoorden voorstel (lifecycle-services/RFP.md)](lifecycle-services/ax-2012/rfp-responses-lcs.md)
 #### [Systeemdiagnose](lifecycle-services/ax-2012/system-diagnostics-lcs.md)
 #### [Systeemdiagnose installeren en uitvoeren](lifecycle-services/ax-2012/install-run-system-diagnostics-lcs.md)
 #### [Upgradeanalyse](lifecycle-services/ax-2012/upgrade-analysis-lcs.md)
