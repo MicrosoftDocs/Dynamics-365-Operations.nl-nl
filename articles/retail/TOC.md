@@ -1,5 +1,8 @@
 # [Welkom bij Dynamics 365 for Retail](index.md)
 
+# Aan de slag
+## [Wat is nieuw of gewijzigd](get-started/whats-new.md)
+
 # Betalingen
 ## [Betalingsmethoden](payment-methods.md)
 ## [Instelling, autorisatie en registratie van creditcards](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -175,6 +178,7 @@
 #### [Retail POS-apparaat activeren](dev-itpro/retail-device-activation.md)
 #### [Veilige Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md)
+### [Grootschalige implementatie van selfservicecomponenten van Retail](dev-itpro/retail-mass-deployment.md)
 ### [Retail-componentgebeurtenissen voor diagnostiek en probleemoplossing](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Een implementeerbaar pakket toepassen](../dev-itpro/deployment/apply-deployable-package-system.md)
 
