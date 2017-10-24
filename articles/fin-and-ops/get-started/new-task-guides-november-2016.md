@@ -15,13 +15,13 @@ ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bea93ea1e8d17d4d4d31b21e1fad6f3eaa31b3e2
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a40899df4f4f0cf2b404d21bf2c172bcc8a137af
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -143,14 +143,14 @@ De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen d
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | BAS-rapportvakken toevoegen en de Australische BAS (Business Activity Statement) genereren                                                    | Australië en Nieuw-Zeeland         |
 | Redencodes instellen voor Australië BAS                                                                                                | Australië en Nieuw-Zeeland         |
-| **\***Continuïteitscontrole voor Chinese boekstukken                                                                                               | China                             |
-| **\***CN-00010 Chinese hiërarchie voor rekeningschema                                                                                  | China                             |
-| **\***CN-00016 Logboek met gebruikerbewerkingen door Chinese werkregel                                                                              | China                             |
-| **\***Export van de Golden tax-integratie configureren                                                                                            | China                             |
-| **\***Boekstukken boeken vanuit andere modules zoals verkoopfacturen                                                                          | China                             |
-| **\***Boekstukken vanuit het algemeen journaal boeken                                                                                         | China                             |
-| **\***Een basaal belastingsintegratieprofiel voor China instellen                                                                                 | China                             |
-| **\***Chinese boekstukken instellen                                                                                                        | China                             |
+| **\*** Continuïteitscontrole voor Chinese boekstukken                                                                                               | China                             |
+| **\*** CN-00010 Chinese hiërarchie voor rekeningschema                                                                                  | China                             |
+| **\*** CN-00016 Logboek met gebruikerbewerkingen door Chinese werkregel                                                                              | China                             |
+| **\*** Export van de Golden tax-integratie configureren                                                                                            | China                             |
+| **\*** Boekstukken boeken vanuit andere modules zoals verkoopfacturen                                                                          | China                             |
+| **\*** Boekstukken vanuit het algemeen journaal boeken                                                                                         | China                             |
+| **\*** Een basaal belastingsintegratieprofiel voor China instellen                                                                                 | China                             |
+| **\*** Chinese boekstukken instellen                                                                                                        | China                             |
 | Maken en boeken van een klantfactuur voor een openbare sectorklant                                                                      | Denemarken                           |
 | Maken en boeken van een vrije-tekstfactuur voor een openbare sectorklant                                                                     | Denemarken                           |
 | Een projectfactuur voor een openbare sectorklant maken en boeken                                                                       | Denemarken                           |
@@ -160,26 +160,26 @@ De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen d
 | Klantrekeningen instellen voor elektronische OIOUBL-facturering                                                                             | Denemarken                           |
 | OIOUBL elektronische facturen instellen                                                                                                   | Denemarken                           |
 | Indeling betalingsbon instellen                                                                                                           | Denemarken                           |
-| **\***EEU-00047 Vooruitbetaling aan werknemer                                                                                          | Oost-Europa                    |
+| **\*** EEU-00047 Vooruitbetaling aan werknemer                                                                                          | Oost-Europa                    |
 | Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling                                                                      | Europa                            |
 | Maak betalingen voor klanten die incassomandaten hebben                                                                          | Europa                            |
-| **\***EE-00015 Tool voor genereren van betalingsverwijzingen                                                                                     | Europa                            |
+| **\*** EE-00015 Tool voor genereren van betalingsverwijzingen                                                                                     | Europa                            |
 | EUR-00002 Een EU Intrastat-aangifte genereren                                                                                       | Europa                            |
-| **\***EUR-00002 Een vrachtadres opgeven voor een intracommunautaire transactie                                                          | Europa                            |
+| **\*** EUR-00002 Een vrachtadres opgeven voor een intracommunautaire transactie                                                          | Europa                            |
 | EUR-00002 Transacties overboeken naar Intrastat                                                                                     | Europa                            |
 | EUR-00011 Genereren van het rapport ICL-lijst.                                                                                          | Europa                            |
 | EUR-00011 Rapport van ICL-lijst instellen                                                                                             | Europa                            |
 | EUR-00012 Een EU-invoercertificaat uitgeven                                                                                              | Europa                            |
 | EUR-00012 Een EU-invoercertificaat ontvangen                                                                                            | Europa                            |
-| **\***EUR-00015 Een partij zoeken door middel van de btw-id                                                                                            | Europa                            |
-| **\***EUR-00015 Registratie van de btw-id van een leverancier                                                                                        | Europa                            |
-| **\***EUR-00015 Een btw-id instellen                                                                                                        | Europa                            |
-| **\***HU-00001 Wisselkoersberekening                                                                                             | Europa                            |
+| **\*** EUR-00015 Een partij zoeken door middel van de btw-id                                                                                            | Europa                            |
+| **\*** EUR-00015 Registratie van de btw-id van een leverancier                                                                                        | Europa                            |
+| **\*** EUR-00015 Een btw-id instellen                                                                                                        | Europa                            |
+| **\*** HU-00001 Wisselkoersberekening                                                                                             | Europa                            |
 | Configuratie van ISO20022-kredietoverdracht importeren                                                                                        | Europa                            |
 | Configuratie van ISO20022 automatische afschrijving importeren                                                                                           | Europa                            |
-| **\***LT-00003 Overboekingsdocument voor verplaatsing van goederen binnen een bedrijf/Een overboekingsdocument genereren voor een interne voorraadoverboeking   | Europa                            |
-| **\***LT 00003 Overboekingsdocument voor verplaatsing van goederen binnen een bedrijf/De overboekingsdocumenten instellen voor verplaatsing van goederen binnen een bedrijf | Europa                            |
-| **\***NO-00002 Klantbetaling op basis van betalings-id                                                                                  | Europa                            |
+| **\*** LT-00003 Overboekingsdocument voor verplaatsing van goederen binnen een bedrijf/Een overboekingsdocument genereren voor een interne voorraadoverboeking   | Europa                            |
+| **\*** LT 00003 Overboekingsdocument voor verplaatsing van goederen binnen een bedrijf/De overboekingsdocumenten instellen voor verplaatsing van goederen binnen een bedrijf | Europa                            |
+| **\*** NO-00002 Klantbetaling op basis van betalings-id                                                                                  | Europa                            |
 | Bankrekeningen voor ISO20022-kredietoverdrachten voor een bank instellen                                                                           | Europa                            |
 | Bankrekeningen voor ISO20022-automatische overschrijvingen voor een bank instellen                                                                              | Europa                            |
 | Klanten en bankrekeningen van klanten instellen voor ISO20022-automatische overschrijvingen                                                               | Europa                            |
@@ -222,7 +222,7 @@ De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen d
 | ER Horizontaal uitvouwbare bereiken gebruiken om kolommen in Excel-rapporten dynamisch toe te voegen (deel 2: Indeling uitvoeren)                               | Duitsland                           |
 | Duits auditfile genereren                                                                                                           | Duitsland                           |
 | Configuratie van Duits auditfile importeren                                                                                               | Duitsland                           |
-| **\***EUR-00018 Btw-afstemmingsrapport                                                                                            | IJsland                           |
+| **\*** EUR-00018 Btw-afstemmingsrapport                                                                                            | IJsland                           |
 | IS-00006 Aangifte van leveranciersfacturen/Een leverancierrekening maken en de factuuraangifte koppelen                                       | IJsland                           |
 | IS-00006 Aangifte van leveranciersfacturen/Een factuuraangifte voor leveranciers instellen                                                        | IJsland                           |
 | IS-00006 Aangifte van leveranciersfacturen/Aangiften van leveranciersfacturen bijwerken en het rapport genereren                                       | IJsland                           |
@@ -391,9 +391,9 @@ De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen d
 
 | BPM-regel                                                                       | Land/regio |
 |--------------------------------------------------------------------------------|----------------|
-| **\***Het eigendom van consignatievoorraad wijzigen op basis van de productievraag | Globaal         |
-| **\***Een nieuwe consignatieaanvullingsorder maken                                 | Globaal         |
-| **\***Consignatievoorraad bewaken door middel van leverancierssamenwerking                 | Globaal         |
+| **\*** Het eigendom van consignatievoorraad wijzigen op basis van de productievraag | Globaal         |
+| **\*** Een nieuwe consignatieaanvullingsorder maken                                 | Globaal         |
+| **\*** Consignatievoorraad bewaken door middel van leverancierssamenwerking                 | Globaal         |
 
 ### 
 
@@ -420,9 +420,9 @@ De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen d
 
 | BPM-regel                                                         | Land/regio |
 |------------------------------------------------------------------|----------------|
-| **\***Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden | Globaal         |
-| **\***Een doelstelling maken                                              | Globaal         |
-| **\***Een prestatiebeoordeling maken                                | Globaal         |
+| **\*** Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden | Globaal         |
+| **\*** Een doelstelling maken                                              | Globaal         |
+| **\*** Een prestatiebeoordeling maken                                | Globaal         |
 
 ### 
 
@@ -497,9 +497,9 @@ De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen d
 | BPM-regel                                                         | Land/regio |
 |------------------------------------------------------------------|----------------|
 | Een medewerker configureren                                               | Globaal         |
-| **\***Door machine learning aangestuurde productaanbevelingen configureren | Globaal         |
+| **\*** Door machine learning aangestuurde productaanbevelingen configureren | Globaal         |
 | Het functionaliteitsprofiel voor een verkoopvertegenwoordiger configureren   | Globaal         |
-| **\***Een POS-weergaveprofiel maken (november 2016)                | Globaal         |
+| **\*** Een POS-weergaveprofiel maken (november 2016)                | Globaal         |
 | Registers maken en koppelen                                   | Globaal         |
 | Callcenterorders maken                                        | Globaal         |
 | Handelsovereenkomsten maken met een categorieprijsregel            | Globaal         |
@@ -507,7 +507,7 @@ De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen d
 | Een aansluiting definiëren en een korting toewijzen                      | Globaal         |
 | POS-machtigingsgroepen definiëren en beheren                          | Globaal         |
 | Een continuïteitsplanning definiëren                                       | Globaal         |
-| **\***Afzetkanaalcommunicatie definiëren (CDX)                 | Globaal         |
+| **\*** Afzetkanaalcommunicatie definiëren (CDX)                 | Globaal         |
 | Aanpassingen van loyaliteitsbeloningen                                      | Globaal         |
 | Assortimenten beheren                                               | Globaal         |
 | Toewijzing en overschrijving van btw                                | Globaal         |
@@ -579,14 +579,14 @@ De APQC Unified Library (november 2016, alle talen) bevat de taakbegeleidingen d
 | BPM-regel                                                                    | Land/regio |
 |-----------------------------------------------------------------------------|----------------|
 | Een locatieprofiel maken                                                   | Globaal         |
-| **\***Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie      | Globaal         |
+| **\*** Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie      | Globaal         |
 | Handmatig vracht afstemmen                                                  | Globaal         |
 | Registreer het in- en uitchecken van een chauffeur voor een afspraak                   | Globaal         |
 | Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder | Globaal         |
 | Een afspraak voor een lading instellen                                            | Globaal         |
 | Een transportaanbesteding instellen                                              | Globaal         |
 | Automatische vrachtafstemming instellen                                     | Globaal         |
-| **\***Artikelhertoewijzing voor kort orderverzamelen instellen                                | Globaal         |
+| **\*** Artikelhertoewijzing voor kort orderverzamelen instellen                                | Globaal         |
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Fysieke waarde opnemen
 description: U kunt het selectievakje Fysieke waarde opnemen op het sneltabblad Voorraadmodel van het formulier Artikelmodelgroepen gebruiken om op te geven of fysiek bijgewerkte transacties moeten worden meegenomen wanneer de actieve gemiddelde kostprijs van een artikel wordt berekend.
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 1928c145-bf82-436d-87ca-e7a173e31923
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d45e7a56851f3f4ac7a7d2d8c4ca9f23b6535fc
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fa59031ed2144c2e92399933cd5dd40bfca0f2ae
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,7 +47,7 @@ Het in- of uitschakelen van het selectievakje heeft enigszins verschillende resu
 -   Als u het selectievakje **Fysieke waarde opnemen** niet inschakelt wanneer u deze voorraadmodellen gebruikt, worden alleen financieel bijgewerkte transacties vereffend wanneer u de voorraad sluit.
 -   Wanneer u het voorraadmodel gewogen gemiddelde of datum gewogen gemiddelde gebruikt, worden bij voorraadafsluiting altijd alleen financieel bijgewerkte transacties vereffend, ook al schakelt u het selectievakje **Fysieke waarde opnemen** in.
 
-**Voorbeeld 1** U hebt het selectievakje**Fysieke waarde opnemen** ingeschakeld en u ontvangt de volgende inkooporders:
+**Voorbeeld 1** U hebt het selectievakje **Fysieke waarde opnemen** ingeschakeld en u ontvangt de volgende inkooporders:
 
 -   Een inkooporder voor 2 stuks tegen een kostprijs van EUR 10,00 die met de pakbon is bijgewerkt
 -   Een inkooporder voor 3 stuks tegen een kostprijs van EUR 12,00 die volgens de factuur is bijgewerkt

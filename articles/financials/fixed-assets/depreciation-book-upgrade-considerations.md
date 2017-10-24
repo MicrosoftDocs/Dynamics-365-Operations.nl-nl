@@ -15,13 +15,13 @@ ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
 ms.author: saraschi
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 116f9e8fbf8ed6ecbd2a1163f17e52ba80061694
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d6ce53d4d9335348d0203a524e62dbbdfd1580b6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,19 +45,19 @@ Optie 1: **Door het systeem gedefinieerde nummerreeks** - Dit is de standaardopt
     -   Naam constante: **NumberSequenceDefaultParameterPrefix**
     -   Standaardwaarde: "FADBUpgr"
 -   **Alfanumerieke lengte** – De lengte van het alfanumerieke segment van de nummerreeks.
-    -   Naam constante: NumberSequenceDefaultParameterAlpanumericLength
+    -   Naam constante: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Standaardwaarde: 9
 -   **Beginnummer** - Het eerste nummer dat in de nummerreeks moet worden gebruikt.
-    -   Naam constante: NumberSequenceDefaultParameterStartNumber
+    -   Naam constante: **NumberSequenceDefaultParameterStartNumber**
     -   Standaardwaarde: 1
 
 Optie 2: **Bestaande, door gebruiker gedefinieerde nummerreeks**: met deze optie kunt u de nummerreeks definiëren die moet worden gebruikt voor de upgrade. Overweeg deze optie te gebruiken als u geavanceerde nummerreeksconfiguratie nodig hebt. Als u een nummerreeks wilt gebruiken, moet u de upgradeklasse ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans wijzigen met de volgende gegevens:
 
 -   **Nummerreekscode** – De code van de nummerreeks.
-    -   Naam constante: NumberSequenceExistingCode
+    -   Naam constante: **NumberSequenceExistingCode**
     -   Standaardwaarde: geen standaardwaarde, deze moet worden bijgewerkt naar de nummerreekscode.
 -   **Gedeelde nummerreeks** - Een booleaanse waarde om het bereik van de nummerreeks te identificeren. Gebruik 'true' voor gedeelde nummerreeksen tussen alle bedrijven en 'false' voor een bedrijfsspecifiek bereik. Wanneer u 'false' gebruikt, moet de nummerreeks met de opgegeven naam bestaan in elk bedrijf dat transacties met afschrijvingsboeken bevat. Gedeelde nummerreeksen bestaan in elke partitie die afschrijvingsboektransacties bevat.
-    -   Naam constante: NumberSequenceExistingIsShared
+    -   Naam constante: **NumberSequenceExistingIsShared**
     -   Standaardwaarde: true
 
 De parameters bevinden zich aan het begin van de klasse ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 

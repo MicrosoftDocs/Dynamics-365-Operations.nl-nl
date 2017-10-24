@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c871cf4e5ee7f359010aac1fa0fef81e0e0df564
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -98,7 +98,7 @@ Het filter dat voor de stuklijst en route wordt toegepast, wordt weergegeven in 
 Wanneer u de stuklijstontwikkelaar gebruikt om stuklijsten te controleren of te bewerken die uit een of meerdere niveaus van phantoms bestaan, overspant de route die aan het hoogste artikel is gekoppeld meestal de volledige stuklijsthiërarchie. Als u het overzicht wilt vereenvoudigen, kunt u de route op het hoogste niveau in de weergave vergrendelen door te klikken op **Weergave** &gt; **Route vergrendelen**. Als u de route wilt ontgrendelen, klikt u op **Weergave** &gt; **Route ontgrendelen**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Stuklijsten en stuklijstregels toevoegen en bewerken
-Gebruik de functies **Stuklijstregels**of **Stuklijst** om de stuklijstregels of stuklijst te wijzigen. Als u in de structuur een knooppunt selecteert, bepaalt het type van het knooppunt de functies die beschikbaar zijn.
+Gebruik de functies **Stuklijstregels** of **Stuklijst** om de stuklijstregels of stuklijst te wijzigen. Als u in de structuur een knooppunt selecteert, bepaalt het type van het knooppunt de functies die beschikbaar zijn.
 
 | Functie                            | Omschrijving                                                                                               | Knooppunttype en voorwaarden                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

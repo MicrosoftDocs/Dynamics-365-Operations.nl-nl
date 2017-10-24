@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -87,7 +87,7 @@ De werkelijke hardwarevereisten verschillen op basis van de systeemconfiguratie,
 - Het aantal gelijktijdige gebruikers
 
 ## <a name="minimum-infrastructure-requirements"></a>Minimale vereisten voor de infrastructuur
-Finance and Operations (on-premises) maakt gebruik van Service Fabric als host voor AOS, batch- en gegevensbeheer, Management reporter en orchestratorservices voor de omgeving. Microsoft SQL Server Reporting Services (SSRS) wordt niet gehost in het Service Fabric-cluster.
+Finance and Operations (on-premises) maakt gebruik van Service Fabric als host voor AOS, batch- en gegevensbeheer, Management reporter en orchestratorservices voor de omgeving. 
 
 SQL Server moet beschikken over een HADRON-installatie voor hoge beschikbaarheid met ten minste twee knooppunten voor de productie.
 
@@ -225,6 +225,12 @@ De volgende tabel geeft een overzicht van de SQL Server-versies die worden onder
 |------------------------------------------------------------------|-------|
 | Microsoft SQL Server 2016 Standard Edition of Enterprise Edition | Zie voor de hardwarevereisten voor SQL Server 2016 [Hardware- en softwarevereisten voor het installeren van SQL Server 2016](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>Softwarevereisten voor Application Object Server (AOS) 
+- SQL Server Integation Services (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>Softwarevereisten voor Reporting Server (BI)
+- SQL Server Reporting Services (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>Softwarevereisten voor clientcomputers
 De webtoepassing Finance and Operations werkt op elk apparaat met een HTML 5.0-compatibele webbrowser. Dit zijn enkele specifieke apparaat-/browsercombinaties die door Microsoft zijn bevestigd:
 
@@ -244,7 +250,7 @@ De domeincontroller moet Windows Server 2012 R2 of hoger zijn en het domeinfunct
 ## <a name="supported-microsoft-office-applications"></a>Ondersteunde Microsoft Office-toepassingen
 De volgende Microsoft Office-toepassingen worden ondersteund in implementaties van Finance and Operations in de cloud en on-premises:
 
--   Als u de invoegtoepassingen voor Microsoft Word en Microsoft Excel wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Als u de invoegtoepassingen voor Microsoft Word en Microsoft Excel wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Als u documenten wilt weergeven die worden gegenereerd door de functie Exporteren naar Excel of Exporteren naar Word, moet Microsoft Office 2007 of hoger zijn geïnstalleerd.
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>Hardware- en softwarevereisten voor Retail-onderdelen

@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd8e6fb1100cdbb8f0b5ad778b322243c72529ba
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5a5baa25c31ea201e5ea98b158b6e02da566262c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -87,7 +87,7 @@ Contantkortingen die tijdens het cross-company vereffeningsproces worden gegener
 <a name="overpayments-and-underpayments"></a>Overbetalingen en onderbetalingen
 ------------------------------
 
-Toleranties voor overbetaling, onderbetaling en afrondingsverschillen worden bepaald aan de hand van de rechtspersoon van de betaling voor overbetalingen en de rechtspersoon van de factuur voor onderbetalingen. Welke boekingsrekening wordt gebruikt, wordt bepaald door de instelling in het veld **Administratie voor contantkorting** op de  pagin**Klantparameters** voor klanten en het veld **Administratie voor contantkorting** op de pagina **Leverancierparameters** voor leveranciers.
+Toleranties voor overbetaling, onderbetaling en afrondingsverschillen worden bepaald aan de hand van de rechtspersoon van de betaling voor overbetalingen en de rechtspersoon van de factuur voor onderbetalingen. Welke boekingsrekening wordt gebruikt, wordt bepaald door de instelling in het veld **Administratie voor contantkorting** op de  pagin **Klantparameters** voor klanten en het veld **Administratie voor contantkorting** op de pagina **Leverancierparameters** voor leveranciers.
 
 -   Als de instelling voor beheer van contantkortingen Specifiek is, of als de instelling Flexibel is en de van toepassing zijnde contantkorting is geboekt op een andere rechtspersoon dan voor de overbetaling, wordt de automatische rekening voor Contantkorting van klant, Contantkorting van leverancier of Afronding in valuta voor boekhouding gebruikt. U kunt deze rekeningen opgeven op de pagina **Rekeningen voor automatische transacties**.
 -   Als de instelling voor het beheer van contantkortingen Flexibel is en de contantkorting is geboekt in dezelfde rechtspersoon als de overbetaling (de rechtspersoon van de betaling en de rechtspersoon van de factuur zijn gelijk), wordt de rekening voor de contantkorting aangepast. Als een factuur voor 100,00 met een beschikbare contantkorting van 3,00 bijvoorbeeld wordt vereffend met een betaling van 98,00, wordt het contantkortingsbedrag gecorrigeerd met 1,00. Het nettokortingsbedrag is 2,00.

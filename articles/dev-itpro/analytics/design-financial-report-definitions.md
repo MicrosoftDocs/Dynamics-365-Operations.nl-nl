@@ -16,13 +16,13 @@ ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86b527b72ef0c9af71e70fe280bcdfe3992a36b1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 96090a3ae15294d98d6207c8eb4a1e58429ca9eb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Dit artikel bevat informatie over rapportdefinities. Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken. Een rapportdefinitie bevat ook opties en instellingen voor het aanpassen van een rapport. 
 
-Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken. Een rapportdefinitie biedt ook opties en instellingen waarmee u een rapport kunt aanpassen. Nadat u rijdefinities en kolomdefinities hebt gedefinieerd, moet u deze in een rapportdefinitie combineren. Op dit punt definieert u ook andere aspecten van de definities, zoals het detailniveau en de rapportdatum. U kunt vervolgens een rapport opslaan en genereren. Financiële rapportage biedt de volgende detailniveaus:
+Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken. Daarnaast biedt een rapportdefinitie opties en instellingen die u kunt gebruiken voor het aanpassen van een rapport. Nadat u rijdefinities en kolomdefinities hebt gedefinieerd, moet u deze in een rapportdefinitie combineren. Op dit punt definieert u ook andere aspecten van de definities, zoals het detailniveau en de rapportdatum. U kunt vervolgens een rapport opslaan en genereren. Financiële rapportage biedt de volgende detailniveaus:
 
 -   Financieel
 -   Financieel en Rekening

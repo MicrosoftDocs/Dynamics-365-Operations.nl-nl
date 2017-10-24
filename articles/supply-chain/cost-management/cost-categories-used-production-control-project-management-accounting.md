@@ -1,7 +1,7 @@
 ---
 title: "Kostencategorieën die worden gebruikt in Productiebeheer en in Projectbeheerboekhouding"
 description: "Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. Dit artikel bevat informatie over de kostencategorieën die u voor deze soorten productiewerk voor productie- en projectdoeleinden moet definiëren."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 712406f1a47d3b0b6b8302cd7337a594a3818f95
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fcc7914f2bb283a746b5e10993f91f949818473
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,7 +34,9 @@ ms.lasthandoff: 05/25/2017
 
 Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. Dit artikel bevat informatie over de kostencategorieën die u voor deze soorten productiewerk voor productie- en projectdoeleinden moet definiëren.
 
-Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. In een dergelijk geval is een kostencategorie vereist voor productie- en projectdoeleinden. Wanneer er een kostencategorie wordt gebruikt in productie en projecten, moet er extra projectgerelateerde informatie worden gedefinieerd. De kosten per uur van projecten kunnen bijvoorbeeld afwijken van de kosten per uur die horen bij de productie. U kunt de pagina **Kostencategorieën** gebruiken om een kostencategorie te definiëren die in Productiebeheer en Projectbeheerboekhouding wordt gebruikt. **Opmerking:** kostprijsboekhouding heeft een pagina **Projectcategorieën**, maar deze pagina heeft geen betrekking op de functionaliteit die in dit onderwerp wordt beschreven. Wanneer u een kostencategorie in projecten gebruikt, heeft de pagina **Kostencategorieën** extra tabbladen die extra projectgerelateerde informatie weergegeven. Deze informatie omvat de categoriegroep, een regeleigenschap en grootboekrekeningen, die aan de kostencategorie worden toegewezen.
+Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. In een dergelijk geval is een kostencategorie vereist voor productie- en projectdoeleinden. Wanneer er een kostencategorie wordt gebruikt in productie en projecten, moet er extra projectgerelateerde informatie worden gedefinieerd. De kosten per uur van projecten kunnen bijvoorbeeld afwijken van de kosten per uur die horen bij de productie. U kunt de pagina **Kostencategorieën** gebruiken om een kostencategorie te definiëren die in Productiebeheer en Projectbeheerboekhouding wordt gebruikt. 
+
+**Opmerking:** kostprijsboekhouding heeft een pagina **Projectcategorieën**, maar deze pagina heeft geen betrekking op de functionaliteit die in dit onderwerp wordt beschreven. Wanneer u een kostencategorie in projecten gebruikt, heeft de pagina **Kostencategorieën** extra tabbladen die extra projectgerelateerde informatie weergegeven. Deze informatie omvat de categoriegroep, een regeleigenschap en grootboekrekeningen, die aan de kostencategorie worden toegewezen.
 
 -   U moet de kostencategorie toewijzen aan een categoriegroep die het transactietype **Uren** ondersteunt.
 -   De regeleigenschap geeft standaardgegevens aan over hoe gerapporteerde tijd in rekening kan worden gebracht bij een project.

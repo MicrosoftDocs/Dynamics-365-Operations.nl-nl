@@ -1,7 +1,7 @@
 ---
 title: Kostprijsberekeningsbladen
 description: Het instellen van het kostenblad heeft twee doelen. Ten eerste definieert u de indeling voor het weergeven van informatie over kosten van verkochte goederen voor een gefabriceerd artikel of een productieorder. De ingedeelde weergave wordt een kostenblad genoemd. Ten tweede definieert u de basis voor het berekenen van de indirecte kosten. Bij het instellen van het kostenblad wordt gebruikgemaakt van de kostengroepfunctie voor het weergeven van informatie en voor de formules voor het berekenen van indirecte kosten. De twee doelen van het instellen van het kostenblad worden in dit artikel beschreven.
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: e7d72b43-3892-49ae-8821-9eede3f4d24a
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ff9bde25a2e1785d7063f8c69f673d87abbd948b
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 7aaa8a6a47bbd5c1d26cea7b05c3c5d031495382
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

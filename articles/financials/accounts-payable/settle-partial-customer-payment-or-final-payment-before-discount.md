@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08b5fc87fdee476cd978bcc242cea324ac4bcee2
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1d48a10f413ce4e2830bfba062615980a6de70a4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -36,7 +36,7 @@ Dit artikel geeft scenario's die laten zien hoe gedeeltelijke betalingen voor ee
 Fabrikam verkoopt goederen aan klant 4028. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Facturen moeten worden betaald binnen 30 dagen. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
 
 ## <a name="customer-invoice"></a>Klantfactuur
-Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 4028. Arnie kan deze transactie bekijken op de pagina**Klanttransacties**.
+Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 4028. Arnie kan deze transactie bekijken op de pagina **Klanttransacties**.
 
 | Boekstuk   | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|

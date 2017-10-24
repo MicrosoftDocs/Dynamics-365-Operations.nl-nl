@@ -18,12 +18,11 @@ ms.search.industry: All
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: f5c30b13aa18e959fed3b6ac2040f4470157ddf3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 

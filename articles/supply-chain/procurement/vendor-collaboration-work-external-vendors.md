@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
+ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
+ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 
@@ -34,9 +34,9 @@ In dit onderwerp wordt beschreven hoe aankoopbemiddelaars met externe leverancie
 
 De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics 365 for Finance and Operations hebben. Hiermee kunnen leveranciers werken met inkooporder-, factuur- en consignatievoorraadgegevens. In dit onderwerp wordt beschreven hoe u kunt samenwerken met externe leveranciers die de interface voor leverancierssamenwerking gebruiken om met inkooporders en consignatievoorraad te werken. Daarnaast wordt beschreven hoe u een specifieke leverancier in staat stelt om leverancierssamenwerking te gebruiken en hoe u de gegevens definieert die alle leveranciers te zien krijgen wanneer ze reageren op een inkooporder. Meer informatie over wat externe leveranciers kunnen doen in de interface voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
+Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
-Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace) 
+Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) 
 
 Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
@@ -131,7 +131,7 @@ Om een inkooporder te wijzigen waarop al is gereageerd, moet u een nieuwe versie
 
 ### <a name="cancelling-a-po"></a>Een inkooporder annuleren
 
-Wanneer u een inkooporder annuleert, wordt de status gewijzigd in **Goedgekeurd**. U moet de inkooporder via de leveranciersportal terug naar de leverancier sturen zodat de leverancier de annulering kan bevestigen of afwijzen. Nadat de annulering is bevestigd, wordt de inkooporder in de lijst met bevestigde PO's van de leverancier weergegeven als **Geannuleerd**.
+Wanneer u een inkooporder annuleert, wordt de status gewijzigd in **Goedgekeurd**. U moet de IO terugzenden naar de leverancier, zodat deze de annulering kan bevestigen of afwijzen. Nadat de annulering is bevestigd, wordt de inkooporder in de lijst met bevestigde PO's van de leverancier weergegeven als **Geannuleerd**.
 
 ### <a name="adding-attachments-to-a-po"></a>Bijlagen toevoegen aan een inkooporder
 

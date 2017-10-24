@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08f87cbb37f8b52ec5554c8ab940d96a77c53d20
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 048a4ca44d457849e2f632da1686dfbeb81dd61b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -44,14 +44,14 @@ Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 403
 | 7/9/2015           | 10,00                | 990,00                         |
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
-Arnie kan deze transactie bekijken op de pagina**Klanttransacties**.
+Arnie kan deze transactie bekijken op de pagina **Klanttransacties**.
 
 | Boekstuk   | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI-10030 | Factuur          | 6/25/2015 | 10030   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Gedeeltelijke betaling vóór de datum van contantkorting
-Op 28 juni voert Klant 4031 een gedeeltelijke betaling van 294,00 uit. Omdat 28 juni binnen de eerste periode van contantkorting ligt, neemt de klant een korting van 6,00. Op de pagina **Transacties vereffenen** is de waarde**Contantkortingsbedrag** 20,00 en de waarde **Contantkortingsbedrag dat moet worden toegepast** 6,00.
+Op 28 juni voert Klant 4031 een gedeeltelijke betaling van 294,00 uit. Omdat 28 juni binnen de eerste periode van contantkorting ligt, neemt de klant een korting van 6,00. Op de pagina **Transacties vereffenen** is de waarde **Contantkortingsbedrag** 20,00 en de waarde **Contantkortingsbedrag dat moet worden toegepast** 6,00.
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

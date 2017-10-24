@@ -19,11 +19,11 @@ ms.search.industry: Product information
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d232473a1df0b821c6f39553ad826c61ff9ecff8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -96,7 +96,7 @@ Een klant wil enkele rode T-shirts small kopen en de naam van het T-shirt moet i
 <tr class="odd">
 <td>Om de voorkeurstaal van een klant in te stellen, volgt u deze stappen:
 <ol>  
-<li>Klik op <strong>Verkoop en marketing</strong> &gt; <strong>Algemeen</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle</strong>  <strong>klanten</strong>.</li>
+<li>Klik op <strong>Verkoop en marketing</strong> &gt; <strong>Algemeen</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle</strong> <strong>klanten</strong>.</li>
 <li>Dubbelklik op een klant om de pagina <strong>Klanten</strong> te openen. Selecteer op het tabblad <strong>Algemeen</strong> in het veld <strong>Taal</strong> de <strong>taal</strong>.</li>
 </ol></td>
 </tr>
@@ -116,9 +116,9 @@ Uw bedrijf maakt T-shirts in verschillende stijlen en elke stijl is beschikbaar 
 Een dimensiewaarde die aan een product is gekoppeld door een dimensievariantgroep moet worden beheerd vanaf de productvariantgroep.   
 Volg deze stappen om een dimensiewaardegroep te maken:
 1.  Klik op **Productgegevensbeheer** &gt; **Instellen** &gt; **Variantgroepen**.
-2.  Selecteer **Groottegroepen******, **Kleurgroepen** of **Stijlgroepen**.
+2.  Selecteer **Groottegroepen**, **Kleurgroepen** of **Stijlgroepen**.
 3.  Klik op **Nieuw**, en typ vervolgens een naam voor de groep in het veld **Grootte****groep**, **Kleurgroep** of  **Stijlgroep**. Klik op **Afmetingen**, **Kleuren** of **Stijlen** om regels voor de groepen te maken.
-4.  Klik op de pagina **Groottegroepregels**, **Kleurgroepregels**, of **Stijlgroepregels** op **Nieuw**, en maak de grootte, de kleuren en de stijlen voor de groepen.************
+4.  Klik op de pagina **Groottegroepregels**, **Kleurgroepregels**, of **Stijlgroepregels** op **Nieuw**, en maak de grootte, de kleuren en de stijlen voor de groepen.
 
 Om vertalingen voor waarden in een dimensiewaardegroep te beheren, volgt u deze stappen:
 1.  Volg de stappen in de vorige procedure om een dimensiewaardegroep te maken om de pagina **Groottegroepregels**, **Kleurgroepregels** of **Stijlgroepregels** te openen.

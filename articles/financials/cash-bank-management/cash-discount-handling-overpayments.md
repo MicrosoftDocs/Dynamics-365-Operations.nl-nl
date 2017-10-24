@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -41,7 +40,7 @@ Een factuur wordt beschouwd als overbetaald wanneer het betaalde bedrag hoger is
 | 105,00        | EUR 10,50                   | EUR 94,50                                               | EUR 95,00                             |
 
 ## <a name="cash-discount-administration--specific"></a>Administratie voor contantkorting = Specifiek
-Wanneer **Specifiek** is geselecteerd in het veld **Administratie voor contantkorting** op de pagina **Rekeningen voor automatische transacties**, wordt de volledige contantkorting opgehaald. Het overbetalingsbedrag wordt geboekt naar een grootboekrekening voor contantkortingsverschillen of het wordt saldo op de klantrekening. Het gedrag is afhankelijk van de vraag of het overbetalingsbedrag ligt tussen 0,00 en het bedrag dat is ingevoerd in het veld**Max. te veel/te weinig betaald bedrag**, of dat het overbetalingsbedrag meer is dan het bedrag van **Max. te veel/te weinig betaald bedrag**.
+Wanneer **Specifiek** is geselecteerd in het veld **Administratie voor contantkorting** op de pagina **Rekeningen voor automatische transacties**, wordt de volledige contantkorting opgehaald. Het overbetalingsbedrag wordt geboekt naar een grootboekrekening voor contantkortingsverschillen of het wordt saldo op de klantrekening. Het gedrag is afhankelijk van de vraag of het overbetalingsbedrag ligt tussen 0,00 en het bedrag dat is ingevoerd in het veld **Max. te veel/te weinig betaald bedrag**, of dat het overbetalingsbedrag meer is dan het bedrag van **Max. te veel/te weinig betaald bedrag**.
 
 ### <a name="scenario-1"></a>Scenario 1
 
@@ -102,7 +101,7 @@ Het overbetalingsbedrag van €0,50 wordt als saldo op de betaling weergegeven e
 
 | Rekening                                                                                          | Debetbedrag | Creditbedrag |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina**Contantkortingen**) | EUR 10,50        |               |
+| Contantkorting (het veld **Hoofdrekening voor klantkortingen** op de pagina **Contantkortingen**) | EUR 10,50        |               |
 | Klanten                                                                              |              | EUR 10,50         |
 
 ## <a name="cash-discount-administration--unspecific"></a>Administratie voor contantkorting = Flexibel

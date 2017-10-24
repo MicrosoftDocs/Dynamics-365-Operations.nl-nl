@@ -16,13 +16,13 @@ ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -79,7 +79,7 @@ Bouwstenen zijn de rijdefinities, kolomdefinities, rapportagestructuurdefinities
 
 Nadat u een bouwsteengroep hebt gemaakt, moet u deze toewijzen aan ten minste één bedrijf. U kunt vervolgens rapport-, rij-, kolom- en rapportagestructuurdefinities maken en in de bouwsteengroep opslaan. U moet alle bouwstenen afsluiten voordat u de volgende procedure start.
 1.  Klik in Report Designer in het menu **Bedrijf** op **Bedrijven**.
-2.  Selecteer in het dialoogvenster **Bedrijven** het bedrijf waaraan u een bouwsteengroep toewijst.
+2.  Selecteer in het dialoogvenster **Bedrijven** het bedrijf waaraan u een bouwsteengroep wilt toewijzen.
 3.  Klik op **Wijzigen**.
 4.  Selecteer in het dialoogvenster **Bedrijf aanpassen** in het veld **Bouwsteengroep** de bouwsteengroep waaraan u het bedrijf wilt toewijzen en klik op **Nieuw** om een nieuwe bouwsteengroep te maken.
 5.  Klik op **OK** om de bouwsteengroep toe te wijzen.
@@ -104,12 +104,12 @@ U kunt een bestaande bouwsteengroep opslaan onder een nieuwe naam. U kunt vervol
 
 ### <a name="export-a-building-block-group"></a>Een bouwsteengroep exporteren
 
-U kunt een groep bouwstenen of bepaalde rapportbouwstenen in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt ook de geëxporteerde gegevens tussen bouwsteengroepen of Finance and Operations-installaties kopiëren. Rapportontwerper bevat de lettertypen en de dimensiesets waarnaar wordt verwezen, samen met de bouwsteengroep.
+U kunt een bouwsteengroup of een specifiek bouwstenenrapport in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt ook de geëxporteerde gegevens tussen bouwsteengroepen of Finance and Operations-installaties kopiëren. Rapportontwerper bevat de lettertypen en de dimensiesets waarnaar wordt verwezen, samen met de bouwsteengroep.
 1.  Klik in Report Designer in het menu **Bedrijf** op **Bouwsteengroepen**.
-2.  Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteengroep die u wilt exporteren en klik dan op **Exporteren**.
+2.  Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteengroep die u wilt exporteren en klik vervolgens op **Exporteren**.
 3.  Selecteer in het dialoogvenster **Exporteren** de te exporteren rapportdefinities:
     -   Om al uw rapportdefinities en de gekoppelde bouwstenen te exporteren klikt u op **Alles selecteren**.
-    -   U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiesets exporteren door op het gewenste tabblad te klikken en vervolgens de te exporteren items selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere items op een tabblad te selecteren. **Opmerking:** Als u te exporteren rapporten selecteert, worden de gekoppelde rijen, kolommen, structuren en dimensiesets geselecteerd.
+    -   U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiesets exporteren door op het gewenste tabblad te klikken en vervolgens de te exporteren items selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere artikelen op een tabblad te selecteren. **Opmerking:** wanneer u rapporten selecteert om te exporteren, worden de bijbehorende rijen, kolommen, structuren en dimensiegroepen ook geselecteerd.
 
 4.  Wanneer u klaar bent met het selecteren van te exporteren artikelen, klikt u op **Exporteren**.
 5.  Selecteer in het dialoogvenster **Opslaan als** een locatie om de bouwsteengroep naar te exporteren.
@@ -120,8 +120,8 @@ U kunt een groep bouwstenen of bepaalde rapportbouwstenen in een bouwsteengroep 
 
 U kunt een bouwsteengroep importeren in een bestaande bouwsteengroep of u kunt een nieuwe bouwsteengroep voor de gegevens maken. Alle geïmporteerde bouwsteengroepen behouden hun oorspronkelijke tekenstijlen en bedrijfsverwijzingen en bevatten de relevante dimensiesets.
 1.  Klik in Report Designer in het menu **Bedrijf** op **Bouwsteengroepen**.
-2.  Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteen waarin u een bouwsteengroep wilt importeren en klik dan op **Importeren**.
-3.  Selecteer in het dialoogvenster **Openen** de bouwsteengroep die u wilt importeren en klik dan op **Openen**.
+2.  Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteengroep waarin u een bouwsteengroep wilt importeren en klik vervolgens op **Importeren**.
+3.  Selecteer in het dialoogvenster **Openen** de bouwsteengroep die u wilt importeren en klik vervolgens op **Openen**.
 4.  Selecteer in het dialoogvenster **Importeren** de te importeren rapportdefinities:
     -   Als u alle rapportdefinities en de ondersteunende bouwstenen wilt importeren, klikt u op **Alles selecteren**.
     -   Om specifieke rapporten, rijen, kolommen, structuren of dimensiesets te importeren, selecteert u de te importeren rapporten, rijen, kolommen, structuren of dimensiesets.
@@ -132,7 +132,7 @@ U kunt een bouwsteengroep importeren in een bestaande bouwsteengroep of u kunt e
 
 Wanneer u een bouwsteen opent, hebben andere gebruikers alleen-lezen toegang tot die bouwsteen. Soms vergeten gebruikers om een bouwsteen te sluiten of zij sluit het systeem af zonder de bouwsteen te sluiten. Daarom blijft de bouwsteen uitgecheckt en kunnen andere gebruikers deze niet openen. In deze gevallen kan een beheerder voor financiële rapportage het dialoogvenster **Uitgecheckte artikelen** gebruiken om bouwstenen in te checken die gebruikers uitgecheckt hebben gelaten. **Opmerking:** u moet de rol van beheerder hebben om bouwstenen te kunnen inchecken via het dialoogvenster **Uitgecheckte artikelen**.
 1.  Klik in Report Designer in het menu **Extra** op **Uitgecheckte artikelen**.
-2.  In het dialoogvenster **Uitgecheckte artikelen** selecteert u **Artikelen weergeven van alle gebruikers**. De lijst wordt bijgewerkt om alle bouwstenen die zijn uitgecheckt en de gebruikers die deze hebben uitgecheckt weer te geven.
+2.  Schakel in het dialoogvenster **Uitgecheckte items** het selectievakje **Items van alle gebruikers weergeven** in. De lijst wordt bijgewerkt en u ziet alle uitgecheckte bouwstenen en door wie deze zijn uitgecheckt.
 3.  Selecteer een bouwsteen en klik op **Uitchecken ongedaan maken**.
 4.  Klik op **Ja** om de te bouwsteen in te checken.
 

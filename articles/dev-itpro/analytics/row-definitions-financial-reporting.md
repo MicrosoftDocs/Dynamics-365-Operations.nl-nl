@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,8 +68,8 @@ Een dimensie is een snijpunt van gegevens en waarden. U kunt gegevens en waarden
 | Optie                | Beschrijving                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dimensie             | Het patroon dat de dimensie identificeert die aan de rijdefinitie moet worden toegevoegd. Dit patroon bevat één en-teken (&) of hekje (\#) voor elke positie in de dimensies. Gebruik in het algemeen allemaal en-tekens voor de dimensie Hoofdrekening en allemaal hekjes voor andere dimensies. |
-| Begin van dimensiebereik | De eerste waarde voor deze dimensie die aan de rijdefinitie moet worden toegevoegd.                                                                                                                                                                                                                 |
-| Einde van dimensiebereik   | De laatste waarde voor deze dimensie die aan de rijdefinitie moet worden toegevoegd.                                                                                                                                                                                                                  |
+| Begin dimensiebereik | De eerste waarde voor de dimensie om aan de rijdefinitie toe te voegen.                                                                                                                                                                                                                 |
+| Einde dimensiebereik   | De laatste waarde voor deze dimensie die aan de rijdefinitie moet worden toegevoegd.                                                                                                                                                                                                                  |
 
 Als u dimensies wilt toevoegen aan een rijdefinitie, volgt u deze stappen.
 
@@ -93,7 +93,7 @@ Wanneer u een balans hebt waarin de bedragen worden afgerond, zijn de totalen mo
 Als u afronding in een balans wilt aanpassen, volgt u deze stappen.
 
 1.  Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
-2.  Klik in het menu **Bewerken** op **Afrondingscorrecties**.
+2.  Klik in het menu **Bewerken** op **Afrondingscorrectie**.
 3.  Voer in het dialoogvenster **Afrondingscorrecties** de volgende waarden in:
     -   **Rij Afrondingscorrectie** - De rijcode voor de rij die moet worden aangepast om de balans in evenwicht te brengen.
     -   **Rij Totale activa** - de rijcode voor de rij in de balans die de totale activa bevat.
@@ -121,23 +121,23 @@ U kunt lettertypen maken en wijzigen voor uw rapport. U kunt deze stijlen vervol
 <td>Een tekenstijl maken</td>
 <td><ol>
 <li>Klik in Report Designer in het menu <strong>Opmaak</strong> op <strong>Stijlen en opmaak</strong>.</li>
-<li>Klik in het dialoogvenster <strong>Stijlen en opmaak</strong> op <strong>Nieuw</strong> en voer een unieke naam voor de nieuwe stijl in.</li>
-<li>Selecteer de gewenste lettertypen en klik op <strong>OK</strong>.</li>
+<li>Klik op <strong>Nieuw</strong> in het dialoogvenster <strong>Stijlen en opmaak</strong> en voer een unieke naam voor de nieuwe stijl in.</li>
+<li>Selecteer de gewenste instellingen voor de tekenstijl en klik op <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Een tekenstijl wijzigen</td>
 <td><ol>
 <li>Klik in Report Designer in het menu <strong>Opmaak</strong> op <strong>Stijlen en opmaak</strong>.</li>
-<li>Selecteer in het dialoogvenster <strong>Stijlen en opmaak</strong> een stijl om te wijzigen en klik vervolgens op <strong>Wijzigen</strong>.</li>
-<li>Selecteer de gewenste lettertypen en klik op <strong>OK</strong>.</li>
+<li>Selecteer in het dialoogvenster <strong>Stijlen en opmaak</strong> de stijl die u wilt wijzigen en klik vervolgens op <strong>Wijzigen</strong>.</li>
+<li>Selecteer de gewenste instellingen voor de tekenstijl en klik op <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Een tekenstijl toepassen</td>
 <td><ol>
 <li>Selecteer in Report Designer in een definitie of kolomdefinitie of in kop- en voetteksten een of meer cellen.</li>
-<li>Selecteer een stijl in de lijst <strong>Stijl</strong> in de werkbalk.</li>
+<li>Selecteer een tekenstijl in de lijst <strong>Stijl</strong> op de werkbalk.</li>
 </ol></td>
 </tr>
 </tbody>

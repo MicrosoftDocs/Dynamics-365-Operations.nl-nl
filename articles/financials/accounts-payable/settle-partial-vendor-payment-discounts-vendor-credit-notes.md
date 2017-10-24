@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f227a630f7d1245d5db810d6d48df2b20f699185
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb61a3dd6534cd20f311b5b0c85b9e712981a5dd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -60,7 +60,7 @@ April klikt op **Boeken**. Ze controleert vervolgens de voltooide vereffening. A
 | Geselecteerd en gemarkeerd | Normaal            | Factuur-10070 | 3050    | 6/29/2015 | 7/29/2015 | 10070    | -1.000,00                      | USD      | -200,00          |
 | Geselecteerd                 | Normaal            | CR-10070  | 3050    | 7/2/2015  | 7/29/2015 | CR-10070 | 200,00                         | USD      | 198,00           |
 
-April kan de leveranciertransacties op de pagina **Leveranciertransacties** controleren door een leverancier op de pagina **Alle leveranciers**te selecteren en vervolgens in het Actievenster te klikken op **Transacties**. Op deze pagina ziet April dat de factuur een saldo van -800,00 heeft. Ze ziet ook een creditnota voor 198,00 en een korting van 2,00.
+April kan de leveranciertransacties op de pagina **Leveranciertransacties** controleren door een leverancier op de pagina **Alle leveranciers** te selecteren en vervolgens in het Actievenster te klikken op **Transacties**. Op deze pagina ziet April dat de factuur een saldo van -800,00 heeft. Ze ziet ook een creditnota voor 198,00 en een korting van 2,00.
 
 | Boekstuk    | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

@@ -15,13 +15,13 @@ ms.custom: 104233
 ms.assetid: 2a2ffa1e-5a15-4e2a-b18c-c4d890d38a50
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a613f5a84a7c72da3cc76eac147d4754f6259e4c
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8b5437e5652ca5111ded89cb3417db46ab4b45af
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -69,7 +69,7 @@ De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld v
 | Een ER-configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling         | Algemeen         |
 | Elektronische ER-documenten genereren voor betalingen met een indelingsconfiguratie | Globaal         |
 | Een ER-configuratie vanuit Lifecycle Services importeren                          | Globaal         |
-| **\***ER Serviceprovider selecteren                                           | Globaal         |
+| **\*** ER Serviceprovider selecteren                                           | Globaal         |
 | Uw ER-indeling upgraden door een nieuwe basisversie van die indeling aan te nemen      | Algemeen         |
 | Een ER-configuratie naar Lifecycle Services uploaden                          | Algemeen         |
 
@@ -180,12 +180,12 @@ De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld v
 | BPM-regel                                                            | Land/regio |
 |---------------------------------------------------------------------|----------------|
 | Waveverwerking configureren                                           | Globaal         |
-| **\***Gereedmelden bij een locatie die niet door nummerplaten wordt gecontroleerd | Algemeen         |
+| **\*** Gereedmelden bij een locatie die niet door nummerplaten wordt gecontroleerd | Algemeen         |
 | Een min./max. aanvullingsproces instellen                              | Algemeen         |
 | Containervorming instellen                                             | Algemeen         |
 | Handmatige verpakking instellen                                               | Globaal         |
 | Transportbeperkingen voor een artikel instellen                       | Globaal         |
-| **\***Werkbeleid voor magazijn instellen                                | Globaal         |
+| **\*** Werkbeleid voor magazijn instellen                                | Globaal         |
 
 
 

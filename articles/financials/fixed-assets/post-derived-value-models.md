@@ -16,13 +16,13 @@ ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: aaacf596f2ea1107a53647d779e9d2b6c37ab530
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ Hieronder wordt beschreven hoe u verwervingsmethoden instelt met de functionalit
     -   Het boek voor boekhouding: VM 1, huidige boekingslaag
     -   Het boek voor belasting: VM 2, boekingslaag belasting
 
-2.  Klik in VM 1 op het tabblad Afgeleide boeken. Selecteer VM 2 in het veld Boek en Verwerving in het veld Transactietype.
+2.  Klik voor VM 1 op het tabblad Afgeleide boeken. Selecteer VM 2 in het veld Boek en Verwerving in het veld Transactietype.
 
 De boeken kunnen aan een specifieke vaste activa worden gekoppeld. 
 

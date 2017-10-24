@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9c0ae4ed27578301573bead17ff2175bb9042036
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -131,7 +130,7 @@ De functie **Naar scenario kopiëren** functie biedt deze functionaliteit. Merk 
 
 ### <a name="modifying-forecast-positions"></a>Prognoseposities wijzigen
 
-Wijzigingen die zijn gemaakt om posities te prognosticeren, zijn beperkt tot die prognoseposities. De wijzigingen beïnvloeden niet de Positierecords in Human resources. De meeste wijzigingen zijn ook beperkt tot de prognosepositie die wordt bewerkt. Met andere woorden, de wijzigingen zijn specifiek voor het budgetplanningsproces en het budgetplanscenario die zijn toegewezen. De uitzonderingen zijn wijzigingen aan velden die voor de positie over processen en scenario's worden gedeeld. Deze velden omvatten de velden op het tabblad **Algemeen** en het tabblad **Financiële dimensies**. Als deze velden worden gewijzigd, gelden de nieuwe waarden in de positie in alle budgetplanscenario's. Daarom kunt u met deze velden snel alle versies bijwerken.
+Wijzigingen die zijn gemaakt om posities te prognosticeren, zijn beperkt tot die prognoseposities. De wijzigingen beïnvloeden niet de Positierecords in Human resources. De meeste wijzigingen zijn ook beperkt tot de prognosepositie die wordt bewerkt. Met andere woorden, de wijzigingen zijn specifiek voor het budgetplanningsproces en het budgetplanscenario die zijn toegewezen. De uitzonderingen zijn wijzigingen aan velden die voor de positie over processen en scenario's worden gedeeld. Deze velden omvatten de velden op het tabblad **Algemeen** en het tabblad **Financiële dimensies**. Als deze velden worden gewijzigd, gelden de nieuwe waarden op de positie in alle budgetplanningscenario's. Daarom kunt u met deze velden snel alle versies bijwerken.
 
 #### <a name="budget-cost-elements"></a>Budgetkostenelementen
 
