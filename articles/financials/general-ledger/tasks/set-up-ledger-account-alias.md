@@ -16,28 +16,28 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 134d7249abe7c97ee0e9604a86de4f1c98c0e9e1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="e8f32-103">Een alias voor een grootboekrekening instellen</span><span class="sxs-lookup"><span data-stu-id="e8f32-103">Set up a ledger account alias</span></span>
+# <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="d9411-103">Een alias voor een grootboekrekening instellen</span><span class="sxs-lookup"><span data-stu-id="d9411-103">Set up a ledger account alias</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e8f32-104">Deze procedure toont hoe u een rekeningalias kunt maken die een snelkoppeling voor het invoeren van een rekeningnummer bevat.</span><span class="sxs-lookup"><span data-stu-id="e8f32-104">This procedure shows how to create an account alias that provides a shortcut for entering an account number.</span></span> <span data-ttu-id="e8f32-105">Bij deze procedure wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="e8f32-105">This procedure users demo data company USMF.</span></span>
+<span data-ttu-id="d9411-104">Deze procedure toont hoe u een rekeningalias kunt maken die een snelkoppeling voor het invoeren van een rekeningnummer bevat.</span><span class="sxs-lookup"><span data-stu-id="d9411-104">This procedure shows how to create an account alias that provides a shortcut for entering an account number.</span></span> <span data-ttu-id="d9411-105">Bij deze procedure wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="d9411-105">This procedure users demo data company USMF.</span></span>
 
-1. <span data-ttu-id="e8f32-106">Ga naar Grootboek > Rekeningschema > Rekeningen > Alias voor grootboekrekening.</span><span class="sxs-lookup"><span data-stu-id="e8f32-106">Go to General ledger > Chart of accounts > Accounts > Ledger account alias.</span></span>
-2. <span data-ttu-id="e8f32-107">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="e8f32-107">Click New.</span></span>
-3. <span data-ttu-id="e8f32-108">Typ een waarde in het veld Alias voor grootboekrekening.</span><span class="sxs-lookup"><span data-stu-id="e8f32-108">In the Ledger account alias field, type a value.</span></span>
-4. <span data-ttu-id="e8f32-109">Selecteer in het veld Rekeningstructuur de structuur waartoe de rekening en dimensies behoren.</span><span class="sxs-lookup"><span data-stu-id="e8f32-109">In the Account structure field, select the structure the account and dimensions belong to.</span></span>
-5. <span data-ttu-id="e8f32-110">Klik in het veld Bedrijf op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e8f32-110">In the Company field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="e8f32-111">Zoek en selecteer in de lijst het bedrijf waarop de alias van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="e8f32-111">In the list, find and select the company that the alias applies to.</span></span>
-7. <span data-ttu-id="e8f32-112">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="e8f32-112">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="e8f32-113">Geef de rekening en dimensies op in het veld Definitie van alias van grootboekrekening.</span><span class="sxs-lookup"><span data-stu-id="e8f32-113">In the Ledger account alias definition field, specify the account and dimensions.</span></span>
-    * <span data-ttu-id="e8f32-114">De rekening en dimensies worden ingevuld bij gebruik van de snelkoppeling.</span><span class="sxs-lookup"><span data-stu-id="e8f32-114">The account and dimensions will be populated when using the shortcut.</span></span>  
-9. <span data-ttu-id="e8f32-115">Selecteer in het veld Beginfocus de dimensie die de focus zal hebben wanneer de alias wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="e8f32-115">In the Initial focus field, select the dimension that will have focus when the alias is used.</span></span>
-    * <span data-ttu-id="e8f32-116">Nadat u de snelkoppeling hebt getypt en de rekening en dimensies zijn ingevuld, bevindt het veld Beginfocus zich waar de cursor of focus naartoe wordt verplaatst.</span><span class="sxs-lookup"><span data-stu-id="e8f32-116">After you type the shortcut, and the account and dimensions are populated, the Initial focus field is where the cursor or focus will move to.</span></span>  
+1. <span data-ttu-id="d9411-106">Ga naar Grootboek > Rekeningschema > Rekeningen > Alias voor grootboekrekening.</span><span class="sxs-lookup"><span data-stu-id="d9411-106">Go to General ledger > Chart of accounts > Accounts > Ledger account alias.</span></span>
+2. <span data-ttu-id="d9411-107">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d9411-107">Click New.</span></span>
+3. <span data-ttu-id="d9411-108">Typ een waarde in het veld Alias voor grootboekrekening.</span><span class="sxs-lookup"><span data-stu-id="d9411-108">In the Ledger account alias field, type a value.</span></span>
+4. <span data-ttu-id="d9411-109">Selecteer in het veld Rekeningstructuur de structuur waartoe de rekening en dimensies behoren.</span><span class="sxs-lookup"><span data-stu-id="d9411-109">In the Account structure field, select the structure the account and dimensions belong to.</span></span>
+5. <span data-ttu-id="d9411-110">Klik in het veld Bedrijf op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="d9411-110">In the Company field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="d9411-111">Zoek en selecteer in de lijst het bedrijf waarop de alias van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="d9411-111">In the list, find and select the company that the alias applies to.</span></span>
+7. <span data-ttu-id="d9411-112">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d9411-112">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="d9411-113">Geef de rekening en dimensies op in het veld Definitie van alias van grootboekrekening.</span><span class="sxs-lookup"><span data-stu-id="d9411-113">In the Ledger account alias definition field, specify the account and dimensions.</span></span>
+    * <span data-ttu-id="d9411-114">De rekening en dimensies worden ingevuld bij gebruik van de snelkoppeling.</span><span class="sxs-lookup"><span data-stu-id="d9411-114">The account and dimensions will be populated when using the shortcut.</span></span>  
+9. <span data-ttu-id="d9411-115">Selecteer in het veld Beginfocus de dimensie die de focus zal hebben wanneer de alias wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="d9411-115">In the Initial focus field, select the dimension that will have focus when the alias is used.</span></span>
+    * <span data-ttu-id="d9411-116">Nadat u de snelkoppeling hebt getypt en de rekening en dimensies zijn ingevuld, bevindt het veld Beginfocus zich waar de cursor of focus naartoe wordt verplaatst.</span><span class="sxs-lookup"><span data-stu-id="d9411-116">After you type the shortcut, and the account and dimensions are populated, the Initial focus field is where the cursor or focus will move to.</span></span>  
 
 

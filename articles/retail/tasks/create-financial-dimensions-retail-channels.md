@@ -17,42 +17,42 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 56b586e971cfd4684f3c0b259270cc8b31521ac9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a><span data-ttu-id="2e125-103"> Financiële dimensies maken voor detailhandelskanalen en dimensiewaarden configureren voor winkels</span><span class="sxs-lookup"><span data-stu-id="2e125-103">Create financial dimensions for Retail channels and configure dimension values on stores</span></span>
+# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a><span data-ttu-id="ddf2e-103"> Financiële dimensies maken voor detailhandelskanalen en dimensiewaarden configureren voor winkels</span><span class="sxs-lookup"><span data-stu-id="ddf2e-103">Create financial dimensions for Retail channels and configure dimension values on stores</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2e125-104">Deze procedure doorloopt het maken van een financiële dimensie voor een detailhandelkanaal met dimensiewaarden en stappen om waarden van financiële dimensies voor detailhandelwinkels te configureren.</span><span class="sxs-lookup"><span data-stu-id="2e125-104">This procedure walks through creating a retail channel financial dimension with dimension values and steps to configure financial dimension values on retail stores.</span></span> <span data-ttu-id="2e125-105">Het onderwerp omvat geen andere gerelateerde stappen, zoals het maken van dimensiesets en rekeningstructuren.</span><span class="sxs-lookup"><span data-stu-id="2e125-105">The topic does not include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="2e125-106">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="2e125-106">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="ddf2e-104">Deze procedure doorloopt het maken van een financiële dimensie voor een detailhandelkanaal met dimensiewaarden en stappen om waarden van financiële dimensies voor detailhandelwinkels te configureren.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-104">This procedure walks through creating a retail channel financial dimension with dimension values and steps to configure financial dimension values on retail stores.</span></span> <span data-ttu-id="ddf2e-105">Het onderwerp omvat geen andere gerelateerde stappen, zoals het maken van dimensiesets en rekeningstructuren.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-105">The topic does not include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="ddf2e-106">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-106">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="2e125-107">Ga naar Grootboek > Rekeningschema > Dimenies > Financiële dimensies.</span><span class="sxs-lookup"><span data-stu-id="2e125-107">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
-2. <span data-ttu-id="2e125-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="2e125-108">Click New.</span></span>
-3. <span data-ttu-id="2e125-109">Selecteer 'Detailhandelskanalen' in het veld Waarden gebruiken van.</span><span class="sxs-lookup"><span data-stu-id="2e125-109">In the Use values from field, select 'Retail channels'.</span></span>
-4. <span data-ttu-id="2e125-110">Typ een waarde in het veld Dimensienaam.</span><span class="sxs-lookup"><span data-stu-id="2e125-110">In the Dimension name field, type a value.</span></span>
-5. <span data-ttu-id="2e125-111">Klik op Activeren.</span><span class="sxs-lookup"><span data-stu-id="2e125-111">Click Activate.</span></span>
-6. <span data-ttu-id="2e125-112">Klik op Sluiten.</span><span class="sxs-lookup"><span data-stu-id="2e125-112">Click Close.</span></span>
-7. <span data-ttu-id="2e125-113">Klik op Activeren.</span><span class="sxs-lookup"><span data-stu-id="2e125-113">Click Activate.</span></span>
-8. <span data-ttu-id="2e125-114">Klik op Dimensiewaarden.</span><span class="sxs-lookup"><span data-stu-id="2e125-114">Click Dimension values.</span></span>
-9. <span data-ttu-id="2e125-115">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="2e125-115">Close the page.</span></span>
-10. <span data-ttu-id="2e125-116">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="2e125-116">Click Save.</span></span>
-11. <span data-ttu-id="2e125-117">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="2e125-117">Close the page.</span></span>
-12. <span data-ttu-id="2e125-118">Ga naar Detailhandel en commerce > Kanalen > Detailhandelwinkels > Alle detailhandelwinkels.</span><span class="sxs-lookup"><span data-stu-id="2e125-118">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
-13. <span data-ttu-id="2e125-119">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="2e125-119">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="2e125-120">Schakel de uitbreiding van de sectie Financiële dimensies om.</span><span class="sxs-lookup"><span data-stu-id="2e125-120">Toggle the expansion of the Financial dimensions section.</span></span>
-15. <span data-ttu-id="2e125-121">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="2e125-121">Click Edit.</span></span>
-16. <span data-ttu-id="2e125-122">Klik in het veld Detailhandelskanaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="2e125-122">In the Retailchannel field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="2e125-123">Zoek en selecteer in de lijst de dimensiewaarde voor de winkel die wordt bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="2e125-123">In the list, find and select the dimension value for the store being updated.</span></span>
-18. <span data-ttu-id="2e125-124">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="2e125-124">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="2e125-125">Klik in het veld Kostenplaats op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="2e125-125">In the CostCenter field, click the drop-down button to open the lookup.</span></span>
-20. <span data-ttu-id="2e125-126">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="2e125-126">In the list, find and select the desired record.</span></span>
-21. <span data-ttu-id="2e125-127">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="2e125-127">In the list, click the link in the selected row.</span></span>
-22. <span data-ttu-id="2e125-128">Klik in het veld Afdeling op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="2e125-128">In the Department field, click the drop-down button to open the lookup.</span></span>
-23. <span data-ttu-id="2e125-129">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="2e125-129">In the list, find and select the desired record.</span></span>
-24. <span data-ttu-id="2e125-130">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="2e125-130">In the list, click the link in the selected row.</span></span>
-25. <span data-ttu-id="2e125-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="2e125-131">Click Save.</span></span>
+1. <span data-ttu-id="ddf2e-107">Ga naar Grootboek > Rekeningschema > Dimenies > Financiële dimensies.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-107">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
+2. <span data-ttu-id="ddf2e-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-108">Click New.</span></span>
+3. <span data-ttu-id="ddf2e-109">Selecteer 'Detailhandelskanalen' in het veld Waarden gebruiken van.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-109">In the Use values from field, select 'Retail channels'.</span></span>
+4. <span data-ttu-id="ddf2e-110">Typ een waarde in het veld Dimensienaam.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-110">In the Dimension name field, type a value.</span></span>
+5. <span data-ttu-id="ddf2e-111">Klik op Activeren.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-111">Click Activate.</span></span>
+6. <span data-ttu-id="ddf2e-112">Klik op Sluiten.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-112">Click Close.</span></span>
+7. <span data-ttu-id="ddf2e-113">Klik op Activeren.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-113">Click Activate.</span></span>
+8. <span data-ttu-id="ddf2e-114">Klik op Dimensiewaarden.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-114">Click Dimension values.</span></span>
+9. <span data-ttu-id="ddf2e-115">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-115">Close the page.</span></span>
+10. <span data-ttu-id="ddf2e-116">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-116">Click Save.</span></span>
+11. <span data-ttu-id="ddf2e-117">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-117">Close the page.</span></span>
+12. <span data-ttu-id="ddf2e-118">Ga naar Detailhandel en commerce > Kanalen > Detailhandelwinkels > Alle detailhandelwinkels.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-118">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
+13. <span data-ttu-id="ddf2e-119">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-119">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="ddf2e-120">Schakel de uitbreiding van de sectie Financiële dimensies om.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-120">Toggle the expansion of the Financial dimensions section.</span></span>
+15. <span data-ttu-id="ddf2e-121">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-121">Click Edit.</span></span>
+16. <span data-ttu-id="ddf2e-122">Klik in het veld Detailhandelskanaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-122">In the Retailchannel field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="ddf2e-123">Zoek en selecteer in de lijst de dimensiewaarde voor de winkel die wordt bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-123">In the list, find and select the dimension value for the store being updated.</span></span>
+18. <span data-ttu-id="ddf2e-124">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-124">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="ddf2e-125">Klik in het veld Kostenplaats op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-125">In the CostCenter field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="ddf2e-126">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-126">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="ddf2e-127">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-127">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="ddf2e-128">Klik in het veld Afdeling op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-128">In the Department field, click the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="ddf2e-129">Zoek en selecteer het gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-129">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="ddf2e-130">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-130">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="ddf2e-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="ddf2e-131">Click Save.</span></span>
 
 

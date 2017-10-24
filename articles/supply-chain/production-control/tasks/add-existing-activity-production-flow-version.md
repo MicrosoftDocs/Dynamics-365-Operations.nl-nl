@@ -1,0 +1,58 @@
+--- 
+title: Een bestaande activiteit toevoegen aan een productiestroomversie
+description: Bij het maken van nieuwe versies van productiestromen, kunt u kiezen om activiteiten die voor de oudere versies zijn gemaakt, aan de nieuwe versie toe te voegen.
+author: cvocph
+manager: AnnBe
+ms.date: 10/26/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Operations
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: conradv
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: a74fb34db71ba4b539c1b6ede361329aaeb94920
+ms.contentlocale: nl-nl
+ms.lasthandoff: 09/29/2017
+
+---
+# <a name="add-an-existing-activity-to-a-production-flow-version"></a><span data-ttu-id="31b5c-103">Een bestaande activiteit toevoegen aan een productiestroomversie</span><span class="sxs-lookup"><span data-stu-id="31b5c-103">Add an existing activity to a production flow version</span></span>
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="31b5c-104">Bij het maken van nieuwe versies van productiestromen, kunt u kiezen om activiteiten die voor de oudere versies zijn gemaakt, aan de nieuwe versie toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="31b5c-104">When creating new versions of production flows, you can choose to add activities created for the older versions, to the new version.</span></span> <span data-ttu-id="31b5c-105">Deze procedure laat zien hoe een nieuwe versie voor een bestaande productiestroom wordt gemaakt, zonder de activiteiten te kopiëren.</span><span class="sxs-lookup"><span data-stu-id="31b5c-105">This procedure shows how a new version is created for an existing production flow, without copying the activities.</span></span> <span data-ttu-id="31b5c-106">In de volgende stap wordt een bestaande activiteit toegevoegd aan de nieuwe versie.</span><span class="sxs-lookup"><span data-stu-id="31b5c-106">In the next step, an existing activity is added to the new version.</span></span> 
+
+<span data-ttu-id="31b5c-107">Deze taak vereist dat er al een productiestroom met versie en activiteiten is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="31b5c-107">This task requires production flow with version and activities already created.</span></span>
+
+
+## <a name="create-a-new-production-flow-version"></a><span data-ttu-id="31b5c-108">Een nieuwe productiestroomversie maken</span><span class="sxs-lookup"><span data-stu-id="31b5c-108">Create a new production flow version</span></span>
+1. <span data-ttu-id="31b5c-109">Ga naar Productiebeheer > Instellingen > Lean productiestroom > Productiestromen.</span><span class="sxs-lookup"><span data-stu-id="31b5c-109">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="31b5c-110">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="31b5c-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="31b5c-111">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="31b5c-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="31b5c-112">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="31b5c-112">Click Edit.</span></span>
+5. <span data-ttu-id="31b5c-113">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="31b5c-113">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="31b5c-114">Voer in het veld Vervaldatum een datum en tijd in.</span><span class="sxs-lookup"><span data-stu-id="31b5c-114">In the Expiration date field, enter a date and time.</span></span>
+    * <span data-ttu-id="31b5c-115">Let op dat voordat u een nieuwe productiestroomversie maakt, u de vervaldatum en -tijd van de actieve versie moet controleren.</span><span class="sxs-lookup"><span data-stu-id="31b5c-115">Note that before you create a new production flow version, make sure to check the expiration date and time of the active version.</span></span> <span data-ttu-id="31b5c-116">De nieuwe versie wordt gemaakt met een ingangsdatum, die aan de vervaldatum van de geselecteerde versie is gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="31b5c-116">The new version will be created with an effective start date, which connects to the expiry date of the selected version.</span></span>  
+7. <span data-ttu-id="31b5c-117">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="31b5c-117">Click Add.</span></span>
+8. <span data-ttu-id="31b5c-118">Selecteer Nee in het veld Kopiëren uit versie.</span><span class="sxs-lookup"><span data-stu-id="31b5c-118">Select No in the Copy from version field.</span></span>
+    * <span data-ttu-id="31b5c-119">Selecteer Nee om met een lege versie te starten als de meeste activiteiten van de gekopieerde versie door nieuwe activiteiten worden vervangen.</span><span class="sxs-lookup"><span data-stu-id="31b5c-119">Select No to start with an empty version if most of the activities of the copied version will be replaced by new activities.</span></span> <span data-ttu-id="31b5c-120">Voeg de onveranderde activiteiten handmatig toe aan het formulier Bestaande functie toevoegen in de activiteit.</span><span class="sxs-lookup"><span data-stu-id="31b5c-120">Add the unchanged activities to the Add existing function in the activity form manually.</span></span>  
+9. <span data-ttu-id="31b5c-121">Selecteer Nee in het veld Dubbele kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="31b5c-121">Select No in the Duplicate kanban rules field.</span></span>
+    * <span data-ttu-id="31b5c-122">Wanneer de activiteiten niet naar de nieuwe versie worden gekopieerd, is het niet mogelijk om de kanbanregels op het moment van aanmaken van de nieuwe versie te kopiëren.</span><span class="sxs-lookup"><span data-stu-id="31b5c-122">When the activities are not copied to the new version, it is not possible to copy the kanban rules at the time of creation of the new version.</span></span>   <span data-ttu-id="31b5c-123">In plaats daarvan gebruikt u de functie om later een vervangende kanban te maken in het kanbanregelformulier om kanbanregels van de oude productiestroomversie te vervangen door kanbanregels met de activiteiten van de nieuwe versie.</span><span class="sxs-lookup"><span data-stu-id="31b5c-123">Instead you will use the create replacement kanban function later in the kanban rule form, to replace kanban rules of the old production flow version with kanban rules using the activities of the new version.</span></span>  
+10. <span data-ttu-id="31b5c-124">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="31b5c-124">Click OK.</span></span>
+11. <span data-ttu-id="31b5c-125">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="31b5c-125">In the list, find and select the desired record.</span></span>
+
+## <a name="add-an-existing-activity"></a><span data-ttu-id="31b5c-126">Een bestaande activiteit toevoegen</span><span class="sxs-lookup"><span data-stu-id="31b5c-126">Add an existing activity</span></span>
+1. <span data-ttu-id="31b5c-127">Klik op Activiteiten.</span><span class="sxs-lookup"><span data-stu-id="31b5c-127">Click Activities.</span></span>
+2. <span data-ttu-id="31b5c-128">Klik op Bestaand toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="31b5c-128">Click Add existing to open the drop dialog.</span></span>
+    * <span data-ttu-id="31b5c-129">Zoek en selecteer een bestaande activiteit die moet worden toegevoegd aan de nieuwe productiestroomversie.</span><span class="sxs-lookup"><span data-stu-id="31b5c-129">Find and select an existing activity to be added to the new production flow version.</span></span>  <span data-ttu-id="31b5c-130">Merk op dat de lijst alle activiteiten weergeeft die voor deze productiestroom zijn gemaakt voor alle vorige versies van de stroom.</span><span class="sxs-lookup"><span data-stu-id="31b5c-130">Note that the list shows all activities that have been created for this production flow for all previous versions of the flow.</span></span>  
+3. <span data-ttu-id="31b5c-131">Typ of selecteer een waarde in het veld Activiteit.</span><span class="sxs-lookup"><span data-stu-id="31b5c-131">In the Activity field, enter or select a value.</span></span>
+4. <span data-ttu-id="31b5c-132">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="31b5c-132">Click OK.</span></span>
+
+

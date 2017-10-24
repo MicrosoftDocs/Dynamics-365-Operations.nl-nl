@@ -17,35 +17,35 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 2b70bc95f56839da76612df2be3b35362925b977
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-a-pos-visual-profile"></a><span data-ttu-id="04e18-103"> Een visueel POS-profiel maken </span><span class="sxs-lookup"><span data-stu-id="04e18-103">Create a POS visual profile</span></span> 
+# <a name="create-a-pos-visual-profile"></a><span data-ttu-id="8f0ac-103"> Een visueel POS-profiel maken </span><span class="sxs-lookup"><span data-stu-id="8f0ac-103">Create a POS visual profile</span></span> 
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="04e18-104">Deze procedure doorloopt het maken van een nieuw visueel profiel voor een verkooppunt (POS).</span><span class="sxs-lookup"><span data-stu-id="04e18-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="04e18-105">Een visueel profiel bevat basisinformatie die het uiterlijk van POS-registers bepaalt.</span><span class="sxs-lookup"><span data-stu-id="04e18-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="04e18-106">U kunt meerdere weergaveprofielen maken en toewijzen welke profielen er op specifieke kassa's moeten worden geactiveerd.</span><span class="sxs-lookup"><span data-stu-id="04e18-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="04e18-107">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="04e18-107">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="8f0ac-104">Deze procedure doorloopt het maken van een nieuw visueel profiel voor een verkooppunt (POS).</span><span class="sxs-lookup"><span data-stu-id="8f0ac-104">This procedure walks through creating a new point of sale (POS) visual profile.</span></span> <span data-ttu-id="8f0ac-105">Een visueel profiel bevat basisinformatie die het uiterlijk van POS-registers bepaalt.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-105">A visual profile contains basic information that determines the appearance of POS registers.</span></span> <span data-ttu-id="8f0ac-106">U kunt meerdere weergaveprofielen maken en toewijzen welke profielen er op specifieke kassa's moeten worden geactiveerd.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-106">You can create several visual profiles and assign specific profiles to run on specific registers.</span></span> <span data-ttu-id="8f0ac-107">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-107">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="04e18-108">Ga naar Detailhandel en commerce > Kanaalinstellingen >POS-instellingen > POS-profielen > Visuele profielen.</span><span class="sxs-lookup"><span data-stu-id="04e18-108">Go to Retail and commerce > Channel setup > POS setup > POS profiles > Visual profiles.</span></span>
-2. <span data-ttu-id="04e18-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="04e18-109">Click New.</span></span>
-3. <span data-ttu-id="04e18-110">Typ een waarde in het veld Profielnummer.</span><span class="sxs-lookup"><span data-stu-id="04e18-110">In the Profile number field, type a value.</span></span>
-4. <span data-ttu-id="04e18-111">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="04e18-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="04e18-112">Klik in het veld Type toepassing op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="04e18-112">In the Application type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="04e18-113">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="04e18-113">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="04e18-114">Klik in het veld Thema op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="04e18-114">In the Theme field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="04e18-115">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="04e18-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="04e18-116">Klik in het veld Accentkleur op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="04e18-116">In the Accent colour field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="04e18-117">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="04e18-117">In the list, find and select the desired record.</span></span>
-11. <span data-ttu-id="04e18-118">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="04e18-118">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="04e18-119">Schakel de uitbreiding van de sectie Aanmeldingsachtergrond om.</span><span class="sxs-lookup"><span data-stu-id="04e18-119">Toggle the expansion of the Login background section.</span></span>
-13. <span data-ttu-id="04e18-120">Selecteer of typ in het veld Id van liggende afbeelding een afbeeldings-id.</span><span class="sxs-lookup"><span data-stu-id="04e18-120">In the Landscape image ID field, select or enter an image ID.</span></span>
-14. <span data-ttu-id="04e18-121">Selecteer of typ in het veld Id staande afbeelding een afbeeldings-id.</span><span class="sxs-lookup"><span data-stu-id="04e18-121">In the Portait image ID field, select or enter an image ID.</span></span>
-15. <span data-ttu-id="04e18-122">Schakel de uitbreiding van de sectie Achtergrond om.</span><span class="sxs-lookup"><span data-stu-id="04e18-122">Toggle the expansion of the Background section.</span></span>
-16. <span data-ttu-id="04e18-123">Vraag een pop-up van de afbeeldings-id.</span><span class="sxs-lookup"><span data-stu-id="04e18-123">RequestPopup the Image ID.</span></span>
-17. <span data-ttu-id="04e18-124">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="04e18-124">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="04e18-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="04e18-125">Click Save.</span></span>
+1. <span data-ttu-id="8f0ac-108">Ga naar Detailhandel en commerce > Kanaalinstellingen >POS-instellingen > POS-profielen > Visuele profielen.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-108">Go to Retail and commerce > Channel setup > POS setup > POS profiles > Visual profiles.</span></span>
+2. <span data-ttu-id="8f0ac-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-109">Click New.</span></span>
+3. <span data-ttu-id="8f0ac-110">Typ een waarde in het veld Profielnummer.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-110">In the Profile number field, type a value.</span></span>
+4. <span data-ttu-id="8f0ac-111">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="8f0ac-112">Klik in het veld Type toepassing op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-112">In the Application type field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="8f0ac-113">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="8f0ac-114">Klik in het veld Thema op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-114">In the Theme field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="8f0ac-115">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="8f0ac-116">Klik in het veld Accentkleur op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-116">In the Accent colour field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="8f0ac-117">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-117">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="8f0ac-118">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-118">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="8f0ac-119">Schakel de uitbreiding van de sectie Aanmeldingsachtergrond om.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-119">Toggle the expansion of the Login background section.</span></span>
+13. <span data-ttu-id="8f0ac-120">Selecteer of typ in het veld Id van liggende afbeelding een afbeeldings-id.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-120">In the Landscape image ID field, select or enter an image ID.</span></span>
+14. <span data-ttu-id="8f0ac-121">Selecteer of typ in het veld Id staande afbeelding een afbeeldings-id.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-121">In the Portait image ID field, select or enter an image ID.</span></span>
+15. <span data-ttu-id="8f0ac-122">Schakel de uitbreiding van de sectie Achtergrond om.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-122">Toggle the expansion of the Background section.</span></span>
+16. <span data-ttu-id="8f0ac-123">Vraag een pop-up van de afbeeldings-id.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-123">RequestPopup the Image ID.</span></span>
+17. <span data-ttu-id="8f0ac-124">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-124">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="8f0ac-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="8f0ac-125">Click Save.</span></span>
 
 

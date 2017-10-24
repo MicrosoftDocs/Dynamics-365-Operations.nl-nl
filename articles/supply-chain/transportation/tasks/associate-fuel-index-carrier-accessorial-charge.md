@@ -17,64 +17,64 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: a2b8534231c5fa50b1e0f709e09d318bb8202a43
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="fdbf9-103">Een brandstofindex aan een vervoerder koppelen als bijkomende toeslag</span><span class="sxs-lookup"><span data-stu-id="fdbf9-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
+# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Een brandstofindex aan een vervoerder koppelen als bijkomende toeslag
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="fdbf9-104">Deze handleiding laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van vervoerder en een bijkomend model voor brandstoftoeslag kunt maken en een brandstofindex vervoerder kunt koppelen aan een vervoerder.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="fdbf9-105">U moet een brandstofindex van vervoerder instellen voordat u deze handleiding uitvoert.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="fdbf9-106">U kunt de handleiding "Brandstofindex van een vervoerder instellen" gebruiken om dit te doen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-106">You can use the “Set up a carrier fuel index” guide to do this.</span></span> <span data-ttu-id="fdbf9-107">Deze instellingstaken worden gewoonlijk uitgevoerd door een logistiek manager.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="fdbf9-108">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-108">The demo data used to create this procedure is USMF.</span></span>
+Deze handleiding laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van vervoerder en een bijkomend model voor brandstoftoeslag kunt maken en een brandstofindex vervoerder kunt koppelen aan een vervoerder. U moet een brandstofindex van vervoerder instellen voordat u deze handleiding uitvoert. U kunt de handleiding "Brandstofindex van een vervoerder instellen" gebruiken om dit te doen. Deze instellingstaken worden gewoonlijk uitgevoerd door een logistiek manager. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
 
-## <a name="create-an-accessorial-master"></a><span data-ttu-id="fdbf9-109">Een model van extra's maken</span><span class="sxs-lookup"><span data-stu-id="fdbf9-109">Create an accessorial master</span></span>
-1. <span data-ttu-id="fdbf9-110">Ga naar Transportbeheer > Instellingen > Beoordeling > Modellen van extra's.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
-2. <span data-ttu-id="fdbf9-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-111">Click New.</span></span>
-3. <span data-ttu-id="fdbf9-112">Typ een waarde in het veld Model van extra's.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-112">In the Accessorial master field, type a value.</span></span>
-4. <span data-ttu-id="fdbf9-113">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="fdbf9-114">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-114">Click Save.</span></span>
+## <a name="create-an-accessorial-master"></a>Een model van extra's maken
+1. Ga naar Transportbeheer > Instellingen > Beoordeling > Modellen van extra's.
+2. Klik op Nieuw.
+3. Typ een waarde in het veld Model van extra's.
+4. Typ een waarde in het veld Naam.
+5. Klik op Opslaan.
 
-## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="fdbf9-115">Een bijkomende toeslag van vervoerder maken</span><span class="sxs-lookup"><span data-stu-id="fdbf9-115">Create a carrier accessorial charge</span></span>
-1. <span data-ttu-id="fdbf9-116">Ga naar Transportbeheer > Instellingen > Beoordeling > Bijkomende toeslagen van vervoerder.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
-2. <span data-ttu-id="fdbf9-117">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-117">Click New.</span></span>
-3. <span data-ttu-id="fdbf9-118">Typ een waarde in het veld Id extra's vervoerder.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-118">In the Carrier accessorial ID field, type a value.</span></span>
-4. <span data-ttu-id="fdbf9-119">Klik in het veld Vervoerder op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="fdbf9-120">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="fdbf9-121">In dit voorbeeld, kiest u vervoer per vrachtwagen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-121">In this example, choose Truck Carrier.</span></span>  
-6. <span data-ttu-id="fdbf9-122">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-122">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="fdbf9-123">Klik in het veld Vervoerdersservice op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="fdbf9-124">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-124">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="fdbf9-125">Klik in het veld Model van extra's op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="fdbf9-126">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-126">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="fdbf9-127">In dit voorbeeld, kiest u het nieuw gemaakte Model van extra's.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-127">In this example, choose the newly created Accessorial master.</span></span>  
-11. <span data-ttu-id="fdbf9-128">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-128">Click Save.</span></span>
+## <a name="create-a-carrier-accessorial-charge"></a>Een bijkomende toeslag van vervoerder maken
+1. Ga naar Transportbeheer > Instellingen > Beoordeling > Bijkomende toeslagen van vervoerder.
+2. Klik op Nieuw.
+3. Typ een waarde in het veld Id extra's vervoerder.
+4. Klik in het veld Vervoerder op de vervolgkeuzeknop om de zoekopdracht te openen.
+5. Zoek en selecteer de gewenste record in de lijst.
+    * In dit voorbeeld, kiest u vervoer per vrachtwagen.  
+6. Klik in de lijst op de koppeling in de geselecteerde rij.
+7. Klik in het veld Vervoerdersservice op de vervolgkeuzeknop om de zoekopdracht te openen.
+8. Klik in de lijst op de koppeling in de geselecteerde rij.
+9. Klik in het veld Model van extra's op de vervolgkeuzeknop om de zoekopdracht te openen.
+10. Zoek en selecteer de gewenste record in de lijst.
+    * In dit voorbeeld, kiest u het nieuw gemaakte Model van extra's.  
+11. Klik op Opslaan.
 
-## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="fdbf9-129">Een toewijzing van extra's maken</span><span class="sxs-lookup"><span data-stu-id="fdbf9-129">Create an accessorial assignment</span></span>
-1. <span data-ttu-id="fdbf9-130">Klik op Bijkomende toewijzingen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-130">Click Accessorial assignments.</span></span>
-2. <span data-ttu-id="fdbf9-131">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-131">Click New.</span></span>
-3. <span data-ttu-id="fdbf9-132">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-132">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="fdbf9-133">Schakel de uitbreiding van de sectie Criteria om.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-133">Toggle the expansion of the Criteria section.</span></span>
-    * <span data-ttu-id="fdbf9-134">In de criteria kunt u altijd de brandstoftoeslag toepassen of bijvoorbeeld ervoor kiezen dat deze alleen binnen een bepaalde regio van toepassing is.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
-5. <span data-ttu-id="fdbf9-135">Typ een waarde in het veld Postcode vanaf.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-135">In the ZIP/postal code from field, type a value.</span></span>
-6. <span data-ttu-id="fdbf9-136">Typ een waarde in het veld Postcode tot.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-136">In the ZIP/postal code to field, type a value.</span></span>
-7. <span data-ttu-id="fdbf9-137">Schakel de uitbreiding van de sectie Berekening om.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-137">Toggle the expansion of the Calculation section.</span></span>
-    * <span data-ttu-id="fdbf9-138">In de berekeningssectie kunt u opgeven hoe de brandstoftoeslag wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="fdbf9-139">Deze berekening hangt van de eenheid voor extra's die u als basis voor de berekening hebt gekozen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
-8. <span data-ttu-id="fdbf9-140">Selecteer in het veld Type van kosten van extra's de optie "Brandstoftoeslag".</span><span class="sxs-lookup"><span data-stu-id="fdbf9-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
-9. <span data-ttu-id="fdbf9-141">Selecteer "Kilometerstand" in het veld Eenheid voor extra's.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-141">In the Accessorial unit field, select 'Mileage'.</span></span>
-10. <span data-ttu-id="fdbf9-142">Klik in het veld Regio op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-142">In the Region field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="fdbf9-143">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-143">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="fdbf9-144">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-144">Click Save.</span></span>
+## <a name="create-an-accessorial-assignment"></a>Een toewijzing van extra's maken
+1. Klik op Bijkomende toewijzingen.
+2. Klik op Nieuw.
+3. Typ een waarde in het veld Naam.
+4. Schakel de uitbreiding van de sectie Criteria om.
+    * In de criteria kunt u altijd de brandstoftoeslag toepassen of bijvoorbeeld ervoor kiezen dat deze alleen binnen een bepaalde regio van toepassing is.  
+5. Typ een waarde in het veld Postcode vanaf.
+6. Typ een waarde in het veld Postcode tot.
+7. Schakel de uitbreiding van de sectie Berekening om.
+    * In de berekeningssectie kunt u opgeven hoe de brandstoftoeslag wordt berekend. Deze berekening hangt van de eenheid voor extra's die u als basis voor de berekening hebt gekozen.  
+8. Selecteer in het veld Type van kosten van extra's de optie "Brandstoftoeslag".
+9. Selecteer "Kilometerstand" in het veld Eenheid voor extra's.
+10. Klik in het veld Regio op de vervolgkeuzeknop om de zoekopdracht te openen.
+11. Klik in de lijst op de koppeling in de geselecteerde rij.
+12. Klik op Opslaan.
 
-## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="fdbf9-145">Het beoordelingsprofiel vervoerder bijwerken</span><span class="sxs-lookup"><span data-stu-id="fdbf9-145">Update the carrier rating profile</span></span>
-1. <span data-ttu-id="fdbf9-146">Ga naar Transportbeheer > Instellingen > Vervoerders > Vervoerders.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
-2. <span data-ttu-id="fdbf9-147">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-147">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="fdbf9-148">Schakel de uitbreiding van de sectie Beoordelingsprofielen om.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-148">Toggle the expansion of the Rating profiles section.</span></span>
-4. <span data-ttu-id="fdbf9-149">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-149">Click Edit.</span></span>
-5. <span data-ttu-id="fdbf9-150">Klik in het veld Brandstofindex vervoerder op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="fdbf9-151">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-151">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="fdbf9-152">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="fdbf9-152">Click Save.</span></span>
+## <a name="update-the-carrier-rating-profile"></a>Het beoordelingsprofiel vervoerder bijwerken
+1. Ga naar Transportbeheer > Instellingen > Vervoerders > Vervoerders.
+2. Zoek en selecteer de gewenste record in de lijst.
+3. Schakel de uitbreiding van de sectie Beoordelingsprofielen om.
+4. Klik op Bewerken.
+5. Klik in het veld Brandstofindex vervoerder op de vervolgkeuzeknop om de zoekopdracht te openen.
+6. Klik in de lijst op de koppeling in de geselecteerde rij.
+7. Klik op Opslaan.
 
 

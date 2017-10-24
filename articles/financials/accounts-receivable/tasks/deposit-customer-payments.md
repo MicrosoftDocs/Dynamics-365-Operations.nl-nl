@@ -16,42 +16,42 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbf21bd5df70cd80e4fe3f2f5d699aa82b62423b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="deposit-customer-payments"></a><span data-ttu-id="86f36-103">Klantbetalingen storten</span><span class="sxs-lookup"><span data-stu-id="86f36-103">Deposit customer payments</span></span>
+# <a name="deposit-customer-payments"></a><span data-ttu-id="ac75b-103">Klantbetalingen storten</span><span class="sxs-lookup"><span data-stu-id="ac75b-103">Deposit customer payments</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="86f36-104">Stort klantbetalingen.</span><span class="sxs-lookup"><span data-stu-id="86f36-104">Deposit customer payments.</span></span> <span data-ttu-id="86f36-105">Bij deze taak wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="86f36-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="ac75b-104">Stort klantbetalingen.</span><span class="sxs-lookup"><span data-stu-id="ac75b-104">Deposit customer payments.</span></span> <span data-ttu-id="ac75b-105">Bij deze taak wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="ac75b-105">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="86f36-106">Ga naar Klanten > Betalingen > Betalingsjournaal.</span><span class="sxs-lookup"><span data-stu-id="86f36-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="86f36-107">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="86f36-107">Click New.</span></span>
-3. <span data-ttu-id="86f36-108">Klik in het veld Naam op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="86f36-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="86f36-109">Selecteer het betalingsjournaal.</span><span class="sxs-lookup"><span data-stu-id="86f36-109">Select the payment journal.</span></span> 
-5. <span data-ttu-id="86f36-110">Klik op Regels.</span><span class="sxs-lookup"><span data-stu-id="86f36-110">Click Lines.</span></span>
-6. <span data-ttu-id="86f36-111">Voer in het veld Rekening de klant in voor wie u de betaling hebt vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="86f36-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
-7. <span data-ttu-id="86f36-112">Voer in het veld Credit het bedrag van de betaling in.</span><span class="sxs-lookup"><span data-stu-id="86f36-112">In the Credit field, enter the amount of the payment.</span></span>
-    * <span data-ttu-id="86f36-113">U kunt ervoor kiezen het bedrag leeg te laten en dit door het systeem te laten berekenen door de facturen te selecteren die zijn betaald.</span><span class="sxs-lookup"><span data-stu-id="86f36-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
-8. <span data-ttu-id="86f36-114">Typ een waarde in het veld Betalingsverwijzing.</span><span class="sxs-lookup"><span data-stu-id="86f36-114">In the Payment reference field, type a value.</span></span>
-    * <span data-ttu-id="86f36-115">De betalingsverwijzing kan het chequenummer zijn voor de betaling die u invoert.</span><span class="sxs-lookup"><span data-stu-id="86f36-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="86f36-116">De betalingsverwijzing is vereist om de betaling op te nemen op een depositostrook.</span><span class="sxs-lookup"><span data-stu-id="86f36-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
-9. <span data-ttu-id="86f36-117">Schakel het selectievakje Depositostrook gebruiken in.</span><span class="sxs-lookup"><span data-stu-id="86f36-117">Mark the box Use a deposit slip.</span></span>
-    * <span data-ttu-id="86f36-118">Als de betaling in de storting moet worden opgenomen, wijzigt u deze instelling in Ja.</span><span class="sxs-lookup"><span data-stu-id="86f36-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
-10. <span data-ttu-id="86f36-119">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="86f36-119">Click New.</span></span>
-11. <span data-ttu-id="86f36-120">Selecteer in het veld Rekening de klant voor de volgende betaling.</span><span class="sxs-lookup"><span data-stu-id="86f36-120">In the Account field, select the Customer for the next payment.</span></span>
-12. <span data-ttu-id="86f36-121">Voer in het veld Credit het betalingsbedrag in.</span><span class="sxs-lookup"><span data-stu-id="86f36-121">In the Credit field, enter the payment amount.</span></span>
-13. <span data-ttu-id="86f36-122">Typ een waarde in het veld Betalingsverwijzing.</span><span class="sxs-lookup"><span data-stu-id="86f36-122">In the Payment reference field, type a value.</span></span>
-14. <span data-ttu-id="86f36-123">Schakel het selectievakje Depositostrook gebruiken in.</span><span class="sxs-lookup"><span data-stu-id="86f36-123">Mark the box Use a deposit slip.</span></span>
-15. <span data-ttu-id="86f36-124">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="86f36-124">Click Post.</span></span>
-    * <span data-ttu-id="86f36-125">Betalingen moeten worden geboekt voordat de depositostrook kan worden gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="86f36-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="86f36-126">Dit moet ervoor zorgen dat betalingen niet veranderen nadat de depositostrook is gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="86f36-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
-16. <span data-ttu-id="86f36-127">Klik op Functies.</span><span class="sxs-lookup"><span data-stu-id="86f36-127">Click Functions.</span></span>
-17. <span data-ttu-id="86f36-128">Klik op Depositostrook.</span><span class="sxs-lookup"><span data-stu-id="86f36-128">Click Deposit slip.</span></span>
-18. <span data-ttu-id="86f36-129">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="86f36-129">Click OK.</span></span>
-    * <span data-ttu-id="86f36-130">De eerste pagina wordt gebruikt om de depositostrook te maken.</span><span class="sxs-lookup"><span data-stu-id="86f36-130">The first page is used to create the deposit slip.</span></span>  
-19. <span data-ttu-id="86f36-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="86f36-131">Click OK.</span></span>
-    * <span data-ttu-id="86f36-132">De tweede stap is het afdrukken van de depositostrook, maar deze stap is niet vereist.</span><span class="sxs-lookup"><span data-stu-id="86f36-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
+1. <span data-ttu-id="ac75b-106">Ga naar Klanten > Betalingen > Betalingsjournaal.</span><span class="sxs-lookup"><span data-stu-id="ac75b-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="ac75b-107">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="ac75b-107">Click New.</span></span>
+3. <span data-ttu-id="ac75b-108">Klik in het veld Naam op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="ac75b-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="ac75b-109">Selecteer het betalingsjournaal.</span><span class="sxs-lookup"><span data-stu-id="ac75b-109">Select the payment journal.</span></span> 
+5. <span data-ttu-id="ac75b-110">Klik op Regels.</span><span class="sxs-lookup"><span data-stu-id="ac75b-110">Click Lines.</span></span>
+6. <span data-ttu-id="ac75b-111">Voer in het veld Rekening de klant in voor wie u de betaling hebt vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="ac75b-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
+7. <span data-ttu-id="ac75b-112">Voer in het veld Credit het bedrag van de betaling in.</span><span class="sxs-lookup"><span data-stu-id="ac75b-112">In the Credit field, enter the amount of the payment.</span></span>
+    * <span data-ttu-id="ac75b-113">U kunt ervoor kiezen het bedrag leeg te laten en dit door het systeem te laten berekenen door de facturen te selecteren die zijn betaald.</span><span class="sxs-lookup"><span data-stu-id="ac75b-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
+8. <span data-ttu-id="ac75b-114">Typ een waarde in het veld Betalingsverwijzing.</span><span class="sxs-lookup"><span data-stu-id="ac75b-114">In the Payment reference field, type a value.</span></span>
+    * <span data-ttu-id="ac75b-115">De betalingsverwijzing kan het chequenummer zijn voor de betaling die u invoert.</span><span class="sxs-lookup"><span data-stu-id="ac75b-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="ac75b-116">De betalingsverwijzing is vereist om de betaling op te nemen op een depositostrook.</span><span class="sxs-lookup"><span data-stu-id="ac75b-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
+9. <span data-ttu-id="ac75b-117">Schakel het selectievakje Depositostrook gebruiken in.</span><span class="sxs-lookup"><span data-stu-id="ac75b-117">Mark the box Use a deposit slip.</span></span>
+    * <span data-ttu-id="ac75b-118">Als de betaling in de storting moet worden opgenomen, wijzigt u deze instelling in Ja.</span><span class="sxs-lookup"><span data-stu-id="ac75b-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
+10. <span data-ttu-id="ac75b-119">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="ac75b-119">Click New.</span></span>
+11. <span data-ttu-id="ac75b-120">Selecteer in het veld Rekening de klant voor de volgende betaling.</span><span class="sxs-lookup"><span data-stu-id="ac75b-120">In the Account field, select the Customer for the next payment.</span></span>
+12. <span data-ttu-id="ac75b-121">Voer in het veld Credit het betalingsbedrag in.</span><span class="sxs-lookup"><span data-stu-id="ac75b-121">In the Credit field, enter the payment amount.</span></span>
+13. <span data-ttu-id="ac75b-122">Typ een waarde in het veld Betalingsverwijzing.</span><span class="sxs-lookup"><span data-stu-id="ac75b-122">In the Payment reference field, type a value.</span></span>
+14. <span data-ttu-id="ac75b-123">Schakel het selectievakje Depositostrook gebruiken in.</span><span class="sxs-lookup"><span data-stu-id="ac75b-123">Mark the box Use a deposit slip.</span></span>
+15. <span data-ttu-id="ac75b-124">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="ac75b-124">Click Post.</span></span>
+    * <span data-ttu-id="ac75b-125">Betalingen moeten worden geboekt voordat de depositostrook kan worden gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="ac75b-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="ac75b-126">Dit moet ervoor zorgen dat betalingen niet veranderen nadat de depositostrook is gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="ac75b-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
+16. <span data-ttu-id="ac75b-127">Klik op Functies.</span><span class="sxs-lookup"><span data-stu-id="ac75b-127">Click Functions.</span></span>
+17. <span data-ttu-id="ac75b-128">Klik op Depositostrook.</span><span class="sxs-lookup"><span data-stu-id="ac75b-128">Click Deposit slip.</span></span>
+18. <span data-ttu-id="ac75b-129">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="ac75b-129">Click OK.</span></span>
+    * <span data-ttu-id="ac75b-130">De eerste pagina wordt gebruikt om de depositostrook te maken.</span><span class="sxs-lookup"><span data-stu-id="ac75b-130">The first page is used to create the deposit slip.</span></span>  
+19. <span data-ttu-id="ac75b-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="ac75b-131">Click OK.</span></span>
+    * <span data-ttu-id="ac75b-132">De tweede stap is het afdrukken van de depositostrook, maar deze stap is niet vereist.</span><span class="sxs-lookup"><span data-stu-id="ac75b-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
 
 

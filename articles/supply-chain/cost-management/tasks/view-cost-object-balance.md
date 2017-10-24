@@ -17,26 +17,26 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e80f7f006d29ee6de6953b8c9d47b3beddd42992
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="view-cost-object-balance"></a><span data-ttu-id="b9cff-103">Saldo van kostenobject weergeven</span><span class="sxs-lookup"><span data-stu-id="b9cff-103">View cost object balance</span></span>
+# <a name="view-cost-object-balance"></a><span data-ttu-id="796c3-103">Saldo van kostenobject weergeven</span><span class="sxs-lookup"><span data-stu-id="796c3-103">View cost object balance</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b9cff-104">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="b9cff-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b9cff-105">Deze procedure is bedoeld voor de kostencontroller.</span><span class="sxs-lookup"><span data-stu-id="b9cff-105">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="796c3-104">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="796c3-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="796c3-105">Deze procedure is bedoeld voor de kostencontroller.</span><span class="sxs-lookup"><span data-stu-id="796c3-105">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="b9cff-106">Klik op Kostenadministratie.</span><span class="sxs-lookup"><span data-stu-id="b9cff-106">Click Cost administration.</span></span>
-2. <span data-ttu-id="b9cff-107">Klik op Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="b9cff-107">Click Released products.</span></span>
-3. <span data-ttu-id="b9cff-108">Gebruik het snelfilter om op het veld Artikelnummer te filteren met de waarde 'm0004'.</span><span class="sxs-lookup"><span data-stu-id="b9cff-108">Use the Quick Filter to filter on the Item number field with a value of 'm0004'.</span></span>
-4. <span data-ttu-id="b9cff-109">Klik in het actievenster op Kosten beheren.</span><span class="sxs-lookup"><span data-stu-id="b9cff-109">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="b9cff-110">Klik op Kostenobjecten.</span><span class="sxs-lookup"><span data-stu-id="b9cff-110">Click Cost objects.</span></span>
-6. <span data-ttu-id="b9cff-111">Klik op Fysieke hoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="b9cff-111">Click Physical quantity.</span></span>
-7. <span data-ttu-id="b9cff-112">Klik op Weergave van dimensies.</span><span class="sxs-lookup"><span data-stu-id="b9cff-112">Click Dimensions display.</span></span>
-8. <span data-ttu-id="b9cff-113">Schakel het selectievakje Locatie uit.</span><span class="sxs-lookup"><span data-stu-id="b9cff-113">Clear the Location check box.</span></span>
-9. <span data-ttu-id="b9cff-114">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b9cff-114">Click OK.</span></span>
+1. <span data-ttu-id="796c3-106">Klik op Kostenadministratie.</span><span class="sxs-lookup"><span data-stu-id="796c3-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="796c3-107">Klik op Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="796c3-107">Click Released products.</span></span>
+3. <span data-ttu-id="796c3-108">Gebruik het snelfilter om op het veld Artikelnummer te filteren met de waarde 'm0004'.</span><span class="sxs-lookup"><span data-stu-id="796c3-108">Use the Quick Filter to filter on the Item number field with a value of 'm0004'.</span></span>
+4. <span data-ttu-id="796c3-109">Klik in het actievenster op Kosten beheren.</span><span class="sxs-lookup"><span data-stu-id="796c3-109">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="796c3-110">Klik op Kostenobjecten.</span><span class="sxs-lookup"><span data-stu-id="796c3-110">Click Cost objects.</span></span>
+6. <span data-ttu-id="796c3-111">Klik op Fysieke hoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="796c3-111">Click Physical quantity.</span></span>
+7. <span data-ttu-id="796c3-112">Klik op Weergave van dimensies.</span><span class="sxs-lookup"><span data-stu-id="796c3-112">Click Dimensions display.</span></span>
+8. <span data-ttu-id="796c3-113">Schakel het selectievakje Locatie uit.</span><span class="sxs-lookup"><span data-stu-id="796c3-113">Clear the Location check box.</span></span>
+9. <span data-ttu-id="796c3-114">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="796c3-114">Click OK.</span></span>
 
 

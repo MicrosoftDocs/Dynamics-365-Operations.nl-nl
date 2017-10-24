@@ -18,79 +18,78 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d802933f29b3e08704480035925b2fbf6743e996
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="57a16-103">Afschrijvingsmethoden en conventies</span><span class="sxs-lookup"><span data-stu-id="57a16-103">Depreciation methods and conventions</span></span>
+# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="9066b-103">Afschrijvingsmethoden en conventies</span><span class="sxs-lookup"><span data-stu-id="9066b-103">Depreciation methods and conventions</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="57a16-104">Dit artikel bevat een overzicht van de afschrijvingsconventies en afschrijvingsmethoden die door Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition worden ondersteund.</span><span class="sxs-lookup"><span data-stu-id="57a16-104">This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
+<span data-ttu-id="9066b-104">Dit artikel bevat een overzicht van de afschrijvingsconventies en afschrijvingsmethoden die door Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition worden ondersteund.</span><span class="sxs-lookup"><span data-stu-id="9066b-104">This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
 
-<span data-ttu-id="57a16-105">U kunt verscheidene afschrijvingsmethoden en -conventies selecteren.</span><span class="sxs-lookup"><span data-stu-id="57a16-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="57a16-106">Het doel van de methoden is het toewijzen van de afschrijfbare waarde van het vaste activum in boekperioden.</span><span class="sxs-lookup"><span data-stu-id="57a16-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="57a16-107">De afschrijfbare waarde van het vaste activum is de verwervingsprijs, verminderd met een eventuele restwaarde.</span><span class="sxs-lookup"><span data-stu-id="57a16-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
+<span data-ttu-id="9066b-105">U kunt verscheidene afschrijvingsmethoden en -conventies selecteren.</span><span class="sxs-lookup"><span data-stu-id="9066b-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="9066b-106">Het doel van de methoden is het toewijzen van de afschrijfbare waarde van het vaste activum in boekperioden.</span><span class="sxs-lookup"><span data-stu-id="9066b-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="9066b-107">De afschrijfbare waarde van het vaste activum is de verwervingsprijs, verminderd met een eventuele restwaarde.</span><span class="sxs-lookup"><span data-stu-id="9066b-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
 
-<span data-ttu-id="57a16-108">Als u afschrijvingsconventies gebruikt en de uitvoeringsdatum van de laatste afschrijving voor een activum wijzigt, waardoor dan enkele afschrijvingen worden overgeslagen, kan de afschrijving voor het afgelopen jaar hoger of lager zijn dan verwacht.</span><span class="sxs-lookup"><span data-stu-id="57a16-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="57a16-109">De afschrijving wordt aangepast met het aantal afschrijvingsperioden dat werd beïnvloed door de aanpassing van de uitvoeringsdatum van de laatste afschrijving.</span><span class="sxs-lookup"><span data-stu-id="57a16-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
+<span data-ttu-id="9066b-108">Als u afschrijvingsconventies gebruikt en de uitvoeringsdatum van de laatste afschrijving voor een activum wijzigt, waardoor dan enkele afschrijvingen worden overgeslagen, kan de afschrijving voor het afgelopen jaar hoger of lager zijn dan verwacht.</span><span class="sxs-lookup"><span data-stu-id="9066b-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="9066b-109">De afschrijving wordt aangepast met het aantal afschrijvingsperioden dat werd beïnvloed door de aanpassing van de uitvoeringsdatum van de laatste afschrijving.</span><span class="sxs-lookup"><span data-stu-id="9066b-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
 
-<span data-ttu-id="57a16-110">Als u bijvoorbeeld de afschrijvingsconventie Half jaar voor drie jaar gebruikt, vindt de afschrijving doorgaans in 3 1/2 jaar plaats.</span><span class="sxs-lookup"><span data-stu-id="57a16-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="57a16-111">Als u de uitvoeringsdatum van de laatste afschrijving wijzigt tijdens die 3 1/2 jaar, wordt het aantal perioden dat wordt beïnvloed vergroot door het laatste jaar van de afschrijving.</span><span class="sxs-lookup"><span data-stu-id="57a16-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="57a16-112">Als u de datum drie maanden verschuift, heeft het laatste jaar negen maanden afschrijving, terwijl er normaal gesproken zes maanden afschrijving zou zijn.</span><span class="sxs-lookup"><span data-stu-id="57a16-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
+<span data-ttu-id="9066b-110">Als u bijvoorbeeld de afschrijvingsconventie Half jaar voor drie jaar gebruikt, vindt de afschrijving doorgaans in 3 1/2 jaar plaats.</span><span class="sxs-lookup"><span data-stu-id="9066b-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="9066b-111">Als u de uitvoeringsdatum van de laatste afschrijving wijzigt tijdens die 3 1/2 jaar, wordt het aantal perioden dat wordt beïnvloed vergroot door het laatste jaar van de afschrijving.</span><span class="sxs-lookup"><span data-stu-id="9066b-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="9066b-112">Als u de datum drie maanden verschuift, heeft het laatste jaar negen maanden afschrijving, terwijl er normaal gesproken zes maanden afschrijving zou zijn.</span><span class="sxs-lookup"><span data-stu-id="9066b-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
 
-<span data-ttu-id="57a16-113">U kunt uit de volgende afschrijvingsconventies kiezen.</span><span class="sxs-lookup"><span data-stu-id="57a16-113">You can select from the following depreciation conventions.</span></span>
+<span data-ttu-id="9066b-113">U kunt uit de volgende afschrijvingsconventies kiezen.</span><span class="sxs-lookup"><span data-stu-id="9066b-113">You can select from the following depreciation conventions.</span></span>
 
 
--   <span data-ttu-id="57a16-114">Half jaar</span><span class="sxs-lookup"><span data-stu-id="57a16-114">Half year</span></span>
--   <span data-ttu-id="57a16-115">Hele maand</span><span class="sxs-lookup"><span data-stu-id="57a16-115">Full month</span></span>
--   <span data-ttu-id="57a16-116">Midden kwartaal</span><span class="sxs-lookup"><span data-stu-id="57a16-116">Mid quarter</span></span>
--   <span data-ttu-id="57a16-117">Midden maand (1ste van de maand)</span><span class="sxs-lookup"><span data-stu-id="57a16-117">Mid month (1st of month)</span></span>
--   <span data-ttu-id="57a16-118">Midden maand (15e van de maand)</span><span class="sxs-lookup"><span data-stu-id="57a16-118">Mid month (15th of month)</span></span>
--   <span data-ttu-id="57a16-119">Half jaar (begin van het jaar)</span><span class="sxs-lookup"><span data-stu-id="57a16-119">Half year (start of year)</span></span>
--   <span data-ttu-id="57a16-120">Halfjaar (volgend jaar)</span><span class="sxs-lookup"><span data-stu-id="57a16-120">Half year (next year)</span></span>
+-   <span data-ttu-id="9066b-114">Half jaar</span><span class="sxs-lookup"><span data-stu-id="9066b-114">Half year</span></span>
+-   <span data-ttu-id="9066b-115">Hele maand</span><span class="sxs-lookup"><span data-stu-id="9066b-115">Full month</span></span>
+-   <span data-ttu-id="9066b-116">Midden kwartaal</span><span class="sxs-lookup"><span data-stu-id="9066b-116">Mid quarter</span></span>
+-   <span data-ttu-id="9066b-117">Midden maand (1ste van de maand)</span><span class="sxs-lookup"><span data-stu-id="9066b-117">Mid month (1st of month)</span></span>
+-   <span data-ttu-id="9066b-118">Midden maand (15e van de maand)</span><span class="sxs-lookup"><span data-stu-id="9066b-118">Mid month (15th of month)</span></span>
+-   <span data-ttu-id="9066b-119">Half jaar (begin van het jaar)</span><span class="sxs-lookup"><span data-stu-id="9066b-119">Half year (start of year)</span></span>
+-   <span data-ttu-id="9066b-120">Halfjaar (volgend jaar)</span><span class="sxs-lookup"><span data-stu-id="9066b-120">Half year (next year)</span></span>
 
-<span data-ttu-id="57a16-121">U kunt uit de volgende afschrijvingsmethoden kiezen.</span><span class="sxs-lookup"><span data-stu-id="57a16-121">You can select from the following depreciation methods.</span></span>
--   <span data-ttu-id="57a16-122">Levensduur lineaire</span><span class="sxs-lookup"><span data-stu-id="57a16-122">Straight line service life</span></span>
--   <span data-ttu-id="57a16-123">Degressief</span><span class="sxs-lookup"><span data-stu-id="57a16-123">Reducing balance</span></span>
--   <span data-ttu-id="57a16-124">Handmatig</span><span class="sxs-lookup"><span data-stu-id="57a16-124">Manual</span></span>
--   <span data-ttu-id="57a16-125">Factor</span><span class="sxs-lookup"><span data-stu-id="57a16-125">Factor</span></span>
--   <span data-ttu-id="57a16-126">Verbruik</span><span class="sxs-lookup"><span data-stu-id="57a16-126">Consumption</span></span>
--   <span data-ttu-id="57a16-127">Resterende levensduur lineaire</span><span class="sxs-lookup"><span data-stu-id="57a16-127">Straight line life remaining</span></span>
--   <span data-ttu-id="57a16-128">200% degressief</span><span class="sxs-lookup"><span data-stu-id="57a16-128">200% reducing balance</span></span>
--   <span data-ttu-id="57a16-129">175% degressief</span><span class="sxs-lookup"><span data-stu-id="57a16-129">175% reducing balance</span></span>
--   <span data-ttu-id="57a16-130">150% degressief</span><span class="sxs-lookup"><span data-stu-id="57a16-130">150% reducing balance</span></span>
--   <span data-ttu-id="57a16-131">125% degressief</span><span class="sxs-lookup"><span data-stu-id="57a16-131">125% reducing balance</span></span>
+<span data-ttu-id="9066b-121">U kunt uit de volgende afschrijvingsmethoden kiezen.</span><span class="sxs-lookup"><span data-stu-id="9066b-121">You can select from the following depreciation methods.</span></span>
+-   <span data-ttu-id="9066b-122">Levensduur lineaire</span><span class="sxs-lookup"><span data-stu-id="9066b-122">Straight line service life</span></span>
+-   <span data-ttu-id="9066b-123">Degressief</span><span class="sxs-lookup"><span data-stu-id="9066b-123">Reducing balance</span></span>
+-   <span data-ttu-id="9066b-124">Handmatig</span><span class="sxs-lookup"><span data-stu-id="9066b-124">Manual</span></span>
+-   <span data-ttu-id="9066b-125">Factor</span><span class="sxs-lookup"><span data-stu-id="9066b-125">Factor</span></span>
+-   <span data-ttu-id="9066b-126">Verbruik</span><span class="sxs-lookup"><span data-stu-id="9066b-126">Consumption</span></span>
+-   <span data-ttu-id="9066b-127">Resterende levensduur lineaire</span><span class="sxs-lookup"><span data-stu-id="9066b-127">Straight line life remaining</span></span>
+-   <span data-ttu-id="9066b-128">200% degressief</span><span class="sxs-lookup"><span data-stu-id="9066b-128">200% reducing balance</span></span>
+-   <span data-ttu-id="9066b-129">175% degressief</span><span class="sxs-lookup"><span data-stu-id="9066b-129">175% reducing balance</span></span>
+-   <span data-ttu-id="9066b-130">150% degressief</span><span class="sxs-lookup"><span data-stu-id="9066b-130">150% reducing balance</span></span>
+-   <span data-ttu-id="9066b-131">125% degressief</span><span class="sxs-lookup"><span data-stu-id="9066b-131">125% reducing balance</span></span>
 
  
 
 
 
-<a name="see-also"></a><span data-ttu-id="57a16-132">Zie ook</span><span class="sxs-lookup"><span data-stu-id="57a16-132">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="9066b-132">Zie ook</span><span class="sxs-lookup"><span data-stu-id="9066b-132">See also</span></span>
 --------
 
-[<span data-ttu-id="57a16-133">Afschrijving vaste activa</span><span class="sxs-lookup"><span data-stu-id="57a16-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
+[<span data-ttu-id="9066b-133">Afschrijving vaste activa</span><span class="sxs-lookup"><span data-stu-id="9066b-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
 
-[<span data-ttu-id="57a16-134">Lineaire afschrijving van levensduur</span><span class="sxs-lookup"><span data-stu-id="57a16-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
+[<span data-ttu-id="9066b-134">Lineaire afschrijving van levensduur</span><span class="sxs-lookup"><span data-stu-id="9066b-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
 
-[<span data-ttu-id="57a16-135">Degressieve afschrijving</span><span class="sxs-lookup"><span data-stu-id="57a16-135">Reducing balance depreciation</span></span>](reduce-balance-depreciation.md)
+[<span data-ttu-id="9066b-135">Degressieve afschrijving</span><span class="sxs-lookup"><span data-stu-id="9066b-135">Reducing balance depreciation</span></span>](reduce-balance-depreciation.md)
 
-[<span data-ttu-id="57a16-136">Handmatige afschrijving</span><span class="sxs-lookup"><span data-stu-id="57a16-136">Manual depreciation</span></span>](manual-depreciation.md)
+[<span data-ttu-id="9066b-136">Handmatige afschrijving</span><span class="sxs-lookup"><span data-stu-id="9066b-136">Manual depreciation</span></span>](manual-depreciation.md)
 
-[<span data-ttu-id="57a16-137">Factorafschrijving</span><span class="sxs-lookup"><span data-stu-id="57a16-137">Factor depreciation</span></span>](factor-depreciation.md)
+[<span data-ttu-id="9066b-137">Factorafschrijving</span><span class="sxs-lookup"><span data-stu-id="9066b-137">Factor depreciation</span></span>](factor-depreciation.md)
 
-[<span data-ttu-id="57a16-138">Afschrijving naar rato van verbruik</span><span class="sxs-lookup"><span data-stu-id="57a16-138">Consumption depreciation</span></span>](consumption-depreciation.md)
+[<span data-ttu-id="9066b-138">Afschrijving naar rato van verbruik</span><span class="sxs-lookup"><span data-stu-id="9066b-138">Consumption depreciation</span></span>](consumption-depreciation.md)
 
-[<span data-ttu-id="57a16-139">Lineaire afschrijving restlevensduur</span><span class="sxs-lookup"><span data-stu-id="57a16-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
+[<span data-ttu-id="9066b-139">Lineaire afschrijving restlevensduur</span><span class="sxs-lookup"><span data-stu-id="9066b-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
 
-[<span data-ttu-id="57a16-140">Degressieve afschrijving van 125 procent</span><span class="sxs-lookup"><span data-stu-id="57a16-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="9066b-140">Degressieve afschrijving van 125 procent</span><span class="sxs-lookup"><span data-stu-id="9066b-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="57a16-141">Degressieve afschrijving van 150 procent</span><span class="sxs-lookup"><span data-stu-id="57a16-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="9066b-141">Degressieve afschrijving van 150 procent</span><span class="sxs-lookup"><span data-stu-id="9066b-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="57a16-142">Degressieve afschrijving van 175 procent</span><span class="sxs-lookup"><span data-stu-id="57a16-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="9066b-142">Degressieve afschrijving van 175 procent</span><span class="sxs-lookup"><span data-stu-id="9066b-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="57a16-143">Degressieve afschrijving van 200 procent</span><span class="sxs-lookup"><span data-stu-id="57a16-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="9066b-143">Degressieve afschrijving van 200 procent</span><span class="sxs-lookup"><span data-stu-id="9066b-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
 
 
 
