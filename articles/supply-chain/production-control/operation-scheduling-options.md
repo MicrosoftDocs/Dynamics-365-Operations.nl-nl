@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ede111a8c7e8fe17b95747aadef30d1af1fea6aa
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5a64445b58c3d6b523b766b4e864aeea9f93de2b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -99,7 +99,7 @@ Als er verwijzingen afhankelijk zijn van productieorders, staan deze ook bekend 
 
 ### <a name="synchronize-references"></a>Verwijzingen synchroniseren
 
-U kunt verwijzingen synchroniseren met de productieorder. Als deze optie is geselecteerd, worden de datums van de subproducties verschoven en afgestemd wanneer wijzigingen worden aangebracht in de planning van de productieorder. Als een productieorder een of meer subproducties heeft, kunt u deze beter tegelijk met de subproducties plannen. In dat geval kan de hoofdproductie pas kan worden gestart nadat de bijbehorende subproducties zijn voltooid. Schakel daarom dit selectievakje in als het plannen van subproducties moet worden gebaseerd op de begin- en eindtijden van de geselecteerde productie. U kunt dit selectievakje alleen inschakelen als het selectievakje**Verwijzingen plannen** ook is geselecteerd.
+U kunt verwijzingen synchroniseren met de productieorder. Als deze optie is geselecteerd, worden de datums van de subproducties verschoven en afgestemd wanneer wijzigingen worden aangebracht in de planning van de productieorder. Als een productieorder een of meer subproducties heeft, kunt u deze beter tegelijk met de subproducties plannen. In dat geval kan de hoofdproductie pas kan worden gestart nadat de bijbehorende subproducties zijn voltooid. Schakel daarom dit selectievakje in als het plannen van subproducties moet worden gebaseerd op de begin- en eindtijden van de geselecteerde productie. U kunt dit selectievakje alleen inschakelen als het selectievakje **Verwijzingen plannen** ook is geselecteerd.
 
 ## <a name="cancellation"></a>Annulering
 ### <a name="cancel-queue-time"></a>Wachttijd annuleren

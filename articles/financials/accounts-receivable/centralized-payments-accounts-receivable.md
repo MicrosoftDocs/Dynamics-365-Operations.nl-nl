@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6327d9cab1651d22cd411f718f6e3a2f8733e13e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -69,14 +69,14 @@ Fabrikam ontvangt een betaling van 600,00 EUR voor Fabrikam-klantrekening 4000, 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam East-factuur
 
-**Fabrikam-boeking**
+**Boeken naar Fabrikam**
 
 | Rekening                         | Debetbedrag | Creditbedrag |
 |---------------------------------|--------------|---------------|
 | Klanten (Fabrikam)  | 600,00       |               |
 | Te betalen aan Fabrikam East (Fabrikam) |              | 600,00        |
 
-**Fabrikam East-boeking**
+**Boeken naar Fabrikam East**
 
 | Rekening                             | Debetbedrag | Creditbedrag |
 |-------------------------------------|--------------|---------------|
@@ -102,14 +102,14 @@ Fabrikam ontvangt een betaling van 580,00 EUR voor Fabrikam-klant 4000, Northwin
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam East-factuur
 
-**Fabrikam-boeking**
+**Boeken naar Fabrikam**
 
 | Rekening                         | Debetbedrag | Creditbedrag |
 |---------------------------------|--------------|---------------|
 | Klanten (Fabrikam)  | 580,00       |               |
 | Te betalen aan Fabrikam East (Fabrikam) |              | 580,00        |
 
-**Fabrikam East-boeking**
+**Boeken naar Fabrikam East**
 
 | Rekening                             | Debetbedrag | Creditbedrag |
 |-------------------------------------|--------------|---------------|
@@ -140,7 +140,7 @@ Fabrikam ontvangt een betaling van EUR 600,00 voor Fabrikam-klant 4000, Northwin
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam East-factuur
 
-**Fabrikam-boeking**
+**Boeken naar Fabrikam**
 
 | Rekening                         | Debetbedrag            | Creditbedrag           |
 |---------------------------------|-------------------------|-------------------------|
@@ -149,7 +149,7 @@ Fabrikam ontvangt een betaling van EUR 600,00 voor Fabrikam-klant 4000, Northwin
 | Te betalen aan Fabrikam East (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
 | Gerealiseerde winst (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East-boeking**
+**Boeken naar Fabrikam East**
 
 | Rekening                             | Debetbedrag            | Creditbedrag           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -181,7 +181,7 @@ Fabrikam boekt een betaling voor Fabrikam-klant 4000, Northwind Traders, voor ee
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam East-factuur
 
-**Fabrikam-boeking**
+**Boeken naar Fabrikam**
 
 | Rekening                         | Debetbedrag            | Creditbedrag           |
 |---------------------------------|-------------------------|-------------------------|
@@ -190,7 +190,7 @@ Fabrikam boekt een betaling voor Fabrikam-klant 4000, Northwind Traders, voor ee
 | Te betalen aan Fabrikam East (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
 | Gerealiseerde winst (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East-boeking**
+**Boeken naar Fabrikam East**
 
 | Rekening                             | Debetbedrag            | Creditbedrag           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -227,7 +227,7 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam West-factuur en de Fabrikam East-creditnota
 
-**Fabrikam-boeking**
+**Boeken naar Fabrikam**
 
 | Rekening                           | Debetbedrag | Creditbedrag |
 |-----------------------------------|--------------|---------------|
@@ -236,14 +236,14 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 | Klanten (Fabrikam)    | 100,00       |               |
 | Te betalen aan Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East-boeking**
+**Boeken naar Fabrikam East**
 
 | Rekening                             | Debetbedrag | Creditbedrag |
 |-------------------------------------|--------------|---------------|
 | Klanten (Fabrikam East) | 25,00        |               |
 | Te betalen aan Fabrikam East (Fabrikam)     |              | 25,00         |
 
-**Fabrikam West-boeking**
+**Boeken naar Fabrikam West**
 
 | Rekening                             | Debetbedrag | Creditbedrag |
 |-------------------------------------|--------------|---------------|
@@ -276,21 +276,21 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>De Fabrikam-betaling wordt vereffend met de Fabrikam West-factuur en de Fabrikam East-creditnota
 
-**Fabrikam-boeking**
+**Boeken naar Fabrikam**
 
 | Rekening                         | Debetbedrag | Creditbedrag |
 |---------------------------------|--------------|---------------|
 | Klanten (Fabrikam)  | 75,00        |               |
 | Te betalen aan Fabrikam West (Fabrikam) |              | 75,00         |
 
-**Fabrikam East-boeking**
+**Boeken naar Fabrikam East**
 
 | Rekening                              | Debetbedrag | Creditbedrag |
 |--------------------------------------|--------------|---------------|
 | Klanten (Fabrikam East)  | 25,00        |               |
 | Te betalen aan Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West-boeking**
+**Boeken naar Fabrikam West**
 
 | Rekening                                | Debetbedrag | Creditbedrag |
 |----------------------------------------|--------------|---------------|

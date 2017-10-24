@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: ade348540a6d3e9210321d3661e97ac716efaf58
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ De volgende parameters zijn van invloed op de wijze waarop vereffeningen worden 
     -   Als deze optie is ingesteld op **Ja** en een gebruiker wijzigt de waarde in het veld **Te vereffenen bedrag** op de pagina **Transacties vereffenen**, wordt de korting automatisch berekend en weergegeven als de standaardinvoer in het veld **Contantkortingsbedrag dat moet worden toegepast**.
     -   Als deze optie is ingesteld op **Nee** en een gebruiker wijzigt de waarde in het veld **Te vereffenen bedrag** op de pagina **Transacties vereffenen**, is de standaardinvoer in het veld **Contantkortingsbedrag dat moet worden toegepast** **0** (nul).
 -   **Contantkortingen berekenen voor creditnota's**: stel deze optie in op **Ja** om automatisch een contantkorting voor creditnota's te berekenen. In Klanten is een creditnotatransactie een negatieve transactie met een waarde in het veld **Factuur** op de pagina **Vrije-tekstfactuur** of een retour op de pagina **Verkooporder**.
-    -   Het effect van deze optie is afhankelijk van de waarde van het veld **Contantkorting gebruiken** op de pagina **Transacties vereffenen**. Als deze optie is ingesteld op **Ja**, wordt de korting toegepast als het veld Contantkorting gebruiken is ingesteld op **Normaal**. Wanneer het veld Contantkorting gebruiken is ingesteld op **Altijd**, wordt de contantkorting altijd toegepast, ongeacht de instelling van dit veld. Als het veld Contantkorting gebruiken is ingesteld op **Nooit**, wordt de contantkorting nooit toegepast, ongeacht de instelling van dit veld.
+    -   Het effect van deze optie is afhankelijk van de waarde van het veld **Contantkorting gebruiken** op de pagina **Transacties vereffenen**. Als deze optie is ingesteld op **Ja**, wordt de korting toegepast als het veld ****Contantkorting gebruiken**** is ingesteld op **Normaal**. Wanneer het veld ****Contantkorting gebruiken**** is ingesteld op **Altijd**, wordt de contantkorting altijd toegepast, ongeacht de instelling van dit veld. Als het veld ****Contantkorting gebruiken**** is ingesteld op **Nooit**, wordt de contantkorting nooit toegepast, ongeacht de instelling van dit veld.
     -   Als deze optie is in gesteld op **Ja** en een creditnota wordt gemarkeerd op de pagina **Transacties vereffenen**, wordt de korting automatisch berekend en weergegeven als de standaardinvoer in het veld **Contantkortingsbedrag dat moet worden toegepast**.
     -   Als deze optie is ingesteld op **Nee** en een creditnota is gemarkeerd op de pagina **Transacties vereffenen**, is de standaardinvoer in het veld **Contantkortingsbedrag dat moet worden toegepast** **0** (nul).
 -   **Kortingstegenrekeningen (alleen leveranciers)**: definieer de grootboekrekening van de standaardcontantkorting die voor de boeking voor contantkortingen moet worden gebruikt.

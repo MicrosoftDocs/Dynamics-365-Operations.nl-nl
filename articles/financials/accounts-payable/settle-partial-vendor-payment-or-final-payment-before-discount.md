@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6cfc342121e0c5919784911275234fc99c85ede8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8436f7456f7a19320afa83ceb970d9cd0c64ac68
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ Via de pagina **Leveranciers** opent April de pagina **Transacties vereffenen**.
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | Normaal            | Factuur-10010 | 3064    | 6/25/2015 | 25/7/2015 | 10010   | 1.000,00                       | USD      | 990,00           |
 
-Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen**weergegeven.
+Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
 |                              |           |
 |------------------------------|-----------|

@@ -18,11 +18,11 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4ab38cd1865a9329d785ed406f24e113c1a0e495
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c616637922e617661482875d78531ea79fda4407
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ Sommige functiedetails, zoals de functietitel en het functietype, zijn datumafha
 ## <a name="job-titles"></a>Functietitels
 Voordat u taken maakt, moet u titels voor deze taken instellen. Posities nemen de taaktitels over van de taken waaraan de posities zijn gekoppeld. 
 
-Op de pagina **Titels** kunt u functietitels onderhouden. Deze pagina opent u met de functie Zoeken. Op de pagina Titels voert u de titels in die u wilt gebruiken voor uw functies.
+Op de pagina **Titels** kunt u functietitels onderhouden. Deze pagina opent u met de functie Zoeken. Op de pagina **Titels** voert u de titels in die u wilt gebruiken voor uw functies.
 
 ## <a name="job-types"></a>Taaktypen
 U gebruikt functietypen om vergelijkbare functies in categorieën te groeperen. Functietypen zijn niet verplicht. Als u van plan bent om taaktypen te gebruiken wanneer u beschikbaarheidregels instelt voor compensatiebeheer, moet u taaktypen instellen voordat u taken instelt. Enkele voorbeelden van functietypen zijn fulltime en parttime of salaris en uurtarief. U onderhoudt functietypen met behulp van de pagina **Functietypen**. Voer op de pagina **Functietypen** een naam en een korte omschrijving voor het functietype in. Selecteer in het veld **Vrijstellingsstatus** een van de volgende opties om de FLSA-vrijstellingsstatus (Fair Labor Standards Act) aan te geven voor functies die dit functietype hebben:

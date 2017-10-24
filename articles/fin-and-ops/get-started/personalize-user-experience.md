@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Expliciete aanpassingen zijn aanpassingen die u expliciet aanbrengt met de bedoe
 
 U past een element op uw pagina zo aan als u eenvoudigweg het label van het element wilt wijzigen, het element wilt verbergen zodat het niet wordt weergegeven op de pagina (dit verandert geen gegevens, maar u ziet de informatie niet), de informatie wilt opnemen in de overzichtssectie van het sneltabblad (als het element zich op een sneltabblad bevindt), het veld wilt overslaan als op Tab wordt gedrukt of wilt voorkomen dat de gegevens worden gewijzigd, door het element te markeren als 'Niet bewerken'. 
 
-Wanneer u elementen wilt verplaatsen of verbergen of meerdere wijzigingen wilt aanbrengen, kunt u de werkbalk Aanpassing gebruiken. Deze is beschikbaar vanuit het venster Elementeigenschappen door **Dit formulier aanpassen** te kiezen. De werkbalk Aanpassing is ook beschikbaar in het Actievenster van het formulier, onder de groep Aanpassing van het tabblad **Opties**. Selecteer **Dit formulier aanpassen** om de werkbalk Aanpassing weer te geven. 
+Wanneer u elementen wilt verplaatsen of verbergen of meerdere wijzigingen wilt aanbrengen, kunt u de werkbalk Aanpassing gebruiken. Deze is beschikbaar vanuit het venster Elementeigenschappen door **Dit formulier aanpassen** te kiezen. De werkbalk Aanpassing is ook beschikbaar in het actievenster van het formulier, onder de groep Aanpassing van het tabblad **Opties**. Selecteer **Dit formulier aanpassen** om de werkbalk Aanpassing weer te geven. 
 
 [![De werkbalk Aanpassing](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Kies de knop **Sluiten** om de werkbalk te sluiten en de pagina terug te brengen
 Met de werkbalk Aanpassing, is opslaan impliciet. Uw aanpassingen zijn direct van kracht en het is niet nodig om op een knop **Opslaan** te klikken. In sommige gevallen ziet u een hangslotpictogram naast een element wanneer u een hulpmiddel selecteert. Dit betekent dat om de pagina goed te laten werken, u de eigenschappen met betrekking tot het geselecteerde hulpmiddel niet kunt wijzigen. Wanneer werkbalk Aanpassing wordt geopend, wordt de pagina niet-interactief. U kunt geen gegevens invoeren of secties uit- of samenvouwen.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Expliciete aanpassing: een tegel of lijst toevoegen aan een werkruimte
-Sommige pagina's met lijsten hebben een aanvullende afpassingsfunctie beschikbaar binnen het actievenster, onder de groep Aanpassing op het tabblad Opties. Selecteer **Toevoegen aan werkruimte** om de vervolgkeuzelijst te openen die u de mogelijkheid geeft om de informatie in de huidige lijst (gefilterd en gesorteerd of standaard) op een werkruimte als een lijst of tegeloverzicht (dat kan worden gebruikt om het aantal artikelen in de lijst weer te geven) weer te geven. 
+Op sommige pagina's met lijsten is een aanvullende aanpassingsfunctie beschikbaar in het actievenster, onder de groep Aanpassing op het tabblad Opties. Selecteer **Toevoegen aan werkgebied** om de vervolgkeuzelijst te openen waarmee u de informatie in de huidige lijst (gefilterd en gesorteerd of standaard) in een werkgebied kunt weergeven als een lijst of tegeloverzicht (dat kan worden gebruikt om het aantal artikelen in de lijst weer te geven). 
 
 [![Toevoegen aan werkgebied](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

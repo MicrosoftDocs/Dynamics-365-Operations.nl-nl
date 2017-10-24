@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 89ddb0f246eb1d874ff0f2b5305f30355905c45e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fd6dc5173fd37f0257c98c1a41f3e6ce40b5b680
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -38,7 +37,7 @@ Zowel met budgetplan- als budgetregisterinvoerdocumenten is budgettering voor ho
 
 Voor het periodieke proces **Budgetplan genereren op basis van grootboek** op het tabblad **Bron** kunt u het hoofdrekeningtype **Totaal** als criterium opgeven. In dit geval wordt elke totale hoofdrekening opgenomen in het doelbudgetplan en is het bedrag gelijk aan het totaalbedrag van het bereik van geselecteerde hoofdrekeningen. 
 
-U kunt budgetbeheer voor hoofdrekeningen van het type **Totaal** activeren. Deze functionaliteit wordt ondersteund via het gebruik van budgetgroepen. Voor elke totale hoofdrekening moet het budget dat moet worden beheerd voor een budgetgroep, worden gemaakt op de pagina Budgetbeheerconfiguratie. De criteria die u opgeeft, moeten de totale hoofdrekening en het bereik van rekeningen bevatten. Om het proces voor het maken van budgetgroepen te versnellen, kunt u profiteren van de gegevensentiteit van budgetbeheergroepen. 
+U kunt budgetbeheer voor hoofdrekeningen van het type **Totaal** activeren. Deze functionaliteit wordt ondersteund via het gebruik van budgetgroepen. Voor elke totale hoofdrekening moet het budget dat moet worden beheerd voor een budgetgroep, worden gemaakt op de pagina **Budgetbeheerconfiguratie**. De criteria die u opgeeft, moeten de totale hoofdrekening en het bereik van rekeningen bevatten. Om het proces voor het maken van budgetgroepen te versnellen, kunt u profiteren van de gegevensentiteit van budgetbeheergroepen. 
 
 Wanneer een budget wordt gebruikt bij rapportage, zoals in een financieel overzicht, bestaat de som van het budget voor de totaalrekening uit de volgende bedragen:
 

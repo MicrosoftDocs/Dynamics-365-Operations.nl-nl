@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -133,7 +133,7 @@ Klik op de pijl voor een extra menu. Selecteer **Vergrendelen**.
 
 Ja, de meeste Excel-standaardfuncties werken in budgetplansjablonen. Het is raadzaam kleurcodering te gebruiken voor gebruikers om een onderscheid te maken tussen alleen-lezen kolommen en bewerkbare kolommen. Voorwaardelijke opmaak kan worden gebruikt om problematische gebieden van het budget te markeren. Kolomtotalen kunnen eenvoudig worden weergegeven met behulp van Excel-standaardformules boven de tabel.
 
-U kunt ook draaitabellen en diagrammen maken en gebruiken voor extra groeperingen en visualisaties van budgetgegevens. Klik op het tabblad **Gegevens** in de groep **Verbindingen** op **Alles vernieuwen**, en klik vervolgens op **Verbindingseigenschappen**. Klik op het tabblad **Gebruik**. Schakel onder **Vernieuwen** het selectievakje **Gegevens vernieuwen bij openen van bestand** in. 
+U kunt ook draaitabellen en diagrammen maken en gebruiken voor extra groeperingen en visualisaties van budgetgegevens. Klik op het tabblad **Gegevens** in de groep **Verbindingen** op **Alles vernieuwen**, en klik vervolgens op **Verbindingseigenschappen**. Klik op het tabblad **Gebruik** en schakel onder **Vernieuwen** het selectievakje **Gegevens vernieuwen bij openen van bestand** in. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
 

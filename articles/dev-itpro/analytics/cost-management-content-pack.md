@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ De Microsoft Power BI-inhoud voor **Kostenbeheer** is bedoeld voor accountants v
 De primaire gegevensbron voor CostAggregatedCostStatementEntryEntity is de tabel CostStatementCache. Deze tabel wordt beheerd door het raamwerk van de gegevenssetcache. De tabel wordt elke 24 uur standaard bijgewerkt, maar u kunt handmatige updates inschakelen in de gegevenscacheconfiguratie. Vervolgens kunt u een handmatige update in het werkgebied **Kostenbeheer** of **Kostenanalyse** uitvoeren. Nadat de update van CostStatementCache is uitgevoerd, kunt u de OData-verbinding op PowerBI.com bijwerken om bijgewerkte gegevens op de site te bekijken. De afwijkingsmetingen (inkoop, productie) in deze Power BI-inhoud hebben alleen betrekking op artikelen die door de standaardkostenvoorraadmethode worden gewaardeerd. Productieafwijking wordt berekend als het verschil tussen actieve kosten en gerealiseerde kosten. De afwijking van de productie wordt berekend wanneer de productieorder de status **Beëindigd** heeft. Zie voor meer informatie over de typen productieafwijking en de berekening van elk type [Info over het analyseren van afwijkingen voor een voltooide productieorder](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-De Power BI-inhoud voor **Kostenbeheer** is beschikbaar via PowerBI.com. Zie voor meer informatie over het koppelen en laden van Microsoft Dynamics 365 for Finance and Operations-gegevens [Toegang tot Power BI-inhoud via PowerBI.com](power-bi-home-page.md).
+De Power BI-inhoud voor **Kostenbeheer** is beschikbaar via PowerBI.com. Zie voor meer informatie over het koppelen en laden van Microsoft Dynamics 365 for Finance and Operations-gegevens [Toegang tot Power BI-inhoud vanuit PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set metrische gegevens die worden gevisualiseerd als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de Power BI-inhoud voor **Kostenbeheer**.

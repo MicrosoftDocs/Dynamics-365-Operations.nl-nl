@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f665f34055e36775c8bb41be4aae9c4577639d7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -59,7 +58,7 @@ Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële jo
 | Bankremise van leverancier            | Een remisebestand voor een promesse maken dat kan worden verzonden naar de bank van uw organisatie.                                                                                                                                                                                                                                                                      | Remisejournaal                                             |
 | Voorschot van leverancier               | Leveranciervoorschottransacties maken.                                                                                                                                                                                                                                                                                                                    | Betalingsjournaal                                                |
 | Door leverancier getrokken promesse       | Promessen van leveranciers trekken als een betalingsmethode. Om dit journaaltype te gebruiken, schakelt u de optie **Getrokken journaal automatisch maken en boeken tijdens boeken van facturen** op de pagina **Betalingsmethoden - leveranciers**.                                                                                                                                          | Journaal met getrokken promessen                                   |
-| Pool van leveranciersfacturen exclusief boeken | Leveranciersfactuurtransacties maken die nog niet zijn geboekt naar een tijdelijke ontvangstrekening.                                                                                                                                                                                                                                                             | Leveranciersfactuurpool met uitzondering van boekingsdetails                  |
+| Pool van leveranciersfacturen exclusief boeking | Leveranciersfactuurtransacties maken die nog niet zijn geboekt naar een tijdelijke ontvangstrekening.                                                                                                                                                                                                                                                             | Leveranciersfactuurpool met uitzondering van boekingsdetails                  |
 | Pool van leveranciersfacturen               | Transacties voor pool van leveranciersfacturen maken.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Registratie van leveranciersfactuur          | Leveranciersfacturen in een journaal boeken.                                                                                                                                                                                                                                                                                                                 | Factuurjournaal                                                |
 | Door leverancier hertrokken promesse     | Een promesse te hertrekken die eerder is gehonoreerd door de bank van uw organisatie.                                                                                                                                                                                                                                                                      | Journaal met hertrokken promessen                                 |

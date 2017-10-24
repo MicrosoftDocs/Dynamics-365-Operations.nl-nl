@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -82,7 +81,7 @@ U gebruikt taakgebieden om afsluitingstaken te groeperen in logische gebieden va
 
 ### <a name="calendars"></a>Kalenders
 
-Maak en bewerk kalenders voor financiële afsluiting met het tabblad Kalenders.  Hier definieert u de werkdagen voor afsluitingsprocessen. Dit tabblad wordt ook gebruikt voor het plannen van afsluitingstaken.  Maak een nieuwe kalender en geef het aantal werkdagen aan dat moet worden gebruikt voor het plannen van taken.  U kunt het beste een kalender maken voor een lange periode, zoals een jaar of meerdere jaren. De kalender kan namelijk worden bewerkt nadat u deze hebt gemaakt.  Nadat de kalender is gemaakt, klikt u op de knop Bewerken om de kalender bij te werken voor bepaalde dagen, zoals vrije dagen.  Afsluitingstaken worden gepland op dagen waarop de waarde Controle is ingesteld op Open.  Als afsluitingstaken niet op een specifieke dag moeten worden ingepland, moet voor die dag de waarde Controle zijn ingesteld op Afgesloten.
+Maak en bewerk financiële afsluitingskalenders met het tabblad Kalenders. Op dit tabblad definieert u de werkdagen voor afsluitingsprocessen en plant u afsluitingstaken.  Maak een nieuwe kalender en geef het aantal werkdagen aan dat moet worden gebruikt voor het plannen van taken.  U kunt het beste een kalender maken voor een lange periode, zoals een jaar of meerdere jaren. De kalender kan namelijk worden bewerkt nadat u deze hebt gemaakt.  Nadat de kalender is gemaakt, klikt u op de knop Bewerken om de kalender bij te werken voor bepaalde dagen, zoals vrije dagen.  Afsluitingstaken worden gepland op dagen waarop de waarde Controle is ingesteld op Open.  Als afsluitingstaken niet op een specifieke dag moeten worden ingepland, moet voor die dag de waarde Controle zijn ingesteld op Afgesloten.
 
 ### <a name="templates"></a>Sjablonen
 

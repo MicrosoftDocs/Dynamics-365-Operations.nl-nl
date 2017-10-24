@@ -15,13 +15,13 @@ ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,7 +116,7 @@ Als waarschuwingsberichten voor budgetbeheer moeten worden onderdrukt voor gebru
 
 ### <a name="activate-budget-control"></a>Budgetbeheer activeren
 
-Nadat budgetbeheer is geconfigureerd, kunt u dit inschakelen en het activeren op het tabblad **Budgetbeheer activeren**. De conceptversie wordt dan van kracht.
+Nadat budgetbeheer is geconfigureerd, kunt u dit inschakelen en activeren op het tabblad **Budgetbeheer activeren**. De conceptversie wordt dan van kracht.
 > [!Important]
 > Nadat budgetbeheer is ingeschakeld en actief is en nadat transacties zijn geboekt, mag budgetbeheer niet halverwege het jaar worden uitgeschakeld. Wanneer budgetbeheer is uitgeschakeld, worden geen activiteiten geregistreerd ten behoeve van budgetbeheer en worden er geen budgetcontroles meer uitgevoerd. Daarom geven documenten die reeds zijn geboekt mogelijk niet op de juiste wijze ontlastende bedragen of saldi weer in query's en rapporten die verband houden met budgetbeheer. Deze omvatten statistieken voor budgetbeheer voor eventuele downstream of correctiedocumenten en -journalen. 
 

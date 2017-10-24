@@ -1,7 +1,7 @@
 ---
 title: Stuklijstberekeningsgroepen
 description: Dit artikel bevat informatie over berekeningsgroepen voor stuklijsten en het instellen hiervan. Als u een stuklijstberekening wilt uitvoeren, moet u berekeningsgroepen instellen en deze toewijzen aan afzonderlijke artikelen, of een standaardberekeningsgroep instellen. De berekeningsinstellingen van de berekeningsgroep worden vervolgens gebruikt als standaardwaarden op de pagina Sstuklijstberekening op het moment van de berekening van de stuklijst.
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ Het selectievakje **Explosie stoppen** wordt gebruikt om aan te geven wanneer ee
 
 ### <a name="warnings"></a>Waarschuwingen
 
-Op het sneltabblad **Waarschuwingen** selecteert u de opties voor alle waarschuwingsberichten die gebruikers ontvangen als zij stuklijstberekeningen uitvoeren. Als u bijvoorbeeld het selectievakje **Geen stuklijst** inschakelt, ontvangt de gebruiker een waarschuwing als er geen actieve stuklijstversie is gevonden voor een van de onderdelen of voor het bovenliggende artikel waarvoor de berekening van de stuklijst wordt uitgevoerd. Als u het selectievakje **Geen route** inschakelt, ontvangt de gebruiker een waarschuwing als geen actieve routeversie is gevonden. Als u bronnen op uw routes en bewerkingen gebruikt, kunt u het systeem instrueren om te controleren op deze bronnen. Als vervolgens geen bron wordt gevonden op elke regel in de actieve route, ontvangt de gebruiker een waarschuwing. U kunt ook verifiëren en controleren voor verbruik. Verbruik is de hoeveelheid in een bepaalde route. Meestal geeft dit de hoeveelheid tijd aan die nodig is om een specifieke bewerking in een productieproces uit te voeren. U kunt controleren of een artikel geen kostprijs heeft. Als er geen actieve kostprijs voor een artikel is, worden geen kosten opgeteld bij de berekening van de stuklijst. U kunt ook de leeftijd van de kostprijs controleren en verifiëren. Voer bijvoorbeeld **60** in om aan te geven dat de kostprijs per eenheid na 60 dagen opnieuw moet worden geëvalueerd. Als deze limiet is bereikt, wordt een waarschuwing gegenereerd in het systeem. Stel bijvoorbeeld dat een kostprijs is ingevoerd voor een artikel in januari van dit jaar. Als het nu augustus is, oftewel meer dan 60 dagen nadat de kostprijs is ingevoerd, ontvangt de gebruiker een waarschuwing wanneer de stuklijstberekening wordt uitgevoerd. U kunt eenj percentage invoeren in het veld **Minimale brutowinstbijdrage**. Deze waarde geeft het punt aan waarop de minimale brutowinstbijdrage niet wordt gehaald. Als de brutowinstbijdrage voor een bepaald onderdeel niet is gehaald, ontvangt de gebruiker een waarschuwing. Daarom helpt dit veld garanderen dat u de kosten en de extra opslagkosten die mogelijk zijn vereist voor uw artikelen niet onderbiedt.
-Standaardinstellingen in Parameters voor voorraad- en magazijnbeheer
---------------------------------------------------------------
+Op het sneltabblad **Waarschuwingen** selecteert u de opties voor alle waarschuwingsberichten die gebruikers ontvangen als zij stuklijstberekeningen uitvoeren. 
 
-Omdat berekeningsgroepen zijn vereist voor de uitvoering van berekeningen, moet u een standaardberekeningsgroep instellen in de parameters voor voorraadbeheer. Deze instellingen stellen bedrijven in staat een standaardkostengroep en winstinstelling te hebben voor alle artikelen. Als vervolgens voor een bepaald artikel speciale berekeningsvereisten gelden, kan de gebruiker een andere berekeningsgroep toewijzen aan dat artikel. Normaal gesproken kunt u berekeningsgroepen instellen op artikelen in onderdelen van de stuklijst in plaats van op stuklijstartikelen. Als echter waarschuwingsberichten worden weergegeven, kunnen berekeningsgroepen worden toegepast. Een berekeningsgroep die wordt toegewezen aan artikelen heeft voorrang op de standaardwaarde die is ingesteld in de parameters voor voorraadbeheer. U kunt de standaardparameter instellen onder **Kostenbeheer** &gt; **Instelling voor boekhoudingbeleid voorraad** &gt; **Parameters** &gt; **Voorraadboekhouding** &gt; **Berekeningsgroep**. Door een standaardconfiguratiegroep in te stellen, kunt u tevens de waarschuwingsvoorwaarden configureren waarin gebruikers wordt gevraagd tijdens de berekening van de stuklijst of de geselecteerde onderdelen mogelijk berekeningsfouten kunnen veroorzaken.
-Waarschuwingsberichten weergeven op de pagina Voltooid
-------------------------------------------
+Als u bijvoorbeeld het selectievakje **Geen stuklijst** inschakelt, ontvangt de gebruiker een waarschuwing als er geen actieve stuklijstversie is gevonden voor een van de onderdelen of voor het bovenliggende artikel waarvoor de berekening van de stuklijst wordt uitgevoerd. Als u het selectievakje **Geen route** inschakelt, ontvangt de gebruiker een waarschuwing als geen actieve routeversie is gevonden. Als u bronnen op uw routes en bewerkingen gebruikt, kunt u het systeem instrueren om te controleren op deze bronnen. Als vervolgens geen bron wordt gevonden op elke regel in de actieve route, ontvangt de gebruiker een waarschuwing. 
+
+U kunt ook verifiëren en controleren voor verbruik. Verbruik is de hoeveelheid in een bepaalde route. Meestal geeft dit de hoeveelheid tijd aan die nodig is om een specifieke bewerking in een productieproces uit te voeren. U kunt controleren of een artikel geen kostprijs heeft. Als er geen actieve kostprijs voor een artikel is, worden geen kosten opgeteld bij de berekening van de stuklijst. 
+
+U kunt ook de leeftijd van de kostprijs controleren en verifiëren. Voer bijvoorbeeld **60** in om aan te geven dat de kostprijs per eenheid na 60 dagen opnieuw moet worden geëvalueerd. Als deze limiet is bereikt, wordt een waarschuwing gegenereerd in het systeem. Stel bijvoorbeeld dat een kostprijs is ingevoerd voor een artikel in januari van dit jaar. Als het nu augustus is, oftewel meer dan 60 dagen nadat de kostprijs is ingevoerd, ontvangt de gebruiker een waarschuwing wanneer de stuklijstberekening wordt uitgevoerd. U kunt eenj percentage invoeren in het veld **Minimale brutowinstbijdrage**. Deze waarde geeft het punt aan waarop de minimale brutowinstbijdrage niet wordt gehaald. Als de brutowinstbijdrage voor een bepaald onderdeel niet is gehaald, ontvangt de gebruiker een waarschuwing. Daarom helpt dit veld garanderen dat u de kosten en de extra opslagkosten die mogelijk zijn vereist voor uw artikelen niet onderbiedt.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Standaardinstellingen in Parameters voor voorraad- en magazijnbeheer
+
+Omdat berekeningsgroepen zijn vereist voor de uitvoering van berekeningen, moet u een standaardberekeningsgroep instellen in de parameters voor voorraadbeheer. Deze instellingen stellen bedrijven in staat een standaardkostengroep en winstinstelling te hebben voor alle artikelen. Als vervolgens voor een bepaald artikel speciale berekeningsvereisten gelden, kan de gebruiker een andere berekeningsgroep toewijzen aan dat artikel. Normaal gesproken kunt u berekeningsgroepen instellen op artikelen in onderdelen van de stuklijst in plaats van op stuklijstartikelen. Als echter waarschuwingsberichten worden weergegeven, kunnen berekeningsgroepen worden toegepast. Een berekeningsgroep die wordt toegewezen aan artikelen heeft voorrang op de standaardwaarde die is ingesteld in de parameters voor voorraadbeheer. 
+
+U kunt de standaardparameter instellen onder **Kostenbeheer** &gt; **Instelling voor boekhoudingbeleid voorraad** &gt; **Parameters** &gt; **Voorraadboekhouding** &gt; **Berekeningsgroep**. Door een standaardconfiguratiegroep in te stellen, kunt u tevens de waarschuwingsvoorwaarden configureren waarin gebruikers wordt gevraagd tijdens de berekening van de stuklijst of de geselecteerde onderdelen mogelijk berekeningsfouten kunnen veroorzaken.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Waarschuwingsberichten weergeven op de pagina Voltooid
 
 Een stuklijstberekening genereert waarschuwingsberichten. U kunt de waarschuwingen over een geselecteerd artikel weergeven. Maak bijvoorbeeld een nieuwe verkooporder voor artikel D0001 in Verkoop en marketing. Klik vervolgens op de verkooporderregel in het menu **Regel bijwerken** op **Gebaseerd op stuklijst/formule** om de berekeningsdetails en waarschuwingen weer te geven. U kunt resultaten van stuklijstberekeningen ook weergeven op de pagina **Voltooid**. Voor de waarschuwingsberichten gelden er slechts twee waarschuwingsvoorwaarden voor gefabriceerde artikelen, terwijl er vier waarschuwingsvoorwaarden gelden voor elk artikel:
 -   Er wordt aangegeven wanneer er voor een gefabriceerd artikel geen actieve stuklijst aanwezig is.

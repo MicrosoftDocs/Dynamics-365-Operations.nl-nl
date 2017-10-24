@@ -1,7 +1,7 @@
 ---
 title: Kostengroepen
 description: Kostengroepen vormen de basis voor het segmenteren en analyseren van kostenbijdragen in de berekende kosten van een gefabriceerd artikel, zoals de kostenbijdragen voor materiaal, arbeid en overhead. Voor segmentatie van kostengroepen worden in de productieomgeving verschillende synoniemen gehanteerd, zoals kostenanalyse, kostenontleding of kostenclassificatie.
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 1855f744-f73f-4fa8-8290-a7ee126d368b
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fb335a521a1a79ea7d978171d233364c58765a0b
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 022cca99bc5ad1f4c023b0b7aba748a2ef6b1d60
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -51,7 +51,7 @@ Kostengroepsegmentatie kan ook van toepassing zijn op afwijkingen voor een stand
 Aan een kostengroep kunnen een kostengroeptype en gedrag voor extra segmentatie worden toegewezen.
 
 -   **Kostengroeptype** − aan elke kostengroep moet een kostengroeptype worden toegewezen, waarmee wordt aangegeven dat de kostengroep van toepassing is op directe materialen, directe productie of directe outsourcing of om aan te geven dat deze indirect of ongedefinieerd is. Een kostengroep waarvoor is aangegeven dat directe materialen aan artikelen kunnen worden toegewezen. Een kostengroep voor directe productie kan aan kostencategorieën worden toegewezen. Een kostengroep directe outsourcing kan aan een producttype service worden toegewezen, zodat u kosten kunt classificeren die aan de inkoop van services voor uitbestedingsactiviteiten zijn gekoppeld. Een indirecte-kostengroep kan worden toegewezen aan indirecte kosten voor toeslagen of tarieven. Een kostengroep die is ingesteld als ongedefinieerd, kan worden toegewezen aan artikelen, kostencategorieën of indirecte kosten. Een kostengroeptype wordt toegewezen voor verschillende doeleinden. Allereerst kunnen er minder kostengroepen worden toegewezen en wordt een lijst met toepasselijke kostengroepen weergegeven. Ten tweede biedt de toewijzing extra segmentatie voor rapportagedoeleinden. Tot slot kan toewijzing worden gebruikt om grootboekrekeningen voor afwijkingen toe te wijzen.
--   **Gedrag** − aan elke kostengroep kan desgewenst een gedrag worden toegewezen om aan te geven dat de kostengroep geldt voor vaste of variabele kosten. Kostengroepen met een null-waarde voor gedrag worden beschouwd als variabele kosten. Een gedrag wordt alleen toegewezen voor rapportagedoeleinden. Kosten kunnen bijvoorbeeld worden weergegeven met segmentatie van vaste en variabele kosten in de kostprijsberekening en op de pagina**Kostenvergaring per kostengroep**. Als u een winstinstellingspercentage aan elke kostengroep toewijst, bevat de stuklijstberekening een voorgestelde verkoopprijs op basis van de kostprijs plus een opslagpercentage.
+-   **Gedrag** − aan elke kostengroep kan desgewenst een gedrag worden toegewezen om aan te geven dat de kostengroep geldt voor vaste of variabele kosten. Kostengroepen met een null-waarde voor gedrag worden beschouwd als variabele kosten. Een gedrag wordt alleen toegewezen voor rapportagedoeleinden. Kosten kunnen bijvoorbeeld worden weergegeven met segmentatie van vaste en variabele kosten in de kostprijsberekening en op de pagina **Kostenvergaring per kostengroep**. Als u een winstinstellingspercentage aan elke kostengroep toewijst, bevat de stuklijstberekening een voorgestelde verkoopprijs op basis van de kostprijs plus een opslagpercentage.
 
 
 

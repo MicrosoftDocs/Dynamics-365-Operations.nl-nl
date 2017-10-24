@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1b033e4bf6705b3c9a33f2184666158049909a80
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aa38c50a58bed5702332182b9e0827b863f536f7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -54,7 +54,7 @@ Met een routekaart beschikt u over een overzicht van informatie uit route- en be
 Een routetaak vermeldt elke taak van een bewerking in detail en omvat installatie, proces, wachtrij en transporttijden. Een bewerking, zoals lakken, kan bijvoorbeeld afzonderlijke taken vereisen, zoals instellingstijd, uitvoeringstijd voor het lakproces en wachttijd voor het drogen.
 
 ## <a name="job-cards"></a>Taakkaarten
-Een taakkaart bevat de afzonderlijke taaknummers van een bepaalde bewerking. Per pagina wordt één taak weergegeven. De taken op een taakkaart en de geschatte tijden worden opgehaald uit de instellingsgegevens voor routes en bewerkingen. Vanaf een taakkaart kunt u de pagina **Productiejournaalregels**, **taakkaart**openen. Personen die bronnen voor bedrijfsactiviteiten beheren, kunnen feedback geven over het productieproces. De kaart bevat velden waarin u verbruiksstatistieken en informatie, zoals de fouthoeveelheid, kunt invoeren.
+Een taakkaart bevat de afzonderlijke taaknummers van een bepaalde bewerking. Per pagina wordt één taak weergegeven. De taken op een taakkaart en de geschatte tijden worden opgehaald uit de instellingsgegevens voor routes en bewerkingen. Vanaf een taakkaart kunt u de pagina **Productiejournaalregels**, **taakkaart** openen. Personen die bronnen voor bedrijfsactiviteiten beheren, kunnen feedback geven over het productieproces. De kaart bevat velden waarin u verbruiksstatistieken en informatie, zoals de fouthoeveelheid, kunt invoeren.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Magazijnwerk voor het verzamelen van grondstoffen
 Werkzaamheden voor het verzamelen van grondstoffen worden gegenereerd tijdens de vrijgave. Werk wordt alleen gegenereerd voor de hoeveelheid materialen die fysiek werd gereserveerd voor de productieorder voordat de order werd vrijgegeven. De volgende instellingen zijn vereist om magazijnwerk te genereren voor orderverzameling van grondstoffen:

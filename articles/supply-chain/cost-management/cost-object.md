@@ -1,7 +1,7 @@
 ---
 title: Kostenobjecten
 description: Dit artikel biedt informatie over kostenobjecten en uitleg over hoe kosten en hoeveelheden worden samengevoegd. Een kostenopject is een entiteit waarvoor kosten en hoeveelheden worden samengevoegd. Een kostenobjectentiteit kan een product of productvarianten, zoals varianten voor stijl en kleur, zijn.
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 823d3edd106925339607d01fbf5f1921b85ff244
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 2549ace837fcdfb9f927e6b486b6a94566bcbbd2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,8 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Dit artikel biedt informatie over kostenobjecten en uitleg over hoe kosten en hoeveelheden worden samengevoegd. Een kostenopject is een entiteit waarvoor kosten en hoeveelheden worden samengevoegd. Een kostenobjectentiteit kan een product of productvarianten, zoals varianten voor stijl en kleur, zijn.  
 
-<a name="cost-objects"></a>Kostenobjecten
-------------
+## <a name="cost-objects"></a>Kostenobjecten
 
 De pagina **Kostenobjecten** bevat alle kostenobjecten die op een product worden geregistreerd. De kostenobjecten worden gedefinieerd door gegevens uit de volgende bronnen:
 
@@ -68,7 +67,7 @@ De volgende tabel toont wat een kostenobject is en wat een voorraadobject is.
     -   Boekingshoeveelheid
 -   Het veld **Gemiddelde eenheidskosten** is een berekend veld. De waarde wordt berekend door de waarde **Waarde** te delen door de waarde **Hoeveelheid**.
 
-**Opmerking:** de parameter Fysieke waarde opnemen is niet van invloed op de eerdere berekeningen.
+**Opmerking:** de parameter **Fysieke waarde opnemen** is niet van invloed op de eerdere berekeningen.
 
 <a name="see-also"></a>Zie ook
 --------
@@ -79,7 +78,7 @@ De volgende tabel toont wat een kostenobject is en wat een voorraadobject is.
 
 [Traceringsdimensiegroep](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Wat is nieuw of gewijzigd](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
+[Wat is nieuw of gewijzigd](../../fin-and-ops/get-started/whats-new-changed.md)
 
 [Kosteninvoer](cost-entries.md)
 

@@ -16,13 +16,13 @@ ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,9 +37,9 @@ In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een
 
 In rijdefinities bepalen de nummers of labels in de cel **Rijcode** elke regel in de rijdefinitie. U kunt de rijcode opgeven om te verwijzen naar gegevens in berekeningen en totalen.
 
-### <a name="row-code-requirements"></a>Vereisten van rijcode
+### <a name="row-code-requirements"></a>Rijcodevereisten
 
-Een rijcode is vereist voor alle rijen. U kunt numerieke, alfanumerieke en niet-ingestelde (lege) rijcodes mengen in een rijdefinitie. De rijcode kan elk positief geheel getal (onder 100.000.000) zijn of een beschrijvend label dat die rij identificeert. Een beschrijvend label moet aan deze regels voldoen:
+Voor elke rij is een rijcode vereist. U kunt numerieke, alfanumerieke en niet-ingestelde (lege) rijcodes mengen in een rijdefinitie. De rijcode kan elk positief geheel getal (onder 100.000.000) zijn of een beschrijvend label dat die rij identificeert. Een beschrijvend label moet aan deze regels voldoen:
 
 -   Het label moet met een alfabetisch teken (a tot en met z of A tot en met Z) beginnen en kan elke combinatie van cijfers en letters tot 16 tekens zijn. 
     > [!NOTE]
@@ -68,7 +68,7 @@ De volgende voorbeelden zijn geldige rijcodes:
 ## <a name="add-a-description"></a>Een omschrijving toevoegen
 De omschrijvingscel biedt de omschrijving van de financiële gegevens in de rij van het rapport, zoals 'opbrengst' of 'netto-inkomsten'. De tekst in de cel **Omschrijving** wordt in het rapport precies weergegeven zoals u deze in de rijdefinitie invoert. 
 > [!NOTE]
-> De breedte van de omschrijvingskolom op het rapport wordt ingesteld in de kolomdefinitie. Als de tekst in de kolom **Omschrijving** in de rijdefinitie lang is, controleert u de breedte van de kolom **DESC**. Wanneer u het dialoogvenster **Rijen invoegen van** gebruikt, zijn de waarden in de kolom **Omschrijving** de segmentwaarden of dimensiewaarden van de financiële gegevens. U kunt rijen invoegen om beschrijvende tekst toe te voegen, zoals een sectiekoptekst of een sectietotaal, en om opmaak toe te voegen, zoals een regel vóór een totaalrij. Als het rapport een rapportagestructuur bevat, kunt u de aanvullende tekst opnemen die is gedefinieerd voor de rapportage-eenheden in de rapportagestructuur. U kunt de aanvullende tekst ook beperken tot een specifieke rapportage-eenheid.
+> De breedte van de omschrijvingskolom op het rapport wordt ingesteld in de kolomdefinitie. Als de tekst in de kolom **Omschrijving** in de rijdefinitie lang is, controleert u de breedte van de kolom **DESC**. Wanneer u het dialoogvenster **Rijen invoegen van** gebruikt, zijn de waarden in de kolom **Omschrijving** de segmentwaarden of dimensiewaarden van de financiële gegevens. U kunt rijen invoegen om een beschrijvende tekst toe te voegen, bijvoorbeeld een koptekst of een totaal voor een sectie, en om opmaak toe te voegen, bijvoorbeeld een lijn voorafgaand aan een totaalrij. Als het rapport een rapportagestructuur bevat, kunt u de aanvullende tekst opnemen die is gedefinieerd voor de rapportage-eenheden in de rapportagestructuur. U kunt de aanvullende tekst ook beperken tot een specifieke rapportage-eenheid.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>De omschrijving voor een regel op een rapport toevoegen
 
@@ -112,12 +112,12 @@ De cel **Opmaakcode** biedt een selectie van vooraf opgemaakte keuzes voor de in
     | ---                           | Enkele onderstreping                   | Plaatst één lijn onder alle bedragkolommen op het rapport.                                                                                                                                                     |
     | ===                           | Dubbele onderstreping                   | Plaatst een dubbele lijn onder alle bedragkolommen op het rapport.                                                                                                                                                     |
     | LINE1                         | Dunne lijn                          | Tekent één dunne lijn over de pagina.                                                                                                                                                                      |
-    | LINE2                         | Dikke lijn                         | Tekent één dikke lijn over de pagina.                                                                                                                                                                     |
+    | LINE2                         | Dikke lijn                         | Hiermee tekent u een dikke lijn over de gehele paginabreedte.                                                                                                                                                                     |
     | LINE3                         | Stippellijn                        | Tekent één stippellijn over de pagina.                                                                                                                                                                    |
     | LINE4                         | Dikke lijn en dunne lijn           | Tekent één dubbele lijn over de pagina. De bovenste lijn is dik en de onderste lijn is dun.                                                                                                                       |
     | LINE5                         | Dunne lijn en dikke lijn           | Tekent één dubbele lijn over de pagina. De bovenste lijn is dun en de onderste lijn is dik.                                                                                                                       |
     | BXB BXC                       | Rij in vakken                          | Trekt een vak rond de rapportrijen die beginnen met de rij **BXB** en eindigen met de rij **BXC**.                                                                                                               |
-    | REM                           | Opmerking                             | Identificeert een rij die een opmerkingrij is en niet op het rapport moet worden afgedrukt. Een opmerkingsrij kan bijvoorbeeld uw opmaaktechnieken verklaren.                                                            |
+    | REM                           | Opmerking                             | Hiermee specificeert u een rij met een opmerking, die niet in het rapport moet worden afgedrukt. U kunt in een REM-rij bijvoorbeeld een toelichting geven op de gekozen opmaak.                                                            |
     | SORT ASORT SORTDESC ASORTDESC | Sorteren                               | Sorteert onkosten en opbrengsten, sorteert een werkelijk of budgetafwijkingrapport op de grootste afwijking, of sorteert de rijomschrijvingen op alfabetische volgorde.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Gerelateerde formules/rijen/eenheden opgeven
@@ -145,7 +145,7 @@ Wanneer u een rijtotaalformule maakt, moet u rijcodes gebruiken om op te geven w
 
 ### <a name="create-a-row-total"></a>Een rijtotaal maken
 
-1.  Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
+1.  Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2.  Dubbelklik op de cel **Opmaakcode** in de rijdefinitie en selecteer **TOT**.
 3.  Voer in de cel **Gerelateerde formules/rijen/eenheden** de totale formule in.
 
@@ -177,7 +177,7 @@ Een of meer basisrijen worden gedefinieerd in de rijdefinitie, en dan bepaalt de
 -   **CBR**-rijen worden niet afgedrukt op het ingevulde rapport.
 -   De **CBR**-opmaakcode en de gerelateerde rijcode worden geplaatst boven de rij of de sectie die gerelateerde berekeningen weergeeft.
 
-In een kolomdefinitie geeft het kolomtype **CALC** een kolom aan die een formule in de rij **Formule** opgeeft. Deze formule werkt op de gegevens voor deze kolom van het rapport en gebruikt het trefwoord 'Baserow' op berekeningen te baseren op de **CBR**-opmaakcodes in de rij. In de rijdefinitie bepaalt de opmaakcode **CBR** de basisrij voor kolommen die een percentage berekenen van of vermenigvuldigen met de basisrij voor elke rij in het rapport. U kunt meerdere **CBR**-opmaakcodes in een rij hebben, zoals één voor nettoverkoop, één voor brutoverkoop en één voor totale onkosten. Meestal wordt de **CBR**-opmaakcode gebruikt om een percentage te maken voor rekeningen die met een totale regel worden vergeleken. Een basisrij wordt gebruikt voor alle berekeningen tot een andere basisrij is gedefinieerd. U moet een **CBR**-beginopmaakcode en **CBR**-eindopmaakcode definiëren. Om bijvoorbeeld onkosten als een percentage van nettoverkoop te bepalen, kunt u de waarde in elke onkostenrij delen door de waarde in de rij met nettoverkoop. In dit geval is de rij met nettoverkoop de basisrij. U kunt een kolomdefinitie definiëren die huidige en eerdere resultaten rapporteert, samen met een basispercentage van elk resultaat, zoals in het onderstaande voorbeeld. Begin met gedetailleerd inkomensoverzicht.
+In een kolomdefinitie specificeert het kolomtype **CALC** een kolom die in de rij **Formule** een formule bevat. Deze formule werkt op de gegevens voor deze kolom van het rapport en gebruikt het trefwoord 'Baserow' op berekeningen te baseren op de **CBR**-opmaakcodes in de rij. In de rijdefinitie bepaalt de opmaakcode **CBR** de basisrij voor kolommen die een percentage berekenen van of vermenigvuldigen met de basisrij voor elke rij in het rapport. U kunt meerdere **CBR**-opmaakcodes in een rij hebben, zoals één voor nettoverkoop, één voor brutoverkoop en één voor totale onkosten. Meestal wordt de **CBR**-opmaakcode gebruikt om een percentage te maken voor rekeningen die met een totale regel worden vergeleken. Een basisrij wordt gebruikt voor alle berekeningen tot een andere basisrij is gedefinieerd. U moet een **CBR**-beginopmaakcode en **CBR**-eindopmaakcode definiëren. Om bijvoorbeeld onkosten als een percentage van nettoverkoop te bepalen, kunt u de waarde in elke onkostenrij delen door de waarde in de rij met nettoverkoop. In dit geval is de rij met nettoverkoop de basisrij. U kunt een kolomdefinitie definiëren die huidige en eerdere resultaten rapporteert, samen met een basispercentage van elk resultaat, zoals in het onderstaande voorbeeld. Begin met gedetailleerd inkomensoverzicht.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Selecteer de basisrij in een rijdefinitie voor een kolomberekening
 
@@ -221,12 +221,12 @@ In het volgende voorbeeld worden de waarden in kolom D van het rapport gesorteer
 |----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
 | 100      | Gesorteerd op maandelijkse afwijking in oplopende volgorde       | DES         |                             |                |                    |                              |
 | 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
-| 160      | Verkoop                                               |             |                             | C              |                    | 4100                         |
+| 160      | Verkopen                                               |             |                             | C              |                    | 4100                         |
 | 190      | Verkoopretouren                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Rente inkomen                                     |             |                             | C              |                    | 7000                         |
+| 490      | Rentebaten                                     |             |                             | C              |                    | 7000                         |
 | 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | Gesorteerd op JTD absolute afwijking in aflopende volgorde | DES         |                             |                |                    |                              |
+| 550      | In aflopende volgorde gesorteerd op absolute afwijking in jaar tot heden | DES         |                             |                |                    |                              |
 | 580      |                                                     | ASORTDESC   | 610:940                     |                | G                  |                              |
 | 610      | Verkoop                                               |             |                             | C              |                    | 4100                         |
 | 640      | Verkoopretouren                                       |             |                             |                |                    | 4110                         |
@@ -272,7 +272,7 @@ De cel **Opmaakopheffing** geeft de opmaak op die voor de rij wordt gebruikt wan
 
 Valutaopmaak is van toepassing op een fiscaal bedrag en bevat het valutasymbool. De volgende opties zijn beschikbaar:
 
--   **Valutasymbool** - Het valutasymbool voor het rapport. Deze waarde overschrijft de instelling **Landinstellingen** voor de bedrijfsgegevens.
+-   **Valutasymbool** – Het valutasymbool voor het rapport. Deze waarde overschrijft de instelling **Landinstellingen** voor de bedrijfsgegevens.
 -   **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
 -   **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
 -   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
@@ -464,7 +464,7 @@ In de volgende tabel worden de velden beschreven in het dialoogvenster **Dimensi
 | Totaalrekeningen   | Typ of zoek in het veld **Naam** een dimensie van totaalrekeningen. Het veld **Formule** wordt ingevuld met de formule in de cel **Koppeling naar financiële dimensies** voor deze totaalrekening in de rijdefinitie.                                                                       |
 
 ## <a name="add-dimension-value-sets-in-a-row-definition"></a>Sets van dimensiewaarden toevoegen aan een rijdefinitie
-Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een set van dimensiewaarden kan waarden in slechts één dimensie bevatten, maar u kunt een set van dimensiewaarden gebruiken in meerdere rijdefinities, kolomdefinities, rapportagestructuurdefinities en rapportdefinities. U kunt de verschillende sets van dimensiewaarden ook combineren in een rapportdefinitie. Wanneer een wijziging aan uw financiële gegevens vereist dat u de set van dimensiewaarden wijzigt, kunt u de definitie van de set van dimensiewaarden bijwerken. Die update is van toepassing op alle gebieden die de set van dimensiewaarden gebruiken. Als u bijvoorbeeld vaak een waardebereik opgeeft om te koppelen naar uw financiële gegevens, zoals de waarden van 5100 tot en met 5600, kunt u dit bereik toewijzen aan een rekeningenset met de naam Verkoop. Nadat u een reeks dimensiewaarden hebt gemaakt, kunt u deze selecteren als uw koppeling voor financiële gegevens. Als het waardebereik van 5100 tot en met 5600 bijvoorbeeld aan Verkoop is toegewezen, en 4175 is toegewezen aan Kortingen, kunt u uw totale verkoop bepalen door Kortingen af te trekken van Verkoop. Deze bewerking is aangegeven als **(5100:5600)-4175**.
+Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een set van dimensiewaarden kan waarden in slechts één dimensie bevatten, maar u kunt een set van dimensiewaarden gebruiken in meerdere rijdefinities, kolomdefinities, rapportagestructuurdefinities en rapportdefinities. U kunt de verschillende sets van dimensiewaarden ook combineren in een rapportdefinitie. Wanneer een wijziging aan uw financiële gegevens vereist dat u de set van dimensiewaarden wijzigt, kunt u de definitie van de set van dimensiewaarden bijwerken. Die update is van toepassing op alle gebieden die de set van dimensiewaarden gebruiken. Als u bijvoorbeeld vaak een waardebereik opgeeft om te koppelen naar uw financiële gegevens, zoals de waarden van 5100 tot en met 5600, kunt u dit bereik toewijzen aan een rekeningenset met de naam Verkoop. Nadat u een dimensiewaardegroep hebt gemaakt, kunt u deze set selecteren als uw financiële gegevenskoppeling. Om een ander voorbeeld te geven, als u het waardebereik 5100 tot en met 5600 hebt toegewezen aan Verkoop en 4175 aan Kortingen, kunt u het verkooptotaal berekenen door Kortingen af te trekken van Verkoop, of in cijfers (5100:5600)-4175. Deze bewerking is aangegeven als **(5100:5600)-4175**.
 
 ### <a name="create-a-set-of-dimension-values"></a>Een set van dimensiewaarden maken
 
@@ -476,11 +476,11 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 6.  Selecteer in het dialoogvenster **Rekening** de naam van de rekening in de lijst, of zoek naar de invoer in het veld **Zoeken**. Klik vervolgens op **OK**.
 7.  Herhaal stappen 5 tot en met 6 in de kolom **Tot** om een formule voor deze operator te ontwerpen.
 8.  Als de formule is voltooid, klikt u op **OK**.
-9.  Klik in het dialoogvenster **Sets van dimensiewaarden beheren** op **Afsluiten**.
+9.  Klik op **Sluiten** in het dialoogvenster **Dimensiegroepen beheren**.
 
-### <a name="update-a-set-of-dimension-values"></a>Een set van dimensiewaarden bijwerken
+### <a name="update-a-set-of-dimension-values"></a>Een set dimensiewaarden bijwerken
 
-1.  Open in Report Designer de rij, kolom of structuur die u wilt wijzigen.
+1.  Open in Rapportontwerper de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
 2.  Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
 3.  Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
 4.  Selecteer in de lijst de set van dimensiewaarden die u wilt bijwerken en klik vervolgens op **Wijzigen**.
@@ -498,9 +498,9 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 4.  Selecteer de te kopiëren set in de lijst en klik vervolgens op **Opslaan als**.
 5.  Voer een nieuwe naam in voor de gekopieerde set en klik vervolgens op **OK**.
 
-### <a name="delete-a-dimension-set"></a>Een dimensieset verwijderen
+### <a name="delete-a-dimension-set"></a>Een dimensiegroep verwijderen
 
-1.  Open in Report Designer de rij, kolom of structuur die u wilt wijzigen.
+1.  Open in Rapportontwerper de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
 2.  Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
 3.  Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
 4.  Selecteer de set om te verwijderen en klik vervolgens op **Verwijderen**. Klik op **Ja** om de set van dimensiewaarden definitief te verwijderen.

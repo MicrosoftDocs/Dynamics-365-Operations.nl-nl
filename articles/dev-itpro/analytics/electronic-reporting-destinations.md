@@ -16,13 +16,13 @@ ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: dedabf13044be30a67a945ff4ca2ecfb1eea8150
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -71,7 +71,7 @@ Als u klikt op **Bewerken** voor het veld **Aan** of **Cc**, wordt het dialoogve
 
 #### <a name="print-management"></a>Afdrukbeheer
 
-Als u het type **E-mail van Afdrukbeheer** selecteert, kunt u vaste e-mailadressen invoeren in het veld **Aan**. Als u niet-vaste e-mailadressen wilt gebruiken, moet u het brontype voor e-mail selecteren voor een bestandsbestemming. De volgende waarden worden ondersteund: **Klant**, **Leverancier**, **Prospect**, **Contact**, **Concurrent**, **Werknemer**, **Sollicitant**, **Potentiële leverancier** en **Niet-toegestane leverancier**. Nadat u een e-mailbrontype hebt geselecteerd, gebruikt u de knop naast het veld **E-mail van bronrekening** om het formulier Formuleontwerper te openen. U kunt dit formulier gebruiken om een formule te koppelen die de geselecteerde partijrekening vertegenwoordigd voor de e-mailbestemming.
+Als u het type **E-mail van Afdrukbeheer** selecteert, kunt u vaste e-mailadressen invoeren in het veld **Aan**. Als u niet-vaste e-mailadressen wilt gebruiken, moet u het brontype voor e-mail selecteren voor een bestandsbestemming. De volgende waarden worden ondersteund: **Klant**, **Leverancier**, **Prospect**, **Contact**, **Concurrent**, **Werknemer**, **Sollicitant**, **Potentiële leverancier** en **Niet-toegestane leverancier**. Nadat u een e-mailbrontype hebt geselecteerd, gebruikt u de knop naast het veld **E-mail van bronrekening** om het formulier **Formuleontwerper** te openen. U kunt dit formulier gebruiken om een formule te koppelen die de geselecteerde partijrekening vertegenwoordigd voor de e-mailbestemming.
 
 [![E-mailtype afdrukbeheer configureren](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
 
@@ -101,7 +101,7 @@ De locatie bepaalt waar het bestand wordt opgeslagen. Nadat de bestemming **Arch
 
 #### <a name="sharepoint"></a>SharePoint
 
-U kunt een bestand opslaan in een aangewezen SharePoint-map. U definieert de standaard SharePoint-server onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Parameters voor documentbeheer**, op het tabblad **SharePoint**. Nadat de SharePoint-map is geconfigureerd, kunt u deze selecteren als de map waarin de ER-uitvoer wordt opgeslagen voor het documenttype. 
+U kunt een bestand opslaan in een aangewezen SharePoint-map. U definieert de standaard SharePoint-server onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Parameters voor documentbeheer** op het tabblad **SharePoint**. Nadat de SharePoint-map is geconfigureerd, kunt u deze selecteren als de map waarin de ER-uitvoer wordt opgeslagen voor het documenttype. 
 
 [![Een SharePoint-map selecteren](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
 

@@ -1,7 +1,7 @@
 ---
 title: LIFO-datum met fysieke waarde en markering
 description: "LIFO-datum (Last In, First Out Date) is een voorraadmodel dat gebaseerd is op het LIFO-principe. Uitgiften uit de voorraad worden vereffend met de recentste ontvangsten in de voorraad op basis van de datum van de voorraadtransactie. Als er op de LIFO-datum geen artikel vóór de uitgifte wordt ontvangen, wordt de uitgifte vereffend met de ontvangsten die na de datum van de artikeluitgifte plaatsvinden. Meerdere uitgiften op dezelfde datum kunnen in de volgende 'laatste uitgifte - laatste ontvangst' worden vereffend."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 96089fed3e8b522fb3a8646ffd87fadff8fe1f3e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 116d2f34c0317f3246b8d9c6569430603e2cd2c6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -43,7 +43,7 @@ Het wordt aangeraden de voorraad periodiek af te sluiten wanneer u het LIFO-datu
 In de volgende voorbeelden wordt het effect geïllustreerd van het gebruik van LIFO-datum in drie configuraties:
 
 -   LIFO-datum zonder de optie **Fysieke waarde opnemen**
--   LIFO-datum met de optie**Fysieke waarde opnemen**
+-   LIFO-datum met de optie **Fysieke waarde opnemen**
 -   LIFO-datum met markering
 
 ## <a name="lifo-date-without-the-include-physical-value-option"></a>LIFO-datum zonder de optie Fysieke waarde opnemen

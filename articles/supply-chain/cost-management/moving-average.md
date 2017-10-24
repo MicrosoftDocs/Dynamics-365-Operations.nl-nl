@@ -1,7 +1,7 @@
 ---
 title: Zwevend gemiddelde
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 De volgende zijn voorwaarden wanneer u gemiddelde kosten als een kostprijsmethode gebruikt.
 1.  Stel op de pagina **Artikelmodelgroepen** een artikelmodelgroep in waarbij Zwevend gemiddelde is geselecteerd in het veld **Voorraadwaarderingsmodel**. **Opmerking:** standaard worden, als Zwevend gemiddelde is geselecteerd, ook de velden **Fysieke voorraad boeken** en **Financiële voorraad boeken** geselecteerd. 
 
-2.  Wijs op de pagina **Boeking** rekeningen toe aan de **Prijsverschil voor zwevend gemiddelde** en **Kostenherwaardering voor zwevend gemiddelde** op het tabblad **Voorraad**. U gebruikt de rekening **Prijsverschil voor zwevend gemiddelde** rekening wanneer kosten proportioneel moeten worden opgevoerd. Dit gebeurt vanwege een verschil in kosten tussen een inkoopontvangst en de inkoopfactuur en vanwege een verschil tussen de oorspronkelijke voorraad en de huidige voorraad. Gebruik de rekening **Kostenherwaardering voor zwevend gemiddelde** wanneer u de zwevende gemiddelde kosten voor een product wilt aanpassen aan een nieuwe eenheidsprijs.
+2.  Wijs op de pagina **Boeking** rekeningen toe aan de rekeningen **Prijsverschil voor zwevend gemiddelde** en **Kostenherwaardering voor zwevend gemiddelde** op het tabblad **Voorraad**. U gebruikt de rekening **Prijsverschil voor zwevend gemiddelde** wanneer kosten proportioneel moeten worden opgevoerd. Dit gebeurt vanwege een verschil in kosten tussen een inkoopontvangst en de inkoopfactuur en vanwege een verschil tussen de oorspronkelijke voorraad en de huidige voorraad. Gebruik de rekening **Kostenherwaardering voor zwevend gemiddelde** wanneer u de zwevende gemiddelde kosten voor een product wilt aanpassen aan een nieuwe eenheidsprijs.
 3.  Wijs op de pagina **Vrijgegeven producten** de zwevend gemiddelde artikelmodelgroep toe aan het product. **Opmerking:** de afsluitproces van de voorraad sluit alleen de boekhoudperiode af. Het heeft geen invloed op producten waar een zwevend gemiddelde aan is toegewezen als artikelmodelgroep.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Converteren naar de zwevend gemiddelde kostprijsmethode

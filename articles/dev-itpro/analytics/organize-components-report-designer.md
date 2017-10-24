@@ -16,13 +16,13 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -53,7 +53,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 
 1.  Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2.  Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Rapportgroep") op de werkbalk.
-3.  Klik op het tabblad **Rapportgroep** op. Als u de informatie over de afzonderlijke rapportdefinities wilt negeren voor het genereren van dit rapport, selecteert u het selectievakje **Instellingen voor bedrijf, gegevens en datum uit afzonderlijke rapportdefinities negeren**. De bedrijfsnaam, het detailniveau, voorlopige instellingen en datumgegevens worden automatisch ingevuld, maar u kunt wel updates uitvoeren.
+3.  Klik op het tabblad **Rapportgroep**. Als u de informatie over de afzonderlijke rapportdefinities wilt negeren voor het genereren van dit rapport, schakelt u het selectievakje **Instellingen voor bedrijf, details en datum uit individuele rapportdefinities negeren** in. De bedrijfsnaam, het detailniveau, voorlopige instellingen en datumgegevens worden automatisch ingevuld, maar u kunt wel updates uitvoeren.
 4.  Als u meerdere rapporten wilt genereren die de aangiftevaluta tonen, schakelt u het selectievakje **Alle aangiftevaluta opnemen** in. U kunt vervolgens meerdere weergaven openen door op de knop **Valuta** te klikken in de Web Viewer wanneer u het rapport weergeeft.
 5.  Klik in het veld **Rapporten in groep** op **Toevoegen** om de rapporten te selecteren die u in de rapportgroep wilt opnemen. Als u meerdere rapporten wilt selecteren in het dialoogvenster **Toevoegen**, houdt u de toets Ctrl ingedrukt terwijl u rapporten selecteert. Wanneer u klaar bent met het selecteren van rapporten, klikt u op **OK**.
 6.  Klik op **Bestand** &gt; **Opslaan** om de nieuwe rapportgroep op te slaan.
@@ -106,7 +106,7 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 <td>Detailniveau</td>
 <td>Geef het gewenste detailniveau op voor de rapporten.
 <ul>
-<li><strong>Financieel</strong>- Een samenvatting op hoog niveau. U kunt rekeningen en dimensies niet in detail bekijken, behalve voor de rekeningen en dimensies die via een rapportagestructuur zijn toegevoegd.</li>
+<li><strong>Financial</strong> - Een overzichtsrapport met een hoog niveau. U kunt rekeningen en dimensies niet in detail bekijken, behalve voor de rekeningen en dimensies die via een rapportagestructuur zijn toegevoegd.</li>
 <li><strong>Financieel &amp; rekening</strong> − Een rapport dat een samenvatting op hoog niveau en rekeninggegevens bevat.</li>
 <li><strong>Financieel, rekening &amp; transactie</strong> − Een rapport dat een samenvatting op hoog niveau en transactiegegevens bevat.</li>
 </ul></td>
@@ -115,14 +115,14 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 <td>Voorlopig</td>
 <td>Geef de gewenste typen activiteit op voor de rapporten.
 <ul>
-<li><strong>Alleen geboekte activiteit</strong> − Neem alleen de transacties en saldi op die in uw financiële gegevens zijn geboekt.</li>
-<li><strong>Geboekte en niet-geboekte activiteit</strong> − Neem alle transacties en saldi op die in uw financiële gegevens zijn ingevoerd en geboekt.</li>
-<li><strong>Alleen niet-geboekte activiteit</strong> − Neem alleen de transacties op die in uw financiële gegevens zijn ingevoerd maar nog niet geboekt.</li>
+<li><strong>Alleen geboekte activiteit</strong>− Alleen de transacties en saldi worden opgenomen die in uw financiële gegevens zijn geboekt.</li>
+<li><strong>Geboekte en niet-geboekte activiteit</strong>− Alle transacties en saldi worden opgenomen die in uw financiële gegevens zijn ingevoerd en geboekt.</li>
+<li><strong>Alleen niet-geboekte activiteit</strong>− Alleen de transacties worden opgenomen die in uw financiële gegevens zijn ingevoerd, maar nog niet geboekt.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Alle aangiftevaluta opnemen</td>
-<td>Alle extra aangiftevaluta's die in uw Microsoft Dynamics ERP-systeem zijn geconfigureerd, worden deze hier vermeld. Schakel dit selectievakje in om extra rapporten te genereren in de valuta's die worden aangegeven. Als u deze rapporten wilt bekijken in de Web Viewer, klikt u op de knop <strong>Valuta</strong> en selecteert u vervolgens een valuta.</td>
+<td>Alle extra aangiftevaluta's die in uw Microsoft Dynamics ERP-systeem zijn geconfigureerd, worden deze hier vermeld. Schakel dit selectievakje in om extra rapporten te genereren in de valuta's die worden aangegeven. Deze rapporten kunnen vervolgens in de Web Viewer worden bekeken door te klikken op de knop <strong>Valuta</strong> en dan een valuta te selecteren.</td>
 </tr>
 <tr class="even">
 <td>Datumgegevens die niet zijn opgeslagen met rapportdefinitie</td>
@@ -144,8 +144,8 @@ Alleen standaardinstellingen voor de basisperiode worden opgeslagen met de rappo
 <td>Rapporten in groep</td>
 <td>U kunt in de rapportgroep rapporten toevoegen, verwijderen en herschikken.
 <ul>
-<li>Als u rapportdefinities aan de rapportgroep wilt toevoegen, dubbelklikt u op de rapportgroep om deze te openen en klikt u vervolgens op <strong>Toevoegen</strong>. Selecteer de rapporten die u in de rapportgroep wilt opnemen en klik vervolgens op <strong>OK</strong>.</li>
-<li>Als u een rapport uit de rapportgroep wilt verwijderen, selecteert u dit en klikt u op <strong>Verwijderen</strong>.</li>
+<li>Als u rapportdefinities wilt toevoegen aan de rapportgroep, dubbelklikt u op de rapportgroep om deze te openen en klikt u vervolgens op <strong>Toevoegen</strong>. Selecteer de rapporten die u wilt opnemen in de rapportgroep en klik vervolgens op <strong>OK</strong>.</li>
+<li>Als u een rapport wilt verwijderen uit de rapportgroep, selecteert u dit en klikt u vervolgens op <strong>Verwijderen</strong>.</li>
 <li>Als u de volgorde wilt wijzigen waarin de rapporten worden gegenereerd, selecteert u een rapport in de lijst en klikt u vervolgens op <strong>Omhoog</strong> of <strong>Omlaag</strong>.</li>
 </ul></td>
 </tr>

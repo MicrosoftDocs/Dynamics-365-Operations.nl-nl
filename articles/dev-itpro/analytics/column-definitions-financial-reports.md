@@ -16,13 +16,13 @@ ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -49,15 +49,15 @@ Een kolomdefinitie kan twee tot 255 kolommen bevatten.
 1.  Klik in Report Designer in het navigatievenster op **Kolomdefinities**.
 2.  Dubbelklik op een kolomdefinitie om deze te openen.
 
-### <a name="add-a-column-to-a-column-definition"></a>Een kolom toevoegen aan een kolomdefinitie
+### <a name="add-a-column-to-a-column-definition"></a>Een kolom aan een kolomdefinitie toevoegen
 
 1.  Klik in Report Designer op **Kolomdefinities** en selecteer vervolgens de kolomdefinitie die u wilt wijzigen.
 2.  Selecteer de kolom waarin een nieuwe kolom moeten worden ingevoegd.
-3.  Klik in het menu **Bewerken** op **Kolom invoegen**. De nieuwe kolom verschijnt links van de kolom die u hebt geselecteerd.
+3.  Klik in het menu **Bewerken** op **Kolom invoegen**. De nieuwe kolom wordt links weergegeven van de kolom die u hebt geselecteerd.
 
-### <a name="delete-a-column-from-a-column-definition"></a>Een kolom verwijderen uit een kolomdefinitie
+### <a name="delete-a-column-from-a-column-definition"></a>Een kolom uit een kolomdefinitie verwijderen
 
-1.  Klik in Report Designer op **Kolomdefinities** en selecteer vervolgens de kolomdefinitie die u wilt wijzigen.
+1.  Klik in Report Designer op **Kolomdefinities** en open vervolgens de kolomdefinitie die u wilt wijzigen.
 2.  Selecteer de kolom die u wilt verwijderen.
 3.  Klik in het menu **Bewerken** op **Kolom verwijderen**.
 
@@ -71,7 +71,7 @@ Een kolomdefinitie bevat de volgende informatie:
 
 Deze informatie wordt weergegeven in de volgende gebieden in de kolomdefinitie:
 
--   Het koptekstgebied van de kolomdefinitie bevat de koptekst en opmaak die in het rapport wordt weergegeven. Een koptekst kan van toepassing zijn op één kolom met gegevens, kan meerdere kolommen omvatten of kan van toepassing zijn op kolommen op een voorwaardelijke basis. De kolomdefinitie kan zoveel kolomkoptekstrijen bevatten als nodig is. **Opmerking:** De kolomkopteksten zijn van toepassing op elke kolom van gegevens in het rapport. Rapportkopteksten zijn van toepassing op het hele rapport. U definieert rapportkopteksten op het tabblad **Kop- en voetteksten** van de rapportdefinitie.
+-   Het koptekstgebied van de kolomdefinitie bevat de koptekst en opmaak die in het rapport wordt weergegeven. Een koptekst kan betrekking hebben op één gegevenskolom, worden verdeeld over meerdere kolommen, of voorwaardelijk op kolommen worden toegepast. De kolomdefinitie kan zoveel kolomkoptekstrijen bevatten als u nodig hebt. **Opmerking:** De kolomkopteksten zijn van toepassing op elke kolom van gegevens in het rapport. Rapportkopteksten zijn van toepassing op het hele rapport. U definieert rapportkopteksten op het tabblad **Kop- en voetteksten** van de rapportdefinitie.
 -   De rijen met kolomdetails zijn de rijen onder de koptekstrijen in de kolomdefinitie. De rijen met kolomdetails bepalen de informatie die in het rapport wordt opgenomen. De volgende tabel toont en omschrijft de rijen met kolomdetails.
 
     | Naam van rij met kolomdetails                                                | Beschrijving                                                                                            |
@@ -182,7 +182,7 @@ Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcode
 
 ### <a name="create-a-conditional-spanning-header"></a>Een voorwaardelijke spanningkoptekst maken
 
-Voorwaardelijke spanningkopteksten kunnen meerdere kolommen beslaan die op specifieke periodegegevens zijn gebaseerd. Als u bijvoorbeeld een budgetrapport voor het fiscale jaar hebt en de werkelijke budgetten van eerdere maanden en de verwachte budgetten van toekomstige maanden wilt weergeven, kunt u voorwaardelijke spanningkoptekst gebruiken om de rapportkoptekst automatisch bij te werken. Houd rekening met de volgende situaties wanneer u een voorwaardelijke spanningkoptekst maakt:
+Voorwaardelijke spanningkopteksten kunnen meerdere kolommen beslaan die op specifieke periodegegevens zijn gebaseerd. Als u bijvoorbeeld een budgetrapport voor het fiscale jaar hebt en de werkelijke budgetten van eerdere maanden en de verwachte budgetten van toekomstige maanden wilt weergeven, kunt u voorwaardelijke spanningkoptekst gebruiken om de rapportkoptekst automatisch bij te werken. Houd rekening met de volgende situaties wanneer u een voorwaardelijk omspannende koptekst maakt:
 
 -   Elke stopvoorwaarde (veld **Verspreiden naar**) die wordt gematcht vóór een startvoorwaarde (veld **Verspreiden van**) wordt genegeerd. Bijvoorbeeld, voor kolom B is de verspreidingsvoorwaarde ingesteld als BASE+1 tot BASE. BASE is in kolom C en BASE+1 is in kolom D. In dit geval wordt de stopvoorwaarde in kolom C genegeerd en begint het afdrukken van de koptekst in kolom D.
 -   Als kolomkoppen opgeeft die overlappen, overlappen deze wanneer ze in het rapport worden afgedrukt. Het rapport wordt gegenereerd, maar de volgende waarschuwing wordt weergegeven in het veld **Status van de rapportwachtrij**: "Kolomkoppen die Base gebruiken overlappen met andere kolomkoppen en kunnen overlappende tekst veroorzaken." Bijvoorbeeld de koptekstdefinitie van kolom B is B tot BASE+1 en de koptekstdefinitie van kolom D is BASE+1 tot F. In dit geval worden de kopteksten boven op elkaar afgedrukt en zijn ze onleesbaar. Wanneer BASE wordt gebruikt in een definitie **Verspreiden van/Verspreiden naar**, moet u het rapport dat wordt gegenereerd bekijken om te zien of de kopteksten overlappen.
@@ -209,10 +209,10 @@ Phyllis maakt een rapport voor een dynamische halfjaarlijkse prognose. Ze wil da
 | Koptekst 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Koptekst 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Kolomtype         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
-| Boekcode/kenmerk |      | WERKELIJK        | BUDGET2012    | WERKELIJK        | BUDGET2012    | WERKELIJK        | BUDGET2012    | WERKELIJK        | BUDGET2012    | WERKELIJK        | BUDGET2012    | WERKELIJK        | BUDGET2012    |
-| Fiscaal jaar         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
+| Boekcode/kenmerk |      | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    |
+| Boekjaar         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
 | Periode              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
-| Behandelde perioden     |      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      | PERIODIEK      |
+| Dekkingsperioden     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
 | Kolombreedte        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Afdrukbeheer       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
@@ -282,10 +282,10 @@ De cel **Aanvullende spaties vóór kolom** geeft de breedte op van het scheidin
 
 De cel **Opmaak/valuta negeren** geeft de opmaak op van de decimale, valuta- en percentagebedragen in de kolom. Deze opmaak negeert elke opmaak die in de rapportdefinitie of standaardinstellingen is opgegeven.
 
-#### <a name="assign-a-format-currency-override-to-a-report-column"></a>Opmaak/valuta negeren toewijzen aan een rapportkolom
+#### <a name="assign-a-format-currency-override-to-a-report-column"></a>Vervangende opmaak/valuta toewijzen aan een rapportkolom
 
 1.  Open in Report Designer de kolomdefinitie die u wilt wijzigen.
-2.  Dubbelklik op een cel **Opmaak/valuta negeren** in een bedragkolom.
+2.  Dubbelklik op een cel van het type **Vervangende opmaak/valuta** in een bedragkolom.
 3.  Selecteer opmaakopties in het dialoogvenster **Opmaak negeren**.
 
 ### <a name="add-a-print-control-code"></a>Een afdrukcontrolecode toevoegen
@@ -320,7 +320,7 @@ De cel **Afdrukbeheer** kan codes bevatten die de weergave of de afdrukkenmerken
 1.  Open in Report Designer de kolomdefinitie die u wilt wijzigen.
 2.  Dubbelklik op de cel **Afdrukbeheer**.
 3.  Selecteer in het dialoogvenster **Afdrukbeheer** een code in de lijst **Afdrukbeheeropties selecteren**. Om meerdere codes te selecteren, houdt u Ctrl ingedrukt terwijl u de codes selecteert.
-4.  Selecteer een optie in het veld **Voorwaardelijke afdrukopties**. Standaard is **(geen)** geselecteerd. U kunt slechts één voorwaardelijke afdrukcode tegelijk selecteren.
+4.  Selecteer een optie in het veld **Voorwaardelijke afdrukopties**. De optie **(geen)** is standaard geselecteerd. U kunt slechts één voorwaardelijke afdrukcode tegelijk selecteren.
 5.  Klik op **OK**.
 
 > [!TIP]
@@ -349,12 +349,12 @@ Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de w
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Geef financiële gegevens of gegevens van een Excel-werkblad weer wanneer u een <strong>Koppeling naar financiële dimensies</strong>-kolom of een <strong>Koppeling naar werkblad</strong>-kolom gebruikt in de rijdefinitie. Wanneer u het kolomtype <strong>FD</strong> selecteert, worden de standaardinstellingen automatisch opgegeven voor de volgende rijen: <ul>
-    <li><strong>Categorie boekcode/-kenmerk:</strong> WERKELIJK</li>
-    <li><strong>Categorie boekcode/-kenmerk:</strong> WERKELIJK</li>
-    <li><strong>Fiscaal jaar:</strong> BASE</li>
-    <li><strong>Periode:</strong> BASE</li>
-    <li><strong>Behandelde perioden:</strong> PERIODIEK</li>
+    <td>Geef financiële gegevens of gegevens uit een Excel-werkblad weer wanneer u in de rijdefinitie een kolom met <strong>Koppeling naar financiële dimensies + werkblad</strong> of met <strong>Koppeling naar werkblad</strong> gebruikt. Als u het kolomtype <strong>FD</strong> selecteert, worden automatisch standaardinstellingen toegepast voor de volgende rijen: <ul>
+    <li><strong>Boekcode/Kenmerkcategorie:</strong> – ACTUAL</li>
+    <li><strong>Boekcode/Kenmerkcategorie:</strong> – ACTUAL</li>
+    <li><strong>Boekjaar:</strong> BASIS</li>
+    <li><strong>Periode:</strong> BASIS</li>
+    <li><strong>Dekkingsperioden:</strong> – PERIODIEK</li>
     <li><strong>Kolombreedte:</strong> 14</li>
     </ul>
 U kunt deze standaardinstellingen wijzigen.</td>
@@ -373,27 +373,27 @@ U kunt deze standaardinstellingen wijzigen.</td>
     </tr>
     <tr class="odd">
     <td>ACCT (rekeningcodes)</td>
-    <td>Geef de segmentwaarden of dimensiewaarden van financiële gegevens weer die van toepassing zijn op elke rij. Voor rapporten met rekening- en transactiedetails wordt de volledig gekwalificeerde rekening afgedrukt (bijvoorbeeld <strong>110140-070-0101</strong>). Als u een bereik hebt opgegeven in de kolom <strong>Koppeling naar financiële dimensies</strong> in een gekoppelde rijdefinitie, is het bereik tussen vierkante haakjes geplaatst en wordt het behandeld als één waarde (bijvoorbeeld <strong>[110140:110700]-070- [0101:0200]</strong>). Voor financiële rapporten en rapporten op hoog niveau die een combinatie van verschillende rekeningen zijn, wordt de koppeling naar financiële gegevens vanuit de rijdefinitie afgedrukt (bijvoorbeeld <strong>1100:1200</strong>).</td>
+    <td>Geef de segmentwaarden of dimensiewaarden van financiële gegevens weer die van toepassing zijn op elke rij. Bij rekening- en transactiedetailrapporten wordt de volledig gekwalificeerde rekening afgedrukt (bijvoorbeeld <strong>110140-070-0101</strong>). Als er bereiken zijn opgegeven in de kolom <strong>Koppeling naar financiële dimensies</strong> in een bijbehorende rijdefinitie, wordt het bereik tussen rechte haken geplaatst en behandeld als één waarde (bijvoorbeeld, <strong>[110140:110700]-070-[0101:0200]</strong>). Bij financiële rapporten en rapporten met een hoog abstractieniveau waarin mogelijk meerdere rekeningen worden gecombineerd, wordt de financiële gegevenskoppeling uit de rijdefinitie afgedrukt (bijvoorbeeld <strong>1100:1200</strong>).</td>
     </tr>
     <tr class="even">
     <td>FILL</td>
-    <td>Vul de cel met een teken dat u tussen enkele aanhalingstekens plaatst. Als u geen teken invoert, is de kolom leeg. Als u bijvoorbeeld een kolom met een beletselteken (...) wilt vullen, voert u <strong>FILL</strong> <strong>'.'</strong> in.</td>
+    <td>Vul de cel met een teken dat u tussen enkele aanhalingstekens plaatst. Als u geen teken invoert, is de kolom leeg. Als u bijvoorbeeld een kolom met een beletselteken (...) wilt invullen, voert u <strong>FILL</strong> <strong>'.'</strong> in.</td>
     </tr>
     <tr class="odd">
     <td>PAGE</td>
-    <td>Voeg een verticaal pagina-einde in het rapport in. De kolommen die zich rechts van de kolom <strong>PAGE</strong> bevinden worden op een andere pagina weergegeven.</td>
+    <td>Voeg een verticaal pagina-einde in het rapport in. De kolommen rechts van de <strong>PAGE</strong>-kolom verschijnen op een nieuwe pagina.</td>
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Geef gegevens weer die uit een Excel-werkblad worden gehaald. Wanneer u het kolomtype <strong>WKS</strong> selecteert, worden de standaardinstellingen automatisch opgegeven voor de volgende rijen: <ul>
-    <li><strong>Fiscaal jaar:</strong> PERIODIEK</li>
-    <li><strong>Periode:</strong> BASE</li>
+    <td>Geef gegevens weer die uit een Excel-werkblad worden gehaald. Als u het kolomtype <strong>FD</strong> selecteert, worden automatisch standaardinstellingen toegepast voor de volgende rijen: <ul>
+    <li><strong>Boekjaar:</strong> – PERIODIEK</li>
+    <li><strong>Periode:</strong> BASIS</li>
     </ul>
 U kunt deze standaardinstellingen wijzigen.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>
-    <td>Als uw boekhoudsysteem kenmerken ondersteunt, een geeft u in de kolom een rekening- of transactiekenmerk weer. Een kenmerk, dat van toepassing moet zijn op één volledige rekening, pakt gegevens van een onderliggende rekening of transactie uit de financiële gegevens uit. Met kenmerken op rekeningniveau worden gegevens van de rekening weergegeven en met kenmerken op transactieniveau worden gegevens weergegeven die aan de orde waren op het moment dat de transactie is geboekt. Als u <strong>ATTR</strong> selecteert als het kolomtype, geeft u de categorie van het kenmerk op in de detailrij <strong>Boekcode/Kenmerkcategorie</strong> van de kolomdefinitie.</td>
+    <td>Als uw boekhoudsysteem kenmerken ondersteunt, een geeft u in de kolom een rekening- of transactiekenmerk weer. Een kenmerk, dat van toepassing moet zijn op één volledige rekening, pakt gegevens van een onderliggende rekening of transactie uit de financiële gegevens uit. Met kenmerken op rekeningniveau worden gegevens van de rekening weergegeven en met kenmerken op transactieniveau worden gegevens weergegeven die betrekking hebben op het tijdstip waarop de transactie is geboekt. Als u het kolomtype <strong>ATTR</strong> selecteert, moet u de <strong>Kenmerkcategorie</strong> opgeven in de detailrij Boekcode/Kenmerkcategorie van de kolomdefinitie.</td>
     </tr>
     </tbody>
     </table>
@@ -465,7 +465,7 @@ Kenmerken zijn financiële gegevenswaarden die een rekening of transactie verder
 
 1.  Open in Report Designer de kolomdefinitie die u wilt wijzigen.
 2.  Dubbelklik op de cel **Kenmerkfilter** voor een **FD**-kolom.
-3.  Dubbelklik in het dialoogvenster **Kenmerkfilter** op een cel in de **Kenmerk**-kolom en selecteer vervolgens het filtertype.
+3.  Dubbelklik in het dialoogvenster **Kenmerkfilter** op een cel in de kolom **Kenmerk** en selecteer vervolgens het filtertype.
 4.  Om de resultaten verder te beperken, typt u een bereik in de kolommen **Van** en **Tot**. De cel **Van** moet een waarde bevatten.
 5.  Klik tot slot op **OK**.
 
@@ -476,10 +476,10 @@ Het volgende voorbeeld toont een deel van een kolomomschrijving die een rekening
 |                              | A    | B                    |
 |------------------------------|------|----------------------|
 | Kolomtype                  | DESC | FD                   |
-| Categorie boekcode/-kenmerk |      | WERKELIJK               |
-| Fiscaal jaar                  |      | BASE                 |
+| Boekcode/Kenmerkcategorie |      | ACTUAL               |
+| Boekjaar                  |      | BASE                 |
 | Periode                       |      | 1:BASE               |
-| Behandelde perioden              |      | PERIODIEK             |
+| Dekkingsperioden              |      | PERIODIEK             |
 | ...                          |      |                      |
 | Kolombreedte                 | 30   |                      |
 | ...                          |      |                      |
@@ -487,7 +487,7 @@ Het volgende voorbeeld toont een deel van een kolomomschrijving die een rekening
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Dimensiefilter in een kolomdefinitie
 
-Een dimensiefilter wordt gebruikt om de **FD**-kolom te beperken tot specifieke dimensiewaarden. Het filter kan één dimensie, een bereik van dimensies of een groep van dimensies bevatten. Het filter kan ook verzamelingen van dimensiewaarden opnemen. Omdat dimensiewaarden kunnen verschillen, hoeft een op ..\financial-dimensions\dimension-gebaseerd systeem niet met een exacte lengte overeen te komen. Het filter wordt toegepast, ongeacht of het rapport een rapportagestructuur bevat. U kunt op elke positie een jokerteken (\* of ?) gebruiken. Wanneer u meerdere rekeningen opgeeft, plaatst u een komma tussen de rekeningen, zoals in het volgende voorbeeld: +Rekening=\[1200\], +Rekening=\[1100\], Afdeling=\[01?\] Als u alle afdelingen voor een bepaalde rekening wilt ontvangen, kunt u de dimensie Afdeling uitsluiten van het dimensiefilter. Bijvoorbeeld, de volgende dimensiefilters worden op dezelfde manier verwerkt:
+Een dimensiefilter wordt gebruikt om de **FD**-kolom te beperken tot specifieke dimensiewaarden. Het filter kan één dimensie, een bereik van dimensies of een groep dimensies bevatten. Het filter kan ook verzamelingen van dimensiewaarden opnemen. Omdat dimensiewaarden kunnen verschillen, hoeft een op ..\financial-dimensions\dimension-gebaseerd systeem niet met een exacte lengte overeen te komen. Het filter wordt toegepast, ongeacht of het rapport een rapportagestructuur bevat. U kunt op elke positie een jokerteken (\* of ?) gebruiken. Wanneer u meerdere rekeningen opgeeft, plaatst u een komma tussen de rekeningen, zoals in het volgende voorbeeld: +Rekening=\[1200\], +Rekening=\[1100\], Afdeling=\[01?\] Als u alle afdelingen voor een bepaalde rekening wilt ontvangen, kunt u de dimensie Afdeling uitsluiten van het dimensiefilter. Bijvoorbeeld, de volgende dimensiefilters worden op dezelfde manier verwerkt:
 
 -   +Rekening=\[1100\],Afdeling
 -   +Rekening=\[1100\]

@@ -16,13 +16,13 @@ ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1fd7231ad204a0764d601e9b64bf2150255c6f78
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -85,7 +85,7 @@ Het menu **Bewerken** is beschikbaar voor gebruikers met de rol **Ontwerper** of
 | Rapportage-eenheden verwijderen uit dimensies | Het dialoogvenster **Rapportage-eenheden invoegen van dimensies** openen, waarin u de dimensiewaarden kunt selecteren die u in de rapportagestructuurdefinitie wilt opnemen. Deze opdracht is beschikbaar vanuit een rapportagestructuurdefinitie. |
 | Hiërarchie van dimensieset importeren         | Het dialoogvenster **Hiërarchie van dimensieset** openen, waarin u een hiërarchie van dimensieset kunt importeren uit de financiële gegevens. Deze opdracht is beschikbaar vanuit een rapportagestructuurdefinitie voor een ..\financial-dimensions\op dimensies gebaseerd systeem.  |
 | Rapportage-eenheid invoegen                  | Een lege rij invoegen in de rapportagestructuurdefinitie. Deze opdracht is beschikbaar vanuit een rapportagestructuurdefinitie.                                                                                                |
-| Rapportage-eenheid verwijderen                  | De geselecteerde rapportage-eenheidrij verwijderen uit de rapportagestructuurdefinitie. Deze opdracht is beschikbaar vanuit een rapportagestructuurdefinitie.                                                                             |
+| Rapportage-eenheid verwijderen                  | De geselecteerde rapportage-eenheidrij verwijderen uit de rapportagestructuurdefinitie. Deze opdracht is beschikbaar vanuit een rapporteringsstructuurdefinitie.                                                                             |
 
 ### <a name="view-menu"></a>Menu Beeld
 
@@ -96,7 +96,7 @@ Het menu **Beeld** is beschikbaar voor alle gebruikers en bevat de volgende opdr
 | Navigatievenster | Het navigatievenster weergeven of verbergen.                                      |
 | Werkbalken        | De werkbalken selecteren die zichtbaar zijn.                                  |
 | Statusbalk      | De statusgegevens weergeven of verbergen in het venster **Report Designer**. |
-| Welkomstpagina    | De pagina **Welkom** openen.                                             |
+| Welkomstpagina    | Hiermee opent u de pagina **Welkom**.                                             |
 
 ### <a name="format-menu"></a>Het menu Opmaak
 
@@ -130,7 +130,7 @@ Het menu **Ga** is beschikbaar voor alle gebruikers en bevat de volgende opdrach
 | Rapportagestructuurdefinities | Rapportagestructuurdefinities weergeven in het navigatievenster.                            |
 | Beveiliging                   | Beveiliginginformatie weergeven voor gebruikers, groepen en bedrijven in het navigatievenster. |
 
-### <a name="tools-menu"></a>Het menu Extra
+### <a name="tools-menu"></a>Menu Extra
 
 Het menu **Extra** is beschikbaar voor alle gebruikers, maar sommige opdrachten hebben beperkte beschikbaarheid. Dit menu bevat de volgende opdrachten.
 
