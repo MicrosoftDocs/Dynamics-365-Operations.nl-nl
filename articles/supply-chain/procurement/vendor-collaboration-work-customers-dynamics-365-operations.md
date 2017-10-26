@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 In dit onderwerp wordt beschreven hoe u leverancierssamenwerking in Finance and Operations kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken.
 
-In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 for Finance and Operations. Hier wordt aangegeven hoe u inkooporders controleert en hierop reageert, en hoe u consignatievoorraad controleert. Het is ook mogelijk om leverancierssamenwerking te gebruiken om met facturen te werken. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace) voor meer informatie.
+In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 for Finance and Operations. Hier wordt aangegeven hoe u inkooporders controleert en hierop reageert, en hoe u consignatievoorraad controleert. Het is ook mogelijk om leverancierssamenwerking te gebruiken om met facturen te werken. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie.
 
 ## <a name="working-with-purchase-orders"></a>Werken met inkooporders
 In de werkruimte **Inkooporderbevestiging** kunt u reageren op de inkooporders die ter beoordeling naar u zijn verzonden. Daarnaast kunt u informatie weergeven over inkooporders die wachten op actie van de klant en inkooporders die zijn bevestigd, maar nog openstaan. Er zijn drie lijsten in de werkruimte **Inkooporderbevestiging**:

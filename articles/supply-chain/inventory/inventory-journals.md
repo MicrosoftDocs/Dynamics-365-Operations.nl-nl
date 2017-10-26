@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6dfb82acb5dafd365d878949b35d4fe6ff58793d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +78,7 @@ De journalen voor productie-invoer werken als de artikelontvangstjournalen, maar
 
 ### <a name="counting"></a>Tellen
 
-De tellijsten laten u de huidige voorhanden voorraad corrigeren die voor artikelen of groepen artikelen is geregistreerd, en boeken dan de werkelijke materiële telling zodat u de correcties kunt maken die nodig zijn om de verschillen af te stemmen. U kunt telbeleid koppelen aan telgroepen om artikelen te groeperen die uiteenlopende kenmerken hebben, zodat die artikelen in een teljournaal kunnen worden opgenomen. U kunt bijvoorbeeld telgroepen configureren om artikelen te tellen die een specifieke frequentie hebben, of om artikelen te tellen wanneer de voorraad daalt tot een bepaald niveau. Zie voor informatie over het definiëren van telgroepen [Voorraadtellingsprocessen definiëren (taakbegeleider)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
+De tellijsten laten u de huidige voorhanden voorraad corrigeren die voor artikelen of groepen artikelen is geregistreerd, en boeken dan de werkelijke materiële telling zodat u de correcties kunt maken die nodig zijn om de verschillen af te stemmen. U kunt telbeleid koppelen aan telgroepen om artikelen te groeperen die uiteenlopende kenmerken hebben, zodat die artikelen in een teljournaal kunnen worden opgenomen. U kunt bijvoorbeeld telgroepen configureren om artikelen te tellen die een specifieke frequentie hebben, of om artikelen te tellen wanneer de voorraad daalt tot een bepaald niveau. Zie voor informatie over het definiëren van telgroepen [Voorraadtellingsprocessen definiëren (taakbegeleider)](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Telling labels
 

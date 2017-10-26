@@ -16,10 +16,10 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
-ms.openlocfilehash: e6d45094e8722fa51e545076c204459c41fd9131
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: d1650d351b5f7d476cea0d404ad261cfc7294dcc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,12 +37,12 @@ In dit onderwerp vindt u een overzicht van de mobiele werkgebieden die beschikba
 |[Bedrijfsdirecteur](company-directory-mobile-workspace.md)| Hier kunt u andere werknemers in hun organisatie weergeven en er contact mee opnemen.| 2017 juni |    
 |[Mijn team](manager-self-service-mobile-workspace.md)| U kunt directe medewerkers en een uitgebreid personeelsoverzicht weergeven, evenals lovende kritiek versturen voor personen in uw rapportageketen.|2017 juni |     
 |[Goedkeuring van facturen](invoice-approval-mobile-workspace.md)| Geeft een lijst met facturen die aan u zijn toegewezen via het workflowproces voor de koptekst van de leveranciersfactuur.| 2017 juni   |
-| [Onkostenbeheer](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace) | U kunt een ontvangstbewijs vastleggen en uploaden, zodat u dit later aan een onkostennota kunt koppelen. Het mobiele werkgebied stelt u tevens in staat snel een onkostenregel te maken op basis van een bevoegd ontvangstbewijs. | 2017 april |
-| [Goedkeuring van inkooporder](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace) | U kunt inkooporders weergeven en daarop reageren met acties zoals goedkeuren of afwijzen. | 2017 april |
-| [Projecttijdinvoer](/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace) | U kunt tijd invoeren en opslaan voor een project met behulp van uw mobiele apparaat. | 2017 maart |
-| [Kostenbeheer](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace)     | Kostenplaatsmanager kunnen de prestaties van kostenplaatsen bekijken.                                                                                               |  2017 januari        |
-| [Voorhanden voorraad](/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace)    | Krijg inzicht in de gereserveerde en beschikbare voorraad.                                                                                                    |   2017 januari       |
-| [Verkooporders](/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace)         | Blijf op de hoogte van uw verkooporders.                                                                                                                          |  2017 januari                  |
-| [Leverancierssamenwerking](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) | Leveranciers kunnen op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen. |2017 januari    |
+| [Onkostenbeheer](../../financials/expense-management/expense-management-mobile-workspace.md) | U kunt een ontvangstbewijs vastleggen en uploaden, zodat u dit later aan een onkostennota kunt koppelen. Het mobiele werkgebied stelt u tevens in staat snel een onkostenregel te maken op basis van een bevoegd ontvangstbewijs. | 2017 april |
+| [Goedkeuring van inkooporder](../../supply-chain/procurement/purchase-order-mobile-workspace.md) | U kunt inkooporders weergeven en daarop reageren met acties zoals goedkeuren of afwijzen. | 2017 april |
+| [Projecttijdinvoer](../../financials/project-management/project-time-entry-mobile-workspace.md) | U kunt tijd invoeren en opslaan voor een project met behulp van uw mobiele apparaat. | 2017 maart |
+| [Kostenbeheer](../../financials/cost-accounting/cost-controlling-mobile-workspace.md)     | Kostenplaatsmanager kunnen de prestaties van kostenplaatsen bekijken.                                                                                               |  2017 januari        |
+| [Voorhanden voorraad](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Krijg inzicht in de gereserveerde en beschikbare voorraad.                                                                                                    |   2017 januari       |
+| [Verkooporders](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Blijf op de hoogte van uw verkooporders.                                                                                                                          |  2017 januari                  |
+| [Leverancierssamenwerking](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Leveranciers kunnen op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen. |2017 januari    |
 
 

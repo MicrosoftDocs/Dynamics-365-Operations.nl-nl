@@ -15,13 +15,13 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266844
 ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Sweden
 ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: 7dc6a32a9babc95cfa4ad031534404cae6fa37ea
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 411f1d9d62ff1e4cedc2f4146a1f4208ee94a383
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,16 +57,16 @@ Als u een btw-overzicht wilt genereren, moet u het volgende instellen.
 
 ### <a name="sales-tax-authorities-for-vat-reporting"></a>Btw-diensten voor btw-rapportage
 
-<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-authorities). -->
+<!---For general information about setting up a sales tax authority, see [Set up sales tax authorities](general-ledger/tasks/set-up-sales-tax-authorities). -->
 Voordat u btw-aangiftecodes kunt instellen, moet u de juiste rapportindeling voor de btw-dienst selecteren. Selecteer op de pagina **Btw-diensten** in de sectie **Algemeen** een **Rapportindeling**. Deze indeling wordt gebruikt bij het instellen van btw-aangiftecodes.
 
 ### <a name="sales-tax-reporting-codes"></a>Btw-aangiftecodes
 
-Btw-aangiftecodes zijn vakcodes in het btw-overzicht of labelnamen in XML-indeling. Deze codes worden gebruikt voor het samenvoegen en voorbereiden van bedragen voor het rapport. De namen van de resultaatbedragen worden gebruikt bij het configureren van de ER-indeling (elektronische rapportage) van het btw-overzicht. U kunt btw-aangiftecodes maken en onderhouden op de pagina **Btw-aangiftecodes**. U moet aan elke code een rapportindeling toewijzen. Nadat u de btw-aangiftecodes hebt gemaakt, kunt u de codes kiezen in de sectie **Rapport instellen** op de pagina **Btw-codes**. <!---For more information, see [Set up sales tax reporting codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-reporting-codes).-->
+Btw-aangiftecodes zijn vakcodes in het btw-overzicht of labelnamen in XML-indeling. Deze codes worden gebruikt voor het samenvoegen en voorbereiden van bedragen voor het rapport. De namen van de resultaatbedragen worden gebruikt bij het configureren van de ER-indeling (elektronische rapportage) van het btw-overzicht. U kunt btw-aangiftecodes maken en onderhouden op de pagina **Btw-aangiftecodes**. U moet aan elke code een rapportindeling toewijzen. Nadat u de btw-aangiftecodes hebt gemaakt, kunt u de codes kiezen in de sectie **Rapport instellen** op de pagina **Btw-codes**. <!---For more information, see [Set up sales tax reporting codes](../general-ledger/tasks/set-up-sales-tax-reporting-codes.md).-->
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>Btw-codes voor btw-aangifte
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](/dynamics365/unified-operations/financials/general-ledger/tasks/set-up-sales-tax-codes).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the **Sales tax codes** page. The following table describes the transaction types in the report setup for sales tax codes. The calculation includes transactions for all types of sources except sales tax.
 
 <table>
 <colgroup>
@@ -252,9 +252,9 @@ d<li>De transactie <strong>Belastingbasisbedrag</strong> of <strong>Belastingbed
 
 U kunt elektronische rapportage (ER) gebruiken om overzichten en aangifte te configureren en om gegevens te exporteren in verschillende elektronische indelingen zonder de X ++-code te wijzigen. Voor aanvullende informatie:
 
--   [Overzicht van elektronische rapportage](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting)
--   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
--   [Lokalisatievereisten: een GER-configuratie maken](/dynamics365/unified-operations/dev-itpro/analytics/electronic-reporting-configuration)
+-   [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
+-   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Lokalisatievereisten: een GER-configuratie maken](../../dev-itpro/analytics/electronic-reporting-configuration.md)
 
 ## <a name="countryspecific-resources-for-vat-statements"></a>Landspecifieke resources voor btw-overzichten
 Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving van het land. Er zijn vooraf gedefinieerde algemene modellen en indelingen van btw-overzichten voor de landen die in de volgende tabel staan.

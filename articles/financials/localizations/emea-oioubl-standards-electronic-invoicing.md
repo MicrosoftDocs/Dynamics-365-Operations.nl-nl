@@ -15,13 +15,13 @@ ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
 ms.search.industry: 
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c944fd20273623ce3f7d03a24546addbe987084e
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: d41f4d454bc3a763ca6658babde6c3a6a44be73d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ De volgende landspecifieke indelingen van elektronische facturen zijn beschikbaa
 -   FacturaE v.3.2.1 voor Spanje
 -   FatturaPA v.1.2 voor Italië
 
-Elektronische facturering is gebaseerd op [elektronische rapportage](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting). Er is een gegevensmodel met een **klantfactuurmodel** en een aantal landspecifieke configuraties voor elektronische rapportopmaken voor Oostenrijk (AT), Denemarken (DK), Italië (IT), Noorwegen (NO), Spanje (ES), Frankrijk (FR), België (BE) en Nederland (NL).
+Elektronische facturering is gebaseerd op [elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md). Er is een gegevensmodel met een **klantfactuurmodel** en een aantal landspecifieke configuraties voor elektronische rapportopmaken voor Oostenrijk (AT), Denemarken (DK), Italië (IT), Noorwegen (NO), Spanje (ES), Frankrijk (FR), België (BE) en Nederland (NL).
 
 -   OIOUBL Verkoopfactuur - voor AT, DK en NO
 -   OIOUBL Verkoopcreditnota - voor AT, DK en NO
@@ -71,7 +71,7 @@ Elektronische facturering is gebaseerd op [elektronische rapportage](/dynamics36
 De elektronische facturen en creditnota's die u genereert, bevatten vereiste gegevens zoals een EAN-nummer (European Article Numbering), de contactpersoon, het dimensierekeningnummer en adresgegevens van de klant. Er worden validatieregels worden toegepast wanneer facturen worden gegenereerd om te controleren of de juiste gegevens zijn ingevoerd. De set met vereiste gegevens kan verschillen van land tot land. Vanwege de vereiste en de ondersteunde landen en indelingen kunnen veranderen, moet u altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben.
 
 ## <a name="additional-information"></a>Aanvullende gegevens
-Voor meer informatie over het instellen van elektronische facturen, kunt u de volgende [Taakbegeleidingen](/dynamics365/unified-operations/dev-itpro/get-started/help-overview#task-guides) afspelen in het Help-venster:
+Voor meer informatie over het instellen van elektronische facturen, kunt u de volgende [Taakbegeleidingen](../../fin-and-ops/get-started/help-overview.md#task-guides) afspelen in het Help-venster:
 
  - OIOUBL elektronische facturen instellen
  - OIOUBL elektronische factureringsconfiguraties importeren

@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ In het volgende voorbeeld schat het hoofdkantoor van het bedrijf de oorspronkeli
 
 Op de pagina **Organisatiehiërarchie** kunt u een organisatiehiërarchie toewijzen als een budgetplanningshiërarchie voor elk budgetplanningsproces. De budgetplanningshiërarchie hoeft niet overeen te komen met de standaardorganisatiehiërarchie die wordt gebruikt voor andere doeleinden. Omdat deze hiërarchie wordt gebruikt om gegevens samen te voegen en te distribueren, kunt u deze wellicht een andere structuur geven. In het voorbeeldschema bevinden de verkoopafdelingen zich onder een hoofdkantoorniveau dat budget- en financiële afdelingen bevat. Deze structuur verschilt waarschijnlijk van de structuur die wordt gebruikt om bewerkingen voor de verkoopafdelingen te beheren. Slechts één organisatiehiërarchie kan worden toegewezen aan elk budgetplanningsproces. 
 
-Zie [Organisaties en organisatiehiërarchieën](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies) voor meer informatie.
+Zie [Organisaties en organisatiehiërarchieën](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md) voor meer informatie.
 
 ### <a name="user-security"></a>Gebruikersbeveiliging
 
@@ -116,8 +115,8 @@ In budgetplanning kunt u de bedragen of hoeveelheden op budgetplanregels van een
 
 Met toewijzingsschema´s worden budgetplanregels automatisch toegewezen tijdens workflowverwerking. U kunt toewijzingen uitvoeren met behulp van een van de volgende methoden in de lijst **Toewijzingsmethode**:
 
--   **Toewijzen aan perioden**: u gebruikt een periodetoewijzingssleutel om de budgetplanregels toe te wijzen vanuit het bronbudgetplanscenario aan perioden in het doelscenario. **Opmerking:** voordat u kunt toewijzen aan perioden, moet u periodetoewijzingssleutels instellen op de pagina Periodetoewijzingscategorieën.
--   **Toewijzen aan dimensies**: de budgetplanregels worden toegewezen vanuit het bronbudgetplanscenario aan de financiële dimensies in het doelscenario. **Opmerking:** voordat u kunt toewijzen aan dimensies, moet u budgettoewijzingstermijnen instellen op de pagina Budgettoewijzingstermijnen.
+-   **Toewijzen aan perioden**: u gebruikt een periodetoewijzingssleutel om de budgetplanregels toe te wijzen vanuit het bronbudgetplanscenario aan perioden in het doelscenario. **Opmerking:** voordat u kunt toewijzen aan perioden, moet u periodetoewijzingssleutels instellen op de pagina ****Periodetoewijzingscategorieën****.
+-   **Toewijzen aan dimensies**: de budgetplanregels worden toegewezen vanuit het bronbudgetplanscenario aan de financiële dimensies in het doelscenario. **Opmerking:** voordat u kunt toewijzen aan dimensies, moet u budgettoewijzingstermijnen instellen op de pagina ****Budgettoewijzingstermijnen****.
 -   **Samenvoegen**: de budgetplanregels worden samengevoegd vanuit het bronbudgetplanscenario in de gekoppelde budgetplannen met het doelscenario in het bovenliggende budgetplan.
 -   **Verdelen**: de budgetplanregels worden verdeeld vanuit het budgetplanscenario in het bovenliggende budgetplan naar het doelscenario in de gekoppelde budgetplannen.
 -   **Grootboektoewijzingsregels gebruiken**: de budgetplanregels worden verdeeld vanuit het bronbudgetplanscenario naar het doelscenario op basis van de grootboektoewijzingsregel die is geselecteerd.
@@ -127,7 +126,7 @@ Met toewijzingsschema´s worden budgetplanregels automatisch toegewezen tijdens 
 
 Fasetoewijzingen worden gebruikt om budgetplanregels automatisch toe te wijzen tijdens workflowverwerking. Wanneer fasetoewijzingen worden geb ruikt, kunnen budgetplanregels in het doelscenario worden gemaakt en gewijzigd zonder interventie van de voorbereider of de controleur van het budgetplan.
 
-Wanneer u een fasetoewijzing instelt, koppelt u de budgetplanningswerkstroom en de fase met de toewijzingsplanning. De budgetplanningsworkflow moet worden gekoppeld aan een budgetteringsworkflow waarin de geautomatiseerde workflowtaak Toewijzing budgetplanningsfase wordt gebruikt. Wanneer de workflow de opgegeven fase bereikt, wordt de toewijzing automatisch uitgevoerd. Deze geautomatiseerde taak kan worden gebruikt om budgetregels te maken in een nieuw scenario. 
+Wanneer u een fasetoewijzing instelt, koppelt u de budgetplanningswerkstroom en de fase met de toewijzingsplanning. De budgetplanningsworkflow moet worden gekoppeld aan een budgetteringsworkflow waarin de geautomatiseerde workflowtaak Toewijzing ****budgetplanningsfase**** wordt gebruikt. Wanneer de workflow de opgegeven fase bereikt, wordt de toewijzing automatisch uitgevoerd. Deze geautomatiseerde taak kan worden gebruikt om budgetregels te maken in een nieuw scenario. 
 
 In het voorbeeldschema eerder in dit artikel, wordt een toewijzing uitgevoerd om bedragen van een budgetplan en scenario's in de hoofdkantoorbasisfase over te boeken naar een ander budgetplan en scenario's en in de ramingsfase van een verkoopafdeling. In de volgende afbeelding ziet u de relevante sectie van het voorbeeldschema.
 

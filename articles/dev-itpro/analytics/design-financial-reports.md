@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +49,7 @@ Voor deze oefening genereert en controleert u een bestaand standaardrapport. Dit
 4.  Ga naar **Financiële rapporten** onder **Query's en rapporten** in het grootboek.
 5.  Selecteer de rij voor het rapport met de naam **GB-details - Standaard**.
 6.  Selecteer **Bewerken**. Opmerking: u wordt gevraagd de ClickOnce-rapportontwerper te downloaden en u aan te melden. Meld u aan met uw referenties.
-7.  Wijzig het basisjaar in 2012 en selecteer **Genereren**. Wanneer een rapport van de rapportontwerper wordt gegenereerd, wordt het op een nieuw browsertabblad geopend. U kunt het rapport op het nieuwe browsertabblad controleren of u kunt naar het oorspronkelijke browsertabblad gaan en het rapport vanuit daar openen door het in de lijst **Financiële rapporten** te selecteren.
+7.  Wijzig het basisjaar in 2012 en selecteer **Genereren**. Wanneer een rapport van de rapportontwerper wordt gegenereerd, wordt het op een nieuw browsertabblad geopend. U kunt het rapport op het nieuwe browsertabblad controleren of u kunt naar het oorspronkelijke browsertabblad gaan en het rapport daar openen door het in de lijst **Financiële rapporten** te selecteren.
 8.  Selecteer in het geopende rapport een van de bedragen waarvoor u wilt inzoomen op de rekeningdetails van het rapport.
 9.  Als u in de rekeningdetails bent, selecteert u een rekening met gegevens en **zoomt u in op rapporttransactieniveau**. Op het rapporttransactieniveau kunt u de eigenschappen (kenmerken) zien die in het ontwerp van dit rapport zijn opgenomen. Afhankelijk van de transactie en de rekening kunnen sommige of alle kenmerken worden weergegeven.
 10. Sluit het rapporttransactieniveau.
@@ -183,8 +182,8 @@ In deze oefening maakt u een nieuw rapport. Het rapport is een afdelingsinkomens
 18. **Sla** uw wijzigingen op en **genereer** ze. Nadat het rapport is gegenereerd en geopend, kunt u het rapport controleren.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-[Financiële rapportage](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[Financiële rapporten weergeven](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[Financiële rapportage](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[Financiële rapporten weergeven](../../financials/general-ledger/view-financial-reports.md) 
 [Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

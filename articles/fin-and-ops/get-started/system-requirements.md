@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ De webtoepassing kan worden uitgevoerd in alle onderstaande webbrowsers die op d
 Als u de laatste versie van elke webbrowser wilt opzoeken, gaat u naar de website van de softwarefabrikant. 
 
 > [!NOTE]
-> -   Installeer een voorlopige versie van een Chrome-invoegtoepassing om Taakrecorder in te schakelen en schermopnamen te laten vastleggen en deze te laten opnemen in gegenereerde Microsoft Word-documenten. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   Installeer een voorlopige versie van een Chrome-invoegtoepassing om Taakrecorder in te schakelen en schermopnamen te laten vastleggen en deze te laten opnemen in gegenereerde Microsoft Word-documenten. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   De workfloweditor wordt als ClickOnce-toepassing gestart. Alleen Microsoft Edge en Internet Explorer (op een ondersteunde versie van Microsoft Windows) ondersteunen ClickOnce-toepassingen. De ClickOnce-toepassing Workfloweditor vereist een compatibel 64-bits besturingssysteem.
 > -   De Report Designer voor financiële rapportage wordt als ClickOnce-toepassing gestart. Hiervoor is een compatibel 64-bits besturingssysteem vereist. Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u in de Incognito-modus van Chrome werkt, moet u ervoor zorgen dat de ClickOnce-extensie ook voor de Incognito-modus is ingeschakeld.
 > -   Als u PDF-bestanden wilt bekijken, raden wij u aan moderne browsers te gebruiken, zoals Microsoft Edge (meest recente openbaar beschikbare versie) op Windows 10 of Google Chrome (meest recente openbaar beschikbare versie) op Windows 10, Windows 8.1, Windows 8, Windows 7 of Google Nexus 10 tablet.
@@ -70,7 +70,7 @@ Finance and Operations vereist Microsoft .NET Framework versie 4.6.2 voor alle C
 ## <a name="supported-microsoft-office-applications"></a>Ondersteunde Microsoft Office-toepassingen
 De volgende Microsoft Office-toepassingen worden ondersteund in implementaties van Finance and Operations in de cloud:
 
--   Als u de invoegtoepassingen voor Microsoft Word en Microsoft Excel wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Als u de invoegtoepassingen voor Microsoft Word en Microsoft Excel wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Als u documenten wilt weergeven die worden gegenereerd door de functie Exporteren naar Excel of Exporteren naar Word, moet Microsoft Office 2007 of hoger zijn geïnstalleerd.
 
 ## <a name="retail-modern-pos-requirements"></a>Vereisten voor Retail Modern POS
@@ -153,10 +153,10 @@ De computer moet voldoen aan alle systeemvereisten voor het installeren en gebru
 -   Ten minste 10 GB vrije ruimte (de afzetkanaaldatabase kan veel opslagruimte nodig hebben).
 
 ## <a name="requirements-for-development-on-local-vms"></a>Vereisten voor ontwikkeling op lokale VM's
-Zie voor informatie over de vereisten voor de ontwikkeling op lokale virtuele machines (VM's) [VM on-premises uitvoeren](../dev-tools/access-instances.md).
+Zie voor informatie over de vereisten voor de ontwikkeling op lokale virtuele machines (VM's) [VM on-premises uitvoeren](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>Zie ook
 
-[Een evaluatie-exemplaar van Dynamics 365 for Finance and Operations, Enterprise-editie krijgen](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Een evaluatie-exemplaar van Dynamics 365 for Finance and Operations, Enterprise-editie krijgen](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 

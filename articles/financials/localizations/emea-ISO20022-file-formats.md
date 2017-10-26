@@ -16,10 +16,10 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
-ms.openlocfilehash: 90e21bb939bd96a3420decb5f9bc07c017c3e946
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: fcab30f03aebf7dbe76d5b3b64260f726f291fb8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/31/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -118,7 +118,7 @@ Wanneer u een indelingsconfiguratie van LCS importeert, kunt u de hele configura
  - **Pain.002**: deze indeling wordt samen met de betalingsmodeltoewijzing naar bestemming ISO20022 gebruikt om het bestand pain.002 te importeren in het journaal met leverancierbetalingsoverboekingen
  - **Camt.054**: deze indeling wordt samen met de betalingsmodeltoewijzing naar bestemming ISO20022 gebruikt om het bestand camt.054 te importeren in het journaal met leverancierbetalingsoverboekingen Dezelfde indelingsconfiguratie wordt gebruikt voor de importfunctionaliteit voor klantbetalingen, maar de andere toewijzing wordt gebruikt in de configuratie van betalingsmodeltoewijzing voor bestemming ISO20022.
 
-Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van elektronische rapportage](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Aanvullende resources
 - [Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

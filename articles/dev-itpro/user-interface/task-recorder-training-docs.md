@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ U kunt de taakregistraties van Microsoft downloaden en bewerken om ze voor uw ei
 11. Geef op hoe u de taakregistratie wilt opslaan.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Uw taakregistraties opnemen in het Help-deelvenster
-Om uw eigen taakregistraties in het Help-deelvenster weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Voor meer informatie, zie [Het Help-systeem verbinden](../get-started/help-connect.md).
+Om uw eigen taakregistraties in het Help-deelvenster weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Voor meer informatie, zie [Het Help-systeem verbinden](../../fin-and-ops/get-started/help-connect.md).
 
 <a name="see-also"></a>Zie ook
 --------
 
-[Help-overzicht](..\get-started\help-overview.md)
+[Help-overzicht](../../fin-and-ops/get-started/help-overview.md)
 
-[Help verbinden](..\get-started\help-connect.md)
+[Help verbinden](../../fin-and-ops/get-started/help-connect.md)
 
 [Taakrecorder](task-recorder.md)
 
