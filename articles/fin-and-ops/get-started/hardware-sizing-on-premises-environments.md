@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Grootte van de hardware voor on-premises omgevingen vaststellen
-Voordat u de omvang gaat bepalen van de hardware en de infrastructuur van een on-premises omgeving, dient u vertrouwd zijn met de [Systeemvereisten](../get-started/system-requirements.md) en [Instructies voor installatie en implementatie](../deployment/setup-deploy-on-premises-environments.md) om een goed begrip te krijgen van de onderliggende infrastructuur. 
+Voordat u de omvang gaat bepalen van de hardware en de infrastructuur van een on-premises omgeving, dient u vertrouwd zijn met de [Systeemvereisten](system-requirements.md) en [Instructies voor installatie en implementatie](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) om een goed begrip te krijgen van de onderliggende infrastructuur. 
 
   **Opmerking:** let goed op de aanbevolen procedures voor de systeeminstellingen voor optimale prestaties. 
 
@@ -89,7 +89,7 @@ Als u inzicht wilt krijgen in welke omvang nodig is, moet u het piekvolume weten
 Wij raden altijd aan om SQL Server te gebruiken voor cluster- of mirror-instellingen. Het tweede SQL-knooppunt moet hetzelfde aantal cores hebben als het primaire knooppunt. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Active Directory Federation Services (AD FS)
-Voor de omvang van AD FS raadpleegt u [de documentatie over de capaciteit van de AD FS-server](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Voor de omvang van AD FS raadpleegt u [de documentatie over de capaciteit van de AD FS-server](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 Er is een [werkblad met de grootte](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) beschikbaar voor het plannen van het aantal exemplaren in uw implementatie.
 

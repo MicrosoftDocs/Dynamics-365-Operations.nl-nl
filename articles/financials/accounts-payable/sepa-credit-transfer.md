@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Dit artikel geeft algemene informatie over ISO 20022-overschrijvingen, waaronder
 
 ## <a name="what-is-a-credit-transfer-message"></a>Wat is een kredietoverdrachtsbericht?
 Het kredietoverdrachtbericht is een aanvraag die een initiërende partij (uw bedrijf) verzendt om fondsen van een eigen rekening naar een crediteur over te maken. Er zijn veel land- of regio-specifieke en bank-specifieke implementaties van kredietoverdrachtberichten. Enkele daarvan worden gebruikt in een bepaald land/regio en sommige worden standaarden. Een algemeen aanvaarde internationale standaard is ISO 20022 en het initiatiebericht, zoals kredietoverdracht. In de volgende afbeelding ziet u de relaties en dekking voor geselecteerde kredietoverdrachtberichten 
-![Kredietoverdracht](./media/credit-transfer.jpg) Kredietoverdrachtbericht\[/bijschrift\] 
+![Kredietoverdracht](./media/credit-transfer.jpg) Kredietoverdrachtberichten 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Wat zijn ISO 20022- en SEPA-betalingen?
 De gemeenschappelijke betalingsruimte voor de euro (SEPA) is ingesteld door de Europese Commissie en dicteert dat alle elektronische betalingen als binnenlands worden beschouwd, ongeacht het land/de regio waar de persoon, het bedrijf of organisatie en de bank zich bevinden. Er is geen verschil tussen nationale en grensoverschrijdende betalingen. De SEPA omvat de 28 lidstaten van de Europese Unie (EU) plus IJsland, Liechtenstein, Noorwegen, Zwitserland, Monaco en San Marino. De SEPA helpt met de opbouw van een markt voor betalingstransacties in de Europese Economische Ruimte (EEA). Uiteindelijk moet SEPA het aantal betaalindelingen verminderen waar banken, bedrijven en personen mee moeten werken. De Europese Commissie vestigde de wettelijke basis voor SEPA-betalingen via de Richtlijn betaaldiensten (PSD, Payment Services Directive). De European Payments Council (EPC) ondersteunt SEPA met de volgende activiteiten:
@@ -59,7 +59,7 @@ De kredietoverdrachtbetalingsindeling voor Europese landen wordt geïmplementeer
 U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In de volgende sectie, 'Wat moet ik instellen?' vindt u een koppeling naar het onderwerp met informatie over het maken van een LCS-opslagplaats voor het controleren van de beschikbare configuraties en het importeren van geselecteerde configuraties.
 
 ## <a name="what-do-i-have-to-set-up"></a>Wat moet ik instellen?
--   Voordat u kredietoverdrachtbestanden kunt maken, moet tenminste één actieve kredietoverdrachtconfiguratie in uw ER-configuraties worden geïmporteerd. Zie voor instructies het onderwerp [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Voordat u kredietoverdrachtbestanden kunt maken, moet tenminste één actieve kredietoverdrachtconfiguratie in uw ER-configuraties worden geïmporteerd. Zie voor instructies het onderwerp [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Wanneer u betalingsmethoden voor leveranciers configureert, selecteert u het selectievakje **Algemene elektronische rapportage**. Selecteer vervolgens de gewenste kredietoverdrachtindeling (bijvoorbeeld **ISO 20022 Kredietoverdracht**) als exportindelingsconfiguratie.
 -   U moet ook de rechtspersoon en bankrekeninggegevens in Finance and Operations instellen.
 -   Bankrekeningnummers, IBAN's en soms SWIFT-codes (BIC's) of andere id's zijn vereist om geldige kredietoverdracht betalingen te kunnen maken. Daarom moet u deze instellen voor de bankrekening van de leverancier en de bankrekening van de organisatie die de overdracht aanvraagt.

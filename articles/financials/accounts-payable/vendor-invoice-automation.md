@@ -15,10 +15,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
-ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 75865ece49837e2a8758c4d739d3e29ce9128945
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Automatisering van leveranciersfacturen
@@ -57,7 +57,7 @@ Een gegevenspakket is de werkeenheid die moet worden verzonden naar Finance and 
 
 De documentbijlage van de leveranciersfactuur is een nieuwe gegevensentiteit die als onderdeel van deze functie wordt geïntroduceerd. De entiteit koptekst van leveranciersfactuur is gewijzigd, zodat deze bijlagen ondersteunt. De entiteit leveranciersfactuurregel is niet voor deze functie gewijzigd.
 
-In dit onderwerp vindt u geen gedetailleerde beschrijving van een gegevenspakket. Hierin wordt ook niet uitgelegd hoe u een gegevenspakket maakt. Deze informatie vindt u in het onderwerp [Framework voor gegevensentiteiten en pakketten](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+In dit onderwerp vindt u geen gedetailleerde beschrijving van een gegevenspakket. Hierin wordt ook niet uitgelegd hoe u een gegevenspakket maakt. Deze informatie vindt u in het onderwerp [Framework voor gegevensentiteiten en pakketten](../../dev-itpro/data-entities/data-entities-data-packages.md).
 
 Als u snel testgegevens wilt genereren met facturen en bijlagen, voert u de volgende stappen uit.
 

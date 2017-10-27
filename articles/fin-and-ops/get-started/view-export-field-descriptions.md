@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 for Finance and Operations bevat beschrijvingen voor enke
 
 Niet alle pagina's hebben veldomschrijvingen. We willen alleen beschrijvingen geven voor de complexere velden en niet voor de velden waarvoor het gebruik duidelijk is. Daarom hebben sommige pagina's geen veldbeschrijvingen, sommige pagina's een paar beschrijvingen en sommige van de meer complexe pagina's, zoals veel van de pagina's met parameters, veel beschrijvingen. 
 
-Als u toegang hebt tot de Finance and Operations-ontwikkelomgeving, kunt u nieuwe veldbeschrijvingen toevoegen en bestaande beschrijvingen aanpassen. U kunt bijvoorbeeld bedrijfsspecifieke informatie toevoegen aan een veldbeschrijving. Zie [Help voor velden aanpassen](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help) voor meer informatie.
+Als u toegang hebt tot de Finance and Operations-ontwikkelomgeving, kunt u nieuwe veldbeschrijvingen toevoegen en bestaande beschrijvingen aanpassen. U kunt bijvoorbeeld bedrijfsspecifieke informatie toevoegen aan een veldbeschrijving. Zie [Help voor velden aanpassen](../../dev-itpro/user-interface/customize-field-help.md) voor meer informatie.
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Zie veldbeschrijvingen in de gebruikersinterface.
 U kunt veldomschrijvingen weergeven door de cursor boven een veld te houden. Als er geen beschrijving beschikbaar is, ziet u de veldnaam wanneer u de muisaanwijzer op het veld plaatst. (Opmerking: In versie Dynamics AX 7.0.0 (februari 2016) kunnen veldbeschrijvingen alleen worden weergegeven op de pagina **Veldomschrijvingen**.) In de volgende afbeelding ziet u de beschrijving die wordt weergegeven wanneer u de muisaanwijzer op het veld **Artikelen vergrendelen tijdens telling** plaatst. 
@@ -101,7 +101,7 @@ Zie de sectie 'Zoeken naar pagina's' eerder in dit artikel voor meer informatie 
 <a name="see-also"></a>Zie ook
 --------
 
-[Help voor velden aanpassen](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[Help voor velden aanpassen](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 

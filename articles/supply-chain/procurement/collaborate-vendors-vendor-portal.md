@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: a8284e5a79e00def964b41f5c20bbb7377bf36be
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: b4628977ec7a88a698f7b5af55ff049f7f76ecd6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -100,7 +100,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 
 [Configuratie van de beveiliging voor gebruikers van de leveranciersportal](configure-security-vendor-portal-users.md)
 
-[Werkgebied voor samenwerkingsfacturering van leveranciers](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+[Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 

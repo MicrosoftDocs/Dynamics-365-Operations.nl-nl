@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: f596f84463f46fc37b14b77bd335b9ed8a62eea9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Omdat de Power BI-inhoud **Analyse kostprijsboekhouding** afwijkingen tussen de 
 
 Met de inhoud **Analyse kostprijsboekhouding** kunnen kostenaccountants analyseren hoe kosten de kostenobjecten van de gehele organisatie doorlopen. 
 
-Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhouding](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhouding](../../financials/cost-accounting/cost-accounting-home-page.md). 
 
 Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau [Beveiliging instellen voor kostprijsboekhoudingsinhoud voor Power BI](setup-security-cost-accounting-content-pack.md).
 
