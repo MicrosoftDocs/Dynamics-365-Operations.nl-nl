@@ -1,7 +1,7 @@
 ---
 title: Elektronische aangifte configureren om gegevens op te halen in Power BI
 description: In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Electronische rapportage) kunt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global

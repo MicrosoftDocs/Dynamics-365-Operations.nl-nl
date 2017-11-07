@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 1174003
 ms.search.region: Denmark, Germany, France, Ireland, Netherlands, United Kingdom
 ms.author: v-semaz

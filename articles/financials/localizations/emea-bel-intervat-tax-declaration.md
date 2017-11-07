@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.1, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 273023
 ms.search.region: Belgium
 ms.search.industry: All
