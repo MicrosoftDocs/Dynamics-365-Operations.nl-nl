@@ -3,14 +3,14 @@ title: Startpagina voor Contanten en bankbeheer
 description: "U kunt Contanten en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/21/2017
+ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 82a2be9d6058a1c3394bb8269774772793333541
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8b060d8ef5bd7e7358df666c5e17cc5d9aac944a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -90,7 +90,7 @@ Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om
 
 #### <a name="blogs"></a>Weblogs
 
-U kunt meningen, advies, nieuws en andere informatie over Kas- en bankbeheer en andere oplossingen vinden op de [Microsoft Dynamics 365-blog] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+U kunt meningen, advies, nieuws en andere informatie over Contanten en bankbeheer en andere oplossingen vinden op de [Microsoft Dynamics 365-blog] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
 Er zijn veel posts over Contanten en bankbeheer beschikbaar op de [blog van het Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Contanten en bankbeheer, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
 
