@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -18,34 +18,33 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c4c900d7599b0dc09e97e6a62d5b43971a8c3e33
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6b2346c635fd16fce99c2813856e0fc9b5b03a44
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a><span data-ttu-id="277fd-103">Startpagina Kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="277fd-103">Cost accounting home page</span></span>
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="09677-103">Startpagina Kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="09677-103">Cost accounting home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="learning-map"></a><span data-ttu-id="277fd-104">Leertraject</span><span class="sxs-lookup"><span data-stu-id="277fd-104">Learning map</span></span> 
+## <a name="learning-map"></a><span data-ttu-id="09677-104">Leertraject</span><span class="sxs-lookup"><span data-stu-id="09677-104">Learning map</span></span> 
 
-<span data-ttu-id="277fd-105">Het volgende leertraject toont de belangrijkste concepten en taken met die het raamwerk van de module Kostprijsboekhouding vormen.</span><span class="sxs-lookup"><span data-stu-id="277fd-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="277fd-106">Klik op de koppelingen in de sectie [Snelkoppelingen](#quick-links) om te leren hoe u de module gebruikt.</span><span class="sxs-lookup"><span data-stu-id="277fd-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
+<span data-ttu-id="09677-105">Het volgende leertraject toont de belangrijkste concepten en taken met die het raamwerk van de module Kostprijsboekhouding vormen.</span><span class="sxs-lookup"><span data-stu-id="09677-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="09677-106">Klik op de koppelingen in de sectie [Snelkoppelingen](#quick-links) om te leren hoe u de module gebruikt.</span><span class="sxs-lookup"><span data-stu-id="09677-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
 
-<span data-ttu-id="277fd-107">[![Leertraject voor kostprijsboekhouding](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="277fd-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
+<span data-ttu-id="09677-107">[![Leertraject voor kostprijsboekhouding](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="09677-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
 
-## <a name="quick-links"></a><span data-ttu-id="277fd-108">Snelkoppelingen</span><span class="sxs-lookup"><span data-stu-id="277fd-108">Quick links</span></span>
+## <a name="quick-links"></a><span data-ttu-id="09677-108">Snelkoppelingen</span><span class="sxs-lookup"><span data-stu-id="09677-108">Quick links</span></span>
 |      |   |
 |------|---|
-|  [<span data-ttu-id="277fd-109">Aan de slag</span><span class="sxs-lookup"><span data-stu-id="277fd-109">Get started</span></span>](terms-cost-accounting.md)    | [<span data-ttu-id="277fd-110">Bronsysteem configureren</span><span class="sxs-lookup"><span data-stu-id="277fd-110">Configure source system</span></span>](../general-ledger/financial-dimensions.md)  |
-|  [<span data-ttu-id="277fd-111">Dimensies maken en dimensieleden importeren</span><span class="sxs-lookup"><span data-stu-id="277fd-111">Create dimensions and import dimension members</span></span>](cost-elements.md)    |[<span data-ttu-id="277fd-112">Een Dimensiehiërarchieën maken</span><span class="sxs-lookup"><span data-stu-id="277fd-112">Create dimension hierarchy</span></span>](dimension-hierarchy.md)   |
-|  [<span data-ttu-id="277fd-113">Basisinstellingen maken</span><span class="sxs-lookup"><span data-stu-id="277fd-113">Create basic setup</span></span>](./tasks/define-cost-control-units.md)    |  [<span data-ttu-id="277fd-114">Toewijzingsbasis definiëren</span><span class="sxs-lookup"><span data-stu-id="277fd-114">Define allocation base</span></span>](allocation-bases.md) |
-|    [<span data-ttu-id="277fd-115">Beleid definiëren</span><span class="sxs-lookup"><span data-stu-id="277fd-115">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md)  | [<span data-ttu-id="277fd-116">Gegevensbron en gegevensprovider</span><span class="sxs-lookup"><span data-stu-id="277fd-116">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md)  |
-| [<span data-ttu-id="277fd-117">Verwerking van gegevensbron</span><span class="sxs-lookup"><span data-stu-id="277fd-117">Data source processing</span></span>](./tasks/process-trace-source-data.md)     | [<span data-ttu-id="277fd-118">Overheadberekening</span><span class="sxs-lookup"><span data-stu-id="277fd-118">Overhead calculation</span></span>](overhead-calculation.md)  |
-|   [<span data-ttu-id="277fd-119">Analyse en rapportage</span><span class="sxs-lookup"><span data-stu-id="277fd-119">Analysis and reporting</span></span>](cost-control-workspace.md)   |   |
+|  <span data-ttu-id="09677-109">[Basisentiteiten configureren (eLearning)](https://mbspartner.microsoft.com/Home) (vereist een CustomerSource-account)</span><span class="sxs-lookup"><span data-stu-id="09677-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="09677-110">Dimensies maken</span><span class="sxs-lookup"><span data-stu-id="09677-110">Create dimensions</span></span>](cost-elements.md)  |
+|  [<span data-ttu-id="09677-111">Een Dimensiehiërarchieën maken</span><span class="sxs-lookup"><span data-stu-id="09677-111">Create dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="09677-112">Basisinstellingen maken</span><span class="sxs-lookup"><span data-stu-id="09677-112">Create basic setup</span></span>](./tasks/define-cost-control-units.md)| 
+| [<span data-ttu-id="09677-113">Toewijzingsbasis definiëren</span><span class="sxs-lookup"><span data-stu-id="09677-113">Define allocation base</span></span>](allocation-bases.md)|[<span data-ttu-id="09677-114">Beleid definiëren</span><span class="sxs-lookup"><span data-stu-id="09677-114">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [<span data-ttu-id="09677-115">Gegevensbron en gegevensprovider</span><span class="sxs-lookup"><span data-stu-id="09677-115">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="09677-116">Gegevensbron en gegevensprovider</span><span class="sxs-lookup"><span data-stu-id="09677-116">Data source and data provider</span></span>](./tasks/process-trace-source-data.md)     | 
+|[<span data-ttu-id="09677-117">Overheadberekening</span><span class="sxs-lookup"><span data-stu-id="09677-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="09677-118">Analyse en rapportage</span><span class="sxs-lookup"><span data-stu-id="09677-118">Analysis and reporting</span></span>](cost-control-workspace.md)   |
 
-## <a name="get-started-videosbr"></a><span data-ttu-id="277fd-120">Aan de slag-video's</span><span class="sxs-lookup"><span data-stu-id="277fd-120">Get started videos</span></span><br/>
+## <a name="get-started-videosbr"></a><span data-ttu-id="09677-119">Aan de slag-video's</span><span class="sxs-lookup"><span data-stu-id="09677-119">Get started videos</span></span><br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
