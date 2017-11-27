@@ -25,22 +25,22 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Startpagina Financieel beheer
+# <a name="financial-management-home-page"></a><span data-ttu-id="8287a-103">Startpagina Financieel beheer</span><span class="sxs-lookup"><span data-stu-id="8287a-103">Financial management home page</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor financieel beheer in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+<span data-ttu-id="8287a-104">Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor financieel beheer in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="8287a-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Selecteer een functiegebied voor meer informatie hierover.
-- [Leveranciers](accounts-payable\accounts-payable.md) 
-- [Klanten](accounts-receivable\accounts-receivable.md) 
-- [Contanten en bankbeheer](cash-bank-management\cash-bank-management.md)
-- [Kostprijsboekhouding](cost-accounting\cost-accounting-home-page.md)
-- [Vaste activa](fixed-assets\fixed-assets.md)
-- [Grootboek](general-ledger\general-ledger.md) 
-- [Projectbeheer](project-management\overview-project-management-accounting.md)
-- [Openbare sector](public-sector\public-sector-functionality.md) 
-- [Budgettering](budgeting\budgeting-overview.md) 
+<span data-ttu-id="8287a-105">Selecteer een functiegebied voor meer informatie hierover.</span><span class="sxs-lookup"><span data-stu-id="8287a-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="8287a-106">Leveranciers</span><span class="sxs-lookup"><span data-stu-id="8287a-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
+- [<span data-ttu-id="8287a-107">Klanten</span><span class="sxs-lookup"><span data-stu-id="8287a-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
+- [<span data-ttu-id="8287a-108">Contanten en bankbeheer</span><span class="sxs-lookup"><span data-stu-id="8287a-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
+- [<span data-ttu-id="8287a-109">Kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="8287a-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
+- [<span data-ttu-id="8287a-110">Vaste activa</span><span class="sxs-lookup"><span data-stu-id="8287a-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
+- [<span data-ttu-id="8287a-111">Grootboek</span><span class="sxs-lookup"><span data-stu-id="8287a-111">General ledger</span></span>](general-ledger\general-ledger.md) 
+- [<span data-ttu-id="8287a-112">Projectbeheer</span><span class="sxs-lookup"><span data-stu-id="8287a-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
+- [<span data-ttu-id="8287a-113">Openbare sector</span><span class="sxs-lookup"><span data-stu-id="8287a-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
+- [<span data-ttu-id="8287a-114">Budgettering</span><span class="sxs-lookup"><span data-stu-id="8287a-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
 
 
 

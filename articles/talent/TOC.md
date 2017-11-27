@@ -1,10 +1,9 @@
 # [Welkom bij Dynamics 365 for Talent](index.md)
 
-# Aan de slag
+# [Aan de slag](talent-get-started.md)
 ## [Systeemvereisten en updatebeleid](talent-versions-update-policy.md)
 
-# Een strategie voor Human resources ontwikkelen
-## [Uw werknemers organiseren met afdelingen, taken en posities](departments-jobs-positions.md)
+# [Een strategie voor Human resources ontwikkelen](departments-jobs-positions.md)
 ## [Taakonderdelen instellen](create-job.md)
 ## [Een afdeling maken en koppelen aan de afdelingshiërarchie](create-department-add-department-hierarchy.md)
 ## [HR-parameters instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md)
@@ -28,13 +27,11 @@
 ## [Personeelsvaardigheden afstemmen op zakelijke behoeften](skills.md)
 ## [Trainingscursussen instellen](courses.md)
 
-# Vergoedingen maken en onderhouden
-## [Een vergoedingsprogramma beheren](manage-benefit-program.md)
-## [Beleid voor geschiktheid vergoedingen](benefit-eligibility-policies.md)
+# [Vergoedingen maken en onderhouden](manage-benefit-program.md)
+# [Beleid voor geschiktheid vergoedingen](benefit-eligibility-policies.md)
 ## [Artikelen beheren die aan werknemers worden geleend](loan-items.md)
 
-# Gegevens verzamelen via vragenlijsten
-## [Vragenlijsten](questionnaires.md)
+# [Gegevens verzamelen via vragenlijsten](questionnaires.md)
 ## [Een vragenlijst ontwerpen](design-questionnaires.md)
 ## [Een vragenlijst verspreiden en invullen](distribute-questionnaires.md)
 ## [De resultaten van een vragenlijst evalueren](evaluate-questionnaire-results.md)
