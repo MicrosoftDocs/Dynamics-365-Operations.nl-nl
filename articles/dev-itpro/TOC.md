@@ -54,57 +54,54 @@
 #### [X++-kenmerkklassen](dev-ref/xpp-attribute-classes.md)
 #### [Vergelijking van X++ en C\#](dev-ref/xpp-cs-comparison.md)
 #### [X++-syntaxis](dev-ref/xpp-syntax.md)
-## Compilatietijdfuncties
+## [API, klasse en tabelverwijzing](dev-ref/api-reference.md)
 ### [X++-compilatietijdfuncties](dev-ref/xpp-compile-time-functions.md)
-## Runtimefuncties
-### [X++-runtimefuncties business](dev-ref/xpp-business-run-time-functions.md)
-### [X++-runtimefuncties container](dev-ref/xpp-container-run-time-functions.md)
-### [X++-runtimefuncties conversie](dev-ref/xpp-conversion-run-time-functions.md)
-### [X++-runtimefuncties datum](dev-ref/xpp-date-run-time-functions.md)
-### [X++-runtimefuncties wiskundig](dev-ref/xpp-math-run-time-functions.md)
-### [X++-runtimefuncties reflectie](dev-ref/xpp-reflection-run-time-functions.md)
 ### [X++-runtimefuncties](dev-ref/xpp-run-time-functions.md)
-### [X++-runtimefuncties sessie](dev-ref/xpp-session-run-time-functions.md)
-### [X++-runtimefuncties tekenreeks](dev-ref/xpp-string-run-time-functions.md)
-## Systeemtabellen
+#### [X++-runtimefuncties business](dev-ref/xpp-business-run-time-functions.md)
+#### [X++-runtimefuncties container](dev-ref/xpp-container-run-time-functions.md)
+#### [X++-runtimefuncties conversie](dev-ref/xpp-conversion-run-time-functions.md)
+#### [X++-runtimefuncties datum](dev-ref/xpp-date-run-time-functions.md)
+#### [X++-runtimefuncties wiskundig](dev-ref/xpp-math-run-time-functions.md)
+#### [X++-runtimefuncties reflectie](dev-ref/xpp-reflection-run-time-functions.md)
+#### [X++-runtimefuncties sessie](dev-ref/xpp-session-run-time-functions.md)
+#### [X++-runtimefuncties tekenreeks](dev-ref/xpp-string-run-time-functions.md)
 ### [Systeemtabellen](dev-ref/system-tables.md)
-## Systeemklassen
-### [API, klasse en tabelverwijzing](dev-ref/api-reference.md)
-### [A-klassen](dev-ref/a-classes.md)
-### [B-klassen](dev-ref/b-classes.md)
-### [C-klassen](dev-ref/c-classes.md)
-### [D-klassen](dev-ref/d-classes.md)
-### [E-klassen](dev-ref/e-classes.md)
-### [F-klassen: FieldBinding tot FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
-### [F-klassen: FormBuildButtonControl tot FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
-### [F-klassen: FormBuildFilterPaneControl tot FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
-### [F-klassen: FormBuildReferenceControl tot FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
-### [F-klassen: FormChangeTracker tot FormControlEventArgs](dev-ref/formchangetracker-classes.md)
-### [F-klassen: FormDataObject tot FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
-### [F-klassen: FormFastTabSummarySeparator tot FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
-### [F-klassen: FormGroupControl tot FormIntControl](dev-ref/formgroupcontrol-classes.md)
-### [F-klassen: FormListBoxControl tot FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
-### [F-klassen: FormObject tot FormRealControl](dev-ref/formobject-classes.md)
-### [F-klassen: FormReferenceControl tot FormStringControl](dev-ref/formreferencecontrol-classes.md)
-### [F-klassen: FormTabControl tot FormWindowControl](dev-ref/formtabcontrol-classes.md)
-### [G-klassen](dev-ref/g-classes.md)
-### [H-klassen](dev-ref/h-classes.md)
-### [I-klassen](dev-ref/i-classes.md)
-### [J-klassen](dev-ref/j-classes.md)
-### [K-klassen](dev-ref/k-classes.md)
-### [L-klassen](dev-ref/l-classes.md)
-### [M-klassen](dev-ref/m-classes.md)
-### [N-klassen](dev-ref/n-classes.md)
-### [O-klassen](dev-ref/o-classes.md)
-### [P-klassen](dev-ref/p-classes.md)
-### [Q-klassen](dev-ref/q-classes.md)
-### [R-klassen](dev-ref/r-classes.md)
-### [S-klassen](dev-ref/s-classes.md)
-### [T-klassen](dev-ref/t-classes.md)
-### [U-klassen](dev-ref/u-classes.md)
-### [V-klassen](dev-ref/v-classes.md)
-### [W-klassen](dev-ref/w-classes.md)
-### [X-klassen](dev-ref/x-classes.md)
+### Systeemklassen
+#### [A-klassen](dev-ref/a-classes.md)
+#### [B-klassen](dev-ref/b-classes.md)
+#### [C-klassen](dev-ref/c-classes.md)
+#### [D-klassen](dev-ref/d-classes.md)
+#### [E-klassen](dev-ref/e-classes.md)
+#### [F-klassen: FieldBinding tot FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
+#### [F-klassen: FormBuildButtonControl tot FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
+#### [F-klassen: FormBuildFilterPaneControl tot FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
+#### [F-klassen: FormBuildReferenceControl tot FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
+#### [F-klassen: FormChangeTracker tot FormControlEventArgs](dev-ref/formchangetracker-classes.md)
+#### [F-klassen: FormDataObject tot FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
+#### [F-klassen: FormFastTabSummarySeparator tot FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
+#### [F-klassen: FormGroupControl tot FormIntControl](dev-ref/formgroupcontrol-classes.md)
+#### [F-klassen: FormListBoxControl tot FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
+#### [F-klassen: FormObject tot FormRealControl](dev-ref/formobject-classes.md)
+#### [F-klassen: FormReferenceControl tot FormStringControl](dev-ref/formreferencecontrol-classes.md)
+#### [F-klassen: FormTabControl tot FormWindowControl](dev-ref/formtabcontrol-classes.md)
+#### [G-klassen](dev-ref/g-classes.md)
+#### [H-klassen](dev-ref/h-classes.md)
+#### [I-klassen](dev-ref/i-classes.md)
+#### [J-klassen](dev-ref/j-classes.md)
+#### [K-klassen](dev-ref/k-classes.md)
+#### [L-klassen](dev-ref/l-classes.md)
+#### [M-klassen](dev-ref/m-classes.md)
+#### [N-klassen](dev-ref/n-classes.md)
+#### [O-klassen](dev-ref/o-classes.md)
+#### [P-klassen](dev-ref/p-classes.md)
+#### [Q-klassen](dev-ref/q-classes.md)
+#### [R-klassen](dev-ref/r-classes.md)
+#### [S-klassen](dev-ref/s-classes.md)
+#### [T-klassen](dev-ref/t-classes.md)
+#### [U-klassen](dev-ref/u-classes.md)
+#### [V-klassen](dev-ref/v-classes.md)
+#### [W-klassen](dev-ref/w-classes.md)
+#### [X-klassen](dev-ref/x-classes.md)
 
 ## [Startpagina voor uitbreidbaarheid](extensibility/extensibility-home-page.md)
 ### Inleiding en aan de slag
@@ -140,13 +137,10 @@
 #### [Een label wijzigen](extensibility/change-label.md)
 #### [Bereik van de nummerreeks verlengen](extensibility/extend-number-sequence-scope.md)
 
-## [Startpagina Continue levering](dev-tools/continuous-delivery-home-page.md)
-### [Veelgestelde vragen over ontwikkeling en continue levering](dev-tools/continuous-delivery-faq.md)
-### [Testpakketten uitsluiten van de build-uitvoer](dev-tools/exclude-test-packages.md)
-### [Modellen van derden en runtime-pakketten beheren met behulp van bronbeheer](dev-tools/manage-runtime-packages.md)
-### [Versiemodellen in de geautomatiseerde build](dev-tools/version-models-build.md)
 
-## Startpagina Prestaties
+
+
+## Prestaties
 ### [Traceren met Traceparser](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK en meerdere gebruikers testen met Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
 ### [Problemen vaststellen en prestatieproblemen analyseren met Traceparser](perf-test/trace-parser.md)
@@ -155,10 +149,8 @@
 ### [Testen en validaties](perf-test/testing-validation.md)
 ### [Testprojecten in Visual Studio](perf-test/testing-support.md)
 ### [Implementatie met continuous build en testautomatisering](perf-test/continuous-build-test-automation.md)
-## Datums
-### [Ingangsdatum](dev-tools/date-effectivity.md)
-## Licenties
-### [ISV-licenties](dev-tools/isv-licensing.md)
+## [Ingangsdatum](dev-tools/date-effectivity.md)
+## [ISV-licenties](dev-tools/isv-licensing.md)
 
 # [Ontwikkeling gebruikersinterface](user-interface/user-interface-development-home-page.md)
 ## Zelfstudies
@@ -359,7 +351,105 @@
 #### [Type ValueDesign](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [Type ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
-# Oplossingen vrijgeven door middel van Lifecycle Services
+# Gegevensintegratie
+## [Integratiepatronen](data-entities/integration-overview.md)
+
+## Gegevensintegratie-API's
+### [API voor gegevensbeheerpakket](data-entities/data-management-api.md)
+### [Service-eindpunten](data-entities/services-home-page.md)
+#### [Problemen oplossen met serviceverificatie](data-entities/troubleshoot-service-authentication.md)
+### [OData](data-entities/odata.md)
+### [Aangepaste services](data-entities/custom-services.md)
+### [Terugkerende integraties](data-entities/recurring-integrations.md)
+
+## Ontwikkeling voor integratie
+### [Gegevensintegratie met gegevensentiteiten](data-entities/data-management-integration-data-entity.md)
+#### [Een entiteit voor gegevensmigratie ontwikkelen](data-entities/develop-entity-for-data-migration.md)
+#### [Samengestelde gegevensentiteiten ontwikkelen](data-entities/develop-composite-data-entities.md)
+#### [Delen van financiële gegevens tussen bedrijven configureren](data-entities/tasks/configure-financial-cross-company-data-sharing.md)
+#### [Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken](data-entities/tasks/create-record-template-facilitate-data-entry.md)
+#### [Een nieuwe record maken met een recordsjabloon](data-entities/tasks/use-record-template-new-record.md)
+
+### [Gegevensintegratie via de Common Data Service](data-entities/data-integration-cds.md) 
+#### [Een scenario van prospect tot contant geld configureren](../supply-chain/sales-marketing/prospect-to-cash.md)
+##### [Producten van Finance and Operations synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+##### [Accounts in Sales synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+##### [Contactpersonen in Sales synchroniseren naar contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+##### [Kopteksten en regels in verkoopoffertes vanuit Sales synchroniseren naar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+##### [Kopteksten en regels in verkooporders synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+##### [Kopteksten en regels in verkoopfacturen synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+
+### [Externe webservices gebruiken](data-entities/consume-external-web-service.md)
+
+
+# [Gegevensbeheer](data-entities/data-entities-data-packages.md)
+
+## [Gegevensentiteiten](data-entities/data-entities.md)
+
+### [Configuratie gegevensprojecten](data-entities/configuration-data-projects.md)
+### [Pakketten met configuratiegegevens](data-entities/configuration-data-packages.md)
+### [Configuratiegegevens kopiëren tussen bedrijven](data-entities/copy-configuration.md)
+### [Gegevenssjablonen voor configuratie](data-entities/configuration-data-templates.md)
+### [Wijzigingen in een entiteit bijhouden](data-entities/entity-change-track.md)
+
+## Standaard gegevensentiteiten
+### [Gegevensentiteiten rapporteren](data-entities/data-entities-report.md)
+### [Gegevensentiteiten: leveranciers en belastingen](data-entities/data-entities-accounts-payable-taxes.md)
+### [Gegevensentiteiten: klanten](data-entities/data-entities-accounts-receivable.md)
+### [Gegevensentiteiten: bank](data-entities/data-entities-bank.md)
+### [Gegevensentiteiten: beginsaldi](data-entities/data-entities-beginning-balances.md)
+### [Gegevensentiteiten: budgetplanning](data-entities/data-entities-budget-plan.md)
+### [Gegevensentiteiten: budgetten](data-entities/data-entities-budgeting.md)
+### [Gegevensentiteiten: kostprijsberekening](data-entities/data-entities-costing.md)
+### [Gegevensentiteiten: onkostenbeheer](data-entities/data-entities-expense-management.md)
+### [Gegevensentiteiten: vaste activa](data-entities/data-entities-fixed-assets.md)
+### [Onkostenbeheer: grootboek](data-entities/data-entities-general-ledger.md)
+### [Onkostenbeheer: globaal adresboek](data-entities/data-entities-global-address-book.md)
+### [Gegevensentiteiten: Human resources](data-entities/data-entities-human-resources.md)
+### [Gegevensentiteiten: voorraadbeheer](data-entities/data-entities-inventory-management.md)
+### [Gegevensentiteiten: hoofdplanning](data-entities/data-entities-master-plan.md)
+### [Gegevensentiteiten: Inkoopbeheer](data-entities/data-entities-procurement-sourcing.md)
+### [Gegevensentiteiten: productgegevensbeheer](data-entities/data-entities-product-information-management.md)
+### [Gegevensentiteiten: productiebeheer](data-entities/data-entities-production-control.md)
+### [Gegevensentiteiten: projectadministratie](data-entities/data-entities-project-accounting.md)
+### [Gegevensentiteiten: publieke sector](data-entities/data-entities-public-sector.md)
+### [Gegevensentiteiten: detailhandel](data-entities/data-entities-retail.md)
+### [Gegevensentiteiten: uitvoering verkoop en marketing](data-entities/data-entities-sales-marketing.md)
+### [Gegevensentiteiten: verkoop en marketing pre-sales](data-entities/data-entities-sales-marketing-pre-sales.md)
+### [Gegevensentiteiten: systeembeheer](data-entities/data-entities-system-administration.md)
+### [Gegevensentiteiten: werkstroom](data-entities/data-entities-workflow.md)
+
+## [Gegevensimport- en exporttaken](data-entities/data-import-export-job.md)
+
+### [Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal](data-entities/tips-tricks-import-general-journal-entity.md)
+
+## Ontwikkeling voor gegevensentiteiten
+### [Nieuwe gegevensentiteiten maken](data-entities/build-consuming-data-entities.md)
+### [Eigenschappen van gegevensentiteit](data-entities/behavioral-properties-data-entities.md)
+### [Berekeningskolommen en virtuele velden maken](data-entities/data-entity-computed-columns-virtual-fields.md)
+### [Gedrag voor meerdere bedrijven](data-entities/cross-company-behavior.md)
+### [Land-/regiocodes verwerken](data-entities/countryregion-codes-configuration-keys.md)
+### [Overnamepatronen](data-entities/support-super-type-sub-type.md)
+### [Regels voor wizard voor gegevensentiteiten](data-entities/data-entity-wizard-rules.md)
+### [Eigenschappen van metagegevens](data-entities/behavioral-properties-data-entities.md)
+### [Validaties, standaardwaarden en niet-toegewezen velden](data-entities/validations-defaults-unmapped-fields.md)
+### [Beveiliging en gegevensentiteiten](data-entities/security-data-entities.md)
+
+## [Uw eigen database gebruiken](analytics/export-entities-to-your-own-database.md)
+
+# [Startpagina Continue levering](dev-tools/continuous-delivery-home-page.md)
+## [Veelgestelde vragen over ontwikkeling en continue levering](dev-tools/continuous-delivery-faq.md)
+## [Testpakketten uitsluiten van de build-uitvoer](dev-tools/exclude-test-packages.md)
+## [Modellen van derden en runtime-pakketten beheren met behulp van bronbeheer](dev-tools/manage-runtime-packages.md)
+## [Versiemodellen in de geautomatiseerde build](dev-tools/version-models-build.md)
+
+
+# Oplossingen vrijgeven via Lifecycle Services
 ## [Ontwikkelen en vrijgeven](lcs-solutions/lcs-solutions-app-source.md)
 ## [Uitbrengen en publiceren](lcs-solutions/marketing-content-lcs-solutions.md)
 ## [Een methode toevoegen](lcs-solutions/methodologies-lcs-solutions.md)
@@ -377,9 +467,7 @@
 ### [Aparte lokalisatiemodellen](lcs-solutions/separate-localization-models.md)
 ### [Wettelijke waarschuwing indienen](lcs-solutions/submit-localization-alerts.md)
 
-
-
-# Financiële ontwikkeling
+# [Financiële ontwikkeling](financial/financial-dev-home-page.md)
 ## [Dimensies](financial/dimensions.md)
 ## [Dimensies toevoegen aan een Excel-sjabloon](financial/dimensions-overview.md)
 ## [Ondersteuning dialoogvenster Besturingselement dimensie-invoer](financial/dimension-entry-control-dialog-support.md)
@@ -408,14 +496,15 @@
 
 ## Cloudimplementatie
 ### [Onboarding Azure-resourcemanager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute en Dynamics 365 for Finance and Operations, Enterprise Editie](deployment/expressroute.md)
+### [Azure ExpressRoute en Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [On-premises implementatie](deployment/on-premises-deployment-landing-page.md)
 ### [Overzicht on-premises](deployment/on-premises-overview.md)
 ### [Omvang van hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-### [Een on-premises-project maken](lifecycle-services/lbd-create-lcs-on-prem-project.md)
-### [On-premises-omgevingen instellen en implementeren](deployment/setup-deploy-on-premises-environments.md)
-### [Aangepaste modellen ontwikkelen voor on-premises-omgevingen](deployment/develop-deploy-custom-models-on-premises.md)
+### [Een on-premises project maken](lifecycle-services/lbd-create-lcs-on-prem-project.md)
+### [On-premises omgevingen instellen en implementeren](deployment/setup-deploy-on-premises-environments.md)
+### [Aangepaste modellen ontwikkelen voor on-premises omgevingen](deployment/develop-deploy-custom-models-on-premises.md)
+### [Updates toepassen op een on-premises implementatie](deployment/apply-updates-on-premises.md)
 
 ## Aangepaste code implementeren
 ### [Een implementeerbaar pakket maken](deployment/create-apply-deployable-package.md)
@@ -445,7 +534,7 @@
 #### [Een bijgewerkte verkoop-cube migreren naar de entiteitsopslag](migration-upgrade/migrate-upgraded-cube-entity-store.md)
 #### [Budgetplanning bijwerken](migration-upgrade/upgrade-budget-planning.md)
 
-## Code migreren en upgraden
+## [Code migreren en upgraden](migration-upgrade/code-migration-home-page.md)
 ### [Voorbereidingen voor het migreren van code](migration-upgrade/prepare-migration.md)
 ### [Visual Studio Team Services configureren tijdens de codemigratie](migration-upgrade/configure-vso-solution.md)
 ### [Modellen splitsen](dev-tools/model-split.md)
@@ -476,6 +565,7 @@
 ## [Licentiecodes en configuratiesleutels rapporteren](sysadmin/license-codes-configuration-keys-report.md)
 ## [Delen van gegevens tussen bedrijven](sysadmin/cross-company-data-sharing.md)
 ## [Onderhoudsmodus](sysadmin/maintenance-mode.md)
+## [Vooraf geconfigureerde systeemrekeningen](sysadmin/pre-configured-system-accounts.md)
 ## [Beveiliging op rollen gebaseerd](sysadmin/role-based-security.md)
 ### [Beveiligingsarchitectuur](sysadmin/security-architecture.md)
 ### [Beveiligingsrapporten](sysadmin/security-reports.md)
@@ -496,6 +586,7 @@
 ### [Wat is er nieuw](lifecycle-services/whats-new-lcs.md)
 ### [Bekende problemen](lifecycle-services/known-issues.md)
 ## [Gebruikershandleiding Dynamics Lifecycle Services](lifecycle-services/lcs-user-guide.md)
+## [Abonnementsschatting](lifecycle-services/subscription-estimator.md)
 ## [Beveiliging configureren](lifecycle-services/configure-lcs-security.md)
 ## [Problemen zoeken](lifecycle-services/issue-search-lcs.md)
 ## [Configuratiebeheer](lifecycle-services/configuration-manager-lcs.md)
@@ -511,6 +602,7 @@
 ## [Stroomdiagrammen voor modelleertool bedrijfsprocessen](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Aangepaste bedrijfsprocessen uploaden](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Controle en diagnose ](lifecycle-services/monitoring-diagnostics.md)
+## [Gebruikeraanmeldingen bijhouden](lifecycle-services/user-logins.md)
 ## [Activabibliotheek](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - Overzicht vertaalservice](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 - Gebruikershandleiding vertaalservice](lifecycle-services/use-translation-service.md)
@@ -594,6 +686,7 @@
 ## [Een database van SQL Server kopiëren naar een productie-omgeving met een Azure SQL-database](database/copy-database-from-sql-server-to-azure-sql.md)
 ## [Een database op een niet-productieomgeving herstellen](database/request-point-in-time-restore.md)
 ## [Een kopie van een database exporteren om op een later tijdstip herstellen](database/copy-operations-database.md)
+## [Aanvraag voor sandbox-database vernieuwen](database/database-refresh.md)
 
 # Ondersteuning
 ## [Ondersteuning krijgen voor Dynamics 365 for Finance and Operations, Enterprise Edition en Lifecycle Services](lifecycle-services/lcs-support.md)

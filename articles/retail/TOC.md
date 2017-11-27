@@ -2,6 +2,11 @@
 
 # Aan de slag
 ## [Wat is nieuw of gewijzigd](get-started/whats-new.md)
+## [Voordat u Dynamics 365 for Retail aanschaft](get-started/before-you-buy.md)
+## [Aanmelden voor een preview-abonnement](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [Een demo-omgeving implementeren](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Implementatieopties](dev-itpro/choose-deployment.md)
+
 
 # Betalingen
 ## [Betalingsmethoden](payment-methods.md)
@@ -36,9 +41,11 @@
 ## [Detailhandelkanalen definiëren](define-maintain-retail-channels.md)
 ## [Online winkeloverzicht](online-stores.md)
 ## [Een detailhandelhardwarestation configureren en installeren](retail-hardware-station-configuration-installation.md)
-## [Tijd en aanwezigheid in detailhandel](retail-time-attendance.md)
+## [Tijd en aanwezigheid in Retail](retail-time-attendance.md)
 
 # Modern point-of-sale (MPOS) en Cloud POS
+## [POS-bewerkingen](POS-operations.md)
+## [Indelingen voor scherm met demogegevens in MPOS/CPOS](demo-data.md)
 ## Hardware randapparatuur
 ### [Overzicht van detailhandelrandapparatuur](retail-peripherals-overview.md)
 ### [Door Microsoft geteste POS-randapparatuur](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,10 +67,11 @@
 ### [Hybride klantorders](hybrid-customer-orders.md)
 ## Verkoopmedewerkers
 ### [Provisie bijhouden in POS via verkoopgroepen](pos-sales-groups-track-commissions.md)
+## [Een order verzenden vanuit een andere winkel](charge-send.md)
 ## Apparaatactivering
 ### [MPOS configureren en installeren](retail-modern-pos-device-activation.md)
 ### [Uitgebreide aanmelding instellen voor Cloud POS en MPOS](extended-logon.md)
-### [Detailhandelaccounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
+### [Retail-accounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
 ## Ontvangsten
 ### [Ontvangstbewijssjablonen instellen](receipt-templates-printing.md) 
 ### [E-mailontvangstbewijzen verzenden vanuit MPOS](email-receipts.md)
@@ -168,13 +176,13 @@
 ### [Communicatie detailhandelafzetkanaal](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS-architectuur](dev-itpro/retail-modern-pos-architecture.md)
 ### [Publicatiearchitectuur online Retail-winkels](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Power BI-inhoud over prestaties voor detailhandelafzetkanaal](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Power BI-inhoud voor prestaties detailhandelafzetkanaal](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## Implementatie en hotfixes
-### [Configuratie en installatie van Schaaleenheid voor Retail-winkels](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [Retail-winkelsysteem, voordat u begint](dev-itpro/retail-store-system-begin.md)
+### [Overzicht voor schaaleenheid voor Retail-winkels](dev-itpro/retail-store-system-begin.md)
+#### [Configuratie en installatie van schaaleenheid voor Retail-winkels](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Configuratie en installatie van Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [Detailhandelaccounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
+#### [Retail-accounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS-apparaat activeren](dev-itpro/retail-device-activation.md)
 #### [Veilige Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md)
@@ -187,6 +195,7 @@
 ### [N-1-onderdelen installeren](dev-itpro/n-1-installation-configuration.md)
 
 ## Configuratie van de omgeving
+### [Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Bing Kaarten beheren](dev-itpro/manage-bing-maps.md)
 
 ## Uitbreidbaarheid
@@ -197,8 +206,9 @@
 #### [Uitbreidbaarheid MPOS en Cloud-POS-activering](dev-itpro/modern-pos-trigger-extensibility.md)
 #### [Een aangepast besturingselement toevoegen aan een POS-weergave](dev-itpro/pos-custom-control.md)
 #### [Uitbreiding van POS-betaling](dev-itpro/pos-payment-extension.md)
+#### [Ondersteuning voor externe geschenkbonnen](dev-itpro/gift-card.md)
 ### [App voor Retail-ervaring maken](dev-itpro/create-retail-experience-app.md)
-### [Overzicht van Hardware Station en uitbreidbaarheid](dev-itpro/hardware-station-extensibility.md)
+### [Overzicht van hardwarestation en uitbreidbaarheid](dev-itpro/hardware-station-extensibility.md)
 
 ### Retail-server
 #### [Een Retail Server OData-controller uitbreiden](dev-itpro/extend-retail-server-odata-controller.md)
@@ -209,7 +219,7 @@
 ### Commerce runtime
 #### [Overzicht Commerce runtime](dev-itpro/commerce-runtime-overview.md)
 #### [Uitbreidbaarheid Commerce runtime en Retail-server ](dev-itpro/commerce-runtime-extensibility.md)
-#### [Voorkeurgegevens klant toevoegen aan een kanaaldatabase](dev-itpro/add-customer-preference-channel.md)
+#### [Voorkeurgegevens klant toevoegen aan een afzetkanaaldatabase](dev-itpro/add-customer-preference-channel.md)
 #### [Eigenschappen toevoegen aan een verkooporder](dev-itpro/add-properties-sales-order.md)
 #### [Uitbreidbaarheid Commerce runtime en triggers](dev-itpro/commerce-runtime-extensibility-trigger.md)
 #### [Voorbeeld van trigger: transactie blokkeren](dev-itpro/trigger-example-blocking-transaction.md)
@@ -224,16 +234,22 @@
 #### [Betalingsconnector implementeren](dev-itpro/deploy-payment-connector.md)
 #### [Een Windows-installer maken voor een betalingsconnector](dev-itpro/create-windows-installer-payment-connector.md)
 
-## Retail-SDK
-### [Overzicht Retail-SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
-### [De Retail-SDK integreren met het continuous build-systeem](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [Voorbeelden uitbreidbaarheid Retail-SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+## Retail SDK
+### [Overzicht Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
+### [De Retail SDK integreren met het continuous build-systeem](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
+### [Voorbeelden uitbreidbaarheid Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Kassa's voor Zweden](localizations/emea-swe-cash-registers.md)
 ### [Voorbeeld voor Retail POS-integratie met regeleenheden voor Zweden](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Pakket voor Retail-SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Voorbeelden Retail-SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
-### [Uitbreidingen voor kanaal-database (DB)](dev-itpro/channel-db-extensions.md)
+### [Kassa's voor Noorwegen](localizations/emea-nor-cash-registers.md)
+### [Implementatierichtlijnen voor kassa's voor Noorwegen](localizations/emea-nor-loc-deployment-guidelines.md)
+### [Pakket voor Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [Voorbeelden Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [Uitbreidingen voor afzetkanaaldatabase (DB)](dev-itpro/channel-db-extensions.md)
 ### [Uitbreidbaarheid CDX](dev-itpro/cdx-extensibility.md)
+### [Kenmerken van order](dev-itpro/order-attributes.md)
+### [Klantkenmerken](dev-itpro/customer-attributes.md)
+### [Retail-typescript en C#-proxy](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## Commerce runtime
 ### [Uitbreiding loyaliteit](dev-itpro/retail-sdk/loyalty-extension-sample.md)
