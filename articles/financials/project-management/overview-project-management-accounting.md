@@ -3,7 +3,7 @@ title: Projectbeheer en boekhouding
 description: De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt om in een service te voorzien, een product te produceren of een resultaat te halen.
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -228,7 +228,7 @@ In de volgende tabel worden de methoden beschreven voor berekening van de kosten
 <tbody>
 <tr class="odd">
 <td>Totale kosten: werkelijk</td>
-<td>De kostenraming moet handmatig worden ingevoerd. Nadat de kolom <strong>Totale kosten</strong> of <strong>Totale hoeveelheid</strong> op de pagina <strong>Kostenraming</strong> is ingevuld, worden de werkelijke kosten afgetrokken van de door de gebruiker ingevoerde totalen. Het resultaat bestaat uit de kosten om het project te voltooien. Doorgaans wordt de voortgang van kosten gebaseerd op bijvoorbeeld het aantal hotelverblijven en maaltijden die in elke periode worden geregistreerd, niet bijgehouden. Maar. In plaats daarvan wordt de voortgang meestal bijgehouden op basis van een vergelijking met het totale aantal geschatte uren. Bij deze benadering is geen prognosemodel nodig en kunnen de totale kosten of de totale hoeveelheid handmatig worden gewijzigd. Wanneer een waarde in kolom <strong>Totale hoeveelheid</strong> of <strong>Totale kosten</strong> wordt ingevoerd, wordt deze waarde in Finance and Operations vergeleken met de werkelijke transacties die in de periode zijn geboekt. Vervolgens wordt de waarde in de kolom <strong>Te voltooien hoeveelheid</strong> of <strong>Kosten voor voltooien</strong> verlaagd.</td>
+<td>De kostenraming moet handmatig worden ingevoerd. Nadat de kolom <strong>Totale kosten</strong> of <strong>Totale hoeveelheid</strong> op de pagina <strong>Kostenraming</strong> is ingevuld, worden de werkelijke kosten afgetrokken van de door de gebruiker ingevoerde totalen. Als resultaat worden de kosten voor het voltooien van het project weergegeven. Gewoonlijk is het bijhouden van de voortgang van kosten bijvoorbeeld niet gebaseerd op het aantal hotelverblijven en maaltijden dat in elke periode wordt geregistreerd. Maar. In plaats daarvan wordt de voortgang meestal bijgehouden op basis van een vergelijking met het totale aantal geschatte uren. Bij deze benadering is geen prognosemodel nodig en kunnen de totale kosten of de totale hoeveelheid handmatig worden gewijzigd. Wanneer een waarde in kolom <strong>Totale hoeveelheid</strong> of <strong>Totale kosten</strong> wordt ingevoerd, wordt deze waarde in Finance and Operations vergeleken met de werkelijke transacties die in de periode zijn geboekt. Vervolgens wordt de waarde in de kolom <strong>Te voltooien hoeveelheid</strong> of <strong>Kosten voor voltooien</strong> verlaagd.</td>
 </tr>
 <tr class="even">
 <td>Totaal budget: werkelijk</td>
@@ -243,11 +243,11 @@ In Finance and Operations worden de voorspelde ramingen niet automatisch verlaag
 > </tr>
 <tr class="odd">
 <td>Resterend budget</td>
-<td>Voor deze methode wordt gebruikgemaakt van een model met het resterende budget om de kosten voor het voltooien van het project te berekenen. Wanneer u deze methode gebruikt, worden de werkelijke kosten en de geprognosticeerde bedragen in het model met het resterende budget bij elkaar opgeteld. Het resultaat bestaat uit de totale kosten. Voordat u deze methode gebruikt, moet een model met het resterende budget worden ingesteld om transacties af te trekken op basis van werkelijke transacties die zijn geregistreerd in het systeem. Op de pagina <strong>Prognosemodellen</strong> moet u ervoor zorgen dat de velden in de groep <strong>Automatische prognosereductie</strong> zijn gemarkeerd. Een resterend budget wordt gewoonlijk vanuit een oorspronkelijke budget gekopieerd. Wanneer transacties worden ingevoerd, worden de transacties van het resterende budget verlaagd. Als u tijdens het verloop van het project vaststelt dat het resterende budget dient te worden aangepast, kunt u prognosetransacties bij het resterende budget in rekening brengen. <strong>Opmerking:</strong> deze methode kan alleen worden toegepast als er een prognosemodel aan de raming is gekoppeld.</td>
+<td>Voor deze methode wordt gebruikgemaakt van een model met het resterende budget om de kosten voor het voltooien van het project te berekenen. Wanneer u deze methode gebruikt, worden de werkelijke kosten en de geprognosticeerde bedragen in het model met het resterende budget bij elkaar opgeteld. Het resultaat is een kostentotaal. Voordat u deze methode gebruikt, dient een model met het resterende budget te worden ingesteld voor het aftrekken van transacties op basis van werkelijke transacties die zijn geregistreerd in het systeem. Op de pagina <strong>Prognosemodellen</strong> moet u ervoor zorgen dat de velden in de groep <strong>Automatische prognosereductie</strong> zijn gemarkeerd. Een resterend budget wordt gewoonlijk vanuit een oorspronkelijke budget gekopieerd. Wanneer transacties worden ingevoerd, worden de transacties van het resterende budget verlaagd. Als u tijdens het verloop van het project vaststelt dat het resterende budget dient te worden aangepast, kunt u prognosetransacties bij het resterende budget in rekening brengen. <strong>Opmerking:</strong> deze methode kan alleen worden toegepast als er een prognosemodel aan de raming is gekoppeld.</td>
 </tr>
 <tr class="even">
 <td>Zoals vorige raming</td>
-<td>Dezelfde ramingsmethode die in de vorige periode is gebruikt, wordt toegepast. Voor deze methode is een prognosemodel vereist als de vorige periode een prognosemodel vereiste.</td>
+<td>Dezelfde ramingsmethode die in de vorige periode is gebruikt, wordt toegepast. Deze methode vereist een prognosemodel als de vorige periode een prognosemodel vereiste.</td>
 </tr>
 <tr class="odd">
 <td>Kosten voor voltooien op nul zetten</td>

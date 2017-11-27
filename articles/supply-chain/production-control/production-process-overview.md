@@ -1,9 +1,9 @@
 ---
 title: Overzicht van productieproces
-description: In dit artikel vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
+description: In dit onderwerp vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50e64057d19d0e1fbf5645c2abc31fbd19ea43a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode. 
+In dit onderwerp vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode. 
 
 De vervaardiging van producten, soms ook wel bekend als de productiecyclus, volgt specifieke stappen die vereist zijn voor het maken van een artikel. De levenscyclus begint met het opstellen van de productieorder, batchorder of kanban. Het eindigt met een voltooid, gefabriceerd artikel dat gereed is voor een klant of een andere productiefase. Elke stap in de levenscyclus vereist verschillende soorten informatie om het proces te voltooien. Bij elke stap die is voltooid, ondergaat de productieorder, batchorder of kanban een wijziging in de productiestatus. Verschillende typen producten vereisen verschillende productieprocessen.  
 
@@ -56,7 +56,7 @@ Om het productieprincipe te selecteren dat het beste past bij een bepaald produc
 -   **Maken naar voorraad** - Dit is het klassieke productieprincipe, waarbij producten voor voorraad worden geproduceerd op basis van prognose of minimumvoorraadaanvulling (de laatstgenoemde wordt meestal berekend op basis van prognose of historisch verbruik).
 -   **Maken naar order** - Standaardproducten worden gemaakt naar order of voltooid naar order. Hoewel de voorproductie kan worden uitgevoerd met behulp van het principe Maken naar voorraad, worden dure stappen in de waardeketen of stappen waarbij varianten worden gemaakt, geactiveerd door een verkooporder of een transferorder.
 -   **Configureren naar order** - Zoals bij het principe Makeren naar order, worden de laatste bewerkingen van de waardeketen naar order gemaakt. De werkelijke productvariant die wordt geproduceerd is niet vooraf gedefinieerd, maar wordt gemaakt op het moment van orderinvoer, op basis van het configuratiemodel van het verkoopproduct. Het principe Configureren naar order vereist een bepaald niveau van proceseenmaking voor een bepaalde productregel.
--   **Engineer naar order** - Processen voor Engineer naar order worden meestal uitgevoerd via een project en beginnen meestal met de engineeringfase. Tijdens de engineeringfase worden de werkelijke producten die zijn vereist voor het vervullen van de order ontworpen en beschreven. Vervolgens kunnen productieorders, batchorders of kanbans worden gemaakt om de producten te vervaardigen.
+-   **Engineer naar order** – Processen voor Engineer naar order worden meestal uitgevoerd via een project en beginnen meestal met de engineeringfase. Tijdens de engineeringfase worden de werkelijke producten die zijn vereist voor het vervullen van de order ontworpen en beschreven. Vervolgens kunnen productieorders, batchorders of kanbans worden gemaakt om de producten te vervaardigen.
 
 ## <a name="overview-of-the-production-life-cycle"></a>Overzicht van de productielevenscyclus
 De volgende stappen in de productiecyclus kunnen plaatsvinden voor alle ordertypen voor gemengde productie. Ze worden echter niet allemaal weergegeven als een expliciete orderstatus.

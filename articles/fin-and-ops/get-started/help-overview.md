@@ -1,16 +1,16 @@
 ---
 title: Help-overzicht
-description: Dit artikel biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren.
+description: Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren.
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>Help-overzicht
+# <a name="help-system-overview"></a>Overzicht Help-systeem
 
 [!include[banner](../includes/banner.md)]
 
-Dit artikel biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren. 
+Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren. 
 
 > [!NOTE] 
 > De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
@@ -69,16 +69,17 @@ We krijgen veel vragen over het zoeken in onze inhoud. Als u op onze site begint
 
 U vindt onze inhoud ook met een willekeurige zoekmachine. We raden voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld: site:docs.microsoft.com "zoekterm".  
 
-![Zoeken op locatie](./media/site-search-1.png)
-
-![Zoekresultaten op site](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>De inhoudsopgave van docs.microsoft.com
-Alle producten delen dezelfde inhoudsopgave op de docs-site, waardoor klanten de context kunnen zien van het onderwerp waarin zij zich bevinden. Bovendien kunt u ook het besturingselement Filter gebruiken om onderwerpen te vinden die u zoekt.
+Finance and Operations, Retail en Talent delen dezelfde inhoudsopgave op de docs-site, waardoor klanten de context kunnen zien van het onderwerp waarin zij zich bevinden. Bovendien kunt u ook het besturingselement Filter boven de inhoudsopgave gebruiken om onderwerpen te vinden die u zoekt.
 
-### <a name="how-can-i-contribute"></a>Hoe kan ik bijdragen? 
+### <a name="follow-a-topic"></a>Een onderwerp volgen
+Als u een onderwerp wilt volgen, klikt u op de knop +Volgen onder het opmerkingenvak. U moet zich aanmelden om het onderwerp te volgen. Zie [Een opmerking achterlaten](#leave-us-a-comment) voor meer informatie.  
 
-Stuur ons een opmerking! 
+### <a name="give-feedback"></a>Feedback geven 
+We stellen feedback van klanten zeer op prijs. U kunt opmerkingen geven of wijzigingen in onze inhoud voorstellen via GitHub.
+
+##### <a name="leave-us-a-comment"></a>Een opmerking achterlaten 
+Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aan de pagina een opmerking achterlaten.  
 
 1 Klik op **Opmerkingen** om naar de opmerkingen onder aan de pagina te gaan.
 
@@ -96,6 +97,19 @@ Of
 Voer aan de rechterkant een e-mailadres en een nieuw wachtwoord in om een account voor de site te maken. 
 
 ![Aanmeldopties](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Een wijziging voorstellen of inhoud bijdragen via GitHub
+Als u een wijziging wilt voorstellen, moet u een GitHub-account hebben en een licentieovereenkomst voor bijdragers ondertekenen.  Wanneer u een wijzigingsaanvraag indient, beoordelen wij uw voorgestelde wijzigingen. Indien nodig bespreken we deze intern en komen we er vervolgens op terug met u.  
+
+U begint door te klikken op de knop **Bewerken** (potlood) voor een onderwerp, maar u kunt ook naar onze opslagplaats op https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public gaan. 
+
+Raadpleeg voor meer informatie onze handleiding voor bijdragers op https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> Op dit moment accepteren we alleen nog bijdragen aan onze Engelse opslaglocaties.  
+> We accepteren geen gerapporteerde problemen via GitHub. Gebruik een wijzigingsaanvraag voor inhoudssuggesties. Product- en functiefeedback kan het beste worden afgehandeld via de Dynamics 365-portal Ideas: https://ideas.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Taakbegeleidingen
@@ -164,7 +178,7 @@ Wanneer een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster
 
 ### <a name="where-are-the-translated-task-guides"></a>Waar zijn de vertaalde taakbegeleiders?
 
-Vertaalde taakbegeleiders worden vrijgegeven in bibliotheken waarvan de titel "Alle talen" bevat. Als u in Finance and Operations gelokaliseerde help met taakbegeleiding wilt zien, moet u ervoor zorgen verbonden te zijn met de bijbehorende bibliotheek. De taal waarin een taakbegeleider wordt weergegeven, wordt voor elke gebruiker bepaald door de instellingen voor taal onder **Opties** &gt; **Voorkeuren**. 
+Vertaalde taakbegeleiders worden vrijgegeven in bibliotheken waarvan de titel "Alle talen" bevat. Als u in Finance and Operations gelokaliseerde Help met taakbegeleiding wilt zien, moet u ervoor zorgen dat u bent verbonden met de bijbehorende bibliotheek. De taal waarin een taakbegeleider wordt weergegeven, wordt voor elke gebruiker bepaald door de instellingen voor taal onder **Opties** &gt; **Voorkeuren**. 
 -   Als een taakbegeleider is vertaald, wordt bij het openen van die taakbegeleider alle tekst van de taakbegeleider weergegeven in uw geselecteerde taal.
 -   Als een taakbegeleider nog niet is vertaald, wordt bij het openen van die taakbegeleider alleen bepaalde tekst (de tekst van de besturingselementen) weergegeven in uw geselecteerde taal.
 
@@ -196,9 +210,4 @@ In de volgende tabel worden onze websites weergegeven. Onze inhoudwebsites worde
 [Nieuwe of bijgewerkte taakbegeleiders (augustus 2016)](new-updated-task-guides-available-august-2016.md)
 [Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)
 [Nieuwe taakbegeleiders (februari 2016)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

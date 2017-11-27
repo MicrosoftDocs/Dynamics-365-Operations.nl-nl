@@ -1,9 +1,9 @@
 ---
 title: Drieweg-overeenstemmingsbeleid
-description: Dit artikel geeft voorbeelden van drieweg-overeenstemming.
+description: Dit onderwerp biedt voorbeelden van drieweg-overeenstemming.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bc53df6b994c0d2e490e8823a53478f2ad04e163
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel geeft voorbeelden van drieweg-overeenstemming.
+Dit onderwerp biedt voorbeelden van drieweg-overeenstemming.
 
 <a name="example-three-way-matching-for-items"></a>Voorbeeld: drieweg-overeenstemming voor artikelen
 -------------------------------------
@@ -65,7 +65,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 1.  Sammy, een werknemer in de ontvangende afdeling bij Fabrikam, ontvangt de totale hoeveelheid machines die werden verzonden door Contoso. Hij voert een aantal van 5 in op de productontvangstbon. Aangezien de inkooporder volledig is ontvangen, wordt de status van de inkooporder gewijzigd naar Ontvangen.
 2.  April, de coördinator leveranciers bij Fabrikam, controleert de factuur die Contoso heeft ingediend en voert deze in. Zij controleert de volgende informatie:
     -   Voor artikelen waar drieweg-overeenstemming is vereist, controleert ze of de hoeveelheid op de factuurregel overeenstemt met de ontvangen hoeveelheid. De ontvangen hoeveelheid is aangegeven op de productontvangstbon die met de factuur wordt vereffend.
-    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Dit omvat de volgende soorten prijsovereenstemming:
+    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming vereist is, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Dit omvat de volgende soorten prijsovereenstemming:
         -   Overeenstemming netto-eenheidsprijs: De afwijking tussen de netto-eenheidsprijs op de factuurregel en de netto-eenheidsprijs op de inkooporderregel moet binnen toegestane toleranties liggen. In dit voorbeeld is de tolerantie van de netto-eenheidsprijs +8%.
         -   Vereffening van prijstotalen: de afwijking tussen de het nettobedrag op de factuurregel en het nettobedrag op de inkooporderregel moet binnen het toegestane tolerantiepercentage, -bedrag of -percentage en -bedrag liggen. In dit voorbeeld is de tolerantie van prijstotalen +15%.
 

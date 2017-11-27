@@ -1,9 +1,9 @@
 ---
 title: Projectcontracten
-description: Dit artikel bevat beschrijvingen en voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+description: Dit onderwerp bevat voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel bevat beschrijvingen en voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Dit artikel bevat voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 Het type project dat u maakt voor een projectcontract bepaalt de wijze waarop projectklanten gefactureerd worden. U kunt een projectcontract en het gerelateerde project wijzigen, maar u kunt het projecttype niet wijzigen. 
 
@@ -224,7 +224,7 @@ In de volgende tabel wordt dit scenario nader onderzocht.
 </tr>
 <tr class="odd">
 <td>Transactie 2</td>
-<td><strong>Transactiebedrag:</strong> 5000,00<strong>Financiering:</strong> De transactie is betaald volgens alle drie de regels.<strong>Regel 1</strong>
+<td><strong>Transactiebedrag:</strong> 5000,00<strong>Financiering:</strong> De transactie is betaald volgens alle drie de regels. <strong>Regel 1</strong>
 <ul>
 <li>Financieringsbron 2: 450,00</li>
 <li>Financieringsbron 3: 450,00</li>

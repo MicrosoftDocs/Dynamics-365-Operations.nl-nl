@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 04def14ddf9b079005bf11acbcaf64b21aa80fdb
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Een configuratie ontwerpen voor het genereren van rapporten in OpenXML-indeling voor elektronische aangifte (ER)
@@ -34,8 +34,7 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, In
 
 
 
-Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien. U moet ook een Excel-bestand hebben dat wordt geïmporteerd bij het maken van de sjabloon. Dit bestand kan worden geopend via: https://msdynamics.blob.core.windows.net/media/2016/04/SampleVendPaymWsReport.xlsx
-
+Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien. U moet ook het Microsoft Excel-bestand [Sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266) downloaden en opslaan. 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>De gegevensmodelconfiguratie Betalingen uploaden
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.

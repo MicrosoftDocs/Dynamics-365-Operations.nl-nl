@@ -1,9 +1,9 @@
 ---
 title: 'Berekeningen voor productconfiguratiemodellen: veelgestelde vragen'
-description: In dit artikel worden berekeningen voor productconfiguratiemodellen beschreven en wordt uitgelegd hoe u berekeningen samen met beperkingen kunt gebruiken.
+description: In dit onderwerp worden berekeningen voor productconfiguratiemodellen beschreven en wordt uitgelegd hoe u berekeningen samen met beperkingen kunt gebruiken.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel worden berekeningen voor productconfiguratiemodellen beschreven en wordt uitgelegd hoe u berekeningen samen met beperkingen kunt gebruiken.
+In dit onderwerp worden berekeningen voor productconfiguratiemodellen beschreven en wordt uitgelegd hoe u berekeningen samen met beperkingen kunt gebruiken.
 
 Berekeningen kunnen voor rekenkundige of logische bewerkingen worden gebruikt. Deze vullen expressiebeperkingen in productconfiguratiemodellen aan. U kunt berekeningen definiëren op de pagina **Details van op beperkingen gebaseerd productconfiguratiemodel** en vervolgens expressies maken voor de berekeningen in de expressie-editor. Raadpleeg Berekeningen maken voor meer informatie.
 
@@ -75,7 +75,7 @@ De berekeningen komen voor wanneer een waarde voor alle invoerkenmerken is opgeg
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Kan ik een waarde overschrijven die voor het doelkenmerk wordt berekend?
 U kunt de waarde overschrijven die voor het doelkenmerk wordt berekend, tenzij het doelkenmerk is ingesteld als verborgen of alleen-lezen.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Hoe kan ik een doelkenmerk instellen als verborgen of alleen-lezen?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Hoe kan ik een doelkenmerk instellen als verborgen of alleen-lezen?
 Om een kenmerk in te stellen als verborgen of alleen-lezen, volgt u deze stappen.
 
 1.  Klik op **Productgegevensbeheer** &gt; **Algemeen** &gt; **Productconfiguratiemodellen**.

@@ -1,9 +1,9 @@
 ---
 title: Nomenclatuur van productvariantnummers en -namen
-description: In dit onderwerp wordt beschreven hoe u een productnummernomenclatuur instelt om de vaste indeling [productmodelnummer - configuratie - maat - kleur - stijl] te vervangen. De nieuwe nomenclatuur heeft een beoogde indeling die het productmodelnummer, de actieve productdimensies en tekstscheidingstekens van uw keuze bevat. U kunt ook een nomenclatuur maken voor productnamen. Ten slotte kunt u een nomenclatuur maken om configuraties te identificeren die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
+description: In dit onderwerp wordt beschreven hoe u een productnummernomenclatuur instelt om de vaste indeling [productmodelnummer - configuratie - maat - kleur - stijl] te vervangen.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Een T-shirt (TS1234) wordt geproduceerd in drie maten (S, M, L), vier kleuren (r
 
 In dit geval is het productvariantnummer voor een rood, klein polo T-shirt TS1234-Rood-Klein-Polo.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Op beperkingen gebaseerde configuraties
+## <a name="nomenclature-of-constraint-based-configurations"></a>Nomenclatuur met op beperkingen gebaseerde configuraties
 Voor op beperkingen gebaseerde configuraties kunt u een specifieke nomenclatuur maken voor de configuratieproductdimensie. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**:
 
 -   Nummerreekswaarde
@@ -92,7 +92,7 @@ U maakt een configuratienomenclatuur met de volgende segmenten:
 
 In dit geval is de configuratie-id voor houten materiaal met een lengte van 78 WoodAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatuur van op dimensies gebaseerde configuraties
+## <a name="nomenclature-of-dimension-based-configurations"></a>Nomenclatuur met op dimensies gebaseerde configuraties
 Voor op dimensies gebaseerde configuraties kunt u een specifieke nomenclatuur maken voor de configuratieproductdimensie. U kunt de volgende segmenten selecteren op de pagina **Productnomenclatuur**:
 
 -   Nummerreekswaarde

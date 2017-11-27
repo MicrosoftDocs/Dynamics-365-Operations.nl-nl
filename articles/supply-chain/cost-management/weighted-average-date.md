@@ -1,9 +1,9 @@
 ---
 title: Datum gewogen gemiddelde
-description: 
+description: Datum gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het principe van het gewogen gemiddelde, waarbij uitgiften worden berekend tegen de gemiddelde waarde van de artikelen die worden ontvangen in voorraad voor elke afzonderlijke dag in de afsluitingsperiode van de voorraad.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+Datum gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het beginsel van gewogen gemiddelden. Voor het principe van gewogen gemiddelden, worden uitgiften uit de voorraad gewaardeerd tegen de gemiddelde waarde van de artikelen die zijn ontvangen in de voorraad voor elke dag in de periode van de eindvoorraad. 
 
-Datum gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het beginsel van gewogen gemiddelden. Voor het principe van gewogen gemiddelden, worden uitgiften uit de voorraad gewaardeerd tegen de gemiddelde waarde van de artikelen die zijn ontvangen in de voorraad voor elke dag in de periode van de eindvoorraad. Wanneer u een voorraad afsluit met een datum gewogen gemiddelde, worden alle dagelijkse ontvangsten vereffend met een virtuele uitgifte. Deze virtuele uitgifte omvat de totale hoeveelheid die is ontvangen en de waarde voor die dag. De virtuele uitgifte heeft een bijbehorende virtuele ontvangst waarmee de uitgiften worden vereffend. Daarom hebben alle uitgiften dezelfde gemiddelde kosten. De virtuele uitgifte en virtuele ontvangst kunnen worden gezien als virtuele overboeking, die ook wel een *overboeking van gewogen gemiddelde eindvoorraad* wordt genoemd. 
+Wanneer u een voorraad afsluit met een datum gewogen gemiddelde, worden alle dagelijkse ontvangsten vereffend met een virtuele uitgifte. Deze virtuele uitgifte omvat de totale hoeveelheid die is ontvangen en de waarde voor die dag. De virtuele uitgifte heeft een bijbehorende virtuele ontvangst waarmee de uitgiften worden vereffend. Daarom hebben alle uitgiften dezelfde gemiddelde kosten. De virtuele uitgifte en virtuele ontvangst kunnen worden gezien als virtuele overboeking, die ook wel een *overboeking van gewogen gemiddelde eindvoorraad* wordt genoemd. 
 
 Als er slechts één ontvangst heeft plaatsgevonden op of vóór de datum, hoeft u het gemiddelde niet te waarderen. Aangezien alle uitgiften met deze ontvangst worden vereffend, wordt er geen virtuele overboeking gemaakt. Tevens geldt dat, als er alleen uitgiften plaatsvinden op de desbetreffende datum, er geen ontvangsten beschikbaar zijn om het gemiddelde te berekenen en wordt er geen virtuele overboeking gemaakt. Wanneer u een datum gewogen gemiddelde gebruikt, kunt u voorraadtransacties markeren zodat een bepaalde artikelontvangst wordt vereffend met een bepaalde uitgifte. In daqt geval maakt u geen gebruik van de regel voor datum gewogen gemiddelde. U wordt aangeraden maandelijks een voorraadafsluiting uit te voeren wanneer u het voorraadmodel Datum gewogen gemiddelde gebruikt. 
 
@@ -167,7 +168,7 @@ De afdeling Klantenservice heeft een spoedorder van een belangrijke klant aangen
 U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie wordt geboekt. U kunt dit doen vanaf een verkooporderregel op de pagina **Details verkooporder**. U kunt de openstaande ontvangsttransacties bekijken op de pagina **Markering**. U kunt een uitgiftetransactie aan een ontvangst koppelen nadat de transactie is geboekt. U kunt een uitgiftetransactie voor een openstaande ontvangsttransactie voor een geïnventariseerd artikel afstemmen of markeren vanuit een geboekt voorraadcorrectiejournaal. De volgende afbeelding geeft deze transacties weer:
 
 -   1a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
--   1a. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
+-   1b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 10,00 per stuk.
 -   2a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 20,00 per stuk.
 -   2b. Financiële voorraadontvangst voor een hoeveelheid 1 tegen een prijs van USD 20,00 per stuk.
 -   3a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 25,00 per stuk.

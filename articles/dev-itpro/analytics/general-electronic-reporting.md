@@ -1,17 +1,17 @@
 ---
 title: Overzicht van elektronische rapportage
-description: Dit artikel biedt een overzicht van het hulpmiddel voor Elektronische rapportage (ER). Er staat informatie in over belangrijke concepten, de scenario's die door ER ondersteund worden en een lijst met indelingen die als onderdeel van de ER-oplossing ontworpen en uitgegeven zijn.
-author: kfend
+description: Dit onderwerp biedt een overzicht van het hulpmiddel voor Elektronische rapportage (ER). Er staat informatie in over belangrijke concepten, de scenario's die door ER ondersteund worden en een lijst met indelingen die als onderdeel van de ER-oplossing ontworpen en uitgegeven zijn.
+author: NickSelin
 manager: AnnBe
-ms.date: 06/15/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 704235fb1aacb7e3101d4b1feca1e36051059ade
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -198,7 +198,7 @@ In de volgende afbeelding ziet u een voorbeeld waarin de inhoud van een gegevens
 
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Gegevensmodeltoewijzingen voor uitgaande documenten configureren
 
-ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke Finance ande Operations-gegevensbronnen. Op basis van de toewijzing worden de gegevens geïmporteerd tijdens de uitvoering vanuit de geselecteerde gegevensbronnen in het gegevensmodel. Het gegevensmodel wordt vervolgens gebruikt als een abstracte gegevensbron van ER-indelingen die uitgaande elektronische documenten genereren. In de volgende afbeelding ziet u een voorbeeld van dit type gegevensmodeltoewijzing (de modeltoewijzing **SEPA-kredietoverdracht** van het domeingegevensmodel voor betaling). 
+ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke Finance ande Operations-gegevensbronnen. Op basis van de toewijzing worden de gegevens geïmporteerd tijdens de uitvoering vanuit de geselecteerde gegevensbronnen in het gegevensmodel. Het gegevensmodel wordt vervolgens gebruikt als een abstracte gegevensbron van ER-indelingen die uitgaande elektronische documenten genereren. De volgende afbeelding laat een voorbeeld zien van dit type gegevensmodeltoewijzing (de modeltoewijzing **SEPA-kredietoverdracht** van het domeingegevensmodel voor betaling). 
 
 [![Voorbeeld van een gegevensmodeltoewijzing ](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 

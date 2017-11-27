@@ -1,9 +1,9 @@
 ---
 title: Vooruitbetalingsfacturen versus vooruitbetalingen
-description: "Dit artikel beschrijft en vergelijkt de twee methoden met elkaar start die de organisaties voor voorschotten (vooruitbetalingen) gebruiken. Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren."
+description: "In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen). Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6bf67fb17363f7b61e782ed6d8e7b6310433ffd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel beschrijft en vergelijkt de twee methoden met elkaar start die de organisaties voor voorschotten (vooruitbetalingen) gebruiken. Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren.
+In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen). Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren.
 
 Organisaties kunnen aanbetalingen (vooruitbetalingen) verzenden naar leveranciers voor goederen of services voordat deze goederen of services zijn afgehandeld. Voor het verzenden van vooruitbetalingen naar leveranciers kunnen twee methoden worden gebruikt. Om risico's te minimaliseren, kunt u vooruitbetalingen bijhouden door de vooruitbetaling op een inkooporder te definiëren. Voor deze methode moet u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Deze methode wordt aanbetalingsfacturering genoemd. Organisaties die vooruitbetalingen niet zo nauwgezet willen bijhouden of geen vooruitbetalingsfactuur van hun leverancier ontvangen, kunnen journaalboekstukken voor vooruitbetalingen gebruiken in plaats van de vooruitbetalingsfactureringsmethode. U kunt journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren. Bij deze methode kunt u niet bijhouden welke vooruitbetalingen aan een leverancier worden uitgevoerd en voor welke inkooporders. U kunt echter wel een geboekte vooruitbetaling voor vereffening voor een inkooporder markeren.
 
@@ -56,7 +56,7 @@ Bij de boekhouding in veel landen/regio's is het vereist dat vooruitbetalingen v
 7.  Nadat de leverancier de goederen of services heeft geleverd, registreert u de factuur. Als u de vooruitbetaling voor de inkooporder of de verkooporder in stap 6 hebt vereffend, wordt de vooruitbetaling automatisch vereffend voor de factuur die u hebt gemaakt. Als u de vooruitbetaling niet voor de inkooporder of de verkooporder hebt vereffend, kunt u deze handmatig vereffenen voor de factuur door **Transacties vereffenen** op de klant- of leverancierspagina te gebruiken. Het vooruitbetalingsbedrag wordt vervolgens teruggeboekt uit de tijdelijke klant- of leveranciersgrootboekrekening. Bovendien, als btw is berekend, wordt deze teruggeboekt, omdat de factuur de werkelijke btw heeft.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Overzicht van het vooruitbetalingsfactureringsproces
-Vooruitbetalingsfacturen worden veel in het bedrijfsleven gebruikt. Een leverancier maakt vooruitbetalingsfacturen om een voorschot voor de aankoop te vereisen voordat de inkooporder is vervuld. Een leverancier kan bijvoorbeeld een vooruitbetaling eisen voor aangepaste goederen of services. Als een leverancier een factuur verzendt voor vooruitbetaling, kunt u de functie voor vooruitbetalingsfacturering gebruiken. Een vooruitbetalingswaarde kan op de inkooporder worden gedefinieerd, een vooruitbetalingsfactuur wordt geregistreerd en betaald, en vervolgens wordt de vooruitbetalingsfactuur toegepast op de uiteindelijke factuur. Volg deze stappen om een vooruitbetaling te maken.
+Vooruitbetalingsfacturen worden veel in het bedrijfsleven gebruikt. Een leverancier maakt vooruitbetalingsfacturen om een voorschot voor de aankoop te vereisen voordat de inkooporder is vervuld. Een leverancier kan bijvoorbeeld een vooruitbetaling eisen voor aangepaste goederen of services. Als een leverancier een factuur uitgeeft voor vooruitbetaling, kunt u de functie voor vooruitbetalingsfacturering gebruiken. Een vooruitbetalingswaarde kan op de inkooporder worden gedefinieerd, een vooruitbetalingsfactuur wordt geregistreerd en betaald, en vervolgens wordt de vooruitbetalingsfactuur toegepast op de uiteindelijke factuur. Volg deze stappen om een vooruitbetaling te maken.
 
 1.  De inkoopmedewerker maakt, bevestigt en verzendt een inkooporder waarvoor de leverancier een vooruitbetaling heeft gevraagd. De vooruitbetalingswaarde wordt gedefinieerd op de inkooporder als onderdeel van de overeenkomst.
 2.  De leverancier geeft een vooruitbetalingsfactuur uit.

@@ -3,7 +3,7 @@ title: Betalingsmethoden in een callcenter
 description: In dit onderwerp komen de verschillende betalingsmethoden aan bod die u in een callcenter in Dynamics 365 for Retail kunt gebruiken.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 93cff4454139524911a98fc28bccd6aeb5b49d4a
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 321d03d154c224b55ffedbe55a2d5952c2b29d9a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -37,7 +37,7 @@ De betalingsmethoden die in andere kanalen worden gebruikt, zoals contant geld, 
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Kenmerk**             | Voer in het veld **Inwisseltarief** het verwachte inwisseltarief van de coupon in als percentage en selecteer vervolgens of de coupon kan worden gebruikt als coupon voor eenmalig gebruik, of deze automatisch opnieuw wordt uitgegeven en of deze specifiek is voor een klant.                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Kenmerk**             | Voer in het veld **Inwisseltarief** het verwachte inwisseltarief van de coupon in als percentage en selecteer vervolgens of de coupon één keer kan worden gebruikt, of deze automatisch opnieuw wordt uitgegeven en of deze specifiek is voor een klant.                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Geldig**                 | Voer in de velden **Begindatum** en **Einddatum** de eerste en laatste datum in waarop de coupon geldig is.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Regels opnemen/uitsluiten** | Selecteer in de velden **Catalogi** en **Artikelen** of er catalogi of artikelen zijn waarvoor de coupon geldig of ongeldig is. Als u **Opnemen** of **Uitsluiten** selecteert, klikt u op **Instellen**, selecteert u **Catalogi opnemen/uitsluiten** of **Producten opnemen/uitsluiten** en voert u informatie over de catalogus of het artikel in. Als u **Geen** selecteert in deze velden, worden alle catalogi of artikelen opgenomen in de coupon.                                                                                                                                                                                                                          |
 | **Overige**         | Als deze coupon niet kan worden gebruikt in combinatie met andere kortingen, schakelt u het selectievakje **Exclusief** in. Vervolgens selecteert u in het veld **Oorsprong** waar de coupon kan worden gebruikt. Als deze coupon een coupon van de fabrikant is, schakelt u het selectievakje **Fabrikantcoupon** in.                                                                                                                                                                                                                                                                                                                                                                |

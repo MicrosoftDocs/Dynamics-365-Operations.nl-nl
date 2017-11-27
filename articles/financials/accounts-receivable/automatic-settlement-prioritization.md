@@ -1,9 +1,9 @@
 ---
-title: Automatische vereffening en prioriteiten
-description: Dit artikel beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
+title: Automatische vereffening en prioriteitstelling
+description: Dit onderwerp beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a0f87aca78f1263f1f6ce65e2629b91312716cb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Automatische vereffening en prioriteiten
+# <a name="automatic-settlement-and-prioritization"></a>Automatische vereffening en prioriteitstelling
 
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
+Dit onderwerp beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert. Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.
 
 U hebt twee opties wanneer u betalingen met facturen en andere transacties vereffent. U kunt de te vereffenen transacties handmatig selecteren of Microsoft Dynamics 365 for Finance and Operations kan de transacties automatisch selecteren door de functie Automatische vereffeningen te gebruiken. U kunt ook aanpassen hoe automatische vereffeningen worden verwerkt door de optie **Prioriteit van vereffening** te gebruiken. Al deze opties maken deel uit van de vereffeningparameters die zijn gedefinieerd op de pagina **Parameters van module Klanten**. De manier waarop transacties automatisch worden vereffend kan verschillen, afhankelijk van de methode die u voor automatische vereffening gebruikt. De volgende methoden zijn beschikbaar:
 
@@ -50,7 +50,7 @@ De voorbeelden van vereffeningen verderop in dit artikel zijn gebaseerd op de vo
 | Factuur 3     | 15 oktober  | 500,00 | 2% 14/Net 30        | 29 oktober         |                                                                                                                                                                                               |
 | Rentenota | 15 oktober  | 7,00   |                     |                    | Deze rentenota is voor factuur 1 en factuur 2. Het bedrag wordt berekend als rente van 2 procent op bedragen van meer dan 30 dagen na de vervaldatum. Bijvoorbeeld: 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Door gebruiker gedefinieerde prioriteit van vereffening
+## <a name="user-defined-settlement-priority"></a>Door gebruiker gedefinieerde prioriteit van vereffening
 Als u **Prioriteit gebruiken voor automatische vereffeningen** instelt op **Ja** op de pagina **Parameters van module Klanten**, wordt de vereffeningsprioriteit die u op de pagina **Vereffeningsprioriteit** definieert gebruikt wanneer transacties worden geselecteerd voor automatische vereffening. Voor dit voorbeeld wordt de volgende vereffeningsprioriteit gedefinieerd:
 
 1.  Transactietype

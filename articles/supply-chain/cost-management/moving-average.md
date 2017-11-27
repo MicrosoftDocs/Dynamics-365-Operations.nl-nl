@@ -1,9 +1,9 @@
 ---
 title: Zwevend gemiddelde
-description: 
+description: Zwevend gemiddelde is een permanente kostenmethode, gebaseerd op het gemiddelde, waarbij de kosten van voorraadproblemen niet veranderen wanneer de aankoopkosten veranderen. Het verschil wordt gekapitaliseerd en is gebaseerd op een proportionele berekening. Het overblijvende bedrag zijn onkosten.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+Zwevend gemiddelde is een permanente kostenmethode, gebaseerd op het gemiddelde, waarbij de kosten van voorraadproblemen niet veranderen wanneer de aankoopkosten veranderen. Het verschil wordt gekapitaliseerd en is gebaseerd op een proportionele berekening. Het overblijvende bedrag zijn onkosten. 
+
+Als u een zwevend gemiddelde gebruikt, worden voorraadvereffeningen en voorraadmarkering niet ondersteund. Een voorraadsluiting heeft geen invloed op de producten die een zwevend gemiddelde als de voorraadmodelgroep hebben en genereren geen schikkingen tussen de transacties.
 
 De volgende zijn voorwaarden wanneer u gemiddelde kosten als een kostprijsmethode gebruikt.
+
 1.  Stel op de pagina **Artikelmodelgroepen** een artikelmodelgroep in waarbij Zwevend gemiddelde is geselecteerd in het veld **Voorraadwaarderingsmodel**. **Opmerking:** standaard worden, als Zwevend gemiddelde is geselecteerd, ook de velden **Fysieke voorraad boeken** en **Financiële voorraad boeken** geselecteerd. 
 
 2.  Wijs op de pagina **Boeking** rekeningen toe aan de rekeningen **Prijsverschil voor zwevend gemiddelde** en **Kostenherwaardering voor zwevend gemiddelde** op het tabblad **Voorraad**. U gebruikt de rekening **Prijsverschil voor zwevend gemiddelde** wanneer kosten proportioneel moeten worden opgevoerd. Dit gebeurt vanwege een verschil in kosten tussen een inkoopontvangst en de inkoopfactuur en vanwege een verschil tussen de oorspronkelijke voorraad en de huidige voorraad. Gebruik de rekening **Kostenherwaardering voor zwevend gemiddelde** wanneer u de zwevende gemiddelde kosten voor een product wilt aanpassen aan een nieuwe eenheidsprijs.

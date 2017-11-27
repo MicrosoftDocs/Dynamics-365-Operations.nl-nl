@@ -3,7 +3,7 @@ title: Overzicht van leveranciersbetaling
 description: Deze taakhandleiding leidt u door verschillende methoden die worden gebruikt voor het maken van leveranciersbetalingen, inclusief het gebruiken van een betalingsvoorstel of het handmatig invoeren van een eenmalige betaling.
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
+ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
+ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="vendor-payment-overview"></a>Overzicht van leveranciersbetaling
@@ -72,7 +72,7 @@ Deze taakhandleiding leidt u door verschillende methoden die worden gebruikt voo
 29. Selecteer de bankrekening waarvan de betalingen moeten worden gegenereerd.
 30. Klik op OK.
     * Er worden alleen betalingen gegenereerd voor betalingen die overeenstemmen met de betalingsmethode en bankrekening die u hebt geselecteerd.  
-31. Als u ook cheques genereert, kiest u Document om de juiste afdrukbestemming te waarborgen voor de cheques.
+31. Als u cheques genereert, kiest u Document om de juiste afdrukbestemming te waarborgen voor de cheques.
 32. Klik op OK.
 33. Klik op OK om de betalingen te genereren.
 34. Klik op Boeken als alle betalingen zijn goedgekeurd en gegenereerd. 

@@ -1,7 +1,7 @@
 ---
 title: Formuleontwerper in elektronische rapportage
-description: 'In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt. Wanneer u een indeling voor een specifiek elektronisch document in ER ontwerpt, kunt u Microsoft Excel-achtige formules voor gegevenstransformatie gebruiken om te voldoen aan de vereisten voor de afhandeling en opmaak van dat document. Er worden diverse typen functies ondersteund: tekst, datum en tijd, wiskundige logica, informatie, gegevenstypeconversie en andere functies (functies specifiek voor het zakelijke domein)'
-author: kfend
+description: In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt.
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 37c860599ad555846d11711e9f3cfb29c599131e
-ms.openlocfilehash: 7704b0545f4264be1f844ed6ad9e4b44df0c4ef8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -593,11 +593,12 @@ De formule die kan worden ontworpen, is als volgt: FORMAT (CONCATENATE (@&quot;S
 <td>GETENUMVALUEBYNAME (bronpad opsommingsgegevens, labeltekst opsommingswaarde)</td>
 <td>Retourneert een waarde van een opgegeven opsommingsgegevensbron door opgegeven tekst van dit opsommingslabel.</td>
 <td>Het volgende voorbeeld toont de opsomming ReportDirection die in een gegevensmodel wordt geïntroduceerd. Houd er rekening mee dat labels voor opsommingswaarden worden gedefinieerd.
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> In de volgende voorbeelden ziet u het volgende:
+<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
+<p>In de volgende voorbeelden ziet u het volgende:</p>
 <ul><li>Modelopsomming <strong>ReportDirection</strong> die in een rapport wordt ingevoegd als gegevensbron <strong>$Direction</strong></li>
 <li>ER-expressie <strong>$IsArrivals</strong> die is ontworpen om modelopsomming als parameter voor deze functie te gebruiken. De waarde van deze expressie is <strong>TRUE</strong>.
-
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></li></ul></td>
+</li></ul>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -630,7 +631,7 @@ Voor waarden van het type real wordt de tekenreeksconversie beperkt tot twee dec
 | Functie                                                                         | Omschrijving                                                                                                                                                                                                                                                        | Voorbeeld                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CONVERTCURRENCY (bedrag, bronvaluta, doelvaluta, datum, bedrijf)        | Converteer het opgegeven monetaire bedrag van de bronvaluta naar de doelvaluta door de instellingen van het opgegeven Finance and Operations-bedrijf op de opgegeven datum te gebruiken.                                                                            | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** retourneert het equivalent van één euro in Amerikaanse dollars op de huidige sessiedatum, op basis van de instellingen voor het bedrijf DEMF.                                                                                                                                  |
-| ROUNDAMOUNT (aantal, decimalen, afrondingsregel)                                       | Rond het opgegeven bedrag af op basis van de opgegeven afrondingsregel en het opgegeven aantal decimalen. **Opmerking:** de afrondingsregel moet worden opgegeven als een waarde van de Finance and Operations-opsomming **RoundOffType**.                          | Als de parameter **model.RoundOff** is ingesteld op Downward, retourneert **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** de waarde **1000,78**. Als de parameter **model.RoundOff** is ingesteld op **Normal** of **Rounding-up**, retourneert **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** de waarde **1000,79**. |
+| ROUNDAMOUNT (aantal, decimalen, afrondingsregel)                                       | Rond het opgegeven bedrag af op basis van de opgegeven afrondingsregel en het opgegeven aantal decimalen. **Opmerking:** de afrondingsregel moet worden opgegeven als een waarde van de Finance and Operations-opsomming **RoundOffType**.                          | Als de parameter **model.RoundOff** is ingesteld op ****Downward****, retourneert **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** de waarde **1000,78**. Als de parameter **model.RoundOff** is ingesteld op **Normal** of **Rounding-up**, retourneert **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** de waarde **1000,79**. |
 | CURCredRef (cijfers)                                                              | Retourneer een crediteurverwijzing op basis van de cijfers van het opgegeven factuurnummer.                                                                                                                                                                                  | **CURCredRef ("VEND-200002")** retourneert **"2200002"**.                                                                                                                                                                                                                                                         |
 | MOD\_97 (cijfers)                                                                 | Retourneer een crediteurverwijzing als een MOD97-expressie op basis van de cijfers van het opgegeven factuurnummer.                                                                                                                                                            | **MOD\_97 ("VEND-200002")** retourneert **"20000285"**.                                                                                                                                                                                                                                                           |
 | ISOCredRef (cijfers)                                                              | Retourneer een ISO-crediteurverwijzing op basis van de cijfers en alfabetische symbolen van het opgegeven factuurnummer. **Opmerking:** als u symbolen wilt elimineren uit alfabetten die niet ISO-conform zijn, moet de invoerparameter worden vertaald voordat deze wordt doorgegeven aan deze functie. | **ISOCredRef ("VEND-200002")** retourneert **"RF23VEND-200002"**.                                                                                                                                                                                                                                                 |

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 93a40f36e38ef5ea393cf429ad9244b56504bbfc
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Rapporten maken in Microsoft Office-indelingen met ingesloten afbeeldingen voor elektronische aangifte (ER) (deel 1) 
@@ -40,7 +40,7 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf Litw
     * Voer de indeling uit voor testdoeleinden.  
 6. Selecteer Ja in het veld Overdraagbare cheque.
 7. Klik op OK.
-    * Controleer de gemaakte uitvoer. Houd er rekening mee dat het bedrijfslogo wordt weergegeven in het rapport, alsmede de handtekening van de bevoegde persoon. De handtekeningafbeelding wordt opgehaald uit het veld van het gegevenstype 'Container' van de cheque-indelingsrecord die is gekoppeld aan de geselecteerde bankrekening.  
+    * Controleer de gemaakte uitvoer. Houd er rekening mee dat het bedrijfslogo wordt weergegeven in het rapport, alsmede de handtekening van de bevoegde persoon. De handtekeningafbeelding wordt opgehaald uit het veld van het gegevenstype Container van de cheque-indelingsrecord die is gekoppeld aan de geselecteerde bankrekening.  
 8. Vouw de sectie Aantal exemplaren uit.
 9. Klik op Bewerken.
 10. Voer in het veld Watermerk 'Watermerk afdrukken als Ongeldig' in.
@@ -62,7 +62,7 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf Litw
 1. Sluit de pagina.
 2. Sluit de pagina.
 3. Ga naar Organisatiebeheer > Elektronische rapportage > Configuraties.
-4. Selecteer in de structuur 'Model voor cheques'.
+4. Selecteer in de structuur Model voor cheques.
 5. Klik op Ontwerper.
 6. Klik op Model toewijzen aan gegevensbron.
 7. Klik op Ontwerper.

@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -36,11 +36,10 @@ Configureer Klanten en Crediteringen en aanmaningen om facturen en binnenkomende
 U kunt klantgroepen, klanten, boekingsprofielen, diverse betalingsopties, rentenota's, aanmaningen, provisies, parameters voor klanten, toeslagen, leveringen en bestemmingen, wissels en andere typen gegevens voor Klanten en Crediteringen en aanmaningen instellen.
 In de volgende tabel worden de pagina's weergegeven die de configuratie en het onderhoud van Klanten en Crediteringen en aanmaningen ondersteunen. De items in de tabel zijn gerangschikt op taak en vervolgens alfabetisch gesorteerd op paginanaam.
 
-| ![Opmerking](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Opmerking")**Opmerking**          |
-|--------------------------------------------------------------------------------------------------|
-| Voor sommige pagina's in deze tabel zijn gegevens of parameterinstellingen nodig om naar de formulieren te kunnen navigeren. |
+> [!NOTE]
+> Naar enkele pagina's in de volgende tabel kunt u alleen navigeren als er op andere pagina's gegevens of parameterinstellingen zijn ingevoerd.
 
-| Opdracht                                                 | Paginanaam                            | Gebruik                                                                                                                                                                                                                                                                             |
+| Taak                                                 | Paginanaam                            | Gebruik                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Vereiste gegevens voor Klanten configureren | Parameters van module Klanten       | Parameters instellen voor de module Klanten                                                                                                                                                                                                                             |
 |                                                      | Klantenworkflows        | Een workflow maken of een bestaande workflow bijwerken                                                                                                                                                                                                                                      |

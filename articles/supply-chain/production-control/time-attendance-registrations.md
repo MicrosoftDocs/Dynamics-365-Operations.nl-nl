@@ -1,9 +1,9 @@
 ---
 title: Tijd- en aanwezigheidsregistratie
-description: Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit artikel beschrijft registraties, hun berekening, goedkeuring, en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen.
+description: Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit onderwerp beschrijft registraties, hun berekening, goedkeuring en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit artikel beschrijft registraties, hun berekening, goedkeuring, en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen. 
+Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit onderwerp beschrijft registraties, hun berekening, goedkeuring en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen. 
 
 <a name="registrations"></a>Registraties
 -------------
@@ -66,7 +66,7 @@ Na instelling kunnen werknemers verschillende typen registraties invoeren.
 -   Indirecte activiteiten, wat niet-productieve activiteiten van een werknemer tijdens een werkdag zijn. Voorbeelden van deze activiteiten zijn bijeenkomsten of de reiniging van de werkruimte.
 -   Overtijd, wat kan worden geregistreerd als extra uren, flextijd of overwerk.
 
-## <a name="adding-clockout-registrations"></a>Uitklokregistraties toevoegen
+## <a name="adding-clock-out-registrations"></a>Uitklokregistraties toevoegen
 Als werknemers aan het einde van hun werkdag vergeten uit te klokken, kan de ontbrekende registratie worden toegevoegd met een batchtaak. Het systeem vergelijkt de inkloktijd en de uitkloktijd volgens het gekoppelde profiel van de werknemer, en voegt automatisch de ontbrekende uitklokregistratie in die past bij de eindtijd van het profiel. Zowel in- als uitklokregistraties zijn essentieel voor de berekening en goedkeuring van tijdregistraties voordat ze naar salaris kunnen worden overgeboekt.
 
 ## <a name="calculating-registrations"></a>Geregistreerde gegevens berekenen

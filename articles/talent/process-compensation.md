@@ -3,7 +3,7 @@ title: Compensatie verwerken
 description: Met compensatieverwerking kunt u nieuwe basiscompensatiebedragen berekenen voor uw werknemers, op basis van salarisaanpassingen, loonsverhoging voor verdienste en prestaties.
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 166219b2871a6a0b13e6fd2d15e3c34ab1c041f2
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 671bdea9e58309742424b098abb78522c2a6155e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -70,7 +70,7 @@ Om de verwerkingsresultaten te bekijken, opent u de pagina **Verwerkingsresultat
 
 De pagina **Verwerkingsresultaten** bevat informatie over de verwerkingsuitvoering, inclusief wanneer de uitvoering plaatsvond, de gebruiker die het proces uitvoerde en of er fouten optraden tijdens het uitvoeren van de verwerking. U kunt ook de optie **Vergrendeld** inschakelen om de knop de **Compensatie laden** uit te schakelen en te voorkomen dat iemand de compensatiegebeurtenissen in de werknemersrecords laadt. Als u klikt op de knop **Werknemersresultaten**, wordt de lijst met werknemers getoond die zijn opgenomen in de uitvoering.
 
-De optie **Resultaten werknemer** geeft informatie over het proces zelf, alsmede eventuele compensatieacties die in het proces worden uitgevoerd. De sectie **Vaste compensatie** sectie bevat een record voor elke actie die is opgenomen in de procesgebeurtenis voor het compensatieplan. De kolommen **Huidige richtlijnen** en **Aanbeveling** geven meer informatie voor de actie die is geselecteerd in de sectie **Vaste compensatie**. Als voor de actie de optie **Aanbevelingen inschakelen** was geactiveerd, zijn de velden Aanbevelingen bewerkbaar. U kunt dan handmatig de bedragen voor de werknemers aanpassen. Opmerking: Als u de optie **Vorig resultaat gebruiken** had ingeschakeld voor de actie op de procesgebeurtenis, moet u de bedragen voor eventuele afhankelijke acties handmatig bijwerken.
+De optie **Resultaten werknemer** geeft informatie over het proces zelf, alsmede eventuele compensatieacties die in het proces worden uitgevoerd. De sectie **Vaste compensatie** sectie bevat een record voor elke actie die is opgenomen in de procesgebeurtenis voor het compensatieplan. De kolommen **Huidige richtlijn** en **Aanbeveling** geven meer informatie voor de actie die is geselecteerd in de sectie **Vaste compensatie**. Als voor de actie de optie **Aanbevelingen inschakelen** was geactiveerd, zijn de velden Aanbevelingen bewerkbaar. U kunt dan handmatig de bedragen voor de werknemers aanpassen. Opmerking: Als u de optie **Vorig resultaat gebruiken** had ingeschakeld voor de actie op de procesgebeurtenis, moet u de bedragen voor eventuele afhankelijke acties handmatig bijwerken.
 
 Wanneer de compensatiebedragen voor een werknemer zijn gecontroleerd en eventuele aanpassingen aan de aanbevolen waarden zijn doorgevoerd, kunt u de **Status** op de regel **Werknemersgebeurtenis** wijzigen om aan te geven of de gebeurtenis is goedgekeurd of moet worden genegeerd. Desgewenst kunt u eventuele wijzigingen in de aanbeveling van de werknemer wissen, door te klikken op de knop **Herberekenen**. Hierdoor krijgt de bestaande werknemersgebeurtenis de status Negeren en wordt een nieuwe werknemersgebeurtenis aangemaakt met de herberekende waarden.
 

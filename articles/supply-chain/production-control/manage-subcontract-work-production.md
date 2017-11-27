@@ -3,7 +3,7 @@ title: Uitbesteed werk in productie beheren
 description: 'In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Microsoft Dynamics 365 for Finance and Operations. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.'
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 In dit onderwerp wordt uitgelegd hoe uitbestede bewerkingen worden beheerd in Microsoft Dynamics 365 for Finance and Operations. Met andere woorden: hierin wordt uitgelegd hoe de productiebewerkingen die zijn toegewezen aan een resource, worden beheerd door een leverancier.
 
-In [productieprocessen](production-process-overview.md) kunnen werkzaamheden worden uitgevoerd door resources die eigendom zijn van leveranciers of die door leveranciers worden beheerd. Leveranciersresources worden meestal gebruikt voor het nivelleren van periodiek excessieve vraag die de beschikbare capaciteit van de eigen resources van een bedrijf overschrijdt. De leverancier kan mogelijk ook specifieke [resourcemogelijkheden](resource-capabilities.md)of resources tegen een lagere prijs aanbieden.  
+In [productieprocessen](production-process-overview.md) kunnen werkzaamheden worden uitgevoerd door resources die eigendom zijn van leveranciers of die door leveranciers worden beheerd. Leveranciersresources worden meestal gebruikt voor het nivelleren van periodiek excessieve vraag die de beschikbare capaciteit van de eigen resources van een bedrijf overschrijdt. De leverancier kan mogelijk ook specifieke [resourcemogelijkheden](resource-capabilities.md) of resources tegen een lagere prijs aanbieden.  
 
 Afhankelijk van de leveranciersresources die in een productieproces worden gebruikt, heeft een [route](routes-operations.md) vaak extra logistieke vereisten, omdat het materiaal en de halffabricaten eerst moeten worden vervoerd naar de locatie van de leverancier. Het resultaat van de uitbestede bewerking moet vervolgens worden vervoerd naar de locatie die is toegewezen aan de volgende bewerking of naar een magazijn voor eindproducten.  
 

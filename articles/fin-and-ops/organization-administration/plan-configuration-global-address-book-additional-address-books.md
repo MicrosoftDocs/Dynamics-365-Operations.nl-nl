@@ -1,9 +1,9 @@
 ---
 title: Plannen hoe u het algemene adresboek en extra adresboeken configureert
-description: "In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken, voordat u het globale adresboek en eventuele aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie."
+description: "In dit onderwerp worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken, voordat u het globale adresboek en eventuele aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 23341
 ms.assetid: a41cd8de-9ee0-4275-aea5-131db5326e5b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shiva.pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 12bd0a02899c04b0511e2a50bc4a724d5074d13e
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b872603f987b72faacc0a987aa44c31e773636f8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken, voordat u het globale adresboek en eventuele aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
+In dit onderwerp worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken, voordat u het globale adresboek en eventuele aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
 
 <a name="global-address-book"></a>Algemeen adresboek
 -------------------
@@ -49,7 +49,7 @@ Voordat u met het algemene adresboek begint te werken, moet u de standaardwaarde
 -   Welke gebruikersrollen moeten toegang kunnen krijgen tot privéadressen en contactgegevens van partijregistraties?
 
 ## <a name="additional-address-books"></a>Extra adresboeken
-Nadat u het algemene adresboek hebt gemaakt, kunt u desgewenst extra adresboeken maken, zoals een apart adresboek voor elk bedrijf in uw organisatie of voor elke bedrijfstak. Fabrikam is bijvoorbeeld een internationale organisatie met meerdere bedrijven en meerdere bedrijfstakken. Fabrikam is van plan om een adresboek te maken voor elke bedrijfstak. Voor bedrijfstakken die op meer dan één locatie voorkomen, zoals de bedrijfstak voor pneumatisch gereedschap, wil Fabrikam een adresboek maken voor elke locatie. Chris, de IT-manager van Fabrikam, heeft de volgende lijst met adresboeken gemaakt die nodig zijn. In deze lijst worden ook de partijregistraties beschreven die elk adresboek moet bevatten.
+Nadat u het algemene adresboek hebt gemaakt, kunt u desgewenst extra adresboeken maken, zoals een apart adresboek voor elk bedrijf in uw organisatie of voor elke bedrijfstak. Fabrikam is bijvoorbeeld een internationale organisatie met meerdere bedrijven en meerdere bedrijfstakken. Fabrikam is van plan om een adresboek te maken voor elke bedrijfstak. Voor bedrijfstakken die op meer dan één locatie voorkomen, zoals de bedrijfstak voor pneumatisch gereedschap, wil Fabrikam een adresboek maken voor elke locatie. Chris, de IT-manager van Fabrikam, heeft de volgende lijst met adresboeken gemaakt die nodig zijn. In deze lijst worden de partijregistraties beschreven die elk adresboek moet bevatten.
 
 -   **Contracten in de openbare sector (PubSC)**: partijregistraties voor alle partijen die betrokken zijn in contracten van Fabrikam met de openbare sector.
 -   **Contracten in de privésector (PubSC)**: partijregistraties voor alle partijen die betrokken zijn bij contracten met de privésector.

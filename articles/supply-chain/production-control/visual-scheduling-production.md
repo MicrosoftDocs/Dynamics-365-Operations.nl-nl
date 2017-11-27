@@ -3,7 +3,7 @@ title: Een gantt-diagram voor het plannen van taken
 description: Productieplanners kunnen productieplannen beheren en optimaliseren met Gantt-diagrammen.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ Een Gantt-diagram is een visuele weergave van geplande activiteiten binnen een g
 -   Taken uit geplande productieorders.
 -   In taken geplande projectactiviteiten van het type Uurprognose.
 
-Het Gantt-diagram kan worden geopend in twee verschillende weergaven **Order** en **Bron**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)In de weergave **Order** worden activiteiten gegroepeerd onder productieorders. Dit kan bijvoorbeeld handig zijn als u een overzicht wilt bijhouden van alle taken die behoren tot dezelfde orders. In de weergave **Bron** zijn alle taken gegroepeerd onder de afzonderlijke resources. Deze weergave kan nuttig zijn bij het optimaliseren van het plan op het resourceniveau, bijvoorbeeld een machine of een groep machines. De Gantt-diagrammen in de afbeeldingen hieronder geven de weergaven **Order** en **Bron** weer met de volgende belangrijke elementen:
+Het Gantt-diagram kan worden geopend in twee verschillende weergaven: **Orderweergave** en **Bronweergave**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). In **Orderweergave** worden activiteiten gegroepeerd onder productieorders. Dit kan bijvoorbeeld handig zijn als u een overzicht wilt bijhouden van alle taken die behoren tot dezelfde orders. In de weergave **Bron** zijn alle taken gegroepeerd onder de afzonderlijke resources. Deze weergave kan nuttig zijn bij het optimaliseren van het plan op het resourceniveau, bijvoorbeeld een machine of een groep machines. De Gantt-diagrammen in de afbeeldingen hieronder geven de weergaven **Order** en **Bron** weer met de volgende belangrijke elementen:
 
 1.  Activiteit in Gantt-diagram
 2.  Pictogram Materiaaltekort
@@ -151,10 +151,12 @@ U kunt het Gantt-diagram openen vanaf de volgende pagina's.
 | **Resource**                                                                                 | Op de pagina **Resource** kunt u het Gantt-diagram openen vanuit het menu-item **Gantt-diagram**. Wanneer dit is geselecteerd, worden alle taken die zijn gepland voor de resource in een geselecteerd tijdsinterval in het diagram geladen.                                                                                                                                                                                                                                                                                                   |
 | **Resourcegroep**                                                                           | Op de pagina **Resourcegroep** kunt u het Gantt-diagram openen vanuit het menu-item **Gantt-diagram**. Wanneer dit is geselecteerd, worden alle taken die zijn gepland voor de resources in de resourcegroep weergegeven in een geselecteerd tijdsinterval.                                                                                                                                                                                                                                                                                    |
 | **Gantt-diagrammen**                                                                             | Op de pagina **Gantt-diagrammen** kunt u Gantt-diagrammen configureren op resources en resourcegroepen. Als u bijvoorbeeld productieactiviteiten voor bepaalde reeksen resources of resourcegroepen wilt aansturen, kunt u afzonderlijke configuraties daarvan maken op de pagina **Gantt-diagrammen**. U kunt vervolgens het Gantt-diagram openen vanuit elke configuratie.                                                                                                                                                    |
-| **Uurprognoses** (project)                                                                 | Projectactiviteiten van het type **Uurprognose** kunnen in taken worden gepland voor resources. Op de pagina **Uurprognose** in het menu **Planning** kunt u het Gantt-diagram voor een order openen, om in taken geplande projectactiviteiten van het type Uurprognose te bekijken.                                                                                                                                                                                                                                                             |
+| **Uurprognoses** (project)                                                                 | Projectactiviteiten van het type **Uurprognose** kunnen in taken worden gepland voor resources. Op de pagina **Uurprognose** in het menu **Planning** kunt u het Gantt-diagram voor een order openen om in taken geplande projectactiviteiten van het type Uurprognose te bekijken.                                                                                                                                                                                                                                                             |
 | **Te voltooien taak** (lijst in het werkgebied **Productiebeheer**)                      | De lijst **Te voltooien taken** in het werkgebied Productiebeheer toont taken uit productie- en batchorders die worden uitgevoerd met de geselecteerde resources voor het werkgebied. Met het menu-item **Gantt-diagram** kunt u het Gantt-diagram openen, waarmee alle taken die zijn geselecteerd in de lijst worden geladen in het diagram.                                                                                                                                                                                |
 | **Vrij te geven productieorders** (geopend vanuit het werkgebied **Productiebeheer**) | De pagina Vrij te geven productieorders wordt geopend vanuit het werkgebied **Productiebeheer**. Deze pagina geeft geplande productie- en batchorders weer die wachten om te worden vrijgegeven. Op deze pagina kunt u het Gantt-diagram voor geselecteerde productieorders openen.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>Zie ook  
 [Visuele planning met Gantt-diagram voor productie- en batchorders (video)](https://youtu.be/BtbuShkGj4I)
+
+[Visuele planning voor productie (demoscript)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

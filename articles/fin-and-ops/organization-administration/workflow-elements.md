@@ -1,27 +1,27 @@
 ---
 title: Workflowelementen
-description: In dit artikel worden de diverse elementen beschreven waaruit een workflow bestaat.
+description: In dit onderwerp worden de diverse elementen beschreven waaruit een workflow bestaat.
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel worden de diverse elementen beschreven waaruit een workflow bestaat.
+In dit onderwerp worden de diverse elementen beschreven waaruit een workflow bestaat.
 
 Een workflow bestaat uit elementen. In de hier volgende secties wordt elk type element beschreven.
 
@@ -59,7 +59,7 @@ Een *goedkeuringsproces* bestaat uit afzonderlijke stappen. In elke goedkeurings
 -   Een wijziging in het document aanvragen
 -   Het document aan een andere gebruiker toewijzen voor goedkeuring.
 
-## <a name="lineitem-workflow-elements"></a>Elementen van een workflow voor regelartikelen
+## <a name="line-item-workflow-elements"></a>Elementen van een workflow voor regelartikelen
 Er kan een workflow worden gemaakt om documenten of de regelitems in een document te verwerken. Bijvoorbeeld als u een goedkeuringsworkflow voor urenstaten hebt gemaakt. Deze workflow noemen we de *documentworkflow*. U kunt een element van een *workflow voor regelartikelen* toevoegen aan deze documentworkflow. Wanneer het regelitemelement wordt uitgevoerd, wordt elk regelitem in het document ter verwerking aangeboden. U wilt mogelijk alle regelitems laten verwerken door de workflow voor regelitems of u wilt dat elk regelitem door een andere workflow voor regelitems wordt verwerkt. Stel dat een werknemer een urenstaat heeft ingediend die op de volgende afbeelding lijkt.
 
 ![Workflow voor regelartikelen](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ In dit scenario wilt u mogelijk de volgende workflows voor regelartikelen maken:
 -   **Workflow voor regelitems 2**: deze workflow wordt gebruikt om regelitems te verwerken waarbij de project-id 2222 is.
 -   **Workflow voor regelitems 3**: deze workflow wordt gebruikt om regelitems te verwerken waarbij de project-id 3333 is.
 
-## <a name="flowcontrol-elements"></a>Stroombeheerelementen
+## <a name="flow-control-elements"></a>Stroombeheerelementen
 U kunt de volgende elementen gebruiken om workflows te ontwerpen met afwisselende vertakkingen of vertakkingen die op hetzelfde moment worden uitgevoerd.
 
 ### <a name="manual-decision"></a>Handmatige beslissing

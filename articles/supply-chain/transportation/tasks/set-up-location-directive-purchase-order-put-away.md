@@ -3,7 +3,7 @@ title: Een locatie-instructie instellen voor wegzetten van inkooporder
 description: Deze procedure laat zien hoe u een eenvoudige locatierichtlijn instelt.
 author: BibiSp
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
+ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
+ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Een locatie-instructie instellen voor wegzetten van inkooporder
@@ -61,7 +61,7 @@ Deze procedure laat zien hoe u een eenvoudige locatierichtlijn instelt. Het voor
 4. Typ een waarde in het veld Eenheid.
     * De eenheid waarin de van- en de tot-hoeveelheid is uitgedrukt. Als u dit veld niet invult, wordt de voorraadeenheid voor het artikel gebruikt.  
 5. Selecteer een optie in het veld Hoeveelheid plaatsen.
-    * Geen of nummerplaathoeveelheid: de hoeveelheid die op elke nummerplaat is geregistreerd. In eenheden omgezette hoeveelheid: de volledige hoeveelheid die is geregistreerd. Resterende hoeveelheid: de hoeveelheid die nog moeten worden geregistreerd vanaf de inkooporderregel. Verwachte hoeveelheid: de totale hoeveelheid die is opgegeven op de inkooporderregel.  
+    * Geen of Nummerplaathoeveelheid: de hoeveelheid die op elke nummerplaat is geregistreerd. In eenheden omgezette hoeveelheid: de volledige hoeveelheid die is geregistreerd. Resterende hoeveelheid: de hoeveelheid die nog moeten worden geregistreerd vanaf de inkooporderregel. Verwachte hoeveelheid: de totale hoeveelheid die is opgegeven op de inkooporderregel.  
 6. Schakel het selectievakje Beperken op eenheid in of uit.
     * Als u deze optie selecteert en de eenheid op de pagina Beperken op eenheid opgeeft, kunnen alleen artikelen met die maateenheid op de locatie worden geplaatst. Stel dat de maateenheid PL (pallets) is, dan kunnen alleen artikelen in pallets op een bepaalde locatie worden geplaatst.  
 7. Schakel het selectievakje Splitsing toestaan in of uit.

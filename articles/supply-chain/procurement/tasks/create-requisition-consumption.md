@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07fe007005fcbbac1beecadb14dbd752376a0bd4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Een bestelaanvraag voor verbruik maken
@@ -46,7 +46,7 @@ Deze procedure begeleidt u door het proces voor het maken van een bestelaanvraag
 
 ## <a name="add-a-line-to-the-requisition"></a>Een regel toevoegen aan de bestelaanvraag
 1. Klik op Regel toevoegen.
-    * Er zijn twee manieren om regels aan de opdracht tot inkoop toe te voegen. Als u het productnummer al kent of al weet dat u een product aanvraagt dat niet in de productcatalogus staat, kunt u de regel direct toevoegen met 'Regel toevoegen'. De andere manier is 'Producten toevoegen' gebruiken, waarbij u kunt zoeken en filteren om artikelen in de productcatalogus te vinden.    
+    * Er zijn twee manieren om regels aan de opdracht tot inkoop toe te voegen. Als u al het productnummer kent of al weet dat u een product aanvraagt dat niet in de productcatalogus staat, kunt u de regel direct toevoegen met 'Regel toevoegen'. De andere manier is 'Producten toevoegen' gebruiken, waarbij u kunt zoeken en filteren om artikelen in de productcatalogus te vinden.    
 2. Klik op de rij die u zojuist hebt gemaakt.
     * De aanvrager is de werknemer die de bestelaanvraag heeft gedaan.   
     * Standaard is de persoon die de bestelaanvraag voorbereidt de werknemer die deze heeft aangevraagd. U moet gemachtigd worden om een bestelaanvraagregel voor te bereiden namens een andere werknemer. Als u dergelijke machtigingen hebt, worden de andere werknemers in deze zoekopdracht weergegeven.  
