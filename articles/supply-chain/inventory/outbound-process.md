@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Ga naar **Voorraadbeheer** \> **Instellingen** \> **Parameters voor voorraad- en
 
 [![Optie Uitvoerorder voor voorraad beëindigen](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Soms kunnen bepaalde artikelen in voorraad niet worden opgenomen als onderdeel van het orderverzamellijstproces. Deze situatie kan zich bijvoorbeeld voordoen als een magazijnmedewerker de aantallen op orderverzamelregels verlaagt en de orderverzamellijst verwerkt. Als het veld **Uitvoerorder voor voorraad beëindigen** is ingesteld op **Ja**, worden de resterende niet-verzamelde hoeveelheden teruggerapporteerd op orderniveau. Als de optie is ingesteld op **Nee**, blijven de resterende niet-verzamelde hoeveelheden behouden als openstaande uitvoerorderhoeveelheid. In dit geval blijven de hoeveelheden aan het magazijn vrijgegeven en moeten deze worden toegevoegd aan een nieuwe orderverzamellijst als onderdeel van de functionaliteit **Openstaande uitvoerorders**.
+Als de orderverzamellijsthoeveelheden worden verlaagd door de magazijnmedewerker, worden de betreffende voorraadorderhoeveelheden verwijderd uit de zending. Als de orderverzamellijst op een bepaald moment wordt bijgewerkt, worden de resterende hoeveelheden weer gerapporteerd aan de order als de optie **Uitvoerorder voor voorraad beëindigen** is ingesteld op **Ja**. Als de optie **Uitvoerorder voor voorraad beëindigen** is ingesteld op **Nee**, worden de resterende hoeveelheden bewaard als openstaande uitvoerorderhoeveelheid en moeten deze worden toegevoegd aan een nieuwe orderverzamellijst als onderdeel van de functie **Openstaande uitvoerorders**. 
 
 [![Opdracht Openstaande uitvoerorders in het menu Functies](./media/open-output-order.png)](./media/open-output-order.png)
 

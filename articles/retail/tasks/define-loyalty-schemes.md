@@ -3,7 +3,7 @@ title: " Loyaliteitsschema's definiëren"
 description: Deze procedure laat zien hoe u een loyaliteitsschema definieert.
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 23c8876b1983d6bc20b68f24fa7cd5b042cfd488
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 1fc193e113961705f18488a4341652b3576fb275
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -50,7 +50,7 @@ Deze procedure laat zien hoe u een loyaliteitsschema definieert. Loyaliteitssche
 13. Klik in het veld Beloningspunt-id op de vervolgkeuzeknop om de zoekopdracht te openen.
 14. Klik in de lijst op de koppeling in de geselecteerde rij.
 15. Voer in het veld Beloningspunten een getal in.
-    * Voor beloningspunten van het type bedrag worden verdiende hoeveelheden met decimalen vastgelegd. Als de verdienregel bijvoorbeeld zegt dat er 1 beloningspunt wordt verdiend voor elke 1 uitgegeven euro, en de klant 1,25 euro besteedt, verdient de klant 1,25 beloningspunten. Voor beloningspunten van het type hoeveelheid worden verdiende hoeveelheden in gehele getallen vastgelegd. In het voorbeeld waarin de verdienregel zegt dat er 1 beloningspunt wordt verdiend voor elke 1 uitgegeven euro, en de klant 1,25 euro besteedt, verdient de klant 1,0 beloningspunten.  
+    * Voor beloningspunten van het type bedrag worden verdiende hoeveelheden met decimalen vastgelegd. Als de verdienregel bijvoorbeeld zegt dat er 1 beloningspunt wordt verdiend voor elke uitgegeven euro en de klant 1,25 euro besteedt, verdient de klant 1,25 beloningspunten. Voor beloningspunten van het type hoeveelheid worden verdiende hoeveelheden in gehele getallen vastgelegd. In het voorbeeld waarin de verdienregel zegt dat er 1 beloningspunt wordt verdiend voor elke uitgegeven euro en de klant 1,25 euro besteedt, verdient de klant 1,0 beloningspunten.  
 16. Klik op Opslaan.
 17. Klik op Regel toevoegen.
     * Inwisselregels worden gebruikt wanneer de methode loyaliteitsbetaling wordt gebruikt.  

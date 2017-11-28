@@ -1,9 +1,9 @@
 ---
 title: Overzicht opdracht tot inkoop
-description: In dit artikel wordt de workflow voor opdrachten tot inkoop beschreven en de verschillende statussen die een opdracht tot inkoop kan hebben.
+description: In dit onderwerp wordt de workflow voor opdrachten tot inkoop beschreven en de verschillende statussen die een opdracht tot inkoop kan hebben.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt de workflow voor opdrachten tot inkoop beschreven en de verschillende statussen die een opdracht tot inkoop kan hebben.
+In dit onderwerp wordt de workflow voor opdrachten tot inkoop beschreven en de verschillende statussen die een opdracht tot inkoop kan hebben.
 
 Afhankelijk van hoe uw organisatie is opgezet, kunt u opdrachten tot inkoop maken voor producten die uw organisatie gebruikt. Een opdracht tot inkoop is een intern document dat de inkoopafdeling autoriseert om artikelen of diensten te kopen.  
 
@@ -70,7 +70,7 @@ De algemene status van een opdracht tot inkoop wordt bepaald door de status van 
 <tr class="odd">
 <td>Concept</td>
 <td>Concept</td>
-<td>De opdracht tot inkoop en de regel van de opdracht tot inkoop zijn gemaakt, maar zijn niet ter controle ingediend. Opdrachten tot inkoop en regels in een opdracht tot inkoop die de status <strong>Concept</strong> hebben, kunnen worden gewijzigd. Een opdracht tot inkoop of regel in een opdracht tot inkoop heeft ook de status <strong>Concept</strong> als deze is ingetrokken maar niet opnieuw werd ingediend voor controle.<strong>Opmerking:</strong> U kunt een opdracht tot inkoop op documentniveau indienen of intrekken. U kunt echter geen afzonderlijke regel in een opdracht tot inkoop intrekken.</td>
+<td>De opdracht tot inkoop en de regel van de opdracht tot inkoop zijn gemaakt, maar zijn niet ter controle ingediend. Opdracht tot inkoop en regels in opdrachten tot inkoop met de status <strong>Concept</strong> kunnen worden gewijzigd. Een opdracht tot inkoop of regel in een opdracht tot inkoop kan ook de status <strong>Concept</strong> hebben als deze is ingetrokken en niet opnieuw ter controle is ingediend. <strong>Opmerking:</strong> u kunt een opdracht tot inkoop alleen indienen of intrekken op documentniveau. U kunt echter geen afzonderlijke regel in een opdracht tot inkoop intrekken.</td>
 </tr>
 <tr class="even">
 <td>Wordt gecontroleerd</td>
@@ -111,7 +111,7 @@ Als u een regel in een opdracht tot inkoop die is afgewezen opnieuw indient, dan
 <tr class="odd">
 <td>Geannuleerd</td>
 <td>Geannuleerd</td>
-<td>De opdracht tot inkoop en alle regels in de opdracht tot inkoop zijn geannuleerd.<strong>Opmerking:</strong> Als u een artikel op een regel in de opdracht tot inkoop niet meer nodig hebt, moet u de regel in de opdracht tot inkoop annuleren als deze al is goedgekeurd. Alleen regels van een opdracht tot inkoop die zijn goedgekeurd, kunnen worden geannuleerd. Als er regels in de opdracht tot inkoop nog moeten worden gecontroleerd, dan heeft de opdracht tot inkoop de status <strong>Wordt gecontroleerd</strong>. In dit geval kunt u de opdracht tot inkoop intrekken en de juiste regel in de opdracht tot inkoop verwijderen.</td>
+<td>De geselecteerde opdracht tot inkoop en alle opdracht tot inkoopregels zijn geannuleerd. <strong>Opmerking:</strong> als u een artikel op een regel in een opdracht tot inkoop niet meer nodig hebt, moet u de regel in de opdracht tot inkoop annuleren als deze al is goedgekeurd. Alleen regels van een opdracht tot inkoop die zijn goedgekeurd, kunnen worden geannuleerd. Als er regels in de opdracht tot inkoop nog moeten worden gecontroleerd, dan heeft de opdracht tot inkoop de status <strong>Wordt gecontroleerd</strong>. In dit geval kunt u de opdracht tot inkoop intrekken en de juiste regel in de opdracht tot inkoop verwijderen.</td>
 </tr>
 <tr class="even">
 <td>Gesloten</td>

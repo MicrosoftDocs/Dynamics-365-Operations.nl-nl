@@ -1,7 +1,7 @@
 ---
 title: Berekening van de vrije voorraad (BOM)
 description: De kostenaggregatie- en verkoopprijsberekeningen worden stuklijstberekeningen genoemd en u start ze vanaf de pagina Berekeningen. Dit onderwerp biedt informatie over stuklijstberekeningen.
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ Als u de kostprijs-plus-verhoging-benadering gebruikt, weerspiegelt de berekende
 -   **Stuklijstberekening voor een artikel en opgegeven kostprijsberekeningsversie** - de stuklijstberekening genereert een verkoopprijsrecord die in behandeling is, binnen de kostprijsberekeningsversie. Deze verkoopprijsrecord vormt het beginpunt voor de weergave van de berekeningsdetails (bijvoorbeeld op de pagina **Artikelkosten berekenen**). De verkoopprijsrecord dient hoofdzakelijk als referentie en wordt niet gebruikt als basis voor een verkoopprijs op verkooporders.
 -   **Orderspecifieke stuklijstberekening** - een variant van de pagina **Stuklijstberekening** wordt gebruikt in de context van een verkooporder, verkoopofferte of serviceorderregelartikel. Met een orderspecifieke stuklijstberekening wordt geen kostprijsrecord in een kostprijsberekeningsversie gegenereerd. In plaats daarvan wordt een berekeningsrecord gegenereerd die wordt weergegeven op de pagina **Resultaten stuklijstberekening**. Deze berekeningsrecord vormt het beginpunt voor de weergave van de berekeningsdetails (bijvoorbeeld op de pagina **Artikelkosten berekenen**). Informatie over een geselecteerde berekeningsrecord kan naar het oorspronkelijke regelartikel worden overgeboekt. De berekende verkoopprijs kan bijvoorbeeld worden overgeboekt naar een verkooporderregelartikel.
 
-## <a name="orderspecific-bom-calculations"></a>Orderspecifieke stuklijstberekeningen
+## <a name="order-specific-bom-calculations"></a>Orderspecifieke stuklijstberekeningen
 Een orderspecifieke stuklijstberekening is een variatie op een stuklijstberekening voor een gefabriceerd artikel. De orderspecifieke stuklijstberekening wordt uitgevoerd in de context van een verkooporder, verkoopofferte of serviceorderregelartikel. Een orderspecifieke stuklijstberekening genereert een berekeningsrecord die wordt weergegeven op de pagina **Resultaten stuklijstberekening**. De berekeningsrecord bevat het berekende gewicht, de berekende kosten die op actieve kostenrecords zijn gebaseerd, en de berekende verkoopprijs. De berekeningsrecord die door elke orderspecifieke stukgoedberekening wordt gegenereerd voor een artikel op de pagina **Resultaten van formuleberekening** wordt uniek geïdentificeerd door een berekeningsnummer. Het resultaat van een berekeningsrecord kan desgewenst worden overgeboekt naar het oorspronkelijke regelartikel. Een orderspecifieke stuklijstberekening verschilt op twee manieren van een stuklijstberekening voor een gefabriceerd artikel:
 
 -   Een orderspecifieke stuklijstberekening genereert geen artikelkostenrecord binnen een kostprijsberekeningsversie. Daarom worden de beleidsregels voor stuklijstberekening niet toegepast bij het maken van een artikelkostenrecord of bij het overschrijven van een kostenrecord.

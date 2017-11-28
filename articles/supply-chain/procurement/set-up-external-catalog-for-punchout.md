@@ -3,7 +3,7 @@ title: Externe catalogus instellen voor PunchOut eProcurement
 description: In dit onderwerp wordt het gebruik beschreven van een externe of punchout-catalogus voor het verzamelen van offertegegevens van een leverancier en het toevoegen ervan aan een bestelopdracht.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -40,15 +40,15 @@ De externe catalogus moet ervoor zorgen dat een werknemer die een opdracht tot i
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Voer de volgende taken uit om een externe leverancierscatalogus in te stellen:
 
-1. Een hiërarchie van aanschaffingscategorieën instellen. Zie voor meer informatie [Beleid instellen voor categoriehiërarchieën voor aanschaffing](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies).
-2. Registreer de leverancier in Finance and Operations. Voordat u configuraties kunt instellen om toegang te krijgen tot de externe leverancierscatalogus, moet u de leverancier en het de contactpersoon van de leverancier instellen in Microsoft Dynamics 365. De leverancier van de externe catalogus moet ook aan de geselecteerde aanschaffingscategorie worden toegevoegd. Zie voor meer informatie over het registreren van leveranciers in Microsoft Dynamics 365 het onderwerp [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md). Zie voor uitleg over het toewijzen van leveranciers aan een inkoopcategorie het onderwerp [Leveranciers goedkeuren voor specifieke aanschaffingscategorieën](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories).
-3. Let erop dat de maateenheden en de valuta waarmee de leverancier werkt, zijn ingesteld. Zie voor informatie over het maken van een maateenheid [Maateenheden beheren](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure).
-4. Configureer de externe leverancierscatalogus op basis van de vereisten voor de externe catalogussite van uw leverancier. Zie het volgende onderdeel voor meer informatie over deze taak.
+1. Een hiërarchie van aanschaffingscategorieën instellen. Zie voor meer informatie [Beleid instellen voor categoriehiërarchieën voor aanschaffing](tasks/set-up-policies-procurement-category-hierarchies.md).
+2. Registreer de leverancier in Finance and Operations. Voordat u configuraties kunt instellen om toegang te krijgen tot de externe leverancierscatalogus, moet u de leverancier en het de contactpersoon van de leverancier instellen in Microsoft Dynamics 365. De leverancier van de externe catalogus moet ook aan de geselecteerde aanschaffingscategorie worden toegevoegd. Zie voor meer informatie over het registreren van leveranciers in Microsoft Dynamics 365 het onderwerp [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md). Zie voor uitleg over het toewijzen van leveranciers aan een inkoopcategorie het onderwerp [Leveranciers goedkeuren voor specifieke aanschaffingscategorieën](tasks/approve-vendors-specific-procurement-categories.md).
+3. Let erop dat de maateenheden en de valuta waarmee de leverancier werkt, zijn ingesteld. Zie voor informatie over het maken van een maateenheid [Maateenheden beheren](../pim/tasks/manage-unit-measure.md).
+4. Configureer de externe leverancierscatalogus op basis van de vereisten voor de externe catalogussite van uw leverancier. Zie [De externe leverancierscatalogus configureren](#configure-the-external-vendor-catalog) voor meer informatie over deze taak.
 5. Test de configuraties van de externe catalogus van de leverancier om te verifiëren dat de instellingen geldig zijn en dat u toegang kunt krijgen tot de externe leverancierscatalogus. Gebruik de actie **Instellingen valideren** om het bericht voor instellen van de aanvraag te valideren, dat u hebt gedefinieerd. Dit bericht moet ervoor zorgen dat de externe catalogussite van de leverancier wordt geopend in een browservenster. Zolang de validatie duurt, kunt u geen artikelen en services bij de leverancier bestellen. Om artikelen en diensten te bestellen, moet u de catalogus van de leverancier benaderen via een opdracht tot inkoop.
 6. Activeer de externe catalogus door middel van de knop **Catalogus activeren** op de pagina **Externe catalogi**. De externe catalogus moet worden geactiveerd voordat werknemers deze kunnen gebruiken. U kunt de externe catalogus op elk gewenst moment uitschakelen.
 
 
-## <a name="4-configure-the-external-vendor-catalog"></a>(4) De externe leverancierscatalogus configureren
+## <a name="configure-the-external-vendor-catalog"></a>De externe leverancierscatalogus configureren
 
 Deze sectie biedt meer details over taak 4 uit de vorige sectie.
 
@@ -81,7 +81,7 @@ Hieronder volgt een beschrijving van de codes die zijn opgenomen in de sjabloon:
 
 ### <a name="extrinsic-elements"></a>Extrinsieke elementen
 
-Een extrinsek element is extra informatie, zoals een gebruikersnaam die is gebaseerd op een gebruiker die een punch-out uitvoert. Het extrinsieke element wordt ingesteld wanneer de punch-out plaatsvindt en kan worden verzonden in het aanvraaginstellingsbericht.
+Een extrinsiek element is extra informatie, zoals een gebruikersnaam die is gebaseerd op een gebruiker die een punch-out uitvoert. Het extrinsieke element wordt ingesteld wanneer de punch-out plaatsvindt en kan worden verzonden in het aanvraaginstellingsbericht.
 Uw leverancier kan een vereiste hanteren voor het ontvangen van een extrinsiek element in de instellingsaanvraag. In dat geval moet u het extrinsieke element toevoegen aan de lijst met extrinsieke elementen in de sectie **Berichtindeling** van de pagina **Externe catalogus**. Geef een naam op voor het extrinsieke element dat de leverancier kan herkennen, en wijs deze toe aan een waarde. De opties voor waarden zijn: User name, User email of Random value.
 Zie voor meer informatie over het cXML-protocol de website http://cxml.org/.
 

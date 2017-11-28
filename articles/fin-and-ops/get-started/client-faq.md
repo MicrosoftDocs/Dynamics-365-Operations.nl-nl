@@ -3,14 +3,14 @@ title: Veelgestelde vragen over Finance and Operations-client
 description: Dit artikel bevat antwoorden op veelgestelde vragen over de Microsoft Dynamics 365 for Finance and Operations-client.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 12334
 ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d4fa4629d203aa888fe6400126a872d2eee000
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -43,7 +43,7 @@ De beveiligingsinstellingen in uw browser zorgen er mogelijk voor dat de symbole
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Ik zie het lint van Dynamics AX 2012 niet. Kan ik actievenstertabbladen de hele tijd open houden?
 Deze functie wordt binnenkort geïmplementeerd. Gebruikers kunnen er dan voor kiezen of de tabbladen in de actievensters de hele tijd open blijven. Anders worden de tabbladen samengevouwen wanneer ze niet worden gebruikt zodat meer schermruimte voor de pagina hebt.
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>Waarom zie ik soms verschillende snelmenu's als ik met de rechtermuisknop klik?
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a>Waarom zie ik soms verschillende snelmenu's als ik met de rechtermuisknop klik?
 Als u met de rechtermuisknop klikt in een bewerkbaar veld (of als de tekst wordt geselecteerd), wordt het snelmenu van de browser weergegeven. Dit menu geeft u toegang tot de opdrachten **Knippen**, **Kopiëren** en **Plakken**. Wij kunnen deze opdrachten niet opnemen in de snelmenu's van Finance and Operations omdat browsers ons vanwege beveiligingsoverwegingen niet toestaan om het systeemklembord programmatisch te openen.
 
 Als u met de rechtermuisknop klikt op een veldlabel of de waarde van een alleen-lezen besturingselement, wordt het snelmenu van Finance and Operations weergegeven.

@@ -3,7 +3,7 @@ title: Operations-resources
 description: Bronnen voor bedrijfsactiviteiten voeren de activiteiten van een project of een productieproces uit. Ze kunnen van verschillende typen zijn en kunnen verschillende capaciteiten hebben.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Bronnen voor bedrijfsactiviteiten worden toegewezen aan activiteiten wanneer een
 
 -   **Capaciteit** - Geef de capaciteit van de bron voor bedrijfsactiviteiten per uur in termen van de capaciteitseenheid op.
 -   **Batchcapaciteit** – Geef het maximum aantal stuks op dat de bron voor bedrijfsactiviteiten kan verwerken per uitvoering.
--   **Efficiëntiepercentage** – Geef de efficiëntie op die u van de bron voor bedrijfsactiviteiten verwacht. Het efficiëntiepercentage past de doorvoercapaciteit van de bron voor bedrijfsactiviteiten aan en beïnvloedt de tijd die voor de bron is gereserveerd. De doorlooptijden voor de bewerkingen die de bron voor bedrijfsactiviteiten gebruiken worden overeenkomstig aangepast. De berekening gebruikt deze formule: Planningstijd = Tijd × 100 ÷ Efficiëntiepercentage In deze formule omvat *Tijd* zowel de uitvoerings- als insteltijd.
+-   **Efficiëntiepercentage** – Geef de efficiëntie op die u van de bron voor bedrijfsactiviteiten verwacht. Het efficiëntiepercentage past de doorvoercapaciteit van de bron voor bedrijfsactiviteiten aan en beïnvloedt de tijd die voor de bron is gereserveerd. De doorlooptijden voor de bewerkingen die de bron voor bedrijfsactiviteiten gebruiken worden overeenkomstig aangepast. De berekening gebruikt deze formule: Planningstijd = Tijd × 100 ÷ Efficiëntiepercentage. In deze formule omvat *Tijd* zowel de uitvoerings- als insteltijd.
 -   **Percentage bewerkingsplanning** – Geef het maximumpercentage van de capaciteit van de bron voor bedrijfsactiviteiten op die u in bewerkingsplanning wilt gebruiken. Dit percentage moet minder dan 100 procent zijn voor flexibiliteit in de capaciteit bij het plannen van taken.
 -   **Eindige capaciteit** – Stel deze optie in op **Ja** als de bron voor bedrijfsactiviteiten moet worden gepland op basis van de werkelijke capaciteit die beschikbaar is, en als de bestaande capaciteitsreserveringen in aanmerking moeten worden genomen. Als deze optie is ingesteld op **Nee**, wordt aangenomen dat de bron voor bedrijfsactiviteiten oneindige capaciteit heeft, en kan bron worden overboekt.
 -   **Beperking** - Stel deze optie in op **Ja** als u wilt dat de bron voor bedrijfsactiviteiten wordt gepland op basis van de werkelijke capaciteit die met betrekking tot de vereiste werktijdplanningseigenschappen beschikbaar is.

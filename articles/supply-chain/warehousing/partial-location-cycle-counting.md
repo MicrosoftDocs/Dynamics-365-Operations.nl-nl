@@ -3,7 +3,7 @@ title: Gedeeltelijke cyclustelling van locatie
 description: Cyclustellingsplannen sturen de werkelijke telbewerkingen aan. U kunt verzoeken dat alleen specifieke producten en productvarianten worden geteld, in plaats van alle voorhanden voorraad op een locatie.
 author: perlynne
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 626b2f9f35b94124168adb7bb09c75a086d38a97
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -54,7 +54,7 @@ In dit voorbeeld moet alleen artikelnummer A0001 in magazijn 61 worden geteld.
 
 1.  Een nieuwe werksjabloon voor cyclustelling wordt gemaakt. Met de optie **Opsplitsing werkregels** worden telwerkregels gegroepeerd op artikelnummer. Daarom heeft het aangemaakte cyclustellingswerk regels op artikelnummer. U kunt de regels ook groeperen op productvariantnummer.
 2.  Een nieuw cyclustellingsplan wordt gemaakt, dat verwijst naar de zojuist gemaakte werksjabloon. Het cyclustellingsplan bevat alle locaties in magazijn 61 (query **Locaties selecteren**) die voorraad bevatten voor artikelnummer A0001. De selectie van specifieke producten wordt gedefinieerd in de sectie **Productselecties voor cyclustellingsplan**.
-3.  Kunt u producten voor cyclustellingsplannen selecteren door het veld **Lege locaties** in te stellen op **Lege uitsluiten**. Wanneer het cyclustellingsplan wordt verwerkt, wordt cyclustellingswerk aangemaakt voor artikelnummer A0001. Het werkelijke telproces kan worden uitgevoerd via een mobiel menu-item voor geleide cyclustelling.
+3.  U kunt producten voor cyclustellingsplannen selecteren door het veld **Lege locaties** in te stellen op **Lege uitsluiten**. Wanneer het cyclustellingsplan wordt verwerkt, wordt gedeeltelijk cyclustellingswerk aangemaakt voor artikelnummer A0001. Het werkelijke telproces kan worden uitgevoerd via een mobiel menu-item voor geleide cyclustelling.
 
 
 

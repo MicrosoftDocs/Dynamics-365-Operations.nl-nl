@@ -3,7 +3,7 @@ title: "Een organisatierapporthiërarchie maken"
 description: "Gebruik deze procedure om een rapporthiërarchie te maken voor organisatierapportage."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/28/2017
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f593c59660abcf5b0d5771ddd9daced6ec5fbfb4
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Een organisatierapporthiërarchie maken
@@ -74,7 +74,7 @@ Gebruik deze procedure om een rapporthiërarchie te maken voor organisatierappor
 40. Typ of selecteer een waarde in het veld Van dimensielid.
     * Selecteer het dimensielid dat met het knooppunt overeenkomt.  
 41. Klik op Opslaan.
-42. Selecteer in de structuur 'Organisatie USP2\CEO\CFO kostenplaatsen'.
+42. Selecteer in de structuur Organisatie USP2\CEO\CFO kostenplaatsen.
 43. Klik op Nieuw.
 44. Typ 'Handelsbeurzen' in het veld Naam knooppunt.
 45. Klik op Opslaan.

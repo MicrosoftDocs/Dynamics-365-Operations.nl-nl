@@ -1,9 +1,9 @@
 ---
 title: Quarantaineorders
-description: In dit artikel wordt beschreven hoe quarantaineorders worden gebruikt om voorraad te blokkeren.
+description: In dit onderwerp wordt beschreven hoe quarantaineorders worden gebruikt om voorraad te blokkeren.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,11 +31,11 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt beschreven hoe quarantaineorders worden gebruikt om voorraad te blokkeren.
+In dit onderwerp wordt beschreven hoe quarantaineorders worden gebruikt om voorraad te blokkeren.
 
 Quarantaineorders kunnen worden gebruikt om voorraad te blokkeren. U wilt bijvoorbeeld artikelen om redenen van kwaliteitscontrole in quarantaine plaatsen. Voorraad die in quarantaine is geplaatst, wordt verplaatst naar een quarantainemagazijn. **Opmerking:** als u gebruikmaakt van geavanceerde magazijnbeheerprocessen (in Magazijnbeheer), wordt quarantaineorderverwerking alleen gebruikt voor retourverkooporders.
 
-## <a name="quarantine-onhand-inventory-items"></a>Voorhanden voorraadartikelen in quarantaine plaatsen
+## <a name="quarantine-on-hand-inventory-items"></a>Voorhanden voorraadartikelen in quarantaine plaatsen
 Wanneer u artikelen in quarantaine plaatst, kunt u de quarantaineorders handmatig maken of het systeem zo instellen dat de quarantaineorders automatisch worden gemaakt tijdens inkomende verwerking. Als u quarantaineorders automatisch wilt maken, selecteert u de optie **Quarantainebeheer** op het tabblad **Voorraadbeleid** op de pagina **Artikelmodelgroepen**. U moet ook een standaardquarantainemagazijn opgeven in het veld **Quarantainemagazijn** voor de magazijnen van ontvangst. Wanneer de fysiek voorhanden voorraad wordt geregistreerd in een inkooporder of productieorder, worden in quarantaine geplaatste artikelen automatisch verplaatst naar een quarantainemagazijn in Microsoft Dynamics 365 for Finance and Operations. Deze verplaatsing vindt plaats omdat de status van de quarantaineorder is gewijzigd in **Gestart**. Wanneer u quarantaineorders handmatig maakt, hoeft het artikel niet te worden ingesteld voor quarantainebeheer in de gekoppelde artikelmodelgroep. Voor dit proces moet u de voorhanden voorraad opgeven die in quarantaine moet worden geplaatst, en het quarantainemagazijn dat moet worden gebruikt. U kunt de quarantaineorderstatussen gebruiken om het proces plannen.
 
 ## <a name="quarantine-order-statuses"></a>Statussen van quarantaineorder

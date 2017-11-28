@@ -3,7 +3,7 @@ title: Standaardorderinstellingen voor dimensies en productvarianten
 description: "Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9954d3daeacd55ce951b5d0e9c4fe1b96feb96c2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Met standaardorderinstellingen in Microsoft Dynamics 365 for Finance and Operations, Enterpise edition worden de locatie en het magazijn gedefinieerd waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
+Met standaardorderinstellingen in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition worden de locatie en het magazijn gedefinieerd waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
 
 U definieert de standaardinstellingen voor orders op de pagina **Standaard orderinstellingen**. U opent deze pagina als volgt: ga naar **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten** &gt; **selecteer een vrijgegeven product** &gt; in het actievenster **Plannen** of **Voorraadbeheer** &gt; **Orderinstellingen** &gt; **Standaard orderinstellingen**.
 
@@ -82,14 +82,14 @@ Niet alle parameters van de standaardorderinstellingen worden toegepast wanneer 
 
 Wanneer u een order of een journaalregel maakt, wordt altijd geprobeerd om een standaardlocatie en standaardmagazijn te vinden. De locatie wordt niet altijd standaard weergegeven vanuit de orderinstellingen. Wanneer u bijvoorbeeld een verkooporder of een inkooporder maakt, wordt de locatie van de orderkoptekst automatisch gebruikt in de orderregels. Wanneer u een stuklijstregel maakt, wordt de locatie van de koptekst van de stuklijst gebruikt. Nadat de locatie is bepaald, wordt deze gebruikt om eventuele locatiespecifieke orderinstellingen te vinden die daarna als standaardinstellingen voor het magazijn kunnen worden gebruikt. 
 
-Het standaardordertype, de inkoop en de levertijden voorraad kunnen worden overschreven door de behoefteplanningsregels van het artikel op de pagina **Artikelbehoefteplanning**. Hoewel de standaardorderinstellingen geen onderscheid kunnen maken tussen de doorlooptijden voor productie en die voor verplaatsing, kunnen de artikelbehoefteplanningsregels hier wel mee overweg. De instellingen voor artikelbehoefteplanning worden echter alleen gebruikt door MRP bij het maken van geplande orders voor productie en transfer, niet wanneer u handmatig productie- en transferorders maakt. 
+Het standaardordertype, de inkoop en de voorraadlevertijden kunnen worden overschreven door de behoefteplanningsregels van het artikel op de pagina **Artikelbehoefteplanning**. Hoewel de standaardorderinstellingen geen onderscheid kunnen maken tussen de doorlooptijden voor productie en die voor verplaatsing, kunnen de artikelbehoefteplanningsregels hier wel mee overweg. De instellingen voor artikelbehoefteplanning worden echter alleen gebruikt door MRP bij het maken van geplande orders voor productie en transfer, niet wanneer u handmatig productie- en transferorders maakt. 
 
 ## <a name="default-order-settings-rules"></a>Regels voor standaardorderinstellingen
 U kunt algemene standaardorderinstellingen definiëren, evenals alle benodigde regels voor standaardorderinstellingen die alleen onder bepaalde voorwaarden gelden, zoals locatie of een bepaalde productdimensie of een combinatie van productdimensies. U kunt geen orderinstellingen definiëren die specifiek zijn voor het magazijn.
 
 ### <a name="rank-in-default-order-settings"></a>Rangen in standaardorderinstellingen
 
-De regels voor standaardorderinstellingen kennen rangen. Hoe hoger de rang, des te belangrijker de regel is. Dit houdt in dat de regel een hogere prioriteit heeft en wordt toegepast vóór regels met een lagere rang. De algemene standaardorderinstellingen hebben de rang 0 (nul). Deze rang kan niet worden gewijzigd. Er kan slechts één regel zijn met rang 0. Regels kunnen dezelfde rang hebben, als ze worden toegepast op verschillende dimensies. Dit is nuttig wanneer u locatiespecifieke orderinstellingen wilt modelleren. Wanneer een nieuwe regel voor standaardorderinstellingen wordt gemaakt, worden de waarden voor orderwaarden, eindevlag, e.d. overgenomen van de regel met rang 0. Deze waarden kunnen worden overschreven.
+De regels voor standaardorderinstellingen kennen rangen. Hoe hoger de rang, des te belangrijker de regel is. Dit houdt in dat de regel een hogere prioriteit heeft en wordt toegepast vóór regels met een lagere rang. De algemene standaardorderinstellingen hebben de rang 0 (nul). Deze rang kan niet worden gewijzigd. Er kan slechts één regel zijn met rang 0. Regels kunnen dezelfde rang hebben, als ze worden toegepast op verschillende dimensies. Dit is nuttig wanneer u locatiespecifieke orderinstellingen wilt modelleren. Wanneer een nieuwe regel voor standaardorderinstellingen wordt gemaakt, worden de waarden voor orderwaarden, eindevlag en dergelijke overgenomen van de regel met rang 0. Deze waarden kunnen worden overschreven.
 
 ### <a name="default-order-settings-for-released-products"></a>Standaardorderinstellingen voor vrijgegeven producten
 

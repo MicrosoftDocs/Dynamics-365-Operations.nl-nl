@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -138,7 +138,7 @@ U kunt bekijken of een vrijgegeven product kan worden gebruikt als een onderdeel
 </tr>
 <tr class="odd">
 <td>Gebruikersvereisten</td>
-<td>Gebruikerseisen vertegenwoordigen een abstractie tussen de gebruikerseisen en bepaalde onderdelen en kenmerken. U kunt een gebruikersvereiste niet toewijzen aan een artikel. Een klant zoekt bijvoorbeeld naar een home-theatersysteem. De verkoopvertegenwoordiger vraagt mogelijk naar de grootte van de kamer waar de klant het systeem wilt installeren, om te bepalen hoeveel watt er nodig is. In dit voorbeeld kan de kamergrootte een gebruikersvereiste zijn die de juiste kenmerkwaarde voor een specifiek onderdeel helpt bepalen. U kunt gebruikersvereisten verbergen zodat ze niet voor de gebruiker tijdens een configuratiesessie worden weergegeven. Kenmerken, subonderdelen en gebruikerseisen met betrekking tot de gebruikerseisen worden ook verborgen. U kunt een voorwaarde schrijven om te bepalen of een gebruikerseis kan worden verborgen. U moet de voorwaarde schrijven met de syntaxis Optimization Modeling Language (OML).</td>
+<td>Gebruikerseisen vertegenwoordigen een abstractie tussen de gebruikerseisen en bepaalde onderdelen en kenmerken. U kunt een gebruikersvereiste niet toewijzen aan een artikel. Een klant zoekt bijvoorbeeld naar een home-theatersysteem. De verkoopvertegenwoordiger vraagt mogelijk naar de grootte van de kamer waar de klant het systeem wilt installeren, om te bepalen hoeveel watt er nodig is. In dit voorbeeld kan de grootte van de kamer een gebruikerseis zijn die helpt bij de bepaling van de juiste kenmerkwaarde voor een bepaald onderdeel. U kunt gebruikersvereisten verbergen zodat ze niet zichtbaar zijn voor de gebruiker tijdens een configuratiesessie. Kenmerken, subonderdelen en gebruikerseisen met betrekking tot de gebruikerseisen worden ook verborgen. U kunt een voorwaarde schrijven om te bepalen of een gebruikerseis kan worden verborgen. U moet de voorwaarde schrijven met de syntaxis Optimization Modeling Language (OML).</td>
 </tr>
 <tr class="even">
 <td>Stuklijstregels</td>

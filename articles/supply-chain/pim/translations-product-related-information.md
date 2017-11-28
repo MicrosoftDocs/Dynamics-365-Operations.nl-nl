@@ -3,7 +3,7 @@ title: Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 description: Dit onderwerp beschrijft hoe u vertalingen voor producten, productdimensiewaarden en productkenmerken kunt beheren.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ U kunt de productgerelateerde informatie in elke taal vertalen die in het formul
 ## <a name="where-can-i-view-the-translated-information"></a>Waar kan ik de vertaalde informatie weergeven?
 U kunt vertalingen van productgerelateerde informatie in een extern brondocument, zoals een factuur weergeven, die een taal gebruikt waarvan de vertalingen beschikbaar zijn.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Hoe maak ik vertalingen voor productgerelateerde informatie?
+## <a name="how-do-i-create-translations-for-product-related-information"></a>Hoe maak ik vertalingen voor productgerelateerde informatie?
 Om een vertaling te maken voor een project, volgt u deze stappen:
 1.  Klik op **Productgegevensbeheer** &gt; **Algemeen** &gt; **Vrijgegeven producten**.
 2.  Selecteer een product en klik in het venster Actie, in de groep **Talen** op **Vertalingen**.
@@ -124,7 +124,7 @@ Om vertalingen voor waarden in een dimensiewaardegroep te beheren, volgt u deze 
 1.  Volg de stappen in de vorige procedure om een dimensiewaardegroep te maken om de pagina **Groottegroepregels**, **Kleurgroepregels** of **Stijlgroepregels** te openen.
 2.  Klik op **Tekstvertaling**. Typ op de pagina **Tekstvertaling** in de groep **Vertaalde tekst** vertalingen in de velden **Naam** en **Omschrijving**.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Wanneer kunnen vertalingen van productgerelateerde informatie worden beheerd?
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>Wanneer kunnen vertalingen van productgerelateerde informatie worden beheerd?
 Vertalingen van productgerelateerde informatie kunnen op elk moment worden beheerd. Wanneer vertalingen worden bijgewerkt voor een dimensiewaarde die aan een product is gekoppeld, wordt de productinformatie bijgewerkt, ongeacht of het product transacties heeft.
 
 

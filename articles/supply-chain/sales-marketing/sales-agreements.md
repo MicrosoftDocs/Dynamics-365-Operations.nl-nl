@@ -1,9 +1,9 @@
 ---
 title: Verkoopovereenkomsten
-description: In dit artikel vindt u informatie over verkoopovereenkomsten. Een verkoopovereenkomst is een contract waarmee een klant toezegt specifieke hoeveelheden van producten te kopen of het product gedurende een specifieke periode te kopen, in ruil voor speciale prijzen en kortingen.
+description: Dit onderwerp biedt informatie over verkoopovereenkomsten. Een verkoopovereenkomst is een contract waarmee een klant toezegt specifieke hoeveelheden van producten te kopen of het product gedurende een specifieke periode te kopen, in ruil voor speciale prijzen en kortingen.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15e3f872e4ded027734ee73081ba7af68be5107d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel vindt u informatie over verkoopovereenkomsten. Een verkoopovereenkomst is een contract waarmee een klant toezegt specifieke hoeveelheden van producten te kopen of het product gedurende een specifieke periode te kopen, in ruil voor speciale prijzen en kortingen.
+Dit onderwerp biedt informatie over verkoopovereenkomsten. Een verkoopovereenkomst is een contract waarmee een klant toezegt specifieke hoeveelheden van producten te kopen of het product gedurende een specifieke periode te kopen, in ruil voor speciale prijzen en kortingen.
 
 Een verkoopovereenkomst is een contract waarmee een klant toezegt om producten in een specifieke hoeveelheid of een specifiek bedrag in de loop der tijd te kopen in ruil voor speciale prijzen, speciale kortingen, en andere speciale voorwaarden, zoals betaling en leveringsvoorwaarden. De prijzen en kortingen van de verkoopovereenkomst vervangen de prijzen en kortingen die worden genoemd in eventuele bestaande handelsovereenkomsten.  
 

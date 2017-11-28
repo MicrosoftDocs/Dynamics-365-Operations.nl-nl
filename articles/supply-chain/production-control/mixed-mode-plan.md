@@ -1,9 +1,9 @@
 ---
 title: 'Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing'
-description: Dit artikel biedt informatie over de gemengde planmodus. Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom. Microsoft Dynamics 365 for Finance and Operations zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of transferorders).
+description: Dit onderwerp biedt informatie over de gemengde planmodus.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel biedt informatie over de gemengde planmodus. Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom. Microsoft Dynamics 365 for Finance and Operations zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of transferorders). 
+Dit onderwerp biedt informatie over de gemengde planmodus. Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom. Microsoft Dynamics 365 for Finance and Operations zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of transferorders). 
 
 U kunt uw algemene strategie voor productlevering selecteren, ongeacht de productstructuur.  
 
@@ -59,7 +59,7 @@ Doorgaans worden kanbans niet gemaakt voor toekomstige datums, omdat een kanban 
 
 Dezelfde logica is aanwezig voor alle andere typen leveringsbeleid. Daarom is materiaalplanning op de lange termijn gebaseerd op dezelfde logica als u kunt verwachten bij de werkelijke orders nadat de productie en de levering zijn goedgekeurd.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Het kruislingse-leveringsbeleid voor materialentoewijzing - resourceverbruik op stuklijsten
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Het kruislingse-leveringsbeleid voor de materialentoewijzing - resourceverbruik op stuklijsten
 Resourceverbruik is een belangrijke functionaliteit. Resourceverbruik stelt een magazijn in staat verzamelmaterialen dynamisch te selecteren, op basis van het leveringsbeleid (ordertype) en maakt ook het bijhouden van de basisgegevens eenvoudiger.  
 
 Resourceverbruik vereist dat het magazijn waarin de materialen worden verzameld, wordt toegewezen aan de hand van de manier waarop het product wordt geleverd. Met andere woorden, tijdens uitvoeringstijd vindt het systeem de bronnen die voor productie moeten worden gebruikt. Op basis van die bronnen vindt het systeem vervolgens het verzamelmagazijn.  

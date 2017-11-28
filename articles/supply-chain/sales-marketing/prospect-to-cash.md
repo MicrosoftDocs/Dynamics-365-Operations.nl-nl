@@ -3,7 +3,7 @@ title: Prospect naar contant geld
 description: Het onderwerp biedt een overzicht van de oplossing Prospect naar contant geld tussen Dynamics 365 for Finance and Operations, Enterprise edition en Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: a5f1ecd5f8b46287839439a963e571531ae161a7
+ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
+ms.openlocfilehash: 2accf77c5241adff7ad1648737dde451153fde46
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -42,25 +42,39 @@ Deze oplossing biedt integratie in de volgende gebieden:
 -   [Verkooporders maken in Finance and Operations en ze synchroniseren met Sales](sales-order-template-mapping.md)
 -   [Verkoopfacturen maken in Finance and Operations en ze synchroniseren met Sales](sales-invoice-template-mapping.md)
 
+Deze oplossing biedt directe synchronisatie in de volgende gebieden:
+
+-   [Rekeningen in Sales onderhouden en direct vanuit Sales naar Finance and Operations synchroniseren](accounts-template-mapping-direct.md)
+-   [Producten in Finance and Operations onderhouden en direct synchroniseren naar Sales](products-template-mapping-direct.md)
+-   [Contactpersonen in Sales onderhouden en direct synchroniseren naar contactpersonen of klanten in Finance and Operations](contacts-template-mapping-direct.md)
+-   [Kopteksten en regels in verkoopoffertes vanuit Sales direct synchroniseren naar Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+-   [Verkooporders maken in Finance and Operations en direct synchroniseren naar Sales](sales-order-template-mapping-direct.md)
+-  [Kopteksten en regels in verkooporders direct synchroniseren tussen Sales en Finance and Operations](sales-order-template-mapping-between-sales-fin.md)
+-   [Verkooporders direct synchroniseren tussen Sales en Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
+-   [Verkoopfacturen maken in Finance and Operations en direct synchroniseren naar Sales](sales-invoice-template-mapping-direct.md)
+
+
 ## <a name="system-requirements-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Systeemvereisten voor Dynamics 365 for Finance and Operations, Enterprise edition
 
 Als u de oplossing Prospect naar contant geld wilt gebruiken, moet u het volgende installeren:
 
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017) met platformupdate 8 (App 7.2.11792.56024 met platform 7.0.4565.16212)
 
-- Twee hotfixes voor Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017).
+- Hotfixes voor Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017).
+        
+    -  [KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160) - Deze hotfix biedt naast een aantal andere verbeteringen ondersteuning voor het synchroniseren van verkooporders vanuit Sales naar Finance and Operations met de functie Gegevensintegratie.
 
     -  [KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2): met deze hotfix kunnen verkooporderregels met de functie Gegevensintegratie van Finance and Operations met Sales worden gesynchroniseerd.
         
     -  [KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2): met deze hotfix kunnen verkooporders met de functie Gegevensintegratie van Finance and Operations met Sales worden gesynchroniseerd.
-    
-**Opmerking**: u hoeft alleen KB4036524 te installeren omdat de installatie de wijzigingen van KB4036461 bevat.
+
+**Opmerking**: u hoeft alleen KB4045570 te installeren omdat de installatie de wijzigingen van de andere KB's bevat.
  
 ## <a name="system-requirements-for-dynamics-365-for-sales"></a>Systeemvereisten voor Dynamics 365 for Sales
 
 Als u de oplossing Prospect naar contant geld wilt gebruiken, moet u het volgende installeren:
 
-- Dynamics 365 for Sales-versie 1612 (8.2.1.207) (DB 8.2.1.207) online of hoger.
+- Dynamics 365 for Sales-versie 1612 (8.2.1.207) (DB 8.2.1.207) online.
 - De oplossing Prospect naar contant geld voor Dynamics 365 for Sales, versie 1.14.0.0 (v14) of hoger.
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>De oplossing Prospect naar contant geld voor Sales installeren

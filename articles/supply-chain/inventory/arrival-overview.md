@@ -3,7 +3,7 @@ title: Overzicht aankomst
 description: Dit onderwerp biedt informatie over de functie Overzicht aankomst. De pagina Overzicht aankomst maakt deel uit van deze functie en biedt een overzicht van alle atikelen die naar verwachting zullen arriveren als binnenkomende artikelen.
 author: perlynne
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d9ebc0ea12de0c97718b565b77d99c3a1fcd6f21
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -104,7 +104,7 @@ Sammy kan de volgende gegevens bekijken:
 
 ### <a name="update-journals"></a>Journalen bijwerken
 
-Voor het registreren van een of meer regels die moeten worden verwerkt, kan Sammy de regels in het overzichtsraster of in het raster van de regel selecteren en vervolgens op **Journalen** &gt; **Aankomsten van ontvangsten tonen** klikken. De kopteksten voor artikelontvangst die overeenkomen met de regels worden weergegeven. Als Sammy een update van de productontvangst wilt uitvoeren voor de inkooporder voor de geregistreerde artikelen, kan hij de journaalkopteksten van de artikelontvangst openen die gereed zijn om te worden bijgewerkt. Als hij deze journaalkopteksten van artikelontvangst wil openen, klikt hij op **Journalen** &gt; **Journalen gereed voor productontvangstbon**. Alle koptekstregels die gereed zijn voor het bijwerken van de productontvangstbon in het opgegeven magazijnbereik worden weergegeven. (De koptekstregels die worden weergegeven zijn niet gerelateerd aan het daginterval).
+Voor het registreren van een of meer regels die moeten worden verwerkt, kan Sammy de regels in het overzichtsraster of in het raster van de regel selecteren en vervolgens op **Journalen** &gt; **Aankomsten van ontvangsten tonen** klikken. De kopteksten voor artikelontvangst die overeenkomen met de regels worden weergegeven. Als Sammy een update van de productontvangst wil uitvoeren voor de inkooporder voor de geregistreerde artikelen, kan hij de journaalkopteksten van de artikelontvangst openen die gereed zijn om te worden bijgewerkt. Als hij deze journaalkopteksten van artikelontvangst wil openen, klikt hij op **Journalen** &gt; **Journalen gereed voor productontvangstbon**. Alle koptekstregels die gereed zijn voor het bijwerken van de productontvangstbon in het opgegeven magazijnbereik worden weergegeven. (De koptekstregels die worden weergegeven zijn niet gerelateerd aan het daginterval).
 
 ### <a name="start-an-arrival-registration"></a>Een aankomstregistratie starten
 

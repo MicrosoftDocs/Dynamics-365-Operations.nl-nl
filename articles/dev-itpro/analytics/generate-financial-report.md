@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 09/29/2017
 
 Dit onderwerp biedt informatie over het genereren van een financieel rapport. 
 
-Om een rapport te genereren, open de rapportdefinitie en klik vervolgens op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Standaard, wordt het gegenereerde rapport in de Webkijker geopend.
-| ![Opmerking](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Opmerking")**Opmerking**        |
-|------------------------------------------------------------------------------------------------|
-| U kunt rapporten alleen genereren naar mappen en locaties waarvoor u gemachtigd bent voor toegang. |
+Om een rapport te genereren, open de rapportdefinitie en klik vervolgens op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Uw gegenereerd rapport wordt standaard geopend in de Web Viewer.
+
+> [!NOTE]
+> U kunt rapporten alleen genereren naar mappen en locaties waarvoor u gemachtigd bent voor toegang.
 
 De volgende tabel beschrijft de opties die beschikbaar zijn voor het genereren van rapporten.
 
@@ -50,10 +50,11 @@ Wanneer u een rapport genereert, worden de opties gebruikt die u op de tabbladen
 ## <a name="schedule-report-generation"></a>Planning rapport genereren
 Veel bedrijven hebben een kernset van rapporten die met geplande intervallen worden uitgevoerd om met hun bedrijfsprocessen af te stemmen. U kunt een rapport plannen om regelmatig worden gegenereerd, bijvoorbeeld dagelijks, wekelijks, maandelijks, of jaarlijks. U kunt één rapport plannen, of een groep rapporten die betrekking hebben op meerdere bedrijven. U moet uw referenties invoeren voor elk bedrijf dat is opgegeven, zoals die in een rapporteringsstructuurdefinitie. Als de gebruikersgegevens niet geldig zijn wordt in het rapport alleen de informatie waar u voor gemachtigd bent weergegeven, zoals het bedrijf waar u op dat moment bent aangemeld. De uitvoer informatie wordt eerst gelezen uit de rapportgroep, en vervolgens uit de afzonderlijke rapporten.
 
-Als rapportplanning worden gemaakt en opgeslagen, worden deze weergegeven in het navigatievenster onder Rapportplanning. U kunt mappen maken om de rapporten overzichtelijk in te delen. Als één rapport in een planning niet wordt uitgevoerd, zullen alle andere rapporten blijven draaien.
-| ![Belangrijk](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Belangrijk")**Belangrijk**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Om rapportplanning te maken, te wijzigen en te verwijderen, moet u de rol van ontwerper of beheerder hebben. Wanneer een rapport wordt uitgevoerd, worden de gebruikersgegevens van de gebruiker die het plan maakte gebruikt om het rapport te genereren. |
+Als rapportplanning worden gemaakt en opgeslagen, worden deze weergegeven in het navigatievenster onder Rapportplanning. U kunt mappen maken om de rapporten overzichtelijk in te delen. Als een rapport in een groep geplande rapporten niet kan worden uitgevoerd, wordt doorgegaan met de overige rapporten.
+
+> [!IMPORTANT]
+> U kunt alleen geplande rapporten maken, wijzigen en verwijderen als u beschikt over de rol van ontwerper of beheerder. Wanneer een rapport wordt uitgevoerd, worden de gebruikersgegevens van de gebruiker die het plan maakte gebruikt om het rapport te genereren.
+
 
 ### <a name="create-a-report-schedule"></a>Een rapportplanning maken.
 
@@ -99,15 +100,16 @@ Om door te gaan, klik op de knop Machtigingen in het dialoogvenster Rapportplann
 ## <a name="missing-account-analysis-feature"></a>Analysefunctie ontbrekende rekeningen
 U kunt voor financiële rekeningen en dimensies zoeken die kunnen missen van alle rijdefinities, rapporteringsstructuurdefinities, en rapportdefinities in een bouwsteengroep. Dit is handig wanneer u verschillende rekening of bouwstenen maakt of bijwerkt gedurende een korte periode, en u wilt controleren of alle nieuwe informatie in uw rapporten is opgenomen.
 
-Er worden ontbrekende rekeningen bepaald door de laagste en hoogste waarden te gebruiken van de rijdefinitie of rapporteringsstructuurdefinitie, waarna een lijst wordt weergegeven met rekeningen die zich niet in de rijdefinitie of rapporteringsstructuurdefinitie bevinden, maar wel in de financiële gegevens. Als een ontbrekende rekening groter is dan of kleiner is dan de waarden in de rijdefinitie, is die rekening niet opgenomen in de lijst van ontbrekende rekeningen.
-| ![Tip](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Tip")**Tip**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Voor validatiedoeleinden, moet dit proces worden uitgevoerd voordat u maandelijkse rapporten genereert en wanneer u nieuwe bouwstenen maakt. |
+Er worden ontbrekende rekeningen bepaald door de laagste en hoogste waarden te gebruiken van de rijdefinitie of rapporteringsstructuurdefinitie, waarna een lijst wordt weergegeven met rekeningen die zich niet in de rijdefinitie of rapporteringsstructuurdefinitie bevinden, maar wel in de financiële gegevens. Als een ontbrekende rekening hoger of lager is dan de waarden in de rijdefinitie, wordt deze rekening niet in de lijst met ontbrekende rekeningen opgenomen.
+
+> [!TIP]
+> Dit proces moet voor validatiedoeleinden worden uitgevoerd voordat u maandelijkse rapporten genereert en wanneer u nieuwe bouwstenen maakt.
 
 Rapporten die waardebereiken hebben minder kans om ontbrekende rekeningen te hebben. Wanneer mogelijk, gebruik bereiken in de bouwsteen om nieuwe rekeningen te omvatten wanneer deze worden gemaakt. Als er een rapportdefinitie is ingesteld op @ANY bedrijf, dan kunt u zich bij een specifiek bedrijf aanmelden en een ontbrekende rekeninganalyse voor dat bedrijf uitvoeren.
-| ![Opmerking](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Opmerking")**Opmerking**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Als een nieuw bedrijf is toegevoegd, moet u het nieuwe bedrijf aan de rapportagestructuren in eventuele bestaande rapporten toevoegen of het bedrijf zal niet opgenomen worden in de ontbrekende rekeninganalyse. |
+
+> [!NOTE]
+> Als een nieuw bedrijf is toegevoegd, moet u het nieuwe bedrijf aan de rapportagestructuren in eventuele bestaande rapporten toevoegen of het bedrijf zal niet opgenomen worden in de ontbrekende rekeninganalyse.
+
 
 ### <a name="run-missing-account-analysis"></a>Draai ontbrekende rekeninganalyse
 
@@ -117,11 +119,11 @@ Rapporten die waardebereiken hebben minder kans om ontbrekende rekeningen te heb
 4.  Selecteer in het veld Groeperen op een optie voor het sorteren van de resultaten. U kunt resultaten sorteren op de bouwsteen waarop deze van invloed zijn of op de dimensie en waardesets.
 5.  Controleer de weergegeven resultaten. Wanneer u in het bovenste deelvenster een item selecteert, wordt in het onderste deelvenster aanvullende informatie over de uitzondering weergegeven. Dit omvat gerelateerde dimensies, waarden en rapporten.
 6.  Om het desbetreffende item te openen, klikt op het gekoppelde pictogram dat in het lijstdeelvenster wordt weergegeven, of met de rechtermuisknop op het item en selecteer Openen Om meerdere artikelen te selecteren, houdt de CTRL ingedrukt terwijl u de artikelen in het onderste deelvenster selecteert.
-7.  Als eventuele waarden, bouwstenen, of rapporten worden geretourneerd die niet in de analyse worden opgenomen, klik dan met de rechtermuiskno op het item en selecteer Uitsluiten, of selecteer het Uitsluiten selectievakje naast het item om het artikel uit de lijst te verwijderen. De uitgesloten artikelen niet opgenomen wanneer de lijst wordt vernieuwd. Om meerdere artikelen te selecteren, houdt u de CTRL ingedrukt terwijl u de items in het onderste deelvenster selecteert. Om alle items, inclusief alle resultaten die u eerder selecteerde om van de analyse uit te sluiten, te bekijken selecteert u het Weergeven uitgesloten bouwstenen en waarden selectievakje in, en klik op Vernieuwen.
-8.  Klik op Vernieuwen om uitzonderingen te vernieuwen die u hebt opgelost. Klik op Ja om volledige vernieuwing van alle resultaten uit te voeren, of klik op Nee om een gedeeltelijke vernieuwing uit te voeren van de geadresseerde items.
-    | ![Opmerking](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Opmerking")**Opmerking**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | Het formulier automatisch wordt vernieuwd wanneer het opent, tenzij het formulier in de laatste 15 minuten is geopend. |
+7.  Als eventuele waarden, bouwstenen, of rapporten worden geretourneerd die niet in de analyse worden opgenomen, klik dan met de rechtermuiskno op het item en selecteer Uitsluiten, of selecteer het Uitsluiten selectievakje naast het item om het artikel uit de lijst te verwijderen. De uitgesloten artikelen niet opgenomen wanneer de lijst wordt vernieuwd. Houd de Ctrl-toets ingedrukt terwijl u in het onderste deelvenster items selecteert als u meerdere items wilt selecteren. Schakel het selectievakje Uitgesloten bouwstenen en waarden weergeven in en klik op Vernieuwen als u alle items wilt weergeven, waaronder eventuele items die u eerder hebt uitgesloten van de analyse.
+8.  Klik op Vernieuwen om uitzonderingen te vernieuwen die u hebt opgelost. Klik op Ja om alle resultaten te vernieuwen of klik op Nee om alleen de opgeloste items te vernieuwen.
+
+    > [!NOTE]
+    > Het formulier wordt tijdens het openen automatisch vernieuwd, tenzij het formulier in de afgelopen 15 minuten al is geopend.
 
 9.  Wanneer er problemen worden opgelost, klik op OK om het dialoogvenster te sluiten.
 

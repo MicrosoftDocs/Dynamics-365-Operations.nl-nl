@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Een configuratie ontwerpen voor het genereren van rapporten in Microsoft Word-indeling voor elektronische aangifte (ER)
@@ -30,9 +30,9 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met een rol van systeem
 
 Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de taakbegeleiding “Een ER-configuratie maken voor het genereren van rapporten in OPENXML-indeling“. U moet van tevoren ook de volgende sjablonen downloaden en lokaal opslaan voor het voorbeeldrapport:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Gebonden sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Deze procedure is voor een functie die in versie 1611 van Microsoft Dynamics 365 for Operations is toegevoegd.
 
@@ -49,7 +49,7 @@ Deze procedure is voor een functie die in versie 1611 van Microsoft Dynamics 365
 ## <a name="replace-the-excel-template-with-the-word-template"></a>De Excel-sjabloon vervangen door de Word-sjabloon
     * Momenteel wordt het Excel-document gebruikt als sjabloon voor het genereren van de uitvoer in OPENXML-indeling. We importeren de sjabloon van het rapport in Word-indeling.  
 1. Klik op Bijlagen.
-    * Vervang de bestaande Excel-sjabloon door de Word-sjabloon die u eerder hebt gedownload, SampleVendPaymDocReport.docx. Houd er rekening mee dat deze sjabloon alleen de indeling bevat van het document dat we willen genereren als ER-uitvoer.  
+    * Vervang de bestaande Excel-sjabloon door Sjabloon van betalingsrapport, de Word-sjabloon die u eerder hebt gedownload. Houd er rekening mee dat deze sjabloon alleen de indeling bevat van het document dat we willen genereren als ER-uitvoer.  
 2. Klik op Verwijderen.
 3. Klik op Ja.
 4. Klik op Nieuw.

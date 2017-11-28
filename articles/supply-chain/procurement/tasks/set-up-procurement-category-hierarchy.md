@@ -3,7 +3,7 @@ title: "Een hiërarchie van aanschaffingscategorieën instellen"
 description: "Deze procedure laat zien hoe u nieuwe knooppunten in een hiërarchie van aanschaffingscategorieën maakt en hoe u een aanschaffingscategorie configureert die in een aanschaffingsproces moet worden gebruikt."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Een hiërarchie van aanschaffingscategorieën instellen
@@ -30,7 +30,7 @@ Deze procedure laat zien hoe u nieuwe knooppunten in een hiërarchie van aanscha
 
 
 ## <a name="add-a-new-procurement-category"></a>Een nieuwe inkoopcategorie toevoegen
-1. Ga naar Inkoop en sourcing > .. > Inkoopcategorieën.
+1. Ga naar Inkoop en sourcing > Inkoopcategorieën.
 2. Klik op Categoriehiërarchie bewerken.
     * De huidige hiërarchie van aanschaffingscategorieën wordt weergegeven aan de linkerkant van de pagina. U gaat de hiërarchie wijzigen.  
 3. Klik op Nieuw categorieknooppunt.
@@ -42,7 +42,7 @@ Deze procedure laat zien hoe u nieuwe knooppunten in een hiërarchie van aanscha
 7. Klik op Opslaan.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Producten aan uw nieuwe aanschaffingscategorie toevoegen
-1. Ga naar Inkoop en sourcing > .. > Inkoopcategorieën.
+1. Ga naar Inkoop en sourcing > Inkoopcategorieën.
     * Selecteer het knooppunt dat u zojuist hebt toegevoegd. Als u de procedure als taakbegeleiding uitvoert, moet u de taakbegeleiding wellicht ontgrendelen om het knooppunt te selecteren.  
 2. Schakel de uitbreiding van de sectie Producten om.
 3. Klik op Toevoegen om producten te koppelen aan de aanschaffingscategorie.

@@ -1,9 +1,9 @@
 ---
 title: Handmatige correcties aanbrengen in de basislijnprognose
-description: In dit artikel wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven
+description: In dit onderwerp wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 218374cdb6b5588648422d97c04fb60f26e47ac7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven 
+In dit onderwerp wordt uitgelegd hoe u handmatige aanpassingen kunt uitvoeren op een basislijnprognose en details van de prognose kunt weergeven. 
 
 Voordat u handmatige aanpassingen uitvoert, is het belangrijk dat u een paar concepten op verschillende pagina's begrijpt.
 
@@ -43,7 +43,7 @@ De **Gecorrigeerde vraagprognose** pagina bevat een raster met de volgende struc
 -   De volgende kolommen zijn de prognoseverzamelingen waarvoor de prognose is gegenereerd. Elke kolomkop is de eerste datum van de prognoseverzameling die in de kolom wordt weergegeven.
 -   De waarden in de cellen vertegenwoordigen de prognose voor één artikel, artikeltoewijzingssleutel enzovoort, voor die specifieke prognosebucket.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Prognoseaggregatie en -deaggregatie
+## <a name="forecast-aggregation-and-de-aggregation"></a>Prognoseaggregatie en -deaggregatie
 De ondertitel van de pagina geeft het niveau van prognoseaggregatie aan. 
 
 Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Toewijzingssleutel / Artikelnummer / Kleur / Grootte / Configuratie / Stijl** is, is er geen prognoseaggregatie, en wordt de prognose weergegeven op het niveau van het artikel en de dimensies ervan. Om de aggregatie te wijzigen, gebruikt u de pagina **Prognosedimensies wijzigen**, die u kunt openen vanuit het toepassingsmenu. 

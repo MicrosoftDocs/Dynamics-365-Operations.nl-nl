@@ -1,9 +1,9 @@
 ---
 title: Callcenterfunctionaliteit
-description: Dit artikel bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 00d24e9933d087f150ec5270da94ad911423824d
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -40,7 +40,7 @@ Dynamics 365 for Retail ondersteunt ook callcenters als type detailhandelkanaal.
 
 Wanneer u deze functies in de instellingen van het call center inschakelt, worden ze beschikbaar in de **Verkooporder** pagina voor gebruikers die aan het call center worden gekoppeld. De meeste van deze functies vereisen aanvullende instellingen voordat ze gebruikt kunnen worden. Voordat gebruikers de orders van het callcenter kunnen maken, moet u die gebruikers toevoegen aan het callcenter als gebruikers van het callcenter. Deze stap schakelt het callcenterkanaal-specifieke configuratie en de functionaliteit in. Hieronder staan enkele voorbeelden van de funktionaliteit die beschikbaar wordt:
 
--   Geleide verkoop biedt configuratieopties voor telesalesscripten en productafbeeldingen om verkoopbedienden te helpen en te begeleiden terwijl deze orders aannemen.
+-   Geleide verkoop biedt configuratieopties voor telesalesscripts en productafbeeldingen om verkoopbedienden te helpen en te begeleiden terwijl deze orders aannemen.
 -   De orders kunnen niet worden voltooid totdat de verkoopbedienden minimaal één betalingsmethode hebben vastgelegd.
 -   Upsell en cross-sell regels kunnen worden geconfigureerd om verkoopbedienden aan te moedigen om specifieke producten naar de klant te promoten.
 -   Verkoopbedienden kunnen de broncode voor de catalogus waaruit een klant bestelt lezen.

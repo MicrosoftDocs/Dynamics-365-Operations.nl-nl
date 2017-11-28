@@ -3,7 +3,7 @@ title: Factuurvereffening en intercompany-inkooporders
 description: De aankopende rechtspersoon die bij een intercompany-transactie betrokken is, kan worden ingesteld om factuurvereffening voor leveranciers te gebruiken. In dit geval moet aan de boekingsvereisten worden voldaan voor zowel intercompany-handel en factuurvereffening voor leveranciers voordat IC-leveranciersfacturen kunnen worden geboekt.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: affdffd5e73958788ed2a5a4959eea71024140ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,7 +52,7 @@ De nettobedragen voor de IC-leveranciersfactuur en de IC-klantfactuur moeten gel
 2.  In Fabrikam Verkoop, registreert u dat de artikelen zijn ontvangen en boekt u een pakbon. De status van ICSO888 verandert in Geleverd. De status van ICPO222 verandert in Ontvangen.
 3.  Voer in Fabrikam Verkoop een factuurupdate uit voor ICSO888. De eenheidsprijs is 0,45 en er worden 100 artikelen bijgewerkt.
 4.  Maak in Fabrikam Inkoop een factuur voor ICPO222. U wijzigt de nettoprijs onopzettelijk van 45,00 naar 54,00. Er wordt een pictogram weergegeven om aan te geven dat de prijs hoger is dan de toegestane prijstolerantie van twee procent.
-5.  Selecteer op de pagina Factuurvereffeningsgegevens de optie om de boeking met vereffeningsverschillen goed te keuren. Klik op de pagina Leveranciersfactuur op OK. Indien de leveranciersfactuur geen intercompany-leveranciersfactuur was, zou het boeken lukken. Het boeken is echter mislukt omdat u met een IC-leveranciersfactuur werkt. Voor IC-handel moeten de factuurtotalen voor de IC-verkooporder gelijk zijn aan de factuurtotalen voor de bijbehorende IC-inkooporder. Om dit probleem op te lossen, moet u de netto prijs op de factuur corrigeren door de netto prijs te wijzigen in de standaardhoeveelheid 45,00.
+5.  Selecteer op de pagina Factuurvereffeningsgegevens de optie om de boeking met vereffeningsverschillen goed te keuren. Klik op OK op de pagina Leveranciersfactuur. Indien de leveranciersfactuur geen IC-leveranciersfactuur was, zou het boeken lukken. Het boeken is echter mislukt omdat u met een IC-leveranciersfactuur werkt. Voor IC-handel moeten de factuurtotalen voor de IC-verkooporder gelijk zijn aan de factuurtotalen voor de bijbehorende IC-inkooporder. Om dit probleem op te lossen, moet u de netto prijs op de factuur corrigeren door de netto prijs te wijzigen in de standaardhoeveelheid 45,00.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a>Voorbeeld: Hoeveelheidvereffening bij intercompany-handel
 De aantallen op de IC-inkooporder en IC-verkooporder moeten gelijk zijn. Deze vereiste vervangt eventuele van toepassing zijnde goedkeuringen voor factuurmatching. Bij dit voorbeeld worden de volgende aanvullende instellingen voor intercompany-handel gebruikt:

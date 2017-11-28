@@ -3,14 +3,14 @@ title: Budgetplanningsintegratie met andere modules
 description: "Budgetplannen kunnen worden gegenereerd meerdere, verschillende bronnen: De basiselementen van het periodieke proces zijn hetzelfde voor alle bronnen."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 311a5cbd3768d8ecc7e7430717369193e60c3e57
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -57,7 +57,7 @@ Voor elk genereerproces zijn drie acties beschikbaar:
 
 ### <a name="source"></a>Bron
 
-Voor alle processen kunt u op het tabblad **Bron** gegevens filteren met behulp van de knop **Filter**. Bepaalde velden worden standaard toegevoegd aan het filter voor elk proces. Voor het proces **Budgetplan genereren op basis van grootboek** zijn bijvoorbeeld de categorieën **Grootboekrekening** en **Hoofdrekening** beschikbaar en deze worden weergegeven op de genereerpagina. Alle velden die u toevoegt aan het filter, worden ook toegevoegd aan de pagina, samen met criteria die u toevoegt.
+Voor alle processen kunt u op het tabblad **Bron** gegevens filteren met behulp van de knop **Filter**. Bepaalde velden worden standaard toegevoegd aan het filter voor elk proces. Voor het proces **Budgetplan genereren op basis van grootboek** zijn bijvoorbeeld de categorieën **Grootboekrekening** en **Hoofdrekening** beschikbaar en deze worden weergegeven op de genereerpagina. Alle velden die u toevoegt aan het filter, worden ook toegevoegd aan de pagina, samen met de criteria die u toevoegt.
 
 ### <a name="target"></a>Doel
 
