@@ -2,6 +2,8 @@
 
 # [Aan de slag](talent-get-started.md)
 ## [Systeemvereisten en updatebeleid](talent-versions-update-policy.md)
+## [Microsoft Dynamics 365 for Talent inrichten](provisioning-talent.md)
+## [Talent-functionaliteit uitbreiden](extend-talent-functionality.md)
 
 # [Een strategie voor Human resources ontwikkelen](departments-jobs-positions.md)
 ## [Taakonderdelen instellen](create-job.md)

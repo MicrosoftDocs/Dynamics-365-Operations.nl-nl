@@ -124,6 +124,7 @@
 #### [Een subklasse voor fabrieksmethoden registreren](extensibility/register-subclass-factory-methods.md)
 #### [Antwoorden met EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [De RunBase-klasse uitbreiden](extensibility/extend-runbase-class.md)
+#### [Gemachtigden gebruiken om Toepassing starten aan te passen](extensibility/startup-customizations.md)
 #### [Een bestaand veld in een tabel wijzigen](extensibility/modify-existing-field.md)
 #### [Een nieuw veld toevoegen aan een bestaande tabel](extensibility/add-field-extension.md)
 #### [Een index toevoegen aan een bestaande tabel](extensibility/add-index.md)
@@ -505,10 +506,12 @@
 ### [On-premises omgevingen instellen en implementeren](deployment/setup-deploy-on-premises-environments.md)
 ### [Aangepaste modellen ontwikkelen voor on-premises omgevingen](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Updates toepassen op een on-premises implementatie](deployment/apply-updates-on-premises.md)
+### [Een on-premises implementatie opnieuw implementeren](deployment/redeploy-on-prem.md)
+### [Problemen oplossen voor Dynamics 365 for Finance and Operations, Enterprise edition on-premises](deployment/troubleshoot-on-prem.md)
 
 ## Aangepaste code implementeren
 ### [Een implementeerbaar pakket maken](deployment/create-apply-deployable-package.md)
-### [Een implementeerbaar pakket toepassen](deployment/apply-deployable-package-system.md)
+### [Updates toepassen op een cloudomgeving](deployment/apply-deployable-package-system.md)
 ### [Een implementeerbaar pakket installeren](deployment/install-deployable-package.md)
 ### [Problemen met pakkettoepassingen oplossen](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## Upgraden naar een recente update
 ### [Proces voor overschakeling naar de nieuwste update](migration-upgrade/upgrade-latest-update.md)
 ### [Lifecycle-beleid](migration-upgrade/versions-update-policy.md)
-### [Upgraden naar de meest recente platformupdate](migration-upgrade/upgrade-latest-platform-update.md)
+### [De nieuwste platformupdate toepassen op uw omgeving](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Het Dynamics-platform upgraden naar de release van augustus 2016](migration-upgrade/update-platform-each-release.md)
 ### [Een sandbox-omgeving upgraden](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Gegevens upgraden in ontwikkel- of demo-omgevingen](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Ontwikkelingshulpmiddelen bijwerken](dev-tools/update-development-tools.md)
+### [Updates toepassen op een on-premises implementatie](deployment/apply-updates-on-premises.md)
+### [Een on-premises implementatie opnieuw implementeren](deployment/redeploy-on-prem.md)
 
 ## Hotfixes en services
 ### [Hotfixes downloaden uit Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Delen van gegevens tussen bedrijven](sysadmin/cross-company-data-sharing.md)
 ## [Onderhoudsmodus](sysadmin/maintenance-mode.md)
 ## [Vooraf geconfigureerde systeemrekeningen](sysadmin/pre-configured-system-accounts.md)
+## [B2B-gebruikers naar Azure AD exporteren](sysadmin/implement-b2b.md)
 ## [Beveiliging op rollen gebaseerd](sysadmin/role-based-security.md)
 ### [Beveiligingsarchitectuur](sysadmin/security-architecture.md)
 ### [Beveiligingsrapporten](sysadmin/security-reports.md)
