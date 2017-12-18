@@ -10,6 +10,7 @@
 ##### [Systeemvereisten voor cloudimplementaties](get-started/system-requirements.md)
 ##### [On-premises implementatie](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [Systeemvereisten voor on-premises implementaties](get-started/system-requirements-on-prem.md)
+##### [Magazijnbeheer voor on-premises implementaties](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### Finance and Operations aanschaffen
 ##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
@@ -20,6 +21,7 @@
 #### [AX 2012-functies die zijn uitgesteld](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Functies die niet zijn geïmplementeerd in On-premises implementaties](get-started/features-not-implemented-on-prem.md)
 #### [Lifecycle-beleid](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Platformupdate 12 (november 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platformupdate 11 (oktober 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platformupdate 10 (augustus 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (juli 2017)](get-started/whats-new-application-July-2017-update.md)
@@ -42,7 +44,8 @@
 ##### [Taakbegeleidingen februari 2016](get-started/new-task-guides-available-february-2016.md)
 
 ### De gebruikersinterface verkennen
-#### [FAQ over de client-UI](get-started/client-faq.md)
+#### [Toegankelijkheidsopties](get-started/accessibility-features.md)
+#### [Veelgestelde vragen over de client-UI](get-started/client-faq.md)
 #### [Actiezoekopdracht](get-started/action-search.md)
 #### [Geavanceerde filter- en querysyntaxis](get-started/advanced-filtering-query-options.md)
 #### [Werkgebieden configureren en filteren](get-started/configure-filter-workspaces.md)
@@ -56,7 +59,7 @@
 #### [De voorkeurstijdzone van een gebruiker instellen](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [Lifecycle Services begrijpen](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### Hulp en ondersteuning aanvragen
+### De documentatie lezen en uitvoeren
 #### [Help-overzicht](get-started/help-overview.md)
 #### [Help verbinden](get-started/help-connect.md)
 #### [Veldomschrijvingen weergeven en exporteren](get-started/view-export-field-descriptions.md)
@@ -152,17 +155,21 @@
 
 #### [Gegevensintegratie via de Common Data Service](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [Een scenario van prospect tot contant geld configureren](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [Producten van Finance and Operations synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [Accounts in Sales synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [Contactpersonen in Sales synchroniseren naar contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [Kopteksten en regels in verkoopoffertes vanuit Sales synchroniseren naar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [Kopteksten en regels in verkooporders synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [Kopteksten en regels in verkoopfacturen synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Rekeningen in Sales onderhouden en direct vanuit Sales synchroniseren met Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [Producten in Finance and Operations onderhouden en direct synchroniseren met Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [Contactpersonen in Sales onderhouden en direct synchroniseren met contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [Verkoopoffertes vanuit Sales rechtstreeks synchroniseren met Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Verkooporders vanuit Finance and Operations rechtstreeks synchroniseren met Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Verkoopfacturen vanuit Finance and Operations rechtstreeks synchroniseren met Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Rekeningen in Sales onderhouden en synchroniseren met Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [Contactpersonen in Sales onderhouden en synchroniseren met Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [Producten in Finance and Operations onderhouden en synchroniseren met Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [Verkoopoffertes maken in Sales en synchroniseren met Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [Verkooporders maken in Finance and Operations en synchroniseren met Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [Verkoopfacturen maken in Finance and Operations en synchroniseren met Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [Externe webservices gebruiken](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [Zwarte-lijstrapport](../financials/localizations/emea-ita-black-list-report.md)
 ##### [Competentiedatum](../financials/localizations/emea-ita-competence-date.md)
 ##### [Afschrijving van vaste activa](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Datumverificatie van pakbon op facturen](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [Btw-boeken](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Betalingen splitsen voor facturen die zijn uitgegeven aan overheidsdiensten](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [Lopende gemiddelde kosten per voorraaddimensie traceren](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## Hoofdplanning
+## [Hoofdplanning](../supply-chain/master-planning/master-planning-home-page.md)
+### [Hoofdplan](../supply-chain/master-planning/master-plans.md)
+#### [Behoefteplanningsinstellingen](../supply-chain/master-planning/coverage-settings.md)
+#### [Behoefteplanningsregels voor artikelen definiëren (taakbegeleiding)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [Een plan met beperkingen genereren (taakbegeleiding)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [Een materiaalplan voor co-producten maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [Geplande orders onderhouden](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Vertragingen verwerken](../supply-chain/master-planning/delays.md)
+#### [Een explosie traceren](../supply-chain/master-planning/trace-explosion.md)
+#### [Actieberichten](../supply-chain/master-planning/action-messages.md)
+#### [De hoofdplanningsuitvoering controleren (taakbegeleiding)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [Een planning voor een vestiging maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [Een plan voor een vestiging maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [Hoofdplannen en de functionaliteit voor meerdere locaties](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [Plannen voor locatiedekking, magazijn verplicht](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [Plannen voor locatiedekking, magazijn niet verplicht](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [Vraag naar locatie en magazijndekking, magazijn verplicht](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [Vraag naar locatie en magazijndekking, magazijn niet verplicht](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [De stuklijstversie bepalen](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [Explosie van een stuklijstversie](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [Een intercompany-plan maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [Uitgaande geplande intercompany-vraag weergeven (taakbegeleiding)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [Samenwerken met interne klanten van toeleveringsketen (taakbegeleiding)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [Vraagprognose](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [Een vraagprognose instellen](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [Historische gegevens voor vraagprognoses importeren](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [Reductiesleutels](../supply-chain/master-planning/reduction-keys.md)
 #### [Een basislijnprognose maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [Handmatig een vraagprognose wijzigen (taakbegeleiding)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [Hoofdplan](../supply-chain/master-planning/master-plans.md)
-#### [Behoefteplanningsinstellingen](../supply-chain/master-planning/coverage-settings.md)
-#### [Geplande orders onderhouden](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Vertragingen](../supply-chain/master-planning/delays.md)
-#### [Actieberichten](../supply-chain/master-planning/action-messages.md)
-#### [Een explosie traceren](../supply-chain/master-planning/trace-explosion.md)
-#### [Hoofdplannen en de functionaliteit voor meerdere locaties](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [Plannen voor locatiedekking, magazijn verplicht](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [Plannen voor locatiedekking, magazijn niet verplicht](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [Vraag naar locatie en magazijndekking, magazijn verplicht](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [Vraag naar locatie en magazijndekking, magazijn niet verplicht](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [De stuklijstversie bepalen](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [Explosie van een stuklijstversie](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [De hoofdplanningsuitvoering controleren (taakbegeleiding)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [Behoefteplanningsregels voor artikelen definiëren (taakbegeleiding)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [Een plan voor een vestiging maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [Een planning voor een vestiging maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [Een plan met beperkingen genereren (taakbegeleiding)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [Een intercompany-plan maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [Een materiaalplan voor co-producten maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [Uitgaande geplande intercompany-vraag weergeven (taakbegeleiding)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [Samenwerken met interne klanten van toeleveringsketen (taakbegeleiding)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [Mobiele app](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1853,7 +1860,7 @@
 #### [Een werksjabloon instellen voor inkooporders](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
 #### [Ladingen en zendingen plannen met de Workbench ladingplanning](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [Ontwikkeling en beheer](../dev-itpro/toc.md)
+# [Ontwikkeling en beheer voor Finance and Operations](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 

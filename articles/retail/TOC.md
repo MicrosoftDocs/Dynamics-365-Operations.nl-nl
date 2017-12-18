@@ -180,11 +180,11 @@
 
 ## Implementatie en hotfixes
 ### [Overzicht voor schaaleenheid voor Retail-winkels](dev-itpro/retail-store-system-begin.md)
-#### [Configuratie en installatie van schaaleenheid voor Retail-winkels](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Configuratie en installatie van schaaleenheid voor Retail-winkels](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Configuratie en installatie van Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [Retail-accounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
-#### [Retail POS-apparaat activeren](dev-itpro/retail-device-activation.md)
-#### [Veilige Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
+### [Retail-accounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
+### [Retail POS-apparaat activeren](dev-itpro/retail-device-activation.md)
+### [Veilige Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [Grootschalige implementatie van selfservicecomponenten van Retail](dev-itpro/retail-mass-deployment.md)
 ### [Retail-componentgebeurtenissen voor diagnostiek en probleemoplossing](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,48 +194,52 @@
 ### [Overzicht van upgrade- en N-1-ondersteuning](dev-itpro/overview-upgrade-n-minus1.md)
 ### [N-1-onderdelen installeren](dev-itpro/n-1-installation-configuration.md)
 
+## Implementatierichtlijnen
+### [Implementatierichtlijnen voor apparaatbeheer](implementation-considerations-devices.md)
+
 ## Configuratie van de omgeving
 ### [Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
-### [Bing Kaarten beheren](dev-itpro/manage-bing-maps.md)
+### [Bing Maps beheren](dev-itpro/manage-bing-maps.md)
 
-## Uitbreidbaarheid
-### Verkooppunt
-#### [Schermindelingen Retail POS](pos-screen-layouts.md)
-##### [De POS-indelingsontwerper installeren](install-pos-layout-designer.md)
-#### [MPOS configureren voor offline modus](dev-itpro/retail-modern-pos-offline.md)
-#### [Uitbreidbaarheid MPOS en Cloud-POS-activering](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [Een aangepast besturingselement toevoegen aan een POS-weergave](dev-itpro/pos-custom-control.md)
-#### [Uitbreiding van POS-betaling](dev-itpro/pos-payment-extension.md)
-#### [Ondersteuning voor externe geschenkbonnen](dev-itpro/gift-card.md)
+## Uitbreidbaarheid van verkooppunten
+### [Schermindelingen Retail POS](pos-screen-layouts.md)
+### [De POS-indelingsontwerper installeren](install-pos-layout-designer.md)
+### [MPOS configureren voor offline modus](dev-itpro/retail-modern-pos-offline.md)
+### [Uitbreidbaarheid MPOS en Cloud-POS-activering](dev-itpro/modern-pos-trigger-extensibility.md)
+### [Een aangepast besturingselement toevoegen aan een POS-weergave](dev-itpro/pos-custom-control.md)
+### [Uitbreiding van POS-betaling](dev-itpro/pos-payment-extension.md)
+### [Ondersteuning voor externe geschenkbonnen](dev-itpro/gift-card.md)
 ### [App voor Retail-ervaring maken](dev-itpro/create-retail-experience-app.md)
 ### [Overzicht van hardwarestation en uitbreidbaarheid](dev-itpro/hardware-station-extensibility.md)
 
-### Retail-server
-#### [Een Retail Server OData-controller uitbreiden](dev-itpro/extend-retail-server-odata-controller.md)
-#### [Web-API en OData-controllers](dev-itpro/odata-controllers-api.md)
-#### [Klanten-en consumenten-API's voor Retail-server](dev-itpro/retail-server-customer-consumer-api.md)
-#### [De metagegevens uitbreiden](dev-itpro/extend-metadata.md)
-#### [Commerce runtime uitbreiden ter ondersteuning van POS-offlinemodus](dev-itpro/call-crt-service-offline.md)
-### Commerce runtime
-#### [Overzicht Commerce runtime](dev-itpro/commerce-runtime-overview.md)
-#### [Uitbreidbaarheid Commerce runtime en Retail-server ](dev-itpro/commerce-runtime-extensibility.md)
-#### [Voorkeurgegevens klant toevoegen aan een afzetkanaaldatabase](dev-itpro/add-customer-preference-channel.md)
-#### [Eigenschappen toevoegen aan een verkooporder](dev-itpro/add-properties-sales-order.md)
-#### [Uitbreidbaarheid Commerce runtime en triggers](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [Voorbeeld van trigger: transactie blokkeren](dev-itpro/trigger-example-blocking-transaction.md)
-#### [Voorbeeld van trigger: retourbeleid](dev-itpro/trigger-example-return-policy.md)
-### e-Commerce
-#### [Een online winkel configureren](dev-itpro/configure-online-store.md)
-#### [Verificatieproviders configureren](dev-itpro/configure-authentication-providers.md)
-#### [e-Commerce-platform](dev-itpro/ecommerce-platform.md)
-#### [SDK e-Commerce-platform](dev-itpro/ecommerce-platform-sdk.md)
-### Betalingsconnector
-#### [Een betalingsconnector en betalingsapparaat implementeren (technisch document)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [Betalingsconnector implementeren](dev-itpro/deploy-payment-connector.md)
-#### [Een Windows-installer maken voor een betalingsconnector](dev-itpro/create-windows-installer-payment-connector.md)
+## Uitbreidbaarheid voor Retail Server
+### [Een Retail Server OData-controller uitbreiden](dev-itpro/extend-retail-server-odata-controller.md)
+### [Web-API en OData-controllers](dev-itpro/odata-controllers-api.md)
+### [Klanten-en consumenten-API's voor Retail-server](dev-itpro/retail-server-customer-consumer-api.md)
+### [De metagegevens uitbreiden](dev-itpro/extend-metadata.md)
+### [Commerce runtime uitbreiden ter ondersteuning van POS-offlinemodus](dev-itpro/call-crt-service-offline.md)
 
-## Retail SDK
-### [Overzicht Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
+## Uitbreidbaarheid Commerce runtime
+### [Overzicht Commerce runtime](dev-itpro/commerce-runtime-overview.md)
+### [Uitbreidbaarheid Commerce runtime en Retail Server](dev-itpro/commerce-runtime-extensibility.md)
+### [Voorkeurgegevens klant toevoegen aan een afzetkanaaldatabase](dev-itpro/add-customer-preference-channel.md)
+### [Eigenschappen toevoegen aan een verkooporder](dev-itpro/add-properties-sales-order.md)
+### [Uitbreidbaarheid Commerce runtime en triggers](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [Voorbeeld van trigger: transactie blokkeren](dev-itpro/trigger-example-blocking-transaction.md)
+### [Voorbeeld van trigger: retourbeleid](dev-itpro/trigger-example-return-policy.md)
+
+## Uitbreidbaarheid van e-Commerce
+### [Een online winkel configureren](dev-itpro/configure-online-store.md)
+### [Verificatieproviders configureren](dev-itpro/configure-authentication-providers.md)
+### [e-Commerce-platform](dev-itpro/ecommerce-platform.md)
+### [SDK e-Commerce-platform](dev-itpro/ecommerce-platform-sdk.md)
+
+## Uitbreidbaarheid betalingsconnector
+### [Een betalingsconnector en betalingsapparaat implementeren (technisch document)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Betalingsconnector implementeren](dev-itpro/deploy-payment-connector.md)
+### [Een Windows-installer maken voor een betalingsconnector](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [De Retail SDK integreren met het continuous build-systeem](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Voorbeelden uitbreidbaarheid Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Kassa's voor Zweden](localizations/emea-swe-cash-registers.md)
@@ -247,9 +251,15 @@
 ### [Uitbreidingen voor afzetkanaaldatabase (DB)](dev-itpro/channel-db-extensions.md)
 ### [Uitbreidbaarheid CDX](dev-itpro/cdx-extensibility.md)
 ### [Kenmerken van order](dev-itpro/order-attributes.md)
-### [Klantkenmerken](dev-itpro/customer-attributes.md)
+### [Kenmerken van klant](dev-itpro/customer-attributes.md)
 ### [Retail-typescript en C#-proxy](dev-itpro/typescript-proxy-retail-pos.md)
-
+### [Voorbeelden Retail POS uitvoeren](dev-itpro/pos-run-samples.md)
+### [Bestaande POS-weergaven uitbreiden om aangepaste kolommen en knoppen op de appbalk toe te voegen](dev-itpro/pos-view-extension.md)
+### [Aangepaste besturingselementen toevoegen aan Retail Modern POS-transactiepagina's](dev-itpro/pos-custom-transaction.md)
+### [Aangepaste kolommen toevoegen aan een POS-transactieraster](dev-itpro/pos-custom-transaction-column.md)
+### [Een POS-API of de bewerking vanuit een POS-uitbreiding aanroepen](dev-itpro/pos-api-extension.md)
+### [Bestaande POS-weergaven uitbreiden om aangepaste kolommen en knoppen op de appbalk toe te voegen](dev-itpro/pos-view-extension.md)
+### [Retail Modern POS-triggers en afdrukken](dev-itpro/pos-trigger-printing.md)
 
 ## Commerce runtime
 ### [Uitbreiding loyaliteit](dev-itpro/retail-sdk/loyalty-extension-sample.md)
