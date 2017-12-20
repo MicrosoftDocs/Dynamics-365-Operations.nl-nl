@@ -3,7 +3,7 @@ title: Power BI-inhoud CFO-overzicht
 description: In dit onderwerp wordt de Microsoft Power BI-inhoud CFO-overzicht besproken.
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ In dit onderwerp wordt de Microsoft Power BI-inhoud **CFO-overzicht** besproken.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
 
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (kuli 2017), vindt u de Power BI-inhoud voor **CFO-overzicht** in het werkgebied **CFO-overzicht**.
+Rapporten uit de Power BI-inhoud **CFO-overzicht** worden weergegeven in het werkgebied **CFO-overzicht**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
 De Power BI-inhoud **CFO-overzicht** is een samenstelling van rapporten van diverse andere Power BI-inhoud, samen met enkele werkelijke en gebudgetteerde saldi uit het grootboek. Daarom geeft deze Power BI-inhoud de CFO (Chief Financial Officer) een overzicht van de organisatie.

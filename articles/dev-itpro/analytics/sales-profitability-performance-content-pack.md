@@ -3,7 +3,7 @@ title: Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendh
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Verkoop- en winstgevendheidsprestaties. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Winstgevendheid kan worden geanalyseerd op de volgende manieren:
 -   Winstgevendheid klant (op opbrengst versus brutomarge)
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017), vindt u de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** op de pagina **Verkoop- en winstgevendheidsprestaties** (**Verkoop en marketing** > **Query's en rapporten** > **Verkoopprestatieanalyse** > **Verkoop- en winstgevendheidsprestaties**). 
+De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** wordt weergegeven op de pagina **Verkoop- en winstgevendheidsprestaties** (**Verkoop en marketing** > **Query's en rapporten** > **Verkoopprestatieanalyse** > **Verkoop- en winstgevendheidsprestaties**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties die in de inhoud worden gebruikt.

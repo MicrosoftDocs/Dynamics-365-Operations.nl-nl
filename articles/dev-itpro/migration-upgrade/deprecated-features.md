@@ -3,7 +3,7 @@ title: Afgeschafte functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,8 +490,8 @@ Gegevenspartities bieden een logische scheiding van gegevens in de Microsoft Dyn
 
 |   |   |
 |---|---|
-| **Reden voor afschrijving**       | In Microsoft Dynamics AX 2012 R2 werden gegevenspartities geïntroduceerd om de isolatie van gegevens mogelijk te maken. In een gebruikelijk scenario heeft een bedrijf dochterondernemingen en mogen de gegevens van de ene vestiging niet zichtbaar zijn voor een andere vestiging, hoewel beide dochterondernemingen worden beheerd door dezelfde IT-afdeling. Er waren echter extra scripts en beheeroverhead in het hele programma vereist om nieuwe partities maken en deze te vullen met gegevens, en om back-ups van partitiegegevens te maken. In de cloud, waar we toegang hebben tot PaaS-databaseservices (platform als een service) (Microsoft Azure SQL-database), is het veel efficiënter gebruik te maken van een database als de isolatiecontainer dan om isolatie uit te voeren in het programma. Ongeacht of partitioneren van gegevens is vereist voor dochterondernemingen, voor meerdere tenants of gewoon voor schaal, geloven wij dat de scenario's beter kunnen worden verwerkt via meerdere databases of meerdere exemplaren van Dynamics AX. |
-| **Vervangen door een andere functie?** | In een toekomstige versie zullen gegevenspartities worden vervangen via ondersteuning voor meerdere databases of Dynamics AX-exemplaren.    |
+| **Reden voor afschrijving**       | In Microsoft Dynamics AX 2012 R2 werden gegevenspartities geïntroduceerd om de isolatie van gegevens mogelijk te maken. In een gebruikelijk scenario heeft een bedrijf dochterondernemingen en mogen de gegevens van de ene vestiging niet zichtbaar zijn voor een andere vestiging, hoewel beide dochterondernemingen worden beheerd door dezelfde IT-afdeling. Er waren echter extra scripts en beheeroverhead in het hele programma vereist om nieuwe partities maken en deze te vullen met gegevens, en om back-ups van partitiegegevens te maken. In de cloud, waar we toegang hebben tot PaaS-databaseservices (platform als een service) (Microsoft Azure SQL-database), is het veel efficiënter gebruik te maken van een database als de isolatiecontainer dan om isolatie uit te voeren in het programma. Ongeacht of partitioneren van gegevens vereist is voor dochterondernemingen, voor meerdere tenants of gewoon voor schaal, geloven wij dat de scenario's beter kunnen worden verwerkt via meerdere exemplaren van Finance and Operations. |
+| **Vervangen door een andere functie?** | Klanten die gebruikmaken van gegevenspartities moeten meerdere exemplaren van Finance and Operations gebruiken als scheiding op databaseniveau een kritiek punt is.    |
 | **Modules die worden beïnvloed**             | Alles  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Opslag in database en bestandsshare voor bijlagen

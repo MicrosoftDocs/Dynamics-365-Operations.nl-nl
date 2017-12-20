@@ -3,7 +3,7 @@ title: Vergelijking van functies tussen cloud en on-premises
 description: In dit onderwerp ziet u welke functies worden ondersteund in de cloud en on-premises.
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 | | Integratie met PowerBI.com| Ja | Nee |
 | | Analytische werkgebieden | Ja | Nee |
 | | Intelligent bedrijfsproces: Aanbevelingen| Ja | Nee |
+| | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's | Ja | Nee |
+| | SSRS (SQL Server Reporting Services) ondersteunt uitschalen  | Ja | Nee |
+| | Telemetrie wordt overgebracht naar de cloud | Ja | Nee |
 | Voorraadbeheer| | Ja | Ja |
 | Lifecycle Services| | Ja | Ja |
 | | Configureerbare bedrijfsprocessen | Ja | Nee |
@@ -86,7 +89,7 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 | Transportbeheer| | Ja | Ja |
 | Leverancierssamenwerking| | Ja | Ja|
 | Magazijnbeheer| | Ja | Ja |
-| | Mobiele magazijnapp| Ja | Nee |
+| | Mobiele magazijnapp| Ja | Ja |
 | | Power BI-rapporten over magazijnen| Ja | Nee |
 | Webclient | | Ja | Ja |
 | | Taakregistratie: taakregistraties opslaan of laden uit de BPM-bibliotheek| Ja | Nee |
@@ -103,6 +106,7 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 | Platformcompatibiliteit  || Ja | Ja |
 | Service | | Ja | Ja |
 | | Service-omgevingen | Ja | Nee |
+| Traceparser en PerfTimer | | Ja | Nee |
 | Upgraden | | Ja | Ja |
 | | Upgraden | Ja | Nee |
 | | Upgrade en ondersteuning voor eerdere versies | Ja | Nee |
@@ -121,6 +125,8 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 |---|---|---|---|
 | Alle talentgebieden | Alle talentfuncties | Ja | Nee |
 
+## <a name="see-also"></a>Zie ook
 
+- [Functies die niet zijn geïmplementeerd in On-premises implementaties](features-not-implemented-on-prem.md)
 
 

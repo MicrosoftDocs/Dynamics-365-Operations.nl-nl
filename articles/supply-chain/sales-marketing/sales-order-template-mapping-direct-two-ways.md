@@ -1,6 +1,6 @@
 ---
 title: Verkooporders direct synchroniseren tussen Sales en Finance and Operations
-description: In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het direct, in beide richtingen synchroniseren van kopteksten en regels van verkooporders tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+description: In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het direct synchroniseren van verkooporders tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het direct, in beide richtingen synchroniseren van kopteksten en regels van verkooporders tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het direct synchroniseren van verkooporders tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
 Open het [PowerApps-beheercentrum](https://preview.admin.powerapps.com/dataintegration) om toegang te krijgen tot de beschikbare sjablonen. Selecteer **Projecten** en selecteer vervolgens in de rechterbovenhoek de optie **Nieuw project** om openbare sjablonen te selecteren.
 
-De volgende sjablonen en onderliggende taken worden gebruikt voor het direct, in beide richtingen synchroniseren van kopteksten en regels van verkooporders tussen Sales en Finance and Operations:
+De volgende sjablonen en onderliggende taken worden gebruikt voor het direct synchroniseren van verkooporders tussen Sales en Finance and Operations:
 
 - **Namen van de sjablonen in Gegevensintegratie:** 
 

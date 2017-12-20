@@ -3,7 +3,7 @@ title: "Power BI-inhoud financiële prestaties"
 description: "In dit onderwerp wordt de Power BI-inhoud Financiële prestaties besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f111698315cd42c0c1c0d470b94688b548375bee
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,7 +38,7 @@ U hebt toegang tot de Power BI-inhoud **Financiële prestaties** vanuit Microsof
 ### <a name="available-from-lcs"></a>Beschikbaar via LCS
 De Power BI-inhoud **Financiële prestaties** die beschikbaar is vanuit LCS, ondersteunt de volgende versies:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017)
+- Versies van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 - Microsoft Dynamics 365 for Operations versie 1611 
 
 U kunt de Power BI-inhoud vinden in de bibliotheek met gedeelde activa in LCS. Zie voor meer informatie over hoe u het inhoudpakket downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).

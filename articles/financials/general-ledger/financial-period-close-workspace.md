@@ -3,7 +3,7 @@ title: "Werkgebied voor afsluiten van financiële periode"
 description: "Dit artikel geeft een overzicht van het werkgebied Afgesloten financiële periode en de bijbehorende configuratie."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ U kunt een taak in de sjabloon toewijzen aan een of meer bedrijven waar deze taa
 
 De menuoptie **Taakkoppeling** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Zo kan een afsluitingstaak om het herwaarderingsproces voor valuta uit te voeren voor leveranciers worden gekoppeld aan de bijbehorende pagina **Herwaardering van vreemde valuta** in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. U kunt ook koppelen aan een externe URL. 
 
-> [!Hint] Als u een bepaald Management Reporter-rapport wilt koppelen aan een taak voor het afsluiten van de financiële periode, kunt u de rapport-URL gebruiken. Om de rapport-URL te openen, opent u het rapport in de rapportontwerper en klikt u op **Bestand** &gt; **Rapport weergeven** om het rapport in een webbrowser te openen. U kunt de URL vervolgens kopiëren in de adresbalk van de browser en deze in het veld **Taakkoppeling** **URL** plakken. 
+> [!TIP]
+> Als u een bepaald Management Reporter-rapport wilt koppelen aan een taak voor het afsluiten van de financiële periode, kunt u de rapport-URL gebruiken. Om de rapport-URL te openen, opent u het rapport in de rapportontwerper en klikt u op **Bestand** &gt; **Rapport weergeven** om het rapport in een webbrowser te openen. U kunt de URL vervolgens kopiëren in de adresbalk van de browser en deze in het veld **Taakkoppeling** **URL** plakken. 
 
 U kunt taakafhankelijkheden definiëren in de sjabloon. Als een taak is ingesteld om afhankelijk te zijn van een of meer taken, kan deze taak niet als voltooid worden gemarkeerd voordat alle afhankelijkheden zijn voltooid. 
 

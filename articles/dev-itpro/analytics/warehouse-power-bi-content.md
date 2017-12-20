@@ -3,7 +3,7 @@ title: Power BI-inhoud voor magazijnprestaties
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor magazijnprestaties. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Magazijnbeheerders kunnen gebruikmaken van de Power BI-inhoud voor **magazijnpre
 -   **Voorraadnauwkeurigheid per locatie**: de voorraadnauwkeurigheid is belangrijke interne bedrijfsinformatie (BI) voor magazijnen. Het is erg belangrijk dat u bepaalt hoe nauwkeurig u in het algemeen bent bij het tellen. Het is echter ook belangrijk dat u bepaalt hoe nauwkeurig u bent bij het opslaan van artikelen op de juiste locaties en of dat u afwijkingsgegevens markeert, zodat u betere posities voor artikelen kunt vinden of de totale telling van specifieke artikelen kunt starten. (Momenteel de nieuwe artikelgebaseerde telfunctie geleverd als hotfix.) Als u deze Power BI-inhoud gebruikt om de juistheid van gegevens van de voorhanden voorraad per locatie te bepalen, kunt u ook diefstal identificeren in uw winkels. U kunt ook bepalen of bepaalde locaties voorhanden hoeveelheden hebben die verschillen van ERP-gegevens (Enterprise Resource Planning). Deze locaties zijn mogelijk te groot of zijn onmogelijk om te tellen. Ook is mogelijk in sommige gevallen de fysieke plaatsing slecht, zodat het moeilijk is één type artikel synchroon te houden met de gegevens over voorhanden voorraad.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Toegang tot het Power BI-inhoudpakket
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017), vindt u de Power BI-inhoud **Magazijnprestaties** op de pagina **Magazijnprestaties** (**Magazijnbeheer** > **Query's en rapporten** > **Magazijnprestatieanalyse** > **Magazijnprestaties**). 
+De Power BI-inhoud **Magazijnprestaties** wordt weergegeven op de pagina **Magazijnprestaties** (**Magazijnbeheer** > **Query's en rapporten** > **Magazijnprestatieanalyse** > **Magazijnprestaties**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De Power BI-inhoud voor **magazijnprestaties** bevat een rapport. Dit rapport bestaat uit een set metrische gegevens die worden gevisualiseerd als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de Power BI-inhoud voor **magazijnprestaties**.
