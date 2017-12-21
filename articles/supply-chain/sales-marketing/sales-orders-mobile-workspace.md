@@ -3,7 +3,7 @@ title: Mobiel werkgebied voor verkooporders
 description: Dit onderwerp biedt informatie over het mobiele werkgebied Verkooporders. Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders.
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9d591b80f7bb4e8e1eccaa2bbaa93e833b31b6e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 6a613d8b2ea1503b70efad7b14fb340faad0f62e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -84,8 +84,8 @@ In deze weergave ziet u een overzicht van de verkooporders per klant.
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017) gebruikt 
-Als Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017) is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise edition gebruikt 
+Als Dynamics 365 for Finance and Operations, Enterprise edition is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten voor gebruik van Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger.
 Als Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 

@@ -3,7 +3,7 @@ title: Power BI-inhoud voor analyse van inkoopuitgaven
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Analyse inkoopuitgaven. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6485f36802fc4e327e223f47d65c4bdca11c1609
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f38f82b4275599a6b958c495f32b72778b400024
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ De Power BI-inhoud **Analyse inkoopuitgaven** is ontworpen om inkoopmanagers en 
 Op basis van gegevens voor inkooptransacties biedt de inhoud zowel een samengevoegde weergave van de inkoopcijfers uit het hele bedrijf als ook een analyse van de inkoopuitgaven op leverancier en product. Rapporten maken wijzigingen in de inkoopuitgaven in het verloop van de tijd duidelijk. Daarom kunnen de rapporten worden gebruikt om managers te wijzen op positieve en negatieve trends in de uitgaven voor afzonderlijke leveranciers en producten. Daarnaast geven grafieken de inkoopuitgaven weer voor verschillende inkoopcategorieën en leveranciersgroepen. Categorie- en regiomanagers kunnen met deze grafieken veranderingen in het uitgavegedrag opsporen.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017), vindt u de Power BI-inhoud **Analyse inkoopuitgaven** op de pagina **Inkoop- en uitgavenanalyse** (**Inkoopbeheer** > **Query's en rapporten** > **Inkoopprestatieanalyse** > **Inkoop- en uitgavenanalyse**). 
+De Power BI-inhoud **Inkoopuitgavenanalyse** wordt weergegeven op de pagina **Inkoop- en uitgavenanalyse** (**Inkoopbeheer** > **Query's en rapporten** > **Inkoopprestatieanalyse** > **Inkoop- en uitgavenanalyse**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties.

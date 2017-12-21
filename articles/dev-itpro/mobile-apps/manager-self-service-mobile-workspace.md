@@ -3,7 +3,7 @@ title: Mobiel werkgebied Mijn team
 description: In dit onderwerp vindt u informatie over het mobiele werkgebied Mijn team, waarin managers bekijken hun directe ondergeschikten en uitgebreide personeel kunnen weergeven. Gebruikers kunnen ook lof versturen voor personen in hun rapportageketen.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a49e7ba9c1cbc525f388b345b7c6b2102bc81f54
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 30a5b88b5f4a0b107b39742770587eeb4bcb87cf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -53,7 +53,7 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 <tbody>
 <tr class="odd">
 <td>Een van de volgende producten moet worden geïmplementeerd in uw organisatie:
-<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017)</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>

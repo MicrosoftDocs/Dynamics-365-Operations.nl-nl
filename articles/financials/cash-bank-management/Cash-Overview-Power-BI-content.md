@@ -3,7 +3,7 @@ title: Power BI-inhoud Overzicht van contant geld
 description: In dit onderwerp wordt de Power BI-inhoud Overzicht van contant geld besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: saraschi2
 manager: AnnBe
-ms.date: 06/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fdcd3083f475967ec2e5f94dad850a1bf98c864a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -35,7 +35,7 @@ De Power BI-inhoud **Overzicht van contant geld** is gemaakt voor personen die v
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
 
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017), worden rapporten uit de Power BI-inhoud **Overzicht van contant geld** weergegeven in de werkgebieden **Overzicht van contant geld** en **Bankbeheer**.
+Rapporten uit de Power BI-inhoud **Overzicht van contant geld** worden weergegeven in de werkgebieden **Overzicht van contant geld** en **Bankbeheer**.
 
 Als u de cashflowprognoserapporten wilt weergeven met gegevens, moet u eerst het prognoseberekeningsproces uitvoeren met de functie **Cashflowprognoses berekenen** in Contanten en bankbeheer.  Dit moet worden uitgevoerd voor elk bedrijf dat wordt opgenomen in de prognose.  Vernieuw de samengevoegde meting LedgerCovLiquidityMeasurement op de pagina **Entiteitopslag**.  
 

@@ -3,7 +3,7 @@ title: Sneltoetsen
 description: De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations, Enterprise edition.
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -34,10 +34,14 @@ De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations, 
 
 **Opmerking:** De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
 
+## <a name="finding-a-shorcut"></a>Een snelkoppeling vinden
+Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de gebruikersinterface weergeven. U hoeft alleen maar met de rechtermuisknop op een besturingselement te klikken en **Snelkoppelingen weergeven** te kiezen. Hiermee opent u een dialoogvenster met de beschikbare snelkoppelingen op basis van uw locatie op de pagina. 
+
+
 ## <a name="action-shortcuts"></a>Actiesneltoetsen
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Actie**                                    | **Druk op**                        |
+| **Gewenste bewerking**                                    | **Druk op**                        |
 | Actiezoekopdracht openen                                | Ctrl+’ of Alt+Q                  |
 | Naar het standaardactievenster gaan                  | Alt+M, A of Ctrl+F6               |
 | Een tabblad in het actievenster of een menu openen           | Enter of spatiebalk of Alt+Pijl-omlaag |
@@ -48,13 +52,14 @@ De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations, 
 | Op de standaardknop in een formulier/dialoogvenster klikken   | Alt+Enter                        |
 | Op een knop of tegel klikken                            | Enter of spatiebalk                   |
 | Vernieuwde informatie voor een tellingstegel weergeven         | Alt+Pijl-omhoog                     |
+| Momenteel beschikbare snelkoppelingen weergeven                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Sneltoetsen voor datumkiezer
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Gewenste bewerking**                        | **Druk op**                                 |
 | De datumkiezer openen                  | Alt+Pijl-omlaag                            |
-| Heen en weer gaan tussen datums in de datumkiezer | Ctrl+pijltoetsen                               |
+| Heen en weer gaan tussen datums in de datumkiezer | Ctrl+pijltoetsen                           |
 | Naar de volgende/vorige maand gaan       | Page Down/Page Up                       |
 | Naar het volgende/vorige jaar gaan        | Ctrl+Shift+Page Down/Ctrl+Shift+Page Up |
 | Naar vandaag gaan                         | Ctrl+Home                                 |
@@ -65,6 +70,7 @@ De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations, 
 ## <a name="factbox-shortcuts"></a>Sneltoetsen voor feitenvak
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Gewenste bewerking**                                                                  | **Druk op**                                 |
 | Het feitenblok openen (of de focus naar het feitenblok verplaatsen als dat al is geopend) | Alt+M, B of Ctrl+F2                        |
 | Het feitenblok sluiten (met de focus in het feitenblok)                         | Esc                                       |
 | Naar het volgende/vorige feitenvak gaan (met focus in het feitenblok)              | Alt+Shift+Pijl-omlaag/Alt+Shift+Pijl-omhoog |

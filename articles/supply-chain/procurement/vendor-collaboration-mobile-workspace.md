@@ -3,7 +3,7 @@ title: Mobiel werkgebied Leverancierssamenwerking
 description: In dit onderwerp vindt u informatie over het mobiele werkgebied Leverancierssamenwerking. Met dit werkgebied kunnen uw leveranciers op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 850a5dceb9ea084d9964094c0e2ba5325025fb5e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 6028f6007cf2fd3f21c2e6cf3f5fac85c6e0da0a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -60,8 +60,8 @@ In het werkgebied **Leverancierssamenwerking** kan een leverancier deze taken ui
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 for Finance and Operations die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017) gebruikt 
-Als Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017) is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Leverancierssamenwerking** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise edition gebruikt 
+Als Microsoft Dynamics 365 for Finance and Operations, Enterprise edition is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Leverancierssamenwerking** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten voor gebruik van Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger.
 Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 

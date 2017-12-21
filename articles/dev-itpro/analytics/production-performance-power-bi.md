@@ -3,7 +3,7 @@ title: Power BI-inhoud Productieprestaties
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Productieprestaties. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: baa0343713e8f75e1c9637a903b9008db0968fd4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Met deze Power BI-inhoud kunt u ook productieafwijkingen analyseren. Productieaf
 De Power BI-inhoud **Productieprestaties** bevat gegevens die afkomstig zijn uit productieorders en batchorders. De rapporten bevatten geen gegevens die zijn gerelateerd aan kanbanproductie.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017), vindt u de Power BI-inhoud **Productieprestaties** op de pagina **Productieprestaties** (**Productiebeheer** > **Query's en rapporten** > **Productieprestatieanalyse** > **Productieprestaties**). 
+De Power BI-inhoud **Productieprestaties** wordt weergegeven op de pagina **Productieprestaties** (**Productiebeheer** > **Query's en rapporten** > **Productieprestatieanalyse** > **Productieprestaties**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 

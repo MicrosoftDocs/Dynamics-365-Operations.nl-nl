@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ In het **Beleid voor cross-docken** definieert u welke documenttypen van toepass
 ### <a name="cross-docking-policy-name-transfer-order"></a>Naam van beleid voor cross-docken: transferorder
 
 -   Volgnummer: 10
--   Werkordertype: transferuitgifte
+ -   Werkordertype: transferuitgifte
 -   Voor verzoek om cross-docken is locatie vereist: Onwaar
 -   Strategie voor cross-docken: datum en tijd
 
@@ -102,10 +102,9 @@ Nadat een product is gereedgemeld voor de productielijn, wordt het overgebracht 
 6.  Een transferorder maken. Maak de transferorder voor artikelnummer L0101. Hoeveelheid = 20.
 7.  Geef de transferorder vrij via de workbench van de ladingplanning. Selecteer op het tabblad **Verzenden** de menuopdracht voor de ladingplanningworkbench en selecteer in het menu **Vrijgeven** van de ladingregel **Vrijgave naar magazijn**. Er is nu een open waveregel van het type **Transferuitgifte** aanwezig voor de transferorder.
 8.  Maak een productieorder. Ga naar de lijstpagina **Productieorder** en maak een productieorder voor product L0101. Hoeveelheid = 20. Maak een raming en start de productieorder. Houd er rekening mee dat het veld **Orderverzamellijst nu boeken** blijft ingesteld op **Nee**.
-9.  Meld gereed via het mobiele apparaat. Ga naar de portal van het mobiele apparaat en selecteer menuopdracht **Rapporteren als voltooid en wegzetten**. Meld nu L0101 gereed via het handheldapparaat. De locatie voor plaatsing is **LAADDEUR**. Deze locatie vindt u in de locatierichtlijn **Transferuitgifte** voor het werkordertype **Plaatsen**. U ziet ook dat werk van het type **Transferuitgifte** is gemaakt en is voltooid. Ga naar de werkdetails van de transferorder om het werk te controleren.
-10. Probeer nu 20 stuks meer op de productieorder te starten en probeer vervolgens 20 stuks gereed te melden met behulp van het handheldapparaat. Deze keer wordt de locatie **LP-001** voorgesteld als de locatie voor plaatsing. Deze locatie vindt u via de locatierichtlijn voor **Eindproducten wegzetten**. Deze locatierichtlijn wordt gebruikt, omdat er geen gelegenheid voor cross-docken bestaat. De transferorder voor LP-001 is volledig afgehandeld door de eerste activiteit voor cross-docken.
-
-Werk van het type **Eindproducten wegzetten** is gemaakt en verwerkt.
+9.  Meld gereed via het mobiele apparaat. Ga naar de portal van het mobiele apparaat en selecteer menuopdracht **Rapporteren als voltooid en wegzetten**. Meld nu L0101 gereed via het handheldapparaat. Hoeveelheid = 10. De locatie voor plaatsing is **LAADDEUR**. Deze locatie vindt u in de locatierichtlijn **Transferuitgifte** voor het werkordertype **Plaatsen**. U ziet ook dat werk van het type **Transferuitgifte** is gemaakt en is voltooid. Ga naar de werkdetails van de transferorder om het werk te controleren.
+10. Rapporteer nu 10 stuks extra vanaf het mobiele apparaat. De locatie voor plaatsing is opnieuw **LAADDEUR**. U ziet ook dat nieuw werk van het type **Transferuitgifte** is gemaakt voor de 10 stuks.
+11. Probeer nu 20 stuks meer op de productieorder te starten en probeer vervolgens 20 stuks gereed te melden met behulp van het handheldapparaat. Deze keer wordt de locatie **LP-001** voorgesteld als de locatie voor plaatsing. Deze locatie vindt u via de locatierichtlijn voor **Eindproducten wegzetten**. Deze locatierichtlijn wordt gebruikt, omdat er geen gelegenheid voor cross-docken bestaat. De transferorder voor LP-001 is volledig afgehandeld door de twee activiteiten voor cross-docken in stap 9 en 10. Werk van het type **Eindproducten wegzetten** is gemaakt en verwerkt.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Scenario 2: cross-docken van productie naar transferorders met een afspraakplanning
 
@@ -123,7 +122,7 @@ Nadat een product voor de productieregel gereed is gemeld, wordt het overgebrach
 
 ### <a name="additional-information"></a>Aanvullende gegevens
 
--   Het scenario van cross-docken wordt ondersteund voor batch- en serie gecontroleerde artikelen, waarbij zowel de batch- als serienummerdimensies boven en onder de locatie in de reserveringshiërarchie zijn gedefinieerd.
+-   Het scenario van cross-docken wordt ondersteund voor batch- en serie gecontroleerde artikelen, waarbij zowel de batch- als serienummerdimensies boven en onder de locatie in de reserveringshiërarchie zijn gedefinieerd. 
 
 
 

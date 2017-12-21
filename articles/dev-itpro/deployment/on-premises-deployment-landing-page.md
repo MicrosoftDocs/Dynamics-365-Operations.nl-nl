@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
-ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
+ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
+ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Startpagina On-premises implementatie
@@ -30,14 +30,13 @@ ms.lasthandoff: 10/05/2017
 
 U kunt Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition implementeren (on-premises). Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
 
-**Opmerking:** Dynamics 365 for Operations (on-premises) krijgt momenteel een andere naam. In de communicatie en licentiehandleidingen wordt verwezen naar Dynamics 365 for Operations (on-premises). De naam in het product die wordt weergegeven bij het implementeren van het product is Dynamics 365 for Finance and Operations, Enterprise edition. Beide namen verwijzen naar hetzelfde product.
-
 ## <a name="get-started"></a>Aan de slag
 - [Overzicht van Dynamics 365 for Finance and Operations, Enterprise-editie (on-premises)](on-premises-overview.md)
 - [Systeemvereisten voor on-premises implementaties](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Grootte van de hardware voor on-premises omgevingen vaststellen](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Online service en on-premises lifecycle-beleid voor software](../migration-upgrade/versions-update-policy.md)
 - [Dynamics 365 for Finance and Operations, Enterprise-editie (on-premises) aanschaffen](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Vergelijking van functies tussen cloud en on-premises](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Onboard
 - [Een on-premises project maken in Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -51,9 +50,12 @@ U kunt Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition imp
 - [Mogelijkheid voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties](../analytics/printing-capabilities-on-premises.md)
 - [Technische ondersteuning instellen](../lifecycle-services/support-experience.md)
 - [Problemen oplossen met internetverbinding van client](../user-interface/client-disconnected.md)
+- [Updates toepassen op een on-premises implementatie](apply-updates-on-premises.md)
+- [Een on-premises implementatie opnieuw implementeren](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Overige bronnen
 - [Functies die niet zijn geïmplementeerd in On-premises implementaties](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Afgeschafte functies](../migration-upgrade/deprecated-features.md)
+- [Lifecycle-beleid voor software en lijst met versies](../migration-upgrade/versions-update-policy.md)
  
 

@@ -1,15 +1,15 @@
 ---
 title: "Financiële rapportage voor Finance and Operations"
 description: "Financiële rapportage voor Finance and Operations stelt financiële en bedrijfsprofessionals in staat om financiële overzichten te maken, te beheren, te gebruiken en weer te geven. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen op efficiënte verschillende typen rapporten te ontwerpen."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -33,6 +33,17 @@ ms.lasthandoff: 11/03/2017
 Financiële rapportage voor Finance and Operations stelt financiële en bedrijfsprofessionals in staat om financiële overzichten te maken, te beheren, te gebruiken en weer te geven. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen op efficiënte verschillende typen rapporten te ontwerpen.
 
 Financiële rapportage omvat dimensie-ondersteuning. Daarom zijn rekeningsegmenten of dimensies onmiddellijk beschikbaar. Er zijn geen extra hulpmiddelen of configuratiestappen vereist.
+
+## <a name="financial-reporting-setup"></a>Instelling van financiële rapportage
+De pagina **Instelling van financiële rapportage** bevat een lijst met alle financiële dimensies in het systeem. **Grootboek** > **Grootboek instellen** > **Instelling van financiële rapportage**. 
+
+De pagina **Instelling van financiële rapportage** bevat twee gedeelten waarin u bepaalt over welke gegevens financieel wordt gerapporteerd:
+
+• **Tabblad Dimensies**: omdat verschillende bedrijven verschillende dimensies en rekeningstructuren gebruiken, is het niet mogelijk om de volgorde te bepalen waarin gebruikers alle financiële dimensies in rapporten willen weergeven. Op deze pagina kunt u de volgorde instellen waarin financiële dimensies moeten worden weergegeven wanneer u een rapport maakt en weergeeft in Financiële rapportage.
+
+• **Tabblad Kenmerken**: hier kunt u aangeven of u **Leveranciers** en **Klanten** als kenmerken wilt gebruiken voor filteren en rapportontwerp. Rapportage over leveranciers en klanten is alleen waardevol als u niet meerdere leveranciers of klanten in één boekstuk invoert bij het boeken van transacties. Wanneer u Leverancier en/of Klant kiest, duurt de integratie langer.
+
+
 
 ## <a name="financial-reporting-components"></a>Onderdelen van financiële rapportage
 De volgende onderdelen van financiële rapportage maken het gemakkelijk om rapporten op te stellen, weer te geven en te plannen.

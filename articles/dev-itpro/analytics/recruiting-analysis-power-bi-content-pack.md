@@ -3,7 +3,7 @@ title: Power BI-inhoud Werving
 description: In dit onderwerp wordt de Power BI-inhoud Werving besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: jcart1106
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 42d7b94e655799596f478e7592a17437b336099e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 22138ab34243aa5f8c74f785ce3aaf68b27b9622
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 In dit onderwerp wordt de Microsoft Power BI-inhoud **Werving** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017), vindt u de Power BI-inhoud **Werving** in het werkgebied **Wervingsbeheer**. 
+De Power BI-inhoud **Werving** wordt weergegeven in het werkgebied **Wervingsbeheer**. 
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Rapporten en visuals in het werkgebied Wervingsbeheer
 Het werkgebied **Wervingsbeheer** bevat een tabblad **Analyses**. Dit tabblad bevat de ingesloten Power BI-inhoud voor werving. De inhoud bestaat uit een overzichtstabblad en extra tabbladen die gegevens bevatten. In de onderstaande tabel vindt u een overzicht van de rapporten op elk tabblad.

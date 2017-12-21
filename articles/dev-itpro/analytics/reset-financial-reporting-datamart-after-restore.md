@@ -1,131 +1,540 @@
 ---
-title: "De datamart voor financiële rapportage opnieuw instellen na het herstellen van een database"
-description: "In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt na het terugzetten van een Microsoft Dynamics 365 for Finance and Operations-database."
-author: ShylaThompson
+title: "De datamart voor financiële rapportage opnieuw instellen"
+description: "In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt."
+author: aolson
 manager: AnnBe
-ms.date: 08/15/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 261824
 ms.search.region: Global
-ms.author: kweekley
+ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6e3f78fb2f6528449d2a411225cd0e14ca33443e
+ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
+ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/07/2017
 
 ---
 
-# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>De datamart voor financiële rapportage opnieuw instellen na het herstellen van een database
+# <a name="reset-the-financial-reporting-data-mart"></a>De datamart voor financiële rapportage opnieuw instellen
 
 [!include[banner](../includes/banner.md)]
 
+In dit onderwerp wordt uitgelegd hoe u de datamart voor financiële rapportage opnieuw instelt voor de volgende versies:
 
-In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt na het terugzetten van een Microsoft Dynamics 365 for Finance and Operations-database.
+- Microsoft Dynamics 365 for Finance and Operations Financial Reporting 7.2.6.0 en hoger
+- Microsoft Dynamics 365 for Finance and Operations Financial Reporting 7.0.10000.4 en hoger
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises)
 
-Als u uw Finance and Operations-database vanaf een back-up moet terugzetten of de database uit een andere omgeving kopieert, moet u de stappen in dit onderwerp volgen om te zorgen dat de datamart voor financiële rapportage correct gebruikmaakt van de teruggezette Finance and Operations-database. 
-> [!Note] 
-> De stappen in dit proces worden ondersteund voor de release van mei 2016 van Dynamics 365 for Operations (App-build 7.0.1265.23014 en financiële rapportage-build 7.0.10000.4) en nieuwere versies. Als u een eerdere versie van Finance and Operations hebt, neem dan contact op met ons ondersteuningsteam voor hulp.
+Voor Finance and Operations Financial Reporting 7.2.6.0 kunt u KB 4052514 downloaden via <https://support.microsoft.com/en-us/help/4052514>.
 
-## <a name="export-report-definitions"></a>Rapportdefinities exporteren
-Exporteer eerst de rapportontwerpen die zich in de Report Designer bevinden volgens de onderstaande procedure:
+## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>De datamart voor financiële rapportage opnieuw instellen voor Finance and Operations Financial Reporting 7.2.6.0 en hoger
 
-1.  Ga in Report Designer naar **Bedrijf** &gt; **Bouwsteengroepen**.
-2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. 
+### <a name="reset-the-financial-reporting-data-mart-from-report-designer"></a>De datamart voor financiële rapportage opnieuw instellen vanuit Rapportontwerper
 
-    > [!Note] 
-    > Voor Finance and Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
-    
-3.  Selecteer de rapportdefinities die u wilt exporteren:
-    -   Om al uw rapportdefinities en de gekoppelde bouwstenen te exporteren klikt u op **Alles selecteren**.
-    -   U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiesets exporteren door op het gewenste tabblad te klikken en vervolgens de te exporteren items selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere artikelen op een tabblad te selecteren. Wanneer u rapporten selecteert om te exporteren, worden de bijbehorende rijen, kolommen, structuren en dimensiegroepen ook geselecteerd.
-
-4.  Klik op **Exporteren**.
-5.  Voer een bestandsnaam in en selecteer de beveiligde locatie waar u de geëxporteerde rapportdefinities wilt opslaan.
-6.  Klik op **Opslaan**.
-
-U kunt het bestand kopiëren of uploaden naar een beveiligde locatie, zodat u het later kunt importeren in een andere omgeving. Informatie over het gebruik van een Microsoft Azure-opslagaccount vindt u in het onderwerp [Gegevensoverdracht met het opdrachtregelprogramma AzCopy](/azure/storage/storage-use-azcopy). 
 > [!NOTE]
-> Microsoft biedt bij uw abonnement voor Finance and Operations geen opslagaccount aan. U moet een opslagaccount aanschaffen of een opslagaccount uit een separaat Azure-abonnement gebruiken. 
+> De stappen in dit proces worden ondersteund voor Finance and Operations Financial Reporting 7.2.6.0 en hoger. Als u een oudere versie hebt, neemt u voor ondersteuning contact op met het ondersteuningsteam.
+
+In bepaalde gevallen moet u de datamart voor financiële rapportage mogelijk opnieuw instellen. U kunt deze taak voltooien in de client Rapportontwerper. Hier volgen enkele scenario's waarin u de datamart wellicht opnieuw moet instellen:
+
+- De Finance and Operations-database is opnieuw ingesteld, maar de database van de datamart niet.
+- Gedurende een periode worden er onjuiste gegevens weergegeven.
+- Van de ondersteuning krijgt u instructies voor het opnieuw instellen van de datamart als onderdeel van een stap voor probleemoplossing.
+
+De datamart moet alleen opnieuw worden ingesteld op tijden dat de database relatief licht wordt belast. Financiële rapportage is niet beschikbaar tijdens het proces van opnieuw instellen.
+
+#### <a name="reset-the-data-mart"></a>De datamart opnieuw instellen
+
+Als u de datamart opnieuw wilt instellen, selecteert u in Rapportontwerper in het menu **Extra** de optie **Datamart opnieuw instellen**. Het dialoogvenster dat verschijnt, bevat twee secties: **Statistieken** en **Opnieuw instellen**.
+
+[![Dialoogvenster Datamart opnieuw instellen](./media/Statistics.png)](./media/Statistics.png)
+
+##### <a name="integration-attempts"></a>Integratiepogingen
+
+In het raster **Integratiepogingen** ziet u hoe vaak het systeem heeft geprobeerd transacties te integreren. Als de eerste paar pogingen mislukken, blijft het systeem het enkele dagen proberen. U weet dat de datamart opnieuw moet worden ingesteld als het aantal pogingen 8 of meer is en er veel dimensiecombinatie- of transactierecords zijn. In deze situatie worden de gegevens niet gerapporteerd.
+
+##### <a name="data-status"></a>Status gegevens
+
+Het raster **Status gegevens** biedt een momentopname van de transacties, wisselkoersen en dimensiewaarden in de datamart. Een groot aantal verouderde records duidt erop dat een groot aantal updates van de records is uitgevoerd. Deze situatie kan ertoe leiden dat rapporten langzamer worden gegenereerd.
+
+##### <a name="misaligned-main-account-categories"></a>Onjuist uitgelijnde hoofdrekeningcategorieën
+
+Als u een oudere versie dan Microsoft Dynamics 365 for Finance and Operations Financial Reporting 7.2.1 gebruikt, moet u de datamart wellicht opnieuw instellen als u namen van rekeningen wijzigt en rekeningen tussen rekeningcategorieën verplaatst. Deze acties kunnen ertoe leiden dat hoofdrekeningcategorieën onjuist worden uitgelijnd. In het veld **Onjuist uitgelijnde hoofdrekeningcategorieën** wordt aangegeven of dit probleem zich voordoet.
+
+### <a name="reset-the-data-mart-in-finance-and-operations-financial-reporting-release-7260"></a>De datamart opnieuw instellen in Finance and Operations Financial Reporting 7.2.6.0
+
+Als u de datamart opnieuw wilt instellen in Finance and Operations Financial Reporting 7.2.6.0 of eerdere versies, schakelt u in het dialoogvenster **Datamart opnieuw instellen** het selectievakje **Datamart opnieuw instellen** in en selecteert u **OK**. Stel de datamart alleen opnieuw in tijdens een geplande uitvaltijd.
+
+[![Selectievakje Datamart opnieuw instellen](./media/Reset-72.jpg)](./media/Reset-72.jpg)
+
+### <a name="reset-the-data-mart-and-select-a-reason-in-microsoft-dynamics-365-for-finance-and-operations-financial-reporting-release-730"></a>De datamart opnieuw instellen en een reden selecteren in Microsoft Dynamics 365 for Finance and Operations Financial Reporting 7.3.0
+
+Als u vaststelt dat een datamart opnieuw moet worden ingesteld, schakelt u het selectievakje **Datamart opnieuw instellen** in en selecteert u een reden in het veld **Reden**. De volgende opties zijn beschikbaar:
+
+- **Ontbrekende of onjuiste gegevens**: op basis van de statistieken hebt u vastgesteld dat er mogelijk gegevens ontbreken. Voordat u doorgaat, wordt u aangeraden contact op te nemen met de ondersteuning om de hoofdoorzaak te achterhalen.
+- **Database herstellen**: de Finance and Operations-database is hersteld, maar de database van de datamart voor financiële rapportage niet.
+- **Overige**: u herstelt de datamart om een andere reden. Als u vermoedt dat er een probleem is, moet u contact opnemen met de ondersteuning.
+
+> [!NOTE]
+> Controleer voordat u de stappen voltooit of alle bestaande taken zijn geïntegreerd. U kunt de status van de integratie weergeven door **Extra** &gt; **Integratiestatus** te selecteren.
+
+#### <a name="clear-users-and-companies"></a>Gebruikers en bedrijven wissen
+
+Schakel het selectievakje **Gebruikers en bedrijven wissen** in als u uw database opnieuw hebt ingesteld, maar vervolgens wijzigingen hebt doorgevoerd in gebruikers of bedrijven. U hoeft dit selectievakje zelden in te schakelen.
+
+Wanneer u klaar bent om het proces voor opnieuw instellen te starten, selecteert u **OK**. U wordt gevraagd te bevestigen dat u het proces wilt starten. Houd er rekening mee dat financiële rapportage niet beschikbaar is tijdens het opnieuw instellen en de initiële gegevensintegratie daarna.
+
+Als u de status van de integratie wilt bekijken, selecteert u **Extra** &gt; **Integratiestatus** om na te gaan wanneer de integratie het laatst is uitgevoerd en de status te bekijken.
+
+[![De status van de integratie weergeven](./media/Integration.png)](./media/Integration.png)
+
+## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>De datamart voor financiële rapportage opnieuw instellen voor Finance and Operations Financial Reporting 7.0.10000.4 en hoger
+
+Als u uw Finance and Operations-database opnieuw moet instellen vanaf een back-up of de database uit een andere omgeving kopieert, moet u de stappen in dit gedeelte volgen om te zorgen dat de datamart voor financiële rapportage correct gebruikmaakt van de opnieuw ingestelde Finance and Operations-database.
+
+> [!NOTE]
+> De stappen in dit proces worden ondersteund voor Microsoft Dynamics AX 7.0.1 (mei 2016) (toepassingsbuild 7.0.1265.23014 en Financial Reporting-build 7.0.10000.4) en hoger. Als u een eerdere versie van Finance and Operations hebt, neemt u voor hulp contact op met de ondersteuning.
+
+### <a name="export-report-definitions"></a>Rapportdefinities exporteren
+
+Volg eerst deze stappen als u de rapportontwerpen wilt exporteren vanuit Rapportontwerper.
+
+1. Selecteer in Rapportontwerper de optie **Bedrijf** &gt; **Bouwsteengroepen**.
+2. Selecteer de bouwsteengroep die u wilt exporteren en selecteer **Exporteren**.
+
+    > [!NOTE]
+    > Voor Finance and Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
+
+3. Selecteer de rapportdefinities die u wilt exporteren:
+
+    - Als u alle rapportdefinities en de bijbehorende bouwstenen wilt exporteren, selecteert u **Alles selecteren**.
+    - U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiesets exporteren door het gewenste tabblad te selecteren en vervolgens de te exporteren items te selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere artikelen op een tabblad te selecteren. Wanneer u rapporten selecteert om te exporteren, worden de bijbehorende rijen, kolommen, structuren en dimensiegroepen ook geselecteerd.
+
+4. Selecteer **Exporteren**.
+5. Voer een bestandsnaam in en selecteer de beveiligde locatie waar u de geëxporteerde rapportdefinities wilt opslaan.
+6. Selecteer **Opslaan**.
+
+U kunt het bestand naar een veilige locatie kopiëren of uploaden. Op deze manier kan het bestand later in een andere omgeving worden geïmporteerd. Informatie over het gebruik van een Microsoft Azure-opslagaccount vindt u in het onderwerp [Gegevensoverdracht met het opdrachtregelprogramma AzCopy](/azure/storage/storage-use-azcopy).
+
+> [!NOTE]
+> Microsoft biedt geen opslagaccount aan als onderdeel van uw Finance and Operations-abonnement. U moet een opslagaccount aanschaffen of een opslagaccount uit een separaat Azure-abonnement gebruiken.
+
 > [!WARNING]
-> Houd rekening met het gedrag van het station D in virtuele Azure-machines. Bewaar uw geëxporteerde bouwsteengroepen hier niet permanent. Zie voor meer informatie over tijdelijke schijven het onderwerp [Understanding the temporary drive on Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+> Houd rekening met het gedrag van het station D op virtuele Azure-machines (VM's). Sla uw geëxporteerde bouwsteengroepen niet permanent op station D op. Zie [Understanding the temporary drive on Windows Azure Virtual Machines](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/) voor meer informatie over tijdelijke stations.
 
-## <a name="stop-services"></a>Services afstoppen
-Maak via Extern bureaublad verbinding met alle computers in de omgeving en stop de volgende Windows-services af door middel van services.msc:
+### <a name="stop-services"></a>Services afstoppen
 
--   World Wide Web Publishing-service (op alle AOS-computers)
--   Microsoft Dynamics 365 for Finance and Operations Batch Management-service (alleen op niet-privé AOS-computers)
--   Management Reporter 2012 Process Service (alleen op BI-computers)
+De volgende Microsoft Windows-services hebben openstaande verbindingen met de Finance and Operations-database. Maak via Microsoft Extern bureaublad verbinding met alle computers in de omgeving en stop deze services met services.msc.
 
-Deze services hebben openstaande verbindingen met de Finance and Operations-database.
+- World Wide Web Publishing-service (op alle AOS-computers)
+- Microsoft Dynamics 365 for Finance and Operations Batch Management-service (alleen op niet-privé AOS-computers)
+- Management Reporter 2012 Process Service (alleen op BI-computers)
 
-## <a name="reset"></a>Opnieuw instellen
-### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>Zoek het meest recente pakket met MinorVersionDataUpgrade.zip en download het
+### <a name="reset"></a>Opnieuw instellen
 
-Zoek het meest recente pakket MinorVersionDataUpgrade.zip met de aanwijzingen in het onderwerp [Downloaden van het meest recente bruikbare pakket met gegevensupgrade](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). De instructies geven aan hoe u de juiste versie van het gegevensupgradepakket voor uw omgeving vindt en downloadt. Een upgrade is niet vereist voor het downloaden van het pakket MinorVersionDataUpgrade.zip. U hoeft alleen de stappen in de sectie 'Downloaden van het meest recente bruikbare pakket met gegevensupgrade' uit te voeren zonder de overige stappen in het artikel voor het ophalen van een kopie van het pakket MinorVersionDataUpgrade.zip.
+#### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Het meest recente pakket met MinorVersionDataUpgrade.zip downloaden
 
-### <a name="execute-scripts-against-finance-and-operations-database"></a>Scripts uitvoeren op de Finance and Operations-database
+Download het meest recente pakket met MinorVersionDataUpgrade.zip. Zie voor meer informatie over het zoeken en downloaden van de juiste versie van het gegevensupgradepakket [Downloaden van het meest recente bruikbare pakket met gegevensupgrade](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Een upgrade is niet vereist voor het downloaden van het pakket MinorVersionDataUpgrade.zip. U hoeft alleen maar de stappen in het gedeelte Downloaden van het meest recente bruikbare pakket met gegevensupgrade van dat onderwerp te volgen. U kunt de overige stappen in het onderwerp overslaan.
 
-Voer de volgende scripts uit op de Finance and Operations-database (niet op de database voor financiële rapportage).
+#### <a name="run-scripts-against-the-finance-and-operations-database"></a>Scripts uitvoeren op de Finance and Operations-database
 
--   DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
--   DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
+Voer de volgende scripts uit op de Finance and Operations-database (niet op de database voor financiële rapportage):
+
+- DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
+- DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
 
 Deze scripts zorgen ervoor dat de gebruikers, rollen en instellingen voor het bijhouden van wijzigingen juist zijn.
 
-### <a name="execute-powershell-command-to-reset-database"></a>PowerShell-opdracht uitvoeren om de database opnieuw in te stellen
+#### <a name="run-a-windows-powershell-command-to-reset-the-database"></a>Een Windows PowerShell-opdracht uitvoeren om de database opnieuw in te stellen
 
-Voer op de AOS-computer als beheerder de volgende opdrachten in PowerShell uit om de integratie tussen Finance and Operations en de financiële rapportage opnieuw in te stellen:
+Start Microsoft Windows PowerShell als beheerder op de AOS-computer en voer de volgende opdrachten uit om de integratie tussen Finance and Operations en Financial Reporting opnieuw in te stellen.
 
 ```
 F:
 cd F:\MRApplicationService\MRInstallDirectory
 Import-Module .\Server\MRDeploy\MRDeploy.psd1
-Reset-DatamartIntegration -Reason OTHER -ReasonDetail “<my reason for resetting>”
-
+Reset-DatamartIntegration -Reason OTHER -ReasonDetail "<reason for resetting>"
 ```
+
+Hier volgt een uitleg van de parameters in de opdracht **Reset-DatamartIntegration**:
+
+- De geldige waarden voor **-Reason** zijn **SERVICING**, **BADDATA** en **OTHER**.
+- Bij de parameter **-ReasonDetail** kunt u vrije tekst invoeren.
+- De reden en redengegevens worden vastgelegd in telemetrie/omgevingsbewaking.
+
 > [!NOTE]
-> Na uitvoering van de opdrachten wordt u gevraagd om 'J' in te voeren om te bevestigen.
+> Nadat u de opdrachten hebt uitgevoerd, wordt u gevraagd om **Y** in te voeren om te bevestigen dat u de database opnieuw wilt instellen.
 
-Uitleg van parameters:
+#### <a name="restart-services"></a>Services opnieuw starten
 
--   De geldige waarden voor -Reason zijn: SERVICING, BADDATA, OTHER.
--   Bij de parameter -ReasonDetail kunt u vrije tekst invoeren.
--   De waarden voor Reason en ReasonDetail worden vastgelegd in telemetrie/omgevingsbewaking.
-
-## <a name="start-services"></a>Services opstarten
 Start de services die u eerder hebt afgestopt opnieuw op door middel van services.msc:
 
--   World Wide Web Publishing-service (op alle AOS-computers)
--   Microsoft Dynamics 365 for Finance and Operations Batch Management-service (alleen op niet-privé AOS-computers)
--   Management Reporter 2012 Process Service (alleen op BI-computers)
+- World Wide Web Publishing-service (op alle AOS-computers)
+- Microsoft Dynamics 365 for Finance and Operations Batch Management-service (alleen op niet-privé AOS-computers)
+- Management Reporter 2012 Process Service (alleen op BI-computers)
 
-## <a name="import-report-definitions"></a>Rapportdefinities importeren
-Importeert uw rapportontwerpen vanuit de Report Designer, met behulp van het bestand dat bij het exporteren werd aangemaakt:
+#### <a name="import-report-definitions"></a>Rapportdefinities importeren
 
-1.  Ga in Report Designer naar **Bedrijf** &gt; **Bouwsteengroepen**.
-2.  Selecteer de bouwsteengroep die u wilt exporteren en klik op **Exporteren**. 
+Importeert uw rapportontwerpen vanuit Rapportontwerper met behulp van het bestand dat tijdens het exporteren is gemaakt.
+
+1. Selecteer in Rapportontwerper de optie **Bedrijf** &gt; **Bouwsteengroepen**.
+2. Selecteer de bouwsteengroep die u wilt exporteren en selecteer **Exporteren**.
 
     > [!NOTE]
     > Voor Finance and Operations wordt slechts één bouwsteengroep ondersteund, namelijk **Standaard**.
-    
-3.  Selecteer de bouwsteen **Standaard** en klik op **Importeren**.
-4.  Selecteer het bestand met de geëxporteerde rapportdefinities en klik op **Openen**.
-5.  Selecteer in het dialoogvenster Importeren de te importeren rapportdefinities:
-    -   Als u alle rapportdefinities en de ondersteunende bouwstenen wilt importeren, klikt u op **Alles selecteren**.
-    -   Om specifieke rapporten, rijen, kolommen, structuren of dimensiesets te importeren, selecteert u de te importeren rapporten, rijen, kolommen, structuren of dimensiesets.
 
-6.  Klik op **Importeren**.
+3. Selecteer de bouwsteen **Standaard** en selecteer **Importeren**.
+4. Selecteer het bestand met de geëxporteerde rapportdefinities en selecteer **Openen**.
+5. Selecteer in het dialoogvenster **Importeren** de rapportdefinities die u wilt importeren:
 
+    - Als u alle rapportdefinities en de bijbehorende bouwstenen wilt importeren, selecteert u **Alles selecteren**.
+    - Als u specifieke rapporten, rijen, kolommen, structuren of dimensiegroepen wilt importeren, selecteert u de rapporten, rijen, kolommen, structuren of dimensiegroepen die u wilt importeren.
 
+6. Selecteer **Importeren**.
 
+## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-on-premises"></a>De datamart voor financiële rapportage opnieuw instellen voor Finance and Operations (on-premises)
 
+1. Instrueer alle gebruikers om Rapportontwerper en het gedeelte Financiële rapportage van Finance and Operations af te sluiten.
+2. Voer het volgende script uit op de database voor financiële rapportage (MRDB).
+
+    ```
+    DECLARE @triggerIds table(id uniqueidentifier, taskTypeId uniqueidentifier)
+    INSERT INTO @triggerIds SELECT tr.[Id], tt.[Id]
+    FROM [Scheduling].[Task] t with(nolock)
+    JOIN [Scheduling].[Trigger] tr ON t.[TriggerId] = tr.[Id]
+    JOIN [Scheduling].[TaskState] ts ON ts.[TaskId] = t.[Id]
+    LEFT JOIN [Scheduling].[TaskCategory] tc ON tc.[Id] = t.[CategoryId]
+    JOIN [Scheduling].[TaskType] tt ON t.[TypeId] = tt.[Id]
+    WHERE tt.[Id] IN ('D81C1197-D486-4FB7-AF8C-078C110893A0', '55D3F71A-2618-4EAE-9AA6-D48767B974D8') -- 'Maintenance Task', 'Map Task'
+    PRINT 'Disable integration tasks'
+    UPDATE [Scheduling].[Trigger] SET IsEnabled = 0 WHERE [Id] in (SELECT id FROM @triggerIds)
+    ```
+
+3. U moet alle records uit de tabel FINANCIALREPORTS in de Finance and Operations-database (AXDB) afkappen of verwijderen.
+4. Als deze tabel aanwezig is, moet u alle records uit de tabel FINANCIALREPORTVERSION in de Finance and Operations-database (AXDB) afkappen of verwijderen. Als de tabel niet bestaat in de Finance and Operations-database, slaat u deze stap over.
+5. Voer het script **ResetDatamart.sql** uit op de database voor financiële rapportage. Met dit script wordt de datamartintegratie uitgeschakeld, worden alle datamartgegevens verwijderd en wordt de datamartintegratie opnieuw ingeschakeld.
+
+    ```
+    DECLARE @triggerIds table(id uniqueidentifier, taskTypeId uniqueidentifier)
+    INSERT INTO @triggerIds SELECT tr.[Id], tt.[Id]
+    FROM [Scheduling].[Task] t with(nolock)
+    JOIN [Scheduling].[Trigger] tr ON t.[TriggerId] = tr.[Id]
+    JOIN [Scheduling].[TaskState] ts ON ts.[TaskId] = t.[Id]
+    LEFT JOIN [Scheduling].[TaskCategory] tc ON tc.[Id] = t.[CategoryId]
+    JOIN [Scheduling].[TaskType] tt ON t.[TypeId] = tt.[Id]
+    WHERE tt.[Id] IN ('D81C1197-D486-4FB7-AF8C-078C110893A0', '55D3F71A-2618-4EAE-9AA6-D48767B974D8') -- 'Maintenance Task', 'Map Task'
+    PRINT 'Disable integration tasks'
+    UPDATE [Scheduling].[Trigger] SET IsEnabled = 0 WHERE [Id] in (SELECT id FROM @triggerIds)
+    ------------------------------
+    PRINT 'Drop archive tables'
+    ------------------------------
+    DECLARE @tableId nvarchar(max)
+    DECLARE dropCursor CURSOR LOCAL FAST_FORWARD FOR
+    SELECT Id FROM [Datamart].Archive
+    OPEN dropCursor
+    FETCH NEXT FROM dropCursor INTO @tableId
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES t WHERE t.TABLE_NAME = 'FactStaging' + @tableId and t.TABLE_SCHEMA = 'Datamart')
+        EXEC('DROP TABLE [Datamart].FactStaging' + @tableId)
+        IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES t WHERE t.TABLE_NAME = 'DimensionCombinationStaging' + @tableId and t.TABLE_SCHEMA = 'Datamart')
+        EXEC('DROP TABLE [Datamart].DimensionCombinationStaging' + @tableId)
+        FETCH NEXT FROM dropCursor INTO @tableId
+    END
+    CLOSE dropCursor
+    DEALLOCATE dropCursor
+    IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES t WHERE t.TABLE_NAME = 'DimensionCombinationProcessing' and t.TABLE_SCHEMA = 'Datamart')
+        EXEC('DROP TABLE [Datamart].DimensionCombinationProcessing')
+    ------------------------------
+    PRINT 'Begin Truncating tables'
+    ------------------------------
+    DECLARE @tablename nvarchar(200)
+    DECLARE @schemaname nvarchar(200)
+    DECLARE clear_tables CURSOR
+        FOR SELECT TABLE_NAME, TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'Datamart' AND TABLE_TYPE='BASE TABLE'
+    PRINT 'remove check constraints'
+    OPEN clear_tables
+    FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @tablename <> 'VersionHistory'
+        BEGIN
+        EXEC('ALTER TABLE [' + @schemaname + '].[' + @tablename + '] NOCHECK CONSTRAINT ALL')
+        END
+        FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    END
+    CLOSE clear_tables
+    ------------------------------
+    PRINT 'delete data from tables and rebuild indexes'
+    ------------------------------
+    OPEN clear_tables
+    FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @tablename <> 'VersionHistory'
+        BEGIN
+            IF(EXISTS (select TOP 1 1 from sys.foreign_keys where referenced_object_id = OBJECT_ID(@schemaname + '.' + @tablename)) OR
+            EXISTS(SELECT TOP 1 1 FROM sys.sql_expression_dependencies sed
+            INNER JOIN sys.objects o ON sed.referencing_id = o.[object_id]
+            WHERE o.[type] = 'V' 
+            AND referenced_schema_name = @schemaname
+            AND referenced_entity_name = @tablename))
+            BEGIN
+            PRINT 'deleting from ' + @tablename
+            EXEC('DELETE FROM [' + @schemaname + '].[' + @tablename + ']')
+            END
+            ELSE
+            BEGIN
+            PRINT 'truncating from ' + @tablename
+            EXEC('TRUNCATE TABLE [' + @schemaname + '].[' + @tablename + ']')
+            END
+        END
+        EXEC('ALTER INDEX ALL ON [' + @schemaname + '].[' + @tablename + '] REBUILD')
+        FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    END
+    CLOSE clear_tables
+    ------------------------------
+    PRINT 'reenable check constraints'
+    ------------------------------
+    OPEN clear_tables
+    FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @tablename <> 'VersionHistory'
+        BEGIN
+        EXEC('ALTER TABLE [' + @schemaname + '].[' + @tablename +'] WITH CHECK CHECK CONSTRAINT ALL')
+        END
+        FETCH NEXT FROM clear_tables INTO @tablename, @schemaname
+    END
+    CLOSE clear_tables
+    DEALLOCATE clear_tables
+    ------------------------------
+    PRINT 'Complete Truncating tables'
+    ------------------------------
+    ------------------------------
+    PRINT 'Remove indexes from DimensionCombination'
+    ------------------------------
+    DECLARE @indexname nvarchar(200)
+    DECLARE drop_indexes CURSOR
+    FOR SELECT Name FROM sys.indexes WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombination]') AND is_primary_key = 0
+    OPEN drop_indexes
+    FETCH NEXT FROM drop_indexes INTO @indexname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        EXEC('DROP INDEX [' + @indexname + '] on [Datamart].[DimensionCombination]')
+        FETCH NEXT FROM drop_indexes INTO @indexname
+    END
+    CLOSE drop_indexes
+    DEALLOCATE drop_indexes
+    ------------------------------
+    PRINT 'Drop Columns on DimensionCombination'
+    ------------------------------
+    DECLARE @objectname nvarchar(200)
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombination]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('Id', 'Description', 'SourceKey', 'OrganizationId', 'InactiveDimensions')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionCombination] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on DimensionCombinationResolving'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombinationResolving]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('Id', 'Description', 'SourceKey', 'OrganizationId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionCombinationResolving] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on DimensionCombinationStaging'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombinationStaging]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('Id', 'OrganizationId', 'Description', 'SourceKey', 'OrganizationKey', 'FreshnessDate')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionCombinationStaging] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on DimensionCombinationUnreferenced'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionCombinationUnreferenced]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('Id', 'Description', 'SourceKey', 'OrganizationId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionCombinationUnreferenced] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on DimensionValueAttributeValue'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[DimensionValueAttributeValue]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('DimensionValueId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[DimensionValueAttributeValue] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Drop Columns on FactAttributeValue'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[FactAttributeValue]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('FactId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[FactAttributeValue] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Remove constraints from TranslatedPeriodBalance'
+    ------------------------------
+    DECLARE @name nvarchar(200)
+    DECLARE drop_constraints CURSOR
+    FOR SELECT Name FROM sys.default_constraints WHERE parent_object_id = OBJECT_ID('[Datamart].[TranslatedPeriodBalance]')
+    OPEN drop_constraints
+    FETCH NEXT FROM drop_constraints INTO @name
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        EXEC('ALTER TABLE [Datamart].[TranslatedPeriodBalance] DROP CONSTRAINT [' + @name + ']')
+        FETCH NEXT FROM drop_constraints INTO @name
+    END
+    CLOSE drop_constraints
+    DEALLOCATE drop_constraints
+    ------------------------------
+    PRINT 'Drop Columns on TranslatedPeriodBalance'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[TranslatedPeriodBalance]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('PeriodId', 'DimensionsId', 'ScenarioId', 'FactType', 'PostingLayerId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[TranslatedPeriodBalance] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    ------------------------------
+    PRINT 'Remove constraints from TranslatedPeriodBalanceChanges'
+    ------------------------------
+    DECLARE drop_constraints CURSOR
+    FOR SELECT Name FROM sys.default_constraints WHERE parent_object_id = OBJECT_ID('[Datamart].[TranslatedPeriodBalanceChanges]')
+    OPEN drop_constraints
+    FETCH NEXT FROM drop_constraints INTO @name
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        EXEC('ALTER TABLE [Datamart].[TranslatedPeriodBalanceChanges] DROP CONSTRAINT [' + @name + ']')
+        FETCH NEXT FROM drop_constraints INTO @name
+    END
+    CLOSE drop_constraints
+    DEALLOCATE drop_constraints
+    ------------------------------
+    PRINT 'Drop Columns on TranslatedPeriodBalanceChanges'
+    ------------------------------
+    DECLARE drop_objects CURSOR
+    FOR SELECT Name FROM sys.columns WHERE object_id = OBJECT_ID('[Datamart].[TranslatedPeriodBalanceChanges]')
+    OPEN drop_objects
+    FETCH NEXT FROM drop_objects INTO @objectname
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        IF @objectname NOT IN ('PeriodId', 'DimensionsId', 'ScenarioId', 'FactType', 'PostingLayerId')
+        BEGIN
+        EXEC('ALTER TABLE [Datamart].[TranslatedPeriodBalanceChanges] DROP COLUMN ' + @objectname)
+        END
+        FETCH NEXT FROM drop_objects INTO @objectname
+    END
+    CLOSE drop_objects
+    DEALLOCATE drop_objects
+    -- Rebuild dropped indexes that are dynamic
+    EXEC [Datamart].ConfigureIndexesAndConstraints
+    ------------------------------------------
+    ------------------------------------------
+    PRINT 'Reset the map tokens'
+    UPDATE [Connector].[Map] SET InitalLoad = 0, ReaderToken=NULL, LastQuerySuccess='1900-01-01' WHERE MapId IN (SELECT t.[Id]
+    FROM [Scheduling].[Task] t with(nolock)
+    JOIN [Scheduling].[Trigger] tr ON t.[TriggerId] = tr.[Id]
+    JOIN [Scheduling].[TaskState] ts ON ts.[TaskId] = t.[Id]
+    LEFT JOIN [Scheduling].[TaskCategory] tc ON tc.[Id] = t.[CategoryId]
+    JOIN [Scheduling].[TaskType] tt ON t.[TypeId] = tt.[Id]
+    WHERE tt.[Id] = '55D3F71A-2618-4EAE-9AA6-D48767B974D8')
+    PRINT 'Reset the tasks'
+    UPDATE [Scheduling].[TaskState] SET StateType = 0, Progress = 0.0, LastRunTime = NULL, NextRunTime = NULL WHERE TaskId IN (SELECT ts.[TaskId]
+    FROM [Scheduling].[Task] t with(nolock)
+    JOIN [Scheduling].[Trigger] tr ON t.[TriggerId] = tr.[Id]
+    JOIN [Scheduling].[TaskState] ts ON ts.[TaskId] = t.[Id]
+    LEFT JOIN [Scheduling].[TaskCategory] tc ON tc.[Id] = t.[CategoryId]
+    JOIN [Scheduling].[TaskType] tt ON t.[TypeId] = tt.[Id]
+    WHERE tt.[Id] IN ('D81C1197-D486-4FB7-AF8C-078C110893A0', '55D3F71A-2618-4EAE-9AA6-D48767B974D8'))
+    PRINT 'Enable integration tasks, RunImmediately'
+    UPDATE [Scheduling].[Trigger] SET IsEnabled = 1, RunImmediately = 1, StartBoundary = '1900-01-01' 
+    WHERE Id in (SELECT [id] from @triggerIds WHERE taskTypeId = '55D3F71A-2618-4EAE-9AA6-D48767B974D8')
+    PRINT 'Enable the Maintenance Task'
+    UPDATE [Scheduling].[Trigger] SET IsEnabled = 1, RunImmediately = 0, StartBoundary = GETDATE() WHERE Id in
+    (SELECT [id] from @triggerIds WHERE taskTypeId = 'D81C1197-D486-4FB7-AF8C-078C110893A0')
+    ------------------------------------------
+    ------------------------------------------
+    ```
+
+6. Na het opnieuw instellen kunt u handmatig controleren of de gegevens opnieuw zijn geladen door de volgende query uit te voeren op de database voor financiële rapportage.
+
+    ```
+    select ReaderObjectName, WriterObjectName, LastRunTime, StateType from Connector.MapsWithDetail with (nolock)
+    ```
+
+    Controleer of alle rijen een waarde voor **LastRunTime** bevatten en of **StateType** is ingesteld op **5**. Wanneer voor **StateType** de waarde **5** wordt weergegeven, zijn de gegevens opnieuw geladen. Een waarde van **7** geeft een foutstatus aan. Soms heeft de toewijzing Organisatiehiërarchie deze status wanneer deze voor het eerst wordt uitgevoerd. Als het goed is, wordt de foutstatus automatisch opgelost.
 

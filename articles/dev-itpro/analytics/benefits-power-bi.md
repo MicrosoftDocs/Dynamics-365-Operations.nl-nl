@@ -3,7 +3,7 @@ title: Power BI-inhoud Vergoedingen
 description: In dit onderwerp wordt de Power BI-inhoud Vergoedingen besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21f7f77148728a6e7584af76ec053250f52bc73c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 25111ac7ae07e04bc81ac23a348464bcbe1393af
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ In dit onderwerp wordt de Microsoft Power BI-inhoud **Vergoedingen** besproken. 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
 De Power BI-inhoud **Vergoedingen** wordt weergegeven in het werkgebied **Vergoedingenbeheer** als u een van de volgende producten gebruikt:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
