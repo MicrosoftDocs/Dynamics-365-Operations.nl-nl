@@ -3,7 +3,7 @@ title: De Excel-invoegtoepassing gebruiken
 description: In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens bekijken, bijwerken en bewerken met behulp van de Microsoft Dynamics Office-invoegtoepassing voor Excel.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 11/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
-ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -104,6 +104,18 @@ Met de ontwerper kunt u de kolommen aanpassen die automatisch worden toegevoegd 
 
 4. Pas uw wijzigingen toe op de gegevensbron door **Bijwerken** te selecteren. Selecteer **Gereed** om de ontwerper af te sluiten.
 5. Als u een veld (kolom) hebt toegevoegd, selecteert u **Vernieuwen** om een bijgewerkte set gegevens op te halen.
+
+## <a name="copy-environment-data"></a>Gegevens van omgeving kopiëren
+
+De gegevens die vanuit de ene omgeving worden ingelezen in de werkmap, kunnen naar een andere omgeving worden gekopieerd. U kunt echter niet alleen de verbindings-URL wijzigen omdat de gegevenscache in de werkmap de gegevens dan blijft behandelen als bestaande gegevens. In plaats daarvan moet u de functie Gegevens van omgeving kopiëren om de gegevens naar een nieuwe omgeving te publiceren als nieuwe gegevens.
+
+1. Selecteer de knop **Opties** (tandwiel) en selecteer op het sneltabblad **Gegevensconnector** de optie **Gegevens van omgeving kopiëren**. 
+2. Geef de server-URL voor de nieuwe omgeving op. 
+3. Selecteer **OK** en vervolgens **Ja** om de actie te bevestigen. De Excel-invoegtoepassing wordt opnieuw gestart en maakt verbinding met de nieuwe omgeving. De bestaande gegevens in de werkmap worden behandeld als nieuwe gegevens.
+
+    Als de Excel-invoegtoepassing opnieuw is gestart, wordt in een berichtvenster aangegeven dat de werkmap zich in de modus voor omgeving kopiëren bevindt.
+
+4. Selecteer **Publiceren** om de gegevens in de nieuwe omgeving als nieuwe gegevens te kopiëren. Als u de bewerking voor het kopiëren van de omgeving wilt annuleren en de bestaande gegevens in de nieuwe omgeving wilt weergeven, selecteert u **Vernieuwen**.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 Er zijn enkele problemen die kunnen worden opgelost met enkele eenvoudige stappen.
