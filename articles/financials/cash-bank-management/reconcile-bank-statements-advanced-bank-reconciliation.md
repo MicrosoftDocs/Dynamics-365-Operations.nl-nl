@@ -3,7 +3,7 @@ title: Bankafschriften afstemmen via geavanceerde bankafstemming
 description: Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In dit onderwerp wordt het afstemmingsproces uitgelegd.
 author: saraschi2
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

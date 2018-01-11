@@ -3,7 +3,7 @@ title: Problemen oplossen met importeren van bankafschriftbestanden
 description: "Het is belangrijk dat het bankafschriftbestand van de bank overeenkomt met de indeling die wordt ondersteund in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Vanwege strikte normen voor bankafschriften zullen de meeste integratie correct functioneren. Soms kan echter het afschriftbestand niet worden geïmporteerd of geeft onjuiste resultaten. Doorgaans worden deze problemen veroorzaakt door kleine verschillen in het bankafschriftbestand. In dit artikel wordt uitgelegd hoe u deze verschillen kunt oplossen."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
