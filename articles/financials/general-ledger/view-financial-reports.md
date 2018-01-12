@@ -3,13 +3,13 @@ title: "Financiële rapporten weergeven"
 description: "In dit artikel wordt beschreven hoe u financiële rapporten kunt bekijken en verkennen in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen."
 author: kweekley
 manager: AnnBe
-ms.date: 06/08/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
