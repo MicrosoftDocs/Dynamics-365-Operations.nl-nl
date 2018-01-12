@@ -3,7 +3,7 @@ title: Rentepercentages instellen voor een rentecode
 description: Rentecodes bevatten instellingen die bepalen wanneer kosten voor de rente geheven worden en hoe deze berekend wordt op achterstallige rekeningen.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: c79b85f95ccb4164e33d6b559b23f740c555907f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/03/2017
 
 | <span data-ttu-id="759e4-165">**Veldnaam**</span><span class="sxs-lookup"><span data-stu-id="759e4-165">**Field name**</span></span>                  | <span data-ttu-id="759e4-166">**Veldwaarde**</span><span class="sxs-lookup"><span data-stu-id="759e4-166">**Field value**</span></span> |
 |---------------------------------|-----------------|
-| <span data-ttu-id="759e4-167">**Rentecode**</span><span class="sxs-lookup"><span data-stu-id="759e4-167">**Interest code**</span></span>               | <span data-ttu-id="759e4-168">*15DAmtXDay</span><span class="sxs-lookup"><span data-stu-id="759e4-168">15DAmtXDay</span></span>      |
+| <span data-ttu-id="759e4-167">**Rentecode**</span><span class="sxs-lookup"><span data-stu-id="759e4-167">**Interest code**</span></span>               | <span data-ttu-id="759e4-168">\*15DAmtXDay</span><span class="sxs-lookup"><span data-stu-id="759e4-168">15DAmtXDay</span></span>      |
 | <span data-ttu-id="759e4-169">**Bereken rente elke**</span><span class="sxs-lookup"><span data-stu-id="759e4-169">**Calculate interest every**</span></span>    | <span data-ttu-id="759e4-170">15/dag</span><span class="sxs-lookup"><span data-stu-id="759e4-170">15/Day</span></span>          |
 | <span data-ttu-id="759e4-171">**Rente per bereik**</span><span class="sxs-lookup"><span data-stu-id="759e4-171">**Interest by range**</span></span>           | <span data-ttu-id="759e4-172">Dagen</span><span class="sxs-lookup"><span data-stu-id="759e4-172">Days</span></span>            |
 | <span data-ttu-id="759e4-173">**Rente berekenen op basis van**</span><span class="sxs-lookup"><span data-stu-id="759e4-173">**Calculate interest based on**</span></span> | <span data-ttu-id="759e4-174">Bedrag</span><span class="sxs-lookup"><span data-stu-id="759e4-174">Amount</span></span>          |

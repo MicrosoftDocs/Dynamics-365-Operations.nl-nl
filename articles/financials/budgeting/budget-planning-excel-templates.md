@@ -3,7 +3,7 @@ title: Budgetplanningssjablonen voor Excel
 description: In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 747e57b11c13f71c672d43531255751ff273f57c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -92,7 +92,7 @@ ms.lasthandoff: 11/03/2017
 > [!NOTE] 
 > <span data-ttu-id="93743-154">Als u de formule wilt definiëren, maakt u de formule in de spreadsheet en kopieert u deze naar het venster **Ontwerp**.</span><span class="sxs-lookup"><span data-stu-id="93743-154">To define the formula, create the formula in the spreadsheet, and then copy it to the **Design** window.</span></span> <span data-ttu-id="93743-155">Een aan Finance and Operations gerelateerde tabel heeft meestal de naam 'AXTable1'.</span><span class="sxs-lookup"><span data-stu-id="93743-155">A Finance and Operations bound table will typically be named "AXTable1".</span></span> <span data-ttu-id="93743-156">Om bijvoorbeeld de kolommen Aanvraag KW1-Aanvraag KW4 in de spreadsheet samen te vatten, is de formule als volgt: AxTable1\[Aanvraag KW1\]+ AxTable1\[Aanvraag KW2\]+ AxTable1\[Aanvraag KW3\]+ AxTable1\[Aanvraag KW4\].</span><span class="sxs-lookup"><span data-stu-id="93743-156">For example, to summarize Request Q1 : Request Q4 columns in the spreadsheet, the formula = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].</span></span>
 
-<span data-ttu-id="93743-157">Herhaal deze stappen om de kolom **Correctie** in te voegen.</span><span class="sxs-lookup"><span data-stu-id="93743-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="93743-158">Gebruik formule = AxTable1\[Totale aanvraag\]\*$I$1 voor deze kolom.</span><span class="sxs-lookup"><span data-stu-id="93743-158">Use formula = AxTable1\[Total request\]\*$I$1 for this column.</span></span> <span data-ttu-id="93743-159">Hiermee wordt de waarde in cel I1 gebruikt en worden de waarden in de kolom **Totale aanvraag** vermenigvuldigd om correctiebedragen te berekenen.</span><span class="sxs-lookup"><span data-stu-id="93743-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
+<span data-ttu-id="93743-157">Herhaal deze stappen om de kolom **Correctie** in te voegen.</span><span class="sxs-lookup"><span data-stu-id="93743-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="93743-158">Gebruik formule = AxTable1\[Totale aanvraag\]\\*$I$1 voor deze kolom.</span><span class="sxs-lookup"><span data-stu-id="93743-158">Use formula = AxTable1\[Total request\]\\*$I$1 for this column.</span></span> <span data-ttu-id="93743-159">Hiermee wordt de waarde in cel I1 gebruikt en worden de waarden in de kolom **Totale aanvraag** vermenigvuldigd om correctiebedragen te berekenen.</span><span class="sxs-lookup"><span data-stu-id="93743-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
 
 <span data-ttu-id="93743-160">Sla het Excel-bestand op en sluit het.</span><span class="sxs-lookup"><span data-stu-id="93743-160">Save and close the Excel file.</span></span> <span data-ttu-id="93743-161">Keer terug naar Finance and Operations en klik in **Indelingen** op **Sjabloon &gt; Uploaden** om de opgeslagen Excel-sjabloon te uploaden die moet worden gebruikt voor het budgetplan.</span><span class="sxs-lookup"><span data-stu-id="93743-161">Return to Finance and Operations, and in **Layouts**, click **Template &gt; Upload** to upload the saved Excel template to be used for the budget plan.</span></span> 
 

@@ -3,7 +3,7 @@ title: Werkgebied voor bankbeheer
 description: Dit onderwerp bevat informatie over het werkgebied Bankbeheer. Dit werkgebied bevat informatie die is gerelateerd aan bedrijfsbankrekeningen en bevat een overzichtsweergave en een analysepagina. De overzichtsweergave bevat overzichtstegels, bankrekeninggegevens, een saldodiagram en gerelateerde informatie. De pagina Analyses gebruikt de mogelijkheden van Microsoft Power BI om visuele elementen te tonen die betrekking hebben op bankrekeningsaldi.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/18/2018
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
-ms.openlocfilehash: 8a5ea79584a51661647f6abed42d05c4f355b620
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: a090d5deef80260858413fa49011b983c6bf4b20
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/12/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="1dc8b-106">Werkgebied voor bankbeheer</span><span class="sxs-lookup"><span data-stu-id="1dc8b-106">Bank management workspace</span></span>
