@@ -3,7 +3,7 @@ title: Budgetplanning
 description: "Het doel van dit lab is om Microsoft Dynamics 365 for Finance and Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.  Dit lab is specifiek gericht op de volgende bedrijfsprocessen of taken: - Een organisatiehiërarchie maken voor budgetplanning en gebruikersbeveiliging configureren - Budgetplanningscenario's, budgetplanningskolommen, indelingen en Excel-sjablonen definiëren - Budgetplanningsproces maken en activeren - Een budgetplanningsdocument maken door werkelijke waarden uit het grootboek te halen - Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen - Gegevens voor budgetplanningsdocumenten bewerken in Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

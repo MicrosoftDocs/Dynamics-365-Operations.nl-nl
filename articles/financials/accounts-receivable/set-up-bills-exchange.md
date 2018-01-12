@@ -3,7 +3,7 @@ title: Wissels instellen
 description: In dit onderwerp worden de stappen beschreven voor het instellen van wissels.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

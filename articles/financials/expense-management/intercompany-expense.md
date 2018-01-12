@@ -3,7 +3,7 @@ title: Intercompany-onkosten
 description: "Een werknemer die werkzaam is bij één rechtspersoon in een organisatie, voert mogelijk werk uit voor een andere rechtspersoon in dezelfde organisatie. In deze situatie kunt u de functie IC-kosten gebruiken om de onkosten van voor de werknemer toe te wijzen aan de rechtspersoon voor wie het werk is uitgevoerd."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

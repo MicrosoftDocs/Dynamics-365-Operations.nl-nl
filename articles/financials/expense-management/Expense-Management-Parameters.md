@@ -3,7 +3,7 @@ title: Parameters onkostenbeheer
 description: De volgende parameters bepalen de werking in Onkostenbeheer.
 author: KimANelson
 manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

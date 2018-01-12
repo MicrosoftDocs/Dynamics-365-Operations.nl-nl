@@ -3,14 +3,14 @@ title: Creditcardtransacties importeren en onderhouden
 description: "In dit onderwerp wordt uitgelegd hoe u onkostengerelateerde creditcardtransacties importeert en onderhoudt. Deze transacties kunt u zo instellen dat deze automatisch periodiek worden geïmporteerd of u kunt de transacties handmatig invoeren wanneer dit nodig is."
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global

@@ -3,7 +3,7 @@ title: Kredietbrieven
 description: Kredietbrieven zijn bankdocumenten die vaak worden gebruikt voor de inkoop en verkoop van goederen over de internationale grenzen heen.
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
