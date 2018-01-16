@@ -1,7 +1,8 @@
 # [Ontwikkeling en beheer voor Dynamics 365 for Finance and Operations](index.md)
 # [Systeemvereisten voor cloudimplementaties](../fin-and-ops/get-started/system-requirements.md)
-# [Systeemvereisten voor on-premises-implementaties](../fin-and-ops/get-started/system-requirements-on-prem.md)
+# [Systeemvereisten voor on-premises implementaties](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Demogegevens](../fin-and-ops/get-started/demo-data.md)
+## [Demogegevens met pakketten genereren](data-entities/generate-demo-data-packages.md)
 
 
 # [Ontwikkelen en aanpassen met Visual Studio](dev-tools/developer-home-page.md)
@@ -28,7 +29,7 @@
 ### [Een model exporteren en importeren](dev-tools/models-export-import.md)
 ### [Metagegevens zoeken in Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modellen](dev-tools/models.md)
-### [Projecten in Dynamics 365 for Finance and Operations, Enterprise Edition](dev-tools/projects.md)
+### [Projecten in Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
 ### [Invoegtoepassingen met hulpmiddelen voor Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Modelaanpassingen uitschakelen en functionaliteit afschaffen](dev-tools/lock-models.md)
 ### [Visual Studio-ontwikkelprogramma's bijwerken](dev-tools/update-development-tools.md)
@@ -160,8 +161,8 @@
 ### [Navigatie maken](user-interface/build-navigation.md)
 ### [Een werkgebied toevoegen](user-interface/build-workspace.md)
 ## Formulieren
-### [Navigatie in Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-navigation.md)
-### [Indeling in Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-layout.md)
+### [Navigatie in Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
+### [Indeling in Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
 ### [Symboollettertype](user-interface/symbol-font.md)
 ### [Formulieren met aangepaste patronen testen](user-interface/testing-forms-custom-patterns.md)
 ### [Diepe koppelingen maken en gebruiken](user-interface/create-deep-links.md)
@@ -358,10 +359,11 @@
 ## Gegevensintegratie-API's
 ### [API voor gegevensbeheerpakket](data-entities/data-management-api.md)
 ### [Service-eindpunten](data-entities/services-home-page.md)
-#### [Problemen oplossen met serviceverificatie](data-entities/troubleshoot-service-authentication.md)
+#### [Problemen met serviceverificatie oplossen](data-entities/troubleshoot-service-authentication.md)
 ### [OData](data-entities/odata.md)
 ### [Aangepaste services](data-entities/custom-services.md)
 ### [Terugkerende integraties](data-entities/recurring-integrations.md)
+### [Hulpprogramma's voor servicetests van derden gebruiken met services](data-entities/third-party-service-test.md)
 
 ## Ontwikkeling voor integratie
 ### [Gegevensintegratie met gegevensentiteiten](data-entities/data-management-integration-data-entity.md)
@@ -395,11 +397,12 @@
 ### [Configuratie gegevensprojecten](data-entities/configuration-data-projects.md)
 ### [Pakketten met configuratiegegevens](data-entities/configuration-data-packages.md)
 ### [Configuratiegegevens kopiëren tussen bedrijven](data-entities/copy-configuration.md)
-### [Gegevenssjablonen voor configuratie](data-entities/configuration-data-templates.md)
+### [Sjablonen voor configuratiegegevens](data-entities/configuration-data-templates.md)
+### [Gegevenssjablonen met meerdere werkbladen](data-entities/excel-template-multiple.md)
 ### [Wijzigingen in een entiteit bijhouden](data-entities/entity-change-track.md)
 
-## Standaard gegevensentiteiten
-### [Gegevensentiteiten rapporteren](data-entities/data-entities-report.md)
+## Standaardgegevensentiteiten
+### [Rapport Gegevensentiteiten](data-entities/data-entities-report.md)
 ### [Gegevensentiteiten: leveranciers en belastingen](data-entities/data-entities-accounts-payable-taxes.md)
 ### [Gegevensentiteiten: klanten](data-entities/data-entities-accounts-receivable.md)
 ### [Gegevensentiteiten: bank](data-entities/data-entities-bank.md)
@@ -501,13 +504,16 @@
 
 ## [On-premises implementatie](deployment/on-premises-deployment-landing-page.md)
 ### [Overzicht on-premises](deployment/on-premises-overview.md)
+### [Planning voor uw on-premises implementatie](deployment/plan-onprem-deployment.md)
 ### [Omvang van hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Een on-premises project maken](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [On-premises omgevingen instellen en implementeren](deployment/setup-deploy-on-premises-environments.md)
 ### [Aangepaste modellen ontwikkelen voor on-premises omgevingen](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Updates toepassen op een on-premises implementatie](deployment/apply-updates-on-premises.md)
 ### [Een on-premises implementatie opnieuw implementeren](deployment/redeploy-on-prem.md)
-### [Problemen oplossen voor Dynamics 365 for Finance and Operations, Enterprise edition on-premises](deployment/troubleshoot-on-prem.md)
+### [De lokale agent bijwerken](lifecycle-services/update-local-agent.md)
+### [Uw omgeving opnieuw configureren](lifecycle-services/reconfigure-environment.md)
+### [Problemen met Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) oplossen](deployment/troubleshoot-on-prem.md)
 
 ## Aangepaste code implementeren
 ### [Een implementeerbaar pakket maken](deployment/create-apply-deployable-package.md)
@@ -567,7 +573,7 @@
 # [Systeembeheer](sysadmin/system-administration-home-page.md)
 ## [Maandelijkse updates platform-FAQ](sysadmin/faq-platform-monthly-updates.md)
 ## [Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie](sysadmin/legal-terms-privacy-statement.md)
-## [Licentiecodes en configuratiesleutels rapporteren](sysadmin/license-codes-configuration-keys-report.md)
+## [Rapport Licentiecodes en configuratiesleutels](sysadmin/license-codes-configuration-keys-report.md)
 ## [Delen van gegevens tussen bedrijven](sysadmin/cross-company-data-sharing.md)
 ## [Onderhoudsmodus](sysadmin/maintenance-mode.md)
 ## [Vooraf geconfigureerde systeemrekeningen](sysadmin/pre-configured-system-accounts.md)
@@ -695,10 +701,10 @@
 ## [Aanvraag voor sandbox-database vernieuwen](database/database-refresh.md)
 
 # Ondersteuning
-## [Ondersteuning krijgen voor Dynamics 365 for Finance and Operations, Enterprise Edition en Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Ondersteuning krijgen voor Dynamics 365 for Finance and Operations, Enterprise edition en Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Een ticket voor eersteklas ondersteuning registreren](lifecycle-services/premier-support.md)
 ## [Een aanvraag indienen bij het Dynamics Service-engineeringteam](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Technische ondersteuning instellen voor Dynamics 365 for Finance and Operations, Enterprise Edition](lifecycle-services/support-experience.md) 
+## [Technische ondersteuning instellen voor Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
 ## [FAQ over gepland onderhoudsvenster](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Cloudbewerkingen en -services](lifecycle-services/cloud-operations-servicing.md)
 ## [Ervaringen met Finance and Operations-ondersteuning beheren](lifecycle-services/cloud-powered-support-lcs.md)
