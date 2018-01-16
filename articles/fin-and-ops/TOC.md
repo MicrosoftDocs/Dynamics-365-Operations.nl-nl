@@ -17,14 +17,15 @@
 ##### [Finance and Operations (on-premises) aanschaffen](get-started/purchase-on-premises.md)
 
 ### [Wat is nieuw of gewijzigd](get-started/whats-new-changed.md)
-#### [Afgeschafte functies](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [Verwijderde of verouderde functies](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [AX 2012-functies die zijn uitgesteld](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
-#### [Functies die niet zijn geïmplementeerd in On-premises implementaties](get-started/features-not-implemented-on-prem.md)
-#### [Lifecycle-beleid](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Functies die niet zijn geïmplementeerd in on-premises implementaties](get-started/features-not-implemented-on-prem.md)
+#### [Releases en lifecycle-beleid](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platformupdate 12 (november 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platformupdate 11 (oktober 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platformupdate 10 (augustus 2017)](get-started/whats-new-platform-update-10.md)
-#### [Finance and Operations, Enterprise Edition (juli 2017)](get-started/whats-new-application-July-2017-update.md)
+#### [Finance and Operations, Enterprise edition (juli 2017)](get-started/whats-new-application-July-2017-update.md)
 #### [Platformupdate 9 (juli 2017)](get-started/whats-new-platform-update-9.md)
 #### [Platformupdate 8 (juni 2017)](get-started/whats-new-platform-update-8.md)
 #### [Platformupdate 7 (mei 2017)](get-started/whats-new-platform-update-7.md)
@@ -141,7 +142,7 @@
 #### [API voor gegevensbeheerpakket](../dev-itpro/data-entities/data-management-api.md)
 #### [Service-eindpunten](../dev-itpro/data-entities/services-home-page.md)
 ##### [Problemen oplossen met serviceverificatie](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [Aangepaste services](../dev-itpro/data-entities/custom-services.md)
 #### [Terugkerende integraties](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -178,13 +179,14 @@
 
 ### [Gegevensentiteiten](../dev-itpro/data-entities/data-entities.md)
 
-#### [Configuratie gegevensprojecten](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [Pakketten met configuratiegegevens](../dev-itpro/data-entities/configuration-data-packages.md)
+#### [Configuratiegegevensprojecten](../dev-itpro/data-entities/configuration-data-projects.md)
 #### [Configuratiegegevens kopiëren tussen bedrijven](../dev-itpro/data-entities/copy-configuration.md)
-#### [Gegevenssjablonen voor configuratie](../dev-itpro/data-entities/configuration-data-templates.md)
+##### [Configuratiegegevenspakketten (alleen voor de release van juli 2017)](../dev-itpro/data-entities/configuration-data-packages.md)
+#### [Sjablonen voor configuratiegegevens](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [Wijzigingen in een entiteit bijhouden](../dev-itpro/data-entities/entity-change-track.md)
 
-### Standaard gegevensentiteiten
+### Standaardgegevensentiteiten
 #### [Gegevensentiteiten rapporteren](../dev-itpro/data-entities/data-entities-report.md)
 #### [Gegevensentiteiten: leveranciers en belastingen](../dev-itpro/data-entities/data-entities-accounts-payable-taxes.md)
 #### [Gegevensentiteiten: klanten](../dev-itpro/data-entities/data-entities-accounts-receivable.md)
@@ -644,11 +646,16 @@
 ##### [Chinese boekstukken instellen](../financials/localizations/tasks/set-up-chinese-vouchers.md)
 ##### [Toewijzing van afschrijving van vaste activa instellen](../financials/localizations/tasks/fixed-asset-depreciation-allocation.md)
 ##### [Negatieve debet credit instellen ](../financials/localizations/apac-chn-negative-debits-credits.md)
-##### [Logboek met gebruikerbewerkingen per Chinese werkregel](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
-##### [FAQ over btw bij klantfacturen](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+##### [Logboek met gebruikersbewerkingen per Chinese werkregel](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
+##### [Veelgestelde vragen over btw in klantfacturen](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### India
+##### [Overzicht van belastingberekenfunctie](../financials/general-ledger/tax-engine.md)
+##### [Integratie van belastingberekenfunctie](../financials/general-ledger/tax-engine-integration.md)
+##### [De belastingberekenfunctie uitbreiden](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Japan
-##### [Een vast activum aanschaffen en er de overheidssubsidie voor aanvragen](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
+##### [Een vast activum aanschaffen en de overheidssubsidie aanvragen](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
 ##### [Een vast activum aanschaffen met de verplichtingen van activapensionering](../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md)
 ##### [Een raming van verplichting van activumpensionering aanpassen](../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md)
 ##### [Boekwaarde van gedeeld activum en goodwill toewijzen aan kasstroomgenererende eenheden](../financials/localizations/tasks/allocate-carrying-amount.md)
@@ -1214,7 +1221,8 @@
 #### [Metrische gegevens personeel](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
 ### Documenten rapporteren en afdrukken
-#### [Overzicht van documentrapportservices](../dev-itpro/analytics/document-reporting-services.md)
+#### [Overzicht van Document Reporting Services](../dev-itpro/analytics/document-reporting-services.md)
+#### [Netwerkprinterapparaten installeren in on-premises omgevingen](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [SSRS configureren voor een on-premises implementatie](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [Afdrukken](../dev-itpro/analytics/print-documents.md)
 ##### [De documentrouteringsagent installeren om netwerkprinterapparatuur in te schakelen](../dev-itpro/analytics/install-document-routing-agent.md)
@@ -1256,7 +1264,7 @@
 ##### [Indeling maken voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-document-management-files-3.md)
 ##### [Indeling uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-document-management-files-4.md)
 ##### [Indeling wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-document-management-files-5.md)
-##### [Elektronische documenten genereren voor betalingen met een indelingsconfiguratie voor elektronische aangifte](../dev-itpro/analytics/tasks/er-electronic-payments.md) (taakbegeleiding)
+##### [Elektronische documenten genereren voor betalingen met een indelingsconfiguratie voor elektronische aangifte](../dev-itpro/analytics/tasks/er-electronic-payments.md)
 ##### [Gegevensmodel ontwerpen voor gebruik van financiële dimensies als gegevensbron voor elektronische aangifte](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md)
 ##### [Modellen toewijzen voor gebruik van financiële dimensies als gegevensbron voor elektronische aangifte](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md)
 ##### [Een rapport ontwerpen voor gebruik van financiële dimensies als gegevensbron voor elektronische aangifte](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md)
@@ -1285,35 +1293,33 @@
 ##### [Gegevensmodeldefinitie selecteren tijdens het maken van de indeling voor elektronische aangifte](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-upgrade-format.md)
 ##### [Een configuratie uploaden naar Lifecycle Services voor elektronische aangifte](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [API voor raamwerk voor elektronische aangifte is gewijzigd in toepassingsupdate 7.3](../dev-itpro/analytics/er-apis-app73.md)
 
-### Analysehulpmiddelen en visualisaties
-#### [Analyses, samengevoegde metingen en KPI-model](../dev-itpro/analytics/analytics.md)
+### Ingesloten analytische oplossingen
+#### [Ingesloten Power BI in werkgebieden](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [Integratie met Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### Aanpassingsopties met PowerBI.com
+#### [Power BI-integratie](../dev-itpro/analytics/power-bi-integration.md)
+#### [Power BI-rapporten vastmaken aan werkgebieden](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Hulpmiddelen voor het maken en uitbreiden van oplossingen
+#### [Analyses, samengevoegde metingen en KPI-modellen](../dev-itpro/analytics/analytics.md)
+#### [Analytische rapporten opstellen met Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [Gegevens modelleren en samenvoegen](../dev-itpro/analytics/model-aggregate-data.md)
 #### [Financiële dimensies toevoegen aan samengevoegde metingen](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [Contextuele BI toevoegen aan formulieren](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [Rapport met samengevoegde metingen](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [Rapport samengevoegde gegevensentiteiten](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [Rapport Key performance indicator (KPI.md)](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [Power BI-integratie](../dev-itpro/analytics/power-bi-integration.md)
-#### [Toegang tot Power BI-inhoud](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [Een Power BI-rapport en -dashboard maken](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [Een Power BI-rapport maken met Finance and Operations-gegevens](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [Power BI-integratie voor werkgebieden configureren](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [Integratie met Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [Ingesloten Power BI in werkgebieden](../dev-itpro/analytics/embed-power-bi-workspaces.md)
-#### [Analyses aan werkgebieden toevoegen met behulp van Power BI Embedded](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
-#### [Beveiligde analytische werkgebieden en rapporten helpen beveiligen met behulp van Power BI Embedded](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [Power BI toevoegen aan werkgebieden](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [Power BI-rapporten vastmaken in werkgebieden](../dev-itpro/analytics/pin-power-bi-reports.md)
+#### [Analyses aan werkgebieden toevoegen met Power BI Embedded](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
+#### [Analytische werkgebieden en rapporten beveiligen met Power BI Embedded](../dev-itpro/analytics/secure-analytical-workspaces.md)
+
+### Hulpmiddelen voor gebruikersbeheer
 #### [Power BI-integratie met Entiteitopslag](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [Power BI-integratie voor werkgebieden configureren](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [Uw eigen database gebruiken](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [Analytische rapporten opstellen met Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [Analytische toepassingen publiceren op Power BI](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [Voorraadbeheer](../supply-chain/inventory/inventory-home-page.md)
-### [Overzicht ontvangsten](../supply-chain/inventory/arrival-overview.md)
-### [Een overzichtsprofiel voor artikelontvangsten instellen (taakbegeleiding)](../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md)
+### [Ontvangstoverzicht](../supply-chain/inventory/arrival-overview.md)
+### [Een aankomstoverzichtsprofiel instellen voor een artikel (taakbegeleiding)](../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md)
 ### [Proces voor kwaliteitsbeheer](../supply-chain/inventory/quality-management-processes.md)
 ### [Kwaliteitsbeheer inschakelen](../supply-chain/inventory/enable-quality-management.md)
 ### [Beheer van niet-conformering](../supply-chain/inventory/enable-nonconformance-management.md)
@@ -1360,12 +1366,13 @@
 #### [Behoefteplanningsinstellingen](../supply-chain/master-planning/coverage-settings.md)
 #### [Behoefteplanningsregels voor artikelen definiëren (taakbegeleiding)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
 #### [Een plan met beperkingen genereren (taakbegeleiding)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [Een materiaalplan voor co-producten maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [Een materiaalplan voor coproducten maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [Geplande orders onderhouden](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Veiligheidsvoorraad verwerken](../supply-chain/master-planning/safety-stock-replenishment.md)
 #### [Vertragingen verwerken](../supply-chain/master-planning/delays.md)
 #### [Een explosie traceren](../supply-chain/master-planning/trace-explosion.md)
 #### [Actieberichten](../supply-chain/master-planning/action-messages.md)
-#### [De hoofdplanningsuitvoering controleren (taakbegeleiding)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [Een hoofdplanningsuitvoering controleren (taakbegeleiding)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
 #### [Een planning voor een vestiging maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-schedule-site.md)
 #### [Een plan voor een vestiging maken (taakbegeleiding)](../supply-chain/master-planning/tasks/create-plan-site.md)
 #### [Hoofdplannen en de functionaliteit voor meerdere locaties](../supply-chain/master-planning/master-plan-multisite-functionality.md)
@@ -1438,6 +1445,8 @@
 #### [Samenwerking met leveranciers instellen en onderhouden](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
 #### [Gebruikers van leverancierssamenwerking beheren](../supply-chain/procurement/manage-vendor-collaboration-users.md)
 #### [Leveranciersrekeningen instellen](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Configuraties voor leveranciersaanvragen](../supply-chain/procurement/vendor-request-configurations.md)
+#### [Onboarding van leveranciers](../supply-chain/procurement/vendor-onboarding.md)
 #### [Leverancierssamenwerking met externe leveranciers](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Leverancierssamenwerking met klanten](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [Externe catalogus instellen voor PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1550,7 +1559,9 @@
 #### Productietaken uitvoeren
 ##### [Productieorders maken](../supply-chain/production-control/create-production-orders.md)
 ##### [Productieorders vrijgeven](../supply-chain/production-control/release-production-orders.md)
-##### [De productieorderstatus omkeren](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Inzicht in materiaaluitzonderingen](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [Stuklijst- en formuleregels vrijgeven aan het magazijn](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[De productieorderstatus omkeren](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [Materiaalverbruik registeren met een mobiel apparaat](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [Het grondstoffenverbruik beheren door middel van wisprincipes](../supply-chain/production-control/flushing-principles.md) 
 ##### [Cross-docken van productieorders naar outbound docks](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [Registratie voor productieregistratie](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Productiefeedback](../supply-chain/production-control/production-feedback.md)
 ##### [Tijd- en aanwezigheidsregistratie](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Verzuimregistratie in Tijd en aanwezigheid](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Verzuimregistratie in Tijd en aanwezigheid](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### Financiële gegevens in productie beheren
 ##### [Tijd toewijzen aan taken in een takenbundel](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Materiaalverbruik berekenen](../supply-chain/production-control/consumption.md)
@@ -1685,7 +1696,8 @@
 #### [Een nieuw product maken (taakbegeleiding)](../supply-chain/pim/tasks/create-new-product.md)
 #### [Een productmodel maken (taakbegeleiding)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Vooraf gedefinieerde productvarianten maken (taakbegeleiding)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
-#### [Een vrijgegeven product maken voor een enkel bedrijf (taakbegeleiding)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Een vrijgegeven product maken voor één bedrijf (taakbegeleiding)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Status van productlevenscyclus](../supply-chain/pim/product-lifecycle.md)
 #### [Een streepjescode voor een product maken (taakbegeleiding)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [De GTIN-code invoeren voor een product (taakbegeleiding)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Batchkenmerken maken voor een product (taakbegeleiding)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,8 +1812,9 @@
 ### [Transportbeperkingen voor een artikel instellen](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [Magazijnbeheer](../supply-chain/warehousing/warehouse-management-overview.md)
-### [Magazijnconfiguratie](../supply-chain/warehousing/warehouse-configuration.md) 
-#### [Werk beheren met behulp van sjablonen en locatierichtlijnen](../supply-chain/warehousing/control-warehouse-location-directives.md)
+### [Magazijnconfiguratie](../supply-chain/warehousing/warehouse-configuration.md)
+#### [Een magazijn instellen op basis van een magazijnconfiguratiesjabloon](../supply-chain/inventory/warehouse-template.md)
+#### [Werk beheren op basis van sjablonen en locatie-instructies](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Maateenheid en opslagbeleid](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Power BI-inhoud magazijn](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Systeem groeperen op een geopende werklijst](../supply-chain/warehousing/system-group-on-open-work-list.md)

@@ -43,7 +43,8 @@
 ## [Een detailhandelhardwarestation configureren en installeren](retail-hardware-station-configuration-installation.md)
 ## [Tijd en aanwezigheid in Retail](retail-time-attendance.md)
 
-# Modern point-of-sale (MPOS) en Cloud POS
+# MPOS (Modern Point Of Sale) en Cloud POS
+## [Kiezen tussen Modern POS en Cloud POS](MPOS-or-CPOS.md)
 ## [POS-bewerkingen](POS-operations.md)
 ## [Indelingen voor scherm met demogegevens in MPOS/CPOS](demo-data.md)
 ## Hardware randapparatuur
@@ -76,6 +77,11 @@
 ### [Ontvangstbewijssjablonen instellen](receipt-templates-printing.md) 
 ### [E-mailontvangstbewijzen verzenden vanuit MPOS](email-receipts.md)
 ## [Taakrecorder en Help voor POS](task-recorder-retail-pos.md)
+
+# Orderafhandeling
+## [Overzicht van afhandeling van winkelorders](Order-fulfillment-overview.md)
+## [Afhandeling in de winkel instellen](Order-fulfillment-POS-setup.md)
+## [Meldingen in het verkooppunt inschakelen](Notifications-POS.md)
 
 # Bewaking en analyse
 ## [Verkoop- en margeprestaties bewaken](monitor-sales-margin-performance.md)
@@ -171,7 +177,7 @@
 # [Ontwikkeling en beheer voor Retail](dev-itpro/dev-retail-home-page.md)
 
 ## Architectuur
-### [Onderdelen van Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition - Retail](retail-components.md)
+### [Onderdelen van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - Retail](retail-components.md)
 ### [Architectuur van Retail-server](dev-itpro/retail-server-architecture.md)
 ### [Communicatie detailhandelafzetkanaal](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS-architectuur](dev-itpro/retail-modern-pos-architecture.md)
@@ -257,9 +263,11 @@
 ### [Bestaande POS-weergaven uitbreiden om aangepaste kolommen en knoppen op de appbalk toe te voegen](dev-itpro/pos-view-extension.md)
 ### [Aangepaste besturingselementen toevoegen aan Retail Modern POS-transactiepagina's](dev-itpro/pos-custom-transaction.md)
 ### [Aangepaste kolommen toevoegen aan een POS-transactieraster](dev-itpro/pos-custom-transaction-column.md)
-### [Een POS-API of de bewerking vanuit een POS-uitbreiding aanroepen](dev-itpro/pos-api-extension.md)
-### [Bestaande POS-weergaven uitbreiden om aangepaste kolommen en knoppen op de appbalk toe te voegen](dev-itpro/pos-view-extension.md)
+### [Een POS-API of -bewerking aanroepen vanuit een POS-uitbreiding](dev-itpro/pos-api-extension.md)
 ### [Retail Modern POS-triggers en afdrukken](dev-itpro/pos-trigger-printing.md)
+### [Een aangepast besturingselement toevoegen aan een niet-schermontwerpweergave in Retail Modern POS](dev-itpro/pos-control-non-screen.md)
+### [De Retail-proxy voor POS en e-Commerce genereren](dev-itpro/pos-generate-retail-proxy.md)
+### [Configuratiestappen voor Retail-ontwikkelaars die werken aan in de cloud gehoste ontwikkelingsvakken](dev-itpro/cloud-dev-box.md)
 
 ## Commerce runtime
-### [Uitbreiding loyaliteit](dev-itpro/retail-sdk/loyalty-extension-sample.md)
+### [Loyaliteitsuitbreiding](dev-itpro/retail-sdk/loyalty-extension-sample.md)
