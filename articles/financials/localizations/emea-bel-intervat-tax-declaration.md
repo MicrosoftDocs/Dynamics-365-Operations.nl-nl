@@ -14,15 +14,14 @@ ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 273023
 ms.search.region: Belgium
-ms.search.industry: All
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 106e1b1bc76d47488f5f68b6b2f38c0ec9fe6294
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 17e83ab47d8b49a5af18c34bb361be1492c5db52
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
