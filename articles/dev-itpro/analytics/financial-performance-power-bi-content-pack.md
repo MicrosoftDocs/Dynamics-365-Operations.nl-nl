@@ -1,9 +1,9 @@
 ---
 title: "Power BI-inhoud financiële prestaties"
-description: "In dit onderwerp wordt de Power BI-inhoud Financiële prestaties besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld."
+description: "In dit onderwerp wordt de Power BI-inhoud Financiële prestaties besproken."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 In dit onderwerp wordt de Microsoft Power BI-inhoud **Financiële prestaties** besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
-
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-
-U hebt toegang tot de Power BI-inhoud **Financiële prestaties** vanuit Microsoft Dynamics Lifecycle Services (LCS) en PowerBI.com.
-
-### <a name="available-from-lcs"></a>Beschikbaar via LCS
-De Power BI-inhoud **Financiële prestaties** die beschikbaar is vanuit LCS, ondersteunt de volgende versies:
-
-- Versies van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
-- Microsoft Dynamics 365 for Operations versie 1611 
-
-U kunt de Power BI-inhoud vinden in de bibliotheek met gedeelde activa in LCS. Zie voor meer informatie over hoe u het inhoudpakket downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
-
-### <a name="available-from-powerbicom"></a>Beschikbaar via PowerBI.com
-De Power BI-inhoud **Financiële prestaties** die beschikbaar is via PowerBI.com, ondersteunt Microsoft Dynamics AX versie 7.0 en 7.0.1. Zie voor meer informatie over het koppelen en laden van uw Dynamics AX-gegevens [Toegang tot Power BI-inhoud via PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Hoofdrekening instellen
 De instelling van de hoofdrekeningen is belangrijk omdat organisaties passiva- en opbrengstenbedragen willen weergeven als positieve bedragen in rapporten. Voor weergave van hoofdrekeningen als positieve bedragen moet het hoofdrekeningtype worden ingesteld op **Passiva** of **Opbrengsten**. Wanneer deze rekeningtypen worden gebruikt, wordt in de rapportage via Power BI het teken omgekeerd en worden de bedragen als positief weergegeven.
@@ -101,5 +86,5 @@ De volgende entiteiten zijn gebruikt als basis voor de Power BI-inhoud **Financi
 - Ledgers
 - ChartofAccounts
 
-Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. De berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in de inhoud worden gebruikt. Standaard levert de inhoud gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi) wijzigen. Deze werkmap is het standaardgegevensmodel, dat is gebruikt om de inhoud te maken. Wanneer u klaar bent met aanbrengen van wijzigingen, kunt u een organisatorisch inhoudpakket en dashboard maken met de informatie die u hebt toegevoegd.
+Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. De berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in de inhoud worden gebruikt. Standaard levert de inhoud gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi) wijzigen. Deze werkmap is het standaardgegevensmodel, dat is gebruikt om de inhoud te maken. 
 

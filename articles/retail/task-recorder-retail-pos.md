@@ -19,10 +19,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +98,10 @@ Als u de opnamesessie wilt hervatten nadat u deze hebt onderbroken, klikt u op *
 
 ### <a name="capture-screenshots"></a>Schermopnamen maken
 
-Taakrecorder kan schermopnamen maken van de gebruikersinterface van Retail Modern POS, terwijl u een bedrijfsproces registreert. Taakrecorder gebruikt de schermopnamen als u de registratie downloadt als een Word-document. Als u de functie voor het maken van schermopnamen wilt aanzetten, stelt u de optie **Schermopnamen maken** in op **Ja**. 
+Taakrecorder kan schermopnamen maken van de gebruikersinterface van Retail Modern POS, terwijl u een bedrijfsproces registreert. Als u de functie voor het maken van schermopnamen wilt inschakelen, stelt u de optie **Schermopnamen maken** in op **Ja** en maakt u de opname. Zodra de opname is voltooid, klikt u op **Stoppen** en downloadt u het Word-document. Het document bevat de stappen met relevante schermafbeeldingen.
 
 #### <a name="note"></a>Opmerking
-> Functionaliteit voor het maken van schermopnamen wordt niet ondersteund in Cloud POS.
+> De functionaliteit voor het maken van schermopnamen wordt niet ondersteund in Modern POS.
 
 ### <a name="start-task-and-end-task"></a>Taak starten en taak beëindigen
 

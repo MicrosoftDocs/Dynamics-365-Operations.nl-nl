@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: robinr
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, hoe u taakregistraties maakt en hoe u Microsoft-taakbegeleidingen aanpast en opneemt in uw Help.
 
 > [!IMPORTANT]
-> U kunt geen aangepaste taakbegeleidingen voor Dynamics 365 voor Talent maken. Het Help-systeem voor Talent is automatisch gekoppeld aan taakbegeleidingen voor het product. 
+> U kunt uw eigen taakbegeleidingen voor Dynamics 365 for Talent vastleggen, maar u kunt deze nu niet opslaan in een BPM-bibliotheek (Business Process Modeler) of openen vanuit het deelvenster Help. U kunt de taakbegeleidingen lokaal of op een netwerklocatie opslaan en vervolgens openen en afspelen met Taakrecorder. 
 
 <a name="learn-about-task-recorder"></a>Meer informatie over Taakregistratie
 -------------------------
@@ -42,7 +42,7 @@ Taakrecorder is een hulpmiddel waarmee u de acties vast kunt leggen die u uitvoe
 
 -   **Taakregistratie kunnen worden afgespeeld als taakbegeleidingen.** Taakbegeleidingen zijn een integraal onderdeel van de gebruikerservaring in de Help. Een taakbegeleiding is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. De gebruiker wordt door middel van een pop-upprompt (of ballon) om elke stap te voltooien, door de hele UI en het wijst naar het UI-element waarmee de gebruiker interactie aan moet gaan. De 'ballon' geeft ook informatie over het werken met het element, zoals 'Klik hier' of 'In dit veld een waarde invoeren'. Een taakbegeleiding wordt uitgevoerd op de huidige gegevensset van de gebruiker en de ingevoerde gegevens worden opgeslagen in de omgeving van de gebruiker.
 -   **Taakregistraties kunnen als procedurestappen in het Help-deelvenster worden weergegeven.** U kunt het Help-deelvenster gebruiken om te zoeken naar Taakregistraties en deze weer te geven. U kunt het Help-deelvenster openen door te klikken op het pictogram **?** bovenin de navigatiebalk of u kunt de sneltoetscombinatie **Ctrl+Shift+?** gebruiken. U kunt de stappen van een taakregistratie in het Help-deelvenster lezen, of u kunt ervoor kiezen de registratie als een taakbegeleiding af te spelen zodat deze u door UI begeleidt.
--   **Taakregistraties kunnen worden opgeslagen in BPM.** U kunt uw taakregistratie opslaan op een regel van een hiërarchie in een Business Process Modeler (BPM)-bibliotheek in Lifecycle Services (LCS). Een lijst van stappen en een bedrijfsprocesstroomdiagram worden van de registratie gegenereerd. Taakregistraties die in een taak BPM-bibliotheek zijn opgeslagen, kunnen als Help worden weergegeven.
+-   **Taakregistraties kunnen worden opgeslagen in BPM.** U kunt uw taakregistratie opslaan op een regel van een hiërarchie in een BPM-bibliotheek in Lifecycle Services (LCS). Een lijst van stappen en een bedrijfsprocesstroomdiagram worden van de registratie gegenereerd. Taakregistraties die in een taak BPM-bibliotheek zijn opgeslagen, kunnen als Help worden weergegeven.
 -   **Taakregistraties kunnen als Word-documenten worden opgeslagen.** Zo kunt u eenvoudig afdrukbare trainingshandleidingen produceren.
 
 U kunt uw eigen taakregistraties maken, door Microsoft geleverde taakregistraties afspelen of wijzigen, zodat uw configuratie wordt weerspiegelt. Zie voor meer informatie over Taakrecorder het onderwerp [Taakrecorder](task-recorder.md).

@@ -3,7 +3,7 @@ title: Sneltoetsen
 description: De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations, Enterprise edition.
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations, 
 
 **Opmerking:** De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
 
-## <a name="finding-a-shorcut"></a>Een snelkoppeling vinden
+## <a name="finding-a-shortcut"></a>Een snelkoppeling vinden
 Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de gebruikersinterface weergeven. U hoeft alleen maar met de rechtermuisknop op een besturingselement te klikken en **Snelkoppelingen weergeven** te kiezen. Hiermee opent u een dialoogvenster met de beschikbare snelkoppelingen op basis van uw locatie op de pagina. 
 
 
@@ -143,6 +143,9 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Naar de eerste registratie gaan                                                                                               | Ctrl+Home                       |
 | Naar de laatste registratie gaan                                                                                                | Ctrl+End                        |
 | De standaardactie uitvoeren in een raster<br><br>**Opmerking:** deze sneltoets is ingeschakeld wanneer de focus zich op een cel met een hyperlink bevindt en alle cellen in die kolom hyperlinks bevatten.                 | Enter                           |
+| Schakelen tussen de geselecteerde rij en de koptekstrij                                                               | Alt+Shift+H                     |
+| De huidige kolom groter/kleiner maken (met de focus in de koptekstrij)                                                  | Pijl-rechts/-links        |
+| Rasterfilters openen voor de huidige kolom (met de focus in de koptekstrij)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Sneltoetsen voor invoerbesturing
 |                                                                              |                               |

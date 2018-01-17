@@ -3,7 +3,7 @@ title: Power BI-inhoud Productieprestaties
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Productieprestaties. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ In de volgende tabel vindt u een overzicht van de visualisaties die worden meege
 | Defectentrend op resource                  | Defectverhouding (ppm) op verwerkte hoeveelheid | |
 | Productieafwijkingen voor kostprijsberekening via taakorders | <ul><li>Productieafwijking op datum en kostengroeptype</li><li>Productieafwijking op vestiging en kostengroeptype</li><li>Top 10 producten met ongunstige productieafwijking</li><li>Top 10 ongunstige productieafwijkingen op resource</li></ul> | <ul><li>Gerealiseerde kosten</li><li>Afwijking productie</li><li>Percentage productieafwijking</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>De Power BI-inhoud uitbreiden
-Met behulp van de inhoudpakketten die beschikbaar zijn in Microsoft Dynamics Lifecycle Services (LCS) kunt u grondige analyses verschaffen aan personen die zich niet bij Microsoft Dynamics 365 aanmelden. U kunt deze inhoudpakketten wijzigen zodat ze andere rapporten of visuele elementen bevatten, en de inhoudpakketten vervolgens publiceren naar uw Power BI.com-tenant voor analyse.
-
-U vindt de Power BI-inhoud **Productieprestaties** in de bibliotheek voor gedeelde materialen in LCS. Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
-
-Let erop dat u de inhoud **Productieprestaties** downloadt, die van toepassing is voor de versie van Dynamics 365 die u gebruikt.
-
-> [!NOTE]
-> Als u werkt met Microsoft Dynamics 365 for Operations, versie 1611, is KB 4011327 een voorwaarde voor gebruik van deze volgende Power BI-inhoud: Nadat u zich bij LCS hebt aangemeld, kunt u de KB hier openen: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
@@ -139,12 +130,5 @@ In de volgende tabel ziet u de belangrijke dimensies die worden gebruikt als fil
 | Resources                 | Resource-id, Resourcenaam, Resourcetype en Resourcegroep |
 | Producten                  | Productnummer, Productnaam, Artikel-id en Artikelgroep         |
 
-## <a name="additional-resources"></a>Aanvullende resources
 
-Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten en het samenstellen van Power BI-content:
-
-- [Gegevensentiteiten](../data-entities/data-entities.md)
-- [Organisatorische inhoudpakketten maken](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Power BI-tegels toevoegen aan werkruimten](configure-power-bi-integration.md)
 

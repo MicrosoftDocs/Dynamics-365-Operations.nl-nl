@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ De volgende workflowtypen zijn beschikbaar voor Inkoop en sourcing.
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Typ**                         | **Met dit type kunt u**                                          |
-| Controle inkoopbestelopdracht      | Controleworkflows maken voor opdrachten tot inkoop.            |
-| Controle van opdracht tot inkoopregel | Controleworkflows maken voor regels in opdrachten tot inkoop.       |
+| Controle inkoopbestelopdracht      | Controle- en goedkeuringsworkflows maken voor opdrachten tot inkoop.            |
+| Controle van opdracht tot inkoopregel | Controle- en goedkeuringsworkflows maken voor regels van opdrachten tot inkoop.       |
 | Workflow voor inkooporders          | Controle- en goedkeuringsworkflows maken voor inkooporders.     |
 | Workflow voor inkooporderregels     | Controle- en goedkeuringsworkflows maken voor inkooporderregels. |
+| Workflow voor toepassing voor het toevoegen van leveranciers  | Controle- en goedkeuringsworkflows maken voor het toevoegen van nieuwe leveranciers via leverancieraanvragen. |
 
 ## <a name="creating-a-workflow"></a>Een werkstroom maken
 Om een werkstroom te maken, gaat u naar Inkoop en sourcing &gt; Instellingen &gt; Werkstromen voor inkoop en sourcing en maakt u een nieuwe werkstroom door het type werkstroom te selecteren dat u wilt maken.  
@@ -73,8 +74,8 @@ U kunt een goedkeuringsstap toewijzen aan de volgende groepen deelnemers.
 
 [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Werkstroom voor opdrachten tot inkoop](purchase-requisitions-workflow.md)
+[Workflow voor opdracht tot inkoop](purchase-requisitions-workflow.md)
 
-
+[Leveranciers onboarden](vendor-onboarding.md)
 
 

@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 521 | Balans van loyaliteitskaartpunten | De balans van punten voor de opgegeven loyaliteitskaart weergeven. | Ja | Ja | Nee | Nee | Nee |
 | 914 | POS-venster minimaliseren | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 1000 | Lade openen | Een niet-verkoopbewerking uitvoeren en de momenteel geselecteerde kassalade openen. | Ja | Ja | Ja | Ja | Nee |
+| 928 | Orderafhandeling | Met deze bewerking kunnen gebruikers orders voor afhalen in de winkel verzamelen, verpakken, verzenden of intrekken. | Ja | Ja | Ja | Nee | Nee |
 | 129 | Btw voor regelproducten overschrijven | Het btw-tarief voor het geselecteerde regelartikel overschrijven en een ander opgegeven btw-tarief gebruiken. | Ja | Ja | Nee | Ja | Nee |
 | 130 | Btw voor regelproducten overschrijven vanuit lijst | Het btw-tarief voor het geselecteerde regelartikel overschrijven en het tarief gebruiken dat de gebruiker selecteert in een lijst. | Ja | Ja | Nee | Ja | Nee |
 | 127 | Btw voor transacties overschrijven | Het btw-tarief voor de transactie overschrijven en een ander opgegeven tarief gebruiken. | Ja | Ja | Nee | Ja | Nee |
