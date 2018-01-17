@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: nl-nl
 ms.lasthandoff: 09/29/2017
 
 ---
-# De beschikbaarheid van voorraad controleren
+# <a name="check-the-availability-of-stock"></a>De beschikbaarheid van voorraad controleren
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u voorhanden en fysieke voorraad voor een specifiek artikelnummer kunt controleren. Het geeft ook weer hoe u aanbodinformatie voor een artikel krijgt. De fysieke voorhanden voorraad is de voorhanden voorraad die beschikbaar is, dat wil zeggen dat de voorraad is ingekocht, ontvangen en geregistreerd. De voorhanden voorraad bevat de beschikbare voorraad, maar ook de voorraad die is besteld en wordt verwacht, maar nog niet is ontvangen of geregistreerd. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken. Als u USMF gebruikt, kunt u de voorbeeldwaarden gebruiken die worden weergegeven. Deze taken worden meestal uitgevoerd door een magazijnmedewerker.
 
 
-## Voorhanden voorraad voor een artikel controleren
+## <a name="check-on-hand-inventory-for-an-item"></a>Voorhanden voorraad voor een artikel controleren
 1. Ga naar Voorraadbeheer > Query's en rapporten > Voorhanden voorraad.
 2. Selecteer de rij Artikelnummer.
     * Om de voorhanden voorraad op artikelnummer op te vragen, selecteert u de rij waar de tabel op Voorhanden voorraad is ingesteld en het veld op Artikelnummer is ingesteld.  
@@ -49,7 +49,7 @@ Deze procedure laat zien hoe u voorhanden en fysieke voorraad voor een specifiek
 11. Sluit de pagina.
 12. Sluit de pagina.
 
-## Fysieke voorhanden voorraad controleren
+## <a name="check-physical-on-hand-inventory"></a>Fysieke voorhanden voorraad controleren
 1. Ga naar Magazijnbeheer > Query's en rapporten > Fysieke voorhanden voorraad.
 2. Typ een waarde in het veld Artikelnummer.
     * U kunt Locatie en Magazijn gebruiken om de lijst met artikelen te filteren.  
@@ -59,7 +59,7 @@ Deze procedure laat zien hoe u voorhanden en fysieke voorraad voor een specifiek
 5. Klik op OK.
 6. Sluit de pagina.
 
-## De voorhanden voorraad per locatie controleren
+## <a name="check-on-hand-inventory-by-location"></a>De voorhanden voorraad per locatie controleren
 1. Ga naar Magazijnbeheer > Query's en rapporten > Voorhanden voorraad per locatie.
 2. Typ een waarde in het veld Magazijn.
     * Als u het USMF-bedrijf van de demogegevens gebruikt, kunt u 51 gebruiken.  

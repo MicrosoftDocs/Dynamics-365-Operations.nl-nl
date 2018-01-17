@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: nl-nl
 ms.lasthandoff: 09/29/2017
 
 ---
-# Voorraadniveaus in het magazijn aanpassen (basale magazijnen)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Voorraadniveaus in het magazijn aanpassen (basale magazijnen)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure begeleidt u door het proces voor het maken en boeken van een voorraadcorrectiejournaal om voorraadniveaus te corrigeren van producten in het magazijn. U moet een voorraadjournaalnaam hebben ingesteld voor voorraadcorrecties voordat u hiermee start. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken. Deze taken worden normaal gesproken uitgevoerd door een magazijnmedewerker.
 
 
-## Een voorraadcorrectiejournaal maken
+## <a name="create-an-inventory-adjustment-journal"></a>Een voorraadcorrectiejournaal maken
 1. Ga naar Voorraadbeheer > Journaalboekingen > Artikelen > Voorraadcorrectie.
 2. Klik op Nieuw.
 3. Klik in het veld Naam op de vervolgkeuzeknop om de zoekopdracht te openen.
@@ -38,7 +38,7 @@ Deze procedure begeleidt u door het proces voor het maken en boeken van een voor
     * Enkele andere velden worden ingevuld op basis van de instelling van de naam voor het journaal voor voorraadcorrectie die u selecteert.  
 5. Klik op OK.
 
-## Journaalregels maken
+## <a name="create-journal-lines"></a>Journaalregels maken
 1. Klik op Nieuw.
 2. Markeer in de lijst het veld met het artikelnummer.
 3. Selecteer een artikel in het veld Artikelnummer. Als u het demobedrijf USMF gebruikt, typt u 'D0001'.
@@ -50,7 +50,7 @@ Deze procedure begeleidt u door het proces voor het maken en boeken van een voor
 8. Voer in het veld Hoeveelheid een getal in.
     * Het kostprijsveld geeft de kosten per eenheid voor voorraadontvangsten op. Als de kosten niet voor het artikelnummer zijn opgegeven of als u deze handmatig wilt wijzigen, doet u dat hier.  
 
-## Het voorraadcorrectiejournaal valideren en boeken
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Het voorraadcorrectiejournaal valideren en boeken
 1. Klik op Valideren.
 2. Klik op OK.
 3. Klik op Boeken.
