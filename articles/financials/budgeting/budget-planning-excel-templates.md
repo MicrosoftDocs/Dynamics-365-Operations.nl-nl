@@ -3,11 +3,12 @@ title: Budgetplanningssjablonen voor Excel
 description: In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

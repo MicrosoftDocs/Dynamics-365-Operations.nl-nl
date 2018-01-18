@@ -3,7 +3,7 @@ title: Intelligence
 description: In dit onderwerp wordt u verwezen naar resources die u kunt gebruiken om meer te weten te komen over de business intelligence en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -47,9 +47,8 @@ Gebruikers kunnen interacties aangaan met gegevens door te klikken of visuele el
 
  - [Embedded Power BI in werkgebieden](embed-power-bi-workspaces.md)
  - [Integratie met Power BI Embedded](power-bi-embedded-integration.md)
- - [Analyses aan werkgebieden toevoegen met behulp van Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Analytische toepassingen publiceren op Power BI](publish-apps-powerbi.md)
- - [Beveiligde analytische werkgebieden en rapporten helpen beveiligen met behulp van Power BI Embedded](secure-analytical-workspaces.md)
+ - [Analyses aan werkgebieden toevoegen met Power BI Embedded](add-analytics-tab-workspaces.md)
+ - [Analytische werkgebieden en rapporten beveiligen met Power BI Embedded](secure-analytical-workspaces.md)
  - [Power BI-inhoud voor Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Bedrijfsdocumenten en afdrukken
@@ -59,7 +58,7 @@ Rapportage-oplossingen worden vaak gebruikt voor het vastleggen en communiceren 
 
 Zie de volgende onderwerpen voor meer informatie:
 
-- [Overzicht van documentrapportservices](document-reporting-services.md)
+- [Overzicht van Document Reporting Services](document-reporting-services.md)
 - [Afdrukken in toepassingen van Finance and Operations](print-documents.md)
 - [De documentrouteringsagent installeren om netwerkprinterapparatuur in te schakelen](install-document-routing-agent.md)
 
@@ -88,11 +87,8 @@ Zie de volgende onderwerpen voor meer informatie:
 ## <a name="technical-reference-reports"></a>Rapporten met technische naslaginformatie
 De volgende rapporten bevatten naslaginformatie over de objecten in Finance and Operations:
 
-- [Rapport samengevoegde gegevensentiteiten](aggregate-data-entities-report.md)
-- [Rapport met samengevoegde metingen](aggregate-measurements-report.md)
-- [Gegevensentiteiten rapporteren](../data-entities/data-entities-report.md)
-- [Rapport met key performance indicators (KPI's)](key-performance-indicators-report.md)
-- [Licentiecodes en configuratiesleutels rapporteren](../sysadmin/license-codes-configuration-keys-report.md)
-- [Rapport over SQL Server Reporting Services-rapporten](SSRS-report.md)
+- [Rapport Gegevensentiteiten](../data-entities/data-entities-report.md)
+- [Rapport Licentiecodes en configuratiesleutels](../sysadmin/license-codes-configuration-keys-report.md)
+- [Rapport SQL Server Reporting Services-rapporten](SSRS-report.md)
 - [Rapport over workflowtypen](../../fin-and-ops/organization-administration/workflow-types-report.md)
 

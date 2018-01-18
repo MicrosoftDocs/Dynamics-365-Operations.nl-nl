@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
-ms.openlocfilehash: 7c99869b70d8b564da859ce2b19ccfff927141b2
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: f3f6690d661ca30b5f3a9dacc75f7b8c6ec36e24
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,8 +34,6 @@ Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over d
 
 Voor informatie over hoe u een upgrade naar de meest recente versie uitvoert, zie [Proces voor het bijwerken naar nieuwste update](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
-> [!NOTE]
-> Dynamics 365 for Operations (on-premises) krijgt momenteel een andere naam. In de communicatie en licentiehandleidingen wordt verwezen naar Dynamics 365 for Operations (on-premises). De naam in het product die wordt weergegeven bij het implementeren van het product is Dynamics 365 for Finance and Operations, Enterprise edition. Beide namen verwijzen naar hetzelfde product.
 
 ## <a name="application-releases"></a>Toepassingsversies
 
@@ -60,6 +58,13 @@ Voor informatie over hoe u een upgrade naar de meest recente versie uitvoert, zi
 <tr class="even">
 
 </tr>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
+<td>7.3</td>
+<td>7.3.11971.56116</td>
+<td>2017 december</td>
+<td><a href="whats-new-application-7.3-update.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise-editie 7.3</a></td>
+</tr></tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Juli 2017</td>

@@ -1,9 +1,9 @@
 ---
 title: Power BI-inhoud voor kostenbeheer
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer. 
 
 # <a name="overview"></a>Overzicht
 
@@ -51,8 +51,6 @@ De Microsoft Power BI-inhoud voor **Kostenbeheer** is bedoeld voor accountants v
 
 De primaire gegevensbron voor CostAggregatedCostStatementEntryEntity is de tabel CostStatementCache. Deze tabel wordt beheerd door het raamwerk van de gegevenssetcache. De tabel wordt elke 24 uur standaard bijgewerkt, maar u kunt handmatige updates inschakelen in de gegevenscacheconfiguratie. Vervolgens kunt u een handmatige update in het werkgebied **Kostenbeheer** of **Kostenanalyse** uitvoeren. Nadat de update van CostStatementCache is uitgevoerd, kunt u de OData-verbinding op PowerBI.com bijwerken om bijgewerkte gegevens op de site te bekijken. De afwijkingsmetingen (inkoop, productie) in deze Power BI-inhoud hebben alleen betrekking op artikelen die door de standaardkostenvoorraadmethode worden gewaardeerd. Productieafwijking wordt berekend als het verschil tussen actieve kosten en gerealiseerde kosten. De afwijking van de productie wordt berekend wanneer de productieorder de status **Beëindigd** heeft. Zie voor meer informatie over de typen productieafwijking en de berekening van elk type [Info over het analyseren van afwijkingen voor een voltooide productieorder](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-De Power BI-inhoud voor **Kostenbeheer** is beschikbaar via PowerBI.com. Zie voor meer informatie over het koppelen en laden van Microsoft Dynamics 365 for Finance and Operations-gegevens [Toegang tot Power BI-inhoud vanuit PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set metrische gegevens die worden gevisualiseerd als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de Power BI-inhoud voor **Kostenbeheer**.
@@ -134,15 +132,8 @@ De volgende belangrijke dimensies worden gebruikt als filters voor het segmenter
 | Fiscale kalenders | Kalender, maand, periode, kwartaal, jaar       |
 | KPI-doelstellingen        | Doelstelling voorraadnauwkeurigheid, doelstelling voorraadomloopsnelheid |
 | Grootboeken          | Valuta, naam, beschrijving                  |
-| Vestigingen            | Id, naam, land, plaats                      |
+| Sites            | Id, naam, land, plaats                      |
 
-## <a name="additional-resources"></a>Aanvullende bronnen
-Hieronder staan enkele nuttige koppelingen die zijn gerelateerd aan entiteiten en het samenstellen van Power BI-content:
-
--   [Gegevensentiteiten](..\data-entities\data-entities.md)
--   [Organisatorische inhoudpakketten maken](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Gegevens modelleren met Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Power BI-tegels toevoegen aan werkruimten](configure-power-bi-integration.md)
 
 
 

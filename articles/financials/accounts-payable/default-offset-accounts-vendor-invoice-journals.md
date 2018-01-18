@@ -3,11 +3,12 @@ title: Standaardtegenrekeningen voor leveranciersfactuurjournalen en factuurgoed
 description: Gebruik dit onderwerp om te bepalen waar u het beste standaardrekeningen voor factuurjournalen kunt toewijzen.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

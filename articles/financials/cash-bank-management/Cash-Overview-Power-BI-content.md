@@ -3,23 +3,24 @@ title: Power BI-inhoud Overzicht van contant geld
 description: In dit onderwerp wordt de Power BI-inhoud Overzicht van contant geld besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 author: saraschi2
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -53,10 +54,6 @@ De volgende tabel bevat informatie over de metrische gegevens op elke rapportpag
 | Valutaprognose                     | <ul><li>Voorspelde valutasaldi</li><li>Dagelijks valutaoverzicht</li><li>Prognosedetails</li></ul> |
 | Banksaldi                         | <ul><li>Totaal banksaldo in systeemvaluta</li><li>Saldo per rechtspersoon</li><li>Werkelijk versus voorspeld saldo van vandaag in valuta van de bankrekening</li><li>Saldo per bankrekening</li><li>Saldo per valuta</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>De Power BI-inhoud uitbreiden
-U kunt grondige analyses verschaffen aan personen die zich aanmelden bij Dynamics 365. U doet dat met behulp van de inhoudpakketten die beschikbaar zijn in Lifecycle Services (LCS). Deze inhoudpakketten kunnen worden gewijzigd om andere rapporten of visuele elementen op te nemen om vervolgens te worden gepubliceerd naar uw Power BI.com-tenant voor analyse. 
-
-U kunt de Power BI-inhoud **Overzicht van contant geld** vinden in de bibliotheek voor gedeelde activa in LCS. Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
@@ -72,6 +69,5 @@ In de volgende tabel vindt u de entiteiten waarop de Power BI-inhoud **Overzicht
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Samengevatte kasinkomsten, kasuitgaven en saldo met behulp van de systeemvaluta voor alle bedrijven |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Samengevat nettotransactiebedrag en saldo van valuta´s op basis van de transactievaluta |
 
-Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. Deze berekende eenheden worden vervolgens gebruikt om de diagrammen en rapporten te berekenen die in de Power BI-inhoud **Overzicht van contant geld** worden gebruikt. Als u extra berekeningen in uw rapporten en het dashboard wilt opnemen, kunt u het Power BI-bestand downloaden vanuit LCS en dit aanpassen. Dit bestand is het standaardgegevensmodel, dat is gebruikt om de inhoud te maken. Wanneer u klaar bent met het aanbrengen van wijzigingen, kunt u organisatorische inhoud en dashboards maken met de informatie die u hebt toegevoegd.
 
 

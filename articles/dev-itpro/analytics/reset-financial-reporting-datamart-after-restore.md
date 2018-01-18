@@ -3,7 +3,7 @@ title: "De datamart voor financiële rapportage opnieuw instellen"
 description: "In dit onderwerp wordt beschreven hoe u de datamart voor financiële rapportage opnieuw instelt."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ In dit onderwerp wordt uitgelegd hoe u de datamart voor financiële rapportage o
 - Microsoft Dynamics 365 for Finance and Operations Financial Reporting 7.0.10000.4 en hoger
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises)
 
-Voor Finance and Operations Financial Reporting 7.2.6.0 kunt u KB 4052514 downloaden via <https://support.microsoft.com/en-us/help/4052514>.
+Voor Finance and Operations Financial Reporting 7.2.6.0 kunt u KB 4052514 downloaden via <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>De datamart voor financiële rapportage opnieuw instellen voor Finance and Operations Financial Reporting 7.2.6.0 en hoger
 
@@ -55,7 +55,7 @@ De datamart moet alleen opnieuw worden ingesteld op tijden dat de database relat
 
 Als u de datamart opnieuw wilt instellen, selecteert u in Rapportontwerper in het menu **Extra** de optie **Datamart opnieuw instellen**. Het dialoogvenster dat verschijnt, bevat twee secties: **Statistieken** en **Opnieuw instellen**.
 
-[![Dialoogvenster Datamart opnieuw instellen](./media/Statistics.png)](./media/Statistics.png)
+[![Dialoogvenster Datamart opnieuw instellen](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Integratiepogingen
 
@@ -83,8 +83,10 @@ Als u vaststelt dat een datamart opnieuw moet worden ingesteld, schakelt u het s
 - **Database herstellen**: de Finance and Operations-database is hersteld, maar de database van de datamart voor financiële rapportage niet.
 - **Overige**: u herstelt de datamart om een andere reden. Als u vermoedt dat er een probleem is, moet u contact opnemen met de ondersteuning.
 
+[![Datamart opnieuw instellen](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Controleer voordat u de stappen voltooit of alle bestaande taken zijn geïntegreerd. U kunt de status van de integratie weergeven door **Extra** &gt; **Integratiestatus** te selecteren.
+> Controleer voordat u met een reset begint of met alle taken voor het opnieuw instellen van datamarts een initiële laadbewerking is uitgevoerd. U kunt dit controleren door te zoeken naar een waarde in de kolom Laatste uitvoering. Selecteer hiervoor **Extra** &gt; **Integratiestatus**.
 
 #### <a name="clear-users-and-companies"></a>Gebruikers en bedrijven wissen
 
@@ -94,7 +96,10 @@ Wanneer u klaar bent om het proces voor opnieuw instellen te starten, selecteert
 
 Als u de status van de integratie wilt bekijken, selecteert u **Extra** &gt; **Integratiestatus** om na te gaan wanneer de integratie het laatst is uitgevoerd en de status te bekijken.
 
-[![De status van de integratie weergeven](./media/Integration.png)](./media/Integration.png)
+[![De status van de integratie weergeven](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> Het opnieuw instellen is voltooid wanneer voor alle toewijzingen de status RanToCompletion wordt weergegeven en in het venster Integratiestatus het bericht Integratie voltooid in de linkerbenedenhoek wordt weergegeven.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>De datamart voor financiële rapportage opnieuw instellen voor Finance and Operations Financial Reporting 7.0.10000.4 en hoger
 
@@ -142,7 +147,9 @@ De volgende Microsoft Windows-services hebben openstaande verbindingen met de Fi
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Het meest recente pakket met MinorVersionDataUpgrade.zip downloaden
 
-Download het meest recente pakket met MinorVersionDataUpgrade.zip. Zie voor meer informatie over het zoeken en downloaden van de juiste versie van het gegevensupgradepakket [Downloaden van het meest recente bruikbare pakket met gegevensupgrade](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Een upgrade is niet vereist voor het downloaden van het pakket MinorVersionDataUpgrade.zip. U hoeft alleen maar de stappen in het gedeelte Downloaden van het meest recente bruikbare pakket met gegevensupgrade van dat onderwerp te volgen. U kunt de overige stappen in het onderwerp overslaan.
+Download het meest recente pakket met MinorVersionDataUpgrade.zip. Zie voor meer informatie over het zoeken en downloaden van de juiste versie van het gegevensupgradepakket [Downloaden van het meest recente bruikbare pakket met gegevensupgrade](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Een upgrade is niet vereist voor het downloaden van het pakket MinorVersionDataUpgrade.zip. U hoeft alleen maar de stappen in het gedeelte Downloaden van het meest recente bruikbare pakket met gegevensupgrade van dat onderwerp te volgen. U kunt de overige stappen in het onderwerp overslaan.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Scripts uitvoeren op de Finance and Operations-database
 

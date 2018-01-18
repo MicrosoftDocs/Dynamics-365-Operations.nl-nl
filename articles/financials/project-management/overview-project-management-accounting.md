@@ -3,11 +3,12 @@ title: Projectbeheer en boekhouding
 description: De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt om in een service te voorzien, een product te produceren of een resultaat te halen.
 author: KimANelson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

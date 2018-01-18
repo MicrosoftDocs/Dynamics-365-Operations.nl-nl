@@ -3,7 +3,7 @@ title: Power BI-inhoud CFO-overzicht
 description: In dit onderwerp wordt de Microsoft Power BI-inhoud CFO-overzicht besproken.
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fd3696321598267a2acd3ad61f533641c2cc2e77
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -47,8 +47,5 @@ In de volgende tabel ziet u de Power BI-inhoud waarvan de rapporten worden gekop
 | [Klantcrediteringen- en aanmaningsbeheer](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Klanten over tijd</li><li>Klanten boven kredietlimiet</li><li>Vervallen saldi</li></ul> |
 | [Inkoopuitgavenanalyse](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Inkopen per maand/dag</li><li>Top 10 van leveranciers op basis van inkopen</li><li>Top 10 producten op basis van inkopen</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>De Power BI-inhoud uitbreiden
-Met behulp van de inhoudpakketten die beschikbaar zijn in Microsoft Dynamics Lifecycle Services (LCS) kunt u grondige analyses verschaffen aan personen die zich niet bij Microsoft Dynamics 365 aanmelden. U kunt deze inhoudpakketten wijzigen zodat ze andere rapporten of visuele elementen bevatten, en de inhoudpakketten vervolgens publiceren naar uw Power BI.com-tenant voor analyse.
 
-U kunt de Power BI-inhoud **CFO-overzicht** vinden in de bibliotheek voor gedeelde activa in LCS. Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](power-bi-content-microsoft-partners.md). Als u een demo wilt zien over hoe u de Power BI-inhoud implementeert, bekijkt u de Office Mix [Power BI-inhoud van Microsoft en uw partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
 

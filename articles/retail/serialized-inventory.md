@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ Op basis van de instellingen in Detailhandel Hoofdkantoor kunnen producten als g
     
 - **Serienummers zijn niet vereist om klantorders plaatsen**: klantorders kunnen worden geplaatst in de ene winkel en worden afgehandeld in een andere winkel. Een kassamedewerker die een klantorder plaatst, hoeft het serienummer niet op te geven. Het serienummer wordt opgegeven tijdens de orderverzameling of het ophalen. Er moet echter een serienummer worden opgegeven voor alle regelartikelen waarvoor het leveringstype **Uitvoeren** is geselecteerd. Anders kan de transactie niet worden voltooid.    
 - **Geserialiseerde producten worden niet samengevoegd in het transactiescherm**: via de instelling **Producten samenvoegen** in de veldgroep **Terminal** op de pagina **Functionaliteitsprofiel** kunt u dezelfde niet-geserialiseerde producten samenvoegen in het transactiescherm. Wanneer dezelfde producten worden samengevoegd, zijn ze gemakkelijker te zien in het transactieraster. Omdat serienummers doorgaans uniek zijn en verkoopmedewerkers pas serienummers hoeven in te voeren bij het uitchecken, is de instelling **Producten samenvoegen** niet van toepassing op geserialiseerde producten. Geserialiseerde producten worden dus niet samengevoegd in het transactiescherm als de instelling **Producten samenvoegen** is geselecteerd.
+- **Mogelijkheid om de journalen te doorzoeken op serienummer**: de journalen kunnen nu ook worden doorzocht op serienummers. Hiervoor opent u de bewerking Journalen en kiest u de knop Geavanceerd zoeken op de appbalk. Met de knop Filter toevoegen kunt u ook een filter toepassen om op de serienummers te zoeken.
 
