@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 78213682a28751893afafd61c89194676aa8af7b
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 14c39926d3d58480101169997cbd0e3943eaf3d1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 

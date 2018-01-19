@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 273023
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 17e83ab47d8b49a5af18c34bb361be1492c5db52
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 54461fc0bbe2dba138c285204b2991ed4b7520d9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
