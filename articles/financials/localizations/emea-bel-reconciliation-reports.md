@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: shylaw

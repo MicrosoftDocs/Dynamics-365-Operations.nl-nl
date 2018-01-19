@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ In dit voorbeeld moet FRSI een klant zijn in de rechtspersoon USSI en moet USSI 
 
 1.  Stel FRSI in als een klant in de rechtspersoon USSI en stel USSI in als een leverancier in de rechtspersoon FRSI. Er zijn drie ingangspunten voor de stappen die zijn vereist voor deze taak.
     | Stap | Invoerpunt                                                                       | Omschrijving   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | Klik in USSI op **Klanten** &gt; **Klanten** &gt; **Alle klanten**. | Maak een nieuwe klantrecord voor FRSI en selecteer de klantgroep.                                                                                                                                                                                                                           |
-    | B    | Klik in FRSI op **Leveranciers** &gt; **Leveranciers** &gt; **Alle leveranciers**.        | Maak een nieuwe leveranciersrecord voor USSI en selecteer de leveranciersgroep.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A    | Klik in USSI op **Klanten** &gt; **Klanten** &gt; **Alle klanten**. | Maak een nieuwe klantrecord voor FRSI en selecteer de klantgroep.                                                                                  |
+    | B    | Klik in FRSI op **Leveranciers** &gt; **Leveranciers** &gt; **Alle leveranciers**.        | Maak een nieuwe leveranciersrecord voor USSI en selecteer de leveranciersgroep.                                                                                    |
     | C    | Open in FRSI de leveranciersrecord die u zojuist hebt gemaakt.                            | Klik in het actievenster op het tabblad **Algemeen** in de groep **Instellen** op **Intercompany**. Stel op de pagina **Intercompany**, op het tabblad **Handelsrelatie**, de schuifregelaar **Actief** in op **Ja**. Selecteer in het veld **Klantbedrijf** de klantrecord die u hebt gemaakt in stap A. |
 
 2.  Klik op **Projectbeheer en boekhouding** &gt; **Instellingen** &gt; **Projectbeheer- en boekhoudingsparameters** en klik vervolgens op het tabblad **Intercompany**. De manier waarop u de parameters instelt, is afhankelijk van of u de lenende rechtspersoon of de uitlenende rechtspersoon bent.

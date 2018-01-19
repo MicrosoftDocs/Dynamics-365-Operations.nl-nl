@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 273023
 ms.search.region: Belgium
 ms.author: v-oloski
