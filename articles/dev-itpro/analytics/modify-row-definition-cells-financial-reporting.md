@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Een rij in een rijdefinitie opgeven
+## <a name="specify-a-row-code-in-a-row-definition"></a>Een rij in een rijdefinitie opgeven
 
 In rijdefinities bepalen de nummers of labels in de cel **Rijcode** elke regel in de rijdefinitie. U kunt de rijcode opgeven om te verwijzen naar gegevens in berekeningen en totalen.
 
@@ -506,8 +506,7 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 4.  Selecteer de set om te verwijderen en klik vervolgens op **Verwijderen**. Klik op **Ja** om de set van dimensiewaarden definitief te verwijderen.
 
 
-<a name="see-also"></a>Zie ook
---------
+## <a name="see-also"></a>Zie ook
 
 [Financiële rapportage](financial-reporting-intro.md)
 

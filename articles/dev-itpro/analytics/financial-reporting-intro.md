@@ -98,7 +98,7 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 </tbody>
 </table>
 
-#<a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 [Een financieel rapport maken](generate-financial-report.md)
 
 

@@ -53,10 +53,9 @@ Julia gebruikt de volgende Excel-sjabloon om het budget voor te bereiden:
 
 [![Excel-sjabloon](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>Oefening 1: Configuratie
-=========================
+## <a name="exercise-1-configuration"></a>Oefening 1: Configuratie
 
-## <a name="task-1-create-organizational-hierarchy"></a>**Taak 1: Organisatiehiërarchie maken**
+### <a name="task-1-create-organizational-hierarchy"></a>**Taak 1: Organisatiehiërarchie maken**
 Omdat het gehele budgetteringsproces op de financiële afdeling plaatsvindt, moet Julia een zeer eenvoudige organisatiehiërarchie maken die alleen bestaat uit de financiële afdeling. 1.1. Navigeer naar Organisatiehiërarchieën (Organisatiebeheer &gt; Organisaties &gt; Organisatiehiërarchieën) en klik op de knop Nieuw
 
 ![Organisatiehiërarchie](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Omdat het gehele budgetteringsproces op de financiële afdeling plaatsvindt, moe
 
 [![Begindatum](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>Taak 2: Gebruikerbeveiliging configureren
+### <a name="task-2-configure-user-security"></a>Taak 2: Gebruikerbeveiliging configureren
 In budgetplanning worden speciale beveiligingsbeleidsregels gebruikt om toegang tot de budgetplangegevens te configureren. Julia moet toegang verlenen tot financiële budgetplannen voor haarzelf. 
 
 2.1. Schakel over naar DEMF-rechtspersooncontext. 
@@ -109,7 +108,7 @@ In budgetplanning worden speciale beveiligingsbeleidsregels gebruikt om toegang 
 
 [![Toegang verlenen](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>Taak 3: Scenario's maken
+### <a name="task-3-create-scenarios"></a>Taak 3: Scenario's maken
 3.1. Navigeer naar Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configuratie budgetplanning. Noteer op de pagina Scenario's de scenario's die we verder gaan gebruiken in dit lab: werkelijke en gebudgetteerde waarden van vorig jaar. 
 
 *Opmerking: u kunt desgewenst nieuwe scenario's voor deze oefening maken deze gebruiken.* 
@@ -118,7 +117,7 @@ In budgetplanning worden speciale beveiligingsbeleidsregels gebruikt om toegang 
 
 *Opmerking: omdat Julia geen formeel goedkeuringsproces voor budgetvoorbereiding gebruikt, wordt de instelling voor workflows, fasen en workflowfasen in dit lab overgeslagen en worden bestaande instellingen voor Workflow automatisch goedkeuren gebruikt.*
 
-## <a name="task-4-create-budget-plan-columns"></a>Taak 4: Budgetplankolommen maken
+### <a name="task-4-create-budget-plan-columns"></a>Taak 4: Budgetplankolommen maken
 De kolommen van het budgetplan zijn monetaire of op hoeveelheid gebaseerde kolommen die in de documentindeling van het budgetplan kunnen worden gebruikt. In ons voorbeeld moeten we een kolom maken voor werkelijke waarden van vorig jaar en 12 kolommen voor elke maand in een gebudgetteerd jaar. Kolommen kunnen worden gemaakt door eenvoudigweg te klikken op de knop Toevoegen en de waarden in te vullen of met behulp van een gegevensentiteit. In dit lab gebruiken we Gegevensentiteit om de waarden in te vullen. 
 
 4.1. Open de pagina Kolommen in Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configuratie budgetplanning. Klik op de knop Office rechtsboven in het formulier en selecteer kolommen (ongefilterd) 
@@ -151,7 +150,7 @@ De kolommen van het budgetplan zijn monetaire of op hoeveelheid gebaseerde kolom
 
 [![Vernieuwen](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Taak 5: Documentindelingen en sjablonen voor het budgetplan maken
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Taak 5: Documentindelingen en sjablonen voor het budgetplan maken
 Met de indeling wordt gedefinieerd hoe het raster met documentregels van het budgetplan eruit ziet wanneer een gebruiker het document van het budgetplan opent. Het is ook mogelijk om van indeling voor het document van het budgetplan te wisselen om dezelfde gegevens vanuit verschillende hoeken te bekijken. Nu Julia kolommen heeft gedefinieerd die in ons document van het budgetplan moeten worden gebruikt, moet ze een indeling voor het budgetplandocument maken, die er hetzelfde uitziet als de Excel-tabel waarmee ze budgetgegevens maakt (zie de sectie Scenario-overzicht in dit lab) 
 
 5.1. Open de pagina Indelingen in Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configuratie budgetplanning. Maak een nieuwe indeling voor Maandelijkse budgetinvoer:
@@ -171,7 +170,7 @@ Op basis van de definitie van de budgetplanindeling kunnen we een Excel-sjabloon
 
 5.3. &lt; Optionele stap&gt; Wijzig de Excel-sjabloon om deze er gebruikersvriendelijker te laten uitzien; voeg totale formules, koptekstvelden, opmaak enzovoort toe. Sla de wijzigingen op en upload het bestand naar budgetplanindeling door te klikken op Indeling &gt; Uploaden [![Uploaden](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>Taak 6: Een budgetplanningsproces maken
+### <a name="task-6-create-a-budget-planning-process"></a>Taak 6: Een budgetplanningsproces maken
 Julia moet een nieuw budgetplanningsproces maken en activeren waarin alle bovenstaande instellingen worden gecombineerd om met het invoeren van budgetplannen te starten. Met het budgetplanningsproces wordt gedefinieerd welke budgetorganisaties, workflow, indelingen en sjablonen worden gebruikt voor het maken van budgetplannen. 
 
 6.1. Navigeer naar Budgettering &gt; Instellen &gt; Budgetplanning &gt; Budgetplanningsproces en maak een nieuwe record.
@@ -192,10 +191,9 @@ Julia moet een nieuw budgetplanningsproces maken en activeren waarin alle bovens
 
 [![Activeren](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>Oefening 2: Processimulatie
-==============================
+## <a name="exercise-2-process-simulation"></a>Oefening 2: Processimulatie
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Taak 7: Initiële gegevens genereren voor budgetplan vanuit grootboek
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Taak 7: Initiële gegevens genereren voor budgetplan vanuit grootboek
 7.1. Navigeer naar Budgettering &gt; Periodiek &gt; Budgetplan genereren op basis van grootboek. Vul de periodieke procesparameters in en de klik op de knop Genereren. 
 
 [![Genereren](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Julia moet een nieuw budgetplanningsproces maken en activeren waarin alle bovens
 
 [![Budgetplanweergave](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Taak 8: Budget van het huidige jaar maken op basis van werkelijke waarden van vorig jaar
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Taak 8: Budget van het huidige jaar maken op basis van werkelijke waarden van vorig jaar
 Toewijzingsmethoden kunnen worden gebruikt in het budgetplan om gegevens voor budgetplannen gemakkelijk te kopiëren tussen scenario´s/te verspreiden over perioden/toe te wijzen aan dimensies. We zullen toewijzingen gebruiken om het budget van het huidige jaar te maken op basis van de werkelijke waarden van vorig jaar. 
 
 8.1. Selecteer alle regels in het raster van het budgetplandocument en klik op de knop Budget toewijzen 
@@ -223,7 +221,7 @@ De werkelijke bedragen van vorig jaar worden gekopieerd naar het huidige jaarbud
 
 [![Verkoopcurve](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Taak 9: Het budgetplandocument aanpassen met Excel en het document afronden
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Taak 9: Het budgetplandocument aanpassen met Excel en het document afronden
 9.1. Klik op de knop Werkblad om documentinhoud in Excel te openen
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ De werkelijke bedragen van vorig jaar worden gekopieerd naar het huidige jaarbud
 
 Zodra de workflow is voltooid, wordt de budgetplandocumentfase gewijzigd in Goedgekeurd. [![Goedgekeurd](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>Bijlage
-========
+## <a name="appendix"></a>Bijlage
 
 ### <a name="auto-approve-workflow-configuration"></a>Workflowconfiguratie automatisch goedkeuren
 

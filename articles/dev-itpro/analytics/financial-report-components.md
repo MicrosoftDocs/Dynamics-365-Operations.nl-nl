@@ -112,7 +112,7 @@ Wanneer u een bouwsteen opent, hebben andere gebruikers alleen-lezen toegang tot
 3.  Selecteer een bouwsteen en klik op **Uitchecken ongedaan maken**.
 4.  Klik op **Ja** om de te bouwsteen in te checken.
 
-# <a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiële rapportage](financial-reporting-intro.md)
 
