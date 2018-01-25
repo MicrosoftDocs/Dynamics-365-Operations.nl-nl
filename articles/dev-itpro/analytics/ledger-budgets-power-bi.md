@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="50b2c-105">In dit onderwerp wordt de Microsoft Power BI-inhoud **Werkelijk vs. budget** besproken.</span><span class="sxs-lookup"><span data-stu-id="50b2c-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="50b2c-106">U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.</span><span class="sxs-lookup"><span data-stu-id="50b2c-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="50b2c-107">Overzicht</span><span class="sxs-lookup"><span data-stu-id="50b2c-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="50b2c-107">Overzicht</span><span class="sxs-lookup"><span data-stu-id="50b2c-107">Overview</span></span>
 
 <span data-ttu-id="50b2c-108">De Power BI-inhoud **Werkelijk vs. budget** is gemaakt voor personen die verantwoordelijk zijn voor het controleren van werkelijke versus budget-prestaties in hun organisatie.</span><span class="sxs-lookup"><span data-stu-id="50b2c-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="50b2c-109">De Power BI-inhoud **Werkelijk vs. budget** biedt inzicht in uw budgetafwijkingen.</span><span class="sxs-lookup"><span data-stu-id="50b2c-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="50b2c-110">U kunt het budget voor het huidige jaar analyseren op rekeningcategorie, budgetcode, hoofdrekening, omschrijvingen van hoofdrekeningen of boekperiode, om beter inzicht te verkrijgen in de oorzaken van eventuele afwijkingen.</span><span class="sxs-lookup"><span data-stu-id="50b2c-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="50b2c-111">Toegang tot de Power BI-inhoud verkrijgen</span><span class="sxs-lookup"><span data-stu-id="50b2c-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="50b2c-111">Toegang tot de Power BI-inhoud verkrijgen</span><span class="sxs-lookup"><span data-stu-id="50b2c-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="50b2c-112">Rapporten uit de Power BI-inhoud **Werkelijk vs. budget** worden weergegeven in de werkgebieden **Grootboekbudgetten en prognoses** en **CFO**.</span><span class="sxs-lookup"><span data-stu-id="50b2c-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="50b2c-113">Rapporten die zijn opgenomen in de Power BI-inhoud</span><span class="sxs-lookup"><span data-stu-id="50b2c-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="50b2c-113">Rapporten die zijn opgenomen in de Power BI-inhoud</span><span class="sxs-lookup"><span data-stu-id="50b2c-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="50b2c-114">De volgende tabel bevat informatie over de metrische gegevens op elke rapportpagina in de Power BI-inhoud **Werkelijk vs. budget**.</span><span class="sxs-lookup"><span data-stu-id="50b2c-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="50b2c-115">Rapport</span><span class="sxs-lookup"><span data-stu-id="50b2c-115">Report</span></span>                      | <span data-ttu-id="50b2c-116">Metrische gegevens</span><span class="sxs-lookup"><span data-stu-id="50b2c-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="50b2c-129">Netto-inkomsten</span><span class="sxs-lookup"><span data-stu-id="50b2c-129">Net income</span></span>                  | <ul><li><span data-ttu-id="50b2c-130">Netto-inkomsten dit jaar</span><span class="sxs-lookup"><span data-stu-id="50b2c-130">Net income this year</span></span></li><li><span data-ttu-id="50b2c-131">Doel voor netto-inkomsten op basis van budget</span><span class="sxs-lookup"><span data-stu-id="50b2c-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="50b2c-132">Het gegevensmodel en de gegevensentiteiten begrijpen</span><span class="sxs-lookup"><span data-stu-id="50b2c-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="50b2c-132">Het gegevensmodel en de gegevensentiteiten begrijpen</span><span class="sxs-lookup"><span data-stu-id="50b2c-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="50b2c-133">Entiteit</span><span class="sxs-lookup"><span data-stu-id="50b2c-133">Entity</span></span>                    | <span data-ttu-id="50b2c-134">Inhoud</span><span class="sxs-lookup"><span data-stu-id="50b2c-134">Contents</span></span> |
 |---------------------------|----------|

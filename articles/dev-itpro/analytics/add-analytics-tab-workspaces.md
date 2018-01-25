@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 7a3ff5a00af72dd7810337d1390b39d4f849dada
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 9447b0d9eedbdd56f1e221a48f687a94a19d31c4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -30,14 +30,14 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="c4a7d-104">Deze functie wordt ondersteund in Dynamics 365 for Finance and Operations (versie 7.2 en hoger).</span><span class="sxs-lookup"><span data-stu-id="c4a7d-104">This feature is supported in Dynamics 365 for Finance and Operations (version 7.2 and later).</span></span>
 
-# <a name="introduction"></a><span data-ttu-id="c4a7d-105">Introductie</span><span class="sxs-lookup"><span data-stu-id="c4a7d-105">Introduction</span></span>
+## <a name="introduction"></a><span data-ttu-id="c4a7d-105">Introductie</span><span class="sxs-lookup"><span data-stu-id="c4a7d-105">Introduction</span></span>
 <span data-ttu-id="c4a7d-106">In dit onderwerp wordt beschreven hoe u een Microsoft Power BI-rapport insluit op het tabblad **Analyses** van een werkgebied.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-106">This topic shows how to embed a Microsoft Power BI report on the **Analytics** tab of a workspace.</span></span> <span data-ttu-id="c4a7d-107">In het hier gebruikte voorbeeld wordt het werkgebied **Reserveringenbeheer** in de toepassing Wagenparkbeheer uitgebreid om een analytisch werkgebied in te sluiten in het tabblad **Analyses**.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-107">For the example that is given here, we will extend the **Reservation management** workspace in the Fleet Management application to embed an analytical workspace on an **Analytics** tab.</span></span>
 
-# <a name="prerequisites"></a><span data-ttu-id="c4a7d-108">Vereisten</span><span class="sxs-lookup"><span data-stu-id="c4a7d-108">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="c4a7d-108">Vereisten</span><span class="sxs-lookup"><span data-stu-id="c4a7d-108">Prerequisites</span></span>
 + <span data-ttu-id="c4a7d-109">Open een ontwikkelaaromgeving waarop Platformupdate 8 of hoger wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-109">Access to a developer environment that runs Platform update 8 or later.</span></span>
 + <span data-ttu-id="c4a7d-110">Een analyserapport (.pbix-bestand) dat is gemaakt met Microsoft Power BI-bureaublad en dat een gegevensmodel bevat dat de entiteitsopslagdatabase als bron heeft.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-110">An analytical report (.pbix file) that was created by using Microsoft Power BI Desktop, and that has a data model that is sourced from the Entity store database.</span></span>
 
-# <a name="overview"></a><span data-ttu-id="c4a7d-111">Overzicht</span><span class="sxs-lookup"><span data-stu-id="c4a7d-111">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="c4a7d-111">Overzicht</span><span class="sxs-lookup"><span data-stu-id="c4a7d-111">Overview</span></span>
 <span data-ttu-id="c4a7d-112">Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied introduceert, u kunt in beide de ingesloten analytische weergaven gebruiken om begrijpelijke en interactieve weergaven van uw zakelijke gegevens te maken.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-112">Whether you extend an existing application workspace or introduce a new workspace of your own, you can use embedded analytical views to deliver insightful and interactive views of your business data.</span></span> <span data-ttu-id="c4a7d-113">Het proces voor het toevoegen van een analytisch werkgebiedtabblad bestaat uit vier stappen.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-113">The process for adding an analytical workspace tab has four steps.</span></span>
 
 1. <span data-ttu-id="c4a7d-114">Een .pbix-bestand toevoegen als een Dynamics 365-resource.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-114">Add a .pbix file as a Dynamics 365 resource.</span></span>
@@ -48,7 +48,7 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="c4a7d-118">Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span><span class="sxs-lookup"><span data-stu-id="c4a7d-118">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span> <span data-ttu-id="c4a7d-119">Deze pagina bevat veel inzichten waarmee u aantrekkelijke analytische rapportoplossingen kunt maken.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-119">This page is a great source for insights that can help you create compelling analytical reporting solutions.</span></span>
 
-# <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="c4a7d-120">Een .pbix-bestand toevoegen als een resource</span><span class="sxs-lookup"><span data-stu-id="c4a7d-120">Add a .pbix file as a resource</span></span>
+## <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="c4a7d-120">Een .pbix-bestand toevoegen als een resource</span><span class="sxs-lookup"><span data-stu-id="c4a7d-120">Add a .pbix file as a resource</span></span>
 <span data-ttu-id="c4a7d-121">Voordat u begint, moet u het Power BI-rapport dat u in het werkgebied wilt insluiten, maken of ophalen.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-121">Before you begin, you must create or obtain the Power BI report that you will embed in the workspace.</span></span> <span data-ttu-id="c4a7d-122">Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span><span class="sxs-lookup"><span data-stu-id="c4a7d-122">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span>
  
 <span data-ttu-id="c4a7d-123">Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio projectartefact.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-123">Follow these steps to add a .pbix file as a Visual Studio project artifact.</span></span>
@@ -66,7 +66,7 @@ ms.lasthandoff: 01/19/2018
   
 <span data-ttu-id="c4a7d-131">Nu u het .pbix-bestand hebt toegevoegd als een Dynamics 365-resource, kunt u rapporten insluiten in werkgebieden en rechtstreekse koppelingen toevoegen via menuopties.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-131">Now that you've added the .pbix file as a Dynamics 365 resource, you can embed the reports in workspaces and add direct links by using menu items.</span></span>
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="c4a7d-132">Een tabbesturingselement toevoegen aan een toepassingswerkgebied</span><span class="sxs-lookup"><span data-stu-id="c4a7d-132">Add a tab control to an application workspace</span></span>
+## <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="c4a7d-132">Een tabbesturingselement toevoegen aan een toepassingswerkgebied</span><span class="sxs-lookup"><span data-stu-id="c4a7d-132">Add a tab control to an application workspace</span></span>
 <span data-ttu-id="c4a7d-133">In dit voorbeeld breiden we het werkgebied **Reserveringsbeheer** in het model Wagenparkbeheer uit door het toevoegen van het tabblad **Analyses** aan de definitie van het formulier **FMClerkWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-133">In this example, we will extend the **Reservation management** workspace in the Fleet Management model by adding the **Analytics** tab to the definition of the **FMClerkWorkspace** form.</span></span>
  
 <span data-ttu-id="c4a7d-134">In de volgende afbeelding ziet u hoe het formulier **FMClerkWorkspace** eruit ziet in de ontwerper in Microsoft Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-134">The following illustration shows what the **FMClerkWorkspace** form looks like in the designer in Microsoft Visual Studio.</span></span>
@@ -105,7 +105,7 @@ ms.lasthandoff: 01/19/2018
  
 <span data-ttu-id="c4a7d-161">U hebt nu de taak voor het uitbreiden van de formulierdefinitie van de toepassing voltooid.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-161">You've now completed the task of extending the application form definition.</span></span> <span data-ttu-id="c4a7d-162">Voor meer informatie over het gebruik van uitbreidingen en aanpassingen zie[Aanpassen met extensies en overlayering](../extensibility/customization-overlayering-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="c4a7d-162">For more information about how to use extensions to do customizations, see  [Customization: Overlayering and extensions](../extensibility/customization-overlayering-extensions.md).</span></span>
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="c4a7d-163">X ++-bedrijfslogica toevoegen om een besturingselement voor weergave in te sluiten</span><span class="sxs-lookup"><span data-stu-id="c4a7d-163">Add X++ business logic to embed a viewer control</span></span>
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="c4a7d-163">X ++-bedrijfslogica toevoegen om een besturingselement voor weergave in te sluiten</span><span class="sxs-lookup"><span data-stu-id="c4a7d-163">Add X++ business logic to embed a viewer control</span></span>
 <span data-ttu-id="c4a7d-164">Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het rapportweergave-besturingselement dat is ingesloten in het werkgebied **Reserveringsbeheer**.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-164">Follow these steps to add business logic that initializes the report viewer control that is embedded in the **Reservation management** workspace.</span></span>
 
 1. <span data-ttu-id="c4a7d-165">Open de formulierontwerper **FMClerkWorkspace** om de ontwerpdefinitie uit te breiden.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-165">Open the **FMClerkWorkspace** form designer to extend the design definition.</span></span>
@@ -151,12 +151,12 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="c4a7d-172">U kunt de bestaande operationele weergave openen met de werkgebiedtabbladen onder de paginatitel.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-172">You can access the existing operational view by using the workspace tabs below the page title.</span></span>
 
-# <a name="reference"></a><span data-ttu-id="c4a7d-173">Verwijzing</span><span class="sxs-lookup"><span data-stu-id="c4a7d-173">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="c4a7d-173">Verwijzing</span><span class="sxs-lookup"><span data-stu-id="c4a7d-173">Reference</span></span>
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="c4a7d-174">Methode PBIReportHelper.initializeReportControl</span><span class="sxs-lookup"><span data-stu-id="c4a7d-174">PBIReportHelper.initializeReportControl method</span></span>
+### <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="c4a7d-174">Methode PBIReportHelper.initializeReportControl</span><span class="sxs-lookup"><span data-stu-id="c4a7d-174">PBIReportHelper.initializeReportControl method</span></span>
 <span data-ttu-id="c4a7d-175">Deze sectie bevat informatie over de helperklasse die wordt gebruikt om een Power BI-rapport (.pbix-resource) in te sluiten in een besturingselement voor een formuliergroep.</span><span class="sxs-lookup"><span data-stu-id="c4a7d-175">This section provides information about the helper class that is used to embed a Power BI report (.pbix resource) in a form group control.</span></span>
 
-### <a name="syntax"></a><span data-ttu-id="c4a7d-176">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="c4a7d-176">Syntax</span></span>
+#### <a name="syntax"></a><span data-ttu-id="c4a7d-176">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="c4a7d-176">Syntax</span></span>
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a><span data-ttu-id="c4a7d-177">Parameters</span><span class="sxs-lookup"><span data-stu-id="c4a7d-177">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="c4a7d-177">Parameters</span><span class="sxs-lookup"><span data-stu-id="c4a7d-177">Parameters</span></span>
 
 | <span data-ttu-id="c4a7d-178">Naam</span><span class="sxs-lookup"><span data-stu-id="c4a7d-178">Name</span></span> | <span data-ttu-id="c4a7d-179">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="c4a7d-179">Description</span></span> |
 |---|---|

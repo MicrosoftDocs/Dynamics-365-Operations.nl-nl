@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 68ae9bad8c15f06689c4660ccad27eff5d01c93c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -137,7 +137,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="56395-192">U kunt verschillen in de getelde waarde aanpassen en vervolgens de getelde waarde op de pagina **Cyclustellingswerk in afwachting van controle** accepteren.</span><span class="sxs-lookup"><span data-stu-id="56395-192">You can adjust differences in the counted value and then accept the counted value on the **Cycle count pending review** page.</span></span> <span data-ttu-id="56395-193">U kun de aangepaste telling van de artikelhoeveelheid verifiëren op de pagina **Voorhanden voorraad per locatie**.</span><span class="sxs-lookup"><span data-stu-id="56395-193">You can verify the modified count of the item quantity on the **On hand by location** page.</span></span> <span data-ttu-id="56395-194">De getelde waarde wordt afgewezen als het verschil niet kan worden goedgekeurd.</span><span class="sxs-lookup"><span data-stu-id="56395-194">The counted value is rejected if the difference can't be approved.</span></span>
 
-# <a name="see-also"></a><span data-ttu-id="56395-195">Zie ook</span><span class="sxs-lookup"><span data-stu-id="56395-195">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="56395-195">Zie ook</span><span class="sxs-lookup"><span data-stu-id="56395-195">See also</span></span>
 [<span data-ttu-id="56395-196">Mobiele apparaten voor magazijnwerk configureren</span><span class="sxs-lookup"><span data-stu-id="56395-196">Configure mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
 
 

@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 09266e28c0fec4200e1644049e4a7f2880ebdcc4
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b28d3abb31fe2b54bd207b3dbdd26b26edb31695
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -53,10 +53,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-128">[![Excel-sjabloon](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-128">[![Excel template](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span></span>
 
-<a name="exercise-1-configuration"></a><span data-ttu-id="efb2d-129">Oefening 1: Configuratie</span><span class="sxs-lookup"><span data-stu-id="efb2d-129">Exercise 1: Configuration</span></span>
-=========================
+## <a name="exercise-1-configuration"></a><span data-ttu-id="efb2d-129">Oefening 1: Configuratie</span><span class="sxs-lookup"><span data-stu-id="efb2d-129">Exercise 1: Configuration</span></span>
 
-## <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="efb2d-130">**Taak 1: Organisatiehiërarchie maken**</span><span class="sxs-lookup"><span data-stu-id="efb2d-130">**Task 1: Create organizational hierarchy**</span></span>
+### <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="efb2d-130">**Taak 1: Organisatiehiërarchie maken**</span><span class="sxs-lookup"><span data-stu-id="efb2d-130">**Task 1: Create organizational hierarchy**</span></span>
 <span data-ttu-id="efb2d-131">Omdat het gehele budgetteringsproces op de financiële afdeling plaatsvindt, moet Julia een zeer eenvoudige organisatiehiërarchie maken die alleen bestaat uit de financiële afdeling.</span><span class="sxs-lookup"><span data-stu-id="efb2d-131">As all the budgeting process happens in the Finance department, therefore Julia needs to create a very simple organizational hierarchy – consisting of Finance department only.</span></span> <span data-ttu-id="efb2d-132">1.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-132">1.1.</span></span> <span data-ttu-id="efb2d-133">Navigeer naar Organisatiehiërarchieën (Organisatiebeheer &gt; Organisaties &gt; Organisatiehiërarchieën) en klik op de knop Nieuw</span><span class="sxs-lookup"><span data-stu-id="efb2d-133">Navigate to Organization hierarchies (Organization administration &gt; Organizations &gt; Organization hierarchies) and click New button</span></span>
 
 ![Organisatiehiërarchie](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-155">[![Begindatum](./media/screenshot9.png)](./media/screenshot9.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-155">[![Effective date](./media/screenshot9.png)](./media/screenshot9.png)</span></span>
 
-## <a name="task-2-configure-user-security"></a><span data-ttu-id="efb2d-156">Taak 2: Gebruikerbeveiliging configureren</span><span class="sxs-lookup"><span data-stu-id="efb2d-156">Task 2: Configure user security</span></span>
+### <a name="task-2-configure-user-security"></a><span data-ttu-id="efb2d-156">Taak 2: Gebruikerbeveiliging configureren</span><span class="sxs-lookup"><span data-stu-id="efb2d-156">Task 2: Configure user security</span></span>
 <span data-ttu-id="efb2d-157">In budgetplanning worden speciale beveiligingsbeleidsregels gebruikt om toegang tot de budgetplangegevens te configureren.</span><span class="sxs-lookup"><span data-stu-id="efb2d-157">Budget planning uses special security policies to configure access to budget plans data.</span></span> <span data-ttu-id="efb2d-158">Julia moet toegang verlenen tot financiële budgetplannen voor haarzelf.</span><span class="sxs-lookup"><span data-stu-id="efb2d-158">Julia needs to give access to Finance budget plans for herself.</span></span> 
 
 <span data-ttu-id="efb2d-159">2.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-159">2.1.</span></span> <span data-ttu-id="efb2d-160">Schakel over naar DEMF-rechtspersooncontext.</span><span class="sxs-lookup"><span data-stu-id="efb2d-160">Switch to DEMF legal entity context.</span></span> 
@@ -109,7 +108,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-178">[![Toegang verlenen](./media/screenshot14.png)](./media/screenshot14.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-178">[![Grant access](./media/screenshot14.png)](./media/screenshot14.png)</span></span>
 
-## <a name="task-3-create-scenarios"></a><span data-ttu-id="efb2d-179">Taak 3: Scenario's maken</span><span class="sxs-lookup"><span data-stu-id="efb2d-179">Task 3: Create scenarios</span></span>
+### <a name="task-3-create-scenarios"></a><span data-ttu-id="efb2d-179">Taak 3: Scenario's maken</span><span class="sxs-lookup"><span data-stu-id="efb2d-179">Task 3: Create scenarios</span></span>
 <span data-ttu-id="efb2d-180">3.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-180">3.1.</span></span> <span data-ttu-id="efb2d-181">Navigeer naar Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configuratie budgetplanning.</span><span class="sxs-lookup"><span data-stu-id="efb2d-181">Navigate to Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="efb2d-182">Noteer op de pagina Scenario's de scenario's die we verder gaan gebruiken in dit lab: werkelijke en gebudgetteerde waarden van vorig jaar.</span><span class="sxs-lookup"><span data-stu-id="efb2d-182">In the Scenarios page note the scenarios we are going to use further in this lab: Previous year actuals and Budgeted.</span></span> 
 
 <span data-ttu-id="efb2d-183">*Opmerking: u kunt desgewenst nieuwe scenario's voor deze oefening maken deze gebruiken.*</span><span class="sxs-lookup"><span data-stu-id="efb2d-183">*Note: You can create new scenarios for this exercise if desired and use those instead.*</span></span> 
@@ -118,7 +117,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-185">*Opmerking: omdat Julia geen formeel goedkeuringsproces voor budgetvoorbereiding gebruikt, wordt de instelling voor workflows, fasen en workflowfasen in dit lab overgeslagen en worden bestaande instellingen voor Workflow automatisch goedkeuren gebruikt.*</span><span class="sxs-lookup"><span data-stu-id="efb2d-185">*Note: as Julia is not using formal approval process for budget preparation, we will skip Workflows, Stages and Workflow stages setup in this lab and will use existing setup for Auto – approve workflow. See appendix for this workflow configuration.*</span></span>
 
-## <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="efb2d-186">Taak 4: Budgetplankolommen maken</span><span class="sxs-lookup"><span data-stu-id="efb2d-186">Task 4: Create budget plan columns</span></span>
+### <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="efb2d-186">Taak 4: Budgetplankolommen maken</span><span class="sxs-lookup"><span data-stu-id="efb2d-186">Task 4: Create budget plan columns</span></span>
 <span data-ttu-id="efb2d-187">De kolommen van het budgetplan zijn monetaire of op hoeveelheid gebaseerde kolommen die in de documentindeling van het budgetplan kunnen worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="efb2d-187">Budget plan columns are either Monetary or quantity based columns that can be used in budget plan document layout.</span></span> <span data-ttu-id="efb2d-188">In ons voorbeeld moeten we een kolom maken voor werkelijke waarden van vorig jaar en 12 kolommen voor elke maand in een gebudgetteerd jaar.</span><span class="sxs-lookup"><span data-stu-id="efb2d-188">In our example we need to create a column for Previous year actuals and 12 columns to represent each month in a budgeted year.</span></span> <span data-ttu-id="efb2d-189">Kolommen kunnen worden gemaakt door eenvoudigweg te klikken op de knop Toevoegen en de waarden in te vullen of met behulp van een gegevensentiteit.</span><span class="sxs-lookup"><span data-stu-id="efb2d-189">Columns can be created either by simply clicking Add button and filling in the values, or with a help of Data entity.</span></span> <span data-ttu-id="efb2d-190">In dit lab gebruiken we Gegevensentiteit om de waarden in te vullen.</span><span class="sxs-lookup"><span data-stu-id="efb2d-190">In this lab we will use Data entity to fill in the values.</span></span> 
 
 <span data-ttu-id="efb2d-191">4.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-191">4.1.</span></span> <span data-ttu-id="efb2d-192">Open de pagina Kolommen in Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configuratie budgetplanning.</span><span class="sxs-lookup"><span data-stu-id="efb2d-192">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Columns page.</span></span> <span data-ttu-id="efb2d-193">Klik op de knop Office rechtsboven in het formulier en selecteer kolommen (ongefilterd)</span><span class="sxs-lookup"><span data-stu-id="efb2d-193">Click Office button on the top right corner of the form and pick Columns (unfiltered)</span></span> 
@@ -151,7 +150,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-219">[![Vernieuwen](./media/screenshot23.png)](./media/screenshot23.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-219">[![Refresh](./media/screenshot23.png)](./media/screenshot23.png)</span></span>
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="efb2d-220">Taak 5: Documentindelingen en sjablonen voor het budgetplan maken</span><span class="sxs-lookup"><span data-stu-id="efb2d-220">Task 5: Create budget plan document layouts and templates</span></span>
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="efb2d-220">Taak 5: Documentindelingen en sjablonen voor het budgetplan maken</span><span class="sxs-lookup"><span data-stu-id="efb2d-220">Task 5: Create budget plan document layouts and templates</span></span>
 <span data-ttu-id="efb2d-221">Met de indeling wordt gedefinieerd hoe het raster met documentregels van het budgetplan eruit ziet wanneer een gebruiker het document van het budgetplan opent.</span><span class="sxs-lookup"><span data-stu-id="efb2d-221">Layout defines how budget plan document lines grid is going to look like when user opens budget plan document.</span></span> <span data-ttu-id="efb2d-222">Het is ook mogelijk om van indeling voor het document van het budgetplan te wisselen om dezelfde gegevens vanuit verschillende hoeken te bekijken.</span><span class="sxs-lookup"><span data-stu-id="efb2d-222">It is also possible to switch the layout for budget plan document to see the same data in different angles.</span></span> <span data-ttu-id="efb2d-223">Nu Julia kolommen heeft gedefinieerd die in ons document van het budgetplan moeten worden gebruikt, moet ze een indeling voor het budgetplandocument maken, die er hetzelfde uitziet als de Excel-tabel waarmee ze budgetgegevens maakt (zie de sectie Scenario-overzicht in dit lab)</span><span class="sxs-lookup"><span data-stu-id="efb2d-223">Now, as she’s got columns defined to be used with our budget plan document, Julia needs to create a budget plan document layout, that would look similar to the Excel table she uses to create budget data (see section Scenario overview in this lab)</span></span> 
 
 <span data-ttu-id="efb2d-224">5.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-224">5.1.</span></span> <span data-ttu-id="efb2d-225">Open de pagina Indelingen in Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configuratie budgetplanning.</span><span class="sxs-lookup"><span data-stu-id="efb2d-225">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Layouts page.</span></span> <span data-ttu-id="efb2d-226">Maak een nieuwe indeling voor Maandelijkse budgetinvoer:</span><span class="sxs-lookup"><span data-stu-id="efb2d-226">Create a new layout for Monthly budget entry:</span></span>
@@ -172,7 +171,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-240">5.3.</span><span class="sxs-lookup"><span data-stu-id="efb2d-240">5.3.</span></span> <span data-ttu-id="efb2d-241">&lt; Optionele stap&gt; Wijzig de Excel-sjabloon om deze er gebruikersvriendelijker te laten uitzien; voeg totale formules, koptekstvelden, opmaak enzovoort toe. Sla de wijzigingen op en upload het bestand naar budgetplanindeling door te klikken op Indeling &gt; Uploaden [![Uploaden](./media/screenshot26.png)](./media/screenshot26.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-241">&lt; Optional step&gt; Modify Excel template to make it look more user friendly – add total formulas, header fields, formatting, etc. Save the changes and upload the file to budget plan layout by clicking Layout &gt; Upload [![Upload](./media/screenshot26.png)](./media/screenshot26.png)</span></span>
 
-## <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="efb2d-242">Taak 6: Een budgetplanningsproces maken</span><span class="sxs-lookup"><span data-stu-id="efb2d-242">Task 6: Create a budget planning process</span></span>
+### <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="efb2d-242">Taak 6: Een budgetplanningsproces maken</span><span class="sxs-lookup"><span data-stu-id="efb2d-242">Task 6: Create a budget planning process</span></span>
 <span data-ttu-id="efb2d-243">Julia moet een nieuw budgetplanningsproces maken en activeren waarin alle bovenstaande instellingen worden gecombineerd om met het invoeren van budgetplannen te starten.</span><span class="sxs-lookup"><span data-stu-id="efb2d-243">Julia needs to create and activate a new budget planning process combining all the setup above to start entering budget plans.</span></span> <span data-ttu-id="efb2d-244">Met het budgetplanningsproces wordt gedefinieerd welke budgetorganisaties, workflow, indelingen en sjablonen worden gebruikt voor het maken van budgetplannen.</span><span class="sxs-lookup"><span data-stu-id="efb2d-244">Budget planning process defines what budgeting organizations, workflow, layouts and templates will be used for creating budget plans.</span></span> 
 
 <span data-ttu-id="efb2d-245">6.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-245">6.1.</span></span> <span data-ttu-id="efb2d-246">Navigeer naar Budgettering &gt; Instellen &gt; Budgetplanning &gt; Budgetplanningsproces en maak een nieuwe record.</span><span class="sxs-lookup"><span data-stu-id="efb2d-246">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning process and create a new record.</span></span>
@@ -193,10 +192,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-258">[![Activeren](./media/screenshot28.png)](./media/screenshot28.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-258">[![Activate](./media/screenshot28.png)](./media/screenshot28.png)</span></span>
 
-<a name="exercise-2-process-simulation"></a><span data-ttu-id="efb2d-259">Oefening 2: Processimulatie</span><span class="sxs-lookup"><span data-stu-id="efb2d-259">Exercise 2: Process simulation</span></span>
-==============================
+## <a name="exercise-2-process-simulation"></a><span data-ttu-id="efb2d-259">Oefening 2: Processimulatie</span><span class="sxs-lookup"><span data-stu-id="efb2d-259">Exercise 2: Process simulation</span></span>
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="efb2d-260">Taak 7: Initiële gegevens genereren voor budgetplan vanuit grootboek</span><span class="sxs-lookup"><span data-stu-id="efb2d-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="efb2d-260">Taak 7: Initiële gegevens genereren voor budgetplan vanuit grootboek</span><span class="sxs-lookup"><span data-stu-id="efb2d-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
 <span data-ttu-id="efb2d-261">7.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-261">7.1.</span></span> <span data-ttu-id="efb2d-262">Navigeer naar Budgettering &gt; Periodiek &gt; Budgetplan genereren op basis van grootboek.</span><span class="sxs-lookup"><span data-stu-id="efb2d-262">Navigate to Budgeting &gt; Periodic &gt; Generate budget plan from General ledger.</span></span> <span data-ttu-id="efb2d-263">Vul de periodieke procesparameters in en de klik op de knop Genereren.</span><span class="sxs-lookup"><span data-stu-id="efb2d-263">Fill in the periodic process parameters and click button Generate.</span></span> 
 
 <span data-ttu-id="efb2d-264">[![Genereren](./media/screenshot29.png)](./media/screenshot29.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-264">[![Generate](./media/screenshot29.png)](./media/screenshot29.png)</span></span> 
@@ -209,7 +207,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-271">[![Budgetplanweergave](./media/screenshot31.png)](./media/screenshot31.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-271">[![Budget plan display](./media/screenshot31.png)](./media/screenshot31.png)</span></span>
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="efb2d-272">Taak 8: Budget van het huidige jaar maken op basis van werkelijke waarden van vorig jaar</span><span class="sxs-lookup"><span data-stu-id="efb2d-272">Task 8: Create current year budget based on previous year actuals</span></span>
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="efb2d-272">Taak 8: Budget van het huidige jaar maken op basis van werkelijke waarden van vorig jaar</span><span class="sxs-lookup"><span data-stu-id="efb2d-272">Task 8: Create current year budget based on previous year actuals</span></span>
 <span data-ttu-id="efb2d-273">Toewijzingsmethoden kunnen worden gebruikt in het budgetplan om gegevens voor budgetplannen gemakkelijk te kopiëren tussen scenario´s/te verspreiden over perioden/toe te wijzen aan dimensies.</span><span class="sxs-lookup"><span data-stu-id="efb2d-273">Allocation methods can be used in budget plan to easily copy information for budget plans from one scenario to another/ spread them across periods/ allocate to dimensions.</span></span> <span data-ttu-id="efb2d-274">We zullen toewijzingen gebruiken om het budget van het huidige jaar te maken op basis van de werkelijke waarden van vorig jaar.</span><span class="sxs-lookup"><span data-stu-id="efb2d-274">We will use allocations to create current year budget from previous year actuals.</span></span> 
 
 <span data-ttu-id="efb2d-275">8.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-275">8.1.</span></span> <span data-ttu-id="efb2d-276">Selecteer alle regels in het raster van het budgetplandocument en klik op de knop Budget toewijzen</span><span class="sxs-lookup"><span data-stu-id="efb2d-276">Pick all lines in the budget plan document grid and click button allocate budget</span></span> 
@@ -224,7 +222,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-282">[![Verkoopcurve](./media/screenshot34.png)](./media/screenshot34.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-282">[![Sales curve](./media/screenshot34.png)](./media/screenshot34.png)</span></span>
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="efb2d-283">Taak 9: Het budgetplandocument aanpassen met Excel en het document afronden</span><span class="sxs-lookup"><span data-stu-id="efb2d-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="efb2d-283">Taak 9: Het budgetplandocument aanpassen met Excel en het document afronden</span><span class="sxs-lookup"><span data-stu-id="efb2d-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
 <span data-ttu-id="efb2d-284">9.1.</span><span class="sxs-lookup"><span data-stu-id="efb2d-284">9.1.</span></span> <span data-ttu-id="efb2d-285">Klik op de knop Werkblad om documentinhoud in Excel te openen</span><span class="sxs-lookup"><span data-stu-id="efb2d-285">Click Button worksheet to open document contents in Excel</span></span>
 
 <span data-ttu-id="efb2d-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span></span>
@@ -239,8 +237,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="efb2d-294">Zodra de workflow is voltooid, wordt de budgetplandocumentfase gewijzigd in Goedgekeurd.</span><span class="sxs-lookup"><span data-stu-id="efb2d-294">Once workflow completes, budget plan document stage changes to Approved.</span></span> <span data-ttu-id="efb2d-295">[![Goedgekeurd](./media/screenshot38.png)](./media/screenshot38.png)</span><span class="sxs-lookup"><span data-stu-id="efb2d-295">[![Approved](./media/screenshot38.png)](./media/screenshot38.png)</span></span>
 
-<a name="appendix"></a><span data-ttu-id="efb2d-296">Bijlage</span><span class="sxs-lookup"><span data-stu-id="efb2d-296">Appendix</span></span>
-========
+## <a name="appendix"></a><span data-ttu-id="efb2d-296">Bijlage</span><span class="sxs-lookup"><span data-stu-id="efb2d-296">Appendix</span></span>
 
 ### <a name="auto-approve-workflow-configuration"></a><span data-ttu-id="efb2d-297">Workflowconfiguratie automatisch goedkeuren</span><span class="sxs-lookup"><span data-stu-id="efb2d-297">Auto-Approve workflow configuration</span></span>
 
