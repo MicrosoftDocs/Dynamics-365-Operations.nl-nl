@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
 ms.openlocfilehash: e1d0bbd71737001579218068e2ab0e02bc973f38
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="e11db-103">De functionaliteit van Microsoft Dynamics 365 for Talent uitbreiden</span><span class="sxs-lookup"><span data-stu-id="e11db-103">Extend the functionality of Microsoft Dynamics 365 for Talent</span></span>
