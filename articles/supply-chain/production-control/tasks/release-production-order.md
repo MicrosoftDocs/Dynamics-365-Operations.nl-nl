@@ -1,4 +1,4 @@
---- 
+---
 title: Een productieorder vrijgeven
 description: Deze procedure laat zien hoe u een productieorder vrijgeeft.
 author: johanhoffmann
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2ae2d84bd12d338c9bada5518c43178b22112006
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 6e628d8564c093c5d75fffe268b2107262d508c3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="release-a-production-order"></a><span data-ttu-id="6ea2b-103">Een productieorder vrijgeven</span><span class="sxs-lookup"><span data-stu-id="6ea2b-103">Release a production order</span></span>
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
 5. <span data-ttu-id="6ea2b-123">Klik op het selectievakje Routekaart afdrukken.</span><span class="sxs-lookup"><span data-stu-id="6ea2b-123">Click the Print route card checkbox.</span></span>
 6. <span data-ttu-id="6ea2b-124">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="6ea2b-124">Click OK.</span></span>
 7. <span data-ttu-id="6ea2b-125">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="6ea2b-125">Close the page.</span></span>
-
 
