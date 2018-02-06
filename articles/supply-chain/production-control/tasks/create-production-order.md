@@ -1,4 +1,4 @@
---- 
+---
 title: Een productieorder maken
 description: Deze procedure laat zien hoe u een productieorder maakt.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ Deze procedure laat zien hoe u een productieorder maakt. Het bedrijf van de demo
     * Het wijzigen van de verwerkingstijd is van invloed op het geraamde routeverbruik en de kosten van de productieorder.  
 6. Klik op Opslaan.
 7. Sluit de pagina.
-
 

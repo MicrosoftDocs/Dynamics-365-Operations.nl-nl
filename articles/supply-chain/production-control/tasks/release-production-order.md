@@ -1,4 +1,4 @@
---- 
+---
 title: Een productieorder vrijgeven
 description: Deze procedure laat zien hoe u een productieorder vrijgeeft.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ Deze procedure laat zien hoe u een productieorder vrijgeeft. Het bedrijf van de 
 5. Klik op het selectievakje Routekaart afdrukken.
 6. Klik op OK.
 7. Sluit de pagina.
-
 

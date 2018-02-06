@@ -69,4 +69,3 @@ Deze procedure toont hoe u de juiste rollen toewijst aan de gebruikersaccount va
 6. In het veld Productie-eenheid kunt u het standaardfilter voor de medewerker instellen. Dit zorgt ervoor dat alleen productietaken voor de geselecteerde productie-eenheid worden weergegeven wanneer de medewerker zich bij het apparaat aanmeldt.
 7. Sluit de pagina.
 
-

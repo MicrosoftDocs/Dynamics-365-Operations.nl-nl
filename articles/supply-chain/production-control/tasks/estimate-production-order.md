@@ -1,4 +1,4 @@
---- 
+---
 title: Een productieorder ramen
 description: U kunt deze procedure uitvoeren met behulp van het demobedrijf USMF of met uw eigen gegevensset.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ U kunt deze procedure uitvoeren met behulp van het demobedrijf USMF of met uw ei
 1. Klik in het actievenster op Kosten beheren.
 2. Klik op Berekeningsdetails weergeven.
     * Op deze pagina wordt de kostenanalyse weergegeven. U kunt bijvoorbeeld de totale kostprijs per eenheid weergeven voor het eindproduct op de eerste regel. De volgende rijen bevatten kosten volgens de stuklijst, productieroute en indirecte kosten.  
-
 

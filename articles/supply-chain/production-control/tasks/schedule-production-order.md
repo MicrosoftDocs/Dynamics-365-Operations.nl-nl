@@ -1,4 +1,4 @@
---- 
+---
 title: Een productieorder plannen
 description: Deze procedure toont hoe u een productieorder plant.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ Deze procedure toont hoe u een productieorder plant. Het bedrijf van de demogege
     * De pagina Capaciteitsbelasting toont de capaciteit die is gereserveerd via taakplanning, het totale aantal uren dat momenteel is gereserveerd voor de resource en het aantal uren dat beschikbaar is voor taakplanning voor de resource.  
 6. Sluit de pagina.
 7. Sluit de pagina.
-
 
