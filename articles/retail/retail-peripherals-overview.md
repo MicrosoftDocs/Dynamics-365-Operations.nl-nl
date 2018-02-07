@@ -1,6 +1,7 @@
 ---
 title: Overzicht van randapparatuur voor de detailhandel
 description: In dit onderwerp worden de concepten beschreven die verband houden met detailhandelrandapparaten.
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

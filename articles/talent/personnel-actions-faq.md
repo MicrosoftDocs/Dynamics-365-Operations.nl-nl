@@ -1,7 +1,7 @@
 ---
 title: Personeelsacties [FAQ]
 description: Dit onderwerp bevat antwoorden op vragen die u mogelijk hebt als uw organisatie personeelsacties gebruikt. Personeelsacties zijn aanvullende stappen die u moet voltooien wanneer u bepaalde personeelsgerelateerde taken uitvoert.
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

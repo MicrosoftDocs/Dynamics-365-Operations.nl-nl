@@ -1,7 +1,7 @@
 ---
 title: Onderdelen van een financieel rapport
 description: "In dit artikel wordt beschreven hoe de onderdelen of bouwstenen van rapportdefinities worden gebruikt in de financiële rapportage. Deze bouwstenen bevatten rijdefinities, kolomdefinities en rapportagestructuurdefinities. In het artikel wordt uitgelegd hoe bouwstenen moeten worden geordend en vergrendeld en hoe u kunt werken met bouwsteengroepen."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
