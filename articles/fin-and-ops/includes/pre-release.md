@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Deze functie maakt deel uit van een gerichte introductie en is alleen beschikbaar voor gebruikers die zich hebben aangemeld voor het voordeelprogramma voor continue automatische updates (CAAP). Deze functie wordt opgenomen in een andere, komende algemene beschikbaarheidsversie. Zie [Standaard- en gerichte platformversies](../get-started/public-preview-releases.md) voor meer informatie over standaard en gerichte versies.

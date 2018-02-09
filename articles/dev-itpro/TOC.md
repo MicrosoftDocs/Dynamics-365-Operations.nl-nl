@@ -114,6 +114,7 @@
 #### [Aanpassing: overlayering en extensies](extensibility/customization-overlayering-extensions.md)
 ### Wat is er nieuw
 #### [Uitbreidbaarheidswijzigingen juli 2017](extensibility/changes-july-2017.md)
+#### [Uitbreidbaarheidswijzigingen in Dynamics 365 for Finance and Operations, Enterprise edition 7.3](extensibility/extensibility-changes-73.md)
 ### Basisgegevens
 #### [Ingrijpende aanpassingen](extensibility/intrusive-customizations.md)
 #### [Klasse-extensies](extensibility/class-extensions.md)
@@ -138,14 +139,19 @@
 #### [Eigenschappen voor formulierbesturing wijzigen](extensibility/modify-control-properties.md)
 #### [Een label wijzigen](extensibility/change-label.md)
 #### [Bereik van de nummerreeks verlengen](extensibility/extend-number-sequence-scope.md)
+#### [Een nieuwe voorraaddimensies toevoegen](extensibility/inventory-dimensions.md)
+#### [Wijzigingen in uitbreidbaarheid van prijzen en kortingen](extensibility/pricing-app73.md)
+#### [Extensie tabeltoewijzing](extensibility/map-extensions.md)
+#### [Tabeltoewijzingen uitbreiden die worden gebruikt als interfaces](extensibility/maps-as-interfaces.md)
+#### [Tabeltoewijzingen uitbreiden die worden gebruikt voor versiebeheer](extensibility/maps-with-versioning.md)
 
 
 
 
 ## Prestaties
-### [Traceren met Traceparser](perf-test/trace-trace-tutorial.md)
+### [Traceren met Trace Parser](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK en meerdere gebruikers testen met Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
-### [Problemen vaststellen en prestatieproblemen analyseren met Traceparser](perf-test/trace-parser.md)
+### [Problemen vaststellen en prestatieproblemen analyseren met Trace Parser](perf-test/trace-parser.md)
 ### [Prestatietimer](perf-test/performance-timer.md)
 ## Ondersteuning voor testen in Visual Studio
 ### [Testen en validaties](perf-test/testing-validation.md)
@@ -523,16 +529,16 @@
 
 # [Upgrade en migratie](migration-upgrade/upgrade-home-page.md)
 ## [Upgraden van AX 2012 naar Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Analyseren: het hulpprogramma Upgradeanalyse gebruiken om upgrade te plannen](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analyseren: de service Codeupgrade gebruiken om de inspanning te schatten voor het bijwerken van de code](migration-upgrade/analyze-code-upgrade.md)
-### [Analyseren: een sandbox-omgeving implementeren](migration-upgrade/analysis-sandbox.md)
-### [Upgrade: gegevens bijwerken in een ontwikkelomgeving](migration-upgrade/data-upgrade-2012.md)
-### [Upgrade: taken voor AX 2012-gegevensupgrade](migration-upgrade/prepare-data-upgrade.md)
-### [Upgrade: gegevens bijwerken in een sandbox-omgeving](migration-upgrade/upgrade-data-sandbox.md)
-### [Valideren: wijziging testen](migration-upgrade/upgrade-cutover-testing.md)
-### [Valideren: uit te voeren taken na de upgrade](migration-upgrade/app-validation-process.md)
-### [Valideren: functioneel testen](migration-upgrade/upgrade-functional-validation.md)
-### [Valideren: go-live voorbereiden](migration-upgrade/upgrade-go-live-prep.md)
+### [Upgrade van AX 2012 - Het hulpprogramma Upgradeanalyse gebruiken om te plannen](migration-upgrade/upgrade-analyzer-tool.md)
+### [Upgrade van AX 2012 - De service Codeupgrade gebruiken om de inspanning te schatten](migration-upgrade/analyze-code-upgrade.md)
+### [Upgrade van AX 2012 - Een sandbox-omgeving implementeren](migration-upgrade/analysis-sandbox.md)
+### [Upgrade van AX 2012 - Gegevens bijwerken in een ontwikkelomgeving](migration-upgrade/data-upgrade-2012.md)
+### [Upgrade van AX 2012 - Taken voor AX 2012-gegevensupgrade](migration-upgrade/prepare-data-upgrade.md)
+### [Upgrade van AX 2012 - Gegevens bijwerken in een sandbox-omgeving](migration-upgrade/upgrade-data-sandbox.md)
+### [Upgrade van AX 2012 - Cutover testen](migration-upgrade/upgrade-cutover-testing.md)
+### [Upgrade van AX 2012 - Taken die moeten worden uitgevoerd na upgrade](migration-upgrade/app-validation-process.md)
+### [Upgrade van AX 2012 - functionele test geslaagd](migration-upgrade/upgrade-functional-validation.md)
+### [AX 2012 upgrade - go live voorbereiden](migration-upgrade/upgrade-go-live-prep.md)
 
 
 ### Wijzigingen die van invloed zijn op de upgrade vanaf AX 2012
@@ -590,6 +596,8 @@
 ## [Batchverwerking](sysadmin/batch-processing-overview.md)
 ### [Overzicht van batchserver](sysadmin/batch-server-overview.md)
 ### [Een batchtaak maken](sysadmin/tasks/create-batch-job.md)
+
+## [Regels maken voor Optimization advisor](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Overzicht van Lifecycle Services](lifecycle-services/lcs.md)
