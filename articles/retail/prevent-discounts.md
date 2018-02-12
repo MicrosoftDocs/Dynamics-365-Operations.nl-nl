@@ -1,7 +1,7 @@
 ---
 title: Kortingen voor detailhandelproducten voorkomen
 description: Er zijn verschillende redenen waarom detailhandelaren willen voorkomen dat voor bepaalde producten korting wordt verleend, zoals bij een promotie of tijdens de verkoop op het POS.
-author: jeffbl
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

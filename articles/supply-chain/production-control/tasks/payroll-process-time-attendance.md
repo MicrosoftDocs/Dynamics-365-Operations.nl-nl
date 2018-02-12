@@ -1,4 +1,4 @@
---- 
+---
 title: Proces van tijd- en aanwezigheidsregistratie inschakelen
 description: Deze procedure laat zien hoe u het salarisproces voor tijd en aanwezigheid kunt inschakelen.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ Deze procedure laat zien hoe u het salarisproces voor tijd en aanwezigheid kunt 
 6. Vouw de sectie Tijdregistratie uit.
 7. Klik op Bewerken.
 8. Typ of selecteer een waarde in het veld Salarisovereenkomst.
-
 

@@ -8,9 +8,10 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: shylaw

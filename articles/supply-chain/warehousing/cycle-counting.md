@@ -137,7 +137,7 @@ Een cyclustellingsverschil treedt op in de volgende scenario´s, als de optie **
 
 U kunt verschillen in de getelde waarde aanpassen en vervolgens de getelde waarde op de pagina **Cyclustellingswerk in afwachting van controle** accepteren. U kun de aangepaste telling van de artikelhoeveelheid verifiëren op de pagina **Voorhanden voorraad per locatie**. De getelde waarde wordt afgewezen als het verschil niet kan worden goedgekeurd.
 
-# <a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 [Mobiele apparaten voor magazijnwerk configureren](configure-mobile-devices-warehouse.md)
 
 

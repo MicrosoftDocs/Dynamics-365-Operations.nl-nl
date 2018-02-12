@@ -1,7 +1,7 @@
 ---
 title: Voorraadbatches samenvoegen
 description: "Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

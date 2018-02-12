@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -43,7 +44,7 @@ U kunt bedragen toewijzen aan (of verdelen over) een of meer rekeningen of combi
 
 [![Bedrijfsproces](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>Btw
+## <a name="sales-tax"></a>Btw
 Ieder bedrijf int en betaalt btw aan verschillende btw-diensten. De regels en tarieven variëren per land/regio, staat, graafschap en stad.
 Bovendien moeten de regels periodiek worden bijgewerkt wanneer de belastingdienst de vereisten wijzigt. De btw-codes bevatten de basisinformatie over de bedragen die u int en de bedragen die u aan de btw-dienst betaalt. Wanneer u btw-codes instelt, definieert u de bedragen of percentages die moeten worden geïnd. U definieert ook de verschillende methoden waarmee deze bedragen of percentages waarop de transactiebedragen worden toegepast. De onderwerpen in dit hoofdstuk geven informatie over hoe u btw-codes instelt voor de methoden en tarieven die uw belastingdienst oplegt.
 
@@ -52,13 +53,13 @@ Bovendien moeten de regels periodiek worden bijgewerkt wanneer de belastingdiens
  - [Btw-betalingen en afrondingsregels](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende resources
 
-#### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
+### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
 Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om te zien welke nieuwe functies zijn vrijgegeven en welke nieuwe functies in ontwikkeling zijn. 
 
-#### <a name="blogs"></a>Weblogs
+### <a name="blogs"></a>Weblogs
 
 U kunt adviezen, nieuws en andere informatie over Leveranciers en andere oplossingen vinden op de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
@@ -66,10 +67,10 @@ Er zijn veel berichten over Grootboek beschikbaar op de [blog van het Microsoft 
 
 De [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) geeft Microsoft Dynamics-partners een enkele bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
 
-#### <a name="task-guides"></a>Taakbegeleidingen
+### <a name="task-guides"></a>Taakbegeleidingen
 Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
 
-#### <a name="videos"></a>Video's
+### <a name="videos"></a>Video's
 
 Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

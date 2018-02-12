@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ De tegels **Overzicht** geven een overzicht van de facturen voor de geselecteerd
 -   Betaalde facturen zijn facturen die volledig zijn betaald in Finance and Operations.
 
 Klik op een tegel om een gefilterde weergave van de pagina **Facturenlijst** te openen.
+
 ### <a name="tabular-lists"></a>Lijsten in tabelvorm
 
 In de sectie **Lijsten in tabelvorm** wordt de factureringsstatus onderverdeeld als de overzichtstegels: Concept en Verzonden, niet-goedgekeurde lijsten. In de Conceptstatus kan een factuur naar de workflow zijn verzonden of zijn verwijderd. De laatste lijst in tabelvorm is een optie om facturen te zoeken. U kunt filteren tijdens het zoeken, zodat het zoeken sneller verloopt.
-Lijstpagina met alle leveranciersfacturen
+
+<a name="all-vendor-invoices-list-page"></a>Lijstpagina met alle leveranciersfacturen
 -----------------------------
 
 U kunt alle geboekte en niet-geboekte leveranciersfacturen weergeven op de lijstpagina **Samenwerkingsfacturen van leveranciers**. Gebruik deze lijstpagina om de betalingsstatus van de facturen weer te geven. De betalingsstatussen zijn Niet-geboekt, Onbetaald, Gedeeltelijk betaald en Volledig betaald.

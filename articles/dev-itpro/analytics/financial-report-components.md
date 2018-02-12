@@ -1,7 +1,7 @@
 ---
 title: Onderdelen van een financieel rapport
 description: "In dit artikel wordt beschreven hoe de onderdelen of bouwstenen van rapportdefinities worden gebruikt in de financiële rapportage. Deze bouwstenen bevatten rijdefinities, kolomdefinities en rapportagestructuurdefinities. In het artikel wordt uitgelegd hoe bouwstenen moeten worden geordend en vergrendeld en hoe u kunt werken met bouwsteengroepen."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -112,7 +112,7 @@ Wanneer u een bouwsteen opent, hebben andere gebruikers alleen-lezen toegang tot
 3.  Selecteer een bouwsteen en klik op **Uitchecken ongedaan maken**.
 4.  Klik op **Ja** om de te bouwsteen in te checken.
 
-# <a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiële rapportage](financial-reporting-intro.md)
 

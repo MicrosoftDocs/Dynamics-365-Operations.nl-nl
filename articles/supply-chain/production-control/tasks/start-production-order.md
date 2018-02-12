@@ -1,4 +1,4 @@
---- 
+---
 title: Een productieorder starten
 description: Deze procedure toont hoe u een productieorder start op de werkvloer.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ Deze procedure toont hoe u een productieorder start op de werkvloer. Tijd- en ma
 7. Klik op Boeken.
 8. Klik op OK.
     * In het routekaartjournaal wordt de bestede tijd voor de afzonderlijke bewerkingen vastgelegd. Goede en foutieve hoeveelheid kan ook worden gerapporteerd.  
-
 

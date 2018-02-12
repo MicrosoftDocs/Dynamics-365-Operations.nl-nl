@@ -1,7 +1,7 @@
 --- 
 title: Een product/productmodel vrijgeven aan rechtspersonen
 description: Deze procedure laat zien hoe u een product of productmodel vrijgeeft aan een of meer rechtspersonen.
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

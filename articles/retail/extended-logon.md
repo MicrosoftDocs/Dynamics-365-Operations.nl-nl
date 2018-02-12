@@ -34,8 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Dit onderwerp gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail moderne POS (MPOS).
 
-<a name="setting-up-extended-logon"></a>Uitgebreide aanmelding instellen
-=========================
+## <a name="setting-up-extended-logon"></a>Uitgebreide aanmelding instellen
 
 U kunt de instellingen voor streepjescodemaskers vinden via **Detailhandel** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Functionaliteitsprofielen**. Het sneltabblad **Functies** bevat de volgende opties voor uitgebreide aanmelding.
 
@@ -55,23 +54,19 @@ Wanneer de optie **Personeel aanmelden met kaart** is ingeschakeld, kunnen werkn
 
 Wanneer de optie **Voor het aanmelden van personeel met een kaart is een wachtwoord vereist** is ingeschakeld, selecteert Personeel aanmelden met kaart alleen de werknemer die is toegewezen aan de uitgebreide aanmelding die wordt voorgesteld. Werknemers moeten nog steeds hun wachtwoord invoeren wanneer deze optie is ingeschakeld.
 
-<a name="assigning-an-extended-logon"></a>Een uitgebreide aanmelding toewijzen
-===========================
+## <a name="assigning-an-extended-logon"></a>Een uitgebreide aanmelding toewijzen
 
 Standaard kunnen alleen managers uitgebreide aanmelding aan werknemers toewijzen. Als u uitgebreide aanmelding wilt toewijzen, gaat u naar **Uitgebreid aanmelden** in POS. Zoek vervolgens naar een werknemer door zijn of haar operator-id in het zoekveld in te voeren. Selecteer de werknemer en klik vervolgens op **Toewijzen**. Op de volgende pagina haalt u de uitgebreide aanmelding door of scant u deze om de werknemer toe te wijzen. Als het doorhalen of scannen met succes is gelezen, wordt de knop **OK** beschikbaar. Klik op **OK** om de uitgebreide aanmelding voor die werknemer op te slaan.
 
-<a name="deleting-an-extended-logon"></a>Een uitgebreide aanmelding verwijderen
-==========================
+## <a name="deleting-an-extended-logon"></a>Een uitgebreide aanmelding verwijderen
 
 U kunt de uitgebreide aanmelding die aan een werknemer is toegewezen verwijderen door te zoeken naar de werknemer met de bewerking **Uitgebreide aanmelding**. Selecteer de werknemer en klik vervolgens op **Verwijderen**. Alle uitgebreide aanmeldreferenties die zijn gekoppeld aan die werknemer, worden verwijderd.
 
-<a name="extending-extended-logon"></a>Uitgebreide aanmelding uitbreiden
-========================
+## <a name="extending-extended-logon"></a>Uitgebreide aanmelding uitbreiden
 
 De aanmeldservice kan worden uitgebreid om extra aanmeldenapparaten, zoals uitgebreide palmscanners te ondersteunen. Zie de documentatie van POS-uitbreidbaarheid voor meer informatie.
 
-<a name="using-extended-logon"></a>Uitgebreide aanmelding gebruiken
-====================
+## <a name="using-extended-logon"></a>Uitgebreide aanmelding gebruiken
 
 Wanneer de uitgebreide aanmelding is geconfigureerd, en een werknemer een streepjescode of een magneetstrip is toegewezen, moet de werknemer enkel zijn of haar kaart doorhalen wanneer de POS-aanmeldpagina wordt weergegeven. Als een wachtwoord ook vereist is voordat aanmelding kan plaatsvinden, wordt de werknemer gevraagd zijn of haar wachtwoord in te voeren.
 

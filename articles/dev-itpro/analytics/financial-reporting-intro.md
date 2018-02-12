@@ -8,9 +8,10 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
@@ -97,7 +98,7 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 </tbody>
 </table>
 
-#<a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 [Een financieel rapport maken](generate-financial-report.md)
 
 

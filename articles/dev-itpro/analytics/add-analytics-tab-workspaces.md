@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Deze functie wordt ondersteund in Dynamics 365 for Finance and Operations (versie 7.2 en hoger).
 
-# <a name="introduction"></a>Introductie
+## <a name="introduction"></a>Introductie
 In dit onderwerp wordt beschreven hoe u een Microsoft Power BI-rapport insluit op het tabblad **Analyses** van een werkgebied. In het hier gebruikte voorbeeld wordt het werkgebied **Reserveringenbeheer** in de toepassing Wagenparkbeheer uitgebreid om een analytisch werkgebied in te sluiten in het tabblad **Analyses**.
 
-# <a name="prerequisites"></a>Vereisten
+## <a name="prerequisites"></a>Vereisten
 + Open een ontwikkelaaromgeving waarop Platformupdate 8 of hoger wordt uitgevoerd.
 + Een analyserapport (.pbix-bestand) dat is gemaakt met Microsoft Power BI-bureaublad en dat een gegevensmodel bevat dat de entiteitsopslagdatabase als bron heeft.
 
-# <a name="overview"></a>Overzicht
+## <a name="overview"></a>Overzicht
 Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied introduceert, u kunt in beide de ingesloten analytische weergaven gebruiken om begrijpelijke en interactieve weergaven van uw zakelijke gegevens te maken. Het proces voor het toevoegen van een analytisch werkgebiedtabblad bestaat uit vier stappen.
 
 1. Een .pbix-bestand toevoegen als een Dynamics 365-resource.
@@ -48,7 +48,7 @@ Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied
 > [!NOTE]
 > Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Deze pagina bevat veel inzichten waarmee u aantrekkelijke analytische rapportoplossingen kunt maken.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Een .pbix-bestand toevoegen als een resource
+## <a name="add-a-pbix-file-as-a-resource"></a>Een .pbix-bestand toevoegen als een resource
 Voordat u begint, moet u het Power BI-rapport dat u in het werkgebied wilt insluiten, maken of ophalen. Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio projectartefact.
@@ -66,7 +66,7 @@ Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio proje
   
 Nu u het .pbix-bestand hebt toegevoegd als een Dynamics 365-resource, kunt u rapporten insluiten in werkgebieden en rechtstreekse koppelingen toevoegen via menuopties.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Een tabbesturingselement toevoegen aan een toepassingswerkgebied
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Een tabbesturingselement toevoegen aan een toepassingswerkgebied
 In dit voorbeeld breiden we het werkgebied **Reserveringsbeheer** in het model Wagenparkbeheer uit door het toevoegen van het tabblad **Analyses** aan de definitie van het formulier **FMClerkWorkspace**.
  
 In de volgende afbeelding ziet u hoe het formulier **FMClerkWorkspace** eruit ziet in de ontwerper in Microsoft Visual Studio.
@@ -105,7 +105,7 @@ U hebt nu de besturingselementen voor het formulier toegevoegd die worden gebrui
  
 U hebt nu de taak voor het uitbreiden van de formulierdefinitie van de toepassing voltooid. Voor meer informatie over het gebruik van uitbreidingen en aanpassingen zie[Aanpassen met extensies en overlayering](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++-bedrijfslogica toevoegen om een besturingselement voor weergave in te sluiten
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++-bedrijfslogica toevoegen om een besturingselement voor weergave in te sluiten
 Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het rapportweergave-besturingselement dat is ingesloten in het werkgebied **Reserveringsbeheer**.
 
 1. Open de formulierontwerper **FMClerkWorkspace** om de ontwerpdefinitie uit te breiden.
@@ -151,12 +151,12 @@ U hebt nu de taak voltooid voor het toevoegen van bedrijfslogica voor het initia
 > [!NOTE]
 > U kunt de bestaande operationele weergave openen met de werkgebiedtabbladen onder de paginatitel.
 
-# <a name="reference"></a>Verwijzing
+## <a name="reference"></a>Verwijzing
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>Methode PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>Methode PBIReportHelper.initializeReportControl
 Deze sectie bevat informatie over de helperklasse die wordt gebruikt om een Power BI-rapport (.pbix-resource) in te sluiten in een besturingselement voor een formuliergroep.
 
-### <a name="syntax"></a>Syntaxis
+#### <a name="syntax"></a>Syntaxis
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Parameters
 
 | Naam | Omschrijving |
 |---|---|

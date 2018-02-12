@@ -1,7 +1,7 @@
 ---
 title: Betalingsmethoden
 description: Elk betalingstype dat een detailhandelaar accepteert, moet worden geconfigureerd wanneer het systeem wordt ingesteld. In dit artikel wordt beschreven welke betalingstypen u kunt instellen en wordt het proces beschreven voor het instellen hiervan.
-author: MargoC
+author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 In dit onderwerp wordt beschreven hoe u taalinstellingen wijzigt in Retail Modern POS (MPOS) en Cloud POS.
 
-<a name="overview"></a>Overzicht
-========
-
+## <a name="overview"></a>Overzicht
 Retail Modern POS (MPOS) en Cloud POS ondersteunen omgevingen waar de taalinstellingen en vertalingen tussen de winkel- en de gebruikerinstellingen kunnen verschillen. De winkel kan zich bijvoorbeeld bevinden in een regio waar klanten meestal Engels spreken, maar sommige werknemers kunnen er de voorkeur aan geven de toepassing te gebruiken met de Franse vertaling.
 
 ## <a name="data-language"></a>Gegevenstaal

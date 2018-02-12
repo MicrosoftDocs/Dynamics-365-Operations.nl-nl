@@ -1,7 +1,7 @@
 ---
 title: Werkgebied Beheer van vaste activa
 description: Dit onderwerp bevat informatie over het werkgebied Beheer van vaste activa. Dit werkgebied bevat informatie die betrekking heeft op de vaste activa die zijn ingevoerd in het systeem. Het bevat een overzichtsweergave en een analyseweergave.
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,7 +14,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT

@@ -1,4 +1,4 @@
---- 
+---
 title: Een proceskanbantaak voorbereiden wanneer de materialen voor de werkcel beschikbaar zijn
 description: Deze taak richt zich op het voorbereiden van een proceskanbantaak wanneer alle materialen voor de werkcel beschikbaar zijn.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ Deze taak richt zich op het voorbereiden van een proceskanbantaak wanneer alle m
     * Als meerdere taken zijn geselecteerd, geeft de orderverzamellijst de som weer van alle artikelen die nodig zijn voor de geselecteerde taken.  
 6. Klik op Voorbereiden.
     * Het voorbereidingsproces wordt nu voltooid. Het ingeschakelde selectievakje voor alle rijen in de orderverzamellijst geeft aan dat de voorraadstatus wordt verzameld.  
-
 

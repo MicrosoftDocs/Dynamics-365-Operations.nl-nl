@@ -1,4 +1,4 @@
---- 
+---
 title: Een productieorder gereedmelden
 description: Deze procedure toont aan hoe u een productieorder gereedmeldt.
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ Deze procedure toont aan hoe u een productieorder gereedmeldt. Het bedrijf van d
 3. Markeer in de lijst de geselecteerde rij.
 4. Klik in de lijst op de koppeling in de geselecteerde rij.
     * Het gereedmeldingsjournaal is geboekt. Als u aan het journaal correcties wilt aanbrengen, kunt u handmatig een nieuw journaal maken waarin u wijzigingen kunt aanbrengen.  
-
 
