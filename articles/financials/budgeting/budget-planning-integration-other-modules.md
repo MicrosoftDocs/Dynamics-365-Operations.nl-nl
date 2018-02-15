@@ -3,11 +3,12 @@ title: Budgetplanningsintegratie met andere modules
 description: "Budgetplannen kunnen worden gegenereerd meerdere, verschillende bronnen: De basiselementen van het periodieke proces zijn hetzelfde voor alle bronnen."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -51,7 +52,7 @@ De basiselementen van het periodieke proces zijn hetzelfde voor alle processen. 
 
 Voor elk genereerproces zijn drie acties beschikbaar:
 
--   Met **Een nieuw budgetplan maken** wordt een nieuw plan gemaakt dat de kenmerken bevat die in de sectie **Doel** worden geselecteerd. Deze kenmerken hoeven niet uniek te zijn. Daarom kunnen twee plannen dezelfde naam en andere waarden hebben.
+-   **Een nieuw budgetplan maken** maakt een nieuw plan dat de kenmerken heeft die in de sectie **Doel** worden geselecteerd. Deze kenmerken hoeven niet uniek te zijn. Daarom kunnen twee plannen dezelfde naam en andere waarden hebben.
 -   **Vervang het bestaande budgetplanscenario** verwijdert alle gegevens in het doelbudgetplan in het geselecteerde budgetplanscenario en maakt nieuwe regels die de geselecteerde brongegevens gebruiken.
 -   **Het bestaande budgetplanscenario bijwerken en nieuwe gegevens toevoegen** werkt bestaande regels in het doelplan bij die overeenkomen met de bronregels en voegt nieuwe regels voor nieuwe gegevens toe. De vereffening is gebaseerd op de grootboekrekening, de datum, de budgetklasse, en verschillende andere velden. Wanneer u bijvoorbeeld budgetplannen genereert vanuit prognoseposities, is het positienummer een belangrijk veld. Alle regels die een positienummer hebben dat overeenkomt met de bronpositie, worden vervangen door de nieuwe regels uit de bron.
 
@@ -71,7 +72,7 @@ In het veld **Budgetklasse** kunt u de regels van het budgetplan instellen als o
 
 ### <a name="generation-rules"></a>Regels voor het genereren
 
-Drie velden bevatten aanvullende functionaliteit: **Factor**, **Min.voorraad** en **Afrondings****regel**. 
+Drie velden bevatten aanvullende functionaliteit: **Factor**, **Min.voorraad** en **Afrondings** **regel**. 
 
 De waarde in het veld **Factor** wordt vermenigvuldigd met het bronbedrag om het bedrag in het budgetplan in te stellen. U kunt vervolgens correcties maken wanneer u budgetplanregels maakt. U kunt bijvoorbeeld **1,03** invoeren voor een stijging van 3%. De factor moet een positief getal zijn. 
 
@@ -110,7 +111,7 @@ Er is geen veld **Butgetklasse**, omdat de budgetklasse (**Onkosten** of **Opbre
 
 U kunt projectbudgetten als bron gebruiken door het prognosemodel te selecteren dat de projectbudgetbedragen bevat. Denk eraan dat de projectbudgetten projectprognoseregels maken als ze worden goedgekeurd.
 
-Om alleen kosten en opbrengsten voor de budgetplanregels te selecteren, gebruikt u het filter om **Updates budget: Type bedrag = Kosten** te selecteren. Als u slechts één type prognose wilt selecteren, gebruikt u het filter **Budgetupdates: Transactietype = *xxx*** te selecteren. 
+Om alleen kosten en opbrengsten voor de budgetplanregels te selecteren, gebruikt u het filter om **Updates budget: Type bedrag = Kosten** te selecteren. Als u slechts één type prognose wilt selecteren, gebruikt u het filter om **Budgetupdates: Transactietype = *xxx*** te selecteren. 
 
 Slechts één prognosemodel kan worden gebruikt om een scenario van het budgetplanscenario te genereren. Als u het proces voor een prognosemodel en dan een update uitvoert en probeert een ander model op te geven, wordt het eerste model overschreven als hetzelfde project en dezelfde grootboekrekeningen van toepassing zijn. U kunt een budgetplanscenario genereren van meer dan één prognosemodel door in verschillende budgetplanscenario's te genereren en de toewijzingsopties te gebruiken om deze samen te voegen in een ander scenario. 
 

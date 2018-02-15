@@ -3,11 +3,12 @@ title: Klantbetalingen voor een gedeeltelijk bedrag
 description: Soms voeren klanten een betaling uit die minder is dan het bedrag van een factuur. In dit artikel worden de verschillende opties beschreven om deze situatie te dekken. Over welke opties u beschikt, is afhankelijk van de behoeften en de configuratie van uw bedrijf.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c2ba17b97bf7a00ff111e72314e98f5af7aaed80
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -41,7 +42,7 @@ Klanten kan een gedeeltelijke betaling doen omdat ze niet genoeg contant geld bi
 U kunt klanten een contantkorting geven als ze een factuur vóór de vervaldatum betalen. U voert bijvoorbeeld een factuur in voor 100,00 die een contantkorting van 2% biedt als de factuur binnen 10 dagen wordt betaald. De betalingstermijn is 30 dagen. Als u binnen 10 dagen een betaling van 98,00 ontvangt, voert u de betaling van 98,00 in. Wanneer de factuur vervolgens voor vereffening is gemarkeerd, wordt de contantkorting automatisch toegepast.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Gedeeltelijke betalingen met contantkortingen
-Wanneer klanten een gedeeltelijke betaling doen, willen ze mogelijk een volgende gedeeltelijke betaling doen om de factuur volledig te vereffenen. Voor een contantkorting op een gedeeltelijke betaling moet u de optie **Contantkortingen berekenen voor gedeeltelijke betalingen** instellen op **Ja** op de pagina **Parameters van module Klanten**. 
+Wanneer klanten een gedeeltelijke betaling doen, willen ze mogelijk een volgende gedeeltelijke betaling doen om de factuur volledig te vereffenen. Om een contantkorting voor een gedeeltelijke betaling aan te nemen, moet u de optie **Contantkortingen berekenen voor gedeeltelijke betalingen** instellen op **Ja** op de pagina **Parameters van module Klanten**. 
 
 U kunt bijvoorbeeld een contantkorting van 2% aanbieden als de factuur binnen 10 dagen na uitgifte wordt betaald. Er wordt een factuur voor 100,00 geboekt. Als u binnen 10 dagen een betaling van 49,00 ontvangt, voert u een krediet van 49,00 in een betalingsjournaal in. Wanneer u de gedeeltelijke betaling vereffent op de pagina **Transacties vereffenen**, wordt **1,00** weergegeven in het veld **Contantkortingsbedrag dat moet worden toegepast**. Het kortingsbedrag wordt naar een contantkortingsrekening geboekt. 
 

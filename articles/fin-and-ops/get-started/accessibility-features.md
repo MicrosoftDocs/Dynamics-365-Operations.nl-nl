@@ -1,9 +1,9 @@
 ---
 title: Toegankelijkheidsfuncties
-description: "In dit onderwerp wordt de functionaliteit beschreven die is ontworpen voor gebruikers met verschillende handicaps. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Windows Verteller gebruiken."
+description: Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Enterprise Edition, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 11/16/2017
+ms.date: 01/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 158caf6c05515069b58121a72df1b7fe16bae236
-ms.openlocfilehash: bd71d2dee7ff7984f2088a64e9943b2541c88451
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 42b4f670dee95c073ce8dcca16afef83bbf78ff8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
-# <a name="accessibility-features"></a>Toegankelijkheidsfuncties
+# <a name="accessibility-features"></a>Toegankelijkheidsopties
 
-In dit onderwerp wordt de functionaliteit beschreven die is ontworpen voor gebruikers met verschillende handicaps. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Microsoft Windows Verteller gebruiken.
+Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Enterprise Edition, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Microsoft Windows Verteller gebruiken.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Verteller en toegang op basis van alleen het toetsenbord
 

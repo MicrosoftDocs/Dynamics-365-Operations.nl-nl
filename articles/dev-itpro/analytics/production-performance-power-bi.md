@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -104,7 +105,7 @@ In de volgende tabel ziet u hoe de belangrijkste samengevoegde metingen worden g
 | Is vertraagd               | 'Productieorder'[Is RAF'ed] = TRUE && 'Productieorder'[Waarde Vertraagd] = 1 |
 | Is te vroeg                 | 'Productieorder'[Is RAF'ed] = TRUE && 'Productieorder'[Dagen vertraagd] \< 0 |
 | Is volledig               | 'Productieorder'[Hoeveelheid goed] \>= 'Productieorder'[Geplande hoeveelheid] |
-| Is RAF'ed                | 'Productieorder'[Waarde Productiestatus] = 5 \|\| 'Productieorder'[Waarde Productiestatus] = 7 |
+| Is RAF'ed                | 'Productieorder'[Productiestatuswaarde] = 5 \|\| 'Productieorder'[Productiestatuswaarde] = 7 |
 | Laat & volledig           | COUNTROWS(FILTER('Productieorder', 'Productieorder'[Is volledig] = TRUE && 'Productieorder'[Is vertraagd] = TRUE)) |
 | \# (aantal) te laat                  | COUNTROWS(FILTER('Productieorder', 'Productieorder'[Is vertraagd] = TRUE)) |
 | Percentage te laat                   | IFERROR( IF('Productieorder'[Te laat \#] \<\> 0, 'Productieorder'[\# te laat], IF('Productieorder'[Totaal orders] = 0, BLANK(), 0)) / 'Productieorder'[Totaal orders], BLANK()) |

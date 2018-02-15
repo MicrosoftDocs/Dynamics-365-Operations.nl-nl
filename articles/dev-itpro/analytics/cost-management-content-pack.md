@@ -3,7 +3,7 @@ title: Power BI-inhoud voor kostenbeheer
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> Dit inhoudpakket is verouderd, zoals beschreven in [Power BI-inhoudpakketten gepubliceerd naar PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+
 
 In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer. 
-
-# <a name="overview"></a>Overzicht
 
 De Microsoft Power BI-inhoud voor **Kostenbeheer** is bedoeld voor accountants van de voorraad of personen in de organisatie die verantwoordelijk zijn voor de voorraad. De Power BI-inhoud voor **Kostenbeheer** biedt het management inzicht in de voorraad en OHW-voorraad (onderhanden werk) en hoe de voortgang van de kosten hierin per categorie in de loop van de tijd verloopt. De informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
 

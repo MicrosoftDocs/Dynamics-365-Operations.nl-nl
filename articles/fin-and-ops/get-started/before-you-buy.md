@@ -1,7 +1,7 @@
 ---
 title: Voordat u koopt
 description: Gebruik deze stapsgewijze instructies als u overweegt om Dynamics 365 for Finance and Operations, Enterprise edition aan te schaffen.
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ U kunt Dynamics 365 for Finance and Operations 30 dagen lang uitproberen via een
 
 ## <a name="step-two-choose-a-deployment-option"></a>Stap twee: Kies een optie voor implementatie
 U kunt nu Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition in de cloud of on-premises implementeren. Cloudimplementaties omvatten een ERP-service die volledig wordt beheerd door Microsoft, terwijl implementaties on-premises lokaal zijn geïmplementeerd in datacenter van een klant.
-Zie [Implementatieopties](../../dev-itpro/deployment/choose-deployment-type.md) voor meer informatie. 
+
+De volgende overwegingen moeten in acht worden genomen wanneer u on-premises kiest als implementatieoptie:
+- Vereisten op het gebied van regelgeving en naleving die niet beschikbaar zijn in de [cloudcertificeringen](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Verbroken bedrijfsproces met onregelmatige internetverbinding vereist voor toegang tot Microsoft Dynamics Lifecycle Services (LCS) voor beheer van levenscycli van toepassingen
+- [Functies die momenteel niet zijn geïmplementeerd in On-premises implementaties](features-not-implemented-on-prem.md)
+- [Minimale vereisten voor de infrastructuur](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> On-premises implementaties van Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition worden niet ondersteund in openbare cloudinfrastructuren, inclusief Azure. 
+
+Zie [Implementatieopties](../../dev-itpro/deployment/choose-deployment-type.md) voor meer informatie.
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Stap drie: Een abonnement kopen en beheren
 Als u de abonnementsopties wilt bekijken, gaat u naar de [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing)-pagina met prijzen. Deze pagina bevat diverse regelingen die passen bij de behoeften van uw organisatie.

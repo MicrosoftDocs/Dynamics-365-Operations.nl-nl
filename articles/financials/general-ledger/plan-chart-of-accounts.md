@@ -3,14 +3,14 @@ title: Uw rekeningschema plannen
 description: Dit artikel bevat informatie waarmee u het rekeningschema voor uw organisatie kunt plannen.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 038886f0a6e1c133a33ee34725eb20352e64341a
+ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
+ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
@@ -45,12 +45,12 @@ Hierna vindt u een aantal factoren waarmee u rekening dient te houden wanneer u 
 -   De rapportage-eisen van uw rechtspersoon
 -   De mate van specificatie die nodig is, zowel voor externe instanties als voor uw organisatie
 
-Maak het rekeningschema op de pagina **Rekeningschema**. Hoofdrekeningen kunnen op de pagina **Rekeningschema** of de pagina **Hoofdrekeningen** worden gemaakt. Voor uw hoofdrekeningen mogen geen speciale tekens worden gebruikt die als scheidingstekens voor het rekeningschema worden gebruikt. Als u geen speciaal teken hebt dat hetzelfde is als het scheidingsteken van uw rekeningschema, kunt u instabiliteit ervaren of moet u mogelijk altijd zoekopdrachten of de flyout gebruiken wanneer u rekening- en dimensiecombinaties invoert. Zie [Een hoofdrekening maken](tasks/create-account-structures.md) voor meer informatie.
+Maak het rekeningschema op de pagina **Rekeningschema**. Hoofdrekeningen kunnen op de pagina **Rekeningschema** of de pagina **Hoofdrekeningen** worden gemaakt. Voor uw hoofdrekeningen mogen geen speciale tekens worden gebruikt die als scheidingstekens voor het rekeningschema worden gebruikt. Als u geen speciaal teken hebt dat hetzelfde is als het scheidingsteken van uw rekeningschema, kunt u instabiliteit ervaren of moet u mogelijk altijd zoekopdrachten of de flyout gebruiken wanneer u rekening- en dimensiecombinaties invoert. Zie [Een hoofdrekening maken](tasks/create-main-account.md) voor meer informatie.
 
 
 Het is daarom raadzaam de hoofdrekeningen te koppelen aan hoofdrekeningcategorieën, zodat u kunt profiteren van de financiële standaardrapporten zonder dat u wijzigingen hoeft aan te brengen. Zo kunt u rapporten sneller en eenvoudig ontwerpen en onderhouden. 
 
-Gebruik de pagina **Rekeningstructuren configureren** om rekeningstructuren te configureren. Met rekeningstructuren worden geldige combinaties gedefinieerd. De combinaties vormen, samen met de hoofdrekeningen, een rekeningschema.  Zie [Rekeningstructuren maken](tasks/create-main-account.md) voor meer informatie.
+Gebruik de pagina **Rekeningstructuren configureren** om rekeningstructuren te configureren. Met rekeningstructuren worden geldige combinaties gedefinieerd. De combinaties vormen, samen met de hoofdrekeningen, een rekeningschema.  Zie [Rekeningstructuren maken](tasks/create-account-structures.md) voor meer informatie.
 
 **Overschrijvingen rechtspersoon** 
 
