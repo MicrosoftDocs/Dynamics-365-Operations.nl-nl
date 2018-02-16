@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ Op het winkelniveau is een configuratie-instelling beschikbaar om te bepalen of 
 
 Standaard worden aan een winkel toegewezen orderregels gemarkeerd als **Geaccepteerd**. Dit betekent dat ervan wordt uitgegaan dat deze worden afgehandeld vanuit de toegewezen winkel en niet meer hoeven te worden toegewezen. In bepaalde gevallen willen detailhandelaren orders mogelijk handmatig accepteren voordat ze kunnen worden afgehandeld. Wanneer in een winkel door onderbezetting bepaalde orders niet kunnen worden afgehandeld, accepteert een winkelmanager bijvoorbeeld slechts zoveel orders als op een bepaalde dag kunnen worden verwerkt. Totdat een order wordt geaccepteerd, kan deze opnieuw worden toegewezen door de backoffice. Op deze manier biedt orderacceptatie ook een manier om aan te geven dat een order is bevestigd door een winkel en wordt afgehandeld. 
 
-Orderregels voor afhalen in de winkel zijn altijd gemarkeerd als **In behandeling** en hoeven niet te worden geaccepteerd.
+Orderregels voor afhalen in de winkel zijn gemarkeerd als **In behandeling** en hoeven niet te worden geaccepteerd.
 
-Als u handmatige acceptatie of orderregels wilt inschakelen, gaat u naar **Detailhandel** > **Kanalen** > **Detailhandelwinkels** > **Alle detailhandelwinkels**. Selecteer de winkel en klik op de winkel-id om de details van de winkel te bekijken. Klik op **Bewerken**. Zoek op het sneltabblad **Algemeen** de subkop **Orderafhandeling** en wijzig **Handmatig accepteren** van **Nee** in **Ja**. 
+Als u handmatige acceptatie voor orderregels wilt inschakelen, gaat u naar **Detailhandel** > **Kanalen** > **Detailhandelwinkels** > **Alle detailhandelwinkels**. Selecteer de winkel en klik op de winkel-id om de details van de winkel te bekijken. Klik op **Bewerken**. Zoek op het sneltabblad **Algemeen** de subkop **Orderafhandeling** en wijzig **Handmatig accepteren** van **Nee** in **Ja**. 
 
 ### <a name="enable-reject-order-line-capability"></a>De functie voor het afwijzen van orderregels inschakelen
 
@@ -114,7 +117,7 @@ Standaard hebben orders de status **Geaccepteerd**. De orderstatus kan worden we
 
 **Verpakking**: de verpakkingsoptie ondersteunt twee acties. Met **Pakbon afdrukken** wordt een pakbon voor de geselecteerde regels afgedrukt en met **Markeren als verpakt** worden de regels als verpakt gemarkeerd en worden de regels als geleverd gemarkeerd in de backoffice. Alleen orderregels die bij dezelfde order horen en dezelfde leveringsmethode hebben, kunnen op hetzelfde moment worden verpakt. Pakbonindelingen worden beheerd als onderdeel van ontvangstbewijsindelingen. Zie voor meer informatie over het instellen van ontvangstbewijsindelingen [Ontvangstsjablonen en afdrukken](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Verzenden**: met de verzendactie worden geselecteerde regels als **Geleverd** gemarkeerd in de backoffice. Als een regel volledig is verzonden, wordt deze niet meer weergegeven in de weergave voor winkelafhandeling.
+**Verzenden**: met de verzendactie worden geselecteerde regels als **Geleverd** gemarkeerd in de backoffice. Als een regel volledig is verzonden, wordt deze niet meer weergegeven in de weergave voor orderafhandeling.
 
 **Afhalen**: met de afhaalactie worden de regels toegevoegd aan de transactieweergave voor afhalen. Als de order nog andere regels bevat die momenteel niet worden afgehaald, worden deze met de hoeveelheid nul toegevoegd aan de transactieweergave. Als een regel volledig is afgehaald, wordt deze niet meer weergegeven in de weergave voor orderafhandeling. 
 

@@ -1,6 +1,6 @@
 ---
 title: Grootboekjournaaltypen
-description: "Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina Journaalnamen voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c05b199104af2c367266e3cd15937425e6457397
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: ccd1b9056f8c18de1b2ef706f70f53bac6cc43a1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -30,23 +31,23 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina Journaalnamen voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-| Type journaal                      | Doel                                                                                                                                                                                                                                                                                                                                                     | Transacties invoeren op deze pagina                                |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| Toewijzing                        | Toewijzingstransacties maken in een toewijzingsjournaal. Voordat u een toewijzingsjournaal kunt maken, moet u een toewijzingsregel maken op de pagina **Grootboektoewijzingsregel**.                                                                                                                                                                           | Toewijzingsaanvraag verwerken                                     |
-| Goedkeuring                          | Goedgekeurde leveranciersfacturen boeken op de betreffende grootboekrekeningen.                                                                                                                                                                                                                                                                            | Factuurgoedkeuringsjournaal                                       |
-| Omkering van bankcheque               | Een geboekte cheque omkeren. Om dit journaaltype te gebruiken, schakelt u de optie **Controleproces voor betalingsomkeringen gebruiken** op de pagina **Parameters voor cash- en bankbeheer**.                                                                                                                                                                                       | Omkeringen van cheques, omkeringen van betalingen                              |
-| Annulering van bankdepositostrook    | Een depositostrook annuleren. Om dit journaaltype te gebruiken, schakelt u de optie **Controleproces voor annuleringen van bankdepositostroken gebruiken** op de pagina **Parameters voor cash- en bankbeheer**.                                                                                                                                                                       | Annulering van depositostrookbetalingen                             |
+| Type journaal                      | Doel                       | Transacties invoeren op deze pagina                                |
+|-----------------------------------|-------------------------------|----------------------------------------------------------------|
+| Toewijzing                        | Toewijzingstransacties maken in een toewijzingsjournaal. Voordat u een toewijzingsjournaal kunt maken, moet u een toewijzingsregel maken op de pagina **Grootboektoewijzingsregel**.      | Toewijzingsaanvraag verwerken             |
+| Goedkeuring                          | Goedgekeurde leveranciersfacturen boeken op de betreffende grootboekrekeningen.  | Factuurgoedkeuringsjournaal                                       |
+| Omkering van bankcheque               | Een geboekte cheque omkeren. Om dit journaaltype te gebruiken, schakelt u de optie **Controleproces voor betalingsomkeringen gebruiken** op de pagina **Parameters voor cash- en bankbeheer**.   | Omkeringen van cheques, omkeringen van betalingen                   |
+| Annulering van bankdepositostrook    | Een depositostrook annuleren. Om dit journaaltype te gebruiken, schakelt u de optie **Controleproces voor annuleringen van bankdepositostroken gebruiken** op de pagina **Parameters voor cash- en bankbeheer**.   | Annulering van depositostrookbetalingen            |
 | Budget                            | Budgettoewijzingen verwerken. Om dit journaaltype te gebruiken, schakelt u de optie **Aanwending van budget inschakelen** in op de pagina **Grootboekparameters**. De budgetjournaalposten bevatten informatie die is gebaseerd op de grootboekrekeningen die zijn gedefinieerd op de pagina **Boekdefinities**.                                                        |                                                                |
-| Door de klant geaccepteerde wissel  | Acceptatietransacties van klanten maken voor wissels.                                                                                                                                                                                                                                                                                              | Journaal met getrokken wissels, Journaal met hertrokken wissels |
-| Bankremise van klant          | Een remisebestand voor een wissel maken dat kan worden verzonden naar de bank van uw organisatie. Om dit journaaltype te gebruiken, schakelt u de optie **Automatische vereffening** in op de pagina **Parameters** **van module Klanten**.                                                                                                                                             | Remise                                                     |
-| Door klant getrokken wissel    | Transacties voor door klant getrokken wissels maken. Om dit journaaltype te gebruiken, schakelt u de optie **Getrokken journaal automatisch maken en boeken tijdens boeken van facturen** op de pagina **Betalingsmethoden - klanten**.                                                                                                                                         | Journaal met getrokken wissels                                  |
-| Betaling van klant                  | Klantbetalingstransacties maken.                                                                                                                                                                                                                                                                                                                       | Betalingsjournaal                                                |
-| Door klant geprotesteerde wissel | Transacties voor door klant geprotesteerde wissels maken.                                                                                                                                                                                                                                                                                                      | Journaal met geprotesteerde wissels                               |
-| Door klant hertrokken wissel  | Transacties voor door klant hertrokken wissels maken.                                                                                                                                                                                                                                                                                                       | Journaal met hertrokken wissels                                |
-| Door klant afgerekende wissel  | Transacties voor door klant afgerekende wissels maken.                                                                                                                                                                                                                                                                                                       | Journaal met afgerekende wissels                                |
-| Dagelijks                             | Dagelijkse transacties in een algemeen journaal maken.                                                                                                                                                                                                                                                                                                             | Algemeen journaal                                                |
+| Door de klant geaccepteerde wissel  | Acceptatietransacties van klanten maken voor wissels.             | Journaal met getrokken wissels, Journaal met hertrokken wissels |
+| Bankremise van klant          | Een remisebestand voor een wissel maken dat kan worden verzonden naar de bank van uw organisatie. Om dit journaaltype te gebruiken, schakelt u de optie **Automatische vereffening** in op de pagina **Parameters** **van module Klanten**.            | Remise                                                     |
+| Door klant getrokken wissel    | Transacties voor door klant getrokken wissels maken. Om dit journaaltype te gebruiken, schakelt u de optie **Getrokken journaal automatisch maken en boeken tijdens boeken van facturen** op de pagina **Betalingsmethoden - klanten**.   | Journaal met getrokken wissels                                  |
+| Betaling van klant                  | Klantbetalingstransacties maken.                             | Betalingsjournaal             |
+| Door klant geprotesteerde wissel | Transacties voor door klant geprotesteerde wissels maken.                    | Journaal met geprotesteerde wissels                               |
+| Door klant hertrokken wissel  | Transacties voor door klant hertrokken wissels maken.                     | Journaal met hertrokken wissels                                |
+| Door klant afgerekende wissel  | Transacties voor door klant afgerekende wissels maken.                       | Journaal met afgerekende wissels                                |
+| Dagelijks                             | Dagelijkse transacties in een algemeen journaal maken.                          | Algemeen journaal                                                |
 | Schrapping                       | Schrappingstransacties maken in een schrappingsdagboek. Om dit journaaltype te gebruiken, selecteert u de opties **Gebruiken voor proces voor financiële schrapping** en **Gebruiken voor financieel consolidatieproces** op de pagina **Rechtspersonen**. Voordat u dit journaaltype gebruikt, moet u een grootboekschrappingregel maken op de pagina **Schrappingregel grootboek**. | Schrapping                                                    |
 | Vaste-activabudget                | Budgetregistervermeldingen voor vaste activa maken.                                                                                                                                                                                                                                                                                                                 | Vaste-activabudget                                             |
 | Facturenregister                  | Basisinformatie over leveranciersfacturen registreren.                                                                                                                                                                                                                                                                                                           | Facturenregister                                               |
