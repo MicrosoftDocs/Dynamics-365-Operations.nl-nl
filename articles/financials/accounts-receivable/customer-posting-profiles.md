@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ccd663a769aa98afb800f6fcd6217f39bb513597
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d0795a9cb1839c45cf264b0d0f7cffacdc01ea9d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -54,10 +54,6 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="e65ec-129">Als u wilt dat alle klanttransacties hetzelfde boekingsprofiel hebben, stelt u slechts één boekingsprofiel in met de optie Alle in het veld Rekeningcode.</span><span class="sxs-lookup"><span data-stu-id="e65ec-129">If you want all customer transactions to have the same posting profile, set up only one posting profile with All in the Account code field.</span></span> <span data-ttu-id="e65ec-130">Geef de volgende waarden op om uw boekingsprofiel in te stellen:</span><span class="sxs-lookup"><span data-stu-id="e65ec-130">Specify the following values to set up your posting profile:</span></span>
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><span data-ttu-id="e65ec-131">Veld</span><span class="sxs-lookup"><span data-stu-id="e65ec-131">Field</span></span></th>
