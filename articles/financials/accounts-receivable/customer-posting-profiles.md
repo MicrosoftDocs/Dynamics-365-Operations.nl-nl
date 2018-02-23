@@ -54,10 +54,6 @@ De grootboekrekeningen opgeven die bij het boeken van transacties met het gesele
 Als u wilt dat alle klanttransacties hetzelfde boekingsprofiel hebben, stelt u slechts één boekingsprofiel in met de optie Alle in het veld Rekeningcode. Geef de volgende waarden op om uw boekingsprofiel in te stellen:
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Veld</th>
