@@ -19,13 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2bc175ceec7ee8771e09f1dac4ede7b3fa619322
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/27/2018
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a><span data-ttu-id="6f705-103">Een indeling voor elektronische aangifte wijzigen door een Microsoft Excel-sjabloon opnieuw toe te passen</span><span class="sxs-lookup"><span data-stu-id="6f705-103">Modify an Electronic reporting format by reapplying a Microsoft Excel template</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="6f705-104">Het hulpmiddel Elektronische rapportage (ER) wordt gebruikt voor het genereren van bedrijfsdocumenten in elektronische vorm.</span><span class="sxs-lookup"><span data-stu-id="6f705-104">The Electronic reporting (ER) tool is used to generate business documents in an electronic format.</span></span> <span data-ttu-id="6f705-105">Als u een bedrijfsdocument wilt genereren, moet u een indeling voor elektronische rapportage maken en vervolgens de ER-ontwerper gebruiken om de indeling van het bedrijfsdocument te bepalen en op te geven welke gegevens moeten worden opgenomen.</span><span class="sxs-lookup"><span data-stu-id="6f705-105">To generate a business document, you must create an ER format, and then use the ER designer to define the layout of the business document and specify the data that should be included in it.</span></span> <span data-ttu-id="6f705-106">Vervolgens kunt u de ER-indeling uitvoeren om het bedrijfsdocument te genereren.</span><span class="sxs-lookup"><span data-stu-id="6f705-106">You can then run the ER format to generate the business document.</span></span>
 
 <span data-ttu-id="6f705-107">Het ER-hulpmiddel kan worden gebruikt om bedrijfsdocumenten als Microsoft Excel-bestanden te genereren.</span><span class="sxs-lookup"><span data-stu-id="6f705-107">The ER tool can be used to generate business documents as Microsoft Excel files.</span></span> <span data-ttu-id="6f705-108">U kunt een Excel-document als sjabloon gebruiken voor deze documenten.</span><span class="sxs-lookup"><span data-stu-id="6f705-108">You can use an Excel document as a template for these documents.</span></span> <span data-ttu-id="6f705-109">U geeft de documentindeling in de ER-ontwerper op door in de opgegeven ER-indeling de inhoud te importeren van het Excel-document dat u wilt gebruiken als sjabloon.</span><span class="sxs-lookup"><span data-stu-id="6f705-109">To define the document layout in the ER designer, you can import the contents of the Excel document that you want to use as a template into the defined ER format.</span></span> <span data-ttu-id="6f705-110">Speel de taakbegeleider **ER Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling** (onderdeel van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)) af voor meer informatie en en om te oefenen met dit scenario.</span><span class="sxs-lookup"><span data-stu-id="6f705-110">For more details, and to practice this scenario, play the task guide **ER Design a configuration for generating reports in OPENXML format** (part of the 7.5.4.3 Acquire/Develop IT service/solution components (10677) business process).</span></span>
