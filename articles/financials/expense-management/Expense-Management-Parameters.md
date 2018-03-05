@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Parameters onkostenbeheer
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 De volgende parameters bepalen de algemene werking in Onkostenbeheer.

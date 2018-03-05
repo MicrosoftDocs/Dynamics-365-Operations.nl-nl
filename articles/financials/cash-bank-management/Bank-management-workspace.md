@@ -25,6 +25,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="bank-management-workspace"></a>Werkgebied voor bankbeheer
 
+[!include[banner](../includes/banner.md)]
+
 Het werkgebied **Bankbeheer** bevat informatie die is gerelateerd aan bedrijfsbankrekeningen. Dit werkgebied bevat een **Overzicht** sweergave en de pagina **Analyses**. De **Overzicht** sweergave bevat overzichtstegels, bankrekeninggegevens, een saldodiagram en gerelateerde informatie. De pagina **Analyses** gebruikt de mogelijkheden van Microsoft Power BI om visuele elementen te tonen die betrekking hebben op bankrekeningsaldi.
 
 ## <a name="summary-view"></a>Overzichtsweergave
