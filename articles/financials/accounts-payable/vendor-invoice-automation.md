@@ -25,6 +25,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="vendor-invoice-automation"></a>Automatisering van leveranciersfacturen
 
+[!include[banner](../includes/banner.md)]
+
 In dit onderwerp worden de functies beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, zelfs facturen die bijlagen bevatten.
 
 Organisaties die hun crediteurprocessen willen stroomlijnen, wijzen het verwerken van facturen vaak aan als een van de belangrijke procesgebieden die efficiënter moeten worden gemaakt. In veel gevallen brengen deze organisaties de verwerking van papieren facturen onder bij met een externe OCR-provider (Optical Character Recognition). Ze ontvangen vervolgens machineleesbare factuurmetagegevens, samen met een gescande afbeelding van elke factuur. Ter ondersteuning van de automatisering wordt dan een oplossing voor het laatste stukje samengesteld, zodat deze artefacten in het factureringssysteem kunnen worden verwerkt Met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, is dit laatste stukje automatisering nu standaard beschikbaar door middel van een oplossing voor automatische factuurverwerking.

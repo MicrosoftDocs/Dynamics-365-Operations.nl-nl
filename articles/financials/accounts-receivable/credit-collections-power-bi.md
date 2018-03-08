@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Power BI-inhoud Crediterings- en aanmaningsbeheer
 
+[!include[banner](../includes/banner.md)]
+
 In dit onderwerp wordt beschreven wat er is opgenomen in de Microsoft Power BI-inhoud **Crediterings- en aanmaningsbeheer**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
 ## <a name="overview"></a>Overzicht

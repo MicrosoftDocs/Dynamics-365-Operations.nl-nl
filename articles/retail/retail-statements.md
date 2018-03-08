@@ -28,6 +28,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="retail-statements"></a>Overzichten van detailhandel
+
+[!include[banner](includes/banner.md)]
+
 In Microsoft Dynamics 365 for Retail wordt het boekingsproces voor overzichten gebruikt voor de transacties die plaats vinden in de Cloud POS of MPOS (Moderne POS). Het boekingsproces voor overzichten gebruikt de distributieplanning voor het ophalen van een set POS-transacties naar het hoofdkantoor (HQ) van de client. De parameters die zijn gedefinieerd op de pagina's **Parameters detailhandel** en **Winkels**, worden gebruikt om de transacties te selecteren die worden opgehaald in afzonderlijke overzichten.  
 
 In het volgende illustratie geeft het overzichtboekingsproces weer. In dit proces worden transacties die zijn vastgelegd in de POS naar de client verzonden door de Detailhandel planner te gebruiken. Nadat de client de transacties ontvangen heeft, kunt u het transactieoverzicht voor de winkel maken, berekenen en boeken. 

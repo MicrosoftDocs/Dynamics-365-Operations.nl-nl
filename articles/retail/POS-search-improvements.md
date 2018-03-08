@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Overzicht van zoekfunctie voor producten en klanten in Point of Sale
 
+[!include[banner](includes/banner.md)]
+
 MPOS (Modern Point of Sale) en CPOS (Cloud Point of Sale) bieden een gebruiksvriendelijke zoekfunctie waarmee winkelpersoneel snel producten en klanten kan vinden. De zoekbalk is altijd aanwezig in MPOS en CPOS, zodat medewerkers snel producten en klanten kunnen opzoeken.
 
 Medewerkers kunnen zoeken naar producten in de assortimenten en catalogi die zijn gekoppeld aan de huidige winkel en de assortimenten en catalogi die zijn gekoppeld aan andere winkels in het bedrijf. Kassamedewerkers kunnen dus producten buiten het winkelassortiment verkopen en retourneren. Op dezelfde wijze kunnen medewerkers zoeken naar klanten die zijn gekoppeld aan de huidige winkel of een andere winkel in het bedrijf. Daarnaast kunnen medewerkers zoeken naar klanten die zijn gekoppeld aan een ander bedrijf in de bovenliggende organisatie.

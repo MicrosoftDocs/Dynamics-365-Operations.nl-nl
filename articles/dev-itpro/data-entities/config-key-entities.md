@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Configuratiesleutels en gegevensentiteiten
+
+[!include[banner](../includes/banner.md)]
+
 Voordat u gegevensentiteiten gebruikt om gegevens te importeren of exporteren, is het raadzaam dat u eerst bepaalt wat het effect van configuratiesleutels is op de gegevensentiteiten die u van plan bent te gebruiken. 
 
 Zie voor meer informatie over configuratiesleutels in Finance and Operations het [rapport Licentiecodes en configuratiesleutels](../sysadmin/license-codes-configuration-keys-report.md).

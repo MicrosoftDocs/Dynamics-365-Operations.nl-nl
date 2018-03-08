@@ -62,7 +62,7 @@ De volgende stappen beschrijven het proces voor het maken van een aangepast veld
 10.   Klik op **Invoegen** voor het invoegen van de gemarkeerde velden in het geselecteerde gedeelte van het formulier. 
 11.   **Optioneel:** schakel de modus **Verplaatsen** op de aanpassingswerkbalk in om de nieuwe velden naar de gewenste locatie in het geselecteerde gebied te verplaatsen. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over het gebruik van de verschillende mogelijkheden voor aanpassing van een formulier aan uw persoonlijke gebruik.  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Aangepaste velden delen met andere gebruikers
+## <a name="sharing-custom-fields-with-other-users"></a>Aangepaste velden delen met andere gebruikers
 Nadat u een aangepast veld hebt gemaakt en het op een formulier wordt weergegeven, wilt u wellicht deze bijgewerkte paginaweergave met het nieuwe veld aan andere gebruikers in het systeem bieden. Dit kunt doen op twee verschillende manieren met de aanpassingsmogelijkheden van het product:
 
 -   De aanbevolen route is via de systeembeheerder, die een aanpassing aan alle gebruikers of een subset van gebruikers kan doorgeven. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie. 

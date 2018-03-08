@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="process-compensation"></a>Compensatie verwerken
+
+[!include[banner](includes/banner.md)]
+
 Met compensatieverwerking kunt u nieuwe basiscompensatiebedragen berekenen voor uw werknemers, op basis van salarisaanpassingen, loonsverhoging voor verdienste en prestaties. In dit onderwerp wordt uitgelegd hoe de algemene stroom van compensatie wordt verwerkt voor vaste-compensatieplannen zonder rekening te houden met prestaties van de werknemer.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>De nieuwe compensatiebedragen en -budgetten plannen

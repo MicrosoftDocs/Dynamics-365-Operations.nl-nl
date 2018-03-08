@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Een indeling voor elektronische aangifte wijzigen door een Microsoft Excel-sjabloon opnieuw toe te passen
+
+[!include[banner](../includes/banner.md)]
+
 Het hulpmiddel Elektronische rapportage (ER) wordt gebruikt voor het genereren van bedrijfsdocumenten in elektronische vorm. Als u een bedrijfsdocument wilt genereren, moet u een indeling voor elektronische rapportage maken en vervolgens de ER-ontwerper gebruiken om de indeling van het bedrijfsdocument te bepalen en op te geven welke gegevens moeten worden opgenomen. Vervolgens kunt u de ER-indeling uitvoeren om het bedrijfsdocument te genereren.
 
 Het ER-hulpmiddel kan worden gebruikt om bedrijfsdocumenten als Microsoft Excel-bestanden te genereren. U kunt een Excel-document als sjabloon gebruiken voor deze documenten. U geeft de documentindeling in de ER-ontwerper op door in de opgegeven ER-indeling de inhoud te importeren van het Excel-document dat u wilt gebruiken als sjabloon. Speel de taakbegeleider **ER Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling** (onderdeel van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)) af voor meer informatie en en om te oefenen met dit scenario.

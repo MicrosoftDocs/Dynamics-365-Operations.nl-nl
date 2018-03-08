@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="questionnaires"></a>Vragenlijsten
 
+[!include[banner](includes/banner.md)]
+
 In dit artikel vindt u algemene informatie over vragenlijsten en koppelingen naar meer gedetailleerde informatie. Een vragenlijst is een reeks vragen die wordt gebruikt voor het verzamelen van informatie voor verschillende doeleinden. U kunt vragenlijsten ontwerpen, maken, distribueren en invullen en vervolgens de resultaten analyseren. 
 
 U kunt een vragenlijst aan uw specifieke behoeften aanpassen door een combinatie van de diverse functies die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Hieronder staan enkele voorbeelden van hoe vragenlijsten kunnen worden gebruikt:

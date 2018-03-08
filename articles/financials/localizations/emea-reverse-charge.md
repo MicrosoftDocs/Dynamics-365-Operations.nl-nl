@@ -24,6 +24,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="reverse-charge-vat"></a>Omgekeerde toeslag
+
+[!include[banner](../includes/banner.md)]
+
 In dit onderwerp wordt een generieke aanpak beschreven voor het instellen van de omgekeerde toeslag voor Europese landen.
 
 Omgelegde toeslag is een btw-schema dat de verantwoordelijkheid voor de boekhouding en aangifte van btw verlegt van de verkoper naar de koper van goederen en/of diensten. Daarom geven ontvangers van goederen en/of diensten zowel de te betalen btw (in de rol van verkoper) en de te vorderen btw (in de rol van inkoper) in hun btw-aangifte aan.

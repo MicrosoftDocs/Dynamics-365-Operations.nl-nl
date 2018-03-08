@@ -26,6 +26,8 @@ ms.lasthandoff: 12/14/2017
 ---
 # <a name="visibility-into-material-exceptions"></a>Inzicht in materiaaluitzonderingen
 
+[!include[banner](../includes/banner.md)]
+
 In het werkgebied **Productievloerbeheer** bieden drie tegels u meer inzicht in uitzonderingen voor grondstoffen voor productieorders en batchorders:
 
 - Niet-vrijgegeven materiaalregels die aandacht vereisen

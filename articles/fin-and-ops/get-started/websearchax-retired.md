@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX buiten gebruik gesteld
 
+[!include[banner](../includes/banner.md)]
+
 We hebben de pagina WebSearchAX buiten gebruik gesteld. U wordt aangeraden vanaf nu de functie voor het zoeken van sites van uw favoriete zoekmachine te gebruiken.  Bijvoorbeeld: 
 
 site:technet.microsoft.com dynamics ax 2012 "zoekterm"

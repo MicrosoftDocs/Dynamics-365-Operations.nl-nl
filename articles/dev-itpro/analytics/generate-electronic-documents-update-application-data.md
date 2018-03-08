@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Elektronische documenten genereren en toepassingsgegevens bijwerken met behulp van het hulpmiddel Elektronische Rapportage
 
+[!include[banner](../includes/banner.md)]
+
 U kunt indelingen voor elektronische rapportage (ER) ontwerpen, die in de toepassing Finance and Operations kunnen worden gebruikt voor het genereren van uitgaande elektronische documenten. U kunt ook ER-indelingen ontwerpen die binnenkomende elektronische documenten parseren en de inhoud in die documenten gebruiken om toepassingsgegevens bij te werken. 
 
 Met deze functionaliteit kan één ER-indeling worden gebruikt om uitgaande elektronische documenten te genereren en vervolgens de toepassingsgegevens bij te werken. U kunt deze functie gebruiken in de volgende scenario's:

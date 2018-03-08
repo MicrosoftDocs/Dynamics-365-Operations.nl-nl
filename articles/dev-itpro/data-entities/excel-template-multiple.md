@@ -27,6 +27,8 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Excel-sjablonen met meerdere werkbladen
 
+[!include[banner](../includes/banner.md)]
+
 Gegevensbeheer in Microsoft Dynamics 365 for Finance and Operations, Enterprise-editie ondersteunt Microsoft Excel-sjablonen voor gegevensentiteiten. Deze sjablonen kunnen een of meer werkbladen bevatten. Sjablonen met meerdere werkbladen worden vaak gebruikt wanneer het handig is om gegevens in één bestand te beheren en in verschillende gegevensentiteiten te importeren. Een voorbeeld hiervan zijn locaties en magazijnen.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Een bestand eenmaal uploaden en toewijzen aan alle entiteiten

@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Vergelijking van functies tussen cloud en on-premises
 
+[!include[banner](../includes/banner.md)]
+
 In dit onderwerp ziet u voor elke functie of deze beschikbaar is in deze producten:
 
 + Dynamics 365 for Finance and Operations, Enterprise edition (cloud)

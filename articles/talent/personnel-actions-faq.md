@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="personnel-actions-faq"></a>Personeelsacties [FAQ]
+
+[!include[banner](includes/banner.md)]
+
 Dit onderwerp bevat antwoorden op vragen die u mogelijk hebt als uw organisatie personeelsacties gebruikt. Personeelsacties zijn aanvullende stappen die u moet voltooien wanneer u bepaalde personeelsgerelateerde taken uitvoert. Voorbeelden van taken die mogelijk personeelsacties vereisten, zijn wanneer u nieuwe posities maakt, bestaande positiewaarden aanpast, nieuwe werknemers aanneemt, werknemers overdraagt, compensaties van werknemers wijzigt, positietoewijzingen wijzigt of werknemers beëindigt.
 
 **Opmerking:** personeelsacties zijn alleen beschikbaar als de velden **Medewerkersacties inschakelen** en **Positieacties inschakelen** zijn ingesteld op **Ja** op het tabblad **Personeelsacties** op de pagina **Gedeelde Human resources-parameters**. 

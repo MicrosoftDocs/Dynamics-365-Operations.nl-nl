@@ -27,6 +27,8 @@ ms.lasthandoff: 01/31/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Overzicht van verlof- en verzuimbeheer
 
+[!include[banner](includes/banner.md)]
+
 De module **Verlof- en verzuimbeheer** biedt een flexibele structuur voor het definiëren van het proces voor verzuimbeheer. Verlof- en verzuimplannen kunnen worden gemaakt om te bepalen hoe werknemers vrije tijd opbouwen of krijgen toegekend. Nadat werknemers zijn ingeschreven in een plan, kunnen zij verlofverzoeken indienen ter goedkeuring door managers. Met Verlof bijhouden kunnen directe managers en HRM-managers (Human Resources) zien wie vrij neemt en hoeveel verlof elke werknemer nog heeft.  
 
 Verlof- en verzuimbeheer biedt de volgende functies: 

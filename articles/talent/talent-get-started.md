@@ -25,6 +25,9 @@ ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Aan de slag met Microsoft Dynamics 365 for Talent
+
+[!include[banner](includes/banner.md)]
+
 In Microsoft Dynamics 365 for Talent past u de gebruikersinterface gemakkelijk aan en stelt u eenvoudig opties in om de software intuïtiever te maken voor uw behoeften. Dit onderwerp bevat koppelingen naar onderwerpen met informatie over het aanpassen van de gebruikersinterface aan uw voorkeuren. Het onderwerp bevat ook koppelingen naar informatie waarmee u gegevens in het systeem efficiënter en nauwkeuriger kunt vinden. 
 
 > [!NOTE] 
