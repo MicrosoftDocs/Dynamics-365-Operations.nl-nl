@@ -29,6 +29,8 @@ ms.lasthandoff: 02/01/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>Taakrecorder en Help voor POS
 
+[!include[banner](includes/banner.md)]
+
 In dit onderwerp wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern POS en Cloud POS.
 
 <a name="overview"></a>Overzicht

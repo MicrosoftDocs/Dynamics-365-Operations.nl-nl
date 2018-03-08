@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="set-up-order-fulfillment-for-stores"></a>Orderafhandeling voor winkels instellen
 
+[!include[banner](includes/banner.md)]
+
 ## <a name="overview"></a>Overzicht
 Veel detailhandelaren willen de afhandeling van orders optimaliseren door winkels in staat te stellen orders uit te voeren. Orderafhandeling op winkelniveau kan overbevoorradingsscenario's voor een bepaalde winkel voorkomen of vanuit logistiek oogpunt noodzakelijk zijn in gevallen waarin een winkel extra capaciteit heeft of zich dichter bij de klant bevindt. Om in deze behoefte te voorzien, is er een uniforme orderafhandelingsbewerking beschikbaar in het verkooppunt.
 

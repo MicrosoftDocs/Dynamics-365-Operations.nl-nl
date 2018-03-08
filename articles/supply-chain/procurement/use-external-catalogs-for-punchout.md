@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Externe catalogi gebruiken voor PunchOut eProcurement
+
+[!include[banner](../includes/banner.md)]
+
 Als u externe catalogi voor PunchOut eProcurement gebruikt, hoeft u geen gegevens over producten van uw leveranciers in uw eigen hoofdgegevens te beheren. In plaats daarvan wordt de winkelwagen op de website van de leverancier geconverteerd naar inkoopopdrachtregels met de juiste productinformatie. 
 
 Zo vermijdt u dat u de beschrijvingen en prijzen van de producten van uw leveranciers in uw eigen producthoofdgegevens moet opslaan en onderhouden. In plaats daarvan gebruikt u externe catalogi voor PunchOut eProcurement. Wanneer werknemers dan inkoopopdrachten maken, kunnen ze "uitklokken" naar de externe catalogussite van een leverancier, dat wil zeggen dat ze uw systeem verlaten en naar de website van de leverancier gaan. De producten die worden toegevoegd aan de winkelwagen op de website van de leverancier, kunnen vervolgens worden geconverteerd naar inkoopopdrachtregels. U krijgt daarmee de juiste productinformatie: id, naam, prijs en andere gegevens van het product.

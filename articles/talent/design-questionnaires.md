@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="design-a-questionnaire"></a>Een vragenlijst ontwerpen
 
+[!include[banner](includes/banner.md)]
+
 In dit onderwerp wordt het proces om een vragenlijst te maken beschreven. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
 
 Door een vragenlijst zorgvuldig te ontwerpen, verhoogt u de kwaliteit van de gegevens die u verzamelt. Door een zorgvuldig ontwerp kunt u op het juiste moment beter de gewenste opties selecteren voor een vragenlijst. De volgende punten kunnen u helpen bij het plannen van een effectieve vragenlijst:

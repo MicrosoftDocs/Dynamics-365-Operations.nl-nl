@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Externe catalogus instellen voor PunchOut eProcurement
 
+[!include[banner](../includes/banner.md)]
+
 Met de externe catalogus zorgt u ervoor dat de product- en prijsinformatie die u vervolgens in Dynamics 365 for Finance and Operations, Enterprise edition, juli 2017, verwerkt, nauwkeurig en up-to-date is. De bestelopdracht kan vervolgens worden goedgekeurd en geconverteerd naar een inkooporder en een order kan bij de leverancier worden geplaatst.
 
 Wanneer de externe catalogus is ingesteld en een werknemer een bestelopdracht voorbereidt, is er een optie om door te leiden naar een externe site, de externe catalogus, en de winkelwagen te retourneren die is gemaakt op de externe site. Deze mededeling is gebaseerd op het protocol cXML en moet worden ingesteld tussen de systemen van de kopende organisatie en de verkopende organisatie.

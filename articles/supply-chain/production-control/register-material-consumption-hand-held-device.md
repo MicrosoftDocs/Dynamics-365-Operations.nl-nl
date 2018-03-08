@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materiaalverbruik registeren met een mobiel apparaat
+
+[!include[banner](../includes/banner.md)]
+
 In dit onderwerp wordt een workflow beschreven waarmee u het grondstoffenverbruik in productie kunt registreren door middel van een mobiel apparaat.
 
 <a name="introduction"></a>Introductie
