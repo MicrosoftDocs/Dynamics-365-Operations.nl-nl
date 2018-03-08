@@ -20,14 +20,17 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f9ea6190823a5af951538e0da2760f05896ee993
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="retail-statements"></a><span data-ttu-id="77783-103">Overzichten van detailhandel</span><span class="sxs-lookup"><span data-stu-id="77783-103">Retail statements</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="77783-104">In Microsoft Dynamics 365 for Retail wordt het boekingsproces voor overzichten gebruikt voor de transacties die plaats vinden in de Cloud POS of MPOS (Moderne POS).</span><span class="sxs-lookup"><span data-stu-id="77783-104">In Microsoft Dynamics 365 for Retail, the statement posting process is used to account for the transactions that occur in Cloud point of sale (POS) or Modern POS (MPOS).</span></span> <span data-ttu-id="77783-105">Het boekingsproces voor overzichten gebruikt de distributieplanning voor het ophalen van een set POS-transacties naar het hoofdkantoor (HQ) van de client.</span><span class="sxs-lookup"><span data-stu-id="77783-105">The statement posting process uses the distribution schedule to pull a set of POS transactions into the headquarters (HQ) client.</span></span> <span data-ttu-id="77783-106">De parameters die zijn gedefinieerd op de pagina's **Parameters detailhandel** en **Winkels**, worden gebruikt om de transacties te selecteren die worden opgehaald in afzonderlijke overzichten.</span><span class="sxs-lookup"><span data-stu-id="77783-106">The parameters that are defined on the **Retail parameters** and **Stores** pages are used to select the transactions that are pulled into individual statements.</span></span>  
 
 <span data-ttu-id="77783-107">In het volgende illustratie geeft het overzichtboekingsproces weer.</span><span class="sxs-lookup"><span data-stu-id="77783-107">The following illustration shows the statement posting process.</span></span> <span data-ttu-id="77783-108">In dit proces worden transacties die zijn vastgelegd in de POS naar de client verzonden door de Detailhandel planner te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="77783-108">In this process, transactions that are recorded in the POS are transmitted to the client by using the Retail scheduler.</span></span> <span data-ttu-id="77783-109">Nadat de client de transacties ontvangen heeft, kunt u het transactieoverzicht voor de winkel maken, berekenen en boeken.</span><span class="sxs-lookup"><span data-stu-id="77783-109">After the client receives the transactions, you can create, calculate, and post the transaction statement for the store.</span></span> 

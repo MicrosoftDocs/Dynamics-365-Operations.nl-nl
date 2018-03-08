@@ -18,14 +18,17 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: e3f0f79df73cce4a54c7e6abbc38381c708af690
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="e0085-104">Personeelsacties [FAQ]</span><span class="sxs-lookup"><span data-stu-id="e0085-104">Personnel actions [FAQ]</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="e0085-105">Dit onderwerp bevat antwoorden op vragen die u mogelijk hebt als uw organisatie personeelsacties gebruikt.</span><span class="sxs-lookup"><span data-stu-id="e0085-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="e0085-106">Personeelsacties zijn aanvullende stappen die u moet voltooien wanneer u bepaalde personeelsgerelateerde taken uitvoert.</span><span class="sxs-lookup"><span data-stu-id="e0085-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="e0085-107">Voorbeelden van taken die mogelijk personeelsacties vereisten, zijn wanneer u nieuwe posities maakt, bestaande positiewaarden aanpast, nieuwe werknemers aanneemt, werknemers overdraagt, compensaties van werknemers wijzigt, positietoewijzingen wijzigt of werknemers beëindigt.</span><span class="sxs-lookup"><span data-stu-id="e0085-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
 <span data-ttu-id="e0085-108">**Opmerking:** personeelsacties zijn alleen beschikbaar als de velden **Medewerkersacties inschakelen** en **Positieacties inschakelen** zijn ingesteld op **Ja** op het tabblad **Personeelsacties** op de pagina **Gedeelde Human resources-parameters**.</span><span class="sxs-lookup"><span data-stu-id="e0085-108">**Note:** Personnel actions are available only if the **Enable worker actions** and **Enable position actions** fields have been set to **Yes**, in the **Personnel actions** tab on the **Human resources shared parameters** page.</span></span> 
