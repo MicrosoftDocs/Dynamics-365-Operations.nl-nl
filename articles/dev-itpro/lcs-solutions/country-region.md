@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ De volgende secties bevatten resources per land/regio.
 -   [Afschrijvingsmethoden voor vaste activa](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [Vaste activa naar voorraad verplaatsen](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Vaste activa met lage kosten](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>India
+
+- [Vaste activa](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Overboeking van kapitaalitems naar het vaste activum](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Een dagkalender aan een vaste-activaboek koppelen](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Parameters instellen om afschrijving te berekenen](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Afschrijving voor activagroep instellen voor afschrijvingsboeken](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Een voorraadmodelgroep voor kapitaalitems maken](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Afschrijvingsberekening van dienst voor vaste activa India](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Het type dienst en industrie definiëren voor boeken en koppelen aan vaste activa](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Overzicht van belastingberekenfunctie](../../financials/general-ledger/tax-engine.md)
+    - [Integratie van belastingberekenfunctie](../../financials/general-ledger/tax-engine-integration.md)
+    - [Veelgestelde vragen over btw-drempels](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [De belastingberekenfunctie uitbreiden](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Italië
 
