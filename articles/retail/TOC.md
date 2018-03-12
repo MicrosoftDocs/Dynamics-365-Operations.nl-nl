@@ -183,9 +183,10 @@
 ### [MPOS-architectuur](dev-itpro/retail-modern-pos-architecture.md)
 ### [Publicatiearchitectuur online Retail-winkels](dev-itpro/retail-online-store-publishing-architecture.md)
 ### [Power BI-inhoud voor prestaties detailhandelafzetkanaal](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Certificering Payment Application Data Security Standards (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
 
 ## Implementatie en hotfixes
-### [Overzicht voor schaaleenheid voor Retail-winkels](dev-itpro/retail-store-system-begin.md)
+### [Overzicht van schaaleenheid voor Retail-winkels](dev-itpro/retail-store-system-begin.md)
 ### [Configuratie en installatie van schaaleenheid voor Retail-winkels](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Configuratie en installatie van Retail Modern POS](retail-modern-pos-device-activation.md)
 ### [Retail-accounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
