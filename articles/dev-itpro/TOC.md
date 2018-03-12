@@ -9,7 +9,7 @@
 ## [Toepassingsstapel en serverarchitectuur](dev-tools/application-stack-server-architecture.md)
 ## [Een evaluatie-exemplaar ontvangen](dev-tools/get-evaluation-copy.md)
 ## [Aanmelden voor een abonnement](dev-tools/sign-up-preview-subscription.md)
-## [Exemplaren van Access](dev-tools/access-instances.md)
+## [Een ontwikkelomgeving implementeren en openen](dev-tools/access-instances.md)
 ## [Systeemvereisten voor ontwikkeling](dev-tools/development-system-requirements.md)
 ## Voorbeeldtoepassing voor wagenparkbeheer
 ### [Voorbeeldtoepassing voor wagenparkbeheer](dev-tools/fleet-management-sample.md)
@@ -108,7 +108,7 @@
 ### Inleiding en aan de slag
 #### [Plannen voor uitbreidbaarheid van toepassing](extensibility/extensibility-roadmap.md)
 #### [Uitbreidbaarheidsaanvragen](extensibility/extensibility-requests.md) 
-#### [FAQ](extensibility/app-sealing-faq.md) 
+#### [Veelgestelde vragen](extensibility/app-sealing-faq.md) 
 #### [Migreren van overlayering naar uitbreidingen](extensibility/migrate-overlayer-extension.md)
 #### [Modelelementen aanpassen met extensies (zelfstudie)](extensibility/customize-model-elements-extensions.md)
 #### [Aanpassing: overlayering en extensies](extensibility/customization-overlayering-extensions.md)
@@ -197,7 +197,7 @@
 ## Berichten
 ### [Schuifregelaar en berichtvenster](user-interface/slider-messagebox.md)
 ### [API voor berichtencentrum, berichtenbalk en berichtgegevens](user-interface/messaging-api-center-bar-details.md)
-### [FAQ voor berichtencentrum, berichtenbalk en berichtgegevens](user-interface/messaging-user.md)
+### [Veelgestelde vragen voor berichtencentrum, berichtenbalk en berichtgegevens](user-interface/messaging-user.md)
 ## Richtlijnen voor het primaire formulierpatroon
 ### [Een formulierpatroon selecteren](user-interface/select-form-pattern.md)
 ### [Formulierstijlen en -patronen](user-interface/form-styles-patterns.md)
@@ -360,7 +360,7 @@
 #### [Type ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # Gegevensintegratie
-## [Integratiepatronen](data-entities/integration-overview.md)
+## [Een strategie voor gegevensintegratie kiezen (importeren/exporteren)](data-entities/integration-overview.md)
 
 ## Gegevensintegratie-API's
 ### [API voor gegevensbeheerpakket](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [Gegevensintegratie via de Common Data Service](data-entities/data-integration-cds.md) 
 #### [Een scenario van prospect tot contant geld configureren](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Producten van Finance and Operations synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Accounts in Sales synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Contactpersonen in Sales synchroniseren naar contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Kopteksten en regels in verkoopoffertes vanuit Sales synchroniseren naar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Kopteksten en regels in verkooporders synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [Kopteksten en regels in verkoopfacturen synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Producten van Finance and Operations synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Accounts in Sales synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Contactpersonen in Sales synchroniseren naar contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Kopteksten en regels in verkoopoffertes vanuit Sales synchroniseren naar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Kopteksten en regels in verkooporders synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Kopteksten en regels in verkoopfacturen synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [Uw eigen database gebruiken](analytics/export-entities-to-your-own-database.md)
 
+## [Bronnen voor het reageren op een GDPR-aanvraag](gdpr/gdpr-home-page.md)
+
 # [Startpagina Continue levering](dev-tools/continuous-delivery-home-page.md)
 ## [Veelgestelde vragen over ontwikkeling en continue levering](dev-tools/continuous-delivery-faq.md)
 ## [Testpakketten uitsluiten van de build-uitvoer](dev-tools/exclude-test-packages.md)
@@ -515,6 +517,7 @@
 ### [Een on-premises project maken](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [On-premises omgevingen instellen en implementeren](deployment/setup-deploy-on-premises-environments.md)
 ### [Aangepaste modellen ontwikkelen voor on-premises omgevingen](deployment/develop-deploy-custom-models-on-premises.md)
+### [Reverse-proxy voor uw on-premises omgeving configureren](deployment/onprem-reverseproxy.md)
 ### [Updates toepassen op een on-premises implementatie](deployment/apply-updates-on-premises.md)
 ### [Een on-premises implementatie opnieuw implementeren](deployment/redeploy-on-prem.md)
 ### [De lokale agent bijwerken](lifecycle-services/update-local-agent.md)
@@ -527,7 +530,7 @@
 ### [Een implementeerbaar pakket installeren](deployment/install-deployable-package.md)
 ### [Problemen met pakkettoepassingen oplossen](deployment/deployable-package-troubleshooting.md)
 
-# [Upgrade en migratie](migration-upgrade/upgrade-home-page.md)
+# [Upgrades, updates en hotfixes](migration-upgrade/upgrade-home-page.md)
 ## [Upgraden van AX 2012 naar Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [Upgrade van AX 2012 - Het hulpprogramma Upgradeanalyse gebruiken om te plannen](migration-upgrade/upgrade-analyzer-tool.md)
 ### [Upgrade van AX 2012 - De service Codeupgrade gebruiken om de inspanning te schatten](migration-upgrade/analyze-code-upgrade.md)
@@ -555,8 +558,7 @@
 ### [Modellen splitsen](dev-tools/model-split.md)
 ### [Gemachtigden gebruiken bij het oplossen van afhankelijkheden tussen modellen](migration-upgrade/delegates-migration.md)
 
-
-## Upgraden naar een recente update
+## Upgraden naar een recente update (cloud)
 ### [Proces voor overschakeling naar de nieuwste update](migration-upgrade/upgrade-latest-update.md)
 ### [Lifecycle-beleid](migration-upgrade/versions-update-policy.md)
 ### [De nieuwste platformupdate toepassen op uw omgeving](migration-upgrade/upgrade-latest-platform-update.md)
@@ -564,20 +566,24 @@
 ### [Een sandbox-omgeving upgraden](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Gegevens upgraden in ontwikkel- of demo-omgevingen](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Ontwikkelingshulpmiddelen bijwerken](dev-tools/update-development-tools.md)
+
+## Upgraden naar een recente update (on-premises)
 ### [Updates toepassen op een on-premises implementatie](deployment/apply-updates-on-premises.md)
 ### [Een on-premises implementatie opnieuw implementeren](deployment/redeploy-on-prem.md)
 
-## Hotfixes en services
+## Hotfixes
 ### [Hotfixes downloaden uit Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [Updates toepassen op een cloudomgeving](deployment/apply-deployable-package-system.md)
 ### [Een metagegevens-hotfix installeren](migration-upgrade/install-metadata-hotfix-package.md)
 ### [Patch Reporting Services in een omgeving met één apparaat](migration-upgrade/patch-reporting-service-environment.md)
+### [Visual Studio-ontwikkelprogramma's bijwerken](dev-tools/update-development-tools.md)
 
 ## Afgeschafte onderdelen
 ### [Afgeschafte API's](migration-upgrade/deprecated-apis.md)
 ### [Afgeschafte functies](migration-upgrade/deprecated-features.md)
 
 # [Systeembeheer](sysadmin/system-administration-home-page.md)
-## [Maandelijkse updates platform-FAQ](sysadmin/faq-platform-monthly-updates.md)
+## [Maandelijkse updates platform-Veelgestelde vragen](sysadmin/faq-platform-monthly-updates.md)
 ## [Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie](sysadmin/legal-terms-privacy-statement.md)
 ## [Rapport Licentiecodes en configuratiesleutels](sysadmin/license-codes-configuration-keys-report.md)
 ## [Delen van gegevens tussen bedrijven](sysadmin/cross-company-data-sharing.md)
@@ -713,6 +719,6 @@
 ## [Een ticket voor eersteklas ondersteuning registreren](lifecycle-services/premier-support.md)
 ## [Een aanvraag indienen bij het Dynamics Service-engineeringteam](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
 ## [Technische ondersteuning instellen voor Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
-## [FAQ over gepland onderhoudsvenster](lifecycle-services/planned-maintenance-window-faq.md) 
+## [Veelgestelde vragen over gepland onderhoudsvenster](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Cloudbewerkingen en -services](lifecycle-services/cloud-operations-servicing.md)
 ## [Ervaringen met Finance and Operations-ondersteuning beheren](lifecycle-services/cloud-powered-support-lcs.md)
