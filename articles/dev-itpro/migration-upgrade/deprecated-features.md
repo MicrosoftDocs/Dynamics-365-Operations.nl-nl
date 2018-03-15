@@ -3,7 +3,7 @@ title: Afgeschafte functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 > Vanaf de release uit juli 2017 van Dynamics 365 for Finance and Operations, Enterprise-editie met platformupdate 8 wordt het type implementatie aangegeven voor elke verwijderde of afgeschafte functie. Alle eerdere versies die in dit onderwerp worden vermeld, ondersteunen alleen cloudimplementaties.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise-editie 7.3 met platformupdate 12
+
+### <a name="personalized-product-recommendations"></a>Persoonlijke productaanbevelingen 
+Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations) voor meer informatie.  
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | We verwijderen de huidige versie van de productaanbevelingsservice aangezien we deze opnieuw willen ontwerpen met een beter algoritme en nieuwe mogelijkheden voor detailhandelaren.  |
+| **Vervangen door een andere functie?**   | Nr. Na het voorjaar van 2018 komen we echter met een nieuwe aanbevelingsservice.   |
+| **Betrokken productgebieden**         | Persoonlijke productaanbevelingen in POS.                                                    |
+| **Implementatieoptie**              | Alles                                                                                      |
+| **Status**                         |Verwijderd sinds 15 februari 2018. Dit heeft invloed op klanten met Dynamics 365 for Operations 1611 en hoger.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Uitbreiding van de lijst met functies voor elektronische rapportage (ER)
 De mogelijkheid om aangepaste functies te introduceren voor gebruik in de ER-opbouwfunctie (zie voor meer informatie [De lijst met functies voor elektronische rapportage uitbreiden](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) wordt niet meer ondersteund. Als gevolg van wijzigingen in de ER-API's is de API voor het aanroepen van ingebouwde functies vanuit de ER-opbouwfunctie nu een interne API die niet meer kan worden uitgebreid.
@@ -132,6 +143,19 @@ Gebruikers kunnen dit certificaat downloaden vanuit de overheidsportal.
 | **Implementatieoptie**                       | Alle modules                                                                    |
 | **Status**                                  | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie.  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+
+### <a name="personalized-product-recommendations"></a>Persoonlijke productaanbevelingen 
+Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevelingen meer weergeven op een POS-apparaat (Point Of Sale). Zie [Persoonlijke productaanbevelingen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations) voor meer informatie.  
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | We verwijderen de huidige versie van de productaanbevelingsservice aangezien we deze opnieuw willen ontwerpen met een beter algoritme en nieuwe mogelijkheden voor detailhandelaren.  |
+| **Vervangen door een andere functie?**   | Nr. Na het voorjaar van 2018 komen we echter met een nieuwe aanbevelingsservice.   |
+| **Betrokken productgebieden**         | Persoonlijke productaanbevelingen in POS.                                                    |
+| **Implementatieoptie**              | Alles                                                                                      |
+| **Status**                         |Verwijderd sinds 15 februari 2018. Dit heeft invloed op klanten met Dynamics 365 for Retail 7.2 en hoger. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise-editie 2017 (juli) met platformupdate 8

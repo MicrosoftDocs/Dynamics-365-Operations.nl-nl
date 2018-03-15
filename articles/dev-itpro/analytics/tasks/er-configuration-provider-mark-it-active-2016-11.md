@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Een configuratieprovider maken en deze als actief markeren voor elektronische rapportage (ER)
@@ -33,11 +33,10 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan d
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
 2. Klik op Configuratieproviders.
 3. Klik op Nieuw.
-    * Een providerrecord heeft een unieke naam en URL. Bekijk de inhoud van deze pagina en sla deze procedure over als er al een record voor Litware, Inc. (http://www.litware.com) bestaat.  
+    * Een providerrecord heeft een unieke naam en URL. Bekijk de inhoud van deze pagina en sla deze procedure over als er al een record voor Litware, Inc (`http://www.litware.com`) bestaat.  
 4. Typ 'Litware, Inc.' in het veld Naam.
     * Litware, Inc.  
-5. Typ 'http://www.litware.com' in het veld Internetadres.
-    * http://www.litware.com  
+5. Typ `http://www.litware.com` in het veld Internetadres.
 6. Klik op Opslaan.
 7. Sluit de pagina.
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,16 +17,17 @@ ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 599440449f1e8c8dcc3762ce9f6da7a37beb358f
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: 1492e4d8220a3d515145d97ef8dad048727d97c8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
 # <a name="import-iso20022-files"></a>ISO20022-bestanden importeren
 
-## <a name="overview"></a>Overzicht
+[!include[banner](../includes/banner.md)]
+
 U kunt betalingsbestanden met de volgende indelingen importeren:
 
  - **ISO20022 camt.054 kredietbrief**: inkomende betalingen importeren uit een bestand in deze indeling in het klantbetalingsjournaal.
@@ -40,7 +42,7 @@ U moet aan de volgende vereisten voldoen om bankmeldingen in de indeling camt.05
 4. Stel op de pagina **Bankrekeningen** bankrekeningen voor de rechtspersonen in door de volgende informatie in te voeren: IBAN of bankrekeningnummer en SWIFT-code of routeringsnummer, valuta en adres.
 
     > [!NOTE]
-    > Als u van plan bent Geavanceerde bankafstemming te gebruiken, stelt u op het sneltabblad **Afstemming** de optie **Geavanceerde bankafstemming** in op **Ja**. Als u niet-geboekte geïmporteerde betalingen wilt afstemmen, stelt u de optie **Bankafschriften gebruiken als bevestiging van elektronische betalingen** in op **Ja**.
+        > Als u van plan bent Geavanceerde bankafstemming te gebruiken, stelt u op het sneltabblad **Afstemming** de optie **Geavanceerde bankafstemming** in op **Ja**. Als u niet-geboekte geïmporteerde betalingen wilt afstemmen, stelt u de optie **Bankafschriften gebruiken als bevestiging van elektronische betalingen** in op **Ja**.
 
 5. Optioneel: stel op de pagina **Toewijzing van transactiecode** de toewijzing in tussen banktransactiecodes in de bestands- en banktransactietypen.
 6. Als het bestand transactietoeslagen bevat die u samen met de inkomende betaling wilt boeken, maakt u een post voor bijzondere betalingskosten op de pagina **Bijzondere kosten voor klantbetalingen**. Klik vervolgens op de pagina **Betalingsmethoden** en koppel de bijzondere betalingskosten aan de bankrekening in de instelling voor betalingskosten.
@@ -53,9 +55,7 @@ U moet aan de volgende vereisten voldoen om bankmeldingen in de indeling camt.05
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>Het bestand camt.054 met de kredietbrief in het klantbetalingsjournaal importeren
 1. Klik op de pagina **Journaalregels met betalingen van klant** op **Functies** > **Betalingen importeren**.
 2. Selecteer de betalingsmethode met de vereiste instellingen voor de indeling ISO20022 camt.054.
-3. Geef de vereiste parameters en het bestandspad op en klik op **OK**.
-
-Het bestand wordt geïmporteerd.
+3. Geef de vereiste parameters en het bestandspad op en klik op **OK**. Het bestand wordt geïmporteerd.
 
 ## <a name="prerequisites-for-importing-files-in-the-pain002-status-return-and-camt054-debit-advice-formats-into-the-ap-payment-transfer-journal"></a>Vereisten voor het importeren van bestanden in de ISO20022-indelingen voor pain.002 retourstatus en ISO20022 camt.054 debetadvies in het AP-betalingsoverboekingsjournaal.
 Voltooi eerst de volgende vereisten voor het importeren van bankberichten in de volgende ISO20022-indelingen op de pagina **Leverancierbetalingen**: pain.002.001.003 statusretourberichten en camt.054.001.002 debetadvies.

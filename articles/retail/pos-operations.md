@@ -1,5 +1,5 @@
 ---
-title: POS-bewerkingen
+title: POS-bewerkingen, online en offline
 description: Dit onderwerp bevat informatie over de POS-bewerkingen (Point Of Sale) in Microsoft Dynamics 365 for Retail. Hier wordt aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn in de offlinemodus.
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
-# <a name="pos-operations"></a>POS-bewerkingen
+# <a name="pos-operations-online-and-offline"></a>POS-bewerkingen, online en offline
+
+[!include[banner](includes/banner.md)]
+
 De meeste acties die de gebruiker uitvoert in POS worden beschouwd als bewerkingen. Bewerkingen worden geconfigureerd en beheerd in de Microsoft Dynamics 365 for Retail-backoffice. Veel bewerkingen kunnen worden toegevoegd aan knoppen in het POS-knoppenraster. Gebruikers kunnen de knoppen vervolgens selecteren om de bewerkingen aan te roepen en hun functie uit te voeren. Andere bewerkingen maken deel uit van de POS-hoofdtoepassing en worden aangeroepen via schermknoppen of als onderdeel van andere workflows of processen.
 
 De volgende tabel bevat informatie over de bewerkingen die beschikbaar zijn in Retail Modern POS en Cloud POS voor Dynamics 365 for Retail. In de tabel wordt ook aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn als het POS zich in de offlinemodus bevindt.

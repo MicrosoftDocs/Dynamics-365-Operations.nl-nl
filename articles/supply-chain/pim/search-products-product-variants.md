@@ -1,6 +1,6 @@
 ---
 title: Producten en productvarianten zoeken tijdens orderinvoer
-description: Met het veld <strong>Artikelnummer </strong>kunt u zoeken naar producten en productvarianten wanneer u handmatig een verkoop- of inkooporderregel maakt.  Zo kunt u snel productvarianten zoeken wanneer u alleen de configuratietekenreeks of een van de beschikbare productdimensies hebt.
+description: Met het veld <strong>Artikelnummer </strong> kunt u zoeken naar producten en productvarianten, wanneer u handmatig een verkoop- of inkooporderregel maakt.  Zo kunt u snel productvarianten zoeken wanneer u alleen de configuratietekenreeks of een van de beschikbare productdimensies hebt.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a834cb513d95c0244a29e1f9ec196020698c5983
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 08715b4c31c42dfa23d72b1035a1e7cc737c13a2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -72,7 +72,7 @@ Voorbeelden van identificerende kenmerken en dimensies voor producten en product
 
 Ga naar de pagina **Verkoop en marketing &gt; Instellen &gt; Zoeken &gt; Zoekcriteria**. Op de pagina **Zoekcriteria** kunt u criteria definiëren voor het zoeken naar klanten, prospects en producten. Zorg ervoor dat u de pagina filtert door middel van zoekcriteria voor producten. Schakel hiervoor in het menu van de pagina over naar **Product**.  
 
-Als u het weergegeven productnummer wilt toevoegen aan de zoekcriteria, klikt u op **Nieuw** in het menu van de pagina. Hierdoor wordt een nieuwe record toegevoegd in het raster **Zoekcriteria**. Open de opzoekweergave van de kolom **Veldnaam** en kies **DisplayProductNumber**. Om de configuratie van het product aan de zoekcriteria te voegen, maakt u een nieuwe record in het raster **Zoekcriteria **en kiest u in de kolom **Veldnaam** de waarde **configId**. Maak op dezelfde manier een registratie met de **Veldnamen** **InventColorId** voor de dimensie Kleur, **InventSizeId** voor de dimensie Grootte en **InventStyleId** voor de dimensie Stijl.
+Als u het weergegeven productnummer wilt toevoegen aan de zoekcriteria, klikt u op **Nieuw** in het menu van de pagina. Hierdoor wordt een nieuwe record toegevoegd in het raster **Zoekcriteria**. Open de opzoekweergave van de kolom **Veldnaam** en kies **DisplayProductNumber**. Om de configuratie van het product aan de zoekcriteria te voegen, maakt u een nieuwe record in het raster **Zoekcriteria** en kiest u in de kolom **Veldnaam** de waarde **configId**. Maak op dezelfde manier een registratie met de **Veldnamen** **InventColorId** voor de dimensie Kleur, **InventSizeId** voor de dimensie Grootte en **InventStyleId** voor de dimensie Stijl.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Stap 2: De databasetabel vullen die voor het zoeken naar producten wordt gebruikt
 

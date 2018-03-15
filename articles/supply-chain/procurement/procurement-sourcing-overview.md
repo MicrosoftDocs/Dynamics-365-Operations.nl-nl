@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0692518afc5c8b385773dad3c44dc4e3c978362b
+ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
+ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -62,7 +62,7 @@ Wanneer u een inkooporder maakt, worden veel van de velden van tevoren ingevuld 
 
 ### <a name="prices-and-discounts"></a>Prijzen en kortingen
 
-De prijzen en kortingen bevatten informatie over de prijzen, kortingen, en de kortingsvoorwaarden die bieden. De prijzen en kortingen kunnen worden weergegeven als *handels**overeenkomsten*. De handelsovereenkomsten bevatten leveranciersprijslijsten met prijzen of kortingen, en hebben een specifieke reeks datums waarvoor de overeenkomst geldig is. De prijzen en kortingen kunnen worden onderhandel en weergegeven in *inkoopovereenkomsten*, met voorwaarden zoals toezeggingen om bepaalde volumes te komen of monetaire bedragen als preconditie voor de overeengekomen voorwaarden. *Kortingsovereenkomsten* kunnen met leveranciers worden gemaakt waarin de inkoop van specifieke producten of groepen producten een korting van de leverancier kan opleveren, afhankelijk van het inkoopbedrag of volume.
+De prijzen en kortingen bevatten informatie over de prijzen, kortingen, en de kortingsvoorwaarden die bieden. De prijzen en kortingen kunnen worden weergegeven als *handels* *overeenkomsten*. De handelsovereenkomsten bevatten leveranciersprijslijsten met prijzen of kortingen, en hebben een specifieke reeks datums waarvoor de overeenkomst geldig is. De prijzen en kortingen kunnen worden onderhandel en weergegeven in *inkoopovereenkomsten*, met voorwaarden zoals toezeggingen om bepaalde volumes te komen of monetaire bedragen als preconditie voor de overeengekomen voorwaarden. *Kortingsovereenkomsten* kunnen met leveranciers worden gemaakt waarin de inkoop van specifieke producten of groepen producten een korting van de leverancier kan opleveren, afhankelijk van het inkoopbedrag of volume.
 
 ### <a name="delivery-options"></a>Leveringsopties
 
