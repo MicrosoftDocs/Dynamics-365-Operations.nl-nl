@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ In de huidige versie biedt de oplossing Prospect naar contant geld de volgende t
 - [Verkooporders vanuit Finance and Operations rechtstreeks synchroniseren met Sales](sales-order-template-mapping-direct.md)
 - [Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations (sjabloon in afwachting van vrijgave)](sales-order-template-mapping-direct-two-ways.md)
 - [Verkoopfacturen vanuit Finance and Operations rechtstreeks synchroniseren met Sales](sales-invoice-template-mapping-direct.md)
-
-In eerdere versies biedt de oplossing Prospect naar contant geld de volgende typen niet-directe synchronisatie:
-
-- [Rekeningen in Sales onderhouden en ze synchroniseren met Finance and Operations](accounts-template-mapping.md)
-- [Contactpersonen in Sales onderhouden en synchroniseren met Finance and Operations](contacts-template-mapping.md)
-- [Producten in Finance and Operations onderhouden en synchroniseren met Sales](products-template-mapping.md)
-- [Verkoopoffertes maken in Sales en synchroniseren met Finance and Operations](sales-quotation-template-mapping.md)
-- [Verkooporders maken in Finance and Operations en synchroniseren met Sales](sales-order-template-mapping.md)
-- [Verkoopfacturen maken in Finance and Operations en synchroniseren met Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Systeemvereisten voor Finance and Operations
 
@@ -87,7 +78,7 @@ Integratie van Prospect met contant geld wordt ondersteund door de volgende vers
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)**: Ondersteuning voor de integratie van Prospect naar contant geld via gegevensentiteiten is vereist.
     
     > [!NOTE]
-    > Na installatie van de hotfixes moet u de volgende batchtaak triggeren vanuit het formulier **SalesPopulateProspectToCash**. Dit formulier is verborgen omdat u het maar eenmaal nodig hebt. Om het formulier te openen, meldt u zich aan bij de omgeving en voegt u het volgende toe aan de URL in uw browseradres: &mi=action:SalesPopulateProspectToCash, bijvoorbeeld https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Wanneer het formulier wordt geopend, klikt u op OK. In de tabellen **SalesLine**, **SalesQuotationLine** en **CustInvoiceTrans** wordt een nieuw veld **LineCreationSequnceNumber** gevuld met unieke waarden en de lijst met producten wordt vernieuwd. Dit is nodig voor een geslaagde integratie van Prospect naar contant geld.
+    > Na installatie van de hotfixes moet u de volgende batchtaak triggeren vanuit het formulier **SalesPopulateProspectToCash**. Dit formulier is verborgen omdat u het maar eenmaal nodig hebt. U opent het formulier door u aan te melden bij de omgeving en het volgende aan de URL in uw browseradres toe te voegen: &mi=action:SalesPopulateProspectToCash, bijvoorbeeld `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Wanneer het formulier wordt geopend, klikt u op OK. In de tabellen **SalesLine**, **SalesQuotationLine** en **CustInvoiceTrans** wordt een nieuw veld **LineCreationSequnceNumber** gevuld met unieke waarden en de lijst met producten wordt vernieuwd. Dit is nodig voor een geslaagde integratie van Prospect naar contant geld.
 
 
 ## <a name="system-requirements-for-sales"></a>Systeemvereisten voor Sales
@@ -96,12 +87,6 @@ Als u de oplossing Prospect naar contant geld wilt gebruiken, moet u de volgende
 
 - Dynamics 365 for Sales-versie 1612 (8.2.1.207) (DB 8.2.1.207) online
 - De oplossing Prospect naar contant geld voor Dynamics 365 for Sales, versie 1.15.0.0 (v15) 
-
-   > [!NOTE]
-   >
-   > Sjablonen met versie 1.0.0.0 en 1.0.0.1 worden ondersteund in de oplossing Prospect naar contant geld voor Dynamics 365 for Sales, versie 1.14.1.0
-   >
-   > Sjablonen met versie 2.0.0.0 en 2.1.0.0 worden ondersteund in de oplossing Prospect naar contant geld voor Dynamics 365 for Sales, versie 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>De oplossing Prospect naar contant geld voor Sales installeren
 

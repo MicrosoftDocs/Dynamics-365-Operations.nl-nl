@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Winkelorderafhandeling
+
+[!include[banner](includes/banner.md)]
 
 Veel detailhandelaren willen de afhandeling van orders optimaliseren door winkels in staat te stellen orders uit te voeren. Orderafhandeling op winkelniveau kan overbevoorradingsscenario's voor een bepaalde winkel voorkomen of vanuit logistiek oogpunt noodzakelijk zijn in gevallen waarin een winkel extra capaciteit heeft of zich dichter bij de klant bevindt. Om in deze behoefte te voorzien, is er een uniforme orderafhandelingsbewerking beschikbaar in het verkooppunt.
 
@@ -56,7 +58,7 @@ Regels kunnen worden geselecteerd met de functie **Selecteren** in het actievens
 
 ## <a name="line-details"></a>Regeldetails
 
-Regeldetails kunnen worden weergegeven via het fly-outmenu voor regeldetails. Wanneer u dit menu gebruikt, worden er twee tabbladen met aanvullende informatie over de geselecteerde regel weergegeven. Het eerste tabblad, **Regeldetails**, bevat informatie over de regel zelf, zoals de bestelde en de resterende hoeveelheid. Daarnaast vindt u hier informatie over verzamelde, verpakte en gefactureerde aantallen en de leveringsmethode en het afleveradres. Het tabblad **Orderdetails** bevat gegevens uit de orderkoptekst, zoals de klant, de klant-id, het ordernummer, het ordertotaal en het saldo.
+Regeldetails kunnen worden weergegeven via het fly-outmenu voor regeldetails. Wanneer u dit menu gebruikt, worden er drie tabbladen met aanvullende informatie over de geselecteerde regel weergegeven. Het eerste tabblad, **Regeldetails**, bevat informatie over de regel zelf, zoals de bestelde en de resterende hoeveelheid. Daarnaast vindt u hier informatie over verzamelde, verpakte en gefactureerde aantallen en de leveringsmethode en het afleveradres. Het tabblad **Orderdetails** bevat gegevens uit de orderkoptekst, zoals de klant, de klant-id, het ordernummer, het ordertotaal en het saldo. Het tabblad **Voorraad** bevat informatie voor de geselecteerde regel in de vorm van fysiek beschikbare voorraad, gereserveerde voorraad en bestelde voorraad.
 
 Als er meerdere regels zijn geselecteerd, wordt in het fly-outmenu voor orderregeldetails alleen aangeven dat er meerdere regels zijn geselecteerd. Als u details wilt weergeven voor één regel, maakt u de selectie van de overige regels ongedaan. 
 

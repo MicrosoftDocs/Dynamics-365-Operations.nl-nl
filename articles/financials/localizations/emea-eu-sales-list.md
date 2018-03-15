@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b55d64dba11f3bf0e0cb549752af44a487dcb348
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: fe24eb79cbda0aea09ab7de5e4c02189ef3c8ff0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 
@@ -158,7 +158,7 @@ U kunt een rapport **EU-verkooplijst** genereren door de functie **Rapportering*
 
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>Sluiten van de EU-Verkooplijst rapporteringperiode.
 
-Als u het rapportageproces voor een specifieke periode (bijvoorbeeld, wanneer de belastingdienst de **EU-verkooplijst** rapport accepteerd), kunt u de ESL registraties markeren die bijgesloten zijn in het rapport voor de periode door het instellen van de **Rapportage status** waarde op **Gesloten**. Om deze status in te stellen, gebruik de **Markeren als gesloten** functie op de **EU-verkooplijst** pagina. Als u de afsluiting van de periode omkeert, kunt u ESL-registraties markeren door de **Rapportage status** waarde in te stellen op **Opgenomen**. Deze records kunnen vervolgens opnieuw op een rapport **EU-verkooplijst** worden opgenomen. Om deze status in te stellen, gebruik de **Markeren als****Inclusief** functie op de **EU-verkooplijst** pagina.
+Als u het rapportageproces voor een specifieke periode (bijvoorbeeld, wanneer de belastingdienst de **EU-verkooplijst** rapport accepteerd), kunt u de ESL registraties markeren die bijgesloten zijn in het rapport voor de periode door het instellen van de **Rapportage status** waarde op **Gesloten**. Om deze status in te stellen, gebruik de **Markeren als gesloten** functie op de **EU-verkooplijst** pagina. Als u de afsluiting van de periode omkeert, kunt u ESL-registraties markeren door de **Rapportage status** waarde in te stellen op **Opgenomen**. Deze records kunnen vervolgens opnieuw op een rapport **EU-verkooplijst** worden opgenomen. Om deze status in te stellen, gebruik de **Markeren als** **Inclusief** functie op de **EU-verkooplijst** pagina.
 
 
 

@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7bcc8464d34c35423e86c963c6b493fc09db4472
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -48,7 +48,7 @@ Als u de laatste versie van elke webbrowser wilt opzoeken, gaat u naar de websit
 > * De workfloweditor wordt als ClickOnce-toepassing gestart. Alleen Microsoft Edge en Internet Explorer (op een ondersteunde versie van Microsoft Windows) ondersteunen ClickOnce-toepassingen. De ClickOnce-toepassing Workfloweditor vereist een compatibel 64-bits besturingssysteem.
 > * Als u PDF-bestanden wilt bekijken, raden wij u aan moderne browsers te gebruiken, zoals Microsoft Edge (meest recente openbaar beschikbare versie) op Windows 10 of Google Chrome (meest recente openbaar beschikbare versie) op Windows 10, Windows 8.1, Windows 8, Windows 7 of Google Nexus 10 tablet.
 Netwerkvereisten
-> * Dynamics 365 for Talent is ontworpen voor netwerken met latentie van 250-300 milliseconden (ms) of minder. Dit is de latentie in een browserclient naar het Microsoft Azure-datacentrum waar Dynamics 365 for Talent wordt gehost. We raden aan dat u de netwerklatentie test op [www.azurespeed.com] (http://www.azurespeed.com "Azure Latency Test").
+> * Dynamics 365 for Talent is ontworpen voor netwerken met latentie van 250-300 milliseconden (ms) of minder. Dit is de latentie in een browserclient naar het Microsoft Azure-datacentrum waar Dynamics 365 for Talent wordt gehost. Het wordt aangeraden om uw netwerklatentie te testen op [www.azurespeed.com] (http://www.azurespeed.com "Azure Latency Test").
 > * De bandbreedtevereisten voor Dynamics 365 for Talent zijn afhankelijk van uw scenario. De meest voorkomende scenario's vereisen een bandbreedte van meer dan 50 kilobytes per seconde (kbps).
 
 > [!WARNING]
@@ -56,12 +56,12 @@ Netwerkvereisten
 
 ## <a name="supported-microsoft-office-applications"></a>Ondersteunde Microsoft Office-toepassingen
 
-*   Als u de invoegtoepassingen voor Microsoft Word en Microsoft Excel wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over versievereisten [Problemen oplossen met Office-integratie] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Office integration troubleshooting").
+*   Als u de invoegtoepassingen voor Microsoft Word en Microsoft Excel wilt uitvoeren, moet Microsoft Office 2016 voor Windows of Mac zijn geïnstalleerd. Zie voor meer informatie over de versievereisten [Probleemoplossing voor Office-integratie] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Probleemoplossing voor Office-integratie").
 *   Als u documenten wilt weergeven die worden gegenereerd door de functie Exporteren naar Excel of Exporteren naar Word, moet Microsoft Office 2007 of hoger zijn geïnstalleerd.
 
 ## <a name="update-policy"></a>Updatebeleid
 
 Microsoft Dynamics 365 for Talent wordt aangeboden via de cloud. Updates voor Dynamics 365 for Talent vinden doorlopend plaats en worden automatisch toegepast door Microsoft.
 
-Updates zijn regelmatig uitgebracht en doorgevoerd in alle omgevingen.  Dynamics 365 for Talent wordt ondersteuning volgens het [Microsoft Support Lifecycle-beleid] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), dat consistente en voorspelbare richtlijnen bevat voor de beschikbaarheid van productondersteuning.
+Updates zijn regelmatig uitgebracht en doorgevoerd in alle omgevingen.  Dynamics 365 for Talent wordt ondersteund volgens het [Microsoft Support Lifecycle-beleid] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), dat consistente en voorspelbare richtlijnen bevat voor de beschikbaarheid van productondersteuning.
 

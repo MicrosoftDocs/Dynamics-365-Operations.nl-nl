@@ -3,7 +3,7 @@ title: Financial Insights
 description: "Financial Insights gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ De gegevens in ingesloten Power BI-rapporten kunnen momenteel niet worden beperk
 | Financiële inzichten voor geheel bedrijf weergeven   | •   In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, is deze functie niet toegewezen aan een rol. • In de volgende versie wordt deze functie toegewezen aan de rol van CFO. | •    Deze functie biedt toegang tot de menuoptie voor de werkruimte CFO-overzicht. •    Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft.             |
 
 
-## <a name="how-financial-statements-work"></a>Hoe financiële overzichten werken
-Hoewel **Financial Insights** financiële overzichten bevat, het is geen vervanging voor financiële rapportages in Finance and Operations. De standaard financiële overzichten in **Financial Insights** zijn beperkt in bereik en bevatten niet alle soorten financiële overzichten. Financiële rapportage is nog steeds het primaire hulpmiddel voor het ontwerpen, maken en genereren van wettelijke financiële overzichten.
+## <a name="financial-reporting-vs-finanical-insights"></a>Financiële rapportage versus Financial Insights
+Hoewel **Financial Insights** financiële overzichten bevat, is het geen vervanging voor Financiële rapportage in Finance and Operations. De standaard financiële overzichten in **Financial Insights** zijn beperkt in bereik en bevatten niet alle soorten financiële overzichten. Financiële rapportage is nog steeds het primaire hulpmiddel voor het ontwerpen, maken en genereren van wettelijke financiële overzichten.
 
-Naast de visuele elementen uit de oorspronkelijke werkruimte **CFO overzicht**, zijn nu nieuwe KPI's, diagrammen en financiële overzichten beschikbaar. De volgende financiële overzichten zijn beschikbaar:
+Op basis van het volgende vergelijkingsdiagram kunt u onderscheid maken tussen de twee opties:
+
+|                                         | **Financiële rapportage**                            | **Financial Insights**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Standaardrapporten bewerken**                | Ja                                                | Nee                                 | | **Nieuwe rapporten maken**                  | Ja                                                | Nee                                 | | **Rapporten afdrukken**                       | Ja                                                | Nee                                 | | **Exporteren naar Excel**                     | Ja          | Beperkt Exporteert onbewerkte gegevens naar Excel, geen opgemaakt rapport       | | **Ondersteuning voor rapportagehiërarchie/organisatiehiërarchie**   | Ja                               | Nee                                 | | **Rapporteert over subjournaalgegevens**       | Ja Beperkt tot alleen leverancier, klant    | Ja Leverancier, klant, leveranciers-/klantgroepen, leveranciers-/klantadressen, enz.  | | **Aangiftevaluta**      | Ja Valuta voor boekhouding en omzetten in aangiftevaluta       | Nee Alleen valuta voor boekhouding      | | **Beveiliging**                | Ja Voldoet aan Finance and Operations- en rapporteringsstructuurbeveiliging | Beperkt Rapporten voor alle bedrijven weergeven (ongeacht Finance and Operations-beveiliging) of alleen het actieve bedrijf | | **Ondersteuning voor verschillende rekeningschema's en boekjaren** | Ja                   | Nee                   | | **Rapporteert over externe gegevens**                              | Nee                   | Nee                                   | | **Ondersteuning voor consolidaties**                               | Ja                          | Beperkt Kan rapporteren over meerdere bedrijven, maar gebruikt alleen valuta voor boekhouding                                     |
+
+
+Naast de gebruikersinterface in het oorspronkelijke werkgebied **CFO-overzicht** zijn nu nieuwe KPI's, diagrammen en financiële overzichten beschikbaar. De volgende financiële overzichten zijn beschikbaar:
 
 •   Proefbalans
 
@@ -113,11 +118,11 @@ Naast de visuele elementen uit de oorspronkelijke werkruimte **CFO overzicht**, 
 
 •   Winst- en verliesrekening per regio
 
-•   Winst-en verliesrekening - werkelijk versus budget
+•   Winst- en verliesrekening - werkelijk versus budget
 
 •   Winst- en verliesrekening met afwijkingen
 
-•   12 maanden trendinkomensoverzicht
+•   Trendinkomensoverzicht van 12 maanden
 
 •   Onkosten driejarige trend
 

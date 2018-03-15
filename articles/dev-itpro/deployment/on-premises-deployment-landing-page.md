@@ -3,14 +3,14 @@ title: On-premises implementatie
 description: Dit onderwerp bevat informatie en koppelingen naar inhoud over on-premises implementaties.
 author: kfend
 manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core
+ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Startpagina On-premises implementatie
@@ -31,6 +31,7 @@ ms.lasthandoff: 12/20/2017
 U kunt Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition implementeren (on-premises). Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
 
 ## <a name="get-started"></a>Aan de slag
+- [Wat is nieuw of gewijzigd in on-premises implementaties van Dynamics 365 for Finance and Operations, Enterprise-editie 7.2 met platformupdate 12 (maart 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
 - [Overzicht van Dynamics 365 for Finance and Operations, Enterprise-editie (on-premises)](on-premises-overview.md)
 - [Planning voor uw on-premises implementatie](plan-onprem-deployment.md)
 - [Systeemvereisten voor on-premises-implementaties](../../fin-and-ops/get-started/system-requirements-on-prem.md)
@@ -50,6 +51,7 @@ U kunt Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition imp
 - [Documentbeheer configureren](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Configuraties van elektronische rapportage importeren](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Mogelijkheid voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties](../analytics/printing-capabilities-on-premises.md)
+- [Reverse-proxy voor uw on-premises omgeving configureren](onprem-reverseproxy.md)
 - [Technische ondersteuning instellen](../lifecycle-services/support-experience.md)
 - [Problemen oplossen met internetverbinding van client](../user-interface/client-disconnected.md)
 - [Updates toepassen op een on-premises implementatie](apply-updates-on-premises.md)

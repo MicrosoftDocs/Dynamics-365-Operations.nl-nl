@@ -3,7 +3,7 @@ title: Power BI-inhoud
 description: In dit onderwerp wordt de Power BI-inhoud vermeld die beschikbaar is en wordt aangegeven waar u meer informatie hierover kunt vinden.
 author: sericks007
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -42,6 +42,7 @@ Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise ed
 - [Power BI-inhoud Analyse van kostprijsboekhouding](cost-accounting-analysis-content-pack.md) 
 - [Power BI-inhoud Crediterings- en aanmaningsbeheer](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Power BI-inhoud Werknemerontwikkeling](employee-development-PBI.md) 
+- [Power BI-inhoud Financial Insights](financial-insights.md)
 - [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)
 - [Power BI-inhoud Beheer van vaste activa](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [Power BI-inhoud Leren](learning-power-bi.md)
@@ -73,6 +74,9 @@ Als u werkt met Microsoft Dynamics 365 for Operations, versie 1611, is de volgen
 
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI-inhoud voor Microsoft Dynamics AX
 Als u werkt met Microsoft Dynamics AX 7.0 of Microsoft Dynamics AX 7.0.1, is de volgende Power BI-inhoud beschikbaar:
+
+> [!Note]
+> Deze inhoudpakketten zijn verouderd, zoals beschreven in [Power BI-inhoudpakketten gepubliceerd naar PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 - [Power BI-inhoud voor kostenbeheer](cost-management-content-pack.md)    
 - [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)

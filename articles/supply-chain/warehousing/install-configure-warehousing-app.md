@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u magazijnbeheer voor cloudimplementaties configureert. Als u wilt weten hoe u magazijnbeheer configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> In dit onderwerp wordt beschreven hoe u magazijnbeheer voor cloudimplementaties configureert. Als u wilt weten hoe u magazijnbeheer configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations - Warehousing installeert en configureert.
 
@@ -44,7 +46,7 @@ De app is beschikbaar op Android- en Windows-besturingssystemen. Als u deze toep
 
 | Platform                    | Versie                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (alle versies)                                                                                                                                                   |
 | Finance en Operations | Microsoft Dynamics 365 for Operations, versie 1611 <br>– of – <br>Microsoft Dynamics AX, versie 7.0/7.0.1 en Microsoft Dynamics AX-platform, update 2 met hotfix KB 3210014 |
 
@@ -93,7 +95,7 @@ U moet de app configureren op het apparaat om verbinding te maken met de Finance
     + **Client-id Azure Active Directory**: De client-id wordt verkregen in stap 9 in "Een webservicetoepassing maken in Active Directory". 
     + **Clientgeheim Azure Active Directory**: Het clientgeheim wordt verkregen in stap 11 in "Een webservicetoepassing maken in Active Directory". 
     + **Resource Azure Active Directory**: De resource van Azure AD toont de hoofd-URL van Finance and Operations. **Opmerking**: dit veld mag niet met een slash (/) worden afgesloten. 
-    + **Tenant Azure Active Directory**: De Azure Active Directory-tenant die wordt gebruikt met de Finance and Operations-server: https://login.windows.net/<uw-AD-tenant-id>. Bijvoorbeeld: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **Tenant Azure Active Directory**: de Azure AD-tenant die wordt gebruikt met de Finance and Operations-server: `https://login.windows.net/your-AD-tenant-ID`. Bijvoorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Opmerking**: dit veld mag niet met een slash (/) worden afgesloten. 
     + **Bedrijf**: Voer de rechtspersoon in Finance and Operations in waarmee de toepassing verbinding moet maken. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Selecteer de knop **Terug** in de linkerbovenhoek van de toepassing. De toepassing maakt nu verbinding met uw Finance and Operations-server en het aanmeldingsscherm wordt voor de magazijnmedewerker weergegeven. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
@@ -103,7 +105,7 @@ In geval van een verloren of beschadigd apparaat moet u de toegang tot Finance a
 
 1.  Ga in Finance and Operations naar **Systeembeheer** &gt; **Instellen** &gt; **Azure Active Directory-toepassingen**.
 2.  Verwijder de regel die overeenkomt met het apparaat waarvoor u toegang wilt verwijderen. Vergeet de **client-id** niet die wordt gebruikt voor het verwijderde apparaat. U hebt deze later nodig.
-3.  Meld u bij de Azure-portal aan via <https://portal.azure.com>.
+3.  Meld u aan bij de Azure-portal op <https://portal.azure.com>.
 4.  Klik op het pictogram **Active Directory** in het linkermenu en zorg dat u zich in de juiste map bevindt.
 5.  Klik in de lijst op **App-registraties** en klik vervolgens op de toepassing die u wilt configureren. De pagina **Instellingen** wordt weergegeven met informatie over de configuratie.
 6.  Zorg ervoor dat de **client-id** van de toepassing hetzelfde is als bij stap 2 in deze sectie.
