@@ -159,6 +159,7 @@
 ### [Implementatie met continuous build en testautomatisering](perf-test/continuous-build-test-automation.md)
 ## [Ingangsdatum](dev-tools/date-effectivity.md)
 ## [ISV-licenties](dev-tools/isv-licensing.md)
+## [ISV-licentie on-premises](dev-tools/isv-licensing-on-prem.md)
 
 # [Ontwikkeling gebruikersinterface](user-interface/user-interface-development-home-page.md)
 ## Zelfstudies
@@ -385,12 +386,12 @@
 ##### [Accounts in Sales synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Contactpersonen in Sales synchroniseren naar contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
 ##### [Kopteksten en regels in verkoopoffertes vanuit Sales synchroniseren naar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Kopteksten en regels in verkooporders synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Kopteksten en regels in verkooporders synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Kopteksten en regels in verkoopfacturen synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 ### [Externe webservices gebruiken](data-entities/consume-external-web-service.md)
@@ -406,33 +407,7 @@
 ### [Sjablonen voor configuratiegegevens](data-entities/configuration-data-templates.md)
 ### [Gegevenssjablonen met meerdere werkbladen](data-entities/excel-template-multiple.md)
 ### [Wijzigingen in een entiteit bijhouden](data-entities/entity-change-track.md)
-
-## Standaardgegevensentiteiten
-### [Rapport Gegevensentiteiten](data-entities/data-entities-report.md)
-### [Gegevensentiteiten: leveranciers en belastingen](data-entities/data-entities-accounts-payable-taxes.md)
-### [Gegevensentiteiten: klanten](data-entities/data-entities-accounts-receivable.md)
-### [Gegevensentiteiten: bank](data-entities/data-entities-bank.md)
-### [Gegevensentiteiten: beginsaldi](data-entities/data-entities-beginning-balances.md)
-### [Gegevensentiteiten: budgetplanning](data-entities/data-entities-budget-plan.md)
-### [Gegevensentiteiten: budgetten](data-entities/data-entities-budgeting.md)
-### [Gegevensentiteiten: kostprijsberekening](data-entities/data-entities-costing.md)
-### [Gegevensentiteiten: onkostenbeheer](data-entities/data-entities-expense-management.md)
-### [Gegevensentiteiten: vaste activa](data-entities/data-entities-fixed-assets.md)
-### [Onkostenbeheer: grootboek](data-entities/data-entities-general-ledger.md)
-### [Onkostenbeheer: globaal adresboek](data-entities/data-entities-global-address-book.md)
-### [Gegevensentiteiten: Human resources](data-entities/data-entities-human-resources.md)
-### [Gegevensentiteiten: voorraadbeheer](data-entities/data-entities-inventory-management.md)
-### [Gegevensentiteiten: hoofdplanning](data-entities/data-entities-master-plan.md)
-### [Gegevensentiteiten: Inkoopbeheer](data-entities/data-entities-procurement-sourcing.md)
-### [Gegevensentiteiten: productgegevensbeheer](data-entities/data-entities-product-information-management.md)
-### [Gegevensentiteiten: productiebeheer](data-entities/data-entities-production-control.md)
-### [Gegevensentiteiten: projectadministratie](data-entities/data-entities-project-accounting.md)
-### [Gegevensentiteiten: publieke sector](data-entities/data-entities-public-sector.md)
-### [Gegevensentiteiten: detailhandel](data-entities/data-entities-retail.md)
-### [Gegevensentiteiten: uitvoering verkoop en marketing](data-entities/data-entities-sales-marketing.md)
-### [Gegevensentiteiten: verkoop en marketing pre-sales](data-entities/data-entities-sales-marketing-pre-sales.md)
-### [Gegevensentiteiten: systeembeheer](data-entities/data-entities-system-administration.md)
-### [Gegevensentiteiten: werkstroom](data-entities/data-entities-workflow.md)
+### [Informatie zoeken over standaardgegevensentiteiten](data-entities/data-entities-report.md)
 
 ## [Gegevensimport- en exporttaken](data-entities/data-import-export-job.md)
 
@@ -452,7 +427,13 @@
 
 ## [Uw eigen database gebruiken](analytics/export-entities-to-your-own-database.md)
 
-## [Bronnen voor het reageren op een GDPR-aanvraag](gdpr/gdpr-home-page.md)
+## [Bronnen voor het reageren op een AVP-aanvraag](gdpr/gdpr-home-page.md)
+### [Handleiding voor de AVG voor Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Rapport voor persoon zoeken gebruiken](gdpr/gdpr-person-search-report.md)
+### [Rapport voor persoon zoeken uitbreiden](gdpr/gdpr-extend-person-search-report.md)
+### [Toegang tot vertrouwelijke gegevens beheren](gdpr/gdpr-auditing-sensitive-data.md)
+### [Reageren op een aanvraag voor persoonlijke gegevens met behulp van Talent](gdpr/respond-dsr-request-talent.md)
+### [Reageren op een aanvraag voor persoonlijke gegevens met behulp van Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
 # [Startpagina Continue levering](dev-tools/continuous-delivery-home-page.md)
 ## [Veelgestelde vragen over ontwikkeling en continue levering](dev-tools/continuous-delivery-faq.md)
@@ -516,12 +497,16 @@
 ### [Omvang van hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Een on-premises project maken](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [On-premises omgevingen instellen en implementeren](deployment/setup-deploy-on-premises-environments.md)
-### [Aangepaste modellen ontwikkelen voor on-premises omgevingen](deployment/develop-deploy-custom-models-on-premises.md)
+#### [On-premises omgevingen implementeren met Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
+#### [On-premises omgevingen implementeren met Platform updates 8 en 11](deployment/setup-deploy-on-premises-pu8-pu11.md)
+
+### [Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Reverse-proxy voor uw on-premises omgeving configureren](deployment/onprem-reverseproxy.md)
 ### [Updates toepassen op een on-premises implementatie](deployment/apply-updates-on-premises.md)
 ### [Een on-premises implementatie opnieuw implementeren](deployment/redeploy-on-prem.md)
 ### [De lokale agent bijwerken](lifecycle-services/update-local-agent.md)
 ### [Uw omgeving opnieuw configureren](lifecycle-services/reconfigure-environment.md)
+### [Internetverbinding voor client](user-interface/client-disconnected.md)
 ### [Problemen met Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) oplossen](deployment/troubleshoot-on-prem.md)
 
 ## Aangepaste code implementeren
@@ -628,6 +613,7 @@
 ## [Stroomdiagrammen voor modelleertool bedrijfsprocessen](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Aangepaste bedrijfsprocessen uploaden](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Controle en diagnose ](lifecycle-services/monitoring-diagnostics.md)
+## [Omgevingsservices opnieuw starten](lifecycle-services/restart-environment-services.md)
 ## [Gebruikeraanmeldingen bijhouden](lifecycle-services/user-logins.md)
 ## [Activabibliotheek](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - Overzicht vertaalservice](lifecycle-services/translation-service-overview.md)
