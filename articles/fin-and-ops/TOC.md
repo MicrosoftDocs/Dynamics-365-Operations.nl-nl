@@ -21,7 +21,8 @@
 #### [AX 2012-functies die zijn uitgesteld](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Functies die niet zijn geïmplementeerd in on-premises implementaties](get-started/features-not-implemented-on-prem.md)
 #### [Versies en lifecycle-beleid](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platformupdate 13 (januari 2018)](get-started/whats-new-platform-update-13.md)
+#### [On-premises implementaties (maart 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Platform update 13 (januari 2018)](get-started/whats-new-platform-update-13.md)
 #### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platformupdate 12 (november 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platformupdate 11 (oktober 2017)](get-started/whats-new-platform-update-11.md)
@@ -134,7 +135,7 @@
 ### [Het inhoudpakket voor kostenbeheer in Power BI](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Gegevensintegratie
-### [Integratiepatronen](../dev-itpro/data-entities/integration-overview.md)
+### [Een strategie voor gegevensintegratie kiezen (importeren/exporteren)](../dev-itpro/data-entities/integration-overview.md)
 
 ### Gegevensintegratie-API's
 #### [API voor gegevensbeheerpakket](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [Rekeningen in Sales onderhouden en direct vanuit Sales synchroniseren met Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [Producten in Finance and Operations onderhouden en direct synchroniseren met Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [Contactpersonen in Sales onderhouden en direct synchroniseren met contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Verkoopoffertes vanuit Sales rechtstreeks synchroniseren met Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Verkooporders vanuit Finance and Operations rechtstreeks synchroniseren met Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Verkoopfacturen vanuit Finance and Operations rechtstreeks synchroniseren met Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Verkoopofferte in Sales onderhouden en direct synchroniseren met Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Verkooporders in Finance and Operations onderhouden en direct synchroniseren met Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Verkoopfacturen in Finance and Operations onderhouden en direct synchroniseren met Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Externe webservices gebruiken](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,7 +473,13 @@
 #### [Verdelingen in een onkostennota](../financials/expense-management/expense-report-distributions.md)
 #### [Intercompany-onkosten](../financials/expense-management/intercompany-expense.md)
 #### [Onkostenbeleid](../financials/expense-management/travel-expense-policies.md)
-
+#### [Een onkostennota weergeven](../financials/expense-management/view-expense-report.md)
+#### [Een onkostennota boeken](../financials/expense-management/post-expense.md)
+#### [Onkostennota's en meerdere goedkeurders](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [Btw-restitutie in Onkostenbeheer](../financials/expense-management/VAT-expense-report.md)
+#### [Per diem-regels](../financials/expense-management/per-diem.md)
+#### [Reisaanvragen](../financials/expense-management/travel-req.md)
+#### [Persoonlijke onkosten in een onkostennota](../financials/expense-management/personal-expenses.md)
 
 ### [Budgettering](../financials/budgeting/budgeting-overview.md)
 #### [Overzicht budgetplanning ](../financials/budgeting/budget-planning-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [Integratie van belastingberekenfunctie](../financials/general-ledger/tax-engine-integration.md)
 ##### [Veelgestelde vragen over btw-drempels](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [De belastingberekenfunctie uitbreiden](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [GST-integratie voor kassa's](../retail/localizations/apac-ind-cash-registers.md)
+##### [Implementatierichtlijnen voor kassa's](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Japan
 ##### [Een vast activum aanschaffen en de overheidssubsidie aanvragen](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Indelingen voor klant- en leveranciersbetalingen](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Klantbetaling op basis van betalings-id](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [Importindeling Nets](../financials/localizations/emea-nor-nets-import-format.md)
-##### [Btw-overzicht](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [Btw-overzicht](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Kassa's](../retail/localizations/emea-nor-cash-registers.md)
+##### [Implementatierichtlijnen voor kassa's](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Polen
 ##### [Regelkortingen berekenen op basis van eenheidsprijs](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Correctienotities](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [Speciale boekingen en openingsbladen](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Zweden
 ##### [Betalingsindelingen voor import](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Kassa's](../retail/localizations/emea-swe-cash-registers.md)
 #### Zwitserland
 ##### [Betalingen van klant importeren in ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Verenigd Koninkrijk
@@ -1644,6 +1656,7 @@
 ##### [Bronnen voor bedrijfsactiviteiten](../supply-chain/production-control/operations-resources.md)
 ##### [Bronmogelijkheden](../supply-chain/production-control/resource-capabilities.md)
 ##### [Batchkenmerken](../supply-chain/production-control/batch-attributes.md)
+##### [Batchverdeling](../supply-chain/production-control/batch-balancing.md)
 ##### [Een formule kopiëren (taakbegeleiding)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Een formule maken door uit een bestaande formule te kopiëren (taakbegeleiding)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Coproducten uit een bestaande formuleversie kopiëren (taakbegeleiding)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [Maateenheid en opslagbeleid](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Power BI-inhoud magazijn](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Systeem groeperen op een geopende werklijst](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Ondersteuning mobiele streepjescodelezer](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Werkbeleid magazijn](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Mutatie van voorraad met gekoppeld werk in Magazijnbeheer](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,6 +1832,7 @@
 #### [Gecombineerde nummerplaat ontvangen](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Weergave oudere batches in magazijn op een mobiel apparaat configureren](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Oudste batch verzamelen op een mobiel apparaat](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Bevestiging van orderverzameling](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Productbevestiging voor clusterverzameling](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Batchvrijgave van gedeeltelijk gereserveerde transferorders](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)

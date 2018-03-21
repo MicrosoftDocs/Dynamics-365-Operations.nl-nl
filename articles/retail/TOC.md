@@ -37,10 +37,11 @@
 ## [Betalingsopties](work-with-payments.md)
 
 # Kanaalinstelling en -beheer
-## [Seedgegevens in een detailhandelomgeving initialiseren](enable-configure-retail-functionality.md)
+## [Seedgegevens in een retailomgeving initialiseren](enable-configure-retail-functionality.md)
 ## [Detailhandelkanalen definiëren](define-maintain-retail-channels.md)
+## [Assortimentsbeheer](assortments.md)
 ## [Online winkeloverzicht](online-stores.md)
-## [Een detailhandelhardwarestation configureren en installeren](retail-hardware-station-configuration-installation.md)
+## [Een Retail hardware station configureren en installeren](retail-hardware-station-configuration-installation.md)
 ## [Tijd en aanwezigheid in Retail](retail-time-attendance.md)
 
 # MPOS (Modern Point Of Sale) en Cloud POS
@@ -55,6 +56,7 @@
 ## Schermindeling
 ### [Schermindelingen configureren voor POS](pos-screen-layouts.md)
 ### [De Retail POS-indelingsontwerper installeren](install-pos-layout-designer.md)
+### [Meldingsinstellingen kiezen](Notifications-POS.md)
 ### [De taalinstellingen van de POS-toepassing en gebruiker](pos-application-user-language-settings.md)
 ### [Beelden voor MPOS instellen](set-up-manage-images-retail-mpos.md)
 ## [Overzicht van informatiecodes](info-codes-retail.md) 
@@ -100,7 +102,8 @@
 # Producten en merchandising
 ## [Overzicht met productinformatie](../supply-chain/pim/product-information.md)
 ## [Detailhandelhiërarchieën](retail-hierarchies.md)
-## [Attributen maken en beheren](create-manage-attributes.md)
+## [Overzicht van kenmerken en kenmerkgroepen](attribute-attributegroups-lifecycle.md)
+## [Kenmerken maken en beheren](create-manage-attributes.md)
 ## [Detailhandelproducten instellen](set-up-retail-products.md)
 ## [Productdimensies](../supply-chain/pim/product-dimensions.md)
 ## [Streepjescodes instellen](set-up-bar-codes.md)
@@ -131,7 +134,17 @@
 ## [Uw werknemers organiseren met afdelingen, taken en posities](../talent/departments-jobs-positions.md)
 ## [De onderdelen van een taak instellen](../talent/create-job.md)
 
-# Taken detailhandel
+# Lokalisatie en wettelijk voorgeschreven functies
+## India
+### [GST-integratie voor kassa's voor India](localizations/apac-ind-cash-registers.md)
+### [Implementatierichtlijnen voor kassa's voor India](localizations/apac-ind-loc-deployment-guidelines.md)
+## Noorwegen
+### [Kassa's voor Noorwegen](localizations/emea-nor-cash-registers.md)
+### [Implementatierichtlijnen voor kassa's voor Noorwegen](localizations/emea-nor-loc-deployment-guidelines.md)
+## Zweden
+### [Kassa's voor Zweden](localizations/emea-swe-cash-registers.md)
+
+# Taken retail
 ## [Een product maken](../supply-chain/pim/tasks/create-product.md)
 ## [Gekoppelde producten configureren](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Een product/productmodel vrijgeven aan rechtspersonen](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [De Retail SDK integreren met het continuous build-systeem](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Voorbeelden uitbreidbaarheid Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Kassa's voor Zweden](localizations/emea-swe-cash-registers.md)
-### [Voorbeeld voor Retail POS-integratie met regeleenheden voor Zweden](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Kassa's voor Noorwegen](localizations/emea-nor-cash-registers.md)
-### [Implementatierichtlijnen voor kassa's voor Noorwegen](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Pakket voor Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Voorbeelden Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Uitbreidingen voor afzetkanaaldatabase (DB)](dev-itpro/channel-db-extensions.md)
