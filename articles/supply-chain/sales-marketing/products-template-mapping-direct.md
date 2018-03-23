@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c68c4482cacf70f003669cf335e52e47425d2f7
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: def88c291538e3ef278c51e4b87462782e222de2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -116,7 +116,7 @@ In de volgende afbeelding ziet u een voorbeeld van sjabloontoewijzing in Gegeven
 
 [Contactpersonen vanuit Sales direct synchroniseren naar contactpersonen of klanten in Finance and Operations](contacts-template-mapping-direct.md)
 
-[Kopteksten en regels in verkooporders direct vanuit Finance and Operations synchroniseren naar Sales](sales-order-template-mapping-direct.md)
+[Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [Kopteksten en regels in verkoopfacturen direct vanuit Finance and Operations synchroniseren naar Sales](sales-invoice-template-mapping-direct.md)
 
