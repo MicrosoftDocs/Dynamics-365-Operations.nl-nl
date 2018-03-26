@@ -1,9 +1,9 @@
 ---
-title: Ordermeldingen weergeven in POS-client
-description: In dit onderwerp wordt beschreven hoe u ordermeldingen inschakelt in de POS-client en het framework voor meldingen, dat kan worden uitgebreid naar andere bewerkingen.
+title: Meldingen over orders in het verkooppunt weergeven
+description: In dit onderwerp wordt beschreven hoe u ordermeldingen inschakelt in het POS en het framework voor meldingen. Uiteindelijk kunnen ontwikkelaars deze meldingen uitbreiden tot bewerkingen naast orderafhandelingsbewerkingen.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,49 +18,58 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="display-notifications-in-point-of-sale"></a>Meldingen weergeven in POS-client
+# <a name="show-order-notifications-in-the-point-of-sale"></a>Meldingen over orders in het verkooppunt weergeven
 
 [!include[banner](includes/banner.md)]
 
-In de huidige moderne detailhandelomgeving worden er verschillende taken toegewezen aan winkelmedewerkers, zoals het helpen van klanten, het invoeren van transacties, het uitvoeren van voorraadtellingen en het ontvangen van orders in de winkel. De POS-client (Pont of Sale) stelt de medewerkers in staat deze taken en nog veel meer in één toepassing uit te voeren. Omdat ze gedurende de dag verschillende taken moeten uitvoeren, moeten medewerkers mogelijk op de hoogte worden gesteld wanneer iets hun aandacht vereist. Het framework voor meldingen in de POS-client lost dit probleem op door de detailhandelaren in staat te stellen meldingen op basis van rollen te configureren. Met Dynamics 365 for Retail met toepassingsupdate 5 kunnen deze meldingen alleen worden geconfigureerd voor POS-bewerkingen.
+In de moderne detailhandelomgeving worden er verschillende taken toegewezen aan winkelmedewerkers, zoals het helpen van klanten, het invoeren van transacties, het uitvoeren van voorraadtellingen en het ontvangen van orders in de winkel. De POS-client (Pont of Sale) biedt één toepassing waar de medewerkers alle taken en nog veel meer kunnen uitvoeren. Omdat ze gedurende de dag verschillende taken moeten uitvoeren, moeten medewerkers mogelijk op de hoogte worden gesteld wanneer iets hun aandacht vereist. Het framework voor meldingen in de POS-client stelt detailhandelaren in staat meldingen op basis van rollen te configureren. In Microsoft Dynamics 365 for Retail met toepassingsupdate 5 kunnen deze meldingen alleen worden geconfigureerd voor POS-bewerkingen.
 
-Op dit moment biedt het systeem de mogelijkheid om meldingen weer te geven voor orderafhandelingsbewerking. Het framework is echter ontworpen om te kunnen worden uitgebreid, zodat ontwerpers in de toekomst een meldingshandler kunnen schrijven voor elke bewerking en de meldingen kunnen weergeven in het verkooppunt.  
+Op dit moment kan het systeem meldingen alleen weergeven voor orderafhandelingsbewerkingen. Echter, omdat het framework kan worden verlengd, kunnen ontwikkelaars uiteindelijk een meldingenhandler schrijven voor elke bewerking en de meldingen voor die bewerking weergeven in het POS.
 
 ## <a name="enable-notifications-for-order-fulfillment-operations"></a>Meldingen voor orderafhandelingsbewerkingen inschakelen
 
-Ga als volgt te werk om meldingen voor de orderafhandelingsbewerkingen in te schakelen:
+Ga als volgt te werk om meldingen voor de orderafhandelingsbewerkingen in te schakelen.
 
- - Ga naar de pagina **Bewerkingen** (**Detailhandel** > **Afzetkanaalinstellingen** > **POS-instellingen** > **POS** > **Bewerkingen**).
- - Zoek de bewerking Orderafhandeling en schakel het selectievakje **Meldingen inschakelen** in voor deze bewerking. Hiermee geeft u aan het framework voor meldingen aan dat er moet worden geluisterd naar de handler voor de afhandelingsorderbewerking. Als de handler is geïmplementeerd, worden de meldingen weergegeven in het verkooppunt. Is dit niet het geval, dan worden de meldingen niet weergegeven voor deze bewerking.
-- Ga naar de POS-machtigingen die zijn gekoppeld aan de werknemers, voeg onder het sneltabblad **Meldingen** de bewerking Orderafhandeling toe en stel Weergavevolgorde in op 1. Wanneer er meer dan één melding is geconfigureerd, wordt de weergavevolgorde gebruikt om de meldingen van boven naar beneden te rangschikken, waarbij 1 de bovenste melding is. Alleen bewerkingen waarvoor het selectievakje **Meldingen inschakelen** is ingeschakeld, kunnen worden toegevoegd. Daarnaast worden de meldingen alleen weergegeven voor de bewerkingen die hier zijn toegevoegd en alleen voor die werknemers voor wie de bewerkingen zijn toegevoegd aan de bijbehorende POS-machtigingen. 
+1. Ga naar **Detailhandel** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS** &gt; **Bewerkingen**.
+2. Zoek de bewerking **Orderafhandeling** en selecteer het selectievakje **Meldingen inschakelen** om op te geven dat het framework voor meldingen naar de handler voor deze bewerking moet luisteren. Als de handler is geïmplementeerd, worden meldingen voor deze bewerking vervolgens weergegeven in het POS.
+3. Ga naar **Detailhandel** &gt; **Medewerkers** &gt; **Werknemers**&gt; en opent onder het tabblad Detailhandel de POS-machtigingen die zijn gekoppeld aan de werknemer. Vouw het sneltabblad **Meldingen** uit, voeg de bewerking **Orderafhandeling** toe en stel het veld  **Weergavevolgorde** in op **1**. Als meer dan één kennisgeving is geconfigureerd, wordt dit veld gebruikt om de meldingen  te ordenen. Meldingen met een lagere waarde voor **Weergavevolgorde** worden weergegeven boven de meldingen die een hogere waarde hebben. Meldingen die een waarde voor **Weergavevolgorde** hebben van **1**, staan bovenaan.
+
+    Meldingen worden alleen weergegeven voor bewerkingen die zijn toegevoegd op het sneltabblad **Meldingen** en u kunt alleen bewerkingen toevoegen als het selectievakje **Meldingen inschakelen** voor deze bewerkingen is geselecteerd op de pagina **POS-bewerkingen**. Bovendien worden meldingen voor een bewerking alleen aan werknemers weergegeven als de bewerking wordt toegevoegd aan de POS-machtigingen voor die werknemers.
+
+    > [!NOTE]
+    > Meldingen kunnen worden overschreven op het gebruikersniveau. Open de gegevens van de medewerker, selecteer de **POS-machtigingen** en bewerk de meldingen waarop de gebruiker is geabonneerd.
+
+4. Ga naar **Retail** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **POS-profielen** &gt; **Functionaliteitsprofielen**. Geef in het veld **Meldingsinterval** op hoe vaak meldingen moeten worden opgehaald. Voor sommige meldingen moet het POS real-time oproepen naar de back office-toepassing maken. Deze oproepen verbruiken rekencapaciteit van de back office-toepassing. Dus wanneer u het meldingsinterval instelt, moet u rekening houden met zowel de bedrijfsvereisten als de impact van real-time aanroepen voor de back office-toepassing. Een waarde van **0** (nul) schakelt meldingen uit.
+5. Klik op **Retail** &gt; **IT detailhandel** &gt; **Distributieplanning**. Selecteer de planning **1060** (**Personeel**) om instellingen voor meldingsabonnementen te synchroniseren en selecteer **Nu uitvoeren**. Selecteer vervolgens de planning **1070** (**Kanaalconfiguratie**) om het machtigingsinterval te synchroniseren en selecteer **Nu uitvoeren**.
+
+## <a name="view-notifications-in-the-pos"></a>Meldingen weergeven in POS
+
+Nadat u de voorgaande stappen hebt voltooid, kunnen de werknemers de meldingen weergeven in het POS. Als u de meldingen wilt weergeven, klikt u op het meldingspictogram rechtsboven van het POS. Er verschijnt een meldingencentrum met meldingen voor de orderafhandelingsbewerking. Als het goed is, worden de volgende groepen in de orderafhandelingsbewerking weergegeven:
+
+- **Ophalen in de winkel**: voor deze groep wordt het aantal orders weergegeven waarvoor de leveringsmethode **Afhalen** is ingesteld en die zijn gepland met de huidige winkel als afhaallocatie. Druk op het nummer van de groep om de pagina **Orderafhandeling** te openen. In dit geval wordt de pagina gefilterd zodat alleen de actieve orders worden getoond die zijn ingesteld voor ophalen uit de huidige winkel.
+- **Verzenden uit winkel**: voor deze groep wordt het aantal orders weergegeven waarvoor de leveringsmethode **Verzenden** is ingesteld en die zijn gepland met de huidige winkel als verzendlocatie. Druk op het nummer van de groep om de pagina **Orderafhandeling** te openen. In dit geval wordt de pagina gefilterd zodat alleen de actieve orders worden getoond die zijn ingesteld voor verzending uit de huidige winkel.
+
+Wanneer er nieuwe orders aan de winkel worden toegewezen voor afhandeling, verandert het meldingspictogram om aan te geven dat er nieuwe meldingen zijn en wordt het aantal bijbehorende groepen bijgewerkt. Ook al worden de groepen met regelmatige tussenpozen worden vernieuwd, kunnen POS-gebruikers de groepen op elk gewenst moment handmatig vernieuwen met de knop **Vernieuwen** naast de groep. Als een groep een nieuw artikel heeft dat de huidige werknemer niet heeft bekeken, wordt bij de groep een symbool om de nieuwe inhoud aan te geven.
+
+## <a name="enable-live-content-on-pos-buttons"></a>Live inhoud op de POS-knoppen inschakelen
+
+POS-knoppen kunnen nu een aantal aangeven zodat de werknemers eenvoudig kunnen bepalen welke taken hun onmiddellijke aandacht vereisen. Als u dit aantal wilt weergeven op een POS-knop, moet u de instellingen voor berichtgeving invullen die eerder in dit onderwerp zijn beschreven (dat wil zeggen u moet meldingen voor een bewerking inschakelen, een meldingsinterval instellen en de POS-machtigingsgroep voor de werknemer bijwerken). Daarnaast moet u de ontwerper van het knoppenraster openen, de eigenschappen van de knop weergeven en het selectievakje **Live inhoud inschakelen** selecteren. In het veld **Uitlijning van inhoud** kunt u aangeven of de telling wordt weergegeven in de rechterbovenhoek van de knop (**Rechtsboven**) of in het midden (**Midden**).
 
 > [!NOTE]
-> U kunt meldingen op gebruikersniveau overschrijven door naar de record van een werknemer te gaan, **POS-machtigingen** te selecteren en vervolgens het meldingsabonnement van die gebruiker te bewerken.
+> De live inhoud kan alleen worden ingeschakeld voor bewerkingen als het selectievakje **Meldingen inschakelen** is ingeschakeld op de pagina **POS-bewerkingen**, zoals eerder in dit onderwerp is beschreven.
 
- - Ga naar de pagina **Functionaliteitsprofiel** (**Detailhandel** > **Afzetkanaalinstellingen** > **POS-instellingen** > **POS-profielen** > **Functionaliteitsprofielen**). Werk de eigenschap **Meldingsinterval** bij om in minuten in te stellen met welk interval de meldingen moeten worden opgehaald. U wordt aangeraden deze waarde in te stellen op 10 minuten om onnodige communicatie met het hoofdkantoor te voorkomen. Wanneer u dit interval op 0 instelt, worden er geen meldingen weergegeven.  
+In de volgende afbeelding ziet u de instellingen voor live inhoud in de ontwerper van het knoppenraster.
 
- - Ga naar **Detailhandel** > **IT detailhandel** > **Distributieplanning**. Selecteer de planning 1060-Personeel om instellingen voor meldingsabonnementen te synchroniseren en klik op **Nu uitvoeren**. Synchroniseer vervolgens het machtigingsinterval door de configuratie 1070-Kanaal te selecteren en op **Nu uitvoeren** te klikken. 
+![Instellingen van live inhoud in de ontwerper van het knoppenraster](./media/ButtonGridDesigner.png "Instellingen van live inhoud in de ontwerper van het knoppenraster")
 
-## <a name="view-notifications-in-pos"></a>Meldingen weergeven in POS-client
+De volgende afbeelding toont het effect van het selecteren van **Rechtsboven** versus **Midden** in de het del **Uitlijning van inhoud** voor knoppen van verschillende grootten.
 
-Als u de bovenstaande stappen hebt voltooid, kunnen de werknemers voor wie u de meldingen hebt ingesteld de meldingen weergeven in de POS-client. Als u de meldingen wilt weergegeven, klikt u op het meldingspictogram in de titelbalk van de POS-client. Vervolgens wordt het meldingencentrum met de meldingen voor de orderafhandelingsbewerking weergegeven. Als het goed is, worden de volgende groepen weergegeven: 
-
-- **Orders in behandeling**: voor deze groep wordt het aantal orders met de status in behandeling weergegeven, zoals orders die moeten worden geaccepteerd door een POS-medewerker met de vereiste machtigingen voor afhandeling in de winkel. Wanneer u op het weergegeven getal op de groep klikt, wordt de pagina **Orderafhandeling** weergegeven, gefilterd om alleen de orders in behandeling weer te geven die aan de winkel zijn toegewezen voor afhandeling. Als de orders automatisch worden geaccepteerd voor de winkel, is het aantal voor deze groep nul.
-
-- **Ophalen in de winkel**: voor deze groep wordt het aantal orders weergegeven waarvoor de leveringsmethode **Afhalen** is ingesteld en de huidige winkel is ingesteld als afhaallocatie. Wanneer u op het weergegeven getal op de groep klikt, wordt de pagina **Orderafhandeling** weergegeven, gefilterd om de actieve orders weer te geven die zijn ingesteld om te worden verzameld vanuit de huidige winkel.
-
-- **Verzenden uit winkel**: voor deze groep wordt het aantal orders weergegeven waarvoor de leveringsmethode **Verzenden** is ingesteld en de huidige winkel is ingesteld als verzendlocatie. Wanneer u op het weergegeven getal op de groep klikt, wordt de pagina **Orderafhandeling** weergegeven, gefilterd om de actieve orders weer te geven die zijn ingesteld om te worden verzonden vanuit de huidige winkel.
-
-Wanneer er nieuwe orders aan de winkel worden toegewezen voor afhandeling, verandert het meldingspictogram om aan te geven dat er nieuwe meldingen zijn en het aantal bijbehorende groepen wordt bijgewerkt. De gebruiker kan ook klikken op het pictogram voor vernieuwen, naast de naam van de bewerking, om de telling van de groepen onmiddellijk bij te werken. De telling wordt ook bijgewerkt op basis van het vooraf gedefinieerde interval. Voor elke groep met een nieuw artikel, dat niet is gezien door de huidige werknemer, wordt een pictogram weergegeven om aan te geven dat deze groep een nieuw artikel heeft. Door te klikken op de tegels in meldingen opent u de specifieke bewerking waarvoor deze melding is geconfigureerd. In de bovenstaande scenario's wordt de pagina **Orderafhandeling** geopend en worden de juiste parameters doorgegeven: orders in behandeling, ophalen in de winkel en verzenden uit winkel. 
-
-> [!NOTE]
-> Meldingen voor orders in behandeling worden in een toekomstige update van Dynamics 365 for Retail ingeschakeld. 
-
+![Live inhoud op POS-knoppen](./media/ButtonsWithLiveContent.png "Live-inhoud op POS-knoppen")
 

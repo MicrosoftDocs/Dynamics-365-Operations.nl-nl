@@ -17,14 +17,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: c72742368916ecfa3c545f374f293641c03be108
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 008f1acec62c1fc6d423dd7629d3f92f758be5e8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>Nieuwe of gewijzigde functies in Dynamics 365 for Retail
+
+[!include[banner](../../includes/banner.md)]
 
 Op deze pagina vindt u verwijzingen naar bronnen die informatie geven over de nieuwe functies en wijzigingen in de meest recente releases van Microsoft Dynamics 365 for Retail.
 
@@ -32,6 +34,7 @@ Op deze pagina vindt u verwijzingen naar bronnen die informatie geven over de ni
 
 |Vrijgave | Build nr. | Beschikbaarheid | Meer informatie |
 |--------|--------------|--------------|------------|
+|Dynamics 365 for Retail 7.3.1 | 7.3.21971.64032 | 2018 maart | 1. Ga naar de [Dynamics 365-routekaart](https://roadmap.dynamics.com/).<br><br>2. Klik op het tabblad **Nieuw**.<br><br>3. Klik op het selectievakje **Dynamics 365 for Retail**.<br><br>4. Zoek functies die zijn **vrijgegeven met Dynamics 365 for Retail 7.3.1**. |
 |Dynamics 365 for Retail 7.3 | 7.3.21971.64028 | 2018 februari | 1. Ga naar de [Dynamics 365-routekaart](https://roadmap.dynamics.com/).<br><br>2. Klik op het tabblad **Nieuw**.<br><br>3. Klik op het selectievakje **Dynamics 365 for Retail**.<br><br>4. Zoek functies die zijn **vrijgegeven met Dynamics 365 for Retail 7.3**. |
 |Toepassingsupdate 5 | 7.2.21792.64093 | 2018 februari | 1. Ga naar de [Dynamics 365-routekaart](https://roadmap.dynamics.com/).<br><br>2. Klik op het tabblad **Nieuw**.<br><br>3. Klik op het selectievakje **Dynamics 365 for Retail**.<br><br>4. Zoek functies die zijn **vrijgegeven met Toepassingsupdate 5**. |
 |Toepassingsupdate 4 | 7.2.21792.64070 | 2017 oktober | 1. Ga naar de [Dynamics 365-routekaart](https://roadmap.dynamics.com/).<br><br>2. Klik op het tabblad **Nieuw**.<br><br>3. Klik op het selectievakje **Dynamics 365 for Retail**.<br><br>4. Zoek functies die zijn **vrijgegeven met Toepassingsupdate 4**. |

@@ -3,7 +3,7 @@ title: Wat is nieuw of gewijzigd
 description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versie van Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -34,6 +34,8 @@ Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over d
 
 Voor informatie over hoe u een upgrade naar de meest recente versie uitvoert, zie [Proces voor het bijwerken naar nieuwste update](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
+
+[!include[release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Toepassingsversies
 
