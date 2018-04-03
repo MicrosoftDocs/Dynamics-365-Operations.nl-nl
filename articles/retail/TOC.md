@@ -3,8 +3,8 @@
 # Aan de slag
 ## [Wat is nieuw of gewijzigd](get-started/whats-new.md)
 ## [Voordat u Dynamics 365 for Retail aanschaft](get-started/before-you-buy.md)
-## [Aanmelden voor een preview-abonnement](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [Een demo-omgeving implementeren](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Aanmelden voor een preview-abonnement](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [Een demo-omgeving implementeren](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [Implementatieopties](dev-itpro/choose-deployment.md)
 
 
@@ -46,8 +46,9 @@
 
 # MPOS (Modern Point Of Sale) en Cloud POS
 ## [Kiezen tussen Modern POS en Cloud POS](MPOS-or-CPOS.md)
-## [POS-bewerkingen](POS-operations.md)
+## [POS-bewerkingen, online en offline](pos-operations.md)
 ## [Indelingen voor scherm met demogegevens in MPOS/CPOS](demo-data.md)
+## [Overzicht van zoekfunctie voor producten en klanten in Point of Sale](POS-search-improvements.md)
 ## Hardware randapparatuur
 ### [Overzicht van detailhandelrandapparatuur](retail-peripherals-overview.md)
 ### [Door Microsoft geteste POS-randapparatuur](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [De taalinstellingen van de POS-toepassing en gebruiker](pos-application-user-language-settings.md)
 ### [Beelden voor MPOS instellen](set-up-manage-images-retail-mpos.md)
 ## [Overzicht van informatiecodes](info-codes-retail.md) 
+## [POS-verbeteringen voor geserialiseerde producten](serialized-inventory.md)
 ## Productaanbevelingen
 ### [Overzicht van gepersonaliseerde productaanbevelingen](personalized-product-recommendations.md)
 ### [Een besturingselement voor aanbevelingen toevoegen op een POS-apparaat](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [Prijscorrecties en kortingen](price-adjustments-discounts.md)
 ## [De optimale combinatie van overlappende kortingen bepalen](optimal-combination-overlapping-discounts.md)
 ## [Kanaalspecifieke kortingen definiëren](define-channel-specific-discounts.md)
+## [Kortingen voor detailhandelproducten voorkomen](prevent-discounts.md)
 ## [Coupons voor detailhandelverkoop maken](retail-coupons.md)
 
 # Producten en merchandising
@@ -105,6 +108,7 @@
 ## [Overzicht van kenmerken en kenmerkgroepen](attribute-attributegroups-lifecycle.md)
 ## [Kenmerken maken en beheren](create-manage-attributes.md)
 ## [Detailhandelproducten instellen](set-up-retail-products.md)
+## [Verbeterd categorie- en productbeheer](category-management-product-creation.md)
 ## [Productdimensies](../supply-chain/pim/product-dimensions.md)
 ## [Streepjescodes instellen](set-up-bar-codes.md)
 ## [Streepjescodemaskers instellen](set-up-bar-code-masks.md)
@@ -190,17 +194,18 @@
 # [Ontwikkeling en beheer voor Retail](dev-itpro/dev-retail-home-page.md)
 
 ## Architectuur
-### [Onderdelen van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition - Retail](retail-components.md)
-### [Architectuur van Retail-server](dev-itpro/retail-server-architecture.md)
+### [Onderdelen van Microsoft Dynamics 365 for Finance and Operations - Retail](retail-components.md)
+### [Architectuur van Retail Server](dev-itpro/retail-server-architecture.md)
 ### [Communicatie detailhandelafzetkanaal](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS-architectuur](dev-itpro/retail-modern-pos-architecture.md)
 ### [Publicatiearchitectuur online Retail-winkels](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Power BI-inhoud voor prestaties detailhandelafzetkanaal](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Power BI-inhoud voor prestaties detailhandelafzetkanaal](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [Certificering Payment Application Data Security Standards (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
+### [Retail-functies voor on-premises implementaties](retail-onprem.md)
 
 ## Implementatie en hotfixes
-### [Overzicht van schaaleenheid voor Retail-winkels](dev-itpro/retail-store-system-begin.md)
-### [Configuratie en installatie van schaaleenheid voor Retail-winkels](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Overzicht Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
+### [Configuratie en installatie van Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Configuratie en installatie van Retail Modern POS](retail-modern-pos-device-activation.md)
 ### [Retail-accounts en apparaten van hoofdkantoor beheren](set-up-activation-accounts-validate-devices-hq.md)
 ### [Retail POS-apparaat activeren](dev-itpro/retail-device-activation.md)
@@ -208,7 +213,7 @@
 ### [Configuratie en installatie van Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [Grootschalige implementatie van selfservicecomponenten van Retail](dev-itpro/retail-mass-deployment.md)
 ### [Retail-componentgebeurtenissen voor diagnostiek en probleemoplossing](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [Een implementeerbaar pakket toepassen](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [Een implementeerbaar pakket toepassen](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## Upgrade en ondersteuning voor N-1
 ### [Overzicht van upgrade- en N-1-ondersteuning](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [Implementatierichtlijnen voor apparaatbeheer](implementation-considerations-devices.md)
 
 ## Configuratie van de omgeving
-### [Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [Bing Maps beheren](dev-itpro/manage-bing-maps.md)
 
 ## Uitbreidbaarheid van verkooppunten

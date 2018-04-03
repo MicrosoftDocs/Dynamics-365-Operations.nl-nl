@@ -1,7 +1,7 @@
 # [Ontwikkeling en beheer voor Dynamics 365 for Finance and Operations](index.md)
-# [Systeemvereisten voor cloudimplementaties](../fin-and-ops/get-started/system-requirements.md)
-# [Systeemvereisten voor on-premises implementaties](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [Demogegevens](../fin-and-ops/get-started/demo-data.md)
+# [Systeemvereisten voor cloudimplementaties](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [Systeemvereisten voor on-premises-implementaties](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [Demogegevens](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [Demogegevens met pakketten genereren](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [Een model exporteren en importeren](dev-tools/models-export-import.md)
 ### [Metagegevens zoeken in Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Modellen](dev-tools/models.md)
-### [Projecten in Dynamics 365 for Finance and Operations, Enterprise edition](dev-tools/projects.md)
+### [Projecten in Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Invoegtoepassingen met hulpmiddelen voor Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Modelaanpassingen uitschakelen en functionaliteit afschaffen](dev-tools/lock-models.md)
 ### [Visual Studio-ontwikkelprogramma's bijwerken](dev-tools/update-development-tools.md)
@@ -114,7 +114,7 @@
 #### [Aanpassing: overlayering en extensies](extensibility/customization-overlayering-extensions.md)
 ### Wat is er nieuw
 #### [Uitbreidbaarheidswijzigingen juli 2017](extensibility/changes-july-2017.md)
-#### [Uitbreidbaarheidswijzigingen in Dynamics 365 for Finance and Operations, Enterprise edition 7.3](extensibility/extensibility-changes-73.md)
+#### [Uitbreidbaarheidswijzigingen versie 7.3](extensibility/extensibility-changes-73.md)
 ### Basisgegevens
 #### [Ingrijpende aanpassingen](extensibility/intrusive-customizations.md)
 #### [Klasse-extensies](extensibility/class-extensions.md)
@@ -168,8 +168,8 @@
 ### [Navigatie maken](user-interface/build-navigation.md)
 ### [Een werkgebied toevoegen](user-interface/build-workspace.md)
 ## Formulieren
-### [Navigatie in Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-navigation.md)
-### [Indeling in Dynamics 365 for Finance and Operations, Enterprise edition](user-interface/page-layout.md)
+### [Navigatie in Dynamics 365 for Finance and Operations](user-interface/page-navigation.md)
+### [Lay-out in Dynamics 365 for Finance and Operations](user-interface/page-layout.md)
 ### [Symboollettertype](user-interface/symbol-font.md)
 ### [Formulieren met aangepaste patronen testen](user-interface/testing-forms-custom-patterns.md)
 ### [Diepe koppelingen maken en gebruiken](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## Cloudimplementatie
 ### [Onboarding Azure-resourcemanager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute en Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute en Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [On-premises implementatie](deployment/on-premises-deployment-landing-page.md)
 ### [Overzicht on-premises](deployment/on-premises-overview.md)
 ### [Planning voor uw on-premises implementatie](deployment/plan-onprem-deployment.md)
-### [Omvang van hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [Omvang van hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Een on-premises project maken](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [On-premises omgevingen instellen en implementeren](deployment/setup-deploy-on-premises-environments.md)
 #### [On-premises omgevingen implementeren met Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [De lokale agent bijwerken](lifecycle-services/update-local-agent.md)
 ### [Uw omgeving opnieuw configureren](lifecycle-services/reconfigure-environment.md)
 ### [Internetverbinding voor client](user-interface/client-disconnected.md)
-### [Problemen met Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) oplossen](deployment/troubleshoot-on-prem.md)
+### [Problemen oplossen in Dynamics 365 for Finance and Operations, on-premises](deployment/troubleshoot-on-prem.md)
 
 ## Aangepaste code implementeren
 ### [Een implementeerbaar pakket maken](deployment/create-apply-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [Upgrade van AX 2012 - Taken die moeten worden uitgevoerd na upgrade](migration-upgrade/app-validation-process.md)
 ### [Upgrade van AX 2012 - functionele test geslaagd](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 upgrade - go live voorbereiden](migration-upgrade/upgrade-go-live-prep.md)
-
+### [Upgrade van AX 2012 - Go live](migration-upgrade/2012-upgrade-cutover.md)
 
 ### Wijzigingen die van invloed zijn op de upgrade vanaf AX 2012
 #### [Enkel boekstuk en upgrade van herwaardering van valuta ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -588,7 +588,9 @@
 ### [Overzicht van batchserver](sysadmin/batch-server-overview.md)
 ### [Een batchtaak maken](sysadmin/tasks/create-batch-job.md)
 
-## [Regels maken voor Optimization advisor](sysadmin/optimization-advisor.md)
+##  [Overzicht Optimization advisor](sysadmin/optimization-advisor-overview.md)
+### [Regels maken voor Optimization advisor](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [Overzicht van Lifecycle Services](lifecycle-services/lcs.md)
@@ -701,10 +703,10 @@
 ## [Aanvraag voor sandbox-database vernieuwen](database/database-refresh.md)
 
 # Ondersteuning
-## [Ondersteuning krijgen voor Dynamics 365 for Finance and Operations, Enterprise edition en Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Ondersteuning krijgen voor Dynamics 365 for Finance and Operations en Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Een ticket voor eersteklas ondersteuning registreren](lifecycle-services/premier-support.md)
 ## [Een aanvraag indienen bij het Dynamics Service-engineeringteam](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Technische ondersteuning instellen voor Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
+## [Technische ondersteuning instellen voor Dynamics 365 for Finance and Operations](lifecycle-services/support-experience.md) 
 ## [Veelgestelde vragen over gepland onderhoudsvenster](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Cloudbewerkingen en -services](lifecycle-services/cloud-operations-servicing.md)
 ## [Ervaringen met Finance and Operations-ondersteuning beheren](lifecycle-services/cloud-powered-support-lcs.md)
