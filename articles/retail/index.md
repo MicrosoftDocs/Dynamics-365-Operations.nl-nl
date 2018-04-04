@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/07/2018
 Microsoft Dynamics 365 for Retail is een end-to-end detailhandelsoplossing die handel mogelijk maakt via alle afzetkanalen. Met de functies voor verkoop, mobiliteit, intelligence en productiviteit kunnen detailhandelaren en werknemers meer bereiken door de nadruk te leggen op cloud- en mobiele voorzieningen. Retail biedt uitgebreide ondersteuning voor een breed scala van bedrijfsprocessen, zoals merchandising, voorraadbeheer en afzetkanaalbeheer. Ook biedt het een complete ervaring voor klanten via alle contactpunten.
 
 > [!NOTE] 
-> Dynamics 365 for Retail is nauw gerelateerd aan Dynamics 365 for Finance and Operations, Enterprise edition en Dynamics 365 for Talent. Dezelfde functionaliteit kan in alle drie producten voorkomen. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail de productnaam Microsoft Dynamics 365 for Retail gebruikt; in onderwerpen die voornamelijk zijn gerelateerd aan het basisproduct (Finance and Operations) de productnaam Microsoft Dynamics 365 for Finance and Operations, Enterprise edition en in onderwerpen die voornamelijk zijn gerelateerd aan human resources de productnaam Dynamics 365 for Talent. 
+> Dynamics 365 for Retail is nauw gerelateerd aan Dynamics 365 for Finance and Operations en Dynamics 365 for Talent. Dezelfde functionaliteit kan in alle drie producten voorkomen. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail de productnaam Microsoft Dynamics 365 for Retail gebruikt; in onderwerpen die voornamelijk zijn gerelateerd aan het basisproduct (Finance and Operations) de productnaam Microsoft Dynamics 365 for Finance and Operations en in onderwerpen die voornamelijk zijn gerelateerd aan human resources de productnaam Dynamics 365 for Talent. 
 
 Selecteer in het linkerdeelvenster een functiegebied om meer informatie hierover te bekijken.
 

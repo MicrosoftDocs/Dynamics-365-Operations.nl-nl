@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Met Talent kunt u deze taken uitvoeren:
 + Interne trainingscursussen, waaronder agenda's, sessies en paden, instellen, afleveren en analyseren.
 
 > [!NOTE] 
-> Dynamics 365 for Talent hangt nauw samen met Human Resources in Dynamics 365 for Finance and Operations, Enterprise Edition. Dezelfde functionaliteit kan in beide producten voorkomen. In onderwerpen die hoofdzakelijk zijn gerelateerd aan Human Resources, wordt de productnaam Dynamics 365 for Finance and Operations, Enterprise Edition gebruikt, terwijl in onderwerpen die voornamelijk betrekking hebben op Talent, de productnaam Dynamics 365 for Talent is. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
+> Dynamics 365 for Talent hangt nauw samen met Human Resources in Dynamics 365 for Finance and Operations. Dezelfde functionaliteit kan in beide producten voorkomen. In onderwerpen die hoofdzakelijk zijn gerelateerd aan Human Resources, wordt de productnaam Dynamics 365 for Finance and Operations gebruikt, terwijl in onderwerpen die voornamelijk betrekking hebben op Talent, de productnaam Dynamics 365 for Talent is. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Een strategie ontwikkelen voor het beheren van human resources
 ---------------------------------------------------------

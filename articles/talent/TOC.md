@@ -3,6 +3,8 @@
 # [Aan de slag](talent-get-started.md)
 ## [Systeemvereisten en updatebeleid](talent-versions-update-policy.md)
 ## [Microsoft Dynamics 365 for Talent inrichten](provisioning-talent.md)
+## [Een Talent-omgeving verwijderen](remove-test-environment.md)
+## [Modulaire apps voor Microsoft Dynamics 365 for Talent inrichten](modular-app-tech-faq.md)
 ## [Talent-functionaliteit uitbreiden](extend-talent-functionality.md)
 
 # [Een strategie voor Human resources ontwikkelen](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [De resultaten van een vragenlijst evalueren](evaluate-questionnaire-results.md)
 
 # Veiligheid en conformiteit op de werkplek (Verenigde Staten)
-## [Verificatie van implementatie van formulier I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [Voldoen aan de ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [Verificatie van implementatie van formulier I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [Voldoen aan de ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)
