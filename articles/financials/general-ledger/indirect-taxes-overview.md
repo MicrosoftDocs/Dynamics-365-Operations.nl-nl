@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ Voor elke transactie (verkoop-/inkoopdocumentregels, journalen, enzovoort) moet 
 Voor elke transactie kunt u de berekende btw opzoeken door de pagina **Btw-transactie** te openen. U kunt de btw voor een documentregel of voor het hele document opzoeken. Voor bepaalde documenten (bijvoorbeeld leveranciersfacturen en algemene journalen) kunt u de berekende btw aanpassen als het oorspronkelijke document afwijkende bedragen bevat.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Btw-vereffening en -aangifte
-Btw moet regelmatig (maandelijks, per kwartaal, enzovoort) worden aangegeven bij en betaald aan btw-diensten. Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, biedt een functionaliteit waarmee u belastingrekeningen voor het interval kunt vereffenen en de saldi kunt boeken naar de btw-vereffeningsrekening, zoals opgegeven in de grootboekboekingsgroepen. U hebt toegang tot deze functionaliteit op de pagina **Btw vereffenen en boeken**. U moet de btw-vereffeningsperiode opgeven waarvoor btw moet worden vereffend. 
+Btw moet regelmatig (maandelijks, per kwartaal, enzovoort) worden aangegeven bij en betaald aan btw-diensten. Microsoft Dynamics 365 for Finance and Operations biedt een functionaliteit waarmee u belastingrekeningen voor het interval kunt vereffenen en de saldi kunt boeken naar de btw-vereffeningsrekening, zoals opgegeven in de grootboekboekingsgroepen. U hebt toegang tot deze functionaliteit op de pagina **Btw vereffenen en boeken**. U moet de btw-vereffeningsperiode opgeven waarvoor btw moet worden vereffend. 
 
 Nadat de btw is betaald, moet het saldo op de btw-vereffeningsrekening worden verrekend met de bankrekening. Als de btw-dienst die is opgegeven voor de btw-vereffeningsperiode aan een leveranciersrekening is gekoppeld, wordt het btw-saldo geboekt als openstaande leveranciersfactuur en kan deze in het normale betalingsvoorstel worden opgenomen.
 

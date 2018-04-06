@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -156,7 +156,7 @@ De dimensiehiërarchie voor het beleid kan worden ingesteld zoals hier wordt wee
 |&nbsp;&nbsp;Variabele kosten | 40001                     | 40010                   |
 
 > [!NOTE]
-> Onder **Bereiken van dimensieleden** kan een knooppunt 1: _n_ bereiken van dimensieleden bevatten. U kunt de dimensielid-id´s invoegen die nog niet bestaan als dimensieleden. Deze benadering maakt de hiërarchie flexibel voor de toekomst.  
+> Onder **Bereiken van dimensieleden** kan een knooppunt 1:_n_ bereiken van dimensieleden bevatten. U kunt de dimensielid-id´s invoegen die nog niet bestaan als dimensieleden. Deze benadering maakt de hiërarchie flexibel voor de toekomst.  
 
 ### <a name="copy-a-hierarchy"></a>Een hiërarchie kopiëren
 
@@ -329,7 +329,7 @@ De instellingen voor de hiërarchie van toegangslijsten worden gebruikt om de ge
 - Power BI:
 
     - Gegevens die worden weergegeven in Power BI-visualisaties
-    - Gegevens van Power BI-visualisaties die worden ingesloten in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, client
+    - Gegevens van Power BI-visualisaties die worden ingesloten in Microsoft Dynamics 365 for Finance and Operations, client
 
 > [!NOTE] 
 > - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.

@@ -1,6 +1,6 @@
 ---
 title: Projectcontracten
-description: Dit onderwerp bevat voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+description: Dit onderwerp bevat beschrijvingen en voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit artikel bevat voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Dit artikel bevat beschrijvingen en voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations.
 
 Het type project dat u maakt voor een projectcontract bepaalt de wijze waarop projectklanten gefactureerd worden. U kunt een projectcontract en het gerelateerde project wijzigen, maar u kunt het projecttype niet wijzigen. 
 

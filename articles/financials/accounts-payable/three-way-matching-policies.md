@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -65,7 +65,7 @@ Het factuurvereffeningsbeleid in dit voorbeeld helpen mensen in de volgende func
 1.  Sammy, een werknemer in de ontvangende afdeling bij Fabrikam, ontvangt de totale hoeveelheid machines die werden verzonden door Contoso. Hij voert een aantal van 5 in op de productontvangstbon. Aangezien de inkooporder volledig is ontvangen, wordt de status van de inkooporder gewijzigd naar Ontvangen.
 2.  April, de coördinator leveranciers bij Fabrikam, controleert de factuur die Contoso heeft ingediend en voert deze in. Zij controleert de volgende informatie:
     -   Voor artikelen waar drieweg-overeenstemming is vereist, controleert ze of de hoeveelheid op de factuurregel overeenstemt met de ontvangen hoeveelheid. De ontvangen hoeveelheid is aangegeven op de productontvangstbon die met de factuur wordt vereffend.
-    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming vereist is, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Dit omvat de volgende soorten prijsovereenstemming:
+    -   Voor artikelen waarvoor een tweeweg-overeenstemming of drieweg-overeenstemming is vereist, vallen de prijzen op de factuurregel binnen de toleranties die zijn gedefinieerd in Microsoft Dynamics 365 for Finance and Operations. Dit omvat de volgende soorten prijsovereenstemming:
         -   Overeenstemming netto-eenheidsprijs: De afwijking tussen de netto-eenheidsprijs op de factuurregel en de netto-eenheidsprijs op de inkooporderregel moet binnen toegestane toleranties liggen. In dit voorbeeld is de tolerantie van de netto-eenheidsprijs +8%.
         -   Vereffening van prijstotalen: de afwijking tussen de het nettobedrag op de factuurregel en het nettobedrag op de inkooporderregel moet binnen het toegestane tolerantiepercentage, -bedrag of -percentage en -bedrag liggen. In dit voorbeeld is de tolerantie van prijstotalen +15%.
 

@@ -1,6 +1,6 @@
 ---
 title: "Afstemmingsrapporten voor België"
-description: In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
+description: In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 for Finance and Operations biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/10/2017
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 78213682a28751893afafd61c89194676aa8af7b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b6268775c707a777a8391bcb41b061c1635b8942
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
+In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 for Finance and Operations biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
 
 Op basis van de btw-posten voor geselecteerde perioden, combineert de Belgische periodieke btw-aangifte (belasting toegevoegde waarde) btw-bedragen in vakken (btw-aangiftecodes) door informatie op een bepaalde manier te sorteren, splitsen en totaliseren. Daarom zijn controlerapporten vereist, zodat de bedragen in de btw-aangifte in detail kunnen worden gecontroleerd. In de rest van dit onderwerp worden de rapporten beschreven die details bevatten van de gegevens in de btw-aangifte.
 

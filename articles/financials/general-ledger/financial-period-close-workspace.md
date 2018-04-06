@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ U gebruikt een sjabloon voor financiële afsluiting om alle taken te definiëren
 
 U kunt een taak in de sjabloon toewijzen aan een of meer bedrijven waar deze taak van toepassing is. Als een andere persoon wordt toegewezen om die werkzaamheden in elk bedrijf te verrichten, is het mogelijk handig meerdere taken te maken voor dezelfde werkzaamheden. Maak een taak voor elk bedrijf. 
 
-De menuoptie **Taakkoppeling** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Zo kan een afsluitingstaak om het herwaarderingsproces voor valuta uit te voeren voor leveranciers worden gekoppeld aan de bijbehorende pagina **Herwaardering van vreemde valuta** in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. U kunt ook koppelen aan een externe URL. 
+De menuoptie **Taakkoppeling** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Zo kan een afsluitingstaak om het herwaarderingsproces voor valuta uit te voeren voor leveranciers worden gekoppeld aan de bijbehorende pagina **Herwaardering van vreemde valuta** in Microsoft Dynamics 365 for Finance and Operations. U kunt ook koppelen aan een externe URL. 
 
 > [!TIP]
 > Als u een bepaald Management Reporter-rapport wilt koppelen aan een taak voor het afsluiten van de financiële periode, kunt u de rapport-URL gebruiken. Om de rapport-URL te openen, opent u het rapport in de rapportontwerper en klikt u op **Bestand** &gt; **Rapport weergeven** om het rapport in een webbrowser te openen. U kunt de URL vervolgens kopiëren in de adresbalk van de browser en deze in het veld **Taakkoppeling** **URL** plakken. 

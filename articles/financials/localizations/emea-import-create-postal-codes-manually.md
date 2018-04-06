@@ -1,6 +1,6 @@
 ---
 title: Postcodes importeren of handmatig maken
-description: In dit onderwerp wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt. Dit onderwerp bevat informatie over de functie die is toegevoegd voor Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+description: In dit onderwerp wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt. Dit onderwerp bevat informatie over de functie die is toegevoegd of gewijzigd voor Microsoft Dynamics 365 for Finance and Operations.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 10/31/2017
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7a5c2faa5faeca48a57db626058be47def6225f7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 77fa370692ad1fe73a6a2dac84655b11e9a13703
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit onderwerp wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt. Dit onderwerp bevat informatie over de functie die is toegevoegd voor Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+In dit onderwerp wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt. Dit onderwerp bevat informatie over de functie die is toegevoegd of gewijzigd voor Microsoft Dynamics 365 for Finance and Operations. 
 
 Met het importproces kunt u de postcodes voor een bepaald land of een bepaalde regio bijwerken. U kunt postcodes ook handmatig maken.
 

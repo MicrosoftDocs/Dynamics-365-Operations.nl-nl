@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -85,7 +85,7 @@ Zo ziet de notitieaantekening eruit in de 'ballon' in de taakbegeleiding.
 
 [![screen4](./media/screen4.png)](./media/screen4.png)
 
--   **Info stap**: Deze aantekeningen worden gemaakt door met de rechtermuisknop te klikken op een besturingselement of overal op een formulier &lt; **Taakrecorder** &lt; **Infostap toevoegen. **Infostappen verschijnen als genummerde stap bij het punt waar u ze invoegt, zelfs als geen actie in de UI is geregistreerd. U kunt een infostap op formulierniveau toevoegen of een infostap toevoegen die aan een besturingselement is gekoppeld. Wanneer een infostap met een formulier is gekoppeld, wordt de taakbegeleidingballon ergens op het formulier weergegeven, zonder aanwijzer, wanneer de taakbegeleiding wordt afgespeeld. Wanneer een infostap aan een besturingselement is gekoppeld, wijst de taakbegeleidingballon naar het besturingselement wanneer de taakbegeleiding wordt afgespeeld. In het Help-deelvenster wordt een infostapaantekening als een genummerde stap weergegeven met de tekst u hebt ingevoerd. Gebruik infostappen om de gebruiker voor de volgende stappen voor te bereiden, om stappen te beschrijven die buiten Microsoft Dynamics 365 for Finance and Operations, Enterprise edition moeten worden uitgevoerd of om naar andere registraties te verwijzen (hoewel u geen hyperlinks in aantekeningen kunt maken).
+-   **Info stap**: Deze aantekeningen worden gemaakt door met de rechtermuisknop te klikken op een besturingselement of overal op een formulier &lt; **Taakrecorder** &lt; **Infostap toevoegen. **Infostappen verschijnen als genummerde stap bij het punt waar u ze invoegt, zelfs als geen actie in de UI is geregistreerd. U kunt een infostap op formulierniveau toevoegen of een infostap toevoegen die aan een besturingselement is gekoppeld. Wanneer een infostap met een formulier is gekoppeld, wordt de taakbegeleidingballon ergens op het formulier weergegeven, zonder aanwijzer, wanneer de taakbegeleiding wordt afgespeeld. Wanneer een infostap aan een besturingselement is gekoppeld, wijst de taakbegeleidingballon naar het besturingselement wanneer de taakbegeleiding wordt afgespeeld. In het Help-deelvenster wordt een infostapaantekening als een genummerde stap weergegeven met de tekst u hebt ingevoerd. Gebruik infostappen om de gebruiker voor de volgende stappen voor te bereiden, om stappen te beschrijven die buiten Microsoft Dynamics 365 for Finance and Operations moeten worden uitgevoerd of om naar andere registraties te verwijzen (hoewel u geen hyperlinks in aantekeningen kunt maken).
 
 **Bepaal hoe lang het duurt om de registratie te maken**
 

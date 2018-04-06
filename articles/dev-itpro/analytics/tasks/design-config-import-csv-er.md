@@ -1,6 +1,6 @@
 --- 
 title: Een configuratie ontwerpen voor het importeren van gegevens uit een extern CSV-bestand (ER)
-description: Gebruik deze procedure voor het ontwerpen van ER-configuraties (elektronische rapportage) om gegevens te importeren in Dynamics 365 for Finance and Operations, Enterprise-editie vanuit een extern bestand in CSV-indeling.
+description: Gebruik deze procedure voor het ontwerpen van ER-configuraties (elektronische rapportage) om gegevens te importeren in Dynamics 365 for Finance and Operations vanuit een extern bestand in CSV-indeling.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -16,24 +16,24 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 5c1766992531ee272ea156bc33c4c0ea8dfac27a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Een configuratie ontwerpen voor het importeren van gegevens uit een extern CSV-bestand (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Gebruik deze procedure voor het ontwerpen van ER-configuraties (elektronische rapportage) om gegevens te importeren in Dynamics 365 for Finance and Operations, Enterprise-editie vanuit een extern bestand in CSV-indeling. In deze procedure maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de procedure 'ER Een configuratieprovider maken en deze als actief markeren'. 
+Gebruik deze procedure voor het ontwerpen van ER-configuraties (elektronische rapportage) om gegevens te importeren in Dynamics 365 for Finance and Operations vanuit een extern bestand in CSV-indeling. In deze procedure maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de procedure 'ER Een configuratieprovider maken en deze als actief markeren'. 
 
 Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembeheerder of Elektronische aangifteontwikkelaar. Deze stappen kunnen worden voltooid met de USMF-gegevensset. 
 
 U moet ook de volgende bestanden downloaden en lokaal opslaan: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-    * U kunt een proces voor het importeren van externe bestanden in XML-, TXT- of CSV-indeling configureren voor de tabellen in de toepassing Dynamics 365 for Finance and Operations, Enterprise-editie. Eerst moet u een abstract gegevensmodel maken om vanuit een zakelijk oogpunt de geïmporteerde gegevens aan te duiden: hiervoor wordt een configuratie voor een ER-gegevensmodel gemaakt. Definieer vervolgens een structuur voor het geïmporteerde bestand die is gekoppeld aan het ontworpen gegevensmodel als een manier voor het doorgeven van gegevens aan het abstracte gegevensmodel: hiervoor wordt een ER-indelingsconfiguratie gemaakt. Vervolgens moet u de ER-gegevensmodelconfiguratie uitbreiden met een nieuwe modeltoewijzing die beschrijft hoe de gegevens uit het geïmporteerde bestand en de permanente gegevens uit het abstracte gegevensmodel worden gebruikt voor het bijwerken van toepassingstabellen of gegevensentiteiten.  
+    * U kunt een proces voor het importeren van externe bestanden in XML-, TXT- of CSV-indeling configureren voor de tabellen in de toepassing Dynamics 365 for Finance and Operations. Eerst moet u een abstract gegevensmodel maken om vanuit een zakelijk oogpunt de geïmporteerde gegevens aan te duiden: hiervoor wordt een configuratie voor een ER-gegevensmodel gemaakt. Definieer vervolgens een structuur voor het geïmporteerde bestand die is gekoppeld aan het ontworpen gegevensmodel als een manier voor het doorgeven van gegevens aan het abstracte gegevensmodel: hiervoor wordt een ER-indelingsconfiguratie gemaakt. Vervolgens moet u de ER-gegevensmodelconfiguratie uitbreiden met een nieuwe modeltoewijzing die beschrijft hoe de gegevens uit het geïmporteerde bestand en de permanente gegevens uit het abstracte gegevensmodel worden gebruikt voor het bijwerken van toepassingstabellen of gegevensentiteiten.  
     * De volgende stappen laten zien hoe extern bijgehouden leverancierstransacties worden geïmporteerd uit het externe CSV-bestand voor later gebruik in de leveranciersvereffening voor 1099-formulieren.   
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en is gemarkeerd als actief. Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" uitvoeren.  
 2. Klik op Rapportconfiguraties.

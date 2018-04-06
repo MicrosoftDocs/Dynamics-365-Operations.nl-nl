@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>De afhankelijkheid van configuraties van andere onderdelen voor elektronische rapportage (ER) definiëren
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Voordat u deze stappen uitvoert, moet u eerst de stappen in de taakbegeleiding ER modeltoewijzingsconfiguraties uitvoeren en moet u toegang hebben tot Microsoft Dynamics Lifecycle Services (LCS).
 
-Deze procedure laat zien hoe u een ER-configuratie ontwerpt en de afhankelijkheid opgeeft van andere softwareonderdelen, zodat u kunt helpen garanderen dat de configuratie goed is gedownload naar een specifieke versie van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. In dit voorbeeld maakt u vereiste ER-configuraties voor het voorbeeldbedrijf, Litware, Inc. 
+Deze procedure laat zien hoe u een ER-configuratie ontwerpt en de afhankelijkheid opgeeft van andere softwareonderdelen, zodat u kunt helpen garanderen dat de configuratie goed is gedownload naar een specifieke versie van Microsoft Dynamics 365 for Finance and Operations. In dit voorbeeld maakt u vereiste ER-configuraties voor het voorbeeldbedrijf, Litware, Inc. 
 
 Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektronische aangifteontwikkelaar. De stappen kunnen in elk bedrijf worden uitgevoerd, omdat ER-configuraties tussen bedrijven worden gedeeld. 
 

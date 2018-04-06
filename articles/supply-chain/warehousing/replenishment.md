@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Vraagaanvulling wordt ondersteund voor verkooporders, transferorders, productieo
 ## <a name="minmax-replenishment"></a>Min/Max aanvulling
 In Min/Max aanvulling wordt voorraad aangevuld zodat deze tussen de minimale en maximale limieten blijft die zijn ingesteld. Dit proces gebeurt meestal eenmaal per dag om te garanderen dat alle orderverzamellocaties tot het maximumniveau zijn gevuld voordat het orderverzamelen van start gaat. 
 
-De minimale en maximale hoeveelheden worden ingesteld in een aanvullingssjabloon. Veel van de andere instellingen in de sjabloon lijken op de instellingen in sjablonen die worden gebruikt in Aanvulling voor wave-vraag. De e sjabloon moet een regel bevatten voor elk artikel en elke locatie. Wanneer u aanvulling uitvoert door de batchtaak te gebruiken, controleert Microsoft Dynamics 365 for Finance and Operations, Enterprise edition of aanvulling vereist is in de volgorde waarin de regels zijn ingedeeld. 
+De minimale en maximale hoeveelheden worden ingesteld in een aanvullingssjabloon. Veel van de andere instellingen in de sjabloon lijken op de instellingen in sjablonen die worden gebruikt in Aanvulling voor wave-vraag. De e sjabloon moet een regel bevatten voor elk artikel en elke locatie. Wanneer u aanvulling uitvoert door de batchtaak te gebruiken, controleert Microsoft Dynamics 365 for Finance and Operations of aanvulling vereist is in de volgorde waarin de regels zijn ingedeeld. 
 
 Houd er rekening mee dat met de strategie van Min/Max-aanvulling geen lege locatie kan worden aangevuld tenzij de locatie is ingesteld als de vaste locatie voor het artikel. Als de locatie die moet worden aangevuld geen vaste locatie is, kan het systeem niet bepalen welk artikel moet worden aangevuld. Daarom is ten minste enige voorhanden voorraad vereist voordat aanvulling plaatsvindt.
 

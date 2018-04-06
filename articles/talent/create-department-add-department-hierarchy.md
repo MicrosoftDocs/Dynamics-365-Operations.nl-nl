@@ -19,10 +19,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cea3ecd66a57780c9ef1b3a3c21f1e5273faa0ef
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: 3fc30669bf7a16616484bf7115cb121ce463840f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -56,7 +56,6 @@ Als u een afdeling wilt toevoegen aan de afdelingshiërarchie, volgt u deze stap
 5.  Sla de wijzigingen op. U ontvangt een bericht dat er een conceptversie van de hiërarchie is gemaakt.
 6.  Wanneer u klaar bent, klikt u op **Publiceren** in de hiërarchieontwerper. U kunt een ingangsdatum invoeren waarmee wordt aangegeven wanneer de hiërarchie moet worden gepubliceerd. Als u bijvoorbeeld een nieuwe afdeling wilt toevoegen aan het begin van het volgende kalenderjaar, stelt u de ingangsdatum in op 1 januari van het nieuwe kalenderjaar. De wijzigingen in de hiërarchie worden op die datum van kracht.
 
-
-
-
+## <a name="steps-for-creating-a-department"></a>Stappen voor het maken van een afdeling
+Raadpleeg het onderwerp [Nieuwe afdelingen definiëren](../fin-and-ops/hr/tasks/define-new-departments.md) voor de stapsgewijze procedure voor het maken van een nieuwe afdeling. 
 

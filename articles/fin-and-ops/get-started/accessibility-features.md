@@ -1,6 +1,6 @@
 ---
 title: Toegankelijkheidsfuncties
-description: Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Enterprise Edition, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken.
+description: Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 01/23/2018
@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: f0ec24555f44c6dcbc2c84fa7366ca6b48b135f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 834146c1a57cca0c02598290352c3ab8e1e4b7f5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 [!include[banner](../includes/banner.md)]
 
-Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Enterprise Edition, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Microsoft Windows Verteller gebruiken.
+Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Microsoft Windows Verteller gebruiken.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Verteller en toegang op basis van alleen het toetsenbord
 

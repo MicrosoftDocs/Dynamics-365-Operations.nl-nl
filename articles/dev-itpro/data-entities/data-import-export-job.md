@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Als u gegevensimport- en exporttaken wilt maken en beheren in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, gebruikt u het werkgebied **Gegevensbeheer**. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
+Als u gegevensimport- en exporttaken wilt maken en beheren in Microsoft Dynamics 365 for Finance and Operations, gebruikt u het werkgebied **Gegevensbeheer**. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
 
 > [!NOTE]
 > Dit onderwerp gaat ervanuit dat u vertrouwd bent met [gegevensentiteiten](data-entities.md).
@@ -66,7 +66,7 @@ U kunt specifieke entiteiten toevoegen aan een import- of exporttaak of een sjab
 ### <a name="set-the-data-format-for-the-job"></a>De gegevensindeling voor de taak instellen
 Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens die worden geëxporteerd of geïmporteerd. U definieert indelingen via de tegel **Instelling van gegevensbronnen**. Veel organisaties beginnen vanuit de indelingen die standaard zijn opgenomen in de voorbeeldgegevensset. Hier volgt een lijst met enkele van deze indelingen:
 
-- AX (voor gegevens die moeten worden geïmporteerd of geëxporteerd in dezelfde indeling die wordt gebruikt voor Microsoft Dynamics 365 for Finance and Operations, Enterprise edition)
+- AX (voor gegevens die moeten worden geïmporteerd of geëxporteerd in dezelfde indeling die wordt gebruikt voor Microsoft Dynamics 365 for Finance and Operations)
 - ColonSeparated
 - CSV
 - Excel

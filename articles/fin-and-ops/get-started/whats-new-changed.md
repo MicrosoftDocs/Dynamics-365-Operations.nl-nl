@@ -3,7 +3,7 @@ title: Wat is nieuw of gewijzigd
 description: Op deze pagina vindt u verwijzingen naar onderwerpen die informatie geven over de nieuwe functies in de meest recente versie van Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ Voor informatie over hoe u een upgrade naar de meest recente versie uitvoert, zi
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Platformupdate 13</td>
-<td>7.0.4764</td>
-<td>Januari 2018 (Dit is een gerichte release en is alleen beschikbaar voor gebruikers die zich hebben aangemeld voor het voordeelprogramma voor continue automatische updates (CAAP).)</td>
-<td><a href="whats-new-platform-update-13.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise Edition, platformupdate 13 (januari 2018)</a></td><tbody>
+<td>Platformupdate 15</td>
+<td>7.0.4839</td>
+<td>Maart 2018 (Dit is een gerichte release die alleen beschikbaar is voor gebruikers die zich hebben aangemeld voor het voordeelprogramma voor continue automatische updates (CAAP).)</td>
+<td><a href="whats-new-platform-update-15.md">Wat is nieuw of gewijzigd in Dynamics 365 for Finance and Operations, Enterprise-editie, platformupdate 15 (maart 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Platformupdate 12</td>

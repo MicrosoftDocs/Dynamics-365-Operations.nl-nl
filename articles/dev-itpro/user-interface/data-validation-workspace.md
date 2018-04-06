@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ In de sectie **Taken en status** wordt de status van het algehele gegevensvalida
 Het laatste tabblad is voor de gedetailleerde takenlijst. Deze lijst bevat de volledige takenlijst.
 U kunt de lijst met taken op verschillende manieren filteren. Klik op **Taak bewerken** om de status van een taak te wijzigen of een taak toe te wijzen. Klik op **Bijlagen** om bijlagen voor een taak te bekijken.
 
-De taaknaam is een hyperlink naar de pagina Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition waar de gebruiker naartoe moet gaan om het werk uit te voeren. U kunt deze hyperlink vervolgens instellen met behulp van het veld **Naam menuopdracht** wanneer u een taak bewerkt of maakt via het formulier **Gegevensvalidatieproject configureren**.
+De taaknaam is een hyperlink naar de pagina Microsoft Dynamics 365 for Finance and Operations waar de gebruiker naartoe moet gaan om het werk uit te voeren. U kunt deze hyperlink vervolgens instellen met behulp van het veld **Naam menuopdracht** wanneer u een taak bewerkt of maakt via het formulier **Gegevensvalidatieproject configureren**.
 
 U kunt bestanden, notities, afbeeldingen en URL's aan een taak koppelen met behulp van de actie **Bijlagen**. U kunt bijvoorbeeld een rapportbestand bijvoegen dat is afgedrukt voor een taak. Er verschijnt een pictogram in de kolom **Bijlage** voor de taak als er een bijlage aanwezig is.
 

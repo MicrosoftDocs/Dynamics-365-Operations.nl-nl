@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d24679a380ec824fe08c56aacb4bc348ff40440a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3d9c2192bac8477e9c9376aab3e3b561da777569
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>Een configuratie uploaden naar Lifecycle Services voor elektronische aangifte (ER)
@@ -92,6 +92,6 @@ In dit voorbeeld maakt u een configuratie en uploadt u deze naar LCS voor het vo
 10. Klik op Openen.
     * Selecteer de LCS-opslagplaats en open deze.  
     * De geselecteerde configuratie wordt getoond als een activum van het geselecteerde LCS-project.  
-    * Open LCS via https://lcs.dynamics.com. Open een project dat eerder is gebruikt voor opslagplaatsregistratie, open de activabibliotheek van dit project en vouw de inhoud van het activumtype ‘GER-configuratie’ uit; de geüploade ER-configuratie is beschikbaar. De geüploade LCS-configuratie kan naar een ander Microsoft Dynamics 365 for Finance and Operations, Enterprise edition-exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.  
+    * Open LCS met https://lcs.dynamics.com. Open een project dat eerder is gebruikt voor opslagplaatsregistratie, open de ‘Activabibliotheek’ van dit project en vouw de inhoud van het activumtype ‘GER-configuratie’ uit; de geüploade ER-configuratie is beschikbaar. De geüploade LCS-configuratie kan naar een ander Microsoft Dynamics 365 for Finance and Operations-exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.  
 
 

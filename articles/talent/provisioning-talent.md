@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: e4459e8be4bfab8e0789744eacd533286b6c05e0
+ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
+ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent inrichten
@@ -47,13 +47,14 @@ Zie de methodologie **Talent** die u hebt gemaakt in het nieuwe project voor inf
 Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
 
 1. Selecteer in uw LCS-project de tegel **Beheer Talent-app**.
-2. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Als u nog geen PowerApps-omgeving hebt, volgt u de stappen in de sectie Een nieuwe PowerApps-omgeving maken (indien vereist) van dit onderwerp voordat u doorgaat.
+2. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. 
+3. Als u nog geen PowerApps-omgeving hebt, volgt u de stappen in de sectie Een nieuwe PowerApps-omgeving maken (indien vereist) van dit onderwerp voordat u doorgaat.
 
     > [!NOTE]
     > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de PowerApps P2-licentie. Als uw organisatie geen PowerApps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met PowerApps-prijzen](https://powerapps.microsoft.com/en-us/pricing/).
 
-3. Selecteer **Toevoegen** en selecteer de omgeving waarin Talent moet worden ingericht.
-4. Selecteer **Ja** om akkoord te gaan met de voorwaarden en te beginnen met implementeren.
+4. Selecteer **Toevoegen** en selecteer de omgeving waarin Talent moet worden ingericht.
+5. Selecteer **Ja** om akkoord te gaan met de voorwaarden en te beginnen met implementeren.
 
     Uw nieuwe omgeving wordt weergegeven in de lijst met omgevingen in het navigatievenster aan de linkerkant. U kunt de omgeving echter pas gebruiken als de implementatiestatus is bijgewerkt naar **Geïmplementeerd**. Dit proces duurt meestal een paar minuten. Als het inrichtingsproces mislukt, moet u contact opnemen met de ondersteuning.
 
@@ -65,32 +66,64 @@ Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
 > [!NOTE]
 > Talent-omgevingen die worden ingericht door middel van LCS, bevatten geen demonstratiegegevens die zijn geconfigureerd voor HR-taken of die specifiek zijn voor Talent. Als u een omgeving met demonstratiegegevens nodig hebt, kunt u zich het beste aanmelden voor een gratis 60-daagse [Talent-proefomgeving](https://dynamics.microsoft.com/en-us/talent/overview/). Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor HR Core. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Ze zijn niet bedoeld als productieomgevingen. Wanneer de proefomgeving na 60 dagen verloopt, worden alle gegevens erin permanent verwijderd. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
 
+## <a name="select-a-powerapps-environment"></a>Een PowerApps-omgeving selecteren
+
+Dankzij de integratie tussen Talent en de PowerApps-omgevingen kunt u Talent-gegevens integreren en het gebruik ervan uitbreiden met PowerApps-tools. Informatie over dat het doel van PowerApps-omgevingen helpt niet alleen bij het maken van toepassingen om Talent uit te breiden, maar ook bij het selecteren van de juiste omgeving voor Talent. Zie voor meer informatie over PowerApps-omgevingen, inclusief het omgevingsbereik, omgevingstoegang en het maken en kiezen van een omgeving [Aankondiging van PowerApps-omgevingen](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+
+Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Talent wilt implementeren: 
+1. Selecteer in LCS Omgevingen beheren of navigeer rechtstreeks naar het PowerApps-beheercentrum waar u bestaande omgevingen weergeeft en nieuwe omgevingen maakt.
+2. Eén Talent-omgeving wordt toegewezen aan één PowerApps-omgeving.
+3. Een PowerApps-omgeving bevat de toepassing Talent samen met de bijbehorende PowerApps-, Flow- en CDS-toepassingen. Als de PowerApps-omgeving wordt verwijderd, worden ook de toepassingen erin gewist.
+4. Gegevensintegratie en teststrategieën moeten worden overwogen. Bijvoorbeeld: sandbox, UAT, productie. Daarom is het raadzaam dat u rekening houdt met de verschillende gevolgen voor uw implementatie, aangezien de toewijzing van een Talent-omgeving aan een PowerApps-omgeving later niet eenvoudig te wijzigen is.
+5. De volgende PowerApps-omgevingen kunnen niet worden gebruikt voor Talent en worden gefilterd in de selectielijst binnen LCS:
+ 
+    **CDS 2.0-omgevingen** CDS 2.0 is beschikbaar vanaf 21 maart 2018. Maar Talent ondersteunt CDS 2.0 nog niet. Hoewel u CDS 2.0-databases wel kunt bekijken en maken in het PowerApps-beheercentrum, kunnen ze niet meer worden gebruikt in Talent. De optie om CDS 2.0-omgevingen te gebruiken in Talent-implementaties, zal op een later tijdstip beschikbaar zijn.
+   
+ > [!Note]
+ > Als u het verschil wilt zien tussen CDS 1.0- en 2.0-omgevingen in de beheerportal, selecteert u een omgeving en kijkt u naar **Details**. Voor CDS 2.0-omgevingen geldt 'U kunt deze instellingen beheren in het Dynamics 365-beheercentrum', dat ze verwijzen naar een instantieversie en geen tabblad Database hebben. 
+ 
+   **Standaard PowerApps-omgevingen** Hoewel elke tenant automatisch een standaard PowerApps-omgeving heeft, wordt gebruik niet aanbevolen met Talent omdat alle tenantgebruikers toegang hebben tot de PowerApps-omgeving. Ze kunnen bij het testen en verkennen van de PowerApps- of Flow-integraties per ongeluk productiegegevens beschadigen.
+   
+   **TestDrive-omgevingen** Omgevingen met een naam als 'TestDrive: alias@domain' worden gemaakt met een vervalperiode van 60 dagen en verlopen na die tijd, waardoor de omgeving automatisch wordt verwijderd.
+   
+   **Niet-ondersteunde regio's** Momenteel wordt Talent alleen ondersteund in de volgende gebieden: Verenigde Staten, Europa en Australië.
+  
+6. Er is geen specifieke actie als u de juiste omgeving voor gebruik hebt vastgesteld. Ga door met het inrichtingsproces. 
+ 
 ## <a name="create-a-new-powerapps-environment-if-required"></a>Een nieuwe PowerApps-omgeving maken (indien vereist)
-Dankzij de integratie tussen Talent en de PowerApps-omgevingen kunt u Talent-gegevens integreren en het gebruik ervan uitbreiden met PowerApps-tools. Wanneer u het doel van PowerApps-omgevingen begrijpt, kunt u apps bouwen die voldoen aan uw behoeften voor het uitbreiden van Talent. Zie voor meer informatie over PowerApps-omgevingen, inclusief het omgevingsbereik, omgevingstoegang en het maken en kiezen van een omgeving [Aankondiging van PowerApps-omgevingen](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). Elke tenant wordt automatisch in een standaard PowerApps-omgeving ingericht, maar dit is mogelijk niet de beste omgeving voor uw implementatie van Talent. Gegevensintegratie en teststrategieën moeten tijdens deze stap worden bepaald, dus het is raadzaam dat u rekening houdt met de verschillende mogelijke gevolgen voor uw implementatie, aangezien sommige beslissingen later niet eenvoudig te wijzigen zijn. 
 
-Hoewel elke tenant automatisch in een standaard PowerApps-omgeving wordt ingericht, is dit mogelijk niet de beste omgeving voor uw implementatie van Talent. Gegevensintegratie en teststrategieën moeten tijdens deze stap worden bepaald. Daarom is het raadzaam dat u rekening houdt met de verschillende gevolgen voor uw implementatie, aangezien de PowerApps-omgeving later niet eenvoudig te wijzigen is.
+Voer een PowerShell-script uit voor het maken van een nieuwe PowerApps-omgeving voor Talent als de tenantbeheerder de licentie PowerApps Plan 2 heeft. Het script automatiseert de volgende stappen:
 
-1. Selecteer **Omgevingen beheren** in LCS. Het [PowerApps-beheercentrum](https://preview.admin.powerapps.com/environments) wordt geopend. Hier kunt u bestaande omgevingen weergeven en nieuwe omgevingen maken.
-2. Selecteer **Nieuwe omgeving**.
-3. Geef een unieke naam voor de omgeving op en selecteer de implementatielocatie.
 
-    > [!NOTE]
-    > Talent is niet beschikbaar in alle regio's. Daarom moet u controleren of Talent voor u beschikbaar is voordat u de locatie voor uw omgeving selecteert.
+ + Een PowerApps-omgeving maken
+ + Een CDS 1.0-database maken
+ + Alle voorbeeldgegevens in de CDS 1.0-database wissen
 
-4. Wanneer u wordt gevraagd of u een database wilt maken, selecteert u **Database maken** om de CDS-database (Common Data Service) te maken die als host voor een deel van uw Talent-gegevens moet fungeren. Als u een database maakt, kunt u ook PowerApps-toepassingen integreren met Talent.
-5. U wordt gevraagd welk toegangsniveau u wilt gebruiken voor de database. Wij raden u aan **Toegang beperken** te selecteren om te voorkomen dat gebruikers van Talent rechtstreeks toegang tot gevoelige gegevens kunnen krijgen via een PowerApps-toepassing.
-6. De CDS-database die wordt gemaakt, bevat demonstratiegegevens waarmee onder andere inactieve werknemers en fictieve adressen worden toegevoegd aan uw productieomgeving. Als u deze voorbeeldgegevens wilt verwijderen, gaat u als volgt te werk als u klaar bent met het maken van de CDS-database:
 
-    > [!IMPORTANT]
-    > Als u eerder een CDS-database hebt gemaakt en hierin productiegegevens van uw bedrijf hebt opgegeven, worden met de volgende stappen **alle** gegevens in de geselecteerde database verwijderd, ook de productiegegevens van uw bedrijf.
+Voer de volgende instructies uit voor het script:
 
-    1. Meld u aan bij [PowerApps](https://preview.web.powerapps.com/home).
-    2. Selecteer de omgeving die u in stap 2 hebt gemaakt in de vervolgkeuzelijst in de rechterbovenhoek.
-    3. Vouw de **Common Data Service** uit in het linkernavigatievenster en selecteer **Entiteiten**.
-    4. Selecteer rechts op de pagina de ellips (**...**) en selecteer vervolgens **Alle gegevens wissen**.
-    5. Selecteer **Gegevens verwijderen** om te bevestigen dat u de gegevens wilt verwijderen. Met deze actie verwijdert u de demonstratiegegevens die standaard in de CDS zijn opgenomen. Daarnaast worden de gegevens verwijderd die zijn ingevoerd in de geselecteerde database.
+1. Download het bestand ProvisionCDSEnvironment.zip van de volgende locatie: [ProvisionCDSEnvironment scripts](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-U kunt uw nieuwe omgeving gebruiken.
+2. Pak de volledige inhoud van het bestand ProvisionCDSEnviroinment.zip uit in een map.
+
+3. Voer het programma Windows PowerShell of Windows PowerShell ISE uit als beheerder.
+
+   Ga naar het onderwerp [Uitvoeringsbeleid instellen](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) voor meer informatie over het instellen van het uitvoeringsbeleid zodat scripts kunnen worden uitgevoerd.
+  
+4. Ga in PowerShell naar de map waarin u het bestand hebt uitgepakt en voer de volgende opdracht uit waarbij u de waarden vervangt zoals hieronder wordt aangegeven:
+ 
+   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
+
+    
+   **EnvironmentName** moet worden vervangen door de naam van uw omgeving. Deze naam wordt weergegeven in LCS en is zichtbaar als gebruikers selecteren welke Talent-omgeving ze willen gebruiken. 
+
+   **YourLocation** moet worden vervangen door een van de ondersteunde regio's voor Talent: unitedsates, europe, australia. 
+
+   **-Uitgebreid** is optioneel en biedt gedetailleerde informatie voor support als er problemen optreden.
+
+5. Ga door met het inrichtingsproces.
+ 
+
 
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving
 Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet echter uitdrukkelijk toestemming worden verleend. U kunt toegang verlenen door [gebruikers toe te voegen](../dev-itpro/sysadmin/tasks/create-new-users.md) en [de juiste rollen aan deze gebruikers toe te wijzen](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) in de Core HR-omgeving. U moet deze gebruikers ook toevoegen aan de PowerApps-omgeving, zodat zij toegang hebben tot de Attract- en Onboard-toepassingen. De procedure wordt hier beschreven. Als u voor het voltooien van de stappen hulp nodig hebt, raadpleegt u het blogbericht [Introducing the PowerApps admin center](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/) (Inleiding in het PowerApps-beheercentrum).
@@ -101,5 +134,5 @@ Deze procedure wordt voltooid door de globale beheerder die de Talent-omgeving h
 2. Selecteer de toepasselijke omgevingen.
 3. Voeg onder het tabblad **Beveiliging** de vereiste gebruikers aan de rol **Maker omgeving** toe.
 
-Deze laatste stap, waarin u handmatig gebruikers toevoegt aan de PowerApps-omgeving, is tijdelijk. Uiteindelijk wordt deze stap automatisch voltooid wanneer gebruikers worden toegevoegd in Core HR.
+    Deze laatste stap, waarin u handmatig gebruikers toevoegt aan de PowerApps-omgeving, is tijdelijk. Uiteindelijk wordt deze stap automatisch voltooid wanneer gebruikers worden toegevoegd in Core HR.
 

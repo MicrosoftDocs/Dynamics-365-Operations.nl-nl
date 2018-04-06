@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2c0a00b6a1956f1f22a50951308c434c3f0eefc4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Hier volgen enkele voorbeelden van gangbare statistische dimensieleden.
 
 ## <a name="statistical-measure-provider-template"></a>Sjabloon van provider van statistische maateenheden
 
-Statistische maateenheden kunnen afkomstig zijn van allerlei bronnen. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, is een fantastische bron voor statistische maateenheden. U kunt met een sjabloon van een statistische maateenheidprovider makkelijk de statistische maateenheden configureren die u wilt extraheren.
+Statistische maateenheden kunnen afkomstig zijn van allerlei bronnen. Microsoft Dynamics 365 for Finance and Operations is een fantastische bron voor statistische maateenheden. U kunt met een sjabloon van een statistische maateenheidprovider makkelijk de statistische maateenheden configureren die u wilt extraheren.
 
 De definitie van een sjabloon van de provider van statistische maateenheden is algemeen en kan in meerdere statistische dimensieleden worden gebruikt.
 
@@ -132,13 +132,13 @@ Voordat u statistische maateenheden naar kostprijsboekhouding sturen kunt, moet 
 > [!NOTE]
 > In dit voorbeeld maken we alleen een relatie voor de **Actuele versie**.
 
-Ga naar **Grootboek van kostprijsboekhouding** \> **Actuele versie** \> **Beheren** \> **Statistische maateenheden** om de relatie tot stand te brengen. Voor dit scenario selecteert u de gegevensconnector **Dynamics 365 for Finance and Operations, Enterprise edition – Statistische maateenheden**, omdat we gegevens willen ophalen uit Finance and Operations.
+Ga naar **Grootboek van kostprijsboekhouding** \> **Actuele versie** \> **Beheren** \> **Statistische maateenheden** om de relatie tot stand te brengen. Voor dit scenario selecteert u de gegevensconnector **Dynamics 365 for Finance and Operations – Statistische maateenheden**, omdat we gegevens willen ophalen uit Finance and Operations.
 
 **Gegevensbron**
 
 | Naam        | Gegevensconnector                                                                     | Statistisch dimensielid |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| VTE's D365FO | Dynamics 365 for Finance and Operations, Enterprise edition – Statistische maateenheden | VTE's                         |
+| VTE's D365FO | Dynamics 365 for Finance and Operations – Statistische maateenheden | VTE's                         |
 
 **Configuratie van gegevensprovider**
 
@@ -220,13 +220,13 @@ Voordat u statistische maateenheden naar kostprijsboekhouding sturen kunt, moet 
 > [!NOTE]
 > In dit voorbeeld maken we alleen een relatie voor de **Actuele versie**.
 
-Ga naar **Grootboek van kostprijsboekhouding** \> **Actuele versie** \> **Beheren** \> **Statistische maateenheden** om de relatie tot stand te brengen. Voor dit scenario selecteert u de gegevensconnector **Dynamics 365 for Finance and Operations, Enterprise edition – Statistische maateenheden**, omdat we gegevens willen ophalen uit Finance and Operations.
+Ga naar **Grootboek van kostprijsboekhouding** \> **Actuele versie** \> **Beheren** \> **Statistische maateenheden** om de relatie tot stand te brengen. Voor dit scenario selecteert u de gegevensconnector **Dynamics 365 for Finance and Operations – Statistische maateenheden**, omdat we gegevens willen ophalen uit Finance and Operations.
 
 **Gegevensbron**
 
 | Naam           | Gegevensconnector                                                                     | Statistisch dimensielid |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pack CC D365FO | Dynamics 365 for Finance and Operations, Enterprise edition – Statistische maateenheden | Pack CC                      |
+| Pack CC D365FO | Dynamics 365 for Finance and Operations – Statistische maateenheden | Pack CC                      |
 
 Het systeem dat ProdRouteTrans een tabel is waarin elke record tot een afzonderlijke rechtspersoon behoort. Daarom wordt u gevraagd om de rechtspersoon te selecteren waarvan u transacties wilt importeren.
 

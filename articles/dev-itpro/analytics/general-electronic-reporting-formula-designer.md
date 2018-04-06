@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rappo
 
 ER ondersteunt de Formuleontwerper. Daarom kunt u tijdens het ontwerpen expressies configureren die kunnen worden gebruikt voor de volgende taken in runtime:
 
-- Gegevens transformeren uit een Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition-database, die moeten worden ingevoerd in een ER-gegevensmodel dat is bedoeld als gegevensbron voor ER-indelingen. (Deze transformaties kunnen bijvoorbeeld filteren, groeperen en conversie van gegevenstype omvatten.)
+- Gegevens transformeren uit een Microsoft Dynamics 365 for Finance and Operations-database, die moeten worden ingevoerd in een ER-gegevensmodel dat is bedoeld als gegevensbron voor ER-indelingen. (Deze transformaties kunnen bijvoorbeeld filteren, groeperen en conversie van gegevenstype omvatten.)
 - Gegevens opmaken die moet worden verzonden naar een genererend elektronisch document conform de indeling en de voorwaarden van een specifieke ER-indeling. (Bijvoorbeeld de opmaak kan worden uitgevoerd in overeenstemming met de aangevraagde taal of cultuur, of de codering.)
 - Het proces van het maken van elektronische documenten beheren. (Bijvoorbeeld de expressies kunnen de uitvoer van specifieke elementen van de indeling inschakelen of uitschakelen, afhankelijk van de verwerking van gegevens. Ze kunnen ook het proces voor het maken van documenten onderbreken of berichten aan gebruikers tonen.)
 

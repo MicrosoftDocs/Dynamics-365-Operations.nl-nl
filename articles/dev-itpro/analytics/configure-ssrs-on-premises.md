@@ -18,17 +18,17 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 2b5abc98f5788c5091e5be61688cfd0d4076a510
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>SQL Server Reporting Services configureren voor een on-premises implementatie
 
 [!include[banner](../includes/banner.md)]
 
-Gebruik de stappen in dit onderwerp voor het configureren van SQL Server Reporting Services (SSRS) voor uw implementatie van Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (on-premises).
+Gebruik de stappen in dit onderwerp voor het configureren van SQL Server Reporting Services (SSRS) voor uw implementatie van Microsoft Dynamics 365 for Finance and Operations (on-premises).
 
 1. Open de toepassing Reporting Services Configuration Manager.
 2. Laat de standaard **servernaam**, gewoonlijk de naam van de huidige computer, en de **Naam van rapportserverexemplaar** **MSSQLSERVER** staan. 
