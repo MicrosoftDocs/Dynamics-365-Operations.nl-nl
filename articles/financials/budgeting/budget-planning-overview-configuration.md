@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d904a2fe9411da1fd1a4e5810f7dcea782f1c2f7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Dit artikel is een introductie tot budgetplanning en bevat informatie waarmee u 
 
 U voert budgetplanning uit wanneer u de budgetten voorbereidt die door een organisatie worden geïmplementeerd. Een organisatie kan budgetplanning configureren en vervolgens budgetplanningsprocessen instellen om te voldoen aan de bijbehorende beleidsregels, procedures en vereisten voor budgetvoorbereiding. 
 
-Wanneer u de concepten en terminologie begrijpt die in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition worden gebruikt, is het voor u gemakkelijker budgetplanning in uw organisatie te implementeren.
+Wanneer u de concepten en terminologie begrijpt die in Microsoft Dynamics 365 for Finance and Operations worden gebruikt, is het voor u gemakkelijker budgetplanning in uw organisatie te implementeren.
 
 ### <a name="key-terms"></a>Belangrijke termen
 

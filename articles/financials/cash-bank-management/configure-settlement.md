@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0069246a60f1db6297df45fa57cd52d90cdb4ab5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit artikel worden de parameters beschreven die voor Leveranciers en Klanten worden gebruikt voor vereffening. 
 
-De volgende parameters zijn van invloed op de wijze waarop vereffeningen worden verwerkt in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Vereffening is het proces van het vereffenen van een factuur met een betaling of creditnota. Deze parameters bevinden zich in het gebied **Vereffening** van de pagina´s **Parameters van module Klanten** en **Parameters van module Leveranciers** .
+De volgende parameters zijn van invloed op de wijze waarop vereffeningen worden verwerkt in Microsoft Dynamics 365 for Finance and Operations. Vereffening is het proces van het vereffenen van een factuur met een betaling of creditnota. Deze parameters bevinden zich in het gebied **Vereffening** van de pagina´s **Parameters van module Klanten** en **Parameters van module Leveranciers** .
 
 -   **Automatische vereffening**: stel deze optie in op **Ja** als een transactie automatisch met andere openstaande transacties moet worden vereffend wanneer deze wordt geboekt. Als deze optie is ingesteld op **Nee**, kunnen gebruikers transacties handmatig vereffenen wanneer ze betalingen invoeren, of later met behulp van de pagina **Transacties vereffenen**.
 -   **Administratie voor contantkorting**: geef op hoe een [contantkorting wordt verwerkt wanneer te veel wordt betaald voor een factuur](cash-discount-handling-overpayments.md). Voor een te veel betaald bedrag kan de contantkorting worden verlaagd, kan deze worden behandeld als een verschil of kan deze op de rekening van de leverancier of de klant blijven staan.

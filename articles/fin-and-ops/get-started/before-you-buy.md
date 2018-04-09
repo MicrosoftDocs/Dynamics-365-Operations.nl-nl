@@ -1,6 +1,6 @@
 ---
 title: Voordat u koopt
-description: Gebruik deze stapsgewijze instructies als u overweegt om Dynamics 365 for Finance and Operations, Enterprise edition aan te schaffen.
+description: Gebruik deze stapsgewijze instructies als u overweegt om Dynamics 365 for Finance and Operations aan te schaffen.
 author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,24 +17,24 @@ ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
-ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 160313ac375feb875982bfdbbd850db7f2d8be35
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="before-you-buy"></a>Voordat u koopt 
+# <a name="before-you-buy"></a>Voordat u gaat kopen 
 
 [!include[banner](../includes/banner.md)]
 
-Bent u onbekend met Dynamics 365 for Finance and Operations, Enterprise Edition? We hebben stapsgewijzge instructies opgesteld voor als u Finance and Operations nog evalueert of al klaar bent om tot aanschaf over te gaan.
+Nieuw bij Dynamics 365 for Finance and Operations? We hebben stapsgewijzge instructies opgesteld voor als u Finance and Operations nog evalueert of al klaar bent om tot aanschaf over te gaan.
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>Stap één: probeer Finance and Operations gratis 30 dagen uit
 U kunt Dynamics 365 for Finance and Operations 30 dagen lang uitproberen via een eenvoudige e-aanmelding. De evaluatieversie van Finance and Operations bevat de taakhandleiding Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [www.microsoft.com/en-us/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Stap twee: Kies een optie voor implementatie
-U kunt nu Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition in de cloud of on-premises implementeren. Cloudimplementaties omvatten een ERP-service die volledig wordt beheerd door Microsoft, terwijl implementaties on-premises lokaal zijn geïmplementeerd in datacenter van een klant.
+U kunt nu Microsoft Dynamics 365 for Finance and Operations in de cloud of on-premises implementeren. Cloudimplementaties omvatten een ERP-service die volledig wordt beheerd door Microsoft, terwijl implementaties on-premises lokaal zijn geïmplementeerd in datacenter van een klant.
 
 De volgende overwegingen moeten in acht worden genomen wanneer u on-premises kiest als implementatieoptie:
 - Vereisten op het gebied van regelgeving en naleving die niet beschikbaar zijn in de [cloudcertificeringen](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
@@ -43,7 +43,7 @@ De volgende overwegingen moeten in acht worden genomen wanneer u on-premises kie
 - [Minimale vereisten voor de infrastructuur](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> On-premises implementaties van Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition worden niet ondersteund in openbare cloudinfrastructuren, inclusief Azure. 
+> On-premises implementaties van Microsoft Dynamics 365 for Finance and Operations worden niet ondersteund in openbare cloudinfrastructuren, inclusief Azure. 
 
 Zie [Implementatieopties](../../dev-itpro/deployment/choose-deployment-type.md) voor meer informatie.
 
@@ -70,7 +70,7 @@ Volumelicenties voor Finance and Operations zijn beschikbaar via:
 Een Microsoft Cloud Solution Provider werkt nauw met u samen om de behoeften van uw bedrijf of organisatie te begrijpen. [Gebruik de Microsoft Partner Center-portal om een partner te vinden die bij u past](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kopen via een Dynamics-partner (on-premises)
-Werk samen met een partner om Finance and Operations on-premises aan te schaffen. Zie voor meer informatie [Dynamics 365 for Finance and Operations, Enterprise edition (on-premises) aanschaffen](purchase-on-premises.md)
+Werk samen met een partner om Finance and Operations on-premises aan te schaffen. Zie voor meer informatie [Dynamics 365 for Finance and Operations (on-premises) aanschaffen](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Kies uw ondersteuningsoptie
 Microsoft biedt een flexibele, toonaangevende ondersteuning, services en bronnen waarmee gebruikers snel technische problemen kunnen oplossen en optimaal rendement uit de investering in Dynamics 365 halen. Kies een plan dat het beste voldoet aan uw zakelijke behoeften. 

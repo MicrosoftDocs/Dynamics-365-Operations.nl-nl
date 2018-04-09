@@ -19,10 +19,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6fde46c35d5efbb72ad97628d7d5a3f9eeba7c8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](includes/banner.md)]
 
-*Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort). In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kunnen kenmerken met verschillende detailhandelsentiteiten zoals productcategorieën en detailhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen daarvoor zijn ingesteld. De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen. De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.
+*Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort). In Microsoft Dynamics 365 for Finance and Operations kunnen kenmerken met verschillende detailhandelsentiteiten zoals productcategorieën en detailhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen daarvoor zijn ingesteld. De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen. De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.
  
 Een normaal televisieproduct kan bijvoorbeeld de volgende kenmerken hebben.
 

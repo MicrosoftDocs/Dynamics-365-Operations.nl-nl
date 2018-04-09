@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad76f286d16b149affa110aef75874a52b66798f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -54,7 +54,7 @@ Gebruik de pagina **Berekening instellen voor vervaldatum factuuruitgifte** om e
 U kunt datumcontroleparameters instellen om ervoor te zorgen dat klantfacturen en creditnota's voor klanttransacties in de opgegeven periode worden gegenereerd nadat de levering is uitgevoerd. U kunt deze parameters vinden in het gebied **Controle van factuurdatums** van de pagina **Parameters van module Klanten**.
 
 ## <a name="example"></a>Voorbeeld
-Als u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition wilt instellen op de berekening van vervaldatums voor factuuruitgifte voor zendingen in de EU op de vijftiende dag van de maand nadat de levering is uitgevoerd, maakt u een datumintervalcode en een berekeningsregel met de volgende instellingen.
+Als u Microsoft Dynamics 365 for Finance and Operations wilt instellen op de berekening van vervaldatums voor factuuruitgifte voor zendingen in de EU op de vijftiende dag van de maand nadat de levering is uitgevoerd, maakt u een datumintervalcode en een berekeningsregel met de volgende instellingen.
 
 ### <a name="date-interval-code"></a>Datumintervalcode
 

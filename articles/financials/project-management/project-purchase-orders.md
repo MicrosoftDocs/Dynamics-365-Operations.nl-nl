@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1797bc49877f1c8c06797083d1c7b76934675ba3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: dae65394a2180ccbf3317a41b635ba97034e541b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/07/2018
 
 Dit artikel beschrijft de verschillende methoden die u kunt gebruiken om inkooporders voor een project te maken. De methode die u gebruikt, wordt bepaald door het doel van de inkooporder, wanneer de gekochte artikelen worden verbruikt, en wanneer ze bij een project in rekening worden gebracht.
 
-In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, kunt u meerdere methoden gebruiken om inkooporders voor een project te maken. De methode die u gebruikt, wordt bepaald door het doel van de inkooporder, wanneer de gekochte artikelen worden verbruikt, en wanneer ze bij een project in rekening worden gebracht.
+In Microsoft Dynamics 365 for Finance and Operations kunt u meerdere methoden gebruiken om inkooporders voor een project te maken. De methode die u gebruikt, wordt bepaald door het doel van de inkooporder, wanneer de gekochte artikelen worden verbruikt, en wanneer ze bij een project in rekening worden gebracht.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Methoden voor de aanmaak van een inkooporder
 

@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 4d94a5b2cc0e9ea144fbefc97cc27a2920016358
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 92d0b4dd9611de4d717f30dc8736c673835bea29
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de opties voor migratie van product- en magazijnbeheer in Microsoft Dynamics 365 voor Finance and Operations, Enterprise Edition.
+In dit onderwerp vindt u een overzicht van de opties voor migratie van product- en magazijnbeheer in Microsoft Dynamics 365 voor Finance and Operations.
 
 <a name="introduction"></a>Introductie
 ------------

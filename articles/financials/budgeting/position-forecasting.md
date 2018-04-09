@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Het inkomstenkostenelement dat op de compensatiegroep wordt geselecteerd, wordt 
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognoseposities maken voor bestaande posities
 
-Voor de nauwkeurigste budgetplanning kunt u prognoseposities maken door gegevens van bestaande posities te gebruiken in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, ongeacht of de positie momenteel is vervuld of niet. 
+Voor de nauwkeurigste budgetplanning kunt u prognoseposities maken door gegevens van bestaande posities in Microsoft Dynamics 365 for Finance and Operations te gebruiken, ongeacht of de positie momenteel is vervuld of niet. 
 
 De functie **Bestaande posities toevoegen** geeft alle posities weer voor een organisatie. Door de datum in te stellen op **Vanaf** kunt u de lijst met posities wijzigen zodat deze de posities bevat die bestonden op een datum in het verleden of, vaker, in de toekomst (bijvoorbeeld, het begin van de volgende budgetcyclus). Selecteer een planningsproces en budgetplanscenario, selecteer posities in de lijst, en klik vervolgens in **OK** om prognoseposities voor de geselecteerde functies te maken. Merk op dat u slechts één prognosepositie voor elke bestaande positie in een budgetplanningsproces en -scenario kunt maken. U kunt echter extra versies maken door andere budgetplanscenario's toe te wijzen. 
 

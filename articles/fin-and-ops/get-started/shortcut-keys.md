@@ -1,6 +1,6 @@
 ---
 title: Sneltoetsen
-description: De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations, Enterprise edition.
+description: De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations, Enterprise edition. 
+De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations. 
 
 **Opmerking:** De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
 
@@ -74,7 +74,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Het feitenblok openen (of de focus naar het feitenblok verplaatsen als dat al is geopend) | Alt+M, B of Ctrl+F2                        |
 | Het feitenblok sluiten (met de focus in het feitenblok)                         | Esc                                       |
 | Naar het volgende/vorige feitenvak gaan (met focus in het feitenblok)              | Alt+Shift+Pijl-omlaag/Alt+Shift+Pijl-omhoog |
-| Naar het &lt;n&gt;e feitenvak gaan (met de focus in het deelvenster Feitenvak)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Naar het &lt;n&gt;de feitenvak gaan (met focus in het feitenblok)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Een feitenvak uitvouwen (met de focus op de koptekst van het feitenvak)                             | Spatiebalk of Enter                            |
 | Het huidige feitenvak samenvouwen                                                    | Alt+0                                     |
 
@@ -115,9 +115,9 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | **Gewenste bewerking**                                      | **Druk op**                                    |
 | Naar het volgende/vorige veld gaan                     | Tabtoets/Shift+Tabtoets                              |
 | Naar het volgende/vorige tabblad gaan                       | Alt+Shift+Pijl-rechts/Alt+Shift+Pijl-links |
-| Naar het &lt;n&gt;e tabblad gaan                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Naar het &lt;n&gt;de tabblad gaan                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Naar het volgende/vorige sneltabblad gaan                   | Alt+Shift+Pijl-omlaag/Alt+Shift+Pijl-omhoog    |
-| Naar het &lt;n&gt;e sneltabblad gaan                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Naar het &lt;n&gt;de sneltabblad gaan                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Naar het volgende/vorige blad (verticaal tabblad) gaan      | Alt+Shift+Pijl-rechts/Alt+Shift+Pijl-links |
 | Naar het &lt;n&gt;de blad (verticaal tabblad) gaan        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Een sneltabblad uitvouwen (met de focus op de koptekst van het sneltabblad) | Spatiebalk of Enter                               |

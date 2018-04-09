@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Een budgetplansjabloon wordt gemaakt door de budgetmanager in Microsoft Word en 
 
 1.  Klik op **Ontwerp** in de Microsoft Dynamics Office-invoegtoepassing nadat u zich hebt aangemeld.
 2.  Gebruik voor koptekstgegevens de knop **Velden toevoegen**.
-3.  Selecteer de gegevensbron voor de entiteit BudgetPlanJustification en klik op **Volgende**. **Opmerking:** deze entiteit is vereist voor elk verantwoordingsdocument. Andere entiteiten kunnen worden gebruikt, maar weer uploaden naar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition is niet mogelijk als deze entiteit niet is opgenomen.
+3.  Selecteer de gegevensbron voor de entiteit BudgetPlanJustification en klik op **Volgende**. **Opmerking:** deze entiteit is vereist voor elk verantwoordingsdocument. Andere entiteiten kunnen worden gebruikt, maar weer uploaden naar Microsoft Dynamics 365 for Finance and Operations is niet mogelijk als deze entiteit niet is opgenomen.
 4.  Voeg de labels en waarden BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter en DocumentNumber in het Word-document toe. **Opmerking:** u kunt desgewenst uw eigen aangepaste labels gebruiken in plaats van de standaardlabels.
 5.  Klik op **Gereed** om de koptekstsectie te voltooien.
 6.  Klik voor regelniveaudetails van budgetplanbedragen op **Tabel toevoegen**.
@@ -61,7 +61,7 @@ Een budgetplansjabloon wordt gemaakt door de budgetmanager in Microsoft Word en 
 1.  Ga in Finance and Operations naar **Budgettering** &gt; **Instellen** &gt; **Budgetplanning** &gt; **Verantwoordingsdocumentsjablonen**.
 2.  Klik op **Nieuw** en blader naar het nieuwe Microsoft Word-document.
 3.  Voer een naam en beschrijving voor de sjabloonweergave in. Klik op **OK**.
-4.  Ga naar **Budgettering** &gt; **Instellen** &gt; **Budget****planning** &gt; **Budgetplanningsproces**.
+4.  Ga naar **Budgettering** &gt; **Instellen** &gt; **Budget** **planning** &gt; **Budgetplanningsproces**.
 5.  Selecteer het proces waarin de redensjabloon moet worden gebruikt en klik op **Bewerken**.
 6.  Selecteer in het veld **Verantwoordingsdocumentsjabloon** de juiste sjabloon en sla deze op.
 

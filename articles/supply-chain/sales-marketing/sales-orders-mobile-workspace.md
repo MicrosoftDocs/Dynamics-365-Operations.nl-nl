@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6a613d8b2ea1503b70efad7b14fb340faad0f62e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -84,8 +84,8 @@ In deze weergave ziet u een overzicht van de verkooporders per klant.
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise edition gebruikt 
-Als Dynamics 365 for Finance and Operations, Enterprise edition is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
+Als Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten voor gebruik van Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger.
 Als Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren. 

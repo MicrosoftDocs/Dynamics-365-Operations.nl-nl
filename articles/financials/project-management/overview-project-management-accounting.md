@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Een project is een groep van activiteiten die zijn ontworpen om in een service t
 ## <a name="projects-across-industries"></a>Projecten in de verschillende bedrijfstakken
 De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt, zoals u ziet in de volgende afbeelding. [![Projecten in verschillende bedrijfstakken](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-In een callcenter kan een ticket worden gebruikt om de set acties te beschrijven die zijn vereist om een probleem op te lossen. Adviserende bedrijven, zoals management- of technische adviesorganisaties of reclamebureaus, verwijzen naar hun activiteiten als projecten. In marketing vertegenwoordigt een campagne een reeks werkzaamheden die moeten worden uitgevoerd. In op projecten gebaseerde productie heeft een productieorder betrekking op de verschillende werkzaamheden die moet worden uitgevoerd om bepaalde eindproducten te produceren. Ongeacht welke naam ervoor wordt gebruikt, deze projecten betreffen resources, planningen en kosten, en het projectbeheer en de boekhoudingsfunctionaliteit in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, kunnen helpen met de planning, de uitvoering en de analyse van deze projecten.
+In een callcenter kan een ticket worden gebruikt om de set acties te beschrijven die zijn vereist om een probleem op te lossen. Adviserende bedrijven, zoals management- of technische adviesorganisaties of reclamebureaus, verwijzen naar hun activiteiten als projecten. In marketing vertegenwoordigt een campagne een reeks werkzaamheden die moeten worden uitgevoerd. In op projecten gebaseerde productie heeft een productieorder betrekking op de verschillende werkzaamheden die moet worden uitgevoerd om bepaalde eindproducten te produceren. Ongeacht welke naam ervoor wordt gebruikt, deze projecten betreffen resources, planningen en kosten, en het projectbeheer en de boekhoudingsfunctionaliteit in Microsoft Dynamics 365 for Finance and Operations kunnen helpen met de planning, de uitvoering en de analyse van deze projecten.
 
 ## <a name="project-phases"></a>Projectfasen
 Hoewel de volgende processtroom is gericht op externe projecten of projecten die voor een of meer klanten worden voltooid, de functionaliteit is ook van toepassing op interne, alleen kosten betreffende projecten. 

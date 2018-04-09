@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Expressies ontwerpen om methoden voor toepassingsklassen aan te roepen (ER)
@@ -34,7 +34,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "ER E
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en is gemarkeerd als actief. Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" uitvoeren.   
-    * Laten we ervan uitgaan dat u een proces ontwerpt voor het parseren van inkomende bankafschriften voor het bijwerken van toepassingsgegevens. U ontvangt de inkomende bankafschriften als TXT-bestanden die IBAN-codes bevatten. Als onderdeel van het importproces van het bankafschrift moet u de juistheid van deze IBAN-codes valideren met behulp van de logica die al beschikbaar is in Dynamics 365 for Finance and Operations, Enterprise-editie.   
+    * Laten we ervan uitgaan dat u een proces ontwerpt voor het parseren van inkomende bankafschriften voor het bijwerken van toepassingsgegevens. U ontvangt de inkomende bankafschriften als TXT-bestanden die IBAN-codes bevatten. Als onderdeel van het importproces van het bankafschrift moet u de juistheid van deze IBAN-codes valideren met behulp van de logica die al beschikbaar is in Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Een nieuwe ER-modelconfiguratie importeren
 1. Zoek en selecteer de gewenste record in de lijst.

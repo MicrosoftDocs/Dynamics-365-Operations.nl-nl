@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c579db5a922d81a2781ec2011e148db54fac288d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Met mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
+Met mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
 
 <a name="prerequisites"></a>Vereisten
 -------------

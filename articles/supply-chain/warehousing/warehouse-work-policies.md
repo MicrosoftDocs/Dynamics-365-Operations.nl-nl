@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 83e8dc76350e0d40a392e9a04ddca5b4b45d0da0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Magazijnwerkbeleid in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, bepaalt of magazijnwerk wordt aangemaakt door magazijnprocessen in productie, op basis van het werkordertype, de voorraadlocatie en het product.
+Magazijnwerkbeleid in Microsoft Dynamics 365 for Finance and Operations bepaalt of magazijnwerk wordt aangemaakt door magazijnprocessen in productie, op basis van het werkordertype, de voorraadlocatie en het product.
 
 Dit werkbeleid bepaalt of er magazijnwerk wordt gemaakt voor magazijnprocessen in productie. U kunt het werkbeleid instellen door een combinatie van **werkordertypen**, een **voorraadlocatie** en een **product** te gebruiken. Stel dat het product L0101 gereed wordt gemeld bij uitvoerlocatie 001. Het eindproduct wordt later gebruikt in een andere productieorder op uitvoerlocatie 001. In dit geval kunt u een werkbeleid instellen om te voorkomen dat het werk voor het wegzetten van het eindproduct wordt uitgevoerd wanneer u product L0101 gereedmeldt bij uitvoerlocatie 001. Het werkbeleid is een afzonderlijke entiteit die kan worden beschreven aan de hand van de volgende informatie:
 

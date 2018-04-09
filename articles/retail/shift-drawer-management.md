@@ -3,7 +3,7 @@ title: Ploegen- en kasladebeheer
 description: "In dit artikel wordt beschreven hoe u de twee typen ploegen voor detailhandelverkooppunten (POS) kunt instellen en gebruiken: gedeelde en zelfstandige. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen terwijl zelfstandige ploegen kunnen worden gebruikt door slechts één werknemer tegelijk."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e12f3f4c2f8f5a596c8994f2a4571d8a907062
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -99,7 +99,60 @@ Een gedeelde ploeg wordt gebruikt in een omgeving waarin meerdere kassamedewerke
 9.  Gebruik de bewerking **Kas controleren** om het totale bedrag aan contant geld van alle kassalades die zijn opgenomen in de gedeelde ploeg aan te geven.
 10. Gebruik de bewerking **Ploeg sluiten** om de gedeelde ploeg te sluiten.
 
+## <a name="shift-operations"></a>Bewerkingen voor ploegen
+U kunt verschillende acties ondernemen om de status van een ploegendienst te wijzigen of om het geldbedrag in de lade te verhogen of te verlagen. De onderstaande sectie beschrijft deze bewerkingen voor ploegen in Dynamics 365 for Retail Modern POS and Cloud POS.
 
+**Ploeg openen**
 
+POS vereist dat een gebruiker een actieve, open ploeg heeft voor het uitvoeren van bewerkingen die resulteren in een financiële transactie, zoals een verkoop, retour of klant.  
 
+Bij het aanmelden bij het POS wordt eerst gecontroleerd of de gebruiker een actieve ploeg heeft in de huidige kassa. Als dit niet het geval is, kan de gebruiker een nieuwe ploeg openen, een bestaande ploeg hervatten of verdergaan met aanmelden voor de modus 'niet-ladebewerkingen', afhankelijk van de configuratie van het systeem en de machtigingen.
+
+**Beginbedrag declareren**
+
+Deze bewerking is vaak de eerste actie voor een net geopende ploeg. Gebruikers geven het beginbedrag in de lade op voor de ploeg. Dit is belangrijk omdat dit bedrag wordt gebruikt bij de berekening van overschot/tekort bij het afsluiten van een ploegendienst.
+
+**Wisselgeldinvoer**
+
+Wisselgeldinvoer zijn niet-verkooptransacties die worden uitgevoerd in een actieve ploeg. Hierdoor wordt het bedrag aan contant geld in de lade verhoogd. Een algemeen voorbeeld van wisselgeldinvoer is het aanvullen van het kleingeld in de lade wanneer dit bijna op is.
+
+**Wisselgeld verwijderen**
+
+Wisselgeld verwijderen is een niet-verkooptransactie die wordt uitgevoerd in een actieve ploeg. Hierdoor wordt het bedrag aan contant geld in de lade verlaagd. Dit wordt meestal gebruikt in combinatie met wisselgeldinvoer in een andere ploegendienst. Bijvoorbeeld: als kassa 1 weinig wisselgeld heeft, kan de gebruiker op kassa 2 wisselgeld verwijderen om het ladebedrag te verlagen. De gebruiker op kassa 1 voert vervolgens een wisselgeldinvoer uit om het bedrag te verhogen.
+
+**Ploeg uitstellen**
+
+Gebruikers kunnen hun actieve ploeg opschorten om de huidige kassa vrij te maken voor een andere gebruiker, of hun dienst verplaatsen naar een andere kassa (vaak een 'zwevende kassa' genoemd). 
+
+Het opschorten van de dienst voorkomt eventuele nieuwe transacties of wijzigingen tot de dienst wordt hervat.
+
+**Ploeg hervatten**
+
+Met deze bewerking kan een gebruiker een eerder opgeschorte dienst hervatten op een kassa die nog geen actieve ploeg heeft.
+
+**Kascontrole**
+
+Kascontrole is een actie die de gebruiker uitvoert om het totale geldbedrag op te geven dat zich op dat moment in de lade bevindt, meestal voordat de dienst wordt gesloten. Deze waarde wordt vergeleken met de verwachte dienst voor het berekenen van het overschot/tekort.
+
+**Kluisstorting**
+
+Kluisstortingen kunnen op elk gewenst moment tijdens een actieve dienst worden uitgevoerd. Bij deze bewerking wordt geld uit de kassalade gehaald en overgeboekt naar een beter beveiligde locatie zoals een kluis in de achterruimte. Het totale bedrag voor de kluisstortingen wordt wel opgenomen in de diensttotalen, maar hoeft niet te worden geteld als onderdeel van de kascontrole.
+
+**Bankstorting**
+
+Net als kluisstortingen worden ook bankstortingen uitgevoerd bij actieve diensten. Bij deze bewerking wordt geld uit de dienst verwijderd ter voorbereiding van de bankstorting.
+
+**Ploeg blind sluiten**
+
+Een blind gesloten ploeg is een ploegendienst die niet langer actief is, maar niet volledig is afgesloten. Blind gesloten ploegen kunnen net als een opgeschorte dienst niet worden voortgezet, maar procedures zoals het declareren van startbedragen en kascontroles kunnen op een later tijdstip worden uitgevoerd of vanuit een andere kassa.
+
+Blind gesloten ploegen worden vaak gebruikt voor het vrijmaken van een kassa voor een nieuwe gebruiker of ploeg, zonder dat deze ploeg eerst volledig wordt geteld, afgestemd en gesloten. 
+
+**Ploeg sluiten**
+
+Door deze bewerking worden vervolgens totalen en overschotten/tekorten berekend. Vervolgens wordt de actieve of blind gesloten dienst beëindigd. Gesloten diensten kunnen niet worden hervat of gewijzigd.  
+
+**Ploegen beheren**
+
+Met deze bewerking kunnen gebruikers alle actieve, opgeschorte en blind gesloten diensten voor de winkel weergeven. Afhankelijk van hun machtigingen kunnen gebruikers hun definitieve afsluitingsprocedures uitvoeren zoals kascontrole en ploegen sluiten voor blind gesloten ploegen. Met deze bewerking kunnen gebruikers ook ongeldige ploegen weergeven en verwijderen in het zeldzame geval dat een ploeg een onjuiste status heeft na het afwisselen tussen de modi offline en online. Deze ongeldige ploegen bevatten niet alle financiële informatie of transactiegegevens die nodig zijn voor de afstemming. 
 

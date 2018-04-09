@@ -1,6 +1,6 @@
 ---
 title: Instelling, autorisatie en registratie van creditcards
-description: Dit artikel bevat een overzicht van de creditcardautorisatie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Het bevat informatie over het instellen van een betaalservice, het toevoegen van een creditcard aan een verkooporder en het ongeldig maken van een autorisatie.
+description: Dit artikel bevat een overzicht van de creditcardautorisatie in Microsoft Dynamics 365 for Finance and Operations. Het bevat informatie over het instellen van een betaalservice, het toevoegen van een creditcard aan een verkooporder en het ongeldig maken van een autorisatie.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 40d636cac477871f094286d29edc32cd5616ad44
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a6354563fdebff901498f1cd6caed3aedae668b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Dit artikel bevat een overzicht van de creditcardautorisatie in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Het bevat informatie over het instellen van een betaalservice, het toevoegen van een creditcard aan een verkooporder en het ongeldig maken van een autorisatie.
+Dit artikel bevat een overzicht van de creditcardautorisatie in Microsoft Dynamics 365 for Finance and Operations. Het bevat informatie over het instellen van een betaalservice, het toevoegen van een creditcard aan een verkooporder en het ongeldig maken van een autorisatie.
 
 <a name="setting-up-the-credit-card-payment-service"></a>De service voor betaling per creditcard instellen
 ------------------------------------------

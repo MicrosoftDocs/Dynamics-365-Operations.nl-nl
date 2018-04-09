@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 5e67be5687388d399e2f702d8070cd960cbe7939
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Met standaardorderinstellingen in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition worden de locatie en het magazijn gedefinieerd waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
+Met standaardorderinstellingen in Microsoft Dynamics 365 for Finance and Operations worden de locatie en het magazijn gedefinieerd waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
 
 U definieert de standaardinstellingen voor orders op de pagina **Standaard orderinstellingen**. U opent deze pagina als volgt: ga naar **Productgegevensbeheer** &gt; **Producten** &gt; **Vrijgegeven producten** &gt; **selecteer een vrijgegeven product** &gt; in het actievenster **Plannen** of **Voorraadbeheer** &gt; **Orderinstellingen** &gt; **Standaard orderinstellingen**.
 

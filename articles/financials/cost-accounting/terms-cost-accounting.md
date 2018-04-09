@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 957acdbbc6bba83b8b2e2b83fdf266524385141d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ Met de toewijzingsgrondslag kunnen activiteiten, zoals gebruikte machine-uren, v
 
 **Kostprijsboekhouding**
 
-Door middel van Kostprijsboekhouding kunt u gegevens uit verschillende bronnen verzamelen, zoals het grootboek, subadministraties, budgetten en statistische gegevens. U kunt dan kostengegevens analyseren, samenvatten en evalueren, zodat het management de best mogelijke beslissingen kan nemen voor prijsaanpassingen, budgetten, kostenbeheer en dergelijke. De brongegevens voor kostenanalyse worden onafhankelijk behandeld in Kostprijsboekhouding. Daarom hebben updates in Kostprijsboekhouding geen invloed op de brongegevens. Wanneer u echter kostengegevens van verschillende bronnen verzamelt, en vooral als u de hoofdrekeningen als kostenelementen importeert vanuit Grootboek in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, zijn er redundante gegevens omdat dezelfde gegevens in zowel Grootboek als Kostprijsboekhouding voorkomen. Deze redundantie is vereist, omdat u financieel beheer gebruikt voor externe rapportage en Kostprijsboekhouding voor interne rapportage.
+Door middel van Kostprijsboekhouding kunt u gegevens uit verschillende bronnen verzamelen, zoals het grootboek, subadministraties, budgetten en statistische gegevens. U kunt dan kostengegevens analyseren, samenvatten en evalueren, zodat het management de best mogelijke beslissingen kan nemen voor prijsaanpassingen, budgetten, kostenbeheer en dergelijke. De brongegevens voor kostenanalyse worden onafhankelijk behandeld in Kostprijsboekhouding. Daarom hebben updates in Kostprijsboekhouding geen invloed op de brongegevens. Wanneer u echter kostengegevens van verschillende bronnen verzamelt, en vooral als u de hoofdrekeningen importeert vanuit Grootboek in Microsoft Dynamics 365 for Finance and Operations als kostenelementen, zijn er redundante gegevens omdat dezelfde gegevens in zowel Grootboek als kostprijsboekhouding voorkomen. Deze redundantie is vereist, omdat u financieel beheer gebruikt voor externe rapportage en Kostprijsboekhouding voor interne rapportage.
 
 **Grootboek van kostprijsboekhouding**
 
@@ -120,7 +120,7 @@ Er zijn twee dimensiehiërarchieën: de categorisatiehiërarchie en de classific
 Kostprijsboekhouding ondersteunt de integratie van gegevens uit bronsystemen via een reeks gegevensconnectors. De volgende gegevensconnectors zijn beschikbaar:
 
 -  Geïmporteerde transacties (vooraf geconfigureerd)
--  Dynamics 365 for Finance and Operations, Enterprise edition (vooraf geconfigureerd)
+-  Dynamics 365 for Finance and Operations (vooraf geconfigureerd)
 -  Dynamics AX (configuratie vereist)
 
 **Opmerking:** de gegevensconnector Geïmporteerde transacties is gebaseerd op gegevensentiteiten.
@@ -129,7 +129,7 @@ Kostprijsboekhouding ondersteunt de integratie van gegevens uit bronsystemen via
 
 De meeste bronsystemen kunnen gegevens leveren die overeenkomen met een of meer gegevensbronnen in Kostprijsboekhouding. Als u gegevens uit de bronsystemen met de gegevensbron in Kostprijsboekhouding wilt uitlijnen, moet er een gegevensprovider worden geconfigureerd. In de volgende tabel wordt de beschikbaarheid van gegevensproviders per gegevensconnector en gegevensbron weergegeven.
 
-|  **Gegevensbronnen** |  **Gegevensconnector Geïmporteerde transacties** | **Gegevensconnector Dynamics 365 for Finance and Operations, Enterprise edition**  | **Gegevensconnector Dynamics AX**  |
+|  **Gegevensbronnen** |  **Gegevensconnector Geïmporteerde transacties** | **Gegevensconnector Dynamics 365 for Finance and Operations**  | **Gegevensconnector Dynamics AX**  |
 |---|---|---|---|
 | Dimensieleden van kostenelement  |  Ja | Ja  | Ja  |
 |  Dimensieleden van kostenobject |  Ja | Ja  | Ja  |

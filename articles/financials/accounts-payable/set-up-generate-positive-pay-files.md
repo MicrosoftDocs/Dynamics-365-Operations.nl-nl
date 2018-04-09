@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 9a36b3e7a8e496632ca7041018abe8176a2e4f25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Dit artikel beschrijft hoe u positieve betalingsbestanden instelt en genereert.
 U kunt positief betalen gebruiken om een electronische lijst met cheques te genereren die aan de bank wordt gegeven. Wanneer vervolgens een cheque aan de bank wordt gepresenteerd, vergelijkt de bank deze met de lijst met cheques. Als de cheque overeenkomt met wat de bank op de lijst heeft, keert de bank de cheque uit. Als de cheque niet overeenkomt met een cheque in de lijst, gaat de bank de cheque controleren.
 
 ## <a name="security-for-positive-pay-files"></a>Beveiliging voor positieve betalingsbestanden
-Positieve betalingsbestanden kunnen vertrouwelijke informatie over begunstigden bevatten en chequebedragen. Verzeker daarom dat u de juiste beveiligingsmaatregelen treft vanaf de tijd dat bestanden worden gegenereerd, totdat deze door de bank worden ontvangen. Positieve betalingsbestanden worden gedownload naar de locatie die door uw webbrowser is opgegeven. Omdat positieve betalingsbestanden vertrouwelijke informatie kunnen bevatten, is het belangrijk dat alleen de geautoriseerde gebruikers toegang hebben om deze informatie te genereren en te bekijken in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Gebruik de volgende tabel om u te helpen de bevoegdheden te bepalen die zijn vereist.
+Positieve betalingsbestanden kunnen vertrouwelijke informatie over begunstigden bevatten en chequebedragen. Verzeker daarom dat u de juiste beveiligingsmaatregelen treft vanaf de tijd dat bestanden worden gegenereerd, totdat deze door de bank worden ontvangen. Positieve betalingsbestanden worden gedownload naar de locatie die door uw webbrowser is opgegeven. Omdat positieve betalingsbestanden vertrouwelijke informatie kunnen bevatten, is het belangrijk dat alleen de geautoriseerde gebruikers toegang hebben om deze informatie in Microsoft Dynamics 365 for Finance and Operations te genereren en te bekijken. Gebruik de volgende tabel om u te helpen de bevoegdheden te bepalen die zijn vereist.
 
 <table>
 <colgroup>

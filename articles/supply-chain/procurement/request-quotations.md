@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 42ab7beb8a269cd37fd9100385bd302e4945c1e0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b86363004b8702d1a654f2a1da49bba82fc8ff2a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -46,7 +46,7 @@ U kunt een offerteaanvraag maken op basis van geplande orders, een opdracht tot 
 
 Wanneer u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** voor de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt instellingen voor afdrukbeheer instellen voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
 
-Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers biedingen rechtstreeks invoeren in Microsoft Dynamics 365 for Finance and Operations, Enterprise-editie. Zie voor meer informatie [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md).
+Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers biedingen rechtstreeks invoeren in Microsoft Dynamics 365 for Finance and Operations. Zie voor meer informatie [Leverancierssamenwerking met klanten](vendor-collaboration-work-customers-dynamics-365-operations.md).
  
 Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag na voltooiing opnieuw verzenden naar leveranciers met de twee aanpassingsacties: Maken en Voltooien.
 

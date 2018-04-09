@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-Met de externe catalogus zorgt u ervoor dat de product- en prijsinformatie die u vervolgens in Dynamics 365 for Finance and Operations, Enterprise edition, juli 2017, verwerkt, nauwkeurig en up-to-date is. De bestelopdracht kan vervolgens worden goedgekeurd en geconverteerd naar een inkooporder en een order kan bij de leverancier worden geplaatst.
+Met de externe catalogus zorgt u ervoor dat de product- en prijsinformatie die u vervolgens in Dynamics 365 for Finance and Operations (juli 2017) verwerkt, nauwkeurig en up-to-date is. De bestelopdracht kan vervolgens worden goedgekeurd en geconverteerd naar een inkooporder en een order kan bij de leverancier worden geplaatst.
 
 Wanneer de externe catalogus is ingesteld en een werknemer een bestelopdracht voorbereidt, is er een optie om door te leiden naar een externe site, de externe catalogus, en de winkelwagen te retourneren die is gemaakt op de externe site. Deze mededeling is gebaseerd op het protocol cXML en moet worden ingesteld tussen de systemen van de kopende organisatie en de verkopende organisatie.
 
@@ -85,7 +85,7 @@ Hieronder volgt een beschrijving van de codes die zijn opgenomen in de sjabloon:
 
 Een extrinsiek element is extra informatie, zoals een gebruikersnaam die is gebaseerd op een gebruiker die een punch-out uitvoert. Het extrinsieke element wordt ingesteld wanneer de punch-out plaatsvindt en kan worden verzonden in het aanvraaginstellingsbericht.
 Uw leverancier kan een vereiste hanteren voor het ontvangen van een extrinsiek element in de instellingsaanvraag. In dat geval moet u het extrinsieke element toevoegen aan de lijst met extrinsieke elementen in de sectie **Berichtindeling** van de pagina **Externe catalogus**. Geef een naam op voor het extrinsieke element dat de leverancier kan herkennen, en wijs deze toe aan een waarde. De opties voor waarden zijn: User name, User email of Random value.
-Zie voor meer informatie over het cXML-protocol de website http://cxml.org/.
+Zie http://cxml.org/ voor meer informatie over het cXML-protocol
 
 ## <a name="post-back-message"></a>Terugpostbericht
 Het terugpostbericht is het bericht dat wordt ontvangen van de leverancier wanneer de gebruiker bij de externe site uitcheckt en terugkeert naar Finance and Operations. Terugpostberichten kunnen worden niet geconfigureerd. De berichten zijn gebaseerd op de definitie van het cXML-protocol. Hier is de informatie die deel kan uitmaken van het terugpostbericht dat wordt ontvangen voor een inkoopregel:

@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ Een product wordt voornamelijk gedefinieerd door een productnummer, -naam en -be
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distributie, export en import van productgegevens
 
-U kunt de productdefinitie maken in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. U kunt hem ook importeren vanuit systemen voor productlevenscyclusbeheer (PLM), productgegevensbeheer (PDM) of productgegevensbeheer. Als u meer dan één exemplaar van Finance and Operations gebruikt, wordt één exemplaar meestal gebruikt als de master van de productgegevens voor alle andere exemplaren. Deze benadering wordt ondersteund door een groot aantal gegevensentiteiten, die het exporteren en importeren van productdefinitiegegevens van het ene exemplaar naar het andere ondersteunen.
+U kunt de productdefinitie maken in Microsoft Dynamics 365 for Finance and Operations. U kunt hem ook importeren vanuit systemen voor productlevenscyclusbeheer (PLM), productgegevensbeheer (PDM) of productgegevensbeheer. Als u meer dan één exemplaar van Finance and Operations gebruikt, wordt één exemplaar meestal gebruikt als de master van de productgegevens voor alle andere exemplaren. Deze benadering wordt ondersteund door een groot aantal gegevensentiteiten, die het exporteren en importeren van productdefinitiegegevens van het ene exemplaar naar het andere ondersteunen.
 
 Ter ondersteuning van de verdeling van productgegevens naar veel exemplaren, kunt u in Finance and Operations de Common Date Service gebruiken. De productdefinities kunnen worden geëxporteerd vanuit een exemplaar van Finance and Operations naar de Common Data Service. De productdefinities kunnen vervolgens worden gebruikt om andere zakelijke toepassingen in te richten met productgegevens, zoals Microsoft Dynamics 365 for Sales.
 

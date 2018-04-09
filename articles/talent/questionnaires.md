@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/07/2018
 
 In dit artikel vindt u algemene informatie over vragenlijsten en koppelingen naar meer gedetailleerde informatie. Een vragenlijst is een reeks vragen die wordt gebruikt voor het verzamelen van informatie voor verschillende doeleinden. U kunt vragenlijsten ontwerpen, maken, distribueren en invullen en vervolgens de resultaten analyseren. 
 
-U kunt een vragenlijst aan uw specifieke behoeften aanpassen door een combinatie van de diverse functies die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Hieronder staan enkele voorbeelden van hoe vragenlijsten kunnen worden gebruikt:
+U kunt een vragenlijst aan uw specifieke behoeften aanpassen door een combinatie van de diverse functies die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations. Hieronder staan enkele voorbeelden van hoe vragenlijsten kunnen worden gebruikt:
 
 -   De professionele kwalificaties van werknemers en sollicitanten te testen;
 -   Evalueren of de cursusdeelnemers het cursusmateriaal hebben geleerd.

@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1335d95c8bf02d5c571d37d78eca0ee7eae32bad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ De EPC, die bestaat uit Europese banken, ontwikkelt commerciële en technische r
 Een SEPA-kredietoverdracht is een betaling van een persoon of bedrijf aan een andere persoon of bedrijf. De betalingen moeten in euro's zijn en moeten het Internationale Bankrekeningnummer (IBAN) en de BIC (Bank Identifier Code) voor beide partijen bevatten De BIC wordt ook wel SWIFT-code genoemd \[Society for Worldwide Interbank Financial Telecommunication SWIFT\]. Bovendien moeten transactiekosten worden gedeeld door de beide partijen. Voor kredietoverdrachten tussen partijen moeten XML-bestanden worden gebruikt die voldoen aan de ISO 20022 betalingsverwerkingsstandaarden en de XML-indeling voldoen, zoals opgegeven door de EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Hoe wordt een kredietoverdracht uitgevoerd?
-De kredietoverdrachtbetalingsindeling voor Europese landen wordt geïmplementeerd door middel van de functionaliteit voor Elektronische Rapportage en Betalingsmethoden in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Enkele kredietoverdrachtindelingen die in andere regio's worden gebruikt, gebruiken nog het oude framework voor betalingen. Er zijn vele andere indelingen beschikbaar, waaronder twaalf ISO 20022-bestandsindelingen voor kredietoverdracht. Deze exportindelingen voldoen aan de XML-standaard ISO 20022 voor SEPA. Zij zijn bedoeld om betalingsoverschrijvingen in andere valuta dan euro te genereren, voor de landen/regio's waar ze worden gebruikt, en betalingen in euro zoals opgegeven in versie 8.2 van het SEPA Credit Transfer Scheme Rulebook dat de EPC uitgeeft. Voordat u kredietoverdrachten kunt uitvoeren, moet u contact opnemen met uw bank om software te krijgen die vereist is voor het uploaden van bestanden voor elektronisch bankieren. U kunt die software gebruiken om de XML-bestanden met betalingsopdrachten naar uw bank over te zetten.
+De kredietoverdrachtbetalingsindeling voor Europese landen wordt geïmplementeerd door middel van de functionaliteit voor Elektronische Rapportage en Betalingsmethoden in Microsoft Dynamics 365 for Finance and Operations. Enkele kredietoverdrachtindelingen die in andere regio's worden gebruikt, gebruiken nog het oude framework voor betalingen. Er zijn vele andere indelingen beschikbaar, waaronder twaalf ISO 20022-bestandsindelingen voor kredietoverdracht. Deze exportindelingen voldoen aan de XML-standaard ISO 20022 voor SEPA. Zij zijn bedoeld om betalingsoverschrijvingen in andere valuta dan euro te genereren, voor de landen/regio's waar ze worden gebruikt, en betalingen in euro zoals opgegeven in versie 8.2 van het SEPA Credit Transfer Scheme Rulebook dat de EPC uitgeeft. Voordat u kredietoverdrachten kunt uitvoeren, moet u contact opnemen met uw bank om software te krijgen die vereist is voor het uploaden van bestanden voor elektronisch bankieren. U kunt die software gebruiken om de XML-bestanden met betalingsopdrachten naar uw bank over te zetten.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Welke indelingen voor kredietoverdracht worden momenteel in Finance and Operations ondersteund?
 U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In de volgende sectie, 'Wat moet ik instellen?' vindt u een koppeling naar het onderwerp met informatie over het maken van een LCS-opslagplaats voor het controleren van de beschikbare configuraties en het importeren van geselecteerde configuraties.

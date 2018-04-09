@@ -1,6 +1,6 @@
 ---
 title: Startpagina Organisatiebeheer
-description: Dit onderwerp verwijst naar resources die u helpen om Microsoft Dynamics 365 for Finance and Operations, Enterprise edition te gebruiken in uw organisatie.
+description: Dit onderwerp verwijst naar resources die u helpen om Microsoft Dynamics 365 for Finance and Operations te gebruiken in uw organisatie.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Dit onderwerp verwijst naar inhoud die hoofdgebruikers en beheerders helpt om Microsoft Dynamics 365 for Finance and Operations, Enterprise edition te configureren. Op basis van deze inhoud kunnen ze het systeem configureren om vloeiend en effectief te werken voor uw organisatie en zakelijke activiteiten.
+Dit onderwerp verwijst naar inhoud die hoofdgebruikers en beheerders helpt om Microsoft Dynamics 365 for Finance and Operations te configureren. Op basis van deze inhoud kunnen ze het systeem configureren om vloeiend en effectief te werken voor uw organisatie en zakelijke activiteiten.
 
 Veel van de hier vermelde informatie is van toepassing op functies in de module **Organisatiebeheer**. Er zijn echter enkele taken, zoals het maken en gebruiken van een recordsjabloon, die in elke module kunnen worden uitgevoerd om uw organisatie efficiënter te laten werken. 
 

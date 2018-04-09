@@ -1,6 +1,6 @@
 ---
 title: Prospect naar contant geld
-description: Dit onderwerp biedt een overzicht van de oplossing Prospect naar contant geld tussen Microsoft Dynamics 365 for Finance and Operations, Enterprise edition en Microsoft Dynamics 365 for Sales.
+description: Dit onderwerp biedt een overzicht van de oplossing Prospect naar contant geld tussen Microsoft Dynamics 365 for Finance and Operations en Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 02/08/2018
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
-ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 025be8b44726194e6fc219816c40d2a15a7349df
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-De oplossing Prospect naar contant geld biedt directe synchronisatie tussen Dynamics 365 for Finance and Operations, Enterprise-editie en Dynamics 365 for Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens voor rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. Terwijl de gegevens tussen Finance and Operations en Sales worden verplaatst, kunt u verkoop- en marketingactiviteiten uitvoeren in Sales en de orderafhandeling verwerken met voorraadbeheer in Finance and Operations. 
+De oplossing Prospect naar contant geld biedt directe synchronisatie tussen Dynamics 365 for Finance and Operations en Dynamics 365 for Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens voor rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. Terwijl de gegevens tussen Finance and Operations en Sales worden verplaatst, kunt u verkoop- en marketingactiviteiten uitvoeren in Sales en de orderafhandeling verwerken met voorraadbeheer in Finance and Operations. 
 
 Bekijk de korte YouTube-video voor meer informatie over de integratie van Prospect met contant geld:
 

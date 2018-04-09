@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 In dit artikel wordt het concept van projectoffertes geïntroduceerd. Hiermee kunt u een klant met een aantrekkelijk aanbod benaderen als eerste stap in de projectfase. Een projectofferte kan de artikelen en diensten waarvoor de offerte geldt, basiscontactgegevens, speciale handelsovereenkomsten en kortingen, en mogelijke belastingen en toeslagen bevatten. 
 
-De mogelijkheid om de pijplijn met projectoffertes en orders te bewaken, te controleren en aan te sturen vormt een belangrijk onderdeel van projectbeheer. Verscheidene functies in Microsoft Dynamics 365 for Finance and Operations (Enterprise Edition) kunnen u helpen met deze taken. Met behulp van de juiste referentiegegevensdefinities (offertetypen, oorsprong van de offerte, en prognose en waarschijnlijkheid) bent u bijvoorbeeld beter in staat om de pijplijn te analyseren. Met deze functies kunt u de redenen classificeren waarom een offerte is gewonnen of verloren en de mogelijke waarde van een offerte bepalen. 
+De mogelijkheid om de pijplijn met projectoffertes en orders te bewaken, te controleren en aan te sturen vormt een belangrijk onderdeel van projectbeheer. Verscheidene functies in Microsoft Dynamics 365 for Finance and Operations kunnen u helpen met deze taken. Met behulp van de juiste referentiegegevensdefinities (offertetypen, oorsprong van de offerte, en prognose en waarschijnlijkheid) bent u bijvoorbeeld beter in staat om de pijplijn te analyseren. Met deze functies kunt u de redenen classificeren waarom een offerte is gewonnen of verloren en de mogelijke waarde van een offerte bepalen. 
 
 U voert in een projectofferte de diensten, de basiscontactinformatie, de speciale handelsovereenkomsten en de kortingen, en belastingen en toeslagen in die u voor een project hebt geraamd. U kunt tevens de activiteiten of taken voor een project selecteren en een hiërarchie van taken en subtaken maken. U kunt voor elke activiteit gedetailleerde informatie invoeren of de timing en duur van de activiteit en de vaardigheden en ervaring die zijn vereist voor werknemers die de activiteit uitvoeren. 
 

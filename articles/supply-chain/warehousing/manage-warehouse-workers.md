@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 97f70bf2f122ee06900a1a9b930d29aab5ce4b25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
+In dit artikel wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 
 Als u de functionaliteit in Magazijnbeheer gebruikt, wordt naar alle bewerkingen van magazijnwerknemers verwezen als *werk*. Werk zoals het orderverzamelen, verplaatsen en tellen van voorhanden voorraad wort geregistreerd door mobiele apparaten te gebruiken. Voordat een magazijnwerknemer werk kan uitvoeren, moet hij of zij aan een werknemer in Human resources worden gekoppeld. Aan elk **Werknemer**-account kunnen meerdere magazijnwerkgebruikers zijn gekoppeld. Deze werkgebruikers kunnen in verschillende magazijnen werken en kunnen verschillende niveaus van toegang tot de verschillende menu's voor mobiele apparaten hebben. U kunt de gebruikers van het magazijnwerk zien als meerdere aanmeldingen voor de geselecteerde werknemer. Elke werkgebruiker heeft een standaardmagazijn en de specifieke workflows worden beschikbaar gemaakt door de menuopties die voor die werkgebruiker beschikbaar zijn. 
 

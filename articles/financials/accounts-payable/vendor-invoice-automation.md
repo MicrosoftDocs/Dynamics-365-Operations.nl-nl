@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="vendor-invoice-automation"></a>Automatisering van leveranciersfacturen
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 In dit onderwerp worden de functies beschreven die beschikbaar zijn voor end-to-end automatisering van leveranciersfacturen, zelfs facturen die bijlagen bevatten.
 
-Organisaties die hun crediteurprocessen willen stroomlijnen, wijzen het verwerken van facturen vaak aan als een van de belangrijke procesgebieden die efficiënter moeten worden gemaakt. In veel gevallen brengen deze organisaties de verwerking van papieren facturen onder bij met een externe OCR-provider (Optical Character Recognition). Ze ontvangen vervolgens machineleesbare factuurmetagegevens, samen met een gescande afbeelding van elke factuur. Ter ondersteuning van de automatisering wordt dan een oplossing voor het laatste stukje samengesteld, zodat deze artefacten in het factureringssysteem kunnen worden verwerkt Met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, is dit laatste stukje automatisering nu standaard beschikbaar door middel van een oplossing voor automatische factuurverwerking.
+Organisaties die hun crediteurprocessen willen stroomlijnen, wijzen het verwerken van facturen vaak aan als een van de belangrijke procesgebieden die efficiënter moeten worden gemaakt. In veel gevallen brengen deze organisaties de verwerking van papieren facturen onder bij met een externe OCR-provider (Optical Character Recognition). Ze ontvangen vervolgens machineleesbare factuurmetagegevens, samen met een gescande afbeelding van elke factuur. Ter ondersteuning van de automatisering wordt dan een oplossing voor het laatste stukje samengesteld, zodat deze artefacten in het factureringssysteem kunnen worden verwerkt Met Microsoft Dynamics 365 for Finance and Operations is dit laatste stukje automatisering nu standaard beschikbaar door middel van een oplossing voor automatische factuurverwerking.
 
 ## <a name="solution-context"></a>Context van de oplossing
 

@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 70e0249ccf317a5a59afd97899187ee58409de22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13a7a842e7b4522b508a34fdf86bb3bf58a0845f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Positieve betalingsbestanden worden gemaakt door gegevensentiteiten te gebruiken
 
 Wijs voor elke bankrekening waarvoor u positieve betalingsinformatie wilt genereren, de positieve betalingsindeling toe. Nadat u betalingen genereert, kunt u een positief betalingsbestand genereren voor slechts één rechtspersoon en één bankrekening. U kunt ook positieve betalingsbestanden genereren voor meerdere rechtspersonen en bankrekeningen tegelijk. 
 
-Nadat de cheques betaald zijn die in een positive pay-bestand staan geregistreerd, ontvangt u een bevestigingsnummer van uw bank. U kunt het positieve betalingsbestand dan bevestigen in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Nadat de cheques betaald zijn die in een positive pay-bestand staan geregistreerd, ontvangt u een bevestigingsnummer van uw bank. U kunt het positieve betalingsbestand dan bevestigen in Microsoft Dynamics 365 for Finance and Operations. 
 
 Als u een positief betalingsbestand moet wijzigen, kunt u het intrekken. Vervolgens wordt voor elke cheque in het positieve betalingsbestand het veld dat aangeeft of die cheque is opgenomen in een positief betalingsbestand opnieuw ingesteld.
 

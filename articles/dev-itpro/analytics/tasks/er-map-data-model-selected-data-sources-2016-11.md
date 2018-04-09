@@ -1,6 +1,6 @@
 --- 
 title: Een gegevensmodel toewijzen aan geselecteerde gegevensbronnen voor elektronische aangifte (ER)
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan toewijzen aan geselecteerde Dynamics 365 for Finance and Operations, Enterprise edition-gegevensbronnen.
+description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan toewijzen aan geselecteerde Dynamics 365 for Finance and Operations, Enterprise edition-gegevensbronnen (November 2016).
 author: NickSelin
 manager: AnnBe
 ms.date: 01/16/2017
@@ -16,17 +16,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>Een gegevensmodel toewijzen aan geselecteerde gegevensbronnen voor elektronische aangifte (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan toewijzen aan geselecteerde Dynamics 365 for Finance and Operations, Enterprise edition-gegevensbronnen. Deze modeltoewijzing wordt later gebruikt als gegevensbron in een indelingsconfiguratie die wordt gebruikt om elektronische betalingadocumenten te beheren. In dit voorbeeld wijst u een gegevensmodel voor voorbeeldbedrijf Litware, Inc. aan gegevensbronnen toe. U kunt deze stappen pas uitvoeren nadat u de stappen in de procedure "Gegevensbronnen voor modeltoewijzing selecteren" hebt voltooid.
+In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan toewijzen aan geselecteerde Dynamics 365 for Finance and Operations-gegevensbronnen. Deze modeltoewijzing wordt later gebruikt als gegevensbron in een indelingsconfiguratie die wordt gebruikt om elektronische betalingadocumenten te beheren. In dit voorbeeld wijst u een gegevensmodel voor voorbeeldbedrijf Litware, Inc. aan gegevensbronnen toe. U kunt deze stappen pas uitvoeren nadat u de stappen in de procedure "Gegevensbronnen voor modeltoewijzing selecteren" hebt voltooid.
 
 
 ## <a name="open-er-configurations-tree"></a>ER-configuratiestructuur openen

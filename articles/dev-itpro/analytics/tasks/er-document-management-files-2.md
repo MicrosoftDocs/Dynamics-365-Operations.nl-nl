@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f3d494cc83b273eef071b23d0948b283ba85c17e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ebbd442c9f69290dc995c05462ca70b554f7d9f2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="extend-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Gegevensmodel uitbreiden voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte (ER)
@@ -57,7 +57,7 @@ Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Opera
 17. Selecteer "String" in het veld Artikeltype.
 18. Klik op Toevoegen.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Nieuwe gegevensmodelelementen toewijzen aan gegevensbronnen van Dynamics 365 for Finance and Operations, Enterprise edition
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>Nieuwe gegevensmodelelementen toewijzen aan gegevensbronnen van Dynamics 365 for Finance and Operations
 1. Klik op Model toewijzen aan gegevensbron.
 2. Gebruik het snelfilter om op het veld Definitie te filteren met de waarde InvoiceCustomer.
     * InvoiceCustomer  

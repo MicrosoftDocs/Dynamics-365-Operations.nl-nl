@@ -1,6 +1,6 @@
 ---
 title: Het importproces voor geavanceerde bankafstemming instellen
-description: Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In dit artikel wordt uitgelegd hoe u de importfunctionaliteit voor uw bankafschriften kunt instellen.
+description: Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations. In dit artikel wordt uitgelegd hoe u de importfunctionaliteit voor uw bankafschriften kunt instellen.
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. In dit artikel wordt uitgelegd hoe u de importfunctionaliteit voor uw bankafschriften kunt instellen. 
+Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations. In dit artikel wordt uitgelegd hoe u de importfunctionaliteit voor uw bankafschriften kunt instellen. 
 
 De instelling voor de importeren van bankafschriften varieert, afhankelijk van de indeling van uw elektronische bankafschrift. Finance and Operations ondersteunt standaard drie indelingen voor bankafschriften: ISO20022, MT940 en BAI2.
 

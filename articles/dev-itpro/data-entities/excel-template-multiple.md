@@ -1,6 +1,6 @@
 ---
 title: Gegevens importeren vanuit Excel-sjablonen voor gegevensentiteiten met meerdere werkbladen
-description: In dit onderwerp wordt beschreven hoe u gegevens met Excel-sjablonen voor gegevensentiteiten importeert in Microsoft Dynamics 365 for Finance and Operations, Enterprise-editie.
+description: In dit onderwerp wordt beschreven hoe u gegevens met Excel-sjablonen voor gegevensentiteiten importeert in Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-Gegevensbeheer in Microsoft Dynamics 365 for Finance and Operations, Enterprise-editie ondersteunt Microsoft Excel-sjablonen voor gegevensentiteiten. Deze sjablonen kunnen een of meer werkbladen bevatten. Sjablonen met meerdere werkbladen worden vaak gebruikt wanneer het handig is om gegevens in één bestand te beheren en in verschillende gegevensentiteiten te importeren. Een voorbeeld hiervan zijn locaties en magazijnen.
+Gegevensbeheer in Microsoft Dynamics 365 for Finance and Operations ondersteunt Microsoft Excel-sjablonen voor gegevensentiteiten. Deze sjablonen kunnen een of meer werkbladen bevatten. Sjablonen met meerdere werkbladen worden vaak gebruikt wanneer het handig is om gegevens in één bestand te beheren en in verschillende gegevensentiteiten te importeren. Een voorbeeld hiervan zijn locaties en magazijnen.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Een bestand eenmaal uploaden en toewijzen aan alle entiteiten
 We bekijken hier het voorbeeld van een Excel-bestand met de werkbladen **Locaties** en **Magazijnen**. Om het gegevensimportproject in te stellen, moet u de eerste gegevensentiteit **Locaties** toevoegen en het bestand vervolgens uploaden. U kunt **Locaties** als het werkblad voor deze entiteit selecteren.

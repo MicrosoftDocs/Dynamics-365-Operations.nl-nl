@@ -1,6 +1,6 @@
 ---
 title: Budgetteringsoverzicht
-description: "Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 for Finance and Operations, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation, Enterprise Edition te kunnen maken of budgetten te kunnen laden vanuit een programma van derden."
+description: "Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 for Finance and Operations, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8e8b3a7e801e98929c4ba1b9fefe341abd91dbd4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Er zijn meerdere methoden om budgetjournaalposten te maken in Finance and Opera
 
 -   Voer handmatig de documentinformatie in op de pagina **Budgetregisterposten**.
 -   Gebruik de Microsoft Excel-sjabloon die u kunt openen door op de knop **Openen in Excel** te klikken op de pagina **Budgetregisterposten**.
--   Gebruik de gegevensentiteit **Budgetjournaalregels** in gegevensentiteit om budgetregisterregels te importeren. U kunt overwegen deze methode te gebruiken en de parameter **Op sets gebaseerde verwerking** in te schakelen wanneer u veel budgetjournaalposten in het systeem moet importeren.
+-   Gebruik de gegevensentiteit **Budgetjournaalregels** in gegevensentiteit om budgetregisterregels te importeren. U kunt overwegen deze methode te gebruiken en de parameter **Op sets gebaseerde** **verwerking** in te schakelen wanneer u veel budgetjournaalposten in het systeem moet importeren.
 -   Als het bedrijf de budgetplanningsfunctionaliteit gebruikt om budgetgegevens voor te bereiden, kunt u het periodieke proces **Budgetregisterpost genereren** gebruiken.
 
 De budgetjournaalpost wordt beschouwd als voltooid wanneer de budgetsaldi zijn bijgewerkt. Op de pagina **Budgetjournaalposten** klikt u op **Budgetsaldi bijwerken** voor een geselecteerde budgetjournaalpost of meerdere posten. Nadat u de budgetsaldi hebt bijgewerkt, verandert de status van de budgetregisterregel in. **Voltooid** Ingevulde budgetregisterregel kan niet worden heropend voor bewerkingen. Daarom moet u, als de budgetgegevens moeten worden gecorrigeerd, een nieuwe budgetjournaalregel maken in plaats van gegevens in de ingevulde budgetregisterpost te corrigeren.

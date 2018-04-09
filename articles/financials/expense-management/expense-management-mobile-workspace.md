@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -42,11 +42,11 @@ Veel organisaties vereisen dat een kopie van een ontvangstbewijs aan een reisger
 
 Gebruikers kunnen met het mobiele werkgebied **Onkostenbeheer** de volgende taken uitvoeren:
 
-- Een foto maken van een ontvangstbewijs en deze uploaden naar Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. U kunt vervolgens deze foto later aan een onkostennota koppelen.
+- Een foto maken van een ontvangstbewijs en deze uploaden naar Microsoft Dynamics 365 for Finance and Operations. U kunt vervolgens deze foto later aan een onkostennota koppelen.
 - Een bestand uploaden als een vastgelegd ontvangstbewijs. U kunt vervolgens dat bestand later aan een onkostennota koppelen.
 - Een nieuwe onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs. U kunt vervolgens later het regelartikel toevoegen aan een onkostennota en deze indienen voor goedkeuring en terugbetaling.
 
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, kunt u ook deze functies gebruiken:
+Als u werkt met Microsoft Dynamics 365 for Finance and Operations, kunt u ook deze functies gebruiken:
 
 - Een nieuwe onkostennota maken.
 - Creditcardtransacties en overige eerder gemaakte kosten koppelen aan een onkostennota.
@@ -60,8 +60,8 @@ Als u werkt met Microsoft Dynamics 365 for Finance and Operations, Enterprise ed
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations, Enterprise edition gebruikt 
-Als Microsoft Dynamics 365 for Finance and Operations, Enterprise edition is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Onkostenbeheer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Vereisten als u Microsoft Dynamics 365 for Finance and Operations gebruikt 
+Als Microsoft Dynamics 365 for Finance and Operations is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Onkostenbeheer** publiceren. Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Vereisten als u Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger gebruikt.
 Als Microsoft Dynamics 365 for Operations, versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder aan de volgende vereisten voldoen. 

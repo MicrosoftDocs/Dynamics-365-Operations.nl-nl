@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 274a5e696bfde4f5e27bc186fadbab69f5fc655d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ Gebruik de pagina **Financiële dimensies** om financiële dimensies te maken di
 
 Nadat u de financiële dimensies hebt gemaakt, gebruikt u de pagina **Waarden van financiële dimensie** om aanvullende eigenschappen toe te wijzen aan elke financiële dimensie. 
 
-U kunt financiële dimensies gebruiken om rechtspersonen te vertegenwoordigen. U hoeft de rechtspersonen niet te maken in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Financiële dimensies zijn echter niet bedoeld om te voldoen aan operationele of zakelijke behoeften van rechtspersonen. De boekhouding tussen eenheden-functie in Finance and Operations is ontworpen om alleen met de boekhoudkundige vermeldingen te werken die door de transactie worden gemaakt. 
+U kunt financiële dimensies gebruiken om rechtspersonen te vertegenwoordigen. U hoeft de rechtspersonen niet te maken in Microsoft Dynamics 365 for Finance and Operations. Financiële dimensies zijn echter niet bedoeld om te voldoen aan operationele of zakelijke behoeften van rechtspersonen. De boekhouding tussen eenheden-functie in Finance and Operations is ontworpen om alleen met de boekhoudkundige vermeldingen te werken die door de transactie worden gemaakt. 
 
 Voordat u de financiële dimensies instelt als rechtspersonen, moet u uw bedrijfsprocessen evalueren in de volgende gebieden om te bepalen of deze instelling zal werken voor uw organisatie:
 

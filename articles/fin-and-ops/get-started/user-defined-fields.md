@@ -3,7 +3,7 @@ title: Aangepaste velden
 description: In dit onderwerp wordt beschreven hoe Microsoft Dynamics 365 for Finance and Operations sommige gebruikers toestaat aangepaste velden te maken om de toepassing aan te passen aan hun bedrijf.
 author: jasongre
 manager: AnnBe
-ms.date: 01/19/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -14,13 +14,13 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2017-12-31
+ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
-ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
+ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
+ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,9 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/pre-release.md)] 
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition biedt een uitgebreide reeks kant-en-klare velden voor het beheren van een breed scala van bedrijfsprocessen, maar soms is er behoefte in een bedrijf om aanvullende informatie bij te houden in het systeem. Voor deze behoefte kunt u met Finance and Operations aangepaste velden maken om de toepassing aan te passen aan uw bedrijf, als u machtigingen hebt voor de functie.
+Microsoft Dynamics 365 for Finance and Operations biedt een uitgebreide reeks kant-en-klare velden voor het beheren van een breed scala van bedrijfsprocessen, maar soms is er behoefte in een bedrijf om aanvullende informatie bij te houden in het systeem. Voor deze behoefte kunt u met Finance and Operations aangepaste velden maken om de toepassing aan te passen aan uw bedrijf, als u machtigingen hebt voor de functie. 
+
+De mogelijkheid om aangepaste velden toe te voegen, is beschikbaar in platformupdate 13 en hoger.
 
 In deze video wordt getoond hoe gemakkelijk het is een aangepast veld toe te voegen aan een pagina.
 

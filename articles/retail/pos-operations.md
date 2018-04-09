@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 - **Knoppenraster**: de bewerking kan worden toegewezen aan knoppen in POS-knoppenrasters, die deel uitmaken van een POS-schermindeling.
 - **Transactiescherm**: de bewerking kan worden aangeroepen via POS-knoppenrasters die zijn geconfigureerd in het POS-transactiescherm.
 - **Welkomstscherm**: de bewerking kan worden aangeroepen via POS-knoppenrasters die zijn geconfigureerd in het POS-welkomstscherm.
+
+Opmerking: de onderstaande bewerkingen zijn van toepassing op de meest recente versie van Dynamics 365 for Retail. Sommige bewerkingen zijn mogelijk gewijzigd of mogelijk niet beschikbaar in eerdere versies.
 
 | ID | Bewerking | Omschrijving | Knoppenraster | Transactiescherm | Welkomstscherm | Offline beschikbaar | Landspecifiek |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 703 | Kassa vergrendelen | De huidige kassa vergrendelen zodat deze niet kan worden gebruikt, maar de huidige gebruiker niet afmelden. | Nee | Nee | Nee | Ja | Nee |
 | 701 | Afmelden | De huidige gebruiker afmelden bij de kassa. | Ja | Ja | Ja | Ja | Nee |
 | 521 | Balans van loyaliteitskaartpunten | De balans van punten voor de opgegeven loyaliteitskaart weergeven. | Ja | Ja | Nee | Nee | Nee |
+| 918 | Ploegen beheren | Een lijst weergeven met actieve, uitgestelde en blind gesloten ploegen. | Ja | Ja | Ja | Nee | Nee |
 | 914 | POS-venster minimaliseren | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 1000 | Lade openen | Een niet-verkoopbewerking uitvoeren en de momenteel geselecteerde kassalade openen. | Ja | Ja | Ja | Ja | Nee |
 | 928 | Orderafhandeling | Met deze bewerking kunnen gebruikers orders voor afhalen in de winkel verzamelen, verpakken, verzenden of intrekken. | Ja | Ja | Ja | Nee | Nee |
@@ -162,7 +165,6 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 638 | Verkoopvertegenwoordiger instellen op regel | Met deze bewerking kan de gebruiker een van de in aanmerking komende provisieverkoopgroepen (vertegenwoordigers) selecteren voor de momenteel geselecteerde regel. | Ja | Ja | Nee | Ja | Nee |
 | 630 | Alle producten verzenden | De afhandelingsmodus instellen op **Verzenden** voor alle regelartikelen. | Ja | Ja | Nee | Ja\* | Nee |
 | 629 | Geselecteerde producten verzenden | De afhandelingsmodus voor de geselecteerde regels instellen op **Verzenden**. | Ja | Ja | Nee | Ja\* | Nee |
-| 918 | Blind gesloten ploegen weergeven | Een lijst weergeven met de ploegen die blind zijn gesloten. | Ja | Ja | Ja | Nee | Nee |
 | 115 | Journaal weergeven | Het journaal van de winkel weergeven. U kunt transacties weergeven, ontvangstbewijzen en giftontvangsten opnieuw afdrukken en terugroepen voor retour. | Ja | Ja | Ja | Ja\*\* | Nee |
 | 802 | Voorraadtelling | Met deze bewerking kan de gebruiker voorraadtellingsjournalen maken of wijzigen voor fysieke voorraad of cyclustellingen. | Ja | Ja | Ja | Nee | Nee |
 | 401 | Submenu | Met deze bewerking gaat de gebruiker naar een ander gekoppeld knoppenraster. | Ja | Ja | Ja | Ja | Nee |

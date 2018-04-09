@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ Uw rechstpersoon, rechtspersoon A, verkoopt widgets aan een andere rechtspersoon
 Al deze transacties resulteren in intercompany-transacties die worden geboekt naar rekeningen voor betalen aan en betalen van. Bovendien bevatten deze transacties mogelijk prijsverhogings- en prijsverlagingsbedragen wanneer het bedrag van de intercompanyverkoop niet overeenkomt met de kosten van de verkochte goederen.
 
 ## <a name="set-up-elimination-rules"></a>Schrappingregels instellen
-Wanneer u schrappingsregels in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition instelt, wordt u aangeraden een financiële dimensie te maken die speciaal geldt voor schrappingsdoeleinden. De meeste klanten noemen dit Handelspartner of iets dergelijks. Als u besluit geen financiële dimensie te gebruiken, moet u ervoor zorgen dat u hoofdrekeningen hebt die specifiek en uitsluitend voor intercompany-transacties gelden. 
+Wanneer u schrappingsregels in Microsoft Dynamics 365 for Finance and Operations instelt, wordt u aangeraden een financiële dimensie te maken die speciaal geldt voor schrappingsdoeleinden. De meeste klanten noemen dit Handelspartner of iets dergelijks. Als u besluit geen financiële dimensie te gebruiken, moet u ervoor zorgen dat u hoofdrekeningen hebt die specifiek en uitsluitend voor intercompany-transacties gelden. 
 
 De instellingen voor schrappingen vindt u in het gedeelte Instellen van de module Consolidaties. Nadat u een omschrijving voor de regel hebt ingevoerd, moet u het bedrijf selecteren waarnaar het schrappingsjournaal wordt geboekt. Dit moet een bedrijf zijn waarvoor **Gebruiken voor proces voor financiële schrapping** is ingeschakeld in de instellingen van de rechtspersoon. 
 

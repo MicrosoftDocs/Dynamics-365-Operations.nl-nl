@@ -1,6 +1,6 @@
 ---
 title: Rekeningen in Sales direct synchroniseren naar klanten in Finance and Operations
-description: In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het synchroniseren van rekeningen van Microsoft Dynamics 365 for Sales naar Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+description: In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het synchroniseren van accounts vanuit Microsoft Dynamics 365 for Sales naar Microsoft Dynamics 365 for Finance and Operations .
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -20,21 +20,21 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 5dede6024dcd7837dd4e94ecca2ccd059b11b5b9
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fb694db32638756328623c186594cf5ba2e7d6b8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Rekeningen in Sales direct synchroniseren naar klanten in Finance and Operations
+# <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE]
 > Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Dynamics 365 Gegevensintegratie](/common-data-service/entity-reference/dynamics-365-integration).
 
-In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het direct synchroniseren van rekeningen vanuit Microsoft Dynamics 365 for Sales naar Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het rechtstreeks synchroniseren van accounts vanuit Microsoft Dynamics 365 for Sales naar Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
 

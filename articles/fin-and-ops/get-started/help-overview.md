@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren. 
 
 > [!NOTE] 
-> De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
+> De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
 Het Help-systeem wordt gedeeld door de volgende producten:
-- Dynamics 365 for Finance and Operations, Enterprise Edition
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -108,9 +108,9 @@ Voer aan de rechterkant een e-mailadres en een nieuw wachtwoord in om een accoun
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Een wijziging voorstellen of inhoud bijdragen via GitHub
 Als u een wijziging wilt voorstellen, moet u een GitHub-account hebben en een licentieovereenkomst voor bijdragers ondertekenen.  Wanneer u een wijzigingsaanvraag indient, beoordelen wij uw voorgestelde wijzigingen. Indien nodig bespreken we deze intern en komen we er vervolgens op terug met u.  
 
-U begint door te klikken op de knop **Bewerken** (potlood) voor een onderwerp, maar u kunt ook naar onze opslagplaats op https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public gaan. 
+Om te beginnen, klikt u op de knop **Bewerken** (potlood) of gaat u naar onze opslagplaats op https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
 
-Raadpleeg voor meer informatie onze handleiding voor bijdragers op https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+Raadpleeg voor meer informatie onze handleiding voor bijdragers: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 
 
 > [!NOTE]
