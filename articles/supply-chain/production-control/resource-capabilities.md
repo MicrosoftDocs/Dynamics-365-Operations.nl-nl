@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resource-capabilities"></a>Bronmogelijkheden
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over resourcemogelijkheden. Een capaciteit (mogelijkheid) is het vermogen van een bron voor bedrijfsactiviteiten om een bepaalde activiteit uit te voeren. In het artikel wordt beschreven hoe mogelijkheden en gerelateerde concepten, zoals vaardigheidsniveau en prioriteit, worden gebruikt om de juiste resources voor een activiteit te selecteren.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Afbeeldingen instellen en beheren voor Retail Modern POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel worden de stappen uitgelegd voor het instellen en beheren van afbeeldingen voor verschillende entiteiten die in Retail Modern POS (MPOS) worden weergegeven.
 
@@ -141,7 +140,7 @@ De productafbeeldingen die in offlinemodus moeten worden gebruikt, kunnen worden
 6.  Terwijl MPOS in modus Online is, moet de Catalogustaak in HQ uitvoeren om ervoor te zorgen dat de gegevens ten minste eenmaal aan de offlinedatabase worden verzonden.
 7.  Zet MPOS in offlinemodus. U moet de afbeelding zien die u hebt geüpload voor het specifieke product in HQ. [![offline1](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Catalogus, categorie, werknemer, en klantafbeeldingen instellen die in de offlinemodus van MPOS worden weergegeven
 

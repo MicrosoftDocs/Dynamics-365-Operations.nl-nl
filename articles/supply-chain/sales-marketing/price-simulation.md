@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-simulation"></a>Prijssimulatie
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over prijssimulatie voor offertes. Met prijssimulaties kunt u het effect van inhoudingen op de toekomstige verkoopprijs tijdens het offerteproces evalueren voordat u zich vastlegt op een bepaalde prijs.
 

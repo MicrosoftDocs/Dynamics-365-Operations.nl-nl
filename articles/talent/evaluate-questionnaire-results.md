@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>De resultaten van een vragenlijst bekijken en evalueren
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen. 
 

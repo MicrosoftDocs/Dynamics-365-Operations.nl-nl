@@ -28,9 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Prognosepositie
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 De onkosten die aan werknemers zijn gerelateerd vormen vaak een grote deel van de kosten van een organisatie. Positie voorspellen laat u die onkosten plannen en deze opnemen in de planning van budgetten.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-on-hand-mobile-workspace"></a>Mobiel werkgebied voorhanden voorraad
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Voorhanden voorraad**. Met dit mobiele werkgebied kunt u altijd en overal inzichten verkrijgen in gereserveerde en beschikbare voorraad.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Batchvrijgave van gedeeltelijk gereserveerde transferorders
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met de functionaliteit voor batchvrijgave van gedeeltelijk gereserveerde transferorders kunt u transferorders met een batchtaak gedeeltelijk vrijgeven aan een magazijn.
 Omdat u een gedeeltelijke hoeveelheid kunt vrijgeven, hoeft u niet te wachten tot de hele orderhoeveelheid in het magazijn beschikbaar is voordat u een order vrijgeeft.

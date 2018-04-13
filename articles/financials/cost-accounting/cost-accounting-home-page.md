@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Startpagina Kostprijsboekhouding
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Leertraject 
 
@@ -37,6 +37,7 @@ Het volgende leertraject toont de belangrijkste concepten en taken met die het r
 [![Leertraject voor kostprijsboekhouding](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Snelkoppelingen
+
 |      |   |
 |------|---|
 |  [Basisentiteiten configureren (eLearning)](https://mbspartner.microsoft.com/Home) (vereist een CustomerSource-account)  |[Dimensies maken](cost-elements.md)  |

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Het in- en uitchecken van een chauffeur voor een afspraak registreren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u het in- en uitchecken van een chauffeur registreert. Dit wordt meestal gedaan door de transportcoördinator. U kunt deze procedure gebruiken in het demobedrijf USMF. Voordat u begint, moet er een afspraak zijn ingesteld voor de lading. Voor het maken van een afspraak kunt u de procedure "Een afspraak voor een lading instellen" uitvoeren.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-company-specific-hr-parameters"></a>Bedrijfsspecifieke HR-parameters instellen
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 De instellingen van bepaalde parameters van Human Resources (HR) worden in alle bedrijven gedeeld, terwijl de instellingen van andere parameters bedrijfsspecifiek zijn. In dit artikel wordt uitgelegd hoe u bedrijfsspecifieke HR-parameters instelt.
 

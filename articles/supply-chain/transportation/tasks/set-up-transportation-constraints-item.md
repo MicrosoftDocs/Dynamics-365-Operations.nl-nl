@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Transportbeperkingen voor een artikel instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Met deze procedure wordt een transportbeperking ingesteld om te voorkomen dat een geselecteerd artikel door een geselecteerde hub wordt vervoerd. Deze taak wordt meestal uitgevoerd door een transportcoördinator. U kunt deze procedure gebruiken in het demobedrijf USMF of voor uw eigen gegevens.
 

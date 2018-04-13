@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Verkooporders direct synchroniseren tussen Sales en Finance and Operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het direct synchroniseren van verkooporders tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations.
 

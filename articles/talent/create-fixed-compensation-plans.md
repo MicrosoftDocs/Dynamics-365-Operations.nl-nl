@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-fixed-compensation-plans"></a>Vastecompensatieplannen maken
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. In dit onderwerp worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
 

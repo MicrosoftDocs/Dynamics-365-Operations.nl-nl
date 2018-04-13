@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>Een vacature ontwikkelen en openen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Wervingsprojecten kunnen u helpen uw wervingsproces te beheren. Bij elk wervingsproject kunt u informatie, zoals de functie waarvoor u personeel werft, de naam van de werver, de status van het project en de afdeling waar de functie zich bevindt, instellen voor elk wervingsproject. Nadat u een wervingsproject hebt gemaakt, schrijft u een personeelsadvertentie uit voor het project, publiceert u de functie op Selfservice werknemer-pagina's, koppelt u sollicitaties voor de functie aan het project en houdt u activiteiten voor dat project bij. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. U start de procedure door naar Human resources > Werving > Wervingsprojecten > Wervingsprojecten te gaan
 

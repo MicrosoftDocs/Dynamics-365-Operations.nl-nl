@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Afschrijvingsconventies voor meerdere vaste activa wijzigen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak werkt de afschrijvingsconventie voor een opgegeven vaste-activagroep bij. Bij deze taakbegeleiding wordt het demobedrijf USMF gebruikt.
 

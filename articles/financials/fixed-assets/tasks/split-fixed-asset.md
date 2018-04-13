@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>Een vast activum splitsen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakbegeleiding splitst een percentage van één activumboek op naar een nieuw activumboek.  Het gebruikt de accountantsrol en USMF-demogegevens.
 

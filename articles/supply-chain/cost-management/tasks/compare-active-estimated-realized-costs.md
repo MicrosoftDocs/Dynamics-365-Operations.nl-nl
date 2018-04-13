@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Actieve, geraamde en gerealiseerde kosten voor een productieorder vergelijken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u redenen voor hoge productieafwijking voor een productieorder kunt bekijken. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de kostencontroller.
 

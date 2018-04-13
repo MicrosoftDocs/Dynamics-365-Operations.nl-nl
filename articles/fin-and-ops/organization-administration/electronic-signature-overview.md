@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>Overzicht van elektronische handtekeningen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat een overzicht van elektronische handtekeningen en een omschrijving van het gebruik in Microsoft Dynamics 365 for Finance and Operations.
 

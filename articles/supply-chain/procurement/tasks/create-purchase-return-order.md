@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-return-order"></a>Een inkoopretourorder maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een inkoopretourorder kunt maken door de actie Creditnota te gebruiken om regels van een leveranciersfactuurdocument naar een nieuwe inkooporder te kopiëren. Het laat ook zien hoe u de order kunt bevestigen en de verzending van de goederen terug naar de leverancier kunt verwerken. Het voorbeeld dat in deze procedure wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf. Deze taak wordt meestal uitgevoerd door een inkoopagent.
 

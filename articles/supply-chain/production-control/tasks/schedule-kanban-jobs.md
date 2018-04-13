@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="schedule-kanban-jobs"></a>Kanbantaken plannen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure richt zich op het plannen van proceskanbantaken voor een specifieke werkcel. De procedure "Een proceskanbantaak voorbereiden wanneer de materialen niet beschikbaar zijn" is een vereiste voor het maken van deze procedure. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze taak is bedoeld voor de werkvloersupervisor en de productieplanner die met kanbans werken.
 

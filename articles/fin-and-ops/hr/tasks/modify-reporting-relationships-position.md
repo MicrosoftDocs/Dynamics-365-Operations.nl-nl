@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Rapporteringsrelaties voor een positie wijzigen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u de rapporteringsrelatie voor een werknemer wijzigt. De rapporteringsrelatie kan worden gebruikt voor de routering van documenten door workflow. De procedure toont ook hoe u de werknemer aan aanvullende hiërarchieën toewijst. Een werknemer kan bijvoorbeeld deel uitmaken van een projectteam met een informele rapporteringsrelatie met een projectsupervisor. U kunt extra rapporteringsrelaties bepalen op de functie om diverse project- of matrixscenario's te bevatten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

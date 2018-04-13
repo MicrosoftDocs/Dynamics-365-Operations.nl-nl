@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>Onderdelen van de gemaakte indeling toewijzen aan gegevensmodelelementen voor elektronische aangifte (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd. Met deze indeling worden later elektronische documenten gegenereerd voor de verwerking van betalingen. In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd wanneer ER-configuraties tussen alle bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de taakbegeleider 'Een indelingsconfiguratie maken' uitvoeren.
 

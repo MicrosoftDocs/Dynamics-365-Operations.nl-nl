@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Kostenbeheereenheden definiëren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u kostenbeheereenheden definieert in het grootboek van kostprijsboekhouding. U selecteert de kostenobjectdimensie waarvoor u kosten wilt beheren in het grootboek. De kostenobjectdimensieleden worden getransformeerd tot kostenobjecten van de kostenbeheereenheden. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USP2.
 

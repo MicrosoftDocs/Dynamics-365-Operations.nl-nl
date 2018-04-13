@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="personnel-actions-faq"></a>Personeelsacties [FAQ]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Dit onderwerp bevat antwoorden op vragen die u mogelijk hebt als uw organisatie personeelsacties gebruikt. Personeelsacties zijn aanvullende stappen die u moet voltooien wanneer u bepaalde personeelsgerelateerde taken uitvoert. Voorbeelden van taken die mogelijk personeelsacties vereisten, zijn wanneer u nieuwe posities maakt, bestaande positiewaarden aanpast, nieuwe werknemers aanneemt, werknemers overdraagt, compensaties van werknemers wijzigt, positietoewijzingen wijzigt of werknemers beëindigt.
 
@@ -64,9 +64,9 @@ Open een van de lijstpagina's van de personeelsacties en selecteer een personeel
 Als een personeelsactieaanvraag mislukt, moet u deze stappen volgen om de fout op te lossen en de aanvraag opnieuw in te dienen:
 
 > 1. Klik in het **Actievenster** op de knop **Fouttekst** om de berichttekst weer te geven die het probleem beschrijft.
-
+> 
 > 2. Klik in het **Actievenster** op **Opnieuw activeren** om de meest recente informatie te laden en de status van de personeelsactie terug te zetten op **Concept**.
-
+> 
 > 3. Los de fout op en klik vervolgens op **Voltooien** of **Verzenden**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Wat gebeuren er met een personeelsactie die werkstroom gebruikt wanneer de definitieve goedkeuring is voltooid?

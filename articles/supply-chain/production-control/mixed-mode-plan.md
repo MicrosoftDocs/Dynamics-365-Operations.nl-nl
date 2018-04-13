@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over de gemengde planmodus. Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom. Microsoft Dynamics 365 for Finance and Operations zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of transferorders). 
 

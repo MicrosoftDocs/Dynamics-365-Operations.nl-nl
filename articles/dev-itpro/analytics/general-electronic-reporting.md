@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-reporting-overview"></a>Overzicht van elektronische rapportage
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van het hulpmiddel voor Elektronische rapportage (ER). Er staat informatie in over belangrijke concepten, de scenario's die door ER ondersteund worden en een lijst met indelingen die als onderdeel van de ER-oplossing ontworpen en uitgegeven zijn.
 
@@ -287,6 +286,7 @@ Met ER kunt u een nieuw (afgeleid) onderdeel maken op basis van de huidige versi
 Met ER kunt u automatisch wijzigingen in de meest recente versie van het basisondeel aanbrengen in de huidige conceptversie van het afgeleide onderdeel. Dit proces wordt *rebasing* genoemd. Zo kan bijvoorbeeld een nieuwe wijziging in de regelgeving die is geïntroduceerd in de laatste versie van de indeling die werd geïmporteerd vanuit LCS automatisch worden samengevoegd met de aangepaste versie van deze indeling van het elektronisch document. Alle wijzigingen die niet automatisch kunnen worden samengevoegd worden als conflicten beschouwd. Deze conflicten worden weergegeven voor handmatige oplossing in het ontwerpprogramma voor het desbetreffende onderdeel. Speel de taakbegeleiding **>ER Indeling upgraden door instelling van een nieuwe basis van de indeling** af (onderdeel van bedrijfsproces **7.5.5.3 Gewijzigd onderdeel voor IT-services en -oplossingen aanschaffen/ontwikkelen (10683)**) om bekend te raken met de details van dit scenario.
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Lijst met ER-configuraties die worden geleverd in de Finance and Operations-oplossing
+
 | Domeinspecifieke gegevensmodelconfiguraties: titel | Domein                | Configuratie van gegevensmodelafhankelijke indelingen: titel | Beschrijving                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Model van auditfile                                 | Financiële audit       |                                                   |                                                                    |

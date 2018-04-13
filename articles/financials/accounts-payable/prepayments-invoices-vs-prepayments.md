@@ -28,14 +28,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Vooruitbetalingsfacturen versus vooruitbetalingen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen). Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren.
 
 Organisaties kunnen aanbetalingen (vooruitbetalingen) verzenden naar leveranciers voor goederen of services voordat deze goederen of services zijn afgehandeld. Voor het verzenden van vooruitbetalingen naar leveranciers kunnen twee methoden worden gebruikt. Om risico's te minimaliseren, kunt u vooruitbetalingen bijhouden door de vooruitbetaling op een inkooporder te definiëren. Voor deze methode moet u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Deze methode wordt aanbetalingsfacturering genoemd. Organisaties die vooruitbetalingen niet zo nauwgezet willen bijhouden of geen vooruitbetalingsfactuur van hun leverancier ontvangen, kunnen journaalboekstukken voor vooruitbetalingen gebruiken in plaats van de vooruitbetalingsfactureringsmethode. U kunt journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren. Bij deze methode kunt u niet bijhouden welke vooruitbetalingen aan een leverancier worden uitgevoerd en voor welke inkooporders. U kunt echter wel een geboekte vooruitbetaling voor vereffening voor een inkooporder markeren.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Gebruik van vooruitbetalingsfacturering versus vooruitbetalingen
+
 | Vooruitbetalingsfacturering                                                                | Vooruitbetalingen                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Definieer een vooruitbetalingswaarde op de inkooporder.                                    | Er is geen vooruitbetalingswaarde op de inkooporder gedefinieerd.                    |

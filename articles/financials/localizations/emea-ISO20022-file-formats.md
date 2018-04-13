@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-iso20022-files"></a>ISO20022-bestanden importeren
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 U kunt betalingsbestanden met de volgende indelingen importeren:
 
@@ -41,8 +41,8 @@ U moet aan de volgende vereisten voldoen om bankmeldingen in de indeling camt.05
 3. Stel op de pagina **Bankrekening van klant** een record voor de bankrekening van de klant in door de volgende informatie in te voeren: IBAN of bankrekeningnummer en SWIFT-code of routeringsnummer.
 4. Stel op de pagina **Bankrekeningen** bankrekeningen voor de rechtspersonen in door de volgende informatie in te voeren: IBAN of bankrekeningnummer en SWIFT-code of routeringsnummer, valuta en adres.
 
-    > [!NOTE]
-        > Als u van plan bent Geavanceerde bankafstemming te gebruiken, stelt u op het sneltabblad **Afstemming** de optie **Geavanceerde bankafstemming** in op **Ja**. Als u niet-geboekte geïmporteerde betalingen wilt afstemmen, stelt u de optie **Bankafschriften gebruiken als bevestiging van elektronische betalingen** in op **Ja**.
+   > [!NOTE]
+   > Als u van plan bent Geavanceerde bankafstemming te gebruiken, stelt u op het sneltabblad **Afstemming** de optie **Geavanceerde bankafstemming** in op **Ja**. Als u niet-geboekte geïmporteerde betalingen wilt afstemmen, stelt u de optie **Bankafschriften gebruiken als bevestiging van elektronische betalingen** in op **Ja**.
 
 5. Optioneel: stel op de pagina **Toewijzing van transactiecode** de toewijzing in tussen banktransactiecodes in de bestands- en banktransactietypen.
 6. Als het bestand transactietoeslagen bevat die u samen met de inkomende betaling wilt boeken, maakt u een post voor bijzondere betalingskosten op de pagina **Bijzondere kosten voor klantbetalingen**. Klik vervolgens op de pagina **Betalingsmethoden** en koppel de bijzondere betalingskosten aan de bankrekening in de instelling voor betalingskosten.

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-operating-unit"></a>Een operationele eenheid maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van economische middelen en operationele processen in een bedrijf te verdelen. Personen in een operationele eenheid moeten optimaal gebruikmaken van schaarse middelen, processen verbeteren en rekenschap afleggen van hun prestaties. De typen operationele eenheden omvatten kostenplaatsen, bedrijfseenheden, afdelingen en waardestromen. Gebruik de volgende procedure om een operationele eenheid te maken. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

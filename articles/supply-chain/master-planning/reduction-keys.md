@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Reductiesleutels
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat voorbeelden die het instellen van een reductiesleutel weergeven. Het bevat informatie over de verschillende reductiesleutelinstellingen en de resultaten van elk. U kunt een reductiesleutel gebruiken om te definiëren hoe prognosebehoeften worden gereduceerd.
 
@@ -39,17 +38,19 @@ Dit artikel bevat voorbeelden die het instellen van een reductiesleutel weergeve
 
 In dit voorbeeld wordt weergegeven hoe een reductiesleutel vraagprognosebehoeften reduceert overeenkomstig de percentages en perioden die door de reductiesleutel worden gedefinieerd.
 
-1.  Stel op de pagina **Reductiesleutels** de volgende regels in.
-    | Wisselgeld | Eenheid  | Procent |
-    |--------|-------|---------|
-    | 1      | Maand | 100     |
-    | 2      | Maand | 75      |
-    | 3      | Maand | 50      |
-    | 4      | Maand | 25      |
+1. Stel op de pagina **Reductiesleutels** de volgende regels in.
 
-2.  Koppel de reductiesleutel aan de behoefteplanningsgroep van het artikel.
-3.  Selecteer op de pagina **Hoofdplannen** in het veld **Reductiemethode** de optie **Percentage - reductiesleutel**.
-4.  Maak een vraagprognose van 1000 stuks per maand.
+   | Wisselgeld | Eenheid  | Procent |
+   |--------|-------|---------|
+   |   1    | Maand |   100   |
+   |   2    | Maand |   75    |
+   |   3    | Maand |   50    |
+   |   4    | Maand |   25    |
+
+
+2. Koppel de reductiesleutel aan de behoefteplanningsgroep van het artikel.
+3. Selecteer op de pagina **Hoofdplannen** in het veld **Reductiemethode** de optie **Percentage - reductiesleutel**.
+4. Maak een vraagprognose van 1000 stuks per maand.
 
 Als u de prognoseplanning op 1 januari uitvoert, worden de vraagprognosebehoeften verbruikt volgens de percentages die u instelt op de pagina **Reductiesleutels**. De volgende behoeftehoeveelheden worden naar het hoofdplan overgebracht.
 
@@ -88,20 +89,21 @@ Als u dezelfde vraagprognose van 1000 stuks per maand gebruikt, worden de volgen
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Voorbeeld 3: prognosereductiemethode Transacties - dynamische periode
 In de meeste gevallen worden systemen zo ingesteld dat transacties vraagprognose reduceren in specifieke prognoseperioden: weken, maanden, enzovoort. Deze perioden worden gedefinieerd in de reductiesleutel. De tijd tussen twee vraagprognoseregels kan echter ook een periode *impliceren*.
 
-1.  Maak een vraagprognose voor de volgende datums en hoeveelheden.
-    | Datum       | Vraagprognose |
-    |------------|-----------------|
-    | 1 januari  | 1.000           |
-    | 5 januari  | 500             |
-    | 12 januari | 1.000           |
+1. Maak een vraagprognose voor de volgende datums en hoeveelheden.
 
-    In deze prognose is er geen duidelijke periode tussen de prognosedatums: tussen de eerste en tweede datum is er een vierdaags tijdsbestek en tussen de tweede en derde datum is er een zevendaags tijdsbestek. Dit zijn de dynamische perioden.
-2.  Maak als volgt verkooporderregels.
-    | Datum                             | Verkooporderhoeveelheid |
-    |----------------------------------|----------------------|
-    | 15 december in het vorige jaar | 500                  |
-    | 3 januari                        | 100                  |
-    | 10 januari                       | 200                  |
+   | Datum       | Vraagprognose |
+   |------------|-----------------|
+   | 1 januari  | 1.000           |
+   | 5 januari  | 500             |
+   | 12 januari | 1.000           |
+
+   In deze prognose is er geen duidelijke periode tussen de prognosedatums: tussen de eerste en tweede datum is er een vierdaags tijdsbestek en tussen de tweede en derde datum is er een zevendaags tijdsbestek. Dit zijn de dynamische perioden.
+2. Maak als volgt verkooporderregels.
+   | Datum                             | Verkooporderhoeveelheid |
+   |----------------------------------|----------------------|
+   | 15 december in het vorige jaar | 500                  |
+   | 3 januari                        | 100                  |
+   | 10 januari                       | 200                  |
 
 De prognose wordt als volgt gereduceerd:
 

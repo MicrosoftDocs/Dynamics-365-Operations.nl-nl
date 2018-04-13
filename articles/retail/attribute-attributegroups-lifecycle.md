@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Kenmerken, kenmerkgroepen en hun koppelingen met verschillende Retail-entiteiten in Finance and Operations
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 *Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort). In Microsoft Dynamics 365 for Finance and Operations kunnen kenmerken met verschillende detailhandelsentiteiten zoals productcategorieën en detailhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen daarvoor zijn ingesteld. De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen. De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.
  
@@ -227,13 +227,13 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 5. Selecteer op het sneltabblad **Producten** het vereiste product en selecteer vervolgens **Kenmerken** boven het productraster.
 6. Werk de waarden van de vereiste kenmerken bij op de volgende sneltabbladen:
 
-    - Gedeelde productmedia
-    - Gedeelde productkenmerken
-    - Afzetkanaalmedia
-    - Afzetkanaalproductkenmerken
+   - Gedeelde productmedia
+   - Gedeelde productkenmerken
+   - Afzetkanaalmedia
+   - Afzetkanaalproductkenmerken
 
-    > [!NOTE]
-    > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
+     > [!NOTE]
+     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
 
 ![Kenmerkgroepen van catalogusproducten](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 
 5. Werk de waarden van de vereiste kenmerken bij op de volgende sneltabbladen:
 
-    - Gedeelde productmedia
-    - Gedeelde productkenmerken
-    - Afzetkanaalmedia
-    - Afzetkanaalproductkenmerken
+   - Gedeelde productmedia
+   - Gedeelde productkenmerken
+   - Afzetkanaalmedia
+   - Afzetkanaalproductkenmerken
 
-    > [!NOTE]
-    > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
+     > [!NOTE]
+     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
 

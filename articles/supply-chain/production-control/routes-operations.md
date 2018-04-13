@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Routes en bewerkingen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u informatie over routes en bewerkingen. Een route definieert het proces voor het produceren van een product of de productvariant. Hierin wordt elke stap (bewerking) in het productieproces beschreven, plus de volgorde waarin deze stappen moeten worden uitgevoerd. Voor elke stap definieert de route ook de vereiste bronnen voor bedrijfsactiviteiten, de vereiste insteltijd en uitvoeringstijd en hoe de kosten moet worden berekend.
 

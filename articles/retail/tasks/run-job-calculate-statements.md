@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-and-run-a-job-to-calculate-statements"></a> Een taak configureren en uitvoeren om overzichten te berekenen
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt de configuratie en uitvoering van terugkerende batchtaken om overzichten te maken en te berekenen voor een geselecteerde winkel of groep winkels. Deze procedure gebruikt het demobedrijf USRT.
 

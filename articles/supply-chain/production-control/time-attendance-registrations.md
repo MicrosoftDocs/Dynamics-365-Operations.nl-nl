@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Tijd- en aanwezigheidsregistratie
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tijdregistratiewerknemers kunnen uiteenlopende typen tijdregistraties invoeren, zoals inklokken, uitklokken, registratie van indirecte activiteiten en verzuimregistratie. Dit onderwerp beschrijft registraties, hun berekening, goedkeuring en het gebruik van de workflow om structuur en automatische goedkeuring aan het proces van het goedkeuren van urenstaten toe te voegen. 
 
@@ -95,7 +94,7 @@ U kunt een workflow voor het goedkeuringsproces instellen waarmee geregistreerde
 | Totaal aantal dagen tijd en aanwezigheid            | De workflow valideert geregistreerde gegevens door deze bijvoorbeeld te vergelijken met het verwachte aantal werkuren voor de dag. |                                                                                                                                                                                                                                                       |
 | Journaalregistratie van tijd en aanwezigheid. | De workflow valideert elk registratietype voor de datum van de registratie.                           | Tijd en aanwezigheid • Inklokken • Uitklokken • Verzuim • Pauze • Schakelcode • Project • Projectactiviteit • Productietaken voor indirecte activiteiten • Wachttijd vóór • Instellen • Proces • Overlapping • Transport • Wachttijd na • Assistentie beginnen • Assistentie eindigen |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Goedgekeurde registraties overboeken
 Na goedkeuring van de registraties kunnen ze worden overgeboekt naar een periodieke salaristaak. Overgeboekte geregistreerde gegevens worden geboekt naar de activiteit of taak waarmee deze zijn verbonden, bijvoorbeeld een productieorder of project. Salaristransacties worden gegenereerd voor iedere werknemer op basis van de geregistreerde gegevens.  

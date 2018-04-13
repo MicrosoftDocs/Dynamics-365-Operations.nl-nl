@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Elektronische aangifte configureren om gegevens op te halen in Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Electronische rapportage) kunt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen naar Power BI-services. Als voorbeeld worden in dit onderwerp Intrastat-transacties gebruikt als zakelijke gegevens die moeten worden overgedragen. Met de Power BI-kaartvisualisering worden deze Intrastat-transactiegegevens gebruikt om een weergave voor analyse van import-/exportactiviteiten in het Power BI-rapport te maken.
 
@@ -118,9 +117,9 @@ Klik op de knop **Instellingen** voor de nieuwe bestemmingsrecord. Ga vervolgens
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Een Power BI-rapport maken op basis van de nieuwe gegevensset
 1. Klik op de Power BI-gegevensset **Import- en exportdetails** die u hebt gemaakt. 
 2. Configureer de visualisering. Selecteer bijvoorbeeld de visualisering **Ingevulde kaart** en configureer deze als volgt:
- -   Wijs het gegevenssetveld **Land van oorsprong** aan het veld **Locatie** van de kaartvisualisering toe.
- -   Wijs het gegevenssetveld **Hoeveelheid** aan het veld **Kleurverzadiging** van de kaartvisualisering toe.
- -   Voeg de gegevenssetvelden **Activiteit** en **Jaar** toe aan de veldverzameling **Filters** van de kaartvisualisering.
+   -   Wijs het gegevenssetveld **Land van oorsprong** aan het veld **Locatie** van de kaartvisualisering toe.
+   -   Wijs het gegevenssetveld **Hoeveelheid** aan het veld **Kleurverzadiging** van de kaartvisualisering toe.
+   -   Voeg de gegevenssetvelden **Activiteit** en **Jaar** toe aan de veldverzameling **Filters** van de kaartvisualisering.
 
 3. Sla het Power BI-rapport op als **Rapport Import- en exportdetails**. [![Rapport Import- en exportdetails](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Op de kaart worden de landen/regio's weergegeven die in het Excel-bestand worden vermeld (Oostenrijk en Zwitserland in dit voorbeeld). Met kleuren wordt de verhouding gefactureerde bedragen voor elk weergegeven. 
 4. Werk de lijst met Intrastat-transacties bij. De exporttransactie uit Italië wordt toegevoegd. [![Lijst Intrastat-transacties](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-compensation-grids"></a>Compensatierasters instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Compensatierasters worden gebruikt om de salarisstructuren voor plannen voor vaste compensatie weer te geven of te onderhouden. Compensatierasters kunnen worden gedeeld over meerdere plannen of worden gekopieerd bij het maken van een nieuw compensatieplan.  Voordat u een compensatieraster maakt, moet u de Niveaus en Referentiepunten instellen. In dit voorbeeld wordt een nieuw Cijfertype van compensatieraster gemaakt met demogegevens voor de Niveaus en Referentiepunten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

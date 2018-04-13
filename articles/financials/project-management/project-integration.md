@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="microsoft-project-client-integration"></a>Microsoft Project-clientintegratie
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een projectplanning plannen en onderhouden kan complex zijn, dus hebben projectmanagers hulpmiddelen nodig waarmee ze deze taak kunnen beheren. Integratie met Microsoft Project-client biedt ondersteuning voor het openen en beheren van een projectstructuur voor werkspecificatie. De projectmanager kan wijzigingen terug publiceren naar de projectstructuur voor werkspecificatie van Finance and Operations.
 

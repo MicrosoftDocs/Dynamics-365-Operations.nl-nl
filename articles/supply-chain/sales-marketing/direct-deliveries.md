@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>Directe leveringen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over directe leveringen. Directe leveringen zijn leveringen die rechtstreeks van de leverancier naar uw klant worden verzonden.
 

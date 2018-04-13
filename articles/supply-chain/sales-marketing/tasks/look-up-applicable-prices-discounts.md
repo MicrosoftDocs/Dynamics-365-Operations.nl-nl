@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Van toepassing zijnde prijzen en kortingen opzoeken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u de prijs en/of de korting vindt voor een product dat momenteel geldig is voor een specifieke klant, zonder een verkooporder te maken. De procedure doorloopt een specifiek voorbeeld en u moet het voorbeeld met het demobedrijf USMF volgen om de benodigde waarden te selecteren.
 

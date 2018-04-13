@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="configure-workflow-properties"></a>Workfloweigenschappen configureren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een workflow configureert.
 

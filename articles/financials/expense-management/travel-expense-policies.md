@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>Onkostenbeleid
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 U kunt beleid definiëren waaraan uw werknemers zich moeten houden bij het invoeren en indienen van onkostennota's en reisaanvragen.         
 Door het implementeren van onkostenbeleidsregels kunt u onkosten efficiënt beheren.         
@@ -39,14 +39,14 @@ definiëren van het beleid.
 U kunt drie typen beleidsregels definiëren:         
         
 - Waarschuwing – De werknemer mag een onkostennota of reisaanvraag indienen maar de onkosten worden gemarkeerd voor alle fiatteurs        
-en latere rapportage.        
+  en latere rapportage.        
 
 - Fout – Vereist dat de werknemer de onkosten herziet om het beleid na te leven alvorens de onkostendeclaratie of reisopdracht wordt ingediend.       
  
- - Verantwoording – Vereist dat de werknemer of een manager van een motivering opgeeft bedrag in het beleid te overschrijden alvorens de onkostennota of reisopdracht kan worden ingediend.        
+  - Verantwoording – Vereist dat de werknemer of een manager van een motivering opgeeft bedrag in het beleid te overschrijden alvorens de onkostennota of reisopdracht kan worden ingediend.        
  
- Het is ook mogelijk om te definiëren gedurende welk datumbereik de onkostenbeleidsregels geldig zijn. Tijdens de piekperiode in de zomervakantie gelden bijvoorbeeld      
- mogelijk hogere tarieven voor vluchten tussen Denemarken en New York. U kunt een regel definiëren dat voor ticketkosten naar New York een limiet      
- van DKK 5000 geldt en u kunt opgeven dat deze regel geldt van 15 mei      
- tot 15 september.
+  Het is ook mogelijk om te definiëren gedurende welk datumbereik de onkostenbeleidsregels geldig zijn. Tijdens de piekperiode in de zomervakantie gelden bijvoorbeeld      
+  mogelijk hogere tarieven voor vluchten tussen Denemarken en New York. U kunt een regel definiëren dat voor ticketkosten naar New York een limiet      
+  van DKK 5000 geldt en u kunt opgeven dat deze regel geldt van 15 mei      
+  tot 15 september.
 

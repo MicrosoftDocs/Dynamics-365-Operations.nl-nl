@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>Kanbanprocestaken uitvoeren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure is gericht op het uitvoeren van kanbanprocestaken. De eerste taak wordt voltooid met de verwachte hoeveelheid en heeft geen fouten. De tweede taak wordt voltooid met fouten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de machineoperator.
 

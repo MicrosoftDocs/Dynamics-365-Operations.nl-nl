@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Financiële rapporten balans
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel worden de standaardrapporten voor balansen beschreven. Hierin worden ook de bouwstenen beschreven die aan deze rapporten zijn gekoppeld. 
 
@@ -71,7 +70,7 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
     -   **DESC**: de omschrijving van de rijdefinitie
     -   **FD**: financiële gegevens voor jaar tot heden voor het huidige jaar
 
- 
+
 
 <a name="see-also"></a>Zie ook
 --------

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>Een nieuw product maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak geeft aan hoe u een nieuw gedeeld product maakt. Het wordt gewoonlijk uitgevoerd door een productontwerper. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.
 

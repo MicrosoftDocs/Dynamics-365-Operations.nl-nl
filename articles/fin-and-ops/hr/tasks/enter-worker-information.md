@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-worker-information"></a>Gegevens medewerker invoeren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Nadat een werver een project voor massaal aanstellen heeft gemaakt en de posities heeft gegenereerd, bestaat de volgende stap uit het invoeren van de werknemersinformatie voor de personen die worden aangenomen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. De demogegevens bevatten een open project voor massaal aanstellen. U begint deze procedure door naar Human resources > Werving > Projecten voor massaal aanstellen te gaan.
 

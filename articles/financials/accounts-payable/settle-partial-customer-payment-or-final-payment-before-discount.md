@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Een gedeeltelijke klantenbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft scenario's die laten zien hoe gedeeltelijke betalingen voor een klant worden vastgelegd en hoe contantkortingen worden verkregen in de contantkortingsperiode.
 

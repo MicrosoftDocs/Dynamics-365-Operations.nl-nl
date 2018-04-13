@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen voor elektronische aangifte (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indelingsconfiguratie kan onderhouden voor elektronische rapportage (ER). In deze procedure wordt uitgelegd hoe een aangepaste versie kan worden gemaakt op basis van een indeling die is ontvangen van een configuratieprovider (CP). Ook wordt beschreven hoe u een nieuwe basisversie van die indeling kunt aannemen.
 

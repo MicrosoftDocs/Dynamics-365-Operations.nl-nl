@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="enter-project-timesheets"></a>Projectroosters invoeren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Met deze procedure kunt u een urenstaat maken met behulp van een leeg urenstaatformulier. U kunt de nieuwe urenstaat baseren op gegevens uit een vorige urenstaat of uit project- en activiteitstoewijzingen op de pagina Mijn favorieten. Standaard geeft de lijstpagina Alle urenstaten al uw urenstaten weer voor de huidige periode. U kunt de vervolgkeuzelijst voor het veld Weergeven op de pagina Mijn urenstaten gebruiken om de lijst van urenstaten te filteren per periode of project, of om urenstaten weer te geven die namens andere medewerkers zijn gemaakt. Het demobedrijf dat wordt gebruikt om deze procedure te maken is USSI. Om met deze procedure te beginnen, gaat u naar Projectbeheer en boekhouding > Urenstaten > Mijn urenstaten
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Een gedeeltelijke leverancierbetaling vereffenen met kortingen op creditnota's van de leverancier
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel begeleidt u door een scenario waarin een creditnota voor een factuur wordt vereffend.
 

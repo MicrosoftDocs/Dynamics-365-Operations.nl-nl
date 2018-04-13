@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations. 
 
@@ -39,6 +38,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 
 ## <a name="action-shortcuts"></a>Actiesneltoetsen
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Gewenste bewerking**                                    | **Druk op**                        |
@@ -55,6 +55,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Momenteel beschikbare snelkoppelingen weergeven                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Sneltoetsen voor datumkiezer
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Gewenste bewerking**                        | **Druk op**                                 |
@@ -68,6 +69,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Nooit kiezen (of de uiterste datum)          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>Sneltoetsen voor feitenvak
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Gewenste bewerking**                                                                  | **Druk op**                                 |
@@ -79,6 +81,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Het huidige feitenvak samenvouwen                                                    | Alt+0                                     |
 
 ## <a name="filtering-shortcuts"></a>Sneltoetsen voor filteren
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Actie**                     | **Druk op**                |
@@ -89,6 +92,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Geavanceerd filteren/sorteren openen                                      | Ctrl+Shift+F3            | 
 
 ## <a name="form-shortcuts"></a>Sneltoetsen voor formulieren
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Actie**                                      | **Druk op**         |
@@ -110,6 +114,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Het formulier sluiten met annulering van niet-opgeslagen wijzigingen       | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Sneltoetsen voor formuliernavigatie
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Gewenste bewerking**                                      | **Druk op**                                    |
@@ -128,6 +133,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Overschakelen naar regelweergave                                | Ctrl+Shift+L                                 |
 
 ## <a name="grid-shortcuts"></a>Sneltoetsen in raster
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Gewenste bewerking**                                                                                                         | **Druk op**                       |
@@ -148,6 +154,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Rasterfilters openen voor de huidige kolom (met de focus in de koptekstrij)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Sneltoetsen voor invoerbesturing
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Gewenste bewerking**                                                               | **Druk op**                     |
@@ -163,6 +170,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | De focus tussen het tekstgedeelte en de werkbalk verplaatsen in een besturingselement in een HTML-editor | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Sneltoetsen voor berichten
+
 |                          |               |
 |--------------------------|---------------|
 | **Gewenste bewerking**           | **Druk op**     |
@@ -170,6 +178,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Naar berichtenbalk gaan    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Sneltoetsen voor navigatie
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Gewenste bewerking**                                                                | **Druk op**                  |
@@ -191,6 +200,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Naar het feitenvak gaan (of dit venster openen, indien van toepassing)                       | Alt+M, B of Ctrl+F2         |
 
 ## <a name="personalization-shortcuts"></a>Sneltoetsen voor aanpassen
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Gewenste bewerking**                                                                                                         | **Druk op**                           |
@@ -219,6 +229,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | De aanpassingsmodus afsluiten (in de aanpassingsmodus)                                                               | Esc                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Sneltoetsen voor gesegmenteerde invoer
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Gewenste bewerking**                                                                                                          | **Druk op**                        |

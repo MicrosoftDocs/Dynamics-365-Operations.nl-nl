@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Proces van tijd- en aanwezigheidsregistratie inschakelen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u het salarisproces voor tijd en aanwezigheid kunt inschakelen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

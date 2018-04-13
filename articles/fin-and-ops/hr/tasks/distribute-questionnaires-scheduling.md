@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Vragenlijsten distribueren met een planning
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Met vragenlijstplanning kunt u vragenlijsten plannen voor en distribueren naar meerdere respondenten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

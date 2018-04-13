@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="replenishment-with-withdrawal-kanbans"></a>Aanvulling met opnamekanbans
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe de opnamekanban wordt gebruikt voor materiaalaanvulling voor productieactiviteiten.
 

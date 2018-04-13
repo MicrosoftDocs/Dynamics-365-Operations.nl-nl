@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Winstgevendheid van klanten en producten beoordelen
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel wordt uitgelegd hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de winstgevendheid van uw klanten en producten in Microsoft Dynamics 365 for Retail en deze kunt onderzoeken en er kennis uit kunt destilleren. 
 

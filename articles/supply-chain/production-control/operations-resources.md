@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>Operations-resources
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bronnen voor bedrijfsactiviteiten voeren de activiteiten van een project of een productieproces uit. Ze kunnen van verschillende typen zijn en kunnen verschillende capaciteiten hebben. 
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Startpagina On-premises implementatie
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 U kunt Microsoft Dynamics 365 for Finance and Operations (on-premises) implementeren. Wanneer u een on-premises implementatietype kiest, zullen de systeemvereisten, de grootte van de hardware en de functionaliteit verschillen van een cloudimplementatie. Dit onderwerp bevat koppelingen naar inhoud met specifieke informatie over on-premises implementaties.
 

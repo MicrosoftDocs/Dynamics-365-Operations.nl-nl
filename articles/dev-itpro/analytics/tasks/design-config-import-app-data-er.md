@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Configuraties ontwerpen om inkomende documenten te parseren voor toepassingsgegevensupdates (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont aan hoe u ER-configuraties (Elektronische rapportage) ontwerpt om een inkomend elektronisch document te parseren. In deze procedure importeert u de vereiste ER-indelingsconfiguraties die zijn gemaakt voor het voorbeeldbedrijf Litware, Inc., en gebruikt u deze vervolgens voor het parseren van inkomende elektronische documenten. Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure 'ER Een configuratieprovider maken en deze als actief markeren' voltooien.
 

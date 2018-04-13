@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-objects"></a>Serviceobjecten 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 De serviceobjecten zijn de activum en de producten van een klant waarvoor u een service kunt uitvoeren. Afhankelijk van het type service dat u levert, kunnen objecten tastbaar of ontastbaar zijn:
 

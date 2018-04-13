@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Een gerelateerd intercompany-boekstuk weergeven vanuit een journaal
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Het venster Verwant boekstuk toont het boekstuk van het tegenbedrijf bij het boeken van een intercompany-transactie van het algemene journaal.
 

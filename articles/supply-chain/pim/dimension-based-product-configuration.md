@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>Op dimensie gebaseerde productconfiguratie
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een op dimensies gebaseerde productconfiguratie vertegenwoordigt een eenvoudige oplossing voor het maken van veel productvarianten op basis van één productmodel en de bijbehorende stuklijst.
 

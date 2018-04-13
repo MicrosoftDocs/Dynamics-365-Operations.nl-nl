@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>De GTIN-code invoeren voor een product
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 GTIN-codes worden toegewezen door de organisatie GS1. In dit voorbeeld voert u een code voor het productnummer M0001 in, voor het demogegevensbedrijf USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Een product/productmodel vrijgeven aan rechtspersonen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een product of productmodel vrijgeeft aan een of meer rechtspersonen. Het demobedrijf dat wordt gebruikt om deze taak te maken is USRT en de taak is bedoeld voor de merchandisingmanager en de productontwerper.
 

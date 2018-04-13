@@ -28,9 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-relations"></a>Serviceobjectrelaties 
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 U kunt serviceobjectrelaties maken tussen een serviceobject en een serviceovereenkomst of serviceorder. Wanneer u een relatie maakt, koppelt u het serviceobject aan de serviceovereenkomst of serviceorder.
 

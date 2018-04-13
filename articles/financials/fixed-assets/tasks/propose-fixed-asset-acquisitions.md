@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Aanschaf van vaste activa voorstellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u een vast activum bijboekt met het verwervingsvoorstel in het vaste-activajournaal. Het gebruikt de rol Accountant en demogegevens voor de USMF-rechtspersoon.
 

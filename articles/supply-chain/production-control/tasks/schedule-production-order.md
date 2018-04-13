@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="schedule-a-production-order"></a>Een productieorder plannen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u een productieorder plant. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Dit is de derde procedure van zeven die de productieorderlevenscyclus beschrijven.
 

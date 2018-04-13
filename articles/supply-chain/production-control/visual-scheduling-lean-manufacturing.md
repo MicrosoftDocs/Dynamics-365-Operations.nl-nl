@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Visuele planning voor lean manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u informatie over het kanbanplanningsbord. Dit kan de productieplanner gebruiken om het productieplan voor kanbantaken te optimaliseren aan te sturen en te optimaliseren.
 

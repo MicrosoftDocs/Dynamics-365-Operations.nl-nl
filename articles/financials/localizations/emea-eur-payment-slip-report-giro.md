@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="payment-slip-report-for-europe"></a>Betalingsbonrapport voor Europa
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over betalingsbonrapporten voor Europa.
 

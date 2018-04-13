@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>Behoefteplanningsregels voor artikelen definiëren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure toont hoe u behoefteplanningsregels maakt en behoefteplanningsinstellingen voor een specifiek artikel overschrijft. Het toont ook hoe u standaardvoorraadinstellingen opgeeft.
 

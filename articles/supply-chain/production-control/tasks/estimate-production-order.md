@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>Een productieorder ramen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 U kunt deze procedure uitvoeren met behulp van het demobedrijf USMF of met uw eigen gegevensset. In beide gevallen hebt u een open productieorder nodig die de status Gemaakt heeft. Dit is de tweede procedure van zeven waarin de levenscyclus van de productieorder wordt uitgelegd.
 

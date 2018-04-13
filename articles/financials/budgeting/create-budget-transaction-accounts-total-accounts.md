@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Een budget maken op basis van transactierekeningen en totaalrekeningen.
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt een overzicht van het proces voor het maken van budgetten op basis van totaalrekeningen. Daarnaast wordt beschreven hoe u budgetbeheer voor totaalrekeningen inschakelt, als budgetbeheer vereist is.
 

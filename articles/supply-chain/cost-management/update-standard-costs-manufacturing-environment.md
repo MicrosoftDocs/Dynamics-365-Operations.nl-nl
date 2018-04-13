@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Standaardkosten in een productieomgeving bijwerken
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat richtlijnen voor het bijwerken van standaardkosten in een productieomgeving. 
 

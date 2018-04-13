@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>De relaties tussen organisatie-eenheden ontwerpen
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het ontwerpen van de relatie tussen organisatie-eenheden. U moet een nieuw organisatiedoel maken voordat u de relatie definieert, of u kunt het bestaande organisatiedoel gebruiken. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure uit te voeren is USRT. Deze taak is bedoeld voor de beheerdersrol.
 

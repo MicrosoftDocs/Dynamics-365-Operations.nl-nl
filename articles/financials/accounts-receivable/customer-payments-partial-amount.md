@@ -28,8 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="customer-payments-for-a-partial-amount"></a>Klantbetalingen voor een gedeeltelijk bedrag
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Soms voeren klanten een betaling uit die minder is dan het bedrag van een factuur. In dit artikel worden de verschillende opties beschreven om deze situatie te dekken. Over welke opties u beschikt, is afhankelijk van de behoeften en de configuratie van uw bedrijf.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>POS-verbeteringen voor geserialiseerde producten
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Overzicht 
 Op basis van de instellingen in Detailhandel Hoofdkantoor kunnen producten als geserialiseerde producten of niet-geserialiseerde producten worden geclassificeerd. Wanneer producten geserialiseerd worden, kan aan elk artikel een uniek nummer worden toegewezen waarmee garanties worden bijgehouden, artikelen worden getraceerd en eigendom wordt bevestigd. Hoewel de mogelijkheid om serienummers voor geserialiseerde producten op te geven, bestond in MPOS (Modern Point of Sale) en CPOS (Cloud Point of Sale), zijn enkele verbeteringen doorgevoerd om kassamedewerkers tijd te laten besparen en hun productiviteit te verhogen.  

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>Een kalender maken en werktijden genereren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactiviteiten. Deze procedure zal u helpen een werkkalender te definiëren op basis van een werktijdsjabloon. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.
 

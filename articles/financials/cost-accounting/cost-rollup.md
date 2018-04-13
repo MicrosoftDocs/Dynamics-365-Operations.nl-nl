@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Beleid voor totalisering van kosten en overheadberekening 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met Kostprijsboekhouding kunt u inzicht verkrijgen in hoe de kostenstroom in relatie staat tot de producten en services die worden geleverd binnen een organisatie. Als u de transparantie van de kosten wilt zien, is het van groot belang om kostentoewijzing te bereiken tussen kostenobjecten op basis van een juiste toewijzingsgrondslag. Standaard wordt de kostentoewijzing bereikt voor het primaire kostenelement. Dit is in bepaalde situaties wenselijk. Het heeft echter een paar gevolgen die in aanmerking moeten worden genomen.
 

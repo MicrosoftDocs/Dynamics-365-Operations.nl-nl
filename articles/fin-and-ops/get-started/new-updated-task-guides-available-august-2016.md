@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (augustus 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> Kanaal en kanaalkenmerken definiëren voor callcenters
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van een nieuw detailhandelkanaal en het definiëren van kanaalkenmerken. Het demobedrijf dat wordt gebruikt om deze taak te maken is USRT. Deze procedure is bedoeld voor de detailhandel-IT-rol.
 

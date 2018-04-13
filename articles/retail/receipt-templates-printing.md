@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="receipt-templates-and-printing"></a>Ontvangstsjablonen en afdrukken
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Microsoft Dynamics 365 for Retail heeft een ontwerper voor formulierindelingen, waarmee u gemakkelijk verschillende soorten formulierindelingen kunt maken en aanpassen.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>Het Help-systeem verbinden
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp worden de onderdelen van het Help-systeem voor Microsoft Dynamics 365 for Finance and Operations beschreven. Het bevat een overzicht van hoe deze onderdelen met elkaar zijn verbonden, en een samenvatting hoe u aangepaste Help kunt maken. 
 
@@ -42,7 +41,7 @@ De volgende afbeelding toont de onderdelen van het Help-systeem van Finance and 
 ## <a name="connecting-the-help-system"></a>Verbinding maken met het Help-systeem
 > [!NOTE]
 > Het tabblad **Taakbegeleidingen** is momenteel niet beschikbaar in Microsoft Dynamics 365 for Talent en Microsoft Dynamics 365 for Retail. Wij werken er momenteel aan om deze functionaliteit in een toekomstige versie beschikbaar te stellen. De taakbegeleidingen in de ervaring Aan de slag in Talent blijven beschikbaar om de basisfunctionaliteit uit te leggen. Procedurele hulp is ook beschikbaar op de website docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) voor zowel Retail als Talent.
- 
+
 
 Met de pagina **Systeemparameters** verbinden systeembeheerders de delen van het Help-systeem voor een implementatie. [![Formulier Systeemparameters met Help-instellingen](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Voer de volgende stappen uit op de pagina **Systeemparameters**:
 

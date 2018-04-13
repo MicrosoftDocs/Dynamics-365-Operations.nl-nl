@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Budgetplanning bijwerken
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Er zijn belangrijke verschillen in budgetplanning tussen Microsoft Dynamics AX 2012 en Microsoft Dynamics 365 for Finance and Operations. Sommige functies zijn niet bijgewerkt en moeten derhalve opnieuw worden geconfigureerd. In dit onderwerp wordt uitgelegd wat opnieuw moet worden geconfigureerd en worden tevens nieuwe functies beschreven die moeten worden overwogen nadat de upgrade is voltooid.  
 
@@ -70,26 +69,27 @@ Om te helpen bepalen hoe het bijgewerkte systeem moet worden geconfigureerd, wor
 
 ### <a name="define-columns-and-layouts"></a>Kolommen en indelingen definiëren
 
-1.  Klik op de pagina **Configuratie budgetplanning** op het tabblad **Kolommen**. Als onderdeel van de upgrade worden automatisch nieuwe kolommen gemaakt op basis van uw budgetplanregels. Kolommen maken nu gebruik van dynamische datums, waarbij de tijd en het jaar worden afgezet tegen het fiscaal jaar dat is gedefinieerd in het budgetplanningsproces. **Opmerking:** om prestatieredenen tijdens de upgrade wordt ervan uitgegaan dat alle budgetcycli kalenderjaren en geen fiscale jaren vertegenwoordigen. Als u fiscale jaren gebruikt, moet u bewerkingen doorvoeren om de kolommen op correcte wijze toe te wijzen aan hun fiscale jaar. Zo bestonden bijvoorbeeld de volgende elementen in AX 2012:
-    -   Budgetplanscenario's: werkelijke waarden, basislijn, budgetaanvraag, goedgekeurd budget
-    -   Budgetplanregels voor alle scenario's in 2017 en werkelijke waarden voor zowel 2017 als 2016
+1. Klik op de pagina **Configuratie budgetplanning** op het tabblad **Kolommen**. Als onderdeel van de upgrade worden automatisch nieuwe kolommen gemaakt op basis van uw budgetplanregels. Kolommen maken nu gebruik van dynamische datums, waarbij de tijd en het jaar worden afgezet tegen het fiscaal jaar dat is gedefinieerd in het budgetplanningsproces. **Opmerking:** om prestatieredenen tijdens de upgrade wordt ervan uitgegaan dat alle budgetcycli kalenderjaren en geen fiscale jaren vertegenwoordigen. Als u fiscale jaren gebruikt, moet u bewerkingen doorvoeren om de kolommen op correcte wijze toe te wijzen aan hun fiscale jaar. Zo bestonden bijvoorbeeld de volgende elementen in AX 2012:
+   -   Budgetplanscenario's: werkelijke waarden, basislijn, budgetaanvraag, goedgekeurd budget
+   -   Budgetplanregels voor alle scenario's in 2017 en werkelijke waarden voor zowel 2017 als 2016
 
-    De volgende kolommen worden gemaakt in Finance and Operations:
-    | Kolomnaam    | Budgetplanscenario | Kolomperiode | Jaargrens |
-    |----------------|----------------------|--------------------|-------------|
-    | Jan Scenario 1 | Werkelijke kosten              | 1                  | 0           |
-    | Jan Scenario 2 | Basislijn             | 1                  | 0           |
-    | Jan Scenario 3 | Budgetaanvraag       | 1                  | 0           |
-    | Jan Scenario 4 | Budget goedgekeurd      | 1                  | 0           |
-    | Jan Scenario 5 | Werkelijke kosten              | 1                  | -1          |
-    | Feb Scenario 1 | Werkelijke kosten              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   De volgende kolommen worden gemaakt in Finance and Operations:
 
-    In dit voorbeeld wordt een kolom met de naam **Jan Scenario 1** gemaakt voor de meest recente transactiegegevens voor budgetplanning die zijn gevonden waar transacties bestaan in januari. Een soortgelijke kolom wordt gemaakt voor elk scenario dat gegevens bevat. Zodra kolommen bestaan voor alle perioden in dat jaar, worden kolommen gemaakt voor voorgaande jaren.
-2.  Wijzig de kolomnamen en -beschrijvingen en eventuele andere gegevens handmatig in de client of via bulkupdates met de Excel-invoegtoepassing die wijst naar de gegevensentiteit voor budgetplankolommen. Alle filters die eerder zijn ingesteld voor matrixvelden worden nu ingesteld binnen de kolommen.
-3.  Maak een nieuwe indeling voor een budgetplan. Een indeling verwijst naar meerdere kolommen voor het definiëren van de weergave die wordt weergegeven in Excel en de client. De indeling vereist eerst dat u een grootboekdimensieset opgeeft om te bepalen welke financiële dimensies kunnen worden ingevoerd. Nadat u de dimensieset hebt opgegeven, klikt u op **Beschrijvingen** om beschrijvingen te selecteren van de dimensies die moeten worden opgenomen in de indeling.
-4.  Klik op het sneltabblad **Indelingselementen** op **Toevoegen** om metagegevens toe te voegen voor elke rij, zoals een valuta, een opmerking of een budgetklasse waarmee omzet- met onkostenrijen worden vergeleken. Voeg vervolgens kolommen toe voor de tijdsperiode en scenario's die van toepassing zijn op deze budgetcyclus en fase. U kunt deze wijzigingen handmatig doorvoeren in de client of via de Excel-invoegtoepassing die naar de gegevensentiteit voor indelingselementen van het budgetplan verwijst.
-5.  Selecteer voor elk indelingselement of de kolom bewerkbaar moet zijn en of de kolom ook moet worden weergegeven in de Excel-werkmap voor deze indeling. **Opmerking:** voor onze historische plannen wilt u mogelijk een indeling in overweging nemen waarin 12 maandelijkse kolommen worden weergegeven voor elk budgetplanscenario voor dat proces.
+   | Kolomnaam    | Budgetplanscenario | Kolomperiode | Jaargrens |
+   |----------------|----------------------|--------------------|-------------|
+   | Jan Scenario 1 | Werkelijke kosten              | 1                  | 0           |
+   | Jan Scenario 2 | Basislijn             | 1                  | 0           |
+   | Jan Scenario 3 | Budgetaanvraag       | 1                  | 0           |
+   | Jan Scenario 4 | Budget goedgekeurd      | 1                  | 0           |
+   | Jan Scenario 5 | Werkelijke kosten              | 1                  | -1          |
+   | Feb Scenario 1 | Werkelijke kosten              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   In dit voorbeeld wordt een kolom met de naam **Jan Scenario 1** gemaakt voor de meest recente transactiegegevens voor budgetplanning die zijn gevonden waar transacties bestaan in januari. Een soortgelijke kolom wordt gemaakt voor elk scenario dat gegevens bevat. Zodra kolommen bestaan voor alle perioden in dat jaar, worden kolommen gemaakt voor voorgaande jaren.
+2. Wijzig de kolomnamen en -beschrijvingen en eventuele andere gegevens handmatig in de client of via bulkupdates met de Excel-invoegtoepassing die wijst naar de gegevensentiteit voor budgetplankolommen. Alle filters die eerder zijn ingesteld voor matrixvelden worden nu ingesteld binnen de kolommen.
+3. Maak een nieuwe indeling voor een budgetplan. Een indeling verwijst naar meerdere kolommen voor het definiëren van de weergave die wordt weergegeven in Excel en de client. De indeling vereist eerst dat u een grootboekdimensieset opgeeft om te bepalen welke financiële dimensies kunnen worden ingevoerd. Nadat u de dimensieset hebt opgegeven, klikt u op **Beschrijvingen** om beschrijvingen te selecteren van de dimensies die moeten worden opgenomen in de indeling.
+4. Klik op het sneltabblad **Indelingselementen** op **Toevoegen** om metagegevens toe te voegen voor elke rij, zoals een valuta, een opmerking of een budgetklasse waarmee omzet- met onkostenrijen worden vergeleken. Voeg vervolgens kolommen toe voor de tijdsperiode en scenario's die van toepassing zijn op deze budgetcyclus en fase. U kunt deze wijzigingen handmatig doorvoeren in de client of via de Excel-invoegtoepassing die naar de gegevensentiteit voor indelingselementen van het budgetplan verwijst.
+5. Selecteer voor elk indelingselement of de kolom bewerkbaar moet zijn en of de kolom ook moet worden weergegeven in de Excel-werkmap voor deze indeling. **Opmerking:** voor onze historische plannen wilt u mogelijk een indeling in overweging nemen waarin 12 maandelijkse kolommen worden weergegeven voor elk budgetplanscenario voor dat proces.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Budgetplanningsprocessen bijwerken voor het gebruik van de juiste indeling voor elke budgetfase
 

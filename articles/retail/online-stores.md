@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Online winkeloverzicht
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Dit artikel bevat informatie over onlinewinkels en hoe ze in Microsoft Dynamics 365 for Retail worden ingesteld.
 

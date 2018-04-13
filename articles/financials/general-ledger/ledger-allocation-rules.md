@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="ledger-allocation-rules"></a>Grootboektoewijzingsregels
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over grootboektoewijzingsregels. Het beschrijft de verschillende onderdelen van deze toewijzingsregels en toewijzingsmethoden die hiervoor kunnen worden gebruikt.
 

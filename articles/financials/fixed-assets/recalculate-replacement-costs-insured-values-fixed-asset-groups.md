@@ -27,8 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Vervangingskosten en verzekerde waarden voor vaste-activagroepen herberekenen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt het proces toegelicht voor het bijwerken van de vervangingskosten en verzekerde waarden van vaste activa.
 

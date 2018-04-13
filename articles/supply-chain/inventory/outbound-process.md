@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="outbound-process"></a>Uitgaand proces
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van het uitgaande proces in Voorraadbeheer.
 

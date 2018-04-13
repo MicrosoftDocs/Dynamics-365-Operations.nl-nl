@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Btw-transacties maken in documenten
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 De btw op documenten wordt berekend door een btw-groep en een btw-groep voor het artikel op documentregels te leveren. Deze zijn afkomstig van hoofdgegevens maar kunnen handmatig worden gewijzigd indien nodig. De berekende btw kan op regel- en documentniveau worden gecontroleerd. Bij deze taak wordt het demobedrijf USMF gebruikt.
 

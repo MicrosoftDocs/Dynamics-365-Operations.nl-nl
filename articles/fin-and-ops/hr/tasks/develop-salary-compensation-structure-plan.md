@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Salaris-/compensatiestructuur en -plannen ontwikkelen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakbegeleiding doorloopt het proces voor het maken van een vastecompensatieplan en het mogelijk maken dat werknemers worden geregistreerd in het plan via geschiktheidsregels. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF en de taak is bedoeld voor de Manager compensatie en vergoedingen.
 

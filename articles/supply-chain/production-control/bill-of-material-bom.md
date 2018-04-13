@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Stuklijsten en formules
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over stuklijsten en formules, die een centraal deel uitmaken van de definitie van producten en productvarianten. Met stuklijsten en formules worden de benodigde materialen of ingrediënten voor een specifiek product opgegeven. Met formules worden ook de coproducten en bijproducten opgegeven die worden ontvangen in een specifieke productiecontext. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Groepen boekingen in grootboek instellen voor btw
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 De btw wordt berekend en naar hoofdrekeningen geboekt die in de grootboekboekingsgroepen worden opgegeven. Grootboekboekingsgroepen worden gekoppeld aan elke btw-code. U kunt afzonderlijke grootboekboekingsgroepen instellen voor elke btw-code, één grootboekboekingsgroep gebruiken voor alle btw-codes of meerdere grootboekboekingsgroepen aan de btw-codes toewijzen. Bij deze registratie wordt het demobedrijf DEMF gebruikt. 
 

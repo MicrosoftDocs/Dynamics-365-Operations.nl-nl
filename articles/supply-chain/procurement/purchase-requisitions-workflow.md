@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-requisition-workflow"></a>Werkstroom voor opdrachten tot inkoop
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Het workflowproces verplaatst opdrachten tot inkoop door het beoordelingsproces, vanaf de beginstatus Concept tot de laatste status Goedgekeurd. Wanneer een opdracht tot inkoop ter controle wordt ingediend, wordt het workflowproces gestart. Nadat een opdracht tot inkoop is goedgekeurd, kan een inkooporder worden gegenereerd voor de regels van de opdracht tot inkoop en kunnen ze bij de leverancier worden ingediend om te worden voltooid.
 

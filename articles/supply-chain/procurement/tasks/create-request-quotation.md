@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Een offerteaanvraag maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat u zien hoe u een offerteaanvraag maakt. Dit wordt gewoonlijk gedaan door een inkoper. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens. U moet de verzoektypen hebben ingesteld voordat u begint. Zodra u deze taak hebt voltooid en een offerteaanvraag hebt gemaakt en verzonden, kunt u de antwoorden per leverancier invoeren, deze vergelijken en het contract toekennen.
 

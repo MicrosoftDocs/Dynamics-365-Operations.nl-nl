@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Servicesjabloonregels kopiëren 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Sjabloongegevens kunnen worden gekopieerd naar een serviceovereenkomst of een serviceorder.
 

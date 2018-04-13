@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nonconformance-management"></a>Niet-conformiteitsbeheer
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt de algemene configuratie beschreven die nodig is om non-conformiteiten te gebruiken. Als u kwaliteitsorders wilt gebruiken, moet u aanvullende instellingen configureren.
 

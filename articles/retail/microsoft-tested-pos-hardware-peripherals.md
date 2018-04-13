@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>Randapparatuur POS-hardware
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Retail Modern POS en Cloud POS kunnen een grote verscheidenheid aan POS-randapparatuur met meerdere interfaces en implementatieopties gebruiken om in te spelen op verschillende bedrijfsscenario's van retailers. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="questionnaires"></a>Vragenlijsten
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel vindt u algemene informatie over vragenlijsten en koppelingen naar meer gedetailleerde informatie. Een vragenlijst is een reeks vragen die wordt gebruikt voor het verzamelen van informatie voor verschillende doeleinden. U kunt vragenlijsten ontwerpen, maken, distribueren en invullen en vervolgens de resultaten analyseren. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Vaste-activatransacties boeken naar boekingslagen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft een overzicht van boekingslaagfunctionaliteit voor vaste-activatransacties.
 

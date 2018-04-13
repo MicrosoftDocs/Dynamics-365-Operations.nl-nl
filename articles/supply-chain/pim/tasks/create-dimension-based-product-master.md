@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>Een op dimensies gebaseerd productmodel maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een nieuw productmodel maakt met op dimensies gebaseerde configuratietechnologie. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Dit is de eerste van acht procedures waarin wordt uitgelegd hoe u combinaties maakt voor een op dimensies gebaseerde configuratie.
 

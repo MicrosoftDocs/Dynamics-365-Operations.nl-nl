@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>Samenwerken met interne klanten van toeleveringsketen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure beschrijft hoe u alle geplande orders kunt weergeven die door een intercompany-leverancier worden vervuld. Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF.
 

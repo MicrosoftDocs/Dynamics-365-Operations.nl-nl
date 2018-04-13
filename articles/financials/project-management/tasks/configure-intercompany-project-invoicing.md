@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Intercompany-projectfacturering configureren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u projectfacturen configureert tussen twee bedrijven in uw organisatie. In deze taak wordt de gegevensset van USSI gebruikt.
 

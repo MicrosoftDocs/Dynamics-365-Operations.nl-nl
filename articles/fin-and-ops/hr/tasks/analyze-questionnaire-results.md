@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="analyze-questionnaire-results"></a>Resultaten vragenlijst analyseren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Vragenlijststatistieken kunnen worden gebruikt voor het berekenen van gemiddelden, totalen en percentages op basis van een set demografische gegevens. Begin met deze procedure door naar Vragenlijst > Resultaten weergeven en analyseren > Vragenlijststatistieken te gaan. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchasing-policies"></a>Inkoopbeleid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over aanschafbeleid. Een inkoopbeleid is een verzameling regels die het opdrachtproces regelen. Een aanschafbeleid helpt beheerders hun aanschaffingsstrategie implementeren door een beleidsstructuur te maken die is afgestemd op de strategische aanschaffingsbehoeften van de organisatie.
 

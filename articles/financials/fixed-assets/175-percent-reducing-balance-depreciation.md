@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 175 procent
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 175 procent.
 
@@ -68,6 +67,7 @@ Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties 
 -   **Boekperiode**: berekent het totale bedrag van de afschrijving voor het boekjaar. Dit bedrag wordt toegerekend in de boekperioden die zijn gedefinieerd op de pagina **Fiscale kalenders**.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Voorbeeld van een 175% degressieve afschrijving
+
 |                                |        |
 |--------------------------------|--------|
 | Bijboekingskosten               | 11.000 |

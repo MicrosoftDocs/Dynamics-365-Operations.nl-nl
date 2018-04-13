@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Een handmatige beslissing configureren in een workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een handmatige beslissing configureert.
 
@@ -252,73 +251,74 @@ Voer de volgende stappen uit om op te geven aan wie de handmatige beslissing moe
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Aangeven wat moet gebeuren wanneer een beslissing achterstallig is
 Als een gebruiker niet binnen de toegekende tijd de beslissing neemt, wordt de beslissing achterstallig. Een achterstallige beslissing kan worden geëscaleerd of automatisch aan een andere gebruiker worden toegewezen. Voer de volgende stappen uit om de beslissing te escaleren als deze achterstallig is.
 
-1.  Klik in het linkerdeelvenster op **Escalatie**.
-2.  Vink het selectievakje **Escalatiepad gebruiken** aan om een escalatiepad te maken. Het systeem wijst de beslissing automatisch toe aan de gebruikers die in het escalatiepad zijn vermeld. De volgende tabel kan bijvoorbeeld een escalatiepad voorstellen.
-    | Reeks | Escalatiepad            |
-    |----------|----------------------------|
-    | 1        | Toewijzen aan: Diana           |
-    | 2        | Toewijzen aan: Erica            |
-    | 3        | Laatste actie: \[Keuze 1\] |
+1. Klik in het linkerdeelvenster op **Escalatie**.
+2. Vink het selectievakje **Escalatiepad gebruiken** aan om een escalatiepad te maken. Het systeem wijst de beslissing automatisch toe aan de gebruikers die in het escalatiepad zijn vermeld. De volgende tabel kan bijvoorbeeld een escalatiepad voorstellen.
 
-    In dit voorbeeld wordt de achterstallige beslissing door het systeem automatisch toegewezen aan Diana. Als Diana niet tijdig de beslissing neemt, wordt de beslissing door het systeem toegewezen aan Erica. Als Erica niet tijdig de beslissing neemt, selecteert het systeem **\[Keuze 1\]** als beslissing
-3.  Klik op **Escalatie toevoegen** om gebruikers toe te voegen aan het escalatiepad. Selecteer een van de opties in de volgende tabel en volg de bijkomende stappen voor de betreffende optie voordat u naar stap 4 gaat.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Optie</th>
-    <th>Gebruikers naar wie de beslissing wordt geëscaleerd</th>
-    <th>Bijkomende stappen</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Hiërarchie</td>
-    <td>Gebruikers in een specifieke organisatiehiërarchie</td>
-    <td><ol>
-    <li>Selecteer op het tabblad <strong>Hiërarchieselectie</strong> de optie <strong>Hiërarchie</strong> en selecteer vervolgens in de lijst <strong>Type hiërarchie</strong> het type hiërarchie waarnaar u de beslissing wilt escaleren.</li>
-    <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen vertegenwoordigen gebruikers naar wie de beslissing kan worden geëscaleerd. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt: <ol>
-    <li>Geef het beginpunt op door een persoon te selecteren in de lijst <strong>Beginnen vanaf</strong>.</li>
-    <li>Klik op <strong>Voorwaarde toevoegen</strong> om het eindpunt op te geven. Geef vervolgens een voorwaarde op die bepaalt bij welk punt in de hiërarchie stopt met het ophalen van namen.</li>
-    </ol></li>
-    <li>Geeft op het tabblad <strong>Hiërarchieopties</strong> op naar welke gebruikers in het bereik de beslissing moet worden geëscaleerd: <ul>
-    <li><strong>Aan alle opgehaalde gebruikers toewijzen</strong>: de beslissing wordt geëscaleerd naar alle gebruikers in het bereik.</li>
-    <li><strong>Alleen aan laatst opgehaalde gebruiker toewijzen</strong>: de beslissing wordt alleen geëscaleerd naar de laatste gebruiker in het bereik.</li>
-    <li><strong>Gebruikers met de volgende status uitsluiten</strong>: de beslissing wordt niet geëscaleerd naar een gebruiker in het bereik die aan een specifieke voorwaarde voldoet. Klik op <strong>Voorwaarde toevoegen</strong> om de voorwaarde op te geven.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Werkstroomgebruiker</td>
-    <td>Gebruikers in de huidige workflow</td>
-    <td><ul>
-    <li>Selecteer op het tabblad <strong>Workflowgebruiker</strong> de optie <strong>Workflowgebruiker</strong>. Selecteer dan in de lijst <strong>Workflowgebruiker</strong> een gebruiker die aan de workflow deelneemt.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Gebruiker</td>
-    <td>Specifieke Finance and Operations-gebruikers</td>
-    <td><ol>
-    <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
-    <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Finance and Operations-gebruikers. Selecteer de gebruikers naar wie u de beslissing wilt escaleren en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Reeks | Escalatiepad            |
+   |----------|----------------------------|
+   | 1        | Toewijzen aan: Diana           |
+   | 2        | Toewijzen aan: Erica            |
+   | 3        | Laatste actie: \[Keuze 1\] |
 
-4.  Geef op het tabblad **Tijdslimiet** in het veld **Duur** aan hoeveel tijd de gebruiker heeft om de beslissing te nemen. Een van de volgende opties selecteren:
-    -   **Uren**: voer het aantal uren in dat de gebruiker heeft om de beslissing te nemen. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
-    -   **Dagen**: voer het aantal dagen in dat de gebruiker heeft om de beslissing te nemen. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
-    -   **Weken**: voer het aantal weken in dat de gebruiker heeft om de beslissing te nemen.
-    -   **Maanden**: selecteer de dag en week waarop de gebruiker de beslissing uiterlijk moet hebben genomen. U kunt bijvoorbeeld aangeven dat de gebruiker de beslissing uiterlijk moet nemen op de vrijdag in de derde week van de maand.
-    -   **Jaren**: selecteer de dag, week en maand waarop de gebruiker de beslissing uiterlijk moet hebben genomen. U kunt bijvoorbeeld aangeven dat de gebruiker de beslissing uiterlijk moet nemen op de vrijdag in de derde week van december.
+   In dit voorbeeld wordt de achterstallige beslissing door het systeem automatisch toegewezen aan Diana. Als Diana niet tijdig de beslissing neemt, wordt de beslissing door het systeem toegewezen aan Erica. Als Erica niet tijdig de beslissing neemt, selecteert het systeem **\[Keuze 1\]** als beslissing
+3. Klik op **Escalatie toevoegen** om gebruikers toe te voegen aan het escalatiepad. Selecteer een van de opties in de volgende tabel en volg de bijkomende stappen voor de betreffende optie voordat u naar stap 4 gaat.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Optie</th>
+   <th>Gebruikers naar wie de beslissing wordt geëscaleerd</th>
+   <th>Bijkomende stappen</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Hiërarchie</td>
+   <td>Gebruikers in een specifieke organisatiehiërarchie</td>
+   <td><ol>
+   <li>Selecteer op het tabblad <strong>Hiërarchieselectie</strong> de optie <strong>Hiërarchie</strong> en selecteer vervolgens in de lijst <strong>Type hiërarchie</strong> het type hiërarchie waarnaar u de beslissing wilt escaleren.</li>
+   <li>Het systeem moet een bereik van gebruikersnamen uit de hiërarchie ophalen. Deze namen vertegenwoordigen gebruikers naar wie de beslissing kan worden geëscaleerd. Volg deze stappen om het beginpunt en eindpunt van het bereik op te geven voor gebruikersnamen die het systeem ophaalt: <ol>
+   <li>Geef het beginpunt op door een persoon te selecteren in de lijst <strong>Beginnen vanaf</strong>.</li>
+   <li>Klik op <strong>Voorwaarde toevoegen</strong> om het eindpunt op te geven. Geef vervolgens een voorwaarde op die bepaalt bij welk punt in de hiërarchie stopt met het ophalen van namen.</li>
+   </ol></li>
+   <li>Geeft op het tabblad <strong>Hiërarchieopties</strong> op naar welke gebruikers in het bereik de beslissing moet worden geëscaleerd: <ul>
+   <li><strong>Aan alle opgehaalde gebruikers toewijzen</strong>: de beslissing wordt geëscaleerd naar alle gebruikers in het bereik.</li>
+   <li><strong>Alleen aan laatst opgehaalde gebruiker toewijzen</strong>: de beslissing wordt alleen geëscaleerd naar de laatste gebruiker in het bereik.</li>
+   <li><strong>Gebruikers met de volgende status uitsluiten</strong>: de beslissing wordt niet geëscaleerd naar een gebruiker in het bereik die aan een specifieke voorwaarde voldoet. Klik op <strong>Voorwaarde toevoegen</strong> om de voorwaarde op te geven.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Werkstroomgebruiker</td>
+   <td>Gebruikers in de huidige workflow</td>
+   <td><ul>
+   <li>Selecteer op het tabblad <strong>Workflowgebruiker</strong> de optie <strong>Workflowgebruiker</strong>. Selecteer dan in de lijst <strong>Workflowgebruiker</strong> een gebruiker die aan de workflow deelneemt.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Gebruiker</td>
+   <td>Specifieke Finance and Operations-gebruikers</td>
+   <td><ol>
+   <li>Selecteer <strong>Gebruiker</strong> en klik op het tabblad <strong>Gebruiker</strong>.</li>
+   <li>De lijst <strong>Beschikbare gebruikers</strong> bevat alle Finance and Operations-gebruikers. Selecteer de gebruikers naar wie u de beslissing wilt escaleren en verplaats deze gebruikers naar de lijst <strong>Geselecteerde gebruikers</strong>.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Herhaal stappen 3 tot en met 4 voor elke gebruiker die u aan het escalatiepad wilt toevoegen. U kunt de volgorde van de gebruikers wijzigen.
-6.  Als de gebruikers in het escalatiepad niet binnen de gestelde tijd de beslissing nemen, reageert het systeem automatisch op de beslissing. Om de optie in te stellen die het systeem selecteert, selecteert u de rij **Actie** en klikt u op het tabblad **Actie beëindigen**. Selecteer hier een optie.
+4. Geef op het tabblad **Tijdslimiet** in het veld **Duur** aan hoeveel tijd de gebruiker heeft om de beslissing te nemen. Een van de volgende opties selecteren:
+   -   **Uren**: voer het aantal uren in dat de gebruiker heeft om de beslissing te nemen. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
+   -   **Dagen**: voer het aantal dagen in dat de gebruiker heeft om de beslissing te nemen. Selecteer vervolgens de kalender die uw organisatie gebruikt en voer informatie in over de werkweek van uw organisatie.
+   -   **Weken**: voer het aantal weken in dat de gebruiker heeft om de beslissing te nemen.
+   -   **Maanden**: selecteer de dag en week waarop de gebruiker de beslissing uiterlijk moet hebben genomen. U kunt bijvoorbeeld aangeven dat de gebruiker de beslissing uiterlijk moet nemen op de vrijdag in de derde week van de maand.
+   -   **Jaren**: selecteer de dag, week en maand waarop de gebruiker de beslissing uiterlijk moet hebben genomen. U kunt bijvoorbeeld aangeven dat de gebruiker de beslissing uiterlijk moet nemen op de vrijdag in de derde week van december.
+
+5. Herhaal stappen 3 tot en met 4 voor elke gebruiker die u aan het escalatiepad wilt toevoegen. U kunt de volgorde van de gebruikers wijzigen.
+6. Als de gebruikers in het escalatiepad niet binnen de gestelde tijd de beslissing nemen, reageert het systeem automatisch op de beslissing. Om de optie in te stellen die het systeem selecteert, selecteert u de rij **Actie** en klikt u op het tabblad **Actie beëindigen**. Selecteer hier een optie.
 
 ## <a name="set-a-time-limit"></a>Een tijdslimiet instellen
 Volg deze stappen als de beslissing binnen een opgegeven tijd moet worden genomen. **Opmerking:** De hier geselecteerde opties hebben voorrang op de opties die u in de gebieden **Toewijzing** en **Escalatie** van de pagina hebt geselecteerd.

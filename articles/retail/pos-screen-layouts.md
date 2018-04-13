@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Schermindelingen configureren voor POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Dit onderwerp biedt informatie over schermindelingen voor het gebruik van de Microsoft Dynamics 365 for Retail-POS.
 

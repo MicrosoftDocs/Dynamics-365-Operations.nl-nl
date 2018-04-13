@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-process-overview"></a>Overzicht van productieproces
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode. 
 

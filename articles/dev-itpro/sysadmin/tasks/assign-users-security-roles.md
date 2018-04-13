@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Gebruikers aan beveiligingsrollen toewijzen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Voor toegang tot Microsoft Dynamics 365 for Finance and Operations moeten gebruikers worden toegewezen aan beveiligingsrollen. In deze procedure wordt beschreven hoe systeembeheerders gebruikers automatisch aan rollen kunnen toewijzen op basis van bedrijfsgegevens. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

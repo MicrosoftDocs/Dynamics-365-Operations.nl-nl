@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Standaardsjablonen voor financiële dimensies onderhouden
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe de standaardsjablonen van de financiële dimensie worden ingesteld. Met deze sjablonen kunt u snel bedragen op brondocumenten verdelen.
 

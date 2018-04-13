@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Overzicht van inkooporders
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Dit artikel bevat algemene informatie over inkooporders (IO's) en koppelingen naar aanvullende artikelen die zijn gerelateerd aan de verschillende fasen die een IO doorloopt.
 

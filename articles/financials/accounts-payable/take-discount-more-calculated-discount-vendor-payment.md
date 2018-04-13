@@ -28,17 +28,18 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Een korting nemen die groter is dan de berekende korting voor een leveranciersbetaling
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel begeleidt u door een scenario waarbij een contantkorting voor een bedrag wordt toegepast die meer is dan de korting die oorspronkelijk op de factuur beschikbaar is. Dit scenario kan optreden als een organisatie een overeenkomst met de leverancier aangaat om een lager bedrag op de factuur te betalen. 
 
 Leverancier 3051 laat Fabrikam een contantkorting van 4 procent nemen als een factuur wordt betaald binnen zeven dagen. Op 29 jnui voert April een factuur in voor 1000,00. De leverancier geeft April een korting van 60,00 in plaats van de standaardkorting van 40,00 die beschikbaar is voor de factuur. April registreert een eenmalige betaling door het Leveranciersbetalingsjournaal te gebruiken. Ze voert de leverancier voor de betaling in en opent vervolgens de pagina **Transacties vereffenen**. Ze ziet de factuur en wijzigt de waarde in het veld **Contantkortingsbedrag** naar **60,00**.
+
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Geselecteerd | Normaal            | Factuur-10040 | 3051    | 6/29/2015 | 7/29/2015 | 10040   | 1.000,00                       | USD      | 940,00           |
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven.
+
 |                              |           |
 |------------------------------|-----------|
 | Datum van contantkorting           | 7/12/2015 |

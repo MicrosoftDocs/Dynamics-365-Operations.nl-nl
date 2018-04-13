@@ -27,8 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="use-workflows-to-manage-employee-information"></a>Informatie over werknemers beheren met behulp van workflows
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de workflowmogelijkheid voor Human resources kunt gebruiken om werknemersgegevens te beheren. U kunt bijvoorbeeld een workflow aan een positie koppelen en een goedkeuringsworkflow configureren die wordt gestart wanneer werknemers hun record wijzigen.
 

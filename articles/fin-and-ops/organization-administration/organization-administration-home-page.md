@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Startpagina Organisatiebeheer
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp verwijst naar inhoud die hoofdgebruikers en beheerders helpt om Microsoft Dynamics 365 for Finance and Operations te configureren. Op basis van deze inhoud kunnen ze het systeem configureren om vloeiend en effectief te werken voor uw organisatie en zakelijke activiteiten.
 

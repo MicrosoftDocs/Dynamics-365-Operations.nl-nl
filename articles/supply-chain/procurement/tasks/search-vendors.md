@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="search-for-vendors"></a>Zoeken naar leveranciers
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Leren hoe u leveranciers zoekt gebaseerd op specifieke criteria. Dit voorbeeld toont hoe u leveranciers zoekt die voor een bepaalde aanschaffingscategorie zijn goedgekeurd en hun primaire adres in een bepaald land hebben. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Deze taak wordt meestal uitgevoerd door een inkoopmedewerker.
 

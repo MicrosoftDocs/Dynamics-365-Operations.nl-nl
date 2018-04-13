@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> Selfservice uitvoeren om hardwarestation te downloaden
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt hoe u een vooraf gedefinieerd hardwarestation downloadt. Het demobedrijf dat wordt gebruikt voor deze procedure is USRT. U moet een nieuw hardwarestationprofiel en hardwarestation gemaakt hebben voordat u deze taak start.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Artikelen beheren die aan werknemers worden geleend
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Leenartikelen zijn records waarmee managers de artikelen die uw bedrijf aan werknemers uitleent, bijhouden. 
 
@@ -51,7 +50,7 @@ Managers kunnen geleende artikelen voor hun directe ondergeschikten weergeven. Z
 
 Als een artikel beschadigd is of verloren raakt, noteert u een fictieve teruggave. Vervolgens verwijdert u het artikel of laat u het artikel in het overzicht staan, maar vermeldt u dat het artikel niet meer beschikbaar is.
 
- 
+
 <a name="see-also"></a>Zie ook
 --------
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Voorraadhoeveelheden reserveren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft de verschillende opties die beschikbaar zijn voor het reserveren van voorraad.
 
@@ -50,6 +49,7 @@ Het reserveringsbeleid van de voorraad wordt ingesteld op de pagina **Artikelmod
 ### <a name="policies-on-the-item-model-groups-page"></a>Beleid op de pagina Artikelmodelgroepen
 
 De sectie **Voorraadbeleid** bevat het volgende reserveringsbeleid.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Reserveringsbeleid**  | **Omschrijving**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ De sectie **Voorraadbeleid** bevat het volgende reserveringsbeleid.
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>Voorbeeld voor Gecontroleerde FIFO-datum en Terug vanaf verzenddatum
 
 In dit voorbeeld bestaat voorhanden voorraad voor artikelnummer A voor drie verschillende batchnummers.
+
 | artikelnummer | Batchnummer | Hoeveelheid | Datum             |
 |-------------|--------------|----------|------------------|
 | A           | 1000         | 5        | 2 februari 2016 |

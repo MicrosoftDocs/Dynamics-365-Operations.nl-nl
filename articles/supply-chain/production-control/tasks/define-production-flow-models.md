@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Modellen voor productiestroom definiëren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 De modellen voor productiestromen beschrijven hoe de capaciteit van werkcellen voor lean manufacturing wordt berekend en onderhouden. Daarom is de definitie van een model voor productiestroom een vereiste voor de definitie van werkcellen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

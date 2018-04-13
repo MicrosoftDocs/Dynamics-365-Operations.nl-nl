@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Artikelen ontvangen op een inkooporder vanuit een artikelbehoefte
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u artikelen ontvangt op een inkooporder vanuit een artikelbehoefte.
 

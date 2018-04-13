@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="warehouse-configuration"></a>Magazijnconfiguratie
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u een magazijn configureert. Er wordt aangegeven hoe u een magazijnindeling en magazijnprocessen inschakelt.
 

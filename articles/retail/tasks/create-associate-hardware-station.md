@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-hardware-station"></a> Een hardwarestation maken en koppelen
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt hoe u een nieuw hardwarestation maakt. Een nieuw hardwareprofiel wordt gemaakt en gebruikt om nieuwe hardwarestations toe te voegen aan een vooraf gedefinieerde winkel (kanaal). Deze procedure gebruikt het demobedrijf USRT.
 

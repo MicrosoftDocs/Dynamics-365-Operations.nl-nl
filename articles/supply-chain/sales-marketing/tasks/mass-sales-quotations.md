@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="mass-create-sales-quotations"></a>Verkoopoffertes massaal maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u efficiënt offertes maakt met een reeks producten of services die naar meerdere klanten moeten worden verzonden. Dit groepsgewijs maken van offertes is gebaseerd op offertesjablonen. U kunt deze procedure uitvoeren met uw eigen gegevens of in het demogegevensbedrijf USMF.
 

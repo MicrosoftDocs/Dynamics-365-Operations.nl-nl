@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Een goedkeuringsstap configureren in een workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een goedkeuringsstap configureert.
 
@@ -145,9 +144,9 @@ Voer de volgende stappen uit om op te geven aan wie de goedkeuringsstap moet wor
     Als de gebruiker niet binnen de toegekende tijd actie op een document onderneemt, wordt het document achterstallig. Een achterstallig document wordt geëscaleerd op basis van de opties die u selecteert in het gebied **Escalatie** van deze pagina.
 4.  Als u de goedkeuringsstap aan meerdere gebruikers of aan een groep gebruikers hebt toegewezen, klikt u op het tabblad **Voltooiingsbeleid** en selecteert u een van de volgende opties:
     -   **Eén fiatteur**: de eerste persoon die reageert bepaalt welke actie op het document wordt toegepast. Stel dat Sam een onkostennota voor 15.000 EUR heeft ingediend. De onkostennota is op dit moment toegewezen aan Suzan, Jo en Bill. Als Suzan als eerste reageert, wordt de actie die zij uitvoert op het document toegepast. Wijst Suzan het document af, dan wordt het document afgewezen en teruggestuurd naar Sam. Als Suzan het document goedkeurt, wordt het ter goedkeuring naar Anne doorgezonden. 
-    
+
     ![Een workflow met een goedkeuringsproces](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Meerderheid van fiatteurs**: welke actie op het document wordt toegepast wordt bepaald wanneer een meerderheid van de fiatteurs reageert. Stel dat Sam een onkostennota voor 15.000 EUR heeft ingediend. De onkostennota is op dit moment toegewezen aan Suzan, Jo en Bill. Als Suzan en Jo als eerste twee personen reageren, wordt de actie die zij uitvoeren op het document toegepast.
         -   Als het document door Suzan wordt goedgekeurd, maar door Jo wordt afgewezen, wordt het document afgewezen en teruggestuurd naar Sam.
         -   Als het document zowel door Suzan als door Jo wordt goedgekeurd, wordt het ter goedkeuring naar Anne doorgezonden.

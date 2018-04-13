@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Welkom bij Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn werknemerwerving en behoud, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer. Het biedt tevens een kader voor het personeel van Human resources voor het beheren van gebieden van toezicht.
 

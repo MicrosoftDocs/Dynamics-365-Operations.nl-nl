@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="align-workforce-skills-with-business-needs"></a>Personeelsvaardigheden afstemmen op bedrijfsbehoeften
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 U kunt de vaardigheden bijhouden die de werknemers, sollicitanten of de contactpersonen hebben of zouden moeten hebben om hun functie effectief te vervullen. U kunt ook opgeven welke vaardigheden voor een bepaalde functie zijn vereist.
 
@@ -55,8 +54,8 @@ U kunt een zoekopdracht voor vaardigheidstoewijzing maken om een werknemer, soll
 
 De profielen voor vaardigheidstoewijzing maken het mogelijk huidige werknemers of kandidaten te vinden met kwalificaties die aansluiten op zakelijke behoeften.  U kunt bijvoorbeeld een profiel voor vaardigheidstoewijzing maken voor een vacature in uw organisatie. Door een profiel voor een bepaalde taak te maken en de vaardigheden, opleiding en certificaten van die taak naar het profiel te kopiëren, kunt u snel werknemers, sollicitanten en contactpersonen zoeken die aan een of meer van de criteria van het profiel voldoen en een lijst weergeven van de kandidaten waarvan de vaardigheden het dichtst liggen bij de vaardigheden die voor de taak zijn vereist.
 
->**Opmerking** Alleen de werknemers, sollicitanten en de contactpersonen die zijn geselecteerd om in zoekopdrachten voor vaardigheidstoewijzing te worden opgenomen, kunnen in een resultatenlijst worden weergegeven of in een vaardigheidsprofiel worden opgenomen. Om een werknemer, sollicitant of contactpersoon op te nemen in zoekopdrachten voor vaardigheidstoewijzingen, stelt u de selectie **Opnemen in vaardigheidstoewijzing** in op Ja op de volgende pagina's:
-
+> **Opmerking** Alleen de werknemers, sollicitanten en de contactpersonen die zijn geselecteerd om in zoekopdrachten voor vaardigheidstoewijzing te worden opgenomen, kunnen in een resultatenlijst worden weergegeven of in een vaardigheidsprofiel worden opgenomen. Om een werknemer, sollicitant of contactpersoon op te nemen in zoekopdrachten voor vaardigheidstoewijzingen, stelt u de selectie **Opnemen in vaardigheidstoewijzing** in op Ja op de volgende pagina's:
+> 
 > + Werknemer
 > + Werknemer
 > + Sollicitant

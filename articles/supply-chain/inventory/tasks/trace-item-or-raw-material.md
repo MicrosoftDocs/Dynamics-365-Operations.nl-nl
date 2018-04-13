@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="trace-an-item-or-raw-material"></a>Een artikel of een grondstof traceren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont aan hoe u artikeltracering kunt gebruiken om te bepalen waar artikelen of grondstoffen zijn of worden gebruikt. Met deze procedure kunt u een artikel identificeren, het terug naar de bron traceren en vervolgens voorwaarts door de productie en de verkoop van het eindproduct traceren. Het proces kan worden gebruikt voor het onderzoeken van de beïnvloede klanten, de betrokken verkooporders en meer. Bij deze procedure wordt het demobedrijf USP2 gebruikt.
 

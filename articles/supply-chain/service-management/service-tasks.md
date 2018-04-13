@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>Servicetaken  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met servicetaken kunt de taken omschrijven die voor een serviceorder moeten worden voltooid.
 Zowel technici als klanten kunnen deze informatie bekijken.

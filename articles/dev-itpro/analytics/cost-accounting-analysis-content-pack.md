@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Power BI-inhoud voor analyse van kostprijsboekhouding
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat wordt opgenomen in de Microsoft Power BI-inhoud **Analyse kostprijsboekhouding**. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 
@@ -111,18 +111,20 @@ In de volgende tabel ziet u hoe de belangrijkste samengevoegde metingen worden g
 
 De volgende belangrijke dimensies worden gebruikt als filters voor het segmenteren van de samengevoegde metingen om een grotere mate van granulatie te bereiken en analytischere inzichten te bieden.
 
-| Entiteit                             | Voorbeelden van kenmerken                                                                                               |
+
+|               Entiteit               |                                                Voorbeelden van kenmerken                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Grootboeken van kostprijsboekhouding            | Grootboek van kostprijsboekhouding                                                                                               |
-| Kostenbeheereenheden                 | Naam van kostenbeheereenheid                                                                                               |
-| Dimensies van kostenelement            | Dimensienaam kostenelementen, dimensielidnaam kostenelement en dimensielidbeschrijving kostenelement          |
-| Dimensies van kostenobject             | Dimensienaam kostenobject, dimensielidnaam kostenobject en dimensielidbeschrijving kostenobject              |
-| Statistische dimensies             | Statistische dimensienaam, statistische dimensielidnaam, statistische dimensielidbeschrijving              |
-| Dimensiehiërarchieën kostenobject  | Hiërarchienaam kostenobjectdimensie, hiërarchieniveau kostenobjectdimensie, hiërarchiestructuur kostenobjectdimensie    |
+|      Grootboeken van kostprijsboekhouding       |                                                Grootboek van kostprijsboekhouding                                                |
+|         Kostenbeheereenheden         |                                                Naam van kostenbeheereenheid                                                |
+|      Dimensies van kostenelement       |     Dimensienaam kostenelementen, dimensielidnaam kostenelement en dimensielidbeschrijving kostenelement      |
+|       Dimensies van kostenobject       |       Dimensienaam kostenobject, dimensielidnaam kostenobject en dimensielidbeschrijving kostenobject        |
+|       Statistische dimensies       |       Statistische dimensienaam, statistische dimensielidnaam, statistische dimensielidbeschrijving        |
+| Dimensiehiërarchieën kostenobject  |  Hiërarchienaam kostenobjectdimensie, hiërarchieniveau kostenobjectdimensie, hiërarchiestructuur kostenobjectdimensie   |
 | Hiërarchieën kostenelementdimensie | Hiërarchienaam kostenelementdimensie, hiërarchieniveau kostenelementdimensie, hiërarchiestructuur kostenelementdimensie |
-| Statistische dimensiehiërarchieën  | Hiërarchienaam statistische dimensie, hiërarchieniveau statistische dimensie, hiërarchiestructuur statistische dimensie    |
-| Transactieversies               | Versienaam                                                                                                         |
-| Fiscale kalenders                   | Kalender, kalenderomschrijving                                                                                       |
-| Boekjaren                       | Kalenderjaar                                                                                                        |
-| Boekperioden                     | Kalenderjaarperiode                                                                                                 |
+| Statistische dimensiehiërarchieën  |  Hiërarchienaam statistische dimensie, hiërarchieniveau statistische dimensie, hiërarchiestructuur statistische dimensie   |
+|        Transactieversies        |                                                     Versienaam                                                     |
+|          Fiscale kalenders          |                                            Kalender, kalenderomschrijving                                            |
+|            Boekjaren            |                                                    Kalenderjaar                                                     |
+|           Boekperioden           |                                                 Kalenderjaarperiode                                                 |
+
 

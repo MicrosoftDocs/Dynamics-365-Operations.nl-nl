@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-benefit"></a>Een nieuwe vergoeding maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak laat zien hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een Manager compensatie en vergoedingen.
 

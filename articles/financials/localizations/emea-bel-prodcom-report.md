@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-and-maintain-prodcom"></a>PRODCOM instellen en onderhouden
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u PRODCOM in Microsoft Dynamics 365 for Finance and Operations kunt instellen en beheren. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-account"></a>Een leverancierrekening maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een leveranciersrekening maakt en een adres en contactgegevens toevoegt. De procedure toont niet hoe u alle velden vult voor inkoop- en financiële doelen. Voor meer informatie over deze velden leest u de veldbeschrijvingen. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens. Leveranciersrekeningen worden gewoonlijk gemaakt door een inkoop- of debiteurenmedewerker.
 

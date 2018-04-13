@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-estimation"></a>Raming van productieorderkosten
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over ramingen van productiekosten. Door de productiekosten te ramen, weet u wat de verwachte materiaal- en capaciteitverbruikskosten zijn van het fabriceren van een artikel in de geplande productieorderhoeveelheid. 
 

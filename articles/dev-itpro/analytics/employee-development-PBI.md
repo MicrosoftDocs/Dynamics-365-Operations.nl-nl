@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="employee-development-power-bi-content"></a>Power BI-inhoud Werknemerontwikkeling
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt de Microsoft Power BI-inhoud **Werknemerontwikkeling** besproken.
 
@@ -45,6 +45,7 @@ De rapporten die zijn opgenomen in de Power BI-inhoud **Werknemerontwikkeling** 
 U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over het filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
+
 | Entiteit                   | Inhoud                                                                                                   | Relaties met andere entiteiten |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Kalender-offset          | Kalenderverschuivingen om rapporten in te delen                                                                          | Toewijzing eerdere positie, Trend positie, Trend werknemer, Ontslagen werknemer 

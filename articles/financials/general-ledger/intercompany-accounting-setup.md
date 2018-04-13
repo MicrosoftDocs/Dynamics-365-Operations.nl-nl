@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-accounting-setup"></a>Intercompany-boekhouding instellen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u intercompany-boekhouding kunt instellen zodat u intercompany-journalen voor grootboektoewijzingen en financiële journalen, zoals dagelijkse journalen, factuurjournalen van leveranciers en betalingsjournalen, kunt gebruiken.
 

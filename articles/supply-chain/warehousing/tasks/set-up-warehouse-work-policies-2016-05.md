@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-warehouse-work-policies"></a>Werkbeleid magazijn instellen  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In magazijnprocessen wordt niet altijd magazijnwerk opgenomen. Door een werkbeleid te definiëren kunt u voorkomen dat werk wordt gemaakt voor het verzamelen en wegzetten van grondstoffen voor afgewerkte goederen voor een reeks producten op specifieke locaties. Het demobedrijf USMF is gebruikt om deze registratie te maken. Voor deze taakbegeleiding is de toepassing Dynamics AX 7.0.1 of later vereist.
 

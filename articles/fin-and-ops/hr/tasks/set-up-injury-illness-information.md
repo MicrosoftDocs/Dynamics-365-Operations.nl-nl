@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-injury-and-illness-information"></a>Informatie over letsel en ziekten instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden vanwege aan gevaren op de werkplek. U kunt de pagina Letsel en ziekte gebruiken om de gegevens in te stellen die het rapporteren van letsels of ziekte op de werkplaats te vergemakkelijken. U kunt de soorten letsels en ziekten instellen, met inbegrip van de soorten behandelingen, kosten en resultaten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

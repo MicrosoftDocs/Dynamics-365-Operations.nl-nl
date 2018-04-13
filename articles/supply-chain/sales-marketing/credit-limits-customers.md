@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="credit-limits-for-customers"></a>Kredietlimieten voor klanten
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Als u een kredietlimiet instelt, kunt u opgeven hoeveel krediet u maximaal voor uw klanten toestaat. Als er een kredietlimiet is opgegeven, wordt deze automatisch gecontroleerd wanneer een gebruiker een document probeert bij te werken. Als de kredietlimiet is overschreden, wordt er een bericht weergegeven voor de gebruiker. Dit artikel biedt een overzicht van de werking van kredietlimieten en beantwoordt de volgende vragen:
 

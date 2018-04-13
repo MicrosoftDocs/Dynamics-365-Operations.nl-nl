@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="create-an-engaging-onboarding-experience"></a>Een aantrekkelijke onboarding-ervaring maken
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Wanneer het effectief wordt gedaan, helpt onboarding nieuwe medewerkers effectiever te werken terwijl ze het gevoel krijgen dat ze op hun plek zijn in hun nieuwe rol. Onboarding kan ertoe bijdragen dat nieuwe medewerkers hun nieuwe rol sneller en beter begrijpen, en sneller relaties kunnen opbouwen die belangrijk zijn voor hun succes. Een niet-effectieve onboarding-ervaring kan er daarentegen toe leiden dat medewerkers hun beslissing om uw organisatie te komen versterken, in twijfel trekken. In een onderzoek van Gartner in 2014 gaf bijna een derde van de 1005 respondenten die binnen zes maanden ontslag namen aan dat ze dit deden omdat de richtlijnen die ze van hun management kregen niet duidelijk waren, omdat de training niet effectief was of omdat ze geen effectieve relaties konden opbouwen in hun nieuwe omgeving.
 

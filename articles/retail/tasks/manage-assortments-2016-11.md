@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> Assortimenten beheren  
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 In deze procedure wordt getoond hoe u een nieuw productassortiment kunt maken en publiceren. Dit voorbeeld maakt gebruik van het demogegevensmodel USRT. Voor deze procedure zijn Dynamics AX 7.0.1 of hoger en Dynamics AX platform 7.1 vereist.  
 

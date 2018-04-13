@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Een voorlopig budget maken voor de openbare sector
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 U kunt voorlopige budgetregisterregels maken voor een specifiek budgetmodel en dimensiewaarden. Nadat het werkelijke budget is goedgekeurd, kunt u oorspronkelijke budgetjournaalregels maken. Deze procedure werd gemaakt met de demogegevens van het bedrijf PSUS in de partitie van openbare sector.
 

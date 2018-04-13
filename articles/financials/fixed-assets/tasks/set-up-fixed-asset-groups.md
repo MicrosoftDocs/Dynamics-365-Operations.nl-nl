@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-groups"></a>Groepen vaste activa instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een nieuwe vaste-activagroep maakt. Het gebruikt de accountantsrol en demogegevens voor de USMF-rechtspersoon.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Afhandeling van veiligheidsvoorraad voor artikelen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Veiligheidsvoorraad duidt op een extra hoeveelheid van een artikel dat op voorraad wordt gehouden om het risico te verkleinen dat het artikel uitverkocht is. Veiligheidsvoorraad wordt gebruikt als een buffervoorraad voor het geval er verkooporders binnenkomen en de leverancier de extra artikelen niet kan leveren om te voldoen aan de gevraagde verzenddatum van de klant. Wanneer veiligheidsvoorraad wordt gebruikt om een verkooporder af te handelen, wordt de veiligheidsvoorraad kleiner. U kunt Hoofdplanning gebruiken om het veiligheidsniveau voor de voorraad automatisch te herstellen.    
 

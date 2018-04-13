@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling"></a>Bewerkingsplanning
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over de planning van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 

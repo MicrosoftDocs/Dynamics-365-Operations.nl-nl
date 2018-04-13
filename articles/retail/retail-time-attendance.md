@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-time-and-attendance"></a>Tijd en aanwezigheid in detailhandel
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beheer van tijd en aanwezigheid in Microsoft Dynamics 365 for Retail. 
 

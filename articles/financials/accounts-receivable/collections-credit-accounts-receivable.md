@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crediteringen en aanmaningen in Klanten
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Gegevens van klantincasso's worden beheerd in één centrale weergave, met behulp van de Finance and Operations-pagina Incasso's. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
 
@@ -70,9 +69,9 @@ Met de volgende lijstpagina's kunt u gegevens over aanmaningen organiseren.
 
 > [!NOTE]
 > Een ouderdomsmomentopname moet worden gemaakt, voordat u gegevens op deze lijstpagina's kunt bekijken. Er worden alleen gegevens weergegeven voor klanten voor wie een ouderdomsmomentopname is gemaakt. De records die op de lijstpagina worden weergegeven, kunnen als volgt worden gefilterd:
-<li>Een Finance and Operations-gebruiker heeft standaard toegang tot alle klanten die een ouderdomsmomentopname hebben.</li>
-<li>Als er klantverzamelingen bestaan, moet een gebruiker als incassomedewerker zijn ingesteld om de verzamelingen te gebruiken om gegevens op de lijstpagina's met aanmaningen te filteren. De gegevens zijn beperkt tot de klanten die zijn opgenomen in de geselecteerde klantverzameling.</li>
-<li>Als een gebruiker is ingesteld als incassomedewerker, bevat de lijstpagina alleen de verzamelingen die zijn geselecteerd voor die incassomedewerker. Als de schakeloptie Medewerker toestaan alle klantverzamelingen te bekijken is geselecteerd op de pagina Incassomedewerker voor de incassomedewerker, zijn alle verzamelingen beschikbaar voor die medewerker.</li>
+> <li>Een Finance and Operations-gebruiker heeft standaard toegang tot alle klanten die een ouderdomsmomentopname hebben.</li>
+> <li>Als er klantverzamelingen bestaan, moet een gebruiker als incassomedewerker zijn ingesteld om de verzamelingen te gebruiken om gegevens op de lijstpagina's met aanmaningen te filteren. De gegevens zijn beperkt tot de klanten die zijn opgenomen in de geselecteerde klantverzameling.</li>
+> <li>Als een gebruiker is ingesteld als incassomedewerker, bevat de lijstpagina alleen de verzamelingen die zijn geselecteerd voor die incassomedewerker. Als de schakeloptie Medewerker toestaan alle klantverzamelingen te bekijken is geselecteerd op de pagina Incassomedewerker voor de incassomedewerker, zijn alle verzamelingen beschikbaar voor die medewerker.</li>
 
 
 ## <a name="collections-page"></a> Pagina Aanmaningen

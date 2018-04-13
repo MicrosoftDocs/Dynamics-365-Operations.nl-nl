@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-tag-counting"></a>Voorraadlabeltelling
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Dit artikel bevat informatie over labeltelling, dat u gebruikt om de werkelijke inhoud van een magazijn te vergelijken met de voorhanden voorraad.
 

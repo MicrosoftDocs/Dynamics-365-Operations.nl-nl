@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Een bestaande werknemer aannemen via werving
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Soms kunnen open posities worden vervuld met kandidaten die al werknemers in uw organisatie zijn. Deze procedure wordt uitgevoerd door de stappen van het aanstellen van een bestaande werknemer via het wervingsproces te doorlopen. In deze procedure is reeds een wervingsproject ingesteld en heeft een bestaande werknemer al een sollicitatie voor het wervingsproject ingediend. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

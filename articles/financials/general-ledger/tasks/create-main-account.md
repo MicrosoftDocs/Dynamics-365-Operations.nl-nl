@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>Een hoofdrekening maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakbegeleiding helpt u bij het toevoegen van een hoofdrekening aan een bestaand rekeningschema. Bij deze registratie wordt het demobedrijf USMF gebruikt.  
 

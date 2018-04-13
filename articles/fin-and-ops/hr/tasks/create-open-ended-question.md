@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-open-ended-question"></a>Een open vraag maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Open vragen stellen respondenten in staat om hun eigen antwoord te geven. U kunt controleren of dat antwoord een getal, decimaal, datum, opmerking enzovoort is. Deze procedure doorloopt het proces van het maken van een specifiek type vraag te maken, namelijk een open vraag. U begint deze procedure door naar Vragenlijst > Ontwerp > Vragen te gaan. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

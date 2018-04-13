@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Vereisten voor een standaardkostprijsconversie
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp worden de taken besproken die moeten worden uitgevoerd voordat u een standaardkostprijsconversie kunt uitvoeren. 
 

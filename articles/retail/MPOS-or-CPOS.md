@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Kiezen tussen Modern POS en Cloud POS
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Dit onderwerp biedt implementatiespecialisten extra achtergrondinformatie, tips en richtlijnen voor de factoren waarmee ze rekening moeten houden bij de implementatie van Microsoft Dynamics 365 for Retail. Door deze richtlijnen te lezen en te volgen als onderdeel van het implementatieproces, kunnen implementatiespecialisten problemen vermijden die de tevredenheid van gebruikers of de prestaties mogelijk beïnvloeden.
 
@@ -92,8 +92,8 @@ Houd bij het plannen van de POS-implementatie in uw winkels rekening met het vol
 
     Tenzij de verbinding voor een bepaald apparaat zeer betrouwbaar en robuust is, of tenzij een zekere mate van uitvaltijd acceptabel is voor de detailhandelaar, is het raadzaam een van de volgende opties te gebruiken:
 
-    - Gebruik MPOS in Windows en schakel de offlinemodus in.
-    - Implementeer een on-premises RSSU.
+  - Gebruik MPOS in Windows en schakel de offlinemodus in.
+  - Implementeer een on-premises RSSU.
 
     Deze twee opties sluiten elkaar niet uit. Voor de meest betrouwbare topologie kunnen detailhandelaren een lokale RSSU implementeren om de afhankelijk van de internetverbinding of beschikbaarheid van Azure te beperken. Daarnaast kunnen ze POS-kassa's implementeren waarop de offlinemodus wordt ingeschakeld als er een probleem met de lokale server of het netwerk is.
 

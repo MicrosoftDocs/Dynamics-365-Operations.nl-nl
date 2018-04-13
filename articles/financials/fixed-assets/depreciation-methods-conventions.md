@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Afschrijvingsmethoden en conventies
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft een overzicht van de afschrijvingsconventies en afschrijvingsmethoden die door Microsoft Dynamics 365 for Finance and Operations worden ondersteund.
 
@@ -62,7 +61,7 @@ U kunt uit de volgende afschrijvingsmethoden kiezen.
 -   150% degressief
 -   125% degressief
 
- 
+
 
 
 

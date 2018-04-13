@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-rebates-for-payment"></a>Kortingen voor betaling verwerken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure demonstreert hoe u goedgekeurde en verwerkte klantkortingen converteert naar creditnota's. U kunt deze begeleiding gebruiken in het demobedrijf USMF. De preconditie voor deze begeleiding is dat u een of meer kortingsclaims hebt met de status Markeren. Als u USMF gebruikt, moet u de begeleiding 'Klantkortingen genereren en verwerken' uitvoeren voordat u deze begeleiding start.
 

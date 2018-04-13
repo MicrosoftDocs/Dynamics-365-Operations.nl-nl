@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Probleemoplossing voor positiebudgettering
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat beantwoorden op vragen die u kunt hebben wanneer u positiebudgettering configureert. Het behandelt vaak gestelde vragen over hoe u budgetkostenelementen, compensatiegroepen en compensatierasters maakt. 
 

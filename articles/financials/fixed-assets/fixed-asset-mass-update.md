@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Vaste activa groepsgewijs bijwerken
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Als u boeken gebruikt, kunt u de afschrijvingsconventies voor groepen activa wijzigen die deel uitmaken van hetzelfde boek.
 

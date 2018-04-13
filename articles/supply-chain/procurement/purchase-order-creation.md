@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-purchase-orders"></a>Inkooporders maken
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 In dit artikel worden het proces en de opties voor het handmatig maken van een inkooporder beschreven.
 

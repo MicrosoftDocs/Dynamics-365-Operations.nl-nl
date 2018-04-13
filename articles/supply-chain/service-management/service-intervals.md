@@ -28,8 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="service-intervals"></a>Service-intervallen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met serviceovereenkomstintervallen wordt aangegeven hoe vaak er serviceorderregels voor serviceovereenkomstregels worden gemaakt wanneer u automatisch serviceorders maakt.
 

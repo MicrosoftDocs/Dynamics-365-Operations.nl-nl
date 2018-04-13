@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-a-cost-element-dimension"></a>Een kostenelementdimensie toewijzen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Een kostencontroller kan deze procedure gebruiken om een kostenelementdimensie toe te wijzen aan een kostenelementdimensie in de MXMF-rechtspersoon. Deze registratie gebruikt het USP2-demogegevensbedrijf.
 

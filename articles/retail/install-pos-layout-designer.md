@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>De Retail POS-indelingsontwerper installeren
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 U kunt de één-klik-ontwerper gebruiken om verschillende Retail Modern POS- (MPOS) en POS Cloud-indelingen, in de modus Liggend of Staand, te ontwerpen voor winkels, kassa's, kassiers en managers.
 

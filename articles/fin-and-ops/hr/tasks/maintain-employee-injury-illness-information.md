@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Informatie over verwondingen en ziekte bij werknemers bijhouden
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Het is raadzaam om eerst de taakbegeleiding 'Instelling van letsel en ziekte' te voltooien, want een deel van informatie wordt hier gebruikt. 
 

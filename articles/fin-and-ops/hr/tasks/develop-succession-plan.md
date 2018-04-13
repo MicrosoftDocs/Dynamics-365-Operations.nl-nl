@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-a-succession-plan"></a>Een opvolgingsplan ontwikkelen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Als uw organisatie groeit, en u opvolgingsplanning overweegt, wilt u misschien iemand zoeken die vergelijkbare vaardigheden als een andere persoon heeft.  Met Vaardigheidstoewijzing kunt u uw bestaande werknemers en sollicitanten analyseren om te zien of ze voldoen aan de set vaardigheden van een gewaardeerde werknemer. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

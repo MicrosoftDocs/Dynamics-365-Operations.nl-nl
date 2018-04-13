@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Recordsjablonen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel introduceert het concept van recordsjablonen en legt uit hoe deze kunnen worden gebruikt om records te maken waarmee informatie wordt gedeeld.
 

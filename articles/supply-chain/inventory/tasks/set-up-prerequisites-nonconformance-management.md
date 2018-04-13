@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Vereisten voor beheer instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Met deze procedure kunt u de processen van het niet-conformeringsbeheer inschakelen. Met een niet-conformering wordt een artikel met kwaliteitsproblemen beschreven, waarbij de omschrijvende informatie de bron en het type probleem bevat. Deze procedure gebruikt het demobedrijf USMF. Doorgaans wordt deze procedure uitgevoerd door een kwaliteitsmanager.
 

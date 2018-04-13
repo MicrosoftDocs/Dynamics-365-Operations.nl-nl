@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Bronbelasting instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bronbelasting is belasting op leveranciers waarbij geen btw-transacties worden gemaakt. Bronbelasting die is berekend over betalingen van leveranciers is een schuld. Daarom zijn alleen balansrekeningen of schuldenrekeningen geldige rekeningen voor het boeken van bronbelasting. Deze taakbegeleiding toont hoe u bronbelasting instelt.
 

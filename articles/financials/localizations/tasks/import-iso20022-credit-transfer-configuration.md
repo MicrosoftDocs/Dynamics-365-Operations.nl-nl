@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Configuratie van ISO20022-kredietoverdracht importeren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u een configuratie voor elektronische rapportage van leveranciersbetalingen importeert. De Duitse kredietoverdrachtindeling ISO 20022 wordt hier als voorbeeld gebruikt. Deze procedure kan worden gebruikt voor andere beschikbare indelingen voor elektronische rapportage. 
 

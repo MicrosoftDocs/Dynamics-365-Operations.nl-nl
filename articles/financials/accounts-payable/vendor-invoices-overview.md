@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Overzicht van leveranciersfacturen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft algemene informatie over het leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services. 
 
@@ -87,11 +86,11 @@ Zie  voor meer informatie.
  - [Leveranciersfactuurbeleid instellen](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Factuurgegevens invoeren in leveranciers met behulp van een leveranciersfactuur](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Factuurgegevens invoeren in leveranciers met behulp van een goedkeuringsjournaal](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Een leveranciersfactuur in het factuurjournaal registreren](tasks/record-vendor-invoice-invoice-journal.md)
 
 

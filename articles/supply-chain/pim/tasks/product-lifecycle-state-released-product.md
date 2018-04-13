@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Een status voor de productlevenscyclus toewijzen aan een vrijgegeven product
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een status van productlevenscyclus toewijst aan een vrijgegeven product. Vereiste: U moet eerst de taakbegeleiding "Een nieuwe status voor de productlevenscyclus maken" afspelen om ervoor te zorgen dat er minimaal één status voor de productlevenscyclus is gemaakt voordat u deze begeleiding kunt afspelen.
 

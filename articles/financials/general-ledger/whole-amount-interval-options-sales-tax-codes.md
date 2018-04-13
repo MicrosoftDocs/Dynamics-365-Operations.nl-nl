@@ -28,19 +28,17 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Berekeningsopties Volledige bedrag en Interval voor btw-codes
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 In dit artikel worden de opties voor het veld Berekeningsmethode voor btw-codes uitgelegd en wordt uitgelegd hoe btw wordt berekend voor intervallen en gehele bedragen.
 
 U kunt een btw-code instellen die moet worden berekend op basis van het gehele bedrag of een intervalbedrag. Gebruik op de pagina Btw-codes het veld Berekeningsmethode op het sneltabblad Berekening om te selecteren hoe u een btw-code berekent.
--   Volledige bedrag – Het btw-tarief wordt toegepast op het gehele belastbare bedrag.
--   Interval – Het belastbare bedrag is verdeeld in delen en elk deel valt in een bereik met een bepaald btw-tarief. Het deel van het bedrag dat in een bepaald interval valt, wordt belast volgens het btw-tarief voor dat interval. De btw is de som van de btw-bedragen die worden berekend voor elk intervalbedrag.
-> [!NOTE]                                                                                                                              
-> De optie Interval is alleen beschikbaar wanneer u Regel selecteert in het veld Berekeningsmethode in het btw-gebied van de pagina Grootboekparameters. 
+- Volledige bedrag – Het btw-tarief wordt toegepast op het gehele belastbare bedrag.
+- Interval – Het belastbare bedrag is verdeeld in delen en elk deel valt in een bereik met een bepaald btw-tarief. Het deel van het bedrag dat in een bepaald interval valt, wordt belast volgens het btw-tarief voor dat interval. De btw is de som van de btw-bedragen die worden berekend voor elk intervalbedrag.
+  > [!NOTE]                                                                                                                              
+  > De optie Interval is alleen beschikbaar wanneer u Regel selecteert in het veld Berekeningsmethode in het btw-gebied van de pagina Grootboekparameters. 
 
 Intervallen worden ingesteld op de pagina Waarden btw-code door bedragen voor Ondergrens en Bovengrens in te voeren per btw-tarief. Voor btw die moet worden berekend over alle belastbare bedragen - ongeacht welke berekeningsmethode is geselecteerd - moeten de intervallen voldoen aan de volgende regels:
 -   Het eerste interval moet een ondergrens van nul hebben.
@@ -51,6 +49,7 @@ Als een bedrag de bovengrens van het vorige interval en de ondergrens van het vo
 
 ## <a name="example-whole-amount-method-of-calculation"></a>Voorbeeld: Berekeningsmethode is volledige bedrag
 Op de pagina Waarden btw-code worden de btw-tarieven ingesteld met de volgende intervallen:
+
 |                   |                   |              |
 |-------------------|-------------------|--------------|
 | **Ondergrens** | **Bovengrens** | **Btw-tarief** |
@@ -86,7 +85,7 @@ De btw is de som van de btw-bedragen die worden berekend voor elk intervalbedrag
 | 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
 | 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
- 
+
 
 Zie voor meer informatie het onderwerp [Btw-tarieven bepalen op basis van de velden Marginale basis en Berekeningsmethode](marginal-base-field.md)
 

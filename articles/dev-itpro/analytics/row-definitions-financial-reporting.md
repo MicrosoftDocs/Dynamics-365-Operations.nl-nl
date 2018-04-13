@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="row-definitions-in-financial-report-designer"></a>Rijdefinities in Ontwerper financiële rapporten
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een rijdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van elke rij in een financieel rapport wordt gespecificeerd. Een rijdefinitie kan worden gecombineerd met kolomdefinities, rapportagestructuurdefinities en rapportdefinities om een bouwsteengroep te maken die door meerdere bedrijven kan worden gebruikt.
 

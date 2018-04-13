@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Nieuwe taakbegeleidingen (februari 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics AX (februari 2016) en Aan de slag (februari 2016).
 
@@ -50,8 +49,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Validatie van factuurvereffening instellen voor leveranciers       | Algemeen             |
 | Leveranciersfactuurbeleid instellen                            | Algemeen             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Klanten
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Incassogegevens beoordelen                              | Algemeen             |
 | Informatie over ouderdom van klanten instellen en genereren   | Algemeen             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Contanten en bankbeheer
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Een gepostdateerde cheque van een klant vereffenen                             | Algemeen             |
 | Overzicht van leveranciersbetaling                                              | Algemeen             |
 
- 
 
+ 
 ### <a name="compliance"></a>Conformiteit
 
 |                                            |                    |
@@ -108,8 +107,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | **BPM-regel**                               | **Land/regio** |
 | Auditbeleid voor brondocumenten definiëren | Algemeen             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Kostenbeheer
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Huidige OHW-status op een productieorder weergeven                       | Algemeen             |
 | Voorraadoverzicht en KPI's per kostenobject weergeven                     | Algemeen             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Functionaliteit land/regio
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | GB-00009 Een creditnota maken voor de vereffeningskorting                                               | Verenigd Koninkrijk                  |
 | GB-00009 Parameters instellen voor creditnota voor korting bij snelle betaling                                   | Verenigd Koninkrijk                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Visie en strategie ontwikkelen
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Een vraag afhankelijk maken van het antwoord op de vorige vraag (voorwaardelijke vragen) | Algemeen             |
 | Een vragenlijst van een score voorzien op basis van Procent                                                   | Algemeen             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Elektronische rapportage
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Er Wjis gegevensmodel toe aan geselecteerde gegevensbronnen      | Algemeen             |
 | ER Selecteer serviceprovider                      | Algemeen             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Onkostenbeheer
 
 |                              |                    |
@@ -298,8 +297,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | **BPM-regel**                 | **Land/regio** |
 | Onkostenbeheer configureren | Algemeen             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Vaste activa
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Een vast activum splitsen                                       | Algemeen             |
 | Vaste activa overboeken                                    | Algemeen             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Grootboek
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Journaalboekingen voor transacties weergeven                              | Algemeen             |
 | Gerelateerd intercompany-boekstuk van journaal weergeven                    | Algemeen             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Human Capital-beheer
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Beleid om in aanmerking te komen voor een vergoeding instellen                             | Algemeen             |
 | i9-documenttypen instellen                                     | Algemeen             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Voorraadbeheer
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Een artikel of een grondstof traceren                                                     | Algemeen             |
 | Fysieke voorraad in het magazijn overboeken                                  | Algemeen             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Productie
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Materiaal met kanbantaken overboeken                            | Algemeen             |
 | Productiestroom en -versie valideren                          | Algemeen             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Hoofdplanning
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Belangrijk materiaal en capaciteit van leverancier identificeren | Algemeen             |
 | Handmatig een vraagprognose wijzigen                 | Algemeen             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Organisatiebeheer
 
 |                                           |                    |
@@ -501,8 +500,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Elektronische handtekeningen instellen              | Algemeen             |
 | Nummerreeksen instellen met een wizard | Algemeen             |
 
- 
 
+ 
 ### <a name="planning"></a>Planning
 
 |                        |                    |
@@ -510,8 +509,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | **BPM-regel**           | **Land/regio** |
 | Beschikbaarheid bepalen | Algemeen             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Inkoopbeheer
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Zoeken naar leveranciers                                               | Algemeen             |
 | Een hiërarchie van aanschaffingscategorieën instellen                          | Algemeen             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Productgegevens en -configuratie
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Een op ..\financial-dimensions\dimensies gebaseerd productmodel vrijgeven              | Globaal             |
 | Gegevens voor productmodellen overboeken                      | Algemeen             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Openbare sector
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Een fonds instellen voor de openbare sector                                                         | Algemeen             |
 | Inkoopovereenkomstclassificaties instellen voor de openbare sector                             | Algemeen             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Detailhandel en commerce
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Detailhandelsprijscorrecties                                                                  | Algemeen             |
 | Configuraties voor detailhandeloverzichten opslaan                                                | Algemeen             |
 
- 
 
+ 
 ### <a name="sales"></a>Verkoop
 
 |                                            |                    |
@@ -642,8 +641,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Orders verzenden als rechtstreekse leveringen           | Algemeen             |
 | Verkooporders verzenden zonder magazijn      | Algemeen             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>Btw
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Bronbelasting instellen                             | Algemeen             |
 | Geboekte btw-transacties weergeven                 | Algemeen             |
 
- 
 
+ 
 ### <a name="security"></a>Beveiliging
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Conflicten met scheiding van taken identificeren en oplossen | Algemeen             |
 | Scheiding van taken instellen                            | Algemeen             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Magazijn en transport
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Vervoerders instellen                                                          | Algemeen             |
 | Workbench van ladingplanning gebruiken om ladingen en zendingen te plannen                       | Algemeen             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Taakbegeleidingen in de Aan de slag-bibliotheek (februari 2016)
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **BPM-regel**                                       | **Land/regio** |

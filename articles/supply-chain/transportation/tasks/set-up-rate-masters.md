@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>Tariefmodellen instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een tariefmodel instelt. De logistiek manager stelt meestal tariefmodellen in, afhankelijk van de contracten die met de vervoerders worden ondertekend. In dit scenario gaat u een tariefmodel instellen voor een luchtvaartmaatschappij. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

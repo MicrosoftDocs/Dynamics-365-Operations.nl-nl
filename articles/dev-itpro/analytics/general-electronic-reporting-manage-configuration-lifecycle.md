@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>De levenscyclus van de configuratie van elektronische rapportage beheren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u de levenscyclus van ER-configuratie (elektronische rapportage) voor de Microsoft Dynamics 365 for Finance and Operations-oplossing kunt beheren.
 

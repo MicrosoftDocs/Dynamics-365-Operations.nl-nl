@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="three-way-matching-policies"></a>Drieweg-overeenstemmingsbeleid
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt voorbeelden van drieweg-overeenstemming.
 

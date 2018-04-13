@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Lineaire afschrijving restlevensduur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft een overzicht van de afschrijvingsmethode ´Lineaire restlevensduur´.
 

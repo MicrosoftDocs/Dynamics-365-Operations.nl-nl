@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-agreements"></a>Verkoopovereenkomsten
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over verkoopovereenkomsten. Een verkoopovereenkomst is een contract waarmee een klant toezegt specifieke hoeveelheden van producten te kopen of het product gedurende een specifieke periode te kopen, in ruil voor speciale prijzen en kortingen.
 

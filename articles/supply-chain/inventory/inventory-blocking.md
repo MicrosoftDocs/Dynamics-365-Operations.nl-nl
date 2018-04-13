@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>Voorraadblokkering
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft een overzicht van voorraadblokkering, dat deel uitmaakt van het kwaliteitsinspectieproces in Microsoft Dynamics 365 for Finance and Operations. U kunt voorraadblokkering gebruiken om te voorkomen dat artikelen worden verwerkt of verbruikt.
 

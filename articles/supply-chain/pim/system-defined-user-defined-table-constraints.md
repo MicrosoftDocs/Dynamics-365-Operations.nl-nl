@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Tabelbeperkingen door de gebruiker of door het systeem gedefinieerd
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel beschrijft de twee typen tabelbeperkingen voor onderdelen in een productconfiguratiemodel: gedefinieerd door de gebruiker en gedefinieerd door het systeem. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert.
 

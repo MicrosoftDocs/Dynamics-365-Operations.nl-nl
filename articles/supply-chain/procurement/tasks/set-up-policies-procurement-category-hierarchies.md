@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Beleid instellen voor categoriehiërarchieën voor aanschaffing
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Gebruik deze procedure voor het instellen van regels voor het bestellen van producten in een categorie. De regels worden gedefinieerd voor een specifiek inkoopbeleid. De regel voor categorietoegang bepaalt tot welke aanschaffingscategorieën werknemers toegang hebben bij het maken van een inkoopopdracht. Wanneer een inkoopopdracht wordt gemaakt, worden het inkoopbeleid en de regel voor categorietoegang die moeten worden toegepast bepaald door de rechtspersoon en de operationele eenheid waartoe de werknemer behoort. U kunt deze procedure gebruiken in het demobedrijf USMF. Deze taak wordt meestal uitgevoerd door een inkoopmanager.
 

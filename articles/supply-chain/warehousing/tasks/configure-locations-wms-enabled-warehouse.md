@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Locaties in een WMS-magazijn configureren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw WMS-magazijn (een magazijn dat geavanceerde magazijnbeheerprocessen gebruikt). Het proces wordt gewoonlijk uitgevoerd door een magazijnmanager. U kunt deze begeleiding uitvoeren in het demobedrijf USMF of met uw eigen gegevens. Een preconditie is dat u ten minste één geconfigureerde site hebt.
 

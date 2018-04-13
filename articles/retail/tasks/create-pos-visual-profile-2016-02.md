@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a> Een visueel POS-profiel maken  
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van een nieuw visueel profiel voor een verkooppunt (POS). Een visueel profiel bevat basisinformatie die het uiterlijk van POS-registers bepaalt. U kunt meerdere weergaveprofielen maken en toewijzen welke profielen er op specifieke kassa's moeten worden geactiveerd. Deze procedure gebruikt het demobedrijf USRT.
 

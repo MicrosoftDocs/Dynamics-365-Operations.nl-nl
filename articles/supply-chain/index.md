@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor Supply Chain Management in Microsoft Dynamics 365 for Finance and Operations. 
 

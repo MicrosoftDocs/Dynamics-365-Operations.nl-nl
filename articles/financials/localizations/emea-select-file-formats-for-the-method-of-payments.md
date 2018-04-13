@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="file-formats-for-methods-of-payment"></a>Bestandsindelingen voor betalingsmethoden
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp worden de twee methoden beschreven voor het verkrijgen van bestandsindelingen die u voor betalingsmethoden kunt gebruiken.
 

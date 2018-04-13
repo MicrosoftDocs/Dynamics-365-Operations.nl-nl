@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Het importproces voor geavanceerde bankafstemming instellen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 for Finance and Operations. In dit artikel wordt uitgelegd hoe u de importfunctionaliteit voor uw bankafschriften kunt instellen. 
 
@@ -57,7 +56,7 @@ Hieronder ziet u voorbeelden van de technische indelingsdefinities van geavancee
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>De import van ISO20022-bankafschriften instellen
 Eerst moet u de verwerkingsgroep voor de indeling voor bankafschriften definiëren voor ISO20022-bankafschriften met behulp van het gegevensentiteitsraamwerk.

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Een creditnota voor projectfacturen maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Ga naar Projectbeheer en boekhouding > Projecten > Alle projecten. 
 2. Zoek en selecteer de gewenste record in de lijst. 

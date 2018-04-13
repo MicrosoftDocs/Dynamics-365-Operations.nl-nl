@@ -26,7 +26,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="welcome-to-human-resources"></a>Welkom bij Human resources
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Human resources stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Het biedt tevens een kader voor het personeel van Human resources voor het beheren van gebieden van toezicht. Deze gebieden zijn werknemerwerving en behoud, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer.
 

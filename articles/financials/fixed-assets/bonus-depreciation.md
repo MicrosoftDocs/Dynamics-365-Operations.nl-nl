@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bonus-depreciation"></a>Bonusafschrijving
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel vindt u een overzicht van de functionaliteit voor bonusafschrijving.
 

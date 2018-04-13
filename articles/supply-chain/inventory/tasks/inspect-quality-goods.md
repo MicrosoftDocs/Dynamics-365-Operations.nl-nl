@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="inspect-the-quality-of-goods"></a>De kwaliteit van goederen inspecteren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een kwaliteitsorder verwerkt. U kunt deze handleiding uitvoeren in het demobedrijf USMF. Voordat u deze voorbeeldprocedure start, moet u aankooporder "000016" bevestigen en een productontvangst boeken. Hiermee wordt automatisch een kwaliteitsorder gemaakt. Kwaliteitscontroles worden gewoonlijk uitgevoerd door een kwaliteitsmedewerker.
 

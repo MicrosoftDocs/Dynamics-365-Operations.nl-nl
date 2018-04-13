@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Overzicht met productinformatie
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Dit onderwerp biedt informatie over productgegevensbeheer. Productgegevensbeheer werkt met een gedeelde productdefinitie, categorisatie en id's in alle rechtspersonen en specifieke configuraties van een product, zodat deze past in de bedrijfsprocessen. 
 

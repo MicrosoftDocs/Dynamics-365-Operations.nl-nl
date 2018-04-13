@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Klantkortingen genereren en verwerken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van de claim tot het doorgeven ervan als toerekeningen aan Debiteuren. U wordt geleid door een specifiek voorbeeld om uit te leggen hoe de verschillende voorwaarden van de kortingsregels van invloed zijn op de uiteindelijke bedragen die aan de klant worden gecrediteerd. U moet het demobedrijf USMF gebruiken en de volgende taken uitvoeren voordat u de begeleiding start: (1) Ga naar de pagina Parameters van module Klanten en vouw het tabblad Prijzen en vervolgens het tabblad Prijsgegevens uit en controleer of de optie Prijsdetails inschakelen is ingesteld op Ja. (2) Ga naar de pagina Kortingsovereenkomsten en selecteer de kortingsovereenkomst van de klant: USMF-000001. Als het veld Goedkeuringsstatus workflow niet is ingesteld op Goedgekeurd, moet u in het actievenster op Validatie klikken om deze goed te keuren.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>Incassogegevens controleren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure begeleidt u door het controleren van incassogegevens en verschillende instellingsopties en incassotransacties. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 

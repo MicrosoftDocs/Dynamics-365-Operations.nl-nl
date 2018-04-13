@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over inkoopovereenkomsten. Een inkoopovereenkomst is een contract dat een organisatie ertoe verbindt een opgegeven aantal of bedrag in te kopen via meerdere inkooporders in een bepaalde periode. De koper ontvangt in ruil voor deze toezegging speciale prijzen en kortingen. 
 

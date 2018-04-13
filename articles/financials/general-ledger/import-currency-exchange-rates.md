@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-currency-exchange-rates"></a>Valutawisselkoersen importeren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Als een rechtspersoon facturen in vreemde valuta's heeft ontvangen, is het nodig de vreemde valuta in de lokale valuta om te rekenen. Dit betekent dat de actuele wisselkoersen voor verschillende valuta's vereist zijn. Dit onderwerp biedt een overzicht van de vereiste instellingen en verwerking voor het importeren van deviezenreferentiekoersen die via internet zijn gepubliceerd door de wisselkoersproviders, zoals de Europese Centrale Bank en de Centrale Bank van Rusland.
 

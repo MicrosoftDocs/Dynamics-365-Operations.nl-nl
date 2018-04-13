@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Een goedkeuringsproces configureren in een workflow
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met behulp van de volgende procedure kunt u de eigenschappen van het goedkeuringsproces configureren.
 
@@ -136,6 +135,7 @@ Mogelijk wilt u een definitieve fiatteur aanduiden voor gevallen waarin de fiatt
 
 ## <a name="set-a-time-limit"></a>Een tijdslimiet instellen
 Volg deze stappen als het goedkeuringsproces binnen een opgegeven tijd moet worden voltooid.
+
 | **Opmerking**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De opties die u in deze stappen selecteert, overschrijven de opties die u in de gebieden **Toewijzing** en **Escalatie** van elke goedkeuringsstap hebt geselecteerd. |

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a> Kant-en-klare rapporten genereren en uitvoeren
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Gebruik deze taakbegeleiding om kant-en-klare rapporten op het hoofdkantoor uit te voeren vanuit verschillende werkgebieden en query's en verkooprapporten onder Detailhandel en commerce.
 

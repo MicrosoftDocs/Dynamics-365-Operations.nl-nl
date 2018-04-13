@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Een hiërarchie van aanschaffingscategorieën instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u nieuwe knooppunten in een hiërarchie van aanschaffingscategorieën maakt en hoe u een aanschaffingscategorie configureert die in een aanschaffingsproces moet worden gebruikt. Deze taken worden meestal uitgevoerd door een inkoopmanager. Voordat u deze procedure kunt starten, moet er een categoriehiërarchie van het type Inkoop zijn. Als u een demobedrijf gebruikt, kunt u deze procedure in het bedrijf USMF uitvoeren.
 

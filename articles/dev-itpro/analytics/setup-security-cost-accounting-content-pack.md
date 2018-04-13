@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Beveiliging instellen voor de Power BI-inhoud voor kostprijsboekhoudingsanalyse
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u de beveiliging op toegangsniveau in Kostprijsboekhouding kunt doorvoeren naar beveiliging op rijniveau in Microsoft Power BI. Deze functionaliteit borgt dat gebruikers alleen de Power BI-gegevens zien waar hen toegang tot is verleend.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> Een apparaat maken en koppelen
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een nieuw apparaat maakt en koppelt aan een register. Er wordt aangenomen dat het register al is gemaakt.  Deze taak gebruikt het demobedrijf USRT. Deze taak is bedoeld voor de rollen Beheerder, IT-professional of Detailhandel IT en Winkelmanager.
 

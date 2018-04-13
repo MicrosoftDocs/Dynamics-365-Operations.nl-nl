@@ -29,8 +29,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="shift-and-cash-drawer-management"></a>Ploegen- en kasladebeheer
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u de twee typen ploegen voor detailhandelverkooppunten (POS) kunt instellen en gebruiken: gedeelde en zelfstandige. Gedeelde ploegen kunnen worden gebruikt door meerdere gebruikers op meerdere plaatsen terwijl zelfstandige ploegen kunnen worden gebruikt door slechts één werknemer tegelijk.
 

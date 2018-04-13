@@ -24,9 +24,9 @@ ms.lasthandoff: 03/23/2018
 ---
 
 # <a name="batch-processing-for-alerts"></a>Batchverwerking voor waarschuwingen
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Waarschuwingen worden verwerkt door de batchverwerkingsfunctie in Microsoft Dynamics 365 for Finance and Operations. Stel batchverwerking in voordat waarschuwingen kunnen worden verzonden.
 

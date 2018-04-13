@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-benefit-expiration-dates"></a>Vervaldatums voor vergoeding beheren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een vergoeding kunt laten verlopen of kunt verlengen, en hoe u de inschrijvingsdatums kunt beheren van werknemers die in de vergoeding geregistreerd zijn. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

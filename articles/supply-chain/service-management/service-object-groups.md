@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-groups"></a>Serviceobjectgroepen 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Objectgroepen zijn handig voor het sorteren en filteren van de gegevens over objecten voor rapporten en statistieken. U kunt bijvoorbeeld objecten op geografische locatie of op type groeperen.
 

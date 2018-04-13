@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="party-search-using-vat-id"></a>Een partij zoeken door middel van het btw-id
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een partij-zoekopdracht uitvoert met een registratie-id. Voordat u deze procedure kunt uitvoeren, moet u btw-id's instellen en invoeren voor leveranciers, klanten of rechtspersonen.
 

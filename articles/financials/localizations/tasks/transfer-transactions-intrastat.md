@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a>Transacties overboeken naar Intrastat
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure begeleidt u bij het instellen van Intrastat-parameters en overboeken van transacties naar Intrastat. Deze procedure is gemaakt met het demobedrijf DEMF.
 

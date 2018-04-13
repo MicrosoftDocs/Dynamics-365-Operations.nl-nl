@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>Financiële rapportage
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 for Finance and Operations en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat een omschrijving van de financiële standaardrapporten die worden geleverd.
 

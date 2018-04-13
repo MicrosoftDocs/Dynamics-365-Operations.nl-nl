@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-activity-relation-successor"></a>Activiteitsrelatie maken: opvolgende activiteit
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 De stroom van activiteiten in lean productiestroom wordt gedocumenteerd door middel van activiteitsrelaties. Deze registratie toont aan hoe een activiteitsrelatie wordt gemaakt.
 

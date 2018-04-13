@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Weergave-instellingen voor mobiel apparaat magazijn
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u het uiterlijk van het scherm van een mobiel apparaat instelt en snelkoppelingen koppelt aan besturingselementen, zoals knoppen. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Een scoringsmethode maken voor offerteaanvragen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een scoringsmethode maakt. Een scoringsmethode is een set van criteria die kan worden gebruikt om biedingen te vergelijken die in antwoord op een offerteaanvraag zijn verzonden. Zo kunt u bijvoorbeeld een leverancier beoordelen op vroegere prestaties of beoordelen of het bedrijf milieuvriendelijk is of goed meewerkt, of u kunt biedingen vergelijken op basis van de prijs. De scoringsmethode kan als standaardscoringsmethode aan een verzoektype worden gekoppeld voor offerteaanvragen van dat type. Deze taken worden meestal uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.
 

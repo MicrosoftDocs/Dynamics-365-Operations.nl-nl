@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Magazijnbeheer
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met de module Magazijnbeheer voor Dynamics 365 for Finance and Operations kunt u magazijnprocessen beheren in productie-, distributie- en detailhandelbedrijven. Deze module biedt een breed scala aan functies om de magazijnfaciliteit op een optimaal niveau te ondersteunen, wanneer dan ook. Magazijnbeheer is volledig geïntegreerd met andere bedrijfsprocessen in Finance and Operations, zoals transport, productie, kwaliteitscontrole, inkoop, transfer, verkoop en retouren.
 

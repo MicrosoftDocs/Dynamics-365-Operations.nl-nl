@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel vindt u tips voor het importeren van gegevens in het algemeen journaal met behulp van de entiteit Algemeen journaal.  
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-catalogs"></a>Inkoopcatalogi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel beschrijft op een hoog niveau hoe de inkoopprofessional aanschaffingscatalogi kan instellen en onderhouden. Aanschaffingscatalogi definiëren de artikelen en services die werknemers van het bedrijf kunnen gebruiken wanneer ze artikelen en services voor intern gebruik bestellen.
 

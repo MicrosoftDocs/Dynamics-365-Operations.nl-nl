@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Werkgebied voor validatie van gegevens
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van het werkgebied **Controlelijst voor gegevensvalidatie** en de bijbehorende configuratie.
 

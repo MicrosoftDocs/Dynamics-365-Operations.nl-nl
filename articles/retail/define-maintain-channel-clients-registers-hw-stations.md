@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Kanaalclients, waaronder kassa's en hardwarestations, definiëren en onderhouden
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u randapparatuur aansluit op uw Retail POS.
 

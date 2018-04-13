@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>Financiële rapporten proefbalans
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel worden de standaardrapporten voor proefbalansen beschreven. Hierin worden ook de bouwstenen beschreven die zijn gekoppeld aan deze rapporten, en hoe u de rapporten kunt aanpassen aan uw zakelijke behoeften. 
 
@@ -99,7 +98,7 @@ In elk proefbalansrapport wordt een andere kolomdefinitie gebruikt. Deze kolomde
     -   **FD**: de financiële gegevens die alleen debetbedragen voor het afgelopen jaar bevatten
     -   **FD**: de financiële gegevens die alleen creditbedragen voor het afgelopen jaar bevatten
 
- 
+
 
 <a name="see-also"></a>Zie ook
 --------

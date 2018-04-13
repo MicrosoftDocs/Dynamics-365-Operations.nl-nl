@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Handmatig een vraagprognose wijzigen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze opname is bedoeld voor de productieplanner. 
 

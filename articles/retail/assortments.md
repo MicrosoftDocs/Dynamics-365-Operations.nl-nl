@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Assortimentsbeheer
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Overzicht
 Microsoft Dynamics 365 for Retail biedt *assortimenten* waarmee u de productbeschikbaarheid kunt beheren via kanalen. Assortimenten bepalen welke producten beschikbaar zijn in bepaalde winkels en een specifieke periode.

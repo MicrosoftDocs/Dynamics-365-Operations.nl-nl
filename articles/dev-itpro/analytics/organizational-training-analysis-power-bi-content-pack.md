@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="organizational-training-power-bi-content"></a>Power BI-inhoud voor organisatietraining
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt Power BI-inhoud voor organisatietraining in Finance and Operations beschreven. 
 

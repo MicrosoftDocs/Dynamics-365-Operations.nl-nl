@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Herwaardering van vreemde valuta voor Grootboek
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp bevat een overzicht van de volgende onderdelen van het herwaarderingsproces van vreemde valuta voor het grootboek: instellingen, het proces uitvoeren, berekening voor het proces en het omkeren van de herwaarderingstransacties, indien nodig. 
 

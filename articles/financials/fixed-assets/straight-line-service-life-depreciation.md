@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Lineaire afschrijving van levensduur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft een overzicht van de afschrijvingsmethode Lineaire levensduur.
 

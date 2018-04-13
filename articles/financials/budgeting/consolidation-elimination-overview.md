@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidation-and-elimination-overview"></a>Overzicht van consolidatie en schrapping
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft algemene informatie over het consolidatie- en schrappingsproces. Het bevat antwoorden op enkele veelgestelde vragen.
 

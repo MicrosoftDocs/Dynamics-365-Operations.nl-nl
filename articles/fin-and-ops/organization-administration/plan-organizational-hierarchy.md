@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Uw organisatiehiërarchie plannen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Voordat u de installatieorganisaties en organisatiehiërarchieën instelt in Microsoft Dynamics 365 for Finance and Operations, moet u plannen hoe uw bedrijf wordt gemodelleerd. Het organisatiemodel heeft een aanzienlijk effect op de implementatie van Finance and Operations en op bedrijfsprocessen. 
 
@@ -158,7 +157,7 @@ Als de wettelijke- en boekhoudingsverantwoordingsmethoden verschillen in de land
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Als de organisatie als operationele eenheid wordt gemodelleerd 
 Als de wettelijke- en boekhoudingsverantwoordingsmethoden gelijk zijn in de landen/regio's waarin uw organisaties zich bevinden, kunt u een set van jaareindeprocedures gebruiken. Dit betekent dat u de organisaties als operationele eenheden kunt modelleren. Alle operationele eenheden moeten dezelfde jaarafsluitingsprocedure gebruiken. 
-   
+
 ### <a name="number-sequences"></a>Nummerreeksen
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Als de organisatie als rechtspersoon is gemodelleerd
 De nummerreeksen voor sommige verwijzingen kunnen worden ingesteld per rechtspersoon. Sommige nummerreeksen kunnen worden gedeeld. 
