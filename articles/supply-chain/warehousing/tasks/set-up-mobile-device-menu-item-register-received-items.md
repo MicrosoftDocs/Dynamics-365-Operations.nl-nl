@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 7b5d757361c1163bbd0300abd3da4e0a2dd6b0e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e17ac2b9f4eff06bdff7cdb210acdc05ed2ef4e5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a><span data-ttu-id="1212b-103">Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren</span><span class="sxs-lookup"><span data-stu-id="1212b-103">Set up a mobile device menu item to register received items</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1212b-104">Deze taak is gericht op de instelling van een menuopdracht van mobiel apparaat.</span><span class="sxs-lookup"><span data-stu-id="1212b-104">This task focuses on the setup of a mobile device menu item.</span></span> <span data-ttu-id="1212b-105">Deze menuopdracht wordt gebruikt voor de registratie van de ontvangst van artikelen die via inkooporders werden besteld.</span><span class="sxs-lookup"><span data-stu-id="1212b-105">This menu item is used for registration of the receipt of items ordered via purchase orders.</span></span> 
 

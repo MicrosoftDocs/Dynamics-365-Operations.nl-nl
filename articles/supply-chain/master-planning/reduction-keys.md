@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506ca3aac7ad271ca7472f3b74627e94d97a74ee
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ca65d3c12abd64bef23954b45f73af1bf62f9f3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reduction-keys"></a><span data-ttu-id="d1cbc-105">Reductiesleutels</span><span class="sxs-lookup"><span data-stu-id="d1cbc-105">Reduction keys</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d1cbc-106">Dit artikel bevat voorbeelden die het instellen van een reductiesleutel weergeven.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="d1cbc-107">Het bevat informatie over de verschillende reductiesleutelinstellingen en de resultaten van elk.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="d1cbc-108">U kunt een reductiesleutel gebruiken om te definiëren hoe prognosebehoeften worden gereduceerd.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="d1cbc-110">In dit voorbeeld wordt weergegeven hoe een reductiesleutel vraagprognosebehoeften reduceert overeenkomstig de percentages en perioden die door de reductiesleutel worden gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  <span data-ttu-id="d1cbc-111">Stel op de pagina **Reductiesleutels** de volgende regels in.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-111">On the **Reduction keys** page, set up the following lines.</span></span>
-    | <span data-ttu-id="d1cbc-112">Wisselgeld</span><span class="sxs-lookup"><span data-stu-id="d1cbc-112">Change</span></span> | <span data-ttu-id="d1cbc-113">Eenheid</span><span class="sxs-lookup"><span data-stu-id="d1cbc-113">Unit</span></span>  | <span data-ttu-id="d1cbc-114">Procent</span><span class="sxs-lookup"><span data-stu-id="d1cbc-114">Percent</span></span> |
-    |--------|-------|---------|
-    | <span data-ttu-id="d1cbc-115">1</span><span class="sxs-lookup"><span data-stu-id="d1cbc-115">1</span></span>      | <span data-ttu-id="d1cbc-116">Maand</span><span class="sxs-lookup"><span data-stu-id="d1cbc-116">Month</span></span> | <span data-ttu-id="d1cbc-117">100</span><span class="sxs-lookup"><span data-stu-id="d1cbc-117">100</span></span>     |
-    | <span data-ttu-id="d1cbc-118">2</span><span class="sxs-lookup"><span data-stu-id="d1cbc-118">2</span></span>      | <span data-ttu-id="d1cbc-119">Maand</span><span class="sxs-lookup"><span data-stu-id="d1cbc-119">Month</span></span> | <span data-ttu-id="d1cbc-120">75</span><span class="sxs-lookup"><span data-stu-id="d1cbc-120">75</span></span>      |
-    | <span data-ttu-id="d1cbc-121">3</span><span class="sxs-lookup"><span data-stu-id="d1cbc-121">3</span></span>      | <span data-ttu-id="d1cbc-122">Maand</span><span class="sxs-lookup"><span data-stu-id="d1cbc-122">Month</span></span> | <span data-ttu-id="d1cbc-123">50</span><span class="sxs-lookup"><span data-stu-id="d1cbc-123">50</span></span>      |
-    | <span data-ttu-id="d1cbc-124">4</span><span class="sxs-lookup"><span data-stu-id="d1cbc-124">4</span></span>      | <span data-ttu-id="d1cbc-125">Maand</span><span class="sxs-lookup"><span data-stu-id="d1cbc-125">Month</span></span> | <span data-ttu-id="d1cbc-126">25</span><span class="sxs-lookup"><span data-stu-id="d1cbc-126">25</span></span>      |
+1. <span data-ttu-id="d1cbc-111">Stel op de pagina **Reductiesleutels** de volgende regels in.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-111">On the **Reduction keys** page, set up the following lines.</span></span>
 
-2.  <span data-ttu-id="d1cbc-127">Koppel de reductiesleutel aan de behoefteplanningsgroep van het artikel.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-127">Link the reduction key to the item's coverage group.</span></span>
-3.  <span data-ttu-id="d1cbc-128">Selecteer op de pagina **Hoofdplannen** in het veld **Reductiemethode** de optie **Percentage - reductiesleutel**.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
-4.  <span data-ttu-id="d1cbc-129">Maak een vraagprognose van 1000 stuks per maand.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-129">Create a demand forecast of 1,000 pieces per month.</span></span>
+   | <span data-ttu-id="d1cbc-112">Wisselgeld</span><span class="sxs-lookup"><span data-stu-id="d1cbc-112">Change</span></span> | <span data-ttu-id="d1cbc-113">Eenheid</span><span class="sxs-lookup"><span data-stu-id="d1cbc-113">Unit</span></span>  | <span data-ttu-id="d1cbc-114">Procent</span><span class="sxs-lookup"><span data-stu-id="d1cbc-114">Percent</span></span> |
+   |--------|-------|---------|
+   |   <span data-ttu-id="d1cbc-115">1</span><span class="sxs-lookup"><span data-stu-id="d1cbc-115">1</span></span>    | <span data-ttu-id="d1cbc-116">Maand</span><span class="sxs-lookup"><span data-stu-id="d1cbc-116">Month</span></span> |   <span data-ttu-id="d1cbc-117">100</span><span class="sxs-lookup"><span data-stu-id="d1cbc-117">100</span></span>   |
+   |   <span data-ttu-id="d1cbc-118">2</span><span class="sxs-lookup"><span data-stu-id="d1cbc-118">2</span></span>    | <span data-ttu-id="d1cbc-119">Maand</span><span class="sxs-lookup"><span data-stu-id="d1cbc-119">Month</span></span> |   <span data-ttu-id="d1cbc-120">75</span><span class="sxs-lookup"><span data-stu-id="d1cbc-120">75</span></span>    |
+   |   <span data-ttu-id="d1cbc-121">3</span><span class="sxs-lookup"><span data-stu-id="d1cbc-121">3</span></span>    | <span data-ttu-id="d1cbc-122">Maand</span><span class="sxs-lookup"><span data-stu-id="d1cbc-122">Month</span></span> |   <span data-ttu-id="d1cbc-123">50</span><span class="sxs-lookup"><span data-stu-id="d1cbc-123">50</span></span>    |
+   |   <span data-ttu-id="d1cbc-124">4</span><span class="sxs-lookup"><span data-stu-id="d1cbc-124">4</span></span>    | <span data-ttu-id="d1cbc-125">Maand</span><span class="sxs-lookup"><span data-stu-id="d1cbc-125">Month</span></span> |   <span data-ttu-id="d1cbc-126">25</span><span class="sxs-lookup"><span data-stu-id="d1cbc-126">25</span></span>    |
+
+
+2. <span data-ttu-id="d1cbc-127">Koppel de reductiesleutel aan de behoefteplanningsgroep van het artikel.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-127">Link the reduction key to the item's coverage group.</span></span>
+3. <span data-ttu-id="d1cbc-128">Selecteer op de pagina **Hoofdplannen** in het veld **Reductiemethode** de optie **Percentage - reductiesleutel**.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4. <span data-ttu-id="d1cbc-129">Maak een vraagprognose van 1000 stuks per maand.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
 <span data-ttu-id="d1cbc-130">Als u de prognoseplanning op 1 januari uitvoert, worden de vraagprognosebehoeften verbruikt volgens de percentages die u instelt op de pagina **Reductiesleutels**.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="d1cbc-131">De volgende behoeftehoeveelheden worden naar het hoofdplan overgebracht.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-131">The following requirement quantities are transferred to the master plan.</span></span>
 
@@ -88,20 +89,21 @@ ms.lasthandoff: 11/03/2017
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="d1cbc-171">Voorbeeld 3: prognosereductiemethode Transacties - dynamische periode</span><span class="sxs-lookup"><span data-stu-id="d1cbc-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
 <span data-ttu-id="d1cbc-172">In de meeste gevallen worden systemen zo ingesteld dat transacties vraagprognose reduceren in specifieke prognoseperioden: weken, maanden, enzovoort.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="d1cbc-173">Deze perioden worden gedefinieerd in de reductiesleutel.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="d1cbc-174">De tijd tussen twee vraagprognoseregels kan echter ook een periode *impliceren*.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  <span data-ttu-id="d1cbc-175">Maak een vraagprognose voor de volgende datums en hoeveelheden.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-175">Create a demand forecast for the following dates and quantities.</span></span>
-    | <span data-ttu-id="d1cbc-176">Datum</span><span class="sxs-lookup"><span data-stu-id="d1cbc-176">Date</span></span>       | <span data-ttu-id="d1cbc-177">Vraagprognose</span><span class="sxs-lookup"><span data-stu-id="d1cbc-177">Demand forecast</span></span> |
-    |------------|-----------------|
-    | <span data-ttu-id="d1cbc-178">1 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-178">January 1</span></span>  | <span data-ttu-id="d1cbc-179">1.000</span><span class="sxs-lookup"><span data-stu-id="d1cbc-179">1,000</span></span>           |
-    | <span data-ttu-id="d1cbc-180">5 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-180">January 5</span></span>  | <span data-ttu-id="d1cbc-181">500</span><span class="sxs-lookup"><span data-stu-id="d1cbc-181">500</span></span>             |
-    | <span data-ttu-id="d1cbc-182">12 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-182">January 12</span></span> | <span data-ttu-id="d1cbc-183">1.000</span><span class="sxs-lookup"><span data-stu-id="d1cbc-183">1,000</span></span>           |
+1. <span data-ttu-id="d1cbc-175">Maak een vraagprognose voor de volgende datums en hoeveelheden.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-175">Create a demand forecast for the following dates and quantities.</span></span>
 
-    <span data-ttu-id="d1cbc-184">In deze prognose is er geen duidelijke periode tussen de prognosedatums: tussen de eerste en tweede datum is er een vierdaags tijdsbestek en tussen de tweede en derde datum is er een zevendaags tijdsbestek.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="d1cbc-185">Dit zijn de dynamische perioden.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-185">These various spans are the dynamic periods.</span></span>
-2.  <span data-ttu-id="d1cbc-186">Maak als volgt verkooporderregels.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-186">Create sales order lines as follows.</span></span>
-    | <span data-ttu-id="d1cbc-187">Datum</span><span class="sxs-lookup"><span data-stu-id="d1cbc-187">Date</span></span>                             | <span data-ttu-id="d1cbc-188">Verkooporderhoeveelheid</span><span class="sxs-lookup"><span data-stu-id="d1cbc-188">Sales order quantity</span></span> |
-    |----------------------------------|----------------------|
-    | <span data-ttu-id="d1cbc-189">15 december in het vorige jaar</span><span class="sxs-lookup"><span data-stu-id="d1cbc-189">December 15 in the previous year</span></span> | <span data-ttu-id="d1cbc-190">500</span><span class="sxs-lookup"><span data-stu-id="d1cbc-190">500</span></span>                  |
-    | <span data-ttu-id="d1cbc-191">3 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-191">January 3</span></span>                        | <span data-ttu-id="d1cbc-192">100</span><span class="sxs-lookup"><span data-stu-id="d1cbc-192">100</span></span>                  |
-    | <span data-ttu-id="d1cbc-193">10 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-193">January 10</span></span>                       | <span data-ttu-id="d1cbc-194">200</span><span class="sxs-lookup"><span data-stu-id="d1cbc-194">200</span></span>                  |
+   | <span data-ttu-id="d1cbc-176">Datum</span><span class="sxs-lookup"><span data-stu-id="d1cbc-176">Date</span></span>       | <span data-ttu-id="d1cbc-177">Vraagprognose</span><span class="sxs-lookup"><span data-stu-id="d1cbc-177">Demand forecast</span></span> |
+   |------------|-----------------|
+   | <span data-ttu-id="d1cbc-178">1 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-178">January 1</span></span>  | <span data-ttu-id="d1cbc-179">1.000</span><span class="sxs-lookup"><span data-stu-id="d1cbc-179">1,000</span></span>           |
+   | <span data-ttu-id="d1cbc-180">5 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-180">January 5</span></span>  | <span data-ttu-id="d1cbc-181">500</span><span class="sxs-lookup"><span data-stu-id="d1cbc-181">500</span></span>             |
+   | <span data-ttu-id="d1cbc-182">12 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-182">January 12</span></span> | <span data-ttu-id="d1cbc-183">1.000</span><span class="sxs-lookup"><span data-stu-id="d1cbc-183">1,000</span></span>           |
+
+   <span data-ttu-id="d1cbc-184">In deze prognose is er geen duidelijke periode tussen de prognosedatums: tussen de eerste en tweede datum is er een vierdaags tijdsbestek en tussen de tweede en derde datum is er een zevendaags tijdsbestek.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="d1cbc-185">Dit zijn de dynamische perioden.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-185">These various spans are the dynamic periods.</span></span>
+2. <span data-ttu-id="d1cbc-186">Maak als volgt verkooporderregels.</span><span class="sxs-lookup"><span data-stu-id="d1cbc-186">Create sales order lines as follows.</span></span>
+   | <span data-ttu-id="d1cbc-187">Datum</span><span class="sxs-lookup"><span data-stu-id="d1cbc-187">Date</span></span>                             | <span data-ttu-id="d1cbc-188">Verkooporderhoeveelheid</span><span class="sxs-lookup"><span data-stu-id="d1cbc-188">Sales order quantity</span></span> |
+   |----------------------------------|----------------------|
+   | <span data-ttu-id="d1cbc-189">15 december in het vorige jaar</span><span class="sxs-lookup"><span data-stu-id="d1cbc-189">December 15 in the previous year</span></span> | <span data-ttu-id="d1cbc-190">500</span><span class="sxs-lookup"><span data-stu-id="d1cbc-190">500</span></span>                  |
+   | <span data-ttu-id="d1cbc-191">3 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-191">January 3</span></span>                        | <span data-ttu-id="d1cbc-192">100</span><span class="sxs-lookup"><span data-stu-id="d1cbc-192">100</span></span>                  |
+   | <span data-ttu-id="d1cbc-193">10 januari</span><span class="sxs-lookup"><span data-stu-id="d1cbc-193">January 10</span></span>                       | <span data-ttu-id="d1cbc-194">200</span><span class="sxs-lookup"><span data-stu-id="d1cbc-194">200</span></span>                  |
 
 <span data-ttu-id="d1cbc-195">De prognose wordt als volgt gereduceerd:</span><span class="sxs-lookup"><span data-stu-id="d1cbc-195">The forecast will be reduced as follows:</span></span>
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 76d0c911bdddbc5a34644dc96ec13dd8fd53a338
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8ccf810d3ecfeb35e86e7b552f7e59fc7660aa01
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a><span data-ttu-id="8b00e-103">Externe catalogi gebruiken voor PunchOut eProcurement</span><span class="sxs-lookup"><span data-stu-id="8b00e-103">Use external catalogs for PunchOut eProcurement</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8b00e-104">Als u externe catalogi voor PunchOut eProcurement gebruikt, hoeft u geen gegevens over producten van uw leveranciers in uw eigen hoofdgegevens te beheren.</span><span class="sxs-lookup"><span data-stu-id="8b00e-104">By using external catalogs for PunchOut e-procurement, you don't have to maintain information about your vendors' products in your own master data.</span></span> <span data-ttu-id="8b00e-105">In plaats daarvan wordt de winkelwagen op de website van de leverancier geconverteerd naar inkoopopdrachtregels met de juiste productinformatie.</span><span class="sxs-lookup"><span data-stu-id="8b00e-105">Instead, the shopping cart on a vendor's website is converted to requisition lines that have the correct product information.</span></span> 
 

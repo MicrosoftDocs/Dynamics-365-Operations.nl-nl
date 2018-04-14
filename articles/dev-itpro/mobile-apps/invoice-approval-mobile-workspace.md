@@ -16,16 +16,16 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8554d868e675a152ff6e2ff25dd08ab49f02359c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="invoice-approvals-mobile-workspace"></a><span data-ttu-id="7c605-104">Mobiel werkgebied Goedkeuring van facturen</span><span class="sxs-lookup"><span data-stu-id="7c605-104">Invoice approvals mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7c605-105">Dit onderwerp biedt informatie over het mobiele werkgebied **Goedkeuring van facturen**.</span><span class="sxs-lookup"><span data-stu-id="7c605-105">This topic provides information about the **Invoice approvals** mobile workspace.</span></span> <span data-ttu-id="7c605-106">Dit werkgebied geeft een lijst met facturen die aan u zijn toegewezen via het workflowproces voor de koptekst van de leveranciersfactuur.</span><span class="sxs-lookup"><span data-stu-id="7c605-106">This workspace provides a list of invoices that have been assigned to you through the vendor invoice header workflow process.</span></span> 
 

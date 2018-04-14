@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: afac613bdf366c4abcac4ee551e2db3db041803c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/30/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-organization-report-hierarchy"></a><span data-ttu-id="2c5bf-103">Een organisatierapporthiërarchie maken</span><span class="sxs-lookup"><span data-stu-id="2c5bf-103">Create an organization report hierarchy</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2c5bf-104">Gebruik deze procedure om een rapporthiërarchie te maken voor organisatierapportage.</span><span class="sxs-lookup"><span data-stu-id="2c5bf-104">Use this procedure to create a report hierarchy for organization reporting.</span></span> <span data-ttu-id="2c5bf-105">Het doel van deze registratie is u te helpen door de dimensiehiërarchie, zodat u door kunt gaan totdat de hele organisatierapportagestructuur is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="2c5bf-105">The purpose of this recording is to guide you through the dimension hierarchy so that you can continue until the whole organization reporting structure is created.</span></span> <span data-ttu-id="2c5bf-106">Deze registratie gebruikt het USP2-demogegevensbedrijf.</span><span class="sxs-lookup"><span data-stu-id="2c5bf-106">This recording uses the USP2 demo data company.</span></span>
 

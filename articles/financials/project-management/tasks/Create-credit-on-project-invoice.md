@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 5360e5d6f55ac7462bd3b710f5572f33d5436497
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4d93e71408c516a31a978e698a3c6788f8e1ce47
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a><span data-ttu-id="1cbfb-103">Een creditnota voor projectfacturen maken</span><span class="sxs-lookup"><span data-stu-id="1cbfb-103">Create a credit note on project invoices</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 1. <span data-ttu-id="1cbfb-104">Ga naar Projectbeheer en boekhouding > Projecten > Alle projecten.</span><span class="sxs-lookup"><span data-stu-id="1cbfb-104">Go to Project management and accounting > Projects > All projects.</span></span> 
 2. <span data-ttu-id="1cbfb-105">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="1cbfb-105">In the list, find and select the desired record.</span></span> 

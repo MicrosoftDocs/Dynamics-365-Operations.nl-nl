@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="2c59a-103">Bevestiging door stuksverzameling</span><span class="sxs-lookup"><span data-stu-id="2c59a-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2c59a-104">Met stuksverzameling kunt u elk stuk in uw voorraad bevestigen via picking- of tellingswerk op een mobiel apparaat.</span><span class="sxs-lookup"><span data-stu-id="2c59a-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="2c59a-105">Voor orderverzameling kunt u de hoeveelheid werk die moet worden verwerkt, bevestigen tot en met de hoeveelheid die is opgegeven op het werk dat moet worden gepickt.</span><span class="sxs-lookup"><span data-stu-id="2c59a-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="2c59a-106">Voor tellingswerk kunt u de voorraad scannen die u telt en de totale hoeveelheid bijhouden.</span><span class="sxs-lookup"><span data-stu-id="2c59a-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="2c59a-122">De volgende opties worden beschikbaar voor selectie, wanneer het type werk verzameling of telling is.</span><span class="sxs-lookup"><span data-stu-id="2c59a-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="2c59a-123">Optie</span><span class="sxs-lookup"><span data-stu-id="2c59a-123">Option</span></span>        | <span data-ttu-id="2c59a-124">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="2c59a-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="2c59a-125">Bevestiging van orderverzameling</span><span class="sxs-lookup"><span data-stu-id="2c59a-125">Piece picking confirmation</span></span>   | <span data-ttu-id="2c59a-126">Beschikbaar voor werktypen verzamelen en tellen.</span><span class="sxs-lookup"><span data-stu-id="2c59a-126">Available for pick and counting work types.</span></span> <span data-ttu-id="2c59a-127">Productbevestiging wordt automatisch ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="2c59a-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="2c59a-128">Hiermee kunt u elk stuk van de voorraad vanaf het mobiele apparaat bevestigen.</span><span class="sxs-lookup"><span data-stu-id="2c59a-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="2c59a-129">Maximumaantal stuks</span><span class="sxs-lookup"><span data-stu-id="2c59a-129">Maximum number of pieces</span></span>     | <span data-ttu-id="2c59a-130">Beschikbaar voor verzamelingswerk, als bevestiging voor stuksverzamelen is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="2c59a-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="2c59a-131">Stelt een limiet in op het aantal onderdelen dat u moet bevestigen.</span><span class="sxs-lookup"><span data-stu-id="2c59a-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="2c59a-123">Optie</span><span class="sxs-lookup"><span data-stu-id="2c59a-123">Option</span></span>           |                                                                            <span data-ttu-id="2c59a-124">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="2c59a-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="2c59a-125">Bevestiging van orderverzameling</span><span class="sxs-lookup"><span data-stu-id="2c59a-125">Piece picking confirmation</span></span> | <span data-ttu-id="2c59a-126">Beschikbaar voor werktypen verzamelen en tellen.</span><span class="sxs-lookup"><span data-stu-id="2c59a-126">Available for pick and counting work types.</span></span> <span data-ttu-id="2c59a-127">Productbevestiging wordt automatisch ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="2c59a-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="2c59a-128">Hiermee kunt u elk stuk van de voorraad vanaf het mobiele apparaat bevestigen.</span><span class="sxs-lookup"><span data-stu-id="2c59a-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="2c59a-129">Maximumaantal stuks</span><span class="sxs-lookup"><span data-stu-id="2c59a-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="2c59a-130">Beschikbaar voor verzamelingswerk, als bevestiging voor stuksverzamelen is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="2c59a-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="2c59a-131">Stelt een limiet in op het aantal onderdelen dat u moet bevestigen.</span><span class="sxs-lookup"><span data-stu-id="2c59a-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 

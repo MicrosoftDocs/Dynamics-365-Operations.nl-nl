@@ -19,28 +19,26 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac0e2abcb5dce58ad16737a0ef689ceaeb50c44
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8923f75370c6707ab6a4304dd139081807c6decd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a><span data-ttu-id="77c87-103">Berekeningsopties Volledige bedrag en Interval voor btw-codes</span><span class="sxs-lookup"><span data-stu-id="77c87-103">Whole amount and Interval calculation options for sales tax codes</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="77c87-104">In dit artikel worden de opties voor het veld Berekeningsmethode voor btw-codes uitgelegd en wordt uitgelegd hoe btw wordt berekend voor intervallen en gehele bedragen.</span><span class="sxs-lookup"><span data-stu-id="77c87-104">This article explains the options for the Calculation method field on sales tax codes and how sales tax is calculated for intervals and whole amounts.</span></span>
 
 <span data-ttu-id="77c87-105">U kunt een btw-code instellen die moet worden berekend op basis van het gehele bedrag of een intervalbedrag.</span><span class="sxs-lookup"><span data-stu-id="77c87-105">You can set up a sales tax code to be calculated based on a whole amount or an interval amount.</span></span> <span data-ttu-id="77c87-106">Gebruik op de pagina Btw-codes het veld Berekeningsmethode op het sneltabblad Berekening om te selecteren hoe u een btw-code berekent.</span><span class="sxs-lookup"><span data-stu-id="77c87-106">In the Sales tax codes page, use the Calculation method field on the Calculation FastTab to select how to calculate a sales tax code.</span></span>
--   <span data-ttu-id="77c87-107">Volledige bedrag – Het btw-tarief wordt toegepast op het gehele belastbare bedrag.</span><span class="sxs-lookup"><span data-stu-id="77c87-107">Whole amount – The tax rate is applied to the whole taxable amount.</span></span>
--   <span data-ttu-id="77c87-108">Interval – Het belastbare bedrag is verdeeld in delen en elk deel valt in een bereik met een bepaald btw-tarief.</span><span class="sxs-lookup"><span data-stu-id="77c87-108">Interval – The taxable amount is divided into parts, each of which falls in a range that has a specific sales tax rate.</span></span> <span data-ttu-id="77c87-109">Het deel van het bedrag dat in een bepaald interval valt, wordt belast volgens het btw-tarief voor dat interval.</span><span class="sxs-lookup"><span data-stu-id="77c87-109">The part of the amount that falls in a given interval is taxed according to the tax rate for that interval.</span></span> <span data-ttu-id="77c87-110">De btw is de som van de btw-bedragen die worden berekend voor elk intervalbedrag.</span><span class="sxs-lookup"><span data-stu-id="77c87-110">The sales tax is the sum of the tax amounts that are calculated for each amount interval.</span></span>
-> [!NOTE]                                                                                                                              
-> <span data-ttu-id="77c87-111">De optie Interval is alleen beschikbaar wanneer u Regel selecteert in het veld Berekeningsmethode in het btw-gebied van de pagina Grootboekparameters.</span><span class="sxs-lookup"><span data-stu-id="77c87-111">The Interval option is available only when you select Line in the Calculation method field in the Sales tax area of the General ledger parameters page.</span></span> 
+- <span data-ttu-id="77c87-107">Volledige bedrag – Het btw-tarief wordt toegepast op het gehele belastbare bedrag.</span><span class="sxs-lookup"><span data-stu-id="77c87-107">Whole amount – The tax rate is applied to the whole taxable amount.</span></span>
+- <span data-ttu-id="77c87-108">Interval – Het belastbare bedrag is verdeeld in delen en elk deel valt in een bereik met een bepaald btw-tarief.</span><span class="sxs-lookup"><span data-stu-id="77c87-108">Interval – The taxable amount is divided into parts, each of which falls in a range that has a specific sales tax rate.</span></span> <span data-ttu-id="77c87-109">Het deel van het bedrag dat in een bepaald interval valt, wordt belast volgens het btw-tarief voor dat interval.</span><span class="sxs-lookup"><span data-stu-id="77c87-109">The part of the amount that falls in a given interval is taxed according to the tax rate for that interval.</span></span> <span data-ttu-id="77c87-110">De btw is de som van de btw-bedragen die worden berekend voor elk intervalbedrag.</span><span class="sxs-lookup"><span data-stu-id="77c87-110">The sales tax is the sum of the tax amounts that are calculated for each amount interval.</span></span>
+  > [!NOTE]                                                                                                                              
+  > <span data-ttu-id="77c87-111">De optie Interval is alleen beschikbaar wanneer u Regel selecteert in het veld Berekeningsmethode in het btw-gebied van de pagina Grootboekparameters.</span><span class="sxs-lookup"><span data-stu-id="77c87-111">The Interval option is available only when you select Line in the Calculation method field in the Sales tax area of the General ledger parameters page.</span></span> 
 
 <span data-ttu-id="77c87-112">Intervallen worden ingesteld op de pagina Waarden btw-code door bedragen voor Ondergrens en Bovengrens in te voeren per btw-tarief.</span><span class="sxs-lookup"><span data-stu-id="77c87-112">Intervals are set up in the Sales tax code values page by entering Minimum and Maximum limit amounts per tax rate.</span></span> <span data-ttu-id="77c87-113">Voor btw die moet worden berekend over alle belastbare bedragen - ongeacht welke berekeningsmethode is geselecteerd - moeten de intervallen voldoen aan de volgende regels:</span><span class="sxs-lookup"><span data-stu-id="77c87-113">For taxes to be calculated on all taxable amounts, regardless of which calculation method is selected, intervals must follow these rules:</span></span>
 -   <span data-ttu-id="77c87-114">Het eerste interval moet een ondergrens van nul hebben.</span><span class="sxs-lookup"><span data-stu-id="77c87-114">The first interval must have a Minimum limit of zero.</span></span>
@@ -51,6 +49,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="example-whole-amount-method-of-calculation"></a><span data-ttu-id="77c87-119">Voorbeeld: Berekeningsmethode is volledige bedrag</span><span class="sxs-lookup"><span data-stu-id="77c87-119">Example: Whole amount method of calculation</span></span>
 <span data-ttu-id="77c87-120">Op de pagina Waarden btw-code worden de btw-tarieven ingesteld met de volgende intervallen:</span><span class="sxs-lookup"><span data-stu-id="77c87-120">In the Sales tax code values page, sales tax rates are set up in the following intervals:</span></span>
+
 |                   |                   |              |
 |-------------------|-------------------|--------------|
 | <span data-ttu-id="77c87-121">**Ondergrens**</span><span class="sxs-lookup"><span data-stu-id="77c87-121">**Minimum limit**</span></span> | <span data-ttu-id="77c87-122">**Bovengrens**</span><span class="sxs-lookup"><span data-stu-id="77c87-122">**Maximum limit**</span></span> | <span data-ttu-id="77c87-123">**Btw-tarief**</span><span class="sxs-lookup"><span data-stu-id="77c87-123">**Tax rate**</span></span> |
@@ -86,7 +85,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="77c87-173">85,00</span><span class="sxs-lookup"><span data-stu-id="77c87-173">85.00</span></span>                  | <span data-ttu-id="77c87-174">(50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)</span><span class="sxs-lookup"><span data-stu-id="77c87-174">(50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)</span></span>                          | <span data-ttu-id="77c87-175">22,00</span><span class="sxs-lookup"><span data-stu-id="77c87-175">22.00</span></span>     |
 | <span data-ttu-id="77c87-176">305,00</span><span class="sxs-lookup"><span data-stu-id="77c87-176">305.00</span></span>                 | <span data-ttu-id="77c87-177">(50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50)</span><span class="sxs-lookup"><span data-stu-id="77c87-177">(50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50)</span></span> | <span data-ttu-id="77c87-178">45,50</span><span class="sxs-lookup"><span data-stu-id="77c87-178">45.50</span></span>     |
 
- 
+
 
 <span data-ttu-id="77c87-179">Zie voor meer informatie het onderwerp [Btw-tarieven bepalen op basis van de velden Marginale basis en Berekeningsmethode](marginal-base-field.md)</span><span class="sxs-lookup"><span data-stu-id="77c87-179">For more information, see [Determining sale tax rates based on the Marginal base and Calculation method fields](marginal-base-field.md).</span></span>
 

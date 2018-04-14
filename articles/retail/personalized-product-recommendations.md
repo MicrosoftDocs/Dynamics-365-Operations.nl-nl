@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c5b9ee57b0b855766628caca239059205c103b86
-ms.openlocfilehash: 4a0586324dddc10d64ad6760222f2540f31d6bce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e6bab3de11dbd2aba8b1330284986514a6ac1dfc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a><span data-ttu-id="d50a9-103">Overzicht van gepersonaliseerde productaanbevelingen</span><span class="sxs-lookup"><span data-stu-id="d50a9-103">Personalized product recommendations overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > <span data-ttu-id="d50a9-104">We verwijderen de huidige versie van de productaanbevelingsservice aangezien we deze opnieuw willen ontwerpen met een beter algoritme en nieuwe mogelijkheden voor detailhandelaren.</span><span class="sxs-lookup"><span data-stu-id="d50a9-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="d50a9-105">Zie voor meer informatie [Verwijderde of verouderde functies](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span><span class="sxs-lookup"><span data-stu-id="d50a9-105">For more information see [Removed or deprecated features](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span></span> <span data-ttu-id="d50a9-106">Navigeer naar de onderkant van de pagina als u problemen hebt met reeds ingeschakelde aanbevelingen voor uw omgeving.</span><span class="sxs-lookup"><span data-stu-id="d50a9-106">Navigate to the bottom of the page if you are facing issues with already-enabled product recommendations for your environment.</span></span> 
@@ -86,9 +85,9 @@ ms.lasthandoff: 03/08/2018
 -   <span data-ttu-id="d50a9-145">Modelreferenties en de model-id worden beschikbaar gesteld aan CRT, zodat aanroepen voor productaanbevelingen vanuit de cloud-POS en MPOS in de online modus kunnen worden gehonoreerd.</span><span class="sxs-lookup"><span data-stu-id="d50a9-145">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="d50a9-146">Problemen oplossen waar u al ingeschakelde productaanbevelingen hebt</span><span class="sxs-lookup"><span data-stu-id="d50a9-146">Troubleshoot issues where you have Product recommendations already enabled</span></span> 
->- <span data-ttu-id="d50a9-147">Ga naar **Detailhandelparameters** > **Machine Learning** > **Productaanbevelingen uitschakelen** en start **Algemene configuratie-taak [1110]**.</span><span class="sxs-lookup"><span data-stu-id="d50a9-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="d50a9-148">Als u het tabblad **Machine Learning** niet kunt vinden, neemt u contact op met de Dynamics-ondersteuning.</span><span class="sxs-lookup"><span data-stu-id="d50a9-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
-
->- <span data-ttu-id="d50a9-149">Als u het besturingselement **Aanbevelingen** hebt toegevoegd aan uw transactiescherm met **Ontwerper van schermindeling**, verwijdert u dat ook.</span><span class="sxs-lookup"><span data-stu-id="d50a9-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
+> - <span data-ttu-id="d50a9-147">Ga naar **Detailhandelparameters** > **Machine Learning** > **Productaanbevelingen uitschakelen** en start **Algemene configuratie-taak [1110]**.</span><span class="sxs-lookup"><span data-stu-id="d50a9-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="d50a9-148">Als u het tabblad **Machine Learning** niet kunt vinden, neemt u contact op met de Dynamics-ondersteuning.</span><span class="sxs-lookup"><span data-stu-id="d50a9-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
+> 
+> - <span data-ttu-id="d50a9-149">Als u het besturingselement **Aanbevelingen** hebt toegevoegd aan uw transactiescherm met **Ontwerper van schermindeling**, verwijdert u dat ook.</span><span class="sxs-lookup"><span data-stu-id="d50a9-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
 
 
 

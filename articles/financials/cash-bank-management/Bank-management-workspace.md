@@ -17,15 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 68fe68ba92495eb089e9b38cfbd42eba05b7dc47
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="4a5bf-106">Werkgebied voor bankbeheer</span><span class="sxs-lookup"><span data-stu-id="4a5bf-106">Bank management workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4a5bf-107">Het werkgebied **Bankbeheer** bevat informatie die is gerelateerd aan bedrijfsbankrekeningen.</span><span class="sxs-lookup"><span data-stu-id="4a5bf-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="4a5bf-108">Dit werkgebied bevat een **Overzicht** sweergave en de pagina **Analyses**.</span><span class="sxs-lookup"><span data-stu-id="4a5bf-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="4a5bf-109">De **Overzicht** sweergave bevat overzichtstegels, bankrekeninggegevens, een saldodiagram en gerelateerde informatie.</span><span class="sxs-lookup"><span data-stu-id="4a5bf-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="4a5bf-110">De pagina **Analyses** gebruikt de mogelijkheden van Microsoft Power BI om visuele elementen te tonen die betrekking hebben op bankrekeningsaldi.</span><span class="sxs-lookup"><span data-stu-id="4a5bf-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 

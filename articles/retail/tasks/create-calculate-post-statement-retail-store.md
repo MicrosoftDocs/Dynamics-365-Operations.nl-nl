@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9f9888d04f4e2419de9d4a6857a81ae40f6f21a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="cd6e6-103"> Een overzicht maken, berekenen en boeken voor een detailhandelwinkel</span><span class="sxs-lookup"><span data-stu-id="cd6e6-103">Create, calculate, and post a statement for a retail store</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd6e6-104">Deze procedure doorloopt de handmatige stappen voor het maken, berekenen en boeken van een overzicht voor een winkel.</span><span class="sxs-lookup"><span data-stu-id="cd6e6-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="cd6e6-105">Er zijn ook batchtaken die voor dezelfde taken kunnen worden geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="cd6e6-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="cd6e6-106">De stappen voor het configureren en uitvoeren van de batchtaken kunnen in andere onderwerpen worden gevonden.</span><span class="sxs-lookup"><span data-stu-id="cd6e6-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="cd6e6-107">Als u deze procedure wilt voltooien, moet u transacties hebben die in POS zijn voltooid en vervolgens in Dynamics AX zijn opgehaald.</span><span class="sxs-lookup"><span data-stu-id="cd6e6-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="cd6e6-108">Deze registratie gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="cd6e6-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="cd6e6-109">In deze procedure kan worden verwezen naar Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="cd6e6-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="cd6e6-110">Houd er rekening mee dat Dynamics AX nu Microsoft Dynamics 365 for Operations wordt genoemd.</span><span class="sxs-lookup"><span data-stu-id="cd6e6-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 

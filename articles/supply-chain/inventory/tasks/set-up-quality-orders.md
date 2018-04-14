@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fbc99ae02576cb76edecb9ac74b1823305c5936b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0ad16d00788122eb1ab22dd03561cac488b9fad6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-quality-orders"></a><span data-ttu-id="0b9df-103">Kwaliteitsorders instellen</span><span class="sxs-lookup"><span data-stu-id="0b9df-103">Set up quality orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0b9df-104">Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarbij inkomende voorraad onmiddellijk na aankomstregistratie moet worden geïnspecteerd.</span><span class="sxs-lookup"><span data-stu-id="0b9df-104">This procedure shows you how to enable a quality management process where incoming inventory must be inspected immediately after arrival registration.</span></span> <span data-ttu-id="0b9df-105">De procedure wordt gewoonlijk uitgevoerd door een kwaliteitsmanager.</span><span class="sxs-lookup"><span data-stu-id="0b9df-105">The procedure will typically be carried out by a quality manager.</span></span> <span data-ttu-id="0b9df-106">Het proces bevat het maken van een kwaliteitsgroep, om de artikelen te definiëren die zullen worden bemonsterd, en een testgroep voor het groeperen van de tests die zullen worden uitgevoerd op artikelen in de kwaliteitsgroep.</span><span class="sxs-lookup"><span data-stu-id="0b9df-106">The process includes the creation of a quality group, to define the items that are going to be sampled, and a test group to group the tests that are to be performed on items in the quality group.</span></span> <span data-ttu-id="0b9df-107">U kunt deze taakgeleiding uitvoeren in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="0b9df-107">You can run this guide in the USMF demo data company.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 56691376b639e20751b24e25343d8c71c631ad66
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-attributes"></a><span data-ttu-id="79446-105">Batchkenmerken</span><span class="sxs-lookup"><span data-stu-id="79446-105">Batch attributes</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="79446-106">Dit onderwerp biedt informatie over batchkenmerken.</span><span class="sxs-lookup"><span data-stu-id="79446-106">This topic provides information about batch attributes.</span></span> <span data-ttu-id="79446-107">Batchkenmerken zijn eigenschappen van grondstoffen en eindproducten die samen voorraadbatches vormen.</span><span class="sxs-lookup"><span data-stu-id="79446-107">Batch attributes are characteristics of raw materials and finished products that make up inventory batches.</span></span> <span data-ttu-id="79446-108">In het onderwerp wordt ook uitgelegd hoe u batchkenmerken toewijst en hoe u erop kunt zoeken wanneer u batches reserveert.</span><span class="sxs-lookup"><span data-stu-id="79446-108">The topic also explains how to assign batch attributes, and how you can search on them when you reserve batches.</span></span>
 

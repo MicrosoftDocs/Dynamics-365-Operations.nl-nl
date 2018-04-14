@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d0cc6508071bea3f622bc21f06aa55d2b757b6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84b8f08c5e72d3bae597d78cd8f1f77d59355917
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-agreement"></a><span data-ttu-id="2cb32-103">Een inkoopovereenkomst maken</span><span class="sxs-lookup"><span data-stu-id="2cb32-103">Create a purchase agreement</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2cb32-104">Deze procedure begeleidt u door het maken van een inkoopovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="2cb32-104">This procedure guides you through the creation of a purchase agreement.</span></span> <span data-ttu-id="2cb32-105">Dit wordt gewoonlijk gedaan door een inkoopmanager.</span><span class="sxs-lookup"><span data-stu-id="2cb32-105">This would typically be done by a purchasing manager.</span></span> <span data-ttu-id="2cb32-106">U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="2cb32-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="2cb32-107">U moet de classificaties van inkoopovereenkomsten hebben ingesteld voordat u begint.</span><span class="sxs-lookup"><span data-stu-id="2cb32-107">You need to have set up purchase agreement classifications before you start.</span></span> <span data-ttu-id="2cb32-108">Nadat u een overeenkomst hebt gemaakt, kunt u deze gebruiken wanneer u een inkooporder maakt. De voorwaarden van de inkoopovereenkomst worden dan gekopieerd naar de koptekst en naar regels in de order die door de overeenkomst worden beïnvloed.</span><span class="sxs-lookup"><span data-stu-id="2cb32-108">Once you've created an agreement you can use it when you create a PO, and this will copy the purchase agreement conditions to the header and to any lines in the order that are affected by the agreement.</span></span>
 

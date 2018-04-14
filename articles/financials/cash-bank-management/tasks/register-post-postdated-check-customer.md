@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
-ms.openlocfilehash: f75dea40d0cc77c851569608f18229339ed30af9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d1e3df13c644ffa39621e73d1c907084bbd7ba7c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a><span data-ttu-id="9e1da-103">Een gepostdateerde cheque voor een klant registreren en boeken</span><span class="sxs-lookup"><span data-stu-id="9e1da-103">Register and post a postdated check for a customer</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9e1da-104">U kunt gegevens van een gepostdateerde cheque die u van een klant hebt ontvangen, registreren.</span><span class="sxs-lookup"><span data-stu-id="9e1da-104">You can register details of a postdated check received from a customer.</span></span> <span data-ttu-id="9e1da-105">U kunt de gepostdateerde cheque ook boeken en financiële transacties genereren.</span><span class="sxs-lookup"><span data-stu-id="9e1da-105">You can also post the postdated check and generate financial transactions.</span></span>   <span data-ttu-id="9e1da-106">Voer de volgende taken uit voordat u een gepostdateerde cheque die u van een klant hebt ontvangen, registreert en boekt:   • Stel gepostdateerde cheques in op de pagina Contanten en bankbeheer • Stel een betalingsmethode voor gepostdateerde cheques in   De rol voor deze procedure is Penningmeester.</span><span class="sxs-lookup"><span data-stu-id="9e1da-106">Complete the following tasks before you register and post a postdated check received from a customer:   • Set up postdated check in the Cash and bank management page • Set up a method of payment for postdated checks   The role for this procedure is Treasurer.</span></span> <span data-ttu-id="9e1da-107">Bij deze procedure wordt het demobedrijf USMF gebruikt.</span><span class="sxs-lookup"><span data-stu-id="9e1da-107">This procedure uses the USMF demo company.</span></span>
 

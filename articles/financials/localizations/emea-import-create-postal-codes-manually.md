@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77fa370692ad1fe73a6a2dac84655b11e9a13703
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b678867724ae74f62bb8107c5f04d872e4d5a77d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="import-or-manually-create-postal-codes"></a><span data-ttu-id="60f59-104">Postcodes importeren of handmatig maken</span><span class="sxs-lookup"><span data-stu-id="60f59-104">Import or manually create postal codes</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="60f59-105">In dit onderwerp wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt.</span><span class="sxs-lookup"><span data-stu-id="60f59-105">This topic explains how to import and manually create postal codes in the correct format.</span></span> <span data-ttu-id="60f59-106">Dit onderwerp bevat informatie over de functie die is toegevoegd of gewijzigd voor Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="60f59-106">This topic includes information about feature that was added for Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 

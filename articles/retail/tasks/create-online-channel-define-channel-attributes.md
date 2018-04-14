@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6bbefc2d6810617090dbf9b27d5248d195d5929b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 69b88466f70dcb7fa65e5acdf8b5003da61c874b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a><span data-ttu-id="7361d-103"> Online kanalen maken en kanaalkenmerken definiëren</span><span class="sxs-lookup"><span data-stu-id="7361d-103">Create online channels and define channel attributes</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7361d-104">Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen ervan aan de organisatiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="7361d-104">This procedure walks through creating a new online channel and adding it to the organization hierarchy.</span></span> <span data-ttu-id="7361d-105">U moet de organisatiehiërarchie maken voordat u een nieuw online kanaal kunt maken.</span><span class="sxs-lookup"><span data-stu-id="7361d-105">You must create the organization hierarchy before you can create a new online channel.</span></span> <span data-ttu-id="7361d-106">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="7361d-106">This procedure uses the USRT demo data company.</span></span>
 

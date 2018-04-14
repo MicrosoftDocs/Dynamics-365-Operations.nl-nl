@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c9b2c03f87bc4d43e6795aa2e1ac378637fe11ce
-ms.openlocfilehash: c3fbaa70ee2ae581e87031e5586b500098793c25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41db5fa77c020c0929868593fec16223676e5e31
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="rename-or-modify-a-project-stage"></a><span data-ttu-id="2c769-103">Een projectfase hernoemen of wijzigen</span><span class="sxs-lookup"><span data-stu-id="2c769-103">Rename or modify a project stage</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2c769-104">Projectfasen kunnen dienen als richtlijn voor de levenscyclus van projecten.</span><span class="sxs-lookup"><span data-stu-id="2c769-104">Project stages can serve as a guide to the project life cycle.</span></span> <span data-ttu-id="2c769-105">U kunt in het gebied Projectfase op de pagina Projectbeheer- en boekhoudingsparameters opgeven welke projectfasen u in uw projecten wilt opnemen.</span><span class="sxs-lookup"><span data-stu-id="2c769-105">You can define the project stages that you want to include in your projects in the Project stage area in the Project management and accounting parameters page.</span></span> <span data-ttu-id="2c769-106">Dynamics 365 for Finance and Operations biedt vijf vooraf gedefinieerde projectfasen en drie door de gebruiker gedefinieerde fasen.</span><span class="sxs-lookup"><span data-stu-id="2c769-106">Dynamics 365 for Finance and Operations provides five predefined project stages and three user-defined stages.</span></span> <span data-ttu-id="2c769-107">U kunt de naam bijwerken van een projectfase die u gebruikt voor het bijhouden van de voortgang van projecten.</span><span class="sxs-lookup"><span data-stu-id="2c769-107">You can update the name of a project stage that you are using to track the progress of projects.</span></span> <span data-ttu-id="2c769-108">U kunt ook namen opgeven voor door gebruikers gedefinieerde statusnamen.</span><span class="sxs-lookup"><span data-stu-id="2c769-108">You can also provide names for user-defined status names.</span></span> <span data-ttu-id="2c769-109">In deze taak wordt aangegeven hoe u (de naam van) een projectfase wijzigt en de gegevensset van USSI gebruikt.</span><span class="sxs-lookup"><span data-stu-id="2c769-109">This task shows how to rename or modify a project stage and uses the USSI data set.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a86709bc222339531a21997510a65c138024256c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-training-courses"></a><span data-ttu-id="a4a47-103">Trainingen instellen</span><span class="sxs-lookup"><span data-stu-id="a4a47-103">Set up training courses</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a4a47-104">Personeelsmedewerkers en managers kunnen de cursussenfuncties gebruiken om informatie te onderhouden over de cursus die aan werknemers wordt aangeboden.</span><span class="sxs-lookup"><span data-stu-id="a4a47-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
@@ -81,15 +80,15 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="course-tasks"></a><span data-ttu-id="a4a47-134">Cursustaken</span><span class="sxs-lookup"><span data-stu-id="a4a47-134">Course tasks</span></span>
 <span data-ttu-id="a4a47-135">Voor elke cursus kunt de volgende taken uitvoeren:</span><span class="sxs-lookup"><span data-stu-id="a4a47-135">For each course, you can complete the following tasks.</span></span>
--   <span data-ttu-id="a4a47-136">Deelnemers registreren.</span><span class="sxs-lookup"><span data-stu-id="a4a47-136">Register participants</span></span>
--   <span data-ttu-id="a4a47-137">Een registratiedeadline opgeven.</span><span class="sxs-lookup"><span data-stu-id="a4a47-137">Specify a registration deadline</span></span>
--   <span data-ttu-id="a4a47-138">Het minimale en maximale aantal deelnemers definiëren.</span><span class="sxs-lookup"><span data-stu-id="a4a47-138">Define the minimum and maximum number of participants</span></span>
--   <span data-ttu-id="a4a47-139">Een cursuslocatie en een leslokaal toewijzen.</span><span class="sxs-lookup"><span data-stu-id="a4a47-139">Assign a course location and classroom</span></span>
--   <span data-ttu-id="a4a47-140">Hotels aanraden aan deelnemers.</span><span class="sxs-lookup"><span data-stu-id="a4a47-140">Recommend hotels to course participants</span></span>
--   <span data-ttu-id="a4a47-141">Een cursusomschrijving maken, die u kunt weergeven in de werknemersselfservice.</span><span class="sxs-lookup"><span data-stu-id="a4a47-141">Create a course description, which you can then advertise on Employee self service</span></span>
+- <span data-ttu-id="a4a47-136">Deelnemers registreren.</span><span class="sxs-lookup"><span data-stu-id="a4a47-136">Register participants</span></span>
+- <span data-ttu-id="a4a47-137">Een registratiedeadline opgeven.</span><span class="sxs-lookup"><span data-stu-id="a4a47-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="a4a47-138">Het minimale en maximale aantal deelnemers definiëren.</span><span class="sxs-lookup"><span data-stu-id="a4a47-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="a4a47-139">Een cursuslocatie en een leslokaal toewijzen.</span><span class="sxs-lookup"><span data-stu-id="a4a47-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="a4a47-140">Hotels aanraden aan deelnemers.</span><span class="sxs-lookup"><span data-stu-id="a4a47-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="a4a47-141">Een cursusomschrijving maken, die u kunt weergeven in de werknemersselfservice.</span><span class="sxs-lookup"><span data-stu-id="a4a47-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
   ><span data-ttu-id="a4a47-142">**Opmerking:** u kunt een cursus alleen verwijderen als niemand zich ervoor heeft aangemeld.</span><span class="sxs-lookup"><span data-stu-id="a4a47-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
-    
+
 ## <a name="course-statuses"></a><span data-ttu-id="a4a47-143">Cursusstatussen</span><span class="sxs-lookup"><span data-stu-id="a4a47-143">Course statuses</span></span>
 <span data-ttu-id="a4a47-144">In de volgende tabel worden de mogelijke cursusstatussen weergegeven en de acties die u kunt uitvoeren wanneer de cursus een specifieke status heeft.</span><span class="sxs-lookup"><span data-stu-id="a4a47-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 

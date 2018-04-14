@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90deb42e8443d6d1ee7edbdfcedf4513c28a3bf1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a><span data-ttu-id="9407e-103">Conflicten met scheiding van taken identificeren en oplossen</span><span class="sxs-lookup"><span data-stu-id="9407e-103">Identify and resolve conflicts in segregation of duties</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9407e-104">U kunt regels instellen om taken te scheiden die door verschillende gebruikers moeten worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="9407e-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="9407e-105">Dit concept wordt scheiding van taken genoemd.</span><span class="sxs-lookup"><span data-stu-id="9407e-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="9407e-106">Wanneer de definitie van een beveiligingsrol of de roltoewijzingen van een gebruiker de regels overtreden, wordt het conflict vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="9407e-106">When the definition of a security role or the role assignments of a user violate the rules, the conflict is logged.</span></span> <span data-ttu-id="9407e-107">Alle conflicten moeten door de beheerder worden opgelost.</span><span class="sxs-lookup"><span data-stu-id="9407e-107">All conflicts must be resolved by the administrator.</span></span> <span data-ttu-id="9407e-108">Voer de volgende procedure uit om conflicten te identificeren en op te lossen.</span><span class="sxs-lookup"><span data-stu-id="9407e-108">Complete the following procedure to identify and resolve conflicts.</span></span> <span data-ttu-id="9407e-109">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="9407e-109">The demo data company used to create this procedure is USMF.</span></span>
 

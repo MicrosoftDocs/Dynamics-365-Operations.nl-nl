@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="581a0-103">Een financieel rapport maken</span><span class="sxs-lookup"><span data-stu-id="581a0-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="581a0-104">Dit onderwerp biedt informatie over het genereren van een financieel rapport.</span><span class="sxs-lookup"><span data-stu-id="581a0-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="581a0-115">Een financieel rapport maken</span><span class="sxs-lookup"><span data-stu-id="581a0-115">Generate a financial report</span></span>
 
 <span data-ttu-id="581a0-116">Als u een financieel rapport wilt genereren met Microsoft Dynamics 365 for Finance and Operations, gaat u naar **Grootboek** > **Query's en rapporten** > **Financiële rapporten**.</span><span class="sxs-lookup"><span data-stu-id="581a0-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="581a0-117">Selecteer het rapport dat u wilt genereren en klik op **Genereren**.</span><span class="sxs-lookup"><span data-stu-id="581a0-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="581a0-118">Vul het veld **Rapportdatum** in en klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="581a0-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="581a0-119">Als het rapport is gegenereerd, kan het rapport worden weergeven in de sectie **Rapporten**.</span><span class="sxs-lookup"><span data-stu-id="581a0-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="581a0-120">U kunt het rapport **weergeven** of **verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="581a0-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="581a0-117">Selecteer het rapport dat u wilt genereren en klik op **Genereren**.</span><span class="sxs-lookup"><span data-stu-id="581a0-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="581a0-118">Vul het veld **Rapportdatum** in en klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="581a0-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="581a0-119">Als het rapport is gegenereerd, kan het rapport worden weergeven in de sectie **Rapporten**.</span><span class="sxs-lookup"><span data-stu-id="581a0-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="581a0-120">U kunt het rapport **weergeven** of **verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="581a0-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="581a0-121">Als u een rapport wilt genereren met **Rapportontwerper**, opent u de rapportdefinitie en klikt u op de knop Genereren in de werkbalk.</span><span class="sxs-lookup"><span data-stu-id="581a0-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="581a0-122">Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan.</span><span class="sxs-lookup"><span data-stu-id="581a0-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="581a0-123">Uw gegenereerd rapport wordt standaard geopend in de Web Viewer.</span><span class="sxs-lookup"><span data-stu-id="581a0-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="581a0-237">Open de geselecteerde rapportdefinitie</span><span class="sxs-lookup"><span data-stu-id="581a0-237">Open the selected report definition</span></span>  | <span data-ttu-id="581a0-238">Ctrl+R</span><span class="sxs-lookup"><span data-stu-id="581a0-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="581a0-239">Open de geselecteerde rijdefinitie.</span><span class="sxs-lookup"><span data-stu-id="581a0-239">Open the selected row definition</span></span>     | <span data-ttu-id="581a0-240">Ctrl+O</span><span class="sxs-lookup"><span data-stu-id="581a0-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="581a0-241">Zie ook</span><span class="sxs-lookup"><span data-stu-id="581a0-241">See also</span></span>
 --------
 

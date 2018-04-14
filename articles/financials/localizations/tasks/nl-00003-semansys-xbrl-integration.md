@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f2c5fc4f5e6cd30cb18b7d54d0c7b51cd3dd03b0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 70c28b19922de476c71857dd5ca144d1b2f8ad3c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="semansys-xbrl-integration-netherlands"></a><span data-ttu-id="a36ce-103">Semansys XBRL-integratie (Nederland)</span><span class="sxs-lookup"><span data-stu-id="a36ce-103">Semansys XBRL integration (Netherlands)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a36ce-104">Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren.</span><span class="sxs-lookup"><span data-stu-id="a36ce-104">This procedure walks you through using Dutch functionality to export financial data in the XML format.</span></span> <span data-ttu-id="a36ce-105">Deze procedure is gemaakt met het demobedrijf DEMF, met het primaire adres van de rechtspersoon bijgewerkt zodat het in Nederland ligt.</span><span class="sxs-lookup"><span data-stu-id="a36ce-105">This procedure was created using the demo data company DEMF with a legal entity primary address updated to be in the Netherlands.</span></span>
 

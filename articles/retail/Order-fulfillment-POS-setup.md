@@ -18,17 +18,17 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: ccff6533257379c0305f7414dd36e17d1c323c21
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cc6494ea8bbf7e80790e885bb56e914f2caebcba
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 
 # <a name="set-up-order-fulfillment-for-stores"></a><span data-ttu-id="d8af6-103">Orderafhandeling voor winkels instellen</span><span class="sxs-lookup"><span data-stu-id="d8af6-103">Set up order fulfillment for stores</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="d8af6-104">Overzicht</span><span class="sxs-lookup"><span data-stu-id="d8af6-104">Overview</span></span>
 <span data-ttu-id="d8af6-105">Veel detailhandelaren willen de afhandeling van orders optimaliseren door winkels in staat te stellen orders uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="d8af6-105">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="d8af6-106">Orderafhandeling op winkelniveau kan overbevoorradingsscenario's voor een bepaalde winkel voorkomen of vanuit logistiek oogpunt noodzakelijk zijn in gevallen waarin een winkel extra capaciteit heeft of zich dichter bij de klant bevindt.</span><span class="sxs-lookup"><span data-stu-id="d8af6-106">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="d8af6-107">Om in deze behoefte te voorzien, is er een uniforme orderafhandelingsbewerking beschikbaar in het verkooppunt.</span><span class="sxs-lookup"><span data-stu-id="d8af6-107">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>

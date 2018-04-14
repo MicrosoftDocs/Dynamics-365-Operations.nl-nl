@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3bcb59c6edd04877dc2a052002be513205ae840a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8313803e0c6adaed7bc4ca295641f51c7e1185b0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a><span data-ttu-id="58ee1-103">Een sjabloon voor vrije-tekstfacturen toewijzen aan een klant</span><span class="sxs-lookup"><span data-stu-id="58ee1-103">Assign a free text invoice template to a customer</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="58ee1-104">Deze taak geeft aan hoe u een sjabloon voor een vrije-tekstfactuur kunt toewijzen aan een klant.</span><span class="sxs-lookup"><span data-stu-id="58ee1-104">This task demonstrates how to assign a free text invoice template to a customer.</span></span> <span data-ttu-id="58ee1-105">Deze taak gebruikt het demobedrijf USMF en is bedoeld voor de gebruiker die verantwoordelijk is voor het beheren en verwerken van klantenfacturen.</span><span class="sxs-lookup"><span data-stu-id="58ee1-105">This task uses the USMF demo company and is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 

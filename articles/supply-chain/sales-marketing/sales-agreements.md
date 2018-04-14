@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: f791f811f78b788cae7e6417b4266d9f82662310
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a1d686106ffaf3b2f392b6c1f81c6bda8c8cdd95
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-agreements"></a><span data-ttu-id="2c2ca-104">Verkoopovereenkomsten</span><span class="sxs-lookup"><span data-stu-id="2c2ca-104">Sales agreements</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2c2ca-105">Dit onderwerp biedt informatie over verkoopovereenkomsten.</span><span class="sxs-lookup"><span data-stu-id="2c2ca-105">This topic provides information about sales agreements.</span></span> <span data-ttu-id="2c2ca-106">Een verkoopovereenkomst is een contract waarmee een klant toezegt specifieke hoeveelheden van producten te kopen of het product gedurende een specifieke periode te kopen, in ruil voor speciale prijzen en kortingen.</span><span class="sxs-lookup"><span data-stu-id="2c2ca-106">A sales agreement is a contract that commits the customer to buy products in a specific quantity or for a specific amount over time, in exchange for special prices and discounts.</span></span>
 

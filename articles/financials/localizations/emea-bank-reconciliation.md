@@ -18,17 +18,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3dc0b968fdf217554b350a152195a4b3d235fdf0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fcae9bf8068913f8cda61e3fd3063f0a6122ae4d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a><span data-ttu-id="38f20-103">Bankafschriften en betalingsafstemming voor de EU</span><span class="sxs-lookup"><span data-stu-id="38f20-103">Bank statement and payment reconciliation for the EU</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="38f20-104">Dit onderwerp bevat een overzicht van de functionaliteit die u kunt gebruiken om betalingsgegevens van banken af te stemmen in indelingen die door Europese landen worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="38f20-104">This topic provides an overview of the functionality that you can use to reconcile payment information from banks in formats that are used by European countries.</span></span>
 

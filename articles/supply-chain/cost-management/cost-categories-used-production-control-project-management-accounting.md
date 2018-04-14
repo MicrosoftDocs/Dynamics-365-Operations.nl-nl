@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d641ce950aed87b0cf6763fc9dae67ef47268b8d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 53141f29cdcd847611e1b6a8dc4c2ded1f09a9c9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a><span data-ttu-id="f8b4e-104">Kostencategorieën die worden gebruikt in Productiebeheer en in Projectbeheerboekhouding</span><span class="sxs-lookup"><span data-stu-id="f8b4e-104">Cost categories used in Production control and Project management accounting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f8b4e-105">Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage.</span><span class="sxs-lookup"><span data-stu-id="f8b4e-105">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="f8b4e-106">Dit artikel bevat informatie over de kostencategorieën die u voor deze soorten productiewerk voor productie- en projectdoeleinden moet definiëren.</span><span class="sxs-lookup"><span data-stu-id="f8b4e-106">This article provides information about the cost categories that you must define for these types of production work for production and project purposes.</span></span>
 

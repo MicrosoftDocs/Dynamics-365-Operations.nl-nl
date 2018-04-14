@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: 3d5c38b1f07803242350fe016b45c45d49c0b59b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad1bd0babbf81e6296c59440cf679f131f9976c2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-sales-commission-rules"></a><span data-ttu-id="b5ba1-103">Regels voor verkoopprovisie instellen</span><span class="sxs-lookup"><span data-stu-id="b5ba1-103">Set up sales commission rules</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b5ba1-104">Deze procedure toont u hoe u het berekenen en bijhouden van verkoopprovisie instelt en inschakelt.</span><span class="sxs-lookup"><span data-stu-id="b5ba1-104">This procedure shows you how to set up and enable sales commission calculation and tracking.</span></span> <span data-ttu-id="b5ba1-105">De procedure toont hoe u zowel klant- als artikelprovisiegroepen kunt maken en hoe u geselecteerde klanten en producten aan de respectievelijke groepen koppelt.</span><span class="sxs-lookup"><span data-stu-id="b5ba1-105">The procedure shows how to create both customer and item commission groups, and then how to link a selected customer and product to the respective groups.</span></span> <span data-ttu-id="b5ba1-106">Deze groepen worden dan gebruikt in de instellingen voor provisieberekening om een combinatie van klant, artikel en vertegenwoordiger te maken die moet overeenkomen met de verkooporder opdat de verkoper in aanmerking komt voor een provisie.</span><span class="sxs-lookup"><span data-stu-id="b5ba1-106">Those groups are then used in the commission calculation setup to create a customer, item, and sales representatives combination that must be matched by the sales order to entitle the sales people to a commission.</span></span> <span data-ttu-id="b5ba1-107">Het maken van klant- en artikelprovisiegroepen is optioneel, zoals de berekening van provisie ook voor een afzonderlijk(e) klant en/of artikel kan worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="b5ba1-107">Creating customer and item commission groups are optional, as the calculation of commission can also be done for an individual customer and/or item.</span></span> <span data-ttu-id="b5ba1-108">U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="b5ba1-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

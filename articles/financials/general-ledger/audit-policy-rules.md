@@ -19,17 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04217e162090720d2a48c96aa9356cea2dbfa230
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 273beb0acef51059b40f9842062ed4dbba770160
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="audit-policy-rules"></a><span data-ttu-id="a5a4c-106">Controlebeleidsregels</span><span class="sxs-lookup"><span data-stu-id="a5a4c-106">Audit policy rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a5a4c-107">U kunt een auditbeleid gebruiken om onkostenrapporten, leveranciersfacturen en inkooporders te beoordelen om zeker te zijn dat ze de beleidsregels die u maakt naleven.</span><span class="sxs-lookup"><span data-stu-id="a5a4c-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="a5a4c-108">Alle regels die aan een auditbeleid zijn gekoppeld, worden in batchmodus uitgevoerd volgens een planning die u opgeeft.</span><span class="sxs-lookup"><span data-stu-id="a5a4c-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="a5a4c-109">Elke beleidsregel is een instantie van een beleidsregeltype.</span><span class="sxs-lookup"><span data-stu-id="a5a4c-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="a5a4c-110">Voor elk beleidsregeltype, kan slechts één beleidsregel tegelijkertijd actief zijn.</span><span class="sxs-lookup"><span data-stu-id="a5a4c-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
 

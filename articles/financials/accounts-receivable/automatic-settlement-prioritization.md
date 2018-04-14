@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 17c9da7abaf72ddca8500acf50808a333e76446a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="automatic-settlement-and-prioritization"></a><span data-ttu-id="4869b-104">Automatische vereffening en prioriteitstelling</span><span class="sxs-lookup"><span data-stu-id="4869b-104">Automatic settlement and prioritization</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4869b-105">Dit onderwerp beschrijft hoe transacties worden vereffend als u Automatische vereffening op de pagina Parameters van module Klanten selecteert.</span><span class="sxs-lookup"><span data-stu-id="4869b-105">This topic describes how transactions are settled if you select Automatic settlement on the Accounts receivable parameters page.</span></span> <span data-ttu-id="4869b-106">Het legt ook uit hoe de automatische vereffening in combinatie met de betalingsprioriteit kan worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="4869b-106">It also explains how automatic settlement can be used in combination with the payment priority.</span></span>
 

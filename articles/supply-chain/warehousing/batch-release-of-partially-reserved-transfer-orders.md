@@ -18,16 +18,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 4477749c721cf8c8bd244f551d9eca7ec9449fd1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 39e70aa7b020cdceb53e9ed4af8fa87268161f54
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a><span data-ttu-id="36cb6-103">Batchvrijgave van gedeeltelijk gereserveerde transferorders</span><span class="sxs-lookup"><span data-stu-id="36cb6-103">Batch release of partially reserved transfer orders</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="36cb6-104">Met de functionaliteit voor batchvrijgave van gedeeltelijk gereserveerde transferorders kunt u transferorders met een batchtaak gedeeltelijk vrijgeven aan een magazijn.</span><span class="sxs-lookup"><span data-stu-id="36cb6-104">The functionality for batch release of partially reserved transfer orders lets you partially release transfer orders to a warehouse by using a batch job.</span></span>
 <span data-ttu-id="36cb6-105">Omdat u een gedeeltelijke hoeveelheid kunt vrijgeven, hoeft u niet te wachten tot de hele orderhoeveelheid in het magazijn beschikbaar is voordat u een order vrijgeeft.</span><span class="sxs-lookup"><span data-stu-id="36cb6-105">Because you have the option to release a partial quantity, you don’t have to wait for the whole order quantity to be available in the warehouse before you release an order.</span></span>

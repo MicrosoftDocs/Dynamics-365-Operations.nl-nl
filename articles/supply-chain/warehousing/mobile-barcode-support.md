@@ -18,16 +18,16 @@ ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 3cae5d4c4680f61b671f63616908bc3b6c463da6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6cf870974b2f772e82fbf828e83f065dc945d377
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-bar-code-support"></a><span data-ttu-id="925d6-103">Mobiele ondersteuning voor streepjescodes</span><span class="sxs-lookup"><span data-stu-id="925d6-103">Mobile bar code support</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="925d6-104">Omdat Android een open-sourceproject is, kan elke hardwarefabrikant van streepjescodescanners voor magazijnen een apparaat maken waarop het Android-besturingssysteem kan worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="925d6-104">Because Android is an open source project, any manufacturer of hardware for warehouse bar code scanners can build a device to run the Android operating system.</span></span> <span data-ttu-id="925d6-105">Een apparaat is alleen Android-compatibel als er apps op kunnen worden uitgevoerd die zijn geschreven voor de uitvoeringsomgeving van Android.</span><span class="sxs-lookup"><span data-stu-id="925d6-105">A device is only Android-compatible if it can run apps that are written for the Android execution environment.</span></span>
 <span data-ttu-id="925d6-106">Een hardwareleverancier kan echter overlays wijzigen en maken voor de Android-versie die op hun hardware wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="925d6-106">However, a hardware vendor can modify and create overlays for the Android version that runs on their hardware.</span></span> <span data-ttu-id="925d6-107">Microsoft is op geen enkele manier verantwoordelijk voor de compatibiliteit van een mobiele app voor het scannen van streepjescodes met de hardware voor het scannen van streepjescodes van de fabrikant en de Android-versie die hierop wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="925d6-107">Microsoft cannot take any responsibility to ensure that a mobile bar code scanning app for Android is compatible with a manufacturer’s bar code scanning hardware and the Android version that runs on it.</span></span> 

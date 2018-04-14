@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 04643d4d9e3c0a21f2dac3ce27a7398f7be4f775
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a><span data-ttu-id="6e72e-103">Financiële dimensies toevoegen aan het CFO-werkgebied</span><span class="sxs-lookup"><span data-stu-id="6e72e-103">Add financial dimensions to the CFO workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6e72e-104">In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het werkgebied CFO (Chief Financial Officer) zodat ze kunnen worden gebruikt voor grootboek- en budgetrapporten.</span><span class="sxs-lookup"><span data-stu-id="6e72e-104">This topic explains how to add financial dimensions to the Chief Financial Officer (CFO) workspace, so that they can be used for the ledger and budget reports.</span></span> <span data-ttu-id="6e72e-105">Het CFO-werkgebied omvat een tabblad **Overzicht** en een tabblad **Financieel**. De rapporten op deze twee tabbladen worden ondersteund door twee maateenheden: LedgerActivityMeasure en BudgetActivityMeasure.</span><span class="sxs-lookup"><span data-stu-id="6e72e-105">The CFO workspace has an **Overview** tab and a **Financial** tab. The reports on these two tabs are backed by two measures: LedgerActivityMeasure and BudgetActivityMeasure.</span></span> <span data-ttu-id="6e72e-106">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017) is een relatie tussen deze twee maateenheden en de DimensionCombinationEntity-entiteit.</span><span class="sxs-lookup"><span data-stu-id="6e72e-106">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017), there is a relation between those two measures and the DimensionCombinationEntity entity.</span></span> <span data-ttu-id="6e72e-107">Daarom kunt u alle dimensies selecteren.</span><span class="sxs-lookup"><span data-stu-id="6e72e-107">Therefore, you can select dimensions.</span></span>
 

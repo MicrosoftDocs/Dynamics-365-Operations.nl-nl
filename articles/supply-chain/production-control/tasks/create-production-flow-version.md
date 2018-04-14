@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0e2e99bc1132f50bca4e6c21abccdc685658a178
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-production-flow-version"></a><span data-ttu-id="5f4f6-103">Een productiestroomversie maken</span><span class="sxs-lookup"><span data-stu-id="5f4f6-103">Create a production flow version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5f4f6-104">Deze procedure is gericht op het maken van een nieuwe productstroomversie.</span><span class="sxs-lookup"><span data-stu-id="5f4f6-104">This procedure focuses on creating a new production flow version.</span></span> <span data-ttu-id="5f4f6-105">Voor deze procedure moeten de productieparameters voor lean manufacturing en de maateenheden voor klassetijd worden gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="5f4f6-105">For this procedure, the production parameters for lean manufacturing and the units of measurement for class time must be defined.</span></span> <span data-ttu-id="5f4f6-106">U moet ook een waardestroom en een productiegroep definiëren.</span><span class="sxs-lookup"><span data-stu-id="5f4f6-106">You also need to define a value stream and a production group.</span></span> <span data-ttu-id="5f4f6-107">Als u meer wilt weten over productiestromen en activiteiten in lean manufacturing, raadpleegt u de whitepapers over lean manufacturing voor Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="5f4f6-107">To learn more about production flows and activities in lean manufacturing, see the white papers on Lean manufacturing for Microsoft Dynamics AX.</span></span> <span data-ttu-id="5f4f6-108">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="5f4f6-108">The demo data company used to create this procedure is USMF.</span></span>
 

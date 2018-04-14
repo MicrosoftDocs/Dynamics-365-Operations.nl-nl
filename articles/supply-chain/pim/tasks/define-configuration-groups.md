@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 70e960a8a183c3499b17af96d305da42168fd531
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 832dd57301f7a42dd8d05db8040255374f8fddad
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-configuration-groups"></a><span data-ttu-id="e2d7b-103">Configuratiegroepen definiëren</span><span class="sxs-lookup"><span data-stu-id="e2d7b-103">Define configuration groups</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e2d7b-104">Deze procedure laat zien hoe u productconfiguratiegroepen definieert door twee groepen te maken in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="e2d7b-104">This procedure shows how to define product configuration groups by creating two groups in the demo data company USMF Company.</span></span> <span data-ttu-id="e2d7b-105">Dit is de vierde van acht procedures waarin wordt uitgelegd hoe u combinaties maakt voor een op dimensies gebaseerde configuratie.</span><span class="sxs-lookup"><span data-stu-id="e2d7b-105">This is the fourth procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
 

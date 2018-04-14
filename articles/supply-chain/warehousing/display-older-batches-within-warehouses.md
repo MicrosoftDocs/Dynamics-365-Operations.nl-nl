@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: fedb9162c81b9fa115b63402fe80cd4c857e8deb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4f2dc9221b72600c928db9fd306038725c7af305
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="a5555-103">Weergave oudere batches in magazijn op een mobiel apparaat configureren</span><span class="sxs-lookup"><span data-stu-id="a5555-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a5555-104">Met de configuratie van **Weergave oudere batches in magazijn** kunt u een lijst met locaties weergeven met batches die ouder zijn dan de huidige locatie van de werkregel.</span><span class="sxs-lookup"><span data-stu-id="a5555-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="a5555-105">De lijst met locaties die wordt weergegeven bevat informatie over de batches die ouder zijn op de locatie met de vervaldatum en de fysieke voorraad van elke batch.</span><span class="sxs-lookup"><span data-stu-id="a5555-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="a5555-106">U kunt kiezen om uit een nieuwe locatie te verzamelen of door te gaan met de huidige locatie.</span><span class="sxs-lookup"><span data-stu-id="a5555-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
 - <span data-ttu-id="a5555-107">In een nieuwe locatie verzamelen: als u een nieuwe locatie voor het verzamelen selecteert, wordt de huidige werkregel bijgewerkt met de nieuwe locatie en wordt het werk zoals gebruikelijk voortgezet met de nieuwe locatie.</span><span class="sxs-lookup"><span data-stu-id="a5555-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="a5555-108">De nieuwe locatie is alleen geldig als er een voldoende beschikbare hoeveelheid is voor de hele werkregel.</span><span class="sxs-lookup"><span data-stu-id="a5555-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="a5555-109">Als de vereiste hoeveelheid niet beschikbaar is, wordt de werkregel niet bijgewerkt en wordt de lijst weergegeven.</span><span class="sxs-lookup"><span data-stu-id="a5555-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 

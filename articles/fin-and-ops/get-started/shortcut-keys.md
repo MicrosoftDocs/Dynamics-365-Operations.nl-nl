@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="1c70e-103">Sneltoetsen</span><span class="sxs-lookup"><span data-stu-id="1c70e-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1c70e-104">De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1c70e-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="1c70e-111">Actiesneltoetsen</span><span class="sxs-lookup"><span data-stu-id="1c70e-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="1c70e-112">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-112">**To do this**</span></span>                                    | <span data-ttu-id="1c70e-113">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-134">Momenteel beschikbare snelkoppelingen weergeven</span><span class="sxs-lookup"><span data-stu-id="1c70e-134">View currently available shortcuts</span></span>                | <span data-ttu-id="1c70e-135">Alt+Shift+K</span><span class="sxs-lookup"><span data-stu-id="1c70e-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="1c70e-136">Sneltoetsen voor datumkiezer</span><span class="sxs-lookup"><span data-stu-id="1c70e-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="1c70e-137">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-137">**To do this**</span></span>                        | <span data-ttu-id="1c70e-138">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-153">Nooit kiezen (of de uiterste datum)</span><span class="sxs-lookup"><span data-stu-id="1c70e-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="1c70e-154">N</span><span class="sxs-lookup"><span data-stu-id="1c70e-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="1c70e-155">Sneltoetsen voor feitenvak</span><span class="sxs-lookup"><span data-stu-id="1c70e-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="1c70e-156">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-156">**To do this**</span></span>                                                                  | <span data-ttu-id="1c70e-157">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-168">Het huidige feitenvak samenvouwen</span><span class="sxs-lookup"><span data-stu-id="1c70e-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="1c70e-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="1c70e-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="1c70e-170">Sneltoetsen voor filteren</span><span class="sxs-lookup"><span data-stu-id="1c70e-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="1c70e-171">**Actie**</span><span class="sxs-lookup"><span data-stu-id="1c70e-171">**To do this**</span></span>                     | <span data-ttu-id="1c70e-172">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-181">Geavanceerd filteren/sorteren openen</span><span class="sxs-lookup"><span data-stu-id="1c70e-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="1c70e-182">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="1c70e-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="1c70e-183">Sneltoetsen voor formulieren</span><span class="sxs-lookup"><span data-stu-id="1c70e-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="1c70e-184">**Actie**</span><span class="sxs-lookup"><span data-stu-id="1c70e-184">**To do this**</span></span>                                      | <span data-ttu-id="1c70e-185">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-216">Het formulier sluiten met annulering van niet-opgeslagen wijzigingen</span><span class="sxs-lookup"><span data-stu-id="1c70e-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="1c70e-217">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="1c70e-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="1c70e-218">Sneltoetsen voor formuliernavigatie</span><span class="sxs-lookup"><span data-stu-id="1c70e-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="1c70e-219">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-219">**To do this**</span></span>                                      | <span data-ttu-id="1c70e-220">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-245">Overschakelen naar regelweergave</span><span class="sxs-lookup"><span data-stu-id="1c70e-245">Switch to lines view</span></span>                                | <span data-ttu-id="1c70e-246">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="1c70e-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="1c70e-247">Sneltoetsen in raster</span><span class="sxs-lookup"><span data-stu-id="1c70e-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="1c70e-248">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="1c70e-249">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-283">Rasterfilters openen voor de huidige kolom (met de focus in de koptekstrij)</span><span class="sxs-lookup"><span data-stu-id="1c70e-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="1c70e-284">Enter</span><span class="sxs-lookup"><span data-stu-id="1c70e-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="1c70e-285">Sneltoetsen voor invoerbesturing</span><span class="sxs-lookup"><span data-stu-id="1c70e-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="1c70e-286">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-286">**To do this**</span></span>                                                               | <span data-ttu-id="1c70e-287">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-306">De focus tussen het tekstgedeelte en de werkbalk verplaatsen in een besturingselement in een HTML-editor</span><span class="sxs-lookup"><span data-stu-id="1c70e-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="1c70e-307">F6</span><span class="sxs-lookup"><span data-stu-id="1c70e-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="1c70e-308">Sneltoetsen voor berichten</span><span class="sxs-lookup"><span data-stu-id="1c70e-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="1c70e-309">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-309">**To do this**</span></span>           | <span data-ttu-id="1c70e-310">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-313">Naar berichtenbalk gaan</span><span class="sxs-lookup"><span data-stu-id="1c70e-313">Go to the Message Bar</span></span>    | <span data-ttu-id="1c70e-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="1c70e-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="1c70e-315">Sneltoetsen voor navigatie</span><span class="sxs-lookup"><span data-stu-id="1c70e-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="1c70e-316">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-316">**To do this**</span></span>                                                                | <span data-ttu-id="1c70e-317">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-348">Naar het feitenvak gaan (of dit venster openen, indien van toepassing)</span><span class="sxs-lookup"><span data-stu-id="1c70e-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="1c70e-349">Alt+M, B of Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="1c70e-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="1c70e-350">Sneltoetsen voor aanpassen</span><span class="sxs-lookup"><span data-stu-id="1c70e-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="1c70e-351">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="1c70e-352">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="1c70e-397">De aanpassingsmodus afsluiten (in de aanpassingsmodus)</span><span class="sxs-lookup"><span data-stu-id="1c70e-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="1c70e-398">Esc</span><span class="sxs-lookup"><span data-stu-id="1c70e-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="1c70e-399">Sneltoetsen voor gesegmenteerde invoer</span><span class="sxs-lookup"><span data-stu-id="1c70e-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="1c70e-400">**Gewenste bewerking**</span><span class="sxs-lookup"><span data-stu-id="1c70e-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="1c70e-401">**Druk op**</span><span class="sxs-lookup"><span data-stu-id="1c70e-401">**Press**</span></span>                        |

@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="8a70d-103">RFM-analyse instellen</span><span class="sxs-lookup"><span data-stu-id="8a70d-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="8a70d-104">In dit onderwerp wordt beschreven hoe u een Recency-, Frequentie-, en Monetaire analyse (RFM) van uw klanten kunt instellen.</span><span class="sxs-lookup"><span data-stu-id="8a70d-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/17/2018
     - <span data-ttu-id="8a70d-126">Als elke sectie van de RFM-score een gelijk aantal klanten moet bevatten, schakelt u het selectievakje **Gelijkmatige distributie** in.</span><span class="sxs-lookup"><span data-stu-id="8a70d-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="8a70d-127">Schakel het selectievakje **Scores toevoegen** in om de drie scores bij elkaar op te tellen.</span><span class="sxs-lookup"><span data-stu-id="8a70d-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="8a70d-128">Dit geeft een klant bijvoorbeeld een RFM-score van 13 in plaats van 535.</span><span class="sxs-lookup"><span data-stu-id="8a70d-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="8a70d-129">Schakel het selectievakje **Historie opslaan** in om te vereisen dat het systeem de statistische gegevens opslaat voor klanten, zodat de gegevens kunnen worden gebruikt om de RFM-score te berekenen.</span><span class="sxs-lookup"><span data-stu-id="8a70d-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="8a70d-130">Doe op het sneltabblad **Recency** het volgende:</span><span class="sxs-lookup"><span data-stu-id="8a70d-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="8a70d-131">Voer in het veld **Afdelingen** het aantal onderverdelingen of groepen in die worden gebruikt om de recencyscore voor klanten te berekenen.</span><span class="sxs-lookup"><span data-stu-id="8a70d-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="8a70d-132">Als u bijvoorbeeld 100 klanten hebt, betekent een afdeling van 5 dat er 20 klanten zijn voor elke score.</span><span class="sxs-lookup"><span data-stu-id="8a70d-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="8a70d-133">De 20 klanten die het meest recent een aankoop hebben gedaan, hebben een recencyscore van 5.</span><span class="sxs-lookup"><span data-stu-id="8a70d-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="8a70d-134">De volgende 20 klanten hebben een recencyscore van 4, enzovoort.</span><span class="sxs-lookup"><span data-stu-id="8a70d-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="8a70d-135">Als u 50 klanten hebt, hebben 10 klanten een recencyscore van 5, 10 hebben een recencyscore van 4, enzovoort.</span><span class="sxs-lookup"><span data-stu-id="8a70d-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="8a70d-136">Selecteer in het veld **Prioriteit** hoeveel gewicht de recencyparameter krijgt in vergelijking met de andere parameters wanneer de RFM-score wordt berekend voor een klant.</span><span class="sxs-lookup"><span data-stu-id="8a70d-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="8a70d-137">U kunt bijvoorbeeld meer waarde hechten aan de recencyscore dan de monetaire score.</span><span class="sxs-lookup"><span data-stu-id="8a70d-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="8a70d-138">Voer in het veld **Factor** de waarde in waarmee de recencyscore moet worden vermenigvuldigd.</span><span class="sxs-lookup"><span data-stu-id="8a70d-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="8a70d-139">Als u geen waarde invoert, wordt de score niet vermenigvuldigd.</span><span class="sxs-lookup"><span data-stu-id="8a70d-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="8a70d-140">Selecteer in het veld **Periode** de periode waarvoor de recencyscore wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="8a70d-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="8a70d-141">Bijvoorbeeld per week of per maand.</span><span class="sxs-lookup"><span data-stu-id="8a70d-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="8a70d-142">Doe op het sneltabblad **Frequentie** het volgende:</span><span class="sxs-lookup"><span data-stu-id="8a70d-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="8a70d-143">Voer in het veld **Afdelingen** het aantal onderverdelingen of groepen in die worden gebruikt om de frequentiescore voor klanten te berekenen.</span><span class="sxs-lookup"><span data-stu-id="8a70d-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="8a70d-144">Selecteer in het veld **Prioriteit** hoeveel gewicht de frequentieparameter krijgt in vergelijking met de andere parameters wanneer de RFM-score wordt berekend voor een klant.</span><span class="sxs-lookup"><span data-stu-id="8a70d-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="8a70d-145">Voer in het veld **Factor** de waarde in waarmee de frequentiescore moet worden vermenigvuldigd.</span><span class="sxs-lookup"><span data-stu-id="8a70d-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="8a70d-146">Als u geen waarde invoert, wordt de score niet vermenigvuldigd.</span><span class="sxs-lookup"><span data-stu-id="8a70d-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="8a70d-147">Doe op het sneltabblad **Monetair** het volgende:</span><span class="sxs-lookup"><span data-stu-id="8a70d-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="8a70d-148">Voer in het veld **Afdelingen** het aantal onderverdelingen of groepen in die worden gebruikt om de monetaire score voor klanten te berekenen.</span><span class="sxs-lookup"><span data-stu-id="8a70d-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="8a70d-149">Selecteer in het veld **Prioriteit** hoeveel gewicht de monetaire parameter krijgt in vergelijking met de andere parameters wanneer de RFM-score wordt berekend voor een klant.</span><span class="sxs-lookup"><span data-stu-id="8a70d-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="8a70d-150">Voer in het veld **Factor** de waarde in waarmee de monetaire score moet worden vermenigvuldigd.</span><span class="sxs-lookup"><span data-stu-id="8a70d-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="8a70d-151">Als u geen waarde invoert, wordt de score niet vermenigvuldigd.</span><span class="sxs-lookup"><span data-stu-id="8a70d-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="8a70d-152">Geef in het veld **Bruto/netto** op of de monetaire score van de klant moet worden vermenigvuldigd met behulp van het bruto- of nettofactuurbedrag.</span><span class="sxs-lookup"><span data-stu-id="8a70d-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="8a70d-153">Als de retourbedragen van een klant moeten worden afgetrokken van de totale factuurberekening van de klant, schakelt u het selectievakje **Retouren aftrekken** in.</span><span class="sxs-lookup"><span data-stu-id="8a70d-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="8a70d-154">RFM-score van klanten weergeven</span><span class="sxs-lookup"><span data-stu-id="8a70d-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="8a70d-155">Via deze procedure kunt u een klant zijn RFM-score weergeven.</span><span class="sxs-lookup"><span data-stu-id="8a70d-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

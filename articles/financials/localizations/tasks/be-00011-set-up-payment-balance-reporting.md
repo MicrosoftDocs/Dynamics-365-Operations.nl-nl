@@ -16,15 +16,15 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f2916d4c0e9f81f7c596ec801f6d365858896819
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7bee83705d6d27941cd08084710042e8200f40c2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-payment-balance-reporting-belgium"></a><span data-ttu-id="6cc8f-103">Rapportage voor betalingssaldo instellen (België)</span><span class="sxs-lookup"><span data-stu-id="6cc8f-103">Set up payment balance reporting (Belgium)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6cc8f-104">Gebruik deze procedure om BLWI-informatie (Belgisch Luxemburgs Wissel Instituut) in te stellen voor België.</span><span class="sxs-lookup"><span data-stu-id="6cc8f-104">Use this procedure to set up Belgisch Luxemburgs Wissel Instituut (BLWI) information for Belgium.</span></span> <span data-ttu-id="6cc8f-105">Deze procedure is gemaakt met het demogegevensbedrijf USSI.</span><span class="sxs-lookup"><span data-stu-id="6cc8f-105">This procedure was created by using the USSI demo data company.</span></span>
 

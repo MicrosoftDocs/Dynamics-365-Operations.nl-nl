@@ -20,16 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 12aa71843fa8b22eb7ae688ed3600168760d90da
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 03cb22ed42932fb3b1d24218daeab34b3ee712dd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="task-recorder-and-help-for-pos"></a><span data-ttu-id="75c8f-103">Taakrecorder en Help voor POS</span><span class="sxs-lookup"><span data-stu-id="75c8f-103">Task recorder and Help for POS</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="75c8f-104">In dit onderwerp wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern POS en Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="75c8f-104">This topic describes how to use Task recorder in Retail Modern POS and Cloud POS.</span></span>
 

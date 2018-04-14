@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="79a71-104">Nieuwe taakbegeleidingen (februari 2016)</span><span class="sxs-lookup"><span data-stu-id="79a71-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="79a71-105">Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.</span><span class="sxs-lookup"><span data-stu-id="79a71-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="79a71-106">De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics AX (februari 2016) en Aan de slag (februari 2016).</span><span class="sxs-lookup"><span data-stu-id="79a71-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-124">Validatie van factuurvereffening instellen voor leveranciers</span><span class="sxs-lookup"><span data-stu-id="79a71-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="79a71-125">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-125">Global</span></span>             |
 | <span data-ttu-id="79a71-126">Leveranciersfactuurbeleid instellen</span><span class="sxs-lookup"><span data-stu-id="79a71-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="79a71-127">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="79a71-128">Klanten</span><span class="sxs-lookup"><span data-stu-id="79a71-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-153">Incassogegevens beoordelen</span><span class="sxs-lookup"><span data-stu-id="79a71-153">Review collections information</span></span>                              | <span data-ttu-id="79a71-154">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-154">Global</span></span>             |
 | <span data-ttu-id="79a71-155">Informatie over ouderdom van klanten instellen en genereren</span><span class="sxs-lookup"><span data-stu-id="79a71-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="79a71-156">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="79a71-157">Contanten en bankbeheer</span><span class="sxs-lookup"><span data-stu-id="79a71-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-196">Een gepostdateerde cheque van een klant vereffenen</span><span class="sxs-lookup"><span data-stu-id="79a71-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="79a71-197">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-197">Global</span></span>             |
 | <span data-ttu-id="79a71-198">Overzicht van leveranciersbetaling</span><span class="sxs-lookup"><span data-stu-id="79a71-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="79a71-199">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="79a71-200">Conformiteit</span><span class="sxs-lookup"><span data-stu-id="79a71-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-201">**BPM-regel**</span><span class="sxs-lookup"><span data-stu-id="79a71-201">**BPM Line**</span></span>                               | <span data-ttu-id="79a71-202">**Land/regio**</span><span class="sxs-lookup"><span data-stu-id="79a71-202">**Country/Region**</span></span> |
 | <span data-ttu-id="79a71-203">Auditbeleid voor brondocumenten definiëren</span><span class="sxs-lookup"><span data-stu-id="79a71-203">Define audit policies for source documents</span></span> | <span data-ttu-id="79a71-204">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="79a71-205">Kostenbeheer</span><span class="sxs-lookup"><span data-stu-id="79a71-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-214">Huidige OHW-status op een productieorder weergeven</span><span class="sxs-lookup"><span data-stu-id="79a71-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="79a71-215">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-215">Global</span></span>             |
 | <span data-ttu-id="79a71-216">Voorraadoverzicht en KPI's per kostenobject weergeven</span><span class="sxs-lookup"><span data-stu-id="79a71-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="79a71-217">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="79a71-218">Functionaliteit land/regio</span><span class="sxs-lookup"><span data-stu-id="79a71-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-485">GB-00009 Een creditnota maken voor de vereffeningskorting</span><span class="sxs-lookup"><span data-stu-id="79a71-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="79a71-486">Verenigd Koninkrijk</span><span class="sxs-lookup"><span data-stu-id="79a71-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="79a71-487">GB-00009 Parameters instellen voor creditnota voor korting bij snelle betaling</span><span class="sxs-lookup"><span data-stu-id="79a71-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="79a71-488">Verenigd Koninkrijk</span><span class="sxs-lookup"><span data-stu-id="79a71-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="79a71-489">Visie en strategie ontwikkelen</span><span class="sxs-lookup"><span data-stu-id="79a71-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-498">Een vraag afhankelijk maken van het antwoord op de vorige vraag (voorwaardelijke vragen)</span><span class="sxs-lookup"><span data-stu-id="79a71-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="79a71-499">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-499">Global</span></span>             |
 | <span data-ttu-id="79a71-500">Een vragenlijst van een score voorzien op basis van Procent</span><span class="sxs-lookup"><span data-stu-id="79a71-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="79a71-501">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="79a71-502">Elektronische rapportage</span><span class="sxs-lookup"><span data-stu-id="79a71-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-511">Er Wjis gegevensmodel toe aan geselecteerde gegevensbronnen</span><span class="sxs-lookup"><span data-stu-id="79a71-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="79a71-512">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-512">Global</span></span>             |
 | <span data-ttu-id="79a71-513">ER Selecteer serviceprovider</span><span class="sxs-lookup"><span data-stu-id="79a71-513">ER Select service provider</span></span>                      | <span data-ttu-id="79a71-514">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="79a71-515">Onkostenbeheer</span><span class="sxs-lookup"><span data-stu-id="79a71-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-516">**BPM-regel**</span><span class="sxs-lookup"><span data-stu-id="79a71-516">**BPM Line**</span></span>                 | <span data-ttu-id="79a71-517">**Land/regio**</span><span class="sxs-lookup"><span data-stu-id="79a71-517">**Country/Region**</span></span> |
 | <span data-ttu-id="79a71-518">Onkostenbeheer configureren</span><span class="sxs-lookup"><span data-stu-id="79a71-518">Configure expense management</span></span> | <span data-ttu-id="79a71-519">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="79a71-520">Vaste activa</span><span class="sxs-lookup"><span data-stu-id="79a71-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-549">Een vast activum splitsen</span><span class="sxs-lookup"><span data-stu-id="79a71-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="79a71-550">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-550">Global</span></span>             |
 | <span data-ttu-id="79a71-551">Vaste activa overboeken</span><span class="sxs-lookup"><span data-stu-id="79a71-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="79a71-552">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="79a71-553">Grootboek</span><span class="sxs-lookup"><span data-stu-id="79a71-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-602">Journaalboekingen voor transacties weergeven</span><span class="sxs-lookup"><span data-stu-id="79a71-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="79a71-603">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-603">Global</span></span>             |
 | <span data-ttu-id="79a71-604">Gerelateerd intercompany-boekstuk van journaal weergeven</span><span class="sxs-lookup"><span data-stu-id="79a71-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="79a71-605">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="79a71-606">Human Capital-beheer</span><span class="sxs-lookup"><span data-stu-id="79a71-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-677">Beleid om in aanmerking te komen voor een vergoeding instellen</span><span class="sxs-lookup"><span data-stu-id="79a71-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="79a71-678">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-678">Global</span></span>             |
 | <span data-ttu-id="79a71-679">i9-documenttypen instellen</span><span class="sxs-lookup"><span data-stu-id="79a71-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="79a71-680">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="79a71-681">Voorraadbeheer</span><span class="sxs-lookup"><span data-stu-id="79a71-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-712">Een artikel of een grondstof traceren</span><span class="sxs-lookup"><span data-stu-id="79a71-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="79a71-713">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-713">Global</span></span>             |
 | <span data-ttu-id="79a71-714">Fysieke voorraad in het magazijn overboeken</span><span class="sxs-lookup"><span data-stu-id="79a71-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="79a71-715">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="79a71-716">Productie</span><span class="sxs-lookup"><span data-stu-id="79a71-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-803">Materiaal met kanbantaken overboeken</span><span class="sxs-lookup"><span data-stu-id="79a71-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="79a71-804">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-804">Global</span></span>             |
 | <span data-ttu-id="79a71-805">Productiestroom en -versie valideren</span><span class="sxs-lookup"><span data-stu-id="79a71-805">Validate production flow and version</span></span>                          | <span data-ttu-id="79a71-806">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="79a71-807">Hoofdplanning</span><span class="sxs-lookup"><span data-stu-id="79a71-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-816">Belangrijk materiaal en capaciteit van leverancier identificeren</span><span class="sxs-lookup"><span data-stu-id="79a71-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="79a71-817">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-817">Global</span></span>             |
 | <span data-ttu-id="79a71-818">Handmatig een vraagprognose wijzigen</span><span class="sxs-lookup"><span data-stu-id="79a71-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="79a71-819">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="79a71-820">Organisatiebeheer</span><span class="sxs-lookup"><span data-stu-id="79a71-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-831">Elektronische handtekeningen instellen</span><span class="sxs-lookup"><span data-stu-id="79a71-831">Set up electronic signatures</span></span>              | <span data-ttu-id="79a71-832">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-832">Global</span></span>             |
 | <span data-ttu-id="79a71-833">Nummerreeksen instellen met een wizard</span><span class="sxs-lookup"><span data-stu-id="79a71-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="79a71-834">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="79a71-835">Planning</span><span class="sxs-lookup"><span data-stu-id="79a71-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-836">**BPM-regel**</span><span class="sxs-lookup"><span data-stu-id="79a71-836">**BPM Line**</span></span>           | <span data-ttu-id="79a71-837">**Land/regio**</span><span class="sxs-lookup"><span data-stu-id="79a71-837">**Country/Region**</span></span> |
 | <span data-ttu-id="79a71-838">Beschikbaarheid bepalen</span><span class="sxs-lookup"><span data-stu-id="79a71-838">Determine availability</span></span> | <span data-ttu-id="79a71-839">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="79a71-840">Inkoopbeheer</span><span class="sxs-lookup"><span data-stu-id="79a71-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-853">Zoeken naar leveranciers</span><span class="sxs-lookup"><span data-stu-id="79a71-853">Search for vendors</span></span>                                               | <span data-ttu-id="79a71-854">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-854">Global</span></span>             |
 | <span data-ttu-id="79a71-855">Een hiërarchie van aanschaffingscategorieën instellen</span><span class="sxs-lookup"><span data-stu-id="79a71-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="79a71-856">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="79a71-857">Productgegevens en -configuratie</span><span class="sxs-lookup"><span data-stu-id="79a71-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-892">Een op ..\financial-dimensions\dimensies gebaseerd productmodel vrijgeven</span><span class="sxs-lookup"><span data-stu-id="79a71-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="79a71-893">Globaal</span><span class="sxs-lookup"><span data-stu-id="79a71-893">Global</span></span>             |
 | <span data-ttu-id="79a71-894">Gegevens voor productmodellen overboeken</span><span class="sxs-lookup"><span data-stu-id="79a71-894">Transfer data for product models</span></span>                      | <span data-ttu-id="79a71-895">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="79a71-896">Openbare sector</span><span class="sxs-lookup"><span data-stu-id="79a71-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-931">Een fonds instellen voor de openbare sector</span><span class="sxs-lookup"><span data-stu-id="79a71-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="79a71-932">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-932">Global</span></span>             |
 | <span data-ttu-id="79a71-933">Inkoopovereenkomstclassificaties instellen voor de openbare sector</span><span class="sxs-lookup"><span data-stu-id="79a71-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="79a71-934">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="79a71-935">Detailhandel en commerce</span><span class="sxs-lookup"><span data-stu-id="79a71-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-1002">Detailhandelsprijscorrecties</span><span class="sxs-lookup"><span data-stu-id="79a71-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="79a71-1003">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1003">Global</span></span>             |
 | <span data-ttu-id="79a71-1004">Configuraties voor detailhandeloverzichten opslaan</span><span class="sxs-lookup"><span data-stu-id="79a71-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="79a71-1005">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="79a71-1006">Verkoop</span><span class="sxs-lookup"><span data-stu-id="79a71-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-1035">Orders verzenden als rechtstreekse leveringen</span><span class="sxs-lookup"><span data-stu-id="79a71-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="79a71-1036">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1036">Global</span></span>             |
 | <span data-ttu-id="79a71-1037">Verkooporders verzenden zonder magazijn</span><span class="sxs-lookup"><span data-stu-id="79a71-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="79a71-1038">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="79a71-1039">Btw</span><span class="sxs-lookup"><span data-stu-id="79a71-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-1060">Bronbelasting instellen</span><span class="sxs-lookup"><span data-stu-id="79a71-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="79a71-1061">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1061">Global</span></span>             |
 | <span data-ttu-id="79a71-1062">Geboekte btw-transacties weergeven</span><span class="sxs-lookup"><span data-stu-id="79a71-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="79a71-1063">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="79a71-1064">Beveiliging</span><span class="sxs-lookup"><span data-stu-id="79a71-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-1069">Conflicten met scheiding van taken identificeren en oplossen</span><span class="sxs-lookup"><span data-stu-id="79a71-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="79a71-1070">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1070">Global</span></span>             |
 | <span data-ttu-id="79a71-1071">Scheiding van taken instellen</span><span class="sxs-lookup"><span data-stu-id="79a71-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="79a71-1072">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="79a71-1073">Magazijn en transport</span><span class="sxs-lookup"><span data-stu-id="79a71-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="79a71-1106">Vervoerders instellen</span><span class="sxs-lookup"><span data-stu-id="79a71-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="79a71-1107">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1107">Global</span></span>             |
 | <span data-ttu-id="79a71-1108">Workbench van ladingplanning gebruiken om ladingen en zendingen te plannen</span><span class="sxs-lookup"><span data-stu-id="79a71-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="79a71-1109">Algemeen</span><span class="sxs-lookup"><span data-stu-id="79a71-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="79a71-1110">Taakbegeleidingen in de Aan de slag-bibliotheek (februari 2016)</span><span class="sxs-lookup"><span data-stu-id="79a71-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="79a71-1111">**BPM-regel**</span><span class="sxs-lookup"><span data-stu-id="79a71-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="79a71-1112">**Land/regio**</span><span class="sxs-lookup"><span data-stu-id="79a71-1112">**Country/Region**</span></span> |

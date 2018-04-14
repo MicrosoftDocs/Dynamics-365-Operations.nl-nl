@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 87bafa5817ceef8428cf28c60ec336c127e432d4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a><span data-ttu-id="11280-104">Herwaardering van vreemde valuta voor Leveranciers en Klanten</span><span class="sxs-lookup"><span data-stu-id="11280-104">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="11280-105">Schommelingen in wisselkoersen leiden ertoe dat de theoretische waarde (boekwaarde) van openstaande transacties in vreemde valuta in de loop van de tijd variëren.</span><span class="sxs-lookup"><span data-stu-id="11280-105">Fluctuations in exchange rates cause the theoretical value (book value) of open transactions in foreign currencies to vary over time.</span></span> <span data-ttu-id="11280-106">Dit artikel bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken.</span><span class="sxs-lookup"><span data-stu-id="11280-106">This article provides information about the foreign currency revaluation process that you run to update the value of open transactions in Accounts payable and Accounts receivable.</span></span> 
 

@@ -19,17 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: badbeb8f80cf10dac890cef6267e0d910cae971b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2e73441a3f4190561d1d16db40ee1581267c8dfb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-hr-parameters-across-legal-entities"></a><span data-ttu-id="e8232-104">HR-parameters instellen voor rechtspersonen</span><span class="sxs-lookup"><span data-stu-id="e8232-104">Set up HR parameters across legal entities</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="e8232-105">U moet gedeelde parameters instellen voor records die tussen bedrijven worden gedeeld, zoals Positierecords.</span><span class="sxs-lookup"><span data-stu-id="e8232-105">You must set up shared parameters for records that are shared across companies, such as Position records.</span></span> <span data-ttu-id="e8232-106">In dit artikel wordt uitgelegd hoe u Human Resources-parameters instelt voor alle rechtspersonen.</span><span class="sxs-lookup"><span data-stu-id="e8232-106">This article explains how to set up Human resources parameters across legal entities.</span></span>
 

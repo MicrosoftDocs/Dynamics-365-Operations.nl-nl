@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="97881-102">Kenmerken, kenmerkgroepen en hun koppelingen met verschillende Retail-entiteiten in Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="97881-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="97881-103">*Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort).</span><span class="sxs-lookup"><span data-stu-id="97881-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="97881-104">In Microsoft Dynamics 365 for Finance and Operations kunnen kenmerken met verschillende detailhandelsentiteiten zoals productcategorieën en detailhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen daarvoor zijn ingesteld.</span><span class="sxs-lookup"><span data-stu-id="97881-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="97881-105">De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen.</span><span class="sxs-lookup"><span data-stu-id="97881-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="97881-106">De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.</span><span class="sxs-lookup"><span data-stu-id="97881-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="97881-307">Selecteer op het sneltabblad **Producten** het vereiste product en selecteer vervolgens **Kenmerken** boven het productraster.</span><span class="sxs-lookup"><span data-stu-id="97881-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="97881-308">Werk de waarden van de vereiste kenmerken bij op de volgende sneltabbladen:</span><span class="sxs-lookup"><span data-stu-id="97881-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="97881-309">Gedeelde productmedia</span><span class="sxs-lookup"><span data-stu-id="97881-309">Shared product media</span></span>
-    - <span data-ttu-id="97881-310">Gedeelde productkenmerken</span><span class="sxs-lookup"><span data-stu-id="97881-310">Shared product attributes</span></span>
-    - <span data-ttu-id="97881-311">Afzetkanaalmedia</span><span class="sxs-lookup"><span data-stu-id="97881-311">Channel media</span></span>
-    - <span data-ttu-id="97881-312">Afzetkanaalproductkenmerken</span><span class="sxs-lookup"><span data-stu-id="97881-312">Channel product attributes</span></span>
+   - <span data-ttu-id="97881-309">Gedeelde productmedia</span><span class="sxs-lookup"><span data-stu-id="97881-309">Shared product media</span></span>
+   - <span data-ttu-id="97881-310">Gedeelde productkenmerken</span><span class="sxs-lookup"><span data-stu-id="97881-310">Shared product attributes</span></span>
+   - <span data-ttu-id="97881-311">Afzetkanaalmedia</span><span class="sxs-lookup"><span data-stu-id="97881-311">Channel media</span></span>
+   - <span data-ttu-id="97881-312">Afzetkanaalproductkenmerken</span><span class="sxs-lookup"><span data-stu-id="97881-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="97881-313">Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.</span><span class="sxs-lookup"><span data-stu-id="97881-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="97881-313">Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.</span><span class="sxs-lookup"><span data-stu-id="97881-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![Kenmerkgroepen van catalogusproducten](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="97881-321">Werk de waarden van de vereiste kenmerken bij op de volgende sneltabbladen:</span><span class="sxs-lookup"><span data-stu-id="97881-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="97881-322">Gedeelde productmedia</span><span class="sxs-lookup"><span data-stu-id="97881-322">Shared product media</span></span>
-    - <span data-ttu-id="97881-323">Gedeelde productkenmerken</span><span class="sxs-lookup"><span data-stu-id="97881-323">Shared product attributes</span></span>
-    - <span data-ttu-id="97881-324">Afzetkanaalmedia</span><span class="sxs-lookup"><span data-stu-id="97881-324">Channel media</span></span>
-    - <span data-ttu-id="97881-325">Afzetkanaalproductkenmerken</span><span class="sxs-lookup"><span data-stu-id="97881-325">Channel product attributes</span></span>
+   - <span data-ttu-id="97881-322">Gedeelde productmedia</span><span class="sxs-lookup"><span data-stu-id="97881-322">Shared product media</span></span>
+   - <span data-ttu-id="97881-323">Gedeelde productkenmerken</span><span class="sxs-lookup"><span data-stu-id="97881-323">Shared product attributes</span></span>
+   - <span data-ttu-id="97881-324">Afzetkanaalmedia</span><span class="sxs-lookup"><span data-stu-id="97881-324">Channel media</span></span>
+   - <span data-ttu-id="97881-325">Afzetkanaalproductkenmerken</span><span class="sxs-lookup"><span data-stu-id="97881-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="97881-326">Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.</span><span class="sxs-lookup"><span data-stu-id="97881-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="97881-326">Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.</span><span class="sxs-lookup"><span data-stu-id="97881-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b2ecf9fb75f67b4ff505598e7a38f4cc3ee328d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 07168d71f62e8bbe97c189077bf53513d784ff26
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="design-the-relationships-between-organizational-units"></a><span data-ttu-id="7cc56-103">De relaties tussen organisatie-eenheden ontwerpen</span><span class="sxs-lookup"><span data-stu-id="7cc56-103">Design the relationships between organizational units</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7cc56-104">Deze procedure doorloopt het ontwerpen van de relatie tussen organisatie-eenheden.</span><span class="sxs-lookup"><span data-stu-id="7cc56-104">This procedure walks through how to design the relationship between organizational units.</span></span> <span data-ttu-id="7cc56-105">U moet een nieuw organisatiedoel maken voordat u de relatie definieert, of u kunt het bestaande organisatiedoel gebruiken.</span><span class="sxs-lookup"><span data-stu-id="7cc56-105">You must create a new organization purpose before defining the relationship, or you can use the existing organization purpose.</span></span> <span data-ttu-id="7cc56-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure uit te voeren is USRT.</span><span class="sxs-lookup"><span data-stu-id="7cc56-106">The demo data company used to complete this procedure is USRT.</span></span> <span data-ttu-id="7cc56-107">Deze taak is bedoeld voor de beheerdersrol.</span><span class="sxs-lookup"><span data-stu-id="7cc56-107">This task is intended for the administrator role.</span></span>
 

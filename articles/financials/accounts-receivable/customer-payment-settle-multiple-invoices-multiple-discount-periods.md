@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: df8c74697251fa762520d62f7d87d82179390f80
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a><span data-ttu-id="0edc3-104">Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten</span><span class="sxs-lookup"><span data-stu-id="0edc3-104">Use a customer payment to settle multiple invoices that span multiple discount periods</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0edc3-105">Dit onderwerp toont hoe meerdere facturen worden betaald wanneer elke factuur in aanmerking komt voor een contantkorting.</span><span class="sxs-lookup"><span data-stu-id="0edc3-105">This topic shows how multiple invoices are paid when each invoice qualifies for a cash discount.</span></span> <span data-ttu-id="0edc3-106">De scenario's in zijn artikel markeren hoe de verkregen contantkortingen variëren, afhankelijk van wanneer de betaling wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="0edc3-106">The scenarios in his article highlight how the cash discounts that are taken vary, depending on when the payment is made.</span></span>
 

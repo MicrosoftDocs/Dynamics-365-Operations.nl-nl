@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="5ca60-103">Btw-berekeningsmethoden in het veld Oorsprong</span><span class="sxs-lookup"><span data-stu-id="5ca60-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="5ca60-104">Dit artikel beschrijft de opties in het veld Oorsprong op de btw-codespagina en hoe de btw op basis van de geselecteerde optie voor een btw-code wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="5ca60-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="5ca60-122">BTW = 25%, met de berekeningsmethode Percentage van brutobedrag</span><span class="sxs-lookup"><span data-stu-id="5ca60-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="5ca60-123">Is het nettobedrag 10,00, dan HEFFING 1 = 1,00 (10,00 x 10%) en HEFFING 2 = 2,00 (10,00 x 20%).</span><span class="sxs-lookup"><span data-stu-id="5ca60-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="5ca60-124">De bedragen zijn als volgt: Brutobedrag: nettobedrag + HEFFING 1 bedrag + HEFFING 2 bedrag (10,00 + 1,00 + 2,00) = 13,00 BTW = 13,00 x 25% = 3,25 Totaal HEFFINGEN en BTW: 1,00 + 2,00 + 3,25 = 6,25 Totaalbedrag: 10,00 + 6,25 = 16,25</span><span class="sxs-lookup"><span data-stu-id="5ca60-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="5ca60-125">**Opmerking**</span><span class="sxs-lookup"><span data-stu-id="5ca60-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="5ca60-126">Slechts één btw-code met Oorsprong = Percentage van brutobedrag kan voor een transactie worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="5ca60-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="5ca60-127">Als meerdere dergelijke btw-codes voor een transactie worden gedefinieerd wordt een fout weergegeven dat de btw niet kan worden berekend.</span><span class="sxs-lookup"><span data-stu-id="5ca60-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="5ca60-128">Btw-percentage</span><span class="sxs-lookup"><span data-stu-id="5ca60-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="5ca60-136">BTW = 25%, met de methode Percentage van brutobedrag</span><span class="sxs-lookup"><span data-stu-id="5ca60-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="5ca60-137">Nettobedrag: 10,00 HEFFING 1: 10,00 x 10% = 1,00 HEFFING 2: 1,00 x 20% = 0,20 Brutobedrag: 10,00 + 1,00 + 0,20 = 11,20 BTW: 11,20 x 25% = 2,80 Totaal HEFFINGEN en BTW: 1,00 + 0,20 + 2,80 = 4,00 Totaalbedrag: 10,00 + 4,00 = 14,00</span><span class="sxs-lookup"><span data-stu-id="5ca60-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="5ca60-138">**Opmerking**</span><span class="sxs-lookup"><span data-stu-id="5ca60-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="5ca60-139">Belasting op meerdere niveaus in belastingberekeningen is niet mogelijk.</span><span class="sxs-lookup"><span data-stu-id="5ca60-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="5ca60-140">Een belasting kan niet worden berekend op basis van een belasting die al op basis van een andere belasting wordt berekend.</span><span class="sxs-lookup"><span data-stu-id="5ca60-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="5ca60-141">Er kunnen meerdere één-niveau-belastingen op btw-codes worden berekend voor een transactie.</span><span class="sxs-lookup"><span data-stu-id="5ca60-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="example"></a><span data-ttu-id="5ca60-146">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="5ca60-146">Example</span></span>
 
 <span data-ttu-id="5ca60-147">Btw-code is ingesteld als: USD 1,20 per eenheid = doos Op een verkoopfactuurregel worden 25 dozen van een artikel verkocht Btw wordt berekend als 25 x 1,20 = 30,00</span><span class="sxs-lookup"><span data-stu-id="5ca60-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="5ca60-148">**Opmerking**</span><span class="sxs-lookup"><span data-stu-id="5ca60-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="5ca60-149">Als de transactie in een andere eenheid wordt ingevoerd dan de eenheid die is opgegeven voor de btw-code, wordt deze automatisch omgezet op basis van de eenheidsomrekeningen die in de pagina Eenheidsomrekeningen zijn ingesteld.</span><span class="sxs-lookup"><span data-stu-id="5ca60-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

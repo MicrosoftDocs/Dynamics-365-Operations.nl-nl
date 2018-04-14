@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4082facdba02cd69c6679e7f3e68e391d29e4195
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a><span data-ttu-id="2d2db-103">Artikelen beheren die aan werknemers worden geleend</span><span class="sxs-lookup"><span data-stu-id="2d2db-103">Manage items lent to workers</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="2d2db-104">Leenartikelen zijn records waarmee managers de artikelen die uw bedrijf aan werknemers uitleent, bijhouden.</span><span class="sxs-lookup"><span data-stu-id="2d2db-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="2d2db-120">Als een artikel beschadigd is of verloren raakt, noteert u een fictieve teruggave.</span><span class="sxs-lookup"><span data-stu-id="2d2db-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="2d2db-121">Vervolgens verwijdert u het artikel of laat u het artikel in het overzicht staan, maar vermeldt u dat het artikel niet meer beschikbaar is.</span><span class="sxs-lookup"><span data-stu-id="2d2db-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
- 
+
 <a name="see-also"></a><span data-ttu-id="2d2db-122">Zie ook</span><span class="sxs-lookup"><span data-stu-id="2d2db-122">See also</span></span>
 --------
 

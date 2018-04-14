@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c8e24234cfa54dcbbf3638c31ced7fb83881bb9f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6873d9bb6e3c386dd6ecef91bdd5248bb49d8264
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modeling-a-lean-organization"></a><span data-ttu-id="1665c-103">Een lean organisatie modelleren</span><span class="sxs-lookup"><span data-stu-id="1665c-103">Modeling a lean organization</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1665c-104">Het artikel bevat informatie over de belangrijkste concepten bij het modelleren van een lean organisatie.</span><span class="sxs-lookup"><span data-stu-id="1665c-104">The article provides information about the key concepts in modeling a lean organization.</span></span> 
 

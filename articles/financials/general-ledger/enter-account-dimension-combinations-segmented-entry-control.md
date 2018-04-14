@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: ce8295bf99ad8e7b83c380ae31ee1bcae74ed449
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 120a28cc9ae8685895400e872cc03e7b6a1c6642
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a><span data-ttu-id="ee60d-104">Account- en dimensiecombinaties invoeren (gesegmenteerd invoerbesturingselement)</span><span class="sxs-lookup"><span data-stu-id="ee60d-104">Enter account and dimension combinations (segmented entry control)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ee60d-105">In dit artikel wordt beschreven hoe u combinaties van rekeningen en dimensies of grootboekrekeningen invoert.</span><span class="sxs-lookup"><span data-stu-id="ee60d-105">This article describes how to enter account and dimension combinations or ledger accounts.</span></span> <span data-ttu-id="ee60d-106">Deze invoerervaring wordt ook wel gesegmenteerd invoerbestuur genoemd.</span><span class="sxs-lookup"><span data-stu-id="ee60d-106">The entry experience is often referred to as segmented entry control.</span></span>
 
@@ -112,7 +111,7 @@ ms.lasthandoff: 01/17/2018
 </tbody>
 </table>
 
- 
+
 
 
 

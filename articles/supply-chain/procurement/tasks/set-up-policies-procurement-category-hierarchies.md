@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 50764f99be04d27e04047824f870e724336cb452
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a773675b858a196e795ad54cc534ef5eb98ef484
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a><span data-ttu-id="c58d7-103">Beleid instellen voor categoriehiërarchieën voor aanschaffing</span><span class="sxs-lookup"><span data-stu-id="c58d7-103">Set up policies for procurement category hierarchies</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c58d7-104">Gebruik deze procedure voor het instellen van regels voor het bestellen van producten in een categorie.</span><span class="sxs-lookup"><span data-stu-id="c58d7-104">Use this procedure to set up rules for ordering products in a category.</span></span> <span data-ttu-id="c58d7-105">De regels worden gedefinieerd voor een specifiek inkoopbeleid.</span><span class="sxs-lookup"><span data-stu-id="c58d7-105">The rules are defined for a specific purchasing policy.</span></span> <span data-ttu-id="c58d7-106">De regel voor categorietoegang bepaalt tot welke aanschaffingscategorieën werknemers toegang hebben bij het maken van een inkoopopdracht.</span><span class="sxs-lookup"><span data-stu-id="c58d7-106">The category access rule controls which procurement categories employees have access to when they create a requisition.</span></span> <span data-ttu-id="c58d7-107">Wanneer een inkoopopdracht wordt gemaakt, worden het inkoopbeleid en de regel voor categorietoegang die moeten worden toegepast bepaald door de rechtspersoon en de operationele eenheid waartoe de werknemer behoort.</span><span class="sxs-lookup"><span data-stu-id="c58d7-107">When a requisition is being created, the purchasing policy and category access rule that should be applied are determined by the legal entity and the operational unit that the employee belongs to.</span></span> <span data-ttu-id="c58d7-108">U kunt deze procedure gebruiken in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="c58d7-108">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="c58d7-109">Deze taak wordt meestal uitgevoerd door een inkoopmanager.</span><span class="sxs-lookup"><span data-stu-id="c58d7-109">This task would typically be carried out by a purchasing manager.</span></span>
 

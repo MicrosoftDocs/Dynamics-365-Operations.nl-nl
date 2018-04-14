@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cab69222c5004e6a62c632a9e85085403434ffd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b60dbe15eca10511f4aaaf472b512eb003fbf6bc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="confirm-sales-orders"></a><span data-ttu-id="501fa-103">Verkooporders bevestigen</span><span class="sxs-lookup"><span data-stu-id="501fa-103">Confirm sales orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="501fa-104">Deze procedure demonstreert hoe verkooporders worden bevestigd.</span><span class="sxs-lookup"><span data-stu-id="501fa-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="501fa-105">U ziet hoe u één order bevestigt en hoe u meerdere orders tegelijk bevestigt.</span><span class="sxs-lookup"><span data-stu-id="501fa-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="501fa-106">Deze taken worden meestal uitgevoerd door een verkooporderverwerker.</span><span class="sxs-lookup"><span data-stu-id="501fa-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="501fa-107">U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="501fa-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="501fa-108">Voordat u begint, moet u ervoor zorgen dat er meerdere openstaande verkooporders voor dezelfde klant zijn.</span><span class="sxs-lookup"><span data-stu-id="501fa-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="501fa-109">Als u USMF gebruikt, kunt u klant US-027 gebruiken.</span><span class="sxs-lookup"><span data-stu-id="501fa-109">If you’re using USMF, you can use customer US-027.</span></span>
 

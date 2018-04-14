@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8195b776e5d46485172c9f5550ab4ed6d8623dfc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a6c93252f95e3c07e1929d70467f6aa8d43af593
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-object-dimensions"></a><span data-ttu-id="40f19-105">Dimensies van kostenobject</span><span class="sxs-lookup"><span data-stu-id="40f19-105">Cost object dimensions</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="40f19-106">Wanneer u kosten analyseert, gebruikt u elementendimensies om te bepalen waarheen de kosten stromen.</span><span class="sxs-lookup"><span data-stu-id="40f19-106">When you analyze costs, you use cost element dimensions to determine where costs flow to.</span></span> <span data-ttu-id="40f19-107">U gebruikt kostenobjectdimensies om te bepalen waaraan u kosten moet toewijzen.</span><span class="sxs-lookup"><span data-stu-id="40f19-107">You use cost object dimensions to determine where you should assign costs.</span></span> <span data-ttu-id="40f19-108">Dit onderwerp biedt informatie over kostenobjectdimensies.</span><span class="sxs-lookup"><span data-stu-id="40f19-108">This topic provides information about cost object dimensions.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: b7268870aa9065e4e52d936e819107094bad3663
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b215e1645c0f0f60437dc363530e2af3d262c4e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="time-windows"></a><span data-ttu-id="a7a8e-103">Tijdvensters</span><span class="sxs-lookup"><span data-stu-id="a7a8e-103">Time windows</span></span>  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a7a8e-104">U kunt tijdvensters gebruiken voor het optimaliseren van de planning van serviceorderregels.</span><span class="sxs-lookup"><span data-stu-id="a7a8e-104">You can use time windows to optimize the scheduling of service order lines.</span></span> <span data-ttu-id="a7a8e-105">U kunt het systeem zo instellen dat het automatisch serviceorders maakt.</span><span class="sxs-lookup"><span data-stu-id="a7a8e-105">You can set up the system so that it automatically creates service orders.</span></span> <span data-ttu-id="a7a8e-106">Op basis van de criteria die door een tijdvenster zijn opgegeven, kunt u zoveel mogelijk serviceorderregels verbinden aan zo weinig mogelijk serviceorders.</span><span class="sxs-lookup"><span data-stu-id="a7a8e-106">Based on the criteria specified by a time window, you can connect as many service order lines as possible to as few service orders as possible.</span></span>
 

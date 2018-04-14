@@ -17,18 +17,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2638df96c47cf64c029e129d27af886b7ecbf4e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="custom-fields"></a><span data-ttu-id="c380a-103">Aangepaste velden</span><span class="sxs-lookup"><span data-stu-id="c380a-103">Custom fields</span></span>
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="c380a-104">Microsoft Dynamics 365 for Finance and Operations biedt een uitgebreide reeks kant-en-klare velden voor het beheren van een breed scala van bedrijfsprocessen, maar soms is er behoefte in een bedrijf om aanvullende informatie bij te houden in het systeem.</span><span class="sxs-lookup"><span data-stu-id="c380a-104">While Microsoft Dynamics 365 for Finance and Operations provides an extensive set of fields out-of-the-box for managing a broad range of business processes, sometimes there is a need for a company to track additional information in the system.</span></span> <span data-ttu-id="c380a-105">Voor deze behoefte kunt u met Finance and Operations aangepaste velden maken om de toepassing aan te passen aan uw bedrijf, als u machtigingen hebt voor de functie.</span><span class="sxs-lookup"><span data-stu-id="c380a-105">To accommodate this need, Finance and Operations allows you to create custom fields to tailor the application to fit your business, provided you have permissions to the feature.</span></span> 
 

@@ -19,17 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1198da234b9e036e22c29da3c4ab5ec8e0a44431
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-invoicing"></a><span data-ttu-id="cf4db-104">Projectfacturering</span><span class="sxs-lookup"><span data-stu-id="cf4db-104">Project invoicing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cf4db-105">Dit artikel biedt een overzicht van projectfacturen voor tijd- en materiaalprojecten en projecten met een vaste prijs.</span><span class="sxs-lookup"><span data-stu-id="cf4db-105">This article provides an overview of project invoicing for Time and material projects and Fixed-price projects.</span></span> <span data-ttu-id="cf4db-106">Het bevat informatie over factuurvoorstellen (voorlopige facturen), factuurbeheer, a conto-facturering, leveranciersfacturering en creditnota's.</span><span class="sxs-lookup"><span data-stu-id="cf4db-106">It includes information about invoice proposals (preliminary invoices), invoice control, on-account invoicing, vendor invoicing, and credit notes.</span></span>
 

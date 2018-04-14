@@ -20,17 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 0adfb1dcdaa1c57a3f8af0d874c081e19844d20a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3b1346917dc8482181acdb9dac31efbc5356dd24
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="info-codes"></a><span data-ttu-id="d81be-103">Infocodes</span><span class="sxs-lookup"><span data-stu-id="d81be-103">Info codes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="d81be-104">Dit artikel geeft een overzicht over infocodes, de groepen infocodes, en hoe ze worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="d81be-104">This article provides an overview about info codes, info code groups, and how to use them.</span></span>
 
@@ -52,7 +51,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="d81be-132">**Voorbeeld 2: Infocodes koppelen aan infocodegroepen** Als u bepaalde producten verkoopt, bijvoorbeeld mobiele apparaten, wilt u altijd om specifieke informatie vragen, zoals telefoonnummer, mobiele uitrustingsidentificatie (MEID) en serienummer.</span><span class="sxs-lookup"><span data-stu-id="d81be-132">**Example 2: Link info codes to info code groups** When you sell certain products, for example mobile devices, you always want to collect a specific set of information, such as telephone number, mobile equipment identifier (MEID), and serial number.</span></span> <span data-ttu-id="d81be-133">U wilt echter ook andere informatie verzamelen voor een tablet dan bij een mobiele telefoon.</span><span class="sxs-lookup"><span data-stu-id="d81be-133">However, you also want to collect different information for a tablet versus a mobile phone.</span></span> <span data-ttu-id="d81be-134">U kunt een informatiecodegroep instellen die vragen bevat voor het telefoonnummer, MEID en het serienummer en vervolgens de informatiecodegroep koppelen aan een afzonderlijke informatiecode.</span><span class="sxs-lookup"><span data-stu-id="d81be-134">You can set up an info code group that includes prompts for the telephone number, MEID, and the serial number, and then link the info code group to an individual info code.</span></span> <span data-ttu-id="d81be-135">Wanneer de productspecifieke informatiecode wordt geactiveerd, kan de informatiecodegroep vervolgens worden geactiveerd zodat u de gemeenschappelijke gegevens kunt verzamelen zonder daarvoor meerdere sets gekoppelde informatiecodes te definiëren voor elk apparaat.</span><span class="sxs-lookup"><span data-stu-id="d81be-135">When the product-specific info code is triggered, the info code group can be triggered next to enable you to collect the common data without having to define multiple sets of linked info codes for each device.</span></span>
 
- 
+
 
 
 

@@ -16,15 +16,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6bb7a5133e9412f4ed6fb74f0d3ee595c07a0c4b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f9fc2374bb80126e092929182a2c4c8fc8aba9f5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-unit-of-measure"></a><span data-ttu-id="72340-103">Maateenheid beheren</span><span class="sxs-lookup"><span data-stu-id="72340-103">Manage unit of measure</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="72340-104">Deze procedure laat zien hoe u een maateenheid kunt definiëren, vertalingen voor de eenheid en de beschrijving ervan kunt verstrekken en conversieregels voor gerelateerde eenheden kunt definiëren.</span><span class="sxs-lookup"><span data-stu-id="72340-104">This procedure shows how to define a unit of measure, provide translations for the unit and it's description, and define conversion rules for related units.</span></span> <span data-ttu-id="72340-105">U kunt deze procedure doorlopen met demogegevens of uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="72340-105">You can walk through this procedure using demo data, or using your own data.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 999c6da306ff713521ce3bb5750bd7e65dc5daaf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5ca839e091ab49ea0d47d5e039a4c6d4007c2650
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a><span data-ttu-id="a1aaf-103">Vereiste configuraties maken om gegevens te importeren uit een extern bestand voor elektronische aangifte (ER)</span><span class="sxs-lookup"><span data-stu-id="a1aaf-103">Create required configurations to import data from an external file for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a1aaf-104">In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de toepassing Dynamics 365 for Finance and Operations kunnen worden geïmporteerd.</span><span class="sxs-lookup"><span data-stu-id="a1aaf-104">The following steps explain how a user in the System administrator or Electronic reporting developer role can design Electronic reporting (ER) configurations to import data in to the Dynamics 365 for Finance and Operations application from an external file.</span></span> <span data-ttu-id="a1aaf-105">In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding 'ER Een configuratieprovider maken en deze als actief markeren'.</span><span class="sxs-lookup"><span data-stu-id="a1aaf-105">In this example, you will create the required ER configurations for the sample company, Litware, Inc. To complete these steps, you must first complete the steps in the Task guide, “ER Create a configuration provider and mark it as active.”</span></span> <span data-ttu-id="a1aaf-106">Deze stappen kunnen worden voltooid met de USMF-gegevensset.</span><span class="sxs-lookup"><span data-stu-id="a1aaf-106">These steps can be completed using the USMF data set.</span></span> <span data-ttu-id="a1aaf-107">U moet ook de volgende bestanden downloaden vanaf de koppelingen in het overzichtsonderwerp Electronic Reporting (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.</span><span class="sxs-lookup"><span data-stu-id="a1aaf-107">You must also download and save the following files locally using links from the Electronic reporting overview topic (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.</span></span>
 

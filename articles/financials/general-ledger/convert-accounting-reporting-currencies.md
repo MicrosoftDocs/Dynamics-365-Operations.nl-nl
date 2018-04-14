@@ -18,17 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad840f4ed2cf27615e699a13fcd8be7f3c2cd5c8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d57f3138f5a456c85550baf1eb18b4f99733a3d1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a><span data-ttu-id="7ace1-103">Valuta voor boekhouding of aangiftevaluta converteren</span><span class="sxs-lookup"><span data-stu-id="7ace1-103">Convert accounting or reporting currencies</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7ace1-104">Een bedrijf dat zijn valuta voor boekhouding of aangiftevaluta moet wijzigen heeft twee opties.</span><span class="sxs-lookup"><span data-stu-id="7ace1-104">A company that must change its accounting currency or reporting currency has two options.</span></span> <span data-ttu-id="7ace1-105">De eerste optie is een nieuw bedrijf te maken en van voren af aan te beginnen.</span><span class="sxs-lookup"><span data-stu-id="7ace1-105">The first option is to create a new company and start fresh.</span></span> <span data-ttu-id="7ace1-106">De tweede optie is het conversieproces voor de valuta voor boekhouding en aangiftevaluta uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="7ace1-106">The second option is to run the accounting and reporting currency conversion process.</span></span> <span data-ttu-id="7ace1-107">Dit is een zeer langdurig proces dat elke transactie in het systeem verandert.</span><span class="sxs-lookup"><span data-stu-id="7ace1-107">This is a very long-running process that changes every transaction in the system.</span></span> <span data-ttu-id="7ace1-108">Er kunnen ook instellingen vereist zijn voordat het proces kan worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="7ace1-108">Some setup is also required before the process can be run.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e3c86bd32a05a392fcb82a86f2c461cc3abfb03
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 85b778caf209c2fb1845665169e08210bfeb45c1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a><span data-ttu-id="bf650-104">Een budget maken op basis van transactierekeningen en totaalrekeningen.</span><span class="sxs-lookup"><span data-stu-id="bf650-104">Create a budget from transaction accounts and total accounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bf650-105">Dit artikel biedt een overzicht van het proces voor het maken van budgetten op basis van totaalrekeningen.</span><span class="sxs-lookup"><span data-stu-id="bf650-105">This article provides an overview of the process for creating budgets based on total accounts.</span></span> <span data-ttu-id="bf650-106">Daarnaast wordt beschreven hoe u budgetbeheer voor totaalrekeningen inschakelt, als budgetbeheer vereist is.</span><span class="sxs-lookup"><span data-stu-id="bf650-106">It also explains how to turn on budget control for total accounts, if budget control is required.</span></span>
 

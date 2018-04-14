@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c142534e9e5b5f154f478889d13540dc3d47ad18
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="569e7-103">Een goedkeuringsstap configureren in een workflow</span><span class="sxs-lookup"><span data-stu-id="569e7-103">Configure an approval step in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="569e7-104">In dit onderwerp wordt uitgelegd hoe u de verschillende eigenschappen van een goedkeuringsstap configureert.</span><span class="sxs-lookup"><span data-stu-id="569e7-104">This topic explains how to configure the properties of an approval step.</span></span>
 
@@ -145,9 +144,9 @@ ms.lasthandoff: 11/03/2017
     <span data-ttu-id="569e7-192">Als de gebruiker niet binnen de toegekende tijd actie op een document onderneemt, wordt het document achterstallig.</span><span class="sxs-lookup"><span data-stu-id="569e7-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="569e7-193">Een achterstallig document wordt geëscaleerd op basis van de opties die u selecteert in het gebied **Escalatie** van deze pagina.</span><span class="sxs-lookup"><span data-stu-id="569e7-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 4.  <span data-ttu-id="569e7-194">Als u de goedkeuringsstap aan meerdere gebruikers of aan een groep gebruikers hebt toegewezen, klikt u op het tabblad **Voltooiingsbeleid** en selecteert u een van de volgende opties:</span><span class="sxs-lookup"><span data-stu-id="569e7-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
     -   <span data-ttu-id="569e7-195">**Eén fiatteur**: de eerste persoon die reageert bepaalt welke actie op het document wordt toegepast.</span><span class="sxs-lookup"><span data-stu-id="569e7-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="569e7-196">Stel dat Sam een onkostennota voor 15.000 EUR heeft ingediend.</span><span class="sxs-lookup"><span data-stu-id="569e7-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="569e7-197">De onkostennota is op dit moment toegewezen aan Suzan, Jo en Bill.</span><span class="sxs-lookup"><span data-stu-id="569e7-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="569e7-198">Als Suzan als eerste reageert, wordt de actie die zij uitvoert op het document toegepast.</span><span class="sxs-lookup"><span data-stu-id="569e7-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="569e7-199">Wijst Suzan het document af, dan wordt het document afgewezen en teruggestuurd naar Sam.</span><span class="sxs-lookup"><span data-stu-id="569e7-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="569e7-200">Als Suzan het document goedkeurt, wordt het ter goedkeuring naar Anne doorgezonden.</span><span class="sxs-lookup"><span data-stu-id="569e7-200">If Sue approves the document, it's sent to Ann for approval.</span></span> 
-    
+
     ![Een workflow met een goedkeuringsproces](./media/workflow_multipleusersinstep.gif)
-    
+
     -   <span data-ttu-id="569e7-202">**Meerderheid van fiatteurs**: welke actie op het document wordt toegepast wordt bepaald wanneer een meerderheid van de fiatteurs reageert.</span><span class="sxs-lookup"><span data-stu-id="569e7-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="569e7-203">Stel dat Sam een onkostennota voor 15.000 EUR heeft ingediend.</span><span class="sxs-lookup"><span data-stu-id="569e7-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="569e7-204">De onkostennota is op dit moment toegewezen aan Suzan, Jo en Bill.</span><span class="sxs-lookup"><span data-stu-id="569e7-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="569e7-205">Als Suzan en Jo als eerste twee personen reageren, wordt de actie die zij uitvoeren op het document toegepast.</span><span class="sxs-lookup"><span data-stu-id="569e7-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
         -   <span data-ttu-id="569e7-206">Als het document door Suzan wordt goedgekeurd, maar door Jo wordt afgewezen, wordt het document afgewezen en teruggestuurd naar Sam.</span><span class="sxs-lookup"><span data-stu-id="569e7-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
         -   <span data-ttu-id="569e7-207">Als het document zowel door Suzan als door Jo wordt goedgekeurd, wordt het ter goedkeuring naar Anne doorgezonden.</span><span class="sxs-lookup"><span data-stu-id="569e7-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>

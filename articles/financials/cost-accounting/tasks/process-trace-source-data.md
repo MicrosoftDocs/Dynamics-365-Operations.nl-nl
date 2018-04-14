@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7093338fd306e90df79a787f9de9861b3fe49dd5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 57884660fb9459c8cd918e5d1ba4df14efcf6db3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-and-trace-source-data"></a><span data-ttu-id="ded7c-103">Brongegevens verwerken en traceren</span><span class="sxs-lookup"><span data-stu-id="ded7c-103">Process and trace source data</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ded7c-104">Alle gegevensverwerking wordt uitgevoerd door taken.</span><span class="sxs-lookup"><span data-stu-id="ded7c-104">All data processing is run by jobs.</span></span> <span data-ttu-id="ded7c-105">Voor elke taak en gegevensprovider wordt een journaal gemaakt om te documenteren dat het proces is uitgevoerd en dat de posten zijn verwerkt in de huidige taak.</span><span class="sxs-lookup"><span data-stu-id="ded7c-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="ded7c-106">Met deze procedure kunt u een gegevensbron instellen en vervolgens de oorsprong van een bepaalde kostenpost traceren.</span><span class="sxs-lookup"><span data-stu-id="ded7c-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="ded7c-107">Deze registratie gebruikt het USP2-demogegevensbedrijf USP2.</span><span class="sxs-lookup"><span data-stu-id="ded7c-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="ded7c-108">Zorg voordat u deze taak voltooit dat u de volgende taakbegeleiders afspeelt: 'Een grootboek van kostprijsboekhouding maken', 'Kostenbeheereenheden definiëren' en 'Gegevensbron beheren voor het grootboek van kostprijsboekhouding'.</span><span class="sxs-lookup"><span data-stu-id="ded7c-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 

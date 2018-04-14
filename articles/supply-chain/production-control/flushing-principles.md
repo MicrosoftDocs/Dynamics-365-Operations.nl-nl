@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 818d7d21605ada63a29a41d3bf20ed9cbf21a178
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a><span data-ttu-id="c56a5-103">Het grondstoffenverbruik beheren door middel van wisprincipes</span><span class="sxs-lookup"><span data-stu-id="c56a5-103">Controlling raw material consumption by using flushing principles</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c56a5-104">De wisprincipes vertegenwoordigen verschillende verbruikstrategieën voor grondstoffen die worden gebruikt in de productieprocessen.</span><span class="sxs-lookup"><span data-stu-id="c56a5-104">The flushing principles reflect different consumption strategies for raw materials that are used in production processes.</span></span> <span data-ttu-id="c56a5-105">Verbruik is het proces dat materiaal van de voorhanden voorraad aftrekt en de waarde van het verbruikte materiaal instelt op **Onderhanden werk** (OHW) voor productieorders en batchorders.</span><span class="sxs-lookup"><span data-stu-id="c56a5-105">Consumption is the process that deducts material from the on-hand inventory and sets the value of the consumed materials to **Work in progress** (WIP) for production orders and batch orders.</span></span> <span data-ttu-id="c56a5-106">Grondstoffen worden meestal verbruikt vanaf een locatie die is geconfigureerd voor het proces waarbij het materiaal wordt verbruikt.</span><span class="sxs-lookup"><span data-stu-id="c56a5-106">Raw materials are usually consumed from a location that is configured for the process that consumes the material.</span></span> <span data-ttu-id="c56a5-107">Deze locatie wordt de productie-invoerlocatie genoemd.</span><span class="sxs-lookup"><span data-stu-id="c56a5-107">This location is known as the production input location.</span></span>
 

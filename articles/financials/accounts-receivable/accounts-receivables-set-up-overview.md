@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 43c8d0db28fb0a845c4520b279f16d7c20c6da88
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a><span data-ttu-id="087da-103">Klanten en Crediteringen en aanmaningen configureren</span><span class="sxs-lookup"><span data-stu-id="087da-103">Configure Accounts receivables and Credit and collections</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="087da-104">Configureer Klanten en Crediteringen en aanmaningen om facturen en binnenkomende betalingen van klanten bij te houden.</span><span class="sxs-lookup"><span data-stu-id="087da-104">Configure Accounts receivable and Credit and Collections to track invoices and incoming payments from customers.</span></span>
 
@@ -107,7 +106,7 @@ ms.lasthandoff: 11/14/2017
 |                                                      | <span data-ttu-id="087da-251">Informatie over ontoereikend saldo.</span><span class="sxs-lookup"><span data-stu-id="087da-251">NSF information.</span></span>                     | <span data-ttu-id="087da-252">Informatie over ontoereikend saldo instellen voor de bankrekening die wordt gebruikt wanneer een betaling als transactie met ontoereikend saldo is gemarkeerd op de pagina Aanmaningen.</span><span class="sxs-lookup"><span data-stu-id="087da-252">Set up NSF information on the bank account that will be used when a payment is marked as an NSF transaction on the Collections page.</span></span>                                                                                                                                              |
 |                                                      | <span data-ttu-id="087da-253">Gegevens verkoper</span><span class="sxs-lookup"><span data-stu-id="087da-253">Salesperson information</span></span>              | <span data-ttu-id="087da-254">Het e-mailadres voor verkopers instellen.</span><span class="sxs-lookup"><span data-stu-id="087da-254">Set up the email address for salespersons.</span></span> <span data-ttu-id="087da-255">Deze adressen worden op de pagina Aanmaningen weergegeven en u kunt deze gebruiken om vanaf die pagina een e-mailbericht naar een verkoper te verzenden.</span><span class="sxs-lookup"><span data-stu-id="087da-255">These addresses will appear on the Collections page and you can use them to send email to a salesperson from that page.</span></span>                                                                                                                |
 
- 
+
 <span data-ttu-id="087da-256">Zie [Crediteringen en aanmaningen in Klanten](collections-credit-accounts-receivable.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="087da-256">For more information, see [Credit and collections in Accounts receivable](collections-credit-accounts-receivable.md).</span></span>
 
 

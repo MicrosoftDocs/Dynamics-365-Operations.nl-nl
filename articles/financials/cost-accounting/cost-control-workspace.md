@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 861b4eda291dc7b0a5c045a767c860b7e4718404
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: beb110091ea452ec46739c10fa2570eb9b6f656f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-control-overview"></a><span data-ttu-id="b883d-104">Overzicht van kostenbeheer</span><span class="sxs-lookup"><span data-stu-id="b883d-104">Cost control overview</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b883d-105">Het werkgebied **Kostenbeheer** is een centraal punt waar managers die verantwoordelijk zijn voor het beheer van een kostenobject of een reeks kostenobjecten in een dimensie of meerdere dimensies (bijvoorbeeld kostenplaatsen en productgroepen) toegang kunnen krijgen tot rapporten.</span><span class="sxs-lookup"><span data-stu-id="b883d-105">The **Cost control** workspace is a central point where managers who are responsible for controlling a cost object or a set of cost objects within a dimension or across dimensions (for example, cost centers and product groups) can access reports.</span></span> <span data-ttu-id="b883d-106">De rapporten in het werkgebied worden volledig beheerd door kostenaccountants, zodat de indeling en gegevens die worden gebruikt voor rapportage in de gehele organisatie consistent zijn.</span><span class="sxs-lookup"><span data-stu-id="b883d-106">The reports in the workspace are fully managed by cost accountants, so that the layout and data that are used for reporting can be consistent across the whole organization.</span></span>
 

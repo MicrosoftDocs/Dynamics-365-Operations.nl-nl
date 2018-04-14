@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: b6708790d13c588fa5854f50ae7fe5bf4f69bca2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2ed898877e2972799cdd361d7fedbe7bc19d4b6a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-new-jobs"></a><span data-ttu-id="d8fe1-103">Nieuwe taken definiëren</span><span class="sxs-lookup"><span data-stu-id="d8fe1-103">Define new jobs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d8fe1-104">Deze taak is gericht op het maken van een nieuwe taak.</span><span class="sxs-lookup"><span data-stu-id="d8fe1-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="d8fe1-105">Het wordt voltooid met handmatige invoer en functionaliteit Kopiëren uit sjabloon.</span><span class="sxs-lookup"><span data-stu-id="d8fe1-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="d8fe1-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="d8fe1-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="d8fe1-107">Deze taak is bedoeld voor een personeelsspecialist.</span><span class="sxs-lookup"><span data-stu-id="d8fe1-107">This task is intended for the human resources specialist.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c9a3f71ade04631e2a4494c5616f3b29bd12c5c9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a><span data-ttu-id="71bfe-104">Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)</span><span class="sxs-lookup"><span data-stu-id="71bfe-104">New or updated task guides (August 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="71bfe-105">In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (augustus 2016, alle talen) voor Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="71bfe-105">This topic lists the new or updated Task guides that were released to the Microsoft (August 2016 - all languages) APQC Unified Library for Microsoft Dynamics AX.</span></span> <span data-ttu-id="71bfe-106">Er is geen nieuwe bibliotheek Aan de slag uitgebracht.</span><span class="sxs-lookup"><span data-stu-id="71bfe-106">No new Getting Started Library was released.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: bce608594e2eb0e7769e7dfa2e254e29385000b6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a947d4564c8ad97b415b556986c3f815674aa4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a><span data-ttu-id="22f47-103">Beleid voor totalisering van kosten en overheadberekening</span><span class="sxs-lookup"><span data-stu-id="22f47-103">Cost rollup policy and overhead calculation</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="22f47-104">Met Kostprijsboekhouding kunt u inzicht verkrijgen in hoe de kostenstroom in relatie staat tot de producten en services die worden geleverd binnen een organisatie.</span><span class="sxs-lookup"><span data-stu-id="22f47-104">Cost accounting lets you gain insight into how the cost flow relates to the products and services that are delivered within an organization.</span></span> <span data-ttu-id="22f47-105">Als u de transparantie van de kosten wilt zien, is het van groot belang om kostentoewijzing te bereiken tussen kostenobjecten op basis van een juiste toewijzingsgrondslag.</span><span class="sxs-lookup"><span data-stu-id="22f47-105">To see the cost transparency, it's crucial to achieve cost allocation between cost objects based on an appropriate allocation basis.</span></span> <span data-ttu-id="22f47-106">Standaard wordt de kostentoewijzing bereikt voor het primaire kostenelement. Dit is in bepaalde situaties wenselijk. Het heeft echter een paar gevolgen die in aanmerking moeten worden genomen.</span><span class="sxs-lookup"><span data-stu-id="22f47-106">By default, the cost allocation is achieved for the primary cost element, which is desired in some situations, but it has a few implications that should be considered.</span></span>
 

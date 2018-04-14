@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="0a909-104">Personeelsacties [FAQ]</span><span class="sxs-lookup"><span data-stu-id="0a909-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="0a909-105">Dit onderwerp bevat antwoorden op vragen die u mogelijk hebt als uw organisatie personeelsacties gebruikt.</span><span class="sxs-lookup"><span data-stu-id="0a909-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="0a909-106">Personeelsacties zijn aanvullende stappen die u moet voltooien wanneer u bepaalde personeelsgerelateerde taken uitvoert.</span><span class="sxs-lookup"><span data-stu-id="0a909-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="0a909-107">Voorbeelden van taken die mogelijk personeelsacties vereisten, zijn wanneer u nieuwe posities maakt, bestaande positiewaarden aanpast, nieuwe werknemers aanneemt, werknemers overdraagt, compensaties van werknemers wijzigt, positietoewijzingen wijzigt of werknemers beëindigt.</span><span class="sxs-lookup"><span data-stu-id="0a909-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/07/2018
 <span data-ttu-id="0a909-140">Als een personeelsactieaanvraag mislukt, moet u deze stappen volgen om de fout op te lossen en de aanvraag opnieuw in te dienen:</span><span class="sxs-lookup"><span data-stu-id="0a909-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="0a909-141">Klik in het **Actievenster** op de knop **Fouttekst** om de berichttekst weer te geven die het probleem beschrijft.</span><span class="sxs-lookup"><span data-stu-id="0a909-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="0a909-142">Klik in het **Actievenster** op **Opnieuw activeren** om de meest recente informatie te laden en de status van de personeelsactie terug te zetten op **Concept**.</span><span class="sxs-lookup"><span data-stu-id="0a909-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="0a909-143">Los de fout op en klik vervolgens op **Voltooien** of **Verzenden**.</span><span class="sxs-lookup"><span data-stu-id="0a909-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="0a909-144">Wat gebeuren er met een personeelsactie die werkstroom gebruikt wanneer de definitieve goedkeuring is voltooid?</span><span class="sxs-lookup"><span data-stu-id="0a909-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

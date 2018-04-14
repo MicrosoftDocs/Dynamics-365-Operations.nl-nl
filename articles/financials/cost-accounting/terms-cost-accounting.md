@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="4e98b-103">Terminologie voor kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="4e98b-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4e98b-104">In dit onderwerp worden de belangrijkste termen gedefinieerd die in Kostprijsboekhouding worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="4e98b-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="4e98b-241">Optelling</span><span class="sxs-lookup"><span data-stu-id="4e98b-241">Addition</span></span> |
 |  <span data-ttu-id="4e98b-242">–</span><span class="sxs-lookup"><span data-stu-id="4e98b-242">–</span></span> |  <span data-ttu-id="4e98b-243">Aftrekken</span><span class="sxs-lookup"><span data-stu-id="4e98b-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="4e98b-244">Vermenigvuldigen</span><span class="sxs-lookup"><span data-stu-id="4e98b-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="4e98b-245">Traditionele IF-instructies worden niet ondersteund.</span><span class="sxs-lookup"><span data-stu-id="4e98b-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="4e98b-246">U kunt echter instructies maken en nagaan of deze waar zijn.</span><span class="sxs-lookup"><span data-stu-id="4e98b-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="4e98b-247">**Instructievalidatie**</span><span class="sxs-lookup"><span data-stu-id="4e98b-247">**Statement  Validation**</span></span> | <span data-ttu-id="4e98b-248">**Resultaat**</span><span class="sxs-lookup"><span data-stu-id="4e98b-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="4e98b-249">a > b</span><span class="sxs-lookup"><span data-stu-id="4e98b-249">a > b</span></span>| <span data-ttu-id="4e98b-250">Waar</span><span class="sxs-lookup"><span data-stu-id="4e98b-250">True</span></span>  |
 |  <span data-ttu-id="4e98b-251">a > b</span><span class="sxs-lookup"><span data-stu-id="4e98b-251">a > b</span></span> |  <span data-ttu-id="4e98b-252">Onwaar</span><span class="sxs-lookup"><span data-stu-id="4e98b-252">False</span></span> |
-    
+
 <span data-ttu-id="4e98b-253">**Overheadkosten**</span><span class="sxs-lookup"><span data-stu-id="4e98b-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="4e98b-254">Overheadkosten verwijzen naar de doorlopende uitgaven die gerelateerd zijn aan het runnen van een bedrijf.</span><span class="sxs-lookup"><span data-stu-id="4e98b-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="4e98b-255">Dit zijn kosten die niet rechtstreeks aan bepaalde zakelijke activiteiten kunnen worden gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="4e98b-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="4e98b-256">Hieronder staan enkele voorbeelden van overheadkosten:</span><span class="sxs-lookup"><span data-stu-id="4e98b-256">Here are some examples of overhead costs:</span></span>

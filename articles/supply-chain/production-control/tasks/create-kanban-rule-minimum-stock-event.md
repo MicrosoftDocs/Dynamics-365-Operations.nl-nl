@@ -17,54 +17,54 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c480b518925a8536ebb77d60fcf1f1a548b097f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c5f795f8d3c31c9acdbddd94879dbd427145956c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# Een kanbanregel maken met een gebeurtenis minimale voorraad
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="bb8c5-103">Een kanbanregel maken met een gebeurtenis minimale voorraad</span><span class="sxs-lookup"><span data-stu-id="bb8c5-103">Create a kanban rule using a minimum stock event</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure is gericht op de instellingen die nodig zijn om een kanbanregel te maken met een minimumvoorraadgebeurtenis om ervoor te zorgen dat een specifiek product altijd beschikbaar is op een specifieke locatie. Er wordt een kanbanregel gemaakt om materiaal naar de locatie over te dragen wanneer het voorraadniveau tot onder de 200 stuks daalt. Door de verwerking van gebeurtenissen voor tracering van de behoefte uit te voeren, worden de benodigde kanbans gemaakt. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor de procestechnicus of de waardestroombeheerder bij het voorbereiden van de productie van een nieuw of gewijzigd product in een lean-omgeving.
+<span data-ttu-id="bb8c5-104">Deze procedure is gericht op de instellingen die nodig zijn om een kanbanregel te maken met een minimumvoorraadgebeurtenis om ervoor te zorgen dat een specifiek product altijd beschikbaar is op een specifieke locatie.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="bb8c5-105">Er wordt een kanbanregel gemaakt om materiaal naar de locatie over te dragen wanneer het voorraadniveau tot onder de 200 stuks daalt.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="bb8c5-106">Door de verwerking van gebeurtenissen voor tracering van de behoefte uit te voeren, worden de benodigde kanbans gemaakt.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="bb8c5-107">Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="bb8c5-108">Deze taak is bedoeld voor de procestechnicus of de waardestroombeheerder bij het voorbereiden van de productie van een nieuw of gewijzigd product in een lean-omgeving.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## Een nieuwe kanbanregel maken
-1. Ga naar Productgegevensbeheer > Lean manufacturing > Kanbanregels.
-2. Klik op Nieuw.
-3. Selecteer Opname in het veld Type.
-    * Dit type wordt gebruikt om overboekingskanbans te maken.  
-4. Selecteer 'Gebeurtenis' in het veld Aanvullingsstrategie.
-    * De gebeurtenisstrategie wordt gebruikt voor het maken van overboekingskanbans op basis van een gebeurtenis. Later in de procedure activeert u overboekingskanbans door voorraadaanvulling te gebruiken.  
-5. Typ of selecteer een waarde in het veld Eerste planactiviteit.
-    * Typ of selecteer ReplenishSpeakerComponents. Deze overboekingsactiviteit heeft magazijn en locatie 12 voor ontvangst (uitvoer), wat betekent dat materialen naar locatie 12 in magazijn 12 worden verplaatst.  
-6. Vouw de sectie Details uit.
-7. Typ of selecteer een waarde in het veld Product.
-    * Selecteer M0007.  
-8. Vouw de sectie Gebeurtenissen uit.
-9. Selecteer 'Batch' in het veld Voorraadaanvullingsgebeurtenis.
-    * Hiermee worden kanbans gemaakt om te voldoen materiaalbehoeften op de gerelateerde locatie tijdens de verwerking van gebeurtenissen voor tracering van de behoefte.  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="bb8c5-109">Een nieuwe kanbanregel maken</span><span class="sxs-lookup"><span data-stu-id="bb8c5-109">Create a new kanban rule</span></span>
+1. <span data-ttu-id="bb8c5-110">Ga naar Productgegevensbeheer > Lean manufacturing > Kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="bb8c5-111">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-111">Click New.</span></span>
+3. <span data-ttu-id="bb8c5-112">Selecteer Opname in het veld Type.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-112">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="bb8c5-113">Dit type wordt gebruikt om overboekingskanbans te maken.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-113">This type is used to create transfer kanbans.</span></span>  
+4. <span data-ttu-id="bb8c5-114">Selecteer 'Gebeurtenis' in het veld Aanvullingsstrategie.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-114">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="bb8c5-115">De gebeurtenisstrategie wordt gebruikt voor het maken van overboekingskanbans op basis van een gebeurtenis.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="bb8c5-116">Later in de procedure activeert u overboekingskanbans door voorraadaanvulling te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
+5. <span data-ttu-id="bb8c5-117">Typ of selecteer een waarde in het veld Eerste planactiviteit.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-117">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="bb8c5-118">Typ of selecteer ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="bb8c5-119">Deze overboekingsactiviteit heeft magazijn en locatie 12 voor ontvangst (uitvoer), wat betekent dat materialen naar locatie 12 in magazijn 12 worden verplaatst.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
+6. <span data-ttu-id="bb8c5-120">Vouw de sectie Details uit.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-120">Expand the Details section.</span></span>
+7. <span data-ttu-id="bb8c5-121">Typ of selecteer een waarde in het veld Product.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-121">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="bb8c5-122">Selecteer M0007.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-122">Select M0007.</span></span>  
+8. <span data-ttu-id="bb8c5-123">Vouw de sectie Gebeurtenissen uit.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-123">Expand the Events section.</span></span>
+9. <span data-ttu-id="bb8c5-124">Selecteer 'Batch' in het veld Voorraadaanvullingsgebeurtenis.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-124">In the Stock replenishment event field, select 'Batch'.</span></span>
+    * <span data-ttu-id="bb8c5-125">Hiermee worden kanbans gemaakt om te voldoen materiaalbehoeften op de gerelateerde locatie tijdens de verwerking van gebeurtenissen voor tracering van de behoefte.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
 
-## Stel de minimumhoeveelheid voor het artikel in.
-1. Klik in het veld Product om de koppeling te volgen.
-2. Klik om de koppeling in het veld Artikelnummer te volgen.
-3. Vouw het feitenvak Productafbeelding uit.
-4. Klik in het actievenster op Plannen.
-5. Klik op Artikelbehoefteplanning.
-6. Klik op Nieuw.
-7. Markeer in de lijst de geselecteerde rij.
-8. Typ of selecteer een waarde in het veld Magazijn.
-    * Stel Magazijn in op 12.  
-9. Stel Minimum in op '200'.
+## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="bb8c5-126">Stel de minimumhoeveelheid voor het artikel in.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-126">Set the minimum quantity for the item</span></span>
+1. <span data-ttu-id="bb8c5-127">Klik in het veld Product om de koppeling te volgen.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-127">Click to follow the link in the Product field.</span></span>
+2. <span data-ttu-id="bb8c5-128">Klik om de koppeling in het veld Artikelnummer te volgen.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-128">Click to follow the link in the Item number field.</span></span>
+3. <span data-ttu-id="bb8c5-129">Vouw het feitenvak Productafbeelding uit.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-129">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="bb8c5-130">Klik in het actievenster op Plannen.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-130">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="bb8c5-131">Klik op Artikelbehoefteplanning.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-131">Click Item coverage.</span></span>
+6. <span data-ttu-id="bb8c5-132">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-132">Click New.</span></span>
+7. <span data-ttu-id="bb8c5-133">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-133">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="bb8c5-134">Typ of selecteer een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-134">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="bb8c5-135">Stel Magazijn in op 12.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-135">Set Warehouse to 12.</span></span>  
+9. <span data-ttu-id="bb8c5-136">Stel Minimum in op '200'.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-136">Set Minimum to '200'.</span></span>
 
-## De taak voor het maken van een batchgebeurtenis uitvoeren
-1. Ga naar Productiebeheer > Periodieke taken > Batchverwerking van kanbantaak > Verwerking van gebeurtenis voor tracering van de behoefte.
-2. Klik op OK.
-3. Ga naar Productgegevensbeheer > Lean manufacturing > Kanbanregels.
-4. Klik in de lijst op de koppeling in de geselecteerde rij.
-    * Selecteer de kanbanregel die u eerder hebt gemaakt.  
-5. Vouw de sectie Kanbans uit.
-    * Merk op dat een kanban is gemaakt om het benodigde materiaal over te dragen naar magazijn 12.  
+## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="bb8c5-137">De taak voor het maken van een batchgebeurtenis uitvoeren</span><span class="sxs-lookup"><span data-stu-id="bb8c5-137">Run the batch event creation job</span></span>
+1. <span data-ttu-id="bb8c5-138">Ga naar Productiebeheer > Periodieke taken > Batchverwerking van kanbantaak > Verwerking van gebeurtenis voor tracering van de behoefte.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
+2. <span data-ttu-id="bb8c5-139">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-139">Click OK.</span></span>
+3. <span data-ttu-id="bb8c5-140">Ga naar Productgegevensbeheer > Lean manufacturing > Kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+4. <span data-ttu-id="bb8c5-141">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-141">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="bb8c5-142">Selecteer de kanbanregel die u eerder hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-142">Select the kanban rule that you created earlier.</span></span>  
+5. <span data-ttu-id="bb8c5-143">Vouw de sectie Kanbans uit.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-143">Expand the Kanbans section.</span></span>
+    * <span data-ttu-id="bb8c5-144">Merk op dat een kanban is gemaakt om het benodigde materiaal over te dragen naar magazijn 12.</span><span class="sxs-lookup"><span data-stu-id="bb8c5-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
 
 

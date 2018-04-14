@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="4615e-104">Overzicht van elektronische rapportage</span><span class="sxs-lookup"><span data-stu-id="4615e-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4615e-105">Dit onderwerp biedt een overzicht van het hulpmiddel voor Elektronische rapportage (ER).</span><span class="sxs-lookup"><span data-stu-id="4615e-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="4615e-106">Er staat informatie in over belangrijke concepten, de scenario's die door ER ondersteund worden en een lijst met indelingen die als onderdeel van de ER-oplossing ontworpen en uitgegeven zijn.</span><span class="sxs-lookup"><span data-stu-id="4615e-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="4615e-344">Met ER kunt u automatisch wijzigingen in de meest recente versie van het basisondeel aanbrengen in de huidige conceptversie van het afgeleide onderdeel.</span><span class="sxs-lookup"><span data-stu-id="4615e-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="4615e-345">Dit proces wordt *rebasing* genoemd.</span><span class="sxs-lookup"><span data-stu-id="4615e-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="4615e-346">Zo kan bijvoorbeeld een nieuwe wijziging in de regelgeving die is geïntroduceerd in de laatste versie van de indeling die werd geïmporteerd vanuit LCS automatisch worden samengevoegd met de aangepaste versie van deze indeling van het elektronisch document.</span><span class="sxs-lookup"><span data-stu-id="4615e-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="4615e-347">Alle wijzigingen die niet automatisch kunnen worden samengevoegd worden als conflicten beschouwd.</span><span class="sxs-lookup"><span data-stu-id="4615e-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="4615e-348">Deze conflicten worden weergegeven voor handmatige oplossing in het ontwerpprogramma voor het desbetreffende onderdeel.</span><span class="sxs-lookup"><span data-stu-id="4615e-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="4615e-349">Speel de taakbegeleiding **>ER Indeling upgraden door instelling van een nieuwe basis van de indeling** af (onderdeel van bedrijfsproces **7.5.5.3 Gewijzigd onderdeel voor IT-services en -oplossingen aanschaffen/ontwikkelen (10683)**) om bekend te raken met de details van dit scenario.</span><span class="sxs-lookup"><span data-stu-id="4615e-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="4615e-350">Lijst met ER-configuraties die worden geleverd in de Finance and Operations-oplossing</span><span class="sxs-lookup"><span data-stu-id="4615e-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="4615e-351">Domeinspecifieke gegevensmodelconfiguraties: titel</span><span class="sxs-lookup"><span data-stu-id="4615e-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="4615e-352">Domein</span><span class="sxs-lookup"><span data-stu-id="4615e-352">Domain</span></span>                | <span data-ttu-id="4615e-353">Configuratie van gegevensmodelafhankelijke indelingen: titel</span><span class="sxs-lookup"><span data-stu-id="4615e-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="4615e-354">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="4615e-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="4615e-355">Model van auditfile</span><span class="sxs-lookup"><span data-stu-id="4615e-355">Audit file model</span></span>                                 | <span data-ttu-id="4615e-356">Financiële audit</span><span class="sxs-lookup"><span data-stu-id="4615e-356">Financial audit</span></span>       |                                                   |                                                                    |

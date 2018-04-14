@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d97ccd15031b2f7398486eee4a716ecef5e9dafd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2c2daad961ec5c47ca49b2e53a2118570caf6a58
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="a5afd-103">Een bestelopdracht maken die een offerteaanvraag gebruikt</span><span class="sxs-lookup"><span data-stu-id="a5afd-103">Create a requisition that uses an RFQ</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a5afd-104">In deze taakbegeleiding wordt aangegeven hoe u prijs- en leveranciersgegevens kunt toevoegen aan een opdracht tot inkoop vanuit een offerteaanvraagproces.</span><span class="sxs-lookup"><span data-stu-id="a5afd-104">This guide shows how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="a5afd-105">Het voorbeeld dat in deze taakbegeleiding wordt weergegeven kan worden gebruikt in het demobedrijf USMF, en u moet als beheerder zijn aangemeld om alle stappen te kunnen voltooien.</span><span class="sxs-lookup"><span data-stu-id="a5afd-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="a5afd-106">De taken in deze taakbegeleiding worden doorgaans uitgevoerd door inkoopprofessionals.</span><span class="sxs-lookup"><span data-stu-id="a5afd-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 

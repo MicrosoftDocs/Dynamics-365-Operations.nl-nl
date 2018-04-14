@@ -18,17 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3fb55f1a51652299db8a31274b07f239fbaf28f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 20b61a1b1b05406a57f1a50a61a25a1e613d6a0b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-asset-mass-update"></a><span data-ttu-id="9a639-103">Vaste activa groepsgewijs bijwerken</span><span class="sxs-lookup"><span data-stu-id="9a639-103">Fixed asset mass update</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9a639-104">Als u boeken gebruikt, kunt u de afschrijvingsconventies voor groepen activa wijzigen die deel uitmaken van hetzelfde boek.</span><span class="sxs-lookup"><span data-stu-id="9a639-104">If you use books, you can change the depreciation conventions for groups of assets that are part of the same book.</span></span>
 

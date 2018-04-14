@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="24589-104">Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid</span><span class="sxs-lookup"><span data-stu-id="24589-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="24589-105">In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud **Verkoop- en winstgevendheidsprestaties**.</span><span class="sxs-lookup"><span data-stu-id="24589-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="24589-106">In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.</span><span class="sxs-lookup"><span data-stu-id="24589-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="24589-140">Opbrengst op product</span><span class="sxs-lookup"><span data-stu-id="24589-140">Revenue by product</span></span>     | <span data-ttu-id="24589-141">Opbrengst & brutowinst op verkoopcategorie</span><span class="sxs-lookup"><span data-stu-id="24589-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="24589-142">Totaal aantal producten</span><span class="sxs-lookup"><span data-stu-id="24589-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="24589-143">Top 10-producten op opbrengst</span><span class="sxs-lookup"><span data-stu-id="24589-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="24589-144">Totaal aantal actieve producten en percentage van totaal</span><span class="sxs-lookup"><span data-stu-id="24589-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="24589-145">Totale opbrengst op verkoopcategorie</span><span class="sxs-lookup"><span data-stu-id="24589-145">Total revenue by sales category</span></span>            | <span data-ttu-id="24589-146">Aantal producten dat 80% van opbrengst oplevert</span><span class="sxs-lookup"><span data-stu-id="24589-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="24589-147">Opbrengste op periode\\*</span><span class="sxs-lookup"><span data-stu-id="24589-147">Revenue by period\\*</span></span>    | <span data-ttu-id="24589-148">Opbrengst per maand</span><span class="sxs-lookup"><span data-stu-id="24589-148">Revenue by month</span></span>                           | <span data-ttu-id="24589-149">Opbrengststijging jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="24589-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="24589-147">Opbrengste op periode\*</span><span class="sxs-lookup"><span data-stu-id="24589-147">Revenue by period\*</span></span>    | <span data-ttu-id="24589-148">Opbrengst per maand</span><span class="sxs-lookup"><span data-stu-id="24589-148">Revenue by month</span></span>                           | <span data-ttu-id="24589-149">Opbrengststijging jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="24589-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="24589-150">Achterblijvende opbrengstafwijking, jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="24589-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="24589-151">% opbrengststijging jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="24589-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="24589-152">Totale verkoopafwijking op klantregio</span><span class="sxs-lookup"><span data-stu-id="24589-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="24589-153">Opbrengst op locatie</span><span class="sxs-lookup"><span data-stu-id="24589-153">Revenue by location</span></span>    | <span data-ttu-id="24589-154">Verkoopopbrengst op plaats</span><span class="sxs-lookup"><span data-stu-id="24589-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="24589-162">Top 15-klanten op brutomarge</span><span class="sxs-lookup"><span data-stu-id="24589-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="24589-163">Brutowinst per maand, jaar-op-jaar</span><span class="sxs-lookup"><span data-stu-id="24589-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="24589-164">\\* Opbrengst dit jaar en vorig jaar en groei per verkoopcategorie.</span><span class="sxs-lookup"><span data-stu-id="24589-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="24589-164">\* Opbrengst dit jaar en vorig jaar en groei per verkoopcategorie.</span><span class="sxs-lookup"><span data-stu-id="24589-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="24589-165">Het gegevensmodel en de gegevensentiteiten begrijpen</span><span class="sxs-lookup"><span data-stu-id="24589-165">Understanding the data model and entities</span></span>

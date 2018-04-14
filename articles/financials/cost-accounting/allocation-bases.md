@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="086bd-104">Toewijzingsgrondslagen</span><span class="sxs-lookup"><span data-stu-id="086bd-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="086bd-105">Een toewijzingsgrondslag vormt de basis waarop overheadkosten in Kostprijsboekhouding worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="086bd-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="086bd-106">Een toewijzingsgrondslag kan een hoeveelheid worden, zoals gebruikte machine-uren, verbruikte kilowattuur (kWh) of vierkante meters die in beslag worden genomen.</span><span class="sxs-lookup"><span data-stu-id="086bd-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="086bd-107">Toewijzingsgrondslagen worden meestal gebruikt voor het toewijzen van overheadkosten aan voorraad die wordt geproduceerd.</span><span class="sxs-lookup"><span data-stu-id="086bd-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="086bd-108">Een IT-afdeling wijst bijvoorbeeld de onkosten van de afdeling toe op basis van het aantal computers dat op elke afdeling wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="086bd-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="086bd-775">Hier volgt een voorbeeld van een kostenverdelingsregel als de formuletoewijzingsgrondslag Elektriciteit vast wordt toegewezen als de toewijzingsgrondslag erin.</span><span class="sxs-lookup"><span data-stu-id="086bd-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="086bd-776">Kostenobject</span><span class="sxs-lookup"><span data-stu-id="086bd-776">Cost object</span></span> |  <span data-ttu-id="086bd-777">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="086bd-777">Description</span></span>  | <span data-ttu-id="086bd-778">Magnitude</span><span class="sxs-lookup"><span data-stu-id="086bd-778">Magnitude</span></span> | <span data-ttu-id="086bd-779">Toewijzingsfactor</span><span class="sxs-lookup"><span data-stu-id="086bd-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="086bd-780">CC001</span><span class="sxs-lookup"><span data-stu-id="086bd-780">CC001</span></span>       | <span data-ttu-id="086bd-781">HR</span><span class="sxs-lookup"><span data-stu-id="086bd-781">HR</span></span> | <span data-ttu-id="086bd-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="086bd-782">1,837.50</span></span>  | <span data-ttu-id="086bd-783">(1,837.50 ÷ 18,162.50) × bedrag</span><span class="sxs-lookup"><span data-stu-id="086bd-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="086bd-784">CC002</span><span class="sxs-lookup"><span data-stu-id="086bd-784">CC002</span></span>       | <span data-ttu-id="086bd-785">FI</span><span class="sxs-lookup"><span data-stu-id="086bd-785">FI</span></span> | <span data-ttu-id="086bd-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="086bd-786">3,075.00</span></span>  | <span data-ttu-id="086bd-787">(3,075.00 ÷ 18,162.50) × bedrag</span><span class="sxs-lookup"><span data-stu-id="086bd-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="086bd-788">CC003</span><span class="sxs-lookup"><span data-stu-id="086bd-788">CC003</span></span>       | <span data-ttu-id="086bd-789">VOB</span><span class="sxs-lookup"><span data-stu-id="086bd-789">IT</span></span> | <span data-ttu-id="086bd-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="086bd-790">13,250.00</span></span> | <span data-ttu-id="086bd-791">(13,250.00 ÷ 18,162.50) × bedrag</span><span class="sxs-lookup"><span data-stu-id="086bd-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="086bd-776">Kostenobject</span><span class="sxs-lookup"><span data-stu-id="086bd-776">Cost object</span></span> | <span data-ttu-id="086bd-777">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="086bd-777">Description</span></span> | <span data-ttu-id="086bd-778">Magnitude</span><span class="sxs-lookup"><span data-stu-id="086bd-778">Magnitude</span></span> |        <span data-ttu-id="086bd-779">Toewijzingsfactor</span><span class="sxs-lookup"><span data-stu-id="086bd-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="086bd-780">CC001</span><span class="sxs-lookup"><span data-stu-id="086bd-780">CC001</span></span>    |     <span data-ttu-id="086bd-781">HR</span><span class="sxs-lookup"><span data-stu-id="086bd-781">HR</span></span>      | <span data-ttu-id="086bd-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="086bd-782">1,837.50</span></span>  | <span data-ttu-id="086bd-783">(1,837.50 ÷ 18,162.50) × bedrag</span><span class="sxs-lookup"><span data-stu-id="086bd-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="086bd-784">CC002</span><span class="sxs-lookup"><span data-stu-id="086bd-784">CC002</span></span>    |     <span data-ttu-id="086bd-785">FI</span><span class="sxs-lookup"><span data-stu-id="086bd-785">FI</span></span>      | <span data-ttu-id="086bd-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="086bd-786">3,075.00</span></span>  | <span data-ttu-id="086bd-787">(3,075.00 ÷ 18,162.50) × bedrag</span><span class="sxs-lookup"><span data-stu-id="086bd-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="086bd-788">CC003</span><span class="sxs-lookup"><span data-stu-id="086bd-788">CC003</span></span>    |     <span data-ttu-id="086bd-789">VOB</span><span class="sxs-lookup"><span data-stu-id="086bd-789">IT</span></span>      | <span data-ttu-id="086bd-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="086bd-790">13,250.00</span></span> | <span data-ttu-id="086bd-791">(13,250.00 ÷ 18,162.50) × bedrag</span><span class="sxs-lookup"><span data-stu-id="086bd-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

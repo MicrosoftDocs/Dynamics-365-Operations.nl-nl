@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f0894bf962c139c2e9e4c9f8d1589fd933afcedb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b36777be0abcbd17e96b42b81553155aeb909943
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="fulfill-sales-agreements"></a><span data-ttu-id="048d0-103">Verkoopovereenkomsten afhandelen</span><span class="sxs-lookup"><span data-stu-id="048d0-103">Fulfill sales agreements</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="048d0-104">Deze procedure toont hoe u een verkoopovereenkomst vervult door er verkooporders aan te koppelen.</span><span class="sxs-lookup"><span data-stu-id="048d0-104">This procedure shows you how to fulfill a sales agreement by associating sales orders with it.</span></span> <span data-ttu-id="048d0-105">U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="048d0-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="048d0-106">Voordat u deze handleiding start, moet u ervoor zorgen u een effectieve verkoopovereenkomst van het type 'Toezegging productwaarde' hebt.</span><span class="sxs-lookup"><span data-stu-id="048d0-106">Before starting this guide, make sure you have an effective sales agreement of type "Product value commitment".</span></span> <span data-ttu-id="048d0-107">Anders kunt u de taakhandleiding met de naam 'Verkoopovereenkomsten maken' uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="048d0-107">Alternatively, you can run the task guide called "Create sales agreements".</span></span>  
 

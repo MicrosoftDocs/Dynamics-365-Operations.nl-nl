@@ -19,16 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7eb15f9f73f4773d98160e1b0ec5ce74c159cdea
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c8d63ab3dcde9c206f1c0ddd0185109a3298f5a4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a><span data-ttu-id="95856-104">Kiezen tussen Modern POS en Cloud POS</span><span class="sxs-lookup"><span data-stu-id="95856-104">Choose between Modern POS and Cloud POS</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="95856-105">Dit onderwerp biedt implementatiespecialisten extra achtergrondinformatie, tips en richtlijnen voor de factoren waarmee ze rekening moeten houden bij de implementatie van Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="95856-105">This topic gives implementers additional background, tips, and guidance for factors that they should consider when they deploy Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="95856-106">Door deze richtlijnen te lezen en te volgen als onderdeel van het implementatieproces, kunnen implementatiespecialisten problemen vermijden die de tevredenheid van gebruikers of de prestaties mogelijk beïnvloeden.</span><span class="sxs-lookup"><span data-stu-id="95856-106">By reviewing and following this guidance as part of the deployment process, implementers can avoid issues that might affect user satisfaction or performance.</span></span>
 
@@ -92,8 +92,8 @@ ms.lasthandoff: 02/07/2018
 
     <span data-ttu-id="95856-178">Tenzij de verbinding voor een bepaald apparaat zeer betrouwbaar en robuust is, of tenzij een zekere mate van uitvaltijd acceptabel is voor de detailhandelaar, is het raadzaam een van de volgende opties te gebruiken:</span><span class="sxs-lookup"><span data-stu-id="95856-178">Unless the connectivity for a given device is very dependable and resilient, or unless a certain amount of downtime is acceptable to the retailer, we recommend one of the following options:</span></span>
 
-    - <span data-ttu-id="95856-179">Gebruik MPOS in Windows en schakel de offlinemodus in.</span><span class="sxs-lookup"><span data-stu-id="95856-179">Use MPOS in Windows, and enable offline mode.</span></span>
-    - <span data-ttu-id="95856-180">Implementeer een on-premises RSSU.</span><span class="sxs-lookup"><span data-stu-id="95856-180">Deploy an on-premises RSSU.</span></span>
+  - <span data-ttu-id="95856-179">Gebruik MPOS in Windows en schakel de offlinemodus in.</span><span class="sxs-lookup"><span data-stu-id="95856-179">Use MPOS in Windows, and enable offline mode.</span></span>
+  - <span data-ttu-id="95856-180">Implementeer een on-premises RSSU.</span><span class="sxs-lookup"><span data-stu-id="95856-180">Deploy an on-premises RSSU.</span></span>
 
     <span data-ttu-id="95856-181">Deze twee opties sluiten elkaar niet uit.</span><span class="sxs-lookup"><span data-stu-id="95856-181">These two options aren't mutually exclusive.</span></span> <span data-ttu-id="95856-182">Voor de meest betrouwbare topologie kunnen detailhandelaren een lokale RSSU implementeren om de afhankelijk van de internetverbinding of beschikbaarheid van Azure te beperken. Daarnaast kunnen ze POS-kassa's implementeren waarop de offlinemodus wordt ingeschakeld als er een probleem met de lokale server of het netwerk is.</span><span class="sxs-lookup"><span data-stu-id="95856-182">For the most reliable topology, retailers can deploy a local RSSU to reduce the dependency on internet connectivity or Azure availability, and they can also deploy POS registers where offline mode is enabled if there is an issue with the local server or network.</span></span>
 

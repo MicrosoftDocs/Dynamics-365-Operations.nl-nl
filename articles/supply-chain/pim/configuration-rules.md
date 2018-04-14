@@ -19,17 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bc8e606cdc0bc5a45321c67ce9b089059f226df2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 87927f5bddbf11c224c77cff7c5355f2cd1317a6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configuration-rules"></a><span data-ttu-id="34767-104">Configuratieregels</span><span class="sxs-lookup"><span data-stu-id="34767-104">Configuration rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="34767-105">Dit artikel geeft algemene informatie over configuratieregels.</span><span class="sxs-lookup"><span data-stu-id="34767-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="34767-106">Configuratieregels definiëren relaties tussen artikelen in een stuklijst (BOM) voor producten die op dimensies gebaseerde configuratietechnologie gebruiken.</span><span class="sxs-lookup"><span data-stu-id="34767-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
 

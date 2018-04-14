@@ -20,19 +20,18 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 06760d84cf5152f24e374cf3fb1bbea5564bbb42
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a><span data-ttu-id="01abd-103">Standaard orderinstellingen voor dimensies en productvarianten</span><span class="sxs-lookup"><span data-stu-id="01abd-103">Default order settings for dimensions and product variants</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="01abd-104">Met standaardorderinstellingen in Microsoft Dynamics 365 for Finance and Operations worden de locatie en het magazijn gedefinieerd waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag en de methode voor orderbelofte.</span><span class="sxs-lookup"><span data-stu-id="01abd-104">Default order settings in Microsoft Dynamics 365 for Finance and Operations define the site and warehouse where items will be sourced from or stored, the minimum, maximum, multiple and standard quantities that will be used for trading or inventory management, the lead times, the stop flag, and the order promising method.</span></span> <span data-ttu-id="01abd-105">Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders.</span><span class="sxs-lookup"><span data-stu-id="01abd-105">Default order settings are used when creating purchase orders, sales orders, transfer orders, inventory journals, and by master planning for generating planned orders.</span></span> <span data-ttu-id="01abd-106">Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.</span><span class="sxs-lookup"><span data-stu-id="01abd-106">Default order settings can be item specific, site specific, product variant specific, or product dimension specific.</span></span>
 

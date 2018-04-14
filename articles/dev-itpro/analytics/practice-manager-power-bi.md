@@ -18,16 +18,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 903eeac732f0c5dc3d94d609ee08988029e33f0c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1285b62130e0c3b0eb30773b3ccaa7a31d844461
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="practice-manager-power-bi-content"></a><span data-ttu-id="e5a60-104">Praktijkbeheerder - Power BI-inhoud</span><span class="sxs-lookup"><span data-stu-id="e5a60-104">Practice manager Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e5a60-105">In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inhoud voor **Praktijkbeheerder**.</span><span class="sxs-lookup"><span data-stu-id="e5a60-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="e5a60-106">In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.</span><span class="sxs-lookup"><span data-stu-id="e5a60-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -118,7 +118,9 @@ ms.lasthandoff: 01/17/2018
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a><span data-ttu-id="e5a60-228">Entiteit: ProjectAccountingCube\_TotalEstimatedCosts</span><span class="sxs-lookup"><span data-stu-id="e5a60-228">Entity: ProjectAccountingCube\_TotalEstimatedCosts</span></span> 
 <span data-ttu-id="e5a60-229">**Gegevensbron**: ProjTable</span><span class="sxs-lookup"><span data-stu-id="e5a60-229">**Data source:** ProjTable</span></span>
 
-| <span data-ttu-id="e5a60-230">Belangrijke samengevoegde meting</span><span class="sxs-lookup"><span data-stu-id="e5a60-230">Key aggregate measurement</span></span>       | <span data-ttu-id="e5a60-231">Veld</span><span class="sxs-lookup"><span data-stu-id="e5a60-231">Field</span></span>               | <span data-ttu-id="e5a60-232">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="e5a60-232">Description</span></span> |
-|---------------------------------|---------------------|-------------|
+
+|    <span data-ttu-id="e5a60-230">Belangrijke samengevoegde meting</span><span class="sxs-lookup"><span data-stu-id="e5a60-230">Key aggregate measurement</span></span>    |        <span data-ttu-id="e5a60-231">Veld</span><span class="sxs-lookup"><span data-stu-id="e5a60-231">Field</span></span>        |                                          <span data-ttu-id="e5a60-232">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="e5a60-232">Description</span></span>                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e5a60-233">Geplande kosten voltooide activiteit</span><span class="sxs-lookup"><span data-stu-id="e5a60-233">Completed activity planned cost</span></span> | <span data-ttu-id="e5a60-234">Sum(TotalCostPrice)</span><span class="sxs-lookup"><span data-stu-id="e5a60-234">Sum(TotalCostPrice)</span></span> | <span data-ttu-id="e5a60-235">De totale kostprijs in ramingen voor alle projecttransactietypen met voltooide taken.</span><span class="sxs-lookup"><span data-stu-id="e5a60-235">The total cost price in estimates for all project transaction types that have completed tasks.</span></span> |
+
 

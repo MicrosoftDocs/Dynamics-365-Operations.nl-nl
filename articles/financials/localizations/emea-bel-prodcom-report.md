@@ -18,17 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14dd8fd9c4e2111957ca87c46c90d8c26a345e21
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c4a8bb1ac44d617719af8f21ad0123451a60a131
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-and-maintain-prodcom"></a><span data-ttu-id="9cbdc-103">PRODCOM instellen en onderhouden</span><span class="sxs-lookup"><span data-stu-id="9cbdc-103">Set up and maintain PRODCOM</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9cbdc-104">In dit onderwerp wordt uitgelegd hoe u PRODCOM in Microsoft Dynamics 365 for Finance and Operations kunt instellen en beheren.</span><span class="sxs-lookup"><span data-stu-id="9cbdc-104">This topic explains how to set up and maintain PRODCOM in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 

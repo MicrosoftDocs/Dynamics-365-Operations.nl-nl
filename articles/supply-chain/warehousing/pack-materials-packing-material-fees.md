@@ -20,17 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 46178d9da5464d8cb74b1d52142d6ad08a293349
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="packing-materials-and-fees"></a><span data-ttu-id="41c91-105">Verpakkingsmateriaal en kosten</span><span class="sxs-lookup"><span data-stu-id="41c91-105">Packing materials and fees</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="41c91-106">De kosten van het verpakkingsmateriaal worden op regelmatige basis aan een recyclingbedrijf betaald.</span><span class="sxs-lookup"><span data-stu-id="41c91-106">Packing material fees are paid to a recycling company at certain intervals.</span></span> <span data-ttu-id="41c91-107">Een bedrag per gewichtseenheid moet worden betaald voor het materiaal waarvan de verpakking is gemaakt.</span><span class="sxs-lookup"><span data-stu-id="41c91-107">An amount is paid, per unit of weight, for each material that a packing unit consists of.</span></span> <span data-ttu-id="41c91-108">Deze kosten voor verpakkingsmateriaal worden berekend en gerapporteerd, maar er worden geen grootboektransacties geboekt, omdat de kosten niet als een belastingheffing worden beschouwd die aan de overheid moet worden afgedragen.</span><span class="sxs-lookup"><span data-stu-id="41c91-108">Packing material fees are calculated and reported, but no ledger transactions are posted because the fees are not regarded as taxes to be paid to an authority.</span></span>
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="print-packaging-material-weights-on-invoices"></a><span data-ttu-id="41c91-147">Gewicht van verpakkingsmateriaal op facturen afdrukken</span><span class="sxs-lookup"><span data-stu-id="41c91-147">Print packaging material weights on invoices</span></span>
 <span data-ttu-id="41c91-148">U kunt het gewicht van het verpakkingsmateriaal op de factuur afdrukken en aangeven wie de kosten voor het verpakkingsmateriaal moet betalen.</span><span class="sxs-lookup"><span data-stu-id="41c91-148">You can print the packaging material weights on the invoice, and indicate who pays the packaging material fees.</span></span> <span data-ttu-id="41c91-149">De gewichten worden per verpakkingscode samengevat.</span><span class="sxs-lookup"><span data-stu-id="41c91-149">The weights are summarized by packaging code.</span></span>
- 
+
 
 
 

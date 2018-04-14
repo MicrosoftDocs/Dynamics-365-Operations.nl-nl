@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 73e4fc7c1d0273c51be57d9c3ab04dbfbd839327
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-policies"></a><span data-ttu-id="64f44-103">Onkostenbeleid</span><span class="sxs-lookup"><span data-stu-id="64f44-103">Expense policies</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="64f44-104">U kunt beleid definiëren waaraan uw werknemers zich moeten houden bij het invoeren en indienen van onkostennota's en reisaanvragen.</span><span class="sxs-lookup"><span data-stu-id="64f44-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
 <span data-ttu-id="64f44-105">Door het implementeren van onkostenbeleidsregels kunt u onkosten efficiënt beheren.</span><span class="sxs-lookup"><span data-stu-id="64f44-105">Implementing expense policies can help you manage expenses effectively.</span></span>         
@@ -39,14 +39,14 @@ ms.lasthandoff: 03/26/2018
 <span data-ttu-id="64f44-111">U kunt drie typen beleidsregels definiëren:</span><span class="sxs-lookup"><span data-stu-id="64f44-111">You can define three types of policies:</span></span>         
         
 - <span data-ttu-id="64f44-112">Waarschuwing – De werknemer mag een onkostennota of reisaanvraag indienen maar de onkosten worden gemarkeerd voor alle fiatteurs</span><span class="sxs-lookup"><span data-stu-id="64f44-112">Warning – Allows the worker to submit an expense report or travel requisition but the expense will be marked for all approvers and</span></span>        
-<span data-ttu-id="64f44-113">en latere rapportage.</span><span class="sxs-lookup"><span data-stu-id="64f44-113">for later reporting.</span></span>        
+  <span data-ttu-id="64f44-113">en latere rapportage.</span><span class="sxs-lookup"><span data-stu-id="64f44-113">for later reporting.</span></span>        
 
 - <span data-ttu-id="64f44-114">Fout – Vereist dat de werknemer de onkosten herziet om het beleid na te leven alvorens de onkostendeclaratie of reisopdracht wordt ingediend.</span><span class="sxs-lookup"><span data-stu-id="64f44-114">Error – Requires the worker to revise the expense to comply with the policy before submitting the expense report or travel requisition.</span></span>       
  
- - <span data-ttu-id="64f44-115">Verantwoording – Vereist dat de werknemer of een manager van een motivering opgeeft bedrag in het beleid te overschrijden alvorens de onkostennota of reisopdracht kan worden ingediend.</span><span class="sxs-lookup"><span data-stu-id="64f44-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
+  - <span data-ttu-id="64f44-115">Verantwoording – Vereist dat de werknemer of een manager van een motivering opgeeft bedrag in het beleid te overschrijden alvorens de onkostennota of reisopdracht kan worden ingediend.</span><span class="sxs-lookup"><span data-stu-id="64f44-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
  
- <span data-ttu-id="64f44-116">Het is ook mogelijk om te definiëren gedurende welk datumbereik de onkostenbeleidsregels geldig zijn.</span><span class="sxs-lookup"><span data-stu-id="64f44-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="64f44-117">Tijdens de piekperiode in de zomervakantie gelden bijvoorbeeld</span><span class="sxs-lookup"><span data-stu-id="64f44-117">For example, airline fares for flights between Denmark</span></span>      
- <span data-ttu-id="64f44-118">mogelijk hogere tarieven voor vluchten tussen Denemarken en New York.</span><span class="sxs-lookup"><span data-stu-id="64f44-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="64f44-119">U kunt een regel definiëren dat voor ticketkosten naar New York een limiet</span><span class="sxs-lookup"><span data-stu-id="64f44-119">You can define a flight expense rule that restricts the</span></span>      
- <span data-ttu-id="64f44-120">van DKK 5000 geldt en u kunt opgeven dat deze regel geldt van 15 mei</span><span class="sxs-lookup"><span data-stu-id="64f44-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
- <span data-ttu-id="64f44-121">tot 15 september.</span><span class="sxs-lookup"><span data-stu-id="64f44-121">September 15.</span></span>
+  <span data-ttu-id="64f44-116">Het is ook mogelijk om te definiëren gedurende welk datumbereik de onkostenbeleidsregels geldig zijn.</span><span class="sxs-lookup"><span data-stu-id="64f44-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="64f44-117">Tijdens de piekperiode in de zomervakantie gelden bijvoorbeeld</span><span class="sxs-lookup"><span data-stu-id="64f44-117">For example, airline fares for flights between Denmark</span></span>      
+  <span data-ttu-id="64f44-118">mogelijk hogere tarieven voor vluchten tussen Denemarken en New York.</span><span class="sxs-lookup"><span data-stu-id="64f44-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="64f44-119">U kunt een regel definiëren dat voor ticketkosten naar New York een limiet</span><span class="sxs-lookup"><span data-stu-id="64f44-119">You can define a flight expense rule that restricts the</span></span>      
+  <span data-ttu-id="64f44-120">van DKK 5000 geldt en u kunt opgeven dat deze regel geldt van 15 mei</span><span class="sxs-lookup"><span data-stu-id="64f44-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
+  <span data-ttu-id="64f44-121">tot 15 september.</span><span class="sxs-lookup"><span data-stu-id="64f44-121">September 15.</span></span>
 

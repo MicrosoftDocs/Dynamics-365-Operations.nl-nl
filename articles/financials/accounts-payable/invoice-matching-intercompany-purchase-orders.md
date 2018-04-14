@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b900b19bba4b80558903847231941a6dd3df69bc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a><span data-ttu-id="60d2b-104">Factuurvereffening en intercompany-inkooporders</span><span class="sxs-lookup"><span data-stu-id="60d2b-104">Invoice matching and intercompany purchase orders</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="60d2b-105">De aankopende rechtspersoon die bij een intercompany-transactie betrokken is, kan worden ingesteld om factuurvereffening voor leveranciers te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="60d2b-105">The purchasing legal entity that is involved in an intercompany trade transaction might be set up to use accounts payable invoice matching.</span></span> <span data-ttu-id="60d2b-106">In dit geval moet aan de boekingsvereisten worden voldaan voor zowel intercompany-handel en factuurvereffening voor leveranciers voordat IC-leveranciersfacturen kunnen worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="60d2b-106">In this case, the posting requirements for both intercompany trade and accounts payable invoice matching must be met before intercompany vendor invoices can be posted.</span></span>
 

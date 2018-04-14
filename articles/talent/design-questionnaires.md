@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 506c4db7cd37fd85b3e132e7900eafdc4385fa5a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b03bea4e9814c6be5b42d658633ddcd4a4e8281
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="design-a-questionnaire"></a><span data-ttu-id="1ffda-105">Een vragenlijst ontwerpen</span><span class="sxs-lookup"><span data-stu-id="1ffda-105">Design a questionnaire</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="1ffda-106">In dit onderwerp wordt het proces om een vragenlijst te maken beschreven.</span><span class="sxs-lookup"><span data-stu-id="1ffda-106">This topic describes the process for creating a questionnaire.</span></span> <span data-ttu-id="1ffda-107">Als eerste stap ontwerpt u de vragenlijst</span><span class="sxs-lookup"><span data-stu-id="1ffda-107">The first step is to design the questionnaire.</span></span> <span data-ttu-id="1ffda-108">Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd.</span><span class="sxs-lookup"><span data-stu-id="1ffda-108">When you design a questionnaire, you not only write the questions and answers, but also create the structure that enables answers to be recorded and tabulated.</span></span> 
 

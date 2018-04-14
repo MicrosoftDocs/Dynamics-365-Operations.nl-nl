@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
-ms.openlocfilehash: 776121532c42fde8b1c3e29b4af0bf833952c0cd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cd00227ed6d288a4b2041630bc7a604ac94d3c70
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="bb833-103">Een gepostdateerde cheque voor een leverancier registreren en boeken</span><span class="sxs-lookup"><span data-stu-id="bb833-103">Register and post a postdated check for a vendor</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bb833-104">U kunt de details van een gepostdateerde cheque registreren voordat u de cheque aan een leverancier uitschrijft door het journaalboekstuk te gebruiken.</span><span class="sxs-lookup"><span data-stu-id="bb833-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="bb833-105">U kunt de gepostdateerde cheque ook boeken en financiële transacties genereren.</span><span class="sxs-lookup"><span data-stu-id="bb833-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="bb833-106">Voordat u een gepostdateerde cheque die u van een leverancier hebt ontvangen, registreert en boekt, voert u de volgende taak uit:</span><span class="sxs-lookup"><span data-stu-id="bb833-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
 

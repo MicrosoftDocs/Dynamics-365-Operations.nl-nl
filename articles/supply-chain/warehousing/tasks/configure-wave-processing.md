@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad45fd25a6911ca8f9976ee0040f193da0b3a993
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="89656-103">Waveverwerking configureren</span><span class="sxs-lookup"><span data-stu-id="89656-103">Configure wave processing</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="89656-104">In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat voor werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt.</span><span class="sxs-lookup"><span data-stu-id="89656-104">This guide describes how to set up the criteria that determine what work is generated for a warehouse when a wave is processed, and whether waves are processed manually or automatically.</span></span> <span data-ttu-id="89656-105">U kunt de criteria opgeven door wavesjablonen en query's in te stellen die overeenstemmen met een wave met vrijgegeven regels in verkooporders, productieorders of kanbanorders.</span><span class="sxs-lookup"><span data-stu-id="89656-105">You specify the criteria by setting up wave templates and queries that match a wave with released lines in sales orders, production orders, or kanban orders.</span></span> <span data-ttu-id="89656-106">De waveverwerking wordt gebruikt in magazijnen die de functionaliteit in de module Magazijnbeheer gebruiken, en niet in magazijnen die de functionaliteit in de module Voorraadbeheer gebruiken.</span><span class="sxs-lookup"><span data-stu-id="89656-106">Wave processing is used in warehouses that use the functionality in the Warehouse management module, and not those that use the functionality in the Inventory management module.</span></span> <span data-ttu-id="89656-107">U kunt deze procedure in het bedrijf USMF van de demogegevens uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="89656-107">You can run this procedure in demo data company USMF.</span></span>
 

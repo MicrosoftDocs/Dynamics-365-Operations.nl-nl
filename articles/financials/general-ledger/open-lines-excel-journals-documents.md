@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="4a2f0-104">Journaalregels en documenten publiceren vanuit Excel</span><span class="sxs-lookup"><span data-stu-id="4a2f0-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4a2f0-105">In dit onderwerp wordt uitgelegd hoe u regels voor algemene journalen invoert en publiceert vanuit Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="4a2f0-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="4a2f0-106">U vindt er informatie over de verschillende sjablonen die u gebruiken kunt, afhankelijk van het type transactie dat u invoert.</span><span class="sxs-lookup"><span data-stu-id="4a2f0-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="4a2f0-107">Gebruikers kunnen regels voor financiële journalen invoeren en publiceren vanuit Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="4a2f0-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="4a2f0-108">Nadat een gebruiker een journaal heeft gemaakt, kan hij met de knop **Regels openen in Excel** een lijst met beschikbare sjablonen laten weergeven.</span><span class="sxs-lookup"><span data-stu-id="4a2f0-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="4a2f0-109">Sjablonen zijn ontworpen ter ondersteuning van specifieke scenario's, maar niet elke combinaties van rekeningtypes wordt ondersteund in het journaal.</span><span class="sxs-lookup"><span data-stu-id="4a2f0-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="4a2f0-110">In de volgende tabel ziet u de sjablonen die beschikbaar zijn en de rekeningtypen die ze ondersteunen.</span><span class="sxs-lookup"><span data-stu-id="4a2f0-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="4a2f0-111">**Sjabloon**</span><span class="sxs-lookup"><span data-stu-id="4a2f0-111">**Template**</span></span>             | <span data-ttu-id="4a2f0-112">**Ondersteunde rekeningtypen**</span><span class="sxs-lookup"><span data-stu-id="4a2f0-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="4a2f0-113">**Hoe de sjabloon te openen**</span><span class="sxs-lookup"><span data-stu-id="4a2f0-113">**How to access the template**</span></span>                                                          |

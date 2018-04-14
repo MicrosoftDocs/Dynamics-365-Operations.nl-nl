@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bcda7c3a5c2cc97fbc6e4945e4d5f0ec42a7a478
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b17f4a07fdc35e06f993dac11e5a88e5e96e72cc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-pos-permission-groups"></a><span data-ttu-id="705a3-103"> POS-machtigingsgroepen maken</span><span class="sxs-lookup"><span data-stu-id="705a3-103">Create POS permission groups</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="705a3-104">Deze procedure laat zien hoe u een POS-machtigingengroep maakt.</span><span class="sxs-lookup"><span data-stu-id="705a3-104">This procedure will show how to create a POS permission group.</span></span> <span data-ttu-id="705a3-105">Het demobedrijf dat wordt gebruikt om deze taak te maken is USRT.</span><span class="sxs-lookup"><span data-stu-id="705a3-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="705a3-106">Deze taak is bedoeld voor de rol Bedrijfsbeheerder detailhandel.</span><span class="sxs-lookup"><span data-stu-id="705a3-106">This task is intended for the Retail operations manager role.</span></span>
 

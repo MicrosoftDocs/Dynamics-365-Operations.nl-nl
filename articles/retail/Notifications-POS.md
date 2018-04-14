@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 483bb63f9fe9d88c8d5f3a6c46b372f344f90cdd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a><span data-ttu-id="c0579-104">Meldingen over orders in het verkooppunt weergeven</span><span class="sxs-lookup"><span data-stu-id="c0579-104">Show order notifications in the point of sale</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="c0579-105">In de moderne detailhandelomgeving worden er verschillende taken toegewezen aan winkelmedewerkers, zoals het helpen van klanten, het invoeren van transacties, het uitvoeren van voorraadtellingen en het ontvangen van orders in de winkel.</span><span class="sxs-lookup"><span data-stu-id="c0579-105">In the modern retail environment, store associates are assigned various tasks, such as helping customers, entering transactions, doing stock counts, and receiving orders in the store.</span></span> <span data-ttu-id="c0579-106">De POS-client (Pont of Sale) biedt één toepassing waar de medewerkers alle taken en nog veel meer kunnen uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="c0579-106">The point of sale (POS) client provides a single application where associates can perform all these tasks and many others.</span></span> <span data-ttu-id="c0579-107">Omdat ze gedurende de dag verschillende taken moeten uitvoeren, moeten medewerkers mogelijk op de hoogte worden gesteld wanneer iets hun aandacht vereist.</span><span class="sxs-lookup"><span data-stu-id="c0579-107">Because various tasks must be performed during the day, associates might have to be notified when something requires their attention.</span></span> <span data-ttu-id="c0579-108">Het framework voor meldingen in de POS-client stelt detailhandelaren in staat meldingen op basis van rollen te configureren.</span><span class="sxs-lookup"><span data-stu-id="c0579-108">The notification framework in the POS helps by letting retailers configure role-based notifications.</span></span> <span data-ttu-id="c0579-109">In Microsoft Dynamics 365 for Retail met toepassingsupdate 5 kunnen deze meldingen alleen worden geconfigureerd voor POS-bewerkingen.</span><span class="sxs-lookup"><span data-stu-id="c0579-109">In Microsoft Dynamics 365 for Retail with application update 5, these notifications can be configured only for POS operations.</span></span>
 
