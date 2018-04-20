@@ -33,7 +33,7 @@ In Microsoft Dynamics 365 for Talent past u de gebruikersinterface gemakkelijk a
 > [!NOTE] 
 > De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
-### <a name="personalizing-talent"></a>Talent aanpassen 
+## <a name="personalizing-talent"></a>Talent aanpassen 
 In de volgende onderwerpen wordt laten zien hoe veel functies in Dynamics 365 for Talent zo kunnen worden ingesteld dat het gemakkelijker voor u wordt om u uw werk sneller te doen. 
 
 -   [De gebruikerservaring aanpassen](../fin-and-ops/get-started/personalize-user-experience.md) - In dit onderwerp worden de verschillende manieren uitgelegd waarop u Talent en delen van het product kunt aanpassen aan uw voorkeuren.
@@ -44,7 +44,7 @@ In de volgende onderwerpen wordt laten zien hoe veel functies in Dynamics 365 fo
 
 -   [Sneltoetsen](../fin-and-ops/get-started/shortcut-keys.md) - In dit onderwerp worden de sneltoetsen voor de Amerikaanse toetsenbordindeling beschreven. 
 
-### <a name="accessing-information"></a>Toegang tot gegevens
+## <a name="accessing-information"></a>Toegang tot gegevens
 In de volgende onderwerpen wordt uitgelegd hoe u zoekopdrachten en de functies voor zoeken en filteren gebruikt om snel informatie te vinden. 
 
 -   [Zoekopdrachten gebruiken om informatie te vinden](../fin-and-ops/get-started/use-lookups-to-find-information.md) - In dit onderwerp wordt beschreven hoe u met zoekopdrachten snel de juiste of gewenste waarde vindt. In het onderwerp wordt beschreven hoe zoekopdrachten werken en worden tips voor het optimaliseren van zoekopdrachten gegeven.
