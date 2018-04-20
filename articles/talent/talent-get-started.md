@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
+ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
+ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/20/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="c3b74-103">Aan de slag met Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="c3b74-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE] 
 > <span data-ttu-id="c3b74-107">De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail en Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="c3b74-107">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="c3b74-108">Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten.</span><span class="sxs-lookup"><span data-stu-id="c3b74-108">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="c3b74-109">Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="c3b74-109">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="c3b74-110">Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.</span><span class="sxs-lookup"><span data-stu-id="c3b74-110">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-### <a name="personalizing-talent"></a><span data-ttu-id="c3b74-111">Talent aanpassen</span><span class="sxs-lookup"><span data-stu-id="c3b74-111">Personalizing Talent</span></span> 
+## <a name="personalizing-talent"></a><span data-ttu-id="c3b74-111">Talent aanpassen</span><span class="sxs-lookup"><span data-stu-id="c3b74-111">Personalizing Talent</span></span> 
 <span data-ttu-id="c3b74-112">In de volgende onderwerpen wordt laten zien hoe veel functies in Dynamics 365 for Talent zo kunnen worden ingesteld dat het gemakkelijker voor u wordt om u uw werk sneller te doen.</span><span class="sxs-lookup"><span data-stu-id="c3b74-112">The following topics show how to set up many features in Dynamics 365 for Talent that make it easier for you to get your work done in a timely manner.</span></span> 
 
 -   <span data-ttu-id="c3b74-113">[De gebruikerservaring aanpassen](../fin-and-ops/get-started/personalize-user-experience.md) - In dit onderwerp worden de verschillende manieren uitgelegd waarop u Talent en delen van het product kunt aanpassen aan uw voorkeuren.</span><span class="sxs-lookup"><span data-stu-id="c3b74-113">[Personalize the user experience](../fin-and-ops/get-started/personalize-user-experience.md) - This topic explains the different ways in which you can personalize Talent and adapt parts of the product to more closely suite your preferences.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 -   <span data-ttu-id="c3b74-117">[Sneltoetsen](../fin-and-ops/get-started/shortcut-keys.md) - In dit onderwerp worden de sneltoetsen voor de Amerikaanse toetsenbordindeling beschreven.</span><span class="sxs-lookup"><span data-stu-id="c3b74-117">[Keyboard shortcuts](../fin-and-ops/get-started/shortcut-keys.md) - This topic lists keyboard shortcuts for the United States keyboard layout.</span></span> 
 
-### <a name="accessing-information"></a><span data-ttu-id="c3b74-118">Toegang tot gegevens</span><span class="sxs-lookup"><span data-stu-id="c3b74-118">Accessing information</span></span>
+## <a name="accessing-information"></a><span data-ttu-id="c3b74-118">Toegang tot gegevens</span><span class="sxs-lookup"><span data-stu-id="c3b74-118">Accessing information</span></span>
 <span data-ttu-id="c3b74-119">In de volgende onderwerpen wordt uitgelegd hoe u zoekopdrachten en de functies voor zoeken en filteren gebruikt om snel informatie te vinden.</span><span class="sxs-lookup"><span data-stu-id="c3b74-119">The following topics explain how to use lookups, and the search and filtering features, to find information quickly.</span></span> 
 
 -   <span data-ttu-id="c3b74-120">[Zoekopdrachten gebruiken om informatie te vinden](../fin-and-ops/get-started/use-lookups-to-find-information.md) - In dit onderwerp wordt beschreven hoe u met zoekopdrachten snel de juiste of gewenste waarde vindt.</span><span class="sxs-lookup"><span data-stu-id="c3b74-120">[Use lookups to find information](../fin-and-ops/get-started/use-lookups-to-find-information.md) - This topic shows how lookups can help you quickly find the correct or desired value.</span></span> <span data-ttu-id="c3b74-121">In het onderwerp wordt beschreven hoe zoekopdrachten werken en worden tips voor het optimaliseren van zoekopdrachten gegeven.</span><span class="sxs-lookup"><span data-stu-id="c3b74-121">The topic describes how lookups work and includes tips to help you optimize your use of them.</span></span>
