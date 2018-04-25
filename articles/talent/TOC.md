@@ -3,7 +3,7 @@
 # [Aan de slag](talent-get-started.md)
 ## [Systeemvereisten en updatebeleid](talent-versions-update-policy.md)
 ## [Microsoft Dynamics 365 for Talent inrichten](provisioning-talent.md)
-## [Een Talent-omgeving verwijderen](remove-test-environment.md)
+## [Een Talent-omgeving verwijderen](remove-talent-environment.md)
 ## [Modulaire apps voor Microsoft Dynamics 365 for Talent inrichten](modular-app-tech-faq.md)
 ## [Talent-functionaliteit uitbreiden](extend-talent-functionality.md)
 
@@ -13,6 +13,7 @@
 ## [HR-parameters instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md)
 ## [Bedrijfsspecifieke HR-parameters instellen](set-up-company-specific-hr-parameters.md)
 ## [FAQ over personeelsacties](personnel-actions-faq.md)
+## [Bedrijfsprocessen formaliseren](formalize-business-processes.md)
 ## [Workflow gebruiken om werknemersgegevens te beheren](workflow-manage-employee-information.md)
 ## [Overzicht van verlof en verzuim](leave-absence-overview.md)
 
