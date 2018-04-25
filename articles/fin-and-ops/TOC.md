@@ -1,3 +1,4 @@
+
 # [Dynamics 365 for Finance and Operations](index.md)
 
 ## Aan de slag
@@ -17,12 +18,14 @@
 ##### [Finance and Operations (on-premises) aanschaffen](get-started/purchase-on-premises.md)
 
 ### [Wat is nieuw of gewijzigd](get-started/whats-new-changed.md)
+#### [Lifecycle-beleid voor software en cloudversies](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
+#### [Lifecycle-beleid voor software en on-premises versies](../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json)
 #### [Verwijderde of verouderde functies](../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json)
 #### [AX 2012-functies die zijn uitgesteld](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Functies die niet zijn geïmplementeerd in on-premises implementaties](get-started/features-not-implemented-on-prem.md)
+#### [Finance and Operations 8.0 (april 2018)](get-started/whats-new-changed-8-0-April-2018.md)
 #### [Platformupdate 15 (maart 2018)](get-started/whats-new-platform-update-15.md)
-#### [Versies en lifecycle-beleid](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
-#### [On-premises implementaties (maart 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [On-premises implementaties van 7.2 met platformupdate 12 (maart 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platformupdate 12 (november 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platformupdate 11 (oktober 2017)](get-started/whats-new-platform-update-11.md)
@@ -162,6 +165,10 @@
 ###### [Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
 ###### [Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+##### [Integratie met Field Service configureren](../supply-chain/sales-marketing/field-service.md)
+###### [Producten van Finance and Operations synchroniseren met producten in Field Service](../supply-chain/sales-marketing/field-service-product.md)
+###### [Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+###### [Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
 
 
 #### [Externe webservices gebruiken](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
@@ -198,6 +205,8 @@
 #### [Beveiliging en gegevensentiteiten](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
 
 ### [Uw eigen database gebruiken](../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json)
+
+### [Automatisering van gegevenstaak](../dev-itpro/data-entities/data-task-automation.md)
 
 ## [Financieel beheer](../financials/index.md)
 
@@ -752,8 +761,9 @@
 #### [Rapport ICL-lijst](../financials/localizations/emea-eu-sales-list.md)
 #### [Aanpassingen wisselkoers](../financials/localizations/emea-exchange-rate-adjustments.md)
 #### [Bestandsindelingen voor betalingsmethoden](../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
-#### [Integratie van fiscale service (ESR)](../financials/localizations/emea-fiscal-service-integration.md)
+#### [Integratie Fiscale service (ESR)](../financials/localizations/emea-fiscal-service-integration.md)
 #### [Afstoting van vaste activa voor Estland en Litouwen](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+#### [Herwaardering van vreemde valuta](../financials/localizations/emea-foreign-currency-revaluation.md)
 #### [Een overboekingsdocument genereren voor een interne voorraadoverboeking](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
 #### [Een EU Intrastat-aangifte genereren](../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md)
 #### [Een EU-rapport van ICL-lijst genereren](../financials/localizations/tasks/eur-00011-eu-sales-list-report.md)
@@ -804,18 +814,12 @@
 ##### [Btw-afstemmingsrapport](../financials/localizations/tasks/eur-00018-vat-reconciliation-report.md)
 ##### [Transacties vastleggen in btw-register voor Oost-Europa](../financials/localizations/emea-vat-register-transactions.md)
 ##### [Btw-rapportage](../financials/localizations/emea-vat-reporting.md)
-##### [Btw-rapport maken en inleveren](../financials/localizations/tasks/create-submit-vat-report.md)
+##### [Btw-rapport maken en indienen](../financials/localizations/tasks/create-submit-vat-report.md)
 #### [Transacties weergeven bij vereffening](../financials/localizations/emea-transactions-settlement-form.md)
 
 #### [Oostenrijk](../financials/localizations/austria.md)
 
-#### België
-##### [CODA-bankafschrift](../financials/localizations/emea-bel-coda-bank-statement-import.md)
-##### [Transacties maken en overboeken naar het BLWI](../financials/localizations/tasks/be-00011-create-transfer-blwi.md)
-##### [Intervat-belastingaangifte](../financials/localizations/emea-bel-intervat-tax-declaration.md)
-##### [PRODCOM-rapport instellen](../financials/localizations/emea-bel-prodcom-report.md)
-##### [Afstemmingsrapporten](../financials/localizations/emea-bel-reconciliation-reports.md)
-##### [Rapportage voor betalingssaldo instellen](../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md)
+#### [België](../financials/localizations/belgium.md)
 
 #### [Tsjechië](../financials/localizations/czech-republic.md)
 
@@ -833,6 +837,7 @@
 ##### [Indeling betalingsbon instellen](../financials/localizations/tasks/set-up-payment-slip-format.md)
 
 #### Estland
+##### [Verzoeken voor persoonlijke informatie](../financials/localizations/emea-est-personal-info.md)
 ##### [Btw-overzicht](../financials/localizations/emea-est-vat-statement-details.md)
 
 #### Frankrijk
@@ -859,6 +864,9 @@
 ##### [Degressieve/lineaire afschrijving](../financials/localizations/emea-fra-rbsl-depreciation.md)
 ##### [Betalingsmethode instellen](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
 ##### [Betalingsmethode van klant bijwerken](../financials/localizations/tasks/fr-00004-update-method-payment-customer.md)
+##### Retail
+###### [Kassa's](../retail/localizations/emea-fra-cash-registers.md)
+###### [Implementatierichtlijnen voor kassa's](../retail/localizations/emea-fra-deployment.md)
 
 #### Duitsland
 ##### [Extra verwervingsafschrijving](../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
@@ -877,6 +885,7 @@
 ##### [Afschrijvingsmethoden voor vaste activa](../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)
 ##### [Vaste activa met lage kosten](../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 ##### [Vaste activa naar voorraad verplaatsen](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [Btw-terugbetaling documenten](../financials/localizations/emea-hun-tax-reimbursement-docs.md)
 
 #### IJsland
 ##### [Een leverancierrekening maken en de factuuraangiftecategorie koppelen](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
@@ -891,6 +900,7 @@
 ##### [Afschrijving van vaste activa](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
 ##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Datumverificatie van pakbon op facturen](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+##### [Een pakbon met verzendgegevens voor transport boeken en afdrukken](../financials/localizations/emea-ita-packing-slip.md)
 ##### [Btw-boeken](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Betalingen splitsen voor facturen die zijn uitgegeven aan overheidsdiensten](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 ##### [Bronbelasting](../financials/localizations/emea-ita-withholding-tax.md)
@@ -945,6 +955,7 @@
 ##### [Verkoop- en inkoopcycli](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [Speciale boekingen en openingsbladen](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Zweden
+##### [Financiële informatie voor auditoren exporteren in Zweden](../financials/localizations/emea-swe-sie-standard-report.md)
 ##### [Betalingsindelingen voor import](../financials/localizations/emea-swe-payment-formats-import.md)
 ##### [Kassa's](../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json)
 #### Zwitserland
@@ -1219,6 +1230,7 @@
 #### [SSRS configureren voor een on-premises implementatie](../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json)
 #### [Afdrukken](../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json)
 ##### [De documentrouteringsagent installeren om netwerkprinterapparatuur in te schakelen](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
+##### [De documentrouteringsagent upgraden](../dev-itpro/analytics/upgrade-document-routing-agent.md)
 ##### [Netwerkprinterapparaten installeren in on-premises omgevingen](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
 ##### [Mogelijkheid voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties](../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json)
 ##### [De documentrouteringsagent uitvoeren als Windows-service](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json)
@@ -1234,6 +1246,7 @@
 
 ### [Elektronische rapportage](../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)
 #### [Raamwerk voor elektronische rapportage configureren](../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json)
+#### [Een configuratie maken](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
 ##### [Een configuratieprovider maken en deze als actief markeren voor elektronische aangifte](../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Een domeinspecifiek gegevensmodel voor elektronische aangifte ontwerpen](../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Modeltoewijzing definiëren en gegevensbronnen selecteren voor elektronische aangifte](../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json)
@@ -1248,48 +1261,46 @@
 ##### [Bestemmingen configureren voor elektronische aangifte](../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Een configuratie ontwerpen voor het genereren van rapporten in Microsoft Word-indeling voor elektronische aangifte](../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Een configuratie ontwerpen voor het genereren van rapporten in OpenXML-indeling voor elektronische aangifte](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [Een indeling wijzigen door een Microsoft Excel-sjabloon voor elektronische aangifte opnieuw toe te passen](../dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017.md?toc=/fin-and-ops/toc.json)
 #### [Een indeling voor elektronische aangifte wijzigen door een Microsoft Excel-sjabloon opnieuw toe te passen](../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json)
 #### [Gegevensmodeldefinitie selecteren tijdens het maken van de indeling voor elektronische aangifte](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [De afhankelijkheid van configuraties van andere onderdelen voor elektronische aangifte definiëren](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Gegevensmodel ontwerpen voor gebruik van financiële dimensies als gegevensbron voor elektronische aangifte](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
-##### [Modellen toewijzen voor gebruik van financiële dimensies als gegevensbron voor elektronische aangifte](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
-##### [Een rapport ontwerpen voor gebruik van financiële dimensies als gegevensbron voor elektronische aangifte](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
-##### [Een rapport uitvoeren dat gebruikmaakt van financiële dimensies als gegevensbron voor elektronische aangifte](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
-##### [Indeling maken voor tellen en totaliseren voor elektronische aangifte](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
-##### [Berekeningen configureren om te tellen en totaliseren voor elektronische aangifte](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
-##### [Berekeningen gebruiken voor het maken van de uitvoer voor tellen en totaliseren voor elektronische aangifte](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
-##### [De indeling uitvoeren voor tellen en totaliseren voor elektronische aangifte](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
-##### [Een indeling ontwerpen voor het gebruik van horizontaal uitvouwbare bereiken voor het dynamisch toevoegen van kolommen in Excel-rapporten voor elektronische aangifte](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
-##### [Een indeling uitvoeren die gebruikmaakt van horizontaal uitvouwbare bereiken voor het dynamisch toevoegen van kolommen in Excel-rapporten voor elektronische aangifte](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
-##### [Gegevensmodel voorbereiden voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
-##### [Gegevensmodel uitbreiden voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
-##### [Indeling maken voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
-##### [Indeling uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
-##### [Indeling wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
-##### [Configuraties ontwerpen voor het genereren van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen voor elektronische aangifte (ER) (Deel 1)](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Configuraties controleren voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Rapporten genereren in Microsoft Office-indelingen met ingesloten afbeeldingen voor elektronische aangifte](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
+#### [De afhankelijkheid van configuraties van andere onderdelen voor elektronische aangifte definiëren](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Gegevensmodel ontwerpen voor gebruik van financiële dimensies als gegevensbron](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
+##### [Modellen toewijzen voor gebruik van financiële dimensies als gegevensbron](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
+##### [Een rapport ontwerpen voor gebruik van financiële dimensies als gegevensbron](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
+##### [Een rapport uitvoeren dat financiële dimensies gebruikt als gegevensbron](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
+##### [Indeling voor tellen en totaliseren maken](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
+##### [Berekeningen configureren voor tellen en totaliseren](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
+##### [Berekeningen gebruiken voor het maken van de uitvoer voor tellen en totaliseren](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
+##### [De indeling uitvoeren voor tellen en totaliseren](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
+##### [Een indeling ontwerpen voor het gebruik van horizontaal uitvouwbare bereiken voor het dynamisch toevoegen van kolommen in Excel-rapporten](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
+##### [Een indeling uitvoeren die horizontaal uitvouwbare bereiken gebruikt voor het dynamisch toevoegen van kolommen in Excel-rapporten](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
+##### [Een gegevensmodel voorbereiden voor het gebruik van documentbeheerbestanden in uitvoer van indelingen](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
+##### [Een gegevensmodel uitbreiden voor het gebruik van documentbeheerbestanden in uitvoer van indelingen](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
+##### [Indeling maken voor gebruik van documentbeheerbestanden in uitvoerindelingen](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
+##### [Indeling uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
+##### [Indeling wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
+##### [Configuraties ontwerpen voor het genereren van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Configuraties beoordelen voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Rapporten genereren in Microsoft Office-indelingen met ingesloten afbeeldingen](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
 #### [Elektronische documenten genereren en toepassingsgegevens bijwerken via het hulpmiddel voor elektronische aangifte](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
-##### [Configuraties importeren voor het genereren van documenten met een update van toepassingsgegevens voor elektronische aangifte](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Configuraties genereren met een update van toepassingsgegevens voor elektronische aangifte](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
-##### [Model en toewijzing wijzigen voor het genereren van documenten met een update van toepassingsgegevens voor elektronische aangifte](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
-##### [Indeling wijzigen voor het genereren van documenten met een update van toepassingsgegevens voor elektronische aangifte](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
-##### [Configuraties genereren met een update van toepassingsgegevens voor elektronische aangifte](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
+##### [Configuraties importeren voor het genereren van documenten met toepassingsgegevens](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Configuraties ontwerpen voor het genereren van documenten met toepassingsgegevens](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
+##### [Model en toewijzing wijzigen voor het genereren van documenten met toepassingsgegevens](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
+##### [Indeling wijzigen voor het genereren van documenten met toepassingsgegevens](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
+##### [Documenten genereren met toepassingsgegevens](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
 #### [Afbeeldingen en vormen insluiten in zakelijke documenten die zijn gegenereerd via het hulpmiddel voor elektronische aangifte](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
-#### [Een configuratie uploaden naar Lifecycle Services voor elektronische aangifte](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
-##### [Een configuratie importeren vanuit Lifecycle Services voor elektronische aangifte](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
 #### [De configuratielevenscyclus beheren](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
-#### [Een configuratie maken](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
-#### [Configuraties downloaden uit Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
-#### [Functies voor elektronische aangifte uitbreiden](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
-##### [Model beheren voor toewijzing van configuraties voor elektronische aangifte](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Een configuratie uploaden naar Lifecycle Services voor elektronische aangifte](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [Een configuratie importeren vanuit Lifecycle Services voor elektronische aangifte](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [Configuraties downloaden uit Lifecycle Services](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
+##### [Configuraties van elektronische aangifte importeren](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+#### [Configuraties voor modeltoewijzing beheren voor elektronische aangifte](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
 ##### [Vereiste configuraties maken om gegevens te importeren uit een extern bestand voor elektronische aangifte](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
-#### [Configuraties van elektronische rapportage importeren](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
 #### [Inkomende documenten parseren om toepassingsgegevens bij te werken](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
 #### [Inkomende documenten in CSV-indeling parseren](../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json)
-
+##### [Functies voor elektronische aangifte uitbreiden](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
 ##### [API voor raamwerk voor elektronische aangifte is gewijzigd in Application update 7.3](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
+
 
 ### Ingesloten analytische oplossingen
 #### [Embedded Power BI in werkgebieden](../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json)
@@ -1451,6 +1462,7 @@
 #### [Onboarding van leveranciers](../supply-chain/procurement/vendor-onboarding.md)
 #### [Leverancierssamenwerking met externe leveranciers](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Leverancierssamenwerking met klanten](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+#### [Leverancierscatalogi importeren](../supply-chain/procurement/vendor-catalogs-import.md)
 #### [Externe catalogus instellen voor PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
 #### [Externe catalogi gebruiken voor PunchOut eProcurement](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [Mobiel werkgebied voor leverancierssamenwerking](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
@@ -1598,14 +1610,16 @@
 ##### [Materiaalvervanging in productie](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [Registratie voor productieregistratie](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Productiefeedback](../supply-chain/production-control/production-feedback.md)
-##### [Tijd- en aanwezigheidsregistratie](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Verzuimregistratie in Tijd en aanwezigheid](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 ##### [Proces van tijd- en aanwezigheidsregistratie inschakelen](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [Een medewerker configureren met het mobiele taakapparaat](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
 #### Financiële gegevens in productie beheren
 ##### [Tijd toewijzen aan taken in een takenbundel](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Materiaalverbruik berekenen](../supply-chain/production-control/consumption.md)
 ##### [Productieboeking](../supply-chain/cost-management/production-posting.md)
+#### [Tijd- en aanwezigheidsregistratie](../supply-chain/production-control/time-attendance-registrations.md)
+##### [Salaris op basis van registraties](../supply-chain/production-control/pay-based-on-registrations.md)
+##### [Verzuimregistratie in Tijd en aanwezigheid](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Flexgroepen](../supply-chain/production-control/time-attendance-flex-groups.md)
 
 ### Lean manufacturing 
 #### [Overzicht van lean manufacturing](../supply-chain/production-control/lean-manufacturing-overview.md)
@@ -1836,6 +1850,7 @@
 #### [Mutatie van voorraad met gekoppeld werk in Magazijnbeheer](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [Magazijnmedewerkers beheren](../supply-chain/warehousing/manage-warehouse-workers.md)
 ### Verzamelen en verpakken
+#### [Clusterverzameling instellen](../supply-chain/warehousing/set-up-cluster-picking.md)
 #### [Bevestiging van batch en nummerplaat](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [Gecombineerde nummerplaat ontvangen](../supply-chain/warehousing/mixed-license-plate-receiving.md)
@@ -1843,10 +1858,11 @@
 #### [Oudste batch verzamelen op een mobiel apparaat](../supply-chain/warehousing/pick-oldest-batch.md)
 #### [Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Bevestiging van orderverzameling](../supply-chain/warehousing/piece-picking-confirmation.md)
-#### [Productbevestiging voor clusterverzameling](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
+#### [Gedeeltelijke verzending van een transportlading](../supply-chain/warehousing/partial-shipping-of-transport-loads.md)
 #### [Batchvrijgave van gedeeltelijk gereserveerde transferorders](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [Verpakkingsmaterialen en -kosten](../supply-chain/warehousing/pack-materials-packing-material-fees.md)
 ### Voorraadtelling
+#### [Redencodes voor voorraadtelling](../supply-chain/warehousing/reason-codes-for-counting-journals.md)
 #### [Voorraad blokkeren](../supply-chain/inventory/inventory-blocking.md)
 #### [Cyclustelling](../supply-chain/warehousing/cycle-counting.md)
 #### [Cyclustelling definiëren ](../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md)
@@ -1857,6 +1873,7 @@
 #### [Voorraadstatus](../supply-chain/inventory/inventory-statuses.md)
 #### [Voorraadlabeltelling](../supply-chain/inventory/inventory-tag-counting.md)
 ### [Aanvulling](../supply-chain/warehousing/replenishment.md)
+#### [Directe aanvulling](../supply-chain/warehousing/immediate-replenishment.md)
 #### [Aanvulling met opnamekanbans](../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md)
 ### [De app voor magazijnbeheer installeren en configureren ](../supply-chain/warehousing/install-configure-warehousing-app.md)
 #### [Veldnamen in app voor magazijnbeheer configureren](../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md)
