@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Expressiebeperkingen en tabelbeperkingen in productconfiguratiemodellen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft het gebruik van expressiebeperkingen en tabelbeperkingen. U gebruikt beperkingen om de kenmerkwaarden te beheren die u kunt gebruiken wanneer u producten voor een verkooporder, verkoopofferte, inkooporder, of een productieorder configureert. U kunt expressiebeperkingen of tabelbeperkingen gebruiken, afhankelijk van hoe u de beperkingen wenst te maken. 
 
@@ -204,23 +203,24 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 
 De voorbeelden in de volgende tabel geven weer hoe een tussenvoegselnotatie moet worden geschreven.
 
-| Infix-notatie    | Omschrijving                                                                                   |
+
+|  Infix-notatie   |                                          Omschrijving                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Optelling                                                                                      |
-| x \* y \* z       | Vermenigvuldigen                                                                                |
-| x - y             | Binair aftrekken wordt op dezelfde manier vertaald als binaire optelling waarbij er een genegeerde tweede is. |
-| x ^ y ^ z         | Machtsverheffen met associatie naar rechts                                                   |
-| !x                | Booleaans niet                                                                                   |
-| x -: y            | Booleaanse implicatie                                                                           |
-| x | y | z         | Booleaans of                                                                                    |
-| x & y & z         | Booleaans en                                                                                   |
-| x == y == z       | Gelijkheid                                                                                      |
-| x != y != z       | Afzonderlijk                                                                                      |
-| x &lt; y &lt; z   | Kleiner dan                                                                                     |
-| x &gt; y &gt; z   | Groter dan                                                                                  |
-| x &lt;= y &lt;= z | Kleiner dan of gelijk aan                                                                         |
-| x &gt;= y &gt;= z | Groter dan of gelijk aan                                                                      |
-| (x)               | Haakjes overschrijven standaard voorrang.                                                      |
+|     x + y + z     |                                           Optelling                                            |
+|    x \* y \* z    |                                        Vermenigvuldigen                                         |
+|       x - y       | Binair aftrekken wordt op dezelfde manier vertaald als binaire optelling waarbij er een genegeerde tweede is. |
+|     x ^ y ^ z     |                          Machtsverheffen met associatie naar rechts                          |
+|        !x         |                                          Booleaans niet                                          |
+|      x -: y       |                                      Booleaanse implicatie                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          Booleaans en                                          |
+|    x == y == z    |                                           Gelijkheid                                            |
+|    x != y != z    |                                           Afzonderlijk                                            |
+|  x &lt; y &lt; z  |                                           Kleiner dan                                           |
+|  x &gt; y &gt; z  |                                         Groter dan                                          |
+| x &lt;= y &lt;= z |                                     Kleiner dan of gelijk aan                                     |
+| x &gt;= y &gt;= z |                                   Groter dan of gelijk aan                                    |
+|        (x)        |                           Haakjes overschrijven standaard voorrang.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Waarom worden mijn expressiebeperkingen niet correct gevalideerd?
 U kunt geen gereserveerde sleutelwoorden gebruiken als oplossernamen voor kenmerken, onderdelen of subonderdelen in een productconfiguratiemodel. Hierna vindt u een lijst met de gereserveerde woorden die u niet kunt gebruiken:

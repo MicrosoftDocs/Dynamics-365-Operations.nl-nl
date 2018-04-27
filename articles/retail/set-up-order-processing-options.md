@@ -1,9 +1,9 @@
 ---
-title: Orderverwerkingsopties instellen
+title: Een callcenterkanaal instellen
 description: Dit onderwerp bevat informatie over hoe u orders voor callcenters verwerkt via Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,33 +20,64 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 144bee2102b8d1901d1b4964f6c92501c1cd573d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0d64a27aa8aed10c210ca3c2956dce67f8d634b8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Orderverwerkingsopties instellen
+# <a name="set-up-a-call-center-channel"></a>Een callcenterkanaal instellen
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Een bedrijf kan meerdere callcenterkanalen in Microsoft Dynamics 365 for Retail definiëren. Callcenterkanalen worden geconfigureerd via **Retail** \> **Kanalen** \> **Callcenters** \> **Alle callcenters**, en zijn specifiek voor een rechtspersoon.
 
-Dit onderwerp bevat informatie over hoe u orders voor callcenters verwerkt via Microsoft Dynamics 365 for Retail. 
+Wanneer een nieuwe callcenterkanaal wordt gemaakt, wordt hieraan systematisch een nummer van een operationele eenheid toegewezen. Omdat callcenters worden gemaakt als operationele eenheden, kunnen gebruikers het callcenterkanaal koppelen aan verschillende Retail-functies, zoals assortimenten, catalogi en specifieke leveringsmethoden.
 
-Retail ondersteunt meerdere retailkanalen, zoals onlinewinkels, fysieke winkels en callcenters. In een callcenter nemen de werknemers via de telefoon klantenorders aan en maken ze verkooporders. Dit onderwerp beschrijft hoe u een call center kunt maken en de opties van het call center kunt configureren. Elk call center kan eigen gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden hebben. U kunt deze opties configureren wanneer u het call center maakt. **Belangrijk:** Voordat callcenterworkflows kunnen worden gebruikt wanneer een gebruiker verkooporders maakt, moet de gebruiker aan het callcenter worden toegewezen als een callcentergebruiker. U kunt de pagina **Callcenter** gebruiken om groepen of functies in te schakelen of uit te schakelen die uniek voor callcenters. De volgende groepen functies kunnen worden ingeschakeld:
+Een standaardmagazijn kan worden geconfigureerd voor het callcenterkanaal. Wanneer verkooporders worden gemaakt voor dat kanaal, wordt het standaardmagazijn automatisch ingevoerd in de verkooporderkoptekst, tenzij een ander magazijn is gedefinieerd voor de klant die is geselecteerd voor de verkooporder. Standaard wordt in dat geval het magazijn van de klant ingevoerd.
 
--   **Ordervoltooiing**: deze groep bevat functies die aan betalingen en ordervoltooiing in de **Verkooporder** zijn gekoppeld.
--   **Geleide verkoop:** deze groep bevat functies die aan broncodes, scripts en catalogusaanvragen worden gekoppeld.
+Gebruikers moeten worden gekoppeld aan een callcenterkanaal om de functies van het callcenter te gebruiken. Een verkooporder die door een gebruiker wordt gemaakt in Retail, wordt automatisch gekoppeld aan het callcenterkanaal. Op dit moment kan er niet één gebruiker worden gekoppeld aan meerdere callcenterkanalen tegelijk.
 
-Wanneer u deze functies in de instellingen van het call center inschakelt, worden ze beschikbaar in de pagina **Verkooporder** voor gebruikers die aan het call center worden gekoppeld. De meeste van deze functies vereisen aanvullende instellingen voordat ze gebruikt kunnen worden. Afbeeldingen en scripts worden ingeschakeld als onderdeel van de rechtstreekse verkoopinstelling voor het specifieke callcenter. Als deze functies zijn ingeschakeld, worden de scripts en de productafbeeldingen weergegeven in het feitenvak van de pagina **Verkooporder**. De standaardafbeelding die voor een product is ingesteld wordt weergegeven. De scripts kunnen voor een artikel, een catalogus, een klant, of artikel in de context van een catalogus worden geconfigureerd. Callcenterorders kunnen aanvullende details weergeven over hoe de prijs voor een specifieke orderregel is afgeleid. De orders tonen bijvoorbeeld welke kortingen zijn toegepast. U stelt deze functionaliteit in bij **Klanten** &gt; **Instellen** &gt; **Parameters van module Klanten** &gt; **Prijzen** &gt; **Prijsgegevens**. U kunt de pagina **Prijsgegevens** vanuit de vervolgkeuzelijst **Verkooporderregel**. U kunt ordergebeurtenissen volgen gebruiken voor controledoeleinden, om de acties te bekijken die worden toegepast op een order tijdens de levenscyclus van de order, of om de acties van een bepaalde gebruiker te volgen. U kunt bijvoorbeeld steeds de actie registreren wanneer een gebruiker een verkooporder maakt, deze in de wacht zet, een toeslag overschrijft of een orderregel bijwerkt. U kunt ordergebeurtenissen instellen om acties te traceren voor specifieke gebruikers, groepen gebruikers, of alle gebruikers in een specifieke periode. U kunt de acties bekijken die op een document zijn ondernomen door de pagina **Ordergebeurtenissen** in het actievenster te openen op de pagina voor dat document. U kunt ordergebeurtenissen configureren op **Verkoop en marketing** &gt; **Instellen** &gt; **Gebeurtenissen** &gt; **Ordergebeurtenissen**. Wanneer een klantorder niet op tijd kan worden verzonden, kan een bedrijf automatisch e-mailmeldingen naar de klant verzenden om de orderstatus te melden en de klant de kans te geven een order te annuleren. Als de vertraging langer is dan een bepaalde duur, kan de order automatisch worden geannuleerd. Er kunnen tot drie e-mailberichten met bepaalde intervallen worden verzonden:
+Ook kan een profiel voor e-mailmelding worden geconfigureerd op het callcenterkanaal. Het profiel definieert de set met e-mailsjablonen die wordt gebruikt wanneer e-mail wordt verzonden aan klanten die orders plaatsen via het callcenterkanaal. Het activeren van de e-mail kan worden geconfigureerd voor systeemgebeurtenissen, zoals het indienen van de order of een zending.
 
-1.  **Eerste annuleringsmelding** – De klant kan de order annuleren.
-2.  **Tweede annuleringsmelding** – De klant kan de order annuleren.
-3.  **Definitieve annuleringsmelding** – Het systeem annuleert de order en de klant wordt geïnformeerd over de annulering.
+Voor het correct verwerken van verkopen via een callcenterkanaal, moeten de juiste [betalingsmethoden](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-payments) en leveringsmethoden worden gedefinieerd voor het kanaal.
 
-U kunt afzonderlijke klanten en producten vrijstellen van het proces met automatische meldingen en annuleringen. Een margewaarschuwing wordt geactiveerd wanneer u een artikel aan een order toevoegt. De waarschuwing bevat belangrijke informatie over het artikel, zoals de prijsmarge van het artikel en winstgevendheid. U kunt deze informatie gebruiken om te bepalen of een prijs overschrijving van toepassing is wanneer u een artikel toevoegt aan de verkooporder. U stelt bijvoorbeeld drempels in voor de handelsmarges, om op te geven dat een drempel van 40% of meer boven de kosten acceptabel is voor een artikel, maar een drempel van 20 to 39% boven de kosten is dubieus. In dit geval activeert elk artikel dat een drempel tussen 20 en 39 procent heeft, een waarschuwing. Elk artikel dat een drempel van minder dan 20 procent boven kosten heeft, kan niet worden verkocht en de artikelprijs kan niet worden gecorrigeerd. U kunt margewaarschuwingen configureren op **Klanten** &gt; **Instellen** &gt; **Parameters van module Klanten** &gt; **Margewaarschuwingen**. Wanneer kunt u de btw-overeenkomst instelt op basis van standaardregels, kunt u een overeenstemmende prioriteit bepalen voor adreselementen. U kunt bijvoorbeeld opgeven dat het afstemmen van een btw-groep op postcode een hogere prioriteit heeft dan het afstemmen van een btw-groep op staat. Als u nieuwe klantadresrecords invoert, wordt de btw-groep automatisch toegewezen op basis van hoe het adres van de klant overeenkomt met de standaardregels en prioriteitmatching die u hebt gedefinieerd. U kunt deze functionaliteit configureren op de pagina **Grootboekparameters**.
+U kunt op het niveau van het callcenterkanaal andere standaardwaarden definiëren die zijn gerelateerd aan de financiële dimensies die wordt gekoppeld aan orders die zijn gemaakt door dat kanaal.
 
+## <a name="options-for-order-processing-behavior"></a>Opties voor gedrag bij orderverwerking
 
+Drie instellingen van de configuratie van een callcenter hebben veel invloed op de voorzieningen en functies die beschikbaar zijn voor verkooporders die zijn gemaakt voor dat callcenter: **Ordervoltooiing inschakelen**, **Rechtstreekse verkoop inschakelen** en **Orderprijscontrole inschakelen**.
 
+### <a name="enable-order-completion"></a>Ordervoltooiing inschakelen
+
+De instelling **Ordervoltooiing inschakelen** voor het callcenterkanaal heeft een groot effect voor de orderverwerkingstroom van verkooporders die zijn ingevoerd voor dat kanaal. Als deze instelling is ingeschakeld, moeten alle verkooporders een set validatieregels doorlopen voordat deze kunnen worden bevestigd. U voert deze regels uit door het selecteren van de knop **Voltooien** die wordt toegevoegd aan het actievenster van de verkooporderpagina. Alle verkooporders die worden gemaakt als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, moeten het ordervoltooiingsproces doorlopen. Dit proces zorgt voor de opname van betalingen en validatielogica voor betalingen. Naast het uitvoeren van de betaling activeert het orderverzendproces [fraudecontroles](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts) die u in het systeem configureert. Orders waarvoor de betaling mislukt of frauduleuze validaties worden in de wachtstand geplaatst en kunnen niet worden vrijgegeven voor verdere verwerking (zoals orderverzamelen of verzending) totdat het probleem van de blokkering opgelost is.
+
+Wanneer de instelling **Ordervoltooiing inschakelen** is ingeschakeld voor het callcenterkanaal en er regelitems zijn ingevoerd op een verkooporder, en de gebruiker van het kanaal het verkooporderformulier wil sluiten of verlaten zonder dat **Voltooid** is geselecteerd, zorgt het ordervoltooiingsporces dat de pagina Samenvatting van verkooporder wordt geopend en moet de gebruiker de order correct indienen. Als de order niet correct kan worden ingediend met de betaling, kan de gebruiker de functie [Orderwachtstanden](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) toepassen om de order in de wachtstand te plaatsen. Als de gebruiker de order wil annuleren, moet hij of zij juist deze annuleren met behulp van de functie Annuleren of Verwijderen, afhankelijk van de functie die wordt toegestaan door de beveiliging.
+
+Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld voor het callcenterkanaal, wordt het veld **Betalingsstatus** bijgehouden op de order. Het systeem berekent de **betalingsstatus** wanneer de verkooporder wordt ingediend. Alleen orders met een goedgekeurde betalingsstatus mogen verdergaan naar extra orderverwerkingsstappen, zoals verzamelen en verzenden. Als betalingen worden geweigerd, wordt de markering **Niet verwerken** ingeschakeld voor de gedetailleerde orderstatus, waarmee deze order wordt geblokkeerd totdat het betalingsprobleem is opgelost.
+
+Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld wanneer gebruikers verkooporders maken en in de invoermodus regelartikel zijn, is het veld **Bron** beschikbaar op de koptekst van de hoofdverkooporder. het veld **Bron** wordt gebruikt een [catalogusbroncode](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/call-center-catalogs) vast te leggen in een verkoopscenario voor direct marketing. Deze code kan vervolgens speciale prijzen en promoties opgeven.
+
+Zelfs als de instelling **Ordervoltooiingi inschakelen** is uitgeschakeld, kunnen gebruikers nog steeds een broncode toepassen op een verkooporder. Maar ze moeten eerst de koptekstgegevens van de verkooporder openen voor toegang tot het veld **Bron**. Er zijn dus een aantal aanvullende muisklikken nodig. Dezelfde situatie is van toepassing op functies zoals zending voltooid en afgehandelde orders. Deze functies zijn beschikbaar voor alle orders die zijn gemaakt in het callcenter. Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, kunnen gebruikers de configuratie van deze functies zien in de verkoopkoptekst in de weergave voor regelinvoer. Ze hoeven niet in te zoommen naar de koptekstgegevens van de verkooporder om de gewenste instellingen en velden te zien.
+
+### <a name="enable-direct-selling"></a>Rechtstreekse verkoop inschakelen
+
+Als de instelling **Rechtstreekse verkoop inschakelen** is ingeschakeld voor het callcenterkanaal, kunnen gebruikers profiteren van de functies Meerverkoop/bijverkoop van Retail. In dit geval verschijnen pop-upvensters tijdens het invoeren van orders en worden andere producten voorgesteld die de callcentergebruiker aan de klant kan aanbieden. De producten die worden voorgesteld, zijn gebaseerd op het product dat op de verkooporderregel is besteld. Op dit moment worden de suggesties voor meerverkoop/bijverkoop geconfigureerd op artikelniveau voor producten of catalogi. Als de instelling **Rechtstreekse verkoop inschakelen** is uitgeschakeld voor het callcenterkanaal, worden geen pop-upvensters weergegeven tijdens het invoeren van orders, zelfs niet als een geldige meerverkoop/bijverkoop is gedefinieerd voor een artikel dat wordt besteld.
+
+Wanneer de **Rechtstreekse verkoop inschakelen** is ingeschakeld, worden ook de functies voor scripts en afbeeldingen op de invoerpagina voor de verkooporder ingeschakeld. In dit geval is een informatiedeelvenster beschikbaar aan de rechterkant van de pagina tijdens het invoeren van orders. Dit deelvenster kan scripts bevatten die zijn gerelateerd aan het generieke orderinvoerproces, de catalogusbroncode die is toegepast of scripts die zijn gerelateerd aan de bestelde artikelen. Het deelvenster met afbeeldingen kan bovendien een productafbeelding voor de bestelde artikelen weergeven als een afbeelding is gedefinieerd voor het artikel in de productinstellingen.
+
+### <a name="enable-order-price-control"></a>Orderprijscontrole inschakelen
+
+Wanneer de instelling **Orderprijscontrole inschakelen** wordt ingeschakeld, kunnen alleen geautoriseerde gebruikers de verkoopprijs van een artikel wijzen tijdens het invoeren van orders. De wijzigingen moet binnen de gedefinieerde marges liggen. Gebruikers die niet de juiste machtiging hebben, moeten in plaats daarvan een aanvraag voor een prijswijziging indienen. De aanvraag wordt vervolgens verwerkt via systeemwerkstromen voor beoordeling en goedkeuring.
+
+## <a name="channel-users"></a>Afzetkanaalgebruikers
+
+Wanneer u het callcenterkanaal definieert, moet u kanaalgebruikers koppelen aan hun callcenter. Anders kan het callcenter niet worden gebruikt in het systeem. Wanneer gebruikers zich bij Retail aanmelden en verkooporders of retourorders invoeren op een pagina die is gerelateerd aan het invoeren van orders, wordt hun gebruikers-id gevalideerd op basis van de configuratie van het callcenterkanaal. Als een gebruiker is gekoppeld aan een specifiek callcenterkanaal, krijgen de orders die de gebruiker maakt, de eigenschappen en standaardwaarden van dat kanaal.
+
+Standaard wordt de markering **Detailhandelverkoop** in de verkooporderkoptekst is ingeschakeld voor alle orders die callcentergebruikers maken. De orders kunnen vervolgens profiteren van de detailhandelspecifieke prijs- en promotiefuncties van het systeem.
+
+Gebruikers die niet zijn gekoppeld aan een callcenterkanaal gebruiken de standaardfuncties voor orderinvoer van Microsoft Dynamics 365 for Finance and Operations. Orders die deze gebruikers invoeren via het formulier Verkooporderinvoer, worden niet systematisch aangemerkt als detailhandelorders. Ook worden orders die zijn ingevoerd door deze gebruikers, niet onderworpen aan voltooiingsregels voor orderverwerking, logica voor detailhandelsprijzen of andere ordervalidaties die kunnen worden gedefinieerd in de configuratie van het callcenterkanaal of systeemparameters voor het callcenter.
+
+Nadat u het callcenterkanaal hebt geconfigureerd en kanaalgebruikers hebt gedefinieerd, kunt u het gewenste systeemgedrag bevorderen door te zorgen dat alle vereiste callcenterparameters zijn gedefinieerd in **Retail** \> **Kanaalinstelling** \> **Instellingen van callcenter** \> **Parameters van callcenter**. Zorg ook dat gerelateerde nummerreeksen zijn gedefinieerd.
 

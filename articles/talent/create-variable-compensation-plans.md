@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Variabelecompensatieplannen maken
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Variabele compensatie heeft betrekking op de onregelmatige inkomsten van een werknemer, zoals bonussen of aandelenpakketten. In dit artikel worden de onderdelen beschreven die u moet instellen voordat u variabele compensatie kunt gebruiken en werknemers kunt inschrijven voor een plan voor variabele compensatie.
 
@@ -78,12 +77,12 @@ Wanneer u klaar bent om werknemers in een variabelecompensatieplan in te schrijv
 
 **Opmerking:** met geschiktheidsregels wordt de geschiktheid bepaald voor zowel vastecompensatieplannen als variabelecompensatieplannen. Voor de geschiktheidsregels worden de volgende velden in de functie-, positie- en werknemersrecords gebruikt om te bepalen of een werknemer voor een compensatieplan in aanmerking komt:
 
--   Op de pagina **Functie**:
-    -   Het veld **Functie**
-    -   De velden **Functie** en **Functietype** op het tabblad **Taakclassificatie**
-    -   Het veld **Niveau** op het tabblad **Compensatie**
--   Op de pagina **Posities**: de velden **Afdeling** en **Compensatieregio**
--   Op de pagina **Werknemers**: de gegevens over vakbonden die zijn gekoppeld aan de werknemer onder **Persoonlijke gegevens** &gt; **Vakbonden** op het tabblad ****Werknemer****
+- Op de pagina **Functie**:
+  -   Het veld **Functie**
+  -   De velden **Functie** en **Functietype** op het tabblad **Taakclassificatie**
+  -   Het veld **Niveau** op het tabblad **Compensatie**
+- Op de pagina **Posities**: de velden **Afdeling** en **Compensatieregio**
+- Op de pagina <strong>Werknemers</strong>: de gegevens over vakbonden die zijn gekoppeld aan de werknemer onder <strong>Persoonlijke gegevens</strong> &gt; <strong>Vakbonden</strong> op het tabblad *<strong><em>Werknemer</em></strong>*
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Inschrijving voor het variabelecompensatieplan inschakelen
 

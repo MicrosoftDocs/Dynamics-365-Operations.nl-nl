@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Salaris op basis van registraties
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt gedetailleerd uitgelegd hoe salaris wordt berekend op basis van medewerkerregistraties. U vindt hier voorbeelden die laten zien hoe de verschillende combinaties van beschikbare instellingsopties voor de berekening het resultaat beïnvloeden. Hier volgen enkele van de onderwerpen die aan bod komen:
 
@@ -446,7 +446,7 @@ U kunt gepland verzuim maken voor medewerkers op de pagina **Gepland verzuim mak
 De taak is gebaseerd op een query. Daarom kunt u gepland verzuim maken voor meerdere medewerkers, zoals medewerkers die tot dezelfde berekening behoren. Als het geplande verzuim voor één medewerker is, kan de registratie worden ingevoerd vanaf de pagina **Aanwezigheid** of **Tijdregistratiemedewerkers**.
 
 - Als u een verzuim wilt registreren via de pagina **Aanwezigheid**, selecteert u **Tijd en aanwezigheid** &gt; **Query's en rapporten** &gt; **Aanwezigheid** &gt; **Aanwezigheid** en **Verzuimregistratie**.
-- Als u een verzuim wilt registreren via de pagina ***Tijdregistratiemedewerkers***, selecteert u **Tijd en aanwezigheid** &gt; **Instellingen** &gt; **Tijdregistratiemedewerkers** en selecteert u op het tabblad **Tijd** onder **Tijdtoewijzing** de optie **Verzuimregistraties**.
+- Als u een verzuim wilt registreren via de pagina *<strong><em>Tijdregistratiemedewerkers</em></strong>*, selecteert u <strong>Tijd en aanwezigheid</strong> &gt; <strong>Instellingen</strong> &gt; <strong>Tijdregistratiemedewerkers</strong> en selecteert u op het tabblad <strong>Tijd</strong> onder <strong>Tijdtoewijzing</strong> de optie <strong>Verzuimregistraties</strong>.
 
 U kunt het rapport **Gepland verzuim** gebruiken om een overzicht van gepland verzuim voor medewerkers te bekijken. U kunt dit rapport openen door achtereenvolgens **Tijd en aanwezigheid** &gt; **Query's en rapporten** &gt; **Verzuimrapporten** &gt; **Gepland verzuim** te selecteren.
 

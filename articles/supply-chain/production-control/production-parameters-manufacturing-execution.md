@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 468227e40165fa37e9ce80d5f52ded8e9094e5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Productieparameters in Productieregistratie
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u informatie over het instellen van productieparameters in Productieregistratie.
 
@@ -69,17 +69,17 @@ Voor elke fase kunt u in het veld **Automatisch stuklijstverbruik** kiezen uit d
 
 - **Backflushing**: Deze optie wordt gebruikt in combinatie met een optie die is gedefinieerd in de stuklijst in de module **Productie**. Klik op **Productiecontrole** &gt; **Algemeen** &gt; **Productieorders** &gt; **Alle productieorders**. Selecteer op de pagina **Alle productieorders** een productieorder in de lijst en klik vervolgens in het actievenster op **Stuklijst**. Selecteer op de pagina **Stuklijst**, op het tabblad **Instellingen** in het veld **Backflushing** een van de volgende opties:
 
-    - **Beginnen**
-    - **Voltooien**
-    - **Handmatig**
-    - Leeg (geen optie geselecteerd)
-    - **Beschikbaar op locatie**
+  - **Beginnen**
+  - **Voltooien**
+  - **Handmatig**
+  - Leeg (geen optie geselecteerd)
+  - **Beschikbaar op locatie**
 
     Als in Productieregistratie **Backflushing** is geselecteerd in het veld **Automatisch stuklijstverbruik** op het tabblad **Starten**, worden alle materialen die in de stuklijst zijn ingesteld op **Starten**, afgetrokken van de voorraad wanneer de bewerking wordt gestart. De optie **Beschikbaar op locatie** wordt gebruikt voor producten die beschikbaar zijn voor geavanceerde magazijnprocessen. Als u deze vorm van backflushing instelt, wordt materiaal gewist wanneer magazijnwerk voor grondstofverzameling wordt voltooid. Materiaal wordt ook gewist wanneer een stuklijstregel, die dit wisprincipe gebruikt, wordt vrijgegeven voor het magazijn en het materiaal beschikbaar is op de productie-invoerlocatie.
-    
+
     > [!NOTE]
     > Als het veld **Backflushing** is ingesteld op het tabblad **Beginnen** in Productieregistratie, moet u dezelfde methode selecteren op het tabblad **Bewerkingen** of op het tabblad **Gereedmelden**. Deze vereiste helpt garanderen dat materialen worden afgetrokken van de voorraad op de stuklijsten die **Voltooien** gebruiken voor backflushing op de productieorder. Als hetzelfde wisprincipe niet wordt geselecteerd op het tabblad **Bewerkingen** of het tabblad **Gereedmelden**, kunnen materialen twee keer worden afgetrokken van de voorraad.
- 
+
 - **Altijd**: Als u deze optie selecteert voor een fase, worden materialen altijd van de voorraad afgetrokken in die fase. Materialen voor de productie worden bijvoorbeeld van de voorraad afgetrokken, wanneer de productieorder wordt gestart. Deze instelling vereist dat **Nooit** is geselecteerd op de tabbladen **Bewerkingen** en **Gereedmelden**. Dit vereiste helpt voorkomen dat artikelen tweemaal van de voorraad worden afgetrokken.
 - **Nooit**: Als u deze optie selecteert voor een fase, vindt geen stuklijstverbruik plaats in die fase. Als de optie **Nooit** bijvoorbeeld is geselecteerd op alle drie de tabbladen **Beginnen**, **Bewerkingen** en **Gereedmelden**, moeten materialen handmatig van de voorraad worden afgetrokken.
 
@@ -146,11 +146,13 @@ Orderverzamellijstjournalen worden op basis van de geselecteerde opties, die eer
 
 U kunt de volgende instellingen gebruiken, als materialen altijd handmatig moeten worden afgetrokken van de voorraad. In dit geval worden geen orderverzamellijstjournalen geboekt.
 
-| Tabblad                | Veld                          | Instelling    |
-|--------------------|--------------------------------|------------|
-| Beginnen              | Begin online bijwerken           | **Status** |
-| Beginnen              | Automatisch stuklijstverbruik      | **Nooit**  |
-| Operations         | Automatisch stuklijstverbruik      | **Nooit**  |
-| Rapporteren als gereed | Automatisch stuklijstverbruik      | **Nooit**  |
-| Rapporteren als gereed | Gereedmelding online bijwerken | **Status** |
+
+|        Tabblad         |             Veld              |         Instelling         |
+|--------------------|--------------------------------|-------------------------|
+|       Beginnen        |      Begin online bijwerken      | <strong>Status</strong> |
+|       Beginnen        |   Automatisch stuklijstverbruik    | <strong>Nooit</strong>  |
+|     Operations     |   Automatisch stuklijstverbruik    | <strong>Nooit</strong>  |
+| Rapporteren als gereed |   Automatisch stuklijstverbruik    | <strong>Nooit</strong>  |
+| Rapporteren als gereed | Gereedmelding online bijwerken | <strong>Status</strong> |
+
 

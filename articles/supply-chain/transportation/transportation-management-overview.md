@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 0ec45fcf7cebf530b3a5889a857214b97b3fffbb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-overview"></a>Overzicht van Transportbeheer
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp bevat een overzicht van de functionaliteit voor het transport in Microsoft Dynamics 365 for Finance and Operations.
 
@@ -52,12 +51,12 @@ Met Transportbeheer kunt u het transport van uw bedrijf gebruiken en kunt u teve
 <td>Transportbeheer voor binnenkomend en uitgaand transport gebruiken.</td>
 </tr>
 <tr class="even">
-<td>Het eigen wagenpark van het bedrijf is beschikbaar voor levering/ophalen en de leveringstoeslagen worden doorberekend aan de klanten.</td>
+<td>Het eigen wagenpark van het bedrijf is beschikbaar voor levering/ophalen en de leveringstoeslagen worden doorberekend aan de klanten.</td>
 <td>Voor de uitgaande processen kunt u Transportbeheer gebruiken om de transporttoeslagen te bepalen en deze door te berekenen aan klanten. Het factuurafstemmingsproces van de vervoerder is echter niet vereist.</td>
 </tr>
 <tr class="odd">
 <td>Het eigen wagenpark van het bedrijf is beschikbaar voor levering/ophalen, maar de leveringstoeslagen worden niet doorberekend aan klanten, omdat de productprijzen inclusief transport zijn.</td>
-<td>Veel van de functionaliteit Transportbeheer is niet vereist. U kunt Transportbeheer echter gebruiken om de transporttarieven te bepalen en de verkoopprijs dienovereenkomstig aan te passen.</td>
+<td>Veel van de functionaliteit Transportbeheer is niet vereist. U kunt Transportbeheer echter gebruiken om de transporttarieven te bepalen en de verkoopprijs dienovereenkomstig aan te passen.</td>
 </tr>
 <tr class="even">
 <td>De logistieke service wordt door een andere rechtspersoon in hetzelfde bedrijf verleend.</td>

@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>Structuren voor werkspecificatie
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een structuur voor werkspecificatie (WBS) is een omschrijving van de werkzaamheden die voor een project worden uitgevoerd. Dit is een hiërarchie van taken die het projectteam inzicht geeft in de samenstelling van de werkzaamheden, de grootte, kosten en de duur van elke component of taak. Een WBS heeft drie belangrijke doeleinden:
 
@@ -115,7 +115,7 @@ Planningsraming is meestal de tweede stap bij het maken van een WBS. U kunt het 
 
 De begindatum van een bladknooppunttaak zonder voorafgaande taken wordt automatisch ingesteld op de planningsbegindatum van het project. De duur van een bladknooppunttaak wordt altijd berekend als het aantal werkdagen tussen de begin- en einddatum. 
 
-****Planningsregels**** Wanneer automatische planningshulp is ingeschakeld, gelden de volgende regels voor taakplanning voor bladknooppunttaken:
+*<strong><em>Planningsregels</em></strong>* Wanneer automatische planningshulp is ingeschakeld, gelden de volgende regels voor taakplanning voor bladknooppunttaken:
 
 -   De begin- en einddatum van een taak moeten werkdagen zijn volgens de planningskalender van het project.
 -   De begindatum van een taak met voorafgaande taken wordt automatisch ingesteld op de laatste einddatum van alle voorafgaande taken.

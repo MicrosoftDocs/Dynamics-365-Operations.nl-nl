@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Artikelen en grondstoffen in voorraad, productie en verkoop traceren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft hoe u artikeltracering kunt gebruiken om te bepalen waar de artikelen of de grondstoffen zijn gebruikt, worden gebruikt, of gebruikt gaan worden in productie- en verkoopprocessen.
 
@@ -129,7 +128,7 @@ Nadat u de tracering hebt uitgevoerd, kunt u de volgende opties op de knop **Tra
 Als u in de huidige versie van Microsoft Dynamics AX de optie **Nieuw achterwaarts** of **Nieuw voorwaarts** wilt gebruiken, moet u de functie **Openen in een nieuw venster** gebruiken om een nieuwe te tracering in een nieuw venster weer te geven.
 
 ## <a name="can-i-save-the-trace-details"></a>Kan ik de traceringsdetails opslaan?
-U kunt de informatie op het tabblad **Details** opslaan als XML-bestand door te klikken op **Exporteren** in het actievenster onder de actie ****Tracering****. Naast de traceringsdetails bevat het XML-bestand de traceringscriteria, het bovenliggende knooppunt en de voorhanden hoeveelheid. Het opslaan van de details van een tracering is handig, bijvoorbeeld als u de gegevens aan een kwaliteitsorder of andere conformiteitsdocumentatie wilt koppelen. U kunt opgeven waar het bestand wordt opgeslagen. Als u het bestand meteen wilt weergeven, schakelt u het selectievakje **Document weergeven** in. **Opmerking:** Het bestand wordt altijd opgeslagen, zelfs als u het alleen wilt weergeven. Standaard opent het XML-bestand in een browservenster. U kunt echter met de rechtermuisknop op het bestand klikken, **Openen met** selecteren en vervolgens het programma selecteren om de inhoud weer te geven.
+U kunt de informatie op het tabblad <strong>Details</strong> opslaan als XML-bestand door op <strong>Exporteren</strong> in het actievenster onder de actie *<strong><em>Tracering</em></strong>* te klikken. Naast de traceringsdetails bevat het XML-bestand de traceringscriteria, het bovenliggende knooppunt en de voorhanden hoeveelheid. Het opslaan van de details van een tracering is handig, bijvoorbeeld als u de gegevens aan een kwaliteitsorder of andere conformiteitsdocumentatie wilt koppelen. U kunt opgeven waar het bestand wordt opgeslagen. Als u het bestand meteen wilt weergeven, schakelt u het selectievakje <strong>Document weergeven</strong> in. <strong>Opmerking:</strong> Het bestand wordt altijd opgeslagen, zelfs als u het alleen wilt weergeven. Standaard opent het XML-bestand in een browservenster. U kunt echter met de rechtermuisknop op het bestand klikken, <strong>Openen met</strong> selecteren en vervolgens het programma selecteren om de inhoud weer te geven.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Kan ik een saldo voor een bepaald artikel of een ingrediënt berekenen?
 U kunt de informatie van de overzichtspagina's exporteren naar Microsoft Excel. Open de relevante pagina, klik op het pictogram **Openen in Microsoft Office**, en selecteer vervolgens **Exporteren naar Microsoft Excel**. Dit is vooral nuttig wanneer u een massasaldo voor een artikel of een ingrediënt van de pagina **Overzicht van transacties** wilt berekenen. Op de pagina **Overzicht van transacties** kunt u desgewenst op het artikel of het ingrediënt en de batch filteren en vervolgens de informatie naar Excel exporteren. In Excel kunt u bijvoorbeeld de voorhanden hoeveelheid isoleren, de hoeveelheid die is verkocht, en de hoeveelheid die in productie is gebruikt.

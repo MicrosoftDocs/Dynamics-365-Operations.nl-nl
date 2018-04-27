@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 De module **Leverancierssamenwerking** is bedoeld voor leveranciers die geen EDI-integratie (Electronic Data Interchange) met Microsoft Dynamics 365 for Finance and Operations hebben. Hiermee kunnen leveranciers werken met inkooporders (IO's), facturen, consignatievoorraadgegevens en offerteaanvragen, en toegang krijgen tot delen van de modelgegevens van hun leveranciers. In dit onderwerp wordt beschreven hoe u kunt samenwerken met externe leveranciers die de interface voor leverancierssamenwerking gebruiken om met inkooporders, offerteaanvragen en consignatievoorraad te werken. Daarnaast wordt beschreven hoe u een specifieke leverancier in staat stelt om leverancierssamenwerking te gebruiken en hoe u de gegevens definieert die alle leveranciers te zien krijgen wanneer ze reageren op een inkooporder.
 
@@ -116,7 +116,7 @@ De inkooporder die naar de leverancier is verzonden en de status <strong>Externe
 <li>Vervang een item.</li>
 </ul>
 Prijsgegevens en toeslagen kunnen niet door de leverancier worden gewijzigd. De leverancier kan deze wijzigingen echter wel voorstellen met notities.</td>
-<td>Het leveranciersantwoord wordt geregistreerd als <strong>Geaccepteerd met wijzigingen</strong>, en de inkooporder behoudt de status <strong>Externe controle</strong>. De statuswaarden geven weer welke typen wijzigingen de leverancier heeft voorgesteld. Zie voor informatie over de automatische verwerking van de wijzigingen de sectie De inkooporder bijwerken wanneer een leverancier wijzigingen voorstelt verderop. </td>
+<td>Het leveranciersantwoord wordt geregistreerd als <strong>Geaccepteerd met wijzigingen</strong>, en de inkooporder behoudt de status <strong>Externe controle</strong>. De statuswaarden geven weer welke typen wijzigingen de leverancier heeft voorgesteld. Zie voor informatie over de automatische verwerking van de wijzigingen de sectie &quot;De inkooporder bijwerken wanneer een leverancier wijzigingen voorstelt&quot; verderop. </td>
 </tr>
 </tbody>
 </table>

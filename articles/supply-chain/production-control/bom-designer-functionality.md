@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bom-designer-functionality"></a>Functionaliteit van stuklijstontwikkelaar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u de pagina Stuklijstontwikkelaar kunt gebruiken om stuklijststructuren te ontwerpen en te gebruiken. U kunt op Instellingen klikken om verschillende configuraties te selecteren en te selecteren welke informatie wordt weergegeven op de regels van de structuur.
 

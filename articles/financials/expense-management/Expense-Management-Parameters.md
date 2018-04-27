@@ -17,16 +17,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 2b3a384a3b9be686b10ce1f181664b0b9bbe9969
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-management-parameters"></a>Parameters onkostenbeheer
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 -----------------------------
 
@@ -87,9 +87,10 @@ De volgende parameters bepalen de algemene werking in Onkostenbeheer.
 
 ### <a name="anti-corruption"></a>Anti-corruptie
 
-| **Veld**                             | **Omschrijving**      |
-|---------------------------------------|------------------------------------------------------------------------|
-|**Anti-corruptieattest weergeven**   | Selecteer deze optie om de anti-corruptietekst weer te geven wanneer een nieuwe onkostennota wordt gemaakt. Voor bepaalde onkostencategorieën kan vervolgens worden ingeschakeld dat het anti-corruptieattest moet worden geselecteerd in de onkostennota. Bij een geschenkencategorie voor onkosten voor een overheidsfunctionaris kan bijvoorbeeld worden geëist dat de werknemer bevestigt dat de onkosten voldoen aan het bedrijfsbeleid voor overheidsfunctionarissen. |
-|**Anti-corruptiebericht voor inzender** | Voer de tekst in die aan de werknemer wordt weergegeven wanneer een nieuwe onkostennota wordt gemaakt. Klik op de knop **Vertalingen** om de taalspecifieke tekst in te voeren die verschijnt op basis van de taal van de gebruiker.         |
-|**Anti-corruptiebericht voor fiatteur**  | Voer de tekst in die aan de fiatteur wordt weergegeven wanneer een nieuwe onkostennota wordt gemaakt. Klik op de knop **Vertalingen** om de taalspecifieke tekst in te voeren die verschijnt op basis van de taal van de gebruiker.        |
+|                 <strong>Veld</strong>                 |                                                                                                                                                                                            <strong>Beschrijving</strong>                                                                                                                                                                                             |
+|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <strong>Anti-corruptieattest weergeven</strong>  | Selecteer deze optie om de anti-corruptietekst weer te geven wanneer een nieuwe onkostennota wordt gemaakt. Voor bepaalde onkostencategorieën kan vervolgens worden ingeschakeld dat het anti-corruptieattest moet worden geselecteerd in de onkostennota. Bij een geschenkencategorie voor onkosten voor een overheidsfunctionaris kan bijvoorbeeld worden geëist dat de werknemer bevestigt dat de onkosten voldoen aan het bedrijfsbeleid voor overheidsfunctionarissen. |
+| <strong>Anti-corruptiebericht voor inzender</strong> |                                                                                             Voer de tekst in die aan de werknemer wordt weergegeven wanneer een nieuwe onkostennota wordt gemaakt. Klik op de knop <strong>Vertalingen</strong> om de taalspecifieke tekst in te voeren die verschijnt op basis van de taal van de gebruiker.                                                                                             |
+| <strong>Anti-corruptiebericht voor fiatteur</strong>  |                                                                                             Voer de tekst in die aan de fiatteur wordt weergegeven wanneer een nieuwe onkostennota wordt gemaakt. Klik op de knop <strong>Vertalingen</strong> om de taalspecifieke tekst in te voeren die verschijnt op basis van de taal van de gebruiker.                                                                                             |
+
 

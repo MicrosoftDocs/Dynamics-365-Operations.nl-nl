@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Werkbeleid magazijn
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Magazijnwerkbeleid in Microsoft Dynamics 365 for Finance and Operations bepaalt of magazijnwerk wordt aangemaakt door magazijnprocessen in productie, op basis van het werkordertype, de voorraadlocatie en het product.
 
@@ -68,14 +67,15 @@ Wanneer u een werkbeleid voor magazijnen voor dit scenario configureert, moet u 
 
 Hier is een voorbeeld van het werkbeleid dat u kunt instellen, op basis van deze overwegingen.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Werkbeleidsnaam**<br>                 |**Werkordertypen**<br>                               |
-| Niet wegzetten 01     `                    |- Eindproduct weggezet<br>                           |
-|                                         |**Locaties**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Producten** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Werkbeleidsnaam</strong><br> | <strong>Werkordertypen</strong><br> |
+|         Niet wegzetten 01     `          |     - Eindproduct weggezet<br>      |
+|                                       |    <strong>Locaties</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Producten</strong> <br>     |
+|                                       |                 - SC1                 |
 
 In de volgende procedures vindt u stapsgewijze instructies voor het instellen van het beleid voor magazijnwerk voor dit scenario. Daarnaast wordt een voorbeeld gegeven van een configuratie om te laten zien hoe u een productieorder gereedmeldt voor een locatie die niet wordt gecontroleerd op nummerplaat.
 

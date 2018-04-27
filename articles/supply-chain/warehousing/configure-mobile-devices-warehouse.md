@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f711ef739e8b885f2f09586f34775e826b619c82
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten voor magazijnwerk instellen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 
@@ -204,12 +203,12 @@ Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties i
 <thead>
 <tr class="header">
 <th>Optie</th>
-<th>Beschrijving</th>
+<th>Omschrijving</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Geen</td>
+<td>None</td>
 <td>Deze standaardwaarde verwerkt geen werk.</td>
 </tr>
 <tr class="even">
@@ -307,7 +306,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 </tr>
 <tr class="even">
 <td>Batchbeschikkingscode weergeven</td>
-<td>Selecteer deze optie als u batchbeschikkingscodes wilt weergeven. Stel, u kunt batchbeschikkingscodes weergeven wanneer u een batch geretourneerde ontvangt. Werknemers kunnen dan de status of de kwaliteit van een batch beoordelen en de gewenste code selecteren. De regels van de batchbeschikkingscode definiëren of de batch voor andere magazijnprocessen beschikbaar is. Als u deze optie niet selecteert, wordt een van de volgende batchbeschikkingscodes gebruikt:
+<td>Selecteer deze optie als u batchbeschikkingscodes wilt weergeven. Stel, u kunt batchbeschikkingscodes weergeven wanneer u een batch geretourneerde ontvangt. Werknemers kunnen dan de status of de kwaliteit van een batch beoordelen en de gewenste code selecteren. De regels van de batchbeschikkingscode definiëren of de batch voor andere magazijnprocessen beschikbaar is. Als u deze optie niet selecteert, wordt een van de volgende batchbeschikkingscodes gebruikt:
 <ul>
 <li>Als u een nieuw batchnummer ontvangt, wordt de standaardbatchbeschikkingscode die in de artikelmodelgroep is opgegeven gebruikt.</li>
 <li>De batchbeschikkingscode die al aan de batch is toegewezen wordt gebruikt.</li>

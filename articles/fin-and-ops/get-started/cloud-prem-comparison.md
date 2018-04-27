@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Vergelijking van functies tussen cloud en on-premises
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp ziet u voor elke functie of deze beschikbaar is in deze producten:
 
@@ -51,7 +51,7 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 | | Uitbreiding op configuratiebasis| Ja | Nee |
 | | Gegevens exporteren naar uw eigen datawarehouse| Ja | Ja |
 | | De export van incrementele updates naar een gegevensentiteit inschakelen | Ja | Nee |
-| | Terugkerende integraties                 |Ja | Nee|
+| | Gegevensintegraties                 |Ja | Ja|
 | Documentbeheer| | Ja| Ja |
 | Financieel beheer|  | Ja | Ja |
 | Help| | Ja | Nee |

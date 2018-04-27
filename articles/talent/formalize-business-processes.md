@@ -19,10 +19,10 @@ ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: 48f80eac5009e1a241d501b0c4a3a70b78f5d709
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1b50a97f5e2fc94255ff71702faf91ab36e68eb4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="formalize-business-processes"></a>Bedrijfsprocessen formaliseren
@@ -33,7 +33,7 @@ Nadat u een sjabloon hebt gemaakt, kunt u een proces starten en bijhouden in het
 ## <a name="business-process-template"></a>Bedrijfsprocessjabloon
 Een sjabloon voor bedrijfsprocessen bevat een groep taken die een bedrijfsproces vormen. HR-managers en assistenten kunnen standaard bedrijfsprocessen maken.  Dit kan echter worden gewijzigd in de beveiligingsconfiguratie door de functie Onderhoud algemene bedrijfsprocessen te bewerken.
 
-Voor elk proces kan de eigenaar van een proces worden gedefinieerd.  De eigenaar van het proces heeft inzicht in alle taken voor het proces en kan taken opnieuw toewijzen of vervaldatums wijzigen.  De directeur HR kan bijvoorbeeld een sjabloon voor bedrijfsprocessen maken voor een overzicht van de vergoedingen.  De manager voor compensatie en vergoedingen kan worden ingesteld als eigenaar van een proces, zodat hij of zij inzicht heeft in de taken die moeten worden voltooid als onderdeel van de controle.  De eigenaar van een proces kan niet actieve bedrijfsprocessen of sjablonen voor bedrijfsproces maken of verwijderen.
+Voor elk proces kan de eigenaar van een proces worden gedefinieerd. De eigenaar van het proces heeft inzicht in alle taken voor het proces en kan taken opnieuw toewijzen of vervaldatums wijzigen.  De directeur HR kan bijvoorbeeld een sjabloon voor bedrijfsprocessen maken voor een overzicht van de vergoedingen.  De manager voor compensatie en vergoedingen kan worden ingesteld als eigenaar van een proces, zodat hij of zij inzicht heeft in de taken die moeten worden voltooid als onderdeel van de controle.  De eigenaar van een proces kan niet actieve bedrijfsprocessen of sjablonen voor bedrijfsproces maken of verwijderen.
 
 ## <a name="task"></a>Taak
 Een bedrijfsproces bestaat meestal uit meerdere taken. Sommige taken kunnen worden uitgevoerd in Dynamics 365 for Talent, zoals het beoordelen van het interne cursusaanbod. In dit geval wordt een menu-item geselecteerd in het veld Taakkoppeling. Bij andere taken kan het gaan om het controleren of invullen van formulieren op een website. Als u de URL selecteert in het veld Taakkoppeling, kan het webadres worden ingevoerd. U kunt in dit veld URL's invoeren voor externe en interne locaties. U kunt ook taken maken voor activiteiten die u handmatig uitvoert, zoals het controleren van de toegankelijkheid van alle structuren. In dit geval is een taakkoppeling niet vereist. Dankzij deze flexibiliteit kunt u meerdere soorten taken volgen in een uitgebreid proces.
@@ -44,7 +44,8 @@ Vervaldatums van taken zijn afhankelijk van de streefdatum die aan het begin van
 
 Complexe taken vereisen mogelijk meerdere stappen of de persoon die de taken uitvoert, moet extra informatie opgeven. U kunt instructies toevoegen aan de taak en tekst met opmaak opnemen voor de instructies. De instructies kunnen aanvullende informatie bevatten voor het voltooien van de taak voor de persoon die is toegewezen om deze te voltooien.
 
-Starten van een proces U kunt een proces starten in een sjabloon voor bedrijfsprocessen door Proces starten te selecteren.  Als een proces wordt gestart, worden taken gemaakt voor de geselecteerde werknemers en/of de posities die zijn gedefinieerd in de taken die zijn opgenomen in de sjabloon Bedrijfsprocessen. Er wordt ook een vervaldatum toegewezen aan elke taak door de verschildagen op te tellen bij of af te trekken van de streefdatum (zie de informatie met betrekking tot de verschildagen in de sectie taak). De actieve bedrijfsprocessen kunnen worden weergegeven in het werkgebied Bedrijfsprocessen. 
+## <a name="starting-a-process"></a>Een proces beginnen
+U kunt een proces starten in een sjabloon voor bedrijfsprocessen door Proces starten te selecteren.  Als een proces wordt gestart, worden taken gemaakt voor de geselecteerde werknemers en/of de posities die zijn gedefinieerd in de taken die zijn opgenomen in de sjabloon Bedrijfsprocessen. Er wordt ook een vervaldatum toegewezen aan elke taak door de verschildagen op te tellen bij of af te trekken van de streefdatum (zie de informatie met betrekking tot de verschildagen in de sectie taak). De actieve bedrijfsprocessen kunnen worden weergegeven in het werkgebied Bedrijfsprocessen. 
 
 ## <a name="employee-self-service"></a>Selfservice werknemer
 Wanneer een taak wordt toegewezen aan een werknemer, kunnen de toegewezen taken worden bekeken op de selfservicepagina van de werknemer. Werknemers aan wie een bedrijfsprocestaak is toegewezen, zien de taak, de beschrijving, instructies voor het voltooien en de naam van een contactpersoon, Ze kunnen de bijbehorende Dynamics 365-pagina of webpagina openen vanuit selfserviceportal voor werknemers. Taken kunnen worden gemarkeerd als in uitvoering, geannuleerd of voltooid.
@@ -56,9 +57,9 @@ HR-professionals kunnen de actieve bedrijfsprocessen weergeven in het werkgebied
 Eigenaren kunnen de actieve bedrijfsprocessen die aan hen zijn toegewezen, weergeven via het werkgebied Mijn bedrijfsprocessen. In het werkgebied worden alle actieve processen en bijbehorende taken vermeld waarvan de gebruiker eigenaar is.  De uitgebreide takenlijst kan worden gefilterd op vervaldatum. De pagina bevat ook taken die specifiek zijn toegewezen aan de proceseigenaar. De proceseigenaar kan de status van alle taken bijwerken en taken opnieuw toewijzen.
 
 ## <a name="navigating-business-processes"></a>Navigeren in bedrijfsprocessen
-1.   Als u een sjabloon voor bedrijfsprocessen wilt toevoegen, gaat u naar Bedrijfsprocessen - koppelingen - Beheer van bedrijfsprocessen.
- - a.   Met Nieuw maakt u een nieuwe sjabloon.
- - b.   Met Kopiëren uit sjabloon wordt de geselecteerde sjabloon gekopieerd naar een nieuwe.
- - c.   Met Proces starten wordt het geselecteerde bedrijfsproces gestart, taken toegewezen en vervaldatums berekend.  
-2.  Als u actieve processen en bijbehorende taken wilt weergeven, navigeert u naar het werkgebied Bedrijfsprocessen.
+1. Als u een sjabloon voor bedrijfsprocessen wilt toevoegen, gaat u naar Bedrijfsprocessen - koppelingen - Beheer van bedrijfsprocessen.
+   - a.   Met Nieuw maakt u een nieuwe sjabloon.
+   - b.   Met Kopiëren uit sjabloon wordt de geselecteerde sjabloon gekopieerd naar een nieuwe.
+   - c.   Met Proces starten wordt het geselecteerde bedrijfsproces gestart, taken toegewezen en vervaldatums berekend.  
+2. Als u actieve processen en bijbehorende taken wilt weergeven, navigeert u naar het werkgebied Bedrijfsprocessen.
 

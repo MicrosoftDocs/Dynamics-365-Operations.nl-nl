@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent inrichten
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit onderwerp wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 for Talent geleid. In dit onderwerp wordt ervan uitgegaan dat u Talent hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Talent-serviceabonnement al is opgenomen en u de stappen in dit onderwerp niet kunt voltooien, neemt u contact op met de ondersteuning.
 
@@ -79,12 +79,12 @@ Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Ta
  
     **CDS 2.0-omgevingen** CDS 2.0 is beschikbaar vanaf 21 maart 2018. Maar Talent ondersteunt CDS 2.0 nog niet. Hoewel u CDS 2.0-databases wel kunt bekijken en maken in het PowerApps-beheercentrum, kunnen ze niet meer worden gebruikt in Talent. De optie om CDS 2.0-omgevingen te gebruiken in Talent-implementaties, zal op een later tijdstip beschikbaar zijn.
    
- > [!Note]
- > Als u het verschil wilt zien tussen CDS 1.0- en 2.0-omgevingen in de beheerportal, selecteert u een omgeving en kijkt u naar **Details**. Voor CDS 2.0-omgevingen geldt 'U kunt deze instellingen beheren in het Dynamics 365-beheercentrum', dat ze verwijzen naar een instantieversie en geen tabblad Database hebben. 
+   > [!Note]
+   > Als u het verschil wilt zien tussen CDS 1.0- en 2.0-omgevingen in de beheerportal, selecteert u een omgeving en kijkt u naar **Details**. Voor CDS 2.0-omgevingen geldt 'U kunt deze instellingen beheren in het Dynamics 365-beheercentrum', dat ze verwijzen naar een instantieversie en geen tabblad Database hebben. 
  
    **Standaard PowerApps-omgevingen** Hoewel elke tenant automatisch een standaard PowerApps-omgeving heeft, wordt gebruik niet aanbevolen met Talent omdat alle tenantgebruikers toegang hebben tot de PowerApps-omgeving. Ze kunnen bij het testen en verkennen van de PowerApps- of Flow-integraties per ongeluk productiegegevens beschadigen.
    
-   **TestDrive-omgevingen** Omgevingen met een naam als 'TestDrive: alias@domain' worden gemaakt met een vervalperiode van 60 dagen en verlopen na die tijd, waardoor de omgeving automatisch wordt verwijderd.
+   <strong>TestDrive-omgevingen</strong> Omgevingen met een naam als 'TestDrive: alias@domain' worden gemaakt met een vervalperiode van 60 dagen en verlopen na die tijd, waardoor de omgeving automatisch wordt verwijderd.
    
    **Niet-ondersteunde regio's** Momenteel wordt Talent alleen ondersteund in de volgende gebieden: Verenigde Staten, Europa en Australië.
   
@@ -115,7 +115,7 @@ Voer de volgende instructies uit voor het script:
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   **EnvironmentName** moet worden vervangen door de naam van uw omgeving. Deze naam wordt weergegeven in LCS en is zichtbaar als gebruikers selecteren welke Talent-omgeving ze willen gebruiken. 
+   **MyNewEnvironment** moet worden vervangen door de naam van uw omgeving. Deze naam wordt weergegeven in LCS en is zichtbaar als gebruikers selecteren welke Talent-omgeving ze willen gebruiken. 
 
    **YourLocation** moet worden vervangen door een van de ondersteunde regio's voor Talent: unitedsates, europe, australia. 
 

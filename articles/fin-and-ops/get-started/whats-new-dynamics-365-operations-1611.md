@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09addfd9e4a5c601970b5c8c24a3d39b041e07e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Wat is nieuw of gewijzigd in Dynamics 365 for Operations, versie 1611 (november 2016 )
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 for Operations, versie 1611.
 
@@ -113,6 +112,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 </table>
 
 ## <a name="expense-management"></a>Onkostenbeheer
+
 | Wat u kunt doen                                                            | Waarom dit belangrijk is                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Creditcardtransacties van vertrokken werknemers opnieuw toewijzen.                     | Soms is de Active Directory Domain Services-account van een vertrokken werknemer al uitgeschakeld, maar worden er nog actieve creditcardtransacties geïmporteerd die moeten worden opgevoerd. Voorheen kon u geen gemachtigde voor onkosteninvoer toewijzen of de creditcardtransacties koppelen aan een onkostennota. Met de pagina **Creditcardtransacties** kunt u nu de werknemer voor een creditcardtransactie opnieuw toewijzen, als de oorspronkelijke werknemer niet meer bij het bedrijf werkt. Nadat u de creditcardtransactie opnieuw hebt toegewezen, kan de transactie voor een onkostennota worden geselecteerd en betaald via het normale proces voor terugbetaling van onkosten. |
@@ -225,6 +225,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 </table>
 
 ## <a name="human-capital-management"></a>Human Capital-beheer
+
 | Wat u kunt doen                                                                                | Waarom dit belangrijk is                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Een prestatiejournaal maken.                                                                  | Voordat u uw beoordeling afrondt, verzamelt u vaak informatie over activiteiten of gebeurtenissen die hebben bijgedragen aan uw succes als werknemer tijdens de beoordelingsperiode. U kunt een regel aan uw prestatiejournaal toevoegen om die activiteiten en gebeurtenissen te documenteren. U kunt deze activiteiten en gebeurtenissen ook aan een doelstelling of een prestatiebeoordeling koppelen, zodat de beoordelaar meer informatie tot zijn beschikking heeft.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -579,6 +580,7 @@ De volgende landen vereisen ook de lokalisatie voor Retail. De Retail-lokalisati
 </table>
 
 ## <a name="planning-and-scheduling"></a>Plannen en planning
+
 | Wat u kunt doen                                                                                                                                                                                                      | Waarom dit belangrijk is                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De standaardorderinstellingen voor in- en verkopen configureren, op basis van alle actieve productdimensies van het productmodel. U kunt standaardorderinstellingen definiéren voor de voorraadeenheid (SKU) of een gedeeltelijke SKU. | U kunt standaardorderinstellingen opgeven die gelden voor één productdimensie of voor een combinatie van productdimensies. **Voorbeeld** U verkoopt een product dat Polo-t-shirt wordt genoemd. Dit product is beschikbaar in twee kleuren: groen en blauw. Het is ook beschikbaar in twee maten: Small en Medium. Kleur en maat zijn actieve productdimensies voor Polo-t-shirt. U kunt de inkoop van alle groene polo-shirts blokkeren, ongeacht van welke maat. |
@@ -624,6 +626,7 @@ De volgende landen vereisen ook de lokalisatie voor Retail. De Retail-lokalisati
 </table>
 
 ## <a name="project-management-and-accounting"></a>Projectbeheer en boekhouding
+
 | Wat u kunt doen                                                                                                           | Waarom dit belangrijk is                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De optie 'Later selecteren' wanneer u factuurvoorstellen batchgewijs boekt.                                                            | Projectaccountants kunnen een batchtaak instellen, waarmee automatisch factuurvoorstellen worden opgepakt om te boeken, als deze voldoen aan criteria die in de batchtaak zijn opgegeven. Deze functie verbetert het automatisch boeken van facturen, omdat de batchtaak doorlopend kan worden uitgevoerd en automatisch voorstellen oppakt om te boeken. |

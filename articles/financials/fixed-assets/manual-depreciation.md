@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Handmatige afschrijving
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt een overzicht van de methode voor handmatige afschrijving.
 
@@ -67,7 +66,7 @@ Als u **Maandelijks** selecteert in het veld **Periodefrequentie**, moet u 12 ha
 | januari  | (11.000 – 1.000) × 10% = 1.000 |
 | februari | (11.000 – 1.000) × 50% = 5.000 |
 
-Als u **Zesmaandelijks** selecteert in het veld **Periodefrequentie**, stelt u twee handmatige planningsintervallen in. In de volgende tabel ziet u de afschrijvingsbedragen voor deze twee intervallen.
+Als u <strong>Zesmaandelijks</strong> selecteert in het veld *<strong><em>Periodefrequentie</em>*</strong>, stelt u twee handmatige planningsintervallen in. In de volgende tabel ziet u de afschrijvingsbedragen voor deze twee intervallen.
 
 | Interval    | Afschrijvingsbedrag            |
 |-------------|--------------------------------|

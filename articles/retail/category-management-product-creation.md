@@ -20,44 +20,43 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 4b7ef962b777a31e1da238a8ec1be9a42ec5bb5f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2246024d7d70947690173f3d0768292abe43efd7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
+# <a name="manage-retail-product-categories-and-products"></a>Productcategorieën en producten detailhandel beheren
 
-# <a name="enhanced-product-and-category-management"></a>Verbeterd categorie- en productbeheer
+[!INCLUDE [banner](./includes/banner.md)]
 
-[!include[banner](./includes/banner.md)]
+In dit onderwerp wordt een verbeterde manier beschreven om de detailhandelproductcategorieën en producten te beheren in Microsoft Dynamics 365 for Retail. Dankzij deze verbeteringen kunnen merchandisingmanagers een overzicht met producteigenschappen weergeven die worden gedeeld tussen de detailhandelproducthiërarchie en details van vrijgegeven producten.
 
-In dit onderwerp wordt een verbeterde manier beschreven om de detailhandelproductcategorieën en producten te beheren in Dynamics 365 for Retail. Dankzij deze verbeteringen kunnen merchandisingmanagers een algemeen overzicht met producteigenschappen weergeven tussen de detailhandelproducthiërarchie en details van vrijgegeven producten.
+Voor meer informatie over het beheren van Retail-productcategorieën selecteert u in het werkgebied **Categorie- en productbeheer** de tegel **Producthiërarchie detailhandel**.
 
-Voor meer informatie over het beheren van detailhandelproductcategorieën gaat u naar **Producthiërarchie detailhandel** in het werkgebied **Categorie- en productbeheer** en geeft u de verbeterde structuur van de pagina **Productcategorie detailhandel** weer.
+U ziet de verbeterde structuur van de pagina **Producthiërarchie detailhandel**. In eerdere versies van Retail waren producteigenschappen onderverdeeld in *basisproducteigenschappen* en *detailhandelproducteigenschappen*, op basis van het bereik van hun toepassing. Eigenschappen van detailhandelproducten zijn *globaal* in hun toepassingsbereik. Dit betekent dat voor een bepaalde producteigenschap dezelfde waarde wordt gedeeld door alle rechtspersonen. Basisproducteigenschappen daarentegen zijn *specifieke eigenschappen voor rechtspersonen*. De waarde van een bepaalde basisproducteigenschap kan dus verschillen tussen rechtspersonen, op basis van individuele zakelijke behoeften van elke rechtspersoon.
 
-![Werkgebied categorie- en productbeheer](media/LaunchRetailProductHierarchy.png)
+Met de verbeterde opzet voor producteigenschappen in de detailhandel blijven producteigenschappen logisch gescheiden, op basis van hun toepassing in een groep, om de formulierstructuur voor details van vrijgegeven producten te weerspiegelen.
 
-In eerdere versies waren producteigenschappen onderverdeeld in **basisproducteigenschappen** en **detailhandelproducteigenschappen**, op basis van het bereik van hun toepassing. **Detailhandelproducteigenschappen** zijn *algemeen* voor het toepassingsbereik, wat inhoudt dat voor een bepaalde **detailhandelproducteigenschap** dezelfde waarde wordt gedeeld door alle rechtspersonen. **Basisproducteigenschappen** zijn *specifieke eigenschappen voor rechtspersonen*. De waarde van een bepaalde **basisproducteigenschap** kan dus verschillen tussen rechtspersonen, op basis van individuele zakelijke behoeften.
+![Groepering van de velden op basis van het toepassingsbereik van de eigenschappen](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
-Met de verbeterde opzet voor producteigenschappen in de detailhandel blijven producteigenschappen logisch gescheiden, op basis van hun toepassing binnen een groep, om de formulierstructuur voor details van vrijgegeven producten te weerspiegelen.
+U kunt schakelen tussen het beheren van specifieke eigenschappen voor rechtspersonen voor alle rechtspersonen en het beheren van deze eigenschappen voor een specifieke rechtspersoon.
 
-![Groepering van de velden op basis van hun toepassingsbereik](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+Als u eigenschappen wilt beheren voor alle rechtspersonen, selecteert u **Weergeven voor alle rechtspersonen** (of **Bewerken voor alle rechtspersonen**).
 
-U kunt schakelen tussen het beheren van specifieke eigenschappen voor rechtspersonen voor alle rechtspersonen en het beheren van deze eigenschappen voor een specifieke rechtspersoon. Selecteer hiervoor **Weergeven/bewerken voor alle rechtspersonen** of **Weergeven/bewerken voor een specifieke rechtspersoon**.
+![Weergeven/bewerken voor alle rechtspersonen](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
-![Schakelen tussen één persoon en alle rechtspersonen](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+Als u eigenschappen wilt beheren voor een specifieke rechtspersoon, selecteert u **Weergeven voor een specifieke rechtspersoon** (of **Bewerken voor een specifieke rechtspersoon**).
 
-![Schakelen tussen één persoon en alle rechtspersonen](media/ToggleToEditForAllLegalEntities.PNG)  
+![Weergeven/bewerken voor een specifieke rechtspersoon](media/ToggleToEditForAllLegalEntities.PNG)
 
-Ten opzichte van vorige versies kan een merchandisingmanager in de nieuwe productstructuur voor detailhandelproducten ook standaardwaarden definiëren voor een aanvullende reeks producteigenschappen op het niveau van een individuele categorie. Bij het maken van producten worden deze standaardwaarden voor producteigenschappen overgenomen door een product, op basis van de koppeling met een individuele categorie uit de hiërarchie voor detailhandelproducten. Deze overgenomen producteigenschappen kunnen ook worden aangepast voor elk product om te voldoen aan individuele zakelijke behoeften.
+In de verbeterde productstructuur voor detailhandelproducten kan een merchandisingmanager nu ook standaardwaarden definiëren voor een aanvullende reeks producteigenschappen op het niveau van een individuele categorie. Wanneer de producten worden gemaakt, nemen ze deze standaardwaarden voor producteigenschappen over, op basis van de koppeling van deze eigenschappen met een individuele categorie uit de hiërarchie voor detailhandelproducten. Deze overgenomen producteigenschappen kunnen ook worden aangepast voor elk product om te voldoen aan individuele zakelijke behoeften.
 
-## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Eigenschappen selecteren om producten uit het formulier Productcategorie van detailhandel bij te werken 
- 
-Gebruik de nieuwe uitgebreide structuur voor producteigenschappen om te selecteren welke producteigenschappen moeten worden verplaatst naar de bijbehorende producten. 
+## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>Eigenschappen selecteren om producten uit de pagina Productcategorie van detailhandel bij te werken
 
-![Nieuwe uitgebreide weergave van Producten bijwerken](media/NewUpdateProductsEnhancedView.PNG) 
+Gebruik de nieuwe uitgebreide structuur voor producteigenschappen om te selecteren welke producteigenschappen moeten worden verplaatst naar de bijbehorende producten. Op de pagina **Producthiërarchie detailhandel** selecteert u in het actievenster **Categorie** en vervolgens **Producten bijwerken** om het dialoogvenster **Producten bijwerken** te openen.
 
-Merchandisingmanagers kunnen deze overgenomen producteigenschappen voor elk product overnemen om te voldoen aan individuele zakelijke behoeften.
+![Het dialoogvenster Producten bijwerken](media/NewUpdateProductsEnhancedView.PNG)
 
 

@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Aanvulling
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer. De informatie in dit onderwerp is niet van toepassing op de magazijnoplossing die in Voorraadbeheer beschikbaar is.
 
@@ -67,13 +67,15 @@ Bij Vraag voor aanvulling laden wordt de vraag voor verschillende ladingen opget
 In plaats van het totaal van de vraag aan het einde van een toewijzingsproces te bepalen en aan te vullen op basis van de getotaliseerde hoeveelheid, kunt u de strategie Directe aanvulling toepassen. Wanneer u deze strategie gebruikt, kan de voorraad worden aangevuld zodra een locatie-instructieregel mislukt. U kunt de aanvulling dus zo instellen dat deze wordt beperkt door bepaalde eenheden en dat wordt gebruikgemaakt van hoeveelheden die zijn ingesteld voor specifieke locaties.
 
 ## <a name="replenishment-prerequisites"></a>Vereisten voor aanvulling
-| Vereiste            | Omschrijving |
-|-------------------------|-------------|
-| Artikel                    | Het artikel moet ingeschakeld zijn voor magazijnbeheer processen |
-| Magazijn               | Het magazijn moet ingeschakeld zijn voor magazijnbeheer processen. Om een magazijn in te schakelen voor magazijnbeheerprocessen, selecteert u het magazijn op de pagina **Magazijnen** en selecteert u vervolgens de optie **Magazijnbeheerprocessen gebruiken**. |
-| Aanvullingssjablonen | Er moet ten minste één aanvullingssjabloon worden ingesteld voor Min/Max aanvulling, Aanvulling voor wave-vraag of Vraag voor aanvulling laden. |
-| Locaties               | Locaties worden gemaakt en verbonden met een locatieprofiel. |
-| Locatieprofielen       | Locatieprofielen zijn vereist om locaties te maken. |
-| Instructielocatie     | Locatie-instructies zijn vereist om het werk naar de locaties te leiden waar de aanvulling vereist is en naar de locaties waaruit voorraad afkomstig is. |
-| Werksjablonen          | Werksjablonen van het type **Aanvulling** zijn vereist voor het maken van aanvullingswerk zodat de voorraad kan worden verplaatst naar de gewenste locaties. |
+
+|      Vereiste       |                                                                                                                                Omschrijving                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Artikel           |                                                                                                        Het artikel moet ingeschakeld zijn voor magazijnbeheer processen                                                                                                        |
+|        Magazijn        | Het magazijn moet ingeschakeld zijn voor magazijnbeheer processen. Om een magazijn in te schakelen voor magazijnbeheerprocessen, selecteert u het magazijn op de pagina <strong>Magazijnen</strong> en selecteert u vervolgens de optie <strong>Magazijnbeheerprocessen gebruiken</strong>. |
+| Aanvullingssjablonen |                                                                   Er moet ten minste één aanvullingssjabloon worden ingesteld voor Min/Max aanvulling, Aanvulling voor wave-vraag of Vraag voor aanvulling laden.                                                                   |
+|        Locaties        |                                                                                                       Locaties worden gemaakt en verbonden met een locatieprofiel.                                                                                                       |
+|    Locatieprofielen    |                                                                                                        Locatieprofielen zijn vereist om locaties te maken.                                                                                                        |
+|   Instructielocatie   |                                                       Locatie-instructies zijn vereist om het werk naar de locaties te leiden waar de aanvulling vereist is en naar de locaties waaruit voorraad afkomstig is.                                                        |
+|     Werksjablonen      |                                                   Werksjablonen van het type <strong>Aanvulling</strong> zijn vereist voor het maken van aanvullingswerk zodat de voorraad kan worden verplaatst naar de gewenste locaties.                                                    |
+
 

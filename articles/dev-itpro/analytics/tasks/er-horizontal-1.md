@@ -1,5 +1,5 @@
 --- 
-title: Een indeling ontwerpen voor het gebruik van horizontaal uitvouwbare bereiken voor het dynamisch toevoegen van kolommen in Excel-rapporten voor elektronische aangifte (ER)
+title: Een indeling ontwerpen voor het gebruik van horizontaal uitvouwbare bereiken voor het dynamisch toevoegen van kolommen in Excel-rapporten
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker die aan de rol van systeembeheerder of ontwikkelaar elektronische rapportage is toegewezen, een elektronische rapportindeling (ER) kan configureren om rapporten als OPENXML-werkbladen (Excel-bestanden) te genereren waarin de vereiste kolommen dynamisch kunnen worden gemaakt als horizontaal uitvouwbare bereiken.
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
-ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9c3cf17cd406a50a9f92e78991289f9139d7c73
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Een indeling ontwerpen voor het gebruik van horizontaal uitvouwbare bereiken voor het dynamisch toevoegen van kolommen in Excel-rapporten voor elektronische aangifte (ER)
+# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Een indeling ontwerpen voor het gebruik van horizontaal uitvouwbare bereiken voor het dynamisch toevoegen van kolommen in Excel-rapporten
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker die aan de rol van systeembeheerder of ontwikkelaar elektronische rapportage is toegewezen, een elektronische rapportindeling (ER) kan configureren om rapporten als OPENXML-werkbladen (Excel-bestanden) te genereren waarin de vereiste kolommen dynamisch kunnen worden gemaakt als horizontaal uitvouwbare bereiken. Deze stappen kunnen in elk bedrijf worden uitgevoerd.
 
@@ -36,7 +36,7 @@ Voordat u deze stappen uitvoert, moet u eerst deze taakbegeleiders uitvoeren:
 
 'ER Financiële dimensies gebruiken als gegevensbron (Deel 2: modeltoewijzing)'
 
-U moet ook een lokale kopie van de sjabloon met een hier gevonden voorbeeldrapport downloaden en opslaan: [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
+U moet ook een lokale kopie van de sjabloon downloaden en opslaan met een voorbeeldrapport dat u hier vindt, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
 
 
 Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.

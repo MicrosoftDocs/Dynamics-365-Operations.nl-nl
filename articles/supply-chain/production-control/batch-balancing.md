@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>Batchverdeling
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+In dit onderwerp wordt beschreven hoe het proces voor batchverdeling wordt ondersteund. 
 
-In dit onderwerp wordt beschreven hoe het proces voor batchverdeling wordt ondersteund.
+Bekijk een [video over batchverdeling in Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 In het batchverdelingsproces wordt de hoeveelheid ingrediënten die wordt gebruikt in een productiebatch berekend op basis van de concentratie van de actieve ingrediënten in geselecteerde productbatches.
 
@@ -179,7 +180,7 @@ Nadat de ingrediënthoeveelheden zijn berekend, kunt u bevestigen en de formule 
 
 -   Als een product voor de magazijnbeheerprocessen is ingeschakeld, wordt de formuleregel vrijgegeven aan het magazijn volgens de principes voor de magazijnbeheerprocessen. De formuleregel wordt vrijgegeven in hoeveelheden die overeenkomen met de verdeelde hoeveelheden en voor de specifieke batches die zijn geselecteerd voor de actieve ingrediënten.
 
->   [!NOTE]
+> [!NOTE]
 >   Formuleregels kunnen alleen worden vrijgegeven aan het magazijn als onderdeel van het batchverdelingsproces. Hoewel er andere opties voor het vrijgeven van materialen voor productie aan het magazijn zijn, kunnen deze opties niet worden gebruikt voor formuleregels.
 
 -   Als een product niet is ingeschakeld voor de magazijnbeheerprocessen, wordt een orderverzamellijst voor de productie gemaakt voor het product wanneer u de formule bevestigt en vrijgeeft.

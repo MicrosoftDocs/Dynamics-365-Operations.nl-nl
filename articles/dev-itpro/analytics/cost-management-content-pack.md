@@ -3,11 +3,12 @@ title: Power BI-inhoud voor kostenbeheer
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/02/2018
+ms.date: 03/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -19,124 +20,195 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: 6739d769c3f7876f67d80554743458b0abd5aae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-management-power-bi-content"></a>Power BI-inhoud voor kostenbeheer
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
+## <a name="overview"></a>Overzicht
+
+De Microsoft Power BI-inhoud van **Kostenbeheer** is bedoeld voor voorraadboekhouders of personen in de organisatie die verantwoordelijk zijn voor of belang hebben bij de status van de voorraad of onderhanden werk (OHW), of die verantwoordelijk zijn voor of belang hebben bij het analyseren van afwijkingen voor standaardkosten.
 
 > [!Note]
-> Dit inhoudpakket is verouderd, zoals beschreven in [Power BI-inhoudpakketten gepubliceerd naar PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> De Power BI-inhoud voor **Kostenbeheer** die wordt beschreven in dit onderwerp, geldt voor Dynamics 365 voor Finance and Operations 8.0.
+> 
+> Het Power BI-inhoudpakket voor **Kostenbeheer** dat is gepubliceerd op de site PowerBI.com, is afgeschaft. Zie voor meer informatie hierover [Power BI-inhoudpakketten gepubliceerd op PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
 
 
-In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor kostenbeheer. 
+Deze Power BI-inhoud biedt een gecategoriseerde indeling waarmee u de prestaties van voorraden kunt controleren en kunt visualiseren hoe kostenstromen verlopen. U vindt de beheerinzichten zoals omloopsnelheid, aantal dagen dat de voorraad voorhanden is, nauwkeurigheid en 'ABC-classificatie' op het gewenste totalliseringsniveau (bedrijf, artikel, artikelgroep of locatie). De beschikbare informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
 
-De Microsoft Power BI-inhoud voor **Kostenbeheer** is bedoeld voor accountants van de voorraad of personen in de organisatie die verantwoordelijk zijn voor de voorraad. De Power BI-inhoud voor **Kostenbeheer** biedt het management inzicht in de voorraad en OHW-voorraad (onderhanden werk) en hoe de voortgang van de kosten hierin per categorie in de loop van de tijd verloopt. De informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
+De Power BI-inhoud is gebaseerd op de samengevoegde meting **CostObjectStatementCacheMonthly**, waarvoor de tabel **CostObjectStatementCache** de primaire gegevensbron is. Deze tabel wordt beheerd door het raamwerk van de gegevenssetcache. De tabel wordt elke 24 uur standaard bijgewerkt, maar u kunt de updatefrequentie wijzigen of handmatige updates inschakelen in de configuratie van de gegevenssetcache. Handmatige updates kunnen worden uitgevoerd in het werkgebied **Kostenadministratie** of **Kostenanalyse**.
 
-## <a name="key-measures"></a>Belangrijke metingen
+Na elke update van de tabel **CostObjectStatementCache**, moet de samengevoegde meting **CostObjectStatementCacheMonthly** worden bijgewerkt voordat de gegevens in de Power BI-visualisaties worden bijgewerkt.
 
-+ Beginsaldo
-+ Eindsaldo
-+ Nettowijziging
-+ Nettowijziging in %
-+ Ouderdomsrangschikking
+## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
 
-## <a name="key-performance-indicators"></a>Key Performance Indicators
-+ Voorraadomloopsnelheid
-+ Voorraadnauwkeurigheid
+De Power BI-inhoud voor **Kostenbeheer** wordt weergegeven in de werkgebieden **Kostenadministratie** en **Kostenanalyse**.
 
-De primaire gegevensbron voor CostAggregatedCostStatementEntryEntity is de tabel CostStatementCache. Deze tabel wordt beheerd door het raamwerk van de gegevenssetcache. De tabel wordt elke 24 uur standaard bijgewerkt, maar u kunt handmatige updates inschakelen in de gegevenscacheconfiguratie. Vervolgens kunt u een handmatige update in het werkgebied **Kostenbeheer** of **Kostenanalyse** uitvoeren. Nadat de update van CostStatementCache is uitgevoerd, kunt u de OData-verbinding op PowerBI.com bijwerken om bijgewerkte gegevens op de site te bekijken. De afwijkingsmetingen (inkoop, productie) in deze Power BI-inhoud hebben alleen betrekking op artikelen die door de standaardkostenvoorraadmethode worden gewaardeerd. Productieafwijking wordt berekend als het verschil tussen actieve kosten en gerealiseerde kosten. De afwijking van de productie wordt berekend wanneer de productieorder de status **Beëindigd** heeft. Zie voor meer informatie over de typen productieafwijking en de berekening van elk type [Info over het analyseren van afwijkingen voor een voltooide productieorder](https://technet.microsoft.com/en-us/library/gg242850.aspx).
+Het werkgebied **Kostenadministratie** bevat de volgende tabbladen:
+
+- **Overzicht**: hier worden toepassingsgegevens weergegeven.
+- **Status voorraadboekhouding**: dit tabblad geeft de Power BI-inhoud weer.
+- **Status productieboekhouding**: dit tabblad geeft de Power BI-inhoud weer.
+
+Het werkgebied **Kostenanalyse** bevat de volgende tabbladen:
+
+- **Overzicht**: hier worden toepassingsgegevens weergegeven.
+- **Analyse voorraadboekhouding**: dit tabblad geeft de Power BI-inhoud weer.
+- **Analyse productieboekhouding**: dit tabblad geeft de Power BI-inhoud weer.
+- **Analyse van standaardkostprijsvariantie**: dit tabblad geeft de Power BI-inhoud weer.
+
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Rapportpagina's die zijn opgenomen in de Power BI-inhoud
+
+De Power BI-inhoud voor **Kostenbeheer** bevat een set met rapportpagina's die uit een verzameling van metrische gegevens bestaan. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. 
+
+De volgende tabellen bevatten een overzicht van de visualisaties in de Power BI-inhoud voor **Kostenbeheer**.
+
+### <a name="inventory-accounting-status"></a>Status voorraadboekhouding
+
+| Rapportpagina                               | Visualisatie                                   |
+|-------------------------------------------|-------------------------------------------------|
+| Voorraad - Overzicht                        | Beginsaldo                               |
+|                                           | Nettowijziging                                      |
+|                                           | Nettowijziging %                                    |
+|                                           | Eindsaldo                                  |
+|                                           | Voorraadnauwkeurigheid                              |
+|                                           | Voorraadomloopsnelheid                        |
+|                                           | Dagen voorraad voorhanden                          |
+|                                           | Actief product in periode                        |
+|                                           | Actieve kostenobjecten in periode                   |
+|                                           | Saldo per artikelengroep                           |
+|                                           | Saldo per locatie                                 |
+|                                           | Overzicht per categorie                           |
+|                                           | Nettowijziging per kwartaal                           |
+| Voorraadoverzicht per locatie en artikelgroep | Voorraadnauwkeurigheid per locatie                      |
+|                                           | Voorraadomloopsnelheid per locatie                |
+|                                           | Eindsaldo voorraad per locatie                |
+|                                           | Voorraadnauwkeurigheid per artikelgroep                |
+|                                           | Voorraadomloopsnelheid per artikelgroep          |
+|                                           | Eindsaldo voorraad per locatie en artikelgroep |
+| Voorraadafschrift                       | Voorraadafschrift                             |
+| Voorraadoverzicht per locatie               | Voorraadoverzicht per locatie                     |
+| Voorraadoverzicht per producthiërarchie  | Voorraadafschrift                             |
+| Voorraadoverzicht per producthiërarchie  | Voorraadoverzicht per locatie                     |
+
+### <a name="manufacturing-accounting-status"></a>Status productieboekhouding
+
+| Rapportpagina                | Visualisatie                       |
+|----------------------------|-------------------------------------|
+| Overzicht OHW JTD           | Beginsaldo                   |
+|                            | Nettowijziging                          |
+|                            | Nettowijziging %                        |
+|                            | Eindsaldo                      |
+|                            | Omloopsnelheid OHW                  |
+|                            | Dagen OHW in voorraad                    |
+|                            | Actief kostenobject in periode        |
+|                            | Nettowijziging per resourcegroep        |
+|                            | Saldo per locatie                     |
+|                            | Overzicht per categorie               |
+|                            | Nettowijziging per kwartaal               |
+| OHW-overzicht              | Beginsaldo                   |
+|                            | Eindsaldo                      |
+|                            | Overzicht OHW per categorie           |
+| Overzicht OHW per locatie      | Beginsaldo                   |
+|                            | Eindsaldo                      |
+|                            | Overzicht OHW per categorie en locatie  |
+| Overzicht OHW per hiërarchie | Beginsaldo                   |
+|                            | Eindsaldo                      |
+|                            | Overzicht OHW per categoriehiërarchie |
+
+### <a name="inventory-accounting-analysis"></a>Analyse voorraadboekhouding
+
+| Rapportpagina        | Visualisatie                                                                |
+|--------------------|------------------------------------------------------------------------------|
+| Voorraaddetails  | Top 10 resources per eindsaldo                                           |
+|                    | Top 10 resources op toename nettowijziging                                      |
+|                    | Top 10 resources op afname nettowijziging                                      |
+|                    | Top 10 resources op voorraadomloopsnelheid                                 |
+|                    | Resources op lage voorraadomloopsnelheid en eindsaldo boven drempelwaarde |
+|                    | Top 10 resources op lage nauwkeurigheid                                             |
+| ABC-classificatie | Eindsaldo voorraad                                                     |
+|                    | Verbruikte materialen                                                            |
+|                    | Verkocht (COGS)                                                                  |
+| Voorraadtrends   | Eindsaldo voorraad                                                     |
+|                    | Nettowijziging voorraad                                                         |
+|                    | Voorraadomloopsnelheid                                                     |
+|                    | Voorraadnauwkeurigheid                                                           |
+
+### <a name="manufacturing-accounting-analysis"></a>Analyse productieboekhouding
+
+| Rapportpagina | Visualisatie      |
+|-------------|--------------------|
+| OHW-trends  | Eindsaldo OHW |
+|             | Nettowijziging OHW     |
+|             | Omloopsnelheid OHW |
+
+### <a name="std-cost-variance-analysis"></a>Analyse van standaardkostprijsvariantie
+
+| Rapportpagina                             | Visualisatie                                        |
+|-----------------------------------------|------------------------------------------------------|
+| Inkoopsprijsafwijking (standaardkosten) JTD | Saldo ingekocht                                     |
+|                                         | Inkoopsprijsafwijking                              |
+|                                         | Verhouding inkoopsprijsafwijking                        |
+|                                         | Afwijking per artikelengroep                               |
+|                                         | Afwijking per locatie                                     |
+|                                         | Inkoopprijs per kwartaal                            |
+|                                         | Inkoopprijs per kwartaal en artikelgroep             |
+|                                         | Top 10 resources op ongunstige inkoopprijsverhouding |
+|                                         | Top 10 resources op gunstige inkoopprijsverhouding   |
+| Afwijking productie (standaardkosten) JTD     | Productiekosten                                    |
+|                                         | Afwijking productie                                  |
+|                                         | Verhouding afwijking productie                            |
+|                                         | Afwijking per artikelengroep                               |
+|                                         | Afwijking per locatie                                     |
+|                                         | Afwijking productie per kwartaal                       |
+|                                         | Productieafwijking op kwartaal en afwijkingstype     |
+|                                         | Top 10 resources op ongunstige productieafwijkingen  |
+|                                         | Top 10 resources op gunstige productieafwijkingen    |
+
+### <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
+
+Gegevens uit Microsoft Dynamics 365 voor Finance and Operations wordt gebruikt voor het vullen van de rapportpagina's in de Power BI-inhoud voor **Kostenbeheer**. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de entiteitopslag. Dit is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Power BI-integratie met entiteitopslag](power-bi-integration-entity-store.md).
+
+De belangrijkste geaggregeerde metingen van de volgende objecten worden gebruikt als basis voor de Power BI-inhoud.
+
+| Object                          | Belangrijke samengevoegde metingen | Gegevensbron voor Finance and Operations | Veld               |
+|---------------------------------|----------------------------|----------------------------------------|---------------------|
+| CostObjectStatementCacheMonthly | Bedrag                     | CostObjectStatementCache               | Bedrag              |
+| CostObjectStatementCacheMonthly | Hoeveelheid                   | CostObjectStatementCache               | Hoev.                 |
+| CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
+| CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
+
+De volgende tabel bevat de belangrijkste berekende afmetingen in de Power BI-inhoud.
+
+| Maat                            | Berekening |
+|------------------------------------|-------------|
+| Beginsaldo                  | Beginsaldo = [Eindsaldo]-[Nettowijziging] |
+| Hoeveelheid beginsaldo             | Hoeveelheid beginsaldo = [Hoeveelheid eindsaldo]-[Hoeveelheid nettowijziging] |
+| Eindsaldo                     | Eindsaldo = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
+| Hoeveelheid eindsaldo                | Hoeveelheid eindsaldo = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
+| Nettowijziging                         | Nettowijziging = SUM([AMOUNT]) |
+| Hoeveelheid nettowijziging                    | Hoeveelheid nettowijziging = SUM([QTY]) |
+| Voorraadomloopsnelheid per bedrag | Voorraadomloopsnelheid per bedrag = if(OR([Inventory average balance] \<= 0, [Verkochte of verbruikte voorraaduitgiften] \>= 0), 0, ABS([Verkochte of verbruikte voorraaduitgiften])/[Gemiddelde voorraadsaldo]) |
+| Gemiddeld saldo voorraad          | Gemiddeld voorraadsaldo = (([eindsaldo] + [beginsaldo]) / 2) |
+| Dagen voorraad voorhanden             | Dagen voorraad voorhanden 365 = / CostObjectStatementEntries [Voorraadomloopsnelheid per bedrag] |
+| Voorraadnauwkeurigheid                 | Voorraadomloopsnelheid per bedrag = IF([Eindsaldo] \<= 0, IF(OR([Geteld bedrag voorraad] \<\> 0, [Eindsaldo] \< 0), 0, 1), MAX(0, ([Eindsaldo] - ABS([Geteld bedrag voorraad]))/[Eindsaldo])) |
+
+De volgende belangrijke dimensies worden gebruikt als filters voor het segmenteren van de samengevoegde metingen, zodat u een grotere mate van granulatie en analytischere inzichten kunt bereiken.
 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
-De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set metrische gegevens die worden gevisualiseerd als diagrammen, tegels en tabellen. De volgende tabel bevat een overzicht van de visualisaties in de Power BI-inhoud voor **Kostenbeheer**.
-
-| Rapportpagina | Diagrammen | Titels |
-|---|---|---|
-|Totale voorraad (standaard per huidige periode) |Nauwkeurigheid |Voorraadmetingen:<br>Eindsaldo voorraad<br>Nettowijziging voorraad<br>Nettowijziging voorraad in %<br>|
-| |Voorraadomloopsnelheid | |
-| |Eindsaldo voorraad per resourcegroep | |
-| |Nettowijziging van voorraad per categorienaam, niveau 1 en categorienaam, niveau 2| |
-| |Inkoopafwijkingen per resourcegroep en categorienaam, niveau 3 | |
-|Voorraad per site (standaard per huidige periode) |Eindsaldo voorraad per sitenaam en resourcegroep | |
-| |Voorraadomloopsnelheid per sitenaam en resourcegroep | |
-| |Eindsaldo voorraad per plaats en resourcegroep | |
-|Voorraad per resourcegroep (standaard per huidige periode) |Voorraadmetingen | |
-| |Nauwkeurigheid van voorraad per bedrag per resourcegroep | |
-| |Voorraadomloopsnelheid per bedrag per resourcegroep | |
-|Voorraad jaar-op-jaar (huidig jaar versus vorig jaar) |Voorraadmetingen | |
-| |KPI's voor voorraad:<br>Voorraadomloopsnelheid<br>Voorraadnauwkeurigheid | |
-| |Eindsaldo voorraad per jaar en resourcegroep | |
-| |Inkoopafwijkingen per jaar en categorienaam, niveau 3 | |
-|Voorraad naar ouderdom gerangschikt (standaard per huidig jaar) |Voorraad naar ouderdom gerangschikt per kwartaal en resourcegroep | |
-| |Voorraad naar ouderdom gerangschikt per kwartaal en sitenaam | |
-|Totaal OHW (standaard per huidige periode) |Nettowijziging OHW per categorienaam, niveau 1 en categorienaam, niveau 2 |OHM-metingen onderhanden werk:<br>Eindsaldo OHW<br>Nettowijziging OHW<br>Nettowijziging OHW in %<br> |
-| |Productieafwijkingen per resourcegroep en categorienaam, niveau 3 | |
-| |Nettowijziging OHW per resourcegroep | |
-|OHW per site (standaard per huidige periode) |OHM-metingen onderhanden werk | |
-| |Nettowijziging OHW per sitenaam en categorienaam, niveau 2 | |
-| |Productieafwijkingen per sitenaam en categorienaam, niveau 3 | |
-
-## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-Finance and Operations-gegevens worden gebruikt voor het vullen van de rapportpagina's in de Power BI-inhoud **Kostenbeheer**. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de Entiteitopslag. Dit is een Microsoft SQL-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md). De volgende belangrijke samengevoegde metingen worden gebruikt als de basis van de inhoud.
-
-| Entiteit            | Belangrijke samengevoegde meting | Gegevensbron voor Finance and Operations | Veld             | Omschrijving                       |
-|-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
-| Overzichtvermeldingen | Nettowijziging                | CostAggregatedCostStatementEntryEntity      | sum(\[Bedrag\])   | Bedrag in de boekhoudingsvaluta |
-| Overzichtvermeldingen | Hoeveelheid nettowijziging       | CostAggregatedCostStatementEntryEntity      | sum(\[Hoeveelheid\]) |                                   |
-
-In de volgende tabel ziet u hoe de belangrijkste samengevoegde metingen worden gebruikt om verschillende berekende eenheden te maken in de gegevensset van de inhoud.
-
-| Maat                                 | Hoe de meting wordt berekend                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Beginsaldo                       | \[Eindsaldo\]-\[Nettowijziging\]                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Hoeveelheid beginsaldo              | \[Hoeveelheid eindsaldo\]-\[Hoeveelheid nettowijziging\]                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Eindsaldo                          | CALCULATE(SUM(\[Bedrag\]), FILTER(ALLEXCEPT('Fiscale kalenders', 'Fiscale kalenders'\[LedgerRecId\], 'entiteiten'\[ID\], 'entiteiten'\[Naam\], 'Grootboeken'\[Valuta\], 'Grootboeken'\[Beschrijving\], 'Grootboeken'\[Naam\]), 'Fiscale kalenders'\[Datum\] &lt;= MAX('Fiscale kalenders'\[Datum\])))                                                                                                                                                                                           |
-| Hoeveelheid eindsaldo                 | CALCULATE(SUM(\[Hoeveelheid\]), FILTER(ALLEXCEPT('Fiscale kalenders', 'Fiscale kalenders'\[LedgerRecId\], 'entiteiten'\[ID\], 'entiteiten'\[Naam\], 'Grootboeken'\[Valuta\], 'Grootboeken'\[Beschrijving\], 'Grootboeken'\[Naam\]), 'Fiscale kalenders'\[Datum\] &lt;= MAX('Fiscale kalenders'\[Datum\])))                                                                                                                                                                                         |
-| Beginsaldo voorraad             | CALCULATE(\[Beginsaldo\], 'Overzichtvermeldingen'\[Overzichttype\] = "Voorraad")                                                                                                                                                                                                                                                                                                                                                                                      |
-| Eindsaldo voorraad                | CALCULATE(\[Eindsaldo\], 'Overzichtvermeldingen'\[Overzichttype\] = "Voorraad")                                                                                                                                                                                                                                                                                                                                                                                         |
-| Nettowijziging voorraad                    | CALCULATE(\[Nettowijziging\], 'Overzichtvermeldingen'\[Overzichttype\] = "Voorraad")                                                                                                                                                                                                                                                                                                                                                                                             |
-| Hoeveelheid nettowijziging voorraad           | CALCULATE(\[Hoeveelheid nettowijziging\], 'Overzichtvermeldingen'\[Overzichttype\] = "Voorraad")                                                                                                                                                                                                                                                                                                                                                                                    |
-| Nettowijziging voorraad in %                  | IF(\[Eindsaldo voorraad\] = 0, 0, \[Nettowijziging voorraad\] / \[Eindsaldo voorraad\])                                                                                                                                                                                                                                                                                                                                                                           |
-| Voorraadomloopsnelheid per bedrag                | if(OR (\[Gemiddeld saldo voorraad\] &lt;= 0, \[Verkochte of verbruikte uitgiften voorraad\] &gt;= 0), 0, ABS (\[Verkochte of verbruikte uitgiften voorraad\]) /\[Gemiddeld saldo voorraad\])                                                                                                                                                                                                                                                                                                  |
-| Gemiddeld saldo voorraad               | (\[Eindsaldo voorraad\] + \[Beginsaldo voorraad\]) / 2                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Verkochte of verbruikte uitgiften voorraad       | \[Voorraad verkocht\] + \[Kosten verbruikte materiaal voorraad\]                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Kosten verbruikt materiaal voorraad        | CALCULATE(\[Nettowijziging voorraad\], 'Overzichtvermeldingen'\[Categorienaam - niveau 2\_\] = "ConsumedMaterialsCost")                                                                                                                                                                                                                                                                                                                                                            |
-| Voorraad verkocht                          | CALCULATE(\[Nettowijziging voorraad\], 'Overzichtvermeldingen'\[Categorienaam - niveau 2\_\] = "Verkocht")                                                                                                                                                                                                                                                                                                                                                                             |
-| Voorraadnauwkeurigheid per bedrag            | IF(\[Eindsaldo voorraad\] &lt;= 0, IF(OR(\[Geteld bedrag voorraad\] &lt;&gt; 0, \[Eindsaldo voorraad\] &lt; 0), 0, 1), MAX(0, (\[Eindsaldo voorraad\] - ABS(\[Geteld bedrag voorraad\]))/\[Eindsaldo voorraad\]))                                                                                                                                                                                                                              |
-| Geteld bedrag voorraad                | CALCULATE(\[Nettowijziging voorraad\], 'Overzichtvermeldingen'\[Categorienaam - niveau 3\_\] = "Tellen")                                                                                                                                                                                                                                                                                                                                                                         |
-| Naar ouderdom rangschikken van voorraad                         | if(ISBLANK(max('Fiscale kalenders'\[Datum\])), blank(), MAX(0, MIN(\[Hoeveelheid ontvangsten naar ouderdom gerangschikte voorraad\], \[Eindsaldo naar ouderdom gerangschikte voorraad\] - \[Hoeveelheid ontvangsten naar ouderdom gerangschikte voorraad in de toekomst\]))) \* \[Gemiddelde kosten per eenheid voorraad\]                                                                                                                                                                                                                                |
-| Ontvangsten hoeveelheid naar ouderdom gerangschikte voorraad       | IF(\[minDate\] = \[minDateAllSelected\], CALCULATE(\[Hoeveelheid nettowijziging voorraad\], 'Overzichtvermeldingen'\[Hoeveelheid\] &gt; 0, FILTER(ALLEXCEPT('Fiscale kalenders', 'Fiscale kalenders'\[LedgerRecId\], 'entiteiten'\[Id\], 'entiteiten'\[Naam\], 'Grootboeken'\[Valuta\], 'Grootboeken'\[Beschrijving\], 'Grootboeken'\[Naam\]), 'Fiscale kalenders'\[Datum\] &lt;= MAX('Fiscale kalenders'\[Datum\]))), CALCULATE(\[Hoeveelheid nettowijziging voorraad\], 'Overzichtvermeldingen'\[Hoeveelheid\] &gt; 0)) |
-| Hoeveelheid eindsaldo naar ouderdom gerangschikte voorraad | \[Hoeveelheid eindsaldo voorraad\] + CALCULATE(\[Hoeveelheid nettowijziging voorraad\], FILTER(ALLEXCEPT('Fiscale kalenders', 'Fiscale kalenders'\[LedgerRecId\], 'entiteiten'\[ID\], 'entiteiten'\[Naam\], 'Grootboeken'\[Valuta\], 'Grootboeken'\[Beschrijving\], 'Grootboeken'\[Naam\]), 'Fiscale kalenders'\[Datum\] &gt; max('Fiscale kalenders'\[Datum\]) ))                                                                                                                                 |
-| Ontvangsten in de toekomst naar ouderdom gerangschikte voorraad  | CALCULATE(\[Nettowijziging voorraad\], 'Overzichtvermeldingen'\[Bedrag\] &gt; 0, FILTER(ALLEXCEPT('Fiscale kalenders', 'Fiscale kalenders'\[LedgerRecId\], 'entiteiten'\[Id\], 'entiteiten'\[Naam\], 'Grootboeken'\[Valuta\], 'Grootboeken'\[Beschrijving\], 'Grootboeken'\[Naam\]), 'Fiscale kalenders'\[Datum\] &gt; MAX('Fiscale kalenders'\[Datum\])))                                                                                                                                             |
-| Gemiddelde kosten per eenheid voorraad                 | CALCULATE(\[Eindsaldo voorraad\] / \[Hoeveelheid eindsaldo voorraad\],ALLEXCEPT('Fiscale kalenders', 'Fiscale kalenders'\[LedgerRecId\], 'entiteiten'\[Id\], 'entiteiten'\[Naam\], 'Grootboeken'\[Valuta\], 'Grootboeken'\[Beschrijving\], 'Grootboeken'\[Naam\]))                                                                                                                                                                                                                 |
-| Inkoopafwijkingen                      | CALCULATE(SUM(\[Bedrag\]), 'Overzichtvermeldingen'\[Categorienaam - niveau 2\_\] = "Aangeschaft", 'Overzichtvermeldingen'\[Overzichttype\] = "Afwijking")                                                                                                                                                                                                                                                                                                                              |
-| Beginsaldo OHW                   | CALCULATE(\[Beginsaldo\], 'Overzichtvermeldingen'\[Overzichttype\] = "OHW")                                                                                                                                                                                                                                                                                                                                                                                            |
-| Eindsaldo OHW                      | CALCULATE(\[Eindsaldo\], 'Overzichtvermeldingen'\[Overzichttype\] = "OHW")                                                                                                                                                                                                                                                                                                                                                                                               |
-| Nettowijziging OHW                          | CALCULATE(\[Nettowijziging\], 'Overzichtvermeldingen'\[Overzichttype\] = "OHW")                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Nettowijziging OHW in %                        | IF (\[Eindsaldo\] = 0, 0, \[Nettowijziging OHW\] / \[Eindsaldo OHW\])                                                                                                                                                                                                                                                                                                                                                                                             |
-| Productieafwijkingen                    | CALCULATE(SUM(\[Bedrag\]), 'Overzichtvermeldingen'\[Categorienaam - niveau 2\_\] = "Productiekosten", 'Overzichtvermeldingen'\[Overzichttype\] = "Afwijking")                                                                                                                                                                                                                                                                                                                      |
-| Categorienaam - niveau 1                 | switch(\[Categorienaam - niveau 1\_\], "None", "Geen", "NetSourcing", "Nettosourcing", "NetUsage", "Nettogebruik", "NetConversionCost", "Netto-conversiekosten", "NetCostOfGoodsManufactured", "Nettokosten van geproduceerde goederen", "BeginningBalance", "Beginsaldo")                                                                                                                                                                                                         |
-| Categorienaam - niveau 2                 | switch(\[Categorienaam - niveau 2\_\], "None", "Geen", "Procured", "Aangeschaft", "Disposed", "Afgestoten", "Transferred", "Overgeboekt", "Sold", "Verkocht", "ConsumedMaterialsCost", "Kosten verbruikte materialen", "ConsumedManufacturingCost", "Kosten van verbruikte productie", "ConsumedOutsourcingCost", "Kosten van verbruikte uitbesteding", "ConsumedIndirectCost", "Verbruikte indirecte kosten", "ManufacturedCost", "Productiekosten", "Variances", "Afwijkingen")                            |
-| Categorienaam - niveau 3                 | switch(\[Categorienaam - niveau 3\_\], "None", "Geen", "Tellen", "Geen", "ProductionPriceVariance", "Productieprijs", "QuantityVariance", "Hoeveelheid", "SubstitutionVariance", "Vervanging", "ScrapVariance", "Uitval", "LotSizeVariance", "Partijgrootte", "RevaluationVariance", "Herwaardering", "PurchasePriceVariance", "Inkoopprijs", "CostChangeVariance", "Kostenwijziging", "RoundingVariance", "Afrondingsafwijking")                                                   |
-
-De volgende belangrijke dimensies worden gebruikt als filters voor het segmenteren van de samengevoegde metingen om een grotere mate van granulatie te bereiken en analytischere inzichten te bieden.
-
-| Entiteit           | Voorbeelden van kenmerken                       |
-|------------------|----------------------------------------------|
-| Entiteiten         | ID, naam                                     |
-| Fiscale kalenders | Kalender, maand, periode, kwartaal, jaar       |
-| KPI-doelstellingen        | Doelstelling voorraadnauwkeurigheid, doelstelling voorraadomloopsnelheid |
-| Grootboeken          | Valuta, naam, beschrijving                  |
-| Sites            | Id, naam, land, plaats                      |
-
-
-
-
+|                         Entiteit                          |             Voorbeelden van kenmerken              |
+|---------------------------------------------------------|-------------------------------------------------|
+|                        Producten                         | Productnummer, Productnaam, Eenheid, Artikelengroepen |
+| Categoriehiërarchieën (toegewezen aan de rol Kostenbeheer) |       Categoriehiërarchie, Categorieniveau        |
+|                     Rechtspersonen                      |               Namen rechtspersonen                |
+|                    Fiscale kalenders                     |  Fiscale kalender, jaar, kwartaal, periode, maand  |
+|                          Site                           |        Id, naam, adres, provincie/staat, land        |
 
 

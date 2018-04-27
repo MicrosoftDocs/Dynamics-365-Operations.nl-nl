@@ -19,16 +19,18 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 19d725f15f00afce1a2ae4b336226f1dafa94b41
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-workflows-for-expense"></a>Workflows voor onkosten instellen
 
-[!include[banner](../includes/banner.md)] U kunt een workflowproces instellen dat wordt gebruikt om documenten voor reizen en onkosten te beoordelen en goed te keuren. Documenten waarvoor workflows kunnen worden gedefinieerd, zijn onkostenrapporten, aanvragen voor reizen en aanvragen voor contante voorschotten.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ U kunt een workflowproces instellen dat wordt gebruikt om documenten voor reizen en onkosten te beoordelen en goed te keuren. Documenten waarvoor workflows kunnen worden gedefinieerd, zijn onkostenrapporten, aanvragen voor reizen en aanvragen voor contante voorschotten.
 
 Een workflow vertegenwoordigt een bedrijfsproces. Een werkstroom definieert hoe een document zich door het systeem begeeft en geeft aan wie een taak moet voltooien of een document moet goedkeuren. Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen op:
 
@@ -42,13 +44,15 @@ Een workflow vertegenwoordigt een bedrijfsproces. Een werkstroom definieert hoe 
 
 De volgende tabel bevat de workflowtypen die u in **Onkosten** kunt maken.
 
-| **Type**                           | **Met dit type kunt u**                                                 |     
-|------------------------------------|----------------------------------------------------------------------|
-| **Onkostennota**                 | Goedkeuringswerkstromen voor onkostenrapporten maken.                       |      
-| **Automatische boeking van onkostennota**    | Automatische boeking van werkstromen voor onkostenrapporten maken.              |     
-| **Kostenregelartikel**              | Goedkeuringswerkstromen maken voor regelitems op onkostenrapporten.         |     
-| **Automatische boeking van uitgavenregelartikel** | Automatische boekingswerkstromen maken voor regelitems op onkostenrapporten.|
-| **Reisopdracht**             | Goedkeuringswerkstromen maken voor reisaanvragen.                   |    
-| **Aanvraag kasvoorschot**           | Goedkeuringswerkstromen maken voor aanvragen voor kasvoorschotten.                 |     
-| **Btw-teruggave**               | Goedkeuringswerkstromen maken voor terugvordering van de belasting over de toegevoegde waarde (BTW). |       
+
+|              <strong>Type</strong>              |                   <strong>Met dit type kunt u</strong>                   |
+|-------------------------------------------------|-----------------------------------------------------------------------|
+|         <strong>Onkostennota</strong>         |            Goedkeuringswerkstromen voor onkostenrapporten maken.             |
+|  <strong>Automatische boeking van onkostennota</strong>   |        Automatische boeking van werkstromen voor onkostenrapporten maken.        |
+|       <strong>Kostenregelartikel</strong>        |     Goedkeuringswerkstromen maken voor regelitems op onkostenrapporten.      |
+| <strong>Automatische boeking van uitgavenregelartikel</strong> | Automatische boekingswerkstromen maken voor regelitems op onkostenrapporten. |
+|       <strong>Reisopdracht</strong>       |          Goedkeuringswerkstromen maken voor reisaanvragen.           |
+|      <strong>Aanvraag kasvoorschot</strong>      |         Goedkeuringswerkstromen maken voor aanvragen voor kasvoorschotten.          |
+|        <strong>Btw-teruggave</strong>        | Goedkeuringswerkstromen maken voor terugvordering van de belasting over de toegevoegde waarde (BTW).  |
+
 

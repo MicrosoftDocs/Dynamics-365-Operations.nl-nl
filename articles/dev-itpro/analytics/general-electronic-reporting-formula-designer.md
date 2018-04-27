@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Formuleontwerper in elektronische rapportage
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt. Wanneer u een indeling voor een specifiek elektronisch document in ER ontwerpt, kunt u formules gebruiken om gegevens te transformeren om te voldoen aan de vereisten voor de afhandeling en opmaak van het document. Deze formules lijken op formules in Microsoft Excel. Er worden diverse typen functies ondersteund in de formules: tekst, datum en tijd, wiskundige logica, informatie, gegevenstypeconversie en andere functies (functies specifiek voor het zakelijke domein).
 
@@ -395,7 +395,9 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 <tr class="even">
 <td>STRINGJOIN (lijst, veldnaam, scheidingsteken)</td>
 <td>Een tekenreeks retourneren die bestaat uit samengevoegde waarden van het opgegeven veld uit de opgegeven lijst. De waarden worden gescheiden door het opgegeven scheidingsteken.</td>
-<td>Als u <strong>SPLIT(&quot;abc&quot; , 1)</strong> invoert als een gegevensbron (DS), wordt door de expressie <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> <strong>&quot;a:b:c&quot;</strong> geretourneerd</td>
+
+<td>Als u <strong>SPLIT(&quot;abc&quot; , 1)</strong> invoert als een gegevensbron (DS), wordt door de expressie <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong> geretourneerd</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (lijst, limietwaarde, limietbron)</td>

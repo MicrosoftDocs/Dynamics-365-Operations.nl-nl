@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Projectbeheer en boekhouding
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt om in een service te voorzien, een product te produceren of een resultaat te halen.  
 
@@ -83,6 +82,7 @@ U kunt prognoses gebruiken als uw organisatie een operationeel perspectief heeft
 In Microsoft Dynamics 365 for Finance and Operations kunt u zes typen projecten aanmaken. Elk projecttype is anders ingesteld voor kosten en verantwoording van opbrengsten. Het projecttype dat u kiest hangt af van het doel van het project. De volgende tabel beschrijft het typisch doel van elk projecttype.
 
                                                                                                                                                                          |
+
 | Projecttype      | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Tijd en materiaal | Bij tijd- en materiaalprojecten wordt de klant gefactureerd voor alle kosten die voor een project gemaakt worden. Deze kosten omvatten kosten voor uren, onkosten, artikelen en bijzondere kosten.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Een projectgerelateerde productieorder kan aan een verkooporder of artikelbehoef
 
 Gebruik een van de volgende methoden op basis van de combinaties van deze factoren:
 
--   **Gereed artikel/koppeling naar order**: koppel het project aan een verkooporder of artikelbehoefte. Wanneer u deze methode gebruikt, worden de werkelijke projectkosten geboekt wanneer de verkooporder wordt gefactureerd of wanneer de pakbon wordt bijgewerkt voor de artikelbehoefte. De kosten worden geboekt als een gereed artikel.
--   **Gereed artikel/geen koppeling naar order** : werkelijke kosten kunnen pas worden geboekt als de productiecyclus voor een artikel de status **Beëindigd** heeft. De kosten voor een gereed artikel worden als één transactie geboekt.
--   **Verbruikt artikel/koppeling naar order**: koppel het project aan een artikelbehoefte. Met deze methode kunt u de werkelijke projectkosten weergeven wanneer de productie de status **Gestart** heeft of is gereedgemeld. De kosten worden geboekt als artikeltransacties voor meerdere projecten voor grondstoffen en uren die zijn verbruikt voor de productie. Wanneer de pakbon wordt bijgewerkt voor de artikelbehoefte, worden er geen projectkosten geboekt. U kunt ook het niveau in de stuklijsthiërarchie bepalen waarop de projecten in de productie worden bijgehouden.
--   ****Verbruikt artikel/geen koppeling naar order****: koppel het project aan een artikelbehoefte. Met deze methode kunt u de werkelijke projectkosten weergeven wanneer de productie de status **Gestart** heeft of is gereedgemeld. De kosten worden geboekt als artikeltransacties voor meerdere projecten voor grondstoffen en uren die zijn verbruikt voor de productie. U kunt het niveau in de stuklijsthiërarchie bepalen waarop de projecten in de productie moeten worden bijgehouden.
+- **Gereed artikel/koppeling naar order**: koppel het project aan een verkooporder of artikelbehoefte. Wanneer u deze methode gebruikt, worden de werkelijke projectkosten geboekt wanneer de verkooporder wordt gefactureerd of wanneer de pakbon wordt bijgewerkt voor de artikelbehoefte. De kosten worden geboekt als een gereed artikel.
+- **Gereed artikel/geen koppeling naar order** : werkelijke kosten kunnen pas worden geboekt als de productiecyclus voor een artikel de status **Beëindigd** heeft. De kosten voor een gereed artikel worden als één transactie geboekt.
+- **Verbruikt artikel/koppeling naar order**: koppel het project aan een artikelbehoefte. Met deze methode kunt u de werkelijke projectkosten weergeven wanneer de productie de status **Gestart** heeft of is gereedgemeld. De kosten worden geboekt als artikeltransacties voor meerdere projecten voor grondstoffen en uren die zijn verbruikt voor de productie. Wanneer de pakbon wordt bijgewerkt voor de artikelbehoefte, worden er geen projectkosten geboekt. U kunt ook het niveau in de stuklijsthiërarchie bepalen waarop de projecten in de productie worden bijgehouden.
+- *<strong><em>Verbruikt artikel/geen koppeling naar order</em></strong>*: koppel het project aan een artikelbehoefte. Met deze methode kunt u de werkelijke projectkosten weergeven wanneer de productie de status <strong>Gestart</strong> heeft of is gereedgemeld. De kosten worden geboekt als artikeltransacties voor meerdere projecten voor grondstoffen en uren die zijn verbruikt voor de productie. U kunt het niveau in de stuklijsthiërarchie bepalen waarop de projecten in de productie moeten worden bijgehouden.
 
 ### <a name="procure-products-and-services"></a>Producten en services aanschaffen
 
@@ -239,9 +239,8 @@ In de volgende tabel worden de methoden beschreven voor berekening van de kosten
 <li>Voorspelde transacties vergelijken met werkelijke transacties.</li>
 <li>De ramingen bijhouden, verlagen of verhogen voor de volgende periode.</li>
 </ol>
-In Finance and Operations worden de voorspelde ramingen niet automatisch verlaagd . Daarom raden we aan om een oorspronkelijk prognosemodel van het project met een vaste prijs bij te houden om een startsituatie vast te stellen waarmee een vergelijking wordt gemaakt wanneer het project is voltooid. 
-> [!NOTE] Gebruik ten minste twee prognosemodellen wanneer u deze methode selecteert. Eén model dient de oorspronkelijke prognose te bevatten. Voor het andere model moet u prognosetransacties kopiëren vanuit een ander model. Deze methode is alleen geldig voor projecten met een vaste prijs en investeringsprojecten.</td>
-> </tr>
+In Finance and Operations worden de voorspelde ramingen niet automatisch verlaagd . Daarom raden we aan om een oorspronkelijk prognosemodel van het project met een vaste prijs bij te houden om een startsituatie vast te stellen waarmee een vergelijking wordt gemaakt wanneer het project is voltooid. &gt; [!NOTE] &gt; Gebruik ten minste twee prognosemodellen wanneer u deze methode selecteert. Eén model dient de oorspronkelijke prognose te bevatten. Voor het andere model moet u prognosetransacties kopiëren vanuit een ander model. Deze methode is alleen geldig voor projecten met een vaste prijs en investeringsprojecten.</td>
+</tr>
 <tr class="odd">
 <td>Resterend budget</td>
 <td>Voor deze methode wordt gebruikgemaakt van een model met het resterende budget om de kosten voor het voltooien van het project te berekenen. Wanneer u deze methode gebruikt, worden de werkelijke kosten en de geprognosticeerde bedragen in het model met het resterende budget bij elkaar opgeteld. Het resultaat is een kostentotaal. Voordat u deze methode gebruikt, dient een model met het resterende budget te worden ingesteld voor het aftrekken van transacties op basis van werkelijke transacties die zijn geregistreerd in het systeem. Op de pagina <strong>Prognosemodellen</strong> moet u ervoor zorgen dat de velden in de groep <strong>Automatische prognosereductie</strong> zijn gemarkeerd. Een resterend budget wordt gewoonlijk vanuit een oorspronkelijke budget gekopieerd. Wanneer transacties worden ingevoerd, worden de transacties van het resterende budget verlaagd. Als u tijdens het verloop van het project vaststelt dat het resterende budget dient te worden aangepast, kunt u prognosetransacties bij het resterende budget in rekening brengen. <strong>Opmerking:</strong> deze methode kan alleen worden toegepast als er een prognosemodel aan de raming is gekoppeld.</td>

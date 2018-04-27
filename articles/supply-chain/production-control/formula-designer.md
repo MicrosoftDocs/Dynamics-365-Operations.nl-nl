@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Formuleontwerper
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u met de formuleontwerper formules kunt analyseren en beheren in een boomstructuur.
 
@@ -88,7 +88,7 @@ Het filter dat voor de formule en route wordt toegepast, wordt weergegeven in de
 </tr>
 <tr class="odd">
 <td>Vanaf hoeveelheid</td>
-<td>Filter de versies door een specifieke "vanaf"-hoeveelheid te selecteren. Als u een waarde instelt, worden mogelijk andere formule- en routeversies geselecteerd.</td>
+<td>Filter de versies door een specifieke &quot;vanaf&quot;-hoeveelheid te selecteren. Als u een waarde instelt, worden mogelijk andere formule- en routeversies geselecteerd.</td>
 </tr>
 <tr class="even">
 <td>Alleen geldige weergeven</td>
@@ -116,8 +116,10 @@ Gebruik de functies **Stuklijstregels** of **Formule** om de formuleregels of fo
 ## <a name="configuring-the-tree-view"></a>De structuurweergave configureren
 Klik op **Instellingen** om de gegevens aan te passen die in de structuurweergave van de formuleontwerper worden weergegeven.
 
-| Veldgroep | Omschrijving |
-|-------------|-------------|
-| Stuklijst         | Gebruik de selectievakjes om de criteria te selecteren die in de boomstructuur worden weergegeven. In de formuleontwerper worden de geselecteerde criteria onder aan de tabbladen weergegeven. |
-| route       | Gebruik de selectievakjes om de criteria te selecteren die voor de routes worden weergegeven. |
+
+| Veldgroep |                                                                          Omschrijving                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     Stuklijst     | Gebruik de selectievakjes om de criteria te selecteren die in de boomstructuur worden weergegeven. In de formuleontwerper worden de geselecteerde criteria onder aan de tabbladen weergegeven. |
+|    route    |                                           Gebruik de selectievakjes om de criteria te selecteren die voor de routes worden weergegeven.                                           |
+
 

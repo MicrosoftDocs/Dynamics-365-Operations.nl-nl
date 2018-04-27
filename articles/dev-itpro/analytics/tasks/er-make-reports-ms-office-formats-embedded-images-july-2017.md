@@ -1,5 +1,5 @@
 --- 
-title: Configuraties ontwerpen voor het genereren van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen voor elektronische aangifte (ER) (Deel 1)
+title: Configuraties ontwerpen voor het genereren van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
 description: De stappen in dit onderwerp geven informatie over hoe u elektronische rapportage (ER)-configuraties ontwerpt die elektronische documenten in Microsoft Office-indelingen (Excel en Word) genereren die ingesloten afbeeldingen bevatten.
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Configuraties ontwerpen voor het genereren van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen voor elektronische aangifte (ER) (Deel 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Configuraties ontwerpen voor het genereren van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure 'ER Een configuratieprovider maken en deze als actief markeren' voltooien. Deze procedure laat zien hoe u elektronische rapportage (ER)-configuraties ontwerpt voor het genereren van een elektronisch Microsoft Excel- of Word-document met ingesloten afbeeldingen. In deze procedure maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Deze stappen kunnen worden uitgevoerd met behulp van de dataset USMF. Deze procedure is gemaakt voor gebruikers met de toegewezen rol van systeembeheerder of elektronische aangifteontwikkelaar. Voordat u begint, downloadt u de bestanden vermeld in het Help-onderwerp [Afbeeldingen en vormen insluiten in bedrijfsdocumenten die zijn gegenereerd via het hulpmiddel voor elektronische aangifte](../electronic-reporting-embed-images-shapes.md) en slaat u ze op. De bestanden zijn: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png en Cheque template Word.docx.
 

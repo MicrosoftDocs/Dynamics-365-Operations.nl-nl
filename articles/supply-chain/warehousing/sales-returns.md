@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa56911c19e9b6514829084221ba03c7cd421c92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-returns"></a>Verkoopretouren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
 
@@ -138,7 +137,7 @@ Niet alleen kunt u met beschikkingscodes bepalen wat met de geretourneerde goede
 </ul></td>
 </tr>
 <tr class="even">
-<td>Krediet</td>
+<td>Credit</td>
 <td><ul>
 <li>De klant krijgt de verkoopprijs minus eventuele kosten of toeslagen gecrediteerd.</li>
 <li>De voorraadwaarde wordt verhoogd met de kosten van het geretourneerde artikel.</li>

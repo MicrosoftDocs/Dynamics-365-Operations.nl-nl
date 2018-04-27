@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Financial Insights
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Financial Insights** gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen. Power BI is ingesloten in Microsoft Dynamics 365 Finance and Operations.
 De focus van **Financial Insights** is analytische rapportage. Persoonlijkheden binnen een organisatie kunnen weergeven, onderzoeken en reageren. 
@@ -107,8 +107,20 @@ Hoewel **Financial Insights** financiële overzichten bevat, is het geen vervang
 
 Op basis van het volgende vergelijkingsdiagram kunt u onderscheid maken tussen de twee opties:
 
-|                                         | **Financiële rapportage**                            | **Financial Insights**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Standaardrapporten bewerken**                | Ja                                                | Nee                                 | | **Nieuwe rapporten maken**                  | Ja                                                | Nee                                 | | **Rapporten afdrukken**                       | Ja                                                | Nee                                 | | **Exporteren naar Excel**                     | Ja          | Beperkt Exporteert onbewerkte gegevens naar Excel, geen opgemaakt rapport       | | **Ondersteuning voor rapportagehiërarchie/organisatiehiërarchie**   | Ja                               | Nee                                 | | **Rapporteert over subjournaalgegevens**       | Ja Beperkt tot alleen leverancier, klant    | Ja Leverancier, klant, leveranciers-/klantgroepen, leveranciers-/klantadressen, enz.  | | **Aangiftevaluta**      | Ja Valuta voor boekhouding en omzetten in aangiftevaluta       | Nee Alleen valuta voor boekhouding      | | **Beveiliging**                | Ja Voldoet aan Finance and Operations- en rapporteringsstructuurbeveiliging | Beperkt Rapporten voor alle bedrijven weergeven (ongeacht Finance and Operations-beveiliging) of alleen het actieve bedrijf | | **Ondersteuning voor verschillende rekeningschema's en boekjaren** | Ja                   | Nee                   | | **Rapporteert over externe gegevens**                              | Nee                   | Nee                                   | | **Ondersteuning voor consolidaties**                               | Ja                          | Beperkt Kan rapporteren over meerdere bedrijven, maar gebruikt alleen valuta voor boekhouding                                     |
 
+|                                                                       |               <strong>Financiële rapportage</strong>                |                                      <strong>Financial Insights</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Standaardrapporten bewerken</strong>                 |                                Ja                                |                                                      Nee                                                       |
+|                  <strong>Nieuwe rapporten maken</strong>                  |                                Ja                                |                                                      Nee                                                       |
+|                    <strong>Rapporten afdrukken</strong>                     |                                Ja                                |                                                      Nee                                                       |
+|                   <strong>Exporteren naar Excel</strong>                    |                                Ja                                |                           Beperkt Exporteert onbewerkte gegevens naar Excel, niet opgemaakt rapport                           |
+|  <strong>Ondersteuning van rapporthiërarchie/organisatiehiërarchie</strong>  |                                Ja                                |                                                      Nee                                                       |
+|               <strong>Rapport van gegevens in subadministratie</strong>               |               Ja Beperkt tot alleen leverancier, klant                |                 Ja Leverancier, klant, leverancier-/klantgroepen, leverancier-/klantadressen, enz.                 |
+|                  <strong>Aangiftevaluta</strong>                  |    Ja Valuta voor boekhouding en omzetten naar aangiftevaluta    |                                          Nee Alleen valuta voor boekhouding                                          |
+|                       <strong>Beveiliging</strong>                       | Ja Voldoet aan Finance and Operations beveiliging van rapportstructuur | Beperkt Rapporten weergeven voor alle bedrijven (ongeacht de beveiliging van Finance and Operations) of alleen actief bedrijf |
+| <strong>Ondersteuning voor verschillende rekeningschema's en fiscale jaren</strong> |                                Ja                                |                                                      Nee                                                       |
+|               <strong>Rapport van externe gegevens</strong>                |                                Nee                                 |                                                      Nee                                                       |
+|                <strong>Consolidaties ondersteunen</strong>                |                                Ja                                |                   Beperkt Kan rapporteren over meerdere bedrijven, maar alleen valuta voor boekhouding gebruiken                   |
 
 Naast de gebruikersinterface in het oorspronkelijke werkgebied **CFO-overzicht** zijn nu nieuwe KPI's, diagrammen en financiële overzichten beschikbaar. De volgende financiële overzichten zijn beschikbaar:
 

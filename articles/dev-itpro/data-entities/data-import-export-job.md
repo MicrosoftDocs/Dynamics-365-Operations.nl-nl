@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>Gegevensimport- en exporttaken
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Als u gegevensimport- en exporttaken wilt maken en beheren in Microsoft Dynamics 365 for Finance and Operations, gebruikt u het werkgebied **Gegevensbeheer**. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
 
@@ -64,13 +64,15 @@ Het is raadzaam om de tijd te nemen om een juiste projectcategorie voor uw impor
 U kunt specifieke entiteiten toevoegen aan een import- of exporttaak of een sjabloon selecteren om toe te passen. Sjablonen vullen een taak met een lijst met entiteiten. De optie **Sjabloon toepassen** is beschikbaar als u de taak een naam geeft en opslaat.
 
 ### <a name="set-the-data-format-for-the-job"></a>De gegevensindeling voor de taak instellen
-Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens die worden geëxporteerd of geïmporteerd. U definieert indelingen via de tegel **Instelling van gegevensbronnen**. Veel organisaties beginnen vanuit de indelingen die standaard zijn opgenomen in de voorbeeldgegevensset. Hier volgt een lijst met enkele van deze indelingen:
+Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens die worden geëxporteerd of geïmporteerd. U definieert indelingen via de tegel **Instelling van gegevensbronnen**. Een brongegevensindeling is een combinatie van **Type**, **Vestandsindeling**, **Scheidingsteken rij** en **Scheidingsteken voor kolommen**. Er zijn ook andere kenmerken, maar dit zijn de belangrijkste. In de volgende tabel staan de geldige combinaties.
 
-- AX (voor gegevens die moeten worden geïmporteerd of geëxporteerd in dezelfde indeling die wordt gebruikt voor Microsoft Dynamics 365 for Finance and Operations)
-- ColonSeparated
-- CSV
-- Excel
-- Pakket
+| **Bestandsindeling**        | **Scheidingsteken rij/kolom**                   | **XML-stijl**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-N.v.t.                     |
+| XML                    | \-N.v.t.                                      | XML-element XML-kenmerk |
+| Gescheiden, vaste breedte | Komma, puntkomma, tab, verticale streep, dubbele punt | \-N.v.t.                     |
+
+
 
 ### <a name="sequence-the-entities"></a>De volgorde van de entiteiten bepalen
 Entiteiten kunnen worden geordend in een gegevenssjabloon of in import- en exporttaken. Wanneer u een taak met meer dan één gegevensentiteit uitvoert, moet u ervoor zorgen dat de gegevensentiteiten correct zijn geordend. U stelt voornamelijk een volgorde voor entiteiten in als er functionele afhankelijkheden tussen entiteiten bestaan. Als entiteiten geen functionele afhankelijkheden hebben, kunnen ze worden gepland voor parallel importeren of exporteren.

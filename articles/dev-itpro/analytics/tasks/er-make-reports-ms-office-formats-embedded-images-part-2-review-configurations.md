@@ -1,5 +1,5 @@
 --- 
-title: Configuraties controleren voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen voor elektronische aangifte (ER)
+title: Configuraties beoordelen voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
 description: 'Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleider ''ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: Parameters instellen)''.'
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dcc162a4c0ba81079eefb7564ab037c1287acd92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a>Configuraties controleren voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen voor elektronische aangifte (ER)
+# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Configuraties beoordelen voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleider 'ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: parameters instellen)'.
 

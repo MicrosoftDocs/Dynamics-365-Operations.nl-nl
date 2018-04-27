@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert. 
 
@@ -104,26 +103,26 @@ De cel **Opmaakcode** biedt een selectie van vooraf opgemaakte keuzes voor de in
 2.  Dubbelklik op de cel **Opmaakcode**.
 3.  Selecteer een opmaakcode in de lijst. De volgende tabel beschrijft de opmaakcodes en hun acties.
 
-| **Opmaakcode**               | **Interpretatie van opmaakcode** | **Actie**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (Geen)                        |                                       | Wist de cel **Opmaakcode**.                                                                                                                                                                               |
-| TOT                           | Totaal                                 |  Identificeert een rij die wiskundige operatoren gebruikt in de kolom **Gerelateerde formules/rijen/eenheden**. De totalen bevatten eenvoudige operatoren, zoals **+** of **-**.                                                     |
-| CAL                           | Berekening                           | Identificeert een rij die wiskundige operatoren gebruikt in de kolom **Gerelateerde formules/rijen/eenheden**. De berekeningen bevatten complexe operatoren, zoals **+**, **-**, **\***, **/** en **IF/THEN/ELSE**-instructies. |
-| DES                           | Omschrijving                           | Identificeert een kopregel of een lege regel op een rapport.                                                                                                                                                        |
-| LFT RGT CEN                   | Links rechts midden                     |  Lijnt de tekst van de rijomschrijving op de rapportpagina uit, ongeacht de positie van de tekst in de kolomdefinitie.                                                                                              |
-| CBR                           | Basisrij wijzigen                       | Identificeert een rij die de basisrij voor kolomberekeningen instelt.                                                                                                                                               |
-| COLUMN                        | Kolomeinde                          | Begint een nieuwe kolom in het rapport.                                                                                                                                                                             |
-| PAGE                          | Pagina-einde                            | Begint een nieuwe pagina in het rapport.                                                                                                                                                                               |
-| \---                          | Enkele onderstreping                      | Plaatst één lijn onder alle bedragkolommen op het rapport.                                                                                                                                                     |
-|  ===                          | Dubbele onderstreping                      | Plaatst een dubbele lijn onder alle bedragkolommen op het rapport.                                                                                                                                                     |
-| LINE1                         | Dunne lijn                             | Tekent één dunne lijn over de pagina.                                                                                                                                                                      |
-| LINE2                         | Dikke lijn                            | Hiermee tekent u een dikke lijn over de gehele paginabreedte.                                                                                                                                                                     |
-| LINE3                         | Stippellijn                           | Tekent één stippellijn over de pagina.                                                                                                                                                                    |
-| LINE4                         | Dikke lijn en dunne lijn              | Tekent één dubbele lijn over de pagina. De bovenste lijn is dik en de onderste lijn is dun.                                                                                                                       |
-| LINE5                         | Dunne lijn en dikke lijn              | Tekent één dubbele lijn over de pagina. De bovenste lijn is dun en de onderste lijn is dik.                                                                                                                       |
-| BXB BXC                       | Rij in vakken                             | Trekt een vak rond de rapportrijen die beginnen met de rij **BXB** en eindigen met de rij **BXC**.                                                                                                               |
-| REM                           | Opmerking                                | Hiermee specificeert u een rij met een opmerking, die niet in het rapport moet worden afgedrukt. U kunt in een REM-rij bijvoorbeeld een toelichting geven op de gekozen opmaak.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Sorteren                                  | Sorteert onkosten en opbrengsten, sorteert een werkelijk of budgetafwijkingrapport op de grootste afwijking, of sorteert de rijomschrijvingen op alfabetische volgorde.                                                                   |
+| <strong>Opmaakcode</strong>  | <strong>Interpretatie van opmaakcode</strong> |                                                                                                                             <strong>Actie</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (Geen)             |                                                    |                                                                                                                  Wist de cel <strong>Opmaakcode</strong>.                                                                                                                   |
+|              TOT              |                       Totaal                        |                                         Identificeert een rij die wiskundige operatoren gebruikt in de kolom <strong>Gerelateerde formules/rijen/eenheden</strong>. De totalen bevatten eenvoudige operatoren, zoals <strong>+</strong> of <strong>-</strong>.                                         |
+|              CAL              |                    Berekening                     | Identificeerd in de kolom <strong>Verwante formules/rijen/eenheden</strong> een rij met wiskundige operatoren. De berekeningen bevatten complexe operatoren, zoals <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em>, en **IF/THEN/ELSE</em>*-instructies. |
+|              DES              |                    Omschrijving                     |                                                                                                             Identificeert een kopregel of een lege regel op een rapport.                                                                                                              |
+|          LFT RGT CEN          |                 Links rechts midden                  |                                                                                 Lijnt de tekst van de rijomschrijving op de rapportpagina uit, ongeacht de positie van de tekst in de kolomdefinitie.                                                                                 |
+|              CBR              |                  Basisrij wijzigen                   |                                                                                                         Identificeert een rij die de basisrij voor kolomberekeningen instelt.                                                                                                         |
+|            COLUMN             |                    Kolomeinde                    |                                                                                                                        Begint een nieuwe kolom in het rapport.                                                                                                                        |
+|             PAGE              |                     Pagina-einde                     |                                                                                                                         Begint een nieuwe pagina in het rapport.                                                                                                                         |
+|             \---              |                  Enkele onderstreping                  |                                                                                                            Plaatst één lijn onder alle bedragkolommen op het rapport.                                                                                                            |
+|              ===              |                  Dubbele onderstreping                  |                                                                                                            Plaatst een dubbele lijn onder alle bedragkolommen op het rapport.                                                                                                            |
+|             LINE1             |                     Dunne lijn                      |                                                                                                                    Tekent één dunne lijn over de pagina.                                                                                                                     |
+|             LINE2             |                     Dikke lijn                     |                                                                                                                    Hiermee tekent u een dikke lijn over de gehele paginabreedte.                                                                                                                    |
+|             LINE3             |                    Stippellijn                     |                                                                                                                   Tekent één stippellijn over de pagina.                                                                                                                    |
+|             LINE4             |              Dikke lijn en dunne lijn              |                                                                                             Tekent één dubbele lijn over de pagina. De bovenste lijn is dik en de onderste lijn is dun.                                                                                             |
+|             LINE5             |              Dunne lijn en dikke lijn              |                                                                                             Tekent één dubbele lijn over de pagina. De bovenste lijn is dun en de onderste lijn is dik.                                                                                             |
+|            BXB BXC            |                     Rij in vakken                      |                                                                            Hiermee tekent u een kader rond het rapport, te beginnen met de rij <strong>BXB</strong> en eindigend met de rij <strong>BXC</strong>.                                                                            |
+|              REM              |                       Opmerking                       |                                                               Hiermee specificeert u een rij met een opmerking, die niet in het rapport moet worden afgedrukt. U kunt in een REM-rij bijvoorbeeld een toelichting geven op de gekozen opmaak.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Sorteren                        |                                                                   Sorteert onkosten en opbrengsten, sorteert een werkelijk of budgetafwijkingrapport op de grootste afwijking, of sorteert de rijomschrijvingen op alfabetische volgorde.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Gerelateerde formules/rijen/eenheden opgeven
 De cel **Gerelateerde formules/rijen/eenheden** heeft meerdere doeleinden. Afhankelijk van het type rij, kan een cel **Gerelateerde formules/rijen/eenheden** een van de volgende taken uitvoeren:
@@ -211,12 +210,12 @@ Sorteercodes sorteren rekeningen of waarden, sorteren een werkelijk of budgetafw
 
 ### <a name="select-a-sorting-code"></a>Een sorteercode selecteren
 
-1.  Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
-2.  Dubbelklik op de cel **Opmaakcode** en selecteer vervolgens een sorteercode.
-3.  Geef in de cel **Gerelateerde formules/rijen/eenheden** het bereik op van te sorteren rijcodes. Om een bereik op te geven, voert u het volgende in: de eerste rijcode, een dubbelepunt (:) en de laatste rijcode. Voer bijvoorbeeld **160:490** in om op te geven dat het bereik van rij 160 tot rij 490 is.
-4.  Voer in de cel **Kolombeperking** de letter in van de rapportkolom die voor het sorteren moet worden gebruikt. 
-> [!Note] 
-> Neem alleen bedragrijen op in een sorteerberekening.
+1. Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
+2. Dubbelklik op de cel **Opmaakcode** en selecteer vervolgens een sorteercode.
+3. Geef in de cel **Gerelateerde formules/rijen/eenheden** het bereik op van te sorteren rijcodes. Om een bereik op te geven, voert u het volgende in: de eerste rijcode, een dubbelepunt (:) en de laatste rijcode. Voer bijvoorbeeld **160:490** in om op te geven dat het bereik van rij 160 tot rij 490 is.
+4. Voer in de cel **Kolombeperking** de letter in van de rapportkolom die voor het sorteren moet worden gebruikt. 
+   > [!Note] 
+   > Neem alleen bedragrijen op in een sorteerberekening.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Voorbeelden van oplopende en aflopende kolomwaarden
 
@@ -258,41 +257,41 @@ De cel **Opmaakopheffing** geeft de opmaak op die voor de rij wordt gebruikt wan
 
 Valutaopmaak is van toepassing op een fiscaal bedrag en bevat het valutasymbool. De volgende opties zijn beschikbaar:
 
--   **Valutasymbool** – Het valutasymbool voor het rapport. Deze waarde overschrijft de instelling **Landinstellingen** voor de bedrijfsgegevens.
--   **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
--   **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
--   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
-> [!Note] 
-> Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
+- **Valutasymbool** – Het valutasymbool voor het rapport. Deze waarde overschrijft de instelling **Landinstellingen** voor de bedrijfsgegevens.
+- **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
+- **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
+- **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
+  > [!Note] 
+  > Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
 
 ### <a name="numeric-formatting"></a>Numerieke opmaak
 
 Numerieke opmaak is van toepassing op elk bedrag en bevat geen valutasymbool. De volgende opties zijn beschikbaar:
 
--   **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
--   **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
--   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
-> [!Note] 
-> Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
+- **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
+- **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
+- **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
+  > [!Note] 
+  > Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
 
 ### <a name="percentage-formatting"></a>Percentage-opmaak
 
 Percentage-opmaak bevat het procentteken (%). De volgende opties zijn beschikbaar:
 
--   **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
--   **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
--   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
-> [!Note] 
-> Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
+- **Negatieve getallen** - Negatieve getallen kunnen een minteken (-) hebben, tussen haakjes worden weergegeven of een driehoek (∆) hebben.
+- **Aantal decimalen** - Het aantal cijfers dat na de komma moet worden weergegeven.
+- **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
+  > [!Note] 
+  > Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
 
 ### <a name="custom-formatting"></a>Aangepaste opmaak
 
 Gebruik de aangepaste opmaakcategorie om een aangepaste opmaakopheffing te maken. De volgende opties zijn beschikbaar:
 
--   **Type** – De aangepaste opmaak.
--   **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
-> [!Note] 
-> Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
+- **Type** – De aangepaste opmaak.
+- **Tekst voor nulwaardevervanging** - De tekst die in het rapport wordt opgenomen wanneer het bedrag 0 (nul) is. Deze tekst verschijnt als laatste regel in het gebied **Voorbeeld**. 
+  > [!Note] 
+  > Als de afdruk voor nulwaarden of geen periodeactiviteit wordt onderdrukt, wordt deze tekst onderdrukt.
 
 Het type moet de positieve waarde en daarna de negatieve waarde vertegenwoordigen. Doorgaans voert u een vergelijkbare opmaak in die positieve en negatieve waarden onderscheidt. Als u bijvoorbeeld wilt aangeven dat zowel positieve als negatieve waarden twee decimalen hebben, maar negatieve waarden tussen haakjes worden weergegeven, voert u **0.00;(0.00)** in. De volgende tabel geeft aangepaste opmaak weer die u kunt gebruiken om de opmaak van uw waarden te beheren. Alle voorbeelden beginnen vanaf de waarde 1234.56.
 
@@ -387,7 +386,7 @@ Standaard drukt de rapportontwerper geen rij af die geen corresponderend saldo i
 3.  Klik op **Opslaan** in het menu **Bestand** om uw wijzigingen op te slaan.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Jokertekens en -bereiken gebruiken in een rijdefinitie
-Wanneer u een natuurlijke segmentwaarde invoert in het dialoogvenster **Dimensies**, kunt u een jokerteken (? of \*) gebruiken op elke positie van een segment. Report Designer pakt alle waarden voor de opgegeven posities uit zonder rekening te houden met de jokertekens. De rijdefinitie bevat bijvoorbeeld alleen natuurlijke segmentwaarden. Natuurlijke segmenten hebben vier tekens. Door **6???** in te voeren in een rij, geeft u Report Designer opdracxht om alle rekeningen op te nemen met een natuurlijke segmentwaarde die met een 6 begint. Als u **6\*** invoert, worden dezelfde resultaten geretourneerd, maar de resultaten bevatten ook waarden met variabele breedte zoals **60** en **600000**. De rapportontwerper vervangt elk jokerteken (?) met het volledig bereik van mogelijke waarden, zoals letters en speciale tekens. Bijvoorbeeld, in het bereik van **12?0** tot en met **12?4** wordt het jokerteken in **12?0** vervangen door de laagste waarde in het tekenreeks en wordt het jokerteken in **12?4** vervangen door de hoogste waarde in de tekenreeks. 
+Wanneer u een natuurlijke segmentwaarde invoert in het dialoogvenster <strong>Dimensies</strong>, kunt u een jokerteken (? of \*) gebruiken op elke positie van een segment. Report Designer pakt alle waarden voor de opgegeven posities uit zonder rekening te houden met de jokertekens. De rijdefinitie bevat bijvoorbeeld alleen natuurlijke segmentwaarden. Natuurlijke segmenten hebben vier tekens. Door <strong>6???</strong> in te voeren in een rij, geeft u Report Designer opdracxht om alle rekeningen op te nemen met een natuurlijke segmentwaarde die met een 6 begint. Als u <strong>6\</strong><em> invoert, worden dezelfde resultaten geretourneerd, maar de resultaten bevatten ook waarden met variabele breedte zoals **60</em>* en <strong>600000</strong>. De rapportontwerper vervangt elk jokerteken (?) met het volledig bereik van mogelijke waarden, zoals letters en speciale tekens. Bijvoorbeeld, in het bereik van <strong>12?0</strong> tot en met <strong>12?4</strong> wordt het jokerteken in <strong>12?0</strong> vervangen door de laagste waarde in het tekenreeks en wordt het jokerteken in <strong>12?4</strong> vervangen door de hoogste waarde in de tekenreeks. 
 > [!Note] 
 > Gebruik jokertekens niet voor de eerste en laatste rekeningen in bereiken. Als u in jokertekens gebruikt in de eerste rekening of de laatste rekening, krijgt u mogelijk onverwachte resultaten.
 
@@ -466,15 +465,15 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 
 ### <a name="update-a-set-of-dimension-values"></a>Een set dimensiewaarden bijwerken
 
-1.  Open in Rapportontwerper de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
-2.  Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
-3.  Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
-4.  Selecteer in de lijst de set van dimensiewaarden die u wilt bijwerken en klik vervolgens op **Wijzigen**.
-5.  Open het dialoogvenster **Wijzigen** en wijzig de formulewaarden die in de set moeten worden opgenomen. 
-> [!Note] 
-> Als u nieuwe rekeningen of dimensies toevoegt, moet u de bestaande sets van dimensiewaarden wijzigen om de wijzigingen op te nemen.
-6.  Dubbelklik op de cel en selecteer de juiste operator, **Van**-rekening en **Naar**-rekening.
-7.  Klik op **OK** om het dialoogvenster **Wijzigen** te sluiten en wijzigingen op te slaan.
+1. Open in Rapportontwerper de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
+2. Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
+3. Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
+4. Selecteer in de lijst de set van dimensiewaarden die u wilt bijwerken en klik vervolgens op **Wijzigen**.
+5. Open het dialoogvenster **Wijzigen** en wijzig de formulewaarden die in de set moeten worden opgenomen. 
+   > [!Note] 
+   > Als u nieuwe rekeningen of dimensies toevoegt, moet u de bestaande sets van dimensiewaarden wijzigen om de wijzigingen op te nemen.
+6. Dubbelklik op de cel en selecteer de juiste operator, **Van**-rekening en **Naar**-rekening.
+7. Klik op **OK** om het dialoogvenster **Wijzigen** te sluiten en wijzigingen op te slaan.
 
 ### <a name="copy-a-dimension-set"></a>Een dimensieset kopiëren
 

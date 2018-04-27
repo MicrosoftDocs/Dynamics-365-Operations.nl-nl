@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Coupons voor detailhandelverkoop maken
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Overzicht van coupons
 
@@ -46,9 +45,12 @@ Om een coupon te maken, maakt u de korting en de coupon afzonderlijk. U koppelt 
 
 ### <a name="limited-use-coupons"></a>Coupons met gebruiksbeperkingen
 
-Coupons kunnen worden geconfigureerd als coupons met gebruiksbeperkingen. Deze beperkingen kunnen worden gedefinieerd per klant of kanaal of als een algehele beperking. De beperking wordt toegepast wanneer de code of de streepjescode wordt ingevoerd of gescand in POS of tijdens het boeken van een verkooporder. Een coupon wordt vastgelegd als gebruikt wanneer een order is voltooid waaraan de coupon is gekoppeld.
+Coupons kunnen worden geconfigureerd als coupons met gebruiksbeperkingen. Deze beperkingen kunnen worden gedefinieerd per klant of kanaal of als een algehele beperking. De beperking wordt toegepast wanneer de code of de streepjescode wordt ingevoerd of gescand in POS of tijdens het boeken van een verkooporder.
 
 De beperking wordt afgedwongen per couponcode op een coupon. Een coupon voor eenmalig gebruik met twee couponcodes kan bijvoorbeeld twee maal worden gebruikt: voor elke couponcode één keer. Elke code op een coupon kan afzonderlijk worden ingesteld om actief te zijn.
+
+> [!NOTE]
+> Zodra een couponcode de gebruikslimiet heeft bereikt, wordt *niet* automatisch de status van de couponcode gewijzigd in 'Gebruikt'. Het systeem staat echter verder gebruik niet toe van een couponcode waarvan de gebruikslimiet is bereikt. Als de status van een couponcode handmatig is ingesteld op iets anders dan 'Actief', kan deze couponcode niet worden gebruikt in een kanaal.
 
 ## <a name="managing-coupons"></a>Coupons beheren
 
@@ -68,8 +70,8 @@ Voordat u een coupon kunt instellen, moet u de streepjescode en twee nummerreeks
     > [!NOTE]
     > U moet voor beide nummerreeksen het veld **Bereik** instellen op **Bedrijf**. In de meeste gevallen moet u beide volgnummers automatisch genereren.
 
-5.  Selecteer op de pagina **Gedeelde parameters detailhandel** op het tabblad **Streepjescodes** de streepjescode die u eerder hebt gemaakt.
-6.  Selecteer op de pagina **Detailhandelparameters** op het tabblad **Nummerreeksen** de nummerreeksen die u hebt gemaakt voor het couponnummer en de couponcode-id.
+5.  Selecteer op de pagina **Parameters detailhandel** op het tabblad **Streepjescodes** de streepjescode die u eerder hebt gemaakt.
+6.  Selecteer op de pagina **Gedeelde parameters detailhandel** op het tabblad **Nummerreeksen** de nummerreeksen die u hebt gemaakt voor het couponnummer en de couponcode-id.
 7.  U kunt nu de pagina **Coupons** openen en nieuwe coupons maken.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Het effect van gedeeltelijke updates op coupons
