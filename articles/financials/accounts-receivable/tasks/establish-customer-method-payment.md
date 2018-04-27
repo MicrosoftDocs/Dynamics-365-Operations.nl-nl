@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-method-of-payment"></a>Betalingsmethode van klant vaststellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Maak een betalingsmethode voor klantbetalingen. Bij deze taak wordt het demobedrijf USMF gebruikt.
 

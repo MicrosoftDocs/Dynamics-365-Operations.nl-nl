@@ -3,12 +3,12 @@ title: Startpagina Kostenbeheer
 description: Met Kostenbeheer kunt u de waardering en boekhouding van grondstoffen, halffabricaten, eindproducten en onderhanden werk afhandelen.
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Startpagina Kostenbeheer
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met [Kostenbeheer (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) kunt u werken met de waardering en boekhouding van grondstoffen, halffabricaten, eindproducten en onderhanden werk. Dit is het proces voor het definiëren, beheren en rapporteren van [voorraadboekhouding](cost-object.md) en [productieboekhouding](bom-calculations.md).
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Verkoop- en margeprestaties bewaken
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 U kunt in real-time verkoop- en margeprestaties bewaken met Microsoft Dynamics 365 for Retail.
 

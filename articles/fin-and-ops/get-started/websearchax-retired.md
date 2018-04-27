@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>WebSearchAX buiten gebruik gesteld
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 We hebben de pagina WebSearchAX buiten gebruik gesteld. U wordt aangeraden vanaf nu de functie voor het zoeken van sites van uw favoriete zoekmachine te gebruiken.  Bijvoorbeeld: 
 

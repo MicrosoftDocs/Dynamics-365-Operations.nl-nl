@@ -28,8 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Klanten en Crediteringen en aanmaningen configureren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Configureer Klanten en Crediteringen en aanmaningen om facturen en binnenkomende betalingen van klanten bij te houden.
 
@@ -107,7 +106,7 @@ In de volgende tabel worden de pagina's weergegeven die de configuratie en het o
 |                                                      | Informatie over ontoereikend saldo.                     | Informatie over ontoereikend saldo instellen voor de bankrekening die wordt gebruikt wanneer een betaling als transactie met ontoereikend saldo is gemarkeerd op de pagina Aanmaningen.                                                                                                                                              |
 |                                                      | Gegevens verkoper              | Het e-mailadres voor verkopers instellen. Deze adressen worden op de pagina Aanmaningen weergegeven en u kunt deze gebruiken om vanaf die pagina een e-mailbericht naar een verkoper te verzenden.                                                                                                                |
 
- 
+
 Zie [Crediteringen en aanmaningen in Klanten](collections-credit-accounts-receivable.md) voor meer informatie.
 
 

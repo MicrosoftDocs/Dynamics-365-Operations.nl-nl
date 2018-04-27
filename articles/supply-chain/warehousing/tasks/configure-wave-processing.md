@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-wave-processing"></a>Waveverwerking configureren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat voor werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt. U kunt de criteria opgeven door wavesjablonen en query's in te stellen die overeenstemmen met een wave met vrijgegeven regels in verkooporders, productieorders of kanbanorders. De waveverwerking wordt gebruikt in magazijnen die de functionaliteit in de module Magazijnbeheer gebruiken, en niet in magazijnen die de functionaliteit in de module Voorraadbeheer gebruiken. U kunt deze procedure in het bedrijf USMF van de demogegevens uitvoeren.
 

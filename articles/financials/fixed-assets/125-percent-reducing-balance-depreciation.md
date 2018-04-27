@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 125 procent
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 125 procent.
 
@@ -68,6 +67,7 @@ Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties 
 -   **Boekperiode**: boekt het totale bedrag van de afschrijving dat is berekend voor het boekjaar op de laatste dag van het boekjaar. Dit bedrag wordt toegerekend in de boekperioden die zijn gedefinieerd op de pagina **Fiscale kalenders**.
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Voorbeeld van een 125% degressieve afschrijving
+
 |                                |        |
 |--------------------------------|--------|
 | Bijboekingskosten               | 11.000 |

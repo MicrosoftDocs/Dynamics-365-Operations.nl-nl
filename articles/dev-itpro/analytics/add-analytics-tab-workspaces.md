@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met behulp van Power BI Embedded
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Deze functie wordt ondersteund in Dynamics 365 for Finance and Operations (versie 7.2 en hoger).
@@ -50,7 +50,7 @@ Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Een .pbix-bestand toevoegen als een resource
 Voordat u begint, moet u het Power BI-rapport dat u in het werkgebied wilt insluiten, maken of ophalen. Meer informatie over het maken van analytische rapporten vindt u in [Aan de slag met Power BI-bureaublad](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio projectartefact.
 
 1. Maak een nieuw project in het juiste model.
@@ -63,12 +63,12 @@ Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio proje
 5. Zoek het .pbix-bestand dat de definitie van het analytische rapport bevat en klik op **Openen**.
 
     ![Het dialoogvenster met een bronbestand selecteren](media/analytical-workspace-select-resource.png)
-  
+
 Nu u het .pbix-bestand hebt toegevoegd als een Dynamics 365-resource, kunt u rapporten insluiten in werkgebieden en rechtstreekse koppelingen toevoegen via menuopties.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Een tabbesturingselement toevoegen aan een toepassingswerkgebied
 In dit voorbeeld breiden we het werkgebied **Reserveringsbeheer** in het model Wagenparkbeheer uit door het toevoegen van het tabblad **Analyses** aan de definitie van het formulier **FMClerkWorkspace**.
- 
+
 In de volgende afbeelding ziet u hoe het formulier **FMClerkWorkspace** eruit ziet in de ontwerper in Microsoft Visual Studio.
 
 ![Formulier FMClerkWorkspace voor het wijzigen](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Volg deze stappen om de formulierdefinitie voor het werkgebied **Reserveringsbeh
 16. Klik met de rechtermuisknop en selecteer **Patroon verwijderen**.
 17. Klik nogmaals met de rechtermuisknop en selecteer **Patroon toevoegen** > **Werkgebied met tabbladen**.
 18. Voer een build uit om uw wijzigingen te controleren.
- 
+
 In de volgende afbeelding ziet u hoe het ontwerp eruitziet nadat deze wijzigingen zijn toegepast.
 
 ![FMClerkWorkspace na wijzigingen](media/analytical-workspace-definition-after.png)
 
 U hebt nu de besturingselementen voor het formulier toegevoegd die worden gebruikt voor het insluiten van het werkgebiedrapport. Vervolgens moet u de grootte van het bovenliggende besturingselement definiëren zodat dit geschikt is voor de lay-out. Standaard zijn de pagina **Filtervenster** en de pagina **Tabblad** zichtbaar in het rapport. U kunt echter de zichtbaarheid van deze besturingselementen wijzigen afhankelijk van de eindgebruiker van het rapport.
- 
+
 > [!NOTE]
 > Voor ingesloten werkgebieden kunt u het beste uitbreidingen gebruiken om de pagina's **Filtervenster** en **Tabblad** te verbergen vanwege de consistentie.
- 
+
 U hebt nu de taak voor het uitbreiden van de formulierdefinitie van de toepassing voltooid. Voor meer informatie over het gebruik van uitbreidingen en aanpassingen zie[Aanpassen met extensies en overlayering](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++-bedrijfslogica toevoegen om een besturingselement voor weergave in te sluiten
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parameters
 
-| Naam | Omschrijving |
-|---|---|
-| resourceName | De naam van de .pbix-resource. |
-| formGroupControl | Het besturingselement van de formuliergroep waarop het Power BI-rapportbesturingselement wordt toegepast. |
-| defaultPageName | De standaardpaginanaam. |
-| showFilterPane | Een Booleaanse waarde die aangeeft of het filtervenster moet worden weergegeven (**true**) of verborgen (**false**). |
-| showNavPane | Een Booleaanse waarde die aangeeft of het navigatievenster moet worden weergegeven (**true**) of verborgen (**false**). |
-| defaultFilters | De standaardfilters voor het Power BI-rapport. |
+|       Naam       |                                                              Omschrijving                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    De naam van de .pbix-resource.                                                     |
+| formGroupControl |                                    Het besturingselement van de formuliergroep waarop het Power BI-rapportbesturingselement wordt toegepast.                                     |
+| defaultPageName  |                                                         De standaardpaginanaam.                                                         |
+|  showFilterPane  |   Een Booleaanse waarde die aangeeft of het filtervenster moet worden weergegeven (<strong>true</strong>) of verborgen (<strong>false</strong>).   |
+|   showNavPane    | Een Booleaanse waarde die aangeeft of het navigatievenster moet worden weergegeven (<strong>true</strong>) of verborgen (<strong>false</strong>). |
+|  defaultFilters  |                                              De standaardfilters voor het Power BI-rapport.                                              |
+
 

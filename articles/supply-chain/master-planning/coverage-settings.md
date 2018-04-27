@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd85f89917659ac9c94590bace765b2123d6e556
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="coverage-settings"></a>Behoefteplanningsinstellingen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Voor de hoofdplanning wordt gebruikgemaakt van behoefteplanningsinstellingen om artikelbehoeften te berekenen. 
 
@@ -46,7 +45,7 @@ U kunt behoefteplanningsinstellingen op verschillende manieren instellen:
 
 <!-- -->
 
--   Geef behoefteplanningsinstellingen op voor een dimensiegroep. Klik op **Productgegevensbeheer &gt; Algemeen &gt; Vrijgegeven producten**. Klik op de pagina **Vrijgegeven productdetail** op het tabblad **Algemeen** in de groep **Administratie** op de koppeling **Opslagdimensiegroep**. Selecteer op de pagina **Opslagdimensiegroep** het veld **In behoefteplan opnemen volgens dimensie** om de behoefteplanningsinstellingen voor een dimensie in de opslagdimensiegroep te maken. Alle productdimensies, zoals configuratie, kleur, grootte, stijl, moeten het veld **In behoefteplan opnemen volgens dimensie** hebben geselecteerd.
+- Geef behoefteplanningsinstellingen op voor een dimensiegroep. Klik op <strong>Productgegevensbeheer &gt; Algemeen &gt; Vrijgegeven producten</strong>. Klik op de pagina <strong>Vrijgegeven productdetail **op het tabblad **Algemeen</strong>, in de groep <strong>Administratie</strong> op de koppeling <strong>Opslagdimensiegroep</strong>. Selecteer op de pagina <strong>Opslagdimensiegroep</strong> het veld <strong>In behoefteplan opnemen volgens dimensie</strong> om de behoefteplanningsinstellingen voor een dimensie in de opslagdimensiegroep te maken. Alle productdimensies, zoals configuratie, kleur, grootte, stijl, moeten het veld <strong>In behoefteplan opnemen volgens dimensie</strong> hebben geselecteerd.
 
 
 

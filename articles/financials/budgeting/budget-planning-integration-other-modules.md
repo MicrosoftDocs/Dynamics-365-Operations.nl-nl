@@ -19,16 +19,18 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Budgetplanningsintegratie met andere modules
 
-[!include[banner](../includes/banner.md)] Budgetplannen kunnen worden gegenereerd op basis van meerdere verschillende bronnen: De basiselementen van het periodieke proces zijn hetzelfde voor alle bronnen. 
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Budgetplannen kunnen worden gegenereerd op basis van meerdere verschillende bronnen: De basiselementen van het periodieke proces zijn hetzelfde voor alle bronnen. 
 
 
 
@@ -66,7 +68,7 @@ Met de optie **Historisch** op het tabblad **Doel** kunt u de datums van de bron
 
 Het veld **Totaal samentellen volgens** bovenaan de pagina bepaalt ook de datum die wordt gebruikt. Dit veld bevat totale bedragen en stelt desgewenst de ingangsdatum in op de eerste dag van het boekjaar of de boekperiode. 
 
-Veel van de velden op het **Doel** tabblad kunnen worden bewerkt of zijn alleen-lezen, afhankelijk van de actie die u selecteert. Wanneer u echter overgaat van het maken van een nieuw budgetplan naar het bijwerken van een bestaand plan, is het veld **Naam van budgetplan** niet langer beschikbaar, en worden de velden voor het selecteren van een bestaand plan beschikbaar. Op zowel het tabblad **Doel** als het tabblad **Bron** is het veld **Grootboek** altijd niet-beschikbaar, omdat de waarde door het geselecteerde budgetplanningsproces wordt bepaald. 
+Veel van de velden op het <strong>Doel</strong> tabblad kunnen worden bewerkt of zijn alleen-lezen, afhankelijk van de actie die u selecteert. Wanneer u echter overgaat van het maken van een nieuw budgetplan naar het bijwerken van een bestaand plan, is het veld <strong>Naam van budgetplan</strong> niet langer beschikbaar, en worden de velden voor het selecteren van een bestaand plan beschikbaar. Voor zowel het <strong>Doel</strong> tabblad als het <strong>Bron **tabblad, is het veld **Grootboek</strong> altijd niet-beschikbaar, omdat de waarde door het geselecteerde budgetplanningsproces wordt gedefinieerd. 
 
 In het veld **Budgetklasse** kunt u de regels van het budgetplan instellen als onkostentransacties of opbrengsttransacties. Doorgaans worden de opbrengsttransacties als kredieten opgenomen in een grootboekrekening en daarom als negatieve bedragen opgeslagen. Doorgaans worden deze transacties ook als negatieve bedragen in het budgetplan weergegeven. Door de budgetklasse als een veld aan de planindeling toe te voegen kunt u opbrengst weer laten geven als positieve bedragen.
 
@@ -111,7 +113,7 @@ Er is geen veld **Butgetklasse**, omdat de budgetklasse (**Onkosten** of **Opbre
 
 U kunt projectbudgetten als bron gebruiken door het prognosemodel te selecteren dat de projectbudgetbedragen bevat. Denk eraan dat de projectbudgetten projectprognoseregels maken als ze worden goedgekeurd.
 
-Om alleen kosten en opbrengsten voor de budgetplanregels te selecteren, gebruikt u het filter om **Updates budget: Type bedrag = Kosten** te selecteren. Als u slechts één type prognose wilt selecteren, gebruikt u het filter om **Budgetupdates: Transactietype = *xxx*** te selecteren. 
+Om alleen kosten en opbrengsten voor de budgetplanregels te selecteren, gebruikt u het filter om <strong>Updates budget: Type bedrag = Kosten</strong> te selecteren. Als u slechts één type prognose wilt selecteren, gebruikt u het filter <strong>Budgetupdates: Transactietype = *xxx</strong>* te selecteren. 
 
 Slechts één prognosemodel kan worden gebruikt om een scenario van het budgetplanscenario te genereren. Als u het proces voor een prognosemodel en dan een update uitvoert en probeert een ander model op te geven, wordt het eerste model overschreven als hetzelfde project en dezelfde grootboekrekeningen van toepassing zijn. U kunt een budgetplanscenario genereren van meer dan één prognosemodel door in verschillende budgetplanscenario's te genereren en de toewijzingsopties te gebruiken om deze samen te voegen in een ander scenario. 
 

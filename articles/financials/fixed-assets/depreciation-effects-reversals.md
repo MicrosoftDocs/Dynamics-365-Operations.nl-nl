@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Afschrijvingseffecten met omkeringen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel worden mogelijke implicaties van het terugboeken van een vaste-activatransactie beschreven. 
 

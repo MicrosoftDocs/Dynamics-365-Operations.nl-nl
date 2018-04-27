@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docken van productieorders naar outbound docks
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u het proces van cross-docken van gereedgemeld materiaal van een productieregel naar een outbound transportdock kunt beheren.
 
@@ -76,10 +76,10 @@ In het **Beleid voor cross-docken** definieert u welke documenttypen van toepass
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Naam van beleid voor cross-docken: transferorder
 
--   Volgnummer: 10
- -   Werkordertype: transferuitgifte
--   Voor verzoek om cross-docken is locatie vereist: Onwaar
--   Strategie voor cross-docken: datum en tijd
+- Volgnummer: 10
+  -   Werkordertype: transferuitgifte
+- Voor verzoek om cross-docken is locatie vereist: Onwaar
+- Strategie voor cross-docken: datum en tijd
 
 ### <a name="sequence-number"></a>Volgnummer
 

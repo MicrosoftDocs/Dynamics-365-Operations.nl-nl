@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-tracing-for-explosion"></a>Tracering gebruiken voor explosie
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt uitgelegd hoe u tracering kunt gebruiken om de oorzaken achter het resultaat van een orderexplosie te onderzoeken.
 

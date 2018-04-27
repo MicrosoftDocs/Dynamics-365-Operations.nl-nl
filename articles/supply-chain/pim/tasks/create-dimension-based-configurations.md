@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-dimension-based-configurations"></a>Op dimensies gebaseerde configuraties maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een configuratie voor een op dimensies gebaseerd product definieert. Dit is de laatste procedure in de reeks waarin wordt uitgelegd hoe u combinaties maakt voor een op dimensies gebaseerde configuratie. De uitvoering van deze procedure is afhankelijk van de gegevens die in de vorige zeven registraties zijn gemaakt. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

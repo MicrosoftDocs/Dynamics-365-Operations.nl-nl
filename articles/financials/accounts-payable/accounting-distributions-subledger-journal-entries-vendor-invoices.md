@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden verwerkt, zoals hoe de onkosten, BTW of heffingen zullen worden verwerkt op een leveranciersfactuur. Elk bedrag dat moet worden verwerkt wanneer de leveranciersfactuur in het boekhoudingsjournaal wordt vastgelegd, heeft een of meerdere boekhoudingsverdelingen. 
 
@@ -231,7 +230,7 @@ Wanneer u een leveranciersfactuur invoert, wordt elk bedrag als volgt verdeeld.
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>Belastingen verdelen
 ------------------
 

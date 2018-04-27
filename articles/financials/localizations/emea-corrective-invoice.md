@@ -26,10 +26,11 @@ ms.lasthandoff: 03/21/2018
 
 # <a name="corrective-invoicing"></a>Correctieve facturering
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
  > [!NOTE]
  > Dit onderwerp is van toepassing voor rechtspersonen met een primair adres in Denemarken, Duitsland, Frankrijk, Ierland, Nederland of het Verenigd Koninkrijk.
- 
+
 Een creditnota is een document dat het bedrag dat de koper heeft betaald, vermindert of schrapt.
 
 Een creditnota geeft een overzicht van de producten, hoeveelheden en overeengekomen prijzen voor producten of services die de verkoper aan de koper verstrekt, maar die de koper heeft geretourneerd of niet heeft ontvangen. Een creditnota kan worden afgegeven in het geval van beschadigde goederen, fouten of vergoedingen. Voor sommige landen/regio's kunt u met creditnota's zowel een correctieregel als een nieuwe correcte regel toevoegen. De creditnota voor verkoopfacturen en vrije-tekstfacturen gebruikt dezelfde indeling als de factuur met de volgende verschillen:

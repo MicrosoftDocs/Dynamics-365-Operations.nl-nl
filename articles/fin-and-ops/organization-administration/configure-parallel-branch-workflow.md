@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Een parallelle vertakking in een workflow configureren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Voer de volgende procedures uit in de workfloweditor om een parallelle vertakking te configureren.
 

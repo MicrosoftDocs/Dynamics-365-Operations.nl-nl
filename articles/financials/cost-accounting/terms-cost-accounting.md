@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Terminologie voor kostprijsboekhouding
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp worden de belangrijkste termen gedefinieerd die in Kostprijsboekhouding worden gebruikt.
 
@@ -150,14 +149,14 @@ Met formuletoewijzingsgrondslagen kunt u geavanceerde formules definiëren voor 
 |  + |  Optelling |
 |  – |  Aftrekken |
 | *  | Vermenigvuldigen  |
-    
+
 Traditionele IF-instructies worden niet ondersteund. U kunt echter instructies maken en nagaan of deze waar zijn.
 
 |  **Instructievalidatie** | **Resultaat**  |
 |---|---|
 |  a > b| Waar  |
 |  a > b |  Onwaar |
-    
+
 **Overheadkosten**
 
 Overheadkosten verwijzen naar de doorlopende uitgaven die gerelateerd zijn aan het runnen van een bedrijf. Dit zijn kosten die niet rechtstreeks aan bepaalde zakelijke activiteiten kunnen worden gekoppeld. Hieronder staan enkele voorbeelden van overheadkosten:

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Financiële rapporten weergeven en ontwerpen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat oefeningen waarin wordt uitgelegd hoe u financiële rapporten voor Microsoft Dynamics 365 for Finance and Operations kunt weergeven en maken. Financiële rapportage bestaat uit een weergave-ervaring in Finance and Operations en een ClickOnce-rapportontwerper waarmee u financiële rapporten kunt maken en bewerken.  
 

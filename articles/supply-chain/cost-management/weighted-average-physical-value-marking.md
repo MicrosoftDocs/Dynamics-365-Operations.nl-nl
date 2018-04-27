@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Gewogen gemiddelde met fysieke waarde en markering
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Het gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het gewogen-gemiddeldeprincipe, waarbij uitgiften vanuit de voorraad worden gewaardeerd op de gemiddelde waarde van de artikelen die in de voorraad worden ontvangen gedurende de voorraadafsluitingsperiode, plus eventuele voorhanden voorraad van de vorige periode.
 
@@ -74,16 +74,16 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 ![Gewogen gemiddelde DS zonder de optie fysieke waarde opnemen](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
--   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
--   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
--   Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
+- Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
+- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
+- Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
+- Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Samengevatte vereffening op basis van een gewogen gemiddelde zonder de optie Fysieke waarde opnemen
 Voor gewogen gemiddelden wordt gebruikgemaakt van het vereffeningsprincipe dat alle ontvangsten binnen een afsluitingsperiode worden samengevat in een transactie met de naam Gewogen gemiddelde eindvoorraad. Alle ontvangsten voor de periode worden vereffend met de uitgifte van deze nieuwe voorraadoverboekingstransactie. Alle uitgiften voor de periode worden vereffend met de ontvangst van de nieuwe voorraadoverboekingstransactie. Als de voorhanden voorraad na de voorraadafsluiting positief is, worden die voorhanden voorraad en de waarde van de voorraad samengevat in de nieuwe voorraadoverboekingstransactie (ontvangst). Is de voorhanden voorraad na de voorraadafsluiting negatief, dan zijn de voorhanden voorraad en de waarde van de voorraad de som van de afzonderlijke uitgiften die nog niet volledig zijn vereffend. In het onderstaande scenario zijn verschillende financieel bijgewerkte ontvangsten en één uitgifte geboekt. 
@@ -108,18 +108,18 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 ![Gewogen gemiddelde SS zonder de optie fysieke waarde opnemen](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
--   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
--   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
--   Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
--   Rode pijlen duiden op ontvangsttransacties die worden vereffend met de uitgiftetransactie die is gemaakt door het systeem.
--   De groene pijl staat voor de door het systeem gegenereerde ontvangsttransactie waarmee de oorspronkelijk geboekte uitgiftetransactie wordt vereffend
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
+- Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
+- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
+- Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
+- Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
+- Rode pijlen duiden op ontvangsttransacties die worden vereffend met de uitgiftetransactie die is gemaakt door het systeem.
+- De groene pijl staat voor de door het systeem gegenereerde ontvangsttransactie waarmee de oorspronkelijk geboekte uitgiftetransactie wordt vereffend
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Directe vereffening op basis van een gewogen gemiddelde met de optie Fysieke waarde opnemen
 De parameter Fysieke waarde opnemen werkt anders in combinatie met het voorraadmodel van het gewogen gemiddelde dan in eerdere versies van het product. Schakel het selectievakje Fysieke waarde opnemen in voor een artikel op de pagina Artikelmodelgroepen. Vervolgens worden fysiek bijgewerkte ontvangsten gebruikt bij het berekenen van de geraamde kostprijs of de lopende, gemiddelde kostprijs. Uitgiften worden geboekt op basis van deze geraamde kostprijs tijdens de periode. Tijdens de voorraadafsluiting worden alleen financieel bijgewerkte ontvangsten meegenomen in de berekening van het gewogen gemiddelde. We raden u aan een maandelijkse voorraadafsluiting uit te voeren wanneer u het voorraadmodel van het gewogen gemiddelde gebruikt. In dit voorbeeld van een directe vereffening op basis van een gewogen gemiddelde is de artikelmodelgroep gemarkeerd voor het opnemen van de fysieke waarde. 
@@ -137,16 +137,16 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 ![Gewogen gemiddelde DS met fysieke waarde opnemen](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
--   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
--   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
--   Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
+- Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
+- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
+- Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
+- Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Samengevatte vereffening op basis van een gewogen gemiddelde met de optie Fysieke waarde opnemen
 De parameter Fysieke waarde opnemen werkt anders in combinatie met het gewogen gemiddelde dan in eerdere versies van het programma. Schakel het selectievakje Fysieke waarde opnemen in voor een artikel op de pagina Artikelmodelgroepen. Vervolgens worden fysiek bijgewerkte ontvangsten gebruikt bij het berekenen van de geraamde kostprijs of de lopende, gemiddelde kostprijs. Uitgiften worden tijdens de periode geboekt op basis van deze geschatte kostprijs. Tijdens de voorraadafsluiting worden alleen financieel bijgewerkte ontvangsten meegenomen in de berekening van het gewogen gemiddelde. We raden u aan een maandelijkse voorraadafsluiting uit te voeren wanneer u het gewogen gemiddelde voorraadmodel gebruikt. In dit voorbeeld van een samengevatte vereffening op basis van een gewogen gemiddelde is het voorraadmodel gemarkeerd voor het opnemen van de fysieke waarde. 
@@ -170,18 +170,18 @@ In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het
 ![Gewogen gemiddelde SS met de optie fysieke waarde](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
--   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
--   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals 1a. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
--   Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
--   Rode pijlen duiden op ontvangsttransacties die worden vereffend met de uitgiftetransactie die is gemaakt door het systeem.
--   De groene pijl staat voor de door het systeem gegenereerde ontvangsttransactie waarmee de oorspronkelijk geboekte uitgiftetransactie wordt vereffend
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
+- Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
+- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
+- Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende ID, zoals 1a. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
+- Vereffeningen die worden uitgevoerd tijdens de voorraadafsluiting, worden vertegenwoordigd door gestippelde rode pijlen die diagonaal van een ontvangst naar een uitgifte lopen.
+- Rode pijlen duiden op ontvangsttransacties die worden vereffend met de uitgiftetransactie die is gemaakt door het systeem.
+- De groene pijl staat voor de door het systeem gegenereerde ontvangsttransactie waarmee de oorspronkelijk geboekte uitgiftetransactie wordt vereffend
 
 ## <a name="weighted-average-with-marking"></a>Gewogen gemiddelde met markering
 Markeren is een proces waarmee u een uitgiftetransactie aan een ontvangsttransactie kunt koppelen (of markeren). Markering kan plaatsvinden voor- of nadat een transactie is geboekt. U kunt markering gebruiken als u zeker wilt zijn van de juiste kosten van de voorraad wanneer de transactie wordt geboekt of wanneer de voorraad wordt afgesloten. 
@@ -218,16 +218,16 @@ In het volgende diagram wordt voor deze reeks transacties het effect geïllustre
 ![Gewogen gemiddelde met markering](./media/weightedaveragewithmarking.gif) 
 
 **Uitleg bij diagram**
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
--   Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
--   Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
--   Vereffeningen door voorraadafsluitingen worden aangegeven met rode stippelpijlen die diagonaal van een ontvangst naar een uitgifte lopen.
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
+- Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
+- Boven of onder elke verticale pijl ziet u de waarde van de voorraadtransactie met de notatie Hoeveelheid@"Unitprice".
+- Een voorraadtransactiewaarde tussen haakjes geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
+- Een voorraadtransactiewaarde zonder haakjes geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende ID, zoals *1a*. De ID's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label Voorraadafsluiting.
+- Vereffeningen door voorraadafsluitingen worden aangegeven met rode stippelpijlen die diagonaal van een ontvangst naar een uitgifte lopen.
 
 
 

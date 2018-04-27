@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Een gegevensbron beheren voor het grootboek van kostprijsboekhouding
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Gebruik deze procedure voor het beheren van de gegevensbron voor het grootboek voor een grootboek van kostprijsboekhouding. Zorg voordat u deze taak voltooit dat u de taakbegeleiders 'Een grootboek van kostprijsboekhouding maken' en 'Kostenbeheereenheden definiëren' afspeelt. Deze registratie gebruikt het USP2-demogegevensbedrijf.
 

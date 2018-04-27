@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Gebruikersvoorkeuren in Ontwerper financiële rapporten
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aanpassen van uw gebruikersinteracties in Ontwerper financiële rapporten en de ervaring bij eerste aanmelding bepaalt. U kunt ook bepalen hoe afzonderlijke rapporten, de rapportbibliotheek en de standaardbestandslocaties worden weergegeven. 
 
@@ -63,7 +62,7 @@ In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aa
 <td>Selecteer of u een waarschuwingsbericht wilt ontvangen wanneer u de toepassing afsluit. Dit bericht helpt te garanderen dat u niet per ongeluk het programma afsluit.</td>
 </tr>
 <tr class="odd">
-<td>Automatisch onderstrepen van cellen toepassen in kolomkoppen</td>
+<td>Automatisch cellen in kolomkoppen onderstrepen</td>
 <td>Selecteer of u een onderstreping wilt invoegen in de cel van een nieuwe kolomkop.</td>
 </tr>
 <tr class="even">

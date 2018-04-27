@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-a-free-text-invoice"></a>Een vrije-tekstfactuur invoeren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakbegeleiding toont het maken van een vrije-tekstfactuur. Bij deze taak wordt het demobedrijf USMF gebruikt.
 

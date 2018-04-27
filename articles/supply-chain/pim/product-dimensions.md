@@ -29,10 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>Productdimensies
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Er zijn vier productdimensies: stijl, configuratie, grootte en kleur. U combineert productdimensies in dimensiegroepen en wijst dimensiegroepen aan productmodellen toe. De combinaties van productdimensies bepalen hoe productvarianten worden gedefinieerd.
 
@@ -51,6 +50,7 @@ Waarden voor productdimensies, zoals Grootte, Kleur en Stijl kunnen worden gema
 -   Klik op **Productgegevensbeheer** &gt; **Vrijgegeven producten**. Een productmodel selecteren. Klik in het **Actievenster** op **Product**. Klik in de groep **Productmodel** op **Productdimensies**.
 
 Het aantal varianten dat u voor een artikel maakt, wordt beperkt door het aantal mogelijke productdimensiecombinaties.
+
 | **Tip**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Wanneer u een product bijvoorbeeld op een orderregel gebruikt, selecteert u de productdimensies om de productvariant waarmee u wilt werken, te identificeren. |

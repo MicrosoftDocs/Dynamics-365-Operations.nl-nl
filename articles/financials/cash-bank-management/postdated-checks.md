@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Gepostdateerde cheques
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over ondersteuning voor gepostdateerde cheques in Microsoft Dynamics 365 for Finance and Operations. Gepostdateerde cheques zijn cheques die worden uitgegeven om betalingen op een datum in de toekomst uit te voeren en te ontvangen. Daarom kan de cheque pas op de opgegeven datum worden geïnd.
 
@@ -76,14 +75,14 @@ Als uw originele cheque voor een leverancier of klant verloren of beschadigd is 
 <td>U kunt een geboekte gepostdateerde cheque in dergelijke situaties annuleren: de cheque wordt geretourneerd door de bank.
 - De cheque is toegepast op een verkeerde factuur.
 - De cheque is contant betaald.
-</td>
-</tr>
-<tr class="even">
-<td>Betaling voor een gepostdateerde cheque stoppen</td>
-<td>U kunt de betaling stopzetten voor een gepostdateerde cheque die aan een leverancier is uitgeschreven, bijvoorbeeld omdat er sprake is van onvoldoende fondsen, omdat de voorwaarden van de overeenkomst met de leverancier zijn gewijzigd, omdat de leverancier defecte goederen heeft geleverd of omdat er goederen aan de leverancier zijn geretourneerd. Het is alleen mogelijk om de betaling stop te zetten voor cheques die niet zijn verrekend.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Betaling voor een gepostdateerde cheque stoppen</td>
+  <td>U kunt de betaling stopzetten voor een gepostdateerde cheque die aan een leverancier is uitgeschreven, bijvoorbeeld omdat er sprake is van onvoldoende fondsen, omdat de voorwaarden van de overeenkomst met de leverancier zijn gewijzigd, omdat de leverancier defecte goederen heeft geleverd of omdat er goederen aan de leverancier zijn geretourneerd. Het is alleen mogelijk om de betaling stop te zetten voor cheques die niet zijn verrekend.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

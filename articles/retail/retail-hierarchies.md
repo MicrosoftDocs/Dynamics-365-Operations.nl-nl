@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>Detailhandelhiërarchieën
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel worden detailhandelhiërarchieën in Microsoft Dynamics 365 for Retail beschreven.
 

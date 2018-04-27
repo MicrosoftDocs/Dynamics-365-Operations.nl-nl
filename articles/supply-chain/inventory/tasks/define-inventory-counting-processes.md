@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Voorraadtellingsprocessen definiëren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure leidt u door de configuratie van telprocessen voor basisvoorraad door een telgroep en een tellijst te maken. Het laat u ook zien hoe u telbeleid kunt inschakelen op magazijn- en artikelniveau. Deze taken worden meestal uitgevoerd door een magazijnsupervisor. Het is een vereiste om sommige bestaande vrijgegeven producten en magazijnen te hebben. Als u een demobedrijf gebruikt, kunt u deze procedure in het bedrijf USMF uitvoeren met elk artikel dat is opgeslagen in voorraad.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Cyclustelling
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u cyclustelling kunt gebruiken met de met magazijnoplossing die in Magazijnbeheer beschikbaar is. Dit artikel is niet van toepassing op de magazijnoplossing die in Voorraadbeheer beschikbaar is.
 

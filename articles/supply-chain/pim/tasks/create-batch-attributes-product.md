@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Batchkenmerken maken voor een product
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een batchkenmerk maakt, standaardwaardebereiken toewijst en het kenmerk opneemt in een groep. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is het bedrijf USP2.
 

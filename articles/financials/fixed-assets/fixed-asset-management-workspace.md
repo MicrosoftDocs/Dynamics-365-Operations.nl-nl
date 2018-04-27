@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Werkgebied Beheer van vaste activa
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Het werkgebied **Beheer van vaste activa** bevat informatie die betrekking heeft op de vaste activa die zijn ingevoerd in het systeem. Dit werkgebied bevat een overzichtsweergave en een analyseweergave. Het tabblad **Mijn werk** bevat overzichtstegels, vaste-activadetails en gerelateerde informatie over vaste activa in het huidige bedrijf. U kunt ook rechtstreeks in het werkgebied analyses toevoegen aan de sectie Power BI-analyses. Op het tabblad **Analyses - alle bedrijven** worden mogelijkheden van Microsoft Power BI gebruikt om visuele elementen weer te geven die zijn gerelateerd aan vaste activa in alle bedrijven.
 

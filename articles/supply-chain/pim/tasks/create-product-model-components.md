@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Productmodelonderdelen maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Op beperkingen gebaseerde productconfiguratiemodellen gebruiken onderdelen als bouwstenen om de productmodelstructuur te bepalen. De onderdelen moeten worden gemaakt voordat er een productmodel kan worden gebouwd. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

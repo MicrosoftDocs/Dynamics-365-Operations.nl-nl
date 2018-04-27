@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>Gekoppelde producten configureren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt de configuratie van gekoppelde producten. Deze procedure gebruikt het demobedrijf USRT en gaat ervanuit dat beide producten al zijn gemaakt en vrijgegeven.
 

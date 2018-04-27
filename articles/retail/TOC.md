@@ -31,7 +31,7 @@
 ## [Callcentercatalogi](call-center-catalogs.md)
 ## [Een callcentercatalogus maken](create-call-center-catalogs.md)
 ## [Fraudewaarschuwingen instellen](set-up-fraud-alerts.md)
-## [Orderverwerkingsopties instellen](set-up-order-processing-options.md)
+## [Een callcenter instellen](set-up-order-processing-options.md)
 ## [Een continuïteitsprogramma instellen voor een callcenter](set-up-continuity-program.md)
 ## [Orderwachtstanden](work-with-order-holds.md)
 ## [Betalingsopties](work-with-payments.md)
@@ -47,8 +47,9 @@
 # MPOS (Modern Point Of Sale) en Cloud POS
 ## [Kiezen tussen Modern POS en Cloud POS](MPOS-or-CPOS.md)
 ## [POS-bewerkingen, online en offline](pos-operations.md)
-## [Indelingen voor scherm met demogegevens in MPOS/CPOS](demo-data.md)
-## [Overzicht van zoekfunctie voor producten en klanten in Point of Sale](POS-search-improvements.md)
+## [Indelingen voor schermen met demonstratiegegevens in MPOS/CPOS](demo-data.md)
+## [Overzicht van zoekfunctie voor producten en klanten in het verkooppunt](POS-search-improvements.md)
+## [Zoeken in voorraad in het verkooppunt](product-variants-POS.md)
 ## Hardware randapparatuur
 ### [Overzicht van detailhandelrandapparatuur](retail-peripherals-overview.md)
 ### [Door Microsoft geteste POS-randapparatuur](microsoft-tested-pos-hardware-peripherals.md)
@@ -96,6 +97,7 @@
 ## [RFM-analyse instellen](set-up-rfm-analysis.md)
 
 # Kortingen en prijscorrecties
+## [Verkoopprijsbeheer detailhandel](price-management.md)
 ## [Prijscorrecties en kortingen](price-adjustments-discounts.md)
 ## [De optimale combinatie van overlappende kortingen bepalen](optimal-combination-overlapping-discounts.md)
 ## [Kanaalspecifieke kortingen definiëren](define-channel-specific-discounts.md)
@@ -139,16 +141,20 @@
 ## [De onderdelen van een taak instellen](../talent/create-job.md)
 
 # Lokalisatie en wettelijk voorgeschreven functies
+## Frankrijk
+### [Kassa's voor Frankrijk](localizations/emea-fra-cash-registers.md)
+### [Implementatierichtlijnen voor kassa's voor Frankrijk](localizations/emea-fra-deployment.md)
 ## India
-### [GST-integratie voor kassa's voor India](localizations/apac-ind-cash-registers.md)
-### [Implementatierichtlijnen voor kassa's voor India](localizations/apac-ind-loc-deployment-guidelines.md)
+### [GST-integratie voor kassa's](localizations/apac-ind-cash-registers.md)
+### [Implementatierichtlijnen voor kassa's in India](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Noorwegen
 ### [Kassa's voor Noorwegen](localizations/emea-nor-cash-registers.md)
-### [Implementatierichtlijnen voor kassa's voor Noorwegen](localizations/emea-nor-loc-deployment-guidelines.md)
+### [Implementatierichtlijnen voor kassa's in Noorwegen](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Zweden
 ### [Kassa's voor Zweden](localizations/emea-swe-cash-registers.md)
+### [Voorbeeld voor Retail POS-integratie met regeleenheden](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
-# Taken retail
+# Retail-taken
 ## [Een product maken](../supply-chain/pim/tasks/create-product.md)
 ## [Gekoppelde producten configureren](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Een product/productmodel vrijgeven aan rechtspersonen](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -260,18 +266,20 @@
 ### [SDK e-Commerce-platform](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Uitbreidbaarheid betalingsconnector
-### [Een betalingsconnector en betalingsapparaat implementeren (technisch document)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Integratie van de betaling met een betalingsterminal](dev-itpro/end-to-end-payment-extension.md)
+### [Een betalingsconnector en betalingsapparaat implementeren (whitepaper)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Betalingsconnector implementeren](dev-itpro/deploy-payment-connector.md)
 ### [Een Windows-installer maken voor een betalingsconnector](dev-itpro/create-windows-installer-payment-connector.md)
 
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [De Retail SDK integreren met het continuous build-systeem](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [Voorbeelden uitbreidbaarheid Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Pakket voor Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Voorbeelden Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
-### [Uitbreidingen voor afzetkanaaldatabase (DB)](dev-itpro/channel-db-extensions.md)
+### [Voorbeelden uitbreidbaarheid Retail-SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+### [Pakket met Retail-SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [Voorbeelden Retail-SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [Uitbreidingspunten voor pakbonnen](dev-itpro/extensions-shipping-carrier-integration.md)
+### [Uitbreidingen voor kanaaldatabase (DB)](dev-itpro/channel-db-extensions.md)
 ### [Uitbreidbaarheid CDX](dev-itpro/cdx-extensibility.md)
-### [Kenmerken van order](dev-itpro/order-attributes.md)
+### [Orderkenmerken](dev-itpro/order-attributes.md)
 ### [Kenmerken van klant](dev-itpro/customer-attributes.md)
 ### [Retail-typescript en C#-proxy](dev-itpro/typescript-proxy-retail-pos.md)
 ### [Voorbeelden Retail POS uitvoeren](dev-itpro/pos-run-samples.md)

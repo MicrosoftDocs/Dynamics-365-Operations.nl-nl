@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-new-users"></a>Nieuwe gebruikers maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Gebruikers zijn interne werknemers van uw organisatie of externe klanten en leveranciers, die toegang nodig hebben tot het systeem om hun taken uit te voeren. Systeembeheerders kunnen deze procedure voltooien om gebruikers aan het systeem toe te voegen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. 
 

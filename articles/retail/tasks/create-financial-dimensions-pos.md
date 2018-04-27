@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> Financiële dimensies maken voor POS-kassa's en dimensiewaarden configureren voor kassa's
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van financiële dimensies voor verkooppuntregisters (POS) en demonstreert hoe u waarden van financiële dimensies voor registers configureert. Deze procedure omvat geen andere gerelateerde stappen, zoals het maken van dimensiesets en rekeningstructuren. Die taken vindt u in andere onderwerpen. Deze registratie gebruikt het demobedrijf USRT.
 

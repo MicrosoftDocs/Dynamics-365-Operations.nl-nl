@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>Attributen maken en beheren
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel worden kenmerken in Microsoft Dynamics 365 for Retail beschreven. De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker gedefinieerde velden.
 
@@ -58,7 +57,7 @@ De attributen laten u een product en zijn kenmerken beschrijven via de gebruiker
 
 ## <a name="attribute-type"></a>Type kenmerk
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 Kenmerken zijn gebaseerd op kenmerktypen. Het kenmerktype geeft het gegevenstype aan dat kan worden ingevoerd voor een specifiek kenmerk. Momenteel worden in Microsoft Dynamics 365 for Retail de volgende kenmerktypen ondersteund:
 
 -   **Valuta** - Dit kenmerktype ondersteunt valutawaarden. Het kan begrensd zijn (oftewel kan het een waardebereik ondersteunen), of kan worden opengelaten.

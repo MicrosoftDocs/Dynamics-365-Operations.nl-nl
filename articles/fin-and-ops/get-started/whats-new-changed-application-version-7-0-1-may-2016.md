@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Nieuwe of gewijzigde functies in Dynamics AX versie 7.0.1 (mei 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie 7.0.1 nieuw of gewijzigd zijn. Deze versie werd uitgebracht in mei 2016 en heeft een buildnummer van 7.0.1265.23014.
 
@@ -44,12 +43,14 @@ In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie
 | Configureer ER-bestemmingen zodat het resultaat van de uitvoer van een indeling wordt omgeleid naar een specifieke bestemming: bestand, e-mailadres of archief (Microsoft SharePoint-map of Microsoft Azure-opslag). | Voorheen, wanneer u een ER-configuratie uitvoerde, werd er een bericht weergegeven waarin gebruikersactie werd vereist voor het opslaan of openen van een bestand. U kunt nu apart een bestemming vooraf configureren voor elke indelingsconfiguratie en voor elk uitvoeronderdeel (een map of een bestand). Gebruikers die over de juiste toegangsrechten beschikken, kunnen tevens bestemmingsinstellingen wijzigen tijdens de uitvoering. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>POS - Microsoft Dynamics AX Retail
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Wat kunt u doen?**           | **Waarom is dit belangrijk?**                                                                                                                                                              |
 | Gebruik de Google Chrome browser. | Detailhandelaren kunnen Cloud POS nu starten vanuit de browser Chrome en beschikken over alle functionaliteit die beschikbaar is in de Microsoft Edge en Internet Explorer-versie van Cloud POS. |
 
 ## <a name="financial-reporting"></a>Financiële rapportage
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Wat kunt u doen?**                                                | **Waarom is dit belangrijk?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie
 | U kunt niet langer opties voor rapportontwerper selecteren die niet geldig zijn. | Verschillende opties voor rapportontwerper die werden gebruikt in de versies van Management Reporter op de markt gelden niet voor deze versie van Dynamics AX. Deze opties waren gerelateerd aan het ontwerp, de uitvoer en de koppeling van financiële rapportage. Deze opties zijn verwijderd uit de functie voor het ontwerpen van financiële rapporten om gebruikersfouten te voorkomen. |
 
 ## <a name="financial-management"></a>Financieel beheer
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **Wat kunt u doen?**                                       | **Waarom is dit belangrijk?**                                       |
 | Genereer positieve betalingsbestanden voor leveranciersbetalingen. | Positieve betalingsbestanden kunnen worden gegenereerd om fraude met cheques te helpen voorkomen. |
 
 ## <a name="warehouse-and-production"></a>Magazijn en productie
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Wat kunt u doen?**                                                                                                                                                                                                                                                                                                                                                                    | **Waarom is dit belangrijk?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie
 | Productieorders met circulaire structuren op het eerste niveau van de stuklijsten zijn uitgesloten van berekening op stuklijstniveau voor de planning van materiaalresources.                                                                                                                                                                                                                                     | Het is niet mogelijk correcte stuklijstniveaus toe te wijzen aan productvarianten voor productieorders die correctheid in de stuklijsthiërarchie veroorzaken.                                                                                                                                                                                                                                                                                                  |
 | Bereken afzonderlijke stuklijstniveaus voor de planning van materiaalresources en kostenberekening: • Voor de planning van materiaalresources worden stuklijstniveaus berekend in de nieuwe tabel **ReqItemLevel**. Beëindigde productieorders worden genegeerd in de berekening. • Voor de berekening van de productiekosten worden stuklijstniveaus berekend in de **InventTable**. Beëindigde productieorders worden opgenomen in de berekening. | • Bij het uitvoeren van de planning van materiaalresources, bijvoorbeeld planning en explosie van de hoofdplanning, hoeven alleen stuklijstniveaus die worden gebruikt voor de planning van de materiaalresources opnieuw te worden berekend. Met andere woorden, er hoeven geen stuklijstniveaus te worden berekend die worden gebruikt voor de berekening van de productiekostprijs. • Bij het uitvoeren van bewerkingen voor kostprijsberekening, bijvoorbeeld de afsluiting van voorraad, hoeven alleen stuklijstniveaus die worden gebruikt voor kostprijsberekening voor de productie opnieuw te worden berekend. |
 
- 
+
 
 <a name="see-also"></a>Zie ook
 --------

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-groups"></a>Kostengroepen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kostengroepen vormen de basis voor het segmenteren en analyseren van kostenbijdragen in de berekende kosten van een gefabriceerd artikel, zoals de kostenbijdragen voor materiaal, arbeid en overhead. Voor segmentatie van kostengroepen worden in de productieomgeving verschillende synoniemen gehanteerd, zoals kostenanalyse, kostenontleding of kostenclassificatie. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Een bankfaciliteitsovereenkomst maken voor een kredietbrief
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak helpt u bij het maken van een bankfaciliteitsovereenkomst om een kredietbrief te verwerken. U kunt bankfaciliteiten en boekingsprofielen instellen vóór deze taak.  Bij deze taak wordt het demobedrijf USMF gebruikt.  
 

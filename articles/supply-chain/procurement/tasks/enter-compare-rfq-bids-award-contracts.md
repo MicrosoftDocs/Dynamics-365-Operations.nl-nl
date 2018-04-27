@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Offerteaanvraagbiedingen invoeren en vergelijken en contracten toekennen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat u zien hoe u antwoorden op een offerteaanvraag invoert, biedingen vergelijkt en vervolgens de bieding aan een van de leveranciers toekent. U kunt deze procedure gebruiken in het demobedrijf USMF. Voordat u begint, moet u een offerteaanvraag hebben met twee regels die aan ten minste twee leveranciers is verzonden. U kunt de procedure "Een offerteaanvraag maken" uitvoeren als een vereiste om dit te maken. U moet beoordelingscriteria hebben ingesteld voordat u deze procedure kunt uitvoeren.
 

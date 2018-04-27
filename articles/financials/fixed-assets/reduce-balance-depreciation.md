@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Degressieve afschrijving
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving.
 
@@ -80,7 +79,7 @@ Door de methode Degressief te gebruiken, wordt 30 procent van de afschrijvingsba
 | Jaar 2 | (7000 - 1000) \* 30% = 1800            | (7000 -1800) = 5200                |
 | Jaar 3 | (5200 - 1000) \* 30% = 1260            | (5200 - 1260) = 3940               |
 
- 
+
 -
 
 

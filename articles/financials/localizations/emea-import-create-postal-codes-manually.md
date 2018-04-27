@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-or-manually-create-postal-codes"></a>Postcodes importeren of handmatig maken
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u postcodes in de juiste indeling importeert en handmatig maakt. Dit onderwerp bevat informatie over de functie die is toegevoegd of gewijzigd voor Microsoft Dynamics 365 for Finance and Operations. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Ondersteuning van kanbanoverboekingsbord voor streepjescodescanners
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Het kanbanoverboekingsbord ondersteunt scannerinvoer vanuit een widgetstreepjescodescanner om een kanbantaak te selecteren, starten, voltooien en legen.
 
@@ -38,6 +37,7 @@ Het kanbanoverboekingsbord ondersteunt scannerinvoer vanuit een widgetstreepjesc
 ------------------
 
 Op het sneltabblad **Scannerregistratie** kunt u de registratiemodus selecteren die de actie bepaalt bij het scannen van een kanbankaartnummer of het handmatig invoeren van het nummer in het veld Kanbankaartnummer.
+
 | Registratiemodus instellen | Beschrijving                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Beginnen                 | Registreert een kanbanoverboekingstaak als in uitvoering.                                                 |

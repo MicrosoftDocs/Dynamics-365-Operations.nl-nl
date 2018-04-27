@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Middelen voor selectie van kandidaten identificeren en implementeren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Het zoeken van een gekwalificeerde pool kandidaten voor vacatures kan moeilijk zijn, met name als een positie een unieke set vaardigheden vereist.  Kandidaten met de vaardigheden u nodig hebt, kunnen echter al in uw organisatie werken. U kunt een specifieke kwalificatiereeks onder bestaande werknemers of nieuwe sollicitanten zoeken. Zo kan een werver snel sollicitanten verzamelen en controleren die voor een open positie nu of in het verleden hebben gesolliciteerd, of potentiële kandidaten in hun bestaande pool werknemers zoeken. Gebruik deze taakregistratie om te weten hoe de vaardigheidstoewijzingfunctionaliteit u kan helpen de juiste persoon voor een open positie te zoeken. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

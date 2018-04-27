@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>Bijkomende opdrachten instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een bijkomende toewijzing instelt. Dit wordt gewoonlijk gedaan door een transportcoördinator. Voordat u deze handleiding gebruikt, moet u de handleiding "Bijkomende toeslagen van hub en modellen voor extra's instellen" uitvoeren.
 

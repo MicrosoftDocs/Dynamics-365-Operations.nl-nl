@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 1f0b5ff383c8bb2d1ac892ef771e15f0afec2655
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="alerts-overview"></a>Overzicht van waarschuwingen
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Informatie over waarschuwingen
 Waarschuwingen vormen een meldingssysteem voor kritieke gebeurtenissen in Microsoft Dynamics 365 for Finance and Operations. U kunt waarschuwingen gebruiken om op de hoogte te blijven over de gebeurtenissen die u wilt bijhouden tijdens de werkdag. U kunt eenvoudig uw eigen set met waarschuwingsregels maken, zodat u wordt gewaarschuwd bij leveringen die te laat zijn, orders die zijn verwijderd, prijzen die veranderen of andere gebeurtenissen waarop u moet reageren.
@@ -71,4 +71,7 @@ Een waarschuwingsregel heeft vijf onderdelen:
 
     > [!NOTE]
     > Deze optie is beperkt tot beheerders van de organisatie.
+
+## <a name="email-notifications-from-alerts"></a>E-mailmeldingen van waarschuwingen
+E-mailmeldingen van waarschuwingen zijn nog niet ingeschakeld. Deze worden in een toekomstige update ingeschakeld.
 

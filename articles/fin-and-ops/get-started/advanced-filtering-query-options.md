@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en querysyntaxis
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u de operator "komt overeen" in het dialoogvenster Geavanceerd filteren/sorteren gebruikt.
 
@@ -68,7 +67,7 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td><em>beginwaarde</em>..<em>eindwaarde</em> (twee puntjes)</td>
 <td>Tussen de twee waarden die zijn gescheiden door twee puntjes</td>
 <td>Typ de beginwaarde, vervolgens twee puntjes en daarna de eindwaarde.</td>
-<td>Een zoekopdracht op <strong>1..10</strong> heeft alle waarden van 1 tot en met 10 als resultaat. In een tekenreeksveld wordt met een zoekopdracht <strong>A..C</strong> echter gezocht naar alle waarden die beginnen met &quot;A&quot; en &quot;B&quot; en waarden die identiek zijn aan &quot;C&quot;. Met deze query wordt &quot;Ca&quot; bijvoorbeeld niet gevonden. Als u alle waarden van &quot;A*&quot; tot en met &quot;C*&quot; wilt vinden, typt u <strong>A..D</strong>.</td>
+<td>Een zoekopdracht op <strong>1..10</strong> heeft alle waarden van 1 tot en met 10 als resultaat. In een tekenreeksveld wordt met een zoekopdracht <strong>A..C</strong> echter gezocht naar alle waarden die beginnen met &quot;A&quot; en &quot;B&quot; en waarden die identiek zijn aan &quot;C&quot;. Met deze query wordt &quot;Ca&quot; bijvoorbeeld niet gevonden. Als u alle waarden van &quot;A<em>&quot; tot en met &quot;C</em>&quot; wilt vinden, typt u <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>waarde</em> (twee puntjes)</td>
@@ -97,20 +96,20 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <tr class="even">
 <td><em>waarde</em>* (sterretje)</td>
 <td>Beginnend vanaf de waarde die is ingevoerd</td>
-<td>Typ de beginwaarde en vervolgens een sterretje (<strong>*</strong>).</td>
-<td>De zoekopdracht <strong>S*</strong> heeft alle tekenreeksen die beginnen met een &quot;S&quot;, zoals &quot;Stockholm&quot;, &quot;Sydney&quot; en &quot;San Francisco&quot; als resultaat.</td>
+<td>Typ de beginwaarde en vervolgens een sterretje (<strong><em></strong>).</td>
+<td>De zoekopdracht <strong>S</em></strong> heeft alle tekenreeksen die beginnen met een &quot;S&quot; als resultaat, zoals &quot;Stockholm&quot;, &quot;Sydney&quot; en &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>waarde</em> (sterretje)</td>
+<td><em><em>waarde</em> (sterretje)</td>
 <td>Eindigend met de waarde die is ingevoerd</td>
 <td>Typ een asterisk en vervolgens de eindwaarde.</td>
-<td>De zoekopdracht <strong>*oost</strong> heeft alle tekenreeksen die eindigen op &quot;oost&quot; als resultaat, zoals &quot;Noordoost&quot; en &quot;Zuidoost&quot;.</td>
+<td>De zoekopdracht <strong></em>oost</strong> geeft alle tekenreeksen die eindigen op &quot;oost&quot; als resultaat, zoals &quot;Noordoost&quot; en &quot;Zuidoost&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>waarde</em>* (sterretje)</td>
+<td><em><em>waarde</em></em> (sterretje)</td>
 <td>Bevat de waarde die is ingevoerd</td>
 <td>Typ een asterisk, vervolgens een waarde en nog een asterisk.</td>
-<td>De zoekopdracht <strong>*do*</strong> heeft alle tekenreeksen die &quot;do&quot; bevatten als resultaat, zoals &quot;Noordoost&quot; en &quot;Zuidoost&quot;.</td>
+<td>De zoekopdracht <strong><em>do</em></strong> heeft alle tekenreeksen die &quot;do&quot; bevatten als resultaat, zoals &quot;Noordoost&quot; en &quot;Zuidoost&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (vraagteken)</td>
@@ -131,7 +130,7 @@ In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn 
 <td><strong><span class="code">(gegevensbron.Veldnaam != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>D</td>
+<td>T</td>
 <td>Datum van vandaag</td>
 <td>Typ <strong>T</strong>.</td>
 <td><strong>T</strong> stemt overeen met de datum van vandaag.</td>

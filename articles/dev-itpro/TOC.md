@@ -115,6 +115,7 @@
 ### Wat is er nieuw
 #### [Uitbreidbaarheidswijzigingen juli 2017](extensibility/changes-july-2017.md)
 #### [Uitbreidbaarheidswijzigingen versie 7.3](extensibility/extensibility-changes-73.md)
+#### [Uitbreidbaarheidswijzigingen versie 8.0](extensibility/changes-80.md)
 ### Basisgegevens
 #### [Ingrijpende aanpassingen](extensibility/intrusive-customizations.md)
 #### [Klasse-extensies](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [Gegevensintegratie via de Common Data Service](data-entities/data-integration-cds.md) 
 #### [Een scenario van prospect tot contant geld configureren](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Producten van Finance and Operations synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [Accounts in Sales synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [Contactpersonen in Sales synchroniseren naar contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Kopteksten en regels in verkoopoffertes vanuit Sales synchroniseren naar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Kopteksten en regels in verkooporders synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [Kopteksten en regels in verkoopfacturen synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Kopteksten en regels in verkooporders rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [Integratie met Field Service configureren](../supply-chain/sales-marketing/field-service.md)
+##### [Producten van Finance and Operations synchroniseren met producten in Field Service](../supply-chain/sales-marketing/field-service-product.md)
+##### [Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [Externe webservices gebruiken](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [Sjablonen voor configuratiegegevens](data-entities/configuration-data-templates.md)
 ### [Gegevenssjablonen met meerdere werkbladen](data-entities/excel-template-multiple.md)
 ### [Wijzigingen in een entiteit bijhouden](data-entities/entity-change-track.md)
+
 ### [Informatie zoeken over standaardgegevensentiteiten](data-entities/data-entities-report.md)
+
 
 ## [Gegevensimport- en exporttaken](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [Uw eigen database gebruiken](analytics/export-entities-to-your-own-database.md)
 
-## [Bronnen voor het reageren op een AVP-aanvraag](gdpr/gdpr-home-page.md)
-### [Handleiding voor de AVG voor Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+
+## [Automatisering van gegevenstaak](data-entities/data-task-automation.md)
+
+## [Bronnen voor het reageren op een AVG-aanvraag](gdpr/gdpr-home-page.md)
+### [Handleiding voor AVG voor Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Classificaties van activa](gdpr/gdpr-asset-classification-values.md)
 ### [Rapport voor persoon zoeken gebruiken](gdpr/gdpr-person-search-report.md)
 ### [Rapport voor persoon zoeken uitbreiden](gdpr/gdpr-extend-person-search-report.md)
 ### [Toegang tot vertrouwelijke gegevens beheren](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Reageren op een aanvraag voor persoonlijke gegevens met behulp van Talent](gdpr/respond-dsr-request-talent.md)
 ### [Reageren op een aanvraag voor persoonlijke gegevens met behulp van Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
+
 
 # [Startpagina Continue levering](dev-tools/continuous-delivery-home-page.md)
 ## [Veelgestelde vragen over ontwikkeling en continue levering](dev-tools/continuous-delivery-faq.md)
@@ -529,8 +538,9 @@
 ### [AX 2012 upgrade - go live voorbereiden](migration-upgrade/upgrade-go-live-prep.md)
 ### [Upgrade van AX 2012 - Go live](migration-upgrade/2012-upgrade-cutover.md)
 
-### Wijzigingen die van invloed zijn op de upgrade vanaf AX 2012
-#### [Enkel boekstuk en upgrade van herwaardering van valuta ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+### Wijzigingen hebben gevolgen voor de upgrade van AX 2012
+#### [Het scheidingsteken in het rekeningschema moet uniek zijn](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [Enkel boekstuk en upgrade van herwaardering van valuta](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Gegevensmodel voor projectresourceplanning](migration-upgrade/data-model-changes-resource-management.md)
 #### [Wijzigingen werkstroomsubsysteem](migration-upgrade/workflow-subsystem.md)
 #### [Waarom we van kubussen zijn overgestapt op samengevoegde modellen](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -568,7 +578,8 @@
 ### [Afgeschafte functies](migration-upgrade/deprecated-features.md)
 
 # [Systeembeheer](sysadmin/system-administration-home-page.md)
-## [Maandelijkse updates platform-Veelgestelde vragen](sysadmin/faq-platform-monthly-updates.md)
+## [Maandelijkse updates platform - FAQ](sysadmin/faq-platform-monthly-updates.md)
+## [Virtuele machines die geen beheerderstoegang toestaan - FAQ](sysadmin/VMs-no-admin-access.md)
 ## [Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie](sysadmin/legal-terms-privacy-statement.md)
 ## [Rapport Licentiecodes en configuratiesleutels](sysadmin/license-codes-configuration-keys-report.md)
 ## [Delen van gegevens tussen bedrijven](sysadmin/cross-company-data-sharing.md)
@@ -612,14 +623,17 @@
 ## [Taken uitvoeren in een BPM-bibliotheek](lifecycle-services/complete-tasks-bpm.md)
 ## [Activiteitendiagrammen gebruiken](lifecycle-services/using-activity-diagrams.md)
 ## [Een BPM-bibliotheek synchroniseren met Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [Een acceptatietestsuite maken met taakbegeleidingen en BPM](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [Stroomdiagrammen voor modelleertool bedrijfsprocessen](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Aangepaste bedrijfsprocessen uploaden](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Controle en diagnose ](lifecycle-services/monitoring-diagnostics.md)
 ## [Omgevingsservices opnieuw starten](lifecycle-services/restart-environment-services.md)
 ## [Gebruikeraanmeldingen bijhouden](lifecycle-services/user-logins.md)
 ## [Activabibliotheek](lifecycle-services/asset-library.md)
-## [Microsoft Dynamics 365 - Overzicht vertaalservice](lifecycle-services/translation-service-overview.md)
-### [Microsoft Dynamics 365 - Gebruikershandleiding vertaalservice](lifecycle-services/use-translation-service.md)
+## [Microsoft Dynamics 365 - overzicht Vertaalservice](lifecycle-services/translation-service-overview.md)
+### [Microsoft Dynamics 365 - gebruikershandleiding Vertaalservice  ](lifecycle-services/use-translation-service.md)
+### [Microsoft Dynamics 365 Vertaalservice - vertaling documentatiebestand](lifecycle-services/use-translation-service-ua.md)
+### [Microsoft Dynamics 365 Vertaalservice - vertaalgeheugen](lifecycle-services/use-translation-service-tm.md)
 
 ## Dynamics AX 2012 Lifecycle Services-functies
 ### Implementatie

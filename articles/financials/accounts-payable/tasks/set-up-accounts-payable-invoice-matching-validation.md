@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Validatie voor factuurmatching instellen voor leveranciers
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bij deze registratie wordt het demobedrijf USMF gebruikt. De leveranciersmanager of Accounting Manager-rol kan deze stappen uitvoeren. Controleer voordat u begint of de configuratiesleutel Factuurvereffening is geselecteerd. Als uw rechtspersoon uitgaven bijhoudt, zoals verzendkosten, door kosten te berekenen, moet u er voor zorgen dat de configuratiesleutel Toeslagen is geselecteerd.  Factuurmatching in Klanten is het proces van het vergelijken van de leverancierfactuur-, inkooporder- en productontvangstgegevens. Verschillen in deze documenten worden matchingverschillen genoemd. Matchingverschillen worden vergeleken met de gespecificeerde toleranties. Als een matchingverschil het tolerantiepercentage of -bedrag overschrijdt, worden er pictogrammen voor het vereffeningsverschil weergegeven in het formulier Leveranciersfactuur en in het formulier Factuurvereffeningsgegevens.
 

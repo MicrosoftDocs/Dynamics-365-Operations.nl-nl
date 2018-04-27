@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Een onkostennota weergeven
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Wanneer u een query uitvoert om transacties te bekijken in het Grootboek of Inkoop en sourcing, geeft de query mogelijk te veel informatie. U wilt daarom uw zoekopdracht aanpassen. Voor de informatie die u nodig hebt, kunt u op een transactie inzoomen om de bijbehorende onkostennota te bekijken.
 

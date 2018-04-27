@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Een hoofdplanningsuitvoering controleren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 De productieplanner wil zien of er een hoofdplanning wordt uitgevoerd. Gebruik het demobedrijf USMF om deze procedure te voltooien.
 

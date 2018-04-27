@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Een nieuwe record maken met behulp van een recordsjabloon
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure wordt voorgedaan hoe u een nieuwe record kunt maken met behulp van een eerder gedefinieerde recordsjabloon. Om deze procedure te kunnen uitvoeren, moet u eerst de procedure "Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken" uitvoeren.
 

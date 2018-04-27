@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Grootte van de hardware voor on-premises omgevingen vaststellen
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Voordat u de omvang gaat bepalen van de hardware en de infrastructuur van een on-premises omgeving, dient u vertrouwd zijn met de [Systeemvereisten](system-requirements.md) en [Instructies voor installatie en implementatie](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) om een goed begrip te krijgen van de onderliggende infrastructuur. 
 

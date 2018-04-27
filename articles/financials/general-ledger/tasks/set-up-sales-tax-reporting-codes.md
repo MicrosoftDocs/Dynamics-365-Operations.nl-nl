@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Btw-aangiftecodes instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 De btw-aangiftecodes verwijzen naar een veldnummer in een btw-rapport. Ze worden gebruikt in landspecifieke rapportindelingen en het rapport Btw-betaling per code om btw voor een vereffeningsperiode af te drukken, samengevat per rapportagecode. Nadat u de btw-aangiftecodes hebt gemaakt, kunt u naar deze codes verwijzen op de sneltabbladen Rapport instellen in de pagina Btw-code. 
 

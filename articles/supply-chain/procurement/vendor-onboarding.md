@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Leveranciers onboarden
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 Nieuwe leveranciers kunnen worden ingewerkt en geregistreerd als leveranciers in Microsoft Dynamics 365 for Finance and Operations, op basis van gegevens die worden verzameld van een persoon die de leverancier vertegenwoordigt.
@@ -164,13 +165,15 @@ De diverse statussen van de registratieaanvraag van een potentiële leverancier 
 
 Met de actie **Verwijderen** in de registratieaanvraag van de potentiële leverancier kunt u de gemaakte keten van records opruimen en verwijderen, en de gebruikersaccount uitschakelen. Het resultaat van de actie **Verwijderen** verschilt, afhankelijk van de status van de registratieaanvraag van de potentiële leverancier, zoals wordt aangegeven in de volgende tabel.
 
-| Status                   | Omschrijving van status | Resultaat van de actie Verwijderen |
-|--------------------------|--------------------|-----------------------------------|
-| Nieuw                      | Er zijn acties uitgevoerd op de aanvraag. | De aanvraag voor registratie van de potentiële leverancier wordt verwijderd. |
-| Gebruiker aangevraagd           | Wanneer u **Gebruiker uitnodigen** selecteert, wordt de status gewijzigd in **Gebruiker aangevraagd** en wordt er een gebruikersaanvraag voor een potentiële leverancier gemaakt en ingediend bij een workflow voor gebruikersaanvragen. | U kunt een gebruikersaanvraag voor potentiële leveranciers met deze status niet verwijderen omdat de workflow voor gebruikersaanvragen nog niet is beëindigd. |
-| Gebruiker uitgenodigd             | De workflow voor gebruikersaanvragen is goedgekeurd en de gebruiker is gemaakt. | Er wordt een verzoek gemaakt om de gebruiker te deactiveren en de gebruikersaanvraag voor de registratie van een potentiële leverancier wordt verwijderd. |
-| Registratie in uitvoering | De nieuwe gebruiker heeft zich aangemeld en heeft de wizard voor leveranciersregistratie gestart. | Er wordt een verzoek gemaakt om de gebruiker te deactiveren en de aanvraag voor registratie van de potentiële leverancier en de ingevoerde gegevens in de wizard voor leveranciersregistratie worden verwijderd. |
-| Leverancieraanvraag gemaakt   | De wizard voor leveranciersregistratie is voltooid. | Er wordt een verzoek gemaakt om de gebruiker te deactiveren en de aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.<blockquote>[!NOTE]<br>U kunt de actie **Verwijderen** niet verwijderen wanneer de leverancieraanvraag zich in een controleproces in de workflow bevindt.</blockquote> |
-| Goedgekeurd                 | De leverancieraanvraag is goedgekeurd. | De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd. |
-| Afgewezen                 | De leverancieraanvraag is afgewezen. | De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd. |
+
+|          Status          |                                                                                     Omschrijving van status                                                                                      |                                                                                                                                                            Resultaat van de actie Verwijderen                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Nieuw            |                                                                         Er zijn acties uitgevoerd op de aanvraag.                                                                          |                                                                                                                                              De aanvraag voor registratie van de potentiële leverancier wordt verwijderd.                                                                                                                                               |
+|      Gebruiker aangevraagd      | Wanneer u <strong>Gebruiker uitnodigen</strong> selecteert, wordt de status gewijzigd in <strong>Gebruiker aangevraagd</strong> en wordt er een gebruikersaanvraag voor een potentiële leverancier gemaakt en ingediend bij een workflow voor gebruikersaanvragen. |                                                                                                          U kunt een gebruikersaanvraag voor potentiële leveranciers met deze status niet verwijderen omdat de workflow voor gebruikersaanvragen nog niet is beëindigd.                                                                                                          |
+|       Gebruiker uitgenodigd       |                                                               De workflow voor gebruikersaanvragen is goedgekeurd en de gebruiker is gemaakt.                                                               |                                                                                                                      Er wordt een verzoek gemaakt om de gebruiker te deactiveren en de gebruikersaanvraag voor de registratie van een potentiële leverancier wordt verwijderd.                                                                                                                      |
+| Registratie in uitvoering |                                                         De nieuwe gebruiker heeft zich aangemeld en heeft de wizard voor leveranciersregistratie gestart.                                                          |                                                                                     Er wordt een verzoek gemaakt om de gebruiker te deactiveren en de aanvraag voor registratie van de potentiële leverancier en de ingevoerde gegevens in de wizard voor leveranciersregistratie worden verwijderd.                                                                                      |
+|  Leverancieraanvraag gemaakt  |                                                                     De wizard voor leveranciersregistratie is voltooid.                                                                      | Er wordt een verzoek gemaakt om de gebruiker te deactiveren en de aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.<blockquote>[!NOTE]<br>U kunt de actie <strong>Verwijderen</strong> niet verwijderen wanneer de leverancieraanvraag zich in een controleproces in de workflow bevindt.</blockquote> |
+|         Goedgekeurd         |                                                                               De leverancieraanvraag is goedgekeurd.                                                                               |                                                                                                   De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.                                                                                                    |
+|         Afgewezen         |                                                                               De leverancieraanvraag is afgewezen.                                                                               |                                                                                                   De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.                                                                                                    |
+
 

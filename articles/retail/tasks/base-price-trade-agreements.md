@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a> Basisprijs en handelsovereenkomsten
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van kanaalspecifieke verkoopprijshandelsovereenkomsten. Deze procedure gebruikt het demobedrijf USRT.
 

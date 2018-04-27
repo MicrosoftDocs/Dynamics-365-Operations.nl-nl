@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Budgetplanningssjablonen voor Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u Microsoft Excel-sjablonen kunt maken die voor budgetplannen kunnen worden gebruikt.
 
@@ -42,11 +41,11 @@ Budgetplandocumenten kunnen worden weergegeven en bewerkt met behulp van een of 
 1. Open de **Lijst met budgetplannen** (**Budgettering** &gt; **Budgetplannen**). 
 2. Klik op **Nieuw** om een nieuw budgetplandocument te maken. 
 
-  [![Budgetplanlijst](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Budgetplanlijst](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Gebruik de optie **Regel toevoegen** om regels toe te voegen. Klik op **indelingen** om de documentindelingsconfiguratie voor het budgetplan weer te geven. 
 
-  [![Budgetplannen toevoegen](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Budgetplannen toevoegen](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 U kunt de indelingsconfiguratie controleren en zo nodig aanpassen. 
 1. Ga naar **Sjabloon** &gt; **Genereren** om een Excel-bestand voor deze indeling te maken. 

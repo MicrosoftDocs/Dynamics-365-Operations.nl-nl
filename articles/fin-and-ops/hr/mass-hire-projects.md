@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Projecten voor massaal aanstellen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen.
 
@@ -94,7 +93,7 @@ Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of *
 </tbody>
 </table>
 
- 
+
 
 
 

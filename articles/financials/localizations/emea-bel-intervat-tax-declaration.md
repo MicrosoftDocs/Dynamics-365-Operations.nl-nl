@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België.
 

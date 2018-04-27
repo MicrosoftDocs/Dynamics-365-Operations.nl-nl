@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Grootboek 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met Grootboek kunt u de financiële records van de rechtspersoon definiëren en beheren. Het grootboek is een register met debet- en creditposten. Deze posten worden geclassificeerd met behulp van de rekeningen in een rekeningschema. 
 

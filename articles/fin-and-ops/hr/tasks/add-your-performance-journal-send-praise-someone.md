@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe u uw doelstellingen haalt of hoe u gedurende een periode hebt gepresteerd. U kunt ook vanuit het journaal de acties van een collega prijzen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
 
@@ -42,7 +42,7 @@ In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe 
 9. Typ een waarde in het veld Trefwoorden.
 10. Klik op Externe koppeling toevoegen.
 11. Typ 'Envision' in het veld Omschrijving.
-12. Typ in het veld Internetadres 'https://www.microsoft.com/en/envision/default'.
+12. Typ '<https://www.microsoft.com/en/envision/default>' in het veld Internetadres.
 13. Klik onder de knop Opslaan op het bijschrift "Prestatiejournaal" om terug te gaan naar het raster.
     * U kunt het geselecteerde journaal of journalen aan een doelstelling toevoegen, zodat het wordt weergegeven wanneer u de doelstelling opent. Een koppeling wordt toegevoegd aan het sneltabblad Koppelingen. Als u een journaal aan een doelstelling toevoegt en de doelstelling aan een beoordeling toevoegt, wordt het journaal automatisch weergegeven in de beoordeling.  
     * U kunt het geselecteerde journaal of journalen aan een beoordeling toevoegen, zodat het wordt weergegeven wanneer u de beoordeling opent.    Een koppeling wordt toegevoegd aan het sneltabblad Koppelingen.  

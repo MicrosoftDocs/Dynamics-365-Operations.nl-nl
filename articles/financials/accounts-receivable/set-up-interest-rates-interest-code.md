@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Rentepercentages instellen voor een rentecode
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Rentecodes bevatten instellingen die bepalen wanneer kosten voor de rente geheven worden en hoe deze berekend wordt op achterstallige rekeningen.
 
@@ -47,17 +46,17 @@ Wanneer een rentecode wordt gebruikt om rente te berekenen, wordt een afzonderli
 ## <a name="interest-rates-based-on-a-percentage"></a>Rentevoeten op basis van een percentage
 U kunt de rentevoeten instellen die een opgegeven percentage berekenen.
 
--   Rentebedrag is van toepassing op alle valuta's.
--   Optionele limieten voor het rentebedrag kunnen worden ingevoerd.
--   **Percentage** is geselecteerd** **in het veld **Rente berekenen op basis van** op de pagina **Rentecodes instellen**.
+- Rentebedrag is van toepassing op alle valuta's.
+- Optionele limieten voor het rentebedrag kunnen worden ingevoerd.
+- <strong>Percentage</strong> is geselecteerd** <strong>in het veld **Rente berekenen op basis van</strong> op de pagina <strong>Rentecodes instellen</strong>.
 
 Als u bijvoorbeeld een rentecode wilt instellen die 5 procent rente aanrekent voor elke twee maanden dat de factuurbetaling voorbij de vervaldatum is, voert u 2 in het veld **Bereken rente elke** in en selecteert u **Maand**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Rentevoeten op basis van bedragen
 U kunt de rentevoeten instellen die een opgegeven bedrag berekenen per valuta.
--   Een rentebedrag wordt opgegeven voor elke valuta in de rentecode.
--   Optionele limieten voor het rentebedrag kunnen worden ingevoerd.
--   **Bedrag **is geselecteerd in het veld **Rente berekenen op basis van** op de pagina **Rentecodes instellen**.
+- Een rentebedrag wordt opgegeven voor elke valuta in de rentecode.
+- Optionele limieten voor het rentebedrag kunnen worden ingevoerd.
+- <strong>Bedrag **is geselecteerd in het veld **Rente berekenen op basis van</strong> op de pagina <strong>Rentecodes instellen</strong>.
 
 Als u bijvoorbeeld een rentecode wilt instellen die 25,00 rente aanrekent voor elke 20 dagen dat de factuurbetaling voorbij de vervaldatum is, voert u 20 in het veld **Bereken rente elke in** en selecteert u **Dag**.
 
@@ -84,7 +83,7 @@ U stelt de bereikinformatie als volgt in.
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>Voorbeeld 2: Rente volgens bereik = Dagen
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ U stelt de bereikinformatie als volgt in.
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>Voorbeeld 3: Rente volgens bereik = Maanden
 ----------------------------------------------------
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Financieel rapport inkomensoverzicht
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld. 
 
@@ -60,7 +59,7 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
     -   **FD**: financiële gegevens voor de huidige periode
     -   **FD**: financiële gegevens voor jaar tot heden
 
- 
+
 
 <a name="see-also"></a>Zie ook
 --------

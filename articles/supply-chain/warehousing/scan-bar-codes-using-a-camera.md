@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Streepjescodes scannen met een camera in Dynamics 365 for Finance and Operations – Warehousing
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u Dynamics 365 for Finance and Operations – Warehousing instelt voor het scannen van streepjescodes met een camera op een mobiel apparaat. 
 

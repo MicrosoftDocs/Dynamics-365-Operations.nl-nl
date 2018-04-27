@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>Interface van Report Designer
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt uitgelegd hoe u kunt navigeren door Report Designer en hoe u gebruik kunt maken van de verschillende opties om aan uw specifieke vereisten te voldoen. 
 

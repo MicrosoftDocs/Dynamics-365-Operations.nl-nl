@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Btw-berekeningsmethoden in het veld Oorsprong
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Dit artikel beschrijft de opties in het veld Oorsprong op de btw-codespagina en hoe de btw op basis van de geselecteerde optie voor een btw-code wordt berekend.
 
@@ -53,11 +52,12 @@ De belastingdienst heeft een artikel met speciale heffingen belast. De heffingsb
 -   BTW = 25%, met de berekeningsmethode Percentage van brutobedrag
 
 Is het nettobedrag 10,00, dan HEFFING 1 = 1,00 (10,00 x 10%) en HEFFING 2 = 2,00 (10,00 x 20%). De bedragen zijn als volgt: Brutobedrag: nettobedrag + HEFFING 1 bedrag + HEFFING 2 bedrag (10,00 + 1,00 + 2,00) = 13,00 BTW = 13,00 x 25% = 3,25 Totaal HEFFINGEN en BTW: 1,00 + 2,00 + 3,25 = 6,25 Totaalbedrag: 10,00 + 6,25 = 16,25
+
 | **Opmerking**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Slechts één btw-code met Oorsprong = Percentage van brutobedrag kan voor een transactie worden gebruikt. Als meerdere dergelijke btw-codes voor een transactie worden gedefinieerd wordt een fout weergegeven dat de btw niet kan worden berekend. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>Btw-percentage
 -----------------------
 
@@ -70,6 +70,7 @@ Uitgaande van de volgende btw-codes:
 -   BTW = 25%, met de methode Percentage van brutobedrag
 
 Nettobedrag: 10,00 HEFFING 1: 10,00 x 10% = 1,00 HEFFING 2: 1,00 x 20% = 0,20 Brutobedrag: 10,00 + 1,00 + 0,20 = 11,20 BTW: 11,20 x 25% = 2,80 Totaal HEFFINGEN en BTW: 1,00 + 0,20 + 2,80 = 4,00 Totaalbedrag: 10,00 + 4,00 = 14,00
+
 | **Opmerking**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Belasting op meerdere niveaus in belastingberekeningen is niet mogelijk. Een belasting kan niet worden berekend op basis van een belasting die al op basis van een andere belasting wordt berekend. Er kunnen meerdere één-niveau-belastingen op btw-codes worden berekend voor een transactie. |
@@ -79,6 +80,7 @@ Wanneer u Bedrag per eenheid in het veld Oorsprong selecteert, wordt de btw als 
 ### <a name="example"></a>Voorbeeld
 
 Btw-code is ingesteld als: USD 1,20 per eenheid = doos Op een verkoopfactuurregel worden 25 dozen van een artikel verkocht Btw wordt berekend als 25 x 1,20 = 30,00
+
 | **Opmerking**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Als de transactie in een andere eenheid wordt ingevoerd dan de eenheid die is opgegeven voor de btw-code, wordt deze automatisch omgezet op basis van de eenheidsomrekeningen die in de pagina Eenheidsomrekeningen zijn ingesteld. |

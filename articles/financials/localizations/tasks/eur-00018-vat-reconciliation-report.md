@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="vat-reconciliation-report"></a> Btw-afstemmingsrapport
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u het btw-afstemmingsrapport genereert dat beschikbaar is voor IJslandse en Noorse rechtspersonen. Deze taak werd gemaakt met het demogegevensbedrijf DEMF, waarbij het land/regio voor het primaire adres van de rechtspersoon werd bijgewerkt naar Noorwegen.
 

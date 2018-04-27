@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="info-codes"></a>Infocodes
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Dit artikel geeft een overzicht over infocodes, de groepen infocodes, en hoe ze worden gebruikt.
 
@@ -52,7 +51,7 @@ In Dynamics 365 for Retail kunt u groepen van informatiecodes maken. Informatiec
 
 **Voorbeeld 2: Infocodes koppelen aan infocodegroepen** Als u bepaalde producten verkoopt, bijvoorbeeld mobiele apparaten, wilt u altijd om specifieke informatie vragen, zoals telefoonnummer, mobiele uitrustingsidentificatie (MEID) en serienummer. U wilt echter ook andere informatie verzamelen voor een tablet dan bij een mobiele telefoon. U kunt een informatiecodegroep instellen die vragen bevat voor het telefoonnummer, MEID en het serienummer en vervolgens de informatiecodegroep koppelen aan een afzonderlijke informatiecode. Wanneer de productspecifieke informatiecode wordt geactiveerd, kan de informatiecodegroep vervolgens worden geactiveerd zodat u de gemeenschappelijke gegevens kunt verzamelen zonder daarvoor meerdere sets gekoppelde informatiecodes te definiëren voor elk apparaat.
 
- 
+
 
 
 

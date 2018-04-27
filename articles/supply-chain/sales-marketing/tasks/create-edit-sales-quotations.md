@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>Verkoopoffertes maken en bewerken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u een verkoopofferte maakt en bijwerkt. U kunt deze procedure uitvoeren met uw eigen gegevens of in het demogegevensbedrijf USMF.
 

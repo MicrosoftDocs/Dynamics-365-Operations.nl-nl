@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Beginsaldi voor salarisadministratie invoeren
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 In dit onderwerp worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen. Deze informatie is nuttig voor partners die gegevens voor een nieuwe salarisadministratie-implementatie willen migreren of overbrengen vanuit een ander systeem. Als voorbereiding voor het invoeren van beginsaldi controleren we de volgende informatie:
 
 > * Werknemersrecords zijn ingevoerd en beschikbaar in het systeem
 > * De volgende gegevens zijn ingesteld en toegewezen aan werknemers:
-
+> 
 > > * Betalingscycli en salarisperioden
 > > * Inkomstencodes
 > > * Belastingen
 > > * Vergoedingen en aftrekposten
-
+> 
 > * Het bedrijf moet een datum hebben gekozen waarop de beginsaldi kunnen worden ingesteld.
-
+> 
 > * Gegevens zijn verzameld voor alle inkomsten, vergoedingen/inhoudingen, vergoedingsbijdragen, werknemersbelastingen en werkgeverbelastingen en de betreffende JTH-bedragen in het oude systeem.
 
 Bedenk bij het plannen van de invoer van beginsaldi hoe gedetailleerd de gegevens moeten zijn. De meeste bedrijven voeren een enkel, geconsolideerd bedrag voor JTH in. Als u meer gedetailleerde informatie nodig hebt, kunt u echter saldi invoeren in kwartaalstappen. Door te bepalen welk detailniveau nodig is, bepaalt u hoeveel handmatige salarisoverzichten u moet aanmaken voor elke werknemer. Voor een enkel JTH-bedrag is slechts één handmatig overzicht nodig voor elke werknemer. Hiervoor neemt u de JTH-bedragen van de laatste salarisoverzichten uit het oude systeem en voert u deze in als beginbedrag in de nieuwe salarisadministratie.
@@ -128,22 +128,22 @@ Na het genereren van salarisoverzichten met beginsaldi moet u controleren dat de
 
 4. Ga naar het tabblad **Vergoedingsinhoudingen** en voer de volgende waarden in:
 
-| Veld                           | Waarde            |
-|---------------------------------|------------------|
-| Vergoeding                         | Inhoudingsbedrag |
-| 401K | Deelnemen              | 3000.00          |
-| Tandartsverzekering | SubSp                  | 495,00           |
-| Uitgaven zorg afh. | Deelnemen | 2500.00          |
-| Zicht | SupSp                  | 500,00           |
+|       Veld       |      Waarde       |
+|-------------------|------------------|
+|      Vergoeding      | Inhoudingsbedrag |
+|       401K        |   Deelnemen    |
+|      Tandartsverzekering       |      SubSp       |
+| Uitgaven zorg afh. |   Deelnemen    |
+|      Zicht       |      SupSp       |
 
 5. Voer op het tabblad **Vergoedingsbijdragen** de volgende waarden in:
 
-| Veld              | Waarde               |
-|--------------------|---------------------|
-| Vergoeding            | Bijdragebedrag |
-| 401K | Deelnemen | 3000,00             |
-| Tandartsverzekering | SubSp     | 495,00              |
-| Zicht | SubSp     | 500,00              |
+|  Veld  |        Waarde        |
+|---------|---------------------|
+| Vergoeding | Bijdragebedrag |
+|  401K   |     Deelnemen     |
+| Tandartsverzekering  |        SubSp        |
+| Zicht  |        SubSp        |
 
 6. Voer op het tabblad **Belastinginhoudingen** de volgende waarden in:
 
@@ -156,8 +156,8 @@ Na het genereren van salarisoverzichten met beginsaldi moet u controleren dat de
 7. Voer op het tabblad **Belastingbijdragen** de volgende waarden in:
 
 8. Klik op **Berekenen**.
-> [!IMPORTANT] 
-> Valideer of de totaalbedragen van het salarisoverzicht overeenkomen met JTH-bedragen van het oude systeem voor de werknemer. U kunt het definitief maken in de volgende stap uitstellen en een validatie uitvoeren voor het totaal van alle salarisoverzichten. Na de validatie werkt u alle salarisoverzichten door en maakt u deze definitief.
+   > [!IMPORTANT] 
+   > Valideer of de totaalbedragen van het salarisoverzicht overeenkomen met JTH-bedragen van het oude systeem voor de werknemer. U kunt het definitief maken in de volgende stap uitstellen en een validatie uitvoeren voor het totaal van alle salarisoverzichten. Na de validatie werkt u alle salarisoverzichten door en maakt u deze definitief.
 
 Indien nodig kunt u hetzelfde proces uitvoeren per kwartaal voor alle voorgaande kwartalen in elk jaar. Dit is alleen nodig als de klant de gegevens per kwartaal moet zien, zonder terug te hoeven gaan naar het oude systeem.
 

@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Veldomschrijvingen weergeven en exporteren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe veldbeschrijvingen worden weergegeven en hoe de pagina Veldbeschrijvingen kan worden gebruikt van om beschrijvingen te exporteren.
 
@@ -77,7 +76,7 @@ Er zijn verschillende manieren om een pagina te zoeken in het veld **Selecteer e
     -   Als er meer dan één exacte overeenkomst is, worden geen beschrijvingen weergegeven. U moet de vervolgkeuzelijst openen en de gewenste pagina selecteren.
     -   Als de naam die u hebt getypt deel uitmaakt van de naam van een andere pagina, ziet u de beschrijvingen voor uw pagina. Als u echter de vervolgkeuzelijst opent, ziet u extra pagina's die deze naam bevatten.
 
-Zo worden er bijvoorbeeld geen beschrijvingen weergegeven wanneer u **telling** typt in het veld ****Selecteer een pagina****. U opent de vervolgkeuzelijst en ziet dat er twee pagina's zijn met de naam **Counting**, plus verschillende pagina's die het woord "Telling" bevatten in de naam. Als u de pagina met de AOT-naam **InventJournalCountt** selecteert, worden de veldbeschrijvingen voor die pagina weergegeven. Als u echter de vervolgkeuzelijst opnieuw opent, ziet u dat de lijst nu alle pagina's bevat met "InventJournalCount" als deel van de AOT-naam.
+Zo worden er bijvoorbeeld geen beschrijvingen weergegeven wanneer u <strong>telling</strong> typt in het veld *<strong><em>Selecteer een pagina</em></strong>*. U opent de vervolgkeuzelijst en ziet dat er twee pagina's zijn met de naam <strong>Counting</strong>, plus verschillende pagina's die het woord "Telling" bevatten in de naam. Als u de pagina met de AOT-naam <strong>InventJournalCountt</strong> selecteert, worden de veldbeschrijvingen voor die pagina weergegeven. Als u echter de vervolgkeuzelijst opnieuw opent, ziet u dat de lijst nu alle pagina's bevat met "InventJournalCount" als deel van de AOT-naam.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 Deze sectie bevat informatie om u te helpen problemen op te lossen die u kunt tegenkomen als u veldbeschrijvingen gebruikt.

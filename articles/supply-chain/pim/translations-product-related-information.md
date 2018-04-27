@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft hoe u vertalingen voor producten, productdimensiewaarden en productkenmerken kunt beheren. 
 
@@ -95,8 +94,7 @@ Een klant wil enkele rode T-shirts small kopen en de naam van het T-shirt moet i
 <tbody>
 <tr class="odd">
 <td>Om de voorkeurstaal van een klant in te stellen, volgt u deze stappen:
-<ol>  
-<li>Klik op <strong>Verkoop en marketing</strong> &gt; <strong>Algemeen</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle</strong> <strong>klanten</strong>.</li>
+<ol><br/><li>Klik op <strong>Verkoop en marketing</strong> &gt; <strong>Algemeen</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle</strong> <strong>klanten</strong>.</li>
 <li>Dubbelklik op een klant om de pagina <strong>Klanten</strong> te openen. Selecteer op het tabblad <strong>Algemeen</strong> in het veld <strong>Taal</strong> de <strong>taal</strong>.</li>
 </ol></td>
 </tr>

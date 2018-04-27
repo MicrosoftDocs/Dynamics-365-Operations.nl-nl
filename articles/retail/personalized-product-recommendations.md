@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Overzicht van gepersonaliseerde productaanbevelingen
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > We verwijderen de huidige versie van de productaanbevelingsservice aangezien we deze opnieuw willen ontwerpen met een beter algoritme en nieuwe mogelijkheden voor detailhandelaren. Zie voor meer informatie [Verwijderde of verouderde functies](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Navigeer naar de onderkant van de pagina als u problemen hebt met reeds ingeschakelde aanbevelingen voor uw omgeving. 
@@ -86,9 +85,9 @@ Wanneer u **Aanbevelingen inschakelen** activeert en de configuratietaken uitvoe
 -   Modelreferenties en de model-id worden beschikbaar gesteld aan CRT, zodat aanroepen voor productaanbevelingen vanuit de cloud-POS en MPOS in de online modus kunnen worden gehonoreerd.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Problemen oplossen waar u al ingeschakelde productaanbevelingen hebt 
->- Ga naar **Detailhandelparameters** > **Machine Learning** > **Productaanbevelingen uitschakelen** en start **Algemene configuratie-taak [1110]**. Als u het tabblad **Machine Learning** niet kunt vinden, neemt u contact op met de Dynamics-ondersteuning. 
-
->- Als u het besturingselement **Aanbevelingen** hebt toegevoegd aan uw transactiescherm met **Ontwerper van schermindeling**, verwijdert u dat ook. 
+> - Ga naar **Detailhandelparameters** > **Machine Learning** > **Productaanbevelingen uitschakelen** en start **Algemene configuratie-taak [1110]**. Als u het tabblad **Machine Learning** niet kunt vinden, neemt u contact op met de Dynamics-ondersteuning. 
+> 
+> - Als u het besturingselement **Aanbevelingen** hebt toegevoegd aan uw transactiescherm met **Ontwerper van schermindeling**, verwijdert u dat ook. 
 
 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="semansys-xbrl-integration-netherlands"></a>Semansys XBRL-integratie (Nederland)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren. Deze procedure is gemaakt met het demobedrijf DEMF, met het primaire adres van de rechtspersoon bijgewerkt zodat het in Nederland ligt.
 

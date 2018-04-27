@@ -19,15 +19,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7a81697a8e90fb6b0695a02db0868f5708fdbddf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Voortschrijdend prognoserapport voor vaste activa
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Het rapport **Voortschrijdend prognoserapport voor vaste activa** biedt in een gemakkelijk leesbare Microsoft Excel-indeling de gedetailleerde vaste activa-gegevens die u nodig hebt voor periodeafsluiting, financiële overzichten en btw-aangifte. Het rapport bevat begin- en eindsaldi voor vaste activa, samen met de waarderingsverplaatsingen voor de periode, en eventuele nieuwe activaverwervingen en -afstotingen die zijn opgetreden tijdens de periode. Gegevens worden voor afzonderlijke vaste activa gerapporteerd en waarden worden ook samengevat voor vaste-activagroepen en de rechtspersoon.
 
@@ -41,28 +41,30 @@ Dit rapport is beschikbaar in Microsoft Dynamics 365 for Finance and Operations,
 
 In de volgende tabel worden de velden beschreven die beschikbaar zijn in het rapport.
 
-| Veld                                       | Omschrijving |
-|---------------------------------------------|-------------|
-| Saldi: opening                           | De vaste activa nettoboekwaarde vanaf de 'vanaf'-datum die is opgegeven in het rapport. |
-| Saldi: afsluiting                           | De vaste activa nettoboekwaarde vanaf de 'tot'-datum die is opgegeven in het rapport. |
-| Verwervingen: openingswaarde                 | De som van alle transacties van de typen **Verwerving** en **Verwervingscorrectie** tot aan de 'vanaf'-datum die is opgegeven in het rapport. |
-| Verwervingen: periodeverwervingen           | De som van alle transacties van de typen **Verwerving** en **Verwervingscorrectie** die zijn geboekt tijdens het datumbereik voor het rapport. |
-| Verwervingen: periodeafstotingen              | De som van alle verwervingsomkeringen die zijn geboekt en die een afstotingstransactie hadden tijdens het datumbereik van het rapport. |
-| Verwervingen: afsluitingswaarde                 | De som van alle transacties van de typen **Verwerving** en **Verwervingscorrectie** tot aan de 'tot'-datum die is opgegeven in het rapport. |
-| Afschrijvingen: openingswaarde                | De som van alle transacties van de typen **Afschrijving**, **Afschrijvingscorrectie**, **Speciale afschrijvingsaftrek** en **Buitengewone afschrijving** tot aan de 'vanaf'-datum die is opgegeven in het rapport. |
-| Afschrijvingen: periodeafschrijvingen         | De som van alle transacties van de typen **Afschrijving**, **Afschrijvingscorrectie** en **Buitengewone afschrijving** die zijn geboekt tijdens het datumbereik voor het rapport. |
-| Afschrijvingen: speciale periodeafschrijvingen | De som van alle transacties van het type **Speciale afschrijvingsaftrek** die zijn geboekt tijdens het datumbereik voor het rapport. |
-| Afschrijvingen: periodeafstotingen             | De som van alle afschrijvingsomkeringen die zijn geboekt en die een afstotingstransacties hadden tijdens het datumbereik van het rapport. |
-| Afschrijvingen: afsluitingswaarde                | De som van alle transacties van de typen **Afschrijving**, **Afschrijvingscorrectie**, **Speciale afschrijvingsaftrek** en **Buitengewone afschrijving** tot aan de 'tot'-datum die is opgegeven in het rapport. |
-| Opwaarderingen/afwaarderingen: openingswaarde        | De som van alle transacties van de typen **Opwaarderingscorrectie**, **Afschrijvingscorrectie** en **Herwaardering** tot aan de 'vanaf'-datum die is opgegeven in het rapport. |
-| Opwaarderingen/afwaarderingen: periodeopwaarderingen     | De som van alle transacties van het type **Opwaarderingscorrectie** die zijn geboekt tijdens het datumbereik voor het rapport. |
-| Opwaarderingen/afwaarderingen: periodeafwaarderingen   | De som van alle transacties van het type **Afwaarderingscorrectie** die zijn geboekt tijdens het datumbereik voor het rapport. |
-| Opwaarderingen/afwaarderingen: periodeherwaarderingen  | De som van alle transacties van het type **Herwaardering** die zijn geboekt tijdens het datumbereik voor het rapport. |
-| Opwaarderingen/afwaarderingen: periodeafstotingen     | De som van alle opwaarderings-, afwaarderings- en herwaarderingsomkeringen die zijn geboekt en die een afstotingstransacties hadden tijdens het datumbereik van het rapport. |
-| Opwaarderingen/afwaarderingen: afsluitingswaarde        | De som van alle transacties van de typen **Opwaarderingscorrectie**, **Afschrijvingscorrectie** en **Herwaardering** tot aan de 'tot'-datum die is opgegeven in het rapport. |
-| Afstotingen: afstotingsdatum                    | De afstotingsdatum voor het vaste-activaboek. |
-| Afstotingen: nettoboekwaarde bij afstoting       | De nettoboekwaarde van het vaste-activaboek op het moment van afstoting. |
-| Afstotingen: verkoopwaarde                       | De verkoopwaarde voor het vaste-activaboek met een afstoting – verkooptransactie. |
-| Afstotingen: uitvalwaarde                      | De uitvalwaarde voor het vaste-activaboek met een afstoting – uitvaltransactie. |
-| Afstotingen: winst/verlies                      | De winst- of verlieswaarde die wordt berekend als onderdeel van de afstotingstransactie voor het vaste-activaboek. |
+
+|                    Veld                    |                                                                                                                                Omschrijving                                                                                                                                |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              Saldi: opening              |                                                                                           De vaste activa nettoboekwaarde vanaf de 'vanaf'-datum die is opgegeven in het rapport.                                                                                           |
+|              Saldi: afsluiting              |                                                                                            De vaste activa nettoboekwaarde vanaf de 'tot'-datum die is opgegeven in het rapport.                                                                                            |
+|         Verwervingen: openingswaarde         |                                                 De som van alle transacties van de typen <strong>Verwerving</strong> en <strong>Verwervingscorrectie</strong> tot aan de 'vanaf'-datum die is opgegeven in het rapport.                                                  |
+|      Verwervingen: periodeverwervingen      |                                                 De som van alle transacties van de typen <strong>Verwerving</strong> en <strong>Verwervingscorrectie</strong> die zijn geboekt tijdens het datumbereik voor het rapport.                                                  |
+|       Verwervingen: periodeafstotingen        |                                                                        De som van alle verwervingsomkeringen die zijn geboekt en die een afstotingstransactie hadden tijdens het datumbereik van het rapport.                                                                        |
+|         Verwervingen: afsluitingswaarde         |                                                  De som van alle transacties van de typen <strong>Verwerving</strong> en <strong>Verwervingscorrectie</strong> tot aan de 'tot'-datum die is opgegeven in het rapport.                                                   |
+|        Afschrijvingen: openingswaarde         | De som van alle transacties van de typen <strong>Afschrijving</strong>, <strong>Afschrijvingscorrectie</strong>, <strong>Speciale afschrijvingsaftrek</strong> en <strong>Buitengewone afschrijving</strong> tot aan de 'vanaf'-datum die is opgegeven in het rapport. |
+|     Afschrijvingen: periodeafschrijvingen     |                         De som van alle transacties van de typen <strong>Afschrijving</strong>, <strong>Afschrijvingscorrectie</strong> en <strong>Buitengewone afschrijving</strong> die zijn geboekt tijdens het datumbereik voor het rapport.                          |
+| Afschrijvingen: speciale periodeafschrijvingen |                                                              De som van alle transacties van het type <strong>Speciale afschrijvingsaftrek</strong> die zijn geboekt tijdens het datumbereik voor het rapport.                                                               |
+|       Afschrijvingen: periodeafstotingen       |                                                                       De som van alle afschrijvingsomkeringen die zijn geboekt en die een afstotingstransacties hadden tijdens het datumbereik van het rapport.                                                                        |
+|        Afschrijvingen: afsluitingswaarde         |  De som van alle transacties van de typen <strong>Afschrijving</strong>, <strong>Afschrijvingscorrectie</strong>, <strong>Speciale afschrijvingsaftrek</strong> en <strong>Buitengewone afschrijving</strong> tot aan de 'tot'-datum die is opgegeven in het rapport.  |
+|    Opwaarderingen/afwaarderingen: openingswaarde     |                              De som van alle transacties van de typen <strong>Opwaarderingscorrectie</strong>, <strong>Afschrijvingscorrectie</strong> en <strong>Herwaardering</strong> tot aan de 'vanaf'-datum die is opgegeven in het rapport.                               |
+|   Opwaarderingen/afwaarderingen: periodeopwaarderingen   |                                                                    De som van alle transacties van het type <strong>Opwaarderingscorrectie</strong> die zijn geboekt tijdens het datumbereik voor het rapport.                                                                    |
+|  Opwaarderingen/afwaarderingen: periodeafwaarderingen  |                                                                   De som van alle transacties van het type <strong>Afwaarderingscorrectie</strong> die zijn geboekt tijdens het datumbereik voor het rapport.                                                                   |
+| Opwaarderingen/afwaarderingen: periodeherwaarderingen  |                                                                        De som van alle transacties van het type <strong>Herwaardering</strong> die zijn geboekt tijdens het datumbereik voor het rapport.                                                                        |
+|   Opwaarderingen/afwaarderingen: periodeafstotingen   |                                                           De som van alle opwaarderings-, afwaarderings- en herwaarderingsomkeringen die zijn geboekt en die een afstotingstransacties hadden tijdens het datumbereik van het rapport.                                                           |
+|    Opwaarderingen/afwaarderingen: afsluitingswaarde     |                               De som van alle transacties van de typen <strong>Opwaarderingscorrectie</strong>, <strong>Afschrijvingscorrectie</strong> en <strong>Herwaardering</strong> tot aan de 'tot'-datum die is opgegeven in het rapport.                                |
+|          Afstotingen: afstotingsdatum           |                                                                                                                De afstotingsdatum voor het vaste-activaboek.                                                                                                                |
+|    Afstotingen: nettoboekwaarde bij afstoting    |                                                                                                    De nettoboekwaarde van het vaste-activaboek op het moment van afstoting.                                                                                                    |
+|            Afstotingen: verkoopwaarde            |                                                                                               De verkoopwaarde voor het vaste-activaboek met een afstoting – verkooptransactie.                                                                                                |
+|           Afstotingen: uitvalwaarde            |                                                                                               De uitvalwaarde voor het vaste-activaboek met een afstoting – uitvaltransactie.                                                                                               |
+|           Afstotingen: winst/verlies            |                                                                                 De winst- of verlieswaarde die wordt berekend als onderdeel van de afstotingstransactie voor het vaste-activaboek.                                                                                 |
+
 

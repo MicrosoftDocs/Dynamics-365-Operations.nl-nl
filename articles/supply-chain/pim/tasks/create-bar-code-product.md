@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Een streepjescode voor een product maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u handmatig een streepjescode maakt met als voorbeeld het artikelnummer M0001. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

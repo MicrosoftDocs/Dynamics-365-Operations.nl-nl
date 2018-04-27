@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Betalingsconfiguraties voor detailhandeloverzichten
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure demonstreert configuraties voor betalingsmethoden voor detailhandelwinkels die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt.
 

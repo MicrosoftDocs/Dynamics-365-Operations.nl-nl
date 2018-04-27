@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Productbevestiging voor clusterverzameling
 Met clusterverzameling kunt u artikelen verzamelen voor meerdere orders tegelijk. Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot belang om de artikelen te controleren die aan clusters worden toegevoegd. U kunt artikelen in clusterverzameling controleren tijdens het clusterverzamelingsproces.
@@ -37,7 +37,8 @@ Artikelverificatie voor clusterverzameling op dezelfde manier als wanneer u arti
 1.  Open in een menuoptie voor mobiele apparaten het instellingsformulier voor werkbevestiging : **Magazijnbeheer** > **Magazijnbeheer** > **Instellingen** > **Mobiel apparaat** > **Menuopties voor mobiel apparaat**.
 2.  Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**.
 
-| Optie        | Omschrijving   | 
-| ------------- | ------------- |
-|Productbevestiging | Hiermee kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren.|
+|        Optie        |                                    Omschrijving                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Productbevestiging | Hiermee kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren. |
+
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a> Online kanalen maken en kanaalkenmerken definiëren
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen ervan aan de organisatiehiërarchie. U moet de organisatiehiërarchie maken voordat u een nieuw online kanaal kunt maken. Deze procedure gebruikt het demobedrijf USRT.
 

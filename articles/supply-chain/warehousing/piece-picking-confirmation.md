@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Bevestiging door stuksverzameling
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met stuksverzameling kunt u elk stuk in uw voorraad bevestigen via picking- of tellingswerk op een mobiel apparaat. Voor orderverzameling kunt u de hoeveelheid werk die moet worden verwerkt, bevestigen tot en met de hoeveelheid die is opgegeven op het werk dat moet worden gepickt. Voor tellingswerk kunt u de voorraad scannen die u telt en de totale hoeveelheid bijhouden.
 
@@ -46,8 +46,10 @@ Stuksverzameling werkt voor alle tellingswerk en voor de eerste verzameling voor
 
 De volgende opties worden beschikbaar voor selectie, wanneer het type werk verzameling of telling is.
 
-| Optie        | Omschrijving   | 
-| ------------- | ------------- |
-| Bevestiging van orderverzameling   | Beschikbaar voor werktypen verzamelen en tellen. Productbevestiging wordt automatisch ingeschakeld. Hiermee kunt u elk stuk van de voorraad vanaf het mobiele apparaat bevestigen. | 
-| Maximumaantal stuks     | Beschikbaar voor verzamelingswerk, als bevestiging voor stuksverzamelen is ingeschakeld. Stelt een limiet in op het aantal onderdelen dat u moet bevestigen. |  
+
+|           Optie           |                                                                            Omschrijving                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Bevestiging van orderverzameling | Beschikbaar voor werktypen verzamelen en tellen. Productbevestiging wordt automatisch ingeschakeld. Hiermee kunt u elk stuk van de voorraad vanaf het mobiele apparaat bevestigen. |
+|  Maximumaantal stuks  |                   Beschikbaar voor verzamelingswerk, als bevestiging voor stuksverzamelen is ingeschakeld. Stelt een limiet in op het aantal onderdelen dat u moet bevestigen.                   |
+
 

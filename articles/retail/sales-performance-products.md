@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>Verkoopprestaties beoordelen per product
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 U kunt de winstgevendheid bestuderen van de top 10-producten met Microsoft Dynamics 365 for Retail. 
 

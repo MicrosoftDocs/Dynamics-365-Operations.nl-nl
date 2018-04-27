@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quality-management-processes"></a>Processen voor kwaliteitsbeheer
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over het kwaliteitsbeheerproces voor niet-overeenkomende producten. Het beschrijft hoe u kwaliteitscontrolefunctionaliteit kunt gebruiken, hoe u niet-conformeringen definieert en beheert, en hoe u omgaat met correcties.
 

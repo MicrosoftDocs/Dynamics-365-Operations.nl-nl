@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Een rentecode met een bereik maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 U kunt rentecodes instellen om verschillende rentebedragen te berekenen op basis van een waardebereik. Deze procedure toont hoe u een rentecode toevoegt en er een bereik aan toevoegt.
 

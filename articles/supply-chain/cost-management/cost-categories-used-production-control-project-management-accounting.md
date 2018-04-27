@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Kostencategorieën die worden gebruikt in Productiebeheer en in Projectbeheerboekhouding
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bepaalde typen productiewerk zijn mogelijk van toepassing op geraamde projecturen en rapportage. Dit artikel bevat informatie over de kostencategorieën die u voor deze soorten productiewerk voor productie- en projectdoeleinden moet definiëren.
 

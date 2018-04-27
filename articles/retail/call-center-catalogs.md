@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>Callcentercatalogi
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel wordt de callcenterspecifieke functionaliteit voor catalogi beschreven in Microsoft Dynamics 365 for Retail.
 

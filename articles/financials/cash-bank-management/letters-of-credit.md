@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Kredietbrieven
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kredietbrieven zijn bankdocumenten die vaak worden gebruikt voor de inkoop en verkoop van goederen over de internationale grenzen heen. 
 

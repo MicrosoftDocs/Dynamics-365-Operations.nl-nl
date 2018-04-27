@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>SQL Server Reporting Services configureren voor een on-premises implementatie
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Gebruik de stappen in dit onderwerp voor het configureren van SQL Server Reporting Services (SSRS) voor uw implementatie van Microsoft Dynamics 365 for Finance and Operations (on-premises).
 
@@ -52,13 +52,13 @@ Gebruik de stappen in dit onderwerp voor het configureren van SQL Server Reporti
 
     [![Tabblad Webportal-url](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  Nadat de Portal is geconfigureerd, komt het tabblad **Webportal** overeen met de volgende afbeelding.
+   Nadat de Portal is geconfigureerd, komt het tabblad **Webportal** overeen met de volgende afbeelding.
     [![Tabblad Webportal](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. Klik op de URL van de rapporten om de webportal SQL Server Reporting Services weer te geven. 
-9.  Wanneer u zich in de portal bevindt, maakt u een nieuwe map met de naam **Dynamics**.
+9. Wanneer u zich in de portal bevindt, maakt u een nieuwe map met de naam **Dynamics**.
 
-    [![Dynamics-map](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![Dynamics-map](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. Klik in **Reporting Services Configuration Manager** op het tabblad **E-mailinstellingen** en controleer of de instellingen overeenkomen met de volgende afbeelding.
 
@@ -68,15 +68,15 @@ Gebruik de stappen in dit onderwerp voor het configureren van SQL Server Reporti
 
     [![Tabblad Uitvoeringsaccount](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  Wijzig niet de standaardinstellingen op het tabblad **Coderingssleutel**. [![Tabblad Coderingssleutel](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    Wijzig niet de standaardinstellingen op het tabblad **Coderingssleutel**. [![Tabblad Coderingssleutel](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. Klik op het tabblad **Abonnementen instellen** en controleer of de instellingen overeenkomen met de volgende afbeelding.
 
     [![tabblad Abonnementen instellen](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  Wijzig niet de standaardinstellingen op het tabblad **Implementatie horizontaal schalen**. [![Tabblad Implementatie horizontaal schalen](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    Wijzig niet de standaardinstellingen op het tabblad **Implementatie horizontaal schalen**. [![Tabblad Implementatie horizontaal schalen](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  Wijzig niet de standaardinstellingen op het tabblad **Power BI-integratie**. [![Tabblad Power BI-integratie](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    Wijzig niet de standaardinstellingen op het tabblad **Power BI-integratie**. [![Tabblad Power BI-integratie](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. Klik op **Afsluiten** om de **Reporting Services Configuration Manager** te sluiten.
 

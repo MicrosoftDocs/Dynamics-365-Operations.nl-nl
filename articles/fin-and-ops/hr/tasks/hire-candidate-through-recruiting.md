@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Een kandidaat aannemen via werving
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure stelt een werver in staat om een sollicitant aan te stellen die een sollicitatie heeft ingediend via een specifiek wervingsproject. Wanneer u een sollicitant aanstelt via een wervingsproject, wordt een nieuwe werknemerregistratie gemaakt en krijgt de registratie van de sollicitant de status Aangesteld. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. U voltooit deze procedure door te navigeren naar Human resources > Werving > Sollicitaties > Sollicitaties 
 

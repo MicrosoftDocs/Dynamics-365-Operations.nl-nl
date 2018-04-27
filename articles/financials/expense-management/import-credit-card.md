@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Creditcardtransacties importeren en onderhouden
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Onkostengerelateerde creditcardtransacties kunnen zo worden ingesteld dat deze automatisch periodiek worden geïmporteerd. De transacties kunnen zo nodig ook handmatig worden geïmporteerd. De creditcardtransacties worden geïmporteerd via de gegevensentiteit Creditcardtransacties.
 

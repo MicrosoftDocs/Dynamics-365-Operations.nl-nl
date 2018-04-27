@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>Overzicht Optimization advisor
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u Optimization advisor gebruiken om een optimale configuratie van Microsoft Dynamics 365 Finance and Operations te garanderen
 

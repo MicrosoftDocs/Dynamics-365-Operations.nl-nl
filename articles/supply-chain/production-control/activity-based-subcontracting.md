@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="activity-based-subcontracting"></a>Werkuitbesteding op basis van een activiteit
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt tot in detail beschreven hoe u uitbestede activiteiten in een productiestroom voor lean manufacturing kunt gebruiken.
 

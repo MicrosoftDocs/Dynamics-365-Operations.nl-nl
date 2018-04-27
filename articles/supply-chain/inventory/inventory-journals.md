@@ -1,9 +1,9 @@
 ---
 title: Voorraadjournalen
-description: In dit artikel wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
-author: MarkusFogelberg
+description: In dit onderwerp wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
+author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,21 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 968bf9a243d0c0cc9f0dfec474cb207ca32f9eeb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journals"></a>Voorraadjournalen
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
-
-In dit artikel wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
+In dit onderwerp wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
 
 De voorraadjournalen in Microsoft Dynamics 365 for Finance and Operations worden gebruikt om fysieke voorraadtransacties van diverse typen te boeken, zoals het boeken van uitgiften en ontvangsten, voorraadmutaties, het maken van stuklijsten (BOMs), en de afstemming van fysieke voorraad. Al deze voorraadjournalen worden gebruikt op een vergelijkbare manier, maar ze worden onderscheiden in verschillende typen.
 
@@ -51,7 +50,7 @@ De volgende voorraadjournaaltypen zijn beschikbaar:
 
 ### <a name="movement"></a>Mutatie
 
-Wanneer u een voorraadmutatiejournaal gebruikt, kunt u kosten aan een artikel toevoegen wanneer u voorraad toevoegt, maar u moet handmatig de extra kosten aan een bepaalde grootboekrekening toewijzen door een grootboektegenrekening op te geven wanneer u het journaal maakt. Dit voorraadjournaaltype is nuttig als u met een artikel als onkosten op een andere afdeling wilt boeken, of als u artikelen wilt verwijderen uit de voorraad ten behoeven van onkostendoelen.
+Wanneer u een voorraadmutatiejournaal gebruikt, kunt u kosten aan een artikel toevoegen wanneer u voorraad toevoegt, maar u moet handmatig de extra kosten aan een bepaalde grootboekrekening toewijzen door een grootboektegenrekening op te geven wanneer u het journaal maakt. Dit voorraadjournaaltype is handig als u de standaardrekeningen wilt overschrijven.
 
 ### <a name="inventory-adjustment"></a>Voorraadcorrectie
 
@@ -61,8 +60,8 @@ Wanneer u een voorraadcorrectiejournaal gebruikt, kunt u kosten aan een artikel 
 
 U kunt overboekingsjournalen gebruiken om artikelen tussen voorraadlocaties, batches, of productvarianten te boeken, zonder kostenimplicaties te koppelen. U kunt bijvoorbeeld artikelen van het ene magazijn naar een ander magazijn in hetzelfde bedrijf overboeken. Wanneer u een overboekingsjournaal gebruikt, moet u de dimensies "van" en "naar" beide opgeven (bijvoorbeeld, voor Locatie en Magazijn). De voorhanden voorraad voor de gedefinieerde voorraaddimensie wordt dienovereenkomstig bijgewerkt. Voorraadoverboekingen reflecteren de onmiddellijke verplaatsing van materiaal. Transitvoorraad wordt niet getraceerd. Als transitvoorraad moet worden gevolgd, kunt u in plaats daarvan beter een transferorder gebruiken. Wanneer u een overboekingsjournaal boekt, worden twee voorraadtransacties gemaakt voor elke journaalregel:
 
--   Een voorraaduitgifte op de "van"-locatie
--   Een voorraadontvangst op de "aan"-locatie
+-   Een voorraaduitgifte op de "van"-locatie.
+-   Een voorraadontvangst op de "aan"-locatie.
 
 ### <a name="bom"></a>Stuklijst
 
@@ -95,4 +94,30 @@ Een journaalregel is alleen toegankelijk voor één gebruiker tegelijk. Als vers
 
 ## <a name="posting-journal-lines"></a>Journaalregels boeken
 U kunt op elk gewenst moment de journaalregels boeken die u maakt, tot u een artikel van extra transacties hebt vergrendeld. De gegevens die u in een journaal invoert, blijven in dat journaal bewaard, zelfs als u het journaal sluit zonder de regels te boeken.
+
+## <a name="data-entity-support-for-inventory-journals"></a>Ondersteuning van gegevensentiteit voor voorraadjournalen
+
+Gegevensentiteiten ondersteunen de volgende typen integratiescenario's:
+-    Synchrone service (OData)
+-  Asynchrone integratie
+
+Zie [Gegevensentiteiten](../../dev-itpro/data-entities/data-entities.md) voor meer informatie.
+
+> [!NOTE]
+> Niet alle voorraadjournalen ondersteunen OData, dus u kunt de Excel-gegevensconnector niet gebruiken om gegevens te publiceren, bij te werken en terug te importeren in Dynamics 365 for Finance and Operations. 
+
+Een ander verschil tussen de journaalgegevensentiteiten is de mogelijkheid om samengestelde entiteiten te gebruiken met kop- en regelgegevens. Op dit moment kunt u de samengestelde entiteiten gebruiken voor:
+-   Voorraadcorrectiejournaal
+-   Voorraadmutatiejournaal
+
+Deze twee voorraadjournalen ondersteunen alleen het scenario *Voorraad initialiseren* als onderdeel van het importeren van een gegevensbeheerproject:
+-  Wanneer geen journaalnummer voor de koptekst is opgegeven, maar een nummerreeks voor het journaaltype is opgegeven, worden met de importtaak automatisch journaalkopteksten per 1000 regels gemaakt. Bijvoorbeeld resulteert het importeren van 2020 regels in de volgende drie kopteksten:
+    -  Kop 1: bevat 1000 regels
+    -  Kop 2: bevat 1000 regels
+    -  Kop 3: bevat 20 regels
+-  Hierbij wordt ervan uitgegaan dat unieke regelgegevens bestaan per voorraaddimensie; dit kan een product-, opslag- en traceringsdimensie zijn. Daarom is het niet mogelijk om journaalregels te importeren, waarvoor alleen het datumveld verschilt op de regels binnen hetzelfde importproject.
+
+## <a name="additional-resources"></a>Aanvullende resources
+
+[Gegevensentiteiten](../../dev-itpro/data-entities/data-entities.md)
 

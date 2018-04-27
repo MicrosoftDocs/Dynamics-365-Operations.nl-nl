@@ -3,7 +3,7 @@ title: "Eén boekstuk"
 description: "Met één boekstuk voor financiële journalen (algemeen journaal, vaste-activajournaal, leveranciersbetalingsjournaal, enzovoort) kunt u meerdere subgrootboekransacties invoeren in de context van één boekstuk."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Eén boekstuk
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Deze functionaliteit is beschikbaar in Dynamics 365 for Finance and Operations versie 8.0, die beschikbaar is in de release van voorjaar 2018.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 Met de bestaande functionaliteit voor financiële journalen (algemeen journaal, vaste-activajournaal, leveranciersbetalingsjournaal, enzovoort) kunt u meerdere subadministratietransacties invoeren in de context van één boekstuk. We verwijzen naar deze functionaliteit als 'Eén boekstuk'. U kunt een van de volgende methoden gebruiken om Eén boekstuk te maken:
 
--   Stel de journaalnaam in (**Grootboek** \> **Journaal instellen** \> **Journaalnamen**) zodat het veld **Nieuw boekstuk** wordt ingesteld op **Maximaal één boekstuknummer**. Elke regel die u aan het journaal toevoegt, wordt nu opgenomen op hetzelfde boekstuk. Omdat elke regel wordt toegevoegd aan hetzelfde boekstuk, kan het boekstuk worden ingevoerd als een boekstuk met meerdere regels, als een rekening/tegenrekening op dezelfde regel, of als een combinatie.
+-   Stel de journaalnaam in (**Grootboek** \> **Journaal instellen** \> **Journaalnamen**) zodat het veld **Nieuw boekstuk** wordt ingesteld op **Maximaal één boekstuknummer**. * Elke regel die u aan het journaal toevoegt, wordt nu opgenomen op hetzelfde boekstuk. Omdat elke regel wordt toegevoegd aan hetzelfde boekstuk, kan het boekstuk worden ingevoerd als een boekstuk met meerdere regels, als een rekening/tegenrekening op dezelfde regel, of als een combinatie.
 
 [![Eén regel](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Houd er rekening mee dat de definitie van 'Eén boekstuk' geen journaalnamen bevat die alleen zijn ingesteld als **Eén boekstuknummer** en waarvoor de gebruiker vervolgens een boekstuk invoert dat alleen soorten grootboekrekeningen bevat.  In dit document betekent 'Eén boekstuk' dat er één boekstuk is met meer dan een leverancier, klant, bank, vaste activa of project. 
 
 -   Voer een boekstuk met meerdere regels in wanneer er geen tegenrekening is.
 
@@ -68,13 +71,16 @@ Vervolgens genereert u het rapport **Onkosten per leverancier** in het werkgebie
 
 Vanwege de hierboven vermelde problemen wordt de functionaliteit van Eén boekstuk niet verder ontwikkeld. Omdat deze functionaliteit echter in bepaalde gevallen wordt toegepast, zal de functie niet in één keer worden verwijderd. Dit gebeurt volgens het volgende schema: 
 
--   **Release voorjaar 2018**: de functionaliteit wordt standaard uitgeschakeld in een grootboekparameter. U kunt de functie echter inschakelen als uw organisatie een scenario heeft dat werkt met de zakelijke scenario's die verderop in dit onderwerp worden vermeld.
+- **Release voorjaar 2018**: de functionaliteit wordt standaard uitgeschakeld in een grootboekparameter. U kunt de functie echter inschakelen als uw organisatie een scenario heeft dat werkt met de zakelijke scenario's die verderop in dit onderwerp worden vermeld.
 
-    -   Als een klant een zakelijke scenario's heeft, waarvoor Eén boekstuk niet nodig is, schakelt u de functie niet in. Er worden geen 'fouten' opgelost voor de gebieden die verderop in dit onderwerp worden aangegeven, als deze functionaliteit wordt gebruikt terwijl een andere oplossing bestaat.
+  -   Als een klant een zakelijke scenario's heeft, waarvoor Eén boekstuk niet nodig is, schakelt u de functie niet in. Er worden geen 'fouten' opgelost voor de gebieden die verderop in dit onderwerp worden aangegeven, als deze functionaliteit wordt gebruikt terwijl een andere oplossing bestaat.
 
-    -   Stop met het gebruiken van Eén boekstuk voor integratie in Microsoft Dynamics 365 Finance and Operations, tenzij de functionaliteit vereist is.
+  -   Stop met het gebruiken van Eén boekstuk voor integratie in Microsoft Dynamics 365 Finance and Operations, tenzij de functionaliteit vereist is.
 
--   **Releases najaar 2018 en later**: de functionaliteit wordt ingevuld. Nadat de functionaliteit is ingevuld, wordt Eén boekstuk permanent uitgeschakeld.
+- **Releases najaar 2018 en later**: de functionaliteit wordt ingevuld. Nadat de functionaliteit is ingevuld, wordt Eén boekstuk permanent uitgeschakeld.
+
+- > [!IMPORTANT]
+  > Houd er rekening mee dat de optie **Maximaal één boekstuknummer** NIET is verwijderd uit de instellingen voor journaalnamen.  Deze optie wordt nog steeds ondersteund als het boekstuk alleen soorten grootboekrekeningen bevat.  Klanten moeten voorzichtig zijn met deze instelling omdat het boekstuk niet kan worden geboekt als ze **Maximaal één boekstuknummer** gebruiken en meer dan een klant, leverancier, bank, vaste activa of project invoeren.  Bovendien kunnen klanten toch een combinatie van subgrootboekrekeningtypen invoeren, zoals een betaling binnen één boekstuk die rekeningtypen bevat van leverancier/bank.  
 
 <a name="why-use-one-voucher"></a>Waarom gebruikt u Eén boekstuk?
 ====================
@@ -102,13 +108,13 @@ De volgende scenario's kunnen alleen met de functionaliteit Eén boekstuk worden
 
 >   Als een organisatie de boekhoudregels van een zakelijke gebeurtenis samen moet weergeven, gebruikt u Eén boekstuk. 
 
--   **Landafhankelijke functies**
+- **Landafhankelijke functies**
 
- -   De functie Enig Document (ED) voor Polen vereist momenteel dat één boekstuk wordt gebruikt. Totdat een groeperingsoptie voor deze functie beschikbaar is, moet u doorgaan met het gebruik van de functionaliteit van één boekstuk. Er zijn mogelijk extra landspecifieke functies waarvoor de functionaliteit van één boekstuk nodig is.
+  -   De functie Enig Document (ED) voor Polen vereist momenteel dat één boekstuk wordt gebruikt. Totdat een groeperingsoptie voor deze functie beschikbaar is, moet u doorgaan met het gebruik van de functionaliteit van één boekstuk. Er zijn mogelijk extra landspecifieke functies waarvoor de functionaliteit van één boekstuk nodig is.
 
--   **Vooruitbetalingsjournaal van klant bevat belastingen op meerdere 'regels'**
+- **Vooruitbetalingsjournaal van klant bevat belastingen op meerdere 'regels'**
 
- -   Een klant doet een vooruitbetaling voor een order en de regels van de order hebben verschillende belastingen die voor de vooruitbetaling moeten worden vastgelegd. De vooruitbetaalde klantbetaling is één transactie die overeenkomt met de regels van de order, zodat het correcte belastingpercentage kan worden vastgelegd voor het bedrag op elke regel.
+  -   Een klant doet een vooruitbetaling voor een order en de regels van de order hebben verschillende belastingen die voor de vooruitbetaling moeten worden vastgelegd. De vooruitbetaalde klantbetaling is één transactie die overeenkomt met de regels van de order, zodat het correcte belastingpercentage kan worden vastgelegd voor het bedrag op elke regel.
 
 In dit scenario zijn de klanten in het ene boekstuk dezelfde klant, omdat de transactie de regels van een klantorder simuleert. De vooruitbetaling moet worden ingevoerd in één boekstuk, omdat de btw-berekening moet worden uitgevoerd op de 'regels' van de betaling die de klant heeft gedaan.
 

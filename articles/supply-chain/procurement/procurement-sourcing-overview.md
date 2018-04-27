@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Overzicht van inkoopbeheer
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat een overzicht van de functionaliteit die in de module Inkoop en sourcing beschikbaar is.
 
@@ -39,7 +38,7 @@ De inkoop en sourcing dekken alle stappen van het identificeren van een behoefte
 De vereiste voor producten of services kan het resultaat zijn van *inkopen*, bijvoorbeeld, wanneer een werknemer een product vereist. *Productcatalogi* kunnen worden ingesteld om de selectie te begeleiden van beschikbare producten waaruit kan worden geselecteerd of er kunnen aanvragen worden gedaan van producten die nog niet beschikbaar zijn gemaakt in een catalogus, zodat de inkoopafdeling kan overwegen hoe het product kan worden geleverd.  
 
 *Uitgavenlimieten* kunnen worden gebruikt om inkoopuitgaven te beperken en de *inkoopwerkstroom* voegt de optie toe om goedkeuring toe te vereisen voordat wordt besteld. Het is ook mogelijk toewijzing van budgetfondsen op te geven, indien nodig.  
-  
+
 De verwervingsafdeling kiest leveranciers voor vereiste producten en services, en hierbij kan een *offerteaanvraag* naar meerdere potentiële leveranciers worden verzonden. Het is mogelijk om de specificaties van het product te delen dat is aangevraagd en potentiële leveranciers kunnen deze bekijken om te zien of ze een product kunnen leveren dat hieraan voldoet. Leveranciers kunnen hun biedingen retourneren. Vervolgens worden deze door de verwervingsafdeling gecontroleerd, voordat ze de leverancier selecteren van wie ze willen aanschaffen.  
 
 De inkooporders bevatten een optie om een *inkoopquery* te sturen aan de leverancier als alternatief voor een uitgebreider offerteaanvraagproces. De aankoopquery kan worden gebruikt om voorwaarden, zoals prijzen, kortingen en leveringsdatums voor de order plaatsen. Als leveranciers worden ingesteld met de **Leveranciersportal**, wordt de functionaliteit van de aankoopquery uitgeschakeld. In plaats daarvan wordt de order gedeeld in de **Leveranciersportal** en wanneer een *bevestigingsaanvraag* wordt verzonden, kan de leverancier de order direct bevestigen.  

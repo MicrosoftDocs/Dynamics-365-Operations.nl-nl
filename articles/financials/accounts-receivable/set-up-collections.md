@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Crediteringen en aanmaningen configureren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u de incassofunctie configureert.
 
@@ -97,9 +96,9 @@ Als er geen verkoopvertegenwoordiger is opgegeven, wordt de primaire verkoper vo
 Zie de volgende onderwerpen voor meer informatie:
 
  - [Een aanmaningsreeks maken](tasks/create-collection-letter-sequence.md)
- 
+
  - [Aanmaningen verwerken](tasks/process-collection-letters.md)
- 
+
  - [Incassogegevens controleren](tasks/review-collections-information.md)
 
 

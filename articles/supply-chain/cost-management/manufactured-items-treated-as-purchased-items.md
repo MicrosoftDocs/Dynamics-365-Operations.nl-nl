@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Producten instellen die kunnen worden geproduceerd of kunnen worden aangeschaft
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Producten kunnen verschillende bronnen hebben: ze kunnen worden geproduceerd of worden aangeschaft (ingekocht). Dit artikel beschrijft sommige algemene punten om na te gaan wanneer u producten configureert om multi-sourcing te ondersteunen. 
 

@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: b7cb5f2096f0be5211024fc6ecbfaa61d6c48c9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1fc3ab4f2a4b4604126ff72c570fc9d85e209f3c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Power BI-inhoud financiële prestaties
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!Note]
 > Dit inhoudpakket is verouderd, zoals beschreven in [Power BI-inhoudpakketten gepubliceerd naar PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
@@ -58,7 +58,7 @@ Elke tegel wordt ondersteund door een ondersteunend rapport. Deze rapporten beva
 
 | Rapport                      | Informatie in het rapport |
 |-----------------------------|--------------------------------------|
-| Analyse contanten               | Contanten, op rechtspersoon; contanten, op kwartaal; totale contanten; contanten op rekening<blockquote>[!NOTE]<br>Kwartaalgegevens over contant geld bevatten geen beginsaldi in het totaal voor het eerste kwartaal. Wel wordt het totaal van nieuwe transacties weergegeven die zijn geboekt in elk kwartaal.</blockquote> |
+| Analyse contanten               | Contanten, op rechtspersoon; contanten, op kwartaal; totale contanten; contanten op rekening<br><br>**Opmerking:** Kwartaalgegevens over contant geld bevatten geen beginsaldi in het totaal voor het eerste kwartaal. Wel wordt het totaal van nieuwe transacties weergegeven die zijn geboekt in elk kwartaal.|
 | Analyse huidige verhouding      | Huidige verhouding op rechtspersoon; huidige verhouding op kwartaal; saldi voor huidige activa en de huidige verplichtingen |
 | Snelle verhoudingsanalyse        | Snelle verhouding per rechtspersoon; snelle verhouding per kwartaal en saldi voor contanten, klanten en vlottende passiva |
 | Analyse van kosten van verkochte goederen | Kosten van verkochte goederen (COGS) op rechtspersoon; COGS dit jaar en vorig jaar, op kwartaal; COGS t.o.v. verkopen op rechtspersoon; totale COGS en percentage COGS t.o.v. verkoop |
@@ -69,7 +69,7 @@ Elke tegel wordt ondersteund door een ondersteunend rapport. Deze rapporten beva
 | Inkomstenanalyse           | Werkelijke en gebudgetteerde inkomsten vóór rente en belastingen (EBIT) op rechtspersoon; EBIT dit jaar en vorig jaar; percentage onkosten tegen omzet; werkelijke en gebudgetteerde onkosten t.o.v. omzet |
 | Opbrengstenanalyse            | Totale opbrengsten; werkelijke en gebudgetteerde totale opbrengsten op rechtspersoon; totale opbrengsten dit jaar en vorig jaar; de afwijking voor inkomstenbudgetten op rechtspersoon; totale opbrengsten deze periode en vorige periode |
 | Onkostenanalyse            | Totale onkosten; werkelijke tegen gebudgetteerde totale onkosten op rechtspersoon; werkelijke en gebudgetteerde totale onkosten op kwartaal; totale onkosten op rekeningcategorie; verhouding exploitatiekosten |
-| Analyse gefactureerde omzet     | Totaal klanten; totaal klanten per rechtspersoon; totaal klanten per kwartaal en saldi voor klantrekeningen<blockquote>[!NOTE]<br>De informatie bevat geen beginsaldi voor de grootboekrekeningen van klanten. Wel wordt het totaal van nieuwe transacties weergegeven die zijn geboekt naar Klanten.</blockquote> |
+| Analyse gefactureerde omzet     | Totaal klanten; totaal klanten per rechtspersoon; totaal klanten per kwartaal en saldi voor klantrekeningen<br><br>**Opmerking:** De informatie bevat geen beginsaldi voor de grootboekrekeningen van klanten. Wel wordt het totaal van nieuwe transacties weergegeven die zijn geboekt naar Klanten. |
 
 De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over het filteren en vastmaken in Power BI het onderwerp [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 

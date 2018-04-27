@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Overzicht van kostenbeheer 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Het werkgebied **Kostenbeheer** is een centraal punt waar managers die verantwoordelijk zijn voor het beheer van een kostenobject of een reeks kostenobjecten in een dimensie of meerdere dimensies (bijvoorbeeld kostenplaatsen en productgroepen) toegang kunnen krijgen tot rapporten. De rapporten in het werkgebied worden volledig beheerd door kostenaccountants, zodat de indeling en gegevens die worden gebruikt voor rapportage in de gehele organisatie consistent zijn.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="attract-overview"></a>Overzicht van Attract
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Attract biedt mogelijkheden voor het beheren van het proces voor het werven van nieuw talent. Kandidaten kunnen aan openstaande functies worden toegevoegd en de verschillende fasen doorlopen tot er een aanbod wordt gedaan of de sollicitatie wordt afgewezen. In elke fase doorlopen kandidaten verschillende activiteiten, zoals screeningsgesprekken, beoordelingen of het plannen van gesprekken. Nadat ze hebben gesolliciteerd, krijgen kandidaten een e-mail met een uitnodiging om zich aan te melden bij Attract, waar ze de status van de functie en hun sollicitatie kunnen volgen en kunnen reageren op de taken die aan hen zijn toegewezen.
 

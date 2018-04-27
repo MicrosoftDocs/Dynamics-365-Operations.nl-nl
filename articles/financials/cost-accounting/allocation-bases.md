@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Toewijzingsgrondslagen 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een toewijzingsgrondslag vormt de basis waarop overheadkosten in Kostprijsboekhouding worden toegewezen. Een toewijzingsgrondslag kan een hoeveelheid worden, zoals gebruikte machine-uren, verbruikte kilowattuur (kWh) of vierkante meters die in beslag worden genomen. Toewijzingsgrondslagen worden meestal gebruikt voor het toewijzen van overheadkosten aan voorraad die wordt geproduceerd. Een IT-afdeling wijst bijvoorbeeld de onkosten van de afdeling toe op basis van het aantal computers dat op elke afdeling wordt gebruikt.
 
@@ -424,9 +424,11 @@ Hier wordt de formule voor CC003 (IT) nader bekeken:
 
 Hier volgt een voorbeeld van een kostenverdelingsregel als de formuletoewijzingsgrondslag Elektriciteit vast wordt toegewezen als de toewijzingsgrondslag erin.
 
-| Kostenobject |  Omschrijving  | Magnitude | Toewijzingsfactor                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | HR | 1,837.50  | (1,837.50 ÷ 18,162.50) × bedrag  |
-| CC002       | FI | 3,075.00  | (3,075.00 ÷ 18,162.50) × bedrag  |
-| CC003       | VOB | 13,250.00 | (13,250.00 ÷ 18,162.50) × bedrag |
+
+| Kostenobject | Omschrijving | Magnitude |        Toewijzingsfactor         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     HR      | 1,837.50  | (1,837.50 ÷ 18,162.50) × bedrag  |
+|    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × bedrag  |
+|    CC003    |     VOB      | 13,250.00 | (13,250.00 ÷ 18,162.50) × bedrag |
+
 

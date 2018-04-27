@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Mobiele factuurgoedkeuringen
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
 
@@ -127,7 +126,7 @@ Zorg er als algemene richtlijn voor dat u tijdens het werken met de mobiele ontw
 ### <a name="create-the-workspace"></a>Het werkgebied maken
 
 1.  Open in een browser Finance and Operations en meld u aan.
-2.  Nadat u bent aangemeld, voegt u **& mode=mobile** toe aan de URL, zoals weergegeven in het volgende voorbeeld, en vernieuwt u de pagina: https://&lt;yoururl&gt;/? cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  Nadat u bent aangemeld, voegt u **& mode=mobile** toe aan de URL, zoals weergegeven in het volgende voorbeeld, en vernieuwt u de pagina: https://&lt;yoururl&gt;/? cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Klik op de knop **Instellingen** (tandwiel) in de rechterbovenhoek van de pagina en klik op **Mobiele app**. De ontwerper van de mobiele app moet worden weergegeven meteen wanneer de taakrecorder verschijnt.
 4.  Klik op **Toevoegen** om een nieuw werkgebied te maken. Geef voor dit voorbeeld het werkgebied de naam **Mijn goedkeuringen**.
 5.  Voer een omschrijving in.
@@ -173,23 +172,23 @@ De eerste mobiele pagina die u moet ontwerpen, is de lijst met facturen die ter 
 
 Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebruikt u de pagina **VendMobileInvoiceHeaderDetails** in Finance and Operations. Houd er rekening mee dat, afhankelijk van het aantal facturen dat u in uw systeem hebt, op deze pagina de oudste factuur (de factuur die het eerst is gemaakt) wordt weergegeven. Als u op zoek bent naar een specifieke factuur, kunt u het filter aan de linkerkant gebruiken. Voor dit voorbeeld is echter geen specifieke factuur vereist. We hebben slechts enkele factuurgegevens nodig zodat we de mobiele pagina kunnen ontwerpen. [![Pagina Workflow](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Vervang in de Finance and Operations-URL de naam van de menuoptie met **VendMobileInvoiceHeaderDetails** om het formulier te openen
-2.  Open de mobiele ontwerper met de knop **Instellingen** (tandwiel).
-3.  Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
-4.  Selecteer de pagina **Mijn leveranciersfacturen** die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
-5.  Klik op het tabblad **Velden** op de kolomkop **Raster**.
-6.  Klik op **Eigenschappen** &gt; **Pagina toevoegen**. **Opmerking:** wanneer u klikt op de kop **Raster** en een pagina toevoegt, wordt de relatie met de detailpagina automatisch ingesteld.
-7.  Voer een paginatitel in, zoals **Factuurdetails**, en een omschrijving, zoals **Koptekst- en regeldetails factuur weergeven**.
-8.  Klik op **Velden selecteren**. Houd er rekening mee dat de volgorde waarin u toevoegt, de volgorde is waarin de velden worden weergegeven voor de eindgebruiker. De enige manier om de volgorde van de velden te wijzigen is door alle velden opnieuw te selecteren. 
-9.  Op basis van de vereisten voor dit scenario voegt u de volgende velden uit de koptekst toe:
-    - Leveranciernaam
-    - Factuurtotaal
-    - Te factureren rekening
-    - Factuurnummer
-    - Factuurdatum
-    - Factuuromschrijving
-    - Vervaldatum
-    - Factuurvaluta
+1. Vervang in de Finance and Operations-URL de naam van de menuoptie met **VendMobileInvoiceHeaderDetails** om het formulier te openen
+2. Open de mobiele ontwerper met de knop **Instellingen** (tandwiel).
+3. Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
+4. Selecteer de pagina <strong>Mijn leveranciersfacturen** die u eerder hebt gemaakt en klik vervolgens op **Bewerken</strong>.
+5. Klik op het tabblad **Velden** op de kolomkop **Raster**.
+6. Klik op **Eigenschappen** &gt; **Pagina toevoegen**. **Opmerking:** wanneer u klikt op de kop **Raster** en een pagina toevoegt, wordt de relatie met de detailpagina automatisch ingesteld.
+7. Voer een paginatitel in, zoals **Factuurdetails**, en een omschrijving, zoals **Koptekst- en regeldetails factuur weergeven**.
+8. Klik op **Velden selecteren**. Houd er rekening mee dat de volgorde waarin u toevoegt, de volgorde is waarin de velden worden weergegeven voor de eindgebruiker. De enige manier om de volgorde van de velden te wijzigen is door alle velden opnieuw te selecteren. 
+9. Op basis van de vereisten voor dit scenario voegt u de volgende velden uit de koptekst toe:
+   - Leveranciernaam
+   - Factuurtotaal
+   - Te factureren rekening
+   - Factuurnummer
+   - Factuurdatum
+   - Factuuromschrijving
+   - Vervaldatum
+   - Factuurvaluta
 
 10. Voeg de volgende velden uit het regelraster op de pagina toe:
     - Inkoopcategorie
@@ -199,7 +198,7 @@ Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebr
     - 1099-bedrag
 
 11. Nadat alle velden uit de vorige twee stappen zijn toegevoegd, klikt u op **Gereed**. De pagina moet lijken op de volgende afbeelding.
-[![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 13. Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten
 14. Klik op **Werkgebied publiceren** om uw werk op te slaan.
@@ -296,14 +295,14 @@ Als workflowacties wilt toevoegen, gebruikt u de pagina **VendMobileInvoiceHeade
 
 ### <a name="vendor-invoice-attachments"></a>Leveranciersfactuurbijlagen
 
-1.  Klik op de knop **Instellingen** (tandwiel) in de rechterbovenhoek van de pagina en klik op **Mobiele app**.
-2.  Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
-3.  Selecteer de pagina **Factuurdetails** die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
-4.  Stel de optie **Documentbeheer** in op **Ja** zoals hieronder wordt weergegeven. **Opmerking:** als er geen vereisten zijn om bijlagen weer te geven op het mobiele apparaat, kunt u deze optie ingesteld laten op **Nee**. Dit is de standaardinstelling.
-![Documentbeheer](./media/docmanagement-216x300.png)
-6.  Klik op **Gereed** om de bewerkingsmodus af te sluiten.
-7.  Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten
-8.  Klik op **Werkgebied publiceren** om uw werk op te slaan.
+1. Klik op de knop **Instellingen** (tandwiel) in de rechterbovenhoek van de pagina en klik op **Mobiele app**.
+2. Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
+3. Selecteer de pagina <strong>Factuurdetails** die u eerder hebt gemaakt en klik vervolgens op **Bewerken</strong>.
+4. Stel de optie **Documentbeheer** in op **Ja** zoals hieronder wordt weergegeven. **Opmerking:** als er geen vereisten zijn om bijlagen weer te geven op het mobiele apparaat, kunt u deze optie ingesteld laten op **Nee**. Dit is de standaardinstelling.
+   ![Documentbeheer](./media/docmanagement-216x300.png)
+5. Klik op **Gereed** om de bewerkingsmodus af te sluiten.
+6. Klik op **Terug** en vervolgens op **Gereed** om het werkgebied af te sluiten
+7. Klik op **Werkgebied publiceren** om uw werk op te slaan.
 
 ### <a name="vendor-invoice-line-distributions"></a>Leveranciersfactuurregelverdelingen
 

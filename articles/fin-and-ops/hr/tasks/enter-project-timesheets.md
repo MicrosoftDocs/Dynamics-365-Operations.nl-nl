@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 17195b28ebe828423b4e5bb862f5c2e9884471ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a>Projectroosters invoeren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Met deze procedure kunt u een urenstaat maken met behulp van een leeg urenstaatformulier. U kunt de nieuwe urenstaat baseren op gegevens uit een vorige urenstaat of uit project- en activiteitstoewijzingen op de pagina Mijn favorieten. Standaard geeft de lijstpagina Alle urenstaten al uw urenstaten weer voor de huidige periode. U kunt de vervolgkeuzelijst voor het veld Weergeven op de pagina Mijn urenstaten gebruiken om de lijst van urenstaten te filteren per periode of project, of om urenstaten weer te geven die namens andere medewerkers zijn gemaakt. Het demobedrijf dat wordt gebruikt om deze procedure te maken is USSI. Om met deze procedure te beginnen, gaat u naar Projectbeheer en boekhouding > Urenstaten > Mijn urenstaten
 

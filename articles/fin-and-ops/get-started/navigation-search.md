@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>Navigatiezoekfunctie
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u de zoekfunctionaliteit gebruikt om naar pagina's in Microsoft Dynamics 365 for Finance and Operations te navigeren.
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ec99b86d77c1381b4323a5faaea0487752eee9ed
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c94f731cbdd62d51a21a42e8fcc86c5711c0e965
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="deliver-an-employee-benefits-program"></a>Een vergoedingenprogramma voor werknemers maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak laat zien hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een Manager compensatie en vergoedingen.
 
@@ -64,7 +64,7 @@ Deze taak laat zien hoe u vergoedingselementen maakt die worden gebruikt bij het
 11. Klik op Vergoeding maken.
 12. Schakel de uitbreiding van de sectie Salarisdetails om.
 13. Klik in het veld Frequentie op de vervolgkeuzeknop om de zoekopdracht te openen.
-14. Zoek en selecteer de gewenste record in de lijst.
+14. Zoek en selecteer het gewenste record in de lijst.
 15. Klik in de lijst op de koppeling in de geselecteerde rij.
 16. Selecteer een optie in het veld Basis.
 17. Voer een nummer in het veld Bedrag of tarief in.

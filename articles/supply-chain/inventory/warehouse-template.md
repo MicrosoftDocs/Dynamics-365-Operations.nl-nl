@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Een magazijn instellen op basis van een magazijnconfiguratiesjabloon
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u een magazijn instelt op basis van een magazijnconfiguratiesjabloon. Er zijn verschillende vooraf gedefinieerde sjablonen die u kunt gebruiken. Zie voor informatie over het gebruik van deze sjablonen [Gegevenssjablonen voor configuratie](../../dev-itpro/data-entities/configuration-data-templates.md).
 

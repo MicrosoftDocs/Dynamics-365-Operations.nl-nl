@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Startpagina Hoofdplanning
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hoofdplanning biedt bedrijven de mogelijkheid hun toekomstige behoeften aan grondstoffen en capaciteit te bepalen en af te stemmen om de doelstellingen van het bedrijf te halen. In Hoofdplanning wordt het volgende beoordeeld: 
 
@@ -58,6 +57,7 @@ Het volgende leertraject toont de belangrijkste concepten en taken die het raamw
 [![Leertraject voor hoofdplanning](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Snelkoppelingen
+
 |      |   |
 |------|---|
 |        [Hoofdplannen](master-plans.md)       |     [Een plan met beperkingen genereren](./tasks/constrained-plan.md)  |

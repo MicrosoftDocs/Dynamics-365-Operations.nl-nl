@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-bonus-depreciation"></a>Bonusafschrijving instellen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u een speciale afschrijvingsaftrek maakt en deze koppelt aan een vaste-activaboek. Het gebruikt de rol Accountant en demogegevens voor de USMF-rechtspersoon.
 

@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Intercompany-facturering
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie en voorbeelden met betrekking tot intercompany-facturering voor projecten in Microsoft Dynamics 365 for Finance and Operations.
 
@@ -58,20 +57,22 @@ In dit voorbeeld is USSI een uitlenende rechtspersoon en rapporteren de resource
 
 In dit voorbeeld moet FRSI een klant zijn in de rechtspersoon USSI en moet USSI een leverancier zijn in de rechtspersoon FRSI. U kunt vervolgens een intercompany-relatie opzetten tussen de twee rechtspersonen. De volgende procedure laat zien hoe de parameters zodanig kunnen worden ingesteld dat beide rechtspersonen kunnen deelnemen aan intercompany-facturering.
 
-1.  Stel FRSI in als een klant in de rechtspersoon USSI en stel USSI in als een leverancier in de rechtspersoon FRSI. Er zijn drie ingangspunten voor de stappen die zijn vereist voor deze taak.
-    | Stap | Invoerpunt                                                                       | Omschrijving   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A    | Klik in USSI op **Klanten** &gt; **Klanten** &gt; **Alle klanten**. | Maak een nieuwe klantrecord voor FRSI en selecteer de klantgroep.                                                                                  |
-    | B    | Klik in FRSI op **Leveranciers** &gt; **Leveranciers** &gt; **Alle leveranciers**.        | Maak een nieuwe leveranciersrecord voor USSI en selecteer de leveranciersgroep.                                                                                    |
-    | C    | Open in FRSI de leveranciersrecord die u zojuist hebt gemaakt.                            | Klik in het actievenster op het tabblad **Algemeen** in de groep **Instellen** op **Intercompany**. Stel op de pagina **Intercompany**, op het tabblad **Handelsrelatie**, de schuifregelaar **Actief** in op **Ja**. Selecteer in het veld **Klantbedrijf** de klantrecord die u hebt gemaakt in stap A. |
+1. Stel FRSI in als een klant in de rechtspersoon USSI en stel USSI in als een leverancier in de rechtspersoon FRSI. Er zijn drie ingangspunten voor de stappen die zijn vereist voor deze taak.
 
-2.  Klik op **Projectbeheer en boekhouding** &gt; **Instellingen** &gt; **Projectbeheer- en boekhoudingsparameters** en klik vervolgens op het tabblad **Intercompany**. De manier waarop u de parameters instelt, is afhankelijk van of u de lenende rechtspersoon of de uitlenende rechtspersoon bent.
-    -   Als u de lenende rechtspersoon bent, selecteert u de aanschaffingscategorie die moet worden gebruikt voor het afstemmen van de leveranciersfacturen, die automatisch worden gegenereerd.
-    -   Als u de uitlenende rechtspersoon bent, selecteert u voor elke lenende rechtspersoon een standaard projectcategorie voor elk transactietype. Projectcategorieën worden gebruikt voor btw-configuratie wanneer de gefactureerde categorie in intercompany-transacties alleen bestaat in de lenende rechtspersoon. U kunt de opbrengst samenvoegen voor intercompany-transacties. Deze samenvoeging vindt plaats wanneer de transacties worden geboekt en wordt vervolgens omgekeerd wanneer de intercompany-factuur wordt geboekt.
+   | Stap |                                                       Invoerpunt                                                        |                                                                                                                                                                                               Omschrijving                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A   | Klik in USSI op <strong>Klanten</strong> &gt; <strong>Klanten</strong> &gt; <strong>Alle klanten</strong>. |                                                                                                                                                                  Maak een nieuwe klantrecord voor FRSI en selecteer de klantgroep.                                                                                                                                                                  |
+   |  B   |    Klik in FRSI op <strong>Leveranciers</strong> &gt; <strong>Leveranciers</strong> &gt; <strong>Alle leveranciers</strong>.     |                                                                                                                                                                    Maak een nieuwe leveranciersrecord voor USSI en selecteer de leveranciersgroep.                                                                                                                                                                    |
+   |  C   |                                  Open in FRSI de leveranciersrecord die u zojuist hebt gemaakt.                                  | Klik in het actievenster op het tabblad <strong>Algemeen</strong> in de groep <strong>Instellen</strong> op <strong>Intercompany</strong>. Stel op de pagina <strong>Intercompany</strong>, op het tabblad <strong>Handelsrelatie</strong>, de schuifregelaar <strong>Actief</strong> in op <strong>Ja</strong>. Selecteer in het veld <strong>Klantbedrijf</strong> de klantrecord die u hebt gemaakt in stap A. |
 
-3.  Klik op **Projectbeheer en boekhouding** &gt; **Instellen** &gt; **Prijzen** &gt; **Prijs overboeken**.
-4.  Selecteer een valuta, transactietype en prijsmodel voor overboeking. De valuta die wordt gebruikt op de factuur is de valuta die is geconfigureerd in de klantrecord voor de lenende rechtspersoon bij de uitlenende rechtspersoon. De valuta wordt gebruikt voor het afstemmen van vermeldingen in de tabel met verrekenprijzen.
-5.  Klik op **Grootboek** &gt; **Boekingsinstellingen** &gt; **Intercompany-boekhouding** en stel een relatie in voor USSI en FRSI.
+
+2. Klik op **Projectbeheer en boekhouding** &gt; **Instellingen** &gt; **Projectbeheer- en boekhoudingsparameters** en klik vervolgens op het tabblad **Intercompany**. De manier waarop u de parameters instelt, is afhankelijk van of u de lenende rechtspersoon of de uitlenende rechtspersoon bent.
+   -   Als u de lenende rechtspersoon bent, selecteert u de aanschaffingscategorie die moet worden gebruikt voor het afstemmen van de leveranciersfacturen, die automatisch worden gegenereerd.
+   -   Als u de uitlenende rechtspersoon bent, selecteert u voor elke lenende rechtspersoon een standaard projectcategorie voor elk transactietype. Projectcategorieën worden gebruikt voor btw-configuratie wanneer de gefactureerde categorie in intercompany-transacties alleen bestaat in de lenende rechtspersoon. U kunt de opbrengst samenvoegen voor intercompany-transacties. Deze samenvoeging vindt plaats wanneer de transacties worden geboekt en wordt vervolgens omgekeerd wanneer de intercompany-factuur wordt geboekt.
+
+3. Klik op **Projectbeheer en boekhouding** &gt; **Instellen** &gt; **Prijzen** &gt; **Prijs overboeken**.
+4. Selecteer een valuta, transactietype en prijsmodel voor overboeking. De valuta die wordt gebruikt op de factuur is de valuta die is geconfigureerd in de klantrecord voor de lenende rechtspersoon bij de uitlenende rechtspersoon. De valuta wordt gebruikt voor het afstemmen van vermeldingen in de tabel met verrekenprijzen.
+5. Klik op **Grootboek** &gt; **Boekingsinstellingen** &gt; **Intercompany-boekhouding** en stel een relatie in voor USSI en FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Voorbeeld 2: Een intercompany-urenstaat maken en boeken
 USSI, de uitlenende rechtspersoon, moet de urenstaat maken en boeken voor een project van FRSI, de lenende rechtspersoon. Er zijn twee ingangspunten voor de stappen die zijn vereist voor deze taak.

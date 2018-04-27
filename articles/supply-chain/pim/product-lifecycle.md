@@ -29,15 +29,14 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Levenscyclusstatus van product 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een levenscyclusstatus documenteert de levenscyclusstatus van een vrijgegeven product of productvariant. Statussen voor de productlevenscyclus worden gedefinieerd door de gebruiker, doorgaans een productmanager of een manager van producthoofdgegevens. Specifieke bedrijfsprocessen, zoals de hoofdplanning, kunnen worden beïnvloed door een specifieke levenscyclusstatus.   
- 
+
 Een vrijgegeven product of productvariant kan worden gekoppeld aan een status voor de productlevenscyclus waarmee wordt gedocumenteerd in welke levenscyclusstatus een bepaald product of een bepaalde productvariant zich momenteel bevindt. U kunt een onbeperkt aantal statussen voor de productlevenscyclus definiëren door een statusnaam en -omschrijving toe te wijzen. U kunt één levenscyclusstatus selecteren als de standaardstatus voor nieuwe vrijgegeven producten. Vrijgegeven productvarianten nemen bij het maken de status voor de productlevenscyclus van hun vrijgegeven productmodel over. Wanneer de levenscyclusstatus van een vrijgegeven productmodel wordt gewijzigd, kunt u ervoor kiezen om alle bestaande varianten met dezelfde oorspronkelijke status bij te werken.  
 
 ## <a name="create-a-new-product-lifecycle-state"></a>Een nieuwe status voor de productlevenscyclus maken 
- 
+
 - Als u een nieuwe status voor de productlevenscyclus wilt maken, kunt u de taakbegeleiding **Een nieuwe status voor de productlevenscyclus maken** afspelen of lezen. 
 
 -  Als u een standaardstatus voor de productlevenscyclus wilt maken, kunt u de taakbegeleiding **Een standaardstatus voor de productlevenscyclus maken** afspelen of lezen.   
@@ -73,7 +72,7 @@ Voor gedetailleerde informatie over het gebruik van de status van een productlev
 
 > [!NOTE]
 > Uit prestatieoverwegingen is het raadzaam om alle verouderde vrijgegeven producten of productvarianten te koppelen, vooral wanneer u werkt met niet-herbruikbare productconfiguratievarianten, met een status voor de productlevenscyclus die is gedeactiveerd voor de hoofdplanning.  
- 
+
 ## <a name="default-migration-import-and-export"></a>Standaardmigratie, -import en -export 
 
 De statussen voor productlevenscycli worden niet ondersteund door gegevensentiteiten en de status van de levenscyclus kan niet op een variabele status worden ingesteld via de vrijgegeven productgegevensentiteiten.
@@ -81,18 +80,18 @@ De statussen voor productlevenscycli worden niet ondersteund door gegevensentite
 -  Bij migratie vanuit eerdere versies is de status van de levenscyclus van alle producten en productvarianten leeg.  
 -  Bij het importeren van vrijgegeven producten via een gegevensentiteit wordt de standaardstatus voor de levenscyclus toegepast bij het maken.  
 -  Bij het importeren van vrijgegeven productvarianten via een gegevensentiteit wordt de status van de productlevenscyclus van het vrijgegeven productmodel geïmporteerd.   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a>Verouderde producten en productvarianten zoeken 
- 
+
 U kunt een simulatieanalyse uitvoeren om te zoeken naar de verouderde vrijgegeven producten of productvarianten, en om de status van de productlevenscyclus bij te werken. Als u verouderde producten wilt vinden, kunt u de taakbegeleiding **Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen** afspelen en lezen. In deze taakbegeleiding wordt aangegeven hoe u verouderde vrijgegeven producten of productvarianten kunt vinden en de status van een productlevenscyclus kunt koppelen aan de verouderde producten. U ziet ook hoe u de simulatieresultaten kunt bekijken en kunt bepalen hoeveel producten en productvarianten worden gekoppeld aan een nieuwe status voor de productlevenscyclus wanneer u de update zonder simulatie uitvoert.  
- 
+
 Wanneer u de analyse in een simulatiemodus uitvoert, worden de als verouderd aangeduide producten en productvarianten weergegeven in een specifiek formulier, waar ze eenvoudig kunnen worden gecontroleerd. Met de analyse wordt gezocht naar transacties en bepaalde hoofdgegevens ter identificatie van producten waarvoor geen vraag bestaat in een variabele periode en er geen hoofdgegevens zijn die kunnen resulteren in vraag. Nieuw vrijgegeven producten in een variabele periode kunnen worden uitgesloten van de analyse. Wanneer de analysesimulatie het verwachte resultaat retourneert, kan de gebruiker de analyse uitvoeren en een nieuwe status voor de productlevenscyclus instellen voor alle producten die door de analyse als verouderd zijn aangeduid.  
- 
+
 > [!NOTE]
 > Alle analyses en updates moeten in dezelfde rechtspersoon worden uitgevoerd.  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a>Criteria voor het selecteren en bijwerken van vrijgegeven producten of productvarianten 
- 
+
 Gebruik de volgende criteria voor het selecteren en bijwerken van de vrijgegeven producten en productvarianten: 
 
 -    De status van de productlevenscyclus van het product of de productvariant moet afwijken van de nieuwe gewenste status. 

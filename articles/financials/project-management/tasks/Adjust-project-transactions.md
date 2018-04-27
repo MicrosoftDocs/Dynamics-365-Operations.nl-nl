@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>Projecttransacties corrigeren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze taakbegeleiding wordt beschreven hoe u een transactie voor een project corrigeert. U kunt projecttransacties echter een voor een corrigeren of selecteren in een lijst met alle projecttransacties. Deze taak wordt meestal uitgevoerd door de projectsupervisor. In deze taakbegeleiding wordt de gegevensset van USSI gebruikt.
 

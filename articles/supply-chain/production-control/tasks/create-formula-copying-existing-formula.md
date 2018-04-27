@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Een formule maken door uit een bestaande formule te kopiëren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u snel een nieuwe formule maakt door uit een bestaande formule te kopiëren. U kunt de demobedrijven USMF, USP2 of USPI gebruiken om deze procedure te maken.
 

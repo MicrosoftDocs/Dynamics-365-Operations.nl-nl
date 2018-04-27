@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>Standaardkostprijsconversie - Overzicht
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel geeft een procesoverzicht om u te helpen bij het instellen en uitvoeren van een standaardkostprijsconversie. De genoemde stappen zijn bedoeld om te worden voltooid nadat u de vereisten voor een standaardkostprijsconversie hebt voltooid. 
 

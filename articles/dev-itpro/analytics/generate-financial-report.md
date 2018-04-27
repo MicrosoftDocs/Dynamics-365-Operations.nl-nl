@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Een financieel rapport maken
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het genereren van een financieel rapport. 
 
@@ -50,13 +49,13 @@ Wanneer u een rapport genereert, worden de opties gebruikt die u op de tabbladen
 ## <a name="generate-a-financial-report"></a>Een financieel rapport maken
 
 Als u een financieel rapport wilt genereren met Microsoft Dynamics 365 for Finance and Operations, gaat u naar **Grootboek** > **Query's en rapporten** > **Financiële rapporten**. 
- - Selecteer het rapport dat u wilt genereren en klik op **Genereren**. 
- - Vul het veld **Rapportdatum** in en klik op **OK**.
- 
- Als het rapport is gegenereerd, kan het rapport worden weergeven in de sectie **Rapporten**.
- U kunt het rapport **weergeven** of **verwijderen**.
- 
- 
+- Selecteer het rapport dat u wilt genereren en klik op **Genereren**. 
+- Vul het veld **Rapportdatum** in en klik op **OK**.
+
+  Als het rapport is gegenereerd, kan het rapport worden weergeven in de sectie **Rapporten**.
+  U kunt het rapport **weergeven** of **verwijderen**.
+
+
 Als u een rapport wilt genereren met **Rapportontwerper**, opent u de rapportdefinitie en klikt u op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Uw gegenereerd rapport wordt standaard geopend in de Web Viewer.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Wanneer u een ontbrekende rekeninganalyse uitvoert, zijn de volgende sneltoetsen
 | Open de geselecteerde rapportdefinitie  | Ctrl+R                     |
 | Open de geselecteerde rijdefinitie.     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Zie ook
 --------
 

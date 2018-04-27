@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-orders-mobile-workspace"></a>Mobiel werkgebied voor verkooporders
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Verkooporders**. Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders. 
 

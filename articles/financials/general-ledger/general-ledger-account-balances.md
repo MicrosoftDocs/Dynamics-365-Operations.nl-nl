@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>Grootboekrekeningsaldi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel worden twee manieren beschreven waarop u grootboekrekeningsaldi kunt weergeven: de lijstpagina met proefbalansen en financiële rapporten. Daarnaast wordt aangegeven hoe u dimensiesetsaldi bijwerkt.
 

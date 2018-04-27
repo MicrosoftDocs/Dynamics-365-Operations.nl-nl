@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e9e66d3c6309c195e076fd86c31aa0adade97394
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>Personeelsvaardigheden afstemmen op bedrijfsbehoeften
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 U kunt de vaardigheden bijhouden die de werknemers, sollicitanten of de contactpersonen hebben of zouden moeten hebben om hun functie effectief te vervullen. U kunt ook opgeven welke vaardigheden voor een bepaalde functie zijn vereist.
 
@@ -55,8 +54,8 @@ U kunt een zoekopdracht voor vaardigheidstoewijzing maken om een werknemer, soll
 
 De profielen voor vaardigheidstoewijzing maken het mogelijk huidige werknemers of kandidaten te vinden met kwalificaties die aansluiten op zakelijke behoeften.  U kunt bijvoorbeeld een profiel voor vaardigheidstoewijzing maken voor een vacature in uw organisatie. Door een profiel voor een bepaalde taak te maken en de vaardigheden, opleiding en certificaten van die taak naar het profiel te kopiëren, kunt u snel werknemers, sollicitanten en contactpersonen zoeken die aan een of meer van de criteria van het profiel voldoen en een lijst weergeven van de kandidaten waarvan de vaardigheden het dichtst liggen bij de vaardigheden die voor de taak zijn vereist.
 
->**Opmerking** Alleen de werknemers, sollicitanten en de contactpersonen die zijn geselecteerd om in zoekopdrachten voor vaardigheidstoewijzing te worden opgenomen, kunnen in een resultatenlijst worden weergegeven of in een vaardigheidsprofiel worden opgenomen. Om een werknemer, sollicitant of contactpersoon op te nemen in zoekopdrachten voor vaardigheidstoewijzingen, stelt u de selectie **Opnemen in vaardigheidstoewijzing** in op Ja op de volgende pagina's:
-
+> **Opmerking** Alleen de werknemers, sollicitanten en de contactpersonen die zijn geselecteerd om in zoekopdrachten voor vaardigheidstoewijzing te worden opgenomen, kunnen in een resultatenlijst worden weergegeven of in een vaardigheidsprofiel worden opgenomen. Om een werknemer, sollicitant of contactpersoon op te nemen in zoekopdrachten voor vaardigheidstoewijzingen, stelt u de selectie **Opnemen in vaardigheidstoewijzing** in op Ja op de volgende pagina's:
+> 
 > + Werknemer
 > + Werknemer
 > + Sollicitant

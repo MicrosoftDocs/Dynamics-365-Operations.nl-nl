@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-call-center-catalog"></a>Een catalogus maken voor het call center
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Dit artikel geeft een overzicht van het proces voor de aanmaak van een catalogus voor een callcenter. 
 

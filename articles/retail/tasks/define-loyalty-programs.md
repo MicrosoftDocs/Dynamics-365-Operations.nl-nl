@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> Loyaliteitsprogramma's definiëren
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een loyaliteitsprogramma instelt met twee loyaliteitsniveaus. Deze procedure gebruikt het demobedrijf USRT.
 

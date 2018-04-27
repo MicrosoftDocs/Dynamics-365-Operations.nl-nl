@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Verpakkingsmateriaal en kosten
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 De kosten van het verpakkingsmateriaal worden op regelmatige basis aan een recyclingbedrijf betaald. Een bedrag per gewichtseenheid moet worden betaald voor het materiaal waarvan de verpakking is gemaakt. Deze kosten voor verpakkingsmateriaal worden berekend en gerapporteerd, maar er worden geen grootboektransacties geboekt, omdat de kosten niet als een belastingheffing worden beschouwd die aan de overheid moet worden afgedragen.
 
@@ -63,7 +62,7 @@ Als uw bedrijf de kosten voor het verpakkingsmateriaal betaalt, geeft u de licen
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Gewicht van verpakkingsmateriaal op facturen afdrukken
 U kunt het gewicht van het verpakkingsmateriaal op de factuur afdrukken en aangeven wie de kosten voor het verpakkingsmateriaal moet betalen. De gewichten worden per verpakkingscode samengevat.
- 
+
 
 
 

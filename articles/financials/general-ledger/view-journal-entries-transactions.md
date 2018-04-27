@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Journaalboekingen en transacties weergeven
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel worden de verschillende manieren beschreven waarop u journaalposten en transacties kunt weergeven. 
 
@@ -55,7 +54,7 @@ Naast de financiële rapporten kunt u de volgende grootboekrapporten gebruiken o
 -   **Oorsprong van transactie**: in dit transactierapport wordt de rekening op journaal weergegeven en op basis van transactie-, boekhoudings- en aangiftevaluta. Ook bevat het rapport elke regel van het journaal dat als tegenrekening is gebruikt.
 
 
-##<a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 - [Grootboekrekeningsaldi](general-ledger-account-balances.md) 
 - [Bronverkenner voor boekhouding](..\accounts-payable\accounting-source-explorer.md)
 - [Financiële rapportage](financial-reporting-getting-started.md)

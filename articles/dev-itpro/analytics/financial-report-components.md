@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Onderdelen van een financieel rapport
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe de onderdelen of bouwstenen van rapportdefinities worden gebruikt in de financiële rapportage. Deze bouwstenen bevatten rijdefinities, kolomdefinities en rapportagestructuurdefinities. In dit artikel wordt uitgelegd hoe u bouwstenen organiseert en vergrendelt. 
 
 De ontwerpfilosofie achter Ontwerper financiële rapporten is het opsplitsen van gegevens in de kleinste onderdelen of bouwstenen en vervolgens het naar behoefte combineren van de onderdelen. Daarom staat de opmaak van uw rapport los van uw financiële gegevens en kunt u het ontwerp van een rapport wijzigen zonder aanpassing van de financiële gegevens in uw Microsoft Dynamics ERP-systeem. Door deze benadering met bouwstenen te gebruiken, kunt u tekst, bedragen en berekeningen combineren om de rapporten te maken die u nodig hebt. Bovendien moedigt deze flexibiliteit creativiteit aan door het u gemakkelijk te maken om de bewerkingen op verschillende manieren weer te geven. De afzonderlijke bouwstenen van een rapportdefinitie zijn gelijk aan een driedimensioneel werkblad, maar zij hebben meer kracht. Een rapportdefinitie geeft de rijdefinitie, kolomdefinitie en optionele rapportagestructuurdefinitie op die voor het rapport moet worden gebruikt. Deze bevat ook informatie over waar u het rapport dat is gegenereerd opslaat en hoe u het opmaakt. 
 
 ## <a name="building-blocks-of-a-report"></a>Bouwstenen van een rapport
+
 | Bouwsteen            | Omschrijving                     | Meer informatie                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Rijdefinitie            | Een rijdefinitie definieert de beschrijvende regels (bijvoorbeeld salarissen of verkopen) in een rapport. Deze bevat ook de segmentwaarden of dimensies die de waarden voor elk regelartikel bevatten en omvat rij-opmaak en berekeningen.                                                    | [Rijdefinities](row-definitions-financial-reporting.md)                       |

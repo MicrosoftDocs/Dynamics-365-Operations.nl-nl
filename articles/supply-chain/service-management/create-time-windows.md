@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-time-windows"></a>Tijdvensters maken   
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 U kunt tijdvensters gebruiken voor het optimaliseren van de planning van serviceorderregels.
 

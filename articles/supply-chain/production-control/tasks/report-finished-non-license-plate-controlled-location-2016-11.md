@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>Gereedmelden aan een locatie waar nummerplaten worden gecontroleerd  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakbegeleiding toont een voorbeeld van gereedmelding bij een locatie waar geen nummerplaten worden gecontroleerd. Een toepasselijk werkbeleid is de vereiste voor deze taak. Een vorige taakbegeleiding liet zien hoe het werkbeleid wordt ingesteld. Voor deze taakbegeleiding is de toepassing Dynamics AX 7.0.1 of later vereist.
 

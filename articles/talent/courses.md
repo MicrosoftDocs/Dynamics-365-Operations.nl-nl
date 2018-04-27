@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Trainingen instellen
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Personeelsmedewerkers en managers kunnen de cursussenfuncties gebruiken om informatie te onderhouden over de cursus die aan werknemers wordt aangeboden.
 
@@ -81,15 +80,15 @@ In de volgende tabel worden de drie instellingstypen voor cursussen weergegeven.
 
 ## <a name="course-tasks"></a>Cursustaken
 Voor elke cursus kunt de volgende taken uitvoeren:
--   Deelnemers registreren.
--   Een registratiedeadline opgeven.
--   Het minimale en maximale aantal deelnemers definiëren.
--   Een cursuslocatie en een leslokaal toewijzen.
--   Hotels aanraden aan deelnemers.
--   Een cursusomschrijving maken, die u kunt weergeven in de werknemersselfservice.
+- Deelnemers registreren.
+- Een registratiedeadline opgeven.
+- Het minimale en maximale aantal deelnemers definiëren.
+- Een cursuslocatie en een leslokaal toewijzen.
+- Hotels aanraden aan deelnemers.
+- Een cursusomschrijving maken, die u kunt weergeven in de werknemersselfservice.
 
   >**Opmerking:** u kunt een cursus alleen verwijderen als niemand zich ervoor heeft aangemeld. 
-    
+
 ## <a name="course-statuses"></a>Cursusstatussen
 In de volgende tabel worden de mogelijke cursusstatussen weergegeven en de acties die u kunt uitvoeren wanneer de cursus een specifieke status heeft.
 

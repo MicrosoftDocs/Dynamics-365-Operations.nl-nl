@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Een bestelaanvraag voor verbruik maken
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure begeleidt u door het proces voor het maken van een bestelaanvraag. Het toont u verschillende manieren om producten in uw aanschaffingscatalogus te zoeken en hoe u een product toevoegt dat niet in uw catalogus staat. Voordat u deze procedure start, moet u een inkoopbeleid instellen met Verbruik als standaardtype bestelaanvraag. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken. De procedure kan alleen via een gebruikersprofiel worden uitgevoerd dat is ingesteld als werknemer.  Deze taak moet doorgaans worden uitgevoerd door een werknemer. De werknemersrol Werknemer staat toe dat u de taken uitvoert. Als u USMF gebruikt, kunt u zich ook aanmelden als Alicia.
 

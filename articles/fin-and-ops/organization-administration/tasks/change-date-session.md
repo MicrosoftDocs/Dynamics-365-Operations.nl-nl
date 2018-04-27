@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>De datum van de sessie wijzigen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Standaard wordt de huidige datum gebruikt bij het invoeren en boeken van journaalposten of brondocumenten. Het is mogelijk om de datum te wijzigen die voor de huidige sessie wordt gebruikt. Met deze functie kunt u journaalposten of brondocumenten desgewenst antedateren.
 

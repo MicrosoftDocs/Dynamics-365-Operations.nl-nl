@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Gegevenstoewijzing voor budgetplanning
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 In dit artikel worden de verschillende toewijzingsmethoden beschreven die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations en hoe ze kunnen worden gebruikt.  
 

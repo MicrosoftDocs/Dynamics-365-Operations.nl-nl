@@ -28,10 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit onderwerp bevat conceptuele informatie over deze elementen. 
 
@@ -48,7 +47,7 @@ Het volgende voorbeeld wordt gebruikt om de concepten te illustreren die in dit 
 |**Human resources**|HR manager (West)|HR manager|
 |**Human resources**|HR manager (centraal)|HR manager|
 
- 
+
  <a name="departments"></a>Afdelingen
 ------------
 

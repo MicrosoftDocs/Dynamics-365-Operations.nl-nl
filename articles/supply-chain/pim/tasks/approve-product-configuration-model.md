@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>Een productconfiguratiemodel goedkeuren
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Het uitvoeren van deze procedure vereist dat er ten minste één productconfiguratiemodel beschikbaar is. In deze procedure wordt het model Geavanceerde luidspreker gebruikt in het demobedrijf USMF. Dit model is al goedgekeurd, maar de procedure begeleidt u door het hele proces.
 

@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1bbd9230219f11407bc7afbd59670c6287b77c02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10015952773ce0ae6ab36912df636919b572704d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="posting-definition-examples"></a>voorbeelden van boekdefinities
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Dit artikel bevat voorbeelden die laten zien hoe boekdefinities worden gebruikt voor vorderingen van inkooporders en budgettoewijzingen.
 
@@ -53,11 +52,11 @@ Alle boekstuktransacties voor inkoopordervorderingen moeten in evenwicht zijn (m
 
 ### <a name="posting-definition--match-criteria"></a>Boekdefinitie – Matchcriteria
 
-| Rekeningstructuur       | Rekeningnummerovereenkomst | Prioriteit |
+| Rekeningstructuur       | Rekeningnummerovereenkomst | Prioriteit  |
 |-------------------------|----------------------|----------|
 | Rekeningstructuur - W&V | \*                   | 1        |
 
-*Een lege waarde in het veld **Vereffeningsrekeningnummer** betekent dat alle overeenkomende rekeningen in de gedefinieerde rekeningstructuur deel uitmaken van de afstemmingsregel.
+<em>Een lege waarde in het veld **Vereffeningsrekeningnummer</em>* betekent dat alle overeenkomende rekeningen in de gedefinieerde rekeningstructuur deel uitmaken van de afstemmingsregel.
 
 ### <a name="posting-definition--generated-entries"></a>Boekingsdefinitie – Gegenereerde vermeldingen
 
@@ -94,11 +93,11 @@ Wanneer budgettoewijzingen en boekdefinities zijn ingeschakeld, worden de budget
 
 ### <a name="posting-definition--match-criteria"></a>Boekdefinitie – Matchcriteria
 
-| Rekeningstructuur       | Rekeningnummerovereenkomst | Prioriteit |
+| Rekeningstructuur       | Rekeningnummerovereenkomst | Prioriteit  |
 |-------------------------|----------------------|----------|
 | Rekeningstructuur - W&V | \*                   | 1        |
 
-*Een lege waarde in het veld **Vereffeningsrekeningnummer** betekent dat alle overeenkomende rekeningen in de gedefinieerde rekeningstructuur deel uitmaken van de afstemmingsregel.
+<em>Een lege waarde in het veld **Vereffeningsrekeningnummer</em>* betekent dat alle overeenkomende rekeningen in de gedefinieerde rekeningstructuur deel uitmaken van de afstemmingsregel.
 
 ### <a name="posting-definition--generated-entries"></a>Boekingsdefinitie – Gegenereerde vermeldingen
 

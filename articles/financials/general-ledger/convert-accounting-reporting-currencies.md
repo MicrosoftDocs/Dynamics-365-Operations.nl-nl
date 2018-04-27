@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Valuta voor boekhouding of aangiftevaluta converteren
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een bedrijf dat zijn valuta voor boekhouding of aangiftevaluta moet wijzigen heeft twee opties. De eerste optie is een nieuw bedrijf te maken en van voren af aan te beginnen. De tweede optie is het conversieproces voor de valuta voor boekhouding en aangiftevaluta uit te voeren. Dit is een zeer langdurig proces dat elke transactie in het systeem verandert. Er kunnen ook instellingen vereist zijn voordat het proces kan worden uitgevoerd.
 

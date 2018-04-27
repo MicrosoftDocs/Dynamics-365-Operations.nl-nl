@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistische dimensieleden en sjablonen van provider van statistische maateenheden
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een statistische dimensie en de leden ervan worden gebruikt om niet-monetaire posten in Kostprijsboekhouding te registreren en beheren. Statistische dimensieleden kunnen worden gebruikt voor twee doelen:
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>RFM-analyse instellen
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een Recency-, Frequentie-, en Monetaire analyse (RFM) van uw klanten kunt instellen.
 
@@ -60,25 +59,25 @@ Als uw organisatie een samengeteld cijfer gebruikt voor de score, worden de indi
     - Als elke sectie van de RFM-score een gelijk aantal klanten moet bevatten, schakelt u het selectievakje **Gelijkmatige distributie** in. 
     - Schakel het selectievakje **Scores toevoegen** in om de drie scores bij elkaar op te tellen. Dit geeft een klant bijvoorbeeld een RFM-score van 13 in plaats van 535. 
     - Schakel het selectievakje **Historie opslaan** in om te vereisen dat het systeem de statistische gegevens opslaat voor klanten, zodat de gegevens kunnen worden gebruikt om de RFM-score te berekenen.
-  
+
 5.  Doe op het sneltabblad **Recency** het volgende: 
     - Voer in het veld **Afdelingen** het aantal onderverdelingen of groepen in die worden gebruikt om de recencyscore voor klanten te berekenen. Als u bijvoorbeeld 100 klanten hebt, betekent een afdeling van 5 dat er 20 klanten zijn voor elke score. De 20 klanten die het meest recent een aankoop hebben gedaan, hebben een recencyscore van 5. De volgende 20 klanten hebben een recencyscore van 4, enzovoort. Als u 50 klanten hebt, hebben 10 klanten een recencyscore van 5, 10 hebben een recencyscore van 4, enzovoort. 
     - Selecteer in het veld **Prioriteit** hoeveel gewicht de recencyparameter krijgt in vergelijking met de andere parameters wanneer de RFM-score wordt berekend voor een klant. U kunt bijvoorbeeld meer waarde hechten aan de recencyscore dan de monetaire score. 
     - Voer in het veld **Factor** de waarde in waarmee de recencyscore moet worden vermenigvuldigd. Als u geen waarde invoert, wordt de score niet vermenigvuldigd. 
     - Selecteer in het veld **Periode** de periode waarvoor de recencyscore wordt berekend. Bijvoorbeeld per week of per maand.
-   
+
 6.  Doe op het sneltabblad **Frequentie** het volgende: 
     - Voer in het veld **Afdelingen** het aantal onderverdelingen of groepen in die worden gebruikt om de frequentiescore voor klanten te berekenen. 
     - Selecteer in het veld **Prioriteit** hoeveel gewicht de frequentieparameter krijgt in vergelijking met de andere parameters wanneer de RFM-score wordt berekend voor een klant. 
     - Voer in het veld **Factor** de waarde in waarmee de frequentiescore moet worden vermenigvuldigd. Als u geen waarde invoert, wordt de score niet vermenigvuldigd.
-   
+
 7.  Doe op het sneltabblad **Monetair** het volgende: 
     - Voer in het veld **Afdelingen** het aantal onderverdelingen of groepen in die worden gebruikt om de monetaire score voor klanten te berekenen. 
     - Selecteer in het veld **Prioriteit** hoeveel gewicht de monetaire parameter krijgt in vergelijking met de andere parameters wanneer de RFM-score wordt berekend voor een klant. 
     - Voer in het veld **Factor** de waarde in waarmee de monetaire score moet worden vermenigvuldigd. Als u geen waarde invoert, wordt de score niet vermenigvuldigd. 
     - Geef in het veld **Bruto/netto** op of de monetaire score van de klant moet worden vermenigvuldigd met behulp van het bruto- of nettofactuurbedrag. 
     - Als de retourbedragen van een klant moeten worden afgetrokken van de totale factuurberekening van de klant, schakelt u het selectievakje **Retouren aftrekken** in. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>RFM-score van klanten weergeven
 Via deze procedure kunt u een klant zijn RFM-score weergeven. 
 

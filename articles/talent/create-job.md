@@ -19,19 +19,18 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 88e8c1ae98ad5618feff3d2bb88d8f8cfe2ff9ba
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="setting-up-the-components-of-a-job"></a>De onderdelen van een functie instellen
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 In dit onderwerp worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken. 
 
@@ -75,8 +74,8 @@ Functietaken beschrijven de basistaken die een werknemer op een positie voor een
 <tr class="odd">
 <td>Verkoopleider</td>
 <td><ul>
-<li><strong>Prestaties bekijken</strong>: de prestaties van elke verkoper bekijken.</li>
-<li><strong>Afwezigheid bekijken</strong> : verlofaanvragen of -registraties van elke verkoper goedkeuren of weigeren.</li>
+<li><strong>Perf-revisie</strong> – Bekijk de prestaties van elke verkoper.</li>
+<li><strong>Abs-review</strong> – Verlofaanvragen of registraties van elke verkoper goedkeuren of weigeren.</li>
 </ul></td>
 </tr>
 <tr class="even">

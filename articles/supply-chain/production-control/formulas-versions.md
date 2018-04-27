@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>Formules en formuleversies
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een formule bepaalt de materialen, ingrediënten en uitkomsten van een bepaald proces in procesfabricage. In combinatie met de bijbehorende route bepaalt de formule het hele proces in de procesfabricage. Formules worden gebruikt voor de planning en productie van producten in procesfabricage.
 

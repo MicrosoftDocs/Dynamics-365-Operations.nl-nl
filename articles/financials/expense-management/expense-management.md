@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Onkostenbeheer
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Met Onkostenbeheer kunt u een geïntegreerde workflow maken waarin u informatie over betalingsmethoden kunt opslaan, creditcardtransacties kunt importeren en de hoeveelheid geld kunt volgen die door werknemers wordt besteed wanneer zij onkosten maken voor uw bedrijf. Ook kunt u onkostenbeleid definiëren en de terugbetaling van reiskosten automatiseren. 
 

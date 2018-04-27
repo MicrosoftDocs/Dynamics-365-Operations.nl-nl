@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO-datum met fysieke waarde en markering
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 LIFO-datum (Last In, First Out Date) is een voorraadmodel dat gebaseerd is op het LIFO-principe. Uitgiften uit de voorraad worden vereffend met de recentste ontvangsten in de voorraad op basis van de datum van de voorraadtransactie. Als er op de LIFO-datum geen artikel vóór de uitgifte wordt ontvangen, wordt de uitgifte vereffend met de ontvangsten die na de datum van de artikeluitgifte plaatsvinden. Meerdere uitgiften op dezelfde datum kunnen in de volgende 'laatste uitgifte - laatste ontvangst' worden vereffend. 
 
@@ -66,16 +65,16 @@ In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum we
 
 **Uitleg bij het diagram**
 
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
--   Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
--   Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
--   Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
+- Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
+- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
+- Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
+- Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO-datum met de optie Fysieke waarde opnemen
 U kunt het selectievakje **Fysieke waarde opnemen** inschakelen voor een artikel op de pagina **Artikelmodelgroepen**. In dit geval worden zowel fysieke als financiële ontvangsttransacties gebruikt voor het berekenen van de lopende gemiddelde kostprijs. Waar van toepassing wordt de fysiek bijgewerkte uitgiftetransactie ook gecorrigeerd. Als het selectievakje **Fysieke waarde opnemen** is uitgeschakeld, worden bij een voorraadafsluiting met het voorraadmodel LIFO-datum alleen vereffeningen gemaakt voor transacties die financieel zijn bijgewerkt. 
@@ -101,16 +100,16 @@ In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum we
 
 **Uitleg bij het diagram**
 
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
--   Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
--   Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
--   Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
+- Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
+- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
+- Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
+- Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 ## <a name="lifo-date-with-marking"></a>LIFO-datum met markering
 Markeren is een proces waarmee u een uitgiftetransactie aan een ontvangsttransactie kunt koppelen (of markeren). Markering kan plaatsvinden voor- of nadat een transactie is geboekt. U kunt markering gebruiken als u zeker wilt zijn van de juiste kosten van de voorraad wanneer de transactie wordt geboekt of de voorraad wordt afgesloten. 
@@ -147,16 +146,16 @@ De volgende afbeelding illustreert de gevolgen van het LIFO-voorraadmodel bij ge
 
 **Uitleg bij het diagram**
 
--   Voorraadtransacties worden aangegeven met verticale pijlen.
--   Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
--   Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
--   Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
--   Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
--   Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
--   Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
--   Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
--   Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
--   Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
+- Voorraadtransacties worden aangegeven met verticale pijlen.
+- Ontvangsten in voorraad worden aangegeven met verticale pijlen boven de tijdlijn.
+- Uitgiften uit voorraad worden aangegeven met verticale pijlen onder de tijdlijn.
+- Boven (of onder) elke verticale pijl wordt de waarde van de voorraadtransactie opgegeven in de indeling Quantity@Unitprice.
+- Een voorraadtransactiewaarde die tussen haakjes staat, geeft aan dat de voorraadtransactie fysiek naar de voorraad is geboekt.
+- Een voorraadtransactiewaarde die niet tussen haakjes staat, geeft aan dat de voorraadtransactie financieel naar de voorraad is geboekt.
+- Elke nieuwe ontvangst of uitgiftetransactie krijgt een nieuw label.
+- Elke verticale pijl heeft een opeenvolgende id, zoals *1a*. De id's geven de volgorde van voorraadtransactieboekingen op de tijdlijn aan.
+- Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
+- Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>Intercompany-onkosten
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Een werknemer die werkzaam is bij één rechtspersoon in een organisatie, voert mogelijk werk uit voor een andere rechtspersoon in dezelfde organisatie. In deze situatie kunt u de functie IC-kosten gebruiken om de onkosten van voor de werknemer toe te wijzen aan de rechtspersoon voor wie het werk is uitgevoerd. De rechtspersoon waarbij de werknemer in dienst is, wordt de uitlenende rechtspersoon genoemd. De juridische entiteit waarvan de werknemer onkosten maakt, heet de ontlenende rechtspersoon. 
 

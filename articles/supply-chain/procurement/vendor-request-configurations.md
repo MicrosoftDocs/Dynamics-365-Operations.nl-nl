@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Configuraties leverancieraanvraag
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Om een leverancieraanvraag te voltooien, moet de contactpersoon van de leverancier de wizard voor registratie van een potentiële leverancier uitvoeren.
 
@@ -39,12 +39,12 @@ Standaard is er een leveranciersconfiguratie beschikbaar in het formulier Config
 
 Het is niet mogelijk om landen/regio's voor de standaardconfiguratie te selecteren, dus het gedeelte **Landen/regio's** kan niet worden gewijzigd.
 
-1.  Klik op **Inkoopbeheer** > **Instelling** > **Leveranciers** en **Configuraties leverancieraanvraag**.
-2.  Klik op het tabblad **Velden** om de status van de weergegeven velden in te stellen.
--   Verborgen (niet zichtbaar)
--   Weergegeven (zichtbaar, maar niet verplicht)
--   Vereist (zichtbaar en verplicht)
-3.  Klik op het tabblad **Inhoud** om op te geven of er tekst moeten worden weergegeven in de wizard en of de gebruiker van de potentiële leverancier iets moet accepteren voordat deze naar de volgende stap in de wizard gaat. De bevestiging wordt gevraagd voor alle voorwaarden die de gebruiker moet accepteren om door te gaan.
+1. Klik op **Inkoopbeheer** > **Instelling** > **Leveranciers** en **Configuraties leverancieraanvraag**.
+2. Klik op het tabblad **Velden** om de status van de weergegeven velden in te stellen.
+3. Verborgen (niet zichtbaar)
+4. Weergegeven (zichtbaar, maar niet verplicht)
+5. Vereist (zichtbaar en verplicht)
+6. Klik op het tabblad **Inhoud** om op te geven of er tekst moeten worden weergegeven in de wizard en of de gebruiker van de potentiële leverancier iets moet accepteren voordat deze naar de volgende stap in de wizard gaat. De bevestiging wordt gevraagd voor alle voorwaarden die de gebruiker moet accepteren om door te gaan.
 
 U kunt ook een bevestigingsbericht opgeven dat wordt weergegeven zodra de wizard is voltooid en u kunt een of meer vragenlijsten toevoegen.
 

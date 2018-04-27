@@ -3,7 +3,7 @@ title: Lokalisatie en wettelijk voorgeschreven functies
 description: Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke functionaliteit.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokalisatie en wettelijk voorgeschreven functies
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
 
@@ -53,8 +52,8 @@ De volgende bronnen bevatten informatie over geplande en nieuwe lokalisatiefunct
 -   [Communicatie over opvolging van en updates in regelgeving](regulatory-watch-communication.md)
 -   [Microsoft informeren over waarschuwingen voor land-/regiospecifieke voorschriften en de status van wettelijk voorgeschreven functies bijhouden](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Dynamics 365-routekaart
-De [Dynamics 365-routekaart](https://roadmap.dynamics.com/) biedt een momentopname van waar wij aan werken. Gebruik deze routekaart om te bekijken wat er algemeen beschikbaar wordt gesteld en wat er in ontwikkeling is. Alle datums en functies die in ontwikkeling zijn, zijn voorlopig, gebaseerd op huidige verwachtingen en kunnen zonder voorafgaande kennisgeving worden gewijzigd.
+### <a name="dynamics-365-release-notes"></a>Dynamics 365 release-opmerkingen
+De [Dynamics 365 release-opmerkingen (PDF downloaden)](https://aka.ms/businessappsreleasenotes) bevat beschrijvingen van nieuwe en verbeterde functies in de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
 
 ## <a name="electronic-reporting"></a>Elektronische rapportage
 Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor elektronische documenten configureren in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. Met ER kunt u deze indelingen beheren gedurende hun hele levenscyclus. Raadpleeg een van de volgende onderwerpen voor meer informatie:
@@ -77,27 +76,11 @@ Zie [Taakbegeleidingen](../../fin-and-ops/get-started/help-overview.md#task-guid
 
 
 ## <a name="countryregion-specific-help-topics"></a>Land-/regiospecifieke Help-onderwerpen
-De volgende secties bevatten resources per land/regio.
+In de volgende gedeelten worden bronnen per land/regio weergegeven.
 
-### <a name="australia"></a>Australië
-
--   [Bankbestandsindelingen](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [Business Activity Statement ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Een groep met lage waarden afschrijven](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Oostenrijk
-
-- [Halfjaarlijkse afschrijvingen](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Bijzondere verpakkingsmateriaalkosten](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Inkoopheffingen](../../financials/localizations/emea-aut-purchase-duties.md)
-- [Btw-overzicht](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>België
-
--   [CODA-bankafschrift](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Intervat-belastingaangifte](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [PRODCOM-rapport instellen](../../financials/localizations/emea-bel-prodcom-report.md)
--   [Afstemmingsrapporten](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Australië](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Oostenrijk](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[België](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Brazilië
 
@@ -134,22 +117,9 @@ De volgende secties bevatten resources per land/regio.
 -   [Hoofdrekeningen voorraad boeken op locatie](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [Debet- en creditbedragen weergeven voor grootboekrekeningen](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>Tsjechië
-
--   [Contantkorting op creditnota](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Afronding voor afschrijving](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Halfjaarlijkse afschrijving op de afstoting van vaste activa voor Tsjechië](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Opschorting van afschrijvingen (vakantie.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Afschrijvingsmethoden voor vaste activa voor Tsjechië](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [De waarde van een vast activum voorafgaand aan verwerving boeken](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [Btw-overzicht voor Tsjechië](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [Btw-aangifte ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Gesplitste perioden in periodieke journalen](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Ondertekenaars voor afdrukbare formulieren instellen](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Tsjechië](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Estland
-
 -   [Details van btw-overzicht voor Estland](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Afstoting van vaste activa](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ De volgende secties bevatten resources per land/regio.
 -   [Inflatiecorrectie-declaratierapport](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [ISR-declaratierapport](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Elektronische facturen (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Maleisië
 
 -   [Belasting op goederen en diensten (GST)](../../financials/localizations/apac-mys-gst.md)

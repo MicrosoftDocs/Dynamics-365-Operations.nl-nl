@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Transportbeheer engines
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Transportbeheerengines definiëren de logica die wordt gebruikt om transporttarieven in Transportbeheer te genereren en te verwerken. 
 
@@ -47,7 +46,7 @@ De volgende tabel bevat de transportbeheerengines die beschikbaar zijn in Micros
 | **Zone-engine**                  | Berekent de zone, gebaseerd op het huidige adres, en berekent het aantal zones dat moet worden gekruist om van adres A naar adres B te reizen.                                                                                                                                                                    |
 | **Type vrachtfactuur**            | Standardiseerd de vrachtenfactuur en de vrachtenrekening regels en wordt gebruikt voor het automatische vergelijken van vrachtenrekening.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Welke engines moet worden geconfigureerd om een zending te beoordelen?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Een transportbeheer engine vereist dat de de initialisering-gegevens instelt om 
 -   Simpele configuratiegegevens.
 
 In de meeste gevallen kunt u op de knop **Parameters** in de instellingsformulieren voor de transportbeheerengine klikken om de initialiseringsgegevens te configureren. **Voorbeeld van de configuratie van een tariefengine die verwijst naar een afstandsberekeningsengine** Het volgende voorbeeld toont de instellingen die zijn vereist voor een tariefengine die is gebaseerd op .NET-enginetype Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine en verwijst naar een afstandsberekeningsengine.
-| Parameter             | Omschrijving                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | Het .NET-type dat de toewijzingsgegevens van de tariefbasis voor een bepaald schema wordt vertaald. De syntaxis van de parameterwaarde bestaat uit twee segmenten die door een verticale streep worden afgebakend (|). Het eerste segment bevat de assemblage-naam die het assigner-type definieert. Het tweede segment definieert het volledig-gekwalificeerde naam van het assigner-type. Dit omvat ook de naamruimte van het type. |
-| *MileageEngineCode*   | Code voor de afstandsberekeningsengine die de record voor de afstandsberekeningsengine in de database van Microsoft Dynamics 365 for Finance and Operations identificeert.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Algemene enginecode die de record voor de toewijzingsengine in de database van Microsoft Dynamics 365 for Finance and Operations identificeert.                                                                                                                                                                                                                                                              |
 
- 
+|          Parameter           |                                                                                  Omschrijving                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | Het .NET-type dat de toewijzingsgegevens van de tariefbasis voor een bepaald schema wordt vertaald. De syntaxis van de parameterwaarde bestaat uit twee segmenten die door een verticale streep worden afgebakend ( |
+|  <em>MileageEngineCode</em>  |                       Code voor de afstandsberekeningsengine die de record voor de afstandsberekeningsengine in de database van Microsoft Dynamics 365 for Finance and Operations identificeert.                        |
+| <em>ApportionmentEngine</em> |                        Algemene enginecode die de record voor de toewijzingsengine in de database van Microsoft Dynamics 365 for Finance and Operations identificeert.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Hoe de metagegevens worden gebruikt in de transportbeheer engines?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ De gegevens die u gebruikt wanneer u tarieven in Microsoft Dynamics 365 for Fina
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Hebben alle engineconfiguraties metagegevens nodig?
 Nee, de transportbeheer engines die worden gebruikt om de gegevens op te halen, die voor tariefberekening op externe systemen zijn vereist, hebben geen metagegevens nodig. De tariefgegevens voor deze engines kunnen worden opgehaald van de externe systemen van de transport vervoerder, meestal via een webservice. Zo kunt u bijvoorbeeld een afstandsberekeningsengine gebruiken die gegevens direct vanuit Bing-kaarten ophaalt zodat u geen metagegevens voor deze engine nodig hebt.
+
 | **Opmerking**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | De transportbeheerengines van het transportbeheer die worden meegeleverd met Finance and Operations, zijn afhankelijk van de gegevens die vanuit de toepassing worden opgehaald. Engines die verbinding maken met externe systemen zijn niet opgenomen met Operations. Echter, het op engines gebaseerde uitbreidbaarheidsmodel maakt het mogelijk om extensies te maken via Microsoft Dynamics 365 for Finance and Operations Visual Studio Tools. |

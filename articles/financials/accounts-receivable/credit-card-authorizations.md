@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Instelling, autorisatie en registratie van creditcards
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Dit artikel bevat een overzicht van de creditcardautorisatie in Microsoft Dynamics 365 for Finance and Operations. Het bevat informatie over het instellen van een betaalservice, het toevoegen van een creditcard aan een verkooporder en het ongeldig maken van een autorisatie.
 

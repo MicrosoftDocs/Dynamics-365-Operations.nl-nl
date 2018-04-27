@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
-ms.openlocfilehash: 7fd32467cfbc8c30b398659d16b268f183b6b3d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d2a4a0b2bf2d33530dedc7ce3974ee558d063878
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Salaris-/compensatiestructuur en -plannen ontwikkelen
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakbegeleiding doorloopt het proces voor het maken van een vastecompensatieplan en het mogelijk maken dat werknemers worden geregistreerd in het plan via geschiktheidsregels. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF en de taak is bedoeld voor de Manager compensatie en vergoedingen.
 

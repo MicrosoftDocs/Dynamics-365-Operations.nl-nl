@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>Een productieorder starten
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u een productieorder start op de werkvloer. Tijd- en materiaalverbruik worden in dit proces gerapporteerd. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Dit is de vijfde procedure van zeven waarin de levenscyclus van de productieorder wordt uitgelegd.
 

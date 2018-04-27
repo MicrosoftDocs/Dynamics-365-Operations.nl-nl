@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a>Een continuïteitsprogramma instellen voor een callcenter
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u een continuïteitsprogramma instelt voor een callcenter.
 
