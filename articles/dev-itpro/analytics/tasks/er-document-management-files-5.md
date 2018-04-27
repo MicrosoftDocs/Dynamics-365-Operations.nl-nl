@@ -1,5 +1,5 @@
 --- 
-title: Indeling wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte (ER)
+title: Indeling wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer.
 author: NickSelin
 manager: AnnBe
@@ -16,84 +16,84 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: e145c4c7a1f3fd88481ad32d0af05511437e21dc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b38f69fc169367aa56468b2c8f06b65fd1291c79
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a><span data-ttu-id="26a38-103">Indeling wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen voor elektronische aangifte (ER)</span><span class="sxs-lookup"><span data-stu-id="26a38-103">Modify and run format to use Document Management files in format outputs for electronic reporting (ER)</span></span>
+# <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs"></a><span data-ttu-id="f3345-103">Indeling wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen</span><span class="sxs-lookup"><span data-stu-id="f3345-103">Modify and run format to use Document Management files in format outputs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="26a38-104">In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer.</span><span class="sxs-lookup"><span data-stu-id="26a38-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="26a38-105">Deze stappen kunnen in het DEMF-bedrijf worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="26a38-105">These steps can be performed in the DEMF company.</span></span>
+<span data-ttu-id="f3345-104">In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer.</span><span class="sxs-lookup"><span data-stu-id="f3345-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="f3345-105">Deze stappen kunnen in het DEMF-bedrijf worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="f3345-105">These steps can be performed in the DEMF company.</span></span>
 
-<span data-ttu-id="26a38-106">Om deze stappen uit te voeren, moet u eerst de stappen in de procedure "ER Documentbeheerbestanden gebruiken in indelingsuitvoer (deel 4: indeling uitvoeren)".</span><span class="sxs-lookup"><span data-stu-id="26a38-106">To complete these steps, you must first complete the steps in the “ER Use Document Management files in format outputs (Part 4): Run format” procedure.</span></span>
+<span data-ttu-id="f3345-106">Om deze stappen uit te voeren, moet u eerst de stappen in de procedure "ER Documentbeheerbestanden gebruiken in indelingsuitvoer (deel 4: indeling uitvoeren)".</span><span class="sxs-lookup"><span data-stu-id="f3345-106">To complete these steps, you must first complete the steps in the “ER Use Document Management files in format outputs (Part 4): Run format” procedure.</span></span>
 
-<span data-ttu-id="26a38-107">Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="26a38-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="f3345-107">Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="f3345-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format"></a><span data-ttu-id="26a38-108">De indeling voor het vullen van bijlagen aanpassen zodat berichten in binaire indeling worden gegenereerd</span><span class="sxs-lookup"><span data-stu-id="26a38-108">Modify the format to populate attachments into generating messages in binary format</span></span>
-1. <span data-ttu-id="26a38-109">Ga naar Organisatiebeheer > Elektronische rapportage > Configuraties.</span><span class="sxs-lookup"><span data-stu-id="26a38-109">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="26a38-110">Vouw in de structuur Klantfactuurmodel uit.</span><span class="sxs-lookup"><span data-stu-id="26a38-110">In the tree, expand 'Customer invoice model'.</span></span>
-3. <span data-ttu-id="26a38-111">Vouw in de structuur 'Customer invoice model\Customer invoice model (custom)' uit.</span><span class="sxs-lookup"><span data-stu-id="26a38-111">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
-4. <span data-ttu-id="26a38-112">Selecteer in de structuur 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span><span class="sxs-lookup"><span data-stu-id="26a38-112">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
-5. <span data-ttu-id="26a38-113">Klik op Ontwerper.</span><span class="sxs-lookup"><span data-stu-id="26a38-113">Click Designer.</span></span>
-    * <span data-ttu-id="26a38-114">U voert het facturenbericht in de producerende uitvoer in als een XML-bestand met UNICODE-codering.</span><span class="sxs-lookup"><span data-stu-id="26a38-114">You will populate the invoice message in the generating output as an XML file using UNICODE encoding.</span></span>  
-6. <span data-ttu-id="26a38-115">Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="26a38-115">Click Add root to open the drop dialog.</span></span>
-7. <span data-ttu-id="26a38-116">Selecteer "Common\File" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="26a38-116">In the tree, select 'Common\File'.</span></span>
-8. <span data-ttu-id="26a38-117">Typ "XML-bericht" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="26a38-117">In the Name field, type 'Xml message'.</span></span>
-    * <span data-ttu-id="26a38-118">Xml=bericht</span><span class="sxs-lookup"><span data-stu-id="26a38-118">Xml message</span></span>  
-9. <span data-ttu-id="26a38-119">Typ "UTF-8" in het veld Codering.</span><span class="sxs-lookup"><span data-stu-id="26a38-119">In the Encoding field, type 'UTF-8'.</span></span>
-    * <span data-ttu-id="26a38-120">UTF-8</span><span class="sxs-lookup"><span data-stu-id="26a38-120">UTF-8</span></span>  
-10. <span data-ttu-id="26a38-121">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="26a38-121">Click OK.</span></span>
-    * <span data-ttu-id="26a38-122">Configureer de producerende uitvoer als gecomprimeerd bestand.</span><span class="sxs-lookup"><span data-stu-id="26a38-122">Configure the generating output as a zipped file.</span></span>  
-11. <span data-ttu-id="26a38-123">Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="26a38-123">Click Add root to open the drop dialog.</span></span>
-12. <span data-ttu-id="26a38-124">Selecteer in de structuur "Common\Folder".</span><span class="sxs-lookup"><span data-stu-id="26a38-124">In the tree, select 'Common\Folder'.</span></span>
-13. <span data-ttu-id="26a38-125">Typ in het veld Naam 'Zip output'.</span><span class="sxs-lookup"><span data-stu-id="26a38-125">In the Name field, type 'Zip output'.</span></span>
-    * <span data-ttu-id="26a38-126">Zip-uitvoer</span><span class="sxs-lookup"><span data-stu-id="26a38-126">Zip output</span></span>  
-14. <span data-ttu-id="26a38-127">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="26a38-127">Click OK.</span></span>
-15. <span data-ttu-id="26a38-128">Selecteer in de structuur 'Zip output'.</span><span class="sxs-lookup"><span data-stu-id="26a38-128">In the tree, select 'Zip output'.</span></span>
-    * <span data-ttu-id="26a38-129">Voeg bijlagen toe aan het producerende gecomprimeerde bestand als bestanden met oorspronkelijke namen en extensies.</span><span class="sxs-lookup"><span data-stu-id="26a38-129">Add attachments to the generating zipped file as files with original names and extensions.</span></span>  
-16. <span data-ttu-id="26a38-130">Klik op Toevoegen om het dialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="26a38-130">Click Add to open the drop dialog.</span></span>
-17. <span data-ttu-id="26a38-131">Selecteer "Common\File" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="26a38-131">In the tree, select 'Common\File'.</span></span>
-18. <span data-ttu-id="26a38-132">Typ in het veld Naam 'Attached file'.</span><span class="sxs-lookup"><span data-stu-id="26a38-132">In the Name field, type 'Attached file'.</span></span>
-    * <span data-ttu-id="26a38-133">Gekoppeld bestand</span><span class="sxs-lookup"><span data-stu-id="26a38-133">Attached file</span></span>  
-19. <span data-ttu-id="26a38-134">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="26a38-134">Click OK.</span></span>
-20. <span data-ttu-id="26a38-135">Selecteer in de structuur 'Zip output\Attached file'.</span><span class="sxs-lookup"><span data-stu-id="26a38-135">In the tree, select 'Zip output\Attached file'.</span></span>
-21. <span data-ttu-id="26a38-136">Klik op Toevoegen om het dialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="26a38-136">Click Add to open the drop dialog.</span></span>
-22. <span data-ttu-id="26a38-137">Selecteer Tekst\Base64 in de structuur.</span><span class="sxs-lookup"><span data-stu-id="26a38-137">In the tree, select 'Text\Base64'.</span></span>
-23. <span data-ttu-id="26a38-138">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="26a38-138">Click OK.</span></span>
+## <a name="modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format"></a><span data-ttu-id="f3345-108">De indeling voor het vullen van bijlagen aanpassen zodat berichten in binaire indeling worden gegenereerd</span><span class="sxs-lookup"><span data-stu-id="f3345-108">Modify the format to populate attachments into generating messages in binary format</span></span>
+1. <span data-ttu-id="f3345-109">Ga naar Organisatiebeheer > Elektronische rapportage > Configuraties.</span><span class="sxs-lookup"><span data-stu-id="f3345-109">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="f3345-110">Vouw in de structuur Klantfactuurmodel uit.</span><span class="sxs-lookup"><span data-stu-id="f3345-110">In the tree, expand 'Customer invoice model'.</span></span>
+3. <span data-ttu-id="f3345-111">Vouw in de structuur 'Customer invoice model\Customer invoice model (custom)' uit.</span><span class="sxs-lookup"><span data-stu-id="f3345-111">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
+4. <span data-ttu-id="f3345-112">Selecteer in de structuur 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span><span class="sxs-lookup"><span data-stu-id="f3345-112">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
+5. <span data-ttu-id="f3345-113">Klik op Ontwerper.</span><span class="sxs-lookup"><span data-stu-id="f3345-113">Click Designer.</span></span>
+    * <span data-ttu-id="f3345-114">U voert het facturenbericht in de producerende uitvoer in als een XML-bestand met UNICODE-codering.</span><span class="sxs-lookup"><span data-stu-id="f3345-114">You will populate the invoice message in the generating output as an XML file using UNICODE encoding.</span></span>  
+6. <span data-ttu-id="f3345-115">Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="f3345-115">Click Add root to open the drop dialog.</span></span>
+7. <span data-ttu-id="f3345-116">Selecteer "Common\File" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="f3345-116">In the tree, select 'Common\File'.</span></span>
+8. <span data-ttu-id="f3345-117">Typ "XML-bericht" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="f3345-117">In the Name field, type 'Xml message'.</span></span>
+    * <span data-ttu-id="f3345-118">Xml=bericht</span><span class="sxs-lookup"><span data-stu-id="f3345-118">Xml message</span></span>  
+9. <span data-ttu-id="f3345-119">Typ "UTF-8" in het veld Codering.</span><span class="sxs-lookup"><span data-stu-id="f3345-119">In the Encoding field, type 'UTF-8'.</span></span>
+    * <span data-ttu-id="f3345-120">UTF-8</span><span class="sxs-lookup"><span data-stu-id="f3345-120">UTF-8</span></span>  
+10. <span data-ttu-id="f3345-121">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f3345-121">Click OK.</span></span>
+    * <span data-ttu-id="f3345-122">Configureer de producerende uitvoer als gecomprimeerd bestand.</span><span class="sxs-lookup"><span data-stu-id="f3345-122">Configure the generating output as a zipped file.</span></span>  
+11. <span data-ttu-id="f3345-123">Klik op Basis toevoegen om het dialoogvenster voor beëindiging te openen.</span><span class="sxs-lookup"><span data-stu-id="f3345-123">Click Add root to open the drop dialog.</span></span>
+12. <span data-ttu-id="f3345-124">Selecteer in de structuur "Common\Folder".</span><span class="sxs-lookup"><span data-stu-id="f3345-124">In the tree, select 'Common\Folder'.</span></span>
+13. <span data-ttu-id="f3345-125">Typ in het veld Naam 'Zip output'.</span><span class="sxs-lookup"><span data-stu-id="f3345-125">In the Name field, type 'Zip output'.</span></span>
+    * <span data-ttu-id="f3345-126">Zip-uitvoer</span><span class="sxs-lookup"><span data-stu-id="f3345-126">Zip output</span></span>  
+14. <span data-ttu-id="f3345-127">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f3345-127">Click OK.</span></span>
+15. <span data-ttu-id="f3345-128">Selecteer in de structuur 'Zip output'.</span><span class="sxs-lookup"><span data-stu-id="f3345-128">In the tree, select 'Zip output'.</span></span>
+    * <span data-ttu-id="f3345-129">Voeg bijlagen toe aan het producerende gecomprimeerde bestand als bestanden met oorspronkelijke namen en extensies.</span><span class="sxs-lookup"><span data-stu-id="f3345-129">Add attachments to the generating zipped file as files with original names and extensions.</span></span>  
+16. <span data-ttu-id="f3345-130">Klik op Toevoegen om het dialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="f3345-130">Click Add to open the drop dialog.</span></span>
+17. <span data-ttu-id="f3345-131">Selecteer "Common\File" in de structuur.</span><span class="sxs-lookup"><span data-stu-id="f3345-131">In the tree, select 'Common\File'.</span></span>
+18. <span data-ttu-id="f3345-132">Typ in het veld Naam 'Attached file'.</span><span class="sxs-lookup"><span data-stu-id="f3345-132">In the Name field, type 'Attached file'.</span></span>
+    * <span data-ttu-id="f3345-133">Gekoppeld bestand</span><span class="sxs-lookup"><span data-stu-id="f3345-133">Attached file</span></span>  
+19. <span data-ttu-id="f3345-134">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f3345-134">Click OK.</span></span>
+20. <span data-ttu-id="f3345-135">Selecteer in de structuur 'Zip output\Attached file'.</span><span class="sxs-lookup"><span data-stu-id="f3345-135">In the tree, select 'Zip output\Attached file'.</span></span>
+21. <span data-ttu-id="f3345-136">Klik op Toevoegen om het dialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="f3345-136">Click Add to open the drop dialog.</span></span>
+22. <span data-ttu-id="f3345-137">Selecteer Tekst\Base64 in de structuur.</span><span class="sxs-lookup"><span data-stu-id="f3345-137">In the tree, select 'Text\Base64'.</span></span>
+23. <span data-ttu-id="f3345-138">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f3345-138">Click OK.</span></span>
 
-## <a name="map-new-format-elements-to-data-model"></a><span data-ttu-id="26a38-139">Nieuwe indelingselementen toewijzen aan gegevensmodellen</span><span class="sxs-lookup"><span data-stu-id="26a38-139">Map new format elements to data model</span></span>
-1. <span data-ttu-id="26a38-140">Klik op het tabblad Toewijzing.</span><span class="sxs-lookup"><span data-stu-id="26a38-140">Click the Mapping tab.</span></span>
-2. <span data-ttu-id="26a38-141">Vouw in de structuur "model" uit.</span><span class="sxs-lookup"><span data-stu-id="26a38-141">In the tree, expand 'model'.</span></span>
-3. <span data-ttu-id="26a38-142">Vouw in de structuur model\Factuurbijlagen uit.</span><span class="sxs-lookup"><span data-stu-id="26a38-142">In the tree, expand 'model\Invoice attachments'.</span></span>
-4. <span data-ttu-id="26a38-143">Selecteer in de structuur 'Zip output\Attached file\Base64'.</span><span class="sxs-lookup"><span data-stu-id="26a38-143">In the tree, select 'Zip output\Attached file\Base64'.</span></span>
-5. <span data-ttu-id="26a38-144">Selecteer in de structuur model\Factuurbijlagen\Bestandsinhoud.</span><span class="sxs-lookup"><span data-stu-id="26a38-144">In the tree, select 'model\Invoice attachments\File content'.</span></span>
-6. <span data-ttu-id="26a38-145">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="26a38-145">Click Bind.</span></span>
-7. <span data-ttu-id="26a38-146">Selecteer in de structuur 'Zip output\Attached file'.</span><span class="sxs-lookup"><span data-stu-id="26a38-146">In the tree, select 'Zip output\Attached file'.</span></span>
-8. <span data-ttu-id="26a38-147">Klik op Bestandsnaam bewerken.</span><span class="sxs-lookup"><span data-stu-id="26a38-147">Click Edit filename.</span></span>
-9. <span data-ttu-id="26a38-148">Vouw in de structuur "model" uit.</span><span class="sxs-lookup"><span data-stu-id="26a38-148">In the tree, expand 'model'.</span></span>
-10. <span data-ttu-id="26a38-149">Vouw in de structuur model\Factuurbijlagen uit.</span><span class="sxs-lookup"><span data-stu-id="26a38-149">In the tree, expand 'model\Invoice attachments'.</span></span>
-11. <span data-ttu-id="26a38-150">Selecteer in de structuur model\Factuurbijlagen\Bestandsnaam.</span><span class="sxs-lookup"><span data-stu-id="26a38-150">In the tree, select 'model\Invoice attachments\File name'.</span></span>
-12. <span data-ttu-id="26a38-151">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="26a38-151">Click Add data source.</span></span>
-13. <span data-ttu-id="26a38-152">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="26a38-152">Click Save.</span></span>
-14. <span data-ttu-id="26a38-153">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="26a38-153">Close the page.</span></span>
-15. <span data-ttu-id="26a38-154">Selecteer in de structuur model\Factuurbijlagen.</span><span class="sxs-lookup"><span data-stu-id="26a38-154">In the tree, select 'model\Invoice attachments'.</span></span>
-16. <span data-ttu-id="26a38-155">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="26a38-155">Click Bind.</span></span>
-17. <span data-ttu-id="26a38-156">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="26a38-156">Click Save.</span></span>
-18. <span data-ttu-id="26a38-157">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="26a38-157">Close the page.</span></span>
+## <a name="map-new-format-elements-to-data-model"></a><span data-ttu-id="f3345-139">Nieuwe indelingselementen toewijzen aan gegevensmodellen</span><span class="sxs-lookup"><span data-stu-id="f3345-139">Map new format elements to data model</span></span>
+1. <span data-ttu-id="f3345-140">Klik op het tabblad Toewijzing.</span><span class="sxs-lookup"><span data-stu-id="f3345-140">Click the Mapping tab.</span></span>
+2. <span data-ttu-id="f3345-141">Vouw in de structuur "model" uit.</span><span class="sxs-lookup"><span data-stu-id="f3345-141">In the tree, expand 'model'.</span></span>
+3. <span data-ttu-id="f3345-142">Vouw in de structuur model\Factuurbijlagen uit.</span><span class="sxs-lookup"><span data-stu-id="f3345-142">In the tree, expand 'model\Invoice attachments'.</span></span>
+4. <span data-ttu-id="f3345-143">Selecteer in de structuur 'Zip output\Attached file\Base64'.</span><span class="sxs-lookup"><span data-stu-id="f3345-143">In the tree, select 'Zip output\Attached file\Base64'.</span></span>
+5. <span data-ttu-id="f3345-144">Selecteer in de structuur model\Factuurbijlagen\Bestandsinhoud.</span><span class="sxs-lookup"><span data-stu-id="f3345-144">In the tree, select 'model\Invoice attachments\File content'.</span></span>
+6. <span data-ttu-id="f3345-145">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="f3345-145">Click Bind.</span></span>
+7. <span data-ttu-id="f3345-146">Selecteer in de structuur 'Zip output\Attached file'.</span><span class="sxs-lookup"><span data-stu-id="f3345-146">In the tree, select 'Zip output\Attached file'.</span></span>
+8. <span data-ttu-id="f3345-147">Klik op Bestandsnaam bewerken.</span><span class="sxs-lookup"><span data-stu-id="f3345-147">Click Edit filename.</span></span>
+9. <span data-ttu-id="f3345-148">Vouw in de structuur "model" uit.</span><span class="sxs-lookup"><span data-stu-id="f3345-148">In the tree, expand 'model'.</span></span>
+10. <span data-ttu-id="f3345-149">Vouw in de structuur model\Factuurbijlagen uit.</span><span class="sxs-lookup"><span data-stu-id="f3345-149">In the tree, expand 'model\Invoice attachments'.</span></span>
+11. <span data-ttu-id="f3345-150">Selecteer in de structuur model\Factuurbijlagen\Bestandsnaam.</span><span class="sxs-lookup"><span data-stu-id="f3345-150">In the tree, select 'model\Invoice attachments\File name'.</span></span>
+12. <span data-ttu-id="f3345-151">Klik op Gegevensbron toevoegen.</span><span class="sxs-lookup"><span data-stu-id="f3345-151">Click Add data source.</span></span>
+13. <span data-ttu-id="f3345-152">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f3345-152">Click Save.</span></span>
+14. <span data-ttu-id="f3345-153">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f3345-153">Close the page.</span></span>
+15. <span data-ttu-id="f3345-154">Selecteer in de structuur model\Factuurbijlagen.</span><span class="sxs-lookup"><span data-stu-id="f3345-154">In the tree, select 'model\Invoice attachments'.</span></span>
+16. <span data-ttu-id="f3345-155">Klik op Binden.</span><span class="sxs-lookup"><span data-stu-id="f3345-155">Click Bind.</span></span>
+17. <span data-ttu-id="f3345-156">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f3345-156">Click Save.</span></span>
+18. <span data-ttu-id="f3345-157">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f3345-157">Close the page.</span></span>
 
-## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="26a38-158">Het ontworpen rapport uitvoeren voor de geselecteerde factuur</span><span class="sxs-lookup"><span data-stu-id="26a38-158">Run the designed report for the selected invoice</span></span>
-1. <span data-ttu-id="26a38-159">Klik op Uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="26a38-159">Click Run.</span></span>
-2. <span data-ttu-id="26a38-160">Vouw de records uit zodat de sectie () is opgenomen.</span><span class="sxs-lookup"><span data-stu-id="26a38-160">Expand the Records to include () section.</span></span>
-3. <span data-ttu-id="26a38-161">Klik op Filter.</span><span class="sxs-lookup"><span data-stu-id="26a38-161">Click Filter.</span></span>
-4. <span data-ttu-id="26a38-162">Selecteer de rij van het Klantfacturenjournaal en het veld Verkooporder.</span><span class="sxs-lookup"><span data-stu-id="26a38-162">Select the row of the Customer invoice journal and the Sales order field.</span></span>
-5. <span data-ttu-id="26a38-163">Type in het veld Criteria in het veld met criteria voor “Verkooporder” het ordernummer 000148.</span><span class="sxs-lookup"><span data-stu-id="26a38-163">In the Criteria field, In the criteria “Sales order” field, type the order number 000148.</span></span>
-    * <span data-ttu-id="26a38-164">000148</span><span class="sxs-lookup"><span data-stu-id="26a38-164">000148</span></span>  
-6. <span data-ttu-id="26a38-165">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="26a38-165">Click OK.</span></span>
-7. <span data-ttu-id="26a38-166">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="26a38-166">Click OK.</span></span>
-    * <span data-ttu-id="26a38-167">Controleer de gegenereerde uitvoer.</span><span class="sxs-lookup"><span data-stu-id="26a38-167">Review the generated output.</span></span> <span data-ttu-id="26a38-168">Naast het factuurbericht in XML-indeling is voor elke bijlage één bestand gemaakt.</span><span class="sxs-lookup"><span data-stu-id="26a38-168">Note, in addition to the invoice message in XML format, a single file has been created for each attachment.</span></span> <span data-ttu-id="26a38-169">De bijlagebestanden worden gevuld met de gecomprimeerde uitvoer in binaire indeling.</span><span class="sxs-lookup"><span data-stu-id="26a38-169">The attachment files are populated with the zipped output in binary format.</span></span>  
+## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="f3345-158">Het ontworpen rapport uitvoeren voor de geselecteerde factuur</span><span class="sxs-lookup"><span data-stu-id="f3345-158">Run the designed report for the selected invoice</span></span>
+1. <span data-ttu-id="f3345-159">Klik op Uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="f3345-159">Click Run.</span></span>
+2. <span data-ttu-id="f3345-160">Vouw de records uit zodat de sectie () is opgenomen.</span><span class="sxs-lookup"><span data-stu-id="f3345-160">Expand the Records to include () section.</span></span>
+3. <span data-ttu-id="f3345-161">Klik op Filter.</span><span class="sxs-lookup"><span data-stu-id="f3345-161">Click Filter.</span></span>
+4. <span data-ttu-id="f3345-162">Selecteer de rij van het Klantfacturenjournaal en het veld Verkooporder.</span><span class="sxs-lookup"><span data-stu-id="f3345-162">Select the row of the Customer invoice journal and the Sales order field.</span></span>
+5. <span data-ttu-id="f3345-163">Type in het veld Criteria in het veld met criteria voor “Verkooporder” het ordernummer 000148.</span><span class="sxs-lookup"><span data-stu-id="f3345-163">In the Criteria field, In the criteria “Sales order” field, type the order number 000148.</span></span>
+    * <span data-ttu-id="f3345-164">000148</span><span class="sxs-lookup"><span data-stu-id="f3345-164">000148</span></span>  
+6. <span data-ttu-id="f3345-165">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f3345-165">Click OK.</span></span>
+7. <span data-ttu-id="f3345-166">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f3345-166">Click OK.</span></span>
+    * <span data-ttu-id="f3345-167">Controleer de gegenereerde uitvoer.</span><span class="sxs-lookup"><span data-stu-id="f3345-167">Review the generated output.</span></span> <span data-ttu-id="f3345-168">Naast het factuurbericht in XML-indeling is voor elke bijlage één bestand gemaakt.</span><span class="sxs-lookup"><span data-stu-id="f3345-168">Note, in addition to the invoice message in XML format, a single file has been created for each attachment.</span></span> <span data-ttu-id="f3345-169">De bijlagebestanden worden gevuld met de gecomprimeerde uitvoer in binaire indeling.</span><span class="sxs-lookup"><span data-stu-id="f3345-169">The attachment files are populated with the zipped output in binary format.</span></span>  
 
 
