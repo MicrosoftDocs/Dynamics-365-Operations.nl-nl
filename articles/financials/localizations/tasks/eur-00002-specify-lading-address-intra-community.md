@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a>Een vrachtadres opgeven voor een intracommunautaire transactie
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een vrachtadres opgeeft voor een intracommunautaire handelstransactie. Bijvoorbeeld een Duits bedrijf bestelt artikelen bij een leverancier met een adres in Duitsland. Deze leverancier heeft een magazijn in Italië en verzendt de artikelen vandaaruit. Deze levering moet in Intrastat worden gerapporteerd. Hetzelfde gedrag geldt voor klantretouren.
 Deze procedure is van toepassing op alle Europese landen/regio's. De taak werd gemaakt met het demobedrijf DEMF met een primair adres in Duitsland. Voordat u deze procedure kunt uitvoeren, moet u Intrastat-rapporten configureren. Deze procedure is alleen bedoeld voor accountants. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.

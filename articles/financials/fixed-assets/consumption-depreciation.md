@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consumption-depreciation"></a>Afschrijving naar rato van verbruik
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt een overzicht van de afschrijvingsmethode Verbruik.
 

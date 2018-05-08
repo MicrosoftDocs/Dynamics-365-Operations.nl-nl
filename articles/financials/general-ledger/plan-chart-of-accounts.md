@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="plan-your-chart-of-accounts"></a>Uw rekeningschema plannen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie waarmee u het rekeningschema voor uw organisatie kunt plannen.
 

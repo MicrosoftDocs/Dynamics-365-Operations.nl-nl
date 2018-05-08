@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-and-filter-workspaces"></a>Werkruimten configureren en filteren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt een overzicht van de wijze waarop u werkruimten configureert en filtert.
 

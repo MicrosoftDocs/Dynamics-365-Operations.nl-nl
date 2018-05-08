@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Directe aanvulling
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met directe aanvulling kunt u de voorraad meteen aanvullen wanneer met een richtlijn van de locatie voorraad niet kan worden toegewezen. De aanvulling is gebaseerd op één regel in de instellingen van de locatie-instructie. Aanvulling van die eenheid vindt onmiddellijk plaats als voorraad niet voorhanden is in de maateenheid die is opgegeven in die regel.
 

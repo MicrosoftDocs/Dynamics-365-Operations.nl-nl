@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Machtigingen instellen voor het bestellen van producten namens iemand anders
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u werknemers machtiging kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers. Met andere woorden een opdracht tot inkoop voor 'voorbereider' kan een tot inkoop maken voor een andere 'aanvrager.' De procedure laat ook zien hoe u een werknemer kunt machtigen om artikelen en diensten in verschillende rechtspersonen of operationele eenheden te bestellen. Deze taken worden gewoonlijk uitgevoerd door een inkoopmanager. U kunt deze procedure gebruiken voor gegevens voor het USMF-demobedrijf of voor uw eigen gegevens.
 

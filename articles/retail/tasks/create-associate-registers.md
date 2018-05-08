@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a> Registers maken en koppelen
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 In deze procedure wordt weergegeven hoe u een kassa op het verkooppunt (POS) kunt maken. Bij deze procedure wordt het demobedrijf USRT gebruikt.
 

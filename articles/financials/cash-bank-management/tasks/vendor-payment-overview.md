@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>Overzicht van leveranciersbetaling
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakhandleiding leidt u door verschillende methoden die worden gebruikt voor het maken van leveranciersbetalingen, inclusief het gebruiken van een betalingsvoorstel of het handmatig invoeren van een eenmalige betaling. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 

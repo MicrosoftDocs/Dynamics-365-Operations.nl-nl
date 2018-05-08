@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-leave-of-absence"></a>Verlof beheren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van de records van het werknemerverlof. U kunt verloftijd bijhouden voor bijvoorbeeld medische, opleidings- of ouderlijke activiteiten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

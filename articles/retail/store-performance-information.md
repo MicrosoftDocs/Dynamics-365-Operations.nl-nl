@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-store-performance"></a>Winkelprestaties analyseren
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u door middel van de real-time analyses in het geheugen toegang krijgt tot gegeven over de prestaties van uw winkel in Microsoft Dynamics 365 for Retail en deze kunt onderzoeken en er kennis uit kunt destilleren. 
 

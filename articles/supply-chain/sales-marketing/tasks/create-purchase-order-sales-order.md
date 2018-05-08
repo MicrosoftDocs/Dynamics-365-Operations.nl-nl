@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Een inkooporder maken op basis van een verkooporder
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont u hoe u een inkooporder maakt op basis van een verkooporder. De hoeveelheden van het product op de inkooporder worden vervolgens toegewezen om te voldoen aan de vraag van de oorspronkelijke verkooporder. Het op deze manier vervullen van de verkoopvraag is een alternatief voor een meer uitvoerige en geoptimaliseerde methode van Distributiebehoeftenplanning. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>Berekening van de vrije voorraad (BOM)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 De kostenaggregatie- en verkoopprijsberekeningen worden stuklijstberekeningen genoemd en u start ze vanaf de pagina Berekeningen. Dit onderwerp biedt informatie over stuklijstberekeningen.
 

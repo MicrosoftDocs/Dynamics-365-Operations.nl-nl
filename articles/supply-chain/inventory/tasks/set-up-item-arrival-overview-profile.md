@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Een aankomstoverzichtsprofiel instellen voor een artikel
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak is gericht op de instelling van een profiel van aankomstoverzicht. Het profiel van aankomstoverzicht is een verzameling regels die wordt toegepast wanneer de aankomstoverzichtspagina door een gebruiker wordt geopend. U kunt deze procedure gebruiken in het demobedrijf USMF. Deze procedure wordt meestal uitgevoerd door een ontvangstadministrateur.
 

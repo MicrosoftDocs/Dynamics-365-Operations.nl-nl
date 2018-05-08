@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>Journalen maken en valideren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakbegeleiding maakt en valideert journalen en journaalregels. Bij deze taakbegeleiding wordt het demobedrijf USMF gebruikt.  
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>Streepjescodemaskers instellen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u streepjescodemaskertekens en streepjescodemaskers instelt en hoe u streepjescodemaskers toewijst aan streepjescodes.
 

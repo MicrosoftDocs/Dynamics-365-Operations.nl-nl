@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="modeling-a-lean-organization"></a>Een lean organisatie modelleren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Het artikel bevat informatie over de belangrijkste concepten bij het modelleren van een lean organisatie. 
 

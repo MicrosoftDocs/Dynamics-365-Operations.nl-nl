@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docken van productieorders naar outbound docks
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u het proces van cross-docken van gereedgemeld materiaal van een productieregel naar een outbound transportdock kunt beheren.
 

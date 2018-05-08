@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crediteringen en aanmaningen in Klanten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gegevens van klantincasso's worden beheerd in één centrale weergave, met behulp van de Finance and Operations-pagina Incasso's. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit het formulier Klanten.
 

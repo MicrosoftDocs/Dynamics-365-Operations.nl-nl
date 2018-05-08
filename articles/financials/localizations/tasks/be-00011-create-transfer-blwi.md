@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Transacties maken en overboeken naar het BLWI (België)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België. Deze procedure is gemaakt met het demogegevensbedrijf USSI. Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres in België hebben. Ook is het nodig om een registratie-id voor België in te stellen en het registratienummer in te vullen, om een BLWI-aangifte te maken.
 

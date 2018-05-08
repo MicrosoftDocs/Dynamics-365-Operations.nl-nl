@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-goal"></a>Een doelstelling maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen volgen, en de doelstellingen koppelen aan een beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Een project voor massaal aanstellen maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het proces van het instellen van een project voor massaal aanstellen. Een werver kan projecten voor massaal aanstellen gebruiken om gemakkelijk meerdere posities te maken en een aantal werknemers aan te stellen in die functies. U begint deze procedure door naar Human resources > Werving > Projecten voor massaal aanstellen te gaan. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

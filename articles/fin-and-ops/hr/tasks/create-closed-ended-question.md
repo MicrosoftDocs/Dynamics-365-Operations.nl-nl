@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-closed-ended-question"></a>Een meerkeuzevraag maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Met meerkeuzevragen kunt u opties bieden waaruit de respondent kan kiezen. Als eerste moet u de antwoordgroep met de antwoorden maken, waarna u de vraag maakt waarbij de antwoordgroep wordt gebruikt. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

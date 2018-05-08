@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-guarantee"></a>Garantiebrieven
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over borgstellingen. In een borgstelling gaat een bank akkoord om een specifiek bedrag aan een persoon te betalen als een van de klanten van de bank in gebreke blijft voor een betaling aan of verplichting ten opzichte van die persoon. 
 

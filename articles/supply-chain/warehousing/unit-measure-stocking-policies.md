@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>Maateenheid en opslagbeleid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel beschrijft hoe de standaardeenheden, eenheidsvolgorden, en eenheidsomrekeningen worden gebruikt in magazijnprocessen.
 

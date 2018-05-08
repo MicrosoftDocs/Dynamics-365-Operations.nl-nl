@@ -24,7 +24,7 @@ ms.lasthandoff: 02/14/2018
 ---
 # <a name="benefit-eligibility-process"></a>Proces voor geschiktheid voor vergoeding
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe het geschiktheidsproces voor vergoedingen werkt. U kunt de resultaten bekijken zodra het proces is voltooid. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

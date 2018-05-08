@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-schedule-groups"></a>Kanbanschemagroepen definiëren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kanbanschemagroepen zijn gedefinieerd om producten te groeperen en te onderscheiden in kanbanplanning. Het groeperen kan als algemene koppeling per bedrijf of specifiek voor een werkcel worden uitgevoerd. Elke groep heeft een kleurencode voor grafische indicatie in de lijstpagina van kanbanplanning. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

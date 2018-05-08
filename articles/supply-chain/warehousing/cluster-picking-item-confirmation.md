@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Productbevestiging voor clusterverzameling
 Met clusterverzameling kunt u artikelen verzamelen voor meerdere orders tegelijk. Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot belang om de artikelen te controleren die aan clusters worden toegevoegd. U kunt artikelen in clusterverzameling controleren tijdens het clusterverzamelingsproces.

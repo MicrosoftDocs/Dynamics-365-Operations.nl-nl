@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="merge-inventory-batches"></a>Voorraadbatches samenvoegen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch.
 

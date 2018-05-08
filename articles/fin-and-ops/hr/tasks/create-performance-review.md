@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-performance-review"></a>Een prestatiebeoordeling maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling. Deze procedure is gemaakt met het demogegevensbedrijf USMF. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="address-books-faq"></a>Veelgestelde vragen over adresboeken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <a name="how-do-i-check-for-duplicate-records"></a>Hoe controleer ik op dubbele registraties?
 -------------------------------------

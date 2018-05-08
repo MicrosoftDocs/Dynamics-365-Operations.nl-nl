@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="workforce-metrics-power-bi-content"></a>Power BI-inhoud voor metrische gegevens over personeel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt de Microsoft Power BI-inhoud **Metrische gegevens personeel** besproken. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
 

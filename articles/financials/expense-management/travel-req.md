@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Reisaanvragen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Een *reisopdracht* is een brondocument dat uitgaven vermeldt die worden gemaakt voor reizen. Een reisopdracht wordt ingediend ter revisie en kan vervolgens worden gebruikt om de uitgaven te machtigen.
 

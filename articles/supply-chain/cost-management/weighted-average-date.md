@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>Datum gewogen gemiddelde
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Datum gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het beginsel van gewogen gemiddelden. Voor het principe van gewogen gemiddelden, worden uitgiften uit de voorraad gewaardeerd tegen de gemiddelde waarde van de artikelen die zijn ontvangen in de voorraad voor elke dag in de periode van de eindvoorraad. 
 

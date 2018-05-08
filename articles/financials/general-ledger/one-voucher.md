@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Eén boekstuk
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Deze functionaliteit is beschikbaar in Dynamics 365 for Finance and Operations versie 8.0, die beschikbaar is in de release van voorjaar 2018.   

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="view-journal-entries-or-transactions"></a>Journaalboekingen of transacties weergeven
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u met het Boekstuktransactiesonderzoek kunt zoeken naar journaalboekingen of transacties.
 

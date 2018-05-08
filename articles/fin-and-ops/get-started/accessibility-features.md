@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>Toegankelijkheidsopties
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft de functionaliteit die is ontworpen om gebruikers met verschillende beperkingen te helpen Dynamics 365 for Finance and Operations, Dynamics 365 for Retail, en Dynamics 365 for Talent te gebruiken. Er zijn bijvoorbeeld functies voor mensen die zichtondersteunende technologieën zoals Microsoft Windows Verteller gebruiken.
 

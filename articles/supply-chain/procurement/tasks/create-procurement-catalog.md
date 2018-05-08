@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-procurement-catalog"></a>Een inkoopcatalogus maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze handleiding laat zien hoe u een aanschaffingscatalogus maakt. Deze taak wordt gewoonlijk uitgevoerd door een inkoopmedewerker. U komt ook te weten hoe werknemers de catalogus kunnen gebruiken wanneer zij een bestelopdracht maken. Voordat u een catalogus kunt maken, moet er een hiërarchie van aanschaffingscategorieën in uw systeem worden ingesteld. De hiërarchie wordt overgenomen door de nieuwe catalogus, samen met alle producten in de hiërarchie. U kunt deze handleiding in het demobedrijf USMF gebruiken waar de hiërarchie van aanschaffingscategorieën beschikbaar is, evenals de voorbeelden die zijn gebruikt in de procedurestappen.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Kredietbrieven en importincasso´s
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel geeft algemene informatie over kredietbrieven en importincasso's. Beide typen bankdocumenten worden vaak gebruikt voor de inkoop en verkoop van goederen in binnen- en buitenland.
 

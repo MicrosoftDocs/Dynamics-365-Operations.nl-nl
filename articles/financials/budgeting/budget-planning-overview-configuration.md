@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Overzicht budgetplanning
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel is een introductie tot budgetplanning en bevat informatie waarmee u budgetplanning kunt configureren en budgetplanningprocessen kunt instellen.
 

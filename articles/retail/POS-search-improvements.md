@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Overzicht van zoekfunctie voor producten en klanten in Point of Sale
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 MPOS (Modern Point of Sale) en CPOS (Cloud Point of Sale) bieden een gebruiksvriendelijke zoekfunctie voor producten en klanten. Omdat de zoekbalk altijd aanwezig is boven aan MPOS- en CPOS-vensters, kunnen medewerkers snel producten en klanten opzoeken.
 

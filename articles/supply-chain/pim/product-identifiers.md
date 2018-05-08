@@ -29,7 +29,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="product-identifiers"></a>Product-id's 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over de verschillende typen product-id's en hierin wordt uitgelegd hoe u product-id's in de productgegevens kunt toevoegen.
 

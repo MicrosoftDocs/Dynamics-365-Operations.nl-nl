@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Artikelen en grondstoffen in voorraad, productie en verkoop traceren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft hoe u artikeltracering kunt gebruiken om te bepalen waar de artikelen of de grondstoffen zijn gebruikt, worden gebruikt, of gebruikt gaan worden in productie- en verkoopprocessen.
 

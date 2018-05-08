@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-promising"></a>Orderbelofte
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel vindt u informatie over het uitvoeren van ordertoezeggingen (orderbeloftes). Als u gebruikt maakt van orderbeloftes, kunt u met zekerheid leveringsdatums aan uw klanten beloven en hebt u de flexibiliteit dat u deze datums ook haalt.
 

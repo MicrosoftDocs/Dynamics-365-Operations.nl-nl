@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-departments"></a>Nieuwe afdelingen definiëren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Afdelingen zijn operationele eenheden die een functioneel gebied van een bedrijf vertegenwoordigen, zoals verkoop of boekhouding. Veel bedrijven hebben organisatiehiërarchieën die de verschillende afdelingen in bedrijf weergeven. Deze procedure begeleidt u door het proces van het maken van afdelingen en het toevoegen van die afdelingen aan de afdelingshiërarchie van de organisatie. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

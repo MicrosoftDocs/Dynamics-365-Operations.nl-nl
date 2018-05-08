@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Indelingen voor schermen met demonstratiegegevens in MPOS/CPOS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat informatie over de schermindelingen die zijn opgenomen in de voorbeeldgegevensset voor de POS-ervaringen (Point Of Sale) in Microsoft Dynamics 365 for Retail.
 

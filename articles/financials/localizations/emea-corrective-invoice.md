@@ -26,7 +26,7 @@ ms.lasthandoff: 03/21/2018
 
 # <a name="corrective-invoicing"></a>Correctieve facturering
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  > [!NOTE]
  > Dit onderwerp is van toepassing voor rechtspersonen met een primair adres in Denemarken, Duitsland, Frankrijk, Ierland, Nederland of het Verenigd Koninkrijk.

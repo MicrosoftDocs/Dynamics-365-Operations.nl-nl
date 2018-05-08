@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Afschrijvingsprofielen instellen en maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Afschrijvingsprofielen definiëren het type en de frequentie van afschrijving voor activa.   Deze registratie gebruikt het USMF-demobedrijf en de accountantsrol.
 

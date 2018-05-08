@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> RegeIs en parameters instellen voor het cross-docken en klantlevering
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure demonstreert de stappen om aanvullingsregels te maken. Aanvullingsregels kunnen worden gebruikt om te bepalen hoe producten worden gedistribueerd naar winkels wanneer cross-docking en klantlevering worden gebruikt. Aanvullingsregels kunnen worden ingesteld voor winkels of winkelgroepen. Het gewicht dat voor elke regel is gedefinieerd in een regel, bepaalt hoe de hoeveelheden van producten worden gedistribueerd tussen de winkels wanneer aanvullingsregels worden gebruikt als de distributiemethode voor cross-docking of klantlevering. Deze procedure gebruikt het demobedrijf USRT.
 

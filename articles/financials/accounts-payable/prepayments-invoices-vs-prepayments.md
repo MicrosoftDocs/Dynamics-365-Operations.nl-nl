@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Vooruitbetalingsfacturen versus vooruitbetalingen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen). Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld. Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren.
 

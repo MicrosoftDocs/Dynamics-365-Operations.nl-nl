@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Gecentraliseerde betalingen voor leveranciers
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door één rechtspersoon te gebruiken die alle betalingen verwerkt. Daarom hoeven dezelfde betalingen niet in meerdere rechtspersonen worden ingevoerd. Dit artikel bevat voorbeelden die laten zien hoe de boeking voor gecentraliseerde betalingen in diverse scenario's wordt verwerkt.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Sollicitant- en sollicitatiegegevens handmatig invoeren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u handmatig informatie over sollicitanten en hun sollicitatie kunt onderhouden.   U kunt persoonlijke gegevens, gespreksdatums en -tijden, verwijzingen, vaardigheden en accommodatieaanvragen voor sollicitanten invoeren en onderhouden. U kunt ook de status van de sollicitaties van sollicitanten naar vacatures bijwerken en brieven of e-mailberichten opstellen om met sollicitanten te communiceren. Wanneer u sollicitatieregistratie maakt, wordt er een persoonlijke registratie voor die sollicitant in het globale adresboek gemaakt.       Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

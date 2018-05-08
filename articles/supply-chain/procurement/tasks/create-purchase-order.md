@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Inkooporder maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een inkooporder handmatig maakt. Het is gebruikelijker dat inkooporders automatisch worden gemaakt als resultaat van hoofdplanning, directe levering en andere processen. Inkooporders worden meestal gemaakt door een inkoper. Het hier weergegeven voorbeeld kan in het demobedrijf USMF worden gebruikt met de waarden die in de notities voor verschillende stappen worden voorgesteld.
 

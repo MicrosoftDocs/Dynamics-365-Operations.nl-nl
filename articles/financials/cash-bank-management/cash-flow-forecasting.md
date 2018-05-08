@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Cashflowprognose
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met de functies voor cashflowprognoses kunt u de geplande cashflow en valutabehoeften analyseren, zodat u de toekomstige behoefte aan contant geld in het bedrijf kunt schatten. Voer de volgende taken uit om een prognose van de cashflow te verkrijgen:
 

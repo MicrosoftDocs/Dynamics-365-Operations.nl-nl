@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft hoe u vertalingen voor producten, productdimensiewaarden en productkenmerken kunt beheren. 
 

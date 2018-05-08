@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met boekingsprofielen van leveranciers worden boekingen van leverancierstransacties naar het grootboek beheerd.
 

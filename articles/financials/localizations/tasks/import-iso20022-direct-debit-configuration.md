@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Configuratie van ISO20022 automatische afschrijving importeren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u een configuratie voor elektronische rapportage van klantenbetalingen importeert. Deze procedure gebruikt als voorbeeld de indeling voor automatische incasso van ISO20022. 
 

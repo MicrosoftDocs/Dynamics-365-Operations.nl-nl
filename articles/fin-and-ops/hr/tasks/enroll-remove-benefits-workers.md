@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Vergoedingen inschrijven en verwijderen van werknemers
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan worden geregistreerd en hoe meerdere medewerkers in een vergoeding kunnen worden geregistreerd. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

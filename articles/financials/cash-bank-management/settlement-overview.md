@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview"></a>Vereffeningsoverzicht
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel geeft algemene informatie over het vereffeningsproces. Het beschrijft de transactietypen die kunnen worden vereffend, wanneer en hoe de transacties kunnen worden vereffend, en de resultaten van het vereffeningsproces.
 

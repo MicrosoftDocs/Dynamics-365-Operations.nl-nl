@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="revert-kanban-job-status"></a>Kanbantaakstatus terugdraaien
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure is gericht op het terugdraaien van een onjuiste kanbantaakstatus. Dit is handig in het geval dat de machineoperator per ongeluk de verkeerde taak bijwerkt of de verkeerde status instelt. In deze procedure wordt een kanbantaak per ongeluk als Voorbereid geregistreerd en wordt de status teruggedraaid. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de winkelsupervisor of machineoperator die in een lean manufacturingbedrijf werkt.
 

@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Gewogen gemiddelde met fysieke waarde en markering
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Het gewogen gemiddelde is een voorraadmodel dat is gebaseerd op het gewogen-gemiddeldeprincipe, waarbij uitgiften vanuit de voorraad worden gewaardeerd op de gemiddelde waarde van de artikelen die in de voorraad worden ontvangen gedurende de voorraadafsluitingsperiode, plus eventuele voorhanden voorraad van de vorige periode.
 

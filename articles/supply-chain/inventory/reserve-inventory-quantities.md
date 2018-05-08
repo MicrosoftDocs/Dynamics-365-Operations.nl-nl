@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Voorraadhoeveelheden reserveren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft de verschillende opties die beschikbaar zijn voor het reserveren van voorraad.
 

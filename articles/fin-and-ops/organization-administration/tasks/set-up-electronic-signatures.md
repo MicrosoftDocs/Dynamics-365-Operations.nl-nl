@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-electronic-signatures"></a>Elektronische handtekeningen instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Gebruik deze procedure om elektronische handtekeningen in te stellen. Met een elektronische handtekening wordt de identiteit bevestigd van een persoon die een computerproces wil starten of goedkeuren. Het demobedrijf dat wordt gebruikt om deze procedure te maken is DAT.
 

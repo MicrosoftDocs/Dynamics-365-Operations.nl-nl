@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="sepa-credit-transfer-overview"></a>Overzicht SEPA-kredietoverdracht
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel geeft algemene informatie over ISO 20022-overschrijvingen, waaronder SEPA-overschrijvingen (Single euro Payments Area) en andere elektronische betalingen voor leveranciers. Een SEPA-kredietoverdracht is een specifiek type betaling in euro's van een persoon of bedrijf aan een andere persoon of bedrijf. In dit onderwerp wordt ook beschreven hoe u een kredietoverdrachtbetalingsbestand kunt instellen en verzenden.
 

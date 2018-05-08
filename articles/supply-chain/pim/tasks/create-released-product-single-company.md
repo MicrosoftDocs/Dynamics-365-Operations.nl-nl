@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Een vrijgegeven product maken voor een enkel bedrijf
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure geeft aan hoe één vrijgegeven product kan worden gemaakt in de context van één juridische eenheid. Nadat het vrijgegeven product is gemaakt, is het onmiddellijk beschikbaar in alleen deze eenheid. U kunt deze procedure uitvoeren in demobedrijf USMF. Deze taak wordt gewoonlijk uitgevoerd door een productontwerper.
 

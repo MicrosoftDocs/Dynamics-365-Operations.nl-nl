@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Per diem-regels
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Een *dagvergoeding* (per diem) is een toeslag voor een werknemer die moet reizen voor zijn werk. In Onkostenbeheer kunt u per diem-regels voor verschillende reissituaties instellen. De dagvergoedingstarieven kunnen worden gebaseerd op de tijd van het jaar en/of de reisbestemming. Wanneer u een dagvergoedingsregel maakt, kunt u instellen dat er een percentage van een dagvergoedingstarief wordt ingehouden als een werknemer extra maaltijden of diensten ontvangt. Ook kunt u het minimum of maximum aantal toegestane uren voor een dagvergoedingstarief opgeven en dat aantal op de reis van een werknemer toepassen.
 

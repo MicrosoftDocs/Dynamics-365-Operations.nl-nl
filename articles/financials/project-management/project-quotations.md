@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Projectoffertes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt het concept van projectoffertes geïntroduceerd. Hiermee kunt u een klant met een aantrekkelijk aanbod benaderen als eerste stap in de projectfase. Een projectofferte kan de artikelen en diensten waarvoor de offerte geldt, basiscontactgegevens, speciale handelsovereenkomsten en kortingen, en mogelijke belastingen en toeslagen bevatten. 
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> Loyaliteitsschema's definiëren
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een loyaliteitsschema definieert. Loyaliteitsschema's zijn regels voor het verdienen en inwisselen van beloningen voor een loyaliteitsprogramma. Deze procedure gebruikt het demobedrijf USRT.
 

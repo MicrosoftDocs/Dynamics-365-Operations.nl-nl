@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Offerteaanvragen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft.
 U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.

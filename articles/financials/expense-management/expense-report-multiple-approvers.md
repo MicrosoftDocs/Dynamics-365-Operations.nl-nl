@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>Onkostennota's en meerdere goedkeurders
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Afhankelijk van het goedkeuringsbeleid voor onkosten van uw organisatie moet mogelijk meer dan één persoon een onkostendeclaratie goedkeuren die door een werknemer wordt ingediend. Wanneer u de werkstroom voor goedkeuring van het onkostenrapport instelt, kunt u werkstroomelementen toevoegen die taken of stappen voor één of meerdere goedkeurders van onkostenrapporten bevatten. U kan bijvoorbeeld vereisen dat alle onkostendeclaraties eerst worden goedgekeurd door de manager van de werknemer die het rapport ingediend heeft en vervolgens door de coördinator Crediteuren.
 

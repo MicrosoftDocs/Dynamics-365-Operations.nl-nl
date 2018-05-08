@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Grootboekjournaaltypen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations.
 

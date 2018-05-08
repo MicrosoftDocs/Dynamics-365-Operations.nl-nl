@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>Plannen hoe u het algemene adresboek en extra adresboeken configureert
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken, voordat u het globale adresboek en eventuele aanvullende adresboeken instelt en configureert In Microsoft Dynamics 365 for Finance and Operations. Voor enkele beslissingen moet u de beslissingen bevestigen die voor andere gebieden van het product zijn gemaakt, zoals de organisatiehiërarchie.
 

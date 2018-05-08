@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Een configuratie ontwerpen voor het genereren van rapporten in Microsoft Word-indeling voor elektronische aangifte (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker met een rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-indeling (elektronische rapportage) kan configureren, waarmee rapporten in de vorm van Microsoft Word-bestanden worden gegenereerd. Deze stappen kunnen in het GBSI-bedrijf worden uitgevoerd.
 

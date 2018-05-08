@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Expressies ontwerpen om methoden voor toepassingsklassen aan te roepen (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze handleiding bevat informatie over het opnieuw gebruiken van de bestaande toepassingslogica in ER-configuraties (elektronische rapportage) door vereiste methoden van toepassingsklassen aan te roepen in ER-expressies. Waarden van argumenten voor het aanroepen van klassen kunnen tijdens de uitvoering dynamisch worden gedefinieerd: bijvoorbeeld op basis van gegevens in het parseerdocument om de juistheid te waarborgen. In deze taakbegeleider maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembeheerder of Elektronische aangifteontwikkelaar. 
 

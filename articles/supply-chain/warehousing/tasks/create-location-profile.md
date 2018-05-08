@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-location-profile"></a>Een locatieprofiel maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Elke locatie in het magazijn moet een locatieprofiel hebben dat eraan is gekoppeld en dat de eigenschappen beschrijft van de locatie, bijvoorbeeld of de locatie gemengde artikelen toestaat. In deze procedure wordt een profiel gemaakt voor een locatie die geen controlenummerplaat vereist. Gemengde artikelen en gemengde voorraadstatussen worden ingeschakeld en cyclustelling is toegestaan. U kunt deze procedure gebruiken in het demobedrijf USMF.
 

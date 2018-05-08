@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>Een kanbanregel voor gebeurtenis stuklijstregel maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak is gericht op de instellingen die nodig zijn om een gebeurteniskanbanregel te maken om te zorgen voor levering voor BOM-productiestuklijstregels in een gemengde lean- en klassieke productieomgeving. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor de procesingenieur of de waardestroombeheerder, want zij bereiden de productie van een nieuw of gewijzigd product voor.
 

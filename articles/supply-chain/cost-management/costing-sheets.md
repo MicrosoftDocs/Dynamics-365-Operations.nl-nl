@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-sheets"></a>Kostprijsberekeningsbladen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Het instellen van het kostenblad heeft twee doelen. Ten eerste definieert u de indeling voor het weergeven van informatie over kosten van verkochte goederen voor een gefabriceerd artikel of een productieorder. De ingedeelde weergave wordt een kostenblad genoemd. Ten tweede definieert u de basis voor het berekenen van de indirecte kosten. Bij het instellen van het kostenblad wordt gebruikgemaakt van de kostengroepfunctie voor het weergeven van informatie en voor de formules voor het berekenen van indirecte kosten. De twee doelen van het instellen van het kostenblad worden in dit artikel beschreven. 
 

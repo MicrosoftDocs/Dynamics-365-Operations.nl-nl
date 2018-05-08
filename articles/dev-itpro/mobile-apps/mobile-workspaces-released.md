@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>Mobiele werkgebieden
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de mobiele werkgebieden die beschikbaar zijn voor de mobiele app van Dynamics 365 for Unified Operations.
 

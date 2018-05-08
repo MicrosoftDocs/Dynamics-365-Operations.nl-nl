@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO-datum met fysieke waarde en markering
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 LIFO-datum (Last In, First Out Date) is een voorraadmodel dat gebaseerd is op het LIFO-principe. Uitgiften uit de voorraad worden vereffend met de recentste ontvangsten in de voorraad op basis van de datum van de voorraadtransactie. Als er op de LIFO-datum geen artikel vóór de uitgifte wordt ontvangen, wordt de uitgifte vereffend met de ontvangsten die na de datum van de artikeluitgifte plaatsvinden. Meerdere uitgiften op dezelfde datum kunnen in de volgende 'laatste uitgifte - laatste ontvangst' worden vereffend. 
 

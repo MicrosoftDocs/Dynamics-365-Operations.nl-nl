@@ -28,7 +28,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="ship-an-order-from-a-different-store"></a>Een order vanuit een andere winkel verzenden
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Met de verzendfunctie Toeslag in Dynamics 365 for Retail kunnen klantorders in de ene winkel worden geplaatst en vanuit een andere winkel worden verzonden. Klantorders in de POS-client (Point Of Sale) ondersteunen meerdere afhandelingsopties. Enkele voorbeelden van afhandelingsopties:
 -   Ophalen uit dezelfde locatie op een andere datum.

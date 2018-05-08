@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations. 
 

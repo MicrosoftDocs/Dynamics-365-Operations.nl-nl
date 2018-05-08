@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>Meldingen over orders in het verkooppunt weergeven
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In de moderne detailhandelomgeving worden er verschillende taken toegewezen aan winkelmedewerkers, zoals het helpen van klanten, het invoeren van transacties, het uitvoeren van voorraadtellingen en het ontvangen van orders in de winkel. De POS-client (Pont of Sale) biedt één toepassing waar de medewerkers alle taken en nog veel meer kunnen uitvoeren. Omdat ze gedurende de dag verschillende taken moeten uitvoeren, moeten medewerkers mogelijk op de hoogte worden gesteld wanneer iets hun aandacht vereist. Het framework voor meldingen in de POS-client stelt detailhandelaren in staat meldingen op basis van rollen te configureren. In Microsoft Dynamics 365 for Retail met toepassingsupdate 5 kunnen deze meldingen alleen worden geconfigureerd voor POS-bewerkingen.
 

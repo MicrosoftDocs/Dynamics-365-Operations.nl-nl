@@ -27,7 +27,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-payments-workspace"></a>Werkgebied voor betalingen aan leveranciers
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In het werkgebied **Leveranciersbetalingen** wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersbetalingen. Dit werkgebied bevat een weergave **Mijn werk** en een pagina **Analyses**. In de weergave **Mijn werk** vindt u overzichtstegels, rasters met leverancierstransacties en gerelateerde leveranciersgegevens. De pagina **Analyses** gebruikt de mogelijkheden van Microsoft Power BI om visuals te tonen die te maken hebben met betalingen aan leveranciers.
 

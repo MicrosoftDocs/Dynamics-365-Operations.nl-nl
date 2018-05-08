@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>Financial Insights
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Financial Insights** gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen. Power BI is ingesloten in Microsoft Dynamics 365 Finance and Operations.
 De focus van **Financial Insights** is analytische rapportage. Persoonlijkheden binnen een organisatie kunnen weergeven, onderzoeken en reageren. 

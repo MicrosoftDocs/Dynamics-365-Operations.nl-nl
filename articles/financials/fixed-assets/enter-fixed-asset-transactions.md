@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-transaction-options"></a>Opties voor vaste-activatransacties
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel worden de beschikbare methoden vor het maken van vaste-activatransacties beschreven.
 

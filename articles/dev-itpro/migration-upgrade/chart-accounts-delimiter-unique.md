@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a>Het scheidingsteken moet uniek zijn in elk rekeningschema
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In Microsoft Dynamics AX 2012 kunt u hetzelfde scheidingsteken gebruiken voor het rekeningschema en dimensiewaarden. In Dynamics 365 for Finance and Operations is niet toegestaan dat hetzelfde scheidingsteken wordt gebruikt voor het rekeningschema en dimensiewaarden. Als er een dubbele scheidingsteken is, kunt u dit wijzigen na de upgrade. 
 

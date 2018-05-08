@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-project-purchase-order"></a>Projectinkooporder maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een projectinkooporder maakt. In deze taak wordt de gegevensset van USSI gebruikt.
 

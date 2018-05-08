@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Startpagina Vaste activa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vaste activa zijn waardevolle zaken, bijvoorbeeld gebouwen, voertuigen, grond en apparatuur, die het eigendom zijn van een persoon of organisatie. 
 

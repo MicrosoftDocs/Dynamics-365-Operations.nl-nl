@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Categorieprijsregels om handelsovereenkomsten te maken
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure toont aan hoe u handelsovereenkomsten voor verkoopprijzen maakt met een categorieprijsregel. Het demobedrijf dat wordt gebruikt om deze taak te maken is USRT. Deze taak is bedoeld voor de rol Merchandisingbeheerder detailhandel.
 

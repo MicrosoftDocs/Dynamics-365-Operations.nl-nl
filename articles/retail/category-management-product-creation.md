@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>Productcategorieën en producten detailhandel beheren
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 In dit onderwerp wordt een verbeterde manier beschreven om de detailhandelproductcategorieën en producten te beheren in Microsoft Dynamics 365 for Retail. Dankzij deze verbeteringen kunnen merchandisingmanagers een overzicht met producteigenschappen weergeven die worden gedeeld tussen de detailhandelproducthiërarchie en details van vrijgegeven producten.
 

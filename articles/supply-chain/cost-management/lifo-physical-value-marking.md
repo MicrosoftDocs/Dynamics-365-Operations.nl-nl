@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO met fysieke waarde en markering
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 LIFO (Last in, First out) is een voorraadmodel waarin de laatste (nieuwste) ontvangsten het eerst worden uitgegeven. Uitgiften uit de voorraad worden vereffend met de laatste ontvangsten in de voorraad op basis van de datum van de voorraadtransactie. 
 

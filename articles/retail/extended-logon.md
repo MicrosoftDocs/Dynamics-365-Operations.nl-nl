@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Uitgebreide aanmeldingsfunctionaliteit instellen voor Cloud POS en MPOS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dit onderwerp gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail moderne POS (MPOS).
 

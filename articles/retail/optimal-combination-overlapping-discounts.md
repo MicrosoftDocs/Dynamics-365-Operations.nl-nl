@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>De optimale combinatie van overlappende kortingen bepalen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Als kortingen elkaar overlappen, moet u bepalen welke combinatie van overlappende kortingen leidt tot het laagste totaalbedrag voor de transactie of de hoogste totale korting. Wanneer het kortingsbedrag varieert afhankelijk van de prijs van de producten die worden aangeschaft, zoals in de veelgebruikte retailkorting 'koop 1, krijg 1 met X procent korting' (BOGO), wordt dit proces een kwestie van combinatorische optimalisatie.
 

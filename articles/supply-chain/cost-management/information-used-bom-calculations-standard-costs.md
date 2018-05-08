@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Gegevens die worden gebruikt in stuklijstberekeningen met standaardkosten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Berekeningen van stuklijsten (BOM) gebruiken gegevens uit verschillende bronnen om de standaardkosten van een geproduceerd artikel te berekenen. De bronnen bevatten informatie over de artikelen, routering van facturen, formules voor de berekening van indirecte kosten en de versie van de kostprijsberekening.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>Leveranciers configureren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel worden de pagina's beschreven die u gebruikt voor het instellen van algemene en optionele functionaliteit voor Leveranciers in Microsoft Dynamics 365 for Finance and Operations. Daarnaast worden de stappen beschreven die u moet uitvoeren voordat u Leveranciers kunt instellen.
 

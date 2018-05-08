@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Een nieuwe status voor de productlevenscyclus maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een nieuwe status voor een productlevenscyclus maakt. Een levenscyclusstatus documenteert de levenscyclusstatus van een vrijgegeven product of productvariant. Statussen voor de productlevenscyclus worden gedefinieerd door de gebruiker, doorgaans een productmanager of een manager van producthoofdgegevens. Specifieke bedrijfsprocessen, zoals de hoofdplanning, kunnen worden beïnvloed door een specifieke levenscyclusstatus.
 

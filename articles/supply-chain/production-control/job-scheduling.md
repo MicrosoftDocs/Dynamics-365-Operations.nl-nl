@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>Taakplanning
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over taakplanning. Dit is een gedetailleerdere vorm van planning dan bewerkingsplanning. U kunt taakplanning gebruiken om afzonderlijke taken of winkelorders te plannen en om de productieomgeving te beheren.
 

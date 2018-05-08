@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="set-up-sales-commission-rules"></a>Regels voor verkoopprovisie instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont u hoe u het berekenen en bijhouden van verkoopprovisie instelt en inschakelt. De procedure toont hoe u zowel klant- als artikelprovisiegroepen kunt maken en hoe u geselecteerde klanten en producten aan de respectievelijke groepen koppelt. Deze groepen worden dan gebruikt in de instellingen voor provisieberekening om een combinatie van klant, artikel en vertegenwoordiger te maken die moet overeenkomen met de verkooporder opdat de verkoper in aanmerking komt voor een provisie. Het maken van klant- en artikelprovisiegroepen is optioneel, zoals de berekening van provisie ook voor een afzonderlijk(e) klant en/of artikel kan worden uitgevoerd. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.
 

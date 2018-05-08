@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>Een groep vaste activa wijzigen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Vaste activa moeten aan de juiste vaste-activagroep worden toegewezen. De vaste-activagroep wordt gebruikt wanneer u:
 

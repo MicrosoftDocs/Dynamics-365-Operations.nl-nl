@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>Mobiele ondersteuning voor streepjescodes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Omdat Android een open-sourceproject is, kan elke hardwarefabrikant van streepjescodescanners voor magazijnen een apparaat maken waarop het Android-besturingssysteem kan worden uitgevoerd. Een apparaat is alleen Android-compatibel als er apps op kunnen worden uitgevoerd die zijn geschreven voor de uitvoeringsomgeving van Android.
 Een hardwareleverancier kan echter overlays wijzigen en maken voor de Android-versie die op hun hardware wordt uitgevoerd. Microsoft is op geen enkele manier verantwoordelijk voor de compatibiliteit van een mobiele app voor het scannen van streepjescodes met de hardware voor het scannen van streepjescodes van de fabrikant en de Android-versie die hierop wordt uitgevoerd. 

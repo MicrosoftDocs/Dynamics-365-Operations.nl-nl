@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Kostencategorieën die in productieroutering worden gebruikt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel geeft informatie over kostencategorieën die van toepassing zijn op productieomgevingen die routering gebruiken.
 

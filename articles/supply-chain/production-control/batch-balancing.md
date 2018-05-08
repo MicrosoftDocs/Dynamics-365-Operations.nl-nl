@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="batch-balancing"></a>Batchverdeling
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe het proces voor batchverdeling wordt ondersteund. 
 

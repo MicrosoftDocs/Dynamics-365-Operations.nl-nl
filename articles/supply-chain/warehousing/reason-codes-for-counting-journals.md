@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="reason-codes-for-inventory-counting"></a>Redencodes voor voorraadtelling
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met redencodes kunt u de resultaten analyseren van een tellingsproces en eventuele verschillen die tijdens dat proces optreden. U kunt de reden voor het uitvoeren van de telling opgeven, zoals een gebroken pallet of een voorraadcorrectie die is gebaseerd op voorraadmonsters.
 

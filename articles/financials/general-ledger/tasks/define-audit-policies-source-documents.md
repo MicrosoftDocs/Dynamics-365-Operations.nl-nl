@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Auditbeleid voor brondocumenten definiëren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u controlebeleidsregels instelt en uitvoert. Het voorbeeld gebruikt onkostennota's met het type hotelkosten. Bij deze procedure wordt het demobedrijf USMF gebruikt. De auditorrol bevat de juiste machtigingen om deze taken uit te voeren.
 

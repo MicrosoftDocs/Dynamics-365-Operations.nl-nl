@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>Startpagina Inkoopbeheer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van de Help-onderwerpen en andere resources die beschikbaar zijn voor Inkoop en sourcing.
 

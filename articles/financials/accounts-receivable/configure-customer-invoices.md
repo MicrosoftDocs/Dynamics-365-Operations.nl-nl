@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Een **klantfactuur voor een verkooporder** is een rekening die door een organisatie aan een klant wordt verstrekt in verband met een verkoop. Een dergelijke klantfactuur maakt u op basis van een verkooporder die orderregels en artikelnummers bevat. Artikelnummers worden opgegeven en geboekt in het grootboek. Journaalposten in subadministratie zijn niet beschikbaar voor een klantfactuur voor een verkooporder. Zie [Facturen van verkooporder maken](tasks/create-sales-order-invoices.md) voor meer informatie.
 

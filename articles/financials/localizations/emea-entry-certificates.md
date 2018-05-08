@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="eu-entry-certificates"></a>EU-invoercertificaten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over EU-invoercertificaten (Europese Unie).
 

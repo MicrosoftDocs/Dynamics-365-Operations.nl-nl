@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="coda-bank-statement"></a>CODA-bankafschrift
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt. 
 

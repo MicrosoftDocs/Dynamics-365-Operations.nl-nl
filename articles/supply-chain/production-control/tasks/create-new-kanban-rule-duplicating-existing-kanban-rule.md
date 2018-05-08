@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Een nieuwe kanbanregel maken door een bestaande kanbanregel te dupliceren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure is gericht op het maken van een kopie van een bestaande kanbanregel. Dit is handig als u nieuwe kanbanregels wilt maken op basis van bestaande kanbanregels. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de procesingenieur of de waardestroombeheerder, want zij bereiden de productie voor een gewijzigde productiestroom of een nieuwe aanvullingsregel voor.
 

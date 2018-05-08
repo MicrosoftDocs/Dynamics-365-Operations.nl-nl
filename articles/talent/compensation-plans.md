@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="compensation-plans"></a>Compensatieplannen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Managers Compensatie en emolumenten kunnen Compensatiebeheer gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
 

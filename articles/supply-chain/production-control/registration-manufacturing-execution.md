@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Registratie voor Productieregistratie-uitvoering
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden belangrijke concepten en termen beschreven, die u moet kennen om de productieregistratie te configureren en te gebruiken. 
 

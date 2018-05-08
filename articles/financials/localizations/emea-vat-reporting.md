@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat algemene informatie over het instellen en genereren van het btw-overzicht (belasting toegevoegde waarde) voor een aantal Europese landen.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="elimination-rules"></a>Schrappingsregels
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over schrappingsregels en de verschillende opties voor het rapporteren van schrappingen.
 

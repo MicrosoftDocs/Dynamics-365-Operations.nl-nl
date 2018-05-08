@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Uw organisatiehiërarchie plannen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Voordat u de installatieorganisaties en organisatiehiërarchieën instelt in Microsoft Dynamics 365 for Finance and Operations, moet u plannen hoe uw bedrijf wordt gemodelleerd. Het organisatiemodel heeft een aanzienlijk effect op de implementatie van Finance and Operations en op bedrijfsprocessen. 
 

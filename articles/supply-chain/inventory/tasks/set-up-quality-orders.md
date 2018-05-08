@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-quality-orders"></a>Kwaliteitsorders instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarbij inkomende voorraad onmiddellijk na aankomstregistratie moet worden geïnspecteerd. De procedure wordt gewoonlijk uitgevoerd door een kwaliteitsmanager. Het proces bevat het maken van een kwaliteitsgroep, om de artikelen te definiëren die zullen worden bemonsterd, en een testgroep voor het groeperen van de tests die zullen worden uitgevoerd op artikelen in de kwaliteitsgroep. U kunt deze taakgeleiding uitvoeren in het demobedrijf USMF.
 

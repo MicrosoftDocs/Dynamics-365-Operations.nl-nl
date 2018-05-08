@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Bevestiging door stuksverzameling
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met stuksverzameling kunt u elk stuk in uw voorraad bevestigen via picking- of tellingswerk op een mobiel apparaat. Voor orderverzameling kunt u de hoeveelheid werk die moet worden verwerkt, bevestigen tot en met de hoeveelheid die is opgegeven op het werk dat moet worden gepickt. Voor tellingswerk kunt u de voorraad scannen die u telt en de totale hoeveelheid bijhouden.
 

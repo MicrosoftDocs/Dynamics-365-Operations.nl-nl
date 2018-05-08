@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Voorbereiding van het onderhoud van standaardkosten voor gefabriceerde artikelen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp beschrijft de stappen voor het voorbereiden van het beheer van kosten voor gefabriceerde artikelen. De stappen voor gefabriceerde artikelen verschillen enigszins van de stappen voor ingekochte artikelen.
 

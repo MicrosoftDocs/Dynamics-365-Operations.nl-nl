@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Sollicitatiepostvakrecords goedkeuren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u sollicitaties kunt controleren die zijn ontvangen via de pagina's Selfservice werknemer. Naast sollicitaties controleren kunt u de sollicitatie goedkeuren in vakrecords die u selecteert. Bij Postvak IN-sollicitatierecords gaat het om sollicitaties die ter overweging aan het bedrijf zijn voorgelegd. Nadat goedkeuring van een record wordt een sollicitantrecord gemaakt voor de persoon die de sollicitatie heeft ingediend. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

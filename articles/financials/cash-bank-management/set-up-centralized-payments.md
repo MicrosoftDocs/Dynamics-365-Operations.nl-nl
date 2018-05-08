@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>Gecentraliseerde betalingen instellen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Voer de volgende stappen uit ter voorbereiding van het verwerken van betalingen in een rechtspersoon namens andere rechtspersonen in uw organisatie. Voordat u begint, moeten de volgende instellingen zijn geconfigureerd:
 

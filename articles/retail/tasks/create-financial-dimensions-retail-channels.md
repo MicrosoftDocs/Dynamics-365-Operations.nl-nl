@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> Financiële dimensies maken voor detailhandelskanalen en dimensiewaarden configureren voor winkels
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van een financiële dimensie voor een detailhandelkanaal met dimensiewaarden en stappen om waarden van financiële dimensies voor detailhandelwinkels te configureren. Het onderwerp omvat geen andere gerelateerde stappen, zoals het maken van dimensiesets en rekeningstructuren. Deze procedure gebruikt het demobedrijf USRT.
 

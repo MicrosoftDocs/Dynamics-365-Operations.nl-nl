@@ -29,7 +29,7 @@ ms.lasthandoff: 10/24/2017
 
 # <a name="prevent-discounts-for-retail-products"></a>Kortingen voor detailhandelproducten voorkomen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Er zijn verschillende redenen waarom detailhandelaren willen voorkomen dat voor bepaalde producten korting wordt verleend, zoals bij een promotie of tijdens de verkoop op het POS.
 

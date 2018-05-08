@@ -28,7 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="accounting-source-explorer"></a>Boekhoudingsbronverkenner
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over Boekhoudingsbronverkenner, dat u kunt gebruiken voor een gedetailleerde analyse van de brongegevens achter de grootboekboekingen.
 

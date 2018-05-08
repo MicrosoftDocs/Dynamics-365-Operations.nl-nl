@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Het veiligheidsvoorraadjournaal gebruiken om de minimumbehoefteplanning bij te werken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u voorstellen voor minimumbehoefteplanning kunt berekenen op basis van historische transacties en vervolgens de artikelbehoefteplanning kunt bijwerken met de voorstellen. Dit wordt gedaan via het veiligheidsvoorraadjournaal. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor de productieplanner om te helpen de minimumbehoefteplanning te onderhouden.
 

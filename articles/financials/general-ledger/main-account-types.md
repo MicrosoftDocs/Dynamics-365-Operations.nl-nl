@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="main-account-types"></a>Hoofdrekeningtypen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 De typen hoofdrekeningen bepalen hoe een hoofdrekening wordt gebruikt in het rekeningschema.
 

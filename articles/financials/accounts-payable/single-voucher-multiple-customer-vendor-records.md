@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Enkel boekstuk met meerdere klant- of leveranciersrecords
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp geeft een overzicht van wat er gebeurt wanneer u één enkel boekstuk boekt met meerdere klant- of leverancierrecords. Deze functionaliteit gaat verdwijnen in toekomstige versies van Microsoft Dynamics 365 for Finance and Operations. Het wordt daarom afgeraden om deze boekingsmethode te gebruiken, vanwege het boekhoudingseffect op de verwerking van vereffeningen. 
 

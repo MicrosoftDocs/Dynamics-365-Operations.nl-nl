@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-consignment"></a>Consignatie instellen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u gebruik maakt van de processen voor inkomende consignatievoorraad.
 

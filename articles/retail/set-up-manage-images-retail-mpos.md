@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Afbeeldingen instellen en beheren voor Retail Modern POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit artikel worden de stappen uitgelegd voor het instellen en beheren van afbeeldingen voor verschillende entiteiten die in Retail Modern POS (MPOS) worden weergegeven.
 

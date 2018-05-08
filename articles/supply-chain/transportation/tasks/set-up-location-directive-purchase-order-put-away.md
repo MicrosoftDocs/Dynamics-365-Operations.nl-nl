@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Een locatie-instructie instellen voor wegzetten van inkooporder
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een eenvoudige locatierichtlijn instelt. Het voorbeeld dat wordt gegeven, maakt een locatierichtlijn die moet worden gebruikt om te bepalen waar artikelen worden weggezet die zijn ontvangen voor een inkooporder. U kunt deze taakbegeleiding afspelen met de gegevens van het demobedrijf USMF. Precondities: u moet een beschikkingscode maken. In deze procedure gebruiken we een beschikkingscode met de naam Opnieuw labelen. Als u een locatierichtlijn in uw eigen gegevens maakt, moet u geavanceerd magazijnbeheer voor uw magazijn en artikelen hebben ingesteld.  Deze procedure is bedoeld voor de magazijnbeheerder.
 

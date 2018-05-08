@@ -29,7 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Detailhandelskanalen definiëren en onderhouden
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van het proces voor het opzetten van fysieke winkels, waarnaar in Microsoft Dynamics 365 for Retail als detailhandelwinkels wordt verwezen. Het bevat informatie over de taken die u vóór en na het opzetten van een detailhandelwinkel moet uitvoeren.
 

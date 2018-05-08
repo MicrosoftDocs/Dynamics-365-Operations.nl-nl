@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reconcile-freight-in-transportation-management"></a>Vracht afstemmen in transportbeheer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt het vrachtafstemmingsproces beschreven.
 

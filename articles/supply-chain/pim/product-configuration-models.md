@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="product-configuration-models-overview"></a>Overzicht productconfiguratiemodellen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel worden de termen en concepten gedefinieerd die relevant voor productconfiguratiemodellen zijn. Met productconfiguratiemodellen kunt u een generieke productstructuur maken, waarmee u veel productvarianten voor één product kunt configureren.
 

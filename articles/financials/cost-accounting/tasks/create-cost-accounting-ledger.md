@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Grootboek van kostprijsboekhouding maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Een grootboek van kostprijsboekhouding vertegenwoordigt de algemene rapportage-eenheid. Deze wordt gedefinieerd door een kostenelementdimensie, statistische dimensie, fiscale kalender en valuta. Het concept van rechtspersonen is agnostisch. Een rechtspersoon en de gegevens ervan kunnen worden gekoppeld aan een groot aantal grootboeken van kostprijsboekhouding. Deze registratie gebruikt het USP2-demogegevensbedrijf.
 

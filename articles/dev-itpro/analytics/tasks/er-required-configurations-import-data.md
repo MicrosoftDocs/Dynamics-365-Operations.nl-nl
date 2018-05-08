@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Vereiste configuraties maken om gegevens te importeren uit een extern bestand voor elektronische aangifte (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ER-ontwikkelaar nieuwe ER-configuraties kan maken waarmee gegevens vanuit een extern bestand in de toepassing Dynamics 365 for Finance and Operations kunnen worden geïmporteerd. In dit voorbeeld maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding 'ER Een configuratieprovider maken en deze als actief markeren'. Deze stappen kunnen worden voltooid met de USMF-gegevensset. U moet ook de volgende bestanden downloaden vanaf de koppelingen in het overzichtsonderwerp Electronic Reporting (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 

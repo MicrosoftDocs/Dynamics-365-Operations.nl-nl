@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="pos-operations-online-and-offline"></a>POS-bewerkingen, online en offline
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 De meeste acties die de gebruiker uitvoert in POS worden beschouwd als bewerkingen. Bewerkingen worden geconfigureerd en beheerd in de Microsoft Dynamics 365 for Retail-backoffice. Veel bewerkingen kunnen worden toegevoegd aan knoppen in het POS-knoppenraster. Gebruikers kunnen de knoppen vervolgens selecteren om de bewerkingen aan te roepen en hun functie uit te voeren. Andere bewerkingen maken deel uit van de POS-hoofdtoepassing en worden aangeroepen via schermknoppen of als onderdeel van andere workflows of processen.
 

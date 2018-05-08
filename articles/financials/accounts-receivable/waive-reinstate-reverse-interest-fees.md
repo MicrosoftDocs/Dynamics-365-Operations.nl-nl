@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Rentekosten kwijtschelden, opnieuw invoeren of omkeren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe toeslagen voor rente en bijzondere kosten kunnen worden kwijtgescholden, opnieuw ingevoerd en omgekeerd.
 

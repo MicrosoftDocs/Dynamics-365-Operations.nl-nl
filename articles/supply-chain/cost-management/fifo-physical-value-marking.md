@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO met fysieke waarde en markering
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 FIFO (First in, First out) is een voorraadmodel waarin de eerste ontvangsten het eerst worden uitgegeven. Financieel bijgewerkte uitgiften uit de voorraad worden vereffend met de eerste financieel bijgewerkte ontvangsten in de voorraad op basis van de financiële datum van de voorraadtransactie. 
 

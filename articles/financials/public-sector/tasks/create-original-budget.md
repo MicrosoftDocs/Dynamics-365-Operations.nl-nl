@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a>Een oorspronkelijk budget maken en de voorlopige budgetposten in de openbare sector terugboeken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Wanneer u een oorspronkelijke budgetregel maakt en het budgetmodel en de dimensiewaarden gebruikt die voorlopige budgetbedragen bevatten, kunnen voorlopige budgetbedragen worden omgekeerd. Deze procedure werd gemaakt met de demogegevens van het bedrijf PSUS in de partitie van openbare sector.
 

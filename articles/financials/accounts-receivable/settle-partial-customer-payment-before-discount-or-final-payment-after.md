@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bespreekt het effect van het vereffenen van betalingen aan facturen voor klanten. Het scenario richt zich op de gevolgen in de subadministratie, niet in het grootboek.
 

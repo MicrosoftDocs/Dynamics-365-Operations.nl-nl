@@ -28,9 +28,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-journals"></a>Voorraadjournalen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 In dit onderwerp wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
 

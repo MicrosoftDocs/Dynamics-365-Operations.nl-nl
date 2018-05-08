@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-an-operations-resource"></a>Bron voor bedrijfsactiviteiten maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Een bron voor bedrijfsactiviteiten voert de activiteiten van een project of een productieproces uit. Deze procedure toont u hoe u een bron voor bedrijfsactiviteiten definieert. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.
 

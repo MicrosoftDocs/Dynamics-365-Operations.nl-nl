@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Overzicht van inkoopbeheer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat een overzicht van de functionaliteit die in de module Inkoop en sourcing beschikbaar is.
 

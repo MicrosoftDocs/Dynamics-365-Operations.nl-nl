@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>Onkostenbeheer configureren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert In Microsoft Dynamics 365 for Finance and Operations. In Onkostenbeheer kunt u onder andere informatie over betalingsmethoden, reisaanvragen, onkostennota's en beleid opslaan.
 

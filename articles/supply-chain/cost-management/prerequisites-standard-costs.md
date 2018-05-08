@@ -29,7 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>Vereisten voor standaardkosten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de basisstappen voor het gebruik van standaardkosten besproken. Volgende stappen zijn afhankelijk van de bedrijfsactiviteiten. De stappen verschillen bijvoorbeeld voor een niet-productieomgeving, een productieomgeving waarin routeringen niet worden gebruikt en een productieomgeving met routeringen. 
 

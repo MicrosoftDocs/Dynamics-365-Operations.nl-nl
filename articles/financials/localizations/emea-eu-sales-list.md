@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="eu-sales-list-reporting"></a>Rapport ICL-lijst
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over rapportage van de EU-verkooplijst (Europese Unie).
 

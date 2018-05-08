@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Stuklijst- en formuleregels vrijgeven aan het magazijn
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt het proces voor het vrijgeven van grondstoffen voor stuklijst- en formuleregels aan het magazijn beschreven. Wanneer u een stuklijst- of formuleregel aan het magazijn vrijgeeft, bepaalt het systeem eerst of er al materiaal beschikbaar is op de productie-invoerlocatie op de werkvloer waar het materiaal voor het productieproces wordt verbruikt.
 

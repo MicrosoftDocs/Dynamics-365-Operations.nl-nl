@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="store-configurations-for-retail-statements"></a> Winkelconfiguraties voor detailhandeloverzichten
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt configuraties voor de detailhandelwinkel die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt. Financiële dimensies voor detailhandelwinkels worden in een andere procedure behandeld. Deze procedure gebruikt het demobedrijf USRT.
 

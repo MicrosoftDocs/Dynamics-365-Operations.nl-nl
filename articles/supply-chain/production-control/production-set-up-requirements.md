@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-setup-requirements"></a>Behoeften voor productie-instellingen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel informatie over installatievereisten voordat u met Productiebeheer kunt werken. 
 

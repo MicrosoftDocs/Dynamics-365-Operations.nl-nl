@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>Overzicht voor budgetbeheer 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat een inleiding tot budgetbeheer en biedt informatie om u te helpen bij het configureren van budgetbeheer in Microsoft Dynamics 365 for Finance and Operations zodat u financiële middelen kunt beheren.
 

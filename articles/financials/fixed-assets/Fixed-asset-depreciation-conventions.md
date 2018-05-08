@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Afschrijvingsconventies voor vaste activa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Afschrijvingsconventies worden gebruikt om te bepalen wanneer en hoe de afschrijving wordt berekend voor zowel het jaar waarin het vaste activum is verworven en het jaar waarop het vaste activum is afgestoten.
 

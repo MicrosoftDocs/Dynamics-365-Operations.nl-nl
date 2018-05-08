@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fiscale kalenders, boekjaren en boekperioden
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel worden fiscale kalenders, boekjaren en perioden beschreven en wordt aangegeven hoe ze voor rechtspersonen, vaste activa en budgettering moeten worden gebruikt.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-containerization"></a>Containervorming instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Met deze procedure wordt beschreven hoe u de containervorming van ladingen in Magazijnbeheer kunt automatiseren. Met geautomatiseerde containervorming worden containers en orderverzamelingen voor zendingen gemaakt wanneer een wave wordt verwerkt en werkregels kunnen worden opgesplitst in hoeveelheden die in de containers passen. Dit helpt werknemers de artikelen direct in de gekozen container te verzamelen. Vergeleken met het handmatige verpakkingsproces worden taken zoals het maken van containers, het toewijzen van artikelen en het sluiten van containers geautomatiseerd door het systeem. In deze procedure wordt het demobedrijf USMF gebruikt en deze procedure wordt door een magazijnmanager uitgevoerd.
 

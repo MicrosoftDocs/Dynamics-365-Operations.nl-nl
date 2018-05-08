@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="tax-directives-for-europe"></a>Belastinginstructies voor Europa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 EU-richtlijn bevat voorschriften die moeten worden gevolgd door alle lidstaten met betrekking tot factuurregels en informatie die moet worden opgenomen bij het maken van facturen. EU-richtlijn bevat de informatie die wordt vereist door leveranciers voor hun klanten in de EU. Een factuur kan bijvoorbeeld een verwijzing bevatten die de juridische redenen voor een kwalificatie van nul btw of een vrijstelling beschrijft. Als met een factuur een eerder uitgegeven factuur, zoals een creditnota, wordt aangepast, moet een eenduidige verwijzing naar de oorspronkelijke factuur worden gemaakt.
 

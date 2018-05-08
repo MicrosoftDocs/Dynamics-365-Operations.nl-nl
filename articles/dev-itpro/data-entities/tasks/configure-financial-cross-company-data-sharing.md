@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Delen van financiële gegevens tussen bedrijven configureren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u conflicten configureert, inschakelt, valideert en oplost wanneer gegevens tussen bedrijven worden gedeeld. In deze procedure worden het USMF-bedrijf en de sjabloon voor het delen van financiële gegevens gebruikt.
 

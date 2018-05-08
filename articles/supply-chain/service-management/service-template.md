@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>Servicesjablonen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 U kunt een serviceovereenkomst als sjabloon definiëren en de regels van de sjabloon later naar een andere serviceovereenkomst of serviceorder kopiëren.
 

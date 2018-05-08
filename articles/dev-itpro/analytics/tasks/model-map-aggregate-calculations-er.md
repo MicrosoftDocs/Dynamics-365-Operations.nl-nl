@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Een modeltoewijzingsconfiguratie voor samengevoegde berekeningen op databaseniveau gebruiken (ER) 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure bevat informatie voor het ontwerpen van een nieuwe ER-modeltoewijzingsconfiguratie (elektronische aangifte) en past de ingebouwde ER-functies toe voor efficiënte statistische berekeningen. In deze procedure maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc. 
 

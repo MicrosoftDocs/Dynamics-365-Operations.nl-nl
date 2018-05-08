@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Het grootboek aan het einde van de periode afsluiten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de taken beschreven die meestal worden uitgevoerd bij het uitvoeren van een periodeafsluiting voor het grootboek. 
 

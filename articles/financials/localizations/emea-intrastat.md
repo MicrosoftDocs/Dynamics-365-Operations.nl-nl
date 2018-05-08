@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intrastat"></a>Intrastat
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
 

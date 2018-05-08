@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>Functionaliteit van stuklijstontwikkelaar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u de pagina Stuklijstontwikkelaar kunt gebruiken om stuklijststructuren te ontwerpen en te gebruiken. U kunt op Instellingen klikken om verschillende configuraties te selecteren en te selecteren welke informatie wordt weergegeven op de regels van de structuur.
 

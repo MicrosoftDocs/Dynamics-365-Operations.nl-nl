@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 125 procent
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 125 procent.
 

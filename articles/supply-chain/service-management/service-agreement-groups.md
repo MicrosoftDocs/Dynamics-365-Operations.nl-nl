@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Serviceovereenkomstgroepen 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Serviceovereenkomstgroepen zijn handig voor het sorteren en filteren van serviceovereenkomsten. Gebruik serviceovereenkomstgroepen om serviceovereenkomsten bijvoorbeeld te groeperen op bedrijfsformaat, geografische locatie of branchetype. U kunt overeenkomstgroepen ook gebruiken om serviceovereenkomsten te groeperen op het serviceniveau dat wordt geboden aan de klant.
 

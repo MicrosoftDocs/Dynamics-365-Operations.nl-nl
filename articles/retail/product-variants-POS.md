@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Zoeken in voorraad in het verkooppunt 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Met Zoeken in voorraad in het verkooppunt kunnen detailhandelaren operationele successen behalen in real-time en inzicht krijgen door verbinding te maken tussen winkels, het POS en de backoffice. Deze functionaliteit biedt een nauwkeurige realtime weergave van de productvoorraad in winkels en distributiecentra. Het helpt detailhandelaren ook om de efficiëntie te vergroten en kosten te besparen door de voorraadplanning in realtime te verbeteren.
 

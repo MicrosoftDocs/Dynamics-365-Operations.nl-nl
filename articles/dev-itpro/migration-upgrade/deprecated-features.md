@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>Verwijderde of afgeschafte functies
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden functies beschreven die zijn verwijderd uit of afgeschaft voor Microsoft Dynamics 365 for Finance and Operations.
 

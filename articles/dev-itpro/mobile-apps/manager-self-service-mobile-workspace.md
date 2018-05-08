@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Mobiel werkgebied Mijn team
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Mijn team**. In deze werkruimte kunnen managers hun directe ondergeschikten en uitgebreide personeel weergeven. Ze kunnen ook lof versturen voor personen in hun rapportageketen.
 

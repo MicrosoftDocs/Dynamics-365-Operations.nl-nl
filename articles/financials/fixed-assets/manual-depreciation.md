@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manual-depreciation"></a>Handmatige afschrijving
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt een overzicht van de methode voor handmatige afschrijving.
 

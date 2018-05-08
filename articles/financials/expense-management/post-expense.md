@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Een onkostennota boeken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nadat een onkostennota is goedgekeurd en is overgebracht naar het algemeen journaal, kan de nota naar het grootboek worden geboekt. Wanneer u een onkostennota boekt, worden alle onkosten aangegeven die in aanmerking komen voor btw-restitutie. De taak van het verifiëren en afschrijven van btw-betalingen wordt toegewezen aan de werknemer die verantwoordelijk is voor de controle van de onkostennota.
 

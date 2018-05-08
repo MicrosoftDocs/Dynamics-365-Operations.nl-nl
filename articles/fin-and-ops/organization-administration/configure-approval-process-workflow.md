@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Een goedkeuringsproces configureren in een workflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met behulp van de volgende procedure kunt u de eigenschappen van het goedkeuringsproces configureren.
 

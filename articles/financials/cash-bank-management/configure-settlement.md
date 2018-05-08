@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="configure-settlement"></a>Vereffening configureren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit artikel worden de parameters beschreven die voor Leveranciers en Klanten worden gebruikt voor vereffening. 
 

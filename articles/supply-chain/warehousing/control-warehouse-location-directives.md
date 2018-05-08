@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Magazijnwerk beheren met werksjablonen en locatierichtlijnen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe werksjablonen en locatierichtlijnen kunnen worden gebruikt om te bepalen hoe en waar werk wordt uitgevoerd in het magazijn.
 
