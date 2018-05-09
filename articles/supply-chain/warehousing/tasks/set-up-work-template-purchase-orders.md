@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8b5609c897466dbd0e504740cdc600fb2f800d37
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1bd59ffca94c57ad33f78f9e780d00b368750bc8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a><span data-ttu-id="93417-103">Een werksjabloon instellen voor inkooporders</span><span class="sxs-lookup"><span data-stu-id="93417-103">Set up a work template for purchase orders</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="93417-104">Deze procedure is gericht op de instelling van een eenvoudige werksjabloon die u kunt gebruiken wanneer u ontvangen artikelen wegzet.</span><span class="sxs-lookup"><span data-stu-id="93417-104">This procedure focuses on the set up of a simple work template to be used when putting away received items.</span></span> <span data-ttu-id="93417-105">Werksjablonen bepalen de reeks instructies die op een mobiel apparaat aan de magazijnmedewerker worden voorgesteld wanneer deze artikelen van het ontvangende gebied verplaatst.</span><span class="sxs-lookup"><span data-stu-id="93417-105">Work templates determine the set of instructions presented to the warehouse worker on a mobile device when moving items from the receiving area.</span></span> <span data-ttu-id="93417-106">U kunt deze procedure gebruiken met de opgegeven gegevens van het demogegevensbedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="93417-106">You can use this procedure with the data mentioned in demo data company USMF.</span></span> <span data-ttu-id="93417-107">Maak voordat u deze handleiding start een werkgroep-id.</span><span class="sxs-lookup"><span data-stu-id="93417-107">Before you start this guide, create a work pool ID.</span></span> <span data-ttu-id="93417-108">In dit voorbeeld wordt een werkgroep-id met de naam Binnenkomend gebruikt.</span><span class="sxs-lookup"><span data-stu-id="93417-108">In this example, a work pool ID called in Inbound is used.</span></span> <span data-ttu-id="93417-109">Deze procedure is bedoeld voor de magazijnbeheerder.</span><span class="sxs-lookup"><span data-stu-id="93417-109">This procedure is intended for the warehouse manager.</span></span>
 

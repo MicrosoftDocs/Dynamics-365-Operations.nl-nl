@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 953520ec7525d85baee6baf0b70930e52120d6c0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b79362942663583b5f438e0a54fd4960ca7ef919
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a><span data-ttu-id="bcb73-103">Werkcellen voor lean manufacturing definiëren</span><span class="sxs-lookup"><span data-stu-id="bcb73-103">Define lean manufacturing work cells</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bcb73-104">Een werkcel is een specifiek formulier van resourcegroepen die kan worden gebruikt in de activiteiten van het lean manufacturingproces.</span><span class="sxs-lookup"><span data-stu-id="bcb73-104">A work cell is a specific form of resource groups that can be used in lean manufacturing process activities.</span></span> <span data-ttu-id="bcb73-105">Werkcellen hebben invoer- en uitvoerlocaties en een capaciteitsdefinitie op basis van een model voor productiestroom.</span><span class="sxs-lookup"><span data-stu-id="bcb73-105">Work cells have input and output locations and a capacity definition based on a production flow model.</span></span> <span data-ttu-id="bcb73-106">Voor meer informatie over de basisconcepten van werkcellen voor lean manufacturing en capaciteitsberekeningen raadpleegt u de whitepapers over lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="bcb73-106">To learn more about the basic concepts of lean manufacturing work cells and capacity calculations, see the white papers on Lean manufacturing.</span></span> <span data-ttu-id="bcb73-107">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="bcb73-107">The demo data company used to create this procedure is USMF</span></span>
 

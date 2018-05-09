@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 23168086600a273d665ce11e83b0f32edb0e1629
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 821b1403da1b4269c01e07c20e82f0de67104d84
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-eu-sales-list-reporting"></a><span data-ttu-id="49d7d-103">EU-rapport van ICL-lijst instellen</span><span class="sxs-lookup"><span data-stu-id="49d7d-103">Set up EU sales list reporting</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="49d7d-104">Deze taak begeleidt u door een overzicht van de vereisten voor rapportage van de EU-verkooplijst.</span><span class="sxs-lookup"><span data-stu-id="49d7d-104">This task walks you through an overview of the prerequisites required for EU sales list reporting.</span></span> <span data-ttu-id="49d7d-105">Raadpleeg voor meer informatie over EU-verkooplijstrapportage, met inbegrip van vereisten, de Help bij Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="49d7d-105">For more information about EU Sales list reporting, including required prerequisites, refer to the Dynamics 365 for Finance and Operations Help.</span></span>
 

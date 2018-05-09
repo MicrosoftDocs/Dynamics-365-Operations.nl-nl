@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66c0f41e1c98cf84b6a0afff5ee55e7c15fecd2d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2bda068c71b768eb0caadfdbf8b4fe5620bd8eea
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-procurement-catalog"></a><span data-ttu-id="867cb-103">Een inkoopcatalogus maken</span><span class="sxs-lookup"><span data-stu-id="867cb-103">Create a procurement catalog</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="867cb-104">Deze handleiding laat zien hoe u een aanschaffingscatalogus maakt.</span><span class="sxs-lookup"><span data-stu-id="867cb-104">This guide shows you how to create a procurement catalog.</span></span> <span data-ttu-id="867cb-105">Deze taak wordt gewoonlijk uitgevoerd door een inkoopmedewerker.</span><span class="sxs-lookup"><span data-stu-id="867cb-105">This task would typically be carried out by a procurement professional.</span></span> <span data-ttu-id="867cb-106">U komt ook te weten hoe werknemers de catalogus kunnen gebruiken wanneer zij een bestelopdracht maken.</span><span class="sxs-lookup"><span data-stu-id="867cb-106">You will also learn how employees can use the catalog when they create a requisition.</span></span> <span data-ttu-id="867cb-107">Voordat u een catalogus kunt maken, moet er een hiërarchie van aanschaffingscategorieën in uw systeem worden ingesteld.</span><span class="sxs-lookup"><span data-stu-id="867cb-107">Before you can create a catalog, there must be a procurement category hierarchy in your system.</span></span> <span data-ttu-id="867cb-108">De hiërarchie wordt overgenomen door de nieuwe catalogus, samen met alle producten in de hiërarchie.</span><span class="sxs-lookup"><span data-stu-id="867cb-108">The hierarchy is inherited by the new catalog, along with all the products that are in the hierarchy.</span></span> <span data-ttu-id="867cb-109">U kunt deze handleiding in het demobedrijf USMF gebruiken waar de hiërarchie van aanschaffingscategorieën beschikbaar is, evenals de voorbeelden die zijn gebruikt in de procedurestappen.</span><span class="sxs-lookup"><span data-stu-id="867cb-109">You can use this guide in demo data company USMF where the procurement category hierarchy is available, as well as the examples used in the procedure steps.</span></span>
 

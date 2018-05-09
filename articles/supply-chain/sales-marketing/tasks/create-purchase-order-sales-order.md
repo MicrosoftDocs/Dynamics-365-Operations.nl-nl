@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a840324862a7d3e279fce49288771d202527b77
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3774943e7147df88be0133c6fc983df54ca70f35
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="5bb84-103">Een inkooporder maken op basis van een verkooporder</span><span class="sxs-lookup"><span data-stu-id="5bb84-103">Create a purchase order from a sales order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5bb84-104">Deze procedure toont u hoe u een inkooporder maakt op basis van een verkooporder.</span><span class="sxs-lookup"><span data-stu-id="5bb84-104">This procedure shows you how to create a purchase order that is based on a sales order.</span></span> <span data-ttu-id="5bb84-105">De hoeveelheden van het product op de inkooporder worden vervolgens toegewezen om te voldoen aan de vraag van de oorspronkelijke verkooporder.</span><span class="sxs-lookup"><span data-stu-id="5bb84-105">The product's quantities on the purchase order are then designated to fulfill the demand of the originating sales order.</span></span> <span data-ttu-id="5bb84-106">Het op deze manier vervullen van de verkoopvraag is een alternatief voor een meer uitvoerige en geoptimaliseerde methode van Distributiebehoeftenplanning.</span><span class="sxs-lookup"><span data-stu-id="5bb84-106">Fulfilling sales demand this way is an alternative to a more comprehensive and optimized method of Distribution Requirements Planning.</span></span> <span data-ttu-id="5bb84-107">U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="5bb84-107">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

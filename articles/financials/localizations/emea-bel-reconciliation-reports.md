@@ -18,16 +18,16 @@ ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 292849d53b5b2ef40e00e2230a09c156328dfa66
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b22edc7c3ace39f7dd818e3ff423edfd57618676
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reconciliation-reports-for-belgium"></a><span data-ttu-id="eec5a-103">Afstemmingsrapporten voor België</span><span class="sxs-lookup"><span data-stu-id="eec5a-103">Reconciliation reports for Belgium</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="eec5a-104">In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 for Finance and Operations biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.</span><span class="sxs-lookup"><span data-stu-id="eec5a-104">This topic describes the standard reports that Microsoft Dynamics 365 for Finance and Operations provides to help you with the INTERVAT tax declaration and reconciliation analysis.</span></span>
 

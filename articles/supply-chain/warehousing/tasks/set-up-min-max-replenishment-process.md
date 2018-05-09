@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30bff74da8399ddc15f2bc84e83887c8b5e60570
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 09a5bbe7601248fd2635fda4a0d87973a6e1ceba
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="baf24-103">Een min./max. aanvullingsproces instellen</span><span class="sxs-lookup"><span data-stu-id="baf24-103">Set up a min-max replenishment process</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="baf24-104">Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de strategie van min./max. aanvulling wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="baf24-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="baf24-105">Wanneer de voorraad onder het minimumniveau valt, wordt werk gemaakt om de locatie aan te vullen.</span><span class="sxs-lookup"><span data-stu-id="baf24-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="baf24-106">De procedure laat ook zien hoe u vaste orderverzamellocaties kunt gebruiken om herbevoorrading mogelijk te maken zelfs als de voorraad onder het minimumniveau valt, en hoe het aanvullingsproces regelmatig kan worden uitgevoerd met een batchtaak.</span><span class="sxs-lookup"><span data-stu-id="baf24-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="baf24-107">Deze taken worden meestal uitgevoerd door een magazijnmanager.</span><span class="sxs-lookup"><span data-stu-id="baf24-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="baf24-108">U kunt deze procedure in het demobedrijf USMF uitvoeren met behulp van de voorbeeldwaarden in de notities of kunt de procedure op uw eigen gegevens uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="baf24-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="baf24-109">Als u uw eigen gegevens gebruikt, moet u ervoor zorgen dat u een magazijn hebt dat voor de magazijnbeheerprocessen is ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="baf24-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 

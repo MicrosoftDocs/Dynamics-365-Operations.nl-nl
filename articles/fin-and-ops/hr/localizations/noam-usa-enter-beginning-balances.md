@@ -18,16 +18,16 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 49d2de890f99a25b72a41cb879b16220a77c1f24
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a><span data-ttu-id="d0980-104">Beginsaldi voor salarisadministratie invoeren</span><span class="sxs-lookup"><span data-stu-id="d0980-104">Enter payroll beginning balances</span></span>
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 <span data-ttu-id="d0980-105">In dit onderwerp worden de stappen beschreven voor het invoeren van de beginsaldi voor inkomstencodes, inhoudingen, vergoedingen en belastingen.</span><span class="sxs-lookup"><span data-stu-id="d0980-105">The topic describes the steps for entering beginning balances for earning codes, deductions, benefits, and taxes.</span></span> <span data-ttu-id="d0980-106">Deze informatie is nuttig voor partners die gegevens voor een nieuwe salarisadministratie-implementatie willen migreren of overbrengen vanuit een ander systeem.</span><span class="sxs-lookup"><span data-stu-id="d0980-106">This information is valuable for partners who transfer data for a new Payroll implementation from another system.</span></span> <span data-ttu-id="d0980-107">Als voorbereiding voor het invoeren van beginsaldi controleren we de volgende informatie:</span><span class="sxs-lookup"><span data-stu-id="d0980-107">To prepare to enter beginning payroll balances, we verify the following information:</span></span>
 

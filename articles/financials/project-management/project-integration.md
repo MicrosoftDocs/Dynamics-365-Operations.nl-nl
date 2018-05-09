@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d412c60f22347a38e38ca5f2c5515bd132814f25
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a54e1281dc54e1656298ea86c0724ad18ceff9a2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="microsoft-project-client-integration"></a><span data-ttu-id="73501-104">Microsoft Project-clientintegratie</span><span class="sxs-lookup"><span data-stu-id="73501-104">Microsoft Project client integration</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="73501-105">Een projectplanning plannen en onderhouden kan complex zijn, dus hebben projectmanagers hulpmiddelen nodig waarmee ze deze taak kunnen beheren.</span><span class="sxs-lookup"><span data-stu-id="73501-105">Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task.</span></span> <span data-ttu-id="73501-106">Integratie met Microsoft Project-client biedt ondersteuning voor het openen en beheren van een projectstructuur voor werkspecificatie.</span><span class="sxs-lookup"><span data-stu-id="73501-106">Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure.</span></span> <span data-ttu-id="73501-107">De projectmanager kan wijzigingen terug publiceren naar de projectstructuur voor werkspecificatie van Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="73501-107">The project manager can publish any changes back to the Finance and Operations project work breakdown structure.</span></span>
 

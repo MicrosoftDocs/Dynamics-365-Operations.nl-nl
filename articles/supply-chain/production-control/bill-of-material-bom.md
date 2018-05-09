@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 203eddac527bc91b448ca4227ae2b67086069c58
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4fd2c6355611812432ee47241f6d37bc2fb508c6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bills-of-materials-and-formulas"></a><span data-ttu-id="4b51f-103">Stuklijsten en formules</span><span class="sxs-lookup"><span data-stu-id="4b51f-103">Bills of materials and formulas</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4b51f-104">Dit onderwerp bevat informatie over stuklijsten en formules, die een centraal deel uitmaken van de definitie van producten en productvarianten.</span><span class="sxs-lookup"><span data-stu-id="4b51f-104">This topic provides information about bills of materials (BOMs) and formulas, which are a central part of the definition of products and product variants.</span></span> <span data-ttu-id="4b51f-105">Met stuklijsten en formules worden de benodigde materialen of ingrediënten voor een specifiek product opgegeven.</span><span class="sxs-lookup"><span data-stu-id="4b51f-105">BOMs and formulas specify the required materials or ingredients for a specific product.</span></span> <span data-ttu-id="4b51f-106">Met formules worden ook de coproducten en bijproducten opgegeven die worden ontvangen in een specifieke productiecontext.</span><span class="sxs-lookup"><span data-stu-id="4b51f-106">Formulas also specify the co-products and by-products that are received in a specific production context.</span></span> 
 

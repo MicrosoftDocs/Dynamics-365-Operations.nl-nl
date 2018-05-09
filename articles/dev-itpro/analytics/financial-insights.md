@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8250b612ca62048a8ab9e0c5f082a6e652e1b5c1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-insights"></a><span data-ttu-id="79891-103">Financial Insights</span><span class="sxs-lookup"><span data-stu-id="79891-103">Financial Insights</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="79891-104">**Financial Insights** gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen.</span><span class="sxs-lookup"><span data-stu-id="79891-104">**Financial Insights** uses Microsoft Power BI to bring together financial key performance indicators (KPIs), charts, and financial statements.</span></span> <span data-ttu-id="79891-105">Power BI is ingesloten in Microsoft Dynamics 365 Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="79891-105">Power BI is embedded in Microsoft Dynamics 365 Finance and Operations.</span></span>
 <span data-ttu-id="79891-106">De focus van **Financial Insights** is analytische rapportage.</span><span class="sxs-lookup"><span data-stu-id="79891-106">The focus of **Financial Insights** is analytical reporting.</span></span> <span data-ttu-id="79891-107">Persoonlijkheden binnen een organisatie kunnen weergeven, onderzoeken en reageren.</span><span class="sxs-lookup"><span data-stu-id="79891-107">Personas across an organization can view, research, understand, and act.</span></span> 

@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
-ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f20fb7fcd44114fc29af40985a4b1acde1da8c05
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="c3b74-103">Aan de slag met Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="c3b74-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="c3b74-104">In Microsoft Dynamics 365 for Talent past u de gebruikersinterface gemakkelijk aan en stelt u eenvoudig opties in om de software intuïtiever te maken voor uw behoeften.</span><span class="sxs-lookup"><span data-stu-id="c3b74-104">In Microsoft Dynamics 365 for Talent it's easy to modify the user interface and set options that make the software more intuitive for your needs.</span></span> <span data-ttu-id="c3b74-105">Dit onderwerp bevat koppelingen naar onderwerpen met informatie over het aanpassen van de gebruikersinterface aan uw voorkeuren.</span><span class="sxs-lookup"><span data-stu-id="c3b74-105">This topic includes links to topics that provide information on how to adapt the user interface to your preferences.</span></span> <span data-ttu-id="c3b74-106">Het onderwerp bevat ook koppelingen naar informatie waarmee u gegevens in het systeem efficiënter en nauwkeuriger kunt vinden.</span><span class="sxs-lookup"><span data-stu-id="c3b74-106">The topic also includes links to information that can help you find information in the system efficiently and accurately.</span></span> 
 

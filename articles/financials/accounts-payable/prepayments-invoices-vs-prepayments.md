@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9d2ce5dd0e9072c0f8430ee5390c8cafed9a6f60
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f92888d4af531f139bcceafb118e212277b9c0e1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prepayment-invoices-vs-prepayments"></a><span data-ttu-id="b702f-105">Vooruitbetalingsfacturen versus vooruitbetalingen</span><span class="sxs-lookup"><span data-stu-id="b702f-105">Prepayment invoices vs. prepayments</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b702f-106">In dit onderwerp worden de twee methoden beschreven en vergeleken die organisaties kunnen gebruiken voor voorschotten (vooruitbetalingen).</span><span class="sxs-lookup"><span data-stu-id="b702f-106">This topic describes and contrasts the two methods that organizations can use for advance payments (prepayments).</span></span> <span data-ttu-id="b702f-107">Bij één methode kunt u een aanbetalingsfactuur maken die aan een inkooporder is gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="b702f-107">In one method, you create a prepayment invoice that is associated with a purchase order.</span></span> <span data-ttu-id="b702f-108">Bij de andere methode kunt u journaalboekstukken van vooruitbetaling maken door boekingen in een journaal te maken en ze als journaalboekstukken van vooruitbetaling te markeren.</span><span class="sxs-lookup"><span data-stu-id="b702f-108">In the other method, you create prepayment journal vouchers by creating journal entries and marking them as prepayment journal vouchers.</span></span>
 

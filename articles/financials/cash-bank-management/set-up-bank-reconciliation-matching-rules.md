@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d3e841f30f133644d0c6e1f0b0e9e990934a78db
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b4c4db59746cbbef9e0698cdb1123e96b77dc3d2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-bank-reconciliation-matching-rules"></a><span data-ttu-id="9a089-104">Afstemmingsregels voor bankafstemming instellen</span><span class="sxs-lookup"><span data-stu-id="9a089-104">Set up bank reconciliation matching rules</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9a089-105">In dit onderwerp wordt beschreven hoe afstemmingsregels en sets afstemmingsregels kunnen worden ingesteld om het bankafstemmingsproces te vereenvoudigen.</span><span class="sxs-lookup"><span data-stu-id="9a089-105">This topic explains how to set up reconciliation matching rules and reconciliation matching rule sets to help with the bank reconciliation process.</span></span> <span data-ttu-id="9a089-106">Afstemmingsregels zijn een reeks criteria die worden gebruikt om regels van bankafschriften en bankdocumentregels te filteren tijdens het afstemmingsproces.</span><span class="sxs-lookup"><span data-stu-id="9a089-106">Reconciliation matching rules are a set of criteria that are used to filter bank statement lines and bank document lines during the reconciliation process.</span></span>
 

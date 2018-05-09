@@ -16,15 +16,15 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58ed417c72fd18ab67c1792d1801a58b6c4cfdb7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 147a2bf84459a5b67ffe633d5a7dd24b31bf10da
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a><span data-ttu-id="e2a64-103">Transacties maken en overboeken naar het BLWI (België)</span><span class="sxs-lookup"><span data-stu-id="e2a64-103">Create and transfer transactions to the BLWI (Belgium)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e2a64-104">Deze procedure begeleidt u bij het maken van een BLWI-rapport voor België.</span><span class="sxs-lookup"><span data-stu-id="e2a64-104">This procedure walks you through creating BLWI report for the Belgium.</span></span> <span data-ttu-id="e2a64-105">Deze procedure is gemaakt met het demogegevensbedrijf USSI.</span><span class="sxs-lookup"><span data-stu-id="e2a64-105">This procedure was created using the demo data company USSI.</span></span> <span data-ttu-id="e2a64-106">Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres in België hebben.</span><span class="sxs-lookup"><span data-stu-id="e2a64-106">This functionality is available for legal entities whose primary address is in the Belgium.</span></span> <span data-ttu-id="e2a64-107">Ook is het nodig om een registratie-id voor België in te stellen en het registratienummer in te vullen, om een BLWI-aangifte te maken.</span><span class="sxs-lookup"><span data-stu-id="e2a64-107">Also it is necessary to set up Registration ID for Belgium and fill in Registration number in order to create BLWI declaration.</span></span>
 

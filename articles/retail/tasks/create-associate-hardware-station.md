@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 023c3b3be6544ecf25975965daf1487159c6076b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2720ba4060252ef6d6d27e310619ec5639f020ca
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="0f100-103"> Een hardwarestation maken en koppelen</span><span class="sxs-lookup"><span data-stu-id="0f100-103">Create and associate a hardware station</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0f100-104">Deze procedure doorloopt hoe u een nieuw hardwarestation maakt.</span><span class="sxs-lookup"><span data-stu-id="0f100-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="0f100-105">Een nieuw hardwareprofiel wordt gemaakt en gebruikt om nieuwe hardwarestations toe te voegen aan een vooraf gedefinieerde winkel (kanaal).</span><span class="sxs-lookup"><span data-stu-id="0f100-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="0f100-106">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="0f100-106">This procedure uses the USRT company in demo data.</span></span>
 

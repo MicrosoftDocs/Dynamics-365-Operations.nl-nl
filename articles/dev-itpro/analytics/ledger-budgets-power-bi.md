@@ -17,16 +17,16 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a99af169bd1c447a15bc46a5adc89719dabc0718
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6a01d28d642ab3846c18955a1fced0dbabfb85d4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="actual-vs-budget-power-bi-content"></a><span data-ttu-id="50b2c-104">Power BI-inhoud Werkelijk vs. budget</span><span class="sxs-lookup"><span data-stu-id="50b2c-104">Actual vs budget Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="50b2c-105">In dit onderwerp wordt de Microsoft Power BI-inhoud **Werkelijk vs. budget** besproken.</span><span class="sxs-lookup"><span data-stu-id="50b2c-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="50b2c-106">U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en bevat informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.</span><span class="sxs-lookup"><span data-stu-id="50b2c-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 

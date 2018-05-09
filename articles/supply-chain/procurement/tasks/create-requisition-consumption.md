@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bad86a4726ce69015f318d9af98992b36d34b29a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ad2a356c4f6bc2c72898e8b841963e6bee6daac0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-requisition-for-consumption"></a><span data-ttu-id="a94ed-103">Een bestelaanvraag voor verbruik maken</span><span class="sxs-lookup"><span data-stu-id="a94ed-103">Create a requisition for consumption</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a94ed-104">Deze procedure begeleidt u door het proces voor het maken van een bestelaanvraag.</span><span class="sxs-lookup"><span data-stu-id="a94ed-104">This procedure walks you through the process of creating a requisition.</span></span> <span data-ttu-id="a94ed-105">Het toont u verschillende manieren om producten in uw aanschaffingscatalogus te zoeken en hoe u een product toevoegt dat niet in uw catalogus staat.</span><span class="sxs-lookup"><span data-stu-id="a94ed-105">It shows you different ways to search for products in your procurement catalog and how to add a product that isn’t in your catalog.</span></span> <span data-ttu-id="a94ed-106">Voordat u deze procedure start, moet u een inkoopbeleid instellen met Verbruik als standaardtype bestelaanvraag.</span><span class="sxs-lookup"><span data-stu-id="a94ed-106">Before you start this procedure, you must have a purchasing policy set up with Consumption as the default type of requisition.</span></span> <span data-ttu-id="a94ed-107">U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="a94ed-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="a94ed-108">De procedure kan alleen via een gebruikersprofiel worden uitgevoerd dat is ingesteld als werknemer.</span><span class="sxs-lookup"><span data-stu-id="a94ed-108">The procedure can only be carried out by a user profile that is set up as worker.</span></span>  <span data-ttu-id="a94ed-109">Deze taak moet doorgaans worden uitgevoerd door een werknemer.</span><span class="sxs-lookup"><span data-stu-id="a94ed-109">This task would normally be carried out by an employee.</span></span> <span data-ttu-id="a94ed-110">De werknemersrol Werknemer staat toe dat u de taken uitvoert. Als u USMF gebruikt, kunt u zich ook aanmelden als Alicia.</span><span class="sxs-lookup"><span data-stu-id="a94ed-110">The Employee employ security role will allow you to carry out the tasks, or if you’re using USMF, you can log in as Alicia.</span></span>
 

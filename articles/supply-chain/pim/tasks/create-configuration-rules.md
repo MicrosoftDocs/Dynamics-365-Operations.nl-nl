@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9d758ce6cda885e82ee220624da1adb176400877
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0abe7a8ef1c8d4053b341f6c0117f400492a3808
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-configuration-rules"></a><span data-ttu-id="45ce4-103">Configuratieregels maken</span><span class="sxs-lookup"><span data-stu-id="45ce4-103">Create configuration rules</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="45ce4-104">Met deze procedure worden configuratieregels gemaakt die kunnen worden gebruikt voor een op dimensies gebaseerde configuratie om bepaalde combinaties van stuklijstregels af te dwingen of te voorkomen.</span><span class="sxs-lookup"><span data-stu-id="45ce4-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="45ce4-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="45ce4-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="45ce4-106">Dit is de zevende van acht procedures waarin wordt uitgelegd hoe u combinaties maakt voor een op dimensies gebaseerde configuratie.</span><span class="sxs-lookup"><span data-stu-id="45ce4-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 

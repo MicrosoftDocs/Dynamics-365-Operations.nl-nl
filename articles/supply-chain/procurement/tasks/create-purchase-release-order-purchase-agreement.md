@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 467253299c6cf80c7366ab4f12913a93546d1d69
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a36ffde080f952ab8e687cb9c79950b6f2152ade
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a><span data-ttu-id="a7915-103">Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst</span><span class="sxs-lookup"><span data-stu-id="a7915-103">Create a purchase release order from a purchase agreement</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a7915-104">Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een inkooporder maakt.</span><span class="sxs-lookup"><span data-stu-id="a7915-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="a7915-105">De inkoopovereenkomst moet worden toegepast wanneer u de inkooporder maakt omdat er algemene voorwaarden zijn die naar de koptekst van de inkooporder moeten worden gekopieerd.</span><span class="sxs-lookup"><span data-stu-id="a7915-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="a7915-106">Deze taak worden meestal uitgevoerd door een inkoopagent.</span><span class="sxs-lookup"><span data-stu-id="a7915-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="a7915-107">Als vereiste voor deze taakbegeleiding moet u een effectieve inkoopovereenkomst met een toezegging van een producthoeveelheid hebben voor een leverancier en voor artikelen.</span><span class="sxs-lookup"><span data-stu-id="a7915-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="a7915-108">Dezelfde procedure kan worden gebruikt als u een inkoopovereenkomst met andere typen toezeggingen hebt.</span><span class="sxs-lookup"><span data-stu-id="a7915-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="a7915-109">U kunt deze handleiding uitvoeren in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="a7915-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="a7915-110">Als u USMF gebruikt, kunt u eerst de begeleiding 'Een inkoopovereenkomst maken' uitvoeren om de benodigde condities voor deze begeleiding in te stellen.</span><span class="sxs-lookup"><span data-stu-id="a7915-110">If you’re using USMF, you can run the “Create a purchase agreement” guide first to set up the necessary preconditions for this guide.</span></span>
 

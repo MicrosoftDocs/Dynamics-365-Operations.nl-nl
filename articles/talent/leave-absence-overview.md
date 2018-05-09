@@ -19,15 +19,15 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66e4be092a7728f061cb9b09157712ffcf37c923
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5568482424f5afca6773fa66ca43691bcd1e95e2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="908f6-103">Overzicht van verlof- en verzuimbeheer</span><span class="sxs-lookup"><span data-stu-id="908f6-103">Leave and absence management overview</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="908f6-104">De module **Verlof- en verzuimbeheer** biedt een flexibele structuur voor het definiëren van het proces voor verzuimbeheer.</span><span class="sxs-lookup"><span data-stu-id="908f6-104">The **Leave and absence management** module offers a flexible framework for defining the absence management process.</span></span> <span data-ttu-id="908f6-105">Verlof- en verzuimplannen kunnen worden gemaakt om te bepalen hoe werknemers vrije tijd opbouwen of krijgen toegekend.</span><span class="sxs-lookup"><span data-stu-id="908f6-105">Leave and absence plans can be created to determine how employees accrue or are granted time off.</span></span> <span data-ttu-id="908f6-106">Nadat werknemers zijn ingeschreven in een plan, kunnen zij verlofverzoeken indienen ter goedkeuring door managers.</span><span class="sxs-lookup"><span data-stu-id="908f6-106">After employees are enrolled in a plan, they can submit time-off requests for approval by managers.</span></span> <span data-ttu-id="908f6-107">Met Verlof bijhouden kunnen directe managers en HRM-managers (Human Resources) zien wie vrij neemt en hoeveel verlof elke werknemer nog heeft.</span><span class="sxs-lookup"><span data-stu-id="908f6-107">Leave tracking lets both first-level managers and Human Resources (HR) managers see who is taking time off and how much time off each employee still has.</span></span>  
 

@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9edc4c3f19d7498614211a539bfe685cb0efcdf6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="51a20-103">Informatie over letsel en ziekten instellen</span><span class="sxs-lookup"><span data-stu-id="51a20-103">Set up injury and illness information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="51a20-104">Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden vanwege aan gevaren op de werkplek.</span><span class="sxs-lookup"><span data-stu-id="51a20-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="51a20-105">U kunt de pagina Letsel en ziekte gebruiken om de gegevens in te stellen die het rapporteren van letsels of ziekte op de werkplaats te vergemakkelijken.</span><span class="sxs-lookup"><span data-stu-id="51a20-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="51a20-106">U kunt de soorten letsels en ziekten instellen, met inbegrip van de soorten behandelingen, kosten en resultaten.</span><span class="sxs-lookup"><span data-stu-id="51a20-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="51a20-107">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="51a20-107">The demo data company used to create this procedure is USMF.</span></span>
 

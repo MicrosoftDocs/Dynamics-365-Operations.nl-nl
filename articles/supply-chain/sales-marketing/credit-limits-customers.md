@@ -17,16 +17,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e57389ac2882b011bf4ae98334db18a8f35846e2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c4309045abdac36376bc7ddb313475710a0fd02
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="credit-limits-for-customers"></a><span data-ttu-id="495a4-103">Kredietlimieten voor klanten</span><span class="sxs-lookup"><span data-stu-id="495a4-103">Credit limits for customers</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="495a4-104">Als u een kredietlimiet instelt, kunt u opgeven hoeveel krediet u maximaal voor uw klanten toestaat.</span><span class="sxs-lookup"><span data-stu-id="495a4-104">Setting a credit limit lets you specify the maximum amount of credit to extend to your customers.</span></span> <span data-ttu-id="495a4-105">Als er een kredietlimiet is opgegeven, wordt deze automatisch gecontroleerd wanneer een gebruiker een document probeert bij te werken.</span><span class="sxs-lookup"><span data-stu-id="495a4-105">If a credit limit is specified, it is checked automatically when a user attempts to update a document.</span></span> <span data-ttu-id="495a4-106">Als de kredietlimiet is overschreden, wordt er een bericht weergegeven voor de gebruiker.</span><span class="sxs-lookup"><span data-stu-id="495a4-106">If the credit limit is exceeded, a message is displayed to the user.</span></span> <span data-ttu-id="495a4-107">Dit artikel biedt een overzicht van de werking van kredietlimieten en beantwoordt de volgende vragen:</span><span class="sxs-lookup"><span data-stu-id="495a4-107">This article provides an overview of how credit limits work  and answers the following questions:</span></span>
 

@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c90de64ccc61a6515298c55dacaec44b79b19a3b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ba95e651898da0e0fbd1221f61436ffac59db09e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a><span data-ttu-id="f5b0f-103">Van toepassing zijnde prijzen en kortingen opzoeken</span><span class="sxs-lookup"><span data-stu-id="f5b0f-103">Look up applicable prices and discounts</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f5b0f-104">Deze procedure laat zien hoe u de prijs en/of de korting vindt voor een product dat momenteel geldig is voor een specifieke klant, zonder een verkooporder te maken.</span><span class="sxs-lookup"><span data-stu-id="f5b0f-104">This procedure shows how to find the price and/or discount for a product which is currently valid for a specific customer, without creating a sales order.</span></span> <span data-ttu-id="f5b0f-105">De procedure doorloopt een specifiek voorbeeld en u moet het voorbeeld met het demobedrijf USMF volgen om de benodigde waarden te selecteren.</span><span class="sxs-lookup"><span data-stu-id="f5b0f-105">The procedure walks through a specific example, and you need follow the example using the USMF demo company in order to select the necessary values.</span></span>
 

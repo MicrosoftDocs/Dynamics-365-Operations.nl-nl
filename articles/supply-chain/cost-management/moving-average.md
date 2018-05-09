@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8ac8ebede5c333835b0974843a69e70e51028117
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 05ac3b28c4d0806f71f1e0cb069c0d48137a4332
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="moving-average"></a><span data-ttu-id="86b2e-105">Zwevend gemiddelde</span><span class="sxs-lookup"><span data-stu-id="86b2e-105">Moving average</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="86b2e-106">Zwevend gemiddelde is een permanente kostenmethode, gebaseerd op het gemiddelde, waarbij de kosten van voorraadproblemen niet veranderen wanneer de aankoopkosten veranderen.</span><span class="sxs-lookup"><span data-stu-id="86b2e-106">Moving average is a perpetual costing method based on the average principle, where the costs on inventory issues do not change when the purchase cost does.</span></span> <span data-ttu-id="86b2e-107">Het verschil wordt gekapitaliseerd en is gebaseerd op een proportionele berekening.</span><span class="sxs-lookup"><span data-stu-id="86b2e-107">The difference is capitalized and is based on a proportional calculation.</span></span> <span data-ttu-id="86b2e-108">Het overblijvende bedrag zijn onkosten.</span><span class="sxs-lookup"><span data-stu-id="86b2e-108">The amount that remains is expensed.</span></span> 
 

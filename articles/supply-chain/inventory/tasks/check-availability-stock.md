@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e4b08aa7376bee6526d1993ee38916b60d0e0648
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a0c440250588e38b4bc8ebdb6830b026361f1d96
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="49c6b-103">De beschikbaarheid van voorraad controleren</span><span class="sxs-lookup"><span data-stu-id="49c6b-103">Check the availability of stock</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="49c6b-104">Deze procedure laat zien hoe u voorhanden en fysieke voorraad voor een specifiek artikelnummer kunt controleren.</span><span class="sxs-lookup"><span data-stu-id="49c6b-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="49c6b-105">Het geeft ook weer hoe u aanbodinformatie voor een artikel krijgt.</span><span class="sxs-lookup"><span data-stu-id="49c6b-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="49c6b-106">De fysieke voorhanden voorraad is de voorhanden voorraad die beschikbaar is, dat wil zeggen dat de voorraad is ingekocht, ontvangen en geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="49c6b-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="49c6b-107">De voorhanden voorraad bevat de beschikbare voorraad, maar ook de voorraad die is besteld en wordt verwacht, maar nog niet is ontvangen of geregistreerd.</span><span class="sxs-lookup"><span data-stu-id="49c6b-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="49c6b-108">U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="49c6b-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="49c6b-109">Als u USMF gebruikt, kunt u de voorbeeldwaarden gebruiken die worden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="49c6b-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="49c6b-110">Deze taken worden meestal uitgevoerd door een magazijnmedewerker.</span><span class="sxs-lookup"><span data-stu-id="49c6b-110">These tasks would typically be carried out by a warehouse worker.</span></span>
 

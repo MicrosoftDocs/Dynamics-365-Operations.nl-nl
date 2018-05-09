@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16c59a53a5708a470fc1aa02d6730b7e83eece18
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6bed9ee9ae101450b3f484750287b2b7e7f5847e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="7d5a5-103">Klanten en bankrekeningen van klanten instellen voor ISO20022-automatische overschrijvingen</span><span class="sxs-lookup"><span data-stu-id="7d5a5-103">Set up customers and customer bank accounts for ISO20022 direct debits</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7d5a5-104">Deze taak voert u door het instellen van een bankrekening voor een klant en een mandaat voor automatische afschrijving van een klant die zijn vereist voor het genereren van het klantenbetalingsbestand zoals ISO20022 automatische afschrijving.</span><span class="sxs-lookup"><span data-stu-id="7d5a5-104">This task walks you through setting up a customer bank account and a customer direct debit mandate which are required to generate the customer payment file like ISO20022 direct debit.</span></span> <span data-ttu-id="7d5a5-105">Afhankelijk van de indelingen voor klantenbetalingen die zijn geconfigureerd, kan extra informatie vereist zijn voor een klant of een klantenbankrekening, die niet in deze procedure wordt behandeld.</span><span class="sxs-lookup"><span data-stu-id="7d5a5-105">Depending on the customer payment formats that are set up, additional information, not covered in this procedure, might be required for a customer or a customer bank account.</span></span> 
 

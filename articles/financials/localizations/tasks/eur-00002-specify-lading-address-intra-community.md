@@ -16,15 +16,15 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ee2c57d9e42d50823c9f77ebd0f13deec2f4342e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0feeba19510d3c2790b1a77bca3c8ec6e7078726
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="specify-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="22bc3-103">Een vrachtadres opgeven voor een intracommunautaire transactie</span><span class="sxs-lookup"><span data-stu-id="22bc3-103">Specify a lading address for an intra-community transaction</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="22bc3-104">Deze procedure laat zien hoe u een vrachtadres opgeeft voor een intracommunautaire handelstransactie.</span><span class="sxs-lookup"><span data-stu-id="22bc3-104">This procedure shows how to specify a lading address for an intra-community trade transaction.</span></span> <span data-ttu-id="22bc3-105">Bijvoorbeeld een Duits bedrijf bestelt artikelen bij een leverancier met een adres in Duitsland.</span><span class="sxs-lookup"><span data-stu-id="22bc3-105">For example, a Germany company orders items from a vendor with a German business address.</span></span> <span data-ttu-id="22bc3-106">Deze leverancier heeft een magazijn in Italië en verzendt de artikelen vandaaruit.</span><span class="sxs-lookup"><span data-stu-id="22bc3-106">This vendor has a warehouse in Italy and ships the items from there.</span></span> <span data-ttu-id="22bc3-107">Deze levering moet in Intrastat worden gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="22bc3-107">This delivery must be reported in the Intrastat.</span></span> <span data-ttu-id="22bc3-108">Hetzelfde gedrag geldt voor klantretouren.</span><span class="sxs-lookup"><span data-stu-id="22bc3-108">The same behavior is valid for customer returns.</span></span>
 <span data-ttu-id="22bc3-109">Deze procedure is van toepassing op alle Europese landen/regio's.</span><span class="sxs-lookup"><span data-stu-id="22bc3-109">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="22bc3-110">De taak werd gemaakt met het demobedrijf DEMF met een primair adres in Duitsland.</span><span class="sxs-lookup"><span data-stu-id="22bc3-110">The task was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="22bc3-111">Voordat u deze procedure kunt uitvoeren, moet u Intrastat-rapporten configureren.</span><span class="sxs-lookup"><span data-stu-id="22bc3-111">Before you can complete this procedure, you must configure Intrastat reporting.</span></span> <span data-ttu-id="22bc3-112">Deze procedure is alleen bedoeld voor accountants.</span><span class="sxs-lookup"><span data-stu-id="22bc3-112">This procedure is intended for accountants.</span></span> <span data-ttu-id="22bc3-113">Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="22bc3-113">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>

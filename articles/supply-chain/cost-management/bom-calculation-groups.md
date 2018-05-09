@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0161ac3d67b57484f05a64ab785bbbcc90816ba2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8285305466a3762d3dab8a7975dfa51b994f1e6f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bom-calculations-groups"></a><span data-ttu-id="c1df8-105">Stuklijstberekeningsgroepen</span><span class="sxs-lookup"><span data-stu-id="c1df8-105">BOM calculations groups</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c1df8-106">Dit artikel bevat informatie over berekeningsgroepen voor stuklijsten en het instellen hiervan.</span><span class="sxs-lookup"><span data-stu-id="c1df8-106">This article provides information about calculation groups for bills of materials (BOMs) and how to set them up.</span></span> <span data-ttu-id="c1df8-107">Als u een stuklijstberekening wilt uitvoeren, moet u berekeningsgroepen instellen en deze toewijzen aan afzonderlijke artikelen, of een standaardberekeningsgroep instellen.</span><span class="sxs-lookup"><span data-stu-id="c1df8-107">To run a BOM calculation, you must either set up calculation groups and assign them to individual items, or set a default calculation group.</span></span> <span data-ttu-id="c1df8-108">De berekeningsinstellingen van de berekeningsgroep worden vervolgens gebruikt als standaardwaarden op de pagina Sstuklijstberekening op het moment van de berekening van de stuklijst.</span><span class="sxs-lookup"><span data-stu-id="c1df8-108">The calculation settings from the calculation group are then used as default values on the BOM calculation page at the time of BOM calculation.</span></span> 
 

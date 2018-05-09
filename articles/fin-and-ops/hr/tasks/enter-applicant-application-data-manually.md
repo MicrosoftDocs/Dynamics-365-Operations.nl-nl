@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0da2c4e308ef377b7657f0905fec56e47f27b99
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a9ee95b178b3e304749b5fda2cefc6ead8be953d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-applicant-and-application-data-manually"></a><span data-ttu-id="689a9-103">Sollicitant- en sollicitatiegegevens handmatig invoeren</span><span class="sxs-lookup"><span data-stu-id="689a9-103">Enter applicant and application data manually</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="689a9-104">Deze procedure laat zien hoe u handmatig informatie over sollicitanten en hun sollicitatie kunt onderhouden.</span><span class="sxs-lookup"><span data-stu-id="689a9-104">This procedure shows how to manually maintain information about applicants and their application.</span></span>   <span data-ttu-id="689a9-105">U kunt persoonlijke gegevens, gespreksdatums en -tijden, verwijzingen, vaardigheden en accommodatieaanvragen voor sollicitanten invoeren en onderhouden.</span><span class="sxs-lookup"><span data-stu-id="689a9-105">You can enter and maintain personal information, interview dates and times, references, competencies, and accommodation requests for applicants.</span></span> <span data-ttu-id="689a9-106">U kunt ook de status van de sollicitaties van sollicitanten naar vacatures bijwerken en brieven of e-mailberichten opstellen om met sollicitanten te communiceren.</span><span class="sxs-lookup"><span data-stu-id="689a9-106">You can also update the status of applicants’ applications for employment and create letters or email messages to communicate with applicants.</span></span> <span data-ttu-id="689a9-107">Wanneer u sollicitatieregistratie maakt, wordt er een persoonlijke registratie voor die sollicitant in het globale adresboek gemaakt.</span><span class="sxs-lookup"><span data-stu-id="689a9-107">When you create an applicant record, a person record for that applicant is created in the global address book.</span></span>       <span data-ttu-id="689a9-108">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="689a9-108">The demo data company used to create this procedure is USMF.</span></span>
 

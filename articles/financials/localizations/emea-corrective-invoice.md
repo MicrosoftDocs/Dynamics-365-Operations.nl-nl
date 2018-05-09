@@ -17,16 +17,16 @@ ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 584bcff56ec1faeffe5d4b2edcbea46a441b0253
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4e65627cdb662cef22c9c643599959d6921e3dc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="corrective-invoicing"></a><span data-ttu-id="511c5-103">Correctieve facturering</span><span class="sxs-lookup"><span data-stu-id="511c5-103">Corrective invoicing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  > [!NOTE]
  > <span data-ttu-id="511c5-104">Dit onderwerp is van toepassing voor rechtspersonen met een primair adres in Denemarken, Duitsland, Frankrijk, Ierland, Nederland of het Verenigd Koninkrijk.</span><span class="sxs-lookup"><span data-stu-id="511c5-104">This topic applies to legal entities with a primary address in Denmark, Germany, France, Ireland, the Netherlands, or the United Kingdom.</span></span>

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d507224004bdf319f9bf13ba07ed07ef29cc85dc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8344534fb7708eaa18a3c84e233cccc889e54226
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-compensation-grids"></a><span data-ttu-id="a72a2-103">Compensatierasters instellen</span><span class="sxs-lookup"><span data-stu-id="a72a2-103">Set up compensation grids</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a72a2-104">Compensatierasters worden gebruikt om de salarisstructuren voor plannen voor vaste compensatie weer te geven of te onderhouden.</span><span class="sxs-lookup"><span data-stu-id="a72a2-104">Compensation grids are used to define and maintain the pay structures for fixed compensation plans.</span></span> <span data-ttu-id="a72a2-105">Compensatierasters kunnen worden gedeeld over meerdere plannen of worden gekopieerd bij het maken van een nieuw compensatieplan.</span><span class="sxs-lookup"><span data-stu-id="a72a2-105">Compensation grids can be shared between multiple plans or copied when creating a new compensation plan.</span></span>  <span data-ttu-id="a72a2-106">Voordat u een compensatieraster maakt, moet u de Niveaus en Referentiepunten instellen.</span><span class="sxs-lookup"><span data-stu-id="a72a2-106">Before creating a compensation grid, Levels and Reference points must be set up.</span></span> <span data-ttu-id="a72a2-107">In dit voorbeeld wordt een nieuw Cijfertype van compensatieraster gemaakt met demogegevens voor de Niveaus en Referentiepunten.</span><span class="sxs-lookup"><span data-stu-id="a72a2-107">This example will create a new Grade type of compensation grid using demo data for the Levels and Reference points.</span></span> <span data-ttu-id="a72a2-108">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="a72a2-108">The demo data company used to create this procedure is USMF.</span></span>
 

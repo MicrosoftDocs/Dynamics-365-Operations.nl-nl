@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93e8f97dbd3f60be72793c04eb729623321016f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbec520054ab41e3b2d92e422d1b5f5276d44e2c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-alerts"></a><span data-ttu-id="daa72-103">Waarschuwingen maken</span><span class="sxs-lookup"><span data-stu-id="daa72-103">Create alerts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a><span data-ttu-id="daa72-104">Aan de slag</span><span class="sxs-lookup"><span data-stu-id="daa72-104">Getting started</span></span>
 <span data-ttu-id="daa72-105">Bepaal voordat u een waarschuwingsregel instelt, wanneer of in welke situaties u waarschuwingen wilt ontvangen.</span><span class="sxs-lookup"><span data-stu-id="daa72-105">Before you set up an alert rule, decide when or in what situations you want to receive alerts.</span></span> <span data-ttu-id="daa72-106">Als u weet over welke gebeurtenis u wilt worden gewaarschuwd, gaat u in Microsoft Dynamics 365 for Finance and Operations naar de pagina met de gegevens die de gebeurtenis veroorzaken.</span><span class="sxs-lookup"><span data-stu-id="daa72-106">When you know which event you want to be notified about, in Microsoft Dynamics 365 for Finance and Operations find the page where the data that causes that event appears.</span></span> <span data-ttu-id="daa72-107">De gebeurtenis kan een datum zijn die aanbreekt of een specifieke wijziging die plaatsvindt.</span><span class="sxs-lookup"><span data-stu-id="daa72-107">The event can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="daa72-108">Daarom moet u de pagina vinden waar de datum is gespecificeerd of die het veld bevat dat verandert of de nieuwe record.</span><span class="sxs-lookup"><span data-stu-id="daa72-108">Therefore, you must find the page where the date is specified, or where the field that changes or the new record that is created appears.</span></span> <span data-ttu-id="daa72-109">Wanneer u deze informatie hebt, kunt u de waarschuwingsregel maken.</span><span class="sxs-lookup"><span data-stu-id="daa72-109">After you have this information, you can create the alert rule.</span></span>

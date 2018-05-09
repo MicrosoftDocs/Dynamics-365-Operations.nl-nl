@@ -18,16 +18,16 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 07788dab44cd45c163097a4e9b357a76c9d5ea00
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b7195e9e9a45137b959be2e08736ec2ba88df4ef
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coda-bank-statement"></a><span data-ttu-id="04aaa-103">CODA-bankafschrift</span><span class="sxs-lookup"><span data-stu-id="04aaa-103">CODA bank statement</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="04aaa-104">Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="04aaa-104">This topic includes information about CODA, which is a report format used in the Belgian electronic banking system.</span></span> 
 

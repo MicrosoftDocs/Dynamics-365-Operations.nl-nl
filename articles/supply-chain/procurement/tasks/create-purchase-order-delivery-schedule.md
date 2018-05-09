@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0e86c33580cbcafb16f508c2f6330d81422f12d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 91a548d8fb6c46920fcb5660ac94c732fe27249a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="d3f80-103">Een inkooporder maken met een afleveringsschema</span><span class="sxs-lookup"><span data-stu-id="d3f80-103">Create a purchase order with a delivery schedule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d3f80-104">Deze procedure laat zien hoe u een afleveringsschema voor een inkooporder kunt maken.</span><span class="sxs-lookup"><span data-stu-id="d3f80-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="d3f80-105">Een afleveringsschema wordt gebruikt wanneer wordt gevraagd een hoeveelheid op een order of journaal in meerdere zendingen te leveren.</span><span class="sxs-lookup"><span data-stu-id="d3f80-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="d3f80-106">Het voorbeeld dat in deze handleiding wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf.</span><span class="sxs-lookup"><span data-stu-id="d3f80-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="d3f80-107">Deze procdure wordt gewoonlijk uitgevoerd door een inkoper.</span><span class="sxs-lookup"><span data-stu-id="d3f80-107">This procedure would typically be done by a purchasing agent.</span></span>
 

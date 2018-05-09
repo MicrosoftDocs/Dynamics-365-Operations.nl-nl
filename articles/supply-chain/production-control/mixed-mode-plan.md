@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a28879586a8af3f98d6864ecc009822e8a29cf1d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b3159fe3fa744b38ddef8ebc0824399cff650d2c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a><span data-ttu-id="89d4a-103">Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing</span><span class="sxs-lookup"><span data-stu-id="89d4a-103">Mixed mode planning - Combine discrete, process, and lean sourcing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="89d4a-104">Dit onderwerp biedt informatie over de gemengde planmodus.</span><span class="sxs-lookup"><span data-stu-id="89d4a-104">This topic provides information about mixed mode planning.</span></span> <span data-ttu-id="89d4a-105">Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom.</span><span class="sxs-lookup"><span data-stu-id="89d4a-105">In mixed mode planning, you can model your supply chain based on the material flow.</span></span> <span data-ttu-id="89d4a-106">Microsoft Dynamics 365 for Finance and Operations zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of transferorders).</span><span class="sxs-lookup"><span data-stu-id="89d4a-106">Microsoft Dynamics 365 for Finance and Operations makes sure that the material flow follows your models, regardless of the supply policy that is selected (kanbans, production orders, purchase orders, batch orders, or transfer orders).</span></span> 
 

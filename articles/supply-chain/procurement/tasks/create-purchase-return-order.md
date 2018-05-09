@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bb24cf68912b994842f17df37d01c0046587a5eb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3f4bd0a7765a423fd515058a3615092bcabf1b6a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-return-order"></a><span data-ttu-id="7fb2c-103">Een inkoopretourorder maken</span><span class="sxs-lookup"><span data-stu-id="7fb2c-103">Create a purchase return order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7fb2c-104">Deze procedure laat zien hoe u een inkoopretourorder kunt maken door de actie Creditnota te gebruiken om regels van een leveranciersfactuurdocument naar een nieuwe inkooporder te kopiëren.</span><span class="sxs-lookup"><span data-stu-id="7fb2c-104">This procedure shows you how to create a purchase return order by using the Credit note action to copy lines from a vendor invoice document to a new PO.</span></span> <span data-ttu-id="7fb2c-105">Het laat ook zien hoe u de order kunt bevestigen en de verzending van de goederen terug naar de leverancier kunt verwerken.</span><span class="sxs-lookup"><span data-stu-id="7fb2c-105">It also shows you how to confirm the order and process shipment of the goods back to the vendor.</span></span> <span data-ttu-id="7fb2c-106">Het voorbeeld dat in deze procedure wordt weergegeven, kan worden gebruikt in het USMF-demobedrijf.</span><span class="sxs-lookup"><span data-stu-id="7fb2c-106">The example shown in this procedure can be used in the USMF demo data company.</span></span> <span data-ttu-id="7fb2c-107">Deze taak wordt meestal uitgevoerd door een inkoopagent.</span><span class="sxs-lookup"><span data-stu-id="7fb2c-107">This task would typically be carried out by a purchasing agent.</span></span>
 

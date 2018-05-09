@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f1d88d1cad1dfc2e7c3efd90ec61c97266fee453
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 16fc19cb1e0d99eb2bbfb63a16bc96c4f1980308
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a><span data-ttu-id="ee671-103">Herwaardering van vreemde valuta voor Grootboek</span><span class="sxs-lookup"><span data-stu-id="ee671-103">Foreign currency revaluation for General ledger</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ee671-104">Dit onderwerp bevat een overzicht van de volgende onderdelen van het herwaarderingsproces van vreemde valuta voor het grootboek: instellingen, het proces uitvoeren, berekening voor het proces en het omkeren van de herwaarderingstransacties, indien nodig.</span><span class="sxs-lookup"><span data-stu-id="ee671-104">This topic provides an overview of the following for the general ledger foreign currency revaluation process -  setup, running the process, calculation for the process, and how to reverse the revaluation transactions, if necessary.</span></span> 
 

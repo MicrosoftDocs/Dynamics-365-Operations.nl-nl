@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 454ecd9bfa19a2486610d9a412057f42ae2d68a2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 90d6dd1886deb9ec5700e1db9b5a3aaf7f83bdf8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="estimate-a-production-order"></a><span data-ttu-id="c95a4-103">Een productieorder ramen</span><span class="sxs-lookup"><span data-stu-id="c95a4-103">Estimate a production order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c95a4-104">U kunt deze procedure uitvoeren met behulp van het demobedrijf USMF of met uw eigen gegevensset.</span><span class="sxs-lookup"><span data-stu-id="c95a4-104">You can run this procedure by using the USMF demo data company or your own data set.</span></span> <span data-ttu-id="c95a4-105">In beide gevallen hebt u een open productieorder nodig die de status Gemaakt heeft.</span><span class="sxs-lookup"><span data-stu-id="c95a4-105">In both cases, you need to have an open production order that has the Created status.</span></span> <span data-ttu-id="c95a4-106">Dit is de tweede procedure van zeven waarin de levenscyclus van de productieorder wordt uitgelegd.</span><span class="sxs-lookup"><span data-stu-id="c95a4-106">This is the second procedure out of seven which explains the production order lifecycle.</span></span>
 

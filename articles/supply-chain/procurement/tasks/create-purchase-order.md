@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 165f29ceaabe4d09785e5f1edfe57db525264c15
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 50ca6f46253ca49b90493b4588e0bbf4e9711ecd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order"></a><span data-ttu-id="078b3-103">Inkooporder maken</span><span class="sxs-lookup"><span data-stu-id="078b3-103">Create a purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="078b3-104">Deze procedure laat zien hoe u een inkooporder handmatig maakt.</span><span class="sxs-lookup"><span data-stu-id="078b3-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="078b3-105">Het is gebruikelijker dat inkooporders automatisch worden gemaakt als resultaat van hoofdplanning, directe levering en andere processen.</span><span class="sxs-lookup"><span data-stu-id="078b3-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="078b3-106">Inkooporders worden meestal gemaakt door een inkoper.</span><span class="sxs-lookup"><span data-stu-id="078b3-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="078b3-107">Het hier weergegeven voorbeeld kan in het demobedrijf USMF worden gebruikt met de waarden die in de notities voor verschillende stappen worden voorgesteld.</span><span class="sxs-lookup"><span data-stu-id="078b3-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 

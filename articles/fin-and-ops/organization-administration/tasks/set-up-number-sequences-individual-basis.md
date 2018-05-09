@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 15253a9c96af67eb405b9ce42c5a328c8aec7ecc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 65a2fe64ebb30071cab4be1c34ba1c62f37d73c6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a><span data-ttu-id="a721b-103">Nummerreeksen op een individuele basis instellen</span><span class="sxs-lookup"><span data-stu-id="a721b-103">Set up number sequences on an individual basis</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a721b-104">Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor hoofdgegevensrecords en transactierecords die deze nodig hebben.</span><span class="sxs-lookup"><span data-stu-id="a721b-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="a721b-105">Een hoofdgegevens- of transactieregistratie die een identificatie nodig heeft wordt een verwijzing genoemd.</span><span class="sxs-lookup"><span data-stu-id="a721b-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="a721b-106">Voordat u nieuwe registraties voor een verwijzing kunt maken, moet u een nummerreeks instellen en deze aan de verwijzing koppelen.</span><span class="sxs-lookup"><span data-stu-id="a721b-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="a721b-107">U kunt alle vereiste nummerreeksen tegelijkertijd instellen met de wizard Nummerreeksen instellen of u kunt individuele nummerreeksen maken of wijzigen met de pagina Nummerreeksen.</span><span class="sxs-lookup"><span data-stu-id="a721b-107">You can set up all required number sequences at the same time by using the Set up number sequences wizard, or you can create or modify individual number sequences by using the Number sequences page.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961623b44fa098aa78bc512b5a6e3a8a4fe263dd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f1508673b04a25179ddd2109d0ecaa8a267fb8a7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settlement-overview-for-centralized-payments"></a><span data-ttu-id="cd9e2-104">Vereffeningsoverzicht voor gecentraliseerde betalingen</span><span class="sxs-lookup"><span data-stu-id="cd9e2-104">Settlement overview for centralized payments</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cd9e2-105">Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt.</span><span class="sxs-lookup"><span data-stu-id="cd9e2-105">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="cd9e2-106">Hierdoor hoeft u dezelfde transactie niet voor meerdere rechtspersonen in te voeren en bespaart u tijd doordat het betalingsvoorstelproces, het vereffeningsproces, en het bewerken van openstaande en gesloten transacties voor gecentraliseerde betalingen worden gestroomlijnd.</span><span class="sxs-lookup"><span data-stu-id="cd9e2-106">This eliminates the need to enter the same transaction in multiple legal entities and saves time by streamlining the payment proposal process, the settlement process, open transaction editing, and closed transaction editing for centralized payments.</span></span> 
 

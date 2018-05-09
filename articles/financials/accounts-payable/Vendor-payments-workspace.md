@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d4fb8251afad657d76f4b7b1de0a53ca584477a9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 211a64162c52377a7643004416d90029a3d17ee7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-payments-workspace"></a><span data-ttu-id="cddb4-104">Werkgebied voor betalingen aan leveranciers</span><span class="sxs-lookup"><span data-stu-id="cddb4-104">Vendor payments workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cddb4-105">In het werkgebied **Leveranciersbetalingen** wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersbetalingen.</span><span class="sxs-lookup"><span data-stu-id="cddb4-105">The **Vendor payments** workspace shows information that is related to the processing of vendor payments.</span></span> <span data-ttu-id="cddb4-106">Dit werkgebied bevat een weergave **Mijn werk** en een pagina **Analyses**.</span><span class="sxs-lookup"><span data-stu-id="cddb4-106">This workspace includes a **My work** view and an **Analytics** page.</span></span> <span data-ttu-id="cddb4-107">In de weergave **Mijn werk** vindt u overzichtstegels, rasters met leverancierstransacties en gerelateerde leveranciersgegevens.</span><span class="sxs-lookup"><span data-stu-id="cddb4-107">The **My work** view shows summary tiles, vendor transaction grids, and related vendor information.</span></span> <span data-ttu-id="cddb4-108">De pagina **Analyses** gebruikt de mogelijkheden van Microsoft Power BI om visuals te tonen die te maken hebben met betalingen aan leveranciers.</span><span class="sxs-lookup"><span data-stu-id="cddb4-108">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to vendor payments.</span></span>
 

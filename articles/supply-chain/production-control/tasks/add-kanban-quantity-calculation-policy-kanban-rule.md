@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 134fbbb2cde4c611798ec010ee7a128c06a80392
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: aae6e85397ed4a09812389bc39306201953ab9c2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="f1274-103">Een kanbanberekeningsbeleid aan een kanbanregel toevoegen</span><span class="sxs-lookup"><span data-stu-id="f1274-103">Add a kanban quantity calculation policy to a kanban rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f1274-104">Deze procedure is gericht op het maken van een beleid voor berekening van de kanbanhoeveelheid en het toevoegen hiervan aan een kanbanregel om de grootte en hoeveelheden van de kanban te optimaliseren.</span><span class="sxs-lookup"><span data-stu-id="f1274-104">This procedure focuses on creating a kanban quantity calculation policy and adding it to a kanban rule to optimize the kanban size and quantities.</span></span> <span data-ttu-id="f1274-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="f1274-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f1274-106">Deze procedure is bedoeld voor de waardestroombeheerder.</span><span class="sxs-lookup"><span data-stu-id="f1274-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="f1274-107">Deze procedure is een vereiste voor het maken van de procedure Suggesties voor kanbanhoeveelheid berekenen.</span><span class="sxs-lookup"><span data-stu-id="f1274-107">This procedure is a prerequisite for creating the procedure Calculate kanban quantity suggestions.</span></span> 
 

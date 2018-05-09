@@ -18,16 +18,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 213cabd17b24471cfc4657a433c7ad02ac03b24a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1e3e8ca7356001d113c676b25bd27f890ef1d650
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="payment-slip-report-for-europe"></a><span data-ttu-id="3cf20-103">Betalingsbonrapport voor Europa</span><span class="sxs-lookup"><span data-stu-id="3cf20-103">Payment slip report for Europe</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3cf20-104">Dit onderwerp bevat informatie over betalingsbonrapporten voor Europa.</span><span class="sxs-lookup"><span data-stu-id="3cf20-104">This topic provides information about payment slip reports for Europe.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4232deaa48fda7a388a1e57916975a6cea13cfe5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e40c7832ae9aaec5497d9aee92618fae72b96438
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="position-forecasting"></a><span data-ttu-id="8e5b4-104">Prognosepositie</span><span class="sxs-lookup"><span data-stu-id="8e5b4-104">Position forecasting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8e5b4-105">De onkosten die aan werknemers zijn gerelateerd vormen vaak een grote deel van de kosten van een organisatie.</span><span class="sxs-lookup"><span data-stu-id="8e5b4-105">Expenses that are related to workers often make up a large proportion of an organization's costs.</span></span> <span data-ttu-id="8e5b4-106">Positie voorspellen laat u die onkosten plannen en deze opnemen in de planning van budgetten.</span><span class="sxs-lookup"><span data-stu-id="8e5b4-106">Position forecasting lets you plan those expenses and include them in the planning of budgets.</span></span>
 

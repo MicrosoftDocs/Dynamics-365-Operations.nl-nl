@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5436aaeadbf2d59324fe6b74a837d4ca85e4baff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6c0c6e1a2b780707f7af284c5ecd69abc309eee4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a><span data-ttu-id="69dab-103">Een gedeeltelijke leveranciersbetaling vereffenen vóór de kortingsdatum met een definitieve betaling na de kortingsdatum</span><span class="sxs-lookup"><span data-stu-id="69dab-103">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="69dab-104">Dit artikel begeleidt u door een scenario waarbij meerdere gedeeltelijke betalingen worden gedaan, waarvan enkele binnen de periode van de contantkorting en andere buiten deze periode.</span><span class="sxs-lookup"><span data-stu-id="69dab-104">This article walks you through a scenario where multiple partial payments are made, some within the cash discount period and others outside the cash discount period.</span></span>
 

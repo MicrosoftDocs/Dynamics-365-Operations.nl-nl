@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4d8c82998e6b19adbd67b6b5ea3d68d2fbd08d8b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 32d32cc969548168ce736b18918ce86d9965c4a5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a><span data-ttu-id="5647f-103">Rapporteringsrelaties voor een positie wijzigen</span><span class="sxs-lookup"><span data-stu-id="5647f-103">Modify reporting relationships for a position</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5647f-104">Deze procedure toont hoe u de rapporteringsrelatie voor een werknemer wijzigt.</span><span class="sxs-lookup"><span data-stu-id="5647f-104">This procedure shows how to change the reporting relationship for an employee.</span></span> <span data-ttu-id="5647f-105">De rapporteringsrelatie kan worden gebruikt voor de routering van documenten door workflow.</span><span class="sxs-lookup"><span data-stu-id="5647f-105">The reporting relationship can be used for routing documents through workflow.</span></span> <span data-ttu-id="5647f-106">De procedure toont ook hoe u de werknemer aan aanvullende hiërarchieën toewijst.</span><span class="sxs-lookup"><span data-stu-id="5647f-106">The procedure also shows how to assign the employee to additional hierarchies.</span></span> <span data-ttu-id="5647f-107">Een werknemer kan bijvoorbeeld deel uitmaken van een projectteam met een informele rapporteringsrelatie met een projectsupervisor.</span><span class="sxs-lookup"><span data-stu-id="5647f-107">For example, an employee might be a part of a project team with an informal reporting relationship to a project supervisor.</span></span> <span data-ttu-id="5647f-108">U kunt extra rapporteringsrelaties bepalen op de functie om diverse project- of matrixscenario's te bevatten.</span><span class="sxs-lookup"><span data-stu-id="5647f-108">Additional reporting relationships can be defined on the position to accommodate various project or matrix scenarios.</span></span> <span data-ttu-id="5647f-109">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="5647f-109">The demo data company used to create this procedure is USMF.</span></span>
 

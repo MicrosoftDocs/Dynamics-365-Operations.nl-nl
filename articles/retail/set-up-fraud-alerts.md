@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83b15e89e87d2936cd175e05fc99e7faf4c0467e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a9112e88464274fb544e4ba4eaae7b1a36ccd2e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-fraud-alerts"></a><span data-ttu-id="41dc1-104">Fraudewaarschuwingen instellen</span><span class="sxs-lookup"><span data-stu-id="41dc1-104">Set up fraud alerts</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="41dc1-105">In dit onderwerp wordt uitgelegd hoe u criteria en regels instelt om mogelijk frauduleuze verkooporders in de wachtstand te plaatsen voor verder onderzoek.</span><span class="sxs-lookup"><span data-stu-id="41dc1-105">This topic explains how to set up criteria and rules to place potentially fraudulent sales orders on hold for further review.</span></span> <span data-ttu-id="41dc1-106">De functie voor fraudebeoordeling wordt gebruikt om de geldigheid van de gegevens in een verkooporder te bepalen.</span><span class="sxs-lookup"><span data-stu-id="41dc1-106">Fraud review functionality is used to determine the validity of information in a sales order.</span></span> <span data-ttu-id="41dc1-107">Als de informatie in de verkooporder dubieus lijkt op basis van de fraudecriteria en -regels van een organisatie, kan de order door een beheerder in de wachtstand worden geplaatst voor nader onderzoek.</span><span class="sxs-lookup"><span data-stu-id="41dc1-107">If the information in the sales order appears to be questionable based on an organization’s fraud criteria and rules, the order may be put on hold for further review by an administrator.</span></span>
 

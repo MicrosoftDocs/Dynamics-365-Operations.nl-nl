@@ -18,15 +18,15 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d56eba7b3e33aed49675ae19c8ba78cc92d2c8e3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4410080909cae0242a4c46a8cb7ea8a9574ca3bf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="generate-affordable-care-act-reports"></a><span data-ttu-id="5380c-103">Rapporten voor de Wet Betaalbare zorg maken</span><span class="sxs-lookup"><span data-stu-id="5380c-103">Generate Affordable Care Act reports</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="5380c-104">Er is functionaliteit beschikbaar om werkgevers te helpen die de gegevens moeten bijhouden die wordt gemeld via de formulieren 1095-B en 1095-C, ter ondersteuning van het gedeelte **Employer Mandate** van de Affordable Care Act. Houd er rekening mee dat deze functionaliteit alleen beschikbaar is voor rechtspersonen in de Verenigde Staten.</span><span class="sxs-lookup"><span data-stu-id="5380c-104">Functionality is available to assist employers that need to track the information reported on forms 1095-B and 1095-C in support of the **Employer Mandate** portion of the Affordable Care Act. Note this functionality is only enabled for legal entities in the United States.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a9cb8050d5d2f0945be76be7370a2e49dee52819
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c8af002efb12f5b18100d2eb6c41c69a3daef1e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="e9a98-103">Een consignatieaanvullingsorder maken</span><span class="sxs-lookup"><span data-stu-id="e9a98-103">Create a consignment replenishment order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e9a98-104">Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.</span><span class="sxs-lookup"><span data-stu-id="e9a98-104">This procedure shows how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="e9a98-105">Het laat ook zien hoe u een ontvangst van producten registreert zodat de consignatievoorraad als voorhanden voorraad wordt geregistreerd die eigendom is van de leverancier.</span><span class="sxs-lookup"><span data-stu-id="e9a98-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="e9a98-106">Deze procdure wordt gewoonlijk uitgevoerd door een inkoper.</span><span class="sxs-lookup"><span data-stu-id="e9a98-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="e9a98-107">U kunt deze begeleiding gebruiken in het demobedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="e9a98-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="e9a98-108">Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="e9a98-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

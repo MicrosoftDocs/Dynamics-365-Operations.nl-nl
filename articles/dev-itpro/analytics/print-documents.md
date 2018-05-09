@@ -18,16 +18,16 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30a418e6c49849369f0a0e3ffa28f31b9b88b7e7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1e6893eda35b7e4d863116edf2787685071bbc3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="printing-in-finance-and-operations-applications"></a><span data-ttu-id="bb2e2-104">Afdrukken in toepassingen van Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="bb2e2-104">Printing in Finance and Operations applications</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bb2e2-105">In Microsoft Dynamics 365 for Finance and Operations kunt u documenten afdrukken met behulp van een lokale printer of een netwerkapparaat.</span><span class="sxs-lookup"><span data-stu-id="bb2e2-105">In Microsoft Dynamics 365 for Finance and Operations, you can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="bb2e2-106">In dit artikel vindt u een overzicht van hoe documenten worden afgedrukt.</span><span class="sxs-lookup"><span data-stu-id="bb2e2-106">This article provides an overview of how documents are printed.</span></span>
 

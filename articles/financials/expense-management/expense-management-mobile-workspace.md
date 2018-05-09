@@ -18,16 +18,16 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93e45257dec65dee0d20f4a6b14a7cc682fa0ab5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expense-management-mobile-workspace"></a><span data-ttu-id="ffbf1-105">Mobiel werkgebied voor onkostenbeheer</span><span class="sxs-lookup"><span data-stu-id="ffbf1-105">Expense management mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ffbf1-106">Dit onderwerp bevat informatie over het mobiele werkgebied voor **Onkostenbeheer**.</span><span class="sxs-lookup"><span data-stu-id="ffbf1-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="ffbf1-107">Via dit werkgebied kunnen gebruikers een ontvangstbewijs vastleggen en uploaden, zodat zij dit later aan een onkostennota kunnen koppelen.</span><span class="sxs-lookup"><span data-stu-id="ffbf1-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="ffbf1-108">Gebruikers kunnen ook snel een onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs en hun onkostennota's beheren.</span><span class="sxs-lookup"><span data-stu-id="ffbf1-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="ffbf1-109">Fiatteurs kunnen bovendien het mobiele werkgebied **Onkostenbeheer** gebruiken voor het weergeven van onkostenrapporten die aan hen zijn toegewezen, en deze goedkeuren of afwijzen.</span><span class="sxs-lookup"><span data-stu-id="ffbf1-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 

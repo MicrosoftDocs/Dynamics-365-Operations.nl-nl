@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3de34eeef042cb3f283ee53579b199c6a4c9091
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="086bd-104">Toewijzingsgrondslagen</span><span class="sxs-lookup"><span data-stu-id="086bd-104">Allocation bases</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="086bd-105">Een toewijzingsgrondslag vormt de basis waarop overheadkosten in Kostprijsboekhouding worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="086bd-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="086bd-106">Een toewijzingsgrondslag kan een hoeveelheid worden, zoals gebruikte machine-uren, verbruikte kilowattuur (kWh) of vierkante meters die in beslag worden genomen.</span><span class="sxs-lookup"><span data-stu-id="086bd-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="086bd-107">Toewijzingsgrondslagen worden meestal gebruikt voor het toewijzen van overheadkosten aan voorraad die wordt geproduceerd.</span><span class="sxs-lookup"><span data-stu-id="086bd-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="086bd-108">Een IT-afdeling wijst bijvoorbeeld de onkosten van de afdeling toe op basis van het aantal computers dat op elke afdeling wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="086bd-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 

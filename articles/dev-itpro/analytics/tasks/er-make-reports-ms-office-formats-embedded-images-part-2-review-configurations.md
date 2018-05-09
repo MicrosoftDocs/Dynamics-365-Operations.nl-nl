@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ca4749904607b458dbc0e81e451eb23cc465752e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a><span data-ttu-id="246bd-103">Configuraties beoordelen voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen</span><span class="sxs-lookup"><span data-stu-id="246bd-103">Review configurations to make reports in Microsoft Office formats with embedded images</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="246bd-104">Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleider 'ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: parameters instellen)'.</span><span class="sxs-lookup"><span data-stu-id="246bd-104">To complete these steps, you must first complete the steps in the “ER Make reports in MS Office formats with embedded images (Part 1: Set up parameters)” task guide.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9c9cf5d0f2c9d3fe2529af0f00c77d7d181c4e9c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d816e16cc79fe66e2b5bdbd6bc730271ba734779
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="electronic-tax-declarations-evat-netherlands"></a><span data-ttu-id="e153c-103">Elektronische belastingaangifte instellen (EVAT) (Nederland)</span><span class="sxs-lookup"><span data-stu-id="e153c-103">Electronic tax declarations (EVAT) (Netherlands)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e153c-104">Deze procedure begeleidt u door het instellen van een elektronische belastingaangifte voor Nederland.</span><span class="sxs-lookup"><span data-stu-id="e153c-104">This procedure walks you through setting up electronic tax declaration for the Netherlands.</span></span>
 

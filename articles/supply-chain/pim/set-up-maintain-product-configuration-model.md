@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6aa58bc1ca4ea59d268f97139cf6729cc6cd1d93
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2184b02d86442b4859308bb8d9b90191080bdf1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-a-product-configuration-model"></a><span data-ttu-id="87108-103">Een productconfiguratiemodel instellen</span><span class="sxs-lookup"><span data-stu-id="87108-103">Set up a product configuration model</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="87108-104">In dit artikel worden de stappen beschreven voor het maken en instellen van een productconfiguratiemodel.</span><span class="sxs-lookup"><span data-stu-id="87108-104">This article describes the steps for setting up and creating a product configuration model.</span></span>
 

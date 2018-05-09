@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0c9c868ff68369817be8f5951b7a9ca6da488067
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 308b9fd1bd725d8a3a5fe8e0ee2ed1cd3230688d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="adjust-project-transactions"></a><span data-ttu-id="be091-103">Projecttransacties corrigeren</span><span class="sxs-lookup"><span data-stu-id="be091-103">Adjust project transactions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="be091-104">In deze taakbegeleiding wordt beschreven hoe u een transactie voor een project corrigeert.</span><span class="sxs-lookup"><span data-stu-id="be091-104">This task guide shows you how to adjust a transaction on a project.</span></span> <span data-ttu-id="be091-105">U kunt projecttransacties echter een voor een corrigeren of selecteren in een lijst met alle projecttransacties.</span><span class="sxs-lookup"><span data-stu-id="be091-105">However, you can adjust project transactions one at a time, or select from a list of all project transactions.</span></span> <span data-ttu-id="be091-106">Deze taak wordt meestal uitgevoerd door de projectsupervisor.</span><span class="sxs-lookup"><span data-stu-id="be091-106">This task is usually completed by the Project supervisor.</span></span> <span data-ttu-id="be091-107">In deze taakbegeleiding wordt de gegevensset van USSI gebruikt.</span><span class="sxs-lookup"><span data-stu-id="be091-107">This task guide uses the USSI data set.</span></span>
 

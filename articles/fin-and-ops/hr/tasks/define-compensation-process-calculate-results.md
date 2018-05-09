@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d32a6245b7fcbbccb319c1ff37ce7a843e1851d2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="168a5-103">Compensatieproces definiëren en resultaten berekenen</span><span class="sxs-lookup"><span data-stu-id="168a5-103">Define compensation process and calculate results</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="168a5-104">Compensatieprocessen worden gebruikt om nieuwe compensatiebedragen en toekenningen voor werknemers te definiëren die in vaste en variabele compensatieplannen zijn ingeschreven.</span><span class="sxs-lookup"><span data-stu-id="168a5-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="168a5-105">Compensatieprocessen kunnen meerdere keren worden uitgevoerd om een 'wat-als'-analyse uit te voeren, om te controleren of alle wijzigingen en instellingen correct zijn.</span><span class="sxs-lookup"><span data-stu-id="168a5-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="168a5-106">Deze procedure maakt een compensatieproces, voert het proces uit en bekijkt de resultaten.</span><span class="sxs-lookup"><span data-stu-id="168a5-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="168a5-107">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="168a5-107">The demo data company used to create this procedure is USMF.</span></span>
 

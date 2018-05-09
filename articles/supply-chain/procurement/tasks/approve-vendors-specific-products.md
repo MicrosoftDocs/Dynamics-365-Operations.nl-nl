@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9bc32f4453deb028781514fd3b97602d07771402
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a6db8ab41ab393cc92b4fea0435608eff110d58b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="approve-vendors-for-specific-products"></a><span data-ttu-id="4a436-103">Leveranciers voor specifieke producten goedkeuren</span><span class="sxs-lookup"><span data-stu-id="4a436-103">Approve vendors for specific products</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4a436-104">Deze procedure laat zien hoe u leveranciers voor specifieke producten goedkeurt.</span><span class="sxs-lookup"><span data-stu-id="4a436-104">This procedure shows you how to approve vendors for specific products.</span></span> <span data-ttu-id="4a436-105">Zo kunt u bepalen welke leveranciers kunnen worden gebruikt wanneer het product aan een inkooporder wordt toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="4a436-105">This allows you to control which vendors can be used when the product is added to a purchase order.</span></span> <span data-ttu-id="4a436-106">U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.</span><span class="sxs-lookup"><span data-stu-id="4a436-106">You can use this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="4a436-107">Deze taak wordt meestal uitgevoerd door een inkoopmanager.</span><span class="sxs-lookup"><span data-stu-id="4a436-107">This task would typically be carried out by a Purchasing manager.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8691eea1f339902aa74978fa8f27151754cb3e09
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ff0bfb1de03c4952312a5e876941a0b6858a5f65
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="ship-orders-as-direct-deliveries"></a><span data-ttu-id="ac373-103">Orders verzenden als rechtstreekse leveringen</span><span class="sxs-lookup"><span data-stu-id="ac373-103">Ship orders as direct deliveries</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ac373-104">Deze procedure toont hoe een rechtstreekse levering voor een verkooporder wordt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="ac373-104">This procedure demonstrates how to create a direct delivery for a sales order.</span></span> <span data-ttu-id="ac373-105">U gebruikt rechtstreekse levering wanneer u goederen rechtstreeks van uw leverancier naar de klant wilt verzenden in plaats van deze eerst naar uw eigen magazijn te verzenden.</span><span class="sxs-lookup"><span data-stu-id="ac373-105">You use direct delivery when you want to ship goods to the customer directly from your vendor, instead of shipping them to your own warehouse first.</span></span> <span data-ttu-id="ac373-106">U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.</span><span class="sxs-lookup"><span data-stu-id="ac373-106">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="ac373-107">Om de tweede subtaak 'Rechtstreekse leveringen vanaf de workbench maken' met succes te voltooien, controleert u dat er voor het artikel dat u op de verkooporder kiest een standaardleverancier is opgegeven op het sneltabblad Inkoop van het model Vrijgegeven product.</span><span class="sxs-lookup"><span data-stu-id="ac373-107">To successfully complete the second sub-task "Create direct deliveries from the workbench", make sure that the item that you choose on the sales order has a default Vendor specified on the Purchase FastTab of the Released product master.</span></span>
 

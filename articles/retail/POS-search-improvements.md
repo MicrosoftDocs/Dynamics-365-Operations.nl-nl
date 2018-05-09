@@ -19,16 +19,16 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b7807a3c09bbc236f7f88d8372b2fa3a73038f0b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a><span data-ttu-id="e83c4-103">Overzicht van zoekfunctie voor producten en klanten in Point of Sale</span><span class="sxs-lookup"><span data-stu-id="e83c4-103">Overview of product and customer search in Point of Sale</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="e83c4-104">MPOS (Modern Point of Sale) en CPOS (Cloud Point of Sale) bieden een gebruiksvriendelijke zoekfunctie voor producten en klanten.</span><span class="sxs-lookup"><span data-stu-id="e83c4-104">Modern Point of Sale (MPOS) and Cloud Point of Sale (CPOS) provide easy-to-use search functionality for products and customers.</span></span> <span data-ttu-id="e83c4-105">Omdat de zoekbalk altijd aanwezig is boven aan MPOS- en CPOS-vensters, kunnen medewerkers snel producten en klanten opzoeken.</span><span class="sxs-lookup"><span data-stu-id="e83c4-105">Because the search bar is always present at the top of the MPOS and CPOS windows, employees can quickly search for products and customers.</span></span>
 
