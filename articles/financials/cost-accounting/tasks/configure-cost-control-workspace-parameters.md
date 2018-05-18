@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Parameters voor werkgebied voor kostenbeheer configureren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Gebruik deze procedure om het werkgebied kostenbeheer te configureren, zodat managers op verschillende niveaus in een organisatie inzicht kunnen krijgen in hun kostenobjecten, zoals kostencentra en productgroepen. Het demobedrijf USP2 is gebruikt om deze registratie te maken.
 

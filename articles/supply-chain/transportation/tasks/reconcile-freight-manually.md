@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="reconcile-freight-manually"></a>Handmatig vracht afstemmen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u vracht handmatig afstemt. Dit wordt gewoonlijk gedaan door een transportcoördinator. U kunt deze procedure gebruiken in het demobedrijf USMF.
 

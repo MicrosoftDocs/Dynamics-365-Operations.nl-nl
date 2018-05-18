@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>Assortimenten instellen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit artikel wordt beschreven wat een assortiment is en hoe u assortimenten instelt in Microsoft Dynamics 365 for Retail.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Account- en dimensiecombinaties invoeren (gesegmenteerd invoerbesturingselement)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u combinaties van rekeningen en dimensies of grootboekrekeningen invoert. Deze invoerervaring wordt ook wel gesegmenteerd invoerbestuur genoemd.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Verkooptrends en patronen analyseren
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 U kunt verkooptrends en -patronen in realtime bestuderen in Microsoft Dynamics 365 for Retail.
 

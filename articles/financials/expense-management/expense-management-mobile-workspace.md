@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Mobiel werkgebied voor onkostenbeheer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over het mobiele werkgebied voor **Onkostenbeheer**. Via dit werkgebied kunnen gebruikers een ontvangstbewijs vastleggen en uploaden, zodat zij dit later aan een onkostennota kunnen koppelen. Gebruikers kunnen ook snel een onkostenregel maken met behulp van een bijgevoegd ontvangstbewijs en hun onkostennota's beheren. Fiatteurs kunnen bovendien het mobiele werkgebied **Onkostenbeheer** gebruiken voor het weergeven van onkostenrapporten die aan hen zijn toegewezen, en deze goedkeuren of afwijzen.
 

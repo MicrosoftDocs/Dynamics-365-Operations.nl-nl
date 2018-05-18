@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-a-vendor-payment"></a>Een leveranciersbetaling omkeren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat de verschillen tussen het omkeren, verwijderen, ongeldig maken en afwijzen van een betaling. Bovendien worden de twee manieren om een leverancierscheque om te keren uitgelegd. 
 

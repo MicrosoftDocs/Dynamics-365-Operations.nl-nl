@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Werkcellen voor lean manufacturing definiëren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Een werkcel is een specifiek formulier van resourcegroepen die kan worden gebruikt in de activiteiten van het lean manufacturingproces. Werkcellen hebben invoer- en uitvoerlocaties en een capaciteitsdefinitie op basis van een model voor productiestroom. Voor meer informatie over de basisconcepten van werkcellen voor lean manufacturing en capaciteitsberekeningen raadpleegt u de whitepapers over lean manufacturing. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

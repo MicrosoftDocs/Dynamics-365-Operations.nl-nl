@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Automatische vrachtafstemming instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u gegevens instelt voor automatische vrachtafstemming. Dit wordt gewoonlijk uitgevoerd door een magazijnmanager. U kunt deze procedure gebruiken in het demobedrijf USMF.
 

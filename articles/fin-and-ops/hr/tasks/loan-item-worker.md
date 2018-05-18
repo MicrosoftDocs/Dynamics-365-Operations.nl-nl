@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="loan-items-to-a-worker"></a>Artikelen uitlenen aan een medewerker
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe een artikel kan worden uitgeleend aan een werknemer en hoe terugbezorging van het artikel door de werknemer kan worden vastgelegd. Werknemers kunnen ook leenartikelen aanvragen op hun pagina's Selfservice werknemer. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

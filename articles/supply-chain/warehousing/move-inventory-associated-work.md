@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Mutatie van voorraad met gekoppeld werk in Magazijnbeheer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Als u mutatie van voorraad gebruikt, kunt u bepalen welke magazijnmedewerkers gereserveerde voorraad mogen verplaatsen. Dit biedt de flexibiliteit om in gereguleerde magazijnen niet toe te staan dat een werknemer een nieuwe orderverzamellocatie kiest voor verzamelwerk dat al is gemaakt. Zo kan een magazijnbeheerder bepalen welke mogelijkheden beschikbaar zijn voor sommige minder ervaren werknemers.
 

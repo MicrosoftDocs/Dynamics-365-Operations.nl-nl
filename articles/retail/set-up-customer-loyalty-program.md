@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>Een klantloyaliteitsprogramma instellen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dit artikel beschrijft hoe u een loyaliteitsprogramma instelt. Een loyaliteitsprogramma kan helpen klantloyaliteit verhogen door klanten te belonen voor het kopen van producten in uw detailhandels. In Microsoft Dynamics 365 for Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Een projectbudget of budgetrevisie over perioden toewijzen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Nadat u een projectbudget of projectbudgetherziening invoert en voordat u deze ter goedkeuring indient, kunt u de bedragen over perioden toewijzen. Als het budget of de budgetherziening wordt geweigerd, kunt u ook de bedragen toewijzen voordat u het opnieuw indient. 
 

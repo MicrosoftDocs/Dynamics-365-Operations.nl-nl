@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-store-inventory"></a>Winkelvoorraad beheren
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit artikel worden de typen documenten beschreven waarmee u de voorraad van uw organisatie kunt beheren.
 

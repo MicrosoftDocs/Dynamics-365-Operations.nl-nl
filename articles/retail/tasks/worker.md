@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-a-worker"></a> Een medewerker configureren
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een medewerker detailhandel als een vertegenwoordiger kunt configureren die voor provisie op verkopen in POS aanmerking komt. Deze procedure gebruikt het demobedrijf USRT.
 

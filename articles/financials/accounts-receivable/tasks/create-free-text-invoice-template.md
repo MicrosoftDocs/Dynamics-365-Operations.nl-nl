@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-free-text-invoice-template"></a>Een sjabloon voor vrije-tekstfacturen maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bij deze registratie wordt het demobedrijf USMF gebruikt. De opname is bedoeld voor de gebruiker die verantwoordelijk is voor het beheren en verwerken van klantenfacturen.
 

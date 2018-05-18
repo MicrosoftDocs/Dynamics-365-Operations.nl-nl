@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="formula-designer"></a>Formuleontwerper
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u met de formuleontwerper formules kunt analyseren en beheren in een boomstructuur.
 

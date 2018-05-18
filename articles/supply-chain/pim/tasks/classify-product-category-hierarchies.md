@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Een product door middel van categoriehiërarchiën classificeren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Met categoriehiërarchieën worden producten geclassificeerd voor export, inkoop, verkoop of andere doeleinden. Deze taak wordt gewoonlijk uitgevoerd door een productmanager. In dit voorbeeld wordt het productnummer M0009 gebruikt voor het demogegevensbedrijf USMF.
 

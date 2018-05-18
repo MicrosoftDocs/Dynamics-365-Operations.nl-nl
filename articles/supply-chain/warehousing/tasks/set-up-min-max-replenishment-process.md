@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Een min./max. aanvullingsproces instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de strategie van min./max. aanvulling wordt gebruikt. Wanneer de voorraad onder het minimumniveau valt, wordt werk gemaakt om de locatie aan te vullen. De procedure laat ook zien hoe u vaste orderverzamellocaties kunt gebruiken om herbevoorrading mogelijk te maken zelfs als de voorraad onder het minimumniveau valt, en hoe het aanvullingsproces regelmatig kan worden uitgevoerd met een batchtaak. Deze taken worden meestal uitgevoerd door een magazijnmanager. U kunt deze procedure in het demobedrijf USMF uitvoeren met behulp van de voorbeeldwaarden in de notities of kunt de procedure op uw eigen gegevens uitvoeren. Als u uw eigen gegevens gebruikt, moet u ervoor zorgen dat u een magazijn hebt dat voor de magazijnbeheerprocessen is ingeschakeld.
 

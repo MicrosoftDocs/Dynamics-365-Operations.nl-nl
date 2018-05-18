@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>Een aanmaningsreeks maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Gebruik deze taakhandleiding om een aanmaningsreeks te maken. Bij deze taak wordt het demobedrijf USMF gebruikt.
 

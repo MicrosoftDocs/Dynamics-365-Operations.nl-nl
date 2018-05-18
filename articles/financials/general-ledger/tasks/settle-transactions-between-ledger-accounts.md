@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Transacties tussen grootboekrekeningen vereffenen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u transacties tussen grootboekrekeningen vereffent en een grootboekvereffening annuleert. Deze procedure gebruikt het demobedrijf USMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a> Beloningspunten voor loyaliteit definiëren
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het definiëren van loyaliteitsbeloningspunten. U moet loyaliteitsbeloningspunten instellen voordat u een loyaliteitsprogramma instelt. Deze procedure gebruikt het demobedrijf USRT.
 

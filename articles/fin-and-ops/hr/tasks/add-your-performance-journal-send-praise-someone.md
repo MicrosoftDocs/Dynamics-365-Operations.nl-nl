@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe u uw doelstellingen haalt of hoe u gedurende een periode hebt gepresteerd. U kunt ook vanuit het journaal de acties van een collega prijzen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is voor een functie die in versie 1611 van Dynamics 365 for Operations is toegevoegd.
 

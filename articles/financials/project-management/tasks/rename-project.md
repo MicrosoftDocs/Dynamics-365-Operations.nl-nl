@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Een projectfase hernoemen of wijzigen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Projectfasen kunnen dienen als richtlijn voor de levenscyclus van projecten. U kunt in het gebied Projectfase op de pagina Projectbeheer- en boekhoudingsparameters opgeven welke projectfasen u in uw projecten wilt opnemen. Dynamics 365 for Finance and Operations biedt vijf vooraf gedefinieerde projectfasen en drie door de gebruiker gedefinieerde fasen. U kunt de naam bijwerken van een projectfase die u gebruikt voor het bijhouden van de voortgang van projecten. U kunt ook namen opgeven voor door gebruikers gedefinieerde statusnamen. In deze taak wordt aangegeven hoe u (de naam van) een projectfase wijzigt en de gegevensset van USSI gebruikt.
 

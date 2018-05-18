@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Productpakketten voor inkooporders maken
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van een productpakket en het gebruik ervan in een inkooporder. De inkooporder wordt gebruikt om een order te maken voor een vooraf gedefinieerde set producten. Deze procedure gebruikt het demobedrijf USRT.
 

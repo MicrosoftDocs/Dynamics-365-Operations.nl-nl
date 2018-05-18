@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een menuopdracht Mobiel apparaat instelt. In dit voorbeeld, wordt de menuopdracht gebruikt voor het uitvoeren van werkzaamheden van het type Inkooporder. De werkklasse die aan de menuopdracht is gekoppeld, bepaalt welk werk geldig is. U kunt deze begeleiding gebruiken in het demobedrijf USMF. Doorgaans wordt deze procedure uitgevoerd door een magazijnbeheerder.
 

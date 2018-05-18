@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-image-to-a-product"></a>Een afbeelding aan een product toevoegen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure ziet u hoe u een afbeelding aan een product toevoegt. Het demogegevensbedrijf waarmee deze taak wordt gemaakt is USMF.
 

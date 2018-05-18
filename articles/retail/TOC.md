@@ -24,6 +24,7 @@
 # Btw
 ## [Btw-overzicht](../financials/general-ledger/indirect-taxes-overview.md)
 ## [Btw-berekeningsmethoden in het veld Oorsprong](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [Btw-overeenkomst en -overschrijvingen](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [Berekeningsopties Volledige bedrag en Interval voor btw-codes](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Callcenter
@@ -167,6 +168,7 @@
 ## [Een hardwarestation maken en koppelen](tasks/create-associate-hardware-station.md)
 ## [Registers maken en koppelen](tasks/create-associate-registers.md)
 ## [Een overzicht maken, berekenen en boeken voor een detailhandelwinkel](tasks/create-calculate-post-statement-retail-store.md)
+## [Verbeteringen voor het boeken van overzichten](statement-posting-EOD.md)
 ## [Callcenterorders maken](tasks/create-call-center-orders.md)
 ## [Financiële dimensies maken voor POS-kassa's en dimensiewaarden configureren voor kassa's](tasks/create-financial-dimensions-pos.md)
 ## [Financiële dimensies maken voor detailhandelskanalen en dimensiewaarden configureren voor winkels](tasks/create-financial-dimensions-retail-channels.md)
@@ -289,7 +291,6 @@
 ### [Een POS-API of -bewerking aanroepen vanuit een POS-uitbreiding](dev-itpro/pos-api-extension.md)
 ### [Retail Modern POS-triggers en afdrukken](dev-itpro/pos-trigger-printing.md)
 ### [Een aangepast besturingselement toevoegen aan een niet-schermontwerpweergave in Retail Modern POS](dev-itpro/pos-control-non-screen.md)
-### [De Retail-proxy voor POS en e-Commerce genereren](dev-itpro/pos-generate-retail-proxy.md)
 ### [Configuratiestappen voor Retail-ontwikkelaars die werken aan in de cloud gehoste ontwikkelingsvakken](dev-itpro/cloud-dev-box.md)
 
 ## Commerce runtime

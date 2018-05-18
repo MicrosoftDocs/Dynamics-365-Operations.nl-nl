@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-users-in-bulk"></a>Gebruikers bulksgewijs importeren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure kan worden gebruikt door systeembeheerders om een groot aantal gebruikers van Azure Active Directory te importeren.
 

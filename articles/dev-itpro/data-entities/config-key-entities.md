@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configuration-keys-and-data-entities"></a>Configuratiesleutels en gegevensentiteiten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Voordat u gegevensentiteiten gebruikt om gegevens te importeren of exporteren, is het raadzaam dat u eerst bepaalt wat het effect van configuratiesleutels is op de gegevensentiteiten die u van plan bent te gebruiken. 
 

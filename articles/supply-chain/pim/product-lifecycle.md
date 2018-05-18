@@ -29,7 +29,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Levenscyclusstatus van product 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Een levenscyclusstatus documenteert de levenscyclusstatus van een vrijgegeven product of productvariant. Statussen voor de productlevenscyclus worden gedefinieerd door de gebruiker, doorgaans een productmanager of een manager van producthoofdgegevens. Specifieke bedrijfsprocessen, zoals de hoofdplanning, kunnen worden beïnvloed door een specifieke levenscyclusstatus.   
 

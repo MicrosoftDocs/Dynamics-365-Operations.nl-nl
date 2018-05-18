@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="customer-payment-overview"></a>Overzicht van klantbetalingen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taakbegeleier behandelt verschillende methoden die worden gebruikt om klantenbetalingen in te voeren. Bij deze taak wordt het demobedrijf USMF gebruikt.
 

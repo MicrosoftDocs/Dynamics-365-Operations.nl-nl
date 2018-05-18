@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>Zwevend gemiddelde
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Zwevend gemiddelde is een permanente kostenmethode, gebaseerd op het gemiddelde, waarbij de kosten van voorraadproblemen niet veranderen wanneer de aankoopkosten veranderen. Het verschil wordt gekapitaliseerd en is gebaseerd op een proportionele berekening. Het overblijvende bedrag zijn onkosten. 
 

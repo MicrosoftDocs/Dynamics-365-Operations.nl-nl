@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> Afzetkanaalkenmerken definiëren
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Verrijk het kanaal door kanaal- en productkenmerken toe te voegen. U moet het kanaal toevoegen aan de standaardhiërarchie van de organisatie voordat u de kenmerken kunt definiëren.
 

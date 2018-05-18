@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Verzuimregistratie in Tijd en aanwezigheid
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de concepten voor verzuim beschreven en wordt uitgelegd hoe u verzuim afhandelt in Tijd en aanwezigheid.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>E-mailsjablonen beheren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 U kunt informatie vanuit de database van uw organisatie overbrengen naar de bladwijzers in een nieuw document en deze gebruiken in sjablonen die u helpen efficiënt te communiceren met sollicitanten en kandidaten. Hiertoe maakt u een sjabloon die standaardtekst en enkele bladwijzers bevat op de plaats waar de systeemgegevens moeten worden ingevoegd. Zo kunt u bijvoorbeeld adres- en contactgegevens voor een sollicitant invoegen in een Microsoft Word-document dat u kunt gebruiken bij het communiceren met die sollicitant. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

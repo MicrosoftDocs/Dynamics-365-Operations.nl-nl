@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="confirm-sales-orders"></a>Verkooporders bevestigen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure demonstreert hoe verkooporders worden bevestigd. U ziet hoe u één order bevestigt en hoe u meerdere orders tegelijk bevestigt. Deze taken worden meestal uitgevoerd door een verkooporderverwerker. U kunt deze procedure gebruiken met het demogegevensbedrijf USMF of met uw eigen gegevens. Voordat u begint, moet u ervoor zorgen dat er meerdere openstaande verkooporders voor dezelfde klant zijn. Als u USMF gebruikt, kunt u klant US-027 gebruiken.
 

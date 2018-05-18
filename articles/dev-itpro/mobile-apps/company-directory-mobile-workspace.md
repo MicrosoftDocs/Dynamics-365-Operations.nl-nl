@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Mobiel werkgebied Adresboek van bedrijf
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het mobiele werkgebied **Adresboek van bedrijf**. Met dit werkgebied kunnen gebruikers andere werknemers in hun organisatie weergeven en contact met hen opnemen.
 

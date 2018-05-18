@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>Herzieningen van projectbudgetten indienen en goedkeuren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In deze procedure wordt uitgelegd hoe u een projectbudget herziet. U kunt een projectbudget zoals vaak als nodig is herzien, maar u kunt niet het bedrag van een afzonderlijke revisie zien als het budget meer dan één keer is herzien. 
 

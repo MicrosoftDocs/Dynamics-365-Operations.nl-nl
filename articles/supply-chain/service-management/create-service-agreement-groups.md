@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>Serviceovereenkomstgroepen maken 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Serviceovereenkomstgroepen zijn handig voor het sorteren en filteren van serviceovereenkomsten.
 

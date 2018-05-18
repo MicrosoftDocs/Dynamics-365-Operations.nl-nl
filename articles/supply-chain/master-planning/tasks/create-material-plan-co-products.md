@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Een materiaalplan voor co-producten maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 De productieplanner plant de materiaalbehoeften voor artikelen die co-producten van de formule zijn. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USP2.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>Geavanceerde filter- en querysyntaxis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel worden de filter- en queryopties beschreven die beschikbaar zijn wanneer u de operator "komt overeen" in het dialoogvenster Geavanceerd filteren/sorteren gebruikt.
 

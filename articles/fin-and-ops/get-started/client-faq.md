@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="finance-and-operations-client-faq"></a>Veelgestelde vragen over Finance and Operations-client
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat antwoorden op veelgestelde vragen over de Microsoft Dynamics 365 for Finance and Operations-client.
 

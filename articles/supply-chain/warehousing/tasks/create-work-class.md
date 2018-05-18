@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-work-class"></a>Een werkklasse maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een werkklasse instelt. Werkklassen worden gebruikt om het type werkorderregels te bepalen en/of beperken dat een magazijnwerknemer op een mobiel apparaat kan verwerken. De regels die een werknemer kan verwerken, worden bepaald op basis van de werkklassen in menuopdrachten van mobiele apparaten waartoe de magazijnwerknemer toegang heeft, en de werkklasse die op de werkregels is opgegeven. Werkklassen kunnen ook worden gebruikt om de neerzetlocatie van een werkorderregel te valideren. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Deze procedure is bedoeld voor de magazijnbeheerder.
 

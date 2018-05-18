@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Overzicht aankomst
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over de functie Overzicht aankomst. De pagina Overzicht aankomst maakt deel uit van deze functie en biedt een overzicht van alle atikelen die naar verwachting zullen arriveren als binnenkomende artikelen.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>Onkostenworkflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 U kunt het workflowsysteem in Microsoft Dynamics 365 for Finance and Operations gebruiken om een beoordelingsproces voor onkostenrapporten in Onkostenbeheer in te stellen. U kunt een workflow instellen die de volgende criteria gebruikt om te bepalen wie onkostenrapporten goedkeurt:
 

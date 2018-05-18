@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>Projectbeheer en boekhouding
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt om in een service te voorzien, een product te produceren of een resultaat te halen.  
 

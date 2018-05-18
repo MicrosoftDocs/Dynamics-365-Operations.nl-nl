@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>Gegevens voor productmodellen overboeken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Het exporteren van gegevens voor een productconfiguratiemodel vereist dat u ten minste één productmodel beschikbaar hebt. Deze procedure gebruikt het model Geavanceerde luidspreker in het demobedrijf USMF om u te tonen hoe u gegevens voor dit model exporteert.
 

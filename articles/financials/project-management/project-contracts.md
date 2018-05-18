@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>Projectcontracten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat beschrijvingen en voorbeelden van projectcontracten die u voor typen projecten en financieringsbronnen kunt maken. Daarnaast wordt aangegeven hoe u contracten en factuurprojectklanten kunt beheren in Microsoft Dynamics 365 for Finance and Operations.
 

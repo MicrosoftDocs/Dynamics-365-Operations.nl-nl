@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Een product maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure doorloopt het maken van een nieuw product in de detailhandelsproducthiërarchie. Het demobedrijf dat wordt gebruikt om deze taak uit te voeren, is USRT en de taak is bedoeld voor de merchandisingmanager en de productontwerper.
 

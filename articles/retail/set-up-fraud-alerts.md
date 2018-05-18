@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>Fraudewaarschuwingen instellen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u criteria en regels instelt om mogelijk frauduleuze verkooporders in de wachtstand te plaatsen voor verder onderzoek. De functie voor fraudebeoordeling wordt gebruikt om de geldigheid van de gegevens in een verkooporder te bepalen. Als de informatie in de verkooporder dubieus lijkt op basis van de fraudecriteria en -regels van een organisatie, kan de order door een beheerder in de wachtstand worden geplaatst voor nader onderzoek.
 

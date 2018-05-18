@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>Een voorwaardelijke beslissing configureren in een workflow
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met behulp van de volgende procedure kunt u de eigenschappen van een voorwaardelijke beslissing configureren.
 

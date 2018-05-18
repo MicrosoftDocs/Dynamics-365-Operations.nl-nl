@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Toegangsrechten configureren voor een controller voor kostenobjecten
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Gebruik deze procedure om toegangsrechten te configureren voor een controller voor kostenobjecten. Deze registratie gebruikt het USP2-demogegevensbedrijf.
 

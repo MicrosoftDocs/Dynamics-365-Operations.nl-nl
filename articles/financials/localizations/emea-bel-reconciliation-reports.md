@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de standaardrapporten beschreven die Microsoft Dynamics 365 for Finance and Operations biedt om u te helpen bij de INTERVAT-belastingaangifte en afstemmingsanalyse.
 

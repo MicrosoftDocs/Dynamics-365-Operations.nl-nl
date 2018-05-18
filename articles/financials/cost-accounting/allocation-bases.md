@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Toewijzingsgrondslagen 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Een toewijzingsgrondslag vormt de basis waarop overheadkosten in Kostprijsboekhouding worden toegewezen. Een toewijzingsgrondslag kan een hoeveelheid worden, zoals gebruikte machine-uren, verbruikte kilowattuur (kWh) of vierkante meters die in beslag worden genomen. Toewijzingsgrondslagen worden meestal gebruikt voor het toewijzen van overheadkosten aan voorraad die wordt geproduceerd. Een IT-afdeling wijst bijvoorbeeld de onkosten van de afdeling toe op basis van het aantal computers dat op elke afdeling wordt gebruikt.
 

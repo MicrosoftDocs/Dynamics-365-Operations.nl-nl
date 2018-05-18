@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-close"></a>Voorraad sluiten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Als onderdeel van het proces voor uitgiftetransacties met ontvangsttransacties te vereffenen, kunt u ook het grootboek bijwerken om de aangebrachte correcties weer te geven.
 

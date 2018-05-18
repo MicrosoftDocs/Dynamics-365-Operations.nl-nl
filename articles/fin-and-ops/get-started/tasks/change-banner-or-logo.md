@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Banner of logo wijzigen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 De volgende procedure toont de stappen die systeembeheerders kunnen gebruiken om de banner- of logoafbeelding bij te werken die wordt weergegeven voor een rechtspersoon. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

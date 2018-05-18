@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Kostprijsberekeningsversies
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over kostprijsberekeningsversies, hoe u deze onderhoudt en de typen gegevens die u hierin kunt opnemen. Een kostprijsberekeningsversie is primair bedoeld om kostenrecords te bevatten over artikelen, kostencategorieën en berekeningsformules voor indirecte kosten.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>Een vrijgaveorder voor inkoop maken wanneer de inkooporder wordt gemaakt
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een inkooporder maakt. De inkoopovereenkomst moet worden toegepast wanneer u de inkooporder maakt omdat er algemene voorwaarden zijn die naar de koptekst van de inkooporder moeten worden gekopieerd. Deze taak worden meestal uitgevoerd door een inkoopagent. Als vereiste voor deze taakbegeleiding moet u een effectieve inkoopovereenkomst met een toezegging van een producthoeveelheid hebben voor een leverancier en voor artikelen. Dezelfde procedure kan worden gebruikt als u een inkoopovereenkomst met andere typen toezeggingen hebt. U kunt deze handleiding uitvoeren in het demobedrijf USMF. Als u USMF gebruikt, kunt u eerst de begeleiding 'Een inkoopovereenkomst maken' uitvoeren om de benodigde condities voor deze begeleiding in te stellen.
 

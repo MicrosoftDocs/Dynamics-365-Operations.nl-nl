@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Een toevoeging aan een vast activum invoeren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een toevoeging aan een bestaand vast activum toevoegt. Het doel van vaste-activatoevoegingen is artikeltoevoegingen, onderhoud, of verbeteringen voor een activum bij te houden, en is alleen ter informatie. Eventuele wijzigingen in de waarde van de vaste activa of levensduur moeten afzonderlijk worden gemaakt.   
 

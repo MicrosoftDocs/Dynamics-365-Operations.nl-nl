@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Pagina's naast elkaar weergeven met het pictogram Openen in nieuw venster
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt uitgelegd hoe u pagina's naast elkaar weergeeft in Microsoft Dynamics 365 for Finance and Operations.
 

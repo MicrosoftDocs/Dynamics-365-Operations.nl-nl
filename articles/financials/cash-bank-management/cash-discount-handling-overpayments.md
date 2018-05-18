@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Contantkorting voor te veel bedraagde betalingen verwerken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt scenario's die laten zien hoe een betaling wordt uitgevoerd wanneer de klant een contantkorting neemt maar ook te veel betaalt. 
 

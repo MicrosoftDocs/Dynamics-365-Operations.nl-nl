@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Een rechtspersoon maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Een rechtspersoon is een organisatie die wordt geïdentificeerd via registratie bij een wettelijke instantie. Rechtspersonen kunnen overeenkomsten aangaan en zijn verplicht prestatieoverzichten te overleggen. In de volgende procedure wordt uitgelegd hoe u een rechtspersoon maakt. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

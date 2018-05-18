@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Voortgang rapporteren op een mobiel taakapparaat
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u de voortgang van een productietaak in het formulier van de taakapparaatregistratie kunt starten en rapporteren.
 

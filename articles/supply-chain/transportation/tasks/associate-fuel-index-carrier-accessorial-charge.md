@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Een brandstofindex aan een vervoerder koppelen als bijkomende toeslag
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze handleiding laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van vervoerder en een bijkomend model voor brandstoftoeslag kunt maken en een brandstofindex vervoerder kunt koppelen aan een vervoerder. U moet een brandstofindex van vervoerder instellen voordat u deze handleiding uitvoert. U kunt de handleiding "Brandstofindex van een vervoerder instellen" gebruiken om dit te doen. Deze instellingstaken worden gewoonlijk uitgevoerd door een logistiek manager. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

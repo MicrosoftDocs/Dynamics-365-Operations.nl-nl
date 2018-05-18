@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Upgradeoverzicht van afschrijvingsboeken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In Microsoft Dynamics 365 for Operations (1611) zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept met de naam boek. Dit onderwerp bevat enkele overwegingen voor de upgrade. 
 
@@ -62,17 +62,17 @@ Optie 2: **Bestaande, door gebruiker gedefinieerde nummerreeks**: met deze optie
 De parameters bevinden zich aan het begin van de klasse ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 
 
 *// Geef een gewenste methode voor toewijzing van boekstukken op* 
-*// true, als u een bestaande nummerreekscode wilt gebruiken* 
-*// false, als u de door het systeem gedefinieerde nummerreeks (standaard) wilt gebruiken* const boolean NumberSequenceUseExistingCode = false;  
+ *// true, als u een bestaande nummerreekscode wilt gebruiken* 
+ *// false, als u de door het systeem gedefinieerde nummerreeks (standaard) wilt gebruiken* const boolean NumberSequenceUseExistingCode = false;  
 
 *// Als de methode met de door het systeem gedefinieerde nummerreeks wordt gebruikt, geeft u de parameters voor de nummerreeks op.*
-*// Er wordt een nieuwe nummerreeks met deze parameters gemaakt.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Er wordt een nieuwe nummerreeks met deze parameters gemaakt.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Als de methode met de bestaande nummerreeks wordt gebruikt, geeft u de bestaande nummerreekscode op.* 
-*// Toewijzing van boekstukken vindt per rij plaats voor bestaande nummerreeksen.* const str NumberSequenceExistingCode = ''; *// Het bereik van de bestaande nummerreekscode opgeven* 
-*// true, als de opgegeven nummerreeks wordt gedeeld* 
-*// false, als de opgegeven nummerreeks per bedrijf geldt* 
-*// De door het systeem gedefinieerde standaardnummerreeks wordt gebruikt als een nummerreekscode met het opgegeven bereik niet wordt gevonden.* const boolean NumberSequenceExistingIsShared = true; 
+ *// Toewijzing van boekstukken vindt per rij plaats voor bestaande nummerreeksen.* const str NumberSequenceExistingCode = ''; *// Het bereik van de bestaande nummerreekscode opgeven* 
+ *// true, als de opgegeven nummerreeks wordt gedeeld* 
+ *// false, als de opgegeven nummerreeks per bedrijf geldt* 
+ *// De door het systeem gedefinieerde standaardnummerreeks wordt gebruikt als een nummerreekscode met het opgegeven bereik niet wordt gevonden.* const boolean NumberSequenceExistingIsShared = true; 
 
 Herbouw het project dat de klasse bevat nadat de constanten zijn gewijzigd. 
 

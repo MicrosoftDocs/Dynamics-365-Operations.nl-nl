@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="performance-management-overview"></a>Overzicht Prestatiebeheer
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Met het prestatiebeheerproces kunnen werknemers hun prestaties met hun manager documenteren en bespreken. Managers kunnen vervolgens feedback en ondersteuning geven voor de werknemers.  
 

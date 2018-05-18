@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-periodic-journals"></a>Periodieke journalen boeken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 De periodieke journalen worden soms terugkerende journalen genoemd, omdat het bedrag, de tekst en andere informatie telkens worden herhaald als het periodieke journaal wordt opgehaald. Wanneer u een periodiek journaal maakt, geeft u het periode-interval op voor het terugkeerpatroon, zoals dagen of maanden. Deze taakbegeleiding maakt een periodiek journaal met een maandelijkse herhaling.
 

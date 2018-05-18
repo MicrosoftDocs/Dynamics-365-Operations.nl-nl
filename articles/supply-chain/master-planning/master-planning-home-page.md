@@ -29,7 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Startpagina Hoofdplanning
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Hoofdplanning biedt bedrijven de mogelijkheid hun toekomstige behoeften aan grondstoffen en capaciteit te bepalen en af te stemmen om de doelstellingen van het bedrijf te halen. In Hoofdplanning wordt het volgende beoordeeld: 
 

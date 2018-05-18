@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>Een op dimensies gebaseerd productmodel vrijgeven
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een productmodel vrijgeeft dat voor de op dimensies gebaseerde configuraties wordt gebruikt. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Het is een vereiste dat u een productmodel met de op dimensies gebaseerde configuratietechnologie hebt gemaakt. Dit is de tweede van acht procedures waarin wordt uitgelegd hoe u combinaties maakt voor een op dimensies gebaseerde configuratie.
 

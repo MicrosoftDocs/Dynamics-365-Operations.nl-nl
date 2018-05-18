@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-and-marketing"></a>Verkoopbeheer en marketing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met Verkoop en marketing kunt u verschillende typen gegevens in de verkoopstroom opvragen, opslaan en gebruiken. Hierbij gaat het om gegevens zoals het oorspronkelijke verkoopinitiatief, toekomstige opvolgingsacties en extra verkopen.
 

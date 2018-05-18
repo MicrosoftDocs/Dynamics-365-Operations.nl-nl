@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Persoonlijke onkosten in een onkostennota
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Tijdens zakenreizen kan het voorkomen dat werknemers persoonlijke uitgaven afrekenen met een creditcard van het bedrijf. Als u geen proces voor het verwerken van persoonlijke onkosten definieert, kan het goedkeuringsproces voor onkostennota's worden verstoord wanneer de werknemers de gespecificeerde onkostennota's indienen. 
 

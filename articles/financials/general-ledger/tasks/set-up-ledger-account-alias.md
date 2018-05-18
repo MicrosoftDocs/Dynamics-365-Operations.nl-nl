@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Een alias voor een grootboekrekening instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u een rekeningalias kunt maken die een snelkoppeling voor het invoeren van een rekeningnummer bevat. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Coproducten uit een bestaande formuleversie kopiëren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u coproducten van een bestaande formuleversie kopieert naar een andere formuleversie voor een vrijgegeven product. Het is een vereiste dat er minimaal één formuleversie is gekoppeld aan coproducten. Het demobedrijf USP2 wordt gebruikt om deze procedure te maken.
 

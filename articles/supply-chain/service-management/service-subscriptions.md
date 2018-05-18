@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Serviceabonnementen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Abonnementen zijn gebaseerd op een tijd- en materiaalproject. U kunt abonnementen maken op basis van een project, via de pagina **Serviceabonnementen** of met een serviceabonnementsgroep.
 

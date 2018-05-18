@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Een gepostdateerde cheque voor een klant registreren en boeken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 U kunt gegevens van een gepostdateerde cheque die u van een klant hebt ontvangen, registreren. U kunt de gepostdateerde cheque ook boeken en financiële transacties genereren.   Voer de volgende taken uit voordat u een gepostdateerde cheque die u van een klant hebt ontvangen, registreert en boekt:   • Stel gepostdateerde cheques in op de pagina Contanten en bankbeheer • Stel een betalingsmethode voor gepostdateerde cheques in   De rol voor deze procedure is Penningmeester. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 

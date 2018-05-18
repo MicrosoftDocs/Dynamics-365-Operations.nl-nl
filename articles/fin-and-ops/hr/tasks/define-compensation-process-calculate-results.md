@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Compensatieproces definiëren en resultaten berekenen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Compensatieprocessen worden gebruikt om nieuwe compensatiebedragen en toekenningen voor werknemers te definiëren die in vaste en variabele compensatieplannen zijn ingeschreven. Compensatieprocessen kunnen meerdere keren worden uitgevoerd om een 'wat-als'-analyse uit te voeren, om te controleren of alle wijzigingen en instellingen correct zijn. Deze procedure maakt een compensatieproces, voert het proces uit en bekijkt de resultaten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 

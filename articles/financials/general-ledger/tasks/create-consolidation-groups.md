@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Consolidatiegroepen en extra consolidatierekeningen maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont hoe u een groep met consolidatierekeningen kunt maken en vervolgens rekeningen aan de groep kunt toevoegen. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 

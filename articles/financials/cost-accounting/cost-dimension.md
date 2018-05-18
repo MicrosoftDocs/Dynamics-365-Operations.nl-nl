@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensies maken en dimensieleden importeren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kostprijsboekhouding is een onafhankelijke module die gegevens uit andere modules nodig heeft. Deze gegevens worden ingedeeld in:
 

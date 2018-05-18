@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Offerteaanvragen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat een overzicht van offerteaanvragen. Organisaties geven offerteaanvragen uit wanneer ze concurrerende aanbiedingen van verschillende leveranciers willen ontvangen voor de artikelen of services die ze moeten kopen. In een offerteaanvraag vraagt u leveranciers welke prijzen en leveringstijden ze kunnen bieden voor de hoeveelheid artikelen die u opgeeft.
 U kunt leveranciers ook vragen om op te geven of er bijkomende kosten zijn, zoals verzendkosten, of kortingen voor grote orders of vroege betaling van de leveranciersfactuur.
@@ -57,8 +57,8 @@ Wanneer u biedingen per e-mail ontvangt, moet u deze biedingen verwerken via de 
 
 Als een tweede herhaling van een antwoord vereist is van een leverancier, selecteert u **Retour** op de pagina **Reactie offerteaanvraag**. De actie Retour genereert een nieuw journaal en een rapport dat wordt afgedrukt, gearchiveerd en verzonden, afhankelijk van uw afdrukinstellingen.
 
-[!NOTE]
-De naam van de pagina **Offerteaanvraag** is gewijzigd. Deze pagina heeft in eerdere versies van Dynamics 365 for Finance and Operations de titel **Aanvraag voor offerteantwoord**.
+> [!NOTE]
+> De naam van de pagina **Offerteaanvraag** is gewijzigd. Deze pagina heeft in eerdere versies van Dynamics 365 for Finance and Operations de titel **Aanvraag voor offerteantwoord**.
 
 Als u scoringscriteria aan uw offerteaanvraagcase hebt toegevoegd, heeft de offerteaanvraag een scorepaneel waarin u de scores kunt invoeren. De totale scores op de offerteaanvraag worden weergegeven wanneer u de antwoorden op de pagina **Antwoorden vergelijken** vergelijkt. Op de pagina **Antwoorden vergelijken** kunt u tevens andere antwoordgegevens vergelijken, zoals de regelprijs, leverdatum en totale prijs.
 
@@ -126,8 +126,8 @@ Als u redencodes wilt gebruiken in een bieding om aan te geven waarom deze is af
 
 U kunt het uiterlijk van de afgedrukte of opgeslagen offerteaanvraagdocumenten configureren op de pagina **Formulierinstelling** in Inkoopbeheer.
 
-[!NOTE]
-Voor een configuratie van de publieke sector is het bij wijzigingen in een reeds verzonden offerteaanvraag vereist om het wijzigingsproces te gebruiken. Wanneer een offerteaanvraag wordt verzonden, worden velden vergrendeld.
+> [!NOTE]
+> Voor een configuratie van de publieke sector is het bij wijzigingen in een reeds verzonden offerteaanvraag vereist om het wijzigingsproces te gebruiken. Wanneer een offerteaanvraag wordt verzonden, worden velden vergrendeld.
 Als u de offerteaanvraag wilt wijzigen, moet u **Maken** dus selecteren om het wijzigingsproces te starten, zoals eerder beschreven. Het vergrendelingsgedrag wordt bepaald met de optie **Offerteaanvragen vergrendelen wanneer ze zijn verzonden** op de pagina **Parameters voor inkoopbeheer**. Deze parameter is standaard ingesteld op **Ja** en voor de configuratie van de publieke sector kan de standaardinstelling niet worden gewijzigd. Hoewel het aanpassingsproces handmatig kan worden verwerkt in een configuratie voor de niet-publieke sector, moet deze parameter worden gebruikt voor de configuratie van een publieke sector.
 
 Wanneer u een offerteaanvraagcase van het type inkooporder maakt en een voorraadartikel toevoegt aan de offerteaanvraag, wordt een voorraadtransactie gegenereerd met de ontvangststatus **Offerte-ontvangst**. Alleen regels voor offerteaanvraagcase die deze status hebben worden in overweging genomen als u een hoofdplan gebruikt om leveringen te berekenen. Als u wilt dat het hoofdplan regels voor offerteaanvraagcases bevat als verwachte ontvangst, moet u dit gedrag in de instellingen van de hoofdplanning configureren.

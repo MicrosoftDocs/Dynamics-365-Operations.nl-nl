@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Kostenwijzigingen simuleren via een kostprijsberekeningsversie voor geplande kosten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt uitgelegd hoe u de effecten van kostenwijzigingen op de berekende kosten van een gefabriceerd artikel simuleert met een aparte kostprijsberekeningsversie voor geplande kosten.
 

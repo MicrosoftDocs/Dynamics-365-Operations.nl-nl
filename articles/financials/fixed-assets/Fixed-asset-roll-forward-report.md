@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Voortschrijdend prognoserapport voor vaste activa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Het rapport **Voortschrijdend prognoserapport voor vaste activa** biedt in een gemakkelijk leesbare Microsoft Excel-indeling de gedetailleerde vaste activa-gegevens die u nodig hebt voor periodeafsluiting, financiële overzichten en btw-aangifte. Het rapport bevat begin- en eindsaldi voor vaste activa, samen met de waarderingsverplaatsingen voor de periode, en eventuele nieuwe activaverwervingen en -afstotingen die zijn opgetreden tijdens de periode. Gegevens worden voor afzonderlijke vaste activa gerapporteerd en waarden worden ook samengevat voor vaste-activagroepen en de rechtspersoon.
 

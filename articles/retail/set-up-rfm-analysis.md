@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>RFM-analyse instellen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een Recency-, Frequentie-, en Monetaire analyse (RFM) van uw klanten kunt instellen.
 

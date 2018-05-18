@@ -5,7 +5,8 @@
 ## [Microsoft Dynamics 365 for Talent inrichten](provisioning-talent.md)
 ## [Een Talent-omgeving verwijderen](remove-talent-environment.md)
 ## [Modulaire apps voor Microsoft Dynamics 365 for Talent inrichten](modular-app-tech-faq.md)
-## [Talent-functionaliteit uitbreiden](extend-talent-functionality.md)
+## [Functionaliteit Talent uitbreiden](extend-talent-functionality.md)
+## [Toegang tot voorbeeldfuncties in Dynamics 365 for Talent: Attract](access-preview-feature.md)
 
 # [Een strategie voor Human resources ontwikkelen](departments-jobs-positions.md)
 ## [Taakonderdelen instellen](create-job.md)

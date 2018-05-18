@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="vendor-rebates"></a>Leverancierskortingen
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met leverancierskortingen kunnen bedrijven hun kortingsprogramma's voor leveranciers beter beheren door taken te automatiseren die vereist zijn om verdiende kortingen te beheren, bij te houden en te claimen.
 

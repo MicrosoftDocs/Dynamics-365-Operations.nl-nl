@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Een waardestroom maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Waardestromen zijn operationele eenheden die één of meerdere productiestromen groeperen. Om een productiestroom te definiëren, moet u eerst een waardestroom definiëren.
 

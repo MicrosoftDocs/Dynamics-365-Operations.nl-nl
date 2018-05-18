@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> Het functionaliteitsprofiel voor een verkoopvertegenwoordiger configureren
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure geeft aan hoe u de instellingen van het functionaliteitprofiel van een opslag configureert dat op vertegenwoordigers van toepassing is. Deze procedure gebruikt het demobedrijf USRT.
 

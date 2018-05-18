@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Producten buiten een assortiment verkopen en retourneren
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Een gangbaar scenario voor elke retailer is dat hij aan hun klanten producten verkoop of retouren van de klanten accepteert, zelfs als hij de specifieke producten niet voert in zijn winkel (met andere woorden, de producten zijn niet geassorteerd aan de winkel).
 Hierna vindt u enkele typische scenario's:

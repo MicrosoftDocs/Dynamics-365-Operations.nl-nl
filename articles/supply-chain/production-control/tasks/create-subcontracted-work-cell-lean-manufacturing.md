@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Een uitbestede werkcel voor lean manufacturing maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Als u uitbesteed werk wilt modelleren voor lean manufacturing, moet u een werkcel maken die is gekoppeld aan de leverancier die het werk levert. Een uitbestede werkcel is gekoppeld aan de leverancier via de koppeling van een resource van het type Leverancier. Als u deze opname afspeelt in het voorbeeldbedrijf USMF, kunt u de leveranciersrekening ID 1002 en site 1 selecteren.
 

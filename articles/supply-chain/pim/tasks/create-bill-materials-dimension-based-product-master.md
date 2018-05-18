@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Een stuklijst maken voor een op dimensies gebaseerd productmodel
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Voor deze procedure moet u de vorige 4 begeleidingen in deze reeks van acht registraties hebben voltooid. Met de eerste 4 registraties zijn gegevens ingesteld die nodig zijn om deze procedure te voltooien. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze taak wordt doorgaans afgehandeld door de productontwerper.
 

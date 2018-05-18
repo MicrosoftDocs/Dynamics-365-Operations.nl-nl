@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-positions"></a>Posities instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Posities zijn een belangrijk element van het lagere niveau van een organisatiehiërarchie. Een positie is een afzonderlijk exemplaar van een taak. De positie 'Verkoopmanager (Oost)' is bijvoorbeeld een van de posities die is gekoppeld aan de taak 'Verkoopmanager'. Een positie in een afdeling bestaat en mogelijk is er slechts één werknemer aan gekoppeld. In deze taak wordt u begeleid bij het uitvoeren van de stappen die zijn vereist om een positie te maken. Deze procedure is bedoeld voor personeelsspecialisten.
 

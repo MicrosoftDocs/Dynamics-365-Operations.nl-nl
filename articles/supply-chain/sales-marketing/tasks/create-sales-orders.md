@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>Verkooporders maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een verkooporder maakt. U kunt deze procedure met het bedrijf USMF van de demogegevens gebruiken. De verkooporders worden gewoonlijk gemaakt door een verkooporderbewerker. 
 

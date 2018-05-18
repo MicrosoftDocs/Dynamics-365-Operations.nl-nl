@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen genereren en boeken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Terugkerende facturen worden gebruikt om klanten regelmatig voor hetzelfde bedrag te factureren. Bij deze registratie wordt het demobedrijf USMF gebruikt. De opname is bedoeld voor de persoon die verantwoordelijk is voor het beheren en verwerken van klantenfacturen.
 

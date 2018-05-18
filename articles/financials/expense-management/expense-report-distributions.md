@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Verdelingen in een onkostennota
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Wanneer u onkosten invoert in een onkostennota, kunt u de onkosten verdelen over meerdere projecten, financiële dimensies of rekeningen in uw organisatie.
 

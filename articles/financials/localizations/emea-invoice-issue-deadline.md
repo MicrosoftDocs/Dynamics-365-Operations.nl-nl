@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-issue-deadline"></a>Deadline voor uitgeven van facturen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt uitgelegd hoe u parameters voor de berekening van de vervaldatums voor het uitgeven van klantfacturen en leveranciersfacturen in de Europese Unie (EU) instelt.
 

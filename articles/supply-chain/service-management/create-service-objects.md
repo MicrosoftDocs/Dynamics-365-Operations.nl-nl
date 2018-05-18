@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="create-service-objects"></a>Serviceobjecten maken  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
    
 De serviceobjecten zijn de activum en de producten van een klant waarvoor u een service kunt uitvoeren. 
 

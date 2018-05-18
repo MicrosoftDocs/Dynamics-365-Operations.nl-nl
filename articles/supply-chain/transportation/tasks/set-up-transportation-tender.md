@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-transportation-tender"></a>Een transportbetalingsmethode instellen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure laat zien hoe u een Transportaanbesteding instelt. Dit wordt gewoonlijk gedaan door een transportcoördinator. U kunt deze procedure gebruiken in het demobedrijf USMF.
 

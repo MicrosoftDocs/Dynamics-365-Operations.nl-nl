@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="validate-a-production-flow-and-version"></a>Een productiestroom en -versie valideren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure toont aan hoe u een nieuwe productiestroom en een eerste versie voor lean manufacturing maakt. Vereisten: De productieparameters voor lean manufacturing en de maateenheden voor de klasse Tijd moeten worden gedefinieerd. U moet een Waardestroom en een Productiegroep definiëren. Raadpleeg de whitepapers over lean manufacturing om uzelf vertrouwd te maken met de concepten van productiestromen en activiteiten. Deze procedure verwijst naar de rechtspersoon USMF in demogegevens. Als we er echter van uitgaan dat de rechtspersoon voor lean manufacturing is geconfigureerd, kunnen andere rechtspersonen worden gebruikt.
 

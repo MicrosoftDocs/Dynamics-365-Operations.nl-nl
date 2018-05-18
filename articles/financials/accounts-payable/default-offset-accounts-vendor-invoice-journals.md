@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Standaardtegenrekeningen voor leveranciersfactuurjournalen en factuurgoedkeuringsjournalen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Standaardtegenrekeningen worden gebruikt op de volgende pagina's voor leveranciersfactuurjournalen:
 

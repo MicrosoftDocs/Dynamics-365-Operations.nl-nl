@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Eigenschappen van werktijdplanningen maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Eigenschappen van werktijdplanningen worden gebruikt om werktijdsintervallen te categoriseren en de instellingen te definiëren waarmee operators rekening moeten houden. Deze procedure laat zien hoe u een eigenschap van de werktijdplanning en gekoppelde eigenschapswaarden kunt definiëren. U kunt deze procedure met het demobedrijf USMF uitvoeren of uw eigen gegevens gebruiken.
 

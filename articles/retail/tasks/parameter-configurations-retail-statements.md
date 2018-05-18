@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="parameter-configurations-for-retail-statements"></a> Parameterconfiguraties voor detailhandeloverzichten
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Deze procedure demonstreert configuraties voor detailhandelparameters die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt. Deze procedure gebruikt het demobedrijf USRT.
 

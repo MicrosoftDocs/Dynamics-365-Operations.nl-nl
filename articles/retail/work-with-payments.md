@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="payment-methods-in-a-call-center"></a>Betalingsmethoden in een callcenter
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In Microsoft Dynamics 365 for Retail omvat de configuratie van het callcenterkanaal een instelling met de naam **Ordervoltooiing inschakelen**. Deze instelling zorgt ervoor dat alle orders die gebruikers van het kanaal maken, alleen voor orderverwerking worden vrijgegevens als ze hebben vooraf zijn betaald of vooraf zijn geautoriseerd voor betaling binnen de goedgekeurde marges. Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, kunnen gebruikers van het callcenter betalingen voor de verkooporders van klanten invoeren met behulp van de functies voor betalingsverwerking van het callcenter. Als de instelling is uitgeschakeld, kunnen callcentergebruikers de betalingsverwerkingsfuncties van het callcenter niet gebruiken, maar kunnen ze nog wel vooruitbetalingen voor verkooporders toepassen met behulp van standaardfunctionaliteit van Klanten.
 

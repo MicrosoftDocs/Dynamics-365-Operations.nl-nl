@@ -26,7 +26,7 @@ ms.lasthandoff: 04/13/2018
 # <a name="reverse-charge-vat"></a>Omgekeerde toeslag
 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 
 In dit onderwerp wordt een generieke aanpak beschreven voor het instellen van de omgekeerde toeslag voor Saudi-Arabië en Europese landen.

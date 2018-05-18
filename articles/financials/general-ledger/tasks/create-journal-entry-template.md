@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>Een journaalboeking maken met een sjabloon
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Geboekte journaalboekstuk kunnen als boekstuksjablonen worden opgeslagen en toegepast in een nieuw journaalboekstuk. Bij deze procedure wordt het demobedrijf USMF gebruikt.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Klanten en Crediteringen en aanmaningen configureren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Configureer Klanten en Crediteringen en aanmaningen om facturen en binnenkomende betalingen van klanten bij te houden.
 

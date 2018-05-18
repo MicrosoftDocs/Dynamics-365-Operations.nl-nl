@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-fees"></a>Bijzondere kosten voor leveranciersbetalingen definiëren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Stel bijzondere kosten voor leveranciersbetalingen in. Bij deze taak wordt het demobedrijf USMF gebruikt.
 

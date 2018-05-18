@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>Een productiestroomversie activeren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Voordat kanbantaken kunnen worden gemaakt en activiteiten kunnen worden verwerkt voor een productiestroomversie, moet u de versie activeren. Als best practice activeert u de versie voordat de ingangsdatum en -tijd zijn verlopen. Als u deze taak wilt uitvoeren, moet u een productiestroomversie met de status Concept hebben om de versie te kunnen activeren. 
 

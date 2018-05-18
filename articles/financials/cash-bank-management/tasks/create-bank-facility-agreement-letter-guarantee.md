@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Een bankfaciliteitsovereenkomst maken voor de borgstelling
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak maakt een bankfaciliteitsovereenkomst om een borgstelling te verwerken. Bij deze taak wordt het demobedrijf USMF gebruikt. 
 

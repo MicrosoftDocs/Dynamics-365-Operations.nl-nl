@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Configuraties beoordelen voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleider 'ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: parameters instellen)'.
 

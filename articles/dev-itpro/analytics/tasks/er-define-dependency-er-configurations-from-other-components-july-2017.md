@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>De afhankelijkheid van configuraties van andere onderdelen definiëren 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Voordat u deze stappen uitvoert, moet u eerst de stappen in de taakbegeleiding ER modeltoewijzingsconfiguraties uitvoeren en moet u toegang hebben tot Microsoft Dynamics Lifecycle Services (LCS).
 

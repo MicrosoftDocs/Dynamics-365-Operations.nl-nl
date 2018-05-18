@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Regels maken voor Optimization advisor
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u nieuwe regels maakt voor **Optimization advisor**. U kunt bijvoorbeeld een nieuwe regel maken die aangeeft welke offerteaanvragen een lege titel hebben. Met behulp van titels op aanvragen worden ze gemakkelijk herkenbaar en zoekbaar. Dit voorbeeld is heel eenvoudig maar toont wat met regels voor optimalisatie kan worden bereikt. 
 

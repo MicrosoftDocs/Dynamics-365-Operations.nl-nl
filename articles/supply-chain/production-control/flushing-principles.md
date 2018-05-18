@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Het grondstoffenverbruik beheren door middel van wisprincipes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 De wisprincipes vertegenwoordigen verschillende verbruikstrategieën voor grondstoffen die worden gebruikt in de productieprocessen. Verbruik is het proces dat materiaal van de voorhanden voorraad aftrekt en de waarde van het verbruikte materiaal instelt op **Onderhanden werk** (OHW) voor productieorders en batchorders. Grondstoffen worden meestal verbruikt vanaf een locatie die is geconfigureerd voor het proces waarbij het materiaal wordt verbruikt. Deze locatie wordt de productie-invoerlocatie genoemd.
 

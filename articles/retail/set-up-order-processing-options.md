@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>Een callcenterkanaal instellen
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Een bedrijf kan meerdere callcenterkanalen in Microsoft Dynamics 365 for Retail definiëren. Callcenterkanalen worden geconfigureerd via **Retail** \> **Kanalen** \> **Callcenters** \> **Alle callcenters**, en zijn specifiek voor een rechtspersoon.
 

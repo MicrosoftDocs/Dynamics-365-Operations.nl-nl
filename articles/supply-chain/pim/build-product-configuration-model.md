@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>Een productconfiguratiemodel maken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 De noodzaak om producten te configureren om aan speciale vereisten te voldoen, wordt de regel eerder dan de uitzondering, zowel in business-to-business- als business-to-consumer-relaties.
 

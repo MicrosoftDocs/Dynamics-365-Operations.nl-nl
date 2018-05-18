@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Intercompany-facturering
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie en voorbeelden met betrekking tot intercompany-facturering voor projecten in Microsoft Dynamics 365 for Finance and Operations.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Salaris op basis van registraties
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt gedetailleerd uitgelegd hoe salaris wordt berekend op basis van medewerkerregistraties. U vindt hier voorbeelden die laten zien hoe de verschillende combinaties van beschikbare instellingsopties voor de berekening het resultaat beïnvloeden. Hier volgen enkele van de onderwerpen die aan bod komen:
 

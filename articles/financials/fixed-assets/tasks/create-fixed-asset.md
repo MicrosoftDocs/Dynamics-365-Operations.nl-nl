@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-asset"></a>Een vast activum maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bij deze taakbegeleiding wordt het demobedrijf USMF gebruikt.  Er wordt een nieuw vast activum gemaakt met de lijstpagina Vaste activa.
 

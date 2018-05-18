@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>Kostprijsberekening via terugwaarts afboeken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt het concept van kostprijsberekening via terugwaarts afboeken geïntroduceerd dat wordt gebruikt voor Lean manufacturing. 
 

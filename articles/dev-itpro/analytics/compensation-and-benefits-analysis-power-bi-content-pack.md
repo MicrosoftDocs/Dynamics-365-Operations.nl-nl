@@ -27,7 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>Power BI-inhoud Compensatie en vergoedingen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt Power BI-inhoud Compensatie en vergoedingen van Finance and Operations beschreven. 
 

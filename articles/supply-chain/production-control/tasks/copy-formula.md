@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>Een formule kopiëren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure is gericht op het maken van een formule met dezelfde ingrediënten als een bestaande formule, maar met kleine verschillen. Om de formuleregels te maken, kunt u de kopieerfunctie gebruiken om een bestaande formule te kopiëren die de meeste ingrediënten bevat die u nodig hebt. U kunt vervolgens alle vereiste wijzigingen doorvoeren in de afzonderlijke regels in de nieuwe versie. Wanneer u de kopieerfunctie gebruikt, hoeft u niet meerdere formules te maken die bijna identiek zijn. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USP2.
 

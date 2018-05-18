@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Geboekte btw-transacties weergeven
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 U kunt geboekte btw-transacties bekijken van diverse pagina´s, afhankelijk van wat u wilt bekijken. Bij deze taak wordt het demobedrijf USMF gebruikt.
 

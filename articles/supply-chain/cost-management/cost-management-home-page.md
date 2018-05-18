@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Startpagina Kostenbeheer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met [Kostenbeheer (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) kunt u werken met de waardering en boekhouding van grondstoffen, halffabricaten, eindproducten en onderhanden werk. Dit is het proces voor het definiëren, beheren en rapporteren van [voorraadboekhouding](cost-object.md) en [productieboekhouding](bom-calculations.md).
 

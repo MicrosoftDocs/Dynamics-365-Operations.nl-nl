@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>Methode voor totale kostentoewijzing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat richtlijnen voor het gebruik van de totale kostentoewijzing (TCA). TCA is een methode om de kosten te berekenen tussen het belangrijkste formuleartikel voor een batchorder en de coproducten die voor de formule zijn gedefinieerd.
 

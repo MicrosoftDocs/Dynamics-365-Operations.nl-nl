@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Het hulpmiddel voor testgegevensoverdracht (bèta) voor Dynamics AX (AX 2012) uitvoeren
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Het doel van snelle import/export is om u in staat te stellen met minder stappen te importeren en exporteren.
 

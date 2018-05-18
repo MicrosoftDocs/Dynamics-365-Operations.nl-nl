@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-new-jobs"></a>Nieuwe taken definiëren
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak is gericht op het maken van een nieuwe taak. Het wordt voltooid met handmatige invoer en functionaliteit Kopiëren uit sjabloon. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een personeelsspecialist.
 

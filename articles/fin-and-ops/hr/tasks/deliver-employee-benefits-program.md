@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="deliver-an-employee-benefits-program"></a>Een vergoedingenprogramma voor werknemers maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze taak laat zien hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding. Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF. Deze taak is bedoeld voor een Manager compensatie en vergoedingen.
 

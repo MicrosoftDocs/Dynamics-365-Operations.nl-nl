@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>Geavanceerde regels voor journalen maken
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Deze procedure begeleidt u bij het maken van geavanceerde regels voor journalen. Dit omvat het instellen van journaalcontrole en boekingsbeperkingen voor gebruikers. Deze procedure gebruikt het demobedrijf USMF.
 
