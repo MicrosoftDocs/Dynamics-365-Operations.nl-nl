@@ -10,8 +10,13 @@
 ## [Een evaluatie-exemplaar ontvangen](dev-tools/get-evaluation-copy.md)
 ## [Aanmelden voor een abonnement](dev-tools/sign-up-preview-subscription.md)
 ## [Een ontwikkelomgeving implementeren en openen](dev-tools/access-instances.md)
-## [Systeemvereisten voor ontwikkeling](dev-tools/development-system-requirements.md)
-## Voorbeeldtoepassing voor wagenparkbeheer
+### [Ontwikkelaar-VM configureren](dev-tools/configure-developer-vm.md)
+### [Een nieuwe gebruiker maken op een ontwikkelcomputer](dev-tools/enable-development-machine.md)
+### [Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerdertoegang niet is toegestaan](sysadmin/VMs-no-admin-access.md)
+### [De naam van een lokale omgeving voor toegang tot Visual Studio Team Services wijzigen](migration-upgrade/vso-machine-renaming.md)
+### [Systeemvereisten voor ontwikkeling](dev-tools/development-system-requirements.md)
+## [Versiebeheer, metagegevens zoeken en navigatie](dev-tools/version-control-metadata-navigation.md)
+## ​Voorbeeldtoepassing voor wagenparkbeheer
 ### [Voorbeeldtoepassing voor wagenparkbeheer](dev-tools/fleet-management-sample.md)
 ### [Overzicht van voorbeeldtoepassing voor wagenparkbeheer](dev-tools/introduction-fleet-management-sample.md)
 ## Visual Studio Tools
@@ -22,7 +27,8 @@
 ### [Buildbewerkingen](dev-tools/build-operations.md)
 ### [Code-editor](dev-tools/code-editor.md)
 ### [Een model en gegevensmodelelementen maken](dev-tools/create-data-model-elements.md)
-### [Een nieuwe gebruiker maken op een ontwikkelcomputer](dev-tools/enable-development-machine.md)
+#### [Naamgevingsrichtlijnen](extensibility/NamingGuidelines.md)
+#### [Modelaanpassingen uitschakelen en functionaliteit afschaffen](dev-tools/lock-models.md)
 ### [Rapport Aanpassingsanalyse](dev-tools/customization-analysis-report.md)
 ### [Elementontwerpers](dev-tools/element-designers.md)
 ### [Elementgebruik](dev-tools/element-usage.md)
@@ -31,7 +37,6 @@
 ### [Modellen](dev-tools/models.md)
 ### [Projecten in Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Invoegtoepassingen met hulpmiddelen voor Visual Studio](dev-tools/developer-tools-add-ins.md)
-### [Modelaanpassingen uitschakelen en functionaliteit afschaffen](dev-tools/lock-models.md)
 ### [Visual Studio-ontwikkelprogramma's bijwerken](dev-tools/update-development-tools.md)
 ## X++-programmeertaal
 ### [X++ en foutopsporingsfuncties ](dev-tools/new-x-debugger-features.md)
@@ -104,7 +109,7 @@
 #### [W-klassen](dev-ref/w-classes.md)
 #### [X-klassen](dev-ref/x-classes.md)
 
-## [Startpagina voor uitbreidbaarheid](extensibility/extensibility-home-page.md)
+## [Uitbreidbaarheid](extensibility/extensibility-home-page.md)
 ### Inleiding en aan de slag
 #### [Plannen voor uitbreidbaarheid van toepassing](extensibility/extensibility-roadmap.md)
 #### [Uitbreidbaarheidsaanvragen](extensibility/extensibility-requests.md) 
@@ -261,9 +266,9 @@
 ### [Documentatie of training maken met Taakrecorder](user-interface/task-recorder-training-docs.md)
 
 # [Mobiel platform](mobile-apps/platform/mobile-platform-home-page.md)
-## Aan de slag
-### [Aan de slag](mobile-apps/platform/mobile-platform-getting-started.md)
+## [Aan de slag](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [Architectuur](mobile-apps/platform/mobile-platform-architecture.md)
+### [Overzicht gebeurtenissen bedrijfslogica](mobile-apps/platform/business-logic-events-overview.md)
 ### [Richtlijnen voor het ontwerpen van pagina's](mobile-apps/platform/page-design-guidelines.md)
 ### [Richtlijnen voor het ontwerpen van acties](mobile-apps/platform/action-design-guidelines.md)
 ### [Vereisten voor het ontwerpen van formulieren](mobile-apps/platform/form-design-requirements.md)
@@ -407,9 +412,9 @@
 ### [Pakketten met configuratiegegevens](data-entities/configuration-data-packages.md)
 ### [Configuratiegegevens kopiëren tussen bedrijven](data-entities/copy-configuration.md)
 ### [Sjablonen voor configuratiegegevens](data-entities/configuration-data-templates.md)
-### [Gegevenssjablonen met meerdere werkbladen](data-entities/excel-template-multiple.md)
+### [Sjablonen met meerdere werkbladen](data-entities/excel-template-multiple.md)
 ### [Wijzigingen in een entiteit bijhouden](data-entities/entity-change-track.md)
-
+### [Configuratiesleutels en gegevensentiteiten](data-entities/config-key-entities.md)
 ### [Informatie zoeken over standaardgegevensentiteiten](data-entities/data-entities-report.md)
 
 
@@ -417,7 +422,8 @@
 
 ### [Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal](data-entities/tips-tricks-import-general-journal-entity.md)
 
-## Ontwikkeling voor gegevensentiteiten
+## Ontwikkeling van gegevensentiteiten
+### [Richtlijnen en aanbevolen procedures voor gegevensentiteiten](dev-tools/design-best-practices.md)
 ### [Nieuwe gegevensentiteiten maken](data-entities/build-consuming-data-entities.md)
 ### [Eigenschappen van gegevensentiteit](data-entities/behavioral-properties-data-entities.md)
 ### [Berekeningskolommen en virtuele velden maken](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,6 +434,9 @@
 ### [Eigenschappen van metagegevens](data-entities/behavioral-properties-data-entities.md)
 ### [Validaties, standaardwaarden en niet-toegewezen velden](data-entities/validations-defaults-unmapped-fields.md)
 ### [Beveiliging en gegevensentiteiten](data-entities/security-data-entities.md)
+### [Een alleen-lezen entiteit die toegang biedt tot financiële dimensies](financial/read-only-entity-financial.md)
+ 
+
 
 ## [Uw eigen database gebruiken](analytics/export-entities-to-your-own-database.md)
 
@@ -435,7 +444,7 @@
 ## [Automatisering van gegevenstaak](data-entities/data-task-automation.md)
 
 ## [Bronnen voor het reageren op een AVG-aanvraag](gdpr/gdpr-home-page.md)
-### [Handleiding voor AVG voor Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Handleiding voor AVG voor Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-guide.md)
 ### [Classificaties van activa](gdpr/gdpr-asset-classification-values.md)
 ### [Rapport voor persoon zoeken gebruiken](gdpr/gdpr-person-search-report.md)
 ### [Rapport voor persoon zoeken uitbreiden](gdpr/gdpr-extend-person-search-report.md)
@@ -443,8 +452,9 @@
 ### [Reageren op een aanvraag voor persoonlijke gegevens met behulp van Talent](gdpr/respond-dsr-request-talent.md)
 ### [Reageren op een aanvraag voor persoonlijke gegevens met behulp van Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
+## [Werkgebied voor validatie van gegevens](user-interface/data-validation-workspace.md)
 
-# [Startpagina Continue levering](dev-tools/continuous-delivery-home-page.md)
+# [Continue levering](dev-tools/continuous-delivery-home-page.md)
 ## [Veelgestelde vragen over ontwikkeling en continue levering](dev-tools/continuous-delivery-faq.md)
 ## [Testpakketten uitsluiten van de build-uitvoer](dev-tools/exclude-test-packages.md)
 ## [Modellen van derden en runtime-pakketten beheren met behulp van bronbeheer](dev-tools/manage-runtime-packages.md)
@@ -487,6 +497,7 @@
 ## [Parametermethoden voor besturingselement gesegmenteerde invoer](financial/segmented-entry-control-parm-method-specification.md)
 ## [De mogelijkheid toevoegen om waarden voor financiële dimensies op te zoeken in Microsoft Excel-sjablonen](financial/add-dimensions-excel-templates.md)
 ## [Wisselkoersproviders maken](financial/create-exchange-rate-providers.md)
+## [Wisselkoersproviders maken in Microsoft Dynamics Finance and Operations versie 8.0](financial/create-exchange-rate-8.md)
 
 # Ontwikkeling toeleveringsketen
 ## [Handleiding voor Gantt-ontwikkeling](user-interface/gantt-development-guide.md)
@@ -578,8 +589,7 @@
 ### [Afgeschafte functies](migration-upgrade/deprecated-features.md)
 
 # [Systeembeheer](sysadmin/system-administration-home-page.md)
-## [Maandelijkse updates platform - FAQ](sysadmin/faq-platform-monthly-updates.md)
-## [Virtuele machines die geen beheerderstoegang toestaan - FAQ](sysadmin/VMs-no-admin-access.md)
+## [Maandelijkse updates platform-Veelgestelde vragen](sysadmin/faq-platform-monthly-updates.md)
 ## [Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie](sysadmin/legal-terms-privacy-statement.md)
 ## [Rapport Licentiecodes en configuratiesleutels](sysadmin/license-codes-configuration-keys-report.md)
 ## [Delen van gegevens tussen bedrijven](sysadmin/cross-company-data-sharing.md)

@@ -18,18 +18,18 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Lokalisatie en wettelijk voorgeschreven functies
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
+Microsoft Dynamics 365 for Finance and Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
 
 Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke oplossingen, updates waarschuwingen en functionaliteit. 
 
