@@ -38,9 +38,6 @@ Door entiteitsgegevens in Excel te openen, kunt u deze snel en eenvoudig bekijke
 
 Voor meer informatie over het gebruik van de Excel-invoegtoepassing, bekijkt u de korte video [Een Excel-sjabloon maken voor koptekst- en regelpatronen in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Entiteitsgegevens in Excel openen vanuit Finance and Operations
 1. Selecteer op een pagina in Finance and Operations de optie **Openen in Microsoft Office**.
 
