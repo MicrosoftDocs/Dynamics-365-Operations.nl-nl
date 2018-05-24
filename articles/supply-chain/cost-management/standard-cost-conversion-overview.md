@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Standaardkostprijsconversie - Overzicht
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel geeft een procesoverzicht om u te helpen bij het instellen en uitvoeren van een standaardkostprijsconversie. De genoemde stappen zijn bedoeld om te worden voltooid nadat u de vereisten voor een standaardkostprijsconversie hebt voltooid. 
 
@@ -96,7 +96,7 @@ Met het rapport **Afschrift van variantieanalyse** kunt u herwaarderingsafwijkin
 -   Analyseer achterstallige voorraadmutaties. Met het rapport **Voorraadwaarde** kunt u achterstallige voorraadmutaties weergeven die na de conversie zijn ingevoerd. De begin- en einddatums voor het rapport moeten overeenkomen met de begindatum van de overgang en de conversiedatum, minus één dag. De selectiecriteria voor het rapport moeten zijn ingesteld op de geconverteerde artikelen. In het rapport worden de voorraadmutaties weergegeven die zijn ingevoerd met de standaardkostprijs tijdens de overgangsperiode.
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Vereisten voor een standaardkostprijsconversie](prerequisites-standard-cost-conversion.md)

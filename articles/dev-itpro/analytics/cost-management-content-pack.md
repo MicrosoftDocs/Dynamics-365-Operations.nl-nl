@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -38,8 +38,7 @@ De Microsoft Power BI-inhoud van **Kostenbeheer** is bedoeld voor voorraadboekho
 > [!Note]
 > De Power BI-inhoud voor **Kostenbeheer** die wordt beschreven in dit onderwerp, geldt voor Dynamics 365 voor Finance and Operations 8.0.
 > 
-> Het Power BI-inhoudpakket voor **Kostenbeheer** dat is gepubliceerd op de site PowerBI.com, is afgeschaft. Zie voor meer informatie hierover [Power BI-inhoudpakketten gepubliceerd op PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
-
+> Het Power BI-inhoudpakket voor **Kostenbeheer** dat beschikbaar is gepubliceerd op de site AppSource, is afgeschaft. Zie voor meer informatie hierover [Power BI-inhoudpakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Deze Power BI-inhoud biedt een gecategoriseerde indeling waarmee u de prestaties van voorraden kunt controleren en kunt visualiseren hoe kostenstromen verlopen. U vindt de beheerinzichten zoals omloopsnelheid, aantal dagen dat de voorraad voorhanden is, nauwkeurigheid en 'ABC-classificatie' op het gewenste totalliseringsniveau (bedrijf, artikel, artikelgroep of locatie). De beschikbare informatie kan ook worden gebruikt als een uitgebreide aanvulling op het financiële overzicht.
 

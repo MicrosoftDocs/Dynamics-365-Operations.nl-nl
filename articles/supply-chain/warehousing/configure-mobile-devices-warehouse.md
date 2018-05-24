@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten voor magazijnwerk instellen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 
@@ -407,10 +407,10 @@ In de volgende tabel worden de verschillende werktypen beschreven waarbij u werk
 
 **Opmerking:** U kunt productbevestiging alleen vereisen voor werktypen voor verzamelen en wegzetten.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Weergave-instellingen voor mobiel apparaat magazijn](change-warehouse-mobile-device-displays.md)
+[Instellingen voor weergave van mobiele apparaten voor magazijnbeheer](change-warehouse-mobile-device-displays.md)
 
 [Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder (Taakbegeleiding)](tasks/set-up-mobile-device-menu.md)
 

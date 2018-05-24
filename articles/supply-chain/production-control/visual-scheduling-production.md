@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Een gantt-diagram voor het plannen van taken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Het Gantt-diagram is ontworpen om productieplanners meer mogelijkheden te bieden om het productieplan te beheren en te optimaliseren. Het Gantt-diagram maakt de stroom van bewerkingen transparant en maakt het eenvoudig om het productieschema aan te passen waarbij rekening wordt gehouden met materiaal- of resourcetekorten. Dit helpt planningen optimaal gebruik te maken van beschikbare resources, onderhanden werk te minimaliseren en doorvoertijden voor productieorders te optimaliseren.
 
@@ -156,7 +156,7 @@ U kunt het Gantt-diagram openen vanaf de volgende pagina's.
 |           <strong>Te voltooien taak</strong> (lijst in het werkgebied <strong>Productiebeheer</strong>)            |                                                                                               De lijst <strong>Te voltooien taken</strong> in het werkgebied Productiebeheer toont taken uit productie- en batchorders die worden uitgevoerd met de geselecteerde resources voor het werkgebied. Met het menu-item <strong>Gantt-diagram</strong> kunt u het Gantt-diagram openen, waarmee alle taken die zijn geselecteerd in de lijst worden geladen in het diagram.                                                                                               |
 | <strong>Vrij te geven productieorders</strong> (geopend vanuit het werkgebied <strong>Productiebeheer</strong>) |                                                                                                                                         De pagina Vrij te geven productieorders wordt geopend vanuit het werkgebied <strong>Productiebeheer</strong>. Deze pagina geeft geplande productie- en batchorders weer die wachten om te worden vrijgegeven. Op deze pagina kunt u het Gantt-diagram voor geselecteerde productieorders openen.                                                                                                                                          |
 
-## <a name="see-also"></a>Zie ook  
+## <a name="additional-resources"></a>Aanvullende resources  
 [Visuele planning met Gantt-diagram voor productie- en batchorders (video)](https://youtu.be/BtbuShkGj4I)
 
 [Visuele planning voor productie (demoscript)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

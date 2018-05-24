@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a05c35d2e4a9e3ad81421eac863d182e8a6b499
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quarantine-orders"></a>Quarantaineorders
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe quarantaineorders worden gebruikt om voorraad te blokkeren.
 
@@ -64,7 +64,7 @@ Wanneer een quarantaineorder wordt beëindigd, wordt het artikel vanuit het quar
 ## <a name="quarantine-order-scrap"></a>Quarantaineorderuitval
 Als onderdeel van het quarantaineorderproces kunt u voorraad laten uitvallen. Wanneer u uitval verwerkt, wordt de status van de voorraad ingesteld op **Verkocht** door een uitgiftetransactie vanuit het quarantainemagazijn.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Voorraadblokkering](inventory-blocking.md)

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a56e6ea0a8470f205b1c74379c887c0cac85a6b4
-ms.openlocfilehash: c290bcd4787144fb4dd4232c06d2fb9e1e67ca3e
+ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
+ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 
@@ -59,7 +59,7 @@ Goedgekeurde producten worden toegevoegd aan het productmodel en worden vrijgege
 
 ## <a name="generate-a-catalog-import-file-template"></a>Een sjabloon voor een catalogusimportbestand
 
-De sjabloon voor het catalogusimportbestand is een industriestandaard XSD-bestand dat u kunt gebruiken voor het maken van een CMR-bestand voor de producten van de leverancier. U kunt het CMR-bestand gebruiken voor het maken van een nieuwe catalogus, het vervangen van een bestaande catalogus of het wijzigen van een bestaande catalogus.
+De sjabloon voor het catalogusimportbestand is een XSD-bestand dat u kunt gebruiken voor het maken van een CMR-bestand voor de producten van de leverancier. U kunt het CMR-bestand gebruiken voor het maken van een nieuwe catalogus, het vervangen van een bestaande catalogus of het wijzigen van een bestaande catalogus.
 
 1.  Selecteer **Inkoop en sourcing** \> **Catalogi** \> **Leverancierscatalogi** en dubbelklik op de catalogus die u wilt bewerken.
 

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4da560ca3cce5a28edd2a00506f825d5d88ef0f3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cd5fc329877bbb1f8f4ec26191e66914da29d034
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Tabelbeperkingen door de gebruiker of door het systeem gedefinieerd
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel beschrijft de twee typen tabelbeperkingen voor onderdelen in een productconfiguratiemodel: gedefinieerd door de gebruiker en gedefinieerd door het systeem. Tabelbeperkingen vertegenwoordigen matrixen van de toegestane kenmerkcombinaties, waarbij elke rij één set van mogelijke kenmerkwaarden definieert.
 
@@ -61,7 +61,7 @@ Wanneer u een systeemgedefinieerde tabelbeperking maakt, selecteert u een tabel,
 
 Voordat een tabelbeperking op een productconfiguratiemodel van kracht kan worden, moet de tabelbeperking in een beperking op een van de modelcomponenten worden opgenomen. De procedure is om een nieuwe beperking te maken, het type tabelbeperking te selecteren, en vervolgens de definitie van de tabelbeperking te selecteren die u wilt gebruiken. Tot slot moeten alle velden in de tabelbeperking aan de kenmerken in het productconfiguratiemodel worden toegewezen.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Belangrijkste concepten in productconfiguratiemodellen](product-configuration-models.md)

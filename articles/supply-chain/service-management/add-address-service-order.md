@@ -1,0 +1,79 @@
+---
+title: Een adres aan een serviceorder toevoegen
+description: Dit onderwerp beschrijft hoe u een klantadres aan de serviceorder toe te voegen.
+author: YuyuScheller
+manager: AnnBe
+ms.date: 05/02/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: SMAServiceOrderTable
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations
+ms.custom: 
+ms.assetid: 
+ms.search.region: Global
+ms.author: YuyuScheller
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e6dfa27b2101e84fbab678e781c26126cf1db898
+ms.contentlocale: nl-nl
+ms.lasthandoff: 05/08/2018
+
+---
+
+# <a name="add-an-address-to-a-service-order"></a>Een adres aan een serviceorder toevoegen    
+
+[!include [banner](../includes/banner.md)]
+
+
+Dit onderwerp beschrijft hoe u een klantadres aan de serviceorder toe te voegen. Wanneer u een serviceorder maakt, worden de adresgegevens overgedragen vanuit het project waaraan de serviceorder is gekoppeld. U kunt echter een alternatieve locatie uit adressen selecteren die al in Microsoft Dynamics AX zijn ingevoerd voor klanten, leveranciers, locaties, magazijnen, serviceorders en projecten.
+
+U kunt ook nieuw adres maken. Standaard, wordt het nieuwe adres naar het project overgeboekt. Echter, u kunt opgeven dat het nieuwe adres alleen voor dit exemplaar van de service relevant is. Als u dit doet, wordt het nieuwe adres niet naar het project overgeboekt.
+
+## <a name="create-a-customer-address-for-a-service-order"></a>Maak een klantadres voor een serviceorder
+
+Om een adres aan een serviceorder toe te voegen, volgt u deze stappen:
+
+1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+
+2.  Open de serviceorder waarvoor u een adres wilt maken.
+
+3.  Klik in het **Actievenster** op **Bewerken** en vervolgens op **Koptekstweergave**.
+
+4.  Klik in het sneltabblad **Adres** op **Adres toevoegen**.
+
+5.  Voer in het formulier **Nieuw adres** een unieke naam voor het adres in en vul de resterende velden verder in. 
+    
+
+    > [!WARNING]
+    > <P>Als u dezelfde naam als een bestaand adres invoert, zal de informatie die u in de resterende velden invoert informatie voor het bestaande adres overschrijven.</P>
+
+
+6.  Klik op **OK** om het nieuwe adres naar de serviceorder te kopiëren.
+
+## <a name="specify-an-alternative-address-on-a-service-order"></a>Een alternatief adres opgeven op een serviceorder
+
+Om een alternatief adres aan een serviceorder toe te voegen, volgt u deze stappen:
+
+1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+
+2.  Open de serviceorder waarvoor u een alternatief adres wilt invoeren.
+
+3.  Klik in het **Actievenster** op **Bewerken** en vervolgens op **Koptekstweergave**.
+
+4.  Klik op het sneltabblad **Adres** op **Ander adres**.
+
+5.  Selecteer in het formulier **Adresselectie** in het veld **Recordtype** **Serviceorders**.
+
+6.  Selecteer een adres, en klik vervolgens op **OK** om het naar de serviceorder te kopiëren.
+
+
+  
+
+
+

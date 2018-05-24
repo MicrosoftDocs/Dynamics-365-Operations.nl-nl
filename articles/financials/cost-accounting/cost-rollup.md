@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Beleid voor totalisering van kosten en overheadberekening 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met Kostprijsboekhouding kunt u inzicht verkrijgen in hoe de kostenstroom in relatie staat tot de producten en services die worden geleverd binnen een organisatie. Als u de transparantie van de kosten wilt zien, is het van groot belang om kostentoewijzing te bereiken tussen kostenobjecten op basis van een juiste toewijzingsgrondslag. Standaard wordt de kostentoewijzing bereikt voor het primaire kostenelement. Dit is in bepaalde situaties wenselijk. Het heeft echter een paar gevolgen die in aanmerking moeten worden genomen.
 
@@ -297,7 +297,7 @@ De duidelijke scheiding tussen **Kostentoewijzing** en **Beleid voor totaliserin
 
 
 
-## <a name="see-also"></a>Zie ook
+## <a name="additional-resources"></a>Aanvullende resources
 -  [Dimensies van kostenobject](cost-objects.md)
 -  [Dimensies van kostenelement](cost-elements.md)
 -  [Hiërarchieën van dimensies](dimension-hierarchy.md)

@@ -20,16 +20,16 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ce6774ede836eb29e6ef2cd8d4baa9efb931020c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="customer-orders-overview"></a>Overzicht van klantorders
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dit onderwerp biedt informatie over klantorders in Retail Modern POS (MPOS). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
 
@@ -95,7 +95,7 @@ Klantorders kunnen worden gemaakt via de POS-client (point of sale) in synchrone
 
 Wanneer de optie **Klantorder maken in asynchrone modus** is ingesteld op **Ja**, worden klantorders altijd in de asynchrone modus gemaakt, zelfs als RTS (Retail Transaction Service) beschikbaar is. Als u deze optie instelt op **Nee**, worden klantorders altijd gemaakt in de synchrone modus via RTS. Wanneer klantorders in de asynchrone modus worden gemaakt, worden ze opgehaald en ingevoegd in Retail door taken op te vragen met Pull (P). De bijbehorende verkooporders worden gemaakt in Retail wanneer **Orders synchroniseren** handmatig of via een batchproces wordt uitgevoerd.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Hybride klantorders](hybrid-customer-orders.md)

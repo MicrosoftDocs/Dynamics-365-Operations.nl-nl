@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Mobiele factuurgoedkeuringen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Met mobiele mogelijkheden in Microsoft Dynamics 365 for Finance and Operations kan een zakelijke gebruiker mobiele ervaringen ontwerpen. Voor geavanceerde scenario's kunnen ontwikkelaars met het platform de mogelijkheden desgewenst ook uitbreiden. De meest effectieve manier om een aantal van de nieuwe concepten over mobiele mogelijkheden te leren is het proces voor het ontwerpen van enkele scenario's te doorlopen. Dit onderwerp is bedoeld om een praktische aanpak te verschaffen voor het ontwerpen van mobiele scenario's door factuurgoedkeuringen van leveranciers voor mobiel gebruik als praktijkvoorbeeld te nemen. Aan de hand van dit onderwerp kunt u andere variaties van de scenario's ontwerpen en kunt u de informatie in dit onderwerp ook toepassen op andere scenario's die niet zijn gerelateerd aan facturen van leveranciers.
 
@@ -175,9 +175,9 @@ Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebr
 1. Vervang in de Finance and Operations-URL de naam van de menuoptie met **VendMobileInvoiceHeaderDetails** om het formulier te openen
 2. Open de mobiele ontwerper met de knop **Instellingen** (tandwiel).
 3. Klik op de knop **Bewerken** om de bewerkingsmodus in het werkgebied te starten.
-4. Selecteer de pagina <strong>Mijn leveranciersfacturen** die u eerder hebt gemaakt en klik vervolgens op **Bewerken</strong>.
+4. Selecteer de pagina **Mijn leveranciersfacturen** die u eerder hebt gemaakt en klik vervolgens op **Bewerken**.
 5. Klik op het tabblad **Velden** op de kolomkop **Raster**.
-6. Klik op **Eigenschappen** &gt; **Pagina toevoegen**. **Opmerking:** wanneer u klikt op de kop **Raster** en een pagina toevoegt, wordt de relatie met de detailpagina automatisch ingesteld.
+6. Klik op **Eigenschappen &gt; Pagina toevoegen**. **Opmerking:** wanneer u klikt op de kop **Raster** en een pagina toevoegt, wordt de relatie met de detailpagina automatisch ingesteld.
 7. Voer een paginatitel in, zoals **Factuurdetails**, en een omschrijving, zoals **Koptekst- en regeldetails factuur weergeven**.
 8. Klik op **Velden selecteren**. Houd er rekening mee dat de volgorde waarin u toevoegt, de volgorde is waarin de velden worden weergegeven voor de eindgebruiker. De enige manier om de volgorde van de velden te wijzigen is door alle velden opnieuw te selecteren. 
 9. Op basis van de vereisten voor dit scenario voegt u de volgende velden uit de koptekst toe:

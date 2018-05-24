@@ -3,7 +3,7 @@ title: Afgeschafte functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 03/22/2018
+ms.date: 05/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -78,13 +78,13 @@ Deze twee rapporten worden niet meer ondersteund in Finance and Operations. In p
 | **Implementatieoptie**        | Alles|
 | **Status**                       | Afgeschaft: de menu-items voor de twee rapporten zijn verwijderd in versie 7.3. De code voor de rapporten blijft echter in het product. Het plan is om de code in een toekomstige versie te verwijderen. |
 
-### <a name="power-bi-content-packs-published-to-powerbicom"></a>Power BI-inhoudpakketten gepubliceerd op PowerBI.com
-De inhoudpakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, die zijn gepubliceerd op de PowerBI.com-site, zijn afgeschaft als gevolg van productupdates in Microsoft Power BI. Systeembeheerformulieren voor het implementeren van deze inhoudpakketten op PowerBI.com worden ook afgeschaft in Finance and Operations.
+### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI-inhoudpakketten beschikbaar op AppSource
+De inhoudpakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, die beschikbaar zijn op de site [Microsoft AppSource](https://appsource.microsoft.com), zijn afgeschaft als gevolg van productupdates in Microsoft Power BI. Systeembeheerformulieren voor het implementeren van deze inhoudpakketten op PowerBI.com worden ook afgeschaft in Finance and Operations.
 
 |   |  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Productupdates in Microsoft Power BI. |
-| **Vervangen door een andere functie?**   | Power BI-inhoudpakketten (gepubliceerd op PowerBI.com) worden vervangen door analytische toepassingen voor oplossingsintegraties op databaseniveau. Zie voor meer informatie over analytische toepassingen [Ingesloten Power BI in werkgebieden](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Vervangen door een andere functie?**   | De inhoudpakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, beschikbaar op de site [AppSource](https://appsource.microsoft.com), worden vervangen door analytische toepassingen die oplossingsintegratie op databaseniveau mogelijk maken. Zie voor meer informatie over analytische toepassingen [Ingesloten Power BI in werkgebieden](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Betrokken productgebieden**         | Kostenbeheer, Finance en Retail                                                                                               |
 | **Implementatieoptie**              | Alleen cloud (integratie met PowerBI.com wordt niet ondersteund in on-premises implementaties.)                                                                                                            |
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor het tweede kwartaal van 2018.    |

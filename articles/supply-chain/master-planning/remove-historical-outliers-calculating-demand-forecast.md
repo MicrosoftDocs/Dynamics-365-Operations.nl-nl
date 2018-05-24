@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 714a892ff4c168ee3ba1cefd25ae18345af5631b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b4805d343518a880ad0d6e6568c5493583a17783
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Verwijder uitschieters uit historische transactiegegevens bij het berekenen van een vraagprognose
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u uitschieters kunt verwijderen uit de historische gegevens die worden gebruikt om een vraagprognose te berekenen. Door uitschieters uit te sluiten, kunt u de prognosenauwkeurigheid verbeteren.
 
@@ -43,12 +43,12 @@ U kunt uitschieters uitsluiten om de prognosenauwkeurigheid te verbeteren. Deze 
 
 **Opmerking:** u kunt ook een query maken die op een bestaande query is gebaseerd. Selecteer de query die u wilt kopiëren en klik op **Dupliceren**. Het veld **Querydatum** bevat de versie. U kunt de query zo gebruiken of klikken op **Query bewerken** om de criteria te wijzigen. U kunt de naam en omschrijving van de nieuwe query desgewenst wijzigen.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Inleiding op vraagprognoses](introduction-demand-forecasting.md)
 
-[Nauwkeurigheid van prognose bewaken](monitor-forecast-accuracy.md)
+[Nauwkeurigheid van vraagprognose bewaken](monitor-forecast-accuracy.md)
 
 
 

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Onderdelen van een financieel rapport
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe de onderdelen of bouwstenen van rapportdefinities worden gebruikt in de financiële rapportage. Deze bouwstenen bevatten rijdefinities, kolomdefinities en rapportagestructuurdefinities. In dit artikel wordt uitgelegd hoe u bouwstenen organiseert en vergrendelt. 
 
@@ -109,10 +109,10 @@ U kunt een bouwsteengroep importeren in een bestaande bouwsteengroep. Alle geïm
 Wanneer u een bouwsteen opent, hebben andere gebruikers alleen-lezen toegang tot die bouwsteen. Soms vergeten gebruikers om een bouwsteen te sluiten of zij sluit het systeem af zonder de bouwsteen te sluiten. Daarom blijft de bouwsteen uitgecheckt en kunnen andere gebruikers deze niet openen. In deze gevallen kan een beheerder voor financiële rapportage het dialoogvenster **Uitgecheckte artikelen** gebruiken om bouwstenen in te checken die gebruikers uitgecheckt hebben gelaten. **Opmerking:** u moet de rol van beheerder hebben om bouwstenen te kunnen inchecken via het dialoogvenster **Uitgecheckte artikelen**.
 1.  Klik in Report Designer in het menu **Extra** op **Uitgecheckte artikelen**.
 2.  Schakel in het dialoogvenster **Uitgecheckte items** het selectievakje **Items van alle gebruikers weergeven** in. De lijst wordt bijgewerkt en u ziet alle uitgecheckte bouwstenen en door wie deze zijn uitgecheckt.
-3.  Selecteer een bouwsteen en klik op **Uitchecken ongedaan maken**.
-4.  Klik op **Ja** om de te bouwsteen in te checken.
+3.  Selecteer een bouwsteen en klik vervolgens op **Uitchecken ongedaan maken**.
+4.  Klik op **Ja** om de nieuwe bouwsteen in te checken.
 
-## <a name="see-also"></a>Zie ook
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
 

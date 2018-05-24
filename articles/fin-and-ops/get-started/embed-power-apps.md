@@ -33,8 +33,6 @@ In Platformupdate 14 voor Microsoft Dynamics 365 for Finance and Operations word
 
 Voor meer informatie over het insluiten van PowerApps bekijkt u de korte video [PowerApps insluiten in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Een ingesloten PowerApp toevoegen aan een pagina
 ### <a name="overview"></a>Overzicht
 Voordat u een PowerApp kunt insluiten in de Finance and Operations-client, moet u eerst een PowerApp zoeken of maken met de gewenste visuele effecten en/of functionaliteit. Het gedetailleerde proces voor het bouwen van een PowerApp wordt hier niet beschreven. Het onderwerp [Inleiding bij PowerApps](https://docs.microsoft.com/en-us/powerapps/getting-started) is een goed beginpunt als u niet bekend bent met PowerApps.

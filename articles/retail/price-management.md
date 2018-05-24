@@ -3,7 +3,7 @@ title: Verkoopprijsbeheer detailhandel
 description: Dit onderwerp beschrijft de concepten voor het maken en beheren van verkoopprijzen in Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Verkoopprijsbeheer detailhandel
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat informatie over het proces voor het maken en beheren van verkoopprijzen in Microsoft Dynamics 365 for Retail. Het richt zich op de concepten die betrokken zijn bij dit proces, en op de effecten van de verschillende configuratieopties voor verkoopprijzen.
 
@@ -198,32 +198,6 @@ Microsoft SQL Server Express wordt vaak gebruikt voor kanaaldatabases vanwege de
 Wanneer u verkoopprijzen in Microsoft Dynamics 365 instelt, geeft u niet aan of de waarde van de ingestelde prijs inclusief of exclusief btw is. De waarde is alleen de prijs. Met de instelling **Prijs inclusief btw** voor detailhandelkanalen kunt u echter detailhandelkanalen zo configureren dat de prijzen al dan niet inclusief btw zijn. Deze instelling is ingesteld voor het kanaal en kan zelfs in één bedrijf wijzigen.
 
 Als u werkt met inclusief en exclusief btw, is het belangrijk dat u prijzen correct hebt ingesteld, omdat het totale bedrag dat de klant betaalt, niet verandert als de instelling **Prijs inclusief btw** in het kanaal wordt gewijzigd.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>Effect van de prijs omvat de btw-instelling op de financiële boekingen
-Alle bedragen die worden geboekt naar het grootboek voor opbrengst- en kortingsrekeningen worden beïnvloed door de instelling **Prijs inclusief btw**. Het volgende voorbeeld laat zien hoe deze instelling voor financiële boekingen geldt.
-
-In het voorbeeld worden alleen de verkoopboekingen besproken, omdat de instelling **Prijs inclusief btw** geen invloed heeft op de kosten van voorraadboekingen.
-
-#### <a name="example"></a>Voorbeeld
-In dit voorbeeld zijn kortingsbedragen zo geconfigureerd dat ze afzonderlijk van opbrengsten worden geboekt.
-
-U verkoopt een product van $100 waarop een btw-tarief van 10 procent en een korting van 5 procent worden toegepast. De volgende rekeningen uit de USRT-demonstratiegegevens worden gebruikt:
-
-- **Opbrengst:** 401100
-- **Korting:** 403200
-- **Btw:** 202100
-
-**Voorbeeld 1: exclusief btw**
-
-- **Opbrengst:** $ 100
-- **Korting:** $ 5
-- **Btw:** $ 9,5 (= 10 procent van $ 95)
-
-**Voorbeeld 2: inclusief \[btw\]**
-
-- **Opbrengst:** $ 90
-- **Korting:** $ 4,5 (= 5 procent van $ 90)
-- **Btw:** $ 10
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Verschillen tussen adviesprijs en niet-adviesprijs
 Er wordt één prijscalculatie-engine gebruikt voor het berekenen van de detailhandelsprijzen voor alle kanalen: callcenters, winkels en online winkels. Dit is handig voor het inschakelen van de gecombineerde handelsscenario's. 

@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31308e64d4871a4d09540df16fdcd02cc83bd0be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a>Uiterste datums orderinvoer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over uiterste datums voor orderinvoer. Een uiterste datum voor orderinvoer is een afsluittijd die bepaalt of een klantorder wordt behandeld (en uitgevoerd) als deze op de huidige dag of de volgende dag wordt ontvangen.
 
@@ -103,7 +103,7 @@ In de volgende tabel wordt weergegeven hoe de uiterste tijdstippen voor orderinv
 
 **Opmerking:** In een periode met zomertijd worden de uiterste tijdstippen voor orderinvoer dienovereenkomstig aangepast.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Afleveringsschema's](delivery-schedules.md)

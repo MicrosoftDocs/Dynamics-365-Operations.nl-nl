@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Overzicht van productieproces
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode. 
 
@@ -78,7 +78,7 @@ De volgende stappen in de productiecyclus kunnen plaatsvinden voor alle ordertyp
 12. **Periodesluiting** – Sommige principes voor kostprijsboekhouding, zoals periodiek gemiddelde, kostprijsberekening via terugwaarts afboeken, FIFO of LIFO vereisen periodieke activiteiten om de voorraad of de financiële periode te sluiten. Doorgaans probeert het systeem alle materiaal- en resourceverbruik te rapporteren, terwijl tevens correcties van voorraad en uitval worden uitgevoerd voordat de perioden worden afgesloten. Deze rapportage wordt gewoonlijk uitgevoerd door voorraadmutatiejournalen of correctiejournalen te gebruiken. Het doel is de economische prestaties van operationele eenheden per periode te beoordelen. In sommige gevallen, wanneer langlopende productieorders worden gebruikt die de hele financiële rapportageperiode omvatten, worden productiejournalen gebruikt om de productievoortgang en het resourceverbruik te rapporteren aan het eind van de periode.
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Productiefeedback](production-feedback.md)

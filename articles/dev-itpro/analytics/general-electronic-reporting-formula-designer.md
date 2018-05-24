@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Formuleontwerper in elektronische rapportage
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt. Wanneer u een indeling voor een specifiek elektronisch document in ER ontwerpt, kunt u formules gebruiken om gegevens te transformeren om te voldoen aan de vereisten voor de afhandeling en opmaak van het document. Deze formules lijken op formules in Microsoft Excel. Er worden diverse typen functies ondersteund in de formules: tekst, datum en tijd, wiskundige logica, informatie, gegevenstypeconversie en andere functies (functies specifiek voor het zakelijke domein).
 
@@ -647,7 +647,7 @@ De parameters voor de vlag valutanaam afdrukken en de decimalen worden alleen ge
 
 MET ER kunt u de lijst met functies uitbreiden die in ER-expressies worden gebruikt. Hiervoor is enige mate van engineering vereist. Zie voor gedetailleerde informatie [De lijst met functies voor elektronische rapportage uitbreiden](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>Zie ook
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 

@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Alternatieven voor levering
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Verkoopordermedewerkers kunnen de pagina Alternatieven voor levering gebruiken om alternatieve opties voor orderafhandeling te ontdekken.
+Verkoopordermedewerkers kunnen de pagina **Alternatieven voor levering** gebruiken om alternatieve opties voor orderafhandeling te ontdekken.
 
-In Microsoft Dynamics 365 for Operations versie 1611 (November 2016) kunnen verkoopordermedewerkers de pagina **lAlternatieven voor levering** gebruiken om alternatieve opties voor orderafhandeling te ontdekken. De opnieuw ontworpen pagina-indeling biedt een beter overzicht van alle alternatieve opties. Het stelt ordermedewerkers tevens in staat verder te kijken dan het huidige bedrijf voor afhandelingsmogelijkheden. Zij kunnen nu zowel intercompany-mogelijkheden als kansen van externe leveranciers bekijken. Door de opties te sorteren op leveringsdatum kunnen verkoopordermedewerkers een intelligente lijst van alternatieven voor levering bekijken. Daarnaast helpen parameters hen de voorgestelde leveringen beter te beheren. Aangezien de transporttijd van invloed kan zijn op leveringsdatums, kunnen verkoopordermedwerkers de verschillende transportopties verkennen die vervoerders aanbieden. Omdat voor elke suggestie gedetailleerde informatie wordt weergegeven, kunnen ordermedewerkers rechtstreeks vanaf de pagina **Alternatieven voor levering** beslissingen nemen.
+De paginalay-out **Alternatieven voor levering** biedt een beter overzicht van alle alternatieve opties. Het stelt ordermedewerkers tevens in staat verder te kijken dan het huidige bedrijf voor afhandelingsmogelijkheden. Zij kunnen nu zowel intercompany-mogelijkheden als kansen van externe leveranciers bekijken. Door de opties te sorteren op leveringsdatum kunnen verkoopordermedewerkers een intelligente lijst van alternatieven voor levering bekijken. Daarnaast helpen parameters hen de voorgestelde leveringen beter te beheren. Aangezien de transporttijd van invloed kan zijn op leveringsdatums, kunnen verkoopordermedwerkers de verschillende transportopties verkennen die vervoerders aanbieden. Omdat voor elke suggestie gedetailleerde informatie wordt weergegeven, kunnen ordermedewerkers rechtstreeks vanaf de pagina **Alternatieven voor levering** beslissingen nemen.
 
 ## <a name="open-the-delivery-alternatives-page"></a>De pagina Alternatieven voor levering openen
-U kunt pagina **Alternatieven voor** **levering** openen vanaf de verkooporderregel.
+U kunt pagina **Alternatieven voor levering** openen vanaf de verkooporderregel.
 
 1.  Klik op **Producten en aanbod** &gt; **Alternatieven voor levering**.
 2.  Klik op **Regeldetails** &gt; **Levering** &gt; **Alternatieven voor levering**.
@@ -113,7 +113,7 @@ Op dit tabblad wordt een overzicht van het product en de details van de huidige 
 
 Dit tabblad toont een lijst met alternatieven voor levering die is gesorteerd op ontvangstgegevens. Boven de lijst kunt u selecteren op welke opties de suggesties moeten zijn gebaseerd. U kunt ook de leveringsmethode selecteren, die het aantal transportdagen bepaalt. De volgende opties zijn beschikbaar:
 
--   **Andere productvarianten opnemen** - D\deze optie is beschikbaar voor producten met productvarianten. Dit bevat alternatieven voor levering van andere varianten van het product. Deze optie is niet beschikbaar voor CTP.
+-   **Andere productvarianten opnemen** - Deze optie is beschikbaar voor producten met productvarianten. Dit bevat alternatieven voor levering van andere varianten van het product. Deze optie is niet beschikbaar voor CTP.
 -   **Gedeeltelijke hoeveelheid opnemen** - Standaard worden alleen suggesties opgenomen waarmee de volledige hoeveelheid van de verkoopregel kan worden vervuld. Selecteer deze optie om suggesties op te nemen die de orderregel slechts gedeeltelijk vervullen. Deze optie is handig wanneer de klant om een eerdere leverdatum vraagt en gedeeltelijke levering accepteert.
 -   **Latere datums opnemen** - Standaard worden alleen suggesties die beter (eerder) zijn dan de huidige datums op de verkoopregel weergegeven. Selecteer deze optie om latere datums op te nemen. Deze optie kan handig zijn in situaties waarin andere parameters dan de datum prioriteit hebben. Zo wordt bijvoorbeeld mogelijk de voorkeur gegeven aan een specifieke leverancier of een specifiek magazijn.
 -   **Leveringsmethode** - Selecteer de gewenste leveringsmethode om transporttijd en -kosten te optimaliseren. U ziet onmiddellijk het effect op de voorgestelde alternatieven voor levering. Daarom is het gemakkelijk om de alternatieven te vergelijken.
@@ -146,7 +146,7 @@ Informatie op dit tabblad houdt verband met de regel voor alternatieve levering 
 
 Op dit tabblad wordt de impact weergegeven van het geselecteerde alternatief voor levering. Als u op **OK** klikt, wordt de verkoopregel bijgewerkt met de geselecteerde waarden in de kolommen GESELECTEERD. Houd er rekening mee dat, als de hoeveelheid in het geselecteerde alternatief voor levering kleiner is dan de hoeveelheid op de verkoopregel, een afleveringsschema wordt gemaakt en de orderregel wordt opgesplitst in twee regels: één regel voor de geselecteerde hoeveelheid en één regel voor de resterende hoeveelheid. U kunt ook de commerciële regel bijwerken zodat deze overeenkomt met de schemaregels en van invloed is op de prijzen.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Orderbelofte](delivery-dates-available-promise-calculations.md)

@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Variabelecompensatieplannen maken
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Variabele compensatie heeft betrekking op de onregelmatige inkomsten van een werknemer, zoals bonussen of aandelenpakketten. In dit artikel worden de onderdelen beschreven die u moet instellen voordat u variabele compensatie kunt gebruiken en werknemers kunt inschrijven voor een plan voor variabele compensatie.
 
@@ -100,7 +100,7 @@ U kunt het tabblad **Overschrijvingen** gebruiken om specifieke waarden voor de 
 
 De waarde van **Organisatieoverschrijvingen** wordt gebruikt om de beloning van een werknemer te baseren op de prestaties van een of meer afdelingen. Het percentage dat wordt toegekend aan afdelingen, moet samen 100 procent zijn. Er wordt ook rekening gehouden met de individuele prestaties van de werknemer. Deze instellingen worden alleen gebruikt als **Prestatieloon** is geselecteerd wanneer het compensatieproces wordt uitgevoerd.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Compensatieplannen](compensation-plans.md)

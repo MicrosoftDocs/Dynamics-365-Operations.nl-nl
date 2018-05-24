@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Instelling van vraagprognose
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de insteltaken beschreven die u moet uitvoeren ter voorbereiding op de vraagprognose.  
 
@@ -78,7 +78,7 @@ Om vraagvoorspellingen te maken, kunt u uw eigen service implementeren door Mach
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Instellingen voor de Machine Learning-service voor vraagprognoses van Finance and Operations
 Als u de parameters die kunnen worden geconfigureerd voor de Finance and Operations-vraagprognoseservice, gaat u naar **Hoofdplanning** &gt; **Instellen** &gt; **Vraagprognose** &gt; **Parameters van prognosealgoritme**. Op de pagina **Parameters van prognosealgoritme** worden de standaardwaarden voor de parameters weergegeven. U kunt deze parameters overschrijven op de pagina **Parameters voor vraagprognose**. Gebruik het tabblad **Algemeen** om de parameters globaal te overschrijven, of gebruik het tabblad **Artikeltoewijzingssleutels** om de parameters per artikeltoewijzingssleutel te overschrijven. De parameters die voor een artikeltoewijzingssleutel worden overschreven beïnvloeden alleen de prognose van artikelen die aan de artikeltoewijzingssleutel zijn gekoppeld.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Inleiding op vraagprognoses](introduction-demand-forecasting.md)

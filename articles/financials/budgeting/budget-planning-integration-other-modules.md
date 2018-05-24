@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Budgetplanningsintegratie met andere modules
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Budgetplannen kunnen worden gegenereerd op basis van meerdere verschillende bronnen: De basiselementen van het periodieke proces zijn hetzelfde voor alle bronnen. 
 
@@ -68,7 +68,7 @@ Met de optie **Historisch** op het tabblad **Doel** kunt u de datums van de bron
 
 Het veld **Totaal samentellen volgens** bovenaan de pagina bepaalt ook de datum die wordt gebruikt. Dit veld bevat totale bedragen en stelt desgewenst de ingangsdatum in op de eerste dag van het boekjaar of de boekperiode. 
 
-Veel van de velden op het <strong>Doel</strong> tabblad kunnen worden bewerkt of zijn alleen-lezen, afhankelijk van de actie die u selecteert. Wanneer u echter overgaat van het maken van een nieuw budgetplan naar het bijwerken van een bestaand plan, is het veld <strong>Naam van budgetplan</strong> niet langer beschikbaar, en worden de velden voor het selecteren van een bestaand plan beschikbaar. Voor zowel het <strong>Doel</strong> tabblad als het <strong>Bron **tabblad, is het veld **Grootboek</strong> altijd niet-beschikbaar, omdat de waarde door het geselecteerde budgetplanningsproces wordt gedefinieerd. 
+Veel van de velden op het <strong>Doel</strong> tabblad kunnen worden bewerkt of zijn alleen-lezen, afhankelijk van de actie die u selecteert. Wanneer u echter overgaat van het maken van een nieuw budgetplan naar het bijwerken van een bestaand plan, is het veld **Naam van budgetplan** niet langer beschikbaar, en worden de velden voor het selecteren van een bestaand plan beschikbaar. Voor zowel het **Doel** tabblad als het **Bron** tabblad, is het veld **Grootboek** altijd niet-beschikbaar, omdat de waarde door het geselecteerde budgetplanningsproces wordt gedefinieerd. 
 
 In het veld **Budgetklasse** kunt u de regels van het budgetplan instellen als onkostentransacties of opbrengsttransacties. Doorgaans worden de opbrengsttransacties als kredieten opgenomen in een grootboekrekening en daarom als negatieve bedragen opgeslagen. Doorgaans worden deze transacties ook als negatieve bedragen in het budgetplan weergegeven. Door de budgetklasse als een veld aan de planindeling toe te voegen kunt u opbrengst weer laten geven als positieve bedragen.
 

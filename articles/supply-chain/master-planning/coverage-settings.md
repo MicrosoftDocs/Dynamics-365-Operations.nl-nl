@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>Behoefteplanningsinstellingen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Voor de hoofdplanning wordt gebruikgemaakt van behoefteplanningsinstellingen om artikelbehoeften te berekenen. 
 
@@ -45,11 +45,11 @@ U kunt behoefteplanningsinstellingen op verschillende manieren instellen:
 
 <!-- -->
 
-- Geef behoefteplanningsinstellingen op voor een dimensiegroep. Klik op <strong>Productgegevensbeheer &gt; Algemeen &gt; Vrijgegeven producten</strong>. Klik op de pagina <strong>Vrijgegeven productdetail **op het tabblad **Algemeen</strong>, in de groep <strong>Administratie</strong> op de koppeling <strong>Opslagdimensiegroep</strong>. Selecteer op de pagina <strong>Opslagdimensiegroep</strong> het veld <strong>In behoefteplan opnemen volgens dimensie</strong> om de behoefteplanningsinstellingen voor een dimensie in de opslagdimensiegroep te maken. Alle productdimensies, zoals configuratie, kleur, grootte, stijl, moeten het veld <strong>In behoefteplan opnemen volgens dimensie</strong> hebben geselecteerd.
+- Geef behoefteplanningsinstellingen op voor een dimensiegroep. Klik op **Productgegevensbeheer &gt; Algemeen &gt; Vrijgegeven producten**. Klik op de pagina **Vrijgegeven productdetail** op het tabblad **Algemeen** in de groep **Beheer** op de koppeling **Opslagdimensiegroep**. Selecteer op de pagina **Opslagdimensiegroep** het veld **In behoefteplan opnemen volgens dimensie** om de behoefteplanningsinstellingen voor een dimensie in de opslagdimensiegroep te maken. Alle productdimensies, zoals configuratie, kleur, grootte, stijl, moeten het veld **In behoefteplan opnemen volgens dimensie** hebben geselecteerd.
 
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Hoofdplannen](master-plans.md)

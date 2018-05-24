@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose maken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over de parameters en de filters die in de berekening van de vraagprognose worden gebruikt. 
 
@@ -64,7 +64,7 @@ De intercompany-planninggroep, de artikeltoewijzingssleutels, en andere filters 
 
 Als de prognose niet wordt gegenereerd voor een grote set artikelen, maar bijvoorbeeld voor één artikel of artikeltoewijzingssleutel tegelijk, kunt u om betere prestaties te krijgen het selectievakje **Aanvraagreactiemodus gebruiken** op het tabblad **Hoofdplanning - Instellingen - Vraagprognose** - **Parameters voor vraagprognose - Azure Machine Learning** inschakelen.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Instelling van vraagprognose](demand-forecasting-setup.md)

@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-returns"></a>Verkoopretouren
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp vindt u informatie over het proces voor retourorders. Het behandelt de afhandeling van klantretouren en het effect daarvan op kostprijsberekening en de voorhanden voorraadhoeveelheden.
 
@@ -88,7 +88,7 @@ Nadat u de retourorderkoptekst hebt voltooid, kunt u retourregels kunt maken met
 -   U voert handmatig de artikelgegevens, hoeveelheden en overige gegevens voor elke retourregel in.
 -   U maakt een retourregel met behulp van de functie **Verkooporder zoeken**. Het wordt aangeraden om deze functie te gebruiken wanneer u een retourorder maakt. De functie **Verkooporder zoeken** maakt een verwijzing van de retourregel naar de regel in de gefactureerde verkooporder en haalt regelgegevens op uit de verkoopregel, zoals de waarden voor artikelnummer, hoeveelheid, prijs, korting en kosten. De verwijzing zorgt ervoor dat, als het product wordt geretourneerd naar het bedrijf, het wordt gewaardeerd tegen dezelfde kostprijs waarvoor het werd verkocht. De verwijzing valideert ook dat geen retourorder worden gemaakt voor een hoeveelheid die groter is dan de hoeveelheid die op de factuur is verkocht.
 
-**Opmerking:** Retourregels die naar een verkooporder verwijzen, worden verwerkt als correcties of omkering van de verkoop. Zie voor meer informatie de sectie 'Boeken naar het grootboek' verderop in dit onderwerp.
+>[Opmerking!] Retourregels die naar een verkooporder verwijzen, worden verwerkt als correcties of omkering van de verkoop. Zie voor meer informatie de sectie 'Boeken naar het grootboek' verderop in dit onderwerp.
 
 ### <a name="charges"></a>Toeslagen
 
@@ -193,15 +193,26 @@ Tijdens het ontvangstproces worden retouren geïntegreerd met het algemene proce
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Producten identificeren in de lijst Overzicht aankomst
 
-De pagina **Overzicht aankomst** biedt een overzicht van alle geplande inkomende ontvangsten. **Opmerking:** Aankomsten van retourorders moeten afzonderlijk van andere soorten aankomsttransacties worden verwerkt. Nadat u hebt een binnenkomend pakket hebt aangegeven op de pagina **Overzicht aankomst** (bijvoorbeeld met behulp van het begeleidende RMA-document), klikt u in het actievenster op **Begin aankomst** en maakt en initialiseert u een ontvangstjournaal dat overeenkomt met de aankomst.
+De pagina **Overzicht aankomst** biedt een overzicht van alle geplande inkomende ontvangsten. 
+>[Opmerking!] Aankomsten van retourorders moeten afzonderlijk van andere soorten aankomsttransacties worden verwerkt. Nadat u hebt een binnenkomend pakket hebt aangegeven op de pagina **Overzicht aankomst** (bijvoorbeeld met behulp van het begeleidende RMA-document), klikt u in het actievenster op **Begin aankomst** en maakt en initialiseert u een ontvangstjournaal dat overeenkomt met de aankomst.
 
 ### <a name="edit-the-arrival-journal"></a>Het aankomstjournaal bewerken.
 
-Als u de optie **Quarantainebeheer** instelt op **Ja**, makt u een quarantaineorder voor de retourregel. Als een regel naar de quarantaine is verzonden voor inspectie, kunt u geen beschikkingscode opgeven. **Opmerking:** Als u de optie **Quarantainebeheer** instelt op **Ja** in de voorraadmodelgroep van het artikel, wordt de optie **Quarantainebeheer** op de pagina **Journaalregels** voor de ontvangstjournaalregel gemarkeerd. Deze kan niet worden gewijzigd. Als de regel naar quarantaine wordt verzonden, moet u het bijbehorende quarantainemagazijn opgeven. Als de aankomstregel niet wordt verzonden voor inspectie, moet de ontvangstmedewerker van het magazijn de beschikkingscode rechtstreeks op de ontvangstjournaalregel opgeven en vervolgens het ontvangstjournaal boeken. Als dezelfde beschikkingscode niet moet worden toegewezen aan de volledige hoeveelheid van de retourregel of als de volledige hoeveelheid van de regel niet is ontvangen, moet u de regel splitsen. Wanneer u een ontvangstjournaalregel splitst, moet u ook de retourregel splitsen (**SalesLine**) en maakt u een nieuwe partij-ID. U kunt de regel splitsen door de hoeveelheid van de ontvangstjournaalregel te verlagen. Wanneer het journaal wordt geboekt, wordt een nieuwe retourregel gemaakt met de status **Verwacht** voor de resterende hoeveelheid. U kunt de regel ook splitsen door te klikken op **Functies** &gt; **Splitsen**.
+Als u de optie **Quarantainebeheer** instelt op **Ja**, makt u een quarantaineorder voor de retourregel. Als een regel naar de quarantaine is verzonden voor inspectie, kunt u geen beschikkingscode opgeven. 
+ 
+Als u de optie **Quarantainebeheer** instelt op **Ja** in de voorraadmodelgroep van het artikel, wordt de optie **Quarantainebeheer** op de pagina **Journaalregels** voor de ontvangstjournaalregel gemarkeerd. Deze kan niet worden gewijzigd. Als de regel naar quarantaine wordt verzonden, moet u het bijbehorende quarantainemagazijn opgeven. 
+
+Als de aankomstregel niet wordt verzonden voor inspectie, moet de ontvangstmedewerker van het magazijn de beschikkingscode rechtstreeks op de ontvangstjournaalregel opgeven en vervolgens het ontvangstjournaal boeken. Als dezelfde beschikkingscode niet moet worden toegewezen aan de volledige hoeveelheid van de retourregel of als de volledige hoeveelheid van de regel niet is ontvangen, moet u de regel splitsen. Wanneer u een ontvangstjournaalregel splitst, moet u ook de retourregel splitsen (**SalesLine**) en maakt u een nieuwe partij-ID. U kunt de regel splitsen door de hoeveelheid van de ontvangstjournaalregel te verlagen. Wanneer het journaal wordt geboekt, wordt een nieuwe retourregel gemaakt met de status **Verwacht** voor de resterende hoeveelheid. U kunt de regel ook splitsen door te klikken op **Functies** &gt; **Splitsen**.
 
 ### <a name="process-the-quarantine-order"></a>De quarantaineorder verwerken
 
-Als de geretourneerde producten voor inspectie in het quarantainemagazijn worden verzonden, wordt geen extra verwerking uitgevoerd in een quarantaineorder. Eén quarantaineorder wordt gemaakt voor elke aankomstregel die naar het quarantainemagazijn is verzonden. De beschikkingscode geeft het resultaat van het inspectieproces aan. U kunt een quarantaineorder opsplitsen, net zoals u het ontvangstjournaal splitst. Als u de quarantainecode splitst, wordt de retourregel op dezelfde wijze gesplitst. Nadat de beschikkingscode is ingevoerd, rondt u de quarantaineorder af met behulp van de functie **Beëindigen** of de functie **Gereedmelden**. Als u **Gereedmelden** selecteert, wordt een nieuwe ontvangst aangemaakt in het aangewezen magazijn. U kunt vervolgens deze aankomst verwerken op de pagina **Overzicht aankomst**. Als de aankomst afkomstig is uit een quarantaineorder is, kunt u de beschikkingscode die is toegewezen tijdens de inspectie niet wijzigen. Als u de quarantaineorder met behulp van de functie **Beëindigen** afrondt, wordt de partij automatisch geregistreerd. Soms wordt een artikel van het quarantainemagazijn teruggestuurd naar de afdeling Verzending en ontvangst. De quarantaine-inspecteur weet bijvoorbeeld niet waar het artikel in de voorraad moet worden opgeslagen. In dit geval moet de bijbehorende pakbon worden bijgewerkt om de beschikkingscode juist te registreren en op te volgen, die is opgegeven als gevolg van de quarantaine. Een ontvangstbevestiging kan naar de klant worden verzonden wanneer de retourregel is geregistreerd. Het rapport **Retourbevestiging** lijkt op het retourorderdocument. Het rapport **Retourbevestiging** wordt niet gejournaliseerd of op andere wijze in het systeem geregistreerd en het is geen vereiste stap in het retourorderproces.
+Als de geretourneerde producten voor inspectie in het quarantainemagazijn worden verzonden, wordt geen extra verwerking uitgevoerd in een quarantaineorder. Eén quarantaineorder wordt gemaakt voor elke aankomstregel die naar het quarantainemagazijn is verzonden. De beschikkingscode geeft het resultaat van het inspectieproces aan. 
+
+U kunt een quarantaineorder opsplitsen, net zoals u het ontvangstjournaal splitst. Als u de quarantainecode splitst, wordt de retourregel op dezelfde wijze gesplitst. Nadat de beschikkingscode is ingevoerd, rondt u de quarantaineorder af met behulp van de functie **Beëindigen** of de functie **Gereedmelden**. Als u **Gereedmelden** selecteert, wordt een nieuwe ontvangst aangemaakt in het aangewezen magazijn. U kunt vervolgens deze aankomst verwerken op de pagina **Overzicht aankomst**. 
+
+Als de aankomst afkomstig is uit een quarantaineorder is, kunt u de beschikkingscode die is toegewezen tijdens de inspectie niet wijzigen. Als u de quarantaineorder met behulp van de functie **Beëindigen** afrondt, wordt de partij automatisch geregistreerd. Soms wordt een artikel van het quarantainemagazijn teruggestuurd naar de afdeling Verzending en ontvangst. De quarantaine-inspecteur weet bijvoorbeeld niet waar het artikel in de voorraad moet worden opgeslagen. In dit geval moet de bijbehorende pakbon worden bijgewerkt om de beschikkingscode juist te registreren en op te volgen, die is opgegeven als gevolg van de quarantaine. 
+
+Een ontvangstbevestiging kan naar de klant worden verzonden wanneer de retourregel is geregistreerd. Het rapport **Retourbevestiging** lijkt op het retourorderdocument. Het rapport **Retourbevestiging** wordt niet gejournaliseerd of op andere wijze in het systeem geregistreerd en het is geen vereiste stap in het retourorderproces.
 
 ## <a name="replace-a-product"></a>Een product vervangen
 Er zijn twee methoden voor het beheer van vervangende producten:
@@ -223,7 +234,9 @@ Als u een vervangend artikel naar de klant verzendt en op de retourorder gebruik
 
 ![Vervangingsproces bij gebruik van een beschikkingscode](./media/SalesReturn05.png)
 
-Het vervangende artikel wordt geleverd door middel van een onafhankelijke verkooporder, de vervangende verkooporder. Deze verkooporder wordt gemaakt wanneer de pakbon voor de retourorder wordt gegenereerd. De orderkoptekst gebruikt gegevens van de klant, waarnaar wordt verwezen in de retourorderkoptekst. De regelgegevens worden verzameld van de informatie die is ingevoerd op de pagina **Vervangingsartikel**. De pagina **Vervangingsartikel** moet worden ingevuld voor regels met beschikkingsacties die beginnen met het woord 'vervangen'. Zowel de hoeveelheid als de identiteit van het vervangingsartikel worden echter niet gevalideerd of beperkt. Dankzij dit gedrag kan de klant hetzelfde artikel toegezonden krijgen maar in een andere configuratie of maat, of zelfs een geheel ander artikel. Standaard wordt een identiek artikel ingevoerd op de pagina **Vervangingsartikel**. U kunt echter een ander item selecteren op voorwaarde dat de functie is geconfigureerd. **Opmerking:** U kunt de vervangende verkooporder bewerken en verwijderen nadat deze is gemaakt.
+Het vervangende artikel wordt geleverd door middel van een onafhankelijke verkooporder, de vervangende verkooporder. Deze verkooporder wordt gemaakt wanneer de pakbon voor de retourorder wordt gegenereerd. De orderkoptekst gebruikt gegevens van de klant, waarnaar wordt verwezen in de retourorderkoptekst. De regelgegevens worden verzameld van de informatie die is ingevoerd op de pagina **Vervangingsartikel**. De pagina **Vervangingsartikel** moet worden ingevuld voor regels met beschikkingsacties die beginnen met het woord 'vervangen'. Zowel de hoeveelheid als de identiteit van het vervangingsartikel worden echter niet gevalideerd of beperkt. Dankzij dit gedrag kan de klant hetzelfde artikel toegezonden krijgen maar in een andere configuratie of maat, of zelfs een geheel ander artikel. Standaard wordt een identiek artikel ingevoerd op de pagina **Vervangingsartikel**. U kunt echter een ander item selecteren op voorwaarde dat de functie is geconfigureerd. 
+
+>[Opmerking!] U kunt de vervangende verkooporder bewerken en verwijderen nadat deze is gemaakt.
 
 ## <a name="generate-a-packing-slip"></a>Een pakbon genereren
 Voordat geretourneerde artikelen weer in de voorraad kunnen worden opgenomen, moet u de pakbon bijwerken voor de order waartoe deze artikelen behoren. Net zoals u met het factuurbijwerkproces de financiële transactie bijwerkt, werkt u met het pakbonbijwerkproces fysiek de voorraadrecord bij. Dit betekent dat u met dit proces wijzigingen in de voorraad doorvoert. In het geval van geretourneerde artikelen worden de stappen die zijn toegewezen aan de beschikkingsactie, geïmplementeerd tijdens het bijwerken van de pakbon. Wanneer u de pakbon genereert, vinden de volgende gebeurtenissen plaats:
@@ -233,14 +246,19 @@ Voordat geretourneerde artikelen weer in de voorraad kunnen worden opgenomen, mo
 -   Artikelen die zijn gemarkeerd met de beschikkingsactie **Retour naar klant** worden ontvangen en aan de klant geleverd. Deze artikelen hebben geen netto-invloed op voorraad.
 -   Een vervangende verkooporder wordt gemaakt. Deze verkooporder is gebaseerd op informatie op de pagina **Vervangingsartikel**.
 
-U kunt de pakbon alleen genereren voor regels met de retourstatus **Geregistreerd** en alleen voor de volledige hoeveelheid op de retourregel. Als meerdere regels op de retourorder de status **Geregistreerd** hebben, kunt u de pakbon voor een subset van de regels genereren door de andere regels te verwijderen van de pagina **Pakbon boeken**. Gedeeltelijke retouren worden gedefinieerd in termen van retourorderregels en niet in termen van retourorderleveringen. Wanneer u dus de volledige hoeveelheid ontvangt die is aangegeven op één retourorderregel, maar niets van de andere regels in de retourorder, de levering geen gedeeltelijke levering is. Als echter voor een retourorderregel bijvoorbeeld tien eenheden van een artikel moeten worden geretourneerd en u er maar vier ontvangt, is dit een gedeeltelijke levering. Als niet alle verwachte retourartikelen zijn ontvangen, kunt u de verzending apart zetten en wachten totdat de rest van de geretourneerde hoeveelheid aankomt. U kunt echter ook de gedeeltelijke hoeveelheid registreren en boeken. Als onderdeel van het boekingsproces voor pakbonnen kunt u het referentienummer van de pakbon uit de verzenddocumenten van de klant koppelen aan de orderregels. Deze koppeling is optioneel en dient alleen ter informatie. Er worden geen transacties bijgewerkt. In het algemeen kunt u de pakbonproces overslaan en direct doorgaan naar de facturering. In dit geval worden de stappen die u zou uitvoeren tijdens het genereren van de pakbon, uitgevoerd tijdens het factureren.
+U kunt de pakbon alleen genereren voor regels met de retourstatus **Geregistreerd** en alleen voor de volledige hoeveelheid op de retourregel. Als meerdere regels op de retourorder de status **Geregistreerd** hebben, kunt u de pakbon voor een subset van de regels genereren door de andere regels te verwijderen van de pagina **Pakbon boeken**. 
+
+Gedeeltelijke retouren worden gedefinieerd in termen van retourorderregels en niet in termen van retourorderleveringen. Wanneer u dus de volledige hoeveelheid ontvangt die is aangegeven op één retourorderregel, maar niets van de andere regels in de retourorder, de levering geen gedeeltelijke levering is. Als echter voor een retourorderregel bijvoorbeeld tien eenheden van een artikel moeten worden geretourneerd en u er maar vier ontvangt, is dit een gedeeltelijke levering. Als niet alle verwachte retourartikelen zijn ontvangen, kunt u de verzending apart zetten en wachten totdat de rest van de geretourneerde hoeveelheid aankomt. U kunt echter ook de gedeeltelijke hoeveelheid registreren en boeken. Als onderdeel van het boekingsproces voor pakbonnen kunt u het referentienummer van de pakbon uit de verzenddocumenten van de klant koppelen aan de orderregels. Deze koppeling is optioneel en dient alleen ter informatie. Er worden geen transacties bijgewerkt. 
+
+In het algemeen kunt u de pakbonproces overslaan en direct doorgaan naar de facturering. In dit geval worden de stappen die u zou uitvoeren tijdens het genereren van de pakbon, uitgevoerd tijdens het factureren.
 
 ## <a name="generate-an-invoice"></a>Een factuur genereren
 Alhoewel de pagina **Retourorder** de informatie en acties bevat die nodig zijn om de speciale logistieke aspecten van de retourorder te kunnen verwerken, moet u de pagina **Verkooporder** gebruiken om het factureringsproces af te ronden. Uw organisatie kan dan desgewenst het retourorders en verkooporders tegelijkertijd factureren en dezelfde persoon kan het factureringsproces uitvoeren. Om de retourorder vanuit de pagina **Verkooporder** weer te geven, klikt u op de koppeling voor het verkoopordernummer om de bijbehorende verkooporder te openen. U vindt de retourorder ook op de pagina **Alle verkooporders**. Retourorders zijn verkooporders met het ordertype **Geretourneerde order**.
 
 ### <a name="credit-correction"></a>Creditcorrectie
 
-Als onderdeel van het factureringsproces moet u controleren of diverse toeslagen correct zijn. Als u wilt dat de boekingen in grootboek correcties worden (storno), kunt u overwegen de optie **Creditcorrectie** op het tabblad **Andere** van de pagina **Factuur wordt geboekt** te gebruiken, wanneer u de factuur/creditnota boekt. **Opmerking:** Standaard wordt de optie **Creditcorrectie** ingeschakeld als de optie **Creditnota als correctie** op pagina de **Parameters van module Klanten** is ingeschakeld. Het wordt echter afgeraden om retouren te boeken met storno.
+Als onderdeel van het factureringsproces moet u controleren of diverse toeslagen correct zijn. Als u wilt dat de boekingen in grootboek correcties worden (storno), kunt u overwegen de optie **Creditcorrectie** op het tabblad **Andere** van de pagina **Factuur wordt geboekt** te gebruiken, wanneer u de factuur/creditnota boekt. 
+>[Opmerking!] Standaard wordt de optie **Creditcorrectie** ingeschakeld als de optie **Creditnota als correctie** op de pagina **Parameters van module Klanten** is ingeschakeld. Het wordt echter afgeraden om retouren te boeken met storno.
 
 ## <a name="create-intercompany-return-orders"></a>Intercompany-retourorders maken
 Retourorders kunnen worden uitgevoerd tussen twee bedrijven binnen uw organisatie. De volgende scenario's worden ondersteund:
@@ -294,7 +312,7 @@ De retourorder verwijst niet naar een klantfactuur. Het geretourneerde artikel w
 
 ![De retourorder verwijst niet naar een klantfactuur.](./media/SalesReturn09.png)  
 
-**Opmerking:** De hoofdrecordprijs wordt gebruikt als de standaardwaarde voor de parameter **Retourkostprijs**. De standaardprijs wijkt af van de kostprijs op het moment van voorraaduitgifte. Daarom is de implicatie dat een verlies van 3 is gemaakt. De retourorder omvat bovendien niet de korting die op de verkooporder aan de klant is gegeven. Daarom wordt een te hoge creditering uitgevoerd.
+>[Opmerking!] De hoofdrecordprijs wordt gebruikt als de standaardwaarde voor de parameter **Retourkostprijs**. De standaardprijs wijkt af van de kostprijs op het moment van voorraaduitgifte. Daarom is de implicatie dat een verlies van 3 is gemaakt. De retourorder omvat bovendien niet de korting die op de verkooporder aan de klant is gegeven. Daarom wordt een te hoge creditering uitgevoerd.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Voorbeeld 2: Creditcorrectie is ingeschakeld voor de retourorder
 
@@ -302,7 +320,7 @@ Voorbeeld 2 is hetzelfde als voorbeeld 1, maar de parameter **Creditcorrectie** 
 
 ![Retourorder waarbij creditcorrectie is ingeschakeld ](./media/SalesReturn10.png)  
 
-**Opmerking:** De grootboekboekingen worden ingevoerd als negatieve correcties.
+>[Opmerking!] De grootboekboekingen worden ingevoerd als negatieve correcties.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Voorbeeld 3: De retourorderregel wordt gemaakt door middel van de functie Verkooporder zoeken
 
@@ -310,7 +328,7 @@ In dit voorbeeld wordt de retourorderregel gemaakt door middel van de functie **
 
 ![Een retourorderregel die is gemaakt door middel van de functie Verkooporder zoeken ](./media/SalesReturn11.png)  
 
-**Opmerking:** **Korting** en **Kostprijs retour** zijn correct ingesteld. Daarom wordt precies het bedrag van de klantfactuur teruggeboekt.
+>[Opmerking!] **Korting** en **Kostprijs retour** zijn correct ingesteld. Daarom wordt precies het bedrag van de klantfactuur teruggeboekt.
 
 
 

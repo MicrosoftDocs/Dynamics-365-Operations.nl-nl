@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>Schermindelingen configureren voor POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Dit onderwerp biedt informatie over schermindelingen voor het gebruik van de Microsoft Dynamics 365 for Retail-POS.
 
@@ -89,9 +89,9 @@ De grootte van elke indeling binnen een schermindeling moet worden geconfigureer
 
 **Afbeelding**: het afbeeldingsbesturingselement kan worden gebruikt om het winkellogo of andere branding-afbeeldingen weer te geven op het transactiescherm. Het afbeeldingsbesturingselement is alleen beschikbaar voor volledige indelingen. 
 
-**Aanbevolen producten**: Als dit is geconfigureerd voor de omgeving, laat het besturingselement voor aanbevolen producten productsuggesties zien die zijn gegenereerd door middel van machine learning. Het besturingselement voor productaanbevelingen is alleen beschikbaar voor volledige indelingen in Dynamics 365 for Retail, versie 1611. **Aangepast besturingselement **: Het aangepaste besturingselement fungeert als een tijdelijke aanduiding in de schermindeling. Gebruikers kunnen daarmee plaats reserveren voor hun eigen inhoud. Het aangepaste besturingselement is alleen beschikbaar voor volledige indelingen.
+**Aanbevolen producten**: Als dit is geconfigureerd voor de omgeving, laat het besturingselement voor aanbevolen producten productsuggesties zien die zijn gegenereerd door middel van machine learning. Het besturingselement voor productaanbevelingen is alleen beschikbaar voor volledige indelingen in Dynamics 365 for Retail, versie 1611. **Aangepast besturingselement**: Het aangepaste besturingselement fungeert als een tijdelijke aanduiding in de schermindeling. Gebruikers kunnen daarmee plaats reserveren voor hun eigen inhoud. Het aangepaste besturingselement is alleen beschikbaar voor volledige indelingen.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [De Retail POS-indelingsontwerper installeren](install-pos-layout-designer.md)

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -230,7 +230,47 @@ Werkorderintegratie vereist dat u de verkoopoorsprong instelt. De verkoopoorspro
 6. Stel het veld **Type verkoopoorsprong** in op **Integratie werkorder**.
 7. Selecteer **Opslaan**.
 
-### <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 
-(Binnenkort beschikbaar)
+### <a name="setup-in-data-integration"></a>Instellingen in Gegevensintegratie
+
+Controleer of de **Integratiesleutel** aanwezig is voor **msdyn_workorders**
+1. Ga naar Gegevensintegratie
+2. Selecteer het tabblad **Verbindingsset**
+3. Selecteer de verbindingsset die wordt gebruikt voor synchronisatie van werksorders
+4. Selecteer het tabblad **Integratiesleutel**
+5. Zoek msdyn_workorders en controleer of de sleutel **msdyn_name (werkordernummer)** wordt toegevoegd. Als deze niet wordt weergegeven, voegt u deze toe door te klikken op **Sleutel toevoegen** en klikt u op **Opslaan** bovenaan de pagina
+
+## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
+
+In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderHeader
+
+Filter: (msdyn_systemstatus ne 690970005) en (msdyn_systemstatus ne 690970000) en (msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderServiceLineEstimate
+
+Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en (msdyn_linestatus eq 690970000) en (msdynce_headersystemstatus ne 690970004)
+
+[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderServiceLineUsed
+
+Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004))
+
+[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderProductLineEstimate
+
+Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en (msdyn_linestatus eq 690970000) en (msdynce_headersystemstatus ne 690970004) en (msdyn_allocated eq true)
+
+[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Werkorders aan verkooporders (Field Service aan Fin en Ops): WorkOrderProductLineUsed
+
+Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004) of (msdyn_allocated ne true))
+
+[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

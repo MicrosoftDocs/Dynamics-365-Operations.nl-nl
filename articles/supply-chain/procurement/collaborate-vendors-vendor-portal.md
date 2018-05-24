@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samenwerken met leveranciers met behulp van de leveranciersportal
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe inkoopmedewerkers de leveranciersportal kunnen gebruiken om tijdens het inkooporderbevestigingsproces samen te werken met externe leveranciers. Deze informatie geldt alleen voor de versies van februari 2016 en mei 2016 van Dynamics AX.
 
@@ -96,7 +96,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 |                           U verzendt de nieuwe versie van de inkooporder naar de leveranciersportal.                            |                                                                                                                                                                    De nieuwe versie wordt geregistreerd in de leveranciersportal en de status wordt gewijzigd in <strong>Externe controle</strong>.                                                                                                                                                                     |
 |                                De leverancier keurt de nieuwe versie van de inkooporder goed                                 |                                                                                                                                                     De status wordt gewijzigd in <strong>Bevestigd</strong>. Dit gebeurt automatisch of wanneer u het antwoord van de leverancier ontvangt en vervolgens de inkooporder bevestigt.                                                                                                                                                     |
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Configuratie van de beveiliging voor gebruikers van de leveranciersportal](configure-security-vendor-portal-users.md)

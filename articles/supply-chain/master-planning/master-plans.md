@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d8eb8a8c4e98dde0b1e8583a8b7f6f603bc736c7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c530284f83f13bce6941bf889aaddbb1a1e82dae
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="master-plans"></a>Hoofdplannen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 U kunt diverse hoofdplannen gebruiken ter ondersteuning van de dagelijkse werkzaamheden binnen uw bedrijf, voor het simuleren van verschillende planningsstrategieën die u in de gaten wilt houden, en voor het implementeren van een bedrijfsbeleid zoals een beleid over de interne resultaten of klanttevredenheid. 
 
@@ -47,7 +47,7 @@ U kunt het eerste dynamische plan zo opstellen, dat het wordt bijgewerkt met het
 
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Behoefteplanningsinstellingen](coverage-settings.md)

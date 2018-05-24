@@ -1,6 +1,6 @@
 ---
 title: Leverancierbetalingen maken met behulp van een betalingsvoorstel
-description: Dit onderwerp geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken. Betalingsvoorstellen worden vaak gebruikt om leveranciersbetalingen te maken, omdat de query kan worden gebruikt om snel leveranciersfacturen voor betaling te selecteren op basis van criteria zoals vervaldatum en contantkorting.
+description: Dit onderwerp geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Leverancierbetalingen maken met behulp van een betalingsvoorstel
+# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Leveranciersbetalingen maken met behulp van een betalingsvoorstel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp geeft een overzicht van de opties voor betalingsvoorstel en bevat enkele voorbeelden die tonen hoe betalingsvoorstellen werken. Betalingsvoorstellen worden vaak gebruikt om leveranciersbetalingen te maken, omdat de query kan worden gebruikt om snel leveranciersfacturen voor betaling te selecteren op basis van criteria zoals vervaldatum en contantkorting. 
 
@@ -47,7 +47,7 @@ De voorstelquery voor klantbetalingen bevat verschillende tabbladen, die elk ver
 - **Saldo van leverancier controleren** – Als deze optie is ingesteld op **Ja**, controleert het systeem of een leverancier geen debetsaldo heeft voordat een factuur wordt betaald. Als een leverancier een debetsaldo heeft, wordt er geen betaling gemaakt. De leverancier kan bijvoorbeeld creditnota's of betalingen hebben die zijn geboekt, maar nog niet zijn vereffend. In deze gevallen, mag de leverancier niet worden betaald. In plaats daarvan, moeten de creditnota's of betalingen worden verrekend met de openstaande facturen.
 - **Negatieve betalingen verwijderen** – Deze optie werkt verschillend, afhankelijk van of betalingen worden uitgevoerd voor individuele facturen of voor de som van facturen die aan de betalingscriteria voldoen. Dit gedrag wordt gedefinieerd in de betalingsmethode.
 - **Betaling voor elke factuur** – Als de optie **Negatieve betalingen verwijderen** is ingesteld op **Ja** en er een niet-vereffende factuur en betaling voor een leverancier bestaat, wordt alleen de factuur geselecteerd voor betaling. De bestaande betaling wordt niet verrekend met de factuur. Als de optie **Negatieve betalingen verwijderen** is ingesteld op **Nee** en een factuur en een betaling niet zijn vereffend, worden zowel de factuur als de betaling geselecteerd voor betaling. Er wordt een betaling gemaakt voor de betaling en er wordt een restitutie (negatieve betaling) gemaakt voor de betaling.
-- <strong>Betaling voor som van facturen</strong> – Als de optie <strong>Negatieve betalingen verwijderen</strong> is ingesteld op <strong>Ja</strong> en er een niet-vereffende factuur en betaling bestaat voor een leverancier, worden zowel de niet-vereffende factuur als de betaling geselecteerd voor betaling en worden de bedragen samengevoegd om het totale betalingsbedrag te produceren. De enige uitzondering geldt in situaties waarbij de som resulteert in een restitutie. In dit geval, wordt noch de factuur noch de betaling geselecteerd. Als de optie <strong>Negatieve betalingen verwijderen** is ingesteld op **Nee</strong> en een factuur en betaling niet zijn vereffend, worden zowel de factuur als de betaling geselecteerd voor betaling en worden de bedragen samengevoegd om het totale betalingsbedrag te produceren.
+- **Betaling voor som van facturen** – Als de optie **Negatieve betalingen verwijderen** is ingesteld op **Ja** en er een niet-vereffende factuur en betaling bestaat voor een leverancier, worden zowel de niet-vereffende factuur als de betaling geselecteerd voor betaling en worden de bedragen samengevoegd om het totale betalingsbedrag te produceren. De enige uitzondering geldt in situaties waarbij de som resulteert in een restitutie. In dit geval, wordt noch de factuur noch de betaling geselecteerd. Als de optie **Negatieve betalingen verwijderen** is ingesteld op **Nee** en een factuur en betaling niet zijn vereffend, worden zowel de factuur als de betaling geselecteerd voor betaling en worden de bedragen samengevoegd om het totale betalingsbedrag te produceren.
 - **Alleen rapport afdrukken** – Stel deze optie in op **Ja** om de resultaten van het betalingsvoorstel in een rapport te bekijken, zonder dat betalingen worden uitgevoerd.
 - **Leveranciersfacturen van andere rechtspersonen opnemen** – Als uw organisatie een gecentraliseerd proces voor betaling heeft en in het betalingsvoorstel facturen van andere rechtspersonen moeten worden opgenomen die aan de zoekcriteria voldoen, stelt u deze optie in op **Ja**.
 - **Afzonderlijke leveranciersbetaling per rechtspersoon voorstellen** – Als deze optie is ingesteld op **Ja**, wordt een aparte betaling gemaakt voor elke rechtspersoon per leverancier. De leverancier op de betaling is de leverancier van de factuur van elke rechtspersoon. Als deze optie is ingesteld op **No** en dezelfde leverancier heeft facturen in meerdere rechtspersonen, wordt er één betaling gemaakt voor het totale bedrag van de geselecteerde facturen. De leverancier op de betaling is de leverancier in de huidige rechtspersoon. Als de leverancierrekening niet bestaat in de huidige rechtspersoon, wordt de leverancierrekening gebruikt van de eerste factuur die moet worden betaald.
@@ -115,7 +115,8 @@ Met een dimensiebesturingselement kunt u het groeperen van gegenereerde regels o
 -   Het veld **Dimensiebesturingselement** wordt geactiveerd zonder de dimensies verder te definiëren. Het betalingsvoorstel wordt gemaakt zonder rekening te houden met dimensies. De gemaakte transactie neemt geen dimensies over van de toegepaste invoer.
 -   Het veld **Dimensiebesturingselement** wordt geactiveerd en de overige dimensies worden ingeschakeld. Nu definieert u hoe de dimensies naar het journaal worden gekopieerd. Bijvoorbeeld: • schakel het selectievakje **Bedrijfseenheid** in om een betalingsvoorstel per bedrijfseenheid voor de betalingsmethode te maken betaling. • Schakel het selectievakje **Kostenplaats** in om een betalingsvoorstel per kostenplaats voor de betalingsmethode te maken
 
-**Opmerking:** Als u meer dan een dimensie selecteert in de derde optie, wordt er een betalingsvoorstel gemaakt voor de dimensiecombinatie.
+> [[!NOTE]
+> Als u meer dan één dimensie selecteert in de derde optie, wordt er een betalingsvoorstel gemaakt voor de dimensiecombinatie.
 
 #### <a name="bank-account-selection"></a>Bankrekening selecteren
 

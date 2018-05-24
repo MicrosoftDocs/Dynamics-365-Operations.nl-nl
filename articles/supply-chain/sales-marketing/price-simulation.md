@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Prijssimulatie
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over prijssimulatie voor offertes. Met prijssimulaties kunt u het effect van inhoudingen op de toekomstige verkoopprijs tijdens het offerteproces evalueren voordat u zich vastlegt op een bepaalde prijs.
 
@@ -36,7 +36,7 @@ Met een prijssimulatie voor een offerte wordt een nieuw totaalbedrag gemaakt op 
 
 Met een prijssimulatie wordt de prijs in de offerte niet gewijzigd. Als de prijssimulatie op een volledige offerte wordt toegepast, wordt hij als speciale korting in de offertekoptekst verwerkt. Als de prijssimulatie op specifieke artikelen wordt toegepast, wordt hij als speciale korting in de offerteregels verwerkt. De verkoopprijs per eenheid op een offerteregel die is gemaakt, verandert niet als een prijssimulatie wordt toegepast. In plaats hiervan wordt een kortingspercentage toegepast dat overeenkomt met de prijsverlaging van de offerteregel. Wanneer een prijssimulatie wordt toegepast, worden de verkoopprijs per eenheid en het kortingspercentage overgebracht naar de offerteregel of de offertekoptekst.  
 
-**Opmerking**: Wanneer u een prijssimulatie uitvoert, wordt alleen de huidige verkoopvaluta gebruikt voor de simulatie. Wanneer u de offertetotalen bekijkt, worden echter de bedrijfsvaluta en de verkoopvaluta weergegeven.  
+>[Opmerking!] Wanneer u een prijssimulatie uitvoert, wordt alleen de huidige verkoopvaluta gebruikt om de simulatie te maken. Wanneer u de offertetotalen bekijkt, worden echter de bedrijfsvaluta en de verkoopvaluta weergegeven.  
 
 Bijkomende artikelen die worden toegevoegd aan offerteregels kunnen leiden tot regelkortingen of meerregelkortingen. Zij kunnen ook leiden tot totale kortingen, waardoor de brutowinstbijdragen en brutowinstpercentages van de offerteregels en de gehele korting worden gewijzigd.  
 

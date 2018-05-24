@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven welke informatie is vereist voor elke cel in een rijdefinitie in een financieel rapport en wordt uitgelegd hoe u die gegevens invoert. 
 
@@ -488,10 +488,10 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 1.  Open in Rapportontwerper de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
 2.  Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
 3.  Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
-4.  Selecteer de set om te verwijderen en klik vervolgens op **Verwijderen**. Klik op **Ja** om de set van dimensiewaarden definitief te verwijderen.
+4.  Selecteer de groep die u wilt verwijderen en klik op **Verwijderen**. Klik op **Ja** als u de dimensiewaardegroep permanent wilt verwijderen.
 
 
-## <a name="see-also"></a>Zie ook
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
 

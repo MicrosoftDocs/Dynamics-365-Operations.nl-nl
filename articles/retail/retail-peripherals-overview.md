@@ -19,16 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77f475b0937672af268d6da938d5b2a1c9f6448b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a>Overzicht van detailhandelrandapparatuur
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit onderwerp worden de concepten beschreven die verband houden met detailhandelrandapparaten. Hierin worden de verschillende manieren beschreven waarop randapparaten kunnen worden aangesloten op het POS en de onderdelen die de verbinding met het POS afhandelen.
 
@@ -786,7 +786,7 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
     -   Betalingsterminal 
 
     Als het randapparaat niet tot een van deze categorieën behoort, is het hardwarestation niet ontworpen om het randapparaat in te schakelen om te worden gedeeld tussen verschillende POS-apparaten.
--   Soms kunnen stuurprogramma ertoe leiden dat de Common Control Objects (CCO's) niet meer goed functioneren. Als een onlangs geïnstalleerd apparaat niet goed werkt of er andere problemen optreden, kunt u het probleem vaak oplossen door de CCO's opnieuw te installeren. U kunt de CCOs downloaden vanaf <http://monroecs.com/oposccos_current.htm>.
+-   Soms kunnen stuurprogramma ertoe leiden dat de Common Control Objects (CCO's) niet meer goed functioneren. Als een onlangs geïnstalleerd apparaat niet goed werkt of er andere problemen optreden, kunt u het probleem vaak oplossen door de CCO's opnieuw te installeren. Als u de CCO´s wilt downloaden, gaat u naar <http://monroecs.com/oposccos_current.htm>.
 -   Als u regelmatig randapparatuur wijzigt tijdens testen of probleemoplossing, moet u wellicht IIS resetten in plaats van te wachten totdat de cache zichzelf vernieuwt. Ga als volgt te werk om IIS te resetten:
     1.  Typ in het menu **Start** de opdracht **CMD**.
     2.  Klik in de lijst met zoekresultaten met de rechtermuisknop op **Opdrachtprompt** en klik vervolgens op **Uitvoeren als beheerder**.
@@ -801,10 +801,10 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
     6.  Nadat de DLL-hosts zijn afgesloten, start u moderne POS opnieuw op.
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Simulator voor detailhandelrandapparaten](dev-itpro/retail-peripheral-simulator.md)
+[Randapparatuursimulator voor detailhandel](dev-itpro/retail-peripheral-simulator.md)
 
 
 
