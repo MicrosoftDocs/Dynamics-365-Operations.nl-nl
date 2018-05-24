@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7bb152334b3b06c86dff024d0e99aea9bb452deb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Vergelijking van functies tussen cloud en on-premises
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp ziet u voor elke functie of deze beschikbaar is in deze producten:
 
@@ -128,7 +128,7 @@ De volgende tabellen bevatten de productgebieden. Ondersteuning voor cloud en on
 |---|---|---|---|
 | Alle talentgebieden | Alle talentfuncties | Ja | Nee |
 
-## <a name="see-also"></a>Zie ook
+## <a name="additional-resources"></a>Aanvullende resources
 
 - [Functies die niet zijn geïmplementeerd in On-premises implementaties](features-not-implemented-on-prem.md)
 

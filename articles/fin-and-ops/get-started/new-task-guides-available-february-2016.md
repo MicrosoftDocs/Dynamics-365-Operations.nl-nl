@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Nieuwe taakbegeleidingen (februari 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics AX (februari 2016) en Aan de slag (februari 2016).
 
@@ -719,7 +719,7 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 
  
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)

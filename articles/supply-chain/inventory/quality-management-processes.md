@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Processen voor kwaliteitsbeheer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over het kwaliteitsbeheerproces voor niet-overeenkomende producten. Het beschrijft hoe u kwaliteitscontrolefunctionaliteit kunt gebruiken, hoe u niet-conformeringen definieert en beheert, en hoe u omgaat met correcties.
 
@@ -88,7 +88,7 @@ Op de pagina **Correcties** kunt u een lijst van niet-conformeringen maken die m
 
 Het is daarom een goed idee om een uniek documenttype voor correcties te definiëren door de pagina **Documenttype** te gebruiken. U kunt de pagina **Rapport instellen** gebruiken om te definiëren of opmerkingen voor dit documenttype moeten worden afgedrukt op het correctierapport. Op een afgedrukt correctierapport wordt informatie weergegeven over de niet-conformering en de gerelateerde niet-conformeringsnotities. Het rapport bevat ook correctiegegevens, zoals het type diagnose en de gerelateerde correctienotities.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Kwaliteitsbeheer inschakelen](enable-quality-management.md)

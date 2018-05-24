@@ -3,7 +3,7 @@ title: Callcenterfunctionaliteit
 description: Dit onderwerp bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,35 +20,43 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="call-center-functionality"></a>Callcenterfunctionaliteit
+# <a name="call-center"></a>Callcenter 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Dit artikel bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Retail.
+In Dynamics 365 for Retail is een callcenter een type detailhandelafzetkanaal dat kan worden gedefinieerd in de toepassing. Als u een specifiek kanaal definieert voor uw callcenterentiteiten, kan het systeem specifieke gegevensstandaardwaarden en standaardwaarden voor orderverwerking koppelen aan verkooporders die zijn gemaakt door een gebruiker of het callcenterkanaal.
 
-Dynamics 365 for Retail ondersteunt ook callcenters als type detailhandelkanaal. In een callcenter nemen werknemers telefonische orders aan van klanten en maken ze verkooporders. De callcenterfunctie omvat functies die zijn ontworpen om het gemakkelijker te maken om telefoonorders aan te nemen en klantenservice te bieden door het orderverwerkingsproces heen. Bijvoorbeeld: medewerkers van callcenters kunnen betalingsgegevens rechtstreeks invoeren in de verkooporder en een gedetailleerd overzicht van de toeslagen en betalingen bekijken voordat ze de order indienen. Werknemers hebben ook opties om prijzen te regelen en kunnen uiteenlopende gegevens bekijken over klanten, producten en prijzen van de **verkooporderpagina**. Daarnaast hebben callcenters ook verbeterde functionaliteit voor het bijhouden van klanthistorie en orderstatus. Elk call center kan eigen gebruikers, betalingsmethoden, prijsgroepen, financiële dimensies en leveringsmethoden hebben. U kunt deze opties configureren wanneer u het call center maakt. Bovendien, kunt u de pagina **Callcenter** gebruiken om de volgende groepen functies in te schakelen of uit te schakelen die uniek voor callcenters:
+Callcenterfuncties bevatten geavanceerde detailhandelsprijzen en promoties, catalogi, geschenkbonnen, loyaliteitsprogramma's en coupons. Callcenterorders worden ook gebruikt door de POS-toepassing (Point of Sales) ter ondersteuning van afhandelingsscenario's van orders tussen afzetkanalen.
 
--   **Ordervoltooiing**: deze groep bevat functies die aan betalingen en ordervoltooiing in de **Verkooporder** zijn gekoppeld.
--   **Geleide verkoop:** deze groep bevat functies die aan broncodes, scripts en catalogusaanvragen worden gekoppeld.
+Het is belangrijk te weten dat de callcentermodule kan worden gebruikt door andere bedrijfstakken dan de detailhandel, maar de huidige versie van de toepassing Dynamics 365 voor Retail-callcenter is niet geoptimaliseerd voor gebruik in B2B-orderverwerkingsscenario´s of scenario's waarin orders een grote hoeveelheid verkoopregels hebben. Het is raadzaam dat gebruikers die gebruik willen maken van de callcenterfuncties voor orderverwerking buiten de verwerking van rechtstreekse transacties met de consument, voldoende tijd nemen om te testen en te valideren of activering van de callcenterfunctionaliteit voldoet aan functionele en prestatievereisten.
 
-Wanneer u deze functies in de instellingen van het call center inschakelt, worden ze beschikbaar in de **Verkooporder** pagina voor gebruikers die aan het call center worden gekoppeld. De meeste van deze functies vereisen aanvullende instellingen voordat ze gebruikt kunnen worden. Voordat gebruikers de orders van het callcenter kunnen maken, moet u die gebruikers toevoegen aan het callcenter als gebruikers van het callcenter. Deze stap schakelt het callcenterkanaal-specifieke configuratie en de functionaliteit in. Hieronder staan enkele voorbeelden van de funktionaliteit die beschikbaar wordt:
+Met de callcentermodule kunnen orders worden gemaakt en wordt een gebruiksvriendelijke klantservicetoepassing geleverd die het eenvoudiger maakt voor gebruikers om klantaccounts te vinden en om alle gerelateerde klantordergegevens en -kenmerken te controleren. Het klantservicescherm is ontworpen om een gebruiker snel toegang te verschaffen tot ordergerelateerde gegevens waarmee de meest voorkomende ordergerelateerde vragen worden beantwoord die van klanten worden ontvangen.
 
--   Geleide verkoop biedt configuratieopties voor telesalesscripts en productafbeeldingen om verkoopbedienden te helpen en te begeleiden terwijl deze orders aannemen.
--   De orders kunnen niet worden voltooid totdat de verkoopbedienden minimaal één betalingsmethode hebben vastgelegd.
--   Upsell en cross-sell regels kunnen worden geconfigureerd om verkoopbedienden aan te moedigen om specifieke producten naar de klant te promoten.
--   Verkoopbedienden kunnen de broncode voor de catalogus waaruit een klant bestelt lezen.
--   Verkoopbedienden kunnen de coupons van een detailhandelaar aan de order toevoegen.
--   Verkoopbedienden kunnen continuïteitsprogramma's verkopen.
--   De orders kunnen worden handmatig geblokkeerd worden, om aan te geven dat het verder onderzoek is vereist voordat de order kan worden verwerkt.
+Deze pagina bevat koppelingen naar relevante documentatie met betrekking tot de installatie, configuratie en het functionele gebruik van de callcenterfuncties in Dynamics 365 for Retail.
 
+## <a name="configure-the-call-center"></a>Het callcenter configureren
+[Orderverwerkingsopties instellen](set-up-order-processing-options.md)
 
+## <a name="configure-order-processing"></a>Orderverwerking configureren
+[Fraudewaarschuwingen instellen](set-up-fraud-alerts.md)
+[Handmatige orderwachtstanden](work-with-order-holds.md)
 
+## <a name="configure-payment-processing"></a>Betalingsverwerking configureren
+[Betalingsmethoden in een callcenter](work-with-payments.md)
+
+## <a name="configure-direct-marketing"></a>Direct marketing configureren
+[Callcentercatalogi](call-center-catalogs.md)
+
+[RFM-analyse instellen](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a>Continuïteitsprogramma's configureren
+[Een continuïteitsprogramma instellen voor een callcenter](set-up-continuity-program.md)
 
 

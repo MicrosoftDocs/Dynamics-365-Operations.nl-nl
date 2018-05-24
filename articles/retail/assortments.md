@@ -3,27 +3,28 @@ title: Assortimentsbeheer
 description: In dit onderwerp worden de basisconcepten toegelicht van assortimentsbeheer in Microsoft Dynamics 365 for Retail en overwegingen bij de implementatie voor uw project.
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Assortimentsbeheer
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Overzicht
 Microsoft Dynamics 365 for Retail biedt *assortimenten* waarmee u de productbeschikbaarheid kunt beheren via kanalen. Assortimenten bepalen welke producten beschikbaar zijn in bepaalde winkels en een specifieke periode.
@@ -35,25 +36,25 @@ De algehele productsamenstelling van een kanaal wordt bepaald door de gepublicee
 ### <a name="basic-assortment-setup"></a>Basisinstellingen assortimenten
 In het volgende voorbeeld wordt een uniek assortiment geconfigureerd voor elke winkel. In dit geval is alleen product 1 beschikbaar in winkel 1, en alleen product 2 in winkel 2.
 
-![Elk product is beschikbaar in één winkel](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Elk product is beschikbaar in één winkel")
+![Elk product is in één winkel beschikbaar](./media/Managing-assortments-figure1.png)
 
 Als u wilt dat product 2 beschikbaar is in winkel 1, kunt u het product toevoegen aan assortiment 1.
 
-![Product 2 toegevoegd aan assortiment 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "Product 2 toegevoegd aan assortiment 1")
+![Product 2 toegevoegd aan assortiment 1](./media/Managing-assortments-figure2.png)
 
 U kunt ook winkel 1 toevoegen aan assortiment 2.
 
-![Winkel 1 toegevoegd aan assortiment 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "Winkel 1 toegevoegd aan assortiment 2")
+![Winkel 1 toegevoegd aan assortiment 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organisatiehiërarchieën
 In situaties waarin meerdere kanalen dezelfde productassortimenten delen, kunt u de assortimenten configureren met behulp van de Retail-organisatiehiërarchie voor assortimenten. Wanneer de knooppunten uit deze hiërarchie worden toegevoegd, worden alle kanalen in dat knooppunt en de onderliggende knooppunten opgenomen.
 
-![Organisatiehiërarchie](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Organisatiehiërarchie")
+![Organisatiehiërarchie](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Productcategorieën
 Aan de productkant kunt u groepen producten op dezelfde manier opnemen door categoriehiërarchieën voor producten te gebruiken. U kunt assortimenten configureren door een of meer hiërarchieknooppunten voor categorieën op te nemen. Het assortiment bevat in dit geval alle producten in dat categorieknooppunt en de onderliggende knooppunten.
 
-![Productcategorieën](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Productcategorieën")
+![Productcategorieën](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Uitgesloten producten of categorieën
 Behalve het opnemen van producten en categorieën in assortimenten kunt u de optie Uitsluiten gebruiken voor het definiëren van specifieke producten of categorieën die moeten worden uitgesloten van assortimenten. In het volgende voorbeeld wilt u alle producten in een bepaalde categorie opnemen, met uitzondering van product 2. In dit geval hoeft u het assortiment niet per product te definiëren of extra categorieknooppunten te maken. U kunt in plaats daarvan alleen de categorie opnemen maar het product uitsluiten.
@@ -61,7 +62,7 @@ Behalve het opnemen van producten en categorieën in assortimenten kunt u de opt
 > [!NOTE]
 > Als een product per definitie zowel is opgenomen als is uitgesloten in een of meer assortimenten, wordt het product altijd beschouwd als uitgesloten.
 
-![Uitgesloten product](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Uitgesloten product")
+![Uitgesloten product](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Algemene en vrijgegeven producten
 Assortimenten worden gedefinieerd op een mondiaal niveau en kunnen kanalen van meerdere rechtspersonen bevatten. De producten en categorieën die zijn opgenomen in assortimenten worden ook door rechtspersonen gedeeld. Echter een product moet worden vrijgegeven voordat het daadwerkelijk kan worden verkocht, besteld, geteld of in het kanaal ontvangen (bijvoorbeeld in het verkooppunt \[POS\]). Ook al kunnen twee winkels in verschillende rechtspersonen een assortiment met dezelfde producten delen, toch zijn de producten alleen beschikbaar als ze zijn vrijgegeven aan deze rechtspersonen.

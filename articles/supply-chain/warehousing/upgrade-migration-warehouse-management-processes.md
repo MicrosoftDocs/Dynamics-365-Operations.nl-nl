@@ -1,5 +1,5 @@
 ---
-title: Product- en magazijnbeheer vanuit AX 2012 naar Finance and Operations migreren
+title: Magazijnbeheer upgraden van Microsoft Dynamics AX 2012 naar Finance and Operations
 description: Dit onderwerp biedt een overzicht van opties voor het migreren van product- en magazijnbeheer.
 author: perlynne
 manager: AnnBe
@@ -19,56 +19,52 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 92d0b4dd9611de4d717f30dc8736c673835bea29
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>Product- en magazijnbeheer vanuit AX 2012 naar Finance and Operations migreren
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Magazijnbeheer upgraden van Microsoft Dynamics AX 2012 naar Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-In dit onderwerp vindt u een overzicht van de opties voor migratie van product- en magazijnbeheer in Microsoft Dynamics 365 voor Finance and Operations.
+Dit onderwerp biedt een overzicht van het proces voor het upgraden van Microsoft Dynamics AX 2012 R3, met de module WMSII, naar Microsoft Dynamics 365 for Finance and Operations.
 
-<a name="introduction"></a>Introductie
-------------
+Finance and Operations ondersteunt niet meer de verouderde module **WMSII** van Microsoft Dynamics AX 2012. In plaats daarvan kunt u de module **Magazijnbeheer** gebruiken. In de WMSII-module kunnen de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor financiële voorraad, maar de voorraaddimensie Pallet-ID kan niet worden gebruikt voor financiële voorraad in Finance and Operations.
 
-Tijdens een upgrade naar Finance and Operations worden producten geblokkeerd, als ze zijn gekoppeld aan een opslagdimensiegroep met instellingen die niet overeenkomen met de vereisten voor opslagdimensiegroepinstellingen in Finance and Operations. Na de upgrade kunt u echter met een reeks migratieopties in het proces **Opslagdimensiegroep voor artikelen wijzigen** producten deblokkeren die tijdens de upgrade zijn geblokkeerd. Vervolgens kunt u transacties voor die producten verwerken. Sommige van deze artikelen zijn mogelijk al gekoppeld aan de opslagdimensiegroepen waarvoor de voorraaddimensies Vestiging, Magazijn en Locatie actief zijn en fysiek worden bijgehouden. In dit geval kunt u met het proces **Opslagdimensiegroep voor artikelen wijzigen** die artikelen inschakelen die u wilt gebruiken in magazijnbeheersprocessen. Deze functie is handig als u de functionaliteit voor magazijnbeheer wilt gebruiken voor bestaande artikelen.
+Tijdens een upgrade worden alle producten die zijn gekoppeld aan een opslagdimensiegroep waarbij de voorraaddimensie Pallet-ID wordt geïdentificeerd, gemarkeerd als geblokkeerd en niet verwerkt voor een upgrade.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Upgraden naar Finance and Operations wanneer AX 2012 R3 WMSII wordt gebruikt
-Finance and Operations ondersteunt niet meer de verouderde module **WMSII** van Microsoft Dynamics AX 2012. In plaats daarvan kunt u de nieuwe module **Magazijnbeheer** gebruiken. In vorige versies konden de voorraaddimensies Locatie en Pallet-ID worden geselecteerd voor de financiële voorraad. Als onderdeel van het upgradeproces kan echter de voorraaddimensie Pallet-ID niet langer worden ingeschakeld voor de financiële voorraad. Alle producten die zijn gekoppeld aan een opslagdimensiegroep die gebruik maakt van de voorraaddimensie Pallet-ID, worden geblokkeerd en niet verwerkt.
+Na de upgrade kunt u een reeks opties in het formulier **Opslagdimensiegroep voor artikelen wijzigen** gebruiken om producten te deblokkeren die tijdens de upgrade zijn geblokkeerd. Vervolgens kunt u transacties voor deze producten verwerken.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Artikelen in inschakelen in Finance and Operations
+Deze wijziging is vereist omdat in Finance and Operations traceren van artikelen deel uitmaakt van de magazijnbeheerprocessen. Voor deze processen moeten alle magazijnen en hun locaties worden gekoppeld aan een locatieprofiel. Als u magazijnbeheerprocessen wilt gebruiken, moet het volgende worden geconfigureerd:
+-   Bestaande magazijnen moet worden ingeschakeld voor gebruik van magazijnbeheerprocessen 
+-   Bestaande vrijgegeven producten moeten worden gekoppeld aan een opslagdimensiegroep die magazijnbeheerprocessen gebruikt 
 
-In Finance and Operations moeten artikelen die worden gebruikt als onderdeel van magazijnbeheerprocessen worden gekoppeld aan een opslagdimensie waarvoor de parameter **Magazijnbeheerprocessen gebruiken** is geselecteerd. Als deze instelling is ingeschakeld, worden de voorraaddimensies Vestiging, Magazijn, Voorraadstatus, Locatie en Nummerplaat actief. U kunt alleen artikelen op dit type opslagdimensiegroep instellen die al zijn gekoppeld aan opslagdimensiegroepen waarvoor de voorraaddimensie Locatie actief is.
+Als de bronopslagdimensiegroepen de voorraaddimensie Pallet-ID gebruiken, moeten de locaties van bestaande voorhanden voorraad die de voorraaddimensie Pallet-ID gebruikt, zijn gekoppeld aan een locatieprofiel waarin de parameter **Bijhouden nummerplaat gebruiken** is geselecteerd. Als u de bestaande magazijnen niet wilt inschakelen voor gebruik van magazijnbeheerprocessen, kunt u de opslagdimensiegroepen van de bestaande voorhanden voorraad wijzigen naar groepen die alleen de voorraaddimensies Vestiging, Magazijn en Locatie gebruiken. 
 
-### <a name="items-that-are-blocked-for-inventory-updates"></a>Artikelen die zijn geblokkeerd voor voorraadupdates
+> [!NOTE] 
+>  U kunt de opslagdimensiegroep wijzigen voor artikelen als er openstaande voorraadtransacties bestaan.
 
+## <a name="find-products-that-were-blocked-because-of-pallet-id"></a>Producten zoeken die zijn geblokkeerd vanwege pallet-ID
 Om de lijst weer te geven van vrijgegeven producten die tijdens de upgrade zijn geblokkeerd en niet kunnen worden verwerkt, klikt u op **Voorraadbeheer** &gt; **Instellingen** &gt; **Voorraad** &gt; **Artikelen die zijn geblokkeerd voor voorraadupdates**.
 
-### <a name="reapplying-blocked-products"></a>Geblokkeerde producten opnieuw toepassen
+## <a name="change-storage-dimension-group-for-blocked-products"></a>Opslagdimensiegroep voor geblokkeerde producten wijzigen 
+ 
+Om te kunnen worden gebruikt als onderdeel van een magazijnbeheerproces moet een artikel worden gekoppeld aan een opslagdimensiegroep waarin de voorraaddimensie Locatie actief is en de parameter **Magazijnbeheerprocessen gebruiken** is geselecteerd. Als deze instelling is ingeschakeld, worden de voorraaddimensies Vestiging, Magazijn, Voorraadstatus, Locatie en Nummerplaat actief.
 
 Als u producten wilt deblokkeren die tijdens de upgrade zijn geblokkeerd, moet u een nieuwe opslagdimensiegroep voor deze producten selecteren. Merk op dat u de opslagdimensiegroep zelfs kunt wijzigen als er openstaande voorraadtransacties bestaan. Om artikelen te gebruiken die tijdens de upgrade zijn geblokkeerd, hebt u twee mogelijkheden:
 
 -   Wijzig de opslagdimensiegroep voor het artikel naar een opslagdimensiegroep die alleen de voorraaddimensies Vestiging, Magazijn en Locatie gebruikt. Als gevolg hiervan wordt de voorraaddimensie Pallet-ID niet meer gebruikt.
 -   Wijzig de opslagdimensiegroep voor het artikel naar een opslagdimensiegroep die de magazijnbeheerprocessen gebruikt. Als gevolg hiervan wordt nu de voorraaddimensie Nummerplaat gebruikt.
 
-### <a name="migration-processes"></a>Migratieprocessen
-
-In Finance and Operations maakt traceren van artikelen deel uit van de magazijnbeheerprocessen. Voor deze processen moeten alle magazijnen en hun locaties worden gekoppeld aan een locatieprofiel. Conceptueel geldt dat als u magazijnbeheerprocessen wilt gebruiken, twee processen moeten worden verwerkt:
-
--   Bestaande magazijnen moet ingeschakeld zijn voor gebruik van magazijnbeheerprocessen.
--   Bestaande vrijgegeven producten moeten gekoppeld zijn aan een nieuwe opslagdimensiegroep die magazijnbeheerprocessen gebruikt.
-
-Als de bronopslagdimensiegroepen de voorraaddimensie Pallet-ID gebruiken, moeten de locaties van bestaande voorhanden voorraad die de voorraaddimensie Pallet-ID gebruiken, zijn gekoppeld aan een locatieprofiel waarvoor de parameter **Bijhouden nummerplaat gebruiken** is geselecteerd. Als u de bestaande magazijnen niet wilt inschakelen voor gebruik van magazijnbeheerprocessen, kunt u de opslagdimensiegroepen van de bestaande voorhanden voorraad wijzigen naar groepen die alleen de voorraaddimensies Vestiging, Magazijn en Locatie gebruiken.
-
-### <a name="using-the-warehouse-management-processes"></a>De magazijnbeheerprocessen gebruiken
-
+## <a name="configure-warehouse-management-processes"></a>Magazijnbeheerprocessen configureren
 Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, moeten de producten een opslagdimensiegroep gebruiken waarvoor de parameter **Magazijnbeheerprocessen gebruiken** is geselecteerd.
 
-#### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Magazijnen inschakelen voor gebruik van magazijnbeheerprocessen
+### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Magazijnen inschakelen voor gebruik van magazijnbeheerprocessen
 
 1.  Maak tenminste één nieuw locatieprofiel.
 2.  Klik op **Magazijnbeheer** &gt; **Instellingen** &gt; **Magazijnbeheerprocessen inschakelen** &gt; **Magazijninstellingen inschakelen**.
@@ -77,7 +73,7 @@ Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, 
 5.  Valideer de wijzigingen. Als onderdeel van het validatieproces worden verschillende validaties van gegevensintegriteit uitgevoerd. Als onderdeel van een groter upgradeproces moeten mogelijk problemen die optreden worden gecorrigeerd in de bron-implementatie. In dit geval is een aanvullende gegevensupgrade vereist.
 6.  Verwerk de wijzigingen.
 
-#### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Wijzig de opslagdimensiegroep voor het artikel, zodat het gebruik maakt van magazijnbeheerprocessen
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Wijzig de opslagdimensiegroep voor het artikel, zodat het gebruik maakt van magazijnbeheerprocessen
 
 1.  Maak een nieuwe waarde aan voor **Voorraadstatus** en wijs deze toe als de **Standaardvoorraadstatus-id** in de instellingen **Parameters voor magazijnbeheer**.
 2.  Maak een nieuwe opslagdimensiegroep aan waarin de parameter **Magazijnbeheerprocessen gebruiken** is geselecteerd.
@@ -87,6 +83,4 @@ Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, 
 6.  Voeg op de pagina **Opslagdimensiegroep voor artikelen wijzigen** de artikelnummers, opslagdimensiegroepen en eenheidvolgordegroepen toe. U kunt deze stap rechtstreeks op de pagina uitvoeren met behulp van de Microsoft Office-integratie of door middel van het gegevensentiteitsproces in [Gegevensbeheer](../../dev-itpro/data-entities/data-entities.md).
 7.  Valideer de wijzigingen. Als onderdeel van het validatieproces worden verschillende validaties van gegevensintegriteit uitgevoerd. Als onderdeel van een groter upgradeproces moeten mogelijk problemen die optreden worden gecorrigeerd in de bron-implementatie. In dit geval is een aanvullende gegevensupgrade vereist.
 8.  Verwerk de wijzigingen. Het bijwerken van alle voorraaddimensies kan even duren. U kunt de voortgang controleren met behulp van de taken voor batchtaken.
-
-
 

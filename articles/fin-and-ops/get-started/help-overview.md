@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Overzicht Help-systeem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren. 
 
@@ -60,7 +60,7 @@ De site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](
 
 -   **Toegang tot de meest recente inhoud**: de site biedt ons een snellere en flexibelere manier om productdocumentatie te maken, leveren en bij te werken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.
 -   **Inhoud die door deskundigen is geschreven**: de site bevat een uitgebreidere set productdocumentatie die door communityleden in en buiten Microsoft kan worden verbeterd.
--   **Toegang tot verschillende typen inhoud**: via de site hebt u snel toegang tot verschillende typen inhoud over Finance and Operations, zoals Microsoft Office Mix-presentaties, taakbegeleidingen, video's en onderwerpen.
+-   **Toegang tot verschillende typen inhoud**: via de site hebt u snel toegang tot verschillende typen inhoud over Finance en Operations, zoals taakbegeleidingen, video's en onderwerpen.
 -   **Inhoud die uw bedrijfsprocessen ondersteunt**: de site bevat op bedrijfsprocessen gerichte inhoud die profiteert van de Business Process Modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Zoeken op docs.microsoft.com
@@ -204,7 +204,7 @@ In de volgende tabel worden onze websites weergegeven. Onze inhoudwebsites worde
 
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 [Help-systeem van Finance and Operations (downloadbaar feitenblad)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

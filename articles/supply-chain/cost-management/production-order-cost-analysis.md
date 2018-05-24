@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 703070ae85f504cf204244b2197732dc6849abd6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Analyse van productieorderkosten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over de kostprijsanalyse die u voor voltooide en huidige productieorders kunt uitvoeren. U kunt de geraamde en werkelijke kosten analyseren met de pagina Prijsberekening of het rapport Geraamde kosten en kostprijsberekeningen. U kunt informatie weergeven over de geraamde en werkelijke kosten (en hoeveelheid) voor alle onderdeelartikelen, de routebewerkingen en de indirecte kosten.
 
@@ -59,10 +59,10 @@ Er zijn afzonderlijke rapporten beschikbaar met informatie over elk transactiety
 -   **Gerede artikelen in bewerking**: dit rapport geeft huidige productieorders weer, evenals de gereedgemelde transacties vanaf een bepaalde transactiedatum.
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Veelvoorkomende oorzaken van productieafwijkingen](common-sources-of-production-variances.md)
+[Veelvoorkomende oorzaken voor productieafwijkingen analyseren](common-sources-of-production-variances.md)
 
 
 

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over inkoopovereenkomsten. Een inkoopovereenkomst is een contract dat een organisatie ertoe verbindt een opgegeven aantal of bedrag in te kopen via meerdere inkooporders in een bepaalde periode. De koper ontvangt in ruil voor deze toezegging speciale prijzen en kortingen. 
 
@@ -91,7 +91,7 @@ Als u in één rechtspersoon een intercompany-inkooporder maakt die de intercomp
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Financiële dimensies op inkoopovereenkomsten
 U kunt financiële dimensies kopiëren naar documentkopteksten of naar afzonderlijke regels van een inkoopovereenkomst. Als u de dimensies in de overeenkomstkoptekst of de overeenkomstregel wijzigt, dan beïnvloedt de wijziging niet de vrijgegeven orders, maar werkt door in nieuwe orders die worden aangemaakt.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Een nieuwe inkoopovereenkomst maken (Taakbegeleiding)](tasks/create-purchase-agreement.md)

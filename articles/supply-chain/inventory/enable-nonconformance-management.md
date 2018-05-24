@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 28037713a51a83f4b792adef8a26f02960fa6b07
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nonconformance-management"></a>Niet-conformiteitsbeheer
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt de algemene configuratie beschreven die nodig is om non-conformiteiten te gebruiken. Als u kwaliteitsorders wilt gebruiken, moet u aanvullende instellingen configureren.
 
@@ -47,7 +47,7 @@ Ga als volgt te werk om niet-conformeringsbeheer in te schakelen:
 6.  Definieer de gerelateerde bewerkingen die worden toegewezen aan niet-conformeringen. Gebruik de pagina **Bewerkingen** om een classificatie te definiëren voor het werk dat kan worden uitgevoerd voor een goedgekeurde niet-conformering. Wanneer u een gerelateerde bewerking toewijst aan een niet-conformering, kunt u gedetailleerde informatie opgeven, zoals informatie over het bijbehorende materiaal, werkuren en diverse toeslagen die vereist zijn om de bewerking uit te voeren. Deze informatie wordt gebruikt om een raming van de kosten voor de bewerking te berekenen. De gedetailleerde informatie en de kostenraming dienen ter referentie. De gerelateerde bewerkingen voor kwaliteit verschillen van de bewerkingen die kunnen worden gedefinieerd voor een productieroute.
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Een niet-conformiteit maken en verwerken (Taakbegeleiding)](tasks/create-process-non-conformance.md)

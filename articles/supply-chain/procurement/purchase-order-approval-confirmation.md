@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c7209c91f3821a77e9b127d767c78df403ff6cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 In dit artikel worden de statussen beschreven die een inkooporder (IO) dooloopt nadat deze is gemaakt, en de gevolgen van het inschakelen van wijzigingsbeheer voor IO's.
 
@@ -75,7 +75,7 @@ Als een deel van de bestelde hoeveelheid voor een IO-regel is geleverd, kunt u d
 
 Nadat eeen order is bevestigd, kunt u deze niet langer verwijderen. U kunt echter wel de totale hoeveelheid of de eventuele resterende hoeveelheid voor een order annuleren, op voorwaarde dat de hoeveelheid nog niet is ontvangen of gefactureerd.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Overzicht van inkooporders](purchase-order-overview.md)

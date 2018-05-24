@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-overview"></a>Overzicht vraagprognose
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Vraagprognoses worden gebruikt om onafhankelijke vraag van verkooporders en afhankelijke vraag op ontkoppelingspunten voor klantorders te voorspellen. De verbeterde vraagprognosereductieregels bevatten een ideale oplossing voor massa-aanpassing.
 
@@ -53,7 +53,7 @@ Drie belangrijke thema's zijn geïmplementeerd in vraagprognose:
     -   U kunt de experimenten voor vraagprognoses in Finance and Operations downloaden, ze aanpassen om aan uw bedrijfsbehoeften te voldoen, ze publiceren als een webservice op Azure en ze gebruiken om vraagprognoses te genereren. De experimenten kunnen worden gedownload als u een Finance and Operations-abonnement hebt aangeschaft voor een productieplanner als gebruiker op ondernemingsniveau.
     -   U kunt alle beschikbare experimenten voor vraagprognoses downloaden uit de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/). De experimenten voor vraagprognose van Finance and Operations worden automatisch geïntegreerd met Finance and Operations, maar klanten en partners moeten de experimenten die ze van [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) downloaden zelf integreren. Daarom zijn experimenten van de [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) niet zo gemakkelijk te gebruiken als de experimenten voor vraagprognose in Finance and Operations. U moet de code van de experimenten wijzigen zodat ze de API (Application Programming Interface) van Finance and Operations gebruiken.
     -   U kunt uw eigen experimenten maken in Microsoft Azure Machine Learning Studio, ze publiceren als services op Azure, en ze gebruiken om vraagprognoses te genereren.
-    -   Als u geen hoge prestaties vereist of als u niet vereist dat een grote hoeveelheid gegevens wordt verwerkt, kunt u de gratis laag van Machine Learning gebruiken. We raden u altijd van dit niveau te starten, met name tijdens de fasen voor implementatie en testen. Als u betere prestaties en extra opslag nodig hebt, kunt u de standaardlaag van Machine Learning gebruiken. Deze laag vereist een Azure-abonnement en brengt extra kosten met zich mee. Voor details over Machine Learning-prijzen raadpleegt u <http://aka.ms/machine-learning-price-info>.
+    -   Als u geen hoge prestaties vereist of als u niet vereist dat een grote hoeveelheid gegevens wordt verwerkt, kunt u de gratis laag van Machine Learning gebruiken. We raden u altijd van dit niveau te starten, met name tijdens de fasen voor implementatie en testen. Als u betere prestaties en extra opslag nodig hebt, kunt u de standaardlaag van Machine Learning gebruiken. Deze laag vereist een Azure-abonnement en brengt extra kosten met zich mee. Zie voor meer informatie over prijzen van Machine Learning <http://aka.ms/machine-learning-price-info>.
 -   **Prognosereductie op elk ontkoppelingspunt**: Vraagprognoses in Finance and Operations maken gebruik van deze functionaliteit, waarmee u van afhankelijke en onafhankelijke vraag prognoses kunt maken op elk ontkoppelingspunt.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Basisstroom vraagprognose
@@ -72,7 +72,7 @@ U kunt Finance and Operations gebruiken om de basislijnprognoses te visualisere
 ## <a name="limitations"></a>Beperkingen
 Vraagprognoses in Finance and Operations zijn een hulpmiddel dat klanten helpt bij prognoseprocessen in de productie-industrie. De basisfunctionaliteit van een vraagprognoseoplossing wordt geboden en is zo ontworpen dat het gemakkelijk kan worden uitgebreid. Vraagprognose is mogelijk niet het meest geschikt voor klanten in bedrijfstakken zoals detailhandel, groothandel, magazijnbeheer, transport of andere professionele services.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Instelling van vraagprognose](demand-forecasting-setup.md)

@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Contantkortingen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Contantkortingen worden ingesteld en gedeeld voor Leveranciers en Klanten.  De beschikbare contantkorting kan op de klant- of leveranciersfactuur worden gedefinieerd en deze wordt toegepast als de factuur wordt betaald binnen de datum voor de contantkorting. 
 
-<a name="cash-discounts"></a>Contantkortingen
---------------
+## <a name="cash-discounts"></a>Contantkortingen
 
 Contantkortingen voor zowel klanten als leveranciers kunnen op de pagina Contantkortingen worden gemaakt. Ook kunt u met behulp van het veld Volgende kortingscode een reeks contantkortingen maken die elkaar opvolgen, telkens wanneer de datum van de vorige contantkorting verloopt. Zie “Voorbeeld: reeks contantkortingen” verderop in dit onderwerp voor meer informatie. Als de factuur, credittransactie (een betaling of creditnota) of beide worden ingevoerd in een andere valuta dan de valuta voor boekhouding van de rechtspersoon, wordt de contantkorting berekend aan de hand van de wisselkoers op basis van de datum van de betaling of de creditnota. Als de factuur en het creditdocument worden ingevoerd in verschillende rechtspersonen en de valuta's voor boekhouding van de rechtspersonen verschillend zijn, wordt de wisselkoers gebruikt van de rechtspersoon van de factuur op de datum van het creditdocument. Zie “Voorbeeld: wisselkoersen voor contantkortingen” verderop in dit onderwerp voor meer informatie.
-Standaardvolgorde van de hoofdrekening voor contantkortingen
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Standaardvolgorde van de hoofdrekening voor contantkortingen
 
 Als een factuur wordt vereffend binnen de tijd waarin een contactkorting kan worden gegeven, wordt de contantkorting automatisch geboekt volgens de volgende standaardprioriteit naar een grootboekrekening voor contantkortingen:
 1.  De hoofdrekening die is opgegeven in het veld Alternatieve contantkortingsrekening van de pagina Openstaande transacties vereffenen van de klant of de pagina Openstaande transacties vereffenen van de leverancier.
@@ -65,15 +64,7 @@ De valuta voor boekhouding van de rechtspersoon is EUR en de volgende wisselkoer
 
 Op 15 februari wordt een factuur geboekt voor 1000 USD met contantkortingsvoorwaarden van 20D2%. Het factuurbedrag in de valuta voor boekhouding is 1100 EUR. Een betaling van 980 USD wordt vereffend met de factuur op 1 maart. Het bedrag van de contantkorting is 20 USD. Het bedrag van de betaling in de valuta voor boekhouding is 784 EUR. Het bedrag van de contantkorting in de valuta voor boekhouding wordt berekend op basis van de wisselkoers op 1 maart: 20 \* 80 / 100 = 16 EUR.
 
-| **Opmerking**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Als de optie Contantkortingen berekenen voor gedeeltelijke betalingen is geselecteerd op de pagina's Parameters van module Klanten of Parameters van module Leveranciers, wordt de wisselkoers gebruikt die geldt op de datum van elke deelbetaling. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Als de optie Contantkortingen berekenen voor gedeeltelijke betalingen is geselecteerd op de pagina's Parameters van module Klanten of Parameters van module Leveranciers, wordt de wisselkoers gebruikt die geldt op de datum van elke deelbetaling. 
 
 

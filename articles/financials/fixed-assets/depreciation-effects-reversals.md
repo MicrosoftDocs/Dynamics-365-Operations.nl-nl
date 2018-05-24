@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6672047cb3234e4432190d3afb20f46827ad5ef4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbef7cb9a9fb18809dff96d4a44454d0dc6a31fc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="depreciation-effects-with-reversals"></a>Afschrijvingseffecten met omkeringen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel worden mogelijke implicaties van het terugboeken van een vaste-activatransactie beschreven. 
 
@@ -90,7 +90,7 @@ De afschrijving is 16,95 (983,62 - 966,67) te laag.
 
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Afschrijving vaste activa](fixed-asset-depreciation.md)

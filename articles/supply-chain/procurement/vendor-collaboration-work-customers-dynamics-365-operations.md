@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a>Leverancierssamenwerking met klanten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 for Finance and Operations. Leveranciers kunnen een reeks bedrijfsprocessen voltooien vanuit de volgende werkgebieden:
 
@@ -141,7 +141,7 @@ Als leverancier hebt u toegang tot een deel van de gegevens die de klant bijhoud
 
 De toegankelijke gegevens zijn de naam van de leverancier, adressen, contactgegevens, contactpersonen en hun contactgegevens, identificatienummers, btw-registratienummers, inkoopcategorieën waarvoor de leverancier is goedgekeurd en informatie over certificeringen.
 
-## <a name="see-also"></a>Zie ook
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md)
 

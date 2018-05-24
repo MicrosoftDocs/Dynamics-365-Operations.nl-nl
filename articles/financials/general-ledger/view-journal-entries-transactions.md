@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Journaalboekingen en transacties weergeven
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel worden de verschillende manieren beschreven waarop u journaalposten en transacties kunt weergeven. 
 
@@ -54,9 +54,9 @@ Naast de financiële rapporten kunt u de volgende grootboekrapporten gebruiken o
 -   **Oorsprong van transactie**: in dit transactierapport wordt de rekening op journaal weergegeven en op basis van transactie-, boekhoudings- en aangiftevaluta. Ook bevat het rapport elke regel van het journaal dat als tegenrekening is gebruikt.
 
 
-## <a name="see-also"></a>Zie ook
+## <a name="additional-resources"></a>Aanvullende resources
 - [Grootboekrekeningsaldi](general-ledger-account-balances.md) 
-- [Bronverkenner voor boekhouding](..\accounts-payable\accounting-source-explorer.md)
+- [Bronverkenner voor boekhouding](../accounts-payable/accounting-source-explorer.md)
 - [Financiële rapportage](financial-reporting-getting-started.md)
 - [Journaalboekingen weergeven](tasks/view-journal-entries-or-transactions.md)
 

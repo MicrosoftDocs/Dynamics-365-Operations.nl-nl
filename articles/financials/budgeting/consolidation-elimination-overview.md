@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 60dd33f296a37f0010a948c410738ce5486b780e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4c966badd87b80e203f475cc632f5388ad1d8e5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="consolidation-and-elimination-overview"></a>Overzicht van consolidatie en schrapping
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel geeft algemene informatie over het consolidatie- en schrappingsproces. Het bevat antwoorden op enkele veelgestelde vragen.
 
@@ -88,7 +88,7 @@ De optie **Financiële rapportage** is de oplossing. Over organisatiehiërarchie
 Als u de optie **Bedrijfssaldi exporteren** gebruikt om vanuit één exemplaar te exporteren en vervolgens de optie **Consolidatie met import** in het andere exemplaar gebruikt, kunt u de gegevens consolideren.
 
 
-Zie voor meer informatie [Herwaardering van valuta in een consolidatiebedrijf](..\general-ledger\currency-revaluation-consolidation-company.md).
+Zie voor meer informatie [Herwaardering van valuta in een consolidatiebedrijf](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
 

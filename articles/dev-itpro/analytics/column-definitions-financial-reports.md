@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel bevat informatie over kolomdefinities. Een kolomdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van kolommen in een financieel rapport wordt gedefinieerd. Net zoals bij rijdefinities kunnen de basisdefinities van kolommen worden gebruikt in meerdere rapporten.
 
@@ -583,7 +583,7 @@ U kunt een kolom maken die alle waarden in een opgegeven kolom weergeeft als een
 
 U kunt het bedrag in een kolom delen door een opgegeven aantal perioden. De formule **B/Periods** deelt bijvoorbeeld de waarde in kolom B door het aantal perioden in kolom B. Als de berekening meerdere kolommen omvat, geeft u het aantal perioden op die in de berekening moeten worden gebruiken. De formule **(B+C)/Periods)** telt bijvoorbeeld de bedragen in kolom B en kolom op en deelt het resultaat vervolgens door de periodewaarde.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Rijdefinities in financiële rapportage](row-definitions-financial-reporting.md)

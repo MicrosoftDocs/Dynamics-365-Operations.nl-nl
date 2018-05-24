@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Weergave-instellingen voor mobiel apparaat magazijn
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u het uiterlijk van het scherm van een mobiel apparaat instelt en snelkoppelingen koppelt aan besturingselementen, zoals knoppen. 
 
@@ -87,7 +87,7 @@ U kunt de pagina **Tekstkleuren voor mobiel apparaat** gebruiken om de diverse k
 Om de kleur te selecteren, klikt u op **Kleur selecteren**, in het palet of typt u een hexadecimale kleurencode.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Definieer de te gebruiken datumindeling op mobiele apparaten
-U kunt de lijst met geaccepteerde datumindelingen uitbreiden voor elke installatie. Deze mogelijkheid kan bijvoorbeeld nuttig zijn als u een indeling wilt opgeven die het voor een werknemer gemakkelijker maakt datums in te voeren op een mobiel apparaat. De standaardindeling wordt bepaald door de standaardtaal voor de gebruiker, die in het veld op **Taal** de pagina **Gebruikersopties** wordt opgegeven. (Dezelfde pagina wordt ook gebruikt om een werknemer te koppelen aan een specifieke magazijnwerkgebruiker.) **Opmerking:** de magazijnportal voor mobiele apparaten maakt geen gebruik van de instelling van het veld **Datum-, tijd- en getalnotatie** op de pagina **Voorkeuren voor gebruikerstaal en regio**. Om een datumnotatie te wijzigen, moet u bekend zijn met normale expressies in het Microsoft .NET Framework. Zie voor meer informatie [Normale .NET Framework-expressies](http://go.microsoft.com/fwlink/?LinkId=391260). Als u datumnotaties wilt definiëren, bewerkt u het bestand Dates.ini-bestand dat u kunt vinden in Content\\Settings\Dates\\Dates.ini. op de server van de magazijnportal voor mobiele apparaten. Dit bestand gebruikt .NET normale expressies om de datumnotatie te bepalen. De normale expressie moet subexpressies omvatten die benoemde groepen vormen voor dag, maand en jaar (DDMMJJ), zoals getoond in het volgende voorbeeld:
+U kunt de lijst met geaccepteerde datumindelingen uitbreiden voor elke installatie. Deze mogelijkheid kan bijvoorbeeld nuttig zijn als u een indeling wilt opgeven die het voor een werknemer gemakkelijker maakt datums in te voeren op een mobiel apparaat. De standaardindeling wordt bepaald door de standaardtaal voor de gebruiker, die in het veld op **Taal** de pagina **Gebruikersopties** wordt opgegeven. (Dezelfde pagina wordt ook gebruikt om een werknemer te koppelen aan een specifieke magazijnwerkgebruiker.) **Opmerking:** de magazijnportal voor mobiele apparaten maakt geen gebruik van de instelling van het veld **Datum-, tijd- en getalnotatie** op de pagina **Voorkeuren voor gebruikerstaal en regio**. Om een datumnotatie te wijzigen, moet u bekend zijn met normale expressies in het Microsoft .NET Framework. Zie voor meer informatie [Normale .NET Framework-expressies](http://go.microsoft.com/fwlink/?LinkId=391260). Als u datumnotaties wilt definiëren, bewerkt u het bestand Dates.ini-bestand dat u kunt vinden in Content\\Settings\\Dates.ini. op de server van de magazijnportal voor mobiele apparaten. Dit bestand gebruikt .NET normale expressies om de datumnotatie te bepalen. De normale expressie moet subexpressies omvatten die benoemde groepen vormen voor dag, maand en jaar (DDMMJJ), zoals getoond in het volgende voorbeeld:
 
 ^(?&lt;dag&gt;\\d{2})(?&lt;maand&gt;\\d{2})(?&lt;jaar&gt;\\d{2})$
 
@@ -97,7 +97,7 @@ Elke subexpressie vereist een tot twee cijfers voor de dag en de maand, en een t
 
 U kunt meerdere expressie in hetzelfde bestand opgeven. Elke expressie moet op een aparte regel staan. De eerste expressie die wordt afgestemd, wordt gebruikt om de datum te parseren.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Configuratie van mobiele apparaten voor magazijnwerk](configure-mobile-devices-warehouse.md)

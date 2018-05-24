@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>Bewerkingsplanning
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over de planning van bewerkingen. U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces.
 
@@ -75,7 +75,7 @@ Wanneer u de planning van bewerkingen uitvoert, kunt u specifieke onderdelen van
 ## <a name="finite-materials"></a>Beperkt materiaal
 Indien u met beperkt materiaal werkt, hangt de planning ook af van de beschikbaarheid van de materialen die nodig zijn voor de productie. Als er onvoldoende beschikbare onderdelen zijn voor de productie, kan de productie vertraagd worden. U kunt de planning baseren op het gebruik van materialen door de materialen te specificeren die voor de productie beschikbaar moeten zijn. Wanneer u zowel de broncapaciteit als de beschikbaarheid van materialen optimaliseert, wordt de productie berekend volgens deze beperkingen. Een productieorder kan pas ingepland worden om te starten als de capaciteit en de materialen op hetzelfde moment en in de benodigde hoeveelheden beschikbaar zijn.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Opties voor het plannen van bewerkingen](operation-scheduling-options.md)

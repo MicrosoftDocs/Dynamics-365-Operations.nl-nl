@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>Overzicht van kostenbeheer 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Het werkgebied **Kostenbeheer** is een centraal punt waar managers die verantwoordelijk zijn voor het beheer van een kostenobject of een reeks kostenobjecten in een dimensie of meerdere dimensies (bijvoorbeeld kostenplaatsen en productgroepen) toegang kunnen krijgen tot rapporten. De rapporten in het werkgebied worden volledig beheerd door kostenaccountants, zodat de indeling en gegevens die worden gebruikt voor rapportage in de gehele organisatie consistent zijn.
 
@@ -154,7 +154,7 @@ In het volgende voorbeeld is de toewijzingsgrondslag van het type **Toewijzingsg
 
 ![Berekeningen per kostenobject](./media/cost-entries-allocation-base.png)
 
-Zie ook 
+Aanvullende resources 
 
 [Toegangsrechten definiëren voor controllers voor kostenobjecten](access-rights-cost-object-controller.md)
 

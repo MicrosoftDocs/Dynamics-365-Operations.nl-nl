@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatuur van productvariantnummers en -namen
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een productnummernomenclatuur instelt om de vaste indeling [productmodelnummer - configuratie - maat - kleur - stijl] te vervangen. De nieuwe nomenclatuur heeft een beoogde indeling die het productmodelnummer, de actieve productdimensies en tekstscheidingstekens van uw keuze bevat. U kunt ook een nomenclatuur maken voor productnamen. Ten slotte kunt u een nomenclatuur maken om configuraties te identificeren die worden gemaakt door de op beperkingen gebaseerde productconfigurator. Deze nomenclaturen kunnen kenmerken van uw keuze bevatten.
 
@@ -192,10 +192,10 @@ Afhankelijk van de nomenclatuur kan het systeem proberen een niet-uniek productv
 
 Tijdens een stap van het configuratieproces suggereert het systeem een configuratiewaarde volgens de nomenclatuur. In deze stap kunt u de configuratiewaarde handmatig wijzigen. Wanneer u de configuratie opslaat, controleert het systeem of de configuratiewaarde uniek is. Als de waarde die u hebt ingevoerd niet uniek is, ontvangt u een foutbericht. Als u de configuratie wilt opslaan, moet u een unieke configuratiewaarde invoeren.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Een productnummernomenclatuur voor vooraf bepaalde productvarianten maken](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
+[Een nomenclatuur met productnummers maken voor vooraf gedefinieerde productvarianten](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Een productnummernomenclatuur voor geconfigureerde productvarianten maken](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 

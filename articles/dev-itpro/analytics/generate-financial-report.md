@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a>Een financieel rapport maken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit onderwerp biedt informatie over het genereren van een financieel rapport. 
 
@@ -155,16 +155,16 @@ Wanneer u een ontbrekende rekeninganalyse uitvoert, zijn de volgende sneltoetsen
 | De geselecteerde bouwstenen uitsluiten  | Alt+X                      |
 | De geselecteerde rijdefinitie uitsluiten  | Ctrl+B                     |
 | De geselecteerde dimensiewaarde uitsluiten | Ctrl+D                     |
-| Open de geselecteerde rapportdefinitie  | Ctrl+R                     |
-| Open de geselecteerde rijdefinitie.     | Ctrl+O                     |
+| De geselecteerde rapportdefinitie uitsluiten  | Ctrl+R                     |
+| De geselecteerde rijdefinitie openen     | Ctrl+O                     |
 
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Financiële rapportage](financial-reporting-intro.md)
 
-[Interface van Report Designer](report-designer-interface.md)
+[De Report Designer-interface](report-designer-interface.md)
 
 
 

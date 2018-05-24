@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Serienummers registreren in het verkoopproces
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 In dit onderwerp wordt uitgelegd hoe u serienummers op pakbonnen of facturen kunt registreren tijdens het verkoopproces. Deze functionaliteit is nuttig als een bedrijf serienummers wil vastleggen voor service- en garantiedoeleinden, maar geen serienummers in voorraad hoeft bij te houden van ontvangst tot uitgifte.
 
 Veel bedrijven wilt alleen serienummers vastleggen voor service en garantiedoeleinden en niet serienummers in voorraad te hoeven bijhouden van ontvangst tot uitgifte. In deze gevallen kunt u met Microsoft Dynamics 365 for Finance and Operations de serienummers op de pakbonnen of de facturen registreren wanneer producten worden verkocht. Als producten later worden geretourneerd, kunt u elk product op een factuur traceren om te bepalen of u het product verkocht hebt en of de service- of garantieverplichtingen geldig zijn.
-Zijn er vereisten?
-----------------------------
 
 U moet serienummers inschakelen voor het verkoopproces door de optie **Actief in verkoopproces** te selecteren op de pagina **Traceringsdimensiegroepen**. De volgende gebeurtenissen vinden vervolgens plaats in Microsoft Dynamics 365 for Finance and Operations:
 -   Op het sneltabblad **Serienummers** wordt de optie **Serienummercontrole** geselecteerd. Als deze optie is geselecteerd, moet u één serienummer registreren voor elk artikel op de pakbon of factuur.
@@ -71,8 +69,8 @@ Nee, u kunt de artikelen met serienummer die u in voorraad hebt niet bekijken om
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Ik kan serienummers voor artikelen met variabel gewicht registreren?
 Nee, u kunt geen serienummers voor catch weight-artikelen registreren in het verkoopproces. Bovendien geldt dat, als een product is ingesteld als een catch weight-artikel, u het product niet kunt toewijzen aan een traceringsdimensiegroep die is ingesteld om serienummers alleen tijdens het verkoopproces te gebruiken.
-Kan ik serienummers registreren op het detailhandel-POS?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Kan ik serienummers registreren op het detailhandel-POS?
 
 Ja, het verkooppunt voor de detailhandel (POS) vraagt de gebruiker om een serienummer in te voeren wanneer de gebruiker een artikel verkoopt waaraan een traceringsdimensiegroep is toegewezen die is ingesteld om alleen serienummers te gebruiken tijdens het verkoopproces.
 

@@ -3,7 +3,7 @@ title: "Power BI-inhoud financiële prestaties"
 description: "In dit onderwerp wordt de Power BI-inhoud Financiële prestaties besproken."
 author: kweekley
 manager: AnnBe
-ms.date: 02/02/2018
+ms.date: 05/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1fc3ab4f2a4b4604126ff72c570fc9d85e209f3c
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/13/2018
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Dit inhoudpakket is verouderd, zoals beschreven in [Power BI-inhoudpakketten gepubliceerd naar PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> Dit inhoudpakket is verouderd, zoals beschreven in [Power BI-inhoudpakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 In dit onderwerp wordt de Microsoft Power BI-inhoud **Financiële prestaties** besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
 

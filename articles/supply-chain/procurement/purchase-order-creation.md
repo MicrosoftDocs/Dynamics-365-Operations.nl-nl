@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 22264f0d82844e63bc7fc42705184c6ecc27e28d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>Inkooporders maken
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 In dit artikel worden het proces en de opties voor het handmatig maken van een inkooporder beschreven.
 
@@ -86,7 +86,7 @@ Inkooporders kunnen zodanig worden geconfigureerd dat budgetfondsen moeten worde
 
 Mogelijk moet u de voltooiing van een inkooporder uitstellen. Zo hebt u bijvoorbeeld mogelijk meer informatie nodig over producten of diensten of hebt u toestemming voor de besteding nodig. Er zijn verschillende manieren om een order te vertragen. Zo kunt u bijvoorbeeld wachten met het bevestigen van de bestelling. Ook kunt u, als een werkstroom voor wijzigingsbeheer wordt gebruikt, de order niet indienen voor goedkeuring. Als u alle orders voor een bepaalde leverancier moet blokkeren, kunt u ook de leverancier markeren als **In wachtstand** voor verwerking in het leveranciermodel. Er zijn tevens omstandigheden die mogelijk de verwerking van de order kunnen voorkomen. Zo kan bijvoorbeeld de verwerking worden voorkomen als de kredietlimieten zijn overschreden of als vereiste budgetfondsen niet beschikbaar zijn.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Overzicht van inkooporders](purchase-order-overview.md)

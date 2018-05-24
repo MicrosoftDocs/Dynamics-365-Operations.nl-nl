@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>Vastecompensatieplannen maken
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. In dit onderwerp worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
 
@@ -101,7 +101,7 @@ U kunt een werknemer nu toewijzen aan een vastecompensatieplan. Open de pagina *
 
 Het systeem controleert of het compensatiebedrag dat voor een compensatieplan is opgegeven van het type schaal of schijf, binnen de minimale en maximale referentiepunten van het opgegeven compensatieniveau voor de functie van de werknemer valt. Als het compensatiebedrag buiten het toegestane bereik valt, wordt een waarschuwing of foutbericht weergegeven, afhankelijk van het tolerantieniveau dat voor het vastecompensatieplan is ingesteld.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Compensatieplannen](compensation-plans.md)

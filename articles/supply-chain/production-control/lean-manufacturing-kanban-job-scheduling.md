@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac4c1afecb72d4007d830a9927bd3171ddd48ec
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f1044e6731fd757532e34292109b9d81ca38719
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Planning van kanbantaken voor lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dit artikel biedt informatie over visuele controle over de planning van kanbantaken en diverse manieren om kanbantaken te plannen.  
 
@@ -69,7 +69,7 @@ De beschikbare capaciteit op basis van de dag of week wordt bepaald door de kale
 
 De lijstpagina **Kanbantaakplanning** bevat feitenblok waarin de beschikbare en geboekte periodecapaciteit voor de geselecteerde werkcel worden weergegeven. Afhankelijk van de geselecteerde planperioden in het model voor productiestroom, worden dagen of weken weergegeven.
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 

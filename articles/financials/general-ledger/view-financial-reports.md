@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-financial-reports"></a>Financiële rapporten weergeven
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 In dit artikel wordt beschreven hoe u financiële rapporten kunt bekijken en verkennen in Microsoft Dynamics 365 for Finance and Operations. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 
@@ -84,7 +84,7 @@ Wanneer u klaar bent met het instellen van de afdrukopties, klikt u op **Afdrukk
 ## <a name="export-a-financial-report"></a>Een financieel rapport exporteren
 Als u een financieel rapport wilt exporteren, klikt u in het actievenster op **Exporteren**. Het rapport wordt geëxporteerd naar Microsoft Excel en in uw browser wordt u gevraagd of u het geëxporteerde bestand wilt openen of opslaan. De exportinstellingen die in het rapportontwerp zijn gedefinieerd, worden toegepast op het geëxporteerde rapport.    
 
-<a name="see-also"></a>Zie ook
+<a name="additional-resources"></a>Aanvullende resources
 --------
 
 [Financiële rapportage voor Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)

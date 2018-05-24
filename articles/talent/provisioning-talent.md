@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent inrichten
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 for Talent geleid. In dit onderwerp wordt ervan uitgegaan dat u Talent hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Talent-serviceabonnement al is opgenomen en u de stappen in dit onderwerp niet kunt voltooien, neemt u contact op met de ondersteuning.
 
@@ -54,17 +54,18 @@ Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
     > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de PowerApps P2-licentie. Als uw organisatie geen PowerApps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met PowerApps-prijzen](https://powerapps.microsoft.com/en-us/pricing/).
 
 4. Selecteer **Toevoegen** en selecteer de omgeving waarin Talent moet worden ingericht.
-5. Selecteer **Ja** om akkoord te gaan met de voorwaarden en te beginnen met implementeren.
+5. Selecteer de optie 'Demonstratiegegevens opnemen' als u wilt dat in uw omgeving dezelfde Demogegevensset wordt opgenomen die is gebruikt in de ervaring Talent-testdrive.  Dit is nuttig voor de langetermijndemo of -trainingsomgevingen en mag nooit worden gebruikt voor productieomgevingen.  Houd er rekening mee dat u deze optie moet kiezen bij de aanvankelijke implementatie en niet later een bestaande installatie kunt bijwerken.
+6. Selecteer **Ja** om akkoord te gaan met de voorwaarden en te beginnen met implementeren.
 
     Uw nieuwe omgeving wordt weergegeven in de lijst met omgevingen in het navigatievenster aan de linkerkant. U kunt de omgeving echter pas gebruiken als de implementatiestatus is bijgewerkt naar **Geïmplementeerd**. Dit proces duurt meestal een paar minuten. Als het inrichtingsproces mislukt, moet u contact opnemen met de ondersteuning.
 
-6. Selecteer **Aanmelden bij Talent** om uw nieuwe omgeving te gebruiken.
+7. Selecteer **Aanmelden bij Talent** om uw nieuwe omgeving te gebruiken.
 
 > [!NOTE]
 > Als u de definitieve vereisten nog niet hebt goedgekeurd, kunt u een testexemplaar van Talent in het project implementeren. Vervolgens kunt u deze instantie gebruiken om uw oplossing te testen tot u uw goedkeuring geeft. Als u uw nieuwe omgeving voor tests gebruikt, moet u deze procedure herhalen om een productieomgeving te maken.
 
 > [!NOTE]
-> Talent-omgevingen die worden ingericht door middel van LCS, bevatten geen demonstratiegegevens die zijn geconfigureerd voor HR-taken of die specifiek zijn voor Talent. Als u een omgeving met demonstratiegegevens nodig hebt, kunt u zich het beste aanmelden voor een gratis 60-daagse [Talent-proefomgeving](https://dynamics.microsoft.com/en-us/talent/overview/). Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor HR Core. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Ze zijn niet bedoeld als productieomgevingen. Wanneer de proefomgeving na 60 dagen verloopt, worden alle gegevens erin permanent verwijderd. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
+> Omdat er slechts twee LCS-omgevingen zijn toegestaan als onderdeel van het Talent-abonnement, kunt u ook overwegen gebruik te maken van gratis 60 dagen [Talent- proefomgeving](https://dynamics.microsoft.com/en-us/talent/overview/). Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor HR Core. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Ze zijn niet bedoeld als productieomgevingen. Wanneer een proefomgeving na 60 dagen verloopt, worden alle gegevens erin permanent verwijderd. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
 
 ## <a name="select-a-powerapps-environment"></a>Een PowerApps-omgeving selecteren
 
@@ -104,35 +105,29 @@ Voer de volgende instructies uit voor het script:
 
 1. Download het bestand ProvisionCDSEnvironment.zip van de volgende locatie: [ProvisionCDSEnvironment scripts](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. Pak de volledige inhoud van het bestand ProvisionCDSEnviroinment.zip uit in een map.
+2. Klik vanuit de downloadmap met de rechtermuisknop op het bestand ProvisionCDSEnvironment.zip dat zojuist is gedownload en selecteer **Eigenschappen**.  Als er een beveiligingsopmerking onderaan in het dialoogvenster staat met de tekst 'Dit bestand is afkomstig van een andere computer en wordt mogelijk geblokkeerd om deze computer te beveiligen', schakelt u het selectievakje in op **Deblokkeren** en klikt u vervolgens op **Toepassen** en dan op **OK**.
 
-3. Voer het programma Windows PowerShell of Windows PowerShell ISE uit als beheerder.
+3. Pak de volledige inhoud van het bestand ProvisionCDSEnviroinment.zip uit in een andere map dan uw basismap.
 
-   Ga naar het onderwerp [Uitvoeringsbeleid instellen](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) voor meer informatie over het instellen van het uitvoeringsbeleid zodat scripts kunnen worden uitgevoerd.
+4. Voer het programma Windows PowerShell of Windows PowerShell ISE uit als beheerder.
+
+   Ga naar het onderwerp [Uitvoeringsbeleid instellen](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) voor meer informatie over het instellen van het uitvoeringsbeleid zodat scripts kunnen worden uitgevoerd. Het is raadzaam de volgende ' Set-uitvoeringsbeleid -uitvoeringsbeleid onbeperkt - bereikproces' te gebruiken, maar zorg ervoor het beveiligingsbeleid van uw bedrijf te volgen en het venster PowerShell te sluiten na voltooiing. 
   
-4. Ga in PowerShell naar de map waarin u het bestand hebt uitgepakt en voer de volgende opdracht uit waarbij u de waarden vervangt zoals hieronder wordt aangegeven:
+5. Ga in PowerShell naar de map waarin u het bestand hebt uitgepakt en voer de volgende opdracht uit waarbij u de waarden vervangt zoals hieronder wordt aangegeven:
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
    **MyNewEnvironment** moet worden vervangen door de naam van uw omgeving. Deze naam wordt weergegeven in LCS en is zichtbaar als gebruikers selecteren welke Talent-omgeving ze willen gebruiken. 
 
-   **YourLocation** moet worden vervangen door een van de ondersteunde regio's voor Talent: unitedsates, europe, australia. 
+   **YourLocation** moet worden vervangen door een van de ondersteunde regio's voor Talent: Verenigde staten, Europa, australië. 
 
    **-Uitgebreid** is optioneel en biedt gedetailleerde informatie voor support als er problemen optreden.
 
-5. Ga door met het inrichtingsproces.
+6. Ga door met het inrichtingsproces.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving
-Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet echter uitdrukkelijk toestemming worden verleend. U kunt toegang verlenen door [gebruikers toe te voegen](../dev-itpro/sysadmin/tasks/create-new-users.md) en [de juiste rollen aan deze gebruikers toe te wijzen](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) in de Core HR-omgeving. U moet deze gebruikers ook toevoegen aan de PowerApps-omgeving, zodat zij toegang hebben tot de Attract- en Onboard-toepassingen. De procedure wordt hier beschreven. Als u voor het voltooien van de stappen hulp nodig hebt, raadpleegt u het blogbericht [Introducing the PowerApps admin center](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/) (Inleiding in het PowerApps-beheercentrum).
+Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet echter uitdrukkelijk toestemming worden verleend. U kunt toegang verlenen door [gebruikers toe te voegen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) en [de juiste rollen aan deze gebruikers toe te wijzen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) in de Core HR-omgeving. De globale beheerder die Talent heeft geïmplementeerd, moet ook de toepassingen Attract en Onboard starten om de initialisatie te voltooien en toegang in te schakelen voor andere tenantgebruikers.  Totdat dit gebeurt, kunnen andere gebruikers geen toegang krijgen tot de toepassingen Attract en Onboard en krijgen ze toegangsovertredingsfouten.
 
-Deze procedure wordt voltooid door de globale beheerder die de Talent-omgeving heeft geïmplementeerd.
-
-1. Open het [PowerApps-beheercentrum](https://preview.admin.powerapps.com/environments).
-2. Selecteer de toepasselijke omgevingen.
-3. Voeg onder het tabblad **Beveiliging** de vereiste gebruikers aan de rol **Maker omgeving** toe.
-
-    Deze laatste stap, waarin u handmatig gebruikers toevoegt aan de PowerApps-omgeving, is tijdelijk. Uiteindelijk wordt deze stap automatisch voltooid wanneer gebruikers worden toegevoegd in Core HR.
 
