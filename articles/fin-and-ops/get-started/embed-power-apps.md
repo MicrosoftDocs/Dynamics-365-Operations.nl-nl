@@ -3,7 +3,7 @@ title: PowerApps insluiten
 description: In dit onderwerp wordt beschreven hoe PowerApps worden ingesloten in de Finance and Operations-client om de functionaliteit van het product te verbeteren.
 author: jasongre
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -26,8 +26,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="embed-powerapps"></a>PowerApps insluiten
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 In Platformupdate 14 voor Microsoft Dynamics 365 for Finance and Operations wordt de integratie met Microsoft PowerApps ondersteund. Dit is een service voor ontwikkelaars en niet-technische gebruikers om aangepaste bedrijfsapps te bouwen voor mobiele apparaten, tablets en internet zonder code te hoeven schrijven. PowerApps die zijn ontwikkeld door uzelf, uw organisatie of anderen kunnen vervolgens worden ingesloten in de Finance and Operations-client om de functionaliteit van het product te verbeteren. U kunt bijvoorbeeld een PowerApp maken als aanvulling op Finance and Operations met informatie die uit een ander systeem is opgehaald. 
 
