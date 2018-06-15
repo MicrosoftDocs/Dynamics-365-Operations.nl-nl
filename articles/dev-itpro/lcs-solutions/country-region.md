@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
+ms.sourcegitcommit: 4c61cb81368251540e0015e155b1cc932bf7b948
+ms.openlocfilehash: 6360bbc8e5abd94cfd1c2853bc384598047eec39
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/16/2018
 
 ---
 
@@ -106,22 +106,9 @@ In de volgende gedeelten worden bronnen per land/regio weergegeven.
 -   [Belastingbetalingen](../../financials/localizations/latam-bra-tax-payments.md)
 -   [Belastingen](../../financials/localizations/latam-bra-calculate-taxes.md)
 
-### <a name="china"></a>China
--   [Vergelijking stuklijst](../../financials/localizations/apac-chn-bom-comparison.md)
--   [Chinese boekstukken](../../financials/localizations/apac-chn-vouchers.md)
--   [Belastingintegratie configureren](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [Veelgestelde vragen over btw in klantfacturen](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [Afschrijvingsmethoden voor vaste activa ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
--   [De entiteit Chinese industriële btw-gegevens importeren](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
--   [Maandelijks gemiddelde kostprijsmodel](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
--   [Hoofdrekeningen voorraad boeken op locatie](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [Debet- en creditbedragen weergeven voor grootboekrekeningen](../../financials/localizations/apac-chn-negative-debits-credits.md)
-
+### <a name="chinafinancialslocalizationschinamd"></a>[China](../../financials/localizations/china.md)
 ### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Tsjechië](../../financials/localizations/czech-republic.md)
-
-### <a name="estonia"></a>Estland
--   [Details van btw-overzicht voor Estland](../../financials/localizations/emea-est-vat-statement-details.md)
--   [Afstoting van vaste activa](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+### <a name="estoniafinancialslocalizationsestoniamd"></a>[Estland](../../financials/localizations/estonia.md)
 
 ### <a name="europe"></a>Europa
 - [Voorschothouders](../../financials/localizations/emea-advance-holders.md)

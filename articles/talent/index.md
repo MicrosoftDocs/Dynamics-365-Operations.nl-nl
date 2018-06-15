@@ -1,9 +1,9 @@
 ---
 title: Microsoft Dynamics 365 for Talent
 description: Talent stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Deze processen zijn werknemerwerving en behoud, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer.
-author: rschloma
+author: josaw
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 06/04/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
+ms.sourcegitcommit: bde68c9167e18cae6be4988865123d20274753c0
+ms.openlocfilehash: 9bc09a822f78b9792c2afdb0d297809edea7551a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/06/2018
 
 ---
 
@@ -42,6 +42,9 @@ Met Talent kunt u deze taken uitvoeren:
 + Prestaties beoordelen en werknemersdoelstellingen implementeren.
 + Interne trainingscursussen, waaronder agenda's, sessies en paden, instellen, afleveren en analyseren.
 
+Kennismaken met Dynamics 365 for Talent door te kijken naar de video [Aan de slag met Dynamics 365 for Talent.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+
+
 > [!NOTE] 
 > Dynamics 365 for Talent hangt nauw samen met Human Resources in Dynamics 365 for Finance and Operations. Dezelfde functionaliteit kan in beide producten voorkomen. In onderwerpen die hoofdzakelijk zijn gerelateerd aan Human Resources, wordt de productnaam Dynamics 365 for Finance and Operations gebruikt, terwijl in onderwerpen die voornamelijk betrekking hebben op Talent, de productnaam Dynamics 365 for Talent is. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
 
@@ -55,6 +58,8 @@ Tijdens het werken met Talent kunt u bepalen hoe u uw organisatie wilt structure
 -   [HR-parameters instellen voor rechtspersonen](set-up-hr-parameters-across-legal-entities.md) 
 -   [Veelgestelde vragen over personeelsacties](personnel-actions-faq.md)
 -   [Overzicht van verlof en verzuim](leave-absence-overview.md)
+-   [Dynamics 365 for Talent gebruiken: Verlof en verzuim (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Personeelsbeheer in Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Personeelswerving in uw organisatie
 
@@ -71,6 +76,7 @@ U kunt plannen instellen om effectief en op billijke wijze compensatie te behere
 -   [Compensatie verwerken](process-compensation.md)
 -   [Plannen voor vaste compensatie maken](create-fixed-compensation-plans.md)
 -   [Plannen voor variabele compensatie maken](create-variable-compensation-plans.md)
+-   [Beheer van compensaties in Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>Werknemers ontwikkelen en trainen
 
@@ -79,6 +85,7 @@ U kunt doelen instellen, prestatiebeoordelingen uitvoeren en feedback volgen om 
 -   [Prestatiebeheer](performance-management-overview.md)
 -   [Personeelsvaardigheden en zakelijke behoeften afstemmen](skills.md)
 -   [Training verstrekken via cursussen](courses.md)
+-   [Beheer van werknemerontwikkeling in Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Vergoedingen maken en onderhouden
 
@@ -87,6 +94,7 @@ Naast compensatie van uw personeel via lonen, salarissen en bonussen, kunt u ver
 -   [Een vergoedingsprogramma beheren](manage-benefit-program.md)
 -   [Beleid voor geschiktheid vergoedingen](benefit-eligibility-policies.md)
 -   [Artikelen beheren die aan werknemers worden geleend](loan-items.md)
+-   [Beheer van werknemervergoedingen in Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Veiligheid en conformiteit op de werkplek onderhouden
 
