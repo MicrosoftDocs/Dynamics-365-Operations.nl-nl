@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ Synchronisatie van **geraamde** waarden versus **gebruikte** waarden wordt behee
     - **Productregel:** geschatte hoeveelheid = 5 st, gebruikte hoeveelheid = 6 st, regelstatus = verbruikt, toegewezen = ja
     - **Serviceregel:** geraamde hoeveelheid = 2 uur, gebruikte hoeveelheid = 1,5 uur, regelstatus = gebruikt
 
-    In dit voorbeeld wordt de **Gebruikte hoeveelheid** van het product van **6** en de **Geraamde hoeveelheid** van **1,5 uur** gesynchroniseerd met Finance and Operations.
+    In dit voorbeeld wordt de **Gebruikte hoeveelheid** van het product van **6** en de **Gebruikte hoeveelheid** van de service van **1,5 uur** gesynchroniseerd met Finance and Operations.
 
 ## <a name="sales-order-origin-and-status"></a>Herkomst en status van verkooporder
 

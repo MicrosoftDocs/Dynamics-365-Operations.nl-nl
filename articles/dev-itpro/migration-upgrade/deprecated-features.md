@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
+ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
+ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/30/2018
 
 ---
 
@@ -162,6 +162,18 @@ Vanaf 15 februari 2018 kunnen detailhandelaren geen persoonlijke productaanbevel
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise-editie 2017 (juli) met platformupdate 8
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Omrekening van valuta voor boekhouding en rapportage van valuta's
+
+Omrekening van valuta voor boekhouding en rapportage van valuta's werd ingevoerd toen de euro werd ingevoerd.
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Beperkt gebruik en toevoeging van de functionaliteit Rechtspersoon kopiëren als een vervanging.      |
+| **Vervangen door een andere functie?**   | Nee, maar de functies Rechtspersoon kopiëren en Configuraties zijn toegevoegd om het gemakkelijker te maken over te gaan naar een bedrijf dat veranderende kernvereisten heeft. |
+| **Betrokken productgebieden**         | Financieel beheer     |
+| **Status**                         | Afgeschaft: er is nog geen datum voor verwijdering bepaald voor deze functie.   |
+
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portal voor mobiele apparaten voor magazijnbeheer
 

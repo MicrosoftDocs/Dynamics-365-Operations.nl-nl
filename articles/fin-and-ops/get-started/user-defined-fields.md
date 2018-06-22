@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -34,10 +34,7 @@ Microsoft Dynamics 365 for Finance and Operations biedt een uitgebreide reeks ka
 
 De mogelijkheid om aangepaste velden toe te voegen, is beschikbaar in platformupdate 13 en hoger.
 
-In deze video wordt getoond hoe gemakkelijk het is een aangepast veld toe te voegen aan een pagina.
-
-
-> [!Video https://www.youtube.com/embed/gWSGZI9Vtnc]
+Deze video laat zien hoe gemakkelijk het is een aangepast veld toe te voegen aan een pagina: [Aangepaste velden toevoegen in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Aangepaste velden maken
 Nadat u extra informatie hebt aangegeven die u wilt bijhouden in de toepassing, kunt u het aangepaste veld in de juiste tabel maken en weergeven op een pagina.   

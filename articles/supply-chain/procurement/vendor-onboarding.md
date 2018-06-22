@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -49,8 +49,7 @@ In de volgende tabel worden de stappen en rollen beschreven die betrokken zijn b
 | Beheerder            | | | Maak een gebruiker in Finance and Operations en Microsoft Azure. | | | |
 | Contactpersoon van leverancier    | | | Verzend e-mail naar de contactpersoon. | Registreer leveranciersgegevens. | | |
 
-Bekijk deze korte YouTube-video voor een snelle demonstratie van het onboardingproces voor leveranciers: 
-> [!Video https://www.youtube.com/embed/0KUc3AGaTKk]
+Voor een snelle demonstratie van het leveranciersonboardingproces, bekijkt u deze korte YouTube-video: [Een nieuwe leverancier onboarden in Dynamics 365 for Finance and Operations] (https://www.youtube.com/watch?v=0KUc3AGaTKk}.
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>De aanvraag voor registratie van potentiële leveranciers importeren
 

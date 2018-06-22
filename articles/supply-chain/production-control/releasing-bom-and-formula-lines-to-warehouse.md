@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -43,8 +43,7 @@ De methode voor het vrijgeven van stuklijst- en formuleregels wordt beheerd op b
 - **Stuklijst- en formuleregels vrijgeven als onderdeel van vrijgave van productie- of batchorder**: bij deze methode worden stuklijst- en formuleregels voor een productie- of batchorder vrijgegeven als onderdeel van het proces voor het vrijgeven van de order. Normaal gesproken worden tijdens de vrijgave van een productie- of batchorder productietaken vrijgegeven aan de werknemers op de werkvloer en worden productiedocumenten afgedrukt. Tijdens dit proces wordt de status van de order gewijzigd in **Vrijgegeven**.
 - **Stuklijst- en formuleregels via een batchtaak of handmatige vrijgeven**: bij deze methode kunnen stuklijst- en formuleregels alleen handmatig of via de batchtaak **Automatische vrijgave van stuklijst en formuleregels** worden vrijgegeven. Als u stuklijst- en formuleregels handmatig wilt vrijgeven, selecteert u op de lijst- of detailpagina van de productieorder in het actievenster de optie **Vrijgave naar magazijn**.
 
-Bekijk deze korte YouTube-video voor een snelle demonstratie van het vrijgeven van stuklijst- en formuleregels voor productie met behulp van een batchtaak:
-[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
+Bekijk deze korte YouTube-video voor een snelle demonstratie van het vrijgeven van stuklijst- en formuleregels voor productie met behulp van een batchtaak: [Productieverzameling vrijgeven aan het magazijn in batch](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>De stuklijst- en formuleregels vrijgeven met een batchtaak
 
@@ -85,8 +84,7 @@ In de volgende afbeelding wordt een productieorder met de twee bewerkingen 10 en
 
 ![Voorbeeld van de vrijgave van materiaal op bewerkingsnummer](media/two-operations.PNG)
 
-Bekijk deze korte YouTube-video voor een snelle demonstratie van het vrijgeven van materiaal in verhouding tot de hoeveelheid eindproducten:
-[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
+Voor een snelle demonstratie van het vrijgeven van materiaal in verhouding tot het bedrag van afgewerkte goederen, bekijkt u deze korte YouTube-video: [Verbeteringen in de productieorder vrijgeven in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Materiaal vrijgeven in verhouding tot het aantal eindproducten
 

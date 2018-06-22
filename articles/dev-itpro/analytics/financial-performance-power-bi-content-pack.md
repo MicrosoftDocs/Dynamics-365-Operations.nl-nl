@@ -1,6 +1,6 @@
 ---
-title: "Power BI-inhoud financiële prestaties"
-description: "In dit onderwerp wordt de Power BI-inhoud Financiële prestaties besproken."
+title: "Financiële prestatieoplossing PowerBI.com"
+description: "In dit onderwerp wordt de financiële prestatieoplossing PowerBI.com besproken."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Power BI-inhoud financiële prestaties
+# <a name="financial-performance-powerbicom-solution"></a>Financiële prestatieoplossing PowerBI.com
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Dit inhoudpakket is verouderd, zoals beschreven in [Power BI-inhoudpakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Deze oplossing PowerBI.com is verouderd, zoals gedocumenteerd in [Power BI-inhoudspakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud **Financiële prestaties** besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
+In dit onderwerp wordt de **financiële prestatie**-oplossing PowerBI.com besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de oplossing is samengesteld.
 
 ## <a name="main-account-setup"></a>Hoofdrekening instellen
 De instelling van de hoofdrekeningen is belangrijk omdat organisaties passiva- en opbrengstenbedragen willen weergeven als positieve bedragen in rapporten. Voor weergave van hoofdrekeningen als positieve bedragen moet het hoofdrekeningtype worden ingesteld op **Passiva** of **Opbrengsten**. Wanneer deze rekeningtypen worden gebruikt, wordt in de rapportage via Power BI het teken omgekeerd en worden de bedragen als positief weergegeven.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Dashboard en rapporten die zijn opgenomen in de Power BI-inhoud
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Dashboard en rapporten die zijn opgenomen in de oplossing PowerBI.com
 Het dashboard bevat tegels met samengevatte gegevens, die zijn gebaseerd op onderliggende rapporten. Elke tegel bevat samengevatte informatie voor het huidige jaar, voor alle bedrijven binnen een organisatie. Hieronder ziet u enkele van deze tegels:
 
 - Contant geld
@@ -74,7 +74,7 @@ Elke tegel wordt ondersteund door een ondersteunend rapport. Deze rapporten beva
 De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over het filteren en vastmaken in Power BI het onderwerp [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-De volgende entiteiten zijn gebruikt als basis voor de Power BI-inhoud **Financiële prestaties**:
+De volgende entiteiten zijn gebruikt als basis voor de **financiële prestatie**-oplossing PowerBI.com:
 
 **Samengevoegde gegevensentiteiten**
 
