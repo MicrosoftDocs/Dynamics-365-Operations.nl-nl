@@ -1,0 +1,84 @@
+- name: Welkom bij Dynamics 365 for Talent
+  href: index.md
+- name: Aan de slag
+  href: talent-get-started.md
+  items:
+    - name: Systeemvereisten en updatebeleid
+      href: talent-versions-update-policy.md
+    - name: Microsoft Dynamics 365 for Talent inrichten
+      href: provisioning-talent.md
+    - name: Een Talent-omgeving verwijderen
+      href: remove-talent-environment.md
+    - name: Modulaire apps voor Microsoft Dynamics 365 for Talent inrichten
+      href: modular-app-tech-faq.md
+    - name: Functionaliteit Talent uitbreiden
+      href: extend-talent-functionality.md
+    - name: Toegang tot voorbeeldfuncties in Dynamics 365 for Talent
+      href: access-preview-feature.md
+- name: Een strategie voor Human resources ontwikkelen
+  href: departments-jobs-positions.md
+  items:
+    - name: Taakonderdelen instellen
+      href: create-job.md
+    - name: Een afdeling maken en koppelen aan de afdelingshiërarchie
+      href: create-department-add-department-hierarchy.md
+    - name: HR-parameters instellen voor rechtspersonen
+      href: set-up-hr-parameters-across-legal-entities.md
+    - name: Bedrijfsspecifieke HR-parameters instellen
+      href: set-up-company-specific-hr-parameters.md
+    - name: FAQ over personeelsacties
+      href: personnel-actions-faq.md
+    - name: Bedrijfsprocessen formaliseren
+      href: formalize-business-processes.md
+    - name: Workflow gebruiken om werknemersgegevens te beheren
+      href: workflow-manage-employee-information.md
+    - name: Overzicht van verlof en verzuim
+      href: leave-absence-overview.md
+- name: Personeelswerving in uw organisatie
+  items:
+    - name: Overzicht van Attract
+      href: attract-overview.md
+    - name: Overzicht van Onboard
+      href: create-onboarding-experience.md
+- name: Medewerkers motiveren
+  items:
+    - name: Compensatieplannen
+      href: compensation-plans.md
+    - name: Plannen voor vaste compensatie maken
+      href: create-fixed-compensation-plans.md
+    - name: Plannen voor variabele compensatie maken
+      href: create-variable-compensation-plans.md
+    - name: Compensatie verwerken
+      href: process-compensation.md
+- name: Werknemers ontwikkelen en trainen
+  items:
+    - name: Overzicht van prestatiebeheer
+      href: performance-management-overview.md
+    - name: Personeelsvaardigheden afstemmen op zakelijke behoeften
+      href: skills.md
+    - name: Trainingscursussen instellen
+      href: courses.md
+- name: Vergoedingen maken en onderhouden
+  href: manage-benefit-program.md
+- name: Beleid voor geschiktheid vergoedingen
+  href: benefit-eligibility-policies.md
+  items:
+    - name: Artikelen beheren die aan werknemers worden geleend
+      href: loan-items.md
+- name: Gegevens verzamelen via vragenlijsten
+  href: questionnaires.md
+  items:
+    - name: Een vragenlijst ontwerpen
+      href: design-questionnaires.md
+    - name: Een vragenlijst verspreiden en invullen
+      href: distribute-questionnaires.md
+    - name: De resultaten van een vragenlijst evalueren
+      href: evaluate-questionnaire-results.md
+- name: Veiligheid en conformiteit op de werkplek (Verenigde Staten)
+  items:
+    - name: Reageren op een aanvraag voor persoonlijke gegevens met behulp van Talent
+      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+    - name: Verificatie van implementatie van formulier I-9
+      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+    - name: Voldoen aan de ADA
+      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
