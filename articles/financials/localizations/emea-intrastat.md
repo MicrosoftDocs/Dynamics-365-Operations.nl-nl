@@ -1,6 +1,6 @@
 ---
 title: Intrastat
-description: Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
+description: Dit onderwerp bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ee60f3d1155b89d342b94832fbdbe898a5063c6
+ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
+ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
+Dit onderwerp bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
 
 Intrastat is het systeem voor het verzamelen van informatie en genereren van statistieken met betrekking tot de handel in artikelen tussen landen en regio's van de Europese Unie (EU). Intrastat-aangifte is vereist wanneer een product de grens van een ander EU-land/regio overschrijdt. In sommige landen/regio's is Intrastat-aangifte ook van toepassing op services. De verplichte en optionele elementen kunnen in Intrastat-aangiftes worden verzameld. De volgende elementen zijn verplicht: het btw-nummer van de partij die de informatie moet verstrekken, de referentieperiode, de stroom (ontvangst of verzending), de achtcijferige basisproductcode, de lidstaat van de partner (lidstaat van verzending voor ontvangsten en lidstaat van bestemming voor verzendingen), de waarde van de goederen, de hoeveelheid goederen (netto massa en bijkomende eenheid) en de aard van de transactie. Landen/regio's kunnen ook optionele elementen verzamelen in diverse situaties. Sommige optionele elementen zijn het land of de regio van herkomst, de leveringsvoorwaarden, de wijze van transport, een meer gedetailleerde basisproductcode dan CN8, de regio van herkomst voor verzendingen en de regio van bestemming voor ontvangsten, de statistische procedure, de statistische waarde, een omschrijving van de goederen, en de haven/de luchthaven waar het product wordt geladen/gelost.
 
@@ -223,6 +223,7 @@ Gebruik de pagina **Parameters buitenlandse handel** om de parameters in de volg
 </ul></li>
 <li><strong>Elektronische aangifte</strong>: Geef verwijzingen op naar configuraties voor elektronische aangifte, zodat u een elektronisch bestand en een rapport kunt genereren.</li>
 <li><strong>Hiërarchie van basisproductcodes</strong>: Geef de categoriehiërarchie op van het type <strong>basisproductcode</strong> dat Intrastat-basisproductcode CN8 vertegenwoordigt.</li>
+  <li> <strong>Wisselkoerstype</strong>: u kunt desgewenst een wisselkoers opgeven die moet worden gebruikt om Intrastat-verkoop- en -inkooptransacties te rapporteren in vreemde valuta. Dit wordt gebruikt als de wisselkoers anders is dan is bij het boeken van de transactie toegepast.</li>  
 </ul></td>
 </tr>
 <tr class="even">
@@ -239,9 +240,5 @@ Gebruik de pagina **Parameters buitenlandse handel** om de parameters in de volg
 </tr>
 </tbody>
 </table>
-
-
-
-
 
 

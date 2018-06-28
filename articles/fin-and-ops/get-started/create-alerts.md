@@ -3,7 +3,7 @@ title: Waarschuwingen maken
 description: Dit onderwerp bevat informatie over waarschuwingen en uitleg over het maken van een waarschuwingsregel zodat u een bericht ontvangt over gebeurtenissen zoals een datum of een specifieke wijziging.
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 03/23/2018
 # <a name="create-alerts"></a>Waarschuwingen maken
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a>Aan de slag
 Bepaal voordat u een waarschuwingsregel instelt, wanneer of in welke situaties u waarschuwingen wilt ontvangen. Als u weet over welke gebeurtenis u wilt worden gewaarschuwd, gaat u in Microsoft Dynamics 365 for Finance and Operations naar de pagina met de gegevens die de gebeurtenis veroorzaken. De gebeurtenis kan een datum zijn die aanbreekt of een specifieke wijziging die plaatsvindt. Daarom moet u de pagina vinden waar de datum is gespecificeerd of die het veld bevat dat verandert of de nieuwe record. Wanneer u deze informatie hebt, kunt u de waarschuwingsregel maken.

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
+ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
+ms.openlocfilehash: 9d20a0ba92010be17029b1b0fc826eee1cded279
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -33,11 +33,8 @@ ms.lasthandoff: 05/08/2018
 
 De oplossing Prospect naar contant geld biedt directe synchronisatie tussen Dynamics 365 for Finance and Operations en Dynamics 365 for Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens voor rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. Terwijl de gegevens tussen Finance and Operations en Sales worden verplaatst, kunt u verkoop- en marketingactiviteiten uitvoeren in Sales en de orderafhandeling verwerken met voorraadbeheer in Finance and Operations. 
 
-Bekijk de korte YouTube-video voor meer informatie over de integratie van Prospect met contant geld:
+Bekijk de korte YouTube-video voor meer informatie over de integratie van Prospect met contant geld: [![](https://img.youtube.com/vi/AVV9x5x-XCg/0.jpg)](https://www.youtube.com/watch?v=AVV9x5x-XCg)
 
-> [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
-
-[Integratie van prospect tot contant geld (YouTube-video)](https://youtu.be/AVV9x5x-XCg) 
 
 In de huidige versie biedt de oplossing Prospect naar contant geld de volgende typen directe synchronisatie:
 

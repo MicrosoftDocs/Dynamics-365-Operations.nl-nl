@@ -1,9 +1,9 @@
 ---
-title: Power BI-inhoud
-description: In dit onderwerp wordt de Power BI-inhoud vermeld die beschikbaar is en wordt aangegeven waar u meer informatie hierover kunt vinden.
+title: PowerBI.com-oplossingen
+description: In dit onderwerp worden de PowerBI.com-oplossingen genoemd die beschikbaar zijn en wordt aangegeven waar u meer informatie over de oplossingen kunt vinden.
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a>Power BI-inhoud
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a>PowerBI.com-oplossingen
+De volgende PowerBI.com-oplossingen zijn beschikbaar voor Dynamics 365 voor omgevingen met Finance and Operations. 
 
-In dit onderwerp wordt de Microsoft Power BI-inhoud vermeld die beschikbaar is en wordt aangegeven waar u meer informatie hierover kunt vinden.
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>PowerBI.com-oplossingen beschikbaar vanuit Lifecycle Services (LCS)
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>Power BI-inhoud voor Dynamics 365 for Finance and Operations
-Als u werkt met Microsoft Dynamics 365 for Finance and Operations, is de volgende Power BI-inhoud beschikbaar:
-
-- [Power BI-inhoud Werkelijk vs. budget](ledger-budgets-power-bi.md)
-- [Power BI-inhoud Vergoedingen](benefits-power-bi.md)
-- [Power BI-inhoud Overzicht van contant geld](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [Power BI-inhoud CFO-overzicht](CFO-power-bi.md)
-- [Power BI-inhoud Compensatie](compensation-power-bi.md)
-- [Power BI-inhoud Analyse van kostprijsboekhouding](cost-accounting-analysis-content-pack.md) 
-- [Power BI-inhoud voor kostenbeheer](cost-management-content-pack.md)    
-- [Power BI-inhoud Crediterings- en aanmaningsbeheer](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Power BI-inhoud Werknemerontwikkeling](employee-development-PBI.md) 
-- [Power BI-inhoud Financial Insights](financial-insights.md)
-- [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)
-- [Power BI-inhoud Beheer van vaste activa](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [Power BI-inhoud Leren](learning-power-bi.md)
-- [Power BI-inhoud Praktijkbeheerder](practice-manager-power-bi.md)
-- [Power BI-inhoud Productieprestaties](production-performance-power-bi.md)
-- [Power BI-inhoud voor analyse van inkoopuitgaven](purchase-content-pack-for-power-bi.md) 
-- [Power BI-inhoud voor werving](recruiting-analysis-power-bi-content-pack.md) 
-- [Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid](sales-profitability-performance-content-pack.md)
-- [Power BI-inhoud Leveranciersbetalingen](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [Power BI-inhoud voor magazijnprestaties](warehouse-power-bi-content.md)
-- [Power BI-inhoud voor metrische gegevens over personeel](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Power BI-inhoud voor Dynamics 365 for Operations, versie 1611
-Als u werkt met Microsoft Dynamics 365 for Operations, versie 1611, is de volgende Power BI-inhoud beschikbaar:
-
-- [Power BI-inhoud voor compensatie en vergoedingen](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [Kostprijsboekhoudingsanalyse van Power BI-inhoud](cost-accounting-analysis-content-pack.md) 
-- [Power BI-inhoud Crediterings- en aanmaningsbeheer](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Power BI-inhoud voor rapporten voor werknemercompetenties en -ontwikkeling](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)
-- [Power BI-inhoud voor organisatietraining](organizational-training-analysis-power-bi-content-pack.md) 
-- [Power BI-inhoud Praktijkbeheerder](practice-manager-power-bi.md)
-- [Power BI-inhoud Productieprestaties](production-performance-power-bi.md)
-- [Power BI-inhoud voor analyse van inkoopuitgaven](purchase-content-pack-for-power-bi.md) 
-- [Power BI-inhoud voor werving](recruiting-analysis-power-bi-content-pack.md) 
-- [Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid](sales-profitability-performance-content-pack.md)
-- [Power BI-inhoud voor magazijnprestaties](warehouse-power-bi-content.md)
-- [Power BI-inhoud voor metrische gegevens over personeel](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Power BI-inhoud voor Microsoft Dynamics AX
-Als u werkt met Microsoft Dynamics AX 7.0 of Microsoft Dynamics AX 7.0.1, is de volgende Power BI-inhoud beschikbaar:
+De volgende PowerBI.com-oplossingen zijn beschikbaar in de bibliotheek Gedeelde activa van LCS. Raadpleeg de versiegegevens in de bibliotheek Gedeelde activa om de juiste versie voor uw omgeving te downloaden. 
 
 > [!Note]
-> Deze inhoudpakketten zijn verouderd, zoals beschreven in [Power BI-inhoudpakketten gepubliceerd naar PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> De meeste PowerBI.com-oplossingen in de volgende lijst zijn ingesloten in analytische werkgebieden in recente versies van Dynamics 365 for Finance and Operations. Met behulp van analytische werkgebieden hoeven deze werkgebieden niet te worden gedownload uit de bibliotheek Gedeelde activa in LCS. De onderwerpen in deze lijst geven aan waar deze PowerBI.com-oplossingen zijn ingesloten in Finance and Operations, indien van toepassing. 
 
-- [Power BI-inhoud voor kostenbeheer](cost-management-content-pack.md)    
-- [Power BI-inhoud financiële prestaties](financial-performance-power-bi-content-pack.md)
-- [Power BI-inhoud Prestaties detailhandelafzetkanaal](retail-channel-performance-dashboard-power-bi-data.md) 
+- [Werkelijk vs. budget](ledger-budgets-power-bi.md)
+- [Overzicht van contant geld](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [Compensatie en vergoedingen](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Analyse van kostprijsboekhouding](cost-accounting-analysis-content-pack.md) 
+- [Klantcrediteringen- en aanmaningsbeheer](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [Competenties en ontwikkeling van werknemer](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Financiële prestaties](financial-performance-power-bi-content-pack.md)
+- [Beheer van vaste activa](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [Organisatietraining](organizational-training-analysis-power-bi-content-pack.md) 
+- [Praktijkbeheerder](practice-manager-power-bi.md)
+- [Productieprestaties](production-performance-power-bi.md)
+- [Inkoopuitgavenanalyse](purchase-content-pack-for-power-bi.md) 
+- [Werving](recruiting-analysis-power-bi-content-pack.md)
+- [Verkoop- en winstgevendheidsprestaties](sales-profitability-performance-content-pack.md)
+- [Leveranciersbetalingen](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [Magazijnprestaties](warehouse-power-bi-content.md)
+- [Metrische gegevens personeel](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a>PowerBI.com-oplossingen beschikbaar via AppSource
 
+De volgende PowerBI.com-oplossingen zijn beschikbaar van [Microsoft AppSource](https://appsource.microsoft.com).
+
+> [!Note]
+> Deze oplossingen zijn verouderd, zoals gedocumenteerd in [Power BI-inhoudpakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+
+- Kostenbeheer    
+- [Financiële prestaties](financial-performance-power-bi-content-pack.md)
+- [Prestaties detailhandelafzetkanaal ](retail-channel-performance-dashboard-power-bi-data.md) 
 

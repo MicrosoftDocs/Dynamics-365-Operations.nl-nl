@@ -1,16 +1,16 @@
 ---
 title: Vereffening configureren
-description: "Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit artikel worden de parameters beschreven die voor Leveranciers en Klanten worden gebruikt voor vereffening."
+description: "Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit onderwerp worden de parameters beschreven die voor leveranciers en klanten worden gebruikt voor vereffening."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ed520ce3a67fab81da24b36b042152f530d75dd
+ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
+ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit artikel worden de parameters beschreven die voor Leveranciers en Klanten worden gebruikt voor vereffening. 
+Hoe en wanneer de transacties worden vereffend, kunnen complexe onderwerpen zijn. Daarom is het belangrijk dat u parameters begrijpt en de parameters kunt definiëren om aan uw bedrijfsbehoeften te voldoen. In dit onderwerp worden de parameters beschreven die voor leveranciers en klanten worden gebruikt voor vereffening. 
 
 De volgende parameters zijn van invloed op de wijze waarop vereffeningen worden verwerkt in Microsoft Dynamics 365 for Finance and Operations. Vereffening is het proces van het vereffenen van een factuur met een betaling of creditnota. Deze parameters bevinden zich in het gebied **Vereffening** van de pagina´s **Parameters van module Klanten** en **Parameters van module Leveranciers** .
 
@@ -43,7 +43,7 @@ De volgende parameters zijn van invloed op de wijze waarop vereffeningen worden 
   -   Als er door een te veel of een te weinig betaald bedrag een afronding ontstaat die kleiner is dan het verschil dat in het veld **Maximale afronding** is opgegeven, wordt het afrondingsbedrag naar de afrondingsrekening geboekt.
   -   Als er door een te veel of een te weinig betaald bedrag een afronding ontstaat die groter is dan het verschil dat in het veld **Maximale afronding** is opgegeven, wordt het afrondingsbedrag geboekt naar de verschilrekening die is geselecteerd voor het boekingstype **Contantkorting van klant** of **Contantkorting van leverancier** op de pagina **Rekeningen voor automatische transacties**.
 - **Contantkortingen berekenen voor gedeeltelijke betalingen**: stel deze optie in op **Ja** zodat contantkortingen automatisch kunnen worden berekend voor gedeeltelijke betalingen.
-  -   Dit effect van deze optie is afhankelijk van de waarde van het veld **Contantkorting gebruiken** op de pagina **Transacties vereffenen**. Als deze optie is ingesteld op **Ja**, wordt de korting genomen als het veld **Contantkorting gebruiken** is ingesteld op **Normaal**. Wanneer het veld **Contantkorting gebruiken** is ingesteld op **Altijd**, wordt de contantkorting altijd toegepast, ongeacht de instelling van dit veld. Wanneer het veld **Contantkorting gebruiken** is ingesteld op **Nooit**, wordt de contantkorting nooit toegepast, ongeacht de instelling van dit veld.
+  -   Het effect van deze optie is afhankelijk van de waarde van het veld **Contantkorting gebruiken** op de pagina **Transacties vereffenen**. Als deze optie is ingesteld op **Ja**, wordt de korting genomen als het veld **Contantkorting gebruiken** is ingesteld op **Normaal**. Wanneer het veld **Contantkorting gebruiken** is ingesteld op **Altijd**, wordt de contantkorting altijd toegepast, ongeacht de instelling van dit veld. Wanneer het veld **Contantkorting gebruiken** is ingesteld op **Nooit**, wordt de contantkorting nooit toegepast, ongeacht de instelling van dit veld.
   -   Als deze optie is ingesteld op **Ja** en een gebruiker wijzigt de waarde in het veld **Te vereffenen bedrag** op de pagina **Transacties vereffenen**, wordt de korting automatisch berekend en weergegeven als de standaardinvoer in het veld **Contantkortingsbedrag dat moet worden toegepast**.
   -   Als deze optie is ingesteld op **Nee** en een gebruiker wijzigt de waarde in het veld **Te vereffenen bedrag** op de pagina **Transacties vereffenen**, is de standaardinvoer in het veld **Contantkortingsbedrag dat moet worden toegepast** **0** (nul).
 - **Contantkortingen berekenen voor creditnota's**: stel deze optie in op **Ja** om automatisch een contantkorting voor creditnota's te berekenen. In Klanten is een creditnotatransactie een negatieve transactie met een waarde in het veld **Factuur** op de pagina **Vrije-tekstfactuur** of een retour op de pagina **Verkooporder**.
@@ -58,7 +58,14 @@ De volgende parameters zijn van invloed op de wijze waarop vereffeningen worden 
 - **Prioriteit van vereffening (alleen klanten)**: stel deze optie in op **Ja** om de knop **Markeren op prioriteit** in te schakelen op de pagina **Klantbetalingen invoeren** en **Transacties vereffenen**. Met deze knop kunnen gebruikers de vooraf vastgestelde vereffeningsvolgorde toewijzen aan transacties.  Nadat de vereffeningsvolgorde is toegepast op een transactie, kunnen de volgorde en de betalingstoewijzing worden gewijzigd vóór boeking.
 - **Prioriteit gebruiken voor automatische vereffeningen**: stel deze optie op **Ja** in als u de gedefinieerde prioriteitsvolgorde wilt gebruiken wanneer transacties automatisch worden vereffend. Dit veld is alleen beschikbaar als de opties **Prioriteit van vereffening** en **Automatische vereffening** zijn ingesteld op **Ja**.
 
+## <a name="fixed-dimensions-on-accounts-receivableaccounts-payable-main-accounts"></a>Vaste dimensies in hoofdrekeningen van klanten/leveranciers
 
+Als vaste dimensies worden gebruikt in de hoofdrekening van klanten/leveranciers, worden aanvullende boekhoudingsvermeldingen en twee aanvullende leverancierstransacties geboekt door het vereffeningsproces. Vereffening vergelijkt de grootboekrekening van klanten/leveranciers vanuit de factuur en de betaling.  Wanneer de betaling en vereffening samen worden voltooid, wat het standaardscenario is, wordt de boekhoudingspost van de betaling niet geboekt naar het grootboek tot nadat het vereffeningsproces ook is voltooid. Vanwege de volgorde van verwerkingsgebeurtenissen kan vereffening de werkelijke grootboekrekening van klanten/leveranciers niet bepalen vanuit de boekhoudingsvermelding van de betaling. Vereffening bepaalt wat de grootboekrekening voor de betaling zal zijn. Dit wordt een probleem wanneer een vaste dimensie wordt gebruikt voor de hoofdrekening van klanten/leveranciers.
 
+Om de grootboekrekening te reconstrueren wordt de hoofdrekening van klanten/leveranciers opgehaald uit het boekingsprofiel en worden de financiële dimensies opgehaald uit de leverancierstransactierecord voor de betaling, zoals gedefinieerd in het betalingsjournaal. Vaste dimensies gebruiken niet standaard betalingsjournalen, maar worden in plaats daarvan met de hoofdrekening vereffend als laatste stap in het boekingsproces. Hierdoor bevat de leverancierstransactie waarschijnlijk niet de waarde van de vaste dimensie, tenzij de standaard uit een andere bron komt, zoals de leverancier. De gereconstrueerde rekening bevat niet de vaste dimensie. Vereffeningsverwerking bepaalt dat een correctiepost moet worden gemaakt, omdat de factuur is geboekt met de waarde van de vaste dimensie en de gereconstrueerde betalingsrekening niet.  Terwijl vereffening doorgaat met boeking van de correctiepost, is de laatste stap bij de boeking het vereffenen van de vaste dimensie. Door de vaste dimensie aan de correctiepost toe te voegen, wordt deze geboekt met een debet en credit naar dezelfde grootboekrekening. Vereffening kan de boekhoudingsvermelding niet terugdraaien.
 
+Om de extra boekhoudingsposten te voorkomen, de debet en de credit naar dezelfde grootboekrekening, kunnen de volgende tijdelijke oplossingen worden overwogen, afhankelijk van uw zakelijke behoeften. 
+
+-   Organisaties gebruiken vaak vaste dimensies om een financiële dimensie die niet vereist is op nul in te stellen. Dit is meestal het geval voor balansrekeningen, zoals rekeningen van klanten/leveranciers. Rekeningstructuren kunnen worden gebruikt om financiële dimensies niet te traceren, die meestal met nullen worden gevuld.  U kunt de financiële dimensie voor de balansrekeningen verwijderen, waardoor geen vaste dimensie meer nodig is.
+-   Als uw organisatie vaste dimensies vereist voor de hoofdrekening van klanten/leveranciers, zoekt u een manier om de vaste dimensie standaard te maken voor de betaling, zodat de waarde van de vaste dimensie wordt opgeslagen in de leverancierstransactie voor de betaling. Hierdoor kan het systeem de hoofdrekening van klanten/leveranciers reconstrueren en de vaste-dimensiewaarden opnemen. De vaste-dimensiewaarde kan worden gedefinieerd als standaard voor leveranciers of de journaalnaam voor het betalingsjournaal.
 

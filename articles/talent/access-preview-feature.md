@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ U kunt de instelling **Voorbeeldfuncties** in Microsoft Dynamics 365 voor Talent
     > Vacatures die zijn geboekt, zijn alleen zichtbaar voor klanten die zich abonneren op een of meer producten voor het plaatsen van LinkedIn-personeelsadvertenties. Anders zien klanten een vacature alleen als ze er expliciet naar zoeken. Er is een vertraging wanneer taken naar LinkedIn worden geboekt. Het kan enkele uren duren voordat een vacature wordt weergegeven na plaatsing via Attract.
 
 - **Kandidaatsollicitatie** : interne en externe kandidaten kunnen nu rechtstreeks solliciteren via de vacaturepagina op de vacaturesite.
-- **Beoordelingen** : als onderdeel van het configureerbare aanstellingsproces kunnen gebruikers nu voor een specifieke vacature of wanneer een vacature wordt gebruikt, toegang krijgen tot een nieuw activiteitstype **Beoordeling**. Zij kunnen vervolgens de app Project: 'Gauge' in Talent gebruiken om algemene beoordelingen samen te stellen die zij aan kandidaten kunnen verzenden. Project: 'Gauge' is ook als openbaar voorbeeld beschikbaar. Aanvullende providers worden in de toekomst toegevoegd.
-- **Project: 'Gauge'** : Project: 'Gauge' is een app in Talent waarmee gebruikers eenvoudig beoordelingen of enquêtes kunnen maken.
 - **Aanbiedingsbeheer** : gebruikers kunnen nu aanbiedingsbrieven maken op basis van sjablonen met tijdelijke aanduidingen. Als kandidaten verdergaan naar de aanbiedingsfase, kunnen personeelswervings- en aanstellingsmanagers het hulpprogramma Aanbieding gebruiken om een formele aanbieding voor de kandidaat voor te bereiden via sjablonen, de aanbieding voor interne goedkeuring te verzenden en ten slotte de aanbieding te verzenden naar de kandidaat voor een handtekening. Vele nieuwe mogelijkheden zullen in de loop van de tijd worden toegevoegd aan het hulpprogramma Aanbieding en de voorbeeldfunctie wordt automatisch bijgewerkt met deze mogelijkheden als we klaar zijn om ze vrij te geven als voorbeeldfuncties.
 
 ### <a name="core-hr"></a>Core HR
@@ -90,7 +88,7 @@ Ongeacht of de feedback positief of negatief is, we willen horen wat uw ervaring
     - [Ideeën voor Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-Vermeld geen persoonlijke gegevens (gegevens die uw identiteit vrijgeven) als u feedback of een productbeoordeling indient. Verzamelde gegevens worden mogelijk verder geanalyseerd en worden niet gebruikt om verzoeken te beantwoorden krachtens van toepassing zijnde privacywetgeving. Persoonlijke gegevens die afzonderlijk voor deze programma's worden verzameld, zijn onderworpen aan de [privacyverklaring van Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+Vermeld geen persoonlijke gegevens (gegevens die uw identiteit vrijgeven) als u feedback of een productbeoordeling indient. Verzamelde gegevens worden mogelijk verder geanalyseerd en worden niet gebruikt om verzoeken te beantwoorden krachtens van toepassing zijnde privacywetgeving. Persoonlijke gegevens die afzonderlijk voor deze programma's worden verzameld, zijn onderworpen aan de [privacyverklaring van Microsoft](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Maak een bladwijzer van dit onderwerp en controleer het regelmatig om op de hoogte te blijven van nieuwe voorbeeldfuncties die door ons worden uitgegeven.
