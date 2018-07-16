@@ -3,7 +3,7 @@ title: Overzicht van waarschuwingen
 description: Dit onderwerp biedt algemene informatie over waarschuwingen in Microsoft Dynamics 365 for Finance and Operations. U kunt waarschuwingen gebruiken om op de hoogte te blijven over de gebeurtenissen die u wilt bijhouden tijdens de werkdag.
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="alerts-overview"></a>Overzicht van waarschuwingen
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Informatie over waarschuwingen
 Waarschuwingen vormen een meldingssysteem voor kritieke gebeurtenissen in Microsoft Dynamics 365 for Finance and Operations. U kunt waarschuwingen gebruiken om op de hoogte te blijven over de gebeurtenissen die u wilt bijhouden tijdens de werkdag. U kunt eenvoudig uw eigen set met waarschuwingsregels maken, zodat u wordt gewaarschuwd bij leveringen die te laat zijn, orders die zijn verwijderd, prijzen die veranderen of andere gebeurtenissen waarop u moet reageren.
