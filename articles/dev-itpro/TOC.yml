@@ -1014,6 +1014,8 @@
           href: deployment/apply-deployable-package-system.md
         - name: Een implementeerbaar pakket installeren
           href: deployment/install-deployable-package.md
+        - name: Een pakket verwijderen
+          href: deployment/uninstall-deployable-package.md
         - name: Problemen met pakkettoepassingen oplossen
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Upgrades, updates en hotfixes'
