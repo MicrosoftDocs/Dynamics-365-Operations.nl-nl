@@ -1653,6 +1653,7 @@
                 - name: Jaarafsluiting
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Denemarken
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Een betalingsbonindeling aan een klantrekening toewijzen
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1684,6 +1685,7 @@
                 - name: Btw-overzicht
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: Frankrijk
+              href: ../financials/localizations/france.md
               items:
                 - name: Openbare sector
                   items:
@@ -1760,6 +1762,7 @@
                 - name: Elektronische belastingaangifte instellen
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Hongarije
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Berekening wisselkoers
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1774,6 +1777,7 @@
                 - name: Jaarafsluiting
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: IJsland
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Een leverancierrekening maken en de factuuraangiftecategorie koppelen
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1784,6 +1788,7 @@
                 - name: Leveranciersfactuuraangiften bijwerken en het rapport genereren
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: Italië
+              href: ../financials/localizations/italy.md
               items:
                 - name: Details btw-overzichten
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1806,6 +1811,7 @@
                 - name: Bronbelasting
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Letland
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Boekhouding van vaste activa
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1818,6 +1824,7 @@
                 - name: Details btw-overzicht
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Litouwen
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Rapport over reparaties van vaste activa
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1828,12 +1835,14 @@
                 - name: Details btw-overzicht
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Nederland
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Elektronische belastingaangiften (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-integratie
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Noorwegen
+              href: ../financials/localizations/norway.md
               items:
                 - name: Indelingen voor klant- en leveranciersbetalingen
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1848,6 +1857,7 @@
                 - name: Implementatierichtlijnen voor kassa's
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Polen
+              href: ../financials/localizations/poland.md
               items:
                 - name: Regelkortingen berekenen op basis van eenheidsprijs
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1870,6 +1880,7 @@
                 - name: Overzicht van omzetsaldi
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: Spanje
+              href: ../financials/localizations/spain.md
               items:
                 - name: Contantkortingen toepassen in de factuur
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1898,6 +1909,7 @@
                 - name: Speciale boekingen en openingsbladen
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: Zweden
+              href: ../financials/localizations/sweden.md
               items:
                 - name: Financiële informatie voor auditoren exporteren in Zweden
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1906,10 +1918,12 @@
                 - name: Kassa's
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: Zwitserland
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: Betalingen van klant importeren in ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Verenigd Koninkrijk
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'Construction Industry Scheme '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
