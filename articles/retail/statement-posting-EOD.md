@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Als onderdeel van de nieuwe overzichtsboekingsfunctie zijn er drie nieuwe parame
 - **Telling uitschakelen vereist**: wanneer deze optie is ingesteld op **Ja**, wordt het boekingsproces voor een overzicht voortgezet, zelfs als het verschil tussen het getelde bedrag en het transactiebedrag op het overzicht buiten de drempelwaarde valt die is gedefinieerd op het sneltabblad **Overzicht** voor detailhandelswinkels.
 
 Bovendien is het veld **Maximumaantal parallelle overzichtsboekingen** geïntroduceerd op het sneltabblad **Batchverwerking**. Dit veld bepaalt het aantal batchtaken dat tegelijk moet worden uitgevoerd. Momenteel moet u de waarde van dit veld handmatig instellen.
+
+Daarnaast is het met het nieuwe boekingsproces noodzakelijk om een **geschenkbonproduct** op het sneltabblad **Geschenkbon** van het tabblad **Boeking** van de pagina **Detailhandelparameters** op te geven. Dit geldt zelfs als er geen geschenkbonnen worden gebruikt door de organisatie. 
 
 Houd er rekening mee dat alle instellingen en parameters die zijn gerelateerd aan overzichtsboekingen en die zijn gedefinieerd in detailhandelwinkels op de pagina **Parameters detailhandel**, van toepassing zijn op de verbeterde functie voor het boeken van overzichten.
 

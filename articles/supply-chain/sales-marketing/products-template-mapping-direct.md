@@ -3,7 +3,7 @@ title: Producten vanuit Finance and Operations direct synchroniseren met product
 description: In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het synchroniseren van producten vanuit Microsoft Dynamics 365 for Finance and Operations naar Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ Met het veld **Wordt extern beheerd** kunt u ervoor zorgen dat alleen offertes e
 Extern onderhouden producten worden automatisch toegevoegd aan de eerste geldige prijslijst met dezelfde valuta. Prijslijsten worden alfabetisch op naam ingedeeld. De verkoopprijs van het product uit Finance and Operations wordt gebruikt als de prijs in de prijslijst. Daarom moet er een prijslijst in Sales bestaan voor elke productverkoopvaluta in Finance and Operations. De valuta voor de vrijgegeven verkoopbare producten wordt ingesteld op de boekhoudvaluta van de rechtspersoon waaruit het product wordt uitgevoerd.
 
 > [!NOTE]
-> Productsynchronisatie lukt alleen als er een prijslijst met een overeenkomende valuta is.
+> - Productsynchronisatie lukt alleen als er een prijslijst met een overeenkomende valuta is.
+> - U kunt bepalen welke prijslijst wordt gebruikt bij de integratie door pricelevelid.name [Default Price List (Name)] in het project Gegevensintegratie toe te wijzen. Gebruik voor de invoer alleen kleine letters. De standaardwaarde voor een prijslijst in Sales met de naam ‘Standaard’ is bijvoorbeeld als volgt: Doelveld: pricelevelid.name [Default Price List (Name)] en Toewijzingstype: [ { "transformType": "Default", "defaultValue": "standaard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Voorwaarden en instellingen voor toewijzing
 
