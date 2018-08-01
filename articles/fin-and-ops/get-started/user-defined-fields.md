@@ -3,7 +3,7 @@ title: Aangepaste velden
 description: In dit onderwerp wordt beschreven hoe Microsoft Dynamics 365 for Finance and Operations sommige gebruikers toestaat aangepaste velden te maken om de toepassing aan te passen aan hun bedrijf.
 author: jasongre
 manager: AnnBe
-ms.date: 04/18/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -27,8 +27,6 @@ ms.lasthandoff: 05/23/2018
 # <a name="custom-fields"></a>Aangepaste velden
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Microsoft Dynamics 365 for Finance and Operations biedt een uitgebreide reeks kant-en-klare velden voor het beheren van een breed scala van bedrijfsprocessen, maar soms is er behoefte in een bedrijf om aanvullende informatie bij te houden in het systeem. Voor deze behoefte kunt u met Finance and Operations aangepaste velden maken om de toepassing aan te passen aan uw bedrijf, als u machtigingen hebt voor de functie. 
 

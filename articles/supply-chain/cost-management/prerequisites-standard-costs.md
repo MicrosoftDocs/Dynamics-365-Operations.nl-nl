@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ Voordat u artikelboekingsregels definieert, gebruikt u de pagina **Transactiecom
 
 **4. Definieer voorraadparameters die aan standaardkosten zijn gekoppeld.** 
 
--  Gebruik het tabblad **Stuklijsten** op de pagina **Voorraadparameters** voor het definiëren van twee kostenbeheerparameters die aan standaardkosten zijn gerelateerd. 
+-  Gebruik het tabblad **Voorraadboekhouding** op de pagina **Instelling voor boekhoudingbeleid voorraad > Parameters** voor het definiëren van twee kostenbeheerparameters die aan standaardkosten zijn gerelateerd.
 
     -  Selecteer in het veld **Kostenanalyse** **Geen** of **Subgrootboek**. Als u **Subgrootboek** selecteert, is de kostenanalyse een *actieve* kostenanalyse. Een actieve kostenanalyse is cruciaal voor het berekenen, achterhalen en weergeven van kostengroepsegmentatie over een productstructuur op meerdere niveaus voor standaardkostenartikelen. Wanneer de kostenanalyse actief is, kunt u voorraad, OHW (onderhanden werk) en kosten van verkochte goederen rapporteren en analyseren per kostengroep op één niveau, meerdere niveaus of totale indeling. Wanneer de kostenanalyse actief is en u kosten van een gefabriceerd artikel activeert, wordt de kostengroepsegmentatie opgeslagen in de kostenrecord van het artikel. 
 

@@ -1,16 +1,16 @@
 ---
 title: Budgetplanning
-description: "Het doel van dit lab is om Microsoft Dynamics 365 for Finance and Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.  Dit lab is specifiek gericht op de volgende bedrijfsprocessen of taken: - Een organisatiehiërarchie maken voor budgetplanning en gebruikersbeveiliging configureren - Budgetplanningscenario's, budgetplanningskolommen, indelingen en Excel-sjablonen definiëren - Budgetplanningsproces maken en activeren - Een budgetplanningsdocument maken door werkelijke waarden uit het grootboek te halen - Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen - Gegevens voor budgetplanningsdocumenten bewerken in Excel"
-author: twheeloc
+description: Het doel van dit lab is om Microsoft Dynamics 365 for Finance and Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,7 +30,13 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Het doel van dit lab is om Microsoft Dynamics 365 for Finance and Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.  Dit lab is specifiek gericht op de volgende bedrijfsprocessen of taken: - Een organisatiehiërarchie maken voor budgetplanning en gebruikersbeveiliging configureren - Budgetplanningscenario's, budgetplanningskolommen, indelingen en Excel-sjablonen definiëren - Budgetplanningsproces maken en activeren - Een budgetplanningsdocument maken door werkelijke waarden uit het grootboek te halen - Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen - Gegevens voor budgetplanningsdocumenten bewerken in Excel 
+Het doel van dit lab is om Microsoft Dynamics 365 for Finance and Operations-functionaliteitsupdates in het gebied Budgetplanning te laten zien. Het doel van dit lab is om een snel configuratievoorbeeld van de budgetplanningsmodule te laten zien en aan te tonen hoe budgetplanning kan worden gerealiseerd met deze configuratie.  Dit lab is specifiek gericht op de volgende bedrijfsprocessen of taken:
+- Een organisatiehiërarchie maken voor budgetplanning en gebruikersbeveiliging configureren
+- Budgetplanningsscenario's, budgetplanningskolommen, indelingen en Excel-sjablonen definiëren
+- Een budgetplanningsproces maken en activeren
+- Een budgetplanningsdocument maken door werkelijke waarden uit het grootboek te halen
+- Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen
+- Gegevens voor budgetplanningsdocumenten bewerken in Excel 
 
 <a name="prerequisites"></a>Vereisten 
 ------------------
@@ -104,8 +110,6 @@ In budgetplanning worden speciale beveiligingsbeleidsregels gebruikt om toegang 
 2.5. Selecteer “Toegang toewijzen aan specifieke organisaties”. Selecteer de organisatiehiërarchie die in de eerste stap is gemaakt. Selecteer het financiële knooppunt en klik op de knop Toewijzen met onderliggende organisaties 
 
 ***Belangrijk!*** *Zorg ervoor dat u zich in DEMF-rechtspersooncontext bevindt bij het uitvoeren van deze taak aangezien organisatorische beveiliging wordt toegepast per rechtspersoon* 
-
-[![Toegang verlenen](./media/screenshot14.png)](./media/screenshot14.png)
 
 ### <a name="task-3-create-scenarios"></a>Taak 3: Scenario's maken
 3.1. Navigeer naar Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configuratie budgetplanning. Noteer op de pagina Scenario's de scenario's die we verder gaan gebruiken in dit lab: werkelijke en gebudgetteerde waarden van vorig jaar. 
