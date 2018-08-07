@@ -1,7 +1,7 @@
 ---
 title: Prognosepositie
 description: De onkosten die aan werknemers zijn gerelateerd vormen vaak een grote deel van de kosten van een organisatie. Positie voorspellen laat u die onkosten plannen en deze opnemen in de planning van budgetten.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmPositionForecast
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91

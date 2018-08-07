@@ -1,7 +1,7 @@
 ---
 title: Startpagina Hoofdplanning
 description: Met Hoofdplanning kunnen bedrijven de toekomstige behoefte aan grondstoffen en capaciteit bepalen en afstemmen om de doelstellingen van het bedrijf te halen.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 

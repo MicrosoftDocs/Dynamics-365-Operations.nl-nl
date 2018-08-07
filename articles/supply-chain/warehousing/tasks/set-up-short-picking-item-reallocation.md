@@ -1,7 +1,7 @@
 --- 
 title: Artikelhertoewijzing voor kort orderverzamelen instellen
 description: Deze procedure laat zien hoe magazijnmedewerkers snel andere locaties kunnen vinden als er onvoldoende voorraad is voor de locatie waaraan ze zijn toegewezen.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
