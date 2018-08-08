@@ -1,7 +1,7 @@
 --- 
 title: Een locatieprofiel maken
 description: Elke locatie in het magazijn moet een locatieprofiel hebben dat eraan is gekoppeld en dat de eigenschappen beschrijft van de locatie, bijvoorbeeld of de locatie gemengde artikelen toestaat.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/13/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6cd6b2bfa7d2d9dd74f549905d92bf3a2c16849c
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 8fd43a80727e67ab57e2cf1f9ee1118299b38948
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-location-profile"></a><span data-ttu-id="cde1f-103">Een locatieprofiel maken</span><span class="sxs-lookup"><span data-stu-id="cde1f-103">Create a location profile</span></span>

@@ -1,7 +1,7 @@
 --- 
 title: Een afspraak voor een lading instellen
 description: Deze procedure laat zien hoe u een dockafspraak voor een lading instelt en plant.
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/13/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: dd3d51d11299818ad547f42c1a99874d9c9033d4
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: ca00d466eebb1ff9ceaf3b20dfb9006b86abc809
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-an-appointment-for-a-load"></a><span data-ttu-id="4f466-103">Een afspraak voor een lading instellen</span><span class="sxs-lookup"><span data-stu-id="4f466-103">Set up an appointment for a load</span></span>

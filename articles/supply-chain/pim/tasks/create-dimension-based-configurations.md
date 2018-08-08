@@ -1,7 +1,7 @@
 --- 
 title: Op dimensies gebaseerde configuraties maken
 description: Deze procedure laat zien hoe u een configuratie voor een op dimensies gebaseerd product definieert.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/21/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 55f69d75b7b00eb640eb3fff5eda28a420fa84ad
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 4ef6abd9054fdf6562eed8bd7c604d8a51cf28e3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-dimension-based-configurations"></a><span data-ttu-id="f4a39-103">Op dimensies gebaseerde configuraties maken</span><span class="sxs-lookup"><span data-stu-id="f4a39-103">Create dimension-based configurations</span></span>

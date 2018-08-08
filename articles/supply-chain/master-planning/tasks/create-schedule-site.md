@@ -1,7 +1,7 @@
 --- 
 title: Een planning voor een vestiging maken
 description: Deze procedure laat zien hoe u productieorders plant die nog niet voor een vestiging zijn gestart.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/10/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: dc3d6790e6fde3efac948773996894daa0be4143
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 0afc49f8da3aa20d4002517834b7ddc41a7fc827
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-schedule-for-a-site"></a><span data-ttu-id="4c506-103">Een planning voor een vestiging maken</span><span class="sxs-lookup"><span data-stu-id="4c506-103">Create a schedule for a site</span></span>

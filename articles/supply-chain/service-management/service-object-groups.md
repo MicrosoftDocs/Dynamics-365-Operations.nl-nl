@@ -1,7 +1,7 @@
 ---
 title: Serviceobjectgroepen
 description: Objectgroepen zijn handig voor het sorteren en filteren van de gegevens over objecten voor rapporten en statistieken.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceObjectGroups
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2ab3ed8a8f36f980473b17b5dfed8cb3d0054253
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: bc5b1bf93deaf60a3c6384671ad575c73871eb35
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
