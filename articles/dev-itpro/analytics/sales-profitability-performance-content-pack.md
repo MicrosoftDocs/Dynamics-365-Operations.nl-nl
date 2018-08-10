@@ -1,7 +1,7 @@
 ---
 title: Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid
 description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Verkoop- en winstgevendheidsprestaties. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot de Power BI-rapporten en wordt informatie gegeven over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article

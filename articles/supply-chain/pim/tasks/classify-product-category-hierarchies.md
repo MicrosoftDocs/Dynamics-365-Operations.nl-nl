@@ -1,7 +1,7 @@
 --- 
 title: "Een product door middel van categoriehiërarchiën classificeren"
 description: "Met categoriehiërarchieën worden producten geclassificeerd voor export, inkoop, verkoop of andere doeleinden."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing

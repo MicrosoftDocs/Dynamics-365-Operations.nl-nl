@@ -1,7 +1,7 @@
 --- 
 title: "Gedeeltelijk locatieproces voor cyclustelling definiëren "
 description: Wanneer u cyclustellingsplannen gebruikt om telwerk te maken, kunt u de werkelijke telbewerkingen leiden door aan te vragen dat alleen specifieke producten en productvarianten worden geteld in plaats van alle voorhanden voorraad op de locatie.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
@@ -9,10 +9,10 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

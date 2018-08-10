@@ -1,7 +1,7 @@
 ---
 title: Btw-overzicht
 description: In dit onderwerp vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d

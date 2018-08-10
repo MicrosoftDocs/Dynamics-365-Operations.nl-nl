@@ -1,7 +1,7 @@
 ---
 title: Upgradeoverzicht van afschrijvingsboeken
 description: "In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In Microsoft Dynamics 365 for Operations (1611) zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept met de naam boek. Dit onderwerp bevat enkele overwegingen voor de upgrade."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39

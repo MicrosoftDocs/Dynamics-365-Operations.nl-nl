@@ -1,7 +1,7 @@
 --- 
 title: Containervorming instellen
 description: Met deze procedure wordt beschreven hoe u de containervorming van ladingen in Magazijnbeheer kunt automatiseren.
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
