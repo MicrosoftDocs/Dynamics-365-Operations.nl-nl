@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2018
 U kunt de resultaten van ER-indelingen traceren die uitgaande elektronische documenten genereren. Wanneer het genereren van tracering is ingeschakeld (ER-gebruikersparameter **Uitvoeren in foutoplossingsmodus**), wordt een nieuwe tracerecord gegenereerd in het uitvoeringslogboek met ER-indeling, elke keer dat een ER-rapport wordt uitgevoerd. De volgende gegevens worden opgeslagen in elke trace die wordt gegenereerd:
 
 - Alle waarschuwingen die zijn gegenereerd door validatieregels
-- Alle fouten die zijn gegenereerd door validatieregels 
+- Alle fouten die zijn gegenereerd door validatieregels
 - Alle gegenereerde bestanden die zijn opgeslagen als bijlagen van de traceringsrecord
 
 U kunt afzonderlijke basislijntoepassingsbestanden voor een bepaalde ER-indeling opslaan. Bestanden worden als basislijnbestanden beschouwd wanneer ze de verwachte resultaten beschrijven van rapporten die worden uitgevoerd. Als een basislijnbestand beschikbaar is voor een ER-indeling die werd uitgevoerd terwijl het genereren van tracering was ingeschakeld, slaat de trace, naast de gegevens die reeds eerder zijn vermeld, het resultaat op van de vergelijking van het gegenereerde elektronische document met het basislijnbestand. Met één klik kunt u ook het gegenereerde elektronische document en het basislijnbestand in een enkel zip-bestand krijgen. Vervolgens kunt u een gedetailleerde vergelijking uitvoeren met behulp van een extern hulpprogramma zoals Windiff.
