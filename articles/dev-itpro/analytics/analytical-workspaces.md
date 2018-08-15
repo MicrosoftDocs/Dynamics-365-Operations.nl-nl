@@ -16,10 +16,10 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ee1a2d26c281086ac6dbe2e1693efc85a0c5b84b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [<span data-ttu-id="03dc7-107">Power BI-inhoud CFO-overzicht</span><span class="sxs-lookup"><span data-stu-id="03dc7-107">CFO overview Power BI content</span></span>](CFO-power-bi.md)
 - [<span data-ttu-id="03dc7-108">Power BI-inhoud Compensatie</span><span class="sxs-lookup"><span data-stu-id="03dc7-108">Compensation Power BI content</span></span>](compensation-power-bi.md)
 - [<span data-ttu-id="03dc7-109">Power BI-inhoud Analyse van kostprijsboekhouding</span><span class="sxs-lookup"><span data-stu-id="03dc7-109">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="03dc7-110">Power BI-inhoud voor kostenbeheer</span><span class="sxs-lookup"><span data-stu-id="03dc7-110">Cost management Power BI content</span></span>](cost-management-content-pack.md)    
+- [<span data-ttu-id="03dc7-110">Power BI-inhoud voor kostenbeheer</span><span class="sxs-lookup"><span data-stu-id="03dc7-110">Cost management Power BI content</span></span>](cost-management-content-pack.md)
 - [<span data-ttu-id="03dc7-111">Power BI-inhoud Crediterings- en aanmaningsbeheer</span><span class="sxs-lookup"><span data-stu-id="03dc7-111">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [<span data-ttu-id="03dc7-112">Power BI-inhoud Werknemerontwikkeling</span><span class="sxs-lookup"><span data-stu-id="03dc7-112">Employee development Power BI content</span></span>](employee-development-PBI.md) 
 - [<span data-ttu-id="03dc7-113">Power BI-inhoud Financial Insights</span><span class="sxs-lookup"><span data-stu-id="03dc7-113">Financial insights Power BI content</span></span>](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [<span data-ttu-id="03dc7-121">Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid</span><span class="sxs-lookup"><span data-stu-id="03dc7-121">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
 - [<span data-ttu-id="03dc7-122">Power BI-inhoud Leveranciersbetalingen</span><span class="sxs-lookup"><span data-stu-id="03dc7-122">Vendor payments Power BI content</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [<span data-ttu-id="03dc7-123">Power BI-inhoud voor magazijnprestaties</span><span class="sxs-lookup"><span data-stu-id="03dc7-123">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="03dc7-124">Power BI-inhoud voor metrische gegevens over personeel</span><span class="sxs-lookup"><span data-stu-id="03dc7-124">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)  
+- [<span data-ttu-id="03dc7-124">Power BI-inhoud voor metrische gegevens over personeel</span><span class="sxs-lookup"><span data-stu-id="03dc7-124">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)
 
