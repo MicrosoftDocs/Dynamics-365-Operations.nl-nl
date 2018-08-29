@@ -1,47 +1,51 @@
-- name: Dynamics 365 for Talent
+- name: Welkom bij Dynamics 365 for Talent
   href: index.md
   items:
     - name: Aan de slag
       href: talent-get-started.md
       items:
+        - name: Wat is nieuw of gewijzigd
+          items:
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (juli 2018)
+              href: whats-new-talent-july2018.md
         - name: Systeemvereisten en updatebeleid
           href: talent-versions-update-policy.md
-        - name: Microsoft Dynamics 365 for Talent inrichten
+        - name: Talent inrichten
           href: provisioning-talent.md
-        - name: Een Talent-omgeving verwijderen
+        - name: Talent-omgevingen verwijderen
           href: remove-talent-environment.md
-        - name: Modulaire apps voor Microsoft Dynamics 365 for Talent inrichten
+        - name: De modulaire Talent-apps inrichten
           href: modular-app-tech-faq.md
         - name: Functionaliteit Talent uitbreiden
           href: extend-talent-functionality.md
-        - name: Toegang tot voorbeeldfuncties in Dynamics 365 for Talent
+        - name: Toegang tot voorbeeldfuncties
           href: access-preview-feature.md
-        - name: Talent configureren om de integratie van de salarisadministratie te ondersteunen
+        - name: De integratie van de salarisadministratie tussen Talent en Dayforce configureren
           href: configure-payroll-integration.md
-    - name: Een strategie voor Human resources ontwikkelen
+    - name: 'Uw werknemers organiseren met afdelingen, taken en posities'
       href: departments-jobs-positions.md
       items:
-        - name: Taakonderdelen instellen
+        - name: De onderdelen van een taak instellen
           href: create-job.md
-        - name: Een afdeling maken en koppelen aan de afdelingshiërarchie
+        - name: Afdelingen maken en deze opnemen in de afdelingenhiërarchie
           href: create-department-add-department-hierarchy.md
         - name: HR-parameters instellen voor rechtspersonen
           href: set-up-hr-parameters-across-legal-entities.md
         - name: Bedrijfsspecifieke HR-parameters instellen
           href: set-up-company-specific-hr-parameters.md
-        - name: FAQ over personeelsacties
+        - name: Veelgestelde vragen over personeelsacties
           href: personnel-actions-faq.md
         - name: Bedrijfsprocessen formaliseren
           href: formalize-business-processes.md
-        - name: Werkstroom gebruiken om werknemersgegevens te beheren
+        - name: Workflows gebruiken om werknemersgegevens te beheren
           href: workflow-manage-employee-information.md
-        - name: Overzicht van verlof en verzuim
+        - name: Beheer van verlof en verzuim
           href: leave-absence-overview.md
     - name: Personeelswerving in uw organisatie
       items:
-        - name: Overzicht van Attract
+        - name: Functies en voorzieningen van Attract
           href: attract-overview.md
-        - name: Overzicht van Onboard
+        - name: Een aantrekkelijke onboarding-ervaring maken
           href: create-onboarding-experience.md
     - name: Medewerkers motiveren
       items:
@@ -55,13 +59,13 @@
           href: process-compensation.md
     - name: Werknemers ontwikkelen en trainen
       items:
-        - name: Overzicht van prestatiebeheer
+        - name: Prestatiebeheer
           href: performance-management-overview.md
         - name: Personeelsvaardigheden afstemmen op zakelijke behoeften
           href: skills.md
         - name: Trainingscursussen instellen
           href: courses.md
-    - name: Vergoedingen maken en onderhouden
+    - name: Een vergoedingenprogramma definiëren en beheren
       href: manage-benefit-program.md
     - name: Beleid voor geschiktheid vergoedingen
       href: benefit-eligibility-policies.md
@@ -71,17 +75,134 @@
     - name: Gegevens verzamelen via vragenlijsten
       href: questionnaires.md
       items:
-        - name: Een vragenlijst ontwerpen
+        - name: Vragenlijsten ontwerpen
           href: design-questionnaires.md
-        - name: Een vragenlijst verspreiden en invullen
+        - name: Vragenlijsten plannen en distribueren
           href: distribute-questionnaires.md
-        - name: De resultaten van een vragenlijst evalueren
+        - name: De resultaten van vragenlijsten bekijken en evalueren
           href: evaluate-questionnaire-results.md
     - name: Veiligheid en conformiteit op de werkplek (Verenigde Staten)
       items:
         - name: Reageren op een aanvraag voor persoonlijke gegevens met behulp van Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Verificatie van implementatie van formulier I-9
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Voldoen aan de ADA
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Intelligence
+      items:
+        - name: Embedded Power BI in werkgebieden
+          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Mobiele app
+      items:
+        - name: Mobiele werkgebieden
+          items:
+            - name: Adresboek van bedrijf
+              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Mijn team
+              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Mobiel werkgebied publiceren
+          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Office-integratie
+      items:
+        - name: Zelfstudie Office-integratie
+          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: De Excel-invoegtoepassing gebruiken
+          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Ervaringen met Openen in Excel maken
+          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Problemen met Office-integratie oplossen
+          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Organisatiebeheer
+      items:
+        - name: Nummerreeksen
+          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Nummerreeksen instellen op een individuele basis
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Nummerreeksen instellen met een wizard
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Organisaties en organisatiehiërarchieën
+          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Uw organisatiehiërarchie plannen
+              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Een organisatiehiërarchie maken
+              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Een rechtspersoon maken
+              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Een operationele eenheid maken
+              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Globaal adresboek
+          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: De configuratie van het globale adresboek plannen
+              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Het globale adresboek configureren
+              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Veelgestelde vragen over adresboeken
+              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Workflow
+          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Workflowelementen
+              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Workflowacties
+              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Een workflow maken
+              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+              items:
+                - name: Workfloweigenschappen configureren
+                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een handmatige taak configureren
+                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een geautomatiseerde taak configureren
+                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een goedkeuringsproces configureren
+                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een goedkeuringsstap configureren
+                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een handmatige beslissing configureren
+                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een voorwaardelijke beslissing configureren
+                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een parallelle activiteit configureren
+                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een parallelle vertakking configureren
+                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Een workflow voor regelartikelen configureren
+                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: De batchtaak voor workflowberichtverwerking configureren
+              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Werkitems in een workflow delegeren
+              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Workflowhistorie bekijken
+              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Gebruikers toestaan om e-mailberichten te ontvangen die betrekking hebben op de workflow
+              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Waarschuwingen
+          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Waarschuwingen maken
+              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Batchverwerking voor waarschuwingen
+              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Casebeheer
+          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: 'Casebeveiliging, -processen en -categorieën configureren'
+              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Documentbeheer configureren
+          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: E-mail configureren en verzenden
+          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Datum-/tijdgegevens en tijdzones
+          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Taken voor Human resources
+      items:
+        - name: Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden
+          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Een doelstelling maken
+          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Een prestatiebeoordeling maken
+          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json

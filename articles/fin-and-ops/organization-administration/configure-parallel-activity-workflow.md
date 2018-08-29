@@ -1,5 +1,5 @@
 ---
-title: Een parallelle activiteit in een workflow configureren
+title: Parallelle activiteiten in een workflow configureren
 description: Voer de volgende procedures uit in de workfloweditor om een parallelle activiteit te configureren.
 author: sericks007
 manager: AnnBe
@@ -18,39 +18,39 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3e0cf27c7932415c822843b3376894ba172578b9
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 64cd387f8a6ab693d159cd659fca51fa6568ee39
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a><span data-ttu-id="28230-103">Een parallelle activiteit in een workflow configureren</span><span class="sxs-lookup"><span data-stu-id="28230-103">Configure a parallel activity in a workflow</span></span>
+# <a name="configure-parallel-activities-in-a-workflow"></a><span data-ttu-id="d1007-103">Parallelle activiteiten in een workflow configureren</span><span class="sxs-lookup"><span data-stu-id="d1007-103">Configure parallel activities in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="28230-104">Voer de volgende procedures uit in de workfloweditor om een parallelle activiteit te configureren.</span><span class="sxs-lookup"><span data-stu-id="28230-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
+<span data-ttu-id="d1007-104">Voer de volgende procedures uit in de workfloweditor om een parallelle activiteit te configureren.</span><span class="sxs-lookup"><span data-stu-id="d1007-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
 
-<span data-ttu-id="28230-105">Een parallelle activiteit bestaat uit workflowvertakkingen die op hetzelfde moment worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="28230-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
+<span data-ttu-id="d1007-105">Een parallelle activiteit bestaat uit workflowvertakkingen die op hetzelfde moment worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="d1007-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
 
-## <a name="name-a-parallel-activity"></a><span data-ttu-id="28230-106">Een parallelle activiteit een naam geven</span><span class="sxs-lookup"><span data-stu-id="28230-106">Name a parallel activity</span></span>
-<span data-ttu-id="28230-107">Voer deze stappen uit om een naam op te geven voor een parallelle activiteit.</span><span class="sxs-lookup"><span data-stu-id="28230-107">Follow these steps to enter a name for a parallel activity.</span></span>
-1.  <span data-ttu-id="28230-108">Klik met de rechtermuisknop op de parallelle activiteit en klik op **Eigenschappen** om het formulier **Eigenschappen** te openen.</span><span class="sxs-lookup"><span data-stu-id="28230-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
-2.  <span data-ttu-id="28230-109">Klik in het linkerdeelvenster op **Basisinstellingen**.</span><span class="sxs-lookup"><span data-stu-id="28230-109">In the left pane, click **Basic Settings**.</span></span>
-3.  <span data-ttu-id="28230-110">Voer in het veld **Naam** een unieke naam voor de parallelle activiteit in.</span><span class="sxs-lookup"><span data-stu-id="28230-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
-4.  <span data-ttu-id="28230-111">Klik op **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="28230-111">Click **Close**.</span></span>
+## <a name="name-a-parallel-activity"></a><span data-ttu-id="d1007-106">Een parallelle activiteit een naam geven</span><span class="sxs-lookup"><span data-stu-id="d1007-106">Name a parallel activity</span></span>
+<span data-ttu-id="d1007-107">Voer deze stappen uit om een naam op te geven voor een parallelle activiteit.</span><span class="sxs-lookup"><span data-stu-id="d1007-107">Follow these steps to enter a name for a parallel activity.</span></span>
+1.  <span data-ttu-id="d1007-108">Klik met de rechtermuisknop op de parallelle activiteit en klik op **Eigenschappen** om het formulier **Eigenschappen** te openen.</span><span class="sxs-lookup"><span data-stu-id="d1007-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
+2.  <span data-ttu-id="d1007-109">Klik in het linkerdeelvenster op **Basisinstellingen**.</span><span class="sxs-lookup"><span data-stu-id="d1007-109">In the left pane, click **Basic Settings**.</span></span>
+3.  <span data-ttu-id="d1007-110">Voer in het veld **Naam** een unieke naam voor de parallelle activiteit in.</span><span class="sxs-lookup"><span data-stu-id="d1007-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
+4.  <span data-ttu-id="d1007-111">Klik op **Sluiten**.</span><span class="sxs-lookup"><span data-stu-id="d1007-111">Click **Close**.</span></span>
 
-## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="28230-112">De takken van een parallelle activiteit configureren</span><span class="sxs-lookup"><span data-stu-id="28230-112">Configure the branches of a parallel activity</span></span>
-<span data-ttu-id="28230-113">Voer deze stappen uit om de vertakkingen van deze parallelle activiteit toe te voegen en te configureren.</span><span class="sxs-lookup"><span data-stu-id="28230-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
-1. <span data-ttu-id="28230-114">Dubbelklik op de parallelle activiteit om de vertakkingen van de parallelle activiteit weer te geven.</span><span class="sxs-lookup"><span data-stu-id="28230-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
-2. <span data-ttu-id="28230-115">Om een vertakking toe te voegen, sleept u het element **Vertakking** van het gebied **Workflowelementen** naar een invoegpunt op het tekenpapier.</span><span class="sxs-lookup"><span data-stu-id="28230-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="28230-116">De volgende afbeelding geeft een invoegpunt weer.![Invoegpunt](./media/workflow_insertionpoint.gif)</span><span class="sxs-lookup"><span data-stu-id="28230-116">The following figure shows an insertion point.![Insertion point](./media/workflow_insertionpoint.gif)</span></span>
+## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="d1007-112">De takken van een parallelle activiteit configureren</span><span class="sxs-lookup"><span data-stu-id="d1007-112">Configure the branches of a parallel activity</span></span>
+<span data-ttu-id="d1007-113">Voer deze stappen uit om de vertakkingen van deze parallelle activiteit toe te voegen en te configureren.</span><span class="sxs-lookup"><span data-stu-id="d1007-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
+1. <span data-ttu-id="d1007-114">Dubbelklik op de parallelle activiteit om de vertakkingen van de parallelle activiteit weer te geven.</span><span class="sxs-lookup"><span data-stu-id="d1007-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
+2. <span data-ttu-id="d1007-115">Om een vertakking toe te voegen, sleept u het element **Vertakking** van het gebied **Workflowelementen** naar een invoegpunt op het tekenpapier.</span><span class="sxs-lookup"><span data-stu-id="d1007-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="d1007-116">De volgende afbeelding geeft een invoegpunt weer.![Invoegpunt](./media/workflow_insertionpoint.gif)</span><span class="sxs-lookup"><span data-stu-id="d1007-116">The following figure shows an insertion point.![Insertion point](./media/workflow_insertionpoint.gif)</span></span>
 
-   |                                              <span data-ttu-id="28230-117"><strong>Opmerking</strong></span><span class="sxs-lookup"><span data-stu-id="28230-117"><strong>Note</strong></span></span>                                               |
+   |                                              <span data-ttu-id="d1007-117"><strong>Opmerking</strong></span><span class="sxs-lookup"><span data-stu-id="d1007-117"><strong>Note</strong></span></span>                                               |
    |------------------------------------------------------------------------------------------------------------------|
-   | <span data-ttu-id="28230-118">De volgorde van de vertakkingen is niet belangrijk, omdat alle vertakkingen van een parallelle activiteit op hetzelfde moment worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="28230-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span> |
+   | <span data-ttu-id="d1007-118">De volgorde van de vertakkingen is niet belangrijk, omdat alle vertakkingen van een parallelle activiteit op hetzelfde moment worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="d1007-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span> |
 
 
-3. <span data-ttu-id="28230-119">Zie voor configureren van elke vertakking [Een parallelle vertakking configureren](configure-parallel-branch-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="28230-119">To configure each branch, see [Configure a parallel branch](configure-parallel-branch-workflow.md).</span></span>
+3. <span data-ttu-id="d1007-119">Zie voor configureren van elke vertakking [Een parallelle vertakking configureren](configure-parallel-branch-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="d1007-119">To configure each branch, see [Configure a parallel branch](configure-parallel-branch-workflow.md).</span></span>
 
 
 

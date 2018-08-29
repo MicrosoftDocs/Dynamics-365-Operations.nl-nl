@@ -12,7 +12,7 @@
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Vergelijking van functies tussen cloud en on-premises
               href: get-started/cloud-prem-comparison.md
-            - name: Een implementatieoptie kiezen
+            - name: Implementatieopties
               href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Cloudimplementatie
@@ -23,7 +23,7 @@
                   href: ../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/fin-and-ops/toc.json
                 - name: Systeemvereisten voor on-premises implementaties
                   href: get-started/system-requirements-on-prem.md
-                - name: Magazijnbeheer voor on-premises implementaties
+                - name: Magazijnbeheer configureren voor on-premises implementaties
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
             - name: Standaard- en gerichte platformversies
               href: get-started/public-preview-releases.md
@@ -44,11 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Functies die niet zijn geïmplementeerd in On-premises implementaties
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations 8.0 (april 2018)
+            - name: Finance and Operations versie 8.0 (april 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (maart 2018)
               href: get-started/whats-new-platform-update-15.md
-            - name: On-premises implementaties van 7.2 met platformupdate 12 (maart 2018)
+            - name: 'On-premises implementaties van Finance and Operations, Enterprise edition 7.2 met platform update 12 (maart 2018)'
               href: get-started/whats-new-LBD-PU12-App72.md
             - name: 'Finance and Operations, Enterprise edition 7.3'
               href: get-started/whats-new-application-7.3-update.md
@@ -82,7 +82,7 @@
               href: get-started/whats-new-changed-application-version-7-0-1-may-2016.md
             - name: Platform update 1 (mei 2016)
               href: get-started/whats-new-changed-platform-version-7-1-may-2016.md
-            - name: Dynamics AX 7.0 (februari 2016)
+            - name: AX 7.0 (februari 2016)
               href: get-started/whats-new-changed-7-0-february-2016.md
             - name: Bijgewerkte taakbegeleidingen
               items:
@@ -100,7 +100,7 @@
           items:
             - name: Toegankelijkheidsopties
               href: get-started/accessibility-features.md
-            - name: Veelgestelde vragen over de client-UI
+            - name: FAQ client
               href: get-started/client-faq.md
             - name: Actiezoekopdracht
               href: get-started/action-search.md
@@ -108,23 +108,23 @@
               href: get-started/advanced-filtering-query-options.md
             - name: Werkgebieden configureren en filteren
               href: get-started/configure-filter-workspaces.md
-            - name: Pagina's naast elkaar weergeven met het pictogram Openen in nieuw venster
+            - name: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
               href: get-started/display-pages-side-by-side.md
             - name: Sneltoetsen
               href: get-started/shortcut-keys.md
-            - name: Banner of logo wijzigen
+            - name: De banners of logo's voor rechtspersonen wijzigen
               href: get-started/tasks/change-banner-or-logo.md
             - name: Navigatiezoekfunctie
               href: get-started/navigation-search.md
             - name: De gebruikerservaring aanpassen
               href: get-started/personalize-user-experience.md
-            - name: Aangepaste velden
+            - name: Maken en werken met aangepaste velden
               href: get-started/user-defined-fields.md
             - name: PowerApps insluiten
               href: get-started/embed-power-apps.md
-            - name: Zoekopdrachten gebruiken om informatie te vinden
+            - name: Informatie vinden met zoekopdrachten
               href: get-started/use-lookups-to-find-information.md
-            - name: De datum van de sessie wijzigen
+            - name: De datum van een sessie wijzigen
               href: organization-administration/tasks/change-date-session.md
             - name: De voorkeurstijdzone van een gebruiker instellen
               href: organization-administration/tasks/set-users-preferred-time-zone.md
@@ -132,9 +132,9 @@
               href: ../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json
         - name: De documentatie lezen en uitvoeren
           items:
-            - name: Help-overzicht
+            - name: Help-systeem
               href: get-started/help-overview.md
-            - name: Help verbinden
+            - name: Het Help-systeem verbinden
               href: get-started/help-connect.md
             - name: Veldomschrijvingen weergeven en exporteren
               href: get-started/view-export-field-descriptions.md
@@ -146,16 +146,16 @@
                   href: ../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/fin-and-ops/toc.json
             - name: Woordenlijst
               href: get-started/glossary.md
-        - name: Video's voor Dynamics 365 for Finance and Operations
+        - name: Video's voor Finance and Operations
           href: get-started/videos.md
-    - name: De levenscyclus van de implementatie begrijpen
+    - name: Implementatie levenscyclusbeheer
       href: imp-lifecycle/implementation-lifecycle.md
       items:
         - name: Architectuur voor Finance and Operations
           href: imp-lifecycle/architecture-overview.md
-        - name: Microsoft FastTrack for Dynamics 365
+        - name: Microsoft FastTrack voor Finance and Operations
           href: get-started/fasttrack-dynamics-365-overview.md
-        - name: Onboarding
+        - name: Een implementatieproject onboarden
           href: imp-lifecycle/onboard.md
         - name: Voorbereiden voor go-live
           href: imp-lifecycle/prepare-go-live.md
@@ -163,15 +163,15 @@
           href: imp-lifecycle/go-live-faq.md
         - name: Een serviceaanvraag indienen
           href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
-        - name: 'Veelgestelde vragen over abonnementen, LCS-projecten en Azure Active Directory-tenants'
+        - name: 'Veelgestelde vragen over abonnementen, LCS-projecten en Azure AD-tenants'
           href: get-started/subscription-overview.md
         - name: Omgevingen verplaatsen tussen datacenters
           href: get-started/move-environments-data-center.md
         - name: Licenties verplaatsen tussen typen overeenkomsten
           href: get-started/move-licenses-between-agreement-types.md
-        - name: Een LCS-implementatieproject verplaatsen naar een andere Azure Active Directory-tenant
+        - name: LCS-implementatieprojecten verplaatsen naar verschillende Azure AD-tenants
           href: get-started/move-lcs-implementation-project-tenant.md
-        - name: Meerdere LCS-projecten en productieomgevingen implementeren op dezelfde Azure Active Directory-tenant
+        - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Conformiteit
       items:
@@ -347,8 +347,23 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Externe webservices gebruiken
-              href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+                - name: Project Service Automation-integratie configureren
+                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                  items:
+                    - name: Project Service Automation-integratieparameters
+                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Projectcontracten en projecten synchroniseren
+                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Projecttaken synchroniseren
+                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                    - name: Onkostencategorieën project synchroniseren
+                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Projectramingen synchroniseren met projectprognoses
+                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Werkelijke projectwaarden synchroniseren met het projectintegratiejournaal
+                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                - name: Externe webservices gebruiken
+                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Gegevensbeheer
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -357,7 +372,7 @@
           items:
             - name: Configuratie gegevensprojecten
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
-            - name: Configuratiegegevens kopiëren tussen bedrijven
+            - name: Configuratiegegevens kopiëren tussen bedrijven of rechtspersonen
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Configuratiegegevenspakketten (alleen voor de release van juli 2017)
@@ -383,7 +398,7 @@
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Eigenschappen van gegevensentiteit
               href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/fin-and-ops/toc.json
-            - name: Berekeningskolommen en virtuele velden maken
+            - name: Berekende kolommen en virtuele velden maken
               href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/fin-and-ops/toc.json
             - name: Gedrag voor meerdere bedrijven
               href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/fin-and-ops/toc.json
@@ -468,6 +483,8 @@
                   href: ../financials/cash-bank-management/configure-settlement.md
                 - name: Werkgebied voor betalingen aan leveranciers
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
+                - name: Een indirecte wisselkoers opgeven
+                  href: ../financials/accounts-payable/specify-cross-rate.md
                 - name: Bijzondere kosten voor leveranciersbetalingen definiëren
                   href: ../financials/accounts-payable/tasks/define-vendor-payment-fees.md
                 - name: Voorwaarden voor leveranciersbetalingen definiëren
@@ -588,11 +605,11 @@
         - name: Budgettering
           href: ../financials/budgeting/budgeting-overview.md
           items:
-            - name: 'Overzicht budgetplanning '
+            - name: Overzicht budgetplanning
               href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Overzicht budgetbeheer '
+            - name: Overzicht budgetbeheer
               href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Budgetteringsoverzicht  '
+            - name: 'Budgetteringsoverzicht '
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Prognosepositie
               href: ../financials/budgeting/position-forecasting.md
@@ -622,7 +639,7 @@
             - name: Contantkortingen voor overbetalingen
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
             - name: Vereffeningsoverzicht
-              href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
+              href: ../financials/cash-bank-management/settlement-overview.md
             - name: Vereffeningsoverzicht voor gecentraliseerde betalingen
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: Kredietbrieven
@@ -700,6 +717,8 @@
               href: ../financials/general-ledger/financial-dimensions.md
             - name: Rekeningstructuren
               href: ../financials/general-ledger/Default-dimensions.md
+            - name: Financiële dimensies toevoegen aan het CFO-werkgebied
+              href: ../financials/general-ledger/CFO-workspace.md
             - name: Rekeningstructuren maken
               href: ../financials/general-ledger/tasks/create-account-structures.md
             - name: Budgetteringsoverzicht
@@ -830,6 +849,8 @@
                   href: ../financials/fixed-assets/fixed-asset-integration.md
             - name: Afschrijvingsmethoden
               items:
+                - name: Afschrijvingsconventies
+                  href: ../financials/fixed-assets/Fixed-asset-depreciation-conventions.md
                 - name: Degressieve afschrijving van 125 procent
                   href: ../financials/fixed-assets/125-percent-reducing-balance-depreciation.md
                 - name: Degressieve afschrijving van 150 procent
@@ -886,7 +907,7 @@
                   href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
                 - name: Bonusafschrijving instellen
                   href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'Afschrijvingsboeken instellen  '
+                - name: 'Afschrijvingsboeken instellen '
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
                 - name: Afschrijvingsprofielen instellen en maken
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
@@ -915,7 +936,7 @@
                   href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
                 - name: Boekingsdefinities
                   href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Voorbeelden van boekingsdefinities '
+                - name: Voorbeelden van boekingsdefinities
                   href: ../financials/general-ledger/example-posting-definitions.md
                 - name: Grootboekrekeningsaldi
                   href: ../financials/general-ledger/general-ledger-account-balances.md
@@ -999,6 +1020,8 @@
                   href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Valutawisselkoersen importeren
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Eén boekstuk
+                  href: ../financials/general-ledger/one-voucher.md
             - name: Einde van periode afsluiten
               items:
                 - name: Het grootboek aan het einde van de periode afsluiten
@@ -1141,7 +1164,7 @@
               href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
             - name: Financiële rapporten balans
               href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Een financieel rapport maken
+            - name: Financiële rapporten genereren
               href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
             - name: Inkomensoverzicht financieel rapport
               href: ../financials/general-ledger/income-statement-financial-report.md
@@ -1149,13 +1172,13 @@
               href: ../financials/general-ledger/trial-balance-financial-reports.md
             - name: Financiële rapporten weergeven
               href: ../financials/general-ledger/view-financial-reports.md
-            - name: Rapportontwerper
+            - name: De gebruikersinterface van de rapportontwerper
               href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-            - name: Gebruikersvoorkeuren
+            - name: Gebruikersvoorkeuren in Ontwerper financiële rapporten
               href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Geavanceerde opmaakopties
               href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Rapportonderdelen organiseren
+            - name: Rapportonderdelen indelen in Report Designer
               href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Rapportdefinities
               href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
@@ -1165,7 +1188,7 @@
               href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
             - name: Rijdefinitiecellen wijzigen
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: De datamart voor financiële rapportage opnieuw instellen na het herstellen van een database
+            - name: De datamart voor financiële rapportage opnieuw instellen
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Lokalisatie en wettelijk voorgeschreven functies
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
@@ -1223,6 +1246,7 @@
                 - name: Veelgestelde vragen over btw bij klantfacturen
                   href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
             - name: India
+              href: ../financials/localizations/india.md
               items:
                 - name: Vaste activa
                   href: ../financials/localizations/apac-ind-fixed-assets.md
@@ -1268,6 +1292,7 @@
                 - name: Veelgestelde vragen over btw-drempels
                   href: ../financials/localizations/apac-ind-tax-thresholds.md
             - name: Japan
+              href: ../financials/localizations/japan.md
               items:
                 - name: Een vast activum aanschaffen en de overheidssubsidie aanvragen
                   href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
@@ -1426,6 +1451,7 @@
                 - name: Demonteerlijst voor vaste activa gebruiken
                   href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
             - name: Maleisië
+              href: ../financials/localizations/malaysia.md
               items:
                 - name: Klantkrediet voor projectverkoop genereren
                   href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
@@ -1448,10 +1474,12 @@
                 - name: GST-hulpclausules instellen
                   href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
             - name: Singapore
+              href: ../financials/localizations/singapore.md
               items:
                 - name: Het GST-05-rapport maken
                   href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
             - name: Thailand
+              href: ../financials/localizations/thailand.md
               items:
                 - name: Voorraadkaartrapporten
                   href: ../financials/localizations/apac-tha-stock-card-reports.md
@@ -1619,7 +1647,7 @@
                   href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
                 - name: Afstemmingsrapporten
                   href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: 'Rapportage voor betalingssaldo instellen  '
+                - name: 'Rapportage voor betalingssaldo instellen '
                   href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM instellen en onderhouden
                   href: ../financials/localizations/emea-bel-prodcom-report.md
@@ -1744,7 +1772,7 @@
               items:
                 - name: Extra verwervingsafschrijving
                   href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: 'Auditbestand '
+                - name: Auditbestand
                   href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                   items:
                     - name: Configuratie van auditfile aanpassen
@@ -1759,7 +1787,7 @@
                   href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Journaallijstrapport
                   href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: Elektronische belastingaangifte instellen
+                - name: Elektronische belastingaangiften instellen
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Hongarije
               href: ../financials/localizations/hungary.md
@@ -1925,7 +1953,7 @@
             - name: Verenigd Koninkrijk
               href: ../financials/localizations/united-kingdom.md
               items:
-                - name: 'Construction Industry Scheme '
+                - name: Construction Industry Scheme
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
                 - name: Een creditnota maken voor de vereffeningskorting
                   href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
@@ -1942,7 +1970,10 @@
         - name: Latijns-Amerika
           items:
             - name: Brazilië
+              href: ../financials/localizations/brazil.md
               items:
+                - name: Scope voor lokaliseren
+                  href: ../financials/localizations/latam-bra-scope.md
                 - name: Belastingboeken
                   href: ../financials/localizations/latam-bra-fiscal-books.md
                   items:
@@ -2032,7 +2063,7 @@
                       href: ../financials/localizations/latam-bra-tax-payments.md
                     - name: Btw in verkoopoffertes
                       href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: 'Bronbelasting  '
+                    - name: 'Bronbelasting '
                       href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
                     - name: Bronbelasting op betalingen van klanten
                       href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
@@ -2105,6 +2136,7 @@
                     - name: Vaste activa voor PIS en COFINS
                       href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
             - name: Mexico
+              href: ../financials/localizations/mexico.md
               items:
                 - name: Scope voor lokaliseren
                   href: ../financials/localizations/latam-mex-scope.md
@@ -2120,7 +2152,7 @@
                   href: ../financials/localizations/latam-mex-diot-declaration-statement.md
                 - name: e-Facturering CFDI
                   href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: 'Elektronische facturen '
+                - name: Elektronische facturen
                   href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
                 - name: Overzichten van elektronische grootboekrekening
                   href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
@@ -2144,13 +2176,15 @@
                   href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Leveranciersregistratie-id's
                   href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
-        - name: Midden-Oosten
+        - name: Saudi-Arabië
+          href: ../financials/localizations/saudi-arabia.md
           items:
             - name: Btw
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Zakat-rapportage voor Saudi-Arabië
               href: ../financials/localizations/emea-sau-zakat-reporting.md
-        - name: Noord-Amerika
+        - name: Verenigde Staten
+          href: ../financials/localizations/united-states.md
           items:
             - name: Eindejaars 1099-aangifte voor de Verenigde Staten
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
@@ -2173,11 +2207,11 @@
               href: ../talent/set-up-company-specific-hr-parameters.md
             - name: Veelgestelde vragen over personeelsacties
               href: ../talent/personnel-actions-faq.md
-            - name: Werkstroom gebruiken om werknemersgegevens te beheren
+            - name: Workflow gebruiken om werknemersgegevens te beheren
               href: ../talent/workflow-manage-employee-information.md
         - name: Werving
           items:
-            - name: Een wervingsproces beheren
+            - name: Wervingsprocessen beheren
               href: hr/manage-recruiting-process.md
             - name: Projecten voor massaal aanstellen
               href: hr/mass-hire-projects.md
@@ -2219,17 +2253,17 @@
               href: ../talent/evaluate-questionnaire-results.md
         - name: Veiligheid en conformiteit op de werkplek (Verenigde Staten)
           items:
-            - name: Verificatie van implementatie van formulier I-9
+            - name: Verificatie van formulier I-9
               href: hr/localizations/noam-usa-form-i-9-verification.md
-            - name: Verificatie van implementatie via formulier I-9
+            - name: Recht op werk verifiëren met formulier I-9
               href: hr/localizations/tasks/employment-verification-i9-verification.md
-            - name: I-9-documenttypen instellen
+            - name: Documenttypen formulier I-9 instellen
               href: hr/localizations/tasks/set-up-i9-document-types.md
-            - name: Voldoen aan de ADA
+            - name: Naleving van de Americans with Disabilities Act
               href: hr/localizations/noam-usa-comply-ada.md
             - name: Verblijven voor werknemers beheren
               href: hr/localizations/tasks/manage-worker-accommodations.md
-        - name: Salaris VS
+        - name: Salarisadministratie VS
           href: hr/localizations/noam-usa-payroll.md
           items:
             - name: Salarisadministratie instellen
@@ -2238,44 +2272,50 @@
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
                 - name: Werkcycli en werkperioden instellen
                   href: hr/localizations/noam-usa-work-cycle-work-period-tasks.md
-                - name: 'Vergoedingstoerekeningsplannen instellen  '
+                - name: Vergoedingstoerekeningsplannen instellen
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Vergoedingen instellen
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
             - name: Frequenties en cycli
-            - name: Betalingscyclus en salarisperiodetaken
+            - name: Betalingscycli en salarisperioden instellen
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
-            - name: Salarisberekenings- en -frequentietaken
+            - name: Frequenties van salarisberekening instellen
               href: hr/localizations/noam-usa-payroll-calculation-frequencies-tasks.md
-            - name: Werkschema- en verloftaken
+            - name: Werkschema's instellen en afsluiten
               href: hr/localizations/noam-usa-work-schedule-leave-tasks.md
             - name: Codes en belastingen
               items:
-                - name: Inkomstencode en taken voor inkomstencodegroepen
+                - name: Inkomstencodes en inkomstencodegroepen instellen
                   href: hr/localizations/noam-usa-earning-code-group-tasks.md
-                - name: Belastinginformatietaken
+                - name: 'Belastingen, belastingregio''s, belastingcodes en belastingengroepen instellen'
                   href: hr/localizations/noam-usa-tax-information-tasks.md
+                - name: 'Veelgestelde vragen over belastingcodes, belastinggroepen en boekingsdefinities'
+                  href: hr/localizations/noam-usa-tax-codes-tax-groups-definitions.md
+                - name: Beginsaldi voor salarisadministratie invoeren
+                  href: hr/localizations/noam-usa-enter-beginning-balances.md
             - name: 'Beslagleggingen, fiscale heffingen en premiebetaling'
               items:
                 - name: Beslagleggingen en fiscale heffingen instellen
                   href: hr/localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md
-                - name: Medewerkers inschrijven voor beslaglegging en fiscale heffingen
+                - name: Medewerkers inschrijven voor beslagleggingen en fiscale heffingen
                   href: hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
-                - name: 'Premie-inkomsten instellen '
+                - name: Premie-inkomsten instellen
                   href: hr/localizations/noam-usa-premium-earning-setup-tasks.md
-                - name: Veelgestelde vragen over beslagleggingen fiscale heffingen en administratiekosten
+                - name: 'Veelgestelde vragen over beslagleggingen, fiscale heffingen en administratiekosten'
                   href: hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md
-            - name: Vrije tijd bijhouden voor FMLA
+            - name: Verlof bijhouden voor de FMLA (Family and Medical Leave Act)
               href: hr/localizations/noam-usa-track-time-for-fmla.md
             - name: Taken voor salarisverwerking
               items:
-                - name: Inkomsten genereren
+                - name: Veelgestelde vragen over verdiensten en winst genereren
                   href: hr/localizations/noam-usa-earnings-generation-process.md
+                - name: Inkomsten voor medewerkers genereren
+                  href: hr/localizations/noam-usa-generate-earnings.md
                 - name: Betalingen doen aan medewerkers
                   href: hr/localizations/noam-usa-issue-worker-payments.md
-                - name: Salarissen boeken en leveranciersfacturen genereren
+                - name: Salarisverdelingen boeken en leveranciersfacturen genereren
                   href: hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
-                - name: FAQ over salarisoverzichten en het genereren van betalingen
+                - name: Veelgestelde vragen over salarisoverzichten en het genereren van betalingen
                   href: hr/localizations/noam-usa-pay-statements-payment-generation-process.md
             - name: Het betalingsproces voltooien
               items:
@@ -2283,17 +2323,17 @@
                   href: hr/localizations/noam-usa-existing-payroll-payments.md
                 - name: Bestaande inkomsten verwerken
                   href: hr/localizations/noam-usa-existing-earnings.md
-                - name: Salarisoverzichten verwerken
+                - name: Genereren en werken met salarisoverzichten
                   href: hr/localizations/noam-usa-pay-statements.md
             - name: Onderhoud en rapportage
               items:
                 - name: Veelgestelde vragen over het bijwerken van salarisgegevens
                   href: hr/localizations/noam-usa-payroll-data-updates.md
-                - name: Salarisrapporten genereren
+                - name: Standaardsalarisrapporten
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
         - name: Taken voor Human resources
           items:
-            - name: Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden
+            - name: Informatie toevoegen aan uw prestatiejournaal en lovende kritiek verzenden
               href: hr/tasks/add-your-performance-journal-send-praise-someone.md
             - name: Resultaten vragenlijst analyseren
               href: hr/tasks/analyze-questionnaire-results.md
@@ -2301,25 +2341,25 @@
               href: hr/tasks/approve-application-inbox-records.md
             - name: Proces voor geschiktheid voor vergoeding
               href: hr/tasks/benefit-eligibility-process.md
-            - name: Een kalender maken en werktijden genereren
+            - name: Kalenders maken en werktijden genereren
               href: hr/tasks/create-calendar-working-times.md
-            - name: Een meerkeuzevraag maken
+            - name: Meerkeuzevragen maken
               href: hr/tasks/create-closed-ended-question.md
-            - name: Een doelstelling maken
+            - name: Doelstellingen maken
               href: hr/tasks/create-goal.md
             - name: Leenartikelen maken
               href: hr/tasks/create-loan-items.md
-            - name: Een project voor massaal aanstellen maken
+            - name: Projecten voor massaal aanstellen maken
               href: hr/tasks/create-mass-hire-project.md
-            - name: Een nieuwe vergoeding maken
+            - name: Nieuwe vergoedingen maken
               href: hr/tasks/create-new-benefit.md
-            - name: Een open vraag maken
+            - name: Open vragen maken
               href: hr/tasks/create-open-ended-question.md
-            - name: Een prestatiebeoordeling maken
+            - name: Prestatiebeoordelingen maken
               href: hr/tasks/create-performance-review.md
             - name: Regels en beleid van de vergoedingsgeschiktheid definiëren
               href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: Compensatieproces definiëren en resultaten berekenen
+            - name: Compensatieprocessen definiëren en resultaten berekenen
               href: hr/tasks/define-compensation-process-calculate-results.md
             - name: Nieuwe afdelingen definiëren
               href: hr/tasks/define-new-departments.md
@@ -2327,19 +2367,19 @@
               href: hr/tasks/define-new-jobs.md
             - name: Een vergoedingenprogramma voor werknemers maken
               href: hr/tasks/deliver-employee-benefits-program.md
-            - name: Een vacature ontwikkelen en openen
+            - name: Vacatures ontwikkelen en openen
               href: hr/tasks/develop-open-job-requisition.md
-            - name: Salaris-/compensatiestructuur en -plannen ontwikkelen
+            - name: Salaris-/compensatiestructuren en -plannen ontwikkelen
               href: hr/tasks/develop-salary-compensation-structure-plan.md
             - name: Een opvolgingsplan ontwikkelen
               href: hr/tasks/develop-succession-plan.md
             - name: Vragenlijsten distribueren met een planning
               href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: Een werknemer inschrijven voor een vaste honoreringsregeling
+            - name: Werknemers inschrijven voor een vaste honoreringsregeling
               href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: Een werknemer inschrijven voor een variabele honoreringsregeling
+            - name: Werknemers inschrijven voor een variabele honoreringsregeling
               href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: Vergoedingen inschrijven en verwijderen van werknemers
+            - name: Werknemers voor vergoedingen inschrijven en vergoedingen verwijderen van werknemers
               href: hr/tasks/enroll-remove-benefits-workers.md
             - name: Sollicitant- en sollicitatiegegevens handmatig invoeren
               href: hr/tasks/enter-applicant-application-data-manually.md
@@ -2347,25 +2387,25 @@
               href: hr/tasks/enter-project-timesheets.md
             - name: Gegevens medewerker invoeren
               href: hr/tasks/enter-worker-information.md
-            - name: Een kandidaat aannemen via werving
+            - name: Kandidaten aannemen via werving
               href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: Een bestaande werknemer aannemen via werving
+            - name: Bestaande werknemers aannemen via werving
               href: hr/tasks/hire-existing-employee-through-recruiting.md
             - name: Middelen voor selectie van kandidaten identificeren en implementeren
               href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Artikelen uitlenen aan een medewerker
+            - name: Artikelen uitlenen aan medewerkers
               href: hr/tasks/loan-item-worker.md
-            - name: Informatie over verwondingen en ziekte bij werknemers bijhouden
+            - name: Informatie over letsel en ziekte bij werknemers bijhouden
               href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: Een vraag afhankelijk maken van het antwoord op de vorige vraag
+            - name: Vragen afhankelijk maken van het antwoord op de vorige vraag
               href: hr/tasks/make-question-dependent-answer-previous-question.md
             - name: Vervaldatums voor vergoeding beheren
               href: hr/tasks/manage-benefit-expiration-dates.md
             - name: E-mailsjablonen beheren
               href: hr/tasks/manage-email-templates.md
-            - name: Verlof beheren
+            - name: Verloven beheren
               href: hr/tasks/manage-leave-absence.md
-            - name: Rapporteringsrelaties voor een positie wijzigen
+            - name: De rapporteringsrelaties voor posities wijzigen
               href: hr/tasks/modify-reporting-relationships-position.md
             - name: Compensatierasters instellen
               href: hr/tasks/set-up-compensation-grids.md
@@ -2396,7 +2436,7 @@
             - name: Analyse van kostprijsboekhouding
               href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Beveiliging voor de analyse van kostprijsboekhouding
+                - name: Beveiliging instellen voor de kostprijsboekhoudingsanalyse van Power BI-inhoud
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Kostenbeheer
               href: ../dev-itpro/analytics/cost-management-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2424,7 +2464,7 @@
               href: ../dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Werving
               href: ../dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 'Prestaties detailhandelafzetkanaal  '
+            - name: 'Prestaties detailhandelafzetkanaal '
               href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/fin-and-ops/toc.json
             - name: Verkoop- en winstgevendheidsprestaties
               href: ../dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2438,24 +2478,24 @@
           items:
             - name: Overzicht van documentrapportservices
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
-            - name: SSRS configureren voor een on-premises implementatie
+            - name: SSRS configureren voor on-premises implementaties
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Afdrukken
               href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
-                - name: De documentrouteringsagent installeren om netwerkprinterapparatuur in te schakelen
+                - name: De documentrouteringsagent installeren om afdrukken via het netwerk in te schakelen
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: De documentrouteringsagent upgraden
                   href: ../dev-itpro/analytics/upgrade-document-routing-agent.md
                 - name: Netwerkprinterapparaten installeren in on-premises omgevingen
                   href: ../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json
-                - name: 'Mogelijkheid voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties'
+                - name: 'Mogelijkheden voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties'
                   href: ../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json
                 - name: De documentrouteringsagent uitvoeren als Windows-service
                   href: ../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json
             - name: Voorkomen dat er een time-out optreedt voor rapporten met een lange uitvoeringstijd
               href: ../dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/fin-and-ops/toc.json
-            - name: Lijst met SQL Server Reporting Services-rapporten
+            - name: Beschikbare SQL Server Reporting Services-rapporten
               href: ../dev-itpro/analytics/SSRS-report.md?toc=/fin-and-ops/toc.json
             - name: Rapportageoplossingen maken
               href: ../dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/fin-and-ops/toc.json
@@ -2465,139 +2505,141 @@
               href: ../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/fin-and-ops/toc.json
             - name: Gegevenssets in App Suite-rapport uitvouwen
               href: ../dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/fin-and-ops/toc.json
-            - name: Rapportmenuopties uitbreiden
+            - name: Rapportmenu-items uitbreiden om gebruikersnavigatie om te leiden
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
-            - name: Zakelijke documenten aangepast ontwerp
+            - name: Aangepaste ontwerpen voor zakelijke documenten maken
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
         - name: Elektronische rapportage
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
           items:
             - name: Raamwerk elektronische rapportage configureren
               href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-            - name: Een configuratie maken
+            - name: Configuraties maken
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Een configuratieprovider maken en deze als actief markeren voor elektronische rapportage
+                - name: Aanbieders van configuraties maken en deze als actief markeren
                   href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Een domeinspecifiek gegevensmodel voor elektronische aangifte ontwerpen
+                - name: Ontwerp domeinspecifieke gegevensmodellen
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Modeltoewijzing definiëren en gegevensbronnen selecteren voor elektronische aangifte
+                - name: Modeltoewijzingen definiëren en gegevensbronnen selecteren
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Een gegevensmodel toewijzen aan geselecteerde gegevensbronnen voor elektronische aangifte
+                - name: Gegevensmodellen aan geselecteerde gegevensbronnen toewijzen
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Een indelingsconfiguratie maken voor elektronische aangifte
+                - name: Indelingsconfiguraties maken
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Onderdelen van de gemaakte indeling toewijzen aan gegevensmodelelementen voor elektronische aangifte
+                - name: De onderdelen van indelingen toewijzen aan gegevensmodelelementen
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Elektronische documenten genereren voor betalingen met een indelingsconfiguratie voor elektronische aangifte
+                - name: Elektronische documenten genereren voor betalingen met een indelingsconfiguraties
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen voor elektronische aangifte
+                - name: Indelingen upgraden door nieuwe basisversies aan te nemen
                   href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
             - name: Formuleontwerper in elektronische rapportage
               href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: Elektronische rapportage instellen met Power BI
+            - name: Elektronische aangifte configureren om gegevens op te halen in Power BI
               href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
             - name: Bestemmingen
               href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Bestemmingen configureren voor elektronische aangifte
+                - name: Bestemmingen configureren
                   href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Een configuratie ontwerpen voor het genereren van rapporten in Microsoft Word-indeling voor elektronische aangifte
+            - name: Configuraties ontwerpen om rapporten in Word-indeling te genereren
               href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Een configuratie ontwerpen voor het genereren van rapporten in OpenXML-indeling voor elektronische rapportage
+            - name: Configuraties ontwerpen om rapporten in OpenXML-indeling te genereren
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Een indeling voor elektronische rapportage wijzigen door een Microsoft Excel-sjabloon opnieuw toe te passen
+            - name: Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Gegevensmodeldefinitie selecteren tijdens het maken van de indeling voor elektronische aangifte
+            - name: Definitie voor gegevensmodel selecteren tijdens het maken van indelingen
               href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: De afhankelijkheid van configuraties van andere onderdelen voor elektronische aangifte definiëren
+            - name: De afhankelijkheid van configuraties voor andere onderdelen definiëren
               href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Gegevensmodel ontwerpen voor gebruik van financiële dimensies als gegevensbron
+                - name: Gegevensmodellen ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: Modellen toewijzen voor gebruik van financiële dimensies als gegevensbron
+                - name: Modellen toewijzen voor gebruik van financiële dimensies als gegevensbronnen
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: Een rapport ontwerpen voor gebruik van financiële dimensies als gegevensbron
+                - name: Rapporten ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: Een rapport uitvoeren dat financiële dimensies gebruikt als gegevensbron
+                - name: Rapporten uitvoeren die financiële dimensies gebruiken als gegevensbronnen
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: Indeling voor tellen en totaliseren maken
+                - name: Indeling maken voor tellen en totaliseren
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
                 - name: Berekeningen configureren voor tellen en totaliseren
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: Berekeningen gebruiken voor het maken van de uitvoer voor tellen en totaliseren
+                - name: Berekeningen gebruiken voor het generen van de uitvoer voor tellen en totaliseren
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: De indeling uitvoeren voor tellen en totaliseren
+                - name: Indelingen uitvoeren voor tellen en totaliseren
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: Een indeling ontwerpen voor het gebruik van horizontaal uitvouwbare bereiken voor het dynamisch toevoegen van kolommen in Excel-rapporten
+                - name: Indelingen ontwerpen voor het dynamisch toevoegen van kolommen als horizontaal uitbreidbare bereiken
                   href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: Een indeling uitvoeren die horizontaal uitvouwbare bereiken gebruikt voor het dynamisch toevoegen van kolommen in Excel-rapporten
+                - name: Indelingen uitvoeren voor het dynamisch toevoegen van kolommen als horizontaal uitbreidbare bereiken
                   href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: Een gegevensmodel voorbereiden voor het gebruik van documentbeheerbestanden in uitvoer van indelingen
+                - name: Gegevensmodellen voorbereiden voor het gebruik van documentbeheerbestanden in uitvoer
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: Een gegevensmodel uitbreiden voor het gebruik van documentbeheerbestanden in uitvoer van indelingen
+                - name: Gegevensmodellen uitbreiden voor het gebruik van documentbeheerbestanden in uitvoer
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: Indeling maken voor gebruik van documentbeheerbestanden in uitvoerindelingen
+                - name: Indelingen maken voor gebruik van documentbeheerbestanden in uitvoer
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: Indeling uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen
+                - name: Indelingen uitvoeren voor gebruik van documentbeheerbestanden in uitvoer
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: Indeling wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoerindelingen
+                - name: Indelingen wijzigen en uitvoeren voor gebruik van documentbeheerbestanden in uitvoer
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: Configuraties ontwerpen voor het genereren van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
+                - name: Configuraties ontwerpen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Configuraties beoordelen voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
+                - name: Configuraties beoordelen voor het genereren van rapporten in Office-indelingen met ingesloten afbeeldingen
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Rapporten genereren in Microsoft Office-indelingen met ingesloten afbeeldingen
+                - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-            - name: Elektronische documenten genereren en toepassingsgegevens bijwerken via het hulpmiddel voor elektronische rapportage
+            - name: Elektronische documenten genereren en toepassingsgegevens bijwerken
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Configuraties importeren voor het genereren van documenten met toepassingsgegevens
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
                 - name: Configuraties ontwerpen voor het genereren van documenten met toepassingsgegevens
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: Model en toewijzing wijzigen voor het genereren van documenten met toepassingsgegevens
+                - name: Modellen en toewijzingen wijzigen voor het genereren van documenten met toepassingsgegevens
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: Indeling wijzigen voor het genereren van documenten met toepassingsgegevens
+                - name: Indelingen wijzigen voor het genereren van documenten met toepassingsgegevens
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
                 - name: Documenten genereren met toepassingsgegevens
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: Afdrukbare FTI-formulieren genereren
+              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
             - name: Rapporten genereren door inhoud toe te voegen als onbewerkte XML
               href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
             - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
               href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
             - name: Gegevensbronnen voor het hele bedrijf in de elektronische aangifte
               href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: Afbeeldingen en vormen insluiten in zakelijke documenten die zijn gegenereerd via het hulpmiddel voor elektronische rapportage
+            - name: Afbeeldingen en vormen insluiten in documenten die u genereert
               href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
             - name: De configuratielevenscyclus beheren
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Een configuratie uploaden naar Lifecycle Services voor elektronische rapportage
+                - name: Configuraties uploaden naar Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Een configuratie importeren vanuit Lifecycle Services voor elektronische rapportage
+                - name: Configuraties importeren uit Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Configuraties downloaden uit Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Configuraties van elektronische rapportage importeren
+                - name: Configuraties importeren
                   href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Model beheren voor toewijzing van configuraties voor elektronische rapportage
+            - name: Configuraties voor modeltoewijzing beheren
               href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Vereiste configuraties maken om gegevens te importeren uit een extern bestand voor elektronische rapportage
+                - name: Configuraties maken om gegevens te importeren uit externe bestanden
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
                 - name: Gegevensimport uit SharePoint configureren
                   href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Inkomende documenten in Microsoft Excel parseren
+            - name: Inkomende documenten in Excel-indeling parseren
               href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
             - name: Inkomende documenten parseren om toepassingsgegevens bij te werken
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Inkomende documenten in CSV-indeling parseren
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: Gegenereerde bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
+            - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Functies voor elektronische aangifte uitbreiden
+                - name: De lijst met functies voor elektronische rapportage uitbreiden
                   href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
                 - name: Wijzigingen in API voor raamwerk voor elektronische aangifte in Application update 7.3
                   href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
@@ -2609,7 +2651,7 @@
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
         - name: Aanpassingsopties met PowerBI.com
           items:
-            - name: Power BI-integratie
+            - name: Functies en services die beschikbaar zijn via Power BI-integratie
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: Power BI-rapporten vastmaken in werkgebieden
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
@@ -2617,21 +2659,21 @@
           items:
             - name: 'Analyses, samengevoegde metingen en KPI-model'
               href: ../dev-itpro/analytics/analytics.md?toc=/fin-and-ops/toc.json
-            - name: Analytische rapporten opstellen met Power BI Desktop
+            - name: Analytische rapporten maken met Power BI Desktop
               href: ../dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/fin-and-ops/toc.json
-            - name: Gegevens modelleren en samenvoegen
+            - name: Samengevoegde gegevens modelleren
               href: ../dev-itpro/analytics/model-aggregate-data.md?toc=/fin-and-ops/toc.json
             - name: Financiële dimensies toevoegen aan samengevoegde metingen
               href: ../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/fin-and-ops/toc.json
-            - name: Analyses aan werkgebieden toevoegen met behulp van Power BI Embedded
+            - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
               href: ../dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/fin-and-ops/toc.json
-            - name: Beveiligde analytische werkgebieden en rapporten helpen beveiligen met behulp van Power BI Embedded
+            - name: Beveiligde analytische werkgebieden en rapporten helpen beveiligen met Power BI Embedded
               href: ../dev-itpro/analytics/secure-analytical-workspaces.md?toc=/fin-and-ops/toc.json
         - name: Hulpmiddelen voor hoofdgebruikersbeheer
           items:
             - name: Power BI-integratie met Entiteitopslag
               href: ../dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/fin-and-ops/toc.json
-            - name: Entiteit winkel beheren
+            - name: Problemen oplossen na onderhoud van Entiteitopslag
               href: ../dev-itpro/analytics/entity-store-maintenance.md
             - name: Power BI-integratie voor werkgebieden configureren
               href: ../dev-itpro/analytics/configure-power-bi-integration.md?toc=/fin-and-ops/toc.json
@@ -2803,13 +2845,13 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Handmatig een vraagprognose wijzigen
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobiele app
+    - name: Dynamics 365 for Unified Operations Mobile-app
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Mobiele werkgebieden
+        - name: Beschikbare mobiele werkgebieden
           href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
           items:
-            - name: Bedrijfsdirecteur
+            - name: Adresboek van bedrijf
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Kostenbeheer
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
@@ -2829,14 +2871,14 @@
               href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md
             - name: Leverancierssamenwerking
               href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md
-        - name: Mobiel werkgebied publiceren
+        - name: Mobiele werkgebieden publiceren
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Office-integratie
       href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
         - name: Zelfstudie Office-integratie
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
-        - name: De Excel-invoegtoepassing gebruiken
+        - name: Entiteitsgegevens in Excel openen en bijwerken met de Excel-invoegtoepassing
           href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/fin-and-ops/toc.json
         - name: Ervaringen met Openen in Excel maken
           href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/fin-and-ops/toc.json
@@ -2996,20 +3038,22 @@
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Een organisatiehiërarchie maken
               href: organization-administration/tasks/create-organization-hierarchy.md
-            - name: Een rechtspersoon maken
+            - name: Rechtspersonen maken
               href: organization-administration/tasks/create-legal-entity.md
-            - name: Een operationele eenheid maken
+            - name: Operationele eenheden maken
               href: organization-administration/tasks/create-operating-unit.md
         - name: Globaal adresboek
           href: organization-administration/overview-global-address-book.md
           items:
-            - name: De configuratie van het globale adresboek plannen
+            - name: Het globale adresboek en andere adresboeken plannen
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Het globale adresboek configureren
               href: organization-administration/tasks/configure-global-address-book.md
             - name: Veelgestelde vragen over adresboeken
               href: organization-administration/qa-address-books.md
-        - name: Workflow
+            - name: Adresboeken configureren
+              href: organization-administration/tasks/address-books.md
+        - name: Workflowsysteem
           href: organization-administration/overview-workflow-system.md
           items:
             - name: Workflowsysteemarchitectuur
@@ -3018,45 +3062,45 @@
               href: organization-administration/workflow-elements.md
             - name: Workflowacties
               href: organization-administration/workflow-actions.md
-            - name: Een workflow maken
+            - name: Workflows maken
               href: organization-administration/create-workflow.md
               items:
                 - name: Workfloweigenschappen configureren
                   href: organization-administration/configure-workflow-properties.md
-                - name: Een handmatige taak configureren
+                - name: Handmatige taken configureren
                   href: organization-administration/configure-manual-task-workflow.md
-                - name: Een geautomatiseerde taak configureren
+                - name: Geautomatiseerde taken configureren
                   href: organization-administration/configure-automated-task-workflow.md
-                - name: Een goedkeuringsproces configureren
+                - name: Goedkeuringsprocessen configureren
                   href: organization-administration/configure-approval-process-workflow.md
-                - name: Een goedkeuringsstap configureren
+                - name: Goedkeuringsstappen configureren
                   href: organization-administration/configure-approval-step-workflow.md
-                - name: Een handmatige beslissing configureren
+                - name: Handmatige beslissingen configureren
                   href: organization-administration/configure-manual-decision-workflow.md
-                - name: Een voorwaardelijke beslissing configureren
+                - name: Voorwaardelijke beslissingen configureren
                   href: organization-administration/configure-conditional-decision-workflow.md
-                - name: Een parallelle activiteit configureren
+                - name: Parallelle activiteiten configureren
                   href: organization-administration/configure-parallel-activity-workflow.md
-                - name: Een parallelle vertakking configureren
+                - name: Parallelle vertakkingen configureren
                   href: organization-administration/configure-parallel-branch-workflow.md
-                - name: Een workflow voor regelartikelen configureren
+                - name: Workflows voor regelitems configureren
                   href: organization-administration/configure-line-item-workflow.md
-            - name: De batchtaak voor workflowberichtverwerking configureren
+            - name: De batchtaak voor Workflowberichtverwerking configureren als kritiek
               href: organization-administration/workflow-batch-job-critical.md
-            - name: Werkitems in een werkstroom delegeren
+            - name: Werkitems in een workflow delegeren
               href: organization-administration/tasks/delegate-work-items-workflow.md
-            - name: Werkstroomhistorie bekijken
+            - name: Workflowhistorie bekijken
               href: organization-administration/tasks/view-workflow-history.md
-            - name: Gebruikers toestaan om e-mailberichten te ontvangen die betrekking hebben op de werkstroom
+            - name: Het systeem configureren om workflowberichten te verzenden naar gebruikers
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
             - name: Rapport over workflowtypen
               href: organization-administration/workflow-types-report.md
         - name: Waarschuwingen
           href: get-started/alerts-overview.md
           items:
-            - name: Waarschuwingen maken
+            - name: Waarschuwingsregels maken
               href: get-started/create-alerts.md
-            - name: Batchverwerking voor waarschuwingen
+            - name: Batchverwerking van waarschuwingen
               href: get-started/alerts-managing.md
         - name: Elektronische handtekeningen
           href: organization-administration/electronic-signature-overview.md
@@ -3066,7 +3110,7 @@
         - name: Casebeheer
           href: organization-administration/cases.md
           items:
-            - name: 'Casebeveiliging, -processen en -categorieën configureren'
+            - name: 'Casebeveiliging, -processen en -categorieën plannen'
               href: organization-administration/plan-case-management.md
         - name: Recordsjablonen
           href: organization-administration/record-templates.md
@@ -3792,7 +3836,7 @@
                       href: ../supply-chain/service-management/reverse-changes-in-a-dispatch-board.md
                     - name: Niet-verzonden serviceorders weergeven
                       href: ../supply-chain/service-management/view-undispatched-service-orders.md
-                    - name: 'Een servicestuklijst wijzigen  '
+                    - name: 'Een servicestuklijst wijzigen '
                       href: ../supply-chain/service-management/modify-service-bom.md
                 - name: Een service leveren
                   items:
@@ -3893,7 +3937,7 @@
         - name: Werkbeleid magazijn
           href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
-            - name: 'Werkbeleid voor een magazijn instellen  '
+            - name: 'Werkbeleid voor een magazijn instellen '
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Mutatie van voorraad met gekoppeld werk in Magazijnbeheer
               href: ../supply-chain/warehousing/move-inventory-associated-work.md
@@ -3935,11 +3979,11 @@
               href: ../supply-chain/inventory/inventory-blocking.md
             - name: Cyclustelling
               href: ../supply-chain/warehousing/cycle-counting.md
-            - name: 'Cyclustelling definiëren  '
+            - name: 'Cyclustelling definiëren '
               href: ../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
             - name: Gedeeltelijke cyclustelling van locatie
               href: ../supply-chain/warehousing/partial-location-cycle-counting.md
-            - name: 'Gedeeltelijk locatieproces voor cyclustelling definiëren  '
+            - name: 'Gedeeltelijk locatieproces voor cyclustelling definiëren '
               href: ../supply-chain/warehousing/tasks/define-partial-location-cycle-counting-process-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017-update.md
             - name: Voorraadjournaal
               href: ../supply-chain/inventory/inventory-journals.md
@@ -3958,7 +4002,7 @@
               href: ../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md
             - name: Een min./max. aanvullingsproces instellen
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
-        - name: 'De app voor magazijnbeheer installeren en configureren '
+        - name: De app voor magazijnbeheer installeren en configureren
           href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
             - name: Veldnamen in app voor magazijnbeheer configureren
