@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -100,11 +100,11 @@ De APQC Unified Library (augustus 2016, alle talen) bevat de taakbegeleidingen d
 <a name="additional-resources"></a>Aanvullende resources
 --------
 
-[Nieuwe taakbegeleiders (februari 2016)](new-task-guides-available-february-2016.md)
+[Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)
 
-[Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)
+[Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nieuwe of bijgewerkte taakbegeleiders (november 2016)](new-task-guides-november-2016.md)
+[Nieuwe of bijgewerkte taakbegeleidingen (november 2016)](new-task-guides-november-2016.md)
 
 
 

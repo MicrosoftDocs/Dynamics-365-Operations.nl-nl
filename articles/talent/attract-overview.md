@@ -1,5 +1,5 @@
 ---
-title: Overzicht van Attract
+title: Functies en voorzieningen van Attract
 description: Attract biedt mogelijkheden voor het beheren van het proces voor het werven van nieuw talent. Kandidaten kunnen aan openstaande functies worden toegevoegd en de verschillende fasen doorlopen tot er een aanbod wordt gedaan of de sollicitatie wordt afgewezen.
 author: rschloma
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b64a97897a1ea75eb2a9681bc9357433a570dd74
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 37dd0396787375fccd4082f392e079ed5dab04e9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="attract-overview"></a>Overzicht van Attract
+# <a name="attract-features-and-capabilities"></a>Functies en voorzieningen van Attract
 
 [!include [banner](includes/banner.md)]
 

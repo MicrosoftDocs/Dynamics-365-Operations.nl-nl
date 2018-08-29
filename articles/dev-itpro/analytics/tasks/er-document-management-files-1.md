@@ -1,5 +1,5 @@
 --- 
-title: Een gegevensmodel voorbereiden voor het gebruik van documentbeheerbestanden in uitvoer van indelingen
+title: Gegevensmodellen voorbereiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9f99259056fab2d56d1ccf7487681c183551c64f
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fcafaf17315f54594116a143f36e924bc705d839
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs"></a>Een gegevensmodel voorbereiden voor het gebruik van documentbeheerbestanden in uitvoer van indelingen
+# <a name="prepare-data-models-to-use-document-management-files-in-er-output"></a>Gegevensmodellen voorbereiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

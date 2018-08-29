@@ -1,9 +1,9 @@
 ---
-title: Afgeschafte functies
+title: Verwijderde of verouderde functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 08/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
-ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
+ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
+ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/30/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -38,6 +38,9 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!Note]
 > Vanaf de release uit juli 2017 van Dynamics 365 for Finance and Operations met platformupdate 8 wordt het type implementatie aangegeven voor elke verwijderde of afgeschafte functie. Alle eerdere versies die in dit onderwerp worden vermeld, ondersteunen alleen cloudimplementaties.
+
+> [!Note]
+> Gedetailleerde informatie over objecte in Finance and Operations is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations.
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 met platformupdate 15
 Er zijn geen onderdelen verwijderd of vervangen in deze versie. Platformupdate 15 is cumulatief en bevat nieuwe of gewijzigde functies van platformupdate 13, platformupdate 14 en platformupdate 15.

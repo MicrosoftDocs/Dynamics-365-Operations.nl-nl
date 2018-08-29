@@ -1,5 +1,5 @@
 ---
-title: Formuleontwerper in elektronische rapportage
+title: Formuleontwerper in elektronische rapportage (ER)
 description: In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt.
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Formuleontwerper in elektronische rapportage
+# <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ De velden <strong>Label</strong> en <strong>Omschrijving</strong> retourneren ti
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>In de volgende afbeelding ziet u het resultaat wanneer de ontworpen indeling wordt uitgevoerd.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Op basis van de taalinstellingen van de bovenliggende indelingselementen BESTAND en MAP worden labels en beschrijvingen in de uitvoer van de ER-indeling ingevoerd.</blockquote>
+<blockquote>[!NOTE] Op basis van de taalinstellingen van de bovenliggende indelingselementen BESTAND en MAP worden labels en beschrijvingen in de uitvoer van de ER-indeling ingevoerd.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>In de volgende afbeelding ziet u het resultaat wanneer de aangepaste indeling wordt uitgevoerd.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>De limiet wordt niet toegepast op het laatste artikel van de oorspronkelijke lijst omdat de waarde (11) van de limietbron (gewicht) de gedefinieerde limiet (9) overschrijdt. Gebruik de functie <strong>WHERE</strong> of de expressie <strong>Ingeschakeld</strong> van het bijbehorende indelingselement om de sublijsten te negeren (overslaan) tijdens het genereren van het rapport (indien nodig).</blockquote>
+<blockquote>[!NOTE] De limiet wordt niet toegepast op het laatste artikel van de oorspronkelijke lijst omdat de waarde (11) van de limietbron (gewicht) de gedefinieerde limiet (9) overschrijdt. Gebruik de functie <strong>WHERE</strong> of de expressie <strong>Ingeschakeld</strong> van het bijbehorende indelingselement om de sublijsten te negeren (overslaan) tijdens het genereren van het rapport (indien nodig).</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 | NUMBERVALUE (tekenreeks, decimaal scheidingsteken, scheidingsteken groep komma) | Converteert de opgegeven tekenreeks naar een getal. Het opgegeven decimaalteken wordt gebruikt tussen het geheel-getaldeel en het breukdeel van een decimaal getal. Het opgegeven scheidingsteken voor cijfergroepering wordt gebruikt als scheidingsteken voor duizendtallen. | **NUMBERVALUE (1", "234,56 ",", "")** retourneert de waarde **1234,56**. |
 | VALUE (tekenreeks) | Converteert de opgegeven tekenreeks naar een getal. De komma's en punttekens (.) worden beschouwd als decimale scheidingstekens en er wordt een koppelteken (-) vooraan gebruikt als minteken. Er treedt een uitzondering op als andere niet-numerieke tekens worden aangetroffen in de opgegeven tekenreeks. | **VALUE ("1" 234,56)** geeft een uitzondering. |
 | ROUND (getal, decimalen) | Retourneer het opgegeven getal nadat het is afgerond op het opgegeven aantal decimalen:<ul><li>Als de waarde van de parameter **decimalen** groter is dan 0 (nul), wordt het opgegeven getal afgerond op dat aantal decimalen.</li><li>Als de waarde van de parameter **decimalen** **0** (nul) is, wordt het opgegeven getal afgerond op het dichtstbijzijnde hele getal.</li><li>Als de waarde van de parameter **decimalen** minder dan 0 (nul) is, wordt het opgegeven getal links van de decimale komma afgerond.</li></ul> | **ROUND (1200,767, 2)** rondt af naar twee decimalen en retourneert **1200,77**. **ROUND (1200,767, -3)** rondt af naar het dichtstbijzijnde veelvoud van 1.000 en retourneert **1000**. |
-| ROUNDDOWN (getal, decimalen) | Retourneer het opgegeven getal nadat het is afgerond omlaag op het opgegeven aantal decimalen.<blockquote>[!NOTE]<br>Deze functie werkt als **ROUND**, maar rondt altijd het opgegeven getal naar beneden af (richting nul).</blockquote> | **ROUNDDOWN (1200,767, 2)** rondt naar beneden af naar twee decimalen en retourneert **1200,76**. **ROUNDDOWN (1700,767, -3)** rondt naar beneden af naar het dichtstbijzijnde veelvoud van 1.000 en retourneert **1000**. |
-| ROUNDUP (getal, decimalen) | Retourneer het opgegeven getal nadat het naar boven is afgerond op het opgegeven aantal decimalen.<blockquote>[!NOTE]<br>Deze functie werkt als **ROUND**, maar rondt altijd het opgegeven getal naar boven af (weg van nul).</blockquote> | **ROUNDUP (1200,763, 2)** rondt naar boven af naar twee decimalen en retourneert **1200,77**. **ROUNDUP (1200,767, -3)** rondt naar boven af naar het dichtstbijzijnde veelvoud van 1.000 en retourneert **2000**. |
+| ROUNDDOWN (getal, decimalen) | Retourneer het opgegeven getal nadat het is afgerond omlaag op het opgegeven aantal decimalen.<blockquote>[!NOTE] Deze functie werkt als **ROUND**, maar rondt altijd het opgegeven getal naar beneden af (richting nul).</blockquote> | **ROUNDDOWN (1200,767, 2)** rondt naar beneden af naar twee decimalen en retourneert **1200,76**. **ROUNDDOWN (1700,767, -3)** rondt naar beneden af naar het dichtstbijzijnde veelvoud van 1.000 en retourneert **1000**. |
+| ROUNDUP (getal, decimalen) | Retourneer het opgegeven getal nadat het naar boven is afgerond op het opgegeven aantal decimalen.<blockquote>[!NOTE] Deze functie werkt als **ROUND**, maar rondt altijd het opgegeven getal naar boven af (weg van nul).</blockquote> | **ROUNDUP (1200,763, 2)** rondt naar boven af naar twee decimalen en retourneert **1200,77**. **ROUNDUP (1200,767, -3)** rondt naar boven af naar het dichtstbijzijnde veelvoud van 1.000 en retourneert **2000**. |
 
 ### <a name="data-conversion-functions"></a>Functies voor gegevensconversie
 
@@ -474,8 +474,8 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 
 | Functie | Omschrijving | Voorbeeld |
 |----------|-------------|---------|
-| NULLCONTAINER (lijst) | Retourneer een **null**-record met dezelfde structuur als de opgegeven recordlijst of record.<blockquote>[!NOTE]<br>Deze functie is verouderd. Gebruik in plaats daarvan **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** retourneert een nieuwe lege record die dezelfde structuur heeft als de lijst die wordt geretourneerd door de functie **SPLIT**. |
-| EMPTYRECORD (record) | Retourneer een **null**-record met dezelfde structuur als de opgegeven recordlijst of record.<blockquote>[!NOTE]<br>Een **null**-record is een record waarin alle velden een lege waarde hebben. Een lege waarde is **0** (nul) voor getallen, een lege tekenreeks voor tekenreeksen, enzovoort.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** retourneert een nieuwe lege record die dezelfde structuur heeft als de lijst die wordt geretourneerd door de functie **SPLIT**. |
+| NULLCONTAINER (lijst) | Retourneer een **null**-record met dezelfde structuur als de opgegeven recordlijst of record.<blockquote>[!NOTE] Deze functie is verouderd. Gebruik in plaats daarvan **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** retourneert een nieuwe lege record die dezelfde structuur heeft als de lijst die wordt geretourneerd door de functie **SPLIT**. |
+| EMPTYRECORD (record) | Retourneer een **null**-record met dezelfde structuur als de opgegeven recordlijst of record.<blockquote>[!NOTE] Een **null**-record is een record waarin alle velden een lege waarde hebben. Een lege waarde is **0** (nul) voor getallen, een lege tekenreeks voor tekenreeksen, enzovoort.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** retourneert een nieuwe lege record die dezelfde structuur heeft als de lijst die wordt geretourneerd door de functie **SPLIT**. |
 
 ### <a name="text-functions"></a>Tekstfuncties
 
@@ -522,14 +522,14 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 <td>CHAR (getal)</td>
 <td>Retourneer de tekenreeks waarnaar wordt verwezen door het opgegeven Unicode-getal.</td>
 <td><strong>CHAR (255)</strong> retourneert <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>De door deze functie geretourneerde tekenreeks is afhankelijk van de codering die in het bovenliggende FILE-indelingselement is geselecteerd. Zie voor een overzicht van ondersteunde coderingen, <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Codering klasse</a>.</blockquote>
+<blockquote>[!NOTE] De door deze functie geretourneerde tekenreeks is afhankelijk van de codering die in het bovenliggende FILE-indelingselement is geselecteerd. Zie voor een overzicht van ondersteunde coderingen, <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Codering klasse</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (tekenreeks 1 [, tekenreeks 2, …])</td>
 <td>Retourneer alle opgegeven tekenreeksen nadat deze zijn samengevoegd in één tekenreeks.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> retourneert <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>De expressie <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> retourneert ook <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] De expressie <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> retourneert ook <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 <p>&quot;Er is niets om af te drukken. Customer Litware Retail is stopped for 12/17/2015."&quot;</p>
 <p>Als hetzelfde rapport voor de klant <strong>Litware Retail</strong> wordt verwerkt op 17 december 2015 in de cultuur <strong>DE</strong> en de taal <strong>DE</strong>, retourneert de formule de volgende tekst die een andere datumnotatie gebruikt:</p>
 <p>&quot;Nichts zu drucken. Klant "Litware Retail" is gestopt voor 17-12-2015.&quot;</p>
-<blockquote>[!NOTE]<br>De volgende syntaxis wordt toegepast in ER-formules voor labels:
+<blockquote>[!NOTE] De volgende syntaxis wordt toegepast in ER-formules voor labels:
 <ul>
 <li><strong>Voor labels van Finance and Operations-resources:</strong> <strong>@&quot;X&quot;</strong>, waarbij X de label-id in de Application Object Tree (AOT) is</li>
 <li><strong>Voor labels die zich in ER-configuraties bevinden:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, waarbij X de label-id in de ER-configuratie is</li>
@@ -587,7 +587,7 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 <tr>
 <td>NUMERALSTOTEXT (aantal, taal, valuta, naamvlag van valuta afdrukken, aantal decimalen)</td>
 <td>Het opgegeven getal retourneren nadat het is uitgeschreven (geconverteerd naar tekenreeksen) in de opgegeven taal. De taalcode is optioneel. Wanneer deze is gedefinieerd als een lege tekenreeks, wordt de taalcode voor de actieve context gebruikt. (De taalcode voor de actieve context is gedefinieerd voor een genererend bestand of map.) De valutacode is ook optioneel. Wanneer deze als lege tekenreeks is gedefinieerd, wordt de bedrijfsvaluta gebruikt.
-<blockquote>[!NOTE]<br>De parameters voor de <strong>vlag valutanaam afdrukken</strong> en de <strong>decimalen</strong> worden alleen geanalyseerd voor de volgende taalcodes: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> en <strong>RU</strong>. De <strong>vlag voor valutanaam afdrukken</strong> wordt bovendien alleen geanalyseerd voor Finance and Operations-bedrijven waarbij de context van het land of de regio verbuiging van valutanamen ondersteunt.</blockquote>
+<blockquote>[!NOTE] De parameters voor de <strong>vlag valutanaam afdrukken</strong> en de <strong>decimalen</strong> worden alleen geanalyseerd voor de volgende taalcodes: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> en <strong>RU</strong>. De <strong>vlag voor valutanaam afdrukken</strong> wordt bovendien alleen geanalyseerd voor Finance and Operations-bedrijven waarbij de context van het land of de regio verbuiging van valutanamen ondersteunt.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> retourneert <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> retourneert <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> retourneert <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -644,7 +644,7 @@ Wanneer deze gegevensbronnen zijn gedefinieerd, kunt u een expressie zoals <stro
 
 | Functie | Omschrijving | Voorbeeld |
 |----------|-------------|---------|
-| FORMATELEMENTNAME () | Retourneert de naam van het element van de huidige indeling. Retourneert een lege tekenreeks wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | Als u meer wilt weten over het gebruik van deze functie, raadpleegt u de taakbegeleider **ER Gegevens van indelingsuitvoer gebruiken voor tellen en optellen**, die deel uitmaakt van het bedrijfsproces **Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen**. |
+| FORMATELEMENTNAME () | Retourneert de naam van het element van de huidige indeling. Retourneert een lege tekenreeks wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | Als u meer wilt weten over het gebruik van deze functie, raadpleegt u de taakbegeleiding **ER Gegevens van indelingsuitvoer gebruiken voor tellen en optellen**, die deel uitmaakt van het bedrijfsproces **Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen**. |
 | SUMIFS (sleutelreeks voor optelling, tekenreeks criteriumbereik1, tekenreeks criteriumwaarde1 \[, tekenreeks criteriumbereik2, tekenreeks criteriumwaarde2 tekenreeks, …\]) | Retourneert een som met waarden van XML-knooppunten (met als sleutel gedefinieerde naam), die tijdens deze indelingsuitvoering is verzameld en voldoet aan de opgegeven voorwaarden (paren van bereiken en waarden). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
 | SUMIF (sleutelreeks voor optellen, criteriumbereik tekenreeks, criteriumwaarde tekenreeks) | Retourneert een som met waarden van XML-knooppunten (met als sleutel gedefinieerde naam), die tijdens deze indelingsuitvoering is verzameld en voldoet aan de opgegeven voorwaarde (bereik en waarde). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
 | COUNTIFS (tekenreeks criteriumbereik1, tekenreeks criteriumwaarde1 \[, tekenreeks criteriumbereik2, tekenreeks criteriumwaarde2, …\]) | Retourneert een aantal XML-knooppunten, dat tijdens de indelingsuitvoering is verzameld en voldoet aan de opgegeven voorwaarden (paren bereiken en waarden). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
@@ -656,10 +656,10 @@ Wanneer deze gegevensbronnen zijn gedefinieerd, kunt u een expressie zoals <stro
 | Functie | Omschrijving | Voorbeeld |
 |----------|-------------|---------|
 | CONVERTCURRENCY (bedrag, bronvaluta, doelvaluta, datum, bedrijf) | Converteer het opgegeven monetaire bedrag van de opgegeven bronvaluta naar de opgegeven doelvaluta door de instellingen van het opgegeven Finance and Operations-bedrijf op de opgegeven datum te gebruiken. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** retourneert het equivalent van één euro in Amerikaanse dollars op de huidige sessiedatum, op basis van de instellingen voor het bedrijf DEMF. |
-| ROUNDAMOUNT (aantal, decimalen, afrondingsregel) | Rond het opgegeven bedrag af op het opgegeven aantal decimalen, op basis van de opgegeven afrondingsregel.<blockquote>[!NOTE]<br>De afrondingsregel moet worden opgegeven als een waarde van de Finance and Operations-opsomming **RoundOffType**.</blockquote> | Als de parameter **model.RoundOff** is ingesteld op **Downward**, retourneert **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** de waarde **1000,78**. Als de parameter **model.RoundOff** is ingesteld op **Normal** of **Rounding-up**, retourneert **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** de waarde **1000,79**. |
+| ROUNDAMOUNT (aantal, decimalen, afrondingsregel) | Rond het opgegeven bedrag af op het opgegeven aantal decimalen, op basis van de opgegeven afrondingsregel.<blockquote>[!NOTE] De afrondingsregel moet worden opgegeven als een waarde van de Finance and Operations-opsomming **RoundOffType**.</blockquote> | Als de parameter **model.RoundOff** is ingesteld op **Downward**, retourneert **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** de waarde **1000,78**. Als de parameter **model.RoundOff** is ingesteld op **Normal** of **Rounding-up**, retourneert **ROUNDAMOUNT (1000,787, 2, model.RoundOff)** de waarde **1000,79**. |
 | CURCredRef (cijfers) | Retourneer een crediteurverwijzing op basis van de cijfers van het opgegeven factuurnummer. | **CURCredRef ("VEND-200002")** retourneert **"2200002"**. |
 | MOD\_97 (cijfers) | Retourneer een crediteurverwijzing als een MOD97-expressie op basis van de cijfers van het opgegeven factuurnummer. | **MOD\_97 ("VEND-200002")** retourneert **"20000285"**. |
-| ISOCredRef (cijfers) | Een ISO-crediteurverwijzing (International Organization for Standardization) retourneren op basis van de cijfers en alfabetische symbolen van het opgegeven factuurnummer.<blockquote>[!NOTE]<br>Als u symbolen wilt elimineren uit alfabetten die niet ISO-conform zijn, moet de invoerparameter worden vertaald voordat deze wordt doorgegeven aan deze functie.</blockquote> | **ISOCredRef ("VEND-200002")** retourneert **"RF23VEND-200002"**. |
+| ISOCredRef (cijfers) | Een ISO-crediteurverwijzing (International Organization for Standardization) retourneren op basis van de cijfers en alfabetische symbolen van het opgegeven factuurnummer.<blockquote>[!NOTE] Als u symbolen wilt elimineren uit alfabetten die niet ISO-conform zijn, moet de invoerparameter worden vertaald voordat deze wordt doorgegeven aan deze functie.</blockquote> | **ISOCredRef ("VEND-200002")** retourneert **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (tekenreeks, getal) | De opgegeven aanvullende financiële dimensie-id ophalen. In de parameter **string** worden dimensies vertegenwoordigd als id's die door komma's gescheiden zijn. De parameter **number** definieert de gewenste volgordecode van de gevraagde dimensie in de tekenreeks. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** retourneert **"CC"**. |
 | GetCurrentCompany () | Retourneert een tekstrepresentatie van de code van de rechtspersoon (bedrijf) waarbij een gebruiker momenteel is aangemeld. | **GETCURRENTCOMPANY ()** retourneert **USMF** voor een gebruiker die zich heeft aangemeld bij het bedrijf **Contoso Entertainment System USA** in Finance and Operations. |
 | CH\_BANK\_MOD\_10 (cijfers) | Retourneer een crediteurverwijzing als een MOD10-expressie op basis van de cijfers van het opgegeven factuurnummer. | **CH\_BANK\_MOD\_10 ("VEND-200002")** retourneert **3**. |

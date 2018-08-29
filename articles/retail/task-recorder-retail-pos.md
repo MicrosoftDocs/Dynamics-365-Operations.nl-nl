@@ -1,5 +1,5 @@
 ---
-title: Taakrecorder en Help voor POS
+title: Taakrecorder en Help voor Retail Modern POS (MPOS) en Cloud POS
 description: In dit onderwerp wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern POS en Cloud POS.
 author: mugunthanm
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 12aa71843fa8b22eb7ae688ed3600168760d90da
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0077bac6eef5c4b4925c9464d47a1297aa1177e4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>Taakrecorder en Help voor POS
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Taakrecorder en Help voor Retail Modern POS (MPOS) en Cloud POS
 
 [!include [banner](includes/banner.md)]
 
@@ -74,7 +74,7 @@ Nadat u de registratiesessie hebt beëindigd, worden verschillende opties weerge
 
 ### <a name="save-to-this-pc"></a>Opslaan op deze pc
 
-U kunt het registratiepakket gebruiken om een taakbegeleider af te spelen, de registratie te onderhouden of de aantekeningen in de registratie te bewerken. (Deze functie is nog niet geïmplementeerd in Retail Modern POS of Cloud POS.)
+U kunt het registratiepakket gebruiken om een taakbegeleiding af te spelen, de registratie te onderhouden of de aantekeningen in de registratie te bewerken. (Deze functie is nog niet geïmplementeerd in Retail Modern POS of Cloud POS.)
 
 ### <a name="export-as-word-document"></a>Exporteren als Word-document
 
@@ -117,23 +117,23 @@ Een aantekening is aanvullende tekst die u aan een stap in een registratie kunt 
 
 ### <a name="texts-and-notes"></a>Tekst en notities
 
-U kunt de velden **Teksten** en **Notities** gebruiken om tekst toe te voegen die moet worden gekoppeld aan een stap in een taakbegeleider.
+U kunt de velden **Teksten** en **Notities** gebruiken om tekst toe te voegen die moet worden gekoppeld aan een stap in een taakbegeleiding.
 [![Tekst- en notitievelden](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>Tekst
 
-Tekst die u invoert in het veld **Tekst**, verschijnt *boven* de staptekst in de taakbegeleider. Deze locatie is geschikt voor tekst die de gebruiker moet lezen voordat hij of zij de stap voltooit.
+Tekst die u invoert in het veld **Tekst**, verschijnt *boven* de staptekst in de taakbegeleiding. Deze locatie is geschikt voor tekst die de gebruiker moet lezen voordat hij of zij de stap voltooit.
 
 #### <a name="notes"></a>Opmerkingen
 
-Tekst die u invoert in het veld **Notities**, verschijnt *onder* de staptekst in de taakbegeleider. Als de gebruiker de tekst wil lezen, moet deze de staptekst in het pop-upvenster uitvouwen. Deze locatie is geschikt voor optionele tekst of andere informatie die van belang kan zijn voor de gebruiker, maar die de gebruiker niet hoeft te lezen om de actie te voltooien.
+Tekst die u invoert in het veld **Notities**, verschijnt *onder* de staptekst in de taakbegeleiding. Als de gebruiker de tekst wil lezen, moet deze de staptekst in het pop-upvenster uitvouwen. Deze locatie is geschikt voor optionele tekst of andere informatie die van belang kan zijn voor de gebruiker, maar die de gebruiker niet hoeft te lezen om de actie te voltooien.
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Help in Retail Modern POS en Cloud POS
 Om uw eigen taakregistraties in het Help-deelvenster van Retail Modern Pos en Cloud POS weer te geven zodat ze kunnen worden afgespeeld als taakbegeleidingen of als tekst, moet u uw taakregistraties opslaan in een BPM-bibliotheek, en de parameters van het Help-systeem bijwerken om naar uw BPM-bibliotheek te wijzen. Zie voor meer informatie het onderwerp [Verbinding maken met het Help-systeem.](../fin-and-ops/get-started/help-connect.md) Retail Modern POS en Cloud POS Help doorzoekt LCS in real-time. Alle BPM-bibliotheken worden doorzocht die zijn geselecteerd in de parameters van het Microsoft Dynamics 365 for Retail Help-systeem, en de relevante resultaten worden weergegeven. Voor toegang tot het menu **Help** klikt u op de knop **Help** (vraagteken) bovenaan het scherm, typt u vervolgens in het zoekvak uw procesnaam en klikt u op de zoekknop. 
 
 [![De knop Help](./media/help.jpg)](./media/help.jpg) 
 
-Wanneer u op de taakbegeleider in de zoekresultaten klikt, kunt u de stappen weergeven als een Help-onderwerp of een Word-document. 
+Wanneer u op de taakbegeleiding in de zoekresultaten klikt, kunt u de stappen weergeven als een Help-onderwerp of een Word-document. 
 #### <a name="note"></a>Opmerking
 > Help in Retail Modern POS en Cloud POS opent geen taakbegeleiding op basis van het formulier waar u zich bevindt of de bewerking die u uitvoert. U moet de procesnaam in het zoekvak typen en op **Zoeken** klikken.
 

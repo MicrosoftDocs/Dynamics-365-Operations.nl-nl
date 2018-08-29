@@ -1,5 +1,5 @@
 ---
-title: Documentatie of trainingen maken met Taakregistraties
+title: Documentatie of trainingen maken via taakregistraties
 description: In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, hoe u taakregistraties maakt en hoe u Microsoft-taakbegeleidingen aanpast en opneemt in uw Help.
 author: josaw1
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fc5b0798397047d1adedfc19406a7875c853bea6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="create-documentation-or-training-using-task-recordings"></a>Documentatie of trainingen maken met Taakregistraties
+# <a name="create-documentation-or-training-by-using-task-recordings"></a>Documentatie of trainingen maken via taakregistraties
 
 [!include [banner](../includes/banner.md)]
 
@@ -71,7 +71,7 @@ Dit is het bewerkingsdeelvenster dat u ziet wanneer u een aantekening toevoegt a
 
 [![screen1](./media/screen1.png)](./media/screen1.png) 
 
-Zo ziet de titelaantekening eruit in de "ballon" in de taakbegeleider. 
+Zo ziet de titelaantekening eruit in de "ballon" in de taakbegeleiding. 
 
 [![screen2](./media/screen2.png)](./media/screen2.png)
 

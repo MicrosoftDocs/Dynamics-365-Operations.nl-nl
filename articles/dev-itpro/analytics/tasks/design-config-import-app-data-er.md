@@ -1,5 +1,5 @@
 --- 
-title: Configuraties ontwerpen om inkomende documenten te parseren voor toepassingsgegevensupdates (ER)
+title: ER-configuraties ontwerpen voor het parseren van inkomende documenten
 description: Deze procedure toont aan hoe u ER-configuraties (Elektronische rapportage) ontwerpt om een inkomend elektronisch document te parseren.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Configuraties ontwerpen om inkomende documenten te parseren voor toepassingsgegevensupdates (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>ER-configuraties ontwerpen voor het parseren van inkomende documenten
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ Deze procedure toont aan hoe u ER-configuraties (Elektronische rapportage) ontwe
 
 Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembeheerder of Elektronische aangifteontwikkelaar. 
 
-Deze stappen kunnen worden voltooid met elke dataset. Voordat u begint, downloadt u de bestanden die worden genoemd in het onderwerp 'Inkomende documenten parseren om toepassingsgegevens bij te werken' (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents) en slaat u deze op. De bestanden zijn: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Deze stappen kunnen worden voltooid met elke dataset. Voordat u begint, downloadt u de bestanden die worden vermeld in het onderwerp 'Inkomende documenten parseren om toepassingsgegevens bij te werken' (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)) en slaat u deze op. De bestanden zijn: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als Actief. Als u deze configuratieprovider niet ziet, voert u eerst de stappen uit in de procedure 'Een configuratieprovider maken en deze als actief markeren'.  

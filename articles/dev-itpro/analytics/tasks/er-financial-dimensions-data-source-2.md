@@ -1,5 +1,5 @@
 --- 
-title: "Modellen toewijzen voor gebruik van financiële dimensies als gegevensbron"
+title: "Modellen toewijzen voor gebruik van financiële dimensies als gegevensbronnen"
 description: "In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan configureren om financiële dimensies te gebruiken als bron voor ER-rapporten."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c26713a8a391f9f10a6e24f6619c24c1615d4560
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 4d9c0f50a724582941ac11e4f01b3cfd3b1cf262
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="map-models--to-use-financial-dimensions-as-a-data-source"></a>Modellen toewijzen voor gebruik van financiële dimensies als gegevensbron 
+# <a name="map-models-to-use-financial-dimensions-as-data-sources"></a>Modellen toewijzen voor gebruik van financiële dimensies als gegevensbronnen 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

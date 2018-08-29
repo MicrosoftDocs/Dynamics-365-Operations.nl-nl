@@ -1,5 +1,5 @@
 ---
-title: Elektronische documenten genereren en toepassingsgegevens bijwerken met behulp van het hulpmiddel Elektronische Rapportage
+title: Elektronische documenten genereren en toepassingsgegevens bijwerken via ER
 description: U kunt indelingen voor elektronische rapportage (ER) ontwerpen, die in de toepassing Finance and Operations kunnen worden gebruikt voor het genereren van uitgaande elektronische documenten. U kunt ook ER-indelingen ontwerpen die binnenkomende elektronische documenten parseren en de inhoud in die documenten gebruiken om toepassingsgegevens bij te werken.
 author: NickSelin
 manager: AnnBe
@@ -19,18 +19,18 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: e2447274016f517db3ec0eb8f55c6b3163822f50
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Elektronische documenten genereren en toepassingsgegevens bijwerken met behulp van het hulpmiddel Elektronische Rapportage
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Elektronische documenten genereren en toepassingsgegevens bijwerken via ER
 
 [!include [banner](../includes/banner.md)]
 
-U kunt indelingen voor elektronische rapportage (ER) ontwerpen, die in de toepassing Finance and Operations kunnen worden gebruikt voor het genereren van uitgaande elektronische documenten. U kunt ook ER-indelingen ontwerpen die binnenkomende elektronische documenten parseren en de inhoud in die documenten gebruiken om toepassingsgegevens bij te werken. 
+U kunt indelingen voor elektronische rapportage (ER) ontwerpen, die in de toepassing Finance and Operations kunnen worden gebruikt voor het genereren van uitgaande elektronische documenten. U kunt ook ER-indelingen ontwerpen die binnenkomende elektronische documenten parseren en de inhoud in die documenten gebruiken om toepassingsgegevens bij te werken.
 
 Met deze functionaliteit kan één ER-indeling worden gebruikt om uitgaande elektronische documenten te genereren en vervolgens de toepassingsgegevens bij te werken. U kunt deze functie gebruiken in de volgende scenario's:
 

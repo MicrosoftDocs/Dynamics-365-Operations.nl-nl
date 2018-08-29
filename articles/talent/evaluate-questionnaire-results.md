@@ -1,5 +1,5 @@
 ---
-title: De resultaten van een vragenlijst bekijken en evalueren
+title: De resultaten van vragenlijsten bekijken en evalueren
 description: In dit onderwerp wordt uitgelegd hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen.
 author: kherr75
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f87238b3b2f6e7cc68bf2f1a7cd3a21254f3599a
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>De resultaten van een vragenlijst bekijken en evalueren
+# <a name="view-and-evaluate-the-results-of-questionnaires"></a>De resultaten van vragenlijsten bekijken en evalueren
 
 [!include [banner](includes/banner.md)]
 

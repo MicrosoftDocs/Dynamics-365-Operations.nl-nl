@@ -1,5 +1,5 @@
 ---
-title: Werkgebied voor validatie van gegevens
+title: Werkgebied Controlelijst voor gegevensvalidatie
 description: Met het werkgebied Controlelijst voor gegevensvalidatie kunt u processen voor validatie van gegevens over bedrijven, gebieden en mensen volgen. De controlelijst kan worden gebruikt tijdens een nieuwe implementatie, na een upgrade of na een migratie.
 author: bking
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DataValidationWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="data-validation-workspace"></a>Werkgebied voor validatie van gegevens
+# <a name="data-validation-checklist-workspace"></a>Werkgebied Controlelijst voor gegevensvalidatie
 
 [!include [banner](../includes/banner.md)]
 

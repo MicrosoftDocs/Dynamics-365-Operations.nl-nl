@@ -1,5 +1,5 @@
 ---
-title: Een besturingselement voor aanbevelingen toevoegen aan de transactiepagina op een POS-apparaat
+title: Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
 description: In dit onderwerp wordt beschreven hoe u een besturingselement voor aanbevelingen kunt toevoegen aan het transactiescherm op een POS-apparaat (Point of Sale) met behulp van de schermindelingsontwerper in Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eac70614770189d1e45f347b282c94e645e95b00
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 26b03b6712c97b12e1221598de308813c7986179
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Een besturingselement voor aanbevelingen toevoegen aan de transactiepagina op een POS-apparaat
+# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Een besturingselement voor aanbevelingen toevoegen aan het transactiescherm op POS-apparaten
 
 [!include [banner](includes/banner.md)]
 

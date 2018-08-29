@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met Microsoft Dynamics 365 for Talent
+title: Aan de slag met Talent
 description: In dit onderwerp wordt beschreven hoe u de gebruikersinterface aanpast aan uw voorkeuren en de Help-bronnen gebruikt die beschikbaar zijn in het product en op de site docs.microsoft.com.
 author: rschloma
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Aan de slag met Microsoft Dynamics 365 for Talent
+# <a name="get-started-with-talent"></a>Aan de slag met Talent
 
 [!include [banner](includes/banner.md)]
 

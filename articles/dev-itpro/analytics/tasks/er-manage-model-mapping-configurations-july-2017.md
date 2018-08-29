@@ -1,5 +1,5 @@
 --- 
-title: Model beheren voor toewijzing van configuraties voor elektronische aangifte (ER)
+title: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage ER-modeltoewijzingen (Electronic Reporting) kan beheren in aparte ER-configuraties.
 author: NickSelin
 manager: AnnBe
@@ -16,19 +16,19 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 35fdc1e98897d449ce18fe38cc6b7896ca5c5278
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a>Model beheren voor toewijzing van configuraties voor elektronische aangifte (ER)
+# <a name="manage-er-model-mapping-in-separate-er-configurations"></a>ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
 In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage ER-modeltoewijzingen (Electronic Reporting) kan beheren in aparte ER-configuraties. In deze taakbegeleiding maakt u de vereiste ER-configuraties voor het voorbeeldbedrijf Litware, Inc. Voordat u deze taakbegeleiding uitvoert, moet u eerst de stappen uitvoeren in de Taakbegeleiding 'ER Een configuratieprovider maken' en deze als actief markeren. 
 
-Omdat ER-configuraties worden gedeeld tussen bedrijven, kunt u deze taakbegeleider voltooien met behulp van de bedrijfsgegevensset van uw keuze. De functionaliteit voor deze taakbegeleider is beschikbaar als u een van de volgende hotfixes hebt geïnstalleerd: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 voor de Dynamics AX-7.0-versie of https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 voor de Dynamics 365 for Operations-versie.
+Omdat ER-configuraties worden gedeeld tussen bedrijven, kunt u deze taakbegeleiding voltooien met behulp van de bedrijfsgegevensset van uw keuze. De functionaliteit voor deze taakbegeleiding is beschikbaar als u een van de volgende hotfixes hebt geïnstalleerd: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 voor de versie Dynamics AX 7.0 of https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 voor de versie Dynamics 365 for Operations.
 
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
     * Controleer of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. beschikbaar is en gemarkeerd als actief. Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de taakbegeleiding "Een configuratieprovider maken" en deze als actief markeren uitvoeren.   

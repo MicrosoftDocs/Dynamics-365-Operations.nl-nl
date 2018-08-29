@@ -1,5 +1,5 @@
 ---
-title: Een wervingsproces beheren
+title: Wervingsprocessen beheren
 description: In dit artikel wordt een concept beschreven dat recruiters kunnen gebruiken om de stappen in een aanwervingsproces op te volgen, waaronder inspanningen om vacatures te adverteren en sollicitanten aan te werven, het opvolgen van gegevens van sollicitanten en sollicitaties, het interviewen van sollicitanten en een of meerdere kandidaten selecteren om de openstaande posities in uw organisatie in te vullen.
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a7dba99c08d4dfc6afd1047130cea51b6bdab1d
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 80072aebe99b0a7f244c9475dc9ba586bc697893
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="manage-a-recruiting-process"></a>Een wervingsproces beheren
+# <a name="manage-recruiting-processes"></a>Wervingsprocessen beheren
 
 [!include [banner](../includes/banner.md)]
 

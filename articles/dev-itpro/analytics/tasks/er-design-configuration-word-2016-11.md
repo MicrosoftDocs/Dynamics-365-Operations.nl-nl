@@ -1,5 +1,5 @@
 --- 
-title: Een configuratie ontwerpen voor het genereren van rapporten in Microsoft Word-indeling voor elektronische aangifte (ER)
+title: ER-configuraties ontwerpen om rapporten in Word-indeling te genereren
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met een rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-indeling (elektronische rapportage) kan configureren, waarmee rapporten in de vorm van Microsoft Word-bestanden worden gegenereerd.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Een configuratie ontwerpen voor het genereren van rapporten in Microsoft Word-indeling voor elektronische aangifte (ER)
+# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER-configuraties ontwerpen om rapporten in Word-indeling te genereren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -63,7 +63,7 @@ Deze procedure is voor een functie die in versie 1611 van Microsoft Dynamics 365
     * De actie Opslaan legt niet alleen de configuratiewijzigingen vast, maar werkt ook tegelijk de gekoppelde Word-sjabloon bij. De structuur van de ontworpen indeling wordt overgezet naar het gekoppelde Word-document als een nieuw aangepast XML-onderdeel met de naam 'Report'. Let erop dat de gekoppelde Word-sjabloon niet alleen de indeling van het document bevat dat we wilt genereren als ER-uitvoer, maar ook de structuur van gegevens die ER in deze sjabloon tijdens runtime invult.  
 2. Klik op Bijlagen.
     * Nu moet u de elementen van het aangepaste XML-onderdeel 'Report' binden aan de delen van het Word-document.  
-    * Als u ervaring hebt met Word-documenten die zijn ontwikkeld als formulieren met inhoudsbesturingselementen die gebonden zijn aan met elementen van aangepaste XML-onderdelen: speel alle stappen van de volgende subtaak af om een dergelijk document te maken. Klik voor meer informatie op de volgende koppeling: https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Zo niet, dan kunt u alle stappen in de volgende subtaak overslaan.  
+    * Als u ervaring hebt met Word-documenten die zijn ontwikkeld als formulieren met inhoudsbesturingselementen die gebonden zijn aan met elementen van aangepaste XML-onderdelen: speel alle stappen van de volgende subtaak af om een dergelijk document te maken. Zie deze koppeling https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US voor nadere details. Zo niet, dan kunt u alle stappen in de volgende subtaak overslaan.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Word met aangepast XML-onderdeel gegevensbindingen laten uitvoeren
     * Open dit document in Word en doe het volgende: - Ga naar het tabblad Word-ontwikkelaar (pas het lint aan als dit tabblad nog niet is ingeschakeld).  - Selecteer het deelvenster XML-toewijzing.  - Selecteer het aangepaste XML-onderdeel 'Rapport' in de zoekopdracht.  - Voer de toewijzing uit van de elementen van het geselecteerde, aangepaste XML-onderdeel aan de inhoudsbesturingselementen van het Word-document.  - Sla het bijgewerkte Word-document op een lokaal station op.  

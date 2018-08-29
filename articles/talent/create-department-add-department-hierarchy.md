@@ -1,5 +1,5 @@
 ---
-title: "Een afdeling maken en koppelen aan de afdelingshiërarchie"
+title: "Afdelingen maken en deze opnemen in de afdelingenhiërarchie"
 description: Een afdeling is een operationele eenheid die een categorie of functioneel onderdeel van een organisatie voorstelt. Een afdeling is verantwoordelijk voor een specifiek gebied van de organisatie, zoals verkoop, boekhouding of HR. U kunt afdelingen gebruiken om te rapporteren over functiegebieden. Afdelingen zijn mogelijk verantwoordelijk voor winst en verlies.
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: 3fc30669bf7a16616484bf7115cb121ce463840f
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 14e0acb2ea16641eecb81bcf23c8b7d778b2b208
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Een afdeling maken en koppelen aan de afdelingshiërarchie
+# <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Afdelingen maken en deze opnemen in de afdelingenhiërarchie
 
 [!include [banner](includes/banner.md)]
 

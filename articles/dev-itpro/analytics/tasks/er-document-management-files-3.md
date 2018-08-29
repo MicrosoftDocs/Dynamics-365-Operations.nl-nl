@@ -1,5 +1,5 @@
 --- 
-title: Indeling maken voor gebruik van documentbeheerbestanden in uitvoerindelingen
+title: Indelingen maken voor gebruik van documentbeheerbestanden in ER-uitvoer
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d5df842dbbf89f5df72c63919fc0bcbf811a09c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 934775bbdda13238e16fba91dcb90d6d3249e812
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-format-to-use-document-management-files-in-format-outputs"></a>Indeling maken voor gebruik van documentbeheerbestanden in uitvoerindelingen
+# <a name="create-formats-to-use-document-management-files-in-er-output"></a>Indelingen maken voor gebruik van documentbeheerbestanden in ER-uitvoer
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

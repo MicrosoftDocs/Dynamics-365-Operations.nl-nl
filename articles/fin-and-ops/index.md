@@ -18,14 +18,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
-ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/10/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Inleiding tot Microsoft Dynamics 365 for Finance and Operations
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentatie voor Microsoft Dynamics 365 for Finance and Operations
 [!include [banner](includes/banner.md)]
 
 Informatie over hoe u Microsoft Dynamics 365 for Finance and Operations voor uw bedrijf kunt laten werken met behulp van de onderstaande informatiebronnen. Hiermee kunt u interessante inhoud vinden voor eindgebruikers, ontwikkelaars en IT-professionals. 
@@ -69,7 +69,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Microso
 <p><a href="../talent/performance-management-overview.md">Ontwikkeling en training van werknemers</a></p>
 <p><a href="../talent/questionnaires.md">Vragenlijst</a></p>
 <p><a href="hr/manage-recruiting-process.md">Werving</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Salaris VS</a></p>
+<p><a href="hr/localizations/noam-usa-payroll.md">Salarisadministratie VS</a></p>
 
 <h3><a href="../supply-chain/index.md">Toeleveringsbeheer</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Kostenbeheer</a></p>

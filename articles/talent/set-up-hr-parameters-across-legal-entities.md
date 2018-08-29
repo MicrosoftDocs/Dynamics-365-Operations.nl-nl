@@ -1,5 +1,5 @@
 ---
-title: HR-parameters instellen voor rechtspersonen
+title: Parameters voor HR-resources instellen voor rechtspersonen
 description: U moet gedeelde parameters instellen voor records die tussen bedrijven worden gedeeld, zoals Positierecords. In dit artikel wordt uitgelegd hoe u Human Resources-parameters instelt voor alle rechtspersonen.
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1241d8da101af094ac510819376908727f9bcf07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: cc5acf7ba1b350ee2c91923c7de3b4780385f3ef
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-hr-parameters-across-legal-entities"></a>HR-parameters instellen voor rechtspersonen
+# <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>Parameters voor HR-resources instellen voor rechtspersonen
 
 [!include [banner](includes/banner.md)]
 

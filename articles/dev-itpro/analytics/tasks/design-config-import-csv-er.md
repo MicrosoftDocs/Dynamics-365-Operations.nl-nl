@@ -1,5 +1,5 @@
 --- 
-title: Een configuratie ontwerpen voor het importeren van gegevens uit een extern CSV-bestand (ER)
+title: ER-configuraties ontwerpen om gegevens te importeren uit externe CSV-bestanden
 description: Gebruik deze procedure voor het ontwerpen van ER-configuraties (elektronische rapportage) om gegevens te importeren in Dynamics 365 for Finance and Operations vanuit een extern bestand in CSV-indeling.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Een configuratie ontwerpen voor het importeren van gegevens uit een extern CSV-bestand (ER)
+# <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ER-configuraties ontwerpen om gegevens te importeren uit externe CSV-bestanden
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

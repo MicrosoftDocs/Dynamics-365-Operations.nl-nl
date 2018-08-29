@@ -1,16 +1,16 @@
 ---
 title: Vereffeningsoverzicht voor gecentraliseerde betalingen
-description: Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door een rechtspersoon te gebruiken die alle betalingen verwerkt. Hierdoor hoeft u dezelfde transactie niet voor meerdere rechtspersonen in te voeren en bespaart u tijd doordat het betalingsvoorstelproces, het vereffeningsproces, en het bewerken van openstaande en gesloten transacties voor gecentraliseerde betalingen worden gestroomlijnd.
+description: In dit onderwerp wordt de vereffening van gecentraliseerde betalingen voor Microsoft Dynamics 365 for Finance and Operations beschreven.
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -35,8 +35,8 @@ Organisaties met meerdere rechtspersonen kunnen betalingen maken en beheren door
 Als betaling door een klant of leverancier wordt ingevoerd in een rechtspersoon en is vereffend met een factuur die in een andere rechtspersoon is ingevoerd, worden voor elke rechtspersoon automatisch de toepasbare vereffening, aan- en van-transacties gegenereerd voor elke rechtspersoon. Er wordt een vereffeningsrecord gemaakt voor elke combinatie van factuur en betaling in de transactie. Aan elk vereffeningsrecord wordt een nieuw boekstuknummer toegewezen, gebaseerd op de nummervolgordereeks voor betalingsboekstukken die is opgegeven op de pagina **Klantparameters** voor klanten en op de pagina **Leverancierparameters** voor leveranciers. 
 
 Als extra vereffeningsrecords worden gegenereerd voor contantkortingen, aanpassingen voor buitenlandse valuta, afrondingen, over- of onderbetalingen, krijgen deze de latere datum toegewezen van de betalings- of factuurtransactie. Als vereffening plaatsvindt na het boeken van de betaling, wordt voor de vereffeningsrecords de boekingsdatum van de vereffeningsrecords gebruikt die is opgegeven op de pagina **Openstaande transacties vereffenen**.
-Soorten boekingen, soorten transacties, en standaardbeschrijvingen
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Soorten boekingen, soorten transacties, en standaardbeschrijvingen
 
 De boekstuktransacties voor intercompany-vereffening gebruiken het boekingstype voor intercompany-vereffening, intercompany-klantvereffening en transactietypen voor intercompany-leveranciervereffening. U kunt informatie voor het transactietype instellen op de pagina **Standaardomschrijvingen**. 
 
@@ -50,8 +50,7 @@ De volgende transactietypen zijn beschikbaar voor gebruik in vereffeningen voor 
 
 U kunt ook standaardbeschrijvingen definiëren voor intercompany-vereffeningsboekstukken.
 
-<a name="currency-exchange-gains-or-losses"></a>Winst of verlies bij valutawissel
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Winst of verlies bij valutawissel
 
 De wisselkoers die wordt gebruikt voor klant- of leveranciertransacties, wordt opgeslagen bij de transactie. Gerealiseerde winsten of verliezen voor valutaomrekening worden geboekt voor de rechtspersoon van de factuur of voor de rechtspersoon van de betaling, afhankelijk van de optie die is geselecteerd voor het veld **Winst of verlies bij valutawissel boeken** op de pagina **Intercompany-boekhouding** voor de rechtspersoon van de betaling. In de volgende voorbeelden worden deze valuta's gebruikt:
 -   Boekhoudvaluta betaling: EUR
@@ -59,7 +58,7 @@ De wisselkoers die wordt gebruikt voor klant- of leveranciertransacties, wordt o
 -   Valuta betalingstransactie: DKK
 -   Valuta factuurtransactie: CAD
 
-#### <a name="currency-calculations"></a>Valutaberekeningen
+### <a name="currency-calculations"></a>Valutaberekeningen
 
 Bij het vereffenen van een factuur die is ingevoerd in een rechtspersoon met een betaling die is ingevoerd in een andere rechtspersoon, wordt de transactievaluta van de betaling (DKK) in drie stappen geconverteerd:
 1.  Geconverteerd naar de boekhoudvaluta voor de betaling (EUR), waarbij de valutakoers van de rechtspersoon van de betaling gebruikt wordt.
@@ -75,17 +74,15 @@ Wanneer de pagina **Openstaande transacties vereffenen** is geopend vanuit een b
 
 Het resulterende betalingsbedrag wordt overgeboekt naar de betalingsjournaalregel wanneer u de pagina **Openstaande transacties vereffenen** sluit.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Voor winst of verlies boeken als gevolg van verschillende boekhoudvaluta
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Voor winst of verlies boeken als gevolg van verschillende boekhoudvaluta
 
 Als sprake is van winst of verlies bij valutawissel, wordt deze geboekt voor de rechtspersoon die is opgegeven voor het veld **Winst of verlies bij valutawissel boeken** op de pagina **Intercompany-boekhouding** voor de rechtspersoon van de betaling. Het verlies- of winstbedrag bij valutawissel wordt geconverteerd naar de boekhoudvaluta van de rechtspersoon waar het verlies- of winstbedrag is geboekt, met de valutakoers die voor die rechtspersoon is gedefinieerd.
 
-<a name="cash-discounts"></a>Contantkortingen
---------------
+## <a name="cash-discounts"></a>Contantkortingen
 
 Contantkortingen die tijdens het cross-company vereffeningsproces worden gegenereerd, worden geboekt voor de rechtspersoon van de factuur of voor de rechtspersoon van de betaling, afhankelijk van de optie die is geselecteerd voor het veld **Contantkorting boeken** op de pagina **Intercompany-boekhouding** voor de rechtspersoon van de betaling. Een bijbehorende vereffeningstransactie wordt in de rechtspersoon van de factuur geboekt.
 
-<a name="overpayments-and-underpayments"></a>Overbetalingen en onderbetalingen
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Overbetalingen en onderbetalingen
 
 Toleranties voor overbetaling, onderbetaling en afrondingsverschillen worden bepaald aan de hand van de rechtspersoon van de betaling voor overbetalingen en de rechtspersoon van de factuur voor onderbetalingen. Welke boekingsrekening wordt gebruikt, wordt bepaald door de instelling in het veld **Administratie voor contantkorting** op de  pagin **Klantparameters** voor klanten en het veld **Administratie voor contantkorting** op de pagina **Leverancierparameters** voor leveranciers.
 
@@ -112,9 +109,4 @@ Voor betalingen aan leveranciers gebruiken de transacties bestemd voor en afkoms
 
 ## <a name="withholding-tax"></a>Bronbelasting
 De leveranciersrekening die aan de factuur is gekoppeld, wordt gebruikt om te bepalen of de bronbelasting berekend moet worden. Als bronbelasting van toepassing is, wordt deze berekend in de rechtspersoon die aan de factuur is gekoppeld. Als de rechtspersonen verschillende valuta gebruiken, wordt de wisselkoers gebruikt van de rechtspersoon die aan de factuur is gekoppeld.
-
-
-
-
-
 

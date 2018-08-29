@@ -1,5 +1,5 @@
 ---
-title: Snelle import/export gebruiken
+title: Snelle import/export
 description: Het doel van snelle import/export is om u in staat te stellen met minder stappen te importeren en exporteren.
 author: margoc
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: margoc
 ms.search.validFrom: 
 ms.dyn365.ops.version: AX 2012 R3 CU8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 14b4a56a229a2e1eb15c29eb7a89a89ac31e58db
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 4f2edba4add691e9ad4c7829551c6f79b9804853
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Het hulpmiddel voor testgegevensoverdracht (bèta) voor Dynamics AX (AX 2012) uitvoeren
+# <a name="quick-import-export"></a>Snelle import/export
 
 [!include [banner](../../includes/banner.md)]
 

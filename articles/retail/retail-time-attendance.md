@@ -1,5 +1,5 @@
 ---
-title: Tijd en aanwezigheid detailhandel
+title: Tijd- en aanwezigheidsbeheer in Retail
 description: In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beheer van tijd en aanwezigheid in Microsoft Dynamics 365 for Retail.
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Tijd en aanwezigheid in detailhandel
+# <a name="time-and-attendance-management-in-retail"></a>Tijd- en aanwezigheidsbeheer in Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -43,9 +43,9 @@ In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beh
 
 ### <a name="plan-worker-schedules"></a>De planning van de werknemersplannen
 
--   Profielen toepassen met behulp van de werkplanner. Voor meer informatie zie <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+-   Profielen toepassen met behulp van de werkplanner. Zie <https://technet.microsoft.com/en-us/library/aa551234.aspx> voor meer informatie.
 
-Voor informatie over de configuratiestappen zie <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Zie <https://technet.microsoft.com/en-us/library/aa496971.aspx> voor meer informatie over de configuratiestappen.
 
 ### <a name="retail-specific-configuration"></a>Detailhandelspecifieke configuratie
 
@@ -135,7 +135,7 @@ Een gebruiker in Dynamics 365 for Retail volgt de werkstroom om tijdregistraties
 -   Massaal uitklokken
 -   Verzuim registreren
 
-Voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties zie <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Zie <https://technet.microsoft.com/en-us/library/aa573180.aspx> voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties.
 
 
 

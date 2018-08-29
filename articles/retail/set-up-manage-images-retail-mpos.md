@@ -1,5 +1,5 @@
 ---
-title: Afbeeldingen instellen en beheren voor Retail Modern POS
+title: Afbeeldingen instellen en beheren voor Retail Modern POS (MPOS)
 description: In dit artikel worden de stappen uitgelegd voor het instellen en beheren van afbeeldingen voor verschillende entiteiten die in Retail Modern POS (MPOS) worden weergegeven.
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Afbeeldingen instellen en beheren voor Retail Modern POS
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Afbeeldingen instellen en beheren voor Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
@@ -52,7 +52,7 @@ De afbeeldingen die in Retail Modern POS (MPOS) weergegeven worden, moeten exter
 4.  Voor afbeeldingen is de naamindeling hard gecodeerd op de catalogusnaam en kan deze niet worden gewijzigd. Daarom wijzigt u de naam van uw afbeeldingen zodat ze geschikte catalogusnamen hebben. Dit helpt waarborgen dat MPOS deze correct verwerkt.
 5.  Selecteer in het veld **Bestandsextensie** de verwachte bestandsnaamextensie, afhankelijk van het type afbeeldingen dat u hebt. Voor de demogegevens krijgen de catalogusafbeeldingen bijvoorbeeld de extensie .jpg. (De afbeeldingsbestanden worden ook hernoemd zodat deze catalogusnamen hebben.)
 6.  Klik op **OK**.
-7.  Om te valideren dat de mediasjabloon voor afbeeldingen correct is opgeslagen, klikt u op de pagina **Catalogusafbeeldingen** op **Mediasjabloon definiëren**. Om de sjabloon te valideren zonder het dialoogvenster **Mediasjabloon definiëren** te sluiten, kunt u het sneltabblad **Afbeeldings-URL's voor Excel genereren** gebruiken. Controleer de weergave van de afbeeldings-URL en controleer of de URL voldoet aan de eerder genoemde sjabloonstandaard. Het dialoogvenster **Mediasjabloon definiëren** heeft nu impliciet het afbeeldingspad ingesteld voor alle catalogusafbeeldingen die dit algemene URL-pad gebruiken. Dit URL-pad geldt voor alle catalogusafbeeldingen tenzij deze worden overschreven. Het eerste deel van het afbeeldingpad wordt overgenomen van de basis-URL voor media die u in het kanaalprofiel hebt gedefinieerd. Het resterende gedeelte van het pad is afkomstig uit het pad dat u in de sjabloon heeft opgegeven. De twee delen worden aaneengeschakeld om de volledige URL van de afbeeldingslocatie te bieden. Een catalogus in de demogegevens heeft bijvoorbeeld de naam Fabrikam-basiscatalogus. Daarom moet de afbeeldingsnaam Fabrikam Base Catalog.jpg zijn zodat deze de catalogusnaam en de bestandsnaamextensie .jpg gebruikt die in de sjabloon is geconfigureerd. In dit geval wordt de URL na aaneenschakeling https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
+7.  Om te valideren dat de mediasjabloon voor afbeeldingen correct is opgeslagen, klikt u op de pagina **Catalogusafbeeldingen** op **Mediasjabloon definiëren**. Om de sjabloon te valideren zonder het dialoogvenster **Mediasjabloon definiëren** te sluiten, kunt u het sneltabblad **Afbeeldings-URL's voor Excel genereren** gebruiken. Controleer de weergave van de afbeeldings-URL en controleer of de URL voldoet aan de eerder genoemde sjabloonstandaard. Het dialoogvenster **Mediasjabloon definiëren** heeft nu impliciet het afbeeldingspad ingesteld voor alle catalogusafbeeldingen die dit algemene URL-pad gebruiken. Dit URL-pad geldt voor alle catalogusafbeeldingen tenzij deze worden overschreven. Het eerste deel van het afbeeldingpad wordt overgenomen van de basis-URL voor media die u in het kanaalprofiel hebt gedefinieerd. Het resterende gedeelte van het pad is afkomstig uit het pad dat u in de sjabloon heeft opgegeven. De twee delen worden aaneengeschakeld om de volledige URL van de afbeeldingslocatie te bieden. Een catalogus in de demogegevens heeft bijvoorbeeld de naam Fabrikam-basiscatalogus. Daarom moet de afbeeldingsnaam Fabrikam Base Catalog.jpg zijn zodat deze de catalogusnaam en de bestandsnaamextensie .jpg gebruikt die in de sjabloon is geconfigureerd. In dit geval wordt de URL na samenvoeging: https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
 8.  Voer de synchronisatietaken uit om de nieuwe sjabloon naar de te kanaaldatabase te zenden, zodat MPOS de sjabloon kan gebruiken om afbeeldingen te openen.
 9.  Om de mediasjabloon voor catalogusafbeeldingen aan de kanaalkant bij te werken, moet u **Catalogustaak 1150** uitvoeren vanuit **Detailhandel IT** &gt; **Distributieplanning**.[![catalog1](./media/catalog1.png)](./media/catalog1.png)
 

@@ -1,6 +1,6 @@
 --- 
-title: Configuraties beoordelen voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
-description: 'Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleider ''ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: Parameters instellen)''.'
+title: Configuraties beoordelen voor het genereren van rapporten in Office-indeling die ingesloten afbeeldingen bevatten
+description: 'Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleiding ''ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: Parameters instellen)''.'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -16,17 +16,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Configuraties beoordelen voor het maken van rapporten in Microsoft Office-indelingen met ingesloten afbeeldingen
+# <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Configuraties beoordelen voor het genereren van rapporten in Office-indeling die ingesloten afbeeldingen bevatten
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleider 'ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: parameters instellen)'.
+Als u deze stappen wilt voltooien, moet u eerst de stappen uitvoeren in de taakbegeleiding 'ER Rapporten in MS Office-indelingen maken met ingesloten afbeeldingen (deel 1: parameters instellen)'.
 
 Deze procedure laat zien hoe u elektronische rapportage (ER)-configuraties ontwerpt voor het genereren van elektronische documenten met ingesloten afbeeldingen in Microsoft Excel en Microsoft Word. In dit voorbeeld controleert u ER-configuraties voor voorbeeldbedrijf Litware, Inc. 
 

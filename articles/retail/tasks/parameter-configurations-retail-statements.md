@@ -1,5 +1,5 @@
 --- 
-title: " Parameterconfiguraties voor detailhandeloverzichten"
+title: Retail-parameters configureren die gevolgen hebben voor detailhandeloverzichten
 description: Deze procedure demonstreert configuraties voor detailhandelparameters die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt.
 author: josaw1
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 0c93633e92221264cc6a67c74d62edaa59bdbd2f
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ff12587d8332801131d5b0cac84e0db38f8f6142
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="parameter-configurations-for-retail-statements"></a> Parameterconfiguraties voor detailhandeloverzichten
+# <a name="configure-retail-parameters-that-affect-retail-statements"></a>Retail-parameters configureren die gevolgen hebben voor detailhandeloverzichten
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

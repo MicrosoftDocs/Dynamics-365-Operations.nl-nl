@@ -1,5 +1,5 @@
 --- 
-title: Een configuratie importeren vanuit Lifecycle Services voor elektronische aangifte (ER)
+title: Configuraties voor elektronische rapportage importeren vanuit Lifecycle Services
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe versie van een ER-configuratie uit Microsoft Lifecycle Services (LCS) kan importeren.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9eb4f54897c84b98828c927f0f93613583fd4599
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: f3b8cdb722cf49194faccc19fbb95265a230d48b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a>Een configuratie importeren vanuit Lifecycle Services voor elektronische aangifte (ER)
+# <a name="import-electronic-reporting-configurations-from-lifecycle-services"></a>Configuraties voor elektronische rapportage importeren vanuit Lifecycle Services
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
