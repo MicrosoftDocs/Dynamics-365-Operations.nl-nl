@@ -1,9 +1,9 @@
 ---
-title: Help-overzicht
+title: Help-systeem voor Finance and Operations
 description: Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren.
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="help-system-overview"></a>Overzicht Help-systeem
+# <a name="finance-and-operations-help-system"></a>Help-systeem voor Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Als u zich wilt abonneren op een RSS-feed van alle updates op de Unified Operati
 [RSS-feed](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Feedback geven 
-We stellen feedback van klanten zeer op prijs. U kunt opmerkingen geven of wijzigingen in onze inhoud voorstellen via GitHub.
+We stellen feedback van klanten zeer op prijs. U kunt opmerkingen geven of wijzigingen in onze inhoud voorstellen via GitHub. Zie [dit blogbericht](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs) voor meer informatie over ons feedbacksysteem.
 
-##### <a name="leave-us-a-comment"></a>Een opmerking achterlaten 
+##### <a name="leave-us-feedback"></a>Feedback achterlaten 
 Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aan de pagina een opmerking achterlaten.  
 
-1 Klik op **Opmerkingen** om naar de opmerkingen onder aan de pagina te gaan.
+1. Klik op **Feedback** om de opmerkingen onder aan de pagina te gaan en klik vervolgens op **Productfeedback** of **Aanmelden om feedback te geven over de documentatie**.
 
-![Opmerkingen](./media/comments.png)
+![Feedback](./media/comments.png)
 
-2 Typ uw opmerking en klik vervolgens op **Opmerking verzenden**.
+2. Begin met het typen van uw opmerkingen en klik vervolgens op **Feedback verzenden**.
 
-![Opmerking verzenden](./media/before-signin.png)
+![Opmerking verzenden](./media/feedback.png)
 
-3 Selecteer het type account waarmee u zich wilt aanmelden:  
-Klik op een van de pictogrammen aan de linkerkant om deze site koppelen aan een bestaand account, zoals een Twitter-, Facebook- of Microsoft-account. 
-
-Of 
-
-Voer aan de rechterkant een e-mailadres en een nieuw wachtwoord in om een account voor de site te maken. 
-
-![Aanmeldopties](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Een wijziging voorstellen of inhoud bijdragen via GitHub
@@ -115,21 +107,20 @@ Raadpleeg voor meer informatie onze handleiding voor bijdragers: https://github.
 
 > [!NOTE]
 > Op dit moment accepteren we alleen nog bijdragen aan onze Engelse opslaglocaties.  
-> We accepteren geen gerapporteerde problemen via GitHub. Gebruik een wijzigingsaanvraag voor inhoudssuggesties. Product- en functiefeedback kan het beste worden afgehandeld via de Dynamics 365-portal Ideas: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Taakbegeleidingen
-Een taakbegeleider is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. U kunt een taakbegeleider openen (afspelen) via het deelvenster Help. Wanneer u eerst op een taakbegeleider klikt, worden in het deelvenster Help de stapsgewijze instructies voor de taak weergegeven. Gelokaliseerde taakbegeleiders zijn nu beschikbaar. 
+Een taakbegeleiding is een gecontroleerde, begeleide, interactieve ervaring die u door de stappen van een taak of bedrijfsproces leidt. U kunt een taakbegeleiding openen (afspelen) via het deelvenster Help. Wanneer u eerst op een taakbegeleiding klikt, worden in het deelvenster Help de stapsgewijze instructies voor de taak weergegeven. Gelokaliseerde taakbegeleidingen zijn nu beschikbaar. 
 
 We bieden verschillende sets met taakbegeleidingen voor elk product zoals Dynamics 365 for Retail, Dynamics 365 for Finance and Operations of Dynamics 365 for Talent. In de sectie Taakbegeleidingen openen via het deelvenster Help wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt. 
 
-![Leesweergave van taakbegeleider](./media/task-guide-ops.png)
+![Leesweergave van taakbegeleiding](./media/task-guide-ops.png)
 
 U kunt met de interactieve taakbegeleiding beginnen door op **Taakbegeleiding starten** onder aan het deelvenster Help te klikken. Een zwarte aanwijzer wordt geopend en wijst de actie aan die u moet uitvoeren. Volg de aanwijzingen die in de UI verschijnen en voer gegevens in volgens de aanwijzingen. 
-![Instructies bij stappen taakbegeleider](./media/task-guide-step-1-ops.png)
+![Instructies bij stappen taakbegeleiding](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT] 
-> De gegevens die u invoert wanneer u een taakbegeleider afspeelt, zijn echt. Als u in een productieomgeving bent, worden de gegevens ingevoerd in het bedrijf dat u momenteel gebruikt.
+> De gegevens die u invoert wanneer u een taakbegeleiding afspeelt, zijn echt. Als u in een productieomgeving bent, worden de gegevens ingevoerd in het bedrijf dat u momenteel gebruikt.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Het begint allemaal met Taakregistratie
 
@@ -145,7 +136,7 @@ Zie voor meer informatie over Taakrecorder [Taakrecorder in Finance and Operatio
 U kunt uw eigen taakregistraties maken, of u kunt taakregistraties die Microsoft levert, downloaden en aanpassen. Zo kunt u aangepaste Help voor uw organisatie maken die uw specifieke implementatie van Finance and Operations reflecteert. Opmerking: Om een taakregistratie in het deelvenster Help van Finance and Operations weer te geven en af te spelen als een taakbegeleiding, moet u de registratie opslaan in een BPM-bibliotheek in LCS. Als u een partner bent en een bibliotheek propageert als bedrijfsbibliotheek en deze in een oplossing opneemt, wordt deze beschikbaar voor uw klanten. Zie [Taakregistraties gebruiken om documentatie of een training te maken](../../dev-itpro/user-interface/task-recorder.md) voor volledige instructies.
 
 ## <a name="in-product-help"></a>Help in het product
-Voor toegang tot de Help-inhoud in Finance and Operations klikt u op het pictogram **Help** (**?**) en kiest u vervolgens Help of drukt u op Ctrl+Shift+?. In beide gevallen wordt het deelvenster Help geopend. Via het deelvenster Help kunt u artikelen of taakbegeleiders openen. 
+Voor toegang tot de Help-inhoud in Finance and Operations klikt u op het pictogram **Help** (**?**) en kiest u vervolgens Help of drukt u op Ctrl+Shift+?. In beide gevallen wordt het deelvenster Help geopend. Via het deelvenster Help kunt u artikelen of taakbegeleidingen openen. 
 
 ![Deelvenster Help](./media/help-pane-wiki.png)
 
@@ -156,7 +147,7 @@ Via het deelvenster Help kunt u artikelen openen die betrekking hebben op de Fin
 > [!IMPORTANT]
 > Deze sectie geldt niet voor Dynamics 365 for Talent. Het Help-systeem voor Talent is automatisch gekoppeld aan taakbegeleidingen voor het product. U kunt ook geen aangepaste taakbegeleidingen voor Talent maken. 
 
-### <a name="accessing-task-guides-from-the-help-pane"></a>Taakbegeleiders openen via het deelvenster Help
+### <a name="accessing-task-guides-from-the-help-pane"></a>taakbegeleidingen openen via het deelvenster Help
 
 Voordat u taakbegeleidingen via het deelvenster Help kunt openen, moet een Systeembeheerder naar de pagina **Systeemparameters** in Finance and Operations gaan en enkele instellingen configureren. 
 
@@ -178,15 +169,15 @@ Voer op de pagina **Systeemparameters** de volgende stappen uit:
 
 4.  Stel de weergavevolgorde van de BPM-bibliotheken in. Dit bepaalt de volgorde waarin de taakregistraties uit de bibliotheken verschijnen in het deelvenster Help.
 
-Wanneer een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster Help openen en op het tabblad **Taakbegeleidingen** klikken. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend in Finance and Operations. Als er geen taakbegeleiders worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Nadat u op een taakbegeleider in het deelvenster Help hebt geklikt, toont het deelvenster Help de stapsgewijze instructies en kunt u de taakbegeleider afspelen. 
+Wanneer een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster Help openen en op het tabblad **Taakbegeleidingen** klikken. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend in Finance and Operations. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Nadat u op een taakbegeleiding in het deelvenster Help hebt geklikt, toont het deelvenster Help de stapsgewijze instructies en kunt u de taakbegeleiding afspelen. 
 
-![Leesweergave van taakbegeleider](./media/task-guide-ops.png)
+![Leesweergave van taakbegeleiding](./media/task-guide-ops.png)
 
-### <a name="where-are-the-translated-task-guides"></a>Waar zijn de vertaalde taakbegeleiders?
+### <a name="where-are-the-translated-task-guides"></a>Waar zijn de vertaalde taakbegeleidingen?
 
-Vertaalde taakbegeleiders worden vrijgegeven in bibliotheken waarvan de titel "Alle talen" bevat. Als u in Finance and Operations gelokaliseerde Help met taakbegeleiding wilt zien, moet u ervoor zorgen dat u bent verbonden met de bijbehorende bibliotheek. De taal waarin een taakbegeleider wordt weergegeven, wordt voor elke gebruiker bepaald door de instellingen voor taal onder **Opties** &gt; **Voorkeuren**. 
--   Als een taakbegeleider is vertaald, wordt bij het openen van die taakbegeleider alle tekst van de taakbegeleider weergegeven in uw geselecteerde taal.
--   Als een taakbegeleider nog niet is vertaald, wordt bij het openen van die taakbegeleider alleen bepaalde tekst (de tekst van de besturingselementen) weergegeven in uw geselecteerde taal.
+Vertaalde taakbegeleidingen worden vrijgegeven in bibliotheken waarvan de titel "Alle talen" bevat. Als u in Finance and Operations gelokaliseerde Help met taakbegeleiding wilt zien, moet u ervoor zorgen dat u bent verbonden met de bijbehorende bibliotheek. De taal waarin een taakbegeleiding wordt weergegeven, wordt voor elke gebruiker bepaald door de instellingen voor taal onder **Opties** &gt; **Voorkeuren**. 
+-   Als een taakbegeleiding is vertaald, wordt bij het openen van die taakbegeleiding alle tekst van de taakbegeleiding weergegeven in uw geselecteerde taal.
+-   Als een taakbegeleiding nog niet is vertaald, wordt bij het openen van die taakbegeleiding alleen bepaalde tekst (de tekst van de besturingselementen) weergegeven in uw geselecteerde taal.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 In de volgende tabel worden onze websites weergegeven. Onze inhoudwebsites worden ingedeeld om de levenscyclus van klanten te ondersteunen. Elke fase wordt ondersteund door een andere set sites. Sites die een sterretje (\*) naast de naam hebben, vereisen dat u zich aanmeldt via een account die aan een serviceplan is gekoppeld.
@@ -212,8 +203,8 @@ In de volgende tabel worden onze websites weergegeven. Onze inhoudwebsites worde
 
 [Documentatie of trainingen maken met Taakregistraties](../../dev-itpro/user-interface/task-recorder.md)
 
-[Nieuwe of bijgewerkte taakbegeleiders (november 2016)](new-task-guides-november-2016.md)
-[Nieuwe of bijgewerkte taakbegeleiders (augustus 2016)](new-updated-task-guides-available-august-2016.md)
-[Nieuwe of bijgewerkte taakbegeleiders (mei 2016)](new-updated-task-guides-available-may-2016.md)
-[Nieuwe taakbegeleiders (februari 2016)](new-task-guides-available-february-2016.md)
+[Nieuwe of bijgewerkte taakbegeleidingen (november 2016)](new-task-guides-november-2016.md)
+[Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)](new-updated-task-guides-available-august-2016.md)
+[Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)](new-updated-task-guides-available-may-2016.md)
+[Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)
 

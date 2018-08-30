@@ -1,5 +1,5 @@
 --- 
-title: Configuraties importeren voor het genereren van documenten met toepassingsgegevens
+title: Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
 description: Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure 'ER Een configuratieprovider maken en deze als actief markeren' voltooien.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 87352293a78d6a356db49deffb930016a1bf836c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="import-configurations-to-generate-documents-with-application-data"></a>Configuraties importeren voor het genereren van documenten met toepassingsgegevens
+# <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Configuraties importeren voor het genereren van documenten die toepassingsgegevens bevatten
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

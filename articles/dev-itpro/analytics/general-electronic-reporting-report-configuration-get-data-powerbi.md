@@ -1,5 +1,5 @@
 ---
-title: Elektronische aangifte configureren om gegevens op te halen in Power BI
+title: Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI
 description: In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Electronische rapportage) kunt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen naar Power BI-services.
 author: NickSelin
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9f5a4d0c9fc4c5c9b439b4f184b25085f5d68077
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Elektronische aangifte configureren om gegevens op te halen in Power BI
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -67,7 +67,7 @@ Om het voorbeeld in dit onderwerp te kunnen voltooien, moet u over de volgende t
 U moet een ER-gegevensmodel hebben als bron van zakelijke gegevens die worden gebruikt voor Power BI-rapporten. Dit gegevensmodel wordt geüpload vanuit de opslagplaats voor ER-configuraties. Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](download-electronic-reporting-configuration-lcs.md) of speel de taakbegeleiding **Een ER-configuratie vanuit Lifecycle Services importeren** af. Selecteer **Intrastat** als het te uploaden gegevensmodel vanuit de geselecteerde opslagplaats voor ER-configuraties. (In dit voorbeeld wordt versie 1 van het model gebruikt.) U kunt vervolgens toegang krijgen tot de configuratie **Intrastat** ER-model op de pagina **Configuraties**. [![Pagina Configuraties](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Een configuratie voor de ER-indeling ontwerpen
-U moet een nieuwe configuratie voor de ER-indeling maken waarbij het gegevensmodel **Intrastat** als bron van zakelijke gegevens wordt gebruikt. Deze indelingsconfiguratie moet uitvoerresultaten als elektronische documenten in de indeling OpenXML (Excel-bestand) genereren. Speel voor meer informatie de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af. Geef de nieuwe configuratie de naam **Import-/exportactiviteiten**, zoals in de volgende afbeelding. Gebruik het Excel-bestand [ER-gegevens - import- en exportdetails](https://go.microsoft.com/fwlink/?linkid=845208) als sjabloon wanneer u de ER-indeling ontwerpt. (Voor meer informatie over het importeren van een indelingssjabloon, speelt u de taakbegeleider af.) [![Configuratie van import-/exportactiviteiten](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) Als u de indelingsconfiguratie **Import-/exportactiviteiten** wilt wijzigen, voert u de volgende stappen uit.
+U moet een nieuwe configuratie voor de ER-indeling maken waarbij het gegevensmodel **Intrastat** als bron van zakelijke gegevens wordt gebruikt. Deze indelingsconfiguratie moet uitvoerresultaten als elektronische documenten in de indeling OpenXML (Excel-bestand) genereren. Speel voor meer informatie de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af. Geef de nieuwe configuratie de naam **Import-/exportactiviteiten**, zoals in de volgende afbeelding. Gebruik het Excel-bestand [ER-gegevens - import- en exportdetails](https://go.microsoft.com/fwlink/?linkid=845208) als sjabloon wanneer u de ER-indeling ontwerpt. (Voor meer informatie over het importeren van een indelingssjabloon, speelt u de taakbegeleiding af.) [![Configuratie van import-/exportactiviteiten](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) Als u de indelingsconfiguratie **Import-/exportactiviteiten** wilt wijzigen, voert u de volgende stappen uit.
 
 1.  Klik op **Ontwerper**.
 2.  Geef op het tabblad **Indeling** het bestandelement voor deze indeling de naam **Excel-uitvoerbestand**. [![Element Excel-uitvoerbestand](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)

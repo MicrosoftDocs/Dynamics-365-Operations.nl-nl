@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 3ba9025aa5394b29bdba80e589c77fa4bd2bd47f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -536,7 +536,7 @@ Geen nieuwe functies zijn toegevoegd.
 </tr>
 <tr class="odd">
 <td>(EU) Rapportage van hoeveelheid in aanvullende eenheden voor Intrastat via het gebruik van de instelling voor eenheidsconversie.</td>
-<td>Intrastat-basisproductcode heeft een tekstveld voor het identificeren van aanvullende eenheden en de kaart<strong> Product</strong> heeft een veld voor het identificeren van de hoeveelheid extra eenheden in kilogrammen.</td>
+<td>Intrastat-basisproductcode heeft een tekstveld voor het identificeren van aanvullende eenheden en de kaart <strong>Product</strong> heeft een veld voor het identificeren van de hoeveelheid extra eenheden in kilogrammen.</td>
 <td>Aanvullende eenheden voor Intrastat-basisproductcode worden gekozen uit de lijst met eenheden. Het aantal aanvullende eenheden wordt berekend via instellingen voor eenheidsconversie.</td>
 <td>Dit verenigt aanpak voor herberekening van transactie-eenheden naar extra eenheden.</td>
 </tr>

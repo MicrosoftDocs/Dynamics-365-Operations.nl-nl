@@ -18,10 +18,10 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: afcc2ea8c0ca3a5877b44fd758aec9d2caf92d92
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5c5cd61c45eb7cbc6f040f054a99d9a54e1ee854
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -66,7 +66,7 @@ Btw-aangiftecodes zijn vakcodes in het btw-overzicht of labelnamen in XML-indeli
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>Btw-codes voor btw-aangifte
 
-Pagina <!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> Base amounts and tax amounts of sales tax transactions can be aggregated on reporting codes in the VAT statement (XML tags or declaration boxes). You can set this up by associating sales tax reporting codes for different transaction types for sales tax codes on the <strong>Btw-codes</strong>. In de volgende tabel worden de transactietypen beschreven in de rapportinstelling voor btw-codes. De berekening omvat de transacties voor alle typen bronnen met uitzondering van btw.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> Basisbedragen en belastingbedragen van btw-transacties kunnen worden samengevoegd in aangiftecodes in het btw-overzicht (XML-labels of aangiftevakken). U kunt dit instellen door btw-aangiftecodes voor verschillende transactietypen te koppelen voor btw-codes op de pagina <strong>Btw-codes</strong>. In de volgende tabel worden de transactietypen beschreven in de rapportinstelling voor btw-codes. De berekening omvat de transacties voor alle typen bronnen met uitzondering van btw.
 
 <table>
 <colgroup>

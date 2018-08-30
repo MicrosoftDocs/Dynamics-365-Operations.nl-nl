@@ -1,5 +1,5 @@
 ---
-title: Lookups gebruiken om informatie te vinden
+title: Informatie vinden met zoekopdrachten
 description: Veel velden in Microsoft Dynamics 365 for Finance and Operations hebben lookups waarmee u gemakkelijk de juiste of de gewenste waarde vindt. Enkele verbeteringen zijn toegevoegd aan de lookups, die deze besturingselementen bruikbaarder maken en gebruikers productiever. In dit onderwerp vindt u informatie over deze nieuwe lookupfuncties en handige tips voor een optimaal gebruik van lookups in het systeem.
 author: jasongre
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 013901724864092571099835b2c71b297710ff03
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>Lookups gebruiken om informatie te vinden
+# <a name="find-information-by-using-lookups"></a>Informatie vinden met zoekopdrachten
 
 [!include [banner](../includes/banner.md)]
 
@@ -74,7 +74,7 @@ De lookup-verbeteringen die in de voorgaande twee secties zijn besproken, maken 
 
 ![legeartikellookup](./media/emptyitemlookup.png) 
 
-In plaats daarvan moet de gebruiker de waarde in het lookup-besturingselement wissen, de lookup-vervolgkeuzelijst openen en filteren met behulp van de rasterkolomkop, zoals hieronder weergegeven. Een gebruiker met muis of touchscreen kan elke kolomkop aanklikken of aantikken om de filter- en sorteeropties voor die kolom te openen. Een gebruiker die een toetsenbord gebruikt, moet de toetscombinatie **Alt**+**pijl****-omlaag** nog een keer indrukken. De focus wordt nu  naar de vervolgkeuzelijst verplaatst, waarna de gebruiker de juiste kolom kan selecteren. Als hij dan **Ctrl**+**G** indrukt, wordt de vervolgkeuzelijst van de rasterkolomkop geopend. 
+In plaats daarvan moet de gebruiker de waarde in het lookup-besturingselement wissen, de lookup-vervolgkeuzelijst openen en filteren met behulp van de rasterkolomkop, zoals hieronder weergegeven. Een gebruiker met muis of touchscreen kan elke kolomkop aanklikken of aantikken om de filter- en sorteeropties voor die kolom te openen. Een gebruiker die een toetsenbord gebruikt, moet de toetscombinatie **Alt**+**pijl-omlaag** nog een keer indrukken. De focus wordt nu  naar de vervolgkeuzelijst verplaatst, waarna de gebruiker de juiste kolom kan selecteren. Als hij dan **Ctrl**+**G** indrukt, wordt de vervolgkeuzelijst van de rasterkolomkop geopend. 
 
 [![rasterfilterartikellookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png) 
 

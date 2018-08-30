@@ -1,33 +1,33 @@
-- name: Ontwikkeling en beheer voor Dynamics 365 for Finance and Operations
+- name: Ontwikkeling en beheer voor Finance and Operations
   href: index.md
 - name: Systeemvereisten voor cloudimplementaties
   href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
-- name: Systeemvereisten voor on-premises-implementaties
+- name: Systeemvereisten voor on-premises implementaties
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Demogegevens
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-    - name: Demogegevens met pakketten genereren
+    - name: Demogegevens genereren met pakketten
       href: data-entities/generate-demo-data-packages.md
 - name: Ontwikkelen en aanpassen met Visual Studio
   href: dev-tools/developer-home-page.md
   items:
     - name: Toepassingsstapel en serverarchitectuur
       href: dev-tools/application-stack-server-architecture.md
-    - name: Een evaluatie-exemplaar ontvangen
+    - name: Evaluatie-exemplaren ontvangen
       href: dev-tools/get-evaluation-copy.md
-    - name: Aanmelden voor een abonnement
+    - name: Aanmelden voor preview-abonnementen
       href: dev-tools/sign-up-preview-subscription.md
-    - name: Een ontwikkelomgeving implementeren en openen
+    - name: Ontwikkelomgevingen implementeren en openen
       href: dev-tools/access-instances.md
       items:
-        - name: Ontwikkelaar-VM configureren
+        - name: Ontwikkelomgevingen met één apparaat configureren
           href: dev-tools/configure-developer-vm.md
-        - name: Een nieuwe gebruiker maken op een ontwikkelcomputer
+        - name: Nieuwe gebruikers maken op ontwikkelcomputers
           href: dev-tools/enable-development-machine.md
         - name: Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerdertoegang niet is toegestaan
           href: sysadmin/VMs-no-admin-access.md
-        - name: De naam van een lokale omgeving voor toegang tot Visual Studio Team Services wijzigen
+        - name: De naam van lokale omgevingen voor toegang tot Visual Studio Team Services wijzigen
           href: migration-upgrade/vso-machine-renaming.md
         - name: Systeemvereisten voor ontwikkeling
           href: dev-tools/development-system-requirements.md
@@ -35,28 +35,28 @@
       href: dev-tools/version-control-metadata-navigation.md
     - name: ​Voorbeeldtoepassing voor wagenparkbeheer
       items:
-        - name: ​Voorbeeldtoepassing voor wagenparkbeheer
+        - name: Compleet scenario voor de voorbeeldtoepassing Wagenparkbeheer
           href: dev-tools/fleet-management-sample.md
-        - name: Overzicht van voorbeeldtoepassing voor wagenparkbeheer
+        - name: ​Voorbeeldtoepassing voor wagenparkbeheer
           href: dev-tools/introduction-fleet-management-sample.md
     - name: Visual Studio Tools
       items:
-        - name: Overzicht Ontwikkelingshulpmiddelen
+        - name: Ontwikkelingshulpmiddelen
           href: dev-tools/development-tools-overview.md
         - name: Zelfstudie ontwikkelingshulpmiddelen
           href: dev-tools/introduction-visual-studio.md
         - name: Toepassingsverkenner
           href: dev-tools/application-explorer.md
-        - name: Een project bouwen en fouten opsporen
+        - name: Projecten bouwen en fouten opsporen
           href: dev-tools/build-debug-project.md
         - name: Buildbewerkingen
           href: dev-tools/build-operations.md
-        - name: Code-editor
+        - name: Functies code-editor
           href: dev-tools/code-editor.md
-        - name: Een model en gegevensmodelelementen maken
+        - name: Modellen en gegevensmodelelementen maken
           href: dev-tools/create-data-model-elements.md
           items:
-            - name: Naamgevingsrichtlijnen
+            - name: Richtlijnen voor namen van uitbreidingen
               href: extensibility/NamingGuidelines.md
             - name: Modelaanpassingen uitschakelen en functionaliteit afschaffen
               href: dev-tools/lock-models.md
@@ -64,15 +64,15 @@
           href: dev-tools/customization-analysis-report.md
         - name: Elementontwerpers
           href: dev-tools/element-designers.md
-        - name: Elementgebruik
+        - name: Opdrachten om het elementgebruik te bepalen
           href: dev-tools/element-usage.md
-        - name: Een model exporteren en importeren
+        - name: Modellen exporteren en importeren
           href: dev-tools/models-export-import.md
         - name: Metagegevens zoeken in Visual Studio
           href: dev-tools/metadata-search-visual-studio.md
-        - name: Modellen
+        - name: Modellen en pakketten
           href: dev-tools/models.md
-        - name: Projecten in Dynamics 365 for Finance and Operations
+        - name: Projecttype Finance and Operations
           href: dev-tools/projects.md
         - name: Invoegtoepassingen met hulpmiddelen voor Visual Studio
           href: dev-tools/developer-tools-add-ins.md
@@ -80,21 +80,21 @@
           href: dev-tools/update-development-tools.md
     - name: X++-programmeertaal
       items:
-        - name: 'X++ en foutopsporingsfuncties  '
+        - name: X++ en foutopsporingsfuncties
           href: dev-tools/new-x-debugger-features.md
-        - name: Foutopsporing in X++ in een kopie van een productiedatabase
+        - name: Foutopsporing in X++ in kopieën van productiedatabases
           href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: Foutopsporing in X++-code
           href: dev-tools/debug-xpp.md
         - name: EventHandlerResult-klassen in aanvraag- of responsscenario's
           href: dev-tools/event-handler-result-class.md
-        - name: 'Bedrijfslogica schrijven met C\#- en X++-broncode'
+        - name: 'Bedrijfslogica schrijven met C#- en X++-broncode'
           href: dev-tools/write-business-logic.md
-        - name: Ondersteuning van programmeertaal
+        - name: Wijzigingen in X++ en de X++-compiler
           href: dev-tools/programming-language-support.md
-        - name: 'LINQ-provider voor C\#'
+        - name: 'LINQ-provider voor C#'
           href: dev-tools/linq-provider-c.md
-        - name: Best practices voor schrijven
+        - name: Best practice-regels schrijven
           href: dev-tools/author-best-practice-rules.md
         - name: Eigenschappen van Toepassingsverkenner
           href: dev-ref/application-explorer-aot-properties.md
@@ -118,7 +118,7 @@
               href: dev-ref/xpp-macros.md
             - name: X++-kenmerkklassen
               href: dev-ref/xpp-attribute-classes.md
-            - name: 'Vergelijking van X++ en C\#'
+            - name: 'Vergelijking van X++ en C#'
               href: dev-ref/xpp-cs-comparison.md
             - name: X++-syntaxis
               href: dev-ref/xpp-syntax.md
@@ -160,29 +160,29 @@
               href: dev-ref/d-classes.md
             - name: E-klassen
               href: dev-ref/e-classes.md
-            - name: 'F-klassen: FieldBinding tot FormBuildAnimateControl'
+            - name: F-klassen (FieldBinding tot FormBuildAnimateControl)
               href: dev-ref/fieldbinding-classes.md
-            - name: 'F-klassen: FormBuildButtonControl tot FormBuildFastTabSummarySeparator'
+            - name: F-klassen (FormBuildButtonControl tot FormBuildFastTabSummarySeparator)
               href: dev-ref/formbuildbuttoncontrol-classes.md
-            - name: 'F-klassen: FormBuildFilterPaneControl tot FormBuildRealControl'
+            - name: F-klassen (FormBuildFilterPaneControl tot FormBuildRealControl)
               href: dev-ref/formbuildfilterpanecontrol-classes.md
-            - name: 'F-klassen: FormBuildReferenceControl tot FormButtonSeparatorControl'
+            - name: F-klassen (FormBuildReferenceControl tot FormButtonSeparatorControl)
               href: dev-ref/formbuildreferencecontrol-classes.md
-            - name: 'F-klassen: FormChangeTracker tot FormControlEventArgs'
+            - name: F-klassen (FormChangeTracker tot FormControlEventArgs)
               href: dev-ref/formchangetracker-classes.md
-            - name: 'F-klassen: FormDataObject tot FormFastTabHeaderControl'
+            - name: F-klassen (FormDataObject tot FormFastTabHeaderControl)
               href: dev-ref/formdataobject-classes.md
-            - name: 'F-klassen: FormFastTabSummarySeparator tot FormGridControl'
+            - name: F-klassen (FormFastTabSummarySeparator tot FormGridControl)
               href: dev-ref/formfasttabsummaryseparator-classes.md
-            - name: 'F-klassen: FormGroupControl tot FormIntControl'
+            - name: F-klassen (FormGroupControl tot FormIntControl)
               href: dev-ref/formgroupcontrol-classes.md
-            - name: 'F-klassen: FormListBoxControl tot FormNotifyEventArgs'
+            - name: F-klassen (FormListBoxControl tot FormNotifyEventArgs)
               href: dev-ref/formlistboxcontrol-classes.md
-            - name: 'F-klassen: FormObject tot FormRealControl'
+            - name: F-klassen (FormObject tot FormRealControl)
               href: dev-ref/formobject-classes.md
-            - name: 'F-klassen: FormReferenceControl tot FormStringControl'
+            - name: F-klassen (FormReferenceControl tot FormStringControl)
               href: dev-ref/formreferencecontrol-classes.md
-            - name: 'F-klassen: FormTabControl tot FormWindowControl'
+            - name: F-klassen (FormTabControl tot FormWindowControl)
               href: dev-ref/formtabcontrol-classes.md
             - name: G-klassen
               href: dev-ref/g-classes.md
@@ -225,79 +225,85 @@
       items:
         - name: Inleiding en aan de slag
           items:
-            - name: Plannen voor uitbreidbaarheid van toepassing
+            - name: Plan voor uitbreidbaarheid van toepassing
               href: extensibility/extensibility-roadmap.md
             - name: Uitbreidbaarheidsaanvragen
               href: extensibility/extensibility-requests.md
-            - name: Veelgestelde vragen
+            - name: Veelgestelde vragen over uitbreidbaarheid
               href: extensibility/app-sealing-faq.md
             - name: Migreren van overlayering naar uitbreidingen
               href: extensibility/migrate-overlayer-extension.md
-            - name: Modelelementen aanpassen met extensies (zelfstudie)
+            - name: Modelelementen aanpassen via extensies (zelfstudie)
               href: extensibility/customize-model-elements-extensions.md
-            - name: 'Aanpassing: overlayering en extensies'
+            - name: Aanpassen via extensies en overlayering
               href: extensibility/customization-overlayering-extensions.md
         - name: Wat is er nieuw
           items:
             - name: Uitbreidbaarheidswijzigingen juli 2017
               href: extensibility/changes-july-2017.md
-            - name: Uitbreidbaarheidswijzigingen versie 7.3
+            - name: Uitbreidbaarheidswijzigingen in versie 7.3
               href: extensibility/extensibility-changes-73.md
-            - name: Uitbreidbaarheidswijzigingen versie 8.0
+            - name: Uitbreidbaarheidswijzigingen in versie 8.0
               href: extensibility/changes-80.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.3
+              href: extensibility/extensibility-changes-803.md
         - name: Basisgegevens
           items:
             - name: Ingrijpende aanpassingen
               href: extensibility/intrusive-customizations.md
-            - name: Klasse-extensies
+            - name: Uitbreidingsmodel klasse
               href: extensibility/class-extensions.md
-            - name: 'Klasse-extensie: methodewrapping en opdrachtstructuur'
+            - name: Klasse-extensie via methodewrapping en opdrachtstructuur
               href: extensibility/method-wrapping-coc.md
-            - name: Naamgevingsrichtlijnen
+            - name: Richtlijnen voor namen van modeluitbreidingen
               href: extensibility/naming-guidelines-extensions.md
-            - name: Modelbeperkingen loslaten om herstructurering van overlapping in uitbreidingen mogelijk te maken
+            - name: Modelbeperkingen loslaten om overlayering in uitbreidingen te herstructureren
               href: extensibility/refactoring-over-layering.md
         - name: Hoe kan ik?
           items:
-            - name: Een opsommingswaarde toevoegen
+            - name: Waarden toevoegen aan enums
               href: extensibility/add-enum-value.md
-            - name: Een uitgebreid gegevenstype wijzigen
+            - name: Uitgebreide gegevenstypen wijzigen
               href: extensibility/modify-edt.md
-            - name: Een subklasse voor fabrieksmethoden registreren
+            - name: Subklassen voor fabrieksmethoden registreren
               href: extensibility/register-subclass-factory-methods.md
             - name: Antwoorden met EventHandlerResult
               href: extensibility/respond-event-handler-result.md
             - name: De RunBase-klasse uitbreiden
               href: extensibility/extend-runbase-class.md
-            - name: Gemachtigden gebruiken om Toepassing starten aan te passen
+            - name: Toepassing starten aanpassen met gemachtigden
               href: extensibility/startup-customizations.md
-            - name: Een bestaand veld in een tabel wijzigen
+            - name: Bestaande velden in een tabel wijzigen
               href: extensibility/modify-existing-field.md
-            - name: Een nieuw veld toevoegen aan een bestaande tabel
+            - name: Velden toevoegen aan tabellen
               href: extensibility/add-field-extension.md
-            - name: Een index toevoegen aan een bestaande tabel
+            - name: Indexen toevoegen aan tabellen
               href: extensibility/add-index.md
-            - name: Een relatie toevoegen aan een bestaande tabel
+            - name: Relaties toevoegen aan tabellen
               href: extensibility/add-relation.md
-            - name: Eigenschappen voor een bestaande tabel wijzigen
+            - name: Tabeleigenschappen wijzigen
               href: extensibility/modify-properties.md
-            - name: Een methode toevoegen aan een tabel
+            - name: Methoden toevoegen aan tabellen
               href: extensibility/add-method-table.md
-            - name: Zakelijke acties uitvoeren gedurende de levenscyclus van een tabelrecord
+            - name: Zakelijke acties uitvoeren gedurende de levenscyclus van tabelrecords
               href: extensibility/subscribe-table-events.md
-            - name: Een nieuwe gegevensbron toevoegen aan een formulier
+            - name: Gegevensbronnen toevoegen aan formulieren
               href: extensibility/add-datasource.md
-            - name: Het bijschrift op een formulier wijzigen
+            - name: Formulierbijschriften wijzigen
               href: extensibility/change-caption-form.md
             - name: Eigenschappen voor formulierbesturing wijzigen
               href: extensibility/modify-control-properties.md
-            - name: Een label wijzigen
+            - name: Labels wijzigen met labeluitbreidingsbestanden
               href: extensibility/change-label.md
-            - name: Bereik van de nummerreeks verlengen
+            - name: Bereik van nummerreeksen verlengen
               href: extensibility/extend-number-sequence-scope.md
-            - name: Een nieuwe voorraaddimensies toevoegen
+            - name: Nieuwe voorraaddimensies toevoegen
               href: extensibility/inventory-dimensions.md
-            - name: Wijzigingen in uitbreidbaarheid van prijzen en kortingen
+            - name: Uitbreidbaarheid prijzen en kortingen
               href: extensibility/pricing-app73.md
             - name: Extensie tabeltoewijzing
               href: extensibility/map-extensions.md
@@ -309,8 +315,10 @@
       items:
         - name: Traceren met Traceparser
           href: perf-test/trace-trace-tutorial.md
-        - name: PerfSDK en meerdere gebruikers testen met Visual Studio Team Services
+        - name: Prestaties SDK en meerdere gebruikers testen via Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
+        - name: Prestaties SDK en meerdere gebruikers testen in on-premises omgevingen
+          href: perf-test/perfsdk-tutorial-lbd.md
         - name: Problemen vaststellen en prestatieproblemen analyseren met Traceparser
           href: perf-test/trace-parser.md
         - name: Prestatietimer
@@ -321,7 +329,7 @@
           href: perf-test/testing-validation.md
         - name: Testprojecten in Visual Studio
           href: perf-test/testing-support.md
-        - name: Implementatie met continuous build en testautomatisering
+        - name: Topologieën implementeren die continue build- en testautomatisering ondersteunen
           href: perf-test/continuous-build-test-automation.md
     - name: Ingangsdatum
       href: dev-tools/date-effectivity.md
@@ -340,23 +348,23 @@
           href: user-interface/build-customer-form.md
         - name: Navigatie maken
           href: user-interface/build-navigation.md
-        - name: Een werkgebied toevoegen
+        - name: Werkgebieden maken
           href: user-interface/build-workspace.md
     - name: Formulieren
       items:
-        - name: Navigatie in Dynamics 365 for Finance and Operations
+        - name: Navigatieconcepten
           href: user-interface/page-navigation.md
-        - name: Lay-out in Dynamics 365 for Finance and Operations
+        - name: Paginalay-out in de webclient
           href: user-interface/page-layout.md
-        - name: Symboollettertype
+        - name: Symboollettertype Dynamics
           href: user-interface/symbol-font.md
-        - name: Formulieren met aangepaste patronen testen
+        - name: Formulieren die aangepaste patronen gebruiken
           href: user-interface/testing-forms-custom-patterns.md
-        - name: Diepe koppelingen maken en gebruiken
+        - name: 'Deelbare, beveiligde URL''s maken (diepe koppelingen)'
           href: user-interface/create-deep-links.md
         - name: 'Toegankelijkheid in formulieren, producten en besturingselementen'
           href: user-interface/enable-accessibility.md
-        - name: Veld-Help aanpassen
+        - name: Veldbeschrijvingen aanpassen
           href: user-interface/customize-field-help.md
     - name: Besturingselementen
       items:
@@ -366,7 +374,7 @@
           href: user-interface/sizing-input-controls-grid-columns.md
         - name: Ondersteuning selectievakjes in besturingselementen voor structuren
           href: user-interface/check-box-tree-controls.md
-        - name: Filters
+        - name: Filteropties
           href: user-interface/filtering.md
         - name: Beheer PowerApps-host
           href: user-interface/powerapps-host-control.md
@@ -374,7 +382,7 @@
       items:
         - name: Code contextmenu migreren
           href: migration-upgrade/code-migration-context-menus.md
-        - name: Migratie van dubbelklikcode van muis
+        - name: Dubbelklikcode van muis migreren
           href: migration-upgrade/code-migration-double-click.md
         - name: Contextuele gegevensinvoer voor zoekopdrachten
           href: user-interface/contextual-data-entry-lookups.md
@@ -382,11 +390,11 @@
           href: user-interface/hierarchy-viewer-control.md
         - name: Opzoekbesturingselementen
           href: user-interface/lookups-controls.md
-        - name: Besturingselementen voor bestandsupload
+        - name: Besturingselement voor bestandsupload
           href: user-interface/file-upload-control.md
         - name: Door systeem gedefinieerde knoppen
           href: user-interface/system-defined-buttons.md
-        - name: Afbeeldingen
+        - name: Afbeeldingen op een pagina of in een raster
           href: user-interface/images-form-grid.md
         - name: 'Lettertype- en achtergrondkleuren voor invoer-, tabel- en rasterbesturingselementen'
           href: user-interface/specify-color-font-background-controls.md
@@ -394,13 +402,13 @@
           href: user-interface/bidirectional-support.md
         - name: Pictogrammen maken voor werkgebiedtegels
           href: user-interface/create-icons-workspace-tiles.md
-        - name: Uitbreidbare besturingselementen - openbare JavaScript-API's
+        - name: Openbare JavaScript-API's voor uitbreidbare besturingselementen
           href: user-interface/public-javascript-apis.md
         - name: Controlelijst voor besturingselementen
           href: user-interface/control-checklist.md
     - name: Berichten
       items:
-        - name: Schuifregelaar en berichtvenster
+        - name: Schuifregelaar en berichtvensters
           href: user-interface/slider-messagebox.md
         - name: 'API voor berichtencentrum, berichtenbalk en berichtgegevens'
           href: user-interface/messaging-api-center-bar-details.md
@@ -408,11 +416,11 @@
           href: user-interface/messaging-user.md
     - name: Richtlijnen voor het primaire formulierpatroon
       items:
-        - name: Een formulierpatroon selecteren
+        - name: Formulierpatronen voor gemigreerde formulieren
           href: user-interface/select-form-pattern.md
         - name: Formulierstijlen en -patronen
           href: user-interface/form-styles-patterns.md
-        - name: Invoegtoepassingen voor formulierpatronen
+        - name: Visual Studio-invoegtoepassingen die formulierpatronen ondersteunen
           href: user-interface/form-pattern-add-ins.md
     - name: Formulierpatronen
       items:
@@ -422,7 +430,7 @@
           href: user-interface/details-master-form-pattern.md
         - name: Details van patroon voor transactieformulier
           href: user-interface/details-transaction-form-pattern.md
-        - name: Formulierpatroon voor formuliergedeelte met sectielijst
+        - name: Formulierpatronen voor formuliergedeelte met sectielijst
           href: user-interface/section-list-form-pattern.md
         - name: Formulierpatroon voor lijstpagina
           href: user-interface/list-page-form-pattern.md
@@ -452,7 +460,7 @@
           href: user-interface/drop-dialog-form-pattern.md
         - name: Opzoekformulierpatroon
           href: user-interface/lookup-form-pattern.md
-        - name: Formulierpatroon voor feitenvak
+        - name: Formulierpatronen voor feitenvak
           href: user-interface/factbox-form-patterns.md
     - name: Subpatronen
       items:
@@ -498,7 +506,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Uitbreidbaarheid van besturingselement
       items:
-        - name: Een uitbreidbaar besturingselement maken
+        - name: aextensible besturingselementen maken
           href: user-interface/build-extensible-control.md
         - name: Sneltoetsen voor uitbreidbare besturingselementen
           href: user-interface/keyboard-shortcuts-controls.md
@@ -523,7 +531,7 @@
       items:
         - name: Snelzoekgids voor Taakrecorder
           href: user-interface/task-recorder-quick-reference.md
-        - name: Documentatie of training maken met Taakrecorder
+        - name: Documentatie of training maken met taakregistraties
           href: user-interface/task-recorder-training-docs.md
 - name: Mobiel platform
   href: mobile-apps/platform/mobile-platform-home-page.md
@@ -531,9 +539,9 @@
     - name: Aan de slag
       href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
-        - name: Architectuur
+        - name: Overwegingen voor architectuur en ontwerp
           href: mobile-apps/platform/mobile-platform-architecture.md
-        - name: Overzicht gebeurtenissen bedrijfslogica
+        - name: Gebeurtenissen bedrijfslogica
           href: mobile-apps/platform/business-logic-events-overview.md
         - name: Richtlijnen voor het ontwerpen van pagina's
           href: mobile-apps/platform/page-design-guidelines.md
@@ -543,17 +551,17 @@
           href: mobile-apps/platform/form-design-requirements.md
     - name: Algemene taken
       items:
-        - name: Een werkgebied configureren met behulp van de klasse SysAppWorkspace
+        - name: Werkgebieden configureren met behulp van de klasse SysAppWorkspace
           href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
-        - name: De weergave van een veld aanpassen om het aanklikbaar te maken
+        - name: Velden op mobiele app-pagina's maken waarop kan worden geklikt
           href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
-        - name: Een telling in een veld weergeven
+        - name: Totalen in velden weergeven
           href: mobile-apps/platform/scenarios/display-count-workspace.md
-        - name: Een werkgebied voor mobiele apps helpen beveiligen
+        - name: Mobiele werkgebieden helpen beveiligen
           href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
-        - name: Werkgebieden lokaliseren op de server
+        - name: Mobiele werkgebieden lokaliseren
           href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
-        - name: Een veld verplicht maken met behulp van klassen voor werkgebieden
+        - name: Velden verplicht maken met behulp van klassen voor werkgebieden
           href: mobile-apps/platform/scenarios/make-field-mandatory.md
     - name: Referentiemateriaal voor serverontwikkeling
       items:
@@ -561,7 +569,7 @@
           href: mobile-apps/platform/mobile-workspace-server-apis.md
     - name: Referentiemateriaal voor clientontwikkeling
       items:
-        - name: Overzicht van API's voor clientontwerp
+        - name: API's voor clientontwerp
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: Client-API's
           href: mobile-apps/platform/client-apis/client-apis-reference.md
@@ -606,7 +614,7 @@
               href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
             - name: Module Waarde
               href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
-            - name: Type Application
+            - name: Type toepassing
               href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
             - name: Type ApplicationMetadata
               href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
@@ -626,13 +634,13 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
             - name: Type DataService
               href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
-            - name: Type Deferred
+            - name: Type Deferred<T>
               href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
             - name: Type Design
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
-            - name: Type EventHook
+            - name: Type EventHook<T>
               href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
-            - name: Type Field
+            - name: Veldtype
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
             - name: Type FieldDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
@@ -648,7 +656,7 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
             - name: Type getDataSource
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
-            - name: Type Group
+            - name: Groepstype
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
             - name: Type GroupDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
@@ -660,7 +668,7 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
             - name: Type HyperLinkMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
-            - name: Type Image
+            - name: Afbeeldingstype
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
             - name: Type ImageDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
@@ -672,13 +680,13 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
             - name: Type InputControlMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
-            - name: Type List
+            - name: Overzichttype
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
             - name: Type ListDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
             - name: Type ListMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
-            - name: Type Lookup
+            - name: Opzoektype
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
             - name: Type LookupDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
@@ -696,7 +704,7 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
             - name: Type NumberSequenceConfig
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
-            - name: Type Page
+            - name: Paginatype
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
             - name: Type PageData
               href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
@@ -720,9 +728,9 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
             - name: Type PartMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
-            - name: Type Row
+            - name: Rijtype
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-            - name: Type Value
+            - name: Waardetype
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
             - name: Type ValueDesign
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
@@ -734,7 +742,7 @@
       href: data-entities/integration-overview.md
     - name: Gegevensintegratie-API's
       items:
-        - name: API voor gegevensbeheerpakket
+        - name: REST API voor gegevensbeheerpakket
           href: data-entities/data-management-api.md
         - name: Service-eindpunten
           href: data-entities/services-home-page.md
@@ -743,28 +751,28 @@
               href: data-entities/troubleshoot-service-authentication.md
         - name: OData
           href: data-entities/odata.md
-        - name: Aangepaste services
+        - name: Aangepaste service-ontwikkeling
           href: data-entities/custom-services.md
         - name: Terugkerende integraties
           href: data-entities/recurring-integrations.md
-        - name: Hulpprogramma's voor servicetests van derden gebruiken met services
+        - name: Services testen met hulpprogramma's van derden
           href: data-entities/third-party-service-test.md
     - name: Ontwikkeling voor integratie
       items:
-        - name: Gegevensintegratie met gegevensentiteiten
+        - name: Gegevensbeheer en integratie met gegevensentiteiten
           href: data-entities/data-management-integration-data-entity.md
           items:
-            - name: Een entiteit voor gegevensmigratie ontwikkelen
+            - name: Entiteiten voor gegevensmigratie ontwikkelen
               href: data-entities/develop-entity-for-data-migration.md
             - name: Samengestelde gegevensentiteiten ontwikkelen
               href: data-entities/develop-composite-data-entities.md
             - name: Delen van financiële gegevens tussen bedrijven configureren
               href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
+            - name: Recordsjablonen maken om de invoer van gegevens te vergemakkelijken
               href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Een nieuwe record maken met een recordsjabloon
+            - name: Records maken met recordsjablonen
               href: data-entities/tasks/use-record-template-new-record.md
-        - name: Gegevensintegratie via de Common Data Service
+        - name: Gegevensintegratie via Common Data Service
           href: data-entities/data-integration-cds.md
           items:
             - name: Een scenario van prospect tot contant geld configureren
@@ -791,6 +799,21 @@
                   href: ../supply-chain/sales-marketing/field-service-work-order.md
                 - name: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
                   href: ../supply-chain/sales-marketing/field-service-invoice.md
+            - name: Project Service Automation-integratie configureren
+              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
+              items:
+                - name: Project Service Automation-integratieparameters
+                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
+                - name: Projectcontracten en projecten synchroniseren
+                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
+                - name: Projecttaken synchroniseren
+                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
+                - name: Onkostencategorieën project synchroniseren
+                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
+                - name: Projectramingen synchroniseren met projectprognoses
+                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
+                - name: Werkelijke projectwaarden synchroniseren met het projectintegratiejournaal
+                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
         - name: Externe webservices gebruiken
           href: data-entities/consume-external-web-service.md
 - name: Gegevensbeheer
@@ -809,7 +832,7 @@
           href: data-entities/configuration-data-templates.md
         - name: Sjablonen met meerdere werkbladen
           href: data-entities/excel-template-multiple.md
-        - name: Wijzigingen in een entiteit bijhouden
+        - name: Wijzigingen bijhouden voor entiteiten inschakelen
           href: data-entities/entity-change-track.md
         - name: Configuratiesleutels en gegevensentiteiten
           href: data-entities/config-key-entities.md
@@ -826,13 +849,13 @@
           href: dev-tools/design-best-practices.md
         - name: Nieuwe gegevensentiteiten maken
           href: data-entities/build-consuming-data-entities.md
-        - name: Eigenschappen van gegevensentiteit
+        - name: Eigenschappen van gedragsgegevensentiteit
           href: data-entities/behavioral-properties-data-entities.md
-        - name: Berekeningskolommen en virtuele velden maken
+        - name: Berekende kolommen en virtuele velden maken
           href: data-entities/data-entity-computed-columns-virtual-fields.md
         - name: Gedrag voor meerdere bedrijven
           href: data-entities/cross-company-behavior.md
-        - name: Land-/regiocodes verwerken
+        - name: Land-/ regiocodes en configuratiesleutels
           href: data-entities/countryregion-codes-configuration-keys.md
         - name: Overnamepatronen
           href: data-entities/support-super-type-sub-type.md
@@ -844,43 +867,43 @@
           href: data-entities/validations-defaults-unmapped-fields.md
         - name: Beveiliging en gegevensentiteiten
           href: data-entities/security-data-entities.md
-        - name: Een alleen-lezen entiteit die toegang biedt tot financiële dimensies
+        - name: Alleen-lezen entiteiten maken die toegang bieden tot financiële dimensies
           href: financial/read-only-entity-financial.md
     - name: Uw eigen database gebruiken
       href: analytics/export-entities-to-your-own-database.md
     - name: Automatisering van gegevenstaak
       href: data-entities/data-task-automation.md
-    - name: Bronnen voor het reageren op een AVG-aanvraag
+    - name: Bronnen voor het reageren op een AVG-aanvragen
       href: gdpr/gdpr-home-page.md
       items:
-        - name: Handleiding voor AVG voor Microsoft Dynamics 365 for Finance and Operations
+        - name: Handleiding voor AVG voor Finance and Operations
           href: gdpr/gdpr-guide.md
         - name: Classificaties van activa
           href: gdpr/gdpr-asset-classification-values.md
-        - name: Rapport voor persoon zoeken gebruiken
+        - name: Rapport voor persoon zoeken
           href: gdpr/gdpr-person-search-report.md
         - name: Rapport voor persoon zoeken uitbreiden
           href: gdpr/gdpr-extend-person-search-report.md
         - name: Toegang tot vertrouwelijke gegevens beheren
           href: gdpr/gdpr-auditing-sensitive-data.md
-        - name: Reageren op een aanvraag voor persoonlijke gegevens met behulp van Talent
+        - name: Reageren op aanvragen voor persoonlijke gegevens met behulp van Talent
           href: gdpr/respond-dsr-request-talent.md
-        - name: Reageren op een aanvraag voor persoonlijke gegevens met behulp van Microsoft Dynamics AX 2012
+        - name: Reageren op aanvragen voor persoonlijke gegevens in AX 2012
           href: gdpr/gdpr-ax2012.md
         - name: AVG-gegevensaanvragen voor LCS
           href: gdpr/gdpr-lcs.md
-    - name: Werkgebied voor validatie van gegevens
+    - name: Werkgebied Controlelijst voor gegevensvalidatie
       href: user-interface/data-validation-workspace.md
 - name: Continue levering
   href: dev-tools/continuous-delivery-home-page.md
   items:
     - name: Veelgestelde vragen over ontwikkeling en continue levering
       href: dev-tools/continuous-delivery-faq.md
-    - name: Testpakketten uitsluiten van de build-uitvoer
+    - name: Testpakketten uitsluiten van build-uitvoer
       href: dev-tools/exclude-test-packages.md
-    - name: Modellen van derden en runtime-pakketten beheren met behulp van bronbeheer
+    - name: Modellen van derden en runtime-pakketten beheren met bronbeheer
       href: dev-tools/manage-runtime-packages.md
-    - name: Versiemodellen in de geautomatiseerde build
+    - name: Modelversies bijwerken in de geautomatiseerde build
       href: dev-tools/version-models-build.md
 - name: Oplossingen vrijgeven via Lifecycle Services
   items:
@@ -888,131 +911,133 @@
       href: lcs-solutions/lcs-solutions-app-source.md
     - name: Uitbrengen en publiceren
       href: lcs-solutions/marketing-content-lcs-solutions.md
-    - name: Een methode toevoegen
+    - name: Methodologieën toevoegen
       href: lcs-solutions/methodologies-lcs-solutions.md
     - name: Modelleertool bedrijfsprocessen instellen voor bibliotheken
       href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
     - name: Code migreren
       href: lcs-solutions/code-migration-lcs-solutions.md
-    - name: Een toepassing valideren
+    - name: Toepassingen valideren
       href: lcs-solutions/app-validation-lcs-solutions.md
     - name: Gegevenspakketten verwerken en verbruiken
       href: lcs-solutions/process-data-packages-lcs-solutions.md
-    - name: Back-up maken van oplossingendatabase
+    - name: Back-up maken van oplossingendatabases
       href: lcs-solutions/database-backup-lcs-solutions.md
-    - name: Lokalisaties
+    - name: Lokalisatie en wettelijk voorgeschreven functies
       href: lcs-solutions/country-region.md
       items:
-        - name: Lokalisatiefuncties classificeren
+        - name: Classificatie van lokalisatiefuncties
           href: lcs-solutions/classify-localization-features.md
-        - name: Land-/regiocontext
+        - name: Land-/regiocontext toepassen
           href: lcs-solutions/apply-country-context.md
-        - name: Wettelijke certificeringen
+        - name: Wettelijk voorgeschreven certificaatgegevens in functietitels
           href: lcs-solutions/regulatory-certifications.md
         - name: Wettelijk voorgeschreven updates
           href: lcs-solutions/regulatory-watch-communication.md
-        - name: Aparte lokalisatiemodellen
+        - name: Scheiding van lokalisatiemodellen
           href: lcs-solutions/separate-localization-models.md
-        - name: Wettelijke waarschuwing indienen
+        - name: Wettelijke waarschuwingen indienen
           href: lcs-solutions/submit-localization-alerts.md
 - name: Financiële ontwikkeling
   href: financial/financial-dev-home-page.md
   items:
-    - name: Dimensies
+    - name: Ondersteuning voor andere dimensiepatronen
       href: financial/dimensions.md
-    - name: Dimensies toevoegen aan een Excel-sjabloon
+    - name: Dimensies toevoegen aan Excel-sjablonen
       href: financial/dimensions-overview.md
-    - name: Ondersteuning dialoogvenster Besturingselement dimensie-invoer
+    - name: Ondersteuning voor besturingselementen Dimensie-invoer in dialoogvensters
       href: financial/dimension-entry-control-dialog-support.md
-    - name: 'Migratie voor besturingselement dimensie-invoer  '
+    - name: Standaard besturingselementen voor dimensies migreren naar besturingselementen Dimensie-invoer
       href: financial/dimension-entry-control-migration.md
-    - name: Uitrollen van besturingselement dimensie-invoer
+    - name: Besturingselement Dimensie-invoer uitrollen
       href: financial/dimension-entry-control-uptake.md
     - name: Subpatroon voor dimensie Expression Builder
       href: financial/dimension-expression-builder-subpattern.md
-    - name: Configuratie van financiële dimensies voor integrerende toepassingen
+    - name: Configuratie van financiële dimensies
       href: financial/financial-dimension-configuration-integration.md
-    - name: Financiële dimensies activeren
+    - name: Activering van financiële dimensies
       href: financial/activate-financial-dimensions.md
-    - name: Financiële dimensies en hoofdrekeningen in een taal die van rechts naar links wordt geschreven
+    - name: Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven
       href: financial/financial-dimensions-main-accounts-right-left-language.md
-    - name: Een archieftabel bruikbaar maken als een Financiële dimensie
+    - name: Archieftabellen bruikbaar maken als financiële dimensies
       href: financial/dimensionable-entities.md
-    - name: 'Migratie voor besturingselement gesegmenteerde invoer  '
+    - name: Besturingselementen Gesegmenteerde invoer migreren
       href: financial/segmented-entry-control-conversion.md
-    - name: Ondersteuning dialoogvenster Besturingselement gesegmenteerde invoer
+    - name: Ondersteuning voor besturingselementen Gesegmenteerde invoer in dialoogvensters
       href: financial/segmented-entry-control-dialog-support.md
-    - name: Metagegevens voor besturingselement gesegmenteerde invoer
+    - name: Metagegevens ontwerptijd voor besturingselementen Gesegmenteerde invoer
       href: financial/segmented-entry-control-metadata-specification.md
-    - name: Richtlijnen voor migratie besturingselement gesegmenteerde invoer
+    - name: Richtlijnen voor migratie voor besturingselementen Gesegmenteerde invoer
       href: financial/segmented-entry-control-migration-guidance.md
-    - name: Parametermethoden voor besturingselement gesegmenteerde invoer
+    - name: Parm-methoden voor besturingselementen Gesegmenteerde invoer
       href: financial/segmented-entry-control-parm-method-specification.md
-    - name: De mogelijkheid toevoegen om waarden voor financiële dimensies op te zoeken in Microsoft Excel-sjablonen
+    - name: Zoekwaarden voor financiële dimensies toevoegen aan Excel-sjablonen
       href: financial/add-dimensions-excel-templates.md
     - name: Wisselkoersproviders maken
       href: financial/create-exchange-rate-providers.md
-    - name: Wisselkoersproviders maken in Microsoft Dynamics Finance and Operations versie 8.0
+    - name: Wisselkoersproviders maken in Finance and Operations versie 8.0
       href: financial/create-exchange-rate-8.md
 - name: Ontwikkeling toeleveringsketen
   items:
-    - name: Handleiding voor Gantt-ontwikkeling
+    - name: Handleiding voor ontwikkeling van Gantt-besturingselement
       href: user-interface/gantt-development-guide.md
     - name: Een nieuwe transportbeheerengine maken
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: Implementatie
   items:
-    - name: Een demo-omgeving implementeren
+    - name: Demo-omgevingen implementeren
       href: deployment/deploy-demo-environment.md
     - name: Cloudimplementatie
       items:
-        - name: Onboarding Azure-resourcemanager
+        - name: Onboarding Azure-resourcemanager voltooien
           href: deployment/arm-onboarding.md
-        - name: Azure ExpressRoute en Dynamics 365 for Finance and Operations
+        - name: Azure ExpressRoute en Finance and Operations
           href: deployment/expressroute.md
         - name: Architectuur voor Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
     - name: On-premises implementatie
       href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Overzicht on-premises
+        - name: On-premises implementatie-optie
           href: deployment/on-premises-overview.md
-        - name: Planning voor uw on-premises implementatie
+        - name: On-premises implementaties plannen en voorbereiden
           href: deployment/plan-onprem-deployment.md
-        - name: Omvang van hardware
+        - name: Vereisten voor omvang hardware
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-        - name: Een on-premises project maken
+        - name: On-premises projecten instellen
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: On-premises omgevingen instellen en implementeren
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: On-premises omgevingen implementeren met Platform update 12
+            - name: On-premises omgevingen implementeren in Platform update 12
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: On-premises omgevingen implementeren met Platform updates 8 en 11
+            - name: On-premises omgevingen implementeren in Platform updates 8 en 11
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
         - name: Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren
           href: deployment/develop-deploy-custom-models-on-premises.md
-        - name: Reverse-proxy voor uw on-premises omgeving configureren
+        - name: Reverse-proxy's voor on-premises omgevingen configureren
           href: deployment/onprem-reverseproxy.md
         - name: Updates toepassen op een on-premises implementatie
           href: deployment/apply-updates-on-premises.md
-        - name: Een on-premises implementatie opnieuw implementeren
+        - name: On-premises diagnoses
+          href: deployment/on-premises-diagnostics.md
+        - name: On-premises implementaties opnieuw implementeren
           href: deployment/redeploy-on-prem.md
         - name: De lokale agent bijwerken
           href: lifecycle-services/update-local-agent.md
-        - name: Uw omgeving opnieuw configureren
+        - name: Omgevingen configureren
           href: lifecycle-services/reconfigure-environment.md
         - name: Internetverbinding voor client
           href: user-interface/client-disconnected.md
-        - name: 'Problemen oplossen in Dynamics 365 for Finance and Operations, on-premises'
+        - name: Problemen oplossen met on-premises implementaties
           href: deployment/troubleshoot-on-prem.md
     - name: Aangepaste code implementeren
       items:
-        - name: Een implementeerbaar pakket maken
+        - name: Implementeerbare modelpakketten maken
           href: deployment/create-apply-deployable-package.md
-        - name: Updates toepassen op een cloudomgeving
+        - name: Updates toepassen op cloudomgevingen
           href: deployment/apply-deployable-package-system.md
-        - name: Een implementeerbaar pakket installeren
+        - name: Implementeerbare pakketten installeren vanaf de opdrachtregel
           href: deployment/install-deployable-package.md
         - name: Een pakket verwijderen
           href: deployment/uninstall-deployable-package.md
@@ -1021,44 +1046,44 @@
 - name: 'Upgrades, updates en hotfixes'
   href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: Upgraden van AX 2012 naar Dynamics 365 for Finance and Operations
+    - name: Upgraden van AX 2012 naar Finance and Operations
       href: migration-upgrade/upgrade-overview-2012.md
       items:
-        - name: Upgrade van AX 2012 - Het hulpprogramma Upgradeanalyse gebruiken om te plannen
+        - name: Upgrade van AX 2012 - Plannen met het hulpprogramma Upgradeanalyse
           href: migration-upgrade/upgrade-analyzer-tool.md
-        - name: Upgrade van AX 2012 - De service Codeupgrade gebruiken om de inspanning te schatten
+        - name: Upgrade van AX 2012 - Inspanning schatten met de service Codeupgrade
           href: migration-upgrade/analyze-code-upgrade.md
-        - name: Upgrade van AX 2012 - Een sandbox-omgeving implementeren
+        - name: Upgrade van AX 2012 - Een demo-omgeving implementeren voor analyse
           href: migration-upgrade/analysis-sandbox.md
-        - name: Upgrade van AX 2012 - Gegevens bijwerken in een ontwikkelomgeving
+        - name: Upgrade van AX 2012 - Gegevens bijwerken in ontwikkelomgevingen
           href: migration-upgrade/data-upgrade-2012.md
-        - name: Upgrade van AX 2012 - Taken voor AX 2012-gegevensupgrade
+        - name: Upgrade van AX 2012 - Controlelijst voor gegevensupgrade vóór upgrade
           href: migration-upgrade/prepare-data-upgrade.md
-        - name: Upgrade van AX 2012 - Gegevens bijwerken in een sandbox-omgeving
+        - name: Upgrade van AX 2012 - Gegevens bijwerken in sandbox-omgevingen
           href: migration-upgrade/upgrade-data-sandbox.md
         - name: Upgrade van AX 2012 - Cutover testen
           href: migration-upgrade/upgrade-cutover-testing.md
-        - name: Upgrade van AX 2012 - Taken die moeten worden uitgevoerd na upgrade
+        - name: Upgrade van AX 2012 - Taken na gegevensupgrade
           href: migration-upgrade/app-validation-process.md
-        - name: Upgrade van AX 2012 - functionele test geslaagd
+        - name: Upgrade van AX 2012 - Functionele test geslaagd
           href: migration-upgrade/upgrade-functional-validation.md
-        - name: AX 2012 upgrade - go live voorbereiden
+        - name: Upgrade van AX 2012 - Go live voorbereiden
           href: migration-upgrade/upgrade-go-live-prep.md
         - name: Upgrade van AX 2012 - Go live
           href: migration-upgrade/2012-upgrade-cutover.md
         - name: Wijzigingen hebben gevolgen voor de upgrade van AX 2012
           items:
-            - name: Het scheidingsteken in het rekeningschema moet uniek zijn
+            - name: Het scheidingsteken in het rekeningschema uniek maken
               href: migration-upgrade/chart-accounts-delimiter-unique.md
-            - name: Enkel boekstuk en upgrade van herwaardering van valuta
+            - name: Journalen met enkel boekstuk en herwaarderingen van valuta upgraden
               href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
             - name: Gegevensmodel voor projectresourceplanning
               href: migration-upgrade/data-model-changes-resource-management.md
             - name: Wijzigingen werkstroomsubsysteem
               href: migration-upgrade/workflow-subsystem.md
-            - name: Waarom we van kubussen zijn overgestapt op samengevoegde modellen
+            - name: Samengevoegde modellen gebruikt in plaats van cubes voor analyses
               href: migration-upgrade/in-memory-real-time-aggregate-models.md
-            - name: Een bijgewerkte verkoop-cube migreren naar de entiteitsopslag
+            - name: Bijgewerkte verkoop-cubes migreren naar de entiteitsopslag
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Budgetplanning bijwerken
               href: migration-upgrade/upgrade-budget-planning.md
@@ -1067,31 +1092,31 @@
       items:
         - name: Voorbereidingen voor het migreren van code
           href: migration-upgrade/prepare-migration.md
-        - name: Visual Studio Team Services configureren tijdens de codemigratie
+        - name: Visual Studio Team Services-toewijzing configureren
           href: migration-upgrade/configure-vso-solution.md
-        - name: Modellen splitsen
+        - name: Model splitsen
           href: dev-tools/model-split.md
-        - name: Gemachtigden gebruiken bij het oplossen van afhankelijkheden tussen modellen
+        - name: Afhankelijkheden tussen modellen oplossen met gemachtigden
           href: migration-upgrade/delegates-migration.md
     - name: Upgraden naar een recente update (cloud)
       items:
         - name: Proces voor overschakeling naar de nieuwste update
           href: migration-upgrade/upgrade-latest-update.md
-        - name: Lifecycle-beleid
+        - name: Lifecycle-beleid voor software en cloudversies
           href: migration-upgrade/versions-update-policy.md
-        - name: De nieuwste platformupdate toepassen op uw omgeving
+        - name: De nieuwste platformupdate toepassen op omgevingen
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: Het Dynamics-platform upgraden naar de release van augustus 2016
+        - name: Het Dynamics AX-platform upgraden naar de release van augustus 2016
           href: migration-upgrade/update-platform-each-release.md
-        - name: Een sandbox-omgeving upgraden
+        - name: Sandbox-omgevingen upgraden
           href: migration-upgrade/upgrade-sandbox-environment.md
-        - name: Gegevens upgraden in ontwikkel- of demo-omgevingen
+        - name: 'Gegevens upgraden in ontwikkel-, demo- of sandbox-omgevingen'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Ontwikkelingshulpmiddelen bijwerken
           href: dev-tools/update-development-tools.md
     - name: Upgraden naar een recente update (on-premises)
       items:
-        - name: Updates toepassen op een on-premises implementatie
+        - name: Updates toepassen op on-premises implementaties
           href: deployment/apply-updates-on-premises.md
         - name: Een on-premises implementatie opnieuw implementeren
           href: deployment/redeploy-on-prem.md
@@ -1099,11 +1124,11 @@
       items:
         - name: Hotfixes downloaden uit Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
-        - name: Updates toepassen op een cloudomgeving
+        - name: Updates toepassen op cloudomgevingen
           href: deployment/apply-deployable-package-system.md
-        - name: Een metagegevens-hotfix installeren
+        - name: Hotfixes voor metagegevens installeren in ontwikkelomgevingen
           href: migration-upgrade/install-metadata-hotfix-package.md
-        - name: Patch Reporting Services in een omgeving met één apparaat
+        - name: Patch Reporting Services in omgevingen met één apparaat
           href: migration-upgrade/patch-reporting-service-environment.md
         - name: Visual Studio-ontwikkelprogramma's bijwerken
           href: dev-tools/update-development-tools.md
@@ -1116,11 +1141,11 @@
 - name: Systeembeheer
   href: sysadmin/system-administration-home-page.md
   items:
-    - name: Maandelijkse updates platform-FAQ
+    - name: Veelgestelde vragen maandelijkse updates cloudplatform
       href: sysadmin/faq-platform-monthly-updates.md
-    - name: Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie
+    - name: Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring
       href: sysadmin/legal-terms-privacy-statement.md
-    - name: Licentiecodes en configuratiesleutels rapporteren
+    - name: Rapport Licentiecodes en configuratiesleutels
       href: sysadmin/license-codes-configuration-keys-report.md
     - name: Delen van gegevens tussen bedrijven
       href: sysadmin/cross-company-data-sharing.md
@@ -1135,7 +1160,7 @@
       items:
         - name: Beveiligingsarchitectuur
           href: sysadmin/security-architecture.md
-        - name: Beveiligingsrapporten
+        - name: Kant-en-klare beveiligingsrapporten
           href: sysadmin/security-reports.md
         - name: Nieuwe gebruikers maken
           href: sysadmin/tasks/create-new-users.md
@@ -1150,18 +1175,18 @@
     - name: Batchverwerking
       href: sysadmin/batch-processing-overview.md
       items:
-        - name: Overzicht van batchserver
+        - name: Batchverwerking en batchservers
           href: sysadmin/batch-server-overview.md
-        - name: Een batchtaak maken
+        - name: Batchtaken maken
           href: sysadmin/tasks/create-batch-job.md
-    - name: Overzicht Optimization advisor
+    - name: Optimization advisor
       href: sysadmin/optimization-advisor-overview.md
       items:
         - name: Regels maken voor Optimization advisor
           href: sysadmin/create-rules-optimization-advisor.md
 - name: Lifecycle Services
   items:
-    - name: Overzicht van Lifecycle Services
+    - name: Bronnen voor Lifecycle Services
       href: lifecycle-services/lcs.md
       items:
         - name: LCS voor klanten
@@ -1172,7 +1197,7 @@
           href: lifecycle-services/whats-new-lcs.md
         - name: Bekende problemen
           href: lifecycle-services/known-issues.md
-    - name: Gebruikershandleiding Dynamics Lifecycle Services
+    - name: Gebruikershandleiding Lifecycle Services
       href: lifecycle-services/lcs-user-guide.md
     - name: Abonnementsschatting
       href: lifecycle-services/subscription-estimator.md
@@ -1187,27 +1212,27 @@
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: De code-upgradeservice configureren
       href: lifecycle-services/configure-execute-code-upgrade.md
-    - name: 'Een methodologie maken  '
+    - name: Methodologieën maken of bijwerken
       href: lifecycle-services/create-methodology.md
     - name: Modelleertool bedrijfsprocessen
       href: lifecycle-services/bpm-overview.md
-    - name: Zakelijke procesbibliotheken voor modelleertool bedrijfsprocessen
+    - name: Procesbibliotheken voor Modelleertool bedrijfsprocessen
       href: lifecycle-services/business-process-libraries-business-process-modeler.md
-    - name: 'Een BPM-bibliotheek maken, bewerken of doorbladeren'
+    - name: 'Bibliotheken voor Modelleertool bedrijfsprocessen maken, bewerken en doorzoeken'
       href: lifecycle-services/creating-editing-browsing.md
-    - name: Taken uitvoeren in een BPM-bibliotheek
+    - name: Taken in Modelleertool bedrijfsprocessen voltooien
       href: lifecycle-services/complete-tasks-bpm.md
-    - name: Activiteitendiagrammen gebruiken
+    - name: Werken met activiteitsdiagrammen in BPM-bibliotheken
       href: lifecycle-services/using-activity-diagrams.md
-    - name: Een BPM-bibliotheek synchroniseren met Visual Studio Team Services (VSTS)
+    - name: BPM-bibliotheken synchroniseren met Visual Studio Team Services
       href: lifecycle-services/synchronize-bpm-vsts.md
-    - name: Een acceptatietestsuite maken met taakbegeleidingen en BPM
+    - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleidingen en BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-    - name: Stroomdiagrammen voor modelleertool bedrijfsprocessen
+    - name: Stroomdiagrammen in Modelleertool bedrijfsprocessen
       href: lifecycle-services/flowcharts-business-process-modeler.md
-    - name: Aangepaste bedrijfsprocessen uploaden
+    - name: Aangepaste bedrijfsprocessen uploaden naar Modelleertool bedrijfsprocessen
       href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
-    - name: 'Controle en diagnose '
+    - name: Controle en diagnose
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Omgevingsservices opnieuw starten
       href: lifecycle-services/restart-environment-services.md
@@ -1215,187 +1240,36 @@
       href: lifecycle-services/user-logins.md
     - name: Activabibliotheek
       href: lifecycle-services/asset-library.md
-    - name: Microsoft Dynamics 365 - overzicht Vertaalservice
+    - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
-        - name: 'Microsoft Dynamics 365 - gebruikershandleiding Vertaalservice    '
+        - name: Gebruikersinterfacebestanden vertalen
           href: lifecycle-services/use-translation-service.md
-        - name: Microsoft Dynamics 365 Vertaalservice - vertaling documentatiebestand
+        - name: Documentatiebestanden vertalen
           href: lifecycle-services/use-translation-service-ua.md
-        - name: Microsoft Dynamics 365 Vertaalservice - vertaalgeheugen
+        - name: Bestanden van vertaalgeheugen
           href: lifecycle-services/use-translation-service-tm.md
-    - name: Dynamics AX 2012 Lifecycle Services-functies
-      items:
-        - name: Implementatie
-          items:
-            - name: Cloudomgevingen
-              href: lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md
-            - name: Een configuratie kopiëren
-              href: lifecycle-services/copy-configuration-lcs.md
-            - name: Een Dynamics AX 2012 R3-implementatie plannen op Azure
-              href: lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md
-            - name: Dynamics AX 2012 R3 op Azure implementeren
-              href: lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md
-            - name: Een demo-omgeving van Dynamics AX 2012 R3 implementeren
-              href: lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure.md
-            - name: Een ontwikkelomgeving op Azure implementeren
-              href: lifecycle-services/ax-2012/deploy-development-environment-azure.md
-            - name: Een ontwikkelomgeving met hoge beschikbaarheid op Azure implementeren
-              href: lifecycle-services/ax-2012/deploy-high-availability-environment-azure.md
-            - name: Een testomgeving op Azure implementeren
-              href: lifecycle-services/ax-2012/deploy-test-environment-azure.md
-            - name: Een Dynamics AX 2012 R3-implementatie beheren op Azure
-              href: lifecycle-services/ax-2012/manage-2012-r3-deployment-azure.md
-            - name: Enterprise Portal-servers toevoegen aan één serverfarm
-              href: lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm.md
-            - name: Invoerpunten registreren in Dynamics AX Enterprise Portal
-              href: lifecycle-services/ax-2012/record-entry-points-enterprise-portal.md
-            - name: Een Retail e-commerce dev/test-omgeving op Azure implementeren
-              href: lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md
-            - name: Een demo-omgeving voor Retail Essentials op Azure implementeren
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md
-            - name: Een Retail essentials dev/test-omgeving op Azure implementeren
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md
-            - name: Een Retail Mobility dev/test-omgeving op Azure implementeren
-              href: lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md
-            - name: Problemen oplossen voor Dynamics AX 2012 R3-implementatie op Azure
-              href: lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure.md
-            - name: Update voor Dynamics AX 2012 R3
-              href: lifecycle-services/ax-2012/update-2012-r3-lcs.md
-        - name: Gebruikershandleiding voor raamwerk van gegevensimport/-export
-          href: lifecycle-services/ax-2012/user-guide-dixf.md
-          items:
-            - name: Installeren
-              href: lifecycle-services/ax-2012/install-dixf.md
-              items:
-                - name: Installeren voor AX 2012 R3
-                  href: lifecycle-services/ax-2012/install-ax-2012-r3.md
-                - name: De versie van Dynamics AX 2012 R2 CU7 installeren voor SQL Server-2014
-                  href: lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014.md
-            - name: Gegevens migreren
-              href: lifecycle-services/ax-2012/migrate-data-dixf.md
-            - name: De versie van SSIS configureren
-              href: lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf.md
-            - name: Entiteitsgegevens tussen bedrijven kopiëren en vergelijken
-              href: lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf.md
-            - name: Gegevens kopiëren tussen Dynamics AX-bedrijven
-              href: lifecycle-services/ax-2012/copy-data-between-companies-dixf.md
-            - name: Gegevens kopiëren tussen Dynamics AX-exemplaren
-              href: lifecycle-services/ax-2012/copy-data-between-instances-dixf.md
-            - name: Een aangepaste doelentiteit maken
-              href: lifecycle-services/ax-2012/create-custom-target-entity-dixf.md
-            - name: Entiteiten van raamwerk voor gegevensimport/-export
-              href: lifecycle-services/ax-2012/entities-dixf.md
-            - name: Gegevens importeren uit een CSV-gegevensbron
-              href: lifecycle-services/ax-2012/import-data-csv-data-source-dixf.md
-            - name: Gegevens importeren uit een ODBC-gegevensbron
-              href: lifecycle-services/ax-2012/import-data-odbc-data-source-dixf.md
-            - name: Demobestanden
-              href: lifecycle-services/ax-2012/demo-files-dixf.md
-            - name: Snelle import/export
-              href: lifecycle-services/ax-2012/quick-import-export.md
-        - name: Tabellen
-          items:
-            - name: Tabellen maken
-              href: lifecycle-services/ax-2012/create-tables.md
-            - name: Tabeleigenschappen
-              href: lifecycle-services/ax-2012/table-properties.md
-        - name: Dynamics AX 2012 LCS-hulpprogramma's
-          items:
-            - name: Projecten
-              href: lifecycle-services/ax-2012/projects-lcs.md
-            - name: Methodologieën
-              href: lifecycle-services/ax-2012/methodologies-lcs.md
-            - name: 'Aanpassingsanalyse  '
-              href: lifecycle-services/ax-2012/customization-analysis-lcs.md
-            - name: Schatting infrastructuur
-              href: lifecycle-services/ax-2012/infrastructure-estimator-lcs.md
-            - name: Schatting licentieomvang
-              href: lifecycle-services/ax-2012/license-sizing-estimator-lcs.md
-            - name: Aanvragen voor antwoorden voorstel (lifecycle-services/RFP.md)
-              href: lifecycle-services/ax-2012/rfp-responses-lcs.md
-            - name: Systeemdiagnose
-              href: lifecycle-services/ax-2012/system-diagnostics-lcs.md
-            - name: Systeemdiagnose installeren en uitvoeren
-              href: lifecycle-services/ax-2012/install-run-system-diagnostics-lcs.md
-            - name: Upgradeanalyse
-              href: lifecycle-services/ax-2012/upgrade-analysis-lcs.md
-            - name: Gebruikprofilering
-              href: lifecycle-services/ax-2012/usage-profiler-lcs.md
-        - name: Dynamics AX 2012 downloadbare hulpprogramma's
-          items:
-            - name: Gebruikershandleiding code-upgradeprogramma (afgeschaft)
-              href: lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md
-            - name: Te downloaden Lifecycle Services-hulpprogramma's
-              href: lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource.md
-            - name: Hulpmiddel voor testgegevensoverdracht (bèta)
-              href: lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md
-              items:
-                - name: Installeren
-                  href: lifecycle-services/ax-2012/install-test-data-transfer-tool-beta.md
-                - name: Uitvoeren
-                  href: lifecycle-services/ax-2012/run-test-data-transfer-tool-beta.md
-                - name: Demogegevens importeren voor AX 2012 R3
-                  href: lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool.md
-            - name: Hulpprogramma voor beveiligingsontwikkeling
-              href: lifecycle-services/ax-2012/overview-security-development-tool-user-interface.md
-              items:
-                - name: Installeren
-                  href: lifecycle-services/ax-2012/install-security-development-tool.md
-                - name: Gebruikershandleiding
-                  href: lifecycle-services/ax-2012/security-development-tool-user-guide.md
-                - name: Machtigingen voor invoerpunt definiëren of bewerken
-                  href: lifecycle-services/ax-2012/define-edit-entry-point-permissions.md
-            - name: Performance Benchmark software-ontwikkelingskit
-              href: lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012.md
-            - name: Adviesprogramma voor beveiligingsupgrades
-              href: lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide.md
-            - name: Intelligent Data Management Framework (IDMF)
-              href: lifecycle-services/ax-2012/microsoft-idmf.md
-              items:
-                - name: Overzicht
-                  href: lifecycle-services/ax-2012/overview-idmf.md
-                - name: Installatiehandleiding
-                  href: lifecycle-services/ax-2012/installation-guide-idmf.md
-                - name: Configuratie
-                  href: lifecycle-services/ax-2012/configuration-functionality-idmf-workspace.md
-                - name: Analyse
-                  href: lifecycle-services/ax-2012/analysis-functionality-idmf-workspace.md
-                - name: Opschoon- en archiefobjecten
-                  href: lifecycle-services/ax-2012/work-with-purge-objects-archive-objects.md
-                - name: Archiefobjecten maken
-                  href: lifecycle-services/ax-2012/create-archive-objects.md
-                - name: Opschoonobjecten maken
-                  href: lifecycle-services/ax-2012/create-purge-objects.md
-                - name: Opschoon- en analysetaken plannen
-                  href: lifecycle-services/ax-2012/schedule-purge-analysis-tasks.md
-                - name: Opschoon- of archieftaken weergeven
-                  href: lifecycle-services/ax-2012/view-status-purge-archive-jobs.md
-                - name: Onderhouden
-                  href: lifecycle-services/ax-2012/maintain-idmf.md
-                - name: Problemen oplossen
-                  href: lifecycle-services/ax-2012/troubleshoot-idmf.md
 - name: Databasebeheer
   items:
-    - name: Een database van Azure SQL-Database kopiëren naar een SQL Server-omgeving
+    - name: Databases van Azure SQL-Database kopiëren naar SQL Server-omgevingen
       href: database/copy-database-from-azure-sql-to-sql-server.md
-    - name: Een database van SQL Server kopiëren naar een productie-omgeving met een Azure SQL-database
+    - name: Databases van SQL Server kopiëren naar productie-omgevingen met een Azure SQL-database
       href: database/copy-database-from-sql-server-to-azure-sql.md
-    - name: Een database op een niet-productieomgeving herstellen
+    - name: Databases in niet-productieomgevingen herstellen
       href: database/request-point-in-time-restore.md
-    - name: Een kopie van een database exporteren om op een later tijdstip herstellen
+    - name: Kopieën van databases exporteren om op een later tijdstip herstellen
       href: database/copy-operations-database.md
     - name: Aanvraag voor sandbox-database vernieuwen
       href: database/database-refresh.md
 - name: Ondersteuning
   items:
-    - name: Ondersteuning krijgen voor Dynamics 365 for Finance and Operations en Lifecycle Services
+    - name: Ondersteuning krijgen voor Finance and Operations en Lifecycle Services
       href: lifecycle-services/lcs-support.md
     - name: Een ticket voor eersteklas ondersteuning registreren
       href: lifecycle-services/premier-support.md
-    - name: Een aanvraag indienen bij het Dynamics Service-engineeringteam
+    - name: Aanvragen indienen bij het Dynamics Service-engineeringteam
       href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-    - name: Technische ondersteuning instellen voor Dynamics 365 for Finance and Operations
+    - name: Technische ondersteuning instellen voor Finance and Operations
       href: lifecycle-services/support-experience.md
     - name: Veelgestelde vragen over gepland onderhoudsvenster
       href: lifecycle-services/planned-maintenance-window-faq.md

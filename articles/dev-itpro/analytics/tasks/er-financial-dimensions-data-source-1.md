@@ -1,5 +1,5 @@
 --- 
-title: "Gegevensmodel ontwerpen voor gebruik van financiële dimensies als gegevensbron"
+title: "Gegevensmodellen ontwerpen voor gebruik van financiële dimensies als gegevensbronnen"
 description: "In de volgende stappen wordt uitgelegd hoe een systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan configureren om financiële dimensies te gebruiken als bron voor ER-rapporten."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e55eedba1955ae79733afee1a0b3c7072147bb5
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9b33d78b60ca4e4813dd4b158febee2323cea476
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a>Gegevensmodel ontwerpen voor gebruik van financiële dimensies als gegevensbron 
+# <a name="design-data-models-to-use-financial-dimensions-as-data-sources"></a>Gegevensmodellen ontwerpen voor gebruik van financiële dimensies als gegevensbronnen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

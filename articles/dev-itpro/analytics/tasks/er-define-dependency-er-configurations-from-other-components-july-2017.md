@@ -1,5 +1,5 @@
 --- 
-title: "De afhankelijkheid van configuraties van andere onderdelen definiëren"
+title: "De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren"
 description: Voordat u deze stappen uitvoert, moet u eerst de stappen in de taakbegeleiding ER modeltoewijzingsconfiguraties uitvoeren en moet u toegang hebben tot Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cbd65f0734f54ed497758faffb452e4f61ab2089
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="define-the-dependency-of-configurations-from-other-components"></a>De afhankelijkheid van configuraties van andere onderdelen definiëren 
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -33,7 +33,7 @@ Deze procedure laat zien hoe u een ER-configuratie ontwerpt en de afhankelijkhei
 Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektronische aangifteontwikkelaar. De stappen kunnen in elk bedrijf worden uitgevoerd, omdat ER-configuraties tussen bedrijven worden gedeeld. 
 
 1. Ga naar Organisatiebeheer > Elektronische rapportage > Configuraties.
-    * Zorg ervoor dat de configuratiestructuur de configuratie 'Voorbeeldgegevensmodel' en de onderliggende items bevat. Voltooi anders de stappen in de taakbegeleider ER modeltoewijzingsconfiguraties beheren, en start deze gids opnieuw.   
+    * Zorg ervoor dat de configuratiestructuur de configuratie 'Voorbeeldgegevensmodel' en de onderliggende items bevat. Voltooi anders de stappen in de taakbegeleiding ER modeltoewijzingsconfiguraties beheren, en start deze gids opnieuw.   
 
 ## <a name="define-the-dependency-of-er-configurations-from-other-components"></a>De afhankelijkheid van ER-configuraties van andere onderdelen definiëren
 1. Vouw in de structuur 'Voorbeeldgegevensmodel' uit.

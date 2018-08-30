@@ -1,5 +1,5 @@
 ---
-title: Gegenereerde bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
+title: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
 description: Dit onderwerp bevat informatie over het splitsen van gegenereerde bestanden op basis van de bestandsgrootte en de hoeveelheid inhoudsitems.
 author: NickSelin
 manager: AnnBe
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: afdf5b2596af7641182be50ced8159967164b115
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 0f13194575e2f19f585f09ffad99144c9a9fc3b1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -40,7 +40,7 @@ Naast de indelingselementen XML ELEMENT en XML SEQUENCE gebruiken om XML-knooppu
 
 Als u bestandsbestemmingen hebt geconfigureerd voor een FILE-indelingselement dat is geconfigureerd om de gegenereerde uitvoer te splitsen wanneer specifieke limieten worden overschreden, wordt elk stuk gegenereerde uitvoer naar de geconfigureerde bestandsbestemming verzonden als een afzonderlijk bestand. Als u de bestanden die worden gemaakt door de uitvoer te splitsen, uniek wilt benoemen, moet u een ER-expressie configureren voor het FILE-indelingselement. Als u een ER-gegevensbron van het type NUMBER SEQUENCE opneemt, wordt de nummerreeks verhoogd voor elk stuk van de gesplitste uitvoer.
 
-Voor meer informatie over deze functie speelt u de taakbegeleider **ER gesplitste XML-bestanden op basis van bestandsgrootte en hoeveelheid inhoudsitems** af, die deel uitmaakt van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** en kan worden gedownload uit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684). Deze taakbegeleider helpt u bij het proces van het configureren van een ER-indeling als u gegenereerde bestanden wilt splitsen op basis van beperkingen op de bestandsgrootte en de hoeveelheid inhoudsitems. Als u de taakbegeleider wilt voltooien, moet u de volgende bestanden downloaden:
+Voor meer informatie over deze functie speelt u de taakbegeleiding **ER gesplitste XML-bestanden op basis van bestandsgrootte en hoeveelheid inhoudsitems** af, die deel uitmaakt van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** en kan worden gedownload uit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684). Deze taakbegeleiding helpt u bij het proces van het configureren van een ER-indeling als u gegenereerde bestanden wilt splitsen op basis van beperkingen op de bestandsgrootte en de hoeveelheid inhoudsitems. Als u de taakbegeleiding wilt voltooien, moet u de volgende bestanden downloaden:
 
 - [ER-modelconfiguratie - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [ER-indelingsconfiguratie - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
@@ -49,5 +49,4 @@ Voor meer informatie over deze functie speelt u de taakbegeleider **ER gesplitst
 [Bestemmingen van elektronische rapportage](electronic-reporting-destinations.md)
 
 [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md)
-
 

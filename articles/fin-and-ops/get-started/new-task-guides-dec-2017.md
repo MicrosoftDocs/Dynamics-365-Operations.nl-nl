@@ -1,5 +1,5 @@
 ---
-title: Nieuwe of bijgewerkte taakbegeleiders (december 2017)
+title: Nieuwe of bijgewerkte taakbegeleidingen (december 2017)
 description: In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (december 2016, alle talen) voor Microsoft Dynamics 365 for Operations. Er is geen nieuwe bibliotheek Aan de slag uitgebracht.
 author: josaw1
 manager: AnnBe
@@ -16,19 +16,19 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a6bec9c0e9b591f99a0c00e554c18a5ebe440859
-ms.openlocfilehash: 25ee17c98d1071129e212512d75883dccd32791f
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: fbf99e6c01101209bf9e2a213c8008f50e67ad68
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="new-or-updated-task-guides-december-2017"></a>Nieuwe of bijgewerkte taakbegeleiders (december 2017)
+# <a name="new-or-updated-task-guides-december-2017"></a>Nieuwe of bijgewerkte taakbegeleidingen (december 2017)
 
 In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (december 2016, alle talen) voor Microsoft Dynamics 365 for Operations.
 
 
-<a name="new-task-guides"></a>Nieuwe taakbegeleiders
+<a name="new-task-guides"></a>Nieuwe taakbegeleidingen
 ---------------
 
 <table>
@@ -105,7 +105,7 @@ In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die z
 </tbody>
 </table>
 
-<a name="task-guides-updated"></a>Bijgewerkte taakbegeleiders
+<a name="task-guides-updated"></a>Bijgewerkte taakbegeleidingen
 -------------------
 
 <table>
@@ -1034,7 +1034,7 @@ In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die z
 <a name="bpm-lines-deleted"></a>BPM-regels verwijderd
 -----------------
 
-Wanneer een BPM-regel wordt verwijderd, wordt elke taakbegeleider die gekoppeld is aan de BPM-regel, ook verwijderd.
+Wanneer een BPM-regel wordt verwijderd, wordt elke taakbegeleiding die gekoppeld is aan de BPM-regel, ook verwijderd.
 
 <table>
 <thead>

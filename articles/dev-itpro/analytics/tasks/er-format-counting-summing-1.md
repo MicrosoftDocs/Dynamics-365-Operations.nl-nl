@@ -1,5 +1,5 @@
 --- 
-title: Indeling voor tellen en totaliseren maken
+title: Indelingen voor elektronische rapportage maken voor tellen en totaliseren
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7613b78d4a9ab63f5be9773a8699fe3ed94636eb
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 7261a2324b61cacfca8d69ad52762aa545b70220
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-format-for-counting-and-summing"></a>Indeling voor tellen en totaliseren maken 
+# <a name="create-electronic-reporting-er-formats-to-do-counting-and-summing"></a>Indelingen voor elektronische rapportage (ER) maken voor tellen en totaliseren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

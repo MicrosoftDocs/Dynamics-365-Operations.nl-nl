@@ -1,5 +1,5 @@
 ---
-title: Rapporten voor de Wet Betaalbare zorg maken
+title: Rapporten voor de Wet Betaalbare zorg (ACA) maken
 description: Er is functionaliteit beschikbaar om werkgevers te helpen die de gegevens moeten bijhouden die wordt gemeld via de formulieren 1095-B en 1095-C, ter ondersteuning van het gedeelte Employer Mandate van de Affordable Care Act. Houd er rekening mee dat deze functionaliteit alleen beschikbaar is voor rechtspersonen in de Verenigde Staten.
 author: kherr75
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 1994edc5d6c932be3a285f9bb328a05504c90f07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-affordable-care-act-reports"></a>Rapporten voor de Wet Betaalbare zorg maken
+# <a name="generate-affordable-care-act-aca-reports"></a>Rapporten voor de Wet Betaalbare zorg (ACA) maken
 
 [!include [banner](includes/banner.md)]
 

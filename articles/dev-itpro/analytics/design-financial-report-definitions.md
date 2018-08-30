@@ -22,7 +22,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -34,44 +34,40 @@ Dit artikel bevat informatie over rapportdefinities. Een rapportdefinitie is een
 
 Een rapportdefinitie is een rapportonderdeel (of bouwsteen) die gebruikmaakt van een rijdefinitie, een kolomdefinitie en een optionele rapportagestructuurdefinitie om een rapport te maken. Daarnaast biedt een rapportdefinitie opties en instellingen die u kunt gebruiken voor het aanpassen van een rapport. Nadat u rijdefinities en kolomdefinities hebt gedefinieerd, moet u deze in een rapportdefinitie combineren. Op dit punt definieert u ook andere aspecten van de definities, zoals het detailniveau en de rapportdatum. U kunt vervolgens een rapport opslaan en genereren. Financiële rapportage biedt de volgende detailniveaus:
 
--   Financieel
--   Financieel en Rekening
--   Financieel, Rekening en Transactie
+- Financieel
+- Financieel en Rekening
+- Financieel, Rekening en Transactie
 
 Afhankelijk van hoe de gegevens in het Microsoft Dynamics ERP-systeem worden opgeslagen, zijn transactiedetails mogelijk niet beschikbaar in rapporten.
 
 ## <a name="create-a-report-definition"></a>Een rapportdefinitie maken
-1.  Klik in Report Designer in het menu **Bestand** op **Nieuw** en selecteer **Rapportdefinitie**.
-2.  Geef de gewenste informatie op in de tabbladen **Rapport**, **Uitvoer en distributie** **Kop- en voetteksten** en **Instellingen**.
+1. Klik in Report Designer in het menu **Bestand** op **Nieuw** en selecteer **Rapportdefinitie**.
+2. Geef de gewenste informatie op in de tabbladen **Rapport**, **Uitvoer en distributie** **Kop- en voetteksten** en **Instellingen**.
 
 ## <a name="contents-of-a-report-definition"></a>Inhoud van een rapportdefinitie
 In de volgende tabel worden de tabbladen in een rapportdefinitie beschreven en hoe de gegevens worden gebruikt.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Tabblad</th>
 <th>Beschrijving</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Rapport</td>
 <td>Maak een rapport, configureer een rapport of wijzig een bestaand rapport.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Uitvoer en distributie</td>
 <td>Wijzig het uitvoertype en de bestemming van het rapport.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Kop- en voetteksten</td>
 <td>Definieer de kop- en voetteksten voor het rapport en maak deze op. U kunt bijvoorbeeld tekst of afbeeldingen aan de kop- of voettekst toevoegen. Financiële rapportage ondersteunt .bmp, .jpg en .png-bestanden voor afbeeldingen. U kunt ook Autotekstcodes toevoegen om andere informatie, zoals een bedrijfsnaam, rapportnaam of paginanummer, in te voegen.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Instellingen</td>
 <td>Geef instellingen voor de rapportdefinitie op, zoals de volgende instellingen:
 <ul>
@@ -81,18 +77,13 @@ In de volgende tabel worden de tabbladen in een rapportdefinitie beschreven en h
 <li>Genereren van een uitzonderingenrapport</li>
 <li>Opgeven van valutaomrekening</li>
 <li>Subtotaal en filter van rekeningdetails</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
-
-
-
 

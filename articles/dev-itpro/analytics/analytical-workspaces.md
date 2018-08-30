@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [Power BI-inhoud CFO-overzicht](CFO-power-bi.md)
 - [Power BI-inhoud Compensatie](compensation-power-bi.md)
 - [Power BI-inhoud Analyse van kostprijsboekhouding](cost-accounting-analysis-content-pack.md) 
-- [Power BI-inhoud voor kostenbeheer](cost-management-content-pack.md)    
+- [Power BI-inhoud voor kostenbeheer](cost-management-content-pack.md)
 - [Power BI-inhoud Crediterings- en aanmaningsbeheer](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Power BI-inhoud Werknemerontwikkeling](employee-development-PBI.md) 
 - [Power BI-inhoud Financial Insights](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [Power BI-inhoud over prestaties op het gebied van verkoop en winstgevendheid](sales-profitability-performance-content-pack.md)
 - [Power BI-inhoud Leveranciersbetalingen](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Power BI-inhoud voor magazijnprestaties](warehouse-power-bi-content.md)
-- [Power BI-inhoud voor metrische gegevens over personeel](workforce-analysis-power-bi-content-pack.md)  
+- [Power BI-inhoud voor metrische gegevens over personeel](workforce-analysis-power-bi-content-pack.md)
 

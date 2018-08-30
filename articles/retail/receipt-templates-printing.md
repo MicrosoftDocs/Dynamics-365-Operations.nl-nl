@@ -1,5 +1,5 @@
 ---
-title: Ontvangstsjablonen en afdrukken
+title: Ontvangstbewijsindelingen instellen en ontwerpen
 description: In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Microsoft Dynamics 365 for Retail heeft een ontwerper voor formulierindelingen, waarmee u gemakkelijk verschillende soorten formulierindelingen kunt maken en aanpassen.
 author: rubencdelgado
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 76cc7f873b99874ef6f2c4bc2ebc3f87fa065647
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 731b47ecaf7170967ac1f023881e6c6ca8c26d37
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="receipt-templates-and-printing"></a>Ontvangstsjablonen en afdrukken
+# <a name="set-up-and-design-receipt-formats"></a>Ontvangstbewijsindelingen instellen en ontwerpen
 
 [!include [banner](includes/banner.md)]
 

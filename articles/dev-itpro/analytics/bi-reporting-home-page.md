@@ -1,6 +1,6 @@
 ---
-title: Intelligence
-description: In dit onderwerp wordt u verwezen naar resources die u kunt gebruiken om meer te weten te komen over de business intelligence en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
+title: Business intelligence (BI) en startpagina rapportage
+description: In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de business intelligence en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -18,18 +18,18 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="intelligence"></a>Intelligence
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Business intelligence (BI) en startpagina rapportage
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt u verwezen naar resources die u kunt gebruiken om meer te weten te komen over de business intelligence (BI) en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
+In dit onderwerp wordt verwezen naar resources die u kunt gebruiken om meer te weten te komen over de business intelligence (BI) en rapportagehulpmiddelen die beschikbaar zijn in Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Aan de slag
 - [Informatietoegang en -rapportage](information-access-reporting.md)
@@ -43,13 +43,13 @@ Gebruikers kunnen interacties aangaan met gegevens door te klikken of visuele el
 
 ![Voorbeeld van Power BI in een werkgebied](./media/Power-BI-in-D365-Workspace.png)
 
- Zie de volgende onderwerpen voor meer informatie:
+Zie de volgende onderwerpen voor meer informatie:
 
- - [Embedded Power BI in werkgebieden](embed-power-bi-workspaces.md)
- - [Integratie met Power BI Embedded](power-bi-embedded-integration.md)
- - [Analyses aan werkgebieden toevoegen met Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Analytische werkgebieden en rapporten beveiligen met Power BI Embedded](secure-analytical-workspaces.md)
- - [Power BI-inhoud voor Finance and Operations](power-bi-home-page.md)
+- [Embedded Power BI in werkgebieden](embed-power-bi-workspaces.md)
+- [Integratie met Power BI Embedded](power-bi-embedded-integration.md)
+- [Analyses aan werkgebieden toevoegen met Power BI Embedded](add-analytics-tab-workspaces.md)
+- [Analytische werkgebieden en rapporten beveiligen met Power BI Embedded](secure-analytical-workspaces.md)
+- [Power BI-inhoud voor Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Bedrijfsdocumenten en afdrukken
 Rapportage-oplossingen worden vaak gebruikt voor het vastleggen en communiceren van de details van zakelijke transacties. Daarom moet een rapportage-oplossing in staat zijn fysieke uitingen van zakelijke gegevens te produceren met behulp van bestaande apparaten, zoals netwerkprinters. Voorbeelden van bedrijfsdocumenten zijn verkoopfacturen, klantoverzichten en cheques.
@@ -58,7 +58,7 @@ Rapportage-oplossingen worden vaak gebruikt voor het vastleggen en communiceren 
 
 Zie de volgende onderwerpen voor meer informatie:
 
-- [Overzicht van Document Reporting Services](document-reporting-services.md)
+- [Overzicht van documentrapportservices](document-reporting-services.md)
 - [Afdrukken in toepassingen van Finance and Operations](print-documents.md)
 - [De documentrouteringsagent installeren om netwerkprinterapparatuur in te schakelen](install-document-routing-agent.md)
 

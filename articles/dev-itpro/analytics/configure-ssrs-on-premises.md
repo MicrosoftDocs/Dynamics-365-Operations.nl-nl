@@ -1,5 +1,5 @@
 ---
-title: SQL Server Reporting Services configureren voor een on-premises implementatie
+title: SQL Server Reporting Services configureren voor on-premises implementaties
 description: Dit onderwerp biedt informatie over het configureren van SQL Server Reporting Services (SSRS) voor een on-premises implementatie.
 author: sarvanisathish
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b18050aa3c01db5667f0a529e3eb0c5eba971dc8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>SQL Server Reporting Services configureren voor een on-premises implementatie
+# <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>SQL Server Reporting Services configureren voor on-premises implementaties
 
 [!include [banner](../includes/banner.md)]
 

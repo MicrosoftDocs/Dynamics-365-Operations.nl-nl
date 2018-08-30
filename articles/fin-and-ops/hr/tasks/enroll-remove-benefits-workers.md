@@ -1,5 +1,5 @@
 --- 
-title: Vergoedingen inschrijven en verwijderen van werknemers
+title: Werknemers voor vergoedingen inschrijven en vergoedingen verwijderen van werknemers
 description: "Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan worden geregistreerd en hoe meerdere medewerkers in een vergoeding kunnen worden geregistreerd."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 844582904f7d3c14f6d5aa425a3c9d8234c01568
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: b0feb25ee2faa7392c475ae9477a5ad66af25f04
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="enroll-and-remove-benefits-from-workers"></a>Vergoedingen inschrijven en verwijderen van werknemers
+# <a name="enroll-workers-in-benefits-and-remove-benefits-from-workers"></a>Werknemers voor vergoedingen inschrijven en vergoedingen verwijderen van werknemers
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

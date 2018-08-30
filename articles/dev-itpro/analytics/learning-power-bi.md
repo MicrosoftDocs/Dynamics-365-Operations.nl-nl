@@ -65,5 +65,3 @@ De volgende gegevens wordt gebruikt voor het vullen van de rapporten in de Power
 | Naam van werknemer    | Voornaam, achternaam en volledige naam                             | Cursusdeelnemers |
 | Werknemertitel   | Titel en anciënniteitsdatum                                         | Cursusdeelnemers |
 
-
-

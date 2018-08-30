@@ -1,5 +1,5 @@
 ---
-title: Gegevens importeren vanuit Excel-sjablonen voor gegevensentiteiten met meerdere werkbladen
+title: Gegevens importeren vanuit Excel-sjablonen voor gegevensentiteiten die meerdere werkbladen bevatten
 description: In dit onderwerp wordt beschreven hoe u gegevens met Excel-sjablonen voor gegevensentiteiten importeert in Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="excel-templates-with-multiple-worksheets"></a>Excel-sjablonen met meerdere werkbladen
+# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Gegevens importeren vanuit Excel-sjablonen voor gegevensentiteiten die meerdere werkbladen bevatten
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Gegevensbronnen voor meerdere bedrijven in elektronische aangifte
+title: Gegevensbronnen voor het hele bedrijf in de elektronische aangifte (ER)
 description: In dit onderwerp wordt uitgelegd hoe u gegevensbronnen voor meerdere bedrijven kunt gebruiken in elektronische rapportage (ER).
 author: NickSelin
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 7f0f78d15e99397d61c3abace197cf1281d3769f
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 201d0f1e3fddd662748008c7304d67ef6003ef02
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="cross-company-data-sources-in-electronic-reporting"></a>Gegevensbronnen voor meerdere bedrijven in elektronische aangifte
+# <a name="cross-company-data-sources-in-electronic-reporting-er"></a>Gegevensbronnen voor het hele bedrijf in de elektronische aangifte (ER)
 
 [!include[banner](../includes/banner.md)]
 
@@ -69,9 +69,9 @@ Houd er rekening mee dat wanneer de optie **Concept gebruiken** is uitgeschakeld
 
 De hiërarchie kan worden toegewezen aan een indeling op een bepaalde pagina die kan worden geopend vanuit het ER-werkgebied of met behulp van de menuoptie **Organisatiebeheer -> Elektronische rapportage -> Filter voor indelingen rechtspersoon**. Voor toegang tot de pagina moet de bevoegdheid , de **Filters voor indelingen van rechtspersonen onderhouden** (ERMaintainFormatMappingLegalEntityFilters) worden verleend aan een gebruiker. De bereikbeperking van op hiërarchie gebaseerde rechtspersonen voor de indeling wordt toegepast naast de beperking die de gebruiker handmatig kan opgeven in het systeemquerydialoogvenster. Het snijpunt van deze beperkingen wordt gebruikt wanneer de indeling wordt uitgevoerd.
 
-Voor meer informatie over deze functie speelt u de taakbegeleider **ER-toegang tot records van bedrijfsafhankelijke tabellen in de modus voor meerdere bedrijven** af, die deel uitmaakt van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677) en kan worden gedownload uit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684). Deze taakbegeleider begeleidt u door het proces van het configureren van een ER-modeltoewijzing en ER-indeling om toegang tot toepassingstabellen te krijgen in de modus voor meerdere bedrijven.
+Voor meer informatie over deze functie speelt u de taakbegeleiding **ER-toegang tot records van bedrijfsafhankelijke tabellen in de modus voor meerdere bedrijven** af, die deel uitmaakt van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677) en kan worden gedownload uit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=874684). Deze taakbegeleiding begeleidt u door het proces van het configureren van een ER-modeltoewijzing en ER-indeling om toegang tot toepassingstabellen te krijgen in de modus voor meerdere bedrijven.
 
-Download de volgende bestanden om de taakbegeleider te voltooien:
+Download de volgende bestanden om de taakbegeleiding te voltooien:
 
 - [ER-modelconfiguratie - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [ER-indelingsconfiguratie - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)

@@ -1,5 +1,5 @@
 ---
-title: Een parallelle activiteit in een workflow configureren
+title: Parallelle activiteiten in een workflow configureren
 description: Voer de volgende procedures uit in de workfloweditor om een parallelle activiteit te configureren.
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec1c1d8abc49deb8ef16322370c59d40b01d344c
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 64cd387f8a6ab693d159cd659fca51fa6568ee39
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Een parallelle activiteit in een workflow configureren
+# <a name="configure-parallel-activities-in-a-workflow"></a>Parallelle activiteiten in een workflow configureren
 
 [!include [banner](../includes/banner.md)]
 

@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 4285db9c71208bce45d64933e692a25ef3f46b26
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Gegevens importeren uit SharePoint configureren
@@ -43,7 +43,7 @@ Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het v
 - ER-indeling en modelconfiguraties voor 1099-betalingen
 
 ### <a name="create-required-er-configurations"></a>Vereiste ER-configuraties maken
-Speel de taakbegeleiders **ER-gegevens importeren uit een Microsoft Excel-bestand** af, die deel uitmaken van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)**. Deze taakbegeleiders begeleiden u bij het ontwerpen en gebruiken van ER-configuraties om interactief leverancierstransacties te importeren uit externe Microsoft Excel-bestanden. Zie voor meer informatie [Inkomende documenten in Microsoft Excel parseren](parse-incoming-documents-excel.md). Ten slotte moet u het volgende doen:
+Speel de taakbegeleidingen **ER-gegevens importeren uit een Microsoft Excel-bestand** af, die deel uitmaken van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)**. Deze taakbegeleidingen begeleiden u bij het ontwerpen en gebruiken van ER-configuraties om interactief leverancierstransacties te importeren uit externe Microsoft Excel-bestanden. Zie voor meer informatie [Inkomende documenten in Microsoft Excel parseren](parse-incoming-documents-excel.md). Ten slotte moet u het volgende doen:
 
 - ER-configuraties:
 

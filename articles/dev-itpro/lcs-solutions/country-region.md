@@ -3,7 +3,7 @@ title: Lokalisatie en wettelijk voorgeschreven functies
 description: Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke functionaliteit.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 07/18/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4485bd6442d186e5a6bac90e0a9041566e2e26d0
-ms.openlocfilehash: efa82abcd25101fc7be772c32e6c4fee7976d4bb
+ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
+ms.openlocfilehash: 787ce11701a9df951b38af5209206902d7c98019
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -144,36 +144,12 @@ In de volgende gedeelten worden bronnen per land/regio weergegeven.
 - [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](../../financials/localizations/emea-amount-printing-forms.md) 
 - [Btw-wisselkoersen](../../financials/localizations/emea-vat-exchange-rate.md)
 - [Transacties vastleggen in btw-register voor Oost-Europa](../../financials/localizations/emea-vat-register-transactions.md)
-- [Btw-rapportage](../../financials/localizations/emea-vat-reporting.md)
+- [Btw-aangifte](../../financials/localizations/emea-vat-reporting.md)
 - [Transacties weergeven bij vereffening](../../financials/localizations/emea-transactions-settlement-form.md)
 
-### <a name="france"></a>Frankrijk
--   [Chronologische factuur- en boekstuknummers](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
--   [Negatieve afschrijving voor Frankrijk](../../financials/localizations/emea-fra-derogatory-depreciation.md)
--   [NAF-codes en siret-nummers](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
--   [Sancties voor klantbetalingen over tijd in Frankrijk](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
--   [Tekst voor invordering forfaitair bedrag afdrukken op een klantfactuur](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
--   [Degressieve/lineaire afschrijving](../../financials/localizations/emea-fra-rbsl-depreciation.md)
-
-#### <a name="public-sector"></a>Openbare sector
-   -   [Toezeggingen in de openbare sector](../../financials/localizations/emea-fra-commitments-public-sector.md)
-   -   [Mandats de paiement in de openbare sector](../../financials/localizations/emea-fra-mandats-de-paiement.md)
-   -   [Inkoopbeheer](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
-   -   [Rekeningen voor de openbare sector](../../financials/localizations/emea-fra-public-sector-accounting.md)
-   -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
-   -   [Betalingsaanhoudingen leveranciersfacturen](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
-
-### <a name="germany"></a>Duitsland
--   [Extra verwervingsafschrijving](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
--   [Duits auditfile (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
--   [Duits journaallijstrapport](../../financials/localizations/emea-deu-journal-list-report.md)
--   [Een afzonderlijk label afdrukken voor creditnota's die voortvloeien uit verkopen](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
-
-### <a name="hungary"></a>Hongarije
-
--   [Afschrijvingsmethoden voor vaste activa](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Vaste activa naar voorraad verplaatsen](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
--   [Vaste activa met lage kosten](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+### <a name="francefinancialslocalizationsfrancemd"></a>[Frankrijk](../../financials/localizations/france.md)
+### <a name="germanyfinancialslocalizationsgermanymd"></a>[Duitsland](../../financials/localizations/germany.md)
+### <a name="hungaryfinancialslocalizationshungarymd"></a>[Hongarije](../../financials/localizations/hungary.md)
 
 ### <a name="india"></a>India
 
@@ -190,18 +166,7 @@ In de volgende gedeelten worden bronnen per land/regio weergegeven.
     - [Veelgestelde vragen over btw-drempels](../../financials/localizations/apac-ind-tax-thresholds.md)
     - [De belastingberekenfunctie uitbreiden](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
-### <a name="italy"></a>Italië
-
--   [Italiaans zwarte-lijstrapport](../../financials/localizations/emea-ita-black-list-report.md)
--   [Details btw-overzichten](../../financials/localizations/emea-ita-vat-statements-details.md)
--   [Competentiedatum voor transacties](../../financials/localizations/emea-ita-competence-date.md)
--   [Handmatige afschrijving van vaste activa](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
--   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
--   [Datumverificatie van pakbon op facturen voor Italië](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
--   [Italiaanse btw-boeken](../../financials/localizations/emea-ita-fiscal-books.md)
--   [Betalingen splitsen voor facturen die zijn uitgegeven aan overheidsdiensten](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
--   [Bronbelasting](../../financials/localizations/emea-ita-withholding-tax.md)
-
+### <a name="italyfinancialslocalizationsitalymd"></a>[Italië](../../financials/localizations/italy.md)
 ### <a name="japan"></a>Japan
 
 -  [Bankbetalingskosten die door leveranciers worden gedekt](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
@@ -216,19 +181,8 @@ In de volgende gedeelten worden bronnen per land/regio weergegeven.
 -  [Een leverancier betalen door goedkeuring van een wissel](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
 -  [Progressieve berekening van bronbelasting](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
-### <a name="latvia"></a>Letland
-
--   [Boekhouding van vaste activa voor belastingdoeleinden](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
--   [Wijzigingen bijhouden voor locaties van vaste activa](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
--   [Factuur- en pakbonnummering](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [Rapport van belasting over natuurlijke bronnen](../../financials/localizations/emea-lva-tax-natural-resources.md)
--   [Details btw-overzicht](../../financials/localizations/emea-lva-vat-statement-details.md)
-
-### <a name="lithuania"></a>Litouwen
-
--   [Rapport over reparaties van vaste activa](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
--   [Factuur- en pakbonnummering](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [Details btw-overzicht](../../financials/localizations/emea-ltu-vat-statement-details.md)
+### <a name="latviafinancialslocalizationslatviamd"></a>[Letland](../../financials/localizations/latvia.md)
+### <a name="lithuaniafinancialslocalizationslithuaniamd"></a>[Litouwen](../../financials/localizations/lithuania.md)
 
 ### <a name="mexico"></a>Mexico
 
@@ -242,29 +196,9 @@ In de volgende gedeelten worden bronnen per land/regio weergegeven.
 
 -   [Belasting op goederen en diensten (GST)](../../financials/localizations/apac-mys-gst.md)
 
-### <a name="netherlands"></a>Nederland
-
--   [Deadline voor uitgeven van facturen](../../financials/localizations/emea-invoice-issue-deadline.md)
-
-### <a name="norway"></a>Noorwegen
-
--   [Kassa's voor Noorwegen](../../retail/localizations/emea-nor-cash-registers.md)
--   [Implementatierichtlijnen voor kassa's voor Noorwegen](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
--   [Importindeling Nets](../../financials/localizations/emea-nor-nets-import-format.md)
--   [Btw-overzicht](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
-
-### <a name="poland"></a>Polen
-
--   [Regelkortingen berekenen op basis van eenheidsprijs](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
--   [Correctienotities](../../financials/localizations/emea-pol-correction-notes.md)
--   [Nummering verkoopfactuurduplicaten](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
--   [Afschrijving van vaste activa](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
--   [Afstoting van vaste activa](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
--   [Retourneerbare verpakking](../../financials/localizations/emea-pol-returnable-packages.md)
--   [Btw-aangiften](../../financials/localizations/emea-pol-sales-tax-reports.md)
--   [Standaard auditbestand (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
--   [Overzicht van omzet en saldi](../../financials/localizations/emea-pol-turnover-balances-statement.md)
-
+### <a name="netherlandsfinancialslocalizationsnetherlandsmd"></a>[Nederland](../../financials/localizations/netherlands.md)
+### <a name="norwayfinancialslocalizationsnorwaymd"></a>[Noorwegen](../../financials/localizations/norway.md)
+### <a name="polandfinancialslocalizationspolandmd"></a>[Polen](../../financials/localizations/poland.md)
 ### <a name="saudi-arabia"></a>Saudi-Arabië
 
 -   [Zakat-rapportage](../../financials/localizations/emea-sau-zakat-reporting.md)
@@ -273,29 +207,9 @@ In de volgende gedeelten worden bronnen per land/regio weergegeven.
 
 -   [Het GST-05-rapport voor Singapore genereren](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
-### <a name="spain"></a>Spanje
-
--   [Spaanse wisselopties](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
--   [Parameter Contantkorting is toegepast in de factuur](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
--   [Voorwaardelijke btw](../../financials/localizations/emea-esp-conditional-sales-tax.md)
--   [Herevaluatiegroepen voor vaste activa](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
--   [Intracommunautaire btw](../../financials/localizations/emea-esp-intra-community-vat.md)
--   [Eenmalige klanten](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
--   [Cheques afdrukken met de Spaanse indeling](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
--   [Spaanse opties voor promessen](../../financials/localizations/emea-esp-promissory-note-options.md)
--   [Verkoop- en inkoopcycli](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
--   [Speciale boekingen en openingsbladen](../../financials/localizations/emea-esp-opening-sheets-spain.md)
--   [Fiscale gegevens van de factuurrekening gebruiken](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
-
-### <a name="sweden"></a>Zweden
-
--   [Betalingsindelingen voor Zweden importeren](../../financials/localizations/emea-swe-payment-formats-import.md)
--   [Kassa's voor Zweden](../../retail/localizations/emea-swe-cash-registers.md)
-
-### <a name="switzerland"></a>Zwitserland
-
--   [ESR-klantbetalingen importeren](../../financials/localizations/emea-che-esr-customer-payments-import.md)
-
+### <a name="spainfinancialslocalizationsspainmd"></a>[Spanje](../../financials/localizations/spain.md)
+### <a name="swedenfinancialslocalizationsswedenmd"></a>[Zweden](../../financials/localizations/sweden.md)
+### <a name="switzerlandfinancialslocalizationsswitzerlandmd"></a>[Zwitserland](../../financials/localizations/switzerland.md)
 ### <a name="thailand"></a>Thailand
 
 -   [Voorraadkaartrapporten](../../financials/localizations/apac-tha-stock-card-reports.md)
@@ -303,10 +217,7 @@ In de volgende gedeelten worden bronnen per land/regio weergegeven.
 -   [Niet-gerealiseerde btw](../../financials/localizations/apac-tha-unrealized-vat.md)
 -   [Bronbelasting](../../financials/localizations/apac-tha-withholding-tax.md)
 
-### <a name="united-kingdom"></a>Verenigd Koninkrijk
-
--   [Het Construction Industry Scheme voor het Verenigd Koninkrijk](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
-
+### <a name="united-kingdomfinancialslocalizationsunited-kingdommd"></a>[Verenigd Koninkrijk](../../financials/localizations/united-kingdom.md)
 ### <a name="united-states"></a>Verenigde Staten
 
 -   [Formulier 1099 in de openbare sector](../../financials/localizations/noam-usa-form-1099-public-sector.md)   

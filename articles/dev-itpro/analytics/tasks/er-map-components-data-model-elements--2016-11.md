@@ -1,5 +1,5 @@
 --- 
-title: Onderdelen van de gemaakte indeling toewijzen aan gegevensmodelelementen voor elektronische aangifte (ER)
+title: De onderdelen van indelingen toewijzen aan gegevensmodelelementen
 description: In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd.
 author: NickSelin
 manager: AnnBe
@@ -16,17 +16,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1c81a1268a56164e0d4465359a0f9ec425ee7c31
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: e065cfbfc645bb7ac48134fe43d87bec013e8c81
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>Onderdelen van de gemaakte indeling toewijzen aan gegevensmodelelementen voor elektronische aangifte (ER)
+# <a name="map-the-components-of-formats-to-data-model-elements"></a>De onderdelen van indelingen toewijzen aan gegevensmodelelementen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd. Met deze indeling worden later elektronische documenten gegenereerd voor de verwerking van betalingen. In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd wanneer ER-configuraties tussen alle bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de taakbegeleider 'Een indelingsconfiguratie maken' uitvoeren.
+In de volgende procedure ziet u hoe een gebruiker in de rol van systeembeheerder of de ER-ontwikkelaar elementen van gegevensmodellen kan toewijzen aan onderdelen van de gemaakte ER-configuratie, waarin een elektronisch document voor het zakelijk domein van betalingen wordt gedefinieerd. Met deze indeling worden later elektronische documenten gegenereerd voor de verwerking van betalingen. In dit voorbeeld maakt u een indelingsconfiguratie voor het voorbeeldbedrijf Litware, Inc. Deze stappen kunnen in elk bedrijf worden uitgevoerd wanneer ER-configuraties tussen alle bedrijven worden gedeeld. Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de taakbegeleiding 'Een indelingsconfiguratie maken' uitvoeren.
 
 
 ## <a name="select-a-format-configuration"></a>Een indelingsconfiguratie selecteren

@@ -1,5 +1,5 @@
 --- 
-title: Vragenlijsten distribueren met een planning
+title: Vragenlijsten distribueren via een planning
 description: Met vragenlijstplanning kunt u vragenlijsten plannen voor en distribueren naar meerdere respondenten.
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6795c5ed48ef1d716ddec5cca1a2f6414bb318ce
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: f3876d1136bd3300d233a5b4401f3458e95817e0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="distribute-questionnaires-using-scheduling"></a>Vragenlijsten distribueren met een planning
+# <a name="distribute-questionnaires-by-using-scheduling"></a>Vragenlijsten distribueren via een planning
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

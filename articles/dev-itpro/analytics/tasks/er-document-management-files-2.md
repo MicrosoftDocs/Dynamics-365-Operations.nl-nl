@@ -1,5 +1,5 @@
 --- 
-title: Een gegevensmodel uitbreiden voor het gebruik van documentbeheerbestanden in uitvoer van indelingen
+title: Gegevensmodellen uitbreiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de Documentbeheerbestanden (bijlagen) in ER-uitvoer.
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bde8c612af22ba6bf4561732399fcf2cb1b5c9b3
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8363dd2af728577175a620d7b645d90cea84803a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="extend-data-model-to-use-document-management-files-in-format-outputs"></a>Een gegevensmodel uitbreiden voor het gebruik van documentbeheerbestanden in uitvoer van indelingen
+# <a name="extend-data-models-to-use-document-management-files-in-er-output"></a>Gegevensmodellen uitbreiden voor het gebruik van documentbeheerbestanden in ER-uitvoer
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

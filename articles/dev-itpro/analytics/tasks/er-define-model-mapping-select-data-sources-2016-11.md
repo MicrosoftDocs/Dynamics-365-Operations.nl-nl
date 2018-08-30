@@ -1,5 +1,5 @@
 --- 
-title: "Modeltoewijzing definiëren en gegevensbronnen selecteren voor elektronische aangifte (ER)"
+title: "ER-modeltoewijzingen definiëren en gegevensbronnen hiervoor selecteren"
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage gegevensbronnen kan selecteren voor een ER-gegevensmodel (elektronische rapportage).
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 512e24b5d0e20f00890e2a9abfe45b660a913913
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 2beda3555274fee3f17ad13c54c6823307216385
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a>Modeltoewijzing definiëren en gegevensbronnen selecteren voor elektronische aangifte (ER)
+# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>ER-modeltoewijzingen definiëren en gegevensbronnen hiervoor selecteren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

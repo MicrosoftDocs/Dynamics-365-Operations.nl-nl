@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -33,16 +33,23 @@ Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronne
 
 Selecteer een functiegebied voor meer informatie hierover.
 
-:::row::: :::column::: - [Leveranciers](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Leveranciers](accounts-payable/accounts-payable.md) 
         - [Klanten](accounts-receivable/accounts-receivable.md)
         - [Budgettering](budgeting/budgeting-overview.md) 
-        - [Contant- en bankbeheer](cash-bank-management/cash-bank-management.md)
-        - [Kostprijsboekhouding](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Onkostenbeheer](expense-management/expense-management.md)
+        - [Contanten en bankbeheer](cash-bank-management/cash-bank-management.md)
+        - [Kostprijsboekhouding](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Onkostenbeheer](expense-management/expense-management.md)
         - [Financiële rapportage](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Vaste activa](fixed-assets/fixed-assets.md)
         - [Grootboek](general-ledger/general-ledger.md) 
         - [Projectbeheer](project-management/overview-project-management-accounting.md)
-        - [Openbare sector](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Publieke sector](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Aanvullende resources

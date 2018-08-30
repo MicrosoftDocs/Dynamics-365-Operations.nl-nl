@@ -1,5 +1,5 @@
 --- 
-title: Verlof beheren
+title: Verloven beheren
 description: Deze procedure doorloopt het maken van de records van het werknemerverlof.
 author: ShielaSogge
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec30fc5e4d3289264da0e40dc981c597c04f4c15
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: fc16d2aefcb52493e72e78def5b86b9da9673914
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="manage-leave-of-absence"></a>Verlof beheren
+# <a name="manage-leaves-of-absence"></a>Verloven beheren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

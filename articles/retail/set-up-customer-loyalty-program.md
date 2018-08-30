@@ -1,5 +1,5 @@
 ---
-title: Een klantloyaliteitsprogramma instellen
+title: Klantloyaliteitsprogramma's instellen
 description: Dit artikel beschrijft hoe u een loyaliteitsprogramma instelt. Een loyaliteitsprogramma kan helpen klantloyaliteit verhogen door klanten te belonen voor het kopen van producten in uw detailhandels. In Microsoft Dynamics 365 for Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal.
 author: scott-tucker
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fbedaa33e7cfd717a074828e47d44473d466ba5a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-a-customer-loyalty-program"></a>Een klantloyaliteitsprogramma instellen
+# <a name="set-up-customer-loyalty-programs"></a>Klantloyaliteitsprogramma's instellen
 
 [!include [banner](includes/banner.md)]
 
@@ -70,7 +70,7 @@ De volgende tabel beschrijft de processen die moeten worden uitgevoerd om de loy
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | 1050 (loyaliteitsinformatie)           | Voer dit proces uit om de loyaliteitsgegevens van Dynamics 365 for Retail naar de winkels te verzenden. Het is een goed idee dit proces te plannen om vaak te worden uitgevoerd, zodat de loyaliteitsgegevens naar alle winkels worden verzonden.                                                                                                                                                                                               | Distributieplanning                |
 | Loyaliteitsschema verwerken              | Voer dit proces uit om loyaliteitsschema's te koppelen aan de detailhandelskanalen waaraan het loyaliteitsschema is toegewezen. Dit proces kan worden gepland om als een batchproces te worden uitgevoerd. U moet dit proces uitvoeren als u de gegevens van de loyaliteitsconfiguratie wijzigt, zoals loyaliteitsschema's, loyaliteitsprogramma's, of de punten van de loyaliteitsbeloning.                                                                                               | Loyaliteitsschema verwerken              |
-| Offline loyaliteitstransacties verwerken | Voer dit proces uit om loyaliteitskaarten bij te werken zodat ze transacties bevatten die offline werden verwerkt. Dit proces is alleen van toepassing als het selectievakje **Offline verdienen** is ingeschakeld op de pagina **Gedeelde parameters detailhandel **, zodat de beloningen offline kunnen worden verdiend.                                                                                                                                               | Offline loyaliteitstransacties verwerken |
+| Offline loyaliteitstransacties verwerken | Voer dit proces uit om loyaliteitskaarten bij te werken zodat ze transacties bevatten die offline werden verwerkt. Dit proces is alleen van toepassing als het selectievakje **Offline verdienen** is ingeschakeld op de pagina **Gedeelde parameters detailhandel**, zodat de beloningen offline kunnen worden verdiend.                                                                                                                                               | Offline loyaliteitstransacties verwerken |
 | Niveaus van loyaliteitskaarten bijwerken            | Voer dit proces uit om de verdienende activiteit van de klant te beoordelen volgens de rijregels voor een loyaliteitsprogramma en om de rijstatus van de klant bij te werken. Dit proces is alleen nodig als u de rijregels in loyaliteitsprogramma's wijzigt en u wilt dat de bijgewerkte regels retroactief worden toegepast op loyaliteitskaarten die reeds zijn uitgegeven. Dit proces kan worden uitgevoerd als een batchproces of voor afzonderlijke kaarten. | Niveaus van loyaliteitskaarten bijwerken            |
 
 

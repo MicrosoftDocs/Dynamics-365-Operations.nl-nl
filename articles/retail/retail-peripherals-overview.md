@@ -1,5 +1,5 @@
 ---
-title: Overzicht van randapparatuur voor de detailhandel
+title: Randapparatuur detailhandel
 description: In dit onderwerp worden de concepten beschreven die verband houden met detailhandelrandapparaten.
 author: rubencdelgado
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 77f475b0937672af268d6da938d5b2a1c9f6448b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 11e059b52eb5496d8b63a55113099b493f815e69
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Overzicht van detailhandelrandapparatuur
+# <a name="retail-peripherals"></a>Randapparatuur detailhandel
 
 [!include [banner](includes/banner.md)]
 
