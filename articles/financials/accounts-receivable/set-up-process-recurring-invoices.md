@@ -55,11 +55,13 @@ Een klant kan meerdere sjablonen hebben die verschillende frequenties hebben.
 
 ## <a name="generate-the-recurring-invoices"></a>De terugkerende facturen genereren
 De pagina **Terugkerende facturen** bevat een taak waarmee sjablonen voor terugkerende facturen worden verwerkt. U geeft de factuurdatum en de sjabloon op op basis waarvan u de facturen wilt genereren. Facturen worden gegenereerd en worden als één herhalings-ID toegewezen voor elke groep facturen die wordt verwerkt.
-Terugkerende vrije-tekstfacturen boeken
+
+<a name="post-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen boeken
 ---------------------------------
 
 Nadat terugkerende facturen zijn gegenereerd, wordt de factuurherhalings-ID weergegeven in een boekingstaak op de pagina **Terugkerende facturen**. U kunt alle facturen voor een herhalings-ID weergeven door op de koppeling te klikken. Tijdens de controle van de facturen voor de herhalings-ID kunt u afzonderlijke facturen verwijderen. De herhalingsinstellingen van de klant worden voor die sjabloon opnieuw ingesteld, zodat deze later opnieuw kan worden gegenereerd. U kunt één factuur, een groot aantal facturen of alle facturen voor een herhalings-ID boeken. Als workflows worden ingeschakeld, moet u klikken op **Verzenden** voordat u de facturen kunt boeken.
-Terugkerende vrije-tekstfacturen afdrukken
+
+<a name="print-recurring-free-text-invoices"></a>Terugkerende vrije-tekstfacturen afdrukken
 ----------------------------------
 
 Nadat terugkerende facturen zijn geboekt, kunt u de facturen op de pagina met de lijst vrije-tekstfacturen afdrukken. U kunt de geselecteerde facturen afdrukken of u kunt een bereik facturen selecteren die u wilt afdrukken.

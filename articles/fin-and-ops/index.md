@@ -3,7 +3,7 @@ title: Documentatie voor Microsoft Dynamics 365 for Finance and Operations
 description: Documentatie voor Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 03/02/2018
+ms.date: 08/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -26,6 +26,7 @@ ms.lasthandoff: 08/08/2018
 ---
 
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentatie voor Microsoft Dynamics 365 for Finance and Operations
+
 [!include [banner](includes/banner.md)]
 
 Informatie over hoe u Microsoft Dynamics 365 for Finance and Operations voor uw bedrijf kunt laten werken met behulp van de onderstaande informatiebronnen. Hiermee kunt u interessante inhoud vinden voor eindgebruikers, ontwikkelaars en IT-professionals. 
