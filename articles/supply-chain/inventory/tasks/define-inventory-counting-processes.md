@@ -1,26 +1,27 @@
----
+--- 
 title: "Voorraadtellingsprocessen definiëren"
 description: Deze procedure leidt u door de configuratie van telprocessen voor basisvoorraad door een telgroep en een tellijst te maken.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 88d5dddf025c7a0451e9a812f83784499c3437a6
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: a75d39dc030e28529692241ce637b780421d31ad
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-inventory-counting-processes"></a><span data-ttu-id="9d3d7-103">Voorraadtellingsprocessen definiëren</span><span class="sxs-lookup"><span data-stu-id="9d3d7-103">Define inventory counting processes</span></span>
@@ -84,4 +85,5 @@ ms.lasthandoff: 08/07/2018
 7. <span data-ttu-id="9d3d7-170">Selecteer een telgroep in de lijst.</span><span class="sxs-lookup"><span data-stu-id="9d3d7-170">In the list, select a counting group</span></span>
     * <span data-ttu-id="9d3d7-171">Hier kunt u een specifieke telgroep selecteren die moet gelden voor het artikel in het opgegeven magazijn dat u hebt geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="9d3d7-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="9d3d7-172">Als het tellen wordt uitgevoerd in dat magazijn, negeert dit telbeleid het algemene telbeleid voor het artikel.</span><span class="sxs-lookup"><span data-stu-id="9d3d7-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
 8. <span data-ttu-id="9d3d7-173">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="9d3d7-173">Click Save.</span></span>
+
 

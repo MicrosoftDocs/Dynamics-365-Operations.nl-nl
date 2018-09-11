@@ -3,24 +3,25 @@ title: Een waardestroom maken
 description: "Waardestromen zijn operationele eenheden die één of meerdere productiestromen groeperen."
 author: cvocph
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OMOperatingUnit, DefaultDashboard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 186a433331addc316ebe1982d237bef5166cc531
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 4314c7b1afa377e65d36685e83b05226faf3e53e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-value-stream"></a><span data-ttu-id="ab1c7-103">Een waardestroom maken</span><span class="sxs-lookup"><span data-stu-id="ab1c7-103">Create a value stream</span></span>

@@ -3,23 +3,24 @@ title: Aanschaf van vaste activa voorstellen
 description: In deze procedure ziet u hoe u een vast activum bijboekt met het verwervingsvoorstel in het vaste-activajournaal.
 author: saraschi2
 manager: AnnBe
-ms.date: 02/23/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 4aee06918935bdbf7e684f669be55c590c4783ae
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 34638f9dc88eb3850f659e4b9741d02418213112
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="3286e-103">Aanschaf van vaste activa voorstellen</span><span class="sxs-lookup"><span data-stu-id="3286e-103">Propose fixed asset acquisitions</span></span>

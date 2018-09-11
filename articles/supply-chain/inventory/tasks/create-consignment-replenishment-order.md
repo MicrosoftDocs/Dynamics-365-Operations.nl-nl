@@ -1,26 +1,27 @@
----
+--- 
 title: Een consignatieaanvullingsorder maken
 description: Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 6366d6188d97ca54ba65c11699140be9ae2d4002
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 686a4bc1e9d752cc6d33354d03ba3c536c0854dc
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="e9a98-103">Een consignatieaanvullingsorder maken</span><span class="sxs-lookup"><span data-stu-id="e9a98-103">Create a consignment replenishment order</span></span>
@@ -60,7 +61,7 @@ ms.lasthandoff: 08/07/2018
 ## <a name="receive-items"></a><span data-ttu-id="e9a98-132">Artikelen ontvangen</span><span class="sxs-lookup"><span data-stu-id="e9a98-132">Receive items</span></span>
 1. <span data-ttu-id="e9a98-133">Klik op Productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="e9a98-133">Click Product receipt.</span></span>
 2. <span data-ttu-id="e9a98-134">Typ een waarde in het veld Externe productontvangstbon.</span><span class="sxs-lookup"><span data-stu-id="e9a98-134">In the External product receipt field, type a value.</span></span>
-3. <span data-ttu-id="e9a98-135">Typ in het veld Hoeveelheid een aantal dat lager is dan het aantal dat hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="e9a98-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span>
+3. <span data-ttu-id="e9a98-135">Typ in het veld Hoeveelheid een aantal dat lager is dan het aantal dat hier wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="e9a98-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span> 
 4. <span data-ttu-id="e9a98-136">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="e9a98-136">Click OK.</span></span>
 
 ## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="e9a98-137">Controleer de voorhanden voorraad</span><span class="sxs-lookup"><span data-stu-id="e9a98-137">Check the on-hand inventory</span></span>
@@ -70,4 +71,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="e9a98-141">De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad.</span><span class="sxs-lookup"><span data-stu-id="e9a98-141">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="e9a98-142">De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld Totaal van order.</span><span class="sxs-lookup"><span data-stu-id="e9a98-142">The remaining quantity on the consignment replenishment order is shown in the Ordered in total field.</span></span>  
 4. <span data-ttu-id="e9a98-143">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="e9a98-143">Close the page.</span></span>
 5. <span data-ttu-id="e9a98-144">Klik op Sluiten.</span><span class="sxs-lookup"><span data-stu-id="e9a98-144">Click Close.</span></span>
+
 

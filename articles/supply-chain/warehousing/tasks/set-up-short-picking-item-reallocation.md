@@ -3,24 +3,25 @@ title: Artikelhertoewijzing voor kort orderverzamelen instellen
 description: Deze procedure laat zien hoe magazijnmedewerkers snel andere locaties kunnen vinden als er onvoldoende voorraad is voor de locatie waaraan ze zijn toegewezen.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWorkException, WHSWorker
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 99a4afb58f0c4beef818fd7c0a6a1837e00638d8
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: e729ebc968b7a102ad4325c638d8604dad6e6ddf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-short-picking-item-reallocation"></a><span data-ttu-id="8eb5d-103">Artikelhertoewijzing voor kort orderverzamelen instellen</span><span class="sxs-lookup"><span data-stu-id="8eb5d-103">Set up short picking item reallocation</span></span>

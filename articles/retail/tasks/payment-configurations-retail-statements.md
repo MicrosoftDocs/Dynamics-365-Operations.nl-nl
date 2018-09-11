@@ -1,55 +1,56 @@
 --- 
-title: Instellingen voor betalingsmethoden configureren die gevolgen hebben voor detailhandeloverzichten
+title: " Betalingsconfiguraties voor detailhandeloverzichten"
 description: Deze procedure demonstreert configuraties voor betalingsmethoden voor detailhandelwinkels die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt.
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: ba21db9ee97dc4d851c77a906927ef513940b743
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 6261d9c3d6bf6591be296115d4f25a124a17b9dd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
-# <a name="configure-payment-method-settings-that-affect-retail-statements"></a><span data-ttu-id="1cf6f-103">Instellingen voor betalingsmethoden configureren die gevolgen hebben voor detailhandeloverzichten</span><span class="sxs-lookup"><span data-stu-id="1cf6f-103">Configure payment method settings that affect retail statements</span></span>
+# <a name="payment-configurations-for-retail-statements"></a><span data-ttu-id="b921d-103"> Betalingsconfiguraties voor detailhandeloverzichten</span><span class="sxs-lookup"><span data-stu-id="b921d-103">Payment configurations for Retail statements</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="1cf6f-104">Deze procedure demonstreert configuraties voor betalingsmethoden voor detailhandelwinkels die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-104">This procedure demonstrates configurations for Retail store payment methods, which affect how Retail statements get created and posted.</span></span>
+<span data-ttu-id="b921d-104">Deze procedure demonstreert configuraties voor betalingsmethoden voor detailhandelwinkels die van invloed zijn op hoe detailhandelsoverzichten worden gemaakt en geboekt.</span><span class="sxs-lookup"><span data-stu-id="b921d-104">This procedure demonstrates configurations for Retail store payment methods, which affect how Retail statements get created and posted.</span></span>
 
-<span data-ttu-id="1cf6f-105">Deze registratie gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-105">This recording uses the USRT demo company.</span></span>
+<span data-ttu-id="b921d-105">Deze registratie gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="b921d-105">This recording uses the USRT demo company.</span></span>
 
-1. <span data-ttu-id="1cf6f-106">Ga naar Detailhandel en commerce > Kanalen > Detailhandelwinkels > Alle detailhandelwinkels.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-106">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
-2. <span data-ttu-id="1cf6f-107">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-107">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="1cf6f-108">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-108">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="1cf6f-109">Klik in het actievenster op Instellen.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-109">On the Action Pane, click Set up.</span></span>
-5. <span data-ttu-id="1cf6f-110">Klik op Betalingsmethoden.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-110">Click Payment methods.</span></span>
-6. <span data-ttu-id="1cf6f-111">Vouw de sectie Boeking uit of samen.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-111">Expand or collapse the Posting section.</span></span>
-7. <span data-ttu-id="1cf6f-112">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-112">Click Edit.</span></span>
-    * <span data-ttu-id="1cf6f-113">Selecteer of de ontvangen hoeveelheden voor deze betalingsmethode moeten worden geboekt naar een grootboekrekening of een bankrekening.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-113">Select whether the amounts received for this payment method should be posted to a ledger account or bank account.</span></span>  
-    * <span data-ttu-id="1cf6f-114">Selecteer de rekening waarnaar ontvangen bedragen voor deze betalingsmethode moeten worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-114">Select the account that amounts received for this payment method should be posted to.</span></span>  
-    * <span data-ttu-id="1cf6f-115">Selecteer een rekening om mogelijke verschillen naar te boeken tussen het totale ontvangen transactiebedrag en het getelde bedrag voor deze betalingsmethode.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-115">Select an account to post possible differences between the total transaction amount received and the amount counted for this payment method.</span></span>  
-    * <span data-ttu-id="1cf6f-116">In dit veld kunt u een bedrag invoeren om te bepalen wanneer het verschilbedrag moet worden geboekt naar een andere verschilrekening.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-116">In this field you can enter an amount to control when the difference amount should be posted to another difference account.</span></span> <span data-ttu-id="1cf6f-117">U kunt dit gebruiken om grote verschillen bij te houden.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-117">You can use this to track big differences.</span></span>  
-    * <span data-ttu-id="1cf6f-118">Selecteer een rekening om mogelijke verschillen naar te boeken tussen het totale ontvangen transactiebedrag en het getelde bedrag, wanneer het de waarde overschrijdt die is gedefinieerd in het veld 'Maximumbedrag verschil'.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-118">Select an account to post possible differences between the total transaction amount received and the amount counted, when it exceeds the value that is defined in the "Maximum difference amount" field.</span></span>  
-    * <span data-ttu-id="1cf6f-119">Selecteer 'Ja' om bankstortingsbedragen naar een aparte rekening te boeken.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-119">Select "Yes" to post bank drop amounts to a separate account.</span></span>  
-    * <span data-ttu-id="1cf6f-120">In dit veld kunt u selecteren of bankstortingsbedragen moeten worden geboekt naar een grootboekrekening of een bankrekening.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-120">In this field you can select whether bank drop amounts should be posted to a ledger account or a bank account.</span></span>  
-    * <span data-ttu-id="1cf6f-121">Selecteer de rekening om bankstortingsbedragen naar te boeken.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-121">Select the account to post bank drop amounts into.</span></span>  
-    * <span data-ttu-id="1cf6f-122">Selecteer het type banktransactie dat moet worden gebruikt om bankstortingsbedragen te boeken naar de bankrekening.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-122">Select the bank transaction type to use when posting bank drop amounts to the bank account.</span></span>  
-    * <span data-ttu-id="1cf6f-123">Selecteer 'Ja' om kluisstortingsbedragen naar een aparte rekening te boeken.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-123">Select "Yes" to post safe drop amounts to a separate account.</span></span>  
-    * <span data-ttu-id="1cf6f-124">Selecteer of kluisstortingsbedragen moeten worden geboekt naar de grootboekrekening of de bankrekening.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-124">Select whether safe drop amounts should be posted to the ledger account or the bank account.</span></span>  
-    * <span data-ttu-id="1cf6f-125">Selecteer de rekening om kluisstortingsbedragen naar te boeken.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-125">Select the account to post safe drop amounts into.</span></span>  
-8. <span data-ttu-id="1cf6f-126">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="1cf6f-126">Click Save.</span></span>
+1. <span data-ttu-id="b921d-106">Ga naar Detailhandel en commerce > Kanalen > Detailhandelwinkels > Alle detailhandelwinkels.</span><span class="sxs-lookup"><span data-stu-id="b921d-106">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
+2. <span data-ttu-id="b921d-107">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="b921d-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="b921d-108">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b921d-108">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="b921d-109">Klik in het actievenster op Instellen.</span><span class="sxs-lookup"><span data-stu-id="b921d-109">On the Action Pane, click Set up.</span></span>
+5. <span data-ttu-id="b921d-110">Klik op Betalingsmethoden.</span><span class="sxs-lookup"><span data-stu-id="b921d-110">Click Payment methods.</span></span>
+6. <span data-ttu-id="b921d-111">Vouw de sectie Boeking uit of samen.</span><span class="sxs-lookup"><span data-stu-id="b921d-111">Expand or collapse the Posting section.</span></span>
+7. <span data-ttu-id="b921d-112">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="b921d-112">Click Edit.</span></span>
+    * <span data-ttu-id="b921d-113">Selecteer of de ontvangen hoeveelheden voor deze betalingsmethode moeten worden geboekt naar een grootboekrekening of een bankrekening.</span><span class="sxs-lookup"><span data-stu-id="b921d-113">Select whether the amounts received for this payment method should be posted to a ledger account or bank account.</span></span>  
+    * <span data-ttu-id="b921d-114">Selecteer de rekening waarnaar ontvangen bedragen voor deze betalingsmethode moeten worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="b921d-114">Select the account that amounts received for this payment method should be posted to.</span></span>  
+    * <span data-ttu-id="b921d-115">Selecteer een rekening om mogelijke verschillen naar te boeken tussen het totale ontvangen transactiebedrag en het getelde bedrag voor deze betalingsmethode.</span><span class="sxs-lookup"><span data-stu-id="b921d-115">Select an account to post possible differences between the total transaction amount received and the amount counted for this payment method.</span></span>  
+    * <span data-ttu-id="b921d-116">In dit veld kunt u een bedrag invoeren om te bepalen wanneer het verschilbedrag moet worden geboekt naar een andere verschilrekening.</span><span class="sxs-lookup"><span data-stu-id="b921d-116">In this field you can enter an amount to control when the difference amount should be posted to another difference account.</span></span> <span data-ttu-id="b921d-117">U kunt dit gebruiken om grote verschillen bij te houden.</span><span class="sxs-lookup"><span data-stu-id="b921d-117">You can use this to track big differences.</span></span>  
+    * <span data-ttu-id="b921d-118">Selecteer een rekening om mogelijke verschillen naar te boeken tussen het totale ontvangen transactiebedrag en het getelde bedrag, wanneer het de waarde overschrijdt die is gedefinieerd in het veld 'Maximumbedrag verschil'.</span><span class="sxs-lookup"><span data-stu-id="b921d-118">Select an account to post possible differences between the total transaction amount received and the amount counted, when it exceeds the value that is defined in the "Maximum difference amount" field.</span></span>  
+    * <span data-ttu-id="b921d-119">Selecteer 'Ja' om bankstortingsbedragen naar een aparte rekening te boeken.</span><span class="sxs-lookup"><span data-stu-id="b921d-119">Select "Yes" to post bank drop amounts to a seperate account.</span></span>  
+    * <span data-ttu-id="b921d-120">In dit veld kunt u selecteren of bankstortingsbedragen moeten worden geboekt naar een grootboekrekening of een bankrekening.</span><span class="sxs-lookup"><span data-stu-id="b921d-120">In this field you can select whether bank drop amounts should be posted to a ledger account or a bank account.</span></span>  
+    * <span data-ttu-id="b921d-121">Selecteer de rekening om bankstortingsbedragen naar te boeken.</span><span class="sxs-lookup"><span data-stu-id="b921d-121">Select the account to post bank drop amounts into.</span></span>  
+    * <span data-ttu-id="b921d-122">Selecteer het type banktransactie dat moet worden gebruikt om bankstortingsbedragen te boeken naar de bankrekening.</span><span class="sxs-lookup"><span data-stu-id="b921d-122">Select the bank transaction type to use when posting bank drop amounts to the bank account.</span></span>  
+    * <span data-ttu-id="b921d-123">Selecteer 'Ja' om kluisstortingsbedragen naar een aparte rekening te boeken.</span><span class="sxs-lookup"><span data-stu-id="b921d-123">Select "Yes" to post safe drop amounts to a seperate account.</span></span>  
+    * <span data-ttu-id="b921d-124">Selecteer of kluisstortingsbedragen moeten worden geboekt naar de grootboekrekening of de bankrekening.</span><span class="sxs-lookup"><span data-stu-id="b921d-124">Select whether safe drop amounts should be posted to the ledger account or the bank account.</span></span>  
+    * <span data-ttu-id="b921d-125">Selecteer de rekening om kluisstortingsbedragen naar te boeken.</span><span class="sxs-lookup"><span data-stu-id="b921d-125">Select the account to post safe drop amounts into.</span></span>  
+8. <span data-ttu-id="b921d-126">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="b921d-126">Click Save.</span></span>
 
 
