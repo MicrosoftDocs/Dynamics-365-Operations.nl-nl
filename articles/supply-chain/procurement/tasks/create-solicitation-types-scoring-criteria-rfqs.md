@@ -3,18 +3,19 @@ title: Aanvraagtypen en scoringscriteria maken voor offerteaanvragen
 description: Deze handleiding laat zien hoe u een verzoektype kunt maken en dit kunt koppelen aan een scoringsmethode.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
@@ -42,6 +43,7 @@ Deze handleiding laat zien hoe u een verzoektype kunt maken en dit kunt koppelen
 1. Ga naar Inkoop en sourcing > Offerteaanvragen > Alle offerteaanvragen.
 2. Klik op Nieuw.
 3. Selecteer in het veld Verzoektype het verzoektype dat u zojuist hebt gemaakt. 
+    *   
 4. Klik op OK.
 5. Klik op Scoringscriteria.
     * De scoringscriteria die worden weergegeven zijn afkomstig van de scoringsmethode die u aan het verzoektype hebt gekoppeld. U kunt ervoor kiezen criteria toe te voegen of te verwijderen op deze pagina. Het is ook mogelijk om nieuwe criteria toe te voegen door deze vanuit andere scoringsmethoden te kopiëren.  

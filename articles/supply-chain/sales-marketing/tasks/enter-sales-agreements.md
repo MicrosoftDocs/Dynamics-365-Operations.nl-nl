@@ -3,31 +3,34 @@ title: Verkoopovereenkomsten invoeren
 description: Deze procedure toont hoe u een verkoopovereenkomst maakt waarmee een van uw klanten toezegt in een bepaalde periode een product voor een bepaald bedrag te kopen in ruil voor speciale kortingen.
 author: omulvad
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: 8c11164f7edb8e05b93f3c58b9707c0bf2482228
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="enter-sales-agreements"></a>Verkoopovereenkomsten invoeren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Deze procedure toont hoe u een verkoopovereenkomst maakt waarmee een van uw klanten toezegt in een bepaalde periode een product voor een bepaald bedrag te kopen in ruil voor speciale kortingen. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.
+Deze procedure laat zien hoe u een verkoopovereenkomst maakt die een van uw klanten ertoe verbindt een product te kopen voor een
+
+overeengekomen bedrag in de loop van de tijd, in ruil voor speciale kortingen. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Koptekst van de verkoopovereenkomst instellen

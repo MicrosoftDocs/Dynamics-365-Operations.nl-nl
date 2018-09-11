@@ -1,28 +1,29 @@
 --- 
-title: Projecten voor massaal aanstellen maken
+title: Een project voor massaal aanstellen maken
 description: Deze procedure doorloopt het proces van het instellen van een project voor massaal aanstellen.
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 7059ad6cc438473111e9a6116a4e6fadc7016904
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a8789d7c5b06e83d0d1799b249b48a00e7c0ae34
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-mass-hire-projects"></a>Projecten voor massaal aanstellen maken
+# <a name="create-a-mass-hire-project"></a>Een project voor massaal aanstellen maken
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,24 +3,25 @@ title: Containervorming instellen
 description: Met deze procedure wordt beschreven hoe u de containervorming van ladingen in Magazijnbeheer kunt automatiseren.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-containerization"></a>Containervorming instellen
@@ -83,7 +84,7 @@ Met deze procedure wordt beschreven hoe u de containervorming van ladingen in Ma
 ## <a name="set-up-a-container-group"></a>Een containergroep instellen
 1. Ga naar Magazijnbeheer > Instellingen > Containers > Containergroepen.
 2. Klik op Nieuw.
-    * U kunt logische groepen containertypen instellen. Voor elke groep kunt u de volgorde opgeven waarin de containers moeten worden verpakt, en het vulpercentage van elke container. De groottedimensies van het artikel worden gebruikt om te bepalen of het in een container past. De container die het nauwst aansluit bij de groottedimensies van het artikel, wordt gebruikt. Als u meerdere containertypen in een groep hebt, is het raadzaam deze op grootte te rangschikken zodat de grootste container eerste is, nummer 1 is in de volgorde, en de kleinste container laatste is.    
+    * U kunt logische groepen containertypen instellen. Voor elke groep kunt u de volgorde opgeven waarin de containers moeten worden verpakt, en het percentage te vullen containers. Voor grootte worden de groottedimensies van het artikel gebruikt om te bepalen of het in een container past. De container die het nauwst aansluit bij de groottedimensies van het artikel, wordt gebruikt. Als u meerdere containertypen in een groep hebt, is het raadzaam deze op grootte te rangschikken zodat de grootste container eerste is, nummer 1 is in de volgorde, en de kleinste container laatste is.    
 3. Typ een waarde in het veld Containergroep-ID.
 4. Typ een waarde in het veld Omschrijving.
 5. Klik op Nieuw.
@@ -108,7 +109,7 @@ Met deze procedure wordt beschreven hoe u de containervorming van ladingen in Ma
 6. Typ een waarde in het veld Wavestapcode.
 7. Schakel het selectievakje Gesplitst verzamelen toestaan in.
 8. Klik op Opslaan.
-9. Klik op Mengbeperkingen voor containers.
+9. Klik op Beperkingen op mengen containers.
     * Met Logica-onderbrekingen mengen kunt u regels instellen voor het verpakken van toewijzingsregels in containers. Als u bijvoorbeeld het veld Artikelnummer toevoegt, wordt wanneer artikelen aan containers worden toegewezen, een nieuwe container gemaakt wanneer er een nieuw artikelnummer is. Hiermee wordt voorkomen dat werknemers toewijzingsrgels voor twee verschillende klanten in dezelfde container verpakken.  
 10. Klik op Nieuw.
 11. Selecteer een optie in het veld Tabel.

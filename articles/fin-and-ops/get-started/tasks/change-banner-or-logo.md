@@ -1,28 +1,29 @@
 --- 
-title: De banners of logo's voor rechtspersonen wijzigen
+title: Banner of logo wijzigen
 description: De volgende procedure toont de stappen die systeembeheerders kunnen gebruiken om de banner- of logoafbeelding bij te werken die wordt weergegeven voor een rechtspersoon.
 author: aneesmsft
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 33be31a8806b5db265fbb45d180997623d475a87
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="change-the-banners-or-logo-images-for-legal-entities"></a>De banners of logo's voor rechtspersonen wijzigen
+# <a name="change-the-banner-or-logo"></a>Banner of logo wijzigen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
