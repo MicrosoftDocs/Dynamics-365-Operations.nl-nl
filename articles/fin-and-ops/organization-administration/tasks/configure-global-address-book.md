@@ -3,7 +3,7 @@ title: Het algemeen adresboek configureren
 description: Gebruik deze procedure om de standaardwaarden en beveiligingsbeleid voor het globale adresboek te stellen.
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

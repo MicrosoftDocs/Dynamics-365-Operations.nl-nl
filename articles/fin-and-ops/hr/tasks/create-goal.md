@@ -3,7 +3,7 @@ title: Een doelstelling maken
 description: U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen volgen, en de doelstellingen koppelen aan een beoordeling.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

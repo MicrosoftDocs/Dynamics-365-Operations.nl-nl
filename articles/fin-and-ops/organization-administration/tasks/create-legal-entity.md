@@ -3,7 +3,7 @@ title: Een rechtspersoon maken
 description: "Een rechtspersoon is een organisatie die wordt geïdentificeerd via registratie bij een wettelijke instantie."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

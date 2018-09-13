@@ -3,7 +3,7 @@ title: Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzend
 description: In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe u uw doelstellingen haalt of hoe u gedurende een periode hebt gepresteerd.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

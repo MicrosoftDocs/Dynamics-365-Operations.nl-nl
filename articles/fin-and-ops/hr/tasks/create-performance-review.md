@@ -3,7 +3,7 @@ title: Een prestatiebeoordeling maken
 description: In deze procedure ziet u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
