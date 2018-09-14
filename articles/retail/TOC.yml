@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Callcentercatalogi
       href: call-center-catalogs.md
-    - name: Een callcentercatalogus maken
-      href: create-call-center-catalogs.md
     - name: Leveringsmethoden en toeslagen configureren
       href: configure-call-center-delivery.md
     - name: Instellen en werken met fraudewaarschuwingen
@@ -133,7 +131,9 @@
       href: MPOS-or-CPOS.md
     - name: Online en offline POS-bewerkingen
       href: pos-operations.md
-    - name: Indelingen voor schermen met demonstratiegegevens in MPOS en Cloud POS
+    - name: Apparaatactivering van een aangepaste Retail Modern POS
+      href: dev-itpro/retail-POS-activation-changes.md
+    - name: Schermindelingen met demonstratiegegevens in MPOS en Cloud POS
       href: demo-data.md
     - name: Producten en klanten zoeken in het POS
       href: POS-search-improvements.md
