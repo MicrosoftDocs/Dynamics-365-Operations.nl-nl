@@ -3,7 +3,7 @@ title: " Een apparaat maken en koppelen"
 description: Deze procedure laat zien hoe u een nieuw apparaat maakt en koppelt aan een register.
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

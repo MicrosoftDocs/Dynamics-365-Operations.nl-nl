@@ -3,7 +3,7 @@ title: Journaalboekingen of transacties weergeven
 description: In deze procedure ziet u hoe u met het Boekstuktransactiesonderzoek kunt zoeken naar journaalboekingen of transacties.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

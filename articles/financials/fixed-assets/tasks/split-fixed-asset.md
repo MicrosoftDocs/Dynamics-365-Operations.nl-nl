@@ -3,7 +3,7 @@ title: Een vast activum splitsen
 description: "Deze taakbegeleiding splitst een percentage van één activumboek op naar een nieuw activumboek."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

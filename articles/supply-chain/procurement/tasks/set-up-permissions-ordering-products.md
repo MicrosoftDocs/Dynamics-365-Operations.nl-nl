@@ -3,7 +3,7 @@ title: Machtigingen instellen voor het bestellen van producten namens iemand and
 description: Deze procedure laat zien hoe u werknemers machtiging kunt verlenen om opdrachten tot inkoop voor te bereiden namens andere medewerkers.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

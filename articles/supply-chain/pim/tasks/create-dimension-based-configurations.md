@@ -3,7 +3,7 @@ title: Op dimensies gebaseerde configuraties maken
 description: Deze procedure laat zien hoe u een configuratie voor een op dimensies gebaseerd product definieert.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Informatie over verwondingen en ziekte bij werknemers bijhouden
 description: Het is raadzaam om eerst de taakbegeleiding 'Instelling van letsel en ziekte' te voltooien, want een deel van informatie wordt hier gebruikt.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

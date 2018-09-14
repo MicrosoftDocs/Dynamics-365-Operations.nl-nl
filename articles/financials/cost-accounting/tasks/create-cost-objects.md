@@ -3,7 +3,7 @@ title: Kostenobjecten maken
 description: "Deze procedure laat zien hoe u kostenobjecten maakt door het importeren van financiële dimensies van Dynamics 365 for Finance and Operations, Enterprise edition-kostenplaatsen in Kostprijsboekhouding via een gegevensconnector."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

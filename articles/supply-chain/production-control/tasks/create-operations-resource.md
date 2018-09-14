@@ -3,7 +3,7 @@ title: Bron voor bedrijfsactiviteiten maken
 description: Een bron voor bedrijfsactiviteiten voert de activiteiten van een project of een productieproces uit.
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

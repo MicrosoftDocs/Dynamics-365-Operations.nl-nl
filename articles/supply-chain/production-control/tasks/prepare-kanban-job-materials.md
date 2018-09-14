@@ -3,7 +3,7 @@ title: Een proceskanbantaak voorbereiden wanneer de materialen voor de werkcel b
 description: Deze taak richt zich op het voorbereiden van een proceskanbantaak wanneer alle materialen voor de werkcel beschikbaar zijn.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Een leverancierrekening maken
 description: Deze procedure laat zien hoe u een leveranciersrekening maakt en een adres en contactgegevens toevoegt.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

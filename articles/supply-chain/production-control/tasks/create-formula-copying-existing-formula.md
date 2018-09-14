@@ -3,7 +3,7 @@ title: "Een formule maken door uit een bestaande formule te kopiëren"
 description: "Deze procedure toont hoe u snel een nieuwe formule maakt door uit een bestaande formule te kopiëren."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

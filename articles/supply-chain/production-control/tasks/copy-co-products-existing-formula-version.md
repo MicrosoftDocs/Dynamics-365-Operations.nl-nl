@@ -3,7 +3,7 @@ title: "Coproducten uit een bestaande formuleversie kopiëren"
 description: Deze procedure toont hoe u coproducten van een bestaande formuleversie kopieert naar een andere formuleversie voor een vrijgegeven product.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

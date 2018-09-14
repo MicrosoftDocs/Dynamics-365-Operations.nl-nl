@@ -3,7 +3,7 @@ title: Gegevens voor productmodellen overboeken
 description: "Het exporteren van gegevens voor een productconfiguratiemodel vereist dat u ten minste één productmodel beschikbaar hebt."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

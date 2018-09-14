@@ -3,7 +3,7 @@ title: Een inkooporder maken voor een eenmalige leverancier
 description: Deze procedure laat zien hoe u een inkooporder kunt maken voor een eenmalige leverancier.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

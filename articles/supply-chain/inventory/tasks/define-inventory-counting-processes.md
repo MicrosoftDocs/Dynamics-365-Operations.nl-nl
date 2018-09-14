@@ -3,7 +3,7 @@ title: "Voorraadtellingsprocessen definiëren"
 description: Deze procedure leidt u door de configuratie van telprocessen voor basisvoorraad door een telgroep en een tellijst te maken.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

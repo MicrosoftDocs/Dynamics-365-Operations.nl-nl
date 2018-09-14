@@ -3,7 +3,7 @@ title: Een kanbanregel voor gebeurtenis stuklijstregel maken
 description: Deze taak is gericht op de instellingen die nodig zijn om een gebeurteniskanbanregel te maken om te zorgen voor levering voor BOM-productiestuklijstregels in een gemengde lean- en klassieke productieomgeving.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Behoefteplanningsregels voor artikelen definiëren"
 description: Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

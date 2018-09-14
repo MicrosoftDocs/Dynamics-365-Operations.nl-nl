@@ -3,7 +3,7 @@ title: Rapporteringsrelaties voor een positie wijzigen
 description: Deze procedure toont hoe u de rapporteringsrelatie voor een werknemer wijzigt.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

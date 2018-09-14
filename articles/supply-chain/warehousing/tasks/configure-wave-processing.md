@@ -3,7 +3,7 @@ title: Waveverwerking configureren
 description: In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat voor werk wordt gegenereerd voor een magazijn wanneer een wave wordt verwerkt en of waves handmatig of automatisch worden verwerkt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

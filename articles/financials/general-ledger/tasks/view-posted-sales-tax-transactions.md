@@ -3,7 +3,7 @@ title: Geboekte btw-transacties weergeven
 description: "U kunt geboekte btw-transacties bekijken van diverse pagina´s, afhankelijk van wat u wilt bekijken."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Modellen voor productiestroom definiëren"
 description: De modellen voor productiestromen beschrijven hoe de capaciteit van werkcellen voor lean manufacturing wordt berekend en onderhouden.
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

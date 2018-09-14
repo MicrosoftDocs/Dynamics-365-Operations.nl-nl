@@ -3,7 +3,7 @@ title: Een nieuwe leveranciersbankrekening maken
 description: Deze procedure laat u zien hoe u een bankrekening maakt voor een leverancier.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

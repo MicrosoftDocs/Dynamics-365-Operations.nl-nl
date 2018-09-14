@@ -3,7 +3,7 @@ title: Afschrijvingsconventies voor meerdere vaste activa wijzigen
 description: Deze taak werkt de afschrijvingsconventie voor een opgegeven vaste-activagroep bij.
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

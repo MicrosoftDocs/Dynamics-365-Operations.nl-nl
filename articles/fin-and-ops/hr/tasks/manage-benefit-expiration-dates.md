@@ -3,7 +3,7 @@ title: Vervaldatums voor vergoeding beheren
 description: Deze procedure laat zien hoe u een vergoeding kunt laten verlopen of kunt verlengen, en hoe u de inschrijvingsdatums kunt beheren van werknemers die in de vergoeding geregistreerd zijn.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Btw-diensten instellen
 description: "Belastingdiensten zijn entiteiten waaraan geïncasseerde btw moet worden aangegeven en betaald."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

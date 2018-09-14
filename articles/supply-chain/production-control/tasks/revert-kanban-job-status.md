@@ -3,7 +3,7 @@ title: Kanbantaakstatus terugdraaien
 description: Deze procedure is gericht op het terugdraaien van een onjuiste kanbantaakstatus.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Regels voor verkoopprovisie instellen
 description: Deze procedure toont u hoe u het berekenen en bijhouden van verkoopprovisie instelt en inschakelt.
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

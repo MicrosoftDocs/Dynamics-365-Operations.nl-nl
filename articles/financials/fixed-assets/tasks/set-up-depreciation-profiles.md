@@ -3,7 +3,7 @@ title: Afschrijvingsprofielen instellen en maken
 description: "Afschrijvingsprofielen definiëren het type en de frequentie van afschrijving voor activa."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

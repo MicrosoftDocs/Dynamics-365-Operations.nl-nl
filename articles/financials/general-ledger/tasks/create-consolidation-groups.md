@@ -3,7 +3,7 @@ title: Consolidatiegroepen en extra consolidatierekeningen maken
 description: Deze procedure toont hoe u een groep met consolidatierekeningen kunt maken en vervolgens rekeningen aan de groep kunt toevoegen.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

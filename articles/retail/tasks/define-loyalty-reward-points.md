@@ -3,7 +3,7 @@ title: " Beloningspunten voor loyaliteit definiëren"
 description: "Deze procedure doorloopt het definiëren van loyaliteitsbeloningspunten."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

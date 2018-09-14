@@ -3,7 +3,7 @@ title: Een productconfiguratiemodel goedkeuren
 description: "Het uitvoeren van deze procedure vereist dat er ten minste één productconfiguratiemodel beschikbaar is."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

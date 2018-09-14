@@ -3,7 +3,7 @@ title: Een project voor massaal aanstellen maken
 description: Deze procedure doorloopt het proces van het instellen van een project voor massaal aanstellen.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

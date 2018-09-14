@@ -3,7 +3,7 @@ title: Informatie over letsel en ziekten instellen
 description: Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden vanwege aan gevaren op de werkplek.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

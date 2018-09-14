@@ -3,7 +3,7 @@ title: Scheiding van taken instellen
 description: U kunt regels instellen om taken te scheiden die door verschillende gebruikers moeten worden uitgevoerd.
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

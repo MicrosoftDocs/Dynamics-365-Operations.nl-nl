@@ -3,7 +3,7 @@ title: De voorkeurstijdzone van een gebruiker instellen
 description: In deze procedure wordt beschreven hoe een gebruiker met de systeembeheerder-rol de tijdzone instelt voor een gebruiker.
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

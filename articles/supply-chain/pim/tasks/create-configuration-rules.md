@@ -3,7 +3,7 @@ title: Configuratieregels maken
 description: Met deze procedure worden configuratieregels gemaakt die kunnen worden gebruikt voor een op dimensies gebaseerde configuratie om bepaalde combinaties van stuklijstregels af te dwingen of te voorkomen.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

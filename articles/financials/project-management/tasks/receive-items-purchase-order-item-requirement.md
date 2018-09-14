@@ -3,7 +3,7 @@ title: Artikelen ontvangen op een inkooporder vanuit een artikelbehoefte
 description: In deze procedure ziet u hoe u artikelen ontvangt op een inkooporder vanuit een artikelbehoefte.
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

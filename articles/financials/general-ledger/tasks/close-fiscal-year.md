@@ -3,7 +3,7 @@ title: Het boekjaar afsluiten
 description: Deze procedure legt de stappen uit in het proces voor jaarafsluiting dat saldi naar een nieuw boekjaar overboekt.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

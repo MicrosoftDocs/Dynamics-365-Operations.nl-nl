@@ -3,7 +3,7 @@ title: Een productieorder plannen met bewerkingen en taakplanning
 description: Deze procedure is gericht op het plannen van een productieorder met bewerkingsplanning en taakplanning.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

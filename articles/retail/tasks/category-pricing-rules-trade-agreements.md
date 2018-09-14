@@ -3,7 +3,7 @@ title: " Categorieprijsregels om handelsovereenkomsten te maken"
 description: Deze procedure toont aan hoe u handelsovereenkomsten voor verkoopprijzen maakt met een categorieprijsregel.
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

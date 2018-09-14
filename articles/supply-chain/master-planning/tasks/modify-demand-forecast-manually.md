@@ -3,7 +3,7 @@ title: Handmatig een vraagprognose wijzigen
 description: Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

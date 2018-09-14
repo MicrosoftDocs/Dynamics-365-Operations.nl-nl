@@ -3,7 +3,7 @@ title: Een alias voor een grootboekrekening instellen
 description: Deze procedure toont hoe u een rekeningalias kunt maken die een snelkoppeling voor het invoeren van een rekeningnummer bevat.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

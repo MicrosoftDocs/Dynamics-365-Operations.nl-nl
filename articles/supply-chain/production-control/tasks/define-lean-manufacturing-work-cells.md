@@ -3,7 +3,7 @@ title: "Werkcellen voor lean manufacturing definiëren"
 description: Een werkcel is een specifiek formulier van resourcegroepen die kan worden gebruikt in de activiteiten van het lean manufacturingproces.
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

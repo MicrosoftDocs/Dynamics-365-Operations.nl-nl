@@ -3,7 +3,7 @@ title: Banner of logo wijzigen
 description: De volgende procedure toont de stappen die systeembeheerders kunnen gebruiken om de banner- of logoafbeelding bij te werken die wordt weergegeven voor een rechtspersoon.
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

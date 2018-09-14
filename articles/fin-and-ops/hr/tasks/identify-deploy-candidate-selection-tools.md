@@ -3,7 +3,7 @@ title: Middelen voor selectie van kandidaten identificeren en implementeren
 description: Het zoeken van een gekwalificeerde pool kandidaten voor vacatures kan moeilijk zijn, met name als een positie een unieke set vaardigheden vereist.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

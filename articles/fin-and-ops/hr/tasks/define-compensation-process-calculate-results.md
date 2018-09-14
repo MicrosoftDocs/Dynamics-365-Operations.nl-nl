@@ -3,7 +3,7 @@ title: "Compensatieproces definiëren en resultaten berekenen"
 description: "Compensatieprocessen worden gebruikt om nieuwe compensatiebedragen en toekenningen voor werknemers te definiëren die in vaste en variabele compensatieplannen zijn ingeschreven."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

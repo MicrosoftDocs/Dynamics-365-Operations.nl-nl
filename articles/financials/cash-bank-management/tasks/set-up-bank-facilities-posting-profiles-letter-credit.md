@@ -3,7 +3,7 @@ title: Bankfaciliteiten en boekingsprofielen voor kredietbrief instellen
 description: Deze procedure doorloopt het maken van een bankfaciliteit en boekingsprofiel dat vereist is om borgstellingen te verwerken.
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

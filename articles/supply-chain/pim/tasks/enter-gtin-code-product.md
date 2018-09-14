@@ -3,7 +3,7 @@ title: De GTIN-code invoeren voor een product
 description: GTIN-codes worden toegewezen door de organisatie GS1.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

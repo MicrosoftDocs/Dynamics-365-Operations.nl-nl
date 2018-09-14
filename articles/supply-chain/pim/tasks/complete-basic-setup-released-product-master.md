@@ -3,7 +3,7 @@ title: Basisinstellingen voor een vrijgegeven productmodel voltooien
 description: Deze procedure laat zien hoe u de minimuminstelling voltooit die is vereist voordat het productmodel in stuklijstversies kan worden gebruikt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

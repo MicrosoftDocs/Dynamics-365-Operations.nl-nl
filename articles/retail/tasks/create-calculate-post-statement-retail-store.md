@@ -3,7 +3,7 @@ title: " Een overzicht maken, berekenen en boeken voor een detailhandelwinkel"
 description: Deze procedure doorloopt de handmatige stappen voor het maken, berekenen en boeken van een overzicht voor een winkel.
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

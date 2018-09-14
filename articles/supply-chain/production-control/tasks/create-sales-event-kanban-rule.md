@@ -3,7 +3,7 @@ title: Een kanbanregel voor verkoopgebeurtenis maken
 description: Deze procedure is gericht op de instellingen die nodig is voor het maken van een kanbanregel die tijdens het maken van een verkooporder wordt geactiveerd.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

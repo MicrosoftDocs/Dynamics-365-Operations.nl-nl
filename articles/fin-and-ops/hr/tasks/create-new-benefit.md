@@ -3,7 +3,7 @@ title: Een nieuwe vergoeding maken
 description: Deze taak laat zien hoe u vergoedingselementen maakt die worden gebruikt bij het maken van een nieuwe vergoeding.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

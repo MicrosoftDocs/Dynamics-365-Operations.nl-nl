@@ -3,7 +3,7 @@ title: Een streepjescode voor een product maken
 description: In deze procedure ziet u hoe u handmatig een streepjescode maakt met als voorbeeld het artikelnummer M0001.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

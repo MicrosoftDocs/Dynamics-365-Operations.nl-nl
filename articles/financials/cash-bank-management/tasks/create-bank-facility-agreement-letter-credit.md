@@ -3,7 +3,7 @@ title: Een bankfaciliteitsovereenkomst maken voor een kredietbrief
 description: Deze taak helpt u bij het maken van een bankfaciliteitsovereenkomst om een kredietbrief te verwerken.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

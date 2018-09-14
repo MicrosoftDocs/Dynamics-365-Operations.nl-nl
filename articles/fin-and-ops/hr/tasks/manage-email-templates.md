@@ -3,7 +3,7 @@ title: E-mailsjablonen beheren
 description: "U kunt informatie vanuit de database van uw organisatie overbrengen naar de bladwijzers in een nieuw document en deze gebruiken in sjablonen die u helpen efficiënt te communiceren met sollicitanten en kandidaten."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

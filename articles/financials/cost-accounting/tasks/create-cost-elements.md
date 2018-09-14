@@ -3,7 +3,7 @@ title: Kostenelementen maken
 description: Er zijn verschillende manieren om kostenelementen in Kostprijsboekhouding te maken.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

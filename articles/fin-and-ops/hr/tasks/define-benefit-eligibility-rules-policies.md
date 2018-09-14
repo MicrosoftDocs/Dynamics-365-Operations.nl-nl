@@ -3,7 +3,7 @@ title: "Regels en beleid van de vergoedingsgeschiktheid definiëren"
 description: Deze opname laat zien hoe u geschiktheidsregels en beleid voor vergoedingen kunt maken en vervolgens regels kunt toewijzen aan vergoedingen.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

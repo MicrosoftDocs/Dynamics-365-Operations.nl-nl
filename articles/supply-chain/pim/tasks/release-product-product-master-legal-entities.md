@@ -3,7 +3,7 @@ title: Een product/productmodel vrijgeven aan rechtspersonen
 description: Deze procedure laat zien hoe u een product of productmodel vrijgeeft aan een of meer rechtspersonen.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

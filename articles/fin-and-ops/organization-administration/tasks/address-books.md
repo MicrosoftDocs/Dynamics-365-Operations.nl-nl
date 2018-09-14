@@ -3,7 +3,7 @@ title: Adresboeken configureren
 description: Gebruik deze procedure en de beslissingen die u hebt genomen in het onderwerp De configuratie van het globale adresboek en aanvullende adresboeken plannen om aanvullende adresboeken in te stellen voor uw organisatie.
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

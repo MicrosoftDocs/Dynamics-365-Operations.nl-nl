@@ -3,7 +3,7 @@ title: Een productiestroom en -versie valideren
 description: Deze procedure toont aan hoe u een nieuwe productiestroom en een eerste versie voor lean manufacturing maakt.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

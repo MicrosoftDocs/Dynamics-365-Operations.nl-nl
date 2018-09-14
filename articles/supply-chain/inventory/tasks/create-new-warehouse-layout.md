@@ -3,7 +3,7 @@ title: Een nieuwe magazijnindeling maken
 description: Deze procedure laat zien hoe u de informatie over locaties in een magazijn instelt.
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

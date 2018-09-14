@@ -3,7 +3,7 @@ title: Een artikel of een grondstof traceren
 description: Deze procedure toont aan hoe u artikeltracering kunt gebruiken om te bepalen waar artikelen of grondstoffen zijn of worden gebruikt.
 author: pjacobse
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Een vrijgegeven product maken voor een enkel bedrijf
 description: "Deze procedure geeft aan hoe één vrijgegeven product kan worden gemaakt in de context van één juridische eenheid."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

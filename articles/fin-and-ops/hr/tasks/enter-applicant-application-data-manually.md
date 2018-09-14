@@ -3,7 +3,7 @@ title: Sollicitant- en sollicitatiegegevens handmatig invoeren
 description: Deze procedure laat zien hoe u handmatig informatie over sollicitanten en hun sollicitatie kunt onderhouden.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

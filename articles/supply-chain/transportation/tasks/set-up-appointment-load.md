@@ -3,7 +3,7 @@ title: Een afspraak voor een lading instellen
 description: Deze procedure laat zien hoe u een dockafspraak voor een lading instelt en plant.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Intercompany-projectfacturering configureren
 description: In deze procedure ziet u hoe u projectfacturen configureert tussen twee bedrijven in uw organisatie.
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

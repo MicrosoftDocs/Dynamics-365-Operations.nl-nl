@@ -3,7 +3,7 @@ title: Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
 description: In deze procedure wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaak gebruikte veldwaarden niet expliciet moeten worden ingevoerd voor elke nieuwe record.
 author: margoc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

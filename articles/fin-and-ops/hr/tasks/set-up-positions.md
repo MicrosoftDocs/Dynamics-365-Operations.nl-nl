@@ -3,7 +3,7 @@ title: Posities instellen
 description: "Posities zijn een belangrijk element van het lagere niveau van een organisatiehiërarchie."
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

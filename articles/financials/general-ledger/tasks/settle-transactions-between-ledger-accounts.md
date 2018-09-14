@@ -3,7 +3,7 @@ title: Transacties tussen grootboekrekeningen vereffenen
 description: Deze procedure toont hoe u transacties tussen grootboekrekeningen vereffent en een grootboekvereffening annuleert.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

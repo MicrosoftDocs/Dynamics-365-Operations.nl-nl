@@ -3,7 +3,7 @@ title: Klantkortingen genereren en verwerken
 description: Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van de claim tot het doorgeven ervan als toerekeningen aan Debiteuren.
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

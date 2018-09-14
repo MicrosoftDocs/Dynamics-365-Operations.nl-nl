@@ -3,7 +3,7 @@ title: " Registers maken en koppelen"
 description: In deze procedure wordt weergegeven hoe u een kassa op het verkooppunt (POS) kunt maken.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

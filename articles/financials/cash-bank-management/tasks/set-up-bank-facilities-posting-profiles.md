@@ -3,7 +3,7 @@ title: Bankfaciliteiten en boekingsprofielen voor borgstellingen instellen
 description: Deze taak maakt een bankfaciliteit en boekingsprofiel dat nodig is om een borgstelling te verwerken.
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Een hoofdrekening maken
 description: Deze taakbegeleiding helpt u bij het toevoegen van een hoofdrekening aan een bestaand rekeningschema.
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

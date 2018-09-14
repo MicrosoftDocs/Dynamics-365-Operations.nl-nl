@@ -3,7 +3,7 @@ title: Eigenschappen van werktijdplanningen maken
 description: "Eigenschappen van werktijdplanningen worden gebruikt om werktijdsintervallen te categoriseren en de instellingen te definiëren waarmee operators rekening moeten houden."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Bijzondere kosten voor leveranciersbetalingen definiëren"
 description: Stel bijzondere kosten voor leveranciersbetalingen in.
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

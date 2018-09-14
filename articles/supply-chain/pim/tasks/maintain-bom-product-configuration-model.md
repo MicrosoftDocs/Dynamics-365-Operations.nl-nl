@@ -3,7 +3,7 @@ title: Stuklijst voor een productconfiguratiemodel onderhouden
 description: Het uitvoeren van deze procedure vereist een bestaand productconfiguratiemodel.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

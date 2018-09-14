@@ -3,7 +3,7 @@ title: De ontvangst van goederen registreren voor de inkooporder
 description: Deze procedure laat zien hoe u de ontvangst van goederen voor een inkooporder direct kunt registreren.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

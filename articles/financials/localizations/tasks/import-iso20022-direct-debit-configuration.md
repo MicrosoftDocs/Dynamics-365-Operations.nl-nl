@@ -3,7 +3,7 @@ title: Configuratie van ISO20022 automatische afschrijving importeren
 description: In deze procedure ziet u hoe u een configuratie voor elektronische rapportage van klantenbetalingen importeert.
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

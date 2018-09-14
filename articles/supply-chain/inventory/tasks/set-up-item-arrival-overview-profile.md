@@ -3,7 +3,7 @@ title: Een aankomstoverzichtsprofiel instellen voor een artikel
 description: Deze taak is gericht op de instelling van een profiel van aankomstoverzicht.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Vergoedingen inschrijven en verwijderen van werknemers
 description: "Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan worden geregistreerd en hoe meerdere medewerkers in een vergoeding kunnen worden geregistreerd."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

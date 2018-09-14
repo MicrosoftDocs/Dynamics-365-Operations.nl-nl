@@ -3,7 +3,7 @@ title: Een werksjabloon instellen voor inkooporders
 description: Deze procedure is gericht op de instelling van een eenvoudige werksjabloon die u kunt gebruiken wanneer u ontvangen artikelen wegzet.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Een min./max. aanvullingsproces instellen
 description: Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de strategie van min./max. aanvulling wordt gebruikt.
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

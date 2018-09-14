@@ -3,7 +3,7 @@ title: "Beleid instellen voor categoriehiërarchieën voor aanschaffing"
 description: Gebruik deze procedure voor het instellen van regels voor het bestellen van producten in een categorie.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

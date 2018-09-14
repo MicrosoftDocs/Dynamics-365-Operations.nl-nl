@@ -3,7 +3,7 @@ title: Levensduur van batchorder van aanmaakdatum tot startdatum
 description: Deze procedure begeleidt u door het eerste gedeelte van de levensduur van een batchorder.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

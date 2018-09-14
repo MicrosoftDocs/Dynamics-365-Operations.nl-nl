@@ -3,7 +3,7 @@ title: Een nieuw product maken
 description: Deze taak geeft aan hoe u een nieuw gedeeld product maakt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

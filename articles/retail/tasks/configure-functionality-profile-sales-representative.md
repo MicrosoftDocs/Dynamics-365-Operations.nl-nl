@@ -3,7 +3,7 @@ title: " Het functionaliteitsprofiel voor een verkoopvertegenwoordiger configure
 description: Deze procedure geeft aan hoe u de instellingen van het functionaliteitprofiel van een opslag configureert dat op vertegenwoordigers van toepassing is.
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

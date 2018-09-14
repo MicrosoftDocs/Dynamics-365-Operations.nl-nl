@@ -3,7 +3,7 @@ title: Een locatieprofiel maken
 description: Elke locatie in het magazijn moet een locatieprofiel hebben dat eraan is gekoppeld en dat de eigenschappen beschrijft van de locatie, bijvoorbeeld of de locatie gemengde artikelen toestaat.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Standaardsjablonen voor financiële dimensies onderhouden"
 description: "In deze procedure ziet u hoe de standaardsjablonen van de financiële dimensie worden ingesteld."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

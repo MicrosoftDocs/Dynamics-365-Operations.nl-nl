@@ -3,7 +3,7 @@ title: Voortgang rapporteren op een mobiel taakapparaat
 description: Deze procedure toont hoe u de voortgang van een productietaak in het formulier van de taakapparaatregistratie kunt starten en rapporteren.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

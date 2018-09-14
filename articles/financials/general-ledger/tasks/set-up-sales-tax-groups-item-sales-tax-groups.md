@@ -3,7 +3,7 @@ title: Btw-groepen en artikel-btw-groepen instellen
 description: Deze taakregistratie doorloopt de instelling van btw-groepen en btw-groepen voor artikelen.
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Een productmodel maken
 description: Maak een productmodel voor de vooraf gedefinieerde varianten.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

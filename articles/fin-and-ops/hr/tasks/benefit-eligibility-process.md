@@ -3,7 +3,7 @@ title: Proces voor geschiktheid voor vergoeding
 description: Deze procedure toont hoe het geschiktheidsproces voor vergoedingen werkt.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

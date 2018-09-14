@@ -3,7 +3,7 @@ title: Actieve, geraamde en gerealiseerde kosten voor een productieorder vergeli
 description: Deze procedure laat zien hoe u redenen voor hoge productieafwijking voor een productieorder kunt bekijken.
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

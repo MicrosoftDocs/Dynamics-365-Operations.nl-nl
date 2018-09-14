@@ -3,7 +3,7 @@ title: Borgstellingstransactie
 description: Deze procedure begeleidt u door het proces van de borgstelling.
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

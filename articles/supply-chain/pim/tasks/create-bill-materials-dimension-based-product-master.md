@@ -3,7 +3,7 @@ title: Een stuklijst maken voor een op dimensies gebaseerd productmodel
 description: Voor deze procedure moet u de vorige 4 begeleidingen in deze reeks van acht registraties hebben voltooid.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

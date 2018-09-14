@@ -3,7 +3,7 @@ title: Het in- en uitchecken van een chauffeur voor een afspraak registreren
 description: Deze procedure laat zien hoe u een in-/uitcheckstatus van de chauffeur registreert.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

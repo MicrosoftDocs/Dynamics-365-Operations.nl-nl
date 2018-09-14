@@ -3,7 +3,7 @@ title: Een productiestroomversie activeren
 description: Voordat kanbantaken kunnen worden gemaakt en activiteiten kunnen worden verwerkt voor een productiestroomversie, moet u de versie activeren.
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

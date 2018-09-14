@@ -3,7 +3,7 @@ title: Compensatierasters instellen
 description: Compensatierasters worden gebruikt om de salarisstructuren voor plannen voor vaste compensatie weer te geven of te onderhouden.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

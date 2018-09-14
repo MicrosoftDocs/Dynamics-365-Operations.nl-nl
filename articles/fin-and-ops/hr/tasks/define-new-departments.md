@@ -3,7 +3,7 @@ title: "Nieuwe afdelingen definiëren"
 description: Afdelingen zijn operationele eenheden die een functioneel gebied van een bedrijf vertegenwoordigen, zoals verkoop of boekhouding.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

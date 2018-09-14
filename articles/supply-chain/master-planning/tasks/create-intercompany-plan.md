@@ -3,7 +3,7 @@ title: Een intercompany-plan maken
 description: Deze procedure laat zien hoe u een intercompany-plan maakt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

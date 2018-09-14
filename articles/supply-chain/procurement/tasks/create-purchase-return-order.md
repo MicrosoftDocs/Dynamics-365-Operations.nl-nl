@@ -3,7 +3,7 @@ title: Een inkoopretourorder maken
 description: "Deze procedure laat zien hoe u een inkoopretourorder kunt maken door de actie Creditnota te gebruiken om regels van een leveranciersfactuurdocument naar een nieuwe inkooporder te kopiëren."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

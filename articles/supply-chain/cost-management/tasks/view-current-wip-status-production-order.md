@@ -3,7 +3,7 @@ title: Huidige OHW-status op een productieorder weergeven
 description: Deze procedure laat zien hoe u OHW-instructies in een productieorder weergeeft.
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbehee
 description: Deze procedure toont hoe u artikelen registreert via het artikelontvangstjournaal wanneer u de geavanceerde magazijnbeheerprocessen gebruikt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

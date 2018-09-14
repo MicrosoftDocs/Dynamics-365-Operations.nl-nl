@@ -3,7 +3,7 @@ title: Indeling voor betalingsbonnen voor projectfacturen instellen
 description: Bedrijven koppelen om klanten van dienst te zijn vaak afgedrukte betalingsbonnen aan facturen en leveren een betalingsverwijzing voor het boeken en vereffenen.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

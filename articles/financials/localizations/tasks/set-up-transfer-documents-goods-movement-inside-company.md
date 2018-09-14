@@ -3,7 +3,7 @@ title: De overboekingsdocumenten instellen voor goederenverplaatsing in een bedr
 description: Deze procedure laat zien hoe u overboekingsdocumenten voor goederenverplaatsing binnen een bedrijf maakt.
 author: v-oloski
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

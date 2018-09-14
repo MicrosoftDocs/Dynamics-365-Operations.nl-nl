@@ -3,7 +3,7 @@ title: Locaties in een WMS-magazijn configureren
 description: Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw WMS-magazijn (een magazijn dat geavanceerde magazijnbeheerprocessen gebruikt).
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

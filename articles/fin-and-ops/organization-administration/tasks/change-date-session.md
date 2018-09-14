@@ -3,7 +3,7 @@ title: De datum van de sessie wijzigen
 description: Standaard wordt de huidige datum gebruikt bij het invoeren en boeken van journaalposten of brondocumenten.
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

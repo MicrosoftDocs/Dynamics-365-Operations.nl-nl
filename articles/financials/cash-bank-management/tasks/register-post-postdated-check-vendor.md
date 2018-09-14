@@ -3,7 +3,7 @@ title: Een gepostdateerde cheque voor een leverancier registreren en boeken
 description: U kunt de details van een gepostdateerde cheque registreren voordat u de cheque aan een leverancier uitschrijft door het journaalboekstuk te gebruiken.
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

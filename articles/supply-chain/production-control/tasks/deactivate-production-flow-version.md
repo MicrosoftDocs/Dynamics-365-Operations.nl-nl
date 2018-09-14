@@ -3,7 +3,7 @@ title: Een productiestroomversie deactiveren
 description: Als een actieve productiestroomversie niet meer nodig is, kan deze worden gedeactiveerd.
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

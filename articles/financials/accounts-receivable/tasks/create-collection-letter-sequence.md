@@ -3,7 +3,7 @@ title: Een aanmaningsreeks maken
 description: Gebruik deze taakhandleiding om een aanmaningsreeks te maken.
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

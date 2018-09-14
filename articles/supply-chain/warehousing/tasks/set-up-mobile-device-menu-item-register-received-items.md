@@ -3,7 +3,7 @@ title: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artik
 description: Deze taak is gericht op de instelling van een menuopdracht van mobiel apparaat.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Een inkoopovereenkomst maken
 description: Deze procedure begeleidt u door het maken van een inkoopovereenkomst.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

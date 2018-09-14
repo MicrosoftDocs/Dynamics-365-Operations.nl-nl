@@ -3,7 +3,7 @@ title: Een nieuwe kanbanregel maken door een bestaande kanbanregel te dupliceren
 description: Deze procedure is gericht op het maken van een kopie van een bestaande kanbanregel.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

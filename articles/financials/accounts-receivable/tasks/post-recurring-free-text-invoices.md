@@ -3,7 +3,7 @@ title: Terugkerende vrije-tekstfacturen genereren en boeken
 description: Terugkerende facturen worden gebruikt om klanten regelmatig voor hetzelfde bedrag te factureren.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

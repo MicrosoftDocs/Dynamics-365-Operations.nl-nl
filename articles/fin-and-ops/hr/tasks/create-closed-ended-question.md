@@ -3,7 +3,7 @@ title: Een meerkeuzevraag maken
 description: Met meerkeuzevragen kunt u opties bieden waaruit de respondent kan kiezen.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

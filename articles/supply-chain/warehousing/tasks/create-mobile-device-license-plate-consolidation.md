@@ -3,7 +3,7 @@ title: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerpla
 description: Deze procedure laat zien hoe u een menuoptie maakt voor een mobiel apparaat voor het werken aan de nummerplaatconsolidatie.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Gegevens medewerker invoeren
 description: Nadat een werver een project voor massaal aanstellen heeft gemaakt en de posities heeft gegenereerd, bestaat de volgende stap uit het invoeren van de werknemersinformatie voor de personen die worden aangenomen.
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
