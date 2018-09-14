@@ -3,7 +3,7 @@ title: Terugkerende vrije-tekstfacturen genereren en boeken
 description: Terugkerende facturen worden gebruikt om klanten regelmatig voor hetzelfde bedrag te factureren.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 817da36aebb4a8e7cbd986734ef9d5028982cbb6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8352b32b1a3c950bed6dd5f0c18c00173e725e69
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a><span data-ttu-id="f20fd-103">Terugkerende vrije-tekstfacturen genereren en boeken</span><span class="sxs-lookup"><span data-stu-id="f20fd-103">Generate and post recurring free text invoices</span></span>

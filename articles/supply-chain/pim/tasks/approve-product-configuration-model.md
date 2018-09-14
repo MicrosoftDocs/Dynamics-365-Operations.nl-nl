@@ -3,7 +3,7 @@ title: Een productconfiguratiemodel goedkeuren
 description: "Het uitvoeren van deze procedure vereist dat er ten minste één productconfiguratiemodel beschikbaar is."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d5d82c1be4fc7ff549ba577fda84359342e2a9f8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c196731046fa01059d61f2df08f47639ba839642
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="approve-a-product-configuration-model"></a><span data-ttu-id="d2d40-103">Een productconfiguratiemodel goedkeuren</span><span class="sxs-lookup"><span data-stu-id="d2d40-103">Approve a product configuration model</span></span>

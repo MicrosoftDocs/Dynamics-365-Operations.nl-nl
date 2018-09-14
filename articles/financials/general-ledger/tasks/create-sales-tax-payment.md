@@ -3,7 +3,7 @@ title: Een btw-betaling maken
 description: De taak Btw vereffenen en boeken vereffent btw-saldi op de btw-rekeningen en tegenboekt ze naar de btw-vereffeningsrekening voor een bepaalde periode.
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: b1dbaa73c11fae599d5beddb6b6809a190628873
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b0d72c88d6ba851e96ca07b896630549690e9396
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-sales-tax-payment"></a><span data-ttu-id="b22df-103">Een btw-betaling maken</span><span class="sxs-lookup"><span data-stu-id="b22df-103">Create a sales tax payment</span></span>

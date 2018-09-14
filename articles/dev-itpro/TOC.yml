@@ -263,7 +263,7 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Modelbeperkingen loslaten om overlayering in uitbreidingen te herstructureren
               href: extensibility/refactoring-over-layering.md
-        - name: Hoe kan ik?
+        - name: Extensies maken
           items:
             - name: Waarden toevoegen aan enums
               href: extensibility/add-enum-value.md
@@ -311,6 +311,28 @@
               href: extensibility/maps-as-interfaces.md
             - name: Tabeltoewijzingen uitbreiden die worden gebruikt voor versiebeheer
               href: extensibility/maps-with-versioning.md
+        - name: Uitbreidbare oplossingen maken
+          items:
+            - name: Uitbreidbare code schrijven
+              href: extensibility/writing-extensible-code.md
+            - name: Klassen
+              href: extensibility/extensible-classes.md
+            - name: Methoden
+              href: extensibility/extensible-methods.md
+            - name: Formulieren
+              href: extensibility/extensible-forms.md
+            - name: Uitgebreide-gegevenstypen
+              href: extensibility/extensible-edts.md
+            - name: Uitbreidbare enums
+              href: extensibility/extensible-enums.md
+            - name: Gemachtigden
+              href: extensibility/extensible-code-delegates.md
+            - name: Tabellen
+              href: extensibility/extensible-tables.md
+            - name: Uitbreidbaarheidskenmerken voor methoden
+              href: extensibility/extensibility-attributes.md
+            - name: Ingrijpende wijzigingen
+              href: extensibility/breaking-changes.md
     - name: Prestaties
       items:
         - name: Traceren met Traceparser
@@ -1184,6 +1206,8 @@
       items:
         - name: Regels maken voor Optimization advisor
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Een storing in de productie rapporteren
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Bronnen voor Lifecycle Services
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Omgevingsservices opnieuw starten
       href: lifecycle-services/restart-environment-services.md
+    - name: Een storing in de productie rapporteren
+      href: lifecycle-services/report-production-outage.md
     - name: Gebruikeraanmeldingen bijhouden
       href: lifecycle-services/user-logins.md
     - name: Activabibliotheek

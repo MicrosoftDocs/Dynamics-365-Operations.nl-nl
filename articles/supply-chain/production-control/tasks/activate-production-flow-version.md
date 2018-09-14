@@ -3,7 +3,7 @@ title: Een productiestroomversie activeren
 description: Voordat kanbantaken kunnen worden gemaakt en activiteiten kunnen worden verwerkt voor een productiestroomversie, moet u de versie activeren.
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: ef91a7d4e1bd540a892cfbd6d34dcf382bf42dc5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 909ed89cfd498f69ed99cd9642bbd9fab698dbb7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="activate-a-production-flow-version"></a><span data-ttu-id="2b53c-103">Een productiestroomversie activeren</span><span class="sxs-lookup"><span data-stu-id="2b53c-103">Activate a production flow version</span></span>

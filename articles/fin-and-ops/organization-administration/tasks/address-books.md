@@ -3,7 +3,7 @@ title: Adresboeken configureren
 description: Gebruik deze procedure en de beslissingen die u hebt genomen in het onderwerp De configuratie van het globale adresboek en aanvullende adresboeken plannen om aanvullende adresboeken in te stellen voor uw organisatie.
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 0db6308167741408e787f60f657aa24e4f1a8469
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 325e3974cb38afea46c2f735165ee2fd1a6a22ab
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="configure-address-books"></a><span data-ttu-id="943e5-103">Adresboeken configureren</span><span class="sxs-lookup"><span data-stu-id="943e5-103">Configure address books</span></span>

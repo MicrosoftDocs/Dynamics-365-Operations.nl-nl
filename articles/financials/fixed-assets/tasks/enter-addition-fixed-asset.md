@@ -3,7 +3,7 @@ title: Een toevoeging aan een vast activum invoeren
 description: Deze procedure laat zien hoe u een toevoeging aan een bestaand vast activum toevoegt.
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 170d7741af78d3a014f35fa800ae117d2c4232c2
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a><span data-ttu-id="12704-103">Een toevoeging aan een vast activum invoeren</span><span class="sxs-lookup"><span data-stu-id="12704-103">Enter an addition to a fixed asset</span></span>

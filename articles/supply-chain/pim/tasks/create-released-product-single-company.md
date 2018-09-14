@@ -3,7 +3,7 @@ title: Een vrijgegeven product maken voor een enkel bedrijf
 description: "Deze procedure geeft aan hoe één vrijgegeven product kan worden gemaakt in de context van één juridische eenheid."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: cca492bb1083f2520699dd8871a15b10ba3b4e1f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9265ee4311ac89ae88ff7dd089519251828b1e3c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-released-product-for-a-single-company"></a><span data-ttu-id="44268-103">Een vrijgegeven product maken voor een enkel bedrijf</span><span class="sxs-lookup"><span data-stu-id="44268-103">Create a released product for a single company</span></span>
