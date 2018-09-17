@@ -26,6 +26,8 @@ ms.lasthandoff: 08/08/2018
 ---
 # <a name="remove-talent-environments"></a>Talent-omgevingen verwijderen
 
+[!include [banner](includes/banner.md)]
+
 In dit onderwerp wordt u door het proces van het verwijderen van een testdrive- of productieomgeving voor Microsoft Dynamics 365 for Talent geleid.
 
 ## <a name="removing-a-test-drive-environment"></a>Een testdrive-omgeving verwijderen

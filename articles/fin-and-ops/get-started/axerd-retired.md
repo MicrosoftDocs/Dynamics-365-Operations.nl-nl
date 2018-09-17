@@ -27,6 +27,8 @@ ms.lasthandoff: 08/08/2018
 
 # <a name="axerd-page-has-been-retired"></a>Pagina AxErd is buiten gebruik gesteld
 
+[!include [banner](../includes/banner.md)]
+
 We hebben de webpagina AxErd, die entiteitsrelatiediagrammen (ERD's) voor een groot aantal Microsoft Dynamics AX 2012-tabellen bevatte, helaas buiten gebruik moeten stellen. We hebben zowel de broncode voor het project als de HTML-bestanden voor de webpagina in een GitHub-opslagplaats gepubliceerd: https://github.com/Microsoft/ax-2012-doc-tools
 
 De HTML-pagina's bevinden zich in de repo op [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)

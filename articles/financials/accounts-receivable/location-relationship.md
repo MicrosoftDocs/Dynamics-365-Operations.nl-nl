@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Locatierollen en partijrelatietypen toevoegen 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Locatierollen toevoegen
 
 Er zijn twee manieren voor het toevoegen van nieuwe locatierollen voor adres- en contactgegevens:
