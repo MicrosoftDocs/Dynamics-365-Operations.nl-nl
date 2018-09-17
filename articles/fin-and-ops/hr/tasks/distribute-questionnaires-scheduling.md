@@ -1,28 +1,29 @@
 --- 
-title: Vragenlijsten distribueren via een planning
+title: Vragenlijsten distribueren met een planning
 description: Met vragenlijstplanning kunt u vragenlijsten plannen voor en distribueren naar meerdere respondenten.
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: f3876d1136bd3300d233a5b4401f3458e95817e0
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d371873cbd16f050ca042f5c13d93781fe6fc732
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="distribute-questionnaires-by-using-scheduling"></a>Vragenlijsten distribueren via een planning
+# <a name="distribute-questionnaires-using-scheduling"></a>Vragenlijsten distribueren met een planning
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -43,7 +44,7 @@ Met vragenlijstplanning kunt u vragenlijsten plannen voor en distribueren naar m
 9. Vouw de sectie E-mail voor werknemersselfservice uit.
 10. Typ een waarde in het veld Onderwerp.
     * Voorbeeld: Vragenlijst beschikbaar  
-11. Typ in het veld Tekst de tekst van uw e-mail. De variabele kan worden gebruikt om waarden in het systeem te vertegenwoordigen.
+11. Typ in het veld Tekst de tekst van uw e-mail. Let erop dat de variabele kan worden gebruikt om waarden in het systeem te vertegenwoordigen.
     * Voorbeeld: Beste %P%, Meld u aan bij de Werknemerselfservice en vul de vragenlijst Personeelsgezondheid in.  Contoso  
 12. Klik op Opslaan.
 

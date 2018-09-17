@@ -1,28 +1,29 @@
 --- 
-title: Informatie toevoegen aan uw prestatiejournaal en lovende kritiek verzenden
+title: Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden
 description: In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe u uw doelstellingen haalt of hoe u gedurende een periode hebt gepresteerd.
 author: ShielaSogge
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Informatie toevoegen aan uw prestatiejournaal en lovende kritiek verzenden
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Toevoegen aan uw prestatiejournaal en lovende kritiek naar iemand verzenden
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -42,7 +43,7 @@ In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe 
 9. Typ een waarde in het veld Trefwoorden.
 10. Klik op Externe koppeling toevoegen.
 11. Typ 'Envision' in het veld Omschrijving.
-12. Typ '<https://www.microsoft.com/en/envision/default>' in het veld Internetadres.
+12. Typ in het veld Internetadres 'https://www.microsoft.com/en/envision/default'.
 13. Klik onder de knop Opslaan op het bijschrift "Prestatiejournaal" om terug te gaan naar het raster.
     * U kunt het geselecteerde journaal of journalen aan een doelstelling toevoegen, zodat het wordt weergegeven wanneer u de doelstelling opent. Een koppeling wordt toegevoegd aan het sneltabblad Koppelingen. Als u een journaal aan een doelstelling toevoegt en de doelstelling aan een beoordeling toevoegt, wordt het journaal automatisch weergegeven in de beoordeling.  
     * U kunt het geselecteerde journaal of journalen aan een beoordeling toevoegen, zodat het wordt weergegeven wanneer u de beoordeling opent.    Een koppeling wordt toegevoegd aan het sneltabblad Koppelingen.  

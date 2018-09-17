@@ -3,23 +3,24 @@ title: Verkoopoffertes maken en bewerken
 description: Deze procedure toont hoe u een verkoopofferte maakt en bijwerkt.
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SalesQuotationTotals, SalesQuotationPriceSimulation, SalesQuotationEditLines, SrsReportViewerForm, smmSetNumSeqIfManual, CustTable, SalesTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: 7ffa4fe8d87db5b3f8293ec9dbc042496d09d6e3
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: f56b495131836689395a2124d5a834579e1646b7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-and-edit-sales-quotations"></a>Verkoopoffertes maken en bewerken
@@ -50,7 +51,7 @@ Deze procedure toont hoe u een verkoopofferte maakt en bijwerkt. U kunt deze pro
 15. Klik op Verkoopofferteregel.
 16. Klik op Prijzen.
     * Op de pagina Prijssimulatie uitvoeren kunt u experimenteren bij het aanpassen van de verwachte omzet of rentabiliteit van uw offerte op basis van de gewenste eenheidsprijzen, kortingsbedragen, kortingspercentages, totale bedragen, marges of bijdrageverhoudingen.   Wanneer u tevreden bent met de streefcijfers, past u de suggestie op de offerteregel toe. De prijsgerelateerde velden worden overeenkomstig bijgewerkt.  
-    * U kunt zoveel prijssimulaties maken als u nodig hebt. Wanneer u op Nieuw klikt, worden de prijscoorwaarden van de huidige offerteregel gekopieerd naar de pagina. U kunt dan in alle prijsgerelateerde velden waarden wijzigen in de doelwaarden. Door een wijziging in een van de velden worden alle andere velden herberekend. Opdat het systeem de verkoopmarge en bijdrageverhouding berekent, moeten de eenheidskosten van het product bekend zijn. Gebruik het tabblad Gesimuleerde prijzen voor een gedetailleerde weergave van de oorspronkelijke prijzen, de voorgestelde wijzigingen en hun effect op de totalen van de offerte.   In het algemeen geldt dat als een simulatie die een nieuw bedrag instelt wordt toegepast op de offerteregel, het systeem een nieuwe waarde berekent en invoert in het veld Eenheidsprijs. Als de simulatie is gebaseerd op een nieuwe marge of een nieuwe bijdrageverhouding, wordt alleen het veld Nettobedrag bijgewerkt en is de Eenheidsprijs leeg. In beide gevallen worden eventuele kortingen verwijderd die vóór de simulatie op de offerteregel waren toegepast.  
+    * U kunt zoveel prijssimulaties maken als u dit nodig hebt. Wanneer u op Nieuw klikt, worden de prijscoorwaarden van de huidige offerteregel gekopieerd naar de pagina. U kunt dan in alle prijsgerelateerde velden waarden wijzigen in de doelwaarden. Door een wijziging in een van de velden worden alle andere velden herberekend. Opdat het systeem de verkoopmarge en bijdrageverhouding berekent, moeten de eenheidskosten van het product bekend zijn. Gebruik het tabblad Gesimuleerde prijzen voor een gedetailleerde weergave van de oorspronkelijke prijzen, de voorgestelde wijzigingen en hun effect op de totalen van de offerte.   In het algemeen geldt dat als een simulatie die een nieuw bedrag instelt wordt toegepast op de offerteregel, het systeem een nieuwe waarde berekent en invoert in het veld Eenheidsprijs. Als de simulatie is gebaseerd op een nieuwe marge of een nieuwe bijdrageverhouding, wordt alleen het veld Nettobedrag bijgewerkt en is de Eenheidsprijs leeg. In beide gevallen worden eventuele kortingen verwijderd die vóór de simulatie op de offerteregel waren toegepast.  
 17. Sluit de pagina.
 18. Klik in het actievenster op Offecte.
 19. Klik op Offerte verzenden.

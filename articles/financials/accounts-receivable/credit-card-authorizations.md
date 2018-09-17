@@ -44,11 +44,13 @@ Als u creditcards wilt gebruiken, moet u een betalingsservice instellen en activ
 
 ## <a name="adding-a-new-credit-card"></a>Een nieuwe creditcard toevoegen
 U kunt nieuwe creditcardrecords maken op de pagina Klanten door Klant, Instellingen, Creditcard te gebruiken. U kunt ook creditcardrecords maken wanneer u verkooporders invoert op de pagina Vverkooporder door gebruik te maken van Beheren, Klant, Creditcard, Registreren.
-Een creditcard toevoegen aan een verkooporder
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Een creditcard toevoegen aan een verkooporder
 -------------------------------------
 
 U kunt een creditcard toevoegen aan een verkooporder door een creditcard te selecteren in het zoekveld voor creditcards op het sneltabblad Prijs en kortingen op de pagina Verkooporder. U kunt het autorisatieproces starten door in het actievenster op het tabblad Beheren Creditcard en Autoriseren te selecteren.
-Een creditcard autoriseren
+
+<a name="authorizing-a-credit-card"></a>Een creditcard autoriseren
 -------------------------
 
 Wanneer een creditcard wordt geautoriseerd, worden het kaartnummer en de naam van de kaarthouder geverifieerd en wordt ook het creditsaldo gecontroleerd. Eventueel worden de waarde voor kaartverificatie en het adres van de kaarthouder gecontroleerd. Het factuurbedrag wordt vervolgens afgetrokken van het creditsaldo van de klant. De betaalservice meldt of de creditcard is goedgekeurd of is geweigerd. Wanneer de verkooporder wordt gefactureerd, wordt de creditcard met het factuurbedrag belast.

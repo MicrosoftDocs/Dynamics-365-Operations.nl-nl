@@ -3,7 +3,7 @@ title: Lokalisatie en wettelijk voorgeschreven functies
 description: Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke functionaliteit.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/18/2018
+ms.date: 09/05/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
-ms.openlocfilehash: 787ce11701a9df951b38af5209206902d7c98019
+ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
+ms.openlocfilehash: db18906739529e04710507ee9ff088540894171d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/05/2018
 
 ---
 
@@ -31,7 +31,11 @@ ms.lasthandoff: 08/08/2018
 
 Microsoft Dynamics 365 for Finance and Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](https://aka.ms/ax-availabilityguide). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
 
-Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke oplossingen, updates waarschuwingen en functionaliteit. 
+Dit onderwerp bevat een lijst met bronnen waarmee u het volgende kunt doen: 
+- meer informatie krijgen over het ontwikkelen van land-/regiospecifieke oplossingen
+- land-/regiospecifieke updates ophalen
+- wettelijke waarschuwingen indienen en bekijken
+- informatie krijgen over het gebruik van land-/regiospecifieke functionaliteit 
 
 ## <a name="developing-localized-solutions"></a>Gelokaliseerde oplossingen ontwikkelen
 De volgende bronnen bieden richtlijnen en informatie ter ondersteuning van ontwikkelaars en ISV's die land-/regiospecifieke aanpassingen uitvoeren of een oplossing ontwikkelen voor een land dat niet door Microsoft wordt ondersteund.
@@ -75,156 +79,47 @@ U kunt taakbegeleidingen zoeken door naar een pagina in Microsoft Dynamics 365 f
 Zie [Taakbegeleidingen](../../fin-and-ops/get-started/help-overview.md#task-guides) voor meer informatie.
 
 
-## <a name="countryregion-specific-help-topics"></a>Land-/regiospecifieke Help-onderwerpen
-In de volgende gedeelten worden bronnen per land/regio weergegeven.
+## <a name="countryregion-specific-help-content"></a>Inhoud van land-/regiospecifieke Help
+:::row:::
+    :::column:::
+        - [Australië](../../financials/localizations/australia.md)
+        - [Oostenrijk](../../financials/localizations/austria.md)
+        - [België](../../financials/localizations/belgium.md)
+        - [Brazilië](../../financials/localizations/brazil.md)
+        - [China](../../financials/localizations/china.md)
+        - [Tsjechië](../../financials/localizations/czech-republic.md)
+        - [Estland](../../financials/localizations/estonia.md)
+        - [Europa](../../financials/localizations/europe.md)
+        - [Frankrijk](../../financials/localizations/france.md)
+        - [Duitsland](../../financials/localizations/germany.md)
+    :::column-end:::
+    :::column:::
+        - [Hongarije](../../financials/localizations/hungary.md)
+        - [India](../../financials/localizations/india.md)
+        - [Italië](../../financials/localizations/italy.md)
+        - [Japan](../../financials/localizations/japan.md)
+        - [Letland](../../financials/localizations/latvia.md)
+        - [Litouwen](../../financials/localizations/lithuania.md)
+        - [Mexico](../../financials/localizations/mexico.md)
+        - [Maleisië](../../financials/localizations/malaysia.md)
+        - [Nederland](../../financials/localizations/netherlands.md)
+        - [Noorwegen](../../financials/localizations/norway.md)
+    :::column-end:::
+    :::column:::
+        - [Polen](../../financials/localizations/poland.md)
+        - [Saudi-Arabië](../../financials/localizations/saudi-arabia.md)
+        - [Singapore](../../financials/localizations/singapore.md)
+        - [Spanje](../../financials/localizations/spain.md)
+        - [Zweden](../../financials/localizations/sweden.md)
+        - [Zwitserland](../../financials/localizations/switzerland.md)
+        - [Thailand](../../financials/localizations/thailand.md)
+        - [Verenigd Koninkrijk](../../financials/localizations/united-kingdom.md)
+        - [Verenigde Staten](../../financials/localizations/united-states.md)
+    :::column-end:::
+:::row-end:::
 
-### <a name="australiafinancialslocalizationsaustraliamd"></a>[Australië](../../financials/localizations/australia.md)
-### <a name="austriafinancialslocalizationsaustriamd"></a>[Oostenrijk](../../financials/localizations/austria.md)
-### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[België](../../financials/localizations/belgium.md)
 
-### <a name="brazil"></a>Brazilië
 
--   [Vaste activa volgens CIAP](../../financials/localizations/latam-bra-ciap-fixed-asset.md)
--   [Belastingboeken configureren](../../financials/localizations/latam-bra-configure-fiscal-books.md)
--   [Transacties voor grootboekconsolidatie exporteren en importeren voor Brazilië](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
--   [Belastingboeken](../../financials/localizations/latam-bra-fiscal-books.md)
--   [Tijdelijke aanduidingen voor tekst in belastingdocumenten](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
--   [Belastingdocumenten](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
--   [Belastingdocumenten voor ICMS-belasting](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
--   [NF-e-XML-documenten en DANFE-bestanden importeren en controleren](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
--   [Belastingdocumenten importeren](../../financials/localizations/latam-bra-import-fiscal-documents.md)
--   [Journalen die zijn gegenereerd tijdens het retourproces bij elektronische betaling](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
--   [NF-e-proces](../../financials/localizations/latam-bra-nf-e-process.md)
--   [Parameters voor rechtspersonen](../../financials/localizations/latam-bra-legal-entity-parameters.md)
--   [Elektronische overschrijvingen verwerken voor Brazilië](../../financials/localizations/latam-bra-process-electronic-payment-remittances.md)
--   [Aanvullende belastingdocumenten voor inkoop](../../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md)
--   [Belastingdocumenten waarnaar wordt verwezen](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
--   [Aanvullende belastingdocumenten voor verkoop](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
--   [Elektronisch belastingdocument voor service](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
--   [NF-e-XML-documenten en DANFE instellen, importeren en controleren](../../financials/localizations/latam-bra-set-up-import-nfe.md)
--   [Belastingkenmerken](../../financials/localizations/latam-bra-tax-attributes.md)
--   [Belastingbetalingen](../../financials/localizations/latam-bra-tax-payments.md)
--   [Belastingen](../../financials/localizations/latam-bra-calculate-taxes.md)
-
-### <a name="chinafinancialslocalizationschinamd"></a>[China](../../financials/localizations/china.md)
-### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Tsjechië](../../financials/localizations/czech-republic.md)
-### <a name="estoniafinancialslocalizationsestoniamd"></a>[Estland](../../financials/localizations/estonia.md)
-
-### <a name="europe"></a>Europa
-- [Voorschothouders](../../financials/localizations/emea-advance-holders.md)
-- [Voorschothoudertransacties](../../financials/localizations/emea-advance-holders-transactions.md)
-- [Geavanceerde facturering](../../financials/localizations/emea-advance-invoice.md)
-- [Bankafstemming](../../financials/localizations/emea-bank-reconciliation.md)
-- [Correctieve facturering](../../financials/localizations/emea-corrective-invoice.md)
-- [Periodieke journalen maken en boeken](../../financials/localizations/emea-create-post-periodic-journals.md)
-- [Factuur-id's op verkooporders bewerken](../../financials/localizations/emea-edit-invoice-id-sales-orders.md)
-- [EU-invoercertificaten](../../financials/localizations/emea-entry-certificates.md)
-- [Rapport ICL-lijst](../../financials/localizations/emea-eu-sales-list.md)
-- [Aanpassingen wisselkoers](../../financials/localizations/emea-exchange-rate-adjustments.md)
-- [Bestandsindelingen voor betalingsmethoden](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
-- [Afstoting van vaste activa voor Estland en Litouwen](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
-- [ISO20022-bestanden importeren](../../financials/localizations/emea-ISO20022-file-formats.md)
-- [Intrastat](../../financials/localizations/emea-intrastat.md)
-- [Voorraadjournaalrapporten](../../financials/localizations/emea-set-up-report-inventory-journal-names.md)
-- [Factuur- en pakbonnummering voor Letland en Litouwen](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
-- [Deadlines voor uitgeven van facturen](../../financials/localizations/emea-invoice-issue-deadline.md)
-- [OIOUBL-standaarden](../../financials/localizations/emea-oioubl-standards-electronic-invoicing.md)
-- [Rapport betaalbon](../../financials/localizations/emea-eur-payment-slip-report-giro.md)
-- [Kleine kas](../../financials/localizations/emea-petty-cash.md)
-- [De waarde van een vast activum voorafgaand aan verwerving boeken](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
-- [Postcodes](../../financials/localizations/emea-import-create-postal-codes-manually.md)
-- [Registratie-id's](../../financials/localizations/emea-registration-ids.md)
-- [Terugboekingen](../../financials/localizations/emea-reverse-charge.md)
-- [Overzicht SEPA-kredietoverdracht](../../financials/accounts-payable/sepa-credit-transfer.md)
-- [Overzicht SEPA-incasso](../../financials/accounts-receivable/sepa-direct-debit-overview.md)
-- [Compensatie voor klanten en leveranciers instellen](../../financials/localizations/emea-compensation-customer-vendor-transactions.md)
-- [Ondertekenaars voor afdrukbare formulieren instellen](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
-- [Stornoboekhouding](../../financials/localizations/emea-storno.md)
-- [Belastinginstructies](../../financials/localizations/emea-tax-directives.md)
-- [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](../../financials/localizations/emea-amount-printing-forms.md) 
-- [Btw-wisselkoersen](../../financials/localizations/emea-vat-exchange-rate.md)
-- [Transacties vastleggen in btw-register voor Oost-Europa](../../financials/localizations/emea-vat-register-transactions.md)
-- [Btw-aangifte](../../financials/localizations/emea-vat-reporting.md)
-- [Transacties weergeven bij vereffening](../../financials/localizations/emea-transactions-settlement-form.md)
-
-### <a name="francefinancialslocalizationsfrancemd"></a>[Frankrijk](../../financials/localizations/france.md)
-### <a name="germanyfinancialslocalizationsgermanymd"></a>[Duitsland](../../financials/localizations/germany.md)
-### <a name="hungaryfinancialslocalizationshungarymd"></a>[Hongarije](../../financials/localizations/hungary.md)
-
-### <a name="india"></a>India
-
-- [Vaste activa](../../financials/localizations/apac-ind-fixed-assets.md)
-    - [Overboeking van kapitaalitems naar het vaste activum](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
-    - [Een dagkalender aan een vaste-activaboek koppelen](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
-    - [Parameters instellen om afschrijving te berekenen](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
-    - [Afschrijving voor activagroep instellen voor afschrijvingsboeken](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
-    - [Een voorraadmodelgroep voor kapitaalitems maken](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
-    - [Afschrijvingsberekening van dienst voor vaste activa India](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
-    - [Het type dienst en industrie definiëren voor boeken en koppelen aan vaste activa](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
-- [Overzicht van belastingberekenfunctie](../../financials/general-ledger/tax-engine.md)
-    - [Integratie van belastingberekenfunctie](../../financials/general-ledger/tax-engine-integration.md)
-    - [Veelgestelde vragen over btw-drempels](../../financials/localizations/apac-ind-tax-thresholds.md)
-    - [De belastingberekenfunctie uitbreiden](../../financials/general-ledger/extend-tax-engine-configurations.md)
-
-### <a name="italyfinancialslocalizationsitalymd"></a>[Italië](../../financials/localizations/italy.md)
-### <a name="japan"></a>Japan
-
--  [Bankbetalingskosten die door leveranciers worden gedekt](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
--  [Geconsolideerde facturen](../../financials/localizations/apac-jpn-consolidate-invoices.md)
--  [Toewijzingsregels voor vaste activa](../../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md)
--  [Gelijkelijk verdeelde afschrijvingsmethode](../../financials/localizations/apac-jpn-equally-divided-depreciation-method.md)
--  [Afschrijving vaste activa](../../financials/localizations/apac-jpn-fixed-asset-depreciation.md)
--  [Beheer van gebrek van vaste activa bij kasstroomgenererende eenheid](../../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md)
--  [Postcodes importeren](../../financials/localizations/apac-jpn-import-postal-codes.md)
--  [Verplichting tot pensionering voor vaste activa instellen](../../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md)
--  [Reductieboekingen voor vaste activa instellen](../../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md)
--  [Een leverancier betalen door goedkeuring van een wissel](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
--  [Progressieve berekening van bronbelasting](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
-
-### <a name="latviafinancialslocalizationslatviamd"></a>[Letland](../../financials/localizations/latvia.md)
-### <a name="lithuaniafinancialslocalizationslithuaniamd"></a>[Litouwen](../../financials/localizations/lithuania.md)
-
-### <a name="mexico"></a>Mexico
-
--   [DIOT-aangifteoverzicht](../../financials/localizations/latam-mex-diot-declaration-statement.md)
--   [Overzichten van elektronische grootboekrekening](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
--   [Inflatiecorrectie-declaratierapport](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
--   [ISR-declaratierapport](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
--   [Elektronische facturen (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-
-### <a name="malaysia"></a>Maleisië
-
--   [Belasting op goederen en diensten (GST)](../../financials/localizations/apac-mys-gst.md)
-
-### <a name="netherlandsfinancialslocalizationsnetherlandsmd"></a>[Nederland](../../financials/localizations/netherlands.md)
-### <a name="norwayfinancialslocalizationsnorwaymd"></a>[Noorwegen](../../financials/localizations/norway.md)
-### <a name="polandfinancialslocalizationspolandmd"></a>[Polen](../../financials/localizations/poland.md)
-### <a name="saudi-arabia"></a>Saudi-Arabië
-
--   [Zakat-rapportage](../../financials/localizations/emea-sau-zakat-reporting.md)
-
-### <a name="singapore"></a>Singapore
-
--   [Het GST-05-rapport voor Singapore genereren](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
-
-### <a name="spainfinancialslocalizationsspainmd"></a>[Spanje](../../financials/localizations/spain.md)
-### <a name="swedenfinancialslocalizationsswedenmd"></a>[Zweden](../../financials/localizations/sweden.md)
-### <a name="switzerlandfinancialslocalizationsswitzerlandmd"></a>[Zwitserland](../../financials/localizations/switzerland.md)
-### <a name="thailand"></a>Thailand
-
--   [Voorraadkaartrapporten](../../financials/localizations/apac-tha-stock-card-reports.md)
--   [Vervanging/correctie van btw-factuur voor Thailand](../../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md)
--   [Niet-gerealiseerde btw](../../financials/localizations/apac-tha-unrealized-vat.md)
--   [Bronbelasting](../../financials/localizations/apac-tha-withholding-tax.md)
-
-### <a name="united-kingdomfinancialslocalizationsunited-kingdommd"></a>[Verenigd Koninkrijk](../../financials/localizations/united-kingdom.md)
-### <a name="united-states"></a>Verenigde Staten
-
--   [Formulier 1099 in de openbare sector](../../financials/localizations/noam-usa-form-1099-public-sector.md)   
--   [Verificatie van formulier I-9](../../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
--   [1099-eindejaarsrapportage](../../financials/localizations/noam-usa-year-end-1099-reporting.md)
--   [Payroll](../../fin-and-ops/hr/localizations/noam-usa-payroll.md)
--   [Openbare sector](../../financials/public-sector/public-sector-functionality.md)
 
 
 

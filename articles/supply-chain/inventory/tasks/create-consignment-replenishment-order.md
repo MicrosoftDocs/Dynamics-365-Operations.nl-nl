@@ -1,21 +1,22 @@
----
+--- 
 title: Een consignatieaanvullingsorder maken
 description: Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de verwachte levering van een leverancier in de consignatievoorraad kunt traceren.
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
@@ -60,7 +61,7 @@ Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de
 ## <a name="receive-items"></a>Artikelen ontvangen
 1. Klik op Productontvangstbon.
 2. Typ een waarde in het veld Externe productontvangstbon.
-3. Typ in het veld Hoeveelheid een aantal dat lager is dan het aantal dat hier wordt weergegeven.
+3. Typ in het veld Hoeveelheid een aantal dat lager is dan het aantal dat hier wordt weergegeven. 
 4. Klik op OK.
 
 ## <a name="check-the-on-hand-inventory"></a>Controleer de voorhanden voorraad
@@ -70,4 +71,5 @@ Deze procedure laat zien hoe u een consignatieaanvullingsorder maakt waarin u de
     * De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad. De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld Totaal van order.  
 4. Sluit de pagina.
 5. Klik op Sluiten.
+
 
