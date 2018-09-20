@@ -17,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
 ms.contentlocale: nl-nl
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -43,7 +43,7 @@ Met deze Power BI-inhoud kunt u ook productieafwijkingen analyseren. Productieaf
 De Power BI-inhoud **Productieprestaties** bevat gegevens die afkomstig zijn uit productieorders en batchorders. De rapporten bevatten geen gegevens die zijn gerelateerd aan kanbanproductie.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-De Power BI-inhoud **Productieprestaties** wordt weergegeven op de pagina **Productieprestaties** (**Productiebeheer** > **Query's en rapporten** > **Productieprestatieanalyse** > **Productieprestaties**). 
+De Power BI-inhoud **Productieprestaties** wordt weergegeven op de pagina **Productieprestaties** (**Productiebeheer** \> **Query's en rapporten** \> **Productieprestatieanalyse** \> **Productieprestaties**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 
@@ -51,8 +51,8 @@ De Power BI-inhoud **Productieprestaties** bevat een set rapportpagina's. Elke p
 
 In de volgende tabel vindt u een overzicht van de visualisaties die worden meegeleverd.
 
-| Rapportpagina                                | Diagrammen                                               | Tegels |
-|--------------------------------------------|------------------------------------------------------|-------|
+| Rapportpagina                                | Diagrammen | Tegels |
+|--------------------------------------------|--------|-------|
 | Productieprestaties                     | <ul><li>Aantal producties op datum</li><li>Aantal producties op product- en artikelgroep</li><li>Aantal geplande producties op datum</li><li>Onderste 10 producten op tijdigheid en volledigheid</li></ul> | <ul><li>Totaal orders</li><li>Percentage op tijd en volledig</li><li>Percentage onvolledig</li><li>Percentage te vroeg</li><li>Percentage te laat</li></ul> |
 | Defecten op product                         | <ul><li>Defectverhoudingen (ppm) op datum</li><li>Defectverhoudingen (ppm) op product- en artikelgroep</li><li>Geproduceerde hoeveelheid op datum</li><li>Top 10 van producten op defectverhouding</li></ul> | <ul><li>Defectverhoudingen (ppm)</li><li>Afwijkend aantal</li><li>Totale hoeveelheid</li></ul> |
 | Defectentrend op product                   | Defectverhouding (ppm) op geproduceerde hoeveelheid | Defectverhouding (ppm) |
@@ -88,35 +88,35 @@ In de volgende tabel ziet u hoe de belangrijkste samengevoegde metingen worden g
 
 | Maat                  | Hoe de meting wordt berekend |
 |--------------------------|-------------------------------|
-| Percentage productieafwijking   | SOM('Productieafwijking'[Productieafwijking]) / SOM('Productieafwijking'[Geschatte kosten]) |
+| Percentage productieafwijking   | SOM('Productieafwijking'\[Productieafwijking\]) / SOM('Productieafwijking'\[Geschatte kosten\]) |
 | Alle geplande orders       | COUNTROWS('Geplande productieorder') |
-| Te vroeg                    | COUNTROWS(FILTER('Geplande productieorder', 'Geplande productieorder'[Geplande einddatum] \< 'Geplande productieorder'[Behoeftedatum])) |
-| Te laat                     | COUNTROWS(FILTER('Geplande productieorder', 'Geplande productieorder'[Geplande einddatum] \> 'Geplande productieorder'[Behoeftedatum])) |
-| Op tijd                  | COUNTROWS(FILTER('Geplande productieorder', 'Geplande productieorder'[Geplande einddatum] = 'Geplande productieorder'[Behoeftedatum])) |
-| Percentage op tijd                | IF ( 'Geplande productieorder'[Op tijd] \<\> 0, 'Geplande productieorder'[Op tijd], IF ('Geplande productieorder'[Alle geplande orders] \<\> 0, 0, BLANK()) ) / 'Geplande productieorder'[Alle geplande orders] |
-| Voltooid                | COUNTROWS (FILTER ('Productieorder', 'Productieorder' [Is RAF'ed] = TRUE)) |
-| Defectverhoudingen (ppm)     | IF('Productieorder' [Totale hoeveelheid] = 0, BLANK(), (SUM('Productieorder' [Afwijkend aantal]) / 'Productieorder'[Totale hoeveelheid]) \* 1000000) |
-| Percentage vertraagde producties  | 'Productieorder'[Te laat \#] / 'Productieorder'[Voltooid] |
-| Te vroeg en volledig          | COUNTROWS(FILTER('Productieorder', 'Productieorder'[Is volledig] = TRUE && 'Productieorder'[Is te vroeg] = TRUE)) |
-| \# (aantal) te vroeg                 | COUNTROWS(FILTER('Productieorder', 'Productieorder'[Is te vroeg] = TRUE)) |
-| Percentage te vroeg                  | IFERROR( IF('Productieorder'[\# te vroeg] \<\> 0, 'Productieorder'[\# te vroeg], IF('Productieorder'[Totaal orders] = 0, BLANK(), 0)) / 'Productieorder'[Totaal orders], BLANK()) |
-| Onvolledig               | COUNTROWS(FILTER('Productieorder', 'Productieorder'[Is volledig] = FALSE && 'Productieorder'[Is RAF'ed] = TRUE)) |
-| Percentage onvolledig             | IFERROR( IF('Productieorder'[Onvolledig] \<\> 0, 'Productieorder'[Onvolledig], IF('Productieorder'[Totaal orders] = 0, BLANK(), 0)) / 'Productieorder'[Totaal orders], BLANK()) |
-| Is vertraagd               | 'Productieorder'[Is RAF'ed] = TRUE && 'Productieorder'[Waarde Vertraagd] = 1 |
-| Is te vroeg                 | 'Productieorder'[Is RAF'ed] = TRUE && 'Productieorder'[Dagen vertraagd] \< 0 |
-| Is volledig               | 'Productieorder'[Hoeveelheid goed] \>= 'Productieorder'[Geplande hoeveelheid] |
-| Is RAF'ed                | 'Productieorder'[Productiestatuswaarde] = 5 \|\| 'Productieorder'[Productiestatuswaarde] = 7 |
-| Laat & volledig           | COUNTROWS(FILTER('Productieorder', 'Productieorder'[Is volledig] = TRUE && 'Productieorder'[Is vertraagd] = TRUE)) |
-| \# (aantal) te laat                  | COUNTROWS(FILTER('Productieorder', 'Productieorder'[Is vertraagd] = TRUE)) |
-| Percentage te laat                   | IFERROR( IF('Productieorder'[Te laat \#] \<\> 0, 'Productieorder'[\# te laat], IF('Productieorder'[Totaal orders] = 0, BLANK(), 0)) / 'Productieorder'[Totaal orders], BLANK()) |
-| Op tijd en volledig        | COUNTROWS(FILTER('Productieorder', 'Productieorder'[Is volledig] = TRUE && 'Productieorder'[Is vertraagd] = FALSE && 'Productieorder'[Is te vroeg] = FALSE)) |
-| Percentage op tijd en volledig      | IFERROR( IF('Productieorder'[Tijdig & volledig] \<\> 0, 'Productieorder'[Tijdig & volledig], IF('Productieorder'[Voltooid] = 0, BLANK(), 0)) / 'Productieorder'[Voltooid], BLANK()) |
+| Te vroeg                    | COUNTROWS(FILTER('Geplande productieorder', 'Geplande productieorder'\[Geplande einddatum\] \< 'Geplande productieorder'\[Behoeftedatum\])) |
+| Te laat                     | COUNTROWS(FILTER('Geplande productieorder', 'Geplande productieorder'\[Geplande einddatum\] \> 'Geplande productieorder'\[Behoeftedatum\])) |
+| Op tijd                  | COUNTROWS(FILTER('Geplande productieorder', 'Geplande productieorder'\[Geplande einddatum\] = 'Geplande productieorder'\[Behoeftedatum\])) |
+| Percentage op tijd                | IF ( 'Geplande productieorder'\[Op tijd\] \<\> 0, 'Geplande productieorder'\[Op tijd\], IF ('Geplande productieorder'\[Alle geplande orders\] \<\> 0, 0, BLANK()) ) / 'Geplande productieorder'\[Alle geplande orders\] |
+| Ingevuld                | COUNTROWS(FILTER ('Productieorder', 'Productieorder'\[Is RAF'ed\] = TRUE)) |
+| Defectverhoudingen (ppm)     | IF('Productieorder'\[Totale hoeveelheid\] = 0, BLANK(), (SUM('Productieorder'\[Afwijkend aantal]\]) / 'Productieorder'\[Totale hoeveelheid\]) \* 1000000) |
+| Percentage vertraagde producties  | 'Productieorder'\[Te laat \#\] / 'Productieorder'\[Voltooid\] |
+| Te vroeg en volledig          | COUNTROWS(FILTER('Productieorder', 'Productieorder'\[Is volledig\] = TRUE && 'Productieorder'\[Is te vroeg\] = TRUE)) |
+| \# (aantal) te vroeg                 | COUNTROWS(FILTER('Productieorder', 'Productieorder'\[Is te vroeg\] = TRUE)) |
+| Percentage te vroeg                  | IFERROR( IF('Productieorder'\[Te vroeg\#\] \<\> 0, 'Productieorder'\[Te vroeg\#\], IF('Productieorder'\[Totaal orders\] = 0, BLANK(), 0)) / 'Productieorder'\[Totaal orders\], BLANK()) |
+| Incompleet               | COUNTROWS(FILTER('Productieorder', 'Productieorder'\[Is volledig\] = FALSE && 'Productieorder'\[Is RAF'ed\] = TRUE)) |
+| Percentage onvolledig             | IFERROR( IF('Productieorder'\[Onvolledig\]\<\> 0, 'Productieorder'\[Onvolledig\], IF('Productieorder'\[Totaal orders\] = 0, BLANK(), 0)) / 'Productieorder'\[Totaal orders\], BLANK()) |
+| Is vertraagd               | 'Productieorder'\[Is RAF'ed\] = TRUE && 'Productieorder'\[Waarde Vertraagd\] = 1 |
+| Is te vroeg                 | 'Productieorder'\[Is RAF'ed\] = TRUE && 'Productieorder'\[Dagen vertraagd\] \< 0 |
+| Is volledig               | 'Productieorder'\[Hoeveelheid goed\] \>= 'Productieorder'\[Geplande hoeveelheid\] |
+| Is RAF'ed                | 'Productieorder'\[Productiestatuswaarde\] = 5 \|\| 'Productieorder'\[Productiestatuswaarde\] = 7 |
+| Laat & volledig           | COUNTROWS(FILTER('Productieorder', 'Productieorder'\[Is volledig\] = TRUE && 'Productieorder'\[Is vertraagd\] = TRUE)) |
+| \# (aantal) te laat                  | COUNTROWS(FILTER('Productieorder', 'Productieorder'\[Is vertraagd\] = TRUE)) |
+| Percentage te laat                   | IFERROR( IF('Productieorder'\[Te laat \#\] \<\> 0, 'Productieorder'\[Te laat \#\], IF('Productieorder'\[Totaal orders\] = 0, BLANK(), 0)) / 'Productieorder'\[Totaal orders\], BLANK()) |
+| Op tijd en volledig        | COUNTROWS(FILTER('Productieorder', 'Productieorder'\[Is volledig\] = TRUE && 'Productieorder'\[Is vertraagd\] = FALSE && 'Productieorder'\[Is te vroeg\] = FALSE)) |
+| Percentage op tijd en volledig      | IFERROR( IF('Productieorder'\[Tijdig & volledig\] \<\> 0, 'Productieorder'\[Tijdig & volledig\], IF('Productieorder'\[Voltooid\] = 0, BLANK(), 0)) / 'Productieorder'\[Voltooid\], BLANK()) |
 | Totaal orders             | COUNTROWS('Productieorder') |
-| Totale hoeveelheid           | SUM('Productieorder'[Hoeveelheid goed]) + SUM('Productieorder'[Afwijkend aantal]) |
-| Defectverhouding (ppm)        | IF( 'Routetransacties'[Hoeveelheid verwerkt] = 0, BLANK(), (SUM('Routetransacties'[Afwijkend aantal]) / 'Routetransacties'[Hoeveelheid verwerkt]) \* 1000000) |
-| Defectverhouding gemengd (ppm) | IF( 'Routetransacties'[Totale gemengde hoeveelheid] = 0, BLANK(), (SUM('Routetransacties'[Afwijkend aantal]) / 'Routetransacties'[Totale gemengde hoeveelheid]) \* 1000000) |
-| Verwerkte hoeveelheid       | SUM('Routetransacties'[Hoeveelheid goed]) + SUM('Routetransacties'[Afwijkend aantal]) |
-| Totale gemengde hoeveelheid     | SUM('Productieorder'[Hoeveelheid goed]) + SUM('Routetransacties'[Afwijkend aantal]) |
+| Totale hoeveelheid           | SUM('Productieorder'\[Goede hoeveelheid\]) + SUM('Productieorder'\[Afwijkend aantal\]) |
+| Defectverhouding (ppm)        | IF( 'Routetransacties'\[Hoeveelheid verwerkt\] = 0, BLANK(), (SUM('Routetransacties'\[Afwijkend aantal\]) / 'Routetransacties'\[Hoeveelheid verwerkt\]) \* 1000000) |
+| Defectverhouding gemengd (ppm) | IF( 'Routetransacties'\[Totale gemengde hoeveelheid\] = 0, BLANK(), (SUM('Routetransacties'\[Afwijkend aantal\]) / 'Routetransacties'\[Totale gemengde hoeveelheid\]) \* 1000000) |
+| Verwerkte hoeveelheid       | SUM('Routetransacties'\[Goede hoeveelheid\]) + SUM('Routetransacties'\[Afwijkend aantal\]) |
+| Totale gemengde hoeveelheid     | SUM('Productieorder'\[Goede hoeveelheid\]) + SUM('Routetransacties'\[Afwijkend aantal\]) |
 
 In de volgende tabel ziet u de belangrijke dimensies die worden gebruikt als filters voor het segmenteren van de samengevoegde metingen, zodat u een grotere mate van granulatie en analytischere inzichten kunt bereiken.
 
@@ -130,6 +130,4 @@ In de volgende tabel ziet u de belangrijke dimensies die worden gebruikt als fil
 | Entiteiten                  | Id en Naam                                                   |
 | Resources                 | Resource-id, Resourcenaam, Resourcetype en Resourcegroep |
 | Producten                  | Productnummer, Productnaam, Artikel-id en Artikelgroep         |
-
-
 

@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 532834b377cfb8eda4902c387a850314302b22d8
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,13 +39,12 @@ De Power BI-inhoud **Vergoedingen** wordt weergegeven in het werkgebied **Vergoe
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
 De rapporten die zijn opgenomen in de Power BI-inhoud **Vergoedingen** bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.
 
-| Rapport                       | Inhoud                                                                                       |
-|------------------------------|------------------------------------------------------------------------------------------------|
-| Overzicht van inschrijving op vergoedingen  | Plannen waarvoor het meest en het minst wordt ingeschreven, inschrijving per werknemersgroep en geselecteerde opties voor vergoedingsplannen |
-| Werknemersvergoedingen            | Werknemersinschrijving op basis van geselecteerde vergoeding                                                        |
-                                                                                             
-U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over het filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+| Rapport                      | Inhoud                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------|
+| Overzicht van inschrijving op vergoedingen | Plannen waarvoor het meest en het minst wordt ingeschreven, inschrijving per werknemersgroep en geselecteerde opties voor vergoedingsplannen |
+| Werknemersvergoedingen           | Werknemersinschrijving op basis van geselecteerde vergoeding                                                        |
 
+U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over het filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 De volgende gegevens wordt gebruikt om de rapporten in de Power BI-inhoud **Vergoedingen** in te vullen. Deze tabel bevat de entiteiten waarop de inhoud is gebaseerd.
@@ -72,6 +71,4 @@ De volgende gegevens wordt gebruikt om de rapporten in de Power BI-inhoud **Verg
 | Naam van werknemer            | Voornaam, achternaam en volledige naam                                                                       | Huidige werknemer, Ontslagen werknemer, Trend werknemer |
 | Werknemertitel           | Titel en anciënniteitsdatum                                                                                   | Huidige werknemer, Ontslagen werknemer, Trend werknemer |
 | Trend werknemer           | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                                        | Bedrijf, Compensatie, Geografische locatie, Werknemersnaam, Rapporteert aan, Kalender-offset, Datum, Werknemertitel, Demografische gegevens, Aanstelling, Functie, Vergoedingen |
-
-
 

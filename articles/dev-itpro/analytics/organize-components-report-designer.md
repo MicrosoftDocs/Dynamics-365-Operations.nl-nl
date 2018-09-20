@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7207febc58dbab1df5551ae0f74ad74d9ced8e56
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,73 +35,72 @@ Nadat u bouwstenen hebt ontworpen en rapporten hebt gegenereerd, is het handig o
 U kunt de naam van mappen, rapporten, bouwstenen en andere objecten in Report Designer wijzigen om te helpen uw bestanden in te delen. Afhankelijk van het type object waarvan u de naam wijzigt, moet u mogelijk koppelingen met dat object bijwerken.
 
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>De naam van een map of bouwsteen wijzigen in Report Designer
-In Report Designer kunt u de naam van mappen, rapportdefinities, rijdefinities, kolomdefinities en rapportagestructuurdefinities wijzigen. **Opmerking:** wanneer u de naam van een bouwsteen wijzigt, moet u rapportagedefinities bijwerken die gebruikmaken van de bouwsteen. Anders kan geen nieuw rapport worden gegenereerd.
+In Report Designer kunt u de naam van mappen, rapportdefinities, rijdefinities, kolomdefinities en rapporteringsstructuurdefinities wijzigen.
+
+> [!NOTE]
+> Wanneer u de naam van een bouwsteen wijzigt, moet u rapportagedefinities bijwerken die gebruikmaken van de bouwsteen. Anders kan geen nieuw rapport worden gegenereerd.
 
 ### <a name="rename-a-folder-or-building-block-in-report-designer"></a>De naam van een map of bouwsteen wijzigen in Report Designer
 
-1.  Gebruik in Report Designer het navigatievenster om de map of het object te zoeken waarvan u de naam wilt wijzigen.
-2.  Klik met de rechtermuisknop op de map of het object en klik vervolgens op **Naam wijzigen**. Het veld **Naam** in het navigatievenster komt beschikbaar.
-3.  Typ een nieuwe naam en druk vervolgens op Enter.
-4.  Als de bouwsteen een rijdefinitie, kolomdefinitie of rapportagestructuurdefinitie is, moet u andere bouwstenen bijwerken die hieraan zijn gekoppeld. Klik met de rechtermuisknop op de bouwsteen waarvan u de naam hebt gewijzigd in stap 3, selecteer **Koppelingen** en selecteer vervolgens een item in de lijst om het bij te werken.
-5.  Herhaal stap 4 tot alle gekoppelde artikelen zijn bijgewerkt.
+1. Gebruik in Report Designer het navigatievenster om de map of het object te zoeken waarvan u de naam wilt wijzigen.
+2. Klik met de rechtermuisknop op de map of het object en klik vervolgens op **Naam wijzigen**. Het veld **Naam** in het navigatievenster komt beschikbaar.
+3. Typ een nieuwe naam en druk vervolgens op Enter.
+4. Als de bouwsteen een rijdefinitie, kolomdefinitie of rapportagestructuurdefinitie is, moet u andere bouwstenen bijwerken die hieraan zijn gekoppeld. Klik met de rechtermuisknop op de bouwsteen waarvan u de naam hebt gewijzigd in stap 3, selecteer **Koppelingen** en selecteer vervolgens een item in de lijst om het bij te werken.
+5. Herhaal stap 4 tot alle gekoppelde artikelen zijn bijgewerkt.
 
 ## <a name="create-and-manage-report-groups"></a>Rapportgroepen maken en beheren
 U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. Als u rapportgroepen wilt maken, wijzigen, verwijderen en genereren, moet u de rol van ontwerper of beheerder hebben. Gebruikers die de rol van generator hebben, kunnen rapportgroepen genereren en kunnen ook de instelling van gebruikerrapportdefinities wijzigen voor rapportgroepen.
 
 ### <a name="create-a-report-group"></a>Een rapportgroep maken
 
-1.  Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
-2.  Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Rapportgroep") op de werkbalk.
-3.  Klik op het tabblad **Rapportgroep**. Als u de informatie over de afzonderlijke rapportdefinities wilt negeren voor het genereren van dit rapport, schakelt u het selectievakje **Instellingen voor bedrijf, details en datum uit individuele rapportdefinities negeren** in. De bedrijfsnaam, het detailniveau, voorlopige instellingen en datumgegevens worden automatisch ingevuld, maar u kunt wel updates uitvoeren.
-4.  Als u meerdere rapporten wilt genereren die de aangiftevaluta tonen, schakelt u het selectievakje **Alle aangiftevaluta opnemen** in. U kunt vervolgens meerdere weergaven openen door op de knop **Valuta** te klikken in de Web Viewer wanneer u het rapport weergeeft.
-5.  Klik in het veld **Rapporten in groep** op **Toevoegen** om de rapporten te selecteren die u in de rapportgroep wilt opnemen. Als u meerdere rapporten wilt selecteren in het dialoogvenster **Toevoegen**, houdt u de toets Ctrl ingedrukt terwijl u rapporten selecteert. Wanneer u klaar bent met het selecteren van rapporten, klikt u op **OK**.
-6.  Klik op **Bestand** &gt; **Opslaan** om de nieuwe rapportgroep op te slaan.
+1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
+2. Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Rapportgroep") op de werkbalk.
+3. Klik op het tabblad **Rapportgroep**. Als u de informatie over de afzonderlijke rapportdefinities wilt negeren voor het genereren van dit rapport, schakelt u het selectievakje **Instellingen voor bedrijf, details en datum uit individuele rapportdefinities negeren** in. De bedrijfsnaam, het detailniveau, voorlopige instellingen en datumgegevens worden automatisch ingevuld, maar u kunt wel updates uitvoeren.
+4. Als u meerdere rapporten wilt genereren die de aangiftevaluta tonen, schakelt u het selectievakje **Alle aangiftevaluta opnemen** in. U kunt vervolgens meerdere weergaven openen door op de knop **Valuta** te klikken in de Web Viewer wanneer u het rapport weergeeft.
+5. Klik in het veld **Rapporten in groep** op **Toevoegen** om de rapporten te selecteren die u in de rapportgroep wilt opnemen. Als u meerdere rapporten wilt selecteren in het dialoogvenster **Toevoegen**, houdt u de toets Ctrl ingedrukt terwijl u rapporten selecteert. Wanneer u klaar bent met het selecteren van rapporten, klikt u op **OK**.
+6. Klik op **Bestand** &gt; **Opslaan** om de nieuwe rapportgroep op te slaan.
 
 ### <a name="modify-a-report-group"></a>Een rapportgroep wijzigen
 
-1.  Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
-2.  Dubbelklik op de rapportgroep die u wilt wijzigen.
-3.  Breng de gewenste wijzigingen aan op het tabblad **Rapportgroep**.
-4.  Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Opslaan") in de werkbalk.
+1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
+2. Dubbelklik op de rapportgroep die u wilt wijzigen.
+3. Breng de gewenste wijzigingen aan op het tabblad **Rapportgroep**.
+4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Opslaan") in de werkbalk.
 
-**Opmerking:** als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
+> Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
 
 ### <a name="generate-a-report-group-report"></a>Een rapportgroeprapport genereren
 
-1.  Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
-2.  Open de rapportgroep die u wilt genereren.
-3.  Klik op de knop **Rapport genereren** ![Rapport genereren](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Rapport genereren") om rapporten te genereren.
+1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
+2. Open de rapportgroep die u wilt genereren.
+3. Klik op de knop **Rapport genereren** ![Rapport genereren](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Rapport genereren") om rapporten te genereren.
 
 ### <a name="delete-a-report-group"></a>Een rapportgroep verwijderen
 
-1.  Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
-2.  Klik met de rechtermuisknop op de rapportgroep die u wilt verwijderen en selecteer vervolgens **Verwijderen**.
-3.  Wanneer een bevestigingsbericht wordt weergegeven, klikt u op **Ja**.
+1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
+2. Klik met de rechtermuisknop op de rapportgroep die u wilt verwijderen en selecteer vervolgens **Verwijderen**.
+3. Wanneer een bevestigingsbericht wordt weergegeven, klikt u op **Ja**.
 
 ## <a name="report-group-tab-controls"></a>Besturingselementen op tabblad Rapportgroep
 De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad **Rapportgroep**.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Controle</th>
 <th>Beschrijving</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Instellingen voor bedrijf, gegevens en datum uit afzonderlijke rapportdefinities negeren</td>
 <td>Schakel dit selectievakje in om afzonderlijke rapportdefinities van de rapporten in deze rapportgroep te negeren voor alleen artikelgeneratie van deze rapporten.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Bedrijfsnaam</td>
 <td>Selecteer het bedrijf dat u voor de rapporten wilt gebruiken.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Detailniveau</td>
 <td>Geef het gewenste detailniveau op voor de rapporten.
 <ul>
@@ -110,7 +109,7 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 <li><strong>Financieel, rekening &amp; transactie</strong> − Een rapport dat een samenvatting op hoog niveau en transactiegegevens bevat.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Voorlopig</td>
 <td>Geef de gewenste typen activiteit op voor de rapporten.
 <ul>
@@ -119,11 +118,11 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 <li><strong>Alleen niet-geboekte activiteit</strong>− Alleen de transacties worden opgenomen die in uw financiële gegevens zijn ingevoerd, maar nog niet geboekt.</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Alle aangiftevaluta opnemen</td>
 <td>Alle extra aangiftevaluta's die in uw Microsoft Dynamics ERP-systeem zijn geconfigureerd, worden deze hier vermeld. Schakel dit selectievakje in om extra rapporten te genereren in de valuta's die worden aangegeven. Deze rapporten kunnen vervolgens in de Web Viewer worden bekeken door te klikken op de knop <strong>Valuta</strong> en dan een valuta te selecteren.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Datumgegevens die niet zijn opgeslagen met rapportdefinitie</td>
 <td><ul>
 <li>Basisperiode</li>
@@ -132,14 +131,14 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 </ul>
 Alleen standaardinstellingen voor de basisperiode worden opgeslagen met de rapportdefinitie.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Datumgegevens die zijn opgeslagen met rapportdefinitie</td>
 <td><ul>
 <li>Rapportdatum</li>
 <li>Standaardbasisperiode</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Rapporten in groep</td>
 <td>U kunt in de rapportgroep rapporten toevoegen, verwijderen en herschikken.
 <ul>
@@ -151,13 +150,7 @@ Alleen standaardinstellingen voor de basisperiode worden opgeslagen met de rappo
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
-
-
-
 

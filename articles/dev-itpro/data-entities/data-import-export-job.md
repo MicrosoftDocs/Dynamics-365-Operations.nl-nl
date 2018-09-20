@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -66,13 +66,11 @@ U kunt specifieke entiteiten toevoegen aan een import- of exporttaak of een sjab
 ### <a name="set-the-data-format-for-the-job"></a>De gegevensindeling voor de taak instellen
 Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens die worden geëxporteerd of geïmporteerd. U definieert indelingen via de tegel **Instelling van gegevensbronnen**. Een brongegevensindeling is een combinatie van **Type**, **Vestandsindeling**, **Scheidingsteken rij** en **Scheidingsteken voor kolommen**. Er zijn ook andere kenmerken, maar dit zijn de belangrijkste. In de volgende tabel staan de geldige combinaties.
 
-| **Bestandsindeling**        | **Scheidingsteken rij/kolom**                   | **XML-stijl**             |
+| Bestandsindeling            | Scheidingsteken rij/kolom                       | XML-stijl                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-N.v.t.                     |
 | XML                    | \-N.v.t.                                      | XML-element XML-kenmerk |
 | Gescheiden, vaste breedte | Komma, puntkomma, tab, verticale streep, dubbele punt | \-N.v.t.                     |
-
-
 
 ### <a name="sequence-the-entities"></a>De volgorde van de entiteiten bepalen
 Entiteiten kunnen worden geordend in een gegevenssjabloon of in import- en exporttaken. Wanneer u een taak met meer dan één gegevensentiteit uitvoert, moet u ervoor zorgen dat de gegevensentiteiten correct zijn geordend. U stelt voornamelijk een volgorde voor entiteiten in als er functionele afhankelijkheden tussen entiteiten bestaan. Als entiteiten geen functionele afhankelijkheden hebben, kunnen ze worden gepland voor parallel importeren of exporteren.

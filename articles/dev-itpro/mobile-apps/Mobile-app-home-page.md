@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b9cdb2b2c2b5aaf7743cd2cd0dbfee6c602a5a46
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -138,9 +138,10 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 <td>8</td>
 <td>Gebruiker</td>
 <td>Download en installeer de mobiele app.</td>
-<td><ul>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">Voor Android-telefoons</a></li>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">Voor iPhones</a></li></ul>
+<td>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Unified Operations-app voor Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Unified Operations-app voor iOS</a><BR/>
+(Windows Phone wordt niet ondersteund)
 </td>
 </tr>
 <tr class="odd">

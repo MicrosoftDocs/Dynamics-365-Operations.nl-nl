@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Voordat u begint, moet u het Power BI-rapport dat u in het werkgebied wilt inslu
 Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio projectartefact.
 
 1. Maak een nieuw project in het juiste model.
-2. Selecteer het project in Solution Explorer, klik met de rechtermuisknop en selecteer **Toevoegen** > **Nieuw artikel**.
+2. Selecteer het project in Solution Explorer, klik met de rechtermuisknop en selecteer **Toevoegen** \> **Nieuw artikel**.
 3. Selecteer in het dialoogvenster **Nieuw artikel toevoegen** onder **Operations-artefacten** de sjabloon **Resource**.
 4. Voer een naam in die wordt gebruikt als referentie voor het rapport in X ++-metagegevens en klik vervolgens op **Toevoegen**.
 
@@ -77,7 +77,7 @@ Volg deze stappen om de formulierdefinitie voor het werkgebied **Reserveringsbeh
 
 1. Open de formulierontwerper om de ontwerpdefinitie uit te breiden.
 2. Selecteer in de ontwerpdefinitie het bovenste element met de naam **Ontwerp | Patroon: Werkgebied Operationeel**.
-3. Klik met de rechtermuisknop en selecteer vervolgens **Nieuw** > **Tabblad** om een nieuw besturingselement toe te voegen met de naam **FormTabControl1**.
+3. Klik met de rechtermuisknop en selecteer vervolgens **Nieuw** \> **Tabblad** om een nieuw besturingselement toe te voegen met de naam **FormTabControl1**.
 4. Selecteer **FormTabControl1** in de formulierontwerper.
 5. Klik met de rechtermuisknop en selecteer **Nieuwe tabbladpagina** om een nieuwe tabbladpagina toe te voegen.
 6. Wijzig de naam van de tabpagina in iets herkenbaars, zoals **Werkgebied**.
@@ -86,12 +86,12 @@ Volg deze stappen om de formulierdefinitie voor het werkgebied **Reserveringsbeh
 9. Wijzig de naam van de tabbladpagina in iets herkenbaars, zoals **Analyses**.
 10. Selecteer in de formulierontwerper **Analyses (tabbladpagina)**.
 11. Stel de eigenschap **Bijschrift** in op **Analyses**.
-12. Klik met de rechtermuisknop en selecteer vervolgens **Nieuw** > **Groep** om een besturingselement voor een nieuwe formuliergroep toe te voegen.
+12. Klik met de rechtermuisknop en selecteer vervolgens **Nieuw** \> **Groep** om een besturingselement voor een nieuwe formuliergroep toe te voegen.
 13. Wijzig de naam van de formuliergroepin iets herkenbaars, zoals **powerBIReportGroup**.
 14. Selecteer in de formulierontwerper **PanoramaBody (tabblad)** en sleep het besturingselement naar het tabblad **Werkgebied**.
 15. Selecteer in de ontwerpdefinitie het bovenste element met de naam **Ontwerp | Patroon: Werkgebied Operationeel**.
 16. Klik met de rechtermuisknop en selecteer **Patroon verwijderen**.
-17. Klik nogmaals met de rechtermuisknop en selecteer **Patroon toevoegen** > **Werkgebied met tabbladen**.
+17. Klik nogmaals met de rechtermuisknop en selecteer **Patroon toevoegen** \> **Werkgebied met tabbladen**.
 18. Voer een build uit om uw wijzigingen te controleren.
 
 In de volgende afbeelding ziet u hoe het ontwerp eruitziet nadat deze wijzigingen zijn toegepast.
@@ -103,7 +103,7 @@ U hebt nu de besturingselementen voor het formulier toegevoegd die worden gebrui
 > [!NOTE]
 > Voor ingesloten werkgebieden kunt u het beste uitbreidingen gebruiken om de pagina's **Filtervenster** en **Tabblad** te verbergen vanwege de consistentie.
 
-U hebt nu de taak voor het uitbreiden van de formulierdefinitie van de toepassing voltooid. Voor meer informatie over het gebruik van uitbreidingen en aanpassingen zie[Aanpassen met extensies en overlayering](../extensibility/customization-overlayering-extensions.md).
+U hebt nu de taak voor het uitbreiden van de formulierdefinitie van de toepassing voltooid. Voor meer informatie over het gebruik van uitbreidingen en aanpassingen zie [Aanpassen met extensies en overlayering](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++-bedrijfslogica toevoegen om een besturingselement voor weergave in te sluiten
 Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het rapportweergave-besturingselement dat is ingesloten in het werkgebied **Reserveringsbeheer**.
@@ -116,7 +116,7 @@ Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ Deze sectie bevat informatie over de helperklasse die wordt gebruikt om een Powe
 #### <a name="syntax"></a>Syntaxis
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Parameters
 
-|       Naam       |                                                              Omschrijving                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    De naam van de .pbix-resource.                                                     |
-| formGroupControl |                                    Het besturingselement van de formuliergroep waarop het Power BI-rapportbesturingselement wordt toegepast.                                     |
-| defaultPageName  |                                                         De standaardpaginanaam.                                                         |
-|  showFilterPane  |   Een Booleaanse waarde die aangeeft of het filtervenster moet worden weergegeven (<strong>true</strong>) of verborgen (<strong>false</strong>).   |
-|   showNavPane    | Een Booleaanse waarde die aangeeft of het navigatievenster moet worden weergegeven (<strong>true</strong>) of verborgen (<strong>false</strong>). |
-|  defaultFilters  |                                              De standaardfilters voor het Power BI-rapport.                                              |
-
+| Naam             | Omschrijving                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | De naam van de .pbix-resource.                                                                              |
+| formGroupControl | Het besturingselement van de formuliergroep waarop het Power BI-rapportbesturingselement wordt toegepast.                                              |
+| defaultPageName  | De standaardpaginanaam.                                                                                       |
+| showFilterPane   | Een Booleaanse waarde die aangeeft of het filtervenster moet worden weergegeven (**true**) of verborgen (**false**).     |
+| showNavPane      | Een Booleaanse waarde die aangeeft of het navigatievenster moet worden weergegeven (**true**) of verborgen (**false**). |
+| defaultFilters   | De standaardfilters voor het Power BI-rapport.                                                                 |
 

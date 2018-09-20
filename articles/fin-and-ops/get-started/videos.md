@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 
 #### <a name="data-integration"></a>Gegevensintegratie
 - [Integratie van prospect tot contant geld](https://youtu.be/AVV9x5x-XCg) 
-- [Een werkorder tussen Dynamics 365 for Field Service en Finance and Operations synchroniseren](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [Een werkorder tussen Dynamics 365 for Field Service en Finance and Operations synchroniseren](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Gegevensbeheer
 - [Gegevensentiteiten en gegevenspakketten in Dynamics 365 for Finance and Operations gebruiken](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -61,6 +61,7 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 
 #### <a name="intelligence"></a>Intelligence
 - [Bring Your Own Database (BYOD) naar Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Power BI-inhoud Kostenbeheer in Dynamics 365 gebruiken](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 - [Activabibliotheek in Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -93,6 +94,9 @@ Video's worden weergegeven op basis van functie, dus blader omlaag om de volledi
 - [Batchverdeling](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [Verbeteringen in het vrijgaveproces van productieorders](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [Visuele planning met Gantt-diagram voor productie- en batchorders](https://youtu.be/BtbuShkGj4I)
+
+#### <a name="tax-engine"></a>Belastingberekenfunctie
+- [Overzicht van belastingberekenfunctie](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>Magazijnbeheer
 - [Productieverzameling vrijgeven aan het magazijn in batch](https://youtu.be/8urAJn50dQ8)

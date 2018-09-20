@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: a271887c4d2cfe4d0ee6518482dc4ebe407ebe56
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,7 @@ ER ondersteunt op dit moment de indelingen TEKST, XML, Microsoft Word-document e
 De ER-engine biedt de volgende mogelijkheden:
 
 - De engine vertegenwoordigt een enkel, gedeeld hulpmiddel voor elektronische rapportage in verschillende domeinen en vervangt meer dan 20 verschillende engines waarmee op enigerlei wijz elektronische rapportage voor Microsoft Dynamics 365 for Finance and Operations wordt uitgevoerd.
-- De engine zorgt ervoor dat de indeling van een rapport losstaat van de huidige implementatie van Dynamics 365 for Finance and Operations. Met andere woorden, de indeling is van toepassing op verschillende versies van Dynamics 365 for Finance and Operations.
+- De engine zorgt ervoor dat de indeling van een rapport losstaat van de huidige implementatie van Finance and Operations. Met andere woorden, de indeling is van toepassing op verschillende versies van Dynamics 365 for Finance and Operations.
 - De engine ondersteunt het maken van een aangepaste indeling die is gebaseerd op een oorspronkelijke indeling. Dit omvat ook mogelijkheden voor het automatisch uitvoeren van een upgrade van de aangepaste indeling wanneer er wijzigingen in de oorspronkelijke indeling optreden wegens vereisten voor localisatie of aanpassing.
 - Het wordt het primaire standaardhulpmiddel voor ondersteuning van lokalisatiebehoeften bij elektronische rapportage, zowel voor Microsoft als voor Microsoft-partners;
 - Het ondersteunt de mogelijkheid om indelingen te verspreiden onder partners en klanten via Microsoft Dynamics-Lifecycle Services (LCS).
@@ -63,8 +63,8 @@ Een bedrijfsentiteit van een gegevensmodel wordt voorgesteld als een container (
 
 Een enkel gegevensmodelonderdeel kan verschillende hiërarchieën met domeinspecifieke zakelijke entiteiten bevatten. Het kan ook modeltoewijzingen bevatten, die ondersteuning bieden voor een bepaalde rapportspecifiek gegevensstroom tijdens runtime. De hiërarchieën worden onderscheiden op basis van een enkele record die is geselecteerd als basis voor modeltoewijzing. Zo ondersteunt bijvoorbeeld het gegevensmodel van het gebied van het betalingsdomein mogelijk de volgende toewijzingen:
 
-- Bedrijf > Leverancier > Betalingstransacties van het crediteurendomein
-- Klant -> Bedrijf -> Betalingstransacties van het debiteurendomein
+- Bedrijf \> Leverancier \> Betalingstransacties van het debiteurendomein
+- Klant \> Bedrijf \> Betalingstransacties van het crediteurendomein
 
 Houd er rekening mee dat zakelijke entiteiten zoals Bedrijf en Betalingstransacties slechts één keer worden ontworpen. Vervolgens worden zij opnieuw gebruikt door verschillende toewijzingen.
 
@@ -74,7 +74,7 @@ Een modeltoewijzing die ondersteuning biedt voor uitgaande elektronische documen
 - Er worden gebruikerinvoerparameters ondersteund die kunnen worden gedefinieerd als gegevensbronnen voor een gegevnsmodel wanneer bepaalde gegevens moeten worden opgegeven tijdens de uitvoering.
 - Hij biedt ondersteuning voor de transformatie van Dynamics 365 for Finance and Operations-gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules, zoals hieronder afgebeeld. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md).
 
-[![Formuleontwerper](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
+[![Formuleontwerper](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Een modeltoewijzing die ondersteuning biedt voor inkomende elektronische documenten, heeft de volgende mogelijkheden:
 
@@ -175,7 +175,7 @@ Vereiste opslagplaatsen voor **LCS-projecten** kunnen afzonderlijk worden geregi
 ## <a name="supported-scenarios"></a>Ondersteunde scenario's
 ### <a name="building-a-data-model"></a>Een gegevensmodel maken
 
-ER biedt een modelontwerper waarmee u een gegevensmodel kunt maken voor een bepaald bedrijfsdomein. Alle domeinspecifieke bedrijfsentiteiten, en de relaties hiertussen, kunnen als een hiërarchische structuur worden voorgesteld in een gegevensmodel. In de volgende afbeelding ziet u een voorbeeld van dit type gegevensmodel (het gegevensmodel van het betalingsdomein). 
+ER biedt een modelontwerper waarmee u een gegevensmodel kunt maken voor een bepaald bedrijfsdomein. Alle domeinspecifieke bedrijfsentiteiten, en de relaties hiertussen, kunnen als een hiërarchische structuur worden voorgesteld in een gegevensmodel. In de volgende afbeelding ziet u een voorbeeld van dit type gegevensmodel (het gegevensmodel van het betalingsdomein).
 
 [![Domeingegevensmodel Betalingen](./media/ER-overview-04.png)](./media/ER-overview-04.png)
 
@@ -185,19 +185,18 @@ Speel de taakbegeleiding **ER Ontwerp domeinspecifiek gegevensmodel** af (onderd
 
 De inhoud van een gegevensmodel (labels en omschrijvingen) kan worden vertaald in andere talen die in Finance and Operations worden ondersteund. Mogelijk wilt u inhoud van een gegevensmodel vertalen om de volgende redenen:
 
--   Tijdens het ontwerpproces om de inhoud begrijpelijker te maken voor ontwerpers van indelingen die een andere taal spreken en die het gegevensmodel gebruiken voor gegevenstoewijzing van indelingscomponenten.
--   Maak tijdens de uitvoering de inhoud gebruiksvriendelijker door aanwijzingen en help te presenteren voor uitvoeringsparameters en tevens geconfigureerde validatieberichten (fouten en waarschuwingen) in de taal die de voorkeur heeft van de aangemelde gebruiker.
+- Tijdens het ontwerpproces om de inhoud begrijpelijker te maken voor ontwerpers van indelingen die een andere taal spreken en die het gegevensmodel gebruiken voor gegevenstoewijzing van indelingscomponenten.
+- Maak tijdens de uitvoering de inhoud gebruiksvriendelijker door aanwijzingen en help te presenteren voor uitvoeringsparameters en tevens geconfigureerde validatieberichten (fouten en waarschuwingen) in de taal die de voorkeur heeft van de aangemelde gebruiker.
 
-In de volgende afbeelding ziet u een voorbeeld waarin de inhoud van een gegevensmodel is vertaald vanuit het Engels naar het Japans. 
+In de volgende afbeelding ziet u een voorbeeld waarin de inhoud van een gegevensmodel is vertaald vanuit het Engels naar het Japans.
 
 [![Inhoud van gegevensmodel in Engels](./media/ER-overview-05.png)](./media/ER-overview-05.png)
 
 [![Inhoud van gegevensmodel vertaald in Japans](./media/ER-overview-06.png)](./media/ER-overview-06.png)
 
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Gegevensmodeltoewijzingen voor uitgaande documenten configureren
 
-ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke Finance ande Operations-gegevensbronnen. Op basis van de toewijzing worden de gegevens geïmporteerd tijdens de uitvoering vanuit de geselecteerde gegevensbronnen in het gegevensmodel. Het gegevensmodel wordt vervolgens gebruikt als een abstracte gegevensbron van ER-indelingen die uitgaande elektronische documenten genereren. De volgende afbeelding laat een voorbeeld zien van dit type gegevensmodeltoewijzing (de modeltoewijzing **SEPA-kredietoverdracht** van het domeingegevensmodel voor betaling). 
+ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke Finance ande Operations-gegevensbronnen. Op basis van de toewijzing worden de gegevens geïmporteerd tijdens de uitvoering vanuit de geselecteerde gegevensbronnen in het gegevensmodel. Het gegevensmodel wordt vervolgens gebruikt als een abstracte gegevensbron van ER-indelingen die uitgaande elektronische documenten genereren. De volgende afbeelding laat een voorbeeld zien van dit type gegevensmodeltoewijzing (de modeltoewijzing **SEPA-kredietoverdracht** van het domeingegevensmodel voor betaling).
 
 [![Voorbeeld van een gegevensmodeltoewijzing ](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 
@@ -210,13 +209,13 @@ ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Een ontworpen modelonderdeel opslaan als modelconfiguratie
 
-ER kan een ontworpen gegevensmodel samen met gekoppelde gegevenstoewijzingen opslaan als een modelconfiguratie van het huidige Finance and Operations-exemplaar. In de volgende afbeelding wordt een voorbeeld getoond van dit type gegevensmodelconfiguratie (de configuratie van het betalingsmodel). 
+ER kan een ontworpen gegevensmodel samen met gekoppelde gegevenstoewijzingen opslaan als een modelconfiguratie van het huidige Finance and Operations-exemplaar. In de volgende afbeelding wordt een voorbeeld getoond van dit type gegevensmodelconfiguratie (de configuratie van het betalingsmodel).
 
 Speel de taakbegeleiding **ER Wijs gegevensmodel toe aan geselecteerde gegevensbronnen** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Een indeling maken die een gegevensmodel als basis gebruikt
 
-ER ondersteunt een indelingsontwerper die u kunt gebruiken om de indeling van een elektronisch document te maken voor een geselecteerd bedrijfsdomein door het modelonderdeel als basis te selecteren. Dezelfde ER-indelingsontwerper stelt u in staat een indeling als gegevensbron toe te wijzen die u maakt voor de gegevensmodeltoewijzing van een geselecteerd domein. In de volgende afbeelding wordt een voorbeeld weergegeven van dit type indeling (de indelingsconfiguratie die de **BACS**-betalingsindeling voor het Verenigd Koninkrijk ondersteunt). 
+ER ondersteunt een indelingsontwerper die u kunt gebruiken om de indeling van een elektronisch document te maken voor een geselecteerd bedrijfsdomein door het modelonderdeel als basis te selecteren. Dezelfde ER-indelingsontwerper stelt u in staat een indeling als gegevensbron toe te wijzen die u maakt voor de gegevensmodeltoewijzing van een geselecteerd domein. In de volgende afbeelding wordt een voorbeeld weergegeven van dit type indeling (de indelingsconfiguratie die de **BACS**-betalingsindeling voor het Verenigd Koninkrijk ondersteunt).
 
 [![Voorbeeld van een indeling die een gegevensmodel als basis heeft](./media/ER-overview-09.png)](./media/ER-overview-09.png)
 
@@ -240,7 +239,7 @@ Speel de taakbegeleiding ER: een configuratie ontwerpen voor het genereren van r
 - [Sjabloon van betalingsrapport (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Gebonden sjabloon van betalingsrapport (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
-### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Een configuratie bouwen om gegevens te importeren vanuit inkomende elektronische documenten  
+### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Een configuratie bouwen om gegevens te importeren vanuit inkomende elektronische documenten
 De ER-indelingsontwerper kan worden gebruikt om een elektronisch document te beschrijven dat is gepland voor het importeren van gegevens in de indeling XML of tekst. De ontworpen indeling wordt gebruikt om inkomende documenten te parseren. De ER-indelingstoewijzingsontwerper kan worden gebruikt voor het definiëren van het binden van de elementen van de ontworpen indeling aan het gegevensmodel. In de volgende afbeeldingen ziet u een voorbeeld van dit type indeling en indelingstoewijzing. In dit voorbeeld worden NETS-bankafschriften geïmporteerd met betalingsgegevens van leveranciers in tekst zonder opmaak.
 
 [![ER-indelingsontwerper](./media/ER-overview-12.png)](./media/ER-overview-12.png)
@@ -260,7 +259,7 @@ ER kan een ontworpen indeling samen met de geconfigureerde gegevenstoewijzingen 
 
 ### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Finance and Operations configureren om een gemaakte indeling intern te gaan gebruiken
 
-Finance and Operations kan worden geconfigureerd voor gebruik van een gemaakte indeling om elektronische rapporten te genereren. De verwijzing naar de gemaakte indelingsconfiguratie moet worden gedefinieerd in de instellingen van een specifiek domein. Als u bijvoorbeeld een configuratie in ER-indeling wilt gaan gebruiken voor elektronische betalingen aan leveranciers in BACS-indeling, moet naar de indelingsconfiguratie worden verwezen in specifieke betalingsmethoden, zoals in de volgende afbeeldingen wordt weergegeven: 
+Finance and Operations kan worden geconfigureerd voor gebruik van een gemaakte indeling om elektronische rapporten te genereren. De verwijzing naar de gemaakte indelingsconfiguratie moet worden gedefinieerd in de instellingen van een specifiek domein. Als u bijvoorbeeld een configuratie in ER-indeling wilt gaan gebruiken voor elektronische betalingen aan leveranciers in BACS-indeling, moet naar de indelingsconfiguratie worden verwezen in specifieke betalingsmethoden, zoals in de volgende afbeeldingen wordt weergegeven:
 
 [![Configuratie in indeling BACS (UK)](./media/ER-overview-14.png)](./media/ER-overview-14.png)
 
@@ -367,15 +366,9 @@ Met ER kunt u automatisch wijzigingen in de meest recente versie van het basison
 |                                                  |                       | Aangifte van leveranciersfacturen (IS)                   | Indeling voor aangifte van leveranciersfacturen voor IJsland                      |
 |                                                  |                       | Rapport voor aangifte van leveranciersfacturen (IS)            | Rapport voor aangifte van leveranciersfacturen voor IJsland                      |
 
-
-
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Lokalisatievereisten – Een configuratie voor elektronische rapportage maken](electronic-reporting-configuration.md)
 
 [De levenscyclus van de configuratie van elektronische rapportage beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-
 

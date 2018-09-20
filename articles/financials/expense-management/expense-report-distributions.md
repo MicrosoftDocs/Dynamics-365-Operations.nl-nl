@@ -1,7 +1,7 @@
 ---
 title: Verdelingen in een onkostennota
 description: Wanneer u onkosten invoert in een onkostennota, kunt u de onkosten verdelen over meerdere projecten, rechtspersonen of rekeningenin uw organisatie.
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
@@ -12,16 +12,14 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: 00d051a8f644a6a0bedb0acc3eaac9a3dd1109e7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 
@@ -36,10 +34,10 @@ Bijvoorbeeld, Nancy, een vertegenwoordiger van Fabrikam, reisde van Kopenhagen n
 Aangezien Nancy in Frankfurt aan twee verschillende projecten heeft gewerkt, verdeelt zij haar onkosten zoals van toepassing voor elk project, wanneer zij haar onkostenrapport invoert. De volgende tabel geeft weer hoe Nancy haar onkosten verdeeld.
 
 
-| <strong>Onkostentype</strong> | <strong>Totaal bedrag onkosten</strong> | <strong>Bedrag verdeeld over project A</strong> | <strong>Bedrag verdeeld over project B</strong> |
-|-------------------------------|---------------------------------------|--------------------------------------------------|--------------------------------------------------|
-|          Treintarief           |                DKK 578                |                     DKK 405                      |                     DKK 173                      |
-|             Hotel             |                EUR 725                |                     EUR 557                      |                     EUR 168                      |
-|             Maaltijden             |                EUR 346                |                     EUR 284                      |                      EUR 62                      |
+| Onkostentype | Totaal bedrag onkosten|Bedrag verdeeld over project A| Bedrag verdeeld over project B |
+|--------------|---------------------|-------------------------------|---------------------------------|
+|Treintarief   |DKK 578              |DKK 405                        |DKK 173                          |
+|Hotel         |EUR 725              |EUR 557                        |EUR 168                          |
+|Maaltijden         |EUR 346              |EUR 284                        |EUR 62                           |
 
 

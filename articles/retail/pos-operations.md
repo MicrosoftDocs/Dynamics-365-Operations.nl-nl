@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ Opmerking: de onderstaande bewerkingen zijn van toepassing op de meest recente v
 | 707 | Apparaat activeren | Het huidige apparaat activeren door een geverifieerde gebruiker in staat te stellen verbindingsgegevens op te geven en een apparaat en kassa-id toe te wijzen. | Nee | Nee | Nee | Nee | Nee |
 | 134 | Aansluiting toevoegen | Een vooraf geselecteerde aansluiting toevoegen aan een transactie. Selecteer de aansluiting op de pagina **Knopeigenschappen**. | Ja | Ja | Nee | Ja | Nee |
 | 135 | Aansluiting toevoegen vanuit lijst | Een aansluiting toevoegen aan een transactie door deze te selecteren in een lijst. | Ja | Ja | Ja | Ja | Nee |
+| 137 | Een aansluiting aan een klant toevoegen | Voeg een aansluiting aan een klant toe op de pagina **Details klant**. | Nee | Nee | Nee | Ja | Nee |
+| 138 | Aansluiting van klant verwijderen | Verwijder een aansluiting van een klant op de pagina **Details klant**. | Nee | Nee | Nee | Ja | Nee |
 | 643 | Couponcode toevoegen | Een coupon toevoegen door de couponcode in te voeren in het POS. | Ja | Ja | Nee | Ja | Nee |
 | 117 | Loyaliteitskaart toevoegen | De gebruiker wordt gevraagd om het nummer van een loyaliteitskaart in te voeren, dat vervolgens wordt toegevoegd aan de huidige transactie. | Ja | Ja | Nee | Ja | Nee |
 | 136 | Serienummer toevoegen | Met deze bewerking kan de gebruiker een serienummer voor het geselecteerde product opgeven. | Ja | Ja | Nee | Ja | Nee |
