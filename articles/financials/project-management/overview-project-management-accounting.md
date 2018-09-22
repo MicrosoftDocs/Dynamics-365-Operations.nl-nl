@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/21/2018
 
 ---
 
@@ -35,7 +35,9 @@ ms.lasthandoff: 08/08/2018
 <span data-ttu-id="4960d-105">Een project is een groep van activiteiten die zijn ontworpen om in een service te bieden, een product te vervaardigen of een resultaat te bereiken.</span><span class="sxs-lookup"><span data-stu-id="4960d-105">A project is a group of activities that is designed to provide a service, produce a product, or achieve a result.</span></span> <span data-ttu-id="4960d-106">Projecten verbruiken resources en genereren financiële resultaten in de vorm van opbrengsten of activa.</span><span class="sxs-lookup"><span data-stu-id="4960d-106">Projects consume resources and generate financial results in the form of revenues or assets.</span></span>
 
 ## <a name="projects-across-industries"></a><span data-ttu-id="4960d-107">Projecten in de verschillende bedrijfstakken</span><span class="sxs-lookup"><span data-stu-id="4960d-107">Projects across industries</span></span>
-<span data-ttu-id="4960d-108">De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt, zoals u ziet in de volgende afbeelding.</span><span class="sxs-lookup"><span data-stu-id="4960d-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span> <span data-ttu-id="4960d-109">[![Projecten in verschillende bedrijfstakken](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="4960d-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
+<span data-ttu-id="4960d-108">De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt, zoals u ziet in de volgende afbeelding.</span><span class="sxs-lookup"><span data-stu-id="4960d-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span>
+
+<span data-ttu-id="4960d-109">[![Projecten in verschillende bedrijfstakken](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="4960d-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
 
 <span data-ttu-id="4960d-110">In een callcenter kan een ticket worden gebruikt om de set acties te beschrijven die zijn vereist om een probleem op te lossen.</span><span class="sxs-lookup"><span data-stu-id="4960d-110">In a call center, a ticket can be used to describe the set of actions that are required to resolve a call.</span></span> <span data-ttu-id="4960d-111">Adviserende bedrijven, zoals management- of technische adviesorganisaties of reclamebureaus, verwijzen naar hun activiteiten als projecten.</span><span class="sxs-lookup"><span data-stu-id="4960d-111">Consulting companies, such as management or technical consulting organizations or advertising agencies, refer to their activities as projects.</span></span> <span data-ttu-id="4960d-112">In marketing vertegenwoordigt een campagne een reeks werkzaamheden die moeten worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="4960d-112">In marketing, a campaign represents a set of work that must be delivered.</span></span> <span data-ttu-id="4960d-113">In op projecten gebaseerde productie heeft een productieorder betrekking op de verschillende werkzaamheden die moet worden uitgevoerd om bepaalde eindproducten te produceren.</span><span class="sxs-lookup"><span data-stu-id="4960d-113">In project-based manufacturing, a production order relates the various work that must be done to produce some finished goods.</span></span> <span data-ttu-id="4960d-114">Ongeacht welke naam ervoor wordt gebruikt, deze projecten betreffen resources, planningen en kosten, en het projectbeheer en de boekhoudingsfunctionaliteit in Microsoft Dynamics 365 for Finance and Operations kunnen helpen met de planning, de uitvoering en de analyse van deze projecten.</span><span class="sxs-lookup"><span data-stu-id="4960d-114">Whatever name is used for them, these projects involve resources, schedules, and costs, and the project management and accounting functionality in Microsoft Dynamics 365 for Finance and Operations can help with the planning, execution, and analysis of these projects.</span></span>
 
