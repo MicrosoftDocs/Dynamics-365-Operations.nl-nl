@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -37,21 +37,21 @@ Indelingconfiguraties voor Elektronische rapportage (ER) bevatten meestal minima
 ## <a name="availability-and-general-prerequisites"></a>Beschikbaarheid en algemene vereisten
 De functionaliteit ER-bestemmingen is niet beschikbaar in de versie van Microsoft Dynamics AX 7.0 (februari 2016). Daarom moet u Microsoft Dynamics 365 for Operations versie 1611 (november 2016) installeren om gebruik te kunnen maken van alle functies die in dit onderwerp worden beschreven. U kunt ook een van de volgende vereisten installeren. Houd er echter rekening mee dat dit alternatief een beperktere versie van ER-bestemmingen biedt.
 
--   Microsoft Dynamics AX-toepassing versie 7.0.1 (mei 2016)
--   [Toepassingshotfix](https://fix.lcs.dynamics.com/issue/results/?q=3160213) voor ER-bestemmingsbeheer
+- Microsoft Dynamics AX-toepassing versie 7.0.1 (mei 2016)
+- [Toepassingshotfix](https://fix.lcs.dynamics.com/issue/results/?q=3160213) voor ER-bestemmingsbeheer
 
 U kunt alleen bestemmingen instellen voor ER-configuraties die zijn geïmporteerd en voor de indelingen die beschikbaar zijn op de pagina **Configuraties van elektronische rapportage**.
 
 ## <a name="overview"></a>Overzicht
 De functionaliteit voor het beheer van ER-bestemmingen is beschikbaar onder **Organisatiebeheer** &gt; **Elektronische rapportage**. Hier kunt u het standaardgedrag voor een configuratie overschrijven. Geïmporteerde configuraties worden niet weergegeven totdat u op **Nieuw** klikt en vervolgens in het veld **Verwijzing** een configuratie selecteert waarvoor u bestemmingsinstellingen wilt maken.
 
-[![Een configuratie in het veld Verwijzing selecteren](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg) 
+[![Een configuratie in het veld Verwijzing selecteren](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg)
 
-Nadat u een verwijzing hebt gemaakt, kunt u een bestandsbestemming maken voor elke map of voor een bestand. 
+Nadat u een verwijzing hebt gemaakt, kunt u een bestandsbestemming maken voor elke map of voor een bestand.
 
 [![Een bestandsbestemming maken](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> [!NOTE] 
+> [!NOTE]
 > U kunt één bestandsbestemming maken voor elk uitvoeronderdeel met dezelfde indeling, zoals een map of een bestand, dat is geselecteerd in het veld **Bestandsnaam**. Vervolgens kunt u de afzonderlijke bestemmingen voor de bestandsbestemming in- en uitschakelen in het dialoogvenster **Bestemmingsinstellingen**. De knop **instellingen** wordt gebruikt voor het bepalen van alle bestemmingen voor een geselecteerde bestandsbestemming. In het dialoogvenster **Bestemmingsinstellingen** kunt u elke bestemming afzonderlijk bepalen door de optie **Ingeschakeld** hiervoor in te stellen.
 
 [![Dialoogvenster Bestemmingsinstellingen](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
@@ -73,7 +73,7 @@ Als u klikt op **Bewerken** voor het veld **Aan** of **Cc**, wordt het dialoogve
 
 Als u het type **E-mail van Afdrukbeheer** selecteert, kunt u vaste e-mailadressen invoeren in het veld **Aan**. Als u niet-vaste e-mailadressen wilt gebruiken, moet u het brontype voor e-mail selecteren voor een bestandsbestemming. De volgende waarden worden ondersteund: **Klant**, **Leverancier**, **Prospect**, **Contact**, **Concurrent**, **Werknemer**, **Sollicitant**, **Potentiële leverancier** en **Niet-toegestane leverancier**. Nadat u een e-mailbrontype hebt geselecteerd, gebruikt u de knop naast het veld **E-mail van bronrekening** om het formulier **Formuleontwerper** te openen. U kunt dit formulier gebruiken om een formule te koppelen die de geselecteerde partijrekening vertegenwoordigd voor de e-mailbestemming.
 
-[![E-mailtype afdrukbeheer configureren](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
+[![E-mailtype afdrukbeheer configureren](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg)
 
 Houd er rekening mee dat formules specifiek zijn voor de ER-configuratie. Voer in het veld **Formule** een documentspecifieke verwijzing naar een klant- of leverancierspartijtype in. In plaats van te typen kunt u ook het gegevensbronknooppunt zoeken waarmee de klant- of leveranciersrekening wordt voorgesteld. Klik vervolgens op **Gegevensbron toevoegen** om de formule bij te werken. Als u bijvoorbeeld de configuratie ISO 20022 Kredietoverdracht gebruikt, is het knooppunt waarmee een leveranciersrekening wordt voorgesteld **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Voer anders een tekenreekswaarde naar keuze in, zoals **DE-001**, om een formule op te slaan.
 
@@ -87,23 +87,27 @@ Klik in het dialoogvenster **E-mail naar** op de prullenbak naast het veld **E-m
 
 Gebruik dit e-mailtype als de configuratie die u gebruikt, een knooppunt heeft in de gegevensbronnen waarmee een e-mailadres wordt vertegenwoordigd. U kunt gegevensbronnen en functies in de Formuleontwerper gebruiken om een correct opgemaakt e-mailadres te krijgen.
 
-[![Een e-mailadresgegevensbron toewijzen voor een e-mailbestemming](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
+[![Een e-mailadresgegevensbron toewijzen voor een e-mailbestemming](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg)
 
-**Opmerking:** er moet een SMTP-server (Simple Mail Transfer Protocol) worden geconfigureerd en beschikbaar besteld. U kunt uw SMTP-server opgeven in Finance and Operations bij **Systeembeheer** &gt; **Instellen** &gt; **E-mail** &gt; **E-mailparameters**.
+> [!NOTE]
+> Er moet een SMTP-server (Simple Mail Transfer Protocol) worden geconfigureerd en beschikbaar besteld. U kunt uw SMTP-server opgeven in Finance and Operations bij **Systeembeheer** &gt; **Instellen** &gt; **E-mail** &gt; **E-mailparameters**.
 
 ### <a name="archive-destination"></a>Archiefbestemming
 
 Met deze optie kunt u uitvoer naar een Microsoft SharePoint-map of naar de opslag van Microsoft Azure verzenden. Stel **Ingeschakeld** in op **Ja** om uitvoer naar een bestemming te verzenden die is gedefinieerd door het geselecteerde documenttype. Alleen documenttypen waarvan de groep is ingesteld op **Bestand** zijn beschikbaar voor selectie. U definieert documenttypen onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Documenttypen**. De configuratie voor ER-bestemmingen is hetzelfde als de configuratie voor het documentbeheersysteem.
 
-[![Pagina Documenttypen](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
+[![Pagina Documenttypen](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
-De locatie bepaalt waar het bestand wordt opgeslagen. Nadat de bestemming **Archief** is ingeschakeld, kunnen de resultaten van de uitvoering van de configuratie worden opgeslagen in het taakarchief. U kunt de resultaten weergeven via **Organisatiebeheer** &gt; **Elektronische aangifte** &gt; **Gearchiveerde taken elektronische aangifte**. **Opmerking:** u kunt een documenttype voor het taakarchief in Finance and Operations selecteren via **Organisatiebeheer** &gt; **Werkgebieden** &gt; **Elektronische aangifte** &gt; **Elektronische rapportparameters**.
+De locatie bepaalt waar het bestand wordt opgeslagen. Nadat de bestemming **Archief** is ingeschakeld, kunnen de resultaten van de uitvoering van de configuratie worden opgeslagen in het taakarchief. U kunt de resultaten weergeven via **Organisatiebeheer** &gt; **Elektronische aangifte** &gt; **Gearchiveerde taken elektronische aangifte**.
+
+> [!NOTE]
+> U kunt een documenttype voor het taakarchief in Finance and Operations selecteren via **Organisatiebeheer** &gt; **Werkgebieden** &gt; **Elektronische aangifte** &gt; **Elektronische rapportparameters**.
 
 #### <a name="sharepoint"></a>SharePoint
 
-U kunt een bestand opslaan in een aangewezen SharePoint-map. U definieert de standaard SharePoint-server onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Parameters voor documentbeheer** op het tabblad **SharePoint**. Nadat de SharePoint-map is geconfigureerd, kunt u deze selecteren als de map waarin de ER-uitvoer wordt opgeslagen voor het documenttype. 
+U kunt een bestand opslaan in een aangewezen SharePoint-map. U definieert de standaard SharePoint-server onder **Organisatiebeheer** &gt; **Documentbeheer** &gt; **Parameters voor documentbeheer** op het tabblad **SharePoint**. Nadat de SharePoint-map is geconfigureerd, kunt u deze selecteren als de map waarin de ER-uitvoer wordt opgeslagen voor het documenttype.
 
-[![Een SharePoint-map selecteren](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
+[![Een SharePoint-map selecteren](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>Azure-opslag
 
@@ -119,7 +123,10 @@ Als u **Ingeschakeld** instelt op **Ja**, wordt een voorbeeld van de uitvoer gem
 
 ### <a name="power-bi-destination"></a>Power BI-bestemming
 
-Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Finance and Operations te voorzien](general-electronic-reporting-report-configuration-get-data-powerbi.md) voor meer informatie. **Tip:** als u het standaardgedrag wilt negeren (dat wil zeggen het dialoogvenster voor een configuratie), kunt u een bestemmingsverwijzing en een bestandsbestemming voor het hoofduitvoeronderdeel maken en vervolgens alle bestemmingen uitschakelen.
+Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw exemplaar van Finance and Operations over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Een configuratie van Elektronische rapportage gebruiken om Power BI van gegevens uit Finance and Operations te voorzien](general-electronic-reporting-report-configuration-get-data-powerbi.md) voor meer informatie.
+
+> [!TIP]
+> Als u het standaardgedrag wilt negeren (dat wil zeggen het dialoogvenster voor een configuratie), kunt u een bestemmingsverwijzing en een bestandsbestemming voor het hoofduitvoeronderdeel maken en vervolgens alle bestemmingen uitschakelen.
 
 ## <a name="security-considerations"></a>Beveiligingsoverwegingen
 Twee typen machtigingen en rechten worden gebruikt voor ER-bestemmingen. Eén type regelt de mogelijkheid om de algehele bestemmingen te onderhouden die worden geconfigureerd voor een rechtspersoon (dat wil zeggen, toegang tot de pagina **Bestemmingen voor elektronische rapportage** wordt beheerd). Het andere type regelt de mogelijkheid van een toepassingsgebruiker om, tijdens de uitvoering, de bestemmingsinstellingen die zijn geconfigureerd door een ER-ontwikkelaar of functionele ER-consultant te negeren.
@@ -158,7 +165,4 @@ Voorwaarde is dat uw indeling beschikbaar moet zijn in de ER-configuraties. Als 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van elektronische rapportage](general-electronic-reporting.md)
-
-
-
 

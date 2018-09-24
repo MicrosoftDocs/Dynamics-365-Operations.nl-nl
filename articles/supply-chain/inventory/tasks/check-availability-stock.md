@@ -1,7 +1,7 @@
 --- 
 title: De beschikbaarheid van voorraad controleren
 description: Deze procedure laat zien hoe u voorhanden en fysieke voorraad voor een specifiek artikelnummer kunt controleren.
-author: 
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process

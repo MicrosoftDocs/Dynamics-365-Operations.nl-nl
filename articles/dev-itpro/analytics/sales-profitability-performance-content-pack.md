@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,21 +36,21 @@ In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inho
 
 De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** is opgesteld zodat verkoopmanagers de belangrijkste verkoopmeetwaarden, namelijk opbrengst, brutowinst en winstmarge, kunnen controleren. Op basis van gegevens voor verkooptransacties biedt het zowel een samengevoegde weergave van de verkoopcijfers uit het hele bedrijf als ook een analyse van de verkoopprestaties voor klanten en producten.
 
-Rapporten markeren wijzigingen in opbrengst en winst die in de loop van de tijd optreden. Daarom kunnen de rapporten worden gebruikt om managers te wijzen op positieve en negatieve trends voor afzonderlijke klanten en producten. Bovendien vergelijken diagrammen de inkomsten en winstgevendheid van de verschillende productcategorieën en klantengroepen met elkaar. Zo kunnen categorie- en regiomanagers achterblijvers en leiders identificeren. Tenslotte geeft een uitgebreid rapport de omzet van een individuele klant ten opzichte van de winstmarge weer. Accountmanagers hebben daarmee een fundament op basis van gegevens, waarmee ze hun inspanningen voor verkoop en marketing op het profiel van elke klant kunnen afstemmen. 
+Rapporten markeren wijzigingen in opbrengst en winst die in de loop van de tijd optreden. Daarom kunnen de rapporten worden gebruikt om managers te wijzen op positieve en negatieve trends voor afzonderlijke klanten en producten. Bovendien vergelijken diagrammen de inkomsten en winstgevendheid van de verschillende productcategorieën en klantengroepen met elkaar. Zo kunnen categorie- en regiomanagers achterblijvers en leiders identificeren. Tenslotte geeft een uitgebreid rapport de omzet van een individuele klant ten opzichte van de winstmarge weer. Accountmanagers hebben daarmee een fundament op basis van gegevens, waarmee ze hun inspanningen voor verkoop en marketing op het profiel van elke klant kunnen afstemmen.
 
 Met het inhoudpakket **Verkoop- en winstgevendheidprestaties** kunnen verkoopmanagers verkoopprestaties analyseren op de volgende manieren:
 
--   Opbrengst, boekjaar tot heden (op klantengroep en individuele klanten, verkoopcategorieën en afzonderlijke producten en regio's)
--   Opbrengstwijziging, jaar op jaar (op klantenregio en verkoopcategorieën)
+- Opbrengst, boekjaar tot heden (op klantengroep en individuele klanten, verkoopcategorieën en afzonderlijke producten en regio's)
+- Opbrengstwijziging, jaar op jaar (op klantenregio en verkoopcategorieën)
 
 Winstgevendheid kan worden geanalyseerd op de volgende manieren:
 
--   Brutowinst en winstmarge (op klantengroepen en categorieën van productverkoop)
--   Wijziging brutowinst wijziging, jaar op jaar
--   Winstgevendheid klant (op opbrengst versus brutomarge)
+- Brutowinst en winstmarge (op klantengroepen en categorieën van productverkoop)
+- Wijziging brutowinst wijziging, jaar op jaar
+- Winstgevendheid klant (op opbrengst versus brutomarge)
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** wordt weergegeven op de pagina **Verkoop- en winstgevendheidsprestaties** (**Verkoop en marketing** > **Query's en rapporten** > **Verkoopprestatieanalyse** > **Verkoop- en winstgevendheidsprestaties**). 
+De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** wordt weergegeven op de pagina **Verkoop- en winstgevendheidsprestaties** (**Verkoop en marketing** \> **Query's en rapporten** \> **Verkoopprestatieanalyse** \> **Verkoop- en winstgevendheidsprestaties**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties die in de inhoud worden gebruikt.
@@ -77,19 +77,18 @@ De Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** bevat een rapport 
 
 \* Opbrengst dit jaar en vorig jaar en groei per verkoopcategorie.
 
-
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
-De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md). 
+De volgende gegevens wordt gebruikt om de rapportpagina's in de Power BI-inhoud **Verkoop- en winstgevendheidsprestaties** te vullen. Deze gegevens worden vertegenwoordigd door samengevoegde metingen die zijn klaargezet in de entiteitopslag. De entiteitopslag is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Overzicht Power BI-integratie met Entiteitopslag](power-bi-integration-entity-store.md).
 
-De samengevoegde metingen in deze inhoud zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Verkoop-cube in Microsoft Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
+De samengevoegde metingen in deze inhoud zijn de subset van de geaggregeerde metingen die beschikbaar waren in de Verkoop-cube in Microsoft Microsoft Dynamics AX 2012 en Microsoft Dynamics AX 2012 R3. Om de samengevoegde metingen uit de cube in de Entiteitopslag klaar te zetten, moet u ze implementeerbaar maken. Zie voor meer informatie hierover de procedure voor het klaarzetten van samengevoegde metingen in de Entiteitopslag in het blog-artikel [Power BI integration with Entity Store in Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 De volgende belangrijke samengevoegde metingen van de entiteit Factuurregels worden gebruikt als basis voor de inhoud.
 
-| Entiteit        | Belangrijke samengevoegde metingen                   | Gegevensbron voor Dynamics 365                    | Veld                                        | Omschrijving                                   |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
-| Factuurregels | Opbrengst                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Het bedrag in de valuta voor boekhouding.            |
-|               | Kosten van verkochte goederen                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | De som van het kostenbedrag en de correctie.    |
-|               | Provisieregelbedrag – valuta voor boekhouding | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Het provisiebedrag in de boekhoudvaluta. |
+| Entiteit        | Belangrijke samengevoegde metingen                   | Gegevensbron voor Dynamics 365 | Veld                                        | Omschrijving                                       |
+|---------------|----------------------------------------------|------------------------------|----------------------------------------------|---------------------------------------------------|
+| Factuurregels | Opbrengst                                      | CustInvoiceTrans             | SUM(LineAmountMST)                           | Het bedrag in de valuta voor boekhouding.            |
+|               | Kosten van verkochte goederen                           | InventTrans                  | SUM(CostAmountPosted + CostAmountAdjustment) | De som van het kostenbedrag en de correctie.    |
+|               | Provisieregelbedrag – valuta voor boekhouding | CustInvoiceTrans             | SUM(CommissAmountMST)                        | Het provisiebedrag in de boekhoudvaluta. |
 
 In de volgende tabel ziet u de belangrijkste samengevoegde metingen van de entiteit Factuurregel die worden gebruikt om verschillende berekende eenheden te maken in de gegevensset van de inhoud.
 

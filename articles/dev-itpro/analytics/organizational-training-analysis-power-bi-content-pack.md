@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 18567a3241fce02e17df368f544e545fad93e1d9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/23/2018
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt Power BI-inhoud voor organisatietraining in Finance and Operations beschreven. 
+In dit onderwerp wordt Power BI-inhoud voor organisatietraining in Finance and Operations beschreven.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Rapporten die zijn opgenomen in het inhoudpakket
 Nadat u het inhoudpakket aan uw Finance and Operations-gegevens hebt gekoppeld, geven de rapporten de gegevens van uw organisatie weer. Als u Microsoft Power BI nog niet eerder hebt gebruikt, raadpleegt u de pagina [Guided Learning for Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). De rapporten die zijn opgenomen in het inhoudpakket, bevatten diagrammen en tabellen met aanvullende informatie. De onderstaande tabel geeft een overzicht van de rapporten.
@@ -44,23 +44,19 @@ U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en te
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 Gegevens in Finance and Operations worden gebruikt voor het vullen van de rapporten in het inhoudpakket Organisatietraining. De volgende tabel bevat de entiteiten waarop het inhoudpakket is gebaseerd.
 
-| Entiteit                    | Inhoud                                                         | Relaties met andere entiteiten                                                                                                                                                                  |
-|---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Training\_CalendarOffset  | Kalenderverschuivingen om rapporten in te delen                                | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Company         | Bedrijven waarop rapporten moeten worden gefilterd                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Course          | Cursus, omschrijving, naam docent, locatie, lokaal en status | Training\_CourseAgenda Training\_CourseAttendees Training\_CourseSkill                                                                                                                             |
-| Training\_CourseAgenda    | Agenda, cursus en begin- en eindtijden                          | Training\_Company Training\_CalendarOffset Training\_Date Training\_Course                                                                                                                         |
-| Training\_CourseAttendees | Naam, status, functie en datum van aanmelding                         | Training\_Company Training\_CalendarOffset Training\_Date Training\_Demographics Training\_Employment Training\_Course Training\_WorkerName Training\_WorkerTitle Training\_Job Training\_Position |
-| Training\_CourseSkill     | Vaardigheden, vaardigheidstype en niveau                                     | Training\_Course                                                                                                                                                                                   |
-| Training\_Date            | Dagen, weken, maanden en jaren                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Demographics    | Geboortedatum, geslacht, etnische afkomst en burgerlijke staat         | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Employment      | Begindatum, einddatum en overgangsdatum                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Job             | Functie, type en titel                                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Position        | Positie, titel en voltijds equivalent (VTE)                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_WorkerName      | Voornaam, achternaam en volledige naam                             | Training\_CourseAttendees                                                                                                                                                                          |
-| Training\_WorkerTitle     | Titel en anciënniteitsdatum                                         | Training\_CourseAttendees                                                                                                                                                                          |
-
-
-
-
+| Entiteit                    | Inhoud                                                         | Relaties met andere entiteiten |
+|---------------------------|------------------------------------------------------------------|-----------------------------------|
+| Training\_CalendarOffset  | Kalenderverschuivingen om rapporten in te delen                                | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Company         | Bedrijven waarop rapporten moeten worden gefilterd                                   | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Course          | Cursus, omschrijving, naam docent, locatie, lokaal en status | Training\_CourseAgenda, Training\_CourseAttendees, Training\_CourseSkill |
+| Training\_CourseAgenda    | Agenda, cursus en begin- en eindtijden                          | Training\_Company, Training\_CalendarOffset, Training\_Date, Training\_Course |
+| Training\_CourseAttendees | Naam, status, functie en datum van aanmelding                         | Training\_Company, Training\_CalendarOffset, Training\_Date, Training\_Demographics, Training\_Employment, Training\_Course, Training\_WorkerName, Training\_WorkerTitle, Training\_Job, Training\_Position |
+| Training\_CourseSkill     | Vaardigheden, vaardigheidstype en niveau                                     | Training\_Course |
+| Training\_Date            | Dagen, weken, maanden en jaren                                   | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Demographics    | Geboortedatum, geslacht, etnische afkomst en burgerlijke staat         | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Employment      | Begindatum, einddatum en overgangsdatum                        | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Job             | Functie, type en titel                                        | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Position        | Positie, titel en voltijds equivalent (VTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_WorkerName      | Voornaam, achternaam en volledige naam                             | Training\_CourseAttendees |
+| Training\_WorkerTitle     | Titel en anciënniteitsdatum                                         | Training\_CourseAttendees |
 

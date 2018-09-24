@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,32 +36,27 @@ In dit onderwerp wordt beschreven wat is opgenomen in de Microsoft Power BI-inho
 
 De Power BI-inhoud **Analyse inkoopuitgaven** is ontworpen om inkoopmanagers en managers met budgetverantwoordelijkheid te helpen de inkoopuitgaven in de gaten te houden. Managers kunnen inkoopuitgaven op de volgende manieren analyseren:
 
--   Inkoop jaar tot heden (op leveranciersgroep en afzonderlijke leveranciers, aanschaffingscategorie en afzonderlijke producten en locatie van de leverancier)
--   Wijzigingen jaar tot jaar in inkoop (op leveranciersgroep en aanschaffingscategorie)
+- Inkoop jaar tot heden (op leveranciersgroep en afzonderlijke leveranciers, aanschaffingscategorie en afzonderlijke producten en locatie van de leverancier)
+- Wijzigingen jaar tot jaar in inkoop (op leveranciersgroep en aanschaffingscategorie)
 
 Op basis van gegevens voor inkooptransacties biedt de inhoud zowel een samengevoegde weergave van de inkoopcijfers uit het hele bedrijf als ook een analyse van de inkoopuitgaven op leverancier en product. Rapporten maken wijzigingen in de inkoopuitgaven in het verloop van de tijd duidelijk. Daarom kunnen de rapporten worden gebruikt om managers te wijzen op positieve en negatieve trends in de uitgaven voor afzonderlijke leveranciers en producten. Daarnaast geven grafieken de inkoopuitgaven weer voor verschillende inkoopcategorieën en leveranciersgroepen. Categorie- en regiomanagers kunnen met deze grafieken veranderingen in het uitgavegedrag opsporen.
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
-De Power BI-inhoud **Inkoopuitgavenanalyse** wordt weergegeven op de pagina **Inkoop- en uitgavenanalyse** (**Inkoopbeheer** > **Query's en rapporten** > **Inkoopprestatieanalyse** > **Inkoop- en uitgavenanalyse**). 
+De Power BI-inhoud **Inkoopuitgavenanalyse** wordt weergegeven op de pagina **Inkoop- en uitgavenanalyse** (**Inkoopbeheer** \> **Query's en rapporten** \> **Inkoopprestatieanalyse** \> **Inkoop- en uitgavenanalyse**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verzameling van metrische gegevens bestaat. Deze gegevens worden visueel weergegeven als diagrammen, tegels en tabellen. In de volgende tabel vindt u een overzicht van de visualisaties.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Rapportpagina</th>
 <th>Diagrammen</th>
 <th>Tegels</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Inkoop op leverancier</td>
 <td><ul>
 <li>Top 10-leveranciers op inkoop (gestapeld staafdiagram)</li>
@@ -76,7 +71,7 @@ De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verz
 <li>Totaal aantal actieve leveranciers</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Inkoop op product</td>
 <td><ul>
 <li>Inkoop per aanschaffingscategorie / productnaam (kolomdiagram)</li>
@@ -89,7 +84,7 @@ De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verz
 <li>Aantal producten dat 80% van inkoop oplevert</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Inkoop op periode*</td>
 <td><ul>
 <li>Inkoop op maand / dag (kolomdiagram)</li>
@@ -102,7 +97,7 @@ De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verz
 <li>Inkoopgroei jaar-op-jaar %</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Inkoop op leverancierlocatie</td>
 <td><ul>
 <li>Inkoop op stad</li>
@@ -111,7 +106,7 @@ De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verz
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Analyse inkoopuitgaven op tijd</td>
 <td><ul>
 <li>Inkoop huidige jaar op maand / dag (lijndiagram)</li>
@@ -119,7 +114,7 @@ De Power BI-inhoud **Analyse inkoopuitgaven** bevat een rapport dat uit een verz
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Analyse inkoopuitgaven op leverancier</td>
 <td><ul>
 <li>Top 10 leverancier inkoop % van inkoop (trechterdiagram)</li>

@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,34 @@ In dit onderwerp wordt de Microsoft Power BI-inhoud **Metrische gegevens persone
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
 De Power BI-inhoud **Metrische gegevens personeel** wordt weergegeven in het werkgebied **Personeelsbeheer** als u een van deze producten gebruikt:
 
-- Microsoft Dynamics 365 for Finance and Operations 
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metrische gegevens die zijn opgenomen in de Power BI-inhoud
 De volgende tabel bevat de metrische gegevens die in elk rapport worden weergegeven.
 
-| Rapport                                           | Metrische gegevens                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Metrische gegevens personeel                                   | Overzicht van andere rapporten                                                                                                                           |
-| Personeelsbezettingsanalyse per bedrijf, afdeling, locatie | Personeelsbezetting per bedrijf, personeelsbezetting per afdeling, personeelsbezetting per locatie en totale personeelsbezetting                                                                                                                           |
-| Personeelsbezettingsanalyse per functie, schaal, manager            | Personeelsbezetting per functie, personeelsbezetting per schaal, personeelsbezetting per manager en totale personeelsbezetting                                                                                                                                      |
-| Trendanalyse personeelsbezetting                         | Personeelsbezetting van dit jaar versus vorig jaar per bedrijf en huidige personeelsbezetting voor de afgelopen 12 maanden                                                                                                                        |
+| Rapport                                           | Metrische gegevens |
+|--------------------------------------------------|---------|
+| Metrische gegevens personeel                                   | Overzicht van andere rapporten |
+| Personeelsbezettingsanalyse per bedrijf, afdeling, locatie | Personeelsbezetting per bedrijf, personeelsbezetting per afdeling, personeelsbezetting per locatie en totale personeelsbezetting |
+| Personeelsbezettingsanalyse per functie, schaal, manager            | Personeelsbezetting per functie, personeelsbezetting per schaal, personeelsbezetting per manager en totale personeelsbezetting |
+| Trendanalyse personeelsbezetting                         | Personeelsbezetting van dit jaar versus vorig jaar per bedrijf en huidige personeelsbezetting voor de afgelopen 12 maanden |
 | FTE-analyse                                     | Totale FTE (Fulltime Equivalent), totale toegewezen FTE, FTE per afdeling, FTE voor de afgelopen 12 maanden en FTE per functie |
 | Demografische gegevens personeel                           | Personeelsbezetting op leeftijd en geslacht, personeelsbezetting op etnische afkomst, personeelsbezetting op veteraanstatus, personeelsbezetting op burgerlijke staat, het aantal fulltime studenten, gemiddelde diensttijd, gemiddelde leeftijd, verhouding van vrouwelijke en mannelijke werknemers en talen die door werknemers worden gesproken |
-| Positieanalyse                                | Openstaande posities per afdeling, openstaande-tot-ingevulde posities, actieve-tot-inactieve posities en posities per afdeling                                                                                                   |
-| Verloopanalyse                               | Verloop van dit jaar versus vorig jaar, verloop, werknemers die weggaan op basis van leeftijd en geslacht, gemiddelde diensttijd van mensen die weggaan, werknemers die deze maand weggaan en werknemers die weggaan op basis van reden                                                                   |
-| Mensen per afdeling                             | Werknemers met een personeelsnummer per afdeling, positie en begin- en einddatum van toewijzing                                                                                                                       |
-| Analyse dienstjaren                               | Gemiddeld diensttijd, gemiddeld aantal dienstjaren per bedrijf en anciënniteitslijst                                                                                                                                                              |
-| Jubilea van werknemers                           | Jubilea in deze maand, jubilea in de volgende maand, werknemers op basis van aantal dienstjaren, en jubilea en aantal dienstjaren per afdeling                                                                                                                                                                    |
-| Verjaardagen van werknemers                               | Verjaardagen in deze maand, verjaardagen in de volgende maand, verjaardagen van werknemers en verjaardagen per maand en afdeling                                                                                                                                                                    |
-| Projecten voor massaal aanstellen                               | Totaal aantal projecten voor massaal aanstellen, projecten voor massaal aanstellen op basis van status, projecten voor massaal aanstellen per afdeling en eigenaar, projecten voor massaal aanstellen per functie en projecten voor massaal aanstellen                                                                                                                                                                    |
+| Positieanalyse                                | Openstaande posities per afdeling, openstaande-tot-ingevulde posities, actieve-tot-inactieve posities en posities per afdeling |
+| Verloopanalyse                               | Verloop van dit jaar versus vorig jaar, verloop, werknemers die weggaan op basis van leeftijd en geslacht, gemiddelde diensttijd van mensen die weggaan, werknemers die deze maand weggaan en werknemers die weggaan op basis van reden |
+| Mensen per afdeling                             | Werknemers met een personeelsnummer per afdeling, positie en begin- en einddatum van toewijzing |
+| Analyse dienstjaren                               | Gemiddeld diensttijd, gemiddeld aantal dienstjaren per bedrijf en anciënniteitslijst |
+| Jubilea van werknemers                           | Jubilea in deze maand, jubilea in de volgende maand, werknemers op basis van aantal dienstjaren, en jubilea en aantal dienstjaren per afdeling |
+| Verjaardagen van werknemers                               | Verjaardagen in deze maand, verjaardagen in de volgende maand, verjaardagen van werknemers en verjaardagen per maand en afdeling |
+| Projecten voor massaal aanstellen                               | Totaal aantal projecten voor massaal aanstellen, projecten voor massaal aanstellen op basis van status, projecten voor massaal aanstellen per afdeling en eigenaar, projecten voor massaal aanstellen per functie en projecten voor massaal aanstellen |
 
 U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en tegels op het dashboard vastmaken. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Let erop dat u de Power BI-inhoud **Metrische gegevens personeel** downloadt die geldt voor de versie van Microsoft Dynamics 365 die u gebruikt.
 
->[!NOTE]
->De .pbix-bestanden die beschikbaar zijn in Lifecycle Services, zijn alleen van toepassing op Finance and Operations.
+> [!NOTE]
+> De .pbix-bestanden die beschikbaar zijn in Lifecycle Services, zijn alleen van toepassing op Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 De volgende tabel bevat de entiteiten waarop de inhoud is gebaseerd.
@@ -88,6 +88,4 @@ De volgende tabel bevat de entiteiten waarop de inhoud is gebaseerd.
 | Trend werknemer           | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                 | Bedrijf, Geografische locatie, Werknemersnaam, Rapporteert aan, Kalender-offset, Datum, Werknemertitel, Demografische gegevens, Aanstelling, Functie |
 | Project voor massaal aanstellen        | Aantal projecten voor massaal aanstellen, projecteigenaar en projectstatus                     | Bedrijf, Regel voor massaal aanstellen. |
 | Regel voor massaal aanstellen           | Afdeling, type dienstverband en positie                                           | Datum, Functie, Project voor massaal aanstellen |
-
-
 

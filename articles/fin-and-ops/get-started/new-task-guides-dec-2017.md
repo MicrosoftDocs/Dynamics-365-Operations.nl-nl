@@ -25,6 +25,8 @@ ms.lasthandoff: 08/08/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>Nieuwe of bijgewerkte taakbegeleidingen (december 2017)
 
+[!include [banner](../includes/banner.md)]
+
 In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (december 2016, alle talen) voor Microsoft Dynamics 365 for Operations.
 
 

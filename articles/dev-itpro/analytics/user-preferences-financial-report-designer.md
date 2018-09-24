@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aanpassen van uw gebruikersinteracties in Ontwerper financiële rapporten en de ervaring bij eerste aanmelding bepaalt. U kunt ook bepalen hoe afzonderlijke rapporten, de rapportbibliotheek en de standaardbestandslocaties worden weergegeven. 
+In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aanpassen van uw gebruikersinteracties in Ontwerper financiële rapporten en de ervaring bij eerste aanmelding bepaalt. U kunt ook bepalen hoe afzonderlijke rapporten, de rapportbibliotheek en de standaardbestandslocaties worden weergegeven.
 
-<a name="set-user-preferences"></a>Gebruikersvoorkeuren instellen
---------------------
+## <a name="set-user-preferences"></a>Gebruikersvoorkeuren instellen
 
-1.  Klik in Report Designer in het menu **Extra** op **Opties**.
-2.  Selecteer uw voorkeur in het dialoogvenster **Opties**.
-3.  Klik tot slot op **OK**.
+1. Klik in Report Designer in het menu **Extra** op **Opties**.
+2. Selecteer uw voorkeur in het dialoogvenster **Opties**.
+3. Klik tot slot op **OK**.
 
 ## <a name="options-dialog-box-options"></a>Opties in het dialoogvenster Opties
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>De optie Gebruiker</th>
 <th>Omschrijving</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Bij opstarten</td>
 <td>Selecteer wat u ziet wanneer Report Designer wordt gestart. Een van de volgende opties selecteren:
 <ul>
@@ -57,28 +56,22 @@ In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aa
 <li><strong>Lege omgeving weergeven</strong> – Open een leeg venster van de ontwerpfunctie.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Bevestiging weergeven voordat Report Designer afsluit</td>
 <td>Selecteer of u een waarschuwingsbericht wilt ontvangen wanneer u de toepassing afsluit. Dit bericht helpt te garanderen dat u niet per ongeluk het programma afsluit.</td>
 </tr>
-<tr class="odd">
-<td>Automatisch cellen in kolomkoppen onderstrepen</td>
+<tr>
+<td>Automatisch onderstrepen van cellen toepassen in kolomkoppen</td>
 <td>Selecteer of u een onderstreping wilt invoegen in de cel van een nieuwe kolomkop.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Management Reporter-bestandenlocatie</td>
 <td>Geef de standaardlocatie voor bestanden op. De toepassing gebruikt de standaardlocatie wanneer u bouwsteengroepen exporteert.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
-
-
-
 

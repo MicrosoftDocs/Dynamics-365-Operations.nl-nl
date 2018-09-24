@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Alle bedragen in de inhoud worden weergegeven in de systeemvaluta. U kunt de sys
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud verkrijgen
 
 De Power BI-inhoud **Praktijkbeheerder** wordt weergegeven in het werkgebied **Projectbeheer**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Rapporten die zijn opgenomen in de Power BI-inhoud
 
@@ -85,8 +84,7 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 
 | Belangrijke samengevoegde meting | Veld                                             | Omschrijving |
 |---------------------------|---------------------------------------------------|-------------|
-| Aantal projecten        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Het aantal beschikbare projecten. |
-
+| Aantal projecten        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Het aantal beschikbare projecten. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Entiteit: ProjectAccountingCube\_Forecasts
 **Gegevensbron**: ProjTransBudget
@@ -109,18 +107,16 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 
 | Belangrijke samengevoegde meting    | Veld | Omschrijving |
 |------------------------------|-------|-------------|
-| Kostenprestatie-index       | ProjectAccountingCube\_Projects[Verdiende waarde] ÷ ProjectAccountingCube\_Projects[Totale werkelijke kosten van voltooide taken] | De berekening van de totale verdiende waarde gedeeld door de totale werkelijke kosten. |
-| Planningsprestatie-index   | ProjectAccountingCube\_Projects[Verdiende waarde] ÷ ProjectAccountingCube\_Projects[Totale geplande kosten van voltooide taken] | De berekening van de totale verdiende waarde gedeeld door de totale geplande kosten. |
-| Percentage werk voltooid | Percentage voltooid werk = ProjectAccountingCube\_Projects[Totale werkelijke kosten van voltooide taken] ÷ (ProjectAccountingCube\_Projects[Totale werkelijke kosten van voltooide taken] + ProjectAccountingCube\_Projects[Totale geplande kosten van project] – ProjectAccountingCube\_Projects[Totale geplande kosten van voltooide taken]) | Het totaal percentage voltooid werk op basis van de totale werkelijke kosten van voltooide taken en de geplande kosten van het project |
-| Werkelijke factureerbare urenverhouding  | ProjectAccountingCube\_Projects[Totale werkelijke factureerbare gebruikte uren van project] ÷ (ProjectAccountingCube\_Projects[Totale werkelijke factureerbare gebruikte uren van project] + ProjectAccountingCube\_Projects[Totale werkelijke factureerbare lasturen van project]) | Het totale aantal factureerbare werkelijke uren, op basis van de gebruikte uren en de lasturen. |
-| Verdiende waarde                 | ProjectAccountingCube\_Projects[Totale geplande kosten van project] × ProjectAccountingCube\_Projects[Percentage voltooid werk] | De totale geplande kosten, vermenigvuldigd met het percentage voltooid werk. |
+| Kostenprestatie-index       | ProjectAccountingCube\_Projects\[Verdiende waarde\] ÷ ProjectAccountingCube\_Projects\[Totale werkelijke kosten van voltooide taken\] | De berekening van de totale verdiende waarde gedeeld door de totale werkelijke kosten. |
+| Planningsprestatie-index   | ProjectAccountingCube\_Projects\[Verdiende waarde\] ÷ ProjectAccountingCube\_Projects\[Totale geplande kosten van voltooide taken\] | De berekening van de totale verdiende waarde gedeeld door de totale geplande kosten. |
+| Percentage werk voltooid | Percentage voltooid werk = ProjectAccountingCube\_Projects\[Totale werkelijke kosten van voltooide taken\] ÷ (ProjectAccountingCube\_Projects\[Totale werkelijke kosten van voltooide taken\] + ProjectAccountingCube\_Projects\[Totale geplande kosten van project\] – ProjectAccountingCube\_Projects\[Totale geplande kosten van voltooide taken\]) | Het totaal percentage voltooid werk op basis van de totale werkelijke kosten van voltooide taken en de geplande kosten van het project |
+| Werkelijke factureerbare urenverhouding  | ProjectAccountingCube\_Projects\[Totale werkelijke factureerbare gebruikte uren van project\] ÷ (ProjectAccountingCube\_Projects\[Totale werkelijke factureerbare gebruikte uren van project\] + ProjectAccountingCube\_Projects\[Totale werkelijke factureerbare lasturen van project\]) | Het totale aantal factureerbare werkelijke uren, op basis van de gebruikte uren en de lasturen. |
+| Verdiende waarde                 | ProjectAccountingCube\_Projects\[Totale geplande kosten van project\] × ProjectAccountingCube\_Projects\[Percentage voltooid werk\] | De totale geplande kosten, vermenigvuldigd met het percentage voltooid werk. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entiteit: ProjectAccountingCube\_TotalEstimatedCosts 
 **Gegevensbron**: ProjTable
 
-
-|    Belangrijke samengevoegde meting    |        Veld        |                                          Omschrijving                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Belangrijke samengevoegde meting       | Veld               | Omschrijving |
+|---------------------------------|---------------------|-------------|
 | Geplande kosten voltooide activiteit | Sum(TotalCostPrice) | De totale kostprijs in ramingen voor alle projecttransactietypen met voltooide taken. |
-
 

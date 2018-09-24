@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 De Microsoft Power BI-inhoud van **Kostenbeheer** is bedoeld voor voorraadboekhouders of personen in de organisatie die verantwoordelijk zijn voor of belang hebben bij de status van de voorraad of onderhanden werk (OHW), of die verantwoordelijk zijn voor of belang hebben bij het analyseren van afwijkingen voor standaardkosten.
 
-> [!Note]
+> [!NOTE]
 > De Power BI-inhoud voor **Kostenbeheer** die wordt beschreven in dit onderwerp, geldt voor Dynamics 365 voor Finance and Operations 8.0.
 > 
 > Het Power BI-inhoudpakket voor **Kostenbeheer** dat beschikbaar is gepubliceerd op de site AppSource, is afgeschaft. Zie voor meer informatie hierover [Power BI-inhoudpakketten beschikbaar op AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ De volgende tabellen bevatten een overzicht van de visualisaties in de Power BI-
 |                                         | Top 10 resources op ongunstige productieafwijkingen  |
 |                                         | Top 10 resources op gunstige productieafwijkingen    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
+## <a name="understanding-the-data-model-and-entities"></a>Het gegevensmodel en de gegevensentiteiten begrijpen
 
 Gegevens uit Microsoft Dynamics 365 voor Finance and Operations wordt gebruikt voor het vullen van de rapportpagina's in de Power BI-inhoud voor **Kostenbeheer**. Deze gegevens worden vertegenwoordigd als samengevoegde metingen die worden klaargezet in de entiteitopslag. Dit is een Microsoft SQL Server-database die is geoptimaliseerd voor analyses. Zie voor meer informatie [Power BI-integratie met entiteitopslag](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ De volgende tabel bevat de belangrijkste berekende afmetingen in de Power BI-inh
 
 | Maat                            | Berekening |
 |------------------------------------|-------------|
-| Beginsaldo                  | Beginsaldo = [Eindsaldo]-[Nettowijziging] |
-| Hoeveelheid beginsaldo             | Hoeveelheid beginsaldo = [Hoeveelheid eindsaldo]-[Hoeveelheid nettowijziging] |
-| Eindsaldo                     | Eindsaldo = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Hoeveelheid eindsaldo                | Hoeveelheid eindsaldo = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Nettowijziging                         | Nettowijziging = SUM([AMOUNT]) |
-| Hoeveelheid nettowijziging                    | Hoeveelheid nettowijziging = SUM([QTY]) |
-| Voorraadomloopsnelheid per bedrag | Voorraadomloopsnelheid per bedrag = if(OR([Inventory average balance] \<= 0, [Verkochte of verbruikte voorraaduitgiften] \>= 0), 0, ABS([Verkochte of verbruikte voorraaduitgiften])/[Gemiddelde voorraadsaldo]) |
-| Gemiddeld saldo voorraad          | Gemiddeld voorraadsaldo = (([eindsaldo] + [beginsaldo]) / 2) |
-| Dagen voorraad voorhanden             | Dagen voorraad voorhanden 365 = / CostObjectStatementEntries [Voorraadomloopsnelheid per bedrag] |
-| Voorraadnauwkeurigheid                 | Voorraadomloopsnelheid per bedrag = IF([Eindsaldo] \<= 0, IF(OR([Geteld bedrag voorraad] \<\> 0, [Eindsaldo] \< 0), 0, 1), MAX(0, ([Eindsaldo] - ABS([Geteld bedrag voorraad]))/[Eindsaldo])) |
+| Beginsaldo                  | Beginsaldo = \[Eindsaldo\]-\[Nettowijziging\] |
+| Hoeveelheid beginsaldo             | Hoeveelheid beginsaldo = \[Hoeveelheid eindsaldo\]-\[Hoeveelheid nettowijziging\] |
+| Eindsaldo                     | Eindsaldo = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Hoeveelheid eindsaldo                | Hoeveelheid eindsaldo = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Nettowijziging                         | Nettowijziging = SUM(\[AMOUNT\]) |
+| Hoeveelheid nettowijziging                    | Hoeveelheid nettowijziging = SUM(\[QTY\]) |
+| Voorraadomloopsnelheid per bedrag | Voorraadomloopsnelheid per bedrag = if(OR(\[Gemiddeld voorraadsaldo\] \<= 0, \[Verkochte of verbruikte voorraaduitgiften\] \>= 0), 0, ABS(\[Verkochte of verbruikte voorraaduitgiften\])/\[Gemiddeld voorraadsaldo\]) |
+| Gemiddeld saldo voorraad          | Gemiddeld voorraadsaldo = ((\[eindsaldo\] + \[beginsaldo\]) / 2) |
+| Dagen voorraad voorhanden             | Dagen voorraad voorhanden 365 = / CostObjectStatementEntries\[Voorraadomloopsnelheid per bedrag\] |
+| Voorraadnauwkeurigheid                 | Voorraadomloopsnelheid per bedrag = IF(\[Eindsaldo\] \<= 0, IF(OR(\[Geteld bedrag voorraad\] \<\> 0, \[Eindsaldo\] \< 0), 0, 1), MAX(0, (\[Eindsaldo\] - ABS(\[Geteld bedrag voorraad\]))/\[Eindsaldo\])) |
 
 De volgende belangrijke dimensies worden gebruikt als filters voor het segmenteren van de samengevoegde metingen, zodat u een grotere mate van granulatie en analytischere inzichten kunt bereiken.
 
 
-|                         Entiteit                          |             Voorbeelden van kenmerken              |
+| Entiteit                                                  | Voorbeelden van kenmerken                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Producten                         | Productnummer, Productnaam, Eenheid, Artikelengroepen |
-| Categoriehiërarchieën (toegewezen aan de rol Kostenbeheer) |       Categoriehiërarchie, Categorieniveau        |
-|                     Rechtspersonen                      |               Namen rechtspersonen                |
-|                    Fiscale kalenders                     |  Fiscale kalender, jaar, kwartaal, periode, maand  |
-|                          Site                           |        Id, naam, adres, provincie/staat, land        |
-
+| Producten                                                | Productnummer, Productnaam, Eenheid, Artikelengroepen |
+| Categoriehiërarchieën (toegewezen aan de rol Kostenbeheer) | Categoriehiërarchie, Categorieniveau              |
+| Rechtspersonen                                          | Namen rechtspersonen                              |
+| Fiscale kalenders                                        | Fiscale kalender, jaar, kwartaal, periode, maand   |
+| Site                                                    | Id, naam, adres, provincie/staat, land               |
 

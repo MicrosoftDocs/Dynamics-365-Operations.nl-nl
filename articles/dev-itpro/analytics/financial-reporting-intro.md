@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,31 @@ Financiële rapportage voor Finance and Operations stelt financiële en bedrijfs
 Financiële rapportage omvat dimensie-ondersteuning. Daarom zijn rekeningsegmenten of dimensies onmiddellijk beschikbaar. Er zijn geen extra hulpmiddelen of configuratiestappen vereist.
 
 ## <a name="financial-reporting-setup"></a>Instelling van financiële rapportage
-De pagina **Instelling van financiële rapportage** bevat een lijst met alle financiële dimensies in het systeem. **Grootboek** > **Grootboek instellen** > **Instelling van financiële rapportage**. 
+De pagina **Instelling van financiële rapportage** bevat een lijst met alle financiële dimensies in het systeem. **Grootboek** \> **Grootboek instellen** \> **Instelling van financiële rapportage**.
 
 De pagina **Instelling van financiële rapportage** bevat twee gedeelten waarin u bepaalt over welke gegevens financieel wordt gerapporteerd:
 
-• **Tabblad Dimensies**: omdat verschillende bedrijven verschillende dimensies en rekeningstructuren gebruiken, is het niet mogelijk om de volgorde te bepalen waarin gebruikers alle financiële dimensies in rapporten willen weergeven. Op deze pagina kunt u de volgorde instellen waarin financiële dimensies moeten worden weergegeven wanneer u een rapport maakt en weergeeft in Financiële rapportage.
-
-• **Tabblad Kenmerken**: hier kunt u aangeven of u **Leveranciers** en **Klanten** als kenmerken wilt gebruiken voor filteren en rapportontwerp. Rapportage over leveranciers en klanten is alleen waardevol als u niet meerdere leveranciers of klanten in één boekstuk invoert bij het boeken van transacties. Wanneer u Leverancier en/of Klant kiest, duurt de integratie langer.
-
-
+- **Tabblad Dimensies**: omdat verschillende bedrijven verschillende dimensies en rekeningstructuren gebruiken, is het niet mogelijk om de volgorde te bepalen waarin gebruikers alle financiële dimensies in rapporten willen weergeven. Op deze pagina kunt u de volgorde instellen waarin financiële dimensies moeten worden weergegeven wanneer u een rapport maakt en weergeeft in Financiële rapportage.
+- **Tabblad Kenmerken**: hier kunt u aangeven of u **Leveranciers** en **Klanten** als kenmerken wilt gebruiken voor filteren en rapportontwerp. Rapportage over leveranciers en klanten is alleen waardevol als u niet meerdere leveranciers of klanten in één boekstuk invoert bij het boeken van transacties. Wanneer u Leverancier en/of Klant kiest, duurt de integratie langer.
 
 ## <a name="financial-reporting-components"></a>Onderdelen van financiële rapportage
 De volgende onderdelen van financiële rapportage maken het gemakkelijk om rapporten op te stellen, weer te geven en te plannen.
 
-| Onderdeel        | Functies                                                                                                                                                                                                                                                                           | Aanvullende gegevens                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Report Designer  | Maak rapportbouwstenen die kunnen worden gecombineerd om een rapport te definiëren en te genereren. De Rapportwizard begeleidt minder ervaren gebruikers door het ontwerpproces. Gevorderde gebruikers kunnen nieuwe rapportbouwstenen maken of bestaande bouwstenen wijzigen zodat deze aan hun vereisten voldoen. |                                                                                                 |
-| Rapportplanningen | Plan een enkel rapport of een groep van rapporten zodat dit/deze op regelmatige basis wordt gegenereerd.                                                                                                                                                                                          | [Een financieel rapport maken](generate-financial-report.md) |
+| Onderdeel        | Functies | Aanvullende gegevens |
+|------------------|-----------|------------------------|
+| Report Designer  | Maak rapportbouwstenen die kunnen worden gecombineerd om een rapport te definiëren en te genereren. De Rapportwizard begeleidt minder ervaren gebruikers door het ontwerpproces. Gevorderde gebruikers kunnen nieuwe rapportbouwstenen maken of bestaande bouwstenen wijzigen zodat deze aan hun vereisten voldoen. | |
+| Rapportplanningen | Plan een enkel rapport of een groep van rapporten zodat dit/deze op regelmatige basis wordt gegenereerd. | [Een financieel rapport maken](generate-financial-report.md) |
 
 ## <a name="features"></a>Functies
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Functie</th>
 <th>Omschrijving</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>De flexibiliteit van het rapportontwerp</td>
 <td>Report Designer biedt de volgende rapportageopties wanneer u een rapport ontwerpt:
 <ul>
@@ -70,9 +67,10 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 <li>Beheren van de manier waarop dimensie-omschrijvingen worden opgemaakt en weergegeven.</li>
 <li>Rekeningen of dimensies identificeren die uit rapportbouwstenen zijn weggelaten.</li>
 <li>Kopteksten opmaken voor het samenvoegen van prognoses.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Samenwerking financieel rapport</td>
 <td>De volgende functies helpen u de generatie en distributie van rapporten te beheren:
 <ul>
@@ -80,9 +78,10 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 <li>Exporteren naar de alleen-lezen XPS-indeling, die betere documentbeveiliging biedt via digitale handtekeningen.</li>
 <li>Exporteren naar een Microsoft Excel-werkblad.</li>
 <li>U kunt rapporten delen door e-mailberichten te maken die koppelingen naar de rapporten bevatten.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Interactieve weergave van rapporten</td>
 <td>Met interactieve functies kunt u de volgende taken uitvoeren:
 <ul>
@@ -99,8 +98,4 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 
 ## <a name="additional-resources"></a>Aanvullende resources
 [Een financieel rapport genereren](generate-financial-report.md)
-
-
-
-
 

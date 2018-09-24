@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>Btw-restitutie in Onkostenbeheer
 
+[!include [banner](../includes/banner.md)]
+
 Om restituties van daarvoor in aanmerking komende btw-transacties te ontvangen, moet een bedrijf of organisatie nauwkeurige informatie opgeven, verzamelen, controleren en indienen. Dit proces bestaat uit meerdere taken waarbij, afhankelijk van de grootte van uw bedrijf, meerdere werknemers of functies betrokken kunnen zijn.
 
 Er moet aan het volgende zijn voldaan om btw te kunnen terugvorderen in Onkostenbeheer:

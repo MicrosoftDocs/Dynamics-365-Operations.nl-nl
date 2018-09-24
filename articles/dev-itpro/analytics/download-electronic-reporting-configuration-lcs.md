@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1a4e8c25fb65b35a52a0d1bc0f1a745c06ca53ab
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 8686d2639a3ab7f2e79944cc5eed51571d463261
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -34,35 +34,45 @@ In dit onderwerp wordt uitgelegd hoe u configuraties voor Elektronische rapporta
 
 Deze zelfstudie begeleidt u door het proces voor het downloaden van de nieuwste versie van de configuraties voor Elektronische rapportage (ER) uit Microsoft Dynamics Lifecycle Services (LCS).
 
-1.  Meld u aan bij Finance and Operations met een van de volgende rollen:
-    -   Ontwikkelaar elektronische rapportage
-    -   Functioneel consultant elektronische rapportage
-    -   Systeembeheerder
+1. Meld u aan bij Finance and Operations met een van de volgende rollen:
 
-2.  Ga naar **Organisatiebeheer** &gt; **Elektronische rapportage**.
-3.  Selecteer in de sectie **Configuratieproviders** de tegel **Microsoft**.
-4.  Klik op de **Microsoft**-tegel op **Opslagplaatsen**. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
-5.  Selecteer in het raster op de pagina **Opslagplaatsen van configuraties** pagina de bestaande opslagplaats van het type **LCS**. Als deze opslagplaats niet wordt weergegeven in het raster, volgt u deze stappen:
-    1.  Klik op **Toevoegen** en voeg een nieuwe opslagplaats toe.
-    2.  Selecteer **LCS** als opslagplaatstype.
-    3.  Klik op **Opslagplaats maken**.
+    - Ontwikkelaar elektronische rapportage
+    - Functioneel consultant elektronische rapportage
+    - Systeembeheerder
+
+2. Ga naar **Organisatiebeheer** &gt; **Elektronische rapportage**.
+3. Selecteer in de sectie **Configuratieproviders** de tegel **Microsoft**.
+4. Klik op de **Microsoft**-tegel op **Opslagplaatsen**.
+
+    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+
+5. Selecteer in het raster op de pagina **Opslagplaatsen van configuraties** pagina de bestaande opslagplaats van het type **LCS**. Als deze opslagplaats niet wordt weergegeven in het raster, volgt u deze stappen:
+
+    1. Klik op **Toevoegen** en voeg een nieuwe opslagplaats toe.
+    2. Selecteer **LCS** als opslagplaatstype.
+    3. Klik op **Opslagplaats maken**.
     4. Volg de instructies van de autorisatie als hierom wordt gevraagd.
-    5.  Voer een naam en een beschrijving in voor de opslagplaats.
-    6.  Klik op **OK** om de nieuwe opslagplaats te bevestigen.
-    7.  Selecteer in het raster de nieuwe opslagplaats van het type **LCS**.
+    5. Voer een naam en een beschrijving in voor de opslagplaats.
+    6. Klik op **OK** om de nieuwe opslagplaats te bevestigen.
+    7. Selecteer in het raster de nieuwe opslagplaats van het type **LCS**.
 
-6.  Klik op **Openen** om de lijst met ER-configuraties voor de geselecteerde opslagplaats weer te geven. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
-7.  Selecteer in de boomstructuur van het linkervenster de gewenste ER-configuratie.
-8.  Selecteer op het sneltabblad **Versies** de vereiste versie van de geselecteerde ER-configuratie.
-9.  Klik op **Importeren** om de geselecteerde versie vanuit LCS te downloaden naar het huidige exemplaar van Finance and Operations. **Opmerking:** de knop **Importeren** is niet beschikbaar voor ER-configuratieversies die al aanwezig zijn in het huidige Finance and Operations-exemplaar. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+6. Klik op **Openen** om de lijst met ER-configuraties voor de geselecteerde opslagplaats weer te geven.
 
-**Opmerking:** Afhankelijk van de ER-instellingen worden configuraties gevalideerd nadat ze zijn geïmporteerd. U krijgt mogelijk meldingen over inconsistentieproblemen die worden vastgesteld. U moet deze problemen oplossen voordat u de geïmporteerde configuratieversie kunt gebruiken. Zie voor meer informatie de lijst van gerelateerde artikelen voor dit onderwerp.
+    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+7. Selecteer in de boomstructuur van het linkervenster de gewenste ER-configuratie.
+8. Selecteer op het sneltabblad **Versies** de vereiste versie van de geselecteerde ER-configuratie.
+9. Klik op **Importeren** om de geselecteerde versie vanuit LCS te downloaden naar het huidige exemplaar van Finance and Operations.
+
+    > [!NOTE]
+    > De knop **Importeren** is niet beschikbaar voor ER-configuratieversies die al aanwezig zijn in het huidige Finance and Operations-exemplaar.
+
+    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+
+> [!NOTE]
+> Afhankelijk van de ER-instellingen worden configuraties gevalideerd nadat ze zijn geïmporteerd. U krijgt mogelijk meldingen over inconsistentieproblemen die worden vastgesteld. U moet deze problemen oplossen voordat u de geïmporteerde configuratieversie kunt gebruiken. Zie voor meer informatie de lijst van gerelateerde artikelen voor dit onderwerp.
+
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van elektronische rapportage](general-electronic-reporting.md)
-
-
-
 

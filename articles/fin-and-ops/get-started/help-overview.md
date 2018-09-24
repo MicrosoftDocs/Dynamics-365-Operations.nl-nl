@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ U vindt onze inhoud ook met een willekeurige zoekmachine. We raden voor het best
 Finance and Operations, Retail en Talent delen dezelfde inhoudsopgave op de docs-site, waardoor klanten de context kunnen zien van het onderwerp waarin zij zich bevinden. Bovendien kunt u ook het besturingselement Filter boven de inhoudsopgave gebruiken om onderwerpen te vinden die u zoekt.
 
 ### <a name="follow-a-topic"></a>Een onderwerp volgen
-Als u een onderwerp wilt volgen, klikt u op de knop +Volgen onder het opmerkingenvak. U moet zich aanmelden om het onderwerp te volgen. Zie [Een opmerking achterlaten](#leave-us-a-comment) voor meer informatie.  
+Als u een onderwerp wilt volgen, klikt u op de knop +Volgen onder het opmerkingenvak. U moet zich aanmelden om het onderwerp te volgen. Zie [Feedback achterlaten](#leave-us-feedback) voor meer informatie.  
 
 ### <a name="use-an-rss-feed"></a>Een RSS-feed gebruiken
 Als u zich wilt abonneren op een RSS-feed van alle updates op de Unified Operations-inhoud, gebruikt u de volgende koppeling vanuit een browser die RSS-feeds ondersteunt, zoals Internet Explorer of een RSS-feedmanager: 

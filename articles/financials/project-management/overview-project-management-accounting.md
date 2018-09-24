@@ -35,7 +35,9 @@ De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstak
 Een project is een groep van activiteiten die zijn ontworpen om in een service te bieden, een product te vervaardigen of een resultaat te bereiken. Projecten verbruiken resources en genereren financiële resultaten in de vorm van opbrengsten of activa.
 
 ## <a name="projects-across-industries"></a>Projecten in de verschillende bedrijfstakken
-De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt, zoals u ziet in de volgende afbeelding. [![Projecten in verschillende bedrijfstakken](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+De functionaliteit voor projectbeheer en boekhouding kan in meerdere bedrijfstakken worden gebruikt, zoals u ziet in de volgende afbeelding.
+
+[![Projecten in verschillende bedrijfstakken](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 In een callcenter kan een ticket worden gebruikt om de set acties te beschrijven die zijn vereist om een probleem op te lossen. Adviserende bedrijven, zoals management- of technische adviesorganisaties of reclamebureaus, verwijzen naar hun activiteiten als projecten. In marketing vertegenwoordigt een campagne een reeks werkzaamheden die moeten worden uitgevoerd. In op projecten gebaseerde productie heeft een productieorder betrekking op de verschillende werkzaamheden die moet worden uitgevoerd om bepaalde eindproducten te produceren. Ongeacht welke naam ervoor wordt gebruikt, deze projecten betreffen resources, planningen en kosten, en het projectbeheer en de boekhoudingsfunctionaliteit in Microsoft Dynamics 365 for Finance and Operations kunnen helpen met de planning, de uitvoering en de analyse van deze projecten.
 
