@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Lifecycle-beleid voor software en on-premises versies
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: Verwijderde of verouderde functies
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: AX 2012-functies die zijn uitgesteld
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Functies die niet zijn geïmplementeerd in On-premises implementaties
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations versie 8.1 (oktober 2018)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (september 2018)
+              href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations versie 8.0 (april 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (maart 2018)
@@ -54,27 +60,27 @@
               href: get-started/whats-new-application-7.3-update.md
             - name: Platform update 12 (november 2017)
               href: get-started/whats-new-platform-update-12.md
-            - name: Platformupdate 11 (oktober 2017)
+            - name: Platform update 11 (oktober 2017)
               href: get-started/whats-new-platform-update-11.md
-            - name: Platformupdate 10 (augustus 2017)
+            - name: Platform update 10 (augustus 2017)
               href: get-started/whats-new-platform-update-10.md
             - name: 'Finance and Operations, Enterprise edition (juli 2017)'
               href: get-started/whats-new-application-July-2017-update.md
-            - name: Platformupdate 9 (juli 2017)
+            - name: Platform update 9 (juli 2017)
               href: get-started/whats-new-platform-update-9.md
-            - name: Platformupdate 8 (juni 2017)
+            - name: Platform update 8 (juni 2017)
               href: get-started/whats-new-platform-update-8.md
             - name: Platform update 7 (mei 2017)
               href: get-started/whats-new-platform-update-7.md
-            - name: Platformupdate 6 (april 2017)
+            - name: Platform update 6 (april 2017)
               href: get-started/whats-new-platform-update-6.md
-            - name: Platformupdate 5 (maart 2017)
+            - name: Platform update 5 (maart 2017)
               href: get-started/whats-new-platform-update-5.md
-            - name: Platformupdate 4 (februari 2017)
+            - name: Platform update 4 (februari 2017)
               href: get-started/whats-new-platform-update-4.md
             - name: Operations versie 1611 (november 2016)
               href: get-started/whats-new-dynamics-365-operations-1611.md
-            - name: Platformupdate 3 (november 2016)
+            - name: Platform update 3 (november 2016)
               href: get-started/whats-new-platform-update-3.md
             - name: Platform update 2 (augustus 2016)
               href: get-started/whats-new-platform-update-2.md
@@ -456,6 +462,10 @@
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Factuurvereffening en intercompany-inkooporders
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Leveranciersfactuurbeleid instellen
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Leveranciersfactuur vastleggen en met ontvangen hoeveelheid matchen
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Overzicht van positieve betalingen
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Positieve betalingsbestanden instellen en genereren
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Rente verwerken
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Leveranciersfactuurbeleid instellen
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Leveranciersfactuur vastleggen en met ontvangen hoeveelheid matchen
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Een klantfactuur maken
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: Klantbetalingen storten
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Informatie over ouderdom van klanten instellen en genereren
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Klanten kopiëren met behulp van gedeelde nummerreeksen
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: Klantenworkflow
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Betalingen en vereffeningen
@@ -1539,12 +1547,10 @@
               href: ../financials/localizations/emea-exchange-rate-adjustments.md
             - name: Bestandsindelingen voor betalingsmethoden
               href: ../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md
-            - name: Integratie Fiscale service (ESR)
+            - name: Integratie van fiscale service (ESR)
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: Afstoting van vaste activa voor Estland en Litouwen
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Herwaardering van vreemde valuta
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Een overboekingsdocument genereren voor een interne voorraadoverboeking
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: Een EU-rapport van ICL-lijst genereren
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: Functionaliteitsuitbreiding voor afstoting van vaste activa
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Herwaardering van vreemde valuta
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Retourneerbare verpakking
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Btw-aangiften
@@ -2114,6 +2122,42 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: Overzicht van omzetsaldi
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Rusland
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Voorschothouders
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Een voorschothouder maken
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Dagelijkse bewerkingen voor voorschothouders
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Vaste activa
+              items:
+                - name: Vaste activa verwerven en in werking stellen
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Budgetjournalen maken en boeken voor verwervingen van vaste activa
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: Telling van vaste activa
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Herwaardering valuta voor vaste activa
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Vaste activa gedeeltelijk disassembleren (liquidatie)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Betalingsopdrachten instellen en verwerken
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Wisselkoersen instellen voor valutatransacties
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Voorbeeld van grootboektransacties weergeven
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Beambten instellen
+              href: ../financials/localizations/rus-officials.md
+            - name: Bankrekeningen instellen
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Belasting toegevoegde waarde (btw) voor belastingmedewerkers
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Dimensiecontrole voor vereffeningen instellen
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Saudi-Arabië
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Wisselopties
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Vervaldatums berekenen en rapporteren over de gemiddelde periode van betalingen
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: Voorwaardelijke btw
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: Factuurcreditering

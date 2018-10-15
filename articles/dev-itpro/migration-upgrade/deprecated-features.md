@@ -3,7 +3,7 @@ title: Verwijderde of verouderde functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -41,6 +41,52 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!Note]
 > Gedetailleerde informatie over objecte in Finance and Operations is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 met platformupdate 20
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Batchoverboekingsregels voor journaalregels in subadministratie
+De modus voor synchrone overdracht wordt afgeschaft in de grootboekparameters.  Deze modus wordt vervangen door asynchrone overdrachten en geplande batches, die al bestaan als overdrachtopties. 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | We verwijderen de synchrone optie vanwege de invloed op de systeemprestaties. |
+| **Vervangen door een andere functie?**   | Asynchroon en geplande batch zijn opties die kunnen worden gebruikt in plaats van synchroon.   |
+| **Betrokken productgebieden**         | Grootboek, Leveranciers, Klanten, Inkoop, Onkosten    |
+| **Implementatieoptie**              | Alles  |
+| **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor versie 10.0.|
+
+### <a name="electronic-reporting-for-russia"></a>Elektronische rapportage voor Rusland
+Functie voor het configureren van bestandsindelingen .txt en .xml van aangiften. 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Vervangen door Elektronische rapportage. |
+| **Vervangen door een andere functie?**   | Ja. |
+| **Betrokken productgebieden**         | Grootboek |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
+
+### <a name="financial-reports-generator-for-russia"></a>Aanmaker van financiële rapporten voor Rusland
+Een hulpmiddel om gegevensverzameling in te stellen voor boekhouding en belastingaangiften, en gegevens te exporteren naar XLS- en DOC-rapportsjablonen. Functionele onderdelen: gegevens exporteren naar XLS- en DOC-rapportsjablonen, query's, vaste vereisten worden verwijderd. 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Verwijderde onderdelen worden vervangen door Elektronische rapportage. |
+| **Vervangen door een andere functie?**   | Ja. De gebruikersinterface voor de instelling van financiële rapportage moet worden gebruikt voor het instellen van regels voor het verzamelen van gegevens door grootboekrekeningen of belastingregisters. Exportgegevens in verschillende bestandstypen, vaste vereisten en queryregels voor het verzamelen van gegevens moeten worden geconfigureerd in Elektronische rapportage. |
+| **Betrokken productgebieden**         | Grootboek. |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integratie met externe providers voor het verzenden via communicatiekanalen van elektronische rapportage voor Rusland
+Functie voor het exporteren van gegenereerde elektronische aangiftebestanden naar de map voor doorsturen naar officiële aanbieders van elektronische rapportage en het importeren van de status.
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Vervangen door configureerbare functie voor elektronische berichten. |
+| **Vervangen door een andere functie?**   | Ja.  |
+| **Betrokken productgebieden**         | Grootboek, Belasting |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 met platformupdate 15
 Er zijn geen onderdelen verwijderd of vervangen in deze versie. Platformupdate 15 is cumulatief en bevat nieuwe of gewijzigde functies van platformupdate 13, platformupdate 14 en platformupdate 15.

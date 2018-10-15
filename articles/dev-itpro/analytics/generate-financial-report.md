@@ -3,7 +3,7 @@ title: "Financiële rapporten genereren"
 description: Dit onderwerp biedt informatie over het genereren van een financieel rapport.
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -32,17 +32,14 @@ ms.lasthandoff: 08/13/2018
 
 Dit onderwerp biedt informatie over het genereren van een financieel rapport.
 
-Om een rapport te genereren, open de rapportdefinitie en klik vervolgens op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Uw gegenereerd rapport wordt standaard geopend in de Web Viewer.
-
-> [!NOTE]
-> U kunt rapporten alleen genereren naar mappen en locaties waarvoor u gemachtigd bent voor toegang.
+Om een rapport te genereren, open de rapportdefinitie en klik vervolgens op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Standaard, wordt het gegenereerde rapport in de Webkijker geopend.
 
 De volgende opties zijn beschikbaar voor het genereren van rapporten:
 
 - Een planning instellen om een rapport of groep rapporten automatisch te genereren
 - De controle voor ontbrekende rekeningen of gegevens in een rapport, en valideert de nauwkeurigheid van een rapport
 
-Wanneer u een rapport genereert, worden de opties gebruikt die u op de tabbladen Rapportdefinitie hebt opgegeven. Het tabblad Uitvoer en Distributie laat u een rapportbibliotheeklocatie opgeven, waarmee u op eenvoudige wijze het rapport kunt delen.
+Wanneer u een rapport genereert, worden de opties gebruikt die u op de tabbladen Rapportdefinitie hebt opgegeven.
 
 ## <a name="generate-a-financial-report"></a>Een financieel rapport maken
 
@@ -55,10 +52,7 @@ Als het rapport is gegenereerd, kan het rapport worden weergeven in de sectie **
 
 U kunt het rapport **weergeven** of **verwijderen**.
 
-Als u een rapport wilt genereren met **Rapportontwerper**, opent u de rapportdefinitie en klikt u op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Uw gegenereerd rapport wordt standaard geopend in de Web Viewer.
-
-> [!NOTE]
-> U kunt rapporten alleen genereren naar mappen en locaties waarvoor u gemachtigd bent voor toegang.
+Als u een rapport wilt genereren met **Rapportontwerper**, opent u de rapportdefinitie en klikt u op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Standaard, wordt het gegenereerde rapport in de Webkijker geopend.
 
 ## <a name="schedule-report-generation"></a>Het genereren van rapporten plannen
 Veel bedrijven hebben een aantal standaardrapporten die op geplande tijdstippen worden uitgevoerd in overeenstemming met hun bedrijfsprocessen. U kunt een rapport plannen om regelmatig worden gegenereerd, bijvoorbeeld dagelijks, wekelijks, maandelijks, of jaarlijks. U kunt één rapport plannen, of een groep rapporten die betrekking hebben op meerdere bedrijven. U moet uw referenties invoeren voor elk bedrijf dat is opgegeven, zoals die in een rapporteringsstructuurdefinitie. Als de gebruikersgegevens niet geldig zijn wordt in het rapport alleen de informatie waar u voor gemachtigd bent weergegeven, zoals het bedrijf waar u op dat moment bent aangemeld. De uitvoer informatie wordt eerst gelezen uit de rapportgroep, en vervolgens uit de afzonderlijke rapporten.

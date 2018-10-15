@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen bij het instellen van Dynamics 365 for Finance and Operations voor rechtspersonen met een primair adres in Brazilië. 
+Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen bij het instellen van Dynamics 365 for Finance and Operations voor rechtspersonen met een primair adres in Europa. 
 
 - [Voorschothouders](emea-advance-holders.md)
  - [Voorschothoudertransacties](emea-advance-holders-transactions.md)
@@ -42,11 +42,9 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
 - [Rapport ICL-lijst](emea-eu-sales-list.md)
 - [Aanpassingen wisselkoers](emea-exchange-rate-adjustments.md)
 - [Bestandsindelingen voor betalingsmethoden](emea-select-file-formats-for-the-method-of-payments.md)
-- [Integratie Fiscale service (ESR)](emea-fiscal-service-integration.md)
+- [Integratie van fiscale service (ESR)](emea-fiscal-service-integration.md)
 - [Afstoting van vaste activa voor Estland en Litouwen](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Herwaardering van vreemde valuta](emea-foreign-currency-revaluation.md)
 - [Een overboekingsdocument genereren voor een interne voorraadoverboeking](tasks/transfer-document-internal-inventory-transfer.md)
-- [Een EU Intrastat-aangifte genereren](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Een EU-rapport van ICL-lijst genereren](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022-bestanden
   - [ISO20022-bestanden importeren](emea-ISO20022-file-formats.md)
@@ -61,6 +59,8 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
   - [Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastat](emea-intrastat.md)
   - [Transacties overboeken naar Intrastat](tasks/transfer-transactions-intrastat.md)
+  - [Een vrachtadres opgeven voor een intracommunautaire transactie](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [Een EU Intrastat-aangifte genereren](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Voorraadjournaalrapporten](emea-set-up-report-inventory-journal-names.md)
 - [Deadlines voor uitgeven van facturen](emea-invoice-issue-deadline.md)
 - [Factuurverwerking](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
 - [EU-rapport van ICL-lijst instellen](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Indeling voor betalingsbonnen voor projectfacturen instellen](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Ondertekenaars voor afdrukbare formulieren instellen](emea-set-up-signers-for-printing-forms.md)
-- [De overboekingsdocumenten instellen voor goederenverplaatsing in een bedrijf](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Een vrachtadres opgeven voor een intracommunautaire transactie](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Stornoboekhouding](emea-storno.md)
 - [Belastinginstructies](emea-tax-directives.md)
 - [Bijwerken hoe bedragen worden weergegeven in rapporten en documenten](emea-amount-printing-forms.md)

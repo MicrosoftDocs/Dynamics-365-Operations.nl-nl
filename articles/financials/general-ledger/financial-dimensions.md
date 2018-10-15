@@ -3,7 +3,7 @@ title: "Financiële dimensies"
 description: "In dit onderwerp worden de verschillende typen financiële dimensies beschreven en hoe ze worden ingesteld."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 08/24/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.search.scope: Core, Operations
 ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/26/2018
 
 In dit onderwerp worden de verschillende typen financiële dimensies uitgelegd en hoe ze worden ingesteld.
 
-Gebruik de pagina **Financiële dimensies** om financiële dimensies te maken die u als rekeningsegmenten kunt gebruiken voor rekeningschema's. Er zijn twee typen financiële dimensies: aangepaste dimensies en door een entiteit ondersteunde dimensies. De aangepaste dimensies worden gedeeld door rechtspersonen en de waarden worden door gebruikers ingevoerd en onderhouden. Voor door een entiteit ondersteunde dimensies worden de waarden elders in het systeem gedefinieerd, zoals de entiteiten Klanten of Winkels. Bepaalde door entiteiten ondersteunde dimensies zijn verdeeld over rechtspersonen en sommige door entiteiten ondersteunde dimensies zijn bedrijfsspecifiek. 
+Gebruik de pagina **Financiële dimensies** om financiële dimensies te maken die u als rekeningsegmenten kunt gebruiken voor rekeningschema's. Er zijn twee typen financiële dimensies: aangepaste dimensies en door een entiteit ondersteunde dimensies. De aangepaste dimensies worden gedeeld door rechtspersonen en de waarden worden door gebruikers ingevoerd en onderhouden. Voor door een entiteit ondersteunde dimensies worden de waarden elders in het systeem gedefinieerd, zoals in de entiteiten Klanten of Winkels. Bepaalde door entiteiten ondersteunde dimensies zijn verdeeld over rechtspersonen en sommige door entiteiten ondersteunde dimensies zijn bedrijfsspecifiek.
 
-Nadat u de financiële dimensies hebt gemaakt, gebruikt u de pagina **Waarden van financiële dimensie** om aanvullende eigenschappen toe te wijzen aan elke financiële dimensie. 
+Nadat u de financiële dimensies hebt gemaakt, gebruikt u de pagina **Waarden van financiële dimensie** om aanvullende eigenschappen toe te wijzen aan elke financiële dimensie.
 
-U kunt financiële dimensies gebruiken om rechtspersonen te vertegenwoordigen. U hoeft de rechtspersonen niet te maken in Microsoft Dynamics 365 for Finance and Operations. Financiële dimensies zijn echter niet bedoeld om te voldoen aan operationele of zakelijke behoeften van rechtspersonen. De boekhouding tussen eenheden-functie in Finance and Operations is ontworpen om alleen met de boekhoudkundige vermeldingen te werken die door de transactie worden gemaakt. 
+U kunt financiële dimensies gebruiken om rechtspersonen te vertegenwoordigen. U hoeft de rechtspersonen niet te maken in Microsoft Dynamics 365 for Finance and Operations. Financiële dimensies zijn echter niet bedoeld om te voldoen aan operationele of zakelijke behoeften van rechtspersonen. De boekhouding tussen eenheden-functie in Finance and Operations is ontworpen om alleen met de boekhoudkundige vermeldingen te werken die door de transactie worden gemaakt.
 
 Voordat u de financiële dimensies instelt als rechtspersonen, moet u uw bedrijfsprocessen evalueren in de volgende gebieden om te bepalen of deze instelling zal werken voor uw organisatie:
 
@@ -51,7 +51,9 @@ Hieronder vindt u enkele beperkingen:
 
 ## <a name="custom-dimensions"></a>Aangepaste dimensies
 
-Als u een door de gebruiker gedefinieerde financiële dimensie wilt maken, selecteert u in het veld **Waarden gebruiken van** **&lt; Aangepaste dimensie &gt;**. U kunt ook een opmaakmasker opgeven om de hoeveelheid en het type gegevens te beperken die u voor dimensiewaarden kunt invoeren. U kunt tekens, zoals letters of een koppelteken (-), invoeren die voor elke dimensiewaarde hetzelfde blijven. U kunt ook hekjes (\#) en en-tekens (&) invoeren die dienen als tijdelijke aanduidingen voor letters en cijfers die elke keer worden gewijzigd als een dimensiewaarde wordt gemaakt. Gebruik een hekje (\#) als tijdelijke aanduiding voor een cijfer en een en-teken (&) als tijdelijke aanduiding voor een letter. Het veld voor het opmaakmasker is alleen beschikbaar wanneer u **&lt; Aangepaste dimensie &gt;** selecteert in het veld **Waarden gebruiken van**.
+Als u een door de gebruiker gedefinieerde financiële dimensie wilt maken, selecteert u **&lt;&nbsp;Aangepaste dimensie&nbsp;&gt;** in het veld **Waarden gebruiken van**.
+
+U kunt ook een opmaakmasker opgeven om de hoeveelheid en het type gegevens te beperken die voor dimensiewaarden kunnen worden ingevoerd. U kunt tekens, zoals letters of een koppelteken (-), invoeren die voor elke dimensiewaarde hetzelfde blijven. U kunt ook hekjes (\#) en en-tekens (&) invoeren die dienen als tijdelijke aanduidingen voor tekens die elke keer worden gewijzigd als een dimensiewaarde wordt gemaakt. Gebruik een hekje (\#) als tijdelijke aanduiding voor een cijfer en een en-teken (&) als tijdelijke aanduiding voor een letter. Het veld voor het opmaakmasker is alleen beschikbaar wanneer u **&lt;&nbsp;Aangepaste dimensie&nbsp;&gt;** selecteert in het veld **Waarden gebruiken van**.
 
 **Voorbeeld**
 
@@ -63,7 +65,7 @@ Als u een door een entiteit ondersteunde financiële dimensie wilt maken, select
 
 ## <a name="activating-dimensions"></a>Dimensies activeren
 
-Wanneer u een financiële dimensie activeert, wordt de tabel bijgewerkt om de naam van de financiële dimensie te bevatten. Verwijderde dimensies worden verwijderd. U kunt dimensiewaarden invoeren voordat u een financiële dimensie activeert. Een financiële dimensie kan echter pas ergens worden gebruikt als deze wordt geactiveerd. U kunt een financiële dimensie bijvoorbeeld pas toevoegen aan een rekeningstructuur als de financiële dimensie is geactiveerd. Wanneer u klikt op **Activeren**, worden alle dimensies bijgewerkt en worden statuswijzigingen weergegeven. 
+Wanneer u een financiële dimensie activeert, wordt de tabel bijgewerkt om de naam van de financiële dimensie te bevatten. Verwijderde dimensies worden verwijderd. U kunt dimensiewaarden invoeren voordat u een financiële dimensie activeert. Een financiële dimensie kan echter pas ergens worden gebruikt als deze wordt geactiveerd. U kunt een financiële dimensie bijvoorbeeld pas toevoegen aan een rekeningstructuur als de financiële dimensie is geactiveerd. Wanneer u **Activeren** selecteert, worden alle dimensies bijgewerkt en worden statuswijzigingen weergegeven.
 
 ## <a name="translations"></a>Taalteksten
 
@@ -84,8 +86,41 @@ Om de referentiële integriteit van de gegevens te helpen waarborgen, kunnen fin
 
 Als aan een van de criteria wordt voldaan, kunt u de financiële dimensie niet verwijderen.
 
+## <a name="default-dimension-values"></a>Waarden standaarddimensie
+
+U kunt waarden uit hoofdrecords, zoals klanten en leveranciers, als standaardwaarden gebruiken in nieuwe dimensies. Wanneer de nieuwe dimensies worden gemaakt, wordt de hoofdrecord-id in de dimensiewaarden ingevoerd voor deze hoofdrecords. Wanneer u een nieuwe klant maakt, wordt de klant-id bijvoorbeeld ingevoerd in de klantdimensie. Wanneer u verkooporders, facturen of andere documenten maakt waarvoor u een klant-id nodig hebt, worden de bestaande standaardregels gebruikt en wordt de klant-id toegevoegd aan het document.
+
+Deze functie is gekoppeld aan een instelling in de dimensie. De naam van deze instelling is **Kopieer waarden naar deze dimensie op elk nieuw gemaakte DimensionName**, waarbij **DimensionName** de naam van de dimensie is. De functie is standaard uitgeschakeld. Deze kan op elk gewenst moment worden ingeschakeld.
+
+Als er al records bestaan voor de dimensie, worden de hoofdrecords bijgewerkt wanneer u de functie inschakelt. Bestaande documenten en transacties worden echter niet bijgewerkt.
+
+## <a name="derived-dimensions"></a>Afgeleide dimensies
+
+U kunt een dimensie zo configureren dat gegevens voor andere dimensies automatisch worden ingevoerd wanneer u die dimensie in een document invoert. Als u kostenplaats 10 invoert, kan bijvoorbeeld automatisch een waarde van **20** worden ingevoerd in de afdelingsdimensie.
+
+U kunt afgeleide waarden instellen op de pagina Dimensies.
+
+1. Selecteer een dimensie en selecteer vervolgens **Afgeleide dimensies**.
+
+    De pagina **Afgeleide dimensies** bevat een raster. Het geselecteerde dimensiesegment is de eerste kolom in dit raster.
+
+2. Voeg de segmenten toe die moeten worden afgeleid. Elk segment wordt weergegeven als een kolom.
+
+Voer de dimensiecombinaties in die moeten worden afgeleid van de dimensie in de eerste kolom. Als u de kostenplaats wilt gebruiken als de dimensie waarvan de afdeling en locatie moeten worden afgeleid, voert u bijvoorbeeld kostenplaats 10, afdeling 20 en locatie 30 in. Wanneer u vervolgens kostenplaats 10 invoert in een hoofdrecord of op een transactiepagina, worden afdeling 20 en locatie 30 standaard ingevoerd.
+
+Het afgeleide dimensieproces overschrijft bestaande waarden niet voor afgeleide dimensies. Als u kostenplaats 10 invoert en er geen andere dimensie wordt ingevoerd, worden afdeling 20 en locatie 30 standaard ingevoerd. Als u de kostenplaats wijzigt, worden de waarden die al zijn ingevoerd niet meer gewijzigd. Daarom kunt u standaarddimensies voor hoofdrecords maken. Deze dimensies worden niet gewijzigd door afgeleide dimensies.
+
+### <a name="derived-dimensions-and-entities"></a>Afgeleide dimensies en entiteiten
+
+U kunt de segmenten en waarden van afgeleide dimensies instellen met behulp van entiteiten.
+
+- Met de entiteit Afgeleide dimensies configureert u de aansturende dimensies en de segmenten die worden gebruikt voor deze dimensies.
+- Met de entiteit DerivedDimensionValue kunt u de waarden importeren die moeten worden afgeleid voor elke aansturende dimensie.
+
+Wanneer u een entiteit gebruikt om gegevens te importeren en er met die entiteit dimensies worden geïmporteerd, worden de afgeleide dimensieregels toegepast tijdens het importeren, tenzij de entiteit die dimensies specifiek overschrijft.
 
 Zie de volgende onderwerpen voor meer informatie:
+
 - [Financiële dimensies definiëren](tasks/define-financial-dimensions.md)
 - [Standaardsjablonen voor financiële dimensies onderhouden](tasks/maintain-financial-dimension-default-templates.md)
 

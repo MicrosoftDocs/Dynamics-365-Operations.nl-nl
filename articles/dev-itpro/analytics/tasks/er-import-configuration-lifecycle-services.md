@@ -1,28 +1,30 @@
 --- 
-title: Configuraties voor elektronische rapportage importeren vanuit Lifecycle Services
+title: Een ER-configuratie vanuit Lifecycle Services importeren
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe versie van een ER-configuratie uit Microsoft Lifecycle Services (LCS) kan importeren.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: f3b8cdb722cf49194faccc19fbb95265a230d48b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 036d7e7e3f79e0945d6fef866a30edd41e688c07
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="import-electronic-reporting-configurations-from-lifecycle-services"></a>Configuraties voor elektronische rapportage importeren vanuit Lifecycle Services
+
+# <a name="er-import-a-configuration-from-lifecycle-services"></a>Een ER-configuratie vanuit Lifecycle Services importeren
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

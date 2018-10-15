@@ -3,7 +3,7 @@ title: Overheadberekening
 description: In dit onderwerp worden de kenmerkende processen voor het berekenen en toewijzen van overheadkosten beschreven.
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/05/2018
 
 ---
 
@@ -191,8 +191,7 @@ In sommige gevallen bestaat een gedeelte van de kosten uit een vast tarief en zi
 </tbody>
 </table>
 
-Zie Kostengedragbeleid voor gedetailleerde informatie over kostengedrag. (Let op: dit onderwerp is nog niet voltooid, maar komt binnenkort beschikbaar.)
-
+Zie [Een kostengedragbeleid maken en toewijzen aan een kostenbeheereenheid](tasks/create-assign-cost-behavior-policy-cost-control-unit.md) voor meer informatie.
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>Stap 2: De berekening van kostenverdeling verwerken
 
 Kostenverdeling wordt gebruikt om de kosten van een kostenobject te herverdelen over een of meer andere kostenobjecten door een relevante toewijzingsgrondslag toe te passen. Het verschil tussen kostenverdeling en kostentoewijzing is dat kostenverdeling altijd plaatsvindt op het niveau van het primaire kostenelement van de oorspronkelijke kosten.
@@ -430,7 +429,7 @@ De vaste kosten moet gelijkmatig worden verdeeld over de afzonderlijke kostenobj
 </tbody>
 </table>
 
-Zie Kostenverdelingsbeleid en Toewijzigingsgrondslagen voor gedetailleerde informatie over kostenverdeling en toewijzingsgrondslagen. (Let op: dit onderwerp is nog niet voltooid, maar komt binnenkort beschikbaar.)
+Zie [Een kostenverdelingsbeleid maken en toewijzen aan een kostenbeheereenheid](tasks/create-assign-cost-distribution-policy-cost-control-unit.md) voor meer informatie. 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>Stap 3: De berekening van overheadtarieven verwerken
 
@@ -612,13 +611,13 @@ De volgende tabel laat het resultaat zien wanneer de HR-projecten worden toegepa
 <td>10001</td>
 <td>Elektriciteit</td>
 <td>Variabele kosten</td>
-<td>10,00</td>
+<td>10.00</td>
 <td>31 januari 2017</td>
 </tr>
 </tbody>
 </table>
 
-Zie Beleid voor overheadtarief en Toewijzingsgrondslagen voor gedetailleerde informatie over beleid voor overheadtarieven. (Let op: dit onderwerp is nog niet voltooid, maar komt binnenkort beschikbaar.)
+Zie [Overheadberekening uitvoeren](cost-rollup.md#perform-overhead-calculation) voor meer informatie over berekeningsparameters.
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Stap 4: De berekening van kostentoewijzing verwerken
 
@@ -725,7 +724,8 @@ Kostenobject CC004 Verpakking draagt bij aan verschillende kostenobjecten. Er wo
 </tbody>
 </table>
 
-**Opmerking:** In Finance and Operations kunnen statistische metingen, zoals de productie-uren die een product verbruikt, worden afgeleid uit brongegevens. Zie Sjablonen van provider van statistische maateenheden voor gedetailleerdere informatie over statistische providers van statistische maateenheden. (Let op: dit onderwerp is nog niet voltooid, maar komt binnenkort beschikbaar.) In de volgende tabel ziet u het resultaat wanneer de HR-services worden toegepast als toewijzingsgrondslag voor de totale kosten (vaste kosten en variabele kosten).
+> [!NOTE]
+> In Finance and Operations kunnen statistische metingen, zoals de productie-uren die een product verbruikt, worden afgeleid uit brongegevens. Zie [Sjabloon van provider van statistische maateenheden](statistical-measure-provider-template.md#statistical-measure-provider-template) voor meer informatie. In de volgende tabel ziet u het resultaat wanneer de HR-services worden toegepast als een toewijzingsgrondslag voor de totale kosten (vaste kosten en variabele kosten).
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ In het financiële boekhouding worden kosten van 10.000,00 voor elektriciteit ge
 </table>
 
 > [!NOTE]
-> Dit onderwerp laat zien beschreven hoe een primair kostenelement, 10001 Elektriciciteit, door de kostenobjecten stroomt. Daarom worden deze overheadkosten toegewezen aan het laagste niveau in de organisatie. Met andere woorden, de kostenobjecten op het laagste niveau dragen de kosten. Als u een visuele stroom van de kosten tussen de kostenobjecten nodig hebt, kunt u de beleidsregels voor kostenaggregatie gebruiken om de stroom van de kosten zichtbaar te maken. Zie Beleid voor kostenaggregatie voor meer gedetailleerde informatie. (Let op: dit onderwerp is nog niet voltooid, maar komt binnenkort beschikbaar.)
+> Dit onderwerp laat zien beschreven hoe een primair kostenelement, 10001 Elektriciciteit, door de kostenobjecten stroomt. Daarom worden deze overheadkosten toegewezen aan het laagste niveau in de organisatie. Met andere woorden, de kostenobjecten op het laagste niveau dragen de kosten. Als u een visuele stroom van de kosten tussen de kostenobjecten nodig hebt, kunt u de beleidsregels voor kostenaggregatie gebruiken om de stroom van de kosten zichtbaar te maken. Zie [Kostentotalisatie](cost-rollup.md) voor meer informatie.
 
 
 

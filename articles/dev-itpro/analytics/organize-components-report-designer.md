@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -37,12 +37,9 @@ U kunt de naam van mappen, rapporten, bouwstenen en andere objecten in Report De
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>De naam van een map of bouwsteen wijzigen in Report Designer
 In Report Designer kunt u de naam van mappen, rapportdefinities, rijdefinities, kolomdefinities en rapporteringsstructuurdefinities wijzigen.
 
-> [!NOTE]
-> Wanneer u de naam van een bouwsteen wijzigt, moet u rapportagedefinities bijwerken die gebruikmaken van de bouwsteen. Anders kan geen nieuw rapport worden gegenereerd.
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>De naam van een map of bouwsteen in Report Designer wijzigen
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>De naam van een map of bouwsteen wijzigen in Report Designer
-
-1. Gebruik in Report Designer het navigatievenster om de map of het object te zoeken waarvan u de naam wilt wijzigen.
+1. Blader in het navigatiedeelvenster van Report Designer naar de map of het object waarvan u de naam wilt wijzigen.
 2. Klik met de rechtermuisknop op de map of het object en klik vervolgens op **Naam wijzigen**. Het veld **Naam** in het navigatievenster komt beschikbaar.
 3. Typ een nieuwe naam en druk vervolgens op Enter.
 4. Als de bouwsteen een rijdefinitie, kolomdefinitie of rapportagestructuurdefinitie is, moet u andere bouwstenen bijwerken die hieraan zijn gekoppeld. Klik met de rechtermuisknop op de bouwsteen waarvan u de naam hebt gewijzigd in stap 3, selecteer **Koppelingen** en selecteer vervolgens een item in de lijst om het bij te werken.

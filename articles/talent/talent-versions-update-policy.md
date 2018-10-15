@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -47,7 +47,7 @@ Als u de laatste versie van elke webbrowser wilt opzoeken, gaat u naar de websit
 > * De workfloweditor wordt als ClickOnce-toepassing gestart. Alleen Microsoft Edge en Internet Explorer (op een ondersteunde versie van Microsoft Windows) ondersteunen ClickOnce-toepassingen. De ClickOnce-toepassing Workfloweditor vereist een compatibel 64-bits besturingssysteem.
 > * Als u PDF-bestanden wilt bekijken, raden wij u aan moderne browsers te gebruiken, zoals Microsoft Edge (meest recente openbaar beschikbare versie) op Windows 10 of Google Chrome (meest recente openbaar beschikbare versie) op Windows 10, Windows 8.1, Windows 8, Windows 7 of Google Nexus 10 tablet.
 >   Netwerkvereisten
-> * Dynamics 365 for Talent is ontworpen voor netwerken met latentie van 250-300 milliseconden (ms) of minder. Dit is de latentie in een browserclient naar het Microsoft Azure-datacentrum waar Dynamics 365 for Talent wordt gehost. Het wordt aangeraden om uw netwerklatentie te testen op [www.azurespeed.com](http://www.azurespeed.com "Azure Latency Test").
+> * Dynamics 365 for Talent is ontworpen voor netwerken met latentie van 250-300 milliseconden (ms) of minder. Dit is de latentie in een browserclient naar het Microsoft Azure-datacentrum waar Dynamics 365 for Talent wordt gehost. Het wordt aangeraden om uw netwerklatentie te testen op [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
 > * De bandbreedtevereisten voor Dynamics 365 for Talent zijn afhankelijk van uw scenario. De meest voorkomende scenario's vereisen een bandbreedte van meer dan 50 kilobytes per seconde (kbps).
 > 
 > [!WARNING]

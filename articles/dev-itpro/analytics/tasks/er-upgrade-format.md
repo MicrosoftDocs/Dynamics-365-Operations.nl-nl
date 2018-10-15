@@ -1,28 +1,29 @@
 --- 
-title: Indelingen upgraden door nieuwe basisversies aan te nemen
+title: ER Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indelingsconfiguratie kan onderhouden voor elektronische rapportage (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 02/06/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7a14299c3bdcc33a4441d1cc096b198af4d4ae4c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="upgrade-formats-by-adopting-new-base-versions"></a>Indelingen upgraden door nieuwe basisversies aan te nemen
+# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -35,7 +36,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedures "Een
 
 ## <a name="select-format-configuration-for-customization"></a>Indelingsconfiguratie voor aanpassing selecteren
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
-    * In dit voorbeeld doet voorbeeldbedrijf Litware, Inc. (`http://www.litware.com`) dienst als een configuratieprovider die indelingsconfiguraties voor elektronische betalingen ondersteunt voor een bepaald land.  Het voorbeeldbedrijf Proseware, Inc. (`http://www.proseware.com`) fungeert als een gebruiker van de indelingsconfiguratie die is verstrekt door Litware, Inc. Proseware, Inc. gebruikt indelingen in bepaalde regio's van dat land.  
+    * In dit voorbeeld doet voorbeeldbedrijf Litware, Inc. (http://www.litware.com) dienst als een configuratieprovider die indelingsconfiguraties voor elektronische betalingen ondersteunt voor een bepaald land.    Het voorbeeldbedrijf Proseware, Inc. (http://www.proseware.com) fungeert als een gebruiker van de indelingsconfiguratie die is verstrekt door Litware, Inc. Proseware, Inc. gebruikt indelingen in bepaalde regio's van dat land.  
 2. Klik op Rapportconfiguraties.
 3. Klik op Filters weergeven.
 4. Pas de volgende filter toe: voer in het veld 'Naam' de waarde "BACS (UK fictief)" in met de filteroperator 'begint met'.
@@ -46,7 +47,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedures "Een
     * De versie van de indeling met de status Voltooid wordt door Proseware, Inc. gebruikt om aan te passen.  
 
 ## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Een nieuwe configuratie voor uw aangepaste indeling van elektronisch documenten maken
-Proseware, Inc. heeft versie 1.1 van de configuratie (UK fictief) ontvangen die de oorspronkelijke indeling bevat om elektronische betalingsdocumenten van Litware, Inc. te genereren in overeenstemming met hun serviceabonnement. Proseware, Inc. wil deze als standaard gaan gebruiken voor hun land, maar er is enige aanpassing vereist om specifieke regionale vereisten te ondersteunen. Proseware, Inc. wil ook de mogelijkheid behouden om een aangepaste indeling als een nieuwe versie ervan te upgraden (met wijzigingen om nieuwe landspecifieke vereisten te ondersteunen) van Litware, Inc. en ze willen deze upgrade tegen zo laag mogelijke kosten uitvoeren.  Hiervoor moet Proseware, Inc. een configuratie maken met behulp van de configuratie Litware, Inc. BACS (UK fictief) als basis.  
+    * Proseware, Inc. heeft versie 1.1 van de configuratie (UK fictief) ontvangen die de oorspronkelijke indeling bevat om elektronische betalingsdocumenten van Litware, Inc. te genereren in overeenstemming met hun serviceabonnement. Proseware, Inc. wil deze als standaard gaan gebruiken voor hun land, maar er is enige aanpassing vereist om specifieke regionale vereisten te ondersteunen. Proseware, Inc. wil ook de mogelijkheid behouden om een aangepaste indeling als een nieuwe versie ervan te upgraden (met wijzigingen om nieuwe landspecifieke vereisten te ondersteunen) van Litware, Inc. en ze willen deze upgrade tegen zo laag mogelijke kosten uitvoeren.  Hiervoor moet Proseware, Inc. een configuratie maken met behulp van de configuratie Litware, Inc. BACS (UK fictief) als basis.  
 1. Sluit de pagina.
 2. Selecteer Proseware, Inc. en maak hiervan een actieve leverancier.
 3. Klik op Instellingen als actief.
@@ -107,13 +108,11 @@ Proseware, Inc. heeft versie 1.1 van de configuratie (UK fictief) ontvangen die 
     * Merk op dat de gemaakte configuratie wordt opgeslagen als voltooide versie 1.1.1. Dit houdt in dat het versie 1 van de aangepaste BACS-indeling (UK fictief en aangepast) is, die is gebaseerd op versie 1 van de BACS-indeling (UK fictief), die is gebaseerd op versie 1 van het gegevensmodel Betalingen (vereenvoudigd model).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>De aangepaste indeling testen om betalingsbestanden te genereren
-Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle sessie van Dynamics 365 for Finance and Operations. Selecteer de indeling BACS (UK fictief) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist geïntroduceerde XML-knooppunt bevat dat de IBAN-code in overeenstemming met regionale vereisten weergeeft.  
+    * Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle sessie van Dynamics 365 for Finance and Operations, Enterprise edition. Selecteer de indeling BACS (UK fictief) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist geïntroduceerde XML-knooppunt bevat dat de IBAN-code in overeenstemming met regionale vereisten weergeeft.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>De bestaande landspecifieke configuratie bijwerken
-Litware, Inc. moet de configuratie BACS (UK fictief) bijwerken en nieuwe landvereisten aannemen voor het beheren van de indeling van het elektronische document. Later wordt deze in een nieuwe versie van deze configuratie ingesloten die wordt aangeboden voor serviceabonnees, inclusief Proseware, Inc.  
-
-In de echte service-inrichtingsgerelateerde processen kan elke nieuwe versie van BACS (UK fictief) worden geïmporteerd door Proseware, Inc. uit de LCS-opslagplaats met configuraties van Litware, Inc. In deze procedure wordt dit gesimuleerd door BACS (UK fictief) namens een serviceprovider.
-
+    * Litware, Inc. moet de configuratie BACS (UK fictief) bijwerken en nieuwe landvereisten aannemen voor het beheren van de indeling van het elektronische document. Later wordt deze in een nieuwe versie van deze configuratie ingesloten die wordt aangeboden voor serviceabonnees, inclusief Proseware, Inc.  
+    * In de echte service-inrichtingsgerelateerde processen kan elke nieuwe versie van BACS (UK fictief) worden geïmporteerd door Proseware, Inc. uit de LCS-opslagplaats met configuraties van Litware, Inc. In deze procedure wordt dit gesimuleerd door BACS (UK fictief) namens een serviceprovider.  
 1. Sluit de pagina.
 2. Selecteer Litware, Inc. .
 3. Klik op Instellingen als actief.
@@ -123,12 +122,9 @@ In de echte service-inrichtingsgerelateerde processen kan elke nieuwe versie van
     * De conceptversie in bezit van de provider Litware, Inc. BACS (UK fictief) wordt geselecteerd om wijzigingen aan te brengen ter ondersteuning van nieuwe landspecifieke vereisten.  
 
 ## <a name="localize-the-base-format-of-the-electronic-document"></a>De basisindeling van elektronisch documenten lokaliseren
-Stel dat er nieuwe land-/regiospecifieke behoeften moeten worden ondersteund door Litware:  
-- Een waarde voor de bank-SWIFT-code van de crediteur in elke betalingstransactie.  
-- Een limiet van 100 tekens voor de lengte van de tekst voor de naam van de leverancier in een bestand dat wordt gegenereerd.  
- 
-Selecteer de conceptversie van de gewenste configuratie om de vereiste wijzigingen te introduceren.  
-
+    * Stel dat er sprake is van nieuwe landspecifieke vereisten die door Litware, Inc. moeten worden ondersteund: - Een waarde voor de SWIFT-code van de bankrekening van de crediteur in elke betalingstransactie.  - Een limiet van 100 tekens voor de lengte van de tekst voor de naam van de leverancier in een bestand dat wordt gegenereerd.  
+    * Nieuwe landspecifieke vereisten  
+    * Selecteer de conceptversie van de gewenste configuratie om de vereiste wijzigingen te introduceren.  
 1. Klik op Ontwerper.
 2. Klik op Uitvouwen/samenvouwen.
 3. Klik op Uitvouwen/samenvouwen.
@@ -159,7 +155,7 @@ Selecteer de conceptversie van de gewenste configuratie om de vereiste wijziging
 2. Sluit de pagina.
 
 ## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>De status van de huidige versie van de basisindelingsconfiguratie wijzigen
-Wijzig de status van de bijgewerkte configuratie van de basisindeling van Concept in Voltooid om deze beschikbaar te maken voor het genereren van betalingsdocumenten en updates van indelingsconfiguraties die ervan zijn afgeleid.  
+    * Wijzig de status van de bijgewerkte configuratie van de basisindeling van Concept in Voltooid om deze beschikbaar te maken voor het genereren van betalingsdocumenten en updates van indelingsconfiguraties die ervan zijn afgeleid.  
 1. Klik op Status wijzigen.
     * De huidige versie van de geselecteerde configuratie heeft de status Concept.  
 2. Klik op Voltooien.
@@ -168,8 +164,7 @@ Wijzig de status van de bijgewerkte configuratie van de basisindeling van Concep
 5. Zoek en selecteer de gewenste record in de lijst.
 
 ## <a name="change-the-base-version-for-the-custom-format-configuration"></a>De basisversie voor de configuratie van de aangepaste indeling wijzigen
-Proseware, Inc. wordt geïnformeerd dat een nieuwe versie 1.2 van de configuratie BACS (UK fictief UK) beschikbaar is voor het genereren van elektronische betalingsdocumenten in overeenstemming met de recent aangekondigde landspecifieke vereisten. Proseware, Inc. wil deze als standaard voor het land gaan gebruiken.  Hiervoor moet Proseware, Inc. de versie van de basisconfiguratie voor de aangepaste configuratie BACS (UK fictief en aangepast) wijzigen. Gebruik in plaats van versie 1.1 van BACS (UK fictief) de nieuwe versie 1.2.  
-
+    * Proseware, Inc. wordt geïnformeerd dat een nieuwe versie 1.2 van de configuratie BACS (UK fictief UK) beschikbaar is voor het genereren van elektronische betalingsdocumenten in overeenstemming met de recent aangekondigde landspecifieke vereisten. Proseware, Inc. wil deze als standaard voor het land gaan gebruiken.  Hiervoor moet Proseware, Inc. de versie van de basisconfiguratie voor de aangepaste configuratie BACS (UK fictief en aangepast) wijzigen. Gebruik in plaats van versie 1.1 van BACS (UK fictief) de nieuwe versie 1.2.  
 1. Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.
 2. Selecteer Proseware, Inc. en maak hiervan een actieve leverancier.
 3. Klik op Instellingen als actief.
@@ -203,6 +198,6 @@ Proseware, Inc. wordt geïnformeerd dat een nieuwe versie 1.2 van de configurati
     * De gemaakte configuratie wordt als voltooide versie 1.2.2 opgeslagen: versie 2 van de basisindeling BACS (UK fictief en aangepast), die is gebaseerd op versie 2 van basisindeling BACS (UK fictief), die is gebaseerd op versie 1 van het gegevensmodel Betalingen (vereenvoudigd model).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>De aangepaste indeling testen om betalingsbestanden te genereren
-Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle sessie van Dynamics 365 for Finance and Operations. Selecteer de gemaakte indeling BACS (UK fictief en aangepast) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist door Proseware, Inc. geïntroduceerde XML-knooppunt bevat dat de IBAN-rekeningcode in overeenstemming met regionale vereisten weergeeft. Het bestand moet ook het onlangs door Litware, Inc. geïntroduceerde XML-knooppunt met de SWIFT-bankcode bevatten conform de landvereisten.  
+    * Voer de stappen van de procedure 'Gemaakte indeling gebruiken om elektronische documenten voor betalingen te genereren' uit in een parallelle sessie van Dynamics 365 for Finance and Operations, Enterprise edition. Selecteer de gemaakte indeling BACS (UK fictief en aangepast) in parameters voor elektronische betalingsmethoden. Zorg ervoor dat het gemaakte betalingsbestand het zojuist door Proseware, Inc. geïntroduceerde XML-knooppunt bevat dat de IBAN-rekeningcode in overeenstemming met regionale vereisten weergeeft. Het bestand moet ook het onlangs door Litware, Inc. geïntroduceerde XML-knooppunt met de SWIFT-bankcode bevatten conform de landvereisten.  
 
 

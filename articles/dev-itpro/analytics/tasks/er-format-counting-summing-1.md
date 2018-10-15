@@ -1,28 +1,29 @@
 --- 
-title: Indelingen voor elektronische rapportage maken voor tellen en totaliseren
+title: 'ER Indeling configureren voor tellen en totaliseren (deel 1: Indeling maken)'
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7261a2324b61cacfca8d69ad52762aa545b70220
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d1f925ef8d772189a505f2793de1176756866bf4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-electronic-reporting-er-formats-to-do-counting-and-summing"></a>Indelingen voor elektronische rapportage (ER) maken voor tellen en totaliseren
+# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a>ER Indeling configureren voor tellen en totaliseren (deel 1: Indeling maken)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

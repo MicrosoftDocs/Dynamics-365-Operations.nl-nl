@@ -1,9 +1,9 @@
 ---
 title: Algemene journaalverwerking
-description: In dit artikel worden de mogelijkheden in Microsoft Dynamics 365 for Finance and Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.
+description: In dit onderwerp worden de mogelijkheden in Microsoft Dynamics 365 for Finance and Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 09/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: eb46613f805999753c2ab73ffb91a6fdae04c68e
+ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
+ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/24/2018
 
 ---
 
@@ -30,23 +30,27 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden de mogelijkheden in Microsoft Dynamics 365 for Finance and Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.  
+In dit onderwerp worden de mogelijkheden in Microsoft Dynamics 365 for Finance and Operations beschreven waarmee algemene journaalverwerking eenvoudiger wordt en die ook helpen waarborgen dat de juiste gegevens worden vastgelegd en dat er geen inbreuk wordt gemaakt op de interne controle.  
 
-Journaalnamen
+## <a name="journal-names"></a>Journaalnamen
 
 Een van de belangrijkste in te stellen gebieden is Journaalnamen. Het is verstandig om specifieke journaalnamen te definiëren voor elk doel, zoals intercompany, correctie toerekening en correctie van fouten. U kunt elke journaalnaam aanpassen om invoer van gegevens voor elk doel gemakkelijker en veiliger te maken. 
 
 Op de pagina **Journaalnamen** kunt u de volgende elementen instellen:
 
--   **Goedkeuring workflow** - Om interne controle te verhogen, definieert u journaalworkflows die materiaallimieten vastleggen voor controle- en goedkeuringsstappen, op basis van criteria zoals totale debetbedrag wordt gebaseerd. U stelt workflows voor de algemene journalen in op de pagina **Grootboekworkflows**.
+-   **Goedkeuring workflow** - Om interne controle te verhogen, definieert u journaalworkflows die materiaallimieten vastleggen voor controle- en goedkeuringsstappen, op basis van criteria zoals totale debetbedrag wordt gebaseerd. U stelt workflows voor de algemene journalen in op de pagina **Grootboekworkflows**.
 -   **Standaardwaarden** - Selecteer standaardwaarden voor tegenrekeningen, valuta en financiële dimensies.
 -   **Journaalcontrole** - U kunt beperkingen instellen op het bedrijf en het rekeningtype, en ook de segmentwaarden. 
 
 **Voorbeelden**
 
-U kunt een journaalnaam alleen gebruiken voor correcties. In dit geval kunt u opgeven dat alleen het rekeningtype **Grootboek** geldig is voor alle bedrijven. [![Rekeningtypen voor journaalcontrole](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+U kunt een journaalnaam alleen gebruiken voor correcties. In dit geval kunt u opgeven dat alleen het rekeningtype **Grootboek** geldig is voor alle bedrijven. 
 
-Een journaalnaam kan alleen worden gebruikt voor een specifiek segment of voor een bereik voor hoofdrekeningen. [![Journaalcontrolesegment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Rekeningtypen voor journaalcontrole](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+
+Een journaalnaam kan alleen worden gebruikt voor een specifiek segment of voor een bereik voor hoofdrekeningen. 
+
+[![Journaalcontrolesegment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 De optie **Automatische omkering** is beschikbare in algemene journalen. U hebt bijvoorbeeld een toerekeningscorrectie waar het werkelijke document nog niet van is verwerkt, zoals in de volgende afbeelding.
 [![Omkering van algemeen journaal](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
@@ -65,8 +69,9 @@ De volgende instellingen zijn niet specifiek voor algemene journalen, maar helpe
 De instelling van de hoofdrekening biedt veel opties voor algemene journaalverwerking:
 
 -   **DC/CR-behoefte** - Gebruik deze optie als een hoofdrekening is beperkt tot debet- of credittransacties. De instelling wordt geverifieerd wanneer een journaal is gevalideerd of geboekt.
+
 -   **Standaardtegenrekening**
--   **Uitgesteld** - Stel een hoofdrekening uit voor gegevensinvoer over alle bedrijven of voor een bepaald bedrijf/bepaalde rechtspersonen.
+-   **Uitgesteld** - Stel een hoofdrekening uit voor gegevensinvoer over alle bedrijven of voor een bepaald bedrijf/bepaalde rechtspersoon.
 -   **Handmatige invoer niet toestaan** - Voorkom dat gebruikers handmatig een waarde voor de rekening in journalen kunnen invoeren.
 -   **Standaard/Valuta valideren**
 -   **Overschrijvingen rechtspersoon** - Deze instelling is specifiek voor het opgegeven bedrijf of de opgegeven rechtspersoon:
@@ -78,7 +83,7 @@ De instelling van de hoofdrekening biedt veel opties voor algemene journaalverwe
 
 ### <a name="accounting-structures-and-advanced-rules-structures"></a>Boekhoudingsstructuren en geavanceerde regelsstructuren
 
-Boekhoudingsstructuren en geavanceerde regelsstructuren zijn uiterst belangrijk voor het garanderen dat de gegevens die vereist zijn voor financiële rapportage en prestatie-opvolging worden vastgelegd tijdens de verwerking van het algemeen journaal en eventuele documentatie. Met boekhoudingsstructuren en geavanceerde regelsstructuren kunt u de gegevensinvoerervaring aanpassen. U kunt ervoor dat gegevens alleen kunnen worden ingevoerd voor financiële dimensies die in elke situatie relevant zijn, en u kunt ook de behoefte afdwingen dat altijd verplichte en juiste gegevens worden vastgelegd.
+Boekhoudingsstructuren en geavanceerde regelsstructuren zijn uiterst belangrijk om te garanderen dat de gegevens die vereist zijn voor financiële rapportage en prestatie-opvolging worden vastgelegd tijdens de verwerking van het algemene journaal en eventuele documentatie. Met boekhoudingsstructuren en geavanceerde regelsstructuren kunt u de gegevensinvoerervaring aanpassen. U kunt ervoor zorgen dat gegevens alleen kunnen worden ingevoerd voor financiële dimensies die in elke situatie relevant zijn. Daarnaast kunt u de vereiste afdwingen dat altijd verplichte en juiste gegevens worden vastgelegd.
 
 Zie de volgende onderwerpen voor meer informatie:
 - [Planning: rekeningschema](plan-chart-of-accounts.md). 
@@ -88,5 +93,8 @@ Zie de volgende onderwerpen voor meer informatie:
 - [Periodieke journalen boeken](tasks/post-periodic-journals.md)
 - [Grootboektoewijzingsjournaal verwerken](tasks/process-ledger-allocation-journal.md)
 
+## <a name="simulate-posting"></a>Boeking simuleren
+U kunt **Boeking simuleren** voor de meeste journalen vinden in het menu **Valideren**. Wanneer u een journaal valideert met de functie **Valideren**, wordt het journaal getest op specifieke foutvoorwaarden. Als u de functie **Boeking simuleren** gebruikt, worden dezelfde processen uitgevoerd als tijdens het boeken (zonder het journaal daadwerkelijk te boeken). Vervolgens kunt u de weergegeven boekingsberichten controleren, eventuele fouten corrigeren en op het menu **Boeken** klikken om het journaal te boeken. 
 
+**Boeking simuleren** is niet beschikbaar voor batchverwerking. Er is echter code beschikbaar om boekingen in batch te simuleren en ontwikkelaars kunnen de code uitbreiden om die functionaliteit toe te voegen.  
 

@@ -1,9 +1,9 @@
 ---
-title: Mobiele apparaten voor magazijnwerk instellen
-description: In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
+title: Mobiele apparaten instellen voor magazijnwerk
+description: In dit onderwerp wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten voor magazijnwerk instellen
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
+In dit onderwerp wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 
-**Opmerking:** Dit artikel geldt voor functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. De menuopties die in de menu's op een mobiel apparaat in een magazijn worden weergegeven worden geconfigureerd op de pagina **Menuopties voor mobiel apparaat**. Omdat de menuopties op verschillende menu's kunnen worden geplaatst, is het gemakkelijk om menustructuren te configureren zodat alleen specifieke typen werk aan specifieke gebruikers worden beschikbaar gesteld. U kunt de menuopties configureren om de volgende taken uit te voeren:
+**Opmerking:** dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. De menuopties die in de menu's op een mobiel apparaat in een magazijn worden weergegeven worden geconfigureerd op de pagina **Menuopties voor mobiel apparaat**. Omdat de menuopties op verschillende menu's kunnen worden geplaatst, is het gemakkelijk om menustructuren te configureren zodat alleen specifieke typen werk aan specifieke gebruikers worden beschikbaar gesteld. U kunt de menuopties configureren om de volgende taken uit te voeren:
 
 -   Een query verwerken of een activiteit uitvoeren, zoals een label afdrukken, nummerplaatnummers genereren, een productieorder starten of snel informatie over artikelen op een locatie opzoeken.
 -   Maken het werk dat door een ander proces wordt uitgevoerd. Bijvoorbeeld, door het ontvangen van een artikel voor een inkooporder kan weggezet werk worden gemaakt voor een andere werknemer.
@@ -193,7 +193,7 @@ U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken 
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Menuopties configureren om bestaand werk te verwerken
-Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties instellen voor het verwerken van werk dat al is gemaakt. Stel het veld **Modus** in op **Werk** en selecteer de optie **Bestaand werk gebruiken**. Sommige aanvullende opties komen dan beschikbaar op het tabblad **Algemeen**. U kunt de toegang tot menuoptie regelen door een of meer werkklassen toe te wijzen op het sneltabblad **Werkklasse**. De werkklassen bepalen het werk dat de menuoptie kan verwerken. De werkklasse kan ook worden gebruikt om toegang te verlenen tot specifieke gebruikersrollen of tot afzonderlijke verwerking voor verschillende soorten bewerkingen. In de volgende tabel wordt beschreven welke opties beschikbaar zijn.
+Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties instellen voor het verwerken van werk dat al is gemaakt. Stel het veld **Modus** in op **Werk** en selecteer de optie **Bestaand werk gebruiken**. Sommige aanvullende opties komen dan beschikbaar op het tabblad **Algemeen**. U kunt de toegang tot menuoptie regelen door een of meer werkklassen toe te wijzen op het sneltabblad **Werkklasse**. De werkklassen bepalen het werk dat de menuoptie kan verwerken. De werkklasse kan ook worden gebruikt om toegang te verlenen tot specifieke gebruikersrollen of tot afzonderlijke verwerking voor verschillende soorten bewerkingen. In de volgende tabel wordt beschreven welke opties beschikbaar zijn. De optie kan worden gekozen onder het veld **Bestuurd door** op de pagina **Menuopties voor mobiel apparaat**. 
 
 <table>
 
@@ -247,6 +247,10 @@ Deze optie is bijvoorbeeld handig wanneer meerdere pallets voor een lading worde
 <tr class="even">
 <td>Groepering van cyclustelling</td>
 <td>De werknemer selecteert een zone, werkgroep of locatie, en Microsoft Dynamics 365 for Finance and Operations wijst werk toe op basis van de selectie. Als u deze optie selecteert, kunt u ook klikken op <strong>Cyclustelling</strong> in het Actievenster om extra informatie weer te geven, en kunt u ook opgeven hoe vaak de werknemer de telling moet uitvoeren als een verschil is gevonden.</td>
+</tr>
+ <tr class="odd">
+<td>Transportlading</td>
+<td>Met deze functie kunnen verschillende magazijnmedewerkers voorraad laden uit dezelfde of verschillende ladingen op dezelfde vrachtwagen, met ladingen die volledig of gedeeltelijk worden verzonden.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 <td>Selecteer deze optie om werknemers toe te staan om werk voor een verkooporder of lading te combineren in één werkeenheid. Een werknemer kan alleen werk uitvoeren voor de verkooporder of de lading. Deze optie is bijvoorbeeld handig wanneer u een hoeveelheid voor een verkooporder moet verhogen na de lading, zending en er werk voor de verkooporder is gemaakt. Deze optie is alleen beschikbaar wanneer de menuoptie het bestaande werk gebruikt, en het werk wordt uitgevoerd door de gebruiker of het systeem.</td>
 </tr>
 <tr class="even">
-<td>Geen</td>
+<td>Oudste batch verzamelen</td>
 <td>Geef aan of de werknemer de oudste batch in een locatie eerst moet verzamelen. De volgende opties zijn beschikbaar:
 <ul>
 <li><strong>Geen</strong> – De werknemer kan elke batch in de locatie selecteren. De werknemer ontvangt geen bericht.</li>
