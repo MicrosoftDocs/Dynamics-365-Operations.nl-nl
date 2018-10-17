@@ -1,48 +1,49 @@
 --- 
-title: Kandidaten aannemen via werving
+title: Kandidaat aannemen via werving
 description: Deze procedure stelt een werver in staat om een sollicitant aan te stellen die een sollicitatie heeft ingediend via een specifiek wervingsproject.
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: a38592bc309b85052dd3d04c036da8f409fcd96d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9057a3ada63ab91f25475a07266f45acd5088af4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="hire-candidates-through-recruitment"></a><span data-ttu-id="ce9ad-103">Kandidaten aannemen via werving</span><span class="sxs-lookup"><span data-stu-id="ce9ad-103">Hire candidates through recruitment</span></span>
+# <a name="hiring-candidate-through-recruiting"></a><span data-ttu-id="b156d-103">Kandidaat aannemen via werving</span><span class="sxs-lookup"><span data-stu-id="b156d-103">Hiring candidate through recruiting</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ce9ad-104">Deze procedure stelt een werver in staat om een sollicitant aan te stellen die een sollicitatie heeft ingediend via een specifiek wervingsproject.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-104">This procedure enables a recruiter to hire an applicant who submitted an application through a specific recruitment project.</span></span> <span data-ttu-id="ce9ad-105">Wanneer u een sollicitant aanstelt via een wervingsproject, wordt een nieuwe werknemerregistratie gemaakt en krijgt de registratie van de sollicitant de status Aangesteld.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-105">When you hire an applicant through a recruiting project, a new worker record will be created and the applicant’s record will have a status of Employed.</span></span> <span data-ttu-id="ce9ad-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="ce9ad-107">U voltooit deze procedure door te navigeren naar Human resources > Werving > Sollicitaties > Sollicitaties</span><span class="sxs-lookup"><span data-stu-id="ce9ad-107">To complete this procedure, navigate to Human resources > Recruitment > Applications >Applications</span></span> 
+<span data-ttu-id="b156d-104">Deze procedure stelt een werver in staat om een sollicitant aan te stellen die een sollicitatie heeft ingediend via een specifiek wervingsproject.</span><span class="sxs-lookup"><span data-stu-id="b156d-104">This procedure enables a recruiter to hire an applicant who submitted an application through a specific recruitment project.</span></span> <span data-ttu-id="b156d-105">Wanneer u een sollicitant aanstelt via een wervingsproject, wordt een nieuwe werknemerregistratie gemaakt en krijgt de registratie van de sollicitant de status Aangesteld.</span><span class="sxs-lookup"><span data-stu-id="b156d-105">When you hire an applicant through a recruiting project, a new worker record will be created and the applicant’s record will have a status of Employed.</span></span> <span data-ttu-id="b156d-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="b156d-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b156d-107">U voltooit deze procedure door te navigeren naar Human resources > Werving > Sollicitaties > Sollicitaties</span><span class="sxs-lookup"><span data-stu-id="b156d-107">To complete this procedure, navigate to Human resources > Recruitment > Applications >Applications</span></span> 
 
-1. <span data-ttu-id="ce9ad-108">Een sollicitatie selecteren voor een externe sollicitant</span><span class="sxs-lookup"><span data-stu-id="ce9ad-108">Select an Application for an External applicant</span></span>
-2. <span data-ttu-id="ce9ad-109">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-109">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="ce9ad-110">Klik op Sollicitatiestatus.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-110">Click Application status.</span></span>
-4. <span data-ttu-id="ce9ad-111">Klik op Nieuwe werknemer aannemen.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-111">Click Hire new worker.</span></span>
-5. <span data-ttu-id="ce9ad-112">Typ in het datumveld voor het begin van het dienstverband een datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-112">In the Employment start date field, enter a date and time.</span></span>
-6. <span data-ttu-id="ce9ad-113">Klik in het veld Positie op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-113">In the Position field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="ce9ad-114">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-114">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="ce9ad-115">Voer in het veld Begin toewijzing een datum en een tijd in.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-115">In the Assignment start field, enter a date and time.</span></span>
-9. <span data-ttu-id="ce9ad-116">Klik op Nieuwe werknemer aannemen.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-116">Click Hire new worker.</span></span>
-10. <span data-ttu-id="ce9ad-117">Vouw het feitenvak Historie dienstverband uit.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-117">Expand the Employment history FactBox.</span></span>
-11. <span data-ttu-id="ce9ad-118">Vouw het feitenvak Huidige posities uit.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-118">Expand the Current positions FactBox.</span></span>
-12. <span data-ttu-id="ce9ad-119">Vouw het feitenvak Historie dienstverband uit.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-119">Expand the Employment history FactBox.</span></span>
-13. <span data-ttu-id="ce9ad-120">Vouw het feitenvak Huidige posities uit.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-120">Expand the Current positions FactBox.</span></span>
-14. <span data-ttu-id="ce9ad-121">Vouw de sectie Adressen uit of samen.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-121">Expand or collapse the Addresses section.</span></span>
-15. <span data-ttu-id="ce9ad-122">Vouw de sectie Contactgegevens uit of samen.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-122">Expand or collapse the Contact information section.</span></span>
-16. <span data-ttu-id="ce9ad-123">Vouw de sectie Persoonlijke gegevens uit of samen.</span><span class="sxs-lookup"><span data-stu-id="ce9ad-123">Expand or collapse the Personal information section.</span></span>
+1. <span data-ttu-id="b156d-108">Een sollicitatie selecteren voor een externe sollicitant</span><span class="sxs-lookup"><span data-stu-id="b156d-108">Select an Application for an External applicant</span></span>
+2. <span data-ttu-id="b156d-109">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b156d-109">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="b156d-110">Klik op Sollicitatiestatus.</span><span class="sxs-lookup"><span data-stu-id="b156d-110">Click Application status.</span></span>
+4. <span data-ttu-id="b156d-111">Klik op Nieuwe werknemer aannemen.</span><span class="sxs-lookup"><span data-stu-id="b156d-111">Click Hire new worker.</span></span>
+5. <span data-ttu-id="b156d-112">Typ in het datumveld voor het begin van het dienstverband een datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="b156d-112">In the Employment start date field, enter a date and time.</span></span>
+6. <span data-ttu-id="b156d-113">Klik in het veld Positie op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="b156d-113">In the Position field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="b156d-114">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="b156d-114">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="b156d-115">Voer in het veld Begin toewijzing een datum en een tijd in.</span><span class="sxs-lookup"><span data-stu-id="b156d-115">In the Assignment start field, enter a date and time.</span></span>
+9. <span data-ttu-id="b156d-116">Klik op Nieuwe werknemer aannemen.</span><span class="sxs-lookup"><span data-stu-id="b156d-116">Click Hire new worker.</span></span>
+10. <span data-ttu-id="b156d-117">Vouw het feitenvak Historie dienstverband uit.</span><span class="sxs-lookup"><span data-stu-id="b156d-117">Expand the Employment history FactBox.</span></span>
+11. <span data-ttu-id="b156d-118">Vouw het feitenvak Huidige posities uit.</span><span class="sxs-lookup"><span data-stu-id="b156d-118">Expand the Current positions FactBox.</span></span>
+12. <span data-ttu-id="b156d-119">Vouw het feitenvak Historie dienstverband uit.</span><span class="sxs-lookup"><span data-stu-id="b156d-119">Expand the Employment history FactBox.</span></span>
+13. <span data-ttu-id="b156d-120">Vouw het feitenvak Huidige posities uit.</span><span class="sxs-lookup"><span data-stu-id="b156d-120">Expand the Current positions FactBox.</span></span>
+14. <span data-ttu-id="b156d-121">Vouw de sectie Adressen uit of samen.</span><span class="sxs-lookup"><span data-stu-id="b156d-121">Expand or collapse the Addresses section.</span></span>
+15. <span data-ttu-id="b156d-122">Vouw de sectie Contactgegevens uit of samen.</span><span class="sxs-lookup"><span data-stu-id="b156d-122">Expand or collapse the Contact information section.</span></span>
+16. <span data-ttu-id="b156d-123">Vouw de sectie Persoonlijke gegevens uit of samen.</span><span class="sxs-lookup"><span data-stu-id="b156d-123">Expand or collapse the Personal information section.</span></span>
 
 

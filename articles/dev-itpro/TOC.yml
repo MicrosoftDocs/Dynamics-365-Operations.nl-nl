@@ -9,7 +9,7 @@
   items:
     - name: Demogegevens genereren met pakketten
       href: data-entities/generate-demo-data-packages.md
-- name: Ontwikkelen en aanpassen met Visual Studio
+- name: Ontwikkelen en aanpassen
   href: dev-tools/developer-home-page.md
   items:
     - name: Toepassingsstapel en serverarchitectuur
@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerdertoegang niet is toegestaan
           href: sysadmin/VMs-no-admin-access.md
-        - name: De naam van lokale omgevingen voor toegang tot Visual Studio Team Services wijzigen
+        - name: De naam van lokale omgevingen wijzigen voor toegang tot Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: Systeemvereisten voor ontwikkeling
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'X++-instructies, lussen en afhandeling van uitzonderingen'
               href: dev-ref/xpp-statements-loops.md
+            - name: X++-uitzondering SQL-verbindingsfout
+              href: dev-ref/sql-connection-error.md
             - name: X++-operatoren
               href: dev-ref/xpp-operators.md
             - name: Prioriteit X++-operatoren
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: Uitbreidbaarheidswijzigingen versie 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: Basisgegevens
           items:
             - name: Ingrijpende aanpassingen
@@ -916,6 +922,8 @@
           href: gdpr/gdpr-lcs.md
     - name: Werkgebied Controlelijst voor gegevensvalidatie
       href: user-interface/data-validation-workspace.md
+    - name: Foutbeschrijvingen voor gegevensbeheer
+      href: data-entities/dm-error-descriptions.md
 - name: Continue levering
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Budgetplanning bijwerken
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: Gegevens migreren van AX 2009 naar Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: Migratie van AX 2009 - hulpmiddel voor gegevensmigratie installeren
+          href: migration-upgrade/install-dmt.md
+        - name: Migratie van AX 2009 - kaarten genereren
+          href: migration-upgrade/generate-maps.md
+        - name: Migratie van AX 2009 - sjablonen maken
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: Migratie van AX 2009 - migratiegroepen maken
+          href: migration-upgrade/create-definition.md
+        - name: Migratie van AX 2009 - pakketten exporteren
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: Migratie van AX 2009 - pakketten importeren
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Code migreren en upgraden
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Voorbereidingen voor het migreren van code
           href: migration-upgrade/prepare-migration.md
-        - name: Visual Studio Team Services-toewijzing configureren
+        - name: Azure DevOps-toewijzing configureren
           href: migration-upgrade/configure-vso-solution.md
         - name: Model splitsen
           href: dev-tools/model-split.md
@@ -1124,6 +1147,8 @@
       items:
         - name: Proces voor overschakeling naar de nieuwste update
           href: migration-upgrade/upgrade-latest-update.md
+        - name: Omgevingen bijwerken van versie 8.0 naar 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: Lifecycle-beleid voor software en cloudversies
           href: migration-upgrade/versions-update-policy.md
         - name: De nieuwste platformupdate toepassen op omgevingen
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Werken met activiteitsdiagrammen in BPM-bibliotheken
       href: lifecycle-services/using-activity-diagrams.md
-    - name: BPM-bibliotheken synchroniseren met Visual Studio Team Services
+    - name: BPM-bibliotheken synchroniseren met Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Testbibliotheken voor gebruikersacceptatie maken met taakbegeleidingen en BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: Activabibliotheek
       href: lifecycle-services/asset-library.md
+    - name: Problemen met prestaties oplossen met hulpmiddelen in LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Query Cookbook
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
