@@ -1,29 +1,30 @@
----
-title: Vereisten voor beheer instellen
+--- 
+title: Vereisten voor niet-conformeringsbeheer instellen
 description: Met deze procedure kunt u de processen van het niet-conformeringsbeheer inschakelen.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 9b5b05a3c00f093066a2714964bb99146427c3bc
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0a4062acc91e024e3a0a41c0b3cb35ff5ffe2a4a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-prerequisites-for-management"></a>Vereisten voor beheer instellen
+# <a name="set-up-prerequisites-for-nonconformance-management"></a>Vereisten voor niet-conformeringsbeheer instellen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -101,4 +102,5 @@ Met deze procedure kunt u de processen van het niet-conformeringsbeheer inschake
 3. Typ een waarde in het veld Quarantainezone.
 4. Typ een waarde in het veld Omschrijving.
 5. Sluit de pagina.
+
 

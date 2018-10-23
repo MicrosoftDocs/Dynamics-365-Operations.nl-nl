@@ -12,6 +12,8 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Implementatieopties
       href: dev-itpro/choose-deployment.md
+    - name: Ondersteuning voor Retail
+      href: retail-support.md
 - name: De levenscyclus van de implementatie begrijpen
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -35,9 +37,9 @@
       href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
     - name: Meerdere LCS-projecten en productieomgevingen implementeren op dezelfde Azure Active Directory-tenant
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
-    - name: Retail-projecten voor Finance and Operations implementeren
+    - name: Projecten voor Finance and Operations en Retail implementeren
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Nieuwe omgevingen, VSTS en vertakkingen voor Retail-projecten instellen'
+    - name: 'Nieuwe omgevingen, Azure DevOps en vertakkingen voor Retail-projecten instellen'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Code en omgevingen voor Retail-projecten bijwerken
       href: dev-itpro/updating-environments.md
@@ -305,6 +307,14 @@
       href: ../talent/create-job.md
 - name: Lokalisatie en wettelijk voorgeschreven functies
   items:
+    - name: Oost-Europa
+      items:
+        - name: Aanbetaling van facturen voor Retail voor Oost-Europa
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Beheer kleine kas voor Retail voor Oost-Europa
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Klantfacturen Retail en retourverkooporders in Oost-Europese landen
+          href: localizations/emea-eeu-retail-invoices.md
     - name: Frankrijk
       items:
         - name: Kassafunctionaliteit
@@ -317,6 +327,8 @@
           href: localizations/apac-ind-cash-registers.md
         - name: Implementatierichtlijnen voor kassa's
           href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Ondersteuning voor upgrade en N-1 voor India
+          href: localizations/apac-ind-n-1-for-india.md
     - name: Noorwegen
       items:
         - name: Kassafunctionaliteit

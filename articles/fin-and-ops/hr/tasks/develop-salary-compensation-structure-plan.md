@@ -1,28 +1,29 @@
 --- 
-title: Salaris-/compensatiestructuren en -plannen ontwikkelen
+title: Salaris-/compensatiestructuur en -plan ontwikkelen
 description: Deze taakbegeleiding doorloopt het proces voor het maken van een vastecompensatieplan en het mogelijk maken dat werknemers worden geregistreerd in het plan via geschiktheidsregels.
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0514cd485c8fa0026390a22be350ff23933afd7b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="develop-salarycompensation-structures-and-plans"></a>Salaris-/compensatiestructuren en -plannen ontwikkelen
+# <a name="develop-salarycompensation-structure-and-plan"></a>Salaris-/compensatiestructuur en -plan ontwikkelen
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,7 +3,7 @@ title: Transacties tussen grootboekrekeningen vereffenen
 description: Deze procedure toont hoe u transacties tussen grootboekrekeningen vereffent en een grootboekvereffening annuleert.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/03/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97a28069f8d560c98099a667852c932ba7658996
+ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
+ms.openlocfilehash: 4aff64fa1c017f295752e913de7fb320f0662ef8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/03/2018
 
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Transacties tussen grootboekrekeningen vereffenen
@@ -33,19 +33,20 @@ Deze procedure toont hoe u transacties tussen grootboekrekeningen vereffent en e
 ## <a name="settle-transaction-between-ledger-accounts"></a>Transactie tussen grootboekrekeningen vereffenen
 1. Ga naar Grootboek > Periodieke taken > Grootboekvereffeningen.
 2. Zoek in de lijst de transactie die u wilt vereffenen.
-    * Het saldobedrag moet nul zijn.  
+   > [!NOTE]
+   > Het saldobedrag moet nul zijn.  
 3. Klik op Opnemen.
 4. Klik op Accepteren.
 
 ## <a name="cancel-a-ledger-settlement"></a>Een grootboekvereffening annuleren
-1. Sluit de pagina.
-2. Ga naar Grootboek > Query´s en rapporten > Proefbalans.
-3. Klik op Parameters om het dialoogvenster te openen.
-4. Klik op Bijwerken.
-5. Zoek in de lijst de rekening met de vereffende transactie.
-6. Klik op Alle transacties.
-7. Gebruik een filter om de transactie gemakkelijk terug te vinden in de lijst.
-8. Klik op Grootboekvereffeningen.
-9. Markeer in de lijst de geselecteerde rij.
+
+1. Ga naar Grootboek > Query´s en rapporten > Proefbalans.
+2. Klik op Parameters om het dialoogvenster te openen.
+3. Klik op Bijwerken.
+4. Zoek in de lijst de rekening met de vereffende transactie.
+5. Klik op Alle transacties.
+6. Gebruik een filter om de transactie gemakkelijk terug te vinden in de lijst.
+7. Klik op Grootboekvereffeningen.
+8. Markeer in de lijst de geselecteerde rij.
 
 

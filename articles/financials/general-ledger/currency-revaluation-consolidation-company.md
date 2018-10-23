@@ -3,7 +3,7 @@ title: Valutaherwaardering in een consolidatiebedrijf
 description: In dit onderwerp wordt beschreven hoe valuta wordt geherwaardeerd in een consolidatiebedrijf.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 27059b0d2a781453a7594bdc430005df6ea5c167
+ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
+ms.openlocfilehash: 76290564037ab6f5c7a1cd4508a819bd603e8148
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/02/2018
 
 ---
 
@@ -35,7 +35,7 @@ Wanneer u gegevens van een valuta voor boekhouding naar een andere consolideert,
 ## <a name="company-setup"></a>Bedrijfsinstellingen
 -   **Bron/werken bedrijf (USMF)** - Amerikaanse dollars (USD) worden gebruikt als boekhouding- en aangiftevaluta.
 -   **Geconsolideerd bedrijf (CON)** Euro's (EUR) worden gebruikt als de boekhouding- en aangiftevaluta.
-    -   **Gerealiseerde winst** – Grootboekrekening 801500
+    -   **Gerealiseerde winst** – Grootboekrekening 801500
     -   **Gerealiseerd verlies**– Grootboekrekening 801600
     -   **Ongerealiseerde winst** - Grootboekrekening 801600
     -   **Ongerealiseerd verlies** - Grootboekrekening 801400

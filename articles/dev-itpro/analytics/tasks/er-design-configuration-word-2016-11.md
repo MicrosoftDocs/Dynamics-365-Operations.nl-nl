@@ -3,23 +3,24 @@ title: ER-configuraties ontwerpen om rapporten in Word-indeling te genereren
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met een rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-indeling (elektronische rapportage) kan configureren, waarmee rapporten in de vorm van Microsoft Word-bestanden worden gegenereerd.
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER-configuraties ontwerpen om rapporten in Word-indeling te genereren
@@ -30,9 +31,9 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met een rol van systeem
 
 Voordat u deze stappen uitvoert, moet u eerst de stappen uitvoeren in de taakbegeleiding “Een ER-configuratie maken voor het genereren van rapporten in OPENXML-indeling“. U moet van tevoren ook de volgende sjablonen downloaden en lokaal opslaan voor het voorbeeldrapport:
 
-[Sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Gebonden sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Gebonden sjabloon van betalingsrapport](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Deze procedure is voor een functie die in versie 1611 van Microsoft Dynamics 365 for Operations is toegevoegd.
 
@@ -49,7 +50,7 @@ Deze procedure is voor een functie die in versie 1611 van Microsoft Dynamics 365
 ## <a name="replace-the-excel-template-with-the-word-template"></a>De Excel-sjabloon vervangen door de Word-sjabloon
     * Momenteel wordt het Excel-document gebruikt als sjabloon voor het genereren van de uitvoer in OPENXML-indeling. We importeren de sjabloon van het rapport in Word-indeling.  
 1. Klik op Bijlagen.
-    * Vervang de bestaande Excel-sjabloon door Sjabloon van betalingsrapport, de Word-sjabloon die u eerder hebt gedownload. Houd er rekening mee dat deze sjabloon alleen de indeling bevat van het document dat we willen genereren als ER-uitvoer.  
+    * Vervang de bestaande Excel-sjabloon door de Word-sjabloon die u eerder hebt gedownload, SampleVendPaymDocReport.docx. Houd er rekening mee dat deze sjabloon alleen de indeling bevat van het document dat we willen genereren als ER-uitvoer.  
 2. Klik op Verwijderen.
 3. Klik op Ja.
 4. Klik op Nieuw.

@@ -3,13 +3,13 @@ title: Talent inrichten
 description: In dit onderwerp wordt u door het proces van het inrichten van een nieuwe omgeving voor Microsoft Dynamics 365 for Talent geleid.
 author: rschloma
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 09/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: josaw
 ms.search.scope: Talent
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 2fc4119f3b33aa583274f4d823e296752cdde41d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 # <a name="provision-talent"></a>Talent inrichten
@@ -30,7 +30,7 @@ ms.lasthandoff: 08/08/2018
 
 In dit onderwerp wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 for Talent geleid. In dit onderwerp wordt ervan uitgegaan dat u Talent hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Talent-serviceabonnement al is opgenomen en u de stappen in dit onderwerp niet kunt voltooien, neemt u contact op met de ondersteuning.
 
-Om te beginnen, moet de globale beheerder zich aanmelden bij [Microsoft Dynamics Lifecycle Services](http://lcs.dynamics.com) (LCS) en een nieuw Talent-project maken. Tenzij u vanwege een licentieprobleem Talent niet kunt inrichten, hebt u geen ondersteuning van vertegenwoordigers van de ondersteuning of DSE (Dynamics Service Engineering) nodig.
+Om te beginnen, moet de globale beheerder zich aanmelden bij [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) en een nieuw Talent-project maken. Tenzij u vanwege een licentieprobleem Talent niet kunt inrichten, hebt u geen ondersteuning van vertegenwoordigers van de ondersteuning of DSE (Dynamics Service Engineering) nodig.
 
 ## <a name="create-an-lcs-project"></a>Een LCS-project maken
 Als u LCS wilt gebruiken om Talent-omgevingen te beheren, moet u eerst een LCS-project maken.
@@ -48,7 +48,6 @@ Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
 
 1. Selecteer in uw LCS-project de tegel **Beheer Talent-app**.
 2. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. 
-3. Als u nog geen PowerApps-omgeving hebt, volgt u de stappen in de sectie Een nieuwe PowerApps-omgeving maken (indien vereist) van dit onderwerp voordat u doorgaat.
 
     > [!NOTE]
     > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de PowerApps P2-licentie. Als uw organisatie geen PowerApps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met PowerApps-prijzen](https://powerapps.microsoft.com/en-us/pricing/).
@@ -78,11 +77,6 @@ Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Ta
 4. Gegevensintegratie en teststrategieën moeten worden overwogen. Bijvoorbeeld: sandbox, UAT, productie. Daarom is het raadzaam dat u rekening houdt met de verschillende gevolgen voor uw implementatie, aangezien de toewijzing van een Talent-omgeving aan een PowerApps-omgeving later niet eenvoudig te wijzigen is.
 5. De volgende PowerApps-omgevingen kunnen niet worden gebruikt voor Talent en worden gefilterd in de selectielijst binnen LCS:
  
-    **CDS 2.0-omgevingen** CDS 2.0 is beschikbaar vanaf 21 maart 2018. Maar Talent ondersteunt CDS 2.0 nog niet. Hoewel u CDS 2.0-databases wel kunt bekijken en maken in het PowerApps-beheercentrum, kunnen ze niet meer worden gebruikt in Talent. De optie om CDS 2.0-omgevingen te gebruiken in Talent-implementaties, zal op een later tijdstip beschikbaar zijn.
-   
-   > [!Note]
-   > Als u het verschil wilt zien tussen CDS 1.0- en 2.0-omgevingen in de beheerportal, selecteert u een omgeving en kijkt u naar **Details**. Voor CDS 2.0-omgevingen geldt 'U kunt deze instellingen beheren in het Dynamics 365-beheercentrum', dat ze verwijzen naar een instantieversie en geen tabblad Database hebben. 
- 
    **Standaard PowerApps-omgevingen** Hoewel elke tenant automatisch een standaard PowerApps-omgeving heeft, wordt gebruik niet aanbevolen met Talent omdat alle tenantgebruikers toegang hebben tot de PowerApps-omgeving. Ze kunnen bij het testen en verkennen van de PowerApps- of Flow-integraties per ongeluk productiegegevens beschadigen.
    
    <strong>TestDrive-omgevingen</strong> Omgevingen met een naam als 'TestDrive: alias@domain' worden gemaakt met een vervalperiode van 60 dagen en verlopen na die tijd, waardoor de omgeving automatisch wordt verwijderd.
@@ -91,42 +85,6 @@ Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Ta
   
 6. Er is geen specifieke actie als u de juiste omgeving voor gebruik hebt vastgesteld. Ga door met het inrichtingsproces. 
  
-## <a name="create-a-new-powerapps-environment-if-required"></a>Een nieuwe PowerApps-omgeving maken (indien vereist)
-
-Voer een PowerShell-script uit voor het maken van een nieuwe PowerApps-omgeving voor Talent als de tenantbeheerder de licentie PowerApps Plan 2 heeft. Het script automatiseert de volgende stappen:
-
-
- + Een PowerApps-omgeving maken
- + Een CDS 1.0-database maken
- + Alle voorbeeldgegevens in de CDS 1.0-database wissen
-
-
-Voer de volgende instructies uit voor het script:
-
-1. Download het bestand ProvisionCDSEnvironment.zip van de volgende locatie: [ProvisionCDSEnvironment scripts](https://go.microsoft.com/fwlink/?linkid=870436)  
-
-2. Klik vanuit de downloadmap met de rechtermuisknop op het bestand ProvisionCDSEnvironment.zip dat zojuist is gedownload en selecteer **Eigenschappen**.  Als er een beveiligingsopmerking onderaan in het dialoogvenster staat met de tekst 'Dit bestand is afkomstig van een andere computer en wordt mogelijk geblokkeerd om deze computer te beveiligen', schakelt u het selectievakje in op **Deblokkeren** en klikt u vervolgens op **Toepassen** en dan op **OK**.
-
-3. Pak de volledige inhoud van het bestand ProvisionCDSEnviroinment.zip uit in een andere map dan uw basismap.
-
-4. Voer het programma Windows PowerShell of Windows PowerShell ISE uit als beheerder.
-
-   Ga naar het onderwerp [Uitvoeringsbeleid instellen](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) voor meer informatie over het instellen van het uitvoeringsbeleid zodat scripts kunnen worden uitgevoerd. Het is raadzaam de volgende ' Set-uitvoeringsbeleid -uitvoeringsbeleid onbeperkt - bereikproces' te gebruiken, maar zorg ervoor het beveiligingsbeleid van uw bedrijf te volgen en het venster PowerShell te sluiten na voltooiing. 
-  
-5. Ga in PowerShell naar de map waarin u het bestand hebt uitgepakt en voer de volgende opdracht uit waarbij u de waarden vervangt zoals hieronder wordt aangegeven:
- 
-   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
-
-    
-   **MyNewEnvironment** moet worden vervangen door de naam van uw omgeving. Deze naam wordt weergegeven in LCS en is zichtbaar als gebruikers selecteren welke Talent-omgeving ze willen gebruiken. 
-
-   **YourLocation** moet worden vervangen door een van de ondersteunde regio's voor Talent: Verenigde staten, Europa, australië. 
-
-   **-Uitgebreid** is optioneel en biedt gedetailleerde informatie voor support als er problemen optreden.
-
-6. Ga door met het inrichtingsproces.
- 
-
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving
 Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet echter uitdrukkelijk toestemming worden verleend. U kunt toegang verlenen door [gebruikers toe te voegen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) en [de juiste rollen aan deze gebruikers toe te wijzen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) in de Core HR-omgeving. De globale beheerder die Talent heeft geïmplementeerd, moet ook de toepassingen Attract en Onboard starten om de initialisatie te voltooien en toegang in te schakelen voor andere tenantgebruikers.  Totdat dit gebeurt, kunnen andere gebruikers geen toegang krijgen tot de toepassingen Attract en Onboard en krijgen ze toegangsovertredingsfouten.
 

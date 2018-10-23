@@ -32,18 +32,18 @@ Attract biedt mogelijkheden voor het beheren van het proces voor het werven van 
 
 Attract biedt de volgende functies.
 
-### <a name="attract-dashboard"></a>Attract-dashboard
+## <a name="attract-dashboard"></a>Attract-dashboard
 Hier kunnen leden van het aanstellingsteam de details bekijken voor de functies waarbij ze betrokken zijn. Hier kan een aanstellende manager of werver ook een nieuwe functie toevoegen aan Attract, door een afzonderlijke functie te maken of door er een aantal tegelijk te importeren uit een Excel-werkblad.
 
-### <a name="jobs"></a>Taken
+## <a name="jobs"></a>Taken
 Op de pagina **Functie** kunnen gegevens als de functieomschrijving en functielocatie worden bekeken en bewerkt. Op de pagina **Functie** wordt het aanstellingsteam samengesteld en kunt u de wervers en interviewers aan het team toevoegen of wijzigen. Nieuwe kandidaten kunnen ook worden toegevoegd op de pagina **Functie**.
 
-### <a name="candidates"></a>Kandidaten
+## <a name="candidates"></a>Kandidaten
 Kandidaten kunnen afzonderlijk worden toegevoegd of in grotere aantallen, via een Excel-werkblad, worden geüpload. Alle kandidaten worden automatisch toegevoegd aan de eerste fase, de fase Solliciteren, van het aanstellingsproces voor een functie. Alle sollicitatiegegevens voor de kandidaat kunnen hier worden bekeken en beheerd. Er kunnen extra documenten worden geüpload en bekeken, naast contactgegevens zoals e-mailadressen, telefoonnummers en koppelingen naar hun sociale media-accounts. Als de kandidaat een koppeling naar zijn of haar LinkedIn-profiel heeft opgegeven en de LinkedIn-integratie is ingesteld (waarvoor een LinkedIn-werverslicentie vereist is), wordt het profiel van de kandidaat weergegeven.
 
-### <a name="stages"></a>Fasen
+## <a name="stages"></a>Fasen
 Attract biedt een vooraf gedefinieerd aanstellingsproces dat vier algemene fasen omvat: Solliciteren, Screenen, Interviewen en Aanbod. Nieuwe kandidaten beginnen in de sollicitatiefase, waarin hun cv, begeleidend schrijven, portfolio en andere sollicitatiedocumenten worden beoordeeld. Vanuit deze fase kan de kandidaat worden toegelaten tot de screeningfase, waar de kandidaat wordt uitgenodigd voor een telefoongesprek of een Skype-videogesprek. De aanstellende manager en werver kunnen feedback geven over de kandidaat en de kandidaat toelaten tot de volgende fase. Vervolgens worden er persoonlijke interviews gepland met beschikbare leden van het aanstellingsteam. Desgewenst kunnen er ook één-op-één-gesprekken of panelinterviews van verschillende lengte worden gepland. Na de interviews wordt de feedback van het interviewteam vastgelegd en doorgenomen. Enkele kandidaten worden toegelaten tot de laatste fase, waar een aanbod wordt gemaakt en voorbereid dat ter beoordeling en goedkeuring aan de kandidaat wordt voorgelegd. 
 
-### <a name="candidate-app"></a>Kandidaatapp
+## <a name="candidate-app"></a>Kandidaatapp
 Kandidaten ontvangen zodra ze zijn toegevoegd aan een functie een e-mail met een koppeling om de app te downloaden. Deze webapp biedt kandidaten meer informatie en is het programma voor communicatie met het aanstellingsteam. Kandidaten kunnen ook de beschikbaarheid voor gesprekken aangeven.
 

@@ -3,7 +3,7 @@ title: Wissels instellen
 description: In dit onderwerp worden de stappen beschreven voor het instellen van wissels.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 09/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dfc6cc2fcbca18f3dde833917ae68a5f254643b
+ms.sourcegitcommit: c9d6866bb994cb9fb411bdd6a9ccae0e67d2d6f3
+ms.openlocfilehash: cda597b1d99e99ac5c5c396bcfcec9c0712f0eb1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -38,6 +38,7 @@ Een wissel is een geschreven of elektronische order van een klant, waarin wordt 
 -   Vóór de vervaldatum, meestal op de kortingsdatum die is opgegeven in de betalingsvoorwaarden die zijn ingesteld voor de klant. Wanneer u de transactie boekt, wordt het kortingsbedrag geboekt naar een onkostenrekening. Het resterende bedrag is voor uw eigen risico totdat de bank de betaling ontvangt van de klant. Deze benadering wordt discontoremise genoemd.
 
 ## <a name="set-up-posting-profiles-for-bills-of-exchange"></a>Boekingsprofielen voor wissels instellen
+
 Op de pagina **Boekingsprofielen van klant** kunt u boekingsprofielen instellen voor gebruik met wissels, geprotesteerde wissels, remises voor incasso en discontoremises. Selecteer in het veld **Totaalrekening** de totaalrekening waarop u wisselbedragen wilt boeken. Deze rekening wordt gedebiteerd of gecrediteerd, afhankelijk van het type wisseltransactie:
 -   Voor wissels geldt dat een bedrag van deze rekening wordt afgeschreven wanneer een wissel wordt geboekt. Er wordt een bedrag bijgeschreven wanneer een remise ter incasso of een discontoremise wordt geboekt.
 -   Voor geprotesteerde wissels geldt dat er van deze rekening een bedrag wordt afgeschreven wanneer een geprotesteerde wissel wordt geboekt.
@@ -47,8 +48,11 @@ Op de pagina **Boekingsprofielen van klant** kunt u boekingsprofielen instellen 
 Selecteer in het veld **Rekening vereffenen** de kasrekening waarop u wisselbedragen wilt boeken. Van deze rekening wordt een bedrag afgeschreven wanneer een wissel wordt vereffend. Selecteer in het veld **Btw-vooruitbetalingen** de totaalrekening waarop u btw-bedragen wilt boeken wanneer er wissels worden gebruikt voor vooruitbetalingen. Selecteer de rekening waarop u het kortingsbedrag voor discontoremises wilt boeken in het veld **Verplichtingen voor discontorekening**. Op deze rekening wordt een bedrag bijgeschreven wanneer er een discontoremise wordt geboekt.
 
 ## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Parameters van module Klanten instellen voor wissels
-De standaardboekingsprofielen worden gedefinieerd op het tabblad **Grootboek en btw** op de pagina **Parameters van module Klanten**. Op het tabblad **Nummerreeksen** kunt u nummerreeksen definiëren. Journaalnamen voor wissels instellen
-------------------------------------------
+
+De standaardboekingsprofielen worden gedefinieerd op het tabblad **Grootboek en btw** op de pagina **Parameters van module Klanten**. Op het tabblad **Nummerreeksen** kunt u nummerreeksen definiëren.
+
+## <a name="set-up-journal-names-for-bills-of-exchange"></a>Journaalnamen voor wissels instellen
+
 
 Maak op de pagina **Journaalnamen** minimaal vijf journaalnamen die u kunt gebruiken voor wissels. De volgende journaaltypen zijn beschikbaar:
 -   **Door klant getrokken wissel:** Maak een journaalnaam voor het journaal met getrokken wissels.
@@ -58,24 +62,24 @@ Maak op de pagina **Journaalnamen** minimaal vijf journaalnamen die u kunt gebru
 -   **Door klant afgerekende wissel:** Maak een journaalnaam voor het journaal met afgerekende wissels.
 
 Voer op de journaalboekstukpagina voor elk wisseljournaal informatie over de wissel in op het tabblad **Wissel**. Nadat de wisseljournaalregels zijn geboekt, kunt u deze bekijken op de pagina's **Query op wissel-journalen weergeven** en **Wisselstatistieken**.
-Betalingsmethoden voor wissels instellen
------------------------------------------------
+
+## <a name="set-up-methods-of-payment-for-bills-of-exchange"></a>Betalingsmethoden voor wissels instellen
 
 Stel op de pagian **Betalingsmethoden** tenminste één betalingsmethode voor wissels in. Als u zaken doet met meer dan een bank, stelt u een betalingsmethode in die overeenkomt met de remise-indeling die iedere bank vereist voor wissels.
-Bijzondere betalingskosten voor wissels instellen
------------------------------------------
+
+## <a name="set-up-payment-fees-for-bills-of-exchange"></a>Bijzondere betalingskosten voor wissels instellen
 
 Bijzondere betalingskosten zijn kosten die worden gemaakt bij het innen van betalingen van klanten. Aan alle bijzondere betalingskosten kunnen meerdere instellingsregels voor bijzondere betalingskosten zijn gekoppeld. U kunt door middel van instellingsregels bepalen hoe standaardbedragen voor bijzondere betalingskosten worden berekend. U kunt bijvoorbeeld instellingsregels maken voor betalingsmethoden, betalingsspecificaties, valuta's en perioden. U kunt ook instellingsregels maken voor een percentage of bedrag dat is gebaseerd op dagintervallen. U kunt bijvoorbeeld een rentepercentage instellen gebaseerd op de periode dat een betaling achterstallig is. Als de bank verschillende bedragen rekent voor verschillende remisetypen, zoals **Aanmaning** of **Korting**, moet u voor elk remisetype een afzonderlijke regel voor bijzondere betalingskosten instellen.
-Bijzondere remisekosten voor bankremisebestanden instellen
-------------------------------------------------
+
+## <a name="set-up-remittance-fees-for-bank-remittance-files"></a>Bijzondere remisekosten voor bankremisebestanden instellen
 
 Op de pagina **Bankrekeningen** kunt u bijzondere remisekosten instellen die een bank berekent voor elk remisebestand dat wordt gegenereerd. De bijzondere remisekosten worden geboekt wanneer de remise is bevestigd en de bedragen voor bijzondere kosten bekend zijn. Deze remisekosten verschillen van bijzondere betalingskosten, die worden berekend aan klanten en worden gekoppeld aan journaalregels.
-Documentindelingen voor wissels instellen
----------------------------------------------
+
+## <a name="set-up-document-layouts-for-bills-of-exchange"></a>Documentindelingen voor wissels instellen
 
 Klik op de pagina **Bankrekeningen** op **Instellingen**. Geef de documentindeling op die is vereist voor elke bankrekening waarvoor u afgedrukte wisseldocumenten wilt genereren.
-Klanten voor wissels instellen
---------------------------------------
+
+## <a name="set-up-customers-for-bills-of-exchange"></a>Klanten voor wissels instellen
 
 Op het tabblad **Standaardwaarden betalingen** op de pagina **Klanten** kunt u een standaardbetalingsmethode instellen voor wissels voor elke klant die akkoord is gegaan met betaling per wissel.
 

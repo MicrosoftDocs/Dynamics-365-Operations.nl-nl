@@ -3,7 +3,7 @@ title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u Microsoft Dynamics 365 for Finance and Operations kunt aanpassen.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 05/24/2018
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
+ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
+ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -64,7 +64,7 @@ Verschillende mensen en bedrijven beschikken over een ander perspectief op de ge
 ### <a name="shortcut-menu-options"></a>Opties in snelmenu
 Snelmenu's bevatten een aantal manieren om een pagina expliciet te wijzigen om deze aan te passen aan uw behoeften of de vereisten van uw bedrijf. (Een snelmenu wordt ook wel een *rechtsklikmenu* of *contextmenu* genoemd.)
 
-Sommige van de meest gangbare en belangrijke wijzigingen die in een pagina kunnen worden aangebracht, zijn rechtstreeks als opties in een snelmenu beschikbaar. Als u bijvoorbeeld kolommen in een raster wilt toevoegen of verbergen, klikt u met de rechtermuisknop op een rasterkolomkop en selecteert u **Kolommen toevoegen** of **Kolommen verbergen**.
+Sommige van de meest gangbare en belangrijke wijzigingen die in een pagina kunnen worden aangebracht, zijn rechtstreeks als opties in een snelmenu beschikbaar. In platformupdate 17 kunt u bijvoorbeeld met de rechtermuisknop op een rasterkolomkop klikken en **Kolommen toevoegen** of **Kolommen verbergen** selecteren als u kolommen in een raster wilt toevoegen of verbergen.
 
 Bovendien zijn de meest algemene typen expliciete aanpassing beschikbaar door met de rechtermuisknop op een element te klikken en vervolgens **Aanpassen** te selecteren. (Houd er rekening mee dat niet alle elementen op uw pagina kunnen worden aangepast.) Wanneer u deze methode van aanpassing selecteert, ziet u het eigenschappenvenster van het element.
 
@@ -81,27 +81,38 @@ U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren
 Het eigenschappenvenster kan andere mogelijkheden voor aanpassing hebben, afhankelijk van het element. Met het eigenschappenvenster van een tegel kunt u de tegel bijvoorbeeld promoveren tot dashboard en met het eigenschappenvenster van een dashboard kunt u mogelijk een nieuwe werkruimte maken op dat dashboard.
 
 ### <a name="the-personalization-toolbar"></a>De werkbalk Aanpassing
-Als u elementen wilt verplaatsen of verbergen of verschillende wijzigingen wilt aanbrengen op een pagina, kunt u de werkbalk **Aanpassing** gebruiken. Als u de werkbalk **Aanpassing** wilt openen, selecteert u **Dit formulier aanpassen** in het eigenschappenvenster van een element. U kunt ook **Dit formulier aanpassen** selecteren in de groep **Aanpassen** op het tabblad **Opties** van het actievenster van elke pagina.
+Als u meerdere wijzigingen in een pagina wilt aanbrengen of wijzigingen wilt doorvoeren die niet beschikbaar zijn via andere mechanismen, zoals de volgorde van elementen wijzigen, kunt u de werkbalk **Aanpassing** gebruiken. Als u de werkbalk **Aanpassing** wilt openen, selecteert u **Dit formulier aanpassen** in het eigenschappenvenster van een element. U kunt ook **Dit formulier aanpassen** selecteren in de groep **Aanpassen** op het tabblad **Opties** van het actievenster van elke pagina.
 
 [![Aanpassingswerkbalk](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Terwijl de werkbalk **Aanpassing** open is, is de pagina niet-interactief. U kunt daarom geen gegevens invoeren of secties uit- of samenvouwen. U kunt alleen de elementen van de pagina wijzigen.
+#### <a name="navigating-the-page"></a>Navigeren op de pagina 
+In hoeverre u op de pagina kunt navigeren terwijl de werkbalk **Aanpassing** is geopend, is afhankelijk van de platformversie die u gebruikt. 
 
+- Vóór platformupdate 19 was de pagina alleen-lezen (u kon niets invoeren) en niet-interactief (u kon alleen wijzigingen aanbrengen in de zichtbare elementen op de pagina) als de werkbalk **Aanpassing** geopend was. Als u wijzigingen wilde aanbrengen in elementen in een samengevouwen sectie of op een ander tabblad, moest u de werkbalk **Aanpassing** sluiten, een sectie uitvouwen of schakelen naar het gewenste tabblad en de werkbalk **Aanpassing** vervolgens opnieuw openen.  
+
+- Vanaf platformupdate 19 is de pagina nog steeds alleen-lezen als de werkbalk **Aanpassing** is geopend, maar de pagina is wel veel interactiever. Op dezelfde manier als u anders zou doen, kunt u het feitenvak uit- of samenvouwen, schakelen tussen tabbladen en secties uit- of samenvouwen terwijl de werkbalk **Aanpassing** is geopend. Als u een samenvouwbare sectie of een tabblad wilt aanpassen (bijvoorbeeld om een sneltabblad te verbergen), activeert u de knop die naast de samenvouwbare sectie of het tabblad verschijnt wanneer deze focus krijgt of wanneer u de muisaanwijzer hierop plaatst.  
+
+#### <a name="personalization-tools"></a>Aanpassingsprogramma's
 De volgende hulpmiddelen zijn beschikbaar op de werkbalk **Aanpassing**:
 
 - Gebruik het hulpmiddel **Selecteren** om de eigenschappen van een element te wijzigen. Selecteer het hulpmiddel **Selecteren** en selecteer het element om de eigenschappen ervan te wijzigen. Wanneer u een element selecteert, wordt het eigenschappenvenster van het element geopend en kunt u eventuele eigenschappen van dat element wijzigen. U kunt het proces herhalen voor andere elementen die op een pagina kunnen worden aangepast. Vanwege de manier waarop bepaalde elementen worden gebruikt, staat Finance and Operations niet toe dat u bepaalde eigenschappen ervan wijzigt. Dus wanneer u een element selecteert, ziet u mogelijk enkele eigenschappen die niet kunnen worden gewijzigd. U kunt bijvoorbeeld geen veld verbergen dat vereist is.
-- Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. (U kunt een element niet buiten de bovenliggende groep verplaatsen.) Selecteer het hulpmiddel **Verplaatsen** en selecteer vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, scant Finance and Operations de pagina om te bepalen waar het element naartoe kan worden verplaatst. Vervolgens wordt een reeks 'neerzetzones' gemaakt. Terwijl u het element binnen de huidige groep versleept, wordt elke 'neerzetzone' weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
-- Gebruik het hulpmiddel **Verbergen** om een element op de pagina te verbergen. Selecteer het hulpmiddel **Verbergen** en selecteer vervolgens het element dat u wilt verbergen. Wanneer u het hulpmiddel **Verbergen** selecteert, worden alle elementen die momenteel verborgen zijn, zichtbaar gemaakt en in een grijze container weergegeven. U kunt deze vervolgens zichtbaar maken. Als u het hulpmiddel **Selecteren** selecteert, ziet u hoe de pagina eruitziet als de geselecteerde elementen worden verborgen.
-- Gebruik het hulpmiddel **Overzicht** als u wilt dat een element in de samenvattingssectie van het sneltabblad wordt weergegeven. Het hulpmiddel Overzicht heeft alleen betrekking op velden in een sneltabbladsectie. Wanneer u het hulpmiddel **Overzicht** selecteert, worden alle velden die zijn geselecteerd als overzichtsvelden, weergegeven in een grijze container. U kunt interactief velden toevoegen aan het sneltabbladoverzicht en velden uit het sneltabbladoverzicht verwijderen door de velden te selecteren.
-- Gebruik het hulpmiddel **Overslaan** om een element te verwijderen uit de volgorde van de toetsenbordtoets Tab van de pagina. Wanneer u het hulpmiddel **Overslaan** selecteert, worden alle elementen die momenteel overgeslagen worden, weergegeven in een grijze container. U kunt ze vervolgens weer deel laten uitmaken van de tabvolgorde.
-- Gebruik het hulpmiddel **Bewerken** wanneer u een element als bewerkbaar of niet bewerkbaar wilt markeren. Wanneer u het hulpmiddel **Bewerken** selecteert, worden alle elementen die momenteel niet-bewerkbaar zijn, weergegeven in een grijze container. U kunt deze vervolgens weer bewerkbaar maken. Merk op dat sommige velden verplicht zijn en niet niet-bewerkbaar kunnen worden gemaakt. Een hangslot wordt weergegeven naast deze velden.
-- Gebruik de knop **Invoegen** om een lijst te zien met elementen die kunnen worden ingevoegd op een pagina.
 
+- Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. (U kunt een element niet buiten de bovenliggende groep verplaatsen.) Selecteer het hulpmiddel **Verplaatsen** en selecteer vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, scant Finance and Operations de pagina om te bepalen waar het element naartoe kan worden verplaatst. Vervolgens wordt een reeks 'neerzetzones' gemaakt. Terwijl u het element binnen de huidige groep versleept, wordt elke 'neerzetzone' weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
+
+- Gebruik het hulpmiddel **Verbergen** om een element op de pagina te verbergen. Selecteer het hulpmiddel **Verbergen** en selecteer vervolgens het element dat u wilt verbergen. Wanneer u het hulpmiddel **Verbergen** selecteert, worden alle elementen die momenteel verborgen zijn, zichtbaar gemaakt en in een grijze container weergegeven. U kunt deze vervolgens zichtbaar maken. Als u het hulpmiddel **Selecteren** selecteert, ziet u hoe de pagina eruitziet als de geselecteerde elementen worden verborgen.
+    - Vanaf platformupdate 18 kunt u vereiste velden en secties met verplichte velden verbergen. Zo wordt u een vereenvoudigde ervaring geboden waarbij verplichte velden die standaard worden ingevuld op basis van zakelijke logica niet worden weergegeven. Verborgen verplichte velden zijn ook tijdelijk zichtbaar als ze leeg zijn terwijl wordt geprobeerd op te slaan. 
+
+- Gebruik het hulpmiddel **Overzicht** als u wilt dat een element in de samenvattingssectie van het sneltabblad wordt weergegeven. Het hulpmiddel Overzicht heeft alleen betrekking op velden in een sneltabbladsectie. Wanneer u het hulpmiddel **Overzicht** selecteert, worden alle velden die zijn geselecteerd als overzichtsvelden, weergegeven in een grijze container. U kunt interactief velden toevoegen aan het sneltabbladoverzicht en velden uit het sneltabbladoverzicht verwijderen door de velden te selecteren.
+
+- Gebruik het hulpmiddel **Overslaan** om een element te verwijderen uit de volgorde van de toetsenbordtoets Tab van de pagina. Wanneer u het hulpmiddel **Overslaan** selecteert, worden alle elementen die momenteel overgeslagen worden, weergegeven in een grijze container. U kunt ze vervolgens weer deel laten uitmaken van de tabvolgorde.
+
+- Gebruik het hulpmiddel **Bewerken** wanneer u een element als bewerkbaar of niet bewerkbaar wilt markeren. Wanneer u het hulpmiddel **Bewerken** selecteert, worden alle elementen die momenteel niet-bewerkbaar zijn, weergegeven in een grijze container. U kunt deze vervolgens weer bewerkbaar maken. Merk op dat sommige velden verplicht zijn en niet niet-bewerkbaar kunnen worden gemaakt. Een hangslot wordt weergegeven naast deze velden.
+
+- Gebruik de knop **Invoegen** om een lijst te zien met elementen die kunnen worden ingevoegd op een pagina.
     - Selecteer het hulpmiddel **Veld** onder **Invoegen** om een veld toe te voegen aan uw pagina. Als u werkt met het hulpmiddel **Veld**, kunt u alleen velden toevoegen die deel uitmaken van de paginadefinitie maar die momenteel niet worden weergegeven op de pagina. Zie voor informatie over het maken van nieuwe velden die geen deel uitmaken van de huidige paginadefinitie [Aangepaste velden](user-defined-fields.md). Nadat u het hulpmiddel **Veld** hebt geselecteerd, moet u eerst de groep of het gebied selecteren waar u een veld wilt toevoegen. Er wordt een dialoogvenster weergegeven met de lijst met velden die gerelateerd zijn aan de geselecteerde groep of het geselecteerde gebied. Selecteer in het dialoogvenster een of meer velden om toe te voegen en selecteer vervolgens **Invoegen**. Als u een veld wilt verwijderen dat u eerder hebt toegevoegd, herhaalt u de procedure, maar wist u de selectie van het veld in het dialoogvenster.
     - Selecteer het hulpmiddel **PowerApp** onder **Invoegen** om een app in te sluiten die met Microsoft PowerApps op de pagina is gemaakt. Zie voor gedetailleerde informatie over het insluiten van een PowerApps-app in een pagina [Ingesloten PowerApps](embed-power-apps.md).
 
 - Selecteer de knop **Beheren** om een lijst met beheeropties te bekijken met betrekking tot alle aanpassingen voor de huidige pagina.
-
     - Selecteer **Wissen** om de pagina weer op de standaard, geïnstalleerde toestand in te stellen. Alle aanpassingen op de huidige pagina worden gewist. Er is geen actie ongedaan maken. Gebruik deze optie daarom alleen als u zeker weet dat u de pagina opnieuw wilt instellen.
     - Selecteer **Importeren** om een aanpassing uit een aanpassingsbestand te laden die u of iemand anders eerder voor de pagina heeft gemaakt. Alle huidige aanpassingen voor de pagina worden vervangen door de aanpassingen uit het geselecteerde bestand.
     - Selecteer **Exporteren** om uw aanpassingen voor de pagina op te slaan in een bestand. U kunt uw aanpassingen delen met andere gebruikers. Deze gebruikers hoeven alleen het bestand te importeren dat uw aanpassingen voor de pagina bevat.

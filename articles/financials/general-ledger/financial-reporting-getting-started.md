@@ -3,7 +3,7 @@ title: "Financiële rapportage"
 description: "In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 for Finance and Operations en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat een omschrijving van de financiële standaardrapporten die worden geleverd."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -115,11 +115,13 @@ Financiële rapportage bevat 22 standaard financiële rapporten. Elk rapport geb
 Wanneer u op het menu **Financiële rapportage** klikt, wordt de lijst van financiële rapporten voor het bedrijf weergegeven. U kunt een rapport vervolgens openen of wijzigen. Als u een van de standaardrapporten wilt openen, selecteert u de rapportnaam. De eerste keer dat een rapport wordt geopend, wordt het automatisch gegenereerd voor de vorige maand. Als u bijvoorbeeld een rapport voor de eerste keer opent in augustus 2016, wordt het rapport gegenereerd voor 31 juli 2016. Nadat een rapport is geopend, kunt u beginnen met het verkennen ervan door in te zoomen op specifieke gegevensitems en rapportopties te wijzigen.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Het maken en wijzigen van het financiële rapporten
-Via de financiële verslagenlijst kunt u een nieuw rapport maken of een bestaand rapport wijzigen. Als u de juiste machtigingen hebt, kunt u een nieuwe financieel rapport maken door te klikken op **Nieuw** in het actievenster. Er wordt een rapportontwerpersprogramma gedownload naar uw apparaat. Nadat de rapportontwerper is gestart, kunt u vervolgens het nieuwe rapport maken. Nadat u het nieuwe rapport hebt opgeslagen, verschijnt het in de lijst met financiële rapporten. De lijst bevat alleen rapporten die voor het bedrijf zijn gemaakt en die u in Finance and Operations gebruikt. Raadpleeg voor meer informatie over het maken en wijzigen van financiële rapporten in Finance and Operations deze [blogberichten](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) uit de blog voor financiële rapportage van Dynamics. **Opmerking:** op de computer waarop u de rapportontwerpersclient downloadt, moet versie 4.6.2 van Microsoft .NET Framework zijn geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd vanaf [hier](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de rapportontwerpersclient te downloaden. Als u in de incognito modus werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. U kunt ook een rapport wijzigen dat in de lijst met financiële rapporten verschijnt. Wanneer u het gebied rond de rapportnaam hebt geselecteerd, klikt u op **Bewerken** in het Actievenster. Het rapportontwerperprogramma wordt gestart.
+Via de financiële verslagenlijst kunt u een nieuw rapport maken of een bestaand rapport wijzigen. Als u de juiste machtigingen hebt, kunt u een nieuwe financieel rapport maken door te klikken op **Nieuw** in het actievenster. Er wordt een rapportontwerpersprogramma gedownload naar uw apparaat. Nadat de rapportontwerper is gestart, kunt u vervolgens het nieuwe rapport maken. Nadat u het nieuwe rapport hebt opgeslagen, verschijnt het in de lijst met financiële rapporten. De lijst bevat alleen rapporten die voor het bedrijf zijn gemaakt en die u in Finance and Operations gebruikt. 
+
+> [!NOTE] 
+> Op de computer waarop u de rapportontwerpersclient downloadt, moet versie 4.6.2 van Microsoft .NET Framework zijn geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de rapportontwerpersclient te downloaden. Als u in de incognito modus werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. U kunt ook een rapport wijzigen dat in de lijst met financiële rapporten verschijnt. Wanneer u het gebied rond de rapportnaam hebt geselecteerd, klikt u op **Bewerken** in het Actievenster. Het rapportontwerperprogramma wordt gestart.
 
 ## <a name="additional-resources"></a>Aanvullende resources
 - [Financiële rapporten weergeven](view-financial-reports.md)
-- [Blog met financiële rapportage van Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

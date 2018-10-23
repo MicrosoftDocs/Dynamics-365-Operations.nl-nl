@@ -1,28 +1,29 @@
 --- 
-title: Semansys XBRL-integratie (Nederland)
+title: NL-00003 Semansys XBRL-integratie
 description: "Deze procedure begeleidt u door het gebruik van Nederlandse functionaliteit om financiële gegevens naar de XML-indeling te exporteren."
 author: mrolecki
 manager: AnnBe
-ms.date: 02/26/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Dialog
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Netherlands
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f2c5fc4f5e6cd30cb18b7d54d0c7b51cd3dd03b0
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 147de4823c0fced8c87234d77f31b6af1912101a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="semansys-xbrl-integration-netherlands"></a>Semansys XBRL-integratie (Nederland)
+# <a name="nl-00003-semansys-xbrl-integration"></a>NL-00003 Semansys XBRL-integratie
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

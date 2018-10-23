@@ -18,10 +18,10 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 7061ee2e8b22d29381131815898902a482b7b730
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 09/21/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/29/2018
 
 In dit artikel wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance and Operations of Microsoft Dynamics Lifecycle Services (LCS). 
 
-<a name="contact-support"></a>Contact opnemen met ondersteuning
----------------
+## <a name="contact-support"></a>Contact opnemen met ondersteuning
 
 Met de informatie in dit artikel kunt u contact opnemen met Microsoft als u technische vragen hebt over Finance and Operations of als u hulp nodig hebt om toegang te krijgen tot Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -89,8 +88,10 @@ Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSour
 </tbody>
 </table>
 
-Voor meer informatie over ondersteuningsmogelijkheden van Microsoft Dynamics zie [Microsoft Dynamics Online ondersteuning](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
-
+## <a name="additional-resources"></a>Aanvullende resources
+- [Ondersteuning krijgen voor Dynamics 365 for Retail](../../retail/retail-support.md)
+- [Ondersteuning krijgen voor Dynamics 365 for Talent](../../talent/talent-support.md)
+- Voor meer informatie over ondersteuningsmogelijkheden van Microsoft Dynamics zie [Microsoft Dynamics Online ondersteuning](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
 
