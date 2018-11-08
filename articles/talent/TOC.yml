@@ -1,11 +1,20 @@
-- name: Welkom bij Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: Aan de slag
       href: talent-get-started.md
       items:
         - name: Wat is nieuw of gewijzigd
+          href: whats-new.md
           items:
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (31 oktober 2018)
+              href: whats-new-talent-october-31.md
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (19 oktober 2018)
+              href: whats-new-talent-october-19.md
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (15 oktober 2018)
+              href: whats-new-talent-october-11.md
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (8 oktober 2018)
+              href: whats-new-talent-october-8.md
             - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (1 oktober 2018)
               href: whats-new-talent-october-01.md
             - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (24 september 2018)
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR en Common Data Service voor Apps
           href: CoreHREntities.md
+        - name: Integraties
+          href: talent-financeandoperations-integration.md
         - name: Toegang tot voorbeeldfuncties
           href: access-preview-feature.md
         - name: De integratie van de salarisadministratie tussen Talent en Dayforce configureren
@@ -64,6 +75,34 @@
       items:
         - name: Functies en voorzieningen van Attract
           href: attract-overview.md
+        - name: Een processjabloon maken in Attract
+          href: Process-templates-Attract.md
+        - name: 'Functies maken, goedkeuren en boeken in Attract'
+          href: Creating-jobs-Attract.md
+        - name: Sourcing met Talent-pools
+          href: attract-talent-pools.md
+        - name: Sourcing met LinkedIn Recruiter
+          href: attract-linked-in-recruiter.md
+        - name: Activiteiten voor aanstellingsproces in Attract
+          href: activities-attract.md
+        - name: Uitbreidbaarheid
+          href: extensibility-attract.md
+        - name: Vacaturesite en ervaring van kandidaat
+          href: career-site.md
+        - name: Aanbiedingsbeheer instellen
+          href: offer-setup.md
+        - name: 'Aanbiedingen maken, goedkeuren en ondertekenen'
+          href: creating-offers.md
+        - name: E-mailsjablonen maken en beheren
+          href: email-templates.md
+        - name: Rapportage en analyse
+          href: Reporting-Analytics-Attract.md
+        - name: Beveiliging en rollenbeheer in Attract
+          href: security-attract.md
+        - name: Beheerinstellingen in Attract
+          href: Admin-Settings-Attract.md
+        - name: Intelligente aanbevelingen
+          href: Intelligent-Recommendations.md
         - name: Een aantrekkelijke onboarding-ervaring maken
           href: create-onboarding-experience.md
     - name: Medewerkers motiveren

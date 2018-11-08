@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: Uitbreidbaarheidswijzigingen versie 8.1
               href: extensibility/extensibility-changes-81.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Uitbreidbaarheidswijzigingen versie 8.1.2
+              href: extensibility/extensibility-changes-812.md
         - name: Basisgegevens
           items:
             - name: Ingrijpende aanpassingen
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: Eigenschappen voor formulierbesturing wijzigen
               href: extensibility/modify-control-properties.md
-            - name: Labels wijzigen met labeluitbreidingsbestanden
-              href: extensibility/change-label.md
             - name: Bereik van nummerreeksen verlengen
               href: extensibility/extend-number-sequence-scope.md
             - name: Nieuwe voorraaddimensies toevoegen
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: Tabeltoewijzingen uitbreiden die worden gebruikt voor versiebeheer
               href: extensibility/maps-with-versioning.md
+            - name: Precisie decimaalteken uitbreiden voor geselecteerde gegevenstypen
+              href: extensibility/decimal-point-precision.md
         - name: Uitbreidbare oplossingen maken
           items:
             - name: Uitbreidbare code schrijven
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Uitbreidbaarheid van besturingselement
       items:
-        - name: aextensible besturingselementen maken
+        - name: Uitbreidbare besturingselementen maken
           href: user-interface/build-extensible-control.md
         - name: Sneltoetsen voor uitbreidbare besturingselementen
           href: user-interface/keyboard-shortcuts-controls.md
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: Type ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Gegevensintegratie
+- name: Algemene verordening gegevensbescherming (AVG)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: Een strategie voor gegevensintegratie kiezen (importeren/exporteren)
-      href: data-entities/integration-overview.md
-    - name: Gegevensintegratie-API's
-      items:
-        - name: REST API voor gegevensbeheerpakket
-          href: data-entities/data-management-api.md
-        - name: Service-eindpunten
-          href: data-entities/services-home-page.md
-          items:
-            - name: Problemen oplossen met serviceverificatie
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: Aangepaste service-ontwikkeling
-          href: data-entities/custom-services.md
-        - name: Terugkerende integraties
-          href: data-entities/recurring-integrations.md
-        - name: Services testen met hulpprogramma's van derden
-          href: data-entities/third-party-service-test.md
-    - name: Ontwikkeling voor integratie
-      items:
-        - name: Gegevensbeheer en integratie met gegevensentiteiten
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: Entiteiten voor gegevensmigratie ontwikkelen
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: Samengestelde gegevensentiteiten ontwikkelen
-              href: data-entities/develop-composite-data-entities.md
-            - name: Delen van financiële gegevens tussen bedrijven configureren
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: Recordsjablonen maken om de invoer van gegevens te vergemakkelijken
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Records maken met recordsjablonen
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: Gegevensintegratie via Common Data Service
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: Een scenario van prospect tot contant geld configureren
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: Accounts in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: Producten van Finance and Operations rechtstreeks synchroniseren met producten in Sales
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: Integratie met Field Service configureren
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: Producten van Finance and Operations synchroniseren met producten in Field Service
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Project Service Automation-integratie configureren
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: Project Service Automation-integratieparameters
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: Projectcontracten en projecten synchroniseren
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: Projecttaken synchroniseren
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: Onkostencategorieën project synchroniseren
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: Projectramingen synchroniseren met projectprognoses
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: Werkelijke projectwaarden synchroniseren met het projectintegratiejournaal
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: Externe webservices gebruiken
-          href: data-entities/consume-external-web-service.md
-- name: Gegevensbeheer
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: Gegevensentiteiten
-      href: data-entities/data-entities.md
-      items:
-        - name: Configuratie gegevensprojecten
-          href: data-entities/configuration-data-projects.md
-        - name: Pakketten met configuratiegegevens
-          href: data-entities/configuration-data-packages.md
-        - name: Configuratiegegevens kopiëren tussen bedrijven
-          href: data-entities/copy-configuration.md
-        - name: Gegevenssjablonen voor configuratie
-          href: data-entities/configuration-data-templates.md
-        - name: Sjablonen met meerdere werkbladen
-          href: data-entities/excel-template-multiple.md
-        - name: Wijzigingen bijhouden voor entiteiten inschakelen
-          href: data-entities/entity-change-track.md
-        - name: Configuratiesleutels en gegevensentiteiten
-          href: data-entities/config-key-entities.md
-        - name: Informatie zoeken over standaardgegevensentiteiten
-          href: data-entities/data-entities-report.md
-    - name: Gegevensimport- en exporttaken
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: Ontwikkeling van gegevensentiteiten
-      items:
-        - name: Richtlijnen en aanbevolen procedures voor gegevensentiteiten
-          href: dev-tools/design-best-practices.md
-        - name: Nieuwe gegevensentiteiten maken
-          href: data-entities/build-consuming-data-entities.md
-        - name: Eigenschappen van gedragsgegevensentiteit
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: Berekende kolommen en virtuele velden maken
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: Gedrag voor meerdere bedrijven
-          href: data-entities/cross-company-behavior.md
-        - name: Land-/ regiocodes en configuratiesleutels
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Overnamepatronen
-          href: data-entities/support-super-type-sub-type.md
-        - name: Regels voor wizard voor gegevensentiteiten
-          href: data-entities/data-entity-wizard-rules.md
-        - name: Eigenschappen van metagegevens
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Validaties, standaardwaarden en niet-toegewezen velden'
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: Beveiliging en gegevensentiteiten
-          href: data-entities/security-data-entities.md
-        - name: Alleen-lezen entiteiten maken die toegang bieden tot financiële dimensies
-          href: financial/read-only-entity-financial.md
-    - name: Uw eigen database gebruiken
-      href: analytics/export-entities-to-your-own-database.md
-    - name: Automatisering van gegevenstaak
-      href: data-entities/data-task-automation.md
-    - name: Bronnen voor het reageren op een AVG-aanvragen
+    - name: Bronnen voor het reageren op AVG-aanvragen
       href: gdpr/gdpr-home-page.md
       items:
-        - name: Handleiding voor AVG voor Finance and Operations
-          href: gdpr/gdpr-guide.md
         - name: Classificaties van activa
           href: gdpr/gdpr-asset-classification-values.md
         - name: Rapport voor persoon zoeken
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: AVG-gegevensaanvragen voor LCS
           href: gdpr/gdpr-lcs.md
-    - name: Werkgebied Controlelijst voor gegevensvalidatie
-      href: user-interface/data-validation-workspace.md
-    - name: Foutbeschrijvingen voor gegevensbeheer
-      href: data-entities/dm-error-descriptions.md
 - name: Continue levering
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: On-premises omgevingen instellen en implementeren
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: On-premises omgevingen implementeren in Platform update 12
+            - name: On-premises omgevingen implementeren (Platform update 12 en later)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: On-premises omgevingen implementeren in Platform updates 8 en 11
+            - name: On-premises omgevingen implementeren (Platform updates 8 en 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving
+              href: deployment/deploy-retail-onprem.md
         - name: Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: Reverse-proxy's voor on-premises omgevingen configureren
@@ -1161,6 +1027,8 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Ontwikkelingshulpmiddelen bijwerken
           href: dev-tools/update-development-tools.md
+        - name: Plannen en voorbereiden voor compileren van code op basis van de meest recente update
+          href: migration-upgrade/compile-considerations.md
     - name: Upgraden naar een recente update (on-premises)
       items:
         - name: Updates toepassen op on-premises implementaties
@@ -1226,6 +1094,12 @@
           href: sysadmin/batch-server-overview.md
         - name: Batchtaken maken
           href: sysadmin/tasks/create-batch-job.md
+        - name: Een batchtaak kopiëren
+          href: sysadmin/copy-batch-job.md
+        - name: Actieve batchperioden
+          href: sysadmin/activeperiod.md
+        - name: Beveiligingsrol batchbeheerder
+          href: sysadmin/runby.md
     - name: Optimization advisor
       href: sysadmin/optimization-advisor-overview.md
       items:
