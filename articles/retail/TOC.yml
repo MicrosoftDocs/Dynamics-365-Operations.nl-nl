@@ -14,6 +14,8 @@
       href: dev-itpro/choose-deployment.md
     - name: Ondersteuning voor Retail
       href: retail-support.md
+    - name: Veelgestelde vragen over updates van service met één versie
+      href: ../fin-and-ops/get-started/one-version.md
 - name: De levenscyclus van de implementatie begrijpen
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -145,8 +147,6 @@
       items:
         - name: Randapparatuur detailhandel
           href: retail-peripherals-overview.md
-        - name: Door Microsoft geteste POS-randapparatuur
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: Randapparatuursimulator voor detailhandel
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Randapparaten aansluiten op het POS
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: Kortingen en prijscorrecties
   items:
-    - name: Verkoopprijsbeheer Retail
+    - name: Detailhandelkortingen
+      href: retail-discounts-overview.md
+    - name: Verkoopprijsbeheer detailhandel
       href: price-management.md
     - name: Prijscorrecties en kortingen
       href: price-adjustments-discounts.md
@@ -271,7 +273,7 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Loyaliteit
   items:
-    - name: Klantloyaliteitsprogramma's instellen
+    - name: Loyaliteitsoverzicht
       href: set-up-customer-loyalty-program.md
 - name: Voorraad
   items:
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: Lokalisatie en wettelijk voorgeschreven functies
   items:
+    - name: Fiscale integratie voor detailhandelskanaal
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: Oost-Europa
       items:
         - name: Aanbetaling van facturen voor Retail voor Oost-Europa
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: Klantfacturen Retail en retourverkooporders in Oost-Europese landen
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Implementatierichtlijnen voor kassa''s voor Tsjechië, Hongarije en Polen'
+          href: localizations/emea-eeu-deployment.md
     - name: Frankrijk
       items:
         - name: Kassafunctionaliteit
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: Ondersteuning voor upgrade en N-1 voor India
           href: localizations/apac-ind-n-1-for-india.md
+    - name: Italië
+      items:
+        - name: Integratie fiscale printer
+          href: localizations/emea-ita-fpi-sample.md
     - name: Noorwegen
       items:
         - name: Kassafunctionaliteit
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: POS-bewerkingen toevoegen aan POS-indelingen met de ontwerpfunctie van het knoppenraster
           href: dev-itpro/add-POS-operations.md
+        - name: Retail POS-API's
+          href: dev-itpro/POS-APIs.md
         - name: Uitbreiding van POS-betaling
           href: dev-itpro/pos-payment-extension.md
         - name: Ondersteuning voor externe geschenkbonnen

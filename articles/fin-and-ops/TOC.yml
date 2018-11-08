@@ -34,6 +34,8 @@
         - name: Wat is nieuw of gewijzigd
           href: get-started/whats-new-changed.md
           items:
+            - name: Veelgestelde vragen over updates van service met één versie
+              href: get-started/one-version.md
             - name: Lifecycle-beleid voor software en cloudversies
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Lifecycle-beleid voor software en on-premises versies
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Functies die niet zijn geïmplementeerd in On-premises implementaties
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22 (november 2018)
+              href: get-started/whats-new-platform-update-22.md
+            - name: Finance and Operations versie 8.1.2 (november 2018)
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: Finance and Operations versie 8.1.1 (oktober 2018)
+              href: get-started/whats-new-changed-8-1-1.md
             - name: Finance and Operations versie 8.1 (oktober 2018)
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 21 (oktober 2018)
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20 (september 2018)
               href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations versie 8.0 (april 2018)
@@ -300,7 +310,7 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: Gegevensintegratie-API's
           items:
-            - name: API voor gegevensbeheerpakket
+            - name: REST API voor gegevensbeheerpakket
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Service-eindpunten
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Aangepaste services
+            - name: Aangepaste service-ontwikkeling
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: Terugkerende integraties
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: Services testen met hulpprogramma's van derden
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: Ontwikkeling voor integratie
           items:
             - name: Gegevensintegratie met gegevensentiteiten
@@ -324,9 +336,9 @@
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: Delen van financiële gegevens tussen bedrijven configureren
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: Een recordsjabloon maken om de invoer van gegevens te vergemakkelijken
+                - name: Recordsjablonen maken om de invoer van gegevens te vergemakkelijken
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: Een nieuwe record maken met een recordsjabloon
+                - name: Records maken met recordsjablonen
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Gegevensintegratie via de Common Data Service
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,6 +395,8 @@
             - name: Configuratiegegevens kopiëren tussen bedrijven of rechtspersonen
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Pakketten met configuratiegegevens
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Configuratiegegevenspakketten (alleen voor de release van juli 2017)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Gegevenssjablonen voor configuratie
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Informatie zoeken over standaardgegevensentiteiten
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: Sjablonen met meerdere werkbladen
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: Wijzigingen bijhouden voor entiteiten inschakelen
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: Configuratiesleutels en gegevensentiteiten
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: Pakketten met configuratiegegevens
@@ -400,8 +418,10 @@
           items:
             - name: Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
-        - name: Ontwikkeling voor gegevensentiteiten
+        - name: Ontwikkeling van gegevensentiteiten
           items:
+            - name: Richtlijnen en aanbevolen procedures voor gegevensentiteiten
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: Nieuwe gegevensentiteiten maken
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Eigenschappen van gegevensentiteit
@@ -424,16 +444,20 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Hulpprogramma's voor servicetests van derden gebruiken
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: Alleen-lezen entiteiten maken die toegang bieden tot financiële dimensies
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: Uw eigen database gebruiken
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Automatisering van gegevenstaak
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: Werkgebied voor validatie van gegevens
+        - name: Werkgebied Controlelijst voor gegevensvalidatie
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: Foutbeschrijvingen voor gegevensbeheer
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Financieel beheer
       href: ../financials/index.md
       items:
-        - name: Leveranciers
+        - name: Crediteuren
           href: ../financials/accounts-payable/accounts-payable.md
           items:
             - name: Overzicht van leveranciersfacturen
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: Rekeningstructuren configureren
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: Twee valuta's
+                  href: ../financials/general-ledger/dual-currency.md
             - name: Journalen en grootboeken
               items:
                 - name: Algemene journaalverwerking
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: Eén boekstuk
                   href: ../financials/general-ledger/one-voucher.md
+                - name: Grootboekvereffeningen
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: Einde van periode afsluiten
               items:
                 - name: Het grootboek aan het einde van de periode afsluiten
@@ -1799,6 +1827,10 @@
             - name: Overzicht van belastingberekenfunctie
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: Configuratie importeren
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: Toepasbaarheid van belastingberekenfunctie
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: Integratie van belastingberekenfunctie
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: De belastingberekenfunctie uitbreiden
@@ -2100,6 +2132,8 @@
         - name: Polen
           href: ../financials/localizations/poland.md
           items:
+            - name: Stornoboekhouding activeren
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: Regelkortingen berekenen op basis van eenheidsprijs
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: Correctienotities
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Btw-aangiften
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Nummerreeksen instellen per magazijn
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: Standaard auditfile
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Rente over belasting en vrije rente
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Dagelijkse bewerkingen voor voorschothouders
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: Geavanceerde rapporten voor budgetbeheer
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: Vreemde valuta opnieuw evalueren voor voorschothouders
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: Rapporten voorschothouders
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: Bank
+              items:
+                - name: Bankrekeningen instellen
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: Betalingsopdrachten instellen en verwerken
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: Vaste activa
               items:
                 - name: Vaste activa verwerven en in werking stellen
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Verwervingen van vaste activa registreren
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: Budgetjournalen maken en boeken voor verwervingen van vaste activa
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: Telling van vaste activa
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: Herwaardering valuta voor vaste activa
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Kosten van vaste activa en afschrijving opnieuw evalueren
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: Vaste activa gedeeltelijk disassembleren (liquidatie)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: Betalingsopdrachten instellen en verwerken
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: 'Activa verkopen, afstoten en afschrijven'
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: Vaste-activalocaties en nummering instellen
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: Afschrijving instellen
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: Afschrijvingsmethoden
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: Bonusafschrijving
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: Afschrijving berekenen
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: Bedrijfsdivisies
+              href: ../financials/localizations/rus-company-divisions.md
             - name: Wisselkoersen instellen voor valutatransacties
               href: ../financials/localizations/rus-exchange-difference.md
             - name: Voorbeeld van grootboektransacties weergeven
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: Beambten instellen
               href: ../financials/localizations/rus-officials.md
-            - name: Bankrekeningen instellen
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: Belasting toegevoegde waarde (btw) voor belastingmedewerkers
               href: ../financials/localizations/rus-tax-agent.md
             - name: Dimensiecontrole voor vereffeningen instellen
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: Facturen voor betaling
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: Saudi-Arabië
           href: ../financials/localizations/saudi-arabia.md
           items:
