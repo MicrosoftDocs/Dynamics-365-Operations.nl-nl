@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
-ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
+ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
+ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/03/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -71,7 +71,7 @@ Schermindelingsconfiguraties bepalen de acties, inhoud en plaatsing van de UI-be
 
 ### <a name="assignment"></a>Toewijzing
 
-Schermindelingen kunnen worden toegewezen op het niveau van de winkel of gebruiker. De gebruikerstoewijzing heeft voorrang op de kassa- en winkeltoewijzingen, de kassatoewijzing heeft voorrang op de winkeltoewijzing. In een eenvoudig scenario waarin alle gebruikers dezelfde indeling gebruiken, ongeacht de kassa of rol, kan de schermindeling alleen op winkelniveau worden ingesteld. In gevallen waarin bepaalde kassa's of gebruikers speciale indelingen vereisen, kunnen deze worden toegewezen.
+Schermindelingen kunnen worden toegewezen op het niveau van de winkel, kassa of gebruiker. De gebruikerstoewijzing heeft voorrang op de kassa- en winkeltoewijzingen, de kassatoewijzing heeft voorrang op de winkeltoewijzing. In een eenvoudig scenario waarin alle gebruikers dezelfde indeling gebruiken, ongeacht de kassa of rol, kan de schermindeling alleen op winkelniveau worden ingesteld. In gevallen waarin bepaalde kassa's of gebruikers speciale indelingen vereisen, kunnen deze worden toegewezen.
 
 ### <a name="layout-sizes"></a>Indelingsgrootten
 
