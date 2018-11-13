@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 06ab745d9df9b095b861cf7bc79aba6d1361eeb0
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: d25ca64fb6a3fa7d7898ec68568703f3de7b1595
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -50,11 +50,12 @@ ms.lasthandoff: 08/07/2018
 | <span data-ttu-id="5adc6-128">Workflow voor toepassing voor het toevoegen van leveranciers</span><span class="sxs-lookup"><span data-stu-id="5adc6-128">Vendor add application workflow</span></span>  | <span data-ttu-id="5adc6-129">Controle- en goedkeuringsworkflows maken voor het toevoegen van nieuwe leveranciers via leverancieraanvragen.</span><span class="sxs-lookup"><span data-stu-id="5adc6-129">Create review and approval workflows for adding new vendors via vendor requests.</span></span> |
 
 ## <a name="creating-a-workflow"></a><span data-ttu-id="5adc6-130">Een werkstroom maken</span><span class="sxs-lookup"><span data-stu-id="5adc6-130">Creating a workflow</span></span>
+
 <span data-ttu-id="5adc6-131">Om een werkstroom te maken, gaat u naar Inkoop en sourcing &gt; Instellingen &gt; Werkstromen voor inkoop en sourcing en maakt u een nieuwe werkstroom door het type werkstroom te selecteren dat u wilt maken.</span><span class="sxs-lookup"><span data-stu-id="5adc6-131">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
 <span data-ttu-id="5adc6-132">U kunt in het werkstroomcanvas werkstroomelementen in de ontwerper slepen en de elementen in een stroom koppelen.</span><span class="sxs-lookup"><span data-stu-id="5adc6-132">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="5adc6-133">De werkstroomelementen moeten worden geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="5adc6-133">The workflow elements should be configured.</span></span> <span data-ttu-id="5adc6-134">Voor goedkeurings- en taakwerkstroomelementen kunt u configureren welke deelnemer de actie moet uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="5adc6-134">For approval and task workflow elements you can configure which participant should take action.</span></span>
-<span data-ttu-id="5adc6-135">Typen deelnemers</span><span class="sxs-lookup"><span data-stu-id="5adc6-135">Types of participants</span></span>
-----------------------
+
+## <a name="types-of-participants"></a><span data-ttu-id="5adc6-135">Typen deelnemers</span><span class="sxs-lookup"><span data-stu-id="5adc6-135">Types of participants</span></span>
 
 <span data-ttu-id="5adc6-136">U kunt een goedkeuringsstap toewijzen aan de volgende groepen deelnemers.</span><span class="sxs-lookup"><span data-stu-id="5adc6-136">You can assign an approval step to the following groups of participants.</span></span>
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 08/07/2018
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="5adc6-149">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="5adc6-149">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="5adc6-149">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="5adc6-149">Additional resources</span></span>
 
-[<span data-ttu-id="5adc6-150">Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren</span><span class="sxs-lookup"><span data-stu-id="5adc6-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [<span data-ttu-id="5adc6-150">Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren</span><span class="sxs-lookup"><span data-stu-id="5adc6-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[<span data-ttu-id="5adc6-151">Workflow voor opdracht tot inkoop</span><span class="sxs-lookup"><span data-stu-id="5adc6-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
+- [<span data-ttu-id="5adc6-151">Workflow voor opdracht tot inkoop</span><span class="sxs-lookup"><span data-stu-id="5adc6-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
-[<span data-ttu-id="5adc6-152">Leveranciers onboarden</span><span class="sxs-lookup"><span data-stu-id="5adc6-152">Onboarding vendors</span></span>](vendor-onboarding.md)
+- [<span data-ttu-id="5adc6-152">Leveranciers onboarden</span><span class="sxs-lookup"><span data-stu-id="5adc6-152">Onboarding vendors</span></span>](vendor-onboarding.md)
 
 
