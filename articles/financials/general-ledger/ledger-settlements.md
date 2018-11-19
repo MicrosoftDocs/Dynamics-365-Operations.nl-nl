@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Grootboekvereffeningen
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Met grootboekvereffeningen kunt u debet- en credittransacties in het grootboek afstemmen en markeren als vereffend. Op deze manier kunt u ervoor zorgen dat verwante transacties zijn gewist. U kunt ook vereffeningen omkeren als deze per ongeluk zijn aangebracht.
 
