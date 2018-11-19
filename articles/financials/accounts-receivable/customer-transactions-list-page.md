@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 79479f6949c52830918598583ee91dd85d2d7ac3
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Vereffeningen weergeven
 
-De knop **Vereffeningen weergeven** in het actievenster biedt snelle toegang tot de vereffeningshistorie en meer informatie over de gehele vereffeningstransactie. U kunt ook extra transacties weergeven die zijn gerelateerd aan de geselecteerde transactie, omdat ze deel uitmaakten van dezelfde vereffening of omdat dit betalingen zijn die zijn gemaakt in hetzelfde betalingsjournaal.
+De knop **Vereffeningen weergeven** in het actievenster biedt snelle toegang tot de vereffeningshistorie en gedetailleerde informatie over de gehele vereffeningstransactie. U kunt ook extra transacties weergeven die zijn gerelateerd aan de geselecteerde transactie, omdat ze deel uitmaakten van dezelfde vereffening of omdat dit betalingen zijn die zijn gemaakt in hetzelfde betalingsjournaal.
 
 1. Selecteer **Klanten \> Alle klanten**.
 2. Selecteer een klant die transacties heeft en selecteer vervolgens in het actievenster op het tabblad **Klant** de optie **Transacties**.
@@ -49,7 +49,7 @@ De knop **Vereffeningen weergeven** in het actievenster biedt snelle toegang tot
 
 ## <a name="global-transactions"></a>Algemene transacties
 
-De knop **Algemene transacties** is toegevoegd aan de klantpagina. Met deze knop kunt u alle transacties voor een klant voor alle rechtspersonen bekijken. Op de pagina **Klanttransacties** worden alleen transacties weergegeven voor de rechtspersonen waartoe de gebruiker toegang heeft, op basis van zijn of haar beveiligingsinstellingen.
+De knop **Algemene transacties** wordt ook weergegeven op de lijstpagina **Klanttransacties**. Met deze knop kunt u alle transacties voor een klant voor alle rechtspersonen bekijken. Op de pagina **Klanttransacties** worden alleen transacties weergegeven voor de rechtspersonen waartoe de gebruiker toegang heeft, op basis van zijn of haar beveiligingsinstellingen.
 
 Op de lijstpagina worden alle transacties weergegeven voor klanten met dezelfde partij-id als de klant waarmee u bent begonnen. Heeft klant US-001 in de ene rechtspersoon bijvoorbeeld dezelfde partij-id als klant DE-001 in een andere rechtspersoon, dan worden alle transacties voor beide klant-id's weergegeven.
 
@@ -67,13 +67,13 @@ Het filter voor het weergeven van openstaande transacties is vervangen door een 
 - **Alle**: alle transacties voor de geselecteerde klanten weergeven (openstaand en afgesloten).
 - **Afgesloten**: alleen transacties weergeven die volledig zijn vereffend en afgesloten.
 - **Openstaand**: alleen transacties weergeven die niet volledig zijn vereffend.
-- **Open vanaf datum**: alleen transacties weergeven die nog niet volledig zijn vereffend op de door u opgegeven datum. Wanneer u deze optie selecteert, kunt u de datum wijzigen die wordt weergegeven naast het filter. Transacties met een waarde voor **laatste vereffeningsdatum** na de datum die u opgeeft, worden weergegeven in de lijst, zelfs als deze transacties volledig zijn vereffend op de huidige datum. Het saldo staat echter voor de saldi op de huidige datum, niet op de geselecteerde datum.
+- **Open inclusief afgesloten op of na datum**: alleen transacties weergeven die nog niet volledig zijn vereffend op of na een datum die u opgeeft. Wanneer u deze optie selecteert, kunt u de datum wijzigen die wordt weergegeven naast het filter. Transacties met een waarde voor **laatste vereffeningsdatum** op of na de datum die u opgeeft, worden weergegeven in de lijst, zelfs als deze transacties volledig zijn vereffend op de huidige datum. Het saldo staat echter voor de saldi op de huidige datum, niet op de geselecteerde datum.
 
-Er is ook een filter toegevoegd waarmee u transacties voor valutavertalingen kunt verbergen. Schakel het selectievakje **Herwaarderingen van valuta verbergen** in.
+Selecteer het selectievakje **Herwaarderingen van valuta verbergen** om transacties van valuta-omzetting te verbergen.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Verval- en kortingsdatums eenvoudiger wijzigen
+## <a name="modify-due-dates-and-discount-dates"></a>Verval- en kortingsdatums wijzigen
 
-U kunt verval- en kortingsdatums bijwerken voor openstaande klanttransacties. In versie 8.1 is deze ervaring verbeterd. U kunt nu vervaldatums toevoegen aan de lijstpagina **Klanttransacties**. Door te klikken op de vervaldatum op de lijstpagina **Klanttransacties**, kunt u ook vervaldatums, kortingsdatums, betalingsvoorwaarden en voorwaarden voor contantkorting wijzigen in het dialoogvenster **Vervaldatum en datums contantkorting bijwerken**.
+U kunt verval- en kortingsdatums bijwerken voor openstaande klanttransacties. In release 8.1 kunt u nu vervaldatums toevoegen aan de lijstpagina **Klanttransacties**. Door te klikken op de vervaldatum op de lijstpagina **Klanttransacties**, kunt u ook vervaldatums, kortingsdatums, betalingsvoorwaarden en voorwaarden voor contantkorting wijzigen in het dialoogvenster **Vervaldatum en datums contantkorting bijwerken**.
 
 ### <a name="activate-the-feature"></a>De functie activeren
 
@@ -83,7 +83,7 @@ Voer deze stappen uit om vervaldatums toe te voegen aan de lijstpagina **Klanttr
 2. Stel op het tabblad **Vereffeningen** de optie **Vervaldatum weergeven en bewerken toestaan** in op **Ja**.
 3. Aan klanttransacties zijn nieuwe functies toegevoegd zodat u deze functie kunt inschakelen. Deze velden worden ingevuld wanneer een nieuwe transactie wordt voltooid. Ze worden ook ingevuld wanneer u het dialoogvenster **Vervaldatum en datums contantkorting bijwerken** opent. Wanneer u de optie **Vervaldatum weergeven en bewerken toestaan** op **Ja** instelt, wordt het dialoogvenster **Betaalgegevens bijwerken** geopend.  Als u bestaande transacties onmiddellijk wilt bijwerken, selecteert u **Alle bestaande transacties bijwerken**. Als u alleen de velden voor nieuwe transacties wilt invullen, selecteert u **Doorgaan zonder bijwerken**.
 
-De vervaldatum wordt nu toegevoegd aan de lijstpagina **Klanttransacties** en u kunt gemakkelijker de vervaldatum en datums voor contantkorting voor transacties wijzigen.
+De vervaldatum wordt nu toegevoegd aan de lijstpagina **Klanttransacties**, zodat u gemakkelijk de vervaldatum en datums voor contantkorting voor transacties kunt wijzigen.
 
 ### <a name="modify-the-payment-settings"></a>De betaalinstellingen wijzigen
 
@@ -91,7 +91,7 @@ Op de lijstpagina **Klanttransacties** worden alle transacties voor een klant we
 
 Elk veld heeft een ander effect op de transactie als u dit bewerkt:
 
-- **De basisdatum bewerken:** de vervaldatum en kortingsdatums worden gewijzigd alsof de basisdatum de documentdatum is.
+- **De basisdatum bewerken:** de vervaldatum en kortingsdatum worden gewijzigd alsof de basisdatum de documentdatum is.
 - **De vervaldatum bewerken:** alleen de vervaldatum wordt gewijzigd.
 - **De kortingsdatums bewerken:** alleen de kortingsdatums worden gewijzigd.
 - **De betalingsvoorwaarden bewerken:** de vervaldatum wordt gewijzigd op basis van de basisdatum en de betalingsvoorwaarden.

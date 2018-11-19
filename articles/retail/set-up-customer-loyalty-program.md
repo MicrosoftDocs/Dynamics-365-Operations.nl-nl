@@ -1,9 +1,9 @@
 ---
-title: Klantloyaliteitsprogramma's instellen
-description: Dit artikel beschrijft hoe u een loyaliteitsprogramma instelt. Een loyaliteitsprogramma kan helpen klantloyaliteit verhogen door klanten te belonen voor het kopen van producten in uw detailhandels. In Microsoft Dynamics 365 for Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal.
+title: Overzicht van loyaliteit
+description: Dit onderwerp beschrijft de loyaliteitsmogelijkheden in Microsoft Dynamics 365 for Retail en de bijbehorende instellingsstappen om de detailhandelaar te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,23 +20,20 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
+ms.sourcegitcommit: 11ad4168c7e5ddc63608d1c86430e4a6936d5e30
+ms.openlocfilehash: 78318849873f396c662c5250f0e86146279cc3a5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
-# <a name="set-up-customer-loyalty-programs"></a>Klantloyaliteitsprogramma's instellen
+# <a name="loyalty-overview"></a>Overzicht van loyaliteit
 
 [!include [banner](includes/banner.md)]
 
-Dit artikel beschrijft hoe u een loyaliteitsprogramma instelt. Een loyaliteitsprogramma kan helpen klantloyaliteit verhogen door klanten te belonen voor het kopen van producten in uw detailhandels. In Microsoft Dynamics 365 for Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal.
+Loyaliteitsprogramma's kunnen helpen klantloyaliteit te verhogen door klanten te belonen voor hun interactie met het merk van de detailhandelaar. In Microsoft Dynamics 365 for Retail kunt u eenvoudige of complexe loyaliteitsprogramma's instellen die gelden voor verschillende rechtspersonen in een detailhandelskanaal. Dit onderwerp beschrijft de loyaliteitsmogelijkheden in Microsoft Dynamics 365 for Retail en de bijbehorende instellingsstappen om de detailhandelaar te helpen eenvoudig aan de slag te gaan met hun loyaliteitsprogramma's.
 
-<a name="loyalty-features"></a>Loyaliteitsfuncties
-----------------
-
-U kunt uw loyaliteitsprogramma zo instellen dat het de volgende opties bevat:
+U kunt uw loyaliteitsprogramma zo instellen dat het de volgende opties bevat.
 
 -   Stel meerdere typen beloningen in die u in uw loyaliteitsprogramma's aanbiedt en houdt de participatie in uw loyaliteitsprogramma's bij.
 -   Stel loyaliteitsprogramma's in die de verschillende beloningsincentives weergeven die u aanbiedt. U kunt loyaliteitsprogrammarijen opnemen om grotere incentives en beloningen aan te bieden aan klanten die vaker winkelen of meer geld uitgeven in uw winkels.
@@ -45,7 +42,7 @@ U kunt uw loyaliteitsprogramma zo instellen dat het de volgende opties bevat:
 -   Pas handmatig loyaliteitskaarten aan of boek het saldo van loyaliteitsbeloningen van een kaart naar een andere over om een klant bij te werken of te belonen.
 
 ## <a name="setting-up-loyalty-programs"></a>Loyaliteitsprogramma's instellen
-U moet verschillende onderdelen instellen om de loyaliteitsfunctie in Dynamics 365 for Retail in te schakelen. Het volgende schema geeft de loyaliteitscomponenten aan en hoe ze met elkaar zijn verbonden. ![Processtroom loyaliteitsinstellingen](./media/loyaltyprocess.gif)
+U moet verschillende onderdelen instellen om de loyaliteitsfunctie in Dynamics 365 for Retail in te schakelen. Het volgende schema geeft de loyaliteitscomponenten aan en hoe ze met elkaar zijn verbonden. ![Processtroom voor loyaliteitsinstelling](./media/loyaltyprocess.gif "Loyaliteitsonderdelen en hoe deze aan elkaar zijn gerelateerd")
 
 ## <a name="loyalty-components"></a>Loyaliteitscomponenten
 De volgende tabel beschrijft elke component en waar deze in de loyaliteitsinstellingen wordt gebruikt.
@@ -73,8 +70,60 @@ De volgende tabel beschrijft de processen die moeten worden uitgevoerd om de loy
 | Offline loyaliteitstransacties verwerken | Voer dit proces uit om loyaliteitskaarten bij te werken zodat ze transacties bevatten die offline werden verwerkt. Dit proces is alleen van toepassing als het selectievakje **Offline verdienen** is ingeschakeld op de pagina **Gedeelde parameters detailhandel**, zodat de beloningen offline kunnen worden verdiend.                                                                                                                                               | Offline loyaliteitstransacties verwerken |
 | Niveaus van loyaliteitskaarten bijwerken            | Voer dit proces uit om de verdienende activiteit van de klant te beoordelen volgens de rijregels voor een loyaliteitsprogramma en om de rijstatus van de klant bij te werken. Dit proces is alleen nodig als u de rijregels in loyaliteitsprogramma's wijzigt en u wilt dat de bijgewerkte regels retroactief worden toegepast op loyaliteitskaarten die reeds zijn uitgegeven. Dit proces kan worden uitgevoerd als een batchproces of voor afzonderlijke kaarten. | Niveaus van loyaliteitskaarten bijwerken            |
 
+## <a name="loyalty-enhancements"></a>Verbeteringen in loyaliteit
 
+Detailhandel bevat nieuwe loyaliteitsfunctionaliteit als onderdeel van de release van oktober 2018. Elk van de nieuwe verbeteringen wordt hieronder nader verklaard.
 
+- Als onderdeel van een loyaliteitsschema in vorige releases konden detailhandelaren verschillende verdien- en inwisselregels op niveaus maken om de beloningen te differentiëren voor klanten op verschillende niveaus. Detailhandelaren kunnen nu 'lidmaatschappen' opnemen als onderdeel van de verdien- en inwisselregels, zodat bepaalde groepen klanten deel van bestaande niveaus kunnen uitmaken, maar toch verschillend kunnen worden beloond. Dit zorgt ervoor dat er geen aanvullende niveaus hoeven te worden gemaakt.
+    
+    > [!NOTE]
+    > De verdienregels binnen een loyaliteitsschema zijn extra. Als u bijvoorbeeld een regel maakt om een gouden lid te belonen met 10 punten voor elke Amerikaanse dollar en u ook een regel maakt voor een klant met het lidmaatschap 'veteraan' om 5 punten beloning te geven voor elke Amerikaanse dollar, dan verdient een veteraan die ook een gouden lid is, 15 punten voor 1 Amerikaanse dollar, omdat de klant voor beide in aanmerking komt. Als de veteraan echter geen lid van het gouden niveau was, zou hij 5 punten voor elke dollar verdienen. Voer in verband met de wijzigingen in de kanalen de taken **Loyaliteitsschema verwerken** en **1050** (loyaliteitsinformatie)-uit.
+    
+    ![Verdienen op basis van lidmaatschappen](./media/Affiliation%20based%20earning.png "Verdienen op basis van lidmaatschappen")
 
+- Detailhandelaren hebben vaak speciale prijzen voor een bepaalde groep klanten waar ze niet het loyaliteitsprogramma op willen toepassen. Bijvoorbeeld groothandelaren of werknemers die speciale prijzen krijgen en geen loyaliteitspunten. Vaak worden 'lidmaatschappen' gebruikt om dergelijke klantengroepen de speciale prijzen te bieden. Als de detailhandelaar wil verhinderen dat bepaalde klantengroepen loyaliteitspunten verdienen, kan deze een of meer lidmaatschappen opgeven in de sectie **Uitgesloten lidmaatschappen** van het loyaliteitsschema. Wanneer klanten die tot uitgesloten lidmaatschappen behoren, bestaande loyaliteitsleden zijn, kunnen ze geen loyaliteitspunten verdienen met hun aankopen. Voer in verband met de wijzigingen in de kanalen de taken **Loyaliteitsschema verwerken** en **1050** (loyaliteitsinformatie)-uit.
 
+    ![Uitgesloten lidmaatschappen](./media/Excluded%20affiliations.png "Lidmaatschappen uitsluiten van loyaliteitspunten")
+    
+- Detailhandelaren kunnen loyaliteitskaartnummers genereren in de kanalen. Vóór de update van oktober 2018 konden detailhandelaren fysieke loyaliteitskaarten gebruiken of een loyaliteitskaart genereren met unieke klantgegevens, zoals een telefoonnummer. Als u het automatisch genereren van loyaliteitskaarten in de winkels wilt inschakelen, schakelt u **Loyaliteitskaartnummer genereren** in het functionaliteitsprofiel in dat is gekoppeld aan de winkel. Voor online kanalen kunnen detailhandelaren de API IssueLoyaltyCard gebruiken om loyaliteitskaarten aan klanten uit te geven. Detailhandelaren kunnen een loyaliteitskaartnummer verstrekken aan deze API, dat wordt gebruikt voor het genereren van de loyaliteitskaart, of het systeem gebruikt de sequentie van loyaliteitskaartnummers die is ingesteld in Dynamics 365 for Retail. Echter, als de getalreeks niet aanwezig is en de detailhandelaar geen loyaliteitskaartnummer verstrekt bij de aanroep van de API, wordt een foutbericht weergegeven.
+
+![Loyaliteitskaart genereren](./media/Generate%20loyalty%20card.png "Automatisch loyaliteitskaartnummer genereren")
+
+- Verdiende en ingewisselde loyaliteitspunten worden nu opgeslagen voor elke transactie en verkooporders ten opzichte van de verkoopregel, zodat hetzelfde bedrag kan worden terugbetaald of teruggekregen in het geval van volledige of gedeeltelijke retourneringen. Bovendien biedt zichtbaarheid van punten op het niveau van de verkoopregel de mogelijkheid voor callcentergebruikers om vragen van klanten te beantwoorden over hoeveel punten zijn verdiend of ingewisseld voor elke regel. Vóór deze wijziging werden beloningspunten altijd opnieuw berekend tijdens retourneringen, wat leidde tot een ander bedrag dan het origineel, als de verdien- of inwisselregels zijn gewijzigd en hadden callcentergebruikers geen inzicht in de specificatie van de punten. Het aantal punten kan worden weergegeven op het formulier **Kaarttransacties** voor elke loyaliteitskaart.
+    
+- Detailhandelaren kunnen nu de vestigingsperiode voor elk beloningspunt definiëren. Een configuratie van de vestigingsperiode definieert de duur vanaf de verdiendatum, waarna de beloningspunten beschikbaar worden voor de klanten. Niet-gevestigde punten kunnen worden weergegeven in de kolom **Niet-gevestigde punten** op de pagina **Loyaliteitskaarten**. Bovendien kunnen detailhandelaren de maximale limiet aan beloningspunten per loyaliteitskaart definiëren. Dit veld kan worden gebruikt om het effect van loyaliteitsfraude te verminderen. Wanneer de maximale toegekende punten zijn bereikt, kan de gebruiker geen punten meer verdienen. De detailhandelaar kan besluiten deze kaarten te blokkeren totdat ze op mogelijke fraude zijn onderzocht. Als de detailhandelaar fraude vaststelt, kan de detailhandelaar niet alleen de loyaliteitskaart blokkeren voor de klant, maar ook de klant markeren als geblokkeerd. Hiervoor stelt u de eigenschap **Klant blokkeren voor loyaliteitsinschrijving** op **Ja** in onder **Alle klanten** op het sneltabblad **Detailhandel**. Aan de geblokkeerde klanten kan in geen van de kanalen een loyaliteitskaart worden uitgegeven.
+
+![Vestiging en maximale beloningspunten](./media/Vesting%20and%20maximum%20reward%20points.png "Vestiging en maximale beloningspunten definiëren")
+
+- Lidmaatschappen worden gebruikt om speciale prijzen en kortingen te bieden, maar er zijn enkele lidmaatschappen waarvan detailhandelaren niet willen dat hun klanten ze zien. Een lidmaatschap met de titel 'Veel uitgevende klant' wordt mogelijk niet goed ontvangen door sommige klanten. Bovendien zijn er lidmaatschappen die niet in de winkel moeten worden beheerd, bijvoorbeeld werknemers, omdat u niet wilt dat kassiers bepalen wie een werknemer is en dus werknemerskortingen bieden. Detailhandelaren kunnen nu de lidmaatschappen selecteren die in de detailhandelkanalen moeten worden verborgen. Lidmaatschappen die zijn gemarkeerd als **In kanalen verbergen**, kunnen worden bekeken, toegevoegd of verwijderd in het POS. Echter, de prijzen en kortingen die zijn gekoppeld aan het lidmaatschap, worden nog steeds toegepast op de producten.
+
+![Lidmaatschappen verbergen](./media/Hide%20affiliations.png "Lidmaatschappen verbergen in kanalen")
+    
+- Callcentergebruikers kunnen nu gemakkelijker een klant zoeken met behulp van hun loyaliteitskaartgegevens en naar de loyaliteitskaart van de klant en de pagina's met loyaliteitskaarttransacties navigeren vanaf de pagina **Klantenservice**. 
+
+![Klantenservice](./media/Customer%20service.png "Loyaliteitsinformatie voor de klant zoeken")
+    
+- Als met een loyaliteitskaart geknoeid is, moet een vervangende kaart worden gegenereerd en moeten de bestaande punten worden overgedragen aan de nieuwe kaart. De stroom voor de vervangende kaart is in deze release vereenvoudigd. Bovendien kunnen klanten sommige of al hun loyaliteitspunten schenken aan vrienden en familie. Wanneer punten worden overgeboekt, worden de puntcorrectieposten gemaakt voor elke loyaliteitskaart. De functionaliteit voor de vervangende kaart en de saldo-overdracht is toegankelijk vanaf de pagina **Loyaliteitskaarten**.
+
+![Vervangen en punten overdragen](./media/Replace%20and%20transfer%20points.png "Loyaliteitskaart vervangen of saldo overdragen")
+    
+- Detailhandelaren willen mogelijk de effectiviteit van een bepaald kanaal vastleggen om klanten in een loyaliteitsprogramma op te nemen. De bron van inschrijving voor de loyaliteitskaart wordt nu opgeslagen, zodat detailhandelaren rapporten op deze gegevens kunnen uitvoeren. De bron van inschrijvingen wordt automatisch vastgelegd voor alle uitgegeven loyaliteitskaarten vanuit MPOS/CPOS of e-commercekanalen. Voor de loyaliteitskaarten die worden uitgegeven vanuit de back office-toepassing, kan de callcentergebruiker een geschikt kanaal selecteren.
+
+- In eerdere versies konden detailhandelaren MPOS/CPOS gebruiken om loyaliteitspunten in te wisselen voor klanten in een winkel. Aangezien het loyaliteitssaldo in deze release echter in loyaliteitspunten wordt weergegeven, kon de kassamedewerker het valutawaardebedrag niet zien dat kon worden toegepast op de huidige transactie. De kassamedewerker moest de conversie van punten naar valuta uitvoeren alvorens te betalen met loyaliteitspunten. In de huidige release, nadat regels zijn toegevoegd aan de transactie, kan de kassamedewerker het bedrag zien dat de loyaliteitspunten kunnen dekken voor de huidige transactie, zodat het gemakkelijker is sommige of alle loyaliteitspunten op de transactie toe te passen. Bovendien ziet de kassier de punten die binnen de komende 30 dagen verlopen, zodat deze upselling of cross-selling kan uitvoeren om de klant te motiveren de verlopende punten uit te geven voor die transactie.
+
+![Punten die vallen onder loyaliteitssaldo](./media/Points%20covered%20by%20loyalty%20balance.png "Saldo weergeven dat wordt gedekt door loyaliteitspunten")
+
+![Vervallende punten](./media/Expiring%20points.png "Vervallende punten weergeven")
+    
+## <a name="upcoming-enhancements"></a>Aankomende verbeteringen
+
+De volgende functies zijn beschikbaar in de toekomstige maandelijkse updates van Dynamics 365 for Retail.
+    
+- Klanten willen hun loyaliteitsaldodetails kunnen zien in naar de consument gerichte kanalen. Daarnaast is het belangrijk voor de kassiers om de historie van de loyaliteitspunten van de klant te zien in MPOS/CPOS om snel vragen te beantwoorden van de klant. In een toekomstige maandelijkse release kunnen klanten en kassiers loyaliteitshistoriedetails weergeven.
+
+- Veel detailhandelaren kunnen loyaliteitspunten alleen verlenen op basis van de verkooptransacties, maar meer klantgerichte detailhandelaren willen hun klanten belonen voor al hun betrokkenheid bij het merk. Ze willen bijvoorbeeld beloningen geven voor het invullen van een online enquête, bezoek aan een winkel, 'leuk vinden' van de detailhandelaar op Facebook, tweeten over de detailhandelaar en meer. In de toekomst voegen we de mogelijkheid toe loyaliteitspunten toe te kennen voor elke klantactiviteit. Hiertoe kan de detailhandelaar een 'Overig activiteittype' definiëren en de verdienregels voor deze activiteiten definiëren. We maken ook een Retail Server API beschikbaar die kan worden aangeroepen wanneer een activiteit wordt geïdentificeerd die de verdienregel gebruikt om de vereiste loyaliteitspunten toe te kennen.
+
+- Om een ware multikanaals detailhandelservaring mogelijk te maken staan we klanten toe loyaliteitspunten te verdienen en in te wisselen via alle kanalen. 
+
+- Gratis verzending of verzendkortingen is een van de zeer motiverende factoren voor klanten om online te kopen. Om detailhandelaren de mogelijkheid te bieden verzendpromoties in te stellen gaan we een nieuw type promotie introduceren waarbij de detailhandelaar de drempels kan definiëren die, wanneer eraan wordt voldaan, klanten in aanmerking laten komen voor verzending met korting of gratis verzending.
 

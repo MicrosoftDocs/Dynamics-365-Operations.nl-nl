@@ -3,14 +3,14 @@ title: Formuleontwerper in elektronische rapportage (ER)
 description: In dit onderwerp wordt beschreven hoe de formuleontwerper in elektronische rapportage (ER) wordt gebruikt.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -192,7 +192,7 @@ Als de gegevensbron **Systeem** wordt toegevoegd aan een ER-toewijzing die naar 
 U kunt de manier waarop waarden worden doorgegeven aan de parameters van dit type methode beperken:
 
 - Alleen constanten kunnen worden doorgegeven aan methoden van dit type. De waarden van de constanten worden gedefinieerd in de ontwerpfase.
-- Alleen primitieve (basis) gegevenstypen worden voor parameters van dit type ondersteund. (De primitieve gegevenstypen zijn geheel getal, real, Boolean, tekenreeks, enzovoort).
+- Alleen primitieve (basis) gegevenstypen worden voor parameters van dit type ondersteund. (De primitieve gegevenstypen zijn geheel getal, real, Boolean, tekenreeks, enzovoort.)
 
 #### <a name="paths"></a>Paden
 
@@ -250,6 +250,12 @@ De volgende tabellen beschrijven de functies voor gegevensmanipulatie die u kunt
 <td>SPLIT (invoer, lengte)</td>
 <td>Splits de opgegeven invoertekenreeks in subreeksen, waarvan elk de opgegeven lengte heeft. Retourneer het resultaat als een nieuwe lijst.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> retourneert een nieuwe lijst die bestaat uit twee records die een <strong>STRING</strong>-veld hebben. Het veld in de eerste record bevat de tekst <strong>&quot;abc&quot;</strong> en het veld in de tweede record bevat de tekst <strong>&quot;d&quot;</strong>.</td>
+</tr>
+<tr>
+<td>SPLIT (invoer, scheidingsteken)</td>
+<td>Splits de opgegeven invoertekenreeks in subreeksen, op basis van het opgegeven scheidingsteken.</td>
+<td><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> retourneert een nieuwe lijst die bestaat uit drie records die een <strong>TEKENREEKS</strong>-veld hebben. Het veld in de eerste record bevat de tekst <strong>&quot;X&quot;</strong>, het veld in de tweede record bevat de tekst &quot;&nbsp;&quot; en het veld in de derde record bevat de tekst <strong>&quot;y&quot;</strong>. Als het scheidingsteken leeg is, wordt een nieuwe lijst geretourneerd die bestaat uit één record met een <strong>TEKENREEKS</strong>-veld dat de ingevoerde tekst bevat. Als de invoer leeg is, wordt een nieuwe lege lijst geretourneerd.
+Als de invoer of het scheidingsteken niet is opgegeven (null), treedt een toepassingsuitzondering op.</td>
 </tr>
 <tr>
 <td>SPLITLIST (lijst, aantal)</td>
@@ -399,12 +405,13 @@ De velden <strong>Label</strong> en <strong>Omschrijving</strong> retourneren ti
 </ul>
 De velden <strong>Label</strong> en <strong>Omschrijving</strong> retourneren tijdens runtime waarden op basis van de taalinstellingen van de indeling en de opgegeven taal. Het veld <strong>Is vertaald</strong> geeft aan dat het veld <strong>Label</strong> in de opgegeven taal is vertaald.
 </td>
-<td>U gebruikt bijvoorbeeld het gegevensbrontype <strong>Berekend veld</strong> om de gegevensbronnen <strong>enumType_de</strong> en <strong>enumType_deCH</strong> te configureren voor de gegevensmodelopsomming <strong>enumType</strong>:
+<td>U gebruikt bijvoorbeeld het gegevensbrontype <strong>Berekend veld</strong> om de gegevensbronnen <strong>enumType_de</strong> en <strong>enumType_deCH</strong> te configureren voor de gegevensmodelopsomming <strong>enumType</strong>.
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-In dit geval kunt u de volgende expressie gebruiken om het label van de opsommingswaarde in Zwitsers Duits te krijgen, als deze vertaling beschikbaar is. Als de Zwitsers Duitse vertaling niet beschikbaar is, is het label in het Duits: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+<p>In dit geval kunt u de volgende expressie gebruiken om het label van de opsommingswaarde in Zwitsers Duits te krijgen, als deze vertaling beschikbaar is. Als de Zwitsers Duitse vertaling niet beschikbaar is, is het label in het Duits.</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -421,7 +428,7 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>In de volgende afbeelding ziet u het resultaat wanneer de indeling wordt uitgevoerd. In dit geval is de uitvoer een platte lijst met basisproducten.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
-<p>De volgende voorbeelden laten dezelfde indeling zien die is aangepast om de lijst met basisproducten in batches weer te geven wanneer één batch basisproducten moet omvatten en het totaal gewicht dat niet hoger mag zijn dan 9.</p>
+<p>De volgende voorbeelden laten dezelfde indeling zien die is aangepast om de lijst met basisproducten in batches weer te geven wanneer één batch basisproducten moet omvatten en het totale gewicht niet groter mag zijn dan 9.</p>
 <p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>In de volgende afbeelding ziet u het resultaat wanneer de aangepaste indeling wordt uitgevoerd.</p>
@@ -432,7 +439,7 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 <tr>
 <td>FILTER (lijst, voorwaarde)</td>
 <td>De opgegeven lijst retourneren nadat de query is gewijzigd om te filteren op de opgegeven voorwaarde. Deze functie verschilt van de functie <strong>WHERE</strong> omdat de opgegeven voorwaarde wordt toegepast op een ER-gegevensbron van het type <strong>Tabelrecords</strong> op het databaseniveau. De lijst en de voorwaarde kunnen worden gedefinieerd met behulp van tabellen en relaties.</td>
-<td>Als <strong>Leverancier</strong> als een ER-gegevensbron wordt geconfigureerd die naar de tabel VendTable verwijst, wordt met <strong>FILTER(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> een lijst met leveranciers geretourneerd die behoren tot de leveranciersgroep 40. Als <strong>Vendor</strong> is geconfigureerd als een ER-gegevensbron die verwijst naar de tabel <strong>VendTable</strong> en als <strong>parmVendorBankGroup</strong> is geconfigureerd als een ER-gegevensbron die een waarde van het gegevenstype <strong>String</strong> retourneert, retourneert <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> een lijst met alleen de leveranciersaccounts die behoren tot een specifieke bankgroep.</td>
+<td>Als <strong>Leverancier</strong> als een ER-gegevensbron wordt geconfigureerd die naar de tabel VendTable verwijst, wordt met <strong>FILTER(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> een lijst met leveranciers geretourneerd die behoren tot de leveranciersgroep 40. Als <strong>Vendor</strong> is geconfigureerd als een ER-gegevensbron die verwijst naar de tabel VendTable en als <strong>parmVendorBankGroup</strong> is geconfigureerd als een ER-gegevensbron die een waarde van het gegevenstype <strong>String</strong> retourneert, retourneert <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> een lijst met alleen de leveranciersaccounts die behoren tot een specifieke bankgroep.</td>
 </tr>
 </tbody>
 </table>
@@ -446,12 +453,69 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 | NOT (voorwaarde) | Retourneer de omgekeerde logische waarde van de opgegeven voorwaarde. | **NOT (WAAR)** retourneert **FALSE**. |
 | AND (voorwaarde 1\[, voorwaarde 2, ...\]) | Retourneer **TRUE** als *alle* opgegeven voorwaarden waar zijn. Retourneer anders **FALSE**. | **AND (1=1, "a"="a")** retourneert **TRUE**. **AND (1=2, "a"="a")** retourneert **FALSE**. |
 | OR (voorwaarde 1\[, voorwaarde 2, ...\]) | Retourneer **FALSE** als *alle* opgegeven voorwaarden onwaar zijn. Retourneer **TRUE** als *een van de* opgegeven voorwaarden waar is. | **OR (1=2, "a"="a")** retourneert **TRUE**. |
+| VALUEIN (invoer, lijst, lijstitemexpressie) | Bepalen of de opgegeven invoer overeenkomt met een waarde van een item in de opgegeven lijst. **TRUE** retourneren als de opgegeven invoer overeenkomt met het resultaat van het uitvoeren van de opgegeven expressie voor ten minste één record. Retourneer anders **FALSE**. De **invoer**parameter vertegenwoordigt het pad van een gegevensbronelement. De waarde van dit element wordt vergeleken. De **lijst**parameter vertegenwoordigt het pad van een gegevensbronelement van het type recordlijst als een lijst met records die een expressie bevat. De waarde van dit element wordt vergeleken met de opgegeven invoer. Het argument **lijstitemexpressie** vertegenwoordigt een expressie die verwijst naar of bevat een enkel veld van de opgegeven lijst dat moet worden gebruikt voor de vergelijking. | Zie voor voorbeelden de volgende sectie [Voorbeelden: VALUEIN (invoer, lijst, lijstitemexpressie)](#examples-valuein-input-list-list-item-expression). |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>Voorbeelden: VALUEIN (invoer, lijst, lijstitemexpressie)
+In het algemeen wordt de functie **VALUEIN** omgezet in een reeks **OF**-voorwaarden:
+
+(invoer = lijst.item1.value) OF (invoer = lijst.item2.value) OF ...
+
+##### <a name="example-1"></a>Voorbeeld 1
+U definieert de volgende gegevensbron in uw modeltoewijzing: **Lijst** (type **Berekend veld**). Deze gegevensbron bevat de expressie **SPLIT ("a,b,c", ",")**.
+
+Als een gegevensbron wordt aangeroepen die is geconfigureerd als de expressie **VALUEIN ("B", list, List.Value)**, wordt **TRUE** geretourneerd. In dit geval wordt de functie **VALUEIN** omgezet in de volgende reeks voorwaarden:
+
+**(("B" = "a") of ("B" = "b") of ("B" = "c"))**, waarbij **("B" = "b")** gelijk is aan **TRUE**
+
+Als een gegevensbron wordt aangeroepen die is geconfigureerd als de expressie **VALUEIN ("B", List, LEFT(List.Value, 0))**, wordt **FALSE** geretourneerd. In dit geval wordt de functie **VALUEIN** omgezet in de volgende voorwaarde:
+
+**("B" = "")**, wat niet gelijk is aan **TRUE**
+
+Houd er rekening mee dat de bovengrens voor het aantal tekens in de tekst van een dergelijke voorwaarde 32.768 tekens is. Daarom moet u geen gegevensbronnen maken die deze limiet tijdens de uitvoering mogelijk overschrijden. Als de limiet wordt overschreden, stopt de uitvoering van de toepassing en treedt een uitzondering op. Deze situatie kan zich bijvoorbeeld voordoen als de gegevensbron is geconfigureerd as **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)** en de lijsten **List1** en **List2** een groot aantal records bevatten.
+
+In sommige gevallen moet de functie **VALUEIN** worden omgezet in een database-instructie met behulp van de operator **EXISTS JOIN**. Dit probleem treedt op wanneer de functie **FILTER** wordt gebruikt en aan de volgende voorwaarden wordt voldaan:
+
+- De optie **VRAGEN OM QUERY** is uitgeschakeld voor de gegevensbron van de functie **VALUEIN** die naar de lijst met records verwijst. (Er worden tijdens de uitvoering geen extra voorwaarden op deze gegevensbron toegepast.)
+- Er worden geen geneste expressies geconfigureerd voor de gegevensbron van de functie **VALUEIN** die naar de lijst met records verwijst.
+- Een item in de lijst van de functie **VALUEIN** verwijst naar een veld (niet een expressie of een methode) van de opgegeven gegevensbron.
+
+Overweeg deze optie te gebruiken in plaats van de functie **WHERE**, zoals eerder in dit voorbeeld beschreven.
+
+##### <a name="example-2"></a>Voorbeeld 2
+
+U definieert de volgende gegevensbronnen in uw modeltoewijzing:
+
+- **In** (type **Tabelrecords**), dat verwijst naar de tabel Intrastat
+- **Port** (type **Tabelrecords**), dat verwijst naar de tabel IntrastatPort
+
+Wanneer een gegevensbron wordt aangeroepen die is geconfigureerd als de expressie **FILTER (In, VALUEIN(In.Port, Port, Port.PortId)**, wordt de volgende SQL-instructie gegenereerd om gefilterde records van de tabel Intrastat te retourneren:
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+Voor **dataAreaId**-velden wordt de uiteindelijke SQL-instructie gegenereerd via de operator **IN**.
+
+##### <a name="example-3"></a>Voorbeeld 3
+
+U definieert de volgende gegevensbronnen in uw modeltoewijzing:
+
+- **Le** (type **Berekend veld**), dat de expressie **SPLIT ("DEMF,GBSI,USMF", ",")** bevat
+- **In** (type **Tabelrecords**), dat verwijst naar de tabel Intrastat en waarvoor de optie **Hele bedrijf** is ingeschakeld
+
+Wanneer een gegevensbron wordt aangeroepen die is geconfigureerd als de expressie **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)**, bevat de uiteindelijke SQL-instructie de volgende voorwaarde:
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>Wiskundige functies
 
-| Functie | Beschrijving | Voorbeeld |
+| Functie | Omschrijving | Voorbeeld |
 |----------|-------------|---------|
-| ABS (getal) | De absolute waarde van het opgegeven getal retourneren. (Met andere woorden, retourneert het getal zonder het teken.) | **ABS (-1)** retourneert **1**. |
+| ABS (getal) | De absolute waarde van het opgegeven getal retourneren. (Met andere woorden: het getal zonder teken retourneren.) | **ABS (-1)** retourneert **1**. |
 | POWER (aantal, macht) | Retourneert het resultaat van het verheffen van het opgegeven positieve getal naar de opgegeven macht. | **POWER (10, 2)** retourneert **100**. |
 | NUMBERVALUE (tekenreeks, decimaal scheidingsteken, scheidingsteken groep komma) | Converteert de opgegeven tekenreeks naar een getal. Het opgegeven decimaalteken wordt gebruikt tussen het geheel-getaldeel en het breukdeel van een decimaal getal. Het opgegeven scheidingsteken voor cijfergroepering wordt gebruikt als scheidingsteken voor duizendtallen. | **NUMBERVALUE (1", "234,56 ",", "")** retourneert de waarde **1234,56**. |
 | VALUE (tekenreeks) | Converteert de opgegeven tekenreeks naar een getal. De komma's en punttekens (.) worden beschouwd als decimale scheidingstekens en er wordt een koppelteken (-) vooraan gebruikt als minteken. Er treedt een uitzondering op als andere niet-numerieke tekens worden aangetroffen in de opgegeven tekenreeks. | **VALUE ("1" 234,56)** geeft een uitzondering. |
@@ -539,13 +603,13 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 </tr>
 <tr>
 <td>REPLACE (tekenreeks, patroon, vervanging, normale-expressiemarkering)</td>
-<td>Wanneer de opgegeven normale-expressiemarkering <strong>waar</strong> is, de opgegeven tekenreeks retourneren nadat deze is gewijzigd door de normale expressie toe te passen die als patroonargument voor deze functie wordt opgegeven. Deze expressie wordt gebruikt om tekens te zoeken die moeten worden vervangen. Tekens van het opgegeven vervangingsargument worden gebruikt om tekens te vervangen die zijn gevonden. Wanneer de opgegeven normale-expressiemarkering <strong>onwaar</strong> is, gedraagt deze functie zich als <strong>TRANSLATE</strong>.</td>
+<td>Wanneer de opgegeven parameter <strong>normale-expressiemarkering</strong> <strong>waar</strong> is, de opgegeven tekenreeks retourneren nadat deze is gewijzigd door de normale expressie toe te passen die als <strong>patroon</strong>argument voor deze functie wordt opgegeven. Deze expressie wordt gebruikt om tekens te zoeken die moeten worden vervangen. Tekens van het opgegeven <strong>vervanging</strong>sargument worden gebruikt om tekens te vervangen die zijn gevonden. Wanneer de opgegeven <strong>normale-expressiemarkering</strong> <strong>false</strong> is, gedraagt deze functie zich als <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> past een normale expressie toe waarmee alle niet-numerieke symbolen worden verwijderd, en retourneert <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> vervangt het patroon <strong>&quot;cd&quot;</strong> door de tekenreeks <strong>&quot;GH&quot;</strong> en retourneert <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr>
 <td>TEXT (invoer)</td>
 <td>Retourneer de opgegeven invoer nadat deze is geconverteerd naar een tekenreeks die wordt opgemaakt volgens de lokale instellingen van de server van het huidige Finance and Operations-exemplaar. Voor waarden van het type <strong>real</strong> wordt de tekenreeksconversie beperkt tot twee decimalen.</td>
-<td>Als de landinstellingen van de server van het Finance and Operations-exemplaar worden gedefinieerd als <strong>EN-US</strong>, retourneert <strong>TEXT (NOW ())</strong> de datum van de huidige Finance and Operations-sessie, 17 december 2015, als de tekenreeks <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> retourneert <strong>&quot;0.33&quot;</strong>.</td>
+<td>Als de landinstelling van de server van het Finance and Operations-exemplaar is gedefinieerd als <strong>EN-US</strong>, retourneert <strong>TEXT (NOW ())</strong> de datum van de huidige Finance and Operations-sessie, 17 december 2015, als de tekenreeks <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> retourneert <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
 <tr>
 <td>FORMAT (tekenreeks 1, tekenreeks 2[, tekenreeks 3, ...])</td>
@@ -567,14 +631,14 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 </ul>
 <p>Hier is de formule die kan worden ontworpen:</p>
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
-<p>Als een rapport wordt verwerkt voor de klant <strong>Litware Retail</strong> op 17 december 2015 in de cultuur <strong>EN-US</strong> en de taal <strong>EN-US</strong>, retourneert deze formule de volgende tekst, die kan worden weergegeven als uitzonderingsbericht voor de gebruiker:</p>
+<p>Als een rapport wordt verwerkt voor de klant <strong>Litware Retail</strong> op 17 december 2015 in de cultuur <strong>EN-US</strong> en de taal <strong>EN-US</strong>, retourneert deze formule de volgende tekst, die aan de gebruiker kan worden weergegeven als uitzonderingsbericht:</p>
 <p>&quot;Er is niets om af te drukken. Customer Litware Retail is stopped for 12/17/2015."&quot;</p>
 <p>Als hetzelfde rapport voor de klant <strong>Litware Retail</strong> wordt verwerkt op 17 december 2015 in de cultuur <strong>DE</strong> en de taal <strong>DE</strong>, retourneert de formule de volgende tekst die een andere datumnotatie gebruikt:</p>
 <p>&quot;Nichts zu drucken. Klant "Litware Retail" is gestopt voor 17-12-2015.&quot;</p>
 <blockquote>[!NOTE] De volgende syntaxis wordt toegepast in ER-formules voor labels:
 <ul>
-<li><strong>Voor labels van Finance and Operations-resources:</strong> <strong>@&quot;X&quot;</strong>, waarbij X de label-id in de Application Object Tree (AOT) is</li>
-<li><strong>Voor labels die zich in ER-configuraties bevinden:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, waarbij X de label-id in de ER-configuratie is</li>
+<li><strong>Voor labels van Finance and Operations-resources:</strong> <strong>@&quot;X&quot;</strong>, waarbij <strong>X</strong> de label-id in de Application Object Tree (AOT) is</li>
+<li><strong>Voor labels die zich in ER-configuraties bevinden:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, waarbij <strong>X</strong> de label-id in de ER-configuratie is</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ In dit geval kunt u de volgende expressie gebruiken om het label van de opsommin
 </tr>
 <tr>
 <td>GUIDVALUE (invoer)</td>
-<td>Converteren van de opgegeven invoer van het gegevenstype <strong>String</strong> naar een gegevensitem van het gegevenstype <strong>GUID</strong>.</td>
+<td>Converteren van de opgegeven invoer van het gegevenstype <strong>String</strong> naar een gegevensitem van het gegevenstype <strong>GUID</strong>.<blockquote>[!NOTE] Als u een conversie in de tegenovergestelde richting wilt uitvoeren (dat wil zeggen: opgegeven invoer van het gegevenstype <strong>GUID</strong> converteren naar een gegevensitem van het gegevenstype <strong>Tekenreeks</strong>), kunt u de functie <strong>TEXT()</strong> gebruiken.</blockquote></td>
 <td>U definieert de volgende gegevensbronnen in uw modeltoewijzing:
 <ul>
 <li><strong>myID</strong> (type <strong>Berekend veld</strong>), bevat de expressie <strong>GUIDVALUE (&quot;AF5CCDAC-F728-4609-8C8B-A4B30B0C0AA0&quot;)</strong></li>
@@ -637,7 +701,7 @@ Wanneer deze gegevensbronnen zijn gedefinieerd, kunt u een expressie zoals <stro
 
 | Functie | Omschrijving | Voorbeeld |
 |----------|-------------|---------|
-| TEXT (invoer) | Retourneer de opgegeven invoer nadat deze is geconverteerd naar een tekenreeks die wordt opgemaakt volgens de lokale instellingen van de server van het huidige Finance and Operations-exemplaar. Voor waarden van het type **real** wordt de tekenreeksconversie beperkt tot twee decimalen. | Als de landinstellingen van de server van het Finance and Operations-exemplaar worden gedefinieerd als **EN-US**, retourneert **TEXT (NOW ())** de datum van de huidige Finance and Operations-sessie, 17 december 2015, als de tekenreeks **12/17/2015 07:59:23 AM**. **TEXT (1/3)** retourneert **"0,33"**. |
+| TEXT (invoer) | Retourneer de opgegeven invoer nadat deze is geconverteerd naar een tekenreeks die wordt opgemaakt volgens de lokale instellingen van de server van het huidige Finance and Operations-exemplaar. Voor waarden van het type **real** wordt de tekenreeksconversie beperkt tot twee decimalen. | Als de landinstelling van de server van het Finance and Operations-exemplaar is gedefinieerd als **EN-US**, retourneert **TEXT (NOW ())** de datum van de huidige Finance and Operations-sessie, 17 december 2015, als de tekenreeks **12/17/2015 07:59:23 AM**. **TEXT (1/3)** retourneert **"0,33"**. |
 | QRCODE (tekenreeks) | Een Quick Response-code (QR-code) retourneren in binaire base64-indeling voor de opgegeven tekenreeks. | **QRCODE ("Sample text")** retourneert **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Functies voor gegevensverzameling
@@ -645,11 +709,11 @@ Wanneer deze gegevensbronnen zijn gedefinieerd, kunt u een expressie zoals <stro
 | Functie | Omschrijving | Voorbeeld |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Retourneert de naam van het element van de huidige indeling. Retourneert een lege tekenreeks wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | Als u meer wilt weten over het gebruik van deze functie, raadpleegt u de taakbegeleiding **ER Gegevens van indelingsuitvoer gebruiken voor tellen en optellen**, die deel uitmaakt van het bedrijfsproces **Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen**. |
-| SUMIFS (sleutelreeks voor optelling, tekenreeks criteriumbereik1, tekenreeks criteriumwaarde1 \[, tekenreeks criteriumbereik2, tekenreeks criteriumwaarde2 tekenreeks, …\]) | Retourneert een som met waarden van XML-knooppunten (met als sleutel gedefinieerde naam), die tijdens deze indelingsuitvoering is verzameld en voldoet aan de opgegeven voorwaarden (paren van bereiken en waarden). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
-| SUMIF (sleutelreeks voor optellen, criteriumbereik tekenreeks, criteriumwaarde tekenreeks) | Retourneert een som met waarden van XML-knooppunten (met als sleutel gedefinieerde naam), die tijdens deze indelingsuitvoering is verzameld en voldoet aan de opgegeven voorwaarde (bereik en waarde). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
-| COUNTIFS (tekenreeks criteriumbereik1, tekenreeks criteriumwaarde1 \[, tekenreeks criteriumbereik2, tekenreeks criteriumwaarde2, …\]) | Retourneert een aantal XML-knooppunten, dat tijdens de indelingsuitvoering is verzameld en voldoet aan de opgegeven voorwaarden (paren bereiken en waarden). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
-| COUNTIF (criteriumbereik tekenreeks, criteriumwaarde tekenreeks) | Een aantal XML-knooppunten retourneren, dat tijdens de indelingsuitvoering is verzameld en voldoet aan de opgegeven voorwaarde (bereik en waarde). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
-| COLLECTEDLIST (tekenreeks criteriumbereik1, tekenreeks criteriumwaarde1 \[, tekenreeks criteriumbereik2, tekenreeks criteriumwaarde2, …\]) | Een lijst retourneren met waarden van XML-knooppunten van XML, dat tijdens de indelingsuitvoering is verzameld en voldoet aan de opgegeven voorwaarden (bereik en waarde). Retourneert een lege lijst wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
+| SUMIFS (sleutelreeks voor optelling, tekenreeks criteriumbereik1, tekenreeks criteriumwaarde1 \[, tekenreeks criteriumbereik2, tekenreeks criteriumwaarde2 tekenreeks, …\]) | Een som retourneren met waarden die zijn verzameld uit XML-knooppunten (met als sleutel gedefinieerde naam) toen de indeling werd uitgevoerd en die voldoet aan de opgegeven voorwaarden (paren van bereiken en waarden). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
+| SUMIF (sleutelreeks voor optellen, criteriumbereik tekenreeks, criteriumwaarde tekenreeks) | De som retourneren van waarden die zijn verzameld uit XML-knooppunten (met als sleutel gedefinieerde naam) toen de indeling werd uitgevoerd en die voldoet aan de opgegeven voorwaarde (een bereik en een waarde). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
+| COUNTIFS (tekenreeks criteriumbereik1, tekenreeks criteriumwaarde1 \[, tekenreeks criteriumbereik2, tekenreeks criteriumwaarde2, …\]) | Het aantal XML-knooppunten retourneren dat is verzameld toen de indeling werd uitgevoerd en dat voldoet aan de opgegeven voorwaarden (paren bereiken en waarden). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
+| COUNTIF (criteriumbereik tekenreeks, criteriumwaarde tekenreeks) | Het aantal XML-knooppunten retourneren dat is verzameld toen de indeling werd uitgevoerd en dat voldoet aan de opgegeven voorwaarde (een bereik en een waarde). Retourneert een **0** (nul) wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
+| COLLECTEDLIST (tekenreeks criteriumbereik1, tekenreeks criteriumwaarde1 \[, tekenreeks criteriumbereik2, tekenreeks criteriumwaarde2, …\]) | De lijst met waarden retourneren die is verzameld voor XML-knooppunten toen de indeling werd uitgevoerd en die voldoet aan de opgegeven voorwaarden (een bereik en een waarde). Retourneert een lege lijst wanneer de vlag **Uitvoerdetails verzamelen** van de huidige bestanden is uitgeschakeld. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Andere functies (voor specifiek zakelijk domein)
 
@@ -667,6 +731,9 @@ Wanneer deze gegevensbronnen zijn gedefinieerd, kunt u een expressie zoals <stro
 | FA\_BALANCE (code vast activum, waardemodelcode, aangiftejaar, aangiftedatum) | Retourneert de voorbereide gegevenscontainer van het vaste-activasaldo. Het rapportjaar moet zijn opgegeven als een waarde van de opsomming **AssetYear** in Finance and Operations. | **FA\_SUM ("COMP-000001", “Current”, AxEnumAssetYear.ThisYear, SESSIONTODAY ())** retourneert de voorbereide gegevenscontainer met saldi voor het vaste activum **"COMP-000001"** met het waardemodel **"Current"** op de datum van de huidige Finance and Operations-sessie. |
 | TABLENAME2ID (tekenreeks) | Retourneert een integer-representatie van een tabel-id voor de opgegeven tabelnaam. | **TABLENAME2ID ("Intrastat")** retourneert **1510**. |
 | ISVALIDCHARACTERISO7064 (tekenreeks) | Retourneert de Booleaanse waarde **TRUE** wanneer de opgegeven tekenreeks staat voor een geldig internationaal bankrekeningnummer (IBAN). Anders de Booleaanse waarde **FALSE** retourneren. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** retourneert **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** retourneert **FALSE**. |
+| NUMSEQVALUE (getalreekscode, bereik, bereik-id) | De nieuw gegenereerde waarde van een getalreeks retourneren, op basis van de opgegeven getalreekscode, het bereik en de bereik-id. Het bereik moet worden opgegeven als een waarde van de opsomming **ERExpressionNumberSequenceScopeType** (**Gedeeld**, **Rechtspersoon** of **Bedrijf**). Geef voor het bereik **Gedeeld** een lege tekenreeks als de bereik-id op. Geef voor de bereiken **Bedrijf** en **Rechtspersoon** de bedrijfscode op als de bereik-id. Als u voor de bereiken **Bedrijf** en **Rechtspersoon** een lege tekenreeks opgeeft als de bereik-id, wordt de huidige bedrijfscode gebruikt. | U definieert de volgende gegevensbronnen in uw modeltoewijzing:<ul><li>**enumScope** (type **Dynamics 365 for Operations-opsomming**), die verwijst naar de opsomming **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (type **Berekend veld**) die de expressie **NUMSEQVALUE ("Gene\_1" , enumScope.Company, "")** bevat</li></ul>Wanneer de gegevensbron **NumSeq** wordt aangeroepen, retourneert deze de nieuw gegenereerde waarde van de getalreeks **Gene\_1**, die is geconfigureerd voor het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. |
+| NUMSEQVALUE (getalreekscode) | De nieuw gegenereerde waarde van een getalreeks retourneren op basis van de opgegeven getalreeks, het bereik **Bedrijf** en (als de bereik-id) de code van het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. | U definieert de volgende gegevensbron in uw modeltoewijzing: **NumSeq** (type **Berekend veld**). Deze gegevensbron bevat de expressie **NUMSEQVALUE ("Gene\_1")**. Wanneer de gegevensbron **NumSeq** wordt aangeroepen, retourneert deze de nieuw gegenereerde waarde van de getalreeks **Gene\_1**, die is geconfigureerd voor het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. |
+| NUMSEQVALUE (getalreeksrecord-id) | De nieuw gegenereerde waarde van een getalreeks retourneren, op basis van de opgegeven getalreeksrecord-id. | U definieert de volgende gegevensbronnen in uw modeltoewijzing:<ul><li>**LedgerParms** (type **Tabel** type), dat verwijst naar de tabel LedgerParameters</li><li>**NumSeq** (type **Berekend veld** type), dat de expressie **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)** bevat</li></ul>Wanneer de gegevensbron **NumSeq** wordt aangeroepen, retourneert deze de nieuw gegenereerde waarde van de getalreeks die is geconfigureerd in de grootboekparameters voor het bedrijf dat de context levert waarin de ER-indeling wordt uitgevoerd. Deze getalreeks vormt een unieke identificatie van journalen en fungeert als batchnummer dat de transacties aan elkaar koppelt. |
 
 ### <a name="functions-list-extension"></a>Uitbreiding lijst met functies
 
@@ -674,7 +741,6 @@ MET ER kunt u de lijst met functies uitbreiden die in ER-expressies worden gebru
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van elektronische rapportage](general-electronic-reporting.md)
-
-[De lijst met functies voor elektronische rapportage (ER) uitbreiden](general-electronic-reporting-formulas-list-extension.md)
+- [Overzicht van elektronische rapportage](general-electronic-reporting.md)
+- [De lijst met functies voor elektronische rapportage (ER) uitbreiden](general-electronic-reporting-formulas-list-extension.md)
 

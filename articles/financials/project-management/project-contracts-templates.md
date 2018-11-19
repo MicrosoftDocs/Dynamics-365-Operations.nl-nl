@@ -3,7 +3,7 @@ title: Projectcontracten en projecten rechtstreeks vanuit Project Service Automa
 description: In dit onderwerp worden de sjabloon en onderliggende taken beschreven die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Microsoft Dynamics 365 for Project Service Automation te synchroniseren met Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 65a274323a2d95c9c76727c9e40aa7e649e6350a
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -95,8 +95,8 @@ Wanneer de oplossing Project Service Automation-integratie naar Finance and Oper
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en instellingen voor toewijzing
 
 - Voordat synchronisatie van projectcontracten en projecten kan optreden, moet u rekeningen synchroniseren.
-- Voeg in uw verbindingsset een toewijzing van een integratiesleutelveld toe voor **msdyn\_organizationalunits** naar **msdyn\_name \[name\]**. Mogelijk moet u eerst een project toevoegen aan de verbindingsset. Zie [Dynamics 365 Gegevensintegratie](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration) voor meer informatie over integratiesleutels
-- Voeg in uw verbindingsset een toewijzing van een integratiesleutelveld toe voor **msdyn\_projects** naar **msdynce\_projectnumber \[Project Number\]**. Mogelijk moet u eerst een project toevoegen aan de verbindingsset. Zie [Dynamics 365 Gegevensintegratie](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration) voor meer informatie over integratiesleutels
+- Voeg in uw verbindingsset een toewijzing van een integratiesleutelveld toe voor **msdyn\_organizationalunits** naar **msdyn\_name \[name\]**. Mogelijk moet u eerst een project toevoegen aan de verbindingsset. Zie voor meer informatie [Gegevens integreren in Common Data Service voor Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Voeg in uw verbindingsset een toewijzing van een integratiesleutelveld toe voor **msdyn\_projects** naar **msdynce\_projectnumber \[Project Number\]**. Mogelijk moet u eerst een project toevoegen aan de verbindingsset. Zie voor meer informatie [Gegevens integreren in Common Data Service voor Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - **SourceDataID** voor projectcontracten en projecten kan worden bijgewerkt naar een andere waarde of verwijderd uit de toewijzing. De standaardsjabloonwaarde is **Project Service Automation**.
 - De toewijzing **Betalingsvoorwaarden** moet worden bijgewerkt zodat deze geldige betalingsvoorwaarden in Finance and Operations reflecteert. U kunt ook de toewijzing uit de projecttaak verwijderen. De standaardwaardetoewijzing heeft standaardwaarden voor demonstratiegegevens. De volgende tabel bevat de waarden in Project Service Automation.
 
