@@ -3,7 +3,7 @@ title: Startpagina voor Dynamics 365 for Unified Operations Mobile-app
 description: In dit onderwerp wordt de mobiele app voor Microsoft Dynamics 365 for Unified Operations beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
+ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
+ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
@@ -61,7 +61,7 @@ Navigeren in de mobiele app omvat vier basisconcepten: het dashboard, de werkgeb
 ## <a name="implementation-process"></a>Implementatieproces
 In de volgende afbeelding ziet u het proces voor de implementatie van zowel mobiele werkgebieden die door Microsoft worden geleverd als ook aangepaste mobiele werkgebieden. 
 
-![Implementatieproces voor mobiele apps](./media/Mobile-implementation-process-5.png)
+[![Implementatieproces voor mobiele apps](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de implementatie van zowel mobiele werkgebieden die door Microsoft worden geleverd als ook aangepaste mobiele werkgebieden. De nummers in de eerste kolom komen overeen met de genummerde stappen in de bovenstaande afbeelding.
 

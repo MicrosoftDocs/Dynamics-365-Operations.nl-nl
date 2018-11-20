@@ -1,9 +1,9 @@
 ---
 title: Grootboekjournaaltypen
-description: "Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations."
+description: "Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations.
+Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële journalen. Gebruik de pagina **Journaalnamen** voor het instellen van journalen die u kunt gebruiken in heel Microsoft Dynamics 365 for Finance and Operations.
 
 | Type journaal                      | Doel                       | Transacties invoeren op deze pagina                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ Dit artikel beschrijft de journaaltypen die u kunt instellen voor financiële jo
 | Salarisvoorschot              | Geef betalingen uit die zijn gebaseerd op salarisbetalingsafschriften In dit journaal kunt u niet handmatig transacties invoeren. U moet betalingsafschriften maken en deze afschriften indienen voor betaling.                                                                                                                                                              |                                                                |
 | Periodiek                          | Periodieke transacties maken voor het periodiek journaal.                                                                                                                                                                                                                                                                                                      | Periodieke journalen                                              |
 | Vaste activa boeken                 | Vaste-activatransacties boeken.                                                                                                                                                                                                                                                                                                                              | Vaste activa                                                   |
-| Project - uitgaven                | Projectonkostentransacties maken.                                                                                                                                                                                                                                                                                                                        | Uitgaven                                                        |
+| Project - uitgaven                | Projectonkostentransacties maken.                                                                                                                                                                                                                                                                                                                        | Expense                                                        |
+| Correctie aangiftevaluta     | Correcties maken in de aangiftevaluta voor saldi op grootboekrekeningen.               | Correctiejournalen aangiftevaluta                         |
 | Statistische transacties            | Statistische transacties maken.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Bankremise van leverancier            | Een remisebestand voor een promesse maken dat kan worden verzonden naar de bank van uw organisatie.                                                                                                                                                                                                                                                                      | Remisejournaal                                             |
 | Voorschot van leverancier               | Leveranciervoorschottransacties maken.                                                                                                                                                                                                                                                                                                                    | Betalingsjournaal                                                |

@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 # <a name="provision-talent"></a>Talent inrichten
@@ -47,7 +47,7 @@ Zie de methodologie **Talent** die u hebt gemaakt in het nieuwe project voor inf
 Nadat u een LCS-project hebt gemaakt, kunt u Talent inrichten in een omgeving.
 
 1. Selecteer in uw LCS-project de tegel **Beheer Talent-app**.
-2. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. 
+2. Talent wordt altijd ingericht in een Microsoft PowerApps-omgeving om de PowerApps-integratie en -uitbreidbaarheid mogelijk te maken. Lees de sectie “Een PowerApps-omgeving selecteren“ in dit onderwerp voordat u doorgaat. Als u nog geen PowerApps omgeving hebt, selecteert u Omgevingen beheren in LCS of gaat u naar het PowerApps-beheercentrum. Volg daarna de stappen voor het [Maken van een PowerApps-omgeving](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Om bestaande omgevingen weer te geven of nieuwe omgevingen te maken, moet de tenantbeheerder die Talent inricht, worden toegewezen aan de PowerApps P2-licentie. Als uw organisatie geen PowerApps P2-licentie heeft, kunt u er een krijgen van uw provider van cloudoplossingen of downloaden via de [pagina met PowerApps-prijzen](https://powerapps.microsoft.com/en-us/pricing/).
@@ -73,7 +73,7 @@ Dankzij de integratie tussen Talent en de PowerApps-omgevingen kunt u Talent-geg
 Gebruik de volgende richtlijnen bij het bepalen in welke PowerApps-omgeving u Talent wilt implementeren: 
 1. Selecteer in LCS Omgevingen beheren of navigeer rechtstreeks naar het PowerApps-beheercentrum waar u bestaande omgevingen weergeeft en nieuwe omgevingen maakt.
 2. Eén Talent-omgeving wordt toegewezen aan één PowerApps-omgeving.
-3. Een PowerApps-omgeving bevat de toepassing Talent samen met de bijbehorende PowerApps-, Flow- en CDS-toepassingen. Als de PowerApps-omgeving wordt verwijderd, worden ook de toepassingen erin gewist.
+3. Een PowerApps-omgeving bevat de toepassing Talent samen met de bijbehorende PowerApps-, Flow- en CDS-toepassingen. Als de PowerApps-omgeving wordt verwijderd, worden ook de toepassingen erin gewist. Tijdens het inrichten van een Talent-omgeving kan 'Proef' of 'Productie' worden ingericht. Kies het type omgeving op basis van hoe de omgeving wordt gebruikt. 
 4. Gegevensintegratie en teststrategieën moeten worden overwogen. Bijvoorbeeld: sandbox, UAT, productie. Daarom is het raadzaam dat u rekening houdt met de verschillende gevolgen voor uw implementatie, aangezien de toewijzing van een Talent-omgeving aan een PowerApps-omgeving later niet eenvoudig te wijzigen is.
 5. De volgende PowerApps-omgevingen kunnen niet worden gebruikt voor Talent en worden gefilterd in de selectielijst binnen LCS:
  

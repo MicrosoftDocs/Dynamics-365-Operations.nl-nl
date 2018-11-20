@@ -50,11 +50,12 @@ De volgende workflowtypen zijn beschikbaar voor Inkoop en sourcing.
 | Workflow voor toepassing voor het toevoegen van leveranciers  | Controle- en goedkeuringsworkflows maken voor het toevoegen van nieuwe leveranciers via leverancieraanvragen. |
 
 ## <a name="creating-a-workflow"></a>Een werkstroom maken
+
 Om een werkstroom te maken, gaat u naar Inkoop en sourcing &gt; Instellingen &gt; Werkstromen voor inkoop en sourcing en maakt u een nieuwe werkstroom door het type werkstroom te selecteren dat u wilt maken.  
 
 U kunt in het werkstroomcanvas werkstroomelementen in de ontwerper slepen en de elementen in een stroom koppelen. De werkstroomelementen moeten worden geconfigureerd. Voor goedkeurings- en taakwerkstroomelementen kunt u configureren welke deelnemer de actie moet uitvoeren.
-Typen deelnemers
-----------------------
+
+## <a name="types-of-participants"></a>Typen deelnemers
 
 U kunt een goedkeuringsstap toewijzen aan de volgende groepen deelnemers.
 
@@ -68,13 +69,12 @@ U kunt een goedkeuringsstap toewijzen aan de volgende groepen deelnemers.
 
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
-[Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Workflow voor opdracht tot inkoop](purchase-requisitions-workflow.md)
+- [Workflow voor opdracht tot inkoop](purchase-requisitions-workflow.md)
 
-[Leveranciers onboarden](vendor-onboarding.md)
+- [Leveranciers onboarden](vendor-onboarding.md)
 
 

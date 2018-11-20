@@ -3,7 +3,7 @@ title: "Financiële dimensies"
 description: "In dit onderwerp worden de verschillende typen financiële dimensies beschreven en hoe ze worden ingesteld."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Hieronder vindt u enkele beperkingen:
 
 ## <a name="custom-dimensions"></a>Aangepaste dimensies
 
-Als u een door de gebruiker gedefinieerde financiële dimensie wilt maken, selecteert u **&lt;&nbsp;Aangepaste dimensie&nbsp;&gt;** in het veld **Waarden gebruiken van**.
+Als u een door de gebruiker gedefinieerde financiële dimensie wilt maken, selecteert u **Aangepaste dimensie** in het veld **Waarden gebruiken van**.
 
-U kunt ook een opmaakmasker opgeven om de hoeveelheid en het type gegevens te beperken die voor dimensiewaarden kunnen worden ingevoerd. U kunt tekens, zoals letters of een koppelteken (-), invoeren die voor elke dimensiewaarde hetzelfde blijven. U kunt ook hekjes (\#) en en-tekens (&) invoeren die dienen als tijdelijke aanduidingen voor tekens die elke keer worden gewijzigd als een dimensiewaarde wordt gemaakt. Gebruik een hekje (\#) als tijdelijke aanduiding voor een cijfer en een en-teken (&) als tijdelijke aanduiding voor een letter. Het veld voor het opmaakmasker is alleen beschikbaar wanneer u **&lt;&nbsp;Aangepaste dimensie&nbsp;&gt;** selecteert in het veld **Waarden gebruiken van**.
+U kunt ook een opmaakmasker opgeven om de hoeveelheid en het type gegevens te beperken die voor dimensiewaarden kunnen worden ingevoerd. U kunt tekens, zoals letters of een koppelteken (-), invoeren die voor elke dimensiewaarde hetzelfde blijven. U kunt ook hekjes (\#) en en-tekens (&) invoeren die dienen als tijdelijke aanduidingen voor tekens die elke keer worden gewijzigd als een dimensiewaarde wordt gemaakt. Gebruik een hekje (\#) als tijdelijke aanduiding voor een cijfer en een en-teken (&) als tijdelijke aanduiding voor een letter. Het veld voor het opmaakmasker is alleen beschikbaar wanneer u **Aangepaste dimensie** selecteert in het veld **Waarden gebruiken van**.
 
 **Voorbeeld**
 
@@ -108,14 +108,30 @@ U kunt afgeleide waarden instellen op de pagina Dimensies.
 
 Voer de dimensiecombinaties in die moeten worden afgeleid van de dimensie in de eerste kolom. Als u de kostenplaats wilt gebruiken als de dimensie waarvan de afdeling en locatie moeten worden afgeleid, voert u bijvoorbeeld kostenplaats 10, afdeling 20 en locatie 30 in. Wanneer u vervolgens kostenplaats 10 invoert in een hoofdrecord of op een transactiepagina, worden afdeling 20 en locatie 30 standaard ingevoerd.
 
-Het afgeleide dimensieproces overschrijft bestaande waarden niet voor afgeleide dimensies. Als u kostenplaats 10 invoert en er geen andere dimensie wordt ingevoerd, worden afdeling 20 en locatie 30 standaard ingevoerd. Als u de kostenplaats wijzigt, worden de waarden die al zijn ingevoerd niet meer gewijzigd. Daarom kunt u standaarddimensies voor hoofdrecords maken. Deze dimensies worden niet gewijzigd door afgeleide dimensies.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Bestaande waarden overschrijven met afgeleide dimensies
+ 
+Het afgeleide dimensieproces overschrijft standaard bestaande waarden niet voor afgeleide dimensies. Als u kostenplaats 10 invoert en er geen andere dimensie wordt ingevoerd, worden afdeling 20 en locatie 30 standaard ingevoerd. Als u de kostenplaats wijzigt, worden de waarden die al zijn ingevoerd niet meer gewijzigd. Daarom kunt u standaarddimensies voor hoofdrecords maken. Deze dimensies worden niet gewijzigd door afgeleide dimensies.
+
+U kunt de werking van afgeleide dimensies om bestaande waarden te overschrijven wijzigen door het selecteren van het selectievakje **Bestaande dimensiewaarden vervangen door afgeleide waarden** op de pagina **Afgeleide dimensies**. Als dit veld is geselecteerd, kunt u een dimensie met afgeleide dimensiewaarden invoeren en overschrijven deze afgeleide dimensiewaarden alle waarden die al bestaan. Als u in het vorige voorbeeld bijvoorbeeld kostenplaats 10 invoert en er geen andere dimensie wordt ingevoerd, worden afdeling 20 en locatie 30 standaard ingevoerd. Echter, als de waarden al afdeling 50 en locatie 60 waren, worden de waarden nu gewijzigd in afdeling 20 en locatie 30.
+ 
+Afgeleide dimensies met deze instelling vervangen niet automatisch de bestaande standaardwaarden voor dimensies wanneer standaardwaarden voor dimensies worden gebruikt. Dimensiewaarden worden alleen overschreven wanneer u een nieuwe dimensiewaarde op een pagina invoert en er bestaande afgeleide waarden voor die dimensie op de pagina zijn.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Wijzigingen met afgeleide dimensies voorkomen
+ 
+Als u **Segment toevoegen** gebruikt op de **pagina Afgeleide dimensies** om een segment toe te voegen als een afgeleide dimensie, is er onder aan de pagina **Segment toevoegen** een optie waarmee u wijzigingen in die dimensie kunt voorkomen wanneer deze op een pagina wordt afgeleid. De standaardinstelling is uitgeschakeld, zodat niet wordt voorkomen dat de afgeleide dimensiewaarden worden gewijzigd. Wijzig de instelling in **Ja** als u wilt voorkomen dat de dimensie wordt gewijzigd nadat deze is afgeleid. Als de waarde voor de dimensie Afdeling bijvoorbeeld is afgeleid van de waarde van de dimensie Kostenplaats, kan de waarde van Afdeling niet worden gewijzigd als de instelling **Wijzigingen voorkomen** **Ja** is. 
+ 
+De instelling voorkomt geen wijzigingen als de dimensiewaarde geldig is, maar deze niet wordt vermeld in de lijst met afgeleide dimensies. Als Afdeling 20 bijvoorbeeld is afgeleid van Kostenplaats 10 en u Kostenplaats 10 invoert, kunt u Afdeling 20 niet bewerken. Als u echter Kostenplaats 20 invoert en dit is niet in de lijst van afgeleide dimensies voor de kostenplaats staat, kunt u de waarde Afdeling wel bewerken. 
+ 
+In alle gevallen worden de rekeningwaarde en alle dimensiewaarden nog steeds gevalideerd tegen de rekeningstructuren nadat de afgeleide dimensiewaarden zijn toegepast. Als u afgeleide dimensies gebruikt en de validatie ervan mislukt wanneer ze op een pagina worden gebruikt, moet u de afgeleide dimensiewaarden op de pagina met afgeleide dimensies wijzigen voordat u ze in transacties kunt gebruiken. 
+ 
+Wanneer u dimensies wijzigt op het sneltabblad **Financiële dimensies**, is de dimensie die is gemarkeerd om wijzigingen te voorkomen, niet bewerkbaar. Als u een rekening en dimensies in het besturingselement met gesegmenteerde invoer invoert op een pagina, zijn de dimensies bewerkbaar. Wanneer u echter de markering uit het besturingselement voor gesegmenteerde invoer verplaatst en naar een ander veld gaat of een actie uitvoert, worden de rekening en de dimensies gevalideerd tegen de lijst met afgeleide dimensies en de rekeningstructuren om te zorgen dat u de juiste waarden hebt ingevoerd. 
 
 ### <a name="derived-dimensions-and-entities"></a>Afgeleide dimensies en entiteiten
 
 U kunt de segmenten en waarden van afgeleide dimensies instellen met behulp van entiteiten.
 
 - Met de entiteit Afgeleide dimensies configureert u de aansturende dimensies en de segmenten die worden gebruikt voor deze dimensies.
-- Met de entiteit DerivedDimensionValue kunt u de waarden importeren die moeten worden afgeleid voor elke aansturende dimensie.
+- Met de entiteit Afgeleide dimensiewaarde kunt u de waarden importeren die moeten worden afgeleid voor elke aansturende dimensie.
 
 Wanneer u een entiteit gebruikt om gegevens te importeren en er met die entiteit dimensies worden geïmporteerd, worden de afgeleide dimensieregels toegepast tijdens het importeren, tenzij de entiteit die dimensies specifiek overschrijft.
 

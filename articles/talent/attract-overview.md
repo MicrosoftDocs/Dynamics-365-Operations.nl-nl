@@ -1,6 +1,6 @@
 ---
 title: Functies en voorzieningen van Attract
-description: Attract biedt mogelijkheden voor het beheren van het proces voor het werven van nieuw talent. Kandidaten kunnen aan openstaande functies worden toegevoegd en de verschillende fasen doorlopen tot er een aanbod wordt gedaan of de sollicitatie wordt afgewezen.
+description: Dit onderwerp beschrijft de functies die Attract biedt voor het beheer van het aanstellingsproces.
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
@@ -18,32 +18,32 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 37dd0396787375fccd4082f392e079ed5dab04e9
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 # <a name="attract-features-and-capabilities"></a>Functies en voorzieningen van Attract
 
 [!include [banner](includes/banner.md)]
 
-Attract biedt mogelijkheden voor het beheren van het proces voor het werven van nieuw talent. Kandidaten kunnen aan openstaande functies worden toegevoegd en de verschillende fasen doorlopen tot er een aanbod wordt gedaan of de sollicitatie wordt afgewezen. In elke fase doorlopen kandidaten verschillende activiteiten, zoals screeningsgesprekken, beoordelingen of het plannen van gesprekken. Nadat ze hebben gesolliciteerd, krijgen kandidaten een e-mail met een uitnodiging om zich aan te melden bij Attract, waar ze de status van de functie en hun sollicitatie kunnen volgen en kunnen reageren op de taken die aan hen zijn toegewezen.
+Attract biedt mogelijkheden voor het beheren van het proces voor het werven van nieuw talent. Kandidaten kunnen aan openstaande functies worden toegevoegd en de verschillende fasen doorlopen tot er een aanbieding wordt gedaan of de sollicitatie wordt afgewezen. In elke fase doorlopen kandidaten verschillende activiteiten, zoals screeningsgesprekken, beoordelingen en sollicitatiegesprekken. Nadat ze hebben gesolliciteerd, krijgen kandidaten een e-mail met een uitnodiging om zich aan te melden bij Attract, waar ze de status van de functie en hun sollicitatie kunnen volgen. Ze kunnen ook reageren op alle functies die aan hen zijn toegewezen.
 
-Attract biedt de volgende functies.
+Dit onderwerp beschrijft de functies die Attract biedt.
 
 ## <a name="attract-dashboard"></a>Attract-dashboard
-Hier kunnen leden van het aanstellingsteam de details bekijken voor de functies waarbij ze betrokken zijn. Hier kan een aanstellende manager of werver ook een nieuwe functie toevoegen aan Attract, door een afzonderlijke functie te maken of door er een aantal tegelijk te importeren uit een Excel-werkblad.
+Op het dashboard kunnen leden van aanstellende teams de details weergeven van de functies waaraan ze deelnemen. Op het dashboard kan een aanstellende manager of werver ook nieuwe functies toevoegen aan Attract, door ze afzonderlijk te maken of door er een aantal tegelijk te importeren uit een Microsoft Excel-werkblad.
 
-## <a name="jobs"></a>Taken
-Op de pagina **Functie** kunnen gegevens als de functieomschrijving en functielocatie worden bekeken en bewerkt. Op de pagina **Functie** wordt het aanstellingsteam samengesteld en kunt u de wervers en interviewers aan het team toevoegen of wijzigen. Nieuwe kandidaten kunnen ook worden toegevoegd op de pagina **Functie**.
+## <a name="jobs"></a>Functies
+Op de pagina **Functie** kunnen gegevens als de functieomschrijving en functielocatie worden bekeken en bewerkt. Op de pagina **Functie** wordt ook het aanstellingsteam samengesteld en kunt u de wervers en interviewers aan het team toevoegen of wijzigen. Nieuwe kandidaten kunnen ook worden toegevoegd op de pagina **Functie**.
 
 ## <a name="candidates"></a>Kandidaten
-Kandidaten kunnen afzonderlijk worden toegevoegd of in grotere aantallen, via een Excel-werkblad, worden geüpload. Alle kandidaten worden automatisch toegevoegd aan de eerste fase, de fase Solliciteren, van het aanstellingsproces voor een functie. Alle sollicitatiegegevens voor de kandidaat kunnen hier worden bekeken en beheerd. Er kunnen extra documenten worden geüpload en bekeken, naast contactgegevens zoals e-mailadressen, telefoonnummers en koppelingen naar hun sociale media-accounts. Als de kandidaat een koppeling naar zijn of haar LinkedIn-profiel heeft opgegeven en de LinkedIn-integratie is ingesteld (waarvoor een LinkedIn-werverslicentie vereist is), wordt het profiel van de kandidaat weergegeven.
+Kandidaten kunnen afzonderlijk worden toegevoegd of in grotere aantallen, via een Excel-werkblad, worden geüpload. Alle kandidaten worden automatisch toegevoegd aan de eerste fase, de fase Solliciteren, van het aanstellingsproces voor elke functie. Tijdens deze fase kan van een kandidaat sollicitatie-informatie worden bekeken en beheerd. Er kunnen extra documenten worden geüpload en bekeken, samen met contactgegevens zoals e-mailadressen, telefoonnummers en koppelingen naar sociale media-accounts. Als een kandidaat een koppeling verschaft naar zijn of haar LinkedIn-profiel, en integratie van LinkedIn is ingesteld, wordt het kandidaatprofiel weergegeven. (LinkedIn-integratie vereist een LinkedIn-werverslicentie.)
 
 ## <a name="stages"></a>Fasen
-Attract biedt een vooraf gedefinieerd aanstellingsproces dat vier algemene fasen omvat: Solliciteren, Screenen, Interviewen en Aanbod. Nieuwe kandidaten beginnen in de sollicitatiefase, waarin hun cv, begeleidend schrijven, portfolio en andere sollicitatiedocumenten worden beoordeeld. Vanuit deze fase kan de kandidaat worden toegelaten tot de screeningfase, waar de kandidaat wordt uitgenodigd voor een telefoongesprek of een Skype-videogesprek. De aanstellende manager en werver kunnen feedback geven over de kandidaat en de kandidaat toelaten tot de volgende fase. Vervolgens worden er persoonlijke interviews gepland met beschikbare leden van het aanstellingsteam. Desgewenst kunnen er ook één-op-één-gesprekken of panelinterviews van verschillende lengte worden gepland. Na de interviews wordt de feedback van het interviewteam vastgelegd en doorgenomen. Enkele kandidaten worden toegelaten tot de laatste fase, waar een aanbod wordt gemaakt en voorbereid dat ter beoordeling en goedkeuring aan de kandidaat wordt voorgelegd. 
+Attract biedt een vooraf gedefinieerd aanstellingsproces dat vier algemene fasen omvat: Solliciteren, Screenen, Sollicitatiegesprek en Aanbieding. Nieuwe kandidaten beginnen in de fase Solliciteren, waarin hun cv, begeleidend schrijven, portfolio en andere sollicitatiedocumenten worden beoordeeld. Vanuit deze fase kunnen kandidaten worden toegelaten tot de screeningfase, waar de kandidaat wordt uitgenodigd voor een telefoongesprek of een Skype-videogesprek. De aanstellende manager en werver kunnen feedback geven over de kandidaten en de kandidaat toelaten tot de volgende fase, de fase Sollicitatiegesprek. Persoonlijke gesprekken worden vervolgens gepland met beschikbare leden van het aanstellend team. Deze gesprekken kunnen worden aangepast als een-op-een gesprekken van verschillende lengte. Na de interviews wordt de feedback van het interviewteam vastgelegd en doorgenomen. Geselecteerde kandidaten worden vervolgens doorgestuurd naar de laatste fase, de fase van de aanbieding. Tijdens deze fase wordt een aanbieding gemaakt en voorbereid voor de beoordeling en goedkeuring van de kandidaat.
 
 ## <a name="candidate-app"></a>Kandidaatapp
-Kandidaten ontvangen zodra ze zijn toegevoegd aan een functie een e-mail met een koppeling om de app te downloaden. Deze webapp biedt kandidaten meer informatie en is het programma voor communicatie met het aanstellingsteam. Kandidaten kunnen ook de beschikbaarheid voor gesprekken aangeven.
+Kandidaten ontvangen zodra ze zijn toegevoegd aan een functie een e-mail met een koppeling om de webapp te downloaden. De app biedt kandidaten meer informatie en wordt gebruikt om te communiceren met het aanstellend team. Kandidaten kunnen deze ook gebruiken om hun beschikbaarheid voor gesprekken aan te geven.
 

@@ -3,7 +3,7 @@ title: Btw-vereffeningsperioden instellen
 description: Btw-vereffeningsperioden bevatten info over de periode-intervallen waarvoor btw moet worden aangegeven en betaald.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/15/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Btw-vereffeningsperioden instellen
@@ -50,13 +50,15 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 12. Voer het aantal periode-intervaleenheden per periode in. Bijvoorbeeld, een kwartaal heeft 3 maanden.
 13. Schakel het selectievakje Batchverwerking gebruiken voor btw-vereffening in of uit.
     * Het vereffeningsproces voor de vereffeningsperiode kan als batchtaak in de achtergrond worden verwerkt. Dit wordt aanbevolen voor een groot aantal btw-transacties binnen een periode-interval.  
-14. Vouw het tabblad Periode-intervallen uit.
-15. Klik op Toevoegen.
-16. Markeer in de lijst de geselecteerde rij.
-17. Voer een datum in het veld Begindatum in.
-18. Voer een datum in het veld Einddatum in.
-19. Klik op Nieuw periode-interval.
+14. Schakel het selectievakje Genereren van tegengerekende btw-transacties voorkomen in of uit.
+    * Standaard genereert het systeem tegengerekende btw-transacties tijdens het vereffeningsproces, wat kan leiden tot prestatieprobleem als er een groot aantal btw-transacties binnen een periode-interval is. Schakel dit selectievakje in om genereren van tegengerekende btw-transacties te voorkomen.
+15. Vouw het tabblad Periode-intervallen uit.
+16. Klik op Toevoegen.
+17. Markeer in de lijst de geselecteerde rij.
+18. Voer een datum in het veld Begindatum in.
+19. Voer een datum in het veld Einddatum in.
+20. Klik op Nieuw periode-interval.
     * Als het eerste periode-interval is ingevoerd, kunnen nieuwe perioden automatisch worden gemaakt. U kunt later nieuwe periode-intervallen toevoegen.  
-20. Sluit de pagina.
+21. Sluit de pagina.
 
 

@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 4c27e0f75a45a2e4290ec4b6f72ee67d792449a0
+ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/11/2018
 
 ---
 
@@ -40,7 +40,7 @@ U kunt ook leveranciers kopiëren tussen rechtspersonen als u handmatige leveran
 
 ## <a name="copy-a-vendor"></a>Een leverancier kopiëren
 
-Als u een leverancier wilt kopiëren, selecteert u **Nieuw** op lijstpagina **Alle leveranciers** om de pagina **Alle leveranciers, nieuwe record** te openen. U ziet dat de nieuwe leverancier-id niet onmiddellijk wordt toegewezen. Dit gedrag wijkt af van het gedrag in eerdere versies van Microsoft Dynamics 365 for Finance and Operations. Omdat u de leveranciersgroep nog niet hebt geselecteerd, kan het systeem niet de juiste nummerreeks bepalen die moet worden gebruikt. Het kan bovendien niet bepalen of u een nieuwe leverancier wilt maken of een leverancier kopieert. Daarom wordt de leverancier-id pas toegewezen als u **Opslaan** selecteert onderaan op de pagina.
+Als u een leverancier wilt kopiëren, selecteert u **Nieuw** op de lijstpagina **Alle leveranciers** om de pagina **Alle leveranciers, nieuwe record** te openen. U ziet dat de nieuwe leverancier-id niet onmiddellijk wordt toegewezen. Dit gedrag wijkt af van het gedrag in eerdere versies van Microsoft Dynamics 365 for Finance and Operations. Omdat u de leveranciersgroep nog niet hebt geselecteerd, kan het systeem niet de juiste nummerreeks bepalen die moet worden gebruikt. Het kan bovendien niet bepalen of u een nieuwe leverancier wilt maken of een leverancier kopieert. Daarom wordt de leverancier-id pas toegewezen als u **Opslaan** selecteert onderaan op de pagina.
 
 Als u een nieuwe leverancier maakt, kunt u zoals gebruikelijk verdergaan met het invullen van de velden. Wanneer u klaar bent en **opslaan** selecteert, ziet u dat de leverancier-id automatisch is toegewezen. Bij handmatige nummerreeksen ziet u dat de handmatige leverancier-id is gebruikt.
 

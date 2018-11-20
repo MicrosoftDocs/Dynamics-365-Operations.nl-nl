@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Een formulier als favoriet toevoegen/verwijderen (met de focus op een formulier in het navigatiedeelvenster)   | Shift+F                    |
 | Naar het standaardactievenster gaan                                              | Alt+M, A of Ctrl+F6         |
 | Naar het filtervenster gaan (of dit venster openen, indien van toepassing)                        | Alt+M, F of Ctrl+F3         |
-| Focus verplaatsen naar de pagina-inhoud (in de navigatielijst)            | Alt+M, M of Ctrl+F3         |
+| Focus verplaatsen naar de pagina-inhoud (met focus in het filterdeelvenster)                | Alt+M, M of Ctrl+F3         |
 | Naar de navigatielijst in het detailformulier gaan (of dit formulier openen, indien van toepassing)    | Alt+M, S of Ctrl+F8         |
 | Focus verplaatsen naar de pagina-inhoud (in de navigatielijst)            | Alt+M, M of Ctrl+F8         |
 | De navigatielijst in detailformulieren sluiten (met de focus in de navigatielijst) | Esc                        |

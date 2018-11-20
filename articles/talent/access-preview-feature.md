@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ U kunt de instelling **Voorbeeldfuncties** in Microsoft Dynamics 365 voor Talent
 1. Meld u aan bij Microsoft Dynamics 365 for Talent: Attract.
 2. Selecteer in het menu **Instellen** (het tandwielsymbool) in de rechterbovenhoek **Beheerinstellingen**.
 3. Selecteer op het tabblad **Functiebeheer** de optie naast **Voorbeeldfuncties** zodat deze blauw wordt.
-4. Vernieuw uw browser om de nieuwe functies te zien. (Alle gebruikers die al zijn geregistreerd, zien de functies de volgende keer dat ze zich aanmelden. Ze kunnen ook hun browser vernieuwen om de functies direct te zien.)
+4. Desgewenst kunt u afzonderlijke functies beheren door specifieke functies in of uit te schakelen op deze pagina.
+5. Vernieuw uw browser om de nieuwe functies te zien. (Alle gebruikers die al zijn geregistreerd, zien de functies de volgende keer dat ze zich aanmelden. Ze kunnen ook hun browser vernieuwen om de functies direct te zien.)
 
 #### <a name="core-hr"></a>Core HR
 
@@ -61,12 +62,11 @@ U kunt de instelling **Voorbeeldfuncties** in Microsoft Dynamics 365 voor Talent
 
 ## <a name="features-that-are-currently-in-preview"></a>Functies waarvan momenteel een voorbeeld kan worden bekeken
 
-### <a name="attract"></a>Attract
+### <a name="attract"></a>Aantrekken
 
-- **Vacaturesjablonen**: u kunt nu sjablonen voor het aanstellingsproces maken. Gebruikers kunnen het aanstellingsproces al voor een bepaalde vacature aanpassen. Ze kunnen echter nu sjablonen maken voor het proces en vervolgens de gewenste sjabloon selecteren wanneer een bepaalde vacature wordt gemaakt. Daarom helpt deze functie het vacature-instellingsproces te stroomlijnen.
-- **Vacaturesite** : met de huidige versie van de vacaturesite worden alleen alle openstaande vacatures weergegeven. Er worden echter meer mogelijkheden aan de site toegevoegd in de toekomst. Vacatures kunnen als intern of extern worden gemarkeerd. Interne gebruikers die zich bij de site aanmelden, zien zowel interne als externe vacatures. Niet-interne gebruikers en gebruikers die niet zijn aangemeld, zien alleen externe vacatures.
-- **Personeelsadvertentie plaatsen** : u kunt nu vacatures plaatsen op de vacaturesite.
-- **LinkedIn-personeelsadvertentie plaatsen** : u kunt nu vacatures plaatsen op LinkedIn.
+- **Relevante kandidaten voor een functie**: wervers en aanstellend managers kunnen eenvoudig zien welke kandidaten het meest relevant zijn voor de functie. De top 5 sollicitanten worden weergegeven op basis van de relevantie van hun cv/profiel voor de functieomschrijving.
+- **Relevante functies** : kandidaten zien nu een overzicht van andere functies die relevant voor hen zijn op basis van hun cv/profiel en de functieomschrijvingen.  Dit wordt momenteel weergegeven aan kandidaten zodra deze van toepassing zijn als een suggestie voor andere mogelijkheden.
+- **Ondersteuning voor EEO/OFCCP**: nieuwe activiteitstypen maken het gebruik mogelijk van een vooraf gedefinieerd formulier voor het verzamelen van EEO- (Equal Employment Opportunity) en OFCCP-gegevens (Office of Federal Contract Compliance Program) van de kandidaat.  Dit is een vooraf gedefinieerd formulier en kan niet worden bewerkt.
 
     > [!NOTE]
     > Vacatures die zijn geboekt, zijn alleen zichtbaar voor klanten die zich abonneren op een of meer producten voor het plaatsen van LinkedIn-personeelsadvertenties. Anders zien klanten een vacature alleen als ze er expliciet naar zoeken. Er is een vertraging wanneer taken naar LinkedIn worden geboekt. Het kan enkele uren duren voordat een vacature wordt weergegeven na plaatsing via Attract.

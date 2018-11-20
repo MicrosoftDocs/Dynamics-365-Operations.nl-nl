@@ -3,7 +3,7 @@ title: Kopteksten en regels in verkoopoffertes vanuit Sales direct synchronisere
 description: In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het synchroniseren van kopteksten en regels van verkoopoffertes tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 97536c27dea113cc3c019473f22d1925e7617f8f
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: efe943f5c874ed041ce7984272ebc19f57cca6ef
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -34,7 +34,13 @@ ms.lasthandoff: 03/26/2018
 In dit onderwerp komen de sjablonen en onderliggende taken aan de orde voor het synchroniseren van kopteksten en regels van verkoopoffertes tussen Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Dynamics 365 Gegevensintegratie](/common-data-service/entity-reference/dynamics-365-integration).
+> Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Common Data Service voor Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+
+## <a name="data-flow-in-prospect-to-cash"></a>Gegevensstroom in Prospect naar contant geld
+
+De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Finance and Operations en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens voor rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Finance and Operations en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Finance and Operations en Sales.
+
+[![Gegevensstroom in Prospect naar contant geld](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Sjabloon en taken
 
