@@ -46,8 +46,12 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: AX 2012-functies die zijn uitgesteld
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: Functies die niet zijn geïmplementeerd in On-premises implementaties
+            - name: Functies die niet worden geïmplementeerd in on-premises implementaties
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations versie 8.1.3 (december 2018)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23 (december 2018)
+              href: get-started/whats-new-platform-update-23.md
             - name: Platform update 22 (november 2018)
               href: get-started/whats-new-platform-update-22.md
             - name: Finance and Operations versie 8.1.2 (november 2018)
@@ -150,11 +154,13 @@
           items:
             - name: Help-systeem
               href: get-started/help-overview.md
-            - name: Het Help-systeem verbinden
+            - name: Verbinding maken met het Help-systeem
               href: get-started/help-connect.md
+            - name: Verbinding maken met een aangepaste Help-site
+              href: get-started/help-custom.md
             - name: Veldomschrijvingen weergeven en exporteren
               href: get-started/view-export-field-descriptions.md
-            - name: Taakhandleidingen en taakrecorder
+            - name: Taakbegeleiders en taakrecorder
               items:
                 - name: Taakrecorder
                   href: ../dev-itpro/user-interface/task-recorder.md?toc=/fin-and-ops/toc.json
@@ -1243,13 +1249,15 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: De datamart voor financiële rapportage opnieuw instellen
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Elektronische berichten
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Lokalisatie en wettelijk voorgeschreven functies
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
         - name: Australië
           href: ../financials/localizations/australia.md
           items:
-            - name: Business Activity Statement (BAS)
+            - name: BAS (Business Activity Statement)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: Rapportvakken toevoegen en de BAS genereren
               href: ../financials/localizations/tasks/add-bas-report-boxes.md
@@ -2222,6 +2230,10 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: Facturen voor betaling
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: Financiële rapportage
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Een inkoopboek maken
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Saudi-Arabië
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Configuraties importeren uit Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: Configuraties downloaden uit Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: Configuraties importeren
@@ -4145,10 +4159,12 @@
               href: ../supply-chain/warehousing/change-warehouse-mobile-device-displays.md
             - name: Gecombineerde nummerplaat ontvangen op een mobiel apparaat
               href: ../supply-chain/warehousing/mixed-license-plate-receiving.md
-            - name: Weergave oudere batches in magazijn op een mobiel apparaat configureren
+            - name: Oudere batches binnen magazijn weergeven op een mobiel apparaat configureren
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: Oudste batch verzamelen op een mobiel apparaat
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Raamwerk voor verwerkingsinstructies
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: ​Upgrade en migratie
           items:
             - name: Een upgrade van magazijnbeheerprocessen uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
