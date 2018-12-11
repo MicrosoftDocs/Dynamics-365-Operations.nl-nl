@@ -47,14 +47,18 @@
       href: dev-itpro/updating-environments.md
     - name: Problemen met testen en werking
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Gedistribueerd orderbeheer
+  href: dom.md
 - name: Betalingen
   items:
     - name: Betalingsmethoden
       href: payment-methods.md
     - name: 'Instelling, autorisatie en registratie van creditcards'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Contante denominaties voor het POS configureren
+    - name: Denominaties voor contant geld configureren voor het verkooppunt
       href: cash-denominations.md
+    - name: Scenario's voor het betalen van facturen instellen
+      href: payinvoice.md
     - name: Veelgestelde vragen over betalingen
       href: dev-itpro/payments-retail.md
 - name: Inkooporders
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: Ordermeldingen weergeven in het POS
       href: Notifications-POS.md
+- name: Een uitwisseling voor een retourorder configureren en verwerken
+  href: orderexchanges.md
 - name: Bewaking en analyse
   items:
     - name: Verkoop- en margeprestaties bewaken
@@ -231,10 +237,12 @@
   items:
     - name: Detailhandelkortingen
       href: retail-discounts-overview.md
-    - name: Verkoopprijsbeheer detailhandel
+    - name: Verkoopprijsbeheer van detailhandel
       href: price-management.md
     - name: Prijscorrecties en kortingen
       href: price-adjustments-discounts.md
+    - name: Meerdere detailhandelkortingen toepassen op een product
+      href: Apply-multiple-retail-discounts.md
     - name: De optimale combinatie van overlappende kortingen bepalen
       href: optimal-combination-overlapping-discounts.md
     - name: Kanaalspecifieke kortingen definiëren
@@ -486,11 +494,13 @@
       href: dev-itpro/extension-resource-localization.md
     - name: Uitbreidbaarheid van verkooppunten
       items:
-        - name: Schermindelingen Retail POS
+        - name: Schermindelingen van Retail POS
           href: pos-screen-layouts.md
+        - name: URL openen in POS
+          href: Open-URL-in-POS.md
         - name: De POS-indelingsontwerper installeren
           href: install-pos-layout-designer.md
-        - name: Retail Modern POS in offline modus
+        - name: Retail Modern POS in offlinemodus
           href: dev-itpro/retail-modern-pos-offline.md
         - name: De weergave van POS Dual-scherm uitbreiden
           href: dev-itpro/pos-dual-display-extension.md
@@ -508,9 +518,13 @@
           href: dev-itpro/gift-card.md
         - name: Branding maken en toepassen op de Retail Experience-app
           href: dev-itpro/create-retail-experience-app.md
-    - name: Hardware Station en uitbreidbaarheid
+        - name: POS Hybrid-app instellen in Android en iOS
+          href: dev-itpro/hybridApp.md
+        - name: POS-aanvraaghandler overschrijven
+          href: dev-itpro/pos-handler.md
+    - name: Hardwarestation en uitbreidbaarheid
       href: dev-itpro/hardware-station-extensibility.md
-    - name: Uitbreidbaarheid voor Retail Server
+    - name: Uitbreidbaarheid van Retail Server
       items:
         - name: Een Retail Server OData-controller uitbreiden
           href: dev-itpro/extend-retail-server-odata-controller.md
@@ -558,13 +572,17 @@
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
         - name: Betalingsconnectors implementeren
           href: dev-itpro/deploy-payment-connector.md
-        - name: Aangepaste vertaalde foutberichten voor uitbreidingen betalingsterminal maken
+        - name: Aangepaste vertaalde foutberichten voor uitbreidingen van betalingsterminal maken
           href: dev-itpro/payment-custom-error-messages.md
-        - name: Windows-installers maken voor een betalingsconnectors
+        - name: Windows-installatieprogramma's maken voor betalingsconnectors
           href: dev-itpro/create-windows-installer-payment-connector.md
-    - name: Retail-SDK
+        - name: Gebruik van betalingsgegevens
+          href: payment-connector-data-fields.md
+    - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Verwachte wijzigingen in Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: De build-systemen voor Retail en Finance and Operations samenvoegen
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Voorbeelden uitbreidbaarheid Retail-SDK
