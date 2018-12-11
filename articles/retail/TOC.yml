@@ -1,0 +1,628 @@
+- name: Welkom bij Dynamics 365 for Retail
+  href: index.md
+- name: Aan de slag
+  items:
+    - name: Wat is nieuw of gewijzigd
+      href: get-started/whats-new.md
+    - name: Voordat u Retail gaat kopen
+      href: get-started/before-you-buy.md
+    - name: Aanmelden voor een preview-abonnement
+      href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
+    - name: Een demo-omgeving implementeren
+      href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
+    - name: Implementatieopties
+      href: dev-itpro/choose-deployment.md
+    - name: Ondersteuning voor Retail
+      href: retail-support.md
+    - name: Veelgestelde vragen over updates van service met één versie
+      href: ../fin-and-ops/get-started/one-version.md
+- name: De levenscyclus van de implementatie begrijpen
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack for Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: Onboarding
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Voorbereiden voor go-live
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: Veelgestelde vragen over go-live
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Een serviceaanvraag indienen
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Veelgestelde vragen over abonnementen, LCS-projecten en Azure Active Directory-tenants'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Omgevingen verplaatsen tussen datacenters
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Licenties verplaatsen tussen typen overeenkomsten
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: Een LCS-implementatieproject verplaatsen naar een andere Azure Active Directory-tenant
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Meerdere LCS-projecten en productieomgevingen implementeren op dezelfde Azure Active Directory-tenant
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: Projecten voor Finance and Operations en Retail implementeren
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'Nieuwe omgevingen, Azure DevOps en vertakkingen voor Retail-projecten instellen'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: Code en omgevingen voor Retail-projecten bijwerken
+      href: dev-itpro/updating-environments.md
+    - name: Problemen met testen en werking
+      href: dev-itpro/retail-implementation-testing-performance.md
+- name: Gedistribueerd orderbeheer
+  href: dom.md
+- name: Betalingen
+  items:
+    - name: Betalingsmethoden
+      href: payment-methods.md
+    - name: 'Instelling, autorisatie en registratie van creditcards'
+      href: ../financials/accounts-receivable/credit-card-authorizations.md
+    - name: Denominaties voor contant geld configureren voor het verkooppunt
+      href: cash-denominations.md
+    - name: Scenario's voor het betalen van facturen instellen
+      href: payinvoice.md
+    - name: Veelgestelde vragen over betalingen
+      href: dev-itpro/payments-retail.md
+- name: Inkooporders
+  items:
+    - name: Overzicht van inkooporders
+      href: ../supply-chain/procurement/purchase-order-overview.md
+    - name: Inkooporders maken
+      href: ../supply-chain/procurement/purchase-order-creation.md
+    - name: Productontvangst tegen inkooporders
+      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
+    - name: Inkooporders goedkeuren en bevestigen
+      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
+    - name: Mobiel werkgebied voor goedkeuring van inkooporders
+      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
+- name: Overzichten
+  items:
+    - name: Detailhandeloverzichten
+      href: retail-statements.md
+    - name: 'Overzichten maken, berekenen en boeken voor een detailhandelwinkel'
+      href: tasks/create-calculate-post-statement-retail-store.md
+    - name: Verbeteringen van boekingsfunctionaliteit voor overzichten
+      href: statement-posting-EOD.md
+    - name: Retail-parameters configureren die gevolgen hebben voor detailhandeloverzichten
+      href: tasks/parameter-configurations-retail-statements.md
+    - name: Instellingen voor betalingsmethoden configureren die gevolgen hebben voor detailhandeloverzichten
+      href: tasks/payment-configurations-retail-statements.md
+    - name: Een taak configureren en uitvoeren om overzichten te berekenen
+      href: tasks/run-job-calculate-statements.md
+    - name: Een taak configureren en uitvoeren om overzichten te boeken
+      href: tasks/run-job-post-statements.md
+    - name: Instellingen voor winkels configureren die gevolgen hebben voor detailhandeloverzichten
+      href: tasks/store-configurations-retail-statements.md
+- name: Btw
+  items:
+    - name: Btw-overzicht
+      href: ../financials/general-ledger/indirect-taxes-overview.md
+    - name: Btw-berekeningsmethoden in het veld Oorsprong
+      href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+    - name: ' Btw-overeenkomst en -overschrijvingen'
+      href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
+    - name: Berekeningsopties Volledige bedrag en Interval voor btw-codes
+      href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Callcenter
+  items:
+    - name: Verkoopfunctionaliteit callcenter
+      href: call-center-functionality.md
+    - name: Callcentercatalogi
+      href: call-center-catalogs.md
+    - name: Leveringsmethoden en toeslagen configureren
+      href: configure-call-center-delivery.md
+    - name: Instellen en werken met fraudewaarschuwingen
+      href: set-up-fraud-alerts.md
+    - name: Callcenterkanalen instellen
+      href: set-up-order-processing-options.md
+    - name: Continuïteitsprogramma's instellen voor callcenters
+      href: set-up-continuity-program.md
+    - name: Configureren en werken met orderwachtstanden voor callcenters
+      href: work-with-order-holds.md
+    - name: Betalingsmethoden
+      href: work-with-payments.md
+- name: Kanaalinstelling en -beheer
+  items:
+    - name: Seedgegevens in nieuwe Retail-omgevingen initialiseren
+      href: enable-configure-retail-functionality.md
+    - name: Detailhandelskanalen definiëren en onderhouden
+      href: define-maintain-retail-channels.md
+    - name: Assortimentsbeheer
+      href: assortments.md
+    - name: Online winkels instellen
+      href: online-stores.md
+    - name: Retail hardware station configureren en installeren
+      href: retail-hardware-station-configuration-installation.md
+    - name: Tijd en aanwezigheid in Retail
+      href: retail-time-attendance.md
+- name: MPOS (Modern Point Of Sale) en Cloud POS
+  items:
+    - name: Kiezen tussen MPOS en Cloud POS
+      href: MPOS-or-CPOS.md
+    - name: Online en offline POS-bewerkingen
+      href: pos-operations.md
+    - name: Apparaatactivering van een aangepaste Retail Modern POS
+      href: dev-itpro/retail-POS-activation-changes.md
+    - name: Schermindelingen met demonstratiegegevens in MPOS en Cloud POS
+      href: demo-data.md
+    - name: Producten en klanten zoeken in het POS
+      href: POS-search-improvements.md
+    - name: Zoeken in voorraad in het POS
+      href: product-variants-POS.md
+    - name: Hardware randapparatuur
+      items:
+        - name: Randapparatuur detailhandel
+          href: retail-peripherals-overview.md
+        - name: Randapparatuursimulator voor detailhandel
+          href: dev-itpro/retail-peripheral-simulator.md
+        - name: Randapparaten aansluiten op het POS
+          href: define-maintain-channel-clients-registers-hw-stations.md
+    - name: Schermindelingen
+      items:
+        - name: Schermindelingen voor het POS
+          href: pos-screen-layouts.md
+        - name: De Retail POS-indelingsontwerper installeren
+          href: install-pos-layout-designer.md
+        - name: Meldingsinstellingen kiezen
+          href: Notifications-POS.md
+        - name: De taalinstellingen van de POS-toepassing en gebruiker
+          href: pos-application-user-language-settings.md
+        - name: Instellen en beheren van afbeeldingen voor MPOS
+          href: set-up-manage-images-retail-mpos.md
+    - name: Informatiecodes en informatiecodegroepen
+      href: info-codes-retail.md
+    - name: POS-verbeteringen voor geserialiseerde producten
+      href: serialized-inventory.md
+    - name: Productaanbevelingen
+      items:
+        - name: Gepersonaliseerde productaanbevelingen
+          href: personalized-product-recommendations.md
+        - name: Een besturingselement voor aanbevelingen toevoegen op een POS-apparaten
+          href: add-recommendations-control-pos-screen.md
+    - name: Offline POS-functionaliteit
+      href: pos-offline-functionality.md
+    - name: Ploeg- en kasladebeheer
+      href: shift-drawer-management.md
+    - name: Klantorders
+      items:
+        - name: Klantorders in MPOS
+          href: customer-orders-overview.md
+        - name: Hybride klantorders
+          href: hybrid-customer-orders.md
+    - name: Verkoopmedewerkers
+      items:
+        - name: Provisie bijhouden in het POS via verkoopgroepen
+          href: pos-sales-groups-track-commissions.md
+    - name: Orders verzenden uit een andere winkel
+      href: charge-send.md
+    - name: Apparaatactivering
+      items:
+        - name: 'MPOS configureren, installeren en activeren'
+          href: retail-modern-pos-device-activation.md
+        - name: Uitgebreide aanmeldingsfunctionaliteit instellen voor MPOS en Cloud POS
+          href: extended-logon.md
+        - name: Retail-activeringsaccounts beheren en apparaten valideren
+          href: set-up-activation-accounts-validate-devices-hq.md
+    - name: Ontvangstbewijzen
+      items:
+        - name: Ontvangstbewijsindelingen instellen en ontwerpen
+          href: receipt-templates-printing.md
+        - name: E-mailontvangstbewijzen verzenden vanuit MPOS
+          href: email-receipts.md
+    - name: Taakrecorder en Help voor MPOS en cloudCloud POS
+      href: task-recorder-retail-pos.md
+- name: Orderafhandeling
+  items:
+    - name: Winkelorderafhandeling
+      href: Order-fulfillment-overview.md
+    - name: Orderafhandeling voor winkels instellen
+      href: Order-fulfillment-POS-setup.md
+    - name: Ordermeldingen weergeven in het POS
+      href: Notifications-POS.md
+- name: Een uitwisseling voor een retourorder configureren en verwerken
+  href: orderexchanges.md
+- name: Bewaking en analyse
+  items:
+    - name: Verkoop- en margeprestaties bewaken
+      href: monitor-sales-margin-performance.md
+    - name: Verkooptrends en patronen analyseren
+      href: analyze-sales-trends-patterns.md
+    - name: Verkoopprestaties beoordelen per product
+      href: sales-performance-products.md
+    - name: Winstgevendheid van klanten en producten beoordelen
+      href: assess-customer-product-profitability.md
+    - name: Winkelprestaties analyseren
+      href: store-performance-information.md
+    - name: 'Recency-, frequentie- en monetaire analyse (RFM) instellen'
+      href: set-up-rfm-analysis.md
+- name: Kortingen en prijscorrecties
+  items:
+    - name: Detailhandelkortingen
+      href: retail-discounts-overview.md
+    - name: Verkoopprijsbeheer van detailhandel
+      href: price-management.md
+    - name: Prijscorrecties en kortingen
+      href: price-adjustments-discounts.md
+    - name: Meerdere detailhandelkortingen toepassen op een product
+      href: Apply-multiple-retail-discounts.md
+    - name: De optimale combinatie van overlappende kortingen bepalen
+      href: optimal-combination-overlapping-discounts.md
+    - name: Kanaalspecifieke kortingen definiëren
+      href: define-channel-specific-discounts.md
+    - name: Opties voor het voorkomen van kortingen voor detailhandelproducten
+      href: prevent-discounts.md
+    - name: Coupons voor detailhandelverkoop instellen
+      href: retail-coupons.md
+- name: Producten en merchandising
+  items:
+    - name: Overzicht met productinformatie
+      href: ../supply-chain/pim/product-information.md
+    - name: Detailhandelhiërarchieën
+      href: retail-hierarchies.md
+    - name: Kenmerken van kenmerkgroepen
+      href: attribute-attributegroups-lifecycle.md
+    - name: Kenmerken maken en beheren
+      href: create-manage-attributes.md
+    - name: Detailhandelproducten instellen
+      href: set-up-retail-products.md
+    - name: Productcategorieën en producten Retail beheren
+      href: category-management-product-creation.md
+    - name: Productdimensies
+      href: ../supply-chain/pim/product-dimensions.md
+    - name: Streepjescodes instellen
+      href: set-up-bar-codes.md
+    - name: Streepjescodemaskers instellen
+      href: set-up-bar-code-masks.md
+    - name: Assortimenten instellen
+      href: set-up-assortments.md
+    - name: Producten verkopen en terugsturen die niet zijn opgenomen in een winkelassortiment
+      href: sell-return-outside-assortments.md
+    - name: Standaard orderinstellingen voor dimensies en productvarianten
+      href: ../supply-chain/production-control/default-order-settings.md
+    - name: Producten en productvarianten zoeken tijdens orderinvoer
+      href: ../supply-chain/pim/search-products-product-variants.md
+- name: Loyaliteit
+  items:
+    - name: Loyaliteitsoverzicht
+      href: set-up-customer-loyalty-program.md
+- name: Voorraad
+  items:
+    - name: Voorraadbeheer winkel
+      href: work-with-store-inventory.md
+    - name: Serienummers registreren in het verkoopproces
+      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
+    - name: Voorraadjournalen
+      href: ../supply-chain/inventory/inventory-journals.md
+    - name: Voorraadlabeltelling
+      href: ../supply-chain/inventory/inventory-tag-counting.md
+    - name: FIFO met fysieke waarde en markering
+      href: ../supply-chain/cost-management/fifo-physical-value-marking.md
+    - name: LIFO-datum met fysieke waarde en markering
+      href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md
+    - name: LIFO met fysieke waarde en markering
+      href: ../supply-chain/cost-management/lifo-physical-value-marking.md
+    - name: Datum gewogen gemiddelde
+      href: ../supply-chain/cost-management/weighted-average-date.md
+    - name: Gewogen gemiddelde met fysieke waarde en markering
+      href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md
+    - name: Quarantaineorders
+      href: ../supply-chain/inventory/quarantine-orders.md
+    - name: Gemiddelde kostprijs gebruiken
+      href: ../supply-chain/cost-management/running-average-cost-price.md
+    - name: Lopende gemiddelde kosten per voorraaddimensie traceren
+      href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+- name: Human Resources
+  items:
+    - name: 'Uw werknemers organiseren met afdelingen, taken en posities'
+      href: ../talent/departments-jobs-positions.md
+    - name: De onderdelen van een taak instellen
+      href: ../talent/create-job.md
+- name: Lokalisatie en wettelijk voorgeschreven functies
+  items:
+    - name: Fiscale integratie voor detailhandelskanaal
+      href: localizations/fiscal-integration-for-retail-channel.md
+    - name: Oost-Europa
+      items:
+        - name: Aanbetaling van facturen voor Retail voor Oost-Europa
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Beheer kleine kas voor Retail voor Oost-Europa
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Klantfacturen Retail en retourverkooporders in Oost-Europese landen
+          href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Implementatierichtlijnen voor kassa''s voor Tsjechië, Hongarije en Polen'
+          href: localizations/emea-eeu-deployment.md
+    - name: Frankrijk
+      items:
+        - name: Kassafunctionaliteit
+          href: localizations/emea-fra-cash-registers.md
+        - name: Implementatierichtlijnen voor kassa's
+          href: localizations/emea-fra-deployment.md
+    - name: India
+      items:
+        - name: Integratie Belasting op goederen en diensten (GST) voor kassa's
+          href: localizations/apac-ind-cash-registers.md
+        - name: Implementatierichtlijnen voor kassa's
+          href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Ondersteuning voor upgrade en N-1 voor India
+          href: localizations/apac-ind-n-1-for-india.md
+    - name: Italië
+      items:
+        - name: Integratie fiscale printer
+          href: localizations/emea-ita-fpi-sample.md
+    - name: Noorwegen
+      items:
+        - name: Kassafunctionaliteit
+          href: localizations/emea-nor-cash-registers.md
+        - name: Implementatierichtlijnen voor kassa's
+          href: localizations/emea-nor-loc-deployment-guidelines.md
+    - name: Zweden
+      items:
+        - name: Kassafunctionaliteit
+          href: localizations/emea-swe-cash-registers.md
+        - name: Voorbeeld voor Retail POS-integratie met regeleenheden
+          href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+- name: Retail-taken
+  items:
+    - name: Een product maken
+      href: ../supply-chain/pim/tasks/create-product.md
+    - name: Gekoppelde producten configureren
+      href: ../supply-chain/pim/tasks/configure-linked-products.md
+    - name: Een product/productmodel vrijgeven aan rechtspersonen
+      href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
+    - name: Kanaalspecifieke handelsovereenkomsten maken
+      href: tasks/base-price-trade-agreements.md
+    - name: Handelsovereenkomsten maken met categorieprijsregels
+      href: tasks/category-pricing-rules-trade-agreements.md
+    - name: Creditcardverwerking configureren
+      href: tasks/configure-credit-card-processing.md
+    - name: Functionaliteitsprofielen configureren voor verkoopvertegenwoordigers
+      href: tasks/configure-functionality-profile-sales-representative.md
+    - name: Door machine learning aangestuurde productaanbevelingen configureren
+      href: tasks/configure-machine-learning-product-recommendations.md
+    - name: Apparaten maken en koppelen aan kassa's
+      href: tasks/create-associate-device.md
+    - name: Hardwarestations maken
+      href: tasks/create-associate-hardware-station.md
+    - name: POS-kassa's maken
+      href: tasks/create-associate-registers.md
+    - name: Callcenterorders maken
+      href: tasks/create-call-center-orders.md
+    - name: Financiële dimensies maken voor POS-kassa's en dimensiewaarden configureren voor kassa's
+      href: tasks/create-financial-dimensions-pos.md
+    - name: Financiële dimensies maken voor detailhandelskanalen en dimensiewaarden configureren voor winkels
+      href: tasks/create-financial-dimensions-retail-channels.md
+    - name: Online kanalen maken en kanaalkenmerken definiëren
+      href: tasks/create-online-channel-define-channel-attributes.md
+    - name: POS-machtigingsgroepen maken
+      href: tasks/create-pos-permission-groups.md
+    - name: Visuele POS-profielen maken
+      href: tasks/create-pos-visual-profile-2016-02.md
+    - name: Productpakketten voor inkooporders maken
+      href: tasks/create-product-packages-purchase-orders.md
+    - name: Callcenterkanalen maken en kanaalkenmerken definiëren
+      href: tasks/define-call-center-channel-channel-attributes.md
+    - name: Kanaalkenmerken definiëren
+      href: tasks/define-channel-attributes.md
+    - name: Continuïteitsplanningen definiëren
+      href: tasks/define-continuity-schedules.md
+    - name: Loyaliteitsprogramma's definiëren
+      href: tasks/define-loyalty-programs.md
+    - name: ' Beloningspunten voor loyaliteit definiëren'
+      href: tasks/define-loyalty-reward-points.md
+    - name: ' Loyaliteitsschema''s definiëren'
+      href: tasks/define-loyalty-schemes.md
+    - name: De relaties tussen organisatie-eenheden ontwerpen
+      href: tasks/design-relationships-between-organizational-units.md
+    - name: Assortimenten beheren
+      href: tasks/manage-assortments-2016-11.md
+    - name: Hardwarestation downloadenmet selfservice
+      href: tasks/perform-self-service-download-hardware-station.md
+    - name: Online verkopen en betalingen boeken
+      href: tasks/posting-online-sales-payments.md
+    - name: Correcties van beloningspunten voor loyaliteit verwerken
+      href: tasks/process-loyalty-reward-point-adjustments.md
+    - name: Producten verzenden van distributiecentra naar winkels via klantlevering
+      href: tasks/push-products-distribution-center-store-buyers-push.md
+    - name: Detailhandelsprijscorrecties maken
+      href: tasks/retail-price-adjustments.md
+    - name: Kant-en-klare rapporten genereren en uitvoeren
+      href: tasks/run-out-box-reports.md
+    - name: RegeIs en parameters instellen voor het cross-docken en klantlevering
+      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+    - name: Continuïteitsprogramma's voor verkoop en verkooporders verwerken
+      href: tasks/use-continuity-program.md
+    - name: Detailhandelmedewerkers configureren
+      href: tasks/worker.md
+- name: Ontwikkeling en beheer voor Retail
+  href: dev-itpro/dev-retail-home-page.md
+  items:
+    - name: Architectuur
+      items:
+        - name: Retail-onderdelen
+          href: retail-components.md
+        - name: Architectuur van Retail Server
+          href: dev-itpro/retail-server-architecture.md
+        - name: Commerce Data Exchange en communicatie via detailhandelkanalen
+          href: dev-itpro/define-retail-channel-communications-cdx.md
+        - name: Architectuur Retail Modern POS
+          href: dev-itpro/retail-modern-pos-architecture.md
+        - name: Publicatiearchitectuur online Retail-winkels
+          href: dev-itpro/retail-online-store-publishing-architecture.md
+        - name: Retail Channel Performance Power BI-inhoud
+          href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
+        - name: Certificering Payment Application Data Security Standards (PA-DSS)
+          href: dev-itpro/PA-DSS-Certification.md
+        - name: Retail-functies voor on-premises implementaties
+          href: retail-onprem.md
+    - name: Implementatie en hotfixes
+      items:
+        - name: Retail Store Scale Unit
+          href: dev-itpro/retail-store-system-begin.md
+        - name: Retail Store Scale Unit configureren en installeren
+          href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+        - name: Configuratie en installatie van Retail Modern POS
+          href: retail-modern-pos-device-activation.md
+        - name: Retail-accounts en apparaten van hoofdkantoor beheren
+          href: set-up-activation-accounts-validate-devices-hq.md
+        - name: Retail POS-apparaat activeren
+          href: dev-itpro/retail-device-activation.md
+        - name: Help Veilige Cloud POS in gedeelde omgevingen
+          href: dev-itpro/secure-retail-cloud-pos.md
+        - name: Configuratie en installatie van Retail Hardware Station
+          href: retail-hardware-station-configuration-installation.md
+        - name: Grootschalige implementatie van selfservicecomponenten van Retail
+          href: dev-itpro/retail-mass-deployment.md
+        - name: Retail-componentgebeurtenissen voor diagnostiek en probleemoplossing
+          href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+        - name: Een implementeerbaar pakket toepassen
+          href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
+    - name: Upgrade en ondersteuning voor N-1
+      items:
+        - name: Upgrade en N-1-ondersteuning voor Retail
+          href: dev-itpro/overview-upgrade-n-minus1.md
+        - name: 'Gefaseerde implementatie (N-1) installeren, configureren en wijzigen'
+          href: dev-itpro/n-1-installation-configuration.md
+    - name: Implementatierichtlijnen
+      items:
+        - name: Implementatierichtlijnen voor apparaatbeheer
+          href: implementation-considerations-devices.md
+    - name: Configuratie van de omgeving
+      items:
+        - name: Koppelingen toevoegen naar de juridische voorwaarden en de privacyverklaring van uw organisatie
+          href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
+        - name: Bing Maps beheren
+          href: dev-itpro/manage-bing-maps.md
+    - name: Bronnen voor Retail-extensie en labelbestanden lokaliseren
+      href: dev-itpro/extension-resource-localization.md
+    - name: Uitbreidbaarheid van verkooppunten
+      items:
+        - name: Schermindelingen van Retail POS
+          href: pos-screen-layouts.md
+        - name: URL openen in POS
+          href: Open-URL-in-POS.md
+        - name: De POS-indelingsontwerper installeren
+          href: install-pos-layout-designer.md
+        - name: Retail Modern POS in offlinemodus
+          href: dev-itpro/retail-modern-pos-offline.md
+        - name: De weergave van POS Dual-scherm uitbreiden
+          href: dev-itpro/pos-dual-display-extension.md
+        - name: Uitbreidbaarheid activering Retail Modern POS en Cloud POS
+          href: dev-itpro/modern-pos-trigger-extensibility.md
+        - name: Aangepaste besturingselementen toevoegen aan POS-weergaven
+          href: dev-itpro/pos-custom-control.md
+        - name: POS-bewerkingen toevoegen aan POS-indelingen met de ontwerpfunctie van het knoppenraster
+          href: dev-itpro/add-POS-operations.md
+        - name: Retail POS-API's
+          href: dev-itpro/POS-APIs.md
+        - name: Uitbreiding van POS-betaling
+          href: dev-itpro/pos-payment-extension.md
+        - name: Ondersteuning voor externe geschenkbonnen
+          href: dev-itpro/gift-card.md
+        - name: Branding maken en toepassen op de Retail Experience-app
+          href: dev-itpro/create-retail-experience-app.md
+        - name: POS Hybrid-app instellen in Android en iOS
+          href: dev-itpro/hybridApp.md
+        - name: POS-aanvraaghandler overschrijven
+          href: dev-itpro/pos-handler.md
+    - name: Hardwarestation en uitbreidbaarheid
+      href: dev-itpro/hardware-station-extensibility.md
+    - name: Uitbreidbaarheid van Retail Server
+      items:
+        - name: Een Retail Server OData-controller uitbreiden
+          href: dev-itpro/extend-retail-server-odata-controller.md
+        - name: Een Web API-controller maken voor Retail Server
+          href: dev-itpro/odata-controllers-api.md
+        - name: Klanten- en consumenten-API's voor Retail Server
+          href: dev-itpro/retail-server-customer-consumer-api.md
+        - name: De controller voor standaard Retail Server-metagegevens uitbreiden
+          href: dev-itpro/extend-metadata.md
+        - name: De CRT-service aanroepen in de offline modus
+          href: dev-itpro/call-crt-service-offline.md
+    - name: Uitbreidbaarheid Commerce runtime (CRT)
+      items:
+        - name: CRT-architectuur en -configuratie
+          href: dev-itpro/commerce-runtime-overview.md
+        - name: CRT-services
+          href: dev-itpro/crt-services.md
+        - name: Uitbreidbaarheid voor CRT en Retail Server
+          href: dev-itpro/commerce-runtime-extensibility.md
+        - name: Voorkeurgegevens klant toevoegen aan een kanaaldatabases
+          href: dev-itpro/add-customer-preference-channel.md
+        - name: Eigenschappen toevoegen aan verkooporders
+          href: dev-itpro/add-properties-sales-order.md
+        - name: CRT-uitbreidbaarheid en activeringen
+          href: dev-itpro/commerce-runtime-extensibility-trigger.md
+        - name: Transacties blokkeren met triggers
+          href: dev-itpro/trigger-example-blocking-transaction.md
+        - name: Een retourbeleid implementeren met triggers
+          href: dev-itpro/trigger-example-return-policy.md
+    - name: Uitbreidbaarheid van e-Commerce
+      items:
+        - name: Online winkels configureren
+          href: dev-itpro/configure-online-store.md
+        - name: Verificatieproviders configureren
+          href: dev-itpro/configure-authentication-providers.md
+        - name: e-Commerce-platform
+          href: dev-itpro/ecommerce-platform.md
+        - name: SDK e-Commerce-platform
+          href: dev-itpro/ecommerce-platform-sdk.md
+    - name: Uitbreidbaarheid betalingsconnector
+      items:
+        - name: Betalingsintegratie maken voor een betalingsterminal
+          href: dev-itpro/end-to-end-payment-extension.md
+        - name: Een betalingsconnector en betalingsapparaat implementeren (whitepaper)
+          href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
+        - name: Betalingsconnectors implementeren
+          href: dev-itpro/deploy-payment-connector.md
+        - name: Aangepaste vertaalde foutberichten voor uitbreidingen van betalingsterminal maken
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: Windows-installatieprogramma's maken voor betalingsconnectors
+          href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Gebruik van betalingsgegevens
+          href: payment-connector-data-fields.md
+    - name: Retail SDK
+      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+      items:
+        - name: Verwachte wijzigingen in Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: De build-systemen voor Retail en Finance and Operations samenvoegen
+          href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+        - name: Voorbeelden uitbreidbaarheid Retail-SDK
+          href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+        - name: Implementeerbare Retail-pakketten maken
+          href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+        - name: Voorbeelden Retail-SDK
+          href: dev-itpro/retail-sdk/retail-sdk-samples.md
+          items:
+            - name: Uitbreidingspunten voor pakbonnen
+              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Uitbreidingen voor kanaaldatabase
+          href: dev-itpro/channel-db-extensions.md
+        - name: Aangepaste CDX-synchronisatie via uitbreiding inschakelen
+          href: dev-itpro/cdx-extensibility.md
+        - name: Aangepaste velden toevoegen aan het POS-deelvenster Totalen
+          href: dev-itpro/custom-field-pos-totals.md
+        - name: Orderkenmerken definiëren en instellen
+          href: dev-itpro/order-attributes.md
+        - name: Klantkenmerken
+          href: dev-itpro/customer-attributes.md
+        - name: 'Retail-typescript en C#-proxy''s'
+          href: dev-itpro/typescript-proxy-retail-pos.md
+        - name: Voorbeelden Retail POS uitvoeren
+          href: dev-itpro/pos-run-samples.md
+        - name: POS-weergaven uitbreiden om aangepaste kolommen en knoppen op de appbalk toe te voegen
+          href: dev-itpro/pos-view-extension.md
+        - name: Aangepaste besturingselementen toevoegen aan Retail Modern POS-transactiepagina's
+          href: dev-itpro/pos-custom-transaction.md
+        - name: Aangepaste kolommen toevoegen aan een POS-transactieraster
+          href: dev-itpro/pos-custom-transaction-column.md
+        - name: POS API's of bewerkingen aanroepen vanuit de POS-uitbreidingen
+          href: dev-itpro/pos-api-extension.md
+        - name: Retail Modern POS-triggers en afdrukken
+          href: dev-itpro/pos-trigger-printing.md
+        - name: Aangepaste besturingselementen toevoegen aan niet-schermontwerpweergaven voor POS
+          href: dev-itpro/pos-control-non-screen.md
+        - name: Ontwikkelingen in dev-omgevingen met cloudhosting zonder beheerderstoegang
+          href: dev-itpro/cloud-dev-box.md
+    - name: Commerce runtime
+      items:
+        - name: Uitbreiding loyaliteit
+          href: dev-itpro/retail-sdk/loyalty-extension-sample.md
