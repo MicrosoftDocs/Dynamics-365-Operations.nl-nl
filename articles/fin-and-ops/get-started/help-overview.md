@@ -1,9 +1,9 @@
 ---
 title: Help-systeem voor Finance and Operations
-description: Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren.
+description: Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. Daarnaast wordt uitgelegd hoe u aangepaste documentatie en trainingen aan uw organisatie kunt leveren. 
+Dit onderwerp biedt een overzicht van de onderdelen van het Help-systeem van Microsoft Dynamics 365 for Finance and Operations. 
 
 > [!NOTE] 
 > De volgende producten zijn nauw verwant: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail en Dynamics 365 for Talent. Dezelfde functionaliteit kan beschikbaar zijn in alle 3 producten. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail, de productnaam Dynamics 365 Dynamics for Retail gebruikt; in onderwerpen die voornamelijk betrekking hebben op Talent, Dynamics 365 for Talent; en in onderwerpen die betrekking hebben op het kernproduct is de productnaam Dynamics 365 for Finance and Operations. Onderwerpen die zijn geschreven voor één product zijn mogelijk van toepassing op dezelfde functionaliteit in een verwant product.
@@ -48,8 +48,6 @@ Finance and Operations bevat een Help-systeem dat op twee hoofdonderdelen is geb
 U kunt Help openen vanuit het Help-venster in elk product dat u gebruikt. In de volgende schermopname ziet u Finance and Operations.
 
 ![Deelvenster Help](./media/help-pane-ops-task-guides.png)
-
-In dit onderwerp wordt het Help-systeem beschreven en wordt uitgelegd hoe u aangepaste documentatie en training voor uw organisatie kunt maken.
 
 > [!IMPORTANT]
 > **Taakbegeleiders** zijn momenteel niet beschikbaar voor Retail of in het Help-venster voor Talent (enkele taakbegeleiders zijn beschikbaar in het deelvenster Aan de slag voor Talent). Procedurele hulp is beschikbaar op de website docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) voor zowel Retail als Talent.
@@ -83,7 +81,7 @@ Als u zich wilt abonneren op een RSS-feed van alle updates op de Unified Operati
 ### <a name="give-feedback"></a>Feedback geven 
 We stellen feedback van klanten zeer op prijs. U kunt opmerkingen geven of wijzigingen in onze inhoud voorstellen via GitHub. Zie [dit blogbericht](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs) voor meer informatie over ons feedbacksysteem.
 
-##### <a name="leave-us-feedback"></a>Feedback achterlaten 
+#### <a name="leave-us-feedback"></a>Feedback achterlaten 
 Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aan de pagina een opmerking achterlaten.  
 
 1. Klik op **Feedback** om de opmerkingen onder aan de pagina te gaan en klik vervolgens op **Productfeedback** of **Aanmelden om feedback te geven over de documentatie**.
@@ -93,8 +91,6 @@ Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aa
 2. Begin met het typen van uw opmerkingen en klik vervolgens op **Feedback verzenden**.
 
 ![Opmerking verzenden](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Een wijziging voorstellen of inhoud bijdragen via GitHub
 Als u een wijziging wilt voorstellen, moet u een GitHub-account hebben en een licentieovereenkomst voor bijdragers ondertekenen.  Wanneer u een wijzigingsaanvraag indient, beoordelen wij uw voorgestelde wijzigingen. Indien nodig bespreken we deze intern en komen we er vervolgens op terug met u.  
@@ -122,22 +118,7 @@ U kunt met de interactieve taakbegeleiding beginnen door op **Taakbegeleiding st
 > [!IMPORTANT] 
 > De gegevens die u invoert wanneer u een taakbegeleider afspeelt, zijn echt. Als u in een productieomgeving bent, worden de gegevens ingevoerd in het bedrijf dat u momenteel gebruikt.
 
-### <a name="it-all-begins-with-task-recorder"></a>Het begint allemaal met Taakregistratie
-
-Taakbegeleidingen worden gemaakt door Taakregistratie te gebruiken. Wanneer u Taakrecorder gebruikt, worden al uw acties in de gebruikersinterface van Finance and Operations geregistreerd, zoals het klikken op menu's, het wijzigen van instellingen en het invoeren van gegevens. De stappen die u registreert worden samen een taakregistratie genoemd. Zoals in de vorige sectie hebben uitgelegd, kunnen taakregistraties worden weergegeven in het deelvenster Help en afgespeeld als taakbegeleidingen. Er zijn echter andere manieren waarop u taakregistraties kunt gebruiken:
-
--   **Taakregistraties aan BPM toevoegen**: u kunt een taakregistratie opslaan op een regel van een hiërarchie in een BPM-bibliotheek in LCS. Wanneer u de taakregistratie naar BPM opslaat, wordt een stroomdiagram gegenereerd en weergegeven, samen met de stappen van de registratie. 
-
-    > [!Note]
-    > Om een taakregistratie in het deelvenster Help van Finance and Operations weer te geven en af te spelen als een taakbegeleider, moet u de registratie opslaan in een BPM-bibliotheek.
-    
--   **Taakregistraties als Word-documenten opslaan**: door een taakregistratie als een Microsoft Word-document op te slaan, kunt u eenvoudig afdrukbare trainingshandleidingen voor uw organisatie maken.
-
-Zie voor meer informatie over Taakrecorder [Taakrecorder in Finance and Operations](../../dev-itpro/user-interface/task-recorder.md).
-
-### <a name="creating-customized-task-recordings"></a>Aangepaste taakregistraties maken
-
-U kunt uw eigen taakregistraties maken, of u kunt taakregistraties die Microsoft levert, downloaden en aanpassen. Zo kunt u aangepaste Help voor uw organisatie maken die uw specifieke implementatie van Finance and Operations reflecteert. Opmerking: Om een taakregistratie in het deelvenster Help van Finance and Operations weer te geven en af te spelen als een taakbegeleiding, moet u de registratie opslaan in een BPM-bibliotheek in LCS. Als u een partner bent en een bibliotheek propageert als bedrijfsbibliotheek en deze in een oplossing opneemt, wordt deze beschikbaar voor uw klanten. Zie [Taakregistraties gebruiken om documentatie of een training te maken](../../dev-itpro/user-interface/task-recorder.md) voor volledige instructies.
+U kunt Taakregistratie gebruiken om uw eigen aangepaste taakbegeleiders te maken. Zie [Documentatie of trainingen maken via taakregistraties](../../dev-itpro/user-interface/task-recorder-training-docs.md) voor meer informatie.
 
 ## <a name="in-product-help"></a>Help in het product
 Voor toegang tot de Help-inhoud in Finance and Operations klikt u op het pictogram **Help** (**?**) en kiest u vervolgens Help of drukt u op Ctrl+Shift+?. In beide gevallen wordt het deelvenster Help geopend. Via het deelvenster Help kunt u artikelen of taakbegeleidingen openen. 
@@ -184,6 +165,11 @@ Wanneer een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster
 Vertaalde taakbegeleidingen worden vrijgegeven in bibliotheken waarvan de titel "Alle talen" bevat. Als u in Finance and Operations gelokaliseerde Help met taakbegeleiding wilt zien, moet u ervoor zorgen dat u bent verbonden met de bijbehorende bibliotheek. De taal waarin een taakbegeleiding wordt weergegeven, wordt voor elke gebruiker bepaald door de instellingen voor taal onder **Opties** &gt; **Voorkeuren**. 
 -   Als een taakbegeleiding is vertaald, wordt bij het openen van die taakbegeleiding alle tekst van de taakbegeleiding weergegeven in uw geselecteerde taal.
 -   Als een taakbegeleiding nog niet is vertaald, wordt bij het openen van die taakbegeleiding alleen bepaalde tekst (de tekst van de besturingselementen) weergegeven in uw geselecteerde taal.
+
+## <a name="creating-custom-help"></a>Aangepaste Help maken
+U kunt Help-informatie voor uw gebruikers maken door aangepaste taakbegeleiders te maken of uw eigen website te verbinden met het Help-venster. Zie voor meer informatie: 
+- [Een taakregistratie voor een documentatie of training maken](../../dev-itpro/user-interface/task-recorder.md).
+- [Aangepaste Help maken voor Finance and Operations (whitepaper)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

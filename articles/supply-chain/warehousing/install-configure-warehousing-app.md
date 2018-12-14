@@ -3,7 +3,7 @@ title: Microsoft Dynamics 365 for Finance and Operations - Warehousing installer
 description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 for Finance and Operations - Warehousing installeert en configureert.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -74,13 +74,12 @@ Als u de app wilt laten samenwerken met een specifieke Finance and Operations-se
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Een gebruikersaccount in Finance and Operations maken en configureren
 Om ervoor te zorgen dat Finance and Operations uw Azure AD-toepassing kan gebruiken, moet u de volgende configuratiestappen uitvoeren:
 
-1.  Maak een nieuwe gebruikersaccount in Azure Active Directory voor de Finance and Operations-tenant. Het doel van deze gebruikersaccount is toegang te verkrijgen tot de specifieke aangepaste service van de app Warehousing, die de Finance and Operations-server weergeeft. Na het voltooien van deze stap hebt u WMDP-gebruikersreferenties, die bestaan uit een WMDP-e-mailadres en een WMDP-wachtwoord. Voor meer informatie over de basisstappen voor het toevoegen van gebruikers aan Azure AD en Finance and Operations, raadpleegt u deze zelfstudie: [Aanmelden voor een Finance and Operations-abonnement](../../dev-itpro/dev-tools/sign-up-preview-subscription.md).
-2.  Maak een Finance and Operations-gebruiker die met de gebruikersreferenties van de app Warehousing overeenkomt.
+1.  Maak een Finance and Operations-gebruiker die met de gebruikersreferenties van de app Warehousing overeenkomt.
     1.  Ga in Finance and Operations naar **Systeembeheer** &gt; **Algemeen** &gt; **Gebruikers**.
     2.  Maak een nieuwe gebruiker.
     3.  Wijs de gebruiker van het mobiele apparaat voor Magazijnbeheer toe, zoals in de volgende schermopname wordt weergegeven. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Koppel uw Azure Active Directory-toepassing aan de gebruiker van de app Magazijnbeheer.
+2.  Koppel uw Azure Active Directory-toepassing aan de gebruiker van de app Magazijnbeheer.
     1.  Ga in Finance and Operations naar **Systeembeheer** &gt; **Instellen** &gt; **Azure Active Directory-toepassingen**.
     2.  Maak een nieuwe regel.
     3.  Voer de **Client-ID** in (verkregen in het laatste gedeelte), geef deze een naam en selecteer de eerder gemaakte gebruiker. Het is raadzaam al uw apparaten te labelen, zodat u eenvoudig de toegang ervan tot Finance and Operations van deze pagina kunt verwijderen voor het geval u ze kwijt raakt. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)

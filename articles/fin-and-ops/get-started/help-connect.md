@@ -3,7 +3,7 @@ title: Het Help-systeem verbinden
 description: In dit onderwerp worden de onderdelen van het Help-systeem voor Microsoft Dynamics 365 for Finance and Operations beschreven en vindt u een overzicht van de wijze waarop u deze verbindt. Daarnaast wordt beknopt aangegeven hoe u aangepaste Help maakt.
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ Vertaalde taakbegeleidingen zijn voor het eerst verzonden in de APQC Unified Lib
 > -   Als een taakbegeleiding nog niet is vertaald, wordt bij het openen van die taakbegeleiding alleen bepaalde tekst (de tekst van de besturingselementen) weergegeven in uw geselecteerde taal.
 
 ## <a name="creating-custom-help"></a>Aangepaste Help maken
+U kunt taakbegeleiders maken om aangepaste Help te maken of een website te koppelen aan het Help-venster. 
+
+### <a name="create-custom-help-with-task-guides"></a>Aangepaste Help maken met taakbegeleiders
 U kunt voor aangepaste Help voor uw implementatie van Finance and Operations en voor Retail maken door taakregistraties te maken die uw implementatie weerspiegelen en ze op te slaan in een LCS-bibliotheek voor bedrijfsprocessen. U kunt geen aangepaste taakbegeleidingen voor Talent maken. 
 
 Voor partners: als u een bibliotheek propageert als bedrijfsbibliotheek en deze in een oplossing opneemt, wordt deze beschikbaar voor uw klanten. U kunt een kopie van de globale APQC Unified-bibliotheek maken en vervolgens uw kopie openen, hierin taakregistraties openen, deze wijzigen en de registraties met uw wijzigingen opslaan. Zie [Een taakregistratie voor een documentatie of training maken](../../dev-itpro/user-interface/task-recorder.md) voor meer informatie.
+
+### <a name="connect-a-custom-site"></a>Verbinding maken met een aangepaste site
+Microsoft heeft een whitepaper en voorbeeldcode beschikbaar gesteld waarin wordt beschreven hoe u een aangepaste Help-site maakt en koppelt aan het Help-venster. Ga voor meer informatie naar: 
+- [Aangepaste Help maken voor Finance and Operations (whitepaper)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Custom help GitHub repository](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>Aanvullende resources
 --------

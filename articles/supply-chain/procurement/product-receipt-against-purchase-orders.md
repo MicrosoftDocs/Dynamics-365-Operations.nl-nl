@@ -1,9 +1,9 @@
 ---
 title: Productontvangst tegen inkooporders
-description: Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
+description: In dit onderwerp worden de verschillende opties voor het registreren van producten als ontvangen beschreven.
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/08/2018
 
 [!include [retail name](../includes/retail-name.md)]
 
-Dit artikel beschrijft de verschillende opties voor het registreren van producten als ontvangen.
+In dit onderwerp worden de verschillende opties voor het registreren van producten als ontvangen beschreven.
 
 Productontvangst is het proces van het vastleggen van de ontvangst van bestelde producten, zodat de inkooporderregels (IO) vervolgens kunnen worden verwerkt voor facturering. In sommige gevallen doorlopen producten een proces van voorafgaande registratie, waarbij aanvullende informatie van de leverancier wordt vastgelegd voordat de producten worden ontvangen. Wanneer producten binnenkomen, worden zij eerst gemarkeerd als **Geregistreerd**. De producten doorlopen vervolgens mogelijk aanvullende processen, zoals kwaliteitsbeheer, voordat zij definitief worden gemarkeerd als **Ontvangen**.
 
@@ -46,8 +46,6 @@ Producten die worden ontvangen in een magazijn kunnen kwaliteitscontrole doorlop
 
 ## <a name="product-receipt"></a>Productontvangstbon
 In de meeste gevallen, wordt de actie **Productontvangst** op de pagina **Inkooporders** gebruikt voor het markeren van producten als **Ontvangen** op de inkooporder. De pagina **Productontvangstbon boeken** heeft verschillende opties voor de hoeveelheid die administratief wordt verwerkt als ontvangen. U kunt bijvoorbeeld het veld **Hoeveelheid** instellen op **Bestelde hoeveelheid** of **Hoeveelheid nu ontvangen**. Ook zult u, als een magazijnontvangstproces is gebruikt, vaak dit veld instellen op **Geregistreerde hoeveelheid**. U kunt de hoeveelheden op elke orderregel die wordt gemarkeerd als **Ontvangen** wijzigen ten behoeve van eventuele afwijkingen, zoals minderlevering en meerlevering. Tijdens de ontvangst van producten, moet u een id van de productontvangstbon opgeven, die meestal een verwijzing naar de pakbon van de leverancier vormt. Deze id is vereist voor de boekhouding, omdat deze controles of audits van de pakbonnen van leveranciers tegen wat is ontvangen en de naberekende voorraad of onkosten mogelijk maakt.  
-
-Als een werknemer goederen heeft besteld met behulp van een opdracht tot inkoop, wordt die werknemer mogelijk gevraagd om zelf de ontvangst van het product te bevestigen. U kunt dit gedrag configureren met behulp van een workflow. U kunt de workflowvoorwaarden configureren zodat deze overeenkomen met uw bedrijfsproces.  
 
 Inkooporders kunnen worden gemaakt voor producten die niet zijn bedoeld als voorraad, maar als onkosten worden beschouwd. Deze categorie bevat orderregels waarop de producten zijn gemarkeerd als **Niet-voorradig** door hun voorraadmodelgroep en ook regels die inkoopcategorieën gebruiken. In dit geval doorlopen de artikelen mogelijk de aankomstregistratie en ontvangst in het magazijn niet. In plaats daarvan, wordt de actie **Productontvangstbon** gebruikt voor het rechtstreeks in de inkooporder vastleggen van de ontvangst en is de ontvangst gebaseerd op de bestelde hoeveelheid, niet een geregistreerde hoeveelheid.  
 

@@ -7,6 +7,10 @@
         - name: Wat is nieuw of gewijzigd
           href: whats-new.md
           items:
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (27 november 2018)
+              href: whats-new-talent-november-27.md
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (15 november 2018)
+              href: whats-new-talent-november-15.md
             - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (31 oktober 2018)
               href: whats-new-talent-october-31.md
             - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (19 oktober 2018)
@@ -95,8 +99,6 @@
           href: creating-offers.md
         - name: E-mailsjablonen maken en beheren
           href: email-templates.md
-        - name: Rapportage en analyse
-          href: Reporting-Analytics-Attract.md
         - name: Beveiliging en rollenbeheer in Attract
           href: security-attract.md
         - name: Beheerinstellingen in Attract
@@ -266,3 +268,27 @@
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Een prestatiebeoordeling maken
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Problemen met Talent oplossen
+      items:
+        - name: Analytische rapporten worden niet bijgewerkt
+          href: analytic-reports-not-updated.md
+        - name: Kan geen omgeving maken in het PowerApps-beheercentrum
+          href: create-envi-powerapps-admin-ctr.md
+        - name: De verbinding met de Talent-client wordt verbroken
+          href: client-disconnects.md
+        - name: Hoe databaseback-ups worden verwerkt
+          href: database-backups.md
+        - name: Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Het compensatieproces uitvoeren
+          href: run-compensation-process.md
+        - name: Taakbegeleiders opslaan in LCS en opnieuw afspelen
+          href: save-play-task-guides-LCS.md
+        - name: Toegang tot privéadressen per beveiligingsrol
+          href: security-roles-addresses.md
+        - name: Talent wordt niet weergegeven tussen de Microsoft Dynamics 365-apps (CDS1.0)
+          href: talent-not-in-home-CDS.md
+        - name: 'Gebruiker heeft toegang tot Core HR, maar niet tot de app Onboard of Attract'
+          href: user-access-core-hr.md
+        - name: Rapportageopties in Talent
+          href: talent-reporting-options.md

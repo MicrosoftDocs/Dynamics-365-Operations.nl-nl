@@ -3,7 +3,7 @@ title: Startpagina Hoofdplanning
 description: Met Hoofdplanning kunnen bedrijven de toekomstige behoefte aan grondstoffen en capaciteit bepalen en afstemmen om de doelstellingen van het bedrijf te halen.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ Het volgende leertraject toont de belangrijkste concepten en taken die het raamw
 
 ## <a name="quick-links"></a>Snelkoppelingen
 
-|      |   |
-|------|---|
-|        [Hoofdplannen](master-plans.md)       |     [Een plan met beperkingen genereren](./tasks/constrained-plan.md)  |
-| [Een materiaalplan voor co-producten maken](./tasks/create-material-plan-co-products.md)   |  [Hoofdplanning en de functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)  |
-| [Een intercompany-plan maken](./tasks/create-intercompany-plan.md) | [Overzicht vraagprognose](introduction-demand-forecasting.md)  | 
-|[Reductiesleutels](reduction-keys.md)| [Basisprincipes van Hoofdplanning](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (eLearning) (CustomerSource-account vereist)     |
-|  [Hoofdplanning voor procesproductie](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (eLearning) (CustomerSource-account vereist) | [Intercompany-hoofdplanning](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (CustomerSource-account vereist)|
+- [Hoofdplannen](master-plans.md)  
+- [Een plan met beperkingen genereren](./tasks/constrained-plan.md)
+- [Een materiaalplan voor co-producten maken](./tasks/create-material-plan-co-products.md)
+- [Hoofdplanning en de functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)
+- [Een intercompany-plan maken](./tasks/create-intercompany-plan.md)
+- [Overzicht vraagprognose](introduction-demand-forecasting.md)
+- [Reductiesleutels](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Aanvullende resources
 

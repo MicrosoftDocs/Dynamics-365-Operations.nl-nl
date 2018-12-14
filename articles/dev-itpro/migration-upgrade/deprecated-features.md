@@ -3,7 +3,7 @@ title: Verwijderde of verouderde functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering.
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Functie voor het exporteren van gegenereerde elektronische aangiftebestanden naa
 | **Betrokken productgebieden**         | Grootboek, Belasting |
 | **Implementatieoptie**              | Alles |
 | **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
+
+
+### <a name="profit-tax-register-wizard"></a>Wizard voor winstbelastingregister
+Functie voor het maken van sjablonen voor nieuwe winstbelastingregisters. Met deze functie maakt u X++-objecten voor nieuwe registers, die vervolgens als sjablonen worden gemaakt met de betreffende berekeningslogica.
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De functie is niet compatibel met het Dynamics 365 for Finance and Operations-rekbaarheidsmodel. |
+| **Vervangen door een andere functie?**   | Nee |
+| **Betrokken productgebieden**         | Btw |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Verwijderd in Dynamics 365 for Finance and Operations 8.1 met platformupdate 20. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 met platformupdate 15
 Er zijn geen onderdelen verwijderd of vervangen in deze versie. Platformupdate 15 is cumulatief en bevat nieuwe of gewijzigde functies van platformupdate 13, platformupdate 14 en platformupdate 15.
@@ -993,6 +1006,17 @@ Product Builder werd gebruikt om dynamisch items te configureren vanuit een verk
 | **Vervangen door een andere functie?**   | Ja. De op beperkingen gebaseerde configuratie werd geïntroduceerd in Dynamics AX 2012, waarin al werd aangekondigd dat Product Builder in toekomstige versies zou worden afgeschaft. De op beperkingen gebaseerde configuratie wordt geselecteerd in productmodellen om de configuratie mogelijk te maken. Zie voor meer informatie [Een productconfiguratiemodel opstellen](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Betrokken productgebieden**         | Productiegegevensbeheer, Verkoop en marketing  |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.      |
+
+### <a name="production-floor-app"></a>Production Floor-app
+Dit is de app voor tablets met Windows 8.1 RT en Windows 8.1 Pro.
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Met de wijziging naar een webclient is het mogelijk om vergelijkbare functionaliteit te bieden via de native Dynamics AX 7.0-client. Het apparaat voor taakkaarten biedt een gebruikersinterface voor de productievloer die is geoptimaliseerd voor touchscreens en tablets. |
+| **Vervangen door een andere functie?**   | Ja. Het apparaat voor taakkaarten, een native onderdeel van Dynamics AX 7.0.                                                                           |
+| **Betrokken productgebieden**         | Productiebeheer                                                |
+| **Status**                         | Afgeschaft: voor deze functie is nog geen datum voor verwijdering uit de Microsoft Store ingesteld.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Productdimensie hernoemen
 

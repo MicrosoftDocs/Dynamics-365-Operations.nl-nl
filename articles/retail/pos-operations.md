@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ Opmerking: de onderstaande bewerkingen zijn van toepassing op de meest recente v
 | 644 | Couponcode verwijderen | De gebruiker vragen om coupons te verwijderen door ze te selecteren in een lijst met coupons die aan de transactie zijn gekoppeld. | Ja | Ja | Nee | Ja | Nee |
 | 1057 | Z opnieuw afdrukken | Het Z-rapport voor de vorige ploeg of een geselecteerde ploeg opnieuw afdrukken. | Ja | Ja | Ja | Nee | Nee |
 | 1216 | Voer een nieuw wachtwoord in | Met deze bewerking kan een gebruiker met de machtiging voor het opnieuw instellen van wachtwoorden het wachtwoord van een andere werknemer opnieuw instellen met behulp van een tijdelijk wachtwoord. | Ja | Ja | Ja | Nee | Nee |
+| 1219 | URL openen in POS | Met deze bewerking kan een gebruiker in POS een URL openen die is geconfigureerd door een beheerder. | Ja | Ja | Ja | Ja | Nee | 
 | 109 | Product retourneren | Afzonderlijke producten retourneren. Het volgende gescande product wordt weergegeven als een geretourneerd product met een negatieve hoeveelheid en prijs. | Ja | Ja | Nee | Ja | Nee |
 | 114 | Retourtransactie | Een eerdere transactie op basis van het ontvangstbewijsnummer intrekken om sommige of alle producten terug te halen. | Ja | Ja | Ja | Ja§ | Nee |
 | 1211 | Kluisstorting | Voer een kluisstorting uit om geld van een kassa naar een kluis te verplaatsen. | Ja | Ja | Ja | Ja | Nee |
