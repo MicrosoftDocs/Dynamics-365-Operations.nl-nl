@@ -51,7 +51,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Microso
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Onboarding van een project</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Voorbereiden voor go-live</a></p>
-  
+
 <h3><a href="../financials/index.md">Financieel beheer</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Leveranciers</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Klanten</a></p>
@@ -65,7 +65,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Microso
 <p><a href="../financials/public-sector/public-sector-functionality.md">Openbare sector</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regionale wettelijk voorgeschreven functies</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
+<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Vergoedingen</a></p>
 <p><a href="../talent/performance-management-overview.md">Ontwikkeling en training van werknemers</a></p>
 <p><a href="../talent/questionnaires.md">Vragenlijst</a></p>
