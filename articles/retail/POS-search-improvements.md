@@ -19,10 +19,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 08/08/2018
 - <span data-ttu-id="c4baf-145">Detailhandelaren kunnen productzoekopdrachten nu zo configureren dat zoeksuggesties worden weergeven terwijl gebruikers productnamen typen.</span><span class="sxs-lookup"><span data-stu-id="c4baf-145">Retailers can now configure product search to show search suggestions as users type product names.</span></span> <span data-ttu-id="c4baf-146">Er is een nieuwe instelling beschikbaar in het POS-functionaliteitsprofiel, in een nieuwe groep met de naam **Product zoeken**.</span><span class="sxs-lookup"><span data-stu-id="c4baf-146">A new setting for this functionality is available in the POS functionality profile, in a group that is named **Product search**.</span></span> <span data-ttu-id="c4baf-147">De instelling heet **Suggesties weergeven tijdens het typen**.</span><span class="sxs-lookup"><span data-stu-id="c4baf-147">The setting is named **Show search suggestions while typing**.</span></span> <span data-ttu-id="c4baf-148">Met deze functionaliteit kunnen werknemers het product dat ze zoeken snel vinden omdat ze niet de hele naam handmatig hoeven in te voeren.</span><span class="sxs-lookup"><span data-stu-id="c4baf-148">This functionality can help employees quickly find the product that they are searching for, because they don't have to type the whole name manually.</span></span>
 - <span data-ttu-id="c4baf-149">Met het algoritme voor het zoeken van producten wordt nu ook gezocht naar de gezochte termen in de eigenschap **Zoeknaam** van het product.</span><span class="sxs-lookup"><span data-stu-id="c4baf-149">The product search algorithm now also searches for the searched terms in the **Search name** property of the product.</span></span>
 
-<span data-ttu-id="c4baf-150">![Productsuggesties](./media/Productsuggestions.png "Productsuggesties")</span><span class="sxs-lookup"><span data-stu-id="c4baf-150">![Product suggestions](./media/Productsuggestions.png "Product suggestions")</span></span>
+    <span data-ttu-id="c4baf-150">![Productsuggesties](./media/Productsuggestions.png "Productsuggesties")</span><span class="sxs-lookup"><span data-stu-id="c4baf-150">![Product suggestions](./media/Productsuggestions.png "Product suggestions")</span></span>
 
 ## <a name="customer-search"></a><span data-ttu-id="c4baf-151">Klant zoeken</span><span class="sxs-lookup"><span data-stu-id="c4baf-151">Customer search</span></span>
 

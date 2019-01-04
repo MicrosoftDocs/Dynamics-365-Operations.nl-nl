@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -68,7 +68,4 @@ ms.lasthandoff: 08/08/2018
 ## <a name="using-extended-logon"></a><span data-ttu-id="aa7ef-133">Uitgebreide aanmelding gebruiken</span><span class="sxs-lookup"><span data-stu-id="aa7ef-133">Using extended logon</span></span>
 
 <span data-ttu-id="aa7ef-134">Wanneer de uitgebreide aanmelding is geconfigureerd, en een werknemer een streepjescode of een magneetstrip is toegewezen, moet de werknemer enkel zijn of haar kaart doorhalen wanneer de POS-aanmeldpagina wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="aa7ef-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="aa7ef-135">Als een wachtwoord ook vereist is voordat aanmelding kan plaatsvinden, wordt de werknemer gevraagd zijn of haar wachtwoord in te voeren.</span><span class="sxs-lookup"><span data-stu-id="aa7ef-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
-
-
-
 
