@@ -31,20 +31,18 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-U kunt de winstgevendheid bestuderen van de top 10-producten met Microsoft Dynamics 365 for Retail. 
+U kunt de winstgevendheid bestuderen van de top 10-producten met Microsoft Dynamics 365 for Retail.
 
 Als onderdeel van Dynamics 365 for Retail kunnen gebruikers ook de rentabiliteit onderzoeken voor de beste producten (10 tot 100) op verschillende niveaus van de organisatiehiërarchie, op basis van een van de volgende criteria:
 
--   Verkoopbedrag
--   Hoeveelheid
--   Brutowinstmarge
--   Margepercentage
+- Verkoopbedrag
+- Hoeveelheid
+- Brutowinstmarge
+- Margepercentage
 
 Voor deze beoordeling kunt u het kant-en-klare rapport **Beste producten** gebruiken, dat u vanuit de volgende locaties kunt openen:
 
--   Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
--   Werkgebied **Categorie- en productbeheer** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Beste producten**
--   Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Topproducten**
-
-
+- Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
+- Werkgebied **Categorie- en productbeheer** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Beste producten**
+- Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Topproducten**
 

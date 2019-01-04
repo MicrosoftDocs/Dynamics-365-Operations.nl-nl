@@ -35,15 +35,13 @@ U kunt verkooptrends en -patronen in realtime bestuderen in Microsoft Dynamics 3
 
 Als onderdeel van Dynamics 365 for Retail kunnen gebruikers verkooptrends en -patronen bestuderen in realtime op verschillende niveaus van de organisatiehiërarchie over een periode van jaren, door het kant-en-klare rapport **Afzetkanaalverkoop per jaar** te openen. U kunt dit rapport openen vanaf een van de volgende locaties:
 
--   Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
--   Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
--   Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
+- Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
+- Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
+- Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per jaar**
 
 Gebruikers kunnen ook trends en patronen in de verkoop per uur bestuderen op verschillende niveaus van de organisatiehiërarchie voor een geselecteerde periode, door het kant-en-klare rapport **Afzetkanaalverkoop per uur** te openen. U kunt dit rapport openen vanaf een van de volgende locaties:
 
--   Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
--   Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
--   Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
-
-
+- Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
+- Werkgebied **Financiën van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Financiën van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
+- Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
 

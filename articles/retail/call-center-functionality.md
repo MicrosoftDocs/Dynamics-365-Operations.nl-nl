@@ -42,25 +42,30 @@ Met de callcentermodule kunnen orders worden gemaakt en wordt een gebruiksvriend
 Deze pagina bevat koppelingen naar relevante documentatie met betrekking tot de installatie, configuratie en het functionele gebruik van de callcenterfuncties in Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Het callcenter configureren
+
 [Orderverwerkingsopties instellen](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Orderverwerking configureren
+
 [Fraudewaarschuwingen instellen](set-up-fraud-alerts.md)
 
 [Handmatige orderwachtstanden](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Betalingsverwerking configureren
+
 [Betalingsmethoden in een callcenter](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Leveringsmethoden configureren
+
 [Leveringsmethoden en toeslagen van callcenters configureren](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Direct marketing configureren
+
 [Callcentercatalogi](call-center-catalogs.md)
 
 [RFM-analyse instellen](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Continuïteitsprogramma's configureren
-[Een continuïteitsprogramma instellen voor een callcenter](set-up-continuity-program.md)
 
+[Een continuïteitsprogramma instellen voor een callcenter](set-up-continuity-program.md)
 
