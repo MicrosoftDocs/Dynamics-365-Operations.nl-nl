@@ -7,6 +7,10 @@
         - name: Wat is nieuw of gewijzigd
           href: whats-new.md
           items:
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (14 december 2018)
+              href: whats-new-talent-december-14.md
+            - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (6 december 2018)
+              href: whats-new-talent-december-6.md
             - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (27 november 2018)
               href: whats-new-talent-november-27.md
             - name: Wat is nieuw of gewijzigd in Dynamics 365 for Talent Core HR (15 november 2018)
@@ -71,6 +75,8 @@
     - name: Verlof en afwezigheid beheren
       href: leave-absence-overview.md
       items:
+        - name: Concepten verlof en verzuim
+          href: leave-absence-concepts.md
         - name: Verlof toerekenen op basis van gewerkte uren
           href: leave-accrue-hours-worked.md
         - name: Werktijdkalenders
@@ -128,10 +134,13 @@
         - name: Trainingscursussen instellen
           href: courses.md
     - name: Een vergoedingenprogramma definiëren en beheren
-      href: manage-benefit-program.md
-    - name: Beleid voor geschiktheid vergoedingen
-      href: benefit-eligibility-policies.md
       items:
+        - name: Een vergoedingenprogramma beheren
+          href: manage-benefit-program.md
+        - name: Beleid geschiktheid voor vergoedingen
+          href: benefit-eligibility-policies.md
+        - name: Rapporten maken voor Affordable Care Act (Amerikaanse wet inzake betaalbare zorg)
+          href: generate-aca-reports.md
         - name: Artikelen beheren die aan werknemers worden geleend
           href: loan-items.md
     - name: Gegevens verzamelen via vragenlijsten
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: De verbinding met de Talent-client wordt verbroken
           href: client-disconnects.md
-        - name: Hoe databaseback-ups worden verwerkt
-          href: database-backups.md
         - name: Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: Het compensatieproces uitvoeren

@@ -25,7 +25,7 @@
                   href: get-started/system-requirements-on-prem.md
                 - name: Magazijnbeheer configureren voor on-premises implementaties
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Standaard- en gerichte platformversies
+            - name: Standaard- en First Release-serviceupdates
               href: get-started/public-preview-releases.md
             - name: Finance and Operations aanschaffen
               items:
@@ -48,13 +48,13 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Functies die niet worden geïmplementeerd in on-premises implementaties
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations versie 8.1.3 (december 2018)
+            - name: Finance and Operations versie 8.1.3 (januari 2019)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: Platform update 23 (december 2018)
+            - name: Platform update 23 (januari 2019)
               href: get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (november 2018)
+            - name: Platform update 22 (december 2018)
               href: get-started/whats-new-platform-update-22.md
-            - name: Finance and Operations versie 8.1.2 (november 2018)
+            - name: Finance and Operations versie 8.1.2 (december 2018)
               href: get-started/whats-new-changed-8-1-2.md
             - name: Finance and Operations versie 8.1.1 (oktober 2018)
               href: get-started/whats-new-changed-8-1-1.md
@@ -373,6 +373,18 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
+                    - name: Voorraadoverboekingen en correcties uit Field Service synchroniseren met Finance and Operations
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                    - name: Informatie over voorraadniveau uit Finance and Operations synchroniseren met Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                    - name: Producten met voorraadeenheid uit Finance and Operations synchroniseren met Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                    - name: Projectlijst van Finance and Operations synchroniseren met Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                    - name: Magazijnen van Finance and Operations synchroniseren met Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                    - name: Werkorders van Finance and Operations synchroniseren met Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
                 - name: Project Service Automation-integratie configureren
                   href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                   items:
@@ -388,8 +400,8 @@
                       href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
                     - name: Werkelijke projectwaarden synchroniseren met het projectintegratiejournaal
                       href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
-                - name: Externe webservices gebruiken
-                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Externe webservices gebruiken
+          href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Gegevensbeheer
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -403,9 +415,11 @@
               items:
                 - name: Pakketten met configuratiegegevens
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
-                - name: Configuratiegegevenspakketten (alleen voor de release van juli 2017)
+                - name: Pakketten met configuratiegegevens (alleen voor de release van juli 2017)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
-            - name: Gegevenssjablonen voor configuratie
+                - name: Entiteitopslag beschikbaar maken als een Data Lake
+                  href: ../dev-itpro/data-entities/entity-store-data-lake.md?toc=/fin-and-ops/toc.json
+            - name: Sjablonen voor configuratiegegevens
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
             - name: Wijzigingen in een entiteit bijhouden
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
@@ -529,6 +543,8 @@
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Vereffening configureren
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Restbedrag vereffenen
+                  href: ../financials/cash-bank-management/settle-remainder.md
                 - name: Overzicht van leveranciersbetaling
                   href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Werkgebied voor betalingen aan leveranciers
@@ -2103,11 +2119,9 @@
               href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
             - name: Een vrije-tekstfactuur boeken
               href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-            - name: Mexicaans elektronisch grootboekrekeningrapport versie 1.1 produceren
-              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
             - name: Parameters voor een elektronische factuur instellen
               href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
-            - name: Btw-codes voor Mexica instellen
+            - name: Btw-codes voor Mexico instellen
               href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
             - name: Het rekeningschema instellen voor een rechtspersoon in Mexico
               href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
@@ -2427,9 +2441,9 @@
               href: ../talent/courses.md
         - name: Vergoedingen maken en onderhouden
           items:
-            - name: Een vergoedingsprogramma beheren
+            - name: Een vergoedingenprogramma beheren
               href: ../talent/manage-benefit-program.md
-            - name: Beleid voor geschiktheid vergoedingen
+            - name: Beleid geschiktheid voor vergoedingen
               href: ../talent/benefit-eligibility-policies.md
             - name: Proces voor geschiktheid voor vergoeding
               href: hr/tasks/benefit-eligibility-process.md
