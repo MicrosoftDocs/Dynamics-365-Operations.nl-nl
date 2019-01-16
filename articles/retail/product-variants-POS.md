@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Op de pagina **Zoeken in voorraad** kunt u met het numerieke toetsenbord een pro
 
 De lijst met locaties bevat twee typen entiteiten:
 
-- **Detailhandelwinkels**: in de lijst staan de winkels die zijn geconfigureerd met behulp van de winkellocatorgroep voor de huidige winkel in Detailhandel Hoofdkantoor. 
-- **Distributiecentra**: verschillende soorten distributiecentra (bijvoorbeeld magazijnen) kunnen worden geconfigureerd in Microsoft Dynamics 365 for Retail. In de lijst staat echter alleen de voorraadbeschikbaarheid voor distributiecentra van het type **Standaard**. 
+- **Detailhandelwinkels**: in de lijst staan de winkels die zijn geconfigureerd met behulp van de winkellocatorgroep voor de huidige winkel in Detailhandel Hoofdkantoor.
+- **Distributiecentra**: verschillende soorten distributiecentra (bijvoorbeeld magazijnen) kunnen worden geconfigureerd in Microsoft Dynamics 365 for Retail. In de lijst staat echter alleen de voorraadbeschikbaarheid voor distributiecentra van het type **Standaard**.
 
     > [!NOTE]
     > Informatie over de vooraadbeschikbaarheid wordt niet weergegeven voor magazijnen van het type **transit**, **quarantaine** en **goederen onderwep** voor het POS.
@@ -86,7 +86,7 @@ In de weergave **Op dimensie gebaseerde matrix** omvatten de cellen voor de prod
 | **0** (nul)                             | Een variant is vrijgegeven voor de geselecteerde locatie, maar het artikel is niet beschikbaar op de geselecteerde locatie. U kunt echter wel aanvullende acties uitvoeren in de cel. (Deze acties worden verderop in dit onderwerp nader beschreven.) |
 | **n.v.t.** of een niet-actieve cel              | Een variant is niet vrijgegeven voor de geselecteerde locatie en u kunt geen aanvullende acties uitvoeren in de cel. |
 
-U kunt ook de draaitabel voor dimensies wijzigen door het selecteren van de nieuwe dimensie die moet worden gebruikt. 
+U kunt ook de draaitabel voor dimensies wijzigen door het selecteren van de nieuwe dimensie die moet worden gebruikt.
 
 ![De draaitabel wijzigen](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Verder kunnen in de weergave **Op dimensie gebaseerde matrix** meer acties worde
 
 De volgende tabel bevat meer informatie over de aanvullende acties die beschikbaar zijn.
 
-
-|        Actie        |                                                                                                                    Omschrijving                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Nu verkopen       |                               Voeg de geselecteerde artikelvariant toe aan de transactie en stuur de gebruiker door naar het transactiescherm. (Deze actie is niet beschikbaar wanneer de geselecteerde locatie een distributiecentrum is.)                               |
-|   Ophalen in winkel   |      Maak een klantorder voor de productvariant die wordt opgehaald bij de geselecteerde locatie en stuur de gebruiker door naar het transactiescherm. (Deze actie is niet beschikbaar wanneer de geselecteerde locatie een distributiecentrum is.)       |
-|     Product verzenden     |                                                 Maak een klantorder voor de productvariant die wordt verzonden naar de geselecteerde locatie en stuur de gebruiker door naar het transactiescherm.                                                 |
-|     Beschikbaarheid     |                                                                             Geef de ATP-informatie voor de geselecteerde combinatie van varianten voor de geselecteerde locatie weer.                                                                              |
-|  Alle locaties weergeven  | Schakel over naar de standaardzoekweergave voor voorraad en markeer de voorraadbeschikbaarheidsgegevens voor de artikelvariant voor alle winkels in de winkellocatorgroep, en ook in distributiecentra van de het type <strong>Standaard</strong>. |
-| Productgegevens weergeven |                                                                         Stuur de gebruiker door naar de pagina <strong>Productdetails</strong> van het gekoppelde productmodel.                                                                          |
-
+| Actie               | Omschrijving |
+|----------------------|-------------|
+| Nu verkopen             | Voeg de geselecteerde artikelvariant toe aan de transactie en stuur de gebruiker door naar het transactiescherm. (Deze actie is niet beschikbaar wanneer de geselecteerde locatie een distributiecentrum is.) |
+| Ophalen in winkel     | Maak een klantorder voor de productvariant die wordt opgehaald bij de geselecteerde locatie en stuur de gebruiker door naar het transactiescherm. (Deze actie is niet beschikbaar wanneer de geselecteerde locatie een distributiecentrum is.) |
+| Product verzenden         | Maak een klantorder voor de productvariant die wordt verzonden naar de geselecteerde locatie en stuur de gebruiker door naar het transactiescherm. |
+| Beschikbaarheid         | Geef de ATP-informatie voor de geselecteerde combinatie van varianten voor de geselecteerde locatie weer. |
+| Alle locaties weergeven   | Schakel over naar de standaardzoekweergave voor voorraad en markeer de voorraadbeschikbaarheidsgegevens voor de artikelvariant voor alle winkels in de winkellocatorgroep, en ook in distributiecentra van de het type **Standaard**. |
+| Productgegevens weergeven | Stuur de gebruiker door naar de pagina **Productdetails** van het gekoppelde productmodel. |
 

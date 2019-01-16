@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ De voorbeeldschermindelingen die zijn opgenomen in de Retail-demonstratiegegeven
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomie van een schermindelings-id
 
-In Retail vindt u schermindelingen via **Retail** > **Afzetkanaalinstellingen** > **POS-instellingen** > **POS** > **Schermindelingen**.
+In Retail vindt u schermindelingen via **Retail** \> **Afzetkanaalinstellingen** \> **POS-instellingen** \> **POS** \> **Schermindelingen**.
 
 ![Pagina Schermindelingen in Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ In de volgende tabel worden de indelingsformaten weergegeven die beschikbaar zij
 
 \* Deze extra indelingsformaten zijn alleen beschikbaar in Adventure Works- en Fabrikam-indelingen.
 
-
->[!TIP]
-> POS selecteert automatisch indelingsformaten, gebaseerd op de dichtstbijzijnde grootte die voor de schermresolutie van het huidige appvenster beschikbaar is. U vindt de schermindelings-id en indelingsresolutie die momenteel worden gebruikt door Retail Modern POS (MPOS) of Retail Cloud POS (CPOS) te openen, de pagina **Instellingen** te openen en de sectie **Sessie-informatie** te bekijken. U kunt ook de werkelijke vensterresolutie voor uw huidige toepassing of browserframe bekijken. Als u deze gegevens hebt, kunt u de bron van de indelingsinhoud in Retail vinden door naar **Afzetkanaalinstellingen** > **POS-instellingen** > **POS** > **Schermindelingen** te gaan.
-
+> [!TIP]
+> POS selecteert automatisch indelingsformaten, gebaseerd op de dichtstbijzijnde grootte die voor de schermresolutie van het huidige appvenster beschikbaar is. U vindt de schermindelings-id en indelingsresolutie die momenteel worden gebruikt door Retail Modern POS (MPOS) of Retail Cloud POS (CPOS) te openen, de pagina **Instellingen** te openen en de sectie **Sessie-informatie** te bekijken. U kunt ook de werkelijke vensterresolutie voor uw huidige toepassing of browserframe bekijken. Als u deze gegevens hebt, kunt u de bron van de indelingsinhoud in Retail vinden door naar **Afzetkanaalinstellingen** \> **POS-instellingen** \> **POS** \> **Schermindelingen** te gaan.
 
 ![Schermindelingen en indelingsresoluties/-formaten in Retail en POS](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Elk fictief bedrijf is gericht op een ander segment en bevat productcatalogi die
 | Fabrikam        | Houston  | Mode        | Groen  | Licht |
 | Contoso         | Boston   | Elektronica    | Rood    | Donker  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works en Fabrikam zijn de twee vlaggenschipmerken. Contoso is beschikbaar, maar niet alle indelingen.
-
 
 In de volgende afbeeldingen ziet u voorbeelden van de welkomstpagina en transactiepagina voor de drie fictieve bedrijven.
 
@@ -153,28 +149,26 @@ In de volgende afbeeldingen ziet u voorbeelden van de welkomstpagina en transact
 
 Er zijn al gebruikers opgegeven voor de verschillende schermindelingen. Met behulp van de volgende tabel moet u toegang kunnen krijgen tot elk van deze schermen. U hoeft u alleen maar aan te melden met een juiste operator-id.
 
-| Bedrijf         | Schermindelings-id | Persona          | Operator-id's           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | Winkelmanager    | 000154, 000137, 000073 |
-| Adventure Works | A3KAS            | Kassier          | 000150, 000175, 000165 |
-| Adventure Works | A3MMW            | Magazijnmedewerker      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Winkelmanager    | 000160, 000168, 000163 |
-| Fabrikam        | F3KAS            | Kassier          | 000161, 000113, 000114 |
-| Fabrikam        | F3MMW            | Magazijnmedewerker      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | Winkelmanager    | 000100, 000111         |
-| Contoso         | C3KAS            | Kassier          | 000110, 000120         |
-| Contoso         | Niet van toepassing   | Magazijnmedewerker      | Niet van toepassing         |
+| Bedrijf         | Schermindelings-id | Persona       | Operator-id's           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | Winkelmanager | 000154, 000137, 000073 |
+| Adventure Works | A3KAS            | Kassier       | 000150, 000175, 000165 |
+| Adventure Works | A3MMW            | Magazijnmedewerker   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | Winkelmanager | 000160, 000168, 000163 |
+| Fabrikam        | F3KAS            | Kassier       | 000161, 000113, 000114 |
+| Fabrikam        | F3MMW            | Magazijnmedewerker   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | Winkelmanager | 000100, 000111         |
+| Contoso         | C3KAS            | Kassier       | 000110, 000120         |
+| Contoso         | Niet van toepassing   | Magazijnmedewerker   | Niet van toepassing         |
 
-
->[!TIP]
+> [!TIP]
 > Activeer voor de beste resultaten een journaal in de bijbehorende winkellocatie en stel het bedrijf in op de persona waarmee u zich wilt aanmelden. Op deze manier kunt u ervoor zorgen dat het visuele profiel en brandingafbeeldingen consistent op elkaar zijn afgestemd. Als u een Fabrikam-indeling voor een kassamedewerker wilt bekijken, moet u bijvoorbeeld een journaal in de winkel in Houston activeren.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

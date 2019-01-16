@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 64cd387f8a6ab693d159cd659fca51fa6568ee39
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 01c1fa876dd66ba6f0e1cdcecff56f424e117bd9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,26 +34,25 @@ Voer de volgende procedures uit in de workfloweditor om een parallelle activitei
 Een parallelle activiteit bestaat uit workflowvertakkingen die op hetzelfde moment worden uitgevoerd.
 
 ## <a name="name-a-parallel-activity"></a>Een parallelle activiteit een naam geven
+
 Voer deze stappen uit om een naam op te geven voor een parallelle activiteit.
-1.  Klik met de rechtermuisknop op de parallelle activiteit en klik op **Eigenschappen** om het formulier **Eigenschappen** te openen.
-2.  Klik in het linkerdeelvenster op **Basisinstellingen**.
-3.  Voer in het veld **Naam** een unieke naam voor de parallelle activiteit in.
-4.  Klik op **Sluiten**.
+
+1. Klik met de rechtermuisknop op de parallelle activiteit en klik op **Eigenschappen** om het formulier **Eigenschappen** te openen.
+2. Klik in het linkerdeelvenster op **Basisinstellingen**.
+3. Voer in het veld **Naam** een unieke naam voor de parallelle activiteit in.
+4. Klik op **Sluiten**.
 
 ## <a name="configure-the-branches-of-a-parallel-activity"></a>De takken van een parallelle activiteit configureren
+
 Voer deze stappen uit om de vertakkingen van deze parallelle activiteit toe te voegen en te configureren.
+
 1. Dubbelklik op de parallelle activiteit om de vertakkingen van de parallelle activiteit weer te geven.
-2. Om een vertakking toe te voegen, sleept u het element **Vertakking** van het gebied **Workflowelementen** naar een invoegpunt op het tekenpapier. De volgende afbeelding geeft een invoegpunt weer.![Invoegpunt](./media/workflow_insertionpoint.gif)
+2. Om een vertakking toe te voegen, sleept u het element **Vertakking** van het gebied **Workflowelementen** naar een invoegpunt op het tekenpapier. De figuur hieronder geeft een invoegpunt weer.
 
-   |                                              <strong>Opmerking</strong>                                               |
-   |------------------------------------------------------------------------------------------------------------------|
-   | De volgorde van de vertakkingen is niet belangrijk, omdat alle vertakkingen van een parallelle activiteit op hetzelfde moment worden uitgevoerd. |
+    ![Invoegpunt](./media/workflow_insertionpoint.gif)
 
+    > [!NOTE]
+    > De volgorde van de vertakkingen is niet belangrijk, omdat alle vertakkingen van een parallelle activiteit op hetzelfde moment worden uitgevoerd.
 
 3. Zie voor configureren van elke vertakking [Een parallelle vertakking configureren](configure-parallel-branch-workflow.md).
-
-
-
-
-
 

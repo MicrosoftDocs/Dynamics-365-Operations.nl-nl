@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 85581968d9d242460117693174acbf906463997f
+ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
+ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,6 +30,9 @@ ms.lasthandoff: 10/22/2018
 [!include[banner](../includes/banner.md)]
 
 Met behulp van de e-mailsjabloonbibliotheek kunnen beheerders een uniform thema en merkherkenning maken voor alle e-mails die worden verzonden via Microsoft Dynamics 365 for Talent: Attract. Beheerders kunnen ook een verzameling e-mailinhoudssjablonen samenstellen die andere gebruikers kunnen gebruiken. Het aanstellend team kan deze sjablonen gebruiken in hun werkstroom om e-mails efficiënter te verzenden. Sommige e-mailberichten in Attract zijn geconfigureerd om automatisch te worden verzonden en de beheerder kan de e-mailsjabloonbibliotheek gebruiken om de inhoud van die e-mails aan te passen.
+
+> [!NOTE]
+> Als u e-mailsjablonen wilt gebruiken, moet uw organisatie beschikken over Uitgebreide invoegtoepassing voor aanstellingen.
 
 ## <a name="global-template-configurations"></a>Globale sjabloonconfiguraties
 

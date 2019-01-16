@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
-ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -41,7 +41,7 @@ Alledaags systeemgebruik bestaat voor veel gebruikers voor een aanzienlijk deel 
 
 Elke pagina die kan worden geopend via het menu in het deelvenster Navigatie, het deelvenster uiterst links, is ook beschikbaar via het vak **Zoeken**. Druk op Alt+G om focus te verplaatsen naar het vak **Zoeken** en typ vervolgens de naam of omschrijving van de pagina.
 
-!['Bankrekeningen' ingevoerd in het zoekvak](media/6d08b0be32808221023e2aa92d69fd70.png  "'bankrekeningen' ingevoerd in het zoekvak")
+!['Bankrekeningen' ingevoerd in het zoekvak](media/6d08b0be32808221023e2aa92d69fd70.png "'bankrekeningen' ingevoerd in het zoekvak")
 
 Zie [Navigatiezoekfunctie](navigation-search.md) voor meer informatie.
 
@@ -56,17 +56,17 @@ Elke actie die beschikbaar is op een pagina, kan worden uitgevoerd met een toets
 
 U wilt de actie **Logboek voor e-mailmelding** uitvoeren die wordt weergegeven in de groep **E-mailmelding** op het tabblad **Verkooporder** in het actievenster.
 
-![Actie Logboek voor e-mailmelding in het actievenster](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "Actie 'Logboek voor e-mailmelding' in het actievenster.")
+![Actie Logboek voor e-mailmelding in het actievenster](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Actie 'Logboek voor e-mailmelding' in het actievenster.")
 
 U kunt uw toetsenbord gebruiken. Druk op Ctrl+F6 om de focus te verplaatsen naar het actievenster en druk vervolgens herhaaldelijk op Tab tot de focus is verplaatst naar de actie **Logboek voor e-mailmelding**.
 
 U kunt de actie echter ook directer uitvoeren. Druk op een willekeurige plek op de pagina op Ctrl+apostrof (') om het zoekvak voor acties weer te geven.
 
-![Zoekvak voor acties](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Zoekvak voor acties")
+![Zoekvak voor acties](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Zoekvak voor acties")
 
 Typ in het zoekvak woorden om de actie te beschrijven. De actie wordt beschikbaar gesteld voor u en u kunt deze direct uitvoeren. Door **e-mail**, **meldi** (een gedeeltelijk woord) of **logboek** te typen, kunt u bijvoorbeeld naar de functionaliteit Logboek voor e-mailmelding springen.
 
-!['E-mail' ingevoerd in het zoekvak](media/image4.png "'e-mail' ingevoerd in het zoekvak") 
+!['E-mail' ingevoerd in het zoekvak](media/image4.png "'e-mail' ingevoerd in het zoekvak")
 
 !['Melding' ingevoerd in het zoekvak](media/image5.png "'melding' ingevoerd in het zoekvak")
 
@@ -82,7 +82,7 @@ Bij alledaags gebruik van het systeem is niet elk veld nodig om veelvoorkomende 
 
 Het kan echter gebeuren dat sommige velden die u vaak gebruikt voor taken niet zijn opgenomen in de standaardtabvolgorde. In dat geval kunt u de toetsenbordacties van Windows Verteller gebruiken om toegang tot deze velden te krijgen en hun inhoud te controleren. Ook kunt u de optie **Verbeterde tabbladreeks** op de pagina **Opties** inschakelen. Met deze optie maakt u alle bewerkbare en alleen-lezenvelden onderdeel van de tabvolgorde. Vervolgens kunt u door middel van pagina-aanpassingen een aangepaste tabvolgorde maken en velden weglaten die niet deel hoeven uit te maken van de tabvolgorde. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over aanpassingen.
 
-![Optie 'Uitgebreide tabbladreeks'](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "Optie 'Uitgebreide tabbladreeks'")
+![Optie 'Uitgebreide tabbladreeks'](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Optie 'Uitgebreide tabbladreeks'")
 
 ## <a name="form-patterns"></a>Formulierpatronen
 

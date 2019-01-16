@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations. 
+De volgende sneltoetsen gelden in heel Dynamics 365 for Finance and Operations.
 
-**Opmerking:** De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
+> [!NOTE]
+> De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
 
 ## <a name="finding-a-shortcut"></a>Een snelkoppeling vinden
-Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de gebruikersinterface weergeven. U hoeft alleen maar met de rechtermuisknop op een besturingselement te klikken en **Snelkoppelingen weergeven** te kiezen. Hiermee opent u een dialoogvenster met de beschikbare snelkoppelingen op basis van uw locatie op de pagina. 
 
+Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de gebruikersinterface weergeven. U hoeft alleen maar met de rechtermuisknop op een besturingselement te klikken en **Snelkoppelingen weergeven** te kiezen. Hiermee opent u een dialoogvenster met de beschikbare snelkoppelingen op basis van uw locatie op de pagina.
 
 ## <a name="action-shortcuts"></a>Actiesneltoetsen
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Gewenste bewerking**                                    | **Druk op**                        |
-| Actiezoekopdracht openen                                | Ctrl+’ of Alt+Q                  |
-| Naar het standaardactievenster gaan                  | Alt+M, A of Ctrl+F6               |
-| Een tabblad in het actievenster of een menu openen           | Enter of spatiebalk of Alt+Pijl-omlaag |
-| Naar volgende/vorige optie in een menu gaan            | Pijl-omlaag/Pijl-omhoog            |
-| Een tabblad in het actievenster of een menu sluiten          | Esc                              |
-| Klikken met de rechtermuisknop simuleren                            | Shift+F10                        |
-| Het contextmenu Finance and Operations openen      | Ctrl+F10                         |
-| Op de standaardknop in een formulier/dialoogvenster klikken   | Alt+Enter                        |
-| Op een knop of tegel klikken                            | Enter of spatiebalk                   |
-| Vernieuwde informatie voor een tellingstegel weergeven         | Alt+Pijl-omhoog                     |
-| Momenteel beschikbare snelkoppelingen weergeven                | Alt+Shift+K                      |                              
+| Gewenste bewerking                                      | Druk op                            |
+|-------------------------------------------------|----------------------------------|
+| Actiezoekopdracht openen                              | Ctrl+’ of Alt+Q                  |
+| Naar het standaardactievenster gaan                | Alt+M, A of Ctrl+F6               |
+| Een tabblad in het actievenster of een menu openen         | Enter of spatiebalk of Alt+Pijl-omlaag |
+| Naar volgende/vorige optie in een menu gaan          | Pijl-omlaag/Pijl-omhoog            |
+| Een tabblad in het actievenster of een menu sluiten        | Esc                              |
+| Klikken met de rechtermuisknop simuleren                          | Shift+F10                        |
+| Het contextmenu Finance and Operations openen    | Ctrl+F10                         |
+| Op de standaardknop in een formulier/dialoogvenster klikken | Alt+Enter                        |
+| Op een knop of tegel klikken                          | Enter of spatiebalk                   |
+| Vernieuwde informatie voor een tellingstegel weergeven       | Alt+Pijl-omhoog                     |
+| Momenteel beschikbare snelkoppelingen weergeven              | Alt+Shift+K                      |
 
 ## <a name="date-picker-shortcuts"></a>Sneltoetsen voor datumkiezer
 
-|                                       |                                           |
+| Gewenste bewerking                            | Druk op                                     |
 |---------------------------------------|-------------------------------------------|
-| **Gewenste bewerking**                        | **Druk op**                                 |
 | De datumkiezer openen                  | Alt+Pijl-omlaag                            |
 | Heen en weer gaan tussen datums in de datumkiezer | Ctrl+pijltoetsen                           |
 | Naar de volgende/vorige maand gaan       | Page Down/Page Up                       |
@@ -70,9 +69,8 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 ## <a name="factbox-shortcuts"></a>Sneltoetsen voor feitenvak
 
-|                                                                                 |                                           |
+| Gewenste bewerking                                                                      | Druk op                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Gewenste bewerking**                                                                  | **Druk op**                                 |
 | Het feitenblok openen (of de focus naar het feitenblok verplaatsen als dat al is geopend) | Alt+M, B of Ctrl+F2                        |
 | Het feitenblok sluiten (met de focus in het feitenblok)                         | Esc                                       |
 | Naar het volgende/vorige feitenvak gaan (met focus in het feitenblok)              | Alt+Shift+Pijl-omlaag/Alt+Shift+Pijl-omhoog |
@@ -82,42 +80,39 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 ## <a name="filtering-shortcuts"></a>Sneltoetsen voor filteren
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Actie**                     | **Druk op**                |
-| Rasterfiltering openen voor de huidige kolom                        | Ctrl+G                   |
-| Rasterfiltering sluiten voor de huidige kolom                       | Esc                      |
+| Actie                                                                                                          | Druk op                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Rasterfiltering openen voor de huidige kolom                                                                          | Ctrl+G                   |
+| Rasterfiltering sluiten voor de huidige kolom                                                                         | Esc                      |
 | Het filtervenster openen (of de focus omschakelen tussen het filtervenster en het hoofdformulier als het filtervenster al open is) | Alt+M, F of Ctrl+F3       |
-| Het filtervenster sluiten (met de focus in het filtervenster)             | Esc                      |
-| Geavanceerd filteren/sorteren openen                                      | Ctrl+Shift+F3            | 
+| Het filtervenster sluiten (met de focus in het filtervenster)                                                               | Esc                      |
+| Geavanceerd filteren/sorteren openen                                                                                        | Ctrl+Shift+F3            |
 
 ## <a name="form-shortcuts"></a>Sneltoetsen voor formulieren
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Actie**                                      | **Druk op**         |
-| Een nieuwe registratie maken                                 | Alt+N             |
-| Een record verwijderen                                     | Alt+Del of Alt+F9 |
-| Record opslaan                                         | Alt+S of Ctrl+S   |
-| Terugdraaien (herstellen)                                    | Ctrl+Shift+F5     |
-| Gegevens vernieuwen                                        | Shift+F5          |
-| Naar het zichtbare eerste veld in het formulier gaan         | Alt+Shift+F       |
-| Bewerkingsmodus in-/uitschakelen                                    | F2                |
-| Een document koppelen                                   | Ctrl+Shift+A      |
-| Exporteren naar Excel                                     | Ctrl+Shift+E      |
-| Naar de vorige record gaan (buiten een raster)        | Ctrl+Pijl-omhoog     |
-| Naar de volgende record gaan (buiten een raster)            | Ctrl+Pijl-omlaag   |
-| Naar de eerste record gaan (buiten een raster)           | Ctrl+Home         |
-| Naar de laatste record gaan (buiten een raster)            | Ctrl+End          |
-| Het formulier sluiten (op Terug klikken)                         | Esc               |
-| Het formulier sluiten met expliciet opslaan                   | Shift+Esc         |
-| Het formulier sluiten met annulering van niet-opgeslagen wijzigingen       | Alt+Shift+Q       |
+| Actie                                    | Druk op             |
+|-----------------------------------------------|-------------------|
+| Een nieuwe registratie maken                           | Alt+N             |
+| Een record verwijderen                               | Alt+Del of Alt+F9 |
+| Record opslaan                                   | Alt+S of Ctrl+S   |
+| Terugdraaien (herstellen)                              | Ctrl+Shift+F5     |
+| Gegevens vernieuwen                                  | Shift+F5          |
+| Naar het zichtbare eerste veld in het formulier gaan   | Alt+Shift+F       |
+| Bewerkingsmodus in-/uitschakelen                              | F2                |
+| Een document koppelen                             | Ctrl+Shift+A      |
+| Exporteren naar Excel                               | Ctrl+Shift+E      |
+| Naar de vorige record gaan (buiten een raster)  | Ctrl+Pijl-omhoog     |
+| Naar de volgende record gaan (buiten een raster)      | Ctrl+Pijl-omlaag   |
+| Naar de eerste record gaan (buiten een raster)     | Ctrl+Home         |
+| Naar de laatste record gaan (buiten een raster)      | Ctrl+End          |
+| Het formulier sluiten (op Terug klikken)                   | Esc               |
+| Het formulier sluiten met expliciet opslaan             | Shift+Esc         |
+| Het formulier sluiten met annulering van niet-opgeslagen wijzigingen | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Sneltoetsen voor formuliernavigatie
 
-|                                                     |                                              |
+| Gewenste bewerking                                          | Druk op                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Gewenste bewerking**                                      | **Druk op**                                    |
 | Naar het volgende/vorige veld gaan                     | Tabtoets/Shift+Tabtoets                              |
 | Naar het volgende/vorige tabblad gaan                       | Alt+Shift+Pijl-rechts/Alt+Shift+Pijl-links |
 | Naar het &lt;n&gt;de tabblad gaan                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
@@ -134,30 +129,28 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 ## <a name="grid-shortcuts"></a>Sneltoetsen in raster
 
-|                                                                                                                        |                                 |
+| Gewenste bewerking                                                                                                             | Druk op                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Gewenste bewerking**                                                                                                         | **Druk op**                       |
 | Naar de volgende/vorige kolom gaan                                                                                       | Tabtoets/Shift+Tabtoets                 |
 | Naar het volgende/vorige rij gaan                                                                                          | Pijl-omlaag/Pijl-omhoog           |
-| Naar de volgende/vorige rij gaan zonder te selecteren<br><br>**Opmerking:** deze sneltoets is alleen van toepassing in scenario's met meerdere selecties. | Ctrl+Pijl-omhoog/Ctrl+Pijl-omlaag |
-| De huidige rij selecteren/wissen<br><br>**Opmerking:** deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.                    | Ctrl+Spatiebalk/Ctrl+Klik         |
-| De volgende/vorige rij toevoegen aan de geselecteerde set<br><br>**Opmerking:** deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.   | Shift+spatie                     |
-| Een bereik aan rijen toevoegen aan de geselecteerde set<br><br>**Opmerking:** deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.         | Shift+Klik                     |
+| Naar de volgende/vorige rij gaan zonder te selecteren<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote> | Ctrl+Pijl-omhoog/Ctrl+Pijl-omlaag |
+| De huidige rij selecteren/wissen<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote>                    | Ctrl+Spatiebalk/Ctrl+Klik         |
+| De volgende/vorige rij toevoegen aan de geselecteerde set<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote>   | Shift+spatie                     |
+| Een bereik aan rijen toevoegen aan de geselecteerde set<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote>         | Shift+Klik                     |
 | Naar de volgende/vorige pagina met gegevens gaan                                                                                   | Page Up/Page Down             |
 | Een nieuwe rij maken onder in het raster                                                                             | Pijl-omlaag (vanuit de laatste rij)  |
 | Alle rijen selecteren of wissen                                                                                               | Ctrl+Shift+M                    |
 | Naar de eerste registratie gaan                                                                                               | Ctrl+Home                       |
 | Naar de laatste registratie gaan                                                                                                | Ctrl+End                        |
-| De standaardactie uitvoeren in een raster<br><br>**Opmerking:** deze sneltoets is ingeschakeld wanneer de focus zich op een cel met een hyperlink bevindt en alle cellen in die kolom hyperlinks bevatten.                 | Enter                           |
+| De standaardactie uitvoeren in een raster<blockquote>[!NOTE] Deze sneltoets is ingeschakeld wanneer de focus zich op een cel met een hyperlink bevindt en alle cellen in die kolom hyperlinks bevatten.</blockquote> | Enter                           |
 | Schakelen tussen de geselecteerde rij en de koptekstrij                                                               | Alt+Shift+H                     |
 | De huidige kolom groter/kleiner maken (met de focus in de koptekstrij)                                                  | Pijl-rechts/-links        |
 | Rasterfilters openen voor de huidige kolom (met de focus in de koptekstrij)                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>Sneltoetsen voor invoerbesturing
 
-|                                                                              |                               |
+| Gewenste bewerking                                                                   | Druk op                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Gewenste bewerking**                                                               | **Druk op**                     |
 | De hyperlink openen                                                           | Ctrl+Enter                    |
 | De sessiedatum invoeren in een datumveld                                       | D+Tabtoets                         |
 | De huidige datum invoeren in een datumveld                                       | T+Tabblad                         |
@@ -171,17 +164,15 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 ## <a name="messaging-shortcuts"></a>Sneltoetsen voor berichten
 
-|                          |               |
+| Gewenste bewerking               | Druk op         |
 |--------------------------|---------------|
-| **Gewenste bewerking**           | **Druk op**     |
 | Naar Berichtcentrum gaan | Ctrl+Shift+F7 |
 | Naar berichtenbalk gaan    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Sneltoetsen voor navigatie
 
-|                                                                               |                            |
+| Gewenste bewerking                                                                    | Druk op                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Gewenste bewerking**                                                                | **Druk op**                  |
 | Naar het dashboard gaan                                                           | Alt+Shift+Home             |
 | Naar de navigatiebalk gaan                                                    | ALT+M, N of Alt+Shift+F1    |
 | Naar de bedrijfskiezer gaan                                                    | Ctrl+Shift+O               |
@@ -201,9 +192,8 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 ## <a name="personalization-shortcuts"></a>Sneltoetsen voor aanpassen
 
-|                                                                                                                        |                                     |
+| Gewenste bewerking                                                                                                             | Druk op                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Gewenste bewerking**                                                                                                         | **Druk op**                           |
 | De pagina overzetten naar de aanpassingsmodus                                                                          | Ctrl+Shift+P                        |
 | Het hulpmiddel Selecteren gebruiken (in de aanpassingsmodus)                                                                     | S                                   |
 | Het dialoogvenster voor snelle aanpassing van het geselecteerde besturingselement openen (als u het hulpmiddel Selecteren gebruikt)                              | Spatiebalk of Enter                      |
@@ -230,9 +220,8 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 
 ## <a name="segmented-entry-shortcuts"></a>Sneltoetsen voor gesegmenteerde invoer
 
-|                                                                                                                         |                                  |
+| Gewenste bewerking                                                                                                              | Druk op                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Gewenste bewerking**                                                                                                          | **Druk op**                        |
 | De vervolgkeuzelijst openen (wanneer de vervolgkeuzelijst is gesloten)                                                             | Alt+Pijl-omlaag                   |
 | De focus in het invoerveld voor het huidige segment in de vervolgkeuzelijst plaatsen (wanneer de vervolgkeuzelijst al open is) | Alt+Pijl-omlaag                   |
 | De vervolgkeuzelijst sluiten                                                                                                | Alt+Pijl-omhoog                     |
@@ -244,5 +233,4 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Een rij omhoog/omlaag verplaatsen in de zoekopdracht                                                                                        | Pijl-omlaag/Pijl-omhoog            |
 | Een pagina omhoog/omlaag verplaatsen in de zoekopdracht                                                                                       | Page Up/Page Down              |
 | Naar de bovenkant/onderkant van de zoekopdracht gaan                                                                                    | Home/End                       |
-
 

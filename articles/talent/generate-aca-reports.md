@@ -3,7 +3,7 @@ title: Rapporten voor de Wet Betaalbare zorg (ACA) maken
 description: Er is functionaliteit beschikbaar om werkgevers te helpen die de gegevens moeten bijhouden die wordt gemeld via de formulieren 1095-B en 1095-C, ter ondersteuning van het gedeelte Employer Mandate van de Affordable Care Act. Houd er rekening mee dat deze functionaliteit alleen beschikbaar is voor rechtspersonen in de Verenigde Staten.
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 12/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
+ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
+ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/17/2018
 
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Rapporten voor de Wet Betaalbare zorg (ACA) maken
@@ -54,7 +54,7 @@ Op de pagina **Datumbeheer dekking afhankelijke** kunt u opgeven op welke datums
 ## <a name="generate-1095b-and-1095c-forms"></a>De formulieren 1095-B en 1095-C genereren
 U kunt ook de formulier 1095-B en 1095-C genereren in het product en distribueren naar uw werknemers. U kunt ook vanuit het systeem het formulier 1095-C en de bijbehorende 1094-C-verzendbestanden elektronisch genereren, waarmee u het geheel naar de IRS kunt verzenden.  
 
-Wanneer u het formulier 1095-C genereert, voer dan eveneens het betreffende kalenderjaar of fiscale jaar in, net als wanneer u het formulier van twee of drie pagina's wilt printen. Het formulier met drie pagina's is alleen nodig als de werkgever interne verzekering aanbiedt en een werknemer meer dan zes gedekte afhankelijken heeft, met inbegrip van zichzelf. Bij het genereren van het formulier met twee pagina's detecteert het systeem automatisch of een werknemer meer dan 6 gedekte afhankelijken heeft en slaat die werknemer over tijdens het genereren van het formulier. Wanneer u het formulier van drie pagina's genereert, neemt het systeem ook alleen de werknemers op die meer dan zes gedekte afhankelijken hebben.
+Bij het genereren van het 1095-C-formulier geeft u het betreffende belastingjaar op en geeft u aan of bsn-nummers moeten worden gemaskeerd. Als u 1095-C-formulieren voor meer dan 500 werknemers afdrukt, ontvangt u meer dan één PDF-bestand. Het is raadzaam de waarde voor **Maximale bestandsgrootte** in het venster **Parameters voor documentbeheer** te verhogen naar 150 MB.
 
 ## <a name="viewing-information"></a>Informatie weergeven
 Op de pagina **Dekking betaalbare zorg werknemer** kunt u zien welke werknemers zijn toegewezen aan de verschillende dekkingsgroepen, welke werknemers niet hoeven te worden opgenomen in een rapport en welke werknemers niet zijn toegewezen.

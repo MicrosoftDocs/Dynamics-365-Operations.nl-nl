@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/08/2018
 [!include [banner](includes/banner.md)]
 
 *Kenmerken* bieden een manier om een product en de bijbehorende kenmerken te beschrijven via door de gebruiker gedefinieerde velden (zoals **Geheugengrootte**, **Capaciteit van vaste schijf**, **Is EnergyStar**, enzovoort). In Microsoft Dynamics 365 for Finance and Operations kunnen kenmerken met verschillende detailhandelsentiteiten zoals productcategorieën en detailhandelskanalen zijn gekoppeld, en de standaardwaarden kunnen daarvoor zijn ingesteld. De producten erven de kenmerken en standaardwaarden wanneer ze gekoppeld zijn met de productcategorieën of detailhandelskanalen. De standaardwaarden kunnen worden overschreven op het afzonderlijke productniveau, op het niveau van het detailhandelskanaal of in een detailshandelscatalogus.
- 
+
 Een normaal televisieproduct kan bijvoorbeeld de volgende kenmerken hebben.
 
 | Categorie   | Kenmerk                | Toegestane waarden          | Standaardwaarde |
@@ -50,7 +50,7 @@ Een normaal televisieproduct kan bijvoorbeeld de volgende kenmerken hebben.
 | Plasma     | Operationele Temperaturen van      | 32–110 graden              | 32            |
 |            | Operationele Temperaturen tot        | 32–110 graden              | 100           |
 | Projectie | De Garantie van de projectiebuis | 6, 12, of 18 maanden         | 12            |
-|            | # van Projectiebuizen    | 1–5                         | 3             |
+|            | \# van projectiebuizen   | 1–5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Kenmerken en kenmerktypen
 
@@ -90,7 +90,7 @@ Bij *Metagegevens van het kenmerk* kunt u opties selecteren om op te geven hoe d
 
 Voor de detailhandelproducten kunnen de instellingen van kenmerkmetagegevens worden overschreven op het niveau van het kanaal. Deze functionaliteit wordt verderop in dit onderwerp besproken.
 
-Zoals u merkt, bevat de pagina **Kenmerken** opties die betrekking hebben op metagegevens. Onder **Metagegevens van kenmerk voor POS** is een optie met de naam **'Kan worden verfijnd'** van invloed op de werking van de kenmerkwaarden in het verkooppunt (POS) of de manier waarop het systeem deze kenmerkwaarden verwerkt. Alleen kenmerken waarvoor u de optie **'Kan worden verfijnd'** instelt op **'Ja'**, worden weergegeven voor verfijnen of filteren van producten in de retail POS.
+Zoals u merkt, bevat de pagina **Kenmerken** opties die betrekking hebben op metagegevens. Onder **Metagegevens van kenmerk voor POS** is een optie met de naam **'Kan worden verfijnd'** van invloed op de werking van de kenmerkwaarden in het verkooppunt (POS) of de manier waarop het systeem deze kenmerkwaarden verwerkt. Alleen kenmerken waarvoor u de optie **Kan worden verfijnd** instelt op **Ja**, worden weergegeven voor verfijnen of filteren van producten in Retail POS.
 
 Dit zijn de overige opties voor kenmerkmetagegevens op de pagina **Kenmerken**:
 
@@ -104,7 +104,7 @@ Dit zijn de overige opties voor kenmerkmetagegevens op de pagina **Kenmerken**:
 
 Deze opties waren oorspronkelijk bedoeld voor het verbeteren van de zoekfunctie voor de online winkel. Hoewel Finance and Operations niet en kant-en-klare online winkel omvat, bevat het product wel de eCommerce Publishing Software Development Kit (SDK). Klanten kunnen met deze SDK producten in een zoekindex van hun keuze plaatsen. Hoewel de productgegevens zijn geïmporteerd, moeten klanten nog steeds onderscheid kunnen maken tussen doorzoekbare gegevens en gegevens die worden opgevraagd, enzovoort. In op die manier kunnen ze een optimale index maken en zorgen dat ze alleen kenmerken indexeren die, *naar hun mening*, moeten worden geïndexeerd.
 
-Zie voor informatie over het doel van deze overige opties [Overzicht van het zoekschema in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Zie voor informatie over het doel van deze overige opties [Overzicht van het zoekschema in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Filterinstellingen voor kenmerken
 
@@ -121,7 +121,7 @@ De pagina **Voorkeuren van filterweergave** bevat de volgende velden:
 - **Weergaveregeling** - De volgende opties zijn beschikbaar:
 
     - **Lijst** - Deze optie is beschikbaar voor alle kenmerktypen.
-    - **Bereik** - Deze optie is beschikbaar voor de volgende kenmerktypen: **Valuta**, **Decimaal** en **Geheel getal**. 
+    - **Bereik** - Deze optie is beschikbaar voor de volgende kenmerktypen: **Valuta**, **Decimaal** en **Geheel getal**.
     - **Schuifregelaar** - Deze optie is beschikbaar voor de volgende kenmerktypen: **Valuta**, **Decimaal** en **Geheel getal**.
     - **Schuifregelaar met staven** - Deze optie is beschikbaar voor de volgende kenmerktypen: **Valuta**, **Decimaal** en **Geheel getal**.
 
@@ -228,13 +228,13 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 5. Selecteer op het sneltabblad **Producten** het vereiste product en selecteer vervolgens **Kenmerken** boven het productraster.
 6. Werk de waarden van de vereiste kenmerken bij op de volgende sneltabbladen:
 
-   - Gedeelde productmedia
-   - Gedeelde productkenmerken
-   - Afzetkanaalmedia
-   - Afzetkanaalproductkenmerken
+    - Gedeelde productmedia
+    - Gedeelde productkenmerken
+    - Afzetkanaalmedia
+    - Afzetkanaalproductkenmerken
 
-     > [!NOTE]
-     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
+    > [!NOTE]
+    > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
 
 ![Kenmerkgroepen van catalogusproducten](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 
 5. Werk de waarden van de vereiste kenmerken bij op de volgende sneltabbladen:
 
-   - Gedeelde productmedia
-   - Gedeelde productkenmerken
-   - Afzetkanaalmedia
-   - Afzetkanaalproductkenmerken
+    - Gedeelde productmedia
+    - Gedeelde productkenmerken
+    - Afzetkanaalmedia
+    - Afzetkanaalproductkenmerken
 
-     > [!NOTE]
-     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
+    > [!NOTE]
+    > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt in Finance and Operations, zijn ze van toepassing op alle detailhandelproducten.
 

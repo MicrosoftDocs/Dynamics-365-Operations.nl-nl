@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 80fa443fc235496a111a8a866d2e703202721268
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,35 +33,41 @@ ms.lasthandoff: 08/08/2018
 
 In dit artikel worden de gegevens beschreven die zijn gemaakt als onderdeel van het initialisatieproces voor Microsoft Dynamics 365 for Retail.
 
-Nadat de detailhandelsoplossing via Microsoft Dynamics Lifecycle Services (LCS) is geïnstalleerd, moet u de detailhandelsconfiguratie initialiseren om de basisconfiguratiegegevens te maken. **Belangrijk:** Voordat u de detailhandelsconfiguratie initialiseert, moet u zorgen dat u een taal en een postadres hebt opgegeven voor elke rechtspersoon waar u detailhandelwinkels wilt instellen. Deze stap moet worden voltooid voor elke rechtspersoon die u voor kleinhandel gebruikt. Om de kleinhandelsconfiguratie te initialiseren, volgt u deze stappen.
+Nadat de detailhandelsoplossing via Microsoft Dynamics Lifecycle Services (LCS) is geïnstalleerd, moet u de detailhandelsconfiguratie initialiseren om de basisconfiguratiegegevens te maken.
 
-1.  Start de Dynamics 365 for Retail-client.
-2.  Klik op **Detailhandel** &gt; **Instelling van hoofdkantoor** &gt; **Parameters** &gt; **Detailhandelparameters**.
-3.  Klik op **Initialiseren**.
+> [!IMPORTANT]
+> Voordat u de detailhandelsconfiguratie initialiseert, moet u zorgen dat u een taal en een postadres hebt opgegeven voor elke rechtspersoon waar u detailhandelwinkels wilt instellen. Deze stap moet worden voltooid voor elke rechtspersoon die u voor kleinhandel gebruikt.
+
+Om de kleinhandelsconfiguratie te initialiseren, volgt u deze stappen.
+
+1. Start de Dynamics 365 for Retail-client.
+2. Klik op **Detailhandel** &gt; **Instelling van hoofdkantoor** &gt; **Parameters** &gt; **Detailhandelparameters**.
+3. Klik op **Initialiseren**.
 
 Initialisatie maakt de volgende standaardconfiguratiegegevens:
 
--   Detailhandelplanner taken en subtaken
--   Detailhandelafzetkanaalschema
--   Distributieplanningen voor detailhandel
--   Standaardschermindelingen, die knoppenrasters, afbeeldingen en thema's omvatten
--   Tijdzonegegevens
--   Werking verkooppunten (POS)
--   POS-machtigingen
--   Afzetkanaalrapporten
--   Kenmerkmetagegevens
--   Sjablonen voor entiteitvalidatie
--   Batchtaak om de sessiehistorie van Commerce Data Exchange op te schonen
+- Detailhandelplanner taken en subtaken
+- Detailhandelafzetkanaalschema
+- Distributieplanningen voor detailhandel
+- Standaardschermindelingen, die knoppenrasters, afbeeldingen en thema's omvatten
+- Tijdzonegegevens
+- Werking verkooppunten (POS)
+- POS-machtigingen
+- Afzetkanaalrapporten
+- Kenmerkmetagegevens
+- Sjablonen voor entiteitvalidatie
+- Batchtaak om de sessiehistorie van Commerce Data Exchange op te schonen
 
-Bovendien wordt registratie in verband met de betaalkaartindustrie (PCI) ingeschakeld voor de Dynamics 365 for Retail-database. **Opmerking:** Er is een optie om de detailhandelplanner afzonderlijk te configureren. Met deze optie kunt u de configuratie van de Detailhandel planner opnieuw instellen op de standaardwaarden. Nadat de initialisatie is voltooid, moet u aanvullende detailhandelsgegevens configureren. Hieronder vindt u enkele voorbeelden:
+Bovendien wordt registratie in verband met de betaalkaartindustrie (PCI) ingeschakeld voor de Dynamics 365 for Retail-database.
 
--   Detailhandelparameters
--   Parameters voor Detailhandel planner
--   Detailhandelafzetkanalen
--   Kassa's en apparaten
--   Assortimenten
+> [!NOTE]
+> Er is een optie om de detailhandelplanner afzonderlijk te configureren. Met deze optie kunt u de configuratie van de Detailhandel planner opnieuw instellen op de standaardwaarden.
 
+Nadat de initialisatie is voltooid, moet u aanvullende detailhandelsgegevens configureren. Hieronder vindt u enkele voorbeelden:
 
-
-
+- Detailhandelparameters
+- Parameters voor Detailhandel planner
+- Detailhandelafzetkanalen
+- Kassa's en apparaten
+- Assortimenten
 
