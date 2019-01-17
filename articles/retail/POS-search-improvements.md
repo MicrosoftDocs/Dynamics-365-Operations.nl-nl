@@ -66,7 +66,7 @@ Lokale productzoekopdrachten zijn nu gebruiksvriendelijker. De volgende verbeter
 - Detailhandelaren kunnen productzoekopdrachten nu zo configureren dat zoeksuggesties worden weergeven terwijl gebruikers productnamen typen. Er is een nieuwe instelling beschikbaar in het POS-functionaliteitsprofiel, in een nieuwe groep met de naam **Product zoeken**. De instelling heet **Suggesties weergeven tijdens het typen**. Met deze functionaliteit kunnen werknemers het product dat ze zoeken snel vinden omdat ze niet de hele naam handmatig hoeven in te voeren.
 - Met het algoritme voor het zoeken van producten wordt nu ook gezocht naar de gezochte termen in de eigenschap **Zoeknaam** van het product.
 
-![Productsuggesties](./media/Productsuggestions.png "Productsuggesties")
+    ![Productsuggesties](./media/Productsuggestions.png "Productsuggesties")
 
 ## <a name="customer-search"></a>Klant zoeken
 

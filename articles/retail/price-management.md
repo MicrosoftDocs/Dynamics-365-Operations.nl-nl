@@ -32,6 +32,7 @@ ms.lasthandoff: 08/08/2018
 Dit onderwerp bevat informatie over het proces voor het maken en beheren van verkoopprijzen in Microsoft Dynamics 365 for Retail. Het richt zich op de concepten die betrokken zijn bij dit proces, en op de effecten van de verschillende configuratieopties voor verkoopprijzen.
 
 ## <a name="terminology"></a>Terminologie
+
 De volgende termen worden gebruikt in dit onderwerp.
 
 | Voorwaarde | Definitie, gebruik en notities |
@@ -42,6 +43,7 @@ De volgende termen worden gebruikt in dit onderwerp.
 | Beste prijs | Wanneer meerdere prijzen of kortingen kunnen worden toegepast op een product, het kleinste prijsbedrag en/of het grootste kortingsbedrag wat leidt tot het laagst mogelijke nettobedrag dat de klant moet betalen. In dit onderwerp wordt het concept van de beste prijs altijd aangeduid als 'de beste prijs.' Deze beste prijs verschilt van en moet niet worden verward met de opsommingswaarde **Beste prijs** voor een gelijktijdigheidsmodus voor korting. |
 
 ## <a name="price-groups"></a>Prijsgroepen
+
 Prijsgroepen vormen de kern van het prijzen- en kortingenbeheer in Retail. Prijsgroepen worden gebruikt om prijzen en kortingen toe te wijzen aan detailhandelentiteiten (zoals kanalen, catalogi, aansluitingen en loyaliteitsprogramma's). Aangezien prijsgroepen worden gebruikt voor alle prijzen en kortingen, is het belangrijk dat u plant hoe u ze gebruikt voordat u begint.
 
 Een prijsgroep is in feite alleen een naam, een omschrijving en eventueel een prioriteit voor prijscalculatie. Het belangrijkste punt om te onthouden over prijsgroepen is dat ze worden gebruikt om de veel-op-veel-relaties van kortingen en prijzen met retailentiteiten te beheren.
@@ -57,17 +59,20 @@ Zoals de rode streepjeslijn in de afbeelding laat zien, ondersteunt Retail de ba
 De volgende secties bevatten meer informatie over de retailentiteiten die u kunt gebruiken om verschillende prijzen in te stellen wanneer prijsgroepen worden gebruikt. De configuratie van prijzen en kortingen voor alle entiteiten is een tweeledig proces. Deze stappen kunnen in een willekeurige volgorde worden uitgevoerd. De logische volgorde is echter om de prijsgroepen eerst in te stellen voor de entiteiten, omdat deze stap waarschijnlijk een eenmalige instelling is die wordt uitgevoerd tijdens de implementatie. Vervolgens kunt u, als prijzen en kortingen zijn gemaakt, de prijsgroepen afzonderlijk instellen voor deze prijzen en kortingen.
 
 ### <a name="channels"></a>Afzetkanalen
+
 In de detailhandel is het heel gebruikelijk om verschillende prijzen te hanteren voor verschillende kanalen. De twee primaire factoren die invloed hebben op specifieke kanaalprijzen zijn kosten en voorwaarden van de lokale markt.
 
 - **Kosten** : hoe verder een kanaal van de productbron verwijderd is, hoe meer het kost om een product op te slaan. Verse producten hebben bijvoorbeeld een beperkte houdbaarheid en specifieke productievereisten (bijvoorbeeld een groeiseizoen). In de winter kosten kost sla waarschijnlijk meer in noordelijke klimaten dan in zuidelijke klimaten. Als u de prijzen voor kanalen over een groot geografisch gebied instelt, wilt u waarschijnlijk verschillende prijzen instellen in verschillende kanalen.
 - **Lokale marktvoorwaarden**: een winkel die een directe concurrent in de straat heeft, werkt veel prijsgevoeliger dan een winkel die geen directe concurrent in de buurt heeft.
- 
+
 ### <a name="affiliations"></a>Aansluitingen
+
 De algemene definitie van een aansluiting is een koppeling naar of de koppeling met een groep. In Retail zijn aansluitingen groepen met klanten. Aansluitingen zijn een flexibelere manier voor klantprijzen en kortingen dan het basisconcept van Microsoft Dynamics 365 voor klantgroepen en kortingsgroepen. In de eerste plaats kan een aansluiting worden gebruikt voor prijzen en kortingen, terwijl bij niet-detailhandelsprijzen voor elk type prijs en korting een andere groep bestaat. Vervolgens kan een klant deel uitmaken van meerdere aansluitingen maar van slechts één niet-detailhandelsprijsgroep van elk type. Ten slotte kunnen aansluitingen zo worden ingesteld dat ze aan een klant zijn gekoppeld, maar dat hoeft niet. Een ad-hoc-aansluiting kan worden gebruikt voor anonieme klanten op het POS. Een typisch voorbeeld van een anonieme aansluitingskorting is een korting voor senioren of studenten waar een klant een korting kan ontvangen door een lidmaatschapskaart te tonen.
 
 Hoewel aansluitingen meestal zijn gekoppeld aan kortingen, kunt u ze ook gebruiken om gedifferentieerde prijzen in te stellen. Wanneer een detailhandelaar bijvoorbeeld aan een werknemer verkoopt, kan de verkoopprijs worden aangepast in plaats van het toepassen van een korting boven op de normale prijs. Ook kan een detailhandelaar die aan particuliere en zakelijke klanten verkoopt, zakelijke klanten betere prijzen bieden, op basis van hun inkoopvolume. Aansluitingen maken beide scenario's mogelijk.
 
 ### <a name="loyalty-programs"></a>Loyaliteitsprogramma's
+
 Loyaliteitsprogramma's voor prijzen en kortingen zijn in feite een aansluiting met een speciale naam. Prijzen en kortingen kunnen worden ingesteld voor een loyaliteitsprogramma, net zoals ze kunnen worden ingesteld voor een aansluiting. De manier waarop klanten loyaliteitsprijzen krijgen tijdens een transactie of order, verschilt echter van de manier waarop deze prijscalculatie voor aansluitingen plaatsvindt. Klanten kunnen alleen loyaliteitsprijzen als een loyaliteitskaart wordt toegevoegd aan de transactie. Wanneer een loyaliteitskaart die is toegevoegd aan een transactie, wordt ook het loyaliteitsprogramma toegevoegd. Met het loyaliteitsprogramma worden speciale prijzen en kortingen mogelijk gemaakt.
 
 Loyaliteitsprogramma's kunnen verschillende lagen hebben en de kortingen voor verschillende lagen kunnen verschillen. Op deze manier kunnen detailhandelaren terugkerende klanten grotere beloningen geven zonder dat deze klanten handmatig in een speciale groep worden geplaatst.
@@ -75,14 +80,17 @@ Loyaliteitsprogramma's kunnen verschillende lagen hebben en de kortingen voor ve
 Loyaliteitsprogramma's hebben extra functies naast prijzen en kortingen. Vanuit het perspectief van prijzen en kortingen zijn ze echter hetzelfde als aansluitingen.
 
 ### <a name="catalogs"></a>Catalogi
+
 Sommige detailhandelaren gebruiken fysieke of virtuele catalogi om producten te verkopen en prijzen vast te stellen voor specifieke groepen klanten. Als onderdeel van hun bedrijfsmodel met gerichte marketing via een catalogus, kunnen deze detailhandelaren gedifferentieerde prijzen instellen voor verschillende catalogi. Microsoft Dynamics 365 ondersteunt deze functionaliteit met het definiëren van catalogusspecifieke kortingen en prijzen, net zoals u kortingen kunt definiëren voor kanalen of aansluitingen. Wanneer u een catalogus bewerkt, kunt u prijsgroepen koppelen aan de catalogus, net zoals u ze aan een kanaal, aansluiting of loyaliteitsprogramma kunt koppelen.
 
 ### <a name="best-practices-for-price-groups"></a>Aanbevolen procedures voor prijsgroepen
+
 Gebruik geen een prijsgroep voor meerdere retailentiteitstypen. Gebruik in plaats daarvan één set met prijsgroepen voor kanalen, een andere set met prijsgroepen voor aansluitingen of loyaliteitsprogramma's, enzovoort. U kunt een voorvoegsel of achtervoegsel toevoegen aan de naam van de prijsgroep om de verschillende typen prijsgroepen visueel te groeperen.
 
 Stel prijsgroepen niet rechtstreeks in op een klant. Gebruik in plaats daarvan een aansluiting. Op deze manier kunt u alle soorten prijzen en kortingen toewijzen aan klanten, niet alleen handelsovereenkomsten voor verkoopprijzen.
 
 ## <a name="pricing-priority"></a>Prioriteit prijscalculatie
+
 Een prioriteit voor een prijscalculatie is in feite alleen een nummer en een omschrijving. Prioriteiten voor prijscalculaties kunnen worden toegepast op de prijsgroepen of rechtstreeks op kortingen. Wanneer prioriteiten voor prijscalculaties worden gebruikt, kan een detailhandelaar het principe van de beste prijs overschrijven door de volgorde te bepalen waarin prijzen en kortingen worden toegepast op producten. Een hoger prioriteitsnummer wordt geëvalueerd voor lager prioriteitsnummer. Ook als een prijs of korting op een willekeurig prioriteitsnummer wordt gevonden, worden alle prijzen of kortingen met een lager prioriteitsnummer genegeerd.
 
 De prijs en korting kunnen afkomstig zijn uit twee verschillende prijsprioriteiten, omdat de prijsprioriteiten los van elkaar van toepassing zijn op prijzen en kortingen.
@@ -96,6 +104,7 @@ Zoals is aangegeven in de sectie 'Beste prijs' van dit onderwerp, selecteert de 
 Met de e functie prioriteit prijscalculatie kan de detailhandelaar echter een prijsprioriteit instellen voor winkelprijzen die hoger zijn dan de prijsprioriteit voor regionale prijzen. De detailhandelaar kan ook alleen een prioriteit prijscalculatie opstellen voor winkelprijzen en regionale prijzen op de standaard prijsprioriteit van 0 (nul) laten staan. Beide instellingen zorgen dat altijd winkelprijzen worden gebruikt vóór regionale prijzen.
 
 ### <a name="pricing-priority-example"></a>Voorbeeld prioriteit prijscalculatie
+
 Laten we kijken naar een voorbeeld waarin winkelprijzen andere prijzen overschrijven.
 
 Een nationale detailhandelaar stelt de meeste prijzen in per regio en werkt met vier gebieden: Noordoost, Zuidoost, Midden-west en West. Er zijn verschillende markten met hoge kosten aangegeven die in aanmerking komen voor hogere prijzen. Deze markten zijn in New York City, Chicago en het gebied van San Francisco Bay.
@@ -117,6 +126,7 @@ Het T-shirt wordt verkocht voor dezelfde prijs (dat wil zeggen $ 15) in de winke
 > Voor elke prioriteit prijscalculatie moet de logica van de engine voor detailhandelsprijzen volledig worden verwerkt. Om te garanderen dat de prijzen en kortingen correct worden berekend, moet u prijsprioriteiten spaarzaam toepassen.
 
 ## <a name="types-of-prices"></a>Typen prijzen
+
 In Microsoft Dynamics 365 kunt u de prijs van een product op drie plaatsen instellen:
 
 - Rechtstreeks op het product (basisprijs)
@@ -126,7 +136,9 @@ In Microsoft Dynamics 365 kunt u de prijs van een product op drie plaatsen inste
 De basisprijs en de handelsovereenkomstprijs maken deel uit van de kernfuncties van Microsoft Dynamics 365 en zijn beschikbaar zelfs als u Retail niet gebruikt. De functionaliteit voor prijscorrectie is alleen beschikbaar in Retail. In de volgende sectie vindt u meer informatie over de opties voor het instellen van prijzen en wordt uitgelegd hoe de opties samenwerken.
 
 ## <a name="setting-prices"></a>Prijzen instellen
+
 ### <a name="base-price"></a>Basisprijs
+
 De gemakkelijkste plaats om de prijs voor een product in te stellen is rechtstreeks op het product. De waarde die u rechtstreeks op een product instelt, wordt vaak de basisprijs voor het product genoemd. U stelt de basisprijs in in het veld **Prijs** van het tabblad **Verkopen** van de pagina **Vrijgegeven productdetails**. De ingevoerde waarde gebruikt de de valuta van het bedrijf. De prijs voor een hoeveelheid van 1 is standaard de maateenheid die is ingesteld in het veld **Eenheid** op het tabblad **Verkopen**. De werkelijke prijs per eenheid van een product is gebaseerd op de maateenheid, de prijshoeveelheid en de valuta.
 
 Als een product één prijs heeft voor iedereen, is de basisprijs de meest efficiënte manier om de prijs van dat product te beheren. Zelfs als u handelsovereenkomstprijzen toepast, kunt u ook de basisprijs op een product instellen. Als u vervolgens niet een handelsovereenkomst van het type**Alle** gebruikt, hebt u een terugvalprijs die wordt gebruikt wanneer er geen handelsovereenkomst van toepassing is.
@@ -136,9 +148,10 @@ Als een detailhandelkanaalsvaluta afwijkt van de bedrijfsvaluta, wordt de basisp
 Hoewel de prijs per eenheid geen gebruikelijk detailhandelscenario is, wordt dit ondersteund door de engine voor detailhandelsprijzen. Als de prijs per eenheid is ingesteld op een andere waarde dan **0** (nul), is de prijs per eenheid gelijk aan prijs ÷ prijs per eenheid. Als de prijs van een product bijvoorbeeld $10,00 is en de prijs per eenheid 50, is de prijs voor een hoeveelheid van 1 $0,20 (= $10,00 ÷ 50).
 
 ### <a name="sales-price-trade-agreement"></a>Handelsovereenkomst met verkoopprijs
+
 U kunt met behulp van het handelsovereenkomstjournaal een verkoopprijshandelsovereenkomst voor elk product maken. In Microsoft Dynamics 365 zijn er drie klantbereiken voor verkoopprijshandelsovereenkomsten: **tabel**, **groep** en **alle**. Het bereik van de klant bepaalt de klanten waarvoor de handelsovereenkomst voor een bepaalde verkoopprijs geldt.
 
-Een verkoopprijshandelsovereenkomst van het type **tabel** geldt voor één klant die rechtstreeks in de handelsovereenkomst is ingesteld. Dit scenario is geen normaal detailhandelscenario voor business-to-consumer (B2C). Als dit echter plaatsvindt, gebruikt de prijsbepalingsengine handelsovereenkomsten van het type **tabel** voor het bepalen van de prijs. 
+Een verkoopprijshandelsovereenkomst van het type **tabel** geldt voor één klant die rechtstreeks in de handelsovereenkomst is ingesteld. Dit scenario is geen normaal detailhandelscenario voor business-to-consumer (B2C). Als dit echter plaatsvindt, gebruikt de prijsbepalingsengine handelsovereenkomsten van het type **tabel** voor het bepalen van de prijs.
 
 Een verkoopprijshandelsovereenkomst van het type **groep** wordt meestal gebruikt met de detailhandelsfunctionaliteit. Buiten Retail zijn verkoopprijshandelsovereenkomsten van het type **groep** van toepassing voor een eenvoudige klantengroep. In Retail is het concept van een klantgroep echter uitgebreid zodat deze een meer algemene detailhandelprijsgroep is. Een prijsgroep kan worden gekoppeld aan een detailhandelkanaal, aansluiting, loyaliteitsprogramma of catalogus. Zie de sectie 'Prijsgroepen' eerder in dit onderwerp voor gedetailleerde informatie over prijsgroepen.
 
@@ -146,7 +159,8 @@ Een verkoopprijshandelsovereenkomst van het type **groep** wordt meestal gebruik
 > Een prijs uit een handelsovereenkomst heeft altijd voorrang op de de basisprijs.
 
 ### <a name="price-adjustment"></a>Prijscorrectie
-Zoals de naam al aangeeft, wordt een prijscorrectie gebruikt voor het wijzigen van de prijs die rechtstreeks op het product of met een handelsovereenkomst is ingesteld. Een prijscorrectie kan alleen worden gebruikt voor het verlagen van de prijs, niet voor het verhogen. Een prijscorrectie is de aanbevolen manier voor detailhandelaren voor het maken, bijhouden en beheren van prijsverlagingen voor hun producten. 
+
+Zoals de naam al aangeeft, wordt een prijscorrectie gebruikt voor het wijzigen van de prijs die rechtstreeks op het product of met een handelsovereenkomst is ingesteld. Een prijscorrectie kan alleen worden gebruikt voor het verlagen van de prijs, niet voor het verhogen. Een prijscorrectie is de aanbevolen manier voor detailhandelaren voor het maken, bijhouden en beheren van prijsverlagingen voor hun producten.
 
 Er zijn drie typen prijscorrecties: percentage, korting en prijs. Een prijscorrectie van het type percentage of kortingsbedrag wordt altijd toegepast op een verkooptransactie. Een prijscorrectie van het prijstype is echter alleen van toepassing als de gecorrigeerde prijs lager dan de prijs die is ingesteld met behulp van de basisprijs of de handelsovereenkomstprijs. Als dus de prijs die is ingesteld in een prijscorrectie hoger is dan de niet-gecorrigeerde prijs, wordt de prijscorrectie niet gebruikt.
 
@@ -158,13 +172,14 @@ De enige uitzondering op het principe van het zoeken naar de beste prijs voor de
 
 De prijsbepalingsengine retourneert drie prijzen voor elk product: de basisprijs, de prijs van de handelsovereenkomst en de actieve prijs.
 
-De basisprijs is alleen de eigenschap van het product en is hetzelfde voor iedereen. 
+De basisprijs is alleen de eigenschap van het product en is hetzelfde voor iedereen.
 
 Voor de verkoopprijs uit de handelsovereenkomst wordt, als de optie **Volgende zoeken** is ingesteld op **Ja**, de laagste prijs die wordt gevonden voor de toepasselijke verkoopprijshandelsovereenkomsten gebruikt als de prijs van de handelsovereenkomst. U vindt handelsovereenkomsten met behulp van prijsgroepen of de rekeningcode **Alle**. Handelsovereenkomsten kunnen ook rechtstreeks aan een klant worden toegewezen. Als de optie **Volgende zoeken** is ingesteld op **Nee**, wordt de eerste handelsovereenkomstprijs gebruikt die is gevonden. Als er geen verkoopprijshandelsovereenkomsten worden gevonden, wordt de prijs van de handelsovereenkomst gelijk gesteld aan de basisprijs.
 
 De actieve prijs wordt berekend door de prijs van de handelsovereenkomst te nemen en de grootste prijscorrectie toe te passen die voor het product geldt. Als er geen prijscorrecties worden gevonden of als de berekende actieve prijs groter is dan de prijs van de handelsovereenkomst, wordt de actieve prijs gelijk gesteld aan de prijs van de handelsovereenkomst. Vergeet niet dat u de prijs van een product niet kunt verhogen met een prijscorrectie. De toepasselijke prijscorrecties vindt u alleen met behulp van prijsgroepen die zijn toegewezen aan een kanaal, catalogus, aansluiting of loyaliteitsprogramma.
 
 ## <a name="category-price-rules"></a>Prijsregels van categorie
+
 De categorieprijsregels in Retail bieden u een eenvoudige manier om nieuwe handelsovereenkomsten voor alle producten in een categorie maken. Met deze functie kunt u ook automatisch bestaande handelsovereenkomsten voor de producten in de categorie zoeken en ze laten verlopen.
 
 Wanneer u de optie selecteert om bestaande handelsovereenkomsten te laten verlopen, maakt het systeem een nieuwe handelsovereenkomstjournaal voor de producten in de categorie die een actieve handelsovereenkomst hebben. Hhet journaal moet echter handmatig worden geboekt. Bovendien kunnen de categorieprijsregels alleen bestaande handelsovereenkomsten vinden als u dezelfde prijsregel gebruikt (dat wil zeggen als u een nieuwe prijsregel maakt die gebruikmaakt van dezelfde categorie als voorheen). Als u niet dezelfde prijsregel gebruikt, zullen de bestaande handelsovereenkomsten niet verlopen.
@@ -186,6 +201,7 @@ De prijzen kunnen worden verhoogd of verlaagd met de velden **Prijsregel** en **
 Als u de prijzen van verschillende producten uit de verschillende productcategorieën eenvoudig wilt bijwerken, kunt u de aanvullende productcategorieën samen met de categorieprijsregels gebruiken.
 
 ## <a name="best-practices"></a>Aanbevolen procedures
+
 Microsoft SQL Server Express wordt vaak gebruikt voor kanaaldatabases vanwege de kosten (gratis). Houd er rekening mee dat SQL Server Express hardwarebeperkingen en limieten heeft voor gegevensgrootte. Als u niet goed plant, kunt u snel de grenzen van de gegevensgrootte van SQL Server Express bereiken. Deze overweging geldt niet alleen voor prijzen, maar ook voor andere gebieden van het product. Hier volgen enkele aanbevelingen waarmee u de grootte van uw gegevens kunt verminderen:
 
 - Als u handelsovereenkomsten gebruikt en uw prijzen veranderen, moet u de oude handelsovereenkomsten laten verlopen door een einddatum in te stellen. Na verloop van tijd daalt door deze benadering het aantal handelsovereenkomsten dat is opgeslagen in de kanaaldatabases. Ook vermindert de hoeveelheid gegevens waarmee het prijsberekeningsalgoritme moet werken.
@@ -195,12 +211,14 @@ Microsoft SQL Server Express wordt vaak gebruikt voor kanaaldatabases vanwege de
     Als niet alle waarden van een dimensie resulteren in een andere prijs, kunt u ook één handelsovereenkomst definiëren voor het productmodel en alle productdimensies leeg laten. Definieer vervolgens een aparte handelsovereenkomst voor elke dimensiewaarde die een andere prijs genereert. Bijvoorbeeld als de grootte XXL een hogere prijs heeft, maar alle andere afmetingen dezelfde prijs hebben, hoeft u slechts twee handelsovereenkomsten te maken: één voor het productmodel en één voor de grootte XXL.
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Prijzen inclusief btw versus prijzen exclusief btw
+
 Wanneer u verkoopprijzen in Microsoft Dynamics 365 instelt, geeft u niet aan of de waarde van de ingestelde prijs inclusief of exclusief btw is. De waarde is alleen de prijs. Met de instelling **Prijs inclusief btw** voor detailhandelkanalen kunt u echter detailhandelkanalen zo configureren dat de prijzen al dan niet inclusief btw zijn. Deze instelling is ingesteld voor het kanaal en kan zelfs in één bedrijf wijzigen.
 
 Als u werkt met inclusief en exclusief btw, is het belangrijk dat u prijzen correct hebt ingesteld, omdat het totale bedrag dat de klant betaalt, niet verandert als de instelling **Prijs inclusief btw** in het kanaal wordt gewijzigd.
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Verschillen tussen adviesprijs en niet-adviesprijs
-Er wordt één prijscalculatie-engine gebruikt voor het berekenen van de detailhandelsprijzen voor alle kanalen: callcenters, winkels en online winkels. Dit is handig voor het inschakelen van de gecombineerde handelsscenario's. 
+
+Er wordt één prijscalculatie-engine gebruikt voor het berekenen van de detailhandelsprijzen voor alle kanalen: callcenters, winkels en online winkels. Dit is handig voor het inschakelen van de gecombineerde handelsscenario's.
 
 Adviesprijs is ontworpen om te gebruiken met detailhandelsentiteiten in plaats van niet-detailhandelsentiteiten. Het is vooral ontworpen om prijzen in te stellen per winkel, niet per magazijn.
 

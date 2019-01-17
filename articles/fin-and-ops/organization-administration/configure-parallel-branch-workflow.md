@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: a0359f8312e5e3fe1349dbc89831c98c46cd61ff
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 73626ad21dfe2be7400f321a3eee272c896276f3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,24 +34,22 @@ Voer de volgende procedures uit in de workfloweditor om een parallelle vertakkin
 Een parallelle vertakking is in wezen een workflow die in de context van een bovenliggende workflow wordt uitgevoerd.
 
 ## <a name="name-a-branch"></a>Een naam opgeven voor een vertakking
+
 Voer deze stappen uit om een naam op te geven voor een parallelle vertakking.
-1.  Klik met de rechtermuisknop op de parallelle vertakking en klik vervolgens op **Eigenschappen**. Het formulier **Eigenschappen** wordt weergegeven.
-2.  Klik in het linkerdeelvenster op **Basisinstellingen**.
-3.  Voer in het veld **Naam** een unieke naam voor de parallelle vertakking in.
-4.  Klik op **Sluiten**.
+
+1. Klik met de rechtermuisknop op de parallelle vertakking en klik vervolgens op **Eigenschappen**. Het formulier **Eigenschappen** wordt weergegeven.
+2. Klik in het linkerdeelvenster op **Basisinstellingen**.
+3. Voer in het veld **Naam** een unieke naam voor de parallelle vertakking in.
+4. Klik op **Sluiten**.
 
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>De elementen van een vertakking ontwerpen en configureren
+
 Voer deze stappen uit om de elementen van een parallelle vertakking te ontwerpen en te configureren.
-1.  Dubbelklik op de parallelle vertakking.
-2.  Sleep workflowelementen op het tekenpapier en configureer de elementen, net als bij het maken van een andere workflow. Zie Een workflow maken voor meer informatie.
 
+1. Dubbelklik op de parallelle vertakking.
+2. Sleep workflowelementen op het tekenpapier en configureer de elementen, net als bij het maken van een andere workflow. Zie [Een workflow maken](create-workflow.md) voor meer informatie.
 
-
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Een workflow maken](create-workflow.md)
-
-
-
 

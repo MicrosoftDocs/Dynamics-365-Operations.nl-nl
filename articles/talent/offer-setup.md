@@ -3,7 +3,7 @@ title: Aanbiedingsbeheer instellen
 description: In dit onderwerp wordt beschreven hoe u aanbiedingen instelt in Talent.
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Aanbiedingsbeheer instellen 
@@ -105,7 +105,7 @@ Ga als volgt te werk om het bestand met gegevensregels te uploaden.
 
 1.  U kunt een bestaande regelsetupload verwijderen als de tijdelijke aanduiding die wordt gedefinieerd, niet wordt gebruikt in een andere documentsjabloon.
 
->[!NOTES]
+>[!NOTE]
 > - Elke tijdelijke aanduiding kan slechts één unieke set kolommen hebben waarvan deze afhankelijk is. Bijvoorbeeld als **Jaarsalaris** afhankelijk is van **Functielocatie** en **Niveau**, kunt u geen andere regelset uploaden waarin **Jaarsalaris** afhankelijk is van een andere set kolommen.
 
 > - U kunt gegevenssets met voorbeeldaanbiedingsgegevens downloaden op het tabblad **Voorbeelden** op de pagina **Regels aanbiedingsgegevens**.
@@ -136,7 +136,7 @@ Ga als volgt te werk voor het maken van een aanbiedingsdocumentsjabloon.
 
     - De tijdelijke aanduiding voor aanbiedingsgegevens op de positie hashtaggen. Typ **\#** en begin de naam van de tijdelijke aanduiding voor aanbiedingsgegevens te typen. Opties worden weergegeven in de vervolgkeuzelijst. Klik of druk op **Enter** om de tijdelijke aanduiding voor aanbiedingsgegevens in te voegen.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Als u een tijdelijke aanduiding voor aanbiedingsgegevens aan de documentsjabloon wilt koppelen zonder de waarde ervan aan de kandidaat te tonen, plaatst u de muisaanwijzer op de tijdelijke aanduiding voor aanbiedingsgegevens en klikt u op het pictogram **Vastmaken**. Hiermee wordt de tijdelijke aanduiding vastgemaakt aan de sectie **Vastgemaakte aanbiedingsgegevens** van de aanbiedingsdocumentsjabloon. Als u de tijdelijke aanduiding wilt losmaken, volgt u dezelfde stappen maar klikt u op **Losmaken** in de lijst met tijdelijke aanduidingen voor aanbiedingsgegevens.
 
     > - Als u de lijst met actieve tijdelijke aanduidingen voor aanbiedingsgegevens wilt weergeven, schakelt u over op het tabblad **Actief** in het rechterdeelvenster.
@@ -175,7 +175,7 @@ Aanbiedingspakketten zijn de aanbiedingsartefacten die worden gedeeld met de kan
 
 1.  Klik op **Sjabloon toevoegen**.
 
-    >[!NOTES]
+    >[!NOTE]
     > - U kunt een nieuwe sjabloon te maken of een bestaande kiezen.
 
     > - Als u een bestaande sjabloon toevoegt, moet u zorgen dat de aanbiedingsdocumentsjabloon is opgeslagen, is voltooid, en als actief is gemarkeerd.
@@ -198,8 +198,10 @@ Er zijn verschillende onderdelen van het proces voor het maken van een aanbiedin
 
 - **Aanbieding van kandidaat**: als beheerder kunt u kiezen of alle aanbiedingen een verloopdatum hebben en zo ja, wat de standaard voor de vervaldatum moet zijn. U kunt ook configureren of kandidaten een aanbieding kunnen afwijzen.
 
-- **E-handtekeningen**: momenteel is de enige optie voor elektronische handtekeningen die beschikbaar is voor kandidaten, hun naam te typen in het aanbiedingspakket terwijl ze de aanbieding accepteren. We introduceren partnerintegraties met andere aanbieders van elektronische handtekeningen in de toekomst.
+- **Elektronische handtekeningen**: als beheerder kunt u de methode kiezen waarmee kandidaten aanbiedingen kunnen ondertekenen.
+    - Adobe Sign: alle aanbiedingspakketten worden verzonden en ondertekend via Adobe Sign. Alle makers van aanbiedingen die de aanbieding willen publiceren, moet beschikken over hun eigen Adobe Sign-licentie die is verbonden met Attract. 
 
+    - ESign: dit is de standaardoptie, die kant en klaar wordt geleverd, waarmee de gebruiker een aanbod kan ondertekenen door zijn/haar naam en initialen te typen.
 
 Als u meer wilt weten over het maken van aanbiedingen, raadpleegt u [Aanbiedingen maken, goedkeuren en ondertekenen](./creating-offers.md).
 

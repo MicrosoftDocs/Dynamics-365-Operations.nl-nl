@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,10 +31,12 @@ ms.lasthandoff: 08/08/2018
 
 In dit onderwerp worden de nieuwe of bijgewerkte taakbegeleidingen vermeld die zijn uitgebracht voor de Microsoft APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX. Er is geen nieuwe bibliotheek Aan de slag uitgebracht. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX
-------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de APQC Unified Library (mei 2016, alle talen) voor Microsoft Dynamics AX
 
-De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij de update voor mei 2016 van Microsoft Dynamics AX en de release van Microsoft Dynamics AX voor februari 2016. Gelokaliseerde versies van de taakbegeleidingen die zijn uitgebracht in de APQC Unified Library (februari 2016) zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md). <strong>Opmerking:</strong> een sterretje (<strong>\</strong>*) naast de titel van een BPM-regel (Business Process Modeler) geeft aan dat de taakbegeleiding voor dat bedrijfsproces is gemaakt voor de update van Microsoft Dynamics AX van mei 2016 en niet wordt ondersteund in eerdere versies van Microsoft Dynamics AX.
+De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld voor gebruik als Help bij de update voor mei 2016 van Microsoft Dynamics AX en de release van Microsoft Dynamics AX voor februari 2016. Gelokaliseerde versies van de taakbegeleidingen die zijn uitgebracht in de APQC Unified Library (februari 2016) zijn beschikbaar in deze bibliotheek. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
+
+> [!NOTE]
+> Een sterretje (\*) naast de titel van een BPM-regel (Business Process Modeler) geeft aan dat de taakbegeleiding voor dat bedrijfsproces is gemaakt voor de update van Microsoft Dynamics AX van mei 2016 en niet wordt ondersteund in eerdere versies van Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Land-/regio-functionaliteit
 
@@ -62,15 +64,15 @@ De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld v
 
 ### <a name="electronic-reporting"></a>Elektronische rapportage
 
-|                                  BPM-regel                                  | Land/regio |
+| BPM-regel                                                                   | Land/regio |
 |----------------------------------------------------------------------------|----------------|
-|                         ER-bestemmingen configureren                          |     Algemeen     |
-|     Een ER-configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling     |     Algemeen     |
-| Elektronische ER-documenten genereren voor betalingen met een indelingsconfiguratie |     Globaal     |
-|             Een ER-configuratie vanuit Lifecycle Services importeren              |     Globaal     |
-|               <strong>\</strong>*ER Selecteer serviceprovider                |     Globaal     |
-|   Uw ER-indeling upgraden door een nieuwe basisversie van die indeling aan te nemen    |     Algemeen     |
-|             Een ER-configuratie naar Lifecycle Services uploaden              |     Algemeen     |
+| ER-bestemmingen configureren                                                  | Algemeen         |
+| Een ER-configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling         | Algemeen         |
+| Elektronische ER-documenten genereren voor betalingen met een indelingsconfiguratie | Globaal         |
+| Een ER-configuratie vanuit Lifecycle Services importeren                          | Globaal         |
+| \*ER Selecteer serviceprovider                                               | Globaal         |
+| Uw ER-indeling upgraden door een nieuwe basisversie van die indeling aan te nemen      | Algemeen         |
+| Een ER-configuratie naar Lifecycle Services uploaden                          | Algemeen         |
 
 ### <a name="human-capital-management"></a>Human Capital-beheer
 
@@ -176,25 +178,21 @@ De APQC Unified Library (mei 2016) bevat de taakbegeleidingen die zijn bedoeld v
 
 ### <a name="warehouse-and-transportation"></a>Magazijn en transport
 
-|                                     BPM-regel                                     | Land/regio |
-|----------------------------------------------------------------------------------|----------------|
-|                            Waveverwerking configureren                             |     Globaal     |
-| <strong>\</strong>*Gereedmelden bij een locatie waar nummerplaten niet worden gecontroleerd |     Algemeen     |
-|                      Een min./max. aanvullingsproces instellen                      |     Algemeen     |
-|                             Containervorming instellen                              |     Algemeen     |
-|                              Handmatige verpakking instellen                               |     Globaal     |
-|                  Transportbeperkingen voor een artikel instellen                   |     Globaal     |
-|                <strong>\</strong>*Werkbeleid voor een magazijn instellen                 |     Globaal     |
+|                                     BPM-regel                    | Land/regio |
+|-----------------------------------------------------------------|----------------|
+| Waveverwerking configureren                                       | Globaal         |
+| \*Gereedmelden bij een locatie waar nummerplaten niet worden gecontroleerd | Algemeen         |
+| Een min./max. aanvullingsproces instellen                          | Algemeen         |
+| Containervorming instellen                                         | Algemeen         |
+| Handmatige verpakking instellen                                           | Globaal         |
+| Transportbeperkingen voor een artikel instellen                   | Globaal         |
+| \*Werkbeleid voor een magazijn instellen                                 | Globaal         |
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)
 
 [Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Nieuwe of bijgewerkte taakbegeleidingen (november 2016)](new-task-guides-november-2016.md)
-
-
-
 

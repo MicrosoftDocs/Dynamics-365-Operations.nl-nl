@@ -3,7 +3,7 @@ title: Activiteiten in de processen
 description: Dit onderwerp biedt informatie over de verschillende soorten activiteiten die kunnen worden gebruikt in het aanstellingsproces.
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ De interviewactiviteit is optioneel. Deze activiteit bestaat uit drie onderdelen
 - Als u e-mail aan kandidaten wilt verzenden om te informeren naar hun beschikbaarheid, stelt u de optie **Beschikbaarheid van kandidaat aanvragen** in op **Aan**. Als u de optie instelt op **Uit**, wordt deze stap niet weergegeven in het aanstellingsproces voor de functie.
 - Als u een live-stream of een telefonische vergadering wilt houden met Skype voor Bedrijven, stelt u het veld **Online vergadering** in op **Skype voor Bedrijven**. De juiste **Deelnemen aan Skype-vergadering**-koppeling wordt dan toegevoegd aan het interviewvergaderverzoek.
 - Als u e-mail aan kandidaten wilt verzenden om de planning te voltooien, stelt u de optie **Mail aan kandidaat verzenden** in op **Aan**. Als u de optie instelt op **Uit**, ontvangen kandidaten de planning van het sollicitatiegesprek alleen wanneer ze zich aanmelden bij de kandidaatportal.
+
+>[!NOTE]
+> - Voor alle 1-op-1-gesprekken worden elke 24 uur herinneringen verzonden naar de interviewers als de interviewer niet geeft gereageerd op het interviewverzoek (geaccepteerd of geweigerd).
+> - Voor alle panelgesprekken worden er geen geautomatiseerde herinneringen verzonden om te reageren op interviewverzoeken. Als u handmatig een herinnering wilt activeren, bewerkt u het gesprek en gebruikt u de optie **Bijwerken en verzenden** om het verzoek terug te sturen naar de interviewers.
 
 Met de component Feedback kunnen mensen aanbevelingen voor een sollicitant doen. Ze kunnen ook eventuele opmerkingen met feedback invoeren. Als u de optie **Feedback deelnemers overnemen van aanstellingsteam** inschakelt, worden de werver, de aanstellend manager en de interviewers automatisch ingevoerd in het onderdeel Feedback. Organisaties kunnen interviewers toestaan de feedback van anderen weer te geven voordat ze hun eigen feedback indienen. Organisaties kunnen interviewers ook toestaan hun feedback te bewerken nadat zij deze hebben ingediend.
 

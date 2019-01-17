@@ -34,11 +34,13 @@ Waarschuwingen vormen een meldingssysteem voor kritieke gebeurtenissen in Micros
 In Enterprise Resource Planning (ERP) zijn er verschillende typische scenario's waarin de waarschuwingsfunctie in Finance and Operations kan worden gebruikt. Hieronder vindt u enkele voorbeelden.
 
 ### <a name="scenario-1-create-an-alert-rule-for-new-sales-orders"></a>Scenario 1: een waarschuwingsregel maken voor nieuwe verkooporders
+
 1. Open de pagina **Alle verkooporders**.
 2. Selecteer in het Actievenster op het tabblad **Opties** in de groep **Delen** de optie **Een aangepaste waarschuwing maken**.
 3. Selecteer in het dialoogvenster **Waarschuwingsregel maken** op het sneltabblad **Waarschuw mij wanneer** in het veld **Gebeurtenis** de optie **Record is gemaakt**.
 
 ### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a>Scenario 2: een waarschuwingsregel maken voor uitstel van een leveringsdatum
+
 1. Open de pagina **Alle inkooporders**.
 2. Selecteer een inkooporder-id voor toegang tot de details van de inkooporder.
 3. Vouw het sneltabblad **Inkooporderkoptekst** uit.
@@ -49,6 +51,7 @@ In Enterprise Resource Planning (ERP) zijn er verschillende typische scenario's 
 Na het sluiten van het dialoogvenster **Waarschuwingsregel maken** wordt de regel weergegeven op de pagina **Waarschuwingsregels beheren**. U kunt de pagina **Waarschuwingsregels beheren** gebruiken om uw bestaande waarschuwingsregels bij te werken. Zo kunt u gebeurtenistriggers wijzigen, gebeurtenismeldingen bijwerken en vervaldatums instellen. U opent de pagina **Waarschuwingsregels beheren** met de knop **Waarschuw mij** op het tabblad **Opties** van het Actievenster.
 
 ## <a name="what-occurs-when-an-alert-rule-is-created"></a>Wat gebeurt er wanneer er een waarschuwingsregel wordt gemaakt?
+
 Wanneer u waarschuwingsregels maakt, kunt u een vooraf gedefinieerde gebeurtenis koppelen aan een specifiek veld. Bijvoorbeeld, wanneer de in het veld opgegeven datum aanbreekt of wanneer de inhoud van een veld verandert. U kunt ook een gebeurtenis koppelen aan de records op een bepaalde pagina. Wanneer bijvoorbeeld een record wordt gemaakt of verwijderd.
 
 Als de geselecteerde gebeurtenis voor het veld of een record op de pagina plaatsvindt, wordt er een waarschuwing naar u verzonden. U maakt bijvoorbeeld een regel waarin u het veld **Leveringsdatum** op een bepaalde inkooporderregel koppelt aan de gebeurtenis **was zoveel tijd geleden al vervallen**. U stelt de periode in op vijf dagen. In dit geval wordt een waarschuwing verzonden vijf dagen na de leveringsdatum van die inkooporderregel.
@@ -56,9 +59,11 @@ Als de geselecteerde gebeurtenis voor het veld of een record op de pagina plaats
 U kunt bovendien waarschuwingsregels verfijnen door voorwaarden in te stellen. U kunt bijvoorbeeld worden gewaarschuwd over nieuwe inkooporders die zijn gemaakt voor een specifieke leverancieraccounts.
 
 ## <a name="preparing-for-an-alert"></a>Voorbereiden op een waarschuwing
+
 Bepaal voordat u een waarschuwingsregel instelt, wanneer of in welke situaties u waarschuwingen wilt ontvangen. Als u weet over welke gebeurtenis u wilt worden gewaarschuwd, gaat u in Finance and Operations naar de pagina met de gegevens die de gebeurtenis veroorzaken. De gebeurtenis kan een datum zijn die aanbreekt of een specifieke wijziging die plaatsvindt. Daarom moet u de pagina vinden waar de datum is gespecificeerd of die het veld bevat dat verandert of de nieuwe record. Wanneer u deze informatie hebt, kunt u de waarschuwingsregel maken.
 
 ## <a name="components-of-an-alert-rule"></a>Onderdelen van een waarschuwingsregel
+
 Een waarschuwingsregel heeft vijf onderdelen:
 
 - **Gebeurtenis**: de gebeurtenis die een waarschuwingsregel activeert, kan een datum zijn of een bepaalde wijziging die plaatsvindt. U definieert gebeurtenissen op het sneltabblad **E-mailwaarschuwingen voor taakstatuswijzigingen verzenden** van het dialoogvenster **Waarschuwingsregel maken**.
@@ -71,5 +76,6 @@ Een waarschuwingsregel heeft vijf onderdelen:
     > Deze optie is beperkt tot beheerders van de organisatie.
 
 ## <a name="email-notifications-from-alerts"></a>E-mailmeldingen van waarschuwingen
+
 E-mailmeldingen van waarschuwingen zijn nog niet ingeschakeld. Deze worden in een toekomstige update ingeschakeld.
 

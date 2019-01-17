@@ -3,7 +3,7 @@ title: "Financiële dimensies"
 description: "In dit onderwerp worden de verschillende typen financiële dimensies beschreven en hoe ze worden ingesteld."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ U kunt waarden uit hoofdrecords, zoals klanten en leveranciers, als standaardwaa
 Deze functie is gekoppeld aan een instelling in de dimensie. De naam van deze instelling is **Kopieer waarden naar deze dimensie op elk nieuw gemaakte DimensionName**, waarbij **DimensionName** de naam van de dimensie is. De functie is standaard uitgeschakeld. Deze kan op elk gewenst moment worden ingeschakeld.
 
 Als er al records bestaan voor de dimensie, worden de hoofdrecords bijgewerkt wanneer u de functie inschakelt. Bestaande documenten en transacties worden echter niet bijgewerkt.
+
+Als u een sjabloon gebruikt om een hoofdrecord te maken, moet u ervoor zorgen dat de sjabloonwaarde voor de hoofddimensie leeg is. Als u klanten op basis van een sjabloon maakt, moet u er bijvoorbeeld voor zorgen dat klantdimensie in de sjabloon leeg is. De klantdimensiewaarde wordt standaard ingesteld op basis van het nieuwe klantnummer wanneer u de nieuwe klant maakt.  
 
 ## <a name="derived-dimensions"></a>Afgeleide dimensies
 

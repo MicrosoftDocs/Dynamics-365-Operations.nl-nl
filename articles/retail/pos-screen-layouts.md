@@ -40,6 +40,7 @@ In de volgende afbeelding worden de relaties weergegeven tussen de verschillende
 ![Entiteiten voor POS-schermindeling](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Weergaveprofiel
+
 Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergave-elementen op te geven die specifiek zijn voor kassa's en worden gedeeld door gebruikers. Alle gebruikers die zich aanmelden bij de kassa krijgen hetzelfde thema en dezelfde kleuren en afbeeldingen te zien.
 
 ![POS-welkomstscherm met licht thema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Weergaveprofielen worden toegewezen aan kassa's en worden gebruikt om de weergav
 - **Achtergrond van de toepassing**: u kunt een achtergrondafbeelding kiezen om in de hele toepassing te gebruiken in plaats van de effen themakleur. Voor aanmeldingsachtergronden moet de bestandsgrootte zo klein mogelijk worden gehouden.
 
 ## <a name="screen-layouts"></a>Schermindelingen
+
 Schermindelingsconfiguraties bepalen de acties, inhoud en plaatsing van de UI-besturingselementen in het POS-welkomstscherm en het scherm **Transactie**.
 
 ![Weergave POS-schermindeling](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ Bij het opstarten selecteert de POS-toepassing automatisch de indelingsgrootte d
 ![POS-indelingsgrootten](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Knoppenrasters
+
 Voor elke indelingsgrootte in een schermindeling kunt u knoppenrasters configureren en toewijzen voor het POS-welkomstscherm en het scherm **Transactie**. Knoppenrasters voor het welkomstscherm worden automatisch van links naar rechts, van het laagste nummer (welkomstscherm 1) naar het hoogste nummer weergegeven.
 
 In volledige POS-indelingen wordt de plaats van knoppenrasters opgegeven in de ontwerper van schermindelingen.
@@ -104,6 +107,7 @@ In compacte POS-indelingen worden de knoppenrasters automatisch van boven naar b
 ![Knoppenrasters voor compacte indelingen](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Afbeeldingen
+
 Voor elke indelingsgrootte in een schermindeling kunt u afbeeldingen opgeven die moeten worden opgenomen in de POS-gebruikersinterface. Voor volledige POS-indelingen kan één afbeelding worden opgegeven voor het welkomstscherm. Deze afbeelding wordt links als het eerste element in de gebruikersinterface weergegeven. In het scherm **Transactie** kunnen afbeeldingen worden gebruikt als tabbladafbeeldingen of als logo. In compacte POS-indelingen worden deze afbeeldingen niet gebruikt.
 
 ### <a name="screen-layout-designer"></a>Ontwerper van schermindeling
@@ -141,11 +145,13 @@ In de ontwerper van volledige indelingen kunnen gebruikers besturingselementen 
     - **Aangepast besturingselement**: het aangepaste besturingselement fungeert als een tijdelijke aanduiding in de schermindeling. Hiermee kunt u ruimte reserveren voor aangepaste inhoud. Het aangepaste besturingselement is alleen beschikbaar voor volledige indelingen.
 
 ### <a name="compact-layout-designer"></a>Ontwerper voor compacte indeling
+
 Net als in de ontwerper voor de volledige indeling kunt u in de ontwerper voor de compacte indeling de POS-schermindeling voor telefoons en kleine tablets configureren. In dit geval wordt echter de indeling zelf opgelost. U kunt de besturingselementen in de indeling configureren met de rechtermuisknop en het snelmenu. Voor extra inhoud kunt u echter niet gebruikmaken van de functie voor slepen en neerzetten.
 
 ![Ontwerper van compacte indeling](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Ontwerper van knoppenraster
+
 In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kunnen worden gebruikt in het POS-welkomstscherm en het scherm **Transactie**, zowel voor volledige als compacte indelingen. Hetzelfde knoppenraster kan voor verschillende indelingen en indelingstypen worden gebruikt. Net als in de schermindelingsontwerper wordt in de ontwerper van het knoppenraster de ClickOnce-implementatietechnologie gebruikt om altijd de meest recente versie van de toepassing te downloaden, te installeren en te starten als de gebruiker deze ontwerper opent. Controleer de browservereisten voor ClickOnce. In sommige browsers, zoals Google Chrome, zijn extensies vereist.
 
 ![Ontwerper van knoppenraster](../retail/media/Button-Grid-Designer.png)

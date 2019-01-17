@@ -3,7 +3,7 @@ title: Functies maken, goedkeuren en boeken in Attract
 description: Dit onderwerp beschrijft de elementen van een functie in Attract. Ook wordt uitgelegd hoe u een functie maakt.
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Zie voor meer informatie over activiteiten die kunnen worden toegevoegd aan het 
 
 ## <a name="postings"></a>Boekingen
 
-Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Microsoft Dynamics 365 for Talent-carrièresite) of LinkedIn. Het Attract-team werkt voortdurend aan partnerschappen met functiebordproviders. Deze lijst wordt daarom in de loop van de tijd uitgebreid.
+Nadat een functie is geactiveerd, kan deze worden geplaatst. Alleen wervers en beheerders kunnen functies plaatsen. De functie kan worden geplaatst op Talent Loopbanen (een Microsoft Dynamics 365 for Talent-carrièresite) of LinkedIn. 
+
+> [!NOTE]
+> U moet met drie belangrijke dingen rekening houden met betrekking tot het publiceren van personeelsadvertenties op LinkedIn.
+> 1. Vacatures op LinkedIn worden op LinkedIn gepubliceerd als 'limited listings'. Dergelijke vacatures kunnen niet worden gepromoot op de LinkedIn-site. Als u vacatures met limited listing gepubliceerd op LinkedIn vanuit Attract wilt promoten, moet u ervoor zorgen dat de functie 'Job Wrapping' in LinkedIn wordt ingeschakeld. Raadpleeg de onderstaande koppelingen en neem contact op met de ondersteuning van LinkedIn voor meer informatie.
+>
+>    [Limited Listings vs Premium Job Slots for Job Wrapping](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [Job Wrapping FAQ](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Bij het publiceren van vacatures op LinkedIn geeft Attract de naam van de Microsoft 365-organisatie voor de vacature door. LinkedIn koppelt de vacatures aan een bedrijf aan de LinkedIn-site op basis van de naam van de organisatie die wordt doorgegeven. Als uw vacature wordt weergegeven niet voor het juiste bedrijf wordt weergegeven op LinkedIn, moet u controleren of de naam van uw Microsoft 365-organisatie overeenkomt met de naam van het bedrijf op LinkedIn.  
+>
+>    [Het adres en de technische contactpersoon van uw organisatie en meer wijzigen](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Als u problemen ondervindt na deze stap, neemt u contact op met de ondersteuning van LinkedIn. 
+> 
+> 1. Het kan maximaal 24 uur duren voordat vacatures gepubliceerd op LinkedIn zichtbaar zijn voor kandidaten vanuit LinkedIn, vanwege het huidige proces voor het batchgewijs publiceren van vacatures in LinkedIn.
+
+Het Attract-team werkt voortdurend aan partnerschappen met functiebordproviders. Deze lijst wordt in de loop van de tijd uitgebreid.
 
 Zie voor meer informatie over vacatures [Carrièresitefunctionaliteit in Attract](./career-site.md).
 

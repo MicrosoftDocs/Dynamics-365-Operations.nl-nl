@@ -3,7 +3,7 @@ title: Aanstelling met LinkedIn Recruiter
 description: Dit onderwerp biedt informatie over het gebruik van machine learning om aanbevelingen voor functies en functiekandidaten te krijgen.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: 106103e2c3d8f3d89aac5140174e5794da22536f
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -83,7 +83,12 @@ Nadat LinkedIn Recruiter-mogelijkheden zijn ingeschakeld door de Attract-beheerd
 
 U kunt het LinkedIn-profiel van de kandidaat in Attract weergeven. De LinkedIn-widget geeft het kandidaatprofiel weer wanneer de ATS-informatie overeenkomt met de LinkedIn-informatie van de gebruikers.
 
-Als u een profiel wilt weergeven, gaat u naar het kandidaatprofiel vanuit een functie of talentenpool. Selecteer in het kandidaatprofiel het tabblad **LinkedIn** en de profielwidget wordt geladen. Geef met de profielwidget aan of dit de juiste overeenkomst is. Zo niet, zoek dan de juiste persoon. U kunt vanaf deze pagina ook de kandidaat opslaan in uw LinkedIn Recruiter-projecten.
+Als u een profiel wilt weergeven, gaat u naar het kandidaatprofiel vanuit een functie of talentenpool. Selecteer in het kandidaatprofiel het tabblad **LinkedIn** en de profielwidget wordt geladen. U kunt vanaf deze pagina ook de kandidaat opslaan in uw LinkedIn Recruiter-projecten.
+1. Als LinkedIn de match heeft gevonden op basis van de e-mail- en lid-id voor LinkedIn (exacte match), wordt het kandidaatprofiel weergegeven. De gebruiker heeft nog steeds de optie om het profiel te koppelen of ontkoppelen.
+
+2. Als de kandidaat niet kan worden gevonden op basis van de e-mail- of lid-id, wordt er een lijst met mogelijke kandidaten weergegeven op basis van de naam van de kandidaat en kan de gebruiker er hiervan één kiezen en het profiel koppelen.  
+
+3. Als er geen kandidaten kunnen worden gevonden op basis van de naam, wordt aangegeven dat er geen match is gevonden.
 
 ### <a name="1-click-export"></a>Met 1 klik exporteren 
 
@@ -117,11 +122,14 @@ Met LinkedIn Recruiter kunt u bijhouden of een kandidaat naar andere functies in
 
 6.  Selecteer het tabblad **Notities** om notities te zien die zijn vastgelegd voor deze sollicitant in Attract.
 
+> [!NOTE]
+> Kandidaats- en sollicitatiegegevens worden niet gesynchroniseerd met LinkedIn Recruiter als de kandidaat niet voorbij de prospectfase komt.
+
 ### <a name="inmail-history"></a>InMail-historie
 
 De LinkedIn InMail-historie is beschikbaar met toegang op contractniveau met LinkedIn Recruiter. Als dit is ingeschakeld, kunt u uw volledige InMail-historie weergeven met de kandidaat. U kunt ook zien wie er verder in uw organisatie InMail heeft uitgewisseld met de kandidaat, maar u kunt de berichten tussen hen niet weergeven.
 
-Als u InMail-historie wilt weergeven, gaat u naar het profiel van een kandidaat, gaat u naar het tabblad **LinkedIn** en schuift u naar de onderzijde van de pagina om de historie weer te geven. U kunt de InMail-historie alleen bekijken als de kandidaat heeft gereageerd op uw aanvraag en ervoor heeft gekozen zijn of haar profiel met u te delen in LinkedIn. De berichten vanuit InMail synchroniseren elke paar uur met Attract.
+Als u InMail-historie wilt weergeven, gaat u naar het profiel van een kandidaat, gaat u naar het tabblad **LinkedIn** en schuift u naar de onderzijde van de pagina om de historie weer te geven. Als u een discussie met de kandidaat hebt gehad, kunt u de InMail-historie bekijken. De berichten vanuit InMail worden elke paar uur met Attract gesynchroniseerd.
 
 ### <a name="notes-history"></a>Notitiehistorie 
 
@@ -131,7 +139,7 @@ Als u notitiehistorie wilt weergeven, gaat u naar het profiel van een kandidaat,
 
 ### <a name="inmail-stub-profile"></a>InMail-stubprofiel
 
-Het InMail-stubprofiel is beschikbaar met toegang op contractniveau met LinkedIn Recruiter. Als kandidaten ermee instemmen hun LinkedIn-profiel te delen met een gebruiker in uw organisatie, kunt u de kandidaten in Attract bijhouden en wordt een nieuwe kandidaatrecord voor elke kandidaat gemaakt.
+Het InMail-stubprofiel is beschikbaar met toegang op contractniveau met LinkedIn Recruiter. Als kandidaten ermee instemmen hun LinkedIn-profiel te delen met een gebruiker in uw organisatie, kunt u de kandidaten in Attract bijhouden en wordt een nieuwe kandidaatrecord voor elke kandidaat gemaakt. U kunt het e-mailadres van de kandidaat weergeven als de kandidaat al in het systeem bestaat met een e-mailadres of ervoor heeft gekozen om zijn of haar adres te delen met de werver.
 
 Als u de lijst met kandidaten wilt weergeven, gaat u naar **Talentenpools** om een door het systeem gemaakte LinkedIn-talentenpool te zien. Deze talentenpool bevat de lijst met kandidaten en hun stubprofielen, zoals ontvangen van LinkedIn, met de voornaam en achternaam van de kandidaat. De e-mail-id van de kandidaat wordt weergegeven als de kandidaat ervoor heeft gekozen zijn of haar e-mailadres te delen.
 

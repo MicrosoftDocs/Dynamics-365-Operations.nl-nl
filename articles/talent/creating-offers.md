@@ -3,7 +3,7 @@ title: Aanbiedingen maken, goedkeuren en ondertekenen
 description: In dit onderwerp wordt beschreven hoe u een aanbieding voor een kandidaat maakt, goedkeurt en ondertekent met Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: nl-nl
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ Er zijn verschillende acties die u uitvoeren kunt voordat de aanbieding naar de 
 -  U kunt de vervaldatum van een aanbieding opgeven. Van kandidaten wordt verwacht dat ze de aanbieding accepteren of afwijzen vóór de vervaldatum.  De kandidaat ontvangt een herinnering 48 uur voordat de aanbieding verloopt.
 
 -  Er zijn mogelijk extra documenten die u wilt opnemen in het proces voor aanbiedingsacceptatie. U kunt het vereiste documenttype vermelden.
+
+- De optie Elektronische handtekening: als Adobe Sign is gekozen als voorkeursmethode voor elektronisch ondertekenen, moeten makers van aanbiedingen hun licentie voor Adobe Sign verbinden. Dit kan op twee manieren. Ga naar **Instellingen** in **Aanbod** en maak onder **Verbindingen** verbinding met **Adobe Sign**. U kunt ook gevraagd worden om de verzendaanbieding te verbinden met het kandidaatscherm als de verbinding nog niet tot stand is gebracht op basis van de gebruikersinstellingen. 
+
+> [!NOTE]
+> Gebruikers hoeven hun Adobe Sign-accounts maar één keer te verbinden. Dezelfde gebruikerslicentie wordt gebruikt voor alle toekomstige aanbiedingspakketten die door dezelfde gebruiker worden verzonden. 
 
 -  U kunt de e-mailsjabloon zo nodig weergeven en bewerken.
 

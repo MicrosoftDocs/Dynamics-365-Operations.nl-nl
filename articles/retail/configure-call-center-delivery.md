@@ -36,6 +36,7 @@ Wanneer u een verkooporder maakt, kunt u een leveringsmethode selecteren in de v
 Retail heeft mogelijkheden waarmee gebruikers de leveringsmethoden die kunnen worden gebruikt door een kanaal, de leveringsmethoden die kunnen worden gebruikt voor een product en de leveringsmethoden die geldig zijn voor specifieke verzendingbestemmingen, kunnen beperken. Toeslagen kunnen ook worden gedefinieerd, zodat aanvullende kosten worden toegevoegd aan een order van een klant, op basis van de leveringsmethoden die zijn geselecteerd voor de verkooporder en de totale waarde.
 
 ## <a name="define-delivery-modes"></a>Leveringsmethoden definiëren
+
 Voordat u opgeeft welke leveringsmethoden kunnen worden gebruikt voor callcenterorders en de bijbehorende regels en toeslagen definieert, moet u de leveringsmethoden definiëren. Ga naar **Verkoop en marketing \> Instellen \> Distributie \> Leveringsmethoden**. Selecteer **Nieuw** om een nieuwe leveringsmethode te maken. U kunt ook een bestaande leveringsmethode selecteren in de lijst en vervolgens **Bewerken** selecteren om wijzigingen aan te brengen.
 
 In het veld **Leveringsmethode** kunt u elke combinatie van alfanumerieke tekens invoeren, op basis van uw zakelijke behoeften. U kunt vervolgens het veld **Omschrijving** gebruiken om extra context te bieden. De velden **Toeslagengroep** en **Spoed** zijn optioneel en worden verderop in dit onderwerp gedetailleerder beschreven.
@@ -47,11 +48,13 @@ Op het sneltabblad **Producten** kunt u opgeven voor welke producten en/of produ
 Op het sneltabblad **Adressen** kunt u opgeven voor welke landen, regio's of staten de leveringsmethode wel en niet kan worden gebruikt. Orders die worden verzonden naar Hawaï of Alaska komen bijvoorbeeld niet in aanmerking voor de levering over land. Daarom moeten deze staten worden uitgesloten van leveringsmethoden die zijn gekoppeld aan levering over land, maar worden opgenomen in leveringsmethoden die zijn gekoppeld aan levering door de lucht.
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Leveringsmethoden voor een callcenterorder valideren
+
 Nadat de leveringsmethoden zijn gedefinieerd, moet u de batchverwerking **Leveringsmethoden verwerken** uitvoeren. Deze taak maakt de leveringsmethoden beschikbaar zodat ze kunnen worden gebruikt in verkooporderprocessen voor detailhandelkanalen. Als u de verwerking **Leveringsmethoden verwerken** wilt uitvoeren, gaat u naar **Retail \> IT detailhandel \> Leveringsmethoden verwerken**. Deze taak moet worden uitgevoerd wanneer nieuwe leveringsmethoden worden toegevoegd aan een detailhandelkanaal of wijzigingen worden aangebracht in bestaande relaties voor leveringsmodus/kanaal.
 
 Nadat u de batchverwerking **Leveringsmethoden verwerken** hebt uitgevoerd, kunt u naar **Detailhandel \> Kanalen \> Callcenters \> Alle callcenters** gaan. Selecteer op de pagina **Alle callcenters** in het actievenster op het tabblad **Instellen** **Leveringsmethoden**. De pagina **Leveringsmethoden** bevat alle geldige leveringsmethoden voor het geselecteerde callcenterkanaal. Als u bestaande leveringsmethoden wilt bewerken of nieuwe leveringsmethoden wilt toevoegen, selecteert u **Leveringsmethoden beheren**. De batchverwerking **Leveringsmethoden verwerken** moet steeds worden uitgevoerd wanneer wijzigingen worden aangebracht.
 
 ## <a name="define-charges-for-delivery-services"></a>Toeslagen voor leveringsservices definiëren
+
 Wanneer verkooporders worden gemaakt voor klanten, wil een bedrijf mogelijk toeslagen die automatisch worden berekend, toevoegen op basis van de leveringsmethoden die zijn geselecteerd voor de order. Deze toeslagen kunnen worden geconfigureerd zodat ze hetzelfde zijn voor alle klanten en leveringsmethoden. De toeslagen kunnen ook variëren, afhankelijk van de klant en/of de leveringsmethoden die zijn geselecteerd voor de verkooporder.
 
 Als u toeslagen wilt definiëren, gaat u naar **Detailhandel \> Afzetkanaalinstellingen \> Toeslagen \> Automatische toeslagen**. Selecteer **Nieuw** om nieuwe toeslagen toe te voegen. U kunt ook een bestaand gegeven selecteren en vervolgens **Bewerken** selecteren.
@@ -73,6 +76,7 @@ U kunt een combinatie van categorieën voor toeslagen gebruiken, afhankelijk van
 ![Voorbeeld van gecombineerde gelaagde toeslagen](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Leveringsmethoden toepassen tijdens het invoeren van orders in een callcenter
+
 Wanneer een nieuwe verkooporder wordt gemaakt, moet een waarde worden opgegeven in het veld **Leveringsmethode** op het sneltabblad **Levering** van de verkooporderkoptekst. Dit veld kan automatisch worden ingevuld, op basis van standaardwaarden uit de klantrecord.
 
 De leveringsmethode die is gedefinieerd in de orderkop, wordt automatisch gekopieerd naar de verkooporderregels zodra deze worden gemaakt. U kunt de instelling van de leveringsmethode voor een specifiek regelartikel echter wijzigen op het tabblad **Levering** in het gedeelte **Regeldetails** van de pagina voor verkooporderinvoer.
@@ -80,11 +84,13 @@ De leveringsmethode die is gedefinieerd in de orderkop, wordt automatisch gekopi
 Als de geselecteerde leveringsmethode niet geldig is voor het product of het afleveradres dat is gedefinieerd voor de order of de orderregel, ontvangt u een foutbericht. U moet dan een leveringsmethode selecteren die is gedefinieerd voor de ondersteuning van die product- of adresconfiguratie.
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Berekening van leveringskosten tijdens orderinvoer
+
 Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld voor uw callcenterkanaal, worden verzendkosten automatisch berekend voor verkooporders wanneer gebruikers **Gereed** selecteren. Het volgende bericht verschijnt boven aan de pagina **Overzicht van verkooporder**: 'Gelaagde toeslagen worden berekend.'' De toeslagen die worden berekend, worden opgeteld bij de waarde van het veld **Verkooptotaal**. Op het sneltabblad **Bedrag** bevat het veld **Toeslagen** het totale bedrag van alle toeslagen die zijn berekend voor de order en de regels. Als u een gedetailleerd overzicht van de toeslagen wilt zien, selecteert u **Order** op de pagina **Overzicht van verkooporder** en selecteert u de optie **Toeslagen** om de toeslagen weer te geven, toe te voegen of te bewerken. Houd er rekening mee dat de berekening van leveringstoeslagen in de orderkop is gebaseerd op de leveringsmethode die is gekoppeld aan de koptekst. Leveringstoeslagen op regelniveau worden berekend op basis van de leveringsmethode die is geconfigureerd voor de verkoopregel. Als meerdere leveringsmethoden worden gebruikt op verschillende regels, kunnen meerdere toeslagen worden toegepast en bij elkaar opgeteld. Het totale bedrag wordt vervolgens weergegeven in het veld **Toeslagen** op de pagina **Overzicht van verkooporder**.
 
 Als de instelling **Ordervoltooiing inschakelen** is uitgeschakeld, moeten gebruikers handmatig de berekening van toeslagen activeren. Selecteer op de pagina **Verkooporder** in het actievenster, op het tabblad **Verkopen** in de groep **Berekenen** de optie **Gelaagde toeslagen**. Het bericht 'Gelaagde toeslagen worden berekend' wordt weergegeven. Vervolgens kunt u de optie **Toeslagen** op het tabblad **Verkopen** selecteren om de berekende toeslagen te bekijken, bewerken of verwijderen.
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Spoedleveringsmethoden gebruiken in callcenterorders
+
 U kunt desgewenst een versnellingscode koppelen aan een leveringsmethode die u configureert. Deze code wordt gebruikt als hulpmiddel voor prioriteitssortering en rapportage. Op dit moment worden hierdoor geen extra kosten opgeteld bij de order. Als u spoedcodes wilt instellen, gaat u naar **Verkoop en marketing \> Instellen \> Distributie \> Versnellingscodes**.
 
 Orders die de volgende dag met luchtpost worden verzonden, moeten bijvoorbeeld elke dag om 13:00 in het magazijn worden opgehaald. In dit geval kan een versnellingscode worden gemaakt en die code kan worden gekoppeld aan een leveringsmethode voor levering de volgende dag die in het systeem is geconfigureerd. Als het magazijn de orderverzamelingswave maakt, kan de juiste versnellingscode in het veld **Spoed** worden gebruikt als filter, zodat orderverzameling alleen wordt uitgevoerd voor orders met leveringsmethoden die zijn gekoppeld aan deze code.

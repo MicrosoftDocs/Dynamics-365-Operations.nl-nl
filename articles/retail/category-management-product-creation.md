@@ -59,4 +59,3 @@ Gebruik de nieuwe uitgebreide structuur voor producteigenschappen om te selecter
 
 ![Het dialoogvenster Producten bijwerken](media/NewUpdateProductsEnhancedView.PNG)
 
-

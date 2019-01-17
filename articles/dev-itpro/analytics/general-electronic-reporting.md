@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Een opslagplaats **Bestandssysteem** biedt toegang tot de lijst met configuratie
 - cloudomgevingen geïmplementeerd voor ontwikkelingsdoeleinden (met testmodellen van ingesloten suites)
 - lokaal geïmplementeerde omgevingen (on-premise of lokale implementatie van zakelijke gegevens)
 
-Bezoek voor meer informatie de pagina [Configuraties voor Elektronische rapportage (ER) importeren](/electronic-reporting-import-ger-configurations.md).
+Bezoek voor meer informatie de pagina [Configuraties voor Elektronische rapportage (ER) importeren](./electronic-reporting-import-ger-configurations.md).
 
 Een opslagplaats **RCS-exemplaar** biedt toegang tot de lijst met configuraties van een specifiek RCS-exemplaar dat is geselecteerd in de fase van registratie van de opslagplaats. Met ER kunt u voltooide of gedeelde configuraties vanuit het geselecteerde RCS-exemplaar importeren in het huidige exemplaar van Finance and Operations en gebruiken voor elektronische rapportage.
 
-Bezoek voor meer informatie de pagina [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](/rcs-download-configurations.md).
+Bezoek voor meer informatie de pagina [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
 
 Vereiste opslagplaatsen voor **LCS-project**, **Bestandssysteem** en **Regulatory Configuration Services (RCS)** kunnen afzonderlijk worden geregistreerd voor elke configuratieprovider van het huidige Dynamics 365 for Finance and Operations-exemplaar. Elke opslagplaats kan aan een specifieke configuratieprovider zijn gekoppeld.
 

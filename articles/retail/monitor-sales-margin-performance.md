@@ -35,21 +35,19 @@ U kunt in real-time verkoop- en margeprestaties bewaken met Microsoft Dynamics 3
 
 Als onderdeel van Dynamics 365 for Retail kunnen gebruikers verkoop- en margeprestaties bewaken in real-time op verschillende niveaus van de organisatiehiërarchie voor de volgende dimensies:
 
--   Producten
--   Categorieën
--   Kortingen
--   Jaren als periode
--   Kassa's/terminals
--   Personeel/werknemers
--   Klanten
--   Operationele eenheden
+- Producten
+- Categorieën
+- Kortingen
+- Jaren als periode
+- Kassa's/terminals
+- Personeel/werknemers
+- Klanten
+- Operationele eenheden
 
 Daarnaast kunnen gebruikers met twee unieke rapporten, die gebruik maken van hiërarchische rasterindeling, verkoop- en margeprestaties volgen door in te zoomen vanuit het hoogste categorieknooppunt naar afzonderlijke bladknooppunten van de categorie in de categoriehiërarchie van de standaardcategoriehiërarchie van retailproducten. Gebruikers kunnen ook vanuit de hoogste operationele eenheid inzoomen op afzonderlijke kanalen in de organisatiehiërarchie, die is gedefinieerd als de standaardorganisatiehiërarchie voor de retailrapportagehiërarchie. U kunt de rapporten openen vanaf een van de volgende locaties:
 
--   Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**
--   Werkgebied **Categorie- en productbeheer** &gt; **Retail** &gt; **Product en categorieën** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**
--   Werkgebied **Prijzen- en kortingsbeheer** &gt; **Retail** &gt; **Prijzen en kortingen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**
--   Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten**
-
-
+- Werkgebied **Beheer van detailhandelwinkel** &gt; **Retail** &gt; **Kanalen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**
+- Werkgebied **Categorie- en productbeheer** &gt; **Retail** &gt; **Product en categorieën** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**
+- Werkgebied **Prijzen- en kortingsbeheer** &gt; **Retail** &gt; **Prijzen en kortingen** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten**
+- Sectie **Query's en rapporten** &gt; **Retail** &gt; **Query's en rapporten** &gt; **Verkooprapporten**
 

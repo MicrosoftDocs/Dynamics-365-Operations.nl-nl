@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: eb240a75c758037de9eb1fde55b0bfde00a16dd7
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 7455a10f3e2fc603b6699d77127376cde12f2144
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,8 +29,8 @@ ms.lasthandoff: 08/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-De inhoud van Microsoft Dynamics AX 4.0 is teruggetrokken van TechNet en MSDN. Ga voor meer informatie naar: 
+De inhoud van Microsoft Dynamics AX 4.0 is teruggetrokken van TechNet en MSDN. Ga voor meer informatie naar:
 
-- [Microsoft Lifecycle-beleid](https://support.microsoft.com/en-us/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0) 
-- [Ondersteunde upgradepaden naar Dynamics AX 2012](https://technet.microsoft.com/en-us/library/dd362093.aspx) 
+- [Microsoft Lifecycle-beleid](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0)
+- [Ondersteunde upgradepaden naar Dynamics AX 2012](https://technet.microsoft.com/library/dd362093.aspx)
 

@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Als onderdeel van de nieuwe overzichtsboekingsfunctie zijn er drie nieuwe parame
 
 Bovendien is het veld **Maximumaantal parallelle overzichtsboekingen** geïntroduceerd op het sneltabblad **Batchverwerking**. Dit veld bepaalt het aantal batchtaken dat tegelijk moet worden uitgevoerd. Momenteel moet u de waarde van dit veld handmatig instellen.
 
-Daarnaast is het met het nieuwe boekingsproces noodzakelijk om een **geschenkbonproduct** op het sneltabblad **Geschenkbon** van het tabblad **Boeking** van de pagina **Detailhandelparameters** op te geven. Dit geldt zelfs als er geen geschenkbonnen worden gebruikt door de organisatie. 
+Daarnaast is het met het nieuwe boekingsproces noodzakelijk om een **geschenkbonproduct** op het sneltabblad **Geschenkbon** van het tabblad **Boeking** van de pagina **Detailhandelparameters** op te geven. Dit geldt zelfs als er geen geschenkbonnen worden gebruikt door de organisatie.
 
 Houd er rekening mee dat alle instellingen en parameters die zijn gerelateerd aan overzichtsboekingen en die zijn gedefinieerd in detailhandelwinkels op de pagina **Parameters detailhandel**, van toepassing zijn op de verbeterde functie voor het boeken van overzichten.
 
 ## <a name="processing"></a>Wordt verwerkt
+
 Overzichten kunnen worden berekend en geboekt in een batch met de menu-items **Overzichten in batch berekenen** en **Overzichten in batch boeken**. Overzichten kunnen ook worden berekend en geboekt met behulp van het menu-item **Detailhandeloverzichten** dat de verbeterde functie voor het boeken van overzichten verschaft.
 
 Het proces en de stappen voor het berekenen en boeken van overzichten in een batch zijn hetzelfde als in de verouderde functie voor het boeken van overzichten. Er zijn echter belangrijke verbeteringen aangebracht in de back-endverwerking van de overzichten. Deze verbeteringen maken het proces flexibeler en bieden een beter inzicht in de statuswaarden en de foutinformatie. Gebruikers kunnen daarom de hoofdoorzaak van fouten aanpakken en vervolgens doorgaan met het boekingsproces zonder dat gegevens beschadigd raken en zonder dat gegevens moeten worden gecorrigeerd.
@@ -71,6 +72,7 @@ Het proces en de stappen voor het berekenen en boeken van overzichten in een bat
 In de volgende secties worden enkele belangrijke verbeteringen voor de functie voor het boeken van overzichten beschreven die worden weergegeven in de gebruikersinterface voor detailhandeloverzichten en geboekte overzichten.
 
 ### <a name="status-details"></a>Statusgegevens
+
 Er is een nieuw statusmodel geïntroduceerd in de overzichtboekingsroutine voor het berekenings- en boekingsproces.
 
 In de volgende tabel worden de verschillende statuswaarden en de volgorde ervan tijdens het berekeningsproces beschreven.
@@ -109,9 +111,11 @@ Elke status in de voorgaande tabellen is onafhankelijk van aard en er wordt een 
 De koptekst van het tweede en derde gedeelte bevat bovendien de algemene status van het desbetreffende proces.
 
 ### <a name="event-logs"></a>Gebeurtenislogboeken
+
 Een overzicht doorloopt verschillende bewerkingen (zoals maken, berekenen, wissen en boeken) en er kunnen meerdere exemplaren van dezelfde bewerking worden aangeroepen tijdens de levenscyclus van het overzicht. Nadat een overzicht is gemaakt en berekend, kan een gebruiker bijvoorbeeld het overzicht wissen en opnieuw berekenen. De knop **Gebeurtenislogboeken** in de groep **Uitvoeringsdetails** van het overzicht biedt een complete audittrail van de verschillende bewerkingen die zijn aangeroepen in een overzicht, samen met informatie over de bewerkingen die zijn aangeroepen.
 
 ### <a name="aggregated-transactions"></a>Getotaliseerde transacties
+
 Tijdens het boekingsproces worden de verkooptransacties samengevoegd op basis van de configuratie. Deze samengevoegde transacties worden in het systeem opgeslagen en gebruikt om verkooporders te maken. Met elke samengevoegde transactie wordt één bijbehorende verkooporder in het systeem gemaakt. U kunt de samengevoegde transacties bekijken met de knop **Samengevoegde transacties** in de groep **Uitvoeringsdetails** van het overzicht.
 
 Het tabblad **Details van verkooporder** van een samengevoegde transactie bevat de volgende informatie:
@@ -136,11 +140,13 @@ De weergave met samengevoegde transacties biedt de volgende voordelen:
 - Samengevoegde XML-bestanden maken het eenvoudiger om problemen te identificeren tijdens het maken van verkooporders en de facturering.
 
 ### <a name="journal-vouchers"></a>Journaalboekstukken
+
 De knop **Journaalboekstukken** in de groep **Uitvoeringsdetails** van het overzicht bevat alle verschillende boekstuktransacties die zijn gemaakt voor een overzicht en die zijn gerelateerd aan kortingen, rekeningen voor inkomsten/uitgaven, geschenkbonnen, enzovoort.
 
 Op dit moment laat het programma deze gegevens alleen voor geboekte overzichten zien.
 
 ### <a name="payment-journals"></a>Betalingsjournalen
+
 De knop **Betalingsjournalen** in de groep **Uitvoeringsdetails** van het overzicht bevat alle verschillende betalingsjournalen die zijn gemaakt voor een overzicht.
 
 Op dit moment laat het programma deze gegevens alleen voor geboekte overzichten zien.
