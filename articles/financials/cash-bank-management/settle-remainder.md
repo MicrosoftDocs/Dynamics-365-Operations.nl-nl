@@ -14,21 +14,19 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
+ms.sourcegitcommit: 18eaadf417ce6d0aacf0b13b3e4f857e06031e66
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
 ms.contentlocale: nl-nl
-ms.lasthandoff: 12/06/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 
 # <a name="settle-remainder"></a><span data-ttu-id="539f8-103">Restbedrag vereffenen</span><span class="sxs-lookup"><span data-stu-id="539f8-103">Settle remainder</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 <span data-ttu-id="539f8-104">U kunt het resterende bedrag van de vereffeningsactiviteit vereffenen door het toe te passen op een grootboekrekening of een andere klant.</span><span class="sxs-lookup"><span data-stu-id="539f8-104">You can settle the amount remaining from settlement activity by applying that amount to a ledger account or another customer.</span></span> <span data-ttu-id="539f8-105">U kunt de rest vereffenen wanneer u bedragen vereffent die zijn ingevoerd in een journaal of wanneer u alleen openstaande transacties vereffent.</span><span class="sxs-lookup"><span data-stu-id="539f8-105">You can settle the remainder when you are settling amounts entered into a journal or when you are only settling open transactions.</span></span>
 
