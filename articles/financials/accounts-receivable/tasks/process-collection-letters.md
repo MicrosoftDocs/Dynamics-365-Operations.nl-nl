@@ -26,7 +26,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="process-collection-letters"></a>Aanmaningen verwerken
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Deze procedure laat zien hoe u aanmaningen maakt, afdrukt en boekt. Bij deze taak wordt het demobedrijf USMF gebruikt.
 
