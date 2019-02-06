@@ -35,8 +35,10 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 2. Klik op **Rapportconfiguraties**.
 3. Selecteer **Betalingen (vereenvoudigd model)** in de structuur.
 4. Klik op **Configuratie maken** om het dialoogvenster voor beëindigen te openen.
+
  > [!NOTE]
  > Als **Configuratie maken** niet wordt weergegeven, moet u de ontwerpmodus inschakelen op de pagina **Parameters van elektronische rapportage**. 
+ 
 5. Voer in het veld **Nieuw** **Indeling gebaseerd op gegevensmodel PaymentModel** in.
 6. Typ **BACS (UK fictief)** in het veld **Naam**.
 7. Typ **BACS-indeling voor leveranciersbetalingen (UK fictief)** in het veld **Beschrijving**.
@@ -44,6 +46,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
     * Er kan een specifieke indeling voor elektronische documenten worden gedefinieerd. Laat dit veld leeg als u een indeling wilt selecteren bij de uitvoering.  
 8. Typ of selecteer een waarde in het veld **Definitie gegevensmodel**.
 9. Klik op **Configuratie maken**. Er is een nieuwe configuratie gemaakt. De conceptversie kan worden gebruikt om de ontwerpindeling op te slaan voor het beheren van elektronische documenten.  
+
  > [!NOTE]
  > Als **Configuratie maken** niet wordt weergegeven, moet u de ontwerpmodus inschakelen op de pagina **Parameters van elektronische rapportage**.
 
