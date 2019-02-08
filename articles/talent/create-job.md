@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="6ba23-104">In dit onderwerp worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="6ba23-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/08/2018
 ## <a name="job-titles"></a><span data-ttu-id="6ba23-115">Functietitels</span><span class="sxs-lookup"><span data-stu-id="6ba23-115">Job titles</span></span>
 <span data-ttu-id="6ba23-116">Voordat u taken maakt, moet u titels voor deze taken instellen.</span><span class="sxs-lookup"><span data-stu-id="6ba23-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="6ba23-117">Posities nemen de taaktitels over van de taken waaraan de posities zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="6ba23-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="6ba23-118">Op de pagina **Titels** kunt u functietitels onderhouden. Deze pagina opent u met de functie Zoeken.</span><span class="sxs-lookup"><span data-stu-id="6ba23-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="6ba23-119">Op de pagina **Titels** voert u de titels in die u wilt gebruiken voor uw functies.</span><span class="sxs-lookup"><span data-stu-id="6ba23-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="6ba23-118">Op de pagina **Titels** kunt u functietitels onderhouden. Deze pagina opent u met de functie Zoeken.</span><span class="sxs-lookup"><span data-stu-id="6ba23-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="6ba23-119">Op de pagina **Titels** voert u de titels in die u wilt gebruiken voor uw functies.</span><span class="sxs-lookup"><span data-stu-id="6ba23-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="6ba23-120">Taaktypen</span><span class="sxs-lookup"><span data-stu-id="6ba23-120">Job types</span></span>
 <span data-ttu-id="6ba23-121">U gebruikt functietypen om vergelijkbare functies in categorieën te groeperen.</span><span class="sxs-lookup"><span data-stu-id="6ba23-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="6ba23-122">Functietypen zijn niet verplicht.</span><span class="sxs-lookup"><span data-stu-id="6ba23-122">Job types aren't required.</span></span> <span data-ttu-id="6ba23-123">Als u van plan bent om taaktypen te gebruiken wanneer u beschikbaarheidregels instelt voor compensatiebeheer, moet u taaktypen instellen voordat u taken instelt.</span><span class="sxs-lookup"><span data-stu-id="6ba23-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="6ba23-124">Enkele voorbeelden van functietypen zijn fulltime en parttime of salaris en uurtarief.</span><span class="sxs-lookup"><span data-stu-id="6ba23-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="6ba23-125">U onderhoudt functietypen met behulp van de pagina **Functietypen**.</span><span class="sxs-lookup"><span data-stu-id="6ba23-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="6ba23-126">Voer op de pagina **Functietypen** een naam en een korte omschrijving voor het functietype in.</span><span class="sxs-lookup"><span data-stu-id="6ba23-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="6ba23-127">Selecteer in het veld **Vrijstellingsstatus** een van de volgende opties om de FLSA-vrijstellingsstatus (Fair Labor Standards Act) aan te geven voor functies die dit functietype hebben:</span><span class="sxs-lookup"><span data-stu-id="6ba23-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
