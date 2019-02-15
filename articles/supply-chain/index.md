@@ -5,27 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/09/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302131"
 ---
-
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
 [!include [banner](includes/banner.md)]
@@ -63,8 +62,7 @@ Deze korte video's bieden u meer informatie over de nieuwe functies in Microsoft
 -  [Optimization advisor](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Magazijnsjabloon gebruiken om configuratie te kopiëren](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Deze korte video's bieden u meer informatie over de nieuwe functies in
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017).
+Deze korte video's bieden u meer informatie over de nieuwe functies in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juli 2017).
 
 -  [Aan de slag met kostprijsboekhouding](https://youtu.be/1pUDtJQZ8FU)
 -  [Het mobiele werkgebied Kostenbeheer](https://youtu.be/imsuTg8rUVk)
@@ -106,7 +104,7 @@ In deze opnamen van technische conferenties wordt productfunctionaliteit in de v
 -  [Transportbeheer (TMS) in de nieuwe Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Weblogs
-Er zijn veel onderwerpen over productie en supply chain management beschikbaar op de <a href="https://blogs.msdn.microsoft.com/axmfg/">blog van het R&D-team voor Dynamics AX Manufacturing</a> en <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">de blog van het R&D-team voor Supply Chain Management in Dynamics AX</a>. De meeste hiervan zijn geschreven voor de vorige versie van Finance and Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
+Er zijn veel onderwerpen over productie en supply chain management beschikbaar in de blog van het <a href="https://blogs.msdn.microsoft.com/axmfg/">R&D-team voor Dynamics AX Manufacturing</a> en de <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog van het R&D-team voor Supply Chain Management in Dynamics AX</a>. De meeste hiervan zijn geschreven voor de vorige versie van Finance and Operations, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie. 
 
 ## <a name="white-papers"></a>Technische documenten
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Praktijkoefeningen voor kostprijsboekhouding</a> 
@@ -115,7 +113,6 @@ Er zijn veel onderwerpen over productie en supply chain management beschikbaar o
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobiliteit in het magazijn vergemakkelijkt door Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
-Bezoek voor meer informatie over training voor Microsoft Dynamics 365 for Finance and Operations de <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics Learning Portal</a>. (CustomerSource-account vereist) 
-
+Voor meer informatie over training voor Microsoft Dynamics 365 for Finance and Operations raadpleegt u de <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics-leerportal</a>. (CustomerSource-account vereist) 
 
 

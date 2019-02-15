@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302129"
 ---
-
 # <a name="budgeting-home-page"></a>Startpagina Budgetteren
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Zie [Budgetplanningsintegratie met andere modules](budget-planning-integration-o
 In Finance and Operations kunnen gebruikers budgetplannen direct in de Finance and Operations-client maken (met behulp van een configureerbare pagina voor een budgetplandocument) of met Excel. Excel biedt verschillende aanvullende mogelijkheden. U kunt bijvoorbeeld externe gegevens gebruiken als een bron voor een budgetplan, aangepaste berekeningen uitvoeren en Microsoft-draaitabellen en -grafieken gebruiken. De meeste variabelen in het budgetplanningsproces kunnen worden geconfigureerd. 
 
 U kunt bijvoorbeeld bepalen wie budgettering doet, wat wordt gebudgetteerd en hoe het proces eruit ziet. Hoewel u Excel kunt gebruiken voor budgetplanning, wordt Finance and Operations als één bron van waarheid aangehouden waarmee budgetbeheerproblemen kunnen worden voorkomen. Periodieke processen kunnen worden gebruikt om oorspronkelijke gegevens voor budgettering in het budgetplan in te voeren. Voor rapportage biedt Finance and Operations een set standaardquerypagina's waarmee u budgetteringsgegevens kunt bekijken en analyseren. Budgetplangegevens kunnen via Management Reporter worden geopend, en afzonderlijke budgetplanscenario's kunnen als kolommen in het Management Reporter-rapport worden weergegeven.
-
 
 
 

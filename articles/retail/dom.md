@@ -1,29 +1,29 @@
 ---
 title: Gedistribueerd orderbeheer
-description: In dit onderwerp wordt de DOM-functionaliteit (Distributed Order Management; gedistribueerd orderbeheer) in Microsoft Dynamics 365 for Retail beschreven.
+description: In dit onderwerp wordt de functionaliteit voor gedistribueerd orderbeheer in Microsoft Dynamics 365 for Retail beschreven.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302125"
 ---
 # <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer
 
@@ -64,7 +64,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
         1. Open de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services, selecteer **Model** als activatype en download het bestand met de **DOM-licentie**.
         2. Start Microsoft IIS-beheer (Internet Information Services), klik met de rechtermuisknop op **AOSService-website** en selecteer **Verkennen**. Windows Verkenner wordt geopend met **\<Hoofdmap van AOS-service\>\\webroot**. Noteer of onthoud het pad naar de \<hoofdmap van de AOS-service\>. U gebruikt dit pad in de volgende stap.
         3. Kopieer het configuratiebestand in de map **\<Hoofdmap van AOS-service\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Ga naar Detailhandel Hoofdkantoor en open de pagina **DOM-parameters**. Selecteer op het tabblad **Oplossing** in het veld **Type oplossing** de optie **Productieoplossing** en controleer of er geen foutberichten worden weergegeven.
+        4. Ga naar Retail Headquarters en open de pagina **DOM-parameters**. Selecteer op het tabblad **Oplossing** in het veld **Type oplossing** de optie **Productieoplossing** en controleer of er geen foutberichten worden weergegeven.
 
         > [!NOTE]
         > De optie Vereenvoudigde oplossing is beschikbaar om detailhandelaren in staat te stellen de DOM-functie uit te proberen zonder de speciale licentie te hoeven implementeren. Organisaties moeten de optie Vereenvoudigde oplossing niet gebruiken in productieomgevingen.
@@ -229,4 +229,3 @@ Houd rekening met het volgende als u de DOM-functie gebruikt:
 - Momenteel wordt in DOM alleen gekeken naar orders die worden gemaakt via detailhandelafzetkanalen. Verkooporders worden aangemerkt als detailhandelverkooporders wanneer de optie **Detailhandelverkoop** is ingesteld op **Ja**.
 - Microsoft heeft DOM niet getest met geavanceerde magazijnbeheerfuncties. Klanten en partners moeten een zorgvuldige afweging maken om te bepalen of DOM compatibel is met de geavanceerde magazijnbeheermogelijkheden en -processen die relevant voor hen zijn.
 - DOM is alleen beschikbaar in de cloudversie van Retail. DOM wordt niet ondersteund in on-premises implementaties.
-

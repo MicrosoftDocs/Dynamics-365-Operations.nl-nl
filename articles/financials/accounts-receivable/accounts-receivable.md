@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302133"
 ---
-
 # <a name="accounts-receivable-home-page"></a>Startpagina Klanten
 
 [!include [banner](../includes/banner.md)]
@@ -45,19 +44,19 @@ Gebruik Klanten om alle klantfacturen en binnenkomende betalingen van klanten bi
 
 :::row:::
     :::column:::
-        - [Boekhoudingsverdelingen en journaalposten in subadministratie voor vrije-tekstfacturen](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [Boekingsprofielen van klant](customer-posting-profiles.md)
-        - [Creditcard instellen, autoriseren en vastleggen](credit-card-authorizations.md)
+        - [Instelling, autorisatie en registratie van creditcards](credit-card-authorizations.md)
         - [Een klantfactuur maken](configure-customer-invoices.md)
         - [Terugkerende facturen instellen en verwerken](set-up-process-recurring-invoices.md)
         - [Een vrije-tekstfactuur corrigeren](correct-free-text-invoice.md)
     :::column-end:::
     :::column:::
         - [Wissels instellen](set-up-bills-exchange.md)
-        - [Rentepercentages voor een rentecode instellen](set-up-interest-rates-interest-code.md)
+        - [Rentepercentages instellen voor een rentecode](set-up-interest-rates-interest-code.md)
         - [Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren](waive-reinstate-reverse-interest-fees.md)
         - [Overzicht SEPA-incasso](sepa-direct-debit-overview.md)
-        - [Mandaat voor automatische afschrijving instellen voor SEPA](sepa-direct-debit-mandate.md)
+        - [Mandaag voor automatische afschrijving instellen voor SEPA](sepa-direct-debit-mandate.md)
         - [Klanten sluiten](close-accounts-receivable.md)
     :::column-end:::
 :::row-end:::
@@ -93,7 +92,7 @@ Accepteer verschillende betalingstypen van klanten, zoals wissels, contant geld,
 :::row-end:::
 
 
-### <a name="additional-resources"></a>Aanvullende resources
+### <a name="additional-resources"></a>Aanvullende bronnen
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
@@ -101,19 +100,18 @@ Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om
 
 #### <a name="blogs"></a>Weblogs
 
-U kunt adviezen, nieuws en andere informatie over Klanten en andere oplossingen vinden op de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+U kunt adviezen, nieuws en andere informatie over Klanten en andere oplossingen vinden in de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Er zijn veel posts over Klanten beschikbaar op de [blog van het Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze posts zijn geschreven voor de vorige versie van Klanten, zijn dezelfde concepten nog van toepassing. Ook zijn de procedures vergelijkbaar met de huidige versie.
+Er zijn veel berichten over Klanten beschikbaar in de blog van het [Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Klanten, zijn dezelfde concepten nog van toepassing. Ook zijn de procedures vergelijkbaar met de huidige versie.
 
-De [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) geeft Microsoft Dynamics-partners een enkele bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
+De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
 
 #### <a name="task-guides"></a>Taakbegeleidingen
-Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
+Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
 
 #### <a name="videos"></a>Video's
 
 Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 
 

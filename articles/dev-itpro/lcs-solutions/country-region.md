@@ -1,13 +1,13 @@
 ---
 title: Lokalisatie en wettelijk voorgeschreven functies
-description: Dit onderwerp bevat een lijst met resources die u kunnen helpen meer informatie te verwerven over land-/regiospecifieke functionaliteit.
+description: Dit onderwerp bevat een lijst met bronnen met meer informatie over land- en regiospecifieke functies.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 10/01/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302135"
 ---
-
 # <a name="localization-and-regulatory-features"></a>Lokalisatie en wettelijk voorgeschreven functies
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](https://aka.ms/ax-availabilityguide). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
+Microsoft Dynamics 365 for Finance and Operations bevat functionaliteit voor de landen/regio's die worden beschreven in de [internationale handleiding voor productbeschikbaarheid](https://aka.ms/dynamics_365_international_availability_deck). Deze functionaliteit wordt ingeschakeld op basis van het primaire adres van de actieve rechtspersoon. 
 
 Dit onderwerp bevat een lijst met bronnen waarmee u het volgende kunt doen: 
 - meer informatie krijgen over het ontwikkelen van land-/regiospecifieke oplossingen
@@ -45,10 +44,11 @@ De volgende bronnen bieden richtlijnen en informatie ter ondersteuning van ontwi
 -   [Lokalisatiefuncties classificeren](classify-localization-features.md)
 -   [Landcodes - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a>Lokalisatie-updates en communicatie
+## <a name="regulatory-updates-and-communication"></a>Wettelijk voorgeschreven updates en communicatie
 De volgende bronnen bevatten informatie over geplande en nieuwe lokalisatiefuncties. 
 
-### <a name="localization-updates"></a>Lokalisatie-updates
+### <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
+-   [Wettelijk voorgeschreven updates](../../financials/localizations/regulatory-updates.md)
 -   [Lokalisatie-portal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (wekelijks bijgewerkt)
 -   [LCS-problemen zoeken](../lifecycle-services/issue-search-lcs.md) (dagelijks bijgewerkt)
 
@@ -67,12 +67,12 @@ Met het hulpmiddel voor elektronische rapportage (ER) kunt u indelingen voor ele
 -   [De lijst met functies voor elektronische rapportage uitbreiden](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Bestemmingen van elektronische rapportage](../analytics/electronic-reporting-destinations.md)
 -   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Configuraties van elektronische rapportage importeren](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Configuraties van elektronische aangifte importeren](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Elektronische aangifte configureren om gegevens op te halen in Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Elektronische documenten genereren en toepassingsgegevens bijwerken via het hulpmiddel voor elektronische aangifte](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Taakbegeleidingen
-Taakbegeleidingen zijn beschikbaar vanuit het Help-venster van het product en bieden een begeleid overzicht van belangrijke bedrijfsprocessen. U kunt een taakbegeleiding openen om de stappen van een bedrijfsproces Te lezen of u kunt een taakbegeleiding afspelen om een bedrijfsproces te doorlopen en gegevens in te voeren.
+Taakbegeleidingen zijn beschikbaar vanuit het Help-venster van het product en bieden een begeleid overzicht van belangrijke bedrijfsprocessen. U kunt een taakbegeleiding openen om de stappen van een bedrijfsproces te lezen of u kunt een taakbegeleiding afspelen om een bedrijfsproces te doorlopen en gegevens in te voeren.
 
 U kunt taakbegeleidingen zoeken door naar een pagina in Microsoft Dynamics 365 for Finance and Operations te gaan en op Help te klikken. Taakbegeleidingen die gebruikmaken van de pagina worden weergegeven in het Help-venster. U kunt het Help-venster ook gebruiken om op titel naar taakbegeleidingen te zoeken.
 
@@ -118,7 +118,6 @@ Zie [Taakbegeleidingen](../../fin-and-ops/get-started/help-overview.md#task-guid
         - [Verenigde Staten](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
-
 
 
 

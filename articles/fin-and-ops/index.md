@@ -1,13 +1,13 @@
 ---
-title: Documentatie voor Microsoft Dynamics 365 for Finance and Operations
+title: Microsoft Dynamics 365 for Finance and Operations-documentatie
 description: Documentatie voor Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302105"
 ---
-
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentatie voor Microsoft Dynamics 365 for Finance and Operations
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations-documentatie
 
 [!include [banner](includes/banner.md)]
 
@@ -131,4 +130,3 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Microso
 
 </tbody>
 </table>
-

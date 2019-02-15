@@ -5,35 +5,34 @@ author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302123"
 ---
-
 # <a name="welcome-to-dynamics-365-for-retail"></a>Welkom bij Dynamics 365 for Retail
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail is een end-to-end detailhandelsoplossing die handel mogelijk maakt via alle afzetkanalen. Met de functies voor verkoop, mobiliteit, intelligence en productiviteit kunnen detailhandelaren en werknemers meer bereiken door de nadruk te leggen op cloud- en mobiele voorzieningen. Retail biedt uitgebreide ondersteuning voor een breed scala van bedrijfsprocessen, zoals merchandising, voorraadbeheer en afzetkanaalbeheer. Ook biedt het een complete ervaring voor klanten via alle contactpunten.
+Microsoft Dynamics 365 for Retail is een complete detailhandelsoplossing die handel mogelijk maakt via alle afzetkanalen. Met de functies voor verkoop, mobiliteit, intelligence en productiviteit kunnen detailhandelaren en werknemers meer bereiken door de nadruk te leggen op cloud- en mobiele voorzieningen. Retail biedt uitgebreide ondersteuning voor een breed scala van bedrijfsprocessen, zoals merchandising, voorraadbeheer en afzetkanaalbeheer. Daarnaast biedt het een complete ervaring voor klanten via alle contactpunten.
 
 > [!NOTE]
-> Dynamics 365 for Retail is nauw gerelateerd aan Dynamics 365 for Finance and Operations en Dynamics 365 for Talent. Dezelfde functionaliteit kan in alle drie producten voorkomen. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail de productnaam Microsoft Dynamics 365 for Retail gebruikt; in onderwerpen die voornamelijk zijn gerelateerd aan het basisproduct (Finance and Operations) de productnaam Microsoft Dynamics 365 for Finance and Operations en in onderwerpen die voornamelijk zijn gerelateerd aan human resources de productnaam Dynamics 365 for Talent.
+> Dynamics 365 for Retail hangt nauw samen met Dynamics 365 for Finance and Operations en Dynamics 365 for Talent. Dezelfde functionaliteit kan in alle drie de producten voorkomen. Hierdoor wordt in onderwerpen die voornamelijk zijn gerelateerd aan Retail de productnaam Microsoft Dynamics 365 for Retail gebruikt. In onderwerpen die voornamelijk zijn gerelateerd aan het basisproduct (Finance and Operations) is de productnaam Microsoft Dynamics 365 for Finance and Operations en in onderwerpen die voornamelijk betrekking hebben op HR is de productnaam Dynamics 365 for Talent.
 
 Selecteer in het linkerdeelvenster een functiegebied om meer informatie hierover te bekijken.
 
@@ -77,12 +76,12 @@ U kunt verschillende onderdelen instellen voor het definiëren van de relaties t
 
 ## <a name="customize-and-administer-retail-environments"></a>Retail-omgevingen aanpassen en beheren
 
-Als u bent gevraagd om uw omgeving aan te passen, of als u verantwoordelijk bent om het systeem te implementeren en te onderhouden, bekijkt u de inhoud voor ontwikkelaars en systeembeheerders die speciaal is bedoeld voor Retail, evenals de meer algemene inhoud.
+Als u bent gevraagd om uw omgeving aan te passen, of als u verantwoordelijk bent voor het implementeren en onderhouden van het systeem, bekijkt u naast de meer algemene inhoud ook de specifieke inhoud voor ontwikkelaars en systeembeheerders van Retail.
 
 - [Dynamics 365 for Retail voor IT-professionals en ontwikkelaars](dev-itpro/dev-retail-home-page.md)
 - [Ontwikkeling en beheer voor Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
@@ -90,9 +89,8 @@ Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om
 
 ### <a name="blogs"></a>Weblogs
 
-U kunt adviezen, nieuws en andere informatie over Retail en andere oplossingen vinden op de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog).
+U kunt adviezen, nieuws en andere informatie over Retail en andere oplossingen vinden in de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog).
 
-Er zijn veel posts over Retail beschikbaar op de [blog van het Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze posts zijn geschreven voor de vorige versie van Retail, zijn dezelfde concepten nog van toepassing. Ook zijn de procedures vergelijkbaar met de huidige versie.
+Er zijn veel berichten over Retail beschikbaar in de blog van het [Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Retail, zijn dezelfde concepten nog van toepassing. Ook zijn de procedures vergelijkbaar met de huidige versie.
 
-De [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) geeft Microsoft Dynamics-partners een enkele bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
-
+De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.

@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7bc09cbd108949b37ea1b2207fc3e0c6961abf4b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302115"
 ---
-
 # <a name="accounts-payable-home-page"></a>Startpagina Leveranciers
 
 [!include [banner](../includes/banner.md)]
@@ -120,7 +119,7 @@ De volgende onderwerpen bevatten informatie over het beheren van vereffeningen. 
 
 
 
-### <a name="additional-resources"></a>Aanvullende resources
+### <a name="additional-resources"></a>Aanvullende bronnen
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
@@ -128,19 +127,18 @@ Ga naar de [Microsoft Dynamics 365-routekaart](https://roadmap.dynamics.com/) om
 
 #### <a name="blogs"></a>Weblogs
 
-U kunt adviezen, nieuws en andere informatie over Leveranciers en andere oplossingen vinden op de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+U kunt adviezen, nieuws en andere informatie over Leveranciers en andere oplossingen vinden in de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Er zijn veel posts over Leveranciers beschikbaar op de [blog van het Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Leveranciers, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
+Er zijn veel berichten over Leveranciers beschikbaar in de blog van het [Microsoft Dynamics AX-productteam](https://blogs.msdn.microsoft.com/dax/). Hoewel sommige van deze berichten zijn geschreven voor de vorige versie van Leveranciers, zijn dezelfde concepten nog steeds van toepassing en komen ook de procedures overeen in de huidige versie.
 
-De [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) geeft Microsoft Dynamics-partners een enkele bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
+De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in MBS Operations.
 
 #### <a name="task-guides"></a>Taakbegeleidingen
-Extra help is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
+Extra informatie is beschikbaar als taakbegeleidingen binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
 
 #### <a name="videos"></a>Video's
 
 Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 
 
