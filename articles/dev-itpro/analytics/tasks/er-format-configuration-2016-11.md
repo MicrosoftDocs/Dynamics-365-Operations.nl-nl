@@ -1,13 +1,13 @@
---- 
+---
 title: 'ER: Een indelingsconfiguratie maken (november 2016)'
 description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indelingsconfiguratie kan maken voor elektronische rapportage (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377544"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER: Een indelingsconfiguratie maken (november 2016)
 
@@ -35,8 +35,10 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 2. Klik op **Rapportconfiguraties**.
 3. Selecteer **Betalingen (vereenvoudigd model)** in de structuur.
 4. Klik op **Configuratie maken** om het dialoogvenster voor beëindigen te openen.
+
  > [!NOTE]
  > Als **Configuratie maken** niet wordt weergegeven, moet u de ontwerpmodus inschakelen op de pagina **Parameters van elektronische rapportage**. 
+ 
 5. Voer in het veld **Nieuw** **Indeling gebaseerd op gegevensmodel PaymentModel** in.
 6. Typ **BACS (UK fictief)** in het veld **Naam**.
 7. Typ **BACS-indeling voor leveranciersbetalingen (UK fictief)** in het veld **Beschrijving**.
@@ -44,9 +46,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
     * Er kan een specifieke indeling voor elektronische documenten worden gedefinieerd. Laat dit veld leeg als u een indeling wilt selecteren bij de uitvoering.  
 8. Typ of selecteer een waarde in het veld **Definitie gegevensmodel**.
 9. Klik op **Configuratie maken**. Er is een nieuwe configuratie gemaakt. De conceptversie kan worden gebruikt om de ontwerpindeling op te slaan voor het beheren van elektronische documenten.  
- > [!NOTE]
- > Als **Configuratie maken** niet wordt weergegeven, moet u de ontwerpmodus inschakelen op de pagina **Parameters van elektronische rapportage**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>De indeling van een elektronisch document ontwerpen
 1. Klik op **Ontwerper**.
@@ -159,5 +158,4 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 41. Klik tot slot op **OK**.
 42. Klik op **Opslaan**.
 43. Sluit de pagina.
-
 
