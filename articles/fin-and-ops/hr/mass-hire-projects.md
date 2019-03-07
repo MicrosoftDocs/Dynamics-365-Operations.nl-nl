@@ -1,13 +1,13 @@
 ---
 title: Projecten voor massaal aanstellen
-description: "Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen."
+description: Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject
 audience: Application User
 ms.reviewer: rschloma
@@ -18,69 +18,67 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: e4c1bd382fa803f90a251c8c45acc556bee627d1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361539"
 ---
-
-# <a name="mass-hire-projects"></a><span data-ttu-id="4bce5-103">Projecten voor massaal aanstellen</span><span class="sxs-lookup"><span data-stu-id="4bce5-103">Mass hire projects</span></span>
+# <a name="mass-hire-projects"></a><span data-ttu-id="21d56-103">Projecten voor massaal aanstellen</span><span class="sxs-lookup"><span data-stu-id="21d56-103">Mass hire projects</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4bce5-104">Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen.</span><span class="sxs-lookup"><span data-stu-id="4bce5-104">Mass hire projects allow human resources specialists to create multiple positions and efficiently hire workers into those positions.</span></span>
+<span data-ttu-id="21d56-104">Met massale aanstellingsprojecten kunnen resourcespecialisten meerdere functies maken en efficiënt medewerkers in die functies aanstellen.</span><span class="sxs-lookup"><span data-stu-id="21d56-104">Mass hire projects allow human resources specialists to create multiple positions and efficiently hire workers into those positions.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="4bce5-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="4bce5-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="21d56-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="21d56-105">Overview</span></span>
 
-<span data-ttu-id="4bce5-106">Maak gebruik van projecten met massale inhuur wanneer u in één keer meerdere werknemers aanneemt, zoals bij het aannemen van mensen om te voldoen aan een seizoengebonden vraag.</span><span class="sxs-lookup"><span data-stu-id="4bce5-106">Use mass hire projects when you hire multiple workers at one time, such as when you hire to meet a seasonal demand.</span></span> <span data-ttu-id="4bce5-107">Het maken van een project met massale inhuur is handig, omdat u tegelijkertijd functieregistraties, werknemerregistraties en werknemertoewijzingen voor functies kunt maken.</span><span class="sxs-lookup"><span data-stu-id="4bce5-107">Creating a mass hire project is useful because you can create position records, worker records, and worker assignments for positions at the same time.</span></span> <span data-ttu-id="4bce5-108">Wanneer u functies voor een project met massale inhuur maakt, kunt u de volgende informatie opgeven:</span><span class="sxs-lookup"><span data-stu-id="4bce5-108">When you create positions for a mass hire project, you can specify the following information:</span></span>
+<span data-ttu-id="21d56-106">Maak gebruik van projecten met massale inhuur wanneer u in één keer meerdere werknemers aanneemt, zoals bij het aannemen van mensen om te voldoen aan een seizoengebonden vraag.</span><span class="sxs-lookup"><span data-stu-id="21d56-106">Use mass hire projects when you hire multiple workers at one time, such as when you hire to meet a seasonal demand.</span></span> <span data-ttu-id="21d56-107">Het maken van een project met massale inhuur is handig, omdat u tegelijkertijd functieregistraties, werknemerregistraties en werknemertoewijzingen voor functies kunt maken.</span><span class="sxs-lookup"><span data-stu-id="21d56-107">Creating a mass hire project is useful because you can create position records, worker records, and worker assignments for positions at the same time.</span></span> <span data-ttu-id="21d56-108">Wanneer u functies voor een project met massale inhuur maakt, kunt u de volgende informatie opgeven:</span><span class="sxs-lookup"><span data-stu-id="21d56-108">When you create positions for a mass hire project, you can specify the following information:</span></span>
 
-- <span data-ttu-id="4bce5-109">Het aantal te maken functies</span><span class="sxs-lookup"><span data-stu-id="4bce5-109">The number of positions to create</span></span>
-- <span data-ttu-id="4bce5-110">Het type werknemer van de mensen die u voor de functies wilt aanstellen</span><span class="sxs-lookup"><span data-stu-id="4bce5-110">The worker type of the people that you will hire for the positions</span></span>
-- <span data-ttu-id="4bce5-111">De afdeling en de taak die aan de functies zijn gekoppeld</span><span class="sxs-lookup"><span data-stu-id="4bce5-111">The department and the job that are associated with the positions</span></span>
-- <span data-ttu-id="4bce5-112">De full-time equivalentwaarde van de functie</span><span class="sxs-lookup"><span data-stu-id="4bce5-112">The full-time equivalent value of the position</span></span>
+- <span data-ttu-id="21d56-109">Het aantal te maken functies</span><span class="sxs-lookup"><span data-stu-id="21d56-109">The number of positions to create</span></span>
+- <span data-ttu-id="21d56-110">Het type werknemer van de mensen die u voor de functies wilt aanstellen</span><span class="sxs-lookup"><span data-stu-id="21d56-110">The worker type of the people that you will hire for the positions</span></span>
+- <span data-ttu-id="21d56-111">De afdeling en de taak die aan de functies zijn gekoppeld</span><span class="sxs-lookup"><span data-stu-id="21d56-111">The department and the job that are associated with the positions</span></span>
+- <span data-ttu-id="21d56-112">De full-time equivalentwaarde van de functie</span><span class="sxs-lookup"><span data-stu-id="21d56-112">The full-time equivalent value of the position</span></span>
 
-## <a name="example"></a><span data-ttu-id="4bce5-113">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="4bce5-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="21d56-113">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="21d56-113">Example</span></span>
 
-<span data-ttu-id="4bce5-114">In de zomer neemt u meestal 15-20 deeltijdstudenten aan om beschikbare stageplaatsen in uw bedrijf op te vullen.</span><span class="sxs-lookup"><span data-stu-id="4bce5-114">In the summer, you usually hire 15-20 part-time college students to fill available internships in your company.</span></span> <span data-ttu-id="4bce5-115">Dit jaar wilt u vijf accountants aanstellen, vijf orderverwerkers en vijf kasmedewerkers.</span><span class="sxs-lookup"><span data-stu-id="4bce5-115">This year, you want to hire five accountants, five order processors, and five cashiers.</span></span> <span data-ttu-id="4bce5-116">In plaats van elke functieregistratie en werknemerregistratie afzonderlijk te maken, kunt u één project met massale inhuur maken met de naam 'SummerInterns'.</span><span class="sxs-lookup"><span data-stu-id="4bce5-116">Instead of creating each position record and worker record separately, you create one mass hire project called "SummerInterns".</span></span> <span data-ttu-id="4bce5-117">De begin- en einddata van het project correleren met de begin- en einddata van de duur van de functie voor de functies die u voor het project voor massaal aanstellen maakt.</span><span class="sxs-lookup"><span data-stu-id="4bce5-117">The project start and end dates correlate with the start and end dates of the position durations for the positions you create for the mass hire project.</span></span>
+<span data-ttu-id="21d56-114">In de zomer neemt u meestal 15-20 deeltijdstudenten aan om beschikbare stageplaatsen in uw bedrijf op te vullen.</span><span class="sxs-lookup"><span data-stu-id="21d56-114">In the summer, you usually hire 15-20 part-time college students to fill available internships in your company.</span></span> <span data-ttu-id="21d56-115">Dit jaar wilt u vijf accountants aanstellen, vijf orderverwerkers en vijf kasmedewerkers.</span><span class="sxs-lookup"><span data-stu-id="21d56-115">This year, you want to hire five accountants, five order processors, and five cashiers.</span></span> <span data-ttu-id="21d56-116">In plaats van elke functieregistratie en werknemerregistratie afzonderlijk te maken, kunt u één project met massale inhuur maken met de naam 'SummerInterns'.</span><span class="sxs-lookup"><span data-stu-id="21d56-116">Instead of creating each position record and worker record separately, you create one mass hire project called "SummerInterns".</span></span> <span data-ttu-id="21d56-117">De begin- en einddata van het project correleren met de begin- en einddata van de duur van de functie voor de functies die u voor het project voor massaal aanstellen maakt.</span><span class="sxs-lookup"><span data-stu-id="21d56-117">The project start and end dates correlate with the start and end dates of the position durations for the positions you create for the mass hire project.</span></span>
 
-<span data-ttu-id="4bce5-118">Selecteer op de pagina **Projecten voor massaal aanstellen** het project 'SummerInterns' en klik vervolgens op **Project openen**.</span><span class="sxs-lookup"><span data-stu-id="4bce5-118">In the **Mass hire projects** page, select the "SummerInterns" project and then click **Open project**.</span></span> <span data-ttu-id="4bce5-119">Klik in het project voor massaal aanstellen op **Functies maken** en voer gegevens in over de functie van accountant.</span><span class="sxs-lookup"><span data-stu-id="4bce5-119">In the open mass hire project, click **Create positions** and enter information about the accountant position.</span></span> <span data-ttu-id="4bce5-120">U kunt aangeven dat er vijf accountant-functies moeten worden gemaakt met elk dezelfde gegevens. Klik vervolgens op OK.</span><span class="sxs-lookup"><span data-stu-id="4bce5-120">You can indicate that five accountant positions should be created using the same information for each one, and then click OK.</span></span> <span data-ttu-id="4bce5-121">Herhaal dit proces voor de functie van orderverwerker en kasmedewerker.</span><span class="sxs-lookup"><span data-stu-id="4bce5-121">Repeat this process for the order processor and cashier positions.</span></span>
+<span data-ttu-id="21d56-118">Selecteer op de pagina **Projecten voor massaal aanstellen** het project 'SummerInterns' en klik vervolgens op **Project openen**.</span><span class="sxs-lookup"><span data-stu-id="21d56-118">In the **Mass hire projects** page, select the "SummerInterns" project and then click **Open project**.</span></span> <span data-ttu-id="21d56-119">Klik in het project voor massaal aanstellen op **Functies maken** en voer gegevens in over de functie van accountant.</span><span class="sxs-lookup"><span data-stu-id="21d56-119">In the open mass hire project, click **Create positions** and enter information about the accountant position.</span></span> <span data-ttu-id="21d56-120">U kunt aangeven dat er vijf accountant-functies moeten worden gemaakt met elk dezelfde gegevens. Klik vervolgens op OK.</span><span class="sxs-lookup"><span data-stu-id="21d56-120">You can indicate that five accountant positions should be created using the same information for each one, and then click OK.</span></span> <span data-ttu-id="21d56-121">Herhaal dit proces voor de functie van orderverwerker en kasmedewerker.</span><span class="sxs-lookup"><span data-stu-id="21d56-121">Repeat this process for the order processor and cashier positions.</span></span>
 
-<span data-ttu-id="4bce5-122">Nadat u studenten hebt geselecteerd om voor de stages aan te stellen, voert u voor elke student informatie in **Functiedetails** in voor de functie waarvoor u deze aanstelt.</span><span class="sxs-lookup"><span data-stu-id="4bce5-122">After selecting students to hire for the internship positions, you'll enter each student's information in the **Position details** for the position that you're hiring them for.</span></span> <span data-ttu-id="4bce5-123">Wanneer u alle functiedetails hebt ingevoerd, selecteert u de functie op de pagina Projecten voor massaal aanstellen en klikt u op **Aanstellen**.</span><span class="sxs-lookup"><span data-stu-id="4bce5-123">When you have entered all of the position details, select the position in the Mass hire projects page, and then click **Hire**.</span></span> <span data-ttu-id="4bce5-124">Voor elke functie wordt een functieregistratie gemaakt en voor elke persoon die u aanstelt wordt een werknemerregistratie gemaakt en toegewezen aan de juiste functie.</span><span class="sxs-lookup"><span data-stu-id="4bce5-124">A position record will be created for each position and a worker record will be created and assigned to the correct position for each person who you hire.</span></span>
+<span data-ttu-id="21d56-122">Nadat u studenten hebt geselecteerd om voor de stages aan te stellen, voert u voor elke student informatie in **Functiedetails** in voor de functie waarvoor u deze aanstelt.</span><span class="sxs-lookup"><span data-stu-id="21d56-122">After selecting students to hire for the internship positions, you'll enter each student's information in the **Position details** for the position that you're hiring them for.</span></span> <span data-ttu-id="21d56-123">Wanneer u alle functiedetails hebt ingevoerd, selecteert u de functie op de pagina Projecten voor massaal aanstellen en klikt u op **Aanstellen**.</span><span class="sxs-lookup"><span data-stu-id="21d56-123">When you have entered all of the position details, select the position in the Mass hire projects page, and then click **Hire**.</span></span> <span data-ttu-id="21d56-124">Voor elke functie wordt een functieregistratie gemaakt en voor elke persoon die u aanstelt wordt een werknemerregistratie gemaakt en toegewezen aan de juiste functie.</span><span class="sxs-lookup"><span data-stu-id="21d56-124">A position record will be created for each position and a worker record will be created and assigned to the correct position for each person who you hire.</span></span>
 
-## <a name="mass-hire-project-statuses"></a><span data-ttu-id="4bce5-125">Status van een project met massale inhuur</span><span class="sxs-lookup"><span data-stu-id="4bce5-125">Mass hire project statuses</span></span>
+## <a name="mass-hire-project-statuses"></a><span data-ttu-id="21d56-125">Status van een project met massale inhuur</span><span class="sxs-lookup"><span data-stu-id="21d56-125">Mass hire project statuses</span></span>
 
-<span data-ttu-id="4bce5-126">Een project met massale inhuur kan een van de volgende statussen hebben.</span><span class="sxs-lookup"><span data-stu-id="4bce5-126">A mass hire project can have the following statuses.</span></span>
+<span data-ttu-id="21d56-126">Een project met massale inhuur kan een van de volgende statussen hebben.</span><span class="sxs-lookup"><span data-stu-id="21d56-126">A mass hire project can have the following statuses.</span></span>
 
-- <span data-ttu-id="4bce5-127">Gemaakt</span><span class="sxs-lookup"><span data-stu-id="4bce5-127">Created</span></span>
-- <span data-ttu-id="4bce5-128">Openstaand</span><span class="sxs-lookup"><span data-stu-id="4bce5-128">Open</span></span>
-- <span data-ttu-id="4bce5-129">Gesloten</span><span class="sxs-lookup"><span data-stu-id="4bce5-129">Closed</span></span>
+- <span data-ttu-id="21d56-127">Gemaakt</span><span class="sxs-lookup"><span data-stu-id="21d56-127">Created</span></span>
+- <span data-ttu-id="21d56-128">Openstaand</span><span class="sxs-lookup"><span data-stu-id="21d56-128">Open</span></span>
+- <span data-ttu-id="21d56-129">Gesloten</span><span class="sxs-lookup"><span data-stu-id="21d56-129">Closed</span></span>
 
-<span data-ttu-id="4bce5-130">Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of **Project sluiten** om de status van een project voor massaal aanstellen te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="4bce5-130">On the **Mass hire project** page, click **Open project** or **Close project** to change the status of a mass hire project.</span></span> <span data-ttu-id="4bce5-131">In de volgende tabel staat wat u volgens de status met een project kunt doen.</span><span class="sxs-lookup"><span data-stu-id="4bce5-131">The following table describes what you can do with a project according to its status.</span></span>
+<span data-ttu-id="21d56-130">Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of **Project sluiten** om de status van een project voor massaal aanstellen te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="21d56-130">On the **Mass hire project** page, click **Open project** or **Close project** to change the status of a mass hire project.</span></span> <span data-ttu-id="21d56-131">In de volgende tabel staat wat u volgens de status met een project kunt doen.</span><span class="sxs-lookup"><span data-stu-id="21d56-131">The following table describes what you can do with a project according to its status.</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="4bce5-132">Status</span><span class="sxs-lookup"><span data-stu-id="4bce5-132">Status</span></span></th>
-<th><span data-ttu-id="4bce5-133">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="4bce5-133">Description</span></span></th>
+<th><span data-ttu-id="21d56-132">Status</span><span class="sxs-lookup"><span data-stu-id="21d56-132">Status</span></span></th>
+<th><span data-ttu-id="21d56-133">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="21d56-133">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="4bce5-134">Gemaakt</span><span class="sxs-lookup"><span data-stu-id="4bce5-134">Created</span></span></td>
-<td><span data-ttu-id="4bce5-135">U kunt gegevens maken en wijzigen, maar geen functies voor het project maken.</span><span class="sxs-lookup"><span data-stu-id="4bce5-135">You can create and modify information, but cannot create positions for the project.</span></span> <span data-ttu-id="4bce5-136">Dit is de standaardstatus voor nieuwe projecten.</span><span class="sxs-lookup"><span data-stu-id="4bce5-136">This is the default status for new projects.</span></span></td>
+<td><span data-ttu-id="21d56-134">Gemaakt</span><span class="sxs-lookup"><span data-stu-id="21d56-134">Created</span></span></td>
+<td><span data-ttu-id="21d56-135">U kunt gegevens maken en wijzigen, maar geen functies voor het project maken.</span><span class="sxs-lookup"><span data-stu-id="21d56-135">You can create and modify information, but cannot create positions for the project.</span></span> <span data-ttu-id="21d56-136">Dit is de standaardstatus voor nieuwe projecten.</span><span class="sxs-lookup"><span data-stu-id="21d56-136">This is the default status for new projects.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="4bce5-137">Openstaand</span><span class="sxs-lookup"><span data-stu-id="4bce5-137">Open</span></span></td>
-<td><span data-ttu-id="4bce5-138">U kunt de projectdetails wijzigen, functies voor het project met massale inhuur maken en mensen voor de functies aanstellen.</span><span class="sxs-lookup"><span data-stu-id="4bce5-138">You can modify the project details, create positions for the mass hire project, and hire people for the positions.</span></span> <span data-ttu-id="4bce5-139">Dit is de status voor actieve projecten.</span><span class="sxs-lookup"><span data-stu-id="4bce5-139">This is the status for active projects.</span></span></td>
+<td><span data-ttu-id="21d56-137">Openstaand</span><span class="sxs-lookup"><span data-stu-id="21d56-137">Open</span></span></td>
+<td><span data-ttu-id="21d56-138">U kunt de projectdetails wijzigen, functies voor het project met massale inhuur maken en mensen voor de functies aanstellen.</span><span class="sxs-lookup"><span data-stu-id="21d56-138">You can modify the project details, create positions for the mass hire project, and hire people for the positions.</span></span> <span data-ttu-id="21d56-139">Dit is de status voor actieve projecten.</span><span class="sxs-lookup"><span data-stu-id="21d56-139">This is the status for active projects.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="4bce5-140">Gesloten</span><span class="sxs-lookup"><span data-stu-id="4bce5-140">Closed</span></span></td>
-<td><span data-ttu-id="4bce5-141">U kunt geen functies aan het project toevoegen.</span><span class="sxs-lookup"><span data-stu-id="4bce5-141">You cannot add positions to the project.</span></span> <span data-ttu-id="4bce5-142">Om functies aan het project met massale inhuur toe te voegen, moet u het project opnieuw openen.</span><span class="sxs-lookup"><span data-stu-id="4bce5-142">To add positions to the mass hire project, open the project again.</span></span> <span data-ttu-id="4bce5-143">Dit is de status voor voltooide projecten.</span><span class="sxs-lookup"><span data-stu-id="4bce5-143">This is the status for completed projects.</span></span>
-<blockquote>[!NOTE] <span data-ttu-id="4bce5-144">Voordat u een project met massale inhuur kunt sluiten, moeten alle functies in het project de status Gemaakt of Afgesloten hebben.</span><span class="sxs-lookup"><span data-stu-id="4bce5-144">Before you can close a mass hire project, all positions in the project must have a status of either Created or Closed.</span></span></blockquote>
+<td><span data-ttu-id="21d56-140">Gesloten</span><span class="sxs-lookup"><span data-stu-id="21d56-140">Closed</span></span></td>
+<td><span data-ttu-id="21d56-141">U kunt geen functies aan het project toevoegen.</span><span class="sxs-lookup"><span data-stu-id="21d56-141">You cannot add positions to the project.</span></span> <span data-ttu-id="21d56-142">Om functies aan het project met massale inhuur toe te voegen, moet u het project opnieuw openen.</span><span class="sxs-lookup"><span data-stu-id="21d56-142">To add positions to the mass hire project, open the project again.</span></span> <span data-ttu-id="21d56-143">Dit is de status voor voltooide projecten.</span><span class="sxs-lookup"><span data-stu-id="21d56-143">This is the status for completed projects.</span></span>
+<blockquote>[!NOTE] <span data-ttu-id="21d56-144">Voordat u een project met massale inhuur kunt sluiten, moeten alle functies in het project de status Gemaakt of Afgesloten hebben.</span><span class="sxs-lookup"><span data-stu-id="21d56-144">Before you can close a mass hire project, all positions in the project must have a status of either Created or Closed.</span></span></blockquote>
 </td>
 </tr>
 </tbody>
 </table>
-

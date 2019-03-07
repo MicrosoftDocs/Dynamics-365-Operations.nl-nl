@@ -5,42 +5,40 @@ author: ashishmsft
 manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354064"
 ---
-
-# <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a><span data-ttu-id="4780d-103">Orders verzenden vanuit een andere winkel met behulp van de verzendfunctie Toeslag</span><span class="sxs-lookup"><span data-stu-id="4780d-103">Ship orders from another store by using the Charge send feature</span></span>
+# <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a><span data-ttu-id="1df4b-103">Orders verzenden vanuit een andere winkel met behulp van de verzendfunctie Toeslag</span><span class="sxs-lookup"><span data-stu-id="1df4b-103">Ship orders from another store by using the Charge send feature</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="4780d-104">Met de verzendfunctie Toeslag in Dynamics 365 for Retail kunnen klantorders in de ene winkel worden geplaatst en vanuit een andere winkel worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="4780d-104">With the Charge send feature in Dynamics 365 for Retail, customer orders can be placed in one store and shipped from another store.</span></span>
+<span data-ttu-id="1df4b-104">Met de verzendfunctie Toeslag in Dynamics 365 for Retail kunnen klantorders in de ene winkel worden geplaatst en vanuit een andere winkel worden verzonden.</span><span class="sxs-lookup"><span data-stu-id="1df4b-104">With the Charge send feature in Dynamics 365 for Retail, customer orders can be placed in one store and shipped from another store.</span></span>
 
-<span data-ttu-id="4780d-105">Klantorders in de POS-client (Point Of Sale) ondersteunen meerdere afhandelingsopties.</span><span class="sxs-lookup"><span data-stu-id="4780d-105">Customer orders in the point of sale (POS) client support multiple fulfillment options.</span></span> <span data-ttu-id="4780d-106">Enkele voorbeelden van afhandelingsopties:</span><span class="sxs-lookup"><span data-stu-id="4780d-106">Some examples of fulfillment options include:</span></span>
+<span data-ttu-id="1df4b-105">Klantorders in de POS-client (Point Of Sale) ondersteunen meerdere afhandelingsopties.</span><span class="sxs-lookup"><span data-stu-id="1df4b-105">Customer orders in the point of sale (POS) client support multiple fulfillment options.</span></span> <span data-ttu-id="1df4b-106">Enkele voorbeelden van afhandelingsopties:</span><span class="sxs-lookup"><span data-stu-id="1df4b-106">Some examples of fulfillment options include:</span></span>
 
-- <span data-ttu-id="4780d-107">Ophalen uit dezelfde locatie op een andere datum.</span><span class="sxs-lookup"><span data-stu-id="4780d-107">Pick up from the same store on a different date.</span></span>
-- <span data-ttu-id="4780d-108">Ophalen uit een andere locatie op dezelfde of een andere datum.</span><span class="sxs-lookup"><span data-stu-id="4780d-108">Pick up from a different store on the same date or a different date.</span></span>
-- <span data-ttu-id="4780d-109">Verzenden vanuit het standaardmagazijn van verzending die is toegewezen aan de winkel en op een bepaalde datum leveren.</span><span class="sxs-lookup"><span data-stu-id="4780d-109">Ship from the default shipping warehouse that is assigned to the store, and deliver on a specific date.</span></span>
+- <span data-ttu-id="1df4b-107">Ophalen uit dezelfde locatie op een andere datum.</span><span class="sxs-lookup"><span data-stu-id="1df4b-107">Pick up from the same store on a different date.</span></span>
+- <span data-ttu-id="1df4b-108">Ophalen uit een andere locatie op dezelfde of een andere datum.</span><span class="sxs-lookup"><span data-stu-id="1df4b-108">Pick up from a different store on the same date or a different date.</span></span>
+- <span data-ttu-id="1df4b-109">Verzenden vanuit het standaardmagazijn van verzending die is toegewezen aan de winkel en op een bepaalde datum leveren.</span><span class="sxs-lookup"><span data-stu-id="1df4b-109">Ship from the default shipping warehouse that is assigned to the store, and deliver on a specific date.</span></span>
 
-<span data-ttu-id="4780d-110">Met de verzendfunctie Toeslag worden de volgende POS-bewerkingen gebruikt: Alle producten verzenden en Geselecteerde producten verzenden.</span><span class="sxs-lookup"><span data-stu-id="4780d-110">The Charge send feature uses the following POS operations: Ship all products and Ship selected products.</span></span> <span data-ttu-id="4780d-111">Hierdoor kan de medewerker van de winkel de verzendlocatie selecteren waar de order of orderregel kan worden afgehandeld.</span><span class="sxs-lookup"><span data-stu-id="4780d-111">This allows the store clerk to select the "ship from" location that the order or order line can be fulfilled from.</span></span> <span data-ttu-id="4780d-112">Standaard is de verzendlocatie het magazijn van verzending dat is gekoppeld aan de winkel.</span><span class="sxs-lookup"><span data-stu-id="4780d-112">By default, the "ship from" location is the shipping warehouse that is associated with the store.</span></span> <span data-ttu-id="4780d-113">De medewerker van de winkel kan deze locatie echter wijzigen en een winkel selecteren die is gedefinieerd in de winkellocatorgroep die aan de winkel is toegewezen.</span><span class="sxs-lookup"><span data-stu-id="4780d-113">However, the store clerk can change this location and select any store that is defined in the store locator group that is assigned to the store.</span></span>
+<span data-ttu-id="1df4b-110">Met de verzendfunctie Toeslag worden de volgende POS-bewerkingen gebruikt: Alle producten verzenden en Geselecteerde producten verzenden.</span><span class="sxs-lookup"><span data-stu-id="1df4b-110">The Charge send feature uses the following POS operations: Ship all products and Ship selected products.</span></span> <span data-ttu-id="1df4b-111">Hierdoor kan de medewerker van de winkel de verzendlocatie selecteren waar de order of orderregel kan worden afgehandeld.</span><span class="sxs-lookup"><span data-stu-id="1df4b-111">This allows the store clerk to select the "ship from" location that the order or order line can be fulfilled from.</span></span> <span data-ttu-id="1df4b-112">Standaard is de verzendlocatie het magazijn van verzending dat is gekoppeld aan de winkel.</span><span class="sxs-lookup"><span data-stu-id="1df4b-112">By default, the "ship from" location is the shipping warehouse that is associated with the store.</span></span> <span data-ttu-id="1df4b-113">De medewerker van de winkel kan deze locatie echter wijzigen en een winkel selecteren die is gedefinieerd in de winkellocatorgroep die aan de winkel is toegewezen.</span><span class="sxs-lookup"><span data-stu-id="1df4b-113">However, the store clerk can change this location and select any store that is defined in the store locator group that is assigned to the store.</span></span>
 
-<span data-ttu-id="4780d-114">De mogelijkheid om afleveradressen te selecteren, blijft ongewijzigd.</span><span class="sxs-lookup"><span data-stu-id="4780d-114">The ability to select "ship to" addresses remains unchanged.</span></span>
+<span data-ttu-id="1df4b-114">De mogelijkheid om afleveradressen te selecteren, blijft ongewijzigd.</span><span class="sxs-lookup"><span data-stu-id="1df4b-114">The ability to select "ship to" addresses remains unchanged.</span></span>
 
-<span data-ttu-id="4780d-115">De verzendmethoden die kunnen worden gebruikt om te voldoen aan de orderregel zijn gebaseerd op de configuratie van geldige leveringsmethoden voor producten en adressen.</span><span class="sxs-lookup"><span data-stu-id="4780d-115">The shipping methods that can be used to fulfill the order line are based on the configuration of valid modes of delivery for products and addresses.</span></span> <span data-ttu-id="4780d-116">Omdat de regels over geldige leveringsmethoden alleen worden beheerd in Detailhandel Hoofdkantoor, voert de POS-client een real-time aanroep uit om de geldige leveringsmethoden voor een verzendregel op te halen.</span><span class="sxs-lookup"><span data-stu-id="4780d-116">Because the rules about valid of modes of delivery are maintained only in the Retail headquarters (HQ), the POS client makes a real-time call to fetch the valid modes of delivery for a ship line.</span></span>
-
+<span data-ttu-id="1df4b-115">De verzendmethoden die kunnen worden gebruikt om te voldoen aan de orderregel zijn gebaseerd op de configuratie van geldige leveringsmethoden voor producten en adressen.</span><span class="sxs-lookup"><span data-stu-id="1df4b-115">The shipping methods that can be used to fulfill the order line are based on the configuration of valid modes of delivery for products and addresses.</span></span> <span data-ttu-id="1df4b-116">Omdat de regels over geldige leveringsmethoden alleen worden beheerd in Detailhandel Hoofdkantoor, voert de POS-client een real-time aanroep uit om de geldige leveringsmethoden voor een verzendregel op te halen.</span><span class="sxs-lookup"><span data-stu-id="1df4b-116">Because the rules about valid of modes of delivery are maintained only in the Retail headquarters (HQ), the POS client makes a real-time call to fetch the valid modes of delivery for a ship line.</span></span>
