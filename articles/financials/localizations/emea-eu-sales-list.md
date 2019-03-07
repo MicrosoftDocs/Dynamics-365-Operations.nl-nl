@@ -5,9 +5,9 @@ author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2c4fe1c93693cee9164f2c22ad71a29abd6473d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e1eff86902170401e593019ea555d9c2a4c11c04
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371420"
 ---
-
 # <a name="eu-sales-list-reporting"></a>Rapport ICL-lijst
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Door ESL te gebruiken, kunnen de belastingdienst van elke EG-lidstaat controlere
 U kunt de volgende taken uitvoeren voor een EU-verkooplijst rapportering:
 
 -   Verzamelen van informatie over intracommunautaire handelstransacties. Een intracommunautair handelstransactie kan een verkoopfactuur, een vrije-tektsfactuur, een projectfactuur, of een leveranciersfactuur zijn. Een transactie wordt geïdentificeerd op basis van het land of de regio van de tegenpartij. Het intracommunautair handelstransacties van verschillende typen worden verzameld in de EU-verkooplijsttabel, waar deze in het algemene formulier worden weergegeven. Elk record van de ESL-tabel vertegenwoordigt enkele transacties en bestaat uit de BTW-identificatie van een tegenpartij en de totale waarde van goederen en diensten die zijn geleverd.
--   (Optioneel)**Preview de EU-verkooplijstrapport** . U kunt de **EU-verkooplijst** rapport previewen en valideren voor een bepaalde periode in de vorm van een Microsoft Excel-spreadsheet.
+-   (Optioneel)**Preview de EU-verkooplijstrapport** . U kunt het rapport **EU-verkooplijst** previewen en valideren voor een bepaalde periode in de vorm van een Microsoft Excel-spreadsheet.
 -   Genereren van de **EU-Verkooplijst** rapport. Het **EU Verkooplijst** rapport wordt gegenereerd in de vorm van een elektronisch bestand van een gedefinieerde indeling die voor elke EU-lidstaat specifiek is. In het algemeen bevat het **EU-Verkooplijst** rapport bevat basis informatie over de rapporterende partij en de waarde van de levering van goederen en diensten. De informatie worden gegroepeerd op het land en de VAT identificatie van een tegenpartij.
 -   Sluit de EU-Verkooplijst rapporteringperiode. Nadat het **EU-Verkooplijst** rapport is gegenereerd en ingediend bij de autoriteiten ingediend, dan kunt u de records markeren van de ESL tabel als **Afgesloten**. Deze transacties worden niet opgenomen in extra rapporten.
 
@@ -122,7 +121,7 @@ De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u 
 <li><strong>Parameters land/regio</strong> tabblad: Identificeer EU-lidstaten. Voor elk EU-lidstaaat, maak een registratie op de pagina, en geef de volgende informatie:
 <ul>
 <li><strong>Land/regio</strong> Selecteer een land/regio.</li>
-<li><strong>Land-/regiotype</strong> Als de <strong>Land/regio</strong> waarde het land of de regio is waar uw bedrijf in wordt geregistreerd, selecteer <strong>Binnenlands</strong>. Als de <strong>Land-/regio</strong> waarde een EU-lidstaat is, anders dan het land/regio waar uw bedrijf is geregistreerd, Selecteer <strong>EU</strong>. Als de <strong>Land/regio</strong> waarde geen EG-lidstaat is, selecteer <strong>Derde land/regio</strong>.</li>
+<li><strong>Land-/regiotype</strong> Als de <strong>Land/regio</strong> waarde het land of de regio is waar uw bedrijf in wordt geregistreerd, selecteer <strong>Binnenlands</strong>. Als de <strong>Land-/regio</strong> waarde een EU-lidstaat is, anders dan het land/regio waar uw bedrijf is geregistreerd, Selecteer <strong>EU</strong>. Als de <strong>Land/regio</strong>-waarde geen EG-lidstaat is, selecteert u <strong>Derde land/regio</strong>.</li>
 </ul></li>
 <li><strong>Nummerreeksen</strong> tabblad: Op de regel waarin de <strong>Verwijzing</strong> waarde is <strong>EU-verkooplijst</strong>, selecteer een nummerreekscode.</li>
 </ul></td>
@@ -158,7 +157,6 @@ U kunt een rapport **EU-verkooplijst** genereren door de functie **Rapportering*
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>Sluiten van de EU-Verkooplijst rapporteringperiode.
 
 Als u het rapportageproces voor een specifieke periode (bijvoorbeeld, wanneer de belastingdienst de **EU-verkooplijst** rapport accepteerd), kunt u de ESL registraties markeren die bijgesloten zijn in het rapport voor de periode door het instellen van de **Rapportage status** waarde op **Gesloten**. Om deze status in te stellen, gebruik de **Markeren als gesloten** functie op de **EU-verkooplijst** pagina. Als u de afsluiting van de periode omkeert, kunt u ESL-registraties markeren door de **Rapportage status** waarde in te stellen op **Opgenomen**. Deze records kunnen vervolgens opnieuw op een rapport **EU-verkooplijst** worden opgenomen. Om deze status in te stellen, gebruik de **Markeren als** **Inclusief** functie op de **EU-verkooplijst** pagina.
-
 
 
 

@@ -5,9 +5,9 @@ author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362873"
 ---
-
 # <a name="bom-calculations-groups"></a>Stuklijstberekeningsgroepen
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Een stuklijstberekening genereert waarschuwingsberichten. U kunt de waarschuwing
 -   Er wordt een waarschuwing aangegeven wanneer het artikel op een stuklijstregel een lager winstpercentage dan gewenst heeft.
 
 Afhankelijk van uw vereisten voor variaties in waarschuwingsberichten kunt u meerdere stuklijstberekeningsgroepen definiëren. Eén stuklijstberekeningsgroep met waarschuwingsvoorwaarden over een actieve stuklijst, een hoeveelheid van 0 (nul) onderdelen en een kostprijs van de onderdelen van 0 (nul) kan bijvoorbeeld voldoende zijn. Wanneer u een stuklijstberekening start, kunt u de toepasselijke waarschuwingsvoorwaarden die aan de stuklijstberekeningsgroep zijn gekoppeld, overschrijven. U kunt ook waarschuwingsvoorwaarden toevoegen of verwijderen. Wanneer bijvoorbeeld geen routegegevens nodig zijn voor de huidige situatie, kunt u de waarschuwingsvoorwaarde over een actieve route verwijderen. **Opmerking:** Tijd en aanwezigheid bevat een pagina **Berekeningsgroepen**, maar die pagina heeft geen betrekking op stuklijstberekeningsgroepen. In Tijd en aanwezigheid kunnen werknemers worden toegewezen aan berekeningsgroepen die de groepering weergeven van werknemers die zijn gekoppeld aan dezelfde supervisor of manager. Het berekenen van de registratie van werknemers kan automatisch plaatsvinden of handmatig door een supervisor of manager worden uitgevoerd.
-
 
 
 

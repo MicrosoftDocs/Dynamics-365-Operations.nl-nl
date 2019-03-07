@@ -5,9 +5,9 @@ author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntities, ProjFormletterParameters, CustFormletterParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 1e3e8ca7356001d113c676b25bd27f890ef1d650
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 2afdc11b428ffe5d2ca0f65d040507e89e0b8c02
-ms.contentlocale: nl-nl
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371374"
 ---
-
 # <a name="payment-slip-report-for-europe"></a>Betalingsbonrapport voor Europa
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Nadat u de indeling voor betalingsbonbijlagen hebt ingesteld voor verkoopfacture
 2.  Maak een nieuwe klant of selecteer een bestaande klant.
 3.  Selecteer op het sneltabblad **Factuur en levering** in de velden **Op een klantfactuur**, **Op een vrije-tekstfactuur**, **Op een rentenota**, **Op een aanmaning**, **Op een projectfactuur** en **Op een rekeningoverzicht** de indeling voor betalingsbonbijlagen die worden bijgevoegd bij documenten van elk willekeurig type, die worden verzonden naar de geselecteerde klant.
 4.  Sluit het formulier om de wijzigingen op te slaan.
-
 
 
 

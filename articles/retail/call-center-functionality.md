@@ -1,13 +1,13 @@
 ---
 title: Verkoopfunctionaliteit callcenter
-description: Dit onderwerp bevat een overzicht van de verkoopfunctionaliteit voor callcenters in Microsoft Dynamics 365 for Retail.
+description: Dit onderwerp bevat een overzicht van de functionaliteit voor callcenterverkoop in Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 2b536ad4f29a3bb76294ef2fba30c529c24f1375
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363149"
 ---
-
 # <a name="call-center-sales-functionality"></a>Verkoopfunctionaliteit callcenter
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ In Dynamics 365 for Retail is een callcenter een type detailhandelafzetkanaal da
 
 Callcenterfuncties bevatten geavanceerde detailhandelsprijzen en promoties, catalogi, geschenkbonnen, loyaliteitsprogramma's en coupons. Callcenterorders worden ook gebruikt door de POS-toepassing (Point of Sales) ter ondersteuning van afhandelingsscenario's van orders tussen afzetkanalen.
 
-Het is belangrijk te weten dat de callcentermodule kan worden gebruikt door andere bedrijfstakken dan de detailhandel, maar de huidige versie van de toepassing Dynamics 365 voor Retail-callcenter is niet geoptimaliseerd voor gebruik in B2B-orderverwerkingsscenario´s of scenario's waarin orders een grote hoeveelheid verkoopregels hebben. Het is raadzaam dat gebruikers die gebruik willen maken van de callcenterfuncties voor orderverwerking buiten de verwerking van rechtstreekse transacties met de consument, voldoende tijd nemen om te testen en te valideren of activering van de callcenterfunctionaliteit voldoet aan functionele en prestatievereisten.
+Het is belangrijk te weten dat de callcentermodule kan worden gebruikt door andere bedrijfstakken dan de detailhandel, maar de huidige versie van de toepassing Dynamics 365 for Retail-callcenter is niet geoptimaliseerd voor gebruik in B2B-orderverwerkingsscenario's of scenario's waarin orders een grote hoeveelheid verkoopregels hebben. Het is raadzaam dat gebruikers die gebruik willen maken van de callcenterfuncties voor orderverwerking buiten de verwerking van rechtstreekse transacties met de consument, voldoende tijd nemen om te testen en te valideren of activering van de callcenterfunctionaliteit voldoet aan functionele en prestatievereisten.
 
 Met de callcentermodule kunnen orders worden gemaakt en wordt een gebruiksvriendelijke klantservicetoepassing geleverd die het eenvoudiger maakt voor gebruikers om klantaccounts te vinden en om alle gerelateerde klantordergegevens en -kenmerken te controleren. Het klantservicescherm is ontworpen om een gebruiker snel toegang te verschaffen tot ordergerelateerde gegevens waarmee de meest voorkomende ordergerelateerde vragen worden beantwoord die van klanten worden ontvangen.
 
@@ -68,4 +67,3 @@ Deze pagina bevat koppelingen naar relevante documentatie met betrekking tot de 
 ## <a name="configure-continuity-programs"></a>Continuïteitsprogramma's configureren
 
 [Een continuïteitsprogramma instellen voor een callcenter](set-up-continuity-program.md)
-

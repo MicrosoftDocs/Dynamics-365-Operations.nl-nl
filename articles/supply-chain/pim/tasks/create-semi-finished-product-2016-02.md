@@ -1,13 +1,13 @@
---- 
+---
 title: Een halffabricaat maken (februari 2016)
 description: Deze taak is gericht op het maken van een halffabricaat.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, InventItemPrice
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9caeae552471eed1cb1d8630f387ca31107fcece
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362850"
 ---
 # <a name="create-a-semi-finished-product-february-2016"></a>Een halffabricaat maken (februari 2016)
 
@@ -73,5 +73,4 @@ Deze taak is gericht op het maken van een halffabricaat. Dit is de tweede taak i
     * Selecteer voor dit voorbeeld: 'Kostengroep M1'.  
 30. Gebruik de snelkoppeling om een record op te slaan.
 31. Sluit de pagina.
-
 

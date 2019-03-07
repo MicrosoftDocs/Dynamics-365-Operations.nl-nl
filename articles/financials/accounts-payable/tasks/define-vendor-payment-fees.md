@@ -1,13 +1,13 @@
---- 
-title: "Bijzondere kosten voor leveranciersbetalingen definiëren"
+---
+title: Bijzondere kosten voor leveranciersbetalingen definiëren
 description: Stel bijzondere kosten voor leveranciersbetalingen in.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399291a98ddc6b01fb08f7a5c629ec7a6f8acfbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363195"
 ---
 # <a name="define-vendor-payment-fees"></a>Bijzondere kosten voor leveranciersbetalingen definiëren
 
@@ -58,5 +58,4 @@ Stel bijzondere kosten voor leveranciersbetalingen in. Bij deze taak wordt het d
 17. Selecteer in het veld Valuta van kosten de valuta waarvoor de bijzondere kosten worden berekend.
     * Deze valuta is voor de bijzondere kosten. De betalingsvaluta wordt gebruikt om te bepalen wanneer de regel voor bijzondere kosten moet worden beoordeeld op basis van de valuta van de betaling. Zo kan uw bank bijvoorbeeld bijzondere kosten in rekening brengen wanneer een betaling wordt gedaan in EUR, terwijl voor alle andere betalingen geen kosten worden berekend.  
 18. Klik op Opslaan.
-
 

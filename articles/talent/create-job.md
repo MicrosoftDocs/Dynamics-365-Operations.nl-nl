@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.author: rschloma
@@ -18,19 +18,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377154"
 ---
-
 # <a name="set-up-the-components-of-a-job"></a>De onderdelen van een taak instellen
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 In dit onderwerp worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken. 
 
@@ -74,8 +72,8 @@ Functietaken beschrijven de basistaken die een werknemer op een positie voor een
 <tr class="odd">
 <td>Verkoopleider</td>
 <td><ul>
-<li><strong>Perf-revisie</strong> – Bekijk de prestaties van elke verkoper.</li>
-<li><strong>Abs-review</strong> – Verlofaanvragen of registraties van elke verkoper goedkeuren of weigeren.</li>
+<li><strong>Prestaties bekijken</strong> – De prestaties van elke verkoper bekijken.</li>
+<li><strong>Afwezigheid bekijken</strong> – Verlofaanvragen of registraties van elke verkoper goedkeuren of weigeren.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -92,4 +90,3 @@ U gebruikt verantwoordelijkheidsgebieden om aan te geven voor welke werkrollen, 
 
 ## <a name="steps-for-creating-a-job"></a>Stappen voor het maken van een taak
 Raadpleeg het onderwerp [Nieuwe taken definiëren](../fin-and-ops/hr/tasks/define-new-jobs.md) voor de stapsgewijze procedure voor het maken van een nieuwe taak. 
-

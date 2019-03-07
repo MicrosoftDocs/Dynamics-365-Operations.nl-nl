@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367312"
 ---
-
 # <a name="reverse-the-production-order-status"></a>De productieorderstatus omkeren
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Wanneer u de status van een productieorder terugzet van **Vrijgegeven** naar **G
 
 ## <a name="from-started-to-released"></a>Van Begonnen naar Vrijgegeven
 Wanneer u de status van een productieorder omkeert van **Begonnen** naar **Vrijgegeven**, worden alle artikelen die zijn gereedgemeld teruggeplaatst. Als er materiaal is opgenomen of als er inkomende of uitgaande leveringen zijn gedaan, worden deze instellingen eveneens teruggezet. Het veld **Status van rest** op de stuklijstregels van de productieorder wordt gewijzigd van **Beëindigd** in **Materiaalverbruik**. Als tijd is geregistreerd of als hoeveelheden zijn gereedgemeld voor de bewerkingen in de productieroute, worden deze instellingen ongedaan gemaakt. Het veld **Status van rest** wordt gewijzigd van **Beëindigd** in **Routeverbruik** in de productieroute. De instellingen voor alle artikelen die zijn geboekt in het proces of onderhanden werk, worden omgekeerd. Op de pagina **Details van productieorder** worden velden die een hoeveelheid weergeven die is gestart of gereedgemeld opnieuw ingesteld. De datums voor deze transacties worden eveneens opnieuw ingesteld.
-
 
 
 

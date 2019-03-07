@@ -5,9 +5,9 @@ author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364966"
 ---
-
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Bankafschriften afstemmen via geavanceerde bankafstemming
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ Nadat uw afstemmingsproces is voltooid, moet u het werkblad voor bankafstemming 
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Nieuwe transacties boeken die aan de afstemming zijn gekoppeld
 Bankafschrifttransacties die u hebt gemarkeerd als **Nieuw** op het werkblad voor afstemming, worden geboekt op de pagina **Bankafschrift**. Selecteer op de pagina **Bankafschrift** de afschrift-id om de details van het afschrift te bekijken. In het menu **Boekhouding** kunt u de opties **Verdelingen weergeven** en **Boekhouding weergeven** gebruiken om details achter de nieuwe transacties en de bijbehorende grootboekvermeldingen te bekijken. Selecteer de optie **Boeken** om de bankafschriftregels die zijn gemarkeerd als **Nieuw** naar het grootboek te boeken. Houd er rekening mee dat boeken slechts één keer per bankafschrift kan worden voltooid.
-
 
 
 

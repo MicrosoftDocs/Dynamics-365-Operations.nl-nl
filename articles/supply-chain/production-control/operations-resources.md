@@ -5,9 +5,9 @@ author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366599"
 ---
-
 # <a name="operations-resources"></a>Operations-resources
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,6 @@ Wanneer een resourcegroep als lean werkcel wordt gebruikt, wordt de capaciteit v
 
 ## <a name="costing-resources"></a>Kostprijsberekeningsresources
 Wanneer u een activiteit zoals een routebewerking of een projecturenprognose definieert, kunt u de behoefte voor een specifieke bron voor bedrijfsactiviteiten of resourcegroep opgeven. U kunt ook de behoefte voor een bron voor bedrijfsactiviteiten van een specifiek type opgeven, of een bron voor bedrijfsactiviteiten die een specifieke mogelijkheid of competentie heeft. Om deze reden wordt de werkelijke brontoewijzing pas gemaakt als de activiteit is gepland en de capaciteit is gereserveerd. Daarom kunt u op een routebewerking opgeven dat de raming en de stuklijstberekening op een bepaalde bron voor bedrijfsactiviteiten moet worden gebaseerd. Deze bron voor bedrijfsactiviteiten wordt de kostprijsberekeningsbron genoemd. U kunt kostencategorieën en bewerkingstijden ook van de kostprijsberekeningsbron naar de activiteit overbrengen. Wanneer de bewerking is gepland, vinden schatting en stuklijstberekening plaats door de bron voor bedrijfsactiviteiten te gebruiken die werkelijk is gepland.
-
 
 
 

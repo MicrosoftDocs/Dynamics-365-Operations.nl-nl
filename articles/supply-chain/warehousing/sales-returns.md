@@ -5,9 +5,9 @@ author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362689"
 ---
-
 # <a name="sales-returns"></a>Verkoopretouren
 
 [!include [banner](../includes/banner.md)]
@@ -137,7 +136,7 @@ Niet alleen kunt u met beschikkingscodes bepalen wat met de geretourneerde goede
 </ul></td>
 </tr>
 <tr class="even">
-<td>Credit</td>
+<td>Krediet</td>
 <td><ul>
 <li>De klant krijgt de verkoopprijs minus eventuele kosten of toeslagen gecrediteerd.</li>
 <li>De voorraadwaarde wordt verhoogd met de kosten van het geretourneerde artikel.</li>
@@ -329,7 +328,6 @@ In dit voorbeeld wordt de retourorderregel gemaakt door middel van de functie **
 ![Een retourorderregel die is gemaakt door middel van de functie Verkooporder zoeken ](./media/SalesReturn11.png)  
 
 >[Opmerking!] **Korting** en **Kostprijs retour** zijn correct ingesteld. Daarom wordt precies het bedrag van de klantfactuur teruggeboekt.
-
 
 
 

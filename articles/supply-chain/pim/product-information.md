@@ -5,28 +5,27 @@ author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363011"
 ---
-
 # <a name="product-information-overview"></a>Overzicht met productinformatie
 
 [!include [banner](../includes/banner.md)]
@@ -58,15 +57,15 @@ Een product wordt voornamelijk gedefinieerd door een productnummer, -naam en -be
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distributie, export en import van productgegevens
 
-U kunt de productdefinitie maken in Microsoft Dynamics 365 for Finance and Operations. U kunt hem ook importeren vanuit systemen voor productlevenscyclusbeheer (PLM), productgegevensbeheer (PDM) of productgegevensbeheer. Als u meer dan één exemplaar van Finance and Operations gebruikt, wordt één exemplaar meestal gebruikt als de master van de productgegevens voor alle andere exemplaren. Deze benadering wordt ondersteund door een groot aantal gegevensentiteiten, die het exporteren en importeren van productdefinitiegegevens van het ene exemplaar naar het andere ondersteunen.
+De productdefinitie kan worden gemaakt in Microsoft Dynamics 365 for Finance and Operations. U kunt hem ook importeren vanuit systemen voor productlevenscyclusbeheer (PLM), productgegevensbeheer (PDM) of productgegevensbeheer. Als u meer dan één exemplaar van Finance and Operations gebruikt, wordt één exemplaar meestal gebruikt als de master van de productgegevens voor alle andere exemplaren. Deze benadering wordt ondersteund door een groot aantal gegevensentiteiten, die het exporteren en importeren van productdefinitiegegevens van het ene exemplaar naar het andere ondersteunen.
 
-Ter ondersteuning van de verdeling van productgegevens naar veel exemplaren, kunt u in Finance and Operations de Common Date Service gebruiken. De productdefinities kunnen worden geëxporteerd vanuit een exemplaar van Finance and Operations naar de Common Data Service. De productdefinities kunnen vervolgens worden gebruikt om andere zakelijke toepassingen in te richten met productgegevens, zoals Microsoft Dynamics 365 for Sales.
+Ter ondersteuning van de verdeling van productgegevens naar veel exemplaren, kunt u in Finance and Operations de Common Data Service gebruiken. De productdefinities kunnen worden geëxporteerd vanuit een exemplaar van Finance and Operations naar de Common Data Service. De productdefinities kunnen vervolgens worden gebruikt om andere zakelijke toepassingen in te richten met productgegevens, zoals Microsoft Dynamics 365 for Sales.
 
 Houd er rekening mee dat in dynamische en flexibele organisaties productgegevens elke dag wijzigen. Correcte en actuele productgegevens onderhouden is daarom op zich al een kritisch bedrijfsproces.
 
 ## <a name="product-masters-and-product-variants"></a>Productmodellen en productvarianten
 
-In een flexibele wereld, waarin producten snel moeten worden aangepast aan de wensen van klanten, geven productdefinities een reeks producten op in plaats van afzonderlijke producten. In Microsoft Dynamics 365 for Finance and Operations worden die algemene producten aangeduid als *productmodellen*. Productmodellen bevatten de definitie en de regels die aangeven hoe afzonderlijke producten worden beschreven en zich gedragen in bedrijfsprocessen. Op basis van deze definities kunnen verschillende producten worden gegenereerd. Deze verschillende producten worden ook *productvarianten* genoemd.
+In een flexibele wereld, waarin producten snel moeten worden aangepast aan de wensen van klanten, geven productdefinities een reeks producten op in plaats van afzonderlijke producten. In Microsoft Dynamics 365 for Finance and Operations worden die algemene producten worden *productmodellen* genoemd. Productmodellen bevatten de definitie en de regels die aangeven hoe afzonderlijke producten worden beschreven en zich gedragen in bedrijfsprocessen. Op basis van deze definities kunnen verschillende producten worden gegenereerd. Deze verschillende producten worden ook *productvarianten* genoemd.
 
 In Finance and Operations is een productmodel gekoppeld aan een productdimensiegroep en een configuratietechnologie om de bedrijfsregels op te geven. De productdimensies (Kleur, Grootte, Stijl en Configuratie) zijn een specifieke reeks kenmerken die in de applicatie kunnen worden gebruikt om specifieke gedrag van de gerelateerde producten te definiëren en bij te houden. Met deze dimensies kunnen gebruikers ook zoeken naar de producten en deze identificeren.
 
@@ -97,4 +96,3 @@ Het werkgebied bestaat uit een overzicht van de tegels en twee lijsten. De lijst
 ### <a name="manually-creating-a-new-released-product"></a>Handmatig een nieuw vrijgegeven product maken
 
 U kunt handmatig een vrijgegeven product maken in een enkelvoudige run, afhankelijk van de bedrijfsprocessen van de organisatie en eventuele regels die bepalen of deze functie moet worden gebruikt. Deze functie maakt een nieuw product en geeft dit automatisch vrij naar de huidige rechtspersoon. Om een nieuw product te maken, klikt u op **Vrijgegeven producten** in het werkgebied **Vrijgegeven productonderhoud** of op de lijstpagina **Vrijgegeven product**.
-

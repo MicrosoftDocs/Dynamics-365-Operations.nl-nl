@@ -1,13 +1,13 @@
 ---
 title: INTERVAT-belastingaangifte
-description: "Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België."
+description: Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België.
 author: v-oloski
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
+ms.openlocfilehash: c7c30076abfdfe0758d751559257c0c557ca146e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 106e1b1bc76d47488f5f68b6b2f38c0ec9fe6294
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371384"
 ---
-
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
 [!include [banner](../includes/banner.md)]
@@ -134,7 +133,6 @@ Voer correcties in door op **Btw-correcties** &gt; **Correcties** te klikken en 
 --------
 
 [Belgische btw-aangiftecodes](http://www.taxexpert.be/bestand/Betekenis%20vakken%20BTW-aangifte.pdf)
-
 
 
 

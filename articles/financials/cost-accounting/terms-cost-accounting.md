@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365932"
 ---
-
 # <a name="cost-accounting-terminology"></a>Terminologie voor kostprijsboekhouding
 
 [!include [banner](../includes/banner.md)]
@@ -128,7 +127,7 @@ Kostprijsboekhouding ondersteunt de integratie van gegevens uit bronsystemen via
 
 De meeste bronsystemen kunnen gegevens leveren die overeenkomen met een of meer gegevensbronnen in Kostprijsboekhouding. Als u gegevens uit de bronsystemen met de gegevensbron in Kostprijsboekhouding wilt uitlijnen, moet er een gegevensprovider worden geconfigureerd. In de volgende tabel wordt de beschikbaarheid van gegevensproviders per gegevensconnector en gegevensbron weergegeven.
 
-|  **Gegevensbronnen** |  **Gegevensconnector Geïmporteerde transacties** | **Gegevensconnector Dynamics 365 for Finance and Operations**  | **Gegevensconnector Dynamics AX**  |
+|  **Gegevensbronnen** |  **Gegevensconnector Geïmporteerde transacties** | **Dynamics 365 for Finance and Operations-gegevensconnector**  | **Dynamics AX-gegevensconnector**  |
 |---|---|---|---|
 | Dimensieleden van kostenelement  |  Ja | Ja  | Ja  |
 |  Dimensieleden van kostenobject |  Ja | Ja  | Ja  |
@@ -204,6 +203,5 @@ Overzichten zijn weergaven voor managers die verantwoordelijk zijn voor kostenbe
 **Versie**
 
 Versies worden gebruikt om verschillende resultaten te simuleren, weer te geven en te vergelijken. Standaard worden alle werkelijke kosten weergegeven in een basisversie die wordt aangeduid als *werkelijk*. Voor budgetten en berekeningen kunt u werken met zoveel versies als nodig is. U kunt bijvoorbeeld budgetgegevens importeren in een oorspronkelijke versie en het budget vervolgens bewerken in een herziene versie. Voor berekeningen kunt u meerdere versies maken. In deze verschillende versies kunt u vervolgens berekeningen maken door middel van verschillende berekeningsregels die voor kostentoewijzing worden toegepast.
-
 
 

@@ -5,24 +5,23 @@ author: bking
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364184"
 ---
-
 # <a name="data-validation-checklist-workspace"></a>Werkgebied Controlelijst voor gegevensvalidatie
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ In de sectie **Taken en status** wordt de status van het algehele gegevensvalida
 Het laatste tabblad is voor de gedetailleerde takenlijst. Deze lijst bevat de volledige takenlijst.
 U kunt de lijst met taken op verschillende manieren filteren. Klik op **Taak bewerken** om de status van een taak te wijzigen of een taak toe te wijzen. Klik op **Bijlagen** om bijlagen voor een taak te bekijken.
 
-De taaknaam is een hyperlink naar de pagina Microsoft Dynamics 365 for Finance and Operations waar de gebruiker naartoe moet gaan om het werk uit te voeren. U kunt deze hyperlink vervolgens instellen met behulp van het veld **Naam menuopdracht** wanneer u een taak bewerkt of maakt via het formulier **Gegevensvalidatieproject configureren**.
+De naam van de taak is een hyperlink naar de Microsoft Dynamics 365 for Finance and Operations-pagina waar de gebruiker naartoe moet gaan om het werk te voltooien. U kunt deze hyperlink vervolgens instellen met behulp van het veld **Naam menuopdracht** wanneer u een taak bewerkt of maakt via het formulier **Gegevensvalidatieproject configureren**.
 
 U kunt bestanden, notities, afbeeldingen en URL's aan een taak koppelen met behulp van de actie **Bijlagen**. U kunt bijvoorbeeld een rapportbestand bijvoegen dat is afgedrukt voor een taak. Er verschijnt een pictogram in de kolom **Bijlage** voor de taak als er een bijlage aanwezig is.
 
@@ -59,4 +58,3 @@ Voordat u het werkgebied **Controlelijst voor gegevensvalidatie** kunt gebruiken
 U gebruikt taakgebieden om gegevensvalidatietaken te groeperen in logische gebieden van eigendom in uw organisatie. Leveranciers, Klanten of Grootboek kunnen bijvoorbeeld als taakgebieden worden gebruikt.
 
 De optie **Naam menuopdracht** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Bijvoorbeeld een gegevensvalidatietaak om het rapport **Ouderdom van leveranciers** voor leveranciers uit te voeren, kan worden gekoppeld aan de **Rapport Ouderdom van leveranciers**.
-

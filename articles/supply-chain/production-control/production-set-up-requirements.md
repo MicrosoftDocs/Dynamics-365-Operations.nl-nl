@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47fe11168ad2ddea2a7033eda8d8bd8220efea32
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366622"
 ---
-
 # <a name="production-setup-requirements"></a>Behoeften voor productie-instellingen
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Als u met routes werkt, moet u bewerkingen definiëren voor elke productieroute 
 1.  **Productiegroepen** – Instellen van productiegroepen voor de totstandbrenging van relaties tussen de productieorder en grootboekrekeningen. De grootboekrekeningen worden gebruikt om orders voor rapportage te boeken of te groeperen.
 2.  **Productiepools** - Maak productiepools voor het groeperen van productieorders zodat u dringende productieorders kunt verwerken of groepen orders kunt verwijderen en boeken.
 3.  **Eigenschappen**– Definieer eigenschappen om speciale kenmerken te maken die u aan bronnen kunt toewijzen voor het beheer van de productievolgorde. Deze kenmerken zijn verbonden met het werktijdsjabloon.
-
 
 
 

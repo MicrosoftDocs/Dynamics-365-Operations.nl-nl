@@ -1,13 +1,13 @@
 ---
 title: Nieuwe taakbegeleidingen (februari 2016)
-description: Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics 365 for Operations (februari 2016) en Aan de slag (februari 2016).
+description: Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016.  De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics 365 for Operations en Aan de slag (februari 2016).
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366438"
 ---
-
 # <a name="new-task-guides-february-2016"></a>Nieuwe taakbegeleidingen (februari 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016. De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics AX (februari 2016) en Aan de slag (februari 2016).
+Dit onderwerp geeft een overzicht van de taakbegeleidingen die zijn uitgebracht voor de Microsoft BPM-bibliotheken per februari 2016. De bibliotheken die zijn gepubliceerd omvatten onder meer de APQC Unified Library for Microsoft Dynamics AX en Aan de slag (februari 2016).
 
-## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de APQC Unified Library (februari 2016) voor Microsoft Dynamics AX
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Taakbegeleidingen in de (februari 2016) APQC Unified Library voor Microsoft Dynamics AX
 
 De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedoeld om te worden gebruikt voor de Help bij Dynamics AX versie 7.0.0. Als u gelokaliseerde versies van deze taakbegeleidingen nodig hebt, zijn deze beschikbaar in de APQC Unified Library (mei 2016) voor Microsoft Dynamics AX. Zie voor meer informatie over het verbinden van het Help-systeem met een bibliotheek met taakbegeleidingen het onderwerp [Aan de slag met Help](help-overview.md).
 
@@ -632,8 +631,8 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 | Effectieve merchandising                            | Algemeen         |
 | Elektronische rapportage                               | Algemeen         |
 | Selfservice werknemer                              | Algemeen         |
-| Dagen openstaande verkopen verlagen          | Algemeen         |
-| Inleiding tot de AX-lokalisatiefunctionaliteit      | Algemeen         |
+| Dagen openstaande verkopen verlagen          | Globaal         |
+| Inleiding tot de AX-lokalisatiefunctionaliteit      | Globaal         |
 | Inleiding tot landspecifieke functies voor Japan | Japan          |
 | Prijzen en promoties beheren                      | Algemeen         |
 | Selfservice manager                               | Algemeen         |
@@ -647,4 +646,3 @@ De APQC Unified Library (februari 2016) bevat de taakbegeleidingen die zijn bedo
 [Nieuwe of bijgewerkte taakbegeleidingen (augustus 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Nieuwe of bijgewerkte taakbegeleidingen (november 2016)](new-task-guides-november-2016.md)
-

@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363770"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>Overzicht SEPA-kredietoverdracht
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ De EPC, die bestaat uit Europese banken, ontwikkelt commerciële en technische r
 Een SEPA-kredietoverdracht is een betaling van een persoon of bedrijf aan een andere persoon of bedrijf. De betalingen moeten in euro's zijn en moeten het Internationale Bankrekeningnummer (IBAN) en de BIC (Bank Identifier Code) voor beide partijen bevatten De BIC wordt ook wel SWIFT-code genoemd \[Society for Worldwide Interbank Financial Telecommunication SWIFT\]. Bovendien moeten transactiekosten worden gedeeld door de beide partijen. Voor kredietoverdrachten tussen partijen moeten XML-bestanden worden gebruikt die voldoen aan de ISO 20022 betalingsverwerkingsstandaarden en de XML-indeling voldoen, zoals opgegeven door de EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Hoe wordt een kredietoverdracht uitgevoerd?
-De kredietoverdrachtbetalingsindeling voor Europese landen wordt geïmplementeerd door middel van de functionaliteit voor Elektronische Rapportage en Betalingsmethoden in Microsoft Dynamics 365 for Finance and Operations. Enkele kredietoverdrachtindelingen die in andere regio's worden gebruikt, gebruiken nog het oude framework voor betalingen. Er zijn vele andere indelingen beschikbaar, waaronder twaalf ISO 20022-bestandsindelingen voor kredietoverdracht. Deze exportindelingen voldoen aan de XML-standaard ISO 20022 voor SEPA. Zij zijn bedoeld om betalingsoverschrijvingen in andere valuta dan euro te genereren, voor de landen/regio's waar ze worden gebruikt, en betalingen in euro zoals opgegeven in versie 8.2 van het SEPA Credit Transfer Scheme Rulebook dat de EPC uitgeeft. Voordat u kredietoverdrachten kunt uitvoeren, moet u contact opnemen met uw bank om software te krijgen die vereist is voor het uploaden van bestanden voor elektronisch bankieren. U kunt die software gebruiken om de XML-bestanden met betalingsopdrachten naar uw bank over te zetten.
+De kredietoverdrachtbetalingsindeling voor Europese landen wordt uitgevoerd met behulp van de functionaliteit voor Elektronische Rapportage en Betalingsmethoden in Microsoft Dynamics 365 for Finance and Operations. Enkele kredietoverdrachtindelingen die in andere regio's worden gebruikt, gebruiken nog het oude framework voor betalingen. Er zijn vele andere indelingen beschikbaar, waaronder twaalf ISO 20022-bestandsindelingen voor kredietoverdracht. Deze exportindelingen voldoen aan de XML-standaard ISO 20022 voor SEPA. Zij zijn bedoeld om betalingsoverschrijvingen in andere valuta dan euro te genereren, voor de landen/regio's waar ze worden gebruikt, en betalingen in euro zoals opgegeven in versie 8.2 van het SEPA Credit Transfer Scheme Rulebook dat de EPC uitgeeft. Voordat u kredietoverdrachten kunt uitvoeren, moet u contact opnemen met uw bank om software te krijgen die vereist is voor het uploaden van bestanden voor elektronisch bankieren. U kunt die software gebruiken om de XML-bestanden met betalingsopdrachten naar uw bank over te zetten.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Welke indelingen voor kredietoverdracht worden momenteel in Finance and Operations ondersteund?
 U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In de volgende sectie, 'Wat moet ik instellen?' vindt u een koppeling naar het onderwerp met informatie over het maken van een LCS-opslagplaats voor het controleren van de beschikbare configuraties en het importeren van geselecteerde configuraties.
@@ -124,7 +123,6 @@ Het IBAN-nummer (International Bank Account Number) en de BIC (Bank Identifier C
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Hoe verzend ik een betalingsbestand naar de bank?
 Wanneer u betalingen genereert, wordt het betalingsbestand gegenereerd, en u wordt gevraagd het vanaf uw webbrowser op te slaan op een beschikbare locatie. De volgende stap is het verzenden van het XML-bestand naar uw bank. Dit proces verschilt van bank tot bank. Volg de instructies van uw bank om de bestanden voor verwerking naar de bank te verzenden.
-
 
 
 

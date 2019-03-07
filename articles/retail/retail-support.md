@@ -1,35 +1,34 @@
 ---
 title: Ondersteuning krijgen voor Dynamics 365 for Retail
-description: In dit artikel wordt uitgelegd hoe u ondersteuning kunt krijgen voor Microsoft Dynamics 365 for Retail.
+description: In dit artikel wordt uitgelegd hoe u Help-informatie opvraagt met Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364046"
 ---
-
 # <a name="get-support-for-dynamics-365-for-retail"></a>Ondersteuning krijgen voor Dynamics 365 for Retail
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt uitgelegd hoe u ondersteuning kunt krijgen voor Dynamics 365 for Retail.
+In dit artikel wordt uitgelegd hoe u Help-informatie opvraagt met Dynamics 365 for Retail.
 
 ## <a name="contact-support"></a>Contact opnemen met ondersteuning
 
@@ -42,14 +41,14 @@ Gebruik de bronnen in de volgende tabel als u ondersteuning nodig hebt voor Reta
 <table>
 <thead>
 <tr>
-<th>Taak</th>
+<th>Opdracht</th>
 <th>Meer informatie</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Vragen aan community.</td>
-<td>Ga naar de communitypagina voor <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> voor antwoorden op uw vragen vanuit de Dynamics-community.</td>
+<td>Ga naar de communitypagina <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> voor antwoord op uw vragen vanuit de Dynamics-community.</td>
 </tr>
 <tr>
 <td>Gebruik het hulpprogramma Problemen zoeken.</td>
@@ -72,7 +71,7 @@ Gebruik de bronnen in de volgende tabel als u ondersteuning nodig hebt voor Reta
 <li>Fouten die optreden bij het gebruik van LCS of problemen bij het toegang krijgen tot LCS.</li>
 <li>Fouten die optreden wanneer u Retail gebruikt.</li>
 </ul>
-Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSource, e-learning, Zoeken, Knowledge Base, het downloaden van bestanden en pagina- of systeemfouten gaat u naar de website <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Ondersteuning</a>.</td>
+Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSource, e-learning, Zoeken, Knowledge Base, het downloaden van bestanden en pagina- of systeemfouten gaat u naar <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Website-ondersteuning</a>.</td>
 </tr>
 <tr>
 <td>Krijg antwoord op uw vragen over licenties voor Retail of Finance and Operations.</td>
@@ -85,5 +84,4 @@ Voor technische vragen die samenhangen met aanmelden en toegang tot CustomerSour
 </tbody>
 </table>
 
-Voor meer informatie over ondersteuningsmogelijkheden van Microsoft Dynamics zie [Microsoft Dynamics Online ondersteuning](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
-
+Voor meer informatie over Microsoft Dynamics-ondersteuning, zie [Microsoft Dynamics on line ondersteuning](https://dynamics.microsoft.com/en-us/support/).

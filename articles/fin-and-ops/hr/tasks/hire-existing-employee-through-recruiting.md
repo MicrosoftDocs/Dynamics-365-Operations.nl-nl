@@ -1,13 +1,13 @@
---- 
+---
 title: Bestaande werknemers aannemen via werving
 description: Soms kunnen open posities worden vervuld met kandidaten die al werknemers in uw organisatie zijn.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365380"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Bestaande werknemers aannemen via werving
 
@@ -40,5 +40,4 @@ Soms kunnen open posities worden vervuld met kandidaten die al werknemers in uw 
 8. U kunt desgewenst ook een redencode selecteren. Voorbeeld: Reorganisatie
 9. Klik op Positie wijzigen.
     * U kunt nu ook de compensatie wijzigen. Als u nu geen compensatie toewijst, kunt u deze wijzigen door naar het werknemerformulier te gaan, het tabblad Compensatie te selecteren en "Vast plan" te kiezen. Nadat u "Positie wijzigen" hebt geselecteerd, wordt de status van de sollicitatie bijgewerkt naar "Aangesteld".  
-
 

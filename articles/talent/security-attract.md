@@ -1,14 +1,14 @@
 ---
 title: Beveiliging en rollenbeheer in Attract
-description: Dit onderwerp bevat informatie over rolbeveiliging in Microsoft Dynamics 365 for Talent - Attract.
+description: Dit onderwerp biedt informatie over rolbeveiliging in Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374775"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Beveiliging en rollenbeheer in Attract
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract gebruikt op rollen gebaseerde beveiliging. Toegang wordt met andere woorden niet verleend aan afzonderlijke gebruikers, maar aan de beveiligingsrollen waaraan de gebruikers zijn toegewezen. Een gebruiker aan wie een beveiligingsrol is toegewezen, heeft toegang tot de set bevoegdheden die aan die rol zijn gekoppeld.
+In Microsoft Dynamics 365 for Talent: Attract wordt op rollen gebaseerde beveiliging gebruikt. Toegang wordt met andere woorden niet verleend aan afzonderlijke gebruikers, maar aan de beveiligingsrollen waaraan de gebruikers zijn toegewezen. Een gebruiker aan wie een beveiligingsrol is toegewezen, heeft toegang tot de set bevoegdheden die aan die rol zijn gekoppeld.
 
 Attract bevat vijf basisgebruikersrollen:
 
@@ -63,9 +62,9 @@ Gebruikers die zijn toegewezen aan de rol Aanstellend manager, kunnen taken make
 
 Gebruikers die zijn toegewezen aan de rol Werver hebben volledige lees-, maak-, bijwerk- en verwijderbevoegdheden voor de taken die ze hebben gemaakt. Ze ook hebben volledige maak-, lees-, bijwerk- en verwijderbevoegdheden voor de toepassingen die zijn gekoppeld aan taken waarvan ze eigenaar zijn. Alleen gebruikers die zijn toegewezen aan de rol Werver, kunnen als wervers worden toegevoegd aan een aanstellend team.
 
-## <a name="interviewer"></a>Interviewer
+## <a name="interviewer"></a>Afnemer van sollicitatiegesprek
 
-Alle gebruikers met een Microsoft Azure Active Directory (Azure AD)-account in de organisatie kunnen worden toegevoegd aan een aanstellend team als interviewer. Gebruikers die zijn toegewezen aan de rol Interviewer, kunnen de taakdetails en sollicitantgegevens weergeven voor taken waarvoor ze in het aanstellend team zitten. Voor deze taken kunnen interviewers ook aanstellingsaanbevelingen doen en feedback over kandidaten geven. Ze kunnen echter niet de taakdetails of sollicitantgegevens bijwerken.
+Alle gebruikers met een Microsoft Azure Active Directory (Azure AD)-account in de organisatie kunnen worden toegevoegd aan een aanstellingsteam als interviewer. Gebruikers die zijn toegewezen aan de rol Interviewer, kunnen de taakdetails en sollicitantgegevens weergeven voor taken waarvoor ze in het aanstellend team zitten. Voor deze taken kunnen interviewers ook aanstellingsaanbevelingen doen en feedback over kandidaten geven. Ze kunnen echter niet de taakdetails of sollicitantgegevens bijwerken.
 
 ## <a name="read-only"></a>Alleen-lezen
 
@@ -108,7 +107,7 @@ De volgende bevoegdheden gelden voor de taakspecifieke gegevens voor sollicitant
 | Fase verder           | Kan afwijzen als de gebruiker in het aanstellend team zit | Kan vervolgen als de gebruiker in het aanstellend team zit | Niet toegestaan |
 | Aanbiedingsbeheer starten | Kan aanbiedingsbeheer starten | Er is een configuratieoptie in de aanbiedingsactiviteit. | Niet toegestaan |
 
-\*\* Een configuratieoptie in de [instelling van de feedbackactiviteit](./activities-attract.md#feedback-activity) bepaalt of interviewers elkaars feedback kunnen zien.
+\*\* Een configuratieoptie in de [instelling van de feedbackactiviteit](activities-attract.md#feedback-activity) bepaalt of interviewers elkaars feedback kunnen zien.
 
 ## <a name="process-templates"></a>Processjablonen
 
@@ -146,4 +145,3 @@ Kandidaten zijn personen die zijn toegevoegd aan een talentenpool, maar die niet
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profiel: kandidaatdetails | Maken, lezen, bijwerken en verwijderen | Maken, lezen, bijwerken en verwijderen | Geen toegang   |
 | Documenten                   | Maken, lezen, bijwerken en verwijderen | Maken, lezen, bijwerken en verwijderen | Geen toegang   |
-

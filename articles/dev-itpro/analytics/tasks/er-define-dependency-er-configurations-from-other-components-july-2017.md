@@ -1,13 +1,13 @@
---- 
-title: "De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren"
+---
+title: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 description: Voordat u deze stappen uitvoert, moet u eerst de stappen in de taakbegeleiding ER modeltoewijzingsconfiguraties uitvoeren en moet u toegang hebben tot Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365081"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
@@ -62,7 +62,7 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 18. Selecteer Microsoft Dynamics AX 7.0 RTW.
 19. Typ in het veld Versie '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
-    * Afhankelijkheden worden geëvalueerd wanneer de configuratie wordt gedownload uit een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, met de versie 7.0.1265.3015 of hoger, maar niet hoger zijn dan de kleine versie 1.   
+    * Afhankelijkheden worden geëvalueerd wanneer de configuratie wordt gedownload uit een ER-opslagplaats. Deze configuratieversie wordt gedownload van de ER-opslagplaats als versie 1 van de configuratie van het 'Voorbeeldgegevensmodel' al bestaat of eerder is gedownload. Als het van tevoren is gedownload, moet het worden voltooid in Microsoft Dynamics 365 for Finance and Operations Enterprise Edition, met de versie 7.0.1265.3015 of hoger, maar niet hoger zijn dan de secundaire versie 1.   
 20. Klik op Opslaan.
 21. Sluit de pagina.
 22. Klik op Status wijzigen.
@@ -140,5 +140,4 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
 26. Vouw in de structuur 'Voorbeeldgegevensmodel' uit.
     * Houd er rekening mee dat de modeltoewijzingsconfiguratie 'Voorbeeldtoewijzing' is gedownload met de geselecteerde gegevensmodelconfiguratie. De twee bestanden worden samen gedownload omdat 'Voorbeeldtoewijzing' is gedefinieerd als implementatie van het geselecteerde gegevensmodel en omdat het toepasbaar is op Finance and Operations. De configuratie 'Voorbeeldtoewijzing (alternatief)' is niet gedownload omdat niet is voldaan aan de voorwaarde voor de vereiste toepassingsversie.   
     * Als u zich aanmeldt bij Dynamics 365 for Finance and Operations, Enterprise edition, dezelfde provider registreert, toegang krijgt tot hetzelfde LCS-project en dezelfde gegevensmodelconfiguratie downloadt, wordt de configuratie 'Voorbeeldtoewijzing (alternatief)' gedownload en wordt de configuratie 'Voorbeeldtoewijzing' overgeslagen.  
-
 
