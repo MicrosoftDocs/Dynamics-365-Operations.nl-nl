@@ -1,13 +1,13 @@
 ---
 title: Productie-uitvoerlocatie
-description: "In dit onderwerp wordt de hiërarchie beschreven die wordt gebruikt ter identificatie van de uitvoerlocatie van de productie."
+description: In dit onderwerp wordt de hiërarchie beschreven die wordt gebruikt ter identificatie van de uitvoerlocatie van de productie.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,28 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 9445db6d78d46831ed961977d6041459f118fee9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315769"
 ---
-
-# <a name="production-output-location"></a><span data-ttu-id="88c43-103">Productie-uitvoerlocatie</span><span class="sxs-lookup"><span data-stu-id="88c43-103">Production output location</span></span>
+# <a name="production-output-location"></a><span data-ttu-id="02c73-103">Productie-uitvoerlocatie</span><span class="sxs-lookup"><span data-stu-id="02c73-103">Production output location</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="88c43-104">In dit onderwerp wordt de hiërarchie beschreven die wordt gebruikt ter identificatie van de uitvoerlocatie van de productie.</span><span class="sxs-lookup"><span data-stu-id="88c43-104">This topic describes the hierarchy that is used to identify the production output location.</span></span>
+<span data-ttu-id="02c73-104">In dit onderwerp wordt de hiërarchie beschreven die wordt gebruikt ter identificatie van de uitvoerlocatie van de productie.</span><span class="sxs-lookup"><span data-stu-id="02c73-104">This topic describes the hierarchy that is used to identify the production output location.</span></span>
 
-<span data-ttu-id="88c43-105">De productie-uitvoerlocatie is de locatie waar een eindproduct eerst wordt opgeslagen nadat het is geproduceerd.</span><span class="sxs-lookup"><span data-stu-id="88c43-105">The production output location is the location where a finished good is first stored after it's produced.</span></span> <span data-ttu-id="88c43-106">Deze locatie bevindt zich meestal in de buurt van het productieproces dat het gerede product produceert.</span><span class="sxs-lookup"><span data-stu-id="88c43-106">Usually, this location is close to the production process that produces the finished good.</span></span> <span data-ttu-id="88c43-107">De productie-uitvoerlocatie wordt gebruikt als tussentijdse opslag voor het materiaal voordat het wordt verplaatst naar het verzendgebied, een opslaglocatie, een productie-invoerlocatie voor een stroomafwaartse productieproces, enzovoort.</span><span class="sxs-lookup"><span data-stu-id="88c43-107">The production output location is used as intermediate storage for the material before it's moved on to the shipment area, a storage location, a production input location for a downstream production process, and so on.</span></span> 
+<span data-ttu-id="02c73-105">De productie-uitvoerlocatie is de locatie waar een eindproduct eerst wordt opgeslagen nadat het is geproduceerd.</span><span class="sxs-lookup"><span data-stu-id="02c73-105">The production output location is the location where a finished good is first stored after it's produced.</span></span> <span data-ttu-id="02c73-106">Deze locatie bevindt zich meestal in de buurt van het productieproces dat het gerede product produceert.</span><span class="sxs-lookup"><span data-stu-id="02c73-106">Usually, this location is close to the production process that produces the finished good.</span></span> <span data-ttu-id="02c73-107">De productie-uitvoerlocatie wordt gebruikt als tussentijdse opslag voor het materiaal voordat het wordt verplaatst naar het verzendgebied, een opslaglocatie, een productie-invoerlocatie voor een stroomafwaartse productieproces, enzovoort.</span><span class="sxs-lookup"><span data-stu-id="02c73-107">The production output location is used as intermediate storage for the material before it's moved on to the shipment area, a storage location, a production input location for a downstream production process, and so on.</span></span> 
 
-<span data-ttu-id="88c43-108">Een standaardlocatie voor de productie-uitvoer wordt ingesteld wanneer eindproducten worden gemeld op een productieorder of batchorder.</span><span class="sxs-lookup"><span data-stu-id="88c43-108">A default production output location is set when finished goods are reported on a production order or batch order.</span></span> <span data-ttu-id="88c43-109">De volgende hiërarchie wordt gebruikt voor deze uitvoerlocatie:</span><span class="sxs-lookup"><span data-stu-id="88c43-109">The following hierarchy is used to identify this output location:</span></span>
+<span data-ttu-id="02c73-108">Een standaardlocatie voor de productie-uitvoer wordt ingesteld wanneer eindproducten worden gemeld op een productieorder of batchorder.</span><span class="sxs-lookup"><span data-stu-id="02c73-108">A default production output location is set when finished goods are reported on a production order or batch order.</span></span> <span data-ttu-id="02c73-109">De volgende hiërarchie wordt gebruikt voor deze uitvoerlocatie:</span><span class="sxs-lookup"><span data-stu-id="02c73-109">The following hierarchy is used to identify this output location:</span></span>
 
-1. <span data-ttu-id="88c43-110">Gebruik de uitvoerlocatie die wordt gedefinieerd in de koptekst van de productieorder of batchorder.</span><span class="sxs-lookup"><span data-stu-id="88c43-110">Use the output location that is defined on the production order or batch order header.</span></span>
-2. <span data-ttu-id="88c43-111">Als er geen locatie wordt gevonden, gebruikt u de uitvoerlocatie die wordt gedefinieerd voor de bron die is gebruikt door de laatste bewerking die is gedefinieerd in de productieroute.</span><span class="sxs-lookup"><span data-stu-id="88c43-111">If no location is found there, use the output location that is defined on the resource that is used by the last operation that is defined in the production route.</span></span>
-3. <span data-ttu-id="88c43-112">Als er geen locatie wordt gevonden, gebruikt u de uitvoerlocatie die wordt gedefinieerd voor de brongroep die is gebruikt door de bron voor de laatste bewerking die is gedefinieerd in de productieroute.</span><span class="sxs-lookup"><span data-stu-id="88c43-112">If no location is found there, use the output location that is defined on the resource group that is used by the resource for the last operation that is defined in the production route.</span></span>
-4. <span data-ttu-id="88c43-113">Als er geen locatie wordt gevonden, gebruikt u de uitvoerlocatie die is gedefinieerd in het magazijn dat is gedefinieerd voor de productieorder.</span><span class="sxs-lookup"><span data-stu-id="88c43-113">If no location is found there, use the output location that is defined on the warehouse that is defined for the production order.</span></span>
+1. <span data-ttu-id="02c73-110">Gebruik de uitvoerlocatie die wordt gedefinieerd in de koptekst van de productieorder of batchorder.</span><span class="sxs-lookup"><span data-stu-id="02c73-110">Use the output location that is defined on the production order or batch order header.</span></span>
+2. <span data-ttu-id="02c73-111">Als er geen locatie wordt gevonden, gebruikt u de uitvoerlocatie die wordt gedefinieerd voor de bron die is gebruikt door de laatste bewerking die is gedefinieerd in de productieroute.</span><span class="sxs-lookup"><span data-stu-id="02c73-111">If no location is found there, use the output location that is defined on the resource that is used by the last operation that is defined in the production route.</span></span>
+3. <span data-ttu-id="02c73-112">Als er geen locatie wordt gevonden, gebruikt u de uitvoerlocatie die wordt gedefinieerd voor de brongroep die is gebruikt door de bron voor de laatste bewerking die is gedefinieerd in de productieroute.</span><span class="sxs-lookup"><span data-stu-id="02c73-112">If no location is found there, use the output location that is defined on the resource group that is used by the resource for the last operation that is defined in the production route.</span></span>
+4. <span data-ttu-id="02c73-113">Als er geen locatie wordt gevonden, gebruikt u de uitvoerlocatie die is gedefinieerd in het magazijn dat is gedefinieerd voor de productieorder.</span><span class="sxs-lookup"><span data-stu-id="02c73-113">If no location is found there, use the output location that is defined on the warehouse that is defined for the production order.</span></span>
 
-<span data-ttu-id="88c43-114">Een standaardlocatie voor de productie-uitvoer wordt alleen ingesteld voor producten die zijn ingesteld met geavanceerde magazijnprocessen.</span><span class="sxs-lookup"><span data-stu-id="88c43-114">A default production output location is set only for products that are set up by using advanced warehouse processes.</span></span> <span data-ttu-id="88c43-115">Wanneer dit type artikel is gereedgemeld, wordt een magazijntaak van het type **Eindproducten wegzetten** of **Coproducten en bijproducten wegzetten** gemaakt.</span><span class="sxs-lookup"><span data-stu-id="88c43-115">When this type of item is reported as finished, warehouse work of the **Finished goods put away** or **Co-product and by-product put away** type is created.</span></span> <span data-ttu-id="88c43-116">Dit type tak gebruikt de productie-uitvoerlocatie als orderverzamellocatie.</span><span class="sxs-lookup"><span data-stu-id="88c43-116">This type of work uses the production output location as the pick location.</span></span> <span data-ttu-id="88c43-117">De opslaglocatie wordt bepaald door de richtlijnen van de locatie.</span><span class="sxs-lookup"><span data-stu-id="88c43-117">The put-away location is determined by the location directives.</span></span>
-
+<span data-ttu-id="02c73-114">Een standaardlocatie voor de productie-uitvoer wordt alleen ingesteld voor producten die zijn ingesteld met geavanceerde magazijnprocessen.</span><span class="sxs-lookup"><span data-stu-id="02c73-114">A default production output location is set only for products that are set up by using advanced warehouse processes.</span></span> <span data-ttu-id="02c73-115">Wanneer dit type artikel is gereedgemeld, wordt een magazijntaak van het type **Eindproducten wegzetten** of **Coproducten en bijproducten wegzetten** gemaakt.</span><span class="sxs-lookup"><span data-stu-id="02c73-115">When this type of item is reported as finished, warehouse work of the **Finished goods put away** or **Co-product and by-product put away** type is created.</span></span> <span data-ttu-id="02c73-116">Dit type tak gebruikt de productie-uitvoerlocatie als orderverzamellocatie.</span><span class="sxs-lookup"><span data-stu-id="02c73-116">This type of work uses the production output location as the pick location.</span></span> <span data-ttu-id="02c73-117">De opslaglocatie wordt bepaald door de richtlijnen van de locatie.</span><span class="sxs-lookup"><span data-stu-id="02c73-117">The put-away location is determined by the location directives.</span></span>

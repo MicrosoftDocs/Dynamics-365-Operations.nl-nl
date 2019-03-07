@@ -1,13 +1,13 @@
---- 
+---
 title: Een proceskanbantaak voorbereiden wanneer de materialen voor de werkcel beschikbaar zijn
 description: Deze taak richt zich op het voorbereiden van een proceskanbantaak wanneer alle materialen voor de werkcel beschikbaar zijn.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: shylaw
@@ -17,29 +17,28 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 714196ba92fe3f57c80809930ed54705a4e75078
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341943"
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="484a5-103">Een proceskanbantaak voorbereiden wanneer de materialen voor de werkcel beschikbaar zijn</span><span class="sxs-lookup"><span data-stu-id="484a5-103">Prepare a process kanban job when materials are available for the work cell</span></span>
+# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="2fb88-103">Een proceskanbantaak voorbereiden wanneer de materialen voor de werkcel beschikbaar zijn</span><span class="sxs-lookup"><span data-stu-id="2fb88-103">Prepare a process kanban job when materials are available for the work cell</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="484a5-104">Deze taak richt zich op het voorbereiden van een proceskanbantaak wanneer alle materialen voor de werkcel beschikbaar zijn.</span><span class="sxs-lookup"><span data-stu-id="484a5-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="484a5-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="484a5-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="484a5-106">Deze taak is bedoeld voor de machineoperator.</span><span class="sxs-lookup"><span data-stu-id="484a5-106">This task is intended for the machine operator.</span></span>
+<span data-ttu-id="2fb88-104">Deze taak richt zich op het voorbereiden van een proceskanbantaak wanneer alle materialen voor de werkcel beschikbaar zijn.</span><span class="sxs-lookup"><span data-stu-id="2fb88-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="2fb88-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="2fb88-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="2fb88-106">Deze taak is bedoeld voor de machineoperator.</span><span class="sxs-lookup"><span data-stu-id="2fb88-106">This task is intended for the machine operator.</span></span>
 
-1. <span data-ttu-id="484a5-107">Ga naar Kanbanplanbord voor procestaken.</span><span class="sxs-lookup"><span data-stu-id="484a5-107">Go to Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="484a5-108">Klik in het veld Werkcel op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="484a5-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="484a5-109">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="484a5-109">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="484a5-110">Selecteer werkcel 1250 en klik op OK.</span><span class="sxs-lookup"><span data-stu-id="484a5-110">Select work cell 1250 and click OK.</span></span>  
-4. <span data-ttu-id="484a5-111">Selecteer rij 4 in de lijst.</span><span class="sxs-lookup"><span data-stu-id="484a5-111">In the list, select row 4.</span></span>
-    * <span data-ttu-id="484a5-112">In het schone demobedrijf, is Kanban 000329 in rij 4 de eerste taak die nog niet is voltooid.</span><span class="sxs-lookup"><span data-stu-id="484a5-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
-5. <span data-ttu-id="484a5-113">Schakel de uitbreiding van de sectie Orderverzamellijst om.</span><span class="sxs-lookup"><span data-stu-id="484a5-113">Toggle the expansion of the Picking list section.</span></span>
-    * <span data-ttu-id="484a5-114">Controleer of de voorraadstatus beschikbaar is voor alle artikelen in de orderverzamellijst.</span><span class="sxs-lookup"><span data-stu-id="484a5-114">Verify that the supply status is available for all items in the picking list.</span></span>  
-    * <span data-ttu-id="484a5-115">Als meerdere taken zijn geselecteerd, geeft de orderverzamellijst de som weer van alle artikelen die nodig zijn voor de geselecteerde taken.</span><span class="sxs-lookup"><span data-stu-id="484a5-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
-6. <span data-ttu-id="484a5-116">Klik op Voorbereiden.</span><span class="sxs-lookup"><span data-stu-id="484a5-116">Click Prepare.</span></span>
-    * <span data-ttu-id="484a5-117">Het voorbereidingsproces wordt nu voltooid.</span><span class="sxs-lookup"><span data-stu-id="484a5-117">The preparation process is now completed.</span></span> <span data-ttu-id="484a5-118">Het ingeschakelde selectievakje voor alle rijen in de orderverzamellijst geeft aan dat de voorraadstatus wordt verzameld.</span><span class="sxs-lookup"><span data-stu-id="484a5-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
-
+1. <span data-ttu-id="2fb88-107">Ga naar Kanbanplanbord voor procestaken.</span><span class="sxs-lookup"><span data-stu-id="2fb88-107">Go to Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="2fb88-108">Klik in het veld Werkcel op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="2fb88-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="2fb88-109">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="2fb88-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="2fb88-110">Selecteer werkcel 1250 en klik op OK.</span><span class="sxs-lookup"><span data-stu-id="2fb88-110">Select work cell 1250 and click OK.</span></span>  
+4. <span data-ttu-id="2fb88-111">Selecteer rij 4 in de lijst.</span><span class="sxs-lookup"><span data-stu-id="2fb88-111">In the list, select row 4.</span></span>
+    * <span data-ttu-id="2fb88-112">In het schone demobedrijf, is Kanban 000329 in rij 4 de eerste taak die nog niet is voltooid.</span><span class="sxs-lookup"><span data-stu-id="2fb88-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
+5. <span data-ttu-id="2fb88-113">Schakel de uitbreiding van de sectie Orderverzamellijst om.</span><span class="sxs-lookup"><span data-stu-id="2fb88-113">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="2fb88-114">Controleer of de voorraadstatus beschikbaar is voor alle artikelen in de orderverzamellijst.</span><span class="sxs-lookup"><span data-stu-id="2fb88-114">Verify that the supply status is available for all items in the picking list.</span></span>  
+    * <span data-ttu-id="2fb88-115">Als meerdere taken zijn geselecteerd, geeft de orderverzamellijst de som weer van alle artikelen die nodig zijn voor de geselecteerde taken.</span><span class="sxs-lookup"><span data-stu-id="2fb88-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
+6. <span data-ttu-id="2fb88-116">Klik op Voorbereiden.</span><span class="sxs-lookup"><span data-stu-id="2fb88-116">Click Prepare.</span></span>
+    * <span data-ttu-id="2fb88-117">Het voorbereidingsproces wordt nu voltooid.</span><span class="sxs-lookup"><span data-stu-id="2fb88-117">The preparation process is now completed.</span></span> <span data-ttu-id="2fb88-118">Het ingeschakelde selectievakje voor alle rijen in de orderverzamellijst geeft aan dat de voorraadstatus wordt verzameld.</span><span class="sxs-lookup"><span data-stu-id="2fb88-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
 

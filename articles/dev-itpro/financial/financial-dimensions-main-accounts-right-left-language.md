@@ -1,13 +1,13 @@
 ---
-title: "Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven"
-description: "In dit onderwerp worden enkele implementatiebeslissingen beschreven waarmee u rekening moet houden wanneer u een van rechts naar links geschreven taal gebruikt. Daarnaast wordt aangegeven hoe u financiële dimensies en hoofdrekeningen instelt."
+title: Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven
+description: In dit onderwerp worden enkele implementatiebeslissingen beschreven waarmee u rekening moet houden wanneer u een van rechts naar links geschreven taal gebruikt. Daarnaast wordt aangegeven hoe u financiële dimensies en hoofdrekeningen instelt.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,30 +17,28 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340195"
 ---
-
-# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a><span data-ttu-id="787c0-103">Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven</span><span class="sxs-lookup"><span data-stu-id="787c0-103">Financial dimensions and main accounts in right-to-left languages</span></span>
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a><span data-ttu-id="a7435-103">Financiële dimensies en hoofdrekeningen in talen die van rechts naar links worden geschreven</span><span class="sxs-lookup"><span data-stu-id="a7435-103">Financial dimensions and main accounts in right-to-left languages</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="787c0-104">In dit onderwerp worden enkele implementatiebeslissingen beschreven waarmee u rekening moet houden wanneer u een van rechts naar links geschreven taal gebruikt. Daarnaast wordt aangegeven hoe u financiële dimensies en hoofdrekeningen instelt.</span><span class="sxs-lookup"><span data-stu-id="787c0-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
+<span data-ttu-id="a7435-104">In dit onderwerp worden enkele implementatiebeslissingen beschreven waarmee u rekening moet houden wanneer u een van rechts naar links geschreven taal gebruikt. Daarnaast wordt aangegeven hoe u financiële dimensies en hoofdrekeningen instelt.</span><span class="sxs-lookup"><span data-stu-id="a7435-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
 
-<span data-ttu-id="787c0-105">Financiële dimensies en hoofdrekeningen zijn belangrijke onderdelen van de planningsfase voor een implementatie.</span><span class="sxs-lookup"><span data-stu-id="787c0-105">Financial dimensions and main accounts are key components of the planning phase for an implementation.</span></span> <span data-ttu-id="787c0-106">Nadat financiële dimensies en hoofdrekeningen in het systeem zijn gemaakt, worden deze gebruikt op de pagina's **Rekeningstructuren configureren**, **Geavanceerde regelstructuren** en **Configuratie van financiële dimensies voor integrerende toepassingen**.</span><span class="sxs-lookup"><span data-stu-id="787c0-106">After financial dimensions and main accounts are created in the system, they are used on the **Configure account structures**, **Advanced rule structures**, and **Financial dimension configuration for integrating applications** pages.</span></span> <span data-ttu-id="787c0-107">De gedefinieerde volgorde op die pagina's wordt gebruikt in het systeem voor gegevensinvoer en -verbruik.</span><span class="sxs-lookup"><span data-stu-id="787c0-107">The order that is defined on those pages is used in the system for data entry and consumption.</span></span> <span data-ttu-id="787c0-108">Op sommige locaties in het systeem worden de financiële dimensies en hoofdrekeningen in afzonderlijke velden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="787c0-108">In some places in the system, the financial dimensions and main accounts appear in separate fields.</span></span> <span data-ttu-id="787c0-109">En op andere locaties, zoals in journalen, worden de financiële dimensies en hoofdrekeningen als één reeks weergegeven.</span><span class="sxs-lookup"><span data-stu-id="787c0-109">However, in other places, such as journals, the financial dimensions and main accounts appear as a single string.</span></span>
+<span data-ttu-id="a7435-105">Financiële dimensies en hoofdrekeningen zijn belangrijke onderdelen van de planningsfase voor een implementatie.</span><span class="sxs-lookup"><span data-stu-id="a7435-105">Financial dimensions and main accounts are key components of the planning phase for an implementation.</span></span> <span data-ttu-id="a7435-106">Nadat financiële dimensies en hoofdrekeningen in het systeem zijn gemaakt, worden deze gebruikt op de pagina's **Rekeningstructuren configureren**, **Geavanceerde regelstructuren** en **Configuratie van financiële dimensies voor integrerende toepassingen**.</span><span class="sxs-lookup"><span data-stu-id="a7435-106">After financial dimensions and main accounts are created in the system, they are used on the **Configure account structures**, **Advanced rule structures**, and **Financial dimension configuration for integrating applications** pages.</span></span> <span data-ttu-id="a7435-107">De gedefinieerde volgorde op die pagina's wordt gebruikt in het systeem voor gegevensinvoer en -verbruik.</span><span class="sxs-lookup"><span data-stu-id="a7435-107">The order that is defined on those pages is used in the system for data entry and consumption.</span></span> <span data-ttu-id="a7435-108">Op sommige locaties in het systeem worden de financiële dimensies en hoofdrekeningen in afzonderlijke velden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="a7435-108">In some places in the system, the financial dimensions and main accounts appear in separate fields.</span></span> <span data-ttu-id="a7435-109">En op andere locaties, zoals in journalen, worden de financiële dimensies en hoofdrekeningen als één reeks weergegeven.</span><span class="sxs-lookup"><span data-stu-id="a7435-109">However, in other places, such as journals, the financial dimensions and main accounts appear as a single string.</span></span>
 
-### <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a><span data-ttu-id="787c0-110">Aanbevolen procedures voor het instellen van financiële dimensies en hoofdrekeningen in een systeem van rechts naar links</span><span class="sxs-lookup"><span data-stu-id="787c0-110">Best practices for setting up financial dimensions and main accounts in a right-to-left system</span></span>
+### <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a><span data-ttu-id="a7435-110">Aanbevolen procedures voor het instellen van financiële dimensies en hoofdrekeningen in een systeem van rechts naar links</span><span class="sxs-lookup"><span data-stu-id="a7435-110">Best practices for setting up financial dimensions and main accounts in a right-to-left system</span></span>
 
--   <span data-ttu-id="787c0-111">Als u het scheidingsteken voor rekeningschema's selecteert, kunt u een van de opties voor dubbele scheidingstekens selecteren: dubbel koppelteken (--), dubbele balk (||), dubbele punt (..) of dubbel onderstrepingsteken (\_\_).</span><span class="sxs-lookup"><span data-stu-id="787c0-111">When you select the delimiter for charts of accounts, select one of the double delimiter options: double hyphen (--), double bar (||) or double period (..), or double underscore (\_\_).</span></span>
--   <span data-ttu-id="787c0-112">Wanneer u de waarden voor financiële dimensies en hoofdrekeningen maakt, moet u alleen cijfers en tekens voor talen gebruiken die van rechts naar links worden geschreven.</span><span class="sxs-lookup"><span data-stu-id="787c0-112">When you create financial dimension and main account values, use only numbers and right-to-left language characters.</span></span>
--   <span data-ttu-id="787c0-113">Gebruik niet het geselecteerde scheidingsteken voor rekeningschema's in waarden voor financiële dimensie en hoofdrekeningen.</span><span class="sxs-lookup"><span data-stu-id="787c0-113">Avoid using the selected chart of accounts delimiter in financial dimension and main account values.</span></span>
+-   <span data-ttu-id="a7435-111">Als u het scheidingsteken voor rekeningschema's selecteert, kunt u een van de opties voor dubbele scheidingstekens selecteren: dubbel koppelteken (--), dubbele balk (||), dubbele punt (..) of dubbel onderstrepingsteken (\_\_).</span><span class="sxs-lookup"><span data-stu-id="a7435-111">When you select the delimiter for charts of accounts, select one of the double delimiter options: double hyphen (--), double bar (||) or double period (..), or double underscore (\_\_).</span></span>
+-   <span data-ttu-id="a7435-112">Wanneer u de waarden voor financiële dimensies en hoofdrekeningen maakt, moet u alleen cijfers en tekens voor talen gebruiken die van rechts naar links worden geschreven.</span><span class="sxs-lookup"><span data-stu-id="a7435-112">When you create financial dimension and main account values, use only numbers and right-to-left language characters.</span></span>
+-   <span data-ttu-id="a7435-113">Gebruik niet het geselecteerde scheidingsteken voor rekeningschema's in waarden voor financiële dimensie en hoofdrekeningen.</span><span class="sxs-lookup"><span data-stu-id="a7435-113">Avoid using the selected chart of accounts delimiter in financial dimension and main account values.</span></span>
 
-<span data-ttu-id="787c0-114">Door deze aanbevolen procedures te volgen, zorgt u ervoor dat de door de gebruiker gedefinieerd volgorde consistent wordt weergegeven in het systeem.</span><span class="sxs-lookup"><span data-stu-id="787c0-114">By following these best practices, you help guarantee consistent representation of the user defined-order throughout the system.</span></span>
-
+<span data-ttu-id="a7435-114">Door deze aanbevolen procedures te volgen, zorgt u ervoor dat de door de gebruiker gedefinieerd volgorde consistent wordt weergegeven in het systeem.</span><span class="sxs-lookup"><span data-stu-id="a7435-114">By following these best practices, you help guarantee consistent representation of the user defined-order throughout the system.</span></span>
 
 
 

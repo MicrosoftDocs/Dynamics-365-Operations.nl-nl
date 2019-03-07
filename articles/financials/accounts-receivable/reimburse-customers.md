@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,38 +18,36 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 36e7e684e207e13baffa7eefd13e8e4a29d99914
-ms.contentlocale: nl-nl
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325222"
 ---
-
-# <a name="reimburse-customers"></a><span data-ttu-id="98417-104">Klanten terugbetalen</span><span class="sxs-lookup"><span data-stu-id="98417-104">Reimburse customers</span></span>
+# <a name="reimburse-customers"></a><span data-ttu-id="b72dd-104">Klanten terugbetalen</span><span class="sxs-lookup"><span data-stu-id="b72dd-104">Reimburse customers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="98417-105">In dit artikel wordt uitgelegd hoe u terugbetalingstransacties kunt maken voor een groep klanten.</span><span class="sxs-lookup"><span data-stu-id="98417-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="98417-106">Als een klant een creditsaldo heeft, kunt u de klant het saldobedrag terugbetalen.</span><span class="sxs-lookup"><span data-stu-id="98417-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
+<span data-ttu-id="b72dd-105">In dit artikel wordt uitgelegd hoe u terugbetalingstransacties kunt maken voor een groep klanten.</span><span class="sxs-lookup"><span data-stu-id="b72dd-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="b72dd-106">Als een klant een creditsaldo heeft, kunt u de klant het saldobedrag terugbetalen.</span><span class="sxs-lookup"><span data-stu-id="b72dd-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
 
-<span data-ttu-id="98417-107">De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u start.</span><span class="sxs-lookup"><span data-stu-id="98417-107">The following table shows the prerequisites that must be in place before you start.</span></span>
+<span data-ttu-id="b72dd-107">De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u start.</span><span class="sxs-lookup"><span data-stu-id="b72dd-107">The following table shows the prerequisites that must be in place before you start.</span></span>
 
-| <span data-ttu-id="98417-108">Vereiste</span><span class="sxs-lookup"><span data-stu-id="98417-108">Prerequisite</span></span>                                                            | <span data-ttu-id="98417-109">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="98417-109">Description</span></span>                                                                                                                                                                                 |
+| <span data-ttu-id="b72dd-108">Vereiste</span><span class="sxs-lookup"><span data-stu-id="b72dd-108">Prerequisite</span></span>                                                            | <span data-ttu-id="b72dd-109">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="b72dd-109">Description</span></span>                                                                                                                                                                                 |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="98417-110">Geef het minimale terugbetalingsbedrag voor de rechtspersoon op.</span><span class="sxs-lookup"><span data-stu-id="98417-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="98417-111">Voer op de pagina **Parameters van module Klanten** in het gebied **Algemeen** in het veld **Minimum voor terugbetaling** het minimumbedrag in dat voor de klant kan worden terugbetaald.</span><span class="sxs-lookup"><span data-stu-id="98417-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
-| <span data-ttu-id="98417-112">Optioneel: voeg een leveranciersrekening toe voor elke klant die kan worden terugbetaald.</span><span class="sxs-lookup"><span data-stu-id="98417-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="98417-113">Selecteer op de pagina **Klanten** op het sneltabblad **Overige details** in het veld **Leveranciersrekening** de leveranciersrekening voor de klant.</span><span class="sxs-lookup"><span data-stu-id="98417-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
+| <span data-ttu-id="b72dd-110">Geef het minimale terugbetalingsbedrag voor de rechtspersoon op.</span><span class="sxs-lookup"><span data-stu-id="b72dd-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="b72dd-111">Voer op de pagina **Parameters van module Klanten** in het gebied **Algemeen** in het veld **Minimum voor terugbetaling** het minimumbedrag in dat voor de klant kan worden terugbetaald.</span><span class="sxs-lookup"><span data-stu-id="b72dd-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
+| <span data-ttu-id="b72dd-112">Optioneel: voeg een leveranciersrekening toe voor elke klant die kan worden terugbetaald.</span><span class="sxs-lookup"><span data-stu-id="b72dd-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="b72dd-113">Selecteer op de pagina **Klanten** op het sneltabblad **Overige details** in het veld **Leveranciersrekening** de leveranciersrekening voor de klant.</span><span class="sxs-lookup"><span data-stu-id="b72dd-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
 
-<span data-ttu-id="98417-114">Wanneer u terugbetalingstransacties maakt, wordt een leveranciersfactuur gemaakt voor het bedrag van het creditsaldo.</span><span class="sxs-lookup"><span data-stu-id="98417-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="98417-115">Met het terugbetalingsproces wordt het creditsaldo voor de klantrekening verwijderd en wordt een te betalen saldo voor de leveranciersrekening gemaakt die met de klant overeenkomt.</span><span class="sxs-lookup"><span data-stu-id="98417-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
+<span data-ttu-id="b72dd-114">Wanneer u terugbetalingstransacties maakt, wordt een leveranciersfactuur gemaakt voor het bedrag van het creditsaldo.</span><span class="sxs-lookup"><span data-stu-id="b72dd-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="b72dd-115">Met het terugbetalingsproces wordt het creditsaldo voor de klantrekening verwijderd en wordt een te betalen saldo voor de leveranciersrekening gemaakt die met de klant overeenkomt.</span><span class="sxs-lookup"><span data-stu-id="b72dd-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
 
-1.  <span data-ttu-id="98417-116">Voer in Klanten het proces **Terugbetaling** uit.</span><span class="sxs-lookup"><span data-stu-id="98417-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
-2.  <span data-ttu-id="98417-117">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="98417-117">Follow one of these steps:</span></span>
-    -   <span data-ttu-id="98417-118">Als u wilt terugbetalen aan specifieke klantrekeningen, klikt u op **Selecteren** en geeft u de klantrekeningen in de query op.</span><span class="sxs-lookup"><span data-stu-id="98417-118">To reimburse specific customer accounts, click **Select**, and specify the customer accounts in the query.</span></span>
-    -   <span data-ttu-id="98417-119">Klik op **OK** als u wilt terugbetalen aan alle klantrekeningen.</span><span class="sxs-lookup"><span data-stu-id="98417-119">To reimburse all customer accounts, click **OK**.</span></span>
+1.  <span data-ttu-id="b72dd-116">Voer in Klanten het proces **Terugbetaling** uit.</span><span class="sxs-lookup"><span data-stu-id="b72dd-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
+2.  <span data-ttu-id="b72dd-117">Volg één van deze stappen:</span><span class="sxs-lookup"><span data-stu-id="b72dd-117">Follow one of these steps:</span></span>
+    -   <span data-ttu-id="b72dd-118">Als u wilt terugbetalen aan specifieke klantrekeningen, klikt u op **Selecteren** en geeft u de klantrekeningen in de query op.</span><span class="sxs-lookup"><span data-stu-id="b72dd-118">To reimburse specific customer accounts, click **Select**, and specify the customer accounts in the query.</span></span>
+    -   <span data-ttu-id="b72dd-119">Klik op **OK** als u wilt terugbetalen aan alle klantrekeningen.</span><span class="sxs-lookup"><span data-stu-id="b72dd-119">To reimburse all customer accounts, click **OK**.</span></span>
 
-    <span data-ttu-id="98417-120">De creditbedragen worden overgebracht naar de leveranciersrekeningen van de klanten en worden verwerkt als normale betalingen.</span><span class="sxs-lookup"><span data-stu-id="98417-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="98417-121">Als een klant geen leverancierrekening heeft, wordt automatisch een eenmalige leverancierrekening voor de klant gemaakt.</span><span class="sxs-lookup"><span data-stu-id="98417-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
-3.  <span data-ttu-id="98417-122">Als u de terugbetalingstransacties wilt weergeven die zijn gemaakt, gebruikt u de pagina **Terugbetaling**.</span><span class="sxs-lookup"><span data-stu-id="98417-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
-4.  <span data-ttu-id="98417-123">In Leveranciers maakt u een betaling voor de leveranciersfacturen die met het terugbetalingsproces zijn gemaakt.</span><span class="sxs-lookup"><span data-stu-id="98417-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
-
+    <span data-ttu-id="b72dd-120">De creditbedragen worden overgebracht naar de leveranciersrekeningen van de klanten en worden verwerkt als normale betalingen.</span><span class="sxs-lookup"><span data-stu-id="b72dd-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="b72dd-121">Als een klant geen leverancierrekening heeft, wordt automatisch een eenmalige leverancierrekening voor de klant gemaakt.</span><span class="sxs-lookup"><span data-stu-id="b72dd-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
+3.  <span data-ttu-id="b72dd-122">Als u de terugbetalingstransacties wilt weergeven die zijn gemaakt, gebruikt u de pagina **Terugbetaling**.</span><span class="sxs-lookup"><span data-stu-id="b72dd-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
+4.  <span data-ttu-id="b72dd-123">In Leveranciers maakt u een betaling voor de leveranciersfacturen die met het terugbetalingsproces zijn gemaakt.</span><span class="sxs-lookup"><span data-stu-id="b72dd-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
 
 
 

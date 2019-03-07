@@ -1,13 +1,13 @@
---- 
-title: "Online kanaal maken en kanaalkenmerken definiëren"
-description: "Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen ervan aan de organisatiehiërarchie."
+---
+title: Online kanaal maken en kanaalkenmerken definiëren
+description: Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen ervan aan de organisatiehiërarchie.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailSPOnlineStoreDetailPage, SysLookupMultiSelectGrid, DimensionLookup, OMHierarchyManager, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
@@ -17,48 +17,47 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312365"
 ---
-# <a name="create-online-channel-and-define-channel-attributes"></a><span data-ttu-id="79668-103">Online kanaal maken en kanaalkenmerken definiëren</span><span class="sxs-lookup"><span data-stu-id="79668-103">Create online channel and define channel attributes</span></span>
+# <a name="create-online-channel-and-define-channel-attributes"></a><span data-ttu-id="f2a1a-103">Online kanaal maken en kanaalkenmerken definiëren</span><span class="sxs-lookup"><span data-stu-id="f2a1a-103">Create online channel and define channel attributes</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="79668-104">Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen ervan aan de organisatiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="79668-104">This procedure walks through creating a new online channel and adding it to the organization hierarchy.</span></span> <span data-ttu-id="79668-105">U moet de organisatiehiërarchie maken voordat u een nieuw online kanaal kunt maken.</span><span class="sxs-lookup"><span data-stu-id="79668-105">You must create the organization hierarchy before you can create a new online channel.</span></span> <span data-ttu-id="79668-106">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="79668-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="f2a1a-104">Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen ervan aan de organisatiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-104">This procedure walks through creating a new online channel and adding it to the organization hierarchy.</span></span> <span data-ttu-id="f2a1a-105">U moet de organisatiehiërarchie maken voordat u een nieuw online kanaal kunt maken.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-105">You must create the organization hierarchy before you can create a new online channel.</span></span> <span data-ttu-id="f2a1a-106">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-106">This procedure uses the USRT demo data company.</span></span>
 
 
-## <a name="create-a-new-online-channel"></a><span data-ttu-id="79668-107">Een nieuw online kanaal maken</span><span class="sxs-lookup"><span data-stu-id="79668-107">Create a new online channel</span></span>
-1. <span data-ttu-id="79668-108">Ga naar Detailhandel en commerce > Kanalen > Onlinewinkels.</span><span class="sxs-lookup"><span data-stu-id="79668-108">Go to Retail and commerce > Channels > Online stores.</span></span>
-2. <span data-ttu-id="79668-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="79668-109">Click New.</span></span>
-3. <span data-ttu-id="79668-110">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="79668-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="79668-111">Typ of selecteer een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="79668-111">In the Warehouse field, enter or select a value.</span></span>
-5. <span data-ttu-id="79668-112">Selecteer een optie in het veld Winkeltijdzone.</span><span class="sxs-lookup"><span data-stu-id="79668-112">In the Store time zone field, select an option.</span></span>
-6. <span data-ttu-id="79668-113">Typ of selecteer een waarde in het veld Standaardklant.</span><span class="sxs-lookup"><span data-stu-id="79668-113">In the Default customer field, enter or select a value.</span></span>
-7. <span data-ttu-id="79668-114">Typ of selecteer een waarde in het veld Adresboek van klant.</span><span class="sxs-lookup"><span data-stu-id="79668-114">In the Customer address book field, enter or select a value.</span></span>
-8. <span data-ttu-id="79668-115">Typ of selecteer een waarde in het veld Betalingstermijnen.</span><span class="sxs-lookup"><span data-stu-id="79668-115">In the Terms of payment field, enter or select a value.</span></span>
-9. <span data-ttu-id="79668-116">Typ of selecteer een waarde in het veld Betalingsmethode.</span><span class="sxs-lookup"><span data-stu-id="79668-116">In the Method of payment field, enter or select a value.</span></span>
-10. <span data-ttu-id="79668-117">Typ of selecteer een waarde in het veld Profiel voor e-mailmelding.</span><span class="sxs-lookup"><span data-stu-id="79668-117">In the Email notification profile field, enter or select a value.</span></span>
-11. <span data-ttu-id="79668-118">Vouw de sectie Financiële dimensies uit.</span><span class="sxs-lookup"><span data-stu-id="79668-118">Expand the Financial dimensions section.</span></span>
-12. <span data-ttu-id="79668-119">Typ of selecteer een waarde in het veld Bedrijfseenheid.</span><span class="sxs-lookup"><span data-stu-id="79668-119">In the BusinessUnit field, enter or select a value.</span></span>
-    * <span data-ttu-id="79668-120">Stel ook de waarde in voor alle andere standaarddimensies.</span><span class="sxs-lookup"><span data-stu-id="79668-120">Similarly set the value for all the other default dimensions.</span></span>  
-13. <span data-ttu-id="79668-121">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="79668-121">Click Save.</span></span>
+## <a name="create-a-new-online-channel"></a><span data-ttu-id="f2a1a-107">Een nieuw online kanaal maken</span><span class="sxs-lookup"><span data-stu-id="f2a1a-107">Create a new online channel</span></span>
+1. <span data-ttu-id="f2a1a-108">Ga naar Detailhandel en commerce > Kanalen > Onlinewinkels.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-108">Go to Retail and commerce > Channels > Online stores.</span></span>
+2. <span data-ttu-id="f2a1a-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-109">Click New.</span></span>
+3. <span data-ttu-id="f2a1a-110">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="f2a1a-111">Typ of selecteer een waarde in het veld Magazijn.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-111">In the Warehouse field, enter or select a value.</span></span>
+5. <span data-ttu-id="f2a1a-112">Selecteer een optie in het veld Winkeltijdzone.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-112">In the Store time zone field, select an option.</span></span>
+6. <span data-ttu-id="f2a1a-113">Typ of selecteer een waarde in het veld Standaardklant.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-113">In the Default customer field, enter or select a value.</span></span>
+7. <span data-ttu-id="f2a1a-114">Typ of selecteer een waarde in het veld Adresboek van klant.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-114">In the Customer address book field, enter or select a value.</span></span>
+8. <span data-ttu-id="f2a1a-115">Typ of selecteer een waarde in het veld Betalingstermijnen.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-115">In the Terms of payment field, enter or select a value.</span></span>
+9. <span data-ttu-id="f2a1a-116">Typ of selecteer een waarde in het veld Betalingsmethode.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-116">In the Method of payment field, enter or select a value.</span></span>
+10. <span data-ttu-id="f2a1a-117">Typ of selecteer een waarde in het veld Profiel voor e-mailmelding.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-117">In the Email notification profile field, enter or select a value.</span></span>
+11. <span data-ttu-id="f2a1a-118">Vouw de sectie Financiële dimensies uit.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-118">Expand the Financial dimensions section.</span></span>
+12. <span data-ttu-id="f2a1a-119">Typ of selecteer een waarde in het veld Bedrijfseenheid.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-119">In the BusinessUnit field, enter or select a value.</span></span>
+    * <span data-ttu-id="f2a1a-120">Stel ook de waarde in voor alle andere standaarddimensies.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-120">Similarly set the value for all the other default dimensions.</span></span>  
+13. <span data-ttu-id="f2a1a-121">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-121">Click Save.</span></span>
 
-## <a name="add-the-online-channel-to-organization-hierarchy"></a><span data-ttu-id="79668-122">Het online kanaal toevoegen aan de organisatiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="79668-122">Add the online channel to organization hierarchy</span></span>
-1. <span data-ttu-id="79668-123">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="79668-123">Close the page.</span></span>
-2. <span data-ttu-id="79668-124">Ga naar Organisatiebeheer > Organisaties > Organisatiehiërarchieën.</span><span class="sxs-lookup"><span data-stu-id="79668-124">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
-3. <span data-ttu-id="79668-125">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="79668-125">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="79668-126">Klik op Weergeven.</span><span class="sxs-lookup"><span data-stu-id="79668-126">Click View.</span></span>
-5. <span data-ttu-id="79668-127">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="79668-127">Click Edit.</span></span>
-    * <span data-ttu-id="79668-128">U kunt elk hiërarchieknooppunt selecteren waaronder u het nieuwe kanaal wilt invoegen.</span><span class="sxs-lookup"><span data-stu-id="79668-128">You can select any hierarchy node under which you want to insert the new channel.</span></span>  
-6. <span data-ttu-id="79668-129">Klik op Invoegen.</span><span class="sxs-lookup"><span data-stu-id="79668-129">Click Insert.</span></span>
-7. <span data-ttu-id="79668-130">Klik op Detailhandelafzetkanaal.</span><span class="sxs-lookup"><span data-stu-id="79668-130">Click Retail channel.</span></span>
-8. <span data-ttu-id="79668-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="79668-131">Click OK.</span></span>
-9. <span data-ttu-id="79668-132">Klik op Publiceren om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="79668-132">Click Publish to open the drop dialog.</span></span>
-10. <span data-ttu-id="79668-133">Typ in het veld Begindatum de datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="79668-133">In the Effective date field, enter a date and time.</span></span>
-11. <span data-ttu-id="79668-134">Klik op Publiceren.</span><span class="sxs-lookup"><span data-stu-id="79668-134">Click Publish.</span></span>
-
+## <a name="add-the-online-channel-to-organization-hierarchy"></a><span data-ttu-id="f2a1a-122">Het online kanaal toevoegen aan de organisatiehiërarchie</span><span class="sxs-lookup"><span data-stu-id="f2a1a-122">Add the online channel to organization hierarchy</span></span>
+1. <span data-ttu-id="f2a1a-123">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-123">Close the page.</span></span>
+2. <span data-ttu-id="f2a1a-124">Ga naar Organisatiebeheer > Organisaties > Organisatiehiërarchieën.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-124">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
+3. <span data-ttu-id="f2a1a-125">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-125">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="f2a1a-126">Klik op Weergeven.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-126">Click View.</span></span>
+5. <span data-ttu-id="f2a1a-127">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-127">Click Edit.</span></span>
+    * <span data-ttu-id="f2a1a-128">U kunt elk hiërarchieknooppunt selecteren waaronder u het nieuwe kanaal wilt invoegen.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-128">You can select any hierarchy node under which you want to insert the new channel.</span></span>  
+6. <span data-ttu-id="f2a1a-129">Klik op Invoegen.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-129">Click Insert.</span></span>
+7. <span data-ttu-id="f2a1a-130">Klik op Detailhandelafzetkanaal.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-130">Click Retail channel.</span></span>
+8. <span data-ttu-id="f2a1a-131">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-131">Click OK.</span></span>
+9. <span data-ttu-id="f2a1a-132">Klik op Publiceren om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-132">Click Publish to open the drop dialog.</span></span>
+10. <span data-ttu-id="f2a1a-133">Typ in het veld Begindatum de datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-133">In the Effective date field, enter a date and time.</span></span>
+11. <span data-ttu-id="f2a1a-134">Klik op Publiceren.</span><span class="sxs-lookup"><span data-stu-id="f2a1a-134">Click Publish.</span></span>
 
